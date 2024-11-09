@@ -1,0 +1,5656 @@
+1
+00:00:00,000 --> 00:00:12,000
+ No problem doing that.
+
+2
+00:00:12,000 --> 00:00:25,000
+ You still have one more week to go.
+
+3
+00:00:25,000 --> 00:00:29,000
+ So let's start now.
+
+4
+00:00:29,000 --> 00:00:35,000
+ Last week we finished part one.
+
+5
+00:00:35,000 --> 00:00:48,000
+ As you know, we spent six weeks including introduction, usually not too much technical content.
+
+6
+00:00:48,000 --> 00:01:01,000
+ So from today we will start the part two, which I think is week 11.
+
+7
+00:01:01,000 --> 00:01:06,000
+ We will have one hour and a half of the time doing the quiz.
+
+8
+00:01:06,000 --> 00:01:16,000
+ And then in the middle usually what I do in the past is week nine.
+
+9
+00:01:16,000 --> 00:01:22,000
+ Because after recess week will be week eight and then after that week nine.
+
+10
+00:01:22,000 --> 00:01:33,000
+ I will see whether I can finish going through assignment one markings and get the results.
+
+11
+00:01:33,000 --> 00:01:36,000
+ So hopefully I can do so.
+
+12
+00:01:36,000 --> 00:01:39,000
+ So either week nine or ten.
+
+13
+00:01:39,000 --> 00:01:41,000
+ Usually it's week nine.
+
+14
+00:01:41,000 --> 00:01:46,000
+ But as I say this semester the class size is not double.
+
+15
+00:01:46,000 --> 00:01:53,000
+ It's three times of what I have in the past, the maximum one.
+
+16
+00:01:53,000 --> 00:02:00,000
+ So it may take much longer time to go through the assignment of you.
+
+17
+00:02:00,000 --> 00:02:08,000
+ So anyway roughly regarding the teaching will be about six weeks for part one.
+
+18
+00:02:08,000 --> 00:02:16,000
+ And then excluding the discussion on the assignment one.
+
+19
+00:02:16,000 --> 00:02:19,000
+ That's usually my style.
+
+20
+00:02:19,000 --> 00:02:23,000
+ I spend probably about one hour going through.
+
+21
+00:02:23,000 --> 00:02:30,000
+ So it will take about half of the week, the teaching time.
+
+22
+00:02:30,000 --> 00:02:35,000
+ And then half one hour for the quiz week 11.
+
+23
+00:02:35,000 --> 00:02:41,000
+ So in the semester also later you will see it's part two, many more pages.
+
+24
+00:02:41,000 --> 00:02:52,000
+ But if you learn the part one, you know, already have solid foundation through doing the assignments
+
+25
+00:02:52,000 --> 00:02:55,000
+ and going through the materials and so on.
+
+26
+00:02:55,000 --> 00:02:59,000
+ Then you will find it's really easier.
+
+27
+00:02:59,000 --> 00:03:00,000
+ I hope so.
+
+28
+00:03:00,000 --> 00:03:03,000
+ That's my past experience.
+
+29
+00:03:03,000 --> 00:03:13,000
+ And also based on the time I spend more on part one, comparing then part two.
+
+30
+00:03:13,000 --> 00:03:18,000
+ Then in the final exam question paper.
+
+31
+00:03:18,000 --> 00:03:25,000
+ So now doing the exam paper setting as you know for professors.
+
+32
+00:03:25,000 --> 00:03:28,000
+ We are busy in the middle of the semester.
+
+33
+00:03:28,000 --> 00:03:30,000
+ That's the busy style.
+
+34
+00:03:30,000 --> 00:03:38,000
+ So I will, among four questions, should be 2.5 in part one.
+
+35
+00:03:38,000 --> 00:03:41,000
+ 1.5 for the part two.
+
+36
+00:03:41,000 --> 00:03:47,000
+ So just they don't know because part one is more contains, we spend more time and so on.
+
+37
+00:03:47,000 --> 00:03:52,000
+ So that's roughly the guy like some years I said half half.
+
+38
+00:03:52,000 --> 00:04:05,000
+ So but this year I, as you'll see here, you see, so I can show you the summary.
+
+39
+00:04:05,000 --> 00:04:14,000
+ So you see here, that was I did in some years, last year, the year before.
+
+40
+00:04:14,000 --> 00:04:19,000
+ You can see I start the patient estimation from way five.
+
+41
+00:04:19,000 --> 00:04:25,000
+ But this semester, you all know we start only last week.
+
+42
+00:04:25,000 --> 00:04:30,000
+ The way we find just, just talk a little bit.
+
+43
+00:04:30,000 --> 00:04:35,000
+ So we're, you know, having more time on the part one.
+
+44
+00:04:35,000 --> 00:04:44,000
+ Okay. And then, yeah, you, yeah, you will hopefully learn more.
+
+45
+00:04:44,000 --> 00:04:48,000
+ You see, learn more for the, for the part one.
+
+46
+00:04:48,000 --> 00:04:55,000
+ Later you will see the part two, at least some of the contents in the sense similar.
+
+47
+00:04:55,000 --> 00:05:03,000
+ And in, because I got some questions from, from students about the assignments and so on.
+
+48
+00:05:03,000 --> 00:05:11,000
+ And today's thing is the first week for the, for the part two.
+
+49
+00:05:11,000 --> 00:05:16,000
+ And it's, you know, this detection estimation is a little bit like in parallel.
+
+50
+00:05:16,000 --> 00:05:22,000
+ So we start with the easy, easy lecture one for the introduction.
+
+51
+00:05:22,000 --> 00:05:30,000
+ But I will keep in mind about trying to link with, with part one, with the estimation, like why do we,
+
+52
+00:05:31,000 --> 00:05:39,000
+ how are we going to handle like from one sample or from multiple sample and what's the problem.
+
+53
+00:05:39,000 --> 00:05:47,000
+ And, and you will see some of the techniques are quite similar, like taking the expectation.
+
+54
+00:05:47,000 --> 00:05:50,000
+ This is one of the very fundamental.
+
+55
+00:05:50,000 --> 00:05:55,000
+ So I always say if in the end you do not learn much,
+
+56
+00:05:55,000 --> 00:06:04,000
+ at least you should always remember given some, you know, random data or signal in noise or so on.
+
+57
+00:06:04,000 --> 00:06:10,000
+ You'll need, you'll learn how to do expectation and the variant.
+
+58
+00:06:10,000 --> 00:06:12,000
+ That's the very basic.
+
+59
+00:06:12,000 --> 00:06:17,000
+ And these two things are to be very fundamental in many of the projects you are doing.
+
+60
+00:06:17,000 --> 00:06:23,000
+ Because in practical projects or applications,
+
+61
+00:06:23,000 --> 00:06:30,000
+ very often you only have the first order and second order statistic to manipulate.
+
+62
+00:06:30,000 --> 00:06:34,000
+ So you, you usually don't have the PDA.
+
+63
+00:06:34,000 --> 00:06:37,000
+ If you're PDA, you may not be accurate.
+
+64
+00:06:37,000 --> 00:06:43,000
+ You still need to estimate and, and quite often you assume Gaussian.
+
+65
+00:06:43,000 --> 00:06:45,000
+ Why, why Gaussian?
+
+66
+00:06:45,000 --> 00:06:48,000
+ Gaussian, you only need to know the mean and the value.
+
+67
+00:06:48,000 --> 00:06:54,000
+ And so that's why it's to somewhat relating, you know, of a Gaussian.
+
+68
+00:06:54,000 --> 00:07:06,000
+ Once you know the mean and the value, you know the PDA, but not for other, other random variable in general.
+
+69
+00:07:06,000 --> 00:07:18,000
+ So the, actually the uniform distribution not, not quite, you'll, you'll can't go back.
+
+70
+00:07:18,000 --> 00:07:26,000
+ You'll, you'll certainly need to know the, the, the interval, the starting point and the ending point.
+
+71
+00:07:26,000 --> 00:07:33,000
+ Also it's somewhat determined by the middle of the interval and the length of interval.
+
+72
+00:07:33,000 --> 00:07:41,000
+ So you'll, from this tool you'll, you cannot go back to the uniform, the PDA.
+
+73
+00:07:41,000 --> 00:07:54,000
+ So, so I will say probably Gaussian is the only, you know, the random variable where you only need to, to fully describe the PDA.
+
+74
+00:07:55,000 --> 00:08:04,000
+ So, so let's have a quick review of what we learned last week for, we, we six.
+
+75
+00:08:04,000 --> 00:08:07,000
+ So I, I just used the previous one.
+
+76
+00:08:07,000 --> 00:08:18,000
+ And I must say this is a very difficult part because we are handling not just noise in the data.
+
+77
+00:08:18,000 --> 00:08:24,000
+ This unknown random parameter, either one or several.
+
+78
+00:08:24,000 --> 00:08:28,000
+ But the good thing is you can make good use of the prior knowledge.
+
+79
+00:08:28,000 --> 00:08:41,000
+ And since in this setting, both the measure data and at least some of the parameters, you have to be careful when like giving a question.
+
+80
+00:08:41,000 --> 00:08:46,000
+ You know, you need to see which one, random which one are not.
+
+81
+00:08:46,000 --> 00:09:01,000
+ But of course in the questions or exams, I will always make it clear which are the random one, which are the deterministic or which are the known, known parameter.
+
+82
+00:09:01,000 --> 00:09:05,000
+ You can have knowns and unknowns also.
+
+83
+00:09:05,000 --> 00:09:08,000
+ So, okay, so this is a very fundamental.
+
+84
+00:09:08,000 --> 00:09:23,000
+ Also in general, you may be quite difficult to, to, to get those PDA or prior PDA or conditional PDA, but like this, this is the, so that's why I call it Bayes theory.
+
+85
+00:09:23,000 --> 00:09:25,000
+ So, okay.
+
+86
+00:09:25,000 --> 00:09:32,000
+ And then, after that we define three risk, risk functions.
+
+87
+00:09:33,000 --> 00:09:38,000
+ Cortartic, which is very useful and easy.
+
+88
+00:09:38,000 --> 00:09:44,000
+ And then absolute, this one is supposed to be useful, but we have to apply.
+
+89
+00:09:44,000 --> 00:09:54,000
+ So we really do not derive any measure based on this, but this here on this is no linear, but this is quite simple.
+
+90
+00:09:54,000 --> 00:10:09,000
+ So we are based on this, and the heat or miss errors we derive to as estimator.
+
+91
+00:10:09,000 --> 00:10:20,000
+ And then how we are doing this parameter estimation in the random case.
+
+92
+00:10:20,000 --> 00:10:23,000
+ We get the conditional cause.
+
+93
+00:10:23,000 --> 00:10:26,000
+ The conditional cause you should see here.
+
+94
+00:10:26,000 --> 00:10:33,000
+ We, because we are estimating theta and then your condition on the data.
+
+95
+00:10:33,000 --> 00:10:58,000
+ But because now this, this theta random, so you need to base on this conditional PDF and, and, and the rest cause function to do the average, try to minimize the minimizer cause.
+
+96
+00:10:58,000 --> 00:11:17,000
+ And then we can also go one more step by considering the total average cause or here is the Bayes risk by, you know, on top of this, you also integrate over the, over the, all the possible major data.
+
+97
+00:11:17,000 --> 00:11:20,000
+ So this is the combination of the two.
+
+98
+00:11:20,000 --> 00:11:22,000
+ It's a double integration.
+
+99
+00:11:22,000 --> 00:11:35,000
+ But if you have many data sample, you will have to do many say any integration, which again is not the divisible or very difficult to do.
+
+100
+00:11:35,000 --> 00:11:37,000
+ So, yeah.
+
+101
+00:11:37,000 --> 00:11:50,000
+ So after that, we derive this is one of the very useful one based on the Bayes estimator, which is minimize this.
+
+102
+00:11:50,000 --> 00:11:58,000
+ And then we get a relatively simple result, which is the conditional means.
+
+103
+00:11:58,000 --> 00:12:09,000
+ Okay, so this, and then when applied to the case, we have a general linear models and we get this.
+
+104
+00:12:09,000 --> 00:12:20,000
+ So linear, these two, the data based on, based on the linearity, based on unknown parameters.
+
+105
+00:12:20,000 --> 00:12:25,000
+ So, so we will have this.
+
+106
+00:12:25,000 --> 00:12:30,000
+ So again, here is more involved because the theta itself is linked.
+
+107
+00:12:30,000 --> 00:12:40,000
+ So we need to get the mean, get the variant covariant matrix if it's multiple parameters.
+
+108
+00:12:40,000 --> 00:12:46,000
+ And then we also get this maximum a posterior map.
+
+109
+00:12:46,000 --> 00:12:48,000
+ So this is the one.
+
+110
+00:12:48,000 --> 00:12:52,000
+ It looks quite similar to MLE.
+
+111
+00:12:52,000 --> 00:13:01,000
+ So you're, but the, the main difference here is we are involving both, both are random.
+
+112
+00:13:01,000 --> 00:13:08,000
+ So this is the conditional pdf, conditional on the, on the data.
+
+113
+00:13:08,000 --> 00:13:19,000
+ And then we're so a simplified into the linear Bayesian estimator.
+
+114
+00:13:19,000 --> 00:13:27,000
+ So here is saying in parallel to the blue, but it's a little bit more involved.
+
+115
+00:13:27,000 --> 00:13:32,000
+ And also, so that's our calling linear MMSE.
+
+116
+00:13:32,000 --> 00:13:40,000
+ And in the scalar case, we, we have this and then BMSE based on that and so on.
+
+117
+00:13:40,000 --> 00:13:43,000
+ So you, yeah.
+
+118
+00:13:43,000 --> 00:13:48,000
+ Some students asked about, you know, one of the questions is the quadratic one.
+
+119
+00:13:48,000 --> 00:13:57,000
+ So, so linear because it depends on the next linearity and quadratic you just add second order.
+
+120
+00:13:57,000 --> 00:14:00,000
+ The question is only one sample.
+
+121
+00:14:00,000 --> 00:14:04,000
+ So it's relatively easy.
+
+122
+00:14:04,000 --> 00:14:14,000
+ So, so extended and then to the, yeah, the derivation and so on.
+
+123
+00:14:14,000 --> 00:14:16,000
+ So, okay.
+
+124
+00:14:16,000 --> 00:14:20,000
+ So that's how the formulas you'll get.
+
+125
+00:14:20,000 --> 00:14:32,000
+ And the vector case, you will be more complicated by the form looks similar for vector case or BMSE.
+
+126
+00:14:32,000 --> 00:14:35,000
+ So you have these metrics and you look at the diagonal one.
+
+127
+00:14:35,000 --> 00:14:42,000
+ Those of diagonal one you need in the process of calculation, but not at the end.
+
+128
+00:14:42,000 --> 00:14:55,000
+ You have to measure how big is the, the arrows and just similar to CILP in that case.
+
+129
+00:14:55,000 --> 00:14:57,000
+ So let me also highlight this.
+
+130
+00:14:57,000 --> 00:15:00,000
+ This one may be useful.
+
+131
+00:15:00,000 --> 00:15:06,000
+ Some of the parts are the same, but I, yeah.
+
+132
+00:15:06,000 --> 00:15:11,000
+ I want to highlight the metrics case.
+
+133
+00:15:11,000 --> 00:15:21,000
+ Probably not necessarily one, one, three, seven, but because I changed some of the content.
+
+134
+00:15:21,000 --> 00:15:42,000
+ So if you look at the case, so I did not explain in detail during the lecture last week, but so see here the BMSE by definition it will be a scalar because it's an inner product.
+
+135
+00:15:42,000 --> 00:15:43,000
+ Okay.
+
+136
+00:15:43,000 --> 00:15:44,000
+ All right.
+
+137
+00:15:44,000 --> 00:15:47,000
+ So, and we're looking at the vector parameter case.
+
+138
+00:15:47,000 --> 00:16:00,000
+ So if you follow the standard way to handle and being metrics, you cannot, you cannot swap in general, you know, the product.
+
+139
+00:16:00,000 --> 00:16:06,000
+ So what you explain it here, you will end up with this, this kind of terms.
+
+140
+00:16:06,000 --> 00:16:07,000
+ You see.
+
+141
+00:16:07,000 --> 00:16:14,000
+ So the A matrix here is coupled in, in the middle.
+
+142
+00:16:14,000 --> 00:16:18,000
+ This is, in the end, this is a inner product.
+
+143
+00:16:18,000 --> 00:16:32,000
+ It will be a scalar, but then there's almost impossible to, to minimize the error in terms of A because yeah.
+
+144
+00:16:32,000 --> 00:16:37,000
+ So, so at least I'm not aware of the formula.
+
+145
+00:16:37,000 --> 00:16:39,000
+ Maybe you can try to find out.
+
+146
+00:16:39,000 --> 00:16:54,000
+ So if, so if you look at what I highlight and emphasize, you see several times in order to verify, you don't need to really check the detail.
+
+147
+00:16:54,000 --> 00:16:57,000
+ You just look at the, look at the dimension.
+
+148
+00:16:57,000 --> 00:16:58,000
+ This is low vector.
+
+149
+00:16:58,000 --> 00:17:01,000
+ Then this A is metrics.
+
+150
+00:17:01,000 --> 00:17:14,000
+ It's not necessarily square because it's depending on the dimension of the, you know, of the data and also the unknown parameter.
+
+151
+00:17:14,000 --> 00:17:20,000
+ So, but anyway, it's, it's bigger than the, than the, than the vector side.
+
+152
+00:17:20,000 --> 00:17:25,000
+ It will, because we're assuming vector unknown parameter.
+
+153
+00:17:25,000 --> 00:17:32,000
+ So, so therefore it will be as a product, you will end up with a scalar.
+
+154
+00:17:32,000 --> 00:17:43,000
+ But then the problem here is we can't really derive how to get the first order derivative.
+
+155
+00:17:43,000 --> 00:17:49,000
+ And that's why this is where the metrics theory is very powerful.
+
+156
+00:17:49,000 --> 00:18:01,000
+ We use the property of this trace, trace and also, you see, make good use of the various for property.
+
+157
+00:18:01,000 --> 00:18:05,000
+ So, so remember this is not the transpose.
+
+158
+00:18:05,000 --> 00:18:09,000
+ You see, it's just a product A times B.
+
+159
+00:18:09,000 --> 00:18:14,000
+ But if you take the trace, it will be trace of B times A.
+
+160
+00:18:14,000 --> 00:18:17,000
+ Okay. It's not the transpose.
+
+161
+00:18:17,000 --> 00:18:25,000
+ So I emphasize, emphasize again the product may not be even a symmetry.
+
+162
+00:18:25,000 --> 00:18:30,000
+ So, but the trace, even they are not of the same dimension.
+
+163
+00:18:30,000 --> 00:18:33,000
+ They are the, they will be the case.
+
+164
+00:18:33,000 --> 00:18:39,000
+ So I, she will know now trace is summing up the diagonal element.
+
+165
+00:18:39,000 --> 00:18:48,000
+ Because you have to make sure this, when we talk about trace, it only apply to square, square matrix.
+
+166
+00:18:48,000 --> 00:18:51,000
+ And sum the diagonal element.
+
+167
+00:18:51,000 --> 00:18:57,000
+ So now, if you look at that, you see here, now I have this, the one we have problem.
+
+168
+00:18:57,000 --> 00:19:02,000
+ So if you apply this property trace, we do it one at a time, you see.
+
+169
+00:19:02,000 --> 00:19:08,000
+ So I, you think this, first you look at this as A, then this is B.
+
+170
+00:19:08,000 --> 00:19:12,000
+ And to get the one, I just move this one to the right side.
+
+171
+00:19:12,000 --> 00:19:16,000
+ Not taking any transpose, you see.
+
+172
+00:19:16,000 --> 00:19:19,000
+ Just move the one there, you see.
+
+173
+00:19:19,000 --> 00:19:21,000
+ The other term is the same.
+
+174
+00:19:21,000 --> 00:19:26,000
+ And then after that, we, we do one more time, you see.
+
+175
+00:19:26,000 --> 00:19:32,000
+ So therefore, you'll end up with this is very nice property at the unknown A.
+
+176
+00:19:32,000 --> 00:19:35,000
+ One of the left most, one of the right most.
+
+177
+00:19:36,000 --> 00:19:46,000
+ And then from here, you can, you can also see our E can apply into the trace.
+
+178
+00:19:46,000 --> 00:19:51,000
+ Because also very important, you need to know which operator is a linear one, you see.
+
+179
+00:19:51,000 --> 00:19:55,000
+ Linear or, or no linear.
+
+180
+00:19:55,000 --> 00:20:04,000
+ Okay. Linear operator, you can just, you can just exchange if the two operator are linear.
+
+181
+00:20:04,000 --> 00:20:07,000
+ For example, E and trace, both are linear.
+
+182
+00:20:07,000 --> 00:20:13,000
+ E of this trace is the same as you bring this E inside and then take the trace.
+
+183
+00:20:13,000 --> 00:20:19,000
+ And then also, you see, you have a product, several metrics.
+
+184
+00:20:19,000 --> 00:20:24,000
+ And then you'll need to differentiate which one are random, which are no random.
+
+185
+00:20:24,000 --> 00:20:33,000
+ As long as the no random one, you then, when you take expectation, you are considered as a constant matrix.
+
+186
+00:20:34,000 --> 00:20:38,000
+ You can, you can bring in this E inside.
+
+187
+00:20:38,000 --> 00:20:40,000
+ This is just a coefficient.
+
+188
+00:20:40,000 --> 00:20:45,000
+ And being a linear operator E, you don't, you don't square this one.
+
+189
+00:20:45,000 --> 00:20:50,000
+ But if you're operating variant, so variant is a second order.
+
+190
+00:20:50,000 --> 00:20:56,000
+ So when you apply variant, a constant, you, you can still take it out, but you have to square.
+
+191
+00:20:56,000 --> 00:21:06,000
+ Okay. So that's the, all the basic, but that's also always, you know, plays some students.
+
+192
+00:21:06,000 --> 00:21:11,000
+ I'm not saying many, many, but at least some.
+
+193
+00:21:11,000 --> 00:21:19,000
+ So usually, that's the balance of your coming to the class, at least some of the point.
+
+194
+00:21:19,000 --> 00:21:27,000
+ You can work a bit, but probably the effect not so, not so good as face to face.
+
+195
+00:21:27,000 --> 00:21:32,000
+ Okay. So, so that's how I hope it helps by adding this.
+
+196
+00:21:32,000 --> 00:21:40,000
+ So you see here, then this one become covariant matrix based on the, on the data.
+
+197
+00:21:40,000 --> 00:21:45,000
+ Actually, it's E of that.
+
+198
+00:21:45,000 --> 00:21:55,000
+ But then we typically assume zero means become covariant.
+
+199
+00:21:55,000 --> 00:22:04,000
+ Okay. Then after that, you can, now for this trace, you can have a nice formula.
+
+200
+00:22:04,000 --> 00:22:06,000
+ That's where I know.
+
+201
+00:22:06,000 --> 00:22:09,000
+ Okay. That's how we, we did.
+
+202
+00:22:09,000 --> 00:22:20,000
+ So, so that's the advantage of being able to make good use of certain linear algebraic property.
+
+203
+00:22:20,000 --> 00:22:25,000
+ Okay. Any question now?
+
+204
+00:22:26,000 --> 00:22:46,000
+ So I will, if not then I will probably, yeah, I will start the new part two and start with introduction or some of the basic theory here, which we require.
+
+205
+00:22:46,000 --> 00:23:07,000
+ And then along the way, because I hope today you, at least your fear not so, not under stress because the contents are going through relatively easy.
+
+206
+00:23:07,000 --> 00:23:25,000
+ But I need to explain a little bit why in this part two, if you look at the slide number of slides to, to 66 where the power one will only have 140.
+
+207
+00:23:25,000 --> 00:23:38,000
+ But that one is a very much content and also not every expression is given in the very detailed state.
+
+208
+00:23:38,000 --> 00:23:47,000
+ And that's why I, I had problem to having these two came called the, but at least I did this again.
+
+209
+00:23:47,000 --> 00:23:54,000
+ At least I, I managed to ask CITS to replace this one.
+
+210
+00:23:54,000 --> 00:23:59,000
+ The 201 is, has been in NTU for 10 years, so not working.
+
+211
+00:23:59,000 --> 00:24:03,000
+ So I, I locked a report.
+
+212
+00:24:03,000 --> 00:24:10,000
+ So they finally initiated one to repair, but cannot.
+
+213
+00:24:10,000 --> 00:24:13,000
+ I say I test again causing problem.
+
+214
+00:24:13,000 --> 00:24:31,000
+ So anyway, I just now you, some of you saw me going to the next LT, the LT 20, the same old one because after recess we are going to deliver another lecture and 64 01.
+
+215
+00:24:31,000 --> 00:24:36,000
+ At the same time doing, yeah, oh yeah, by the way, I'm the only lecturer for this whole course.
+
+216
+00:24:36,000 --> 00:24:39,000
+ So I will continue after the recess.
+
+217
+00:24:39,000 --> 00:24:42,000
+ For the other one, two, two lecturers.
+
+218
+00:24:42,000 --> 00:24:46,000
+ I hope I can replace the other one.
+
+219
+00:24:46,000 --> 00:24:52,000
+ But I think some of you maybe taking both of my courses.
+
+220
+00:24:52,000 --> 00:25:02,000
+ Okay, so, so being a much, you know, this one is a spa song.
+
+221
+00:25:02,000 --> 00:25:03,000
+ So that's good.
+
+222
+00:25:03,000 --> 00:25:11,000
+ I mean, for those of you who have some signal processing background like this, say, so see here, you know, now is deep learning is a top.
+
+223
+00:25:12,000 --> 00:25:23,000
+ Popular topic, but 10 years ago, comprehensive is right now the deep learning is everyone is most people just make good use of that.
+
+224
+00:25:23,000 --> 00:25:30,000
+ Compress ancient, the, you know, the main setting point is a lot of data.
+
+225
+00:25:30,000 --> 00:25:36,000
+ They are, they are not really packed.
+
+226
+00:25:36,000 --> 00:25:38,000
+ They have redundant information.
+
+227
+00:25:38,000 --> 00:25:41,000
+ So like sparse in a sense.
+
+228
+00:25:41,000 --> 00:25:52,000
+ For example, you look at the magic, many, the magic, a lot of either the redundant or some of the part, there's constant background and so on.
+
+229
+00:25:52,000 --> 00:25:54,000
+ So you can always compress.
+
+230
+00:25:54,000 --> 00:25:57,000
+ So that's all the ideas.
+
+231
+00:25:57,000 --> 00:26:00,000
+ You'll reduce those redundant.
+
+232
+00:26:00,000 --> 00:26:03,000
+ Okay, so you apply comprehensive.
+
+233
+00:26:03,000 --> 00:26:13,000
+ So comparing the lecture note of this second part, part two and part one, I will say my power is very much.
+
+234
+00:26:14,000 --> 00:26:16,000
+ Compress already.
+
+235
+00:26:16,000 --> 00:26:31,000
+ Well, this one to tell the truth, the lecture note was not done by me because I, I start teaching this course 20 years ago together with another lecturer, another colleague.
+
+236
+00:26:31,000 --> 00:26:37,000
+ So I did the part one and then he's doing this part two.
+
+237
+00:26:37,000 --> 00:26:41,000
+ So his style quite different here, right?
+
+238
+00:26:41,000 --> 00:26:49,000
+ Everything in every detail and also the slides here is it the page based on later you'll see.
+
+239
+00:26:49,000 --> 00:26:54,000
+ So every way I can go through probably 60 pages for three hours.
+
+240
+00:26:54,000 --> 00:26:57,000
+ Well, the other one is for half, probably 30.
+
+241
+00:26:57,000 --> 00:27:03,000
+ So, so anyway, don't be worried about the such, you know, much longer five.
+
+242
+00:27:03,000 --> 00:27:08,000
+ Because this one is not not compressed, but my other one is compressed.
+
+243
+00:27:08,000 --> 00:27:12,000
+ So the compressor ratio is probably even more than two.
+
+244
+00:27:12,000 --> 00:27:14,000
+ So there's more content.
+
+245
+00:27:14,000 --> 00:27:25,000
+ Okay, so, so being that I, at one time I try to compress, but then I find not so, not so easy.
+
+246
+00:27:25,000 --> 00:27:30,000
+ One page introduction, you know, so this is one page.
+
+247
+00:27:30,000 --> 00:27:35,000
+ So I never done that in my, my power combined into there.
+
+248
+00:27:35,000 --> 00:27:36,000
+ Okay.
+
+249
+00:27:36,000 --> 00:27:39,000
+ So, so coming back to here.
+
+250
+00:27:40,000 --> 00:27:57,000
+ I say early this power and part two quite in parallel because if you look at the application of both estimation,
+
+251
+00:27:57,000 --> 00:28:04,000
+ primary estimation and primary detection, you cover the application area is almost overlapped.
+
+252
+00:28:05,000 --> 00:28:11,000
+ I mean, I say it's good because you have a lot of applications in both.
+
+253
+00:28:11,000 --> 00:28:20,000
+ And very often you can also think about in, for example, in radar, so now, or many of the application,
+
+254
+00:28:20,000 --> 00:28:22,000
+ image processing and so on.
+
+255
+00:28:22,000 --> 00:28:24,000
+ Very often you'll require both.
+
+256
+00:28:24,000 --> 00:28:28,000
+ You'll either do typically you should do detection first.
+
+257
+00:28:28,000 --> 00:28:32,000
+ And after that once you detect the signal, you will see you want to learn more.
+
+258
+00:28:32,000 --> 00:28:38,000
+ So you'll try to estimate like the direction of a rival and so on.
+
+259
+00:28:38,000 --> 00:28:39,000
+ Yeah.
+
+260
+00:28:39,000 --> 00:28:40,000
+ And that was right.
+
+261
+00:28:40,000 --> 00:28:48,000
+ Many years ago when we started teaching, then his part was, was the first part, part one.
+
+262
+00:28:48,000 --> 00:28:58,000
+ But then when I, when I took over after 10 years and, and that's why I'm more familiar with the primary estimation
+
+263
+00:28:58,000 --> 00:29:04,000
+ because that's I talk for longer and my research are more in the estimation.
+
+264
+00:29:04,000 --> 00:29:11,000
+ But, but still this one after teaching more than 10 years, I think I probably also know quite a lot.
+
+265
+00:29:11,000 --> 00:29:16,000
+ And actually I did some research in detection.
+
+266
+00:29:16,000 --> 00:29:24,000
+ Maybe next, next time I show some related publication on that, but not today.
+
+267
+00:29:24,000 --> 00:29:33,000
+ Today because I think I will try to, along the way I try to help you for those students have some difficulty for the, for the assignments.
+
+268
+00:29:33,000 --> 00:29:38,000
+ I will, along the way I'll try to give some suggestion.
+
+269
+00:29:38,000 --> 00:29:49,000
+ Actually coming back to this, I, I know I can, because home world assignment is, is there is a potential or actually it's a fact that some students,
+
+270
+00:29:49,000 --> 00:30:02,000
+ and your discussion is fine, but you don't really ask someone to really to do it for you because if you do that, if I, if I detect, you know,
+
+271
+00:30:02,000 --> 00:30:14,000
+ I can find software to do the detection similarity and then, yeah, it happened before, but, or even if you say escape that, it's, it's not good for you
+
+272
+00:30:14,000 --> 00:30:22,000
+ because you don't learn much and, and you pay, you know, now the fee is quite high for MSC, MSC student.
+
+273
+00:30:22,000 --> 00:30:27,000
+ And, and furthermore, you see here, so I give you the, give you the reason.
+
+274
+00:30:27,000 --> 00:30:33,000
+ Actually in this course for many years, very, very low failure rate.
+
+275
+00:30:33,000 --> 00:30:39,000
+ And so this is, you suspect this cause because the chance of failure is very low, almost zero.
+
+276
+00:30:39,000 --> 00:30:50,000
+ Because why? Because the car size is small. And then I always say you did the part one assignment well, and out of debt for usually a few not so good ones.
+
+277
+00:30:50,000 --> 00:31:00,000
+ I, I will even personally, I talk to the student and then ask them to must come and then they will come here for the remaining part.
+
+278
+00:31:00,000 --> 00:31:09,000
+ And then those students eventually passed. But I don't know how this one now, we now as a must be good sign many students do not come here.
+
+279
+00:31:09,000 --> 00:31:14,000
+ See the, the, the current one. So, so I see how I managed that.
+
+280
+00:31:14,000 --> 00:31:29,000
+ But, but anyway, the, the good thing is if you, even if you do not do the assignment or part one well, you'll try your, yourself then, because only from there I know which one is your, you know,
+
+281
+00:31:29,000 --> 00:31:34,000
+ understand well, then I can leave your copy or you'll get help from your friend.
+
+282
+00:31:34,000 --> 00:31:41,000
+ I, I thought you, you get, you get high mark. But then eventually your problem is the, with the part two.
+
+283
+00:31:41,000 --> 00:31:51,000
+ And even worse, the final exam is 60% because, you know, NTU exam is a very, very strict, no way you can really copy from other.
+
+284
+00:31:51,000 --> 00:31:57,000
+ So, you know, you'll suffer the 60 mark versus your getting to 20 mark.
+
+285
+00:31:57,000 --> 00:32:07,000
+ So, but you never, never, even if you do not do well, you're, you still get half of the, but then you'll, you'll learn the technique, you'll learn.
+
+286
+00:32:07,000 --> 00:32:10,000
+ And I also know how to help you. Okay.
+
+287
+00:32:10,000 --> 00:32:18,000
+ So this is my personal message to those here, those are watching the video.
+
+288
+00:32:18,000 --> 00:32:23,000
+ And you can also listen. So now you'll come back application.
+
+289
+00:32:23,000 --> 00:32:29,000
+ There's not the, no problem because it's very similar.
+
+290
+00:32:29,000 --> 00:32:45,000
+ Yeah. And then for the, for the detection, later you'll see is a simpler task because we are basically, particularly for the binary detection.
+
+291
+00:32:45,000 --> 00:32:54,000
+ So we are just doing whether the signal is there or not, like the yes or not, and based on the major data.
+
+292
+00:32:54,000 --> 00:33:06,000
+ So, but of course, if you want to see how good you'll be doing, then they become optimization problem.
+
+293
+00:33:06,000 --> 00:33:17,000
+ And also if you are manipulating, you know, complicated data and, and, and if the data signal, they are very weak.
+
+294
+00:33:17,000 --> 00:33:23,000
+ So that's, so that's in a sense is also not an easy problem.
+
+295
+00:33:23,000 --> 00:33:31,000
+ But, but, but this tool, the idea is similar based on the major data, whether you have one sample or two sample.
+
+296
+00:33:31,000 --> 00:33:34,000
+ Also, I want to highlight here, you're given a problem.
+
+297
+00:33:34,000 --> 00:33:45,000
+ You need to check the, is it based on just one sample or you add two samples or you can have multiple sample, which is in general, a code N.
+
+298
+00:33:45,000 --> 00:33:52,000
+ Okay. But in all these cases, you can do detection and you can do the estimation.
+
+299
+00:33:52,000 --> 00:33:57,000
+ So that's how I see here, in relative to the estimation.
+
+300
+00:33:57,000 --> 00:34:10,000
+ If you already had some event there, you want to learn more, but if you don't see anything like noise only background, you just take it easy.
+
+301
+00:34:10,000 --> 00:34:17,000
+ And then this detection theory traditionally is more related to statistics.
+
+302
+00:34:17,000 --> 00:34:32,000
+ So you have quite, quite some relative, you know, the phrasing from statistics such as detection theory, hypothesis testing, decision theory and so on.
+
+303
+00:34:32,000 --> 00:34:34,000
+ So those, yeah.
+
+304
+00:34:34,000 --> 00:34:38,000
+ And then again, you come back to radar, you see.
+
+305
+00:34:38,000 --> 00:35:00,000
+ So for radar, I think you'll, you know, this is very useful, either military or now even in the civil application like airports and, or even, you know, for those are driving, either riding, motorbike or driving, you know,
+
+306
+00:35:01,000 --> 00:35:09,000
+ you can detect whether someone's speeding or, you know, against red lines and so on.
+
+307
+00:35:09,000 --> 00:35:18,000
+ So all those, yeah, all these device and signal processing techniques are very useful.
+
+308
+00:35:18,000 --> 00:35:22,000
+ So, such things you'll know this well.
+
+309
+00:35:22,000 --> 00:35:32,000
+ So for radar, you're sending out some AIB signals and you look at these echoes.
+
+310
+00:35:32,000 --> 00:35:38,000
+ Your radar is typically referred to those active, active radar.
+
+311
+00:35:38,000 --> 00:35:40,000
+ I mean, you send out signal.
+
+312
+00:35:40,000 --> 00:35:47,000
+ Passive one is you are sitting there, you're waiting, you receive the signal.
+
+313
+00:35:47,000 --> 00:35:51,000
+ Just like our current case, I think most of you are.
+
+314
+00:35:51,000 --> 00:35:59,000
+ So as I try to ask you, ask you a question, if you only listen, you will be like a passive radar.
+
+315
+00:35:59,000 --> 00:36:01,000
+ You don't do anything.
+
+316
+00:36:01,000 --> 00:36:08,000
+ You just, I mean, listening is one way of communication, but it's not the deal with the way.
+
+317
+00:36:08,000 --> 00:36:14,000
+ The deal with is like the active radar, send out something, then I get the response.
+
+318
+00:36:14,000 --> 00:36:19,000
+ And then based on the echo, echo is another signal I get back.
+
+319
+00:36:19,000 --> 00:36:26,000
+ So from here, you can see here, it shows me this pulse, a simple one,
+
+320
+00:36:26,000 --> 00:36:33,000
+ and then you have some catalytic, like pulse or sideways or continuous sideways.
+
+321
+00:36:33,000 --> 00:36:39,000
+ And so, and then if you're in the RAC signal, if you have signal very strong, high SNR,
+
+322
+00:36:39,000 --> 00:36:44,000
+ then of course, you'll know this is, there's some target there is very easy.
+
+323
+00:36:44,000 --> 00:36:50,000
+ You can even do it by just by inspection.
+
+324
+00:36:50,000 --> 00:36:56,000
+ But however, the difficulty is if you have a dealing with a low SNR, which is typically the case,
+
+325
+00:36:56,000 --> 00:37:09,000
+ you may not be able to see the echo clearly at least by looking at the signal only because here you have some air,
+
+326
+00:37:09,000 --> 00:37:15,000
+ air crowds there, but it's hidden together with the noise because you can see much different
+
+327
+00:37:15,000 --> 00:37:22,000
+ between this echo with low SNR and this noise only.
+
+328
+00:37:22,000 --> 00:37:35,000
+ So that's how our task here is to try our best to take out this signal out of the noise in the best way.
+
+329
+00:37:35,000 --> 00:37:41,000
+ Of course, there must be, you must have some even low SNR signal.
+
+330
+00:37:41,000 --> 00:37:50,000
+ If there's no signal, then because I told you, I work from some defense project with the DSO,
+
+331
+00:37:51,000 --> 00:38:01,000
+ Mingdeb and sometimes the requirement is very demanding until the situation where I told them very clearly,
+
+332
+00:38:01,000 --> 00:38:08,000
+ there's no signal there, it's not the weak signal, it's no signal, it's too far away the target.
+
+333
+00:38:08,000 --> 00:38:15,000
+ You don't see signal, there's no way it can do it because if no signal, even a junior, they can't,
+
+334
+00:38:15,000 --> 00:38:19,000
+ they cannot create something out of nothing.
+
+335
+00:38:19,000 --> 00:38:29,000
+ But then if you have a very weak signal, then there's a possibility and that's our task here to see how much we can do.
+
+336
+00:38:29,000 --> 00:38:41,000
+ And same for estimation, if the measure data is not related to the parameter you're looking at, then there's nothing you can do.
+
+337
+00:38:42,000 --> 00:38:53,000
+ And then there is, since in this course, we have every year seems more students from communication engineering,
+
+338
+00:38:53,000 --> 00:38:55,000
+ but in the past there's a little bit of balance.
+
+339
+00:38:55,000 --> 00:39:05,000
+ This year we have overwhelmingly probably among 160 students, 100 is from the CME, MSC student CME.
+
+340
+00:39:05,000 --> 00:39:10,000
+ The rest is PSD, MNG, SP, SPML.
+
+341
+00:39:10,000 --> 00:39:25,000
+ So CME student, you must be very familiar with this communication system and very simple signal, this finally phase shift key.
+
+342
+00:39:25,000 --> 00:39:35,000
+ Basically you're dealing with digital source, digital signal, like you're taking 6101.
+
+343
+00:39:36,000 --> 00:39:45,000
+ Then you go through a modulator, what you come out is in this case finally 0, 1.
+
+344
+00:39:45,000 --> 00:39:49,000
+ So you, in both case output, you output some signal.
+
+345
+00:39:49,000 --> 00:39:54,000
+ There is not like the radar signal and noise only.
+
+346
+00:39:54,000 --> 00:40:02,000
+ Here both have signal, but the signal behaving in different way because 1, you have the phase,
+
+347
+00:40:02,000 --> 00:40:06,000
+ and this one if 0, we don't do the phase shift.
+
+348
+00:40:06,000 --> 00:40:08,000
+ It's a proper course.
+
+349
+00:40:08,000 --> 00:40:21,000
+ S1, you add the phase of timing the signal like flip over, positive, it can't make it.
+
+350
+00:40:21,000 --> 00:40:28,000
+ So the task here is we try to differentiate these two signals because you have two signals,
+
+351
+00:40:28,000 --> 00:40:30,000
+ but the two signals are different.
+
+352
+00:40:30,000 --> 00:40:36,000
+ So we need to tell the difference in this case.
+
+353
+00:40:36,000 --> 00:40:41,000
+ But later you will see these two problems, they are very similar.
+
+354
+00:40:41,000 --> 00:40:48,000
+ You can see the two signal case, you differentiate the two signal case.
+
+355
+00:40:48,000 --> 00:40:56,000
+ It will be complicated more than the signal and noise, but they belong to the same category.
+
+356
+00:40:56,000 --> 00:41:00,000
+ You are still handling the two situations.
+
+357
+00:41:00,000 --> 00:41:03,000
+ So that's how this is doing.
+
+358
+00:41:03,000 --> 00:41:05,000
+ Your determining which signal is there.
+
+359
+00:41:05,000 --> 00:41:11,000
+ So there are two possibilities, but later you will see they are similar.
+
+360
+00:41:11,000 --> 00:41:19,000
+ But the more complicated one is your extent to more than two cases, two classes.
+
+361
+00:41:19,000 --> 00:41:24,000
+ For example, in speech recognition, and now there are many other applications.
+
+362
+00:41:24,000 --> 00:41:26,000
+ You have multiple classes.
+
+363
+00:41:26,000 --> 00:41:31,000
+ You will see multiple against, finally, more than two.
+
+364
+00:41:31,000 --> 00:41:36,000
+ Finally, you have two, either yes or no, or zero or one.
+
+365
+00:41:36,000 --> 00:41:50,000
+ For example, speech, and you can differentiate like 10 among the 10 words such as digit 0, 1 up to 9.
+
+366
+00:41:50,000 --> 00:41:55,000
+ Or you can extend to many more.
+
+367
+00:41:55,000 --> 00:42:04,000
+ So in this case, we will be doing more like, still detecting which one.
+
+368
+00:42:04,000 --> 00:42:12,000
+ But we tend to call this classification problem.
+
+369
+00:42:12,000 --> 00:42:22,000
+ So that's why we are saying this cause even somewhat related to machine learning.
+
+370
+00:42:22,000 --> 00:42:30,000
+ Because you are also doing classification pattern recognition and so on.
+
+371
+00:42:31,000 --> 00:42:43,000
+ So now coming back to this, we are now familiar with the major data.
+
+372
+00:42:43,000 --> 00:42:44,000
+ What is your major?
+
+373
+00:42:44,000 --> 00:42:46,000
+ It can be continuous time.
+
+374
+00:42:46,000 --> 00:42:59,000
+ In some control applications or some analog communication system, you do receive continuous reforms and try to work that.
+
+375
+00:43:00,000 --> 00:43:07,000
+ Similar to our estimation theory, part one, we are here.
+
+376
+00:43:07,000 --> 00:43:12,000
+ Also, our major data, we are in discrete time.
+
+377
+00:43:12,000 --> 00:43:21,000
+ We brought out the most finite data sample, n points of data.
+
+378
+00:43:21,000 --> 00:43:31,000
+ But I need to highlight the rank available in bed in this discrete sample can be continued.
+
+379
+00:43:31,000 --> 00:43:38,000
+ Usually, mostly we are dealing with the continuous rank available.
+
+380
+00:43:38,000 --> 00:43:46,000
+ But some of the techniques, it also works for the discrete rank available.
+
+381
+00:43:46,000 --> 00:43:53,000
+ So later we will touch on this briefly.
+
+382
+00:43:53,000 --> 00:44:01,000
+ So that's the same here.
+
+383
+00:44:01,000 --> 00:44:10,000
+ So if you look from heuristic point of view or from the mathematical point of view,
+
+384
+00:44:10,000 --> 00:44:15,000
+ in both detection theory and estimation theory,
+
+385
+00:44:15,000 --> 00:44:28,000
+ we are just trying to develop or try to find functions, how to combine this major data.
+
+386
+00:44:28,000 --> 00:44:34,000
+ Because we only have finite number of data samples, n, with us.
+
+387
+00:44:35,000 --> 00:44:40,000
+ So we are trying to essentially pose estimation detection.
+
+388
+00:44:40,000 --> 00:44:51,000
+ You're pointing out how to combine this data or you try to find out a function, either analytic or analytic course.
+
+389
+00:44:51,000 --> 00:44:53,000
+ We're getting an analytic function.
+
+390
+00:44:53,000 --> 00:44:58,000
+ And then in this thing, you also see machine learning, even deep learning.
+
+391
+00:44:58,000 --> 00:45:04,000
+ They're also doing the same except their function is much more complicated, you know, it's a network.
+
+392
+00:45:04,000 --> 00:45:08,000
+ And you still receive finite input data.
+
+393
+00:45:08,000 --> 00:45:17,000
+ So this whole system in the middle is, you can just think about is a function, but how to combine the data.
+
+394
+00:45:17,000 --> 00:45:19,000
+ And then combine the data for what purpose?
+
+395
+00:45:19,000 --> 00:45:25,000
+ That's how detection later you will see where it's used.
+
+396
+00:45:25,000 --> 00:45:35,000
+ And then detection is somewhat simpler because typically your combined data in your produce just one output.
+
+397
+00:45:35,000 --> 00:45:39,000
+ So it becomes a scalar.
+
+398
+00:45:39,000 --> 00:45:43,000
+ And this output, you have some value, a scalar function.
+
+399
+00:45:43,000 --> 00:45:49,000
+ Then we will, since we are doing the binary detection, mostly this course,
+
+400
+00:45:49,000 --> 00:45:54,000
+ then you only decide whether signal or not, then you use a threshold.
+
+401
+00:45:54,000 --> 00:46:01,000
+ So that's why I say detection at least the part we are learning a big easier compared to the estimation.
+
+402
+00:46:01,000 --> 00:46:15,000
+ Because there you still need to learn the, you know, the some character hidden in this data, like particularly you have multiple unknown parameters.
+
+403
+00:46:15,000 --> 00:46:18,000
+ You need to find out the features relationship.
+
+404
+00:46:18,000 --> 00:46:20,000
+ Okay.
+
+405
+00:46:20,000 --> 00:46:22,000
+ So you see here, you see?
+
+406
+00:46:22,000 --> 00:46:28,000
+ Our T is the, is a function we are trying to, trying to build.
+
+407
+00:46:28,000 --> 00:46:34,000
+ And yeah, and then based on that we will do a decision.
+
+408
+00:46:34,000 --> 00:46:39,000
+ So typically you will see you use a threshold.
+
+409
+00:46:39,000 --> 00:46:44,000
+ And then yeah, so it's mapping into decision.
+
+410
+00:46:44,000 --> 00:46:49,000
+ And that's why I call it decision theory also.
+
+411
+00:46:49,000 --> 00:47:05,000
+ And then as I said, again here, just highlight can link to the statistical hypothesis testing, which we will not going in detail.
+
+412
+00:47:05,000 --> 00:47:18,000
+ So the next one is we will, you will see this part of some world a little bit redundant because there's quite a,
+
+413
+00:47:18,000 --> 00:47:23,000
+ there's quite a, some discussion and then in the detail.
+
+414
+00:47:23,000 --> 00:47:30,000
+ So we start with a very simple task here.
+
+415
+00:47:30,000 --> 00:47:37,000
+ Assume in this case, we only have a sample, one sample, one major data.
+
+416
+00:47:37,000 --> 00:47:47,000
+ And then we are also trying to detect on whether you have DC level amplitude, the coin.
+
+417
+00:47:47,000 --> 00:47:52,000
+ Even make it easier A equal to 1, embedding in the white Gaussian noise.
+
+418
+00:47:52,000 --> 00:47:59,000
+ Where this Gaussian noise is zero mean and, and, and very.
+
+419
+00:47:59,000 --> 00:48:09,000
+ So, so in that case, I guess you will find this is somehow easy problem because only one sample.
+
+420
+00:48:09,000 --> 00:48:17,000
+ But keeping in mind is the, the, you always need to think in the statistical way.
+
+421
+00:48:17,000 --> 00:48:19,000
+ So that's how learning this call exists.
+
+422
+00:48:19,000 --> 00:48:24,000
+ At least you change, change your, your mindset.
+
+423
+00:48:24,000 --> 00:48:30,000
+ Even if you have just one sampling, your major, you, you, you have one value.
+
+424
+00:48:30,000 --> 00:48:38,000
+ Then, but the question is the, the major data, the value you get is you don't know it beforehand.
+
+425
+00:48:38,000 --> 00:48:45,000
+ Even the, I remember I once brought a call, you know, so you're, even you throw the call,
+
+426
+00:48:45,000 --> 00:48:51,000
+ you know, they all come down only to possibility with the tail or, or face.
+
+427
+00:48:51,000 --> 00:48:57,000
+ But before it really happened, you know, falling down and then it was out there, you, we don't know.
+
+428
+00:48:57,000 --> 00:49:02,000
+ So, so that's how you need to, also is one sample.
+
+429
+00:49:02,000 --> 00:49:09,000
+ You see, you still need to try to see whether you have some knowledge of this metadata so that you can,
+
+430
+00:49:09,000 --> 00:49:18,000
+ you can at least enhance the chance of, of, of detection.
+
+431
+00:49:18,000 --> 00:49:25,000
+ Yeah. So, so let's see how we formulate this as simple problem.
+
+432
+00:49:25,000 --> 00:49:34,000
+ Okay. Then of course, you subsequently will be getting more involved with more complicated.
+
+433
+00:49:34,000 --> 00:49:41,000
+ Yeah. Even with, so, so keep, keep this in mind is even if you have just one data sample,
+
+434
+00:49:41,000 --> 00:49:50,000
+ the problem may become complicated depending on how this sample, you know, behave.
+
+435
+00:49:50,000 --> 00:49:55,000
+ Okay. So keep this. So now look at this case.
+
+436
+00:49:55,000 --> 00:50:00,000
+ You may guess this problem is easy because it's a Gaussian noise and white Gaussian noise.
+
+437
+00:50:00,000 --> 00:50:05,000
+ And now the one we are going to detect the signal is a DC. It's a very simple one.
+
+438
+00:50:05,000 --> 00:50:14,000
+ And it took a little bit to here, but I hope you don't find this part a big, big boring because too easy to understand.
+
+439
+00:50:14,000 --> 00:50:23,000
+ Okay. So, so let's see what we have to decide is either noise only, you see, remember one sample.
+
+440
+00:50:23,000 --> 00:50:33,000
+ So here it's just like some of the program language. Sometimes you start with zero, some starting with one.
+
+441
+00:50:33,000 --> 00:50:41,000
+ So typically here we are following the convention. The first sample is going zero.
+
+442
+00:50:41,000 --> 00:50:48,000
+ Then noise only because the major data is a signal noise. If you have a signal noise, remember signal is one.
+
+443
+00:50:48,000 --> 00:51:01,000
+ So you have this case. And then as I say, since the noise is zero means, then you will fear statistically,
+
+444
+00:51:01,000 --> 00:51:07,000
+ you'll just treat the noise as zero. And then if there is a signal, it will be one.
+
+445
+00:51:07,000 --> 00:51:16,000
+ So a very common sense guess is we just put the threshold in the middle, you see, half.
+
+446
+00:51:16,000 --> 00:51:22,000
+ Okay. So that's how, yeah, this turned out to be the best, you know, in this case.
+
+447
+00:51:22,000 --> 00:51:32,000
+ So, yeah, so we just make a decision if it's what your major is greater than half, then signal,
+
+448
+00:51:32,000 --> 00:51:42,000
+ but smaller than half, you will consider noise. But however, the problem here is depending on how big is the noise.
+
+449
+00:51:42,000 --> 00:51:50,000
+ But even if Gaussian noise, unless the value is so small, we're almost zero.
+
+450
+00:51:50,000 --> 00:51:58,000
+ Then the case, you may think about this. If the, in the limited case, just think about that.
+
+451
+00:51:58,000 --> 00:52:05,000
+ Even if you look at the Gaussian, Gaussian diffusion is a bell curve.
+
+452
+00:52:05,000 --> 00:52:14,000
+ But if the variance is in the limit of becoming zero, then the Gaussian signal is just concentrating at the mean, you know,
+
+453
+00:52:14,000 --> 00:52:19,000
+ because it's very narrow and in the mean. And on that thing, if the variance is so big,
+
+454
+00:52:19,000 --> 00:52:25,000
+ it becomes infinity large. Then if the variance gets larger and larger, you'll get the flatter,
+
+455
+00:52:25,000 --> 00:52:33,000
+ the flatter, and eventually you can think about, imagine it's almost become all the value at the same.
+
+456
+00:52:33,000 --> 00:52:43,000
+ But of course, being a PDF, you cannot take a no-zero value, constant no-zero value over infinity interval.
+
+457
+00:52:43,000 --> 00:52:49,000
+ So you can think about the value is getting smaller and smaller, probably become the PDF,
+
+458
+00:52:49,000 --> 00:52:54,000
+ or become almost zero if you are making wider, but this value is almost the same.
+
+459
+00:52:54,000 --> 00:53:00,000
+ So yeah, this is similar if you are looking at uniform distribution.
+
+460
+00:53:00,000 --> 00:53:06,000
+ That's why uniform distribution, you must always limit it, the interval must be finite.
+
+461
+00:53:06,000 --> 00:53:11,000
+ Because if the interval becomes infinity, one over infinity, what value? Zero.
+
+462
+00:53:11,000 --> 00:53:16,000
+ And then if the PDF value becomes all zero, I mean, that doesn't make sense.
+
+463
+00:53:16,000 --> 00:53:20,000
+ So yeah, so this is something you need to think about.
+
+464
+00:53:20,000 --> 00:53:26,000
+ There is a limit, but you don't really go into the limit, either zero or infinity.
+
+465
+00:53:26,000 --> 00:53:29,000
+ You think about very close.
+
+466
+00:53:29,000 --> 00:53:44,000
+ So the problem here is there will be some errors because if the noise is large, say smaller than minus 0.5,
+
+467
+00:53:44,000 --> 00:53:50,000
+ that means it's large in absolute value, but to the negative side.
+
+468
+00:53:50,000 --> 00:53:59,000
+ Then when you're at one, you'll still be considering noise because it will be smaller than one and a half.
+
+469
+00:53:59,000 --> 00:54:02,000
+ You can get a very simple measure.
+
+470
+00:54:02,000 --> 00:54:11,000
+ One shift to the other side, subtract more than 0.5, it will be considered as noise.
+
+471
+00:54:11,000 --> 00:54:15,000
+ So because this is a problem, causing error.
+
+472
+00:54:15,000 --> 00:54:22,000
+ And then if noise only, but the noise is positive and quite large.
+
+473
+00:54:22,000 --> 00:54:30,000
+ Because Gaussian noise theoretically can go to infinity large, positive infinity, binary infinity.
+
+474
+00:54:30,000 --> 00:54:36,000
+ So to that, to extreme the possibility is very small, almost zero.
+
+475
+00:54:36,000 --> 00:54:41,000
+ But you cannot do that dealing with random variables.
+
+476
+00:54:41,000 --> 00:54:58,000
+ So then you make another errors when noise only, but we end up with detecting that major data as a signal.
+
+477
+00:54:58,000 --> 00:55:07,000
+ So therefore, here you see in general, we cannot expect to be correct all the time.
+
+478
+00:55:07,000 --> 00:55:11,000
+ I mean, that's when you are involving noise.
+
+479
+00:55:11,000 --> 00:55:14,000
+ Of course, there are some spatial situations.
+
+480
+00:55:14,000 --> 00:55:19,000
+ You have perfect detections and so on, but that's usually quite rare.
+
+481
+00:55:19,000 --> 00:55:25,000
+ So you can only say you enhance your detection probability.
+
+482
+00:55:25,000 --> 00:55:34,000
+ So therefore, the data cannot be correct all the time, but we are hoping to be correct most of the time.
+
+483
+00:55:34,000 --> 00:55:41,000
+ So at least we reduce the time when we make an error.
+
+484
+00:55:41,000 --> 00:55:54,000
+ So that's how here, we also have one data, but we can repeat the experiments many times, say a hundred times.
+
+485
+00:55:54,000 --> 00:56:02,000
+ And then in the case of the noise variance, as I mentioned earlier, if it's very small,
+
+486
+00:56:02,000 --> 00:56:09,000
+ the noise will occur mostly just around the mean value.
+
+487
+00:56:09,000 --> 00:56:18,000
+ So in that case, the number of errors will be very small because the noise variance is very small.
+
+488
+00:56:18,000 --> 00:56:24,000
+ Now then, if the noise variance increase, then you already see what I say early,
+
+489
+00:56:24,000 --> 00:56:31,000
+ you can have many more errors.
+
+490
+00:56:31,000 --> 00:56:46,000
+ So therefore, you can see if the noise in this variance equal to 0.05, we make incorrect decision, but very rare.
+
+491
+00:56:46,000 --> 00:56:56,000
+ On that thing, if you have higher noise, then the chance of making errors will increase drastically.
+
+492
+00:56:56,000 --> 00:57:03,000
+ So why? The reason I already mentioned is based on the noise distribution.
+
+493
+00:57:03,000 --> 00:57:12,000
+ But we may want to formulate this more into proper mesh problems.
+
+494
+00:57:12,000 --> 00:57:19,000
+ This we get more theoretical insight.
+
+495
+00:57:19,000 --> 00:57:27,000
+ And as I emphasized many times, the best way to describe random variable or noise is PDA.
+
+496
+00:57:27,000 --> 00:57:37,000
+ You can't do better than PDA because all the statistics always theoretically,
+
+497
+00:57:37,000 --> 00:57:43,000
+ if you have no PDA, you can get a level higher than the statistics.
+
+498
+00:57:43,000 --> 00:57:52,000
+ So therefore, if you look at the Gaussian noise case, you describe it using this PDA,
+
+499
+00:57:52,000 --> 00:57:56,000
+ and then you can see the performance.
+
+500
+00:57:56,000 --> 00:58:13,000
+ It depends on how the PDA of this major data, even if you're having just one major sample.
+
+501
+00:58:13,000 --> 00:58:16,000
+ So let's look at the case again.
+
+502
+00:58:16,000 --> 00:58:20,000
+ If noise only, then we only have this.
+
+503
+00:58:20,000 --> 00:58:24,000
+ So in this case, the mean equal to 0.
+
+504
+00:58:24,000 --> 00:58:33,000
+ However, if we have a signal, then remember our signal is the DC variable 1 constant plus this.
+
+505
+00:58:33,000 --> 00:58:44,000
+ Or in the case, so that's how here, I hope you, through this example, you can get a better understanding
+
+506
+00:58:44,000 --> 00:58:47,000
+ even from some of the Simon questions.
+
+507
+00:58:47,000 --> 00:58:53,000
+ You have no zero mean, but you're embedding in Gaussian.
+
+508
+00:58:53,000 --> 00:59:00,000
+ So basically, you still have the same PDA except the mean changes.
+
+509
+00:59:00,000 --> 00:59:04,000
+ All the else, the variance or the rest are the same.
+
+510
+00:59:04,000 --> 00:59:11,000
+ The signal from noise, you'll be mean variable equal to 1 rather than 0.
+
+511
+00:59:12,000 --> 00:59:18,000
+ Therefore, you'll see the shape will be the same.
+
+512
+00:59:18,000 --> 00:59:21,000
+ It will show this case.
+
+513
+00:59:21,000 --> 00:59:30,000
+ If the noise is very small, you will see here the shape is very sharp, because the mean are different.
+
+514
+00:59:30,000 --> 00:59:34,000
+ You'll see there's very little overlap.
+
+515
+00:59:34,000 --> 00:59:37,000
+ For Gaussian, they are always overlap.
+
+516
+00:59:37,000 --> 00:59:42,000
+ Even theoretically, they cover infinitely long interval.
+
+517
+00:59:42,000 --> 00:59:44,000
+ So much somewhere.
+
+518
+00:59:44,000 --> 00:59:47,000
+ This region will be very small.
+
+519
+00:59:47,000 --> 00:59:51,000
+ If the noise is very small, noise variance is very constant.
+
+520
+00:59:51,000 --> 00:59:56,000
+ Or that day, if the noise is bigger, then you'll see here it's broader.
+
+521
+00:59:57,000 --> 01:00:07,000
+ Even if the peak value, the distance is equal to 1, you'll see a much larger overlap.
+
+522
+01:00:07,000 --> 01:00:13,000
+ So from here, you can see from the distance between this mean value,
+
+523
+01:00:13,000 --> 01:00:23,000
+ you can more or less get a feeling of how this performs.
+
+524
+01:00:23,000 --> 01:00:26,000
+ And of course, plus the shape also.
+
+525
+01:00:33,000 --> 01:00:39,000
+ Again, I think this is very much similar to what we said.
+
+526
+01:00:39,000 --> 01:00:44,000
+ Except we are now adding one by one, adding the hyper-sacces.
+
+527
+01:00:44,000 --> 01:00:49,000
+ We try to make it formal, because in detection,
+
+528
+01:00:49,000 --> 01:00:56,000
+ when you describe a detection problem, at least, you always need to state the hyper-sacces.
+
+529
+01:00:56,000 --> 01:00:58,000
+ Basically, there will be two.
+
+530
+01:00:58,000 --> 01:01:02,000
+ One is H0, which is now the other H1.
+
+531
+01:01:02,000 --> 01:01:11,000
+ Even if in the later communication case, we always try to denote H0 to one of the signals,
+
+532
+01:01:11,000 --> 01:01:15,000
+ probably the one corresponding to the zero digit.
+
+533
+01:01:16,000 --> 01:01:19,000
+ The other is hyper-sacces one.
+
+534
+01:01:19,000 --> 01:01:22,000
+ This is differentiated two.
+
+535
+01:01:22,000 --> 01:01:26,000
+ So again, these are the descriptions.
+
+536
+01:01:26,000 --> 01:01:34,000
+ But now we are adding these under hyper-sacces zero, H0 or H1.
+
+537
+01:01:34,000 --> 01:01:43,000
+ And then you can even consider making the tool into just using one billion to describe,
+
+538
+01:01:43,000 --> 01:01:52,000
+ by introducing a parameter, which is called A, which is what I say early, is a mean.
+
+539
+01:01:52,000 --> 01:02:00,000
+ So the two hyper-sacces corresponding to either A equal to zero, the zero mean, or A equal to one.
+
+540
+01:02:01,000 --> 01:02:04,000
+ So you see here.
+
+541
+01:02:04,000 --> 01:02:15,000
+ So from here, if you know the A value, then you know the two hyper-sacces.
+
+542
+01:02:15,000 --> 01:02:22,000
+ So that's why here we call it as a parameter test of the PDF.
+
+543
+01:02:22,000 --> 01:02:30,000
+ This is parameterized with this A.
+
+544
+01:02:30,000 --> 01:02:39,000
+ And then in the early discussion, we talk about Bayer's approach.
+
+545
+01:02:39,000 --> 01:02:48,000
+ And then because Bayer's approach as the one introducing some prior probabilities.
+
+546
+01:02:48,000 --> 01:02:58,000
+ And here we also can introduce this into our hyper-sacces.
+
+547
+01:02:58,000 --> 01:03:09,000
+ Because typically in some cases, you can say I give prior probability to equally to both hyper-sacces.
+
+548
+01:03:09,000 --> 01:03:21,000
+ But sometimes you may have the knowledge about one hyper-sacces is much more likely to occur compared to others.
+
+549
+01:03:21,000 --> 01:03:26,000
+ Then you can also give like more weight also.
+
+550
+01:03:26,000 --> 01:03:31,000
+ So talk about that later.
+
+551
+01:03:32,000 --> 01:03:40,000
+ Okay. Later you will see if you have one data sample and it unless the signal is very strong.
+
+552
+01:03:40,000 --> 01:03:48,000
+ But if not the weight signal, then the SNR is being small.
+
+553
+01:03:48,000 --> 01:03:58,000
+ Your C is very hard to perform this detection problem because you either miss detection a lot.
+
+554
+01:03:58,000 --> 01:04:03,000
+ Or you are making false alarm.
+
+555
+01:04:03,000 --> 01:04:06,000
+ But remember there are two types of errors.
+
+556
+01:04:06,000 --> 01:04:14,000
+ You can't make both errors to be very small unless you have a strong signal.
+
+557
+01:04:14,000 --> 01:04:22,000
+ But what happens if you have a weak signal, then you need to have more data.
+
+558
+01:04:22,000 --> 01:04:27,000
+ Even if they follow the same distribution.
+
+559
+01:04:27,000 --> 01:04:32,000
+ The idea here is deterministic signal when they repeat.
+
+560
+01:04:32,000 --> 01:04:35,000
+ They repeat in a deterministic way.
+
+561
+01:04:35,000 --> 01:04:39,000
+ Either as a function or as a constant value.
+
+562
+01:04:39,000 --> 01:04:46,000
+ But noise, being noise, particularly Gaussian noise, they are independent.
+
+563
+01:04:46,000 --> 01:04:53,000
+ So when they repeat the simple way to remove noise, just add them together.
+
+564
+01:04:53,000 --> 01:04:56,000
+ Then they can change the way to cancel out.
+
+565
+01:04:56,000 --> 01:04:59,000
+ That's the basic idea.
+
+566
+01:04:59,000 --> 01:05:05,000
+ We can also see that it's medically later in the formulation.
+
+567
+01:05:05,000 --> 01:05:08,000
+ So in this case you see here we are adding more data.
+
+568
+01:05:08,000 --> 01:05:11,000
+ So now this is an egg-capital-ank sample.
+
+569
+01:05:11,000 --> 01:05:13,000
+ You will have this.
+
+570
+01:05:13,000 --> 01:05:19,000
+ And the reasonable way is to do the averaging.
+
+571
+01:05:19,000 --> 01:05:27,000
+ So that's how this is our familiar friends in the estimation.
+
+572
+01:05:27,000 --> 01:05:33,000
+ So this is what I say is the most easy way to remember.
+
+573
+01:05:33,000 --> 01:05:36,000
+ So the simple one.
+
+574
+01:05:36,000 --> 01:05:37,000
+ Sample mean, you see.
+
+575
+01:05:37,000 --> 01:05:38,000
+ You have n data.
+
+576
+01:05:38,000 --> 01:05:40,000
+ You add them together.
+
+577
+01:05:40,000 --> 01:05:45,000
+ But always try to divide the number of samples.
+
+578
+01:05:45,000 --> 01:05:47,000
+ That's a sample.
+
+579
+01:05:47,000 --> 01:05:54,000
+ The typical problem is if anything very big, keep adding them, you are explode.
+
+580
+01:05:54,000 --> 01:05:57,000
+ Because you can get bigger and bigger value.
+
+581
+01:05:57,000 --> 01:06:04,000
+ So that's how I will neuronew all you need to do normalization.
+
+582
+01:06:04,000 --> 01:06:11,000
+ Keep the data value within the range of 0 to 1.
+
+583
+01:06:11,000 --> 01:06:18,000
+ So therefore in this case we also can make decisions just, you know.
+
+584
+01:06:18,000 --> 01:06:20,000
+ So this is remember this is a T.
+
+585
+01:06:20,000 --> 01:06:22,000
+ How we combine the data.
+
+586
+01:06:22,000 --> 01:06:28,000
+ If you all have major capital-ank sample, the simple way is just add them together,
+
+587
+01:06:28,000 --> 01:06:29,000
+ divide by A.
+
+588
+01:06:29,000 --> 01:06:31,000
+ So it becomes a scalar.
+
+589
+01:06:31,000 --> 01:06:34,000
+ And this is what we call T, a function of T.
+
+590
+01:06:34,000 --> 01:06:40,000
+ There are many ways to, many different T.
+
+591
+01:06:40,000 --> 01:06:49,000
+ So therefore for detection you are very often see, you use threshold here.
+
+592
+01:06:49,000 --> 01:06:52,000
+ Then we decide on each one.
+
+593
+01:06:52,000 --> 01:06:56,000
+ Given a threshold, greater than this.
+
+594
+01:06:56,000 --> 01:07:02,000
+ We call it gamma.
+
+595
+01:07:02,000 --> 01:07:04,000
+ Gamma rate.
+
+596
+01:07:04,000 --> 01:07:06,000
+ Gamma, then we decide.
+
+597
+01:07:06,000 --> 01:07:08,000
+ Otherwise smaller or equal than that.
+
+598
+01:07:08,000 --> 01:07:12,000
+ Usually we don't care about the case like equal.
+
+599
+01:07:12,000 --> 01:07:18,000
+ Because if you are, also the sample, you have discrete sample.
+
+600
+01:07:18,000 --> 01:07:23,000
+ But our function here typically is continuous value.
+
+601
+01:07:23,000 --> 01:07:28,000
+ So the value is, it takes value of the interval.
+
+602
+01:07:28,000 --> 01:07:31,000
+ So it doesn't matter in the one point.
+
+603
+01:07:31,000 --> 01:07:34,000
+ What you care is the region.
+
+604
+01:07:35,000 --> 01:07:40,000
+ So that means you can call it greater or equal.
+
+605
+01:07:40,000 --> 01:07:42,000
+ Or smaller.
+
+606
+01:07:42,000 --> 01:07:52,000
+ So the boundary you can put either that one or that one is not important in our case here.
+
+607
+01:07:52,000 --> 01:08:01,000
+ Okay, so that's why here is what we are going to take a look at the simulation.
+
+608
+01:08:01,000 --> 01:08:07,000
+ By looking at the histogram for different angles.
+
+609
+01:08:07,000 --> 01:08:10,000
+ If you have angle to one, remember one sample.
+
+610
+01:08:10,000 --> 01:08:14,000
+ Or you got 10, you have 10 samples or 100.
+
+611
+01:08:14,000 --> 01:08:18,000
+ So you see there is a basic, very different.
+
+612
+01:08:18,000 --> 01:08:24,000
+ Even though we are using the same relatively large noise, this is the case.
+
+613
+01:08:24,000 --> 01:08:32,000
+ So you see here, if you only have one sample, the overlap region is quite large.
+
+614
+01:08:32,000 --> 01:08:37,000
+ But if you increase the angle to 10, it's already very good.
+
+615
+01:08:37,000 --> 01:08:40,000
+ But there is a chance of still some overlap.
+
+616
+01:08:40,000 --> 01:08:45,000
+ But if you are going for 100 tries, 100 times.
+
+617
+01:08:45,000 --> 01:08:48,000
+ All these are repeat 100 times.
+
+618
+01:08:48,000 --> 01:08:51,000
+ So statistically you can't just use one try.
+
+619
+01:08:51,000 --> 01:08:55,000
+ You need to take many tries.
+
+620
+01:08:55,000 --> 01:09:00,000
+ So you see here, almost the distance is quite large.
+
+621
+01:09:00,000 --> 01:09:07,000
+ So therefore you can see the importance of the angle.
+
+622
+01:09:19,000 --> 01:09:24,000
+ Then now how do we measure the performance?
+
+623
+01:09:24,000 --> 01:09:32,000
+ So one way to do is this so-called diffraction coefficient.
+
+624
+01:09:32,000 --> 01:09:36,000
+ So we simply d power 2.
+
+625
+01:09:36,000 --> 01:09:40,000
+ This is very similar to the sigma power 2.
+
+626
+01:09:40,000 --> 01:09:45,000
+ You consider this as one coefficient.
+
+627
+01:09:45,000 --> 01:09:50,000
+ So you don't take the square root of that.
+
+628
+01:09:50,000 --> 01:09:55,000
+ I repeat again, diffraction coefficient, define this way.
+
+629
+01:09:55,000 --> 01:09:58,000
+ So this is expectation of T.
+
+630
+01:09:58,000 --> 01:10:03,000
+ Because here you try to get our T first under H1.
+
+631
+01:10:03,000 --> 01:10:09,000
+ Then take a difference between these and under H0, you get another expectation.
+
+632
+01:10:09,000 --> 01:10:16,000
+ So you take a different square normalized by the value under H0.
+
+633
+01:10:16,000 --> 01:10:24,000
+ So in our case here, you can very easy work out A minus 0.
+
+634
+01:10:24,000 --> 01:10:28,000
+ And then this is the value.
+
+635
+01:10:28,000 --> 01:10:30,000
+ How do we...
+
+636
+01:10:30,000 --> 01:10:37,000
+ And then you can also, quite often you can also look at the asymptotic behavior.
+
+637
+01:10:37,000 --> 01:10:46,000
+ As I mentioned earlier, this is where we look at the limit case when N increases to infinity.
+
+638
+01:10:46,000 --> 01:10:51,000
+ So that's using this asymptotic analysis.
+
+639
+01:10:51,000 --> 01:10:59,000
+ You can derive the detector more easily, analyze the performance also easily.
+
+640
+01:10:59,000 --> 01:11:04,000
+ And furthermore, even if noise is IID but no Gaussian,
+
+641
+01:11:04,000 --> 01:11:11,000
+ if T N goes to infinity, our T can be approximated by Gaussian noise.
+
+642
+01:11:11,000 --> 01:11:15,000
+ So that's how this Gaussian noise is very important.
+
+643
+01:11:15,000 --> 01:11:22,000
+ So just finally we just review what we learned before.
+
+644
+01:11:22,000 --> 01:11:28,000
+ So this part, if you learn estimation well, you can see how to get this T
+
+645
+01:11:28,000 --> 01:11:32,000
+ and the diffraction coefficient, the power.
+
+646
+01:11:32,000 --> 01:11:34,000
+ But to do that, compute.
+
+647
+01:11:34,000 --> 01:11:40,000
+ So you see here, this is something you need to take care of.
+
+648
+01:11:40,000 --> 01:11:43,000
+ You notice our sample mean.
+
+649
+01:11:43,000 --> 01:11:47,000
+ You apply the expectation, you bring this on in.
+
+650
+01:11:47,000 --> 01:11:57,000
+ So to be very careful, this constant one over N, it can be inside this sum or outside
+
+651
+01:11:57,000 --> 01:12:00,000
+ because being independent of N, it doesn't matter.
+
+652
+01:12:00,000 --> 01:12:04,000
+ You put on the N inside or outside.
+
+653
+01:12:04,000 --> 01:12:06,000
+ So this is the one.
+
+654
+01:12:06,000 --> 01:12:14,000
+ But on the other hand, later on, maybe for some semigressions or some other examples,
+
+655
+01:12:14,000 --> 01:12:20,000
+ if you have another coefficient which depends on N, say S of N here,
+
+656
+01:12:20,000 --> 01:12:26,000
+ you cannot take it outside this sum because it depends on the index.
+
+657
+01:12:26,000 --> 01:12:28,000
+ So that's the exact.
+
+658
+01:12:28,000 --> 01:12:31,000
+ Constant, it doesn't matter, either inside or outside.
+
+659
+01:12:31,000 --> 01:12:33,000
+ And the same is the E.
+
+660
+01:12:33,000 --> 01:12:35,000
+ E, you can bring it inside or outside.
+
+661
+01:12:35,000 --> 01:12:39,000
+ So this is something I want to highlight.
+
+662
+01:12:39,000 --> 01:12:44,000
+ Maybe helpful for those doing the assignment.
+
+663
+01:12:44,000 --> 01:12:48,000
+ And then similarly, in this case, the only difference is A here.
+
+664
+01:12:48,000 --> 01:12:52,000
+ Again, you apply E of A is still equal to A.
+
+665
+01:12:52,000 --> 01:12:54,000
+ Then this becomes 0.
+
+666
+01:12:54,000 --> 01:12:56,000
+ So you're summing up the constant.
+
+667
+01:12:56,000 --> 01:12:59,000
+ It will be N time of this A.
+
+668
+01:12:59,000 --> 01:13:01,000
+ So don't forget.
+
+669
+01:13:01,000 --> 01:13:08,000
+ Here, theoretically, you can bring this A out because you may argue,
+
+670
+01:13:08,000 --> 01:13:13,000
+ early on you told me the constant can bring out.
+
+671
+01:13:13,000 --> 01:13:17,000
+ But when you bring out something, you don't remove this summation.
+
+672
+01:13:17,000 --> 01:13:20,000
+ Here, how do we overcome?
+
+673
+01:13:20,000 --> 01:13:23,000
+ So if you really stop the given to bring out,
+
+674
+01:13:23,000 --> 01:13:26,000
+ you'll consider this as A multiplied by 1.
+
+675
+01:13:26,000 --> 01:13:30,000
+ When you bring out the A, you're summing up 1.
+
+676
+01:13:30,000 --> 01:13:35,000
+ Eventually, you'll still get this A multiplied by N.
+
+677
+01:13:35,000 --> 01:13:38,000
+ Therefore, N A divided by N.
+
+678
+01:13:38,000 --> 01:13:43,000
+ And then for the variant, this is where you apply the IID.
+
+679
+01:13:43,000 --> 01:13:45,000
+ And then this is very useful.
+
+680
+01:13:46,000 --> 01:13:51,000
+ Maybe you can use it in some of the assignment questions.
+
+681
+01:13:51,000 --> 01:13:55,000
+ This is a double sum, you see, when you explain.
+
+682
+01:13:55,000 --> 01:13:59,000
+ Then because you have a square, so you have the one bank power of 2.
+
+683
+01:13:59,000 --> 01:14:00,000
+ Don't forget this.
+
+684
+01:14:00,000 --> 01:14:01,000
+ Bring this out.
+
+685
+01:14:01,000 --> 01:14:10,000
+ So being IID, if N equal to N, you'll get the same WN.
+
+686
+01:14:10,000 --> 01:14:11,000
+ Where is the power of 2?
+
+687
+01:14:11,000 --> 01:14:13,000
+ And of course, you will not be equal to 0.
+
+688
+01:14:13,000 --> 01:14:18,000
+ Because you are taking the, actually, the same as the variant.
+
+689
+01:14:18,000 --> 01:14:20,000
+ Because this is 0, me.
+
+690
+01:14:20,000 --> 01:14:24,000
+ But N not equal to N, because you see.
+
+691
+01:14:24,000 --> 01:14:30,000
+ So again, I always try to advise you to look from the matrix.
+
+692
+01:14:30,000 --> 01:14:34,000
+ Because it's corresponding to N equal to N, it's a diagonal case.
+
+693
+01:14:34,000 --> 01:14:37,000
+ Well, N not equal to N, it's an off-diagonal case.
+
+694
+01:14:37,000 --> 01:14:40,000
+ So you see the difference here.
+
+695
+01:14:40,000 --> 01:14:42,000
+ So in A, you go to that.
+
+696
+01:14:42,000 --> 01:14:48,000
+ And once you get this, you can plug in and then get this D power of 2.
+
+697
+01:14:48,000 --> 01:14:52,000
+ So it's nice time to take a break here.
+
+698
+01:14:52,000 --> 01:14:57,000
+ So we come back at 8 p.m. to continue.
+
+699
+01:14:57,000 --> 01:14:59,000
+ OK?
+
+700
+01:14:59,000 --> 01:15:02,000
+ See you later.
+
+701
+01:15:10,000 --> 01:15:12,000
+ Thank you.
+
+702
+01:15:40,000 --> 01:15:43,000
+ Thank you.
+
+703
+01:16:10,000 --> 01:16:13,000
+ Thank you.
+
+704
+01:16:40,000 --> 01:16:43,000
+ Thank you.
+
+705
+01:17:10,000 --> 01:17:13,000
+ Thank you.
+
+706
+01:17:40,000 --> 01:17:42,000
+ Thank you.
+
+707
+01:18:10,000 --> 01:18:13,000
+ Thank you.
+
+708
+01:18:40,000 --> 01:18:42,000
+ Thank you.
+
+709
+01:19:10,000 --> 01:19:12,000
+ Thank you.
+
+710
+01:19:40,000 --> 01:19:42,000
+ Thank you.
+
+711
+01:20:10,000 --> 01:20:12,000
+ Thank you.
+
+712
+01:20:40,000 --> 01:20:42,000
+ Thank you.
+
+713
+01:21:10,000 --> 01:21:12,000
+ Thank you.
+
+714
+01:21:40,000 --> 01:21:42,000
+ Thank you.
+
+715
+01:22:10,000 --> 01:22:12,000
+ Thank you.
+
+716
+01:22:40,000 --> 01:22:42,000
+ Thank you.
+
+717
+01:23:10,000 --> 01:23:12,000
+ Thank you.
+
+718
+01:23:40,000 --> 01:23:42,000
+ Thank you.
+
+719
+01:24:10,000 --> 01:24:12,000
+ Thank you.
+
+720
+01:24:40,000 --> 01:24:42,000
+ Thank you.
+
+721
+01:25:10,000 --> 01:25:12,000
+ Thank you.
+
+722
+01:25:40,000 --> 01:25:42,000
+ Thank you.
+
+723
+01:26:10,000 --> 01:26:12,000
+ Thank you.
+
+724
+01:26:40,000 --> 01:26:42,000
+ Thank you.
+
+725
+01:27:10,000 --> 01:27:12,000
+ Thank you.
+
+726
+01:27:40,000 --> 01:27:42,000
+ Thank you.
+
+727
+01:28:10,000 --> 01:28:12,000
+ Thank you.
+
+728
+01:28:40,000 --> 01:28:42,000
+ Thank you.
+
+729
+01:29:10,000 --> 01:29:12,000
+ Thank you.
+
+730
+01:29:40,000 --> 01:29:42,000
+ Thank you.
+
+731
+01:30:10,000 --> 01:30:12,000
+ Thank you.
+
+732
+01:30:40,000 --> 01:30:42,000
+ Thank you.
+
+733
+01:30:42,000 --> 01:30:44,000
+ Thank you.
+
+734
+01:30:51,000 --> 01:30:57,000
+ OK, so let's continue.
+
+735
+01:30:57,000 --> 01:31:06,000
+ I hope today you don't fight too easy because sometimes too difficult,
+
+736
+01:31:06,000 --> 01:31:11,000
+ So, five cannot follow, but too easy or too boring.
+
+737
+01:31:12,600 --> 01:31:13,740
+ So, is it right?
+
+738
+01:31:15,940 --> 01:31:20,700
+ So, anyway, when we start this chapter two,
+
+739
+01:31:20,700 --> 01:31:23,780
+ then it will become a little bit more difficult.
+
+740
+01:31:23,780 --> 01:31:28,620
+ So, and also this chapter two is quite important
+
+741
+01:31:28,620 --> 01:31:33,620
+ because it build up the foundation and the basics
+
+742
+01:31:34,620 --> 01:31:39,620
+ for the subsequent chapters for the signal detection
+
+743
+01:31:44,540 --> 01:31:46,400
+ or the detection theory.
+
+744
+01:31:46,400 --> 01:31:51,400
+ So, we will see what we can do here.
+
+745
+01:31:57,420 --> 01:31:58,260
+ Yeah.
+
+746
+01:32:03,620 --> 01:32:08,620
+ It's I mentioned early our detections.
+
+747
+01:32:13,260 --> 01:32:18,260
+ You see we're assuming some major data being random,
+
+748
+01:32:19,620 --> 01:32:21,380
+ partially or so on.
+
+749
+01:32:21,380 --> 01:32:26,380
+ So, either signal or noise, typically noise
+
+750
+01:32:29,059 --> 01:32:32,740
+ we always assume that being random signal
+
+751
+01:32:33,620 --> 01:32:37,300
+ depends you can deal with deterministic signal
+
+752
+01:32:37,300 --> 01:32:39,540
+ or random signal.
+
+753
+01:32:43,620 --> 01:32:48,620
+ If we have some good knowledge of the signal and noise,
+
+754
+01:32:49,019 --> 01:32:52,059
+ particularly if you have the period
+
+755
+01:32:52,059 --> 01:32:55,260
+ and we have the complete knowledge,
+
+756
+01:32:55,260 --> 01:33:00,260
+ then the problem you will see will become relatively easy
+
+757
+01:33:01,260 --> 01:33:06,260
+ and quite often we for estimation,
+
+758
+01:33:08,340 --> 01:33:12,140
+ we call it as estimator, but for detection,
+
+759
+01:33:12,140 --> 01:33:15,260
+ the one the measure we call it as detectors.
+
+760
+01:33:16,340 --> 01:33:21,340
+ Sometimes we call it detection statistic.
+
+761
+01:33:21,340 --> 01:33:26,340
+ So, they are just describing the T function.
+
+762
+01:33:27,540 --> 01:33:30,020
+ And then if you have complete knowledge,
+
+763
+01:33:30,020 --> 01:33:32,300
+ we can get the optimal one,
+
+764
+01:33:34,940 --> 01:33:39,620
+ similar to MBUE before.
+
+765
+01:33:39,620 --> 01:33:44,620
+ But if you have less knowledge or completely unknown
+
+766
+01:33:46,340 --> 01:33:51,340
+ for the PDF and we quite often we may not get the optimal one
+
+767
+01:33:52,940 --> 01:33:57,220
+ and the detection problem will get more difficult.
+
+768
+01:33:57,220 --> 01:34:02,220
+ So, in this part we were going through
+
+769
+01:34:03,780 --> 01:34:08,660
+ from the so-called easiest one,
+
+770
+01:34:08,660 --> 01:34:12,380
+ gradually move on to the more difficult one.
+
+771
+01:34:12,380 --> 01:34:17,380
+ And the more difficult, that also means more realistic
+
+772
+01:34:17,460 --> 01:34:20,820
+ because in practical application quite often,
+
+773
+01:34:20,820 --> 01:34:22,900
+ you don't have complete knowledge
+
+774
+01:34:22,900 --> 01:34:26,260
+ about the signal and the data.
+
+775
+01:34:28,220 --> 01:34:33,220
+ Yeah, so, yeah, that's how we were planning to do is
+
+776
+01:34:33,460 --> 01:34:38,460
+ we start with the simple hypothesis testing problem
+
+777
+01:34:39,860 --> 01:34:44,860
+ where in this case we assume we have the PDF
+
+778
+01:34:46,020 --> 01:34:50,060
+ for each of the assume hypothesis
+
+779
+01:34:50,900 --> 01:34:53,540
+ and it's being completely known.
+
+780
+01:34:54,540 --> 01:34:59,540
+ And then after that we will become multiple hypothesis,
+
+781
+01:35:00,500 --> 01:35:04,420
+ which is at the end it will be more difficult.
+
+782
+01:35:04,420 --> 01:35:07,340
+ You'll have some unknown parameter.
+
+783
+01:35:07,340 --> 01:35:12,340
+ And that's where you can combine the estimation theory
+
+784
+01:35:12,620 --> 01:35:13,900
+ and the detection.
+
+785
+01:35:13,900 --> 01:35:15,940
+ And that's why I fear myself.
+
+786
+01:35:15,940 --> 01:35:20,300
+ I fear it's better to learn the estimation first
+
+787
+01:35:20,340 --> 01:35:23,060
+ because you can later you will see
+
+788
+01:35:23,060 --> 01:35:26,540
+ you'll apply the estimation theory into detection
+
+789
+01:35:26,540 --> 01:35:28,820
+ but not the other way around.
+
+790
+01:35:32,940 --> 01:35:37,940
+ Okay, so for the simple hypothesis testing,
+
+791
+01:35:39,260 --> 01:35:44,260
+ basically we have just two approaches
+
+792
+01:35:45,220 --> 01:35:50,220
+ or we call it as two category of,
+
+793
+01:35:51,300 --> 01:35:52,220
+ methods.
+
+794
+01:35:52,220 --> 01:35:56,420
+ One is the classical approach,
+
+795
+01:35:56,420 --> 01:36:01,420
+ which we call it as NP detector
+
+796
+01:36:02,020 --> 01:36:07,020
+ because it's based on the Niemann Pearson
+
+797
+01:36:08,900 --> 01:36:13,500
+ that I presume there are two names put together
+
+798
+01:36:13,500 --> 01:36:16,700
+ or in short we call it as NP theory.
+
+799
+01:36:17,700 --> 01:36:22,700
+ And this is quite a classical
+
+800
+01:36:22,700 --> 01:36:27,700
+ but very important and so we'll spend more time on that.
+
+801
+01:36:27,700 --> 01:36:32,700
+ And then we have approach similar to our Bayesian estimation.
+
+802
+01:36:33,179 --> 01:36:36,740
+ We call it Bayesian approach,
+
+803
+01:36:36,740 --> 01:36:40,099
+ which minimizes the Bayesian risk.
+
+804
+01:36:40,099 --> 01:36:42,059
+ So again, this part,
+
+805
+01:36:42,059 --> 01:36:46,179
+ these two are closely related to what we learned early.
+
+806
+01:36:46,180 --> 01:36:51,180
+ One is corresponding more to the classical estimation theory.
+
+807
+01:36:51,220 --> 01:36:55,060
+ The other is the Bayesian estimation theory.
+
+808
+01:36:55,060 --> 01:36:58,740
+ So not the same but some concepts are related.
+
+809
+01:37:00,500 --> 01:37:05,500
+ Okay, and then depending on which method to use
+
+810
+01:37:06,420 --> 01:37:09,420
+ is like before if you use Bayesian approach,
+
+811
+01:37:09,420 --> 01:37:13,620
+ then you can incorporate the prior knowledge
+
+812
+01:37:13,620 --> 01:37:15,220
+ of the probability.
+
+813
+01:37:16,220 --> 01:37:21,220
+ But if you don't have such as in the radar so now
+
+814
+01:37:21,500 --> 01:37:24,580
+ typically you don't have much prior knowledge
+
+815
+01:37:24,580 --> 01:37:27,180
+ then you will use the NP approach.
+
+816
+01:37:27,180 --> 01:37:32,180
+ Well, in communications quite often we have some prior knowledge
+
+817
+01:37:33,820 --> 01:37:38,820
+ about the hypothesis and so we can use the Bayesian risk approach.
+
+818
+01:37:39,820 --> 01:37:44,820
+ So the NP approach is the starting point
+
+819
+01:37:46,259 --> 01:37:51,259
+ and then this occupying is probably more than half
+
+820
+01:37:51,259 --> 01:37:53,780
+ of the contents of this property.
+
+821
+01:37:53,780 --> 01:37:58,780
+ Two-thirds I will say and then I always say
+
+822
+01:38:00,580 --> 01:38:05,580
+ for the detection part every year
+
+823
+01:38:06,460 --> 01:38:11,460
+ even whether I said two questions or maybe this year
+
+824
+01:38:11,460 --> 01:38:16,460
+ is one point half at least there would always be
+
+825
+01:38:16,620 --> 01:38:21,620
+ one or half question must be the NP detection.
+
+826
+01:38:22,500 --> 01:38:27,500
+ So this is the fundamental one.
+
+827
+01:38:27,500 --> 01:38:30,500
+ So you'll try to learn this well
+
+828
+01:38:30,500 --> 01:38:33,980
+ and there's a theory behind
+
+829
+01:38:34,980 --> 01:38:37,980
+ but it's good to know that the progeotrally
+
+830
+01:38:37,980 --> 01:38:42,980
+ we don't really directly derive or test
+
+831
+01:38:44,019 --> 01:38:46,419
+ how to derive this NP theory.
+
+832
+01:38:47,379 --> 01:38:52,379
+ Unless I tell you in advance in one particular year
+
+833
+01:38:54,299 --> 01:38:56,419
+ but probably not this year.
+
+834
+01:38:56,419 --> 01:39:01,019
+ Anyway, for finding jen papers scope our pair
+
+835
+01:39:01,060 --> 01:39:03,660
+ will come to near the end.
+
+836
+01:39:05,460 --> 01:39:09,580
+ So that's how this is done here.
+
+837
+01:39:11,180 --> 01:39:16,180
+ And then again we're coming back to this simple problem
+
+838
+01:39:16,900 --> 01:39:21,900
+ where we only observe what realization of a ring
+
+839
+01:39:23,020 --> 01:39:26,100
+ that available, that mean one sample.
+
+840
+01:39:26,100 --> 01:39:27,820
+ Following this Gaussian.
+
+841
+01:39:27,820 --> 01:39:32,059
+ So this is zero mean, either zero or one
+
+842
+01:39:32,059 --> 01:39:34,139
+ but the variance is a standard
+
+843
+01:39:34,139 --> 01:39:37,620
+ they call normalizing to one.
+
+844
+01:39:37,620 --> 01:39:42,620
+ Then you see this is the problem we already discussed
+
+845
+01:39:44,059 --> 01:39:47,460
+ in the introduction but here we are trying to link
+
+846
+01:39:47,460 --> 01:39:52,460
+ with the NP approach to make it for more formers.
+
+847
+01:39:53,420 --> 01:39:58,420
+ So that's what we have described early.
+
+848
+01:40:01,180 --> 01:40:04,860
+ We have two hyper synthesis.
+
+849
+01:40:06,020 --> 01:40:09,900
+ One is H0, where this mean equal to zero.
+
+850
+01:40:09,900 --> 01:40:12,900
+ H1, the mean equal to one.
+
+851
+01:40:12,900 --> 01:40:17,900
+ So this H0 we also call it a mild hypothesis
+
+852
+01:40:18,860 --> 01:40:21,980
+ and H1 is the alternative hypothesis.
+
+853
+01:40:22,980 --> 01:40:27,980
+ And this is our only a tool.
+
+854
+01:40:28,419 --> 01:40:32,459
+ So we call that as a binary hypothesis test.
+
+855
+01:40:33,299 --> 01:40:37,500
+ So we are choosing among these two hypothesis,
+
+856
+01:40:37,500 --> 01:40:38,339
+ one of them.
+
+857
+01:40:39,620 --> 01:40:44,620
+ And again this is what we already show before the PDF
+
+858
+01:40:45,380 --> 01:40:50,380
+ under both hypothesis you see here.
+
+859
+01:40:52,099 --> 01:40:56,099
+ So you pay the same but the same
+
+860
+01:40:56,099 --> 01:41:00,099
+ but only the mean shift one is a zero.
+
+861
+01:41:00,099 --> 01:41:05,099
+ The other is a one and then say the dividing naturally
+
+862
+01:41:06,180 --> 01:41:09,180
+ you use a threshold in the middle which is half.
+
+863
+01:41:15,580 --> 01:41:18,080
+ Yeah, so we call that threshold.
+
+864
+01:41:24,420 --> 01:41:29,420
+ So you can see this is relatively easy problem
+
+865
+01:41:30,380 --> 01:41:34,380
+ but we use this as an example to introduce
+
+866
+01:41:34,380 --> 01:41:39,380
+ some useful concepts which can apply to other
+
+867
+01:41:39,940 --> 01:41:40,940
+ situation.
+
+868
+01:41:44,660 --> 01:41:49,660
+ So again going back to what we discussed in the first half
+
+869
+01:41:50,980 --> 01:41:52,100
+ before the break.
+
+870
+01:41:52,100 --> 01:41:57,100
+ We have two types of arrows in this case
+
+871
+01:41:57,100 --> 01:42:00,100
+ and actually the same as in other detection problem
+
+872
+01:42:01,100 --> 01:42:03,500
+ for the binary hypothesis.
+
+873
+01:42:03,500 --> 01:42:05,580
+ So be careful here.
+
+874
+01:42:06,100 --> 01:42:11,100
+ If H0 is true, okay, this is a ground truth,
+
+875
+01:42:11,540 --> 01:42:16,540
+ you know like those familiar with machine learning
+
+876
+01:42:17,860 --> 01:42:22,860
+ concept, ground truth, the one which you may not know
+
+877
+01:42:25,300 --> 01:42:26,300
+ but it's true.
+
+878
+01:42:26,300 --> 01:42:31,300
+ H0 is true but then we since we don't know
+
+879
+01:42:32,180 --> 01:42:37,180
+ if we decide H1, of course there will be something wrong.
+
+880
+01:42:40,060 --> 01:42:45,060
+ So this is one like if someone you cover the whole body
+
+881
+01:42:52,060 --> 01:42:57,060
+ of just putting that then ask me to guess
+
+882
+01:42:57,940 --> 01:43:02,940
+ whether it's a girl or a guy, okay, ground truth
+
+883
+01:43:02,940 --> 01:43:06,620
+ if the girl but I somehow cannot tell.
+
+884
+01:43:06,620 --> 01:43:09,660
+ I just probably bring them the guess as a guy
+
+885
+01:43:09,660 --> 01:43:13,460
+ and this is Taiwan arrow.
+
+886
+01:43:13,460 --> 01:43:16,860
+ Of course you have to first assume the hypothesis
+
+887
+01:43:16,860 --> 01:43:21,860
+ of one of them being H0 and this is true
+
+888
+01:43:21,860 --> 01:43:26,020
+ and then you decide H1 then of course you make a mistake.
+
+889
+01:43:26,060 --> 01:43:28,820
+ So this is a Taiwan arrow.
+
+890
+01:43:28,820 --> 01:43:33,340
+ On that then if H1 is true but then you,
+
+891
+01:43:33,340 --> 01:43:38,020
+ we decide it's H0 then there's another kind of mistake.
+
+892
+01:43:38,020 --> 01:43:43,020
+ So we call that as a time two arrows here.
+
+893
+01:43:43,060 --> 01:43:48,060
+ So for binary hypothesis there only this two types
+
+894
+01:43:50,740 --> 01:43:54,620
+ because the other possibility they're in total four.
+
+895
+01:43:54,620 --> 01:43:59,620
+ If H0 true they'll decide H0, of course this is correct.
+
+896
+01:44:00,099 --> 01:44:05,099
+ Or if H1 is ground truth you decide H1 also perfect.
+
+897
+01:44:09,420 --> 01:44:14,420
+ Okay, then now let's introduce this as probability.
+
+898
+01:44:15,860 --> 01:44:20,860
+ So we, yeah, that's in our simple example case
+
+899
+01:44:21,219 --> 01:44:24,219
+ but later you can apply to other also.
+
+900
+01:44:24,219 --> 01:44:29,219
+ If H0 is true, if you're only one sample then,
+
+901
+01:44:30,740 --> 01:44:34,740
+ I mean this is noise only but our major data
+
+902
+01:44:34,740 --> 01:44:37,019
+ is greater than half.
+
+903
+01:44:37,019 --> 01:44:42,019
+ Remember here having only one sample we have to decide
+
+904
+01:44:44,219 --> 01:44:49,219
+ you must specify a threshold and the threshold here.
+
+905
+01:44:51,299 --> 01:44:54,780
+ Reason one is half but if our major data
+
+906
+01:44:54,780 --> 01:44:59,780
+ have to be greater than half then of course we don't know
+
+907
+01:44:59,780 --> 01:45:01,620
+ whether it's data or the signal.
+
+908
+01:45:01,620 --> 01:45:05,980
+ So we only have the major data available to us.
+
+909
+01:45:05,980 --> 01:45:10,980
+ So we decide as H1 so this is wrong.
+
+910
+01:45:11,540 --> 01:45:16,540
+ Okay, then we call that as probability of force alarm
+
+911
+01:45:16,900 --> 01:45:21,900
+ and ensure it's P subscript FA, that's FA, the force alarm
+
+912
+01:45:23,140 --> 01:45:26,700
+ and that's very common sense you see.
+
+913
+01:45:26,700 --> 01:45:30,260
+ So there is force alarm means there's nothing there
+
+914
+01:45:30,260 --> 01:45:35,260
+ then you're a big nervous you say or enemy is coming
+
+915
+01:45:36,980 --> 01:45:40,220
+ on this so that's a meaning of force alarm.
+
+916
+01:45:41,220 --> 01:45:42,060
+ Okay.
+
+917
+01:45:43,580 --> 01:45:46,700
+ On the other hand if H1 is true,
+
+918
+01:45:46,700 --> 01:45:50,300
+ like if there is a signal there but the noise is too high
+
+919
+01:45:50,300 --> 01:45:53,820
+ to the negative side and the major data value
+
+920
+01:45:53,820 --> 01:45:57,420
+ smaller than half then of course we have no knowledge
+
+921
+01:45:57,420 --> 01:46:01,100
+ about we only know the major data value
+
+922
+01:46:01,100 --> 01:46:04,740
+ so we decide as H0.
+
+923
+01:46:04,740 --> 01:46:07,540
+ So in this case,
+
+924
+01:46:07,580 --> 01:46:12,580
+ the link to the reality is we miss the detection.
+
+925
+01:46:13,060 --> 01:46:17,620
+ If the enemy's aircraft is coming
+
+926
+01:46:17,620 --> 01:46:21,180
+ but your radar fail to detect
+
+927
+01:46:21,180 --> 01:46:24,980
+ but that's a big more serious, it's a miss detection.
+
+928
+01:46:24,980 --> 01:46:29,260
+ So we call probability or miss or P of M
+
+929
+01:46:29,260 --> 01:46:30,180
+ that you see here.
+
+930
+01:46:32,580 --> 01:46:37,060
+ And then ideally of course we want to always
+
+931
+01:46:37,820 --> 01:46:42,820
+ reduce both error but in reality given the major data
+
+932
+01:46:44,740 --> 01:46:47,340
+ give once your data in this case
+
+933
+01:46:47,340 --> 01:46:51,340
+ with the samples given you cannot avoid
+
+934
+01:46:53,860 --> 01:46:57,340
+ two errors simultaneously.
+
+935
+01:47:00,660 --> 01:47:05,340
+ Later you will see why but then you can trade off.
+
+936
+01:47:05,340 --> 01:47:09,740
+ I mean if you already want to reduce the probability
+
+937
+01:47:09,740 --> 01:47:12,860
+ of force alarm then we can
+
+938
+01:47:16,460 --> 01:47:20,500
+ at the expensive of increasing the probability of miss.
+
+939
+01:47:20,500 --> 01:47:24,100
+ It will allow the miss detection.
+
+940
+01:47:24,100 --> 01:47:29,020
+ We don't care whether the enemy air is coming or not.
+
+941
+01:47:29,020 --> 01:47:31,860
+ We don't want to wake up those people.
+
+942
+01:47:32,700 --> 01:47:36,299
+ So if you want to reduce the force alarm
+
+943
+01:47:36,299 --> 01:47:40,620
+ you have to at the expense of increase the probability of miss.
+
+944
+01:47:40,620 --> 01:47:44,700
+ Cannot have both because ideally of course
+
+945
+01:47:44,700 --> 01:47:46,500
+ you want to have both.
+
+946
+01:47:46,500 --> 01:47:51,500
+ On that thing if you say the force alarm is okay.
+
+947
+01:47:51,620 --> 01:47:56,500
+ Force alarm doesn't matter because everyone is very worried
+
+948
+01:47:56,500 --> 01:47:59,780
+ about your miss detection of the aircraft
+
+949
+01:47:59,820 --> 01:48:04,500
+ even if you keep saying like the Chinese
+
+950
+01:48:04,500 --> 01:48:06,980
+ there is a very famous Lang Lai
+
+951
+01:48:06,980 --> 01:48:09,300
+ the warp is coming.
+
+952
+01:48:09,300 --> 01:48:13,059
+ If you pair these two often then people will be
+
+953
+01:48:15,980 --> 01:48:18,580
+ very very noise.
+
+954
+01:48:18,580 --> 01:48:23,580
+ So but then you don't want to miss the miss detection.
+
+955
+01:48:24,219 --> 01:48:27,639
+ So you can increase the probability of force alarm.
+
+956
+01:48:27,640 --> 01:48:30,680
+ So this tool is later you will see
+
+957
+01:48:30,680 --> 01:48:34,240
+ you can trade off one with other
+
+958
+01:48:34,240 --> 01:48:39,240
+ but you cannot reduce them simultaneously.
+
+959
+01:48:39,400 --> 01:48:44,400
+ So you can illustrate this in this example here.
+
+960
+01:48:47,360 --> 01:48:52,440
+ So remember we based on the
+
+961
+01:48:53,400 --> 01:48:58,400
+ this PDA you can see here.
+
+962
+01:49:02,839 --> 01:49:06,240
+ Under S0 then we have this probe
+
+963
+01:49:06,240 --> 01:49:09,000
+ because under S0 the mean equal to zero.
+
+964
+01:49:09,000 --> 01:49:12,719
+ Under S1 the mean shift to one.
+
+965
+01:49:12,719 --> 01:49:17,719
+ But having the noise somewhere you have certain witness
+
+966
+01:49:18,160 --> 01:49:23,160
+ and you can see here this is the Taiwan arrow.
+
+967
+01:49:23,720 --> 01:49:28,720
+ Taiwan arrow mean you see this part S0 is true
+
+968
+01:49:28,880 --> 01:49:33,880
+ but our threshold here the side is H1 so this is wrong.
+
+969
+01:49:34,160 --> 01:49:39,160
+ Similarly this curve come over here H1 is true
+
+970
+01:49:39,240 --> 01:49:42,440
+ but then we decide it's H0
+
+971
+01:49:42,440 --> 01:49:45,540
+ because it's on the smaller than half.
+
+972
+01:49:45,540 --> 01:49:50,540
+ So you have these two parts very clearly illustrate here.
+
+973
+01:49:51,820 --> 01:49:56,820
+ So our question here is how about we
+
+974
+01:50:00,260 --> 01:50:03,780
+ we want to reduce the type one.
+
+975
+01:50:10,340 --> 01:50:12,780
+ If you want to reduce this then of course
+
+976
+01:50:12,780 --> 01:50:17,780
+ you can shift this threshold to increase this.
+
+977
+01:50:21,580 --> 01:50:25,139
+ So therefore from here they could be shift
+
+978
+01:50:25,139 --> 01:50:29,540
+ this one reduce but you can only have one threshold.
+
+979
+01:50:29,540 --> 01:50:33,660
+ You cannot say oh I since the metadata only one way
+
+980
+01:50:33,660 --> 01:50:35,420
+ we can only decide based on one.
+
+981
+01:50:35,420 --> 01:50:39,300
+ But sometimes you say oh to reduce that then I use this
+
+982
+01:50:39,300 --> 01:50:43,780
+ but then in order to reduce I make this one smaller.
+
+983
+01:50:43,780 --> 01:50:47,860
+ But how can you decide you have one metadata you must
+
+984
+01:50:47,860 --> 01:50:49,420
+ you must choose one of them.
+
+985
+01:50:49,420 --> 01:50:53,140
+ Cannot say I you have no knowledge other than
+
+986
+01:50:53,140 --> 01:50:55,500
+ you know the distribution.
+
+987
+01:50:55,500 --> 01:50:59,780
+ But the extra value is you only know the value.
+
+988
+01:50:59,780 --> 01:51:04,780
+ So you can only make one give one threshold cannot
+
+989
+01:51:05,220 --> 01:51:06,340
+ there's nowhere.
+
+990
+01:51:06,340 --> 01:51:09,540
+ So the distribution is already given.
+
+991
+01:51:09,540 --> 01:51:12,060
+ So it's okay you can reduce this one
+
+992
+01:51:12,060 --> 01:51:14,860
+ but the problem is this part getting bigger.
+
+993
+01:51:14,860 --> 01:51:18,020
+ And even worse you can easily compare
+
+994
+01:51:18,020 --> 01:51:22,900
+ if you add these two together then the sum of these two
+
+995
+01:51:22,900 --> 01:51:26,220
+ set together is larger than the other one.
+
+996
+01:51:27,940 --> 01:51:30,780
+ Okay so you see here whatever you shift shift
+
+997
+01:51:30,780 --> 01:51:32,900
+ to the levels all right.
+
+998
+01:51:32,900 --> 01:51:35,820
+ You reduce one part the other part increase
+
+999
+01:51:35,860 --> 01:51:39,900
+ and the two arrow if you are adding the two arrow together
+
+1000
+01:51:39,900 --> 01:51:41,380
+ is even worse.
+
+1001
+01:51:41,380 --> 01:51:44,580
+ So this is actually this is the optimal one
+
+1002
+01:51:44,580 --> 01:51:48,460
+ of the best if you are combining the two.
+
+1003
+01:51:48,460 --> 01:51:53,460
+ So to later be careful it may be similar question.
+
+1004
+01:51:55,860 --> 01:52:00,860
+ You can have two arrows even in the estimation problem.
+
+1005
+01:52:01,860 --> 01:52:07,540
+ You can have one part you have one arrow
+
+1006
+01:52:07,540 --> 01:52:09,940
+ on the other one you have another arrow.
+
+1007
+01:52:09,940 --> 01:52:14,940
+ So you may not have optimal one by best in both
+
+1008
+01:52:15,900 --> 01:52:19,099
+ but if you combine the sum of the arrow
+
+1009
+01:52:19,099 --> 01:52:24,099
+ you may still be able to get the best out of this
+
+1010
+01:52:26,179 --> 01:52:29,820
+ different thing earlier like this case.
+
+1011
+01:52:29,820 --> 01:52:32,540
+ For example this one if you are adding these two
+
+1012
+01:52:32,540 --> 01:52:37,540
+ because you cannot say each of them is the smallest one.
+
+1013
+01:52:38,139 --> 01:52:40,500
+ You want to reduce that I can shift this one
+
+1014
+01:52:40,500 --> 01:52:43,099
+ so that this part become smaller.
+
+1015
+01:52:43,099 --> 01:52:46,500
+ But your other arrow is getting bigger
+
+1016
+01:52:46,500 --> 01:52:49,980
+ and the sum of these two you see if your sum
+
+1017
+01:52:49,980 --> 01:52:53,620
+ you have the over the best one is if you are following
+
+1018
+01:52:53,620 --> 01:52:56,420
+ this curve so whatever you shift you'll create
+
+1019
+01:52:56,420 --> 01:52:59,179
+ the actual one here so it's worse.
+
+1020
+01:52:59,500 --> 01:53:04,500
+ Okay so yeah even so for the other one this one here
+
+1021
+01:53:07,300 --> 01:53:09,660
+ this arrow you cannot say this is the smallest
+
+1022
+01:53:09,660 --> 01:53:12,420
+ because I can always shift this way so reduce this one
+
+1023
+01:53:12,420 --> 01:53:15,220
+ but then if you are summing the two
+
+1024
+01:53:15,220 --> 01:53:19,500
+ then you can prove this is the best even you see
+
+1025
+01:53:19,500 --> 01:53:24,340
+ if you have to choose one stretcher that's optimal
+
+1026
+01:53:24,340 --> 01:53:27,220
+ that's the best you can do yes.
+
+1027
+01:53:30,180 --> 01:53:33,820
+ The second one yes.
+
+1028
+01:53:45,820 --> 01:53:50,820
+ Title L can be one why not because you know
+
+1029
+01:53:51,900 --> 01:53:54,860
+ the extreme case you can have the profile
+
+1030
+01:53:54,860 --> 01:53:58,100
+ for some type two L is a miss.
+
+1031
+01:53:58,100 --> 01:54:03,100
+ Yes of course if you reduce you say you don't want
+
+1032
+01:54:03,820 --> 01:54:06,100
+ the probability for salamander to become zero
+
+1033
+01:54:06,100 --> 01:54:11,100
+ then every time you say no target.
+
+1034
+01:54:12,820 --> 01:54:17,820
+ All right but then you missed yeah the arrow
+
+1035
+01:54:18,380 --> 01:54:21,580
+ will be 100 you will be probability is one
+
+1036
+01:54:21,580 --> 01:54:24,740
+ because you'll reduce one to zero the other
+
+1037
+01:54:24,740 --> 01:54:26,060
+ will surely become one.
+
+1038
+01:54:27,060 --> 01:54:29,260
+ That's an extreme case.
+
+1039
+01:54:29,260 --> 01:54:33,420
+ All right you'll make the threshold so that you
+
+1040
+01:54:33,420 --> 01:54:36,580
+ you can reduce this until say raise the threshold
+
+1041
+01:54:36,580 --> 01:54:39,140
+ until they are very big very big so you don't have
+
+1042
+01:54:39,140 --> 01:54:42,140
+ type one arrow almost zero then the other one
+
+1043
+01:54:42,140 --> 01:54:46,500
+ the other one is type two arrow because you
+
+1044
+01:54:46,500 --> 01:54:50,500
+ all the target you'll miss you'll miss the yes.
+
+1045
+01:54:50,500 --> 01:54:51,340
+ Yes.
+
+1046
+01:55:13,340 --> 01:55:14,180
+ Yes.
+
+1047
+01:55:20,500 --> 01:55:33,420
+ No no no when you that's right yes statistically
+
+1048
+01:55:33,420 --> 01:55:37,900
+ when you are talking about machine learning
+
+1049
+01:55:37,900 --> 01:55:42,900
+ then your major the miss is you only count those
+
+1050
+01:55:43,740 --> 01:55:47,700
+ case where the target occurred then you'll miss
+
+1051
+01:55:48,700 --> 01:55:52,340
+ target mean occur 10 times then you'll miss
+
+1052
+01:55:52,340 --> 01:55:54,740
+ all of them each time you say no because you say
+
+1053
+01:55:54,740 --> 01:55:59,179
+ no target then you will say the how to measure
+
+1054
+01:55:59,179 --> 01:56:03,660
+ the arrow that one is you will be miss all the target
+
+1055
+01:56:03,660 --> 01:56:08,660
+ the measure is the probability is measuring say
+
+1056
+01:56:09,139 --> 01:56:11,620
+ how good you're detecting the target if 10
+
+1057
+01:56:11,620 --> 01:56:15,860
+ target you miss 10 is of course there will be
+
+1058
+01:56:15,900 --> 01:56:20,620
+ 100% miss you know it's not not to compare
+
+1059
+01:56:20,620 --> 01:56:24,620
+ the overall cases you may be right in the
+
+1060
+01:56:25,780 --> 01:56:30,099
+ that's right the overall arrow may be not one.
+
+1061
+01:56:30,099 --> 01:56:34,460
+ Okay so that's how you measure that.
+
+1062
+01:56:34,460 --> 01:56:38,540
+ I think you are thinking about the overall accuracy.
+
+1063
+01:56:38,540 --> 01:56:41,059
+ That's why sometimes you're in machine learning
+
+1064
+01:56:41,060 --> 01:56:46,060
+ you don't overall accuracy is in the balance case
+
+1065
+01:56:46,140 --> 01:56:50,900
+ where the two class are about the same then it's okay
+
+1066
+01:56:50,900 --> 01:56:55,900
+ you measure but if the because I happen to do
+
+1067
+01:56:55,900 --> 01:56:59,940
+ to do quite some research in balance data
+
+1068
+01:56:59,940 --> 01:57:02,620
+ in balance data most of people are healthy
+
+1069
+01:57:02,620 --> 01:57:07,620
+ but cancer people only have a few say one out of 10,000
+
+1070
+01:57:08,460 --> 01:57:12,820
+ then the total accuracy is like you say yes
+
+1071
+01:57:12,820 --> 01:57:17,140
+ if only a 10 out of 10,000 they'll say oh I say
+
+1072
+01:57:17,140 --> 01:57:22,140
+ everyone is a healthy so the arrow is very small
+
+1073
+01:57:22,900 --> 01:57:26,620
+ because most of the time you are right even if you make
+
+1074
+01:57:26,620 --> 01:57:31,340
+ a mistake but then it's critical because you cannot
+
+1075
+01:57:31,340 --> 01:57:36,340
+ when you do a test you cannot say cancer patient
+
+1076
+01:57:37,340 --> 01:57:42,340
+ your decays is healthy there will be high risk.
+
+1077
+01:57:43,740 --> 01:57:46,340
+ That's why later part we will discuss about that
+
+1078
+01:57:46,340 --> 01:57:51,340
+ to adding some kind of penalty yes in decade
+
+1079
+01:57:53,700 --> 01:57:57,340
+ but at least coming back to this type two
+
+1080
+01:57:57,340 --> 01:58:00,700
+ type two arrow is more like you are measuring
+
+1081
+01:58:00,700 --> 01:58:05,260
+ those the case where you bring like those target occurred
+
+1082
+01:58:05,260 --> 01:58:09,900
+ and your miss say for example 10 target you'll detect fine
+
+1083
+01:58:09,900 --> 01:58:14,900
+ then the arrow is half 50% in this case
+
+1084
+01:58:15,460 --> 01:58:19,340
+ we're talking about the miss but if you're 10 you miss 10
+
+1085
+01:58:19,340 --> 01:58:24,340
+ we don't compare those no target your argument is
+
+1086
+01:58:25,020 --> 01:58:29,020
+ have to measure that's a total arrow yeah okay
+
+1087
+01:58:29,820 --> 01:58:34,140
+ yeah so the right yeah so yeah
+
+1088
+01:58:34,620 --> 01:58:39,620
+ I think the good to good to clarify yeah actually
+
+1089
+01:58:39,740 --> 01:58:43,740
+ we'll go back to this to go back to this probability
+
+1090
+01:58:43,740 --> 01:58:48,740
+ yes so you'll see here yeah I think
+
+1091
+01:58:52,580 --> 01:58:57,580
+ say you want to yeah if you look at this type two arrow
+
+1092
+01:58:57,780 --> 01:59:02,780
+ probability of miss so that means if you make the
+
+1093
+01:59:10,780 --> 01:59:15,780
+ threshold so high you know so that you'll
+
+1094
+01:59:17,860 --> 01:59:22,860
+ reduce this almost no zero but then okay so
+
+1095
+01:59:23,860 --> 01:59:28,860
+ so which one if you're let's look at this case
+
+1096
+01:59:29,339 --> 01:59:34,339
+ if you want to force around that mean you'll
+
+1097
+01:59:35,700 --> 01:59:40,700
+ you have a higher force around when you
+
+1098
+01:59:42,420 --> 01:59:47,420
+ let's see the side of H1 if H0 is true
+
+1099
+01:59:48,420 --> 01:59:53,420
+ you'll make it as you'll make it as H1 then of
+
+1100
+01:59:53,420 --> 01:59:58,420
+ of course if you lower the threshold you see
+
+1101
+02:00:00,220 --> 02:00:05,220
+ yeah okay if you're lower the lower the threshold
+
+1102
+02:00:06,820 --> 02:00:11,820
+ what happened then your H0 is true
+
+1103
+02:00:11,820 --> 02:00:16,820
+ then your yeah you will not decide as H1
+
+1104
+02:00:24,340 --> 02:00:29,340
+ because it's always like noise
+
+1105
+02:00:31,700 --> 02:00:35,700
+ let's see if you're lower the threshold okay
+
+1106
+02:00:35,700 --> 02:00:39,700
+ they have sorry sometimes you need to think
+
+1107
+02:00:39,860 --> 02:00:44,860
+ then you have a higher chance to design H1
+
+1108
+02:00:45,820 --> 02:00:50,820
+ because say for example if you're especially lower to
+
+1109
+02:00:51,900 --> 02:00:56,900
+ not to zero then we will decide on very often
+
+1110
+02:00:57,540 --> 02:01:02,540
+ we will decide as H1 because at the chance of greater
+
+1111
+02:01:02,940 --> 02:01:07,940
+ than zero is very high you know previously only half
+
+1112
+02:01:08,860 --> 02:01:13,860
+ so most of your more time you will be deciding as H1
+
+1113
+02:01:14,900 --> 02:01:19,900
+ so in that case the probability of force around will
+
+1114
+02:01:19,900 --> 02:01:23,900
+ be higher so you have increase this one
+
+1115
+02:01:23,900 --> 02:01:26,900
+ if probability force around higher then of course
+
+1116
+02:01:26,900 --> 02:01:30,419
+ you'll lower the chance of miss even if you're greater
+
+1117
+02:01:30,419 --> 02:01:33,059
+ than zero then you'll say okay there's a target there
+
+1118
+02:01:33,059 --> 02:01:37,059
+ so you'll reduce this on that thing if you
+
+1119
+02:01:38,019 --> 02:01:43,019
+ raise this one yeah make it so difficult to make it
+
+1120
+02:01:43,019 --> 02:01:48,019
+ a target okay then you'll very unlikely you see
+
+1121
+02:01:49,580 --> 02:01:54,099
+ make this force around but then you'll miss the target
+
+1122
+02:01:54,099 --> 02:01:59,099
+ because when the target is at this high then now you'll
+
+1123
+02:01:59,820 --> 02:02:03,820
+ say you must be greater than three okay
+
+1124
+02:02:03,820 --> 02:02:07,580
+ then you'll miss this one so you think about that
+
+1125
+02:02:08,460 --> 02:02:12,580
+ and to be I think we have later on go to the NPS
+
+1126
+02:02:12,580 --> 02:02:16,900
+ here we will have a ceiling to show how this work
+
+1127
+02:02:16,900 --> 02:02:21,900
+ okay so that's how yeah so that's how this NPS approach
+
+1128
+02:02:23,380 --> 02:02:28,380
+ is try to formulate this into a proper
+
+1129
+02:02:29,460 --> 02:02:34,460
+ medical problem and then to show which way will be the
+
+1130
+02:02:35,460 --> 02:02:40,460
+ it will be the best or at least under certain condition
+
+1131
+02:02:40,460 --> 02:02:45,460
+ so actually the NPS approach is since we know
+
+1132
+02:02:47,460 --> 02:02:52,460
+ you cannot reduce force simultaneously so
+
+1133
+02:02:52,980 --> 02:02:57,980
+ so the proper way to do is yeah yeah is we yeah we still
+
+1134
+02:03:05,460 --> 02:03:10,460
+ yeah they did this probably force alarm is fine but then
+
+1135
+02:03:10,460 --> 02:03:15,460
+ we redefine this probability of miss because the probability
+
+1136
+02:03:18,620 --> 02:03:23,620
+ of miss is related to probability of detection in this way
+
+1137
+02:03:25,580 --> 02:03:31,580
+ okay so if you all yeah if we we can do this
+
+1138
+02:03:34,460 --> 02:03:38,340
+ we when we fix probability force alarm because you have two
+
+1139
+02:03:38,340 --> 02:03:42,700
+ of them that since we cannot reduce both so the the proper
+
+1140
+02:03:42,700 --> 02:03:47,700
+ way to do is we fix one first whatever you require say
+
+1141
+02:03:48,100 --> 02:03:53,100
+ probability of force alarm we we allow to have the probability
+
+1142
+02:03:53,100 --> 02:03:58,100
+ force alarm say 10% one out of the you'll run 10 times
+
+1143
+02:03:58,820 --> 02:04:02,380
+ then we allow only one of them is a wrong there's a target
+
+1144
+02:04:02,420 --> 02:04:07,420
+ coming and then in this case we will try to minimize the
+
+1145
+02:04:11,420 --> 02:04:15,860
+ probability of miss so we will at the same time once we fix
+
+1146
+02:04:15,860 --> 02:04:20,860
+ this for people's love we try to try to minimize the other
+
+1147
+02:04:20,860 --> 02:04:25,860
+ type two error but then the to reduce the probability of miss
+
+1148
+02:04:26,860 --> 02:04:31,860
+ is the same as maximize the probability of detection
+
+1149
+02:04:34,740 --> 02:04:38,940
+ because your miss the one it's the opposite is your your
+
+1150
+02:04:38,940 --> 02:04:43,940
+ detect things we are doing the binary hyper-exhasing and then
+
+1151
+02:04:43,940 --> 02:04:48,940
+ you can also see the relationship because if H1 is true
+
+1152
+02:04:49,460 --> 02:04:52,660
+ under the ground to this one then you decide on H1
+
+1153
+02:04:52,740 --> 02:04:57,740
+ of course you can only decide either H1 or H0 so it will be
+
+1154
+02:04:58,700 --> 02:05:03,700
+ related by this formula because the two have a test you
+
+1155
+02:05:05,099 --> 02:05:10,099
+ you guess twice one is H0 one H1 surely will be correct
+
+1156
+02:05:11,139 --> 02:05:13,820
+ there are only two outcome so they are relating there
+
+1157
+02:05:13,820 --> 02:05:18,820
+ and that's why here very often we change the time to error
+
+1158
+02:05:19,019 --> 02:05:24,019
+ using this formula to refer to probability of detection
+
+1159
+02:05:26,860 --> 02:05:31,860
+ so that we try to maximize this okay then now the NP approach
+
+1160
+02:05:33,139 --> 02:05:38,139
+ is very very clear very easy to remember is we give a constraint
+
+1161
+02:05:42,299 --> 02:05:47,299
+ about probability of false alarm is a fixed value say we're
+
+1162
+02:05:47,580 --> 02:05:51,580
+ calling alpha but being a probability of course you cannot be
+
+1163
+02:05:51,580 --> 02:05:56,580
+ hiding one is very small 10 to the power minus one or
+
+1164
+02:05:58,660 --> 02:06:03,660
+ in communication usually you require the error so called error
+
+1165
+02:06:03,660 --> 02:06:08,660
+ 10 to the power minus three minus four and so on very small
+
+1166
+02:06:08,660 --> 02:06:13,660
+ now that once this is fixed then we try to maximize the
+
+1167
+02:06:14,660 --> 02:06:19,660
+ probability of detection of course usually you won't get it
+
+1168
+02:06:19,660 --> 02:06:24,660
+ to one unless you allow this probability of false alarm
+
+1169
+02:06:24,940 --> 02:06:29,940
+ to be very approaching one or so later you can see from the
+
+1170
+02:06:30,460 --> 02:06:37,460
+ curve also the trail okay so how to do that we can
+
+1171
+02:06:44,580 --> 02:06:49,580
+ first we fix a value to probability of false alarm
+
+1172
+02:06:50,620 --> 02:06:55,620
+ say toic alpha or so then now remember in the detection
+
+1173
+02:07:01,180 --> 02:07:05,980
+ problem it boils out to once you have one sample there is
+
+1174
+02:07:05,980 --> 02:07:10,099
+ nothing you can compile you just you can use one sample so
+
+1175
+02:07:10,140 --> 02:07:13,540
+ this is an EGA example we don't need to worry about how to
+
+1176
+02:07:13,540 --> 02:07:18,540
+ compile the data so the function is just you just use a sample
+
+1177
+02:07:18,540 --> 02:07:22,540
+ because one sample you even if you scale you will not affect
+
+1178
+02:07:22,540 --> 02:07:27,540
+ the detection results so the only way you can manipulate
+
+1179
+02:07:31,060 --> 02:07:36,060
+ is the threshold as I say how you shift that middle line
+
+1180
+02:07:37,060 --> 02:07:42,060
+ then now you now is assuming is a Gaussian distribution
+
+1181
+02:07:43,060 --> 02:07:48,060
+ and zero means you see our probability of false alarm is
+
+1182
+02:07:48,060 --> 02:07:53,060
+ by definition is under H0 is true and then our major data
+
+1183
+02:07:56,060 --> 02:08:00,060
+ is greater than this threshold right so that's how we make
+
+1184
+02:08:00,060 --> 02:08:04,060
+ mistake way besides as there is a target
+
+1185
+02:08:06,060 --> 02:08:10,060
+ but there is no target H0 is true so this is give you all
+
+1186
+02:08:10,060 --> 02:08:14,060
+ the error measurement so be careful how are we going to
+
+1187
+02:08:14,060 --> 02:08:18,060
+ translate this into the calculation the formula
+
+1188
+02:08:18,060 --> 02:08:23,060
+ under H0 means you see your PDF you need to use the one
+
+1189
+02:08:27,060 --> 02:08:32,060
+ with zero mean and you know our variance equal to one so
+
+1190
+02:08:33,060 --> 02:08:38,060
+ this is how you write this okay then whatever the value
+
+1191
+02:08:40,060 --> 02:08:44,060
+ greater than the threshold you measure using this probability
+
+1192
+02:08:44,060 --> 02:08:48,060
+ being your integrate you see your integrating starting from
+
+1193
+02:08:48,060 --> 02:08:53,060
+ this gamma up to infinity large that's why you see the yellow
+
+1194
+02:08:54,060 --> 02:08:59,060
+ color set you see we call it as right tail right tail
+
+1195
+02:09:00,060 --> 02:09:05,060
+ that's a the coin is a Q function and remember in the lecture
+
+1196
+02:09:05,060 --> 02:09:10,060
+ one we want we talk about several functions so this is how
+
+1197
+02:09:10,060 --> 02:09:15,060
+ you define the Q and if you look at the Gaussian the
+
+1198
+02:09:15,060 --> 02:09:20,060
+ Velcro so it's a right tail the one near the far end
+
+1199
+02:09:20,060 --> 02:09:25,060
+ if you're still not sure you'll refer to this okay so that's
+
+1200
+02:09:26,060 --> 02:09:30,060
+ how this is part starting you know once you give a threshold
+
+1201
+02:09:30,060 --> 02:09:35,060
+ so this is the part you are causing error because the noise
+
+1202
+02:09:38,060 --> 02:09:43,060
+ only it by right if the Gaussian is chosen you'll go to infinity
+
+1203
+02:09:43,060 --> 02:09:47,060
+ so whatever your color you still have a very small part so this
+
+1204
+02:09:47,060 --> 02:09:51,060
+ is the part we're causing error so integrate from this all the
+
+1205
+02:09:51,060 --> 02:09:56,060
+ way up to the end okay so this is the this give you all the
+
+1206
+02:09:59,060 --> 02:10:04,060
+ probability of false alarm so so again remember once this PFA
+
+1207
+02:10:06,060 --> 02:10:11,060
+ given you can because this Q the one is not analytic but you
+
+1208
+02:10:13,060 --> 02:10:18,060
+ can in the old day now even you can store into the tables or
+
+1209
+02:10:18,060 --> 02:10:23,060
+ look up table so you can say this is a curve you can
+
+1210
+02:10:24,060 --> 02:10:28,060
+ produce and then you'll do the mapping you see so this there is
+
+1211
+02:10:28,060 --> 02:10:33,060
+ a one to one if given the probability of false alarm say
+
+1212
+02:10:33,060 --> 02:10:38,060
+ 10 to the power minus 3 you can walk back or you just look
+
+1213
+02:10:38,060 --> 02:10:42,060
+ at there then you will say you want to make this one very
+
+1214
+02:10:42,060 --> 02:10:47,060
+ small the gamma must be very large it's equal to 3.0
+
+1215
+02:10:48,060 --> 02:10:53,060
+ 9 so that means this is your threshold must be very high in
+
+1216
+02:10:56,060 --> 02:11:01,060
+ order to reduce the probability of false alarm then at the of
+
+1217
+02:11:02,060 --> 02:11:07,060
+ cause at the cause of you see miss some parking so yeah so
+
+1218
+02:11:11,060 --> 02:11:16,060
+ therefore in this case you will see this relationship we decide
+
+1219
+02:11:17,060 --> 02:11:22,060
+ each one only the value is greater than 3 3.0 9 so so that's how
+
+1220
+02:11:26,060 --> 02:11:31,060
+ it works but then in this case we will see how good is our
+
+1221
+02:11:33,060 --> 02:11:38,060
+ probability of detection so the formulation is similar so you
+
+1222
+02:11:39,060 --> 02:11:43,060
+ are very carefully this my definition is each one is true and
+
+1223
+02:11:44,060 --> 02:11:49,060
+ then we also make a correct detection we decide it's a strong
+
+1224
+02:11:50,060 --> 02:11:55,060
+ so this is a h1 is true then our measure the probability of
+
+1225
+02:11:58,060 --> 02:12:03,060
+ x0 greater than this same threshold so the integration is the
+
+1226
+02:12:03,060 --> 02:12:08,060
+ same except this PDF here you have to h1 is true then there is
+
+1227
+02:12:09,060 --> 02:12:14,060
+ a mean the mean value is equal to 1 so expectation so you replace
+
+1228
+02:12:16,060 --> 02:12:21,060
+ this and after that integration you use the Q function still to
+
+1229
+02:12:22,060 --> 02:12:27,060
+ integrate but you have to reduce the mean here is a shift Q Q so
+
+1230
+02:12:29,060 --> 02:12:34,060
+ remember our gamma is 3.0 9 roughly then your subject 1 become 2.1 2
+
+1231
+02:12:35,060 --> 02:12:42,060
+ for example so this give you the value of 0.018 so that's very
+
+1232
+02:12:43,060 --> 02:12:49,060
+ very small very small probability of detection because but then you
+
+1233
+02:12:50,060 --> 02:12:55,060
+ don't have a better choice because you want the probability of
+
+1234
+02:12:56,060 --> 02:13:00,060
+ force alarm to be very small at the time of the
+
+1235
+02:13:00,060 --> 02:13:05,060
+ detection most of the time okay then imagine if you make the gamma
+
+1236
+02:13:06,060 --> 02:13:10,060
+ bigger and bigger then of course this PDF will become very small
+
+1237
+02:13:11,060 --> 02:13:14,060
+ approaching to 0 and then then go back to your question the early
+
+1238
+02:13:15,060 --> 02:13:19,060
+ question the probability of miss it will become almost 1 okay then
+
+1239
+02:13:20,060 --> 02:13:24,060
+ you have to do the same thing again so you have to do the same
+
+1240
+02:13:24,060 --> 02:13:28,060
+ again so you have to do your question the early question the probability
+
+1241
+02:13:29,060 --> 02:13:33,060
+ of miss it will become almost 1 okay there's one minor this okay so you
+
+1242
+02:13:34,060 --> 02:13:40,060
+ will look at this that's mechanically the way you go yeah so right
+
+1243
+02:13:41,060 --> 02:13:46,060
+ you see here so therefore in this case a chip we have one data
+
+1244
+02:13:47,060 --> 02:13:53,060
+ sample and the barrier is the noise barrier equal to 1 so are we able
+
+1245
+02:13:54,060 --> 02:14:02,060
+ to do better job than this unfortunately it turns out to be
+
+1246
+02:14:03,060 --> 02:14:08,060
+ not the one the measure to the way we do already we know heuristically
+
+1247
+02:14:09,060 --> 02:14:14,060
+ you already have the compromise by drawing that and that one turns out
+
+1248
+02:14:15,060 --> 02:14:21,060
+ to be the best you can do there is no no other way but but then we have
+
+1249
+02:14:21,060 --> 02:14:27,060
+ to be sure this is the so-called the correct approach that's that's how
+
+1250
+02:14:28,060 --> 02:14:32,060
+ this NP approach is done so let me let's go through this a little bit
+
+1251
+02:14:33,060 --> 02:14:41,060
+ slowly things as I mentioned NP approach is the most important part
+
+1252
+02:14:42,060 --> 02:14:49,060
+ in this detection theory like this you should know this so let's see here
+
+1253
+02:14:49,060 --> 02:14:55,060
+ now we're making more general you see our goals here of the technology to decide
+
+1254
+02:14:56,060 --> 02:15:04,060
+ between H0 and H1 based on an observed set of the finite number of major data
+
+1255
+02:15:05,060 --> 02:15:09,060
+ not just one because early on we say one then there's very limited you can't do
+
+1256
+02:15:10,060 --> 02:15:18,060
+ much and particularly if the SNRI is low so so we see if we have more data
+
+1257
+02:15:19,060 --> 02:15:31,060
+ can do better and this is more general case here also so so problem here is
+
+1258
+02:15:32,060 --> 02:15:43,060
+ given this data we will see how we make the decision how to how to decide the
+
+1259
+02:15:43,060 --> 02:15:53,060
+ threshold okay so so let's see here since we have the N data sample and then
+
+1260
+02:15:54,060 --> 02:16:03,060
+ we are considering the general case so you can you can imagine you'll you'll be
+
+1261
+02:16:03,060 --> 02:16:11,060
+ dealing in the assume the data we are measuring is a rare so you are looking
+
+1262
+02:16:12,060 --> 02:16:19,060
+ at R to the N you know this is back to you explain the dimension of R to the N
+
+1263
+02:16:20,060 --> 02:16:25,060
+ okay it's a big reason so assume N equal to 2 then you will be looking at the
+
+1264
+02:16:25,060 --> 02:16:32,060
+ like a plane if N equal to 3 you have 3 3 sample because we don't know the value
+
+1265
+02:16:33,060 --> 02:16:41,060
+ so you have to consider this is 2 value here X0 X1 so they explain a plane
+
+1266
+02:16:42,060 --> 02:16:49,060
+ then it can be anywhere so we can just imagine this whole region we call it RN
+
+1267
+02:16:49,059 --> 02:16:59,059
+ okay then among this big region the so-called all the I in space we are dealing
+
+1268
+02:17:00,059 --> 02:17:06,059
+ with we are doing the binary decision so basically we just want to divide we make
+
+1269
+02:17:07,059 --> 02:17:16,059
+ this into two regions R1 and or R0 but to be careful our region here is not
+
+1270
+02:17:16,059 --> 02:17:24,059
+ necessarily to be just one connect region there are many ways to divide region
+
+1271
+02:17:25,059 --> 02:17:31,059
+ say in the 2D plane you can you can make the region to be many say many small circles
+
+1272
+02:17:32,059 --> 02:17:39,059
+ to decide if the point four into this circle one of the circle we decide R1
+
+1273
+02:17:39,059 --> 02:17:46,059
+ okay so so this is the reason is generalizing and even in the special case of the
+
+1274
+02:17:47,059 --> 02:17:52,059
+ real life just one sample data you know they were in the real axis is the way we do is
+
+1275
+02:17:53,059 --> 02:18:02,059
+ we chop into say a divide into two in the two part this is also one way of deciding the
+
+1276
+02:18:02,059 --> 02:18:13,059
+ deciding the region you can say the decision can be even if you have one real life you
+
+1277
+02:18:14,059 --> 02:18:22,059
+ can chop into several segments say from 0 to 1 I decide it's R1 and then from 2 to 3
+
+1278
+02:18:22,059 --> 02:18:32,059
+ so so R1 and so on you think so don't don't be limited to this you know you're real axis
+
+1279
+02:18:33,059 --> 02:18:41,059
+ must they can only have dividing into two into two two segments two segments to have to be
+
+1280
+02:18:42,059 --> 02:18:48,059
+ later you are seeing the NP approach and under the Gaussian assumption is the best way but
+
+1281
+02:18:48,059 --> 02:18:58,059
+ for other probability you may have other region decision reason and then later we also have
+
+1282
+02:18:59,059 --> 02:19:08,059
+ example you just pay attention to this one in the case of for example deciding on the
+
+1283
+02:19:09,059 --> 02:19:15,059
+ you are dealing with a second order data you raise the data to power of two then you'll be
+
+1284
+02:19:15,059 --> 02:19:22,059
+ totally totally different okay so let's come back to this this is important and this we
+
+1285
+02:19:23,059 --> 02:19:31,059
+ should be able to finish this let's see what we can do here so now we just try to make it
+
+1286
+02:19:32,059 --> 02:19:41,059
+ we make this R1 to be the set of value in that then that map into the decision H1 so and then
+
+1287
+02:19:41,059 --> 02:19:49,060
+ so we define this R1 is all those x x that many of it because in this dimension then we
+
+1288
+02:19:50,060 --> 02:20:00,060
+ decide H1 or it's the same as you reject reject it then put it or we reject H0 that
+
+1289
+02:20:01,060 --> 02:20:08,060
+ mean we are not considering H0 so that means it's the same and then in statistic this region
+
+1290
+02:20:08,060 --> 02:20:18,060
+ is also called the critical region so just keep your keep the name okay now be careful here
+
+1291
+02:20:19,060 --> 02:20:32,060
+ then how about the other region you already decided H0 because we call this 0 then that
+
+1292
+02:20:32,060 --> 02:20:41,060
+ will be the side of you know all reject H1 and then of course we have to make sure because
+
+1293
+02:20:42,060 --> 02:20:51,060
+ the whole the whole space you can only decide H1 or H0 okay can you say oh I don't I don't
+
+1294
+02:20:52,060 --> 02:20:59,060
+ I don't make decision cannot you must make a decision must decide on one of the two say okay
+
+1295
+02:20:59,060 --> 02:21:09,060
+ like in voting in Singapore I think unless you purposely do a wrong vote otherwise you
+
+1296
+02:21:10,060 --> 02:21:18,060
+ must vote one of the candidate or so anyway assuming that yeah that case you know these
+
+1297
+02:21:18,060 --> 02:21:27,060
+ two region they are mutually exclude but then they you the union of that you will be
+
+1298
+02:21:28,060 --> 02:21:36,060
+ give you the whole space so that's if you use the example here our critical region here
+
+1299
+02:21:37,060 --> 02:21:45,060
+ assume we take one threshold it will be just either this H0 greater than 1 so but remember
+
+1300
+02:21:45,060 --> 02:21:52,060
+ here as I mentioned emphasize this is only one choice you see it's not not only choice
+
+1301
+02:21:53,060 --> 02:22:01,060
+ also very often we do in this way okay now with this definition we will see the probability
+
+1302
+02:22:02,060 --> 02:22:10,060
+ of false alarm can be written as this okay so you'll be careful so this is saying because
+
+1303
+02:22:10,060 --> 02:22:23,060
+ and the H0 is true we have this PDF distribution then how many X you see so for whatever those
+
+1304
+02:22:24,060 --> 02:22:33,060
+ X within this R1 region you'll correct them you'll integrate them that give you the probability
+
+1305
+02:22:33,060 --> 02:22:45,060
+ of false alarm okay then we want to make it equal to a given constant so we so you say
+
+1306
+02:22:46,060 --> 02:22:52,060
+ in this way and that's the definition okay so be careful this is the probability 5 probability
+
+1307
+02:22:52,060 --> 02:22:58,060
+ of false alarm now we want to make it equal to alpha and then now in statistic again this
+
+1308
+02:22:59,060 --> 02:23:07,060
+ alpha is called significance level or size of the test I mean yeah I think this one we
+
+1309
+02:23:08,060 --> 02:23:16,060
+ probably don't use that very often later so now there will be remember there will be
+
+1310
+02:23:16,060 --> 02:23:24,060
+ many set that certify this false alarm probability constraint in equation one yeah okay so because
+
+1311
+02:23:25,060 --> 02:23:31,060
+ when we divide the region we have many ways to divide and as long as the false alarm integrate
+
+1312
+02:23:32,060 --> 02:23:38,060
+ happen to be equal to alpha then that's okay yeah so now our objective is to among those
+
+1313
+02:23:38,060 --> 02:23:46,060
+ many team choice choose one that maximize this pt remember here our probability of false alarm
+
+1314
+02:23:47,060 --> 02:23:54,060
+ already fixed but we want to maximize this pt so how to do that in statistic this is called
+
+1315
+02:23:55,060 --> 02:24:02,060
+ power of the test and critical region that maximize this power is called the best critical region
+
+1316
+02:24:02,060 --> 02:24:09,060
+ you see now we have critical region but then we want to choose among them the best so that's
+
+1317
+02:24:10,060 --> 02:24:19,060
+ how here you see again the same example if you're whatever you give a threshold you'll get
+
+1318
+02:24:20,060 --> 02:24:28,060
+ probability of false alarm okay then from there you can get the probability of detection I think
+
+1319
+02:24:28,060 --> 02:24:36,060
+ this way is clear because you see once these two curve fix if you'll reduce this probability
+
+1320
+02:24:37,060 --> 02:24:42,060
+ for some time shift week to right then the probability of detection also this one is always bigger than
+
+1321
+02:24:43,060 --> 02:24:54,060
+ this one but it will it will decrease also you see so this is one way of doing that but remember
+
+1322
+02:24:54,060 --> 02:25:09,060
+ not only way you may you may play this rare axis into several parts so now our MP theorem say
+
+1323
+02:25:10,060 --> 02:25:20,060
+ how do I choose the best one once we fix this then turn out to be the maximum pt of a given probability
+
+1324
+02:25:20,060 --> 02:25:31,060
+ for a salon we will decide on h1 by very simple we just take the ratio of these two the numerator
+
+1325
+02:25:32,060 --> 02:25:42,060
+ is probability of the data and the h1 versus probability of the data and the s0 as long as
+
+1326
+02:25:42,060 --> 02:25:49,060
+ you because how do you get this result based on the given probability for salon okay and
+
+1327
+02:25:50,060 --> 02:25:55,060
+ then this one there these two are related you see you want to design that then you can integrate
+
+1328
+02:25:56,060 --> 02:26:03,060
+ you can choose those x satisfy this then you integrate to make it probability for salon
+
+1329
+02:26:03,060 --> 02:26:15,060
+ we go to alpha so you may argue how are we going to choose since the two are somehow overlap
+
+1330
+02:26:16,060 --> 02:26:25,060
+ or you know but he will be strictly you can but later on you will see in once you give pdf is it is
+
+1331
+02:26:25,060 --> 02:26:33,060
+ easy way to calculate but assume he will be strictly you can always do that because if you say you
+
+1332
+02:26:34,060 --> 02:26:43,060
+ choose one threshold substitute here then you'll get the probability for salon is like like two large
+
+1333
+02:26:44,060 --> 02:26:53,060
+ not equal to what we want then you can probably for salon two large that means you decide on h1
+
+1334
+02:26:53,060 --> 02:27:05,060
+ h1 you will have you will have higher chance because you have higher probability of first one
+
+1335
+02:27:06,060 --> 02:27:14,060
+ then you can reduce and then make it if too small then you increase and so on so there is one point
+
+1336
+02:27:14,060 --> 02:27:26,060
+ you can always ensure this satisfied okay so yeah so this function is a very important we call that as
+
+1337
+02:27:27,060 --> 02:27:36,060
+ likelihood ratio since that indicate for each value the one for fixed value measure the likelihood of
+
+1338
+02:27:36,060 --> 02:27:43,060
+ h1 versus the likelihood of h0 so remember pdf and likelihood function they are always
+
+1339
+02:27:44,060 --> 02:27:50,060
+ it looks the same but depending on how you interpret and the work condition likelihood means your data is
+
+1340
+02:27:51,060 --> 02:28:01,060
+ given so the pdf become fixed function and we call that as likelihood and therefore this test also called
+
+1341
+02:28:01,060 --> 02:28:13,060
+ likelihood ratio test so how to prove that I think we finish this then we can we can probably be finished
+
+1342
+02:28:14,060 --> 02:28:22,060
+ this lecture so this is very useful so again this one involving some optimization technique is a simple one
+
+1343
+02:28:22,060 --> 02:28:33,060
+ but it's a good to try to understand it well we use this Lagrangian multiplier to maximize pdf for
+
+1344
+02:28:34,060 --> 02:28:46,060
+ given probability of first one so how do that our objective function we want to maximize this but under the condition of
+
+1345
+02:28:46,060 --> 02:28:58,060
+ we make the first one equal to alpha then in mesh you'll combine the two by using this lambda like the Lagrangian multiplier
+
+1346
+02:28:59,060 --> 02:29:11,060
+ now if you agree this is the correct way to do we will see how to get this pdf we know you already know how to do that
+
+1347
+02:29:11,060 --> 02:29:23,060
+ this is h1 is true then we decide on r1 correct then how about this lambda you're putting here r5 is given so pfA you already know how to do that
+
+1348
+02:29:24,060 --> 02:29:37,060
+ you are similar to that except this is h1 this is h0 then we combine the one because this is the same region as r1
+
+1349
+02:29:37,060 --> 02:29:47,060
+ then we combine those with integration into one this is a easier one later we have the patient one is a little bit more involved
+
+1350
+02:29:48,060 --> 02:29:56,060
+ so good to understand this so you know this is the way so no problem I really I pray this into two terms
+
+1351
+02:29:56,060 --> 02:30:07,060
+ and then those involving integration we compile with this okay so this is one and the other constant
+
+1352
+02:30:08,060 --> 02:30:28,060
+ then what next so be careful here we want to maximize this quantity of f then we should include those x in r1 right
+
+1353
+02:30:28,060 --> 02:30:44,060
+ so if the integral is positive for that value of x because you see just think about we have many x those x are those points in the region
+
+1354
+02:30:44,060 --> 02:31:03,060
+ okay so because this function is you know is let me go back to this go back to this okay before you do integration this p this is given this also given okay of course at the moment we don't know the lambda
+
+1355
+02:31:03,060 --> 02:31:21,060
+ but so once we you know x is just like the sample data vector but but so by right we should we should run through all the possible value in the rn space
+
+1356
+02:31:21,060 --> 02:31:40,060
+ but then remember we try to decide into this r1 so you want to maximize this you see of course you integrate this is greater than 0 okay then you integrate you will give you a bigger value
+
+1357
+02:31:40,060 --> 02:32:09,060
+ okay so once you have the extra data sample so just imagine you're looking at one data point one point in the space one by one okay practically you'll never to do because they're continue but theoretically you can imagine you are searching through that okay so therefore you see here if you're able to do that
+
+1358
+02:32:10,060 --> 02:32:39,060
+ those greater than 0 then we we put those into r1 then you will integrate you give you a positive value yeah so and then as I mentioned earlier for those are equal to 0 it may be included in either one doesn't matter because in the in a continuous space the boundary is nothing you know there's no major so that's for this great time it will be
+
+1359
+02:32:40,060 --> 02:33:09,060
+ it will be important so that's a different story so okay so therefore we only look at the greater equality the inequality don't worry about this now let me careful the current of this is a zero yeah that refer to the boundary we don't bother this case so therefore in the future you'll want to do that
+
+1360
+02:33:10,060 --> 02:33:39,060
+ you always remember you just remember you use greater or greater equal to 0 it doesn't matter even in the so that's why some well-off in the PDF some students ask you'll only give greater than 0 and smaller than 0 we're open to 0 we don't care at one particular point but the good is just one point you just you can put the 0 into one of them or not and typically in the PDF usually at that point is it will be continued on either side they are take the value
+
+1361
+02:33:40,060 --> 02:34:09,060
+ the same data so now therefore let's go back to here from this quality or the size one if this ratio greater than minus lambda okay so that's deciding the like a larger but then of course you know this always come from PDF the likelihood ratio is always always positive
+
+1362
+02:34:10,060 --> 02:34:38,060
+ then you you it doesn't matter so our lack of numbers multiply or must be negative so you still it will give you a positive positive value but minor of lambda it doesn't mean this is negative lambda is a simple can take positive can be negative okay so yeah so therefore
+
+1363
+02:34:38,060 --> 02:35:07,060
+ yeah otherwise it doesn't make sense so we yeah so we assume this is the case so therefore we just make it to make it look nicer and at least you'll feel more comfortable with yeah we change this into gamma so that's why this is the case okay and then how to get this threshold you see then you will see this can be found from
+
+1364
+02:35:08,060 --> 02:35:26,060
+ this given constraint that the size is in people you must give a constraint because otherwise you'll maximize you can always sacrifice one to maximize the other so how to find this then remember this for before so long
+
+1365
+02:35:26,060 --> 02:35:55,060
+ will be this is how you get for people's but we know this equal to alpha so therefore this integration is equal to alpha here okay so with this we take a look at one example then we can finish here so again for this hypothesis you'll have the case here then now we want to be the
+
+1366
+02:35:56,060 --> 02:36:14,060
+ first let me go to this then how do we get this so so as I say once you are you are given this ratio and you know the PDF you have no problem you're crying yeah then now this become a proper function of the data
+
+1367
+02:36:14,060 --> 02:36:41,060
+ for nature and this game only one sample and then from here you can very easy work out it's for nature and so then eventually because we finally need to get measure how the data looks like so you'll take a look and finally move those independent of data in the other side calling a new threshold so that they give you the form where
+
+1368
+02:36:41,060 --> 02:37:10,060
+ we require and then from here we go back to what we discussed early give function and so on so that's how this is what we yeah we yeah we already discussed early if you want to have a probably first one very small then our threshold here must be large and our PD space small so there's no other way in order to
+
+1369
+02:37:11,060 --> 02:37:40,060
+ if you want to increase the probability of detection there of course you must increase the probability of false alarm remember in the curve you'll see they are all using one threshold both increase or both reduce so in this case if for B for one you go to huh there are PD's will be much better than there one so yeah
+
+1370
+02:37:41,060 --> 02:38:09,060
+ so therefore you'll see there is a trade off for B for some time and PD is no no no better way to do and see MP yeah in the case of more data then now we increase the end then you also had this sample then you will see this is
+
+1371
+02:38:10,060 --> 02:38:35,060
+ very similar you can do the detection and form the ratio except now you have n data then this one yeah it's very similar you'll work out but also the approach is quite similar to what we discussed early in in in detection you need to handle this summation and also you were determining whether
+
+1372
+02:38:36,060 --> 02:38:54,060
+ you know depending on a here or something a greater zero they can be by a positive value without changing in quality then end up with a sample means and from here you can evaluate the expectation as we already done value
+
+1373
+02:38:54,060 --> 02:39:22,060
+ yeah under this and then similarly I think this is what we already done before so I think not much so from here you can go back to the Q function but remember Q function you must always normalize into unit the value must be equal to one and then Q function refer to the mean equal to zero so if the mean
+
+1374
+02:39:22,060 --> 02:39:51,060
+ no equal to zero you have to ship the means okay so yeah so therefore you see this relationship PD and yeah you can substitute in and so on so yeah even protocol so here you can see the relationship smaller PDF of course you see the PD getting less and well it also depends on the energy to noise
+
+1375
+02:39:52,060 --> 02:40:21,060
+ ratio okay okay I think we just come up to this point I think it's about time to finish yeah you're coming back to the Simon I think the most of the questions should be clear then you have to be careful you look at the whether one sample or I think there is one question you use three samples to do that the one then yeah then
+
+1376
+02:40:22,060 --> 02:40:51,060
+ if you have a simple you see quite often you need to look at the general case for example there is a epsilon there they will treat that as no zero first and then after you get the formula then you take the limit and similarly for some case where your parameter is not then you can like angle to infinity and so on so you need to learn how to handle this general case versus spatial case yeah
+
+1377
+02:40:51,060 --> 02:41:20,060
+ and the question like the quadratic is yeah I think you the one is we did not explain very clearly in the the lecture no only for linear but since it only have one data sample then it is not difficult to increase the estimated to be quadratic quadratic already given the form you have the quadratic term x power of two and they are doing
+
+1378
+02:41:21,060 --> 02:41:50,060
+ the similar that mean the first you assume the general case you derive using the minimization and and there are there ones you are given a specific expression that mean the that sample is related to the to the parameter so so you need to work out the expectation mean you need to do integration so that that's a way you have to do a little bit
+
+1379
+02:41:50,060 --> 02:42:17,060
+ of a little hand calculation to to work out okay I think no question that's a thing of today and you have your research week next week to know the committee yeah and then you only finish the assignment remember the assignment is Wednesday of the research week so they will have some time to mark okay
+
+1380
+02:42:17,060 --> 02:42:27,060
+ see you two weeks later but you have question can always email me yeah some student do
+
+1381
+02:43:17,060 --> 02:43:19,060
+ you
+
+1382
+02:43:47,060 --> 02:43:49,060
+ you
+
+1383
+02:44:17,060 --> 02:44:19,060
+ you
+
+1384
+02:44:47,060 --> 02:44:49,060
+ you
+
+1385
+02:45:17,060 --> 02:45:19,060
+ you
+
+1386
+02:45:47,060 --> 02:45:49,060
+ you
+
+1387
+02:46:17,060 --> 02:46:19,060
+ you
+
+1388
+02:46:47,060 --> 02:46:49,060
+ you
+
+1389
+02:47:17,060 --> 02:47:19,060
+ you
+
+1390
+02:47:47,060 --> 02:47:49,060
+ you
+
+1391
+02:48:17,060 --> 02:48:19,060
+ you
+
+1392
+02:48:47,060 --> 02:48:49,060
+ you
+
+1393
+02:49:17,060 --> 02:49:19,060
+ you
+
+1394
+02:49:47,060 --> 02:49:49,060
+ you
+
+1395
+02:50:17,060 --> 02:50:19,060
+ you
+
+1396
+02:50:47,060 --> 02:50:49,060
+ you
+
+1397
+02:51:17,060 --> 02:51:19,060
+ you
+
+1398
+02:51:47,060 --> 02:51:49,060
+ you
+
+1399
+02:52:17,060 --> 02:52:19,060
+ you
+
+1400
+02:52:47,060 --> 02:52:49,060
+ you
+
+1401
+02:53:17,060 --> 02:53:19,060
+ you
+
+1402
+02:53:47,060 --> 02:53:49,060
+ you
+
+1403
+02:54:17,060 --> 02:54:19,060
+ you
+
+1404
+02:54:47,060 --> 02:54:49,060
+ you
+
+1405
+02:55:17,060 --> 02:55:19,060
+ you
+
+1406
+02:55:47,060 --> 02:55:49,060
+ you
+
+1407
+02:56:17,060 --> 02:56:19,060
+ you
+
+1408
+02:56:47,060 --> 02:56:49,060
+ you
+
+1409
+02:57:17,060 --> 02:57:19,060
+ you
+
+1410
+02:57:47,060 --> 02:57:49,060
+ you
+
+1411
+02:58:17,060 --> 02:58:19,060
+ you
+
+1412
+02:58:47,060 --> 02:58:49,060
+ you
+
+1413
+02:59:17,060 --> 02:59:19,060
+ you
+
+1414
+02:59:47,060 --> 02:59:49,060
+ you
+

@@ -1,0 +1,4864 @@
+1
+00:02:00,000 --> 00:02:10,000
+ This one is working under this.
+
+2
+00:02:30,000 --> 00:02:40,000
+ Good evening.
+
+3
+00:02:40,000 --> 00:02:50,000
+ Let's start the class now.
+
+4
+00:02:50,000 --> 00:02:55,000
+ So I think now the job is over.
+
+5
+00:02:55,000 --> 00:03:06,000
+ So I guess we have about 160 students for this course, which is quite large.
+
+6
+00:03:06,000 --> 00:03:12,000
+ Actually, so far there's no...
+
+7
+00:03:12,000 --> 00:03:15,000
+ I taught this course for over 20 years.
+
+8
+00:03:15,000 --> 00:03:24,000
+ I think the maximum number is about 60, and usually is 20.
+
+9
+00:03:24,000 --> 00:03:30,000
+ Even last year, we have many MSc students, but they're 38 or 39.
+
+10
+00:03:30,000 --> 00:03:38,000
+ So anyway, let's take it easy.
+
+11
+00:03:38,000 --> 00:03:47,000
+ At least for this week, because I think quite a few students gave me the feedback, say, last week.
+
+12
+00:03:47,000 --> 00:03:54,000
+ Like CIOB is a bit difficult to follow.
+
+13
+00:03:54,000 --> 00:04:00,000
+ So I will...
+
+14
+00:04:00,000 --> 00:04:07,000
+ Yeah, I think I've already announced this just to make sure everyone...
+
+15
+00:04:07,000 --> 00:04:09,000
+ Those are not here.
+
+16
+00:04:09,000 --> 00:04:13,000
+ Watch the video recording.
+
+17
+00:04:13,000 --> 00:04:17,000
+ Pay attention to that.
+
+18
+00:04:17,000 --> 00:04:20,000
+ Sorry, I think this is not update.
+
+19
+00:04:20,000 --> 00:04:27,000
+ I already announced they will be dealing with recess week.
+
+20
+00:04:27,000 --> 00:04:34,000
+ Because I gave it early, you can...
+
+21
+00:04:34,000 --> 00:04:37,000
+ We said...
+
+22
+00:04:37,000 --> 00:04:42,000
+ Okay, yeah, also Wednesday.
+
+23
+00:04:42,000 --> 00:04:49,000
+ So you'll have three weeks, so that will be enough time.
+
+24
+00:04:49,000 --> 00:04:54,000
+ Yeah, and then there will be a quiz here.
+
+25
+00:04:54,000 --> 00:04:58,000
+ Every year, in the past few years, we did the same.
+
+26
+00:04:58,000 --> 00:05:00,000
+ There will be four parts, too.
+
+27
+00:05:00,000 --> 00:05:05,000
+ So we separate these two parts.
+
+28
+00:05:05,000 --> 00:05:10,000
+ One is for the assignment, where you have time to do it.
+
+29
+00:05:10,000 --> 00:05:12,000
+ And then...
+
+30
+00:05:12,000 --> 00:05:18,000
+ And the second CAs, continuous assessment.
+
+31
+00:05:18,000 --> 00:05:21,000
+ And you'll follow the announcement.
+
+32
+00:05:21,000 --> 00:05:27,000
+ Okay?
+
+33
+00:05:27,000 --> 00:05:37,000
+ So before going, I think it may be time to take stock to give you some summary.
+
+34
+00:05:37,000 --> 00:05:45,000
+ And then I put the two weeks together.
+
+35
+00:05:45,000 --> 00:05:54,000
+ Because the first week, we spent quite some time talking about introductions and requirements and so on.
+
+36
+00:05:54,000 --> 00:05:59,000
+ So that's why I combined the two together.
+
+37
+00:05:59,000 --> 00:06:04,000
+ Basically, you can also get these from the lecture notes.
+
+38
+00:06:04,000 --> 00:06:12,000
+ I try to make it as detailed as I could.
+
+39
+00:06:12,000 --> 00:06:22,000
+ So as you can see here, our part one was beyond estimation of unknown parameters.
+
+40
+00:06:22,000 --> 00:06:32,000
+ And then, we think this part one, we were spending about six weeks to finish.
+
+41
+00:06:32,000 --> 00:06:40,000
+ And mostly, we were beyond deterministic parameters, where we could only have a finite number.
+
+42
+00:06:40,000 --> 00:06:44,000
+ So we didn't deal with infinity, many of them.
+
+43
+00:06:44,000 --> 00:06:49,000
+ So that was the real big easier.
+
+44
+00:06:49,000 --> 00:06:56,000
+ It's called traditional or conventional estimation theory.
+
+45
+00:06:56,000 --> 00:07:03,000
+ And after that, in the final one or one and a half weeks,
+
+46
+00:07:03,000 --> 00:07:09,000
+ we will move on to the parameter themselves.
+
+47
+00:07:09,000 --> 00:07:11,000
+ They are random.
+
+48
+00:07:11,000 --> 00:07:16,000
+ So you can expect it to be much more difficult.
+
+49
+00:07:16,000 --> 00:07:19,000
+ So we build up with the simple one.
+
+50
+00:07:19,000 --> 00:07:23,000
+ This is relatively easier to start with.
+
+51
+00:07:23,000 --> 00:07:24,000
+ Okay?
+
+52
+00:07:24,000 --> 00:07:26,000
+ So some notation here.
+
+53
+00:07:26,000 --> 00:07:29,000
+ Theta is true but unknown.
+
+54
+00:07:29,000 --> 00:07:37,000
+ So basically, based on the data, X is the, you know, sometimes we call measurement,
+
+55
+00:07:37,000 --> 00:07:39,000
+ sometimes we call observation there.
+
+56
+00:07:39,000 --> 00:07:40,000
+ Basically, the same.
+
+57
+00:07:40,000 --> 00:07:42,000
+ You have the data.
+
+58
+00:07:42,000 --> 00:07:48,000
+ And the data here again will show a finite number of things.
+
+59
+00:07:48,000 --> 00:07:50,000
+ So this is unknown.
+
+60
+00:07:50,000 --> 00:07:53,000
+ So we need to base on the data to estimate.
+
+61
+00:07:53,000 --> 00:08:01,000
+ The concept is also quite related to what now we call machine learnings.
+
+62
+00:08:01,000 --> 00:08:05,000
+ But this is more much earlier time.
+
+63
+00:08:05,000 --> 00:08:12,000
+ The estimation theory is even before the machine learning was become popular.
+
+64
+00:08:12,000 --> 00:08:13,000
+ Okay?
+
+65
+00:08:13,000 --> 00:08:16,000
+ So the head is we estimate this based on this.
+
+66
+00:08:16,000 --> 00:08:22,000
+ And because we always based on the data, so sometimes we just ignore this argument.
+
+67
+00:08:22,000 --> 00:08:23,000
+ Yeah.
+
+68
+00:08:23,000 --> 00:08:26,000
+ So that's what we estimate of this theta.
+
+69
+00:08:26,000 --> 00:08:33,000
+ And then here, since you estimate that, they should have some estimation errors.
+
+70
+00:08:33,000 --> 00:08:40,000
+ And that's why if this is vector, you will consider the difference between them.
+
+71
+00:08:40,000 --> 00:08:49,000
+ And at the beginning part or in the first few weeks, if this is deterministic, however,
+
+72
+00:08:49,000 --> 00:08:54,000
+ our assumption here is the major data will be random.
+
+73
+00:08:54,000 --> 00:09:02,000
+ At least if you have a signal, which even if you contain the deterministic part plus
+
+74
+00:09:02,000 --> 00:09:08,000
+ some noise, you see, if one part is deterministic, the other part is random.
+
+75
+00:09:08,000 --> 00:09:15,000
+ So the combined one, you always refer to the so-called more difficult one.
+
+76
+00:09:15,000 --> 00:09:17,000
+ So we call that as random signal.
+
+77
+00:09:17,000 --> 00:09:20,000
+ Even if you contain deterministic part.
+
+78
+00:09:20,000 --> 00:09:30,000
+ And then as you will see later, you see, to estimate is that you try to find a way to
+
+79
+00:09:30,000 --> 00:09:33,000
+ combine this based on the sample.
+
+80
+00:09:33,000 --> 00:09:42,000
+ And this is what we are doing for both estimation theory and in the second part, we are dealing
+
+81
+00:09:42,000 --> 00:09:44,000
+ with detection.
+
+82
+00:09:44,000 --> 00:09:45,000
+ So we try to combine.
+
+83
+00:09:45,000 --> 00:09:50,000
+ Of course, you have several ways or many ways to combine.
+
+84
+00:09:50,000 --> 00:09:53,000
+ And the easiest one is combine that linearly.
+
+85
+00:09:53,000 --> 00:09:58,000
+ And that's why we spend most of the time to deal with that.
+
+86
+00:09:58,000 --> 00:10:05,000
+ And then even linearly, you are determining the coefficients or the matrix and so on.
+
+87
+00:10:06,000 --> 00:10:14,000
+ So therefore, if you are handling some random signal, when you combine, it will still be
+
+88
+00:10:14,000 --> 00:10:15,000
+ random.
+
+89
+00:10:15,000 --> 00:10:22,000
+ So that's why this is the error except it's also a random variable.
+
+90
+00:10:22,000 --> 00:10:30,000
+ So once it's a random variable, you will need to, the best you can describe for any random
+
+91
+00:10:30,000 --> 00:10:35,000
+ variable, it will be probability density function.
+
+92
+00:10:35,000 --> 00:10:39,000
+ Assuming it's a continue random variable.
+
+93
+00:10:39,000 --> 00:10:44,000
+ But sometimes we may not have the PDF available.
+
+94
+00:10:44,000 --> 00:10:50,000
+ And quite often sometimes we may not even need to have the whole description.
+
+95
+00:10:50,000 --> 00:10:59,000
+ For example, you will look at students, CVs and so on.
+
+96
+00:10:59,000 --> 00:11:06,000
+ You can put in many things, but probably to start with, we focus on so-called the more
+
+97
+00:11:06,000 --> 00:11:07,000
+ important one.
+
+98
+00:11:07,000 --> 00:11:10,000
+ And that's right here.
+
+99
+00:11:10,000 --> 00:11:13,000
+ For PDF, it will be idea.
+
+100
+00:11:13,000 --> 00:11:22,000
+ For example, PDF, you can give you all the statistics about this random variable to start with the
+
+101
+00:11:22,000 --> 00:11:29,000
+ first moment, which is, we call it the means of expectation.
+
+102
+00:11:29,000 --> 00:11:33,000
+ So that's the easiest one, first moment.
+
+103
+00:11:33,000 --> 00:11:37,000
+ And then out of the day, you can move on to second moment.
+
+104
+00:11:37,000 --> 00:11:45,000
+ And second moment, there will be two, well, the second moment, usually a random variable,
+
+105
+00:11:45,000 --> 00:11:50,000
+ you raise the power to expectation will be the second moment.
+
+106
+00:11:50,000 --> 00:11:59,000
+ But we also want to measure the second-order statistic, which is the value, how much difference
+
+107
+00:11:59,000 --> 00:12:03,000
+ around this mean value.
+
+108
+00:12:03,000 --> 00:12:12,000
+ And remember here is random variable, when you do some statistic, it will become no
+
+109
+00:12:12,000 --> 00:12:13,000
+ random.
+
+110
+00:12:13,000 --> 00:12:22,000
+ So you need to learn these calls, you will always be juggling around random, no random,
+
+111
+00:12:22,000 --> 00:12:28,000
+ and how to differentiate these two.
+
+112
+00:12:28,000 --> 00:12:32,000
+ And so you can see here, this is random.
+
+113
+00:12:32,000 --> 00:12:39,000
+ But now once you take expectation, as I said, a random variable, you take expectation, you
+
+114
+00:12:39,000 --> 00:12:47,000
+ are measuring the statistic, it's no random, so you will be a deterministic value.
+
+115
+00:12:47,000 --> 00:12:54,000
+ And that's why this is mean square, mean square error, is what you are going to measure.
+
+116
+00:12:54,000 --> 00:13:03,000
+ And similarly, you see here, so sometimes students confuse with these two, it looks quite similar,
+
+117
+00:13:03,000 --> 00:13:08,000
+ so you use estimate to see how much difference.
+
+118
+00:13:08,000 --> 00:13:18,000
+ But this is before your expectation, so you have comparing random variable or random vector
+
+119
+00:13:18,000 --> 00:13:20,000
+ with no random one.
+
+120
+00:13:20,000 --> 00:13:24,000
+ So the end will be still random, as I tell you.
+
+121
+00:13:24,000 --> 00:13:30,000
+ We always use the more difficult one, which is, of course, you all know, random variable
+
+122
+00:13:30,000 --> 00:13:34,000
+ is more challenging, compared to deterministic one.
+
+123
+00:13:34,000 --> 00:13:43,000
+ But however, here we use another different measure, we take the expectation, so a random
+
+124
+00:13:43,000 --> 00:13:48,000
+ variable, after taking the average, it becomes no random.
+
+125
+00:13:48,000 --> 00:13:54,000
+ So this bias is where the no random minus another no random.
+
+126
+00:13:54,000 --> 00:14:01,000
+ And assuming so far, we haven't moved to the case where the unknown variable itself is
+
+127
+00:14:01,000 --> 00:14:09,000
+ random, which is what we will be doing after getting familiar with this, so-called the
+
+128
+00:14:09,000 --> 00:14:10,000
+ more basic one.
+
+129
+00:14:10,000 --> 00:14:12,000
+ So this bias is no random.
+
+130
+00:14:12,000 --> 00:14:16,000
+ And then being no random is possible.
+
+131
+00:14:16,000 --> 00:14:21,000
+ We make these bias either variable or vector become zero.
+
+132
+00:14:21,000 --> 00:14:30,000
+ But this one, as long as this is random, you will never have the totally zero, because
+
+133
+00:14:30,000 --> 00:14:35,000
+ a random variable, if it's always zero, there is no random.
+
+134
+00:14:35,000 --> 00:14:38,000
+ So we expect a random variable.
+
+135
+00:14:38,000 --> 00:14:40,000
+ It will not take a fixed value.
+
+136
+00:14:40,000 --> 00:14:42,000
+ But this one is possible.
+
+137
+00:14:42,000 --> 00:14:46,000
+ So these are the very basic concepts.
+
+138
+00:14:46,000 --> 00:14:51,000
+ And that's why we are aiming for an estimate.
+
+139
+00:14:51,000 --> 00:14:56,000
+ We will be looking at no bias and consistent.
+
+140
+00:14:56,000 --> 00:15:02,000
+ We make this nsc become zero, and n goes to infinity.
+
+141
+00:15:02,000 --> 00:15:13,000
+ A random variable, it can also have some behavior, because, for example, this is, yeah, because
+
+142
+00:15:13,000 --> 00:15:15,000
+ you are taking the expectation.
+
+143
+00:15:15,000 --> 00:15:20,000
+ So it becomes no random, like the value.
+
+144
+00:15:20,000 --> 00:15:26,000
+ And when n goes to infinity, I mean you have more and more data available.
+
+145
+00:15:26,000 --> 00:15:32,000
+ So the more data you have, we try to reduce the variation.
+
+146
+00:15:32,000 --> 00:15:40,000
+ And that's how this is one of the requirements, or at least we hope to achieve.
+
+147
+00:15:41,000 --> 00:15:46,000
+ And then another one, which is more difficult to achieve is efficiency.
+
+148
+00:15:46,000 --> 00:15:52,000
+ We will make the nsc hit this Cromwell-Rollball.
+
+149
+00:15:52,000 --> 00:15:59,000
+ The Cromwell-Rollball itself is also deterministic.
+
+150
+00:15:59,000 --> 00:16:00,000
+ Yes?
+
+151
+00:16:00,000 --> 00:16:01,000
+ Question?
+
+152
+00:16:01,000 --> 00:16:02,000
+ Yes.
+
+153
+00:16:02,000 --> 00:16:08,000
+ Or maybe you can move to the middle at least.
+
+154
+00:16:08,000 --> 00:16:13,000
+ So that's because you don't have the mic over there.
+
+155
+00:16:13,000 --> 00:16:17,000
+ So we have class size now of only half.
+
+156
+00:16:17,000 --> 00:16:23,000
+ So that's why the quiz will be conducted here, because that will be the idea of quiz.
+
+157
+00:16:23,000 --> 00:16:30,000
+ We need to student have to be one student, one MTC, and that would be perfect.
+
+158
+00:16:30,000 --> 00:16:32,000
+ I don't need to book another LTE.
+
+159
+00:16:32,000 --> 00:16:33,000
+ Yes?
+
+160
+00:16:33,000 --> 00:16:34,000
+ Question?
+
+161
+00:16:34,000 --> 00:16:35,000
+ Yes.
+
+162
+00:16:35,000 --> 00:16:50,000
+ That's a good question, yes.
+
+163
+00:16:50,000 --> 00:17:06,000
+ Typically you will need to, like for example, as I say, that's a similar question as when
+
+164
+00:17:06,000 --> 00:17:07,000
+ we talk about CIOB.
+
+165
+00:17:07,000 --> 00:17:14,000
+ But CIOB is also based on even the true unknown parameter.
+
+166
+00:17:14,000 --> 00:17:19,000
+ You have to assume you know that, but that's what you're pointing out.
+
+167
+00:17:19,000 --> 00:17:22,000
+ So we don't know that.
+
+168
+00:17:22,000 --> 00:17:32,000
+ But for example, in practical application, quite often you start with some models and
+
+169
+00:17:32,000 --> 00:17:42,000
+ then you can try to assume the model will be correct at least to some extent.
+
+170
+00:17:42,000 --> 00:17:54,000
+ Then you can use, for example, training data, like some of the known data to verify whether
+
+171
+00:17:54,000 --> 00:17:56,000
+ this is fitting or not.
+
+172
+00:17:56,000 --> 00:18:03,000
+ And it's in a sense quite similar to where you are now learning from, like machine learning.
+
+173
+00:18:03,000 --> 00:18:05,000
+ You have some training data.
+
+174
+00:18:05,000 --> 00:18:12,000
+ But the actual application you are going to test later is unknown, yes.
+
+175
+00:18:12,000 --> 00:18:13,000
+ It is true.
+
+176
+00:18:13,000 --> 00:18:22,000
+ But then if you are somehow being able to be that kind of things, although it may not be
+
+177
+00:18:22,000 --> 00:18:23,000
+ accurate.
+
+178
+00:18:23,000 --> 00:18:34,000
+ Because for simulations, we know the true parameter and that's why you measure all those arrows
+
+179
+00:18:34,000 --> 00:18:37,000
+ whether bias or not.
+
+180
+00:18:37,000 --> 00:18:42,000
+ But then after that when you're fitting to the real application, you will see your need
+
+181
+00:18:42,000 --> 00:18:52,000
+ to test to see how much difference and so on whether this model fitting well.
+
+182
+00:18:52,000 --> 00:18:55,000
+ So yes, you're right.
+
+183
+00:18:55,000 --> 00:19:05,000
+ They say if you don't have, then you may not be able to know exactly whether it's bias
+
+184
+00:19:05,000 --> 00:19:06,000
+ or not.
+
+185
+00:19:06,000 --> 00:19:18,000
+ But quite often in some, even in real applications, sometimes you may be able to use some pilot
+
+186
+00:19:18,000 --> 00:19:23,000
+ data or somehow verify your models.
+
+187
+00:19:23,000 --> 00:19:36,000
+ Or even if in the test, you can see how much deviations and so on you observe.
+
+188
+00:19:36,000 --> 00:19:44,000
+ But of course there's always a gap between the theory and the application.
+
+189
+00:19:44,000 --> 00:19:51,000
+ So for example, we assume PDF is perfectly known but you're knowing real data.
+
+190
+00:19:51,000 --> 00:19:57,000
+ You may not know exactly the data may not fit in the true PDF well.
+
+191
+00:19:57,000 --> 00:20:08,000
+ But you're still, sincerely you assume that and then even for the data, there are always
+
+192
+00:20:08,000 --> 00:20:15,000
+ some related topics you can base on the measure data how to estimate the PDF.
+
+193
+00:20:15,000 --> 00:20:19,000
+ So you won't get the perfect PDF.
+
+194
+00:20:19,000 --> 00:20:24,000
+ The data may not be 100% fitting but still you can try that.
+
+195
+00:20:24,000 --> 00:20:30,000
+ That's probably the best you can do given the circumstances and so on.
+
+196
+00:20:30,000 --> 00:20:33,000
+ So there's always this gap.
+
+197
+00:20:33,000 --> 00:20:40,000
+ At the same as now we are dealing with deep learning machine learnings, quite often you
+
+198
+00:20:40,000 --> 00:20:46,000
+ can only see how much you can do and then try to verify.
+
+199
+00:20:46,000 --> 00:20:52,000
+ But it's a very good question.
+
+200
+00:20:52,000 --> 00:21:01,000
+ So that's how we'll be assuming like what I say given your data.
+
+201
+00:21:01,000 --> 00:21:09,000
+ Later you will see here most of the time we assume we know the PDF and assume the data
+
+202
+00:21:09,000 --> 00:21:15,000
+ followed that but there are also some estimation methods.
+
+203
+00:21:15,000 --> 00:21:17,000
+ They don't require the PDF.
+
+204
+00:21:17,000 --> 00:21:23,000
+ They only require the first order or second order statistic.
+
+205
+00:21:23,000 --> 00:21:27,000
+ So that's why based on that you can also do something or so.
+
+206
+00:21:27,000 --> 00:21:37,000
+ That's why later some of the measures we assume you need to know PDF like CLB but some other
+
+207
+00:21:37,000 --> 00:21:43,000
+ methods later on we will talk about the proof that doesn't require that.
+
+208
+00:21:43,000 --> 00:21:48,000
+ Or in that case you have no much knowledge about the PDF.
+
+209
+00:21:48,000 --> 00:21:55,000
+ You can only get the means and variance but given the limited so-called data you still
+
+210
+00:21:55,000 --> 00:21:58,000
+ can't get the information.
+
+211
+00:21:58,000 --> 00:22:01,000
+ You can still do something.
+
+212
+00:22:01,000 --> 00:22:07,000
+ So that's the engineering approach in a sense.
+
+213
+00:22:07,000 --> 00:22:11,000
+ So that's how we'll be looking at that.
+
+214
+00:22:11,000 --> 00:22:14,000
+ CLB is the one we talk about.
+
+215
+00:22:14,000 --> 00:22:23,000
+ It will be efficient if you haven't done that but not always.
+
+216
+00:22:23,000 --> 00:22:28,000
+ We also discussed several popular PDFs.
+
+217
+00:22:28,000 --> 00:22:35,000
+ The most important and in the same easy one is Gaussian because here is.
+
+218
+00:22:35,000 --> 00:22:44,000
+ Also in real life quite often the data you can assume they follow may not exactly but
+
+219
+00:22:44,000 --> 00:22:50,000
+ approximately this Gaussian distribution when you particularly when you have large amount
+
+220
+00:22:50,000 --> 00:22:54,000
+ of data available and uniform distribution and some other.
+
+221
+00:22:54,000 --> 00:22:56,000
+ So we're not going to detail.
+
+222
+00:22:56,000 --> 00:23:06,000
+ And then we start with the very basic definition and truly there's the requirement in the next
+
+223
+00:23:06,000 --> 00:23:17,000
+ fundamental for our estimation method is what we are doing is just try to end to get the
+
+224
+00:23:17,000 --> 00:23:25,000
+ criterion and unbiased estimation or we call it as MBUE and all the other subsequent method
+
+225
+00:23:25,000 --> 00:23:28,000
+ at least for the next few chapter we will be trying to do that.
+
+226
+00:23:28,000 --> 00:23:37,000
+ So how to do that because the step one is when we make it unbiased first assuming of course
+
+227
+00:23:37,000 --> 00:23:42,000
+ like what you're pulling out is we need to have some knowledge about the so-called two
+
+228
+00:23:42,000 --> 00:23:55,000
+ and quite often you can also see if you assume certain models and like for example the noise is zero mean
+
+229
+00:23:55,000 --> 00:24:05,000
+ then the unbiased automatically satisfies even if you don't know the two parameters.
+
+230
+00:24:05,000 --> 00:24:16,000
+ Okay so later you will see that another that this one is relatively easy to achieve but then the second step to make the
+
+231
+00:24:16,000 --> 00:24:27,000
+ variance minimum which is requiring any more work and that's why there will be quite a few you know different ways of doing that
+
+232
+00:24:27,000 --> 00:24:38,000
+ so this is somehow is a first order statistic where this is the second order one so the operation is more difficult
+
+233
+00:24:38,000 --> 00:24:48,000
+ and then of course the relay question is whether this exists or not because not always exists when it exists
+
+234
+00:24:48,000 --> 00:24:59,000
+ and that's why we move on to the quite important one which is CLB. Later we will try to share a little bit more.
+
+235
+00:24:59,000 --> 00:25:10,000
+ As I say I take this usually after a job then students confirm and then after we go through the more difficult CLB
+
+236
+00:25:10,000 --> 00:25:25,000
+ then I will make this so-called week three mostly like revision about what you know at Tang and then prepare for the next several weeks
+
+237
+00:25:25,000 --> 00:25:38,000
+ and also introduce some related say papers and or at least some information to share with you and that's later you will see some interesting
+
+238
+00:25:38,000 --> 00:25:55,000
+ you know you know story about this. So CLB is relative to efficient estimator or also the MVVE so this should try to figure out what's the relation from that
+
+239
+00:25:55,000 --> 00:26:06,000
+ to everything okay some figures and then to get CLB we need to require the regularity condition so this is very important I put this first
+
+240
+00:26:06,000 --> 00:26:21,000
+ and then the future information this is assuming you are dealing with scalar parameter just one and then that's yeah basically it will be either the first derivative power of two
+
+241
+00:26:21,000 --> 00:26:37,000
+ or you can take the second derivative and differ by just one at a time but then of course it must be very careful this is only when you take the expectation
+
+242
+00:26:37,000 --> 00:26:47,000
+ if you don't take it will be quite different you see so taking expectation and not taking that make a lot difference
+
+243
+00:26:47,000 --> 00:26:59,000
+ and then so this is future information is to get CLB but it doesn't tell you whether you can get the either the efficient estimator or the MVVE or not
+
+244
+00:26:59,000 --> 00:27:16,000
+ if you want to achieve that then if you can factorize this it will be the necessary and sufficient condition because if you can do that then you'll guarantee you to get this
+
+245
+00:27:16,000 --> 00:27:34,000
+ okay so this but this is usually not not very easy even if I tell you you can do that but it may maybe not so easy to get is like what I say before even the integration is there
+
+246
+00:27:34,000 --> 00:27:49,000
+ asking you ask you to do you may not be able to do it may require some tricks or some very sophisticated you know technique to do so that's a different story
+
+247
+00:27:49,000 --> 00:28:09,000
+ whether it's there exists or you can do it or not there will be some some difference okay then we move on to CLB for vector parameter then again there is a regularity condition just become scalar become vector
+
+248
+00:28:09,000 --> 00:28:36,000
+ so much different but here the CLB become like a matrix description we have to learn and know how to do positive semi definite matrix so so I hope you'll try to if you are not that familiar try to get get learn or get familiar
+
+249
+00:28:36,000 --> 00:28:55,000
+ but our later try to also spend a little bit time to or at least through the example by reinforcing that so so this is the covariant matrix once you're this is vector vector for scalar we talked about variant
+
+250
+00:28:55,000 --> 00:29:24,000
+ because it's just by itself but for for for vector we need to define the covariant matrix and and that's also why the CLB is corresponding to a feature information matrix because we have it depending on I and J if they are the same of course you are looking at the diagonal element
+
+251
+00:29:24,000 --> 00:29:41,000
+ then but you're also for the matrix we need to know the whole matrix which is you need to calculate the off diagonal matrix because we need to get the inverse you see we're inverting the whole matrix so that's yeah
+
+252
+00:29:42,000 --> 00:30:09,000
+ at that part we have assignment question for you to to to to to to get familiar and later maybe go through one quickly one research paper to show this also and then again you have a similar question but this is even more challenging the factorization this is a vector must be factorizing to a matrix
+
+253
+00:30:09,000 --> 00:30:36,000
+ and then pain know this is depending only on the data or this is a vector and this depending on the data and assuming here of course we had this zeta vector the true one somewhere there okay so this give you a big of you know overview of what we we did in the past two weeks
+
+254
+00:30:36,000 --> 00:31:03,000
+ and okay I think moving on so again I won't go into into detail but I as I say before it will be very good if you can try to digest and then learn the the appendix of chapter three how you know derive this CLB
+
+255
+00:31:03,000 --> 00:31:32,000
+ and I even asked few students which I know personally well like the this station project doing with me taking this course or some other students so it turned out to be not that obvious at least you take some effort but being able to understand this particularly the so-called the regularity conditions and weather
+
+256
+00:31:33,000 --> 00:32:01,000
+ derivation you can exchange with the integration it will be quite useful so so I will just highlight to to make a few key points this for some of you if you are not very sure how to how to how to do that and why do we need the regularity condition you see here the step one is you you will see here
+
+257
+00:32:01,000 --> 00:32:30,000
+ also you need to to to you from here you also need to see available in some integration it can become so-called constant or at least it's independent of variable of the what the variable you are doing the integration then you can move it in or take it out just treating it as a constant so whether it's a constant or not it depends very much on you see here
+
+258
+00:32:31,000 --> 00:33:00,000
+ which you know integration or what which derivation you will be talking about and and this kind of operation we will also later you'll take in the subsequent part subsequent week including the detection theory so you see here the one important one is that you will move the derivation inside so yeah that's why this one
+
+259
+00:33:01,000 --> 00:33:30,000
+ and then you also need to see whether it depending on the true parameter or not you know theta we are talking about talking about scaler so it's just one so you are very very deep well this one is depending at least explicitly on the data only so we we don't treat this as a function of theta so you see here you move in
+
+260
+00:33:30,000 --> 00:33:59,000
+ you move in and you'll get this okay and then yeah so so that one is usually invoking this regularity condition e of this equal to zero then you so what's the mean by e of this you know the ray lighting this there will become the integration okay yeah and then also there is this very important
+
+261
+00:34:00,000 --> 00:34:25,000
+ relationship you can you can make good use of yeah so that's that's how you will be doing that and then again you see the derivation you bring this out then this become constant one become zero and then why we need to want to measure you know the how much how much error so so if you look at this early part
+
+262
+00:34:25,000 --> 00:34:49,000
+ you see if you look at this one we only have this one theta hat here but not have no f theta so some students wonder why do we suddenly have this minor minor theta minor theta in this part you can see because this is a sum of the sum of two terms so for this one we already had in the previous page but where
+
+263
+00:34:49,000 --> 00:35:16,000
+ the point is minus theta here actually this if you explain this theta multiply this one is the is the same as you so she here this theta is in terms of the variable of major data x it will be a constant you see so you can see this if I multiply theta here it will be still zero right this is zero
+
+264
+00:35:16,000 --> 00:35:41,000
+ you know you multiply theta here you put put this theta inside integration so so you so it become like this one minus a zero then then I I combine this you see this term is the same here so I can combine what in the page one you know the previous page into this one so that's how we have this minor theta because the
+
+265
+00:35:41,000 --> 00:36:02,000
+ theta here is I say again is in term of x it will be just a constant a constant you can multiply from outside or bring inside the integration okay so and now that this is your pride that the so-called sure in equality so there's not
+
+266
+00:36:03,000 --> 00:36:30,000
+ much here and again here this one because as I say later you will see you'll try to evaluate this first order derivative with the power to the integrate this one is very much more complicated the much easier one is we take the second order derivative so from here we want to see the relationship between here and here so how
+
+267
+00:36:30,000 --> 00:36:59,000
+ do you do that so the trick here is that you will be you'll be again you see you'll apply to this regularity regularity condition okay so basically you see here this one is zero if I differentiate this one more time is it fine you see if I differentiate this one more time with respect to theta okay then you bring
+
+268
+00:37:00,000 --> 00:37:26,000
+ this first derivative inside and then this is so-called this two factor both are function of theta so so you'll know how to how to differentiate like you multiply by b you know so so and and that's how you will be doing it here okay and then again this whole thing is zero so I take the derivative
+
+269
+00:37:26,000 --> 00:37:55,000
+ sphere zero so you play this integration into a sum of two and and that precisely one is equal to this and the other at this one so equal to zero so you move one to the other become negative one okay that's how this this come below yeah okay and now that is more not much and the vector from the case really become much more complicated
+
+270
+00:37:56,000 --> 00:38:25,000
+ I think you will need some knowledges about metrics operation and also how to introduce these you know habitually vector constant vector or not there is little bit of trick there so I yeah so I won't go into the into detail discussion okay any any questions before we like move on to
+
+271
+00:38:26,000 --> 00:38:55,000
+ okay so let me just show you here yeah yeah this CRB is very useful because if I let me see if I
+
+272
+00:38:56,000 --> 00:39:25,000
+ just randomly or almost you know every every issue of the actually transaction on signal processing I you know last year the year before every year I did I I just go to see how many papers just looking at the title because nowadays each you know the journal they include more and more more and more paper so let me just give you a quick
+
+273
+00:39:25,000 --> 00:39:54,000
+ sample without going into into detail so this is one of them you see this is most recent volume see your your look at the title they already have CRB I some of them they are price CRB but I don't have time to rate the paper so if you look at if you look at this one this is even more challenging they talk about CRB you can have the conventional one which is we are learning here there
+
+274
+00:39:54,000 --> 00:40:17,000
+ is even one more and the Bayesian framework this is a course so called Bayesian CRB so so that one is a beyond I think the our course if you look at the some of the division but but then they you see so once you have Bayesian they we have still fishing information magic except you need to look at conditional
+
+275
+00:40:17,000 --> 00:40:42,000
+ fishing fishing information magic you see that the Bayesian formula is similar except you need to deal with that and then and then if you already the paper you will see is a lot more mess and complicated you see here this is typically the case so yeah just just to show you and without going to detail and
+
+276
+00:40:42,000 --> 00:41:11,000
+ another one is interesting because you see here we have some students from probably the IC design you know like your circuit so you may be inspired by this you know the CRB and as even for mixed A to D base BOA estimation so here they are dealing with dealing with circuit architecture considering of this so
+
+277
+00:41:12,000 --> 00:41:41,000
+ so this I am my message is if particularly for you know research student PhD and main genes this CRB pop is quite good if you learn it well apply to your research problem maybe you can get a good good journal paper so at least solve your problem and so see here so again you see the mobile actually very similar to what we are discussing you know so
+
+278
+00:41:42,000 --> 00:42:11,000
+ some of the signal plus noise you know and then but it's more complicated you see here the data they are looking at is a matrix we are looking only a vector so you see so you see the problem you know of course you want to do some good research paper must be looking at a more challenging problem but yeah and then you see the formula is very similar you see except again you know they you need to consider two terms instead of
+
+279
+00:42:11,000 --> 00:42:40,000
+ we're dealing with one so again that's you know something you know all the formulas are very complicated and as thankfully I found this is even more interesting you know so I show you because I become a bit a little bit excited this is also a very recent paper only probably this issue and surprisingly the
+
+280
+00:42:41,000 --> 00:43:10,000
+ this is the student in this class how many years ago 15 15 years ago and he took this call he was not my PhD student but my colleagues PhD student and then I filed the name familiar then I look at his his file data and I now become quite old you know because 15 years ago is the same as you 20 about 20 plus now it looks
+
+281
+00:43:11,000 --> 00:43:34,000
+ 40 something so it got the PhD here and then I am the one who keep a lot of old data so I I share with you I was you know this is the class the course at the time we call it 6421 it is a master course and then you look at the
+
+282
+00:43:34,000 --> 00:43:54,000
+ at the time there was actually at the time there is a no calls only for PhD student but PhD student they need to take some course MSE course as we got and you look at this class side I think it's almost most of them are PhD or MNG you see this and
+
+283
+00:43:54,000 --> 00:44:23,000
+ surprising half of them from SC our school of now they call it SC SC and then now even move to the college but in all days SC and then this student so the class side only at 27 and this is the last one PhD okay so you see here and I'm telling you the truth I know if you learn this course and then hopefully you can practice
+
+284
+00:44:24,000 --> 00:44:53,000
+ and then among this 27 students at that time there's only one MSE student in signal processing so I I told the student you are very brave you'll compete with all the class of PhD students and there was a reason after that in the early 2010 or 2011 they started to talk about a few courses for only
+
+285
+00:44:54,000 --> 00:45:23,000
+ MSE students and this course was moved naturally into PhD PhD course and from for quite a few years they are more they are only for PhD or MNG student only in the recent year they open up to MSE MSE MSE student but but but don't worry about that actually you'll compare this course now to 15 years ago the contents
+
+286
+00:45:24,000 --> 00:45:50,000
+ now is easier than 15 years ago do you know why you want to find out the reason because when moving to PhD we we're adding the adaptive signal processing so that means you have two course the the main part is still statistical signal processing about 10 weeks then three weeks is adaptive signal processing
+
+287
+00:45:50,000 --> 00:46:10,000
+ but so I start to teach that course for PhD student and then even PhD student file is too difficult because you're combining two courses and require one exam question for adaptive signal processing then the student compare a lot and the number dropped to think for two years about only 10 students
+
+288
+00:46:10,000 --> 00:46:39,000
+ and the school BEE the threshold now is 20 the minimum side must be 20 but before it was fewer student so I say if 10 students below the course will be closed and we close a few courses for example the I think pro-day we paying very famous course information theory for that was right those you know students from COM you don't have 7000 series for the
+
+289
+00:46:39,000 --> 00:47:08,000
+ you know 7 ones actually 10 years ago there was one information theory but the number of students so if you only five students so the school closed that closed that course but this course survive a bit after 10 then I make it easy I remove the adaptive signal processing but of course we have to justify to the school so now and then I don't I did not explain the you know for example if you look at the book in the early day we have the
+
+290
+00:47:09,000 --> 00:47:38,000
+ master of moments you know in common filters also in in this course but after that I make I make the content less but I get more time so right now so in the past this pie is like five week now I use six or even seven week to cover part one okay so this is a little bit of old story and was a very surprised you know this is a very
+
+291
+00:47:39,000 --> 00:48:06,000
+ surprised you know this is a student. Here the class I add that I 209 to 010 15 15 years ago you can see the content okay and then just very quickly to emphasize about the CLB I can share with you this but I
+
+292
+00:48:06,000 --> 00:48:35,000
+ did not do much in the past 10 years or so but starting from very early you know at that time I was teaching this course so so we you see the NT logo even even different because that and then there's no more CSP I did not change the the at the later head so you can see here and so these are
+
+293
+00:48:36,000 --> 00:49:00,000
+ Turner paper actually John six and so and then this student this is an engine student obviously so paper got the young also best paper award which is about 20 20 years ago and after that we continue to work but yeah only one also one undergraduate student working on this.
+
+294
+00:49:00,000 --> 00:49:26,000
+ CIOB related they got the NT URICA publication award in 2016 they are also quite a few you see the conference paper which I will not include here and again just be not going to detail but I just want to want to highlight the topic of like CLB.
+
+295
+00:49:26,000 --> 00:49:40,000
+ The motivation here this is one of the people we managed to do it and so you'll see here the you formulate the problem and then you'll see the unknown.
+
+296
+00:49:40,000 --> 00:49:55,000
+ And then you can see this paper about half of the paper is how to derive there and.
+
+297
+00:49:55,000 --> 00:50:16,000
+ And then and that's that's what you'll be doing here you have to you have to do first of the derivative and then after that you can see the second order one is you know each one take about more than half a page and.
+
+298
+00:50:17,000 --> 00:50:38,000
+ We only do it by using the simple one which is taken the second order derivative as you so imagine if we use the other one the first order derivative and multiply together it will it will not be able to do it to communicate it we take this and.
+
+299
+00:50:39,000 --> 00:50:59,000
+ And then there are you see quite a few of them then you have to eventually simplify so once you take the expectation so you can you can see the difference before taking expectation is very long but once you take the expectation it can so I'll go to a lot of them and that's.
+
+300
+00:51:00,000 --> 00:51:09,000
+ That's one of the assignment question later you'll be doing not this one I think you may never get done but the.
+
+301
+00:51:09,000 --> 00:51:27,000
+ Another example where you'll be doing that okay so you so you can for those who really want to try again get the paper from me but I just want to say share with you is about you see a little bit about the.
+
+302
+00:51:27,000 --> 00:51:32,000
+ The.
+
+303
+00:51:32,000 --> 00:51:33,000
+ The.
+
+304
+00:51:33,000 --> 00:51:34,000
+ The.
+
+305
+00:51:34,000 --> 00:51:46,000
+ Special history of this course and and also this year I don't know how I manage because that's suddenly or class I become very big.
+
+306
+00:51:46,000 --> 00:51:52,000
+ But no I speak with the other you know machine learning courses where you have.
+
+307
+00:51:53,000 --> 00:52:09,000
+ 500 students in one class or 700 in two group but we still have about 160 so I yeah so I need because I'm the only one teaching the whole course so I need to see.
+
+308
+00:52:09,000 --> 00:52:15,000
+ How to manage but in any case I.
+
+309
+00:52:15,000 --> 00:52:21,000
+ I got sure you know we work together saying.
+
+310
+00:52:21,000 --> 00:52:22,000
+ And then.
+
+311
+00:52:22,000 --> 00:52:31,000
+ You'll try your best I try my best and then it's a it's only a more difficult to do the.
+
+312
+00:52:32,000 --> 00:52:48,000
+ In correction because I told you if the class size 10 student and which we did before and then every way I say you must come then each student come up to do one derivation of the.
+
+313
+00:52:48,000 --> 00:52:55,000
+ Of the equation we only 10 you know and then we have 13 weeks so excluding we won in the last week so.
+
+314
+00:52:55,000 --> 00:53:04,000
+ But now I guess anyone want to volunteer to maybe because this one is this one is working and.
+
+315
+00:53:04,000 --> 00:53:07,000
+ Trying out.
+
+316
+00:53:07,000 --> 00:53:08,000
+ Try.
+
+317
+00:53:08,000 --> 00:53:10,000
+ Well.
+
+318
+00:53:10,000 --> 00:53:19,000
+ But maybe a bit more challenging having a much larger class size and I also don't want to this.
+
+319
+00:53:19,000 --> 00:53:22,000
+ I'll be student because.
+
+320
+00:53:22,000 --> 00:53:28,000
+ Doing the derivation and not coming to the to the to the lectures.
+
+321
+00:53:28,000 --> 00:53:36,000
+ Okay yeah yeah I say I'm hoping this little bit of.
+
+322
+00:53:36,000 --> 00:53:39,000
+ Sight.
+
+323
+00:53:39,000 --> 00:53:45,000
+ Sight lights you know can somewhat at least.
+
+324
+00:53:45,000 --> 00:53:47,000
+ Motivate your.
+
+325
+00:53:47,000 --> 00:54:02,000
+ Studying this course and and but don't don't fear say this call is too much and so on the motivation is still from engineering you see like.
+
+326
+00:54:03,000 --> 00:54:15,000
+ Yeah like what do you can actually there are in your rate of books in the in the library as you can see in the reserve rooms there are some.
+
+327
+00:54:15,000 --> 00:54:26,000
+ More mostly signal processing example like what do you can see from the paper and and you know in multi bay from.
+
+328
+00:54:26,000 --> 00:54:30,000
+ Communication from controls from.
+
+329
+00:54:30,000 --> 00:54:43,000
+ After a racing no processing and so on yeah it's coming from the from the from the practical problem and the beauty of these very nice because he can.
+
+330
+00:54:43,000 --> 00:54:55,000
+ Can be yours as so called bank smart you see and yeah you may not may not me just like you know the as I always always.
+
+331
+00:54:55,000 --> 00:55:06,000
+ Compare exam paper the idea one is one hundred mark which is perfect but usually particularly for graduate course or even now they are the great.
+
+332
+00:55:06,000 --> 00:55:19,000
+ Hardly you are me exactly one hundred but but then still you you see you are very near ninety five that's a cheaper it's already already good enough so you think about that that.
+
+333
+00:55:20,000 --> 00:55:30,000
+ Bank smart is still very useful yeah to to to achieve yeah that's that's what yeah I hope to.
+
+334
+00:55:30,000 --> 00:55:43,000
+ To multi bay you and also you never know you see you after fifteen years the student become a professor and.
+
+335
+00:55:44,000 --> 00:55:55,000
+ Supervising students and doing doing research very much related to this course also this is all cause you know the the method is.
+
+336
+00:55:55,000 --> 00:56:01,000
+ In there for many years so yeah so.
+
+337
+00:56:01,000 --> 00:56:04,000
+ And so I.
+
+338
+00:56:04,000 --> 00:56:07,000
+ Maybe.
+
+339
+00:56:07,000 --> 00:56:18,000
+ Can take some some feedback some question we have quite a few students like to ask questions here in this.
+
+340
+00:56:18,000 --> 00:56:20,000
+ This course so.
+
+341
+00:56:20,000 --> 00:56:22,000
+ Any.
+
+342
+00:56:22,000 --> 00:56:33,000
+ Any comments or any question any difficulty you have yeah I think the practical application is certainly one of the.
+
+343
+00:56:34,000 --> 00:56:43,000
+ Things we need to somewhat compromise but it doesn't prevent you to.
+
+344
+00:56:43,000 --> 00:56:51,000
+ Find some application and yeah.
+
+345
+00:56:51,000 --> 00:56:54,000
+ Or any.
+
+346
+00:56:55,000 --> 00:56:57,000
+ Suggestion.
+
+347
+00:56:57,000 --> 00:57:00,000
+ No very quiet in the class.
+
+348
+00:57:05,000 --> 00:57:07,000
+ How much.
+
+349
+00:57:07,000 --> 00:57:15,000
+ How much background do you have for the linear to break magic magic theory such as.
+
+350
+00:57:15,000 --> 00:57:21,000
+ The icon values icon deconvasion which is also.
+
+351
+00:57:21,000 --> 00:57:29,000
+ Required in the in in this course from time to time yeah actually I.
+
+352
+00:57:29,000 --> 00:57:37,000
+ I think the most the first thing you need to get used is the you know ring them.
+
+353
+00:57:37,000 --> 00:57:44,000
+ Better work the concept and then at the same time you are unless why noise yeah that's right why noise.
+
+354
+00:57:44,000 --> 00:57:50,000
+ You don't have much other than you know PDF then.
+
+355
+00:57:50,000 --> 00:57:54,000
+ There's no much correlation but yeah that was right.
+
+356
+00:57:54,000 --> 00:58:01,000
+ Another important concept about when I talk about major data each measurement we are considering that as.
+
+357
+00:58:01,000 --> 00:58:06,000
+ Rendon variable and why why noise mean you know one.
+
+358
+00:58:06,000 --> 00:58:13,000
+ One sample you you one random variable and the other there are even there are both from the same.
+
+359
+00:58:13,000 --> 00:58:19,000
+ Distribution you know Gaussian you see the PDF is the same but.
+
+360
+00:58:19,000 --> 00:58:29,000
+ So these two output there are the two random variable they are totally independent of each other no correlation so you don't.
+
+361
+00:58:29,000 --> 00:58:40,000
+ For example you you later you talk about like correlation so for why noise they're independent and then that's right there are PDF you can just.
+
+362
+00:58:41,000 --> 00:58:50,000
+ Simply multiply them together you see PDF you will be a you will be a product and that's and and that's why in our.
+
+363
+00:58:50,000 --> 00:58:55,000
+ Database so you assume wine the noise is why noise.
+
+364
+00:58:55,000 --> 00:59:04,000
+ If you have a random variable why noise plus deterministic signal then the two.
+
+365
+00:59:05,000 --> 00:59:16,000
+ Even part of it is deterministic they are still considered as independent because we talk about independent or not.
+
+366
+00:59:16,000 --> 00:59:28,000
+ Talking about only the random variable components not not not be confused because you'll have a constant which is the same the DC value.
+
+367
+00:59:28,000 --> 00:59:44,000
+ So okay so your major only the the random component but on the other hand most of the random variable they do have some some statistic for example I.
+
+368
+00:59:45,000 --> 00:59:49,000
+ So the I use this in the 64.
+
+369
+00:59:49,000 --> 01:00:01,000
+ 64 0 1 if you buy the call is because now the cost I think so she here random is in the same supply I throw up you know before it fall down I really don't know.
+
+370
+01:00:01,000 --> 01:00:05,000
+ No one's know whether it will be face or tail and what I.
+
+371
+01:00:05,000 --> 01:00:18,000
+ Okay so this is the ring them back but on the other hand the the useful feature even among this ring them this is not totally random in the sense of.
+
+372
+01:00:18,000 --> 01:00:34,000
+ If you take the average say if I throw up 100 time they will expect about half face another half is tail and this half is not not exact because you are doing the.
+
+373
+01:00:35,000 --> 01:00:51,000
+ Final experiment major is you are not hitting the statistical on sample which is you need to do it in infinity many times but of course in practical you cannot do that and that's why.
+
+374
+01:00:51,000 --> 01:01:04,000
+ You'll we can only talk about estimation as you like the then the you are what we call is a sample means we are not talking about the statistical means you see so that so so.
+
+375
+01:01:04,000 --> 01:01:29,000
+ So that's the that's a different between the statistical means and the sample mean from even from this very simple experiment also is random we have some statistical which is like certain for example the mean value and so on and the same as you know if you have.
+
+376
+01:01:30,000 --> 01:01:39,000
+ If you have two times you know each time you're so up there will be six six number 123456 and.
+
+377
+01:01:40,000 --> 01:01:55,000
+ Again here if you are doing experiment you you can have some either the probability for example you throw up so for now.
+
+378
+01:01:56,000 --> 01:01:57,000
+ Ten it.
+
+379
+01:01:59,000 --> 01:02:11,000
+ For example the each of the number show up is equally possible so you will get from here you will see the probability is one over six.
+
+380
+01:02:11,000 --> 01:02:29,000
+ Okay so this is the one thing but only then it will throw two then you can you then you can you want to get the sum of these two these two number then there will be there will be different because based on.
+
+381
+01:02:29,000 --> 01:02:42,000
+ The combination you will see if the two number add together into the middle one for example seven will give you the highest possibility where those are.
+
+382
+01:02:42,000 --> 01:02:55,000
+ You know to the only one possible out of the 36 and three is only one if you add the two both of them must be equal to one so from here you can see.
+
+383
+01:02:55,000 --> 01:03:15,000
+ The ring available it does contain some so called useful useful statistic where as as far as your learning and how to manipulate you can you know you can apply to some practical problems such as for example you go to.
+
+384
+01:03:16,000 --> 01:03:29,000
+ Try to try to back football match you know the outcomes learning here may also help a little bit but you need to you need to study those.
+
+385
+01:03:30,000 --> 01:03:36,000
+ You know history and so just like like machine learning so I can tell you is in the.
+
+386
+01:03:36,000 --> 01:03:42,000
+ Europe to zero to four the one just over two months ago.
+
+387
+01:03:43,000 --> 01:04:01,000
+ I did you know back a little bit but it turned out to be in the end because you get some time you're weighing some time you lose the average is seems I again more than lose so that may be benefit from.
+
+388
+01:04:02,000 --> 01:04:24,000
+ From the probability knowledge I learned yeah okay I think that's the side track yeah so if any question you can raise but you're not then we take a break then we after the break will go back to the normal.
+
+389
+01:04:24,000 --> 01:04:27,000
+ New new.
+
+390
+01:04:28,000 --> 01:04:30,000
+ Chapter to.
+
+391
+01:04:31,000 --> 01:04:53,000
+ To reduce our study after taking a little bit of break review of what we learned in the past two weeks okay so we can come back at seven now is 34 we always refer to the clock in the back seven seven fifty.
+
+392
+01:04:54,000 --> 01:05:07,000
+ Sixteen minutes break okay any questions you can always come here to discuss with me so all your race in the class.
+
+393
+01:05:08,000 --> 01:05:10,000
+ Yeah okay I'll see you later.
+
+394
+01:06:54,000 --> 01:06:56,000
+ You.
+
+395
+01:07:24,000 --> 01:07:26,000
+ You.
+
+396
+01:07:54,000 --> 01:07:56,000
+ You.
+
+397
+01:08:24,000 --> 01:08:26,000
+ You.
+
+398
+01:08:54,000 --> 01:08:56,000
+ You.
+
+399
+01:09:24,000 --> 01:09:26,000
+ You.
+
+400
+01:09:54,000 --> 01:09:56,000
+ You.
+
+401
+01:10:24,000 --> 01:10:26,000
+ You.
+
+402
+01:10:54,000 --> 01:10:56,000
+ You.
+
+403
+01:11:24,000 --> 01:11:26,000
+ You.
+
+404
+01:11:54,000 --> 01:11:56,000
+ You.
+
+405
+01:12:24,000 --> 01:12:26,000
+ You.
+
+406
+01:12:54,000 --> 01:12:56,000
+ You.
+
+407
+01:13:24,000 --> 01:13:26,000
+ You.
+
+408
+01:13:54,000 --> 01:13:56,000
+ You.
+
+409
+01:14:24,000 --> 01:14:26,000
+ You.
+
+410
+01:14:54,000 --> 01:14:56,000
+ You.
+
+411
+01:15:24,000 --> 01:15:26,000
+ You.
+
+412
+01:15:54,000 --> 01:15:56,000
+ You.
+
+413
+01:16:24,000 --> 01:16:26,000
+ You.
+
+414
+01:16:54,000 --> 01:16:56,000
+ You.
+
+415
+01:17:24,000 --> 01:17:26,000
+ You.
+
+416
+01:17:54,000 --> 01:17:56,000
+ You.
+
+417
+01:18:24,000 --> 01:18:26,000
+ You.
+
+418
+01:18:54,000 --> 01:18:56,000
+ You.
+
+419
+01:19:24,000 --> 01:19:26,000
+ You.
+
+420
+01:19:54,000 --> 01:19:56,000
+ You.
+
+421
+01:20:24,000 --> 01:20:26,000
+ You.
+
+422
+01:20:54,000 --> 01:20:56,000
+ You.
+
+423
+01:21:24,000 --> 01:21:26,000
+ You.
+
+424
+01:21:54,000 --> 01:21:56,000
+ You.
+
+425
+01:22:04,000 --> 01:22:08,000
+ Okay I think we resume the class.
+
+426
+01:22:08,000 --> 01:22:30,000
+ I want to take a little bit time to explain this random variable and very important operation of expectation and also subsequently you know we have the variance and so on so let me.
+
+427
+01:22:30,000 --> 01:22:32,000
+ Yeah.
+
+428
+01:22:32,000 --> 01:22:34,000
+ Sometimes they.
+
+429
+01:22:34,000 --> 01:22:36,000
+ Okay.
+
+430
+01:22:36,000 --> 01:22:38,000
+ Automatically turn off.
+
+431
+01:22:38,000 --> 01:22:40,000
+ So let me see.
+
+432
+01:22:40,000 --> 01:22:42,000
+ The.
+
+433
+01:22:42,000 --> 01:22:44,000
+ The.
+
+434
+01:22:44,000 --> 01:22:46,000
+ The.
+
+435
+01:22:46,000 --> 01:22:48,000
+ The.
+
+436
+01:22:48,000 --> 01:22:50,000
+ The.
+
+437
+01:22:50,000 --> 01:22:52,000
+ The.
+
+438
+01:22:52,000 --> 01:22:54,000
+ The.
+
+439
+01:22:54,000 --> 01:22:56,000
+ The.
+
+440
+01:22:56,000 --> 01:22:58,000
+ The.
+
+441
+01:22:58,000 --> 01:23:00,000
+ The.
+
+442
+01:23:00,000 --> 01:23:02,000
+ It's working like.
+
+443
+01:23:02,000 --> 01:23:04,000
+ Suddenly.
+
+444
+01:23:04,000 --> 01:23:06,000
+ It's off again.
+
+445
+01:23:06,000 --> 01:23:08,000
+ Yeah.
+
+446
+01:23:08,000 --> 01:23:10,000
+ Yeah.
+
+447
+01:23:10,000 --> 01:23:12,000
+ Yeah.
+
+448
+01:23:12,000 --> 01:23:14,000
+ Yeah.
+
+449
+01:23:14,000 --> 01:23:16,000
+ Yeah.
+
+450
+01:23:16,000 --> 01:23:18,000
+ Yeah.
+
+451
+01:23:18,000 --> 01:23:20,000
+ Yeah.
+
+452
+01:23:20,000 --> 01:23:22,000
+ Yeah.
+
+453
+01:23:22,000 --> 01:23:24,000
+ Yeah.
+
+454
+01:23:24,000 --> 01:23:26,000
+ Yeah.
+
+455
+01:23:26,000 --> 01:23:37,100
+ Very strange.
+
+456
+01:23:37,100 --> 01:23:41,900
+ A
+
+457
+01:23:41,900 --> 01:23:52,340
+ bit strange.
+
+458
+01:23:52,340 --> 01:23:57,340
+ Just now it looks like working but suddenly...
+
+459
+01:23:57,340 --> 01:24:04,340
+ I see how it works.
+
+460
+01:24:04,340 --> 01:24:10,340
+ I think take some time to activate.
+
+461
+01:24:10,340 --> 01:24:14,340
+ Okay.
+
+462
+01:24:22,340 --> 01:24:50,340
+ So let's see if we are looking at the continued random variable X, then it will have a PDF
+
+463
+01:24:50,340 --> 01:25:03,340
+ and assume it's continued and the PDF will be taking the lower value.
+
+464
+01:25:03,340 --> 01:25:10,340
+ So this PDF tells you how this random variable distributes.
+
+465
+01:25:10,340 --> 01:25:21,340
+ For example, you all know Gaussian, the PDF like that, assume this zero mean.
+
+466
+01:25:21,340 --> 01:25:26,340
+ Of course it can have no zero mean, mean equal to one or so.
+
+467
+01:25:26,340 --> 01:25:39,340
+ So this PDF telling you is more likely because the PDF value is the highest one when it is zero.
+
+468
+01:25:39,340 --> 01:25:49,340
+ The theoretically Gaussian variable, even if the mean is most likely at zero, it's still...
+
+469
+01:25:49,340 --> 01:25:56,340
+ Maybe one out of one million times can get the value go to infinity large.
+
+470
+01:25:56,340 --> 01:26:03,340
+ Also it's very unlikely to happen but very small probability is still there.
+
+471
+01:26:03,340 --> 01:26:13,340
+ And then it can take any being continued variable, can take any value from minus infinity to infinity.
+
+472
+01:26:13,340 --> 01:26:19,340
+ So that's a concept of PDF and the implication.
+
+473
+01:26:19,340 --> 01:26:33,340
+ Okay. So then what's the operation of expectation of this X, the random variable?
+
+474
+01:26:33,340 --> 01:26:45,340
+ So by definition it will be integration from minus infinity, assuming we are talking about just a scalar random variable.
+
+475
+01:26:45,340 --> 01:26:50,340
+ X then multiplied by P of X dx.
+
+476
+01:26:50,340 --> 01:27:03,340
+ So from here you see you will be something like you are trying to measure the weight average of this, how this X is distributed.
+
+477
+01:27:03,340 --> 01:27:10,340
+ You will be just thinking about this P of X is to aim the weighting.
+
+478
+01:27:10,340 --> 01:27:27,340
+ So when you are integrating here, we want to give more emphasis on those near the zero because those are more likely going to happen.
+
+479
+01:27:27,340 --> 01:27:41,340
+ So to multiply together, this PDF we are doing the integration is we are putting the weighties on those having higher value.
+
+480
+01:27:41,340 --> 01:27:48,340
+ Where those are near either minus infinity or positive infinity, but the PDF value is very small.
+
+481
+01:27:48,340 --> 01:27:53,340
+ So that means your weighties on that one is very small.
+
+482
+01:27:53,340 --> 01:28:01,340
+ Okay. So this is the case where we are talking directly random variable.
+
+483
+01:28:01,340 --> 01:28:08,340
+ Now what happens if I have, you see being this X is a random variable, continue.
+
+484
+01:28:08,340 --> 01:28:20,340
+ If I define another one, if we have a proper analytic function, say sine function or exponential function, it's all.
+
+485
+01:28:20,340 --> 01:28:28,340
+ So whatever there is a proper where defile function where I have this, I create a new random variable.
+
+486
+01:28:28,340 --> 01:28:38,340
+ A random variable you go through a function, say sine or exponential or log whatever as long as the function is where defile.
+
+487
+01:28:38,340 --> 01:28:42,340
+ Then this Y except is also a random variable.
+
+488
+01:28:42,340 --> 01:29:00,340
+ Okay. And then of course the range definition we can assume those are, for example, if the function allows you to take the X value from also minus infinity to infinity.
+
+489
+01:29:00,340 --> 01:29:09,340
+ So in this case you can also show the expectation of Y.
+
+490
+01:29:09,340 --> 01:29:18,340
+ You see, what you do is you still use this because the original random variable is X.
+
+491
+01:29:18,340 --> 01:29:28,340
+ So you can defile the expectation of Y by just plugging this G of X.
+
+492
+01:29:28,340 --> 01:29:41,340
+ So capital X is a random variable but our small X is the variable where say for example is lawyer and so on.
+
+493
+01:29:41,340 --> 01:29:44,340
+ So that too will be different.
+
+494
+01:29:44,340 --> 01:29:54,340
+ But then you're still using the same PDF as waiting to do the integration.
+
+495
+01:29:54,340 --> 01:30:04,340
+ So we even saw this X change to a function of X which is called GX.
+
+496
+01:30:04,340 --> 01:30:23,340
+ Then the expectation of this new random variable is used here only change from the small X to this G of X where the PDF and the integration you can still refer back to the original random variable X.
+
+497
+01:30:23,340 --> 01:30:32,340
+ And this has been where defile and proven in the theory of probability and so on.
+
+498
+01:30:32,340 --> 01:30:36,340
+ So I hope you'll remember this.
+
+499
+01:30:36,340 --> 01:30:49,340
+ Also in most of our subsequent derivation and so on, we, you all know it's a very troublesome to do integration.
+
+500
+01:30:49,340 --> 01:30:57,340
+ So we may not necessarily to always go through the integration and so on.
+
+501
+01:30:57,340 --> 01:31:04,340
+ But it's good to know how this is defile where it comes from.
+
+502
+01:31:04,340 --> 01:31:21,340
+ And that because sometimes, for example in the appendix for deriving the CLB, we do need to go back to the original expressions of expectation and so on.
+
+503
+01:31:21,340 --> 01:31:33,340
+ And then you can also refer here, you see, even in the CLB, you see, we talk about expectation is referring to that.
+
+504
+01:31:33,340 --> 01:31:41,340
+ And here, you see, now this is a good example where we are not taking expectation of just X of the data.
+
+505
+01:31:41,340 --> 01:31:47,340
+ You can think about this as a function, just similar to Y.
+
+506
+01:31:47,340 --> 01:31:52,340
+ What the random variable is X here.
+
+507
+01:31:52,340 --> 01:31:55,340
+ And X here is not just one scalar.
+
+508
+01:31:55,340 --> 01:32:01,340
+ You can have multiple one, you know, you have several random variable.
+
+509
+01:32:01,340 --> 01:32:03,340
+ In that case, it's very important.
+
+510
+01:32:03,340 --> 01:32:12,340
+ Our, you see, our PDF and integration is with respect to the joy PDF and the joy integration.
+
+511
+01:32:12,340 --> 01:32:15,340
+ If you have said 10 data, 10 samples.
+
+512
+01:32:15,340 --> 01:32:20,340
+ So theoretically, you need to do integration 10 integration.
+
+513
+01:32:20,340 --> 01:32:24,340
+ But of course, this is very troublesome, not very practical.
+
+514
+01:32:24,340 --> 01:32:25,340
+ That's right.
+
+515
+01:32:25,340 --> 01:32:40,340
+ In the rare application, we quite often make gugis of the so-called either the expectation already known or based on the PDF we can, for example, Gaussian.
+
+516
+01:32:40,340 --> 01:32:44,340
+ For Gaussian, we know the expectation is already in the PDF.
+
+517
+01:32:44,340 --> 01:32:59,340
+ So we don't need to restart this integration with just directly get the mean values or expected values given the PDF.
+
+518
+01:32:59,340 --> 01:33:00,340
+ Okay.
+
+519
+01:33:00,340 --> 01:33:03,340
+ So these are the very important one.
+
+520
+01:33:03,340 --> 01:33:12,340
+ And similarly, you can also see, you know, later on we talk about my moments.
+
+521
+01:33:12,340 --> 01:33:27,340
+ Say from from X, if you are talking about higher order, say, for example, you can have this X say raise to M's M's moment.
+
+522
+01:33:27,340 --> 01:33:40,340
+ So you have here if you put into the integration, you will need to do X variable raise power of M and then you'll still use the same.
+
+523
+01:33:40,340 --> 01:33:44,340
+ You see, P of X and do the derivation.
+
+524
+01:33:44,340 --> 01:33:52,340
+ And another very important one is what we call, you know, variant of variant of X.
+
+525
+01:33:52,340 --> 01:34:07,340
+ So variant, the meaning of variant is you will be taking the random variable, subtract the mean, you see, if we call the mean as mu, okay.
+
+526
+01:34:07,340 --> 01:34:12,340
+ You see here, if M equal to one, we will get the mean value.
+
+527
+01:34:12,340 --> 01:34:23,340
+ And then you raise the power of two and again here, you'll do the integration.
+
+528
+01:34:23,340 --> 01:34:34,340
+ So this sum measure is how much deviation, you know, the random variable away from the mean values.
+
+529
+01:34:34,340 --> 01:34:51,340
+ And this is also very important if the mean value here, then you can have the, you know, the variant or you can happen to have a very large, large variant.
+
+530
+01:34:51,340 --> 01:35:01,340
+ Or you see here, very large or could be very, very, very, very, very, very, very small.
+
+531
+01:35:02,340 --> 01:35:16,340
+ So the means and variants are two of the most important statistics describing random variable, okay.
+
+532
+01:35:16,340 --> 01:35:30,340
+ And so I hope you try to digest and if you're not sure, you should raise some very fundamental of probability theory.
+
+533
+01:35:31,340 --> 01:35:40,340
+ Yeah, or you can ask me, do you want to break or after the class is over?
+
+534
+01:35:40,340 --> 01:35:45,340
+ Yeah, so any question, yes?
+
+535
+01:35:48,340 --> 01:35:50,340
+ Expectation and...
+
+536
+01:35:50,340 --> 01:36:00,340
+ Oh, actually, yeah, good question.
+
+537
+01:36:00,340 --> 01:36:11,340
+ Variant is related to, okay, expectation is, so as you hear, as of now I was explaining.
+
+538
+01:36:11,340 --> 01:36:24,340
+ When we talk about expectation, you see, of course, the definition is if you are talking about the random variable itself, then that's the expectation of that random variable.
+
+539
+01:36:24,340 --> 01:36:30,340
+ But then now I'm referring to a random variable, we can have a function, you see.
+
+540
+01:36:30,340 --> 01:36:35,340
+ Another variable, random variable, y related to x, okay.
+
+541
+01:36:35,340 --> 01:36:46,340
+ So here, you see, your expectation of this new random variable related to x, you're just plugging into the function.
+
+542
+01:36:46,340 --> 01:36:56,340
+ How you define your relationship of your new random variable with respect to the original random variable.
+
+543
+01:36:56,340 --> 01:37:05,340
+ And in this sense, you see, you can see variance, variance is just the definition of...
+
+544
+01:37:08,340 --> 01:37:13,340
+ Okay, yeah, sorry, I think I write this, you're right.
+
+545
+01:37:13,340 --> 01:37:24,340
+ So this one is variance should be, variance of x should be equal to e and then this new, yeah, the new random variable.
+
+546
+01:37:25,340 --> 01:37:28,340
+ The definition of this one, yes, you got it.
+
+547
+01:37:28,340 --> 01:37:36,340
+ Very similar to this one, your x minus mean, you see, raise the power up too.
+
+548
+01:37:36,340 --> 01:37:40,340
+ Yeah, very good, thanks for putting up.
+
+549
+01:37:40,340 --> 01:37:47,340
+ So by right, this variance is already deterministic quantity.
+
+550
+01:37:47,340 --> 01:37:55,340
+ It's defined as, you know, as the new random variable, which measure, you see, x is random variable.
+
+551
+01:37:55,340 --> 01:38:00,340
+ But we are not just directly talking about x, x itself is a mean.
+
+552
+01:38:00,340 --> 01:38:05,340
+ Then the x take the major, how much different from the mean.
+
+553
+01:38:05,340 --> 01:38:11,340
+ And then, of course, you can have, cancel out if you do not use power of two.
+
+554
+01:38:11,340 --> 01:38:14,340
+ You will have a positive negative if you cancel out.
+
+555
+01:38:14,340 --> 01:38:16,340
+ So normally this is not a good measurement.
+
+556
+01:38:16,340 --> 01:38:18,340
+ So you raise the power of two.
+
+557
+01:38:18,340 --> 01:38:26,340
+ Even so, this quantity is random, but it just measure how much deviation.
+
+558
+01:38:26,340 --> 01:38:30,340
+ And then raise the power of two, it will become always positive.
+
+559
+01:38:30,340 --> 01:38:37,340
+ Say another day you take expectation, that's the definition of the value of x.
+
+560
+01:38:37,340 --> 01:38:42,340
+ Yeah, very good, sorry, in my early definition I mixed these two.
+
+561
+01:38:43,340 --> 01:38:47,340
+ So it's always, yeah, that's why you learn the lesson here.
+
+562
+01:38:47,340 --> 01:38:55,340
+ Even myself, I can randomly make some mistake, not regular.
+
+563
+01:38:55,340 --> 01:39:00,340
+ So that's why I need you to point out.
+
+564
+01:39:00,340 --> 01:39:05,340
+ But the concept is there, you see, you introduce.
+
+565
+01:39:05,340 --> 01:39:10,340
+ You can, expectation can refer to a function.
+
+566
+01:39:11,340 --> 01:39:17,340
+ Yeah, then a new random variable, which related to the original x.
+
+567
+01:39:17,340 --> 01:39:22,340
+ If you start from there, then the important point is PDF.
+
+568
+01:39:22,340 --> 01:39:29,340
+ Because if you may try to get the PDF related to that one, but it's become very complicated.
+
+569
+01:39:29,340 --> 01:39:36,340
+ And there is a not necessary, you can always refer back to the, satisfy the same.
+
+570
+01:39:37,340 --> 01:39:44,340
+ Only this one, you change to the function of x.
+
+571
+01:39:44,340 --> 01:39:54,340
+ It could be like the m's order, and could be the m's order recalling moment, m's moment, and so on.
+
+572
+01:39:54,340 --> 01:39:58,340
+ And so this is like the central moment.
+
+573
+01:39:58,340 --> 01:40:04,340
+ And second order central moment, you become special name called data.
+
+574
+01:40:05,340 --> 01:40:13,340
+ And that's why one of the special case, which is easy to understand is,
+
+575
+01:40:13,340 --> 01:40:21,340
+ if you are talking about the uniform distribution, you see, say from A to B.
+
+576
+01:40:21,340 --> 01:40:27,340
+ So this is the very typical definition.
+
+577
+01:40:27,340 --> 01:40:31,340
+ Uniforming, you know, the values, you will be all the same thing, of course.
+
+578
+01:40:31,340 --> 01:40:36,340
+ It must be 1 over B, B minus A.
+
+579
+01:40:36,340 --> 01:40:48,340
+ So if that's the PDF, you're plugging here, that, you see, I want to get the mean value for this distribution, you see, x.
+
+580
+01:40:48,340 --> 01:40:53,340
+ So what you'll get here, you will be measuring x.
+
+581
+01:40:53,340 --> 01:40:59,340
+ And then, because from here is already being a constant, you see, here.
+
+582
+01:40:59,340 --> 01:41:04,340
+ And then you will integrate from A smaller A to B.
+
+583
+01:41:04,340 --> 01:41:09,340
+ So this is a well-defined and very easy integration.
+
+584
+01:41:09,340 --> 01:41:13,340
+ Then in the end, you will end up after simplifying.
+
+585
+01:41:13,340 --> 01:41:19,340
+ You will see the result will be just B plus A divided by 2.
+
+586
+01:41:19,340 --> 01:41:25,340
+ And that makes sense because in this case, you will just take the mean value,
+
+587
+01:41:25,340 --> 01:41:30,340
+ the mean value will be the middle between A and B.
+
+588
+01:41:30,340 --> 01:41:38,340
+ And because your weighting is, you know, every pole in this interval is the same.
+
+589
+01:41:38,340 --> 01:41:48,340
+ But if you are talking about Gaussian, it will be different because the center one is not more important.
+
+590
+01:41:48,340 --> 01:41:58,340
+ And then you may have, for example, if you have some very special kind of distribution, PDF.
+
+591
+01:41:58,340 --> 01:42:00,340
+ It has very long tail.
+
+592
+01:42:00,340 --> 01:42:10,340
+ But then if this value near the origin is much higher, then of course you are taking the mean value,
+
+593
+01:42:10,340 --> 01:42:16,340
+ you will not take the middle of here, you will be most likely either here or here.
+
+594
+01:42:16,340 --> 01:42:21,340
+ So again, it depends very much on the PDF.
+
+595
+01:42:21,340 --> 01:42:33,340
+ So the PDF, like in a saying, you can consider that to give you all the weighties when you are getting the expectation.
+
+596
+01:42:33,340 --> 01:42:37,340
+ Okay, so any questions?
+
+597
+01:42:37,340 --> 01:42:49,340
+ Before we continue from the new lecture, which is linear model.
+
+598
+01:42:49,340 --> 01:42:59,340
+ So at least I will say this course sum chapter much easier compared to the other.
+
+599
+01:42:59,340 --> 01:43:07,340
+ So in general, you see, you will see those carrying like linear, linear model.
+
+600
+01:43:07,340 --> 01:43:10,340
+ And this chapter is a very short one.
+
+601
+01:43:10,340 --> 01:43:27,340
+ Then you will see is broader, easy or even the next chapter that proves this linear and by estimator is somewhat also easier.
+
+602
+01:43:27,340 --> 01:43:33,340
+ But not as easy as this linear model because that one will need some metric theory,
+
+603
+01:43:33,340 --> 01:43:41,340
+ which may give you some revision next week or so.
+
+604
+01:43:41,340 --> 01:43:53,340
+ So let's go back to our very general setting.
+
+605
+01:43:53,340 --> 01:44:05,340
+ As I say early, you see what we will be trying to do here is always try to aim at getting the MPE.
+
+606
+01:44:05,340 --> 01:44:11,340
+ But in general, it's not so easy.
+
+607
+01:44:11,340 --> 01:44:22,340
+ We can try the CLB, but even the CLBs may not always give you all the MPE.
+
+608
+01:44:22,340 --> 01:44:26,340
+ Even the CLBs there, it just gives you the benchmark.
+
+609
+01:44:26,340 --> 01:44:33,340
+ As I say, to factorize, that one is not so easy.
+
+610
+01:44:33,340 --> 01:44:43,340
+ But on that, then if you can somewhat figure our problem into the form of linear model,
+
+611
+01:44:43,340 --> 01:44:50,340
+ then you will see the estimator can be easily got.
+
+612
+01:44:50,340 --> 01:44:58,340
+ It could even be optimal one if you're assuming the Gaussian distribution for the noise.
+
+613
+01:44:58,340 --> 01:45:05,340
+ So that's how in this chapter and this lecture we will briefly go through that.
+
+614
+01:45:05,340 --> 01:45:11,340
+ Then you'll find it quite easy at this.
+
+615
+01:45:11,340 --> 01:45:23,340
+ Don't fear so stressful in getting the very difficult integrations or derivation and so on.
+
+616
+01:45:23,340 --> 01:45:30,340
+ So that's how we will be looking at.
+
+617
+01:45:31,340 --> 01:45:38,340
+ This is the very general setting for linear model.
+
+618
+01:45:38,340 --> 01:45:48,340
+ As I show you even in the papers, quite often we assume the model is linear.
+
+619
+01:45:48,340 --> 01:45:54,340
+ Linear in the sense of the major data, the major...
+
+620
+01:45:54,340 --> 01:45:56,340
+ So this is a vector.
+
+621
+01:45:56,340 --> 01:46:00,340
+ That is a ball phase, which is a vector.
+
+622
+01:46:00,340 --> 01:46:05,340
+ And then theta is also vector parameter because in this linear setting,
+
+623
+01:46:05,340 --> 01:46:12,340
+ we don't need to differentiate from scalar one and the magic case
+
+624
+01:46:12,340 --> 01:46:20,340
+ because it's quite easy to put directly looking at the vector parameter case.
+
+625
+01:46:20,340 --> 01:46:22,340
+ So we make here.
+
+626
+01:46:22,340 --> 01:46:30,340
+ And this is just a constant matrix we call observation because we observe the data.
+
+627
+01:46:30,340 --> 01:46:38,340
+ So this matrix is relating our vector or parameter theta with the major data.
+
+628
+01:46:38,340 --> 01:46:43,340
+ And then of course here we are always talking about noise
+
+629
+01:46:43,340 --> 01:46:48,340
+ because our course title is statistical signal processing.
+
+630
+01:46:48,340 --> 01:46:53,340
+ So we must have some noise somewhere and that's how this is.
+
+631
+01:46:53,340 --> 01:47:02,340
+ But in this case, as I say, Gaussian noise is the easiest one to start with
+
+632
+01:47:02,340 --> 01:47:07,340
+ and particularly with the white one.
+
+633
+01:47:07,340 --> 01:47:16,340
+ So when we talk about white noise, we are talking about you have more than one major data
+
+634
+01:47:16,340 --> 01:47:22,340
+ and this noise, how you see here, we're talking about N sample.
+
+635
+01:47:22,340 --> 01:47:29,340
+ Then the noise vector is also N by one noise vector.
+
+636
+01:47:29,340 --> 01:47:33,340
+ So each sample, how is it related to each other?
+
+637
+01:47:33,340 --> 01:47:40,340
+ You can use this so-called covariant matrix.
+
+638
+01:47:40,340 --> 01:47:45,340
+ And then if this covariant matrix is diagonal,
+
+639
+01:47:45,340 --> 01:47:51,340
+ that means the diagonal matrix, that means the off-diagonal elements are zero.
+
+640
+01:47:51,340 --> 01:47:57,340
+ So that means the noise sample from say the first sample and the second one
+
+641
+01:47:57,340 --> 01:48:02,340
+ or even any other subsequent one, they are uncorrelated.
+
+642
+01:48:02,340 --> 01:48:05,340
+ They are independent.
+
+643
+01:48:05,340 --> 01:48:07,340
+ That's why I call it white.
+
+644
+01:48:07,340 --> 01:48:12,340
+ And then we can represent by looking at these covariant matrix.
+
+645
+01:48:12,340 --> 01:48:18,340
+ Later we will have cases where this is a proper matrix.
+
+646
+01:48:18,340 --> 01:48:24,340
+ But as long as it's a diagonal, then it will be so-called uncorrelated.
+
+647
+01:48:24,340 --> 01:48:26,340
+ But not necessarily white.
+
+648
+01:48:26,340 --> 01:48:28,340
+ What do you mean?
+
+649
+01:48:28,340 --> 01:48:33,340
+ You see the noise variance, they are all the same, IIT.
+
+650
+01:48:33,340 --> 01:48:41,340
+ So in this case, it will also all the diagonal elements at the same value, sigma.
+
+651
+01:48:41,340 --> 01:48:45,340
+ So that's the simplest case.
+
+652
+01:48:45,340 --> 01:48:53,340
+ So in this case, if you look at the expression of the Gaussian noise case
+
+653
+01:48:53,340 --> 01:49:04,340
+ for the multivariate, if you look at chapter one, the one giving the PDF,
+
+654
+01:49:04,340 --> 01:49:09,340
+ you will see the likelihood function.
+
+655
+01:49:09,340 --> 01:49:22,340
+ The likelihood function is where we are considering that as putting all the PDFs
+
+656
+01:49:22,340 --> 01:49:33,340
+ multiply together and then we're treating that based on the assumption of white noise.
+
+657
+01:49:33,340 --> 01:49:45,340
+ So you can see we also the noise in this axis vector, but the likelihood function
+
+658
+01:49:45,340 --> 01:49:50,340
+ or the PDF combined together will become a scalar.
+
+659
+01:49:50,340 --> 01:49:55,340
+ So this is involving the matrix.
+
+660
+01:49:55,340 --> 01:50:00,340
+ So perhaps I can try to express using that.
+
+661
+01:50:00,340 --> 01:50:10,340
+ In matrix operation, this is what I quite often want to highlight.
+
+662
+01:50:10,340 --> 01:50:20,340
+ If you are dealing with already a square matrix, it will be easy.
+
+663
+01:50:20,340 --> 01:50:31,340
+ But if you are dealing with no square matrix, the simplest one is say I have column vector.
+
+664
+01:50:31,340 --> 01:50:35,340
+ So this is say n by 1.
+
+665
+01:50:35,340 --> 01:50:47,340
+ So sometimes it's very important you need to know at least what I call the box method.
+
+666
+01:50:47,340 --> 01:50:57,340
+ We don't actually care how much was inside, but it's very important to see how the dimensions
+
+667
+01:50:57,340 --> 01:51:06,340
+ after you multiply with two or more either vector or matrix.
+
+668
+01:51:06,340 --> 01:51:09,340
+ Matrix is a general vector.
+
+669
+01:51:09,340 --> 01:51:11,340
+ It will be a special case.
+
+670
+01:51:11,340 --> 01:51:18,340
+ So there are two basic operations in terms of a vector.
+
+671
+01:51:18,340 --> 01:51:23,340
+ You can say I call this is x.
+
+672
+01:51:23,340 --> 01:51:29,340
+ Then this is column vector.
+
+673
+01:51:29,340 --> 01:51:34,340
+ Then you can take the transpose of this.
+
+674
+01:51:34,340 --> 01:51:40,340
+ So if this is n by 1, then it will become 1 by n.
+
+675
+01:51:40,340 --> 01:51:42,340
+ 1, this is n.
+
+676
+01:51:42,340 --> 01:51:45,340
+ So this is column vector.
+
+677
+01:51:45,340 --> 01:51:54,340
+ Then you can from two, one column vector, and this is a row vector.
+
+678
+01:51:54,340 --> 01:52:04,340
+ You can have inner product, which is a row vector first, not divided by column vector.
+
+679
+01:52:04,340 --> 01:52:09,340
+ Or you can even consider a more general.
+
+680
+01:52:09,340 --> 01:52:19,340
+ The row vector and column vector may, of course, they need to meet the same dimension of the n.
+
+681
+01:52:19,340 --> 01:52:27,340
+ The n must be the same, but they may not be the same vector by taking rotation.
+
+682
+01:52:27,340 --> 01:52:39,340
+ So in either case, if you just look at how you use a box to describe, you will see this.
+
+683
+01:52:39,340 --> 01:52:41,340
+ This is 1.
+
+684
+01:52:41,340 --> 01:52:43,340
+ This is n.
+
+685
+01:52:43,340 --> 01:52:47,340
+ And then you look at column product.
+
+686
+01:52:47,340 --> 01:52:54,340
+ Then this becomes just a scalar, which occurs one by one.
+
+687
+01:52:54,340 --> 01:53:07,340
+ So knowing this is what we call the inner product of the two, either the same vector or the row vector with the column vector.
+
+688
+01:53:07,340 --> 01:53:16,340
+ But on the other hand, if you do an outer product, which is you start from the x first,
+
+689
+01:53:16,340 --> 01:53:20,340
+ multiply by x transpose if they happen to be the same.
+
+690
+01:53:20,340 --> 01:53:27,340
+ So in this case, if you start the column vector first, followed by a row vector,
+
+691
+01:53:27,340 --> 01:53:31,340
+ then the result will become square matrix.
+
+692
+01:53:31,340 --> 01:53:36,340
+ So this is n by n.
+
+693
+01:53:36,340 --> 01:53:38,340
+ So be very careful.
+
+694
+01:53:38,340 --> 01:53:45,340
+ You will see whether the row vector first, followed by column, or column vector first,
+
+695
+01:53:45,340 --> 01:53:48,340
+ followed by the row vector.
+
+696
+01:53:48,340 --> 01:53:58,340
+ It will give you a totally different result because the dimensions are already different.
+
+697
+01:53:58,340 --> 01:54:02,340
+ Two matrix dimensions are different than, of course, these two matrix.
+
+698
+01:54:02,340 --> 01:54:11,340
+ So if you know one by one a scalar, you can consider it's a special case of one by one matrix.
+
+699
+01:54:11,340 --> 01:54:15,340
+ So this is only a special case.
+
+700
+01:54:15,340 --> 01:54:26,340
+ And then later, we can even look into the more general case where you have no square matrix.
+
+701
+01:54:26,340 --> 01:54:28,340
+ And then that's a problem matrix.
+
+702
+01:54:28,340 --> 01:54:31,340
+ But the dimensions are different.
+
+703
+01:54:31,340 --> 01:54:33,340
+ So you can get p by n.
+
+704
+01:54:33,340 --> 01:54:41,340
+ And then, of course, to make sure these two matrix be compatible, you see.
+
+705
+01:54:41,340 --> 01:54:44,340
+ So this one must be n.
+
+706
+01:54:44,340 --> 01:54:50,340
+ Actually, the other side, you can be even a different number, you see.
+
+707
+01:54:50,340 --> 01:54:52,340
+ You can call it n.
+
+708
+01:54:52,340 --> 01:55:01,340
+ So as long as this, you know, for the first matrix, you have to make sure the column, the dimension of the column,
+
+709
+01:55:01,340 --> 01:55:07,340
+ the number of the column must be the same with the number of rows in the second matrix.
+
+710
+01:55:07,340 --> 01:55:18,340
+ So if I make it more general, if I multiply these two matrix, what you'll get will be p by m, you see.
+
+711
+01:55:18,340 --> 01:55:19,340
+ So this is p.
+
+712
+01:55:19,340 --> 01:55:21,340
+ This is m.
+
+713
+01:55:22,340 --> 01:55:27,340
+ I find this very simple technique very useful.
+
+714
+01:55:27,340 --> 01:55:31,340
+ You don't need to worry about what's inside these matrix.
+
+715
+01:55:31,340 --> 01:55:39,340
+ But this way of doing that is, at least, you can ensure your matrix operation.
+
+716
+01:55:39,340 --> 01:55:41,340
+ You get the right dimension.
+
+717
+01:55:41,340 --> 01:55:48,340
+ And very often, this is quite useful, particularly for those research students.
+
+718
+01:55:48,340 --> 01:55:57,340
+ A JMAX student, Sam Guang, you can, if you're doing this station project, you may also publish papers and so on.
+
+719
+01:55:57,340 --> 01:56:08,340
+ And very often, if you get the dimension, you know, mess up your summary of paper, then you may be rejected.
+
+720
+01:56:08,340 --> 01:56:13,340
+ If the reviewer says, oh, your dimensions are wrong, you know, then I don't need to check the other,
+
+721
+01:56:13,340 --> 01:56:18,340
+ because you are not doing the right things from the beginning.
+
+722
+01:56:18,340 --> 01:56:20,340
+ So, yeah.
+
+723
+01:56:20,340 --> 01:56:26,340
+ So that's why I find this technique or this very simple method useful.
+
+724
+01:56:26,340 --> 01:56:31,340
+ So subsequently, we will use that.
+
+725
+01:56:31,340 --> 01:56:42,340
+ And then now, if you refer back to what we say here, you see here, we're involving vector and matrix.
+
+726
+01:56:42,340 --> 01:56:52,340
+ In some sense, but you can see our first one here.
+
+727
+01:56:52,340 --> 01:56:58,340
+ This is a row vector, because x is column vector.
+
+728
+01:56:58,340 --> 01:56:59,340
+ Yeah.
+
+729
+01:56:59,340 --> 01:57:07,340
+ And then, because you take transpose, we want to save the writing by writing as a row, then transpose becomes column.
+
+730
+01:57:07,340 --> 01:57:16,340
+ So these are column and m multiplied by theta is followed very similar to what I'm doing here.
+
+731
+01:57:16,340 --> 01:57:29,340
+ There you check this is also column vector, because theta is, you see, the p must be the same size with this p.
+
+732
+01:57:29,340 --> 01:57:34,340
+ Then you become column vector, and you transpose becomes row vector.
+
+733
+01:57:34,340 --> 01:57:37,340
+ So this is in the product.
+
+734
+01:57:37,340 --> 01:57:41,340
+ So therefore, in the exponent, it will be just a scalar.
+
+735
+01:57:41,340 --> 01:57:46,340
+ Also, there is some vector or matrix in both that.
+
+736
+01:57:46,340 --> 01:57:49,340
+ So this is very, very important.
+
+737
+01:57:49,340 --> 01:57:58,340
+ You make sure you do this dimension checking correctly.
+
+738
+01:57:58,340 --> 01:58:08,340
+ So with this, you can see here, because having this white noise assumption is very important.
+
+739
+01:58:08,340 --> 01:58:14,340
+ If this is the covariant matrix, it's a proper matrix, which later we will discuss there.
+
+740
+01:58:14,340 --> 01:58:22,340
+ Then in the middle, you will have the inverse of the covariant matrix in the middle, because this is a diagonal.
+
+741
+01:58:22,340 --> 01:58:23,340
+ So this is a diagonal.
+
+742
+01:58:23,340 --> 01:58:28,340
+ Then after your inverse, you will become multiply.
+
+743
+01:58:28,340 --> 01:58:30,340
+ You can take the constant out.
+
+744
+01:58:30,340 --> 01:58:32,340
+ So that's why I come out here.
+
+745
+01:58:32,340 --> 01:58:37,340
+ And then being this is scalar function.
+
+746
+01:58:37,340 --> 01:58:41,340
+ When you take log, you will be taking a product.
+
+747
+01:58:41,340 --> 01:58:43,340
+ So this is scalar.
+
+748
+01:58:43,340 --> 01:58:47,340
+ Also, this is raise the power of n over 2.
+
+749
+01:58:47,340 --> 01:58:50,340
+ Then you take log of this part here.
+
+750
+01:58:50,340 --> 01:58:52,340
+ This one being an exponential function.
+
+751
+01:58:52,340 --> 01:58:57,340
+ Taking log, you will be bringing this exponent down.
+
+752
+01:58:57,340 --> 01:59:01,340
+ So we don't have this exponential function anymore.
+
+753
+01:59:01,340 --> 01:59:04,340
+ That's why it's quite useful to take log.
+
+754
+01:59:04,340 --> 01:59:07,340
+ We are dealing with exponential function.
+
+755
+01:59:07,340 --> 01:59:09,340
+ We are only looking at that.
+
+756
+01:59:10,340 --> 01:59:16,340
+ Then this is appear like the quadratic functions.
+
+757
+01:59:16,340 --> 01:59:25,340
+ If you look X, it's available.
+
+758
+01:59:25,340 --> 01:59:33,340
+ But in our case here, what we will be looking at is,
+
+759
+01:59:33,340 --> 01:59:43,340
+ if theta is available, we want to estimate theta.
+
+760
+01:59:43,340 --> 01:59:52,340
+ Then it's also the same, you see, because here we will have
+
+761
+01:59:52,340 --> 01:59:58,340
+ so-called coefficient in front of the theta.
+
+762
+01:59:58,340 --> 02:00:05,340
+ So look back about this here.
+
+763
+02:00:05,340 --> 02:00:10,340
+ Then now we're already using taking log.
+
+764
+02:00:10,340 --> 02:00:14,340
+ We already removed this exponential.
+
+765
+02:00:14,340 --> 02:00:22,340
+ So this is something like it will be a second order function
+
+766
+02:00:22,340 --> 02:00:25,340
+ of this theta vector.
+
+767
+02:00:25,340 --> 02:00:32,340
+ Then if you take derivative with respect to theta,
+
+768
+02:00:32,340 --> 02:00:40,340
+ it's in a sense very similar to, you see,
+
+769
+02:00:40,340 --> 02:00:43,340
+ we are looking at the scalar case.
+
+770
+02:00:43,340 --> 02:00:47,340
+ If we are taking derivative from polynomial,
+
+771
+02:00:47,340 --> 02:00:52,340
+ which is second order with respect to the scalar variable,
+
+772
+02:00:52,340 --> 02:00:55,340
+ you will see take one derivative, you will reduce
+
+773
+02:00:55,340 --> 02:01:01,340
+ from second order into first order.
+
+774
+02:01:01,340 --> 02:01:10,340
+ That's similarly here.
+
+775
+02:01:10,340 --> 02:01:20,340
+ Then you'll see here it will bring down one order
+
+776
+02:01:20,340 --> 02:01:25,340
+ from, originally it will be the theta, you know,
+
+777
+02:01:25,340 --> 02:01:31,340
+ you have the two theta one on one side and other on the other.
+
+778
+02:01:31,340 --> 02:01:36,340
+ So you'll reduce by one order.
+
+779
+02:01:36,340 --> 02:01:39,340
+ And then how to do that, of course,
+
+780
+02:01:39,340 --> 02:01:46,340
+ the old ways, very traditional one,
+
+781
+02:01:46,340 --> 02:01:49,340
+ if you want to learn more, the stepping board.
+
+782
+02:01:49,340 --> 02:01:54,340
+ You can simply write down the theta vector as theta one,
+
+783
+02:01:54,340 --> 02:01:57,340
+ theta two, theta three and so on.
+
+784
+02:01:57,340 --> 02:02:03,340
+ Assuming, actually for magic case, normally you just use two,
+
+785
+02:02:03,340 --> 02:02:05,340
+ theta one, theta two.
+
+786
+02:02:05,340 --> 02:02:08,340
+ And then you go back to the very traditional way
+
+787
+02:02:08,340 --> 02:02:14,340
+ of writing that explicitly.
+
+788
+02:02:14,340 --> 02:02:19,340
+ Then you end up with a function of theta one raise power of two,
+
+789
+02:02:19,340 --> 02:02:22,340
+ theta two raise power of two and there is a constant.
+
+790
+02:02:22,340 --> 02:02:28,340
+ And you take derivative, you will get the result, tdl.
+
+791
+02:02:28,340 --> 02:02:31,340
+ When you come back, you will combine,
+
+792
+02:02:31,340 --> 02:02:35,340
+ end up with the same as here, you see.
+
+793
+02:02:35,340 --> 02:02:39,340
+ So there is a formula.
+
+794
+02:02:39,340 --> 02:02:47,340
+ And later I will show you how to get it done.
+
+795
+02:02:47,340 --> 02:02:53,340
+ You will see it radials into this first order.
+
+796
+02:02:53,340 --> 02:03:01,340
+ And then the very important one is we,
+
+797
+02:03:01,340 --> 02:03:04,340
+ so you see here, we want to,
+
+798
+02:03:04,340 --> 02:03:09,340
+ if you go back to the CIOB, remember,
+
+799
+02:03:09,340 --> 02:03:17,340
+ if you are able to factorize this into the form where,
+
+800
+02:03:17,340 --> 02:03:22,340
+ you see, we need to have a function of the x, you see.
+
+801
+02:03:22,340 --> 02:03:28,340
+ Remember this, g of x and subtract of theta.
+
+802
+02:03:28,340 --> 02:03:32,340
+ So we want to get the so-called linear form.
+
+803
+02:03:32,340 --> 02:03:40,340
+ But in our case here, we have this h coefficient in front of the theta.
+
+804
+02:03:40,340 --> 02:03:51,340
+ So quite sometimes I ask students how to change this form into this,
+
+805
+02:03:51,340 --> 02:03:53,340
+ you know, standard form.
+
+806
+02:03:53,340 --> 02:04:01,340
+ Even probably in quiz or some, at least in some very simple way.
+
+807
+02:04:01,340 --> 02:04:11,340
+ So one common problem, let me show you, was a problem here.
+
+808
+02:04:11,340 --> 02:04:20,340
+ Okay, so let's see we're given here, you see.
+
+809
+02:04:21,340 --> 02:04:32,340
+ Okay, so how are we going to change it into this form where I get,
+
+810
+02:04:32,340 --> 02:04:38,340
+ maybe let's see, I will get the function of theta.
+
+811
+02:04:38,340 --> 02:04:46,340
+ And then multiply by, this will be, there will be a matrix.
+
+812
+02:04:46,340 --> 02:04:54,340
+ And then we need to create vector, vector as a function of x only and
+
+813
+02:04:54,340 --> 02:04:57,340
+ subtract, this is a theta vector.
+
+814
+02:04:57,340 --> 02:04:59,340
+ So we make it both.
+
+815
+02:04:59,340 --> 02:05:03,340
+ Okay, because we have the h in front of theta.
+
+816
+02:05:03,340 --> 02:05:06,340
+ So this is not this standard form.
+
+817
+02:05:06,340 --> 02:05:14,340
+ So a common mistake or thing about an easy way to do is we,
+
+818
+02:05:14,340 --> 02:05:25,340
+ like from here, what about I pull out h, take about inverse of h.
+
+819
+02:05:25,340 --> 02:05:39,340
+ Okay, so if you directly take this h out, you will be assuming h is a square matrix
+
+820
+02:05:39,340 --> 02:05:41,340
+ and it's invertible, you see.
+
+821
+02:05:41,340 --> 02:05:46,340
+ And then if you take this h out, you will be easily think about doing that
+
+822
+02:05:46,340 --> 02:05:51,340
+ because this is if square and invertible, it will be i.
+
+823
+02:05:51,340 --> 02:05:56,340
+ So I can say multiply with i.
+
+824
+02:05:56,340 --> 02:06:06,340
+ And then this one being, you see, being, you know, I think the matrix,
+
+825
+02:06:06,340 --> 02:06:13,340
+ multiply with in front of the h here and then like x.
+
+826
+02:06:13,340 --> 02:06:21,340
+ Assume this is, that's usually some student do.
+
+827
+02:06:21,340 --> 02:06:30,340
+ And then this is h here and then this is theta.
+
+828
+02:06:30,340 --> 02:06:39,340
+ So one way to do is I assume this is invertible, I put this here.
+
+829
+02:06:39,340 --> 02:06:47,340
+ And then this h is the common h.
+
+830
+02:06:47,340 --> 02:06:52,340
+ So normally this is probably the not the way to do.
+
+831
+02:06:52,340 --> 02:06:56,340
+ You have to put the h first, assume h is invertible.
+
+832
+02:06:56,340 --> 02:07:04,340
+ So if you want to create h, you know, invert, this is i if square one.
+
+833
+02:07:04,340 --> 02:07:11,340
+ So I use the correct one here.
+
+834
+02:07:11,340 --> 02:07:18,340
+ And then if assume this is the case, we can think about, we will do it in this way,
+
+835
+02:07:18,340 --> 02:07:25,340
+ we will do the h transpose, they are pull out the h here and then what level will be
+
+836
+02:07:25,340 --> 02:07:30,340
+ so-called h transpose x minus theta.
+
+837
+02:07:30,340 --> 02:07:37,340
+ Then this is proper function of h and this is the so-called stent form.
+
+838
+02:07:37,340 --> 02:07:41,340
+ Then we will get down, okay?
+
+839
+02:07:41,340 --> 02:07:52,340
+ But this is wrong because in general you see h is even not a square matrix because if you
+
+840
+02:07:52,340 --> 02:08:06,340
+ look at the definition here, if you go back to, okay, if you go back to this one here,
+
+841
+02:08:06,340 --> 02:08:17,340
+ this is n by p observation matrix and there is no assumption about n is equal to p, okay?
+
+842
+02:08:17,340 --> 02:08:25,340
+ Actually in practice normally the major data n, the number of major data is much larger
+
+843
+02:08:25,340 --> 02:08:30,340
+ than the number of unknown parameter vector.
+
+844
+02:08:30,340 --> 02:08:38,340
+ So if you need more major data to make the problem well defined.
+
+845
+02:08:38,340 --> 02:08:46,340
+ So if this h is not a square matrix, so it must be very clear.
+
+846
+02:08:46,340 --> 02:08:53,340
+ And no square matrix you cannot directly invert, it doesn't exist.
+
+847
+02:08:53,340 --> 02:09:02,340
+ So this is one of the very fundamental property when we talk about matrix theory.
+
+848
+02:09:02,340 --> 02:09:16,340
+ So this way of doing by creating this h inverse here, then I pull out this h here because
+
+849
+02:09:16,340 --> 02:09:21,340
+ assume this h inverse exists, which is wrong.
+
+850
+02:09:21,340 --> 02:09:28,340
+ Okay, so remember no square matrix, you cannot talk about inverse itself.
+
+851
+02:09:28,340 --> 02:09:39,340
+ You can talk about pseudo inverse and that's how we will be doing here in this derivation here.
+
+852
+02:09:39,340 --> 02:09:45,340
+ So how to do that?
+
+853
+02:09:46,340 --> 02:09:49,340
+ How to do that?
+
+854
+02:09:49,340 --> 02:09:58,340
+ We need to, okay, so now it comes to the important assumption and what I call the box measure
+
+855
+02:09:58,340 --> 02:10:05,340
+ is very useful because this h here.
+
+856
+02:10:05,340 --> 02:10:27,340
+ Remember I say early our h matrix, if you look at the dimension, you see, our h matrix here.
+
+857
+02:10:27,340 --> 02:10:34,340
+ You see, it's the n by p.
+
+858
+02:10:34,340 --> 02:10:41,340
+ Because we are talking about vector parameter, then p itself is greater than 1.
+
+859
+02:10:41,340 --> 02:10:49,340
+ Otherwise if we go to 1, we will be talking about 1 unknown parameter.
+
+860
+02:10:49,340 --> 02:10:54,340
+ And then in general n is greater than p.
+
+861
+02:10:54,340 --> 02:11:01,340
+ So assume we have more metadata than the number unknown parameter.
+
+862
+02:11:01,340 --> 02:11:12,340
+ So in this case, and furthermore if we are assuming this matrix is the ring of this h matrix
+
+863
+02:11:12,340 --> 02:11:23,340
+ is equal to the small number because the ring of the matrix cannot be larger than the smaller
+
+864
+02:11:23,340 --> 02:11:33,340
+ dimension of this, either the column or the number of columns or the number of rows, n and p.
+
+865
+02:11:33,340 --> 02:11:42,340
+ But if the number of columns here, the p columns, they are independent and that's usually the case.
+
+866
+02:11:42,340 --> 02:11:50,340
+ So you will have the ring equal to p because the ring of h is always smaller
+
+867
+02:11:50,340 --> 02:12:00,340
+ or equal to, at most equal to the minimum of this n and p.
+
+868
+02:12:00,340 --> 02:12:08,340
+ In this case, if n greater than p, so it will be smaller or at most equal to p.
+
+869
+02:12:08,340 --> 02:12:14,340
+ If the columns are not independent, then the ring will be less than p.
+
+870
+02:12:14,340 --> 02:12:21,340
+ But if we are assuming the measurement is properly done, they are independent.
+
+871
+02:12:21,340 --> 02:12:23,340
+ Then we will have this.
+
+872
+02:12:23,340 --> 02:12:33,340
+ So therefore, if I have this condition satisfied, now we have this tall matrix which is h.
+
+873
+02:12:33,340 --> 02:12:44,340
+ And then the transpose of this matrix, transpose, it will be a fair one.
+
+874
+02:12:44,340 --> 02:12:53,340
+ You know this is someone tall thing and the fair one, the weight is larger.
+
+875
+02:12:53,340 --> 02:12:58,340
+ So remember my early box method.
+
+876
+02:12:58,340 --> 02:13:07,340
+ If you multiply this two, the dimension will become square matrix, which is of smaller size.
+
+877
+02:13:07,340 --> 02:13:09,340
+ It's just p by p.
+
+878
+02:13:09,340 --> 02:13:18,340
+ And it can also be proved if it is the same matrix, one is just a transpose.
+
+879
+02:13:18,340 --> 02:13:36,340
+ Then this one, if this one, the ring is equal to p, then the ring of this matrix is also equal to p.
+
+880
+02:13:36,340 --> 02:13:45,340
+ So therefore, if I have square matrix, which is of full ring because the p by p matrix,
+
+881
+02:13:45,340 --> 02:13:47,340
+ the maximum ring will be p.
+
+882
+02:13:47,340 --> 02:14:00,340
+ And if it happens to be this ring of h equal to p, then we can also prove this matrix product.
+
+883
+02:14:00,340 --> 02:14:03,340
+ So also the ring is also equal to p.
+
+884
+02:14:03,340 --> 02:14:08,340
+ Then I can invert this, you know.
+
+885
+02:14:08,340 --> 02:14:14,340
+ So then this matrix is invertible.
+
+886
+02:14:14,340 --> 02:14:22,340
+ And I can talk about the inverse of the product of these two two matrix.
+
+887
+02:14:22,340 --> 02:14:34,340
+ But you have to be a little bit cautious if I do a multiplication of the same, you know, the two matrix of this side.
+
+888
+02:14:34,340 --> 02:14:37,340
+ But one is different from the other.
+
+889
+02:14:37,340 --> 02:14:43,340
+ Say I use another a multiplied by h, you see.
+
+890
+02:14:43,340 --> 02:14:50,340
+ So this one, you give you the assume a is of dimension p by n.
+
+891
+02:14:50,340 --> 02:14:54,340
+ But the ring may not be necessarily p, you see.
+
+892
+02:14:54,340 --> 02:14:56,340
+ You n-tab with this matrix.
+
+893
+02:14:56,340 --> 02:15:01,340
+ Then the ring may be smaller than p, ring of this.
+
+894
+02:15:01,340 --> 02:15:09,340
+ Okay, so if a is not, nothing to do with h, another, another matrix.
+
+895
+02:15:09,340 --> 02:15:14,340
+ So if a, the ring of a also equal to p, like a full ring.
+
+896
+02:15:14,340 --> 02:15:18,340
+ But the two matrix are not somehow related.
+
+897
+02:15:18,340 --> 02:15:26,340
+ Then you can have case when you multiply these two two matrix, which are of the same ring of p.
+
+898
+02:15:26,340 --> 02:15:31,340
+ But the product may have reduced ring.
+
+899
+02:15:31,340 --> 02:15:32,340
+ Okay, so.
+
+900
+02:15:32,340 --> 02:15:38,340
+ If you have the same edge, only one is a transfer of the other.
+
+901
+02:15:38,340 --> 02:15:40,340
+ Then you'll be okay.
+
+902
+02:15:40,340 --> 02:15:49,340
+ You can assure, you can, you can be sure the product will always have the same ring of p.
+
+903
+02:15:49,340 --> 02:15:51,340
+ So this is a very useful matrix result.
+
+904
+02:15:51,340 --> 02:15:59,340
+ Actually a few years ago, but maybe some years I, one of the question is prove this property.
+
+905
+02:16:00,340 --> 02:16:09,340
+ I may consider setting this as a new exam paper since I spent quite some time talking about that.
+
+906
+02:16:09,340 --> 02:16:12,340
+ But just maybe, okay.
+
+907
+02:16:12,340 --> 02:16:19,340
+ But on that then, what happens if I do the another multiplication, you see.
+
+908
+02:16:19,340 --> 02:16:23,340
+ So assume we still have this condition.
+
+909
+02:16:23,340 --> 02:16:34,340
+ Now if I multiply h first, then can we invert this one?
+
+910
+02:16:34,340 --> 02:16:36,340
+ A very simple question.
+
+911
+02:16:36,340 --> 02:16:38,340
+ Is it invertible?
+
+912
+02:16:38,340 --> 02:16:41,340
+ I swap this.
+
+913
+02:16:41,340 --> 02:16:46,340
+ You know, it's the same matrix we see earlier.
+
+914
+02:16:46,340 --> 02:16:49,340
+ H shunful first, this is invertible.
+
+915
+02:16:49,340 --> 02:16:57,340
+ But what happens if I swap, I multiply h first, followed by the h transfer.
+
+916
+02:16:57,340 --> 02:16:58,340
+ It's the same.
+
+917
+02:16:58,340 --> 02:17:00,340
+ They're just the old train.
+
+918
+02:17:00,340 --> 02:17:03,340
+ Can I still invert this matrix?
+
+919
+02:17:03,340 --> 02:17:08,340
+ Any quick answer from you?
+
+920
+02:17:08,340 --> 02:17:11,340
+ Is it possible if n not equal to p?
+
+921
+02:17:11,340 --> 02:17:13,340
+ n is greater than p.
+
+922
+02:17:13,340 --> 02:17:18,340
+ But the ring of h is still equal to p.
+
+923
+02:17:18,340 --> 02:17:26,340
+ Are you, at least even one example if you can think about, maybe not generally possible,
+
+924
+02:17:26,340 --> 02:17:32,340
+ but you may say, why can't I construct a special case?
+
+925
+02:17:32,340 --> 02:17:35,340
+ Maybe one example, you will show.
+
+926
+02:17:35,340 --> 02:17:36,340
+ Is it possible?
+
+927
+02:17:36,340 --> 02:17:37,340
+ Anyone?
+
+928
+02:17:37,340 --> 02:17:41,340
+ Anyone to be sure it's not possible?
+
+929
+02:17:41,340 --> 02:17:44,340
+ Or anyone to be very certain?
+
+930
+02:17:44,340 --> 02:17:48,340
+ Maybe possible for some example.
+
+931
+02:17:48,340 --> 02:17:51,340
+ So I test you on this.
+
+932
+02:17:51,340 --> 02:18:01,340
+ Anyone good in matrix theory or linear algebra?
+
+933
+02:18:01,340 --> 02:18:02,340
+ Yes?
+
+934
+02:18:02,340 --> 02:18:09,340
+ Is it possible or not possible?
+
+935
+02:18:09,340 --> 02:18:13,340
+ It can be identically.
+
+936
+02:18:13,340 --> 02:18:22,340
+ If I think the matrix, of course it can invert, but not identically in general.
+
+937
+02:18:22,340 --> 02:18:32,340
+ Because I think you may be thinking about h-shunful is equal to h-inverse.
+
+938
+02:18:32,340 --> 02:18:37,340
+ Of course, if h-shunful is equal to h-inverse, then it becomes identically.
+
+939
+02:18:37,340 --> 02:18:38,340
+ But not possible.
+
+940
+02:18:38,340 --> 02:18:44,340
+ Because as I already said, we already know h-matrix is not a square matrix.
+
+941
+02:18:44,340 --> 02:18:52,340
+ So a known square matrix, you can transform, but you cannot invert the matrix except, so this is wrong.
+
+942
+02:18:52,340 --> 02:19:00,340
+ And then this one we're showing not possible because if you follow my so-called box method,
+
+943
+02:19:00,340 --> 02:19:03,340
+ I every year I agree in this course.
+
+944
+02:19:03,340 --> 02:19:11,340
+ I don't know maybe sometimes I do for the 6401 because one involves some matrix operation.
+
+945
+02:19:11,340 --> 02:19:16,340
+ You see here you look at the, you write using this box.
+
+946
+02:19:16,340 --> 02:19:21,340
+ So this is tau1 first followed by the fake one.
+
+947
+02:19:21,340 --> 02:19:27,340
+ It's possible this operation is very, because this is n by p.
+
+948
+02:19:27,340 --> 02:19:29,340
+ This is p by n.
+
+949
+02:19:29,340 --> 02:19:39,340
+ The result you are getting a bigger square matrix, which is n by n.
+
+950
+02:19:39,340 --> 02:19:53,340
+ n by n matrix if one of the factor matrix is the ring only p.
+
+951
+02:19:53,340 --> 02:19:55,340
+ The other also ring equal to p.
+
+952
+02:19:55,340 --> 02:20:09,340
+ You see we have, if you refer to my appendix, I already have a product of two matrix, say a multiplied by p.
+
+953
+02:20:09,340 --> 02:20:11,340
+ Of course it can be compatible.
+
+954
+02:20:11,340 --> 02:20:36,340
+ Then the ring of this product must be smaller or equal to the minimum of the ring of A and the ring of B.
+
+955
+02:20:36,340 --> 02:20:57,340
+ So that means the ring will be always smaller or equal to the ring of the smaller ring of either A or B.
+
+956
+02:20:57,340 --> 02:21:10,340
+ If both are equal, then of course if say equal to p, then the product of the ring of this A multiplied by p will never be greater or equal.
+
+957
+02:21:10,340 --> 02:21:12,340
+ It can be equal to p.
+
+958
+02:21:12,340 --> 02:21:17,340
+ The maximum you can keep p, but can never be greater than p.
+
+959
+02:21:18,340 --> 02:21:38,340
+ After, so I emphasize again if the two matrix multiplied together, then at most the product of the ring will be equal to the smaller ring of these two matrix, the smaller one.
+
+960
+02:21:38,340 --> 02:21:48,340
+ So the whole is equal to, can never be more than one of the factor matrix.
+
+961
+02:21:48,340 --> 02:21:57,340
+ So therefore if you are doing this way, this will never be invertible.
+
+962
+02:21:58,340 --> 02:22:01,340
+ So that's how it will come back here.
+
+963
+02:22:01,340 --> 02:22:10,340
+ Now it will come back to our derivation here.
+
+964
+02:22:10,340 --> 02:22:24,340
+ So what we are doing here is this is invertible because we assume h is full rank and the number of columns p.
+
+965
+02:22:25,340 --> 02:22:30,340
+ So therefore this product is p by p, it's invertible.
+
+966
+02:22:30,340 --> 02:22:43,340
+ So what we do here, how are we moving this h out?
+
+967
+02:22:43,340 --> 02:22:49,340
+ So can you think about how you see this one?
+
+968
+02:22:49,340 --> 02:22:53,340
+ You have the h here.
+
+969
+02:22:53,340 --> 02:23:04,340
+ So how are we going to take this h out so that we create this, create this, you know, you're going to see that here.
+
+970
+02:23:04,340 --> 02:23:06,340
+ How are we going to do?
+
+971
+02:23:06,340 --> 02:23:10,340
+ This one is invertible.
+
+972
+02:23:10,340 --> 02:23:14,340
+ Because we know this product is invertible.
+
+973
+02:23:14,340 --> 02:23:28,340
+ So what we do here is step one, we move this, maybe I show the step here so that like this, you know one trick of manipulating here.
+
+974
+02:23:28,340 --> 02:23:34,340
+ This is quite useful, the matrix operation.
+
+975
+02:23:34,340 --> 02:23:40,340
+ So how are we going to do here?
+
+976
+02:23:40,340 --> 02:23:48,340
+ Step one is I just bring in this h transform.
+
+977
+02:23:48,340 --> 02:23:55,340
+ So what I do here is we ignore this one over, okay, put this one.
+
+978
+02:23:55,340 --> 02:23:56,340
+ Anyway, it's easy.
+
+979
+02:23:56,340 --> 02:24:01,340
+ So I multiply inside, which is possible.
+
+980
+02:24:01,340 --> 02:24:03,340
+ All right.
+
+981
+02:24:03,340 --> 02:24:10,340
+ Okay, then h transform h.
+
+982
+02:24:10,340 --> 02:24:12,340
+ Okay, right.
+
+983
+02:24:12,340 --> 02:24:15,340
+ And then what happens here?
+
+984
+02:24:15,340 --> 02:24:18,340
+ We still have the theta here, right?
+
+985
+02:24:18,340 --> 02:24:19,340
+ Okay.
+
+986
+02:24:19,340 --> 02:24:30,340
+ So now once you do that, of course, h transform I can multiply in because this is a normal multiplication.
+
+987
+02:24:30,340 --> 02:24:39,340
+ Now this one is invertible, okay?
+
+988
+02:24:39,340 --> 02:24:56,340
+ Then because this is invertible, I can do a little bit tricks about how to manipulate that.
+
+989
+02:24:56,340 --> 02:25:06,340
+ So what we will be doing here is, so as you see here, one student mentioned is quite good, we make gugis of the i.
+
+990
+02:25:06,340 --> 02:25:11,340
+ I can assume this one.
+
+991
+02:25:11,340 --> 02:25:21,340
+ I multiply by i first, transform x minus, this is what we need to manipulate theta, okay?
+
+992
+02:25:21,340 --> 02:25:31,340
+ So in order to bring this one out, I must create this left factor, which is equal to that one.
+
+993
+02:25:31,340 --> 02:25:40,340
+ Being an identity matrix, I can write it as h transform h.
+
+994
+02:25:40,340 --> 02:25:45,340
+ Then this one is invertible.
+
+995
+02:25:45,340 --> 02:25:46,340
+ Okay, right.
+
+996
+02:25:46,340 --> 02:25:48,340
+ So this is i, am I right?
+
+997
+02:25:48,340 --> 02:25:51,340
+ This is equal to i, right?
+
+998
+02:25:51,340 --> 02:25:55,340
+ And then after that, I still have this h transform x.
+
+999
+02:25:55,340 --> 02:25:57,340
+ We just copy this one.
+
+1000
+02:25:57,340 --> 02:26:02,340
+ Then minus h transform h theta.
+
+1001
+02:26:02,340 --> 02:26:12,340
+ Remember for matrix operation, you must make sure this one, you want to take this common factor out,
+
+1002
+02:26:12,340 --> 02:26:17,340
+ they must be on the left most side of this.
+
+1003
+02:26:17,340 --> 02:26:29,340
+ If this is reverse, you see, if I do this way, I think the matrix, I can write it as h transform h invert,
+
+1004
+02:26:29,340 --> 02:26:32,340
+ multiply by h transform h.
+
+1005
+02:26:32,340 --> 02:26:36,340
+ But then the problem is I cannot bring this one in the middle out.
+
+1006
+02:26:36,340 --> 02:26:38,340
+ So this is wrong.
+
+1007
+02:26:38,340 --> 02:26:43,340
+ Okay, so the correct one is I write this first.
+
+1008
+02:26:43,340 --> 02:26:54,340
+ Then after that, if I bring this common one out, it will be h transform h.
+
+1009
+02:26:54,340 --> 02:27:03,340
+ Then after that, what we left will be h transform h invert h transform x.
+
+1010
+02:27:03,340 --> 02:27:07,340
+ Then minus this theta, you see.
+
+1011
+02:27:07,340 --> 02:27:14,340
+ Okay, so this is precisely what we are doing here, am I right?
+
+1012
+02:27:14,340 --> 02:27:20,340
+ Okay, so in this way, we get the so-called linear forms to factorize this into this.
+
+1013
+02:27:20,340 --> 02:27:30,340
+ This is i theta matrix, and this is what we require, the estimate, and this is the true theta.
+
+1014
+02:27:30,340 --> 02:27:44,340
+ So this is how you manipulate by make sure you do the correct way and do the proper factorization.
+
+1015
+02:27:44,340 --> 02:27:48,340
+ Okay, any problem?
+
+1016
+02:27:48,340 --> 02:27:52,340
+ Because for matrix, it's very important, usually you cannot swap.
+
+1017
+02:27:52,340 --> 02:27:58,340
+ A multiplied by B is not equal to B multiplied by A in general.
+
+1018
+02:27:58,340 --> 02:28:02,340
+ Okay, so and the dimension, it's very important.
+
+1019
+02:28:02,340 --> 02:28:04,340
+ Make sure you check the dimension.
+
+1020
+02:28:04,340 --> 02:28:11,340
+ I spent quite some time talking about how this operation.
+
+1021
+02:28:11,340 --> 02:28:21,340
+ So I hope this one will be useful in your future study for this course,
+
+1022
+02:28:21,340 --> 02:28:28,340
+ as well as perhaps your future project, whatever.
+
+1023
+02:28:28,340 --> 02:28:37,340
+ So any question to ask or any doubt you get here?
+
+1024
+02:28:37,340 --> 02:28:45,340
+ Also this is linear, so again we need to manipulate this operation.
+
+1025
+02:28:45,340 --> 02:28:48,340
+ So once I get this form, then it will be easy, you see.
+
+1026
+02:28:48,340 --> 02:28:57,340
+ This is what we already have, and using the CLB result, we know this already, and i theta,
+
+1027
+02:28:57,340 --> 02:29:02,340
+ because this is independent of the data, we get this i matrix.
+
+1028
+02:29:02,340 --> 02:29:11,340
+ So once I get this i theta matrix, we know for CLB, then the covariance must be inverse of that.
+
+1029
+02:29:11,340 --> 02:29:12,340
+ So it's done.
+
+1030
+02:29:12,340 --> 02:29:16,340
+ And then therefore, because we are dealing with Gaussian, you see.
+
+1031
+02:29:16,340 --> 02:29:20,340
+ Remember the noise is Gaussian, and the major data will also be Gaussian.
+
+1032
+02:29:20,340 --> 02:29:29,340
+ So we are, you see, our estimate is a linear function of x.
+
+1033
+02:29:29,340 --> 02:29:32,340
+ We are just linearly combining this, the metadata.
+
+1034
+02:29:32,340 --> 02:29:39,340
+ So therefore, it's also Gaussian, and then you can verify this is unbiased,
+
+1035
+02:29:39,340 --> 02:29:49,340
+ because if you take the expectation here, you see, you know, based on the model, you see here.
+
+1036
+02:29:49,340 --> 02:29:57,340
+ Sometimes you actually don't need to really, at least you don't need to calculate from the principle
+
+1037
+02:29:57,340 --> 02:30:00,340
+ of taking the expectation integration.
+
+1038
+02:30:00,340 --> 02:30:05,340
+ Usually you don't need, so for example, let's look at, for linear model it's very easy.
+
+1039
+02:30:05,340 --> 02:30:09,340
+ E of x equal to how much?
+
+1040
+02:30:09,340 --> 02:30:13,340
+ Because e, expectation is the linear operation.
+
+1041
+02:30:13,340 --> 02:30:21,340
+ It will be e of this part plus e of this w, and w is zero mean, you see.
+
+1042
+02:30:21,340 --> 02:30:25,340
+ So that means the expectation of w becomes zero.
+
+1043
+02:30:25,340 --> 02:30:27,340
+ So that's why we remove that part.
+
+1044
+02:30:27,340 --> 02:30:30,340
+ And then how about e of x?
+
+1045
+02:30:30,340 --> 02:30:34,340
+ Because x is, observation matrix is a constant.
+
+1046
+02:30:34,340 --> 02:30:38,340
+ So nothing random.
+
+1047
+02:30:38,340 --> 02:30:45,340
+ And then finally, here, actually, so far in this part, we assume theta is also deterministic.
+
+1048
+02:30:45,340 --> 02:30:51,340
+ So therefore, e of x will be just equal to h multiplied by theta.
+
+1049
+02:30:51,340 --> 02:30:53,340
+ All right, to keep this part.
+
+1050
+02:30:53,340 --> 02:30:55,340
+ And then the random one becomes zero.
+
+1051
+02:30:55,340 --> 02:31:03,340
+ So now, if you want to verify, that's why I say once you have the model, you can always check whether it's unbiased or not.
+
+1052
+02:31:03,340 --> 02:31:12,340
+ In this case, you see, e of theta equal to this, this is constant.
+
+1053
+02:31:12,340 --> 02:31:14,340
+ So we have e of x.
+
+1054
+02:31:14,340 --> 02:31:19,340
+ And e of x is, you remember, you see, h multiplied by theta.
+
+1055
+02:31:19,340 --> 02:31:23,340
+ So now we create another h matrix here.
+
+1056
+02:31:23,340 --> 02:31:27,340
+ So h transpose multiplied by h, it happened to be the same as this one.
+
+1057
+02:31:27,340 --> 02:31:29,340
+ But this one is inverse.
+
+1058
+02:31:29,340 --> 02:31:33,340
+ So it becomes identity matrix i.
+
+1059
+02:31:33,340 --> 02:31:41,340
+ And the result will be, if you apply e, it will be just equal to theta, the theta vector here.
+
+1060
+02:31:41,340 --> 02:31:45,340
+ So it's unbiased.
+
+1061
+02:31:45,340 --> 02:31:51,340
+ And then in that case, that means the expectation of this equal to theta.
+
+1062
+02:31:51,340 --> 02:31:58,340
+ And how about the covariant matrix?
+
+1063
+02:31:58,340 --> 02:32:02,340
+ Because this is the theta estimate.
+
+1064
+02:32:02,340 --> 02:32:12,340
+ So now you can see here, although this is invertible, it's not the identity matrix in general.
+
+1065
+02:32:12,340 --> 02:32:27,340
+ So therefore, our estimate here, the unknown parameter vector has some correlations in general.
+
+1066
+02:32:27,340 --> 02:32:30,340
+ Also our noise is uncorrelated.
+
+1067
+02:32:30,340 --> 02:32:31,340
+ Why?
+
+1068
+02:32:31,340 --> 02:32:35,340
+ Because this one has.
+
+1069
+02:32:35,340 --> 02:32:40,340
+ So yeah, because we know the covariant matrix is equal to the inverse of that.
+
+1070
+02:32:40,340 --> 02:32:45,340
+ It happens to be this one is also diagonal one.
+
+1071
+02:32:45,340 --> 02:32:48,340
+ But in general, that may not be the case.
+
+1072
+02:32:48,340 --> 02:32:53,340
+ So that's how you will see.
+
+1073
+02:32:53,340 --> 02:32:55,340
+ Very easy one.
+
+1074
+02:32:55,340 --> 02:33:00,340
+ So finally, before anything, we look at the example.
+
+1075
+02:33:00,340 --> 02:33:09,340
+ I think we try to fit the live fitting using linear model.
+
+1076
+02:33:09,340 --> 02:33:25,340
+ Linear in the sense of, you see the observation data, if we put a and b at least, so you will see this is, it will be a linear function of the observation.
+
+1077
+02:33:25,340 --> 02:33:35,340
+ Sorry, the observation is linear function of the unknown parameter vector, not necessarily the index of n, you see.
+
+1078
+02:33:35,340 --> 02:33:41,340
+ So I think later on we have n could be a polynomial, could be n squared and so on.
+
+1079
+02:33:41,340 --> 02:33:44,340
+ But so you have to be clear, you see.
+
+1080
+02:33:44,340 --> 02:33:47,340
+ Our linear model is respect to theta.
+
+1081
+02:33:47,340 --> 02:33:56,340
+ So we don't have say a power of two or b power of two or product of AB, then it's no linear model.
+
+1082
+02:33:56,340 --> 02:33:58,340
+ So this is what we have here.
+
+1083
+02:33:58,340 --> 02:34:02,340
+ Then from here, you can see the edge matrix.
+
+1084
+02:34:02,340 --> 02:34:04,340
+ It's a very simple one.
+
+1085
+02:34:04,340 --> 02:34:08,340
+ You see in general n is greater than two.
+
+1086
+02:34:08,340 --> 02:34:10,340
+ We have only two here.
+
+1087
+02:34:10,340 --> 02:34:13,340
+ So something like a tall matrix.
+
+1088
+02:34:13,340 --> 02:34:16,340
+ And then therefore you can see here this is tall.
+
+1089
+02:34:16,340 --> 02:34:23,340
+ You multiply this product become two by two, two by two matrix.
+
+1090
+02:34:23,340 --> 02:34:26,340
+ And then this one you can verify this is invertible.
+
+1091
+02:34:26,340 --> 02:34:38,340
+ And then actually we get the same result here from what we did earlier, but you're using like a different approach.
+
+1092
+02:34:38,340 --> 02:34:47,340
+ So you can even extend to this higher order, P modulo by P minus one, order polynomial.
+
+1093
+02:34:47,340 --> 02:34:49,340
+ So this is what I mentioned here.
+
+1094
+02:34:49,340 --> 02:34:54,340
+ We have a higher order in terms of the data policy.
+
+1095
+02:34:54,340 --> 02:35:02,340
+ So 50 N looks like your sample points where you're taking the data.
+
+1096
+02:35:02,340 --> 02:35:08,340
+ But our thing is higher polynomial, higher order polynomial.
+
+1097
+02:35:08,340 --> 02:35:10,340
+ We have more coefficient.
+
+1098
+02:35:10,340 --> 02:35:18,340
+ And then in this case, it's still linear model because our unknown parameter vector here,
+
+1099
+02:35:18,340 --> 02:35:22,340
+ all these are just false order.
+
+1100
+02:35:22,340 --> 02:35:27,340
+ And then our major data here, we take this major data.
+
+1101
+02:35:27,340 --> 02:35:34,340
+ And in this case, our edge is again, you see, we assume that n is still greater than P.
+
+1102
+02:35:34,340 --> 02:35:35,340
+ P is this.
+
+1103
+02:35:35,340 --> 02:35:41,340
+ I think this should be the same P, either small or capital.
+
+1104
+02:35:41,340 --> 02:35:50,340
+ And after that you'll see once you estimate this, you see our curve is no longer, you know, the linear.
+
+1105
+02:35:50,340 --> 02:35:59,340
+ So you're talking about straight line where here, assume the order is like cubicle.
+
+1106
+02:35:59,340 --> 02:36:04,340
+ No, this is like quadratic, P minus one, second order.
+
+1107
+02:36:04,340 --> 02:36:06,340
+ So you'll get this.
+
+1108
+02:36:06,340 --> 02:36:16,340
+ And this is one simulation example where if you have this data here, you'll get the three unknown coefficient.
+
+1109
+02:36:16,340 --> 02:36:18,340
+ So this is the curve.
+
+1110
+02:36:18,340 --> 02:36:28,340
+ So this sample, it will fix this curve with the so-called best smallest error.
+
+1111
+02:36:28,340 --> 02:36:32,340
+ So you see here, covariance matrix is no diagonal one.
+
+1112
+02:36:32,340 --> 02:36:39,340
+ So you have some so-called correlations here.
+
+1113
+02:36:39,340 --> 02:36:40,340
+ Okay.
+
+1114
+02:36:40,340 --> 02:36:45,340
+ So I think that's how we will be in the big time left.
+
+1115
+02:36:45,340 --> 02:36:54,340
+ I just quickly give you some, let me see what do I have here.
+
+1116
+02:36:54,340 --> 02:37:04,340
+ I guess I have some appendix for how to get the matrix derivates in here.
+
+1117
+02:37:04,340 --> 02:37:17,340
+ Maybe I can upload to the, I hope I fix somewhere here.
+
+1118
+02:37:17,340 --> 02:37:20,340
+ Appendix, linear.
+
+1119
+02:37:20,340 --> 02:37:21,340
+ Okay.
+
+1120
+02:37:21,340 --> 02:37:24,340
+ So that, there may be the one.
+
+1121
+02:37:24,340 --> 02:37:25,340
+ Okay.
+
+1122
+02:37:25,340 --> 02:37:27,340
+ So this is the one here.
+
+1123
+02:37:27,340 --> 02:37:30,340
+ So you can get this.
+
+1124
+02:37:30,340 --> 02:37:36,340
+ Nowadays, it's very common if you are not sure you can, you see here.
+
+1125
+02:37:36,340 --> 02:37:42,340
+ This result extending our conventional scalar variable.
+
+1126
+02:37:42,340 --> 02:37:48,340
+ As you all know, you'll take derivative with just scalar variable.
+
+1127
+02:37:48,340 --> 02:37:54,340
+ But if you are talking about vector, these are matrix calculus.
+
+1128
+02:37:54,340 --> 02:37:59,340
+ Which just get from, you see here.
+
+1129
+02:37:59,340 --> 02:38:06,340
+ Now if the, we want the derivative with respect to x, you have to be clear which is the one
+
+1130
+02:38:06,340 --> 02:38:07,340
+ you are taking derivative.
+
+1131
+02:38:07,340 --> 02:38:09,340
+ I can upload this into the n-divine.
+
+1132
+02:38:09,340 --> 02:38:12,340
+ So you don't need to write down a copy.
+
+1133
+02:38:12,340 --> 02:38:13,340
+ You see?
+
+1134
+02:38:13,340 --> 02:38:15,340
+ And you can get yourself from internet.
+
+1135
+02:38:15,340 --> 02:38:17,340
+ So be careful.
+
+1136
+02:38:17,340 --> 02:38:22,340
+ If you are, you see here, this is both a vector.
+
+1137
+02:38:22,340 --> 02:38:24,340
+ This is an inner product, you see?
+
+1138
+02:38:24,340 --> 02:38:27,340
+ An inner product is a function of x.
+
+1139
+02:38:27,340 --> 02:38:35,340
+ So once you take derivative, you will become a column vector, you see?
+
+1140
+02:38:35,340 --> 02:38:37,340
+ Also the coefficient b here.
+
+1141
+02:38:37,340 --> 02:38:43,340
+ You see, if you look at the scalar case, we have b is a scalar.
+
+1142
+02:38:43,340 --> 02:38:45,340
+ b and x both are scalar.
+
+1143
+02:38:45,340 --> 02:38:50,340
+ You take derivative, you will be just equal to b.
+
+1144
+02:38:50,340 --> 02:38:59,340
+ But in the matrix operation, you see, we are taking a function, a scalar function, which
+
+1145
+02:38:59,340 --> 02:39:04,340
+ is a function, linear function of x.
+
+1146
+02:39:04,340 --> 02:39:12,340
+ So once you take derivative with a vector variable, the result should be also a vector.
+
+1147
+02:39:12,340 --> 02:39:13,340
+ It makes sense.
+
+1148
+02:39:13,340 --> 02:39:16,340
+ I'm taking derivative with x1, you get result.
+
+1149
+02:39:16,340 --> 02:39:17,340
+ x2, another one.
+
+1150
+02:39:17,340 --> 02:39:19,340
+ So you put it as a vector.
+
+1151
+02:39:19,340 --> 02:39:21,340
+ And b is a vector.
+
+1152
+02:39:21,340 --> 02:39:24,340
+ When you take this inner product, this is a column.
+
+1153
+02:39:24,340 --> 02:39:27,340
+ So make sure this is a row vector.
+
+1154
+02:39:27,340 --> 02:39:32,340
+ You rotate, you transpose this, become b.
+
+1155
+02:39:32,340 --> 02:39:41,340
+ Similarly, if your x-transfer is a row vector first, then you directly get b.
+
+1156
+02:39:41,340 --> 02:39:46,340
+ But here, x is a row vector.
+
+1157
+02:39:46,340 --> 02:39:50,340
+ So you take derivative with respect to the column vector.
+
+1158
+02:39:50,340 --> 02:39:55,340
+ Similarly, if you look at the matrix case, this is what I say in the second order.
+
+1159
+02:39:55,340 --> 02:40:00,340
+ Then in general, the result, you will end up with two, the sum of the two.
+
+1160
+02:40:00,340 --> 02:40:06,340
+ If a is not symmetric, you will have to, this a and a-transfer are not the same.
+
+1161
+02:40:06,340 --> 02:40:08,340
+ You cannot simply combine.
+
+1162
+02:40:08,340 --> 02:40:09,340
+ But a is symmetry.
+
+1163
+02:40:09,340 --> 02:40:11,340
+ Then a equals a-transfer.
+
+1164
+02:40:11,340 --> 02:40:17,340
+ Then you will get a very familiar with our second order polynomial.
+
+1165
+02:40:17,340 --> 02:40:21,340
+ If x is a scalar variable, then you get this.
+
+1166
+02:40:21,340 --> 02:40:22,340
+ So, yeah.
+
+1167
+02:40:22,340 --> 02:40:27,340
+ Therefore, you can add more into the part two election notes.
+
+1168
+02:40:27,340 --> 02:40:32,340
+ And there are some more, which is probably now we don't need here.
+
+1169
+02:40:32,340 --> 02:40:44,340
+ In the derivation here, you can apply this to get early on you have derivation in the linear model.
+
+1170
+02:40:44,340 --> 02:40:56,340
+ So, if no question, I can dismiss the class early so that the parts will not be so long-kewed.
+
+1171
+02:40:56,340 --> 02:41:01,340
+ Anyway, we have only one break.
+
+1172
+02:41:01,340 --> 02:41:02,340
+ Yeah.
+
+1173
+02:41:02,340 --> 02:41:04,340
+ We'll see you next week.
+
+1174
+02:41:04,340 --> 02:41:06,340
+ Any questions, you can also email me.
+
+1175
+02:41:06,340 --> 02:41:10,340
+ I see some students email me the question.
+
+1176
+02:41:10,340 --> 02:41:11,340
+ Okay.
+
+1177
+02:41:11,340 --> 02:41:18,340
+ So, we'll see you next week or email me.
+
+1178
+02:41:18,340 --> 02:41:20,340
+ I can also meet you.
+
+1179
+02:41:20,340 --> 02:41:27,340
+ We all really need to meet me.
+
+1180
+02:41:50,340 --> 02:41:57,340
+ Thank you.
+
+1181
+02:42:20,340 --> 02:42:30,340
+ Thank you.
+
+1182
+02:42:50,340 --> 02:43:00,340
+ Thank you.
+
+1183
+02:43:20,340 --> 02:43:30,340
+ Thank you.
+
+1184
+02:43:50,340 --> 02:44:00,340
+ Thank you.
+
+1185
+02:44:20,340 --> 02:44:30,340
+ Thank you.
+
+1186
+02:44:50,340 --> 02:45:00,340
+ Thank you.
+
+1187
+02:45:20,340 --> 02:45:30,340
+ Thank you.
+
+1188
+02:45:50,340 --> 02:46:00,340
+ Thank you.
+
+1189
+02:46:20,340 --> 02:46:30,340
+ Thank you.
+
+1190
+02:46:50,340 --> 02:47:00,340
+ Thank you.
+
+1191
+02:47:20,340 --> 02:47:30,340
+ Thank you.
+
+1192
+02:47:50,340 --> 02:48:00,340
+ Thank you.
+
+1193
+02:48:20,340 --> 02:48:30,340
+ Thank you.
+
+1194
+02:48:50,340 --> 02:49:00,340
+ Thank you.
+
+1195
+02:49:20,340 --> 02:49:30,340
+ Thank you.
+
+1196
+02:49:50,340 --> 02:50:00,340
+ Thank you.
+
+1197
+02:50:20,340 --> 02:50:30,340
+ Thank you.
+
+1198
+02:50:50,340 --> 02:51:00,340
+ Thank you.
+
+1199
+02:51:20,340 --> 02:51:30,340
+ Thank you.
+
+1200
+02:51:50,340 --> 02:52:00,340
+ Thank you.
+
+1201
+02:52:20,340 --> 02:52:30,340
+ Thank you.
+
+1202
+02:52:50,340 --> 02:53:00,340
+ Thank you.
+
+1203
+02:53:20,340 --> 02:53:30,340
+ Thank you.
+
+1204
+02:53:50,340 --> 02:54:00,340
+ Thank you.
+
+1205
+02:54:20,340 --> 02:54:30,340
+ Thank you.
+
+1206
+02:54:50,340 --> 02:55:00,340
+ Thank you.
+
+1207
+02:55:20,340 --> 02:55:30,340
+ Thank you.
+
+1208
+02:55:50,340 --> 02:56:00,340
+ Thank you.
+
+1209
+02:56:20,340 --> 02:56:30,340
+ Thank you.
+
+1210
+02:56:50,340 --> 02:57:00,340
+ Thank you.
+
+1211
+02:57:20,340 --> 02:57:30,340
+ Thank you.
+
+1212
+02:57:50,340 --> 02:58:00,340
+ Thank you.
+
+1213
+02:58:20,340 --> 02:58:30,340
+ Thank you.
+
+1214
+02:58:50,340 --> 02:59:00,340
+ Thank you.
+
+1215
+02:59:20,340 --> 02:59:30,340
+ Thank you.
+
+1216
+02:59:50,340 --> 03:00:00,340
+ Thank you.
+

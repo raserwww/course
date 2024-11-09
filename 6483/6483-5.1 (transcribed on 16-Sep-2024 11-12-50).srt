@@ -1,0 +1,3664 @@
+1
+00:00:00,000 --> 00:00:29,200
+ WHILE iT
+
+2
+00:00:59,200 --> 00:01:09,200
+ Okay, class.
+
+3
+00:01:09,200 --> 00:01:21,400
+ So today, actually, we have a very special lecture because first hour on my part, which
+
+4
+00:01:21,400 --> 00:01:30,400
+ is we can finish off all the exercises and then starting from 1.30, the prop time will take over.
+
+5
+00:01:30,400 --> 00:01:38,400
+ Okay, so prop time will take over the teaching to continue our discussions, the machine learning methods,
+
+6
+00:01:38,400 --> 00:01:41,400
+ including classification.
+
+7
+00:01:41,400 --> 00:01:50,400
+ And then next week, prop one will start to introduce a classroom and then prop time come back again from week 6 to week 10.
+
+8
+00:01:50,400 --> 00:01:58,400
+ Yeah, to introduce more machine learning algorithms and then prop one will come back again.
+
+9
+00:01:58,400 --> 00:02:01,400
+ Okay, so that is the arrangement.
+
+10
+00:02:01,400 --> 00:02:04,400
+ So today is a mix. You have seen two lectures today.
+
+11
+00:02:04,400 --> 00:02:11,400
+ Okay, so my last hour today, I think last week I made a mistake.
+
+12
+00:02:11,400 --> 00:02:14,400
+ I thought last lecture is Friday.
+
+13
+00:02:14,400 --> 00:02:17,400
+ Actually, that is only for the undergrad.
+
+14
+00:02:17,400 --> 00:02:19,400
+ Okay, only for undergraduate students.
+
+15
+00:02:19,400 --> 00:02:25,400
+ So I will say for undergraduate students, they are the last one, they will be there tomorrow last hour.
+
+16
+00:02:25,400 --> 00:02:29,400
+ Okay, so for us, this is the last class.
+
+17
+00:02:29,400 --> 00:02:43,400
+ So we can finish the two exercises we have not covered in topic 3 and then the three exercises in topic 4.
+
+18
+00:02:43,400 --> 00:02:45,400
+ And that is all for my part.
+
+19
+00:02:45,400 --> 00:02:48,400
+ Okay, then get ready for the quiz.
+
+20
+00:02:48,400 --> 00:02:53,400
+ So the quiz will be next Saturday, not this coming one, but next week.
+
+21
+00:02:53,400 --> 00:03:04,400
+ But so far, I haven't received your session information or your location, the venue yet.
+
+22
+00:03:04,400 --> 00:03:08,400
+ Okay, so still waiting for the school OIS team.
+
+23
+00:03:08,400 --> 00:03:10,400
+ They are making an arrangement now.
+
+24
+00:03:10,400 --> 00:03:14,400
+ So definitely one of those labs, definitely one of the session.
+
+25
+00:03:14,400 --> 00:03:16,400
+ For post-grad, you have two sessions.
+
+26
+00:03:16,400 --> 00:03:19,400
+ So those, you will be in one of these sessions.
+
+27
+00:03:19,400 --> 00:03:23,400
+ Okay, the undergrad will start from the earlier session.
+
+28
+00:03:23,400 --> 00:03:27,400
+ Okay, so I will make an announcement as soon as I get the list.
+
+29
+00:03:27,400 --> 00:03:36,400
+ Okay, so I got after I have the list, so you can see your the timing, the session number, as well as the venue.
+
+30
+00:03:36,400 --> 00:03:43,400
+ Okay, so please come the week after, I mean next week, next Saturday.
+
+31
+00:03:43,400 --> 00:03:46,400
+ Okay, that is one about the quiz.
+
+32
+00:03:46,400 --> 00:03:49,400
+ As we said, the quiz one is just a couple of my parts.
+
+33
+00:03:49,400 --> 00:03:54,400
+ So it's from lecture 1 to today, whatever, today is mainly about exercise.
+
+34
+00:03:54,400 --> 00:04:00,400
+ So today no new content, just exercise or whatever topic we covered.
+
+35
+00:04:00,400 --> 00:04:02,400
+ Okay, so that is the arrangement.
+
+36
+00:04:02,400 --> 00:04:05,400
+ Do you have any quick questions?
+
+37
+00:04:05,400 --> 00:04:12,400
+ Okay, so let's start to discuss the exercise 5.
+
+38
+00:04:12,400 --> 00:04:23,400
+ And that is one about the alphabet, alphabet of pruning.
+
+39
+00:04:23,400 --> 00:04:29,400
+ So that is a game, tree, and then we actually have the mini max.
+
+40
+00:04:29,400 --> 00:04:35,400
+ So we have a player and then you have their counterpart, so you have our opponents.
+
+41
+00:04:35,400 --> 00:04:38,400
+ So that's why we can use a mini max to play.
+
+42
+00:04:38,400 --> 00:04:45,400
+ So minimize our cost and then the opponent will maximize your cost and so on.
+
+43
+00:04:45,400 --> 00:04:52,400
+ So yeah, we can do mini max way, but then alphabet is a better version.
+
+44
+00:04:52,400 --> 00:04:58,400
+ So try to prune away some of the branches which is not going to help us.
+
+45
+00:04:58,400 --> 00:05:01,400
+ So that is key objective.
+
+46
+00:05:01,400 --> 00:05:10,400
+ And then, so you can see the, I tried to summarize, basically the relationship between alpha and beta.
+
+47
+00:05:10,400 --> 00:05:14,400
+ So you can make use of that to prune, remember.
+
+48
+00:05:14,400 --> 00:05:22,400
+ So if beta we already find the beta is too small, then you actually can prune away the branches below the beta.
+
+49
+00:05:22,400 --> 00:05:30,400
+ So compare with your parents, which is alpha, or your other ancestors if they are already available,
+
+50
+00:05:30,400 --> 00:05:33,400
+ if they are alpha value already available.
+
+51
+00:05:33,400 --> 00:05:39,400
+ And also, your alpha value is too big already.
+
+52
+00:05:39,400 --> 00:05:43,400
+ Your alpha value is too big than your parent's beta value.
+
+53
+00:05:43,400 --> 00:05:46,400
+ So in that case also.
+
+54
+00:05:46,400 --> 00:05:51,400
+ So this is a true type of alpha prune and beta prune.
+
+55
+00:05:51,400 --> 00:06:05,400
+ So let's do the exercise.
+
+56
+00:06:05,400 --> 00:06:16,400
+ Okay, so for all the alpha nodes, the maximizer, the initial value should be negative infinity.
+
+57
+00:06:16,400 --> 00:06:19,400
+ All the beta value in the beginning very big.
+
+58
+00:06:19,400 --> 00:06:21,400
+ So it's a positive infinity.
+
+59
+00:06:21,400 --> 00:06:28,400
+ So we pre-put there already, attach to alpha, you just put the negative infinity,
+
+60
+00:06:28,400 --> 00:06:32,400
+ attach to beta value, you put the positive infinity.
+
+61
+00:06:32,400 --> 00:06:34,400
+ That is how we start.
+
+62
+00:06:34,400 --> 00:06:41,400
+ The alphabet depends on whether they ask us to do the pruning from left to right or right to left.
+
+63
+00:06:41,400 --> 00:06:43,400
+ We know this is to the left first.
+
+64
+00:06:44,400 --> 00:06:51,400
+ So starting from left branch first or starting from the right branch first, that would make a difference.
+
+65
+00:06:51,400 --> 00:06:57,400
+ But the difference is you probably one way is probably more efficient than another,
+
+66
+00:06:57,400 --> 00:06:59,400
+ but it really depends on the problem.
+
+67
+00:06:59,400 --> 00:07:00,400
+ So it's no guarantee.
+
+68
+00:07:00,400 --> 00:07:02,400
+ So that is the randomness here.
+
+69
+00:07:02,400 --> 00:07:08,400
+ Okay, so but for exercise purpose, we need to tell you, okay,
+
+70
+00:07:08,400 --> 00:07:11,400
+ if we don't say anything normally it's from left.
+
+71
+00:07:11,400 --> 00:07:13,400
+ Okay, it's from the left branch first.
+
+72
+00:07:13,400 --> 00:07:18,400
+ So that is how we start.
+
+73
+00:07:18,400 --> 00:07:23,400
+ And then we also starting from the depth first approach.
+
+74
+00:07:23,400 --> 00:07:29,400
+ So we go for the, so this one is from left to right.
+
+75
+00:07:29,400 --> 00:07:32,400
+ So that is the left branch first.
+
+76
+00:07:32,400 --> 00:07:36,400
+ So depth first, we get the value from here.
+
+77
+00:07:36,400 --> 00:07:39,400
+ So this value can be used to update here.
+
+78
+00:07:39,400 --> 00:07:43,400
+ So beta value will be updated by what?
+
+79
+00:07:43,400 --> 00:07:44,400
+ 3.
+
+80
+00:07:44,400 --> 00:07:45,400
+ Yes.
+
+81
+00:07:45,400 --> 00:07:47,400
+ So we go, we do together.
+
+82
+00:07:47,400 --> 00:07:54,400
+ Okay, so this value will be updated by this terminal value here.
+
+83
+00:07:54,400 --> 00:07:55,400
+ Okay, so this is 3.
+
+84
+00:07:55,400 --> 00:07:56,400
+ So this is updated.
+
+85
+00:07:56,400 --> 00:07:58,400
+ And then we can compare.
+
+86
+00:07:58,400 --> 00:08:00,400
+ This is the beta value.
+
+87
+00:08:00,400 --> 00:08:02,400
+ So we should compare with alpha value.
+
+88
+00:08:02,400 --> 00:08:06,400
+ So are we too small?
+
+89
+00:08:06,400 --> 00:08:07,400
+ No.
+
+90
+00:08:07,400 --> 00:08:10,400
+ Yeah, if we're too small, this should cut, right?
+
+91
+00:08:10,400 --> 00:08:14,400
+ But it's not too small, meaning this branch should be checked.
+
+92
+00:08:14,400 --> 00:08:16,400
+ Yeah, so we need to check here.
+
+93
+00:08:16,400 --> 00:08:18,400
+ So here is 5.
+
+94
+00:08:18,400 --> 00:08:22,400
+ Okay, so 5 should be used to update the beta value.
+
+95
+00:08:22,400 --> 00:08:23,400
+ So this is the beta value.
+
+96
+00:08:23,400 --> 00:08:27,400
+ This is the minimizer, 3 and 5.
+
+97
+00:08:27,400 --> 00:08:28,400
+ Do we need to update?
+
+98
+00:08:28,400 --> 00:08:29,400
+ We don't.
+
+99
+00:08:29,400 --> 00:08:32,400
+ Okay, so are we done with this branch?
+
+100
+00:08:32,400 --> 00:08:33,400
+ Yes.
+
+101
+00:08:33,400 --> 00:08:36,400
+ Yes, so meaning what?
+
+102
+00:08:36,400 --> 00:08:41,400
+ This value can be used to update the alpha value now.
+
+103
+00:08:41,400 --> 00:08:44,400
+ Yes, so we get the alpha value.
+
+104
+00:08:44,400 --> 00:08:47,400
+ Okay, then another branch.
+
+105
+00:08:47,400 --> 00:08:50,400
+ So we are done with these two branches already.
+
+106
+00:08:50,400 --> 00:08:54,400
+ Then we come to here, the leftmost, so we get the zero value.
+
+107
+00:08:54,400 --> 00:08:59,400
+ So the zero value will be used to update the beta value.
+
+108
+00:08:59,400 --> 00:09:02,400
+ This is i, this is not i.
+
+109
+00:09:02,400 --> 00:09:07,400
+ Yeah, and then this beta should compare with school.
+
+110
+00:09:07,400 --> 00:09:12,400
+ Alpha value here, is that all?
+
+111
+00:09:12,400 --> 00:09:15,400
+ Any more alpha value?
+
+112
+00:09:15,400 --> 00:09:18,400
+ Yes, this one.
+
+113
+00:09:18,400 --> 00:09:20,400
+ Okay, we also need to compare with this one.
+
+114
+00:09:20,400 --> 00:09:23,400
+ This one already available, this is 3.
+
+115
+00:09:23,400 --> 00:09:24,400
+ So this one is minus.
+
+116
+00:09:24,400 --> 00:09:31,400
+ So we need to see whether the current beta value is at 2 to what?
+
+117
+00:09:31,400 --> 00:09:32,400
+ The beta value.
+
+118
+00:09:32,400 --> 00:09:35,400
+ Whether the beta value is too small.
+
+119
+00:09:35,400 --> 00:09:36,400
+ Right?
+
+120
+00:09:36,400 --> 00:09:41,400
+ It is too small meaning what?
+
+121
+00:09:41,400 --> 00:09:45,400
+ Meaning you don't have a chance to talk to your branch.
+
+122
+00:09:45,400 --> 00:09:48,400
+ Right, so you don't need to do further.
+
+123
+00:09:48,400 --> 00:09:52,400
+ So are we copying?
+
+124
+00:09:52,400 --> 00:09:55,400
+ Based on this, are we too small?
+
+125
+00:09:55,400 --> 00:09:56,400
+ No.
+
+126
+00:09:56,400 --> 00:09:58,400
+ But based on this?
+
+127
+00:09:58,400 --> 00:09:59,400
+ Yes.
+
+128
+00:09:59,400 --> 00:10:01,400
+ So this one?
+
+129
+00:10:01,400 --> 00:10:02,400
+ Cut.
+
+130
+00:10:02,400 --> 00:10:04,400
+ No need to do.
+
+131
+00:10:04,400 --> 00:10:06,400
+ No need to evaluate this branch.
+
+132
+00:10:06,400 --> 00:10:09,400
+ It doesn't don't care what is the value there.
+
+133
+00:10:09,400 --> 00:10:11,400
+ Okay, great.
+
+134
+00:10:11,400 --> 00:10:14,400
+ So remember this is a cut here.
+
+135
+00:10:14,400 --> 00:10:17,400
+ Although compared with this alpha, it's okay,
+
+136
+00:10:17,400 --> 00:10:20,400
+ but this alpha, you are too small already.
+
+137
+00:10:20,400 --> 00:10:22,400
+ Okay, so you should cut.
+
+138
+00:10:22,400 --> 00:10:24,400
+ And then this branch is done.
+
+139
+00:10:24,400 --> 00:10:28,400
+ So this should be used to update this value.
+
+140
+00:10:28,400 --> 00:10:34,400
+ So now we have the first alpha value for F.
+
+141
+00:10:34,400 --> 00:10:38,400
+ Okay, then alpha value should compare with beta value.
+
+142
+00:10:38,400 --> 00:10:40,400
+ So this is a beta value.
+
+143
+00:10:40,400 --> 00:10:46,400
+ Too small or too big?
+
+144
+00:10:46,400 --> 00:10:48,400
+ Are we too big?
+
+145
+00:10:48,400 --> 00:10:53,400
+ Because beta you should compare with to see whether you are too big.
+
+146
+00:10:53,400 --> 00:10:54,400
+ Right?
+
+147
+00:10:54,400 --> 00:10:56,400
+ Yeah, so not too big.
+
+148
+00:10:56,400 --> 00:10:58,400
+ This is still, this is possibly very big.
+
+149
+00:10:58,400 --> 00:11:00,400
+ So you are not too big.
+
+150
+00:11:00,400 --> 00:11:04,400
+ That means this branch should still be evaluated.
+
+151
+00:11:04,400 --> 00:11:05,400
+ Yeah?
+
+152
+00:11:05,400 --> 00:11:07,400
+ No more other beta, right?
+
+153
+00:11:07,400 --> 00:11:09,400
+ No more other, this is alpha value.
+
+154
+00:11:09,400 --> 00:11:11,400
+ So no more other beta.
+
+155
+00:11:11,400 --> 00:11:17,400
+ Not to the other branch, your own parents, grandparents.
+
+156
+00:11:17,400 --> 00:11:20,400
+ So this site, we should continue.
+
+157
+00:11:20,400 --> 00:11:22,400
+ So we get five.
+
+158
+00:11:22,400 --> 00:11:25,400
+ What do we need to do next?
+
+159
+00:11:25,400 --> 00:11:28,400
+ This is a maximizer update.
+
+160
+00:11:28,400 --> 00:11:33,400
+ Yes, so this become five.
+
+161
+00:11:33,400 --> 00:11:34,400
+ Yes.
+
+162
+00:11:34,400 --> 00:11:37,400
+ Okay, so are we done with this branch?
+
+163
+00:11:37,400 --> 00:11:40,400
+ So we should propagate the value up, right?
+
+164
+00:11:40,400 --> 00:11:42,400
+ So this one should be updated.
+
+165
+00:11:42,400 --> 00:11:46,400
+ Get the value of five.
+
+166
+00:11:46,400 --> 00:11:49,400
+ Okay, now you have the value here.
+
+167
+00:11:49,400 --> 00:11:50,400
+ So this is a beta value.
+
+168
+00:11:50,400 --> 00:11:53,400
+ This is an alpha value we should compare, right?
+
+169
+00:11:53,400 --> 00:11:55,400
+ So are we too small?
+
+170
+00:11:55,400 --> 00:11:56,400
+ No.
+
+171
+00:11:56,400 --> 00:11:59,400
+ No, meaning we need to check here.
+
+172
+00:11:59,400 --> 00:12:03,400
+ Okay, if we are too small, no need to compare anymore.
+
+173
+00:12:03,400 --> 00:12:05,400
+ Okay, so we are not too small.
+
+174
+00:12:05,400 --> 00:12:07,400
+ That means we should compare this branch.
+
+175
+00:12:07,400 --> 00:12:10,400
+ So we go here and come here seven.
+
+176
+00:12:10,400 --> 00:12:13,400
+ So this is a seven.
+
+177
+00:12:13,400 --> 00:12:16,400
+ So first value seven.
+
+178
+00:12:16,400 --> 00:12:20,400
+ So then compare this alpha value with beta.
+
+179
+00:12:20,400 --> 00:12:22,400
+ Okay, don't compare this with this.
+
+180
+00:12:22,400 --> 00:12:27,400
+ You compare only alpha with beta or beta with alpha.
+
+181
+00:12:27,400 --> 00:12:30,400
+ So it's alpha here compared with this beta.
+
+182
+00:12:30,400 --> 00:12:33,400
+ So are we too big?
+
+183
+00:12:33,400 --> 00:12:35,400
+ We are too big.
+
+184
+00:12:35,400 --> 00:12:37,400
+ So what do we need to do?
+
+185
+00:12:37,400 --> 00:12:39,400
+ Do we need to do here?
+
+186
+00:12:39,400 --> 00:12:40,400
+ Cut.
+
+187
+00:12:40,400 --> 00:12:42,400
+ Cut, yes.
+
+188
+00:12:42,400 --> 00:12:47,400
+ Okay, so this seven and should use to update, right?
+
+189
+00:12:47,400 --> 00:12:49,400
+ Yeah, so this should propagate back.
+
+190
+00:12:49,400 --> 00:12:51,400
+ But are we updating?
+
+191
+00:12:51,400 --> 00:12:53,400
+ No, because it's a beta value.
+
+192
+00:12:53,400 --> 00:12:55,400
+ So yeah, five and seven.
+
+193
+00:12:55,400 --> 00:12:57,400
+ So remain as five.
+
+194
+00:12:57,400 --> 00:13:02,400
+ And then this one, are we, so you compare, still five,
+
+195
+00:13:02,400 --> 00:13:05,400
+ and compare with this alpha value.
+
+196
+00:13:05,400 --> 00:13:08,400
+ So are we too big?
+
+197
+00:13:08,400 --> 00:13:11,400
+ So are we too small?
+
+198
+00:13:11,400 --> 00:13:13,400
+ Because you are the beta.
+
+199
+00:13:13,400 --> 00:13:15,400
+ You compare with alpha.
+
+200
+00:13:15,400 --> 00:13:17,400
+ So if you are too small, alpha will not come to you.
+
+201
+00:13:17,400 --> 00:13:20,400
+ But we are not too small, right?
+
+202
+00:13:20,400 --> 00:13:21,400
+ So we are actually bigger.
+
+203
+00:13:21,400 --> 00:13:23,400
+ We have a chance to update.
+
+204
+00:13:23,400 --> 00:13:25,400
+ So what does that mean?
+
+205
+00:13:25,400 --> 00:13:27,400
+ We should continue this branch, right?
+
+206
+00:13:27,400 --> 00:13:29,400
+ Yeah, continue this branch.
+
+207
+00:13:29,400 --> 00:13:32,400
+ And now this value is four, right?
+
+208
+00:13:32,400 --> 00:13:35,400
+ Because beta, yeah, so four.
+
+209
+00:13:35,400 --> 00:13:41,400
+ And then alpha value, we are done with this whole branch now.
+
+210
+00:13:41,400 --> 00:13:46,400
+ Update, become four.
+
+211
+00:13:46,400 --> 00:13:49,400
+ Yes.
+
+212
+00:13:49,400 --> 00:13:51,400
+ We are done.
+
+213
+00:13:51,400 --> 00:13:53,400
+ Okay.
+
+214
+00:13:53,400 --> 00:13:56,400
+ So we cut off these two branches.
+
+215
+00:13:56,400 --> 00:14:01,400
+ And what is the end results tell us here?
+
+216
+00:14:01,400 --> 00:14:08,400
+ That means this maximizer should move to which branch?
+
+217
+00:14:08,400 --> 00:14:10,400
+ This one.
+
+218
+00:14:10,400 --> 00:14:12,400
+ Right?
+
+219
+00:14:12,400 --> 00:14:19,400
+ So if we go into the value, they should go this direction.
+
+220
+00:14:19,400 --> 00:14:22,400
+ Yeah, so that's all.
+
+221
+00:14:22,400 --> 00:14:24,400
+ We can double check.
+
+222
+00:14:24,400 --> 00:14:28,400
+ I mean, for the toy problem, yes, we can double check to make sure this is correct.
+
+223
+00:14:28,400 --> 00:14:34,400
+ You use full minimax using all the values.
+
+224
+00:14:34,400 --> 00:14:38,400
+ Although internal nodes, the utility value may not be identical,
+
+225
+00:14:38,400 --> 00:14:40,400
+ but the final results should be the same.
+
+226
+00:14:40,400 --> 00:14:44,400
+ The right branch to go to choose.
+
+227
+00:14:44,400 --> 00:14:46,400
+ Okay.
+
+228
+00:14:46,400 --> 00:14:47,400
+ Anything else?
+
+229
+00:14:47,400 --> 00:14:52,400
+ But the good thing is some branch you can cut off because it will not back your final selection
+
+230
+00:14:52,400 --> 00:14:54,400
+ of the branch selection.
+
+231
+00:14:54,400 --> 00:14:56,400
+ Doing the alpha beta.
+
+232
+00:14:56,400 --> 00:15:00,400
+ But for this toy problem, it doesn't make a big significant impact, it looks like.
+
+233
+00:15:00,400 --> 00:15:05,400
+ But if it's a very large game tree, it will create a difference.
+
+234
+00:15:05,400 --> 00:15:07,400
+ Okay.
+
+235
+00:15:07,400 --> 00:15:09,400
+ We can do it.
+
+236
+00:15:09,400 --> 00:15:12,400
+ Okay, we need to speed up a bit.
+
+237
+00:15:12,400 --> 00:15:15,400
+ And now, right to left.
+
+238
+00:15:15,400 --> 00:15:23,400
+ Don't worry, the solution will be available tomorrow after 12.30, 12.20.
+
+239
+00:15:23,400 --> 00:15:29,400
+ And together with exercise, additional exercise, the extra homework tool.
+
+240
+00:15:29,400 --> 00:15:31,400
+ I already make it available, right?
+
+241
+00:15:31,400 --> 00:15:32,400
+ Yeah, yeah.
+
+242
+00:15:32,400 --> 00:15:34,400
+ But the solution is available?
+
+243
+00:15:34,400 --> 00:15:35,400
+ Not yet, right?
+
+244
+00:15:35,400 --> 00:15:36,400
+ Yeah, so tomorrow.
+
+245
+00:15:36,400 --> 00:15:37,400
+ Okay, tomorrow.
+
+246
+00:15:37,400 --> 00:15:40,400
+ So you have time to work on your own and then check.
+
+247
+00:15:40,400 --> 00:15:41,400
+ Okay, quick one.
+
+248
+00:15:41,400 --> 00:15:43,400
+ The right to left.
+
+249
+00:15:43,400 --> 00:15:46,400
+ Meaning from this side, right?
+
+250
+00:15:46,400 --> 00:15:47,400
+ So four.
+
+251
+00:15:47,400 --> 00:15:50,400
+ So this is initial one.
+
+252
+00:15:50,400 --> 00:15:52,400
+ So yeah, actually four.
+
+253
+00:15:52,400 --> 00:15:55,400
+ So four will be useful update this one.
+
+254
+00:15:55,400 --> 00:15:56,400
+ And then compare.
+
+255
+00:15:56,400 --> 00:15:58,400
+ Okay, so we still continue.
+
+256
+00:15:58,400 --> 00:15:59,400
+ The eight.
+
+257
+00:15:59,400 --> 00:16:02,400
+ So eight will be useful update.
+
+258
+00:16:02,400 --> 00:16:05,400
+ This might be negative, it should be here.
+
+259
+00:16:05,400 --> 00:16:08,400
+ So here should have one.
+
+260
+00:16:08,400 --> 00:16:12,400
+ And then update it by eight.
+
+261
+00:16:12,400 --> 00:16:15,400
+ And then compare these two.
+
+262
+00:16:15,400 --> 00:16:18,400
+ So are we too big?
+
+263
+00:16:18,400 --> 00:16:20,400
+ This is four.
+
+264
+00:16:20,400 --> 00:16:22,400
+ And this is eight.
+
+265
+00:16:22,400 --> 00:16:23,400
+ Are we too big?
+
+266
+00:16:23,400 --> 00:16:24,400
+ Yes.
+
+267
+00:16:24,400 --> 00:16:25,400
+ Yes.
+
+268
+00:16:25,400 --> 00:16:26,400
+ Boom.
+
+269
+00:16:26,400 --> 00:16:28,400
+ Huh?
+
+270
+00:16:28,400 --> 00:16:29,400
+ Yeah.
+
+271
+00:16:29,400 --> 00:16:33,400
+ Okay, so we are done with this branch.
+
+272
+00:16:33,400 --> 00:16:36,400
+ And then this one.
+
+273
+00:16:36,400 --> 00:16:37,400
+ Five.
+
+274
+00:16:37,400 --> 00:16:42,400
+ So five compare with this.
+
+275
+00:16:42,400 --> 00:16:44,400
+ Too big.
+
+276
+00:16:44,400 --> 00:16:47,400
+ Can't pull.
+
+277
+00:16:47,400 --> 00:16:49,400
+ See, this is five, right?
+
+278
+00:16:49,400 --> 00:16:50,400
+ Five.
+
+279
+00:16:50,400 --> 00:16:52,400
+ And then this is alpha.
+
+280
+00:16:52,400 --> 00:16:54,400
+ This is beta.
+
+281
+00:16:55,400 --> 00:17:00,400
+ So should we go here?
+
+282
+00:17:00,400 --> 00:17:01,400
+ No.
+
+283
+00:17:01,400 --> 00:17:04,400
+ Cut.
+
+284
+00:17:04,400 --> 00:17:06,400
+ So are we done with this?
+
+285
+00:17:06,400 --> 00:17:09,400
+ So this we have value for.
+
+286
+00:17:09,400 --> 00:17:10,400
+ And then we come here.
+
+287
+00:17:10,400 --> 00:17:12,400
+ Five.
+
+288
+00:17:12,400 --> 00:17:15,400
+ This will be five.
+
+289
+00:17:15,400 --> 00:17:18,400
+ Should we do here?
+
+290
+00:17:18,400 --> 00:17:21,400
+ We compare this with this.
+
+291
+00:17:21,400 --> 00:17:23,400
+ Should we continue?
+
+292
+00:17:23,400 --> 00:17:24,400
+ Yes.
+
+293
+00:17:24,400 --> 00:17:25,400
+ Right?
+
+294
+00:17:25,400 --> 00:17:27,400
+ Because yeah, we are, you are the alpha.
+
+295
+00:17:27,400 --> 00:17:29,400
+ I'm the beta.
+
+296
+00:17:29,400 --> 00:17:30,400
+ Okay.
+
+297
+00:17:30,400 --> 00:17:31,400
+ So I'm bigger than you at the moment.
+
+298
+00:17:31,400 --> 00:17:32,400
+ So you should continue.
+
+299
+00:17:32,400 --> 00:17:33,400
+ Yeah, so continue.
+
+300
+00:17:33,400 --> 00:17:34,400
+ So this is three.
+
+301
+00:17:34,400 --> 00:17:38,400
+ So do we need to update?
+
+302
+00:17:38,400 --> 00:17:39,400
+ Yes or no?
+
+303
+00:17:39,400 --> 00:17:40,400
+ Yes.
+
+304
+00:17:40,400 --> 00:17:41,400
+ Yeah, this is beta.
+
+305
+00:17:41,400 --> 00:17:42,400
+ Yes.
+
+306
+00:17:42,400 --> 00:17:44,400
+ So three.
+
+307
+00:17:44,400 --> 00:17:47,400
+ And then update.
+
+308
+00:17:47,400 --> 00:17:48,400
+ No.
+
+309
+00:17:48,400 --> 00:17:49,400
+ Okay.
+
+310
+00:17:49,400 --> 00:17:50,400
+ And end results.
+
+311
+00:17:50,400 --> 00:17:51,400
+ Go this way.
+
+312
+00:17:51,400 --> 00:17:52,400
+ Correct?
+
+313
+00:17:52,400 --> 00:17:53,400
+ Same.
+
+314
+00:17:53,400 --> 00:17:56,400
+ Yeah, but it's just, if you do this way, it looks like we pull it away more.
+
+315
+00:17:56,400 --> 00:17:57,400
+ Right?
+
+316
+00:17:57,400 --> 00:17:58,400
+ Compare from the left to right.
+
+317
+00:17:58,400 --> 00:17:59,400
+ Same, same thing.
+
+318
+00:17:59,400 --> 00:18:02,400
+ But the end results is the same.
+
+319
+00:18:02,400 --> 00:18:03,400
+ Okay.
+
+320
+00:18:05,400 --> 00:18:07,400
+ Any quick question?
+
+321
+00:18:07,400 --> 00:18:08,400
+ Done?
+
+322
+00:18:08,400 --> 00:18:09,400
+ Okay.
+
+323
+00:18:10,400 --> 00:18:13,400
+ And also this one.
+
+324
+00:18:13,400 --> 00:18:16,400
+ Left to right first and then right to left.
+
+325
+00:18:16,400 --> 00:18:18,400
+ You also see difference.
+
+326
+00:18:18,400 --> 00:18:19,400
+ Right?
+
+327
+00:18:19,400 --> 00:18:20,400
+ So we have one more time.
+
+328
+00:18:20,400 --> 00:18:23,400
+ Should we go left to right or right to left?
+
+329
+00:18:23,400 --> 00:18:25,400
+ Left to right.
+
+330
+00:18:25,400 --> 00:18:27,400
+ So press six.
+
+331
+00:18:27,400 --> 00:18:28,400
+ Okay.
+
+332
+00:18:28,400 --> 00:18:30,400
+ So we have six.
+
+333
+00:18:30,400 --> 00:18:32,400
+ And then nothing yet.
+
+334
+00:18:32,400 --> 00:18:34,400
+ So no need to just continue on.
+
+335
+00:18:34,400 --> 00:18:35,400
+ So this is two.
+
+336
+00:18:35,400 --> 00:18:37,400
+ So two and then still six.
+
+337
+00:18:37,400 --> 00:18:38,400
+ Right?
+
+338
+00:18:38,400 --> 00:18:39,400
+ Because I'm maximizer.
+
+339
+00:18:39,400 --> 00:18:40,400
+ So six will be useful.
+
+340
+00:18:40,400 --> 00:18:41,400
+ Update here.
+
+341
+00:18:41,400 --> 00:18:42,400
+ Okay.
+
+342
+00:18:42,400 --> 00:18:43,400
+ So we have six.
+
+343
+00:18:43,400 --> 00:18:44,400
+ Okay.
+
+344
+00:18:44,400 --> 00:18:45,400
+ So we have six.
+
+345
+00:18:45,400 --> 00:18:46,400
+ Okay.
+
+346
+00:18:46,400 --> 00:18:47,400
+ So we have six.
+
+347
+00:18:47,400 --> 00:18:48,400
+ So six will be useful.
+
+348
+00:18:48,400 --> 00:18:49,400
+ Update here.
+
+349
+00:18:49,400 --> 00:18:51,400
+ And then should we continue this?
+
+350
+00:18:51,400 --> 00:18:52,400
+ Most likely yes.
+
+351
+00:18:52,400 --> 00:18:53,400
+ Right?
+
+352
+00:18:53,400 --> 00:18:56,400
+ Because those are the initial haven't got anything yet.
+
+353
+00:18:56,400 --> 00:18:59,400
+ So again six, three here.
+
+354
+00:19:05,400 --> 00:19:06,400
+ Okay.
+
+355
+00:19:07,400 --> 00:19:09,400
+ Should we continue?
+
+356
+00:19:12,400 --> 00:19:13,400
+ This is a maximizer.
+
+357
+00:19:13,400 --> 00:19:14,400
+ Minimizer.
+
+358
+00:19:14,400 --> 00:19:15,400
+ Yeah.
+
+359
+00:19:15,400 --> 00:19:16,400
+ So we should continue.
+
+360
+00:19:16,400 --> 00:19:17,400
+ So there are three.
+
+361
+00:19:17,400 --> 00:19:18,400
+ So we have three here.
+
+362
+00:19:18,400 --> 00:19:19,400
+ Okay.
+
+363
+00:19:19,400 --> 00:19:20,400
+ So we have three here.
+
+364
+00:19:20,400 --> 00:19:21,400
+ And then three will be updated.
+
+365
+00:19:21,400 --> 00:19:22,400
+ So here is three.
+
+366
+00:19:22,400 --> 00:19:24,400
+ And then three will be used to update this one.
+
+367
+00:19:24,400 --> 00:19:25,400
+ So we come three.
+
+368
+00:19:25,400 --> 00:19:27,400
+ And then come to this side.
+
+369
+00:19:27,400 --> 00:19:30,400
+ And then you have the three here.
+
+370
+00:19:30,400 --> 00:19:32,400
+ And this is the same.
+
+371
+00:19:32,400 --> 00:19:33,400
+ Same up to up.
+
+372
+00:19:33,400 --> 00:19:36,400
+ I mean it's either we cut or don't cut.
+
+373
+00:19:36,400 --> 00:19:37,400
+ Okay.
+
+374
+00:19:37,400 --> 00:19:42,400
+ Although in my guide here given is probably you can cut.
+
+375
+00:19:42,400 --> 00:19:45,400
+ But no, we cannot compare this three with this three.
+
+376
+00:19:45,400 --> 00:19:46,400
+ Yeah.
+
+377
+00:19:46,400 --> 00:19:49,400
+ We should compare this three with this.
+
+378
+00:19:49,400 --> 00:19:50,400
+ Okay.
+
+379
+00:19:50,400 --> 00:19:53,400
+ So we should still continue with this nine.
+
+380
+00:19:53,400 --> 00:19:59,400
+ And then nine will be used to update this value.
+
+381
+00:19:59,400 --> 00:20:02,400
+ And then this is our first.
+
+382
+00:20:02,400 --> 00:20:03,400
+ Should we continue?
+
+383
+00:20:03,400 --> 00:20:04,400
+ Yeah.
+
+384
+00:20:04,400 --> 00:20:06,400
+ So we should still continue.
+
+385
+00:20:06,400 --> 00:20:07,400
+ So four.
+
+386
+00:20:07,400 --> 00:20:08,400
+ And then four.
+
+387
+00:20:08,400 --> 00:20:10,400
+ And to compare with this.
+
+388
+00:20:10,400 --> 00:20:11,400
+ No, compare with this.
+
+389
+00:20:11,400 --> 00:20:12,400
+ Right.
+
+390
+00:20:12,400 --> 00:20:13,400
+ Compare with this.
+
+391
+00:20:13,400 --> 00:20:14,400
+ So we are smaller.
+
+392
+00:20:14,400 --> 00:20:16,400
+ So we should still continue.
+
+393
+00:20:16,400 --> 00:20:17,400
+ So seven.
+
+394
+00:20:17,400 --> 00:20:18,400
+ So seven update.
+
+395
+00:20:18,400 --> 00:20:21,400
+ And then this is seven.
+
+396
+00:20:21,400 --> 00:20:22,400
+ Use a minimizer.
+
+397
+00:20:22,400 --> 00:20:26,400
+ So that's why we come seven.
+
+398
+00:20:26,400 --> 00:20:27,400
+ And maximizer.
+
+399
+00:20:27,400 --> 00:20:30,400
+ That's why this becomes seven.
+
+400
+00:20:30,400 --> 00:20:32,400
+ And we finish this branch.
+
+401
+00:20:32,400 --> 00:20:34,400
+ That's why we have seven here.
+
+402
+00:20:34,400 --> 00:20:36,400
+ And then come to this end.
+
+403
+00:20:36,400 --> 00:20:39,400
+ So we have these two.
+
+404
+00:20:39,400 --> 00:20:43,400
+ And then this maximizer should compare with the minimizer.
+
+405
+00:20:43,400 --> 00:20:44,400
+ Right.
+
+406
+00:20:44,400 --> 00:20:45,400
+ So yeah, we are still small.
+
+407
+00:20:45,400 --> 00:20:49,400
+ So that's why we should continue this branch and still two.
+
+408
+00:20:49,400 --> 00:20:53,400
+ Still two can use to update this one.
+
+409
+00:20:53,400 --> 00:20:54,400
+ And these two.
+
+410
+00:20:54,400 --> 00:20:56,400
+ And then we compare with this one.
+
+411
+00:20:56,400 --> 00:20:57,400
+ Right.
+
+412
+00:20:57,400 --> 00:20:58,400
+ Maximizer.
+
+413
+00:20:58,400 --> 00:21:02,400
+ So here zero.
+
+414
+00:21:02,400 --> 00:21:05,400
+ And then with the minimizer, we still small.
+
+415
+00:21:05,400 --> 00:21:06,400
+ So we should continue.
+
+416
+00:21:06,400 --> 00:21:07,400
+ So cannot cut.
+
+417
+00:21:07,400 --> 00:21:08,400
+ Right.
+
+418
+00:21:08,400 --> 00:21:09,400
+ So we have four.
+
+419
+00:21:09,400 --> 00:21:12,400
+ And then four should be used to update.
+
+420
+00:21:12,400 --> 00:21:13,400
+ Four.
+
+421
+00:21:13,400 --> 00:21:16,400
+ And then minimizer, no update.
+
+422
+00:21:16,400 --> 00:21:18,400
+ So now done with the whole branch.
+
+423
+00:21:18,400 --> 00:21:22,400
+ There are update here.
+
+424
+00:21:22,400 --> 00:21:23,400
+ Yeah.
+
+425
+00:21:23,400 --> 00:21:24,400
+ Okay.
+
+426
+00:21:24,400 --> 00:21:25,400
+ So yeah.
+
+427
+00:21:25,400 --> 00:21:26,400
+ So still small.
+
+428
+00:21:26,400 --> 00:21:28,400
+ So we should continue this branch.
+
+429
+00:21:28,400 --> 00:21:32,400
+ Do you get any prune at all for this one?
+
+430
+00:21:32,400 --> 00:21:34,400
+ You get prune?
+
+431
+00:21:34,400 --> 00:21:37,400
+ From left to right?
+
+432
+00:21:37,400 --> 00:21:42,400
+ Left to right, do you have any prune?
+
+433
+00:21:42,400 --> 00:21:44,400
+ So far no prune yet, right?
+
+434
+00:21:44,400 --> 00:21:45,400
+ Have you finished?
+
+435
+00:21:45,400 --> 00:21:48,400
+ Any of you finished already?
+
+436
+00:21:48,400 --> 00:21:53,400
+ Did you prune, managed to prune anything?
+
+437
+00:21:53,400 --> 00:21:55,400
+ Okay, quick, quick.
+
+438
+00:21:55,400 --> 00:21:56,400
+ Let's finish.
+
+439
+00:21:56,400 --> 00:21:57,400
+ So two.
+
+440
+00:21:57,400 --> 00:21:58,400
+ And then we have eight.
+
+441
+00:21:58,400 --> 00:22:00,400
+ We have six here.
+
+442
+00:22:00,400 --> 00:22:03,400
+ So this is alpha.
+
+443
+00:22:03,400 --> 00:22:04,400
+ This is beta.
+
+444
+00:22:04,400 --> 00:22:07,400
+ So no prune, continue here.
+
+445
+00:22:07,400 --> 00:22:09,400
+ Maximizer, so eight.
+
+446
+00:22:09,400 --> 00:22:10,400
+ Right.
+
+447
+00:22:10,400 --> 00:22:11,400
+ So we have eight.
+
+448
+00:22:11,400 --> 00:22:14,400
+ Then we have eight here.
+
+449
+00:22:14,400 --> 00:22:15,400
+ And this is eight.
+
+450
+00:22:15,400 --> 00:22:18,400
+ So this is the maximum alpha is two.
+
+451
+00:22:18,400 --> 00:22:20,400
+ So we should still continue this branch.
+
+452
+00:22:20,400 --> 00:22:21,400
+ Right.
+
+453
+00:22:21,400 --> 00:22:23,400
+ So it's four.
+
+454
+00:22:23,400 --> 00:22:27,400
+ And this is a minimizer.
+
+455
+00:22:27,400 --> 00:22:28,400
+ Another minimizer here.
+
+456
+00:22:28,400 --> 00:22:31,400
+ So we still smaller than any of the minimizers.
+
+457
+00:22:31,400 --> 00:22:33,400
+ So we still continue here.
+
+458
+00:22:33,400 --> 00:22:34,400
+ Six.
+
+459
+00:22:34,400 --> 00:22:36,400
+ So update.
+
+460
+00:22:36,400 --> 00:22:40,400
+ And then minimizer six.
+
+461
+00:22:40,400 --> 00:22:45,400
+ And maximizer six.
+
+462
+00:22:45,400 --> 00:22:50,400
+ Minimizer six.
+
+463
+00:22:50,400 --> 00:22:51,400
+ Right.
+
+464
+00:22:51,400 --> 00:22:54,400
+ No prune.
+
+465
+00:22:54,400 --> 00:22:55,400
+ Agree?
+
+466
+00:22:55,400 --> 00:22:56,400
+ Okay.
+
+467
+00:22:56,400 --> 00:22:59,400
+ Left to right, no prune.
+
+468
+00:22:59,400 --> 00:23:03,400
+ Right to left.
+
+469
+00:23:03,400 --> 00:23:04,400
+ Right to left.
+
+470
+00:23:04,400 --> 00:23:07,400
+ So here, six.
+
+471
+00:23:07,400 --> 00:23:10,400
+ Then four.
+
+472
+00:23:10,400 --> 00:23:12,400
+ Maximizer, so nothing.
+
+473
+00:23:12,400 --> 00:23:15,400
+ Go up to here, six.
+
+474
+00:23:15,400 --> 00:23:22,400
+ And then this branch is eight.
+
+475
+00:23:22,400 --> 00:23:23,400
+ Okay.
+
+476
+00:23:23,400 --> 00:23:24,400
+ We are eight.
+
+477
+00:23:24,400 --> 00:23:27,400
+ And beta is six.
+
+478
+00:23:27,400 --> 00:23:28,400
+ Can prune?
+
+479
+00:23:28,400 --> 00:23:29,400
+ Yes.
+
+480
+00:23:29,400 --> 00:23:30,400
+ Yes.
+
+481
+00:23:30,400 --> 00:23:31,400
+ We can prune.
+
+482
+00:23:31,400 --> 00:23:33,400
+ We need to check this.
+
+483
+00:23:33,400 --> 00:23:34,400
+ Yes.
+
+484
+00:23:34,400 --> 00:23:36,400
+ We are done with this branch.
+
+485
+00:23:36,400 --> 00:23:38,400
+ So this six from here.
+
+486
+00:23:38,400 --> 00:23:44,400
+ Then come to this branch, which is four.
+
+487
+00:23:44,400 --> 00:23:48,400
+ And then this four.
+
+488
+00:23:48,400 --> 00:23:51,400
+ Can we do anything?
+
+489
+00:23:51,400 --> 00:23:53,400
+ No, we compare with this.
+
+490
+00:23:53,400 --> 00:23:54,400
+ Right.
+
+491
+00:23:54,400 --> 00:23:55,400
+ Compare with this and this.
+
+492
+00:23:55,400 --> 00:23:57,400
+ So we are still small.
+
+493
+00:23:57,400 --> 00:24:00,400
+ So we should still continue.
+
+494
+00:24:00,400 --> 00:24:01,400
+ So zero.
+
+495
+00:24:01,400 --> 00:24:03,400
+ This maximizer, so no change.
+
+496
+00:24:03,400 --> 00:24:06,400
+ And then finally we are updating this branch.
+
+497
+00:24:06,400 --> 00:24:08,400
+ So it's four.
+
+498
+00:24:08,400 --> 00:24:11,400
+ And this is six.
+
+499
+00:24:11,400 --> 00:24:12,400
+ Okay.
+
+500
+00:24:12,400 --> 00:24:13,400
+ This is four.
+
+501
+00:24:13,400 --> 00:24:15,400
+ Can we do anything?
+
+502
+00:24:15,400 --> 00:24:16,400
+ Cut.
+
+503
+00:24:16,400 --> 00:24:17,400
+ Cut.
+
+504
+00:24:17,400 --> 00:24:18,400
+ Yes.
+
+505
+00:24:18,400 --> 00:24:19,400
+ Okay.
+
+506
+00:24:19,400 --> 00:24:21,400
+ So you see?
+
+507
+00:24:21,400 --> 00:24:24,400
+ So this six now done.
+
+508
+00:24:24,400 --> 00:24:25,400
+ With the whole branch.
+
+509
+00:24:25,400 --> 00:24:28,400
+ So this six is used update.
+
+510
+00:24:28,400 --> 00:24:30,400
+ And come to this branch.
+
+511
+00:24:30,400 --> 00:24:31,400
+ Four.
+
+512
+00:24:31,400 --> 00:24:34,400
+ This maximizer.
+
+513
+00:24:34,400 --> 00:24:36,400
+ Minimizer is six here.
+
+514
+00:24:36,400 --> 00:24:40,400
+ Can do anything?
+
+515
+00:24:40,400 --> 00:24:41,400
+ Cut.
+
+516
+00:24:41,400 --> 00:24:42,400
+ Cut.
+
+517
+00:24:42,400 --> 00:24:44,400
+ Yes or no?
+
+518
+00:24:44,400 --> 00:24:45,400
+ Yes.
+
+519
+00:24:45,400 --> 00:24:46,400
+ Yes.
+
+520
+00:24:46,400 --> 00:24:48,400
+ We are the maximizer.
+
+521
+00:24:48,400 --> 00:24:50,400
+ You are the maximizer.
+
+522
+00:24:50,400 --> 00:24:51,400
+ Yes.
+
+523
+00:24:51,400 --> 00:24:52,400
+ Yes.
+
+524
+00:24:52,400 --> 00:24:54,400
+ We are the maximizer.
+
+525
+00:24:54,400 --> 00:24:56,400
+ You are minimizer on top is six.
+
+526
+00:24:56,400 --> 00:24:58,400
+ So we are too big already.
+
+527
+00:24:58,400 --> 00:24:59,400
+ Right.
+
+528
+00:24:59,400 --> 00:25:00,400
+ So no need to check.
+
+529
+00:25:00,400 --> 00:25:02,400
+ This branch no need to check.
+
+530
+00:25:02,400 --> 00:25:03,400
+ Okay.
+
+531
+00:25:03,400 --> 00:25:07,400
+ So if this done, then we will update this seven.
+
+532
+00:25:07,400 --> 00:25:09,400
+ And then you compare with this.
+
+533
+00:25:09,400 --> 00:25:10,400
+ Yeah.
+
+534
+00:25:10,400 --> 00:25:11,400
+ Still need to continue.
+
+535
+00:25:11,400 --> 00:25:12,400
+ So nine.
+
+536
+00:25:12,400 --> 00:25:13,400
+ And nine.
+
+537
+00:25:13,400 --> 00:25:15,400
+ Am I too big now?
+
+538
+00:25:15,400 --> 00:25:16,400
+ Yeah.
+
+539
+00:25:16,400 --> 00:25:18,400
+ You are seven here.
+
+540
+00:25:18,400 --> 00:25:20,400
+ So nine too big already.
+
+541
+00:25:20,400 --> 00:25:21,400
+ No checking.
+
+542
+00:25:21,400 --> 00:25:22,400
+ Okay.
+
+543
+00:25:22,400 --> 00:25:24,400
+ So now seven finished.
+
+544
+00:25:24,400 --> 00:25:27,400
+ So this can be used to update.
+
+545
+00:25:27,400 --> 00:25:30,400
+ So can you see something?
+
+546
+00:25:30,400 --> 00:25:31,400
+ Yeah.
+
+547
+00:25:31,400 --> 00:25:33,400
+ So cut or not?
+
+548
+00:25:33,400 --> 00:25:34,400
+ Cut.
+
+549
+00:25:34,400 --> 00:25:35,400
+ Cut.
+
+550
+00:25:35,400 --> 00:25:36,400
+ How nice.
+
+551
+00:25:36,400 --> 00:25:37,400
+ Yeah.
+
+552
+00:25:37,400 --> 00:25:39,400
+ For this one we can cut more.
+
+553
+00:25:39,400 --> 00:25:40,400
+ Okay.
+
+554
+00:25:40,400 --> 00:25:41,400
+ From the right to left.
+
+555
+00:25:41,400 --> 00:25:43,400
+ So although it is exactly same part.
+
+556
+00:25:43,400 --> 00:25:47,400
+ But we have no clue whether we should go left to right or right to left.
+
+557
+00:25:47,400 --> 00:25:48,400
+ Okay.
+
+558
+00:25:48,400 --> 00:25:51,400
+ So that is just by luck.
+
+559
+00:25:51,400 --> 00:25:55,400
+ So one way probably more efficient than the front time to time.
+
+560
+00:25:55,400 --> 00:26:01,400
+ So the best probably, yeah, just take the chance.
+
+561
+00:26:01,400 --> 00:26:06,400
+ So at least you have the chance probably to cut some of the branches.
+
+562
+00:26:06,400 --> 00:26:07,400
+ Okay.
+
+563
+00:26:07,400 --> 00:26:08,400
+ Okay.
+
+564
+00:26:08,400 --> 00:26:10,400
+ You know how to do this.
+
+565
+00:26:10,400 --> 00:26:11,400
+ Okay.
+
+566
+00:26:11,400 --> 00:26:12,400
+ So yeah.
+
+567
+00:26:12,400 --> 00:26:15,400
+ The results will be valuable soon.
+
+568
+00:26:15,400 --> 00:26:19,400
+ And for then we can, we are done with topic three.
+
+569
+00:26:19,400 --> 00:26:23,400
+ Topic four, the main things summarized here.
+
+570
+00:26:23,400 --> 00:26:24,400
+ Okay.
+
+571
+00:26:24,400 --> 00:26:26,400
+ So association reminding three measurements.
+
+572
+00:26:26,400 --> 00:26:28,400
+ One is the support.
+
+573
+00:26:28,400 --> 00:26:31,400
+ One is the competence and the lift.
+
+574
+00:26:31,400 --> 00:26:32,400
+ Okay.
+
+575
+00:26:32,400 --> 00:26:35,400
+ So that is three things, measurements.
+
+576
+00:26:35,400 --> 00:26:38,400
+ And sometimes we call support count.
+
+577
+00:26:38,400 --> 00:26:40,400
+ There is a number of counting.
+
+578
+00:26:40,400 --> 00:26:43,400
+ Sometimes we call support and some percentage.
+
+579
+00:26:43,400 --> 00:26:44,400
+ Okay.
+
+580
+00:26:44,400 --> 00:26:47,400
+ So the next factor is what is just a frequency and other ones probably.
+
+581
+00:26:47,400 --> 00:26:48,400
+ Okay.
+
+582
+00:26:48,400 --> 00:26:51,400
+ And so basically we need to find a frequent pattern.
+
+583
+00:26:51,400 --> 00:26:54,400
+ That means those patterns which is occur very frequently.
+
+584
+00:26:54,400 --> 00:26:57,400
+ So we need to pay attention to it.
+
+585
+00:26:57,400 --> 00:27:03,400
+ Then we need to pay attention to those rules based on each of the interesting pattern.
+
+586
+00:27:03,400 --> 00:27:04,400
+ Okay.
+
+587
+00:27:04,400 --> 00:27:06,400
+ Now frequent pattern.
+
+588
+00:27:06,400 --> 00:27:07,400
+ Okay.
+
+589
+00:27:07,400 --> 00:27:13,400
+ We will say frequent pattern because interesting or not later will be used lift to measure.
+
+590
+00:27:13,400 --> 00:27:19,400
+ So we should show generate the rules and then to see the rule hopefully the rule is strong
+
+591
+00:27:19,400 --> 00:27:22,400
+ and interesting and we pick them.
+
+592
+00:27:22,400 --> 00:27:23,400
+ Okay.
+
+593
+00:27:23,400 --> 00:27:27,400
+ Then we use these rules to help us to make decision.
+
+594
+00:27:27,400 --> 00:27:29,400
+ So that is the key thing.
+
+595
+00:27:29,400 --> 00:27:32,400
+ Then in order to find a frequent pattern, we have two algorithms.
+
+596
+00:27:32,400 --> 00:27:35,400
+ One is a query and the other one is EP goals.
+
+597
+00:27:35,400 --> 00:27:39,400
+ And so you can see this is a efficient version of this one.
+
+598
+00:27:39,400 --> 00:27:41,400
+ Those should give us the same answer.
+
+599
+00:27:41,400 --> 00:27:42,400
+ Okay.
+
+600
+00:27:42,400 --> 00:27:45,400
+ So a quick discussion about the first question.
+
+601
+00:27:45,400 --> 00:27:48,400
+ The association rule mining pattern.
+
+602
+00:27:48,400 --> 00:27:49,400
+ Okay.
+
+603
+00:27:49,400 --> 00:27:52,400
+ So we are talking about almost 30 years ago.
+
+604
+00:27:52,400 --> 00:27:53,400
+ Yeah.
+
+605
+00:27:53,400 --> 00:27:55,400
+ The Barbie, they find the rules.
+
+606
+00:27:55,400 --> 00:27:56,400
+ Okay.
+
+607
+00:27:56,400 --> 00:27:58,400
+ So we have a question.
+
+608
+00:27:58,400 --> 00:27:59,400
+ Okay.
+
+609
+00:27:59,400 --> 00:28:00,400
+ So what is the rule?
+
+610
+00:28:00,400 --> 00:28:01,400
+ Okay.
+
+611
+00:28:01,400 --> 00:28:02,400
+ So what is the rule?
+
+612
+00:28:02,400 --> 00:28:03,400
+ Okay.
+
+613
+00:28:03,400 --> 00:28:04,400
+ So what is the rule?
+
+614
+00:28:04,400 --> 00:28:05,400
+ Okay.
+
+615
+00:28:05,400 --> 00:28:06,400
+ So what is the rule?
+
+616
+00:28:06,400 --> 00:28:07,400
+ Okay.
+
+617
+00:28:07,400 --> 00:28:08,400
+ So what is the rule?
+
+618
+00:28:08,400 --> 00:28:09,400
+ Okay.
+
+619
+00:28:09,400 --> 00:28:13,400
+ So, almost 30 years ago, yeah, the Barbie, they find the supermarket always.
+
+620
+00:28:13,400 --> 00:28:18,400
+ You know, every 20 seconds, you will get the Barbie.
+
+621
+00:28:18,400 --> 00:28:19,400
+ People will buy that.
+
+622
+00:28:19,400 --> 00:28:20,400
+ Okay.
+
+623
+00:28:20,400 --> 00:28:25,400
+ And also 60% likely wherever they buy Barbie, they also buy candy.
+
+624
+00:28:25,400 --> 00:28:26,400
+ Okay.
+
+625
+00:28:26,400 --> 00:28:27,400
+ Candy bar.
+
+626
+00:28:27,400 --> 00:28:30,400
+ So then what should we do?
+
+627
+00:28:30,400 --> 00:28:36,400
+ So this is what is the, what does this information tell us?
+
+628
+00:28:36,400 --> 00:28:38,400
+ What does this information tell us?
+
+629
+00:28:38,400 --> 00:28:42,400
+ So this is something to do with the room.
+
+630
+00:28:42,400 --> 00:28:46,400
+ Wherever they buy the Barbie, they also buy candy.
+
+631
+00:28:46,400 --> 00:28:50,400
+ So that is 60% likely.
+
+632
+00:28:50,400 --> 00:28:54,400
+ So that is a confidence of such room.
+
+633
+00:28:54,400 --> 00:29:02,400
+ Every 20 seconds they will buy the Barbie.
+
+634
+00:29:02,400 --> 00:29:04,400
+ Meaning what?
+
+635
+00:29:04,400 --> 00:29:10,400
+ Meaning every minute they will buy three customers will buy the Barbie.
+
+636
+00:29:10,400 --> 00:29:12,400
+ That's a lot.
+
+637
+00:29:12,400 --> 00:29:19,400
+ So whoever and also 60% they will likely, whoever they buy Barbie, they also buy candy.
+
+638
+00:29:19,400 --> 00:29:21,400
+ So that is the room.
+
+639
+00:29:21,400 --> 00:29:25,400
+ And then the pattern is quite significant.
+
+640
+00:29:25,400 --> 00:29:29,400
+ Every three minutes we will have...
+
+641
+00:29:29,400 --> 00:29:32,400
+ Sorry, every minute.
+
+642
+00:29:32,400 --> 00:29:36,400
+ 20 seconds you will have this purchase.
+
+643
+00:29:36,400 --> 00:29:40,400
+ So that means every minute we have three purchases.
+
+644
+00:29:40,400 --> 00:29:42,400
+ So it's quite significant.
+
+645
+00:29:42,400 --> 00:29:45,400
+ So we are saying the support is quite high.
+
+646
+00:29:45,400 --> 00:29:47,400
+ Our support count is very high.
+
+647
+00:29:47,400 --> 00:29:51,400
+ Support count is every minute we have three.
+
+648
+00:29:51,400 --> 00:29:53,400
+ This kind of purchase.
+
+649
+00:29:53,400 --> 00:30:01,400
+ So what can we do?
+
+650
+00:30:01,400 --> 00:30:05,400
+ So probably put them together to easy assess.
+
+651
+00:30:05,400 --> 00:30:07,400
+ I probably have a special promotion.
+
+652
+00:30:07,400 --> 00:30:09,400
+ I have the whole bundle.
+
+653
+00:30:09,400 --> 00:30:16,400
+ So the whole bundle, whoever buys Barbie also buys candy, they have a special discount.
+
+654
+00:30:16,400 --> 00:30:26,400
+ So those are the very useful business room can be applied to increase the purchase.
+
+655
+00:30:26,400 --> 00:30:29,400
+ To increase the sale.
+
+656
+00:30:29,400 --> 00:30:33,400
+ Okay, so this is just for fun.
+
+657
+00:30:33,400 --> 00:30:37,400
+ And discussion, I don't know whether you go back and think about this.
+
+658
+00:30:37,400 --> 00:30:42,400
+ So association, yeah, that is a typical example in the supermarket.
+
+659
+00:30:42,400 --> 00:30:45,400
+ Or as I said, you can have a targeted advertisement.
+
+660
+00:30:45,400 --> 00:30:58,400
+ So whoever buys the textbook of data mining, they likely also buy the textbook of the database or cloud, AWS, those books.
+
+661
+00:30:58,400 --> 00:30:59,400
+ You can actually target it.
+
+662
+00:30:59,400 --> 00:31:07,400
+ Whoever buys this, you will send the advertising to those customers.
+
+663
+00:31:07,400 --> 00:31:14,400
+ So those are association rule mining.
+
+664
+00:31:14,400 --> 00:31:17,400
+ You can use as an example.
+
+665
+00:31:17,400 --> 00:31:20,400
+ What about regression?
+
+666
+00:31:20,400 --> 00:31:23,400
+ I think most of you are in signal processing.
+
+667
+00:31:23,400 --> 00:31:26,400
+ So regression is something which you are very familiar with.
+
+668
+00:31:26,400 --> 00:31:28,400
+ So I'm processing the function.
+
+669
+00:31:28,400 --> 00:31:30,400
+ So that is the regression.
+
+670
+00:31:30,400 --> 00:31:39,400
+ So we want to build a model and this model can make use of the features and then can predict one of the features or one of the other features.
+
+671
+00:31:39,400 --> 00:31:41,400
+ So that is the regression.
+
+672
+00:31:41,400 --> 00:31:45,400
+ So it's a function approximation kind of classification.
+
+673
+00:31:45,400 --> 00:31:50,400
+ You can also say predict the label information.
+
+674
+00:31:50,400 --> 00:31:53,400
+ Not the function value, but actually the label.
+
+675
+00:31:53,400 --> 00:31:56,400
+ Which category you are predicting?
+
+676
+00:31:56,400 --> 00:31:58,400
+ So that is classification.
+
+677
+00:31:58,400 --> 00:32:04,400
+ Clustering is more based on the object itself and similarity measure.
+
+678
+00:32:04,400 --> 00:32:07,400
+ And then grouping based on their similarity.
+
+679
+00:32:07,400 --> 00:32:10,400
+ Group, group, group, categories.
+
+680
+00:32:10,400 --> 00:32:14,400
+ So classification normally we talk about the object.
+
+681
+00:32:14,400 --> 00:32:16,400
+ You already have the label.
+
+682
+00:32:16,400 --> 00:32:17,400
+ You know the label information.
+
+683
+00:32:17,400 --> 00:32:21,400
+ So you can build a model more easily because you are training.
+
+684
+00:32:21,400 --> 00:32:24,400
+ You can make use of the label information.
+
+685
+00:32:24,400 --> 00:32:27,400
+ For clustering, do we have the label information?
+
+686
+00:32:27,400 --> 00:32:28,400
+ Don't have.
+
+687
+00:32:28,400 --> 00:32:30,400
+ So that is the key difference.
+
+688
+00:32:30,400 --> 00:32:33,400
+ Okay, you can come up with any example which makes sense.
+
+689
+00:32:33,400 --> 00:32:34,400
+ We'll do.
+
+690
+00:32:34,400 --> 00:32:37,400
+ So again, this is just for your information.
+
+691
+00:32:37,400 --> 00:32:42,400
+ I mean for your one of the possible answers.
+
+692
+00:32:42,400 --> 00:32:45,400
+ Okay, then a priori.
+
+693
+00:32:45,400 --> 00:32:48,400
+ We already said scan, scan, you know, many times scan.
+
+694
+00:32:48,400 --> 00:32:50,400
+ So here is a detailed algorithm.
+
+695
+00:32:50,400 --> 00:32:53,400
+ So she's able to run the algorithm here.
+
+696
+00:32:53,400 --> 00:32:57,400
+ Okay, and then try to generate the candidates.
+
+697
+00:32:57,400 --> 00:33:01,400
+ And then for each of the candidates, check whether subset update is not frequent pattern.
+
+698
+00:33:01,400 --> 00:33:03,400
+ It is not prune away.
+
+699
+00:33:03,400 --> 00:33:05,400
+ Otherwise, finally, they are strong candidates.
+
+700
+00:33:05,400 --> 00:33:13,400
+ Then go search, scan through the entire transaction database to work out what is their support count.
+
+701
+00:33:13,400 --> 00:33:16,400
+ Then if it's above the threshold, we should take it.
+
+702
+00:33:16,400 --> 00:33:19,400
+ If it's below, look.
+
+703
+00:33:19,400 --> 00:33:22,400
+ Right, so that is the idea.
+
+704
+00:33:22,400 --> 00:33:25,400
+ Okay, and then the FP grows.
+
+705
+00:33:25,400 --> 00:33:27,400
+ Yeah, so basically build a tree.
+
+706
+00:33:27,400 --> 00:33:31,400
+ Build a frequent pattern tree.
+
+707
+00:33:31,400 --> 00:33:41,400
+ And then from there, try to, for each of the items in the header table,
+
+708
+00:33:41,400 --> 00:33:46,400
+ you go create their own conditional pattern tree.
+
+709
+00:33:46,400 --> 00:33:49,400
+ Okay, and then from there, you collect the,
+
+710
+00:33:49,400 --> 00:33:54,400
+ concatenate everything together to form the entire frequent pattern.
+
+711
+00:33:54,400 --> 00:33:56,400
+ So you don't have candidates.
+
+712
+00:33:56,400 --> 00:33:57,400
+ You don't have candidates.
+
+713
+00:33:57,400 --> 00:33:59,400
+ Basically, you only consider frequent pattern.
+
+714
+00:33:59,400 --> 00:34:01,400
+ You just see how much you can grow.
+
+715
+00:34:01,400 --> 00:34:03,400
+ Okay, so for each conditional pattern base,
+
+716
+00:34:03,400 --> 00:34:06,400
+ I mean for each frequent pattern, they must be a,
+
+717
+00:34:06,400 --> 00:34:10,400
+ must be a frequent pattern in the conditional pattern base.
+
+718
+00:34:10,400 --> 00:34:15,400
+ Okay, then possibly can combine with the,
+
+719
+00:34:15,400 --> 00:34:26,400
+ the item, the frequent item together to form a longer, longer item set.
+
+720
+00:34:26,400 --> 00:34:29,400
+ Okay, frequent item set.
+
+721
+00:34:29,400 --> 00:34:34,400
+ Okay, so this is the exercise.
+
+722
+00:34:34,400 --> 00:34:40,400
+ We ask you to use both FP grows and also use apirari.
+
+723
+00:34:40,400 --> 00:34:42,400
+ Okay, so we should get the same answer,
+
+724
+00:34:42,400 --> 00:34:45,400
+ but we just have a different practice.
+
+725
+00:34:45,400 --> 00:34:49,400
+ Okay, so let's try the FP grows first.
+
+726
+00:34:49,400 --> 00:34:53,400
+ And so you don't know how to do it.
+
+727
+00:34:53,400 --> 00:34:59,400
+ So for each of these, and then we first thing is we need to identify frequent patterns.
+
+728
+00:34:59,400 --> 00:35:01,400
+ So we sketch through whole thing,
+
+729
+00:35:01,400 --> 00:35:05,400
+ and then we get the frequent pattern list based on their,
+
+730
+00:35:05,400 --> 00:35:08,400
+ their, their, their frequency.
+
+731
+00:35:08,400 --> 00:35:10,400
+ And then we only pick.
+
+732
+00:35:10,400 --> 00:35:14,400
+ So here, actually suppose we should have another column.
+
+733
+00:35:14,400 --> 00:35:20,400
+ So those are really the frequent pattern kind of one item set,
+
+734
+00:35:20,400 --> 00:35:22,400
+ which is frequent.
+
+735
+00:35:22,400 --> 00:35:24,400
+ Right, so we sort it again.
+
+736
+00:35:24,400 --> 00:35:27,400
+ So suppose A is the eight of it.
+
+737
+00:35:27,400 --> 00:35:28,400
+ So A is the highest.
+
+738
+00:35:28,400 --> 00:35:31,400
+ So we still have the A and then B.
+
+739
+00:35:31,400 --> 00:35:35,400
+ B is also, actually ABCDE offers still frequent pattern.
+
+740
+00:35:35,400 --> 00:35:37,400
+ So that's why it's exactly same.
+
+741
+00:35:37,400 --> 00:35:41,400
+ Like no, no difference because no item is removed.
+
+742
+00:35:41,400 --> 00:35:43,400
+ Right, so this is what we have.
+
+743
+00:35:43,400 --> 00:35:45,400
+ Now that that we construct.
+
+744
+00:35:45,400 --> 00:35:51,400
+ So, so this is what we scan the transaction database and we work out the frequency.
+
+745
+00:35:51,400 --> 00:35:58,400
+ And so ABCDE is all, because the minimum, minimum count here is two.
+
+746
+00:35:58,400 --> 00:36:01,400
+ So minimum support count is two.
+
+747
+00:36:01,400 --> 00:36:02,400
+ So we all above.
+
+748
+00:36:02,400 --> 00:36:06,400
+ That's why none of the one items that will be removed.
+
+749
+00:36:06,400 --> 00:36:08,400
+ Okay, and then we sort it.
+
+750
+00:36:08,400 --> 00:36:12,400
+ So we get this one items and then those are the accounts.
+
+751
+00:36:12,400 --> 00:36:15,400
+ And then for each of these, we re-sort this.
+
+752
+00:36:15,400 --> 00:36:20,400
+ So actually basically still AB and still BCD, you know, so still, still the same.
+
+753
+00:36:20,400 --> 00:36:27,400
+ So we have this, this is also still the sorted, sorted, frequent patterns.
+
+754
+00:36:27,400 --> 00:36:28,400
+ Right, okay.
+
+755
+00:36:28,400 --> 00:36:32,400
+ And then for each, we should go and construct our tree.
+
+756
+00:36:32,400 --> 00:36:36,400
+ So is that something like this constructed?
+
+757
+00:36:36,400 --> 00:36:38,400
+ Okay, so this is the sorted, frequent patterns.
+
+758
+00:36:38,400 --> 00:36:41,400
+ So the A and B, that's why you have A and B.
+
+759
+00:36:41,400 --> 00:36:47,400
+ And then you have BCDs or this branch, BCD, you know, like what we did.
+
+760
+00:36:47,400 --> 00:36:51,400
+ And then every time you scan through, then the number here increased.
+
+761
+00:36:51,400 --> 00:36:57,400
+ Whatever transaction, how many transactions in content is A, then you increase by one.
+
+762
+00:36:57,400 --> 00:37:01,400
+ Right, so this is the final tree constructed.
+
+763
+00:37:01,400 --> 00:37:03,400
+ Same as yours.
+
+764
+00:37:03,400 --> 00:37:04,400
+ Yes.
+
+765
+00:37:04,400 --> 00:37:07,400
+ Okay, and then you should have a header table.
+
+766
+00:37:07,400 --> 00:37:12,400
+ So header table is one weekend items set, items.
+
+767
+00:37:12,400 --> 00:37:14,400
+ And then this is an account.
+
+768
+00:37:14,400 --> 00:37:21,400
+ And this is a pointer pointing to the first notes in this tree.
+
+769
+00:37:21,400 --> 00:37:24,400
+ Right, so I haven't finished.
+
+770
+00:37:24,400 --> 00:37:27,400
+ For example, A should pointing to here.
+
+771
+00:37:27,400 --> 00:37:28,400
+ I will be very messy.
+
+772
+00:37:28,400 --> 00:37:31,400
+ A will point to here, then B will first be pointed.
+
+773
+00:37:31,400 --> 00:37:33,400
+ Then the B should connect with their B.
+
+774
+00:37:33,400 --> 00:37:36,400
+ So this B should connect to here and so on.
+
+775
+00:37:36,400 --> 00:37:40,400
+ Okay, so here I just focus on, for example, D connect to the first D.
+
+776
+00:37:40,400 --> 00:37:42,400
+ And then the D should connect together.
+
+777
+00:37:42,400 --> 00:37:45,400
+ Okay, and then the E, so E is here.
+
+778
+00:37:45,400 --> 00:37:48,400
+ Then E connect together.
+
+779
+00:37:48,400 --> 00:37:57,400
+ Okay, and then for each of these, we should go continue to construct your own conditional pattern base.
+
+780
+00:37:57,400 --> 00:38:02,400
+ And then from there construct your own frequent list.
+
+781
+00:38:02,400 --> 00:38:12,400
+ Or you want to have your own FP3, conditional frequent pattern tree.
+
+782
+00:38:12,400 --> 00:38:18,400
+ Okay, so that's looking to the E.
+
+783
+00:38:18,400 --> 00:38:20,400
+ Okay, so we're looking to the E.
+
+784
+00:38:20,400 --> 00:38:24,400
+ So actually we should do everything for, I mean for each of these.
+
+785
+00:38:24,400 --> 00:38:26,400
+ So we should do for A.
+
+786
+00:38:26,400 --> 00:38:29,400
+ A do what we get now.
+
+787
+00:38:29,400 --> 00:38:30,400
+ Right, empty.
+
+788
+00:38:30,400 --> 00:38:31,400
+ So that's it, no more.
+
+789
+00:38:31,400 --> 00:38:36,400
+ Yeah, for B, we should have the A5, right?
+
+790
+00:38:36,400 --> 00:38:38,400
+ And then also another B.
+
+791
+00:38:38,400 --> 00:38:40,400
+ Another B is empty.
+
+792
+00:38:40,400 --> 00:38:43,400
+ Okay, so that's what we get.
+
+793
+00:38:43,400 --> 00:38:45,400
+ And then for C, we should have, we should have.
+
+794
+00:38:45,400 --> 00:38:49,400
+ Okay, now let's look at what D, what D we go here.
+
+795
+00:38:49,400 --> 00:38:52,400
+ So what do we have?
+
+796
+00:38:52,400 --> 00:38:54,400
+ Conditional pattern base.
+
+797
+00:38:54,400 --> 00:38:58,400
+ Okay, I have this.
+
+798
+00:38:58,400 --> 00:39:03,400
+ So this is looking to the conditional pattern base for E.
+
+799
+00:39:03,400 --> 00:39:08,400
+ So for E, we will have ACD, right?
+
+800
+00:39:08,400 --> 00:39:10,400
+ ACD, so that's the first one.
+
+801
+00:39:10,400 --> 00:39:21,400
+ And then we have the AD, also for the D, we should have the DNC.
+
+802
+00:39:21,400 --> 00:39:25,400
+ Yeah, so this is the conditional pattern base.
+
+803
+00:39:25,400 --> 00:39:28,400
+ Ending with E, okay?
+
+804
+00:39:28,400 --> 00:39:30,400
+ So this is the one.
+
+805
+00:39:30,400 --> 00:39:37,400
+ And then from this, we actually work out what is the frequent pattern in this conditional pattern base.
+
+806
+00:39:37,400 --> 00:39:41,400
+ Okay, so A is A a frequent pattern.
+
+807
+00:39:41,400 --> 00:39:43,400
+ Yes, A equal to what?
+
+808
+00:39:43,400 --> 00:39:44,400
+ Two, right?
+
+809
+00:39:44,400 --> 00:39:45,400
+ Here and here.
+
+810
+00:39:45,400 --> 00:39:49,400
+ Yeah, so that's A for B, only one.
+
+811
+00:39:49,400 --> 00:39:50,400
+ Yeah, B only one.
+
+812
+00:39:50,400 --> 00:39:53,400
+ C, we have one here, one here.
+
+813
+00:39:53,400 --> 00:39:54,400
+ So C is two.
+
+814
+00:39:54,400 --> 00:39:57,400
+ D, you have one here, one here.
+
+815
+00:39:57,400 --> 00:39:58,400
+ So it's two.
+
+816
+00:39:58,400 --> 00:40:02,400
+ Okay, so meaning B will be removed.
+
+817
+00:40:02,400 --> 00:40:12,400
+ Okay, and then we rewrite this word become ACD and AD and C because B will be removed.
+
+818
+00:40:12,400 --> 00:40:13,400
+ B will be removed.
+
+819
+00:40:13,400 --> 00:40:20,400
+ So you become here and then you should construct your conditional pattern, frequent pattern three.
+
+820
+00:40:20,400 --> 00:40:24,400
+ Okay, so use this now, using this to construct your tree.
+
+821
+00:40:24,400 --> 00:40:27,400
+ So this is my tree construct it.
+
+822
+00:40:27,400 --> 00:40:35,400
+ You see, ACD, ACD, and then AD, so A increased and then D and then C.
+
+823
+00:40:35,400 --> 00:40:39,400
+ Okay, so I construct this tree and then D should connect together, C should connect together,
+
+824
+00:40:39,400 --> 00:40:43,400
+ having your header table and then pointing to this tree.
+
+825
+00:40:43,400 --> 00:40:49,400
+ And then for each of these, you should combine with the E, you get your own conditional pattern base again.
+
+826
+00:40:49,400 --> 00:40:54,400
+ Okay, so that is, you see, ending with E and then now it's a D.
+
+827
+00:40:54,400 --> 00:40:58,400
+ And this is ending with E, now it's a C.
+
+828
+00:40:58,400 --> 00:41:01,400
+ And then ending with E, now it's an A.
+
+829
+00:41:01,400 --> 00:41:09,400
+ So this is, for each of these, you get your own conditional pattern base and go recursively construct your FP tree.
+
+830
+00:41:09,400 --> 00:41:12,400
+ Okay, so for this one, okay.
+
+831
+00:41:12,400 --> 00:41:19,400
+ D, now it's under the conditional E, then now it's a D, okay, D.
+
+832
+00:41:19,400 --> 00:41:23,400
+ So for D is what? AC, right, so that's why AC.
+
+833
+00:41:23,400 --> 00:41:28,400
+ And then another D is here, so it's A.
+
+834
+00:41:28,400 --> 00:41:33,400
+ Okay, so then A we have two, C have one, so C can be removed.
+
+835
+00:41:33,400 --> 00:41:35,400
+ So we only have A2.
+
+836
+00:41:35,400 --> 00:41:39,400
+ Okay, so A2, then your tree will be like this, A2.
+
+837
+00:41:39,400 --> 00:41:41,400
+ Okay, so meaning what?
+
+838
+00:41:41,400 --> 00:41:50,400
+ Meaning A2, A together with D together with E and with the frequency of two.
+
+839
+00:41:50,400 --> 00:41:53,400
+ This is one frequent pattern.
+
+840
+00:41:53,400 --> 00:41:56,400
+ This is that, this one.
+
+841
+00:41:56,400 --> 00:41:59,400
+ Right, so this is this one.
+
+842
+00:41:59,400 --> 00:42:01,400
+ And then we are looking at the C.
+
+843
+00:42:01,400 --> 00:42:05,400
+ So C, you only have A.
+
+844
+00:42:05,400 --> 00:42:06,400
+ So A will be removed.
+
+845
+00:42:06,400 --> 00:42:07,400
+ So this one no more.
+
+846
+00:42:07,400 --> 00:42:09,400
+ So this one, no frequent pattern.
+
+847
+00:42:09,400 --> 00:42:14,400
+ That means you don't have something like a CE with A.
+
+848
+00:42:14,400 --> 00:42:15,400
+ It's not, right?
+
+849
+00:42:15,400 --> 00:42:18,400
+ The A is only one, A already removed.
+
+850
+00:42:18,400 --> 00:42:19,400
+ So no more tree.
+
+851
+00:42:19,400 --> 00:42:22,400
+ Yeah, similarly for A, A also.
+
+852
+00:42:22,400 --> 00:42:26,400
+ A, yeah, it's just empty, so no tree.
+
+853
+00:42:26,400 --> 00:42:35,400
+ Okay, so this ending with E, only the one with the DE have a frequent pattern, which is this.
+
+854
+00:42:35,400 --> 00:42:38,400
+ The others are zero already.
+
+855
+00:42:38,400 --> 00:42:46,400
+ Okay, so that's why ending with E, we only have one which is DE, this is the one.
+
+856
+00:42:46,400 --> 00:42:49,400
+ Then the rest is just this, this.
+
+857
+00:42:49,400 --> 00:42:56,400
+ Right, so it's A, E, C, E, DE, A, E, C, E, DE.
+
+858
+00:42:56,400 --> 00:43:02,400
+ So this is the final frequent pattern, identified it for this continuity pattern phase.
+
+859
+00:43:02,400 --> 00:43:04,400
+ Okay, clear?
+
+860
+00:43:04,400 --> 00:43:10,400
+ That is very serious for us to do it manually, but it's very easy for computer, right?
+
+861
+00:43:10,400 --> 00:43:14,400
+ Just recursively concurrently they can do it.
+
+862
+00:43:14,400 --> 00:43:20,400
+ Okay, so this is E, we only did one for E.
+
+863
+00:43:20,400 --> 00:43:23,400
+ Then similarly we can do it for D.
+
+864
+00:43:23,400 --> 00:43:28,400
+ Okay, so this is details for doing it for D.
+
+865
+00:43:28,400 --> 00:43:31,400
+ So you see the D, D have several of it.
+
+866
+00:43:31,400 --> 00:43:34,400
+ That's why your continuity pattern base is very long.
+
+867
+00:43:34,400 --> 00:43:44,400
+ You see, you have C, A, A, B, C, A, B, C, and then you have AB, AB is this D.
+
+868
+00:43:44,400 --> 00:43:50,400
+ Yeah, you have AC, you have A, you have BC, and then finally you need to tidy up.
+
+869
+00:43:50,400 --> 00:43:56,400
+ Okay, so there you construct your tree like this, and then for each of these you should continue to do it.
+
+870
+00:43:56,400 --> 00:44:01,400
+ Okay, so that is the ending and results.
+
+871
+00:44:01,400 --> 00:44:09,400
+ Okay, we don't have time to go through everything, but I hope you know the principle and you can double check with the answer later.
+
+872
+00:44:09,400 --> 00:44:17,400
+ Okay, so this is related header, and then there are three, and this is related to this part, and there are three and so on.
+
+873
+00:44:17,400 --> 00:44:24,400
+ So this is the final frequent pattern, we identified it, or ending with D.
+
+874
+00:44:24,400 --> 00:44:28,400
+ Then similarly, ending with C.
+
+875
+00:44:28,400 --> 00:44:36,400
+ Yeah, so this also you can, if you prefer to look at the tree together with the conditional pattern base,
+
+876
+00:44:36,400 --> 00:44:40,400
+ and also look at the one frequent pattern.
+
+877
+00:44:40,400 --> 00:44:50,400
+ Now, so this is, you know, if you want to tabulate it, but it's not really that helpful because for each you should go search for the frequent pattern within that conditional pattern base.
+
+878
+00:44:50,400 --> 00:45:05,400
+ Okay, so this is one, in the end, we have 19 of it, so that is individual, and this is related to one ending with E, related with ending with D, and so on.
+
+879
+00:45:05,400 --> 00:45:07,400
+ Okay, so 19 of it.
+
+880
+00:45:07,400 --> 00:45:12,400
+ You should, we should get exactly same thing by using a plurary.
+
+881
+00:45:12,400 --> 00:45:14,400
+ Okay, so this is a plurary.
+
+882
+00:45:14,400 --> 00:45:21,400
+ Yeah, one item set, so all of them are the frequent pattern, that's why it's also equal to L1.
+
+883
+00:45:21,400 --> 00:45:31,400
+ Then you get the candidates, and then you see, you know, BE, for example, you go for COMPTS, and then you find this too low, can be removed.
+
+884
+00:45:31,400 --> 00:45:38,400
+ Then the C2, self-join with C2 to get L2, and L2 you also check, sorry.
+
+885
+00:45:38,400 --> 00:45:47,400
+ So C2, after removed the lower, I mean the infrequent pattern, then you get L2.
+
+886
+00:45:47,400 --> 00:46:04,400
+ Now to self-join with L2, you get C3 prime, and then you check whether some of them, like ABE, for example, BE itself is not frequent pattern already, so this is, can be pulled away, right away.
+
+887
+00:46:04,400 --> 00:46:12,400
+ Then the rest you go check the COMPTS, and then some will be pulled away again if the COMPTS is lower than 2, right?
+
+888
+00:46:12,400 --> 00:46:14,400
+ So that's how you continue.
+
+889
+00:46:14,400 --> 00:46:19,400
+ So exactly same thing, in the end you also get the 19 of it.
+
+890
+00:46:19,400 --> 00:46:21,400
+ Okay.
+
+891
+00:46:21,400 --> 00:46:30,400
+ And so the last question is discussed about the, to check whether this, if we already know this is a frequent pattern,
+
+892
+00:46:30,400 --> 00:46:36,400
+ and we know this rule is not strong, and we ask what other rule can be proven.
+
+893
+00:46:36,400 --> 00:46:42,400
+ So we are talking about this rule is not strong, okay, so actually those would be, can be proven.
+
+894
+00:46:42,400 --> 00:46:49,400
+ Basically, just based on the principle, calculate the confidence value for the rule, okay,
+
+895
+00:46:49,400 --> 00:46:54,400
+ so you should see the answer, confidence value.
+
+896
+00:46:54,400 --> 00:47:07,400
+ And so if we want to extensively discuss it, this is a one, so we have this rule, and then, so if this is a pattern, frequent pattern, then all the possible rule, this can be listed here, right?
+
+897
+00:47:07,400 --> 00:47:12,400
+ 2 to the power 4 minus 2, yeah, so those are the rules.
+
+898
+00:47:12,400 --> 00:47:20,400
+ And then we actually can treat each of these as a header, the rest as a tail, you know, then we can calculate.
+
+899
+00:47:20,400 --> 00:47:31,400
+ So for this one, yeah, basically just to see how the relationship between the minimum confidence, okay, that's all.
+
+900
+00:47:31,400 --> 00:47:33,400
+ And yeah, so that's about it.
+
+901
+00:47:33,400 --> 00:47:43,400
+ Okay, for this one, let's consider for example here, yeah, we know this one, so this rule, that was a confident value of this rule.
+
+902
+00:47:43,400 --> 00:47:47,400
+ I mean, how to calculate it.
+
+903
+00:47:47,400 --> 00:48:03,400
+ It's a support of the entire thing, right, ABCD, yeah, ABCD, divide by what?
+
+904
+00:48:03,400 --> 00:48:13,400
+ Divide by the support of the header, right, so the header is B and C, yeah.
+
+905
+00:48:13,400 --> 00:48:21,400
+ So we know this value is less than the minimum confidence, right?
+
+906
+00:48:21,400 --> 00:48:29,400
+ Yeah, so actually I already talked about this in the class, so minimum confidence, we less than this.
+
+907
+00:48:29,400 --> 00:48:33,400
+ Okay, so what about the confidence, how to calculate this confidence?
+
+908
+00:48:33,400 --> 00:48:53,400
+ Also ABCD, right, then divide by the same numerates, then the denominator is equal to C, yeah.
+
+909
+00:48:53,400 --> 00:49:11,400
+ So if we know this is less than, so of course this will be less, yeah, because the support of BC should be greater than, sorry, smaller than support of the C, right, yeah.
+
+910
+00:49:11,400 --> 00:49:14,400
+ Okay, so that's why this can be proven.
+
+911
+00:49:14,400 --> 00:49:26,400
+ Okay, so that's all for my part, and confidence should come by 130, so you can have 10 minutes break and totally refresh your way, these things,
+
+912
+00:49:26,400 --> 00:49:33,400
+ and then you can start to learn more about machine learning, more numerical way,
+
+913
+00:49:33,400 --> 00:49:43,400
+ but actually you can start with decision tree, so still kind of commercial AI kind of, okay, yeah.
+
+914
+00:49:43,400 --> 00:49:46,400
+ Okay, that's all, yeah, thank you.
+
+915
+00:49:46,400 --> 00:49:54,400
+ So for the mini project, I think Prof. will tell us more later.
+
+916
+00:49:54,400 --> 00:49:59,400
+ Also we will share two sessions for the questions related to it.
+

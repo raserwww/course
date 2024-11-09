@@ -1,0 +1,7568 @@
+1
+00:01:30,000 --> 00:02:00,000
+ I'm going to start with a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a
+
+2
+00:02:00,000 --> 00:02:30,000
+ little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little
+
+3
+00:02:30,000 --> 00:03:00,000
+ little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little
+
+4
+00:03:00,000 --> 00:03:30,000
+ little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little
+
+5
+00:03:30,000 --> 00:04:00,000
+ little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little
+
+6
+00:04:00,000 --> 00:04:04,740
+ of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit.
+
+7
+00:04:05,000 --> 00:04:05,220
+ Okay, good evening class.
+
+8
+00:04:05,240 --> 00:04:06,200
+ Okay, good evening class.
+
+9
+00:04:06,220 --> 00:04:09,500
+ So, before we start the lecture today just to a quick,
+
+10
+00:04:09,520 --> 00:04:10,480
+ a few quick announcements.
+
+11
+00:04:10,500 --> 00:04:10,920
+ a few quick announcements.
+
+12
+00:04:10,940 --> 00:04:12,540
+ So before we start the lecture today, just
+
+13
+00:04:12,560 --> 00:04:13,420
+ of you quick announcement.
+
+14
+00:04:13,440 --> 00:04:15,940
+ number one is that
+
+15
+00:04:15,960 --> 00:04:17,740
+ assignment one,
+
+16
+00:04:17,760 --> 00:04:19,060
+ the due date is next week
+
+17
+00:04:19,100 --> 00:04:20,040
+ of October,
+
+18
+00:04:20,060 --> 00:04:21,260
+ as assignment one,
+
+19
+00:04:21,300 --> 00:04:22,860
+ raise the означable
+
+20
+00:04:22,900 --> 00:04:23,940
+ please do so.
+
+21
+00:04:23,980 --> 00:04:25,860
+ I remember very important
+
+22
+00:04:25,900 --> 00:04:26,340
+ only submit
+
+23
+00:04:26,360 --> 00:04:27,280
+ Carney
+
+24
+00:04:27,300 --> 00:04:28,080
+ single
+
+25
+00:04:28,100 --> 00:04:29,760
+ copy when
+
+26
+00:04:29,760 --> 00:04:34,800
+ repeat again. Okay, so just to remind you about the submission deadline next week.
+
+27
+00:04:34,800 --> 00:04:40,480
+ Okay, the second thing that I want to also mention is that I make an announcement regarding
+
+28
+00:04:40,480 --> 00:04:49,800
+ the CA2 quiz. Right? So the information for the CA2 quiz is also given in the course site.
+
+29
+00:04:49,800 --> 00:04:54,560
+ So if you go in, you should be able to see under this CA2 quiz there's some information.
+
+30
+00:04:54,560 --> 00:04:58,680
+ Right? So if you click this particular file, you'll see that this is the announcement.
+
+31
+00:04:58,680 --> 00:05:06,200
+ Right? Okay, so for CA2 quiz is 20 marks. Right? So it's a written quiz to answer a few
+
+32
+00:05:06,200 --> 00:05:12,160
+ short questions within 40 minutes. And it's closed book. Okay, so the date will be week 10,
+
+33
+00:05:12,160 --> 00:05:20,720
+ right? 24th of October, 8 to 8.40pm. Right? So on the day, what we'll do is that we'll
+
+34
+00:05:20,720 --> 00:05:26,160
+ conduct lecture for about one hour. And afterwards, you'll be given a break. Okay, and then we'll
+
+35
+00:05:26,160 --> 00:05:32,840
+ come back to do the quiz starting from 8 and finish at 8.40. So it's a short quiz. Right?
+
+36
+00:05:32,840 --> 00:05:38,760
+ So the venue is a regular lecture. So I've checked on the days, suppose, we'll do a Lee
+
+37
+00:05:38,760 --> 00:05:46,360
+ Conscient LT, so the other LT. Right? So topic cover is part three and part four. Okay? You're
+
+38
+00:05:46,400 --> 00:05:53,000
+ supposed to sit ultimately in LT. Arrive 10 minutes early. Ring along your student card for
+
+39
+00:05:53,000 --> 00:06:00,560
+ verification. Right? And then make sure that if you are absent, right, you have some valid reasons
+
+40
+00:06:00,560 --> 00:06:07,160
+ such as MC or L-O-A. And then you send an email to me within one day. Then I'll try to arrange a
+
+41
+00:06:07,160 --> 00:06:15,240
+ make up for those who have a valid reason. Okay? So this is the announcement for CA2. Right? Okay.
+
+42
+00:06:15,320 --> 00:06:21,720
+ And then if you continue, you'll see that, right? So this is the class list. So you can have a look.
+
+43
+00:06:21,720 --> 00:06:27,560
+ Okay? Your name and also take note of a serial number. Okay? So your name as well as a serial
+
+44
+00:06:27,560 --> 00:06:33,400
+ number. I noticed this year we happen to have a few students with the same name. Right? Chen Hao
+
+45
+00:06:33,400 --> 00:06:41,320
+ turned out to be a popular name. Right? Okay. Who else? I think there are a few... Okay. And also
+
+46
+00:06:41,400 --> 00:06:48,680
+ Liu Qi, also probably a popular name. And Liu Yi Yang. Okay. Actually, I don't think it's so popular,
+
+47
+00:06:48,680 --> 00:07:02,200
+ but somehow we have two students with the same name here. Okay. So anyway, yeah, later on,
+
+48
+00:07:02,200 --> 00:07:07,560
+ if you have not done so yet, please log into the course site, check your name, right? And then
+
+49
+00:07:07,640 --> 00:07:13,640
+ what's the set number? For a student with the same name, please refer to your email ID to find
+
+50
+00:07:13,640 --> 00:07:20,840
+ out what number it is. Okay? So it's important to take note of your serial number. So the reason is that
+
+51
+00:07:21,400 --> 00:07:26,760
+ on the day, right, you'll be given a question booklet. So the question booklet would look
+
+52
+00:07:26,760 --> 00:07:32,040
+ something like this. You'll see that this booklet entry is a serial number. Right? So based on what
+
+53
+00:07:32,040 --> 00:07:37,160
+ you've seen just now, your serial number, okay, you should fill up this number here. Because what
+
+54
+00:07:37,160 --> 00:07:42,440
+ happened is that we have a very big class, yeah? And on the day, we have to be very efficient to
+
+55
+00:07:42,440 --> 00:07:47,960
+ collect the answer script to make sure that you know, agree with our attendance list. So please
+
+56
+00:07:47,960 --> 00:07:54,120
+ ignore all of that. Okay. So write your serial number here and your full name as the appear in
+
+57
+00:07:54,120 --> 00:08:00,120
+ the student, a manipulation card in your manipulation number. Okay. So the question
+
+58
+00:08:00,120 --> 00:08:04,040
+ below, actually, there'll be a few questions, right? So there'll be some questions and you're
+
+59
+00:08:04,040 --> 00:08:10,440
+ supposed to know, do your workings. And at the bottom, usually there'll be some spaces for you
+
+60
+00:08:10,440 --> 00:08:15,640
+ to write your answer. So make sure that you write your answer at the bottom of the page. Yeah.
+
+61
+00:08:15,640 --> 00:08:21,640
+ Again, this is to make it my marketing more efficient. Again, you have a big class, right?
+
+62
+00:08:21,640 --> 00:08:26,840
+ So we need to be very efficient. So there'll be a few pages, yeah? And you're supposed to stop it
+
+63
+00:08:26,919 --> 00:08:31,799
+ within 40 minutes. Okay. Any questions so far regarding quiz two?
+
+64
+00:08:34,600 --> 00:08:38,120
+ Right. So if not, then let's continue.
+
+65
+00:08:41,079 --> 00:08:43,799
+ Right. Actually, there's one more thing that I also need to...
+
+66
+00:08:43,799 --> 00:08:44,280
+ to...
+
+67
+00:08:51,959 --> 00:08:57,640
+ All right. Okay. So I need to arrange for makeup
+
+68
+00:09:00,359 --> 00:09:05,000
+ lectures. All right. So actually, there are two makeup that we need to do. Right. So the first
+
+69
+00:09:05,000 --> 00:09:12,599
+ makeup is actually on to replace a cast on week 19, 17 of October. All right. So week nine
+
+70
+00:09:12,600 --> 00:09:17,240
+ lectures, right? Because I have an overseas trip, so we need to arrange makeup for this
+
+71
+00:09:18,200 --> 00:09:25,160
+ particular lectures here. So my proposed makeup date is actually on 12th of October,
+
+72
+00:09:25,880 --> 00:09:33,880
+ right? Saturday, 9am to 12 noon, using online Zoom lectures. Yeah. So I think most of you probably
+
+73
+00:09:33,880 --> 00:09:38,600
+ prefer online lectures, right? Rather than, you know, Saturday, you have to come back to NTU,
+
+74
+00:09:38,920 --> 00:09:44,280
+ which may not be so appealing to many students. And I also know that weekday, some of you have
+
+75
+00:09:44,280 --> 00:09:51,080
+ actually group B lectures. So that means we probably cannot use the weekday, daytime lecture in
+
+76
+00:09:51,080 --> 00:09:57,000
+ case there are some clashes. So therefore, in view of that, probably the most suitable time will be,
+
+77
+00:09:57,720 --> 00:10:01,640
+ right, one of the Saturdays. So I've chosen this particular Saturday, 12th of October,
+
+78
+00:10:02,360 --> 00:10:08,360
+ 9am to 12, and then online Zoom lecture. So any strong objection to this?
+
+79
+00:10:12,680 --> 00:10:19,880
+ Right. Okay. So, or do you prefer physical lecture? Zoom lecture is easier, right? Okay. So we'll do
+
+80
+00:10:19,880 --> 00:10:25,800
+ the Zoom lectures, and this lecture will also be recorded. Okay. Right. Okay. So this is the first
+
+81
+00:10:25,800 --> 00:10:31,000
+ makeup lecture. The second makeup lecture is actually to replace lectures on week 11,
+
+82
+00:10:31,080 --> 00:10:35,800
+ right, which is the 31st of October. Right. So for this week, for this day here, the
+
+83
+00:10:35,800 --> 00:10:40,760
+ 31st of October, it turned out to be falling, it's a Dipavali holiday. So which is a public
+
+84
+00:10:40,760 --> 00:10:45,640
+ holiday in Singapore. Right. So therefore, we have to arrange a makeup for this particular
+
+85
+00:10:46,360 --> 00:10:53,240
+ Dipavali holiday. Okay. So the proposed makeup date will be on 9th of November, again, a Saturday,
+
+86
+00:10:54,040 --> 00:10:59,560
+ 9am to 12 noon. Again, we'll arrange it to be on online Zoom lectures. Right. Are there any
+
+87
+00:11:01,400 --> 00:11:09,720
+ objection? Right. So if there's no objection, then I'll later on send out an email to
+
+88
+00:11:10,920 --> 00:11:18,600
+ let you know what are the login link for you to access the online Zoom lecture during these
+
+89
+00:11:19,320 --> 00:11:34,200
+ two respective time slots. Yeah, I'll send it out later.
+
+90
+00:11:39,960 --> 00:11:48,040
+ Okay. So let's continue on with this particular exercise. So in last week, the last part that we
+
+91
+00:11:48,600 --> 00:11:53,720
+ asked you to do is try to go through this particular exercise at home. So this particular
+
+92
+00:11:53,720 --> 00:11:58,840
+ exercise, let's try to quickly go through the question again. Right. Okay. It's on H.264
+
+93
+00:11:58,840 --> 00:12:05,800
+ integer transform for P-frame coding. Right. So it says that P-frame coding is used in H.264.
+
+94
+00:12:05,800 --> 00:12:12,520
+ Right. Okay. Use a, and use integer transform. Right. So the integer transform as I studied
+
+95
+00:12:12,520 --> 00:12:18,600
+ in previous lecture is given by this particular equation, where your H, right, the transform
+
+96
+00:12:18,600 --> 00:12:23,960
+ matrix is defined by this transform matrix here. Right. Okay. So part A, I asked you to state what
+
+97
+00:12:23,960 --> 00:12:29,480
+ are the two advantages to using integer transform. So can anyone of you still remember what are the
+
+98
+00:12:29,480 --> 00:12:39,079
+ advantages of integer transform? So what's the motivation to use integer transform rather than
+
+99
+00:12:39,080 --> 00:12:44,120
+ the DCG transform that you study in earlier video compression standard?
+
+100
+00:12:47,960 --> 00:12:53,800
+ So if you remember, DCT, because it's a floating number, right, you have lots of decimal. So if
+
+101
+00:12:53,800 --> 00:12:59,320
+ you, you know, keep doing this DCT transform, you're going to get some rounding error. Okay.
+
+102
+00:12:59,320 --> 00:13:05,000
+ Because it's a long floating point number. So you're going to do get some rounding error. So this
+
+103
+00:13:05,080 --> 00:13:11,240
+ rounding error can accumulate over time and cause some prediction drift. Okay. So that's one of the
+
+104
+00:13:11,240 --> 00:13:18,280
+ first reason. The second reason is that using this integer matrix, you can see it's very easy to
+
+105
+00:13:18,280 --> 00:13:25,480
+ calculate. So therefore it's fast and efficient. So those are the two advantages. Right. Okay. So
+
+106
+00:13:25,480 --> 00:13:31,160
+ the next thing is that let's look at part B. It says that assume the target frame below is a P-frame.
+
+107
+00:13:31,160 --> 00:13:37,240
+ Okay. So this is your P-frame here. Okay. And then for simplicity, let's assume the macro block
+
+108
+00:13:37,240 --> 00:13:44,520
+ is four by four. So suppose this is your current macro block that you want to do the encoding
+
+109
+00:13:44,520 --> 00:13:50,120
+ or compression. Okay. So for the macro block shown in this target frame, okay. Number one,
+
+110
+00:13:50,120 --> 00:13:58,120
+ what is the motion vector? Right. So, okay. So this is your target macro block in your
+
+111
+00:13:58,120 --> 00:14:03,400
+ P-frame. And this is your reference frame that you compare to. So it asks you number one to find
+
+112
+00:14:03,400 --> 00:14:09,320
+ the motion vector. So number two is once you have found the motion vector, what is the meaning of
+
+113
+00:14:09,320 --> 00:14:15,720
+ this particular pixel block here? So from this, for this particular integer transform
+
+114
+00:14:16,360 --> 00:14:21,640
+ equations here, what is the interpretation of this particular term? Okay. And also finally,
+
+115
+00:14:21,720 --> 00:14:27,160
+ you have to calculate the output of this integer transform. Okay. So that's part B.
+
+116
+00:14:28,120 --> 00:14:31,800
+ So in case some of you have not done it, I'll give you at least a few minutes to
+
+117
+00:14:31,800 --> 00:14:47,160
+ process this question to think about it and then we'll go through the answers together.
+
+118
+00:14:51,640 --> 00:15:01,160
+ Okay.
+
+119
+00:15:21,640 --> 00:15:31,160
+ Okay.
+
+120
+00:15:51,640 --> 00:16:01,160
+ Okay.
+
+121
+00:16:21,640 --> 00:16:31,160
+ Okay.
+
+122
+00:16:51,640 --> 00:17:01,160
+ Okay.
+
+123
+00:17:22,040 --> 00:17:26,280
+ So you have some time at least to think about how to solve this problem. So first of all,
+
+124
+00:17:26,280 --> 00:17:34,280
+ how do we find the motion vector? So in order to find the motion vector, we need to take this
+
+125
+00:17:34,280 --> 00:17:38,840
+ particular current macro block that we want to encode and then we go back to the previous
+
+126
+00:17:38,840 --> 00:17:44,120
+ reference frame and then we shift it right through all the position and then you find
+
+127
+00:17:44,120 --> 00:17:49,800
+ which position will give you the smallest error, okay, some of absolute error. So when you do that,
+
+128
+00:17:49,879 --> 00:17:54,680
+ right, the one, the position that gives you the smallest error would be, right, and then the
+
+129
+00:17:54,680 --> 00:18:02,760
+ relative offset, okay, would be the motion vector. Okay. So later on, I'll go through the answer with
+
+130
+00:18:02,760 --> 00:18:08,440
+ you. Okay. So anyway, I'll go through the answer with you later. Okay. And afterwards, what's
+
+131
+00:18:08,440 --> 00:18:14,600
+ the interpretations of this Fij in this case here? For this particular integer transform,
+
+132
+00:18:15,240 --> 00:18:23,000
+ right, okay, in the context of p-frame encoding, what is this particular term here you are trying to
+
+133
+00:18:23,000 --> 00:18:30,439
+ use to do the transformation? It should be the prediction error, right, okay, the smallest,
+
+134
+00:18:31,399 --> 00:18:36,760
+ no, between your current macro block that you want to compress, the best match block,
+
+135
+00:18:36,760 --> 00:18:42,840
+ you take the difference, the prediction error. So therefore, this Fij in this context here is
+
+136
+00:18:42,919 --> 00:18:49,000
+ the prediction error. So, right, if you already found, for example, the motion
+
+137
+00:18:49,800 --> 00:18:54,600
+ vector, that means you know the best match block, that means you can calculate the prediction error.
+
+138
+00:18:54,600 --> 00:19:00,120
+ So once you can get the prediction error, then use this particular formula to calculate the output
+
+139
+00:19:00,120 --> 00:19:06,360
+ of your integer transform. Okay. So that's pretty much how we solve this particular problem.
+
+140
+00:19:07,240 --> 00:19:19,240
+ Okay. So let me just try to show the answer to this.
+
+141
+00:19:19,240 --> 00:19:30,120
+ Okay.
+
+142
+00:19:33,000 --> 00:19:39,240
+ Right. So as I mentioned, just now if you take this macro block and then you try to scan through
+
+143
+00:19:39,240 --> 00:19:44,360
+ all the positions in your reference image, you'll find that this is the position that
+
+144
+00:19:44,360 --> 00:19:48,520
+ give you the best match block. Okay. So afterwards, you can see this is your current
+
+145
+00:19:48,520 --> 00:19:53,959
+ position and this is our best match position. So this particular offset here, right, you can see
+
+146
+00:19:53,959 --> 00:20:00,120
+ horizontally is one, two, three, vertically is one, two, three. So therefore, the motion vector is
+
+147
+00:20:00,120 --> 00:20:06,439
+ three, three. Okay. So therefore, we can see that the motion vector is three, three. And afterwards,
+
+148
+00:20:06,439 --> 00:20:11,879
+ early on we mentioned how do we find this particular Fij block in this case. So Fij is
+
+149
+00:20:11,960 --> 00:20:17,080
+ actually the difference of the prediction error. So the prediction error is defined as your original
+
+150
+00:20:17,080 --> 00:20:22,760
+ pricks a block minus your prediction. Okay. So if you take this block and minus this block,
+
+151
+00:20:22,760 --> 00:20:27,800
+ this is your prediction error. So afterwards, once you have this particular prediction error,
+
+152
+00:20:27,800 --> 00:20:32,920
+ yeah, you just apply this particular formula with this transform matrix. And if you go ahead
+
+153
+00:20:32,920 --> 00:20:38,760
+ to do the calculation, so you'll see that this is output of your integer transform.
+
+154
+00:20:38,760 --> 00:20:43,800
+ Okay. So that's pretty much the solution to this question. And I'll upload to the
+
+155
+00:20:43,800 --> 00:20:47,400
+ course site and you can download it from tomorrow onwards.
+
+156
+00:20:56,600 --> 00:21:04,280
+ Okay. Right. So next, we're going to continue on to look at some of the features of Hitch.264.
+
+157
+00:21:04,280 --> 00:21:08,920
+ So an important features of this Hitch.264, it has this in-look de-blocking
+
+158
+00:21:09,800 --> 00:21:14,760
+ filtering. So this de-blocking effect, we have mentioned before a number of times,
+
+159
+00:21:14,760 --> 00:21:19,879
+ because when you do this Hitch.264, you use different variable block size. So for this block
+
+160
+00:21:19,879 --> 00:21:26,680
+ size, you actually have the boundary, when you try to reconstruct the fixer block between one block
+
+161
+00:21:26,680 --> 00:21:32,600
+ and the other block, usually at the boundary or at the border, there will be some artifact effect.
+
+162
+00:21:32,600 --> 00:21:38,120
+ So therefore, the objective of this particular filter is to remove those artifacts to make sure
+
+163
+00:21:38,120 --> 00:21:44,439
+ that it looks good. Okay. So like what we mentioned before, the block-based coding, for example,
+
+164
+00:21:44,439 --> 00:21:53,080
+ for Hitch.264 is a 4x4 block, you'll have some blocking artifacts at the border or boundary.
+
+165
+00:21:53,080 --> 00:21:58,679
+ So we'll use one of the filter, right, the blocking filter. So it's in-look because it's
+
+166
+00:21:58,680 --> 00:22:05,400
+ actually in the loops of doing the reconstruction. Okay. So it's called in-look de-blocking filter.
+
+167
+00:22:06,120 --> 00:22:11,640
+ Okay. So you remove this blocking artifact as mentioned. So after you remove the blocking
+
+168
+00:22:11,640 --> 00:22:16,600
+ artifact, visually, you'll look more pleasing. So it improves the subjective quality.
+
+169
+00:22:17,320 --> 00:22:23,080
+ Right. And then we'll use some, this de-blocking filter is applied to these 4x4 block edges.
+
+170
+00:22:23,080 --> 00:22:30,840
+ Yeah. So if you look at how this in-look de-blocking filter looks like, okay. So this is actually,
+
+171
+00:22:30,840 --> 00:22:35,240
+ right, if you look at one particular example here. So for these particular examples here,
+
+172
+00:22:35,240 --> 00:22:41,080
+ actually, is that you have 2x4 block. Okay. And you just have to consider if you take a knife and
+
+173
+00:22:41,080 --> 00:22:47,159
+ you cut it horizontally. Okay. And then you look at the gray levels of this is one block and this
+
+174
+00:22:47,240 --> 00:22:51,880
+ is the second block here. Okay. So this one block, second block, you take a knife and you cut it
+
+175
+00:22:52,520 --> 00:22:58,680
+ horizontally. Right. So these are the 4x4 value. So this one block and this is the second block.
+
+176
+00:22:58,680 --> 00:23:06,600
+ These are the 4x4 value for one of the growth. And this is another, the corresponding 4x4 value
+
+177
+00:23:06,600 --> 00:23:13,800
+ right in the next blocks here. Okay. So when you have, no, this block-based kind of coding,
+
+178
+00:23:13,800 --> 00:23:19,000
+ usually near these particular edges here between this block and this block, these are the boundary.
+
+179
+00:23:19,000 --> 00:23:24,520
+ You'll see that there will be some artifacts here. Okay. So therefore our objective is to make some
+
+180
+00:23:24,520 --> 00:23:31,399
+ adjustment to usually these 2x4 value near the boundary, adjust them such that the transition
+
+181
+00:23:31,399 --> 00:23:37,720
+ will look a lot smoother rather than very abrupt. Okay. So that's a basic idea. Right. So we'll try
+
+182
+00:23:37,800 --> 00:23:45,000
+ to adjust these 2x4 value. And how do we adjust this pixel value? So what we do is that we consider
+
+183
+00:23:45,000 --> 00:23:52,120
+ many factors. For example, when we analyze this particular block, these 2 blocks, do we anticipate
+
+184
+00:23:52,120 --> 00:23:57,800
+ that there's some edges there? Right. Okay. And then whether it's a smooth region? Right. So we
+
+185
+00:23:57,800 --> 00:24:03,960
+ consider many different factors and then we'll try to make use of the neighboring pixel value.
+
+186
+00:24:03,960 --> 00:24:08,840
+ Right. For example, from here to here, the neighboring pixel value to help us to,
+
+187
+00:24:09,960 --> 00:24:15,720
+ guess what is the best possible correction that we should do to these 2 boundary
+
+188
+00:24:16,280 --> 00:24:21,880
+ pixel to make it look smoother. Okay. So that's a high-level concept. So apply this,
+
+189
+00:24:23,000 --> 00:24:28,200
+ the blocking filter to these 4x4 block edges. So in this case here, these are considered as the
+
+190
+00:24:28,920 --> 00:24:34,440
+ boundary or the edge here. So you can use many different schemes. So one of the possible schemes
+
+191
+00:24:34,440 --> 00:24:41,960
+ is to use a 4-tab filtering. So 4-tab, for those of you who have studied digital filter before,
+
+192
+00:24:41,960 --> 00:24:47,080
+ you know, tap is a number of key if you think you're going to use. So if you're using this 4-tab
+
+193
+00:24:47,080 --> 00:24:54,520
+ filtering, that means you're going to adjust these 2 pixel value by considering these
+
+194
+00:24:54,600 --> 00:25:00,600
+ neighboring pixel values here. Okay. So we'll use some weighted average of the pixel value,
+
+195
+00:25:00,600 --> 00:25:09,400
+ p1, p2, q0, and q1 to predict the new values for p0 and q0 so that, you know, the edge will look
+
+196
+00:25:09,400 --> 00:25:14,600
+ smooth. You wouldn't have those artifacts. So there are various factors that you'll consider
+
+197
+00:25:14,600 --> 00:25:19,000
+ to, you know, design this filter. For example, the filter length, whether you should use a short
+
+198
+00:25:19,000 --> 00:25:24,440
+ filter or use a longer filter, what is the crazy thing you use for each other filter?
+
+199
+00:25:24,440 --> 00:25:29,240
+ What types of filtering are you going to use? Is it the blocking or smoothing? If you, you know,
+
+200
+00:25:29,240 --> 00:25:33,720
+ feel that this particular region here is actually a smooth region, then you may want to use the
+
+201
+00:25:33,720 --> 00:25:40,280
+ smoothing. Okay. And then there are also some other parameters like whether this particular block
+
+202
+00:25:40,280 --> 00:25:46,760
+ we are considering, is it an intra block or is it in the inter-coded block? Okay. iFrame or is it
+
+203
+00:25:46,840 --> 00:25:53,640
+ in pFrame or bFrame? Okay. And then what is the extra values in between? Okay. And so on and so
+
+204
+00:25:53,640 --> 00:25:58,520
+ forth. Yeah. And also other factors like spatial activity. Do you anticipate that there's actually
+
+205
+00:25:58,520 --> 00:26:03,560
+ happened to be an edge or a line there? Okay. So you'll consider all these different factors. And
+
+206
+00:26:03,560 --> 00:26:09,160
+ then finally, to help you to design what's a suitable filter used to adjust this particular
+
+207
+00:26:09,160 --> 00:26:14,600
+ parameters here, or these two values here. But so that the blocking artifact will be eliminated
+
+208
+00:26:14,600 --> 00:26:19,800
+ without a visual distortion. Okay. So the high level principle is that some of the factors are
+
+209
+00:26:19,800 --> 00:26:24,760
+ listed, but exactly how, what kind of filter we use. You know, we don't have to worry too much
+
+210
+00:26:24,760 --> 00:26:32,520
+ about it because a lot of them is, you know, you'll go into the detail. Right. Okay. So, but in order
+
+211
+00:26:32,520 --> 00:26:37,399
+ to help you to visualize this, let's look at this particular short video here. You can see that even
+
+212
+00:26:37,400 --> 00:26:44,280
+ without playing the video, this is the, you know, the kind of reconstructed video if we do not apply
+
+213
+00:26:44,280 --> 00:26:50,600
+ this in loop, the blocking filter. But this is the outcome after we apply the filter. Okay. So you
+
+214
+00:26:50,600 --> 00:26:55,400
+ can already see that if you don't apply the filter, there's going to be a lot of blockiness, especially
+
+215
+00:26:55,480 --> 00:27:07,160
+ near the edges. Right. So if you zoom in, right, become very obvious.
+
+216
+00:27:07,720 --> 00:27:28,120
+ Okay. So I guess you, you get a sense of the purpose as well as the visual kind of a perception
+
+217
+00:27:28,120 --> 00:27:42,040
+ difference. Right. Okay. So the next thing we are going to look at is that for 264, actually,
+
+218
+00:27:42,040 --> 00:27:47,320
+ it also have this particular feature called known as the context adaptive variable length coding.
+
+219
+00:27:47,320 --> 00:27:54,760
+ Okay. C A, B L C here. So if you remember when we study about JPEGs and other, earlier like MPEG 1,
+
+220
+00:27:54,760 --> 00:28:00,440
+ MPEG 2. So when you're applying variable, uh, length coding, for example, the half-moon coding,
+
+221
+00:28:00,440 --> 00:28:06,600
+ you actually only have one particular table, right? You only use one particular table to help
+
+222
+00:28:06,600 --> 00:28:13,240
+ you to do the coding. But for 264, actually, they have a few different possible table, right? So
+
+223
+00:28:13,240 --> 00:28:18,920
+ they have a few possible half-moon or variable length, uh, kind of a coding table. So depending
+
+224
+00:28:18,920 --> 00:28:25,240
+ on what kind of situation you may choose the, you know, the most suitable, uh, this variable
+
+225
+00:28:25,240 --> 00:28:31,320
+ length coding table to do the compression. Right. Okay. So that's a very high level kind of a
+
+226
+00:28:31,320 --> 00:28:36,920
+ description. So the previous coding standards such as MPEG 2, they only have a one fixed, uh,
+
+227
+00:28:36,920 --> 00:28:43,160
+ variable length coding or half-moon table. In H2264, actually, you have a few table and then
+
+228
+00:28:43,160 --> 00:28:48,120
+ based on some criteria, you can choose which is the most suitable table for you to perform the,
+
+229
+00:28:48,600 --> 00:28:54,679
+ uh, compression. Right. Okay. So, uh, there'll be some, some of the rules or guidelines for you
+
+230
+00:28:54,679 --> 00:28:59,639
+ to choose what's the most suitable, uh, half-moon table to do the compression could be, for example,
+
+231
+00:28:59,639 --> 00:29:03,959
+ based on the parameters for your block data. Right. So again, this is just the high-level
+
+232
+00:29:03,959 --> 00:29:08,679
+ principle. We are not going to go into the detail because once you go into the detail, there are,
+
+233
+00:29:08,679 --> 00:29:16,360
+ uh, a lot. Okay. So in the same spirit, right, we also have the context adaptive binary
+
+234
+00:29:16,439 --> 00:29:22,360
+ aromatic coding. So this is another kind of, uh, no, variable length coding. Right. Uh, it's called
+
+235
+00:29:22,360 --> 00:29:28,120
+ binary, binary aromatic coding. Right. So in, when we started the course early on, we focused on
+
+236
+00:29:28,120 --> 00:29:33,959
+ the half-moon coding, but actually binary, binary aromatic coding is also a possible way to perform,
+
+237
+00:29:34,520 --> 00:29:42,679
+ uh, the, uh, this particular coding, variable length coding. Okay. So for this, so they also
+
+238
+00:29:42,680 --> 00:29:49,560
+ have this particular option. So this option can offer a high coding efficiency or high compression,
+
+239
+00:29:49,560 --> 00:29:55,240
+ right, in, uh, two of the profiles that we have, main and high profile. So this, uh, different
+
+240
+00:29:55,240 --> 00:30:00,840
+ profile, as we have mentioned, the idea is very similar to, in, uh, no, MPEC 2, you also have
+
+241
+00:30:00,840 --> 00:30:05,400
+ different levels as well as different profile. So these are the two different profiles that
+
+242
+00:30:05,400 --> 00:30:12,360
+ is being supported, uh, under H2264 for that support this context adaptive binary aromatic
+
+243
+00:30:12,360 --> 00:30:18,120
+ coding. Right. Okay. And, but one of the issue about this particular, uh, CA, BAC is that
+
+244
+00:30:18,120 --> 00:30:23,400
+ it has high complexity, right. It's actually very complicated. So if you want to do, uh, use this
+
+245
+00:30:23,400 --> 00:30:28,520
+ technique to help you to perform the, uh, variable length coding, then the implementation is quite
+
+246
+00:30:28,520 --> 00:30:33,640
+ complex. There are lots of details. So therefore we'll just provide some high level kind of, uh,
+
+247
+00:30:33,720 --> 00:30:38,280
+ uh, understanding about this other some of the features that 2, 6, 4 support.
+
+248
+00:30:39,560 --> 00:30:44,040
+ Right. So next, let's continue. Right. If you look at the bit streams of the 2, 6, 4, you can see
+
+249
+00:30:44,040 --> 00:30:50,920
+ it's very similar to the previous, uh, no kind of MPEC bit stream structure. So we have a first
+
+250
+00:30:50,920 --> 00:30:57,560
+ video sequence. So this video sequence is divided into a few GOP, right, few GOP. And then for each
+
+251
+00:30:57,560 --> 00:31:03,320
+ of the GOP, it consists of a number of frames, right. You have, for example, I frame, uh, P frame,
+
+252
+00:31:03,320 --> 00:31:09,560
+ B frames and so on. And then for each of the frame, it can be divided into a few, uh, slices.
+
+253
+00:31:09,560 --> 00:31:15,000
+ Okay. Few slices. And then one slice, right, you can have a few different macro block, for example,
+
+254
+00:31:15,000 --> 00:31:20,440
+ macro block one, uh, zero one and so on and so forth. And then for each of the macro block, right,
+
+255
+00:31:20,520 --> 00:31:27,960
+ we have four, uh, you know, this Y blocks here, one CB and one CR. Okay. And then for each of this,
+
+256
+00:31:27,960 --> 00:31:33,320
+ right, there'll be, can be organized into eight by eight blocks. So altogether you have a six,
+
+257
+00:31:33,880 --> 00:31:37,240
+ uh, eight by eight blocks in this particular example here.
+
+258
+00:31:39,560 --> 00:31:44,200
+ Right. So the next slide, so we'll look at some of the, uh, profiles that is being supported by
+
+259
+00:31:44,200 --> 00:31:51,400
+ 264. So this idea is very similar to what we mentioned for, before for, uh, MPEC 2. So namely,
+
+260
+00:31:51,400 --> 00:31:56,600
+ you have different, you know, profiles to support different applications that cater for different,
+
+261
+00:31:56,600 --> 00:32:02,040
+ uh, use cases. In some use cases, for example, broadcasting, you want the quality to be very
+
+262
+00:32:02,040 --> 00:32:07,960
+ high. But in some other, uh, application, right, for example, in mobile devices, you do not need
+
+263
+00:32:07,960 --> 00:32:13,160
+ such a high resolution. So therefore, they have different profiles to cater for these different,
+
+264
+00:32:14,120 --> 00:32:19,960
+ uh, applications. So for the profiles that's being supported by 264 is the baseline.
+
+265
+00:32:19,960 --> 00:32:26,280
+ If the extended, you have the main and the high profile. So these are the four profiles that
+
+266
+00:32:26,280 --> 00:32:32,520
+ can support, uh, different range of application, right, starting from relatively, uh,
+
+267
+00:32:33,080 --> 00:32:40,200
+ low bit rate requirement for mobile devices to those quite high end, uh, like HDTV standards here.
+
+268
+00:32:40,200 --> 00:32:46,120
+ Okay. So, right, this particular table here actually just shows some of the comparison between,
+
+269
+00:32:46,120 --> 00:32:52,280
+ uh, MPEC 2. Okay. So you can see this MPEC 2, this MPEC is main profile at main level, right.
+
+270
+00:32:52,280 --> 00:32:59,560
+ So one of the level and one of the profile. This is the, uh, MPEC 4. Okay. Right. The last time we
+
+271
+00:32:59,560 --> 00:33:05,400
+ talked about the object-based coating skin, right. So this is the Hitch.264 here. In this
+
+272
+00:33:05,400 --> 00:33:10,440
+ table, they only list out three of the profiles here, the baseline, the extended and the main
+
+273
+00:33:10,440 --> 00:33:15,160
+ profiles here. Right. Okay. So there's lots of, uh, entries. So we are not going to go through all of
+
+274
+00:33:15,160 --> 00:33:19,720
+ them. But for example, we can just go through a few of them. Like the block size, for example,
+
+275
+00:33:19,720 --> 00:33:27,080
+ MPEC 2 and MPEC 4 use at 16 by 16. Right. For 264 is variable. It can be ranging from 16 to 16 to
+
+276
+00:33:27,080 --> 00:33:32,680
+ 4 to 4. Right. Like what we studied in last lecture. So in terms of transform that's being used,
+
+277
+00:33:32,680 --> 00:33:41,720
+ right. Okay. This MPEC 2 is 8 by 8 DCT. MPEC 4 is also 8 by 8 DCT. But 264 is actually a 4 by 4
+
+278
+00:33:41,720 --> 00:33:48,280
+ in digital DCT. This is also the 4 by 4 in digital transform. Right. So there's many other, uh,
+
+279
+00:33:48,280 --> 00:33:53,800
+ no properties. If you are interested, you can, uh, look through them. But pretty much this
+
+280
+00:33:53,800 --> 00:33:59,400
+ but the start, the key message is trying to say is that 264, you know, provide a few different, uh,
+
+281
+00:33:59,400 --> 00:34:02,360
+ profiles to support different, uh, types of application.
+
+282
+00:34:04,680 --> 00:34:10,440
+ Okay. So another, uh, expects of 264 is that it also supports scalable video coding. So you can
+
+283
+00:34:10,440 --> 00:34:15,560
+ see, yeah, some of the changes are more major. Some is more like a continuation of some of the
+
+284
+00:34:15,560 --> 00:34:20,520
+ features that you've learned before. Right. For MPEC 2, we also study about this, uh, scalable
+
+285
+00:34:20,520 --> 00:34:27,400
+ video coding. So this 264 actually, you know, is following the same spirit. But the schemes are
+
+286
+00:34:27,480 --> 00:34:34,840
+ a bit more sophisticated. Okay. So mainly this, uh, variable video coding, uh, coding is to support,
+
+287
+00:34:34,840 --> 00:34:40,280
+ you know, bitstream scalability, right. When you, you know, the network have a different, uh, bandwidth
+
+288
+00:34:40,280 --> 00:34:46,680
+ requirement. Okay. Different, uh, yeah, just like what we mentioned before. So three of the common
+
+289
+00:34:46,680 --> 00:34:51,240
+ scalability that you have is the temporal scalability. Right. Okay. You increase the frame rate,
+
+290
+00:34:51,240 --> 00:34:56,520
+ right, for the enhancement layer, spatial scalability, the enhancement layer, you know,
+
+291
+00:34:56,520 --> 00:35:02,440
+ provide larger resolution, quality scalability, right. You enhancement layer improve the quality
+
+292
+00:35:02,440 --> 00:35:09,480
+ of your reconstructive video and also some possible combination, uh, between them. So compared to,
+
+293
+00:35:09,480 --> 00:35:14,920
+ for example, the previous standard such as, uh, MPEC 2, the coding scheme is, uh, no better.
+
+294
+00:35:14,920 --> 00:35:23,000
+ Right. Okay. So another interesting feature that's supported by 264 is that it supports
+
+295
+00:35:23,720 --> 00:35:29,640
+ multi-view video coding. Right. So from the name, you already can guess multi-view video
+
+296
+00:35:29,640 --> 00:35:34,840
+ coding means that, you know, it supports view, right. The video coding from different view
+
+297
+00:35:34,840 --> 00:35:39,800
+ angle of view point. Right. So with this different view angle and viewpoint later on,
+
+298
+00:35:39,800 --> 00:35:45,480
+ when you are trying to, you know, let the user view the content, you can support, you know,
+
+299
+00:35:45,480 --> 00:35:50,680
+ let the user choose which viewpoint you want to look at, right. When you are viewing the, uh,
+
+300
+00:35:50,759 --> 00:35:57,640
+ video. So this multi-view video coding, right, is one of the, uh, emerging issue, right. So with
+
+301
+00:35:57,640 --> 00:36:02,919
+ this particular different possible viewpoint, then it can support free viewpoint video. That
+
+302
+00:36:02,919 --> 00:36:09,799
+ means the user can choose which perspective you want to view this, uh, content. So this is another,
+
+303
+00:36:10,520 --> 00:36:18,279
+ um, features of 264. Right. Okay. So let's do a quick summary of 264. So for 264, right, from
+
+304
+00:36:18,280 --> 00:36:24,440
+ previous lecture, we understand that it can support this directional spatial prediction. So if you
+
+305
+00:36:24,440 --> 00:36:30,760
+ recall, right. So given a particular current, uh, no block, you can look at the neighboring
+
+306
+00:36:30,760 --> 00:36:36,680
+ picture to try to do the predictions here. Okay. So this is known as the, uh, directional spatial
+
+307
+00:36:36,680 --> 00:36:42,920
+ prediction. And then for the intercoding, it make use of integer transform, right. It, uh,
+
+308
+00:36:42,920 --> 00:36:48,680
+ offer a variable block size motion compensation, right. Starting from 16 to 16 to four, four by four.
+
+309
+00:36:49,480 --> 00:36:54,760
+ Okay. And then, uh, it can support sub-pixel motion compensation. All right. If you remember,
+
+310
+00:36:54,760 --> 00:37:00,440
+ we do the interpolation, okay. Given four pixel grid, we do the in, in the position for the value
+
+311
+00:37:00,440 --> 00:37:07,400
+ between the integer pixel so that we can now perform the sub-pixel motion estimation in compensation.
+
+312
+00:37:07,400 --> 00:37:12,040
+ Now, right. So from just now, early part, we also see that it has this de-blocking
+
+313
+00:37:12,040 --> 00:37:17,640
+ field frame, okay, to remove the blocking artifact, right. It can support a few, uh,
+
+314
+00:37:17,640 --> 00:37:22,760
+ multiple reference frame so that, you know, the quality, the compression ratio will be higher,
+
+315
+00:37:22,760 --> 00:37:29,240
+ right. It can also support variable video coding, right. So for this 264, because it was a later
+
+316
+00:37:29,240 --> 00:37:33,720
+ kind of standard, so it's meant to support video with higher resolution and frame rate.
+
+317
+00:37:34,359 --> 00:37:40,520
+ Okay. And it also, uh, has more sophisticated, uh, entropy coding or variable length coding,
+
+318
+00:37:40,520 --> 00:37:45,959
+ including this context adaptive variable length coding and context adaptive binary aromatic
+
+319
+00:37:45,959 --> 00:37:53,959
+ coding. Okay. So these are some quick summary of 264. Right. So let's soldier on, right. You can
+
+320
+00:37:53,959 --> 00:37:59,080
+ see that's why we come to this and there's not many of them. And then I really try my best to only,
+
+321
+00:37:59,080 --> 00:38:05,000
+ you know, highlight some of the, uh, more salient, uh, differences. Okay. So let's continue on to
+
+322
+00:38:05,000 --> 00:38:11,799
+ look at 265 and 266. Right. So I'll play you a very short video just to explain some, uh,
+
+323
+00:38:11,799 --> 00:38:17,480
+ you know, high level, high level difference between 264 and 265. Right. So, uh, 264 is
+
+324
+00:38:17,480 --> 00:38:22,520
+ considered as relatively major difference as compared to the previous standard. But between
+
+325
+00:38:22,520 --> 00:38:28,759
+ 264 and 265, the difference is a little bit more limited. Okay. So anyway, let me just play.
+
+326
+00:38:28,840 --> 00:38:32,520
+ This video to show you some of the key difference between these two standards.
+
+327
+00:38:36,920 --> 00:38:46,520
+ Okay. Let me just increase the.
+
+328
+00:38:47,080 --> 00:38:51,080
+ Okay.
+
+329
+00:38:58,520 --> 00:39:00,280
+ Please let this be the time.
+
+330
+00:39:00,280 --> 00:39:04,280
+ I didn't pay for the substructure. That's why you always have to add a joint.
+
+331
+00:39:04,280 --> 00:39:09,080
+ Oh, it's handy. Any tech tips here. And today I'm going to tell you why.
+
+332
+00:39:09,080 --> 00:39:13,480
+ Okay. Let me see whether that's a caption. I'll show you the demo.
+
+333
+00:39:13,960 --> 00:39:21,080
+ H.265 HEVC, the latest video compression standard is so awesome. Now, you know,
+
+334
+00:39:21,080 --> 00:39:25,720
+ video encoding has evolved a lot through the years from the very early MPEG 2,
+
+335
+00:39:25,720 --> 00:39:33,560
+ which was used on DVDs way back in 1996 to the most recent H.264. But every new standard
+
+336
+00:39:33,560 --> 00:39:39,480
+ seems to promise the same thing. Identical quality to the previous one, but at half the bit rate.
+
+337
+00:39:39,480 --> 00:39:46,280
+ So how does H.265 achieve this? Well, there's two main methods used in video compression.
+
+338
+00:39:46,280 --> 00:39:52,440
+ One is called interframe, which means that the previous and future frames are compared to the
+
+339
+00:39:52,440 --> 00:39:58,760
+ current one. And we only encode what's changed. To do this, we start on an eye frame, which is
+
+340
+00:39:58,760 --> 00:40:06,440
+ stored as a full image, much like a JPEG. Then we divide it into small 16 by 16 pixel areas,
+
+341
+00:40:06,440 --> 00:40:12,520
+ which in the previous standard were called macro blocks. Now we're going to advance to the next
+
+342
+00:40:12,520 --> 00:40:17,800
+ frame and compare its macro blocks with that of the eye frame. If there are several blocks,
+
+343
+00:40:17,800 --> 00:40:23,960
+ which are roughly the same, then we give the new frame the status of a P frame, that is a predicted
+
+344
+00:40:23,960 --> 00:40:30,840
+ frame. This means that what we can easily do is intercode block A. So because it's identical,
+
+345
+00:40:30,920 --> 00:40:36,760
+ we can just bring the pixel values directly across. And then we can intracode block B. In
+
+346
+00:40:36,760 --> 00:40:43,000
+ other words, give it entirely unique pixel values that are only for this frame. Now here is the
+
+347
+00:40:43,000 --> 00:40:50,760
+ H.265 difference. Macro blocks have now been renamed to coding tree units, and they can range from
+
+348
+00:40:50,760 --> 00:40:59,080
+ the original 16 by 16 size way up to 64 by 64. Now, why is this such a big improvement? Well,
+
+349
+00:40:59,160 --> 00:41:06,520
+ you've got to remember that when H.264 was first standardized back in 2003, 1080p video was the
+
+350
+00:41:06,520 --> 00:41:12,440
+ height of technology. Now, of course, we've got 4K and more efficient encoding is needed. And this
+
+351
+00:41:12,440 --> 00:41:17,799
+ is exactly what larger macro blocks give you. Now the second big improvement has to do with
+
+352
+00:41:17,799 --> 00:41:23,960
+ intraframe compression. In other words, comparing areas within the same frame and looking for
+
+353
+00:41:23,960 --> 00:41:30,200
+ redundancy. And the improvement is, wait for it, the increase in prediction directions. What? Well,
+
+354
+00:41:30,200 --> 00:41:35,560
+ remember these things? Coding tree units, also called macro blocks, they can actually be split
+
+355
+00:41:35,560 --> 00:41:42,200
+ further into things called coding units, which can go down to 8 by 8 pixels. And these get this,
+
+356
+00:41:42,200 --> 00:41:48,200
+ they can be partitioned even further, cut up different ways into prediction units. Why would
+
+357
+00:41:48,200 --> 00:41:53,640
+ we bother doing this? So we can mathematically generate pixel values in a block instead of
+
+358
+00:41:53,720 --> 00:41:58,920
+ storing them. And therefore, we can massively reduce the size of each frame. Here's how it works.
+
+359
+00:41:58,920 --> 00:42:04,359
+ I've got my tiny little prediction unit here, a little 4 by 4. And it's surrounded by two groups
+
+360
+00:42:04,359 --> 00:42:10,279
+ of pixels, which I'll call block A and block B. Now, I can actually use various intra prediction
+
+361
+00:42:10,279 --> 00:42:16,440
+ modes on this structure. I can use, for example, DC, which will basically fill this with the average
+
+362
+00:42:16,440 --> 00:42:21,640
+ of the surrounding pixels. This would be good on an outdoor scene with a blue sky, where there's no
+
+363
+00:42:21,960 --> 00:42:27,799
+ pattern to it. It's more of a, just a single color. Alternatively, I can use an angular function.
+
+364
+00:42:27,799 --> 00:42:32,920
+ So say, for example, if I have a line coming down here, and I want to continue it through the block,
+
+365
+00:42:32,920 --> 00:42:38,040
+ using my angular function, I simply point to the direction where the line is coming from,
+
+366
+00:42:38,040 --> 00:42:43,480
+ and it will extrapolate or continue that trend. Now, here again, there is a difference with
+
+367
+00:42:43,480 --> 00:42:49,799
+ H.265, and it's a good one. Back in the old days, I only had nine prediction modes. But now,
+
+368
+00:42:49,800 --> 00:42:56,920
+ I have access to, wait for it, 35 different modes. Now, the advantages to this are many,
+
+369
+00:42:56,920 --> 00:43:03,560
+ including far greater accuracy when larger block sizes are used, say, for example, in 4K video,
+
+370
+00:43:03,560 --> 00:43:11,240
+ and generally much better quality compression. So, they are the main reasons why H.265 is better.
+
+371
+00:43:11,240 --> 00:43:16,440
+ Bit exhausting, hey? But they're all theoretical, and what you might want to know is when can you
+
+372
+00:43:16,440 --> 00:43:21,240
+ use it? And the answer to that, unfortunately, is not as often as you'd like. I mean, you can't
+
+373
+00:43:21,240 --> 00:43:27,480
+ upload videos encoded with it to YouTube, and most web browsers don't support playing H.265
+
+374
+00:43:27,480 --> 00:43:33,640
+ natively. But it's been adopted as the default codec on 4K Blu-ray, and of course, you can play it
+
+375
+00:43:33,640 --> 00:43:38,600
+ back on your PC, but you might need to use software decoding. Anyway, I'm HandyAndy,
+
+376
+00:43:38,600 --> 00:43:44,520
+ and thank you very much for watching my video on H.265. Please subscribe to my channel for more tech
+
+377
+00:43:44,520 --> 00:43:51,720
+ videos. Okay, so hopefully that will give you a little bit more understanding about some of the
+
+378
+00:43:51,720 --> 00:43:57,640
+ key differences. So, in the next few slides, we are going to highlight those differences
+
+379
+00:43:58,440 --> 00:44:03,800
+ explained in the lecture in this short video. Right, okay, so, but first let's look at some
+
+380
+00:44:03,800 --> 00:44:11,320
+ factual information. So, H.265 is also known as HEBC, high EVC and video coding, right? So,
+
+381
+00:44:11,320 --> 00:44:17,880
+ this is the same name. Right, so it was developed by, you know, this ITUT video coding expect group,
+
+382
+00:44:17,880 --> 00:44:23,560
+ and also this ISO, IEC, MPEC. Right, so these two groups, they form this particular team,
+
+383
+00:44:23,560 --> 00:44:29,880
+ known as a joint collaborative team on video coding to develop this 265. All right, so the
+
+384
+00:44:29,880 --> 00:44:37,240
+ standard arising out of it is called the high efficiency video coding, H.265 or MPEC HPEC 2,
+
+385
+00:44:37,240 --> 00:44:44,600
+ so they all refer to the same thing. So, it was developed in 2013. Right, okay, so what are some
+
+386
+00:44:44,600 --> 00:44:49,959
+ of the key features of this 265? Of course, you will expand it, you will continue to improve the
+
+387
+00:44:49,959 --> 00:44:57,959
+ coding efficiency, you can compress it into, you know, smaller file size or bit stream. Okay, right,
+
+388
+00:44:57,959 --> 00:45:02,839
+ okay, and also we can handle larger resolution now because in later standard, you need to be able to
+
+389
+00:45:02,840 --> 00:45:11,800
+ handle those video with a higher resolution, such as this ultra high definition video. Okay, it also
+
+390
+00:45:11,800 --> 00:45:16,680
+ provides this parallel processing, so because it supports the parallel processing, it can actually
+
+391
+00:45:16,680 --> 00:45:23,560
+ split up the processing. Okay, so currently 264 and 265 are popular choices for video application,
+
+392
+00:45:23,560 --> 00:45:29,960
+ but I will say that 264 is due to by far the more dominant video format that you will see.
+
+393
+00:45:30,280 --> 00:45:37,480
+ Right, so what are some of the improvements of 265 over 264? Right, number one is that it can provide
+
+394
+00:45:37,480 --> 00:45:43,400
+ a higher resolution, okay, up to 8k and higher frame rate up to 120, you know, frame per second.
+
+395
+00:45:44,200 --> 00:45:49,480
+ Right, okay, it has more prediction mode and transform block size, right, so you can see it
+
+396
+00:45:49,480 --> 00:45:55,640
+ can go up to 64 by 64 because your video now is much bigger, so therefore the basic block that
+
+397
+00:45:55,640 --> 00:46:02,759
+ you need to handle also increase for 265. Right, so it has a more sophisticated interpolation and
+
+398
+00:46:02,759 --> 00:46:08,520
+ de-blocking filter, right, these are like ongoing, they always can come with better and better filters.
+
+399
+00:46:09,400 --> 00:46:14,680
+ Right, okay, so the de-blocking filter that's being used is 8x8, right, so instead of 4x4,
+
+400
+00:46:14,680 --> 00:46:19,960
+ just now as we see in 264, right, support parallel processing is highlighted earlier,
+
+401
+00:46:19,960 --> 00:46:26,360
+ right, it's more efficient to 264, right, in terms of the frame rate, okay, to achieve the same
+
+402
+00:46:27,160 --> 00:46:34,600
+ picture quality. Right, so some of the main feature as mentioned before, right, so for 265,
+
+403
+00:46:34,600 --> 00:46:39,880
+ the macro block structure now is replaced by a quad-tree structure, so it's a quad-tree structure
+
+404
+00:46:39,880 --> 00:46:46,840
+ to handle a larger kind of a resolution block here, okay, and then right, it has a better
+
+405
+00:46:46,920 --> 00:46:55,080
+ interpolation technique to support sub-pixar motion estimation and compensation, right, okay, and it
+
+406
+00:46:55,080 --> 00:47:01,960
+ can also increase the number of directional spatial prediction, so you can see that in 264,
+
+407
+00:47:01,960 --> 00:47:08,760
+ actually there's only nine prediction mode, right, okay, nine prediction mode from in previous
+
+408
+00:47:08,760 --> 00:47:14,840
+ exercise we actually look at the DC, the horizontal vertical and some directional, but for 265,
+
+409
+00:47:14,840 --> 00:47:19,000
+ because they want to have a better improvement, so they look at, you know, they introduce more
+
+410
+00:47:19,000 --> 00:47:27,320
+ different angles, okay, so I think these slides will be quite clear, so for this 265 now, right,
+
+411
+00:47:27,320 --> 00:47:32,600
+ when you want to use a neighboring pixel, okay, the neighboring pixel to predict this particular
+
+412
+00:47:32,600 --> 00:47:39,160
+ pixel block, now you have a lot more directions that you can predict on from, okay, with more
+
+413
+00:47:39,160 --> 00:47:44,520
+ direction, that means you can have a better prediction accuracy, but you also become more
+
+414
+00:47:44,520 --> 00:47:51,000
+ complicated, right, so for example for this 8x8 pixel blocks here, right, if we choose this
+
+415
+00:47:51,000 --> 00:47:58,040
+ mode 30 of a prediction mode, 30 is somewhere here, then this is how you use it, this neighboring
+
+416
+00:47:58,040 --> 00:48:09,080
+ pixel value to predict this pixel block, right, okay, so yeah, we move on to 266, right, so 266
+
+417
+00:48:09,399 --> 00:48:15,000
+ actually is also known as the versatile video coding or VVC, right, it also has a name which is
+
+418
+00:48:15,000 --> 00:48:23,640
+ the MPEG 1 part 3, right, it can handle things such as the standard, this dynamic range, okay,
+
+419
+00:48:23,640 --> 00:48:30,759
+ high dynamic range video, right, it can handle 360 degree video and also param, parametric video,
+
+420
+00:48:30,840 --> 00:48:38,680
+ so it can handle many different types of video format, okay, so it can support up to 16K
+
+421
+00:48:39,880 --> 00:48:45,800
+ ultra high definition video, right, so in terms of chroma subsampling format, it can support 444,
+
+422
+00:48:46,360 --> 00:48:54,200
+ 422, 420, okay, we have up to 10 to 16 bits per sample, right, it can achieve up to 50 percent
+
+423
+00:48:54,200 --> 00:49:00,919
+ more compression as compared to 265, right, so you can see as you keep going, right, things become
+
+424
+00:49:00,919 --> 00:49:08,040
+ better but there's also a lot of, you know, kind of a fracture information, right, okay, so next we'll
+
+425
+00:49:08,040 --> 00:49:14,359
+ look at some of the very recent new and emerging coding standards, so one of the very recent
+
+426
+00:49:14,359 --> 00:49:22,120
+ emerging standards is known as the MPEG-I or immersive media, right, so it's known as the MPEG
+
+427
+00:49:22,120 --> 00:49:31,240
+ immersive video MIP here, so this particular standard is known as MPEG-I part 12, right,
+
+428
+00:49:31,240 --> 00:49:36,680
+ so it's undergoing standardization, okay, to represent this immersive video, so later on we're
+
+429
+00:49:36,680 --> 00:49:42,040
+ going to see what this kind of immersive video are we talking about, so pretty much for this
+
+430
+00:49:43,080 --> 00:49:49,480
+ immersive video it can support different kind of a degree of freedom video, right, you can look
+
+431
+00:49:49,560 --> 00:49:54,600
+ at the video where there's no up and down, left and right, a two and throw and then different
+
+432
+00:49:54,600 --> 00:50:01,160
+ rotation, okay, so therefore for this our video it can support up to six degree of freedom, right,
+
+433
+00:50:01,160 --> 00:50:06,920
+ to give the viewing experience more immersive, you'll feel that it's more like you are actually
+
+434
+00:50:06,920 --> 00:50:14,120
+ watching this video in the real world, so it will enable or support this immersive, right, that means
+
+435
+00:50:14,120 --> 00:50:19,400
+ you actually feel that you are actually in this particular viewing environment, you can provide
+
+436
+00:50:19,400 --> 00:50:25,640
+ volumetric content, things like you have viewed as a content, right, 3D content rather than just a
+
+437
+00:50:25,640 --> 00:50:31,720
+ flat screen you're watching, right, using multiple camera with a six degree of freedom,
+
+438
+00:50:32,920 --> 00:50:36,920
+ right, so when you're talking about six degree of freedom this is what it means, right, you can
+
+439
+00:50:36,920 --> 00:50:44,600
+ have like, you know, this yaw, right, rotating in this way, pitch, right, and then throw, right, so
+
+440
+00:50:44,600 --> 00:50:50,520
+ it allows this kind of different degree of freedom as well as moving up and down, left and right,
+
+441
+00:50:51,240 --> 00:50:55,880
+ you know, front and back, so with all this degree of freedom you can actually, you know,
+
+442
+00:50:55,880 --> 00:51:01,640
+ generate the video in such a way that as a viewer you'll find that it's more immersive,
+
+443
+00:51:02,200 --> 00:51:08,839
+ right, so yeah, I'll just play you a short video to show you what can the six degree of freedom
+
+444
+00:51:08,839 --> 00:51:12,200
+ video kind of render in terms of viewing experience.
+
+445
+00:51:31,640 --> 00:52:01,480
+ Okay, so then
+
+446
+00:52:02,520 --> 00:52:09,240
+ let you have a feel about this, a six degree of freedom video, right, okay, so another
+
+447
+00:52:09,240 --> 00:52:15,480
+ kind of closely related topics to what we have shown just now is the volumetric video in firm
+
+448
+00:52:15,480 --> 00:52:31,480
+ making, so let me also play this video to share with you.
+
+449
+00:52:31,640 --> 00:52:43,480
+ Okay, this is a longer video, right, so
+
+450
+00:52:43,480 --> 00:52:47,480
+ about 11 minutes.
+
+451
+00:52:50,279 --> 00:52:51,799
+ I love making movies.
+
+452
+00:52:54,680 --> 00:52:58,440
+ Motion pictures has been in existence for more than 100 years.
+
+453
+00:52:58,840 --> 00:53:03,480
+ Film making hasn't changed from the dimensional mindset.
+
+454
+00:53:04,600 --> 00:53:08,280
+ Placing the camera in a scene and pressing record hasn't changed.
+
+455
+00:53:09,000 --> 00:53:15,960
+ Film making is still a frontal experience and creating the film has the possibility to follow
+
+456
+00:53:16,520 --> 00:53:18,920
+ the same direction of the content creation.
+
+457
+00:53:19,560 --> 00:53:23,640
+ We still stand in front of a flat image watching the picture.
+
+458
+00:53:24,600 --> 00:53:29,319
+ There's nothing wrong with it. I love watching movies and going to the theaters.
+
+459
+00:53:30,200 --> 00:53:32,680
+ The experience could be so emotional and experiences.
+
+460
+00:53:33,240 --> 00:53:38,520
+ The art and crafts of motion experiences within a frame can be so strong to drive a
+
+461
+00:53:38,520 --> 00:53:45,720
+ strongly emotional. The question we're asking is how the experience of motion pictures can exist
+
+462
+00:53:45,720 --> 00:53:52,680
+ beyond the flat screen. How can we start creating content for the generation of content experiences?
+
+463
+00:53:53,879 --> 00:53:58,759
+ Traditionally, when we imagine a scene, we look at the frame and the composition.
+
+464
+00:53:59,560 --> 00:54:05,560
+ We have to think about how we create depth and parallax using foreground, background,
+
+465
+00:54:05,560 --> 00:54:12,839
+ elements as the camera moves. With the technology today and devices of VR glasses, AR glasses,
+
+466
+00:54:12,839 --> 00:54:19,640
+ smart devices, allowing three-dimensional and full navigation in space, we have the possibility
+
+467
+00:54:19,640 --> 00:54:25,160
+ to enable audience to experience content from multiple perspectives. What we have to think about
+
+468
+00:54:25,799 --> 00:54:32,920
+ is how we take this technology or the capabilities enabling the experience to move further away
+
+469
+00:54:33,560 --> 00:54:39,560
+ inside the scene. Now we're not talking about video games or computer-generated actors, which
+
+470
+00:54:39,560 --> 00:54:45,960
+ looks tremendously realistic. We're talking about real actors and real performance, performing on stage.
+
+471
+00:54:46,520 --> 00:54:53,320
+ We have to start thinking how we capture the actors and how we capture the real scene in
+
+472
+00:54:53,320 --> 00:54:59,240
+ order to emerge inside. Now we're familiar with the 360-degree video where you place the camera
+
+473
+00:54:59,240 --> 00:55:04,280
+ inside the scene and you can create this beautiful panoramic image all around you,
+
+474
+00:55:04,280 --> 00:55:11,080
+ but from the same aspect, filmmaking is still frontal. In order to immerse fully inside the
+
+475
+00:55:12,040 --> 00:55:18,040
+ scene, we will need to capture the light from all the possible directions. We'll have to surround
+
+476
+00:55:18,040 --> 00:55:24,600
+ the scene with an enormous amount of sensors, with all possible capabilities to capture the light
+
+477
+00:55:25,400 --> 00:55:32,279
+ and enable us to emerge inside afterwards again. Now in this setup, there's no more foreground
+
+478
+00:55:32,279 --> 00:55:37,960
+ or background or a camera placed in space, but hundreds of sensors capturing the light
+
+479
+00:55:38,520 --> 00:55:44,600
+ and capturing the motion from all the possible directions. With the new technology advancements,
+
+480
+00:55:44,600 --> 00:55:50,120
+ we can start looking at 3D photography. Capturing the light from multiple perspectives
+
+481
+00:55:50,120 --> 00:55:56,920
+ enabled us to reconstruct the subject. This is like photography in 3D space. Now with this
+
+482
+00:55:56,920 --> 00:56:03,880
+ technology advancements, we can record video not just as a flat image, but as a volume. This is
+
+483
+00:56:03,880 --> 00:56:10,120
+ what we call volumetric video, and it is the capability to record every action on the scene
+
+484
+00:56:10,120 --> 00:56:18,200
+ as a full three-dimensional volume. Now what is a voxel? A voxel is like a three-dimensional pixel,
+
+485
+00:56:18,760 --> 00:56:25,400
+ but instead of being a flat image square staying light and color, it's like a three-dimensional
+
+486
+00:56:25,400 --> 00:56:34,440
+ cube in space with x, y, and z position. This enables us to create a full capture of the scene
+
+487
+00:56:34,440 --> 00:56:42,920
+ from any perspective. Now this renders a fully light immersive scene from multiple perspectives.
+
+488
+00:56:43,640 --> 00:56:49,080
+ This capability requires an insane amount of information to be processed. We'll have to
+
+489
+00:56:49,080 --> 00:56:58,200
+ capture the light for the number of cameras to create this information. Now in order to do such a
+
+490
+00:56:58,200 --> 00:57:07,560
+ thing, we will need a setup that will host a numerous amount of cameras installed in a stage,
+
+491
+00:57:07,560 --> 00:57:14,520
+ and a stage big enough in order to fit a full cinematic experience. Now that sounds like a
+
+492
+00:57:14,520 --> 00:57:23,240
+ crazy idea, but that's exactly what we did. For the last three years, we have been building a huge
+
+493
+00:57:23,240 --> 00:57:31,000
+ volumetric camera chamber. It's 10,000 square feet of a stage in order to capture the action from
+
+494
+00:57:31,000 --> 00:57:37,320
+ any location. We have deployed hundreds of cameras, sending the tremendous amount of information
+
+495
+00:57:37,320 --> 00:57:44,760
+ to a huge data center powered by Intel supercomputers. The ability to have these 10,000
+
+496
+00:57:44,760 --> 00:57:52,280
+ square feet enable us to fit any kind of action, any kind of performance, is the size of an average
+
+497
+00:57:52,280 --> 00:57:59,160
+ of a Broadway stage. We call it Intel Studios, and it's the largest volumetric stage in the world
+
+498
+00:57:59,960 --> 00:58:06,520
+ with the objective of enabling and exploring the next generation of the immersive media filmmaking.
+
+499
+00:58:08,120 --> 00:58:16,120
+ Now to test these ideas, we were thinking about what we can do as the first scene to try it out.
+
+500
+00:58:17,400 --> 00:58:25,800
+ So we choose the western scene. We're both horses, set designers, dirt, everything needed to create
+
+501
+00:58:25,800 --> 00:58:32,680
+ the full scene of a western, but this time there was no camera inside. There was nothing
+
+502
+00:58:33,399 --> 00:58:40,839
+ really moving beside the old cameras and the outside. The challenge of the actors was tremendous.
+
+503
+00:58:40,839 --> 00:58:49,080
+ They have to perform a flawless action visible from all the directions. There's no possibility to
+
+504
+00:58:49,080 --> 00:58:55,879
+ hide the punch or not show the action. Everything is captured and everything is seen. The output of
+
+505
+00:58:55,879 --> 00:59:01,799
+ the capture, or our first really after, this is our first capture, open our eyes for the
+
+506
+00:59:01,880 --> 00:59:09,240
+ amazing capabilities. It was like a full 3D scene of the entire scene. We were able to move around
+
+507
+00:59:09,240 --> 00:59:14,840
+ and travel in the space. The thing about this is not the more about perceiving the light emitted
+
+508
+00:59:14,840 --> 00:59:21,480
+ from a screen, but now traveling inside the light, traveling inside the scene. This obviously opens
+
+509
+00:59:21,480 --> 00:59:28,040
+ possibilities for an enormous amount of storytelling and methodologies of creation. This is the
+
+510
+00:59:28,040 --> 00:59:33,560
+ possibilities of your personal narrative, the possibilities creating your own story inside,
+
+511
+00:59:33,560 --> 00:59:39,320
+ or maybe following other stories. Let's take a look at one of the last renders in scene.
+
+512
+00:59:40,600 --> 00:59:45,640
+ What you're seeing here is full volumetric video and there's no physical camera in the scene.
+
+513
+00:59:47,880 --> 00:59:52,520
+ We have the full control of space and time.
+
+514
+00:59:58,920 --> 01:00:09,720
+ Now again, no physical camera was here. Everything was captured, surrounding. Now,
+
+515
+01:00:10,759 --> 01:00:16,440
+ this is very nice, but what if we wanted to see the scene maybe from the eyes of the horse? Well,
+
+516
+01:00:17,160 --> 01:00:24,120
+ we can do that as well. So what you're seeing right now is the same action, but this time we're
+
+517
+01:00:24,120 --> 01:00:29,880
+ watching exactly from the eyes of the horse. The possibilities are, well, unlimited.
+
+518
+01:00:36,520 --> 01:00:43,480
+ So this is all great for creators and storytellers. It really opens a huge canvas for different type
+
+519
+01:00:43,480 --> 01:00:48,520
+ of storytelling and movie making. But what about the audience? How the audience can experience
+
+520
+01:00:48,600 --> 01:00:54,440
+ this differently? In order to clip our explorations, we partner with Paramount Pictures in order to
+
+521
+01:00:54,440 --> 01:01:00,120
+ explore immersive media in a Hollywood movie production. Together with the director, Randal
+
+522
+01:01:00,120 --> 01:01:08,120
+ Claeser, we re-imagined the iconic movie of the 1978, Grease. Some of you know it, some of you know.
+
+523
+01:01:09,560 --> 01:01:15,480
+ Forty years old movie, amazing experience. And our goal was really to look how we can take this
+
+524
+01:01:16,440 --> 01:01:23,560
+ iconic action and dance and bring it deeper into the experience, bring it deeper to the audience.
+
+525
+01:01:24,200 --> 01:01:29,560
+ Imagine that you can not just watch the movie, but get inside it and dance with the actors
+
+526
+01:01:30,200 --> 01:01:37,560
+ and dance with the performance. Now, we're breaking really the traditional two-disc mindset of thinking
+
+527
+01:01:37,560 --> 01:01:43,960
+ and bringing a much richer possibility of movie making and content creation. But why to watch it
+
+528
+01:01:43,960 --> 01:01:47,720
+ on the screen? Let's try to bring these actors here on the stage.
+
+529
+01:01:54,680 --> 01:02:01,560
+ So they're not going to really come. I'm going to use an iPad. Sorry. I'm going to use an iPad
+
+530
+01:02:01,560 --> 01:02:09,240
+ in order to bring an augmented reality. Now, obviously, these devices are their own limitations
+
+531
+01:02:09,560 --> 01:02:14,680
+ in terms of the data computing process. So we have to reduce the amount of resolution.
+
+532
+01:02:16,520 --> 01:02:22,839
+ So what I'm doing now, I'm placing here a marker so I'll be able to position exactly
+
+533
+01:02:23,799 --> 01:02:25,160
+ where I want everyone to appear.
+
+534
+01:02:25,960 --> 01:02:34,279
+ Okay. I think we have them here.
+
+535
+01:02:41,799 --> 01:02:47,000
+ John Travolta or a version of him. Let's take a look.
+
+536
+01:02:55,720 --> 01:02:55,960
+ Yea!
+
+537
+01:02:58,120 --> 01:03:00,120
+ Yeah.
+
+538
+01:03:00,120 --> 01:03:05,120
+ I got chills, therefore just lying
+
+539
+01:03:05,120 --> 01:03:10,120
+ And I lose that control
+
+540
+01:03:10,120 --> 01:03:14,120
+ Cause the power goes and flying
+
+541
+01:03:14,120 --> 01:03:16,120
+ It's like a sign
+
+542
+01:03:16,120 --> 01:03:26,120
+ Thank you
+
+543
+01:03:26,120 --> 01:03:31,120
+ So as you can see, we can watch and experience content
+
+544
+01:03:31,120 --> 01:03:35,120
+ in the traditional way or in immersive way
+
+545
+01:03:35,120 --> 01:03:38,120
+ Really the possibilities are open
+
+546
+01:03:38,120 --> 01:03:42,120
+ We're not trying to change or replace movies
+
+547
+01:03:42,120 --> 01:03:44,120
+ We're enhancing them
+
+548
+01:03:44,120 --> 01:03:46,120
+ The technologies enable new possibilities
+
+549
+01:03:46,120 --> 01:03:49,120
+ to start thinking beyond the flat screen
+
+550
+01:03:49,120 --> 01:03:54,120
+ We're an immersing and really exciting time in filmmaking
+
+551
+01:03:54,120 --> 01:03:56,120
+ We're a threshold of a new area
+
+552
+01:03:56,120 --> 01:03:59,120
+ We're opening the gates for new possibilities
+
+553
+01:03:59,120 --> 01:04:02,120
+ of immersive storytelling
+
+554
+01:04:02,120 --> 01:04:05,120
+ and exploration and defining
+
+555
+01:04:05,120 --> 01:04:08,120
+ what immersive media filmmaking means
+
+556
+01:04:08,120 --> 01:04:11,120
+ We're really just at the beginning
+
+557
+01:04:11,120 --> 01:04:14,120
+ We invite you all to join us
+
+558
+01:04:14,120 --> 01:04:22,120
+ Thank you
+
+559
+01:04:22,120 --> 01:04:24,120
+ Okay, so hopefully the video give you
+
+560
+01:04:24,120 --> 01:04:27,120
+ at least some insight about the excitement
+
+561
+01:04:27,120 --> 01:04:30,120
+ of this volumetric video
+
+562
+01:04:30,120 --> 01:04:34,120
+ That's why some of these new and emerging standards
+
+563
+01:04:34,120 --> 01:04:37,120
+ are trying to see how can you perform compression
+
+564
+01:04:37,120 --> 01:04:40,120
+ in such types of video
+
+565
+01:04:46,120 --> 01:04:49,120
+ In summary, we have come to the end
+
+566
+01:04:49,120 --> 01:04:51,120
+ of this particular section here
+
+567
+01:04:51,120 --> 01:04:54,120
+ For this section, we covered the following
+
+568
+01:04:54,120 --> 01:04:57,120
+ We talked about different types of video coding
+
+569
+01:04:57,120 --> 01:04:58,120
+ and standards
+
+570
+01:04:58,120 --> 01:05:00,120
+ We explained about the basic principles
+
+571
+01:05:00,120 --> 01:05:04,120
+ behind most of these video compression standards
+
+572
+01:05:04,120 --> 01:05:07,120
+ In particular, we spent some time talking
+
+573
+01:05:07,120 --> 01:05:10,120
+ about impact standards as well as the H2-2x
+
+574
+01:05:10,120 --> 01:05:13,120
+ 2x series of standards here
+
+575
+01:05:13,120 --> 01:05:15,120
+ A few minutes ago, we also looked at
+
+576
+01:05:15,120 --> 01:05:19,120
+ some of the emerging coding applications
+
+577
+01:05:19,120 --> 01:05:21,120
+ as well as standards
+
+578
+01:05:21,120 --> 01:05:25,120
+ Right, so that would be part 3
+
+579
+01:05:25,120 --> 01:05:30,120
+ Before that, I actually also want to
+
+580
+01:05:30,120 --> 01:05:32,120
+ show one video because I noticed that
+
+581
+01:05:32,120 --> 01:05:34,120
+ if I show the video at the end of the class
+
+582
+01:05:34,120 --> 01:05:36,120
+ usually students will not stay behind
+
+583
+01:05:36,120 --> 01:05:38,120
+ they just want to leave early
+
+584
+01:05:38,120 --> 01:05:41,120
+ I don't think I've shown this before
+
+585
+01:05:41,120 --> 01:05:43,120
+ but there's any one of you
+
+586
+01:05:43,120 --> 01:05:45,120
+ probably some of you have seen it before
+
+587
+01:05:45,120 --> 01:05:49,120
+ but do you all know what's a free solo?
+
+588
+01:05:49,120 --> 01:05:52,120
+ Do you know what's a free solo?
+
+589
+01:05:52,120 --> 01:05:54,120
+ Free solo?
+
+590
+01:05:54,120 --> 01:05:56,120
+ Anyway, later I'm going to play you this video
+
+591
+01:05:56,120 --> 01:05:59,120
+ and then you'll understand what's the meaning of free solo
+
+592
+01:05:59,120 --> 01:06:01,120
+ So this next video I'm going to show you
+
+593
+01:06:01,120 --> 01:06:04,120
+ is actually how people actually capture
+
+594
+01:06:04,120 --> 01:06:07,120
+ when this particular well-known guy
+
+595
+01:06:07,120 --> 01:06:09,120
+ is doing the free soloing
+
+596
+01:06:13,120 --> 01:06:16,120
+ This documentary is on Netflix
+
+597
+01:06:16,120 --> 01:06:19,120
+ so if you're interested, you can go and watch it
+
+598
+01:06:19,120 --> 01:06:21,120
+ but this particular documentary is showing
+
+599
+01:06:21,120 --> 01:06:25,120
+ how the photography teams try to capture
+
+600
+01:06:25,120 --> 01:06:29,120
+ this guy Alex doing the free soloing
+
+601
+01:06:35,120 --> 01:06:38,120
+ You can see why the trip is coming up
+
+602
+01:06:38,120 --> 01:06:41,120
+ because recently I'm looking for hotels
+
+603
+01:06:41,120 --> 01:06:43,120
+ right for my upcoming trip
+
+604
+01:06:43,120 --> 01:06:45,120
+ so they know what I'm doing
+
+605
+01:06:45,120 --> 01:06:47,120
+ so now they're showing this targeted advertisement
+
+606
+01:06:47,120 --> 01:06:51,120
+ If you're free soloing, it is about
+
+607
+01:06:51,120 --> 01:06:54,120
+ perfect execution or certain death
+
+608
+01:06:55,120 --> 01:06:57,120
+ and I'm going to show you
+
+609
+01:06:57,120 --> 01:06:59,120
+ how it's done
+
+610
+01:06:59,120 --> 01:07:01,120
+ Hello, I'm Chai Vasarelli
+
+611
+01:07:01,120 --> 01:07:03,120
+ I'm a documentarian
+
+612
+01:07:03,120 --> 01:07:05,120
+ My name is Jimmy Chin
+
+613
+01:07:05,120 --> 01:07:07,120
+ and I'm a National Geographic Photographer and Filming Group
+
+614
+01:07:07,120 --> 01:07:09,120
+ We made free solo together
+
+615
+01:07:09,120 --> 01:07:11,120
+ and we are going to talk a little bit about
+
+616
+01:07:11,120 --> 01:07:14,120
+ how we captured the first free solo scene of El Cap
+
+617
+01:07:14,120 --> 01:07:18,120
+ The thing about El Cap is that it is huge
+
+618
+01:07:18,120 --> 01:07:22,120
+ It's 3,000 feet tall
+
+619
+01:07:22,120 --> 01:07:24,120
+ and it's almost hard for the mind to comprehend
+
+620
+01:07:24,120 --> 01:07:27,120
+ The idea of climbing it without a rope
+
+621
+01:07:27,120 --> 01:07:32,120
+ was just really beyond most people's imagination
+
+622
+01:07:32,120 --> 01:07:34,120
+ Alex shows free rider on El Cap
+
+623
+01:07:34,120 --> 01:07:36,120
+ because even as a professional climber
+
+624
+01:07:36,120 --> 01:07:39,120
+ if you are to be able to climb free rider
+
+625
+01:07:39,120 --> 01:07:42,120
+ what we call clean, which is without falling
+
+626
+01:07:42,120 --> 01:07:44,120
+ that would be a lifetime achievement
+
+627
+01:07:44,120 --> 01:07:48,120
+ I think Alex was certainly the first person to consider it seriously
+
+628
+01:07:48,120 --> 01:07:52,120
+ Well, we were always more interested in Alex as a character study
+
+629
+01:07:52,120 --> 01:07:54,120
+ than as a free soloist per se
+
+630
+01:07:54,120 --> 01:07:56,120
+ I mean, Alex began free soloing
+
+631
+01:07:56,120 --> 01:08:00,120
+ because as a kid it was scarier for him to speak to another person
+
+632
+01:08:00,120 --> 01:08:02,120
+ and ask them to be his partner
+
+633
+01:08:02,120 --> 01:08:04,120
+ than to go out by himself and without a partner
+
+634
+01:08:04,120 --> 01:08:05,120
+ and hence without a rope
+
+635
+01:08:05,120 --> 01:08:07,120
+ It was very dangerous what Alex was doing
+
+636
+01:08:07,120 --> 01:08:09,120
+ We really had to trust ourselves
+
+637
+01:08:09,120 --> 01:08:11,120
+ and how we would handle the material
+
+638
+01:08:11,120 --> 01:08:13,120
+ and how we would handle the story
+
+639
+01:08:13,120 --> 01:08:15,120
+ and I think Alex did trust us with that
+
+640
+01:08:15,120 --> 01:08:18,120
+ We understood of these 3,000 feet
+
+641
+01:08:18,120 --> 01:08:20,120
+ that there were four or five pitches
+
+642
+01:08:20,120 --> 01:08:22,120
+ that were critical to the story
+
+643
+01:08:22,120 --> 01:08:25,120
+ The free blast slabs which were difficult for him psychologically
+
+644
+01:08:25,120 --> 01:08:26,120
+ as well as physically
+
+645
+01:08:26,120 --> 01:08:27,120
+ The boulder problem which is the crux
+
+646
+01:08:27,120 --> 01:08:28,120
+ or the hardest part of the climb
+
+647
+01:08:28,120 --> 01:08:30,120
+ and then the enduro corner
+
+648
+01:08:30,120 --> 01:08:32,120
+ So we always had the climb covered from a long lens
+
+649
+01:08:32,120 --> 01:08:35,120
+ but our manpower, they were kind of running
+
+650
+01:08:35,120 --> 01:08:36,120
+ in between these five places
+
+651
+01:08:36,120 --> 01:08:39,120
+ The way we approached the film which was critically important
+
+652
+01:08:39,120 --> 01:08:40,120
+ was building the team
+
+653
+01:08:40,120 --> 01:08:43,120
+ We needed elite professional climbers
+
+654
+01:08:43,120 --> 01:08:46,120
+ that were also incredible filmmakers and cinematographers
+
+655
+01:08:46,120 --> 01:08:49,120
+ meaning there's only about three or four people in the world you can call
+
+656
+01:08:49,120 --> 01:08:53,120
+ Each one of our cameramen was carrying
+
+657
+01:08:53,120 --> 01:08:55,120
+ 45 pounds of equipment
+
+658
+01:08:55,120 --> 01:08:57,120
+ sometimes 50 pounds of equipment
+
+659
+01:08:57,120 --> 01:09:01,120
+ and they're also carrying 500 to 1,000 feet of rope
+
+660
+01:09:01,120 --> 01:09:03,120
+ You're moving up, filming
+
+661
+01:09:03,120 --> 01:09:06,120
+ but you're also pulling your lines out of the frame
+
+662
+01:09:06,120 --> 01:09:08,120
+ and clipping them off to yourself
+
+663
+01:09:08,120 --> 01:09:10,120
+ So as you move up
+
+664
+01:09:10,120 --> 01:09:13,120
+ you're gaining more and more weight
+
+665
+01:09:13,120 --> 01:09:16,120
+ and trying to manage more and more equipment and rope
+
+666
+01:09:16,120 --> 01:09:19,120
+ You know, we use very specific equipment
+
+667
+01:09:19,120 --> 01:09:22,120
+ that allow us to let go of the breakhand
+
+668
+01:09:22,120 --> 01:09:25,120
+ and the belay device self locks
+
+669
+01:09:25,120 --> 01:09:27,120
+ so you can kind of let go of the rope
+
+670
+01:09:27,120 --> 01:09:30,120
+ and not slide down the rope any further
+
+671
+01:09:30,120 --> 01:09:33,120
+ You know, we are also doing different moves
+
+672
+01:09:33,120 --> 01:09:36,120
+ where somebody else is kind of lowering out the cameraman
+
+673
+01:09:36,120 --> 01:09:40,120
+ and they're able to get kind of a moving shot on the wall
+
+674
+01:09:41,120 --> 01:09:45,120
+ The free blast is a notorious section on the free rider route
+
+675
+01:09:45,120 --> 01:09:47,120
+ It's extremely slippery
+
+676
+01:09:47,120 --> 01:09:53,120
+ and the holds are the width of two quarters on their edge
+
+677
+01:09:53,120 --> 01:09:55,120
+ It's the kind of climbing what we call friction climbing
+
+678
+01:09:55,120 --> 01:09:59,120
+ where you don't really have real footholds
+
+679
+01:09:59,120 --> 01:10:03,120
+ It's just the friction of the rubber on the wall
+
+680
+01:10:03,120 --> 01:10:07,120
+ and it's very, very insecure climbing
+
+681
+01:10:07,120 --> 01:10:13,120
+ The way that we shot it was to emphasize the friction climbing and the footholds
+
+682
+01:10:13,120 --> 01:10:16,120
+ because it's all about footwork there
+
+683
+01:10:16,120 --> 01:10:18,120
+ It's very technical footwork
+
+684
+01:10:18,120 --> 01:10:20,120
+ And also it was important to our story
+
+685
+01:10:20,120 --> 01:10:23,120
+ because it was on the free blast that he fell
+
+686
+01:10:23,120 --> 01:10:26,120
+ So the free blast was like psychologically
+
+687
+01:10:26,120 --> 01:10:29,120
+ as well as physically quite challenging for Alex
+
+688
+01:10:29,120 --> 01:10:35,120
+ The bolder problem pitch was one of, if not the biggest concern for Alex
+
+689
+01:10:35,120 --> 01:10:39,120
+ People start to understand how choreographed all of his moves are
+
+690
+01:10:39,120 --> 01:10:43,120
+ and I think that was something we really wanted to get across to people
+
+691
+01:10:43,120 --> 01:10:46,120
+ And that there was a psychological situation there too with Alex
+
+692
+01:10:46,120 --> 01:10:48,120
+ The Galaxy thought deeply about his own mortality
+
+693
+01:10:48,120 --> 01:10:52,120
+ but he was not interested in dying in front of his friends
+
+694
+01:10:52,120 --> 01:10:57,120
+ and also he was acutely aware that any cameraman would feel
+
+695
+01:10:57,120 --> 01:10:59,120
+ I mean, would feel profound fear in that moment
+
+696
+01:10:59,120 --> 01:11:02,120
+ and that there's a reflection that happens where Alex would feel his fear
+
+697
+01:11:02,120 --> 01:11:04,120
+ So the compromise was remote cameras
+
+698
+01:11:04,120 --> 01:11:09,120
+ The trick actually was that we needed to get them firing
+
+699
+01:11:09,120 --> 01:11:12,120
+ and we weren't sure how long the batteries would last
+
+700
+01:11:12,120 --> 01:11:15,120
+ We weren't sure if we actually got it
+
+701
+01:11:15,120 --> 01:11:19,120
+ until we came down, downloaded everything and watched
+
+702
+01:11:19,120 --> 01:11:23,120
+ and it was maybe one of the highlights of the entire production
+
+703
+01:11:23,120 --> 01:11:26,120
+ when we were sitting there waiting and waiting and watching
+
+704
+01:11:26,120 --> 01:11:30,120
+ and then you see this person coming up into the frame
+
+705
+01:11:30,120 --> 01:11:35,120
+ and then we get to see him do the bolder problem pitch
+
+706
+01:11:35,120 --> 01:11:37,120
+ the karate kick
+
+707
+01:11:37,120 --> 01:11:42,120
+ and there's that moment when he looks to the camera and smiles
+
+708
+01:11:42,120 --> 01:11:45,120
+ and we all almost fell out of our chairs when we saw that
+
+709
+01:11:45,120 --> 01:11:49,120
+ The Enduro Corner is an extraordinary looking pitch
+
+710
+01:11:49,120 --> 01:11:52,120
+ and the difficulty is that the holds are not very good
+
+711
+01:11:52,120 --> 01:11:54,120
+ so they're kind of rounded
+
+712
+01:11:54,120 --> 01:11:58,120
+ The only way that you can stay on the climb is by pulling with your arms
+
+713
+01:11:58,120 --> 01:12:00,120
+ and pushing with your feet
+
+714
+01:12:00,120 --> 01:12:05,120
+ It's also a very long pitch, meaning your arms get very, very tired very quickly
+
+715
+01:12:05,120 --> 01:12:11,120
+ That pitch Alex climbed in probably less than 10 minutes
+
+716
+01:12:11,120 --> 01:12:13,120
+ maybe even 5 minutes
+
+717
+01:12:13,120 --> 01:12:15,120
+ People often take an hour
+
+718
+01:12:15,120 --> 01:12:18,120
+ That was a pitch that we really wanted to cover well
+
+719
+01:12:18,120 --> 01:12:22,120
+ because of its difficulty and because of the aesthetics
+
+720
+01:12:22,120 --> 01:12:27,120
+ The way we covered that is I was off to the side
+
+721
+01:12:27,120 --> 01:12:32,120
+ and then we had another cameraman above that pitch
+
+722
+01:12:32,120 --> 01:12:35,120
+ shooting what we call Down the Varyl
+
+723
+01:12:35,120 --> 01:12:38,120
+ so I had a still camera bolted to the top of my film camera
+
+724
+01:12:38,120 --> 01:12:41,120
+ and while Alex is climbing the Enduro Corner
+
+725
+01:12:41,120 --> 01:12:44,120
+ I was also taking stills but I was filming him coming up
+
+726
+01:12:44,120 --> 01:12:47,120
+ I couldn't see Alex because he was around the corner
+
+727
+01:12:47,120 --> 01:12:49,120
+ probably a hundred feet away
+
+728
+01:12:49,120 --> 01:12:51,120
+ but I knew he was moving quickly
+
+729
+01:12:51,120 --> 01:12:53,120
+ I know that from the ground you all could see that
+
+730
+01:12:53,120 --> 01:12:55,120
+ I was on the valley floor and I kept on one point
+
+731
+01:12:55,120 --> 01:12:58,120
+ I was like Alex you cannot give Jimmy a heart attack
+
+732
+01:12:58,120 --> 01:13:00,120
+ Jimmy is trying to move so fast
+
+733
+01:13:00,120 --> 01:13:01,120
+ Alex is shooting up
+
+734
+01:13:01,120 --> 01:13:03,120
+ and we're kind of paralleling
+
+735
+01:13:03,120 --> 01:13:07,120
+ and at a certain point the roots intersect again
+
+736
+01:13:07,120 --> 01:13:09,120
+ and I see Alex coming up
+
+737
+01:13:09,120 --> 01:13:11,120
+ he's got this huge smile on his face
+
+738
+01:13:11,120 --> 01:13:13,120
+ because he's through all the most technical difficulties
+
+739
+01:13:13,120 --> 01:13:16,120
+ and he's coming along and I say to Alex
+
+740
+01:13:16,120 --> 01:13:19,120
+ can you give me 60 seconds
+
+741
+01:13:19,120 --> 01:13:22,120
+ and he just looked at his phone and said
+
+742
+01:13:22,120 --> 01:13:24,120
+ I'm about to break 4 hours
+
+743
+01:13:24,120 --> 01:13:26,120
+ and I knew what that meant
+
+744
+01:13:26,120 --> 01:13:28,120
+ he was not going to wait
+
+745
+01:13:29,120 --> 01:13:31,120
+ he's so happy
+
+746
+01:13:31,120 --> 01:13:33,120
+ he's alive
+
+747
+01:13:33,120 --> 01:13:36,120
+ Alex lives every day of his life with intention
+
+748
+01:13:36,120 --> 01:13:38,120
+ he's doing exactly what he wants to do with his life
+
+749
+01:13:38,120 --> 01:13:41,120
+ but there's also this misperception I think
+
+750
+01:13:41,120 --> 01:13:44,120
+ where people think oh he's a free soloist
+
+751
+01:13:44,120 --> 01:13:46,120
+ he has a death wish
+
+752
+01:13:46,120 --> 01:13:47,120
+ that's not who he is
+
+753
+01:13:47,120 --> 01:13:49,120
+ if he was a daredevil or a maverick
+
+754
+01:13:49,120 --> 01:13:51,120
+ we wouldn't have been interested in making the film
+
+755
+01:13:51,120 --> 01:13:53,120
+ it was actually his process and his discipline
+
+756
+01:13:53,120 --> 01:13:56,120
+ it was kind of the perfect storm for a documentary film
+
+757
+01:13:56,120 --> 01:13:59,120
+ but the real kind of existential issues lay
+
+758
+01:13:59,120 --> 01:14:01,120
+ and the dangers involved
+
+759
+01:14:01,120 --> 01:14:03,120
+ in his courage he was connecting with people
+
+760
+01:14:03,120 --> 01:14:06,120
+ which I think is one of the more moving parts of the film
+
+761
+01:14:09,120 --> 01:14:12,120
+ okay so I guess you know what's a free solo now
+
+762
+01:14:12,120 --> 01:14:15,120
+ so it's actually climbing all this up without any safety
+
+763
+01:14:15,120 --> 01:14:17,120
+ rope and so on
+
+764
+01:14:17,120 --> 01:14:20,120
+ so next time if you encounter some challenge
+
+765
+01:14:20,120 --> 01:14:22,120
+ just think of this guy he's doing this
+
+766
+01:14:22,120 --> 01:14:25,120
+ and so whatever challenge you face should be
+
+767
+01:14:25,120 --> 01:14:28,120
+ looks relatively trivial compared to what he's doing
+
+768
+01:14:28,120 --> 01:14:31,120
+ right and also as I mentioned there's some videos
+
+769
+01:14:31,120 --> 01:14:34,120
+ right documentary I think on Netflix
+
+770
+01:14:34,120 --> 01:14:38,120
+ so for those of you if you're interested you can go and watch the documentary
+
+771
+01:14:38,120 --> 01:14:41,120
+ right okay so I think we'll take a short break
+
+772
+01:14:41,120 --> 01:14:43,120
+ we'll probably come back at 8
+
+773
+01:14:43,120 --> 01:14:45,120
+ let me see 8.05
+
+774
+01:14:45,120 --> 01:14:47,120
+ let's come back at 8.05
+
+775
+01:14:52,120 --> 01:14:55,120
+ okay
+
+776
+01:15:22,120 --> 01:15:24,120
+ okay
+
+777
+01:15:52,120 --> 01:15:54,120
+ okay
+
+778
+01:16:22,120 --> 01:16:24,120
+ okay
+
+779
+01:16:52,120 --> 01:16:54,120
+ okay
+
+780
+01:17:22,120 --> 01:17:24,120
+ okay
+
+781
+01:17:52,120 --> 01:17:54,120
+ okay
+
+782
+01:18:22,120 --> 01:18:24,120
+ okay
+
+783
+01:18:52,120 --> 01:18:54,120
+ okay
+
+784
+01:19:22,120 --> 01:19:24,120
+ okay
+
+785
+01:19:52,120 --> 01:19:54,120
+ okay
+
+786
+01:20:22,120 --> 01:20:24,120
+ okay
+
+787
+01:20:52,120 --> 01:20:54,120
+ okay
+
+788
+01:21:22,120 --> 01:21:24,120
+ okay
+
+789
+01:21:52,120 --> 01:21:54,120
+ okay
+
+790
+01:22:22,120 --> 01:22:24,120
+ okay
+
+791
+01:22:52,120 --> 01:22:54,120
+ okay
+
+792
+01:23:22,120 --> 01:23:24,120
+ okay
+
+793
+01:23:52,120 --> 01:23:54,120
+ okay
+
+794
+01:24:22,120 --> 01:24:24,120
+ okay
+
+795
+01:24:52,120 --> 01:24:54,120
+ okay
+
+796
+01:25:22,120 --> 01:25:24,120
+ okay
+
+797
+01:25:52,120 --> 01:25:54,120
+ okay
+
+798
+01:26:22,120 --> 01:26:24,120
+ okay
+
+799
+01:26:52,120 --> 01:26:54,120
+ okay
+
+800
+01:27:22,120 --> 01:27:24,120
+ okay
+
+801
+01:27:52,120 --> 01:27:54,120
+ okay
+
+802
+01:28:22,120 --> 01:28:24,120
+ okay
+
+803
+01:28:52,120 --> 01:28:54,120
+ okay
+
+804
+01:29:22,120 --> 01:29:24,120
+ okay
+
+805
+01:29:52,120 --> 01:29:54,120
+ okay
+
+806
+01:30:22,120 --> 01:30:24,120
+ okay
+
+807
+01:30:52,120 --> 01:30:54,120
+ okay
+
+808
+01:31:22,120 --> 01:31:24,120
+ okay
+
+809
+01:31:52,120 --> 01:31:54,120
+ okay
+
+810
+01:32:22,120 --> 01:32:24,120
+ okay
+
+811
+01:32:52,120 --> 01:32:54,120
+ okay
+
+812
+01:33:22,120 --> 01:33:24,120
+ okay
+
+813
+01:33:52,120 --> 01:33:54,120
+ okay
+
+814
+01:34:22,120 --> 01:34:24,120
+ okay
+
+815
+01:34:52,120 --> 01:34:54,120
+ okay
+
+816
+01:35:22,120 --> 01:35:24,120
+ okay
+
+817
+01:35:52,120 --> 01:35:54,120
+ okay
+
+818
+01:35:58,120 --> 01:36:00,120
+ okay so welcome back
+
+819
+01:36:00,120 --> 01:36:03,120
+ so next we are going to move into part 4
+
+820
+01:36:03,120 --> 01:36:05,120
+ right on AI models and architecture
+
+821
+01:36:05,120 --> 01:36:07,120
+ so as in a
+
+822
+01:36:07,120 --> 01:36:11,120
+ quick one lecture I actually mentioned for this particular course
+
+823
+01:36:11,120 --> 01:36:13,120
+ it's mainly divided into two parts
+
+824
+01:36:13,120 --> 01:36:16,120
+ so the first part is on video
+
+825
+01:36:16,120 --> 01:36:18,120
+ image and video coding and compression
+
+826
+01:36:18,120 --> 01:36:20,120
+ right and the second part is
+
+827
+01:36:20,120 --> 01:36:22,120
+ on video analytics and understanding
+
+828
+01:36:22,120 --> 01:36:25,120
+ so now we are going to start on the second part of this course
+
+829
+01:36:25,120 --> 01:36:30,120
+ which is mainly focused on image and video analytics and understanding
+
+830
+01:36:30,120 --> 01:36:35,120
+ okay and before we do that right first we need to make sure that all the students have some
+
+831
+01:36:35,120 --> 01:36:38,120
+ common background and understanding about some of the
+
+832
+01:36:38,120 --> 01:36:42,120
+ popular AI models as well as architectures
+
+833
+01:36:42,120 --> 01:36:48,120
+ right so this is to make sure that all of you have the necessary background knowledge and understanding
+
+834
+01:36:48,120 --> 01:36:51,120
+ before we move on to something a bit more advanced
+
+835
+01:36:51,120 --> 01:36:55,120
+ so in the event if you already have studied some of this
+
+836
+01:36:55,120 --> 01:36:58,120
+ just bear with me you can take this as a revision
+
+837
+01:36:58,120 --> 01:37:02,120
+ you can probably also learn from some of the perspective
+
+838
+01:37:02,120 --> 01:37:06,120
+ right okay so therefore we are going to move on to part 4
+
+839
+01:37:06,120 --> 01:37:08,120
+ AI models and architectures
+
+840
+01:37:08,120 --> 01:37:12,120
+ right so for this part here I listed some of these references
+
+841
+01:37:12,120 --> 01:37:17,120
+ as usual right if you there are any concepts you don't understand or you want to file more
+
+842
+01:37:17,120 --> 01:37:20,120
+ yeah it all means make use of different resources
+
+843
+01:37:20,120 --> 01:37:24,120
+ some listed here you can use Google you can use chat GPT
+
+844
+01:37:24,120 --> 01:37:27,120
+ right just make sure that if you're using chat GPT
+
+845
+01:37:27,120 --> 01:37:33,120
+ try to do some research to make sure that the content that is provided is accurate
+
+846
+01:37:33,120 --> 01:37:38,120
+ okay so for part 4 we are going to cover the following AI models
+
+847
+01:37:38,120 --> 01:37:42,120
+ so first of all we are going to start with a convolutional neural network CNN
+
+848
+01:37:42,120 --> 01:37:46,120
+ after work so we will move on to recurrent neural network INN
+
+849
+01:37:46,120 --> 01:37:49,120
+ followed by a long short time memory LSTM
+
+850
+01:37:49,120 --> 01:37:52,120
+ and finally we will move on to the transformer
+
+851
+01:37:52,120 --> 01:37:57,120
+ so these are the AI models we are going to study in this part here
+
+852
+01:37:57,120 --> 01:38:02,120
+ right okay so the first thing we are going to study now is a convolutional neural network or CNN
+
+853
+01:38:02,120 --> 01:38:04,120
+ oh sorry
+
+854
+01:38:05,120 --> 01:38:12,120
+ sorry here so maybe I'll just very quickly do a quick recap
+
+855
+01:38:12,120 --> 01:38:17,120
+ yeah so as I mentioned we are now going to look at part 4 AI models and architecture
+
+856
+01:38:17,120 --> 01:38:21,120
+ so these are the list of references right if you want to file more
+
+857
+01:38:21,120 --> 01:38:26,120
+ you can always refer to them or Google or chat GPT or other resources
+
+858
+01:38:26,120 --> 01:38:31,120
+ right okay so these are the four AI models we're going to study for this part
+
+859
+01:38:31,120 --> 01:38:38,120
+ CNN okay INN STM and transformer okay so that's the plan for part 4
+
+860
+01:38:38,120 --> 01:38:44,120
+ right so the first model we are going to study for this part is convolutional neural network
+
+861
+01:38:44,120 --> 01:38:47,120
+ also known as CNN
+
+862
+01:38:47,120 --> 01:38:52,120
+ right so under this part these are the topics we are going to cover
+
+863
+01:38:52,120 --> 01:38:57,120
+ so first of all we'll give a quick introduction of CNN
+
+864
+01:38:58,120 --> 01:39:02,120
+ right and afterwards we'll explain what's the linear classifier
+
+865
+01:39:02,120 --> 01:39:05,120
+ right we'll cover the structures of CNN
+
+866
+01:39:05,120 --> 01:39:08,120
+ right how do we train and optimize the CNN
+
+867
+01:39:08,120 --> 01:39:11,120
+ right some of the well-known CNN architecture
+
+868
+01:39:11,120 --> 01:39:14,120
+ finally followed by some selected application
+
+869
+01:39:14,120 --> 01:39:17,120
+ so that's a plan for this part
+
+870
+01:39:17,120 --> 01:39:23,120
+ okay so first right in for some of you right if you are new to this AI area
+
+871
+01:39:23,120 --> 01:39:28,120
+ you'll probably encounter or come across many different deep neural network architectures
+
+872
+01:39:28,120 --> 01:39:32,120
+ so actually there are many different CNN architectures
+
+873
+01:39:32,120 --> 01:39:36,120
+ right so some of the common CNN architectures include
+
+874
+01:39:36,120 --> 01:39:39,120
+ for example convolutional neural network CNN
+
+875
+01:39:39,120 --> 01:39:41,120
+ recurrent neural network RNN
+
+876
+01:39:41,120 --> 01:39:45,120
+ transformer large language models and so on and so forth
+
+877
+01:39:45,120 --> 01:39:50,120
+ right okay so the question is that why do we need to have so many different
+
+878
+01:39:50,120 --> 01:39:52,120
+ CNN models
+
+879
+01:39:52,120 --> 01:39:56,120
+ so why do we need to have many different CNN models
+
+880
+01:39:56,120 --> 01:39:58,120
+ so the answer to the questions is that
+
+881
+01:39:58,120 --> 01:40:02,120
+ right because in real world there's many different application
+
+882
+01:40:02,120 --> 01:40:08,120
+ and for many different applications sometimes they have different kind of unique characteristics
+
+883
+01:40:08,120 --> 01:40:11,120
+ it could be for example the data is dealing with
+
+884
+01:40:11,120 --> 01:40:15,120
+ right some of them is just for example a single image
+
+885
+01:40:15,120 --> 01:40:17,120
+ right some has some temporal information
+
+886
+01:40:17,120 --> 01:40:20,120
+ some has some state kind of information
+
+887
+01:40:20,120 --> 01:40:23,120
+ so therefore depending on what kind of application
+
+888
+01:40:23,120 --> 01:40:27,120
+ their corresponding data have some different characteristics
+
+889
+01:40:27,120 --> 01:40:33,120
+ therefore no we need to use different tools to solve different application and use cases
+
+890
+01:40:33,120 --> 01:40:37,120
+ so therefore the long story short why do we need to have a different CNN
+
+891
+01:40:37,120 --> 01:40:41,120
+ or tools right is because we are trying to address different application
+
+892
+01:40:41,120 --> 01:40:43,120
+ that have different requirement
+
+893
+01:40:44,120 --> 01:40:52,120
+ so each CNN has its own unique features that it can use to address the unique problems that we are addressing
+
+894
+01:40:52,120 --> 01:40:58,120
+ so for this part we are going to look at a few different types of application and data structure
+
+895
+01:40:58,120 --> 01:41:05,120
+ and we'll see how this different AI model can handle those different unique considerations
+
+896
+01:41:07,120 --> 01:41:12,120
+ right okay so the first one we are going to start with is convolutional neural network CNN
+
+897
+01:41:12,120 --> 01:41:17,120
+ right so this CNN is one of the first early AI model that was introduced
+
+898
+01:41:17,120 --> 01:41:23,120
+ right so initially it was used for digit classification and then afterworks used for image classification
+
+899
+01:41:23,120 --> 01:41:30,120
+ so if you are new to AI right this is very likely going to be the first AI model you are going to come across
+
+900
+01:41:30,120 --> 01:41:36,120
+ right okay so CNN right so this particular diagram shows an example of the CNN
+
+901
+01:41:36,120 --> 01:41:42,120
+ so at this stage we are not going to go in and explain each individual detail and structure
+
+902
+01:41:42,120 --> 01:41:45,120
+ but we are going to give you a high level inclusion first
+
+903
+01:41:45,120 --> 01:41:49,120
+ and then later on once we come to the parts of the architecture
+
+904
+01:41:49,120 --> 01:41:53,120
+ we are going to explain the structures of the CNN a bit more in detail
+
+905
+01:41:53,120 --> 01:41:58,120
+ but at the high level kind of structures of the CNN is like this
+
+906
+01:41:58,120 --> 01:42:04,120
+ right so first of all okay in this particular example here we are performing digit classification
+
+907
+01:42:04,120 --> 01:42:09,120
+ so our goal is that given some images of the digit we want to classify into
+
+908
+01:42:09,120 --> 01:42:14,120
+ what is the corresponding digit that this is a 0, 1, all the way to 9
+
+909
+01:42:14,120 --> 01:42:19,120
+ okay so you can see that for this particular CNN it will go through a number of different layer
+
+910
+01:42:19,120 --> 01:42:23,120
+ okay it will go through a number of different layer so the objective of this
+
+911
+01:42:23,120 --> 01:42:29,120
+ you know different layers of the CNN is to perform some feature extraction
+
+912
+01:42:29,120 --> 01:42:33,120
+ right so you can see is to perform some feature extraction
+
+913
+01:42:33,120 --> 01:42:38,120
+ that means after given this image after going through many different layer
+
+914
+01:42:38,120 --> 01:42:44,120
+ okay the signal at this particular last layer here right which is actually a vector
+
+915
+01:42:44,120 --> 01:42:53,120
+ so this particular vector would contain right a good representation or information about this particular image here
+
+916
+01:42:53,120 --> 01:42:57,120
+ so at this stage you can kind of think about it the early layers of CNN
+
+917
+01:42:57,120 --> 01:43:02,120
+ right is to extract some feature visual features from this particular image
+
+918
+01:43:02,120 --> 01:43:08,120
+ so that you can represent it as a vector so this vector sometimes is also known as a descriptor
+
+919
+01:43:08,120 --> 01:43:13,120
+ or sometimes is also known as an embedding they all refer to the same thing
+
+920
+01:43:13,120 --> 01:43:18,120
+ so the goal is to extract information from this image into a vector
+
+921
+01:43:18,120 --> 01:43:24,120
+ or into a feature or you know descriptor or embedding they all refer to the same thing
+
+922
+01:43:24,120 --> 01:43:29,120
+ that's why it's called the feature extraction and after once you have this particular feature
+
+923
+01:43:29,120 --> 01:43:35,120
+ you will let it go through some classifier so this particular classifier would then perform the classification
+
+924
+01:43:35,120 --> 01:43:41,120
+ so based on the vector that you have which is a good representation of your image
+
+925
+01:43:41,120 --> 01:43:46,120
+ then you will try to classify this vector into which category it belongs to
+
+926
+01:43:46,120 --> 01:43:53,120
+ so therefore conceptually you can kind of think about a CNN can be divided into two part feature extraction
+
+927
+01:43:53,120 --> 01:43:56,120
+ and this particular classification using a classifier
+
+928
+01:43:56,120 --> 01:44:01,120
+ and on top of that right for this particular feature extraction part
+
+929
+01:44:01,120 --> 01:44:07,120
+ it has many different layers and this layers you know we say it consists of deep layer
+
+930
+01:44:07,120 --> 01:44:10,120
+ deep layers means that you have many different layers
+
+931
+01:44:10,120 --> 01:44:14,120
+ right that extract progressively higher level abstraction features
+
+932
+01:44:14,120 --> 01:44:20,120
+ so what it means is that for this CNN the early layers tends to extract simple features
+
+933
+01:44:20,120 --> 01:44:24,120
+ you know an edge, a line, a dot, the kind of thing very simple feature
+
+934
+01:44:24,120 --> 01:44:31,120
+ but later layers tends to extract some more complex you know more higher abstraction feature
+
+935
+01:44:31,120 --> 01:44:36,120
+ right some complex pattern so therefore for CNN you have many different layers
+
+936
+01:44:36,120 --> 01:44:40,120
+ early layers extract some very simple features a point and edge
+
+937
+01:44:40,120 --> 01:44:44,120
+ and later layers extract some a lot more complex feature
+
+938
+01:44:44,120 --> 01:44:48,120
+ right so CNN is very commonly used in classification problem
+
+939
+01:44:48,120 --> 01:44:54,120
+ for example to classify into a cat or dog or in this case classify an image into one of the number
+
+940
+01:44:54,120 --> 01:45:00,120
+ or it's used to form regression right for example estimate you know how much rainfall
+
+941
+01:45:00,120 --> 01:45:07,120
+ you know a certain values right continuous value that's known as a regression problem
+
+942
+01:45:07,120 --> 01:45:12,120
+ right okay so CNN is one of the very important and popular AI model
+
+943
+01:45:12,120 --> 01:45:17,120
+ so the next very important AI model is known as a recurrent neural network or INN here
+
+944
+01:45:17,120 --> 01:45:20,120
+ right okay so what is the recurrent neural network?
+
+945
+01:45:20,120 --> 01:45:25,120
+ so the recurrent network is a type of neural network that's specialized in processing sequences
+
+946
+01:45:25,120 --> 01:45:29,120
+ right so in real life there's many types of sequential data that you have
+
+947
+01:45:29,120 --> 01:45:35,120
+ for example some popular one include a share price right so you have a time series data
+
+948
+01:45:35,120 --> 01:45:42,120
+ at different time instances okay you have the values right so share price for example is a time series data
+
+949
+01:45:42,120 --> 01:45:46,120
+ which is the kind of sequential data the other common types of sequential data
+
+950
+01:45:46,120 --> 01:45:52,120
+ for example language right when we talk about a sentence a sentence consists of many different
+
+951
+01:45:52,120 --> 01:45:59,120
+ books so it's also a types of sequential data so INN are a types of AI model that's used
+
+952
+01:45:59,120 --> 01:46:07,120
+ to process this kind of a sequential data right okay so it's commonly used in analyzing time series data
+
+953
+01:46:07,120 --> 01:46:12,120
+ just now as I mentioned for example the share price that you have or state series data right
+
+954
+01:46:12,120 --> 01:46:18,120
+ such as the sentence right that consists of many different books right okay so it's used for
+
+955
+01:46:18,120 --> 01:46:24,120
+ time series or state series either for prediction or modeling okay so some of the common application
+
+956
+01:46:24,120 --> 01:46:31,120
+ include a share price prediction or language translation okay so right okay and if you look at the structures
+
+957
+01:46:31,120 --> 01:46:36,120
+ of the INN so this is the basic structures of INN right so you can see that first of all
+
+958
+01:46:36,120 --> 01:46:43,120
+ we have this red color box here so these are input okay and then this ring boxes here is known as a
+
+959
+01:46:43,120 --> 01:46:49,120
+ hidden state so hidden states is also the memory okay so the memory because for INN you need to
+
+960
+01:46:49,120 --> 01:46:56,120
+ handle sequential data therefore you must have that memory okay to be able to remember so therefore
+
+961
+01:46:56,120 --> 01:47:02,120
+ these are the green boxes here we call hidden state right that's why it's represented by short form H
+
+962
+01:47:02,120 --> 01:47:09,120
+ so this hidden state is also known as an internal state of the memory of the model okay and afterwards
+
+963
+01:47:09,120 --> 01:47:14,120
+ the blue boxes here is actually the output right so we can see that for example if you take this particular
+
+964
+01:47:14,120 --> 01:47:21,120
+ the hidden state of memory at time step 3 right you will see that it depends on your current input
+
+965
+01:47:21,120 --> 01:47:27,120
+ okay in this case here in this sample application you know is actually you know the input is some
+
+966
+01:47:27,120 --> 01:47:35,120
+ works here like what is the right so this is the input here so your current memory depends on your
+
+967
+01:47:35,120 --> 01:47:43,120
+ current input it also depends on the past memory okay so your current memory depends on your current
+
+968
+01:47:43,120 --> 01:47:51,120
+ input as well as the past memory and your past memory at H2 depends on the input at X2 as well as
+
+969
+01:47:51,120 --> 01:47:58,120
+ the previous memory at H1 so therefore it's easy for you to see right therefore because of that your
+
+970
+01:47:58,120 --> 01:48:06,120
+ current hidden state of memory will depends on your current input as well as all the past input so
+
+971
+01:48:06,120 --> 01:48:13,120
+ that's why for INN it has the capability as this memory because it can know actually it depends on
+
+972
+01:48:13,120 --> 01:48:19,120
+ your current input as well as all the past input therefore it has some kind of a memory capability
+
+973
+01:48:19,120 --> 01:48:26,120
+ because it can still remember part of the inputs in the past right so once you have updated the memory
+
+974
+01:48:26,120 --> 01:48:33,120
+ of the hidden state you can then use it to generate your output okay so that's the basic you know
+
+975
+01:48:33,120 --> 01:48:40,120
+ structures of an INN so later on once we come to the part where explain the parts on INN okay
+
+976
+01:48:40,120 --> 01:48:46,120
+ we'll explain more about it at this kind of stage it's just trying to provide a quick introduction
+
+977
+01:48:46,120 --> 01:48:53,120
+ right okay so the next AI model that we have is known as the transformer so transformer currently
+
+978
+01:48:53,120 --> 01:49:00,120
+ is probably one of the hottest AI model almost all the very popular applications that you heard of
+
+979
+01:49:00,120 --> 01:49:09,120
+ LLM know chat GBT right image generation such as stable diffusion many of them use this AI model
+
+980
+01:49:09,120 --> 01:49:15,120
+ okay so currently is one of the most important model so where's the transformer it's a type of network
+
+981
+01:49:15,120 --> 01:49:22,120
+ that uses a tension mechanism right so what's this attention mechanism so the original paper of this transformer
+
+982
+01:49:22,120 --> 01:49:29,120
+ actually come from the machine translation so machine translation means that for example given a particular
+
+983
+01:49:29,120 --> 01:49:35,120
+ sentence right okay so for example given a particular sentence in French you want to translate into English
+
+984
+01:49:35,120 --> 01:49:41,120
+ so a sentence have a few different works right so you know a sentence have a few different works
+
+985
+01:49:41,120 --> 01:49:47,120
+ so if you look at this current works you want to understand the importance of the other works to
+
+986
+01:49:47,120 --> 01:49:55,120
+ work sit so this particular process is known as the attention right so one example is that if you can think
+
+987
+01:49:55,120 --> 01:50:02,120
+ about okay so if you look at this particular thing what's this this is a mouse right but when I say mouse
+
+988
+01:50:02,120 --> 01:50:10,120
+ right for some other people some people may think of the mouse could be the cat mouse yeah this is a mouse
+
+989
+01:50:10,120 --> 01:50:17,120
+ but if I just tell you a mouse so you can think is potentially cat and mouse or it could be for
+
+990
+01:50:17,120 --> 01:50:23,120
+ example a computer mouse so therefore if I just simply give you a single work like mouse you know it's
+
+991
+01:50:23,120 --> 01:50:30,120
+ not clear there's an ambiguity so therefore how do you know know what is the meaning of mouse right
+
+992
+01:50:30,120 --> 01:50:35,120
+ right just now as I mentioned if I tell you cat and mouse you know right is actually the animal
+
+993
+01:50:35,120 --> 01:50:40,120
+ right if I say is a computer mouse then you know right away computer and this is the mouse so therefore
+
+994
+01:50:40,120 --> 01:50:46,120
+ how do you know given a particular works what's the meaning a lot of the time it depends on the context
+
+995
+01:50:46,120 --> 01:50:54,120
+ so context means the works surrounding it okay so that's why this attention mechanism as I mentioned
+
+996
+01:50:54,120 --> 01:50:59,120
+ is that given a particular sentence say it contain many different works if you look at this current
+
+997
+01:50:59,120 --> 01:51:06,120
+ works and what is the you know contributions of the all the importance right of other works
+
+998
+01:51:06,120 --> 01:51:12,120
+ the works this kind of work you're looking at this particular process of trying to find out the importance
+
+999
+01:51:12,120 --> 01:51:19,120
+ of relationship right is known as the attention mechanisms here so again when we study about
+
+1000
+01:51:19,120 --> 01:51:24,120
+ transformer we'll talk more about it but at this stage I think it's enough to understand that is the
+
+1001
+01:51:24,120 --> 01:51:29,120
+ meaning of attention here right so this is that a model that means is the attention to process
+
+1002
+01:51:29,120 --> 01:51:36,120
+ of input sequence in parallel okay so it's good at modeling long range dependency so the meaning
+
+1003
+01:51:36,120 --> 01:51:41,120
+ of long range dependency is that if you can think about the example of a sentence right so if you
+
+1004
+01:51:41,120 --> 01:51:47,120
+ have a sentence there are many different works so if you look at the contribution or the importance
+
+1005
+01:51:47,120 --> 01:51:54,120
+ of the relationship of all the works even those works which are very far away so we call it long
+
+1006
+01:51:54,120 --> 01:52:00,120
+ range dependency because right we can even look at the relationship of a works which are very far away
+
+1007
+01:52:00,120 --> 01:52:06,120
+ right so it's long range right so why is transformer important is because currently it
+
+1008
+01:52:06,120 --> 01:52:12,120
+ achieved the state of the art performance in many computer vision and natural language processing
+
+1009
+01:52:12,120 --> 01:52:17,120
+ application right so yeah in later part we're going to spend quite a bit of time talking about
+
+1010
+01:52:17,120 --> 01:52:25,120
+ the transformer okay so in recent years of course this large language model you know LLM is all very
+
+1011
+01:52:25,120 --> 01:52:32,120
+ popular and very hot so but what's the basic principles of LLM here right so how we train an LLM
+
+1012
+01:52:32,120 --> 01:52:37,120
+ is that we'll get a big chance of the data text data from the internet for example right we train it
+
+1013
+01:52:37,120 --> 01:52:43,120
+ for a long time okay a long duration of time causes lots of time lots of money and afterwards we
+
+1014
+01:52:43,120 --> 01:52:50,120
+ will get a trained file here but the high level objective of this you know LLM actually from the
+
+1015
+01:52:50,120 --> 01:52:55,120
+ training perspective is very simple right so you for example you get some text from the internet
+
+1016
+01:52:55,120 --> 01:53:02,120
+ you already have all these different you know works in a sentence so when you train this particular
+
+1017
+01:53:02,120 --> 01:53:08,120
+ model what you do is pretty much right you use the you know early work to try to predict what is the
+
+1018
+01:53:08,120 --> 01:53:16,120
+ following works so that's the basic ideas of a lot of the large language model such as the chatGPD
+
+1019
+01:53:16,120 --> 01:53:24,120
+ so for example given a sentence if you already know cat sat on a right so what is the likely
+
+1020
+01:53:24,120 --> 01:53:31,120
+ works that's no following it so because all these sentence that you can obtain from the internet so
+
+1021
+01:53:31,120 --> 01:53:37,120
+ therefore training this particular that work is you know you already you do not need additional
+
+1022
+01:53:37,120 --> 01:53:44,120
+ annotation right so you can train it so the basic ideas of LLM in terms of training is the next work
+
+1023
+01:53:44,120 --> 01:53:51,120
+ prediction right so that is the basic principle so and common architecture that's being used is
+
+1024
+01:53:51,120 --> 01:53:57,120
+ based on transform okay so later on once we study transformer then you have a better understanding
+
+1025
+01:53:57,120 --> 01:54:03,120
+ so pretty much given the earlier works that you have here you go let go through the encoder of the
+
+1026
+01:54:03,120 --> 01:54:10,120
+ transformer and then you try to predict what's the following works here okay in the decoder right so
+
+1027
+01:54:10,120 --> 01:54:18,120
+ this is lots of LLM is centered on the transformer that we have earlier on explained right so in
+
+1028
+01:54:18,120 --> 01:54:24,120
+ recent year another very popular direction is known as the foundation models so is foundation models
+
+1029
+01:54:24,120 --> 01:54:31,120
+ so foundation models are models that are trained on large scale broad data right so the missus train
+
+1030
+01:54:31,120 --> 01:54:38,120
+ based on lots of data so it's very large scale and broad means that it handle different types of
+
+1031
+01:54:38,120 --> 01:54:45,120
+ problems so the data is not just focusing on one particular niche application it cover many many
+
+1032
+01:54:45,120 --> 01:54:51,120
+ different application many many different areas so it's a broad data but such that it can be adapted
+
+1033
+01:54:51,120 --> 01:54:58,120
+ or fine tuned to a wide range of downstream tasks in application so why is foundation model in
+
+1034
+01:54:58,120 --> 01:55:05,120
+ recent year become very popular so before foundation models are in the past when you want to develop
+
+1035
+01:55:05,120 --> 01:55:11,120
+ a solution usually you need to collect say suppose you have a certain application you want to recognize
+
+1036
+01:55:11,120 --> 01:55:18,120
+ different plants in Singapore right suppose you join a company and your boss tell you that you
+
+1037
+01:55:18,120 --> 01:55:24,120
+ don't try to develop a solutions to recognize different plants in Singapore so what are you going to do
+
+1038
+01:55:24,120 --> 01:55:33,120
+ so if you think about it right traditionally what it means is that you have to know collect some data
+
+1039
+01:55:33,120 --> 01:55:39,120
+ right you have to collect some data okay to train this particular model right so that means for
+
+1040
+01:55:39,120 --> 01:55:48,120
+ different application for different use cases you need to collect the data right to train the model
+
+1041
+01:55:48,120 --> 01:55:54,120
+ for different application and we know that data set construction and implementation is very expensive
+
+1042
+01:55:54,120 --> 01:56:01,120
+ so it's very expensive to create a data set so therefore there's a traditional approach but in
+
+1043
+01:56:01,120 --> 01:56:08,120
+ recent year right people say that why not okay it seems we have some you know especially those big companies
+
+1044
+01:56:08,120 --> 01:56:16,120
+ right so those internet companies like you know Google you know Meta there are lots of data so right
+
+1045
+01:56:16,120 --> 01:56:23,120
+ is it possible that we use those large scale right broad data that contain different kind of use cases
+
+1046
+01:56:23,120 --> 01:56:30,120
+ to train a basic model right so this basic model known as a foundation model would have seen many
+
+1047
+01:56:30,120 --> 01:56:36,120
+ many data over many many different kind of scenarios so you train this foundation model and then
+
+1048
+01:56:36,120 --> 01:56:43,120
+ afterwards you take this foundation model okay and then you look at what is the specific downstream application
+
+1049
+01:56:43,120 --> 01:56:53,120
+ right is it some plants recognition or is it some yeah trying to check whether a particular skin condition
+
+1050
+01:56:53,120 --> 01:57:02,120
+ is cancer or not right so you take this foundation model and you do some minor adaptation of fine tuning
+
+1051
+01:57:02,120 --> 01:57:12,120
+ to address those use case downstream use cases so by doing that right you don't really need to know have your
+
+1052
+01:57:12,120 --> 01:57:21,120
+ large your data set right for your original data okay or you only need very little data set for those downstream
+
+1053
+01:57:21,120 --> 01:57:29,120
+ application so that's the basic ideas of the foundation model right okay so it was trained on large scale
+
+1054
+01:57:29,120 --> 01:57:36,120
+ broad data so it see many different scenario and then it can later on be adapted or fine to you only need to do some
+
+1055
+01:57:36,120 --> 01:57:44,120
+ minor adjustment right using probably very limited data so that then afterwards it can be used to handle a wide range
+
+1056
+01:57:44,120 --> 01:57:52,120
+ of your downstream applications here right so some of the examples of foundation model include for example LLM
+
+1057
+01:57:52,120 --> 01:58:00,120
+ right large language model such as the chat GPT or vision language model right such as the clip so these are all the
+
+1058
+01:58:00,120 --> 01:58:07,120
+ models that are falling under this foundation model so the basic idea of foundation model as I mentioned is here
+
+1059
+01:58:07,120 --> 01:58:16,120
+ so you have a large amount of data cover covering no many possible scenarios you use to train no large foundation model
+
+1060
+01:58:16,120 --> 01:58:26,120
+ so once this large foundation is trained you can then use it to do some finer minor adaptation of fine tuning to adapt it to
+
+1061
+01:58:26,120 --> 01:58:34,120
+ handle different application or use cases okay so that's the basic principles of the foundation model
+
+1062
+01:58:35,120 --> 01:58:44,120
+ right okay so we have just now spent a bit of time to talk about different deep neural network models so the next thing is
+
+1063
+01:58:44,120 --> 01:58:50,120
+ now we are going to start from something simple so we're going to start with a linear classifier and progressively move on to
+
+1064
+01:58:50,120 --> 01:59:01,120
+ CNN so what's a linear classifier right so but before that let's look at this human brain cortex here so this is the human
+
+1065
+01:59:01,120 --> 01:59:10,120
+ brain and the human visual cortex so this is the region C so this is the region that know receive integrate and
+
+1066
+01:59:10,120 --> 01:59:19,120
+ interpret the visual information right human brain right so in the early years when people know try to look at this
+
+1067
+01:59:19,120 --> 01:59:26,120
+ particular human brain and see how can we simulate because human brains know very powerful right so in early years people
+
+1068
+01:59:26,120 --> 01:59:34,120
+ try to look at how this human brain works and try to get motivation from them can we create some artificial model that mimic how
+
+1069
+01:59:34,120 --> 01:59:43,120
+ the biological neuron works right so in our brain right it consists of biological neurons and many of these neurons they
+
+1070
+01:59:43,120 --> 01:59:52,120
+ interconnected together to form the brain okay so right and if you look at know each individual neuron right this is how it looks
+
+1071
+01:59:52,120 --> 01:59:59,120
+ like here right so this is one biological neurons you have some 10 tracks here so this 10 tracks are where the is collect the
+
+1072
+01:59:59,120 --> 02:00:08,120
+ signal okay so it collects signals from all the know surrounding neuron so it collect the signal and then amplify
+
+1073
+02:00:08,120 --> 02:00:16,120
+ and multiply this signal with different way okay it sum it up and afterwards it travel down okay and then it propagate to the other
+
+1074
+02:00:16,120 --> 02:00:26,120
+ know next neuron so that's the basic operating principles of biological neuron so motivated by that know in early years people try to
+
+1075
+02:00:26,120 --> 02:00:34,120
+ build this particular model right known as the perceptron okay so this is the perceptron so perceptron is the artificial neuron
+
+1076
+02:00:34,120 --> 02:00:43,120
+ right that people motivated by the biological neuron okay so this is the artificial neuron known as the perceptron right so we can see
+
+1077
+02:00:43,120 --> 02:00:51,120
+ first of all we have some input which is x1 x2 all the way up to xm right so this input is actually corresponding to all this signal that is
+
+1078
+02:00:51,120 --> 02:00:58,120
+ collected and each of this input is multiplied by the corresponding weight so this weight is also known as the synaptic weight and
+
+1079
+02:00:58,120 --> 02:01:06,120
+ afterwards you add with the optional bias right so this is a scalar value you can choose to include it or choose not to include it so this is
+
+1080
+02:01:06,120 --> 02:01:14,120
+ optional bias here so you add them up and then afterwards you let it go through the activation function so this activation function is usually a nonlinear
+
+1081
+02:01:14,120 --> 02:01:25,120
+ function to make the modeling more dynamic to make it the modeling richer okay so afterwards you let it go through some nonlinear activation function
+
+1082
+02:01:25,120 --> 02:01:35,120
+ then you generate the output right so this is the early artificial neuron to model this biological neuron right okay but we all know that in
+
+1083
+02:01:35,120 --> 02:01:43,120
+ our brain it's not consisting of one single neuron it's actually many neurons connecting together so there's many neuron which is like
+
+1084
+02:01:43,120 --> 02:01:54,120
+ connecting together in the brain so then people continue to model this right so how they model is they model using multi-layer perceptron so from the
+
+1085
+02:01:54,120 --> 02:02:02,120
+ name you can more or less guess what is ready multi-layer I mean there are many different layer of perceptron the model that we have mentioned
+
+1086
+02:02:02,120 --> 02:02:13,120
+ so multi-layer perceptron is also known as the MLP is actually an important kind of structure right that was used in actually many other subsequent more
+
+1087
+02:02:13,120 --> 02:02:22,120
+ advanced model as you will see later okay so anyway we'll look at what is this MLP here so this is the example of the MLP here so first of all you
+
+1088
+02:02:22,120 --> 02:02:31,120
+ have the input signal right for example x1 x2 x3 so you have the input signals here right and then you have this first layers of
+
+1089
+02:02:31,120 --> 02:02:38,120
+ the neuron we call the first hidden layer and then we have the second layers of the neuron we call it second hidden layer and afterwards we have the
+
+1090
+02:02:38,120 --> 02:02:46,120
+ output we call it the output layer so it's quite clear we know this is the input okay so this is the input layer it receives the input
+
+1091
+02:02:46,120 --> 02:02:54,120
+ signal and this is the output layer right it generates the output for example to classify into you know different digits or different
+
+1092
+02:02:54,120 --> 02:03:04,120
+ plans okay so the layers in between we call hidden layer because from outside this are appear to be hidden from the input and output
+
+1093
+02:03:04,120 --> 02:03:14,120
+ perspective so we call it hidden layer right so each of this hidden layer has many perceptron so each of these nodes here is actually the perceptron that we have
+
+1094
+02:03:14,120 --> 02:03:24,120
+ just introduced a short while ago so you can see if you take one perceptron here you take the input from all this x1 x2 right it's summed up
+
+1095
+02:03:24,120 --> 02:03:34,120
+ add with an optional bias okay let it go through the activation function and then propagate the signal to the next layer okay so each of this
+
+1096
+02:03:34,120 --> 02:03:43,120
+ particular neuron will form the same task as like what I have mentioned okay so MLP level is consist of interconnection of perceptron as you can see from
+
+1097
+02:03:43,120 --> 02:03:53,120
+ this diagram right so this MLP sometimes is also known as a fit forward network or known dense network so this name is used interchangeably
+
+1098
+02:03:53,120 --> 02:04:03,120
+ right okay so next we are going to look at linear classifier so what is a linear classifier so a linear classifier is a classifier a classifier
+
+1099
+02:04:03,120 --> 02:04:14,120
+ means that you want to classify into one of the category okay so a linear classifier is a classifier that make a classification decision right based on the linear
+
+1100
+02:04:14,120 --> 02:04:24,120
+ combinations of the input signal okay right so the easiest way to explain about this linear classifier is true an example right so suppose if we look at this
+
+1101
+02:04:24,120 --> 02:04:37,120
+ example we want to develop a linear classifier to classify an input image into 10 possible categories of labels right so for this course category and labels refer to the same thing
+
+1102
+02:04:37,120 --> 02:04:49,120
+ labels and category refer to the same thing so we want to design a linear classifier to classify an input image into 10 classes or 10 label or 10 categories here right
+
+1103
+02:04:49,120 --> 02:05:00,120
+ okay so suppose you have this input image here so this input image is 32 by 32 by 3 so this 32 by 32 means that is the number of row and number column
+
+1104
+02:05:00,120 --> 02:05:13,120
+ okay 32 and 32 and this tree is because it's a color image so you have RGB channel right so therefore this particular input image here is 32 by 32 by 3
+
+1105
+02:05:13,120 --> 02:05:30,120
+ right so it's actually a volume or tensor right but when we do this processing very often right we want to convert this volume or tensor into a vector because there are lots of tools that we can manipulate vectors much better
+
+1106
+02:05:30,120 --> 02:05:48,120
+ so therefore what we do now is that we try to rearrange this particular volume into a vector here so how do we convert this volume into a vector we scan it for example first of all the first channel is a red channel so we scan it row by row
+
+1107
+02:05:48,120 --> 02:06:03,120
+ so the first row right we write it down as a vector second row we write down as the next vector so we scan it row by row okay so then you have the first factor going down second factor you concatenate them
+
+1108
+02:06:03,120 --> 02:06:24,120
+ so you scan the first channel already and afterwards you scan the after you finish the rate then you scan the RG okay then the green channel okay so after work step by scanning it row by row channel by channel then you can convert it into a long vector here
+
+1109
+02:06:25,120 --> 02:06:47,120
+ so in terms of example RGB we use the same terminology as what we mentioned before you can call it channel we can call it component okay so anyway by scanning it this way you can convert this volume into a vector here right so now this particular volume now can be represented by a vector okay so this can be represented by a vector
+
+1110
+02:06:47,120 --> 02:07:01,120
+ so when we are talking about linear classifier essentially we are using this equation to define a linear classifier you can see x is actually the input and now x is actually a vector an input column vector
+
+1111
+02:07:01,120 --> 02:07:19,120
+ okay so w is a weight matrix okay w is a weight matrix here so you can see x is actually you know 3 0 7 2 vector okay column vector x is actually a weight matrix dimensions 10 times 3 0 7 2
+
+1112
+02:07:19,120 --> 02:07:48,120
+ so this weight matrix multiplied with this particular x just now is 3 0 7 2 by 1 the output of this particular multiplication is a 10 by 1 vector so this 10 by 1 vector later on you can add up with this optional bias factor here so this factor bias you can choose to use it in many classification scheme you can either choose to use it or choose not to use it is totally up to you right okay so that's what we are going to do
+
+1113
+02:07:49,120 --> 02:08:18,120
+ therefore right for a linear classifier mathematically is just described by this operation we have the input vector we multiply with this weight matrix we add up with an optional bias factor to generate this output here fx here okay so this weight matrix a view and this optional bias is vector is something that we need to train right so we need to train optimize this parameter later on but pretty much right
+
+1114
+02:08:19,120 --> 02:08:43,120
+ as I mentioned linear classifier mathematically can be interpreted as these equations here so you take a long input vector after this mapping you convert it into you know a vector in this case if our target application is to classify into 10 category then the output is actually a vectors of 10 dimension right so this is a linear classifier
+
+1115
+02:08:43,120 --> 02:09:12,120
+ right so there's actually a few way to interpret this linear classifier the most straightforward way is using just now the equation that we have mentioned so the linear classifier from the algebraic perspective is w multiplied by x plus optional b to generate the output okay so right so now in order to further illustrate we consider this simple example suppose this particular image now we say it only has one channel okay
+
+1116
+02:09:13,120 --> 02:09:42,120
+ so we have a two by two image here so to make it easier let's consider for the time being our input image is a two by two image here and the four pixel values are this four pixel values here okay so next is that we convert this particular image into a vector using what we know as a lexical graphical ordering so the first row okay right we write here and the second row of the value we write here so by doing that we can do this
+
+1117
+02:09:43,120 --> 02:10:12,120
+ we can convert this image into a vector okay and afterwards if our goal is to classify in this example is to classify into three possible category alright if it's to classify into three category then our matrix w here is actually a three by four matrix okay three by four matrix here okay and our bias factor is a three by one factors here right so then you have this weight matrix multiplied by input factor plus your bias
+
+1118
+02:10:13,120 --> 02:10:42,120
+ factor you obtain this is your output here so this is wx plus b right so on top of that if you want to look at for example how do you calculate the output score suppose the first category is you know this is corresponding this output corresponding to cap this output correspond to dog this output correspond to ship right suppose we decide this is a way right so what are the factors that can affect the scores for this cap category is actually the first row in
+
+1119
+02:10:42,120 --> 02:10:45,160
+ So, this row in your W matrix, right,
+
+1120
+02:10:45,160 --> 02:10:47,360
+ multiply with your input factor
+
+1121
+02:10:47,360 --> 02:10:51,920
+ plus the first entry in your bias factor, okay?
+
+1122
+02:10:51,920 --> 02:10:54,880
+ So, how do you generate this particular second score
+
+1123
+02:10:54,880 --> 02:10:56,400
+ that correspond to the dog?
+
+1124
+02:10:56,400 --> 02:10:58,480
+ Is this particular second row, okay,
+
+1125
+02:10:58,480 --> 02:11:00,240
+ multiplied by your input, right,
+
+1126
+02:11:00,240 --> 02:11:04,599
+ plus the corresponding bias value to generate output, okay?
+
+1127
+02:11:04,599 --> 02:11:07,880
+ So, that's a basic understanding, right?
+
+1128
+02:11:07,880 --> 02:11:10,200
+ The first interpretations of the linear classifier.
+
+1129
+02:11:11,200 --> 02:11:13,559
+ Right, okay, so that's one interpretation.
+
+1130
+02:11:13,559 --> 02:11:15,320
+ The second interpretation that we have
+
+1131
+02:11:15,320 --> 02:11:18,880
+ is from the visual perspective of viewpoint here.
+
+1132
+02:11:18,880 --> 02:11:20,480
+ So, early on we can see that,
+
+1133
+02:11:20,480 --> 02:11:24,480
+ right from this particular classifier here, right?
+
+1134
+02:11:24,480 --> 02:11:29,280
+ So, if you want to calculate this particular output score
+
+1135
+02:11:29,280 --> 02:11:32,800
+ for the cat category, what we can do is that, right,
+
+1136
+02:11:32,800 --> 02:11:35,200
+ we can actually rearrange, okay,
+
+1137
+02:11:35,200 --> 02:11:39,120
+ we can rearrange the first row in your W matrix, right,
+
+1138
+02:11:40,120 --> 02:11:43,720
+ convert it back to an image structure, okay?
+
+1139
+02:11:43,720 --> 02:11:45,880
+ So, for example, right, if you want to see
+
+1140
+02:11:45,880 --> 02:11:48,120
+ how we can calculate this cat score here,
+
+1141
+02:11:48,120 --> 02:11:51,760
+ there's another way, another perspective we can do it.
+
+1142
+02:11:51,760 --> 02:11:54,120
+ So, what we can have is that, first of all,
+
+1143
+02:11:54,120 --> 02:11:56,120
+ we have this particular input image
+
+1144
+02:11:56,120 --> 02:11:59,400
+ which is consisting of this four-pixel, right?
+
+1145
+02:11:59,400 --> 02:12:01,360
+ And then, after we have this four-value here,
+
+1146
+02:12:01,360 --> 02:12:04,960
+ this factor here, we rearrange it back into an image.
+
+1147
+02:12:04,960 --> 02:12:07,960
+ So, this, so it's one, two, three, four,
+
+1148
+02:12:07,960 --> 02:12:11,320
+ we arrange it into this one, two, three, four.
+
+1149
+02:12:11,320 --> 02:12:13,920
+ All right, it's just rearranging it, okay?
+
+1150
+02:12:13,920 --> 02:12:18,200
+ And afterwards, this first value here, we just pick it up.
+
+1151
+02:12:18,200 --> 02:12:20,440
+ So, now, if you want to generate the score
+
+1152
+02:12:20,440 --> 02:12:22,600
+ for the cat category, you can kind of imagine
+
+1153
+02:12:22,600 --> 02:12:26,520
+ that it's pretty much we just take this input image, okay?
+
+1154
+02:12:26,520 --> 02:12:30,400
+ We superimpose, right, with this particular weight,
+
+1155
+02:12:31,320 --> 02:12:33,960
+ matrix coming from the first row, all right?
+
+1156
+02:12:33,960 --> 02:12:37,240
+ And afterwards, we multiply their corresponding term,
+
+1157
+02:12:37,240 --> 02:12:38,679
+ we sum it up, okay?
+
+1158
+02:12:38,679 --> 02:12:40,960
+ That means we take this value multiplied by this,
+
+1159
+02:12:40,960 --> 02:12:43,639
+ this value multiplied by this, this multiplied by this,
+
+1160
+02:12:43,639 --> 02:12:45,519
+ this multiplied by this, okay?
+
+1161
+02:12:45,519 --> 02:12:48,800
+ We sum it up, and then we add up with this particular,
+
+1162
+02:12:48,800 --> 02:12:52,880
+ you know, bias value to generate the score, okay?
+
+1163
+02:12:52,880 --> 02:12:54,639
+ So, this is another way we can see
+
+1164
+02:12:54,639 --> 02:12:56,480
+ how do we generate the score, for example,
+
+1165
+02:12:56,480 --> 02:12:58,559
+ for the cat category.
+
+1166
+02:12:58,559 --> 02:13:02,360
+ So, if you want to generate the score for the doc category,
+
+1167
+02:13:02,360 --> 02:13:05,400
+ but what we need to do is now we take this particular row,
+
+1168
+02:13:05,400 --> 02:13:09,240
+ we rearrange it into this weight matrix like this, right?
+
+1169
+02:13:09,240 --> 02:13:11,400
+ And then if you want to generate the doc score,
+
+1170
+02:13:11,400 --> 02:13:14,280
+ is you take this two by two pixel,
+
+1171
+02:13:14,280 --> 02:13:18,200
+ you superimpose it, you multiply their corresponding term,
+
+1172
+02:13:18,200 --> 02:13:20,000
+ okay, you perform some product operation,
+
+1173
+02:13:20,000 --> 02:13:22,799
+ you sum it up, you add up with this bias,
+
+1174
+02:13:22,799 --> 02:13:24,759
+ you get this particular score here, okay?
+
+1175
+02:13:24,759 --> 02:13:27,040
+ So, right, the same thing happened
+
+1176
+02:13:27,040 --> 02:13:30,320
+ to the same, the third category here, you know?
+
+1177
+02:13:30,320 --> 02:13:32,080
+ So, the next question you may ask is,
+
+1178
+02:13:32,080 --> 02:13:33,519
+ why do you want to do this?
+
+1179
+02:13:34,000 --> 02:13:38,280
+ What's the insight we gain from doing this?
+
+1180
+02:13:38,280 --> 02:13:41,200
+ So, the insight we gain from doing this is that,
+
+1181
+02:13:41,200 --> 02:13:43,080
+ okay, so in this simple example,
+
+1182
+02:13:43,080 --> 02:13:48,080
+ we are using, you know, this particular simple image here,
+
+1183
+02:13:48,160 --> 02:13:49,960
+ two by two image here.
+
+1184
+02:13:49,960 --> 02:13:52,560
+ But in a real data set, for example,
+
+1185
+02:13:52,560 --> 02:13:54,720
+ this is a C-FAR-10 data set.
+
+1186
+02:13:54,720 --> 02:13:58,800
+ So, C-FAR-10 data set is a data set that has 10 categories.
+
+1187
+02:13:58,800 --> 02:14:01,200
+ So, this is a C-FAR-10 data set.
+
+1188
+02:14:01,240 --> 02:14:05,200
+ This is an early data set used to test the performance
+
+1189
+02:14:05,200 --> 02:14:08,040
+ of the AI model, so it's an earlier data set.
+
+1190
+02:14:08,040 --> 02:14:10,679
+ It has actually these 10 categories here,
+
+1191
+02:14:10,679 --> 02:14:12,599
+ these 10 categories here.
+
+1192
+02:14:12,599 --> 02:14:16,120
+ So, these are some sample images in the C-FAR-10 data set.
+
+1193
+02:14:16,120 --> 02:14:19,080
+ So, each of these particular images is actually 32
+
+1194
+02:14:19,080 --> 02:14:22,679
+ by 32 by three, just like what we see here.
+
+1195
+02:14:22,679 --> 02:14:27,679
+ So, now, suppose we take this particular C-FAR-10 data set,
+
+1196
+02:14:28,680 --> 02:14:32,920
+ right, and then we use this particular earlier approach,
+
+1197
+02:14:32,920 --> 02:14:34,840
+ then you can see that what we have now
+
+1198
+02:14:34,840 --> 02:14:39,840
+ is our weight matrix now is 10 times 3072.
+
+1199
+02:14:41,520 --> 02:14:44,160
+ Right, so this particular, that means each row,
+
+1200
+02:14:44,160 --> 02:14:47,200
+ we have 3072 values here.
+
+1201
+02:14:47,200 --> 02:14:49,760
+ So, if you take this each row of the value,
+
+1202
+02:14:49,760 --> 02:14:54,280
+ we rearrange it in this way here, right,
+
+1203
+02:14:54,320 --> 02:14:59,320
+ then actually it will become a 32 by 32 weight matrix here.
+
+1204
+02:15:00,040 --> 02:15:04,200
+ Okay, right, so during the training process,
+
+1205
+02:15:04,200 --> 02:15:07,759
+ during the training process, our goal is that, right,
+
+1206
+02:15:07,759 --> 02:15:10,759
+ we have, this is our predicted value, right,
+
+1207
+02:15:10,759 --> 02:15:13,440
+ so during the training process, we have the predicted value
+
+1208
+02:15:13,440 --> 02:15:14,840
+ and we have the ground truth,
+
+1209
+02:15:14,840 --> 02:15:17,759
+ that means the ideal output that we have.
+
+1210
+02:15:17,759 --> 02:15:19,559
+ So, during the training, right,
+
+1211
+02:15:19,559 --> 02:15:22,639
+ so usually if you're given a cat image,
+
+1212
+02:15:22,640 --> 02:15:24,600
+ this is your predicted output,
+
+1213
+02:15:24,600 --> 02:15:28,440
+ but your ground truth or your ideal value,
+
+1214
+02:15:28,440 --> 02:15:32,040
+ if it's a cat, that means it's 100, okay,
+
+1215
+02:15:32,040 --> 02:15:34,640
+ if it belongs to cat category, then this is one,
+
+1216
+02:15:34,640 --> 02:15:37,200
+ dog and sheep category will be zero and zero.
+
+1217
+02:15:37,200 --> 02:15:40,400
+ Okay, if next time we present a dog image,
+
+1218
+02:15:40,400 --> 02:15:42,480
+ then the ground truth or the teacher
+
+1219
+02:15:42,480 --> 02:15:46,080
+ or the ideal value will be zero, one, zero, okay.
+
+1220
+02:15:46,080 --> 02:15:50,360
+ So, yeah, so therefore our goal is that, okay,
+
+1221
+02:15:50,400 --> 02:15:53,240
+ every time we present a new data,
+
+1222
+02:15:53,240 --> 02:15:55,120
+ we have some predicted output,
+
+1223
+02:15:55,120 --> 02:16:00,120
+ we compare with the teacher or the ground truth,
+
+1224
+02:16:00,240 --> 02:16:02,639
+ but we want to minimize this error.
+
+1225
+02:16:02,639 --> 02:16:04,400
+ So how do you minimize the error
+
+1226
+02:16:04,400 --> 02:16:07,799
+ between your predicted value and your ground truth?
+
+1227
+02:16:07,799 --> 02:16:12,440
+ Is by adjusting the weight in W and B.
+
+1228
+02:16:12,440 --> 02:16:16,519
+ So, the process of adjusting the weight in W and B
+
+1229
+02:16:16,519 --> 02:16:18,480
+ is known as training, okay.
+
+1230
+02:16:18,519 --> 02:16:21,280
+ So, yeah, if we take a simple example,
+
+1231
+02:16:21,280 --> 02:16:22,799
+ for example, we have this cat image,
+
+1232
+02:16:22,799 --> 02:16:27,360
+ we present a cat image based on our current W and B value,
+
+1233
+02:16:27,360 --> 02:16:29,519
+ we're generally our predicted output.
+
+1234
+02:16:29,519 --> 02:16:32,799
+ So we compare our predicted output with the ground truth,
+
+1235
+02:16:32,799 --> 02:16:35,359
+ if it's a cat, that means it's 100,
+
+1236
+02:16:35,359 --> 02:16:36,920
+ we'll calculate an error.
+
+1237
+02:16:36,920 --> 02:16:41,920
+ This error will then be used to update our weight and B,
+
+1238
+02:16:42,600 --> 02:16:46,480
+ right, so the process of updating the W and B
+
+1239
+02:16:46,480 --> 02:16:47,900
+ is known as training.
+
+1240
+02:16:47,900 --> 02:16:51,539
+ So next, if you present a cat, a dog image, right,
+
+1241
+02:16:51,539 --> 02:16:54,580
+ we're based on our current W and B value,
+
+1242
+02:16:54,580 --> 02:16:57,100
+ we'll generate our predicted output
+
+1243
+02:16:57,100 --> 02:16:59,779
+ and our ground truth now is 010.
+
+1244
+02:16:59,779 --> 02:17:01,619
+ So you compare our ground truth
+
+1245
+02:17:01,619 --> 02:17:03,779
+ and the predicted value, you'll get an error.
+
+1246
+02:17:03,779 --> 02:17:06,619
+ This error is used to update W and B.
+
+1247
+02:17:06,619 --> 02:17:09,340
+ So this process is known as the training.
+
+1248
+02:17:09,340 --> 02:17:12,980
+ So once the training, suppose now we come back to this.
+
+1249
+02:17:12,980 --> 02:17:16,020
+ So earlier on we say that, okay, right,
+
+1250
+02:17:16,060 --> 02:17:18,420
+ we have this C bar, a 10 image.
+
+1251
+02:17:18,420 --> 02:17:20,980
+ Suppose we go through the training process
+
+1252
+02:17:20,980 --> 02:17:22,700
+ like what we mentioned before,
+
+1253
+02:17:22,700 --> 02:17:24,900
+ at the end of this training,
+
+1254
+02:17:24,900 --> 02:17:27,940
+ this particular matrix and this bias
+
+1255
+02:17:27,940 --> 02:17:30,100
+ will be properly trained, yeah.
+
+1256
+02:17:30,100 --> 02:17:32,860
+ But this W and B now, the dimension is bigger,
+
+1257
+02:17:32,860 --> 02:17:36,780
+ it's actually 10 by, you know, this 3072.
+
+1258
+02:17:36,780 --> 02:17:39,020
+ And then if you, once it's fully trained
+
+1259
+02:17:39,020 --> 02:17:43,140
+ for this 10 category, each row of the width
+
+1260
+02:17:43,140 --> 02:17:45,740
+ of the train matrix, the view, right,
+
+1261
+02:17:45,780 --> 02:17:50,539
+ you arrange it back into this particular image type,
+
+1262
+02:17:50,539 --> 02:17:52,820
+ you'll see that once it's fully trained,
+
+1263
+02:17:52,820 --> 02:17:57,100
+ these are the width, okay, for all the 10 categories.
+
+1264
+02:17:57,100 --> 02:17:59,180
+ Okay, if you look at now this particular width,
+
+1265
+02:17:59,180 --> 02:18:00,740
+ what do you see?
+
+1266
+02:18:00,740 --> 02:18:02,340
+ You'll notice that actually, for example,
+
+1267
+02:18:02,340 --> 02:18:06,020
+ for this particular horse category,
+
+1268
+02:18:06,020 --> 02:18:07,699
+ once it's fully trained, right,
+
+1269
+02:18:07,699 --> 02:18:12,260
+ the width that correspond to the row,
+
+1270
+02:18:12,260 --> 02:18:14,580
+ that correspond to the horse, if you arrange it,
+
+1271
+02:18:14,580 --> 02:18:17,700
+ you'll see that it looks like it provides a template,
+
+1272
+02:18:17,700 --> 02:18:21,379
+ okay, a template for the horse category.
+
+1273
+02:18:21,379 --> 02:18:23,860
+ So if you take one more, for example, the car,
+
+1274
+02:18:23,860 --> 02:18:26,139
+ once it's fully trained, you can see that,
+
+1275
+02:18:26,139 --> 02:18:29,020
+ okay, this sample template that you obtain
+
+1276
+02:18:29,020 --> 02:18:32,580
+ from the width corresponding to the car,
+
+1277
+02:18:32,580 --> 02:18:34,700
+ it does look like, you know, a template.
+
+1278
+02:18:34,700 --> 02:18:37,980
+ So therefore, right, this particular visual viewpoint
+
+1279
+02:18:37,980 --> 02:18:39,740
+ is saying, what it's saying is that
+
+1280
+02:18:39,740 --> 02:18:42,620
+ when you're performing linear classification,
+
+1281
+02:18:42,620 --> 02:18:44,340
+ another interpretation is that
+
+1282
+02:18:44,340 --> 02:18:47,340
+ pretty much you are taking your image,
+
+1283
+02:18:47,340 --> 02:18:51,020
+ your input image, and you are trying to perform,
+
+1284
+02:18:51,020 --> 02:18:53,700
+ this particular process of multiplying corresponding term
+
+1285
+02:18:53,700 --> 02:18:56,740
+ and sum it up, this is known as a dot product,
+
+1286
+02:18:56,740 --> 02:18:57,820
+ okay, a dot product.
+
+1287
+02:18:57,820 --> 02:18:59,580
+ So you are trying to perform a dot product
+
+1288
+02:18:59,580 --> 02:19:04,380
+ between your query image and each of this particular sample
+
+1289
+02:19:04,380 --> 02:19:07,300
+ template, so this is like a template, right,
+
+1290
+02:19:07,300 --> 02:19:09,500
+ you want to see this image, right,
+
+1291
+02:19:09,500 --> 02:19:12,660
+ which template is the nearest, okay.
+
+1292
+02:19:12,660 --> 02:19:16,260
+ So therefore, when you are talking about linear classifier,
+
+1293
+02:19:16,260 --> 02:19:20,700
+ you can also interpret it as a template matching operation.
+
+1294
+02:19:20,700 --> 02:19:23,540
+ So linear classifier also has this particular interpretation
+
+1295
+02:19:23,540 --> 02:19:26,740
+ of template matching, you are seeing each of this template,
+
+1296
+02:19:26,740 --> 02:19:31,740
+ which one is the most similar to your current query
+
+1297
+02:19:32,020 --> 02:19:33,500
+ or input image.
+
+1298
+02:19:34,459 --> 02:19:36,660
+ So this is the second perspective.
+
+1299
+02:19:36,660 --> 02:19:41,660
+ So the third perspective is from the geometric viewpoint here.
+
+1300
+02:19:41,820 --> 02:19:45,219
+ So again, we have this particular linear classifier equation
+
+1301
+02:19:45,219 --> 02:19:49,380
+ that we have here, right, so if you look at this
+
+1302
+02:19:49,380 --> 02:19:52,500
+ particular simple examples here, if you want to find out
+
+1303
+02:19:53,840 --> 02:19:57,619
+ whether this particular image is actually
+
+1304
+02:19:57,619 --> 02:20:01,460
+ a cat category here, we take the corresponding row
+
+1305
+02:20:01,460 --> 02:20:05,100
+ of the, in the weight matrix, multiply by this,
+
+1306
+02:20:05,940 --> 02:20:10,620
+ okay, this corresponding row we call it wi, small wi,
+
+1307
+02:20:10,620 --> 02:20:12,980
+ okay, for example, the first row we can call it w1,
+
+1308
+02:20:12,980 --> 02:20:16,820
+ small w1, multiply by x plus this b value
+
+1309
+02:20:16,820 --> 02:20:19,380
+ that will give you the output score here.
+
+1310
+02:20:19,380 --> 02:20:23,780
+ So if you try to, for example, just now look at the,
+
+1311
+02:20:23,780 --> 02:20:25,220
+ okay, in this example here now,
+
+1312
+02:20:25,220 --> 02:20:28,260
+ they look at three categories called car, deer,
+
+1313
+02:20:28,260 --> 02:20:31,060
+ and airplane, and suppose you take, you know,
+
+1314
+02:20:31,060 --> 02:20:34,300
+ one of the categories is deer, so just now the small w,
+
+1315
+02:20:34,340 --> 02:20:38,660
+ x plus b, it actually corresponds to this hyperplane here,
+
+1316
+02:20:38,660 --> 02:20:40,820
+ right, so for this hyperplane here,
+
+1317
+02:20:40,820 --> 02:20:42,460
+ when we do the classification,
+
+1318
+02:20:42,460 --> 02:20:45,460
+ but if the data points are aligned on one side
+
+1319
+02:20:45,460 --> 02:20:47,140
+ of this particular hyperplane,
+
+1320
+02:20:47,140 --> 02:20:50,259
+ we say that it belongs to the deer category,
+
+1321
+02:20:50,259 --> 02:20:52,259
+ but if it's falling on the other side,
+
+1322
+02:20:52,259 --> 02:20:55,179
+ we call it the non-deer category here.
+
+1323
+02:20:55,179 --> 02:20:57,779
+ So therefore, a linear classifier can also be,
+
+1324
+02:20:57,779 --> 02:21:01,220
+ can be interpreted as once it's fully trained,
+
+1325
+02:21:01,220 --> 02:21:05,740
+ wx plus b, the w and b is fully trained, right,
+
+1326
+02:21:05,740 --> 02:21:10,740
+ for each of the category, you can form a hyperplane, okay,
+
+1327
+02:21:11,060 --> 02:21:12,460
+ right, hyperplane here,
+
+1328
+02:21:12,460 --> 02:21:15,300
+ and whether a particular, you know,
+
+1329
+02:21:15,300 --> 02:21:17,420
+ image can be considered as,
+
+1330
+02:21:17,420 --> 02:21:18,980
+ whether it belongs to the category,
+
+1331
+02:21:18,980 --> 02:21:21,580
+ for example, we take the example of the deer category,
+
+1332
+02:21:21,580 --> 02:21:23,539
+ depends on whether it's falling on one side
+
+1333
+02:21:23,539 --> 02:21:26,699
+ or the other side of this classifier, okay,
+
+1334
+02:21:26,699 --> 02:21:27,900
+ so and then, for example,
+
+1335
+02:21:27,900 --> 02:21:30,300
+ for the car category, you also have a hyperplane,
+
+1336
+02:21:30,300 --> 02:21:32,820
+ one side is car, the other side is non-car,
+
+1337
+02:21:32,820 --> 02:21:34,859
+ so therefore, you can see linear classifier
+
+1338
+02:21:34,859 --> 02:21:36,859
+ can also be interpreted as,
+
+1339
+02:21:36,859 --> 02:21:40,300
+ you know, having a simple hyperplane, right,
+
+1340
+02:21:40,300 --> 02:21:43,699
+ images falling on one side is actually belonging
+
+1341
+02:21:43,699 --> 02:21:46,179
+ to the category and the other side is not the category,
+
+1342
+02:21:46,179 --> 02:21:49,539
+ so it's a very simple modeling by itself,
+
+1343
+02:21:49,539 --> 02:21:51,900
+ so because of that, linear classifier itself
+
+1344
+02:21:51,900 --> 02:21:54,220
+ is not good enough because, you know,
+
+1345
+02:21:54,220 --> 02:21:56,140
+ for a very, you can kind of think about it
+
+1346
+02:21:56,140 --> 02:21:58,099
+ in a real world problem, you know,
+
+1347
+02:21:58,100 --> 02:22:00,500
+ just trying to find a line, okay,
+
+1348
+02:22:00,500 --> 02:22:04,700
+ to separate one side of them is belonging to this category,
+
+1349
+02:22:04,700 --> 02:22:06,900
+ the other side is not this category,
+
+1350
+02:22:06,900 --> 02:22:09,340
+ in real world problem, it's not as simple as that,
+
+1351
+02:22:09,340 --> 02:22:12,860
+ that's why this is the limitations of the linear classifier.
+
+1352
+02:22:14,540 --> 02:22:17,100
+ Okay, so early on, we have kind of a,
+
+1353
+02:22:17,100 --> 02:22:19,500
+ kind of already explained about the source function
+
+1354
+02:22:19,500 --> 02:22:22,060
+ and error function, so yeah, as we mentioned,
+
+1355
+02:22:22,060 --> 02:22:24,580
+ how do we train, how do we determine
+
+1356
+02:22:24,580 --> 02:22:27,060
+ what's the optimal W and B,
+
+1357
+02:22:28,340 --> 02:22:30,460
+ W matrix and B vector early on,
+
+1358
+02:22:30,460 --> 02:22:34,500
+ so we need to have a loss function or the error function,
+
+1359
+02:22:34,500 --> 02:22:38,380
+ okay, which is also considered as a matrix of distance
+
+1360
+02:22:38,380 --> 02:22:40,100
+ between our predicted value
+
+1361
+02:22:40,100 --> 02:22:43,820
+ and our target output value or teacher, okay,
+
+1362
+02:22:43,820 --> 02:22:46,500
+ so this predicted, okay,
+
+1363
+02:22:46,500 --> 02:22:49,980
+ so this target output value is also known as a teacher,
+
+1364
+02:22:49,980 --> 02:22:52,060
+ is also known as a ground truth,
+
+1365
+02:22:52,060 --> 02:22:54,180
+ so this point, what it's trying to say is like,
+
+1366
+02:22:54,180 --> 02:22:56,700
+ what I've mentioned early on,
+
+1367
+02:22:56,700 --> 02:22:58,660
+ during the training, right,
+
+1368
+02:22:58,660 --> 02:23:02,260
+ for example, you would input the cat image,
+
+1369
+02:23:02,260 --> 02:23:04,980
+ based on the current B and,
+
+1370
+02:23:04,980 --> 02:23:06,980
+ current W and B value,
+
+1371
+02:23:06,980 --> 02:23:09,500
+ you can generate the predicted output,
+
+1372
+02:23:09,500 --> 02:23:11,500
+ but you also have the ideal output,
+
+1373
+02:23:11,500 --> 02:23:13,460
+ the target or the ground truth,
+
+1374
+02:23:13,460 --> 02:23:16,260
+ so if it's a cat, that means it's 1, 0, 0,
+
+1375
+02:23:16,260 --> 02:23:18,900
+ so you would try to find the error,
+
+1376
+02:23:18,900 --> 02:23:21,300
+ okay, between your predicted value
+
+1377
+02:23:21,300 --> 02:23:24,939
+ and your target or the ground truth,
+
+1378
+02:23:24,939 --> 02:23:27,939
+ so this error between your predicted
+
+1379
+02:23:27,939 --> 02:23:29,779
+ and the ground truth, right,
+
+1380
+02:23:29,779 --> 02:23:32,380
+ so this is known as a loss function, right,
+
+1381
+02:23:32,380 --> 02:23:34,900
+ so this is known as the loss function here,
+
+1382
+02:23:34,900 --> 02:23:38,220
+ this loss function can then be used to back propagate
+
+1383
+02:23:38,220 --> 02:23:41,939
+ to update your W and B parameter,
+
+1384
+02:23:43,900 --> 02:23:45,740
+ so just now this point here, right,
+
+1385
+02:23:45,740 --> 02:23:47,300
+ is what it's trying to say, right,
+
+1386
+02:23:47,300 --> 02:23:49,660
+ the difference between your current predicted value
+
+1387
+02:23:49,660 --> 02:23:52,020
+ and your ground truth or your target
+
+1388
+02:23:52,020 --> 02:23:53,700
+ is known as a loss function,
+
+1389
+02:23:53,700 --> 02:23:56,900
+ and this loss function will be used to back propagate
+
+1390
+02:23:56,900 --> 02:24:01,100
+ to update your W and B, right,
+
+1391
+02:24:01,100 --> 02:24:03,500
+ okay, so what kind of loss function should you use,
+
+1392
+02:24:03,500 --> 02:24:04,900
+ what kind of loss function you should use
+
+1393
+02:24:04,900 --> 02:24:08,180
+ depends on what kind of problem you are addressing, right,
+
+1394
+02:24:08,180 --> 02:24:11,500
+ so for CNN, two of the common problems you're addressing,
+
+1395
+02:24:11,500 --> 02:24:13,140
+ one is a regression, okay,
+
+1396
+02:24:13,140 --> 02:24:17,100
+ that means actually your output is a continuous value, okay,
+
+1397
+02:24:17,100 --> 02:24:20,620
+ for example, you want to find the share price
+
+1398
+02:24:20,620 --> 02:24:22,980
+ for that continuous value, okay,
+
+1399
+02:24:22,980 --> 02:24:24,900
+ so as opposed to this regression
+
+1400
+02:24:24,900 --> 02:24:27,340
+ where you are trying to find the continuous value,
+
+1401
+02:24:27,340 --> 02:24:29,460
+ all right, your problem can be classification problem
+
+1402
+02:24:29,460 --> 02:24:31,740
+ as well, for example, earlier on, right,
+
+1403
+02:24:31,740 --> 02:24:33,060
+ the one that we mentioned, right,
+
+1404
+02:24:33,060 --> 02:24:35,300
+ so classification means that you want to predict
+
+1405
+02:24:35,300 --> 02:24:38,980
+ the output as different category or label, right,
+
+1406
+02:24:38,980 --> 02:24:41,740
+ given an image, right, is it a cat or a dog,
+
+1407
+02:24:41,740 --> 02:24:44,660
+ given an image is it one, two, three, and so on and so forth,
+
+1408
+02:24:44,660 --> 02:24:48,220
+ so it's to classify into different category or label,
+
+1409
+02:24:48,220 --> 02:24:51,020
+ so therefore when you are talking about classification problem,
+
+1410
+02:24:51,020 --> 02:24:54,539
+ our target output is actually discrete, right, okay,
+
+1411
+02:24:54,539 --> 02:24:56,700
+ discrete, from a possible set of value,
+
+1412
+02:24:56,700 --> 02:24:59,980
+ for example, if it's cat, just now it's 1, 0, 0,
+
+1413
+02:24:59,980 --> 02:25:04,500
+ it is dog, that is 0, 1, 0, and so on and so forth, right,
+
+1414
+02:25:04,500 --> 02:25:06,260
+ so in terms of classification, right,
+
+1415
+02:25:06,260 --> 02:25:09,580
+ some example could be, for example, a skin classification,
+
+1416
+02:25:09,580 --> 02:25:13,180
+ right, for example, someone has a skin lesion on their skin,
+
+1417
+02:25:13,180 --> 02:25:16,180
+ so they want to know whether it's cancer or non-cancer,
+
+1418
+02:25:16,180 --> 02:25:18,020
+ so you only have two category,
+
+1419
+02:25:18,020 --> 02:25:21,180
+ so for those cases we know, call it a binary,
+
+1420
+02:25:21,180 --> 02:25:24,260
+ or for example, in the case of face recognition,
+
+1421
+02:25:24,260 --> 02:25:27,700
+ even a face image, it can potentially belong to many person,
+
+1422
+02:25:27,700 --> 02:25:32,180
+ that is a multi-class problem, right, okay,
+
+1423
+02:25:32,180 --> 02:25:34,780
+ so what are some common loss function,
+
+1424
+02:25:34,780 --> 02:25:38,220
+ so for regression problem, the common loss functions,
+
+1425
+02:25:38,220 --> 02:25:41,340
+ some of them are here, right, so for square loss,
+
+1426
+02:25:41,340 --> 02:25:44,780
+ pretty much this is the formula to measure the square loss,
+
+1427
+02:25:44,780 --> 02:25:48,340
+ so you can see this, fxi is just now the predicted value,
+
+1428
+02:25:48,340 --> 02:25:52,660
+ okay, this yi is actually your ground truth or your target,
+
+1429
+02:25:52,660 --> 02:25:56,540
+ right, so you take the difference to square,
+
+1430
+02:25:56,540 --> 02:25:59,340
+ and then you sum up all the sample, all the training sample,
+
+1431
+02:25:59,340 --> 02:26:01,740
+ so this is known as the square loss, okay,
+
+1432
+02:26:01,740 --> 02:26:04,420
+ as the name suggests, so mean square error,
+
+1433
+02:26:04,420 --> 02:26:06,180
+ is the same as square loss here,
+
+1434
+02:26:06,180 --> 02:26:10,020
+ but you divide by the number of sample that you have, okay,
+
+1435
+02:26:10,020 --> 02:26:12,260
+ right, so this is the mean square error,
+
+1436
+02:26:12,260 --> 02:26:14,860
+ and the mean absolute error is that,
+
+1437
+02:26:14,860 --> 02:26:16,340
+ you take the absolute difference
+
+1438
+02:26:16,340 --> 02:26:18,420
+ between your predicted value and your ground truth,
+
+1439
+02:26:18,420 --> 02:26:20,660
+ you take the predicted absolute value,
+
+1440
+02:26:20,660 --> 02:26:23,500
+ you sum up all the samples, okay, right,
+
+1441
+02:26:23,500 --> 02:26:25,300
+ so this is, and then you divide by n,
+
+1442
+02:26:25,300 --> 02:26:27,460
+ this is the mean absolute error,
+
+1443
+02:26:27,460 --> 02:26:29,780
+ so these are some common loss function
+
+1444
+02:26:29,780 --> 02:26:32,420
+ that you measure between the predicted value
+
+1445
+02:26:32,420 --> 02:26:35,060
+ and the ground truth, right, okay,
+
+1446
+02:26:35,060 --> 02:26:39,220
+ for regression problem, so for classification problem,
+
+1447
+02:26:39,220 --> 02:26:43,179
+ but the common loss function that we use is a softmax loss,
+
+1448
+02:26:43,179 --> 02:26:44,900
+ so what is a softmax loss?
+
+1449
+02:26:44,900 --> 02:26:48,019
+ A softmax loss is a cross-entrophy loss
+
+1450
+02:26:48,019 --> 02:26:52,980
+ with softmax normalization, so what it means is that, okay,
+
+1451
+02:26:52,980 --> 02:26:55,340
+ so just now, early on, if you take the examples
+
+1452
+02:26:55,340 --> 02:26:56,980
+ of a linear classifier, right,
+
+1453
+02:26:56,980 --> 02:26:59,740
+ so we can see we have the input image,
+
+1454
+02:26:59,740 --> 02:27:02,580
+ this fx is the linear classifier, okay,
+
+1455
+02:27:02,580 --> 02:27:06,060
+ so after we get the linear classifier, we'll get output,
+
+1456
+02:27:06,060 --> 02:27:11,060
+ so x, as I mentioned, this x is actually an input factor,
+
+1457
+02:27:11,260 --> 02:27:13,699
+ f is a network, in this case,
+
+1458
+02:27:13,699 --> 02:27:15,859
+ we focus on linear classifier,
+
+1459
+02:27:15,859 --> 02:27:20,060
+ and afterwards, you obtain this predicted output
+
+1460
+02:27:20,060 --> 02:27:22,180
+ because zj here, right,
+
+1461
+02:27:22,180 --> 02:27:24,580
+ so this particular predicted output here,
+
+1462
+02:27:24,580 --> 02:27:26,740
+ predicted output value, right,
+
+1463
+02:27:26,740 --> 02:27:29,820
+ we need to convert it into the probability,
+
+1464
+02:27:29,820 --> 02:27:33,019
+ so this zj here, all right,
+
+1465
+02:27:33,019 --> 02:27:34,260
+ you can kind of think about it,
+
+1466
+02:27:34,300 --> 02:27:37,100
+ it's like this example here,
+
+1467
+02:27:37,100 --> 02:27:39,060
+ you have these different values here, okay,
+
+1468
+02:27:39,060 --> 02:27:42,620
+ so these are different values of zj here, right,
+
+1469
+02:27:42,620 --> 02:27:44,580
+ so this output here, very often,
+
+1470
+02:27:44,580 --> 02:27:48,660
+ we need to convert it into the probability first, right,
+
+1471
+02:27:48,660 --> 02:27:51,900
+ so we need to convert it into the probability,
+
+1472
+02:27:51,900 --> 02:27:53,860
+ so how do we do this particular conversion
+
+1473
+02:27:53,860 --> 02:27:56,780
+ is known as a softmax normalizations here,
+
+1474
+02:27:56,780 --> 02:27:59,700
+ so this softmax normalization is defined by this equation,
+
+1475
+02:27:59,700 --> 02:28:03,940
+ e to the power of this particular output just now,
+
+1476
+02:28:04,260 --> 02:28:07,260
+ okay, divided by e to the power of all the output,
+
+1477
+02:28:07,260 --> 02:28:10,820
+ and then you sum it up over all the possible value, okay,
+
+1478
+02:28:10,820 --> 02:28:13,500
+ and then you'll get a normalized probability, okay,
+
+1479
+02:28:13,500 --> 02:28:15,620
+ so this step here later, we'll give an example,
+
+1480
+02:28:15,620 --> 02:28:17,020
+ pretty much it's your output,
+
+1481
+02:28:17,020 --> 02:28:19,060
+ by performing the softmax normalization,
+
+1482
+02:28:19,060 --> 02:28:21,940
+ you can convert it into a probability vector,
+
+1483
+02:28:21,940 --> 02:28:26,860
+ so this process is known as a softmax normalization,
+
+1484
+02:28:26,860 --> 02:28:27,700
+ and then afterwards,
+
+1485
+02:28:27,700 --> 02:28:30,740
+ once you perform the softmax normalization, okay,
+
+1486
+02:28:30,740 --> 02:28:33,740
+ so what it means is in this example,
+
+1487
+02:28:33,740 --> 02:28:35,340
+ if you look at this example,
+
+1488
+02:28:35,340 --> 02:28:37,380
+ by performing the softmax normalization,
+
+1489
+02:28:37,380 --> 02:28:41,580
+ you can convert this into a probability vector,
+
+1490
+02:28:41,580 --> 02:28:43,220
+ so this probability vector,
+
+1491
+02:28:43,220 --> 02:28:45,220
+ you need to compare with your ground truth,
+
+1492
+02:28:45,220 --> 02:28:47,820
+ and your ground truth typically is in the form,
+
+1493
+02:28:47,820 --> 02:28:52,820
+ if it's a cat, that means it's 100, 100,
+
+1494
+02:28:54,500 --> 02:28:56,940
+ if it's a dog, that means it's 010,
+
+1495
+02:28:56,940 --> 02:29:01,460
+ so you compare your probability and your ground truth,
+
+1496
+02:29:01,460 --> 02:29:02,619
+ right, okay,
+
+1497
+02:29:02,620 --> 02:29:07,060
+ so, and then you can calculate the loss between them,
+
+1498
+02:29:07,060 --> 02:29:09,580
+ so the loss or the distance that we use now
+
+1499
+02:29:09,580 --> 02:29:12,780
+ is the cross-entropy loss here,
+
+1500
+02:29:12,780 --> 02:29:16,100
+ so cross-entropy loss is defined by these equations here,
+
+1501
+02:29:17,020 --> 02:29:20,020
+ so this PI is just now the probability,
+
+1502
+02:29:20,020 --> 02:29:22,900
+ the normalized probability that we have obtained earlier,
+
+1503
+02:29:22,900 --> 02:29:26,980
+ this YJ here is a ground truth, okay, ground truth,
+
+1504
+02:29:26,980 --> 02:29:29,020
+ and then we use this particular formula
+
+1505
+02:29:29,020 --> 02:29:30,420
+ to calculate the loss,
+
+1506
+02:29:30,420 --> 02:29:32,940
+ right, between your normalized probability,
+
+1507
+02:29:32,940 --> 02:29:35,020
+ right, and your ground truth, okay,
+
+1508
+02:29:36,180 --> 02:29:39,060
+ so we will probably take one particular example
+
+1509
+02:29:39,060 --> 02:29:41,060
+ to calculate this softmax loss
+
+1510
+02:29:41,060 --> 02:29:43,900
+ just to make sure that everyone is clear, right,
+
+1511
+02:29:43,900 --> 02:29:45,140
+ so in this particular example,
+
+1512
+02:29:45,140 --> 02:29:48,620
+ it says that the upper score of a linear classifier,
+
+1513
+02:29:48,620 --> 02:29:51,860
+ okay, for an input cat image are given as follows,
+
+1514
+02:29:51,860 --> 02:29:55,340
+ so what's a softmax loss for this particular training data,
+
+1515
+02:29:55,340 --> 02:29:58,540
+ okay, so, right, so in this particular simple example,
+
+1516
+02:29:58,540 --> 02:30:00,660
+ we assume that we have five categories here,
+
+1517
+02:30:00,660 --> 02:30:02,540
+ these are the five categories, right,
+
+1518
+02:30:02,540 --> 02:30:05,220
+ and then currently, your training image
+
+1519
+02:30:05,220 --> 02:30:07,260
+ is actually a cat image here,
+
+1520
+02:30:07,260 --> 02:30:09,700
+ so your current training image is a cat image,
+
+1521
+02:30:09,700 --> 02:30:13,900
+ so if your current training image is a cat image,
+
+1522
+02:30:13,900 --> 02:30:15,780
+ what should be the ground truth,
+
+1523
+02:30:15,780 --> 02:30:18,340
+ so the ground truth, right, okay,
+
+1524
+02:30:18,340 --> 02:30:22,180
+ the ground truth for the cat image is, right,
+
+1525
+02:30:22,180 --> 02:30:25,220
+ the cat category should be one, the rest should be zero,
+
+1526
+02:30:25,260 --> 02:30:28,980
+ so this is our desired output or target
+
+1527
+02:30:28,980 --> 02:30:30,820
+ or the ground truth, okay,
+
+1528
+02:30:30,820 --> 02:30:32,699
+ suppose just now, right,
+
+1529
+02:30:33,580 --> 02:30:35,380
+ how we perform this classification
+
+1530
+02:30:35,380 --> 02:30:37,980
+ is we let it go through a linear classifier,
+
+1531
+02:30:37,980 --> 02:30:39,820
+ so our input is a cat image,
+
+1532
+02:30:39,820 --> 02:30:43,300
+ we go through just now the WX plus B, right,
+
+1533
+02:30:43,300 --> 02:30:45,140
+ so this is the predicted output,
+
+1534
+02:30:45,140 --> 02:30:49,099
+ so this is our current predicted output here, okay,
+
+1535
+02:30:49,099 --> 02:30:50,939
+ so, right, if you want to find,
+
+1536
+02:30:50,939 --> 02:30:52,740
+ so this is our current predicted output,
+
+1537
+02:30:52,740 --> 02:30:53,779
+ this is our ground truth,
+
+1538
+02:30:53,780 --> 02:30:56,620
+ if you want to find what is the arrow
+
+1539
+02:30:56,620 --> 02:30:58,340
+ or what is the loss function,
+
+1540
+02:30:58,340 --> 02:31:01,700
+ so based on the formula, if you are using softmax loss,
+
+1541
+02:31:01,700 --> 02:31:04,380
+ the first thing is that we need to convert this particular
+
+1542
+02:31:04,380 --> 02:31:07,140
+ output into the probability, right,
+
+1543
+02:31:07,140 --> 02:31:08,820
+ so we convert it into the probability
+
+1544
+02:31:08,820 --> 02:31:12,020
+ using this softmax normalization equation,
+
+1545
+02:31:12,020 --> 02:31:13,740
+ so for example, right,
+
+1546
+02:31:13,740 --> 02:31:15,740
+ if you want to find out the normalized probability
+
+1547
+02:31:15,740 --> 02:31:17,580
+ for this first term here,
+
+1548
+02:31:17,580 --> 02:31:20,380
+ it will be e to the power of 0.7, okay,
+
+1549
+02:31:20,380 --> 02:31:22,940
+ numerator will be e to the power of 0.7,
+
+1550
+02:31:22,940 --> 02:31:27,460
+ denominator here is consisting of e to the power of 0.7
+
+1551
+02:31:27,460 --> 02:31:29,300
+ plus e to the power of 0.1
+
+1552
+02:31:29,300 --> 02:31:32,740
+ plus e to the power of 1.6 and so on and so forth, okay,
+
+1553
+02:31:32,740 --> 02:31:36,420
+ then you will get your numerator as well as denominator,
+
+1554
+02:31:36,420 --> 02:31:40,140
+ if you divide, then you'll get this normalized probability,
+
+1555
+02:31:40,140 --> 02:31:42,740
+ okay, and then if you repeat that for all the others,
+
+1556
+02:31:42,740 --> 02:31:45,820
+ then you'll get all the normalized probability
+
+1557
+02:31:45,820 --> 02:31:49,780
+ that correspond to this particular output score here, okay,
+
+1558
+02:31:49,780 --> 02:31:51,820
+ right, so therefore, using this formula,
+
+1559
+02:31:51,820 --> 02:31:55,060
+ we can convert this output score into the probability,
+
+1560
+02:31:55,060 --> 02:31:57,340
+ so now, this particular probability,
+
+1561
+02:31:57,340 --> 02:31:59,940
+ we need to compare with our ground truth
+
+1562
+02:31:59,940 --> 02:32:02,820
+ to calculate the loss or the error, right,
+
+1563
+02:32:02,820 --> 02:32:04,539
+ so for softmax loss,
+
+1564
+02:32:04,539 --> 02:32:07,900
+ the error is given by these equations here, right,
+
+1565
+02:32:07,900 --> 02:32:09,820
+ so if you try to evaluate this equation,
+
+1566
+02:32:09,820 --> 02:32:12,140
+ you can see that this pj here,
+
+1567
+02:32:12,140 --> 02:32:13,980
+ these are the probability here,
+
+1568
+02:32:13,980 --> 02:32:16,539
+ and this y here is a ground truth here,
+
+1569
+02:32:16,539 --> 02:32:19,500
+ so this particular terms here pretty much means that,
+
+1570
+02:32:19,500 --> 02:32:22,420
+ okay, you take this first term, multiply with this,
+
+1571
+02:32:22,420 --> 02:32:23,980
+ all right, if you look at this inner sum,
+
+1572
+02:32:23,980 --> 02:32:26,380
+ this summation here, this multiplied by this
+
+1573
+02:32:26,380 --> 02:32:27,700
+ plus this multiplied with this,
+
+1574
+02:32:27,700 --> 02:32:28,820
+ plus this multiplied with this,
+
+1575
+02:32:28,820 --> 02:32:29,940
+ plus this multiplied with this,
+
+1576
+02:32:29,940 --> 02:32:31,460
+ plus this multiplied with this,
+
+1577
+02:32:31,460 --> 02:32:35,180
+ but anything when your ground truth is zero,
+
+1578
+02:32:35,180 --> 02:32:37,180
+ anything multiplied with zero is zero,
+
+1579
+02:32:37,180 --> 02:32:38,860
+ so therefore, it's not meaning,
+
+1580
+02:32:38,860 --> 02:32:40,460
+ you don't have to consider them,
+
+1581
+02:32:40,460 --> 02:32:45,220
+ so the only non-zero term in this particular summation here
+
+1582
+02:32:45,220 --> 02:32:49,480
+ is actually one, log this probability,
+
+1583
+02:32:49,480 --> 02:32:53,080
+ so therefore, this term here can be simplified as one,
+
+1584
+02:32:53,080 --> 02:32:54,720
+ okay, your yj is one,
+
+1585
+02:32:54,720 --> 02:32:58,160
+ one multiplied by logarithm of this particular
+
+1586
+02:32:58,160 --> 02:32:59,560
+ normalized probability,
+
+1587
+02:32:59,560 --> 02:33:02,199
+ and afterwards you put a negative sign in front,
+
+1588
+02:33:02,199 --> 02:33:04,880
+ so if you do that, you see that this is the score
+
+1589
+02:33:04,880 --> 02:33:05,840
+ that you obtain,
+
+1590
+02:33:05,840 --> 02:33:08,160
+ and this log term that usually we use
+
+1591
+02:33:08,160 --> 02:33:12,840
+ is a natural log or loan term here, right,
+
+1592
+02:33:12,840 --> 02:33:16,039
+ so this is pretty much an example just to show that,
+
+1593
+02:33:16,039 --> 02:33:17,840
+ right, if you have input, for example,
+
+1594
+02:33:17,880 --> 02:33:18,720
+ you have a cat image,
+
+1595
+02:33:18,720 --> 02:33:21,240
+ you let it go through the linear classifier just now,
+
+1596
+02:33:21,240 --> 02:33:22,840
+ fx plus b, right,
+
+1597
+02:33:22,840 --> 02:33:24,800
+ you generate your predicted output,
+
+1598
+02:33:24,800 --> 02:33:27,000
+ which is this term here, okay,
+
+1599
+02:33:27,000 --> 02:33:30,120
+ so this predictor output,
+
+1600
+02:33:30,120 --> 02:33:32,960
+ you need to perform softmax normalization
+
+1601
+02:33:32,960 --> 02:33:34,800
+ to convert it into a probability,
+
+1602
+02:33:34,800 --> 02:33:38,120
+ so this probability, next we compare with the ground truth,
+
+1603
+02:33:38,120 --> 02:33:40,680
+ all right, to find the error or the loss,
+
+1604
+02:33:40,680 --> 02:33:43,480
+ so the error or the loss defined
+
+1605
+02:33:43,480 --> 02:33:45,480
+ by softmax loss is this equation,
+
+1606
+02:33:45,480 --> 02:33:47,480
+ so we just go through an example
+
+1607
+02:33:47,480 --> 02:33:50,039
+ to show how we calculate the softmax loss,
+
+1608
+02:33:52,080 --> 02:33:55,520
+ okay, so yeah, probably I'll just spend a few more minutes
+
+1609
+02:33:55,520 --> 02:33:57,279
+ talk about the CNN architecture,
+
+1610
+02:33:57,279 --> 02:33:59,480
+ so now we understand the linear classifier,
+
+1611
+02:33:59,480 --> 02:34:01,680
+ the next is we are going to move on to explain
+
+1612
+02:34:01,680 --> 02:34:04,400
+ about a CNN architecture now, right,
+
+1613
+02:34:04,400 --> 02:34:08,279
+ so this is the general CNN architectures, right, okay,
+
+1614
+02:34:08,279 --> 02:34:09,800
+ so if you remember, okay,
+
+1615
+02:34:09,800 --> 02:34:12,400
+ suppose given an input image, right,
+
+1616
+02:34:12,400 --> 02:34:15,039
+ so the first few, the first,
+
+1617
+02:34:15,040 --> 02:34:18,200
+ part of a few layers here, right,
+
+1618
+02:34:18,200 --> 02:34:20,680
+ as we mentioned for CNN,
+
+1619
+02:34:20,680 --> 02:34:23,960
+ actually it consists of many different layers, okay,
+
+1620
+02:34:23,960 --> 02:34:27,000
+ and it extracts the features
+
+1621
+02:34:27,000 --> 02:34:29,760
+ in the progressively higher abstraction,
+
+1622
+02:34:29,760 --> 02:34:32,600
+ so what it means is that earlier layers
+
+1623
+02:34:32,600 --> 02:34:34,680
+ extract very simple features,
+
+1624
+02:34:34,680 --> 02:34:38,840
+ but the later layers extract more complex features, right,
+
+1625
+02:34:38,840 --> 02:34:41,200
+ so therefore if you have an input image,
+
+1626
+02:34:41,200 --> 02:34:42,800
+ you have many different layers,
+
+1627
+02:34:43,800 --> 02:34:46,720
+ early layers extract simple features,
+
+1628
+02:34:46,720 --> 02:34:50,800
+ and the later layers extract more complex features,
+
+1629
+02:34:50,800 --> 02:34:55,560
+ so this is called the hierarchical higher abstraction,
+
+1630
+02:34:55,560 --> 02:34:58,359
+ all in all this part here is known as a feature learning
+
+1631
+02:34:58,359 --> 02:34:59,960
+ or feature extraction,
+
+1632
+02:34:59,960 --> 02:35:03,720
+ because the goal is that once it's fully trained, right,
+
+1633
+02:35:04,920 --> 02:35:07,119
+ this particular module here will extract
+
+1634
+02:35:07,119 --> 02:35:09,199
+ a particular feature, okay,
+
+1635
+02:35:09,200 --> 02:35:13,480
+ so this vector or descriptor or embedding
+
+1636
+02:35:13,480 --> 02:35:17,720
+ is a good representation or extract some good information
+
+1637
+02:35:17,720 --> 02:35:19,480
+ for the input image here, okay,
+
+1638
+02:35:19,480 --> 02:35:21,040
+ so this is known as a feature learning
+
+1639
+02:35:21,040 --> 02:35:22,840
+ or feature extractions,
+
+1640
+02:35:22,840 --> 02:35:24,960
+ and afterwards the next part that you have
+
+1641
+02:35:24,960 --> 02:35:27,240
+ is a classification or classifier,
+
+1642
+02:35:27,240 --> 02:35:30,160
+ so now once you have this input image,
+
+1643
+02:35:30,160 --> 02:35:33,560
+ you'll go through just now something similar to the MLP,
+
+1644
+02:35:33,560 --> 02:35:35,320
+ all right, so the multi-layer abstract form,
+
+1645
+02:35:35,320 --> 02:35:40,240
+ which is many different layers of linear layers, right,
+
+1646
+02:35:40,240 --> 02:35:41,920
+ okay, you put them together
+
+1647
+02:35:41,920 --> 02:35:44,640
+ and then you'll try to classify into,
+
+1648
+02:35:44,640 --> 02:35:48,520
+ in this example, it's what parts of a vector type it is, okay,
+
+1649
+02:35:48,520 --> 02:35:51,000
+ so this again is a high level
+
+1650
+02:35:51,000 --> 02:35:53,240
+ informations of a CNN architecture,
+
+1651
+02:35:54,199 --> 02:35:56,440
+ so next we are going to just spend a bit of time
+
+1652
+02:35:56,440 --> 02:36:01,440
+ to explain what are some key layers in the CNN,
+
+1653
+02:36:02,440 --> 02:36:04,840
+ so for CNN architecture,
+
+1654
+02:36:04,840 --> 02:36:07,840
+ as these are the common layers in the CNN,
+
+1655
+02:36:07,840 --> 02:36:09,280
+ we have the convolutional layer,
+
+1656
+02:36:09,280 --> 02:36:12,720
+ activation function layer, pulling layer,
+
+1657
+02:36:12,720 --> 02:36:14,760
+ FCT layer or fully connected layer,
+
+1658
+02:36:14,760 --> 02:36:17,800
+ also known as linear layer, and the softmax layer,
+
+1659
+02:36:17,800 --> 02:36:22,080
+ so next we'll look at each of these layer one at a time,
+
+1660
+02:36:22,080 --> 02:36:24,120
+ right, so convolutional layer,
+
+1661
+02:36:24,120 --> 02:36:26,120
+ right, so the idea of convolutional layer
+
+1662
+02:36:26,120 --> 02:36:29,440
+ is that you try to extract a feature in a hierarchical manner,
+
+1663
+02:36:29,440 --> 02:36:32,360
+ so hierarchical means that early layers
+
+1664
+02:36:32,360 --> 02:36:34,360
+ tends to extract low level feature
+
+1665
+02:36:34,360 --> 02:36:37,920
+ and later layers tends to extract high level features,
+
+1666
+02:36:37,920 --> 02:36:40,600
+ so we'll explain this a number of times,
+
+1667
+02:36:40,600 --> 02:36:43,440
+ and also an important concept of this convolutional layers
+
+1668
+02:36:43,440 --> 02:36:45,920
+ is that it reduces the number of parameters
+
+1669
+02:36:45,920 --> 02:36:49,040
+ that need to be trained by weight sharing
+
+1670
+02:36:49,040 --> 02:36:52,520
+ through the convolution kernel,
+
+1671
+02:36:52,520 --> 02:36:55,120
+ so this kernel is the same as filter, right,
+
+1672
+02:36:55,120 --> 02:36:58,040
+ for CNN, the work filter and kernel
+
+1673
+02:36:58,040 --> 02:37:00,040
+ refer to the same thing, right,
+
+1674
+02:37:00,040 --> 02:37:03,000
+ so for this convolution,
+
+1675
+02:37:03,000 --> 02:37:05,400
+ what it means is usually you have a small filter,
+
+1676
+02:37:05,400 --> 02:37:08,480
+ this filter size is usually quite small, right,
+
+1677
+02:37:08,480 --> 02:37:10,440
+ so given a particular image, for example,
+
+1678
+02:37:10,440 --> 02:37:11,480
+ you have the image here,
+
+1679
+02:37:11,480 --> 02:37:14,880
+ you apply a small filter to extract some feature,
+
+1680
+02:37:14,880 --> 02:37:17,520
+ and this particular filter is applied
+
+1681
+02:37:17,520 --> 02:37:21,560
+ at different positions of the image, okay,
+
+1682
+02:37:21,560 --> 02:37:24,440
+ right, so it's applied to different positions of the image,
+
+1683
+02:37:24,440 --> 02:37:27,480
+ that's why, because it's reused at different positions,
+
+1684
+02:37:27,480 --> 02:37:30,720
+ so it's known as a weight sharing, okay,
+
+1685
+02:37:30,720 --> 02:37:32,520
+ so it's a weight share, okay,
+
+1686
+02:37:32,520 --> 02:37:34,680
+ using this filter at different positions,
+
+1687
+02:37:34,680 --> 02:37:37,279
+ because you use the same filter, right,
+
+1688
+02:37:37,279 --> 02:37:39,640
+ to operate on different part of the image,
+
+1689
+02:37:39,640 --> 02:37:42,880
+ so therefore you reduce the number of parameters, right,
+
+1690
+02:37:42,880 --> 02:37:44,600
+ you don't have to use different filter
+
+1691
+02:37:44,600 --> 02:37:45,800
+ for different positions,
+
+1692
+02:37:45,800 --> 02:37:47,480
+ so that is one of the, you know,
+
+1693
+02:37:47,480 --> 02:37:50,600
+ advantage of using convolution.
+
+1694
+02:37:58,359 --> 02:38:01,480
+ So, let's look at, you know,
+
+1695
+02:38:01,480 --> 02:38:04,039
+ to have some visualization,
+
+1696
+02:38:04,039 --> 02:38:07,560
+ we have keep mentioning about this idea that, right,
+
+1697
+02:38:07,560 --> 02:38:10,640
+ okay, for CNN, right, given an image here,
+
+1698
+02:38:10,640 --> 02:38:12,800
+ right, you have many different layers here, right,
+
+1699
+02:38:12,800 --> 02:38:15,000
+ so we keep saying that early layer extracts
+
+1700
+02:38:15,000 --> 02:38:16,760
+ some low level feature,
+
+1701
+02:38:16,760 --> 02:38:20,119
+ and late layers extract some high level features, right,
+
+1702
+02:38:20,119 --> 02:38:24,000
+ before you, you know, let it go through a classifier here,
+
+1703
+02:38:24,000 --> 02:38:26,240
+ so in this examples here, you know,
+
+1704
+02:38:26,280 --> 02:38:29,160
+ low level feature could potentially look something like this,
+
+1705
+02:38:29,160 --> 02:38:30,400
+ so earlier on as I mentioned,
+
+1706
+02:38:30,400 --> 02:38:32,400
+ low level feature actually a simple feature
+
+1707
+02:38:32,400 --> 02:38:35,840
+ that consists of, for example, some line edges and so on,
+
+1708
+02:38:35,840 --> 02:38:37,840
+ very simple pattern, right,
+
+1709
+02:38:37,840 --> 02:38:42,160
+ and high level features consist of some much more complex,
+
+1710
+02:38:42,160 --> 02:38:44,920
+ because it's a combination of all the low level
+
+1711
+02:38:44,920 --> 02:38:46,680
+ to come in level, right,
+
+1712
+02:38:46,680 --> 02:38:48,119
+ if you further combine this feature
+
+1713
+02:38:48,119 --> 02:38:50,199
+ to get something more complex,
+
+1714
+02:38:50,199 --> 02:38:52,080
+ so therefore you can see in this example,
+
+1715
+02:38:52,080 --> 02:38:54,800
+ your high level feature is a lot more complex,
+
+1716
+02:38:54,800 --> 02:38:56,960
+ you can see, for example, this particular part here
+
+1717
+02:38:56,960 --> 02:39:00,640
+ actually corresponds to the view of the car, okay,
+
+1718
+02:39:00,640 --> 02:39:04,439
+ so that's the basic ideas of the different layers of CNN,
+
+1719
+02:39:04,439 --> 02:39:07,320
+ early layers extract some simple feature, right,
+
+1720
+02:39:07,320 --> 02:39:12,320
+ late layers can extract more complex feature, right,
+
+1721
+02:39:13,359 --> 02:39:14,759
+ okay, so,
+
+1722
+02:39:17,800 --> 02:39:20,320
+ right, okay, I think probably we'll just call it a day today
+
+1723
+02:39:20,320 --> 02:39:22,720
+ because if we continue on, then it's going to be,
+
+1724
+02:39:22,720 --> 02:39:25,679
+ yeah, it's hard to stop somewhere in the middle, right,
+
+1725
+02:39:25,679 --> 02:39:27,640
+ so we'll call it a day, right,
+
+1726
+02:39:27,640 --> 02:39:29,320
+ so anyway, just to remind you,
+
+1727
+02:39:29,320 --> 02:39:33,000
+ next week is actually recess week, so there's no lecture,
+
+1728
+02:39:33,000 --> 02:39:37,320
+ so we'll resume after the recess week, right, okay?
+
+1729
+02:39:41,000 --> 02:39:41,840
+ Okay.
+
+1730
+02:39:41,840 --> 02:39:42,679
+ Okay.
+
+1731
+02:39:52,720 --> 02:39:53,560
+ Okay.
+
+1732
+02:40:22,720 --> 02:40:23,560
+ Okay.
+
+1733
+02:40:52,720 --> 02:40:53,560
+ Okay.
+
+1734
+02:41:23,460 --> 02:41:25,859
+ Okay are you guys happy today?
+
+1735
+02:41:30,640 --> 02:41:31,480
+ Yes.
+
+1736
+02:41:35,800 --> 02:41:36,880
+ Okay, okay.
+
+1737
+02:41:48,740 --> 02:41:49,580
+ Okay.
+
+1738
+02:41:49,580 --> 02:41:59,580
+ And then at the beginning, because you don't know what this w and b are, so usually it's a sequence.
+
+1739
+02:41:59,580 --> 02:42:01,580
+ Because the sequence is different.
+
+1740
+02:42:01,580 --> 02:42:10,580
+ So this is not the answer, it's just that it hasn't been completed last year, it's just that it hasn't started yet.
+
+1741
+02:42:10,580 --> 02:42:15,580
+ So at the beginning, this w and b are still not completed.
+
+1742
+02:42:15,580 --> 02:42:17,580
+ Okay, you have a picture, right?
+
+1743
+02:42:17,580 --> 02:42:21,580
+ You use this sequence and you get a factor.
+
+1744
+02:42:21,580 --> 02:42:27,580
+ This factor usually applies to a softmax, which is a concept.
+
+1745
+02:42:27,580 --> 02:42:33,580
+ And this concept is more like a ideal value, you get a difference.
+
+1746
+02:42:33,580 --> 02:42:37,580
+ This difference is usually divided into softmax.
+
+1747
+02:42:37,580 --> 02:42:43,580
+ This softmax and this difference will be very quick to adjust.
+
+1748
+02:42:43,580 --> 02:42:45,580
+ You have to reverse the smoothmax.
+
+1749
+02:42:45,580 --> 02:42:47,580
+ Yes, and then you repeat the process.
+
+1750
+02:42:47,580 --> 02:42:53,580
+ After repeating, when the sequence is over, this w and b are the same.
+
+1751
+02:42:53,580 --> 02:42:57,580
+ After u-discarding, now there is a new test.
+
+1752
+02:42:57,580 --> 02:43:01,580
+ You use this new picture to create a new w.
+
+1753
+02:43:01,580 --> 02:43:07,580
+ This new picture is the one after u-discarding and sequence.
+
+1754
+02:43:07,580 --> 02:43:11,580
+ And then this value, you see where it is the largest.
+
+1755
+02:43:11,580 --> 02:43:15,580
+ If this is the largest value, then the second value,
+
+1756
+02:43:15,580 --> 02:43:19,580
+ it is likely to be the dog's ID.
+
+1757
+02:43:19,580 --> 02:43:25,580
+ Because basically, when you train this example,
+
+1758
+02:43:25,580 --> 02:43:30,580
+ if it is a cat, it is 110,
+
+1759
+02:43:30,580 --> 02:43:32,580
+ and the dog is 010.
+
+1760
+02:43:32,580 --> 02:43:35,580
+ The third value is the boat, it is 010.
+
+1761
+02:43:35,580 --> 02:43:38,580
+ So you repeat the same process,
+
+1762
+02:43:38,580 --> 02:43:40,580
+ and then in the end, when you finish training,
+
+1763
+02:43:40,580 --> 02:43:42,580
+ if you are shooting,
+
+1764
+02:43:42,580 --> 02:43:46,580
+ after this calculation, it will tell you that it is 0.1, 0.8, 0.1.
+
+1765
+02:43:46,580 --> 02:43:50,580
+ 0.8 is the size of the paper, so it is likely to be the largest value.
+
+1766
+02:43:50,580 --> 02:43:56,580
+ This is the biggest value, right?
+
+1767
+02:43:56,580 --> 02:44:00,580
+ Yes, because it is a probability, it is the largest value.
+
+1768
+02:44:00,580 --> 02:44:03,580
+ This is where it is trained,
+
+1769
+02:44:03,580 --> 02:44:05,580
+ the three-dimensional value is the wrong value,
+
+1770
+02:44:05,580 --> 02:44:08,580
+ and the largest value is the largest value.
+
+1771
+02:44:08,580 --> 02:44:11,580
+ Because this is the process of training.
+
+1772
+02:44:11,580 --> 02:44:16,580
+ If training is good, then the bigger the value is,
+
+1773
+02:44:16,580 --> 02:44:17,580
+ then the better.
+
+1774
+02:44:17,580 --> 02:44:20,580
+ This thing is actually going to change it into a probability.
+
+1775
+02:44:20,580 --> 02:44:24,580
+ But usually, when the value is 10, it will say that it is already big.
+
+1776
+02:44:24,580 --> 02:44:26,580
+ Generally, this is the probability.
+
+1777
+02:44:26,580 --> 02:44:28,580
+ Yes, it is.
+
+1778
+02:44:35,580 --> 02:44:38,580
+ Yes.
+
+1779
+02:45:05,580 --> 02:45:08,580
+ Yes.
+
+1780
+02:45:35,580 --> 02:45:37,580
+ Yes.
+
+1781
+02:46:05,580 --> 02:46:08,580
+ Yes.
+
+1782
+02:46:35,580 --> 02:46:37,580
+ Yes.
+
+1783
+02:47:05,580 --> 02:47:08,580
+ Yes.
+
+1784
+02:47:35,580 --> 02:47:37,580
+ Yes.
+
+1785
+02:48:05,580 --> 02:48:08,580
+ Yes.
+
+1786
+02:48:35,580 --> 02:48:37,580
+ Yes.
+
+1787
+02:49:05,580 --> 02:49:08,580
+ Yes.
+
+1788
+02:49:35,580 --> 02:49:37,580
+ Yes.
+
+1789
+02:50:05,580 --> 02:50:08,580
+ Yes.
+
+1790
+02:50:35,580 --> 02:50:38,580
+ Yes.
+
+1791
+02:51:05,580 --> 02:51:07,580
+ Yes.
+
+1792
+02:51:35,580 --> 02:51:37,580
+ Yes.
+
+1793
+02:52:05,580 --> 02:52:08,580
+ Yes.
+
+1794
+02:52:35,580 --> 02:52:38,580
+ Yes.
+
+1795
+02:53:05,580 --> 02:53:08,580
+ Yes.
+
+1796
+02:53:35,580 --> 02:53:37,580
+ Yes.
+
+1797
+02:54:05,580 --> 02:54:08,580
+ Yes.
+
+1798
+02:54:35,580 --> 02:54:37,580
+ Yes.
+
+1799
+02:55:05,580 --> 02:55:07,580
+ Yes.
+
+1800
+02:55:35,580 --> 02:55:37,580
+ Yes.
+
+1801
+02:56:05,580 --> 02:56:07,580
+ Yes.
+
+1802
+02:56:36,580 --> 02:56:38,580
+ Yes.
+
+1803
+02:56:38,580 --> 02:56:40,580
+ Yes.
+
+1804
+02:56:40,580 --> 02:56:42,580
+ Yes.
+
+1805
+02:56:42,580 --> 02:56:44,580
+ Yes.
+
+1806
+02:56:44,580 --> 02:56:46,580
+ Yes.
+
+1807
+02:56:46,580 --> 02:56:48,580
+ Yes.
+
+1808
+02:56:48,580 --> 02:56:50,580
+ Yes.
+
+1809
+02:56:50,580 --> 02:56:52,580
+ Yes.
+
+1810
+02:56:52,580 --> 02:56:54,580
+ Yes.
+
+1811
+02:56:54,580 --> 02:56:56,580
+ Yes.
+
+1812
+02:56:56,580 --> 02:56:58,580
+ Yes.
+
+1813
+02:56:58,580 --> 02:57:00,580
+ Yes.
+
+1814
+02:57:00,580 --> 02:57:02,580
+ Yes.
+
+1815
+02:57:02,580 --> 02:57:04,580
+ Yes.
+
+1816
+02:57:04,580 --> 02:57:06,580
+ Yes.
+
+1817
+02:57:06,580 --> 02:57:08,580
+ Yes.
+
+1818
+02:57:10,580 --> 02:57:14,580
+ Yes.
+
+1819
+02:57:20,580 --> 02:57:23,580
+ Yes.
+
+1820
+02:57:23,580 --> 02:57:27,580
+ Yes.
+
+1821
+02:57:27,580 --> 02:57:30,580
+ Yes.
+
+1822
+02:57:30,580 --> 02:57:32,580
+ Yes.
+
+1823
+02:58:02,580 --> 02:58:04,580
+ I'm not sure about that.
+
+1824
+02:58:04,580 --> 02:58:06,580
+ I'm not sure.
+
+1825
+02:58:06,580 --> 02:58:08,580
+ You think I'm done?
+
+1826
+02:58:08,580 --> 02:58:10,580
+ You think I'm done?
+
+1827
+02:58:10,580 --> 02:58:12,580
+ I'm not sure.
+
+1828
+02:58:12,580 --> 02:58:14,580
+ I'm not sure.
+
+1829
+02:58:14,580 --> 02:58:16,580
+ I'm not sure.
+
+1830
+02:58:16,580 --> 02:58:18,580
+ I'm not sure.
+
+1831
+02:58:18,580 --> 02:58:20,580
+ I'm not sure.
+
+1832
+02:58:20,580 --> 02:58:22,580
+ I'm not sure.
+
+1833
+02:58:22,580 --> 02:58:24,580
+ I'm not sure.
+
+1834
+02:58:24,580 --> 02:58:26,580
+ I'm not sure.
+
+1835
+02:58:26,580 --> 02:58:28,580
+ I'm not sure.
+
+1836
+02:58:28,580 --> 02:58:30,580
+ I'm not sure.
+
+1837
+02:58:30,580 --> 02:58:32,580
+ I'm not sure.
+
+1838
+02:58:32,580 --> 02:58:34,580
+ I'm not sure.
+
+1839
+02:58:34,580 --> 02:58:36,580
+ I'm not sure.
+
+1840
+02:58:36,580 --> 02:58:38,580
+ I'm not sure.
+
+1841
+02:58:38,580 --> 02:58:40,580
+ I'm not sure.
+
+1842
+02:58:40,580 --> 02:58:42,580
+ I'm not sure.
+
+1843
+02:58:42,580 --> 02:58:44,580
+ I'm not sure.
+
+1844
+02:58:44,580 --> 02:58:46,580
+ I'm not sure.
+
+1845
+02:58:46,580 --> 02:58:48,580
+ I'm not sure.
+
+1846
+02:58:48,580 --> 02:58:50,580
+ I'm not sure.
+
+1847
+02:58:50,580 --> 02:58:52,580
+ I'm not sure.
+
+1848
+02:58:52,580 --> 02:58:54,580
+ I'm not sure.
+
+1849
+02:58:54,580 --> 02:58:56,580
+ I'm not sure.
+
+1850
+02:58:56,580 --> 02:58:58,580
+ I'm not sure.
+
+1851
+02:58:58,580 --> 02:59:00,580
+ I'm not sure.
+
+1852
+02:59:00,580 --> 02:59:02,580
+ I'm not sure.
+
+1853
+02:59:02,580 --> 02:59:04,580
+ I'm not sure.
+
+1854
+02:59:04,580 --> 02:59:06,580
+ I'm not sure.
+
+1855
+02:59:06,580 --> 02:59:08,580
+ I'm not sure.
+
+1856
+02:59:08,580 --> 02:59:10,580
+ I'm not sure.
+
+1857
+02:59:10,580 --> 02:59:12,580
+ I'm not sure.
+
+1858
+02:59:12,580 --> 02:59:14,580
+ I'm not sure.
+
+1859
+02:59:14,580 --> 02:59:16,580
+ I'm not sure.
+
+1860
+02:59:16,580 --> 02:59:18,580
+ I'm not sure.
+
+1861
+02:59:18,580 --> 02:59:20,580
+ I'm not sure.
+
+1862
+02:59:20,580 --> 02:59:22,580
+ I'm not sure.
+
+1863
+02:59:22,580 --> 02:59:24,580
+ I'm not sure.
+
+1864
+02:59:24,580 --> 02:59:26,580
+ I'm not sure.
+
+1865
+02:59:26,580 --> 02:59:28,580
+ I'm not sure.
+
+1866
+02:59:28,580 --> 02:59:30,580
+ I'm not sure.
+
+1867
+02:59:30,580 --> 02:59:32,580
+ I'm not sure.
+
+1868
+02:59:32,580 --> 02:59:34,580
+ I'm not sure.
+
+1869
+02:59:34,580 --> 02:59:36,580
+ I'm not sure.
+
+1870
+02:59:36,580 --> 02:59:38,580
+ I'm not sure.
+
+1871
+02:59:38,580 --> 02:59:40,580
+ I'm not sure.
+
+1872
+02:59:40,580 --> 02:59:42,580
+ I'm not sure.
+
+1873
+02:59:42,580 --> 02:59:44,580
+ I'm not sure.
+
+1874
+02:59:44,580 --> 02:59:46,580
+ I'm not sure.
+
+1875
+02:59:46,580 --> 02:59:48,580
+ I'm not sure.
+
+1876
+02:59:48,580 --> 02:59:50,580
+ I'm not sure.
+
+1877
+02:59:50,580 --> 02:59:52,580
+ I'm not sure.
+
+1878
+02:59:52,580 --> 02:59:54,580
+ I'm not sure.
+
+1879
+02:59:54,580 --> 02:59:56,580
+ I'm not sure.
+
+1880
+02:59:56,580 --> 02:59:58,580
+ I'm not sure.
+
+1881
+02:59:58,580 --> 03:00:00,580
+ I'm not sure.
+
+1882
+03:00:00,580 --> 03:00:02,580
+ I'm not sure.
+
+1883
+03:00:02,580 --> 03:00:04,580
+ I'm not sure.
+
+1884
+03:00:04,580 --> 03:00:06,580
+ I'm not sure.
+
+1885
+03:00:06,580 --> 03:00:08,580
+ I'm not sure.
+
+1886
+03:00:08,580 --> 03:00:10,580
+ I'm not sure.
+
+1887
+03:00:10,580 --> 03:00:12,580
+ I'm not sure.
+
+1888
+03:00:12,580 --> 03:00:14,580
+ I'm not sure.
+
+1889
+03:00:14,580 --> 03:00:16,580
+ I'm not sure.
+
+1890
+03:00:16,580 --> 03:00:18,580
+ I'm not sure.
+
+1891
+03:00:18,580 --> 03:00:20,580
+ I'm not sure.
+
+1892
+03:00:20,580 --> 03:00:22,580
+ I'm not sure.
+

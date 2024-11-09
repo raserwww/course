@@ -1,0 +1,6108 @@
+1
+00:00:00,000 --> 00:00:06,360
+ 坐ar기經常訪問者 馬府學院  nég-il-i-lnar
+
+2
+00:00:06,540 --> 00:00:08,640
+ 不忍 concerns
+
+3
+00:00:08,800 --> 00:00:12,460
+ 辦公錯
+
+4
+00:00:12,500 --> 00:00:13,540
+ 不忍
+
+5
+00:00:13,600 --> 00:00:15,680
+ 不忍
+
+6
+00:00:16,200 --> 00:00:17,960
+ 不忍
+
+7
+00:00:18,400 --> 00:00:25,500
+ 不忍
+
+8
+00:00:25,500 --> 00:00:50,500
+ Okay, shall we continue?
+
+9
+00:00:50,500 --> 00:00:59,500
+ Okay, how are you?
+
+10
+00:00:59,500 --> 00:01:02,500
+ I hope you have taken a break just now.
+
+11
+00:01:02,500 --> 00:01:07,500
+ I may not have a break after this,
+
+12
+00:01:07,500 --> 00:01:15,500
+ and we will continue until 3.20 or 3.10 after I finish.
+
+13
+00:01:15,500 --> 00:01:25,500
+ You can feel free yourself to walk out to take a break if you need to do so.
+
+14
+00:01:25,500 --> 00:01:28,500
+ So I am Tang Yaping.
+
+15
+00:01:28,500 --> 00:01:34,500
+ I am going to continue the lecture for the second half.
+
+16
+00:01:34,500 --> 00:01:39,500
+ But today I will cover the introduction,
+
+17
+00:01:39,500 --> 00:01:42,500
+ very basic introduction to machinery.
+
+18
+00:01:42,500 --> 00:01:52,500
+ Next week I will be here, so Professor Wen Gi-Han will come in to tell you about the projects that you are going to do for this lecture.
+
+19
+00:01:52,500 --> 00:02:00,500
+ And I will come back in week 7 again to resume my lectures.
+
+20
+00:02:00,500 --> 00:02:08,500
+ So again, by far I hope that you should know this is a very basic introductory course.
+
+21
+00:02:08,500 --> 00:02:12,500
+ But it doesn't mean it's going to be easy.
+
+22
+00:02:12,500 --> 00:02:20,500
+ For those of you who have learned some subjects before, you will find that you are quite confident.
+
+23
+00:02:20,500 --> 00:02:27,500
+ But even though that is the case, because this field is moving so fast,
+
+24
+00:02:27,500 --> 00:02:38,500
+ if you do not keep yourself updated with the progress of some of these topics, you will get outdated very soon.
+
+25
+00:02:38,500 --> 00:02:45,500
+ So with that comment, we are not going to cover a lot of very advanced topics.
+
+26
+00:02:45,500 --> 00:02:52,500
+ I may mention some of those examples, but I will mainly focus on a very fundamental concept,
+
+27
+00:02:52,500 --> 00:03:03,500
+ which I think is very important for you to know them so that you can learn the new advanced by yourself.
+
+28
+00:03:03,500 --> 00:03:10,500
+ And do pay attention to this because the content is quite a lot.
+
+29
+00:03:10,500 --> 00:03:15,500
+ We assume that you are going to learn more things yourself.
+
+30
+00:03:15,500 --> 00:03:26,500
+ We will cover the basics, but to really understand some of these topics, you do need to sell them because it's a great course.
+
+31
+00:03:26,500 --> 00:03:32,500
+ And that's how you can find it by email will be easier.
+
+32
+00:03:32,500 --> 00:03:39,500
+ If you have anything you can contact me, you can email or even team me.
+
+33
+00:03:39,500 --> 00:03:51,500
+ So the learning objective, just to remind you, is to introduce the fundamental theories and concepts of AI and data mining.
+
+34
+00:03:51,500 --> 00:03:58,500
+ Of course, AI is very broad. There is no way that we cover everything about AI.
+
+35
+00:03:58,500 --> 00:04:04,500
+ But AI today is very much driven by machine learning.
+
+36
+00:04:04,500 --> 00:04:15,500
+ AI has been around for many years, but it has up and down, up and down until more recent 10-plus years.
+
+37
+00:04:15,500 --> 00:04:25,500
+ Suddenly, there is a so-called new approach to AI, which is called machine learning, which is what we are going to cover.
+
+38
+00:04:26,500 --> 00:04:36,500
+ So of course, Professor Chen Yi Hui has covered this state space representation, search, and even association rule mining.
+
+39
+00:04:36,500 --> 00:04:50,500
+ So I'm going to focus on supervised learning, some classifiers, including K, K nearest neighborhood, the simplest one you can think of, SVM, and neural network.
+
+40
+00:04:51,500 --> 00:04:58,500
+ And some of the applications. This is what I will cover.
+
+41
+00:04:58,500 --> 00:05:14,500
+ Of course, the outcome, you should be able to understand the basics of machine learning models and algorithms, and then how to apply them to many popular applications.
+
+42
+00:05:15,500 --> 00:05:26,500
+ I will also give you some toy programs that you can play with, so that you get a sense of how those algorithms work.
+
+43
+00:05:26,500 --> 00:05:35,500
+ Today, you are so lucky that you can find a lot of information online, a lot of free resources.
+
+44
+00:05:36,500 --> 00:05:42,500
+ Although I listed some books, these are the topics I'm going to cover.
+
+45
+00:05:42,500 --> 00:05:57,500
+ They are quite basic, but they are still very useful because when you try to solve some problems, you find that some of the fundamental methods are still quite useful.
+
+46
+00:05:58,500 --> 00:06:08,500
+ So here are the textbook and some reference books, which we think could be useful, but not only this.
+
+47
+00:06:08,500 --> 00:06:15,500
+ Again, I will not be surprised today if you don't need to even need to have any textbook.
+
+48
+00:06:15,500 --> 00:06:20,500
+ That's just so much online information on my YouTube website.
+
+49
+00:06:20,500 --> 00:06:32,500
+ I can go to some of those big companies like OpenMine, OpenAI, StickMine, Google, Microsoft.
+
+50
+00:06:32,500 --> 00:06:35,500
+ They all have all these content you can learn.
+
+51
+00:06:35,500 --> 00:06:43,500
+ But if you only need to buy one, I will suggest the textbook that we will use is this one.
+
+52
+00:06:44,500 --> 00:06:49,500
+ Tantang Ming, Interduction to Data Mining.
+
+53
+00:06:49,500 --> 00:06:52,500
+ I think this is the book covered.
+
+54
+00:06:52,500 --> 00:07:04,500
+ If you happen to like to read the books in very so-called detail, I think this is a rather surprising thing.
+
+55
+00:07:04,500 --> 00:07:09,500
+ It's not a new book, but surprisingly it is quite comprehensive.
+
+56
+00:07:09,500 --> 00:07:18,500
+ It covers many, many topics including machine learning, neural network, support vector machine, decision tree, many, many others.
+
+57
+00:07:23,500 --> 00:07:27,500
+ In one book, some of them are available online.
+
+58
+00:07:27,500 --> 00:07:28,500
+ You can go and check.
+
+59
+00:07:28,500 --> 00:07:31,500
+ But they are not necessarily easy to read.
+
+60
+00:07:31,500 --> 00:07:36,500
+ For example, this one, the Murphy and even the...
+
+61
+00:07:36,500 --> 00:07:40,500
+ I think Christopher Bischoff had another new book on machine learning.
+
+62
+00:07:40,500 --> 00:07:42,500
+ You can go and take a look.
+
+63
+00:07:42,500 --> 00:07:46,500
+ But depending on how much you want to devolve yourself to this.
+
+64
+00:07:48,500 --> 00:07:53,500
+ Of course, the content again, of course, we didn't create all these fields.
+
+65
+00:07:53,500 --> 00:07:58,500
+ Some of these are from other reference sources in our mind, material.
+
+66
+00:07:58,500 --> 00:08:08,500
+ So do respect the copyright of the respective so-called content owner and use it properly.
+
+67
+00:08:09,500 --> 00:08:14,500
+ So we are going to meet every Thursday, 12.30 to 3.20.
+
+68
+00:08:14,500 --> 00:08:18,500
+ And there is another equivalent class from tomorrow morning.
+
+69
+00:08:18,500 --> 00:08:24,500
+ I think it's 9.30 to 12.30 in LT 22.
+
+70
+00:08:24,500 --> 00:08:27,500
+ In case you prefer the other one, you can also come.
+
+71
+00:08:30,500 --> 00:08:38,500
+ Assessment, there will be two homework assignments, which will be one or two work problems you have to solve.
+
+72
+00:08:38,500 --> 00:08:47,500
+ Make sure that you can go through those so-called exercises yourself, which are very similar to your final exam.
+
+73
+00:08:47,500 --> 00:08:49,500
+ So better do it yourself.
+
+74
+00:08:50,500 --> 00:08:54,500
+ I remember there will be a quiz, so I think Saturday is it.
+
+75
+00:08:54,500 --> 00:08:58,500
+ Prof. Chen from Udo come because we have quite a lot of students.
+
+76
+00:08:58,500 --> 00:09:01,500
+ So make sure you stick to the schedule.
+
+77
+00:09:01,500 --> 00:09:05,500
+ And there will be a project from next week onwards.
+
+78
+00:09:05,500 --> 00:09:11,500
+ This is Prof. Long Bi Han, who tell you, I believe he has sent you an email about the project.
+
+79
+00:09:11,500 --> 00:09:15,500
+ And all these are actually not really very difficult.
+
+80
+00:09:15,500 --> 00:09:21,500
+ You just want to make sure that you keep up your learning, put in effort in your study.
+
+81
+00:09:21,500 --> 00:09:25,500
+ So once you submit, you will score some marks.
+
+82
+00:09:25,500 --> 00:09:32,500
+ And if you want to pass a course, you better try to get as many marks as possible from the first three.
+
+83
+00:09:32,500 --> 00:09:41,500
+ Because the final exam is open, it's a sorry, it's for all kind of restricted open book.
+
+84
+00:09:41,500 --> 00:09:45,500
+ Open book, I mean you can bring a piece of A4 paper.
+
+85
+00:09:45,500 --> 00:09:49,500
+ Has Prof. Chen told you about this?
+
+86
+00:09:49,500 --> 00:09:59,500
+ So you should start preparing what you want to put on the A4 paper now, right, until the exam.
+
+87
+00:09:59,500 --> 00:10:06,500
+ So if you refer to past exam paper, you'll find that there are normally quite a number of questions in the final exam.
+
+88
+00:10:06,500 --> 00:10:15,500
+ So if you are not really familiar with solving those problems through practicing in the assignment, quiz and even project yourself.
+
+89
+00:10:15,500 --> 00:10:20,500
+ And I will probably also show some example during the lecture.
+
+90
+00:10:20,500 --> 00:10:28,500
+ You'll find that it will not be easy for you to finish all the questions within the two hours, is it?
+
+91
+00:10:28,500 --> 00:10:32,500
+ So do practice because you'll be a lot of questions.
+
+92
+00:10:32,500 --> 00:10:37,500
+ You need to be very familiar with the content.
+
+93
+00:10:37,500 --> 00:10:39,500
+ So there is assessment part.
+
+94
+00:10:39,500 --> 00:10:43,500
+ Just to recap what you need to be aware of.
+
+95
+00:10:43,500 --> 00:10:55,500
+ And understand this video lecture will also be recorded in case you need to refer to the lecture you can also do so.
+
+96
+00:10:55,500 --> 00:11:01,500
+ I will focus a lot on machine learning.
+
+97
+00:11:01,500 --> 00:11:09,500
+ And of course, this is not the advanced course, it's the introductory course.
+
+98
+00:11:09,500 --> 00:11:19,500
+ So in case you have learned some of this, just try to look at it from some of the perspectives I'm going to cover.
+
+99
+00:11:19,500 --> 00:11:22,500
+ Okay, so what is machine learning?
+
+100
+00:11:22,500 --> 00:11:28,500
+ Okay, so I will cover this topic, an introduction of this topic today.
+
+101
+00:11:28,500 --> 00:11:33,500
+ Then see how we go.
+
+102
+00:11:37,500 --> 00:11:41,500
+ And if you have any questions, certainly you are free to ask any questions.
+
+103
+00:11:43,500 --> 00:11:48,500
+ So here are some of the key topics I'm going to cover, very brief.
+
+104
+00:11:48,500 --> 00:11:50,500
+ And I have some of the key terms.
+
+105
+00:11:50,500 --> 00:11:57,500
+ This key term is to help you to make sure that you learn the important point of concept.
+
+106
+00:11:57,500 --> 00:12:01,500
+ Like what is machine learning, what is deep learning?
+
+107
+00:12:01,500 --> 00:12:06,500
+ Classification, regression, you should know the difference between this.
+
+108
+00:12:06,500 --> 00:12:12,500
+ And unsupervised learning, supervised learning, and some of these.
+
+109
+00:12:12,500 --> 00:12:17,500
+ So we will go to such a topic.
+
+110
+00:12:20,500 --> 00:12:22,500
+ So what is machine learning?
+
+111
+00:12:22,500 --> 00:12:27,500
+ You probably have heard a lot about machine learning or deep learning.
+
+112
+00:12:27,500 --> 00:12:30,500
+ So machine learning, of course, if you are a full-time talker,
+
+113
+00:12:30,500 --> 00:12:41,500
+ basically is to try to ask a computer to learn so that you do not need to program it explicitly.
+
+114
+00:12:41,500 --> 00:12:46,500
+ For example, when I was, we're just students like you,
+
+115
+00:12:46,500 --> 00:12:52,500
+ I was involved in a project with a big company in the USA.
+
+116
+00:12:52,500 --> 00:13:00,500
+ So the project wanted to develop a phase recognition so-called program,
+
+117
+00:13:00,500 --> 00:13:07,500
+ allowing users to use it to get entry to a company, for example.
+
+118
+00:13:08,500 --> 00:13:13,500
+ So at that time, there was no machine learning algorithm.
+
+119
+00:13:13,500 --> 00:13:19,500
+ So what we did was trying to write the program, which was the old way to solve the problem.
+
+120
+00:13:19,500 --> 00:13:23,500
+ We had to write, for example, what is a phase?
+
+121
+00:13:23,500 --> 00:13:25,500
+ Then do the image processing.
+
+122
+00:13:25,500 --> 00:13:28,500
+ You're supposed to find some symmetry.
+
+123
+00:13:28,500 --> 00:13:32,500
+ There are eyes, intensity, you go down, up.
+
+124
+00:13:32,500 --> 00:13:40,500
+ Then you make sure that the distance between eyes, the ratio of the mouth and the eyes and nose,
+
+125
+00:13:40,500 --> 00:13:44,500
+ you write all this in the so-called programming.
+
+126
+00:13:44,500 --> 00:13:52,500
+ But it works for a small data set, like 10, 20, more, you're so happy.
+
+127
+00:13:52,500 --> 00:13:59,500
+ But then when you go to the company, you find out after 100 employees, it starts to fail.
+
+128
+00:13:59,500 --> 00:14:01,500
+ It doesn't work as well.
+
+129
+00:14:01,500 --> 00:14:13,500
+ And worst is you cannot expect that people will come with many kind of so-called makeup or glasses or head.
+
+130
+00:14:13,500 --> 00:14:19,500
+ Even in front of the camera, we have to write the program to ask the person to step in front of it.
+
+131
+00:14:19,500 --> 00:14:26,500
+ Make sure your face is inside the circle, remove your glasses, comb your hair.
+
+132
+00:14:27,500 --> 00:14:33,500
+ So many, this thing, we had to write all the program ourselves, but still cannot work.
+
+133
+00:14:33,500 --> 00:14:39,500
+ And that had been the old approach, computer vision approach to such a problem.
+
+134
+00:14:39,500 --> 00:14:42,500
+ We have struggled this with 50 years.
+
+135
+00:14:42,500 --> 00:14:47,500
+ So there was not a project and people had put in a lot effort.
+
+136
+00:14:47,500 --> 00:14:51,500
+ Even I remember there was another dissertation to solve similar problems.
+
+137
+00:14:51,500 --> 00:14:56,500
+ The PhD dissertation asked to remove glasses.
+
+138
+00:14:56,500 --> 00:15:06,500
+ If you are wearing glasses, so they'll process your face, remove the glasses so that you can do a so-called proper recognition.
+
+139
+00:15:06,500 --> 00:15:09,500
+ Your remove glasses, not easy.
+
+140
+00:15:09,500 --> 00:15:14,500
+ So again, think about the time that for those unfamiliar with machinery,
+
+141
+00:15:14,500 --> 00:15:17,500
+ think about the time that without machinery, not for reason.
+
+142
+00:15:17,500 --> 00:15:22,500
+ So you have to find a way to make up a so-called dissertation.
+
+143
+00:15:22,500 --> 00:15:26,500
+ Those are areas which are blocked by glasses.
+
+144
+00:15:26,500 --> 00:15:35,500
+ And all these problems, anytime you have a new problem, then you have to develop a new set of algorithms.
+
+145
+00:15:35,500 --> 00:15:42,500
+ I still remember at that time, another company was very interested in human sport.
+
+146
+00:15:42,500 --> 00:15:47,500
+ So Olympic, there was 1986, there was Olympic in USA.
+
+147
+00:15:47,500 --> 00:15:54,500
+ So they tried to analyze a video so that you can identify this sport is a skiing.
+
+148
+00:15:54,500 --> 00:15:57,500
+ So how do you describe a skiing process?
+
+149
+00:15:57,500 --> 00:16:03,500
+ They find out the motion, had to have a zig-zag like this, and you come down there.
+
+150
+00:16:03,500 --> 00:16:07,500
+ If you move the camera sideways, then everything is different.
+
+151
+00:16:07,500 --> 00:16:12,500
+ It cannot detect. It's very difficult because there was an old approach.
+
+152
+00:16:12,500 --> 00:16:14,500
+ Computer cannot learn.
+
+153
+00:16:14,500 --> 00:16:20,500
+ You have your input data, you want the output for the detect who is this person.
+
+154
+00:16:20,500 --> 00:16:25,500
+ They are to write a program, and the task is the program.
+
+155
+00:16:25,500 --> 00:16:33,500
+ You think about writing the program line by line yourself to do this kind of a human approach thinking,
+
+156
+00:16:33,500 --> 00:16:36,500
+ to do all these so-called analysis.
+
+157
+00:16:36,500 --> 00:16:40,500
+ So it was challenging. It just cannot really scale up.
+
+158
+00:16:40,500 --> 00:16:50,500
+ It cannot be generalized to any other scene or configuration or camera perspective that you did not think about.
+
+159
+00:16:50,500 --> 00:16:52,500
+ But machine learning is different.
+
+160
+00:16:52,500 --> 00:16:59,500
+ Machine learning assuming that you have the inputs data, a lot of data, the faces you collect.
+
+161
+00:16:59,500 --> 00:17:02,500
+ You know the output, who is this person.
+
+162
+00:17:03,500 --> 00:17:08,500
+ And then you go through the so-called training, training process.
+
+163
+00:17:08,500 --> 00:17:10,500
+ We'll talk about how to train.
+
+164
+00:17:10,500 --> 00:17:16,500
+ Then the output is the program, the so-called network, the models.
+
+165
+00:17:16,500 --> 00:17:20,500
+ They can detect who is this person.
+
+166
+00:17:20,500 --> 00:17:25,500
+ So you do not need to learn what is the structure of your face.
+
+167
+00:17:25,500 --> 00:17:31,500
+ You have to learn how to detect eyes, how to detect nose, how to detect eyebrows.
+
+168
+00:17:31,500 --> 00:17:34,500
+ You do not need to know. You just collect all of the data.
+
+169
+00:17:34,500 --> 00:17:42,500
+ Anyone can train them using a known so-called model.
+
+170
+00:17:42,500 --> 00:17:46,500
+ Then your model will be able to classify.
+
+171
+00:17:46,500 --> 00:17:52,500
+ But even then we are not happy with that approach because even if you can train,
+
+172
+00:17:52,500 --> 00:17:56,500
+ you can only perform one part, recognize faces.
+
+173
+00:17:56,500 --> 00:18:03,500
+ Today I want to use the algorithm to recognize the motion of the sport.
+
+174
+00:18:03,500 --> 00:18:05,500
+ It cannot work.
+
+175
+00:18:05,500 --> 00:18:09,500
+ Then you have to find another training algorithm to do that.
+
+176
+00:18:09,500 --> 00:18:15,500
+ So machine learning today, it can do well for one specific task.
+
+177
+00:18:15,500 --> 00:18:20,500
+ But when you try to use the model, you build another problem,
+
+178
+00:18:20,500 --> 00:18:22,500
+ it will not work.
+
+179
+00:18:22,500 --> 00:18:24,500
+ Or at least it will not work as well.
+
+180
+00:18:24,500 --> 00:18:27,500
+ So that is the machine learning approach.
+
+181
+00:18:27,500 --> 00:18:30,500
+ So you understand the different entities too?
+
+182
+00:18:30,500 --> 00:18:36,500
+ You have to appreciate right now you can write program to do a lot of very advanced processing.
+
+183
+00:18:36,500 --> 00:18:44,500
+ You may not even know how it works, how the model, RESTnet, all these so-called yoros, how they work.
+
+184
+00:18:44,500 --> 00:18:49,500
+ You just have to follow certain data collection, go through some training.
+
+185
+00:18:49,500 --> 00:18:51,500
+ You can create the result that you want.
+
+186
+00:18:51,500 --> 00:18:53,500
+ That in the past was something like that.
+
+187
+00:18:53,500 --> 00:19:02,500
+ You had to really be the one building the program, identify step by step how to recognize a person.
+
+188
+00:19:02,500 --> 00:19:04,500
+ Which is challenging.
+
+189
+00:19:04,500 --> 00:19:07,500
+ So you have a beauty machine learning basically.
+
+190
+00:19:07,500 --> 00:19:14,500
+ You can have a model, then you can use a very straightforward approach to train the models
+
+191
+00:19:14,500 --> 00:19:22,500
+ and which can do for some even car, you can try the car, the robot taxi.
+
+192
+00:19:22,500 --> 00:19:27,500
+ And use computational method, not explicit programming.
+
+193
+00:19:27,500 --> 00:19:31,500
+ To learn from data, you need to have both input and output.
+
+194
+00:19:31,500 --> 00:19:41,500
+ About the process of mapping or the problem that you need to perform to make a good decision or prediction.
+
+195
+00:19:42,500 --> 00:19:44,500
+ That is machine learning.
+
+196
+00:19:44,500 --> 00:19:46,500
+ You do not need to write a program.
+
+197
+00:19:46,500 --> 00:19:55,500
+ You just need to collect a lot of data or your experience based on, let's say, if you want to perform certain tasks,
+
+198
+00:19:55,500 --> 00:19:57,500
+ your experience will help.
+
+199
+00:19:57,500 --> 00:20:05,500
+ And then at the end, you can perform all the different tasks easily.
+
+200
+00:20:05,500 --> 00:20:11,500
+ So there is a main difference between traditional programming, which is time consuming,
+
+201
+00:20:11,500 --> 00:20:17,500
+ need a lot of domain expertise, need a lot of time, need a lot of detailed programming.
+
+202
+00:20:17,500 --> 00:20:21,500
+ Then today, machine learning, I think many of you should have tried it before.
+
+203
+00:20:21,500 --> 00:20:30,500
+ While you may not even understand how it works, you can still train the data, you can still perform the tasks to some extent.
+
+204
+00:20:30,500 --> 00:20:33,500
+ So that is the power of machine learning.
+
+205
+00:20:35,500 --> 00:20:42,500
+ And deep learning, so what is the difference between machine learning and deep learning?
+
+206
+00:20:42,500 --> 00:20:49,500
+ Deep learning, you can consider that deep learning is a subfield of machine learning.
+
+207
+00:20:49,500 --> 00:20:57,500
+ Basically, it requires a bigger network, a bigger model, or a lot more data.
+
+208
+00:20:57,500 --> 00:21:06,500
+ For example, machine learning, in case you know about this, like K-Nearest Neighbor classification is a machine learning algorithm.
+
+209
+00:21:06,500 --> 00:21:07,500
+ Sort of.
+
+210
+00:21:07,500 --> 00:21:12,500
+ Or decision tree is another machine learning algorithm.
+
+211
+00:21:12,500 --> 00:21:19,500
+ But the tree, because the structure is quite simple to some extent.
+
+212
+00:21:19,500 --> 00:21:26,500
+ So when you try to apply it to a lot of data, like recognize all the human in the world, it won't work.
+
+213
+00:21:27,500 --> 00:21:29,500
+ But that you need deep learning.
+
+214
+00:21:29,500 --> 00:21:40,500
+ Deep learning is you have a bigger model, you have a lot more data, and the performance always continues to improve when you have more and more data.
+
+215
+00:21:40,500 --> 00:21:42,500
+ I think there is a data somewhere.
+
+216
+00:21:42,500 --> 00:21:46,500
+ If you read the slide, there is a data, a amount of data.
+
+217
+00:21:46,500 --> 00:21:54,500
+ And the traditional machine learning will, even if you have more data, you cannot improve any further.
+
+218
+00:21:54,500 --> 00:21:55,500
+ So that's the difference.
+
+219
+00:21:55,500 --> 00:21:57,500
+ Of course, it's not really important.
+
+220
+00:21:57,500 --> 00:22:06,500
+ Sometimes deep learning is people because they have done one, they publish a lot of paper on machine learning, you know, to show that their result, their model is much better.
+
+221
+00:22:06,500 --> 00:22:07,500
+ They call it deep learning.
+
+222
+00:22:07,500 --> 00:22:10,500
+ It's just a different term.
+
+223
+00:22:10,500 --> 00:22:13,500
+ But it's still a machine learning algorithm.
+
+224
+00:22:13,500 --> 00:22:18,500
+ So in case you wonder.
+
+225
+00:22:18,500 --> 00:22:25,500
+ So machine learning or deep learning has achieved very good results in many applications.
+
+226
+00:22:25,500 --> 00:22:41,500
+ And if you further understand it is the approach is very versatile, meaning that if you can model the problem into some kind of classification or machine learning problem,
+
+227
+00:22:41,500 --> 00:22:49,500
+ you can solve many, many problems including speech recognition, language translation, your church epiti.
+
+228
+00:22:49,500 --> 00:22:55,500
+ In fact, it's also some kind of advanced machine learning algorithm.
+
+229
+00:22:55,500 --> 00:23:03,500
+ It is more general that you can understand a lot of tax information.
+
+230
+00:23:04,500 --> 00:23:12,500
+ Even for autonomous vehicle, you look at the picture, then you now make classification.
+
+231
+00:23:12,500 --> 00:23:18,500
+ So you continue forward, so you turn right, so you turn left, so you slow down, so you.
+
+232
+00:23:18,500 --> 00:23:22,500
+ So output, there will be a few of the classification tasks.
+
+233
+00:23:22,500 --> 00:23:32,500
+ So once you can model the problem as a machine learning, then you can train that the problem will be how do you more formulate the problem into a machine learning problem.
+
+234
+00:23:32,500 --> 00:23:37,500
+ How do you collect the data, enough data, and do the training.
+
+235
+00:23:37,500 --> 00:23:41,500
+ Do you have enough computation resource to do so?
+
+236
+00:23:41,500 --> 00:23:48,500
+ So that will be the remaining problem that everyone can do, hire a lot of engineers.
+
+237
+00:23:48,500 --> 00:23:53,500
+ If you are lucky or unlucky, you might be hired by one of the big companies.
+
+238
+00:23:53,500 --> 00:24:02,500
+ It could be Google, Alipapa, Tencent, Huawei, to do some of this.
+
+239
+00:24:02,500 --> 00:24:07,500
+ Many of your seniors now work in those companies.
+
+240
+00:24:07,500 --> 00:24:12,500
+ So doing a lot of the training data.
+
+241
+00:24:12,500 --> 00:24:19,500
+ Okay, among the machine learning, you can subdivide those problems into different tasks.
+
+242
+00:24:19,500 --> 00:24:26,500
+ You should be able to roughly understand, is this task a supervised learning?
+
+243
+00:24:26,500 --> 00:24:38,500
+ Of course, there are many, many other subcategories, but generally a supervised learning is you have a set of input and you know what are the output of those input.
+
+244
+00:24:38,500 --> 00:24:50,500
+ Okay, then you learn the function, the mapping or the decision from input to output with as few errors as possible.
+
+245
+00:24:50,500 --> 00:24:53,500
+ So here is one example.
+
+246
+00:24:53,500 --> 00:24:59,500
+ But if I give you all these dots, they belong to two classes.
+
+247
+00:24:59,500 --> 00:25:10,500
+ Okay, now I would like you to find a decision boundary classification, which can tell a new sample.
+
+248
+00:25:10,500 --> 00:25:13,500
+ Maybe I have a new sample here, come here.
+
+249
+00:25:13,500 --> 00:25:16,500
+ Okay, let me see.
+
+250
+00:25:16,500 --> 00:25:20,500
+ Ten.
+
+251
+00:25:20,500 --> 00:25:23,500
+ Okay, I have a new sample here.
+
+252
+00:25:23,500 --> 00:25:30,500
+ So I ask, does it belong to the plus class or the circle class?
+
+253
+00:25:30,500 --> 00:25:36,500
+ You need to find the boundary so that you can make decision.
+
+254
+00:25:36,500 --> 00:25:39,500
+ Then you go to the machine learning approach.
+
+255
+00:25:39,500 --> 00:25:46,500
+ You have this input data set, you know that this is a circle class, this is the plus class.
+
+256
+00:25:46,500 --> 00:25:49,500
+ Then how do you, you then you select a model.
+
+257
+00:25:49,500 --> 00:26:00,500
+ The model could be a decision tree, could be a support vector machine, could be a neural network, could be a K-NAS neighbor classifier.
+
+258
+00:26:00,500 --> 00:26:07,500
+ Then you train the machine with the data, which you have the input, you have the target output.
+
+259
+00:26:07,500 --> 00:26:15,500
+ So once you train, and of course when you do the training, you will know that whether the decision can do well on your training data.
+
+260
+00:26:15,500 --> 00:26:23,500
+ And then when you put in the new data, you hope that the decision can also do well for the new data.
+
+261
+00:26:23,500 --> 00:26:29,500
+ That is called you have a good generalization ability.
+
+262
+00:26:29,500 --> 00:26:35,500
+ Okay, and that's one type of supervised learning problem classification.
+
+263
+00:26:35,500 --> 00:26:38,500
+ So another type is called regression.
+
+264
+00:26:38,500 --> 00:26:44,500
+ So the classification, the output is a finite number of classes.
+
+265
+00:26:44,500 --> 00:26:52,500
+ Like, in the example I say the autonomous vehicle driving, are you going to go forward, slow down, turn left, turn right.
+
+266
+00:26:52,500 --> 00:26:57,500
+ And even turn right, how many degrees, how, what, what is the speed you're going to turn.
+
+267
+00:26:57,500 --> 00:27:02,500
+ All these are different so-called decision classes you can make.
+
+268
+00:27:02,500 --> 00:27:05,500
+ So the other problem is called regression.
+
+269
+00:27:05,500 --> 00:27:14,500
+ So regression is, I give you, of course this is a very simplified two-dimensional, one X and one Y is output.
+
+270
+00:27:14,500 --> 00:27:17,500
+ Given the X, you know Y is a Y.
+
+271
+00:27:17,500 --> 00:27:24,500
+ So now if I want to find a simple way to describe the set of data, this could be the line.
+
+272
+00:27:24,500 --> 00:27:28,500
+ So once I have a new X input, I know Y is a Y.
+
+273
+00:27:28,500 --> 00:27:31,500
+ Or even X could be outside here, I know Y is a Y.
+
+274
+00:27:31,500 --> 00:27:33,500
+ This is called regression.
+
+275
+00:27:33,500 --> 00:27:44,500
+ You are going to find a simple model in this case which can describe a lot of input and output relation.
+
+276
+00:27:44,500 --> 00:27:47,500
+ So this is called regression.
+
+277
+00:27:47,500 --> 00:27:53,500
+ Okay, you need to understand what is the classification problem, what is the regression problem.
+
+278
+00:27:53,500 --> 00:27:58,500
+ So for classification, the output could be only a finite number of classes.
+
+279
+00:27:58,500 --> 00:28:10,500
+ And the number could be huge, like your church ABT could be all the tokens available, a few thousand different type of token output.
+
+280
+00:28:10,500 --> 00:28:16,500
+ And for regression, you do not have a fixed number of output.
+
+281
+00:28:16,500 --> 00:28:19,500
+ You have a real number and a lot of output.
+
+282
+00:28:19,500 --> 00:28:30,500
+ But you have a formula or you have a so-called way to describe when you are given an input, what is the output value of your regression.
+
+283
+00:28:30,500 --> 00:28:32,500
+ Okay, here is another example.
+
+284
+00:28:32,500 --> 00:28:34,500
+ Let's say you want to...
+
+285
+00:28:37,500 --> 00:28:43,500
+ You know that, let's say you are finding a place to rent in Singapore, right?
+
+286
+00:28:43,500 --> 00:28:47,500
+ You look at us, a couple of our friends, where do you stay?
+
+287
+00:28:47,500 --> 00:28:49,500
+ How much do you pay per month?
+
+288
+00:28:49,500 --> 00:28:54,500
+ And you say HDB, a condo or share with others, so you collect a bunch of data.
+
+289
+00:28:54,500 --> 00:28:57,500
+ Then you kind of find how much they pay per month, right?
+
+290
+00:28:57,500 --> 00:29:05,500
+ Then you know roughly what is the rent over the place that you stay, right?
+
+291
+00:29:05,500 --> 00:29:07,500
+ Then now you look for a new place, right?
+
+292
+00:29:07,500 --> 00:29:10,500
+ Someone ever ties a new location, look at it.
+
+293
+00:29:10,500 --> 00:29:15,500
+ Then can you tell how much you should bargain to a group pay, right?
+
+294
+00:29:15,500 --> 00:29:18,500
+ Maybe $1,000, $900, right?
+
+295
+00:29:18,500 --> 00:29:20,500
+ Then you can use the curve.
+
+296
+00:29:20,500 --> 00:29:26,500
+ It tells you that that place has not been rented out, so you do not know how much you need to pay for it.
+
+297
+00:29:26,500 --> 00:29:28,500
+ But you can fit into this curve.
+
+298
+00:29:28,500 --> 00:29:33,500
+ I find out, okay, how much should be a fame value of the rent.
+
+299
+00:29:33,500 --> 00:29:36,500
+ So that is a regression problem.
+
+300
+00:29:36,500 --> 00:29:39,500
+ Of course, the input in here, I will use the side of the houses.
+
+301
+00:29:39,500 --> 00:29:44,500
+ But you can imagine that the input could depend on many, many factors, right?
+
+302
+00:29:44,500 --> 00:29:46,500
+ How far away, right?
+
+303
+00:29:46,500 --> 00:29:49,500
+ Which level of the unit, right?
+
+304
+00:29:49,500 --> 00:29:53,500
+ Is it a condo, HDB or a hostel?
+
+305
+00:29:53,500 --> 00:29:56,500
+ And who are the people staying in the house?
+
+306
+00:29:56,500 --> 00:29:57,500
+ How many people stay in the house?
+
+307
+00:29:57,500 --> 00:30:00,500
+ So a lot of this could be your input value.
+
+308
+00:30:00,500 --> 00:30:05,500
+ Then you try to predict the output, how much rent that you need to pay.
+
+309
+00:30:05,500 --> 00:30:08,500
+ So that is a regression problem, right?
+
+310
+00:30:08,500 --> 00:30:16,500
+ So you may be able to convert that into a classification problem if you want to.
+
+311
+00:30:16,500 --> 00:30:22,500
+ For example, when you call it data, you can say that, okay, all these rents, right?
+
+312
+00:30:22,500 --> 00:30:24,500
+ And I keep very specific value.
+
+313
+00:30:24,500 --> 00:30:30,500
+ I say it is from $600 to $650, right?
+
+314
+00:30:30,500 --> 00:30:32,500
+ There is one cost.
+
+315
+00:30:32,500 --> 00:30:36,500
+ $650, $1 to $700 is another cost.
+
+316
+00:30:36,500 --> 00:30:39,500
+ Then you would have a few number of classes.
+
+317
+00:30:39,500 --> 00:30:47,500
+ Then your data will be an input and output, then you become a classification problem.
+
+318
+00:30:47,500 --> 00:30:51,500
+ But for that problem, there are some limitations.
+
+319
+00:30:51,500 --> 00:30:57,500
+ And because the classes output, they do not really have any relation underneath, right?
+
+320
+00:30:57,500 --> 00:31:04,500
+ You only have a class ABCD, but it doesn't guarantee that your class C will be always more expensive than class B.
+
+321
+00:31:04,500 --> 00:31:06,500
+ So these are the problems that you decide.
+
+322
+00:31:06,500 --> 00:31:13,500
+ Is it better to formulate as a regression problem or classification problem?
+
+323
+00:31:13,500 --> 00:31:18,500
+ So this is the job that when you go to work outside, they will tell you that it's a problem,
+
+324
+00:31:18,500 --> 00:31:22,500
+ but they do not know whether it's a classification, which is a regression problem.
+
+325
+00:31:22,500 --> 00:31:24,500
+ You have to think about it.
+
+326
+00:31:24,500 --> 00:31:27,500
+ How should you formulate the problem?
+
+327
+00:31:27,500 --> 00:31:33,500
+ And then these are some of the popular supervised learning approach.
+
+328
+00:31:33,500 --> 00:31:37,500
+ So this is, again, supervised machine learning.
+
+329
+00:31:37,500 --> 00:31:41,500
+ You can have K nearest neighbor, decision tree, support vector machine,
+
+330
+00:31:41,500 --> 00:31:44,500
+ Newner network, linear regression.
+
+331
+00:31:44,500 --> 00:31:46,500
+ This is a linear regression.
+
+332
+00:31:46,500 --> 00:31:53,500
+ So these are some of the topics that we are going to cover in the lecture.
+
+333
+00:31:53,500 --> 00:31:55,500
+ Of course, sometimes you see this chart.
+
+334
+00:31:55,500 --> 00:32:01,500
+ This is, again, a very common way to express this.
+
+335
+00:32:01,500 --> 00:32:06,500
+ You have an input, then you try to build your train, your model.
+
+336
+00:32:06,500 --> 00:32:12,500
+ You get an output, but the output may not be exactly the same as your target output, data with labor.
+
+337
+00:32:12,500 --> 00:32:14,500
+ You know why it's a target output.
+
+338
+00:32:14,500 --> 00:32:17,500
+ Then the difference between them will become the error, right?
+
+339
+00:32:17,500 --> 00:32:21,500
+ And the error will be used to feedback to the network.
+
+340
+00:32:21,500 --> 00:32:24,500
+ Then you know where you can adjust the network.
+
+341
+00:32:24,500 --> 00:32:29,500
+ To go through the process with all of the practice training process.
+
+342
+00:32:29,500 --> 00:32:31,500
+ So we'll go through one of these examples.
+
+343
+00:32:31,500 --> 00:32:39,500
+ Some of these examples, like the one that you get, the learning model, which is the,
+
+344
+00:32:39,500 --> 00:32:43,500
+ give you the least amount of error.
+
+345
+00:32:43,500 --> 00:32:48,500
+ Another type of problem is called unsupervised learning problem,
+
+346
+00:32:48,500 --> 00:32:55,500
+ because you are given a set of inputs like this, right?
+
+347
+00:32:55,500 --> 00:32:58,500
+ Whose target outputs are unknown.
+
+348
+00:32:58,500 --> 00:33:01,500
+ I didn't tell you what they are.
+
+349
+00:33:01,500 --> 00:33:06,500
+ I just give you a number of these dots.
+
+350
+00:33:06,500 --> 00:33:13,500
+ So you can also store all the points, but then it may need a lot of storage.
+
+351
+00:33:13,500 --> 00:33:18,500
+ Even then you cannot really gain any inside of this box, right?
+
+352
+00:33:18,500 --> 00:33:23,500
+ So you want to find meaningful patterns from the data.
+
+353
+00:33:23,500 --> 00:33:30,500
+ For example, if I look at this class, and of course I come from another planet.
+
+354
+00:33:30,500 --> 00:33:35,500
+ So I look at all of you, I classify you into groups.
+
+355
+00:33:35,500 --> 00:33:42,500
+ I can imagine that, okay, maybe they are boys, they are girls, they are long hair, they are short hair,
+
+356
+00:33:42,500 --> 00:33:46,500
+ they are wearing different kind of outfit.
+
+357
+00:33:46,500 --> 00:33:51,500
+ So then I can have certain so-called summary.
+
+358
+00:33:51,500 --> 00:33:56,500
+ So in this case, you want to apply one of these so-called unsupervised learning,
+
+359
+00:33:56,500 --> 00:34:02,500
+ like clustering, like association analysis, I believe Professor Chen covered this,
+
+360
+00:34:02,500 --> 00:34:07,500
+ the data mining approach, and some kind of dimensionality reduction.
+
+361
+00:34:07,500 --> 00:34:09,500
+ For example, here is one example.
+
+362
+00:34:09,500 --> 00:34:19,500
+ You have a 2D data, you can simplify data into two, whether it is larger or smaller than a particular value.
+
+363
+00:34:19,500 --> 00:34:25,500
+ This is another way to simplify your data so you can make sense of it.
+
+364
+00:34:25,500 --> 00:34:38,500
+ For example, if you do the k-means clustering, you can find that all this data belongs to three groups of data.
+
+365
+00:34:39,500 --> 00:34:48,500
+ Then for any new data, then you can decide whether they belong to green, red, or blue cluster.
+
+366
+00:34:48,500 --> 00:34:54,500
+ So that's enough for you to simplify your storage, and then you can,
+
+367
+00:34:54,500 --> 00:35:00,500
+ and then for this case, you have only to store the center of this tree cluster.
+
+368
+00:35:00,500 --> 00:35:07,500
+ Then any new sample come here to find a way to measure the difference
+
+369
+00:35:07,500 --> 00:35:11,500
+ between the new data and the respective center representation,
+
+370
+00:35:11,500 --> 00:35:15,500
+ then you can tell whether this belongs to which class.
+
+371
+00:35:15,500 --> 00:35:20,500
+ So that is called unsupervised learning problem.
+
+372
+00:35:20,500 --> 00:35:26,500
+ Can anyone give me some example of unsupervised learning problem that you come across?
+
+373
+00:35:26,500 --> 00:35:28,500
+ Anyone?
+
+374
+00:35:28,500 --> 00:35:30,500
+ Think of. It could be an exam question, you know.
+
+375
+00:35:30,500 --> 00:35:37,500
+ I say give listed three unsupervised learning problem that you come across in real life.
+
+376
+00:35:40,500 --> 00:35:42,500
+ Anyone?
+
+377
+00:35:42,500 --> 00:35:45,500
+ Second and...
+
+378
+00:35:45,500 --> 00:35:46,500
+ Sorry?
+
+379
+00:35:46,500 --> 00:35:50,500
+ About the problem you came up with, and second and...
+
+380
+00:35:50,500 --> 00:35:51,500
+ Segment?
+
+381
+00:35:51,500 --> 00:35:52,500
+ Yes.
+
+382
+00:35:52,500 --> 00:35:53,500
+ Anything?
+
+383
+00:35:53,500 --> 00:35:56,500
+ Segment anything, but you know the things, right?
+
+384
+00:35:56,500 --> 00:36:02,500
+ Is it a classification problem or unsupervised problem or supervised problem?
+
+385
+00:36:02,500 --> 00:36:13,500
+ You can divide the class, and divide many things, like the door of the car and...
+
+386
+00:36:13,500 --> 00:36:18,500
+ You see, segmentation in those segment anything algorithm, right?
+
+387
+00:36:18,500 --> 00:36:22,500
+ In fact, they will try to judge this belongs to which group.
+
+388
+00:36:22,500 --> 00:36:24,500
+ Of course, they have a training.
+
+389
+00:36:24,500 --> 00:36:27,500
+ They already learned this is a car door.
+
+390
+00:36:27,500 --> 00:36:31,500
+ So it's kind of a supervised learning approach, right?
+
+391
+00:36:31,500 --> 00:36:36,500
+ So what are the unsupervised learning approach that you can think of?
+
+392
+00:36:42,500 --> 00:36:44,500
+ Recommendation, like what?
+
+393
+00:36:44,500 --> 00:36:46,500
+ Give me something more specific.
+
+394
+00:36:47,500 --> 00:36:56,500
+ That is supervised, because you know what is good or not good, right?
+
+395
+00:36:56,500 --> 00:36:58,500
+ Recommended or not recommended.
+
+396
+00:36:58,500 --> 00:37:02,500
+ So it is a supervised learning approach.
+
+397
+00:37:02,500 --> 00:37:07,500
+ Because you have a group of training leaders, you already know what you like, what you do like.
+
+398
+00:37:16,500 --> 00:37:18,500
+ Generating fake news.
+
+399
+00:37:18,500 --> 00:37:21,500
+ Generating fake news, right?
+
+400
+00:37:21,500 --> 00:37:23,500
+ Fake news, right?
+
+401
+00:37:23,500 --> 00:37:25,500
+ Fake news.
+
+402
+00:37:29,500 --> 00:37:32,500
+ It depends on how you generate the fake news.
+
+403
+00:37:32,500 --> 00:37:37,500
+ The moment you tell me it's a fake news, that means you know they are true and fake.
+
+404
+00:37:37,500 --> 00:37:42,500
+ So that is somehow kind of your known classes.
+
+405
+00:37:42,500 --> 00:37:49,500
+ So it's a kind of supervised learning or detection problem.
+
+406
+00:37:49,500 --> 00:37:52,500
+ In Google News, we get similar articles today.
+
+407
+00:37:52,500 --> 00:37:55,500
+ Similar articles, okay?
+
+408
+00:37:59,500 --> 00:38:00,500
+ Okay.
+
+409
+00:38:00,500 --> 00:38:02,500
+ It actually depends on how you formulate the problem.
+
+410
+00:38:02,500 --> 00:38:05,500
+ For example, following what you just suggested, right?
+
+411
+00:38:05,500 --> 00:38:06,500
+ The news, right?
+
+412
+00:38:08,500 --> 00:38:10,500
+ Let's say music, right?
+
+413
+00:38:10,500 --> 00:38:13,500
+ You hear a song, okay?
+
+414
+00:38:13,500 --> 00:38:18,500
+ And by different instruments, but you do not know how many instruments you have, right?
+
+415
+00:38:18,500 --> 00:38:20,500
+ I just give you a couple of those.
+
+416
+00:38:20,500 --> 00:38:23,500
+ Music play with different instruments.
+
+417
+00:38:23,500 --> 00:38:25,500
+ But you do not know all the instruments.
+
+418
+00:38:25,500 --> 00:38:30,500
+ I don't have any, so I can tell you that the song 100 of them you just heard,
+
+419
+00:38:30,500 --> 00:38:36,500
+ and roughly how many instruments play for each song.
+
+420
+00:38:37,500 --> 00:38:40,500
+ They will somehow find some kind of grouping.
+
+421
+00:38:40,500 --> 00:38:45,500
+ Those songs with similar voice that they belong to one.
+
+422
+00:38:45,500 --> 00:38:48,500
+ Similar to your fake news or news article.
+
+423
+00:38:48,500 --> 00:38:51,500
+ So of course, if you do not really need to...
+
+424
+00:38:54,500 --> 00:38:56,500
+ Yeah, but if you know how you solve the problem, right?
+
+425
+00:38:56,500 --> 00:39:02,500
+ If you detect the keywords of the news, then you try to group them, right?
+
+426
+00:39:02,500 --> 00:39:04,500
+ I think you could formulate as a class in problem.
+
+427
+00:39:04,500 --> 00:39:10,500
+ Assuming that you do not know how many different types of news on the newspaper, right?
+
+428
+00:39:10,500 --> 00:39:14,500
+ I just give you maybe a thousand of news articles, right?
+
+429
+00:39:14,500 --> 00:39:20,500
+ So I say, okay, can you roughly tell me how many classes of news?
+
+430
+00:39:20,500 --> 00:39:25,500
+ How many... are these the news for those certain patterns, right?
+
+431
+00:39:25,500 --> 00:39:34,500
+ So you can, for example, try to do some kind of keyword extraction, right?
+
+432
+00:39:34,500 --> 00:39:38,500
+ And then, of course, when you have keyword, then...
+
+433
+00:39:40,500 --> 00:39:43,500
+ Yeah, if they are the same or they are similar, you can cluster them.
+
+434
+00:39:43,500 --> 00:39:45,500
+ Then you say try to cluster news.
+
+435
+00:39:45,500 --> 00:39:49,500
+ So you can always formulate the problem into some kind of clustering problem
+
+436
+00:39:49,500 --> 00:39:53,500
+ because you do not know how many clusters you have to start with.
+
+437
+00:39:53,500 --> 00:39:57,500
+ There is one of the very challenging problems of unsupervised learning
+
+438
+00:39:57,500 --> 00:40:00,500
+ because just now, the thing that I didn't say is
+
+439
+00:40:00,500 --> 00:40:07,500
+ I didn't tell you whether there are three classes of four or five or one or two, right?
+
+440
+00:40:07,500 --> 00:40:13,500
+ Before classification, you could think of every data belong to one class,
+
+441
+00:40:13,500 --> 00:40:16,500
+ but the real one could be three, right?
+
+442
+00:40:16,500 --> 00:40:22,500
+ There is one of the unsolved problem in such a clustering unsupervised learning
+
+443
+00:40:22,500 --> 00:40:29,500
+ because you do not know how many groups of data you are going to have, right?
+
+444
+00:40:29,500 --> 00:40:32,500
+ So then you can apply some kind of clustering
+
+445
+00:40:32,500 --> 00:40:39,500
+ and there are also methods that help you to decide the good number of K in the cluster, right?
+
+446
+00:40:39,500 --> 00:40:43,500
+ And one way is you start with a large number, then you start to reduce the number
+
+447
+00:40:43,500 --> 00:40:51,500
+ to see how those clusters change until you find a spot that suddenly doesn't change or change a lot.
+
+448
+00:40:51,500 --> 00:40:57,500
+ Then there could be some idea number of cluster technology problem.
+
+449
+00:40:57,500 --> 00:40:59,500
+ You have to behave in charge.
+
+450
+00:40:59,500 --> 00:41:06,500
+ Are you going to formulate this as a machine learning unsupervised or supervised problem?
+
+451
+00:41:06,500 --> 00:41:09,500
+ Good.
+
+452
+00:41:12,500 --> 00:41:19,500
+ And this is the reinforcement learning and this is of course another type of problem
+
+453
+00:41:19,500 --> 00:41:22,500
+ and this problem is more complex.
+
+454
+00:41:22,500 --> 00:41:30,500
+ Basically, for those problems that you cannot answer, we want one answer quickly, one simple answer, okay?
+
+455
+00:41:30,500 --> 00:41:35,500
+ For example, you want to play this game, right?
+
+456
+00:41:35,500 --> 00:41:37,500
+ I believe some of you have played this game before
+
+457
+00:41:37,500 --> 00:41:44,500
+ and this game depends on or even a chess goal, right?
+
+458
+00:41:44,500 --> 00:41:48,500
+ So you have many possible options that you need to take, right?
+
+459
+00:41:48,500 --> 00:41:54,500
+ You cannot really find an optimal solution out of so many, many options.
+
+460
+00:41:54,500 --> 00:42:01,500
+ There could be billions of other choices because the next step could be on this step, right?
+
+461
+00:42:01,500 --> 00:42:03,500
+ How you do it?
+
+462
+00:42:03,500 --> 00:42:07,500
+ Then you can formulate this as a reinforcement learning.
+
+463
+00:42:07,500 --> 00:42:09,500
+ For example, you want to play this game.
+
+464
+00:42:09,500 --> 00:42:11,500
+ You assume that you have one agent.
+
+465
+00:42:11,500 --> 00:42:14,500
+ This is a Mario butter, it's an agent.
+
+466
+00:42:14,500 --> 00:42:18,500
+ So every time you make an action, you move forward, right?
+
+467
+00:42:18,500 --> 00:42:20,500
+ You see the outcome, right?
+
+468
+00:42:20,500 --> 00:42:24,500
+ And you basically when you move forward, it changes the whole environment.
+
+469
+00:42:24,500 --> 00:42:28,500
+ Now you are at the second step of the whole environment.
+
+470
+00:42:28,500 --> 00:42:30,500
+ And see whether any happened.
+
+471
+00:42:30,500 --> 00:42:34,500
+ If you somehow get a reward, you score a point, then it is good.
+
+472
+00:42:34,500 --> 00:42:36,500
+ You make the right choice, right?
+
+473
+00:42:36,500 --> 00:42:39,500
+ If you somehow die, right?
+
+474
+00:42:39,500 --> 00:42:40,500
+ You change the state.
+
+475
+00:42:40,500 --> 00:42:41,500
+ It's not good.
+
+476
+00:42:41,500 --> 00:42:44,500
+ Then you should rethink of just how you should have made the move.
+
+477
+00:42:44,500 --> 00:42:47,500
+ You go through this again and again.
+
+478
+00:42:47,500 --> 00:42:52,500
+ What you now develop is the policy, the decision you are going to make.
+
+479
+00:42:52,500 --> 00:42:57,500
+ When you see this, when you are in this state, when you know what is the environment,
+
+480
+00:42:57,500 --> 00:43:00,500
+ what should be the next step you should take, right?
+
+481
+00:43:00,500 --> 00:43:05,500
+ Just like you play a chess, when you move, when you see the opponent,
+
+482
+00:43:05,500 --> 00:43:08,500
+ what is the organization or the pieces.
+
+483
+00:43:08,500 --> 00:43:14,500
+ And then where your color pieces, they decide which path to move, right?
+
+484
+00:43:14,500 --> 00:43:19,500
+ Then based on the reward, whether you gain or lost,
+
+485
+00:43:19,500 --> 00:43:23,500
+ then you adjust your policy accordingly.
+
+486
+00:43:23,500 --> 00:43:25,500
+ So this is called reinforcement learning.
+
+487
+00:43:25,500 --> 00:43:29,500
+ Even the state of an environment, okay, this is one environment.
+
+488
+00:43:29,500 --> 00:43:31,500
+ This is one environment, right?
+
+489
+00:43:31,500 --> 00:43:35,500
+ This is a chess alpha, go chess playing.
+
+490
+00:43:36,500 --> 00:43:43,500
+ And the task, then how you are going to gain or penalize,
+
+491
+00:43:43,500 --> 00:43:49,500
+ learn how to behave, how to act, to maximize the rewards.
+
+492
+00:43:49,500 --> 00:43:53,500
+ Your goal is try to gain as many points as possible.
+
+493
+00:43:53,500 --> 00:43:56,500
+ So you need to have this good decision.
+
+494
+00:43:56,500 --> 00:43:59,500
+ This human support knowledge, right?
+
+495
+00:43:59,500 --> 00:44:02,500
+ If you learn how to play a chess, right?
+
+496
+00:44:02,500 --> 00:44:03,500
+ Or go.
+
+497
+00:44:03,500 --> 00:44:06,500
+ At first, you are not very good at it because you haven't learned, right?
+
+498
+00:44:06,500 --> 00:44:08,500
+ You are often defeated.
+
+499
+00:44:08,500 --> 00:44:13,500
+ But after you play again and again, you know what are the moves that you need to take
+
+500
+00:44:13,500 --> 00:44:16,500
+ after you see how these pieces are organized.
+
+501
+00:44:16,500 --> 00:44:20,500
+ So that is reinforcement learning.
+
+502
+00:44:20,500 --> 00:44:26,500
+ And this is still a very challenging problem because the training is very challenging
+
+503
+00:44:26,500 --> 00:44:30,500
+ and often that you do not really have a good solution.
+
+504
+00:44:30,500 --> 00:44:32,500
+ So here is one example, right?
+
+505
+00:44:32,500 --> 00:44:39,500
+ And of course, these pieces are method, different kind of learning to compute the many optimizer rewards.
+
+506
+00:44:39,500 --> 00:44:43,500
+ And this simple learning is you have this pole, inverted pole.
+
+507
+00:44:43,500 --> 00:44:46,500
+ You want to keep it upward.
+
+508
+00:44:46,500 --> 00:44:50,500
+ And then your goal is to move this cart left and right.
+
+509
+00:44:50,500 --> 00:44:53,500
+ The pole will not be perfectly straight.
+
+510
+00:44:53,500 --> 00:44:57,500
+ And if it is a bit, then the center of gravity will pull it down.
+
+511
+00:44:57,500 --> 00:44:59,500
+ Then your cart has to move.
+
+512
+00:44:59,500 --> 00:45:01,500
+ So you keep adjusting this.
+
+513
+00:45:01,500 --> 00:45:03,500
+ And then you can learn.
+
+514
+00:45:03,500 --> 00:45:07,500
+ So here is another example of this.
+
+515
+00:45:16,500 --> 00:45:24,500
+ So this is another example of using reinforcement learning by this big mind to play a game
+
+516
+00:45:24,500 --> 00:45:31,500
+ which of course is a very old game and many of you may not even play this game anymore.
+
+517
+00:45:31,500 --> 00:45:33,500
+ So it's all go by training.
+
+518
+00:45:33,500 --> 00:45:37,500
+ Look at the images and then to see whether it's called, then you adjust.
+
+519
+00:45:37,500 --> 00:45:43,500
+ The goal is actually you want to hit the ball, stop the ball to go up.
+
+520
+00:45:43,500 --> 00:45:46,500
+ And the input is the images, these images.
+
+521
+00:45:46,500 --> 00:45:48,500
+ They don't even tell you how to score.
+
+522
+00:45:48,500 --> 00:45:52,500
+ And then plus the number of scores you gain.
+
+523
+00:45:52,500 --> 00:45:57,500
+ And then they train the machine with a lot of these images and then they train the machine.
+
+524
+00:45:57,500 --> 00:46:04,500
+ And the machine after two hours of training, if it's very poor, now it can do better.
+
+525
+00:46:04,500 --> 00:46:13,500
+ It can start to score faster, which without human telling the computer how to play the game.
+
+526
+00:46:13,500 --> 00:46:17,500
+ You just look at the input image, the score you gain.
+
+527
+00:46:17,500 --> 00:46:20,500
+ And then, now become quite professional.
+
+528
+00:46:20,500 --> 00:46:32,500
+ Then another two hours, then you find that you find a loophole that try to create a hole on the left.
+
+529
+00:46:38,500 --> 00:46:42,500
+ Now you can kill the very fast.
+
+530
+00:46:42,500 --> 00:46:46,500
+ And that is all learned by this reinforcement learning.
+
+531
+00:46:46,500 --> 00:46:51,500
+ And when you see this happen, you may start to wonder, is it an intelligent?
+
+532
+00:46:51,500 --> 00:46:54,500
+ It's all even more scary version.
+
+533
+00:46:54,500 --> 00:46:57,500
+ You can go and Google it and apply the same thing.
+
+534
+00:46:57,500 --> 00:47:05,500
+ Basically ask a tree, there is a one person running, try to hide, and then the other one or two try to kill the person.
+
+535
+00:47:05,500 --> 00:47:13,500
+ And regardless how the defense try to come up with many methods to defense it, eventually they will learn a method to kill it.
+
+536
+00:47:13,500 --> 00:47:21,500
+ So think about, this thing could happen if you are not really careful and you could create all this at the role of the future,
+
+537
+00:47:21,500 --> 00:47:23,500
+ you hunt you down and kill you.
+
+538
+00:47:23,500 --> 00:47:26,500
+ And they will stop as long as they have energy.
+
+539
+00:47:26,500 --> 00:47:29,500
+ In fact, there was a movie Black Panther talking about that.
+
+540
+00:47:29,500 --> 00:47:34,500
+ And they will just hunt you down and kill you because they will keep learning.
+
+541
+00:47:34,500 --> 00:47:37,500
+ They have the computer and that is how it's possible.
+
+542
+00:47:37,500 --> 00:47:43,500
+ In fact, one of the thing that you are using a lot today is this.
+
+543
+00:47:43,500 --> 00:47:50,500
+ Church activity would not be possible without the reinforcement learning by human being.
+
+544
+00:47:50,500 --> 00:47:56,500
+ Remember when you use a church committee, they ask you thumb ups, thumb down,
+
+545
+00:47:56,500 --> 00:48:00,500
+ or sometimes you ask them to regenerate, you keep asking the same question.
+
+546
+00:48:00,500 --> 00:48:07,500
+ In fact, you are training the church committee whether the output is good or not.
+
+547
+00:48:07,500 --> 00:48:09,500
+ You give reward.
+
+548
+00:48:09,500 --> 00:48:17,500
+ In fact, every day they are one month, every month at the time, 100 million people use the church committee.
+
+549
+00:48:17,500 --> 00:48:20,500
+ And they get this to train the system.
+
+550
+00:48:20,500 --> 00:48:27,500
+ So for those who have been using church committee, you know that over the past one, the performance has progressed a lot.
+
+551
+00:48:27,500 --> 00:48:35,500
+ Even the same church committee, number 4 or 3.5, the performance has improved because of this reinforcement learning.
+
+552
+00:48:35,500 --> 00:48:43,500
+ It has always tried to optimize the reward to tell what the person really wants.
+
+553
+00:48:43,500 --> 00:48:49,500
+ At first, the same order came up was not very good because it's not well trained.
+
+554
+00:48:49,500 --> 00:48:52,500
+ And the answer may not be always what you want.
+
+555
+00:48:52,500 --> 00:48:58,500
+ Then you always ask the church committee to regenerate or give a thumb up.
+
+556
+00:48:58,500 --> 00:49:01,500
+ They know it's a penalty to the church committee.
+
+557
+00:49:01,500 --> 00:49:04,500
+ The next time you try to come up with a better solution.
+
+558
+00:49:04,500 --> 00:49:09,500
+ So you keep upgrading as a model to get a better result.
+
+559
+00:49:09,500 --> 00:49:14,500
+ So there is reinforcement learning by from human feedback.
+
+560
+00:49:14,500 --> 00:49:18,500
+ And one of the key breakthroughs by church committee.
+
+561
+00:49:18,500 --> 00:49:23,500
+ In fact, the church committee, the model is not something new.
+
+562
+00:49:23,500 --> 00:49:33,500
+ But this is the one that OpenAI introduced to make the output more user friendly to us.
+
+563
+00:49:33,500 --> 00:49:39,500
+ Okay, then let's talk about the history of machine learning.
+
+564
+00:49:39,500 --> 00:49:43,500
+ Of course some of you may find the history so boring.
+
+565
+00:49:43,500 --> 00:49:49,500
+ Why we should look forward, why look backward?
+
+566
+00:49:52,500 --> 00:49:56,500
+ Some always say the best way to learn is to look at the past.
+
+567
+00:49:56,500 --> 00:49:59,500
+ Then you know how people have progressed.
+
+568
+00:49:59,500 --> 00:50:02,500
+ I think Professor Chet Ladi have showed this figure.
+
+569
+00:50:02,500 --> 00:50:05,500
+ But we have to focus on purely machine learning.
+
+570
+00:50:05,500 --> 00:50:07,500
+ She probably introduced more AI.
+
+571
+00:50:07,500 --> 00:50:10,500
+ But AI and machine learning, they are closing later.
+
+572
+00:50:11,500 --> 00:50:18,500
+ In the field you can think of starting in 1940, something by these two gentlemen.
+
+573
+00:50:18,500 --> 00:50:20,500
+ Macalick and Pitz.
+
+574
+00:50:20,500 --> 00:50:23,500
+ And at that time they were trying to see,
+
+575
+00:50:23,500 --> 00:50:29,500
+ okay, how can we build machine which try to think like you?
+
+576
+00:50:29,500 --> 00:50:33,500
+ Which is very difficult task.
+
+577
+00:50:33,500 --> 00:50:37,500
+ So there is no way you can build a brain from the beginning.
+
+578
+00:50:37,500 --> 00:50:41,500
+ And this Pitz is a very interesting person.
+
+579
+00:50:41,500 --> 00:50:43,500
+ He is always so-so.
+
+580
+00:50:43,500 --> 00:50:53,500
+ Very interesting and smart young man.
+
+581
+00:50:53,500 --> 00:50:59,500
+ This is a professor in Cambridge University.
+
+582
+00:50:59,500 --> 00:51:04,500
+ And this Pitz was known that when he was 12 years old,
+
+583
+00:51:04,500 --> 00:51:07,500
+ he spent in the library for three days.
+
+584
+00:51:07,500 --> 00:51:10,500
+ And then read the books.
+
+585
+00:51:10,500 --> 00:51:14,500
+ And then of some of the professor, mathematician professor.
+
+586
+00:51:14,500 --> 00:51:19,500
+ And then wrote the professor a letter to suggest what are the problems
+
+587
+00:51:19,500 --> 00:51:22,500
+ that books actually should come.
+
+588
+00:51:22,500 --> 00:51:24,500
+ 12 years old.
+
+589
+00:51:24,500 --> 00:51:28,500
+ And then he was invited to go to study in Cambridge University.
+
+590
+00:51:28,500 --> 00:51:29,500
+ He refused.
+
+591
+00:51:30,500 --> 00:51:35,500
+ And all along his whole life he was such a pretty gentleman.
+
+592
+00:51:35,500 --> 00:51:38,500
+ He actually homeless for quite a long time.
+
+593
+00:51:38,500 --> 00:51:41,500
+ But he was so clever.
+
+594
+00:51:41,500 --> 00:51:46,500
+ Every time he introduced a new problem, he would study and then talk to the professor.
+
+595
+00:51:46,500 --> 00:51:49,500
+ Most of them tried to find job for him.
+
+596
+00:51:49,500 --> 00:51:52,500
+ But he didn't want people to know about him.
+
+597
+00:51:52,500 --> 00:51:56,500
+ So even at the end he was in MIT, he also didn't get his PhD.
+
+598
+00:51:56,500 --> 00:52:00,500
+ He worked in MIT for quite a long time.
+
+599
+00:52:00,500 --> 00:52:07,500
+ So one of his important contributions together with this megalithic is this so-called logic.
+
+600
+00:52:07,500 --> 00:52:15,500
+ And that is the earliest thing that you can think about the sector of the neural network that we know.
+
+601
+00:52:15,500 --> 00:52:21,500
+ So basically it can take input 1 or 0.
+
+602
+00:52:21,500 --> 00:52:24,500
+ And then output could be some of the logical gain.
+
+603
+00:52:24,500 --> 00:52:33,500
+ At that time they said, oh, if I can solve the logical gain problem and or xor neural problem,
+
+604
+00:52:33,500 --> 00:52:36,500
+ then I can build a machine thing like human.
+
+605
+00:52:36,500 --> 00:52:38,500
+ So how do you solve that?
+
+606
+00:52:38,500 --> 00:52:40,500
+ You have to think about 1940, right?
+
+607
+00:52:40,500 --> 00:52:43,500
+ Even computers were not popular.
+
+608
+00:52:43,500 --> 00:52:47,500
+ And then they were thinking about how to build this.
+
+609
+00:52:47,500 --> 00:52:49,500
+ And these are all very smart people.
+
+610
+00:52:49,500 --> 00:52:52,500
+ And that is the best they came out with.
+
+611
+00:52:52,500 --> 00:53:01,500
+ Input pass 1 minus 1, then you can make a decision whether the output is 1, 0, 1, 0.
+
+612
+00:53:01,500 --> 00:53:03,500
+ The earlier contribution.
+
+613
+00:53:03,500 --> 00:53:05,500
+ And that was good.
+
+614
+00:53:05,500 --> 00:53:07,500
+ And people accepted it.
+
+615
+00:53:07,500 --> 00:53:09,500
+ The treasure logic gig.
+
+616
+00:53:09,500 --> 00:53:18,500
+ Then until about 1950s, this Rosenblatt professor in Cornell University,
+
+617
+00:53:18,500 --> 00:53:20,500
+ and he came out with this perceptron.
+
+618
+00:53:20,500 --> 00:53:22,500
+ This is the first time.
+
+619
+00:53:22,500 --> 00:53:28,500
+ The perceptron is now the basic unit that you use to build the neural network.
+
+620
+00:53:28,500 --> 00:53:35,500
+ So you come with this perceptron, which is an improved version of PITS, the logical gig.
+
+621
+00:53:35,500 --> 00:53:39,500
+ So the difference is, it introduced the weights.
+
+622
+00:53:39,500 --> 00:53:49,500
+ The problem with PITS, the logical gig is, you have to hardwire the pass and minus into the circuits.
+
+623
+00:53:49,500 --> 00:53:53,500
+ And once you hardwire, it's always the same.
+
+624
+00:53:53,500 --> 00:53:56,500
+ Regardless of what data you input, it's always the same.
+
+625
+00:53:56,500 --> 00:54:01,500
+ So this Rosenblatt introduced the weights.
+
+626
+00:54:01,500 --> 00:54:06,500
+ Your input can still be 1 and minus or 1 and 0.
+
+627
+00:54:06,500 --> 00:54:13,500
+ But you have to adjust the weight based on the training that output input and input.
+
+628
+00:54:13,500 --> 00:54:15,500
+ This is the first time.
+
+629
+00:54:15,500 --> 00:54:19,500
+ And then, of course, you come with an output result with some value.
+
+630
+00:54:19,500 --> 00:54:20,500
+ It's still a treasure.
+
+631
+00:54:20,500 --> 00:54:24,500
+ Very much like this, but the difference is it has a set of the weights.
+
+632
+00:54:24,500 --> 00:54:27,500
+ This weight is the parameter that you heard about today.
+
+633
+00:54:27,500 --> 00:54:35,500
+ For chat GPT 3.5, they have 176 billion parameters.
+
+634
+00:54:35,500 --> 00:54:37,500
+ And this is the weight.
+
+635
+00:54:37,500 --> 00:54:43,500
+ So it was 10, but adjusting the weights that you learn.
+
+636
+00:54:43,500 --> 00:54:46,500
+ So he built this machine in Cornell, I think later on.
+
+637
+00:54:46,500 --> 00:54:48,500
+ So here I will show you the machine here.
+
+638
+00:54:48,500 --> 00:54:57,500
+ This is the machine he built in Cornell, which is all wires, all the circuits, combine these.
+
+639
+00:54:57,500 --> 00:55:07,500
+ And at that time, they try to adjust, recognize some kind of a simple so-called cut input.
+
+640
+00:55:07,500 --> 00:55:11,500
+ Then you can recognize whether this is the dog on the left or on the right.
+
+641
+00:55:11,500 --> 00:55:14,500
+ And the adjustment of the weight is also very interesting.
+
+642
+00:55:14,500 --> 00:55:17,500
+ But they introduce a learning algorithm.
+
+643
+00:55:17,500 --> 00:55:26,500
+ And basically, when you have the input and the target output is 1, if the target output is not 1, becomes 0,
+
+644
+00:55:26,500 --> 00:55:32,500
+ then you go to those nodes that have input equal to 1, you reduce the weight.
+
+645
+00:55:32,500 --> 00:55:41,500
+ If the target output is supposed to be 0, and then it turns out that it becomes 0,
+
+646
+00:55:41,500 --> 00:55:49,500
+ then you go to the place that reduces the value or increases the weight when the input is 0.
+
+647
+00:55:49,500 --> 00:55:53,500
+ So it's a very heuristic way to adjust all the parameters.
+
+648
+00:55:53,500 --> 00:55:56,500
+ But at least there is a approach.
+
+649
+00:55:56,500 --> 00:55:59,500
+ Before then, no one knew how to build this learning.
+
+650
+00:55:59,500 --> 00:56:09,500
+ Now his base contribution is to introduce this weight so that you can now really let the learning happen.
+
+651
+00:56:09,500 --> 00:56:11,500
+ Compared to the PITS model.
+
+652
+00:56:11,500 --> 00:56:16,500
+ So 1957, Frank Rosenblatt, this is the perceptron.
+
+653
+00:56:16,500 --> 00:56:24,500
+ So he was quite well funded by my navy by university at the time because people think that,
+
+654
+00:56:24,500 --> 00:56:30,500
+ oh, that is the first time now you can build a brain, a machine can think.
+
+655
+00:56:30,500 --> 00:56:37,500
+ In fact, there was even some news article saying that, oh, human are going to conquer the world,
+
+656
+00:56:37,500 --> 00:56:42,500
+ the outside space and send people to the moon or Mars.
+
+657
+00:56:42,500 --> 00:56:46,500
+ Because of this simple new-run video.
+
+658
+00:56:46,500 --> 00:56:49,500
+ I think there was a video somewhere.
+
+659
+00:56:49,500 --> 00:56:52,500
+ I think later.
+
+660
+00:56:52,500 --> 00:56:58,500
+ So that was 1957 by Frank Rosenblatt.
+
+661
+00:56:58,500 --> 00:57:02,500
+ We will see the perceptron again when you talk about the neural network.
+
+662
+00:57:02,500 --> 00:57:11,500
+ Unfortunately, in 1969, this Marvin Minsky is the founder of the AI lab in MIT.
+
+663
+00:57:12,500 --> 00:57:17,500
+ Professor in MIT, he actually wrote a book called Perceptronist.
+
+664
+00:57:17,500 --> 00:57:21,500
+ He kind of a quickie-scied that whatever the model they talk about,
+
+665
+00:57:21,500 --> 00:57:25,500
+ they can solve all and end problems.
+
+666
+00:57:25,500 --> 00:57:29,500
+ You can learn this, but you cannot solve a simple problem like XOR.
+
+667
+00:57:30,500 --> 00:57:42,500
+ That actually creates a lot of doubt about the approach proposed by using this neural network to train the parameter.
+
+668
+00:57:42,500 --> 00:57:48,500
+ Marvin Minsky, if you go and read the history, he is so influential.
+
+669
+00:57:48,500 --> 00:57:53,500
+ He can go to conference when people talk about this concept, he will just quickie-scied.
+
+670
+00:57:53,500 --> 00:57:55,500
+ And they ask people to leave.
+
+671
+00:57:55,500 --> 00:57:58,500
+ He says, this is going nowhere. Wasting your time.
+
+672
+00:57:58,500 --> 00:58:01,500
+ Don't work on machines, this neural network.
+
+673
+00:58:01,500 --> 00:58:10,500
+ So he wrote this book, quite a famous one, and then quickie-scied this perceptron ability.
+
+674
+00:58:10,500 --> 00:58:16,500
+ People somehow over, so-called, operating states about the approach.
+
+675
+00:58:16,500 --> 00:58:19,500
+ And then they create the first AI winter.
+
+676
+00:58:19,500 --> 00:58:24,500
+ From then on, no funding, no people want to work on this problem.
+
+677
+00:58:24,500 --> 00:58:32,500
+ And that was his so-called, you can say, contribution or disparagement.
+
+678
+00:58:32,500 --> 00:58:36,500
+ But indeed in his book, later on people kind of give him some credit.
+
+679
+00:58:36,500 --> 00:58:42,500
+ He did mention that by using one single layer, you cannot solve this problem.
+
+680
+00:58:42,500 --> 00:58:48,500
+ But if you have multi-layer with all the perceptron, and you can solve this problem,
+
+681
+00:58:48,500 --> 00:58:52,500
+ but just do not know how to find the width and the parameter.
+
+682
+00:58:52,500 --> 00:58:56,500
+ You cannot heuristic, go in a jazzy.
+
+683
+00:58:56,500 --> 00:59:03,500
+ And not until this, I think this happened in 1974,
+
+684
+00:59:03,500 --> 00:59:13,500
+ Paul Weber, a PhD student, he wrote in his thesis about this big propagation method,
+
+685
+00:59:13,500 --> 00:59:18,500
+ which of course is going to be a very important solution to machinery.
+
+686
+00:59:18,500 --> 00:59:23,500
+ He is a PhD thesis in 1974, but he did not publish it
+
+687
+00:59:23,500 --> 00:59:27,500
+ because people were criticizing neural network approach.
+
+688
+00:59:27,500 --> 00:59:31,500
+ He find this solution will not be well received by people.
+
+689
+00:59:31,500 --> 00:59:36,500
+ So he did not publish at the paper, he only put in his thesis.
+
+690
+00:59:36,500 --> 00:59:44,500
+ Then until 1986, this Luma Cup and Hinton, and they worked in San Diego,
+
+691
+00:59:44,500 --> 00:59:48,500
+ they talked about this big propagation problem.
+
+692
+00:59:48,500 --> 00:59:55,500
+ And then they wrote a paper sent to me, I think it's a nature paper, which was published.
+
+693
+00:59:55,500 --> 01:00:01,500
+ And they did clarify that they are not the first one invented this approach,
+
+694
+01:00:01,500 --> 01:00:05,500
+ and many people had thought about it, but they did not really formulate the problem
+
+695
+01:00:05,500 --> 01:00:07,500
+ or mathematics clear enough.
+
+696
+01:00:07,500 --> 01:00:12,500
+ In fact, if you go to read the paper, the formula to use is very much we are going to see later on.
+
+697
+01:00:12,500 --> 01:00:20,500
+ Because they can describe the problem so clearly, and a lot of people start to now gain confident interest
+
+698
+01:00:20,500 --> 01:00:24,500
+ in using back propagation to do the machinery.
+
+699
+01:00:24,500 --> 01:00:30,500
+ Right now, all the new big models of machine learning tools including your church activity,
+
+700
+01:00:30,500 --> 01:00:38,500
+ be it of the matter, they all learn back propagation to do the training with the data.
+
+701
+01:00:38,500 --> 01:00:44,500
+ Just now we talked about why you have the input, you have the labor data output.
+
+702
+01:00:44,500 --> 01:00:46,500
+ But how do you learn?
+
+703
+01:00:46,500 --> 01:00:48,500
+ That is not easy.
+
+704
+01:00:48,500 --> 01:00:52,500
+ And the learning process you need to use back propagation,
+
+705
+01:00:52,500 --> 01:00:59,500
+ which allows you to continuously find the weeks to get the optimal output.
+
+706
+01:00:59,500 --> 01:01:04,500
+ That is one of the many contributions of Jack Hinton.
+
+707
+01:01:04,500 --> 01:01:17,500
+ He is one of the so-called the tidier in machine learning or AI.
+
+708
+01:01:17,500 --> 01:01:26,500
+ I think there was a review here. Let me show the review.
+
+709
+01:01:26,500 --> 01:01:31,500
+ There was a time there.
+
+710
+01:01:56,500 --> 01:02:01,500
+ I think it was very hard.
+
+711
+01:02:01,500 --> 01:02:05,500
+ They asked me that question for two years ago, and it was very hard.
+
+712
+01:02:05,500 --> 01:02:08,500
+ They asked me that question and I don't really know.
+
+713
+01:02:08,500 --> 01:02:12,500
+ I suspected they would come back in four or five years, but I am not sure if they really knew.
+
+714
+01:02:12,500 --> 01:02:15,500
+ So I am sure they would use back and have a good answer.
+
+715
+01:02:15,500 --> 01:02:20,500
+ We are just really beginning to understand the capabilities of the computer.
+
+716
+01:02:20,500 --> 01:02:25,500
+ I have got to fill in those papers, which I think will lead you.
+
+717
+01:02:25,500 --> 01:02:31,500
+ And playing chess against a computer is pretty well done.
+
+718
+01:02:31,500 --> 01:02:35,500
+ While most computer scientists slide us on a mere number,
+
+719
+01:02:35,500 --> 01:02:40,500
+ a small group thought that digital computers had much grander destiny.
+
+720
+01:02:40,500 --> 01:02:44,500
+ Being a general purpose machine, it could be programmed to do things
+
+721
+01:02:44,500 --> 01:02:48,500
+ which in humans require intelligence, by games like chess and chess,
+
+722
+01:02:48,500 --> 01:02:53,500
+ as well as brain teasers.
+
+723
+01:02:53,500 --> 01:02:56,500
+ How do you become known as artificial encounters?
+
+724
+01:02:56,500 --> 01:03:00,500
+ I am a machine critic. Even a subject of sex is a thing.
+
+725
+01:03:00,500 --> 01:03:03,500
+ I am convinced that machines can do a thing.
+
+726
+01:03:03,500 --> 01:03:06,500
+ I don't be in a machine with a tape like them.
+
+727
+01:03:06,500 --> 01:03:08,500
+ I don't need to be in a machine for a long time.
+
+728
+01:03:08,500 --> 01:03:11,500
+ We are going to have a difficult problem distinguishing a man from a robot.
+
+729
+01:03:11,500 --> 01:03:14,500
+ I don't think I will be able to work on a computer.
+
+730
+01:03:14,500 --> 01:03:19,500
+ But I think the computers will be doing the things that men do when we say they are thinking.
+
+731
+01:03:19,500 --> 01:03:23,500
+ I am convinced that we can do a thing in all that time.
+
+732
+01:03:23,500 --> 01:03:27,500
+ I am convinced that we will not have a count of 15 years,
+
+733
+01:03:27,500 --> 01:03:29,500
+ coming from a machine along the way.
+
+734
+01:03:29,500 --> 01:03:30,500
+ Count of five?
+
+735
+01:03:30,500 --> 01:03:32,500
+ Some years from now.
+
+736
+01:03:32,500 --> 01:03:34,500
+ The count of more than anything.
+
+737
+01:03:34,500 --> 01:03:38,500
+ They had to bring with them the security when they set out to use computers
+
+738
+01:03:38,500 --> 01:03:40,500
+ to translate languages.
+
+739
+01:03:40,500 --> 01:03:45,500
+ A $500,000 single calculator, most personal and funny brain known,
+
+740
+01:03:45,500 --> 01:03:47,500
+ translates roughly in English.
+
+741
+01:03:48,500 --> 01:03:50,500
+ Seven man's bag of a bag.
+
+742
+01:03:51,500 --> 01:03:54,500
+ While the person now in the US has to apply to the computers,
+
+743
+01:03:54,500 --> 01:03:57,500
+ it will now give the solution to the code war of session,
+
+744
+01:03:57,500 --> 01:04:00,500
+ keeping tabs on what the Russians are doing.
+
+745
+01:04:00,500 --> 01:04:02,500
+ Okay, you get the idea.
+
+746
+01:04:02,500 --> 01:04:07,500
+ And you see, $500,000 computer to do the translation of Russian to increase.
+
+747
+01:04:07,500 --> 01:04:11,500
+ Today, you just go to any free website you can do that.
+
+748
+01:04:11,500 --> 01:04:13,500
+ And not just $500,000 Russia to increase,
+
+749
+01:04:13,500 --> 01:04:17,500
+ you can translate thousands of or hundreds of languages.
+
+750
+01:04:17,500 --> 01:04:23,500
+ And with my whisper, open AI whisper, with great accuracy.
+
+751
+01:04:23,500 --> 01:04:25,500
+ I pretend this.
+
+752
+01:04:25,500 --> 01:04:31,500
+ So there is a progress, 1970 to 2002 for about 50 years.
+
+753
+01:04:31,500 --> 01:04:38,500
+ Look at those people, the machine, the card stand-up in the TV.
+
+754
+01:04:38,500 --> 01:04:43,500
+ So people have been thinking about AI for many, many years.
+
+755
+01:04:43,500 --> 01:04:49,500
+ And then you can consider yourself very lucky born in the age of AI
+
+756
+01:04:49,500 --> 01:04:51,500
+ and now become seemingly possible.
+
+757
+01:04:51,500 --> 01:04:55,500
+ These are the problems when I was a student,
+
+758
+01:04:55,500 --> 01:04:57,500
+ cannot think of we have this solution.
+
+759
+01:04:57,500 --> 01:05:02,500
+ So there was an explosion in terms of the solution.
+
+760
+01:05:03,500 --> 01:05:07,500
+ And this is young Le Koon.
+
+761
+01:05:07,500 --> 01:05:10,500
+ Of course, he is one of the major contender.
+
+762
+01:05:10,500 --> 01:05:14,500
+ 1989, he was in AT&T Bell Lab.
+
+763
+01:05:16,500 --> 01:05:22,500
+ And he came up with this first time convolutional neural network
+
+764
+01:05:22,500 --> 01:05:26,500
+ show that he can work to recognize DJ.
+
+765
+01:05:27,500 --> 01:05:31,500
+ And the company, of course, Bell Lab,
+
+766
+01:05:31,500 --> 01:05:37,500
+ worked with some company that tried to read the Jeep code
+
+767
+01:05:37,500 --> 01:05:39,500
+ of those letters in the US.
+
+768
+01:05:39,500 --> 01:05:42,500
+ US polls received a lot of letters.
+
+769
+01:05:42,500 --> 01:05:45,500
+ In the past, they humanly, they have a Jeep code,
+
+770
+01:05:45,500 --> 01:05:47,500
+ a 5-digit Jeep code.
+
+771
+01:05:47,500 --> 01:05:51,500
+ They look at it and then dispatch the letters in different places
+
+772
+01:05:51,500 --> 01:05:53,500
+ so that the postman can send,
+
+773
+01:05:53,500 --> 01:05:57,500
+ based on the postcode, they send the letter to write the patient.
+
+774
+01:05:57,500 --> 01:06:01,500
+ So we need a lot of human labor to read the Jeep code.
+
+775
+01:06:01,500 --> 01:06:05,500
+ So then they're higher, not higher,
+
+776
+01:06:05,500 --> 01:06:09,500
+ commissioned Bell Lab to come up with this solution.
+
+777
+01:06:09,500 --> 01:06:14,500
+ And then young Le Koon, he was one very passionate about neural network.
+
+778
+01:06:14,500 --> 01:06:18,500
+ He actually was a Jeff Hinton postdoc one year.
+
+779
+01:06:18,500 --> 01:06:23,500
+ And they met in a conference, Jeff Hinton from French, right?
+
+780
+01:06:23,500 --> 01:06:30,500
+ And this, Jeff Hinton from UK, and then young Le Koon from French.
+
+781
+01:06:30,500 --> 01:06:35,500
+ So because they like the machine learning, the so-called neural network,
+
+782
+01:06:35,500 --> 01:06:43,500
+ so young Le Koon went to Toronto with Jeff Hinton for one year as a postdoc.
+
+783
+01:06:43,500 --> 01:06:46,500
+ Then after that, he moved to Bell Lab.
+
+784
+01:06:46,500 --> 01:06:53,500
+ And the only requirement was he went to ask Bell Lab interview for a job.
+
+785
+01:06:53,500 --> 01:06:55,500
+ He said, I have one requirement.
+
+786
+01:06:55,500 --> 01:06:58,500
+ I don't want to share my computer with anyone else.
+
+787
+01:06:58,500 --> 01:07:05,500
+ At that time, because of limited computation, I really had to share the workstation.
+
+788
+01:07:05,500 --> 01:07:10,500
+ So he got a sun workstation for his tone.
+
+789
+01:07:10,500 --> 01:07:12,500
+ I think it didn't very fast.
+
+790
+01:07:12,500 --> 01:07:16,500
+ The first few months, he came up with this CNN network,
+
+791
+01:07:16,500 --> 01:07:23,500
+ which can recognize digits for posts, Jeep code, and also for the bank.
+
+792
+01:07:23,500 --> 01:07:25,500
+ He would write the checks.
+
+793
+01:07:25,500 --> 01:07:33,500
+ So at one time, they were saying that 10% of the checks in the US were read by his machine.
+
+794
+01:07:33,500 --> 01:07:34,500
+ So he came up with this.
+
+795
+01:07:34,500 --> 01:07:37,500
+ We are going to go to his network.
+
+796
+01:07:37,500 --> 01:07:39,500
+ Yeah, that's him.
+
+797
+01:07:39,500 --> 01:07:42,500
+ Baby face young Le Koon when he was young.
+
+798
+01:07:42,500 --> 01:07:47,500
+ And that was one computer that he asked for in order to accept,
+
+799
+01:07:47,500 --> 01:07:52,500
+ so that he wanted to accept the job.
+
+800
+01:07:52,500 --> 01:07:54,500
+ So there is a demonstration of...
+
+801
+01:07:54,500 --> 01:07:57,500
+ Right now, you can actually program this yourself, right?
+
+802
+01:07:57,500 --> 01:08:00,500
+ With maybe less than 20 lines of code.
+
+803
+01:08:00,500 --> 01:08:02,500
+ I will show you the code and how to do that.
+
+804
+01:08:02,500 --> 01:08:12,500
+ In fact, it was a very simple exercise for everyone to try out to learn the digit.
+
+805
+01:08:12,500 --> 01:08:13,500
+ And handwritten.
+
+806
+01:08:13,500 --> 01:08:18,500
+ I think there was earlier approach, but they only can recognize the type of digit.
+
+807
+01:08:18,500 --> 01:08:22,500
+ And this is the one that purposely writes in a very different form.
+
+808
+01:08:22,500 --> 01:08:28,500
+ He can still recognize it using the neural network approach.
+
+809
+01:08:28,500 --> 01:08:30,500
+ Yeah.
+
+810
+01:08:30,500 --> 01:08:35,500
+ But even then, at that time, you're not obliged to recognize the...
+
+811
+01:08:35,500 --> 01:08:36,500
+ The network was like that.
+
+812
+01:08:36,500 --> 01:08:41,500
+ Actually, in fact, I worked with one of the lab near to your lab at the time.
+
+813
+01:08:41,500 --> 01:08:42,500
+ All look like this.
+
+814
+01:08:42,500 --> 01:08:43,500
+ Okay.
+
+815
+01:08:43,500 --> 01:08:49,500
+ And even that, even his approach can solve your problem.
+
+816
+01:08:49,500 --> 01:08:52,500
+ And he still lost it.
+
+817
+01:08:52,500 --> 01:08:55,500
+ Because then sooner or later, you'll find that,
+
+818
+01:08:55,500 --> 01:09:02,500
+ or when you try to apply this to solve other problems like recognize objects, recognize animals,
+
+819
+01:09:02,500 --> 01:09:04,500
+ it doesn't work well.
+
+820
+01:09:04,500 --> 01:09:07,500
+ Because at that time, you do not have enough data,
+
+821
+01:09:07,500 --> 01:09:09,500
+ you do not have enough computation power,
+
+822
+01:09:09,500 --> 01:09:14,500
+ you do not have the good model, the weak model, right?
+
+823
+01:09:14,500 --> 01:09:17,500
+ To do those tasks.
+
+824
+01:09:17,500 --> 01:09:18,500
+ Okay.
+
+825
+01:09:18,500 --> 01:09:24,500
+ And then 1997, this is a long-shot term memory by Smith-Huber
+
+826
+01:09:24,500 --> 01:09:26,500
+ and called Klyther.
+
+827
+01:09:26,500 --> 01:09:30,500
+ And they come up with this approach for languages or sequential data.
+
+828
+01:09:30,500 --> 01:09:32,500
+ And which somehow you can...
+
+829
+01:09:32,500 --> 01:09:40,500
+ Because for tasks, for those translation from one language to the other, right,
+
+830
+01:09:40,500 --> 01:09:43,500
+ you need to memorize the whole sequences, right?
+
+831
+01:09:43,500 --> 01:09:46,500
+ And how do you memorize it is challenging.
+
+832
+01:09:46,500 --> 01:09:51,500
+ The traditional CNN network cannot have the memory.
+
+833
+01:09:51,500 --> 01:09:57,500
+ So they create this long-shot term memory to make it that,
+
+834
+01:09:57,500 --> 01:10:04,500
+ oh, I can remember a long task and then do the translation, do the analysis.
+
+835
+01:10:04,500 --> 01:10:08,500
+ But unfortunately, it cannot remember too long.
+
+836
+01:10:08,500 --> 01:10:14,500
+ Therefore, LSTM and ENAW lose to Transformer.
+
+837
+01:10:14,500 --> 01:10:23,500
+ So it was considered one of the very good advancement at the time.
+
+838
+01:10:23,500 --> 01:10:28,500
+ And then, of course, as I say, even with young and cool method,
+
+839
+01:10:28,500 --> 01:10:36,500
+ and people still believe that it can solve many, many advanced problems because of the limited...
+
+840
+01:10:36,500 --> 01:10:41,500
+ So the capacity of the neural network that can build at that time.
+
+841
+01:10:41,500 --> 01:10:47,500
+ And also because other methods, like support vector machines, right,
+
+842
+01:10:47,500 --> 01:10:53,500
+ and also the forest trade decision forest came along here.
+
+843
+01:10:55,500 --> 01:11:00,500
+ So the second winter, because they have this support vector machine by WEMIC,
+
+844
+01:11:00,500 --> 01:11:04,500
+ WEMIC was a researcher in Russia, right.
+
+845
+01:11:04,500 --> 01:11:10,500
+ And then he had many years of research in this support vector machine.
+
+846
+01:11:10,500 --> 01:11:15,500
+ But not a lot of people in the US, in the Western country, knew about it.
+
+847
+01:11:15,500 --> 01:11:19,500
+ So when you make a visit to the US, start to publicize his or her work,
+
+848
+01:11:19,500 --> 01:11:23,500
+ wow, people were so surprised by the result.
+
+849
+01:11:23,500 --> 01:11:24,500
+ And it's very elegant.
+
+850
+01:11:24,500 --> 01:11:26,500
+ I will talk about support vector machines.
+
+851
+01:11:26,500 --> 01:11:36,500
+ And you formulate a problem, and you know what exactly the score is trying to minimize and how it minimizes.
+
+852
+01:11:36,500 --> 01:11:38,500
+ And which is slightly different from CNN.
+
+853
+01:11:38,500 --> 01:11:44,500
+ Although it works, but you really do know what kind of decision they make.
+
+854
+01:11:44,500 --> 01:11:51,500
+ So they actually have a second so-called AI winter.
+
+855
+01:11:54,500 --> 01:12:05,500
+ Then until this 2012, Alex Knack is a PhD student of Jack Newton in Polymer University.
+
+856
+01:12:06,500 --> 01:12:11,500
+ And they start to address this image net competition,
+
+857
+01:12:11,500 --> 01:12:17,500
+ which is a competition that created for such problem, classification problem.
+
+858
+01:12:17,500 --> 01:12:23,500
+ And it's the first CNN approach, and this is the network they use.
+
+859
+01:12:23,500 --> 01:12:27,500
+ And the network is actually very much similar to Young Le Cron network.
+
+860
+01:12:27,500 --> 01:12:30,500
+ Just that now they can learn how to play.
+
+861
+01:12:30,500 --> 01:12:33,500
+ What an important thing that they do is they use GPU.
+
+862
+01:12:34,500 --> 01:12:40,500
+ In fact, it was not Alex, it was by this Ilaia Suskeeper.
+
+863
+01:12:40,500 --> 01:12:42,500
+ Some of you might know him.
+
+864
+01:12:42,500 --> 01:12:49,500
+ He was the person fired the same element.
+
+865
+01:12:49,500 --> 01:12:54,500
+ And the one behind open AI, he was a Jack Newton machine.
+
+866
+01:12:54,500 --> 01:12:59,500
+ So he was also a researcher or student of Jack Newton at that time.
+
+867
+01:12:59,500 --> 01:13:03,500
+ He suggested to use the GPU to do the training.
+
+868
+01:13:03,500 --> 01:13:07,500
+ And they are very good in programming.
+
+869
+01:13:07,500 --> 01:13:11,500
+ So Alex actually spent two or three weeks to do a lot of training.
+
+870
+01:13:11,500 --> 01:13:14,500
+ At that time, the data cannot fit.
+
+871
+01:13:14,500 --> 01:13:20,500
+ The memory is not enough to fit all the data, so he had to split the network into two GPUs.
+
+872
+01:13:20,500 --> 01:13:26,500
+ So they were slightly different from Young Le Cron model, but in fact, very similar.
+
+873
+01:13:26,500 --> 01:13:33,500
+ And they also have a deeper on how to wear the data crossover so that you can optimize the training.
+
+874
+01:13:33,500 --> 01:13:36,500
+ You will go through some of the training in the later part of the lecture.
+
+875
+01:13:36,500 --> 01:13:39,500
+ And that changed everything.
+
+876
+01:13:39,500 --> 01:13:47,500
+ With this, your people have been working on other approaches to solve this ImageNet competition.
+
+877
+01:13:47,500 --> 01:13:53,500
+ And when they start to introduce the neural network approach, the convolutional neural network,
+
+878
+01:13:53,500 --> 01:14:01,500
+ and which won the competition by a large margin compared to the second one, right?
+
+879
+01:14:01,500 --> 01:14:05,500
+ The error percentage is more than 10%.
+
+880
+01:14:05,500 --> 01:14:17,500
+ If all the people that reduce 1%, 2%, any year, so this came out and kind of won the competition, surprised anyone.
+
+881
+01:14:17,500 --> 01:14:24,500
+ And from then on, the foreign solution of CNN is machine learning.
+
+882
+01:14:24,500 --> 01:14:28,500
+ And there was a story that actually after that, they created a company.
+
+883
+01:14:28,500 --> 01:14:34,500
+ They upset the company and sold it for about 40 years.
+
+884
+01:14:34,500 --> 01:14:35,500
+ Three of them, three.
+
+885
+01:14:35,500 --> 01:14:40,500
+ Actually, they went to Las Vegas, the place that they had the NICS conference.
+
+886
+01:14:40,500 --> 01:14:46,500
+ And then they start to, actually the codes you can now see online, maybe 20 lines of program.
+
+887
+01:14:46,500 --> 01:14:49,500
+ But at that time, it was still fairly new.
+
+888
+01:14:49,500 --> 01:14:54,500
+ Many companies tried to acquire the software IP from them.
+
+889
+01:14:54,500 --> 01:15:00,500
+ In order to sell this, and this former company, suddenly like once, NUNERNEC was something like this.
+
+890
+01:15:00,500 --> 01:15:05,500
+ Then they went to Las Vegas, decided to auction the IP.
+
+891
+01:15:05,500 --> 01:15:11,500
+ And many companies came to bid, including PY2 from China.
+
+892
+01:15:11,500 --> 01:15:19,500
+ And at the end, actually PY2 gave a higher price, but they decided to sell the IP to Google.
+
+893
+01:15:19,500 --> 01:15:23,500
+ I think for P, 40 million or 40 more million.
+
+894
+01:15:23,500 --> 01:15:29,500
+ Just a few lines of code and three of them will share the 40 million US dollar.
+
+895
+01:15:29,500 --> 01:15:32,500
+ And PY2 actually want to give more, but they decided not to.
+
+896
+01:15:32,500 --> 01:15:41,500
+ Because beside the IP, they also need to agree to work, to join the company to work for them to transfer the technology.
+
+897
+01:15:41,500 --> 01:15:51,500
+ And that actually Alex and Pia, Susiemer, they started to continue.
+
+898
+01:15:51,500 --> 01:15:58,500
+ Alex already somehow outside, they somehow he decided not to involve in machine learning anymore after a while.
+
+899
+01:15:58,500 --> 01:16:03,500
+ So that was the key.
+
+900
+01:16:03,500 --> 01:16:09,500
+ So Konec worked and changed everything. People now start to gain the confidence on this.
+
+901
+01:16:09,500 --> 01:16:13,500
+ And here of course, why machine learning now becomes possible?
+
+902
+01:16:13,500 --> 01:16:22,500
+ First, you need to have truth. You need to have, without object rotation, you need to have an algorithm.
+
+903
+01:16:22,500 --> 01:16:25,500
+ You need to have a good model.
+
+904
+01:16:25,500 --> 01:16:29,500
+ Second is you need to have a lot of computation, right? GPU.
+
+905
+01:16:29,500 --> 01:16:37,500
+ In fact, Yang Le Koon was one that suggested something like GPU idea in the early day when he developed.
+
+906
+01:16:37,500 --> 01:16:41,500
+ He said Yang Le Koon learned more.
+
+907
+01:16:41,500 --> 01:16:48,500
+ So he thought about, he even developed a project which designed the chips to do a fast computation.
+
+908
+01:16:48,500 --> 01:16:53,500
+ But they did not continue to push forward and media came over.
+
+909
+01:16:53,500 --> 01:16:57,500
+ And then it becomes successful, very successful.
+
+910
+01:16:57,500 --> 01:17:01,500
+ So I think I want to figure out, they need a lot of computation.
+
+911
+01:17:01,500 --> 01:17:04,500
+ And third is the data set.
+
+912
+01:17:04,500 --> 01:17:12,500
+ And these are the key components that you need to have in order to solve machine learning problems.
+
+913
+01:17:12,500 --> 01:17:20,500
+ So early on, they had some of these limitations, so they could not really create a good solution.
+
+914
+01:17:20,500 --> 01:17:27,500
+ So here are some very small data sets in today's standard.
+
+915
+01:17:27,500 --> 01:17:37,500
+ So the green list data set, which is the Yang Le Koon, he used, the data set used to create the Learned Model to recognize digit.
+
+916
+01:17:37,500 --> 01:17:41,500
+ You can download for mine, Yang Le Koon.
+
+917
+01:17:41,500 --> 01:17:53,500
+ About 60,000 28 by 28 gray-skilled images like this for training and then 10,000 for testing.
+
+918
+01:17:53,500 --> 01:17:58,500
+ And in fact, you can now quickly change your program to beat Yang Le Koon model.
+
+919
+01:17:58,500 --> 01:18:00,500
+ Just change the network.
+
+920
+01:18:00,500 --> 01:18:03,500
+ I will show you some code to do that.
+
+921
+01:18:03,500 --> 01:18:07,500
+ And then this is another popular CFA 10 and CFA 100.
+
+922
+01:18:07,500 --> 01:18:20,500
+ And these are 10 classes for CFA 10, recognize very small 32 by 32 color images and recognize 10 types of objects.
+
+923
+01:18:20,500 --> 01:18:27,500
+ 60,000, for example, you can use 50,000 for training, 10,000 for testing.
+
+924
+01:18:28,500 --> 01:18:36,500
+ So for 10 classes, each of them then will have about 5,000 images.
+
+925
+01:18:36,500 --> 01:18:43,500
+ Then the CFA 100 have more classes, 100 classes, because they also have subclasses.
+
+926
+01:18:43,500 --> 01:18:49,500
+ But the number of images available will be less than 10 times less fewer.
+
+927
+01:18:49,500 --> 01:18:54,500
+ Then ImageNet, this is the one I think many contributed by B Fei Fei.
+
+928
+01:18:54,500 --> 01:19:00,500
+ And she actually started this project when she was at Princeton as a assistant prof.
+
+929
+01:19:00,500 --> 01:19:06,500
+ He's a post-doc, a research student, started to collect the data.
+
+930
+01:19:06,500 --> 01:19:08,500
+ Before then, he was in Caltech.
+
+931
+01:19:08,500 --> 01:19:14,500
+ And then he probably started working on the project back then.
+
+932
+01:19:14,500 --> 01:19:19,500
+ So with this data contribution, then you have ImageNet, 2010.
+
+933
+01:19:19,500 --> 01:19:24,500
+ Then people now start to compete based on the same data benchmark,
+
+934
+01:19:24,500 --> 01:19:27,500
+ and to know who has a better model.
+
+935
+01:19:27,500 --> 01:19:28,500
+ That's how you make progress.
+
+936
+01:19:28,500 --> 01:19:35,500
+ In fact, a lot of the standard is all because they have this so-called standard data set,
+
+937
+01:19:35,500 --> 01:19:40,500
+ like your JPEG, your MPEG, your video compression, your JPEG.
+
+938
+01:19:40,500 --> 01:19:43,500
+ All start with this kind of a common data set.
+
+939
+01:19:43,500 --> 01:19:47,500
+ Then people start to propose new ideas, new algorithms,
+
+940
+01:19:47,500 --> 01:19:52,500
+ and then they meet regularly to see who has a better result
+
+941
+01:19:52,500 --> 01:19:54,500
+ and what are the ideas they introduce.
+
+942
+01:19:54,500 --> 01:20:00,500
+ And then that's how you move the solution forward.
+
+943
+01:20:00,500 --> 01:20:06,500
+ Okay, here is a small sample of the ImageNet data set.
+
+944
+01:20:06,500 --> 01:20:08,500
+ So you think about it.
+
+945
+01:20:08,500 --> 01:20:17,500
+ Today you join a company or university and ask you to collect 14 million images and label them.
+
+946
+01:20:17,500 --> 01:20:22,500
+ And you had to also crop them into 32x32x3.
+
+947
+01:20:22,500 --> 01:20:25,500
+ How do you do it?
+
+948
+01:20:25,500 --> 01:20:27,500
+ How do you do it?
+
+949
+01:20:27,500 --> 01:20:28,500
+ And there's a lot of...
+
+950
+01:20:28,500 --> 01:20:30,500
+ In fact, a lot of machine learning jobs,
+
+951
+01:20:30,500 --> 01:20:36,500
+ you're going to do a lot of this very so-called low-level engineering work,
+
+952
+01:20:36,500 --> 01:20:39,500
+ rather than all new algorithms.
+
+953
+01:20:39,500 --> 01:20:42,500
+ There are not any new algorithms anyway.
+
+954
+01:20:42,500 --> 01:20:47,500
+ Everyone just fine-tune, just do a lot of training here and there.
+
+955
+01:20:47,500 --> 01:20:51,500
+ But to collect the data, there's called data engineering,
+
+956
+01:20:51,500 --> 01:20:57,500
+ which is actually what is very much needed in many companies.
+
+957
+01:20:57,500 --> 01:21:00,500
+ How to collect data? Where to collect data? When to collect data?
+
+958
+01:21:00,500 --> 01:21:02,500
+ What to collect data?
+
+959
+01:21:02,500 --> 01:21:09,500
+ All these questions that you need to have a lot of experience.
+
+960
+01:21:09,500 --> 01:21:12,500
+ About application, I don't really have to go through this.
+
+961
+01:21:12,500 --> 01:21:16,500
+ You can see that with that simple machine learning approach,
+
+962
+01:21:16,500 --> 01:21:21,500
+ there are a lot of many, many possible applications.
+
+963
+01:21:21,500 --> 01:21:25,500
+ And which in the past, they have very vivid performance.
+
+964
+01:21:25,500 --> 01:21:27,500
+ And now seem to be a lot.
+
+965
+01:21:27,500 --> 01:21:31,500
+ Everyone think that it should be like that.
+
+966
+01:21:31,500 --> 01:21:33,500
+ And even the coloring, right?
+
+967
+01:21:33,500 --> 01:21:36,500
+ We have done this problem using traditional approaches.
+
+968
+01:21:36,500 --> 01:21:37,500
+ Not easy.
+
+969
+01:21:37,500 --> 01:21:40,500
+ But now you can go to the website.
+
+970
+01:21:40,500 --> 01:21:43,500
+ These are some of the applications.
+
+971
+01:21:43,500 --> 01:21:50,500
+ Now it's creating a lot of potential value to the company.
+
+972
+01:21:50,500 --> 01:21:52,500
+ Here's for example, the face recognition.
+
+973
+01:21:52,500 --> 01:21:55,500
+ Also in the young LeCune, using the LeLab
+
+974
+01:21:55,500 --> 01:21:58,500
+ to try to do the face recognition.
+
+975
+01:21:58,500 --> 01:22:04,500
+ And tracking as well.
+
+976
+01:22:04,500 --> 01:22:07,500
+ So I have a classmate work on this face detection.
+
+977
+01:22:07,500 --> 01:22:09,500
+ Not using machine learning approach.
+
+978
+01:22:09,500 --> 01:22:12,500
+ You can find out, it's not just one actually.
+
+979
+01:22:12,500 --> 01:22:14,500
+ A group of research PhD students,
+
+980
+01:22:14,500 --> 01:22:19,500
+ they were trying to track faces and detect faces.
+
+981
+01:22:19,500 --> 01:22:23,500
+ And that was very challenging without machine learning.
+
+982
+01:22:23,500 --> 01:22:26,500
+ Think of many ways to write a code.
+
+983
+01:22:26,500 --> 01:22:33,500
+ With the learning now, you can do it very well.
+
+984
+01:22:33,500 --> 01:22:35,500
+ Of course, not just that.
+
+985
+01:22:35,500 --> 01:22:39,500
+ If you use a YOLO, you can detect many many objects.
+
+986
+01:22:39,500 --> 01:22:42,500
+ Very fast.
+
+987
+01:22:42,500 --> 01:22:48,500
+ And which of course, they keep upgrading their performance
+
+988
+01:22:48,500 --> 01:22:50,500
+ and also the speed.
+
+989
+01:22:50,500 --> 01:22:52,500
+ And now it's a common tool.
+
+990
+01:22:52,500 --> 01:22:55,500
+ You can also detect all the faces.
+
+991
+01:22:55,500 --> 01:22:59,500
+ And with faces now, you can sort of count how many people inside the scene.
+
+992
+01:22:59,500 --> 01:23:03,500
+ Which is humanly impossible to do so.
+
+993
+01:23:03,500 --> 01:23:05,500
+ Because people move.
+
+994
+01:23:05,500 --> 01:23:11,500
+ You capture the images, then you can really know what happened.
+
+995
+01:23:11,500 --> 01:23:13,500
+ And these are some of the very basic.
+
+996
+01:23:13,500 --> 01:23:17,500
+ All these can be formulated at a supervised learning method.
+
+997
+01:23:17,500 --> 01:23:20,500
+ For example, semantic segmentation.
+
+998
+01:23:20,500 --> 01:23:27,500
+ In the segment, whether there is a sky, object, grass, or tree.
+
+999
+01:23:27,500 --> 01:23:32,500
+ And this is become a classification problem.
+
+1000
+01:23:32,500 --> 01:23:35,500
+ Every pixel, if you formulate YOLO training,
+
+1001
+01:23:35,500 --> 01:23:38,500
+ you'll ask, is this pixel belong to one of these four classes?
+
+1002
+01:23:38,500 --> 01:23:42,500
+ Or it could be more, we have, but that can be four classes.
+
+1003
+01:23:42,500 --> 01:23:47,500
+ Then you start to do some kind of grouping or unit.
+
+1004
+01:23:47,500 --> 01:23:52,500
+ You can create this kind of semantic segmentation.
+
+1005
+01:23:52,500 --> 01:23:55,500
+ All you can do, the classification is to,
+
+1006
+01:23:55,500 --> 01:23:58,500
+ given an image you identify, there is a cat.
+
+1007
+01:23:58,500 --> 01:24:01,500
+ And where the cat is, it also localization.
+
+1008
+01:24:01,500 --> 01:24:03,500
+ Put a bounding box.
+
+1009
+01:24:03,500 --> 01:24:08,500
+ The way you do a bounding box is to detect a kind of regression problem.
+
+1010
+01:24:08,500 --> 01:24:11,500
+ Where is the top left corner of a bounding box?
+
+1011
+01:24:11,500 --> 01:24:15,500
+ And also the side of a bounding box.
+
+1012
+01:24:15,500 --> 01:24:17,500
+ And then you do the training.
+
+1013
+01:24:17,500 --> 01:24:19,500
+ Every time, when you do a training,
+
+1014
+01:24:19,500 --> 01:24:22,500
+ you will give out an example, you will use a label,
+
+1015
+01:24:22,500 --> 01:24:25,500
+ here is a cat, here is a cat, here is a cat.
+
+1016
+01:24:25,500 --> 01:24:28,500
+ Then every time you go through this support training,
+
+1017
+01:24:28,500 --> 01:24:31,500
+ then you can output, one is the class of an object,
+
+1018
+01:24:31,500 --> 01:24:33,500
+ it's a cat, it's a label classification.
+
+1019
+01:24:33,500 --> 01:24:37,500
+ And also the location of this cat, the bounding box.
+
+1020
+01:24:37,500 --> 01:24:40,500
+ Then you become a classification of the question,
+
+1021
+01:24:40,500 --> 01:24:44,500
+ machine learning problem, a supervised learning problem.
+
+1022
+01:24:44,500 --> 01:24:48,500
+ And then one of my PhDs to work on this facial landmark detection,
+
+1023
+01:24:48,500 --> 01:24:56,500
+ so you detect a lot on, so that you can now do the defect change of face.
+
+1024
+01:24:56,500 --> 01:24:58,500
+ So first you detect where they are,
+
+1025
+01:24:58,500 --> 01:25:01,500
+ and then you can do a lot of these post processing,
+
+1026
+01:25:01,500 --> 01:25:03,500
+ equally recognition.
+
+1027
+01:25:03,500 --> 01:25:08,500
+ And then object detection and instant segmentation.
+
+1028
+01:25:08,500 --> 01:25:11,500
+ So these are the term they use when they read the paper,
+
+1029
+01:25:11,500 --> 01:25:14,500
+ they want to segment, let's say they want to detect dogs and cats.
+
+1030
+01:25:14,500 --> 01:25:16,500
+ So you have to do the segmentation.
+
+1031
+01:25:16,500 --> 01:25:20,500
+ The segment everything can do it very well now.
+
+1032
+01:25:20,500 --> 01:25:23,500
+ Before then it was still not easy.
+
+1033
+01:25:23,500 --> 01:25:27,500
+ And then this is the skeleton detection,
+
+1034
+01:25:27,500 --> 01:25:31,500
+ and then you can use it to estimate the pose,
+
+1035
+01:25:31,500 --> 01:25:37,500
+ the spot action of the person.
+
+1036
+01:25:37,500 --> 01:25:42,500
+ You can use a 19 point or 39 point skeleton,
+
+1037
+01:25:42,500 --> 01:25:45,500
+ which is also a supervised learning.
+
+1038
+01:25:45,500 --> 01:25:47,500
+ You do a lot of training data,
+
+1039
+01:25:47,500 --> 01:25:50,500
+ given an image to identify where are those points.
+
+1040
+01:25:50,500 --> 01:25:52,500
+ And then you do a lot of training,
+
+1041
+01:25:52,500 --> 01:25:57,500
+ then given a new image you can identify those key points as well.
+
+1042
+01:25:57,500 --> 01:26:01,500
+ And then these are some impending applications.
+
+1043
+01:26:01,500 --> 01:26:05,500
+ You can actually try to collect the images
+
+1044
+01:26:05,500 --> 01:26:10,500
+ by fielding, remove certain parts,
+
+1045
+01:26:10,500 --> 01:26:14,500
+ and then you make them that you didn't want.
+
+1046
+01:26:14,500 --> 01:26:18,500
+ And that's not even the diffusion model.
+
+1047
+01:26:18,500 --> 01:26:22,500
+ You just do kind of a change of the content to estimate the basic.
+
+1048
+01:26:22,500 --> 01:26:24,500
+ But using learning approach,
+
+1049
+01:26:24,500 --> 01:26:26,500
+ we cannot use image processing approach.
+
+1050
+01:26:26,500 --> 01:26:30,500
+ Here is the one that change the photo style.
+
+1051
+01:26:30,500 --> 01:26:32,500
+ You have a style photo,
+
+1052
+01:26:32,500 --> 01:26:35,500
+ and you have the target content photo.
+
+1053
+01:26:35,500 --> 01:26:36,500
+ Then you combine it together,
+
+1054
+01:26:36,500 --> 01:26:42,500
+ you can change your content photo into a new style.
+
+1055
+01:26:42,500 --> 01:26:43,500
+ And many of these things you go there,
+
+1056
+01:26:43,500 --> 01:26:44,500
+ you can download the code,
+
+1057
+01:26:44,500 --> 01:26:46,500
+ you can actually compile it,
+
+1058
+01:26:46,500 --> 01:26:48,500
+ you can upload the images,
+
+1059
+01:26:48,500 --> 01:26:52,500
+ you can do exporting it yourself.
+
+1060
+01:26:52,500 --> 01:26:54,500
+ Of course, this is not possible
+
+1061
+01:26:54,500 --> 01:26:58,500
+ if you use a traditional image processing.
+
+1062
+01:26:58,500 --> 01:27:01,500
+ Because they are also like animation.
+
+1063
+01:27:01,500 --> 01:27:05,500
+ You can use the one driving sequence,
+
+1064
+01:27:05,500 --> 01:27:07,500
+ and this is target image,
+
+1065
+01:27:07,500 --> 01:27:13,500
+ and then all of them will behave the same as the driving video.
+
+1066
+01:27:13,500 --> 01:27:17,500
+ Again, these are the codes you can also follow.
+
+1067
+01:27:17,500 --> 01:27:19,500
+ Even if you don't know how it works,
+
+1068
+01:27:19,500 --> 01:27:28,500
+ it just becomes so easy now for people to train and do.
+
+1069
+01:27:28,500 --> 01:27:30,500
+ Of course, style gun is another.
+
+1070
+01:27:30,500 --> 01:27:35,500
+ Style gun is another model.
+
+1071
+01:27:35,500 --> 01:27:44,500
+ This young fellow, they come up with this idea.
+
+1072
+01:27:44,500 --> 01:27:47,500
+ I think this idea was very interesting.
+
+1073
+01:27:47,500 --> 01:27:51,500
+ We will talk about their two networks.
+
+1074
+01:27:51,500 --> 01:27:59,500
+ One tried to create a scene generated in the image.
+
+1075
+01:27:59,500 --> 01:28:06,500
+ The other tried to judge whether this is fake or real.
+
+1076
+01:28:06,500 --> 01:28:08,500
+ They trained these networks together.
+
+1077
+01:28:08,500 --> 01:28:11,500
+ The idea came from, I think,
+
+1078
+01:28:11,500 --> 01:28:17,500
+ gathering in a bar at night.
+
+1079
+01:28:17,500 --> 01:28:21,500
+ And then the challenge was,
+
+1080
+01:28:21,500 --> 01:28:23,500
+ oh, machine learning can do a lot of
+
+1081
+01:28:23,500 --> 01:28:25,500
+ classification regression problems,
+
+1082
+01:28:25,500 --> 01:28:29,500
+ but they cannot really create new content.
+
+1083
+01:28:29,500 --> 01:28:31,500
+ Then young fellow was there,
+
+1084
+01:28:31,500 --> 01:28:33,500
+ thought of it.
+
+1085
+01:28:33,500 --> 01:28:35,500
+ If I can create a two-network one,
+
+1086
+01:28:35,500 --> 01:28:37,500
+ try to recharge the classification,
+
+1087
+01:28:37,500 --> 01:28:39,500
+ fake or real.
+
+1088
+01:28:39,500 --> 01:28:41,500
+ The other tried to create the content.
+
+1089
+01:28:41,500 --> 01:28:43,500
+ And then I managed to do it.
+
+1090
+01:28:43,500 --> 01:28:45,500
+ So he was hard drunk.
+
+1091
+01:28:45,500 --> 01:28:47,500
+ He just had his idea.
+
+1092
+01:28:47,500 --> 01:28:51,500
+ Then his friend not believed that he can do it.
+
+1093
+01:28:51,500 --> 01:28:53,500
+ So he went home that night.
+
+1094
+01:28:53,500 --> 01:28:55,500
+ He sat down.
+
+1095
+01:28:55,500 --> 01:28:57,500
+ I think he programmed until the early morning.
+
+1096
+01:28:57,500 --> 01:28:59,500
+ Then he had created a model
+
+1097
+01:28:59,500 --> 01:29:01,500
+ which created very small images,
+
+1098
+01:29:01,500 --> 01:29:05,500
+ which looked like the content can be generated
+
+1099
+01:29:05,500 --> 01:29:07,500
+ by this simple model.
+
+1100
+01:29:07,500 --> 01:29:09,500
+ So he just had a very simple idea.
+
+1101
+01:29:09,500 --> 01:29:12,500
+ And that also tells that the approach is
+
+1102
+01:29:12,500 --> 01:29:14,500
+ query versus path.
+
+1103
+01:29:14,500 --> 01:29:16,500
+ If you can model the network,
+
+1104
+01:29:16,500 --> 01:29:20,500
+ and you can combine them in a very useful way,
+
+1105
+01:29:20,500 --> 01:29:22,500
+ you can solve problems like this.
+
+1106
+01:29:22,500 --> 01:29:25,500
+ And all these are fake faces and cars.
+
+1107
+01:29:25,500 --> 01:29:27,500
+ They don't exist in the real world.
+
+1108
+01:29:27,500 --> 01:29:29,500
+ I believe you have seen some of these.
+
+1109
+01:29:29,500 --> 01:29:31,500
+ So for example,
+
+1110
+01:29:31,500 --> 01:29:33,500
+ let's look at this.
+
+1111
+01:29:35,500 --> 01:29:37,500
+ These are fake images.
+
+1112
+01:29:39,500 --> 01:29:41,500
+ It is not a real person.
+
+1113
+01:29:41,500 --> 01:29:43,500
+ It's created by a computer.
+
+1114
+01:29:43,500 --> 01:29:45,500
+ Why? Why is that?
+
+1115
+01:29:48,500 --> 01:29:50,500
+ Let me do this.
+
+1116
+01:29:53,500 --> 01:29:55,500
+ It's so real.
+
+1117
+01:29:55,500 --> 01:29:58,500
+ You want to humanly try to paint a face like this.
+
+1118
+01:29:58,500 --> 01:30:00,500
+ I don't think it's possible.
+
+1119
+01:30:00,500 --> 01:30:03,500
+ But computers in the same way are smarter than you.
+
+1120
+01:30:04,500 --> 01:30:06,500
+ It's a artificial face.
+
+1121
+01:30:06,500 --> 01:30:08,500
+ I can look at it in another one.
+
+1122
+01:30:10,500 --> 01:30:12,500
+ Just update again.
+
+1123
+01:30:12,500 --> 01:30:13,500
+ This is another.
+
+1124
+01:30:13,500 --> 01:30:15,500
+ You can have as many as you like.
+
+1125
+01:30:15,500 --> 01:30:18,500
+ All these are fake faces.
+
+1126
+01:30:18,500 --> 01:30:20,500
+ It's just created.
+
+1127
+01:30:20,500 --> 01:30:22,500
+ You can create other objects.
+
+1128
+01:30:22,500 --> 01:30:25,500
+ You can find quite a lot of examples.
+
+1129
+01:30:25,500 --> 01:30:28,500
+ You can train different types of furniture.
+
+1130
+01:30:28,500 --> 01:30:30,500
+ You can create horses.
+
+1131
+01:30:30,500 --> 01:30:32,500
+ You can create those.
+
+1132
+01:30:32,500 --> 01:30:36,500
+ You can also test yourself
+
+1133
+01:30:36,500 --> 01:30:39,500
+ whether you can do better than the computer.
+
+1134
+01:30:40,500 --> 01:30:41,500
+ These two.
+
+1135
+01:30:41,500 --> 01:30:42,500
+ One is real.
+
+1136
+01:30:42,500 --> 01:30:44,500
+ One is a fake person.
+
+1137
+01:30:45,500 --> 01:30:46,500
+ Which one is real?
+
+1138
+01:30:46,500 --> 01:30:47,500
+ Can you tell?
+
+1139
+01:30:51,500 --> 01:30:52,500
+ Right is real.
+
+1140
+01:30:52,500 --> 01:30:54,500
+ This one is easy.
+
+1141
+01:30:54,500 --> 01:30:56,500
+ I think this one is real.
+
+1142
+01:30:56,500 --> 01:30:57,500
+ Let's check.
+
+1143
+01:30:57,500 --> 01:30:58,500
+ In white.
+
+1144
+01:30:58,500 --> 01:31:00,500
+ Oh, I was surprised.
+
+1145
+01:31:02,500 --> 01:31:04,500
+ That's interesting.
+
+1146
+01:31:05,500 --> 01:31:06,500
+ This is real.
+
+1147
+01:31:06,500 --> 01:31:08,500
+ This is a fake.
+
+1148
+01:31:13,500 --> 01:31:14,500
+ Try again.
+
+1149
+01:31:15,500 --> 01:31:17,500
+ I'll show you the real.
+
+1150
+01:31:17,500 --> 01:31:19,500
+ I'll tell you where to look for.
+
+1151
+01:31:19,500 --> 01:31:21,500
+ You'll be taken with a yellow frame.
+
+1152
+01:31:22,500 --> 01:31:23,500
+ Anyone?
+
+1153
+01:31:25,500 --> 01:31:26,500
+ Right is real.
+
+1154
+01:31:26,500 --> 01:31:28,500
+ Left side is like left.
+
+1155
+01:31:28,500 --> 01:31:29,500
+ Left side is like left.
+
+1156
+01:31:29,500 --> 01:31:30,500
+ Left side is like left.
+
+1157
+01:31:30,500 --> 01:31:32,500
+ Let me take a closer look.
+
+1158
+01:31:32,500 --> 01:31:34,500
+ I think left is real.
+
+1159
+01:31:34,500 --> 01:31:35,500
+ Yes, yes.
+
+1160
+01:31:35,500 --> 01:31:36,500
+ Yes, yes.
+
+1161
+01:31:38,500 --> 01:31:39,500
+ Why?
+
+1162
+01:31:40,500 --> 01:31:41,500
+ Why?
+
+1163
+01:31:41,500 --> 01:31:42,500
+ Why those that you can judge?
+
+1164
+01:31:46,500 --> 01:31:48,500
+ Let's try again.
+
+1165
+01:31:48,500 --> 01:31:49,500
+ See where they can...
+
+1166
+01:31:49,500 --> 01:31:51,500
+ Now we are doing the machine learning.
+
+1167
+01:31:51,500 --> 01:31:53,500
+ See whether you are smarter than a machine.
+
+1168
+01:31:53,500 --> 01:31:57,500
+ Can you figure out a way to decide classification problem?
+
+1169
+01:31:57,500 --> 01:31:58,500
+ Who is real?
+
+1170
+01:31:58,500 --> 01:31:59,500
+ I'll show you now.
+
+1171
+01:31:59,500 --> 01:32:01,500
+ But training is important now.
+
+1172
+01:32:01,500 --> 01:32:02,500
+ Okay?
+
+1173
+01:32:02,500 --> 01:32:03,500
+ Play again.
+
+1174
+01:32:03,500 --> 01:32:04,500
+ So who is real?
+
+1175
+01:32:04,500 --> 01:32:05,500
+ Who is fake?
+
+1176
+01:32:07,500 --> 01:32:08,500
+ Left.
+
+1177
+01:32:09,500 --> 01:32:10,500
+ Real.
+
+1178
+01:32:12,500 --> 01:32:13,500
+ Okay, let's try.
+
+1179
+01:32:15,500 --> 01:32:16,500
+ Correct.
+
+1180
+01:32:16,500 --> 01:32:17,500
+ Okay.
+
+1181
+01:32:17,500 --> 01:32:19,500
+ Now let's do a training again.
+
+1182
+01:32:19,500 --> 01:32:21,500
+ Left or right?
+
+1183
+01:32:21,500 --> 01:32:22,500
+ Right.
+
+1184
+01:32:26,500 --> 01:32:27,500
+ You see?
+
+1185
+01:32:29,500 --> 01:32:31,500
+ Isn't that how challenging it is?
+
+1186
+01:32:31,500 --> 01:32:33,500
+ We are going to the machine learning now.
+
+1187
+01:32:33,500 --> 01:32:35,500
+ I think this one...
+
+1188
+01:32:35,500 --> 01:32:37,500
+ I think it's right.
+
+1189
+01:32:38,500 --> 01:32:39,500
+ Oh, you are right.
+
+1190
+01:32:39,500 --> 01:32:40,500
+ Okay?
+
+1191
+01:32:40,500 --> 01:32:41,500
+ I'm surprised.
+
+1192
+01:32:41,500 --> 01:32:42,500
+ Okay?
+
+1193
+01:32:43,500 --> 01:32:44,500
+ Okay, where to look for?
+
+1194
+01:32:44,500 --> 01:32:46,500
+ Because this is very old.
+
+1195
+01:32:46,500 --> 01:32:48,500
+ This is 20...
+
+1196
+01:32:48,500 --> 01:32:51,500
+ 20, 19, take out of work.
+
+1197
+01:32:51,500 --> 01:32:53,500
+ Today, our quality will be much better.
+
+1198
+01:32:53,500 --> 01:32:54,500
+ So where to look for?
+
+1199
+01:32:54,500 --> 01:32:56,500
+ Because it's a very old coach.
+
+1200
+01:32:56,500 --> 01:32:58,500
+ Nobody look at the background.
+
+1201
+01:32:58,500 --> 01:32:59,500
+ Right?
+
+1202
+01:32:59,500 --> 01:33:02,500
+ This case is not working.
+
+1203
+01:33:02,500 --> 01:33:05,500
+ The background, it can simulate the face very well.
+
+1204
+01:33:05,500 --> 01:33:07,500
+ But the background may not be.
+
+1205
+01:33:07,500 --> 01:33:10,500
+ Because the background will be many, many unthink.
+
+1206
+01:33:10,500 --> 01:33:13,500
+ Also look at the symmetric of the face.
+
+1207
+01:33:13,500 --> 01:33:15,500
+ The ears in particular.
+
+1208
+01:33:15,500 --> 01:33:18,500
+ Sometimes they have one ear disappear.
+
+1209
+01:33:18,500 --> 01:33:20,500
+ Or in the other shape.
+
+1210
+01:33:20,500 --> 01:33:22,500
+ Or the ear ring.
+
+1211
+01:33:22,500 --> 01:33:24,500
+ And also you have paper to look at.
+
+1212
+01:33:24,500 --> 01:33:27,500
+ Even the eye, the gait, where they look at.
+
+1213
+01:33:27,500 --> 01:33:29,500
+ This side here.
+
+1214
+01:33:30,500 --> 01:33:33,500
+ This one should be easy, right?
+
+1215
+01:33:34,500 --> 01:33:36,500
+ Which one is the real?
+
+1216
+01:33:36,500 --> 01:33:37,500
+ Left.
+
+1217
+01:33:37,500 --> 01:33:38,500
+ Left?
+
+1218
+01:33:38,500 --> 01:33:39,500
+ Right.
+
+1219
+01:33:39,500 --> 01:33:40,500
+ Left.
+
+1220
+01:33:40,500 --> 01:33:41,500
+ Left.
+
+1221
+01:33:41,500 --> 01:33:43,500
+ We'll see what is this.
+
+1222
+01:33:45,500 --> 01:33:50,500
+ So computer doesn't have knowledge about what is human.
+
+1223
+01:33:50,500 --> 01:33:53,500
+ They just try to give an image that looks like human.
+
+1224
+01:33:53,500 --> 01:33:55,500
+ But we know this.
+
+1225
+01:33:55,500 --> 01:33:57,500
+ It's not human.
+
+1226
+01:33:58,500 --> 01:34:00,500
+ So that is...
+
+1227
+01:34:02,500 --> 01:34:04,500
+ This one is easy.
+
+1228
+01:34:06,500 --> 01:34:07,500
+ Right.
+
+1229
+01:34:07,500 --> 01:34:08,500
+ Right.
+
+1230
+01:34:09,500 --> 01:34:10,500
+ Left.
+
+1231
+01:34:13,500 --> 01:34:14,500
+ Ear rings, you see?
+
+1232
+01:34:14,500 --> 01:34:16,500
+ Not symmetric.
+
+1233
+01:34:16,500 --> 01:34:18,500
+ Disappeared.
+
+1234
+01:34:19,500 --> 01:34:23,500
+ But it cannot tell that it should have symmetric ear rings.
+
+1235
+01:34:23,500 --> 01:34:25,500
+ It could have a natural look.
+
+1236
+01:34:25,500 --> 01:34:26,500
+ It could be like that.
+
+1237
+01:34:26,500 --> 01:34:28,500
+ But normally it's what you look for.
+
+1238
+01:34:28,500 --> 01:34:30,500
+ The background also looks a bit funny.
+
+1239
+01:34:30,500 --> 01:34:32,500
+ I don't know why it's this person.
+
+1240
+01:34:35,500 --> 01:34:37,500
+ And here there's a text.
+
+1241
+01:34:37,500 --> 01:34:39,500
+ It's a text in to be real.
+
+1242
+01:34:39,500 --> 01:34:40,500
+ Okay?
+
+1243
+01:34:40,500 --> 01:34:46,500
+ So this is what computer can do now by using the machine learning approach.
+
+1244
+01:34:46,500 --> 01:34:49,500
+ You can also create, change a phase, right?
+
+1245
+01:34:49,500 --> 01:34:51,500
+ Which is, you can do it now, actually.
+
+1246
+01:34:51,500 --> 01:34:53,500
+ A lot of free program.
+
+1247
+01:35:00,500 --> 01:35:02,500
+ And also this one.
+
+1248
+01:35:03,500 --> 01:35:09,500
+ Or entering an era in which our energies can make a whole wide animal out of the same, anything at any point in time.
+
+1249
+01:35:09,500 --> 01:35:11,500
+ Even if they would never say it was planned.
+
+1250
+01:35:11,500 --> 01:35:18,500
+ So, for instance, they could have me say things like, I don't know,
+
+1251
+01:35:18,500 --> 01:35:20,500
+ Kevin Longer was right.
+
+1252
+01:35:20,500 --> 01:35:23,500
+ Or a man person was in a self-implex.
+
+1253
+01:35:23,500 --> 01:35:26,500
+ Or, how about this simply,
+
+1254
+01:35:26,500 --> 01:35:29,500
+ President Trump is a total and complete dipshit.
+
+1255
+01:35:30,500 --> 01:35:34,500
+ Now, you see, I remember saying these things.
+
+1256
+01:35:34,500 --> 01:35:36,500
+ At least not in public address.
+
+1257
+01:35:36,500 --> 01:35:38,500
+ But, someone else would.
+
+1258
+01:35:38,500 --> 01:35:40,500
+ Someone.
+
+1259
+01:35:40,500 --> 01:35:42,500
+ Got a Jordan heel.
+
+1260
+01:35:42,500 --> 01:35:44,500
+ This is a dangerous time.
+
+1261
+01:35:46,500 --> 01:35:50,500
+ Moving forward, we need to be more vigilant with what we trust from the end.
+
+1262
+01:35:50,500 --> 01:35:54,500
+ That's the time we need to rely on trusted new sources.
+
+1263
+01:35:55,500 --> 01:35:57,500
+ They sound basic.
+
+1264
+01:35:57,500 --> 01:35:59,500
+ But how do we move forward?
+
+1265
+01:35:59,500 --> 01:36:05,500
+ And the age of information is going to be the difference between whether we survive
+
+1266
+01:36:05,500 --> 01:36:09,500
+ or whether we become some kind of fucked up disorder.
+
+1267
+01:36:09,500 --> 01:36:11,500
+ Thank you.
+
+1268
+01:36:11,500 --> 01:36:13,500
+ Stay well, bitches.
+
+1269
+01:36:13,500 --> 01:36:14,500
+ Yeah.
+
+1270
+01:36:14,500 --> 01:36:20,500
+ So, be careful what you see on the internet.
+
+1271
+01:36:20,500 --> 01:36:22,500
+ And many of these could, may not be real.
+
+1272
+01:36:22,500 --> 01:36:24,500
+ Including your voice.
+
+1273
+01:36:24,500 --> 01:36:28,500
+ Right now, they only need about 15 seconds of your voice.
+
+1274
+01:36:28,500 --> 01:36:32,500
+ They can clone your voice to say anything they want.
+
+1275
+01:36:32,500 --> 01:36:33,500
+ It's available technically.
+
+1276
+01:36:33,500 --> 01:36:35,500
+ You can go and download this too.
+
+1277
+01:36:35,500 --> 01:36:37,500
+ I think Alibaba have won.
+
+1278
+01:36:37,500 --> 01:36:39,500
+ They allow you to do so.
+
+1279
+01:36:39,500 --> 01:36:43,500
+ And image and video now can create.
+
+1280
+01:36:43,500 --> 01:36:44,500
+ So, yeah.
+
+1281
+01:36:44,500 --> 01:36:45,500
+ You should start.
+
+1282
+01:36:45,500 --> 01:36:48,500
+ I think a lot of this will be very advanced.
+
+1283
+01:36:48,500 --> 01:36:52,500
+ In the future, you may not be able to tell the differences.
+
+1284
+01:36:52,500 --> 01:36:54,500
+ Let's go back.
+
+1285
+01:37:07,500 --> 01:37:12,500
+ Of course, in actually 2022, even with those things, right,
+
+1286
+01:37:12,500 --> 01:37:16,500
+ 2022, people start to lose patience about machine learning.
+
+1287
+01:37:16,500 --> 01:37:20,500
+ Because they say, oh, we have all these fancy applications.
+
+1288
+01:37:20,500 --> 01:37:22,500
+ But autonomous vehicle is still not there.
+
+1289
+01:37:22,500 --> 01:37:23,500
+ Not here.
+
+1290
+01:37:23,500 --> 01:37:25,500
+ It's still limited application.
+
+1291
+01:37:25,500 --> 01:37:31,500
+ And until the church APT come along, the transformer,
+
+1292
+01:37:31,500 --> 01:37:33,500
+ attention is all you need.
+
+1293
+01:37:33,500 --> 01:37:35,500
+ The paper in 2017.
+
+1294
+01:37:35,500 --> 01:37:42,500
+ But it doesn't, people do not really know about it until you start to use the church APT.
+
+1295
+01:37:42,500 --> 01:37:48,500
+ I think the first time, I'm not sure you can recall when you use the church APT.
+
+1296
+01:37:48,500 --> 01:37:52,500
+ You doubt that it's really a real person behind.
+
+1297
+01:37:52,500 --> 01:37:55,500
+ And that was even very beginning.
+
+1298
+01:37:55,500 --> 01:38:00,500
+ Now it's so advanced that you take it for granted, this should be the case.
+
+1299
+01:38:00,500 --> 01:38:01,500
+ You should live like this.
+
+1300
+01:38:01,500 --> 01:38:02,500
+ Even programming.
+
+1301
+01:38:02,500 --> 01:38:06,500
+ Right now, in the past, we're going to forum to ask questions,
+
+1302
+01:38:06,500 --> 01:38:08,500
+ how to solve this problem or go and read.
+
+1303
+01:38:08,500 --> 01:38:13,500
+ Now, all these co-pilot tool can help you to depart.
+
+1304
+01:38:13,500 --> 01:38:18,500
+ So because of this, a lot of companies, a lot of resources,
+
+1305
+01:38:18,500 --> 01:38:24,500
+ every big tech company, they focus on church APT or large linkage model.
+
+1306
+01:38:24,500 --> 01:38:27,500
+ Everyone try to develop themselves.
+
+1307
+01:38:27,500 --> 01:38:33,500
+ Because there seem to be something that application can be realized easily.
+
+1308
+01:38:33,500 --> 01:38:40,500
+ And in fact, now you are using those tools quite regularly.
+
+1309
+01:38:40,500 --> 01:38:45,500
+ But the problem is, these things are not easy to duplicate.
+
+1310
+01:38:45,500 --> 01:38:50,500
+ You need a lot of data, but many companies still try to do it and get a lot of people
+
+1311
+01:38:50,500 --> 01:38:55,500
+ to collect data, do the training, find a team, and we purposely the application or target
+
+1312
+01:38:55,500 --> 01:39:01,500
+ and a particular application like the medical large linkage model like Huatuo.
+
+1313
+01:39:01,500 --> 01:39:10,500
+ And I know one company try to target weather prediction, collect all the weather data around
+
+1314
+01:39:10,500 --> 01:39:14,500
+ the world so they can build a model to predict the weather.
+
+1315
+01:39:14,500 --> 01:39:17,500
+ A financial application.
+
+1316
+01:39:17,500 --> 01:39:24,500
+ And all this created a lot of need in terms of computation, in terms of data,
+
+1317
+01:39:24,500 --> 01:39:27,500
+ and create a lot of ways as well.
+
+1318
+01:39:27,500 --> 01:39:31,500
+ So in order to build a model, you need millions of dollars.
+
+1319
+01:39:31,500 --> 01:39:35,500
+ The energy, even you use it, it also costs a lot.
+
+1320
+01:39:35,500 --> 01:39:40,500
+ Although many of you may use a free version, but if your company subscribe,
+
+1321
+01:39:40,500 --> 01:39:44,500
+ organization subscribe to it, they have to pay quite a big sum.
+
+1322
+01:39:44,500 --> 01:39:47,500
+ They have to generate profit out of this.
+
+1323
+01:39:47,500 --> 01:39:55,500
+ And this is how the model, church APT already have 175 billion parameters.
+
+1324
+01:39:55,500 --> 01:40:00,500
+ Those few parameters we talk about when this Rosenblatt come out with a simple neuron
+
+1325
+01:40:00,500 --> 01:40:06,500
+ and now they have 175 billion of the parameters.
+
+1326
+01:40:06,500 --> 01:40:12,500
+ Think about how do you train those, come up with a value of those parameters.
+
+1327
+01:40:12,500 --> 01:40:18,500
+ In fact, I think when they trade the church APT 3 or 3.5,
+
+1328
+01:40:18,500 --> 01:40:22,500
+ and halfway through they found it was a bug, it was an error, but they couldn't stop.
+
+1329
+01:40:22,500 --> 01:40:26,500
+ Because there's a lot of money, it's very costly to stop and be trained again.
+
+1330
+01:40:26,500 --> 01:40:38,500
+ So many of these companies, like now, all these so-called, for example, the next one, right?
+
+1331
+01:40:38,500 --> 01:40:43,500
+ Church APT 4 claim to have 176 trillion, right?
+
+1332
+01:40:43,500 --> 01:40:48,500
+ And you also have the 4 or me.
+
+1333
+01:40:48,500 --> 01:40:53,500
+ And also now you have the German 9 by Google, right?
+
+1334
+01:40:53,500 --> 01:41:01,500
+ Crowd by this anthropic and Olympus.
+
+1335
+01:41:01,500 --> 01:41:10,500
+ And higher the larger the parameters, the more capable.
+
+1336
+01:41:10,500 --> 01:41:14,500
+ Even this is a chain, right?
+
+1337
+01:41:14,500 --> 01:41:20,500
+ For Alipapa, all have this so-called model now available.
+
+1338
+01:41:20,500 --> 01:41:28,500
+ Some of this like Lama, the Meta one, which is a free open source.
+
+1339
+01:41:28,500 --> 01:41:32,500
+ But the problem is you may not have the machine to train or fight him,
+
+1340
+01:41:32,500 --> 01:41:36,500
+ but you can only use a smaller model to do the exercise.
+
+1341
+01:41:36,500 --> 01:41:46,500
+ And all these, and you go to the website, you can find a lot of information about such a model, what they are capable of.
+
+1342
+01:41:46,500 --> 01:41:49,500
+ And of course, with this model, the thing is how do you compare?
+
+1343
+01:41:49,500 --> 01:41:51,500
+ There are so many choices and options.
+
+1344
+01:41:51,500 --> 01:41:56,500
+ If you develop your application or apps or agents, and which one you should use?
+
+1345
+01:41:56,500 --> 01:41:59,500
+ Right now, of course, when you choose, you choose a free one, right?
+
+1346
+01:41:59,500 --> 01:42:04,500
+ But for the company, of course, they will talk about their product, right?
+
+1347
+01:42:04,500 --> 01:42:10,500
+ If they develop, they invest so-called manpower to develop an app, and they cannot change it.
+
+1348
+01:42:10,500 --> 01:42:13,500
+ They need not easy to change the application.
+
+1349
+01:42:13,500 --> 01:42:19,500
+ So there are different kind of evaluation, like this one based on the text evaluation.
+
+1350
+01:42:19,500 --> 01:42:25,500
+ You can also based on the audio translation and vision understanding, right?
+
+1351
+01:42:25,500 --> 01:42:31,500
+ The pink color is a GPT4O, right?
+
+1352
+01:42:31,500 --> 01:42:35,500
+ And then you can see that this is a cloud, the entropic, right?
+
+1353
+01:42:35,500 --> 01:42:43,500
+ Cloud 3 is actually quite performing quite closely to compare to the GPT4O.
+
+1354
+01:42:43,500 --> 01:42:49,500
+ And the free one is a Lama 3, but this one, 400 billion parameters.
+
+1355
+01:42:49,500 --> 01:42:58,500
+ You cannot really follow your computer unless you really have very high end computer resources.
+
+1356
+01:42:58,500 --> 01:43:08,500
+ But this is open source. You might be able to use some kind of training for data using at least a smaller number of parameters.
+
+1357
+01:43:08,500 --> 01:43:11,500
+ And you can see they are competing with each other.
+
+1358
+01:43:11,500 --> 01:43:16,500
+ But you see, the data are just so much.
+
+1359
+01:43:16,500 --> 01:43:20,500
+ You can go to some website to find those data in your training model.
+
+1360
+01:43:20,500 --> 01:43:26,500
+ But the data, because they just Google a kind of scrap from the internet,
+
+1361
+01:43:26,500 --> 01:43:30,500
+ some of the quality are not always good for training purpose.
+
+1362
+01:43:30,500 --> 01:43:36,500
+ In fact, people find that the cloud model somehow in certain aspects they perform so well
+
+1363
+01:43:36,500 --> 01:43:39,500
+ because they have very good quality data.
+
+1364
+01:43:39,500 --> 01:43:46,500
+ They find a way to clean the data to make sure the data are reliable.
+
+1365
+01:43:46,500 --> 01:43:52,500
+ And that is how you can improve the quality of your model.
+
+1366
+01:43:52,500 --> 01:43:58,500
+ Of course, with tab model, because then you can also now using the text prompt as input
+
+1367
+01:43:58,500 --> 01:44:06,500
+ and create such a so-called generative AI, like Dao Yi, Min Chie Ninh, stable infusion,
+
+1368
+01:44:06,500 --> 01:44:13,500
+ which you have a text, then you also have the so-called image input
+
+1369
+01:44:13,500 --> 01:44:16,500
+ where you do the quick model, create the image pair.
+
+1370
+01:44:16,500 --> 01:44:22,500
+ You can create this very nice picture by just giving a prompt.
+
+1371
+01:44:22,500 --> 01:44:24,500
+ You describe the prompt.
+
+1372
+01:44:24,500 --> 01:44:31,500
+ There are different ways that you can create a prompt so that output will shoot you better.
+
+1373
+01:44:31,500 --> 01:44:36,500
+ Here is another one, stable diffusion.
+
+1374
+01:44:36,500 --> 01:44:43,500
+ It looks nice, but also not really real.
+
+1375
+01:44:44,500 --> 01:44:48,500
+ There now is a newer version that makes it look more realistic.
+
+1376
+01:44:48,500 --> 01:44:51,500
+ But this is something generated.
+
+1377
+01:44:51,500 --> 01:44:56,500
+ Actually, the way it is generated is using a very small one that you remove the noise,
+
+1378
+01:44:56,500 --> 01:44:59,500
+ continue to enhance the quality using the text input.
+
+1379
+01:44:59,500 --> 01:45:04,500
+ Here is another application, out-painting.
+
+1380
+01:45:04,500 --> 01:45:11,500
+ By Dao Yi, you create a lot of content.
+
+1381
+01:45:11,500 --> 01:45:15,500
+ It's similar to the in-painting that we saw before.
+
+1382
+01:45:42,500 --> 01:45:46,500
+ See how easy they can create content.
+
+1383
+01:45:46,500 --> 01:45:49,500
+ This is one of the areas that people worry about in the future.
+
+1384
+01:45:49,500 --> 01:45:52,500
+ You might have too much content to consume, right?
+
+1385
+01:45:52,500 --> 01:45:54,500
+ Because all are generated by machines.
+
+1386
+01:45:54,500 --> 01:45:57,500
+ Here is another one, you can modify it.
+
+1387
+01:46:00,500 --> 01:46:04,500
+ This is one of the professors in computer science school.
+
+1388
+01:46:11,500 --> 01:46:16,500
+ The background also changes.
+
+1389
+01:46:41,500 --> 01:46:46,500
+ It's so easy to manipulate.
+
+1390
+01:46:46,500 --> 01:46:49,500
+ It's just the beginning, you can think about the future.
+
+1391
+01:46:49,500 --> 01:46:53,500
+ This is the Archie Sora by OpenAI.
+
+1392
+01:46:53,500 --> 01:46:56,500
+ Using the text, you can create this video clip.
+
+1393
+01:46:56,500 --> 01:46:59,500
+ Very consistent and high quality.
+
+1394
+01:46:59,500 --> 01:47:03,500
+ You can go and use it, because it limits you a few seconds.
+
+1395
+01:47:03,500 --> 01:47:08,500
+ They are all created by this prompt.
+
+1396
+01:47:09,500 --> 01:47:14,500
+ Only better than your camera can take.
+
+1397
+01:47:17,500 --> 01:47:21,500
+ I think one of the models in Alibaba also created a version of Chinese
+
+1398
+01:47:21,500 --> 01:47:24,500
+ working in some of the Chinese city.
+
+1399
+01:47:24,500 --> 01:47:27,500
+ Just similar description.
+
+1400
+01:47:32,500 --> 01:47:35,500
+ Very high quality and high detail.
+
+1401
+01:47:35,500 --> 01:47:38,500
+ All based on just one prompt, text.
+
+1402
+01:47:38,500 --> 01:47:40,500
+ You can create content.
+
+1403
+01:47:40,500 --> 01:47:45,500
+ In the future, hopefully you can turn a novel into a movie
+
+1404
+01:47:45,500 --> 01:47:49,500
+ without all the actors and actresses.
+
+1405
+01:47:49,500 --> 01:47:51,500
+ You can go to the website, there are many.
+
+1406
+01:47:51,500 --> 01:47:53,500
+ You can go to see, explore yourself.
+
+1407
+01:47:53,500 --> 01:48:00,500
+ There are many, all created by this text.
+
+1408
+01:48:00,500 --> 01:48:07,500
+ All generated by a prompt.
+
+1409
+01:48:11,500 --> 01:48:16,500
+ This is also created by prompts.
+
+1410
+01:48:16,500 --> 01:48:31,500
+ You can go and explore if you are interested in that.
+
+1411
+01:48:31,500 --> 01:48:34,500
+ I think that's all the summary.
+
+1412
+01:48:34,500 --> 01:48:37,500
+ See, all come back to this.
+
+1413
+01:48:37,500 --> 01:48:43,500
+ Once you unlock the need for humans to write a program,
+
+1414
+01:48:43,500 --> 01:48:47,500
+ you have to create an approach which you only need
+
+1415
+01:48:47,500 --> 01:48:51,500
+ the input and output data you want.
+
+1416
+01:48:51,500 --> 01:48:56,500
+ Then you cannot unlock a lot of possible solutions and applications.
+
+1417
+01:48:56,500 --> 01:49:01,500
+ Which you do not need to be the one writing the program or finding a solution.
+
+1418
+01:49:01,500 --> 01:49:05,500
+ You just need to think about how to formulate the problem
+
+1419
+01:49:05,500 --> 01:49:07,500
+ into a machine learning approach.
+
+1420
+01:49:07,500 --> 01:49:10,500
+ Then collect all the data.
+
+1421
+01:49:10,500 --> 01:49:13,500
+ The machine can learn by itself,
+
+1422
+01:49:13,500 --> 01:49:16,500
+ give you the algorithm, give you the model.
+
+1423
+01:49:16,500 --> 01:49:21,500
+ We are just at the very beginning of this era.
+
+1424
+01:49:21,500 --> 01:49:24,500
+ You can say it's the best of time.
+
+1425
+01:49:24,500 --> 01:49:28,500
+ You have so many possible applications.
+
+1426
+01:49:28,500 --> 01:49:30,500
+ You can go forward too.
+
+1427
+01:49:30,500 --> 01:49:32,500
+ It's also the worst of time.
+
+1428
+01:49:32,500 --> 01:49:36,500
+ You have so many things that you need to learn to update yourself
+
+1429
+01:49:36,500 --> 01:49:38,500
+ if you work in this field.
+
+1430
+01:49:38,500 --> 01:49:43,500
+ One week or one month, you will not be paying attention to the new development.
+
+1431
+01:49:43,500 --> 01:49:45,500
+ You are outdated.
+
+1432
+01:49:45,500 --> 01:49:49,500
+ My students, when they submit a paper, miss the deadline,
+
+1433
+01:49:49,500 --> 01:49:54,500
+ then they will just have to so-called forego the paper.
+
+1434
+01:49:54,500 --> 01:49:56,500
+ Because next year you will be outdated already.
+
+1435
+01:49:56,500 --> 01:49:59,500
+ Some of the top conferences you need to compete with time.
+
+1436
+01:49:59,500 --> 01:50:02,500
+ So every time they have to rush to submit a paper early
+
+1437
+01:50:02,500 --> 01:50:05,500
+ because if they do, someone else will.
+
+1438
+01:50:05,500 --> 01:50:09,500
+ There are so many people working in this field.
+
+1439
+01:50:09,500 --> 01:50:11,500
+ Some money, yeah.
+
+1440
+01:50:11,500 --> 01:50:12,500
+ Empower computer.
+
+1441
+01:50:12,500 --> 01:50:19,500
+ Now with this approach, there are many, many solutions you can come up with.
+
+1442
+01:50:19,500 --> 01:50:25,500
+ Even my son, my daughter in primary school, they learn machine learning.
+
+1443
+01:50:25,500 --> 01:50:26,500
+ They use that to...
+
+1444
+01:50:26,500 --> 01:50:30,500
+ My daughter even teaches her classmates machine learning.
+
+1445
+01:50:30,500 --> 01:50:32,500
+ Without my help, she doesn't need my help.
+
+1446
+01:50:32,500 --> 01:50:38,500
+ She is younger and she can teach and write programs to do that.
+
+1447
+01:50:38,500 --> 01:50:42,500
+ Of course you already need to still understand the fundamentals.
+
+1448
+01:50:42,500 --> 01:50:48,500
+ Different kinds of learning, supervised learning, unspoiled learning, reinforcement learning.
+
+1449
+01:50:48,500 --> 01:50:49,500
+ And then...
+
+1450
+01:50:49,500 --> 01:50:52,500
+ And generative AI of course is the upcoming.
+
+1451
+01:50:52,500 --> 01:50:56,500
+ There will be a lot of content created by machine,
+
+1452
+01:50:56,500 --> 01:50:57,500
+ and fake content as well.
+
+1453
+01:50:57,500 --> 01:50:59,500
+ So how do you detect those content?
+
+1454
+01:50:59,500 --> 01:51:04,500
+ What is the issue about ethical security, privacy concerns?
+
+1455
+01:51:04,500 --> 01:51:10,500
+ And because they are so easily made by computers,
+
+1456
+01:51:10,500 --> 01:51:14,500
+ and anyone can target you.
+
+1457
+01:51:14,500 --> 01:51:21,500
+ In fact, while the celebrity singer just puts a pose that someone has used a voice
+
+1458
+01:51:21,500 --> 01:51:24,500
+ to create a speech to support,
+
+1459
+01:51:24,500 --> 01:51:27,500
+ while the president came here in the US,
+
+1460
+01:51:27,500 --> 01:51:32,500
+ she clarifies not from her, it's a fake kind of voice recommendation.
+
+1461
+01:51:32,500 --> 01:51:35,500
+ For in the election time,
+
+1462
+01:51:35,500 --> 01:51:40,500
+ so there will be all these fake news and fake so-called image review.
+
+1463
+01:51:40,500 --> 01:51:42,500
+ You need to be aware of that.
+
+1464
+01:51:42,500 --> 01:51:45,500
+ So good to get yourself aware of this.
+
+1465
+01:51:45,500 --> 01:51:47,500
+ Okay, that's all for today.
+
+1466
+01:51:47,500 --> 01:51:51,500
+ Next week I will be here, and our professor will come here.
+
+1467
+01:51:51,500 --> 01:51:54,500
+ Then I will resume my lecture in week 7.
+
+1468
+01:51:54,500 --> 01:51:56,500
+ I will upload the slides.
+
+1469
+01:51:56,500 --> 01:52:00,500
+ I'm still making changes, update some content.
+
+1470
+01:52:00,500 --> 01:52:02,500
+ I will upload the slides when they are available.
+
+1471
+01:52:02,500 --> 01:52:04,500
+ I will see you in a week after next week.
+
+1472
+01:52:04,500 --> 01:52:06,500
+ Thank you.
+
+1473
+01:52:21,500 --> 01:52:46,500
+ Yes.
+
+1474
+01:52:46,500 --> 01:52:58,500
+ Yes.
+
+1475
+01:52:58,500 --> 01:53:04,500
+ What is the dissertation project for this good project?
+
+1476
+01:53:04,500 --> 01:53:07,500
+ So what project is interesting?
+
+1477
+01:53:07,500 --> 01:53:12,500
+ I'm hearing something under the sun.
+
+1478
+01:53:12,500 --> 01:53:15,500
+ Yes, many generally.
+
+1479
+01:53:15,500 --> 01:53:17,500
+ But what have you done before?
+
+1480
+01:53:17,500 --> 01:53:26,500
+ I was doing an interview for the recommendation.
+
+1481
+01:53:26,500 --> 01:53:29,500
+ You seem to be in YOLO.
+
+1482
+01:53:29,500 --> 01:53:30,500
+ YOLO?
+
+1483
+01:53:30,500 --> 01:53:31,500
+ Yes.
+
+1484
+01:53:31,500 --> 01:53:35,500
+ You think about an interesting problem and let's slide your email
+
+1485
+01:53:35,500 --> 01:53:39,500
+ and see if I can put a problem forward.
+
+1486
+01:53:39,500 --> 01:53:42,500
+ Car break condition is the whole problem.
+
+1487
+01:53:42,500 --> 01:53:44,500
+ Okay, so I may need some time to prepare.
+
+1488
+01:53:44,500 --> 01:53:46,500
+ Yes, think about what kind of problem you are in.
+
+1489
+01:53:46,500 --> 01:53:48,500
+ Look for some interesting problem.
+
+1490
+01:53:48,500 --> 01:53:52,500
+ Okay, so tell me your cast.
+
+1491
+01:53:52,500 --> 01:53:53,500
+ Okay, good.
+
+1492
+01:53:53,500 --> 01:53:55,500
+ I better clear this.
+
+1493
+01:53:55,500 --> 01:53:58,500
+ Do you know how to lock out this?
+
+1494
+01:53:58,500 --> 01:54:00,500
+ I cannot find it.
+
+1495
+01:54:00,500 --> 01:54:02,500
+ It's here.
+
+1496
+01:54:02,500 --> 01:54:04,500
+ No, it's here.
+
+1497
+01:54:04,500 --> 01:54:07,500
+ Oh, I did?
+
+1498
+01:54:07,500 --> 01:54:09,500
+ Thank you.
+
+1499
+01:54:09,500 --> 01:54:11,500
+ Yes, Chen Long, right?
+
+1500
+01:54:11,500 --> 01:54:12,500
+ Yes, yes.
+
+1501
+01:54:12,500 --> 01:54:14,500
+ Digital human.
+
+1502
+01:54:14,500 --> 01:54:15,500
+ Yes.
+
+1503
+01:54:15,500 --> 01:54:17,500
+ You go and study those things first.
+
+1504
+01:54:17,500 --> 01:54:20,500
+ My research will join end of the month.
+
+1505
+01:54:20,500 --> 01:54:22,500
+ I'll ask you to meet her.
+
+1506
+01:54:22,500 --> 01:54:23,500
+ But before that, you get yourself prepared.
+
+1507
+01:54:23,500 --> 01:54:24,500
+ Okay.
+
+1508
+01:54:24,500 --> 01:54:26,500
+ Thank you.
+
+1509
+01:54:26,500 --> 01:54:31,500
+ What lecture is it?
+
+1510
+01:54:31,500 --> 01:54:32,500
+ Physics.
+
+1511
+01:54:32,500 --> 01:54:33,500
+ Physics.
+
+1512
+01:54:33,500 --> 01:54:35,500
+ Physics on a grid.
+
+1513
+01:54:35,500 --> 01:54:37,500
+ Okay.
+
+1514
+01:55:03,500 --> 01:55:05,500
+ Okay.
+
+1515
+01:55:33,500 --> 01:55:35,500
+ Okay.
+
+1516
+01:56:03,500 --> 01:56:05,500
+ Okay.
+
+1517
+01:56:33,500 --> 01:56:35,500
+ Okay.
+
+1518
+01:57:03,500 --> 01:57:05,500
+ Okay.
+
+1519
+01:57:33,500 --> 01:57:35,500
+ Okay.
+
+1520
+01:58:03,500 --> 01:58:05,500
+ Okay.
+
+1521
+01:58:33,500 --> 01:58:35,500
+ Okay.
+
+1522
+01:59:03,500 --> 01:59:21,500
+ Okay.
+
+1523
+01:59:21,500 --> 01:59:26,500
+ How was the quiz yesterday?
+
+1524
+01:59:26,500 --> 01:59:32,500
+ You should be able to see your result, right?
+
+1525
+01:59:32,500 --> 01:59:34,500
+ Hello.
+
+1526
+01:59:34,500 --> 01:59:38,500
+ Do you meet your expectation?
+
+1527
+01:59:38,500 --> 01:59:48,500
+ Okay.
+

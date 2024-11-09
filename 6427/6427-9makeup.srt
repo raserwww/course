@@ -1,0 +1,4820 @@
+1
+00:00:00,000 --> 00:00:24,000
+ Good morning. Can you hear me?
+
+2
+00:00:30,000 --> 00:00:41,280
+ Okay, great. Right. So, yeah, just want to make sure that everything is in order before
+
+3
+00:00:41,280 --> 00:00:47,240
+ we start the class today. So let me just quickly check through the setting because there has
+
+4
+00:00:47,240 --> 00:00:54,480
+ been some time since we conduct a class in using Zoom. So let me just check the settings.
+
+5
+00:00:54,480 --> 00:01:18,640
+ Everything is proper. Okay, so yeah, just for your information. So, yeah, first, can
+
+6
+00:01:18,640 --> 00:01:29,280
+ you see the share screen? Okay, good. Right. So these lectures will be recorded. So at the
+
+7
+00:01:29,280 --> 00:01:35,840
+ end of the lectures, I will try to post this recorded lecture online. Yeah, just for your
+
+8
+00:01:35,840 --> 00:01:42,680
+ information. So before that, yeah, since we are going to conduct the quiz, yeah, in RIP
+
+9
+00:01:42,680 --> 00:01:46,880
+ 10, so I thought it's important that we go through this announcement again, right, in
+
+10
+00:01:46,880 --> 00:01:53,600
+ the event some student missed it. Right. So the first thing is that, okay, so this quiz
+
+11
+00:01:53,600 --> 00:02:01,240
+ will be conducted on week 10, right, which is the 24th of October at 8pm. Right. So, yeah,
+
+12
+00:02:01,240 --> 00:02:05,520
+ so in the on the day, right, we will conduct the lecture for about one hour and then you
+
+13
+00:02:05,520 --> 00:02:11,000
+ have a break and then followed by the quiz. So the venue is in this little chain LT. Right.
+
+14
+00:02:11,000 --> 00:02:16,040
+ So the top cover is part three and four. Okay, so on the day, make sure that you bring along
+
+15
+00:02:16,079 --> 00:02:21,000
+ your student card because we are going to take the attendance. And if for whatever reason,
+
+16
+00:02:21,000 --> 00:02:26,760
+ you are absent, yeah, please try to know a semi-email, right. And then let me know why
+
+17
+00:02:26,760 --> 00:02:31,079
+ you are absent. And then if the reason is valid, then we'll arrange a make up for you.
+
+18
+00:02:32,359 --> 00:02:37,320
+ Right. Okay, so this is the class list. Right. As I mentioned a couple of times, but just
+
+19
+00:02:38,120 --> 00:02:43,959
+ remind you one more time is that please check your name against the serial number. Okay, because
+
+20
+00:02:43,960 --> 00:02:49,000
+ when on the answer sheet itself, you need to write down your serial number. Right. So this is
+
+21
+00:02:49,000 --> 00:02:53,080
+ to make it much easier for me to take that attendance as well as to tell you the answer
+
+22
+00:02:53,880 --> 00:03:02,600
+ straight at the end. Right. So this is a sample cover page of the question booklet. Right. So
+
+23
+00:03:02,600 --> 00:03:06,920
+ you have this serial number that you need to indicate here and then write down your full name
+
+24
+00:03:06,920 --> 00:03:12,520
+ as well as the matriculation number. And then there will also be, you know, at the bottom,
+
+25
+00:03:12,520 --> 00:03:18,680
+ there will be some spaces reserved for you to write your answer. Okay. So the quiz will consist of a
+
+26
+00:03:18,680 --> 00:03:23,000
+ few questions. Right. So there will be some calculation question. There will be some question
+
+27
+00:03:23,000 --> 00:03:29,160
+ where you have to answer some, you know, descriptive parts and so on. So it's a combination of some
+
+28
+00:03:29,160 --> 00:03:37,320
+ calculation as well as the descriptive questions. Right. Okay. So because this year your class is
+
+29
+00:03:37,320 --> 00:03:42,200
+ quite big, so we are going to conduct the quiz in this, the Ligong chain LT. So I've decided to
+
+30
+00:03:43,240 --> 00:03:49,800
+ arrange a sitting in such a way based on your serial number. Right. So for a student with a
+
+31
+00:03:49,800 --> 00:03:57,400
+ serial number from one to 100, you'll be seated in this section. 101 to 200 will be in this section.
+
+32
+00:03:57,960 --> 00:04:09,400
+ Okay. 201 to 300 will be here. Okay. 301 to 410 will be here and 411 to 517 will be here. So on the
+
+33
+00:04:09,400 --> 00:04:14,520
+ day they try to sit, you know, based on this, you know, this sitting arrangement so that it will
+
+34
+00:04:14,520 --> 00:04:20,440
+ make our, this answer script collection as well as attendance marking much more efficient.
+
+35
+00:04:21,800 --> 00:04:28,280
+ Right. Okay. So that's all this information is already given in under the content folder,
+
+36
+00:04:28,280 --> 00:04:36,040
+ right, under this C2 quiz folder in the course site. So if you cannot remember all those information,
+
+37
+00:04:36,040 --> 00:04:39,400
+ just need to go to the course site and all those information are there.
+
+38
+00:04:40,280 --> 00:04:44,040
+ Right. Okay. Are there any questions so far regarding the quiz arrangement?
+
+39
+00:04:50,440 --> 00:04:53,880
+ Okay. So if there's no questions, then we'll continue.
+
+40
+00:04:58,120 --> 00:05:00,280
+ Right. So let me just close this.
+
+41
+00:05:06,600 --> 00:05:22,360
+ Okay. So again, before I continue, just want to make sure that can all of you see the,
+
+42
+00:05:23,320 --> 00:05:30,680
+ no, this share screen, the lecture notes share screen.
+
+43
+00:05:40,280 --> 00:05:41,480
+ Okay. Right.
+
+44
+00:05:44,760 --> 00:05:50,760
+ So, okay. So someone in the chat box mentioned what are our questions in the piece. So as I
+
+45
+00:05:50,760 --> 00:05:55,560
+ mentioned, right, there'll be a few questions. So it'll be a combinations of some calculation
+
+46
+00:05:55,560 --> 00:06:01,640
+ question as well as some question that will be you have to know write down some short answer.
+
+47
+00:06:01,640 --> 00:06:05,080
+ So a combination of calculation and descriptive questions. Yeah.
+
+48
+00:06:07,400 --> 00:06:11,719
+ So the sample is kind of a little bit similar to some of the sample examples that we have
+
+49
+00:06:12,280 --> 00:06:13,800
+ kind of a share in the lectures.
+
+50
+00:06:14,280 --> 00:06:27,560
+ Okay. So please try not to change the caption language to others. So we'll use the English
+
+51
+00:06:27,560 --> 00:06:31,720
+ caption. All right. Because this is a English lesson. So we have to use the English
+
+52
+00:06:32,520 --> 00:06:36,360
+ caption because I see that some, some of you actually change it to other languages.
+
+53
+00:06:37,320 --> 00:06:44,120
+ Okay. So, right. Okay. Let me just check one more time because I remember,
+
+54
+00:06:45,560 --> 00:06:51,080
+ no, in some of the early years, there was a lecture, the lecture keep talking until the end
+
+55
+00:06:51,080 --> 00:06:55,640
+ they find that the student cannot hear, right, or the student cannot see the share screen.
+
+56
+00:06:56,600 --> 00:07:01,560
+ Okay. So just check one more time. So can all of you see the share screen on the lecture notes?
+
+57
+00:07:01,560 --> 00:07:07,880
+ Okay. Please let me know in the chat box because that's been quite some time since I use it.
+
+58
+00:07:16,760 --> 00:07:21,640
+ Can you see the share screen on the lecture notes? Okay. Yeah. Thank you.
+
+59
+00:07:24,440 --> 00:07:28,040
+ Right. Okay. Then let's start the lecture today. If you managed to finish earlier,
+
+60
+00:07:28,040 --> 00:07:31,640
+ no, that would be good for everyone. We will have a glorious Saturday afternoon.
+
+61
+00:07:32,280 --> 00:07:36,680
+ Okay. So in last lectures, actually, we introduced the concepts of this
+
+62
+00:07:37,480 --> 00:07:42,440
+ and so we are going to continue on to talk about the training and optimizations of the INM.
+
+63
+00:07:46,600 --> 00:07:49,400
+ Right. Okay. So the basic ideas of the trainings of this
+
+64
+00:07:50,200 --> 00:07:55,240
+ INM is very similar to that of CNN. So just a quick recap of what we discussed before
+
+65
+00:07:55,560 --> 00:08:02,520
+ about CNN. So when you train a new network, the objective is actually try to minimize or
+
+66
+00:08:02,520 --> 00:08:08,600
+ optimize a loss function. So the other day, actually, I give you this visualization. I say
+
+67
+00:08:08,600 --> 00:08:13,560
+ it's that suppose let's assume for one moment that this network only has two parameters, right,
+
+68
+00:08:13,560 --> 00:08:20,520
+ for simplicity. So suppose this is the X1 and X2 parameter. So you have those X1 and X2 parameter.
+
+69
+00:08:20,520 --> 00:08:24,680
+ So at each of the parameters, then you have a loss. Yeah. You have a particular
+
+70
+00:08:25,799 --> 00:08:30,919
+ loss function. Okay. So therefore, for different parameter value, right, this loss can be
+
+71
+00:08:30,919 --> 00:08:35,880
+ visualized as a landscape mountain of valley. So when we start training the network, we do not
+
+72
+00:08:35,880 --> 00:08:41,400
+ know where it is. So let's say that, no, we start off at a position there and then this is corresponding
+
+73
+00:08:41,400 --> 00:08:46,840
+ loss. Yeah. So our goal here is to reach the minimum. So what we do, the strategy is very
+
+74
+00:08:46,840 --> 00:08:51,880
+ intuitive and simple, which is we look around, okay, and then we try to find the direction of
+
+75
+00:08:51,880 --> 00:08:56,120
+ the steepest distance. Right. So suppose this is the direction of the steepest distance,
+
+76
+00:08:56,120 --> 00:09:02,040
+ then we'll try to walk, okay, a certain distance, right, based on which is controlled by the
+
+77
+00:09:02,040 --> 00:09:07,080
+ learning rate to the next position. And then once you reach this position, you look around,
+
+78
+00:09:07,080 --> 00:09:12,200
+ okay, suppose this is the direction of the steepest distance, then you just walk in this
+
+79
+00:09:12,200 --> 00:09:18,120
+ direction. So you continue repeatedly until you reach the local minimum. So this is the idea
+
+80
+00:09:18,120 --> 00:09:24,440
+ that we introduced on stochastic gradient descent. So this approach is known as a stochastic gradient
+
+81
+00:09:24,440 --> 00:09:31,240
+ descent. All right. So in order to train it, we need to build a computational graph, right, and then
+
+82
+00:09:31,240 --> 00:09:35,400
+ we'll try to generate the gradient and then we'll just go through the strategy that I've mentioned
+
+83
+00:09:35,400 --> 00:09:42,520
+ to you to update the parameter. Okay. So for, and it's based on the similar strategy.
+
+84
+00:09:47,000 --> 00:09:52,760
+ Right. Okay. So let's try to see how we can build a simple computational graph for this
+
+85
+00:09:52,760 --> 00:09:59,000
+ and now. So, right. So first of all, we start off with our initial memory or hidden state,
+
+86
+00:09:59,000 --> 00:10:03,880
+ right. Okay. And then we have our current input. So based on the particular mapping,
+
+87
+00:10:03,880 --> 00:10:11,080
+ those two equations that we have mentioned before to generate the next memory, then we can actually
+
+88
+00:10:11,080 --> 00:10:18,360
+ generate the next memory at the time step h1. Okay. So this formula to recap is given by this
+
+89
+00:10:18,360 --> 00:10:24,920
+ equation here. So by applying this equation, you can find out your current memory from your previous
+
+90
+00:10:25,000 --> 00:10:33,640
+ memory as well as the current input. Right. So therefore, based on your previous,
+
+91
+00:10:34,439 --> 00:10:40,360
+ to calculate your current memory at each one, you make use of your previous memory h0 as well as
+
+92
+00:10:40,360 --> 00:10:45,800
+ your current input, you go through just now the particular mathematical operation, you'll get your
+
+93
+00:10:45,800 --> 00:10:52,360
+ h1. Okay. And then if you want to get h2, then you repeat the same process. Right. So you take
+
+94
+00:10:52,360 --> 00:10:57,720
+ your previous memory h1, you take your current input h2, you go through just now the mathematical
+
+95
+00:10:57,720 --> 00:11:02,680
+ operation, which is the linear, you know, just on that, yeah, the equation I shared with you,
+
+96
+00:11:02,680 --> 00:11:08,440
+ you'll get your h2. So of course, you can repeat that, you know, for a number of steps, then you'll
+
+97
+00:11:08,440 --> 00:11:15,160
+ be able to generate your h3 and so on and so forth until you're in ht. Right. So this is how you
+
+98
+00:11:15,160 --> 00:11:21,000
+ actually generate the hidden state or memory at different time steps. So one thing to take note
+
+99
+00:11:21,000 --> 00:11:26,440
+ of is that in the process of doing this particular generating different memory at different time
+
+100
+00:11:26,440 --> 00:11:31,640
+ steps, the equations or the formula that you're using here, you're using the same
+
+101
+00:11:32,280 --> 00:11:37,800
+ weight matrix. Okay. The weight matrix that you have from the hidden state to the hidden state,
+
+102
+00:11:37,800 --> 00:11:43,240
+ as well as from the input to the hidden state. Right. Which is, you know, jointly described by
+
+103
+00:11:43,240 --> 00:11:49,960
+ this big W matrix here. Right. We use the same matrix at different time steps. Okay. So that's
+
+104
+00:11:49,960 --> 00:11:54,440
+ one thing that you want, probably want to take note of. So you can see the comment here is that
+
+105
+00:11:54,440 --> 00:12:03,480
+ we'll reuse the same weight matrix at every time step. Okay. So now let's continue. Okay. So now
+
+106
+00:12:03,480 --> 00:12:09,320
+ that once we have got the memory at different time steps, then what we can do is that we can use it
+
+107
+00:12:09,320 --> 00:12:15,720
+ to generate different output at time step y1, y2, y3, and so on and so forth. Okay. So this is your
+
+108
+00:12:15,720 --> 00:12:22,600
+ generated output here. So now if you compare your generated or predicted output with the ground truth,
+
+109
+00:12:22,600 --> 00:12:27,880
+ okay. So at each time step, you have the ground truth. So if you compare your predicted value
+
+110
+00:12:27,880 --> 00:12:33,880
+ with the ground truth, then at each time step, you have an error function or loss function. So this
+
+111
+00:12:33,880 --> 00:12:38,520
+ error function we call it, for example, at time step one, we call it L1. At time step two, we call
+
+112
+00:12:38,520 --> 00:12:45,240
+ L2 and so on and so forth. So now at different time step, at each time step, we have a particular loss.
+
+113
+00:12:45,240 --> 00:12:50,760
+ So for this loss, if you add them up together, then this is the total loss. So this total loss now
+
+114
+00:12:51,320 --> 00:12:57,400
+ is the summations of individual loss. Right. And then our goal, right, we are trying to train this
+
+115
+00:12:57,400 --> 00:13:03,640
+ network is that we want to optimize or we want to minimize this particular loss function, right.
+
+116
+00:13:03,640 --> 00:13:10,680
+ We respect to this particular weight parameters. Okay. So we want to minimize this loss by adjusting
+
+117
+00:13:10,760 --> 00:13:18,199
+ the parameter W here. And this particular parameter W, as I have indicated a few times,
+
+118
+00:13:19,079 --> 00:13:29,479
+ are the parameters that you have here. Okay, WHH, WXH as well as the WYH. So those are the
+
+119
+00:13:29,480 --> 00:13:32,680
+ parameters that you need to train. Right.
+
+120
+00:13:43,080 --> 00:13:47,320
+ Right. Okay. So now when you do the training, there's actually a few different strategies. So when we
+
+121
+00:13:47,320 --> 00:13:51,960
+ are doing the training, actually, you have many, many different sequences. You have many sequence,
+
+122
+00:13:52,680 --> 00:13:57,080
+ input sequence and the ground truth, input sequence and ground truth. So you have many,
+
+123
+00:13:57,080 --> 00:14:02,520
+ many different input sequence together with the ground truth here. So when you do the training,
+
+124
+00:14:02,520 --> 00:14:07,960
+ there's a few different strategies you can do the training. So one way is that we can use a strategy
+
+125
+00:14:07,960 --> 00:14:13,560
+ known as a full batch training. That means we take all the sequences and then train together in one
+
+126
+00:14:13,560 --> 00:14:19,000
+ goal. So if you make use of the entire sets of the training sequence at each iteration,
+
+127
+00:14:19,800 --> 00:14:25,560
+ then this is known as a full batch strategy. Okay. So now if you try to visualize this particular
+
+128
+00:14:25,560 --> 00:14:31,400
+ diagram here, for this particular diagram here, all these lines here indicate the loss function
+
+129
+00:14:31,400 --> 00:14:36,520
+ with the same value. Right. Okay. Again, we are assuming that in this simple illustration,
+
+130
+00:14:36,520 --> 00:14:42,760
+ there are two parameters on the X1 and X2. So at this graph here, actually are connecting all those
+
+131
+00:14:42,760 --> 00:14:50,839
+ points of X1 and X2 that has the same loss value or same error value here. Okay. So for example,
+
+132
+00:14:50,920 --> 00:14:57,320
+ the next contour will be connecting all the points that have the same error function or
+
+133
+00:14:57,320 --> 00:15:04,360
+ loss value here. Okay. So now we assume that this point is actually the local meaning.
+
+134
+00:15:05,240 --> 00:15:10,360
+ So suppose if we are starting from a random point somewhere here, if you use a strategy of a full
+
+135
+00:15:10,360 --> 00:15:15,720
+ batch, that means we take all the sequence and train it at each iteration, then we'll see that
+
+136
+00:15:15,720 --> 00:15:22,120
+ actually the loss function will start to decrease quite smoothly until you reach somewhere close to
+
+137
+00:15:22,120 --> 00:15:29,320
+ the minimum. So that's known as a full batch strategy. So as opposed to full batch strategy,
+
+138
+00:15:29,320 --> 00:15:34,520
+ for each training, you can also choose to use one sequence at a time to do the training.
+
+139
+00:15:34,520 --> 00:15:40,200
+ So if you only choose to use one sequence to do the training one at a time, then this is known as
+
+140
+00:15:40,200 --> 00:15:48,360
+ a stochastic approach. So for stochastic approach, suppose we are starting, this is our starting point.
+
+141
+00:15:49,800 --> 00:15:54,760
+ So you can see in the process of reaching this global meaning is actually very erratic.
+
+142
+00:15:54,760 --> 00:16:00,120
+ Okay. It'll go through many different erratic until you reach this minimum.
+
+143
+00:16:01,000 --> 00:16:04,920
+ Right. Okay. And then as a trade off between the full batch and the stochastic batch,
+
+144
+00:16:04,920 --> 00:16:08,840
+ you have what's known as a mini batch. So mini batch as the name suggests,
+
+145
+00:16:08,840 --> 00:16:15,560
+ that means you take a few sequence at the same time. So you take a few sequence to do
+
+146
+00:16:15,560 --> 00:16:21,320
+ training at each iteration. So now for this mini batch strategy, we can kind of visualize,
+
+147
+00:16:21,320 --> 00:16:26,280
+ suppose this is our starting point, right? We're trying to move towards the minima.
+
+148
+00:16:26,760 --> 00:16:35,080
+ Right. So it's not as erratic as this single sequence, but it's not as smooth as this full
+
+149
+00:16:35,080 --> 00:16:41,480
+ batch as well. So it's a compromise in between. Right. So usually we want to use as many sequence
+
+150
+00:16:41,480 --> 00:16:48,520
+ to train in one go as possible. But what the limitation is depends on the memory storage
+
+151
+00:16:48,520 --> 00:16:55,640
+ of your GPU. Your GPU may not be able to take such a big batch. So therefore, even though we want to
+
+152
+00:16:55,640 --> 00:17:02,120
+ use as many sequence, our batch size, you want to be using as large as possible, but often is
+
+153
+00:17:02,120 --> 00:17:12,040
+ limited by the memory of your GPU devices. Okay. So next, let's continue with the training strategy.
+
+154
+00:17:12,040 --> 00:17:16,359
+ Right. So let's look at this particular diagram here. So for these diagrams here, we can see that
+
+155
+00:17:16,359 --> 00:17:25,560
+ actually this red boxes here is your input. The green boxes here is your unend of the memory.
+
+156
+00:17:25,560 --> 00:17:31,400
+ Okay. And then this blue box here is the output. Right. So during the training strategy, so what
+
+157
+00:17:31,400 --> 00:17:39,560
+ we can see is that as our input, okay, start to go into our network and okay, we'll start to generate
+
+158
+00:17:39,560 --> 00:17:45,720
+ the output at different time steps. Okay. So you generate the output. So suppose just now early on
+
+159
+00:17:45,720 --> 00:17:51,320
+ from the diagram, you can see at every time step, at every time step, you're going to generate a loss.
+
+160
+00:17:51,880 --> 00:17:57,960
+ So therefore, the total loss will be the submissions of all these losses. Okay. So therefore, when you
+
+161
+00:17:57,960 --> 00:18:03,240
+ do the training, when you want to do the training, first of all, you must provide all the input, okay,
+
+162
+00:18:03,240 --> 00:18:10,440
+ which is indicated by this particular great, great error here. Okay. You generate all the output.
+
+163
+00:18:11,080 --> 00:18:16,440
+ Right. So and then this output will calculate the loss. After this loss would then be back
+
+164
+00:18:16,440 --> 00:18:23,000
+ propagated. Okay. In this reverse directions here as indicated by this grid line here. So this
+
+165
+00:18:23,080 --> 00:18:30,120
+ loss function will then be back propagated to update all those with power. Okay. So that's the
+
+166
+00:18:30,120 --> 00:18:36,040
+ basic idea. So therefore, it takes this name called back propagation through time. So the training
+
+167
+00:18:36,040 --> 00:18:41,160
+ idea is back propagation through time, because you can see that it's back propagation, but it's
+
+168
+00:18:41,160 --> 00:18:47,080
+ two different time steps here. Okay. So that's why this is called back propagation through time
+
+169
+00:18:47,080 --> 00:18:54,520
+ learning strategy. So, but if you look at this particular back propagation through time strategy,
+
+170
+00:18:54,520 --> 00:19:00,679
+ you'll see that there's actually, if you think about it, there's actually a limitation or disadvantage
+
+171
+00:19:00,679 --> 00:19:07,240
+ of this particular strategy. Can anyone think about it? What's the problem with or issue with
+
+172
+00:19:07,240 --> 00:19:33,800
+ this particular strategy? Anyone, if you have some thought or some comment, you can enter in the chat
+
+173
+00:19:33,800 --> 00:19:55,480
+ box. Okay. So yeah, vanishing gradient is true is one issue if the sequence is very long. Yeah.
+
+174
+00:19:55,480 --> 00:20:01,159
+ Okay. But in the, in this particular steps here, one thing that I want to highlight is that,
+
+175
+00:20:01,880 --> 00:20:07,320
+ okay, if again, if your sequence is long, if before you can generate this output, you can see
+
+176
+00:20:07,320 --> 00:20:13,960
+ that it would take a long time for you to actually generate the output. Okay. Okay. To find about the
+
+177
+00:20:13,960 --> 00:20:20,040
+ loss before you manage to do the back propagation. In short, right, this, if you just simply use this
+
+178
+00:20:20,040 --> 00:20:24,360
+ strategy or back propagation through time, that means you have to wait for a long time to generate
+
+179
+00:20:24,360 --> 00:20:30,280
+ all the output before you can do the back propagation. So this potentially could be very slow.
+
+180
+00:20:30,280 --> 00:20:35,720
+ So therefore, one way to mitigate this issue that you need to wait for a long time before you can
+
+181
+00:20:35,720 --> 00:20:42,200
+ generate your final output is that we are going to use a strategy known as, let me see the children
+
+182
+00:20:42,200 --> 00:20:51,240
+ next slide, known as a truncated back propagation through time. Okay. So the idea of a truncated
+
+183
+00:20:51,240 --> 00:20:58,200
+ back propagation through time is actually quite intuitive. So as the name suggests truncate,
+
+184
+00:20:58,200 --> 00:21:03,080
+ means that you just chop it up into different blocks or pieces. So what we do is that when we
+
+185
+00:21:03,080 --> 00:21:07,160
+ use this truncated back propagation through time strategy, we are going to take this sequence,
+
+186
+00:21:07,160 --> 00:21:11,480
+ we are going to chop it into pieces. For example, we are going to chop it into the first chunk
+
+187
+00:21:11,480 --> 00:21:17,160
+ of the data. So we'll go through these pieces of the training data to generate the output and then
+
+188
+00:21:17,160 --> 00:21:21,560
+ calculate the loss. And then afterwards, this particular loss will do the back propagation
+
+189
+00:21:21,560 --> 00:21:27,720
+ through this chunk of the data. Okay. Right. So and then afterwards, we are going to continue on,
+
+190
+00:21:27,720 --> 00:21:32,520
+ we are going to take the memory that is the hidden state that we calculated, we're going to
+
+191
+00:21:33,080 --> 00:21:38,680
+ know kind of continue on to bring it forward. And then next, we're going to take the next
+
+192
+00:21:38,680 --> 00:21:45,720
+ chunk of the data, okay, do it the forward direction to generate the output compared to the
+
+193
+00:21:45,720 --> 00:21:51,160
+ ground truth to calculate the loss. And then this loss would then be back propagated again to update
+
+194
+00:21:51,160 --> 00:21:56,520
+ the parameter. Okay. So therefore, this idea actually is quite intuitive. Pretty much just
+
+195
+00:21:56,520 --> 00:22:01,160
+ what it means is that you have a long sequence of training data. So we are going to chop it
+
+196
+00:22:01,160 --> 00:22:06,200
+ into different chunks. So at each chunk, we are going to do the training. Okay. At each
+
+197
+00:22:06,200 --> 00:22:12,200
+ chunk, we're going to do the training so that this particular update can be more efficient.
+
+198
+00:22:12,200 --> 00:22:17,160
+ So this strategy is known as the truncated back propagation through time.
+
+199
+00:22:20,120 --> 00:22:24,840
+ Right. Okay. So the next each topic issue that we are going to talk about is this
+
+200
+00:22:24,919 --> 00:22:29,399
+ exploding and vanishing gradient problem that some of you have highlighted here.
+
+201
+00:22:35,800 --> 00:22:38,919
+ Okay. So next, let's look at this particular INN
+
+202
+00:22:40,199 --> 00:22:44,679
+ you know, kind of a model. See, actually this particular diagram here, it looks a little bit
+
+203
+00:22:44,679 --> 00:22:49,720
+ complicated, but actually it's nothing but just that INN cell that we have mentioned before.
+
+204
+00:22:49,800 --> 00:22:56,120
+ Right. So each of these is a know an INN cell at different time steps here. So if you just take
+
+205
+00:22:56,120 --> 00:23:01,800
+ one and quickly explain. So what you have, for example, if you want to get our hidden state at
+
+206
+00:23:01,800 --> 00:23:09,640
+ H1, we take our previous memory, okay, at H0, current input at X1, you stack them together into a
+
+207
+00:23:09,640 --> 00:23:16,440
+ long factor, you multiply with this matrix W. So this matrix W is actually consisting of the
+
+208
+00:23:16,440 --> 00:23:25,240
+ WHH and the WXH. Right. Okay. And then afterwards, after this multiplication, we let it go through
+
+209
+00:23:25,240 --> 00:23:31,560
+ the 10H function, then you will be able to generate your memory, right, your H1. And then this particular
+
+210
+00:23:31,560 --> 00:23:38,840
+ memory can then go through the particular matrix W, HY to generate your output at time step one.
+
+211
+00:23:38,840 --> 00:23:43,320
+ Okay. So therefore this particular cell, the operation is what we have studied already. Yeah,
+
+212
+00:23:43,320 --> 00:23:47,560
+ it just looks a little bit complicated, but it's exactly the same. Right. So you have different
+
+213
+00:23:48,439 --> 00:23:55,720
+ INN cells at different times that X1, X2, X3 and so forth. Right. Okay. So for this particular
+
+214
+00:23:55,720 --> 00:24:01,879
+ site here, the topic that we are trying to highlight is this the vanish exploding or vanishing gradient
+
+215
+00:24:02,439 --> 00:24:08,760
+ issue. Right. Okay. So first of all, right, let's look at what is the loss. So the loss,
+
+216
+00:24:09,160 --> 00:24:14,840
+ right, for when we want to do the training of the INN, the loss as we have seen before is actually
+
+217
+00:24:14,840 --> 00:24:21,480
+ the summations of all the different time steps. Okay. And for each time steps that individual loss,
+
+218
+00:24:21,480 --> 00:24:27,800
+ right. Okay. So the loss is actually consisting of individual loss at different time steps. We
+
+219
+00:24:27,800 --> 00:24:33,000
+ sum it up. So afterwards, when we want to differentiate this total loss with respect to this
+
+220
+00:24:33,720 --> 00:24:38,840
+ weight parameter, those are the parameters that we want to do the training. So we perform the
+
+221
+00:24:40,200 --> 00:24:44,840
+ partial derivative here. So you differentiate, then this is what you're going to obtain.
+
+222
+00:24:45,720 --> 00:24:51,400
+ Okay. So now in particular, we are going to look at, for example, the partial derivative for the
+
+223
+00:24:51,400 --> 00:24:57,800
+ last term. Okay. Differentiate LT respect to this W here. So this LT is a loss at the last
+
+224
+00:24:58,360 --> 00:25:03,639
+ time steps here. So if you go through some mathematical manipulation, right, you can
+
+225
+00:25:03,639 --> 00:25:09,399
+ actually derive it and see it arrive at this particular results here. So in this particular
+
+226
+00:25:09,399 --> 00:25:15,960
+ results here, one term that is, that we need to further explain and explore is this matrix terms
+
+227
+00:25:15,960 --> 00:25:22,760
+ here. So this matrix terms is WHH. Okay. You multiply it by T minus one times here. So you
+
+228
+00:25:22,840 --> 00:25:29,800
+ multiply T minus one times here. And this particular matrix here, okay, WHH, actually
+
+229
+00:25:30,840 --> 00:25:36,120
+ for those of you, if you have studied linear algebra before, you know that you can perform
+
+230
+00:25:36,120 --> 00:25:43,560
+ a singular value decomposition, right, to decompose it into three matrices. If you perform
+
+231
+00:25:43,560 --> 00:25:50,200
+ this singular value decomposition here, then one of the matrix inside will have some singular value.
+
+232
+00:25:50,200 --> 00:25:54,440
+ Okay. Because this course is not about linear algebra, so we are not going to go into the
+
+233
+00:25:54,440 --> 00:26:01,160
+ details, but I just want to give you some high level intuition. So this particular matrix WHH,
+
+234
+00:26:01,160 --> 00:26:06,200
+ you can perform, you know, this singular value decomposition. And then in this singular
+
+235
+00:26:06,920 --> 00:26:12,120
+ value decomposition, there's one particular matrix that will consist of what is known as a
+
+236
+00:26:12,120 --> 00:26:17,640
+ singular value. Okay. So one of the properties of this particular singular value is that,
+
+237
+00:26:17,640 --> 00:26:22,760
+ right, okay. So this singular value, you can kind of think about it, is can either be greater than
+
+238
+00:26:22,760 --> 00:26:29,480
+ one or less than one. So what will happen if the singular value is greater than one, right? So when,
+
+239
+00:26:29,480 --> 00:26:33,880
+ if there's a singular value is greater than one, right, that means when this particular matrix here,
+
+240
+00:26:34,440 --> 00:26:41,800
+ you multiply, you multiply itself by T minus one times, that means it's actually an exponential
+
+241
+00:26:41,800 --> 00:26:46,760
+ function. You keep multiplying. So it's a value, for example, if the singular value, let's take
+
+242
+00:26:46,840 --> 00:26:52,440
+ an example, suppose it's like two. So if two multiplied by two multiplied by two, if you keep
+
+243
+00:26:52,440 --> 00:26:58,360
+ multiplying many, many times, because this value T is very large, then you can see the value is going
+
+244
+00:26:58,360 --> 00:27:05,400
+ to start to increase and explode. So this is known as the exploding gradient. Right. So in other words,
+
+245
+00:27:05,400 --> 00:27:11,960
+ if this particular matrix WHH is singular value, no, is greater, the largest singular value is
+
+246
+00:27:11,960 --> 00:27:17,880
+ greater than one. Okay. And if you keep multiplying many times, then the gradient will start to explode.
+
+247
+00:27:17,880 --> 00:27:24,040
+ Right. So this is non ideal. Okay. So can you develop some strategy to handle it? So the answer is
+
+248
+00:27:24,040 --> 00:27:30,280
+ actually yes. You can do that. So for exploding gradient problem, what you can do is you can
+
+249
+00:27:30,280 --> 00:27:35,400
+ perform a gradient clipping. So when you detect that the gradient is actually become very large,
+
+250
+00:27:35,400 --> 00:27:40,840
+ you just click at the maximum value. So that's a strategy that you can use to handle this
+
+251
+00:27:40,919 --> 00:27:47,800
+ exploding gradient problem. So, but on the other hand, this particular
+
+252
+00:27:48,760 --> 00:27:53,639
+ time that we have just now, right, if our largest singular value is less than one.
+
+253
+00:27:53,639 --> 00:27:59,800
+ So when the largest singular value is less than one, for example, is 0.5. Okay. So now,
+
+254
+00:28:00,439 --> 00:28:06,040
+ this singular value, you're going to multiply, okay, you're going to multiply by itself. Okay.
+
+255
+00:28:06,040 --> 00:28:12,040
+ Many, many times. So it's like 0.5, multiply by 0.5, multiply by 0.5. Right. So after a while,
+
+256
+00:28:12,040 --> 00:28:18,440
+ you can see that you are going to know the value is going to decay exponentially decay very quickly.
+
+257
+00:28:18,440 --> 00:28:23,399
+ So this particular effect is known as the vanishing gradient. Right. The means of gradient is going
+
+258
+00:28:23,399 --> 00:28:29,240
+ to decrease very, very quickly. So when your gradient is going to decrease very quickly,
+
+259
+00:28:29,240 --> 00:28:36,360
+ so what it means is that suppose if you have, for example, iron and car model, that's many
+
+260
+00:28:36,360 --> 00:28:44,120
+ different time steps. So in theory, even though we say that, right, the memory at the much later,
+
+261
+00:28:44,120 --> 00:28:50,920
+ the memory at the later time step, what depends on the input from all the current input as well as
+
+262
+00:28:50,920 --> 00:28:56,280
+ the past input, even though in theory, that's the case, but in practice, because of this vanishing
+
+263
+00:28:56,280 --> 00:29:03,639
+ gradient problems, that means the input in the very long past actually has no impact,
+
+264
+00:29:03,639 --> 00:29:09,320
+ right. It's partly because of this vanishing gradient problem. So for this vanishing gradient
+
+265
+00:29:09,320 --> 00:29:14,600
+ problem, it turns out that there's no effective way you can handle this. Yeah. So because there's
+
+266
+00:29:14,600 --> 00:29:19,800
+ no effective way we can address this vanishing gradient problem, therefore, what we have to do
+
+267
+00:29:19,800 --> 00:29:26,200
+ is that we have to change our iron and mortar architecture. So that actually provides us with
+
+268
+00:29:26,200 --> 00:29:33,960
+ the motivation to look into the next types of extensions of the iron and mortar, which is known
+
+269
+00:29:33,960 --> 00:29:41,320
+ as LSTM. Right. So some of you, if you have studied this AI model that handles sequential data,
+
+270
+00:29:41,320 --> 00:29:46,280
+ you probably heard about this model before. So LSTM stands for long shutter memory.
+
+271
+00:29:47,080 --> 00:29:51,480
+ Okay. So our next topic, therefore, we are going to study about this LSTM model.
+
+272
+00:29:54,040 --> 00:29:59,399
+ Right. So what's the basic architectures of LSTM model? So this is the basic architectures of LSTM
+
+273
+00:29:59,399 --> 00:30:04,680
+ model. So again, at first glance, it looked a little bit complicated, but don't worry. Later,
+
+274
+00:30:04,680 --> 00:30:09,399
+ we're going to explain it in a systematic manner, right. And then you'll be able to see,
+
+275
+00:30:10,200 --> 00:30:16,920
+ and explain this LSTM model. Okay. So we're just going to leave this for the time being. Later on,
+
+276
+00:30:16,920 --> 00:30:23,800
+ we'll explain this based on the formula, because in order to understand LSTM, one of the easiest
+
+277
+00:30:23,800 --> 00:30:29,480
+ ways is to understand from the mathematical operation perspective. And after we come back to
+
+278
+00:30:29,480 --> 00:30:38,760
+ look at this cell, it will become quite easy to understand. Okay. So let's look at some key ideas
+
+279
+00:30:38,840 --> 00:30:46,440
+ of this LSTM. Right. So again, we put the LSTM cell structures or architectures next to it.
+
+280
+00:30:46,440 --> 00:30:52,600
+ And then we also put down the defining equations. So these are the key equations that describe an
+
+281
+00:30:52,600 --> 00:30:58,840
+ LSTM. Right. So let's look at what it is. So first of all, for this LSTM here, right, there's a few
+
+282
+00:30:58,840 --> 00:31:07,240
+ key concept or idea. So an LSTM, right, it has a long-term memory cell that can retain its state
+
+283
+00:31:07,240 --> 00:31:15,880
+ over time. So one of the advantages of LSTM compared to RN is that it can retain long-term memory.
+
+284
+00:31:15,880 --> 00:31:21,320
+ Okay. It can retain long-term memory. So we are going to see how it can achieve that. Right. So for
+
+285
+00:31:21,320 --> 00:31:29,240
+ LSTM, it has this, what we know as a cell state, okay, CT, a hidden state, HT, and then there's four
+
+286
+00:31:29,240 --> 00:31:37,000
+ gates here, which is known as IFOG. Okay. I is input gate, F is forget gate, O is output gate,
+
+287
+00:31:37,000 --> 00:31:44,680
+ and G is a gate gate. Anyway, it will be explained later on. So for LSTM, it has this cell state,
+
+288
+00:31:44,680 --> 00:31:51,800
+ okay, CT, hidden state, HT, and four gates here. And what is this cell state here, CT? So this cell
+
+289
+00:31:51,800 --> 00:31:58,200
+ state here, CT is also known as a long-term memory. Okay. So CT is long-term memory.
+
+290
+00:31:58,840 --> 00:32:04,360
+ And HT is interpreted as a short-term memory. Okay. So HT is a short-term memory here.
+
+291
+00:32:05,640 --> 00:32:10,200
+ Right. So next, let's look at this particular equation. So we'll pause here for one moment,
+
+292
+00:32:10,200 --> 00:32:15,400
+ and then later we'll cover the rest of the points here. So let's look at this particular set of
+
+293
+00:32:15,400 --> 00:32:21,720
+ equations now. Right. So first of all, this HT minus one just means that the previous
+
+294
+00:32:22,360 --> 00:32:28,440
+ short-term memory, okay. So the previous short-term memory at times that T minus one, okay, so which
+
+295
+00:32:28,440 --> 00:32:34,520
+ is actually a vector. And then afterwards you have this particular HT, which is your current input
+
+296
+00:32:34,520 --> 00:32:40,920
+ HT, right. So you can concatenate them together to form a long vector now. Okay. So you have this
+
+297
+00:32:40,920 --> 00:32:48,120
+ long vector. And afterwards you multiply with this W matrix here. So this particular W matrix is
+
+298
+00:32:48,120 --> 00:32:55,959
+ actually a bigger matrix that can be further divided into four sub-matrices as we'll see later.
+
+299
+00:32:55,959 --> 00:33:05,479
+ Okay. So this big matrix, yeah. Okay. So this big matrix W can be divided in, you can kind of think
+
+300
+00:33:05,479 --> 00:33:10,760
+ about it, can be decomposed into four sub-matrices here. One is corresponding to the IE.
+
+301
+00:33:10,920 --> 00:33:18,680
+ Is it already a question? Yes. I can hear someone talking. Is there some issue?
+
+302
+00:33:23,720 --> 00:33:29,960
+ Okay. I assume there's no issue. Right. Okay. So this particular big matrix W can be divided into
+
+303
+00:33:29,960 --> 00:33:40,200
+ four sub-matrices. One for each of these gate, IFOG. I think someone probably forgot to mute your
+
+304
+00:33:41,560 --> 00:33:43,400
+ okay. Probably let me just mute one.
+
+305
+00:33:50,280 --> 00:33:51,640
+ Right. Okay. I think it's mine now.
+
+306
+00:33:56,040 --> 00:34:01,480
+ Right. Okay. Maybe we did this too many times already. So this matrix W can be divided into
+
+307
+00:34:01,480 --> 00:34:08,199
+ four sub-matrices that correspond to this IFOG gate here. Okay. And afterwards, so what we have
+
+308
+00:34:08,199 --> 00:34:16,679
+ is that we have this particular factor concatenated and then we have this big W matrix that is
+
+309
+00:34:16,679 --> 00:34:22,199
+ consisting of four sub-matrices. And then the output of this particular multiplication is going to go
+
+310
+00:34:22,199 --> 00:34:29,000
+ through this for different gating function. So the first three components is going to go through
+
+311
+00:34:29,000 --> 00:34:35,560
+ this sigmoid function. Okay. The last component is going to go through a 10-h function, see activation
+
+312
+00:34:35,560 --> 00:34:41,960
+ functions here. Okay. So it's an element by element operations here. And after the output here will
+
+313
+00:34:41,960 --> 00:34:48,840
+ be, you know, what you obtain here, IFOG. Right. So typically we try to remember this particular
+
+314
+00:34:49,719 --> 00:34:56,759
+ form here or sequence here, IFOG, IFOG. So IFOG is easy to remember. IFOG here. Right. So this is
+
+315
+00:34:56,759 --> 00:35:02,279
+ IFOG, the activation function that we have, the first three is the sigmoid function. The last
+
+316
+00:35:02,280 --> 00:35:09,320
+ one is the 10-h function. Okay. So this is how, first of all, right, we use our previous memory
+
+317
+00:35:09,320 --> 00:35:15,080
+ and our current input going through this mathematical operation to obtain these four gates here,
+
+318
+00:35:15,080 --> 00:35:20,840
+ IFOG. So these four gates here has its own interpretation that we'll explain a little bit
+
+319
+00:35:20,840 --> 00:35:28,120
+ about it later here. Okay. So let's continue on. So let's look at the next equations that we have here.
+
+320
+00:35:28,120 --> 00:35:33,400
+ So these equations that we have here, right, so this CT here, right, if you can remember,
+
+321
+00:35:33,400 --> 00:35:39,000
+ what is this CT? This CT is a long-term memory. All right. So you can see that our current
+
+322
+00:35:39,000 --> 00:35:45,799
+ long-term memory or the long-term memory at this current time step T actually depends on the previous
+
+323
+00:35:45,799 --> 00:35:52,120
+ long-term memory at time step T minus. Okay. And then this particular operations here is actually
+
+324
+00:35:52,120 --> 00:35:59,000
+ an element by element multiplication. So this particular CT here is actually a vector. Okay.
+
+325
+00:35:59,000 --> 00:36:04,759
+ It's a vector. And this F here is also a vector. Okay. It's also a vector. So you have this CT
+
+326
+00:36:05,880 --> 00:36:12,040
+ minus one, which is a vector. And F is also a vector. So we perform an element by element
+
+327
+00:36:12,040 --> 00:36:16,120
+ multiplication. And then you'll be able to obtain the output. So this is what this
+
+328
+00:36:16,120 --> 00:36:22,680
+ particular operation is. Okay. Element by element multiplication here. So anyway, let's come back
+
+329
+00:36:22,680 --> 00:36:29,640
+ to this. So what it says is that this long-term memory at this current time step depends on the
+
+330
+00:36:29,640 --> 00:36:34,920
+ long-term memory in the previous time step. Okay. And then you perform element by element
+
+331
+00:36:34,920 --> 00:36:41,240
+ multiplication with this F. F is a forget gate. So as the name suggests, forget gate means you
+
+332
+00:36:41,640 --> 00:36:49,160
+ how much you forget or how much you retain. Okay. So this is the goal of this particular
+
+333
+00:36:49,160 --> 00:36:55,160
+ forget gate. That means, okay, your previous long-term memory, how much of them you want to
+
+334
+00:36:56,759 --> 00:37:02,439
+ forget and how much of them you want to retain. If the values F here, because you can see this
+
+335
+00:37:03,959 --> 00:37:09,959
+ function F, actually it's the output after going through a sigmoid function. A sigmoid function
+
+336
+00:37:09,960 --> 00:37:17,080
+ has a value that maps to between zero to one, between zero to one. So this F value, if this F value
+
+337
+00:37:17,080 --> 00:37:24,280
+ for a certain element is very close to one, that means you actually retain, okay, the long-term
+
+338
+00:37:24,280 --> 00:37:30,520
+ memory from the previous time step. On the other hand, if the F value is very close to zero,
+
+339
+00:37:30,520 --> 00:37:35,560
+ whatever multiplied with zero will become very close to zero. That means, no, the previous
+
+340
+00:37:35,560 --> 00:37:42,120
+ long-term memory will be lost. So therefore, the objective of this particular F gate is actually
+
+341
+00:37:42,120 --> 00:37:48,440
+ a control gate. Right. So it's a forget gate to decide how much long-term memory from the previous
+
+342
+00:37:49,000 --> 00:37:55,799
+ iteration you want to retain or you want to forget. So hence this name forget gate here.
+
+343
+00:37:56,520 --> 00:38:02,279
+ Okay. So we have just actually explained about these terms here. But okay, if you think about
+
+344
+00:38:02,280 --> 00:38:08,440
+ this term here, it's probably not enough because there's no new way you can generate new content to
+
+345
+00:38:08,440 --> 00:38:14,520
+ your long-term memory. So therefore, you need to have another term here. So this another term here
+
+346
+00:38:14,520 --> 00:38:20,920
+ you can see is consists of this I is known as the input gate. Okay. So I is actually your input gate
+
+347
+00:38:20,920 --> 00:38:28,200
+ here. And G is known as the gate gate. A bit funny, but it's called gate gate here. So this input
+
+348
+00:38:28,200 --> 00:38:36,040
+ gate is you can interpret is the new input you want to generate to replenish your long-term memory.
+
+349
+00:38:36,600 --> 00:38:42,600
+ So this input gate is like the new gate, new content that you want to generate to update your
+
+350
+00:38:43,399 --> 00:38:50,919
+ long-term memory here. Okay. Right. So this is the roles of your input gate. And then this gate is
+
+351
+00:38:51,000 --> 00:38:59,240
+ an additional control operation to decide how much input will be updated to the long-term memory.
+
+352
+00:38:59,240 --> 00:39:04,760
+ Okay. So let me just, no, now that we understand all this, let's just try to
+
+353
+00:39:05,640 --> 00:39:11,400
+ summarize one more time. So this long-term memory at time step t will depends on the long-term
+
+354
+00:39:11,400 --> 00:39:16,520
+ memory in time step t minus one. It means a previous long-term memory. You perform element
+
+355
+00:39:17,080 --> 00:39:24,440
+ operation with this forget gate. Okay. This forget gate is role is to control how much of this
+
+356
+00:39:24,440 --> 00:39:30,600
+ previous long-term memory will be propagated to the next time step here. Okay. And then this input
+
+357
+00:39:30,600 --> 00:39:38,840
+ gate is the new content that we generate, right, in order to update our long-term memory. But this
+
+358
+00:39:38,840 --> 00:39:46,200
+ input will be further controlled by a gate gate operation. Okay. Yeah. So therefore now we fully
+
+359
+00:39:46,200 --> 00:39:53,080
+ come to explain about this particular equations already. Okay. So the next equations that we have
+
+360
+00:39:53,080 --> 00:39:57,800
+ is that once you obtain the long-term memory, this long-term memory need to be, you know,
+
+361
+00:39:58,680 --> 00:40:04,120
+ outputted as a short-term memory. Okay. So therefore what we do is that we take this long-term memory,
+
+362
+00:40:04,120 --> 00:40:08,839
+ we let it go through a 10-hitch function, and afterwards we perform element by element
+
+363
+00:40:08,839 --> 00:40:15,160
+ multiplication with this output gate here. Again, this term here is actually a factor.
+
+364
+00:40:16,040 --> 00:40:22,279
+ This output gate is also a factor. So we perform an element by element multiplication to obtain your
+
+365
+00:40:23,160 --> 00:40:30,839
+ short-term memory here. Okay. So this O here is output gate because as the name suggests,
+
+366
+00:40:31,560 --> 00:40:38,120
+ it actually output from this long-term memory to the short-term memory. Okay. So that pretty much
+
+367
+00:40:38,120 --> 00:40:43,080
+ kind of, you know, explain all these equations here. So once you have roughly understood this
+
+368
+00:40:43,080 --> 00:40:48,760
+ equation, let's try to go back to see the text right up here. So the next point is that the cell
+
+369
+00:40:48,760 --> 00:40:56,920
+ state, okay, which is our CT undergoes changes by forgetting the old memory through the forget
+
+370
+00:40:57,240 --> 00:41:03,400
+ gate. Okay. So the first part, simply say that, you know, our long-term memory, the current long-term
+
+371
+00:41:03,400 --> 00:41:11,160
+ memory depends on your previous long-term memory controlled by this forget gate, either by forgetting
+
+372
+00:41:11,160 --> 00:41:18,040
+ or pretending it. Okay. And also we add the new memory. So this new memory is true. Okay. This
+
+373
+00:41:18,040 --> 00:41:25,160
+ input gate and that is controlled by this gating function. Right. Okay. So this is this point here
+
+374
+00:41:25,160 --> 00:41:29,160
+ pretty much correspond to this equation. And after all, so the next sentence says that the
+
+375
+00:41:29,160 --> 00:41:35,480
+ hidden state HT is updated by passing the cell state CT through the output gate here. Right.
+
+376
+00:41:35,480 --> 00:41:40,920
+ That means your long-term memory after going through the 10-H function and which is controlled
+
+377
+00:41:40,920 --> 00:41:47,720
+ by this output gate would then be used to generate your hidden short-term memory or hidden state HT
+
+378
+00:41:47,720 --> 00:41:53,399
+ here. Okay. So you can see that in this particular STM here, actually there are four gates here,
+
+379
+00:41:53,880 --> 00:42:00,760
+ I, F, O, G. So these gates here, these four gates here will control the flows of information.
+
+380
+00:42:00,760 --> 00:42:07,240
+ Right. Do the memory. Okay. You can see F, I, G and O all control the flows of information
+
+381
+00:42:07,240 --> 00:42:13,160
+ to this long-term memory and short-term memory here. Okay. So gates are obtained through this
+
+382
+00:42:13,160 --> 00:42:18,440
+ sigma and 10-H layer as shown here. Right. And then they update the short-term memory and
+
+383
+00:42:19,240 --> 00:42:24,520
+ long-term memory and short-term memory through point-wise multiplication operation. So this is
+
+384
+00:42:24,520 --> 00:42:32,200
+ a point-wise or element by element multiplication. Okay. So, right. I can't explain about this.
+
+385
+00:42:32,200 --> 00:42:38,280
+ So next we are going to see how we can understand this particular LSTM cell right from this formula.
+
+386
+00:42:38,280 --> 00:42:42,840
+ Pretty much this particular diagram is just an interpretation of these equations here.
+
+387
+00:42:42,840 --> 00:42:46,840
+ So first of all, let's look at it. We have this previous long-term memory,
+
+388
+00:42:46,840 --> 00:42:52,680
+ right, at time step T minus 1, okay, coming in here. So we have first of all, okay,
+
+389
+00:42:52,680 --> 00:42:57,480
+ the previous short-term memory or hidden state. Okay. And then our current input,
+
+390
+00:42:57,480 --> 00:43:02,280
+ we stack them together. So this step here corresponded to this. And then afterwards we
+
+391
+00:43:02,280 --> 00:43:09,000
+ multiply by this big W matrix here. Okay. So the output now will go through this
+
+392
+00:43:09,080 --> 00:43:15,400
+ for activation, this activation function and then it will generate the 4 gate that we have.
+
+393
+00:43:15,400 --> 00:43:22,600
+ I, F, O, G. Okay. This 4 gates here. So next we want to see what happened to our
+
+394
+00:43:22,600 --> 00:43:28,040
+ current long-term memory. So our current long-term memory will depend on our previous long-term
+
+395
+00:43:28,040 --> 00:43:33,960
+ memory. Okay. Perform this element by element operation with our Fourier gate and then add
+
+396
+00:43:33,960 --> 00:43:41,640
+ up with our new input gate, okay, and our gate gate, okay, perform element by element
+
+397
+00:43:41,640 --> 00:43:46,520
+ multiplication. And then this, we add them up with this, right. So therefore this path here
+
+398
+00:43:46,520 --> 00:43:51,640
+ pretty much explains the first equation. And then the second path here, what we have just now is that,
+
+399
+00:43:52,520 --> 00:43:59,480
+ okay, we have our new long-term memory already. It let it go through a 10-h function,
+
+400
+00:43:59,480 --> 00:44:05,080
+ which is this part here. And afterwards this thing here will be controlled by this output gate here.
+
+401
+00:44:05,080 --> 00:44:11,160
+ We perform element by element multiplication to generate our short-term memory, HD here.
+
+402
+00:44:11,720 --> 00:44:15,960
+ Right. And then afterwards when, if you, for example, you want to predict at this particular
+
+403
+00:44:15,960 --> 00:44:21,560
+ time step, what is the output, right, we will be using this short-term memory, okay, multiply with
+
+404
+00:44:21,560 --> 00:44:28,200
+ some, for example, matrix to generate our predicted output. Okay. So that's pretty much the high-level
+
+405
+00:44:28,279 --> 00:44:32,839
+ ideas of LSTM. Okay. Are there any questions so far?
+
+406
+00:44:40,279 --> 00:44:45,399
+ Okay. Perhaps we can go through the next few slides because this one is like a high-level
+
+407
+00:44:45,399 --> 00:44:50,279
+ summary, even though I've already explained the most important concepts of LSTM. But what we
+
+408
+00:44:50,279 --> 00:44:56,040
+ will do is that in the next few slides, we are going to go through each of these calculations
+
+409
+00:44:56,040 --> 00:45:01,320
+ one step at a time. And afterwards we have one exercise. Yeah. So after the exercise, I believe,
+
+410
+00:45:01,320 --> 00:45:07,320
+ no, it should make this particular process and calculation a lot clearer. Okay. So let's continue.
+
+411
+00:45:12,840 --> 00:45:20,040
+ Okay. So if you do a quick comparison between AN and LSTM, so the vanilla AN and that we have
+
+412
+00:45:20,040 --> 00:45:25,400
+ studied before, you can see, right. So what we do is that we can concatenate our previous
+
+413
+00:45:26,440 --> 00:45:32,040
+ heat and state and our current input, right, we can concatenate them, right. And then we multiply
+
+414
+00:45:32,040 --> 00:45:37,880
+ with this particular big W matrix here. Okay. So this big W matrix here can be decomposed into the
+
+415
+00:45:37,880 --> 00:45:45,960
+ WHH and the WXH matrix that we have covered in the previous lecture. And afterwards, we go,
+
+416
+00:45:45,960 --> 00:45:52,040
+ let it go through a 10-H function to obtain our current heat and state here. Okay. So this is the
+
+417
+00:45:52,040 --> 00:45:58,840
+ vanilla AN and for LSTM, this is the steps of equations. Yeah. I've just gone through with you.
+
+418
+00:46:02,920 --> 00:46:06,440
+ Okay. So next, we are going to go through a few slides to explain each of these,
+
+419
+00:46:07,560 --> 00:46:13,080
+ no, steps a little bit more detail and also to provide some visualization. So it's easier for
+
+420
+00:46:13,080 --> 00:46:18,279
+ you to see, right. So first of all, we are going to look at how do we generate this particular
+
+421
+00:46:18,760 --> 00:46:22,760
+ gate here. We're going to see how do we generate this particular gating function here.
+
+422
+00:46:23,400 --> 00:46:29,960
+ Right. So quick recap. So first of all, we have our previous short time memory,
+
+423
+00:46:29,960 --> 00:46:35,800
+ okay, and our current input will concatenate them into a vector here. Right. So and afterwards,
+
+424
+00:46:35,800 --> 00:46:41,800
+ we multiply with this particular big W matrix. Right. Okay. So in terms of visualization, we can
+
+425
+00:46:41,800 --> 00:46:46,920
+ also think about it, it's like this. Yeah. Okay. One thing to take note of is that these figures
+
+426
+00:46:46,920 --> 00:46:54,600
+ here, actually the X and this H factors here, the order is not so consistent with this. So I'll
+
+427
+00:46:54,600 --> 00:47:01,480
+ probably suggest that in your notes, you may want to swap the order here if you want it to be
+
+428
+00:47:01,480 --> 00:47:08,760
+ consistent with this interpretation here. Right. Okay. So anyway, you have the, yeah, if you swap
+
+429
+00:47:08,760 --> 00:47:16,280
+ the order here, this part here is pretty much you just concatenate your previous short time memory
+
+430
+00:47:16,280 --> 00:47:23,720
+ and your current input, you concatenate them and make it into a long factor. Okay. And afterwards,
+
+431
+00:47:23,720 --> 00:47:28,440
+ you multiply with this particular matrix. So this matrix is W. Right. Okay. This big matrix,
+
+432
+00:47:28,440 --> 00:47:33,800
+ W can be further partitioned into four sub matrices here. Each of those sub matrix will
+
+433
+00:47:33,800 --> 00:47:40,680
+ correspond to this I f o g component. Okay. Right. So the output of this particular
+
+434
+00:47:40,680 --> 00:47:45,800
+ multiplication, you'll get a factor here. Right. So this is what you have here. And afterwards,
+
+435
+00:47:45,800 --> 00:47:51,480
+ you'll go through this activation functions here. Okay. The first three is a sig mod. The last one
+
+436
+00:47:51,480 --> 00:47:57,160
+ is a 10 H function. So once you do that, you will have this I f o g here. All right, which is this
+
+437
+00:47:57,160 --> 00:48:05,080
+ output. Okay. So this is how you can generate this particular, no, gig, gig functions here.
+
+438
+00:48:05,080 --> 00:48:08,840
+ So for the gig, gig function, it will be actually going through the 10 H function.
+
+439
+00:48:09,160 --> 00:48:16,200
+ Right. And earlier, as you mentioned, what is the role of this particular gig functions here,
+
+440
+00:48:16,200 --> 00:48:21,320
+ this gig functions here. So the role of this gig function is that you will, you know, control
+
+441
+00:48:21,320 --> 00:48:28,120
+ how much of this new input will be, you know, updated to your long term memory. So it's a
+
+442
+00:48:28,120 --> 00:48:35,080
+ gating function to decide how much of this newly generated input will be updated to your long term
+
+443
+00:48:35,080 --> 00:48:44,200
+ memory. Okay. So once you understood just now the diagram, the rest are actually quite similar to
+
+444
+00:48:44,200 --> 00:48:53,720
+ that. So this slide here, see, let's see how do we generate this particular input gig now. So by
+
+445
+00:48:53,720 --> 00:48:59,400
+ now you should know this input gate is actually the new content that you generate. Okay. So the
+
+446
+00:48:59,400 --> 00:49:04,920
+ new content that you generate to update your long term memory. So in terms of the mathematical
+
+447
+00:49:04,920 --> 00:49:11,800
+ operation is similar to before you have this concatenated factor multiply with this W matrix.
+
+448
+00:49:11,800 --> 00:49:18,760
+ Okay. But for this, if you're talking about this, I get here, it will be the first sub matrix that
+
+449
+00:49:18,760 --> 00:49:24,920
+ you have here. Okay. So you multiply with it, you let it go through your stick mode function,
+
+450
+00:49:24,920 --> 00:49:32,520
+ and then you'll be able to generate your gig here. Okay. And for forget gig, right, the
+
+451
+00:49:32,520 --> 00:49:37,880
+ roles of this forget gig we have explained probably many times already is it decide how much of this
+
+452
+00:49:38,600 --> 00:49:44,520
+ previous long term memory you want to forget or retain. Okay. Right. So the calculation is,
+
+453
+00:49:45,240 --> 00:49:50,200
+ similar to what we have mentioned before, concatenated factor multiply with the corresponding
+
+454
+00:49:50,200 --> 00:49:56,200
+ sub matrix go through the, this particular signal function, you'll get your forget gig.
+
+455
+00:49:57,480 --> 00:50:02,839
+ And then last, this output gig, right, the objective of this output gig is how much of this
+
+456
+00:50:02,839 --> 00:50:08,680
+ long term memory will be revealed to your short term memory here. Okay. So this output gig,
+
+457
+00:50:08,680 --> 00:50:13,720
+ so the calculation is similar, right, this two concatenated vector multiply with the
+
+458
+00:50:13,720 --> 00:50:19,160
+ corresponding sub matrix that correspond to the output, let it go through the signal function,
+
+459
+00:50:19,160 --> 00:50:27,960
+ then you'll obtain your output gig here. Right. Okay. So we have kind of gone through quite a bit
+
+460
+00:50:27,960 --> 00:50:34,359
+ of a discussion about it. So I think probably now it's time for you to get your hand dirty,
+
+461
+00:50:34,359 --> 00:50:39,160
+ but to do some calculation to see whether you understand what we have just explained.
+
+462
+00:50:39,160 --> 00:50:43,720
+ Right. So let's look at this particular exercise here. You can see it's one past the exam questions.
+
+463
+00:50:44,279 --> 00:50:49,560
+ It says that an LSTM has a flowing something, right. It has the initial hidden state,
+
+464
+00:50:50,200 --> 00:50:55,879
+ right. And they also have the initial cell state is given, right. And then now you're given the
+
+465
+00:50:55,879 --> 00:51:04,680
+ forget gig matrix. Okay. You're given the input gig at time step one gig gig at time step one
+
+466
+00:51:05,399 --> 00:51:12,439
+ output gig at time step one, right, as well as the initial input, right, the square loss parameter.
+
+467
+00:51:12,440 --> 00:51:19,000
+ Okay. So assume no bias is used in the computation is this LSTM, right. And the sigma and 10h
+
+468
+00:51:19,000 --> 00:51:26,680
+ function is given by this formula here. Okay. So now they ask you to first of all,
+
+469
+00:51:26,680 --> 00:51:32,920
+ find out the forget gig at one at time step one. Okay. And then comment on your obtain result.
+
+470
+00:51:33,800 --> 00:51:39,320
+ Okay. So I'll give you a bit of time to go through all those formula that you just now
+
+471
+00:51:39,320 --> 00:51:44,440
+ I've introduced to you and then, you know, try to look at this question and see whether you can
+
+472
+00:51:44,440 --> 00:51:55,240
+ solve this part one. Okay. I'll give you some time to think about it.
+
+473
+00:56:39,480 --> 00:56:47,560
+ Okay. So you probably have some time to think about it already. So any suggestion, how do we find out
+
+474
+00:56:47,560 --> 00:56:57,240
+ the forget gig? If you have some idea, you can actually enter into the chat box.
+
+475
+00:57:09,320 --> 00:57:23,720
+ Okay. So you can see, right, in this case, okay, before that.
+
+476
+00:57:32,040 --> 00:57:35,240
+ All right. Okay. Before that, can I just check, can you hear me?
+
+477
+00:57:39,800 --> 00:57:47,800
+ Okay. Okay. Great. Thank you. Yeah. So you can see that if you want to find the forget gig,
+
+478
+00:57:47,800 --> 00:57:52,520
+ so from the earliest slides, what we can see is that what we need to do is
+
+479
+00:57:55,080 --> 00:58:01,480
+ find this forget case slides here. So first of all, we need to concatenate our previous
+
+480
+00:58:01,480 --> 00:58:09,720
+ short-term memory, our current input concatenate. Okay. This matrix W here usually is a big matrix,
+
+481
+00:58:09,720 --> 00:58:16,120
+ but there are four submetrics, each correspond to IFOG gig here. Since now we're talking about the
+
+482
+00:58:16,120 --> 00:58:21,480
+ forget gig, that means you'll be looking at this particular submetrics here, okay, which is even.
+
+483
+00:58:21,480 --> 00:58:27,880
+ Right. So this part of the submetrics, multiply with this, let it go through a segment function,
+
+484
+00:58:27,880 --> 00:58:32,520
+ and then you'll be able to obtain your forget gig. All right. So that's pretty much what you need to do
+
+485
+00:58:32,520 --> 00:58:33,560
+ for the first part.
+
+486
+00:58:39,000 --> 00:58:44,600
+ All right. Okay. Yeah. I think one of your friend also give the right answer. So let's
+
+487
+00:58:45,560 --> 00:58:48,680
+ then in the case, let me just go through the first part of the answer with you.
+
+488
+00:58:58,040 --> 00:59:08,040
+ Okay. So can you see the share screen for the solution?
+
+489
+00:59:17,160 --> 00:59:23,240
+ Okay. Good. Right. So as you can see, earlier on, this is the part that I mentioned to you before,
+
+490
+00:59:23,240 --> 00:59:27,560
+ right? And this is the corresponding equation. So what you need to do is that first of all,
+
+491
+00:59:27,640 --> 00:59:33,880
+ right, you have this particular two, no, these are previous short time memory and HD,
+
+492
+00:59:33,880 --> 00:59:39,560
+ which is from here, right? You multiply. Okay. So in this formula here is this big W matrix here,
+
+493
+00:59:39,560 --> 00:59:44,440
+ but since we are talking about this forget gig here, so we can, we'll only be looking at this
+
+494
+00:59:44,440 --> 00:59:50,520
+ particular corresponding submetrics that correspond to the forget gig, which in this question is called
+
+495
+00:59:50,520 --> 00:59:55,640
+ WF here. All right. And afterwards we'll go through this particular segment function here.
+
+496
+00:59:55,720 --> 01:00:00,680
+ Okay. So pretty much this is the equations that we have, right? And then this particular
+
+497
+01:00:00,680 --> 01:00:07,640
+ matrix WF here, actually, if you want, you can further divide into two parts here, right? So one
+
+498
+01:00:07,640 --> 01:00:15,160
+ is the submetrics due to hidden, no, hidden state to the forget gig. The other is the input,
+
+499
+01:00:15,160 --> 01:00:20,040
+ the forget gig. Sorry, the resolution is a bit low, but I think you can probably still figure
+
+500
+01:00:20,680 --> 01:00:26,600
+ right. Okay. So now our question is that we want to find the forget gig at time step one. So we
+
+501
+01:00:26,600 --> 01:00:33,160
+ simply let T be equal to one into it, right? So we, right, then this is our formula. Okay. And if
+
+502
+01:00:33,160 --> 01:00:39,400
+ you want, you can either find from using this form or in this form either way, right? So, okay,
+
+503
+01:00:39,400 --> 01:00:44,360
+ anyway, you just put in the time steps. And then finally, now we are ready to substitute all the
+
+504
+01:00:44,360 --> 01:00:50,600
+ values. So these two, right, submetrics, this here, right from the hidden state to the forget
+
+505
+01:00:50,600 --> 01:00:56,680
+ gig and from the input to forget gig, this are given. Okay. And then we know the
+
+506
+01:00:58,200 --> 01:01:03,240
+ short time memory at time step zero, the input, okay, at time step one. So we put all of them
+
+507
+01:01:03,240 --> 01:01:09,240
+ value in, right? So after some doing some calculation, right, you have this. And then for this
+
+508
+01:01:09,319 --> 01:01:14,680
+ course here, I will strongly encourage you to, you know, to memorize the formula, right, for this
+
+509
+01:01:14,680 --> 01:01:19,959
+ sigmoid function or no use of calculator to make sure that you can calculate the sigmoid function
+
+510
+01:01:19,959 --> 01:01:24,919
+ and the 10-H function. Right. So anyway, yes, this is a sigmoid function. If you plug it in,
+
+511
+01:01:24,919 --> 01:01:31,720
+ you'll be able to obtain your result here. Okay. Right. So this is the result. So now, if you look
+
+512
+01:01:31,720 --> 01:01:37,080
+ at this particular forget gig here, what do you notice? You'll notice that values are quite large.
+
+513
+01:01:37,080 --> 01:01:43,880
+ So when the value f is large here, right, this, so this factor f is large here, that means,
+
+514
+01:01:43,880 --> 01:01:49,319
+ right, most of your previous long-term memory should be able to retain because whatever
+
+515
+01:01:49,319 --> 01:01:55,000
+ multiplied by value, which is very close to one, will retain the previous value. So therefore,
+
+516
+01:01:55,000 --> 01:02:00,279
+ you can see that the self state at t is equal to one, right, will retain most of the memory from
+
+517
+01:02:00,279 --> 01:02:05,960
+ the previous self state, right, because this value is very large. Okay. It's very close to one.
+
+518
+01:02:05,960 --> 01:02:17,960
+ Okay. So that is the answer to part one. So let's continue with part two.
+
+519
+01:02:20,760 --> 01:02:27,160
+ So now in part two, it asks you to find the self state c1 at times that one. So just now,
+
+520
+01:02:27,160 --> 01:02:33,000
+ we already found the forget gate, right, and from the question, right, you can see that they also
+
+521
+01:02:33,000 --> 01:02:37,000
+ tell you the input gate and the gate gate, right, because I want to make the question a bit more
+
+522
+01:02:37,000 --> 01:02:44,600
+ manageable in the exam. So I give you the some of the value as well. So now you're supposed to find
+
+523
+01:02:44,600 --> 01:02:49,240
+ the self state at times that one. Okay. I'll give you a bit of time to try it out, and then we'll go
+
+524
+01:02:49,240 --> 01:02:53,000
+ through the answers together.
+
+525
+01:03:03,000 --> 01:03:05,000
+ Okay.
+
+526
+01:03:33,000 --> 01:03:35,000
+ Okay.
+
+527
+01:04:03,000 --> 01:04:05,000
+ Okay.
+
+528
+01:04:33,400 --> 01:04:37,720
+ So I think you probably have some time to think about it already. So let's look at the
+
+529
+01:04:39,640 --> 01:04:43,240
+ second part. So the second part, right, you want to find the,
+
+530
+01:04:45,080 --> 01:04:50,040
+ this particular long term memory. So this is the equation we're using. So our current longer memory,
+
+531
+01:04:50,040 --> 01:04:55,560
+ it depends on previous long term memory. Okay. Multiply element by element multiplication with
+
+532
+01:04:55,560 --> 01:05:01,640
+ forget gate plus your input gate, element by element multiplication with your gate gate here.
+
+533
+01:05:01,640 --> 01:05:05,160
+ Right. So just now for this particular question, first of all, we substitute t
+
+534
+01:05:05,799 --> 01:05:10,920
+ to be equal to one. We can write down these equations here. So from the part one, we have
+
+535
+01:05:10,920 --> 01:05:17,879
+ already calculated this forget gate at times that one. Okay. So the other parameters like the
+
+536
+01:05:17,879 --> 01:05:23,720
+ previous long term memory, the current input gate, as well as the current gate gate are all
+
+537
+01:05:23,720 --> 01:05:29,160
+ provided by the questions. So you just plug everything in. Right. So for these examples
+
+538
+01:05:29,160 --> 01:05:34,680
+ here, for example, this element by element multiplication is right. This multiplied by this.
+
+539
+01:05:34,680 --> 01:05:39,480
+ Okay. For the first value, second value is this multiplied with this. Right. Then you'll get the
+
+540
+01:05:39,480 --> 01:05:44,200
+ factors already. Likewise for this, you can repeat that after you've done some calculation,
+
+541
+01:05:44,200 --> 01:05:50,600
+ then this is the result. Okay. So this is your, this long term memory at times that one.
+
+542
+01:05:53,080 --> 01:05:58,680
+ Okay. We still have the last part, which is they ask you to find the hidden state h1 at times that
+
+543
+01:05:58,680 --> 01:06:03,799
+ one. Right. Okay. So again, I'll give you a bit of time to think about it and then we'll go through
+
+544
+01:06:03,799 --> 01:06:15,399
+ the answers together.
+
+545
+01:06:29,000 --> 01:06:43,399
+ Okay.
+
+546
+01:06:43,399 --> 01:06:52,839
+ Actually, there's one questions on the chat by Carol. Okay. The question is why don't I use this
+
+547
+01:06:52,840 --> 01:07:03,400
+ formula? Okay. The question that you have for gate i,
+
+548
+01:07:06,120 --> 01:07:11,720
+ for gate i. Yeah. Okay. From the questions, actually, the input gate is already provided.
+
+549
+01:07:12,280 --> 01:07:20,040
+ Yeah. So if you want to, yeah, because the gate i is already provided and the corresponding
+
+550
+01:07:20,040 --> 01:07:23,240
+ made this, let me just,
+
+551
+01:07:29,080 --> 01:07:35,400
+ yeah. If you want to calculate this gate i, if you use this particular formula here, that means
+
+552
+01:07:35,400 --> 01:07:41,880
+ you need the corresponding sub matrix that correspond to this gate i. Right. So if you use
+
+553
+01:07:41,880 --> 01:07:46,120
+ from this particular visualizations here, if you want to calculate this gate i here,
+
+554
+01:07:46,839 --> 01:07:52,279
+ right. First of all, you need to have this sub matrix corresponding to the gate i,
+
+555
+01:07:52,279 --> 01:07:59,480
+ but we don't have the piece of information. So therefore, you cannot calculate your gate i
+
+556
+01:07:59,480 --> 01:08:05,560
+ through this and this sub matrix. Mainly it's because the sub matrix correspond to gate i.
+
+557
+01:08:05,560 --> 01:08:11,160
+ The information is not available. Okay. But instead, they actually already give you what
+
+558
+01:08:11,160 --> 01:08:16,519
+ this gate i is. Yeah. So therefore, you just get whatever information from the question directly.
+
+559
+01:08:18,519 --> 01:08:27,080
+ Okay. Yeah.
+
+560
+01:08:41,559 --> 01:08:48,920
+ Right. Okay. So I think it's probably, you know, you have some time to think about it. So let's try
+
+561
+01:08:48,920 --> 01:08:55,080
+ to go through the answer for the last part. You want to find the hidden state or the short time memory.
+
+562
+01:08:58,840 --> 01:09:06,200
+ Right. So yeah. So this is the formula that relates our long-term memory, our output gate and the
+
+563
+01:09:06,200 --> 01:09:12,200
+ short-term memory. Right. So from this equation, we can see that from early on, we already calculate
+
+564
+01:09:12,200 --> 01:09:18,840
+ the long-term memory at time step one. Right. The output gate is given from the question. So
+
+565
+01:09:18,840 --> 01:09:23,399
+ pretty much is the issue. No, you just plug in the value and make sure that, you know, your
+
+566
+01:09:23,399 --> 01:09:29,639
+ cuckold e famurize yourself with how you can calculate this 10-h function using our calculator.
+
+567
+01:09:29,639 --> 01:09:34,200
+ All right. So this is important. Okay. So if you know that, right. So this is the value. And
+
+568
+01:09:34,200 --> 01:09:39,160
+ then afterwards this performing this element by element multiplication to be able to generate these
+
+569
+01:09:39,880 --> 01:09:42,439
+ results here. So are there any questions?
+
+570
+01:09:46,679 --> 01:09:51,880
+ Right. Okay. So after once we have, we have actually explained about the LSTM, the important
+
+571
+01:09:51,880 --> 01:09:55,320
+ expect and, you know, going through this particular exercise, probably you have a,
+
+572
+01:09:55,320 --> 01:10:02,840
+ you know, much better understanding about this LSTM already. So right. The case, let's continue on
+
+573
+01:10:02,920 --> 01:10:07,000
+ with the
+
+574
+01:10:11,400 --> 01:10:16,280
+ right. Okay. So the next thing is we are going to very briefly touch on some sample applications for
+
+575
+01:10:16,280 --> 01:10:24,840
+ no, our, our, and LSTM. Right. So one very common kind of application is time series predictions.
+
+576
+01:10:24,840 --> 01:10:29,800
+ Like for example, you want to predict what's the share price, no, for the, no following days.
+
+577
+01:10:30,440 --> 01:10:36,600
+ Yeah. The other very popular kind of application is machine translation. Right. So the idea of
+
+578
+01:10:36,600 --> 01:10:41,240
+ this machine translation, high level idea is that, you know, you want to give input sentence, for
+
+579
+01:10:41,240 --> 01:10:47,800
+ example, no French, you want to translate into English. Right. So in previous lecture, we also
+
+580
+01:10:47,800 --> 01:10:54,280
+ mentioned about these ideas of encoder decoder architecture. So this diagram again is showing
+
+581
+01:10:54,280 --> 01:11:00,920
+ the same thing. So we have, first of all, this is the encoder. Right. So the ideas of this encoder
+
+582
+01:11:00,920 --> 01:11:05,719
+ seat is that we want to take this input sentence, right. Okay. And then we will try to extract some
+
+583
+01:11:05,719 --> 01:11:12,440
+ information here, right in the form of some context factor. So this particular context factor,
+
+584
+01:11:12,440 --> 01:11:18,840
+ right, in this case would probably be, for example, the memory, correct, the memory at this time
+
+585
+01:11:18,840 --> 01:11:25,000
+ steps here. So this context factor will actually, no, come extract all the necessary information
+
+586
+01:11:25,000 --> 01:11:31,000
+ from your input sentence. Okay. And afterwards at the output side, we'll be using a decoder.
+
+587
+01:11:31,000 --> 01:11:39,080
+ Right. So this decoder is grow is take the context factor and then try to generate your target
+
+588
+01:11:39,080 --> 01:11:44,760
+ translated sentences here. So the structure is quite common is that you take your context
+
+589
+01:11:44,840 --> 01:11:50,280
+ factor, you start with the first token, which is start. Okay. And then you generate what's the most
+
+590
+01:11:50,280 --> 01:11:55,960
+ likely first work for example, is he and afterwards you take this he, right, you use it to
+
+591
+01:11:56,600 --> 01:12:02,120
+ no count generate what's the next likely works, for example, is he okay, and so on and so forth.
+
+592
+01:12:02,120 --> 01:12:08,920
+ Here. Okay. So this is the basic architectures of the encoder decoder architecture. So later on,
+
+593
+01:12:08,920 --> 01:12:13,720
+ in the next part, once you study about transformer, we are going to spend a bit more time talking about
+
+594
+01:12:13,720 --> 01:12:20,520
+ it. Yeah. But one of the shortcoming or limitations of this are and and when we use on and to do this
+
+595
+01:12:21,720 --> 01:12:27,080
+ machine translation is that for on and you need to extract one single context factor.
+
+596
+01:12:27,800 --> 01:12:34,680
+ And this single context factor need to actually represent the information from your input sentence.
+
+597
+01:12:34,680 --> 01:12:39,640
+ And this is very difficult, right, because it's very, very difficult for you to simply just get
+
+598
+01:12:39,640 --> 01:12:45,720
+ one factor. And this factor yet need to have no capture all the information from your input
+
+599
+01:12:45,720 --> 01:12:51,880
+ sentence. So because of that, this is considered as the information bottleneck here, right. And it's
+
+600
+01:12:51,880 --> 01:12:57,720
+ because of this reason, no, your traditional on and it's actually, I mean, they are okay, but they
+
+601
+01:12:58,520 --> 01:13:04,760
+ really have some limitation in terms of their performance. So because of that, no, it provides
+
+602
+01:13:04,760 --> 01:13:11,160
+ motivation for no better model, which is the transformer model that we are doing this study next.
+
+603
+01:13:12,680 --> 01:13:16,600
+ Right. So therefore, for this section, we actually study the following, right, we talk about
+
+604
+01:13:16,600 --> 01:13:23,160
+ introduction, we study about on and how to train on and just now we cover LSTM and also we only go
+
+605
+01:13:23,160 --> 01:13:29,080
+ through some selected application quickly. Right. So the next topic we're going to study is
+
+606
+01:13:29,080 --> 01:13:33,800
+ transformer first transfer. I think for those of you who know AI, you know, this very, very
+
+607
+01:13:33,880 --> 01:13:40,920
+ important, very hot topic, or most of the state of the art AI models is based on that. So we are
+
+608
+01:13:40,920 --> 01:13:45,320
+ going to spend some time to talk about it later. But I think before that is almost time to take
+
+609
+01:13:45,320 --> 01:13:51,320
+ a break. So we'll probably take a short break. We will come back at 10 30. Right. So let's come back at 10 30.
+
+610
+01:15:34,120 --> 01:15:50,440
+ Okay. So, yeah, welcome back before we continue. Just want to check in your
+
+611
+01:15:51,400 --> 01:15:54,280
+ C here as well as see the share screen.
+
+612
+01:16:00,919 --> 01:16:07,879
+ Okay, great. Thank you. So right in the case, let's continue. Right. So the next topic we're going
+
+613
+01:16:07,879 --> 01:16:14,599
+ to study is the transform. Right. So for this section, we are going to talk about this. What is
+
+614
+01:16:14,599 --> 01:16:19,320
+ the concept of the attention and after we introduce transformer and followed by vision
+
+615
+01:16:19,559 --> 01:16:25,400
+ transform. Right. So what's attention? So attention, actually, the concept is actually
+
+616
+01:16:26,440 --> 01:16:31,719
+ kind of a simple. So if you think about, suppose if I tell you, you know, something is actually
+
+617
+01:16:32,280 --> 01:16:38,440
+ a mouse, yeah, I say, no, about a mouse. So when you think about this word mouse, it can either be,
+
+618
+01:16:38,440 --> 01:16:44,519
+ for example, the computer mouse that you have, or it can be the cat and mouse that we have.
+
+619
+01:16:44,520 --> 01:16:49,880
+ So in order to have a good understanding where you use this word mouse, why this you really need
+
+620
+01:16:49,880 --> 01:16:56,520
+ to have some surrounding text to have certain understanding about this word mouse, why this.
+
+621
+01:16:56,520 --> 01:17:01,640
+ Okay. So therefore, actually, in our case here, when we want to introduce attention,
+
+622
+01:17:01,640 --> 01:17:06,520
+ pretty much is that suppose if you have a particular sentence, right, so a sentence
+
+623
+01:17:06,520 --> 01:17:11,560
+ have many different works, right, when you are considering this current works, what is the
+
+624
+01:17:12,520 --> 01:17:19,560
+ importance or contributions of the other works with respect to this current works you are
+
+625
+01:17:19,560 --> 01:17:27,320
+ considering. So the amount of importance, okay, or the relevance, okay, or contributions, or
+
+626
+01:17:28,840 --> 01:17:33,960
+ the works this current work, right, this is known as attention. Okay. So therefore, you can kind of
+
+627
+01:17:33,960 --> 01:17:38,680
+ think about it. If you have a particular sentence here, right, suppose if you want to look at this
+
+628
+01:17:38,680 --> 01:17:46,120
+ current works here, the importance, okay, or the relevance of all the other works with respect
+
+629
+01:17:46,120 --> 01:17:50,760
+ to this current works, this is called the attention. The attention to all the other works with respect
+
+630
+01:17:50,760 --> 01:17:55,560
+ to this current work. So for example, those lines that stick, actually, it means they have higher
+
+631
+01:17:55,560 --> 01:18:02,520
+ relevance or importance. Okay. So it can be either interpreted in terms of a sentence, or it can be
+
+632
+01:18:02,520 --> 01:18:07,960
+ interpreted in terms of the image. For example, this image we can partition into many different
+
+633
+01:18:07,960 --> 01:18:14,680
+ patches like this, right. And if you consider this current patch here, what is the importance or
+
+634
+01:18:14,680 --> 01:18:19,800
+ contributions of all the other patches with respect to this current patch, for example,
+
+635
+01:18:19,800 --> 01:18:25,160
+ this is known as attention, right. So that's a high level intuition. So therefore, you can see
+
+636
+01:18:25,160 --> 01:18:32,760
+ attention is used to determine which input token. So in the context of a transformer, the work that
+
+637
+01:18:32,760 --> 01:18:38,760
+ we use is called token. So this token could correspond, for example, to different works in
+
+638
+01:18:39,320 --> 01:18:46,360
+ NLP, or it could correspond to, for example, image patches in computer vision, right. So the general
+
+639
+01:18:46,360 --> 01:18:53,240
+ term that we use in a transformer is called token. Yeah. So it would determine which tokens are
+
+640
+01:18:53,240 --> 01:18:59,720
+ actually relevant to the current input or token, right. So how do we compute this attention?
+
+641
+01:18:59,800 --> 01:19:05,080
+ So attention is computed using what is known as a dot product between two factors, or this
+
+642
+01:19:05,080 --> 01:19:13,480
+ dot product is also correlation. So when you want to determine two example tokens, each token
+
+643
+01:19:13,480 --> 01:19:20,680
+ typically can be represented as factor. So you want to see the kind of attention or similarity
+
+644
+01:19:20,680 --> 01:19:27,560
+ or relatedness between these two code token or these two factor, we perform a dot product. Okay.
+
+645
+01:19:27,560 --> 01:19:32,520
+ Multiply their corresponding term and sum it up. Right. So this dot product is also known as the
+
+646
+01:19:32,520 --> 01:19:37,640
+ correlation. For those of you who study communication theory, you know, it's correlation, or it's a
+
+647
+01:19:37,640 --> 01:19:43,560
+ degree in measured similarity. Okay. So by performing this dot product or correlation,
+
+648
+01:19:43,560 --> 01:19:49,960
+ actually you are measuring either in terms of a similarity, relatedness, or importance of,
+
+649
+01:19:49,960 --> 01:19:55,320
+ you know, one token respect to the other. And this is known as attention. Okay.
+
+650
+01:19:57,240 --> 01:20:03,640
+ Right. So in transformer, how exactly do we compute this attention? Let me see. That's the
+
+651
+01:20:06,440 --> 01:20:11,880
+ right. Okay. So just now what we in previous slide, we introduced a high level intuition. So
+
+652
+01:20:11,880 --> 01:20:18,360
+ next we are going to see how do we exactly compute attention, right, in transformer. So first of all,
+
+653
+01:20:18,360 --> 01:20:23,480
+ right, for each input token, it can be a work, it can be an image patch. What we will do is that
+
+654
+01:20:23,480 --> 01:20:31,320
+ we try to generate three vectors. So these three vectors are known as query, q, key, k, and value,
+
+655
+01:20:31,320 --> 01:20:37,960
+ v. Right. So even a particular token, which is represented as a factor, how do we generate this
+
+656
+01:20:37,960 --> 01:20:44,040
+ query, key, and value? So how we generate them is that we multiply with three corresponding
+
+657
+01:20:44,040 --> 01:20:51,400
+ matrices. Okay. Wq, Wk, and wv. But before that, why do we want, given a particular
+
+658
+01:20:51,400 --> 01:20:56,360
+ token, which is represented as factor, why do we want to generate this three additional
+
+659
+01:20:57,240 --> 01:21:02,200
+ factor, okay, query, key, and value? So the reason why we want to generate these three additional
+
+660
+01:21:02,200 --> 01:21:08,360
+ factors is because these factors can provide a more flexible representation. Okay. It can
+
+661
+01:21:08,360 --> 01:21:14,679
+ make your representation, right, richer, right. Okay. So it provides a more flexible and richer
+
+662
+01:21:14,679 --> 01:21:20,679
+ representation. Okay. So, and this is done through a linear mapping by multiplying with these three
+
+663
+01:21:20,679 --> 01:21:28,759
+ matrices. Right. So with this richer representation using q, k, and v, you can learn the underlying
+
+664
+01:21:28,759 --> 01:21:34,200
+ relationship or tension between the input token. Yeah, because if you just use one input token
+
+665
+01:21:34,200 --> 01:21:40,599
+ compared to the other token, maybe what you can do is more limited. But once you project into a query,
+
+666
+01:21:41,320 --> 01:21:48,280
+ key, and value, actually the way you can do this representation can be richer. Right. So just that,
+
+667
+01:21:48,280 --> 01:21:52,760
+ just now what we mentioned is that suppose we take the example of a set of two works,
+
+668
+01:21:52,760 --> 01:21:57,880
+ thinking machine. First of all, each of the work we can convert it into a factor. This is known as
+
+669
+01:21:57,880 --> 01:22:03,480
+ embedding because, you know, for each work, we need to represent as a vector. So after we've each
+
+670
+01:22:03,480 --> 01:22:11,080
+ vector, we let it multiply by these three matrix, w, q, w, k, and w, v. Then for each input vector,
+
+671
+01:22:11,080 --> 01:22:16,760
+ we can then generate this query, key, and value vectors here for each works here. Right. So this
+
+672
+01:22:16,760 --> 01:22:23,560
+ is what is described in the previous sentence. Right. So next we are going to explain how do we
+
+673
+01:22:23,640 --> 01:22:28,280
+ compute attention right in transformer. So we start from here. Suppose we have two works,
+
+674
+01:22:28,280 --> 01:22:34,120
+ thinking machine. First of all, we'll do the work embedding to convert them into some factor
+
+675
+01:22:34,120 --> 01:22:39,880
+ representation. Right. Okay. And then by multiplying with these three matrix for each of these
+
+676
+01:22:39,880 --> 01:22:46,360
+ factors, you can generate query, key, and value vectors here. Right. So next we want to see how
+
+677
+01:22:46,360 --> 01:22:51,640
+ do we compute the attention between this, you know, this factor and this factor. So the first thing
+
+678
+01:22:51,640 --> 01:22:57,560
+ that we do is that what we do adopt product. Right. Suppose we know consider this kind of
+
+679
+01:22:57,560 --> 01:23:05,000
+ thinking. Right. Okay. So we do we compute a dot product between this query and this key. Right.
+
+680
+01:23:05,000 --> 01:23:11,560
+ Okay. Query and key. And also the dot product between query and key two. So now that works,
+
+681
+01:23:11,560 --> 01:23:18,280
+ we perform a correlation between query one and key one and query one and key two. Right. So if you
+
+682
+01:23:18,280 --> 01:23:22,920
+ do that, then you'll be able to get to score. Right. So this results here when you perform this
+
+683
+01:23:23,960 --> 01:23:28,679
+ you know, dot product or this correlation, just like what we mentioned, we are trying to measure
+
+684
+01:23:28,679 --> 01:23:36,759
+ the similarity or the importance of other works with respect to this kind of first work here now.
+
+685
+01:23:36,759 --> 01:23:41,559
+ So once you have these two scores here, the next thing that is that we'll do some scaling.
+
+686
+01:23:41,560 --> 01:23:48,760
+ Right. So we'll divide by the square root of the dimensions of the vector dimensions of this key
+
+687
+01:23:48,760 --> 01:23:55,880
+ vector. Okay. DK is the dimensions of your key vector and you take a square root. Suppose this
+
+688
+01:23:55,880 --> 01:24:01,000
+ value is eight, then we take each of them, we divide it by eight. And afterwards, these two
+
+689
+01:24:01,000 --> 01:24:06,040
+ value will perform the stock max. So if you recall, soft max means we want to convert it into the
+
+690
+01:24:06,040 --> 01:24:12,280
+ probability. So now we'll convert it into the probability. And after works, we multiply with
+
+691
+01:24:12,280 --> 01:24:19,240
+ the corresponding value vector. So this one multiply with this plus this one multiply with this.
+
+692
+01:24:19,240 --> 01:24:25,080
+ And then after works, right, the output of this particular summation is what we know as a context
+
+693
+01:24:25,080 --> 01:24:31,400
+ vector z one here. So this is the context vector z one. Right. So you can actually repeat the same
+
+694
+01:24:31,400 --> 01:24:37,639
+ process to, you know, obtain the context factor z two as well. So what is so important about this
+
+695
+01:24:38,679 --> 01:24:45,639
+ z one is that this z one factor is the this context factor is a better representation
+
+696
+01:24:45,639 --> 01:24:50,759
+ than this context factor x one. So can anyone tell why is it better?
+
+697
+01:24:50,760 --> 01:25:02,600
+ Why is this context vector z one a better representation than the original vector x one?
+
+698
+01:25:10,360 --> 01:25:16,360
+ Okay, so the reason why z one is more important is a better representation with x one is because
+
+699
+01:25:16,839 --> 01:25:23,559
+ it incorporates information from other works already. That means it actually capture or
+
+700
+01:25:23,559 --> 01:25:29,880
+ incorporate information from the other works or actually is able to obtain the context from the
+
+701
+01:25:29,880 --> 01:25:36,599
+ other works. So it's not base x one is only x one is a representation due to this single work.
+
+702
+01:25:36,599 --> 01:25:42,599
+ But now z one is a better representation because it also take into consideration of all the other
+
+703
+01:25:42,600 --> 01:25:50,200
+ works, their contribution to work set. So that's why this context factor is a better representation.
+
+704
+01:25:51,960 --> 01:25:55,800
+ All right. Okay. So one of your friend Haro, I think also give the right answer.
+
+705
+01:25:55,800 --> 01:26:01,880
+ So let's continue. Okay. So this slide here actually is just really much like, you know,
+
+706
+01:26:01,880 --> 01:26:06,440
+ what we have just mentioned before. Right. So this particular process is known as a scale
+
+707
+01:26:06,440 --> 01:26:11,720
+ dot product attention. Right. So to perform this attention, first of all, we perform this
+
+708
+01:26:12,680 --> 01:26:17,000
+ dot product and afterwards we have this scaling up process. So since we've explained in the previous
+
+709
+01:26:17,000 --> 01:26:21,880
+ slide, so I'm not going to repeat here, but just one thing I want to highlight here is that,
+
+710
+01:26:21,880 --> 01:26:28,040
+ okay, so early on we have explained how we can generate this other context vector z one. So z
+
+711
+01:26:28,040 --> 01:26:34,600
+ one is a better representation for x one. You can also repeat that to generate a context vector x two
+
+712
+01:26:35,160 --> 01:26:43,000
+ for this vector x two. That means if your input has a few different vectors, then at the end of
+
+713
+01:26:43,000 --> 01:26:49,400
+ this particular attention operation, right, you're going to get some better vector representation
+
+714
+01:26:49,400 --> 01:26:55,720
+ known as x one, x two and x three and so on. So each vector, you're going to get a better
+
+715
+01:26:55,720 --> 01:27:01,640
+ representation. Okay. So it turns out that mathematically, there's a easier way and more
+
+716
+01:27:01,640 --> 01:27:07,960
+ efficient way of computing it, which is through this particular equations here. Right. So this
+
+717
+01:27:07,960 --> 01:27:15,960
+ equation here is the, this is the attention. This q k v are actually matrices formed by,
+
+718
+01:27:15,960 --> 01:27:21,720
+ you know, stacking all these factors together. Right. So for example, right. Okay. So anyway,
+
+719
+01:27:21,720 --> 01:27:28,040
+ this attention is given by this equation here. So this q here, right, for example, this q is
+
+720
+01:27:28,040 --> 01:27:34,440
+ actually the query matrix. This query matrix is obtained by taking each of the three vector
+
+721
+01:27:34,440 --> 01:27:40,360
+ and we stack them together to form a matrix. Okay. For example, like this. And then this k here is
+
+722
+01:27:40,360 --> 01:27:47,880
+ the key matrix is obtained by taking these key vectors and you stack them row by row to become
+
+723
+01:27:47,880 --> 01:27:53,400
+ a matrix. And afterwards, it may become a transpose. This is what you have. Okay. So likewise for this
+
+724
+01:27:53,400 --> 01:27:59,080
+ particular v matrix here. So therefore what it means is that, right, in order to generate this
+
+725
+01:27:59,080 --> 01:28:06,360
+ particular individual context factor, right, so what you can do is simply applying this formula.
+
+726
+01:28:06,360 --> 01:28:13,080
+ Right. So you will form this query key and value matrix. You apply this particular formula and then
+
+727
+01:28:13,080 --> 01:28:18,920
+ you'll be able to generate this particular context matrix. Now, for this context matrix,
+
+728
+01:28:18,920 --> 01:28:25,880
+ each of the row in this case represent the corresponding no context factor. So that's all
+
+729
+01:28:25,880 --> 01:28:30,440
+ from the computation perspective is very straightforward. We just apply this particular formula.
+
+730
+01:28:32,200 --> 01:28:37,800
+ Okay. So next, we have some basic understanding we can proceed to introduce a transformer. So
+
+731
+01:28:37,800 --> 01:28:43,080
+ transformer is actually an AI model that use attention mechanism that we've studied before
+
+732
+01:28:43,080 --> 01:28:48,440
+ to process the input sequence in parallel. So you can process it in parallel because you can see
+
+733
+01:28:48,920 --> 01:28:54,120
+ our computation is through this matrix multiplication is through these equations here.
+
+734
+01:28:54,120 --> 01:29:01,240
+ And this thing can be done concurrently to generate context factor. Okay. For different
+
+735
+01:29:01,880 --> 01:29:08,280
+ position together. So therefore we can do it in parallel. Okay. So it may use of the attention
+
+736
+01:29:08,280 --> 01:29:14,840
+ mechanism that we have introduced. And it also it may use of MLP, fit forward or dense. These are
+
+737
+01:29:14,840 --> 01:29:19,640
+ equivalent. All right. It's just a different name. Right. You'll make use of this MLP layer or the
+
+738
+01:29:20,440 --> 01:29:25,800
+ fit forward layer. So that part we'll later on explain to you later. Okay. So earlier on, we can
+
+739
+01:29:25,800 --> 01:29:31,240
+ see it's highly parizable because you can for each of the input factor, you can generate the context
+
+740
+01:29:31,240 --> 01:29:38,840
+ factor in parallel. No, as opposed to I and N, you need to process one input at a time, which is very
+
+741
+01:29:38,840 --> 01:29:45,560
+ slow. Right. So the next point is that it can provide global attention. Providing this global
+
+742
+01:29:45,560 --> 01:29:52,440
+ attention means that, right, if you want to look at the importance of this current, the contributions
+
+743
+01:29:52,440 --> 01:29:58,920
+ of other tokens or works with respect to this card works, the contribution can be for all the works
+
+744
+01:29:59,880 --> 01:30:05,720
+ in a particular, for example, paragraph. So this particular token can be very, very far away. And
+
+745
+01:30:05,720 --> 01:30:12,360
+ it can be for all the, you know, works in the paragraph. So therefore, it can obtain global
+
+746
+01:30:12,360 --> 01:30:17,960
+ attention. Global means that you can look at the contributions of all the works in that particular,
+
+747
+01:30:17,960 --> 01:30:25,080
+ no, for example, paragraph, whatever context that you have. Next, it can perform good long range
+
+748
+01:30:25,720 --> 01:30:30,680
+ you can model long range dependency. That means even works that are very far away, you can see
+
+749
+01:30:30,760 --> 01:30:36,040
+ is contribution towards this type of works. So this is long range, the ideal long range
+
+750
+01:30:36,040 --> 01:30:43,560
+ dependence. So this is as opposed to CNN, CNN, because you're using a small filter. So for small
+
+751
+01:30:43,560 --> 01:30:50,120
+ filter, you can only look at the contributions of neighboring pixels, right. So it's not long,
+
+752
+01:30:50,120 --> 01:30:55,800
+ short range, but for transformer, because you can look at works of patches, which are very far away.
+
+753
+01:30:55,800 --> 01:31:01,720
+ So it can model long range dependency. Right. So why is this transformer so important? Because
+
+754
+01:31:01,720 --> 01:31:06,840
+ currently it can achieve state of the art performance. Yeah. Okay. And it also leads to many
+
+755
+01:31:06,840 --> 01:31:15,320
+ state of the art motors like bugs, no, GPT and so on and so forth. Right. So next, we are going to
+
+756
+01:31:15,320 --> 01:31:20,760
+ explain a little bit about this transformer in the original paper, right. So the original paper,
+
+757
+01:31:20,760 --> 01:31:26,520
+ the use of transformer is used in machine translation. So now we are trying to explain it
+
+758
+01:31:26,520 --> 01:31:32,120
+ step by step, starting from high level picture and then progressively, you know, add in more and more
+
+759
+01:31:32,120 --> 01:31:37,240
+ detail. Right. So the original paper of the transformer is to perform machine translation.
+
+760
+01:31:37,240 --> 01:31:42,600
+ So for example, you have a French sentence, you go through this transformer, you want to translate
+
+761
+01:31:42,600 --> 01:31:49,240
+ into an English sentence. Right. So this transformer, it can be further divided if you start to zoom in,
+
+762
+01:31:49,240 --> 01:31:55,000
+ this transformer can be divided into two parts, encoder and decoder. Right. Just like what we
+
+763
+01:31:55,639 --> 01:32:01,639
+ explained a little bit a while ago. So we have this input French sentence, you'll go through the
+
+764
+01:32:01,639 --> 01:32:07,400
+ encoder. So this encoder will extract some information, right, some useful information that
+
+765
+01:32:07,400 --> 01:32:13,960
+ represent this input sentence. And then this context information will be passed to the decoder.
+
+766
+01:32:13,960 --> 01:32:20,520
+ And then this decoder would then try to generate the translated English sentence. Okay.
+
+767
+01:32:21,560 --> 01:32:28,120
+ So that's if you start to zoom in. Now if we further zoom in, so this particular encoder here,
+
+768
+01:32:28,120 --> 01:32:33,480
+ right, instead of using one single encoder, right, we can actually, you know, let them go through
+
+769
+01:32:33,480 --> 01:32:40,360
+ this encoder a few times. Right. No, it's just like, no, if you are generating some money instead of
+
+770
+01:32:40,360 --> 01:32:45,400
+ generating the money once, you probably want to do it a few times so that hopefully you can do better
+
+771
+01:32:45,400 --> 01:32:51,559
+ after a few times. So therefore, generally speaking, instead of one encoder block, you will let this
+
+772
+01:32:51,559 --> 01:32:59,320
+ encoder block do, will have a few encoder block. Right. So that's rich with each encoder block.
+
+773
+01:32:59,320 --> 01:33:06,280
+ We hope that it can know after each block, it can extract the context vector, a context vector,
+
+774
+01:33:06,759 --> 01:33:12,360
+ and better. Okay. Right. So now therefore this encoder block instead of one single block actually
+
+775
+01:33:12,360 --> 01:33:18,759
+ it consists of multiple encoder block here. Right. And therefore this decoder here instead of one
+
+776
+01:33:18,759 --> 01:33:24,599
+ decoder actually it consists of multiple decoder block for the same argument because, you know,
+
+777
+01:33:24,599 --> 01:33:29,320
+ you think that with different block actually after each block will become better and better.
+
+778
+01:33:29,320 --> 01:33:34,599
+ So therefore you want to do it a few times here. Right. And then this particular direction here,
+
+779
+01:33:34,600 --> 01:33:42,840
+ these are the text vector that we have extracted. So suppose if you're, this is your input sentence
+
+780
+01:33:42,840 --> 01:33:49,800
+ of three words here, you have later on three input, no, factors here at the end of it,
+
+781
+01:33:49,800 --> 01:33:55,560
+ after this encoder, you have these three output context vector. So this output context vector
+
+782
+01:33:55,560 --> 01:34:05,160
+ would then be, you know, pass to input of each of these encoder to generate your translated sentence.
+
+783
+01:34:05,160 --> 01:34:11,000
+ Okay. Right. So next we further zoom in. Now let's zoom into this encoder and see what's the
+
+784
+01:34:11,000 --> 01:34:17,080
+ structures of this encoder here. So the structures of this encoder here actually has two key layer.
+
+785
+01:34:17,080 --> 01:34:22,120
+ One is the self attention. Yeah. So this self attention is what we have already explained
+
+786
+01:34:22,120 --> 01:34:27,960
+ earlier on in the previous part. That means you have a few input vectors after this self
+
+787
+01:34:27,960 --> 01:34:34,120
+ attention. So your input is actually, for example, a few input vectors correspond to different books.
+
+788
+01:34:34,680 --> 01:34:39,960
+ After this self attention, you will have some context vector. So these context vectors are
+
+789
+01:34:39,960 --> 01:34:45,160
+ better representation than your original vector, like what I mentioned, because they extract
+
+790
+01:34:45,160 --> 01:34:51,160
+ information from the other books already. Okay. So you know, so you have a better context vector
+
+791
+01:34:51,160 --> 01:34:55,880
+ here. And afterwards you will go through a fit forward layer. So this fit forward layer, just
+
+792
+01:34:55,880 --> 01:35:02,040
+ like we studied here then before, is a general purpose transformation to make your feature
+
+793
+01:35:02,040 --> 01:35:06,200
+ slightly better. Right. So therefore we'll go through the fit forward layer and then you'll
+
+794
+01:35:06,200 --> 01:35:12,920
+ have the output here. So this is how the structures of this encoder is. And for this particular decoder
+
+795
+01:35:12,920 --> 01:35:18,599
+ here, this is a structures here. So the structures of this decoder here is that first of all,
+
+796
+01:35:19,160 --> 01:35:23,880
+ you have this self attention here. So the self attention here and the self attention here are
+
+797
+01:35:23,880 --> 01:35:29,560
+ doing the same thing, but accept that for this self attention here because it's for the purpose of
+
+798
+01:35:29,560 --> 01:35:36,520
+ a machine translation. So initially your input here are some French works. Okay. So assuming that
+
+799
+01:35:36,520 --> 01:35:41,880
+ after you've done some translation, your output here, you have some because this translation,
+
+800
+01:35:41,880 --> 01:35:46,760
+ each translator work will be, you know, bring it back. Each translator work will be bring it back.
+
+801
+01:35:46,760 --> 01:35:53,160
+ So assuming that you have really translated a few English works. So this self attention now is
+
+802
+01:35:53,160 --> 01:35:59,000
+ actually the self attention for the English works, translator works here. Okay. Right. So and then
+
+803
+01:35:59,000 --> 01:36:04,360
+ afterwards you have some better context vector. So the next layer is what is known as encoder
+
+804
+01:36:04,360 --> 01:36:12,200
+ decoder attention. So what is the objective of this encoder and decoder attention? The objective
+
+805
+01:36:12,200 --> 01:36:19,080
+ is because, right. So earlier we are doing the attention only for the translated English work,
+
+806
+01:36:19,080 --> 01:36:25,160
+ but we have not looked at the relationship between the translated English work and the original French
+
+807
+01:36:25,160 --> 01:36:31,960
+ work. Okay. So we also want to see what is the contributions of the French work to works, you
+
+808
+01:36:31,960 --> 01:36:37,800
+ know, this current English works. So that's why we have this encoder decoder attention.
+
+809
+01:36:37,880 --> 01:36:47,960
+ Okay. Right. It's to find, right, the attention between your encode, your, this encoder output
+
+810
+01:36:47,960 --> 01:36:53,720
+ as well as your decoder. Right. And after works, you'll go through this fit forward layer. Yeah.
+
+811
+01:36:53,720 --> 01:36:59,080
+ So that's what I mentioned before, right. Just do is a general purpose mapping or transformation to
+
+812
+01:36:59,080 --> 01:37:05,880
+ make your context vector even better. Right. Okay. So finally, let's try to zoom in this encoder even
+
+813
+01:37:05,880 --> 01:37:11,160
+ a bit more. So you can start see, we start with some works like thinking machine tool works here.
+
+814
+01:37:11,160 --> 01:37:17,640
+ We have the context user work embedding the converted into factors. We perform self attention.
+
+815
+01:37:17,640 --> 01:37:23,000
+ Right. Then we have a better context factor X one, a Z one and Z two, right, which is better than
+
+816
+01:37:23,000 --> 01:37:27,880
+ X one and X two, like what I mentioned before. And afterwards they go through this fit forward
+
+817
+01:37:27,880 --> 01:37:34,600
+ network here, right, to generate even better factors R one and R two in this case here. Right.
+
+818
+01:37:34,680 --> 01:37:42,920
+ Okay. Now, next, let's move on to this particular model attention is all you need. So this is the
+
+819
+01:37:42,920 --> 01:37:48,280
+ full structures of this attention or unit transformer. Okay. So later on, we're going to
+
+820
+01:37:48,280 --> 01:37:52,600
+ explain a little bit more about this transformer. So let's provide some high level information.
+
+821
+01:37:53,160 --> 01:37:59,720
+ So first of all, it's designed for a neural machine translation. So later on is extended
+
+822
+01:37:59,720 --> 01:38:04,680
+ to many other tasks already. Nowadays is over the place, but it's extended for to
+
+823
+01:38:04,680 --> 01:38:10,280
+ visual tasks like recognition detection with good performance. Right. So it leverage on this
+
+824
+01:38:10,280 --> 01:38:15,960
+ attention mechanism that we have explained, right, to analyze the importance of a token. So this
+
+825
+01:38:15,960 --> 01:38:23,320
+ token token can be a work or can be a patch respect to other token. So for a transfer for a
+
+826
+01:38:23,320 --> 01:38:28,600
+ transformer, actually it consists of an encoder and decoder architecture. So later on, you're going
+
+827
+01:38:28,600 --> 01:38:35,640
+ to see this part is the encoder and this part is the decoder. Right. So next, actually, they are
+
+828
+01:38:35,640 --> 01:38:42,280
+ these two slides, which will explain about each of the key steps in this transformer,
+
+829
+01:38:42,280 --> 01:38:47,080
+ but we are going to leave it, we're going to skip it for one moment. Let's try to go to the diagram
+
+830
+01:38:47,080 --> 01:38:51,960
+ first. So we'll explain the diagram and the lay down will come back to these slides to explain
+
+831
+01:38:52,040 --> 01:38:58,840
+ this point. Right. Okay. So let's look at the architectures of this transformer. So this is
+
+832
+01:38:58,840 --> 01:39:05,240
+ the transformer here. So this transformer roughly speaking can be broken into a few different blocks
+
+833
+01:39:05,240 --> 01:39:10,680
+ here. So first of all, we have this encoder. Okay. And then we have the decoder. And then this part
+
+834
+01:39:10,680 --> 01:39:16,200
+ here is known as the input pre processing. Right. So it's the input part. So this part is the output.
+
+835
+01:39:16,200 --> 01:39:22,360
+ So we call it output pre processing. And this part we call it output post processing. So it can
+
+836
+01:39:22,360 --> 01:39:28,440
+ be divided into these few key blocks. So next we are going to look into each of these blocks
+
+837
+01:39:28,440 --> 01:39:37,720
+ one at a time. What do they do? Right. So, okay. So now next we are going to look at this encoder
+
+838
+01:39:37,720 --> 01:39:43,240
+ and the decoder. So for this encoder, if we zoom it in, you'll see that first of all, we have this
+
+839
+01:39:43,240 --> 01:39:49,639
+ particular input cell attention. So if you remember a few slides back, we have actually this cell
+
+840
+01:39:49,639 --> 01:39:54,360
+ attention and then we have the fit forward and work here. Right. So this cell attention more
+
+841
+01:39:54,360 --> 01:39:59,960
+ explicitly is for the input. So we call it an input cell attention. Right. And then this part,
+
+842
+01:39:59,960 --> 01:40:06,519
+ if you remember, is a decoder. So decoder, you have this particular cell attention here as well.
+
+843
+01:40:06,519 --> 01:40:12,360
+ As that now is for the output. So we call it the output cell attention. Okay. Output cell attention.
+
+844
+01:40:12,440 --> 01:40:17,639
+ And you also notice that there's this particular work mass. So the reason why there's this work
+
+845
+01:40:17,639 --> 01:40:22,839
+ mass is that during the training process now, because for example, this is a translation.
+
+846
+01:40:22,839 --> 01:40:28,599
+ So translation, you would have, for example, no, in your training data, you will have this
+
+847
+01:40:28,599 --> 01:40:33,960
+ particular translated output standards already. But during the training, because you're generating
+
+848
+01:40:33,960 --> 01:40:42,200
+ the work one at a time. So suppose your translated work is I am, okay, I am, for example, suppose
+
+849
+01:40:42,200 --> 01:40:49,240
+ the full sentence, I'm am a boy. But no, in the process of you doing the training, okay,
+
+850
+01:40:49,240 --> 01:40:55,800
+ after it's translated this work I and M, right, the future works that has not been generated
+
+851
+01:40:55,800 --> 01:41:01,400
+ yet by right should not appear in your training because they have not standard yet. So therefore,
+
+852
+01:41:01,400 --> 01:41:09,240
+ this masking is the process to mask up the future works right in your training data that you should
+
+853
+01:41:09,240 --> 01:41:15,799
+ not have seen yet during the training step. So this is the masking process. Okay. And then
+
+854
+01:41:15,799 --> 01:41:21,799
+ afterwards, this is the encoder decoder cell attention. So remember this part is that you
+
+855
+01:41:21,799 --> 01:41:29,320
+ still want to find the relationship between your original French works and your partly translated
+
+856
+01:41:29,320 --> 01:41:34,840
+ English work. You still want to find the relationship between them. Okay. All right. So that's why we
+
+857
+01:41:34,840 --> 01:41:41,000
+ have this encoder decoder cell attention. This cell attention at this step is only to find the
+
+858
+01:41:41,000 --> 01:41:48,679
+ relationship between your translated English work. But this part here is to find the relationship
+
+859
+01:41:48,679 --> 01:41:55,080
+ between your translated English work and your original French work because you also want to see
+
+860
+01:41:55,080 --> 01:42:02,200
+ the relationship. Okay. And afterwards, you have this fit forward network, which is like a general
+
+861
+01:42:03,240 --> 01:42:08,040
+ transformation to make it better. Right. So this part here is actually just like just now,
+
+862
+01:42:08,920 --> 01:42:16,680
+ the high level overview that we have shown you a bit earlier on. Yeah, this part here. Okay. But
+
+863
+01:42:16,680 --> 01:42:20,680
+ as that now we put in the actual blocks to make it more concrete.
+
+864
+01:42:30,360 --> 01:42:35,640
+ Okay. So next we are going to see how do we compute this cell attention here now? Right. So
+
+865
+01:42:35,640 --> 01:42:40,600
+ how do we compute these cell attentions here? So how we compute actually we already covered in
+
+866
+01:42:40,600 --> 01:42:47,800
+ the early part of the lecture. So for example, we have some input factors. Suppose initially it's
+
+867
+01:42:47,800 --> 01:42:53,160
+ a few different works, each of the works will be converted into a factor using work embedding. So
+
+868
+01:42:53,160 --> 01:42:58,200
+ this is your factors here. Right. So after works, once you have these factors, we need to know that
+
+869
+01:42:58,200 --> 01:43:04,840
+ from our previous explanation, we need to make use of this particular matrix to convert into the
+
+870
+01:43:04,840 --> 01:43:11,560
+ periky and value vectors. And then afterwards, we go through the, you know, the attention
+
+871
+01:43:11,560 --> 01:43:17,800
+ computation to generate context factor. Okay. This context factor. So in this slide here,
+
+872
+01:43:17,800 --> 01:43:24,520
+ they use set to see to represent the context factor. Right. But in the previous figure,
+
+873
+01:43:25,480 --> 01:43:32,120
+ you know, the previous figure, they use the set to represent the context factor, but actually,
+
+874
+01:43:32,120 --> 01:43:35,720
+ they are the same because, you know, I just obtained from different sources. That's why
+
+875
+01:43:35,720 --> 01:43:41,640
+ they are slightly inconsistent. But the context factor that we have here is nothing to see here
+
+876
+01:43:41,640 --> 01:43:47,320
+ is the same as the context factor set in the previous slide here. So pretty much this particular
+
+877
+01:43:47,320 --> 01:43:53,000
+ part here, we are doing the self attention. Right. Okay. It's represented by C is the attention of
+
+878
+01:43:53,000 --> 01:43:59,559
+ this sentence with respect to itself. So it's called the self attention because it's the same.
+
+879
+01:44:00,200 --> 01:44:03,720
+ For example, in this case, the French, you know, the sentence with respect to itself.
+
+880
+01:44:04,680 --> 01:44:10,920
+ So your input is actually a collection of your input factor, or x1 to xm, the parameter that
+
+881
+01:44:10,920 --> 01:44:17,080
+ you need to train will be these three meters. Okay. So the output is actually your context
+
+882
+01:44:17,080 --> 01:44:22,600
+ factors here. So this is a self attention layer here. So this self attention layer is actually
+
+883
+01:44:22,600 --> 01:44:28,200
+ correspond to this part here, as well as this part here. So this part is for your input in our
+
+884
+01:44:28,280 --> 01:44:34,040
+ context is actually, for example, French translated to English. So this part is the attention for
+
+885
+01:44:34,040 --> 01:44:41,880
+ your French, you know, works. This part is actually the self attention for your translated English
+
+886
+01:44:41,880 --> 01:44:49,400
+ works here. Then let's continue. So the next part that we have now is called the cross attention.
+
+887
+01:44:49,400 --> 01:44:55,400
+ The cross attention is also known as the encoder decoder self attention. So which is highlighting
+
+888
+01:44:55,400 --> 01:45:01,320
+ this block here. Okay. So you can see encoder decoder self attention here. So the high level
+
+889
+01:45:01,320 --> 01:45:06,679
+ visualization is like this. So first of all, we have, for example, these are French works. Okay.
+
+890
+01:45:07,480 --> 01:45:13,480
+ The factors representing the French works here. And then we have some partially translated English
+
+891
+01:45:13,480 --> 01:45:19,719
+ works ready. So this is the factors are responding to partially translated English works. Okay,
+
+892
+01:45:19,719 --> 01:45:24,440
+ we'll go through this particular attention layer. First of all, it needs to make use of this
+
+893
+01:45:25,080 --> 01:45:31,719
+ main pieces to generate the query key and value vectors. And then afterwards, we will go through
+
+894
+01:45:33,080 --> 01:45:39,480
+ this particular equation, right, the attention equations to generate the context factor now.
+
+895
+01:45:39,480 --> 01:45:44,919
+ Okay, to generate context factor. So high level intuition is like, as I mentioned, you have some
+
+896
+01:45:44,919 --> 01:45:50,440
+ original French works, you have some partially translated English works, you want to find the
+
+897
+01:45:50,440 --> 01:45:56,200
+ relationship across them. Okay, you want to find the relationship across them. Right. So in this
+
+898
+01:45:56,200 --> 01:46:03,639
+ case here, actually the query, okay, the query is actually coming from this park here. Okay,
+
+899
+01:46:03,639 --> 01:46:09,799
+ in our application is the translated English work. And the key and the value is actually coming from
+
+900
+01:46:09,799 --> 01:46:15,879
+ this park here, which is our French works here. And afterwards, we simply use this equation to
+
+901
+01:46:15,960 --> 01:46:22,520
+ generate our context factor. And this context factor is supposed to be a better representation
+
+902
+01:46:22,520 --> 01:46:30,360
+ than your original factor because it also exorbit some information from your original French work.
+
+903
+01:46:30,360 --> 01:46:37,320
+ Okay, so that's a high level idea. Because your query and your key and value is from across different
+
+904
+01:46:37,960 --> 01:46:45,480
+ one is decoder and encoder. That's why it's called encoder decoder, self attention or cross
+
+905
+01:46:45,480 --> 01:46:52,599
+ attention. Right, okay, so we have actually covered some of the basics already. Let's continue to
+
+906
+01:46:52,599 --> 01:46:58,599
+ provide a little bit more detail about some of the parts in the transformer. So we can see in
+
+907
+01:46:58,599 --> 01:47:02,519
+ this transformer, we have actually covered some of the basic components already, you can see the
+
+908
+01:47:02,519 --> 01:47:07,559
+ concept of transformer is not really that difficult. Yeah, but there's still some detail we did talk
+
+909
+01:47:07,559 --> 01:47:12,919
+ about. So the next part is this multi hit attention. So multi hit attention is here. So later we'll
+
+910
+01:47:12,920 --> 01:47:17,880
+ explain a little bit more about it. So this multi hit attention, we have the fit forward
+
+911
+01:47:17,880 --> 01:47:27,000
+ layer, which we can't really explain. Right, we have this position encoding here, residue connection
+
+912
+01:47:27,000 --> 01:47:36,760
+ here, normalization here, input output embedding here. And then afterwards the mass attention here,
+
+913
+01:47:36,760 --> 01:47:42,760
+ the masking we have kind of explained. So maybe I will just explain very high level at this slide
+
+914
+01:47:42,760 --> 01:47:47,640
+ or explain very high level information. And later on in the subsequent slide, I'll explain a little
+
+915
+01:47:47,640 --> 01:47:54,120
+ bit more. So this multi hit attention here, right is here. So the objective of multi hit attention
+
+916
+01:47:54,120 --> 01:48:01,880
+ is that instead of doing one copy of this network, we can generate a few copy so that the performance
+
+917
+01:48:01,880 --> 01:48:06,760
+ will be better. Later slide will explain a little bit more. Fit forward we already mentioned is a
+
+918
+01:48:06,760 --> 01:48:12,920
+ general purpose transformation to make it a bit better. So the position encoding in this particular
+
+919
+01:48:14,840 --> 01:48:19,080
+ context here is you want to indicate the positions of different works. Okay,
+
+920
+01:48:19,960 --> 01:48:25,160
+ right, residue connection. Actually, there's yeah, and anyway, I think probably better with
+
+921
+01:48:25,160 --> 01:48:29,080
+ move to the next slide because otherwise I'm going to repeat too many times already,
+
+922
+01:48:29,080 --> 01:48:34,680
+ remove the following slide and then we'll explain that. All right, so first let's look at this multi
+
+923
+01:48:34,680 --> 01:48:40,520
+ hit attention. So for example, this is multi hit attention see, okay, multi hit attention. So as
+
+924
+01:48:40,520 --> 01:48:47,000
+ the name suggests, multi hit attention, what it means is you have multiple copy of the attention.
+
+925
+01:48:47,000 --> 01:48:53,160
+ So in our previous explanation, we only focus on one copy of the attention. Yeah, so for example,
+
+926
+01:48:53,160 --> 01:48:58,760
+ you have some input factors, we let it go through just now the scale dot product attention. Yeah,
+
+927
+01:48:58,760 --> 01:49:04,600
+ and then afterwards you generate some copies of your context factor. But if you think about
+
+928
+01:49:05,080 --> 01:49:11,560
+ if you just have one copies of this, or if you just do only the scale dot product attention once,
+
+929
+01:49:12,280 --> 01:49:17,320
+ sometimes this particular mapping may not be so good. It's just a little bit like when you're
+
+930
+01:49:17,320 --> 01:49:23,640
+ buying share, you don't want to buy just one copy one one share, you want to buy a few different
+
+931
+01:49:23,640 --> 01:49:28,680
+ share because one of the stock or one of the share can perform better. So therefore the reasoning
+
+932
+01:49:28,680 --> 01:49:35,800
+ is the same here. Right, so instead of only performing this scale dot product attention once,
+
+933
+01:49:35,800 --> 01:49:42,120
+ okay, using one copy of the parameter, we are going to repeat it a few times. Okay, we are going to
+
+934
+01:49:42,120 --> 01:49:48,920
+ repeat it a few times with the hope that one of the copies of this particular, you know, output or
+
+935
+01:49:48,920 --> 01:49:54,520
+ context factor will be performing better. Right, then later on in the later linear layer, it can
+
+936
+01:49:54,520 --> 01:50:01,160
+ then focus on that particular copy that's performing better. Okay, so therefore you just do it a few
+
+937
+01:50:01,160 --> 01:50:06,440
+ times and then afterwards for each of those, for example, your first copy, you have a few context
+
+938
+01:50:06,440 --> 01:50:11,720
+ factor, the second copy, you have a few context factor, you just concatenate them right to form
+
+939
+01:50:11,720 --> 01:50:17,880
+ longer factor. Okay, so that's a very simple idea here. Right, so for each copies of this particular
+
+940
+01:50:18,200 --> 01:50:25,640
+ attention, it can be described using this equation. So this is one copy of them. Right, so this process
+
+941
+01:50:25,640 --> 01:50:30,920
+ we already know, right, the query and the key will perform the matrix multiplication.
+
+942
+01:50:31,640 --> 01:50:38,040
+ Afterwards, this one is scaling followed by this masking. If it's at the output, then you mask it
+
+943
+01:50:38,040 --> 01:50:43,400
+ based on what I explained to you before. And afterwards you go through this stock max to
+
+944
+01:50:43,400 --> 01:50:49,160
+ convert it into a probability. And afterwards you multiply with your value vector and afterwards
+
+945
+01:50:49,160 --> 01:50:53,160
+ you generate your context factor, one copy of the context factor.
+
+946
+01:50:56,120 --> 01:51:02,759
+ So next, let's move on to position encoding. So what is the objective of position encoding?
+
+947
+01:51:02,759 --> 01:51:09,879
+ Right, so in the context of machine translations or image understanding, very often the positions
+
+948
+01:51:09,880 --> 01:51:17,160
+ of the works in the sentence or the positions of image patch in an image is important. So therefore
+
+949
+01:51:17,160 --> 01:51:22,840
+ you need to capture those information. Right, so the goal of position encoding is to represent the
+
+950
+01:51:22,840 --> 01:51:28,920
+ position information of individual input token. It can be the position of a work in the sentence
+
+951
+01:51:28,920 --> 01:51:35,560
+ or a position of a patch in a big image. Right, so how do you represent this position information
+
+952
+01:51:35,560 --> 01:51:40,440
+ is typically using some sine cost function. Right, so if you are interested, you can read up
+
+953
+01:51:41,400 --> 01:51:46,520
+ the original paper. So anyway, in terms of this position encoding, what you have is that suppose
+
+954
+01:51:46,520 --> 01:51:52,200
+ your initial French works are this tree, right, you use the work embedding you can represent into
+
+955
+01:51:52,200 --> 01:51:58,760
+ three different factors. And then now we add in with this position encoding, like first, now
+
+956
+01:51:58,760 --> 01:52:04,040
+ position one, two and three, you'll use three different vectors to represent the position of
+
+957
+01:52:04,040 --> 01:52:10,519
+ the works. And then afterwards you add them up. Okay, so then the adder up now is actually a
+
+958
+01:52:10,519 --> 01:52:18,680
+ embedding with the time signal or, you know, this position, you know, this embedding with the position
+
+959
+01:52:18,680 --> 01:52:25,000
+ information now. And afterwards, then you just pass it into your encoder. So you can see as we go
+
+960
+01:52:25,000 --> 01:52:28,920
+ through different slides, we start to add in a little bit more information one at a time now.
+
+961
+01:52:29,880 --> 01:52:34,600
+ Okay, and then afterwards, this slide actually showed the residue connection and the layer
+
+962
+01:52:34,600 --> 01:52:40,120
+ norm. Right, so if you look at just now the transformer, we can see that we actually also
+
+963
+01:52:40,120 --> 01:52:46,920
+ have this particular residue connection, a skip connection. So if you then you remember a few
+
+964
+01:52:46,920 --> 01:52:53,080
+ in last lecture, we started about rest that we also have the particular skip connection. So the
+
+965
+01:52:53,080 --> 01:52:59,080
+ objective is exactly the same. Okay, so we'll make use of this particular residue connection,
+
+966
+01:52:59,080 --> 01:53:05,160
+ right, and leveraging on the same idea of this residue learning in breastnet. No easier back
+
+967
+01:53:05,160 --> 01:53:11,160
+ propagation. Also, no, we are learning a smaller delta function so that you can more learn more
+
+968
+01:53:11,160 --> 01:53:17,880
+ effectively. Okay, and we also have this layer norm to perform some normalization, right, just to
+
+969
+01:53:17,880 --> 01:53:24,360
+ make sure that your subsequent, no data range is normalized. So far, right, you can see that what
+
+970
+01:53:24,360 --> 01:53:29,480
+ we have is that we have these two works, we have the original works thinking machine, we convert
+
+971
+01:53:29,480 --> 01:53:35,640
+ it into factor, we add in the position information, right, and then afterwards, okay, these two here,
+
+972
+01:53:35,640 --> 01:53:42,680
+ we have the attention to calculate that to get a better context factor. And also we introduce
+
+973
+01:53:42,680 --> 01:53:49,000
+ this residue learning all the skip protections here, and we introduce a normalization. Okay,
+
+974
+01:53:49,000 --> 01:53:54,120
+ and then afterwards, okay, this factor here will go through fit forward network, right, and then we
+
+975
+01:53:54,120 --> 01:54:01,800
+ also have this add a normalize. Right, okay, so we have put most of things in already. So now if you
+
+976
+01:54:01,800 --> 01:54:08,280
+ put everything together, so this is what we have now, right, yeah, okay, so you can see we have this
+
+977
+01:54:09,000 --> 01:54:13,880
+ two works thinking machine, we convert into two factor, we add in the position, right, so this
+
+978
+01:54:13,880 --> 01:54:20,440
+ part here is, you know, trying to find the style attention of the input works, right, and afterwards
+
+979
+01:54:20,440 --> 01:54:27,320
+ this part is your fit forward, you know, kind of a general transformation, and then we leverage on
+
+980
+01:54:27,320 --> 01:54:32,679
+ this particular residue learning or skip connection here to make it learn better. Okay, and we also
+
+981
+01:54:32,679 --> 01:54:37,639
+ perform normalization, okay, to make sure the range of the data is better. So pretty much we
+
+982
+01:54:37,640 --> 01:54:44,360
+ complete one encoder block, right, but we know the next encoder block is just a repetition of the
+
+983
+01:54:44,360 --> 01:54:50,040
+ previous encoder block. And then if you look at the decoder, right, it's very similar as well. Okay,
+
+984
+01:54:50,040 --> 01:54:57,560
+ so right, so the decoder, first you have this, you know, self attention, you study the, you know,
+
+985
+01:54:57,560 --> 01:55:04,120
+ relationship between translated English work, right, this cross attention or the encoder decoder
+
+986
+01:55:04,120 --> 01:55:09,160
+ attention, you find out the attention between translated English work and the original French
+
+987
+01:55:09,160 --> 01:55:15,640
+ work. And afterwards we have this fit forward layer to map the mapping a bit better, right, and then
+
+988
+01:55:15,640 --> 01:55:22,519
+ also we make use of the residue learning, okay, as well as the normalization, so that we complete our
+
+989
+01:55:23,960 --> 01:55:29,480
+ decoder block once, and then afterwards you have a few further decoder block, and then at the end
+
+990
+01:55:29,559 --> 01:55:35,639
+ we have this linear layer and softmax layer that we're explaining next. Okay, so we are almost
+
+991
+01:55:35,639 --> 01:55:42,120
+ done already, so let's look at the last few already. So the last part that we have is a linear layer
+
+992
+01:55:42,120 --> 01:55:48,919
+ and the softmax layer, right, so earlier on, right, so if we go through this particular decoder block
+
+993
+01:55:48,919 --> 01:55:54,839
+ a few times, right, suppose if you go through this decoder block a few times, if you look at your current
+
+994
+01:55:54,840 --> 01:56:02,920
+ output here, you would have a context vector that looks like this, yeah, okay, so that you let it
+
+995
+01:56:02,920 --> 01:56:09,160
+ go through a linear layer, which means you multiply with a matrix W and then project it into a long
+
+996
+01:56:09,160 --> 01:56:15,160
+ output here. So the lack of this output here is corresponding to the size of the vocabulary, for
+
+997
+01:56:15,160 --> 01:56:21,960
+ example in English if you have 10,000 work, then you use this linear layer to project it into a
+
+998
+01:56:22,040 --> 01:56:28,040
+ 10,000 dimensional vector here. So this 10,000 dimensional vector, you can see the output is
+
+999
+01:56:28,040 --> 01:56:33,480
+ actually called the logic like what we studied before, we'll then go, let me go through a softmax
+
+1000
+01:56:33,480 --> 01:56:39,480
+ to convert it into the probability. So the particular entry that has the highest probability,
+
+1001
+01:56:39,480 --> 01:56:45,480
+ that means that is the next work we are going to generate. Suppose the next though, the work that
+
+1002
+01:56:45,480 --> 01:56:50,280
+ corresponds to position five is m, that means the next work that we are going to generate is this
+
+1003
+01:56:50,840 --> 01:56:58,759
+ next work m. So the high level ideas of this, yeah, the high level ideas of this particular
+
+1004
+01:57:01,320 --> 01:57:07,719
+ translations like this, yeah, so first of all, you have some, for example, your French sentence
+
+1005
+01:57:07,719 --> 01:57:14,040
+ come in, yeah, the French sentence and works coming in, you are going to extract, you know,
+
+1006
+01:57:14,040 --> 01:57:19,559
+ the context vector for each of the French works here. So this context vector will come here,
+
+1007
+01:57:19,560 --> 01:57:23,880
+ so initially when you start off, you have not translated any work. So you start off with,
+
+1008
+01:57:23,880 --> 01:57:29,480
+ for example, a standard spoken course. So this part here will then go through the path that we
+
+1009
+01:57:29,480 --> 01:57:34,680
+ mentioned just now to go through it and then afterwards a softmax to say what is the most
+
+1010
+01:57:34,680 --> 01:57:40,840
+ likely work that is going to be generated, that suppose it's called i. So this one i would then
+
+1011
+01:57:40,840 --> 01:57:47,320
+ be pulled down here, okay, pulled down here, right, it will become the first work already i. So this
+
+1012
+01:57:47,320 --> 01:57:53,639
+ i here would then go through the do the self-attention, cross-attention, you know, and then afterwards
+
+1013
+01:57:53,639 --> 01:57:59,240
+ go through the process to generate the next work. Suppose this work now is called m, this m work now
+
+1014
+01:57:59,240 --> 01:58:06,120
+ will be pulled down now. So now you're at this point here, you already have i, m, okay, these two
+
+1015
+01:58:06,120 --> 01:58:11,559
+ work, i, m, you can calculate the self-attention, cross-attention, right, and then you'll go through
+
+1016
+01:58:11,559 --> 01:58:16,840
+ the path to generate the next work, probably it's r, then this work r will come now here,
+
+1017
+01:58:16,840 --> 01:58:22,840
+ then it will become i, m, r, right. So then so progressively you add in more and more works,
+
+1018
+01:58:22,840 --> 01:58:28,040
+ right, so for the decoder, you calculate the self-attention, right, for the translated English
+
+1019
+01:58:28,040 --> 01:58:35,480
+ work, you calculate the cross-attention between this translated English work and the French work,
+
+1020
+01:58:35,480 --> 01:58:41,000
+ and then feed forward linear projections, softmax to generate the first work. So it's like work by
+
+1021
+01:58:41,000 --> 01:58:50,280
+ work generation. Okay, so now with that, if you do a quick comparison between LSTM and
+
+1022
+01:58:50,280 --> 01:58:56,680
+ transformer, so the advantage of LSTM that we've studied is that it can represent a sequence
+
+1023
+01:58:56,680 --> 01:59:03,160
+ better than i, m, but the shortcoming of LSTM, you still need to generate the output one at the time
+
+1024
+01:59:03,160 --> 01:59:08,840
+ after, you know, you need to generate output one at time, so it's very slow, okay, so as opposed to
+
+1025
+01:59:08,840 --> 01:59:15,000
+ that transformer, it's very good at handling long sequences, as the attention they look at,
+
+1026
+01:59:15,000 --> 01:59:22,040
+ you know, all the inputs explicitly. Also, it can do things in parallel, okay, so that's good,
+
+1027
+01:59:22,040 --> 01:59:27,960
+ but the shortcoming of transformer is you require lots of storage, you can see there's many linear
+
+1028
+01:59:27,960 --> 01:59:34,920
+ layers, many of those W matrix, which is expensive, right, and also because there's so many parameters,
+
+1029
+01:59:34,920 --> 01:59:41,000
+ it also requires lots of training data. Okay, so I think we pretty much kind of cover this,
+
+1030
+01:59:41,000 --> 01:59:48,840
+ but let me just quickly go back to just now these two pages that pretty much is just a
+
+1031
+01:59:49,400 --> 01:59:54,840
+ summarize what I've explained earlier on, but in works. So the transformer encoder,
+
+1032
+01:59:54,840 --> 02:00:00,040
+ you have this input pre-processing, so if you remember, you have mapped your input works or
+
+1033
+02:00:00,120 --> 02:00:07,240
+ token, for example, in our cases, French work into the text embedding and vectors, and afterwards,
+
+1034
+02:00:07,240 --> 02:00:13,640
+ we add in the position information, okay, so there's a pre-processing. For the encoder, we'll
+
+1035
+02:00:13,640 --> 02:00:19,080
+ map this input from the pre-processing into context factor using self-attention, so it
+
+1036
+02:00:19,080 --> 02:00:24,600
+ generates vector vector, so this context factor will then go through the fit forward layer to
+
+1037
+02:00:24,600 --> 02:00:30,040
+ actually generate the output now. So this encoder output has a better representation
+
+1038
+02:00:30,040 --> 02:00:36,440
+ with compared to the input because it leverage on the context information from all the other input
+
+1039
+02:00:36,440 --> 02:00:42,760
+ tokens, okay, due to this attention mechanism. So the output of this particular encoder now
+
+1040
+02:00:42,760 --> 02:00:49,400
+ will be passed to the decoder. So now let's look at the decoder. So the decoder side, we have the
+
+1041
+02:00:49,400 --> 02:00:55,639
+ output pre-processing, so this output pre-processing is that to map your translated output in our
+
+1042
+02:00:55,639 --> 02:01:01,559
+ context is the English work into the text embedding factor, and then we add position to it as well,
+
+1043
+02:01:01,559 --> 02:01:06,759
+ because translator works also have different position, okay, and then afterwards in the decoder,
+
+1044
+02:01:06,759 --> 02:01:12,519
+ there's a few parts. The first one is the output must-tell attention, yeah, so you'll try to
+
+1045
+02:01:12,840 --> 02:01:18,760
+ map the output factor into context factor, right, pretty much it's just trying to find
+
+1046
+02:01:19,320 --> 02:01:27,320
+ the context factor for the translated English works here. Masking is used to hide those unseen
+
+1047
+02:01:27,320 --> 02:01:32,760
+ work-due training, as I explained, and then afterwards you'll go through this encoder-decoder
+
+1048
+02:01:32,760 --> 02:01:38,120
+ self-attention or also known as cross-attention, which is to perform the cross-attention between
+
+1049
+02:01:38,760 --> 02:01:45,559
+ your context works, okay, from the self-attention, that means they're from your English works,
+
+1050
+02:01:45,559 --> 02:01:50,200
+ right, the context factor from English work, as well as those from your decoder output,
+
+1051
+02:01:50,840 --> 02:01:56,680
+ just the encoder output is now from the French words, right, okay, and then afterwards the result
+
+1052
+02:01:56,680 --> 02:02:01,720
+ will pass through the fit forward layer, right, to generate the output, okay, so you can see for
+
+1053
+02:02:01,720 --> 02:02:06,200
+ this particular decoder here, it leveraged on, first we perform the self-attention between the
+
+1054
+02:02:06,200 --> 02:02:11,559
+ translated English work, and then afterwards we perform the cross-attention between the French
+
+1055
+02:02:11,559 --> 02:02:17,240
+ and the English work so that you can get better representation, okay, and then finally for the
+
+1056
+02:02:17,240 --> 02:02:24,760
+ output post-processing, we map the output, okay, using softmax function to generate the next output
+
+1057
+02:02:24,760 --> 02:02:30,519
+ looks, yeah, so that's pretty much a quick summary of all the points that we have discussed just now
+
+1058
+02:02:31,400 --> 02:02:38,200
+ in all the previous slides here, okay, so we probably still have one last topic to cover,
+
+1059
+02:02:41,080 --> 02:02:50,120
+ which is the vision transformer, yeah, so what's a vision transformer, so after people develop
+
+1060
+02:02:50,120 --> 02:02:54,760
+ this transformer initially, as I mentioned, is for language translation, they find that the
+
+1061
+02:02:54,760 --> 02:02:59,400
+ performance is very good, that's why then they start to extend it to many many other different
+
+1062
+02:02:59,400 --> 02:03:05,639
+ applications, so vision transformer is the extensions of the original transmitter, but into
+
+1063
+02:03:05,639 --> 02:03:13,160
+ the domain of computer vision, specifically is used for image classification, yeah, so therefore we
+
+1064
+02:03:13,160 --> 02:03:18,839
+ can see this vision transformer is currently a state-of-the-art image classification model,
+
+1065
+02:03:18,839 --> 02:03:25,480
+ okay, based on the transformer model, let's see how it works, so first of all, right, suppose
+
+1066
+02:03:26,200 --> 02:03:32,519
+ now the goal is we want to perform image classification, so what we do is that given this
+
+1067
+02:03:32,519 --> 02:03:39,879
+ particular image here, we'll try to partition into numerous image patches, so this image will try to
+
+1068
+02:03:39,879 --> 02:03:47,639
+ partition into numerous image patches, right, and then after we have these different image patches here,
+
+1069
+02:03:47,639 --> 02:03:54,839
+ so each of these image patches now will go through a linear projection of flattened patches,
+
+1070
+02:03:55,480 --> 02:04:00,839
+ so what is this flattened patches, this flattened patches means that for each of these image patch
+
+1071
+02:04:00,839 --> 02:04:10,040
+ that you have, right, 16 by 16 image patch, now we scan it row by row, okay, and channel by channel,
+
+1072
+02:04:10,040 --> 02:04:16,200
+ right, just like what we have discussed a number of times before, so each of these image patch now
+
+1073
+02:04:16,200 --> 02:04:23,480
+ can then be converted into a vector, so this is called a fluton patches now, so afterwards each
+
+1074
+02:04:23,480 --> 02:04:30,679
+ of this particular vector will multiply with a matrix to become another vector, this is known as
+
+1075
+02:04:30,679 --> 02:04:36,360
+ a linear projection, so linear projection just means that you multiply with a particular matrix,
+
+1076
+02:04:36,360 --> 02:04:44,519
+ right, okay, to project it into some other vectors which is, you know, have a better representation,
+
+1077
+02:04:44,519 --> 02:04:52,360
+ right, so after you perform this linear projection of flattened patches, you'll get some vectors,
+
+1078
+02:04:52,360 --> 02:04:58,200
+ so these vectors are represented by this, you know, ping box here, so you have this vector here,
+
+1079
+02:04:58,200 --> 02:05:03,559
+ this vector here, and so on and so forth, okay, so the next thing that we are going to do is that
+
+1080
+02:05:03,559 --> 02:05:10,280
+ we are going to introduce a particular token known as the, you know, a learnable classification
+
+1081
+02:05:10,280 --> 02:05:17,480
+ token, so we are going to introduce this particular a strict term here which is known as the extra
+
+1082
+02:05:18,120 --> 02:05:24,040
+ learnable classification token, so this is the particular, you know, you can call interpolate,
+
+1083
+02:05:24,040 --> 02:05:30,120
+ it's a factor that can be learned, okay, a factor that can be learned, so we will introduce this
+
+1084
+02:05:30,120 --> 02:05:35,799
+ extra learnable classification token, okay, and then afterwards we are going to introduce
+
+1085
+02:05:36,440 --> 02:05:41,639
+ the position information now, so we are going to include the position embedding information,
+
+1086
+02:05:42,120 --> 02:05:48,360
+ right, so the reason is like what we mentioned before, right, we also need to know the positions
+
+1087
+02:05:48,360 --> 02:05:54,520
+ of different patches in the image, so therefore we need to introduce a position, so that position
+
+1088
+02:05:54,520 --> 02:06:00,520
+ or the other patches is one, two, three, four, five, we want to know the positions of patches
+
+1089
+02:06:00,520 --> 02:06:07,400
+ in this image, and we also, for this extra learnable classification token, we have, we give it
+
+1090
+02:06:08,120 --> 02:06:15,240
+ positions of zero, okay, so now, all right, so together with this now we are ready to do the
+
+1091
+02:06:15,240 --> 02:06:21,400
+ next step, so each of this now is actually a factor now, okay, a factor, all right, so this
+
+1092
+02:06:21,400 --> 02:06:27,799
+ factor now will go through the transformer encoder block, so this transformer encoder block is just
+
+1093
+02:06:27,799 --> 02:06:33,320
+ like, is this part there, so you can see this part is actually very similar to just now the,
+
+1094
+02:06:34,280 --> 02:06:41,400
+ you know, the early on for the transformer we have two parts, right, we have the encoder
+
+1095
+02:06:42,599 --> 02:06:49,400
+ component as well as the decoder component, for vision transformer we only focus on the encoder
+
+1096
+02:06:49,400 --> 02:06:54,840
+ block, the decoder block we don't use it, yeah, so therefore we only use this particular encoder
+
+1097
+02:06:54,840 --> 02:07:00,040
+ block, so this encoder block, you can kind of think about it, is that this encoder block actually
+
+1098
+02:07:00,040 --> 02:07:06,120
+ you have the style attention, and you have the MLP, yeah, and then you do it L times here, right,
+
+1099
+02:07:06,120 --> 02:07:11,880
+ so this encoder block what it does is that it would just, at each of this particular block here,
+
+1100
+02:07:11,880 --> 02:07:18,680
+ you extract better and, you extract better representation, context factor representation
+
+1101
+02:07:18,680 --> 02:07:25,000
+ compared to the original block, okay, so we are going to do this a few times, at the end your
+
+1102
+02:07:25,000 --> 02:07:31,400
+ output here is that you are going to have some context factors that are much better representation
+
+1103
+02:07:31,400 --> 02:07:37,880
+ than your original factor, right, and then afterwards you're just going to take the particular,
+
+1104
+02:07:38,920 --> 02:07:46,280
+ you know, context factor that correspond to this classification token, you're going to let it go
+
+1105
+02:07:46,280 --> 02:07:52,440
+ through the MLP, right, and then you're going to classify into one of the category for this image,
+
+1106
+02:07:53,320 --> 02:07:58,599
+ okay, so the reason why you're only using one particular context factor that correspond to
+
+1107
+02:07:58,599 --> 02:08:06,200
+ this is that in the process of the attention, actually after each encoder block, you already
+
+1108
+02:08:06,200 --> 02:08:13,559
+ found the contribution of all the other blocks, you already found the contribution of all the
+
+1109
+02:08:13,559 --> 02:08:21,240
+ other vectors, respect to this current token of vectors, so you already progressively extract
+
+1110
+02:08:21,240 --> 02:08:28,200
+ information from all the other patches, so therefore even though, you know, you only have one
+
+1111
+02:08:28,200 --> 02:08:34,200
+ factor here but it has already absorbed information from all the other image patches, really, so
+
+1112
+02:08:34,200 --> 02:08:38,840
+ therefore at the end you just need to use this to perform the classification, so is it possible
+
+1113
+02:08:38,840 --> 02:08:43,400
+ that you come out with some variants, like for example you may want to use no context factor
+
+1114
+02:08:43,400 --> 02:08:49,559
+ from RTRS, yeah, you can also do that, but for simplicity, right, and also because this particular
+
+1115
+02:08:49,560 --> 02:08:54,680
+ context factor already absorbed information from all the other tokens, this one itself can do the
+
+1116
+02:08:54,680 --> 02:09:02,120
+ job quite well, so therefore we only use the context factor correspond to this input factor
+
+1117
+02:09:02,120 --> 02:09:09,080
+ to perform the classification, okay, so next, all right, then this slide, see, actually just
+
+1118
+02:09:09,080 --> 02:09:14,760
+ summarize what we have discussed before, so the key steps in using this vision transformer is
+
+1119
+02:09:14,840 --> 02:09:20,760
+ first we partition image into different patches of token, and afterwards we flatten these patches
+
+1120
+02:09:20,760 --> 02:09:26,920
+ and token using lexical graphical order row by row channel by channel, right, to convert into a
+
+1121
+02:09:26,920 --> 02:09:32,200
+ vector, right, we generate the linear embedding from the flattened patches of token, linear
+
+1122
+02:09:32,200 --> 02:09:38,360
+ embedding means that we multiply with a matrix W to make it into a vector so that this vector is
+
+1123
+02:09:39,320 --> 02:09:45,320
+ slightly better representation, we introduce this extra learnable class embedding, okay,
+
+1124
+02:09:45,320 --> 02:09:51,799
+ so now just another extra token, okay, we add in the position, right, and afterwards we pass it
+
+1125
+02:09:51,799 --> 02:09:57,639
+ through the transformer encoder, so you go through this encoder, you can kind of think about it,
+
+1126
+02:09:57,639 --> 02:10:02,679
+ high-level intuition is at the end, you will have some context factor which is a much better
+
+1127
+02:10:02,680 --> 02:10:09,320
+ representation than your original vector, okay, and then afterwards we take the encoder output
+
+1128
+02:10:09,320 --> 02:10:16,040
+ from the extra learnable token, pass it through an MLP, right, to perform the classification,
+
+1129
+02:10:17,000 --> 02:10:23,720
+ so right, if you know, because training of this vision transformer is quite expensive, right,
+
+1130
+02:10:23,720 --> 02:10:29,400
+ so typically the common strategy is that someone has spent lots of time to train this
+
+1131
+02:10:29,879 --> 02:10:35,320
+ VIT on some large-scale data set, so typically, you know, someone has already
+
+1132
+02:10:35,320 --> 02:10:40,120
+ do the training, that means there's a pre-trained model already, so when we want to take this
+
+1133
+02:10:40,120 --> 02:10:45,240
+ pre-trained model for our application, so what we typically do is that we take this pre-trained
+
+1134
+02:10:45,240 --> 02:10:52,920
+ model and we only fine tune it, we only adjust a small number of parameters using our target
+
+1135
+02:10:52,920 --> 02:10:59,240
+ data set, suppose initially this someone has spent lots of time to do some, to train this data set,
+
+1136
+02:10:59,719 --> 02:11:05,559
+ for some general purpose application, but suppose our target application is to classify, you know,
+
+1137
+02:11:06,200 --> 02:11:11,880
+ an image into different plans, so and we only have a small data set for this, yeah, so therefore it's
+
+1138
+02:11:11,880 --> 02:11:17,800
+ very hard for us to train this VIT from the scratch, but fear not, what we can do is we can take the
+
+1139
+02:11:17,800 --> 02:11:23,080
+ pre-trained model, someone has trained it, okay, so that means someone has really trained this,
+
+1140
+02:11:23,080 --> 02:11:29,000
+ yeah, what we need to do is only fine tune our MLP for example, this could be one strategy,
+
+1141
+02:11:29,000 --> 02:11:35,160
+ yeah, so we take the pre-trained model, someone has trained, we only use our small data set,
+
+1142
+02:11:35,160 --> 02:11:42,200
+ our plan images, all right, to fine tune our MLP network, right, so this could be one way, right,
+
+1143
+02:11:42,200 --> 02:11:47,880
+ to do the fine tuning, so therefore training often will involve using a pre-trained model
+
+1144
+02:11:48,440 --> 02:11:53,720
+ and then fine tune it, all right, using our target data set, for example our, you know,
+
+1145
+02:11:53,720 --> 02:11:57,160
+ flower and plants, our data set for our target application,
+
+1146
+02:12:01,240 --> 02:12:08,120
+ okay, so yeah, I just, yeah, okay, so I think at this juncture we have already gone through,
+
+1147
+02:12:08,120 --> 02:12:15,160
+ you know, this a few different AI models, so let's continue, so let's continue with this question,
+
+1148
+02:12:15,160 --> 02:12:20,520
+ it says that a user would like to develop an image class application using a model that can
+
+1149
+02:12:20,520 --> 02:12:28,280
+ actually good, you know, accuracy and that also uses a tension mechanism when performing classification,
+
+1150
+02:12:28,280 --> 02:12:33,880
+ he's considering three possible candidates, either VGG, VIT, we'll just study and the LSTM,
+
+1151
+02:12:33,880 --> 02:12:40,600
+ we just study, so state which model is most likely going to meet the user's needs and justify your
+
+1152
+02:12:40,600 --> 02:12:48,200
+ answer, so you can think about it for one moment and then you can let share with me what is your
+
+1153
+02:12:48,200 --> 02:12:56,360
+ answer on the chat box, so what is the most stable model, right, to perform this image classification
+
+1154
+02:12:56,360 --> 02:13:10,360
+ and you want it to have good accuracy and use attention,
+
+1155
+02:13:10,360 --> 02:13:21,320
+ anyone, if you have some idea, please type in the chat box,
+
+1156
+02:13:30,920 --> 02:13:37,559
+ okay, we have some, yeah, some of you mentioned that vision transformer, yeah, is spot on,
+
+1157
+02:13:37,640 --> 02:13:40,680
+ I mean, based on if you understand what we have studied before in the previous lecture,
+
+1158
+02:13:40,680 --> 02:13:45,960
+ you'll know it's a vision transformer, so why, because vision transformer is, you know,
+
+1159
+02:13:45,960 --> 02:13:51,720
+ is goal is to perform classification and we know that, right, you use this transformer encoder,
+
+1160
+02:13:51,720 --> 02:13:59,800
+ so it makes use of the attention mechanism, so how about VGG, VGG actually and also vision
+
+1161
+02:13:59,800 --> 02:14:06,040
+ transformer, it has good performance, so high accuracy, VGG is a CNN, right, so it use this
+
+1162
+02:14:06,040 --> 02:14:12,200
+ convolution idea, it doesn't make use of that tension, so VGG, even though it can be used to
+
+1163
+02:14:12,200 --> 02:14:18,760
+ perform classification, but it doesn't make use of the attention mechanism and in recent years,
+
+1164
+02:14:18,760 --> 02:14:25,160
+ actually we also consider VGG performance is not so strong, okay, LSTM is to work to handle
+
+1165
+02:14:25,160 --> 02:14:31,720
+ sequential data, it's not suitable to perform image classification, yeah, and it also does not make
+
+1166
+02:14:31,720 --> 02:14:38,040
+ use of the attention, so therefore the answer clearly is vision transformer, so let me just
+
+1167
+02:14:38,920 --> 02:14:46,120
+ share with you the, yeah, so the answer is therefore vision transformer, you can see VIT
+
+1168
+02:14:47,240 --> 02:14:51,880
+ manages a transformer architecture, it use attention and it can achieve good performance,
+
+1169
+02:14:52,600 --> 02:14:59,800
+ VGG may use a CNN, it does not leverage on this global attention, right, it use convolution to
+
+1170
+02:14:59,800 --> 02:15:06,920
+ extract this information layer by layer, right, LSTM right is good for sequential data, it's not
+
+1171
+02:15:06,920 --> 02:15:17,400
+ so suitable for image classification, okay, so that is the answer, so next let's continue on,
+
+1172
+02:15:19,400 --> 02:15:25,160
+ right, okay, so yeah, good news, we are coming to the end of this section three, so in section
+
+1173
+02:15:25,240 --> 02:15:31,720
+ three summary, we covered the following, we started about attention transformer, sorry attention
+
+1174
+02:15:31,720 --> 02:15:36,120
+ transformer architecture as well as vision transformer, so therefore for part four, right,
+
+1175
+02:15:36,120 --> 02:15:43,800
+ these are the AI model we have studied, CNN, INN, LSTM and transformer, so we cover some of the very
+
+1176
+02:15:43,800 --> 02:15:51,160
+ important AI model for the context of this particular course, yeah, so we completed part four,
+
+1177
+02:15:51,160 --> 02:15:56,280
+ so in part five we are going to start to see how we can make use of this AI model in various kind
+
+1178
+02:15:56,280 --> 02:16:01,080
+ of video application, so again there are many of them but we are going to only select a few,
+
+1179
+02:16:01,080 --> 02:16:07,240
+ in particular like object detection, tracking, no post estimation and action recognition,
+
+1180
+02:16:07,240 --> 02:16:13,480
+ so those are the topics we are going to cover in part five, but as far as the crease is concerned,
+
+1181
+02:16:13,480 --> 02:16:18,360
+ it will be going to be part three, yeah, as well as part four, right, okay, I think we
+
+1182
+02:16:18,440 --> 02:16:22,120
+ managed to finish the class a bit earlier, so everyone is going to have a
+
+1183
+02:16:25,080 --> 02:16:34,039
+ gorgeous, right, we can't hit it, so any other last question before I kind of wrap up this to this class?
+
+1184
+02:16:39,879 --> 02:16:44,279
+ Okay, let me see this question, we'll try so much.
+
+1185
+02:16:48,360 --> 02:17:10,680
+ Okay, so I think you have one of you actually asked this question, why do you need to perform the
+
+1186
+02:17:10,680 --> 02:17:19,400
+ masking, so this is actually mainly during the training and how should I say, the representations
+
+1187
+02:17:19,400 --> 02:17:23,880
+ of the data during the training, because during the training it's much easier that you just take
+
+1188
+02:17:23,880 --> 02:17:31,160
+ the whole, no, you already, because when you need to train, you need to have the ground truth,
+
+1189
+02:17:31,160 --> 02:17:36,120
+ and it's much easier for you to just simply take the whole ground truth that you have and then
+
+1190
+02:17:36,120 --> 02:17:43,640
+ just use some mass to hide it out, rather than doing the training, generate training ground
+
+1191
+02:17:43,640 --> 02:17:49,320
+ truth output of different lengths, yeah, because that's very cumbersome, so therefore during the
+
+1192
+02:17:49,320 --> 02:17:54,760
+ training it's much easier just to have the output ground truth and then you just hide it, yeah,
+
+1193
+02:17:54,760 --> 02:18:02,520
+ use some mass to hide it, so it's mainly from the, how should I say, the most efficient way to
+
+1194
+02:18:03,240 --> 02:18:09,560
+ implement the strategy, yeah, I mean of course you can also generate training
+
+1195
+02:18:10,680 --> 02:18:15,720
+ sequence of increasing length, but it's very troublesome, yeah, so it's just a
+
+1196
+02:18:16,440 --> 02:18:24,840
+ a neat way of implementing this training strategy, okay, so that's the answer to the
+
+1197
+02:18:24,840 --> 02:18:35,559
+ answer, okay, I hope that particular, yeah, kind of answer,
+
+1198
+02:18:37,400 --> 02:18:44,040
+ kind of, yeah, that answer, I mean the the query that's been raised here, okay, so then that's the
+
+1199
+02:18:44,040 --> 02:18:49,080
+ next question, is that well the content today being included in the test, yes, right, I think, yeah,
+
+1200
+02:18:49,160 --> 02:18:56,200
+ that's in the brief, how should I say, in the quiz information I already clearly mentioned that
+
+1201
+02:18:56,200 --> 02:19:03,000
+ no part three and part four, yeah, will be included in the quiz, so therefore today's content, yeah,
+
+1202
+02:19:03,639 --> 02:19:09,320
+ can be tested in the quiz, right, okay, any other questions?
+
+1203
+02:19:09,719 --> 02:19:20,119
+ So if not, right, just a last reminder, so next week there's no regular lecture now,
+
+1204
+02:19:20,119 --> 02:19:25,400
+ because we have this makeup today, but in week 10 we are going to have the quiz, so please everyone,
+
+1205
+02:19:25,400 --> 02:19:37,639
+ please, you know, attend the quiz on week 10, right, so have a good weekend, I'll see you again, bye-bye.
+

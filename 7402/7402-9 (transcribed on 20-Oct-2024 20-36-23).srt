@@ -1,0 +1,5096 @@
+1
+00:00:00,000 --> 00:00:07,000
+ I can see you.
+
+2
+00:01:00,000 --> 00:01:07,000
+ Okay, so let's start.
+
+3
+00:01:07,000 --> 00:01:16,000
+ Since some of you emailed me to ask.
+
+4
+00:01:16,000 --> 00:01:23,000
+ So, yeah, try to clarify the quiz.
+
+5
+00:01:23,000 --> 00:01:35,000
+ Yeah, so this consider is an announcement since you're staying here and post you think
+
+6
+00:01:35,000 --> 00:01:37,000
+ can also watch video.
+
+7
+00:01:37,000 --> 00:01:49,000
+ So, we already done the Simon one which I'm still marking and I should be able to discuss
+
+8
+00:01:49,000 --> 00:02:08,000
+ the answers next week and which also help you to prepare for the quiz which is week 11,
+
+9
+00:02:08,000 --> 00:02:17,000
+ two weeks later and also could be for the final exams also.
+
+10
+00:02:17,000 --> 00:02:25,000
+ So, for the CA2 which will be the quiz, the contents will be for part 2 only.
+
+11
+00:02:25,000 --> 00:02:39,000
+ That means the detections we are doing now and we cover the first four chapters we have done
+
+12
+00:02:39,000 --> 00:02:47,000
+ for part 2 and today I will finish one more chapter.
+
+13
+00:02:47,000 --> 00:02:55,000
+ It should be chapter 3 and then next week chapter 4 is a short one.
+
+14
+00:02:55,000 --> 00:03:03,000
+ It should be able to do it in half a week and then there will be another one hour for
+
+15
+00:03:03,000 --> 00:03:08,000
+ the discussion of the assignment.
+
+16
+00:03:08,000 --> 00:03:19,000
+ I will not be able to mark each of you but I will give you the mark and I do take note
+
+17
+00:03:19,000 --> 00:03:28,000
+ which part you do not do well if you have some doubt you can check with me.
+
+18
+00:03:28,000 --> 00:03:33,000
+ I will give you the mark in NTU.
+
+19
+00:03:33,000 --> 00:03:41,000
+ But you all have short copies since now is submission by short copy.
+
+20
+00:03:41,000 --> 00:03:51,000
+ So, that's about the arrangement and for the quiz it will be one hour here.
+
+21
+00:03:51,000 --> 00:03:55,000
+ I already announced this before.
+
+22
+00:03:55,000 --> 00:04:02,000
+ And for the format of this quiz, I think maybe different courses, different lecturers,
+
+23
+00:04:02,000 --> 00:04:12,000
+ have different arrangements and so on since our class size is big but not that huge.
+
+24
+00:04:12,000 --> 00:04:32,000
+ We will still follow similar to last year which is roughly about two simple questions
+
+25
+00:04:32,000 --> 00:04:36,000
+ like the exam paper question.
+
+26
+00:04:36,000 --> 00:04:44,000
+ Not the full question because usually if you go to the final exam paper, I think NTU
+
+27
+00:04:44,000 --> 00:04:48,000
+ will learn, not NTU, NTU will learn, NTU will learn.
+
+28
+00:04:48,000 --> 00:04:59,000
+ You can get a few past year papers so you may want to take a look and study and prepare.
+
+29
+00:04:59,000 --> 00:05:05,000
+ Anyway, you have done the assignment one which is for part one.
+
+30
+00:05:05,000 --> 00:05:16,000
+ So, the contents are different is for detection but the first seven questions are also similar
+
+31
+00:05:16,000 --> 00:05:19,000
+ to past year paper questions.
+
+32
+00:05:19,000 --> 00:05:26,000
+ Actually some were taken from past year papers maybe quite a few years back.
+
+33
+00:05:27,000 --> 00:05:40,000
+ Anyway, we only implement the quiz for this course only since last year.
+
+34
+00:05:40,000 --> 00:05:48,000
+ The early one is all by assignment since at that time there was only 20%.
+
+35
+00:05:48,000 --> 00:05:59,000
+ So, the final change to 40% for the CAs so it requires at least one quiz.
+
+36
+00:05:59,000 --> 00:06:06,000
+ So, roughly the performance is about similar.
+
+37
+00:06:06,000 --> 00:06:13,000
+ Every student gets similar math compared to assignments.
+
+38
+00:06:14,000 --> 00:06:18,000
+ So, I follow these models.
+
+39
+00:06:18,000 --> 00:06:22,000
+ There are many more students.
+
+40
+00:06:22,000 --> 00:06:31,000
+ That's also why I haven't finished going through the homework because in the past year
+
+41
+00:06:31,000 --> 00:06:34,000
+ we only had maximum 50 something.
+
+42
+00:06:34,000 --> 00:06:40,000
+ I do finish 50 something so still another 100 to go.
+
+43
+00:06:40,000 --> 00:06:44,000
+ That's why I take one more week to finish.
+
+44
+00:06:48,000 --> 00:06:49,000
+ So, any questions?
+
+45
+00:06:49,000 --> 00:06:55,000
+ Our quiz here is not like multiple choice nor even short answers.
+
+46
+00:06:55,000 --> 00:07:04,000
+ It will be a proper answering question.
+
+47
+00:07:04,000 --> 00:07:07,000
+ So, it may not be too difficult.
+
+48
+00:07:07,000 --> 00:07:09,000
+ It may not be an exam paper.
+
+49
+00:07:09,000 --> 00:07:17,000
+ Usually you have one or sometimes half of the questions may be more challenging.
+
+50
+00:07:17,000 --> 00:07:21,000
+ So, try to make it just like an average.
+
+51
+00:07:25,000 --> 00:07:34,000
+ That's a little bit more detail in case for those students not here.
+
+52
+00:07:34,000 --> 00:07:44,000
+ I will also maybe say an announcement also confirming the day and time
+
+53
+00:07:44,000 --> 00:07:48,000
+ which I believe I have done it before.
+
+54
+00:07:48,000 --> 00:07:50,000
+ It will be in the second half.
+
+55
+00:07:50,000 --> 00:07:58,000
+ We still give lectures for the first one hour plus and then 20 minutes break.
+
+56
+00:07:58,000 --> 00:08:04,000
+ So, come back to take this one hour quiz.
+
+57
+00:08:04,000 --> 00:08:13,000
+ Again, this is only for part two and first for chapter.
+
+58
+00:08:13,000 --> 00:08:26,000
+ By today you already finished chapter three which I believe I will do it.
+
+59
+00:08:26,000 --> 00:08:38,000
+ And then next week I will finish chapter four in half a week.
+
+60
+00:08:38,000 --> 00:08:52,000
+ So, if no questions, we can start the lecture.
+
+61
+00:08:52,000 --> 00:08:56,000
+ Anything you would like to ask?
+
+62
+00:08:56,000 --> 00:09:03,000
+ Let me give a summary.
+
+63
+00:09:03,000 --> 00:09:11,000
+ I will also upload the summaries I prepared before.
+
+64
+00:09:11,000 --> 00:09:14,000
+ Usually only handwriting.
+
+65
+00:09:14,000 --> 00:09:17,000
+ So, let me do this.
+
+66
+00:09:17,000 --> 00:09:25,000
+ Open this.
+
+67
+00:09:35,000 --> 00:09:44,000
+ So, in general, my feeling is this part two.
+
+68
+00:09:44,000 --> 00:09:56,000
+ Of course, assuming you have a good understanding of the part one
+
+69
+00:09:56,000 --> 00:10:03,000
+ which I hope you did the assignment mainly by yourself.
+
+70
+00:10:03,000 --> 00:10:13,000
+ Then you should be not much problem based on my experience.
+
+71
+00:10:13,000 --> 00:10:27,000
+ So, for last week we mainly focus on Bayer's detection approach
+
+72
+00:10:27,000 --> 00:10:31,000
+ which we call Bayer's criteria.
+
+73
+00:10:31,000 --> 00:10:41,000
+ And you can see here, just consider the two types of detection arrows
+
+74
+00:10:41,000 --> 00:10:48,000
+ to a weighting based on the probability of the two hypothesis.
+
+75
+00:10:48,000 --> 00:10:59,000
+ We are mostly focused on binary detection which is just two hypothesis, H0 and H1.
+
+76
+00:10:59,000 --> 00:11:05,000
+ And then, since you combine together with one objective function,
+
+77
+00:11:05,000 --> 00:11:10,000
+ so we can also minimize that.
+
+78
+00:11:10,000 --> 00:11:22,000
+ And it turns out to be the detection or the detector.
+
+79
+00:11:22,000 --> 00:11:39,000
+ Sometimes usually there are two names called as detector or call it as detection statistic.
+
+80
+00:11:39,000 --> 00:11:49,000
+ And in terms of the function because this is like the condition likelihood.
+
+81
+00:11:49,000 --> 00:11:52,000
+ This is a small p. So, don't get confused.
+
+82
+00:11:52,000 --> 00:11:59,000
+ Small p is like functions which are depending on the data.
+
+83
+00:11:59,000 --> 00:12:10,000
+ And it's based on PDA part way interpreted as you are given the data, the realization.
+
+84
+00:12:10,000 --> 00:12:15,000
+ So, therefore, this is condition likelihood.
+
+85
+00:12:15,000 --> 00:12:22,000
+ And then the line size threshold, this is a probability, it's a capital P.
+
+86
+00:12:22,000 --> 00:12:28,000
+ So, this is a small p that give you the threshold.
+
+87
+00:12:28,000 --> 00:12:32,000
+ And it's quite similar to the NP approach.
+
+88
+00:12:32,000 --> 00:12:38,000
+ So, this part is the same where this one is...
+
+89
+00:12:38,000 --> 00:12:44,000
+ the NP approach is depending on the given probability or force alarm.
+
+90
+00:12:44,000 --> 00:12:52,000
+ And then in the special case of these two, the probability of both are the same.
+
+91
+00:12:52,000 --> 00:13:02,000
+ And sometimes, then you only need to compare this condition PDA.
+
+92
+00:13:02,000 --> 00:13:08,000
+ This is our ML or maximum likelihood detector.
+
+93
+00:13:08,000 --> 00:13:13,000
+ It's the same similar to the ML estimator.
+
+94
+00:13:13,000 --> 00:13:23,000
+ And you can also, based on the patient theory, you can write an equivalent.
+
+95
+00:13:23,000 --> 00:13:28,000
+ So, this is under the equal probability.
+
+96
+00:13:28,000 --> 00:13:34,000
+ And you can also compare the posterior probability.
+
+97
+00:13:34,000 --> 00:13:39,000
+ That means once you give the data, based on the given data,
+
+98
+00:13:39,000 --> 00:13:44,000
+ we will see which probability are more likely to happen.
+
+99
+00:13:44,000 --> 00:13:49,000
+ All these are deciding H1.
+
+100
+00:13:49,000 --> 00:13:57,000
+ So, then this posterior probability is higher than, of course, your design.
+
+101
+00:13:57,000 --> 00:14:02,000
+ That doesn't mean that H1 is surely to happen.
+
+102
+00:14:02,000 --> 00:14:07,000
+ And that's why we have detection errors.
+
+103
+00:14:07,000 --> 00:14:15,000
+ When you make the decision, you mostly will hope it's correct,
+
+104
+00:14:15,000 --> 00:14:19,000
+ but it may sometimes be wrong.
+
+105
+00:14:19,000 --> 00:14:27,000
+ Then we also generalize this into Bayer's risk.
+
+106
+00:14:27,000 --> 00:14:38,000
+ So, if you compare this one with the previous P, you can see this is more general.
+
+107
+00:14:38,000 --> 00:14:43,000
+ We're adding the cost here, the Cij.
+
+108
+00:14:43,000 --> 00:14:51,000
+ And again, the final case, we will consider all the possibilities.
+
+109
+00:14:51,000 --> 00:15:01,000
+ Even in principle, we may also consider some risks,
+
+110
+00:15:01,000 --> 00:15:08,000
+ because even if you make the right decision, in this format, there will be four of them.
+
+111
+00:15:08,000 --> 00:15:14,000
+ Also, you may say, I'm posing as zero, or make a very small number.
+
+112
+00:15:14,000 --> 00:15:17,000
+ The way we write this is it will be more convenient.
+
+113
+00:15:17,000 --> 00:15:24,000
+ You want to generalize into the multiple case.
+
+114
+00:15:24,000 --> 00:15:32,000
+ Then, again, you minimize this R, then you can prove.
+
+115
+00:15:32,000 --> 00:15:44,000
+ It gives you the same conditional likelihood ratio.
+
+116
+00:15:44,000 --> 00:15:55,000
+ And then the threshold is also depending on both this P of H0 and P H1.
+
+117
+00:15:55,000 --> 00:15:59,000
+ Also multiplied by this cost.
+
+118
+00:15:59,000 --> 00:16:07,000
+ So, they will be decided by the users.
+
+119
+00:16:07,000 --> 00:16:14,000
+ If you fear the two types of errors, they are not equal.
+
+120
+00:16:14,000 --> 00:16:17,000
+ One error is more critical.
+
+121
+00:16:17,000 --> 00:16:21,000
+ You can put in heavier weights.
+
+122
+00:16:21,000 --> 00:16:30,000
+ That's why I told you earlier, the good example is the MRT breakdown.
+
+123
+00:16:30,000 --> 00:16:38,000
+ That one is more serious, because it affects many people and disrupts them.
+
+124
+00:16:38,000 --> 00:16:46,000
+ That's why now the Singapore Parliament is debating to spend more money
+
+125
+00:16:46,000 --> 00:16:50,000
+ to do a more frequent check to prevent that happen.
+
+126
+00:16:50,000 --> 00:16:56,000
+ But you will incur higher costs, because that's why the companies,
+
+127
+00:16:56,000 --> 00:17:02,000
+ the MRT, the arguing sale, I need more frequent check.
+
+128
+00:17:02,000 --> 00:17:11,000
+ The fare will increase further, because you cannot have the high costs.
+
+129
+00:17:11,000 --> 00:17:16,000
+ So, you need to decide which one is more important.
+
+130
+00:17:16,000 --> 00:17:20,000
+ Of course, in the end, you will try a balance.
+
+131
+00:17:20,000 --> 00:17:26,000
+ But this gives you a good example of introducing the cost.
+
+132
+00:17:26,000 --> 00:17:28,000
+ Okay?
+
+133
+00:17:28,000 --> 00:17:34,000
+ Then we can also explain to multiple other testing.
+
+134
+00:17:34,000 --> 00:17:43,000
+ But as I mentioned, this is not our main focus.
+
+135
+00:17:43,000 --> 00:17:52,000
+ I think for those students who need to learn more,
+
+136
+00:17:52,000 --> 00:17:59,000
+ particularly applying to research or project, then you can spend more time.
+
+137
+00:17:59,000 --> 00:18:11,000
+ But for most of the students, the final test will be the basic requirements.
+
+138
+00:18:11,000 --> 00:18:22,000
+ That's also what I usually give the scope for the quiz and also for the final exams.
+
+139
+00:18:22,000 --> 00:18:29,000
+ So next week, I will also discuss briefly among these four chapters.
+
+140
+00:18:29,000 --> 00:18:34,000
+ I may exclude some of the contents.
+
+141
+00:18:34,000 --> 00:18:38,000
+ And that's also for the final exams.
+
+142
+00:18:39,000 --> 00:18:55,000
+ That's about the very brief introduction before we move on to the lectures.
+
+143
+00:18:55,000 --> 00:18:58,000
+ The chapter follows this.
+
+144
+00:18:58,000 --> 00:19:01,000
+ One, two, three, four.
+
+145
+00:19:02,000 --> 00:19:10,000
+ Any questions before we continue from here?
+
+146
+00:19:10,000 --> 00:19:29,000
+ Okay, so if not, then we can move on to this.
+
+147
+00:19:29,000 --> 00:19:33,000
+ Let me try this.
+
+148
+00:19:34,000 --> 00:19:50,000
+ So chapter three and four will be applying what we learned in chapter two,
+
+149
+00:19:50,000 --> 00:19:53,000
+ which I'll give you already, the two main theories.
+
+150
+00:19:53,000 --> 00:19:57,000
+ One is NP-detector.
+
+151
+00:19:57,000 --> 00:20:06,000
+ The other is the Bayesian detector also.
+
+152
+00:20:06,000 --> 00:20:16,000
+ In this chapter, we will just apply mostly the NP-detector.
+
+153
+00:20:16,000 --> 00:20:26,000
+ Also at the end, we will also discuss a smaller part of the Bayesian approach.
+
+154
+00:20:26,000 --> 00:20:30,000
+ And we will be looking at some applications.
+
+155
+00:20:30,000 --> 00:20:37,000
+ And in this chapter, it will be deterministic signal with known parameters.
+
+156
+00:20:37,000 --> 00:20:43,000
+ So it's more or less an easier problem.
+
+157
+00:20:43,000 --> 00:20:49,000
+ And the next chapter is a random signal, but also with known parameters.
+
+158
+00:20:49,000 --> 00:20:58,000
+ So you can see that chapter four will be slightly more difficult
+
+159
+00:20:58,000 --> 00:21:01,000
+ because you involve the random signal.
+
+160
+00:21:01,000 --> 00:21:04,000
+ And finally, chapter five, which is unknown.
+
+161
+00:21:04,000 --> 00:21:07,000
+ You will have some unknown parameters.
+
+162
+00:21:07,000 --> 00:21:18,000
+ So typically you need to combine what you learned in the estimation theory together.
+
+163
+00:21:19,000 --> 00:21:23,000
+ Okay?
+
+164
+00:21:23,000 --> 00:21:36,000
+ So you can see here, if we are moving to some specific application scenario
+
+165
+00:21:36,000 --> 00:21:46,000
+ to see how we apply both the NP approach and the Bayesian criteria.
+
+166
+00:21:46,000 --> 00:21:55,000
+ And since in this chapter or this week, we will discuss the case where the signal
+
+167
+00:21:55,000 --> 00:22:00,000
+ with known deterministic signals.
+
+168
+00:22:00,000 --> 00:22:10,000
+ And of course, it's not just the signal except as I already highlighted here.
+
+169
+00:22:10,000 --> 00:22:17,000
+ We always assume we have some noisy measurement.
+
+170
+00:22:17,000 --> 00:22:24,000
+ So in the end, what we add to noise will be random Gaussian.
+
+171
+00:22:24,000 --> 00:22:28,000
+ So that's why we call this course a statistical signal processing.
+
+172
+00:22:28,000 --> 00:22:33,000
+ We are dealing with some random signal or noise.
+
+173
+00:22:33,000 --> 00:22:42,000
+ And since in this case, we mostly assume the signal and the PDF of noise are known.
+
+174
+00:22:42,000 --> 00:22:52,000
+ So it is a relatively easier problem to tackle.
+
+175
+00:22:52,000 --> 00:23:02,000
+ And sometimes we may be able to get the optimal solutions in close form, but not always.
+
+176
+00:23:02,000 --> 00:23:09,000
+ We will see how much we can do for this.
+
+177
+00:23:09,000 --> 00:23:10,000
+ Okay?
+
+178
+00:23:10,000 --> 00:23:25,000
+ So again, this is the application of these two and how to apply what we will see in the actual applications.
+
+179
+00:23:25,000 --> 00:23:33,000
+ We are mostly assume this Gaussian noise and not necessarily why it could be color.
+
+180
+00:23:33,000 --> 00:23:44,000
+ But the idea you can also explain it to other type of noise assuming you know the PDF.
+
+181
+00:23:44,000 --> 00:23:51,000
+ So don't take it for granted only Gaussian noise or Gaussian signals.
+
+182
+00:23:51,000 --> 00:23:53,000
+ Okay?
+
+183
+00:23:53,000 --> 00:24:08,000
+ And once we get the test statistic, we also need to look at the detectors performance to see how good it is.
+
+184
+00:24:08,000 --> 00:24:18,000
+ So this is also part of the things we need to learn and we need to apply in the application.
+
+185
+00:24:18,000 --> 00:24:34,000
+ So one of the very good application is we can link to what I hope you have learned DSP.
+
+186
+00:24:34,000 --> 00:24:41,000
+ So at least filters which is very fundamental.
+
+187
+00:24:41,000 --> 00:25:00,000
+ Actually for NTU, the undergraduate students, they can take an optional course in DSP, but not like compulsory, not like signaling system.
+
+188
+00:25:00,000 --> 00:25:20,000
+ So if you have the knowledge of filter, it will help, but if not, I think it's not too difficult to learn from here because we are only using very simple concepts of mesh filter.
+
+189
+00:25:20,000 --> 00:25:32,000
+ And it is IRR filters, so it's a IRR filter which is easier comparing to IRR filter.
+
+190
+00:25:32,000 --> 00:25:34,000
+ Okay?
+
+191
+00:25:34,000 --> 00:25:55,000
+ So let's see what we can do starting with NP criteria because we already know the tools are quite related.
+
+192
+00:25:55,000 --> 00:26:07,000
+ So we will focus more on NP detector and later we can move on to the Bayesian criteria.
+
+193
+00:26:07,000 --> 00:26:31,000
+ So let's start with the very simple detection problem which is quite a typical one and it's slightly more complicated comparing to the easiest one is, as I already mentioned,
+
+194
+00:26:31,000 --> 00:26:46,000
+ if you have DC constant value, DC value, A in white Gaussian noise which is the simplest in both estimation and detection.
+
+195
+00:26:46,000 --> 00:26:57,000
+ Well here we make it a little bit more general by having the signal as a non-signal but it's not constant.
+
+196
+00:26:57,000 --> 00:27:16,000
+ So you need to differentiate the different situations where the given problem may be related but not exactly the same.
+
+197
+00:27:16,000 --> 00:27:25,000
+ Okay? And for the time being we assume this S-n is non-signal, so it's like given one.
+
+198
+00:27:25,000 --> 00:27:34,000
+ You don't need to estimate. You already know some sideways or exponential signal and so on.
+
+199
+00:27:34,000 --> 00:27:46,000
+ And furthermore the noise here is white Gaussian noise ensures WGN and then with a barrier that's the typical symbol.
+
+200
+00:27:46,000 --> 00:27:59,000
+ This is also known as given. So we assume we have capital N sample here and of course they are different from estimation.
+
+201
+00:27:59,000 --> 00:28:12,000
+ For detection we always need to give at least the two hyper-excesses in this case H0, H1 or sometimes you may add more than two.
+
+202
+00:28:12,000 --> 00:28:29,000
+ And this is a little bit simple knowledge in signal processing. You see we have the auto correlation functions.
+
+203
+00:28:29,000 --> 00:28:54,000
+ We can define in general for stationary random signals. But in the case here for white Gaussian noise then it will be just given by a discrete time delta function.
+
+204
+00:28:54,000 --> 00:29:07,000
+ Assuming we are dealing with discrete samples. So that's very clear. You are given here is the noise, white Gaussian noise.
+
+205
+00:29:07,000 --> 00:29:23,000
+ Then the auto correlation is the sequence of the signal auto-correlative with a shift version of except depending on how much shift K here.
+
+206
+00:29:23,000 --> 00:29:37,000
+ And white Gaussian noise that means this tool you can also consider as two random variable.
+
+207
+00:29:37,000 --> 00:29:43,000
+ Because it comes from random variable at each time instant.
+
+208
+00:29:44,000 --> 00:29:54,000
+ This result tells you that this delta K of course you should know the meaning of the discrete time delta function.
+
+209
+00:29:54,000 --> 00:30:05,000
+ So don't get confused with a continue time delta function which you will define as infinity large at t equal to 0.
+
+210
+00:30:05,000 --> 00:30:16,000
+ Here K equal to 0 the delta function take a value of 1 not infinity large because discrete time delta function.
+
+211
+00:30:16,000 --> 00:30:30,000
+ Equal to 0 for any K not equal to 0. So the meaning here is only when the random variable auto-correlative with except without any shift.
+
+212
+00:30:30,000 --> 00:30:38,000
+ Then of course you will have E W N raise to power 2.
+
+213
+00:30:38,000 --> 00:30:47,000
+ Like the second moment and remember here even for random signal.
+
+214
+00:30:47,000 --> 00:30:54,000
+ The random signal you can also talk about positive negative.
+
+215
+00:30:54,000 --> 00:31:05,000
+ Also we don't know the actual value but if you talk about random of course the real signal raise to power 2.
+
+216
+00:31:05,000 --> 00:31:14,000
+ Then of course you can never be negative since for whatever realization it could be positive negative.
+
+217
+00:31:14,000 --> 00:31:21,000
+ But once you get the value even if it's negative the raise to power 2 becomes positive.
+
+218
+00:31:21,000 --> 00:31:31,000
+ So still follow the similar or same you know like property.
+
+219
+00:31:31,000 --> 00:31:43,000
+ And so in this case if you have a random variable raise to power 2 you will not be 0 unless the signal is not random.
+
+220
+00:31:43,000 --> 00:31:50,000
+ If random then it must have some value in the case of 0 mean.
+
+221
+00:31:50,000 --> 00:31:59,000
+ So that will give you all the value because for white Gaussian noise assuming is 0 mean.
+
+222
+00:31:59,000 --> 00:32:09,000
+ So that's how this is just a brief review for those of you who may not have learned this before.
+
+223
+00:32:09,000 --> 00:32:18,000
+ Now going back to NP approach we have done this several times and go through some examples.
+
+224
+00:32:18,000 --> 00:32:30,000
+ Then you just take the likelihood ratio and here this is the given threshold.
+
+225
+00:32:30,000 --> 00:32:38,000
+ Then for NP approach it will depend on the probability of false alarms and so on.
+
+226
+00:32:38,000 --> 00:32:47,000
+ For the moment we just assume that's a threshold without knowing its value yet.
+
+227
+00:32:47,000 --> 00:33:02,000
+ Now as you will only know for noise only then of course this major data will follow the 0 mean Gaussian distribution under H0.
+
+228
+00:33:02,000 --> 00:33:09,000
+ And if under H1 you will have some signal.
+
+229
+00:33:09,000 --> 00:33:12,000
+ So the mean here is S of n.
+
+230
+00:33:12,000 --> 00:33:15,000
+ S n is deterministic so that give you all the mean.
+
+231
+00:33:15,000 --> 00:33:20,000
+ It could be positive, it could be negative but it will in general change over time.
+
+232
+00:33:20,000 --> 00:33:27,000
+ So that means you can think about it will be Gaussian random variable.
+
+233
+00:33:27,000 --> 00:33:35,000
+ But over the time the mean value will change depending on the X of n.
+
+234
+00:33:35,000 --> 00:33:40,000
+ It's not the fixed DC constant value.
+
+235
+00:33:40,000 --> 00:33:55,000
+ But in terms of the period of likelihood function you will get the same expression for both of them.
+
+236
+00:33:55,000 --> 00:33:59,000
+ Except the mean of course here.
+
+237
+00:33:59,000 --> 00:34:03,000
+ This is you can think about 0 mean this is the mean equal to S n.
+
+238
+00:34:03,000 --> 00:34:09,000
+ So both are the same if S n is equal to 0 all the time.
+
+239
+00:34:09,000 --> 00:34:16,000
+ But in general we will be unable to tell the two if S n becomes 0.
+
+240
+00:34:16,000 --> 00:34:21,000
+ There will be no signals all the time.
+
+241
+00:34:21,000 --> 00:34:27,000
+ So we will see some difference between the two.
+
+242
+00:34:27,000 --> 00:34:35,000
+ So based on that you will take the ratio.
+
+243
+00:34:35,000 --> 00:34:44,000
+ And then because it's a financial signal I think there may be a good time to review.
+
+244
+00:34:44,000 --> 00:34:49,000
+ Also I hope some...
+
+245
+00:34:49,000 --> 00:34:52,000
+ It's interesting.
+
+246
+00:34:52,000 --> 00:34:54,000
+ Let me see which one.
+
+247
+00:34:54,000 --> 00:34:58,000
+ So this is what I left last week here.
+
+248
+00:34:58,000 --> 00:35:04,000
+ One way so that the few Q function property are here.
+
+249
+00:35:04,000 --> 00:35:06,000
+ So good.
+
+250
+00:35:06,000 --> 00:35:11,000
+ No one want to take this piece of paper.
+
+251
+00:35:11,000 --> 00:35:19,000
+ Maybe not useful for most of the people here.
+
+252
+00:35:19,000 --> 00:35:23,000
+ But at least they don't slow that way.
+
+253
+00:35:23,000 --> 00:35:29,000
+ So that's a good side here.
+
+254
+00:35:29,000 --> 00:35:40,000
+ So some of the basic math I think as a master or PhD student you should always...
+
+255
+00:35:41,000 --> 00:35:44,000
+ ...know here.
+
+256
+00:35:44,000 --> 00:35:52,000
+ So if you have E of A divided by E of B.
+
+257
+00:35:52,000 --> 00:35:55,000
+ I hope some of the...
+
+258
+00:35:55,000 --> 00:35:57,000
+ Not very good.
+
+259
+00:35:57,000 --> 00:36:00,000
+ Let me try this one.
+
+260
+00:36:00,000 --> 00:36:03,000
+ That looks better.
+
+261
+00:36:04,000 --> 00:36:13,000
+ Then it will be the same as you can combine to A minus B.
+
+262
+00:36:13,000 --> 00:36:24,000
+ So that's a very basic property of exponential signals.
+
+263
+00:36:24,000 --> 00:36:30,000
+ So that's what you should remember.
+
+264
+00:36:30,000 --> 00:36:34,000
+ In case you...
+
+265
+00:36:34,000 --> 00:36:37,000
+ Maybe forget here.
+
+266
+00:36:37,000 --> 00:36:39,000
+ So let's now come back here.
+
+267
+00:36:39,000 --> 00:36:45,000
+ You see our ratio is this one divided by...
+
+268
+00:36:45,000 --> 00:36:55,000
+ Sorry, we should remember in the right ratio on the left-hand side it will be H1...
+
+269
+00:36:55,000 --> 00:37:00,000
+ In the numerator then H0 is denominator.
+
+270
+00:37:00,000 --> 00:37:08,000
+ So that means this one, follow what I just showed, is A then subtract the B here.
+
+271
+00:37:08,000 --> 00:37:13,000
+ So that will be easy.
+
+272
+00:37:13,000 --> 00:37:16,000
+ So don't stop there.
+
+273
+00:37:16,000 --> 00:37:31,000
+ You see our detector, the way we do is you always try to simplify this likelihood ratio in such a way where...
+
+274
+00:37:31,000 --> 00:37:39,000
+ ...you try to put those terms depending on the data.
+
+275
+00:37:39,000 --> 00:37:47,000
+ Because this is what we are going to base our detector on the left-hand side.
+
+276
+00:37:47,000 --> 00:37:50,000
+ Whatever those terms...
+
+277
+00:37:50,000 --> 00:37:56,000
+ It could be more than one term, maybe several terms including the coefficient.
+
+278
+00:37:56,000 --> 00:38:03,000
+ You try to move those into combining to the right side into a ratio.
+
+279
+00:38:03,000 --> 00:38:12,000
+ Because as long as those terms are independent of the data, it could be depending on the signal.
+
+280
+00:38:12,000 --> 00:38:22,000
+ The signal, if they are given, you treat them as constant.
+
+281
+00:38:22,000 --> 00:38:25,000
+ At least in terms of comparing to the major data.
+
+282
+00:38:25,000 --> 00:38:31,000
+ These are the non-conditives.
+
+283
+00:38:31,000 --> 00:38:35,000
+ First, I hope you... the summation is the same.
+
+284
+00:38:35,000 --> 00:38:42,000
+ Make sure you sum them in the same index so you can combine these two.
+
+285
+00:38:42,000 --> 00:38:46,000
+ Once you explain this, this is quadratic.
+
+286
+00:38:46,000 --> 00:38:49,000
+ Again, I hope everyone knows how to do...
+
+287
+00:38:49,000 --> 00:38:52,000
+ ...explain A plus B with power 2.
+
+288
+00:38:52,000 --> 00:38:54,000
+ It will be three terms.
+
+289
+00:38:54,000 --> 00:38:57,000
+ The first one is Xn power 2.
+
+290
+00:38:57,000 --> 00:38:59,000
+ You have to check.
+
+291
+00:38:59,000 --> 00:39:02,000
+ You will not have this one.
+
+292
+00:39:02,000 --> 00:39:08,000
+ Then you have the cross term, which is producing the minors 2.
+
+293
+00:39:08,000 --> 00:39:10,000
+ They are divided by this.
+
+294
+00:39:10,000 --> 00:39:13,000
+ Then you have minors divided by 2.
+
+295
+00:39:13,000 --> 00:39:17,000
+ That's why this one came out.
+
+296
+00:39:17,000 --> 00:39:22,000
+ Finally, you have the third term, which is Xn power 2.
+
+297
+00:39:22,000 --> 00:39:26,000
+ Because A plus B raises the power of 2.
+
+298
+00:39:26,000 --> 00:39:33,000
+ Then the other term, let, it will be this one.
+
+299
+00:39:33,000 --> 00:39:39,000
+ You see here, raise the power of 2, it will be positive sign.
+
+300
+00:39:39,000 --> 00:39:45,000
+ Therefore, this minus 1 over 2 sigma power 2, still there.
+
+301
+00:39:45,000 --> 00:39:47,000
+ These are your things.
+
+302
+00:39:47,000 --> 00:39:51,000
+ Don't neglect this small difference.
+
+303
+00:39:51,000 --> 00:39:58,000
+ That's a typical mistake, particularly during the exams.
+
+304
+00:39:58,000 --> 00:40:05,000
+ Given the short time, if you are not careful, you can easily make mistakes like this.
+
+305
+00:40:05,000 --> 00:40:13,000
+ Therefore, as I already mentioned, to do the detection,
+
+306
+00:40:13,000 --> 00:40:21,000
+ we need to base on those terms involving the major data.
+
+307
+00:40:21,000 --> 00:40:24,000
+ In this case, X of n.
+
+308
+00:40:24,000 --> 00:40:28,000
+ You consider this one as no.
+
+309
+00:40:28,000 --> 00:40:37,000
+ By the way, the difference between this one and the previous one is we take log.
+
+310
+00:40:37,000 --> 00:40:41,000
+ In this one, we haven't taken log, so it's exponential signal.
+
+311
+00:40:41,000 --> 00:40:43,000
+ After combining, you have this.
+
+312
+00:40:43,000 --> 00:40:47,000
+ Once you take exponential signal, don't forget.
+
+313
+00:40:47,000 --> 00:40:57,000
+ If later you need to get the value of the threshold, you also need to take log of that one.
+
+314
+00:40:57,000 --> 00:41:03,000
+ Therefore, what we will take will be this one.
+
+315
+00:41:03,000 --> 00:41:10,000
+ Again, as I said, this sigma power 2 is also considered as a non-constant.
+
+316
+00:41:10,000 --> 00:41:15,000
+ Make sure you know this is positive.
+
+317
+00:41:15,000 --> 00:41:19,000
+ If it's positive and no g-log, you can multiply.
+
+318
+00:41:19,000 --> 00:41:22,000
+ In this case, it's already in the denominator.
+
+319
+00:41:22,000 --> 00:41:26,000
+ Multiply sigma power 2, create this one.
+
+320
+00:41:26,000 --> 00:41:27,000
+ You become one.
+
+321
+00:41:27,000 --> 00:41:30,000
+ The other one, you multiply.
+
+322
+00:41:31,000 --> 00:41:38,000
+ Then, this term, you combine, you move to the right side.
+
+323
+00:41:38,000 --> 00:41:42,000
+ You can always group that as a new threshold.
+
+324
+00:41:42,000 --> 00:41:47,000
+ That looks very neat now.
+
+325
+00:41:47,000 --> 00:41:56,000
+ Typically, we cannot simplify further because some students, even in the assignment,
+
+326
+00:41:56,000 --> 00:42:01,000
+ at least not many students make this mistake.
+
+327
+00:42:01,000 --> 00:42:09,000
+ But sometimes, if you think you want to simplify further, you simplify it,
+
+328
+00:42:09,000 --> 00:42:15,000
+ but it must be done correctly because some students pull out this x-axis outside.
+
+329
+00:42:15,000 --> 00:42:20,000
+ Particularly, if you have the denominator, which also has the x-axis,
+
+330
+00:42:20,000 --> 00:42:24,000
+ it's very tempting to simplify.
+
+331
+00:42:24,000 --> 00:42:31,000
+ You want to kingsaw out, but as I said, the function of the intake,
+
+332
+00:42:31,000 --> 00:42:33,000
+ you can never pull it out.
+
+333
+00:42:33,000 --> 00:42:38,000
+ You can pull out if this is constant or independent of n.
+
+334
+00:42:38,000 --> 00:42:44,000
+ Now, this term is you can't do much any further.
+
+335
+00:42:44,000 --> 00:42:45,000
+ You stay here.
+
+336
+00:42:45,000 --> 00:42:50,000
+ Sometimes, we may divide it by normalize, by divide capital N,
+
+337
+00:42:50,000 --> 00:42:56,000
+ to sample means and so on.
+
+338
+00:42:56,000 --> 00:43:03,000
+ Therefore, now, we want to, since we are using the NP approach,
+
+339
+00:43:03,000 --> 00:43:08,000
+ if we have fixed the probability of forcing up to the alpha,
+
+340
+00:43:08,000 --> 00:43:14,000
+ then we can be psi h1 if the past statistic.
+
+341
+00:43:14,000 --> 00:43:18,000
+ Sometimes, we call it as a detector, because in this case,
+
+342
+00:43:18,000 --> 00:43:22,000
+ we are doing the detection test based on the data.
+
+343
+00:43:22,000 --> 00:43:26,000
+ So, we also call it as a statistic.
+
+344
+00:43:26,000 --> 00:43:30,000
+ There are several similar terms.
+
+345
+00:43:30,000 --> 00:43:37,000
+ Then, this is what we, our NP detectors.
+
+346
+00:43:37,000 --> 00:43:41,000
+ So, you include this and also a threshold.
+
+347
+00:43:41,000 --> 00:43:49,000
+ The threshold is depending on this probability of force alone.
+
+348
+00:43:49,000 --> 00:43:55,000
+ Then, you can see here, this is a function of the data.
+
+349
+00:43:55,000 --> 00:44:02,000
+ Then, this we need to choose according to our given condition.
+
+350
+00:44:02,000 --> 00:44:03,000
+ How to do that?
+
+351
+00:44:03,000 --> 00:44:04,000
+ Sometimes, it's easy.
+
+352
+00:44:04,000 --> 00:44:07,000
+ Sometimes, not so easy.
+
+353
+00:44:07,000 --> 00:44:12,000
+ We will see examples here.
+
+354
+00:44:12,000 --> 00:44:18,000
+ So, this is simplified example in the very special case.
+
+355
+00:44:18,000 --> 00:44:24,000
+ Xn equal to a, and become a dc level.
+
+356
+00:44:24,000 --> 00:44:30,000
+ We assume a greater than 0.
+
+357
+00:44:31,000 --> 00:44:38,000
+ Because in this case, we can easily divide by a.
+
+358
+00:44:38,000 --> 00:44:44,000
+ But if a is negative, you can also do it easily.
+
+359
+00:44:44,000 --> 00:44:53,000
+ But inequality will change, because if you're dividing a negative value.
+
+360
+00:44:53,000 --> 00:44:57,000
+ So, in this case, later we will talk about,
+
+361
+00:44:57,000 --> 00:45:01,000
+ even in the case we don't know the side at all,
+
+362
+00:45:01,000 --> 00:45:06,000
+ then we will have some difficulty.
+
+363
+00:45:06,000 --> 00:45:12,000
+ But for the time being, we assume we know either positive or negative.
+
+364
+00:45:12,000 --> 00:45:18,000
+ So, for this example, we assume this is positive.
+
+365
+00:45:18,000 --> 00:45:23,000
+ Then, therefore, in this case, now you'll see it's a constant.
+
+366
+00:45:23,000 --> 00:45:26,000
+ You can pull out the a.
+
+367
+00:45:26,000 --> 00:45:30,000
+ Therefore, this is one way.
+
+368
+00:45:30,000 --> 00:45:42,000
+ For the detectors, they are not unique expressions.
+
+369
+00:45:42,000 --> 00:45:46,000
+ You can write this one also correct.
+
+370
+00:45:46,000 --> 00:45:51,000
+ Or you can divide by a positive constant.
+
+371
+00:45:51,000 --> 00:45:56,000
+ Either this or even divide by two, as long as it's positive.
+
+372
+00:45:56,000 --> 00:45:59,000
+ They are all called detectors.
+
+373
+00:45:59,000 --> 00:46:02,000
+ But then, you need to be consistent.
+
+374
+00:46:02,000 --> 00:46:05,000
+ Once you do this on the left-hand side,
+
+375
+00:46:05,000 --> 00:46:09,000
+ the threshold will also change accordingly.
+
+376
+00:46:09,000 --> 00:46:17,000
+ Therefore, you'll see here, we use a new gamma 2-pride,
+
+377
+00:46:17,000 --> 00:46:21,000
+ rather than one-pride.
+
+378
+00:46:21,000 --> 00:46:26,000
+ Therefore, in this case, you can see, for this special case,
+
+379
+00:46:26,000 --> 00:46:30,000
+ that's the sample mean detector.
+
+380
+00:46:30,000 --> 00:46:36,000
+ We already discussed this earlier.
+
+381
+00:46:36,000 --> 00:46:42,000
+ We can also consider another situation where the s-n is equal to this.
+
+382
+00:46:42,000 --> 00:46:46,000
+ So, go dump it, the exponential in white Gaussian noise.
+
+383
+00:46:47,000 --> 00:46:57,000
+ Here, the i is constant, which is between 0 and 1.
+
+384
+00:46:57,000 --> 00:47:02,000
+ When n goes bigger and bigger, it will get smaller.
+
+385
+00:47:02,000 --> 00:47:05,000
+ So, let's dump it, exponential.
+
+386
+00:47:05,000 --> 00:47:10,000
+ Weapon if i is greater than 1,
+
+387
+00:47:10,000 --> 00:47:18,000
+ then the signal will become exponentially growing up to infinity.
+
+388
+00:47:18,000 --> 00:47:23,000
+ That's not happening in realistic.
+
+389
+00:47:23,000 --> 00:47:31,000
+ If i goes to 1, then it becomes constant, like that, at the DC.
+
+390
+00:47:31,000 --> 00:47:37,000
+ In this case, our test statistic is just substituted inside.
+
+391
+00:47:38,000 --> 00:47:40,000
+ So, we'll see here.
+
+392
+00:47:40,000 --> 00:47:43,000
+ Then you can see this i-n, as I mentioned,
+
+393
+00:47:43,000 --> 00:47:48,000
+ when n increases, it gets smaller and smaller.
+
+394
+00:47:48,000 --> 00:47:53,000
+ Here, we are doing the sample mean,
+
+395
+00:47:53,000 --> 00:47:57,000
+ but to put the weight into the data, you see here.
+
+396
+00:47:57,000 --> 00:48:05,000
+ Since this n, our power of n, gets smaller and smaller.
+
+397
+00:48:05,000 --> 00:48:13,000
+ So, you'll see the weight is largest when n goes to 0.
+
+398
+00:48:13,000 --> 00:48:16,000
+ That means the current, our current data.
+
+399
+00:48:16,000 --> 00:48:29,000
+ Then when the n increases, that means the signal is a decaying,
+
+400
+00:48:29,000 --> 00:48:35,000
+ so you multiply by a value smaller than 1.
+
+401
+00:48:35,000 --> 00:48:40,000
+ So, you'll get the smaller weighties.
+
+402
+00:48:40,000 --> 00:48:44,000
+ If the noise power remains the same,
+
+403
+00:48:44,000 --> 00:48:52,000
+ therefore, our signal to noise ratio will decrease over time.
+
+404
+00:48:52,000 --> 00:48:58,000
+ That's some implications here.
+
+405
+00:48:58,000 --> 00:49:07,000
+ Therefore, you can see here the concept of match filter comes from here.
+
+406
+00:49:07,000 --> 00:49:14,000
+ Then the next topic, we will see how to do the match.
+
+407
+00:49:15,000 --> 00:49:27,000
+ The idea here is, our weight is depending on the signal value in general,
+
+408
+00:49:27,000 --> 00:49:29,000
+ you see our s-n.
+
+409
+00:49:29,000 --> 00:49:34,000
+ Here, even if s-n is negative value, the larger the absolute value,
+
+410
+00:49:34,000 --> 00:49:39,000
+ you can see the weighting is also heavy.
+
+411
+00:49:39,000 --> 00:49:45,000
+ Because if you have a negative value, the signal, even if it's noise,
+
+412
+00:49:45,000 --> 00:49:50,000
+ it will contain, you know, we always remember, we're dealing with signal noise.
+
+413
+00:49:50,000 --> 00:49:55,000
+ So, you'll contain the same signal, say if it's negative,
+
+414
+00:49:55,000 --> 00:50:00,000
+ you multiply by a negative value, except it will become a power of 2.
+
+415
+00:50:00,000 --> 00:50:03,000
+ It will become positive.
+
+416
+00:50:03,000 --> 00:50:06,000
+ Of course, excluding the noise.
+
+417
+00:50:06,000 --> 00:50:17,000
+ So, that means the absolute value is larger, the heavier we are doing the weighting.
+
+418
+00:50:17,000 --> 00:50:27,000
+ Therefore, you can see here our test statistic, the weight is depending on the s-n.
+
+419
+00:50:28,000 --> 00:50:40,000
+ That's why we can introduce the concept of either correlator,
+
+420
+00:50:40,000 --> 00:50:47,000
+ I mean we are doing the correlation, and this is the given signal.
+
+421
+00:50:47,000 --> 00:50:53,000
+ Correlation, as you already know, like auto-correlation, we try to multiply,
+
+422
+00:50:54,000 --> 00:51:01,000
+ and then see, you know, what value can we get.
+
+423
+00:51:01,000 --> 00:51:14,000
+ So, therefore, using this block diagram, you can see our detector is given the x-n.
+
+424
+00:51:14,000 --> 00:51:19,000
+ This is what we measure, signal noise.
+
+425
+00:51:19,000 --> 00:51:26,000
+ But since we know the s-n, you see, so we can just create the s-n,
+
+426
+00:51:26,000 --> 00:51:32,000
+ I think most of you are in the COM, COM, MSC program.
+
+427
+00:51:32,000 --> 00:51:40,000
+ So, that's a little bit like modulation, you see, you have the non-signal,
+
+428
+00:51:40,000 --> 00:51:48,000
+ another high frequency carrier you multiply, then you create the product.
+
+429
+00:51:48,000 --> 00:51:51,000
+ The index of n is at the same time.
+
+430
+00:51:51,000 --> 00:52:00,000
+ So, when the time moves, the x-n keeps changing, the x of n also keeps changing.
+
+431
+00:52:00,000 --> 00:52:05,000
+ So, you multiply n, assuming total we have capital N sample,
+
+432
+00:52:05,000 --> 00:52:09,000
+ and you just sum them together, that's what we call t of x.
+
+433
+00:52:09,000 --> 00:52:15,000
+ And after that, you need to compare, just like in a circuit,
+
+434
+00:52:15,000 --> 00:52:26,000
+ you have another simple function to do the compression here,
+
+435
+00:52:26,000 --> 00:52:32,000
+ comparing to a given threshold, and then you make the decision,
+
+436
+00:52:32,000 --> 00:52:38,000
+ either h1 or h0, just like a switch here.
+
+437
+00:52:38,000 --> 00:52:50,000
+ So, therefore, this concept here seems very close to, looks like a filter,
+
+438
+00:52:50,000 --> 00:53:00,000
+ so that's why we want to see whether we can do a kind of abi-f filter here.
+
+439
+00:53:00,000 --> 00:53:17,000
+ And I hope that you all remember how to get the outputs of an abi-f filter
+
+440
+00:53:17,000 --> 00:53:23,000
+ passing input signal, say input signal is x of n,
+
+441
+00:53:23,000 --> 00:53:29,000
+ then our filter, if the input is from, we call it h of n.
+
+442
+00:53:29,000 --> 00:53:36,000
+ And being abi-f, you only have finite, the input is from the length,
+
+443
+00:53:36,000 --> 00:53:38,000
+ only have finite length.
+
+444
+00:53:38,000 --> 00:53:49,000
+ So, therefore, the summation, you only sum over the finite samples.
+
+445
+00:53:49,000 --> 00:53:53,000
+ So, that's how you write this yn.
+
+446
+00:53:53,000 --> 00:54:04,000
+ At the time of n, assume we're doing the causal filtering from 0,
+
+447
+00:54:04,000 --> 00:54:12,000
+ then continue only moving in one direction, so our yn is equal to that.
+
+448
+00:54:13,000 --> 00:54:24,000
+ And we also assume this xn is no 0, only over the measuring time,
+
+449
+00:54:24,000 --> 00:54:31,000
+ which is, as we always assume, you have finite length, finite sample,
+
+450
+00:54:31,000 --> 00:54:36,000
+ from 0 up to capital A, so therefore, this is the case here.
+
+451
+00:54:37,000 --> 00:54:41,000
+ So, what do we have here?
+
+452
+00:54:41,000 --> 00:54:50,000
+ Our max filter is, we try to use the given signal, you know, remember?
+
+453
+00:54:50,000 --> 00:54:55,000
+ In our detection here, we assume we know the x of n.
+
+454
+00:54:55,000 --> 00:55:01,000
+ But to build the union pulse response h of n,
+
+455
+00:55:01,000 --> 00:55:08,000
+ we do not directly use x of n as the union pulse response.
+
+456
+00:55:08,000 --> 00:55:17,000
+ Instead, we free-bid, you see, free the, since our x of n,
+
+457
+00:55:17,000 --> 00:55:22,000
+ the only capital N sample from 0 up to capital N minus 1.
+
+458
+00:55:22,000 --> 00:55:30,000
+ So, what you'll do is, to get this h of n, you'll reverse it first.
+
+459
+00:55:30,000 --> 00:55:38,000
+ Then the first one will become the last, and the second one becomes the second last free-bid.
+
+460
+00:55:38,000 --> 00:55:42,000
+ That's how you rely in this way.
+
+461
+00:55:42,000 --> 00:55:50,000
+ And then, once you write the h of n from here in this order,
+
+462
+00:55:50,000 --> 00:55:55,000
+ when you substitute back our yn,
+
+463
+00:55:56,000 --> 00:56:02,000
+ if you're linking the h of n, it will be in this way.
+
+464
+00:56:02,000 --> 00:56:06,000
+ That's how you do the FIAR filtering.
+
+465
+00:56:06,000 --> 00:56:13,000
+ But now, you want to link this h of n based on this relationship.
+
+466
+00:56:13,000 --> 00:56:18,000
+ So, you put it back, then using the s of n, it will be this,
+
+467
+00:56:18,000 --> 00:56:24,000
+ become this new, new, new signal in this.
+
+468
+00:56:24,000 --> 00:56:29,000
+ So, what changes is only this argument.
+
+469
+00:56:29,000 --> 00:56:36,000
+ So, I hope this one is very easy for you to verify.
+
+470
+00:56:36,000 --> 00:56:44,000
+ Now, in terms of filtering, you see, you have an example going in.
+
+471
+00:56:44,000 --> 00:56:51,000
+ It's in books, you go through a filter, you will collect the outputs from 0, 1, 2, 3, and so on.
+
+472
+00:56:51,000 --> 00:56:59,000
+ But, assuming our case here, when we do detection, we don't get all these output samples.
+
+473
+00:56:59,000 --> 00:57:04,000
+ What we need is only take the output at this time instant,
+
+474
+00:57:04,000 --> 00:57:07,000
+ small n equal to capital N minus 1.
+
+475
+00:57:07,000 --> 00:57:16,000
+ You only wait until this moment, then you say, OK, that's what we need.
+
+476
+00:57:16,000 --> 00:57:23,000
+ That means we only take the y, when N equals to capital N minus 1.
+
+477
+00:57:23,000 --> 00:57:30,000
+ So, what happens if you substitute this small n as capital N minus 1?
+
+478
+00:57:30,000 --> 00:57:33,000
+ Then, of course, your kings are distant.
+
+479
+00:57:33,000 --> 00:57:34,000
+ And then, what are the names?
+
+480
+00:57:34,000 --> 00:57:38,000
+ Minus, minus k, which become, of course, k.
+
+481
+00:57:38,000 --> 00:57:41,000
+ Minus 1, multiply minus 1, become 1.
+
+482
+00:57:41,000 --> 00:57:48,000
+ So, that's precisely what we have for our test statistic.
+
+483
+00:57:48,000 --> 00:57:55,000
+ Because, your colleague, now since we don't see any small n here,
+
+484
+00:57:55,000 --> 00:58:00,000
+ then the index of k, you can change it back to n.
+
+485
+00:58:00,000 --> 00:58:03,000
+ For index, it doesn't matter.
+
+486
+00:58:03,000 --> 00:58:06,000
+ You like the dummy variable, you see.
+
+487
+00:58:06,000 --> 00:58:10,000
+ You can call it small n, you can call it small k, and so on.
+
+488
+00:58:10,000 --> 00:58:13,000
+ Or, you can call it small n.
+
+489
+00:58:13,000 --> 00:58:21,000
+ And that's what we found early, the t of x, and the same form.
+
+490
+00:58:21,000 --> 00:58:27,000
+ So, that's why we call that this detector by your bill,
+
+491
+00:58:27,000 --> 00:58:32,000
+ a FIA filter, to match the given signal.
+
+492
+00:58:32,000 --> 00:58:37,000
+ So, that's why it's called a matched filter.
+
+493
+00:58:37,000 --> 00:58:44,000
+ Any questions for this?
+
+494
+00:58:44,000 --> 00:58:45,000
+ Yeah.
+
+495
+00:58:45,000 --> 00:58:55,000
+ So, again, here, you want to put it together into a more clear,
+
+496
+00:58:55,000 --> 00:58:58,000
+ a broad diagram.
+
+497
+00:58:58,000 --> 00:59:00,000
+ You can see here, this is given data.
+
+498
+00:59:00,000 --> 00:59:03,000
+ And we pass through the FIA filter.
+
+499
+00:59:03,000 --> 00:59:07,000
+ And the union value response is given in this.
+
+500
+00:59:07,000 --> 00:59:11,000
+ Assuming you know the given signal.
+
+501
+00:59:11,000 --> 00:59:20,000
+ And out of that, you'll see the output will only take the sample x,
+
+502
+00:59:20,000 --> 00:59:24,000
+ small n equal to capital N minus 1.
+
+503
+00:59:24,000 --> 00:59:30,000
+ Because for filter, once you have one input signal, say at 0,
+
+504
+00:59:30,000 --> 00:59:33,000
+ you already get one output, also at 0.
+
+505
+00:59:33,000 --> 00:59:36,000
+ And equal to 1, you get another one.
+
+506
+00:59:36,000 --> 00:59:40,000
+ So, we, until this n equal to small n equal to capital N minus 1,
+
+507
+00:59:40,000 --> 00:59:48,000
+ then we close, we take this value, and then do the detection
+
+508
+00:59:48,000 --> 00:59:53,000
+ by comparing to the threshold.
+
+509
+00:59:53,000 --> 00:59:59,000
+ So, therefore, to summarize, our matched filter is my first
+
+510
+00:59:59,000 --> 01:00:01,000
+ free-pinged signal.
+
+511
+01:00:01,000 --> 01:00:04,000
+ It's n equal to 0.
+
+512
+01:00:04,000 --> 01:00:10,000
+ From 0 to capital N minus 1, you reverse the order.
+
+513
+01:00:10,000 --> 01:00:20,000
+ Then, yeah, then you're shifting it to the right
+
+514
+01:00:20,000 --> 01:00:25,000
+ by capital N minus 1 sample.
+
+515
+01:00:25,000 --> 01:00:30,000
+ So, you'll see here, so the meaning of, let me illustrate this.
+
+516
+01:00:30,000 --> 01:00:37,000
+ So, be very straight forward.
+
+517
+01:00:37,000 --> 01:00:41,000
+ The G-lo, then N minus 1.
+
+518
+01:00:42,000 --> 01:00:52,000
+ Then, what we want to do is this value become here,
+
+519
+01:00:52,000 --> 01:00:57,000
+ then this N minus 1, yeah, it will come here.
+
+520
+01:00:57,000 --> 01:01:05,000
+ So, one way to do, if we are talking about flip,
+
+521
+01:01:05,000 --> 01:01:10,000
+ with respect to this, you can think about,
+
+522
+01:01:10,000 --> 01:01:19,000
+ I flip all the value to the, using this angle of G-lo as an axis.
+
+523
+01:01:19,000 --> 01:01:25,000
+ So, free-ping, you see, this one here become minus 1,
+
+524
+01:01:25,000 --> 01:01:27,000
+ and so on, minus 2.
+
+525
+01:01:27,000 --> 01:01:32,000
+ And then, after that, you'll shift to the right.
+
+526
+01:01:32,000 --> 01:01:35,000
+ So, that means in the angle of G-lo come here,
+
+527
+01:01:35,000 --> 01:01:38,000
+ then go and come here, and so on.
+
+528
+01:01:38,000 --> 01:01:45,000
+ So, that should be quite easy to do mathematically,
+
+529
+01:01:45,000 --> 01:01:51,000
+ and you can also think about how you're doing physically
+
+530
+01:01:51,000 --> 01:01:57,000
+ if you are a manipulator sample.
+
+531
+01:01:57,000 --> 01:02:03,000
+ Okay, in the case of the arrival time unknowns,
+
+532
+01:02:03,000 --> 01:02:07,000
+ so you don't know when to do,
+
+533
+01:02:07,000 --> 01:02:11,000
+ then that means you will become, what we were discussing,
+
+534
+01:02:11,000 --> 01:02:16,000
+ chapter five is you'll have some unknown parameter to estimate.
+
+535
+01:02:16,000 --> 01:02:21,000
+ So, that will be a different topic.
+
+536
+01:02:21,000 --> 01:02:26,000
+ For now, we know the S of N exactly.
+
+537
+01:02:26,000 --> 01:02:34,000
+ So, that's what we call non-signal deterministic signal.
+
+538
+01:02:34,000 --> 01:02:39,000
+ And then another useful property of this mesh filter is,
+
+539
+01:02:39,000 --> 01:02:49,000
+ we can show is maximized SNR at the output of FIR filters.
+
+540
+01:02:49,000 --> 01:02:58,000
+ So, that's how we will briefly discuss what Y is.
+
+541
+01:02:58,000 --> 01:03:02,000
+ So, let's see, we first define the output SNR.
+
+542
+01:03:02,000 --> 01:03:08,000
+ Output SNR is, this is the signal, you see,
+
+543
+01:03:08,000 --> 01:03:17,000
+ we have the Y of N minus 1 at that particular output.
+
+544
+01:03:17,000 --> 01:03:26,000
+ Because this is random, so our signal we measure by expectation,
+
+545
+01:03:26,000 --> 01:03:32,000
+ ways of how to. That's the user definition.
+
+546
+01:03:32,000 --> 01:03:40,000
+ And then noise is varying, you see, even on the H1, you see,
+
+547
+01:03:40,000 --> 01:03:48,000
+ you remove the mean is our signal,
+
+548
+01:03:48,000 --> 01:03:53,000
+ because we are dealing with a non-signal.
+
+549
+01:03:53,000 --> 01:03:58,000
+ So, you remove the signal, what level of noise?
+
+550
+01:03:58,000 --> 01:04:02,000
+ So, that's the same as you are just talking about the variance.
+
+551
+01:04:02,000 --> 01:04:04,000
+ So, that's how this is the definition.
+
+552
+01:04:04,000 --> 01:04:09,000
+ And then now we plug in into the expression of the Y,
+
+553
+01:04:09,000 --> 01:04:14,000
+ you know, this is, we already know this is like our filter.
+
+554
+01:04:14,000 --> 01:04:21,000
+ At the moment here, we don't need to go back to the signal yet,
+
+555
+01:04:21,000 --> 01:04:28,000
+ we just based on the unit impulse response, which is the FIR filter.
+
+556
+01:04:28,000 --> 01:04:34,000
+ And similarly, here, to take about variance, you see,
+
+557
+01:04:34,000 --> 01:04:43,000
+ now we already removed the signal, so what level it will be this,
+
+558
+01:04:43,000 --> 01:04:47,000
+ multiplied by the noise.
+
+559
+01:04:47,000 --> 01:04:53,000
+ And then to show that through, we substitute using vector form by using
+
+560
+01:04:53,000 --> 01:05:04,000
+ vector SW and H, and you see here our H is relating to this by FRIP.
+
+561
+01:05:04,000 --> 01:05:11,000
+ So, now we relate that in vector form,
+
+562
+01:05:11,000 --> 01:05:24,000
+ so here, which is the signal, assume we do not match with the signal here,
+
+563
+01:05:24,000 --> 01:05:35,000
+ you see we have the impulse response and given signal S.
+
+564
+01:05:35,000 --> 01:05:45,000
+ And for the noise, you see using the similar techniques as we already discussed earlier,
+
+565
+01:05:45,000 --> 01:05:53,000
+ again we like this, since W is random, where H is constant, you pull out,
+
+566
+01:05:53,000 --> 01:06:03,000
+ then you, because this is a Y noise, so this becomes a simple diagonal element with constant.
+
+567
+01:06:03,000 --> 01:06:07,000
+ So, therefore this simplifies to that.
+
+568
+01:06:07,000 --> 01:06:20,000
+ And then here, again we use this simple expression by, you know, in the product,
+
+569
+01:06:20,000 --> 01:06:26,000
+ you can take the transform, become scale.
+
+570
+01:06:26,000 --> 01:06:36,000
+ And then here we use the Cauchy inequality, that's already known in the appendix,
+
+571
+01:06:36,000 --> 01:06:40,000
+ given, so that's always whole.
+
+572
+01:06:40,000 --> 01:06:50,000
+ And the equality holds, so you see here, if you look at the numerator and denominator,
+
+573
+01:06:50,000 --> 01:07:04,000
+ you see, so in general, you see we will have the numerator will be smaller or equal to the product of these two.
+
+574
+01:07:04,000 --> 01:07:06,000
+ So, one of them is here.
+
+575
+01:07:06,000 --> 01:07:17,000
+ But in the case of H related to S by just any constant, okay, so this is linearly related.
+
+576
+01:07:17,000 --> 01:07:25,000
+ And this property is what we remember last, during part one, several ways ago,
+
+577
+01:07:25,000 --> 01:07:35,000
+ we are proving the CIOB, we also used similar property, when satisfied this condition.
+
+578
+01:07:35,000 --> 01:07:43,000
+ Linearly related, then you can get equality, I mean, it becomes equal,
+
+579
+01:07:43,000 --> 01:07:47,000
+ and that's how it happened here.
+
+580
+01:07:47,000 --> 01:08:01,000
+ So in general, you see, we will have this, because this by definition, that will be the ratio.
+
+581
+01:08:01,000 --> 01:08:07,000
+ So it will always be smaller or equal to that.
+
+582
+01:08:07,000 --> 01:08:14,000
+ And then assuming we make it easy, we let the constant C go to one.
+
+583
+01:08:14,000 --> 01:08:26,000
+ And therefore, since we already freed, so our in power response should be equal to S of N.
+
+584
+01:08:26,000 --> 01:08:39,000
+ So in that case, we will get the maximum SNR, the equality holds, okay, when this satisfied.
+
+585
+01:08:39,000 --> 01:08:51,000
+ And that's why we call that as match filter, in this case, the filter match with the given signal,
+
+586
+01:08:51,000 --> 01:09:00,000
+ and it also give you the maximum SNR in this case.
+
+587
+01:09:00,000 --> 01:09:10,000
+ Okay, but you, yeah, so this is the notation, we obtain the maximum, and that's,
+
+588
+01:09:10,000 --> 01:09:20,000
+ this part is the inner product of the signal, that's our signal energy.
+
+589
+01:09:20,000 --> 01:09:31,000
+ And in the case of, we have a non-deterministic signal in white Gaussian noise, as what we discussed just now,
+
+590
+01:09:31,000 --> 01:09:44,000
+ then the match filter is also an optimal detector in terms of the NP criteria.
+
+591
+01:09:44,000 --> 01:09:55,000
+ Remember, our early discussion is based on the white Gaussian noise and the NP criteria.
+
+592
+01:09:55,000 --> 01:10:06,000
+ Okay, but however, we are dealing with no Gaussian noise, because just now you see our proof here.
+
+593
+01:10:06,000 --> 01:10:18,000
+ To prove whether the output is maximized, we do not actually use the white Gaussian noise assumption.
+
+594
+01:10:18,000 --> 01:10:31,000
+ So therefore, if no Gaussian noise, our SNR still is maximum, but our match filter here is in general,
+
+595
+01:10:31,000 --> 01:10:36,000
+ will not be optimal in the NP sense.
+
+596
+01:10:36,000 --> 01:10:40,000
+ That's something you need to, you need to think know here.
+
+597
+01:10:40,000 --> 01:10:52,000
+ Then we can also obtain the performance of this match filter, which is very similar to what we discussed early in the, you know,
+
+598
+01:10:52,000 --> 01:10:57,000
+ previous chapter, the Gauss and Gaussian, which differ in me.
+
+599
+01:10:57,000 --> 01:11:04,000
+ So let's just very quickly go over here before we take the break.
+
+600
+01:11:04,000 --> 01:11:17,000
+ So again here, now this so-called performance, we will see given probability for the alarm words PD, you can get that.
+
+601
+01:11:17,000 --> 01:11:28,000
+ So again, we come based on this formulation or fix of this here.
+
+602
+01:11:28,000 --> 01:11:43,000
+ And then you can see here, assume now we are dealing with Gaussian noise, then our HT of X is a linear combination of Gaussian random variable.
+
+603
+01:11:43,000 --> 01:11:54,000
+ So therefore, even under both A0 and H1, both the case we get a Gaussian random variable is T of X.
+
+604
+01:11:54,000 --> 01:11:58,000
+ And then that's what we already done before.
+
+605
+01:11:58,000 --> 01:12:11,000
+ So I hope you know how to handle this, to get the E of T and the S0 and this is 0 because the noise is 0.
+
+606
+01:12:11,000 --> 01:12:13,000
+ And S0 is deterministic.
+
+607
+01:12:13,000 --> 01:12:18,000
+ Under H1, then you are playing the two parts.
+
+608
+01:12:18,000 --> 01:12:20,000
+ So this part is 0.
+
+609
+01:12:20,000 --> 01:12:21,000
+ So what layer is this?
+
+610
+01:12:21,000 --> 01:12:25,000
+ And that's precisely our signal energy.
+
+611
+01:12:25,000 --> 01:12:40,000
+ And then to get the variance is very similar since we are dealing with white Gaussian noise, then you can see it's related to the signal energy multiplied by this.
+
+612
+01:12:40,000 --> 01:12:44,000
+ Similarly under H1, you get the same.
+
+613
+01:12:44,000 --> 01:12:49,000
+ So therefore, we get this distribution of this.
+
+614
+01:12:49,000 --> 01:12:53,000
+ It's a Gaussian, 0 mean or mean equal to energy.
+
+615
+01:12:53,000 --> 01:12:58,000
+ And also, they have the same variance.
+
+616
+01:12:59,000 --> 01:13:05,000
+ And then you can, because they only shift by the means.
+
+617
+01:13:05,000 --> 01:13:11,000
+ So you get precisely the two bell curve with only different shift.
+
+618
+01:13:11,000 --> 01:13:17,000
+ So you need to know the value as you will have this.
+
+619
+01:13:17,000 --> 01:13:22,000
+ And then you can also normalize this.
+
+620
+01:13:22,000 --> 01:13:32,000
+ So we normalize, then you get a new test, which is now the very equal to 1.
+
+621
+01:13:32,000 --> 01:13:36,000
+ And for this one, the 0, we normalize, it's still 0.
+
+622
+01:13:36,000 --> 01:13:38,000
+ But the mean here shift.
+
+623
+01:13:38,000 --> 01:13:46,000
+ So you can verify how to do the change easily.
+
+624
+01:13:46,000 --> 01:13:56,000
+ And then again, you can see the detection performance will increase with increasing value of this.
+
+625
+01:13:56,000 --> 01:13:58,000
+ Because that's what we say.
+
+626
+01:13:58,000 --> 01:14:05,000
+ If the variance is the same, we only compare how much difference between this mean.
+
+627
+01:14:05,000 --> 01:14:07,000
+ Assuming 1 is at 0.
+
+628
+01:14:07,000 --> 01:14:15,000
+ So to figure this value, of course, you can get a better separation.
+
+629
+01:14:15,000 --> 01:14:23,000
+ And that's how you, given the probability for Solan, we can get this gamma.
+
+630
+01:14:23,000 --> 01:14:26,000
+ So that's how you get this.
+
+631
+01:14:26,000 --> 01:14:34,000
+ And then once I get this, we can get the PD, which differ with that by shifting this mean.
+
+632
+01:14:34,000 --> 01:14:38,000
+ So we get this and you're substitute here.
+
+633
+01:14:38,000 --> 01:14:46,000
+ Because we know this, so we want to put back our gammas relating to that.
+
+634
+01:14:46,000 --> 01:14:49,000
+ You put back and simplify, you'll get this.
+
+635
+01:14:49,000 --> 01:14:52,000
+ So this is given.
+
+636
+01:14:52,000 --> 01:14:57,000
+ And then what will determine the change is this.
+
+637
+01:14:57,000 --> 01:15:03,000
+ Remember, to get a bigger value, PD, we want to make it larger.
+
+638
+01:15:03,000 --> 01:15:08,000
+ Then you want to make the argument to be more negative to the left-hand side.
+
+639
+01:15:08,000 --> 01:15:11,000
+ Remember the Q block.
+
+640
+01:15:11,000 --> 01:15:20,000
+ So therefore, from here, we can see the energy to noise ratio will determine the performance.
+
+641
+01:15:20,000 --> 01:15:29,000
+ If this is larger, we will get better increase the PD and so on.
+
+642
+01:15:30,000 --> 01:15:37,000
+ And then we have a similar curve, as we discussed before.
+
+643
+01:15:37,000 --> 01:15:39,000
+ So these are the observations.
+
+644
+01:15:39,000 --> 01:15:43,000
+ I think we already know that.
+
+645
+01:15:43,000 --> 01:15:48,000
+ So to increase this energy to noise ratio, there are several ways.
+
+646
+01:15:48,000 --> 01:15:50,000
+ Assume the noise is fixed.
+
+647
+01:15:50,000 --> 01:15:53,000
+ So you're only determining by N and A.
+
+648
+01:15:54,000 --> 01:16:03,000
+ So if the A signal level is getting bigger, assume here, dealing with the DC value,
+
+649
+01:16:03,000 --> 01:16:08,000
+ then you'll see DC, then we will have here.
+
+650
+01:16:08,000 --> 01:16:10,000
+ Or you can increase the signal length.
+
+651
+01:16:10,000 --> 01:16:13,000
+ Of course, you'll do with both.
+
+652
+01:16:13,000 --> 01:16:19,000
+ And also in this case, the shape of the signal does not affect the performance
+
+653
+01:16:19,000 --> 01:16:21,000
+ since we are dealing with white Gaussian noise.
+
+654
+01:16:21,000 --> 01:16:29,000
+ But later on, you will see for color noise, then the shape of the signal will be important.
+
+655
+01:16:29,000 --> 01:16:39,000
+ Even with the same energy, we need to see which shape of the signal will produce the best performance.
+
+656
+01:16:39,000 --> 01:16:45,000
+ So again, the gain-yields, deflection coefficient.
+
+657
+01:16:45,000 --> 01:16:53,000
+ Again, based on what you write, the angle is the same result.
+
+658
+01:16:53,000 --> 01:17:02,000
+ So we take a break here before we continue into the generalized mesh filter.
+
+659
+01:17:02,000 --> 01:17:06,000
+ We come back at 8 o'clock.
+
+660
+01:17:06,000 --> 01:17:08,000
+ Now it's 7.47.
+
+661
+01:17:08,000 --> 01:17:13,000
+ We take a short break until 8 p.m.
+
+662
+01:17:13,000 --> 01:17:16,000
+ So we can continue.
+
+663
+01:17:16,000 --> 01:17:18,000
+ Any questions?
+
+664
+01:17:18,000 --> 01:17:22,000
+ You can stay here.
+
+665
+01:17:22,000 --> 01:17:24,000
+ You have to ask.
+
+666
+01:17:38,000 --> 01:17:41,000
+ Thank you.
+
+667
+01:18:08,000 --> 01:18:11,000
+ Thank you.
+
+668
+01:18:38,000 --> 01:18:41,000
+ Thank you.
+
+669
+01:19:08,000 --> 01:19:11,000
+ Thank you.
+
+670
+01:19:38,000 --> 01:19:41,000
+ Thank you.
+
+671
+01:20:08,000 --> 01:20:10,000
+ Thank you.
+
+672
+01:20:38,000 --> 01:20:41,000
+ Thank you.
+
+673
+01:21:08,000 --> 01:21:11,000
+ Thank you.
+
+674
+01:21:38,000 --> 01:21:40,000
+ Thank you.
+
+675
+01:22:08,000 --> 01:22:10,000
+ Thank you.
+
+676
+01:22:38,000 --> 01:22:40,000
+ Thank you.
+
+677
+01:23:08,000 --> 01:23:10,000
+ Thank you.
+
+678
+01:23:38,000 --> 01:23:40,000
+ Thank you.
+
+679
+01:24:08,000 --> 01:24:10,000
+ Thank you.
+
+680
+01:24:38,000 --> 01:24:40,000
+ Thank you.
+
+681
+01:25:08,000 --> 01:25:10,000
+ Thank you.
+
+682
+01:25:38,000 --> 01:25:40,000
+ Thank you.
+
+683
+01:26:08,000 --> 01:26:10,000
+ Thank you.
+
+684
+01:26:38,000 --> 01:26:40,000
+ Thank you.
+
+685
+01:27:08,000 --> 01:27:10,000
+ Thank you.
+
+686
+01:27:38,000 --> 01:27:40,000
+ Thank you.
+
+687
+01:28:08,000 --> 01:28:10,000
+ Thank you.
+
+688
+01:28:38,000 --> 01:28:40,000
+ Thank you.
+
+689
+01:29:08,000 --> 01:29:10,000
+ Thank you.
+
+690
+01:29:38,000 --> 01:29:40,000
+ Thank you.
+
+691
+01:30:08,000 --> 01:30:18,000
+ Okay, so let's continue.
+
+692
+01:30:18,000 --> 01:30:27,000
+ So let me just briefly explain the use.
+
+693
+01:30:27,000 --> 01:30:42,560
+ Okay, first we talk about energy which is, you see we have a finite number of signals,
+
+694
+01:30:42,560 --> 01:30:46,480
+ say S0 up to S n minus 1.
+
+695
+01:30:46,480 --> 01:30:53,160
+ So energy will be each of the sample, each of the signal sample with the positive negative,
+
+696
+01:30:53,160 --> 01:30:57,960
+ your raise of power two, add them together, you will become energy.
+
+697
+01:30:57,960 --> 01:31:08,760
+ If power, you will have to divide, normally you will divide the energy per sample.
+
+698
+01:31:08,760 --> 01:31:14,280
+ So you will take the unique energy.
+
+699
+01:31:14,280 --> 01:31:21,880
+ Okay, so and then you can write in vector form by, sorry, I think there is no need.
+
+700
+01:31:21,880 --> 01:31:30,680
+ Yeah, so in vector form you will be just in the product and not the power of two.
+
+701
+01:31:30,680 --> 01:31:37,800
+ The power of two is a typo arrow in the notes.
+
+702
+01:31:37,800 --> 01:31:51,720
+ And then if you go back to this expression, you can see we make good use of the, you know,
+
+703
+01:31:51,720 --> 01:31:57,520
+ we make good use of the Cauchy inequality, you see.
+
+704
+01:31:57,520 --> 01:31:59,640
+ So that's basic.
+
+705
+01:31:59,640 --> 01:32:04,360
+ You look at the expression here.
+
+706
+01:32:04,360 --> 01:32:13,960
+ This is in general, if H different from the S vector, then you will have this inequality.
+
+707
+01:32:13,960 --> 01:32:18,760
+ So you put this inside the numerator.
+
+708
+01:32:18,760 --> 01:32:25,000
+ So therefore this ratio will be smaller or equal to that.
+
+709
+01:32:25,000 --> 01:32:29,680
+ Then of course the maximum will be this one.
+
+710
+01:32:29,680 --> 01:32:44,120
+ If only H equal to C multiplied by S, which I can assume C is constant.
+
+711
+01:32:44,120 --> 01:32:49,680
+ Then because of that, you, yeah, this pie is correct.
+
+712
+01:32:49,680 --> 01:32:56,760
+ That's already say it's always smaller equal to that.
+
+713
+01:32:56,760 --> 01:33:04,240
+ But the expression of signal energy, they shouldn't have the power of two here, which
+
+714
+01:33:04,240 --> 01:33:07,400
+ is just the England product.
+
+715
+01:33:07,400 --> 01:33:13,240
+ So you can remove, can delete this power of two.
+
+716
+01:33:14,240 --> 01:33:15,240
+ Okay.
+
+717
+01:33:15,240 --> 01:33:23,559
+ So I think this part is straightforward.
+
+718
+01:33:23,559 --> 01:33:33,880
+ So now we want to move on to the case with some correlated noise because in the case
+
+719
+01:33:33,880 --> 01:33:40,440
+ of additive white Gaussian noise, we already discussed which is optimal.
+
+720
+01:33:41,440 --> 01:33:44,960
+ What happened to this more general noise?
+
+721
+01:33:44,960 --> 01:33:52,879
+ It's still Gaussian, but the covariant matrix were not necessarily to be diagonal element
+
+722
+01:33:52,879 --> 01:33:58,120
+ with equal diagonal element value.
+
+723
+01:33:58,120 --> 01:34:05,799
+ It can be more general as long as it's a positive definite matrix.
+
+724
+01:34:05,799 --> 01:34:08,400
+ It will do.
+
+725
+01:34:08,400 --> 01:34:17,480
+ So in this case, we will assume the noise to be white sense stationally.
+
+726
+01:34:17,480 --> 01:34:22,280
+ So I hope that you have learned a little bit.
+
+727
+01:34:22,280 --> 01:34:26,639
+ For example, some of you is taking the 6401.
+
+728
+01:34:26,639 --> 01:34:34,040
+ We will spend a little bit more time discussing this white sense stationally.
+
+729
+01:34:34,040 --> 01:34:50,120
+ So here you can see the covariant matrix will no longer be a unidial function as we discussed
+
+730
+01:34:50,120 --> 01:34:52,519
+ early because they are correlated.
+
+731
+01:34:52,519 --> 01:34:58,600
+ But it's still a satisfied symmetric topology form.
+
+732
+01:34:58,600 --> 01:35:03,480
+ So here we are defining the covariant element value.
+
+733
+01:35:03,480 --> 01:35:10,360
+ It depends on the difference between this m and n index.
+
+734
+01:35:10,360 --> 01:35:17,840
+ The m is the number of the column where n is the index of the column.
+
+735
+01:35:17,840 --> 01:35:20,440
+ N is the index of the row.
+
+736
+01:35:20,440 --> 01:35:29,639
+ So you see here if n equal to n, which is a principal diagonal element, then they are
+
+737
+01:35:29,639 --> 01:35:34,080
+ all equal value.
+
+738
+01:35:34,080 --> 01:35:44,160
+ Similarly if m minus n equal to 1, then it doesn't matter what m and n value.
+
+739
+01:35:44,160 --> 01:35:47,000
+ 3 multiplied by 2.
+
+740
+01:35:47,000 --> 01:35:49,360
+ 3 minus 2 equal to 1.
+
+741
+01:35:49,360 --> 01:35:52,080
+ 4 minus 3 also equal to 1.
+
+742
+01:35:52,080 --> 01:35:58,760
+ That means you have this property.
+
+743
+01:35:58,760 --> 01:36:01,880
+ So we're not going to detail about this.
+
+744
+01:36:01,880 --> 01:36:08,559
+ What we want to see is in such a case, what performance can we get for this?
+
+745
+01:36:08,560 --> 01:36:21,160
+ The code is generalized mesh filter because later you will see the mesh filter is a little
+
+746
+01:36:21,160 --> 01:36:27,960
+ bit more complicated than what we already have for the white Gaussian noise.
+
+747
+01:36:27,960 --> 01:36:39,880
+ So let's again look at the library of functions and the h0 and h1.
+
+748
+01:36:39,880 --> 01:36:48,560
+ So again here the only difference is one you have the means which equal to the s where
+
+749
+01:36:48,560 --> 01:36:50,480
+ the other is 0 mean.
+
+750
+01:36:50,480 --> 01:36:59,200
+ Now since we are no longer dealing with the white Gaussian noise, so we have to take the
+
+751
+01:36:59,200 --> 01:37:00,799
+ inverse of that.
+
+752
+01:37:00,799 --> 01:37:08,799
+ And here is a determinant and then take the square root.
+
+753
+01:37:08,799 --> 01:37:15,879
+ So we can still work on the NP detectors.
+
+754
+01:37:15,880 --> 01:37:29,840
+ In this case we can decide h1 if this block likelihood ratio greater than some threshold.
+
+755
+01:37:29,840 --> 01:37:35,520
+ And very similar definition, you can see this.
+
+756
+01:37:35,520 --> 01:37:44,640
+ Because after simplified you will take the difference between these two because you can
+
+757
+01:37:44,640 --> 01:38:00,520
+ show out the quadratic term in terms of x vector and the constant term which is this.
+
+758
+01:38:00,520 --> 01:38:17,400
+ So in this case we can still derive this test statistic which is equal to this part, this
+
+759
+01:38:17,400 --> 01:38:18,400
+ involved data.
+
+760
+01:38:18,400 --> 01:38:22,080
+ This one is beta independent.
+
+761
+01:38:22,080 --> 01:38:25,720
+ So therefore we will have this.
+
+762
+01:38:25,720 --> 01:38:35,720
+ And then we call it as a generalized mesh filter or sometimes filter is a similar name.
+
+763
+01:38:35,720 --> 01:38:40,400
+ We get a similar replica correlated.
+
+764
+01:38:40,400 --> 01:38:44,600
+ So we call that also as generalized.
+
+765
+01:38:44,600 --> 01:38:45,920
+ Why generalized?
+
+766
+01:38:45,920 --> 01:38:57,800
+ Because we need to do a little bit change to get the mesh filter if we want to use the
+
+767
+01:38:57,800 --> 01:39:02,880
+ same similar structure.
+
+768
+01:39:02,880 --> 01:39:07,640
+ So how should we do it?
+
+769
+01:39:07,640 --> 01:39:19,600
+ We can modify the signal by multiply by this C inverse of the metric.
+
+770
+01:39:19,600 --> 01:39:26,240
+ So we call this new signal as prime as this new signal.
+
+771
+01:39:26,240 --> 01:39:40,360
+ So once we do that you can see it will become the inner product between these x and s, the
+
+772
+01:39:40,360 --> 01:39:44,599
+ new signal.
+
+773
+01:39:44,599 --> 01:39:53,719
+ So therefore in that case once you make a change, do some changes in the signal, then
+
+774
+01:39:53,720 --> 01:40:01,320
+ we get the similar form.
+
+775
+01:40:01,320 --> 01:40:16,480
+ Only in the case of white calcium noise then our a's become, because this is become the
+
+776
+01:40:16,480 --> 01:40:23,719
+ I think the metric is multiplied by this noise value for white calcium noise.
+
+777
+01:40:23,719 --> 01:40:30,320
+ So we will reduce to this standard mesh filter.
+
+778
+01:40:30,320 --> 01:40:31,559
+ We already know.
+
+779
+01:40:31,559 --> 01:40:39,919
+ But in the current situation we have to deal with this as prime.
+
+780
+01:40:39,920 --> 01:40:49,960
+ So let's go through some intermediate case first before we go to the more general one.
+
+781
+01:40:49,960 --> 01:40:57,640
+ So one intermediate case between the white calcium noise and the correlated noise is
+
+782
+01:40:57,640 --> 01:41:03,720
+ this so-called uncorrelated noise but with unequal value.
+
+783
+01:41:03,720 --> 01:41:12,160
+ So this is the diagonal matrix but the element value they are different not the same.
+
+784
+01:41:12,160 --> 01:41:16,680
+ So we call it sigma 0 up to and so on.
+
+785
+01:41:16,680 --> 01:41:19,880
+ In this case the inverse is very easy to get.
+
+786
+01:41:19,880 --> 01:41:22,480
+ You see you will know diagonal element.
+
+787
+01:41:22,480 --> 01:41:24,760
+ Assume they are not equal to 0.
+
+788
+01:41:24,760 --> 01:41:30,080
+ So you take the inverse you only need to inverse each of them.
+
+789
+01:41:30,080 --> 01:41:40,720
+ And in this case the test statistic is very similar to before except you do a more for
+
+790
+01:41:40,720 --> 01:41:46,120
+ each product you do a waiting before your sum.
+
+791
+01:41:46,120 --> 01:41:59,640
+ So you can see here if the sample with smaller barrier then that means we are dividing this
+
+792
+01:41:59,640 --> 01:42:04,040
+ barrier will become a bigger weight.
+
+793
+01:42:04,040 --> 01:42:08,480
+ Then we give a heavier weight on this product.
+
+794
+01:42:08,480 --> 01:42:16,280
+ And that is reasonable because smaller barrier means the signal noise ratio is higher.
+
+795
+01:42:16,280 --> 01:42:20,480
+ So this sample is a better sample.
+
+796
+01:42:20,480 --> 01:42:22,759
+ We give a higher weight.
+
+797
+01:42:22,759 --> 01:42:27,320
+ Yeah so that makes sense.
+
+798
+01:42:27,320 --> 01:42:37,959
+ And then in such a case you can see we can rely this Xn as signal in noise.
+
+799
+01:42:37,960 --> 01:42:45,120
+ And then multiply by that because this one is always positive you can divide into the
+
+800
+01:42:45,120 --> 01:42:48,400
+ standard deviation.
+
+801
+01:42:48,400 --> 01:42:59,720
+ In this case you can see here we are if we have the signal divided by this same constant
+
+802
+01:42:59,720 --> 01:43:03,880
+ each signal we normalize you know dividing that.
+
+803
+01:43:03,880 --> 01:43:14,440
+ And then we also somehow normalize the noise by dividing that.
+
+804
+01:43:14,440 --> 01:43:22,720
+ So once you do that you can verify this new noise it will become a white noise because
+
+805
+01:43:22,720 --> 01:43:31,200
+ after you are dividing the standard deviation then you can easily verify this new noise
+
+806
+01:43:31,200 --> 01:43:39,120
+ because the covariance matrix becomes high.
+
+807
+01:43:39,120 --> 01:43:49,160
+ So that's why we call that the sample is equalized or pre-whited.
+
+808
+01:43:49,160 --> 01:43:59,320
+ And we are dealing with the new sample we have the white noise add into that.
+
+809
+01:43:59,320 --> 01:44:02,400
+ And that's also very useful.
+
+810
+01:44:02,400 --> 01:44:07,960
+ And that's why this is typically in practice we do the pre-whitening.
+
+811
+01:44:07,960 --> 01:44:21,280
+ If you know you have uncorrelated but the noise variance they are different so you do
+
+812
+01:44:21,280 --> 01:44:22,280
+ the pre-whitening.
+
+813
+01:44:22,280 --> 01:44:29,160
+ And this pre-whitening even you can extend to a more general covariance matrix.
+
+814
+01:44:29,160 --> 01:44:38,840
+ So you can multiply by the inverse of the matrix which we will discuss later.
+
+815
+01:44:38,840 --> 01:44:41,440
+ So we do it one by one.
+
+816
+01:44:41,440 --> 01:44:45,800
+ So now we move it to be more general.
+
+817
+01:44:45,800 --> 01:44:50,559
+ Now this is a positive definite and symmetry.
+
+818
+01:44:50,560 --> 01:44:56,440
+ So in that case again we apply a little bit about magic theory.
+
+819
+01:44:56,440 --> 01:45:07,440
+ So I hope you know that if you use a singular value decomposition you can show this because
+
+820
+01:45:07,440 --> 01:45:18,360
+ for positive definite and symmetry then the inverse it can always write as the product
+
+821
+01:45:18,360 --> 01:45:25,679
+ of the D. D is a no singular in this case square and the transpose.
+
+822
+01:45:25,679 --> 01:45:28,719
+ It becomes a transpose of that.
+
+823
+01:45:28,719 --> 01:45:38,920
+ So this again can be proven and that's already we are known in magic theory, DNA algebraic.
+
+824
+01:45:38,920 --> 01:45:44,639
+ So once assume you have done that then we can plug in we can make the change here.
+
+825
+01:45:44,640 --> 01:45:55,920
+ And then you see here we can combine this into a new major data which we call X prime.
+
+826
+01:45:55,920 --> 01:46:02,040
+ And similarly this one you can combine into a new signal.
+
+827
+01:46:02,040 --> 01:46:08,960
+ In this case you will see the noise also do a transform.
+
+828
+01:46:08,960 --> 01:46:17,040
+ So we are changing the noise, changing the signal and also change the major data.
+
+829
+01:46:17,040 --> 01:46:25,400
+ And this is this matrix D. It's not directly the seeing-burst matrix but once you do the
+
+830
+01:46:25,400 --> 01:46:36,040
+ factorization you get this matrix D's pre-witening matrix because you do that you can produce
+
+831
+01:46:36,040 --> 01:46:42,519
+ white Gaussian noise once you multiply by correlated noise.
+
+832
+01:46:42,519 --> 01:46:50,040
+ Of course you have to ensure this C matrix is the covalent matrix corresponding to this
+
+833
+01:46:50,040 --> 01:46:53,960
+ correlated noise W. So how to do that?
+
+834
+01:46:53,960 --> 01:47:02,760
+ That's again not difficult you apply this by definition because this is zero means so
+
+835
+01:47:02,760 --> 01:47:11,240
+ is equal to E of this product and then you substitute this and then do a little bit of
+
+836
+01:47:11,240 --> 01:47:20,680
+ manipulation because D constant not momentum you take it up and then we know this equal
+
+837
+01:47:20,680 --> 01:47:32,720
+ to C and then you know C's inverse equal to that thing because D and D are the same
+
+838
+01:47:32,720 --> 01:47:36,520
+ transform they are invertible.
+
+839
+01:47:36,520 --> 01:47:39,960
+ No singular means invertible because they are square matrix.
+
+840
+01:47:39,960 --> 01:47:45,160
+ They will invert this.
+
+841
+01:47:45,160 --> 01:47:52,120
+ And then once you invert you can see they become identity matrix.
+
+842
+01:47:52,120 --> 01:47:59,680
+ So this is a very useful matrix theory.
+
+843
+01:47:59,680 --> 01:48:05,640
+ You see you have your product of two matrix.
+
+844
+01:48:05,640 --> 01:48:12,200
+ Both of them they are not necessarily equal to the same D and D transpose.
+
+845
+01:48:12,200 --> 01:48:13,200
+ This is the space okay.
+
+846
+01:48:13,200 --> 01:48:19,000
+ If you have A multiplied by B you take the inverse assuming both of them are invertible
+
+847
+01:48:19,000 --> 01:48:27,240
+ square then it will be equal to A inverse so you need to swap this.
+
+848
+01:48:27,240 --> 01:48:30,519
+ Let me maybe show briefly.
+
+849
+01:48:30,519 --> 01:48:40,160
+ So that's again a useful matrix theory.
+
+850
+01:48:40,160 --> 01:48:54,040
+ So if we have A and B if you are inverse assume of course that each of the matrix are square
+
+851
+01:48:54,040 --> 01:48:55,040
+ and invertible.
+
+852
+01:48:55,040 --> 01:49:04,560
+ Then it will be equal to B inverse A inverse so you need to swap the position.
+
+853
+01:49:04,560 --> 01:49:18,160
+ So using this property you just think about this is A and this is B and then A you up
+
+854
+01:49:18,160 --> 01:49:22,440
+ the inverse you will become D inverse.
+
+855
+01:49:22,440 --> 01:49:28,360
+ So D multiplied by D inverse of course equal to identity and then similarly E transpose
+
+856
+01:49:28,360 --> 01:49:31,440
+ inverse then multiple by D transpose.
+
+857
+01:49:31,440 --> 01:49:41,080
+ So also equal to identity so this is a very useful property.
+
+858
+01:49:41,080 --> 01:49:43,759
+ So that's how it becomes I.
+
+859
+01:49:43,759 --> 01:49:51,200
+ And then with that we can after do the pre-wited mean then we can get our generalized mesh
+
+860
+01:49:51,200 --> 01:49:53,280
+ filter in this thing.
+
+861
+01:49:53,280 --> 01:49:56,160
+ So now we have the measure data.
+
+862
+01:49:56,160 --> 01:50:04,320
+ You go through D get the new measure data after pre-wited mean.
+
+863
+01:50:04,320 --> 01:50:06,480
+ Similarly the S is available to us.
+
+864
+01:50:06,480 --> 01:50:08,720
+ We know this by assumption.
+
+865
+01:50:08,720 --> 01:50:10,639
+ You also do the same.
+
+866
+01:50:10,639 --> 01:50:19,960
+ And after that you do a multiplication and now this is the same mesh filter correlation
+
+867
+01:50:19,960 --> 01:50:26,680
+ and do the decision.
+
+868
+01:50:26,680 --> 01:50:35,720
+ So again even when we do the whitening you are doing the linear combination.
+
+869
+01:50:35,720 --> 01:50:49,240
+ So we still have the new variable still Gaussian because our transformation is linear.
+
+870
+01:50:49,599 --> 01:50:53,200
+ And we do a finite combination.
+
+871
+01:50:53,200 --> 01:51:03,000
+ In this case we can verify E of t under H0, still equal to 0 under H1.
+
+872
+01:51:03,000 --> 01:51:15,400
+ Now the signal goes through this whitening so you get a new expectation.
+
+873
+01:51:16,360 --> 01:51:18,879
+ So be careful.
+
+874
+01:51:18,879 --> 01:51:21,240
+ It's not just the energy anymore.
+
+875
+01:51:21,240 --> 01:51:27,639
+ The noise variant coming to play.
+
+876
+01:51:27,639 --> 01:51:37,360
+ And to get the variant it's similar step then your nth double is the same.
+
+877
+01:51:37,360 --> 01:51:40,200
+ Variant is the same.
+
+878
+01:51:40,200 --> 01:51:44,599
+ And similarly under H1 your nth double is the same.
+
+879
+01:51:44,599 --> 01:51:46,720
+ A little bit more complicated.
+
+880
+01:51:46,720 --> 01:51:53,240
+ You need to do a bit of manipulation.
+
+881
+01:51:53,240 --> 01:52:01,040
+ But in the nth double is the same value.
+
+882
+01:52:01,040 --> 01:52:16,640
+ Because X after subtracting the E of X it will be equal to the noise.
+
+883
+01:52:16,640 --> 01:52:20,880
+ So that's how you manipulate that.
+
+884
+01:52:20,880 --> 01:52:30,360
+ And then finally like what I mentioned this property is useful.
+
+885
+01:52:30,360 --> 01:52:32,400
+ You take the inverse and transform.
+
+886
+01:52:32,400 --> 01:52:35,960
+ It's the same as your transform and take the inverse.
+
+887
+01:52:35,960 --> 01:52:40,360
+ Assuming this matrix is invertible.
+
+888
+01:52:40,360 --> 01:52:46,679
+ And then because this is symmetry you also get that.
+
+889
+01:52:46,679 --> 01:52:50,960
+ Now we come to the performance.
+
+890
+01:52:51,720 --> 01:53:01,560
+ We'll get similar result except now this C inverse coming into the pictures here.
+
+891
+01:53:01,560 --> 01:53:07,640
+ So under H0, it's still 0 meaning the variant.
+
+892
+01:53:07,640 --> 01:53:09,600
+ What I already did.
+
+893
+01:53:09,600 --> 01:53:11,000
+ Derives equal to here.
+
+894
+01:53:11,000 --> 01:53:18,760
+ Under H1 it's given to be the mean and the variant are the same.
+
+895
+01:53:18,760 --> 01:53:25,560
+ And then using the similar manipulation, assume we know the probability of force alarm
+
+896
+01:53:25,560 --> 01:53:27,960
+ you're substituting.
+
+897
+01:53:27,960 --> 01:53:32,000
+ You can get this Pt.
+
+898
+01:53:32,000 --> 01:53:45,080
+ And here we define the defraction coefficient by equal to this one here.
+
+899
+01:53:45,080 --> 01:53:52,400
+ And then you need to take the square root of that.
+
+900
+01:53:52,400 --> 01:53:57,400
+ Therefore, because that's basically you do the normalization.
+
+901
+01:53:57,400 --> 01:54:02,160
+ We discussed early.
+
+902
+01:54:02,160 --> 01:54:04,680
+ And again you go back to the white noise case.
+
+903
+01:54:04,680 --> 01:54:07,800
+ Then C will be equal to that.
+
+904
+01:54:07,800 --> 01:54:12,000
+ Then we will get back to the spatial case.
+
+905
+01:54:12,000 --> 01:54:18,600
+ So do take note whenever you extend your models.
+
+906
+01:54:18,600 --> 01:54:25,160
+ And the same as if you are doing with some other machine learning type of study and so
+
+907
+01:54:25,160 --> 01:54:26,160
+ on.
+
+908
+01:54:26,160 --> 01:54:28,040
+ You try to generalize.
+
+909
+01:54:28,040 --> 01:54:33,960
+ You need to be able to recover back to the simple case.
+
+910
+01:54:33,960 --> 01:54:36,960
+ So always verify.
+
+911
+01:54:36,960 --> 01:54:43,840
+ That's how sometimes even dealing with jams if you are deriving something more complicated
+
+912
+01:54:43,840 --> 01:54:44,840
+ you.
+
+913
+01:54:44,840 --> 01:54:46,080
+ In the end you get the result.
+
+914
+01:54:46,080 --> 01:54:50,040
+ You see where they work for the simpler case.
+
+915
+01:54:50,040 --> 01:54:55,280
+ It must work in this case.
+
+916
+01:54:55,280 --> 01:55:05,960
+ So the one main difference in talking about generalized mesh filter compared with our previous
+
+917
+01:55:06,960 --> 01:55:17,640
+ white noise case is now this pt increase is the increasing value of this whole thing.
+
+918
+01:55:17,640 --> 01:55:23,680
+ Not just with the energy to noise ratio.
+
+919
+01:55:23,680 --> 01:55:28,360
+ So compare these two.
+
+920
+01:55:28,360 --> 01:55:34,800
+ This one here is we only care about the energy of the signal.
+
+921
+01:55:34,800 --> 01:55:45,480
+ We don't matter whether how the signal looks like.
+
+922
+01:55:45,480 --> 01:55:53,400
+ As long as if you go back to my energy definition here you can.
+
+923
+01:55:53,400 --> 01:55:59,320
+ The energy different signal if they have the same energy for white Gaussian noise we only
+
+924
+01:55:59,320 --> 01:56:01,120
+ care with this energy.
+
+925
+01:56:01,120 --> 01:56:11,680
+ But no longer in this case for generalized mesh filter we do need to see this different
+
+926
+01:56:11,680 --> 01:56:14,080
+ signal.
+
+927
+01:56:14,080 --> 01:56:23,960
+ You will give the different different value for this even if they are having the same
+
+928
+01:56:23,960 --> 01:56:24,960
+ energy.
+
+929
+01:56:24,960 --> 01:56:32,640
+ But that's why we want to see now we want to see which signal shape even with the same
+
+930
+01:56:32,640 --> 01:56:36,200
+ energy will produce the best.
+
+931
+01:56:36,200 --> 01:56:43,600
+ So that's what our discussion next.
+
+932
+01:56:43,600 --> 01:56:48,320
+ So again we go by two case.
+
+933
+01:56:48,320 --> 01:56:57,240
+ The intermediate difficulty is the case where signal design for uncorrelated noise but
+
+934
+01:56:57,240 --> 01:56:59,639
+ with unequal value.
+
+935
+01:56:59,639 --> 01:57:08,320
+ This is easier to consider but it's more general compared to the white Gaussian noise.
+
+936
+01:57:08,320 --> 01:57:16,240
+ So this is we already know how to do that because this is diagonal matrix.
+
+937
+01:57:16,240 --> 01:57:24,120
+ You can invert only the diagonal element.
+
+938
+01:57:24,120 --> 01:57:39,960
+ And then in this case we want to see how we can choose certain signal to maximize that.
+
+939
+01:57:39,960 --> 01:57:43,280
+ That's what we are hoping to do.
+
+940
+01:57:43,280 --> 01:57:49,840
+ But then if we do not have any constraint of course you can say you make the signal value
+
+941
+01:57:49,840 --> 01:57:52,280
+ to become larger and larger.
+
+942
+01:57:52,280 --> 01:57:55,480
+ That will always increase.
+
+943
+01:57:55,480 --> 01:58:04,240
+ But that doesn't consider the practical situation because in practice you need you cannot increase
+
+944
+01:58:04,240 --> 01:58:07,639
+ the signal value or signal energy infinitely.
+
+945
+01:58:07,640 --> 01:58:12,600
+ Nowadays we are talking about sustainability.
+
+946
+01:58:12,600 --> 01:58:15,960
+ So you need to conserve signal energy.
+
+947
+01:58:15,960 --> 01:58:19,760
+ Make it not increase signal energy.
+
+948
+01:58:19,760 --> 01:58:26,160
+ So what we are doing here is if we constraint the signal energy to be a fixed value.
+
+949
+01:58:26,160 --> 01:58:36,200
+ And then under this constraint we see whether we can design certain signal such as that
+
+950
+01:58:36,200 --> 01:58:40,040
+ it still produce the maximum value.
+
+951
+01:58:40,040 --> 01:58:41,040
+ So that's how.
+
+952
+01:58:41,040 --> 01:58:44,320
+ So how to do that?
+
+953
+01:58:44,320 --> 01:58:51,360
+ I think you all know you did the assignment and then I hope you already know how to apply
+
+954
+01:58:51,360 --> 01:58:54,400
+ Lagrangian multiply with this.
+
+955
+01:58:54,400 --> 01:58:57,000
+ Well the maxim I did under this constraint.
+
+956
+01:58:57,000 --> 01:58:58,519
+ So you introduce this.
+
+957
+01:58:58,520 --> 01:59:07,360
+ And then you need to do how to take partial derivative with respect to this SK here.
+
+958
+01:59:07,360 --> 01:59:11,880
+ So that's straightforward.
+
+959
+01:59:11,880 --> 01:59:17,320
+ And then since you see when we talk about Lagrangian you have one constraint.
+
+960
+01:59:17,320 --> 01:59:20,560
+ You only have one Lagrangian multiply.
+
+961
+01:59:20,560 --> 01:59:22,040
+ And this is constant.
+
+962
+01:59:22,040 --> 01:59:26,680
+ That means independent of the N here.
+
+963
+01:59:26,680 --> 01:59:29,520
+ We call that SK not to confuse with N.
+
+964
+01:59:29,520 --> 01:59:35,120
+ That means it's a fixed index here.
+
+965
+01:59:35,120 --> 01:59:45,840
+ So therefore, yeah that's how I think most of you did the assignment question one correctly
+
+966
+01:59:45,840 --> 01:59:50,200
+ by arguing if this is a constant.
+
+967
+01:59:50,200 --> 01:59:59,160
+ And in this case it's equal to zero for at most one single K.
+
+968
+01:59:59,160 --> 02:00:00,160
+ We are here.
+
+969
+02:00:00,160 --> 02:00:04,480
+ We are assuming all of them are different.
+
+970
+02:00:04,480 --> 02:00:09,960
+ Since we are talking about unequal value.
+
+971
+02:00:09,960 --> 02:00:13,080
+ So they are not the same.
+
+972
+02:00:13,080 --> 02:00:19,559
+ So therefore, we can only have one K satisfy that.
+
+973
+02:00:19,560 --> 02:00:27,680
+ So therefore, assume that we let this small k equal to J.
+
+974
+02:00:27,680 --> 02:00:41,640
+ So that means only pick the signal where satisfy one of them say K equal to J.
+
+975
+02:00:41,640 --> 02:00:44,160
+ Then we lay not equal to zero.
+
+976
+02:00:44,160 --> 02:00:49,160
+ So we lay not equal to zero.
+
+977
+02:00:49,160 --> 02:00:57,200
+ So we narrow down that into among all the capital N sample signal.
+
+978
+02:00:57,200 --> 02:00:59,320
+ Only one of them can be no zero.
+
+979
+02:00:59,320 --> 02:01:01,320
+ The other will be zero.
+
+980
+02:01:01,320 --> 02:01:05,320
+ Then now the next question is how to choose this J.
+
+981
+02:01:05,320 --> 02:01:16,240
+ So that will become very easy since all among capital N of them only one of them which is
+
+982
+02:01:16,240 --> 02:01:19,320
+ our SJ is no equal to zero.
+
+983
+02:01:19,320 --> 02:01:24,759
+ So instead of some we pick only this one.
+
+984
+02:01:24,759 --> 02:01:33,080
+ And then remember if you have one sample the energy is just equal to the square of this
+
+985
+02:01:33,080 --> 02:01:41,360
+ sample value except that's how we define the energy by summing all of them.
+
+986
+02:01:41,360 --> 02:01:45,440
+ But you only have one equal to not equal to zero.
+
+987
+02:01:45,440 --> 02:01:47,200
+ So you just equal to that.
+
+988
+02:01:47,200 --> 02:01:51,000
+ So therefore, that's now become very obvious.
+
+989
+02:01:51,000 --> 02:01:56,480
+ We want to maximize that and this is different fix.
+
+990
+02:01:56,480 --> 02:02:04,320
+ Then of course our J and they will assume all these sigma zero one two and so on.
+
+991
+02:02:04,320 --> 02:02:06,000
+ They are all different.
+
+992
+02:02:06,000 --> 02:02:13,559
+ Then you want to maximize of course choose the denominator will be the smallest one.
+
+993
+02:02:13,559 --> 02:02:18,559
+ So that's here it's very, very clear.
+
+994
+02:02:18,559 --> 02:02:25,240
+ And then that also makes sense because among all those sample the sample there is a minimum
+
+995
+02:02:25,240 --> 02:02:26,240
+ noise value.
+
+996
+02:02:26,240 --> 02:02:30,840
+ That means the signal value is the highest.
+
+997
+02:02:30,840 --> 02:02:36,719
+ It gives you the largest signal to noise value.
+
+998
+02:02:36,719 --> 02:02:44,400
+ And that's the same as energy because now we never doubt our signal to just one no zero
+
+999
+02:02:44,400 --> 02:02:45,400
+ sample.
+
+1000
+02:02:45,400 --> 02:02:46,400
+ Okay.
+
+1001
+02:02:46,400 --> 02:02:47,400
+ So yeah.
+
+1002
+02:02:47,400 --> 02:02:52,200
+ So indicate the diffraction coefficient will be maximized.
+
+1003
+02:02:52,200 --> 02:03:00,920
+ And we get the best performance.
+
+1004
+02:03:00,920 --> 02:03:04,400
+ So yeah.
+
+1005
+02:03:04,400 --> 02:03:19,080
+ So next we want to move on to the more general case where our C is just arbitrary noise covariance
+
+1006
+02:03:19,080 --> 02:03:26,160
+ matrix not just limited diagonal matrix.
+
+1007
+02:03:26,160 --> 02:03:33,920
+ Following the similar argument since we know the Lagrangian multiply technique work.
+
+1008
+02:03:33,920 --> 02:03:43,680
+ So we try to say by maximizing this and the constraint of that because this is the constant
+
+1009
+02:03:43,680 --> 02:03:44,680
+ energy.
+
+1010
+02:03:44,680 --> 02:03:49,200
+ So we call this equal to that.
+
+1011
+02:03:49,200 --> 02:03:54,320
+ Then what can we do?
+
+1012
+02:03:54,320 --> 02:04:05,440
+ Here you yeah we still use the technique by take the first derivative and I hope you remember
+
+1013
+02:04:05,440 --> 02:04:17,759
+ our formula if we take derivative with respect to S but this is S vector we want to maximize.
+
+1014
+02:04:17,759 --> 02:04:25,559
+ And then this pie is a quadratic formula and it's the matrix C is symmetry.
+
+1015
+02:04:25,559 --> 02:04:33,480
+ So what you get it will become 2A.
+
+1016
+02:04:33,480 --> 02:04:37,120
+ We call that as A previously because it's symmetry.
+
+1017
+02:04:37,120 --> 02:04:39,639
+ So you will be first I call it that.
+
+1018
+02:04:39,639 --> 02:04:44,639
+ And the second one what happened here?
+
+1019
+02:04:44,639 --> 02:04:46,320
+ Yeah it's the same here.
+
+1020
+02:04:46,320 --> 02:04:50,160
+ So this is the constant.
+
+1021
+02:04:50,160 --> 02:04:53,080
+ So we ignore this term what we have here.
+
+1022
+02:04:53,080 --> 02:04:56,200
+ So here is just our A is the I.
+
+1023
+02:04:56,200 --> 02:05:02,080
+ So what you get is very easy just equal to there.
+
+1024
+02:05:02,080 --> 02:05:05,800
+ The lambda is still there it's a constant.
+
+1025
+02:05:05,800 --> 02:05:11,600
+ And yeah so you see here this is what we can do.
+
+1026
+02:05:11,600 --> 02:05:13,800
+ Recall the formula here.
+
+1027
+02:05:13,800 --> 02:05:19,440
+ In this case you make it equal to 0 you end up with this.
+
+1028
+02:05:19,440 --> 02:05:30,240
+ And that goes to our familiar icon analysis you see.
+
+1029
+02:05:30,599 --> 02:05:34,519
+ Our matrix here is C inverse.
+
+1030
+02:05:34,519 --> 02:05:43,880
+ If you think about this is a new square matrix because we assume the C is invertible.
+
+1031
+02:05:43,880 --> 02:05:45,880
+ So it's no singular.
+
+1032
+02:05:45,880 --> 02:05:51,920
+ We just call it for B A or whatever.
+
+1033
+02:05:51,920 --> 02:05:57,480
+ And that's our S here is an eigen vector.
+
+1034
+02:05:57,480 --> 02:06:03,519
+ And the lambda here is become the eigen value.
+
+1035
+02:06:03,519 --> 02:06:05,519
+ Okay.
+
+1036
+02:06:05,519 --> 02:06:14,200
+ Then based on this result you can want to create this energy you multiply to the left.
+
+1037
+02:06:14,200 --> 02:06:15,919
+ So it's this.
+
+1038
+02:06:15,919 --> 02:06:20,080
+ And since this lambda is a constant we can pull this out.
+
+1039
+02:06:20,080 --> 02:06:23,639
+ So you end up with this form.
+
+1040
+02:06:23,640 --> 02:06:34,640
+ So again here if this is fixed we want to maximize this value.
+
+1041
+02:06:34,640 --> 02:06:41,760
+ Of course you will get the eigen value corresponding to this C inverse matrix.
+
+1042
+02:06:41,760 --> 02:06:49,240
+ Not the C matrix the C inverse which is the largest the maximum eigen value.
+
+1043
+02:06:49,240 --> 02:06:53,160
+ So that should be very clear.
+
+1044
+02:06:53,160 --> 02:07:01,120
+ But then again there is a new property since we are given C not C inverse.
+
+1045
+02:07:01,120 --> 02:07:06,680
+ So what's the relationship?
+
+1046
+02:07:06,680 --> 02:07:18,639
+ Of course the C and C inverse the eigen value they will since this is no singular so all
+
+1047
+02:07:18,639 --> 02:07:22,320
+ the eigen value they will be no zero.
+
+1048
+02:07:22,320 --> 02:07:30,880
+ Then the eigen value of C will be just equal to whatever this C inverse the eigen value
+
+1049
+02:07:30,880 --> 02:07:35,280
+ you will take the inverse also.
+
+1050
+02:07:35,280 --> 02:07:41,679
+ So this is again a very useful property here.
+
+1051
+02:07:41,679 --> 02:07:49,960
+ So therefore even now we want to link back to this the covariant matrix C then of course
+
+1052
+02:07:49,960 --> 02:08:00,640
+ if lambda is a maximum corresponding to this C inverse one over lambda will be the smallest
+
+1053
+02:08:00,640 --> 02:08:04,600
+ eigen value of this C.
+
+1054
+02:08:04,600 --> 02:08:13,480
+ So therefore this makes it easier by using eigen analysis to get our chalk down.
+
+1055
+02:08:13,480 --> 02:08:21,519
+ So what we do is compute given a C you will get all the eigen value or if you know you
+
+1056
+02:08:21,519 --> 02:08:25,240
+ can get the minimum eigen value will be good enough.
+
+1057
+02:08:25,240 --> 02:08:35,440
+ Then you will get the corresponding eigen vector which is called B minimum.
+
+1058
+02:08:35,440 --> 02:08:45,440
+ And then therefore you think this is energy is given you can see our S should be related
+
+1059
+02:08:45,440 --> 02:08:56,240
+ to the energy is it will be a scalar you take the square root multiplied by this eigen vector
+
+1060
+02:08:56,240 --> 02:09:07,480
+ and somehow need to normalize in this way to produce this new given energy if you have
+
+1061
+02:09:07,480 --> 02:09:11,000
+ a constraint here.
+
+1062
+02:09:11,000 --> 02:09:20,120
+ So that's finish the matched filter and it's generalized matched filters.
+
+1063
+02:09:20,120 --> 02:09:23,320
+ Any questions?
+
+1064
+02:09:23,320 --> 02:09:35,880
+ Up to now before we move on to another topic which is for the multiple signal case because
+
+1065
+02:09:35,880 --> 02:09:45,360
+ so far we discussed either noise only or you have signal noise we try to distinguish this.
+
+1066
+02:09:45,360 --> 02:09:53,320
+ Now we can consider multiple signal say two signal that's why I call it binary case you
+
+1067
+02:09:53,320 --> 02:09:58,639
+ have two different signal remember in the early discussion we have this communications
+
+1068
+02:09:58,639 --> 02:10:06,080
+ example in communications.
+
+1069
+02:10:06,080 --> 02:10:16,320
+ So therefore we want to try to link this if you have more than two they will become classification
+
+1070
+02:10:16,320 --> 02:10:24,480
+ problem but for the binary case we still call that as detection problem.
+
+1071
+02:10:24,480 --> 02:10:35,280
+ Yeah that's the problem the formulation mathematically I think we already discussed that here and
+
+1072
+02:10:35,280 --> 02:10:42,559
+ then in this case we assume for the moment the noise the white Gaussian noise to its
+
+1073
+02:10:42,559 --> 02:10:44,120
+ barrier.
+
+1074
+02:10:44,120 --> 02:10:55,480
+ And then we also assume at this point the cost to be equal so that means we do not impose
+
+1075
+02:10:55,480 --> 02:11:04,160
+ different cost they will make the problem more complicated and also the prime probability
+
+1076
+02:11:04,160 --> 02:11:05,480
+ are equal too.
+
+1077
+02:11:05,480 --> 02:11:16,040
+ So here we are using the Bayesian approach to deal with the problem but despite the same
+
+1078
+02:11:16,040 --> 02:11:22,040
+ anyway we have become a maximum likelihood criteria.
+
+1079
+02:11:22,040 --> 02:11:30,200
+ Okay then we again since we are dealing with white Gaussian noise you can see on the H0
+
+1080
+02:11:30,200 --> 02:11:43,519
+ or H1 the expression is the same except this means here we change from either H0 or H1
+
+1081
+02:11:43,519 --> 02:11:46,200
+ okay.
+
+1082
+02:11:46,200 --> 02:11:56,280
+ And then so you see here think this is ML problem you see remember we already discussed
+
+1083
+02:11:56,280 --> 02:12:07,000
+ if we are deciding H1 then this likelihood function under H1 it should be greater than
+
+1084
+02:12:07,000 --> 02:12:09,679
+ the one under H0.
+
+1085
+02:12:09,679 --> 02:12:22,280
+ So comparing the two we are just trying to get so called larger value because all the
+
+1086
+02:12:22,280 --> 02:12:29,040
+ others are the same except this exponent and then remember our exponent we carry a minus
+
+1087
+02:12:29,040 --> 02:12:30,840
+ sign here okay.
+
+1088
+02:12:30,840 --> 02:12:44,080
+ So for the exponential to a minus a constant value the one with smaller value here it will
+
+1089
+02:12:44,080 --> 02:12:56,720
+ give you a larger value because exponential to the minor positive value so that means
+
+1090
+02:12:56,720 --> 02:13:04,200
+ in the extreme you go to G0 then it will be the largest because whatever negative one
+
+1091
+02:13:04,200 --> 02:13:09,320
+ you will go down so minus one or minus two and so.
+
+1092
+02:13:09,320 --> 02:13:21,480
+ So this right here the problem we can simplify it into by choosing among the I here is G0
+
+1093
+02:13:21,480 --> 02:13:28,759
+ and 1 we have two only to see which one is the smallest or minimum you see we are comparing
+
+1094
+02:13:28,759 --> 02:13:35,840
+ the two you can extend that to the more general case say more than two but we are focusing
+
+1095
+02:13:35,840 --> 02:13:37,920
+ mainly on two okay.
+
+1096
+02:13:37,920 --> 02:13:45,120
+ So that makes the discussion much easier because you are not talking about exponential
+
+1097
+02:13:45,120 --> 02:13:53,160
+ signal you are only looking at the summation because you need a square and then some more
+
+1098
+02:13:53,160 --> 02:14:03,440
+ those and this case seems like we are measuring the distance okay comparing the measure data
+
+1099
+02:14:03,440 --> 02:14:05,800
+ and the signal these are the given one.
+
+1100
+02:14:05,800 --> 02:14:13,840
+ So we call that this detector is a minimum distance receiver because it often happen
+
+1101
+02:14:13,840 --> 02:14:20,200
+ in the communication and dealing with receiving signal.
+
+1102
+02:14:20,200 --> 02:14:25,080
+ So any problem so far any question?
+
+1103
+02:14:25,080 --> 02:14:34,080
+ So let's make it into vector form so that instead of sum you use vector form to represent
+
+1104
+02:14:34,080 --> 02:14:44,640
+ this your can use either it's a Ingle product or make it as a norm so that's yeah that's
+
+1105
+02:14:44,640 --> 02:14:56,040
+ a great Euclidean norm in the up ion space okay yeah so that's very very straightforward
+
+1106
+02:14:56,040 --> 02:15:09,360
+ some geometric then in that case you want to make this distance to be choose the small
+
+1107
+02:15:09,360 --> 02:15:18,600
+ one so that means the same thing is since the signal either S0 or H1 given and the X is
+
+1108
+02:15:18,600 --> 02:15:28,040
+ our measure data I want to see which signal is closer to this then yeah and then you can
+
+1109
+02:15:28,040 --> 02:15:38,480
+ visualize using the in the case of two sample they will become a prank so this is very similar
+
+1110
+02:15:38,480 --> 02:15:51,160
+ to machine learning you are talking about SVM support vectors during this case we just
+
+1111
+02:15:51,160 --> 02:16:03,280
+ given this S1 and S2 they are fixed so you draw the line link these two and in the middle
+
+1112
+02:16:03,280 --> 02:16:15,800
+ you'll you'll take the center point and then and then divide it into two plane so therefore
+
+1113
+02:16:15,800 --> 02:16:23,519
+ whenever in that half plane closer to S1 they will go with D side H1 because it's near D
+
+1114
+02:16:23,519 --> 02:16:29,840
+ side near D side the measure data near D side or on the other end you go to the other side
+
+1115
+02:16:29,880 --> 02:16:44,600
+ D side H0 that's very straightforward then now mathematically how we can do it then you
+
+1116
+02:16:44,600 --> 02:16:54,559
+ see for each eye can always be zero in one in the binary case so we again I hope you know how
+
+1117
+02:16:54,600 --> 02:17:06,879
+ to manipulate you you explain the quadratic term and then in our case here also this term
+
+1118
+02:17:06,879 --> 02:17:16,039
+ depends on the data you see is the measure data but here we want to compare this D0 and D1 so
+
+1119
+02:17:16,080 --> 02:17:28,140
+ the index is more important we need to use those data related depending on the one of the two
+
+1120
+02:17:28,140 --> 02:17:33,880
+ signal we are always talking about binary case so therefore you can ignore this term because
+
+1121
+02:17:33,880 --> 02:17:42,960
+ it's for both eye equal to 0 or 1 that give you the same okay it doesn't contribute to decide
+
+1122
+02:17:43,359 --> 02:17:54,480
+ which one is smaller which eye is smaller so therefore among this we rely this part here
+
+1123
+02:17:54,480 --> 02:18:03,799
+ that's the one we need we are kidding okay that's we call the TI of X so here is important
+
+1124
+02:18:04,559 --> 02:18:14,400
+ since we are we try to calculate this DI so you need to include this SIN power 2 first here
+
+1125
+02:18:14,400 --> 02:18:25,719
+ but remember here again we try to lean into the energy you see because that's we cannot always
+
+1126
+02:18:25,719 --> 02:18:33,559
+ increase the energy of the signal we want to somehow constrain the energy so this is a half of
+
+1127
+02:18:33,559 --> 02:18:45,320
+ the energy for the SI we call that if X in on eye because the two signal they may have the same
+
+1128
+02:18:45,320 --> 02:18:52,760
+ energy may be different so for the typing assume they may not be the same first okay so therefore
+
+1129
+02:18:53,080 --> 02:19:04,719
+ here we want to maximize this term so how to do that then you can see it's again related to a
+
+1130
+02:19:04,719 --> 02:19:18,120
+ mesh filter but in the extended version here so now our major data since now we always have some
+
+1131
+02:19:19,000 --> 02:19:26,920
+ signals either s0 or s1 okay so what we do is since we have these two signals given the data we
+
+1132
+02:19:26,920 --> 02:19:36,480
+ do the correlation using each of them to produce two branches yeah that's always you can always do
+
+1133
+02:19:36,480 --> 02:19:45,280
+ that then we create this t0 here but don't forget you need to subtract this half of the energy of
+
+1134
+02:19:45,280 --> 02:19:55,320
+ this similarly for this one you'll subtract this we call there is a bias then we create t0 t1 X so
+
+1135
+02:19:55,320 --> 02:20:05,480
+ now we need to compare this two to see which one is a larger then if t1 is larger than t0
+
+1136
+02:20:05,640 --> 02:20:14,960
+ we decide on h1 otherwise we decide on h0 and in the case of equal it doesn't matter it's the
+
+1137
+02:20:14,960 --> 02:20:27,320
+ pouty you can decide on either one okay so that's how it looks like a mesh filter except now you have
+
+1138
+02:20:27,320 --> 02:20:43,400
+ two branches so since we are using the patient approach so we want to see how this PE is calculated
+
+1139
+02:20:43,400 --> 02:20:54,600
+ you see so again based on what we are assuming equal cost so we're not talking about the bias
+
+1140
+02:20:54,920 --> 02:21:06,400
+ raise so we only talk about PE here and then assume the pride probability at the same it's p of h
+
+1141
+02:21:06,400 --> 02:21:12,880
+ you know and p of h one of the same so therefore both if you have two the same must be one over two
+
+1142
+02:21:12,880 --> 02:21:25,279
+ pull this out so our lab is here and then remember now our decision is a based on comparing this t1
+
+1143
+02:21:25,279 --> 02:21:38,679
+ X and t0 X okay so there are again there are two types of error here if h0 is true but we decide
+
+1144
+02:21:38,680 --> 02:21:47,040
+ as t1 greater than that then that's we decide on h1 so that's wrong similarly for the other one
+
+1145
+02:21:47,040 --> 02:22:03,200
+ okay then you can yeah so so we want to try to try to combine these two together because at this
+
+1146
+02:22:03,240 --> 02:22:11,880
+ moment it looks a little bit not so easy to handle here so what I do here since we always compare
+
+1147
+02:22:11,880 --> 02:22:21,040
+ these two we can be five this t of x equal to the difference between these two that's okay and then
+
+1148
+02:22:22,000 --> 02:22:31,560
+ once we do that you can substitute our new t of x equal to that and then you can
+
+1149
+02:22:31,560 --> 02:22:39,760
+ combine the term because they are the same summation you take this combine these two and
+
+1150
+02:22:39,760 --> 02:22:50,080
+ then these are independent of the sum you also combine you get this so now you look carefully
+
+1151
+02:22:50,800 --> 02:23:02,000
+ our tx is linear in x you see then it will also be Gaussian and each hypothesis so at the
+
+1152
+02:23:03,760 --> 02:23:18,320
+ h0 h1 it's always linear it will be Gaussian and then again we can get the expectation of t
+
+1153
+02:23:18,400 --> 02:23:31,360
+ under h0 so what you do is you substitute in this case h0 is under h0 you see our you will go back
+
+1154
+02:23:33,039 --> 02:23:45,680
+ our x of n you have to use the s0 plus the noise then simplify
+
+1155
+02:23:45,840 --> 02:23:56,320
+ yeah then you simplify your n tau with the result using vector form I think you should be able to
+
+1156
+02:23:56,320 --> 02:24:06,320
+ work out you try to combine that and then it turns out to be you you can cancel out this term to
+
+1157
+02:24:07,119 --> 02:24:14,880
+ to make it as as the difference distance difference between the h1 and s0 0 vector
+
+1158
+02:24:15,440 --> 02:24:25,440
+ is negative similarly under h1 we get the same result except the sides are different okay this is
+
+1159
+02:24:25,440 --> 02:24:30,800
+ minor this is positive okay so you only have the minus side different
+
+1160
+02:24:33,840 --> 02:24:45,360
+ and now look at the barrier under h0 again you can yeah I'll be able to work out this by yourself
+
+1161
+02:24:46,240 --> 02:24:52,880
+ then it's similar to this of course barrier will always be positive so this is a check
+
+1162
+02:24:53,839 --> 02:25:00,560
+ the point where you can verify if your n tau is a negative value there must be something wrong
+
+1163
+02:25:00,560 --> 02:25:06,240
+ okay and then under h1 it turns out to be the same here so you'll get this
+
+1164
+02:25:08,960 --> 02:25:18,640
+ then you can take the since they are the distribution they are both Gaussian and the same
+
+1165
+02:25:18,720 --> 02:25:27,279
+ barrier only the mean are different so you can assume some mean value then you you will get this
+
+1166
+02:25:27,279 --> 02:25:44,480
+ probe which is what we have learned before and then you can also get the p under that because
+
+1167
+02:25:44,480 --> 02:25:55,199
+ there is a receiver symmetry so you can simplify it into this simple q function here and then you
+
+1168
+02:25:55,199 --> 02:26:06,240
+ can also simplify the difference between these two is you'll have the square root the sigma power
+
+1169
+02:26:06,240 --> 02:26:13,920
+ two take the square root you pull out and the other one you don't take the square root so so that
+
+1170
+02:26:13,920 --> 02:26:23,520
+ means this one is a product of these two because you take the square root then you will cancel half
+
+1171
+02:26:23,520 --> 02:26:34,480
+ your n tau with this okay so so again here once we are given h1 h0 you can see the performance
+
+1172
+02:26:35,199 --> 02:26:41,760
+ will get better if the distance of these two are larger
+
+1173
+02:26:43,600 --> 02:26:52,080
+ yeah and they will call this makes sense because the if the two given sigma
+
+1174
+02:26:53,520 --> 02:26:59,119
+ further apart is easier for you to to tell the difference so that makes sense
+
+1175
+02:26:59,200 --> 02:26:59,840
+ yeah
+
+1176
+02:27:04,000 --> 02:27:12,080
+ and then let's do a little bit further assume the two energy may not be the same but we can
+
+1177
+02:27:12,800 --> 02:27:22,160
+ defy the average signal energy by some then divided by two that makes sense and then in this case
+
+1178
+02:27:22,160 --> 02:27:30,560
+ you can verify because this is we discussed we only need to care about this distance then square
+
+1179
+02:27:31,280 --> 02:27:45,760
+ so again this is you can it's a quadratic term you can explain it using the here we are dealing with
+
+1180
+02:27:45,760 --> 02:27:55,280
+ a rare vector so that's easier the way we want to do is we want to link this into
+
+1181
+02:27:56,800 --> 02:28:04,560
+ as this average energy signal energy okay so you can rewrite that and then
+
+1182
+02:28:06,000 --> 02:28:12,640
+ also in n tau ways you have a cross term here so this cross term is related to our
+
+1183
+02:28:13,279 --> 02:28:22,560
+ correlation coefficient you see that's how we defy this by this cross term and then divide by
+
+1184
+02:28:23,840 --> 02:28:32,160
+ normalize this is you see the yeah that's precisely this one is the energy of signal one the other
+
+1185
+02:28:32,880 --> 02:28:41,119
+ signal zero so you take the average and you can verify again using the
+
+1186
+02:28:42,560 --> 02:28:49,360
+ colleges inequality you can make sure this is always the absolute value is always smaller
+
+1187
+02:28:49,360 --> 02:28:56,320
+ equal to one otherwise it doesn't make sense because this is a correlation coefficient okay so that
+
+1188
+02:28:56,320 --> 02:29:06,320
+ means if zero then it's no correlation between these two if one it will be the maximum correlation
+
+1189
+02:29:06,320 --> 02:29:12,160
+ you're talking about the same signal if minus one it's the same but you go one go to the other
+
+1190
+02:29:12,160 --> 02:29:22,240
+ direction you know like 180 degree different so therefore we can put back to the p and rewrite in
+
+1191
+02:29:22,560 --> 02:29:33,360
+ in in this form you see so now again for q function you see we want to minimize that we will
+
+1192
+02:29:34,400 --> 02:29:39,280
+ make you know this is always positive but
+
+1193
+02:29:39,280 --> 02:29:55,520
+ but if you look at the positive value q function then the bigger the value the positive yeah
+
+1194
+02:29:55,520 --> 02:30:01,760
+ you will give you a smaller q function value you see remember our probe yeah it's very
+
+1195
+02:30:02,480 --> 02:30:14,000
+ q is normalized so so therefore you assume this is average energy is constrained is a fix you see
+
+1196
+02:30:14,640 --> 02:30:24,960
+ so what I can do here you can choose the signal such that this correlation is the minus one because
+
+1197
+02:30:25,679 --> 02:30:33,519
+ one minus minus one become one plus two plus one you have become two let's give you the largest
+
+1198
+02:30:33,519 --> 02:30:42,000
+ value and that also makes sense because if the you know once you have the signal energy
+
+1199
+02:30:42,640 --> 02:30:50,000
+ average energy is constrained so then in these two vectors the further apart there will be
+
+1200
+02:30:50,240 --> 02:31:01,600
+ there will be better the p will be the smallest so so if the two vector are the same but there are
+
+1201
+02:31:02,240 --> 02:31:12,880
+ 180 degree different they give you the largest distance between the two okay so that makes
+
+1202
+02:31:12,880 --> 02:31:20,080
+ sense I think there was somewhat related to one of the assignment question and a few students did
+
+1203
+02:31:20,080 --> 02:31:26,400
+ answer that one then that that's that's quite good so at least yeah somehow you
+
+1204
+02:31:27,039 --> 02:31:36,240
+ you make good use of this correlation coefficient so finally we quickly apply to this linear model
+
+1205
+02:31:36,240 --> 02:31:42,720
+ because so far we do not assume linear model so linear model you don't go back to what we discussed
+
+1206
+02:31:42,720 --> 02:31:55,840
+ earlier x linearly depending on the theta vector so thus this could be known and unknown in our current
+
+1207
+02:31:55,840 --> 02:32:04,480
+ case we assume they are known and then this is ring them vector or Gaussian but the covariance
+
+1208
+02:32:04,480 --> 02:32:13,359
+ magic can be arbitrary and this is constant this noise so we see what we can do in this case
+
+1209
+02:32:13,920 --> 02:32:21,680
+ so in this case since assume we have a non-determitic signal then this will be our new
+
+1210
+02:32:22,240 --> 02:32:32,240
+ signal vector and that's zero assume this is zero so yeah so then you can go back to our
+
+1211
+02:32:32,240 --> 02:32:40,400
+ discussion and in the case of pc labor in white Gaussian noise then we get a special
+
+1212
+02:32:41,520 --> 02:32:48,480
+ linear model with h equal to that zero one equal to this and this got this so yeah
+
+1213
+02:32:51,280 --> 02:33:01,600
+ then we can once we decide on that you can use what we learned just now to formulate
+
+1214
+02:33:01,680 --> 02:33:10,640
+ and h0 h1 and then our np detector because since we assume this case it will be equal to this
+
+1215
+02:33:10,640 --> 02:33:17,120
+ as we already discussed and then we know the s you want to put back there you are this is what
+
+1216
+02:33:17,600 --> 02:33:27,520
+ you will need you will get here okay i think this is give the right time to finish this chapter and so
+
+1217
+02:33:28,080 --> 02:33:40,400
+ uh yeah so we can end here so that which just meet our our plans and our our schedule here
+
+1218
+02:33:42,320 --> 02:33:52,640
+ so next week we my plan is i finish the marking your assignments and so i hope everyone can
+
+1219
+02:33:53,599 --> 02:34:06,960
+ uh try to come next week because uh you may uh be uh better to discuss and we i will use another
+
+1220
+02:34:08,960 --> 02:34:17,439
+ half of the time to go through the simon one solution and another half of the time probably
+
+1221
+02:34:17,520 --> 02:34:27,680
+ one hour plus to finish the chapter four which is about half of this chapter three so the timing is
+
+1222
+02:34:27,680 --> 02:34:38,880
+ also uh reasonable so that's the plan and don't forget the quiz will be two weeks later here okay
+
+1223
+02:34:39,839 --> 02:34:50,480
+ so that's all uh any questions you can stay back uh yeah if not then you're free to leave
+
+1224
+02:34:51,839 --> 02:35:06,320
+ so see you next week
+
+1225
+02:35:08,880 --> 02:35:09,380
+ you
+
+1226
+02:35:38,880 --> 02:35:39,380
+ you
+
+1227
+02:36:08,880 --> 02:36:09,380
+ you
+
+1228
+02:36:38,880 --> 02:36:39,380
+ you
+
+1229
+02:37:08,880 --> 02:37:09,380
+ you
+
+1230
+02:37:38,880 --> 02:37:39,380
+ you
+
+1231
+02:38:08,880 --> 02:38:09,380
+ you
+
+1232
+02:38:38,880 --> 02:38:39,380
+ you
+
+1233
+02:39:08,880 --> 02:39:09,380
+ you
+
+1234
+02:39:38,880 --> 02:39:39,380
+ you
+
+1235
+02:40:08,880 --> 02:40:09,380
+ you
+
+1236
+02:40:38,880 --> 02:40:39,380
+ you
+
+1237
+02:41:08,880 --> 02:41:09,380
+ you
+
+1238
+02:41:38,880 --> 02:41:39,380
+ you
+
+1239
+02:42:08,880 --> 02:42:09,380
+ you
+
+1240
+02:42:38,880 --> 02:42:39,380
+ you
+
+1241
+02:43:08,880 --> 02:43:09,380
+ you
+
+1242
+02:43:38,880 --> 02:43:39,380
+ you
+
+1243
+02:44:08,880 --> 02:44:09,380
+ you
+
+1244
+02:44:38,880 --> 02:44:39,380
+ you
+
+1245
+02:45:08,880 --> 02:45:09,380
+ you
+
+1246
+02:45:38,880 --> 02:45:39,380
+ you
+
+1247
+02:46:08,880 --> 02:46:09,380
+ you
+
+1248
+02:46:38,880 --> 02:46:39,380
+ you
+
+1249
+02:47:08,880 --> 02:47:09,380
+ you
+
+1250
+02:47:38,880 --> 02:47:39,380
+ you
+
+1251
+02:48:08,880 --> 02:48:09,380
+ you
+
+1252
+02:48:38,880 --> 02:48:39,380
+ you
+
+1253
+02:49:08,880 --> 02:49:09,380
+ you
+
+1254
+02:49:38,880 --> 02:49:39,380
+ you
+
+1255
+02:50:08,880 --> 02:50:09,380
+ you
+
+1256
+02:50:38,880 --> 02:50:39,380
+ you
+
+1257
+02:51:08,880 --> 02:51:09,380
+ you
+
+1258
+02:51:38,880 --> 02:51:39,380
+ you
+
+1259
+02:52:08,880 --> 02:52:09,380
+ you
+
+1260
+02:52:38,880 --> 02:52:39,380
+ you
+
+1261
+02:53:08,880 --> 02:53:09,380
+ you
+
+1262
+02:53:38,880 --> 02:53:39,380
+ you
+
+1263
+02:54:08,880 --> 02:54:09,380
+ you
+
+1264
+02:54:38,880 --> 02:54:39,380
+ you
+
+1265
+02:55:08,880 --> 02:55:09,380
+ you
+
+1266
+02:55:38,880 --> 02:55:39,380
+ you
+
+1267
+02:56:08,880 --> 02:56:09,380
+ you
+
+1268
+02:56:38,880 --> 02:56:39,380
+ you
+
+1269
+02:57:08,880 --> 02:57:09,380
+ you
+
+1270
+02:57:38,880 --> 02:57:39,380
+ you
+
+1271
+02:58:08,880 --> 02:58:09,380
+ you
+
+1272
+02:58:38,880 --> 02:58:39,380
+ you
+
+1273
+02:59:08,880 --> 02:59:09,380
+ you
+
+1274
+02:59:38,880 --> 02:59:39,380
+ you
+

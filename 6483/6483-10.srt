@@ -1,0 +1,5296 @@
+1
+00:02:00,000 --> 00:02:28,800
+ Okay.
+
+2
+00:02:28,800 --> 00:02:35,800
+ So today will be the last lecture I'm going to cover for this course.
+
+3
+00:02:35,800 --> 00:02:44,920
+ And I plan to finish all the neural networks, some of the applications that you have seen
+
+4
+00:02:44,920 --> 00:02:48,360
+ or are going to see a lot of them.
+
+5
+00:02:48,360 --> 00:02:54,360
+ And all those applications, if you really understand the basics, you will find that
+
+6
+00:02:54,360 --> 00:03:03,920
+ they all operate under the same so-called training machine learning paradigm.
+
+7
+00:03:03,920 --> 00:03:12,520
+ So although there are some interesting ideas, but eventually they are just minimizing so-called
+
+8
+00:03:12,520 --> 00:03:19,960
+ some kind of error or loss function with a lot of training data and the target output.
+
+9
+00:03:19,960 --> 00:03:29,480
+ You use some kind of gradient descent or back propagation to adjust the parameters until
+
+10
+00:03:29,480 --> 00:03:32,600
+ you get what you want.
+
+11
+00:03:32,600 --> 00:03:42,240
+ So that is actually having the very, very important so-called tools that they use to
+
+12
+00:03:42,240 --> 00:03:44,240
+ develop those networks.
+
+13
+00:03:44,240 --> 00:03:52,120
+ Okay, just to recap, a neural network is nothing but a multi-layer perceptron.
+
+14
+00:03:52,120 --> 00:03:54,520
+ This is a very general form.
+
+15
+00:03:54,520 --> 00:04:03,920
+ Later on you will see that even in the chat GPT, they also have this multi-layer perceptron
+
+16
+00:04:03,920 --> 00:04:15,880
+ at some of the layer to map the input into some kind of output, more condensed representation
+
+17
+00:04:15,880 --> 00:04:20,599
+ or feature with certain semantic representation.
+
+18
+00:04:20,599 --> 00:04:29,200
+ So the idea is if you have multiple layers, you could approximate very complex classification
+
+19
+00:04:29,200 --> 00:04:30,200
+ tasks.
+
+20
+00:04:30,479 --> 00:04:37,320
+ A lot of problems can be formulated as a classification, including even your chat GPT.
+
+21
+00:04:37,320 --> 00:04:43,760
+ You'll find that every time you ask a question, the output they generate is actually one token
+
+22
+00:04:43,760 --> 00:04:48,120
+ by one token, make it into a sentence.
+
+23
+00:04:48,120 --> 00:04:55,560
+ So every token output is a classification based on a fixed number of classes that you
+
+24
+00:04:55,600 --> 00:05:00,600
+ have when you do the training, maybe thousands of them or several thousands of them.
+
+25
+00:05:00,600 --> 00:05:06,840
+ So you try to classify which is the most likely classes.
+
+26
+00:05:06,840 --> 00:05:14,000
+ Therefore you need to have many, many layers which allow you to construct very complex
+
+27
+00:05:14,000 --> 00:05:18,880
+ classification regions.
+
+28
+00:05:18,880 --> 00:05:23,920
+ Again this is a gradient descent and the only thing that you know is regardless of what
+
+29
+00:05:23,920 --> 00:05:29,640
+ you do, basically you try to formulate some kind of cost function here.
+
+30
+00:05:29,640 --> 00:05:36,240
+ Just to recap, in case you have forgotten, and this cost function could be very complex
+
+31
+00:05:36,240 --> 00:05:45,120
+ but because of this function you can now train the date work by finding a set of parameters
+
+32
+00:05:45,120 --> 00:05:49,960
+ which can minimize the loss.
+
+33
+00:05:50,120 --> 00:05:57,520
+ You may not be able to solve this function with some kind of a closed form solution but
+
+34
+00:05:57,520 --> 00:06:06,320
+ you could start with any initial random starting point then iteratively move towards a negative
+
+35
+00:06:06,320 --> 00:06:17,640
+ gradient direction which allows you to reduce the error function bit by bit until you reach
+
+36
+00:06:18,320 --> 00:06:25,479
+ a better so-called set of parameters which might become the solution of your network.
+
+37
+00:06:25,479 --> 00:06:31,760
+ Then we went through this sum of square errors.
+
+38
+00:06:31,760 --> 00:06:37,320
+ If you have sum of square errors for this multi-layer perceptrons, what you need to do
+
+39
+00:06:37,320 --> 00:06:45,880
+ is to find out how to modify the width and the bias, liter by liter, by taking this gradient
+
+40
+00:06:45,920 --> 00:06:52,120
+ descent for all the parameters which you can adjust.
+
+41
+00:06:52,120 --> 00:06:55,159
+ That is the whole basic idea.
+
+42
+00:06:55,159 --> 00:07:03,960
+ Later on we look at this transformer which is an important basic component of many of
+
+43
+00:07:03,960 --> 00:07:05,960
+ the last language models.
+
+44
+00:07:05,960 --> 00:07:13,840
+ We are also doing this kind of training to find out the parameters.
+
+45
+00:07:13,880 --> 00:07:18,440
+ We went through some detailed calculation with some example.
+
+46
+00:07:18,440 --> 00:07:25,119
+ Basically, again, this is a very key concept that when you do the back propagation, first
+
+47
+00:07:25,119 --> 00:07:32,880
+ you initialize all the weights and bias and normally this could be a random number generator
+
+48
+00:07:32,880 --> 00:07:36,719
+ or you will be given this set of generator.
+
+49
+00:07:37,480 --> 00:07:47,240
+ Then you find out for each input sample what is the so-called output for all the units
+
+50
+00:07:47,240 --> 00:07:51,320
+ until you reach the final output OK.
+
+51
+00:07:51,320 --> 00:07:56,720
+ Once you have the OK, you compare the result with your target output.
+
+52
+00:07:56,720 --> 00:08:03,920
+ If it is not the same, then you are going to have an error here or this error, the error
+
+53
+00:08:03,920 --> 00:08:05,920
+ function that you will find.
+
+54
+00:08:06,120 --> 00:08:15,120
+ This error, then you can use this so-called back work propagation to propagate the error
+
+55
+00:08:15,120 --> 00:08:23,320
+ to compute each of the delta which is error term in the output unit and delta Z using
+
+56
+00:08:23,320 --> 00:08:24,920
+ this two set of formula.
+
+57
+00:08:24,920 --> 00:08:35,240
+ Again, these two formulas are true for all possible activation function, but you should
+
+58
+00:08:35,560 --> 00:08:41,600
+ be aware that this is only true when your error function is sum of square error.
+
+59
+00:08:41,600 --> 00:08:43,840
+ We went through the derivative.
+
+60
+00:08:43,840 --> 00:08:50,960
+ In particular, when your activation function is a sigmoid, this sigma prime net k can be
+
+61
+00:08:50,960 --> 00:09:02,440
+ written as OK1 minus OK or sigma net k times 1 minus sigma net k, which we have shown how
+
+62
+00:09:02,640 --> 00:09:04,640
+ to compute that.
+
+63
+00:09:04,640 --> 00:09:11,440
+ Similarly, sigma prime net j becomes OK1 minus OK.
+
+64
+00:09:11,440 --> 00:09:18,840
+ With this, then you can compute all the minor changes or modifications you can make to
+
+65
+00:09:18,840 --> 00:09:24,840
+ the weights WKJ, WJI, and the bias BJ.
+
+66
+00:09:25,240 --> 00:09:35,240
+ Then you adjust the weight accordingly and then you can improve the output towards the
+
+67
+00:09:35,240 --> 00:09:37,240
+ target output.
+
+68
+00:09:37,240 --> 00:09:44,840
+ This learning rate, eta, are so-called hyperparameters, including many other like how many layers,
+
+69
+00:09:44,840 --> 00:09:51,840
+ how many units, all these are hyperparameters that you can select yourself.
+
+70
+00:09:51,840 --> 00:09:53,840
+ You really have to learn.
+
+71
+00:09:53,840 --> 00:10:00,840
+ Then those W, BI, or BJ are those parameters you can learn.
+
+72
+00:10:00,840 --> 00:10:07,840
+ We went through this and showed you that for error function like this, and this will be
+
+73
+00:10:07,840 --> 00:10:18,840
+ the set of equations that you use to compute your so-called error term and then the adjustment
+
+74
+00:10:18,840 --> 00:10:20,840
+ you make to W and OZ.
+
+75
+00:10:20,840 --> 00:10:27,840
+ Then we went to the exercise and I strongly encourage you to do that and pass the additional
+
+76
+00:10:27,840 --> 00:10:30,840
+ exercise I upload to the website.
+
+77
+00:10:30,840 --> 00:10:32,840
+ Do it yourself before you check the answer.
+
+78
+00:10:32,840 --> 00:10:37,840
+ Make sure you know where to find what formula.
+
+79
+00:10:37,840 --> 00:10:43,840
+ It's just for you to verify that you really know how to compute.
+
+80
+00:10:43,840 --> 00:10:49,840
+ Okay, that is, again, I would say the most important thing that you need to know about
+
+81
+00:10:49,840 --> 00:10:52,840
+ Newton and Eichel.
+
+82
+00:10:52,840 --> 00:10:53,840
+ It's not difficult.
+
+83
+00:10:53,840 --> 00:11:02,840
+ First time when you go through this, it might be less familiar, but after you go through
+
+84
+00:11:02,840 --> 00:11:11,840
+ some of these so-called derivative and calculation, you find that it is nothing really fancy and
+
+85
+00:11:11,840 --> 00:11:17,840
+ people want the Nobel Prize of that.
+
+86
+00:11:17,840 --> 00:11:24,840
+ Okay, then MLP, again, if you try to apply to certain type of data like images, and you
+
+87
+00:11:24,840 --> 00:11:30,840
+ are going to create a lot of the parameters in the two Python programs I showed you.
+
+88
+00:11:30,840 --> 00:11:39,840
+ If you go to see the AlexNet and this is a LERNet, at the end of this so-called fully
+
+89
+00:11:39,840 --> 00:11:42,840
+ connected network, which is MLP, right?
+
+90
+00:11:42,840 --> 00:11:44,840
+ That network is actually MLP.
+
+91
+00:11:44,840 --> 00:11:47,840
+ Basically, you have every link connected to other links.
+
+92
+00:11:47,840 --> 00:11:49,840
+ This is a fully connected network.
+
+93
+00:11:49,840 --> 00:11:55,840
+ Okay, so then you'll find that the number of parameters will be just too large for you to
+
+94
+00:11:55,840 --> 00:12:02,840
+ train, which could also lead to these overfitting problems if you have too many parameters,
+
+95
+00:12:02,840 --> 00:12:04,840
+ too few data.
+
+96
+00:12:04,840 --> 00:12:13,840
+ In fact, if you look at the chat GPT, before GPT-3 came out, there were GPT-1, GPT-2, right?
+
+97
+00:12:13,840 --> 00:12:17,840
+ And the performance was not really fantastic.
+
+98
+00:12:17,840 --> 00:12:22,840
+ The reason is they have a lot of parameters, but they do not have enough training data.
+
+99
+00:12:22,840 --> 00:12:26,840
+ All the parameters are also not enough until they increase.
+
+100
+00:12:26,840 --> 00:12:28,840
+ These two are together.
+
+101
+00:12:28,840 --> 00:12:32,840
+ You want to have more parameters, then you need to have more training data, right?
+
+102
+00:12:32,840 --> 00:12:38,840
+ Otherwise, you may overfit the network all the way to the other or underfit, depending
+
+103
+00:12:38,840 --> 00:12:40,840
+ on how you look at it.
+
+104
+00:12:40,840 --> 00:12:46,840
+ And until the data size increased to a large number, the network become complex enough,
+
+105
+00:12:46,840 --> 00:12:49,840
+ then suddenly the performance jumped up, right?
+
+106
+00:12:49,840 --> 00:12:56,840
+ And people start to realize that, oh, that is something useful.
+
+107
+00:12:56,840 --> 00:13:05,840
+ So this convolutional neural network was introduced to limit the number of parameters, right?
+
+108
+00:13:05,840 --> 00:13:11,840
+ And I think we went through this, but it's good to also make sure you recap, you understand, right?
+
+109
+00:13:11,840 --> 00:13:19,840
+ Basically, this image, in the past, every point can link to all the so-called unit in
+
+110
+00:13:19,840 --> 00:13:22,840
+ the so-called first layer.
+
+111
+00:13:22,840 --> 00:13:28,840
+ But with the convolutional neural network, you only allow them to link to a small window
+
+112
+00:13:28,840 --> 00:13:33,840
+ side, which is the filter side, 3 by 3, 5 by 5, 7 by 7, or 11 by 11.
+
+113
+00:13:33,840 --> 00:13:39,840
+ Normally, it's the odd number to have the center in between, OK?
+
+114
+00:13:39,840 --> 00:13:46,840
+ And then not just that, for every layer, the filter, the weights, which the filter W
+
+115
+00:13:46,840 --> 00:13:49,840
+ that you learn will be the same, OK?
+
+116
+00:13:49,840 --> 00:13:51,840
+ And then you can also add a bias, right?
+
+117
+00:13:51,840 --> 00:13:55,840
+ The filter plus a bias for that particular layer, they will be all the same.
+
+118
+00:13:55,840 --> 00:14:03,840
+ So, and then if you want to have multiple layer, then you can allow to use a multiple
+
+119
+00:14:03,840 --> 00:14:07,840
+ set of so-called filter.
+
+120
+00:14:07,840 --> 00:14:13,840
+ And you can consider that each filter is more like looking for different kind of pattern,
+
+121
+00:14:13,840 --> 00:14:14,840
+ right?
+
+122
+00:14:14,840 --> 00:14:17,840
+ This filter may be looking for high frequency content.
+
+123
+00:14:17,840 --> 00:14:22,840
+ The other filter looking for maybe what kind of color, whether they are red or green color
+
+124
+00:14:22,840 --> 00:14:27,840
+ or third filter, because you cannot have one do multiple task.
+
+125
+00:14:27,840 --> 00:14:32,840
+ So, every filter, you look for different kind of feature that you create multiple so-called
+
+126
+00:14:32,840 --> 00:14:34,840
+ feature maps.
+
+127
+00:14:34,840 --> 00:14:40,840
+ In this case, if you need to have 10 feature maps, then you need to have 10 filter.
+
+128
+00:14:40,840 --> 00:14:47,840
+ And then the number of weights will be 5 by 5 plus a color by 3 by 10.
+
+129
+00:14:47,840 --> 00:14:54,840
+ So, that will be the number of weights, or plus another so-called 10 filter, which is
+
+130
+00:14:54,840 --> 00:14:55,840
+ bias.
+
+131
+00:14:55,840 --> 00:14:58,840
+ That will be the total number of weights that you have, right?
+
+132
+00:14:58,840 --> 00:15:07,840
+ Which is certainly very much less than you multiply 28 by 28 by 3 by total number of
+
+133
+00:15:07,840 --> 00:15:12,840
+ so-called convolutional layer.
+
+134
+00:15:12,840 --> 00:15:17,840
+ And then again, you can then also apply this so-called pooling.
+
+135
+00:15:17,840 --> 00:15:22,840
+ You can have max pooling, average pooling, which allow you to reduce the data size.
+
+136
+00:15:22,840 --> 00:15:25,840
+ This is why you don't have any parameter to learn, right?
+
+137
+00:15:25,840 --> 00:15:28,840
+ You just operate like reducing the data size.
+
+138
+00:15:28,840 --> 00:15:32,840
+ The whole purpose is to make sure the number of parameter will not increase.
+
+139
+00:15:32,840 --> 00:15:39,840
+ Then, after that, when the spatial dimension reduced, now you can have more so-called filter,
+
+140
+00:15:39,840 --> 00:15:40,840
+ right?
+
+141
+00:15:40,840 --> 00:15:45,840
+ You can have more feature map, which look for even more complex kind of so-called structure.
+
+142
+00:15:45,840 --> 00:15:52,840
+ Could be, I think I showed some example, and eyes, or some kind of texture, right?
+
+143
+00:15:52,840 --> 00:15:59,840
+ And many, many different kind of so-called feature map.
+
+144
+00:15:59,840 --> 00:16:05,840
+ So, for this case, when you create this, you have 20, then you have 20 filters, and each
+
+145
+00:16:05,840 --> 00:16:15,840
+ filter, the size is actually, in this case, assuming it's a 5 by 5 times 10 times 20 parameter
+
+146
+00:16:15,840 --> 00:16:17,840
+ total, right?
+
+147
+00:16:17,840 --> 00:16:22,840
+ Because this now, the input is the longer just color tree, actually you have 10 feature
+
+148
+00:16:22,840 --> 00:16:23,840
+ map.
+
+149
+00:16:23,840 --> 00:16:28,840
+ So, each filter now is 5 by 5 times 10, okay?
+
+150
+00:16:28,840 --> 00:16:36,840
+ So, they allow you to extract the useful feature or pattern across different feature map.
+
+151
+00:16:36,840 --> 00:16:40,840
+ Therefore, sometimes you might have seen one time one filter.
+
+152
+00:16:40,840 --> 00:16:42,840
+ So, why there's a one time one?
+
+153
+00:16:42,840 --> 00:16:47,840
+ But don't forget that this is one time one time the number of feature layer you have.
+
+154
+00:16:47,840 --> 00:16:49,840
+ In this case, time 10.
+
+155
+00:16:49,840 --> 00:16:56,840
+ So, for every location, you can do the kind of a weighted sum for all the feature at the
+
+156
+00:16:56,840 --> 00:16:57,840
+ same location.
+
+157
+00:16:57,840 --> 00:17:07,840
+ Then you apply the layer pooling again until at the end you have 4 by 4 by 20, right?
+
+158
+00:17:07,840 --> 00:17:12,840
+ 160 of them, then you do a fully connected network.
+
+159
+00:17:12,840 --> 00:17:17,840
+ They mean 160, you concatenate all these, you have 4 by 4 by 20.
+
+160
+00:17:17,840 --> 00:17:23,840
+ No, actually 4 by 4 by 20, 320 of them, right?
+
+161
+00:17:23,839 --> 00:17:31,840
+ So, 320 of them, then you have fully connected network for 320 input to 100.
+
+162
+00:17:31,840 --> 00:17:37,840
+ Then you have the parameter 310 by 100 plus 100 bias.
+
+163
+00:17:37,840 --> 00:17:43,840
+ So, immediately the number of parameter exposed when you come to this fully connected network.
+
+164
+00:17:43,840 --> 00:17:46,840
+ Then after that you have 10, 100 by 10.
+
+165
+00:17:46,840 --> 00:17:49,840
+ Then at the end you have 10 output.
+
+166
+00:17:49,840 --> 00:17:56,840
+ It is a classification of, in this case, amnesty or C-far 10.
+
+167
+00:17:56,840 --> 00:18:04,840
+ And then you also apply a softmax activation function, which is nothing but a softmax is
+
+168
+00:18:04,840 --> 00:18:05,840
+ something like this.
+
+169
+00:18:05,840 --> 00:18:07,840
+ This is a very important function.
+
+170
+00:18:07,840 --> 00:18:12,840
+ Later on you'll see that this also appear in the transformer, right?
+
+171
+00:18:12,840 --> 00:18:21,840
+ It is a way that to cover the output, you give them some kind of probability.
+
+172
+00:18:21,840 --> 00:18:29,840
+ If you, every net i is input to each of the 10 output units, then you raise the power
+
+173
+00:18:29,840 --> 00:18:34,840
+ of E and net j i, then you sum them up for all this.
+
+174
+00:18:34,840 --> 00:18:41,840
+ Then the output O i for each of them will be a number between 0 to 1.
+
+175
+00:18:41,840 --> 00:18:44,840
+ And you sum them up will be equal to 1.
+
+176
+00:18:44,840 --> 00:18:53,840
+ So, it gives you some kind of probability and what is the so-called likelihood that the
+
+177
+00:18:53,840 --> 00:18:58,840
+ object or the image belong to that particular class.
+
+178
+00:18:58,840 --> 00:19:05,840
+ And that is a softmax function.
+
+179
+00:19:05,840 --> 00:19:14,840
+ So, if you go for some kind of interview job, Amazon, whatever, those machining engineer
+
+180
+00:19:14,840 --> 00:19:19,840
+ jobs, they may ask you, so, question, simple question like this, what is softmax?
+
+181
+00:19:19,840 --> 00:19:21,840
+ What is it used for?
+
+182
+00:19:21,840 --> 00:19:27,840
+ What is the, what kind of network that you see, softmax?
+
+183
+00:19:27,840 --> 00:19:31,840
+ Any question that you need to know, right?
+
+184
+00:19:31,840 --> 00:19:36,840
+ And softmax is actually very closely to logistic regression.
+
+185
+00:19:36,840 --> 00:19:45,840
+ And of course, these are the questions that is often, I mean quite often that you can
+
+186
+00:19:45,840 --> 00:19:48,840
+ see such question being asked.
+
+187
+00:19:48,840 --> 00:19:55,840
+ Okay, then you can, this is the learn net, the one young, the coon, designed to do the
+
+188
+00:19:55,840 --> 00:19:59,840
+ digit, and this is the digit classification problem.
+
+189
+00:19:59,840 --> 00:20:04,840
+ So, one thing I would suggest you to take a look at, I have the program in case you
+
+190
+00:20:04,840 --> 00:20:09,840
+ need the program, look at the Python code, you can see the number of the filter site
+
+191
+00:20:09,840 --> 00:20:13,840
+ they use, and then number of filter, you try to compute, right?
+
+192
+00:20:13,840 --> 00:20:18,840
+ This is the dimension of all the output or intermediate layer.
+
+193
+00:20:18,840 --> 00:20:25,840
+ For example, you want to find out the dimension of the next convolution layer, right?
+
+194
+00:20:25,840 --> 00:20:32,840
+ D2, H2, and then can be related to W2, D2, H2.
+
+195
+00:20:32,840 --> 00:20:36,840
+ D2 is equal to the number of filter that you use.
+
+196
+00:20:36,840 --> 00:20:41,840
+ Early on we saw 10, 20, right, or 6, 8.
+
+197
+00:20:41,840 --> 00:20:50,840
+ Then W2 is here to the dimension of the input data or the feature map in the earlier layer
+
+198
+00:20:50,840 --> 00:20:52,840
+ by this formula.
+
+199
+00:20:52,840 --> 00:20:56,840
+ F is the site of the filter, it's a 3 by 3, F will be equal to 3.
+
+200
+00:20:56,840 --> 00:21:03,840
+ P is the number of zero padding on one dimension, on one direction.
+
+201
+00:21:03,840 --> 00:21:09,840
+ One, that can be horizontal or vertical.
+
+202
+00:21:09,840 --> 00:21:16,840
+ If you look at the one side, if you pat one row of zero to the right, one row of zero to the left,
+
+203
+00:21:16,840 --> 00:21:18,840
+ then P is equal to 1.
+
+204
+00:21:18,840 --> 00:21:21,840
+ S is so-called the strike, right?
+
+205
+00:21:21,840 --> 00:21:24,840
+ How fast you move the filter around?
+
+206
+00:21:24,840 --> 00:21:31,840
+ It's a 2D, the strike could be 2 by 2, 3 by 3, or even larger.
+
+207
+00:21:31,840 --> 00:21:37,840
+ One by one is actually every pixel you compute the output.
+
+208
+00:21:37,840 --> 00:21:43,840
+ Then for learnNet, the error function is so-called this cross entropy loss.
+
+209
+00:21:43,840 --> 00:21:47,840
+ This is a very common loss function, E.
+
+210
+00:21:47,840 --> 00:21:54,840
+ You certainly can use a mean square sum of square error,
+
+211
+00:21:54,840 --> 00:21:58,840
+ but since the output, you want it to be 0 and 1,
+
+212
+00:21:58,840 --> 00:22:03,840
+ and this cross entropy loss will give you a better output.
+
+213
+00:22:03,840 --> 00:22:10,840
+ You can train the network by using different error functions to see what is the effect of the accuracy.
+
+214
+00:22:10,840 --> 00:22:20,840
+ Again, this TK, because for this cross entropy, TK, actual class will only be 1 for that particular class,
+
+215
+00:22:20,840 --> 00:22:23,840
+ correct class label, the other will be 0.
+
+216
+00:22:23,840 --> 00:22:27,840
+ Eventually, you only care about that TK equal to 1,
+
+217
+00:22:27,840 --> 00:22:34,840
+ and you care about the actual output whether it is very close to 1.
+
+218
+00:22:34,840 --> 00:22:39,840
+ Because if you have a very small number, then log a small number less than 1 close to 0
+
+219
+00:22:39,840 --> 00:22:42,840
+ will give you a large negative number.
+
+220
+00:22:42,840 --> 00:22:48,840
+ Large number multiplied by minus, then you get a very large error.
+
+221
+00:22:48,840 --> 00:22:56,840
+ So that in effect will help you to come up with the target output close to 1 for the correct class,
+
+222
+00:22:56,840 --> 00:23:01,840
+ close to 0 for the incorrect classes.
+
+223
+00:23:01,840 --> 00:23:04,840
+ So then we talk about AlexNet.
+
+224
+00:23:04,840 --> 00:23:07,840
+ Then you can see AlexNet now they use a larger filter.
+
+225
+00:23:07,840 --> 00:23:12,840
+ AlexNet, the whole concept idea is very much similar to LearnNet.
+
+226
+00:23:12,840 --> 00:23:18,840
+ It's nothing so-called groundbreaking, nothing very different conceptually.
+
+227
+00:23:18,840 --> 00:23:19,840
+ It's identical.
+
+228
+00:23:19,840 --> 00:23:20,840
+ Look at this.
+
+229
+00:23:20,840 --> 00:23:26,840
+ You start with a few so-called convolutional network.
+
+230
+00:23:26,840 --> 00:23:36,840
+ The reason that you see that split into two because the GPU, it uses a two GPU, it doesn't have,
+
+231
+00:23:36,840 --> 00:23:44,840
+ one GPU doesn't have enough memory to store all the data for calculating all these feature maps
+
+232
+00:23:44,840 --> 00:23:49,840
+ and gradient back propagation.
+
+233
+00:23:49,840 --> 00:23:53,840
+ So in fact, in the first layer, it has 96 filter.
+
+234
+00:23:53,840 --> 00:23:57,840
+ So it split into two, 1, 48, and 48.
+
+235
+00:23:57,840 --> 00:23:58,840
+ You should sum these two.
+
+236
+00:23:58,840 --> 00:24:01,840
+ Actually, you can ignore the upper part.
+
+237
+00:24:01,840 --> 00:24:05,840
+ Just increase the number of filter by two times.
+
+238
+00:24:05,840 --> 00:24:08,840
+ It's still the young raccoon model.
+
+239
+00:24:08,840 --> 00:24:10,840
+ So this is a 256 filter.
+
+240
+00:24:10,840 --> 00:24:21,840
+ So different from earlier on young raccoon only had six and then 16 filter, six and 16,
+
+241
+00:24:21,840 --> 00:24:23,840
+ two conversion layer.
+
+242
+00:24:23,840 --> 00:24:33,840
+ Now it has seven conversion layer and with a much larger number of filter number, 96,
+
+243
+00:24:33,840 --> 00:24:39,840
+ 256, 384, 384, 256.
+
+244
+00:24:39,840 --> 00:24:45,840
+ It has a seven hidden layer including the two fully connected network.
+
+245
+00:24:45,840 --> 00:24:53,840
+ At the end, you have 1,000 classes because this is an image recognition problem.
+
+246
+00:24:53,840 --> 00:24:59,840
+ So conceptually, it's very much the same as a learning.
+
+247
+00:24:59,840 --> 00:25:02,840
+ So these are the filter weight that we mentioned.
+
+248
+00:25:02,840 --> 00:25:08,840
+ You see they use the filter size 11 by 11, strike of four.
+
+249
+00:25:08,840 --> 00:25:13,840
+ So I believe this strike of four is a 2 by 2.
+
+250
+00:25:13,840 --> 00:25:17,840
+ It's just moved 2 by 2 because it's a 2D dimension.
+
+251
+00:25:17,840 --> 00:25:23,840
+ And then maximum pooling, average pooling for easy calculation,
+
+252
+00:25:23,840 --> 00:25:27,840
+ and then fully connected network.
+
+253
+00:25:27,840 --> 00:25:42,840
+ These are some of the so-called feature or input that which will create the kind of strong output of the CNN conversion layer.
+
+254
+00:25:42,840 --> 00:25:51,840
+ Then after AlexNet, and then there are a couple of this network, VGG is again conceptually very similar to AlexNet,
+
+255
+00:25:51,840 --> 00:25:59,840
+ but it's limit the filter size to 3 by 3 rather than different so-called variation.
+
+256
+00:25:59,840 --> 00:26:09,840
+ Then GoogleNet cover with this so-called filter, right, 1 by 1, 3 by 3, different size.
+
+257
+00:26:09,840 --> 00:26:13,840
+ So that it can't give you different kind of a network.
+
+258
+00:26:13,840 --> 00:26:18,840
+ It is more complex than the conversion network because you have different multiple paths.
+
+259
+00:26:18,840 --> 00:26:24,840
+ So each of them will learn different kind of feature.
+
+260
+00:26:24,840 --> 00:26:28,840
+ Then Microsoft ResidueNet, Herkai Ming come up with this.
+
+261
+00:26:28,840 --> 00:26:35,840
+ And the unique feature is you have this so-called skid connection.
+
+262
+00:26:35,840 --> 00:26:42,840
+ They allow you to add x directly to the feature map, fx later.
+
+263
+00:26:43,840 --> 00:26:54,840
+ And so that you would mitigate the gradient so-called diminishing problem.
+
+264
+00:26:54,840 --> 00:27:01,840
+ Because early on the sigma, sorry, the delta prime net j, right, that one if you have multiple layer,
+
+265
+00:27:01,840 --> 00:27:06,840
+ each of them will multiply with the sigma prime net j or net k.
+
+266
+00:27:06,840 --> 00:27:11,840
+ And that normally will be less than 1, a small value.
+
+267
+00:27:11,840 --> 00:27:13,840
+ So you multiply many layer of them.
+
+268
+00:27:13,840 --> 00:27:15,840
+ In this case you have how many?
+
+269
+00:27:15,840 --> 00:27:17,840
+ 152 layer.
+
+270
+00:27:17,840 --> 00:27:22,840
+ You try to multiply value less than 1, 152 time.
+
+271
+00:27:22,840 --> 00:27:25,840
+ You'll see you disappear.
+
+272
+00:27:25,840 --> 00:27:29,840
+ So therefore it creates this skid connection.
+
+273
+00:27:29,840 --> 00:27:32,840
+ And this skid connection, it becomes a feature.
+
+274
+00:27:32,840 --> 00:27:35,840
+ Later on you'll see the even in the transformer.
+
+275
+00:27:35,840 --> 00:27:37,840
+ They also use skid connection.
+
+276
+00:27:37,840 --> 00:27:47,840
+ It allows you the information to fold through without going through some of these intermediate so-called network.
+
+277
+00:27:49,840 --> 00:27:52,840
+ And also reduce the number of parameters.
+
+278
+00:27:52,840 --> 00:27:58,840
+ From the earlier Alex next 60 million, this one 144 million.
+
+279
+00:27:58,840 --> 00:28:03,840
+ And then here then you have a smaller 5 million, 60 million, 25 million.
+
+280
+00:28:03,840 --> 00:28:07,840
+ And this refer to the number of layers you have.
+
+281
+00:28:07,840 --> 00:28:13,840
+ Okay, that was roughly about the convolution network.
+
+282
+00:28:13,840 --> 00:28:22,840
+ Then for sequential data, speeches, text, or even some kind of time sequence data.
+
+283
+00:28:22,840 --> 00:28:32,840
+ And people come up with this recurrent neural network because you don't just input all the data at one go, like image spatial data, right?
+
+284
+00:28:32,840 --> 00:28:36,840
+ And the data could come one by one, like your sentences.
+
+285
+00:28:36,840 --> 00:28:45,840
+ So each of them now it is, if you look at this, each of them is you can consider it is a multi-layer perceptron network.
+
+286
+00:28:45,840 --> 00:28:52,840
+ With your input, but you take it from the first data at location one, right?
+
+287
+00:28:52,840 --> 00:28:58,840
+ With some of the internal parameters zero, you start with some kind of initial value.
+
+288
+00:28:58,840 --> 00:29:06,840
+ Then you create intermediate H1, which is a somehow latent representation, a hidden state.
+
+289
+00:29:06,840 --> 00:29:14,840
+ And it doesn't really mean anything until you put it into another multi-layer perceptron network.
+
+290
+00:29:14,840 --> 00:29:17,840
+ You can produce a class label, right?
+
+291
+00:29:17,840 --> 00:29:19,840
+ Maybe some kind of soft mix here.
+
+292
+00:29:19,840 --> 00:29:21,840
+ You do a classification.
+
+293
+00:29:21,840 --> 00:29:33,840
+ Then this hidden state created by S0 will become part of the input to the second similar or the same so-called multi-layer perceptron network.
+
+294
+00:29:33,840 --> 00:29:35,840
+ You create H2, then output will be here.
+
+295
+00:29:35,840 --> 00:29:40,840
+ Then each of them will create their respective classification output.
+
+296
+00:29:40,840 --> 00:29:43,840
+ And that is a recurrent.
+
+297
+00:29:43,840 --> 00:29:49,840
+ So basically the network repeated multiple times, right?
+
+298
+00:29:49,840 --> 00:29:58,840
+ So because of this structure, you cannot process, let's say you have one sentence X1, X2, X3 until X500.
+
+299
+00:29:58,840 --> 00:30:08,840
+ You cannot process them all in one go because you have to wait until X1 input creates H1 before you can start processing H2, right?
+
+300
+00:30:08,840 --> 00:30:12,840
+ So that becomes a sequential bottleneck.
+
+301
+00:30:12,840 --> 00:30:18,840
+ So it's also difficult to train because when you train this, right, you have to produce output one by one.
+
+302
+00:30:18,840 --> 00:30:22,840
+ Then you create the error, then you back-progate the error back one by one.
+
+303
+00:30:22,840 --> 00:30:26,840
+ Then you also have this gradient diminishing problem.
+
+304
+00:30:26,840 --> 00:30:31,840
+ So it becomes a problem that is not easy to handle.
+
+305
+00:30:31,840 --> 00:30:33,840
+ But it was popular for a while.
+
+306
+00:30:33,840 --> 00:30:46,840
+ R and N, then there are other versions like long, short-term LSTM network, memory network.
+
+307
+00:30:47,840 --> 00:30:56,840
+ But this R and N for some application could be like, I give you a sentence, the book is good, right?
+
+308
+00:30:56,840 --> 00:30:59,840
+ Ask you what is the sentiment of this review, right?
+
+309
+00:30:59,840 --> 00:31:02,840
+ Then you can input the first, create H1.
+
+310
+00:31:02,840 --> 00:31:06,840
+ Each of them is a recurrent neural network structure.
+
+311
+00:31:06,840 --> 00:31:18,840
+ Then now with the book plus H1, you create H2 and then you can now create the end until everything, the whole sentence input.
+
+312
+00:31:18,840 --> 00:31:25,840
+ Then you create a final classifier which could be good, positive or negative.
+
+313
+00:31:25,840 --> 00:31:27,840
+ This is called sentiment analysis.
+
+314
+00:31:27,840 --> 00:31:30,840
+ And you can also do the translation.
+
+315
+00:31:30,840 --> 00:31:34,840
+ Translation, then you have one sentence input, then you have one sentence output.
+
+316
+00:31:34,840 --> 00:31:45,840
+ Then the output will also go to a series of this recurrent network, create the output one by one, which is actually very similar to the transformer structure now.
+
+317
+00:31:45,840 --> 00:31:54,840
+ Okay, you can also have this multi-moder input, image in, then you use convolutional neural network,
+
+318
+00:31:54,840 --> 00:32:07,840
+ extract a feature output, the first recurrent neural network, produce a H1 hidden state, then you start to do the describing the image.
+
+319
+00:32:07,840 --> 00:32:15,840
+ Basically, given the image, you try to describe what is inside the image, then convert from image to text.
+
+320
+00:32:15,840 --> 00:32:19,840
+ So using some kind of recurrent neural network.
+
+321
+00:32:19,840 --> 00:32:31,840
+ And all these RNN, CNN, you can consider they are just multiple layer perceptron with some kind of a variation in terms of the configuration.
+
+322
+00:32:31,840 --> 00:32:42,840
+ Then if you have a lot of data, you have image, text output, you just see whether they are so-called any error for the output with the target output.
+
+323
+00:32:42,840 --> 00:32:51,840
+ Then you try to propagate the error back to train all the parameters in between with a large set of value.
+
+324
+00:32:51,840 --> 00:33:01,840
+ Then using similar formula, find out how do we adjust W, how do you adjust the bias, a lot of data, then you can just train them.
+
+325
+00:33:01,840 --> 00:33:06,840
+ Conceptually, it's easy, but practically, then you may encounter a lot of problems.
+
+326
+00:33:06,840 --> 00:33:09,840
+ Memory problem or data cannot be trained.
+
+327
+00:33:09,840 --> 00:33:16,840
+ Then you have to find out many, many tricks to address those training problems.
+
+328
+00:33:16,840 --> 00:33:32,840
+ In fact, if you Google it, you'll find that there are people who produce a lot of so-called tips and then guide you how to train more the initial, how many epochs,
+
+329
+00:33:32,840 --> 00:33:39,840
+ what kind of data sample, the dimension, number of unit, number of layer.
+
+330
+00:33:39,840 --> 00:33:41,840
+ All these, they have a lot of experience.
+
+331
+00:33:41,840 --> 00:33:48,840
+ You have to try out before you know what is the best combination.
+
+332
+00:33:48,840 --> 00:33:59,840
+ Otherwise, you may keep trying because every training, if it's a lot of data, it actually consumes a lot of computation energy,
+
+333
+00:33:59,840 --> 00:34:08,840
+ which could translate to power consumption, translate to money.
+
+334
+00:34:08,840 --> 00:34:22,840
+ So lately, you can find that some of the big companies like Google, Microsoft, they start to work closely with those nuclear energy start-ups that develop a small nuclear energy pump
+
+335
+00:34:22,840 --> 00:34:26,840
+ because they foresee that in future, that will be the limitation.
+
+336
+00:34:26,840 --> 00:34:34,840
+ A lot of so-called data centers now build and those data centers consume a lot of energy.
+
+337
+00:34:34,840 --> 00:34:38,840
+ The energy could be as large as they say.
+
+338
+00:34:38,840 --> 00:34:46,840
+ If all the data centers are really up and running, the energy consumption will be three times more than what we are consuming now.
+
+339
+00:34:46,840 --> 00:34:48,840
+ Those energy come from where?
+
+340
+00:34:48,840 --> 00:34:50,840
+ It will be expensive.
+
+341
+00:34:50,840 --> 00:35:06,840
+ So people look at it and this now tries to resolve the problem either by using energy efficiency, efficient neural network, or a better energy source.
+
+342
+00:35:06,840 --> 00:35:08,840
+ Okay, let's now look at this.
+
+343
+00:35:08,840 --> 00:35:13,840
+ With this, let's now look at a few variations of this neural network.
+
+344
+00:35:13,840 --> 00:35:16,840
+ Some of them actually have very interesting concepts.
+
+345
+00:35:16,840 --> 00:35:22,840
+ It can be generalized to apply to many, many applications.
+
+346
+00:35:22,840 --> 00:35:26,840
+ Let's come back to this earlier network here, give us some ideas.
+
+347
+00:35:26,840 --> 00:35:27,840
+ Learn it.
+
+348
+00:35:27,840 --> 00:35:41,840
+ You think about learn it, what it does is you give the input an image, then apply different kind of filtering to extract what is inside this image.
+
+349
+00:35:41,840 --> 00:35:44,840
+ Okay, this is basically an analysis part.
+
+350
+00:35:44,840 --> 00:35:52,840
+ Until they create a representation which could be a vector, which represent the input image.
+
+351
+00:35:52,840 --> 00:35:57,840
+ Before it further process, it's kind of a considered this is a feature.
+
+352
+00:35:57,840 --> 00:36:06,840
+ This is a vector of feature like X1 to Xn that we recover the multi-layer perceptron, now become the input.
+
+353
+00:36:06,840 --> 00:36:12,840
+ So you can consider the first part is more like some kind of analysis.
+
+354
+00:36:12,840 --> 00:36:17,840
+ In the later term, you're going to see it's encoder.
+
+355
+00:36:17,840 --> 00:36:19,840
+ It's a very general idea encoder.
+
+356
+00:36:19,840 --> 00:36:28,840
+ We try to extract the important information from this image and represent them with a very concise vector.
+
+357
+00:36:28,840 --> 00:36:40,840
+ This dimension of the vector is much less than the original input, but it contains all the information that you need to make decision whether there is a letter inside here.
+
+358
+00:36:40,840 --> 00:36:44,840
+ That is an encoder structure.
+
+359
+00:36:44,840 --> 00:36:51,840
+ Of course, the decoder in this case is basically use this feature to do a classification job.
+
+360
+00:36:51,840 --> 00:37:00,840
+ So you can think of there is an input so-called analyzer or encoder create a feature vector.
+
+361
+00:37:00,840 --> 00:37:03,840
+ Later we call this a latent representation.
+
+362
+00:37:03,840 --> 00:37:13,840
+ And then there's another process, the neural network, take this feature representation to produce a classification output.
+
+363
+00:37:13,840 --> 00:37:18,840
+ So which is actually a concept of auto encoder.
+
+364
+00:37:18,840 --> 00:37:27,840
+ You have input X and this encoder basically you can consider is some kind of a multi-layer perceptron analyze or input.
+
+365
+00:37:27,840 --> 00:37:41,840
+ Then create a latent representation, something that human eye you do not really understand what it is, but it's a concise representation or summary of whatever input you have.
+
+366
+00:37:42,840 --> 00:37:48,840
+ Sometimes we call it because this dimension is normally smaller, we can call this a bottom net.
+
+367
+00:37:48,840 --> 00:37:53,840
+ The most concise representation of the original input X.
+
+368
+00:37:53,840 --> 00:38:00,840
+ Then the decoder can use this representation to do many many things.
+
+369
+00:38:00,840 --> 00:38:03,840
+ Early on in the learning is to do classification.
+
+370
+00:38:03,840 --> 00:38:14,840
+ Another network which decode this representation into an output X prime.
+
+371
+00:38:14,840 --> 00:38:21,840
+ X prime could be a class label or it could be a image which has less noise.
+
+372
+00:38:21,840 --> 00:38:23,840
+ So it can do many many things.
+
+373
+00:38:23,840 --> 00:38:26,840
+ It could be an image which has a hyper resolution.
+
+374
+00:38:26,840 --> 00:38:32,840
+ It could be an image which identified different kind of a cementation inside the image.
+
+375
+00:38:32,840 --> 00:38:36,840
+ Or an image which identified a tumor where it is.
+
+376
+00:38:36,840 --> 00:38:42,840
+ An image output which tell you the path of the roads.
+
+377
+00:38:42,840 --> 00:38:45,840
+ So many many possible applications.
+
+378
+00:38:45,840 --> 00:38:47,840
+ You just have to train different decoders.
+
+379
+00:38:47,840 --> 00:38:56,840
+ But this latent representation will be useful for you to do further analysis.
+
+380
+00:38:56,840 --> 00:39:02,840
+ So now rather than you train one network, now you have two subnetwork.
+
+381
+00:39:02,840 --> 00:39:10,840
+ One is encoder E5 and then E-card and then E-D decoder data.
+
+382
+00:39:10,840 --> 00:39:16,840
+ So now your job is again similarly define some kind of loss function output.
+
+383
+00:39:16,840 --> 00:39:22,840
+ Let's say if you want to do a denoising, you want X prime to have less noise compared to X.
+
+384
+00:39:22,840 --> 00:39:26,840
+ Then you define some kind of loss function.
+
+385
+00:39:26,840 --> 00:39:41,840
+ Your goal is to adjust the parameter chi and theta, phi and theta so that the number, the loss function is as small as possible.
+
+386
+00:39:41,840 --> 00:39:51,840
+ And this X, of course, the input image could belong to certain so-called classes of input.
+
+387
+00:39:51,840 --> 00:39:56,840
+ The input image has certain distribution or property.
+
+388
+00:39:56,840 --> 00:40:01,840
+ Then your job is to define this loss function depending on what you like.
+
+389
+00:40:01,840 --> 00:40:09,840
+ In this case, it's a distance between the original input X and the output X which go to the encoder and decoder.
+
+390
+00:40:09,840 --> 00:40:22,840
+ For example, if this is a compression algorithm, you would like to create this Z, this latent representation using as small number of bits as possible.
+
+391
+00:40:22,840 --> 00:40:30,840
+ Then after decoding, you want the output X prime to be as close to X as possible.
+
+392
+00:40:30,840 --> 00:40:39,840
+ Then you want to minimize the mean square error between these two and then you train the network by using the same concept.
+
+393
+00:40:39,840 --> 00:40:44,840
+ Gradient descent, black propagation, identify those parameters.
+
+394
+00:40:44,840 --> 00:40:52,840
+ You can do this computer's delta, computer error term, everything the same.
+
+395
+00:40:52,840 --> 00:41:03,840
+ So this is, of course, after different variation, people start to realize many of the network actually can be described into this kind of a concept.
+
+396
+00:41:03,840 --> 00:41:10,840
+ And then there are many types of encoders have been designed for compression, image and video compression.
+
+397
+00:41:10,840 --> 00:41:14,840
+ Again, you have a very concise representation of the original image.
+
+398
+00:41:14,840 --> 00:41:19,840
+ Then you want to decompress the image to recover the original one.
+
+399
+00:41:19,840 --> 00:41:39,840
+ Restoration, for example, if I think I saw some of the examples before, if you have missing content in the image, then go into the encoder, decoder, and then you can recover those missing content or old photo so-called recovery.
+
+400
+00:41:39,840 --> 00:41:43,840
+ And denoising make the image less noisy.
+
+401
+00:41:43,840 --> 00:41:50,840
+ Super resolution basically make the image higher resolution by using auto encoder.
+
+402
+00:41:50,840 --> 00:41:57,840
+ You can also do classification problem, detection problem, detect where the tumor is.
+
+403
+00:41:57,840 --> 00:42:13,840
+ Segmentation, incident segmentation, auto, normal so-called driving, segment the scene into the road, cars, pedestrians, buildings.
+
+404
+00:42:13,840 --> 00:42:21,840
+ You can also translate the image in one mode to the other, from spring into winter.
+
+405
+00:42:21,840 --> 00:42:27,840
+ Summarization, you could also apply to text. It doesn't have to be image.
+
+406
+00:42:27,840 --> 00:42:30,840
+ You could generate new content.
+
+407
+00:42:30,840 --> 00:42:36,840
+ You'll see some of this summarizing the content input X into output X prime and many, many more.
+
+408
+00:42:36,840 --> 00:42:38,840
+ They all have this kind of structure.
+
+409
+00:42:38,840 --> 00:42:42,840
+ Your first encoder is the analyzer, analyze the content.
+
+410
+00:42:42,840 --> 00:42:54,840
+ Then using a very concise representation, then you have a decoder.
+
+411
+00:42:54,840 --> 00:42:59,840
+ You can also call this a description and then interpretation.
+
+412
+00:42:59,840 --> 00:43:01,840
+ Here are some examples.
+
+413
+00:43:01,840 --> 00:43:09,840
+ Application of auto encoder, you can, for example, noisy input, and this is a denoise image.
+
+414
+00:43:09,840 --> 00:43:15,840
+ You could create this pair of training images by adding noise to some of the good images.
+
+415
+00:43:15,840 --> 00:43:22,840
+ Then your goal is to represent every noisy image into a compressed version in between.
+
+416
+00:43:22,840 --> 00:43:26,840
+ Then the decoder allow you to denoise the image.
+
+417
+00:43:26,840 --> 00:43:30,840
+ And this one you can find many, many of this code online.
+
+418
+00:43:30,840 --> 00:43:33,840
+ You can run them using the data set given.
+
+419
+00:43:33,840 --> 00:43:37,840
+ It's not really a very complex problem.
+
+420
+00:43:37,840 --> 00:43:39,840
+ Here are some links you can go there.
+
+421
+00:43:39,840 --> 00:43:51,840
+ Another, using convolutional encoder, allow you to segment the scene into building, the car, the road.
+
+422
+00:43:51,840 --> 00:43:54,840
+ The output is actually a classification.
+
+423
+00:43:54,840 --> 00:44:05,840
+ You become every pixel you need to classify whether this belongs to a class of the road, a class of the car, a class of the building.
+
+424
+00:44:05,840 --> 00:44:10,840
+ You could also do the kind of deep fake.
+
+425
+00:44:10,840 --> 00:44:17,840
+ You can combine two input images, create an encoder and decoder structure.
+
+426
+00:44:17,840 --> 00:44:28,840
+ After you train the network, you just sort the decoder and you can produce Tom Heng running with the John Travolta phase.
+
+427
+00:44:28,840 --> 00:44:30,840
+ There's a deep fake.
+
+428
+00:44:30,840 --> 00:44:36,840
+ It's a very simple idea that you can.
+
+429
+00:44:36,840 --> 00:44:39,840
+ Of course, this is just one particular image.
+
+430
+00:44:39,840 --> 00:44:46,840
+ Then people start to ask, can I create a family of the output rather than one particular one?
+
+431
+00:44:46,840 --> 00:44:51,840
+ And that comes with the variational auto encoder.
+
+432
+00:44:51,840 --> 00:45:02,840
+ So rather than a single representation latent parameter, it also creates a distribution with a less engulsion distribution.
+
+433
+00:45:02,840 --> 00:45:07,840
+ This distribution now allows you to sample within the distribution.
+
+434
+00:45:07,840 --> 00:45:11,840
+ Every different sample creates different output.
+
+435
+00:45:11,840 --> 00:45:14,840
+ It's called variation auto encoder.
+
+436
+00:45:14,840 --> 00:45:21,840
+ Rather than just a one single latent representation, you actually now has a family of the representation.
+
+437
+00:45:21,840 --> 00:45:33,840
+ If you train the network by using this certain class of images, then you can now create a so-called generator,
+
+438
+00:45:33,840 --> 00:45:41,840
+ which is actually a beginning of so-called generative AI.
+
+439
+00:45:41,840 --> 00:45:52,840
+ Now you can create content by using a so-called random distribution.
+
+440
+00:45:52,840 --> 00:46:01,840
+ Then come to another concept called games, generative adversarial network.
+
+441
+00:46:01,840 --> 00:46:13,840
+ This was the one I mentioned a young fellow created when he was kind of arguing with his friends in the park that he can create images.
+
+442
+00:46:13,840 --> 00:46:19,840
+ I'm not going into detail, but if you are interested in this, the whole concept is said to train the network.
+
+443
+00:46:19,840 --> 00:46:27,840
+ But in this case, he had two networks to train, and they have a different kind of task.
+
+444
+00:46:27,840 --> 00:46:40,840
+ Generative adversarial network can generate high quality samples such as images that closely resemble the training data.
+
+445
+00:46:40,840 --> 00:46:42,840
+ It has two networks.
+
+446
+00:46:42,840 --> 00:46:51,840
+ One is a generator G here, which tries to create realistic samples.
+
+447
+00:46:51,840 --> 00:47:04,840
+ The input of the G is a random number so-called vector, which you can consider it is kind of the variation encoder that want the distribution.
+
+448
+00:47:04,840 --> 00:47:19,840
+ You create a random number, Z, the latent random number, then fit into this generator, which could be a multi-layer perceptron or some kind of a combination network.
+
+449
+00:47:19,840 --> 00:47:27,840
+ Then create an artificial output, which could be an image, could be a center, in this case an image.
+
+450
+00:47:27,840 --> 00:47:29,840
+ So this is a generator.
+
+451
+00:47:29,840 --> 00:47:41,840
+ You want to train the parameters such that anytime you input a random vector, and the dimension could be large like 512 or 1024, a large so-called vector.
+
+452
+00:47:41,840 --> 00:47:50,840
+ Then you will create a fake or artificial image output.
+
+453
+00:47:50,840 --> 00:47:54,840
+ Then you also have a discriminator, so this is his contribution.
+
+454
+00:47:54,840 --> 00:48:02,840
+ This is nothing new, but now if you want to create a network which can create images of certain class.
+
+455
+00:48:02,840 --> 00:48:18,840
+ So now you create a discriminator which allows the network to judge whether this image created comes from a fake sample, a generator, or comes from a real sample.
+
+456
+00:48:18,840 --> 00:48:23,840
+ So that means you have to collect a large number of real images.
+
+457
+00:48:23,840 --> 00:48:25,840
+ Let's say face, human face.
+
+458
+00:48:25,840 --> 00:48:28,840
+ You collect a large number of human faces.
+
+459
+00:48:28,840 --> 00:48:35,840
+ Then the other generator creates a kind of synthetic or fake image faces.
+
+460
+00:48:35,840 --> 00:48:43,840
+ So this discriminator D, the job is to decide whether this input is a fake or real.
+
+461
+00:48:43,840 --> 00:48:47,840
+ If the real is one, output is one, it's a fake, output is zero.
+
+462
+00:48:47,840 --> 00:48:50,840
+ So it's a classification problem.
+
+463
+00:48:50,840 --> 00:49:01,840
+ So rather than one network or auto encoder and decoder network, now he has a generator and discriminator, also some kind of two network.
+
+464
+00:49:01,840 --> 00:49:09,840
+ But besides, different from auto encoder, they create a latent representation.
+
+465
+00:49:09,840 --> 00:49:11,840
+ He has a random input.
+
+466
+00:49:11,840 --> 00:49:17,840
+ The middle here is actual image or content in generate.
+
+467
+00:49:18,840 --> 00:49:20,840
+ But you train two network.
+
+468
+00:49:20,840 --> 00:49:24,840
+ And these two networks are trained iteratively.
+
+469
+00:49:24,840 --> 00:49:39,840
+ First, you can fix the discriminator, try to produce as many so-called fake samples and let the discriminator which had been frozen to charge whether this image is real or fake.
+
+470
+00:49:40,840 --> 00:49:52,840
+ So then you continue to improve your generator until your discriminator cannot really easily differentiate whether this image is real or fake.
+
+471
+00:49:52,840 --> 00:49:59,840
+ That means the output value here, right, and one or zero, it becomes something close to 0.5 for both of them.
+
+472
+00:49:59,840 --> 00:50:04,840
+ Because this is a softmax output, right, two of them, output now become close to 0.5.
+
+473
+00:50:04,840 --> 00:50:14,840
+ That means your generator can do a very good job to create images which the discriminator cannot differentiate whether this is real or fake.
+
+474
+00:50:14,840 --> 00:50:18,840
+ Then of course, the discriminator can improve itself.
+
+475
+00:50:18,840 --> 00:50:32,840
+ After you train a good generator, now you find that the current discriminator cannot differentiate them, then you improve the discriminator because you know whether this image at ground two is one or zero, right, real or fake.
+
+476
+00:50:33,840 --> 00:50:43,840
+ Then you can now just freeze the generator, continue to improve your discriminator until it can now differentiate them.
+
+477
+00:50:43,840 --> 00:50:47,840
+ Then you go back to adjust the generator, make it better.
+
+478
+00:50:47,840 --> 00:51:00,840
+ So become two network, compete with each other, improve one iteration after the next until you create very good images and the discriminator cannot differentiate them.
+
+479
+00:51:01,840 --> 00:51:05,840
+ So this is called a meeting max problem, right.
+
+480
+00:51:05,840 --> 00:51:17,840
+ Achieving some kind of John Nash equilibrium, right, for those who know the John Nash game theory, which is basically try to compete two network.
+
+481
+00:51:17,840 --> 00:51:19,840
+ One is a generator.
+
+482
+00:51:19,840 --> 00:51:24,840
+ So for generator, okay, when you train the generator, you can see that.
+
+483
+00:51:24,840 --> 00:51:39,840
+ This one, Z, is the input random parameter you create, so-called input to a generator, then you want the discriminator cannot tell whether this is real or fake.
+
+484
+00:51:39,840 --> 00:51:50,840
+ But you want to minimize this error, that means you want this discriminator give you a one output, right, one minus one, then it close to zero.
+
+485
+00:51:51,840 --> 00:51:53,840
+ It's one minus zero.
+
+486
+00:51:56,840 --> 00:52:04,840
+ Yeah, you want the generator is so good such that discriminator charged, this is a real image, right, then you minimize this component.
+
+487
+00:52:04,840 --> 00:52:16,840
+ And then you can also maximize this by, if it comes from the real images, you want this dx is also close to one, then you maximize this value.
+
+488
+00:52:16,840 --> 00:52:22,840
+ If it comes from the real data, this comes from the generator from this random input g.
+
+489
+00:52:22,840 --> 00:52:35,840
+ And then these two you iterate, minimizing, maximizing, minimizing, maximizing until they converge, then you can create these images.
+
+490
+00:52:35,840 --> 00:52:47,840
+ Here one example, like training of so-called MNIST data, you can go and download the code from the website, just Google it.
+
+491
+00:52:47,840 --> 00:52:56,840
+ You can use the MNIST data to train the network and you can create a so-called, different so-called digit.
+
+492
+00:52:57,840 --> 00:53:03,840
+ Now, return is all generated by training the guns network.
+
+493
+00:53:03,840 --> 00:53:07,840
+ You can also create these CIFAR-10 images.
+
+494
+00:53:07,840 --> 00:53:12,840
+ It's not perfect, but think about that, right, it's generated by machine.
+
+495
+00:53:12,840 --> 00:53:14,840
+ It's good enough.
+
+496
+00:53:14,840 --> 00:53:22,840
+ This is the...
+
+497
+00:53:22,840 --> 00:53:27,840
+ Of course, with that concept now, people start to become more creative.
+
+498
+00:53:27,840 --> 00:53:35,840
+ Rather than you create new content, now you can also translate the content from one style to the other, right?
+
+499
+00:53:35,840 --> 00:53:43,840
+ You just trade a pair of images, zebra and horses, let them iterate, right, going there, coming back, right?
+
+500
+00:53:43,840 --> 00:53:53,840
+ You can turn the zebra to horses and photo in one style, more neat, to Picasso, right?
+
+501
+00:53:53,840 --> 00:53:59,840
+ You can also train, change, translate the photo from one season to the other, right?
+
+502
+00:53:59,840 --> 00:54:08,840
+ Or you can also have a photograph, represent a photograph in the different so-called painters, so-called painting style.
+
+503
+00:54:08,840 --> 00:54:14,840
+ You can download the program and try it yourself, and there it's using generating network.
+
+504
+00:54:14,840 --> 00:54:21,840
+ You train two networks, you train them so that it can do the job, right?
+
+505
+00:54:21,840 --> 00:54:32,840
+ Of course, this one we showed before, and then you have a lot of photo and all these are generated by guns network.
+
+506
+00:54:32,840 --> 00:54:38,840
+ You think about it, the whole network training, the concept is the same as what we covered in MLP.
+
+507
+00:54:38,840 --> 00:54:43,840
+ Nothing changed, still the whole nothing new, right?
+
+508
+00:54:43,840 --> 00:54:51,840
+ Just you configure the network in a very interesting way, and then you still minimize the error or maximize the area.
+
+509
+00:54:51,840 --> 00:54:59,840
+ When you minimize, you do the gradient descent negative, and when you try to maximize, you do the opposite gradient essence, right?
+
+510
+00:54:59,840 --> 00:55:03,840
+ You allow them to move to the minimum, you move to the positive direction, that is maximization.
+
+511
+00:55:03,840 --> 00:55:05,840
+ It's the same concept, right?
+
+512
+00:55:05,840 --> 00:55:09,840
+ So then you can create so-called phases.
+
+513
+00:55:09,840 --> 00:55:20,840
+ You can also create furniture, create certain type of so-called objects that you want.
+
+514
+00:55:20,840 --> 00:55:24,840
+ And then, what else?
+
+515
+00:55:24,840 --> 00:55:29,840
+ Yeah.
+
+516
+00:55:29,840 --> 00:55:31,840
+ Question?
+
+517
+00:55:31,840 --> 00:55:37,840
+ Before we talk about the last topic on the transformer.
+
+518
+00:55:37,840 --> 00:55:38,840
+ Any question?
+
+519
+00:55:38,840 --> 00:55:43,840
+ So far, so good.
+
+520
+00:55:43,840 --> 00:55:53,840
+ That was the time before 2017, before transformer, the attention is all you need was introduced.
+
+521
+00:55:53,840 --> 00:56:07,840
+ And conversion neural network, recurrent neural network, they actually really attract a lot of attention because they can produce things which are of high quality.
+
+522
+00:56:07,840 --> 00:56:15,840
+ And then until transformers come, this paper is one of the most highly cited paper.
+
+523
+00:56:15,840 --> 00:56:20,840
+ And the attention is all you need by Google, okay?
+
+524
+00:56:20,840 --> 00:56:26,840
+ And by Google Researcher 2017, but Google did not really profit out of it.
+
+525
+00:56:26,840 --> 00:56:30,840
+ Turned out, OpenAI made good use of it.
+
+526
+00:56:30,840 --> 00:56:37,840
+ So a transformer had this kind of encoder and decoder structure.
+
+527
+00:56:37,840 --> 00:56:46,840
+ It's going to some depth, but not a lot of details, but you can go to the website to really program it.
+
+528
+00:56:46,840 --> 00:56:51,840
+ And it's not something really, really difficult based on what you know.
+
+529
+00:56:51,840 --> 00:56:56,840
+ But if you look closely, you can see it has similar format.
+
+530
+00:56:56,840 --> 00:56:59,840
+ You have the input, then you do some operation.
+
+531
+00:56:59,840 --> 00:57:06,840
+ And these are multilayer perceptron, then you get the output representation, right?
+
+532
+00:57:06,840 --> 00:57:12,840
+ Then the decoder is you get this intermediate output here representation.
+
+533
+00:57:12,840 --> 00:57:25,840
+ You start to perform the output which could generate a sentence or do a sentiment analysis or try to describe an image one by one.
+
+534
+00:57:25,840 --> 00:57:29,840
+ And you can see that there is a softmax here.
+
+535
+00:57:29,840 --> 00:57:33,840
+ The softmax basically allows you to do the classification, right?
+
+536
+00:57:33,840 --> 00:57:39,840
+ The output now becomes a class, so-called probability, belong to which class,
+
+537
+00:57:39,840 --> 00:57:45,840
+ then you can create the output token or word.
+
+538
+00:57:45,840 --> 00:57:54,840
+ So the encoder process an input sequence and convert it into a vectorized representation here.
+
+539
+00:57:54,840 --> 00:57:58,840
+ This is a latent representation, right?
+
+540
+00:57:58,840 --> 00:58:03,840
+ And of course the input could be a sentence, right?
+
+541
+00:58:03,840 --> 00:58:09,840
+ And the sentence actually had limited size, depending on the model you use.
+
+542
+00:58:09,840 --> 00:58:14,840
+ Some allow you to input just up to about 128 tokens.
+
+543
+00:58:14,840 --> 00:58:17,840
+ Some could have a thousand tokens, right?
+
+544
+00:58:17,840 --> 00:58:23,840
+ The more tokens you have, then you can input a larger document size into this network, right?
+
+545
+00:58:23,840 --> 00:58:28,840
+ Now you should have an idea, think about the multi-layer perceptron when you have a lot of input data,
+
+546
+00:58:28,840 --> 00:58:39,840
+ then you are going to need a lot of parameters and then the calculation or memory to compute all this process.
+
+547
+00:58:39,840 --> 00:58:45,840
+ And then the decoder process the vectorized representation of the input
+
+548
+00:58:45,840 --> 00:58:51,840
+ and generate the output sequence one element at a time, right?
+
+549
+00:58:51,840 --> 00:58:59,840
+ The output you see in your church beauty, the text is produced one after another, right?
+
+550
+00:58:59,840 --> 00:59:11,840
+ And in here, the one of the so-called invention or very interesting idea is called attention module.
+
+551
+00:59:11,840 --> 00:59:14,840
+ That's why the paper attention is all you need.
+
+552
+00:59:14,840 --> 00:59:15,840
+ So what is attention?
+
+553
+00:59:15,840 --> 00:59:21,840
+ Attention is if I give you a sentence, right, you have every word and token.
+
+554
+00:59:21,840 --> 00:59:24,840
+ So which word or token you should focus on?
+
+555
+00:59:24,840 --> 00:59:33,840
+ If you, depending on your task, right, your task is try to so-called translate this sentence to another language, right?
+
+556
+00:59:33,840 --> 00:59:37,840
+ Then which words you should look at, right?
+
+557
+00:59:37,840 --> 00:59:44,840
+ And also are there so-called dilation among the words, right?
+
+558
+00:59:44,840 --> 00:59:50,840
+ Because you want to translate this sentence, you cannot just base on one word, right?
+
+559
+00:59:50,840 --> 00:59:52,840
+ You look at the whole sentence, what it means.
+
+560
+00:59:52,840 --> 00:59:59,840
+ Other word can help to make this particular word easier to understand, right?
+
+561
+00:59:59,840 --> 01:00:05,840
+ So you have to come up with this mechanism, allow you to compute for each input,
+
+562
+01:00:05,840 --> 01:00:09,840
+ what is the relation to the other input words, okay?
+
+563
+01:00:09,840 --> 01:00:13,840
+ This is called attention module.
+
+564
+01:00:13,840 --> 01:00:19,840
+ And more just that you have multiple, each attention module may recognize one thing.
+
+565
+01:00:19,840 --> 01:00:27,840
+ For example, it could be the name and then this name, how is it related to other so-called nouns in the sentence?
+
+566
+01:00:27,840 --> 01:00:29,840
+ There is one attention, right?
+
+567
+01:00:29,840 --> 01:00:33,840
+ Then you should find the name of the user, okay?
+
+568
+01:00:33,840 --> 01:00:36,840
+ And then the name of the action, whatever, right?
+
+569
+01:00:36,840 --> 01:00:47,840
+ It could be like, rather than name, to find out what are the so-called contextual information of this so-called sentence.
+
+570
+01:00:47,840 --> 01:00:55,840
+ Is it in a certain environment for a particular subject or is there like just a normal conversation?
+
+571
+01:00:55,840 --> 01:00:59,840
+ So all this attention could have different purpose.
+
+572
+01:00:59,840 --> 01:01:02,840
+ Therefore, just like the image, you have different filter.
+
+573
+01:01:02,840 --> 01:01:06,840
+ You can consider attention, it's like the filter in the conversation network.
+
+574
+01:01:06,840 --> 01:01:11,840
+ Now you have multiple attention hate, just like multiple filter.
+
+575
+01:01:11,840 --> 01:01:19,840
+ Each filter, each hate, look for different kind of information and how this word related to the other.
+
+576
+01:01:19,840 --> 01:01:26,840
+ And then the very important concept, they introduce this query, key, and value.
+
+577
+01:01:26,840 --> 01:01:33,840
+ So the input, immediately, they duplicate the input into three copies, query, key, and value.
+
+578
+01:01:33,840 --> 01:01:43,840
+ Then convert, multiply by the different so-called matrix, which could be a multilayer perceptron kind of concept matrix form.
+
+579
+01:01:43,840 --> 01:01:51,840
+ And then apply the softmax to this, query, multiply with key.
+
+580
+01:01:51,840 --> 01:01:58,840
+ This will give you the idea that this word compared to the weight, to other word.
+
+581
+01:01:58,840 --> 01:02:01,840
+ Other word, how is it related to this particular word?
+
+582
+01:02:01,840 --> 01:02:02,840
+ Right?
+
+583
+01:02:02,840 --> 01:02:10,840
+ Because they have a different so-called probability, those with a higher weight at the end will contribute more to the value that they will create.
+
+584
+01:02:10,840 --> 01:02:16,840
+ This will actually, softmax will multiply by the value vector, which will also be the input.
+
+585
+01:02:16,840 --> 01:02:20,840
+ Then you create a new so-called vector here for you to process.
+
+586
+01:02:20,840 --> 01:02:23,840
+ We will go through some of the processing later.
+
+587
+01:02:23,840 --> 01:02:33,840
+ And beside this, multi-hate attention module is one of the very important so-called features.
+
+588
+01:02:33,840 --> 01:02:35,840
+ The other is a positioning encoding.
+
+589
+01:02:35,840 --> 01:02:37,840
+ There is a positional encoding.
+
+590
+01:02:37,840 --> 01:02:39,840
+ Why you need the encoding?
+
+591
+01:02:39,840 --> 01:02:48,840
+ Because for a sentence, the order of the words could actually be important in understanding the sentence.
+
+592
+01:02:49,840 --> 01:02:54,840
+ Over turn and turn over, they are different means.
+
+593
+01:02:54,840 --> 01:02:58,840
+ The first one comes to the other, it has a different meaning.
+
+594
+01:02:58,840 --> 01:03:08,840
+ So you have to find a way to encode this position, whether this word appeared before the other, into this embedding.
+
+595
+01:03:08,840 --> 01:03:17,840
+ Embedding, although we did not cover, you can just assume that given any input, you represent the input in a more semantic meaningful way.
+
+596
+01:03:17,840 --> 01:03:19,840
+ Text embedding.
+
+597
+01:03:19,840 --> 01:03:23,840
+ The distance between those embeddings got some meaning.
+
+598
+01:03:23,840 --> 01:03:26,840
+ King to queen, prince to princess.
+
+599
+01:03:26,840 --> 01:03:28,840
+ The different will be the vector.
+
+600
+01:03:28,840 --> 01:03:31,840
+ So that is embedding process.
+
+601
+01:03:31,840 --> 01:03:34,840
+ Embedding the token and word into something more meaningful.
+
+602
+01:03:34,840 --> 01:03:39,840
+ And the distance, the different actually has certain semantic insight.
+
+603
+01:03:39,840 --> 01:03:46,840
+ So again, it's another matrix multiplication, another linear so-called transformation.
+
+604
+01:03:47,840 --> 01:03:49,840
+ So that's it.
+
+605
+01:03:49,840 --> 01:03:56,840
+ The rest you think about it is nothing but a lot of this multi-layer perceptron, feed forward network, which is a multi-layer.
+
+606
+01:03:56,840 --> 01:04:05,840
+ So the linear network is also the MLP and then a softmax for classification and output.
+
+607
+01:04:05,840 --> 01:04:07,840
+ Yeah, that is a transformer.
+
+608
+01:04:07,840 --> 01:04:09,840
+ Let's look at some of the operation.
+
+609
+01:04:10,840 --> 01:04:18,840
+ Again, you can skip this if you really don't want to understand this, but I just want you to go through the process.
+
+610
+01:04:18,840 --> 01:04:25,840
+ It is nothing but just take the input to do a lot of number multiplication at the end.
+
+611
+01:04:25,840 --> 01:04:26,840
+ You get what you want.
+
+612
+01:04:26,840 --> 01:04:28,840
+ So let's look at the encoder part.
+
+613
+01:04:28,840 --> 01:04:37,840
+ So encoder, for example, you could have two words as an input, which you want to do a translation, X1 and X2.
+
+614
+01:04:37,840 --> 01:04:45,840
+ So immediately you do the positioning encoding by using these two formulas.
+
+615
+01:04:45,840 --> 01:04:48,840
+ And this is just a way to differentiate.
+
+616
+01:04:48,840 --> 01:04:53,840
+ Position is the location of the word.
+
+617
+01:04:53,840 --> 01:04:55,840
+ I is the dimension.
+
+618
+01:04:55,840 --> 01:05:01,840
+ When you do the embedding, you could have a vector of 5, 1, 12 dimension.
+
+619
+01:05:01,840 --> 01:05:07,840
+ And then you can compute the position, 5, refer to which dimension?
+
+620
+01:05:07,840 --> 01:05:11,840
+ I from 0, 1, 2, 3, until 5, 11.
+
+621
+01:05:11,840 --> 01:05:22,840
+ Then once you have the position of the word, you have the dimension I, then you can compute this position encoding label, a small value.
+
+622
+01:05:22,840 --> 01:05:26,840
+ And then this value will be added to your embedding.
+
+623
+01:05:26,840 --> 01:05:30,840
+ These two will sum up together into a new feature, X1 here.
+
+624
+01:05:30,840 --> 01:05:46,840
+ You do position embedding, the input word embedding, position embedding, then you create a new so-called vector, which you just add the positioning information to the original embedding.
+
+625
+01:05:46,840 --> 01:05:58,840
+ Embedding is just a representation of the word in some better so-called semantic meaningful space.
+
+626
+01:05:59,840 --> 01:06:01,840
+ Then you do the cell attention.
+
+627
+01:06:01,840 --> 01:06:02,840
+ What is cell attention?
+
+628
+01:06:02,840 --> 01:06:03,840
+ It's here.
+
+629
+01:06:03,840 --> 01:06:06,840
+ Cell attention is basically your input X.
+
+630
+01:06:06,840 --> 01:06:12,840
+ You multiply with a query, a key, and value matrix.
+
+631
+01:06:12,840 --> 01:06:20,840
+ These three matrix will be the parameter you're going to learn when you do the learning process, when you train the network.
+
+632
+01:06:20,840 --> 01:06:27,840
+ It allows you to convert this X into query, key, and value.
+
+633
+01:06:27,840 --> 01:06:40,840
+ The query and key, you multiply them together using matrix multiplication, developed by the square root of the dimension, let's say 5, 1, 12.
+
+634
+01:06:40,840 --> 01:06:42,840
+ Then you perform the soft max.
+
+635
+01:06:42,840 --> 01:06:53,840
+ The output is this value is going to become a vector of the so-called the number of words or token you have.
+
+636
+01:06:53,840 --> 01:06:56,840
+ This vector will have value from 0 to 1.
+
+637
+01:06:56,840 --> 01:06:59,840
+ The sum up of this value will be equal to 1.
+
+638
+01:06:59,840 --> 01:07:10,840
+ Basically, tell you the relative importance of each word we respect to this particular word that you want to apply or more.
+
+639
+01:07:10,840 --> 01:07:13,840
+ You multiply this with the value.
+
+640
+01:07:13,840 --> 01:07:22,840
+ After this, soft max, you multiply this here with the original value matrix, which are all come from the X.
+
+641
+01:07:22,840 --> 01:07:33,840
+ They just multiply with the different weight parameter, which are the train result, something like the filter result.
+
+642
+01:07:33,840 --> 01:07:37,840
+ Then you multiply this with the respective weight.
+
+643
+01:07:37,840 --> 01:07:40,840
+ You create a new input vector Z.
+
+644
+01:07:40,840 --> 01:07:44,840
+ This will be the Z here.
+
+645
+01:07:44,840 --> 01:07:49,840
+ Then you have this skip connection because this one could be useful.
+
+646
+01:07:49,840 --> 01:07:54,840
+ The original data before you do the self-attention may also be useful.
+
+647
+01:07:54,840 --> 01:08:01,840
+ They pull this data in, the skip connection, then they concatenate the two vectors together.
+
+648
+01:08:01,840 --> 01:08:03,840
+ They don't add up.
+
+649
+01:08:03,840 --> 01:08:13,840
+ They just concatenate them together.
+
+650
+01:08:13,840 --> 01:08:28,840
+ If you have the multiple head, you could have multiple this attention, then everything will be concatenated into a large vector.
+
+651
+01:08:28,840 --> 01:08:31,840
+ This will be addition first.
+
+652
+01:08:31,840 --> 01:08:36,840
+ If you have multiple head, the multiple Z will be concatenated together.
+
+653
+01:08:36,840 --> 01:08:43,840
+ Then you perform a linear matrix multiplication, bring it back to the original feature.
+
+654
+01:08:43,840 --> 01:08:45,840
+ You repeat this several times.
+
+655
+01:08:45,840 --> 01:08:48,840
+ You can repeat this multiple times.
+
+656
+01:08:48,840 --> 01:08:55,840
+ After you add the value, then you normalize it.
+
+657
+01:08:55,840 --> 01:08:58,840
+ Then you repeat this encoder several times.
+
+658
+01:08:58,840 --> 01:09:00,840
+ Here, it repeats the end time.
+
+659
+01:09:00,840 --> 01:09:03,840
+ This process will be repeated multiple times.
+
+660
+01:09:03,840 --> 01:09:08,840
+ You have multiple hidden layers.
+
+661
+01:09:08,840 --> 01:09:23,840
+ Every round of this, the so-called attention and feed forward network basically allow you to extract more and more complex meanings of the text.
+
+662
+01:09:23,840 --> 01:09:29,840
+ Then you create the intermediate latent representation.
+
+663
+01:09:29,840 --> 01:09:33,840
+ Then for the decoder, you look at it.
+
+664
+01:09:33,840 --> 01:09:36,840
+ Decoder and encoder are very much the same.
+
+665
+01:09:36,840 --> 01:09:41,840
+ You look at this part and this part is the same.
+
+666
+01:09:41,840 --> 01:09:54,840
+ Just that you take the input here, they get the key and the value from the earlier output key and value matrix output here.
+
+667
+01:09:54,840 --> 01:10:01,840
+ You feed into this a second multi-head attention.
+
+668
+01:10:01,840 --> 01:10:03,840
+ Then you just repeat.
+
+669
+01:10:03,840 --> 01:10:07,840
+ In here, the input output signal, you first started with the beginning of the sentence.
+
+670
+01:10:07,840 --> 01:10:09,840
+ You didn't know what is the next word.
+
+671
+01:10:09,840 --> 01:10:13,840
+ Therefore, it's a masked multi-head attention.
+
+672
+01:10:13,840 --> 01:10:15,840
+ In the original, you have all the words.
+
+673
+01:10:15,840 --> 01:10:17,840
+ Now, you create the word one by one.
+
+674
+01:10:17,840 --> 01:10:22,840
+ For the word you have not generated yet, you actually kind of mask it out.
+
+675
+01:10:22,840 --> 01:10:23,840
+ You don't know.
+
+676
+01:10:23,840 --> 01:10:30,840
+ It doesn't have any contribution to this particular word currently you try to analyze.
+
+677
+01:10:30,840 --> 01:10:32,840
+ Then you also repeat it anytime.
+
+678
+01:10:32,840 --> 01:10:37,840
+ You go through this matrix multiplication like I mentioned here multiple times.
+
+679
+01:10:37,840 --> 01:10:42,840
+ Until finally you feed into the multi-layer perceptron, you do a classification.
+
+680
+01:10:42,840 --> 01:10:44,840
+ Then you create the first word.
+
+681
+01:10:44,840 --> 01:10:47,840
+ For example, in here, you have three inputs.
+
+682
+01:10:47,840 --> 01:10:50,840
+ You go through this step one by one.
+
+683
+01:10:50,840 --> 01:10:53,840
+ K and V will be pulled here.
+
+684
+01:10:53,840 --> 01:10:59,840
+ Then you create the output I am a student one by one.
+
+685
+01:10:59,840 --> 01:11:06,840
+ So it's encoder and decoder kind of a process.
+
+686
+01:11:06,840 --> 01:11:14,840
+ Yeah, it looks complex, but the whole idea is just train the parameter.
+
+687
+01:11:14,840 --> 01:11:25,840
+ When they train this transform or last or chat GPT model, they use all the data, text data they can find from the internet.
+
+688
+01:11:25,840 --> 01:11:31,840
+ Basically, for input, because you have all the text data, you just start to input predict the next word.
+
+689
+01:11:31,840 --> 01:11:33,840
+ Every time you try to predict what is the next word.
+
+690
+01:11:33,840 --> 01:11:38,840
+ Then you have a lot of train data you can use.
+
+691
+01:11:38,840 --> 01:11:41,840
+ So that is a transformer.
+
+692
+01:11:41,840 --> 01:11:53,840
+ So if you would like to see how it works out, you can go and take a look at this website.
+
+693
+01:11:53,840 --> 01:12:06,840
+ Want to see the detailed structure for those in case you only
+
+694
+01:12:06,840 --> 01:12:09,840
+ want to visualize how is this operation.
+
+695
+01:12:09,840 --> 01:12:13,840
+ You have this GPT2 nano GPT.
+
+696
+01:12:13,840 --> 01:12:20,840
+ This one is by, I think this is a CUP party.
+
+697
+01:12:20,840 --> 01:12:24,840
+ You can go and find the code and try to learn.
+
+698
+01:12:24,840 --> 01:12:27,840
+ GPT2 Excel and GPT3 different model.
+
+699
+01:12:27,840 --> 01:12:29,840
+ Let's look at this one.
+
+700
+01:12:29,840 --> 01:12:31,840
+ This is closer to what we learned.
+
+701
+01:12:31,840 --> 01:12:37,840
+ You go into here, you can see the input data is here.
+
+702
+01:12:37,840 --> 01:12:40,840
+ This is your text input.
+
+703
+01:12:40,840 --> 01:12:44,840
+ Then you do the embedding, create a token embedding.
+
+704
+01:12:44,840 --> 01:12:47,840
+ Then you create the position embedding.
+
+705
+01:12:47,840 --> 01:12:49,840
+ You add something up.
+
+706
+01:12:49,840 --> 01:12:52,840
+ You tell you how to do that.
+
+707
+01:12:52,840 --> 01:12:54,840
+ Go through this.
+
+708
+01:12:54,840 --> 01:13:04,840
+ Then after you have the input, then you perform this multi-hit attention model by using the Q-weight, K and VW matrix.
+
+709
+01:13:04,840 --> 01:13:06,840
+ You multiply them together.
+
+710
+01:13:06,840 --> 01:13:08,840
+ Then you create the output.
+
+711
+01:13:08,840 --> 01:13:11,840
+ Then you concatenate them together.
+
+712
+01:13:11,840 --> 01:13:13,840
+ You sum them up.
+
+713
+01:13:13,840 --> 01:13:16,840
+ This is basically the network structure.
+
+714
+01:13:16,840 --> 01:13:21,840
+ You repeat multiple times, create self-attention.
+
+715
+01:13:21,840 --> 01:13:26,840
+ There's a multi-layer perceptron here.
+
+716
+01:13:26,840 --> 01:13:29,840
+ Then you have the softmax output.
+
+717
+01:13:29,840 --> 01:13:36,840
+ It allows you to create the output value from 0 to 1.
+
+718
+01:13:36,840 --> 01:13:40,840
+ Then the output.
+
+719
+01:13:40,840 --> 01:13:43,840
+ If you are interested in this, you can go into FINE.
+
+720
+01:13:43,840 --> 01:13:58,840
+ Take a look at how they do the computation of different kind of component of this large language model.
+
+721
+01:13:58,840 --> 01:14:08,840
+ Okay.
+
+722
+01:14:08,840 --> 01:14:12,840
+ Again, I don't intend to go into more detail than this.
+
+723
+01:14:12,840 --> 01:14:18,840
+ In case you are interested in this, you can go and read the paper.
+
+724
+01:14:18,840 --> 01:14:20,840
+ I think the paper here.
+
+725
+01:14:20,840 --> 01:14:25,840
+ In here, there is a very nice website called Illustrated Transformer.
+
+726
+01:14:25,840 --> 01:14:27,840
+ I think some of these figures are from there.
+
+727
+01:14:27,840 --> 01:14:40,840
+ You can go and take a look in case you want to really understand more.
+
+728
+01:14:40,840 --> 01:14:43,840
+ You illustrate the transformer.
+
+729
+01:14:43,840 --> 01:14:45,840
+ You repeat multiple times.
+
+730
+01:14:45,840 --> 01:14:47,840
+ It's a multiple encoder.
+
+731
+01:14:47,840 --> 01:14:50,840
+ Then you can do this detail calculation.
+
+732
+01:14:50,840 --> 01:14:52,840
+ Of course, I summarize it a lot.
+
+733
+01:14:52,840 --> 01:14:54,840
+ This is the attention model.
+
+734
+01:14:54,840 --> 01:14:57,840
+ How is it there to all the other words?
+
+735
+01:14:57,840 --> 01:14:59,840
+ You have this matrix.
+
+736
+01:14:59,840 --> 01:15:04,840
+ Then input and bating query score.
+
+737
+01:15:04,840 --> 01:15:11,840
+ Then you compute the output value.
+
+738
+01:15:11,840 --> 01:15:12,840
+ Then multiple attention.
+
+739
+01:15:12,840 --> 01:15:14,840
+ You concatenate them together.
+
+740
+01:15:14,840 --> 01:15:15,840
+ You multiply this matrix.
+
+741
+01:15:15,840 --> 01:15:19,840
+ Then you still get the original data side back.
+
+742
+01:15:19,840 --> 01:15:22,840
+ So at the end, you can do the decoding.
+
+743
+01:15:22,840 --> 01:15:24,840
+ This is the positioning encoding.
+
+744
+01:15:24,840 --> 01:15:28,840
+ The formula we saw was to give you this kind of value.
+
+745
+01:15:28,840 --> 01:15:36,840
+ This allows you to add the value into the word and bating.
+
+746
+01:15:36,840 --> 01:15:40,840
+ At the end, you will create soft banks output.
+
+747
+01:15:40,840 --> 01:15:48,840
+ Create the output of your translation, depending on what you want to do.
+
+748
+01:15:48,840 --> 01:15:59,840
+ So this is the position, the word, position, and bating, the value you added.
+
+749
+01:15:59,840 --> 01:16:02,840
+ You can take a look if you are interested in it.
+
+750
+01:16:02,840 --> 01:16:05,840
+ Some of the links also give you a detailed example.
+
+751
+01:16:05,840 --> 01:16:06,840
+ Give you some number.
+
+752
+01:16:06,840 --> 01:16:15,840
+ You can do the calculation yourself to compute the transformer.
+
+753
+01:16:15,840 --> 01:16:24,840
+ This is the main structure behind the church BT.
+
+754
+01:16:24,840 --> 01:16:28,840
+ The learnings, the church BT is more complex.
+
+755
+01:16:28,840 --> 01:16:36,840
+ The last one I just want to mention, just in case you wonder, those are imaged like dow
+
+756
+01:16:36,840 --> 01:16:39,840
+ e or stable diffusion.
+
+757
+01:16:39,840 --> 01:16:41,840
+ How do they create image?
+
+758
+01:16:41,840 --> 01:16:50,840
+ I won't go into it here, but you can think of it as also some kind of auto encoder,
+
+759
+01:16:50,840 --> 01:16:55,840
+ plus a very interesting diffusion process.
+
+760
+01:16:55,840 --> 01:16:56,840
+ What does it mean?
+
+761
+01:16:56,840 --> 01:17:02,840
+ So basically, the image generation, those you key in the text, you want to create any images,
+
+762
+01:17:02,840 --> 01:17:09,840
+ they try to have this diffusion model, which when they do the forward process,
+
+763
+01:17:09,840 --> 01:17:15,840
+ that's why original input image, every process they try to add noise to this image until
+
+764
+01:17:15,840 --> 01:17:18,840
+ it becomes very noisy.
+
+765
+01:17:18,840 --> 01:17:26,840
+ This noise image is something that when you want to create different content, you will
+
+766
+01:17:26,840 --> 01:17:27,840
+ start that noise image.
+
+767
+01:17:27,840 --> 01:17:35,840
+ Just like the generative adversarial network, the input z is a noise vector.
+
+768
+01:17:35,840 --> 01:17:38,840
+ So for image, you also create this noise.
+
+769
+01:17:38,840 --> 01:17:44,840
+ So when you do the training, what you want to learn is even the particular state at which
+
+770
+01:17:44,840 --> 01:17:47,840
+ noise process, how could you do the denoising?
+
+771
+01:17:47,840 --> 01:17:51,840
+ Because we say earlier auto encoder, you can do denoising.
+
+772
+01:17:51,840 --> 01:17:56,840
+ Given a noisy image, you can do the reverse process.
+
+773
+01:17:56,840 --> 01:18:02,840
+ But this denoising is not applied to all possible images.
+
+774
+01:18:02,840 --> 01:18:08,840
+ You can condition the denoising by using text.
+
+775
+01:18:08,840 --> 01:18:10,840
+ That's why you key the text, right?
+
+776
+01:18:10,840 --> 01:18:13,840
+ Create an image with the dot running on the street.
+
+777
+01:18:13,840 --> 01:18:17,840
+ So that is the conditioning probability.
+
+778
+01:18:17,840 --> 01:18:24,840
+ Once you condition on this, you can use this to infer the denoising process.
+
+779
+01:18:24,840 --> 01:18:28,840
+ So at first, any input, when you do a training, you have original input.
+
+780
+01:18:28,840 --> 01:18:33,840
+ You do the encoder, create this latent representation.
+
+781
+01:18:33,840 --> 01:18:35,840
+ Then you do this diffusion process.
+
+782
+01:18:35,840 --> 01:18:40,840
+ Basically, you add noise until you get the zt.
+
+783
+01:18:40,840 --> 01:18:47,840
+ Then the condition you put in using the text, you describe or using semantic map, using
+
+784
+01:18:47,840 --> 01:18:54,840
+ some kind of representation or example images, it becomes a conditional probability.
+
+785
+01:18:54,840 --> 01:19:01,840
+ That allows you to start with a noise image, but this condition will pose to the direction
+
+786
+01:19:01,840 --> 01:19:06,840
+ that creates the image which meet satisfies such condition.
+
+787
+01:19:06,840 --> 01:19:09,840
+ You do the denoising process.
+
+788
+01:19:09,840 --> 01:19:11,840
+ This is auto encoder.
+
+789
+01:19:11,840 --> 01:19:18,840
+ You do the denoising process by adding this so-called condition information into your denoising process.
+
+790
+01:19:19,840 --> 01:19:26,840
+ Until at the end, you get another representation which already embedded whatever condition you want.
+
+791
+01:19:26,840 --> 01:19:32,840
+ Then you do the decoder process, produce the original image.
+
+792
+01:19:32,840 --> 01:19:35,840
+ That is a stable diffusion.
+
+793
+01:19:35,840 --> 01:19:43,840
+ Because this denoising process is very time consuming, therefore, when you produce the image,
+
+794
+01:19:43,840 --> 01:19:48,840
+ the next image depends on the earliest image and then you have to do a lot of iteration.
+
+795
+01:19:48,840 --> 01:19:51,840
+ It could be 500, 1000 times.
+
+796
+01:19:51,840 --> 01:19:59,840
+ Therefore, your stable diffusion or those image generator normally is quite slow.
+
+797
+01:19:59,840 --> 01:20:02,840
+ You have to do the iteration.
+
+798
+01:20:02,840 --> 01:20:06,840
+ It consumes a lot of computation power.
+
+799
+01:20:06,840 --> 01:20:08,840
+ There is a diffusion model.
+
+800
+01:20:08,840 --> 01:20:10,840
+ You think carefully.
+
+801
+01:20:10,840 --> 01:20:12,840
+ It is still a similar idea.
+
+802
+01:20:12,840 --> 01:20:16,840
+ You have the encoder, you have the decoder, and the new part is here.
+
+803
+01:20:16,840 --> 01:20:17,840
+ You have a latent space.
+
+804
+01:20:17,840 --> 01:20:20,840
+ Without auto encoder, you have a latent representation.
+
+805
+01:20:20,840 --> 01:20:29,840
+ Now they do some kind of process to the latent space, which normally had to be a much smaller space
+
+806
+01:20:29,840 --> 01:20:34,840
+ so that your computation doesn't really spend a lot of time.
+
+807
+01:20:34,840 --> 01:20:37,840
+ It can do a lot of iteration.
+
+808
+01:20:37,840 --> 01:20:43,840
+ Unet is a very spatial type of auto encoder.
+
+809
+01:20:43,840 --> 01:20:48,840
+ It was first proposed for medical image cementation.
+
+810
+01:20:48,840 --> 01:20:55,840
+ It allows you to segment the image into so-called meaningful region.
+
+811
+01:20:55,840 --> 01:21:01,840
+ It applies the Unet's structure to do the denoising process, auto encoder,
+
+812
+01:21:01,840 --> 01:21:11,840
+ with the condition input to some kind of a query and value key and query and value format,
+
+813
+01:21:11,840 --> 01:21:15,840
+ and beta the information into this denoising process.
+
+814
+01:21:15,840 --> 01:21:18,840
+ You can go there to find out more.
+
+815
+01:21:18,840 --> 01:21:22,840
+ This website has many other network concepts.
+
+816
+01:21:22,840 --> 01:21:23,840
+ You can go in.
+
+817
+01:21:23,840 --> 01:21:24,840
+ It's quite useful.
+
+818
+01:21:24,840 --> 01:21:29,840
+ The link to the code, you can even implement some of the programs.
+
+819
+01:21:29,840 --> 01:21:35,840
+ Make it available over there.
+
+820
+01:21:35,840 --> 01:21:42,840
+ You see, all these are based on the simple neural network that we introduced.
+
+821
+01:21:42,840 --> 01:21:47,840
+ Then you just need a lot of computation power, a lot of training data,
+
+822
+01:21:47,840 --> 01:21:50,840
+ a different way to process the information.
+
+823
+01:21:50,840 --> 01:21:57,840
+ Then you can come up with a very interesting application.
+
+824
+01:21:57,840 --> 01:21:59,840
+ Let me summarize this.
+
+825
+01:21:59,840 --> 01:22:04,840
+ Then later I will give an overview on all the topics I cover.
+
+826
+01:22:04,840 --> 01:22:08,840
+ Then I will go through the homework solution.
+
+827
+01:22:08,840 --> 01:22:11,840
+ I believe you have submitted your homework already.
+
+828
+01:22:11,840 --> 01:22:15,840
+ Then we will end the lecture.
+
+829
+01:22:15,840 --> 01:22:20,840
+ Summary of this is, of course, a perceptron is a linear classifier,
+
+830
+01:22:20,840 --> 01:22:27,840
+ which is basically trying to find the decision boundary to separate the data
+
+831
+01:22:27,840 --> 01:22:30,840
+ into different classes.
+
+832
+01:22:30,840 --> 01:22:38,840
+ Then the multi-layer perceptrons basically allow you to classify objects
+
+833
+01:22:38,840 --> 01:22:43,840
+ which can have a very complex structure,
+
+834
+01:22:43,840 --> 01:22:48,840
+ depending on the region of the context data.
+
+835
+01:22:48,840 --> 01:22:54,840
+ Then the convolutional neural networks are designed for processing images.
+
+836
+01:22:54,840 --> 01:22:58,840
+ It could be for classification, cementation,
+
+837
+01:22:58,840 --> 01:23:05,840
+ and even some kind of enhancement process.
+
+838
+01:23:05,840 --> 01:23:11,840
+ Recurrent neural network were used to do sequential data analysis,
+
+839
+01:23:11,840 --> 01:23:15,840
+ but now many of these have been replaced by transformer.
+
+840
+01:23:15,840 --> 01:23:21,840
+ One of the good things about transformers is that the whole sentence can be processed at the same time.
+
+841
+01:23:21,840 --> 01:23:25,840
+ There is no need to wait for the output for the first word.
+
+842
+01:23:25,840 --> 01:23:32,840
+ Everything process until you get the k and v from the encoder,
+
+843
+01:23:32,840 --> 01:23:34,840
+ and that will fit into your decoder.
+
+844
+01:23:34,840 --> 01:23:36,840
+ You do the process.
+
+845
+01:23:36,840 --> 01:23:40,840
+ Decoder will be one by one, but the encoder, the generation of the text output,
+
+846
+01:23:40,840 --> 01:23:48,840
+ but the encoder can be trained all in one go.
+
+847
+01:23:48,840 --> 01:23:58,840
+ Therefore, this transformer has replaced recurrent network or those LSTM network in many applications.
+
+848
+01:23:58,840 --> 01:24:04,840
+ Even convolutional neural networks, now many of them have also been replaced by transformer.
+
+849
+01:24:04,840 --> 01:24:08,840
+ There is a vision transformer for image processing,
+
+850
+01:24:08,840 --> 01:24:14,840
+ and the results are actually quite good.
+
+851
+01:24:14,840 --> 01:24:21,840
+ Then the encoder encodes the data into some kind of latent space representation,
+
+852
+01:24:21,840 --> 01:24:27,840
+ which summarizes the important information of the image
+
+853
+01:24:27,840 --> 01:24:33,840
+ and reconstructs the input data from this representation.
+
+854
+01:24:33,840 --> 01:24:41,840
+ Of course, the reconstruct data will not be exactly the same, depending on your application.
+
+855
+01:24:41,840 --> 01:24:46,840
+ This is actually the information loss process.
+
+856
+01:24:46,840 --> 01:24:52,840
+ You have a high-dimension data into a smaller dimension latent representation.
+
+857
+01:24:52,840 --> 01:24:59,840
+ Then you want to reconstruct it with some kind of a difference or variation.
+
+858
+01:24:59,840 --> 01:25:08,840
+ Again, the generative adversarial networks create high-quality data by optimizing two networks.
+
+859
+01:25:08,840 --> 01:25:12,840
+ One is a generator, the other is a discriminator.
+
+860
+01:25:12,840 --> 01:25:20,840
+ It does the training iteratively by training two networks to produce the output,
+
+861
+01:25:20,840 --> 01:25:33,840
+ which is the same to the real image data or any text data you want to create.
+
+862
+01:25:33,840 --> 01:25:37,840
+ The transformer has a cell attention mechanism.
+
+863
+01:25:37,840 --> 01:25:42,840
+ That cell attention mechanism is more like a filtering process in CNN.
+
+864
+01:25:42,840 --> 01:25:46,840
+ Although it's cell attention multi-hit multiplication,
+
+865
+01:25:46,840 --> 01:25:51,840
+ you can think of the matrix, the WQ, WK, WV,
+
+866
+01:25:51,840 --> 01:25:56,840
+ basically allow you to focus on different meanings of the text.
+
+867
+01:25:56,840 --> 01:26:01,840
+ It's more like a filtering process in the CNN.
+
+868
+01:26:01,840 --> 01:26:10,840
+ It requires less training time compared to RNN because it can be done in parallel.
+
+869
+01:26:10,840 --> 01:26:20,840
+ It has now found many applications including the many large language models by ChurchBT.
+
+870
+01:26:20,840 --> 01:26:26,840
+ That is the basic form of construction network.
+
+871
+01:26:26,840 --> 01:26:28,840
+ That's all for Duna Network.
+
+872
+01:26:28,840 --> 01:26:31,840
+ Of course, it's a field that is still evolving.
+
+873
+01:26:31,840 --> 01:26:39,840
+ You should go and try out some of the programs to get a sense of the training, the output.
+
+874
+01:26:39,840 --> 01:26:49,840
+ Even this website can also link you to many, many programs that you can easily try out to see
+
+875
+01:26:49,840 --> 01:27:00,840
+ what is the training for autoencoder for large language model learning.
+
+876
+01:27:00,840 --> 01:27:02,840
+ Let's take a break of 15 minutes.
+
+877
+01:27:02,840 --> 01:27:05,840
+ Please come back at 2.15.
+
+878
+01:27:05,840 --> 01:27:11,840
+ Then we'll go to the homework solution.
+
+879
+01:27:11,840 --> 01:27:22,840
+ Then I will summarize all the topics I cover so that you know what to prepare or pay attention for your final exam.
+
+880
+01:27:22,840 --> 01:27:24,840
+ Come back at 2.15.
+
+881
+01:27:32,840 --> 01:27:34,840
+ Thank you.
+
+882
+01:28:02,840 --> 01:28:12,840
+ Thank you.
+
+883
+01:28:32,840 --> 01:28:42,840
+ Thank you.
+
+884
+01:29:02,840 --> 01:29:12,840
+ Thank you.
+
+885
+01:29:32,840 --> 01:29:42,840
+ Thank you.
+
+886
+01:30:02,840 --> 01:30:13,840
+ Thank you.
+
+887
+01:30:32,840 --> 01:30:43,840
+ Thank you.
+
+888
+01:31:02,840 --> 01:31:13,840
+ Thank you.
+
+889
+01:31:32,840 --> 01:31:42,840
+ Thank you.
+
+890
+01:32:02,840 --> 01:32:12,840
+ Thank you.
+
+891
+01:32:32,840 --> 01:32:42,840
+ Thank you.
+
+892
+01:33:02,840 --> 01:33:12,840
+ Thank you.
+
+893
+01:33:32,840 --> 01:33:42,840
+ Thank you.
+
+894
+01:34:02,840 --> 01:34:12,840
+ Thank you.
+
+895
+01:34:32,840 --> 01:34:42,840
+ Thank you.
+
+896
+01:35:02,840 --> 01:35:12,840
+ Thank you.
+
+897
+01:35:32,840 --> 01:35:42,840
+ Thank you.
+
+898
+01:36:02,840 --> 01:36:12,840
+ Thank you.
+
+899
+01:36:32,840 --> 01:36:42,840
+ Thank you.
+
+900
+01:37:02,840 --> 01:37:12,840
+ Thank you.
+
+901
+01:37:32,840 --> 01:37:42,840
+ Thank you.
+
+902
+01:38:02,840 --> 01:38:12,840
+ Thank you.
+
+903
+01:38:32,840 --> 01:38:42,840
+ Thank you.
+
+904
+01:39:02,840 --> 01:39:12,840
+ Thank you.
+
+905
+01:39:32,840 --> 01:39:42,840
+ Thank you.
+
+906
+01:40:02,840 --> 01:40:12,840
+ Thank you.
+
+907
+01:40:32,840 --> 01:40:42,840
+ Thank you.
+
+908
+01:41:02,840 --> 01:41:12,840
+ Thank you.
+
+909
+01:41:32,840 --> 01:41:42,840
+ Thank you.
+
+910
+01:42:02,840 --> 01:42:12,840
+ Thank you.
+
+911
+01:42:32,840 --> 01:42:42,840
+ Thank you.
+
+912
+01:43:02,840 --> 01:43:12,840
+ Thank you.
+
+913
+01:43:32,840 --> 01:43:42,840
+ Thank you.
+
+914
+01:44:02,840 --> 01:44:12,840
+ Thank you.
+
+915
+01:44:32,840 --> 01:44:42,840
+ Thank you.
+
+916
+01:45:02,840 --> 01:45:12,840
+ Thank you.
+
+917
+01:45:12,840 --> 01:45:22,840
+ Thank you.
+
+918
+01:45:22,840 --> 01:45:32,840
+ Thank you.
+
+919
+01:45:52,840 --> 01:46:02,840
+ Thank you.
+
+920
+01:46:22,840 --> 01:46:32,840
+ Thank you.
+
+921
+01:46:52,840 --> 01:47:02,840
+ Thank you.
+
+922
+01:47:22,840 --> 01:47:32,840
+ Thank you.
+
+923
+01:47:52,840 --> 01:48:02,840
+ Thank you.
+
+924
+01:48:22,840 --> 01:48:32,840
+ Thank you.
+
+925
+01:48:52,840 --> 01:49:02,840
+ Thank you.
+
+926
+01:49:22,840 --> 01:49:32,840
+ Thank you.
+
+927
+01:49:52,840 --> 01:50:02,840
+ Thank you.
+
+928
+01:50:22,840 --> 01:50:32,840
+ Thank you.
+
+929
+01:50:52,840 --> 01:51:02,840
+ Thank you.
+
+930
+01:51:22,840 --> 01:51:32,840
+ Thank you.
+
+931
+01:51:52,840 --> 01:52:02,840
+ Thank you.
+
+932
+01:52:22,840 --> 01:52:32,840
+ Thank you.
+
+933
+01:52:52,840 --> 01:53:02,840
+ Thank you.
+
+934
+01:53:22,840 --> 01:53:32,840
+ Thank you.
+
+935
+01:53:52,840 --> 01:54:02,840
+ Thank you.
+
+936
+01:54:22,840 --> 01:54:32,840
+ Thank you.
+
+937
+01:54:32,840 --> 01:54:42,840
+ Thank you.
+
+938
+01:54:42,840 --> 01:54:52,840
+ Thank you.
+
+939
+01:54:52,840 --> 01:55:02,840
+ Thank you.
+
+940
+01:55:02,840 --> 01:55:10,840
+ Thank you.
+
+941
+01:55:10,840 --> 01:55:20,840
+ Thank you.
+
+942
+01:55:20,840 --> 01:55:30,840
+ Thank you.
+
+943
+01:55:30,840 --> 01:55:40,840
+ Thank you.
+
+944
+01:55:40,840 --> 01:55:48,840
+ Thank you.
+
+945
+01:55:48,840 --> 01:55:58,840
+ Thank you.
+
+946
+01:55:58,840 --> 01:56:08,840
+ Thank you.
+
+947
+01:56:08,840 --> 01:56:16,840
+ Thank you.
+
+948
+01:56:16,840 --> 01:56:26,840
+ Thank you.
+
+949
+01:56:26,840 --> 01:56:36,840
+ Thank you.
+
+950
+01:56:36,840 --> 01:56:44,840
+ Thank you.
+
+951
+01:56:44,840 --> 01:56:54,840
+ Thank you.
+
+952
+01:56:54,840 --> 01:57:04,840
+ Thank you.
+
+953
+01:57:04,840 --> 01:57:12,840
+ Thank you.
+
+954
+01:57:12,840 --> 01:57:22,840
+ Thank you.
+
+955
+01:57:22,840 --> 01:57:32,840
+ Thank you.
+
+956
+01:57:32,840 --> 01:57:40,840
+ Thank you.
+
+957
+01:57:40,840 --> 01:57:50,840
+ Thank you.
+
+958
+01:57:50,840 --> 01:58:00,840
+ Thank you.
+
+959
+01:58:00,840 --> 01:58:10,840
+ Thank you.
+
+960
+01:58:10,840 --> 01:58:20,840
+ Thank you.
+
+961
+01:58:20,840 --> 01:58:28,840
+ Thank you.
+
+962
+01:58:28,840 --> 01:58:38,840
+ Thank you.
+
+963
+01:58:38,840 --> 01:58:48,840
+ Okay.
+
+964
+01:58:48,840 --> 01:58:58,840
+ Does a century work?
+
+965
+01:58:58,840 --> 01:59:08,840
+ Century.
+
+966
+01:59:08,840 --> 01:59:18,840
+ So all the calculations remain the same.
+
+967
+01:59:18,840 --> 01:59:28,840
+ It doesn't depend on how many you have.
+
+968
+01:59:28,840 --> 01:59:36,840
+ Therefore, when you add in the new data, you need to select the data, give you the most number of information, a most amount of information.
+
+969
+01:59:36,840 --> 01:59:40,840
+ Okay.
+
+970
+01:59:40,840 --> 01:59:44,840
+ I can also answer the problem.
+
+971
+01:59:44,840 --> 01:59:54,840
+ Let's say if I allow you to insert new training sample, which you can ask, maybe ask one more training sample, I tell you the ground truth.
+
+972
+01:59:54,840 --> 01:59:58,840
+ So which one would you ask?
+
+973
+01:59:58,840 --> 02:00:04,840
+ Can help you to make a better decision.
+
+974
+02:00:04,840 --> 02:00:08,840
+ You can think about it.
+
+975
+02:00:08,840 --> 02:00:18,840
+ All the other questions is rather than this, I can give you one more sample here.
+
+976
+02:00:18,840 --> 02:00:22,840
+ Number four.
+
+977
+02:00:22,840 --> 02:00:24,840
+ I give you this.
+
+978
+02:00:24,840 --> 02:00:28,840
+ Another sample nine.
+
+979
+02:00:28,840 --> 02:00:30,840
+ Okay.
+
+980
+02:00:30,840 --> 02:00:32,840
+ So what will change?
+
+981
+02:00:32,840 --> 02:00:34,840
+ What will change?
+
+982
+02:00:34,840 --> 02:00:46,840
+ Immediately, what will be changed?
+
+983
+02:00:46,840 --> 02:00:58,840
+ At least when the x3 is equal to zero, you now use to select the minus class rather than the positive because you will make fewer errors.
+
+984
+02:00:58,840 --> 02:01:04,840
+ Assuming the other part not changed, but you should do a calculation yourself.
+
+985
+02:01:04,840 --> 02:01:08,840
+ So these are things that you should make sure that you understand them.
+
+986
+02:01:08,840 --> 02:01:18,840
+ And if I give you more data but no new information, I just multiply a lot, it will not really help you to make a better decision.
+
+987
+02:01:18,840 --> 02:01:26,840
+ But you should think about what are the data can help a lot in terms of minimizing the error.
+
+988
+02:01:26,840 --> 02:01:34,840
+ Next question is this.
+
+989
+02:01:34,840 --> 02:01:36,840
+ I give you this.
+
+990
+02:01:36,840 --> 02:01:50,840
+ I want you to shape the area that if any data on that region, you belong to the solid circle class.
+
+991
+02:01:50,840 --> 02:01:56,840
+ So let's assume, for example, this one, this one, this one.
+
+992
+02:01:56,840 --> 02:02:02,840
+ If you talk about one nearest neighbor, let's say if my data is here, the nearest neighbor one is here.
+
+993
+02:02:02,840 --> 02:02:06,840
+ So this should belong to this class.
+
+994
+02:02:06,840 --> 02:02:14,840
+ In fact, anyway I move within this boundary here, I actually belong to this circle.
+
+995
+02:02:14,840 --> 02:02:20,840
+ So this one from here is closer to the distance from all the other one nearest neighbor.
+
+996
+02:02:20,840 --> 02:02:28,840
+ So think carefully that in this square, any point within this square will belong to this solid circle class.
+
+997
+02:02:28,840 --> 02:02:34,840
+ Similarly, any point within this square will belong to this class.
+
+998
+02:02:34,840 --> 02:02:36,840
+ Any point below this square will belong to this class.
+
+999
+02:02:36,840 --> 02:02:40,840
+ Of course, in my original exercise, I removed the line, making it slightly more difficult.
+
+1000
+02:02:40,840 --> 02:02:43,840
+ With the line, it will be obvious.
+
+1001
+02:02:43,840 --> 02:02:47,840
+ If I move here, then you belong to the empty circle class.
+
+1002
+02:02:47,840 --> 02:02:53,840
+ So therefore, your one nearest neighbor, this will be the area.
+
+1003
+02:02:53,840 --> 02:03:03,840
+ Any point on it will belong to the solid circle class.
+
+1004
+02:03:03,840 --> 02:03:06,840
+ How about two nearest neighbors?
+
+1005
+02:03:06,840 --> 02:03:15,840
+ First, you can argue that what if my point is exactly on this line.
+
+1006
+02:03:15,840 --> 02:03:20,840
+ Then you can decide whether solid or empty class is ambiguous.
+
+1007
+02:03:20,840 --> 02:03:24,840
+ Then you can judge belong to this, similarly this belong to this.
+
+1008
+02:03:24,840 --> 02:03:30,840
+ You can do that or undefined, but you just have to choose one.
+
+1009
+02:03:30,840 --> 02:03:42,840
+ For three nearest neighbors, any point here, my three nearest neighbors will be this one plus the empty plus the empty.
+
+1010
+02:03:42,840 --> 02:03:48,840
+ So now any point here, is three nearest neighbors will be this three point.
+
+1011
+02:03:48,840 --> 02:03:52,840
+ So this will not be a solid circle class.
+
+1012
+02:03:52,840 --> 02:04:02,840
+ But when I have here, my three nearest neighbors will be this and this and this and this.
+
+1013
+02:04:02,840 --> 02:04:05,840
+ So this will be the solid circle class.
+
+1014
+02:04:05,840 --> 02:04:08,840
+ So it's totally the opposite.
+
+1015
+02:04:08,840 --> 02:04:10,840
+ Three nearest neighbors.
+
+1016
+02:04:10,840 --> 02:04:14,840
+ You just find out, just go through a few examples.
+
+1017
+02:04:14,840 --> 02:04:19,840
+ So here, my three nearest neighbors will be this and this and this.
+
+1018
+02:04:19,840 --> 02:04:26,840
+ It will be empty circle class.
+
+1019
+02:04:26,840 --> 02:04:30,840
+ For five nearest neighbors, now it changes.
+
+1020
+02:04:30,840 --> 02:04:36,840
+ Any point here, my five nearest neighbors will be 1, 2, 3, 4, 5.
+
+1021
+02:04:36,840 --> 02:04:44,840
+ So depending on where you located, then 1, 2, 3, 4, 5, then three of them, this will be solid.
+
+1022
+02:04:44,840 --> 02:04:51,840
+ If I here, my five nearest neighbors will be 1, 2, 3, 4, 5.
+
+1023
+02:04:51,840 --> 02:04:54,840
+ Not this one, there will be an empty.
+
+1024
+02:04:54,840 --> 02:05:01,840
+ So this will be the boundary of five nearest neighbor class.
+
+1025
+02:05:02,840 --> 02:05:17,840
+ So now if I change this question to rather than the, this is a Euclidean distance.
+
+1026
+02:05:17,840 --> 02:05:24,840
+ If I change this question to Manhattan distance, will the result the same?
+
+1027
+02:05:24,840 --> 02:05:29,840
+ Manhattan distance.
+
+1028
+02:05:29,840 --> 02:05:35,840
+ Think carefully for first, third, and fifth nearest neighbor.
+
+1029
+02:05:35,840 --> 02:05:41,840
+ Rather than the Euclidean distance, I change to Manhattan distance measure.
+
+1030
+02:05:41,840 --> 02:05:50,840
+ Or I change to the cosine, this similarity, 1 minus cosine similarity.
+
+1031
+02:05:50,840 --> 02:05:58,840
+ That will be more challenging.
+
+1032
+02:05:58,840 --> 02:06:09,840
+ Which will be the nearest neighbor with the cosine similarity for one nearest neighbor?
+
+1033
+02:06:09,840 --> 02:06:11,840
+ Or three nearest neighbor?
+
+1034
+02:06:11,840 --> 02:06:21,840
+ So think about that.
+
+1035
+02:06:21,840 --> 02:06:23,840
+ Question about homework?
+
+1036
+02:06:23,840 --> 02:06:32,840
+ Anyone have any questions before I just go through the summary of the part that I covered?
+
+1037
+02:06:32,840 --> 02:06:34,840
+ Okay.
+
+1038
+02:06:34,840 --> 02:06:38,840
+ So let's go through the summary.
+
+1039
+02:06:38,840 --> 02:06:49,840
+ So we can end the section slightly later today.
+
+1040
+02:06:49,840 --> 02:07:01,840
+ So of course, I actually mentioned earlier that you have to make sure that you understand all these important key terms.
+
+1041
+02:07:01,840 --> 02:07:14,840
+ When you try to prepare for your exam, for example, all the key terms I have written here, you should be able to describe them.
+
+1042
+02:07:14,840 --> 02:07:22,840
+ You should be able to understand all the important concepts, for example, about what is supervised learning, what is unsupervised learning.
+
+1043
+02:07:22,840 --> 02:07:29,840
+ Although you don't have to write in exactly the same word, but you know exactly what is it.
+
+1044
+02:07:29,840 --> 02:07:35,840
+ And then different between classification and regression.
+
+1045
+02:07:35,840 --> 02:07:41,840
+ And then clustering, I think the Pee Han will talk about clustering.
+
+1046
+02:07:41,840 --> 02:07:55,840
+ Then we talk about perceptron, some of these so-called supervised learning and then reinforcement learning, unsupervised learning, the difference between them.
+
+1047
+02:07:55,840 --> 02:08:04,840
+ Then we talk about some application and large language model.
+
+1048
+02:08:04,840 --> 02:08:07,840
+ So this is also another generative AI.
+
+1049
+02:08:07,840 --> 02:08:14,840
+ The one we talked about, image, now they extend to video, the open AI Sora, it's more complex now.
+
+1050
+02:08:14,840 --> 02:08:22,840
+ You have to create all these videos from noise pictures and make them temporarily consistent.
+
+1051
+02:08:22,840 --> 02:08:24,840
+ So there's an introduction.
+
+1052
+02:08:24,840 --> 02:08:26,840
+ Then we talk about classification.
+
+1053
+02:08:26,840 --> 02:08:29,840
+ What are the classifier?
+
+1054
+02:08:29,840 --> 02:08:34,840
+ So the general concept of classifier, basically you have an input X.
+
+1055
+02:08:34,840 --> 02:08:45,840
+ Your job is to decide which class this input X belongs to by looking at the feature given to you.
+
+1056
+02:08:45,840 --> 02:08:49,840
+ So a typical approach is you have to go through the training process.
+
+1057
+02:08:49,840 --> 02:08:57,840
+ You have to collect the data, clean the data, then go through some kind of training with the training data.
+
+1058
+02:08:57,840 --> 02:09:07,840
+ Then with some test data, you use it to vary date your trained model to see whether it achieves similar performance.
+
+1059
+02:09:07,840 --> 02:09:18,840
+ Normally you keep aside a small set of data as a test data which will not be involved during the training process.
+
+1060
+02:09:18,840 --> 02:09:23,840
+ But during training, you are going to have a training error based on the model that you use.
+
+1061
+02:09:23,840 --> 02:09:28,840
+ Then during test steps, you also have a testing error.
+
+1062
+02:09:28,840 --> 02:09:33,840
+ Then you compare these two errors, whether they are similar or very different.
+
+1063
+02:09:33,840 --> 02:09:39,840
+ Then you know whether your model is overfeed, underfeed, or what kind of problem you have.
+
+1064
+02:09:39,840 --> 02:09:51,840
+ Then we talk about different types of data attributes you have, the nominal, ordinal, interval, and ratio.
+
+1065
+02:09:52,840 --> 02:10:15,840
+ So maybe the question is, if I have a nominal data, can I use SVM to classify nominal data?
+
+1066
+02:10:15,840 --> 02:10:20,840
+ So with SVM, you need to know the distance to the boundary.
+
+1067
+02:10:20,840 --> 02:10:27,840
+ So you have to figure out how do you measure the nominal data distance.
+
+1068
+02:10:27,840 --> 02:10:34,840
+ You can measure the distance with Turby if those who have heard about distance.
+
+1069
+02:10:34,840 --> 02:10:37,840
+ That allows you to have some kind of distance measure.
+
+1070
+02:10:37,840 --> 02:10:39,840
+ You have to decide the distance measure.
+
+1071
+02:10:39,840 --> 02:10:50,840
+ Once you have some distance measure, then you can also apply for example this nearest neighbor.
+
+1072
+02:10:50,840 --> 02:10:55,840
+ If you could not have a distance measure, you only have class, maybe decision three will be your choice.
+
+1073
+02:10:55,840 --> 02:10:58,840
+ Because look at the feature, look at the output.
+
+1074
+02:10:58,840 --> 02:11:05,840
+ Decision three, you think about it doesn't need you to measure how close the output class to the other class.
+
+1075
+02:11:06,840 --> 02:11:11,840
+ They are just nominal, not even ordinal.
+
+1076
+02:11:11,840 --> 02:11:14,840
+ We'll talk about decision three.
+
+1077
+02:11:14,840 --> 02:11:31,840
+ To do decision three, you need to have a way to measure so-called even any particular feature, how pure, how easy the class label is separated into different classes.
+
+1078
+02:11:32,840 --> 02:11:38,840
+ So here you can use this so-called attribute selection measure.
+
+1079
+02:11:38,840 --> 02:11:44,840
+ We talk about information gain, which is the example that we went through.
+
+1080
+02:11:44,840 --> 02:11:50,840
+ And I think we also show this example in your lecture.
+
+1081
+02:11:50,840 --> 02:12:06,840
+ We also talk about gain ratio, which allows you to avoid splitting into too many classes by normalizing the gain by this split info.
+
+1082
+02:12:06,840 --> 02:12:12,840
+ Then we talk about Gini index, which only deal with two class problems.
+
+1083
+02:12:13,840 --> 02:12:15,840
+ The measure will be easier.
+
+1084
+02:12:15,840 --> 02:12:17,840
+ You compute the probability.
+
+1085
+02:12:17,840 --> 02:12:22,840
+ You don't have to look into the log information.
+
+1086
+02:12:22,840 --> 02:12:33,840
+ Of course, when you have multiple classes, then you have to divide the problem into two class problems and separate them.
+
+1087
+02:12:33,840 --> 02:12:36,840
+ So this measure, more or less, they are the same.
+
+1088
+02:12:36,840 --> 02:12:40,840
+ They follow similar kind of penalty or error.
+
+1089
+02:12:40,840 --> 02:12:43,840
+ You just have to choose one over the other.
+
+1090
+02:12:43,840 --> 02:12:47,840
+ If I do not mention any of these, you just use a class error.
+
+1091
+02:12:47,840 --> 02:12:50,840
+ How many samples cannot be classified correctly?
+
+1092
+02:12:50,840 --> 02:12:53,840
+ How many percent of samples cannot be classified correctly?
+
+1093
+02:12:53,840 --> 02:12:57,840
+ Then you just count the number.
+
+1094
+02:12:57,840 --> 02:13:06,840
+ Three pruning allow you to avoid the so-called overfitting problem or noisy problem.
+
+1095
+02:13:06,840 --> 02:13:13,840
+ You can also try to prune away those branches, which have very small number of samples going there.
+
+1096
+02:13:13,840 --> 02:13:16,840
+ Because those could be noise.
+
+1097
+02:13:16,840 --> 02:13:20,840
+ Then we also talk about performance measure.
+
+1098
+02:13:20,840 --> 02:13:23,840
+ This is a thing that you would come across quite regularly.
+
+1099
+02:13:23,840 --> 02:13:28,840
+ You should understand the difference between all these performance measures.
+
+1100
+02:13:28,840 --> 02:13:42,840
+ Because accuracy, you should also think about other like sensitivity, specificity, precision, recall, region, area under the curve.
+
+1101
+02:13:42,840 --> 02:13:44,840
+ What do they mean?
+
+1102
+02:13:44,840 --> 02:13:47,840
+ Then know how to compute them.
+
+1103
+02:13:47,840 --> 02:13:53,840
+ Because these are things that when you compare one classifier to the other, like the orange two that I mentioned,
+
+1104
+02:13:53,840 --> 02:13:59,840
+ you can actually see the result of all these performance measures there.
+
+1105
+02:13:59,840 --> 02:14:04,840
+ This is a classifier and decision tree.
+
+1106
+02:14:04,840 --> 02:14:08,840
+ Then we talk about SVM, a nearest neighbor classifier.
+
+1107
+02:14:08,840 --> 02:14:10,840
+ This is also classifier.
+
+1108
+02:14:10,840 --> 02:14:15,840
+ Nearest neighbors are easy because you do not really need to train.
+
+1109
+02:14:15,840 --> 02:14:21,840
+ You just have to know how to measure the nearest neighbor.
+
+1110
+02:14:21,840 --> 02:14:34,840
+ Then when you know the nearest neighbor, you can select the class of the nearest neighbor as your class label for any test sample.
+
+1111
+02:14:34,840 --> 02:14:43,840
+ To avoid some kind of noise problem, you can use a K-nearest neighbor rather than one.
+
+1112
+02:14:43,840 --> 02:14:49,840
+ You can look at three, five, like some of the examples I showed earlier.
+
+1113
+02:14:49,840 --> 02:14:53,840
+ If you recall the three nearest neighbors, five nearest neighbors, and one nearest neighbor,
+
+1114
+02:14:53,840 --> 02:14:56,840
+ I think the five, at least, they won't change.
+
+1115
+02:14:56,840 --> 02:15:00,840
+ The one and three actually can jump up and down depending on where you are.
+
+1116
+02:15:00,840 --> 02:15:09,840
+ The more sample nearest neighbors you use, the outcome will be smooth.
+
+1117
+02:15:09,840 --> 02:15:12,840
+ Of course, the distance measure you have many options you can use.
+
+1118
+02:15:12,840 --> 02:15:17,840
+ You can use this kind of Minkowski distance with different r.
+
+1119
+02:15:17,840 --> 02:15:21,840
+ R equal to one, which is a Manhattan distance.
+
+1120
+02:15:21,840 --> 02:15:25,840
+ R equal to two, become the Euclidean distance.
+
+1121
+02:15:25,840 --> 02:15:44,840
+ Then you could also have this cosine similarity measure, which is used in text kind of similarity or document similarity comparison.
+
+1122
+02:15:45,840 --> 02:15:47,840
+ Then we talk about SVM.
+
+1123
+02:15:47,840 --> 02:15:53,840
+ SVM, the goal is to find the boundary which gives you the maximum margin.
+
+1124
+02:15:53,840 --> 02:16:03,840
+ When I say margin, then you have to somehow able to find the distance.
+
+1125
+02:16:04,840 --> 02:16:17,840
+ This SVM, what we actually tried to maximize is the margin here from this boundary, the two side boundary,
+
+1126
+02:16:17,840 --> 02:16:22,840
+ and to the decision boundary, I want to maximize the D.
+
+1127
+02:16:22,840 --> 02:16:25,840
+ All these are featured in the vector domain.
+
+1128
+02:16:25,840 --> 02:16:34,840
+ You can also do the dot product to find out which W gives you the maximum margin,
+
+1129
+02:16:34,840 --> 02:16:44,840
+ which is also the same for you to minimize the Euclidean distance of this W over two.
+
+1130
+02:16:44,840 --> 02:16:54,840
+ Later on, we found that this is nothing but a regularization term in your neural network learning.
+
+1131
+02:16:54,840 --> 02:17:03,840
+ Because in SVM, if you can formulate a problem as such, you can really solve this W in a closed form,
+
+1132
+02:17:03,840 --> 02:17:16,840
+ which allows you to, depending on the error that you have, you can use some of these so-called optimization problem solutions
+
+1133
+02:17:16,840 --> 02:17:23,840
+ to find out what is the thumb view that satisfies all these so-called requirements,
+
+1134
+02:17:23,840 --> 02:17:28,840
+ and that allows you to have the maximum margin.
+
+1135
+02:17:28,840 --> 02:17:35,840
+ Then you can also have non-separable classes which you maximize the margin,
+
+1136
+02:17:35,840 --> 02:17:42,840
+ but at the same time, you allow some kind of a small error type.
+
+1137
+02:17:42,840 --> 02:17:50,840
+ In this case, you can also try to find the solution with a different weight between the maximum margin
+
+1138
+02:17:50,840 --> 02:17:57,840
+ and the maximum error that you allow the sample to vary.
+
+1139
+02:17:57,840 --> 02:18:05,840
+ Then the testing is still the same, even with this error or not, it's still dot product WX plus B.
+
+1140
+02:18:05,840 --> 02:18:13,840
+ You can extend SVM to multiple classes, one over the others,
+
+1141
+02:18:13,840 --> 02:18:25,840
+ or by using NC2 SVM classifier compared to one over two, one over three, one over four.
+
+1142
+02:18:25,840 --> 02:18:36,840
+ In fact, you select the class which has the majority of the classifier label, the sample as the class.
+
+1143
+02:18:36,840 --> 02:18:41,840
+ This is multiple SVM. Of course, you could have other nonlinear SVM.
+
+1144
+02:18:41,840 --> 02:18:49,840
+ The one we talked about is a linear boundary because WX is a linear classifier.
+
+1145
+02:18:49,840 --> 02:19:01,840
+ This is a nonlinear work, which again is another form of a linear classifier.
+
+1146
+02:19:01,840 --> 02:19:06,840
+ It has multiple solutions as long as you can find one that satisfies all these conditions,
+
+1147
+02:19:06,840 --> 02:19:09,840
+ that will be your decision.
+
+1148
+02:19:10,840 --> 02:19:24,840
+ SVM actually finds the one which gives you the best so-called boundary.
+
+1149
+02:19:24,840 --> 02:19:36,840
+ Same thing. In this case, for SVM, if I just duplicate the number of data here, the result will not be changed.
+
+1150
+02:19:37,840 --> 02:19:42,840
+ Machining also will not be changed because it doesn't give you new information.
+
+1151
+02:19:42,840 --> 02:19:54,840
+ Therefore, when you do the training, you should collect those data that actually allow you to make the boundary more accurate and sharper.
+
+1152
+02:19:54,840 --> 02:19:59,840
+ Then I think this is what we have covered today for multi-layer perceptron.
+
+1153
+02:20:00,840 --> 02:20:13,840
+ Although the structure is simple and every neuron, you could combine them into a very so-called complex structure,
+
+1154
+02:20:13,840 --> 02:20:20,840
+ allow you to do classification for a very complex so-called region.
+
+1155
+02:20:20,840 --> 02:20:28,840
+ Then the activation function, there are a few choices, but you want to select those that give you nonlinear response.
+
+1156
+02:20:28,840 --> 02:20:31,840
+ This linear function will not be very useful.
+
+1157
+02:20:31,840 --> 02:20:41,840
+ The linear function will only appear in the input neuron, and for the rest, it will not be very useful.
+
+1158
+02:20:44,840 --> 02:20:51,840
+ Because if you use a linear function for all the hidden and output neuron, they all can be collapsed into just one neuron.
+
+1159
+02:20:51,840 --> 02:20:55,840
+ It's still a single so-called neuron classifier.
+
+1160
+02:20:56,840 --> 02:21:07,840
+ Because the gradient of this function will be important, you need to know why it's a gradient for each of these activation functions
+
+1161
+02:21:07,840 --> 02:21:16,840
+ and how to apply them to your back propagation when you have the mean sum of square.
+
+1162
+02:21:16,840 --> 02:21:22,840
+ This will be the adjustment you make to the weight and the bias.
+
+1163
+02:21:26,840 --> 02:21:37,840
+ Also, although it's optional, I suggest you to try to go through the calculation because I believe most of you should be able to understand them
+
+1164
+02:21:37,840 --> 02:21:42,840
+ and that will make your understanding more complete.
+
+1165
+02:21:42,840 --> 02:21:52,840
+ Even I change the error function, you should be able to derive the formula based on such a formulation.
+
+1166
+02:21:56,840 --> 02:22:01,840
+ This is one example.
+
+1167
+02:22:11,840 --> 02:22:20,840
+ This convolution neural network, sometimes it may not be as straightforward as the charge.
+
+1168
+02:22:20,840 --> 02:22:29,840
+ You may need to spend some time to internalize how this data is processed through the filter and convolution.
+
+1169
+02:22:29,840 --> 02:22:39,840
+ After you read more and more, you'll find that it is basically just applying different filter to the input data,
+
+1170
+02:22:39,840 --> 02:22:42,840
+ extract different kind of information, like this case.
+
+1171
+02:22:42,840 --> 02:22:44,840
+ Your filter could be like this.
+
+1172
+02:22:44,840 --> 02:22:57,840
+ These filters are trained based on a lot of training data and then you extract different kind of features for you to understand what is inside the image.
+
+1173
+02:22:57,840 --> 02:23:06,840
+ These are some of these so-called tricks for you to reduce the amount of data.
+
+1174
+02:23:07,840 --> 02:23:12,840
+ We talked about pulling and then regularization.
+
+1175
+02:23:12,840 --> 02:23:16,840
+ This is basically beside the original cost function.
+
+1176
+02:23:16,840 --> 02:23:21,840
+ You could impose further constraints to the network.
+
+1177
+02:23:21,840 --> 02:23:37,840
+ I mentioned that this Rw, if you set like this, which will make your machine perceptron very much similar to SVM
+
+1178
+02:23:37,840 --> 02:23:49,840
+ because it also tries to maximize the margin with the proper selection of the alpha here.
+
+1179
+02:23:49,840 --> 02:23:51,840
+ This is error curve.
+
+1180
+02:23:51,840 --> 02:24:06,840
+ You should know that the test data, variation data, allow you to decide whether this training error and the test error, they are similar.
+
+1181
+02:24:06,840 --> 02:24:14,840
+ If they somehow, when you continue to train some of these tools start to split,
+
+1182
+02:24:14,840 --> 02:24:23,840
+ then you know that you are already overfitting to the data which are not really in agreement with the test data.
+
+1183
+02:24:23,840 --> 02:24:37,840
+ It could be your training data have a lot of noise, or it could be your test data you only select a small set which is not really similar to the training data.
+
+1184
+02:24:37,840 --> 02:24:40,840
+ So you have to decide which is which.
+
+1185
+02:24:40,840 --> 02:25:01,840
+ For some of these so-called invoke training, you select different set of training and testing data will allow you to know whether your data selection is biased by randomly select different group of training and test data.
+
+1186
+02:25:01,840 --> 02:25:11,840
+ So in convolution neural network, it's quite quite quite a bit of information you have to understand.
+
+1187
+02:25:11,840 --> 02:25:22,840
+ Although the concept are not difficult after you familiar yourself with all these calculations, but it's still a lot of new calculation that you need to do.
+
+1188
+02:25:22,840 --> 02:25:31,840
+ I often find that student, I hope that you should have seen some of the past exam question paper from the library website.
+
+1189
+02:25:31,840 --> 02:25:47,840
+ You find that the paper question normally are not difficult just that if you are not familiar with those calculations, you may spend a lot of time to decide which formula to use or which so-called...
+
+1190
+02:25:53,840 --> 02:26:00,840
+ Yeah, here. Some of these so-called calculation, right? Which one is which?
+
+1191
+02:26:00,840 --> 02:26:05,840
+ And that, even for the earlier decision tree, when you go to the homework, right?
+
+1192
+02:26:05,840 --> 02:26:09,840
+ And to compute the information gain, right?
+
+1193
+02:26:09,840 --> 02:26:18,840
+ I still have some student, they use the feature 1 and 0 to compute the information gain, right?
+
+1194
+02:26:18,840 --> 02:26:29,840
+ And the feature x1, x2, x3, they are not the one you should be concerned when you try to compute the information gain, which would be the class label.
+
+1195
+02:26:29,840 --> 02:26:36,840
+ How many semba belong to positive and negative class? Not belong to 1 and 0 feature, right?
+
+1196
+02:26:36,840 --> 02:26:53,840
+ So which could be quite tedious when you do the calculation in particular if you are not familiar with those calculations during exam, you could make error, right?
+
+1197
+02:26:53,840 --> 02:26:57,840
+ So early on, I have a student ask me why I don't have a V here, okay?
+
+1198
+02:26:57,840 --> 02:27:00,840
+ This one, I only show you the attention, right?
+
+1199
+02:27:00,840 --> 02:27:03,840
+ Which one is here to which other word?
+
+1200
+02:27:03,840 --> 02:27:12,840
+ Of course, when you do the forward calculation, you will multiply this with the V, and this will become your new input vector here.
+
+1201
+02:27:12,840 --> 02:27:18,840
+ But this is just a weight for different so-called token and word in your input sentence.
+
+1202
+02:27:18,840 --> 02:27:29,840
+ So at the end, Softmax, right, will allow you to have every so-called input V, which come from x, right?
+
+1203
+02:27:29,840 --> 02:27:44,840
+ And then you can do the weighted sum to the input words become your so-called...
+
+1204
+02:27:44,840 --> 02:27:55,840
+ This input with the so-called embedding, position embedding and multi-hit attention, then you feed them to the feed forward network.
+
+1205
+02:27:55,840 --> 02:27:59,840
+ And if you do the skid, actually, you will do the summation, right?
+
+1206
+02:27:59,840 --> 02:28:02,840
+ We'll give you the same dimension.
+
+1207
+02:28:02,840 --> 02:28:06,840
+ Again, I do not expect you to calculate transformer.
+
+1208
+02:28:06,840 --> 02:28:11,840
+ Therefore, I don't want to go into too much detail.
+
+1209
+02:28:11,840 --> 02:28:22,840
+ But the whole idea is to tell you that the transformer concept is not very different from those MLP or convolution network.
+
+1210
+02:28:22,840 --> 02:28:26,840
+ So rather than filtering, now you have the attention, right?
+
+1211
+02:28:26,840 --> 02:28:28,840
+ Which is more like filtering.
+
+1212
+02:28:28,840 --> 02:28:37,840
+ You focus on certain parts of the content, but with different so-called mechanisms to extract the information.
+
+1213
+02:28:37,840 --> 02:28:40,840
+ How is it delivered to the other?
+
+1214
+02:28:40,840 --> 02:28:42,840
+ So it's still a learning process.
+
+1215
+02:28:42,840 --> 02:28:45,840
+ It's still a network with many parameters.
+
+1216
+02:28:45,840 --> 02:28:50,840
+ And your goal is still minimizing the error if you define them at the end, right?
+
+1217
+02:28:50,840 --> 02:28:52,840
+ And then you have a lot of training data.
+
+1218
+02:28:52,840 --> 02:29:01,840
+ You just go through the same training process by optimizing those parameters to reduce the error at the end.
+
+1219
+02:29:01,840 --> 02:29:03,840
+ So therefore, I do want to go through.
+
+1220
+02:29:03,840 --> 02:29:04,840
+ But there is one website.
+
+1221
+02:29:04,840 --> 02:29:11,840
+ If you go to the link, you can find a few example websites that show you exact example, a few examples.
+
+1222
+02:29:11,840 --> 02:29:17,840
+ You can go through the calculation to convene yourself that this is how you perform calculation.
+
+1223
+02:29:17,840 --> 02:29:29,840
+ And because of this, of course, the transformer actually, in fact, you think about it, the number of so-called multiple hat and the number of layer.
+
+1224
+02:29:29,840 --> 02:29:32,840
+ This is the duplication of the layer.
+
+1225
+02:29:32,840 --> 02:29:38,840
+ And then all these matrix multiplication actually need a lot of computation.
+
+1226
+02:29:38,840 --> 02:29:46,840
+ If someone calculated every time you ask a chat GPT question, I think it allows you to understand.
+
+1227
+02:29:46,840 --> 02:29:54,840
+ It allows you to actually consume the energy which allows you to let the light bulb for how long, something like this.
+
+1228
+02:29:54,840 --> 02:29:56,840
+ So it's not cheap.
+
+1229
+02:29:56,840 --> 02:30:00,840
+ They continue to reduce the model.
+
+1230
+02:30:00,840 --> 02:30:03,840
+ There are also some smaller models you can use.
+
+1231
+02:30:03,840 --> 02:30:09,840
+ And that allows you to minimize the power consumption.
+
+1232
+02:30:09,840 --> 02:30:15,840
+ But if everyone is using it, they actually consume quite a lot of power energy.
+
+1233
+02:30:15,840 --> 02:30:19,840
+ In particular training, there is no way that you can train some of these models.
+
+1234
+02:30:19,840 --> 02:30:21,840
+ And there are so many parameters.
+
+1235
+02:30:21,840 --> 02:30:27,840
+ In particular, one of them is regarding the so-called embedding dimension.
+
+1236
+02:30:27,840 --> 02:30:34,840
+ And also the input data site, how many words that you can take in, the token, how many tokens you can take in.
+
+1237
+02:30:34,840 --> 02:30:44,840
+ So if you use a free so-called large linkage model, they will limit the number of so-called words that you can input.
+
+1238
+02:30:44,840 --> 02:30:47,840
+ You cannot certainly load in the whole document.
+
+1239
+02:30:47,840 --> 02:30:56,840
+ But even they allow you, because this mechanism is so complex, when you have too many words, the weights, all these things will be distributed.
+
+1240
+02:30:56,840 --> 02:31:01,840
+ So it also will not be able to capture the content very well.
+
+1241
+02:31:01,840 --> 02:31:08,840
+ So how to input a large document, I think there are many, many so-called compromise solutions.
+
+1242
+02:31:08,840 --> 02:31:10,840
+ You could input part of the document.
+
+1243
+02:31:10,840 --> 02:31:19,840
+ You produce a summary, another part produce a summary, and then do another round on the summary, which is more like multi-layer perceptual.
+
+1244
+02:31:19,840 --> 02:31:25,840
+ You do it manually, and you do the training, optimizing the training yourself.
+
+1245
+02:31:25,840 --> 02:31:34,840
+ So there are still a lot of these so-called tricks that you can use to create a better so-called result.
+
+1246
+02:31:34,840 --> 02:31:45,840
+ Recently, now, in the last language model, they call it as agent-model of a large language model.
+
+1247
+02:31:45,840 --> 02:31:51,840
+ Each agent actually with expertise in certain domains.
+
+1248
+02:31:51,840 --> 02:32:01,840
+ So the model is so complex that how to interact with this large language model is not straightforward.
+
+1249
+02:32:01,840 --> 02:32:10,840
+ Sometimes you have to write the problems in a certain format so that the engine can give you the answer you prefer.
+
+1250
+02:32:10,840 --> 02:32:14,840
+ Or there are many ways, like change of problems, right?
+
+1251
+02:32:14,840 --> 02:32:26,840
+ You can actually ask questions one after another, then you summarize, or you can even have a cryptic agent to look at the answer produced by the large language model, further refine it.
+
+1252
+02:32:26,840 --> 02:32:40,840
+ So these, I think they are currently so-called suboptimal solutions because we don't know how the network is also not so perfect yet.
+
+1253
+02:32:40,840 --> 02:32:47,840
+ Therefore, a lot of these answers, you still have a lot of room to further find, to enhance it.
+
+1254
+02:32:47,840 --> 02:32:54,840
+ I think these are now what a lot of research are going on to make the result better.
+
+1255
+02:32:54,840 --> 02:32:59,840
+ So it's improving compared to last year, two years ago, when you first used the Chatchivity.
+
+1256
+02:32:59,840 --> 02:33:05,840
+ Now the answer I would think that is actually much improved.
+
+1257
+02:33:05,840 --> 02:33:11,840
+ Anyone will throw in the exercise that I convert to Chatchivity, ask for the answer.
+
+1258
+02:33:11,840 --> 02:33:13,840
+ Anyone have tried that, do you get the right answer?
+
+1259
+02:33:13,840 --> 02:33:17,840
+ I didn't try myself, but for some simple question I did try.
+
+1260
+02:33:17,840 --> 02:33:21,840
+ I'm surprised that the answer was quite accurate for some other question.
+
+1261
+02:33:21,840 --> 02:33:25,840
+ So you tried to ask Chatchivity how to solve your homework problem.
+
+1262
+02:33:25,840 --> 02:33:27,840
+ So do you get the correct answer?
+
+1263
+02:33:27,840 --> 02:33:31,840
+ Wow, exactly the same as this.
+
+1264
+02:33:31,840 --> 02:33:34,840
+ Wow, you see how smug it is.
+
+1265
+02:33:34,840 --> 02:33:38,840
+ I'm not surprised because these are not complex problems.
+
+1266
+02:33:38,840 --> 02:33:50,840
+ Of course, I did not try it, but even you try, you also need to be the one understand this because when you go to an exam, you will not have a Chatchivity with you.
+
+1267
+02:33:50,840 --> 02:33:55,840
+ Okay, that's all for my lecture, and I hope you the best for your final exam.
+
+1268
+02:33:55,840 --> 02:33:59,840
+ I will be there and if you have any questions, you can still write me an email.
+
+1269
+02:33:59,840 --> 02:34:02,840
+ In fact, I will see you during the final exam.
+
+1270
+02:34:02,840 --> 02:34:03,840
+ Okay, bye-bye.
+
+1271
+02:34:03,840 --> 02:34:12,840
+ Thank you, thank you.
+
+1272
+02:34:12,840 --> 02:34:14,840
+ Thank you for coming to the lecture.
+
+1273
+02:34:20,840 --> 02:34:30,840
+ Thank you.
+
+1274
+02:34:50,840 --> 02:35:00,840
+ Thank you.
+
+1275
+02:35:20,840 --> 02:35:30,840
+ Thank you.
+
+1276
+02:35:50,840 --> 02:36:00,840
+ Thank you.
+
+1277
+02:36:20,840 --> 02:36:30,840
+ Thank you.
+
+1278
+02:36:50,840 --> 02:37:00,840
+ Thank you.
+
+1279
+02:37:20,840 --> 02:37:30,840
+ Thank you.
+
+1280
+02:37:50,840 --> 02:38:00,840
+ Thank you.
+
+1281
+02:38:20,840 --> 02:38:30,840
+ Thank you.
+
+1282
+02:38:50,840 --> 02:39:00,840
+ Thank you.
+
+1283
+02:39:20,840 --> 02:39:30,840
+ Thank you.
+
+1284
+02:39:50,840 --> 02:40:00,840
+ Thank you.
+
+1285
+02:40:20,840 --> 02:40:30,840
+ Thank you.
+
+1286
+02:40:50,840 --> 02:41:00,840
+ Thank you.
+
+1287
+02:41:20,840 --> 02:41:30,840
+ Thank you.
+
+1288
+02:41:50,840 --> 02:42:00,840
+ Thank you.
+
+1289
+02:42:20,840 --> 02:42:30,840
+ Thank you.
+
+1290
+02:42:50,840 --> 02:43:00,840
+ Thank you.
+
+1291
+02:43:20,840 --> 02:43:30,840
+ Thank you.
+
+1292
+02:43:50,840 --> 02:44:00,840
+ Thank you.
+
+1293
+02:44:20,840 --> 02:44:30,840
+ Thank you.
+
+1294
+02:44:50,840 --> 02:45:00,840
+ Thank you.
+
+1295
+02:45:20,840 --> 02:45:30,840
+ Thank you.
+
+1296
+02:45:50,840 --> 02:46:00,840
+ Thank you.
+
+1297
+02:46:20,840 --> 02:46:30,840
+ Thank you.
+
+1298
+02:46:50,840 --> 02:47:00,840
+ Thank you.
+
+1299
+02:47:20,840 --> 02:47:30,840
+ Thank you.
+
+1300
+02:47:50,840 --> 02:48:00,840
+ Thank you.
+
+1301
+02:48:20,840 --> 02:48:40,840
+ Thank you.
+
+1302
+02:48:40,840 --> 02:48:50,840
+ Hello, testing.
+
+1303
+02:49:10,840 --> 02:49:20,840
+ Thank you.
+
+1304
+02:49:40,840 --> 02:49:50,840
+ Thank you.
+
+1305
+02:50:10,840 --> 02:50:20,840
+ Thank you.
+
+1306
+02:50:40,840 --> 02:50:50,840
+ Thank you.
+
+1307
+02:51:10,840 --> 02:51:20,840
+ Thank you.
+
+1308
+02:51:40,840 --> 02:51:50,840
+ Thank you.
+
+1309
+02:52:10,840 --> 02:52:20,840
+ Thank you.
+
+1310
+02:52:40,840 --> 02:52:50,840
+ Thank you.
+
+1311
+02:53:10,840 --> 02:53:20,840
+ Thank you.
+
+1312
+02:53:40,840 --> 02:53:50,840
+ Thank you.
+
+1313
+02:54:10,840 --> 02:54:20,840
+ Thank you.
+
+1314
+02:54:40,840 --> 02:54:50,840
+ Thank you.
+
+1315
+02:55:10,840 --> 02:55:20,840
+ Thank you.
+
+1316
+02:55:40,840 --> 02:55:50,840
+ Thank you.
+
+1317
+02:56:10,840 --> 02:56:20,840
+ Thank you.
+
+1318
+02:56:40,840 --> 02:56:50,840
+ Thank you.
+
+1319
+02:57:10,840 --> 02:57:20,840
+ Thank you.
+
+1320
+02:57:40,840 --> 02:57:50,840
+ Thank you.
+
+1321
+02:58:10,840 --> 02:58:20,840
+ Thank you.
+
+1322
+02:58:40,840 --> 02:58:50,840
+ Thank you.
+
+1323
+02:59:10,840 --> 02:59:20,840
+ Thank you.
+
+1324
+02:59:40,840 --> 02:59:50,840
+ Thank you.
+

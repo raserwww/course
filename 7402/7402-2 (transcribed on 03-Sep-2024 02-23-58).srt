@@ -1,0 +1,6420 @@
+1
+00:00:00,000 --> 00:00:11,520
+ As I already mentioned, last week we only had two CA and one is Tech Home assignments
+
+2
+00:00:11,520 --> 00:00:24,000
+ like homework and the second one will be the quiz which is conducted here.
+
+3
+00:00:24,000 --> 00:00:34,000
+ So particularly the second one, week 11, so it must be available to come here physically.
+
+4
+00:00:54,000 --> 00:01:06,420
+ Okay, any questions?
+
+5
+00:01:06,420 --> 00:01:16,400
+ Several students at the back, you can move to the middle.
+
+6
+00:01:16,400 --> 00:01:26,600
+ So I hope maybe next week we start to have some more interactive teaching.
+
+7
+00:01:26,600 --> 00:01:36,920
+ This is the largest class size since I conduct, I taught this course 20 years ago.
+
+8
+00:01:36,920 --> 00:01:39,760
+ Now it's exactly.
+
+9
+00:01:39,760 --> 00:01:47,200
+ In the past I think the maximum one is 60 students in this class but now we have 100
+
+10
+00:01:47,200 --> 00:01:49,200
+ more like this, 160.
+
+11
+00:01:49,200 --> 00:02:01,880
+ So we'll see how to manage this very big class size.
+
+12
+00:02:01,880 --> 00:02:04,600
+ Okay, I think it's time to start.
+
+13
+00:02:04,600 --> 00:02:17,799
+ I remember last week we started with some introduction and then mention about the practical
+
+14
+00:02:17,799 --> 00:02:18,799
+ application.
+
+15
+00:02:18,799 --> 00:02:29,400
+ You see here, this is what we...
+
+16
+00:02:29,400 --> 00:02:41,000
+ So yeah, this is one of the very typical and classical applications where we have parameter
+
+17
+00:02:41,000 --> 00:02:49,560
+ estimation or you call estimation theory and then the second part will be the signal detection.
+
+18
+00:02:49,560 --> 00:02:56,840
+ So both of them they are all putting into this course.
+
+19
+00:02:56,840 --> 00:03:05,720
+ So we are not doing the hardware design but more algorithms and the methodologies and theories
+
+20
+00:03:05,720 --> 00:03:18,000
+ will be high to do the practical work if you are applying this into some projects.
+
+21
+00:03:18,000 --> 00:03:26,960
+ So of course in between there will be always some research you want to work on.
+
+22
+00:03:26,960 --> 00:03:35,560
+ Maybe next week I can also give you some briefing on some of the work we have done related to
+
+23
+00:03:35,560 --> 00:03:41,040
+ this course both in estimation and detection.
+
+24
+00:03:41,040 --> 00:03:52,000
+ But before that I promised to share with you some of the projects which related to this
+
+25
+00:03:52,000 --> 00:03:53,000
+ one.
+
+26
+00:03:53,000 --> 00:04:01,239
+ So yeah, this is the photos of my group working on this.
+
+27
+00:04:01,240 --> 00:04:13,720
+ You see here just now we show the radar and this is a wearable radar.
+
+28
+00:04:13,720 --> 00:04:17,040
+ Most of these some are undergraduate students.
+
+29
+00:04:17,040 --> 00:04:21,760
+ At that time there is not many master students.
+
+30
+00:04:21,760 --> 00:04:26,800
+ So I don't think any master students here but this is PhD student.
+
+31
+00:04:26,800 --> 00:04:30,120
+ Now he is a professor in China.
+
+32
+00:04:30,120 --> 00:04:33,160
+ I just visited him a few months ago.
+
+33
+00:04:33,160 --> 00:04:40,000
+ And this is a postdoc also a professor now in Seoul in South Korea.
+
+34
+00:04:40,000 --> 00:04:49,680
+ And then we have a few other some researchers I think probably two girls here.
+
+35
+00:04:49,680 --> 00:05:00,560
+ Very quick guess.
+
+36
+00:05:00,560 --> 00:05:05,920
+ How much this radar costs in Singapore dollar?
+
+37
+00:05:05,920 --> 00:05:07,880
+ Anyone have some idea?
+
+38
+00:05:07,880 --> 00:05:14,000
+ You are doing the parameter estimation just based on the picture.
+
+39
+00:05:14,000 --> 00:05:19,280
+ This is a rare one.
+
+40
+00:05:19,280 --> 00:05:23,400
+ Usually you can carry it back.
+
+41
+00:05:23,400 --> 00:05:24,400
+ We need two guys.
+
+42
+00:05:24,400 --> 00:05:31,200
+ They show the one carry this one, the other carry the tripods and other.
+
+43
+00:05:31,200 --> 00:05:32,200
+ And this is a toy.
+
+44
+00:05:32,200 --> 00:05:35,360
+ I told you most of you are new to Singapore.
+
+45
+00:05:35,360 --> 00:05:41,800
+ But you may think NTU is the far western part of Singapore.
+
+46
+00:05:41,800 --> 00:05:44,000
+ The Changi Airport is on the eastern side.
+
+47
+00:05:44,000 --> 00:05:45,960
+ You see this is very remote.
+
+48
+00:05:45,960 --> 00:05:48,120
+ You see Malaysia on the other side.
+
+49
+00:05:48,120 --> 00:05:49,120
+ But not really.
+
+50
+00:05:49,120 --> 00:05:57,680
+ If you travel to the further southwestern, Tuas, you will look at the map.
+
+51
+00:05:57,680 --> 00:05:58,680
+ Tuas.
+
+52
+00:05:58,680 --> 00:06:03,040
+ Which is very far from here.
+
+53
+00:06:03,040 --> 00:06:08,280
+ Even by driving it may take at least 30 minutes.
+
+54
+00:06:08,280 --> 00:06:12,239
+ So we did the experiment there.
+
+55
+00:06:12,239 --> 00:06:14,320
+ No one want to guess?
+
+56
+00:06:14,320 --> 00:06:15,320
+ Estimate the parameter.
+
+57
+00:06:15,320 --> 00:06:18,320
+ This is just a number.
+
+58
+00:06:18,320 --> 00:06:20,320
+ The cost of this.
+
+59
+00:06:20,320 --> 00:06:22,840
+ It was very cheap.
+
+60
+00:06:22,840 --> 00:06:25,640
+ I buy 10 from you.
+
+61
+00:06:25,640 --> 00:06:26,640
+ 10,000.
+
+62
+00:06:26,640 --> 00:06:31,119
+ You know those are military products.
+
+63
+00:06:31,119 --> 00:06:33,440
+ Usually very expensive.
+
+64
+00:06:33,440 --> 00:06:37,440
+ And this one was made by Thalas.
+
+65
+00:06:37,440 --> 00:06:41,960
+ It's a very big multinational company.
+
+66
+00:06:41,960 --> 00:06:44,800
+ The headquarters in the Netherlands.
+
+67
+00:06:44,800 --> 00:06:52,720
+ So to buy this, I personally, I travel to the Netherlands to sign the contract.
+
+68
+00:06:52,720 --> 00:06:56,520
+ We need a legal team to work out the contract.
+
+69
+00:06:56,520 --> 00:06:58,400
+ And it's very long.
+
+70
+00:06:58,400 --> 00:07:00,880
+ So some more guess?
+
+71
+00:07:00,880 --> 00:07:01,880
+ Higher than that of course.
+
+72
+00:07:01,880 --> 00:07:02,880
+ 10,000 is very cheap.
+
+73
+00:07:02,880 --> 00:07:03,880
+ 10,000 now is even...
+
+74
+00:07:03,880 --> 00:07:04,880
+ How much you can buy?
+
+75
+00:07:05,880 --> 00:07:12,400
+ The car, even the COE is 100,000.
+
+76
+00:07:12,400 --> 00:07:15,120
+ So think about just the COE.
+
+77
+00:07:15,120 --> 00:07:17,120
+ This is big one.
+
+78
+00:07:17,120 --> 00:07:18,120
+ Anyone?
+
+79
+00:07:18,120 --> 00:07:19,120
+ Very close.
+
+80
+00:07:19,120 --> 00:07:20,120
+ How many times?
+
+81
+00:07:20,120 --> 00:07:21,120
+ 100 times of this guy.
+
+82
+00:07:21,120 --> 00:07:22,120
+ Very near, almost near 1 million.
+
+83
+00:07:22,120 --> 00:07:23,120
+ Very expensive.
+
+84
+00:07:23,120 --> 00:07:35,440
+ If this radar was...
+
+85
+00:07:35,440 --> 00:07:44,200
+ You only buy to use like the commercial product is half of that, about half a million.
+
+86
+00:07:44,200 --> 00:07:50,760
+ But then of course you all know if you buy a product, you can use but you cannot get
+
+87
+00:07:50,760 --> 00:07:51,760
+ the data.
+
+88
+00:07:51,760 --> 00:07:56,560
+ So in order to get the data, I think the company say or they need to specially design but it's
+
+89
+00:07:56,560 --> 00:07:57,560
+ not true.
+
+90
+00:07:57,560 --> 00:08:04,560
+ What we know is that they just do some setting but they make the function available to you.
+
+91
+00:08:04,560 --> 00:08:11,240
+ That's why it's still very important you know how to design the algorithms and then
+
+92
+00:08:11,240 --> 00:08:13,800
+ just this part.
+
+93
+00:08:13,800 --> 00:08:14,800
+ It calls double.
+
+94
+00:08:14,800 --> 00:08:19,920
+ You say, well you want to use the data because we are doing research.
+
+95
+00:08:19,920 --> 00:08:27,720
+ So we are not just look at the UAV and so on but we want to take the data and do the
+
+96
+00:08:27,720 --> 00:08:28,720
+ research.
+
+97
+00:08:28,720 --> 00:08:35,840
+ So we pay more, almost double, almost near 1 million.
+
+98
+00:08:35,840 --> 00:08:36,840
+ So you'll see what...
+
+99
+00:08:36,840 --> 00:08:45,960
+ At least we published some paper and this is the defense project.
+
+100
+00:08:45,960 --> 00:08:52,840
+ In the end the Ministry of Defense, they are quite satisfied.
+
+101
+00:08:52,840 --> 00:08:55,440
+ So this is one of the H.O.B.
+
+102
+00:08:55,440 --> 00:08:56,640
+ Transaction paper.
+
+103
+00:08:56,640 --> 00:08:59,120
+ It's a short paper.
+
+104
+00:08:59,120 --> 00:09:03,800
+ So you see here improving ground data.
+
+105
+00:09:03,800 --> 00:09:09,800
+ So I go to the setting.
+
+106
+00:09:09,800 --> 00:09:11,560
+ So this is the one.
+
+107
+00:09:11,560 --> 00:09:16,560
+ You see here this map is...
+
+108
+00:09:16,560 --> 00:09:19,199
+ This is the radar you see.
+
+109
+00:09:19,199 --> 00:09:22,040
+ And then at twice there is industry part.
+
+110
+00:09:22,040 --> 00:09:29,000
+ There are a lot of space and just like grass and so on.
+
+111
+00:09:29,000 --> 00:09:34,800
+ And this is the one doing the roles and radar here.
+
+112
+00:09:34,800 --> 00:09:43,959
+ So we are measuring about in maximum about 1000 meters down to the other side.
+
+113
+00:09:43,959 --> 00:09:47,680
+ Target number one maybe a little bit longer.
+
+114
+00:09:47,680 --> 00:09:50,800
+ So you see FFT.
+
+115
+00:09:50,800 --> 00:09:56,280
+ So that's how you apply and the data here.
+
+116
+00:09:56,280 --> 00:09:59,719
+ You see there is a big noise.
+
+117
+00:09:59,719 --> 00:10:02,359
+ I won't go into the detail.
+
+118
+00:10:03,360 --> 00:10:07,200
+ So this is one of them.
+
+119
+00:10:07,200 --> 00:10:13,800
+ And then if you look at this, this is where the model is a very typical one.
+
+120
+00:10:13,800 --> 00:10:16,120
+ You see here the measure data.
+
+121
+00:10:16,120 --> 00:10:18,680
+ And this is what I mentioned here.
+
+122
+00:10:18,680 --> 00:10:24,320
+ In this course statistical signal processing you must contain some measurement noise.
+
+123
+00:10:24,320 --> 00:10:30,240
+ If no noise you are doing the matrix inverse it will be easy.
+
+124
+00:10:30,240 --> 00:10:35,520
+ And this is one of the measures.
+
+125
+00:10:35,520 --> 00:10:39,640
+ And some more later is also related.
+
+126
+00:10:39,640 --> 00:10:46,160
+ So that's why I want to point out where this minimum variance distortion is responsible
+
+127
+00:10:46,160 --> 00:10:49,360
+ because this last term is applied to array.
+
+128
+00:10:49,360 --> 00:10:50,640
+ It's doing sensor array.
+
+129
+00:10:50,640 --> 00:10:53,440
+ So it's talking about distortion and music.
+
+130
+00:10:53,640 --> 00:11:02,160
+ I think for those students taking my other EE6401 you will see music is part of the very
+
+131
+00:11:02,160 --> 00:11:04,800
+ popular algorithms in Taiwan.
+
+132
+00:11:04,800 --> 00:11:07,600
+ But we are not going into that.
+
+133
+00:11:07,600 --> 00:11:13,640
+ So this is very familiar.
+
+134
+00:11:13,640 --> 00:11:16,800
+ You minimize, you get this.
+
+135
+00:11:16,800 --> 00:11:31,719
+ And that's how you can apply statistical signal processing in some lawyer experiments.
+
+136
+00:11:31,719 --> 00:11:34,359
+ And this is, we can see the picture.
+
+137
+00:11:34,359 --> 00:11:42,479
+ We are basically trying to use this reader to detect and estimate, classify UAV, different
+
+138
+00:11:42,479 --> 00:11:44,400
+ type of UAV.
+
+139
+00:11:44,400 --> 00:11:51,520
+ So from there you use the reader to send out the transmit signal, get the echo back.
+
+140
+00:11:51,520 --> 00:11:57,160
+ And this is the data you measure.
+
+141
+00:11:57,160 --> 00:12:07,760
+ No noise and you have to file ways to try to estimate the correct temporal frequencies
+
+142
+00:12:07,760 --> 00:12:11,000
+ and so on.
+
+143
+00:12:11,000 --> 00:12:12,560
+ And this is one paper.
+
+144
+00:12:12,560 --> 00:12:13,960
+ Another one is just a very quick one.
+
+145
+00:12:14,520 --> 00:12:17,520
+ It's a much longer one than this.
+
+146
+00:12:17,520 --> 00:12:19,960
+ This is more like applying machine learning.
+
+147
+00:12:19,960 --> 00:12:27,480
+ So it's published in a few years back to the project expert system with application.
+
+148
+00:12:27,480 --> 00:12:37,280
+ So you can see very similar.
+
+149
+00:12:37,280 --> 00:12:40,600
+ This is, you see here the reader.
+
+150
+00:12:40,600 --> 00:12:47,000
+ You see you transmit the reader, then get your scan, get the data back.
+
+151
+00:12:47,000 --> 00:12:52,160
+ And this is, you are doing multiple scans.
+
+152
+00:12:52,160 --> 00:12:58,240
+ And that's how, as you hear, there is a similar, similar indicator.
+
+153
+00:12:58,240 --> 00:13:04,320
+ Signal of the week and there's some clutter, noise and so on.
+
+154
+00:13:04,320 --> 00:13:06,160
+ So that's a different type.
+
+155
+00:13:06,160 --> 00:13:09,560
+ You will see different reflections.
+
+156
+00:13:10,199 --> 00:13:15,920
+ Working person and there's UAV per car bicycle.
+
+157
+00:13:15,920 --> 00:13:27,839
+ You see that's a big communicated, the whole block diagram and some of the signal.
+
+158
+00:13:27,839 --> 00:13:38,319
+ And then again there are a lot of modeling and all those signal, noise and so on.
+
+159
+00:13:38,320 --> 00:13:46,240
+ So it's more like using machine learning approach.
+
+160
+00:13:46,240 --> 00:14:02,640
+ So I hope this at least motivates you to see how you can apply into practical problems.
+
+161
+00:14:02,640 --> 00:14:16,560
+ Any questions that you'd like to ask before we start the class now?
+
+162
+00:14:16,560 --> 00:14:24,760
+ So as I say, now I try to do some drawing starting from week two.
+
+163
+00:14:24,760 --> 00:14:39,200
+ And the important concept is at least you should build in your mind to get used to random
+
+164
+00:14:39,200 --> 00:14:53,960
+ signals and also how to relate our cause into some data.
+
+165
+00:14:53,960 --> 00:14:58,240
+ And then from the major data how to do the parameter estimation.
+
+166
+00:14:58,240 --> 00:15:07,080
+ So let me start with say we have a random signal and then a random signal when you,
+
+167
+00:15:07,080 --> 00:15:16,040
+ when a major typically assume the random variable, they are continuous time.
+
+168
+00:15:16,040 --> 00:15:23,040
+ So you can use the PDF, probability, density function.
+
+169
+00:15:23,040 --> 00:15:33,880
+ So PDF is the most comprehensive description of this random variable because random variable
+
+170
+00:15:33,880 --> 00:15:39,040
+ we all know if you, we don't know the outcome until it appears.
+
+171
+00:15:39,040 --> 00:15:41,240
+ So it's like the realization.
+
+172
+00:15:41,240 --> 00:15:52,599
+ So the PDF is just measure how this data or this random variable are likely to come out
+
+173
+00:15:53,000 --> 00:16:07,000
+ for example if we are very often we are talking about zero mean, zero mean Gaussian noise.
+
+174
+00:16:07,000 --> 00:16:10,600
+ Gaussian noise.
+
+175
+00:16:10,600 --> 00:16:20,120
+ Say so that means you see you'll have the data, the random signal.
+
+176
+00:16:20,120 --> 00:16:29,600
+ They are most likely, you know, our PDF if you plot the PDF here in this case X this is
+
+177
+00:16:29,600 --> 00:16:30,600
+ zero.
+
+178
+00:16:30,600 --> 00:16:44,560
+ So the PDF is most likely going to, going to happen near the zero mean because we are
+
+179
+00:16:44,560 --> 00:16:48,560
+ assuming the mean value is zero.
+
+180
+00:16:48,560 --> 00:16:57,079
+ Of course if you, the mean is not zero say the mean go to one then of course this pick
+
+181
+00:16:57,079 --> 00:17:00,959
+ your shift to the position of one.
+
+182
+00:17:00,959 --> 00:17:05,040
+ That means it's most likely happen near the mean.
+
+183
+00:17:05,040 --> 00:17:14,560
+ And that's how we say typically you know examination mark I mean you all know we do this bell curve
+
+184
+00:17:15,560 --> 00:17:22,560
+ like a moderation that probably agrees until we are doing that.
+
+185
+00:17:22,560 --> 00:17:27,560
+ So the mean of course is not zero because I mean your mark the lowest is zero.
+
+186
+00:17:27,560 --> 00:17:37,560
+ So say for example the mean is 65 and so if the mark follow this Gaussian distribution
+
+187
+00:17:37,560 --> 00:17:43,560
+ or called normal distribution then the more students are likely to be near 65.
+
+188
+00:17:43,560 --> 00:17:49,560
+ So it may not be exactly 65 it could be 64, 66 and so on.
+
+189
+00:17:49,560 --> 00:18:00,560
+ So this PDF just measure how likely this random variable the value the output are going to
+
+190
+00:18:00,560 --> 00:18:01,560
+ show.
+
+191
+00:18:01,560 --> 00:18:07,560
+ Because we don't know they pick up the exam even after you are normalized we still don't
+
+192
+00:18:07,560 --> 00:18:09,560
+ know who is getting into whom.
+
+193
+00:18:09,560 --> 00:18:15,560
+ We can only say okay the distribution the mark looks like this.
+
+194
+00:18:15,560 --> 00:18:20,560
+ So that's how this random variable and then we use PDF.
+
+195
+00:18:20,560 --> 00:18:30,560
+ And then after that how do we apply to our case here because we are talking about we
+
+196
+00:18:30,560 --> 00:18:35,560
+ are measuring N samples you see.
+
+197
+00:18:35,560 --> 00:18:48,560
+ So that's how quite often I have questions and say okay you are talking about your data
+
+198
+00:18:48,560 --> 00:18:54,560
+ discrete time but you are available most of the time we are dealing with continue.
+
+199
+00:18:54,560 --> 00:18:56,560
+ So don't confuse.
+
+200
+00:18:56,560 --> 00:19:04,560
+ I can show you assume our measure data you see based on measure data run to measure like
+
+201
+00:19:04,560 --> 00:19:09,560
+ just a TC value as typically the case okay.
+
+202
+00:19:09,560 --> 00:19:17,560
+ You know our measure signal is A we are assuming here A is greater than zero.
+
+203
+00:19:17,560 --> 00:19:25,560
+ It's a proper positive TC and this is for example Gaussian noise as we just showed.
+
+204
+00:19:25,560 --> 00:19:32,560
+ And then typically we have N samples we start from zero, one and then up to N minus one.
+
+205
+00:19:32,560 --> 00:19:41,560
+ So how does it look like you see our mean is we are assuming constant being you see.
+
+206
+00:19:41,560 --> 00:19:50,560
+ So this is A okay since our measure data is A plus WN which is Gaussian noise we do not
+
+207
+00:19:50,560 --> 00:19:54,560
+ know how it how it's going to happen.
+
+208
+00:19:54,560 --> 00:20:07,560
+ So therefore let me just show this like scenario if N equal to zero at the first point you
+
+209
+00:20:07,560 --> 00:20:08,560
+ see.
+
+210
+00:20:08,560 --> 00:20:13,560
+ So our measure data may be here but we do not know.
+
+211
+00:20:13,560 --> 00:20:24,560
+ So it's going to you see so you can imagine the theoretically the measure data you can
+
+212
+00:20:24,560 --> 00:20:31,560
+ go all the way you see because Gaussian rate available theoretically it can take continuously
+
+213
+00:20:31,560 --> 00:20:38,560
+ value from minus infinity to infinity but most likely around this mean value which is
+
+214
+00:20:38,560 --> 00:20:39,560
+ A.
+
+215
+00:20:39,560 --> 00:20:45,560
+ So that's how the first data we are getting this and then all about the second one say
+
+216
+00:20:45,560 --> 00:20:52,560
+ N equal to one then the next measure it may be here okay.
+
+217
+00:20:52,560 --> 00:21:00,560
+ But we do not know until we measure so what based on PDF so we can see at least it's going
+
+218
+00:21:01,560 --> 00:21:12,560
+ to be here and subsequent one say N equal to two and so on so you will be you will be
+
+219
+00:21:12,560 --> 00:21:22,560
+ you will continue like this but to be to be more likely you will see the measure data
+
+220
+00:21:23,560 --> 00:21:35,560
+ more closely near the mean value of A and that's how our course here the this part one
+
+221
+00:21:35,560 --> 00:21:40,560
+ is based on this measure data say X1, X2 and so on.
+
+222
+00:21:40,560 --> 00:21:52,560
+ So we are trying to try to estimate this the true mean value A, true DC value based on
+
+223
+00:21:52,560 --> 00:21:54,560
+ the based on the measure data okay.
+
+224
+00:21:54,560 --> 00:22:05,560
+ So this is what the very very basic idea about estimation and how we are going to link with
+
+225
+00:22:06,560 --> 00:22:13,560
+ our so called PDF and most of the time we are assuming we are dealing with you know the
+
+226
+00:22:13,560 --> 00:22:20,560
+ ring them available or ring them noise where we already know the PDF but of course in some
+
+227
+00:22:20,560 --> 00:22:27,560
+ case we do not assume like some of the some of the methods we only assume you know we
+
+228
+00:22:27,560 --> 00:22:34,560
+ have the measure data perhaps yeah and then based on that we can do okay.
+
+229
+00:22:34,560 --> 00:22:40,560
+ So the more information you have the maximum information you have about the random variable
+
+230
+00:22:40,560 --> 00:22:45,560
+ is PDF so I emphasize again we don't know the exact outcome because not possible random
+
+231
+00:22:45,560 --> 00:22:52,560
+ variable but PDF is the best description but if you don't have PDF then you can get some
+
+232
+00:22:52,560 --> 00:23:01,560
+ you know like mean mean value that's so called false order statistic and you can have a
+
+233
+00:23:01,560 --> 00:23:08,560
+ variant or the second moment so the higher you get you have more information about the
+
+234
+00:23:08,560 --> 00:23:13,560
+ random variable if you only know the mean and variant this is typically in practical
+
+235
+00:23:13,560 --> 00:23:20,560
+ application you are able to measure those so you have some information limited information
+
+236
+00:23:20,560 --> 00:23:28,560
+ but that could be better than you don't know this random variable at all so that's the
+
+237
+00:23:28,560 --> 00:23:37,560
+ case so the PDF theoretically you can give you infinity higher any order of moments or
+
+238
+00:23:37,560 --> 00:23:45,560
+ variant because you can you have the formula to calculate you should know the PDF okay.
+
+239
+00:23:45,560 --> 00:23:54,560
+ So that's how this is the you know the basic assuming some students you know did not come
+
+240
+00:23:54,560 --> 00:24:14,560
+ and then also have not much background about the yeah about the random variable or statistic.
+
+241
+00:24:14,560 --> 00:24:22,560
+ So let me just highlight again one going to detail terminology I think this is maybe I
+
+242
+00:24:22,560 --> 00:24:33,560
+ switch to both pieces later we can come back here yeah so that's the very basic some of
+
+243
+00:24:33,560 --> 00:24:41,560
+ the concept and the way as I say we are dealing with finite number of measure data the measure
+
+244
+00:24:41,560 --> 00:24:49,560
+ data could be a zero to n minus one or one to n depending on you know some of the power
+
+245
+00:24:49,560 --> 00:24:57,560
+ not that consistent and the number of parameter we also assume in general we are dealing with
+
+246
+00:24:57,560 --> 00:25:05,560
+ the finite number of them of course the simplest one is one and more we don't go into infinity
+
+247
+00:25:05,560 --> 00:25:12,560
+ many parameters they will become like the waveform estimation which is a little bit beyond our
+
+248
+00:25:12,560 --> 00:25:20,560
+ current path okay so these are the one and then this is the estimation error which is
+
+249
+00:25:20,560 --> 00:25:30,560
+ a random quantity and then how to measure mean square error and then in there are several
+
+250
+00:25:30,560 --> 00:25:39,560
+ categorization bias consistent efficient so bias are a bit similar to estimation error
+
+251
+00:25:39,560 --> 00:25:48,560
+ but this is the difference is we apply the expectation which is the mean value in today
+
+252
+00:25:48,560 --> 00:25:56,560
+ so this one become no longer random as you always remember a random variable you take expectation
+
+253
+00:25:56,560 --> 00:26:04,560
+ I mean already already reduce means as I say early in the drawing the once you take mean
+
+254
+00:26:04,560 --> 00:26:13,560
+ then it's no longer random you are taking the become a deterministic value so that therefore
+
+255
+00:26:13,560 --> 00:26:23,560
+ this bias is deterministic so we can have we can have zero bias all this is become zero
+
+256
+00:26:23,560 --> 00:26:30,560
+ but in the early one if you go to this one estimation estimation error you will never
+
+257
+00:26:30,560 --> 00:26:37,560
+ expect this become become zero because you are you are asking a value here it will never be
+
+258
+00:26:37,560 --> 00:26:45,560
+ exactly equal to theta all the time not possible because you you have noise you yeah so that's
+
+259
+00:26:45,560 --> 00:26:56,560
+ that's the main that's the main difference okay and then yeah say we also go through some of these
+
+260
+00:26:56,560 --> 00:27:05,560
+ yeah some student has consistent consistency and also the efficiency yeah this to this one is
+
+261
+00:27:05,560 --> 00:27:12,560
+ assume you when and the number of sample got infinity large we have this property and it
+
+262
+00:27:12,560 --> 00:27:22,560
+ is possible to achieve both consistency and efficiency to do to look into that we will
+
+263
+00:27:22,560 --> 00:27:31,560
+ study this you know I think today we are main focus is on criminal law about chapter 3 CIOB
+
+264
+00:27:31,560 --> 00:27:41,560
+ and then you see how to relate to this and so this is the summary of important PDF I will not go
+
+265
+00:27:41,560 --> 00:27:50,560
+ through this again for those who do not have much knowledge of that you know mostly focus on
+
+266
+00:27:50,560 --> 00:27:59,560
+ Gaussian random variable because so the PDF is here you see and for this one once you know the
+
+267
+00:27:59,560 --> 00:28:04,560
+ means and variance so this is this is very important so that's why Gaussian random variable is so
+
+268
+00:28:04,560 --> 00:28:14,560
+ important because as I say early normally for other random variable you know your if you know
+
+269
+00:28:14,560 --> 00:28:23,560
+ means and variance were not being up because a PDF theoretically PDF described give you infinity
+
+270
+00:28:23,560 --> 00:28:36,560
+ you know like order of statistics in including third order moment or third order variance and so
+
+271
+00:28:36,560 --> 00:28:42,560
+ on but however for Gaussian is so special you only need mean means the first order and variance
+
+272
+00:28:42,560 --> 00:28:50,560
+ second order then you already have the PDF so that's very nice but other random variable
+
+273
+00:28:50,560 --> 00:29:00,560
+ you are usually you cannot do that okay so that's the so especially the know by this this is not
+
+274
+00:29:00,560 --> 00:29:08,560
+ just a normal in is a like Kali graph and like the to differentiate from our normal English
+
+275
+00:29:08,560 --> 00:29:17,560
+ the later of it yeah so that's we did that and then you can keep it a cumulative mean you are
+
+276
+00:29:17,560 --> 00:29:28,560
+ give me lay the this kind of distribution main because normally random variable we are only
+
+277
+00:29:28,560 --> 00:29:36,560
+ looking at say or output the outcome at this point but Kimi lay is a you are measuring from the lowest
+
+278
+00:29:36,560 --> 00:29:42,560
+ one up to this kind of point for example sometimes we are not just interested in the
+
+279
+00:29:42,560 --> 00:29:52,560
+ mean of the your exam mark up to say 35 35 mark we want to know how many of those are students
+
+280
+00:29:52,560 --> 00:29:59,560
+ consider if you are lower than 65 maybe you are below average you want to see how many of them
+
+281
+00:29:59,560 --> 00:30:07,560
+ so that's that's a meaning of cumulative starting from the lowest all the way together yeah okay so and
+
+282
+00:30:07,560 --> 00:30:13,560
+ then the right tail one right there probably is the other side so you are starting at this point we
+
+283
+00:30:13,560 --> 00:30:20,560
+ measure up to the end and so in this exam my is you are measuring those are top students say about
+
+284
+00:30:20,560 --> 00:30:30,560
+ 70 70 mark how many and as you know in as as professor every year every end of the semester we have to
+
+285
+00:30:30,560 --> 00:30:38,560
+ go through the meeting and then those are if you are too nice to to student maybe 50 half of the class is
+
+286
+00:30:38,560 --> 00:30:45,560
+ a and but then we we get into trouble cannot make it too easy not too difficult if half of the
+
+287
+00:30:45,560 --> 00:30:56,560
+ student fair I think of course or even lower than 50 then we also face face questions so you have to do it
+
+288
+00:30:56,560 --> 00:31:06,560
+ proper yeah so that's how this distribution is important and then yeah there are some properties
+
+289
+00:31:06,560 --> 00:31:15,560
+ and Gaussian is so important because you can deal with vector and very similar chi square when
+
+290
+00:31:15,560 --> 00:31:26,560
+ we only mainly in the detection part of a goal into that later okay uniform is also important very useful
+
+291
+00:31:26,560 --> 00:31:35,560
+ and then this is the chapter 2 is a layout the foundation it's not difficult but you also need to
+
+292
+00:31:35,560 --> 00:31:46,560
+ spend time to you know to to to you know to see how we are dealing with this problem so basically you can see
+
+293
+00:31:46,560 --> 00:31:57,560
+ estimation parameter estimation we require record two things one is make the estimate estimate and buy
+
+294
+00:31:57,560 --> 00:32:08,560
+ so we call it unbiased estimation and then after that you need to minimize minimize the at the value even so it's
+
+295
+00:32:08,560 --> 00:32:17,560
+ unbiased this theoretically will be your be idea is a all the estimate you'll do is a almost always at the
+
+296
+00:32:17,560 --> 00:32:26,560
+ true value but as I already mentioned if you have noise this is not possible at least with finite number
+
+297
+00:32:26,560 --> 00:32:35,560
+ measure data if you have infinity many data when n go to infinity then it is possible to achieve that that's the
+
+298
+00:32:35,560 --> 00:32:47,560
+ estimate asymptotic property we are going to that later so the whole cause is usually unbiased we are assuming
+
+299
+00:32:47,560 --> 00:32:58,560
+ we we can deal with that is more like you are removing you know your major the data you always have some DC value so
+
+300
+00:32:58,560 --> 00:33:06,560
+ you if you have some knowledge you'll remove the the DC component and the more challenging one and that's how we are
+
+301
+00:33:06,560 --> 00:33:16,560
+ spending most of the time is how to minimize minimize the value even for for both of them is unbiased you know as I
+
+302
+00:33:16,560 --> 00:33:29,560
+ already mentioned if your estimate value very near this true true value take average is unbiased but then if the
+
+303
+00:33:29,560 --> 00:33:38,560
+ variation is a it will be small so it's so it's a very good one so let me maybe show this show this again but this is
+
+304
+00:33:38,560 --> 00:33:54,560
+ not for the major data major data we are now talking about the the let's see how we are doing here now if you
+
+305
+00:33:54,560 --> 00:34:06,560
+ if you're gang you have this a here this is one here so now one of the one of the estimate is I'm looking at the you
+
+306
+00:34:06,560 --> 00:34:14,560
+ know your estimate at this value then then a second one here and a third one maybe here a fourth one exact and fifth one
+
+307
+00:34:14,560 --> 00:34:32,560
+ here so so so you can see this is the one one of the estimation and another estimate value you will give you give you
+
+308
+00:34:32,560 --> 00:34:44,560
+ this the first one here second one here there's one here and so on so so you can so you can see here you know the if you
+
+309
+00:34:44,560 --> 00:34:55,560
+ take the mean the mean estimate you you'll get the both of them are unbiased because the mean value of this is the same as
+
+310
+00:34:55,560 --> 00:35:05,560
+ this is all equal to a but however this one is much worse than the other one because the variation is much larger you see you
+
+311
+00:35:05,560 --> 00:35:19,560
+ don't have commitment you see okay even so you take many major data yeah so that's that's the the main the main the main
+
+312
+00:35:19,560 --> 00:35:32,560
+ difference here is how we are achieving this minimum minimum value there so it looks like the this part is easy you are just achieving one thing
+
+313
+00:35:32,560 --> 00:35:46,560
+ why do we spend like so much effort because the main comparison as I say is you roughly this parameter estimation part is more like you are
+
+314
+00:35:46,560 --> 00:36:01,560
+ you're trying to solve the integration you know mathematically your calculus you have differentiation or derivative and integration
+
+315
+00:36:01,560 --> 00:36:11,560
+ you all know that derivative you follow the rules it may be very complicated but in the end you can follow step by step but integration even so I tell you the
+
+316
+00:36:11,560 --> 00:36:24,560
+ results there you some of the you know problem may not be so easy so you may file you need to file tricks or so on to like the reverse
+
+317
+00:36:24,560 --> 00:36:39,560
+ problem inverse problem and that's how nw is a big challenging so so I always say test student but in the middle of the of this course like the
+
+318
+00:36:39,560 --> 00:36:48,560
+ assignment one of course assuming you're doing by yourself if you're okay many to get reasonably good understanding and get a good result you shouldn't make
+
+319
+00:36:48,560 --> 00:37:04,560
+ problem for the for the second part at the detection for those students having some difficulty the first part I will try my best to help but now the class size is much bigger so still a big challenge for me
+
+320
+00:37:04,560 --> 00:37:24,560
+ or see how we can do okay and then we spend some time yeah so so so that's how this one is the estimate as I say you see here eventually you'll get the mean value here but each estimate you see if the
+
+321
+00:37:24,560 --> 00:37:38,560
+ variant is large you see so we can get the very pool in one of the estimation you can get the pool full one very far away from this one but if you have more
+
+322
+00:37:38,560 --> 00:37:59,560
+ metadata or your or your yeah measure when the number of measurement increase so you can see here you see so this is what we say the variance the variance reduce that is a very close to the show on okay so that's how this is done here
+
+323
+00:37:59,560 --> 00:38:27,560
+ and we also discuss why we prefer on bias estimate then the bias one yeah and then also to see when we can achieve and be because just now the the one I mentioned if the true parameter is a constant it will be the very easy case but typically our true value if you see it it will it will be a
+
+324
+00:38:27,560 --> 00:38:56,560
+ function it's not always a fixed value say it's following certain the data here at this first few weeks we are dealing with deterministic parameters so it's it will be a function certain curve like like that so you but it may not be a constant and and our estimate need to follow you know when theta take the value of two you try to estimate it to be two
+
+325
+00:38:57,560 --> 00:39:26,560
+ when you can't find we have to we have to attack to estimate is fine you know not not not like always equal to a value okay so yeah yeah and then this is how as I say you see just like you're doing the integration you don't you don't have this turn the crane turn crane is your follow step by step like you'll take the derivative how will communicate it as long as you know you're not going to do anything wrong.
+
+326
+00:39:27,560 --> 00:39:54,560
+ You know the chain lose can always you can always derive and to get the result so so it started this one CRB this is say one of the few important topic in parameter estimation and it having to be my research not that much in the recent year but in the past.
+
+327
+00:39:54,560 --> 00:40:04,560
+ 20 years or so I have a PhD student working on that and we published quite a number of.
+
+328
+00:40:04,560 --> 00:40:15,560
+ You know the good papers later maybe I can share with you but next week when we finish this part.
+
+329
+00:40:16,560 --> 00:40:21,560
+ Okay and more or less you know the.
+
+330
+00:40:22,560 --> 00:40:49,560
+ Primary estimation you have a few few topic so CRB consider one of the like this two or three important one and you can also see almost every year in the past past exam I try to give maybe not one question or at least have a question on CRB and other one of course is also a maximum like it hook estimation which is every.
+
+331
+00:40:49,560 --> 00:40:58,560
+ Professor teaching this course I should always cut this this this two part is not the other other.
+
+332
+00:40:58,560 --> 00:41:05,560
+ Okay so now how we are dealing with this way.
+
+333
+00:41:05,560 --> 00:41:18,560
+ Most of time we all start with scale of parameter the parameter is your it's a no it could be one scale one or it could be multiple so.
+
+334
+00:41:18,560 --> 00:41:24,560
+ In some of the methods the difference.
+
+335
+00:41:24,560 --> 00:41:30,560
+ And not much you can directly formulate the problem as the.
+
+336
+00:41:30,560 --> 00:41:44,560
+ Is a vector parameter but some of the method scale one is much easier and particularly for a more difficult topic like this CLP so we will start with.
+
+337
+00:41:44,560 --> 00:42:00,560
+ Scalar parameter case and after that you know some techniques some like method some idea then you can extend to the so called magic case so the difference is scalar parameter typically you're dealing with.
+
+338
+00:42:01,560 --> 00:42:08,560
+ Scalar functions and you are not using magic the proof is also.
+
+339
+00:42:08,560 --> 00:42:19,560
+ Easier but once you go to vector parameter you need to have a good knowledge of magic linear algebra and that's why I prepared a pain to.
+
+340
+00:42:19,560 --> 00:42:24,560
+ You need to know that so for this course it's very.
+
+341
+00:42:24,560 --> 00:42:28,560
+ Very essential so the.
+
+342
+00:42:28,560 --> 00:42:31,560
+ Starting point is that we have those.
+
+343
+00:42:31,560 --> 00:42:36,560
+ You know data and then we assume.
+
+344
+00:42:36,560 --> 00:42:49,560
+ The data have this PDF for each of the data sample and then it also depend on scalar parameter K which is one scalar parameter.
+
+345
+00:42:49,560 --> 00:43:01,560
+ So that we don't we don't have the technology of this to value but we only have the major data and we also know this data for all these.
+
+346
+00:43:01,560 --> 00:43:09,560
+ Distribution at the PDF for then to for CLP we also need to.
+
+347
+00:43:09,560 --> 00:43:13,560
+ For this function to satisfy the.
+
+348
+00:43:13,560 --> 00:43:17,560
+ Regularity condition so what's this.
+
+349
+00:43:17,560 --> 00:43:32,560
+ Very important regularity condition means you see we assume this is an analytic function the proper proper function you're right as later like exponential function depending on both X and C.
+
+350
+00:43:32,560 --> 00:43:44,560
+ Later you will see some example then being a PDF is always greater equal to zero is it probably density function cannot take negative negative value because some of the.
+
+351
+00:43:44,560 --> 00:43:57,560
+ Concepts are very important like variance you don't talk about negative negative value I think some some you know some undergraded student year or at least those taking.
+
+352
+00:43:57,560 --> 00:44:01,560
+ Signaling system because I have the tutorial class.
+
+353
+00:44:01,560 --> 00:44:13,560
+ Every every Tuesday yesterday and the beginning part now is also beginning of the of the semester we are doing a simple test every week.
+
+354
+00:44:13,560 --> 00:44:26,560
+ And some of the questions are asking energy type whether the signal is energy type or power type and the multiple multiple choice choice question there sometimes give negative value.
+
+355
+00:44:26,560 --> 00:44:39,560
+ They are all I told students if you choose negative value then I mean you are conceptually wrong because energy or power you'll never go down to negative at least zero or.
+
+356
+00:44:40,560 --> 00:44:49,560
+ Some positive value or infinity large and similarly here you know like you talk about barrier or talk about PDF then they will get the negative value.
+
+357
+00:44:49,560 --> 00:45:03,560
+ Yeah so yeah so that's something very fundamental it's not negative you can take log a negative function negative value you cannot take log okay so once you take log function you can.
+
+358
+00:45:03,560 --> 00:45:16,560
+ Differentiate with respect to see that so doing it in two steps first take log and then second take the first order derivative and that's not the end.
+
+359
+00:45:16,560 --> 00:45:30,560
+ This regularly condition is because after you take that it depends on the data is still a random variable so you need to take expectation of this and.
+
+360
+00:45:30,560 --> 00:45:44,560
+ Therefore if this e of this whole thing equal to zero and as I say the theater can take over certain range of the of the value for all this data value is equal to zero.
+
+361
+00:45:44,560 --> 00:45:57,560
+ Then you will say it satisfy this regularity regularity condition and it's very important to take no weather you apply the e or not.
+
+362
+00:45:57,560 --> 00:46:06,560
+ Because later when you go to maximum likelihood estimation we are picking again the first order they made it by we do not apply it.
+
+363
+00:46:06,560 --> 00:46:22,560
+ Yeah so you can get e equal to this whole thing this whole thing go to zero for all the theater only when you apply e of this if you do not apply e you are not always equal to zero because it's.
+
+364
+00:46:22,560 --> 00:46:36,560
+ It will be a random variable is it so okay so that's the one year so assume this condition is satisfied and then our CLB you see we have a very famous.
+
+365
+00:46:37,560 --> 00:46:50,560
+ Results say the the variance of any unbiased estimator so remember from now on we are talking most we are dealing with unbiased estimate.
+
+366
+00:46:51,560 --> 00:47:04,560
+ I'm by estimate they will there are many depending on which method you use you can get you know if you are you are good you you are very good just like you are going to to to to buy some.
+
+367
+00:47:05,560 --> 00:47:26,560
+ You know the bad on some some result for example few months ago this is a Europe football match you know they they disband actually I also participate is not the big money I I bet so maybe I learned this.
+
+368
+00:47:26,560 --> 00:47:36,560
+ Statistical symbol for saying so so I end up earning some money not not not big amount so I bet probably five or six match and it turned out to be.
+
+369
+00:47:36,560 --> 00:47:43,560
+ You know on the on the game side so that's yeah that's how.
+
+370
+00:47:43,560 --> 00:47:46,560
+ But I never know the outcome before the.
+
+371
+00:47:46,560 --> 00:47:57,560
+ For me it was for me it was play so I don't know the result is a random but still you can base on my knowledge is I study the past few.
+
+372
+00:47:57,560 --> 00:48:11,560
+ So so you see more likely you estimate the one okay so therefore again coming back to here you can have many different unbiased estimate.
+
+373
+00:48:11,560 --> 00:48:25,560
+ And then being a random variable it will surely have some some barrier so so we don't know how big this barrier different on by estimate they can have different.
+
+374
+00:48:25,560 --> 00:48:41,560
+ But what we know is if you your data your period satisfy this condition then you can always show the very of this must be greater or equal to either this one or.
+
+375
+00:48:41,560 --> 00:48:53,560
+ Or that one so I turn out to be this to this this to in the denominator are the same different post cause by the minus sign so the meaning of this is.
+
+376
+00:48:54,560 --> 00:49:05,560
+ But this one is you take the second order derivative is it second order then again you apply expectation and and then the other one is your.
+
+377
+00:49:05,560 --> 00:49:20,560
+ You take for so derivative and square it you see a random variable it can take positive negative value if we like in this case but we are quite sure if you.
+
+378
+00:49:21,560 --> 00:49:42,560
+ Squared it also follow our normal common sense like all the mess simple one whatever random variable of course we are dealing with the real random variable you make it power to you will become greater or equal to zero you can take random value still starting from zero all the way up to infinity.
+
+379
+00:49:42,560 --> 00:49:56,560
+ But you'll never go down to negative so that's something you also you should know it's random but it's there for all certain constant and that's how this pie is a very easy to very easy to understand and because.
+
+380
+00:49:57,560 --> 00:50:10,560
+ You're squaring already greater or equal to zero so you take expectation of course this value must be greater or equal to zero usually will be greater than zero only later we'll see the.
+
+381
+00:50:11,560 --> 00:50:34,560
+ A simtotic behavior when you have infinity large data but in normally will be a positive value so therefore very greater than one over positive value still greater than certain lower bound but this one is not so not so clear from here you can see the.
+
+382
+00:50:35,560 --> 00:50:48,560
+ You take the second order derivative which could be positive could be negative but however when you take expectation it will become always negative because why because after applying a negative.
+
+383
+00:50:49,560 --> 00:51:01,560
+ You you you're applying the minus sign it becomes positive but this denominator are the same music from here they equal one over this but this one is a not so obvious this one is obvious.
+
+384
+00:51:02,560 --> 00:51:12,560
+ This one is you need to you need the right following this regularity condition and so go one of the very important results in the CLP.
+
+385
+00:51:13,560 --> 00:51:14,560
+ Okay.
+
+386
+00:51:14,560 --> 00:51:27,560
+ And and another important one is the derivative here we need to evaluate at the true value of of of theta.
+
+387
+00:51:28,560 --> 00:51:31,560
+ And the expectation of this quantity.
+
+388
+00:51:32,560 --> 00:51:33,560
+ Yeah.
+
+389
+00:51:33,560 --> 00:51:34,560
+ Yeah.
+
+390
+00:51:34,560 --> 00:51:45,560
+ As I say the formula is like that but normally you don't need to most of time you don't need to do the integration you can based on the given PDF and.
+
+391
+00:51:46,560 --> 00:51:51,560
+ Some of the popular one we already know the expectation equal to what.
+
+392
+00:51:52,560 --> 00:51:53,560
+ Yeah.
+
+393
+00:51:53,560 --> 00:52:03,560
+ And of course the one always one you may naturally ask things we are going to estimate this we do not know the true value of theta so this result is not meaningful.
+
+394
+00:52:04,560 --> 00:52:20,560
+ Actually in saying is not is true theoretically but however is the is still very useful because we are the meat you see we do not know the true value of theta for a given probability.
+
+395
+00:52:21,560 --> 00:52:30,560
+ So we have a problem but quite often we know roughly the the range of these details you don't know the exact value.
+
+396
+00:52:31,560 --> 00:52:50,560
+ For example you have some circuit you probably know the DC value output will be maybe three volt it may not may not be exactly this river but it could be say between 2.5 to 3.5 then you can substitute the so called.
+
+397
+00:52:51,560 --> 00:53:04,560
+ Estimate value into that to give the not the exact CRP but some estimate CRP and then you can also do it iteratively.
+
+398
+00:53:05,560 --> 00:53:20,560
+ The one get this power and then go back to better estimation and so so for now we're assuming we know this true value and that's that's even more important if you are doing simulation as it very often where we need to use.
+
+399
+00:53:22,560 --> 00:53:33,560
+ Training data is now you will apply machine learning train data is you already know the simulation data so we know the exact value there but we still need to.
+
+400
+00:53:33,560 --> 00:53:57,560
+ Test because this only give you the bow is not the estimation method itself so this bar shall be still useful because you can use it to to as a benchmark to measure how good any other and bias estimators is doing.
+
+401
+00:53:58,560 --> 00:54:00,560
+ Okay yeah.
+
+402
+00:54:03,560 --> 00:54:05,560
+ Yeah and then I think this is so.
+
+403
+00:54:09,560 --> 00:54:18,560
+ So that assume now how are we going to achieve this shall be say.
+
+404
+00:54:19,560 --> 00:54:20,560
+ Say.
+
+405
+00:54:21,560 --> 00:54:41,560
+ We have some and by estimator you see so now you be be careful if this first order derivative is it the one year not applying the expectation because once you apply expected expectation based on our assumption will become zero but this is the one.
+
+406
+00:54:41,560 --> 00:54:55,560
+ The one like in our case here is we're dealing with scale of parameter so it will be a schedule function if you can factorize as product of this to factor.
+
+407
+00:54:55,560 --> 00:55:09,560
+ Okay one is I of theta this is a scalar depending on it's a function depending on theta it doesn't depend on data is it then multiplied by another function depending on data only.
+
+408
+00:55:10,560 --> 00:55:33,560
+ So you see here this one is it depending on both data and unknown parameter so this is this is a function depending on X then you take the difference you become one factor and the other is a non factor if you can write in this way then your estimator is already the optimal and you achieve.
+
+409
+00:55:34,560 --> 00:55:40,560
+ You don't need to try any other estimate is already done and actually this condition is a.
+
+410
+00:55:41,560 --> 00:55:54,560
+ Necessarily and sufficient so if any and by estimator to achieve shall be it must be able to be written in written in this way also sometimes.
+
+411
+00:55:55,560 --> 00:56:04,560
+ You you're seeing your chief that but the very complicated very difficult to write like this way but if you're.
+
+412
+00:56:05,560 --> 00:56:23,560
+ For example the function is a very complicated you may not be simple example you can do but the very complicated one you may not be able to write that but if you are able to verify at least from last data say almost satisfied this is also fine.
+
+413
+00:56:24,560 --> 00:56:44,560
+ But but here we're talking about theoretical results say you are able to do that you're done on that thing if you claim your chief that you must show to myself show to other students you can write in that way and that's why later we use this condition to test on some.
+
+414
+00:56:45,560 --> 00:57:02,560
+ Example some practical problem okay yeah at least some of the functions both are function but take care this function is only dependent data this function depends on this unknown parameter so it's a kind of decouple is it.
+
+415
+00:57:03,560 --> 00:57:22,560
+ So in this case it will be very good we're we're done and what's the envy of cause the one we're truly just just this this function remember our envy any estimate must depend on the data only because we are.
+
+416
+00:57:23,560 --> 00:57:39,560
+ Using the major data to do the job so we remember like last week we're talking about if you have to depend on the unknown parameter there will be no good so it's a functional data and it's already good because you see here this part you're putting.
+
+417
+00:57:40,560 --> 00:58:01,560
+ It will be it will become become zero up to your take the expectation so it's it's show is is on bias of course only up to your take the expectation before taking expectation this is a random variable and they want is is a deterministic.
+
+418
+00:58:02,560 --> 00:58:07,560
+ Better but you can never be exactly equal to zero all the time.
+
+419
+00:58:07,560 --> 00:58:18,560
+ Okay and then for the more our minimum variance remember we're dealing with envy we the minimum very I just equal to the inverse of this I'll do.
+
+420
+00:58:18,560 --> 00:58:34,560
+ So that's very neat you know the result is one show able to do that then you're done you'll get the envy and at the same time you know how how big is this this better and in this case we call this I.
+
+421
+00:58:34,560 --> 00:58:35,560
+ So this I.
+
+422
+00:58:35,560 --> 00:58:37,560
+ It's a fish.
+
+423
+00:58:37,560 --> 00:58:40,560
+ I think I always miss a little bit.
+
+424
+00:58:40,560 --> 00:58:41,560
+ Yeah.
+
+425
+00:58:41,560 --> 00:58:42,560
+ Yeah.
+
+426
+00:58:42,560 --> 00:58:47,560
+ So this one is recording is the feature information.
+
+427
+00:58:47,560 --> 00:58:48,560
+ Yeah.
+
+428
+00:58:48,560 --> 00:58:54,560
+ Fisher is of course I think the mismatch isn't inventing this.
+
+429
+00:58:54,560 --> 00:58:59,560
+ Discovering this theory that's many years ago probably 100 years ago.
+
+430
+00:58:59,560 --> 00:59:10,560
+ And then the proof is giving the a pancake in the end of the chapter I always encourage students going back then try to follow this.
+
+431
+00:59:10,560 --> 00:59:26,560
+ A pancake if you understand every step there being able to do is a better you can you can do right at least in the in the schedule case then at least you'll get a good understanding of not just this part but some of the.
+
+432
+00:59:26,560 --> 00:59:31,560
+ Relating mess like calculus and how to do the partial.
+
+433
+00:59:31,560 --> 00:59:36,560
+ You know very very very deep or integration also.
+
+434
+00:59:36,560 --> 00:59:45,560
+ So it's quite useful but I see maybe I'll leave it to you.
+
+435
+00:59:45,560 --> 01:00:00,560
+ Now this is a little bit further to what we discussed in last week about the pro to show the relationship about CLB and BLE and also those you'll see here.
+
+436
+01:00:00,560 --> 01:00:07,560
+ So if you look at that the assume this theta four hat.
+
+437
+01:00:07,560 --> 01:00:17,560
+ This is always the referring to the value is the lowest one for whatever any theta value comparing to the other.
+
+438
+01:00:17,560 --> 01:00:22,560
+ So this one is already the best achieve CLB.
+
+439
+01:00:22,560 --> 01:00:31,560
+ But assume we don't have Cedar four hat only we only estimate Cedar one hat Cedar two hat Cedar three hat.
+
+440
+01:00:31,560 --> 01:00:44,560
+ Then the CLB is here now if I erase this I only the CLB is with derived from some of the condition we don't have the estimate.
+
+441
+01:00:44,560 --> 01:00:50,560
+ I think we don't have Cedar four hat we only have Cedar one hat Cedar two hat Cedar three hat.
+
+442
+01:00:50,560 --> 01:01:03,560
+ Then our Cedar three hat is is MBE of course we are assuming you don't have any other other estimate whatever you do all the unbiased.
+
+443
+01:01:03,560 --> 01:01:06,560
+ It's only Cedar one hat Cedar two hat Cedar three hat.
+
+444
+01:01:06,560 --> 01:01:10,560
+ So this is MBE but it is not an efficient one.
+
+445
+01:01:10,560 --> 01:01:19,560
+ It doesn't achieve the CLB not like Cedar four hat but it's MBE of course assuming you don't have Cedar four hat here.
+
+446
+01:01:19,560 --> 01:01:22,560
+ But Cedar four hat is better than Cedar three hat.
+
+447
+01:01:22,560 --> 01:01:28,560
+ I'm assuming now you only have only these three estimate.
+
+448
+01:01:28,560 --> 01:01:37,560
+ Then Cedar three hat is better consistently for all the Cedar value than Cedar two hat.
+
+449
+01:01:37,560 --> 01:01:45,560
+ But it's not efficient because it cannot achieve this CLB.
+
+450
+01:01:45,560 --> 01:01:58,560
+ There is a gap you see only when this the barrier of this estimate touching all the time to the CLB then it will recall that as an efficient one.
+
+451
+01:01:58,560 --> 01:02:13,560
+ Yeah so it must be its variance uniformly yeah MBE only require the variance uniformly less than that of other unbiased estimator.
+
+452
+01:02:13,560 --> 01:02:28,560
+ You have to exhaust all the other one but CLB the one efficient one must achieving that you are better than other not enough to be efficient.
+
+453
+01:02:28,560 --> 01:02:33,560
+ Just like for example again coming to the exam mark you see.
+
+454
+01:02:33,560 --> 01:02:43,560
+ So in the whole class the high is a mark for one student is 95.
+
+455
+01:02:43,560 --> 01:02:50,560
+ 95 and all the other students in the class is less than that so this is the best student.
+
+456
+01:02:50,560 --> 01:02:59,560
+ But it's not perfect it's not 100 mark like one of my CLB then 95 you are only achieving the MBE.
+
+457
+01:02:59,560 --> 01:03:08,560
+ You are better than all the other and this one should apply to we're talking about like 10 courses.
+
+458
+01:03:08,560 --> 01:03:21,560
+ You want to have a better measurement among all the 10 courses this student must be in every course every course is every course of this 10 course is always higher than other.
+
+459
+01:03:21,560 --> 01:03:35,560
+ If you're a five course you are better mark in five courses but no I should go get some other student that you are not the theory degree or not the so called best best student.
+
+460
+01:03:35,560 --> 01:03:47,560
+ But you want to be efficient you must score like 100 or maybe eight eight plus depending on how you how your major.
+
+461
+01:03:47,560 --> 01:03:52,560
+ So that's the difference between these two.
+
+462
+01:03:52,560 --> 01:04:16,560
+ Okay and yeah the NL College you know this feature information is no negative and also you can see is one over this feature information and larger the better the larger will give you the the barrier will be will be smaller.
+
+463
+01:04:16,560 --> 01:04:37,560
+ And then as I say this is always greater ecology low because for this one you're raised the power of two must be and this one is say say not so obvious but you can prove this also always negative and you take a negative minus side become positive.
+
+464
+01:04:37,560 --> 01:04:42,560
+ Okay we take some quick example and before take we'll take a break.
+
+465
+01:04:42,560 --> 01:05:05,560
+ So again coming back to this very simple I will say this is the simplest example you cannot think about any simple example then this one so but later we will have more complicated one in this so this is very in a constant in white Gaussian noise and zero mean.
+
+466
+01:05:05,560 --> 01:05:23,560
+ Then to find the shall be be careful we need to get the like refunction and this is three of the like the PDF is depending on how you how you interpret that so you know so.
+
+467
+01:05:23,560 --> 01:05:35,560
+ So so you can see here PDF with respect if you are looking at the data is the random measure measurement then it will be PDF but you.
+
+468
+01:05:35,560 --> 01:05:40,560
+ Consider the data is fixed then you become like you function so.
+
+469
+01:05:40,560 --> 01:05:49,560
+ So now it's easier to assume each data sample for all the Gaussian distribution and the mean of this.
+
+470
+01:05:49,560 --> 01:06:03,560
+ This noise is zero mean then the mean of this of course equal to a so so for each data you have this and because the noise is a Gaussian is why Gaussian noise not just.
+
+471
+01:06:04,560 --> 01:06:14,560
+ Gaussian noise is not enough Gaussian noise can be correlated what it means you see so they are independent so therefore you'll have.
+
+472
+01:06:14,560 --> 01:06:30,560
+ All this capital N sample the PDF will be the multiplication of each you see so that's a very basic result in probability so you multiply that and then.
+
+473
+01:06:31,560 --> 01:06:34,560
+ You can.
+
+474
+01:06:36,560 --> 01:06:48,560
+ You can simplify because exponential function if you multiply it will be summing up the exponent is it so then we remove this and this part you become.
+
+475
+01:06:49,560 --> 01:06:57,560
+ End product so you have the exponent of all the power of N here and.
+
+476
+01:06:57,560 --> 01:07:11,560
+ This is a square root of two this part and this one is you see here we will remove this product but then we become we are summing up this you see so don't don't.
+
+477
+01:07:11,560 --> 01:07:17,560
+ You can view this is each of them and this is capital N of them sum together.
+
+478
+01:07:17,560 --> 01:07:37,560
+ And now that you take the log you see so I won't go into detail how you derive this but you should be familiar this is also the basic requirement you should be familiar with this simple operation taking the log and then.
+
+479
+01:07:37,560 --> 01:07:47,560
+ After that this is a function of a you see a is our unknown parameter we want to estimate and take the first order derivative.
+
+480
+01:07:47,560 --> 01:08:03,560
+ Okay so now here is a the result is a relatively simple so we managed to factorize this remember this is we don't take expectation you already being able to.
+
+481
+01:08:04,560 --> 01:08:07,560
+ Factualize so so see here.
+
+482
+01:08:07,560 --> 01:08:18,559
+ You'll have the sample mean here you see so this part is you're putting together divide by one over N divide by N you'll get this.
+
+483
+01:08:18,559 --> 01:08:20,559
+ Okay and then.
+
+484
+01:08:21,560 --> 01:08:29,560
+ After that this this is constant your sum capital N of a you'll become a multiply by a.
+
+485
+01:08:29,560 --> 01:08:44,560
+ Then of course you can pull out this common factor of N then you can you can see this one you can rely in this way so therefore this already me our.
+
+486
+01:08:45,560 --> 01:08:47,560
+ CLV you know the factorization.
+
+487
+01:08:49,560 --> 01:08:54,560
+ I raise up if you'll yeah if you'll compare with this energy.
+
+488
+01:08:54,560 --> 01:09:05,560
+ So of course this this function here it could be depending on the data cannot depend on data but it can be a constant you see it can be just.
+
+489
+01:09:05,560 --> 01:09:20,560
+ Constant is a special case of depending on data you see here as long as we do not have data in this part is okay and this one the other way it can depend on the depends on data but.
+
+490
+01:09:20,560 --> 01:09:23,560
+ Cannot depends on the a.
+
+491
+01:09:23,560 --> 01:09:28,560
+ So you can see yeah I'll raise out satisfy this.
+
+492
+01:09:28,560 --> 01:09:31,560
+ There's no a here but it's okay as long as no data.
+
+493
+01:09:31,560 --> 01:09:33,560
+ So in this case we are done.
+
+494
+01:09:33,560 --> 01:09:56,560
+ So want to see how are we going to verify the CLV you still need to yeah you can take the second order that you just want to just want to be sure what we actually get you're getting here you already get the CLV.
+
+495
+01:09:57,560 --> 01:10:15,560
+ Because you only need to take the inverse of that but then I want to be sure we go back to our formula for CLV by taking this you'll you'll you'll get the second derivative here is negative you see so as I say it's negative.
+
+496
+01:10:16,560 --> 01:10:32,560
+ Therefore you take the minus sign of this become a over sigma power to and inverse that you remember CLV you have to you have to flip this one one over this may become here and.
+
+497
+01:10:32,560 --> 01:10:44,560
+ And that happened to be on a CLV is here and our what we get the estimates also here it will be the same here this is if you flip this one this is I.
+
+498
+01:10:44,560 --> 01:10:50,560
+ And the CLV is one over I okay so that that verify.
+
+499
+01:10:50,560 --> 01:10:53,560
+ Our results here.
+
+500
+01:10:53,560 --> 01:11:07,560
+ Okay then finally it's very important to do you should do it first to so-called check the regularity condition you see you must be sure you have this equal to a.
+
+501
+01:11:07,560 --> 01:11:18,560
+ But of course in this case very it's very easy this is what we already done before last week in the simple example where this.
+
+502
+01:11:18,560 --> 01:11:30,560
+ And it's already set by this form and then we had the phishing formation and MVV is given by that so it's all easily done.
+
+503
+01:11:30,560 --> 01:11:48,560
+ So that I think it's time to take a break before we continue into the next example so any question to ask I hope today I saw down a little bit compared to last week.
+
+504
+01:11:49,560 --> 01:12:10,560
+ Or I big too fast anyway you can give me the give me the feedback during the during the break now is 742 we always look at the clock at the back so maybe we can come back at 8 o'clock we start the next.
+
+505
+01:12:11,560 --> 01:12:21,560
+ Next second half of the class always take one break only from a to nine plus finished.
+
+506
+01:12:21,560 --> 01:12:23,560
+ Okay so.
+
+507
+01:12:23,560 --> 01:12:25,560
+ So.
+
+508
+01:12:25,560 --> 01:12:31,560
+ Let me know if you have some difficulty or some question.
+
+509
+01:12:31,560 --> 01:12:33,560
+ So.
+
+510
+01:12:33,560 --> 01:12:41,560
+ I want students as a question I will later remember to answer that.
+
+511
+01:12:41,560 --> 01:12:44,560
+ Okay see you later.
+
+512
+01:12:54,560 --> 01:12:55,560
+ Oh.
+
+513
+01:13:05,560 --> 01:13:08,560
+ About the music you have.
+
+514
+01:13:08,560 --> 01:13:09,560
+ You have.
+
+515
+01:13:09,560 --> 01:13:11,560
+ You have.
+
+516
+01:13:11,560 --> 01:13:13,560
+ You have.
+
+517
+01:13:16,560 --> 01:13:20,560
+ Take it as a product is similar to some of the things you want to do.
+
+518
+01:13:20,560 --> 01:13:33,560
+ Product is a similar if I have everyone X and two X so this is a similar though you can be a product of I equal to say one to two.
+
+519
+01:13:33,560 --> 01:13:37,560
+ I X so the impact.
+
+520
+01:13:37,560 --> 01:13:39,560
+ This one this is.
+
+521
+01:13:39,560 --> 01:13:40,560
+ I think.
+
+522
+01:13:40,560 --> 01:13:41,560
+ The.
+
+523
+01:13:41,560 --> 01:13:45,560
+ I can't understand this point is.
+
+524
+01:13:45,560 --> 01:13:46,560
+ Okay.
+
+525
+01:13:46,560 --> 01:13:49,560
+ Each of the data we have.
+
+526
+01:13:49,560 --> 01:13:50,560
+ And some.
+
+527
+01:13:50,560 --> 01:13:51,560
+ Yes.
+
+528
+01:13:51,560 --> 01:13:55,560
+ Each data say X zero you have this.
+
+529
+01:13:55,560 --> 01:13:56,560
+ Yes.
+
+530
+01:13:56,560 --> 01:13:59,560
+ And then the next sample X one you follow.
+
+531
+01:13:59,560 --> 01:14:01,560
+ Also because.
+
+532
+01:14:01,560 --> 01:14:03,560
+ You have.
+
+533
+01:14:03,560 --> 01:14:04,560
+ Yes.
+
+534
+01:14:04,560 --> 01:14:05,560
+ Only.
+
+535
+01:14:05,560 --> 01:14:06,560
+ In the.
+
+536
+01:14:06,560 --> 01:14:07,560
+ In the.
+
+537
+01:14:07,560 --> 01:14:08,560
+ Yeah.
+
+538
+01:14:08,560 --> 01:14:11,560
+ That's how we say most of the.
+
+539
+01:14:11,560 --> 01:14:12,560
+ I.
+
+540
+01:14:12,560 --> 01:14:13,560
+ I.
+
+541
+01:14:13,560 --> 01:14:14,560
+ I.
+
+542
+01:14:14,560 --> 01:14:15,560
+ In the.
+
+543
+01:14:15,560 --> 01:14:16,560
+ Yeah.
+
+544
+01:14:16,560 --> 01:14:17,560
+ Yeah.
+
+545
+01:14:17,560 --> 01:14:18,560
+ Yeah.
+
+546
+01:14:18,560 --> 01:14:19,560
+ Yeah.
+
+547
+01:14:19,560 --> 01:14:20,560
+ Yeah.
+
+548
+01:14:20,560 --> 01:14:21,560
+ Yeah.
+
+549
+01:14:21,560 --> 01:14:22,560
+ Yeah.
+
+550
+01:14:22,560 --> 01:14:23,560
+ Yeah.
+
+551
+01:14:23,560 --> 01:14:24,560
+ Yeah.
+
+552
+01:14:24,560 --> 01:14:25,560
+ Yeah.
+
+553
+01:14:25,560 --> 01:14:26,560
+ Yeah.
+
+554
+01:14:26,560 --> 01:14:27,560
+ Minecraft.
+
+555
+01:14:27,560 --> 01:14:28,560
+ Yeah.
+
+556
+01:14:28,560 --> 01:14:29,560
+ Yeah.
+
+557
+01:14:29,560 --> 01:14:30,560
+ Yeah.
+
+558
+01:14:30,560 --> 01:14:31,560
+ You.
+
+559
+01:14:31,560 --> 01:14:33,560
+ So could for sure you got.
+
+560
+01:14:33,560 --> 01:14:34,560
+ Your health.
+
+561
+01:14:34,560 --> 01:14:35,560
+ If.
+
+562
+01:14:35,560 --> 01:14:36,560
+ If.
+
+563
+01:14:36,560 --> 01:14:37,560
+ You.
+
+564
+01:14:37,560 --> 01:14:38,560
+ If.
+
+565
+01:14:38,560 --> 01:14:39,560
+ Then.
+
+566
+01:14:39,560 --> 01:14:40,560
+ Each.
+
+567
+01:14:40,560 --> 01:14:41,560
+ Go.
+
+568
+01:14:41,560 --> 01:14:42,560
+ To.
+
+569
+01:14:42,560 --> 01:14:43,560
+ Go.
+
+570
+01:14:43,560 --> 01:14:44,560
+ Yeah.
+
+571
+01:14:44,560 --> 01:14:45,560
+brush.
+
+572
+01:14:45,560 --> 01:14:46,560
+ Yeah.
+
+573
+01:14:46,560 --> 01:14:47,560
+ Yeah.
+
+574
+01:14:47,560 --> 01:14:48,560
+ I do.
+
+575
+01:14:48,560 --> 01:14:49,560
+ следs.
+
+576
+01:14:49,560 --> 01:14:50,560
+ Yeah.
+
+577
+01:14:50,560 --> 01:14:52,560
+ So can do alye legendary.
+
+578
+01:14:52,560 --> 01:14:53,560
+ The.
+
+579
+01:14:53,560 --> 01:14:54,560
+ I don't.
+
+580
+01:14:54,560 --> 01:14:55,560
+ Get steep.
+
+581
+01:14:55,560 --> 01:14:56,560
+ You.
+
+582
+01:14:56,560 --> 01:14:57,560
+ Caught.
+
+583
+01:14:57,560 --> 01:14:58,560
+ Go very.
+
+584
+01:14:58,560 --> 01:15:06,560
+ Then normally your x-tinger doesn't knock the patient, then you're dead.
+
+585
+01:15:06,560 --> 01:15:11,560
+ But in this case you become equal. Equal is perfect. You can achieve it.
+
+586
+01:15:11,560 --> 01:15:17,560
+ But is this part definition, does this one of our patient's definition is the most...
+
+587
+01:15:17,560 --> 01:15:20,560
+ That's five, you can see on the test. One over this.
+
+588
+01:15:20,560 --> 01:15:25,560
+ And how you get here? I say normally, usually they have the full centralization.
+
+589
+01:15:25,560 --> 01:15:27,560
+ So you do it from the second one?
+
+590
+01:15:27,560 --> 01:15:28,560
+ No, the second one.
+
+591
+01:15:28,560 --> 01:15:33,560
+ So this is a definition. It's just a definition. That's not like the definition.
+
+592
+01:15:33,560 --> 01:15:35,560
+ The definition of the definition.
+
+593
+01:15:35,560 --> 01:15:42,560
+ Yeah, changing the pain, you can see how it is assuming the definition.
+
+594
+01:15:42,560 --> 01:15:46,560
+ Okay, but also for another question, we can ask you that.
+
+595
+01:15:56,560 --> 01:16:03,560
+ I want to ask you about this.
+
+596
+01:16:03,560 --> 01:16:10,560
+ So this specific experience, how do you know this?
+
+597
+01:16:10,560 --> 01:16:12,560
+ Oh, thank you.
+
+598
+01:16:12,560 --> 01:16:21,560
+ So you channel gaussian, again gaussian, if you have several gaussian people to do a submission,
+
+599
+01:16:21,560 --> 01:16:28,560
+ you will still be gaussian. So then in this sample data, they will be gaussian.
+
+600
+01:16:28,560 --> 01:16:32,560
+ For gaussian, you only need to know the mean and the variant.
+
+601
+01:16:32,560 --> 01:16:40,560
+ You can get the pdl. As I already showed, if you have sample mean,
+
+602
+01:16:40,560 --> 01:16:44,560
+ this sample mean itself is the mean of it.
+
+603
+01:16:44,560 --> 01:16:50,560
+ So we know the mean and the variant is the smaller.
+
+604
+01:16:50,560 --> 01:16:59,560
+ So this is the capital h.
+
+605
+01:16:59,560 --> 01:17:04,560
+ So there is a few assumptions.
+
+606
+01:17:05,560 --> 01:17:07,560
+ What's the definition?
+
+607
+01:17:07,560 --> 01:17:13,560
+ Also, do you speak in the traditional?
+
+608
+01:17:13,560 --> 01:17:18,560
+ No, this one, at this point, is just a normal period.
+
+609
+01:17:18,560 --> 01:17:24,560
+ You are putting the capital n sample together, collectively.
+
+610
+01:17:24,560 --> 01:17:25,560
+ It's a joint.
+
+611
+01:17:25,560 --> 01:17:27,560
+ Yeah, yes, yes.
+
+612
+01:17:27,560 --> 01:17:29,560
+ A is?
+
+613
+01:17:29,560 --> 01:17:34,560
+ A is deterministic, the constant.
+
+614
+01:17:34,560 --> 01:17:37,560
+ So please give it a value.
+
+615
+01:17:37,560 --> 01:17:43,560
+ No, no, no, don't confuse your conditional and the basic.
+
+616
+01:17:43,560 --> 01:17:47,560
+ Here, just a single a is just your mean data.
+
+617
+01:17:47,560 --> 01:17:55,560
+ When you measure data, the noise is a geomain, but since we have the DC, the mean becomes h.
+
+618
+01:17:55,560 --> 01:18:01,560
+ But then the data could be part a or below a.
+
+619
+01:18:01,560 --> 01:18:05,560
+ So it's just joint?
+
+620
+01:18:05,560 --> 01:18:08,560
+ Yes, yes, yes, it could be the joint data.
+
+621
+01:18:08,560 --> 01:18:12,560
+ What is the difference between the two?
+
+622
+01:18:12,560 --> 01:18:15,560
+ No, by the sample mean.
+
+623
+01:18:15,560 --> 01:18:18,560
+ No, no, no, no.
+
+624
+01:18:18,560 --> 01:18:25,560
+ The data is a, the sample mean.
+
+625
+01:18:25,560 --> 01:18:33,560
+ Yeah, the sample mean, the part is taking n sample n together.
+
+626
+01:18:33,560 --> 01:18:38,560
+ The knowledge is how, very typically, we have the sample mean.
+
+627
+01:18:38,560 --> 01:18:43,560
+ We are taking the mean of the sample, not the statistical mean.
+
+628
+01:18:43,560 --> 01:18:46,560
+ So the mean, mean, two things.
+
+629
+01:18:46,560 --> 01:18:49,560
+ One is the length and variable.
+
+630
+01:18:49,560 --> 01:18:52,560
+ The rest of the variable, the technicality, the many variables.
+
+631
+01:18:52,560 --> 01:19:00,560
+ The sample mean is your measure, the data, each of the realizations.
+
+632
+01:19:00,560 --> 01:19:08,560
+ This question is patient, right?
+
+633
+01:19:08,560 --> 01:19:13,560
+ Oh, because it's, oh, that's a question.
+
+634
+01:19:13,560 --> 01:19:20,560
+ Because the variant, you know, our CRP is one over the, one over the.
+
+635
+01:19:20,560 --> 01:19:27,560
+ So you see the bigger one, then your file becomes smaller.
+
+636
+01:19:27,560 --> 01:19:32,560
+ So that means your variant becomes smaller.
+
+637
+01:19:32,560 --> 01:19:36,560
+ So again here, you know, if CRP becomes zero,
+
+638
+01:19:36,560 --> 01:19:40,560
+ it will have, they have very, very certain,
+
+639
+01:19:40,560 --> 01:19:44,560
+ so just larger the variant is more uncertain.
+
+640
+01:19:45,560 --> 01:19:50,560
+ Okay.
+
+641
+01:19:50,560 --> 01:19:52,560
+ That's the question.
+
+642
+01:19:52,560 --> 01:19:58,560
+ Because the question is real about, but it doesn't mean that we should be taking a million.
+
+643
+01:19:58,560 --> 01:20:02,560
+ So it was, it was a very interesting answer.
+
+644
+01:20:02,560 --> 01:20:09,560
+ Really, this question, we have the low, but it doesn't mean that we can take a million.
+
+645
+01:20:09,560 --> 01:20:11,560
+ No, no, no, no, no.
+
+646
+01:20:11,560 --> 01:20:15,560
+ The file itself is just like the benchmark.
+
+647
+01:20:15,560 --> 01:20:22,560
+ For example, we set the, then paper, 100, the idea benchmark.
+
+648
+01:20:22,560 --> 01:20:25,560
+ If you achieve that, it will be, it will be good.
+
+649
+01:20:25,560 --> 01:20:28,560
+ That part doesn't mean, must be one student achieving that.
+
+650
+01:20:28,560 --> 01:20:31,560
+ You just say that, the idea came.
+
+651
+01:20:31,560 --> 01:20:41,560
+ Yes, but no, it's possible.
+
+652
+01:20:41,560 --> 01:20:43,560
+ That's why we also discussed.
+
+653
+01:20:43,560 --> 01:20:48,560
+ Thanks for only telling you what you can, ideally what you can achieve.
+
+654
+01:20:48,560 --> 01:20:51,560
+ Doesn't mean you always achieve that one.
+
+655
+01:20:51,560 --> 01:20:55,560
+ But then, at least the comparison, 100, I already, you are,
+
+656
+01:20:55,560 --> 01:21:00,560
+ you are, you are to see the one closer, 95, better than 90.
+
+657
+01:21:00,560 --> 01:21:04,560
+ We know it's closer, like a one closer.
+
+658
+01:21:04,560 --> 01:21:08,560
+ I don't mean you must have someone to achieve that.
+
+659
+01:21:08,560 --> 01:21:10,560
+ Future under, sir.
+
+660
+01:21:10,560 --> 01:21:11,560
+ Yeah.
+
+661
+01:21:11,560 --> 01:21:17,560
+ So the question is, in this case, the rate is a three down one.
+
+662
+01:21:17,560 --> 01:21:18,560
+ Yes, yes, yes.
+
+663
+01:21:18,560 --> 01:21:20,560
+ So the rate is a two value?
+
+664
+01:21:20,560 --> 01:21:21,560
+ Yes.
+
+665
+01:21:21,560 --> 01:21:22,560
+ Yes, yes.
+
+666
+01:21:22,560 --> 01:21:26,560
+ A is a two value, A is a constant, constant value.
+
+667
+01:21:26,560 --> 01:21:32,560
+ From this equation, we try to devise the standard of study.
+
+668
+01:21:32,560 --> 01:21:36,560
+ Then we can't let the joy go away.
+
+669
+01:21:36,560 --> 01:21:42,560
+ That's a, actually it is from the assumption, for the noise that we need to, you know,
+
+670
+01:21:42,560 --> 01:21:44,560
+ assume this.
+
+671
+01:21:44,560 --> 01:21:46,560
+ You know what I mean, why can't we not?
+
+672
+01:21:46,560 --> 01:21:47,560
+ Yeah.
+
+673
+01:21:47,560 --> 01:21:48,560
+ Yeah.
+
+674
+01:21:48,560 --> 01:21:55,560
+ This one is the noise that you normally assume you follow certain issues.
+
+675
+01:21:55,560 --> 01:21:59,560
+ Or if not, you need to, you need to measure or to estimate the noise.
+
+676
+01:21:59,560 --> 01:22:03,560
+ That's another, another issue.
+
+677
+01:22:03,560 --> 01:22:04,560
+ Yeah.
+
+678
+01:22:04,560 --> 01:22:05,560
+ So it's another issue.
+
+679
+01:22:05,560 --> 01:22:15,560
+ Analyze is when we check the regularity condition after we get the concrete,
+
+680
+01:22:15,560 --> 01:22:20,560
+ the probability, the probability check, the regularity condition.
+
+681
+01:22:20,560 --> 01:22:26,560
+ Actually the regularity condition you should check first before you, because the regularity
+
+682
+01:22:26,560 --> 01:22:30,560
+ condition is, measure the condition you're looking at, the CLB.
+
+683
+01:22:30,560 --> 01:22:39,560
+ So you should, I think our next question of the example, maybe, it's okay.
+
+684
+01:22:39,560 --> 01:22:43,560
+ You always try to check the regularity condition.
+
+685
+01:22:43,560 --> 01:22:48,560
+ The one is easier to check when you're on the first order data and check each vector.
+
+686
+01:22:48,560 --> 01:22:53,560
+ Anyway, you all the KCRP, you have to take first order and second order.
+
+687
+01:22:53,560 --> 01:23:01,560
+ So you take first order, you'll see, you can take the expected to see whether it gives
+
+688
+01:23:01,560 --> 01:23:12,560
+ you all the, you know, this, the, the, the, the, the, the, the, the, the, the, the, the,
+
+689
+01:23:12,560 --> 01:23:26,580
+ the, the the real question is their
+
+690
+01:23:26,580 --> 01:23:33,140
+ same, they've been on the same order.
+
+691
+01:23:33,140 --> 01:23:36,620
+ Sometimes they get it wrong every day.
+
+692
+01:23:36,620 --> 01:23:46,620
+ I'm also proposing new projects because now a big short-haul project is very hard to
+
+693
+01:23:46,620 --> 01:23:47,620
+ do.
+
+694
+01:23:47,620 --> 01:23:48,620
+ Because I'm also quite limited.
+
+695
+01:23:48,620 --> 01:23:49,620
+ I cannot say that I don't think now I'm proposing a new project.
+
+696
+01:23:49,620 --> 01:23:50,620
+ Anyway, the deadline is also closing.
+
+697
+01:23:50,620 --> 01:23:51,620
+ So I'm not sure.
+
+698
+01:23:51,620 --> 01:24:16,620
+ I'm sorry.
+
+699
+01:26:16,620 --> 01:26:36,620
+ Yeah, that's being this.
+
+700
+01:26:36,620 --> 01:26:38,620
+ This is being available.
+
+701
+01:26:38,620 --> 01:26:40,620
+ They only take hostage.
+
+702
+01:26:40,620 --> 01:26:47,620
+ It doesn't take negative value.
+
+703
+01:26:47,620 --> 01:26:56,620
+ It doesn't take negative value.
+
+704
+01:26:56,620 --> 01:26:57,620
+ It doesn't take negative value.
+
+705
+01:26:57,620 --> 01:27:01,620
+ It is being available only distributed on the right hand side.
+
+706
+01:27:01,620 --> 01:27:03,620
+ So it can't be zero.
+
+707
+01:27:03,620 --> 01:27:08,620
+ Okay, usually for continuous available, it doesn't matter.
+
+708
+01:27:08,620 --> 01:27:23,620
+ You can add zero usually into high square.
+
+709
+01:27:23,620 --> 01:27:49,620
+ Normally either you put the...
+
+710
+01:27:49,620 --> 01:27:53,620
+ You can try to hold it yourself.
+
+711
+01:27:53,620 --> 01:27:57,620
+ I know sometimes you go to the edge.
+
+712
+01:27:57,620 --> 01:28:02,620
+ I forgot the whole process.
+
+713
+01:28:02,620 --> 01:28:10,620
+ You can try out and see whether or you can look at the function.
+
+714
+01:28:10,620 --> 01:28:15,620
+ But normally for PDA, we don't care one particular value.
+
+715
+01:28:15,620 --> 01:28:18,620
+ So the PDA is not integrated.
+
+716
+01:28:18,620 --> 01:28:23,620
+ When you integrate one value, it doesn't matter.
+
+717
+01:28:23,620 --> 01:28:28,620
+ We will give you a zero.
+
+718
+01:28:28,620 --> 01:28:40,620
+ You will integrate only looking at the other one interval.
+
+719
+01:28:40,620 --> 01:28:46,620
+ We don't know this too very well.
+
+720
+01:28:46,620 --> 01:28:51,620
+ Now we are trying to define how good this A is.
+
+721
+01:28:51,620 --> 01:28:58,620
+ How good the A is to get the estimate.
+
+722
+01:28:58,620 --> 01:29:01,620
+ But A, the capillary, we don't know yet.
+
+723
+01:29:01,620 --> 01:29:05,620
+ Sometimes we may know it very quickly.
+
+724
+01:29:06,620 --> 01:29:09,620
+ But this is more like...
+
+725
+01:29:09,620 --> 01:29:16,620
+ We know the range is become like you are guessing your estimate.
+
+726
+01:29:16,620 --> 01:29:24,620
+ This is more like...
+
+727
+01:29:24,620 --> 01:29:30,620
+ I think this time I just show we are not looking to bias estimate.
+
+728
+01:29:35,620 --> 01:30:00,620
+ Okay.
+
+729
+01:30:00,620 --> 01:30:03,620
+ So let's continue.
+
+730
+01:30:03,620 --> 01:30:08,620
+ I think quite a few students asking questions.
+
+731
+01:30:08,620 --> 01:30:13,620
+ If you have questions, you can clarify.
+
+732
+01:30:13,620 --> 01:30:20,620
+ Maybe I can share with you some of the discussion.
+
+733
+01:30:20,620 --> 01:30:23,620
+ It may be useful.
+
+734
+01:30:23,620 --> 01:30:27,620
+ Let's see.
+
+735
+01:30:27,620 --> 01:30:32,620
+ Now I try to...
+
+736
+01:30:32,620 --> 01:30:38,620
+ If you look at this product...
+
+737
+01:30:38,620 --> 01:30:41,620
+ The product intake, you will see.
+
+738
+01:30:41,620 --> 01:30:47,620
+ You will go back to this.
+
+739
+01:30:47,620 --> 01:30:53,620
+ Each of the data, the index, the angle to zero and so on.
+
+740
+01:30:53,620 --> 01:30:56,620
+ That means...
+
+741
+01:30:57,620 --> 01:31:03,620
+ So angle to zero, we have one data sample X0.
+
+742
+01:31:03,620 --> 01:31:10,620
+ Because this is Gaussian, the noise Gaussian, the mean is become A.
+
+743
+01:31:10,620 --> 01:31:12,620
+ This is zero mean.
+
+744
+01:31:12,620 --> 01:31:17,620
+ So our mean of this random variable is equal to A.
+
+745
+01:31:17,620 --> 01:31:23,620
+ So you all have Gaussian distribution on one data.
+
+746
+01:31:23,620 --> 01:31:27,620
+ So you have corresponding to maybe one of the PDF here.
+
+747
+01:31:27,620 --> 01:31:30,620
+ And then you have the next one and become one.
+
+748
+01:31:30,620 --> 01:31:33,620
+ So A and zero and one.
+
+749
+01:31:33,620 --> 01:31:37,620
+ And then why we can multiply together because...
+
+750
+01:31:37,620 --> 01:31:39,620
+ Why Gaussian noise?
+
+751
+01:31:39,620 --> 01:31:43,620
+ If WN is zero mean, why Gaussian noise?
+
+752
+01:31:43,620 --> 01:31:47,620
+ Then W0, W1 and W2.
+
+753
+01:31:47,620 --> 01:31:51,620
+ All of them they are independent random variable.
+
+754
+01:31:52,620 --> 01:31:55,620
+ The joy period, it will be simply...
+
+755
+01:31:55,620 --> 01:31:59,620
+ You just simply multiply each of the PDF.
+
+756
+01:31:59,620 --> 01:32:03,620
+ But the condition must be why it mean they're independent.
+
+757
+01:32:03,620 --> 01:32:10,620
+ If we do not have white correlated, then the formula become much more complicated.
+
+758
+01:32:10,620 --> 01:32:15,620
+ For Gaussian, you can still get joy period.
+
+759
+01:32:15,620 --> 01:32:18,620
+ But you will have so-called costum.
+
+760
+01:32:18,620 --> 01:32:21,620
+ You will look at the matrix.
+
+761
+01:32:21,620 --> 01:32:26,620
+ So white Gaussian noise being the matrix is diagonal matrix.
+
+762
+01:32:26,620 --> 01:32:28,620
+ You don't have the off-diagonal term.
+
+763
+01:32:28,620 --> 01:32:31,620
+ Then you can simply multiply together.
+
+764
+01:32:31,620 --> 01:32:36,620
+ And then coming to the exponent, maybe I can also A here.
+
+765
+01:32:36,620 --> 01:32:42,620
+ I think this is also a very common useful property.
+
+766
+01:32:42,620 --> 01:32:47,620
+ If I had E to the power A, I multiply E to the power B.
+
+767
+01:32:47,620 --> 01:32:51,620
+ Because it will become E, A plus B.
+
+768
+01:32:51,620 --> 01:32:55,620
+ So this is how you...
+
+769
+01:32:55,620 --> 01:33:04,620
+ For exponential function, you convert product into one simple exponential function.
+
+770
+01:33:04,620 --> 01:33:07,620
+ But you are summing up the exponent.
+
+771
+01:33:07,620 --> 01:33:14,620
+ And that's also why here we are dealing mostly with PDF with exponential function.
+
+772
+01:33:14,620 --> 01:33:19,620
+ Like Gaussian or later you have exponential distribution.
+
+773
+01:33:19,620 --> 01:33:25,620
+ And for exponential function, it's easier to take log.
+
+774
+01:33:25,620 --> 01:33:30,620
+ Once you take log, you will be only working on the exponent.
+
+775
+01:33:30,620 --> 01:33:36,620
+ So all these are very basic, you know, the max property.
+
+776
+01:33:36,620 --> 01:33:37,620
+ And I hope that you...
+
+777
+01:33:37,620 --> 01:33:38,620
+ Max result.
+
+778
+01:33:38,620 --> 01:33:40,620
+ I hope that you know that.
+
+779
+01:33:40,620 --> 01:33:42,620
+ But anyway, don't worry.
+
+780
+01:33:42,620 --> 01:33:49,620
+ Later on, we keep showing examples in the assignment to be given to you.
+
+781
+01:33:49,620 --> 01:33:57,620
+ You'll be doing some Hang-Song exercises, solving questions by yourself.
+
+782
+01:33:57,620 --> 01:33:58,620
+ Okay?
+
+783
+01:33:58,620 --> 01:34:01,620
+ So let's...
+
+784
+01:34:01,620 --> 01:34:09,620
+ Yeah, let's continue coming into the next example.
+
+785
+01:34:09,620 --> 01:34:18,620
+ So the example here is a little bit more complicated, compared to the previous one.
+
+786
+01:34:18,620 --> 01:34:23,620
+ You see, there previously we only A plus this.
+
+787
+01:34:23,620 --> 01:34:25,620
+ But now we...
+
+788
+01:34:25,620 --> 01:34:36,620
+ Something like the DC value, the deterministic part here, it becomes like...
+
+789
+01:34:36,620 --> 01:34:40,620
+ What I said earlier, it's no longer a constant.
+
+790
+01:34:40,620 --> 01:34:45,620
+ For each of the n-measure data, it depends on n.
+
+791
+01:34:45,620 --> 01:34:52,620
+ It will take a different value, but it's still deterministic.
+
+792
+01:34:52,620 --> 01:34:58,620
+ So this side, from here, we have some unknown...
+
+793
+01:34:58,620 --> 01:35:00,620
+ So several variable here.
+
+794
+01:35:00,620 --> 01:35:02,620
+ We will be here.
+
+795
+01:35:02,620 --> 01:35:04,620
+ We only want to estimate the phase.
+
+796
+01:35:04,620 --> 01:35:06,620
+ So this is the one.
+
+797
+01:35:06,620 --> 01:35:08,620
+ The two values we don't know.
+
+798
+01:35:08,620 --> 01:35:11,620
+ The other are constant, A and F0.
+
+799
+01:35:11,620 --> 01:35:13,620
+ They are assuming to be known.
+
+800
+01:35:13,620 --> 01:35:15,620
+ Okay.
+
+801
+01:35:15,620 --> 01:35:23,620
+ So now our...
+
+802
+01:35:23,620 --> 01:35:25,620
+ Which one we are going to...
+
+803
+01:35:25,620 --> 01:35:28,620
+ Yeah, by the way, I think probably a mistake.
+
+804
+01:35:28,620 --> 01:35:30,620
+ This should be...
+
+805
+01:35:30,620 --> 01:35:32,620
+ Now should be...
+
+806
+01:35:32,620 --> 01:35:34,620
+ Because the phase...
+
+807
+01:35:34,620 --> 01:35:36,620
+ We want to estimate the phase.
+
+808
+01:35:36,620 --> 01:35:42,620
+ So I guess I think this one should be changed to phase 5.
+
+809
+01:35:42,620 --> 01:35:52,620
+ So anyway, let's just replace with the previous example, with this whole thing, into the mean value.
+
+810
+01:35:52,620 --> 01:35:56,620
+ Because each of the data samples still follow Gaussian.
+
+811
+01:35:56,620 --> 01:36:01,620
+ And this is the one random, where this one is the mean.
+
+812
+01:36:01,620 --> 01:36:12,620
+ And then from here, similar to the previous example, you convert the product into one simple exponential function.
+
+813
+01:36:12,620 --> 01:36:15,620
+ Then you sum this.
+
+814
+01:36:15,620 --> 01:36:23,620
+ Now after that, you take the first derivative of the log likelihood function.
+
+815
+01:36:23,620 --> 01:36:29,620
+ And then here, it's very hard to prove.
+
+816
+01:36:29,620 --> 01:36:36,620
+ But then on that thing, just the counter question is...
+
+817
+01:36:36,620 --> 01:36:42,620
+ The question to ask is, are you able to show...
+
+818
+01:36:42,620 --> 01:36:44,620
+ Rely on this whole thing?
+
+819
+01:36:44,620 --> 01:36:49,620
+ It looks very complicated as this simple form, like our previous example.
+
+820
+01:36:49,620 --> 01:36:52,620
+ Our previous example, we can do it in this way.
+
+821
+01:36:52,620 --> 01:36:57,620
+ Remember, as I said, this one is correct, changed to phase.
+
+822
+01:36:57,620 --> 01:37:11,620
+ So therefore, we say almost impossible because you are involving some nonlinear function of this data here.
+
+823
+01:37:11,620 --> 01:37:21,620
+ You can try to find a function depending on X zeta, but then it's like highly coupled here.
+
+824
+01:37:21,620 --> 01:37:25,620
+ So there's nowhere you cannot do it this way.
+
+825
+01:37:25,620 --> 01:37:27,620
+ Or on that thing, you show me.
+
+826
+01:37:27,620 --> 01:37:28,620
+ I say no.
+
+827
+01:37:28,620 --> 01:37:35,620
+ If you say yes, you should try to show me right in that way.
+
+828
+01:37:35,620 --> 01:37:38,620
+ We say no, not possible.
+
+829
+01:37:38,620 --> 01:37:44,620
+ So therefore, in this case, we see the CLB is not achieved.
+
+830
+01:37:44,620 --> 01:37:46,620
+ We cannot achieve the CLB.
+
+831
+01:37:46,620 --> 01:37:49,620
+ That means we cannot estimate this.
+
+832
+01:37:49,620 --> 01:37:56,620
+ We cannot find a measure to estimate this data to meet this CLB.
+
+833
+01:37:56,620 --> 01:38:05,620
+ But here, as I mentioned earlier, it doesn't mean the MBE is not there.
+
+834
+01:38:05,620 --> 01:38:13,620
+ We may still have the possibility to have the MBE, except there will be a gap here.
+
+835
+01:38:13,620 --> 01:38:21,620
+ And then in this case, we cannot use the CLB measure to find it.
+
+836
+01:38:21,620 --> 01:38:31,620
+ So we'll see in this more difficult situation, how are we going to think?
+
+837
+01:38:31,620 --> 01:38:33,620
+ We try to get the CLB first.
+
+838
+01:38:33,620 --> 01:38:38,620
+ We derive the second order derivative here.
+
+839
+01:38:38,620 --> 01:38:46,620
+ And then I assume you're familiar with how to do the derivative from first one,
+
+840
+01:38:46,620 --> 01:38:53,620
+ first derivative to second one, but continue to take the derivative with respect to this five here.
+
+841
+01:38:53,620 --> 01:38:56,620
+ So this is what you'll get.
+
+842
+01:38:56,620 --> 01:39:05,620
+ And then you may simplify using a little bit of the trigonometric identity.
+
+843
+01:39:05,620 --> 01:39:13,620
+ And then now after that, you'll take the expectation, and then after that, take the negative side.
+
+844
+01:39:13,620 --> 01:39:18,620
+ So again, this part is not difficult.
+
+845
+01:39:18,620 --> 01:39:27,620
+ And then, as I say, you may make good use of the trigonometric identity to simplify in this form.
+
+846
+01:39:27,620 --> 01:39:33,620
+ Cosine of this part of two is relative to the...
+
+847
+01:39:33,620 --> 01:39:36,620
+ This argument is... This one is twice of that.
+
+848
+01:39:36,620 --> 01:39:43,620
+ So you can try to remember, try to use that formula.
+
+849
+01:39:43,620 --> 01:39:53,620
+ Now this part is still a little bit complicated because we are involving this one.
+
+850
+01:39:53,620 --> 01:40:03,620
+ But then you can show this part here.
+
+851
+01:40:03,620 --> 01:40:05,620
+ This one we have two.
+
+852
+01:40:05,620 --> 01:40:08,620
+ You can see inside the summation, we have two terms here.
+
+853
+01:40:08,620 --> 01:40:10,620
+ One is a constant one.
+
+854
+01:40:10,620 --> 01:40:13,620
+ Then of course, this is very easy.
+
+855
+01:40:13,620 --> 01:40:18,620
+ Just sum all the one together, you will be capital N.
+
+856
+01:40:18,620 --> 01:40:20,620
+ So that's how we become this.
+
+857
+01:40:20,620 --> 01:40:26,620
+ So the more difficult question is how are we summing this one because this is a functional thing.
+
+858
+01:40:26,620 --> 01:40:31,620
+ So we write here.
+
+859
+01:40:31,620 --> 01:40:46,620
+ You can show this part is approximately equal to zero under some condition.
+
+860
+01:40:46,620 --> 01:40:49,620
+ The first is this F0.
+
+861
+01:40:49,620 --> 01:40:54,620
+ This frequency is not very near zero or half.
+
+862
+01:40:54,620 --> 01:40:58,620
+ Because we are talking about digital frequency.
+
+863
+01:40:58,620 --> 01:41:03,620
+ So it becomes zero up to half over this range.
+
+864
+01:41:03,620 --> 01:41:07,620
+ And furthermore, this N will be large.
+
+865
+01:41:07,620 --> 01:41:13,620
+ So that means you are taking many samples here.
+
+866
+01:41:14,620 --> 01:41:23,620
+ You can prove that by using some mass proof.
+
+867
+01:41:23,620 --> 01:41:26,620
+ It can be a little bit complicated.
+
+868
+01:41:26,620 --> 01:41:33,620
+ But I can try to helistically show why this sum was big one, approximately zero.
+
+869
+01:41:33,620 --> 01:41:39,620
+ First, why we say F0 is not near zero or equal to half?
+
+870
+01:41:39,620 --> 01:41:52,620
+ Because if you make F0 equal to zero, then this will become cosine zero plus two phi.
+
+871
+01:41:52,620 --> 01:41:56,620
+ Then it will be always a constant.
+
+872
+01:41:56,620 --> 01:42:02,620
+ And constant, depending on the value of phi, it will not be not equal to zero.
+
+873
+01:42:02,620 --> 01:42:07,620
+ Then of course, your sum N of N will not be equal to zero.
+
+874
+01:42:07,620 --> 01:42:15,620
+ Similarly, if F0 becomes one over two, half, then you will get similar argument here.
+
+875
+01:42:15,620 --> 01:42:19,620
+ But now why not near these two values?
+
+876
+01:42:19,620 --> 01:42:25,620
+ Then why you can get the sum almost equal to zero?
+
+877
+01:42:25,620 --> 01:42:34,620
+ So let me, in the normal case, F0 not near the edge, it will be a proper digital frequency.
+
+878
+01:42:34,620 --> 01:42:41,620
+ That means this cosine function is a proper cosine curve.
+
+879
+01:42:41,620 --> 01:42:49,620
+ So see here, if this capital N is large enough,
+
+880
+01:42:49,620 --> 01:42:58,620
+ you will be trying to take the mean value of cosine function.
+
+881
+01:42:58,620 --> 01:43:06,620
+ And then if you are, you know, if the cosine function, in the extreme case, F0 equal to zero or one over two,
+
+882
+01:43:06,620 --> 01:43:08,620
+ you will become a constant line.
+
+883
+01:43:08,620 --> 01:43:10,620
+ Of course, this doesn't apply.
+
+884
+01:43:10,620 --> 01:43:16,620
+ But if you have a proper cosine function, and just imagine cosine function,
+
+885
+01:43:16,620 --> 01:43:24,620
+ theoretically, if you are infinity, some of them you have some one period of cosine equal to zero, some two period of cosine equal to zero.
+
+886
+01:43:24,620 --> 01:43:29,620
+ But if N is large enough, then most of the, you will be still adding up,
+
+887
+01:43:29,620 --> 01:43:32,620
+ it will be approximately equal to zero.
+
+888
+01:43:32,620 --> 01:43:37,620
+ So that's how we need that condition.
+
+889
+01:43:37,620 --> 01:43:42,620
+ If you all, as many of you have proved that, you will become, you're looking at something like a sin function.
+
+890
+01:43:42,620 --> 01:43:50,620
+ A sin function is equal to be most of the equal to zero except at the peak there.
+
+891
+01:43:51,620 --> 01:43:55,620
+ So we won't go into detail.
+
+892
+01:43:55,620 --> 01:44:08,620
+ And then once you satisfy this, then our CLB, in this case, you just take the inverse based on our CLB condition.
+
+893
+01:44:08,620 --> 01:44:14,620
+ You reverse this, you'll get this.
+
+894
+01:44:14,620 --> 01:44:25,620
+ So that means here is, we can still get CLB, even so we do not achieve this efficient estimate.
+
+895
+01:44:25,620 --> 01:44:32,620
+ And now we continue into a more general case.
+
+896
+01:44:32,620 --> 01:44:39,620
+ Following our previous example, you can extend into this still deterministic signal.
+
+897
+01:44:39,620 --> 01:44:43,620
+ And then we say unknown parameter in white Gaussian noise.
+
+898
+01:44:43,620 --> 01:44:46,620
+ So that's, yeah.
+
+899
+01:44:46,620 --> 01:44:55,620
+ So everything is similar to previous one, except now this so-called TC value here becomes the function of this S,
+
+900
+01:44:55,620 --> 01:45:03,620
+ depending on N, the intact N, therefore we have this.
+
+901
+01:45:03,620 --> 01:45:13,620
+ And then I hope you know this so-called train rules, how to take the derivatives, first derivative, you'll get this.
+
+902
+01:45:13,620 --> 01:45:15,620
+ Because now we do not know this function.
+
+903
+01:45:15,620 --> 01:45:21,620
+ So you can only put this first derivative here.
+
+904
+01:45:21,620 --> 01:45:23,620
+ This is function of zeta.
+
+905
+01:45:23,620 --> 01:45:26,620
+ And after that you take the second derivative.
+
+906
+01:45:26,620 --> 01:45:33,620
+ And this is a bit complicated because you have to consider this is function zeta.
+
+907
+01:45:33,620 --> 01:45:35,620
+ This is also another one.
+
+908
+01:45:35,620 --> 01:45:41,620
+ That's how this one, however complicated, you can follow the train rules to do derivative.
+
+909
+01:45:41,620 --> 01:45:47,620
+ So it's not as complicated as you are doing the integration.
+
+910
+01:45:48,620 --> 01:45:56,620
+ And after that you can usually, before apply expectation, it looks complicated.
+
+911
+01:45:56,620 --> 01:45:59,620
+ But quite often you apply expectation.
+
+912
+01:45:59,620 --> 01:46:11,620
+ You can simplify quite a few of the result because depending on, you see the expectation.
+
+913
+01:46:11,620 --> 01:46:16,620
+ So you can see, you take expectation, take the negative side.
+
+914
+01:46:16,620 --> 01:46:21,620
+ Which term we are keeping here?
+
+915
+01:46:21,620 --> 01:46:25,620
+ You can see we are keeping only this term.
+
+916
+01:46:25,620 --> 01:46:28,620
+ Why this term and that term can so.
+
+917
+01:46:28,620 --> 01:46:35,620
+ So that's how this calls both detection pying estimation.
+
+918
+01:46:35,620 --> 01:46:39,620
+ It's very important and very useful.
+
+919
+01:46:39,620 --> 01:46:41,620
+ You need to know how to simplify.
+
+920
+01:46:41,620 --> 01:46:49,620
+ For example, if they say in the exams or even the home war assignment.
+
+921
+01:46:49,620 --> 01:46:53,620
+ You cannot say I stay here, then it's done.
+
+922
+01:46:53,620 --> 01:47:00,620
+ You see, before taking expectation, we are not able to simplify further.
+
+923
+01:47:00,620 --> 01:47:06,620
+ But once you take expectation, you have to see some of the term maybe.
+
+924
+01:47:06,620 --> 01:47:10,620
+ So they cannot say, oh, I just put e into each of these.
+
+925
+01:47:10,620 --> 01:47:13,620
+ Because you see why?
+
+926
+01:47:13,620 --> 01:47:18,620
+ E of this x of n equal to what?
+
+927
+01:47:18,620 --> 01:47:22,620
+ It will be just equal to s of n theta.
+
+928
+01:47:22,620 --> 01:47:26,620
+ So you will go back to the, you see, e of this.
+
+929
+01:47:26,620 --> 01:47:29,620
+ It will be e of this one and e of this.
+
+930
+01:47:29,620 --> 01:47:31,620
+ But this is zero mean.
+
+931
+01:47:31,620 --> 01:47:34,620
+ So taking expectation, this becomes zero.
+
+932
+01:47:34,620 --> 01:47:39,620
+ And take expectation, this one is not random.
+
+933
+01:47:39,620 --> 01:47:43,620
+ So it will become like the DC term here.
+
+934
+01:47:43,620 --> 01:47:50,620
+ And that's how after applying this e, this one becomes s of n theta.
+
+935
+01:47:50,620 --> 01:47:52,620
+ And this factor is the same.
+
+936
+01:47:52,620 --> 01:47:55,620
+ But they have positive side, negative side.
+
+937
+01:47:55,620 --> 01:47:57,620
+ Of course, these two can so.
+
+938
+01:47:57,620 --> 01:48:00,620
+ So all the n dot is only this one.
+
+939
+01:48:00,620 --> 01:48:04,620
+ So that's how it becomes much simpler.
+
+940
+01:48:04,620 --> 01:48:05,620
+ Okay?
+
+941
+01:48:05,620 --> 01:48:13,620
+ So I hope you know how to handle this kind of derivations and simplification.
+
+942
+01:48:13,620 --> 01:48:17,620
+ And then after that, we know, you know, also useful.
+
+943
+01:48:17,620 --> 01:48:22,620
+ This one is, must be greater or equal to zero.
+
+944
+01:48:22,620 --> 01:48:27,620
+ Because you are, this is not the second derivative.
+
+945
+01:48:27,620 --> 01:48:29,620
+ This one is the second derivative.
+
+946
+01:48:29,620 --> 01:48:34,620
+ But this is the first derivative, power of two.
+
+947
+01:48:34,620 --> 01:48:39,620
+ Then must be, this term must be greater or equal to zero.
+
+948
+01:48:39,620 --> 01:48:40,620
+ Okay?
+
+949
+01:48:40,620 --> 01:48:41,620
+ So it cannot be negative.
+
+950
+01:48:41,620 --> 01:48:45,620
+ So, and then you are summing up all the non-negative number.
+
+951
+01:48:45,620 --> 01:48:48,620
+ Because become non-negative value.
+
+952
+01:48:48,620 --> 01:48:52,620
+ So you can use that as CLB.
+
+953
+01:48:52,620 --> 01:48:55,620
+ So we say CLB actually the power here.
+
+954
+01:48:55,620 --> 01:48:58,620
+ And this is just the relationship.
+
+955
+01:48:58,620 --> 01:49:06,620
+ So any estimate, the variance must be greater or equal to inverting this one.
+
+956
+01:49:06,620 --> 01:49:07,620
+ Yeah.
+
+957
+01:49:07,620 --> 01:49:08,620
+ Okay?
+
+958
+01:49:08,620 --> 01:49:16,620
+ So that's how you get this more general result.
+
+959
+01:49:16,620 --> 01:49:24,620
+ But again here, we are, actually we are not doing the proper right step.
+
+960
+01:49:24,620 --> 01:49:29,620
+ The right step is maybe in subsequent examples.
+
+961
+01:49:29,620 --> 01:49:39,620
+ So always remember, before even you do the CLB, you need to check this regularity condition.
+
+962
+01:49:39,620 --> 01:49:40,620
+ You see?
+
+963
+01:49:40,620 --> 01:49:48,620
+ So in our case here, let's go back to the regularity condition again.
+
+964
+01:49:48,620 --> 01:49:49,620
+ You see?
+
+965
+01:49:49,620 --> 01:49:52,620
+ Now this is the first derivative.
+
+966
+01:49:52,620 --> 01:49:57,620
+ And then if you apply E of this here, so what do we get?
+
+967
+01:49:57,620 --> 01:50:02,620
+ You're, because expectation is a linear operation.
+
+968
+01:50:02,620 --> 01:50:07,620
+ So you'll be bringing this E into this.
+
+969
+01:50:07,620 --> 01:50:09,620
+ This is not random.
+
+970
+01:50:09,620 --> 01:50:12,620
+ So we'll have E of this exchange.
+
+971
+01:50:12,620 --> 01:50:15,620
+ It becomes SN of this.
+
+972
+01:50:15,620 --> 01:50:21,620
+ So basically this is become like zero.
+
+973
+01:50:21,620 --> 01:50:35,620
+ But the assumption is if this is finite value, as long as no infinity lasts, then we are done.
+
+974
+01:50:35,620 --> 01:50:40,620
+ Zero multiplied with finite value still becomes zero.
+
+975
+01:50:40,620 --> 01:50:43,620
+ Then your sum of the zero becomes zero.
+
+976
+01:50:43,620 --> 01:50:54,620
+ But however, if this is not finite, you know, our sum of these so-called waveforms or the signal here.
+
+977
+01:50:54,620 --> 01:51:00,620
+ For example, in the case I mentioned the application, we are talking about radar.
+
+978
+01:51:00,620 --> 01:51:07,620
+ And sometimes you're sending out square weight.
+
+979
+01:51:07,620 --> 01:51:11,620
+ And square weight is a proper signal.
+
+980
+01:51:11,620 --> 01:51:14,620
+ Also, theoretically, we don't have square weight.
+
+981
+01:51:14,620 --> 01:51:22,620
+ But then if your signal is very close to this amplitude, it may have this continuity.
+
+982
+01:51:22,620 --> 01:51:25,620
+ It becomes suddenly like the unit step function.
+
+983
+01:51:25,620 --> 01:51:27,620
+ It becomes from zero to one.
+
+984
+01:51:27,620 --> 01:51:33,620
+ Then in that case, you see, you are taking the first derivative.
+
+985
+01:51:33,620 --> 01:51:34,620
+ It becomes infinity.
+
+986
+01:51:34,620 --> 01:51:36,620
+ Then we have problem.
+
+987
+01:51:36,620 --> 01:51:42,620
+ Also, one factor here is zero.
+
+988
+01:51:42,620 --> 01:51:48,620
+ If you multiply infinity large values, you cannot say it becomes zero.
+
+989
+01:51:48,620 --> 01:51:50,620
+ Zero multiplied by infinity.
+
+990
+01:51:50,620 --> 01:51:53,620
+ In mass, you say this is undetermined.
+
+991
+01:51:53,620 --> 01:51:55,620
+ We cannot say where there is.
+
+992
+01:51:55,620 --> 01:51:57,620
+ It can become zero.
+
+993
+01:51:57,620 --> 01:51:58,620
+ It can be a constant.
+
+994
+01:51:58,620 --> 01:52:00,620
+ It can be infinity large.
+
+995
+01:52:00,620 --> 01:52:03,620
+ So that's a problem here.
+
+996
+01:52:03,620 --> 01:52:17,620
+ So that's why I say in practical application, it's always important to check to see whether this can be applied or not.
+
+997
+01:52:17,620 --> 01:52:19,620
+ Okay?
+
+998
+01:52:19,620 --> 01:52:21,620
+ So that's...
+
+999
+01:52:22,620 --> 01:52:27,620
+ Finally, we come to another example.
+
+1000
+01:52:27,620 --> 01:52:35,620
+ So again, we are still in the same discussion, continue.
+
+1001
+01:52:35,620 --> 01:52:39,620
+ But now, S n of theta still the same function.
+
+1002
+01:52:39,620 --> 01:52:47,620
+ But here is the amplitude A here, and the phase assumed to be known.
+
+1003
+01:52:47,620 --> 01:52:51,620
+ So what's unknown is the digital frequency here.
+
+1004
+01:52:51,620 --> 01:52:53,620
+ So what happened here?
+
+1005
+01:52:53,620 --> 01:53:02,620
+ Using what the result we derived earlier, we can see the COV become this inverse of that.
+
+1006
+01:53:02,620 --> 01:53:12,620
+ But they will have a problem if you think about assuming the phase equal to zero,
+
+1007
+01:53:12,620 --> 01:53:16,620
+ then the F zero is near the edge, as I mentioned earlier.
+
+1008
+01:53:16,620 --> 01:53:21,620
+ So this edge is either zero or 0.5.
+
+1009
+01:53:21,620 --> 01:53:23,620
+ Then what happened?
+
+1010
+01:53:23,620 --> 01:53:27,620
+ These signs of this zero become zero.
+
+1011
+01:53:27,620 --> 01:53:34,620
+ So in this case, the variance become infinity large or very, very large.
+
+1012
+01:53:34,620 --> 01:53:40,620
+ So a random variable, a variable become very large.
+
+1013
+01:53:40,620 --> 01:53:45,620
+ That means we don't know much about this random variable, you see.
+
+1014
+01:53:45,620 --> 01:53:49,620
+ So basically it's totally uncertain, you see.
+
+1015
+01:53:49,620 --> 01:53:55,620
+ So it's not very useful here.
+
+1016
+01:53:55,620 --> 01:54:02,620
+ We are talking about say the variance is as large as infinity large.
+
+1017
+01:54:02,620 --> 01:54:08,620
+ So I mean, basically we are saying this estimate is not good.
+
+1018
+01:54:08,620 --> 01:54:10,620
+ No use.
+
+1019
+01:54:10,620 --> 01:54:12,620
+ Variance is so large.
+
+1020
+01:54:12,620 --> 01:54:17,620
+ In one situation, ideal one is a very small variable or near zero.
+
+1021
+01:54:17,620 --> 01:54:25,620
+ But on the other side, if the variance is infinity large, I mean, it's almost no use.
+
+1022
+01:54:25,620 --> 01:54:31,620
+ So that's the case of your...
+
+1023
+01:54:31,620 --> 01:54:36,620
+ It's similar to what we say early in the edge situation.
+
+1024
+01:54:36,620 --> 01:54:46,620
+ We don't know or we cannot estimate this frequency because they are very, very uncertain.
+
+1025
+01:54:46,620 --> 01:54:50,620
+ The CLB is too large, infinity large.
+
+1026
+01:54:50,620 --> 01:55:05,620
+ So any questions before we move on to the CLB for the vector parameter case?
+
+1027
+01:55:05,620 --> 01:55:20,620
+ So the idea, the results are similar except you need to get familiar with magic, linear algebraic.
+
+1028
+01:55:20,620 --> 01:55:32,620
+ So I already uploaded some basic results or properties of linear algebraic or magic.
+
+1029
+01:55:32,620 --> 01:55:36,620
+ So I hope you can take a look and try to get familiar.
+
+1030
+01:55:36,620 --> 01:55:46,620
+ Because in the subsequent lecture, we also need some magic theory or linear algebraic.
+
+1031
+01:55:46,620 --> 01:55:49,620
+ So let's come back to our question here.
+
+1032
+01:55:49,620 --> 01:55:53,620
+ The regularity condition is similar.
+
+1033
+01:55:53,620 --> 01:55:58,620
+ Please take note, you see our so-called PDF here.
+
+1034
+01:55:58,620 --> 01:56:01,620
+ We are... our joy PDF, when we say...
+
+1035
+01:56:01,620 --> 01:56:05,620
+ Because we are taking, usually, multiple data samples.
+
+1036
+01:56:05,620 --> 01:56:16,620
+ And we assume the data independence measure so you can simply multiply the PDF of each data sample.
+
+1037
+01:56:16,620 --> 01:56:24,620
+ So in this case, even the unknown parameter, you have more than one, so it's two or multiple.
+
+1038
+01:56:24,620 --> 01:56:30,620
+ This PDF, except it will still be a scalar function.
+
+1039
+01:56:30,620 --> 01:56:34,620
+ It will not become... it will not become a vector.
+
+1040
+01:56:34,620 --> 01:56:39,620
+ Don't get confused with this.
+
+1041
+01:56:39,620 --> 01:56:43,620
+ But however, the theta itself is a vector.
+
+1042
+01:56:43,620 --> 01:56:45,620
+ Now it's a vector.
+
+1043
+01:56:45,620 --> 01:56:57,620
+ So therefore, if you have a scalar, you take derivative with respect to several variables.
+
+1044
+01:56:57,620 --> 01:56:59,620
+ So what do we get?
+
+1045
+01:56:59,620 --> 01:57:03,620
+ Our derivative will become a vector derivative.
+
+1046
+01:57:03,620 --> 01:57:09,620
+ It will be something like... let's show it here.
+
+1047
+01:57:09,620 --> 01:57:11,620
+ Let's see.
+
+1048
+01:57:16,620 --> 01:57:22,620
+ Okay, you will be... you know, you put it here.
+
+1049
+01:57:22,620 --> 01:57:27,620
+ I can... you see, this is a function.
+
+1050
+01:57:27,620 --> 01:57:34,620
+ It depends on, say, both phase vectors.
+
+1051
+01:57:34,620 --> 01:57:41,620
+ So therefore, you... each of the elements, theta1, you get one derivative.
+
+1052
+01:57:41,620 --> 01:57:48,620
+ Then you'll do the same for theta2 and so on.
+
+1053
+01:57:48,620 --> 01:57:58,620
+ In total, you'll have thetaM, you see.
+
+1054
+01:57:58,620 --> 01:58:06,620
+ So you'll just list them together into a proper vector.
+
+1055
+01:58:06,620 --> 01:58:09,620
+ Okay.
+
+1056
+01:58:09,620 --> 01:58:19,620
+ And then similarly, you... after that, you apply the expectation into this so-called random vector.
+
+1057
+01:58:19,620 --> 01:58:25,620
+ It must be zero for each of these elements after applying the expectation.
+
+1058
+01:58:25,620 --> 01:58:26,620
+ Okay.
+
+1059
+01:58:26,620 --> 01:58:29,620
+ Where you see theta1, theta2, and so on.
+
+1060
+01:58:29,620 --> 01:58:32,620
+ And each takes certain range.
+
+1061
+01:58:32,620 --> 01:58:34,620
+ Okay.
+
+1062
+01:58:34,620 --> 01:58:41,620
+ Now, in this case, what shall be or what condition we will have?
+
+1063
+01:58:41,620 --> 01:58:51,620
+ We need to look at the covariance matrix of any unbiased S-dimeter mass satisfi...
+
+1064
+01:58:51,620 --> 01:58:54,620
+ You see, we... this is a vector.
+
+1065
+01:58:54,620 --> 01:58:58,620
+ For scalar, we use a barrier.
+
+1066
+01:58:58,620 --> 01:58:59,620
+ No.
+
+1067
+01:58:59,620 --> 01:59:07,620
+ But if you have more than one, you become a vector, then you need to use covariance... covariance matrix.
+
+1068
+01:59:07,620 --> 01:59:20,620
+ The diagonal one is with respect to the variance of each of the... each of the parameter... parameter element,
+
+1069
+01:59:20,620 --> 01:59:26,620
+ where the cross term is... you can have the correlations.
+
+1070
+01:59:26,620 --> 01:59:27,620
+ Okay.
+
+1071
+01:59:27,620 --> 01:59:34,620
+ So... and also here, you need to be familiar with this matrix operator.
+
+1072
+01:59:34,620 --> 01:59:43,620
+ This... this is one matrix, the so-called covariance matrix, referring to this theta hat.
+
+1073
+01:59:43,620 --> 01:59:46,620
+ You know, we have the random vector.
+
+1074
+01:59:46,620 --> 01:59:50,620
+ And then this is the feature information matrix.
+
+1075
+01:59:50,620 --> 01:59:51,620
+ You see?
+
+1076
+01:59:51,620 --> 01:59:55,620
+ The early on, we talked about feature information, which is a scalar.
+
+1077
+01:59:55,620 --> 01:59:58,620
+ Now, we are dealing with vector parameter.
+
+1078
+01:59:58,620 --> 02:00:05,620
+ You have everything you have to extend to a vector matrix, and the term also changes.
+
+1079
+02:00:05,620 --> 02:00:06,620
+ Okay.
+
+1080
+02:00:06,620 --> 02:00:11,620
+ So, a matrix, minus another matrix, and make sure this is inverse of this.
+
+1081
+02:00:11,620 --> 02:00:13,620
+ How to define this?
+
+1082
+02:00:13,620 --> 02:00:14,620
+ We'll say later.
+
+1083
+02:00:14,620 --> 02:00:23,620
+ But this symbol is not our... our convention mean of... you are talking about the numbers.
+
+1084
+02:00:23,620 --> 02:00:28,620
+ So, the vector equal... equal, this mean the matrix.
+
+1085
+02:00:28,620 --> 02:00:31,620
+ This matrix, you take the difference.
+
+1086
+02:00:31,620 --> 02:00:35,620
+ Together is a positive semi-definite.
+
+1087
+02:00:35,620 --> 02:00:47,620
+ So, you know, I guess you all know how to define... what's it mean by positive semi-definite matrix.
+
+1088
+02:00:47,620 --> 02:00:53,620
+ So, if I cannot, then maybe next week I can do a little bit of revision on the linear algebra.
+
+1089
+02:00:53,620 --> 02:00:55,620
+ This is very important.
+
+1090
+02:00:55,620 --> 02:01:06,620
+ And then how about if I change greater or equal into greater without equal, it will be positive definite.
+
+1091
+02:01:06,620 --> 02:01:11,620
+ You know, semi means it includes the... possibly includes this equal.
+
+1092
+02:01:11,620 --> 02:01:16,620
+ So, if you only have greater, then it will be positive definite.
+
+1093
+02:01:16,620 --> 02:01:19,620
+ And how about this i theta?
+
+1094
+02:01:19,620 --> 02:01:21,620
+ This is m by m, you see.
+
+1095
+02:01:21,620 --> 02:01:25,620
+ We have in total capital N parameter.
+
+1096
+02:01:25,620 --> 02:01:31,620
+ This is future information matrix whose element are given by...
+
+1097
+02:01:31,620 --> 02:01:44,620
+ So, you see here, we have second order derivative, but depending on whether theta i and j are the same or not, you see.
+
+1098
+02:01:44,620 --> 02:01:47,620
+ i, you know, you have more than one.
+
+1099
+02:01:47,620 --> 02:01:49,620
+ So, it could be one and two.
+
+1100
+02:01:49,620 --> 02:01:56,620
+ And of course, it will be... you take derivative with respect to say theta one first.
+
+1101
+02:01:56,620 --> 02:02:00,620
+ And after that, you take another derivative with respect to theta two.
+
+1102
+02:02:00,620 --> 02:02:03,620
+ Or vice versa, because these are the same.
+
+1103
+02:02:03,620 --> 02:02:07,620
+ You know, this order doesn't matter.
+
+1104
+02:02:07,620 --> 02:02:10,620
+ Okay?
+
+1105
+02:02:10,620 --> 02:02:14,620
+ Then furthermore, this is the second derivative.
+
+1106
+02:02:14,620 --> 02:02:19,620
+ You take the expectation and must apply the negative sign here.
+
+1107
+02:02:19,620 --> 02:02:25,620
+ Or you can... you see, this is the element.
+
+1108
+02:02:25,620 --> 02:02:34,620
+ You can take the first derivative with respect to j theta i, and then multiply another derivative with respect to j theta j.
+
+1109
+02:02:34,620 --> 02:02:40,620
+ So, this is the multiplication of two first derivatives.
+
+1110
+02:02:40,620 --> 02:02:47,620
+ This one is you're taking the second derivative, one, then after the other.
+
+1111
+02:02:47,620 --> 02:02:49,620
+ So, don't confuse these two, you see.
+
+1112
+02:02:49,620 --> 02:02:51,620
+ They are different.
+
+1113
+02:02:51,620 --> 02:02:52,620
+ Okay?
+
+1114
+02:02:52,620 --> 02:02:54,620
+ Just like early on, we are talking about scale k.
+
+1115
+02:02:54,620 --> 02:02:59,620
+ You take first derivative, then make a power of two.
+
+1116
+02:02:59,620 --> 02:03:00,620
+ Okay?
+
+1117
+02:03:00,620 --> 02:03:05,620
+ And it's different from you take a second derivative.
+
+1118
+02:03:05,620 --> 02:03:08,620
+ So, that's the...
+
+1119
+02:03:08,620 --> 02:03:15,620
+ And you can see this is just an extension of our scalar parameter case.
+
+1120
+02:03:15,620 --> 02:03:16,620
+ Okay?
+
+1121
+02:03:16,620 --> 02:03:23,620
+ And then you follow from that.
+
+1122
+02:03:23,620 --> 02:03:27,620
+ And so, you can see here, you see.
+
+1123
+02:03:27,620 --> 02:03:34,620
+ So, another property is for positive semi-definite matrix.
+
+1124
+02:03:34,620 --> 02:03:38,620
+ Remember, this means this matrix, positive semi-definite.
+
+1125
+02:03:38,620 --> 02:03:47,620
+ Then, we cannot say much about the off-diagonal element, but there is a property.
+
+1126
+02:03:47,620 --> 02:03:55,620
+ You can be sure these diagonal elements, it must be greater or equal to zero.
+
+1127
+02:03:55,620 --> 02:03:57,620
+ It can never be negative value.
+
+1128
+02:03:57,620 --> 02:03:58,620
+ Okay?
+
+1129
+02:03:58,620 --> 02:04:01,620
+ So, you see here, this is the matrix.
+
+1130
+02:04:01,620 --> 02:04:09,620
+ And this, the subscript here, ii, I mean, you are just looking at the diagonal element
+
+1131
+02:04:09,620 --> 02:04:14,620
+ at the one, one, or two, two, or three, three.
+
+1132
+02:04:14,620 --> 02:04:16,620
+ You know, the same ii.
+
+1133
+02:04:16,620 --> 02:04:17,620
+ Okay?
+
+1134
+02:04:18,620 --> 02:04:27,620
+ And in the case of your taking positive definite, say greater than zero, then you also accordingly
+
+1135
+02:04:27,620 --> 02:04:32,620
+ you change it to greater than zero.
+
+1136
+02:04:32,620 --> 02:04:37,620
+ So therefore, you see, looking at this, we cannot conclude from here, but just looking
+
+1137
+02:04:37,620 --> 02:04:44,620
+ at the diagonal element, you see, because what our value of each is, it's more important
+
+1138
+02:04:44,620 --> 02:04:48,620
+ that we only need the diagonal element here.
+
+1139
+02:04:48,620 --> 02:04:53,620
+ Because from here, we can see the value, you see, the diagonal element here.
+
+1140
+02:04:53,620 --> 02:04:59,620
+ Now, we are looking at each of the diagonal elements.
+
+1141
+02:04:59,620 --> 02:05:01,620
+ You will be a scalar.
+
+1142
+02:05:01,620 --> 02:05:08,620
+ So, you can simply say this is the value of this data i hat.
+
+1143
+02:05:08,620 --> 02:05:11,620
+ It could be one, two, three, and so on.
+
+1144
+02:05:11,620 --> 02:05:14,620
+ It must be greater or equal to that.
+
+1145
+02:05:14,620 --> 02:05:17,620
+ This is a normal common sense of numbers.
+
+1146
+02:05:17,620 --> 02:05:21,620
+ You can talk about three is greater than two.
+
+1147
+02:05:21,620 --> 02:05:24,620
+ Or you can say three is greater or equal to two.
+
+1148
+02:05:24,620 --> 02:05:25,620
+ It doesn't matter.
+
+1149
+02:05:25,620 --> 02:05:29,620
+ It includes both greater and equal.
+
+1150
+02:05:29,620 --> 02:05:30,620
+ Yeah.
+
+1151
+02:05:30,620 --> 02:05:38,620
+ So we, anyway, in this case, we get the similar result with our scalar case.
+
+1152
+02:05:38,620 --> 02:05:39,620
+ Yeah.
+
+1153
+02:05:39,620 --> 02:05:41,620
+ But it's a little bit more in both.
+
+1154
+02:05:41,620 --> 02:05:47,620
+ You have to get the whole matrix first, invert the matrix, and after that, you are getting
+
+1155
+02:05:47,620 --> 02:05:48,620
+ that.
+
+1156
+02:05:48,620 --> 02:05:54,620
+ You cannot say I just look at the i theta and take the inverse of each of the elements.
+
+1157
+02:05:54,620 --> 02:05:58,620
+ This is the result, in general, not the same.
+
+1158
+02:05:58,620 --> 02:06:05,620
+ Except if the official information matrix is diagonal, diagonal matrix.
+
+1159
+02:06:05,620 --> 02:06:06,620
+ Yeah.
+
+1160
+02:06:06,620 --> 02:06:18,620
+ Actually, there is some past year paper showing the difference between inverse first, take
+
+1161
+02:06:18,620 --> 02:06:21,620
+ the diagonal element, or you don't inverse.
+
+1162
+02:06:21,620 --> 02:06:24,620
+ You directly take the inverse of each of the elements.
+
+1163
+02:06:24,620 --> 02:06:27,620
+ They will be different in general.
+
+1164
+02:06:27,620 --> 02:06:28,620
+ Okay.
+
+1165
+02:06:28,620 --> 02:06:34,620
+ Then after that, we have a similar result as what we showed before.
+
+1166
+02:06:34,620 --> 02:06:38,620
+ We will say if and only if.
+
+1167
+02:06:38,620 --> 02:06:44,620
+ Then you need to be able to factorize this first derivative.
+
+1168
+02:06:44,620 --> 02:06:48,620
+ Again, as a product, but now it's more complicated.
+
+1169
+02:06:48,620 --> 02:06:50,620
+ The product of what?
+
+1170
+02:06:50,620 --> 02:06:54,620
+ Product of official information matrix.
+
+1171
+02:06:54,620 --> 02:06:55,620
+ This is a matrix.
+
+1172
+02:06:55,620 --> 02:06:59,620
+ And this is a vector, because this is a vector.
+
+1173
+02:06:59,620 --> 02:07:07,620
+ So a matrix multiplied by a vector, it will become still the same vector.
+
+1174
+02:07:07,620 --> 02:07:13,620
+ Of course, we assume this matrix must be a square matrix.
+
+1175
+02:07:13,620 --> 02:07:15,620
+ Okay.
+
+1176
+02:07:15,620 --> 02:07:17,620
+ Then we start.
+
+1177
+02:07:17,620 --> 02:07:19,620
+ What next?
+
+1178
+02:07:19,620 --> 02:07:25,620
+ You see, so the result here is similar to what we discussed earlier.
+
+1179
+02:07:26,620 --> 02:07:28,620
+ Assume we can do that.
+
+1180
+02:07:28,620 --> 02:07:31,620
+ Then we already done, you see.
+
+1181
+02:07:31,620 --> 02:07:35,620
+ But pay attention.
+
+1182
+02:07:35,620 --> 02:07:41,620
+ This is vector function, you see, depending on the data only.
+
+1183
+02:07:41,620 --> 02:07:46,620
+ Where this matrix is depending on the data only.
+
+1184
+02:07:46,620 --> 02:07:50,620
+ Or of course, it can be just a constant matrix.
+
+1185
+02:07:50,620 --> 02:07:54,620
+ But as long as it doesn't depend on the data, it's fine.
+
+1186
+02:07:54,620 --> 02:07:56,620
+ Okay.
+
+1187
+02:07:56,620 --> 02:08:00,620
+ And then after that, we are done, you see.
+
+1188
+02:08:00,620 --> 02:08:08,620
+ Our MBE, actually this one, not just MBE, is also an efficient estimate.
+
+1189
+02:08:08,620 --> 02:08:11,620
+ It's given by this, simply this function.
+
+1190
+02:08:11,620 --> 02:08:13,620
+ And this makes sense.
+
+1191
+02:08:13,620 --> 02:08:15,620
+ It depends on the data only.
+
+1192
+02:08:15,620 --> 02:08:16,620
+ Okay.
+
+1193
+02:08:16,620 --> 02:08:19,620
+ Not depending on the unknown parameter.
+
+1194
+02:08:19,620 --> 02:08:21,620
+ Okay.
+
+1195
+02:08:21,620 --> 02:08:27,620
+ Furthermore, the covariant matrix, just take the inverse of this.
+
+1196
+02:08:27,620 --> 02:08:31,620
+ Again, the proof you can see in the appendix.
+
+1197
+02:08:31,620 --> 02:08:36,620
+ But I will say this is a much more difficult one.
+
+1198
+02:08:36,620 --> 02:08:43,620
+ If you can figure out by yourself and prove every step of this matrix case,
+
+1199
+02:08:43,620 --> 02:08:51,620
+ you are probably, you don't need to come to study this course.
+
+1200
+02:08:51,620 --> 02:08:56,620
+ Because that will contain quite a few difficult parts into that.
+
+1201
+02:08:56,620 --> 02:08:58,620
+ Okay.
+
+1202
+02:08:58,620 --> 02:08:59,620
+ I forgot.
+
+1203
+02:08:59,620 --> 02:09:04,620
+ Or I will say you can save, study by yourself without any problem.
+
+1204
+02:09:04,620 --> 02:09:08,620
+ Again, we come back to an example.
+
+1205
+02:09:08,620 --> 02:09:13,620
+ This is a matrix case.
+
+1206
+02:09:13,620 --> 02:09:19,620
+ We are dealing with two unknown parameters, A and B.
+
+1207
+02:09:19,620 --> 02:09:23,620
+ And then this is line fitting.
+
+1208
+02:09:23,620 --> 02:09:30,620
+ I mean, instead of, you see, previously we are looking at just one constant.
+
+1209
+02:09:30,620 --> 02:09:34,620
+ Now we add this linear term.
+
+1210
+02:09:34,620 --> 02:09:38,620
+ This, if you think about this, it's a DC.
+
+1211
+02:09:38,620 --> 02:09:43,620
+ And the DC itself is, it's got to be a straight line.
+
+1212
+02:09:43,620 --> 02:09:46,620
+ It's a linear depending on N.
+
+1213
+02:09:46,620 --> 02:09:50,620
+ N increased from 0, 1, 2, and so on.
+
+1214
+02:09:50,620 --> 02:09:57,620
+ So this whole value, it will increase linearly.
+
+1215
+02:09:57,620 --> 02:09:59,620
+ That's it.
+
+1216
+02:10:00,620 --> 02:10:08,620
+ So again, we follow similar derivation in this part.
+
+1217
+02:10:08,620 --> 02:10:16,620
+ And now we have two unknown, you see, parameters put together as a vector.
+
+1218
+02:10:16,620 --> 02:10:19,620
+ And so this one is the same as before.
+
+1219
+02:10:19,620 --> 02:10:23,620
+ You see, except now you see our so-called mean value here.
+
+1220
+02:10:23,620 --> 02:10:30,620
+ So you have to take each of the N, you replace by A plus BN.
+
+1221
+02:10:30,620 --> 02:10:38,620
+ And then again, you have to be careful because here we have two unknown parameters.
+
+1222
+02:10:38,620 --> 02:10:49,620
+ So you need to take the first derivative with respect to A and B respectively.
+
+1223
+02:10:49,620 --> 02:11:03,620
+ So let's look at the regularity condition first before we go further.
+
+1224
+02:11:03,620 --> 02:11:09,620
+ So here, if we take expectation of this one.
+
+1225
+02:11:09,620 --> 02:11:11,620
+ So what do we get?
+
+1226
+02:11:12,620 --> 02:11:14,620
+ So we get a prime expectation.
+
+1227
+02:11:14,620 --> 02:11:18,620
+ Then our, you know, this is a linear operator.
+
+1228
+02:11:18,620 --> 02:11:20,620
+ You're bringing this summation.
+
+1229
+02:11:20,620 --> 02:11:24,620
+ Then E of this XN is equal to A plus BA.
+
+1230
+02:11:24,620 --> 02:11:26,620
+ This is 0 mean.
+
+1231
+02:11:26,620 --> 02:11:29,620
+ And then it can show this one, you see.
+
+1232
+02:11:29,620 --> 02:11:34,620
+ So your minus A plus BA then becomes 0.
+
+1233
+02:11:34,620 --> 02:11:38,620
+ So you are summing all the 0, still become 0.
+
+1234
+02:11:38,620 --> 02:11:40,620
+ This one, okay, satisfied.
+
+1235
+02:11:40,620 --> 02:11:41,620
+ But no, enough.
+
+1236
+02:11:41,620 --> 02:11:45,620
+ We need to take the E of this second element.
+
+1237
+02:11:45,620 --> 02:11:48,620
+ Now this is 2 by 1 vector.
+
+1238
+02:11:48,620 --> 02:11:50,620
+ So what do we get?
+
+1239
+02:11:50,620 --> 02:11:55,620
+ Again, the difference here and here is only have this N here.
+
+1240
+02:11:55,620 --> 02:12:00,620
+ But N is index, it's deterministic.
+
+1241
+02:12:00,620 --> 02:12:03,620
+ You just mean 1, 2, 3, and so on.
+
+1242
+02:12:03,620 --> 02:12:06,620
+ So you're, of course, also 0.
+
+1243
+02:12:06,620 --> 02:12:10,620
+ So you can still bring in this E inside here.
+
+1244
+02:12:10,620 --> 02:12:12,620
+ Just simply multiply N.
+
+1245
+02:12:12,620 --> 02:12:16,620
+ Then again, similar to that, this one, after you apply E,
+
+1246
+02:12:16,620 --> 02:12:19,620
+ you will become 0, okay.
+
+1247
+02:12:19,620 --> 02:12:27,620
+ So now you agree the regularity condition is satisfied.
+
+1248
+02:12:27,620 --> 02:12:31,620
+ Okay.
+
+1249
+02:12:31,620 --> 02:12:35,620
+ Then furthermore, you see.
+
+1250
+02:12:35,620 --> 02:12:40,620
+ So this example is not too complicated.
+
+1251
+02:12:40,620 --> 02:12:47,620
+ We try to see whether we can directly factorize this vector
+
+1252
+02:12:47,620 --> 02:12:50,620
+ into, let's go back to here.
+
+1253
+02:12:50,620 --> 02:12:51,620
+ Yeah.
+
+1254
+02:12:51,620 --> 02:12:57,620
+ So to see whether we can factorize this in this form.
+
+1255
+02:12:57,620 --> 02:13:04,620
+ So let's, let me show this in case it's easier to look at the other side.
+
+1256
+02:13:05,620 --> 02:13:08,620
+ Okay.
+
+1257
+02:13:08,620 --> 02:13:17,620
+ So how, this is again one of the very simple tricks that you can manipulate.
+
+1258
+02:13:17,620 --> 02:13:23,620
+ So as you can see here, we notice the, as a function of A and B, you see.
+
+1259
+02:13:23,620 --> 02:13:32,620
+ There are this result depending on A and B linearly, you see.
+
+1260
+02:13:32,620 --> 02:13:34,620
+ You know, it's a linear function.
+
+1261
+02:13:34,620 --> 02:13:40,620
+ We don't, linear mean we don't see A squared or B squared or some cross term of A
+
+1262
+02:13:40,620 --> 02:13:42,620
+ multiplied by B, you know.
+
+1263
+02:13:42,620 --> 02:13:51,620
+ So linear mean is just a simple function of A or B or the linear combination of both.
+
+1264
+02:13:51,620 --> 02:14:01,620
+ So, so therefore the way to do is you, you'll combine all those terms depending on A
+
+1265
+02:14:01,620 --> 02:14:08,620
+ and B because as I say, we don't see A squared or B squared or A multiplied by B.
+
+1266
+02:14:08,620 --> 02:14:12,620
+ So whatever, yeah.
+
+1267
+02:14:12,620 --> 02:14:21,620
+ So, so what you need to do is, for example, the first element and of course you factor out those are constant.
+
+1268
+02:14:21,620 --> 02:14:25,620
+ Is it constant mean it's independent of either A or B?
+
+1269
+02:14:25,620 --> 02:14:29,620
+ There's one to be, you put that aside.
+
+1270
+02:14:29,620 --> 02:14:38,620
+ And then what the remaining term will be either depending on A or depending on B or the combination.
+
+1271
+02:14:38,620 --> 02:14:44,620
+ So you just do it accordingly by pulling out this A and B factor.
+
+1272
+02:14:44,620 --> 02:14:49,620
+ So I think this is quite routine, can work out by yourself.
+
+1273
+02:14:49,620 --> 02:14:54,620
+ Similarly, for the second element, you will see this.
+
+1274
+02:14:54,620 --> 02:15:07,620
+ And then here you can make use of the identity because if this is, if you are summing up of A from 0 to A minus 1,
+
+1275
+02:15:07,620 --> 02:15:12,620
+ you can simplify this sum into that.
+
+1276
+02:15:12,620 --> 02:15:14,620
+ Similarly, this one is a bit more complicated.
+
+1277
+02:15:14,620 --> 02:15:20,620
+ I think you may not need to memorize this in case this is a paper.
+
+1278
+02:15:20,620 --> 02:15:23,620
+ This will be given to you.
+
+1279
+02:15:23,620 --> 02:15:28,620
+ You're summing up say 1 power of 2 plus 2 power of 2.
+
+1280
+02:15:28,620 --> 02:15:30,620
+ So you'll get this.
+
+1281
+02:15:30,620 --> 02:15:33,620
+ Put this one in.
+
+1282
+02:15:33,620 --> 02:15:42,620
+ But this is not yet quite in the form of what, you know, will require.
+
+1283
+02:15:42,620 --> 02:15:50,620
+ So you'll try to make it a little bit more compact by looking that as a vector.
+
+1284
+02:15:50,620 --> 02:15:56,620
+ And then you can see this is another vector depending on data, you see here.
+
+1285
+02:15:56,620 --> 02:15:59,620
+ No A or B here.
+
+1286
+02:15:59,620 --> 02:16:02,620
+ So it will be H of X.
+
+1287
+02:16:02,620 --> 02:16:05,620
+ Then the other term here.
+
+1288
+02:16:05,620 --> 02:16:13,620
+ Now this is independent of all the data.
+
+1289
+02:16:13,620 --> 02:16:17,620
+ And actually this is also independent of the data.
+
+1290
+02:16:17,620 --> 02:16:19,620
+ But it doesn't matter.
+
+1291
+02:16:19,620 --> 02:16:22,620
+ We can consider that as a function of theta.
+
+1292
+02:16:22,620 --> 02:16:28,620
+ The constant is a special case of function of theta.
+
+1293
+02:16:28,620 --> 02:16:32,619
+ And then this, of course, this is the vector.
+
+1294
+02:16:32,619 --> 02:16:36,619
+ But this is not quite yet in order to take the form.
+
+1295
+02:16:36,619 --> 02:16:45,619
+ What do we need to do is to put, do a simple manipulation to put it into this form.
+
+1296
+02:16:45,620 --> 02:16:47,620
+ That's very easy.
+
+1297
+02:16:47,620 --> 02:16:51,620
+ We are assuming first this i theta, this matrix invertible.
+
+1298
+02:16:51,620 --> 02:17:04,620
+ So if we let G of X equal to i inverse multiplied by H X, then you can get this form.
+
+1299
+02:17:04,620 --> 02:17:11,620
+ So basically you will be willing to create this i theta.
+
+1300
+02:17:11,620 --> 02:17:16,620
+ You must multiply i theta and the i theta inverse.
+
+1301
+02:17:16,620 --> 02:17:18,620
+ That becomes identity.
+
+1302
+02:17:18,620 --> 02:17:27,620
+ Then you will get the required stent form in this.
+
+1303
+02:17:27,620 --> 02:17:34,620
+ So therefore we can now be sure i of theta equal to this.
+
+1304
+02:17:34,620 --> 02:17:39,620
+ And then from here you can get the inverse of this matrix.
+
+1305
+02:17:39,620 --> 02:17:42,620
+ Because here the off-diagonal element is not zero.
+
+1306
+02:17:42,620 --> 02:17:45,620
+ So you cannot, you will see here.
+
+1307
+02:17:45,620 --> 02:17:49,620
+ Where inverse is not simply inverse these two elements.
+
+1308
+02:17:49,620 --> 02:17:53,620
+ It's more complicated.
+
+1309
+02:17:53,620 --> 02:17:58,620
+ So therefore we get this i theta inverse.
+
+1310
+02:17:58,620 --> 02:18:04,620
+ And then the G of X using the formula, you know how to get this.
+
+1311
+02:18:04,620 --> 02:18:07,620
+ So it's a bit more complicated.
+
+1312
+02:18:07,620 --> 02:18:11,620
+ So therefore once we get this, we're done.
+
+1313
+02:18:11,620 --> 02:18:16,620
+ Our theta H is equal to this G of X.
+
+1314
+02:18:16,620 --> 02:18:18,620
+ But don't you can build.
+
+1315
+02:18:18,620 --> 02:18:21,620
+ This is two by one vector.
+
+1316
+02:18:21,620 --> 02:18:23,620
+ It's not a matrix.
+
+1317
+02:18:23,620 --> 02:18:26,620
+ Everything is added together into one element.
+
+1318
+02:18:26,620 --> 02:18:29,620
+ And this is the second one.
+
+1319
+02:18:30,620 --> 02:18:37,620
+ So therefore in this case this is MbE and also efficient.
+
+1320
+02:18:37,620 --> 02:18:39,620
+ So we are done.
+
+1321
+02:18:39,620 --> 02:18:46,620
+ And then finally we want to get the CLB is...
+
+1322
+02:18:46,620 --> 02:18:50,620
+ The variance of A hat must be greater or equal to that.
+
+1323
+02:18:50,620 --> 02:18:53,620
+ Similarly variance of B hat greater than that.
+
+1324
+02:18:53,620 --> 02:18:55,620
+ How do you get this?
+
+1325
+02:18:55,620 --> 02:18:57,620
+ You need to...
+
+1326
+02:18:57,620 --> 02:19:01,620
+ You cannot say simply take the inverse of this element.
+
+1327
+02:19:01,620 --> 02:19:02,620
+ You will not work.
+
+1328
+02:19:02,620 --> 02:19:04,620
+ You have to inverse the whole matrix.
+
+1329
+02:19:04,620 --> 02:19:08,620
+ And there after that since we already inverse,
+
+1330
+02:19:08,620 --> 02:19:14,620
+ then this is what the variance we should get here.
+
+1331
+02:19:14,620 --> 02:19:15,620
+ Yeah.
+
+1332
+02:19:15,620 --> 02:19:16,620
+ Okay.
+
+1333
+02:19:16,620 --> 02:19:19,620
+ So this is...
+
+1334
+02:19:19,620 --> 02:19:26,620
+ You can see the vector parameter case is a little bit more involved.
+
+1335
+02:19:26,620 --> 02:19:30,620
+ Is it right?
+
+1336
+02:19:30,620 --> 02:19:31,620
+ Okay.
+
+1337
+02:19:31,620 --> 02:19:34,620
+ Any questions at this point?
+
+1338
+02:19:34,620 --> 02:19:38,620
+ So can you follow?
+
+1339
+02:19:38,620 --> 02:19:39,620
+ No.
+
+1340
+02:19:39,620 --> 02:19:40,620
+ Cannot.
+
+1341
+02:19:40,620 --> 02:19:41,620
+ How?
+
+1342
+02:19:41,620 --> 02:19:43,620
+ Which part is difficult?
+
+1343
+02:19:43,620 --> 02:19:48,620
+ The matrix one or the probability one?
+
+1344
+02:19:48,620 --> 02:19:50,620
+ Or...
+
+1345
+02:19:50,620 --> 02:19:55,620
+ All the steps looks like quite standard.
+
+1346
+02:19:55,620 --> 02:19:56,620
+ Is it?
+
+1347
+02:19:56,620 --> 02:19:58,620
+ It's not much.
+
+1348
+02:19:58,620 --> 02:20:01,620
+ And then matrix I assume you have...
+
+1349
+02:20:01,620 --> 02:20:06,620
+ You know how to inverse at least 2 by 2 matrix.
+
+1350
+02:20:06,620 --> 02:20:08,620
+ Also...
+
+1351
+02:20:08,620 --> 02:20:09,620
+ Yeah.
+
+1352
+02:20:09,620 --> 02:20:17,620
+ Maybe how many of you already learned like positive definite?
+
+1353
+02:20:17,620 --> 02:20:22,620
+ The matrix is positive definite or positive semi definite?
+
+1354
+02:20:22,620 --> 02:20:24,620
+ Any concept?
+
+1355
+02:20:24,620 --> 02:20:25,620
+ How many?
+
+1356
+02:20:25,620 --> 02:20:26,620
+ One.
+
+1357
+02:20:26,620 --> 02:20:31,620
+ At least now I give you all...
+
+1358
+02:20:31,620 --> 02:20:33,620
+ I give you all matrix.
+
+1359
+02:20:33,620 --> 02:20:36,620
+ Maybe I will do a quick test.
+
+1360
+02:20:36,620 --> 02:20:53,620
+ Just a little bit time.
+
+1361
+02:20:53,620 --> 02:20:57,620
+ So how is this matrix?
+
+1362
+02:20:57,620 --> 02:21:04,620
+ Positive definite or positive semi definite?
+
+1363
+02:21:04,620 --> 02:21:06,620
+ Or none of that?
+
+1364
+02:21:06,620 --> 02:21:07,620
+ How about this?
+
+1365
+02:21:07,620 --> 02:21:13,620
+ Given a 2 by 2 matrix.
+
+1366
+02:21:13,620 --> 02:21:16,620
+ Any conclusion just by guessing?
+
+1367
+02:21:16,620 --> 02:21:18,620
+ Positive definite.
+
+1368
+02:21:18,620 --> 02:21:20,620
+ Yes, very good.
+
+1369
+02:21:20,620 --> 02:21:25,620
+ So to be positive definite, you see...
+
+1370
+02:21:25,620 --> 02:21:31,620
+ The definition is you have to make sure this...
+
+1371
+02:21:31,620 --> 02:21:39,620
+ The quadratic function assume the 2 by 2 1.
+
+1372
+02:21:39,620 --> 02:21:41,620
+ This is the 2 by 2 element.
+
+1373
+02:21:41,620 --> 02:21:43,620
+ X1, X2.
+
+1374
+02:21:43,620 --> 02:21:46,620
+ So you must...
+
+1375
+02:21:46,620 --> 02:21:53,620
+ For positive definite, this product must be always the quadratic term.
+
+1376
+02:21:53,620 --> 02:22:01,620
+ So this is the matrix A11, A12, A21, A22.
+
+1377
+02:22:01,620 --> 02:22:04,620
+ When you multiply, you become a scalar.
+
+1378
+02:22:04,620 --> 02:22:08,620
+ Because this is row vector multiplied by 2 by 2 matrix,
+
+1379
+02:22:08,620 --> 02:22:10,620
+ multiplied column vector.
+
+1380
+02:22:10,620 --> 02:22:15,620
+ Must be greater or greater than 0 is positive definite.
+
+1381
+02:22:16,620 --> 02:22:23,620
+ For all possible values of say X1, X2.
+
+1382
+02:22:23,620 --> 02:22:24,620
+ Rhoea, of course.
+
+1383
+02:22:24,620 --> 02:22:30,620
+ We are talking about take the Rhoea value.
+
+1384
+02:22:30,620 --> 02:22:36,620
+ But then the difficulty is how can we be sure
+
+1385
+02:22:36,620 --> 02:22:40,620
+ by evaluating all the possible X1, X2 values.
+
+1386
+02:22:40,620 --> 02:22:43,620
+ Take from minus infinity to infinity.
+
+1387
+02:22:43,620 --> 02:22:44,620
+ That's not practical.
+
+1388
+02:22:44,620 --> 02:22:46,620
+ Even you're wrong on computer.
+
+1389
+02:22:46,620 --> 02:22:50,620
+ You're never in, you know, because your Rhoea value,
+
+1390
+02:22:50,620 --> 02:22:54,620
+ Rhoea number are not countable.
+
+1391
+02:22:54,620 --> 02:22:59,620
+ So computer cannot directly solve by exhausting that.
+
+1392
+02:22:59,620 --> 02:23:03,620
+ So there is a very useful trick to verify.
+
+1393
+02:23:03,620 --> 02:23:06,620
+ Just look at this simple example.
+
+1394
+02:23:06,620 --> 02:23:10,620
+ What we need to do here, 2 minus 1 minus 1, 2.
+
+1395
+02:23:10,620 --> 02:23:15,620
+ We only need to test the one by one.
+
+1396
+02:23:15,620 --> 02:23:19,620
+ I mean this is the first diagonal element.
+
+1397
+02:23:19,620 --> 02:23:22,620
+ 2, greater than 0, it's fine.
+
+1398
+02:23:22,620 --> 02:23:27,620
+ Then the second one is you just take the determinant, you see.
+
+1399
+02:23:27,620 --> 02:23:31,620
+ Determinant of this, of this, this matrix.
+
+1400
+02:23:31,620 --> 02:23:36,620
+ How to get the 2 by 2 matrix, the determinant.
+
+1401
+02:23:36,620 --> 02:23:39,620
+ I'm sure everyone know how to do that.
+
+1402
+02:23:39,620 --> 02:23:45,620
+ You know, it's just multiply this, 2 multiplied by 2.
+
+1403
+02:23:45,620 --> 02:23:50,620
+ And then your minus 1 multiplied by minus 1.
+
+1404
+02:23:50,620 --> 02:23:57,620
+ Because you got to 3 minus 1 minus 1 become 1.
+
+1405
+02:23:57,620 --> 02:23:58,620
+ Sorry, sorry.
+
+1406
+02:23:58,620 --> 02:24:00,620
+ 4 minus 1 becomes 3.
+
+1407
+02:24:00,620 --> 02:24:03,620
+ So I'm doing a big jump, jumping to the conclusion.
+
+1408
+02:24:03,620 --> 02:24:06,620
+ So therefore this is, again, greater than 0.
+
+1409
+02:24:06,620 --> 02:24:08,620
+ So that's it.
+
+1410
+02:24:08,620 --> 02:24:10,620
+ This is a finite step.
+
+1411
+02:24:10,620 --> 02:24:14,620
+ Given a matrix, of course, another condition is
+
+1412
+02:24:14,620 --> 02:24:20,620
+ when we talk about positive semi-definite or positive definite matrix,
+
+1413
+02:24:20,620 --> 02:24:24,620
+ must talking about a symmetry matrix.
+
+1414
+02:24:24,620 --> 02:24:32,620
+ If someone give you this minus 1 minus 3,
+
+1415
+02:24:32,620 --> 02:24:37,620
+ then you should say we cannot test this.
+
+1416
+02:24:37,620 --> 02:24:42,620
+ This is not a symmetry matrix.
+
+1417
+02:24:42,620 --> 02:24:52,620
+ Of course, you can convert it here to back to the normal definition by, you see here.
+
+1418
+02:24:52,620 --> 02:24:56,620
+ If you are given this, then to verify,
+
+1419
+02:24:56,620 --> 02:25:03,620
+ you still can do it here for 2 by 2, 2 by 2 matrix.
+
+1420
+02:25:03,620 --> 02:25:04,620
+ Okay?
+
+1421
+02:25:04,620 --> 02:25:11,620
+ Because this is, assuming this is constant 2 by 2 matrix.
+
+1422
+02:25:11,620 --> 02:25:16,620
+ So what you'll do is you'll write this as a quadratic function
+
+1423
+02:25:16,620 --> 02:25:20,620
+ of 2 variable x1, x2, quadratic.
+
+1424
+02:25:20,620 --> 02:25:35,620
+ And any quadratic function, you can rearrange that into the standard form about,
+
+1425
+02:25:35,620 --> 02:25:40,620
+ you see, let me see, about again this x1, x2.
+
+1426
+02:25:40,620 --> 02:25:48,620
+ But now I create a new symmetric matrix for this.
+
+1427
+02:25:48,620 --> 02:25:51,620
+ And then x1, x2.
+
+1428
+02:25:51,620 --> 02:25:59,620
+ So you have, you can create from no asymmetric matrix using this form
+
+1429
+02:25:59,620 --> 02:26:03,620
+ to convert it into another equivalent symmetric matrix.
+
+1430
+02:26:03,620 --> 02:26:10,620
+ Then after that, you can apply what they just say, you know, this method to verify.
+
+1431
+02:26:10,620 --> 02:26:13,620
+ Because in the end, we want to verify this quadratic function
+
+1432
+02:26:13,620 --> 02:26:20,620
+ with it's always greater than zero or greater or equal to zero or so on.
+
+1433
+02:26:20,620 --> 02:26:21,620
+ Okay?
+
+1434
+02:26:21,620 --> 02:26:27,620
+ So I hope maybe you'll go back and, now the internet is very useful.
+
+1435
+02:26:27,620 --> 02:26:33,620
+ At least in Singapore you can use Google.
+
+1436
+02:26:33,620 --> 02:26:39,620
+ I went to China a few days ago after, you know,
+
+1437
+02:26:39,620 --> 02:26:42,620
+ after last Wednesday teaching on Thursday.
+
+1438
+02:26:42,620 --> 02:26:47,620
+ I took a flight to China just back on Monday.
+
+1439
+02:26:47,620 --> 02:26:52,620
+ And then there I think you can use other searching engines
+
+1440
+02:26:52,620 --> 02:26:56,620
+ but not that as powerful as Google.
+
+1441
+02:26:56,620 --> 02:27:04,620
+ So at least here you can do a quick search about how to define linear,
+
+1442
+02:27:04,620 --> 02:27:11,620
+ how to define any algebraic, you know, positive, definite matrix and so on.
+
+1443
+02:27:11,620 --> 02:27:12,620
+ Okay?
+
+1444
+02:27:12,620 --> 02:27:20,620
+ Yeah, I think before ending, I just am a very quick run on this.
+
+1445
+02:27:20,620 --> 02:27:22,620
+ But I won't go into detail.
+
+1446
+02:27:22,620 --> 02:27:30,620
+ It's a bad, it's how you try to figure out how this step by step to do that.
+
+1447
+02:27:30,620 --> 02:27:37,620
+ So this one contains, you know, very useful derivations and some of the property.
+
+1448
+02:27:37,620 --> 02:27:41,620
+ So, and also explain why we need regularity.
+
+1449
+02:27:41,620 --> 02:27:42,620
+ Okay?
+
+1450
+02:27:42,620 --> 02:27:48,620
+ So let's see here we are looking at a scalar case, the easy one.
+
+1451
+02:27:48,620 --> 02:27:51,620
+ And then the data is, observation data is vector,
+
+1452
+02:27:51,620 --> 02:27:55,620
+ then PDF or sometimes called likely function.
+
+1453
+02:27:55,620 --> 02:27:58,620
+ Anyway, it's depending on the data.
+
+1454
+02:27:58,620 --> 02:28:01,620
+ And we try to estimate based on the data.
+
+1455
+02:28:01,620 --> 02:28:05,620
+ And then the true value, just a single one.
+
+1456
+02:28:05,620 --> 02:28:10,620
+ And assuming we are dealing with unbiased estimator.
+
+1457
+02:28:10,620 --> 02:28:20,620
+ And then, so step one is, yeah, this also right now probably how we mathematically,
+
+1458
+02:28:20,620 --> 02:28:25,620
+ we, if you only, how do we define expectation?
+
+1459
+02:28:25,620 --> 02:28:31,620
+ I assume you all know how to do that because you have PDF.
+
+1460
+02:28:31,620 --> 02:28:44,620
+ Then what the meaning here is you are, yeah, you will be trying to integrate this using this PDF as a weighting.
+
+1461
+02:28:44,620 --> 02:28:54,620
+ And then integrate over all the, we are dealing with, you know, real, real, real function.
+
+1462
+02:28:54,620 --> 02:28:56,620
+ So the data are all real.
+
+1463
+02:28:56,620 --> 02:29:03,620
+ But then this, this is depending on how many beta samples, integration will be, if two,
+
+1464
+02:29:03,620 --> 02:29:08,620
+ two value is a double integration, if n, you will be integrate n time.
+
+1465
+02:29:08,620 --> 02:29:09,620
+ You see?
+
+1466
+02:29:09,620 --> 02:29:11,620
+ Yeah, one after the other.
+
+1467
+02:29:11,620 --> 02:29:20,620
+ So the trick here is, you know, we take derivative with theta with xl, okay, one.
+
+1468
+02:29:20,620 --> 02:29:27,620
+ And then here, how you get is you bring this inside, you get this.
+
+1469
+02:29:27,620 --> 02:29:33,620
+ And you know this one, the estimate independent of theta.
+
+1470
+02:29:33,620 --> 02:29:39,620
+ So when you bring this in, you only derivative on this and so on.
+
+1471
+02:29:39,620 --> 02:29:44,620
+ And this is a very useful trick to verify.
+
+1472
+02:29:44,620 --> 02:29:47,620
+ This one is equal to change to this.
+
+1473
+02:29:47,620 --> 02:29:49,620
+ And that's why it's very useful.
+
+1474
+02:29:49,620 --> 02:29:51,620
+ We take the log, you see?
+
+1475
+02:29:51,620 --> 02:29:57,620
+ So let's see, yeah, how do we change from here to here?
+
+1476
+02:29:57,620 --> 02:30:06,620
+ You can verify this always equivalent, of course, assuming this p is greater or equal to zero.
+
+1477
+02:30:06,620 --> 02:30:10,620
+ Because a negative value, you cannot take log.
+
+1478
+02:30:10,620 --> 02:30:16,620
+ So, but then this agree with our PDF definition.
+
+1479
+02:30:16,620 --> 02:30:24,620
+ Therefore, this one very, there will now this regularity condition is useful because e of
+
+1480
+02:30:24,620 --> 02:30:26,620
+ this equal to zero.
+
+1481
+02:30:26,620 --> 02:30:33,620
+ So that means you already get this e equal to that.
+
+1482
+02:30:33,620 --> 02:30:44,620
+ And then the important one here is you see here, you need to assume your integration
+
+1483
+02:30:44,620 --> 02:30:47,620
+ and derivative you can exchange.
+
+1484
+02:30:47,620 --> 02:30:57,620
+ That means your derivative and integrate is the same as your integrate first, then take
+
+1485
+02:30:57,620 --> 02:31:02,620
+ derivative, okay, assuming this one, you can swap.
+
+1486
+02:31:02,620 --> 02:31:05,620
+ So therefore, why is useful?
+
+1487
+02:31:05,620 --> 02:31:13,620
+ Because if I swap the operator, then because this one here will be equal to one, you know?
+
+1488
+02:31:13,620 --> 02:31:19,620
+ You know PDF, you integrate over all the possible value is equal to one.
+
+1489
+02:31:19,620 --> 02:31:23,620
+ And then one, you take derivative of code become zero.
+
+1490
+02:31:23,620 --> 02:31:31,620
+ So therefore, this condition means you are able, you can swap these two operators.
+
+1491
+02:31:31,620 --> 02:31:34,620
+ And that's what we need here.
+
+1492
+02:31:34,620 --> 02:31:42,620
+ So then now using this regularity condition, you can put back into what we did earlier.
+
+1493
+02:31:42,620 --> 02:31:46,620
+ And then we create this one.
+
+1494
+02:31:46,620 --> 02:31:52,620
+ And then after that, you see here, this is positive, greater equal to zero.
+
+1495
+02:31:52,620 --> 02:31:59,620
+ I can make this one as a product of the square root of it and then multiply another square
+
+1496
+02:31:59,620 --> 02:32:00,620
+ root.
+
+1497
+02:32:00,620 --> 02:32:08,620
+ That just means you have two equal to square root of two multiplied by square root of two.
+
+1498
+02:32:08,620 --> 02:32:12,620
+ So why do we want to do this?
+
+1499
+02:32:12,620 --> 02:32:19,620
+ Because we want to use the very useful shuwa in equality.
+
+1500
+02:32:19,620 --> 02:32:25,620
+ This one, because we are not going to read it like this, just assume this is always true.
+
+1501
+02:32:26,620 --> 02:32:31,620
+ Then you apply this to what we have here.
+
+1502
+02:32:31,620 --> 02:32:38,620
+ Then you see, so remember there is a power of two here.
+
+1503
+02:32:38,620 --> 02:32:45,620
+ So then you just think about this one is here, here.
+
+1504
+02:32:45,620 --> 02:32:49,620
+ Because once make power of two, stay equal to one.
+
+1505
+02:32:49,620 --> 02:32:53,620
+ So we have this and then you apply into this.
+
+1506
+02:32:53,620 --> 02:32:56,620
+ So that means we have two functions here.
+
+1507
+02:32:56,620 --> 02:33:03,620
+ f of x is this one, where h of x is this one.
+
+1508
+02:33:03,620 --> 02:33:08,620
+ So you see here, this one you make power of two.
+
+1509
+02:33:08,620 --> 02:33:11,620
+ Then this factor becomes power of two.
+
+1510
+02:33:11,620 --> 02:33:18,620
+ And now this square root, the text square root, power of two, becomes, of course, going back to itself.
+
+1511
+02:33:18,620 --> 02:33:25,620
+ Similarly, for this one, then you have power of two and then you have the v here.
+
+1512
+02:33:25,620 --> 02:33:31,620
+ And therefore, you see this is the definition of the variance in this one.
+
+1513
+02:33:31,620 --> 02:33:37,620
+ So what we do is divide this one into that.
+
+1514
+02:33:37,620 --> 02:33:40,620
+ So we get our CLP.
+
+1515
+02:33:40,620 --> 02:33:45,620
+ That's how this is, you know, divide here.
+
+1516
+02:33:45,620 --> 02:33:54,620
+ And then furthermore, we want to see because why we do not stop here.
+
+1517
+02:33:54,620 --> 02:33:59,620
+ Because later you will see, at least from your homework assignment,
+
+1518
+02:33:59,620 --> 02:34:06,620
+ you will see to get this one is much more involved to raise the power,
+
+1519
+02:34:06,620 --> 02:34:11,620
+ first derivative raise the power of two and then to integrate.
+
+1520
+02:34:11,620 --> 02:34:21,620
+ It's much more difficult than you take the second derivative and then take the expectation and take the minus sign.
+
+1521
+02:34:21,620 --> 02:34:29,620
+ Because typically when you take the second derivative, you can simplify quite some term.
+
+1522
+02:34:29,620 --> 02:34:38,620
+ It's making it easier rather than you raise the power of two of the first derivative.
+
+1523
+02:34:38,620 --> 02:34:42,620
+ So that's how, yeah.
+
+1524
+02:34:42,620 --> 02:34:48,620
+ And then, again, you apply the regular condition and the so-called chain rules,
+
+1525
+02:34:48,620 --> 02:34:52,620
+ you will get this result.
+
+1526
+02:34:52,620 --> 02:34:59,620
+ So you get the same except you replace the early one with this.
+
+1527
+02:34:59,620 --> 02:35:01,620
+ This is easier to get.
+
+1528
+02:35:01,620 --> 02:35:13,620
+ And then here, you see the inequality, you want to make the equality hold become equal.
+
+1529
+02:35:13,620 --> 02:35:19,620
+ Then the two functions must satisfy this condition, you see.
+
+1530
+02:35:19,620 --> 02:35:29,620
+ Because our function is with respect to, you know, you see to the variable x.
+
+1531
+02:35:29,620 --> 02:35:33,620
+ Whatever independent of x is considered as a constant.
+
+1532
+02:35:33,620 --> 02:35:41,620
+ Therefore, if this satisfy, then you differentiate this further, you will get this.
+
+1533
+02:35:41,620 --> 02:35:44,620
+ That's a very simple rule.
+
+1534
+02:35:44,620 --> 02:35:47,620
+ Remember, you need to take expectation.
+
+1535
+02:35:47,620 --> 02:35:53,620
+ And that's why I say after taking expectation, the result become much simpler.
+
+1536
+02:35:53,620 --> 02:35:55,620
+ You only have this.
+
+1537
+02:35:55,620 --> 02:36:02,620
+ And then finally, the feature information, it will be just equal to this.
+
+1538
+02:36:02,620 --> 02:36:04,620
+ And minimum value will be here.
+
+1539
+02:36:04,620 --> 02:36:10,620
+ So that's how you derive this CLB for the scalar case.
+
+1540
+02:36:10,620 --> 02:36:21,620
+ And matrix case is similar, but then it's more complicated because you're involving some of the matrix manipulation.
+
+1541
+02:36:21,620 --> 02:36:24,620
+ So, yeah, you see here.
+
+1542
+02:36:24,620 --> 02:36:27,620
+ So I will not go through that.
+
+1543
+02:36:27,620 --> 02:36:36,620
+ And I, of course, ideally if you can work out and it will be good, but otherwise this is not required.
+
+1544
+02:36:36,620 --> 02:36:39,620
+ It will find difficult.
+
+1545
+02:36:39,620 --> 02:36:40,620
+ Yeah.
+
+1546
+02:36:40,620 --> 02:36:41,620
+ Okay.
+
+1547
+02:36:41,620 --> 02:36:43,620
+ So I think it's a lot of time to finish here.
+
+1548
+02:36:43,620 --> 02:36:49,620
+ I know that if you leave a big lake, the queue for taking part is very long.
+
+1549
+02:36:49,620 --> 02:36:52,620
+ So it's just probably 10 minutes earlier.
+
+1550
+02:36:52,620 --> 02:36:56,620
+ At least it may be the long queue.
+
+1551
+02:36:56,620 --> 02:36:57,620
+ Hopefully.
+
+1552
+02:36:57,620 --> 02:37:00,620
+ Anyway, yeah, all the best.
+
+1553
+02:37:00,620 --> 02:37:07,620
+ And yeah, so I hope to see you, all of you next week.
+
+1554
+02:37:07,620 --> 02:37:11,620
+ If you don't drop out, still have a few hours to decide.
+
+1555
+02:37:11,620 --> 02:37:12,620
+ Okay.
+
+1556
+02:37:12,620 --> 02:37:13,620
+ Okay.
+
+1557
+02:37:13,620 --> 02:37:16,620
+ All the best.
+
+1558
+02:37:17,620 --> 02:37:19,620
+ Any question?
+
+1559
+02:37:19,620 --> 02:37:20,620
+ Okay.
+
+1560
+02:37:20,620 --> 02:37:21,620
+ Stay back here.
+
+1561
+02:37:46,620 --> 02:37:47,620
+ Okay.
+
+1562
+02:38:16,620 --> 02:38:17,620
+ Okay.
+
+1563
+02:38:46,620 --> 02:38:47,620
+ Okay.
+
+1564
+02:39:16,620 --> 02:39:17,620
+ Okay.
+
+1565
+02:39:46,620 --> 02:39:47,620
+ Okay.
+
+1566
+02:40:16,620 --> 02:40:17,620
+ Okay.
+
+1567
+02:40:46,620 --> 02:40:48,620
+ Okay.
+
+1568
+02:41:16,620 --> 02:41:17,620
+ Okay.
+
+1569
+02:41:46,620 --> 02:41:48,620
+ Okay.
+
+1570
+02:42:16,620 --> 02:42:17,620
+ Okay.
+
+1571
+02:42:46,620 --> 02:42:48,620
+ Okay.
+
+1572
+02:43:16,620 --> 02:43:17,620
+ Okay.
+
+1573
+02:43:46,620 --> 02:43:48,620
+ Okay.
+
+1574
+02:44:16,620 --> 02:44:17,620
+ Okay.
+
+1575
+02:44:46,620 --> 02:44:48,620
+ Okay.
+
+1576
+02:45:16,620 --> 02:45:17,620
+ Okay.
+
+1577
+02:45:46,620 --> 02:45:48,620
+ Okay.
+
+1578
+02:46:16,620 --> 02:46:17,620
+ Okay.
+
+1579
+02:46:46,620 --> 02:46:48,620
+ Okay.
+
+1580
+02:47:16,620 --> 02:47:17,620
+ Okay.
+
+1581
+02:47:46,620 --> 02:47:48,620
+ Okay.
+
+1582
+02:48:16,620 --> 02:48:17,620
+ Okay.
+
+1583
+02:48:46,620 --> 02:48:48,620
+ Okay.
+
+1584
+02:49:16,620 --> 02:49:18,620
+ Okay.
+
+1585
+02:49:46,620 --> 02:49:48,620
+ Okay.
+
+1586
+02:50:16,620 --> 02:50:18,620
+ Okay.
+
+1587
+02:50:46,620 --> 02:50:48,620
+ Okay.
+
+1588
+02:51:16,620 --> 02:51:18,620
+ Okay.
+
+1589
+02:51:46,620 --> 02:51:48,620
+ Okay.
+
+1590
+02:52:16,620 --> 02:52:18,620
+ Okay.
+
+1591
+02:52:46,620 --> 02:52:48,620
+ Okay.
+
+1592
+02:53:16,620 --> 02:53:18,620
+ Okay.
+
+1593
+02:53:46,620 --> 02:53:48,620
+ Okay.
+
+1594
+02:54:16,620 --> 02:54:18,620
+ Okay.
+
+1595
+02:54:46,620 --> 02:54:48,620
+ Okay.
+
+1596
+02:55:16,620 --> 02:55:18,620
+ Okay.
+
+1597
+02:55:46,620 --> 02:55:48,620
+ Okay.
+
+1598
+02:56:16,620 --> 02:56:18,620
+ Okay.
+
+1599
+02:56:46,620 --> 02:56:48,620
+ Okay.
+
+1600
+02:57:16,620 --> 02:57:18,620
+ Okay.
+
+1601
+02:57:46,620 --> 02:57:48,620
+ Okay.
+
+1602
+02:58:16,620 --> 02:58:18,620
+ Okay.
+
+1603
+02:58:46,620 --> 02:58:48,620
+ Okay.
+
+1604
+02:59:16,620 --> 02:59:18,620
+ Okay.
+
+1605
+02:59:46,620 --> 02:59:48,620
+ Okay.
+

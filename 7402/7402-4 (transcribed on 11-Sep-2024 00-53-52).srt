@@ -1,0 +1,6832 @@
+1
+00:02:30,000 --> 00:02:52,120
+ The
+
+2
+00:02:52,120 --> 00:02:54,120
+ Interesting.
+
+3
+00:02:54,120 --> 00:02:57,120
+ Looks very dark.
+
+4
+00:02:57,120 --> 00:02:59,120
+ Let's see.
+
+5
+00:02:59,120 --> 00:03:01,120
+ What we can do here.
+
+6
+00:03:01,120 --> 00:03:18,120
+ Okay.
+
+7
+00:03:18,120 --> 00:03:24,120
+ The class of Tangdeng Lease has finally been released.
+
+8
+00:03:24,120 --> 00:03:31,120
+ It's very interesting to see this year this class.
+
+9
+00:03:31,120 --> 00:03:39,120
+ We have a majority of students from the MSc Com engineering.
+
+10
+00:03:39,120 --> 00:03:48,120
+ We have about 160 students, and then among them probably about 100 from Com.
+
+11
+00:03:48,120 --> 00:03:59,120
+ This class was supposed to be the SP ML course, now it becomes more or less like a Com course.
+
+12
+00:03:59,120 --> 00:04:09,120
+ Anyway, on the other side I realized, because I reviewed some new African students from Com background,
+
+13
+00:04:09,120 --> 00:04:20,120
+ Tangdeng took similar courses before, maybe at the undergraduate level, like the detection and estimation theory, so on.
+
+14
+00:04:20,120 --> 00:04:30,120
+ So in a sense it's perhaps easier, so that could explain the reason.
+
+15
+00:04:31,120 --> 00:04:55,120
+ Anyway, as I said, this new challenge, this year we have many more students, and particularly this course, we have almost a triple of what we had before in early years.
+
+16
+00:04:55,120 --> 00:05:04,120
+ Okay, so I hope this one should be working.
+
+17
+00:05:04,120 --> 00:05:13,120
+ It's still working here, but let's see, because I want to do some writing.
+
+18
+00:05:13,120 --> 00:05:18,120
+ Okay, let's see how.
+
+19
+00:05:18,120 --> 00:05:20,120
+ Finally it works.
+
+20
+00:05:20,120 --> 00:05:23,120
+ Very interesting.
+
+21
+00:05:23,120 --> 00:05:49,120
+ Okay.
+
+22
+00:05:49,120 --> 00:05:56,120
+ Okay, let's get started.
+
+23
+00:05:56,120 --> 00:06:10,120
+ By now we finished three weeks, and today is week four, and my plans are based on the progress,
+
+24
+00:06:10,120 --> 00:06:17,120
+ and because of the much larger size also from different background.
+
+25
+00:06:17,120 --> 00:06:31,120
+ So my plan is we will finish part one, we have another three weeks to go, about by end of week six,
+
+26
+00:06:31,120 --> 00:06:39,120
+ or perhaps we need a little bit more time, we can use half of week seven.
+
+27
+00:06:39,120 --> 00:06:50,120
+ And then after that, next week I will give the assignment, the homework assignment, since you have learned by next week,
+
+28
+00:06:50,120 --> 00:07:02,120
+ we find you learn most of this part one, and then we'll take another five to six weeks for the part two.
+
+29
+00:07:02,120 --> 00:07:12,120
+ So that's, and then usually I leave the week 13 as revisions and questioning and answering and so on.
+
+30
+00:07:12,120 --> 00:07:25,120
+ And we can also add in a little bit about additional material, like carbon filter, but it's just at the initial taxon level,
+
+31
+00:07:25,120 --> 00:07:36,120
+ not to go by in terms, so that's about the plan.
+
+32
+00:07:36,120 --> 00:08:00,120
+ Okay, before going, I want to clarify some of the questions last week about how to differentiate this.
+
+33
+00:08:00,120 --> 00:08:16,120
+ Yeah, that's how some students ask me the question, and this is also a good exercise to get familiar with mainly the matrix operation.
+
+34
+00:08:16,120 --> 00:08:40,120
+ And if you recall, I also upload, you can double check with me whether the matrix calculus already, I already from my side can see from the,
+
+35
+00:08:40,120 --> 00:08:49,120
+ in until learn, but in case you cannot open or so, you can let me know.
+
+36
+00:08:49,120 --> 00:09:12,120
+ That's the one, I think not in this folder, I can go up a little bit in the appendix.
+
+37
+00:09:12,120 --> 00:09:16,120
+ Anyway, I think probably no need this, we can just take a look at this.
+
+38
+00:09:16,120 --> 00:09:31,120
+ So there are two ways to address this, how to derive from the, with respect to a vector.
+
+39
+00:09:31,120 --> 00:09:58,120
+ So let's do a very quick review about the, for example, your, your familiar with like scalar, you see, if I have just looked looking at a scalar, you see, a scalar function, let me try to focus.
+
+40
+00:09:58,120 --> 00:10:05,120
+ Then everyone knows this is undergraduate year one math and so on.
+
+41
+00:10:05,120 --> 00:10:12,120
+ So for example, if I have x square divided by x, because everyone knows, it will be two x.
+
+42
+00:10:12,120 --> 00:10:20,120
+ So polynomial, you'll just get, you'll get down one, one degree.
+
+43
+00:10:21,120 --> 00:10:39,120
+ In matrix, we have like similar operation, but the main difference between scalar and matrix is usually you cannot, you cannot swap for scalar.
+
+44
+00:10:39,120 --> 00:10:46,120
+ So if you cannot say you multiply by b, you will be equal to b multiplied by u.
+
+45
+00:10:46,120 --> 00:10:50,120
+ So this is very, very simple and very useful.
+
+46
+00:10:50,120 --> 00:11:05,120
+ Then the derivation, you can, for example, with respect to x, assuming both are functions of x, then you're just doing either the first one,
+
+47
+00:11:05,120 --> 00:11:11,120
+ derive the second plus, derive the first, keep the second.
+
+48
+00:11:11,120 --> 00:11:13,120
+ I think you all know this rule.
+
+49
+00:11:13,120 --> 00:11:26,120
+ The main difference in matrix is if you have two matrix in general, you see, you cannot just simply swap.
+
+50
+00:11:26,120 --> 00:11:30,120
+ So this is one thing very fundamental.
+
+51
+00:11:30,120 --> 00:11:32,120
+ You need to, you need to take note.
+
+52
+00:11:32,120 --> 00:11:37,120
+ And that's also why I spend quite some time, you see, looking at for matrix.
+
+53
+00:11:37,120 --> 00:11:45,120
+ Very often we, we need to make sure the dimension as you match and you do it correctly.
+
+54
+00:11:45,120 --> 00:11:50,120
+ And that's, that's why I feel useful through this course.
+
+55
+00:11:50,120 --> 00:11:53,120
+ I, this, I emphasize this.
+
+56
+00:11:53,120 --> 00:11:58,120
+ For example, if you can, you can have this.
+
+57
+00:11:58,120 --> 00:12:01,120
+ You see, you don't need to write down.
+
+58
+00:12:01,120 --> 00:12:14,120
+ Very often you will see, you use this as a guideline to check the dimension and, and this is simple techniques that we will use very often.
+
+59
+00:12:14,120 --> 00:12:18,120
+ You see, it will be different from you, you do the other way around.
+
+60
+00:12:18,120 --> 00:12:19,120
+ Okay.
+
+61
+00:12:19,120 --> 00:12:27,120
+ So you have the same, same matrix, roughly the same, but you multiply from the left first and followed by the other one.
+
+62
+00:12:27,120 --> 00:12:29,120
+ It's different.
+
+63
+00:12:29,120 --> 00:12:42,120
+ And that's also, also what I emphasize here, you see, a model of a b not equal to b model of a, if the dimension doesn't match.
+
+64
+00:12:42,120 --> 00:12:43,120
+ Okay.
+
+65
+00:12:43,120 --> 00:12:48,120
+ And then let's come back to this.
+
+66
+00:12:48,120 --> 00:13:00,120
+ So if you look at the, at the derivation there, we, we go back to this.
+
+67
+00:13:00,120 --> 00:13:11,120
+ You can, when you take derivation, derivation with respect to theta, as you ignore the constant, just keep, keep it there.
+
+68
+00:13:11,120 --> 00:13:25,120
+ So what we are looking at is x minus h theta and then transpose x minus h, h theta.
+
+69
+00:13:25,120 --> 00:13:30,120
+ So, so there are first we check the, check the dimension.
+
+70
+00:13:30,120 --> 00:13:36,120
+ This, this one, the dimension should be the same as, as a h.
+
+71
+00:13:36,120 --> 00:13:37,120
+ Okay.
+
+72
+00:13:37,120 --> 00:13:49,120
+ Because h is the only vector standing out where theta is a vector, but the, our edge usually is a not square matrix.
+
+73
+00:13:49,120 --> 00:13:56,120
+ So, so this one after multiplication, you will get the same dimension with h.
+
+74
+00:13:56,120 --> 00:13:57,120
+ Okay.
+
+75
+00:13:58,120 --> 00:14:09,120
+ And then if you first, if you reduce this, assume all these edge, x, h, theta, they are all scalar.
+
+76
+00:14:09,120 --> 00:14:10,120
+ So what do we have?
+
+77
+00:14:10,120 --> 00:14:23,120
+ You will have the very special case because in, in scalar, you, you do not difference here with transpose.
+
+78
+00:14:23,120 --> 00:14:27,120
+ So transpose is equal to itself and everything becomes a scalar.
+
+79
+00:14:27,120 --> 00:14:34,120
+ Then you will have the simple case of like the polynomial with respect to, respect to theta.
+
+80
+00:14:34,120 --> 00:14:44,120
+ So, so usually you can always try to make the, make it as a special case of scalar function and then get the result.
+
+81
+00:14:44,120 --> 00:14:50,120
+ And then you will see in the matrix case whether you will be the same or there is a different.
+
+82
+00:14:50,120 --> 00:14:56,120
+ So, so that's how you will be derivative with this in the, in a scalar case.
+
+83
+00:14:56,120 --> 00:15:02,120
+ I mean, you all know this is twice and then you copy this because it's polynomial.
+
+84
+00:15:02,120 --> 00:15:07,120
+ And then you'll need to remember you have this minus, minus h.
+
+85
+00:15:07,120 --> 00:15:08,120
+ Okay.
+
+86
+00:15:08,120 --> 00:15:18,120
+ So this is the scalar case and we will expect we have something similar in this matrix case.
+
+87
+00:15:18,120 --> 00:15:30,120
+ And it really turns out to be almost the same except you'll have to, for a scalar case, you can put the, either this edge being a scalar.
+
+88
+00:15:30,120 --> 00:15:35,120
+ You see, you can put it on the, on the left or on the right.
+
+89
+00:15:35,120 --> 00:15:37,120
+ It doesn't matter as you will all familiar.
+
+90
+00:15:37,120 --> 00:15:40,120
+ But for matrix, you cannot do that.
+
+91
+00:15:40,120 --> 00:15:44,120
+ You have to follow whether it's on the left or on the right.
+
+92
+00:15:44,120 --> 00:15:45,120
+ Okay.
+
+93
+00:15:45,120 --> 00:15:50,120
+ So this is something, you know, the first thing you need to take care.
+
+94
+00:15:50,120 --> 00:16:04,120
+ And then the easiest way to solve that problem is as I mentioned to some students, you can expand it.
+
+95
+00:16:04,120 --> 00:16:10,120
+ You see, you, you'll expand it or play on the transpose.
+
+96
+00:16:10,120 --> 00:16:13,120
+ You see, you also need to be, to be careful.
+
+97
+00:16:13,120 --> 00:16:16,120
+ You have x minus h theta.
+
+98
+00:16:16,120 --> 00:16:18,120
+ Then you take the transpose.
+
+99
+00:16:18,120 --> 00:16:22,120
+ The transpose operation is for one item is linear.
+
+100
+00:16:22,120 --> 00:16:30,120
+ Just putting, if you have a plus b or take the first one, transpose, and then keep the minus side, of course.
+
+101
+00:16:30,120 --> 00:16:34,120
+ Then here, this is something very important.
+
+102
+00:16:34,120 --> 00:16:39,120
+ I'm not sure how many of you remember this.
+
+103
+00:16:39,120 --> 00:16:40,120
+ Okay.
+
+104
+00:16:40,120 --> 00:16:51,120
+ So if you are transfer, a product of two matrix, you must remember you, you take the one, if you have two, the last one,
+
+105
+00:16:51,120 --> 00:16:54,120
+ transfer it first.
+
+106
+00:16:54,120 --> 00:16:55,120
+ Okay.
+
+107
+00:16:55,120 --> 00:17:01,120
+ And then after that, you'll do the transfer of the, of the, of the first one.
+
+108
+00:17:01,120 --> 00:17:03,120
+ So, so these two must follow.
+
+109
+00:17:03,120 --> 00:17:04,119
+ Okay.
+
+110
+00:17:04,119 --> 00:17:05,119
+ You cannot swap.
+
+111
+00:17:05,119 --> 00:17:07,119
+ I cannot say, or I take the edge transfer.
+
+112
+00:17:07,119 --> 00:17:09,119
+ Then you'll get something totally wrong.
+
+113
+00:17:09,119 --> 00:17:16,119
+ If you don't believe you use my so-called magic box, I call this box, just like the black box.
+
+114
+00:17:16,119 --> 00:17:18,119
+ You only need to know the dynamics.
+
+115
+00:17:18,119 --> 00:17:19,119
+ Okay.
+
+116
+00:17:19,119 --> 00:17:27,119
+ So this is a, this is a very important that you can see one of the major difference between a scalar,
+
+117
+00:17:27,119 --> 00:17:30,120
+ a scalar variable operation and magic.
+
+118
+00:17:30,120 --> 00:17:38,120
+ So if you do that right, then you should get more or less you solve the problem.
+
+119
+00:17:38,120 --> 00:17:46,120
+ Then in terms of multiplication, again, it's again similar to scalar, but you need to follow, follow the order.
+
+120
+00:17:46,120 --> 00:17:51,120
+ For example, you, you do this X transfer multiplied by X.
+
+121
+00:17:51,120 --> 00:17:56,120
+ So you're, so you need to keep this is left first, then you follow by the right.
+
+122
+00:17:56,120 --> 00:17:59,120
+ You cannot say it will become edge multiplied by edge transfer.
+
+123
+00:17:59,120 --> 00:18:01,120
+ It will totally wrong again.
+
+124
+00:18:01,120 --> 00:18:08,120
+ So again, the next one, I do this one first, transfer X transfer, etc.
+
+125
+00:18:08,120 --> 00:18:13,120
+ And then after that, you have minor, etc.
+
+126
+00:18:13,120 --> 00:18:15,120
+ Yes, X.
+
+127
+00:18:15,120 --> 00:18:25,120
+ Then finally, this is a CTA transfer edge transfer edge and then follow by CTA.
+
+128
+00:18:25,120 --> 00:18:26,120
+ All right.
+
+129
+00:18:26,120 --> 00:18:33,120
+ So there are, there are several useful property here before you even simplify further.
+
+130
+00:18:33,120 --> 00:18:34,120
+ You see.
+
+131
+00:18:34,120 --> 00:18:40,120
+ First, these two, these two terms are the same.
+
+132
+00:18:40,120 --> 00:18:51,120
+ So you may want to get a quick answer why because you keep saying you, you cannot swap the sort of magic.
+
+133
+00:18:51,120 --> 00:18:53,120
+ Why these are the same?
+
+134
+00:18:53,120 --> 00:18:58,120
+ Again, to start with, you look at the so-called box measure.
+
+135
+00:18:58,120 --> 00:19:02,120
+ You see this one is a vector.
+
+136
+00:19:02,120 --> 00:19:06,120
+ You'll transfer become a row vector.
+
+137
+00:19:06,120 --> 00:19:07,120
+ There is a flat one.
+
+138
+00:19:07,120 --> 00:19:13,120
+ Then this edge must be the same as, you know, this dimension must be the same.
+
+139
+00:19:13,120 --> 00:19:14,120
+ So it's a longer one.
+
+140
+00:19:14,120 --> 00:19:20,120
+ Because our CTA vector usually, it will be a smaller.
+
+141
+00:19:20,120 --> 00:19:23,120
+ I make it very thin so that, yeah.
+
+142
+00:19:23,120 --> 00:19:24,120
+ It will be a vector.
+
+143
+00:19:24,120 --> 00:19:32,120
+ So therefore, just, we don't care how big this intermediate dimension is.
+
+144
+00:19:32,120 --> 00:19:33,120
+ Oh, I know it's at the end.
+
+145
+00:19:33,120 --> 00:19:37,120
+ It will become a scalar, which is one by one.
+
+146
+00:19:37,120 --> 00:19:38,120
+ Right.
+
+147
+00:19:38,120 --> 00:19:39,120
+ Okay.
+
+148
+00:19:39,120 --> 00:19:44,120
+ Same as you can see, this is also a scalar.
+
+149
+00:19:44,120 --> 00:19:57,120
+ A scalar, you see, as I mentioned, X, transfer, it will be the same as X because being a scalar,
+
+150
+00:19:57,120 --> 00:19:59,120
+ it's just one element.
+
+151
+00:19:59,120 --> 00:20:06,120
+ So then, you get these rules that we are going to use later, which is more important.
+
+152
+00:20:06,120 --> 00:20:12,120
+ So things we are going through the previous material I can explain.
+
+153
+00:20:12,120 --> 00:20:15,120
+ So later, I will cut you, you see.
+
+154
+00:20:15,120 --> 00:20:22,120
+ So if you look at this being a scalar, I can transfer this, you see.
+
+155
+00:20:22,120 --> 00:20:31,120
+ So this X transfer edge, theta, it will be equal to, I take the, take the transfer.
+
+156
+00:20:31,120 --> 00:20:37,120
+ And then when you take the transfer, again, you see, you follow the last one, theta transfer
+
+157
+00:20:37,120 --> 00:20:40,120
+ first, edge transfer next.
+
+158
+00:20:40,120 --> 00:20:46,120
+ And then finally, you see X transfer and then transfer again, of course, equal to, equal
+
+159
+00:20:46,120 --> 00:20:48,120
+ to accept your transfer twice.
+
+160
+00:20:48,120 --> 00:20:50,120
+ So reverse back, okay.
+
+161
+00:20:50,120 --> 00:20:52,120
+ Then, you see here.
+
+162
+00:20:52,120 --> 00:20:57,120
+ So this term is exactly the same as this one.
+
+163
+00:20:57,120 --> 00:21:02,120
+ After you, first you observe, this is scalar.
+
+164
+00:21:02,120 --> 00:21:05,120
+ So scalar can transfer is the same.
+
+165
+00:21:05,120 --> 00:21:08,120
+ So after transfer, these two become the same.
+
+166
+00:21:08,120 --> 00:21:14,120
+ So in this course, the simplification is very important, you see.
+
+167
+00:21:14,120 --> 00:21:19,120
+ So for example, you do the assignments and do the final exam question.
+
+168
+00:21:19,120 --> 00:21:26,120
+ You always expect you try to simplify until the simplification, or at least, yeah.
+
+169
+00:21:26,120 --> 00:21:35,120
+ So that also at the same time, save you some trouble to, you know, to derive further because
+
+170
+00:21:35,120 --> 00:21:38,120
+ you can compile these two.
+
+171
+00:21:38,120 --> 00:21:42,120
+ It doesn't matter where you can use either of them, it will be the same.
+
+172
+00:21:42,120 --> 00:21:52,120
+ So X transfer, edge, theta, then minor, theta transfer, edge, transfer, edge, theta, okay.
+
+173
+00:21:52,120 --> 00:21:53,120
+ So this is one thing.
+
+174
+00:21:53,120 --> 00:22:00,120
+ The second one is if you observe this, this matrix in the middle, you see.
+
+175
+00:22:00,120 --> 00:22:07,120
+ If the same matrix multiplied by another matrix either from the left or from the right, then
+
+176
+00:22:07,120 --> 00:22:10,120
+ this matrix must be symmetry.
+
+177
+00:22:10,120 --> 00:22:11,120
+ Okay.
+
+178
+00:22:11,120 --> 00:22:17,120
+ With the edge itself, it's not symmetry, but the product is a symmetry.
+
+179
+00:22:17,120 --> 00:22:23,120
+ So because if you don't believe, you can do it easily.
+
+180
+00:22:23,120 --> 00:22:24,120
+ Okay.
+
+181
+00:22:24,120 --> 00:22:30,120
+ So again, remember to take the transfer, you have to do this one first.
+
+182
+00:22:30,120 --> 00:22:35,120
+ And then this one is your transfer once, transfer again, you go to excel.
+
+183
+00:22:35,120 --> 00:22:36,120
+ Okay.
+
+184
+00:22:36,120 --> 00:22:42,120
+ So therefore, you see, your transfer, these metrics will be equal to accept.
+
+185
+00:22:42,120 --> 00:22:51,120
+ So this is symmetric metric because you have the product, which is the metrics multiplied
+
+186
+00:22:51,120 --> 00:22:54,120
+ by its own transfer.
+
+187
+00:22:54,120 --> 00:22:57,120
+ Then either from left or the right, it will be the same.
+
+188
+00:22:57,120 --> 00:23:03,120
+ But the dimension will be different if the matrix is not a square matrix.
+
+189
+00:23:03,120 --> 00:23:04,120
+ Okay.
+
+190
+00:23:04,120 --> 00:23:09,120
+ So combining these two, then you, and then apply the formula.
+
+191
+00:23:09,120 --> 00:23:13,120
+ I gave you, gave you early.
+
+192
+00:23:13,120 --> 00:23:22,120
+ You can see if you take with respect to this whole thing with respect to the theta.
+
+193
+00:23:22,120 --> 00:23:26,120
+ The first one is a constant, you see.
+
+194
+00:23:26,120 --> 00:23:28,120
+ Constant with respect to the theta.
+
+195
+00:23:28,120 --> 00:23:36,120
+ The vector is also very important whether the variable or the metric is random or not.
+
+196
+00:23:36,120 --> 00:23:42,120
+ You, you need to also follow the similar rules.
+
+197
+00:23:42,120 --> 00:23:48,120
+ If independent of, of, of, of theta, then you consider that as a constant.
+
+198
+00:23:48,120 --> 00:23:56,120
+ And then some students always argue, say, oh, your theta is hidden within the, within
+
+199
+00:23:56,120 --> 00:23:57,120
+ the data.
+
+200
+00:23:57,120 --> 00:23:58,120
+ You're right.
+
+201
+00:23:58,120 --> 00:24:07,120
+ But when we are talking about the explicitly derivation, we just consider the, these two
+
+202
+00:24:07,120 --> 00:24:09,120
+ are, you see, not related.
+
+203
+00:24:09,120 --> 00:24:17,120
+ So you consider this x as, as a constant with respect to theta.
+
+204
+00:24:17,120 --> 00:24:22,120
+ So therefore you only need to, you only need to take care of this term, you see.
+
+205
+00:24:22,120 --> 00:24:32,120
+ So, so remember when you take derivative, you look at the variable, which is the theta,
+
+206
+00:24:32,120 --> 00:24:34,120
+ the theta vector, you see.
+
+207
+00:24:34,120 --> 00:24:40,120
+ So you'll just treat this, this whole thing being a constant minus two, you just take
+
+208
+00:24:40,120 --> 00:24:41,120
+ that.
+
+209
+00:24:41,120 --> 00:24:44,120
+ And then this one is a vector, you see.
+
+210
+00:24:44,120 --> 00:24:54,120
+ And you take derivative with respect to theta, you keep this, this low vector, but you need
+
+211
+00:24:54,120 --> 00:24:55,120
+ to transform.
+
+212
+00:24:55,120 --> 00:25:01,120
+ So, so you just take the transform of this, transform.
+
+213
+00:25:01,120 --> 00:25:02,120
+ All right.
+
+214
+00:25:02,120 --> 00:25:03,120
+ So that's easy.
+
+215
+00:25:03,120 --> 00:25:04,120
+ So you do this.
+
+216
+00:25:04,120 --> 00:25:10,120
+ And then this one, finally, because it's very important because this metric is in between
+
+217
+00:25:10,120 --> 00:25:13,120
+ the one A is in the appendix.
+
+218
+00:25:13,120 --> 00:25:20,120
+ And symmetric, then we, we get the almost the same result as the scalar case, you see.
+
+219
+00:25:20,120 --> 00:25:28,120
+ So we only need to, we only need to write down two and then this edge, transform edge,
+
+220
+00:25:28,120 --> 00:25:32,120
+ because this is A symmetry and theta.
+
+221
+00:25:32,120 --> 00:25:39,120
+ Then we get almost the same result in the scalar case, in the case of this A matrix in
+
+222
+00:25:39,120 --> 00:25:41,120
+ the middle is symmetric.
+
+223
+00:25:41,120 --> 00:25:47,120
+ If this is not symmetric, the one, then you will create one more term and it will be quite
+
+224
+00:25:47,120 --> 00:25:50,120
+ different from the, from the scalar case.
+
+225
+00:25:50,120 --> 00:25:58,120
+ So with this, you can see we get our results here, you see.
+
+226
+00:25:58,120 --> 00:26:07,120
+ This is the, look at the first term, it will be the, it will be the one there first.
+
+227
+00:26:07,120 --> 00:26:16,120
+ And then here, here again, you see, the minus two, yeah, I think the minus side cancels
+
+228
+00:26:16,120 --> 00:26:18,120
+ out and the two cancels out.
+
+229
+00:26:18,120 --> 00:26:23,120
+ This one, previously with minus, minus two there, okay.
+
+230
+00:26:23,120 --> 00:26:31,120
+ Then out of that, you see, here, yeah, here, I need to do one step more because, you see,
+
+231
+00:26:31,120 --> 00:26:36,120
+ remember, it will become edge, transform, X.
+
+232
+00:26:36,120 --> 00:26:42,120
+ And then after that, you have this minus two, edge, transform, H, theta, you see.
+
+233
+00:26:42,120 --> 00:26:47,120
+ Then you pull out this, then you become edge, transform.
+
+234
+00:26:47,120 --> 00:26:53,120
+ So again here, you, to be very careful, you want to take the same common factor out.
+
+235
+00:26:53,120 --> 00:26:57,120
+ It must on the, on the same side, the left most.
+
+236
+00:26:57,120 --> 00:27:02,120
+ You cannot say if this edge transform in the middle or at the end, the right side cannot
+
+237
+00:27:02,120 --> 00:27:03,120
+ pull out.
+
+238
+00:27:03,120 --> 00:27:06,120
+ We are not doing the scalar operation.
+
+239
+00:27:06,120 --> 00:27:11,120
+ So matrix operation must be very careful.
+
+240
+00:27:11,120 --> 00:27:18,120
+ Okay, I remove minus two, they will become X minus, become plus.
+
+241
+00:27:18,120 --> 00:27:29,120
+ Then since you pull out this, you become edge, do I, do I mess up?
+
+242
+00:27:29,120 --> 00:27:33,120
+ I think there is a typo here, so that's why it's very important.
+
+243
+00:27:33,120 --> 00:27:37,120
+ You multiply minus, you are, you are plus here.
+
+244
+00:27:37,120 --> 00:27:42,120
+ Okay, and then eventually here, you will have a plus.
+
+245
+00:27:42,120 --> 00:27:48,120
+ Then you take the, yeah, so you take the plus.
+
+246
+00:27:48,120 --> 00:27:53,120
+ So therefore this become minus, and then you have H theta, you see.
+
+247
+00:27:53,120 --> 00:27:57,120
+ So, so be careful to do the proper checking.
+
+248
+00:27:57,120 --> 00:28:00,120
+ And that's how we come out with this, this laser.
+
+249
+00:28:00,120 --> 00:28:03,120
+ And then as I say, we want to take out this edge.
+
+250
+00:28:03,120 --> 00:28:09,120
+ Actually, if you can, we don't need this, we can directly walk from here, because this
+
+251
+00:28:09,120 --> 00:28:11,120
+ is already edge, transform edge.
+
+252
+00:28:11,120 --> 00:28:21,120
+ This is square matrix of smaller size, and assuming edge is full range, you can prove
+
+253
+00:28:21,120 --> 00:28:23,120
+ this is invertible.
+
+254
+00:28:23,120 --> 00:28:33,120
+ So, so maybe this is one of the potential questions I may ask you in the future, but
+
+255
+00:28:33,120 --> 00:28:35,120
+ never know.
+
+256
+00:28:35,120 --> 00:28:39,120
+ Okay, so that's how this is what you can do.
+
+257
+00:28:39,120 --> 00:28:46,120
+ And another way to do is, but I won't go, I won't go through this step.
+
+258
+00:28:46,120 --> 00:28:51,120
+ Maybe it's a good exercise for you to try out for those students who really want to get
+
+259
+00:28:51,120 --> 00:28:52,120
+ more.
+
+260
+00:28:52,120 --> 00:28:56,120
+ You can first consider X minus H theta.
+
+261
+00:28:56,120 --> 00:29:03,120
+ This is a new, you can call it Y or whatever, a new vector.
+
+262
+00:29:03,120 --> 00:29:04,120
+ Okay.
+
+263
+00:29:04,120 --> 00:29:07,120
+ So, so then you'll become very simple.
+
+264
+00:29:07,120 --> 00:29:11,120
+ You will have Y transpose multiplied by Y.
+
+265
+00:29:11,120 --> 00:29:15,120
+ And Y is a linear function of theta.
+
+266
+00:29:15,120 --> 00:29:24,120
+ So, you can apply what I say early, you see, you can apply these rules.
+
+267
+00:29:24,120 --> 00:29:29,120
+ First, you do the derivative with respect to Y.
+
+268
+00:29:29,120 --> 00:29:32,120
+ Okay, because they will become Y transpose Y.
+
+269
+00:29:32,120 --> 00:29:40,120
+ And the formula you use is you consider A in the middle is identity, identity matrix.
+
+270
+00:29:40,120 --> 00:29:45,120
+ You'll get a very easy result with respect to Y first.
+
+271
+00:29:45,120 --> 00:29:50,120
+ But after Y, our derivation is with respect to theta.
+
+272
+00:29:50,120 --> 00:29:54,120
+ Then you need another operation.
+
+273
+00:29:54,120 --> 00:29:57,120
+ And it's like two steps.
+
+274
+00:29:57,120 --> 00:30:04,120
+ But the only thing you have to be careful with this combination, you are doing using the
+
+275
+00:30:04,120 --> 00:30:07,120
+ two formulas, whether you're putting on the lab or not.
+
+276
+00:30:07,120 --> 00:30:15,120
+ So, it may be a little bit confused, but again, if you follow my approach here, you will solve
+
+277
+00:30:15,120 --> 00:30:21,120
+ the problem easily because among the two, only one of them, if you are not sure, you can
+
+278
+00:30:21,120 --> 00:30:25,120
+ think about it, put it lab and verify whether the dimension is right or not.
+
+279
+00:30:25,120 --> 00:30:29,120
+ But if it turns out to be wrong, they must be on the right and you can verify.
+
+280
+00:30:29,120 --> 00:30:32,120
+ So, this is a very useful technique.
+
+281
+00:30:32,120 --> 00:30:42,120
+ Later, we will also go through again, you see.
+
+282
+00:30:42,120 --> 00:30:44,120
+ Okay, any questions?
+
+283
+00:30:44,120 --> 00:31:06,120
+ Before we start the new lecture, anything you'd like to ask or any questions?
+
+284
+00:31:06,120 --> 00:31:07,120
+ No?
+
+285
+00:31:07,120 --> 00:31:09,120
+ Okay, that's fine.
+
+286
+00:31:09,120 --> 00:31:16,120
+ Let's start the new chapter, which will be the next one.
+
+287
+00:31:16,120 --> 00:31:19,120
+ So, I will look at this chapter 4.
+
+288
+00:31:19,120 --> 00:31:22,120
+ It's very short.
+
+289
+00:31:22,120 --> 00:31:31,120
+ So, today I'm playing a supinis chapter 5 and we combine these two in a summary next week.
+
+290
+00:31:31,120 --> 00:31:45,120
+ So, I will say this chapter 5 is relatively easy, at least in terms of concepts.
+
+291
+00:31:45,120 --> 00:31:51,120
+ So, the rule of thumb is whatever you see linear, you know, like the now.
+
+292
+00:31:51,120 --> 00:31:58,120
+ So, I assume chapter 4, you also consider that it's easy compared to chapter 2 and 3, which
+
+293
+00:31:58,120 --> 00:32:04,120
+ usually involving maybe the now linear operation.
+
+294
+00:32:04,120 --> 00:32:08,120
+ So, anything linear should be easy.
+
+295
+00:32:08,120 --> 00:32:16,120
+ And at this point, I will emphasize this course other than some of the signal processing,
+
+296
+00:32:16,120 --> 00:32:21,120
+ you know, backgrounds and concepts you're going to learn and so on.
+
+297
+00:32:21,120 --> 00:32:29,120
+ The two mesh tools, the most important one is some simple property and random process.
+
+298
+00:32:29,120 --> 00:32:33,120
+ Very little random process, more property.
+
+299
+00:32:33,120 --> 00:32:44,120
+ And among properties, mainly is the first order moment, which is you take the mean expectation
+
+300
+00:32:44,120 --> 00:32:47,120
+ and also the second moment.
+
+301
+00:32:47,120 --> 00:32:53,120
+ Variant is the combination of first moment and second moment.
+
+302
+00:32:53,120 --> 00:32:55,120
+ I mean, yeah.
+
+303
+00:32:55,120 --> 00:33:01,120
+ So, and very often we don't need to go back to the definition of doing the integration.
+
+304
+00:33:01,120 --> 00:33:05,120
+ The exception case is the CIOB derivation.
+
+305
+00:33:05,120 --> 00:33:07,120
+ We do go through that.
+
+306
+00:33:07,120 --> 00:33:10,120
+ But in the end, we do not really integrate.
+
+307
+00:33:10,120 --> 00:33:12,120
+ We're just making good use of some property.
+
+308
+00:33:12,120 --> 00:33:19,120
+ But later on, you will see throughout this course, mostly we will be just assuming you know the mean
+
+309
+00:33:19,120 --> 00:33:30,120
+ and the second order moment, then you'll directly do the operation and the simplification throughout.
+
+310
+00:33:30,120 --> 00:33:32,120
+ And this is one.
+
+311
+00:33:32,120 --> 00:33:35,120
+ Another one is linear algebra.
+
+312
+00:33:35,120 --> 00:33:46,120
+ Mainly is like some matrix operation and like the one where we use how to take transfer inverse and later there will be some
+
+313
+00:33:46,120 --> 00:33:51,120
+ eigenvalue decomposition, eigenvalue, eigenvector.
+
+314
+00:33:51,120 --> 00:33:58,120
+ And that's probably mostly what you need to do and learn.
+
+315
+00:33:58,120 --> 00:34:12,120
+ So that's how we come back to this, you know, NBUE because as I say, our main target for estimation is try to get the NBUE.
+
+316
+00:34:12,120 --> 00:34:19,120
+ And to make it unbiased relatively easy, some simple operations.
+
+317
+00:34:19,120 --> 00:34:28,120
+ So it turns out to be how are we going to optimize, try to minimize the variance.
+
+318
+00:34:28,120 --> 00:34:37,120
+ And also variance being a second order statistic usually is a little bit more difficult compared to the first moment.
+
+319
+00:34:37,120 --> 00:34:42,120
+ First of all, it's not linear operation, second order.
+
+320
+00:34:42,120 --> 00:34:49,120
+ And so we will spend like more time to work out that.
+
+321
+00:34:49,120 --> 00:34:52,120
+ And we already learned the CLB.
+
+322
+00:34:52,120 --> 00:35:00,120
+ So CLB you can think this is one of the tools to do it.
+
+323
+00:35:00,120 --> 00:35:06,120
+ And if you are lucky, you can get the NBUE.
+
+324
+00:35:07,120 --> 00:35:13,120
+ Furthermore, that becomes even an efficient estimator.
+
+325
+00:35:13,120 --> 00:35:25,120
+ But quite often we may not be able to get the CLB or if we get the CLB, you cannot do it,
+
+326
+00:35:25,120 --> 00:35:29,120
+ you cannot factorize into that spatial form.
+
+327
+00:35:29,120 --> 00:35:38,120
+ So you may be stuck in getting what requires NBUE.
+
+328
+00:35:38,120 --> 00:35:46,120
+ And so one way is I mean we assume most of you are engineering background.
+
+329
+00:35:46,120 --> 00:35:48,120
+ And this you are in the EEE.
+
+330
+00:35:48,120 --> 00:35:53,120
+ So engineers tend to be a bit more compromised.
+
+331
+00:35:53,120 --> 00:35:55,120
+ We are more practical people.
+
+332
+00:35:55,120 --> 00:36:01,120
+ Actually my background also engineering also I like math.
+
+333
+00:36:01,120 --> 00:36:11,120
+ So being facing the practical situation, then we reduce our expectation.
+
+334
+00:36:11,120 --> 00:36:18,120
+ You cannot get the optimal one, we get suboptimal if you can achieve suboptimal.
+
+335
+00:36:18,120 --> 00:36:23,120
+ And that's also end up why the CLB is important because some students are,
+
+336
+00:36:23,120 --> 00:36:28,120
+ oh CLB may not give you the estimator you still need to file.
+
+337
+00:36:28,120 --> 00:36:35,120
+ And that's why if you are getting a suboptimal one, then you are also assuming you can get the CLB,
+
+338
+00:36:35,120 --> 00:36:37,120
+ then you can compare.
+
+339
+00:36:37,120 --> 00:36:45,120
+ It's not optimal of course, but if it's not too far off to the optimal one, then we are acceptable.
+
+340
+00:36:45,120 --> 00:36:50,120
+ For example, 100 mark, ideally you get hit 100.
+
+341
+00:36:50,120 --> 00:36:55,120
+ But if not then suboptimal, 90 is good enough.
+
+342
+00:36:55,120 --> 00:37:02,120
+ NTU level 85 and above is all the same, A plus.
+
+343
+00:37:02,120 --> 00:37:09,120
+ Actually you may be okay with A because the GPA is the same, A plus.
+
+344
+00:37:09,120 --> 00:37:16,120
+ I mean 80, this whole range is eventually the same GPA.
+
+345
+00:37:16,120 --> 00:37:18,120
+ So that's how it's suboptimal.
+
+346
+00:37:18,120 --> 00:37:21,120
+ We can see how far away you're from there.
+
+347
+00:37:21,120 --> 00:37:33,120
+ And then looking at the suboptimal one, one way to do is we lower down our requirement.
+
+348
+00:37:33,120 --> 00:37:40,120
+ In general, you will expect the estimator is a nonlinear combination from the data.
+
+349
+00:37:40,120 --> 00:37:47,120
+ And that's why now this deep learning and neural network is deferred from the linear model.
+
+350
+00:37:47,120 --> 00:37:50,120
+ It contains the nonlinear operation.
+
+351
+00:37:50,120 --> 00:37:56,120
+ So it's more powerful, but also more difficult to get in general.
+
+352
+00:37:56,120 --> 00:38:03,120
+ So now you'll see the relationship here.
+
+353
+00:38:03,120 --> 00:38:12,120
+ So what we're doing in this chapter is we assume we have linear unbiased estimator.
+
+354
+00:38:12,120 --> 00:38:18,120
+ So we only lower down our requirement, we look at this subclass.
+
+355
+00:38:18,120 --> 00:38:25,120
+ And then among all the linear unbiased estimator, we look at the best one.
+
+356
+00:38:26,120 --> 00:38:31,120
+ So that's how we're going to do it.
+
+357
+00:38:31,120 --> 00:38:33,120
+ But then how good it is?
+
+358
+00:38:33,120 --> 00:38:42,120
+ You will need to either based on some common sense or based on some ideally CIOB,
+
+359
+00:38:42,120 --> 00:38:56,120
+ or you can maybe often based on your data, you may have some practical implication and so on.
+
+360
+00:38:56,120 --> 00:39:06,120
+ But in the course here, we will just focus on the mesh models with some assumptions.
+
+361
+00:39:06,120 --> 00:39:11,120
+ So that's our study here.
+
+362
+00:39:11,120 --> 00:39:24,120
+ So we start with, again, the scalar case where this is somehow easier to manipulate.
+
+363
+00:39:24,120 --> 00:39:29,120
+ So we have capital N sample of data.
+
+364
+00:39:29,120 --> 00:39:36,120
+ And then here we assume we have the PDF from each of the samples.
+
+365
+00:39:36,120 --> 00:39:46,120
+ So I need to emphasize here, you see, so each metadata data sample, you consider that as a random variable.
+
+366
+00:39:46,120 --> 00:39:57,120
+ But collectively, when we are discussing the PDF of this whole data sample, if you are assuming PDF,
+
+367
+00:39:57,120 --> 00:40:02,120
+ but some of the methods, like later, you will see this method, we don't really require the PDF.
+
+368
+00:40:02,120 --> 00:40:05,120
+ But assuming a CLB, you need PDF.
+
+369
+00:40:05,120 --> 00:40:08,120
+ You need to combine them together.
+
+370
+00:40:08,120 --> 00:40:18,120
+ And in the case of IID or independent and identical distribution, you can just simply multiply each of the PDF as a product.
+
+371
+00:40:18,120 --> 00:40:23,120
+ So that's some very basic assumption from probability.
+
+372
+00:40:23,120 --> 00:40:30,120
+ But if they are not independent or they are correlated, then it becomes more complicated.
+
+373
+00:40:31,120 --> 00:40:36,120
+ And in the case of Gaussian, you can still get the analytic result.
+
+374
+00:40:36,120 --> 00:40:42,120
+ But you will have some, basically, just like some cross term.
+
+375
+00:40:42,120 --> 00:40:44,120
+ So it's not simple multiplication.
+
+376
+00:40:44,120 --> 00:40:46,120
+ You have the correlation.
+
+377
+00:40:46,120 --> 00:40:51,120
+ So now coming back to that, we have this data sample.
+
+378
+00:40:51,120 --> 00:40:59,120
+ Then we use some constant, like the weight to compact.
+
+379
+00:40:59,120 --> 00:41:04,120
+ Because the simplest one is just, I just add the sample together,
+
+380
+00:41:04,120 --> 00:41:13,120
+ or in case the sample size is large, you add the sample divided by the number of samples.
+
+381
+00:41:13,120 --> 00:41:18,120
+ That's the very common technique we call sample means.
+
+382
+00:41:18,120 --> 00:41:28,120
+ But of course, the better way is because each of the data points may play different roles, you see,
+
+383
+00:41:28,120 --> 00:41:33,120
+ so the difference of the hidden parameter, we are going to estimate.
+
+384
+00:41:33,120 --> 00:41:39,120
+ Some contain more information, less noisy than the other sample.
+
+385
+00:41:39,120 --> 00:41:45,120
+ So that's why, in general, even if it's a linear combination, we want to make the constant.
+
+386
+00:41:45,120 --> 00:41:48,120
+ This constant, they're in general different.
+
+387
+00:41:48,120 --> 00:41:55,120
+ How to choose this constant, what we are going to do, like optimize.
+
+388
+00:41:56,120 --> 00:41:59,120
+ So this is the base among the linear.
+
+389
+00:41:59,120 --> 00:42:02,120
+ But it will become an NBV.
+
+390
+00:42:02,120 --> 00:42:08,120
+ Assume this NBV, except it's linear.
+
+391
+00:42:08,120 --> 00:42:11,120
+ If the base is linear, then we are lucky.
+
+392
+00:42:11,120 --> 00:42:14,120
+ We only look at the subset.
+
+393
+00:42:14,120 --> 00:42:18,120
+ And then among the linear, we get the base.
+
+394
+00:42:18,120 --> 00:42:20,120
+ So it turns out to be the base.
+
+395
+00:42:20,120 --> 00:42:26,120
+ If the base is nonlinear, then it will be a little bit far off.
+
+396
+00:42:26,120 --> 00:42:34,120
+ So far off, we have to see the performance.
+
+397
+00:42:34,120 --> 00:42:39,120
+ So it becomes maybe very even optimal or suboptimal.
+
+398
+00:42:39,120 --> 00:42:45,120
+ But sometimes even become very poor and not acceptable.
+
+399
+00:42:45,120 --> 00:42:51,120
+ And that's how you will need to turn to those nonlinear models.
+
+400
+00:42:51,120 --> 00:43:00,120
+ In the past, Neural Network now is a deep learning model and getting much larger parameters.
+
+401
+00:43:00,120 --> 00:43:08,120
+ But it will be very hard to analyze, even having no linear and very large number of parameters.
+
+402
+00:43:08,120 --> 00:43:13,120
+ So let's see how we can, probably, learn this so far.
+
+403
+00:43:13,120 --> 00:43:24,120
+ I should say most of these techniques, they are more or less the same as what we did in the first few weeks.
+
+404
+00:43:24,120 --> 00:43:30,120
+ It's just some kind of combination and some tricks to simplify.
+
+405
+00:43:30,120 --> 00:43:34,120
+ So let's see what we are going to do.
+
+406
+00:43:34,120 --> 00:43:39,120
+ We put that as a constant vector.
+
+407
+00:43:39,120 --> 00:43:51,120
+ One thing you need to be very clear is you always need to differentiate whether the vector or matrix or the constant or the scalar,
+
+408
+00:43:51,120 --> 00:43:55,120
+ they are random or deterministic.
+
+409
+00:43:55,120 --> 00:44:00,120
+ Yeah, random, yeah, between random and deterministic.
+
+410
+00:44:00,120 --> 00:44:07,120
+ So because that play a huge difference, particularly when we apply the expectation inside.
+
+411
+00:44:07,120 --> 00:44:10,120
+ Not random, you can pull out.
+
+412
+00:44:10,120 --> 00:44:13,120
+ Random, you have to keep that.
+
+413
+00:44:13,120 --> 00:44:18,120
+ So among these two, the one we are going to do is the Ingle product.
+
+414
+00:44:18,120 --> 00:44:25,120
+ So you know this is, usually is a column vector, but your text transform becomes low.
+
+415
+00:44:25,120 --> 00:44:27,120
+ So this is Ingle product.
+
+416
+00:44:27,120 --> 00:44:31,120
+ Become a scalar because we start with the scalar case to start with.
+
+417
+00:44:31,120 --> 00:44:36,120
+ And now we need to look at the variant.
+
+418
+00:44:36,120 --> 00:44:41,120
+ This is, as I said, one of the key requirements.
+
+419
+00:44:41,120 --> 00:44:43,120
+ We need to minimize this variant.
+
+420
+00:44:43,120 --> 00:44:48,120
+ So based on definition, as I said, you don't need to go to integration.
+
+421
+00:44:48,120 --> 00:44:53,120
+ What you need is you write down the definition of variant.
+
+422
+00:44:53,120 --> 00:44:57,120
+ I hope by now you can treat these.
+
+423
+00:44:58,120 --> 00:45:02,120
+ Because the data contains some randomness.
+
+424
+00:45:02,120 --> 00:45:09,120
+ So this is a random variable.
+
+425
+00:45:09,120 --> 00:45:12,120
+ It's only a scalar.
+
+426
+00:45:12,120 --> 00:45:19,120
+ Okay, although the data here is a random vector because we combine them together.
+
+427
+00:45:19,120 --> 00:45:25,120
+ So become a new random variable, which is a scalar for this part.
+
+428
+00:45:25,120 --> 00:45:29,120
+ So the data will be dealing with vector.
+
+429
+00:45:29,120 --> 00:45:31,120
+ But there's more later.
+
+430
+00:45:31,120 --> 00:45:34,120
+ So now based on definition, you look at this.
+
+431
+00:45:34,120 --> 00:45:35,120
+ This is your text.
+
+432
+00:45:35,120 --> 00:45:39,120
+ To make it easy, you'll call it either C-thigh-hack or call it Y.
+
+433
+00:45:39,120 --> 00:45:47,120
+ And then the definition of variant is you subtract the expectation of this.
+
+434
+00:45:47,120 --> 00:45:49,120
+ You know what this is saying.
+
+435
+00:45:49,120 --> 00:45:56,120
+ So make sure you square this whole square the difference.
+
+436
+00:45:56,120 --> 00:45:58,120
+ Square the difference.
+
+437
+00:45:58,120 --> 00:46:11,120
+ And then you expand it because, yeah, then you see this E operator itself is also linear.
+
+438
+00:46:11,120 --> 00:46:16,120
+ So let me see what we can do here.
+
+439
+00:46:16,120 --> 00:46:19,120
+ I hope this one is still working.
+
+440
+00:46:19,120 --> 00:46:24,120
+ Better to turn on because after some time, after this one, I don't know why then.
+
+441
+00:46:24,120 --> 00:46:28,120
+ It takes a long time to turn on.
+
+442
+00:46:28,120 --> 00:46:31,120
+ So I try to refresh.
+
+443
+00:46:31,120 --> 00:46:42,120
+ So if you look at the one here, let's do it one by one.
+
+444
+00:46:42,120 --> 00:46:48,120
+ This is a very important operation.
+
+445
+00:46:48,120 --> 00:46:51,120
+ We have E of this.
+
+446
+00:46:51,120 --> 00:46:59,120
+ Inside, we have E, A transpose of X.
+
+447
+00:46:59,120 --> 00:47:04,120
+ Then this is being not random.
+
+448
+00:47:04,120 --> 00:47:06,120
+ You can pull up.
+
+449
+00:47:06,120 --> 00:47:11,120
+ But you need to keep the E with respect to X.
+
+450
+00:47:11,120 --> 00:47:14,120
+ So this is what we're doing here.
+
+451
+00:47:14,120 --> 00:47:23,120
+ But then after that, you see, because remember both of them, you are still within the branches.
+
+452
+00:47:23,120 --> 00:47:30,120
+ So now you're talking about this term.
+
+453
+00:47:30,120 --> 00:47:33,120
+ I pull out the A transpose.
+
+454
+00:47:33,120 --> 00:47:39,120
+ Then you can pull it out because both of them have this A transpose.
+
+455
+00:47:39,120 --> 00:47:42,120
+ So one of them will be X.
+
+456
+00:47:42,120 --> 00:47:48,120
+ Then the other one, your lab is E.
+
+457
+00:47:48,120 --> 00:47:56,120
+ E to the E of X.
+
+458
+00:47:56,120 --> 00:48:05,120
+ And then remember our square has to include this A transpose, this A vector transpose.
+
+459
+00:48:05,120 --> 00:48:11,120
+ So you're still within the big branches.
+
+460
+00:48:11,120 --> 00:48:16,120
+ So be careful.
+
+461
+00:48:16,120 --> 00:48:18,120
+ You'll be inside.
+
+462
+00:48:18,120 --> 00:48:34,120
+ So now this is very interesting because we first write down using the so-called box method.
+
+463
+00:48:35,120 --> 00:48:38,120
+ You see here.
+
+464
+00:48:38,120 --> 00:48:45,120
+ So when I write this inside, this will become A transpose.
+
+465
+00:48:45,120 --> 00:48:47,120
+ This is A transpose.
+
+466
+00:48:47,120 --> 00:48:56,120
+ And then this is the column vector X minus E of X.
+
+467
+00:48:56,120 --> 00:48:58,120
+ You'll be a long one.
+
+468
+00:48:58,120 --> 00:49:01,120
+ So this is one of the factors.
+
+469
+00:49:01,120 --> 00:49:06,120
+ You see, this is a scalar.
+
+470
+00:49:06,120 --> 00:49:10,120
+ Scalar, then because being a scalar, you're powered too.
+
+471
+00:49:10,120 --> 00:49:13,120
+ You can just write another one.
+
+472
+00:49:13,120 --> 00:49:19,120
+ You see, I use this.
+
+473
+00:49:19,120 --> 00:49:28,120
+ If I write this whole thing using the matrix operation and square it, you will have this low vector
+
+474
+00:49:28,120 --> 00:49:29,120
+ followed by column.
+
+475
+00:49:29,120 --> 00:49:39,120
+ And then this is low vector again, followed by the same column vector.
+
+476
+00:49:39,120 --> 00:49:50,120
+ So this will create a problem when we apply the E with respect to this power of 2, this square term.
+
+477
+00:49:50,120 --> 00:49:51,120
+ Why?
+
+478
+00:49:51,120 --> 00:49:57,120
+ Because being constant vector, low vector or column vector, you see,
+
+479
+00:49:57,120 --> 00:50:00,120
+ we don't want it to be in the middle.
+
+480
+00:50:00,120 --> 00:50:01,120
+ You cannot pull out.
+
+481
+00:50:01,120 --> 00:50:08,120
+ You see, our operation, as long as you are involving either column vector or low vector,
+
+482
+00:50:08,120 --> 00:50:15,120
+ you see, I cannot pull this A transpose in the middle out either from left or right.
+
+483
+00:50:15,120 --> 00:50:20,120
+ That will cause a problem because we don't want this one to be in the middle
+
+484
+00:50:20,120 --> 00:50:24,120
+ because it's just a constant vector.
+
+485
+00:50:24,120 --> 00:50:30,120
+ So how are we going to manage to pull it out?
+
+486
+00:50:30,120 --> 00:50:38,120
+ So this is the very important trick about what I say early because if you observe this
+
+487
+00:50:38,120 --> 00:50:45,120
+ as being a scalar, I can take the transpose of this one.
+
+488
+00:50:45,120 --> 00:50:54,120
+ So I make this transpose only on the right factor.
+
+489
+00:50:54,120 --> 00:51:03,120
+ So I transpose it so that it will become x minus E of x transpose.
+
+490
+00:51:03,120 --> 00:51:09,120
+ So this is low vector because this one is a column.
+
+491
+00:51:09,120 --> 00:51:13,120
+ Initially, we have two, we have both columns.
+
+492
+00:51:13,120 --> 00:51:17,120
+ So I transpose this scalar.
+
+493
+00:51:17,120 --> 00:51:24,120
+ Then after that, A transpose, transpose again, it will become just A because you transpose
+
+494
+00:51:24,120 --> 00:51:25,120
+ twice.
+
+495
+00:51:25,120 --> 00:51:28,120
+ Now this is very important.
+
+496
+00:51:28,120 --> 00:51:35,120
+ Our E is still outside, you see, but now I can pull out this A transpose from the left
+
+497
+00:51:35,120 --> 00:51:40,120
+ and this A, the lower far right side to the right.
+
+498
+00:51:40,120 --> 00:51:48,120
+ So our E now only applies inside this, this involving x, or yeah, x is random.
+
+499
+00:51:48,120 --> 00:51:55,120
+ And that's a trick that you must use because otherwise you are just routinely right down
+
+500
+00:51:55,120 --> 00:51:59,120
+ here and then you cannot continue.
+
+501
+00:51:59,120 --> 00:52:08,120
+ And that's why some of the past year exam some questions involving the step in the middle
+
+502
+00:52:08,120 --> 00:52:16,120
+ and then only a few students who learn this technique well then simplify and test.
+
+503
+00:52:16,120 --> 00:52:21,120
+ But usually this more difficult question, the mark is not that high.
+
+504
+00:52:21,120 --> 00:52:26,120
+ We have to differentiate difficult questions and simple ones.
+
+505
+00:52:26,120 --> 00:52:35,120
+ So this is one of the things I really hope those attending here.
+
+506
+00:52:35,120 --> 00:52:40,120
+ I heard if you're doing to learn, can you see this handwriting?
+
+507
+00:52:40,120 --> 00:52:46,120
+ Some students say you cannot see this, but can anyone try?
+
+508
+00:52:46,120 --> 00:52:47,120
+ Yeah, can.
+
+509
+00:52:47,120 --> 00:52:50,120
+ Once I show this, it will be okay.
+
+510
+00:52:50,120 --> 00:52:51,120
+ Yeah, so good.
+
+511
+00:52:51,120 --> 00:52:54,120
+ So at least it helps.
+
+512
+00:52:54,120 --> 00:53:01,120
+ Okay, so now if you come back, it's a bit hard to pull it to the other side.
+
+513
+00:53:01,120 --> 00:53:11,120
+ And we get what we want almost because our variance now becomes, this is something, the
+
+514
+00:53:11,120 --> 00:53:17,120
+ coefficient, the one we want to or play on, one on the far left and the one on the far
+
+515
+00:53:17,120 --> 00:53:18,120
+ right.
+
+516
+00:53:18,120 --> 00:53:26,120
+ Because in the middle, you see, so again here, if you apply inside, this is exactly our definition
+
+517
+00:53:26,120 --> 00:53:31,120
+ of covariant magic of the data, the data vector only.
+
+518
+00:53:31,120 --> 00:53:42,120
+ So I hope this is an extension from what we learn early, the normal variance.
+
+519
+00:53:42,120 --> 00:53:48,120
+ Variant we're referring to a scalar random variable.
+
+520
+00:53:48,120 --> 00:53:55,120
+ And then when the random variable becomes a random vector, you'll be doing the same,
+
+521
+00:53:55,120 --> 00:53:58,120
+ but for the left, you have to follow the order.
+
+522
+00:53:58,120 --> 00:54:05,120
+ For variance being a random variable, a scalar, you just use product because scalar, you don't
+
+523
+00:54:05,120 --> 00:54:07,120
+ need to differentiate left and right.
+
+524
+00:54:07,120 --> 00:54:16,120
+ But for matrix, you have to make sure this covariant magic is a big magic, is outer product.
+
+525
+00:54:16,120 --> 00:54:19,120
+ In the product, it will be scalar.
+
+526
+00:54:19,120 --> 00:54:26,120
+ And we can emphasize this many, many times because outer product being your vector on
+
+527
+00:54:26,120 --> 00:54:30,120
+ the far left, followed by the low vector, the transform.
+
+528
+00:54:30,120 --> 00:54:33,120
+ You swap it, then it will be different.
+
+529
+00:54:33,120 --> 00:54:37,120
+ It will be in the product.
+
+530
+00:54:37,120 --> 00:54:38,120
+ Okay?
+
+531
+00:54:38,120 --> 00:54:43,120
+ So this is more or less what we are going to do.
+
+532
+00:54:43,120 --> 00:54:46,120
+ Now look at the means of the estimator.
+
+533
+00:54:46,120 --> 00:54:49,120
+ So again, this is easy.
+
+534
+00:54:49,120 --> 00:54:52,120
+ It's a first-order statistic, linear.
+
+535
+00:54:52,120 --> 00:54:54,120
+ Again, again, bringing.
+
+536
+00:54:54,120 --> 00:54:59,120
+ And actually, this is what we did early in our derivation.
+
+537
+00:54:59,120 --> 00:55:02,120
+ But we need to have one assumption here.
+
+538
+00:55:02,120 --> 00:55:07,120
+ Also, our linear estimator, we do not assume linear model.
+
+539
+00:55:07,120 --> 00:55:10,120
+ That's a difference from the previous chapter.
+
+540
+00:55:10,120 --> 00:55:15,120
+ Linear model means our data is a linear function of theta.
+
+541
+00:55:15,120 --> 00:55:18,120
+ Linear estimator is either our...
+
+542
+00:55:18,120 --> 00:55:20,120
+ We give the data.
+
+543
+00:55:20,120 --> 00:55:24,120
+ Our estimator is a linear function of the data.
+
+544
+00:55:24,120 --> 00:55:30,120
+ So these two, at least conceptually, are different.
+
+545
+00:55:30,120 --> 00:55:39,120
+ But in terms of the data, the meaning here, we also see our requirement on the...
+
+546
+00:55:39,120 --> 00:55:42,120
+ The data is weaker.
+
+547
+00:55:42,120 --> 00:55:49,120
+ We don't require the data here as a linear function of the unknown parameter theta.
+
+548
+00:55:49,120 --> 00:55:57,120
+ But in order to make it unbiased, based on this, we do require the expectation of the data
+
+549
+00:55:57,120 --> 00:56:01,120
+ to be a linear function of theta.
+
+550
+00:56:01,120 --> 00:56:02,120
+ That means it...
+
+551
+00:56:02,120 --> 00:56:04,120
+ Because this is a vector.
+
+552
+00:56:04,120 --> 00:56:12,120
+ It will be theta multiplied by a constant vector.
+
+553
+00:56:12,120 --> 00:56:19,120
+ So again, only the means, expectation of this to be a linear function of theta,
+
+554
+00:56:19,120 --> 00:56:25,120
+ where our chapter four is the data except it must be linear.
+
+555
+00:56:25,120 --> 00:56:27,120
+ Linearly dependent on theta.
+
+556
+00:56:27,120 --> 00:56:31,120
+ So this is weaker requirement.
+
+557
+00:56:31,120 --> 00:56:38,120
+ And then assuming this is given, and we also know this, you need to know this.
+
+558
+00:56:38,120 --> 00:56:44,120
+ So that now you apply this again here, then you substitute this inside.
+
+559
+00:56:44,120 --> 00:56:46,120
+ We will see this.
+
+560
+00:56:46,120 --> 00:56:48,120
+ So again, this is...
+
+561
+00:56:48,120 --> 00:56:56,120
+ This become an inner product of two different vectors, A and S vector.
+
+562
+00:56:56,120 --> 00:56:58,120
+ So S is constant.
+
+563
+00:56:58,120 --> 00:57:03,120
+ Therefore, in order to make this unbiased, we require this condition.
+
+564
+00:57:03,120 --> 00:57:05,120
+ So again, this S is given.
+
+565
+00:57:05,120 --> 00:57:07,120
+ S is one you should know first.
+
+566
+00:57:07,120 --> 00:57:11,120
+ Where A vector is the one we are going to work on.
+
+567
+00:57:11,120 --> 00:57:16,120
+ We are going to find out the optimal one.
+
+568
+00:57:16,120 --> 00:57:21,120
+ So two steps again, we make this unbiased.
+
+569
+00:57:21,120 --> 00:57:27,120
+ Unbiased, we require A transpose, the inner product of this equal to one.
+
+570
+00:57:27,120 --> 00:57:31,120
+ Because we are dealing with a scalar.
+
+571
+00:57:31,120 --> 00:57:39,120
+ And after that, given this constraint, we want to minimize the value.
+
+572
+00:57:39,120 --> 00:57:40,120
+ We already derived.
+
+573
+00:57:40,120 --> 00:57:45,120
+ So you need to put this in the Lagrangian or it's a cost function.
+
+574
+00:57:45,120 --> 00:57:48,120
+ So this is also now very often.
+
+575
+00:57:48,120 --> 00:57:52,120
+ In machine learning, you also need cost functions.
+
+576
+00:57:52,120 --> 00:57:58,120
+ And this is what we are going to optimize.
+
+577
+00:57:58,120 --> 00:57:59,120
+ Okay?
+
+578
+00:57:59,120 --> 00:58:08,120
+ So Lagrangian, yeah, these techniques, we also need a very simple one, as you can see here.
+
+579
+00:58:08,120 --> 00:58:11,120
+ Then again, this is...
+
+580
+00:58:11,120 --> 00:58:14,120
+ The loss function is a scalar.
+
+581
+00:58:14,120 --> 00:58:18,120
+ But the A here is a vector.
+
+582
+00:58:18,120 --> 00:58:23,120
+ Also, our unknown parameter except theta is just a scalar.
+
+583
+00:58:23,120 --> 00:58:26,120
+ So you need to differentiate this.
+
+584
+00:58:26,120 --> 00:58:31,120
+ Then we take your derivative and again, this is a very simple rule.
+
+585
+00:58:31,120 --> 00:58:40,120
+ We also, because Lagrangian, we need to take derivative with respect to this parameter,
+
+586
+00:58:40,120 --> 00:58:42,120
+ Lagrangian parameter, rho.
+
+587
+00:58:42,120 --> 00:58:44,120
+ Then you get this.
+
+588
+00:58:44,120 --> 00:58:50,120
+ So we set both of them equal to zero.
+
+589
+00:58:50,120 --> 00:58:55,120
+ And from this one, you make it zero.
+
+590
+00:58:55,120 --> 00:59:00,120
+ From that one, you combine these two, then you get the relationship.
+
+591
+00:59:00,120 --> 00:59:03,120
+ So I hope this is a very easy A-O-G break.
+
+592
+00:59:03,120 --> 00:59:06,120
+ You'll know how to do it.
+
+593
+00:59:06,120 --> 00:59:10,120
+ And assume this one being a covariant matrix.
+
+594
+00:59:10,120 --> 00:59:14,120
+ We normally assume our data independent.
+
+595
+00:59:14,120 --> 00:59:19,120
+ Then, that means this covariant matrix would be invertible.
+
+596
+00:59:19,120 --> 00:59:22,120
+ So we get this.
+
+597
+00:59:22,120 --> 00:59:25,120
+ And this is the condition.
+
+598
+00:59:25,120 --> 00:59:29,120
+ And again, here, you see, I make the use of being a scalar.
+
+599
+00:59:29,120 --> 00:59:31,120
+ You can transfer here.
+
+600
+00:59:31,120 --> 00:59:33,120
+ You transfer, you get this.
+
+601
+00:59:33,120 --> 00:59:36,120
+ Even so, these two vectors are not the same, you see.
+
+602
+00:59:36,120 --> 00:59:38,120
+ So, yeah.
+
+603
+00:59:39,120 --> 00:59:47,120
+ And after that, because we need to remove this, you see, that our A cannot, because this lambda is unknown.
+
+604
+00:59:47,120 --> 00:59:51,120
+ So we use it as intermediate variable.
+
+605
+00:59:51,120 --> 00:59:53,120
+ You have to remove it.
+
+606
+00:59:53,120 --> 00:59:59,120
+ Then, again, you make good use of the given this constraint.
+
+607
+00:59:59,120 --> 01:00:03,120
+ And we already know A need to satisfy this.
+
+608
+01:00:03,120 --> 01:00:10,120
+ So we put in, and then we solve this lambda, equal to that.
+
+609
+01:00:10,120 --> 01:00:13,120
+ So these are all given, as you remember.
+
+610
+01:00:13,120 --> 01:00:22,120
+ Our S is given, because given the data, we also need to assume we know the covariant.
+
+611
+01:00:22,120 --> 01:00:26,120
+ Then, after that, you combine together, put this lambda in,
+
+612
+01:00:26,120 --> 01:00:34,120
+ and you get this, our optimal coefficient vector will be equal to this form.
+
+613
+01:00:34,120 --> 01:00:37,120
+ Then, this is the coefficient vector.
+
+614
+01:00:37,120 --> 01:00:45,120
+ Finally, our blue is, remember, we just, like the Inger product, this is a scalar.
+
+615
+01:00:45,120 --> 01:00:50,120
+ So we already know this, then multiply this, you will get this.
+
+616
+01:00:50,120 --> 01:00:55,120
+ And then we can also substitute back to get the variance.
+
+617
+01:00:55,120 --> 01:00:56,120
+ Yeah.
+
+618
+01:00:56,120 --> 01:01:02,120
+ How are we going to get the variance if you go back the operation?
+
+619
+01:01:02,120 --> 01:01:03,120
+ Yeah.
+
+620
+01:01:03,120 --> 01:01:05,120
+ So the variance is equal to this.
+
+621
+01:01:05,120 --> 01:01:09,120
+ We have the A optimal transport by Cx and A.
+
+622
+01:01:09,120 --> 01:01:18,120
+ So some students say, why your variance becomes so simple?
+
+623
+01:01:18,120 --> 01:01:20,120
+ Because you have several terms.
+
+624
+01:01:20,120 --> 01:01:24,120
+ This is, again, a very useful property.
+
+625
+01:01:24,120 --> 01:01:29,120
+ Once you substitute, you will see there are some terms, k-sawa.
+
+626
+01:01:29,120 --> 01:01:37,120
+ So you end up with the denominator is the same, but the numerator becomes simpler, just one.
+
+627
+01:01:37,120 --> 01:01:39,120
+ So how to do it?
+
+628
+01:01:39,120 --> 01:01:44,120
+ You can try out, verify.
+
+629
+01:01:44,120 --> 01:01:52,120
+ So here, you see, we do not need the entire PDF in this, in this method.
+
+630
+01:01:52,120 --> 01:01:59,120
+ What we need is only the knowledge of the scale means s.
+
+631
+01:01:59,120 --> 01:02:08,120
+ Assuming we know the data, scale into this s vector multiplied by theta, and also the
+
+632
+01:02:08,120 --> 01:02:15,120
+ covariant matrix of the data, which typically you can measure based on the sample.
+
+633
+01:02:15,120 --> 01:02:17,120
+ So we don't need PDF.
+
+634
+01:02:17,120 --> 01:02:20,120
+ So it's not always we need PDF.
+
+635
+01:02:20,120 --> 01:02:25,120
+ So this idea is more practical, at least from the major data.
+
+636
+01:02:25,120 --> 01:02:27,120
+ You can try out something.
+
+637
+01:02:27,120 --> 01:02:37,120
+ So let's see how we apply to our example, which is the simplest example.
+
+638
+01:02:37,120 --> 01:02:46,120
+ You can think of in this estimation here, because we only estimate one unknown, and that's a constant throughout DC,
+
+639
+01:02:46,120 --> 01:02:51,120
+ plus white Gaussian noise.
+
+640
+01:02:51,120 --> 01:03:00,120
+ Yeah, and this one here, we even do not, sorry, this one is a white noise, but it can be unspecified.
+
+641
+01:03:00,120 --> 01:03:03,120
+ It's not necessarily Gaussian.
+
+642
+01:03:03,120 --> 01:03:08,120
+ So somehow or something is a little bit easier.
+
+643
+01:03:08,120 --> 01:03:13,120
+ We don't even need to know the PDF.
+
+644
+01:03:13,120 --> 01:03:20,120
+ And then now, how are we going to get the s vector, since we are given the data and the model here?
+
+645
+01:03:20,120 --> 01:03:28,120
+ So you see here, with e of this, you need to know the way standard way of operation.
+
+646
+01:03:28,120 --> 01:03:34,120
+ So e of this, then that means e, because e is a linear operator.
+
+647
+01:03:34,120 --> 01:03:35,120
+ So very easy.
+
+648
+01:03:35,120 --> 01:03:37,120
+ You just apply e to each.
+
+649
+01:03:37,120 --> 01:03:44,120
+ And being a constant, of course, e of the constant is still equal to accept.
+
+650
+01:03:44,120 --> 01:03:51,120
+ Even if you don't believe you're going to the integration, you are in the same way.
+
+651
+01:03:51,120 --> 01:03:56,120
+ So that's why I say you don't need to do it again.
+
+652
+01:03:56,120 --> 01:04:03,120
+ And then e of this, normally when we say white noise without mentioning the means,
+
+653
+01:04:03,120 --> 01:04:06,120
+ that means you will be assumed zero means.
+
+654
+01:04:06,120 --> 01:04:09,120
+ If not, mention the means.
+
+655
+01:04:09,120 --> 01:04:17,120
+ But for exam paper, normally we will, I will add zero means to be sure.
+
+656
+01:04:17,120 --> 01:04:22,120
+ But yeah, just follow the convention.
+
+657
+01:04:22,120 --> 01:04:24,120
+ And the variant is this.
+
+658
+01:04:24,120 --> 01:04:25,120
+ We know this.
+
+659
+01:04:25,120 --> 01:04:35,120
+ So therefore, you will see each of the n, whatever n equal to 0, 1, so on, your mw is a.
+
+660
+01:04:35,120 --> 01:04:39,120
+ And so therefore, we know this.
+
+661
+01:04:39,120 --> 01:04:42,120
+ A is the one we are going to estimate.
+
+662
+01:04:42,120 --> 01:04:46,120
+ So the coefficient vector for each of the n is just equal to 1.
+
+663
+01:04:46,120 --> 01:04:47,120
+ So e for each.
+
+664
+01:04:47,120 --> 01:04:50,120
+ So yeah, so it is at the one vector.
+
+665
+01:04:50,120 --> 01:04:53,120
+ The one vector, you're right, is a pole phase one.
+
+666
+01:04:53,120 --> 01:04:59,120
+ And in this case, the covariant matrix is also equal to this.
+
+667
+01:04:59,120 --> 01:05:00,120
+ The noise of white.
+
+668
+01:05:00,120 --> 01:05:03,120
+ I mean, there's no correlation, no constant.
+
+669
+01:05:03,120 --> 01:05:09,120
+ And then you can directly substitute the blue using the formula inside as you see here.
+
+670
+01:05:09,120 --> 01:05:11,120
+ So this is one vector.
+
+671
+01:05:11,120 --> 01:05:15,120
+ And this is the identity matrix.
+
+672
+01:05:15,120 --> 01:05:21,120
+ Because this is identity matrix divided by sigma power of 2.
+
+673
+01:05:21,120 --> 01:05:22,120
+ You take the inverse.
+
+674
+01:05:22,120 --> 01:05:27,120
+ You only inverse the coefficient.
+
+675
+01:05:27,120 --> 01:05:37,120
+ So therefore, you can simplify by just by work out this.
+
+676
+01:05:37,120 --> 01:05:39,120
+ I think that's quite easy.
+
+677
+01:05:39,120 --> 01:05:47,120
+ If you are not very sure, you'll do it by writing down the one vector, low vector, column vector.
+
+678
+01:05:47,120 --> 01:05:51,120
+ And then you will see that will become just the sum of n.
+
+679
+01:05:51,120 --> 01:05:56,120
+ And similarly for the other one, it will become the summation of the data.
+
+680
+01:05:56,120 --> 01:05:58,120
+ Of course, you have to pull out this.
+
+681
+01:05:58,120 --> 01:06:01,120
+ So n dot where this sigma power of 2 can show up.
+
+682
+01:06:01,120 --> 01:06:07,120
+ That's your 1 here, the numerator, and the denominator also over there.
+
+683
+01:06:07,120 --> 01:06:10,120
+ So we are taking the sample mean.
+
+684
+01:06:10,120 --> 01:06:13,120
+ And the variance, also easier.
+
+685
+01:06:13,120 --> 01:06:19,120
+ As I said, this one, of course, you take out, become numerator.
+
+686
+01:06:19,120 --> 01:06:23,120
+ And this is just summing up the n.
+
+687
+01:06:23,120 --> 01:06:28,120
+ And therefore, our sample mean here, this is sample mean definition.
+
+688
+01:06:28,120 --> 01:06:32,120
+ You take the sample, then divide by the number of samples.
+
+689
+01:06:32,120 --> 01:06:38,120
+ It happens to be the blue, even without knowing the PDF of the data.
+
+690
+01:06:38,120 --> 01:06:41,120
+ As long as we know the data, what?
+
+691
+01:06:41,120 --> 01:06:47,120
+ The noise, PDF can be Gaussian, can be any other one.
+
+692
+01:06:47,120 --> 01:06:50,120
+ Actually, we don't even need to know.
+
+693
+01:06:50,120 --> 01:06:52,120
+ So this is useful.
+
+694
+01:06:52,120 --> 01:06:55,120
+ So let's quickly go through some relative examples.
+
+695
+01:06:55,120 --> 01:07:03,120
+ And then before we take a break, look at the DC level in uncorrelated noise.
+
+696
+01:07:03,120 --> 01:07:05,120
+ But then the noise level is different.
+
+697
+01:07:05,120 --> 01:07:11,120
+ So this is somewhat more practical case, as I said, early.
+
+698
+01:07:11,120 --> 01:07:16,120
+ Some of the data may be more less noise, less noise,
+
+699
+01:07:16,120 --> 01:07:19,120
+ where some other data, depending on the variance.
+
+700
+01:07:19,120 --> 01:07:23,120
+ Of course, you all know if the variance is smaller,
+
+701
+01:07:23,120 --> 01:07:27,120
+ the idea case, the variance reduced to zero, then there's no noise.
+
+702
+01:07:27,120 --> 01:07:31,120
+ If the variance is very large, then it would be very noisy.
+
+703
+01:07:32,120 --> 01:07:38,120
+ Assuming here to be practical, we assume there always some value.
+
+704
+01:07:38,120 --> 01:07:42,120
+ Otherwise, we can take out that data.
+
+705
+01:07:42,120 --> 01:07:46,120
+ There's no noise, so it's not our consideration.
+
+706
+01:07:46,120 --> 01:07:51,120
+ So then, being a target of metrics, you take the inverse,
+
+707
+01:07:51,120 --> 01:07:53,120
+ you just invert each of the elements.
+
+708
+01:07:53,120 --> 01:07:57,120
+ And we put into the blue.
+
+709
+01:07:57,120 --> 01:08:02,120
+ And we will get very similar results, except you have the weighting.
+
+710
+01:08:02,120 --> 01:08:06,120
+ And the weighting is one over the noise here.
+
+711
+01:08:06,120 --> 01:08:10,120
+ So that means here it's also meaningful.
+
+712
+01:08:10,120 --> 01:08:14,120
+ For example, if you are weighting at the data sample,
+
+713
+01:08:14,120 --> 01:08:21,120
+ that means if this is small, then one over this will become a large number.
+
+714
+01:08:21,120 --> 01:08:26,120
+ So that means if the noise, the noise is very small,
+
+715
+01:08:26,120 --> 01:08:31,120
+ the data has less noise, it's more important.
+
+716
+01:08:31,120 --> 01:08:34,120
+ It contains more useful information.
+
+717
+01:08:34,120 --> 01:08:39,120
+ So we give it bigger weight in getting this sound.
+
+718
+01:08:39,120 --> 01:08:44,120
+ And for the variance, it will depend on how much different.
+
+719
+01:08:44,120 --> 01:08:46,120
+ So that's the one here.
+
+720
+01:08:46,120 --> 01:08:52,120
+ So yeah, that's what I already explained here.
+
+721
+01:08:52,120 --> 01:09:00,120
+ Then having this CX inverse in an N is sometimes we call it pre-weightening.
+
+722
+01:09:00,120 --> 01:09:05,120
+ You can also do it in a two-step approach.
+
+723
+01:09:05,120 --> 01:09:11,120
+ Given the data, if you already know the noise distribution of each of the samples,
+
+724
+01:09:11,120 --> 01:09:17,120
+ you'll do pre-weightening first, get the more balanced data,
+
+725
+01:09:17,120 --> 01:09:21,120
+ and then update it, you'll apply the formula.
+
+726
+01:09:21,120 --> 01:09:25,120
+ And this is the approach we're also going to do,
+
+727
+01:09:25,120 --> 01:09:33,120
+ one of the approaches in the detection one, so pre-weightening, so the one here.
+
+728
+01:09:33,120 --> 01:09:39,120
+ And then to tell you the proof here is identical to the MVVE for the Gaussian noise,
+
+729
+01:09:39,120 --> 01:09:41,120
+ although we do not need to assume.
+
+730
+01:09:41,120 --> 01:09:45,120
+ So in some sense, sometimes it's like this.
+
+731
+01:09:45,120 --> 01:09:48,120
+ For some example, we don't need the more complicated one.
+
+732
+01:09:48,120 --> 01:09:52,120
+ We can use a simple one with less assumptions.
+
+733
+01:09:52,120 --> 01:10:03,120
+ So I think it's a good time to take a short break here before we continue into the vector parameter case,
+
+734
+01:10:03,120 --> 01:10:09,120
+ which is extension of what we do, but a little bit more involved.
+
+735
+01:10:09,120 --> 01:10:15,120
+ So we come back in now 7.40, maybe 7.55, 15 minutes.
+
+736
+01:10:15,120 --> 01:10:20,120
+ But then we can finish big early.
+
+737
+01:10:20,120 --> 01:10:27,120
+ So any questions, you can come to me during the break also.
+
+738
+01:10:28,120 --> 01:10:32,120
+ 7.48.
+
+739
+01:10:32,120 --> 01:10:37,120
+ 7.48.
+
+740
+01:10:37,120 --> 01:10:40,120
+ Yes?
+
+741
+01:10:40,120 --> 01:10:48,120
+ Yeah, here we are taking the transport of A optimal,
+
+742
+01:10:48,120 --> 01:10:52,120
+ but in the denominator nothing is changing when we take the transport.
+
+743
+01:10:52,120 --> 01:10:57,120
+ So we have S transpose CX inverse S, we didn't change it.
+
+744
+01:10:57,120 --> 01:11:01,120
+ So the denominator is not affected by the transport?
+
+745
+01:11:01,120 --> 01:11:06,120
+ The denominator, you are talking the last line?
+
+746
+01:11:06,120 --> 01:11:08,120
+ We are talking about A optimal.
+
+747
+01:11:08,120 --> 01:11:11,120
+ So we have A optimal, okay?
+
+748
+01:11:11,120 --> 01:11:14,120
+ The line before the last one, good week.
+
+749
+01:11:14,120 --> 01:11:18,120
+ Okay, that one is a vector.
+
+750
+01:11:18,120 --> 01:11:21,120
+ You know A optimal is a column vector?
+
+751
+01:11:21,120 --> 01:11:28,120
+ Yeah, yeah, then if you look at denominator is a scalar.
+
+752
+01:11:28,120 --> 01:11:30,120
+ Denominator is a scalar, must be a scalar.
+
+753
+01:11:30,120 --> 01:11:36,120
+ Otherwise you cannot derive the biometric, right, to become inverse.
+
+754
+01:11:36,120 --> 01:11:41,120
+ That's how the next one, the next vector case, because that one, yeah, that side,
+
+755
+01:11:41,120 --> 01:11:43,120
+ I told you you are always verified.
+
+756
+01:11:43,120 --> 01:11:47,120
+ If you look at this, it is a row vector first,
+
+757
+01:11:47,120 --> 01:11:51,120
+ followed by the column vector, then you can't scalar.
+
+758
+01:11:51,120 --> 01:11:53,120
+ You can work out this.
+
+759
+01:11:53,120 --> 01:11:54,120
+ Yeah, I can see it now.
+
+760
+01:11:54,120 --> 01:11:57,120
+ Yeah, you can see, yeah, that side has even consensually you can view it.
+
+761
+01:11:57,120 --> 01:11:58,120
+ Yeah, yeah, yeah.
+
+762
+01:11:58,120 --> 01:11:59,120
+ Simple one, yeah.
+
+763
+01:11:59,120 --> 01:12:00,120
+ Yeah, good.
+
+764
+01:12:00,120 --> 01:12:01,120
+ Thank you.
+
+765
+01:12:01,120 --> 01:12:03,120
+ I hope you'll find it useful.
+
+766
+01:12:03,120 --> 01:12:05,120
+ Yeah, thank you.
+
+767
+01:12:14,120 --> 01:12:16,120
+ Hi, you.
+
+768
+01:12:16,120 --> 01:12:17,120
+ Thank you.
+
+769
+01:12:17,120 --> 01:12:18,120
+ Thank you.
+
+770
+01:12:18,120 --> 01:12:19,120
+ Thank you.
+
+771
+01:12:19,120 --> 01:12:20,120
+ Thank you.
+
+772
+01:12:43,120 --> 01:12:44,120
+ Thank you.
+
+773
+01:13:13,120 --> 01:13:14,120
+ Thank you.
+
+774
+01:13:43,120 --> 01:13:44,120
+ Thank you.
+
+775
+01:14:13,120 --> 01:14:14,120
+ Thank you.
+
+776
+01:14:43,120 --> 01:14:44,120
+ Thank you.
+
+777
+01:15:13,120 --> 01:15:14,120
+ Thank you.
+
+778
+01:15:43,120 --> 01:15:44,120
+ Thank you.
+
+779
+01:16:13,120 --> 01:16:14,120
+ Thank you.
+
+780
+01:16:43,120 --> 01:16:45,120
+ Thank you.
+
+781
+01:17:13,120 --> 01:17:14,120
+ Thank you.
+
+782
+01:17:43,120 --> 01:17:45,120
+ Thank you.
+
+783
+01:18:13,120 --> 01:18:15,120
+ Thank you.
+
+784
+01:18:43,120 --> 01:18:45,120
+ Thank you.
+
+785
+01:19:13,120 --> 01:19:15,120
+ Thank you.
+
+786
+01:19:43,120 --> 01:19:45,120
+ Thank you.
+
+787
+01:20:13,120 --> 01:20:15,120
+ Thank you.
+
+788
+01:20:43,120 --> 01:20:45,120
+ Thank you.
+
+789
+01:21:13,120 --> 01:21:15,120
+ Thank you.
+
+790
+01:21:43,120 --> 01:21:45,120
+ Thank you.
+
+791
+01:22:13,120 --> 01:22:15,120
+ Thank you.
+
+792
+01:22:43,120 --> 01:22:45,120
+ Thank you.
+
+793
+01:23:13,120 --> 01:23:15,120
+ Thank you.
+
+794
+01:23:43,120 --> 01:23:45,120
+ Thank you.
+
+795
+01:24:13,120 --> 01:24:15,120
+ Thank you.
+
+796
+01:24:43,120 --> 01:24:45,120
+ Thank you.
+
+797
+01:25:13,120 --> 01:25:26,120
+ Yeah, hopefully we finish early, shorten the break in the middle.
+
+798
+01:25:26,120 --> 01:25:38,120
+ Before we go into the content, I will give some quite basic but useful techniques and
+
+799
+01:25:38,120 --> 01:25:48,120
+ I will talk about the probability which is just involving some simple relationship.
+
+800
+01:25:48,120 --> 01:25:52,120
+ And that's why I emphasize here.
+
+801
+01:25:52,120 --> 01:26:00,120
+ Here I'm talking only scalar, random variable, but they are mostly you can extend into matrix
+
+802
+01:26:00,120 --> 01:26:03,120
+ in some special case.
+
+803
+01:26:03,120 --> 01:26:10,120
+ So for example, if you have a scalar ring that's available X, sorry, actually, when
+
+804
+01:26:10,120 --> 01:26:17,120
+ we talk about variance, we don't need to, yeah, yeah, we, so sometimes I get confused
+
+805
+01:26:17,120 --> 01:26:18,120
+ myself.
+
+806
+01:26:18,120 --> 01:26:21,120
+ So that's variance of X.
+
+807
+01:26:21,120 --> 01:26:27,120
+ It's already the variance except it's a second-order operator.
+
+808
+01:26:27,120 --> 01:26:38,120
+ So it's the same as you take the second-order moment, I mean X is a random variable, raise
+
+809
+01:26:38,120 --> 01:26:42,120
+ a power of 2 is second moment expectation.
+
+810
+01:26:42,120 --> 01:26:47,120
+ Subtract first expectation, E of X, raise a power of 2.
+
+811
+01:26:47,120 --> 01:26:54,120
+ So don't get confused, this E of X power of 2 and EX raise power of 2.
+
+812
+01:26:54,120 --> 01:27:02,120
+ So this is we are operating on the random variable power of 2, like the number polynomial,
+
+813
+01:27:02,120 --> 01:27:04,120
+ you raise power of 2.
+
+814
+01:27:04,120 --> 01:27:12,120
+ Well, this one is E of X, just first order the expectation, then you make power of 2
+
+815
+01:27:12,120 --> 01:27:14,120
+ on the E of X.
+
+816
+01:27:14,120 --> 01:27:17,120
+ And these are these very useful relationship.
+
+817
+01:27:17,120 --> 01:27:23,120
+ We will use that again very often several times at least in the future.
+
+818
+01:27:23,120 --> 01:27:24,120
+ Remember this.
+
+819
+01:27:24,120 --> 01:27:34,120
+ And then this following is some very simple results also involving variable and deterministic
+
+820
+01:27:34,120 --> 01:27:35,120
+ coefficient.
+
+821
+01:27:35,120 --> 01:27:40,120
+ Again, I just looked at the scalar case.
+
+822
+01:27:40,120 --> 01:27:44,120
+ So if we are, yeah, so here I have a value of this.
+
+823
+01:27:44,120 --> 01:27:48,120
+ So this is constant multiplied by X.
+
+824
+01:27:48,120 --> 01:27:54,120
+ And remember always you can take out the constant, but when you bring out mass-making power
+
+825
+01:27:54,120 --> 01:27:57,120
+ of 2, this is second-order operation.
+
+826
+01:27:57,120 --> 01:28:04,120
+ So quite often some students make mistakes by just take out B, then that will be wrong.
+
+827
+01:28:04,120 --> 01:28:08,120
+ And the B here is deterministic where X is written.
+
+828
+01:28:08,120 --> 01:28:15,120
+ And similarly here, if you work on the other two factors in it, anyway, so there also you
+
+829
+01:28:15,120 --> 01:28:17,120
+ can show this, you get the same result here.
+
+830
+01:28:17,120 --> 01:28:22,120
+ So BX, you take expectation raise the power of 2.
+
+831
+01:28:22,120 --> 01:28:28,120
+ The same as you take out B power of 2, then take the expectation raise the power of 2.
+
+832
+01:28:28,120 --> 01:28:35,120
+ And similarly here, your BX raise power of 2, you can take out B square.
+
+833
+01:28:35,120 --> 01:28:38,120
+ But the X power of 2 remain inside.
+
+834
+01:28:38,120 --> 01:28:40,120
+ This is outside, this is inside.
+
+835
+01:28:40,120 --> 01:28:42,120
+ So don't get confused too.
+
+836
+01:28:42,120 --> 01:28:43,120
+ Okay?
+
+837
+01:28:43,120 --> 01:28:47,120
+ So these are very useful.
+
+838
+01:28:47,120 --> 01:28:52,120
+ So I hope you remember this.
+
+839
+01:28:52,120 --> 01:28:59,120
+ So yeah, just now some students asked about why this looks like the matrix.
+
+840
+01:28:59,120 --> 01:29:02,120
+ So we put it in the denominator.
+
+841
+01:29:02,120 --> 01:29:05,120
+ But of course this is a scalar.
+
+842
+01:29:05,120 --> 01:29:09,120
+ A matrix will never divide a matrix.
+
+843
+01:29:09,120 --> 01:29:12,120
+ A matrix, you divide, you have to take inverse.
+
+844
+01:29:12,120 --> 01:29:14,120
+ So we will show that.
+
+845
+01:29:14,120 --> 01:29:19,120
+ But how to see this is a scalar, you see?
+
+846
+01:29:19,120 --> 01:29:28,120
+ You look at the most row vector, multiply by, this in the middle is a square matrix
+
+847
+01:29:28,120 --> 01:29:31,120
+ because this S is column vector.
+
+848
+01:29:31,120 --> 01:29:39,120
+ So you're just verified by using the box measure or just think about the dimension of the
+
+849
+01:29:39,120 --> 01:29:42,120
+ multiplication is always determined at the end.
+
+850
+01:29:42,120 --> 01:29:46,120
+ The row is determined by the number of rows of this first.
+
+851
+01:29:46,120 --> 01:29:48,120
+ And this is a row vector.
+
+852
+01:29:48,120 --> 01:29:49,120
+ Of course it's one.
+
+853
+01:29:49,120 --> 01:29:56,120
+ And the last one, the number of columns of the last vector, which is one also column.
+
+854
+01:29:56,120 --> 01:30:01,120
+ So therefore this is one by one scalar.
+
+855
+01:30:01,120 --> 01:30:11,120
+ And some of you may wonder, yeah, the variant here, we have one here.
+
+856
+01:30:11,120 --> 01:30:13,120
+ You already have this part.
+
+857
+01:30:13,120 --> 01:30:16,120
+ Then another one also have this.
+
+858
+01:30:16,120 --> 01:30:21,120
+ But somehow the numerator create one of this.
+
+859
+01:30:21,120 --> 01:30:23,120
+ So you can show out one.
+
+860
+01:30:23,120 --> 01:30:25,120
+ The end up is very simple.
+
+861
+01:30:25,120 --> 01:30:36,120
+ So that's to clarify.
+
+862
+01:30:36,120 --> 01:30:47,120
+ Then now we continue into vector parameter case based on what we learned early for the
+
+863
+01:30:47,120 --> 01:30:48,120
+ scalar case.
+
+864
+01:30:48,120 --> 01:30:55,120
+ So the idea is similar except we're getting more involved.
+
+865
+01:30:55,120 --> 01:31:00,120
+ You have to handle the matrix now in this.
+
+866
+01:31:00,120 --> 01:31:01,120
+ This is vector.
+
+867
+01:31:01,120 --> 01:31:04,120
+ So the data is still vector.
+
+868
+01:31:04,120 --> 01:31:11,120
+ But because this become a vector estimator, then everything become more complicated.
+
+869
+01:31:11,120 --> 01:31:17,120
+ And that's why here we need to be more careful about those matrix operations.
+
+870
+01:31:17,120 --> 01:31:31,120
+ So how to do that is if you look at each of the elements in the unknown parameter vector,
+
+871
+01:31:31,120 --> 01:31:36,120
+ we were doing the linear estimation for each of them.
+
+872
+01:31:36,120 --> 01:31:40,120
+ So we call it as use a small index m.
+
+873
+01:31:40,120 --> 01:31:43,120
+ So one, two, three, four, five in total m.
+
+874
+01:31:43,120 --> 01:31:48,120
+ So that means we are given the same data vector.
+
+875
+01:31:48,120 --> 01:31:52,120
+ The data vector is also assumed as n.
+
+876
+01:31:52,120 --> 01:31:56,120
+ But we are using it multiple times.
+
+877
+01:31:56,120 --> 01:31:59,120
+ So think about the same data.
+
+878
+01:31:59,120 --> 01:32:07,120
+ We use the same data to estimate each of the scalar element unknown parameter.
+
+879
+01:32:07,120 --> 01:32:11,120
+ But of course you will be using a different combination.
+
+880
+01:32:11,120 --> 01:32:14,120
+ So you combine different ways.
+
+881
+01:32:14,120 --> 01:32:19,120
+ Your n times is the different estimate in the n.
+
+882
+01:32:19,120 --> 01:32:23,120
+ So again, how are we going to choose this?
+
+883
+01:32:23,120 --> 01:32:29,120
+ That's very similar to what we did before for the scalar case.
+
+884
+01:32:29,120 --> 01:32:34,120
+ But you extend it to the more general case.
+
+885
+01:32:35,120 --> 01:32:42,120
+ The first difference is now this is vector, then this x is vector.
+
+886
+01:32:42,120 --> 01:32:51,120
+ So in order to create a vector, of course, our a must be a matrix.
+
+887
+01:32:51,120 --> 01:33:01,120
+ So that's again, as I say, you see our theta, it's a column vector.
+
+888
+01:33:01,120 --> 01:33:11,120
+ So the number of rows, in this case m, so our a matrix must be m in order to match this.
+
+889
+01:33:11,120 --> 01:33:20,120
+ But for x is n, so for the a matrix dimension, the row must be equal to this.
+
+890
+01:33:20,120 --> 01:33:24,120
+ And the column, number of columns must be equal to x.
+
+891
+01:33:24,120 --> 01:33:28,120
+ So therefore n times m by n matrix.
+
+892
+01:33:28,120 --> 01:33:38,120
+ And then again, similar to what we require in the scalar case, we don't require the data to be a linear model.
+
+893
+01:33:38,120 --> 01:33:45,120
+ But the expectation should be linear in terms of theta.
+
+894
+01:33:45,120 --> 01:33:53,120
+ So you have a constant matrix s and multiplied by theta.
+
+895
+01:33:53,120 --> 01:34:04,120
+ So in this case, assume this is already this form then, we just work to achieve the unbiased.
+
+896
+01:34:04,120 --> 01:34:14,120
+ You want to make this equal to theta, then this a of s, the product must be a identity matrix.
+
+897
+01:34:14,120 --> 01:34:19,120
+ Because s is a vector, not the scalar.
+
+898
+01:34:19,120 --> 01:34:32,120
+ And this s matrix, the dimension is the transpose of this, of the dimension of this matrix.
+
+899
+01:34:32,120 --> 01:34:37,120
+ So if you a matrix, when you transpose, it will become n by n.
+
+900
+01:34:37,120 --> 01:34:47,120
+ And that's how this, otherwise when you multiply, you want to make it to be identity matrix of what dimension?
+
+901
+01:34:47,120 --> 01:34:51,120
+ This i dimension must be the same as theta.
+
+902
+01:34:51,120 --> 01:34:53,120
+ It will be n by n.
+
+903
+01:34:53,120 --> 01:34:55,120
+ So you can also verify.
+
+904
+01:34:55,120 --> 01:34:58,120
+ Usually n is bigger than m.
+
+905
+01:34:58,120 --> 01:35:08,120
+ So you can draw the figure by making Paul or making Fett.
+
+906
+01:35:08,120 --> 01:35:13,120
+ And how are we going to do for this?
+
+907
+01:35:13,120 --> 01:35:25,120
+ In order to try to make good use of what we just did for the scatter case, we partitioned the a and s matrix.
+
+908
+01:35:25,120 --> 01:35:26,120
+ Be careful here.
+
+909
+01:35:26,120 --> 01:35:29,120
+ The partition of s is easy.
+
+910
+01:35:29,120 --> 01:35:31,120
+ It's a standard way.
+
+911
+01:35:31,120 --> 01:35:35,120
+ You just do it by column.
+
+912
+01:35:35,120 --> 01:35:37,120
+ Because this is a matrix.
+
+913
+01:35:37,120 --> 01:35:42,120
+ You have encoder m number of columns.
+
+914
+01:35:42,120 --> 01:35:46,120
+ So we just call each column as column vector.
+
+915
+01:35:46,120 --> 01:35:51,120
+ But the a is, you have to be a bit careful.
+
+916
+01:35:51,120 --> 01:35:55,120
+ You can think about the two ways to interpret.
+
+917
+01:35:55,120 --> 01:35:57,120
+ Why we want to do that?
+
+918
+01:35:57,120 --> 01:36:01,120
+ Because later you will see the result is much easier to interpret.
+
+919
+01:36:01,120 --> 01:36:11,120
+ So the easier way, which I always tell students to remember is you transpose the a first.
+
+920
+01:36:11,120 --> 01:36:13,120
+ You can give them an a.
+
+921
+01:36:13,120 --> 01:36:17,120
+ Think about your transpose the a.
+
+922
+01:36:17,120 --> 01:36:20,120
+ Because a is not square matrix in general.
+
+923
+01:36:20,120 --> 01:36:22,120
+ So you take the transpose.
+
+924
+01:36:22,120 --> 01:36:25,120
+ After taking, you see, because I take the transpose.
+
+925
+01:36:25,120 --> 01:36:26,120
+ We have the transpose here.
+
+926
+01:36:26,120 --> 01:36:31,120
+ Now with that you divide into columns in the same way as there.
+
+927
+01:36:31,120 --> 01:36:40,120
+ But you partitioned the a transpose into a1, a2 and so on.
+
+928
+01:36:40,120 --> 01:36:48,120
+ Alternatively, if you already want to look at how are you partitioning the original a matrix.
+
+929
+01:36:48,120 --> 01:36:58,120
+ Then you need to apply this transpose into each of the column vector.
+
+930
+01:36:58,120 --> 01:37:00,120
+ So how are you going to do that?
+
+931
+01:37:00,120 --> 01:37:04,120
+ Remember this is not a product.
+
+932
+01:37:04,120 --> 01:37:13,120
+ So I'm going to show you again here to make good use, keep this one active.
+
+933
+01:37:13,120 --> 01:37:18,120
+ Because the system is very funny if I don't use it for 20 minutes.
+
+934
+01:37:18,120 --> 01:37:22,120
+ Turn off and it seems I cannot recover.
+
+935
+01:37:22,120 --> 01:37:27,120
+ Actually last week when I shut down the computer, I cannot shut down.
+
+936
+01:37:27,120 --> 01:37:29,120
+ I have to report.
+
+937
+01:37:29,120 --> 01:37:36,120
+ It took quite some time to, so I hope today I can shut down.
+
+938
+01:37:36,120 --> 01:37:41,120
+ If not, I will keep ask one of you to be here to observe.
+
+939
+01:37:41,120 --> 01:37:45,120
+ I think a few students stay back then they know the problem.
+
+940
+01:37:45,120 --> 01:37:50,120
+ But the CITA they say, oh, the next day they came, there's no problem.
+
+941
+01:37:50,120 --> 01:37:56,120
+ So it looks like I'm telling them something with a mistake.
+
+942
+01:37:57,120 --> 01:37:59,120
+ Actually I did take photos.
+
+943
+01:37:59,120 --> 01:38:02,120
+ So anyway, this is one of the problems.
+
+944
+01:38:02,120 --> 01:38:03,120
+ I really don't know.
+
+945
+01:38:03,120 --> 01:38:07,120
+ So let's go back to this A again.
+
+946
+01:38:07,120 --> 01:38:12,120
+ It's also useful to know how it operates.
+
+947
+01:38:12,120 --> 01:38:20,120
+ If I have column, so these are column vector, A and N.
+
+948
+01:38:20,120 --> 01:38:24,120
+ Now how are we going to transfer that?
+
+949
+01:38:24,120 --> 01:38:33,120
+ So what you do is you convert each column vector to transpose.
+
+950
+01:38:33,120 --> 01:38:35,120
+ So become, of course, become row.
+
+951
+01:38:35,120 --> 01:38:40,120
+ A1, then now you are putting because they become row.
+
+952
+01:38:40,120 --> 01:38:46,120
+ So you are putting each one on top of the other.
+
+953
+01:38:46,120 --> 01:38:51,120
+ So that's another way to do it.
+
+954
+01:38:51,120 --> 01:39:00,120
+ So that means I, in a sense, if I directly partition the A, A matrix,
+
+955
+01:39:00,120 --> 01:39:07,120
+ I partition it according, I think this one last one should be,
+
+956
+01:39:07,120 --> 01:39:09,120
+ is it M or N?
+
+957
+01:39:09,120 --> 01:39:11,120
+ Yeah, M, yeah, also.
+
+958
+01:39:11,120 --> 01:39:22,120
+ So I'm going to call it A1, because the number of rows of A is the same as the number of columns of S.
+
+959
+01:39:22,120 --> 01:39:32,120
+ So either way, just repeat again, you can easily transpose A first and partition according to column.
+
+960
+01:39:32,120 --> 01:39:35,120
+ And each column we call A1, A2, A3.
+
+961
+01:39:35,120 --> 01:39:41,120
+ So then gradually you can directly partition the A matrix into rows.
+
+962
+01:39:41,120 --> 01:39:51,120
+ And each rows we call it as A1 transpose, because we want to keep A1 as a vector.
+
+963
+01:39:51,120 --> 01:39:56,120
+ So it's a vector transpose to become rows.
+
+964
+01:39:56,120 --> 01:39:59,120
+ So hope this is clear to you.
+
+965
+01:39:59,120 --> 01:40:08,120
+ Because later on you will see this notation is easier to link to the result.
+
+966
+01:40:08,120 --> 01:40:10,120
+ We're deriving.
+
+967
+01:40:10,120 --> 01:40:12,120
+ So therefore, why?
+
+968
+01:40:12,120 --> 01:40:19,120
+ Because if you're doing in that way, then you will see A as the condition equal to I,
+
+969
+01:40:19,120 --> 01:40:22,120
+ then it will become very convenient.
+
+970
+01:40:22,120 --> 01:40:32,120
+ And then you will be taking something like inner product of two column vector, A, I and S, J.
+
+971
+01:40:32,120 --> 01:40:36,120
+ But of course, A, I must transpose, become a row.
+
+972
+01:40:36,120 --> 01:40:38,120
+ Yeah, so yeah.
+
+973
+01:40:38,120 --> 01:40:40,120
+ And why this I?
+
+974
+01:40:40,120 --> 01:40:43,120
+ You see I is the intake of this.
+
+975
+01:40:43,120 --> 01:40:45,120
+ J is this intake.
+
+976
+01:40:45,120 --> 01:40:48,120
+ They are all running from 1 to M.
+
+977
+01:40:48,120 --> 01:40:53,120
+ So this delta function, this is the conventional definition.
+
+978
+01:40:53,120 --> 01:40:56,120
+ So I hope you know the definition.
+
+979
+01:40:56,120 --> 01:41:00,120
+ That means I equal to J for this delta, you are equal to 1.
+
+980
+01:41:00,120 --> 01:41:06,120
+ If I not equal to J, say for example 1 and 2, then of course it's equal to 0.
+
+981
+01:41:06,120 --> 01:41:10,120
+ So that captures the identity matrix.
+
+982
+01:41:10,120 --> 01:41:18,120
+ I and J basically, if you are referring to the same index, you will be in the diagonal element.
+
+983
+01:41:18,120 --> 01:41:20,120
+ You will be equal to 1.
+
+984
+01:41:20,120 --> 01:41:23,120
+ So this condition is the same as that.
+
+985
+01:41:23,120 --> 01:41:25,120
+ That's important.
+
+986
+01:41:25,120 --> 01:41:33,120
+ And then again here, this is even more important, you see, because we are involving matrix.
+
+987
+01:41:33,120 --> 01:41:43,120
+ J is a matrix, but you can use the similar operation as I did early.
+
+988
+01:41:43,120 --> 01:41:47,120
+ So I don't need to repeat what I mentioned earlier.
+
+989
+01:41:47,120 --> 01:41:57,120
+ So basically, we want to relate this covariate matrix of the estimator with respect to the covariate matrix of the data.
+
+990
+01:41:57,120 --> 01:42:01,120
+ Of course, involving now our coefficient.
+
+991
+01:42:01,120 --> 01:42:06,120
+ And the relation of this, and if you again, of the data, of the estimator,
+
+992
+01:42:06,120 --> 01:42:17,120
+ related to the covariate of the data by adding the A matrix we are going to obtain.
+
+993
+01:42:17,120 --> 01:42:23,120
+ So that means from here, you see this data, the data given, covariate matrix of the data given,
+
+994
+01:42:23,120 --> 01:42:30,120
+ but we can try to work on A to achieve, you know, minimize this.
+
+995
+01:42:30,120 --> 01:42:39,120
+ So going back to the early one, I think this Lagrangian, the meaning of this operator I need to emphasize.
+
+996
+01:42:39,120 --> 01:42:41,120
+ Why? We want to minimize this.
+
+997
+01:42:41,120 --> 01:42:43,120
+ You know, this is one we are going to minimize.
+
+998
+01:42:43,120 --> 01:42:49,120
+ But we need to add this constraint, because if not, if we don't add constraint to minimize this,
+
+999
+01:42:49,120 --> 01:42:54,120
+ it's a very easy task if I choose A vector equal to 0.
+
+1000
+01:42:54,120 --> 01:42:57,120
+ And this becomes 0, which is a smallish one.
+
+1001
+01:42:57,120 --> 01:43:04,120
+ And it doesn't work, because if A equal to 0, then that means our estimator is also equal to 0.
+
+1002
+01:43:04,120 --> 01:43:06,120
+ So we are doing nothing.
+
+1003
+01:43:06,120 --> 01:43:10,120
+ So this constraint means A cannot be 0.
+
+1004
+01:43:10,120 --> 01:43:14,120
+ If A equal to 0, then you cannot satisfy this condition.
+
+1005
+01:43:14,120 --> 01:43:16,120
+ So that's very important.
+
+1006
+01:43:16,120 --> 01:43:19,120
+ And it's similar here.
+
+1007
+01:43:19,120 --> 01:43:25,120
+ In the vector parameter case, we cannot do an easy job by making A equal to 0.
+
+1008
+01:43:25,120 --> 01:43:33,120
+ So if we add constraint, then it's the easiest one, make this E equal to 0, and achieve.
+
+1009
+01:43:33,120 --> 01:43:48,120
+ So what we're going to do here is to rely this into breaking down into each of the elements, you see?
+
+1010
+01:43:48,120 --> 01:43:57,120
+ So now C theta hat is this relation.
+
+1011
+01:43:57,120 --> 01:44:07,120
+ Then if you use this partition of A and then A transpose, you will see here.
+
+1012
+01:44:07,120 --> 01:44:13,120
+ And then after that, using the very simple sub-matrix multiplication,
+
+1013
+01:44:13,120 --> 01:44:17,120
+ you can see each of the elements.
+
+1014
+01:44:17,120 --> 01:44:19,120
+ It will be the first one.
+
+1015
+01:44:19,120 --> 01:44:22,120
+ For example, you multiply in the center.
+
+1016
+01:44:22,120 --> 01:44:24,120
+ There's always this Cx.
+
+1017
+01:44:24,120 --> 01:44:26,120
+ This is the same.
+
+1018
+01:44:26,120 --> 01:44:34,120
+ But to get the first element, you take A1, the first low transpose of this A1 vector.
+
+1019
+01:44:34,120 --> 01:44:37,120
+ Then A1, you'll get this.
+
+1020
+01:44:37,120 --> 01:44:42,120
+ Similarly, to get this second one, two, you just take A1 transpose and A2.
+
+1021
+01:44:42,120 --> 01:44:45,120
+ So you get this and so on.
+
+1022
+01:44:45,120 --> 01:44:48,120
+ So all this by using the partition form of A.
+
+1023
+01:44:48,120 --> 01:44:56,120
+ So as I said, you need some very simple operation on sub-matrix.
+
+1024
+01:44:56,120 --> 01:45:02,120
+ Therefore, the variance of each of the estimates, you see?
+
+1025
+01:45:02,120 --> 01:45:06,120
+ Because to get the variance, we only need to look at the diagonal one.
+
+1026
+01:45:06,120 --> 01:45:12,120
+ This off-diagonal is you need there if you are later doing the inversion.
+
+1027
+01:45:12,120 --> 01:45:17,120
+ Just like our CILB, you want to invert the i-matrix.
+
+1028
+01:45:17,120 --> 01:45:20,120
+ If it's not diagonal, you need off-diagonal.
+
+1029
+01:45:20,120 --> 01:45:24,120
+ But after inversion, what you need is this.
+
+1030
+01:45:24,120 --> 01:45:27,120
+ Only the diagonal one is the one meaningful.
+
+1031
+01:45:27,120 --> 01:45:29,120
+ And it will be the same here.
+
+1032
+01:45:29,120 --> 01:45:37,120
+ In A, we want to get the variance of each of the estimates to be as small as possible.
+
+1033
+01:45:37,120 --> 01:45:40,120
+ Again, there.
+
+1034
+01:45:40,120 --> 01:45:44,120
+ So now here, we have a very similar form.
+
+1035
+01:45:44,120 --> 01:45:46,120
+ It's the scatter case.
+
+1036
+01:45:46,120 --> 01:45:54,120
+ But we need to do this collectively, not just look at each of them.
+
+1037
+01:45:54,120 --> 01:45:58,120
+ Because you may end up with they all become the same M.
+
+1038
+01:45:58,120 --> 01:46:08,120
+ We have to do it according to the given data and the constraint here.
+
+1039
+01:46:08,120 --> 01:46:20,120
+ Because this S vector may have a different value for different elements.
+
+1040
+01:46:21,120 --> 01:46:28,120
+ Again here, we make our task look at each of these M, become this term.
+
+1041
+01:46:28,120 --> 01:46:32,120
+ Minimize that subject to this condition.
+
+1042
+01:46:32,120 --> 01:46:34,120
+ The one we already know.
+
+1043
+01:46:34,120 --> 01:46:40,120
+ So again, we go back to our good friends, La-klang-je.
+
+1044
+01:46:40,120 --> 01:46:43,120
+ It's the same here.
+
+1045
+01:46:43,120 --> 01:46:47,120
+ We look at each, so it becomes more manageable.
+
+1046
+01:46:47,120 --> 01:46:51,120
+ So this term is the same looking at each element.
+
+1047
+01:46:51,120 --> 01:46:56,120
+ But this constraint, we need more constraints.
+
+1048
+01:46:56,120 --> 01:46:59,120
+ So be careful.
+
+1049
+01:46:59,120 --> 01:47:06,120
+ For 1, 6k, we need to run through the different J.
+
+1050
+01:47:06,120 --> 01:47:09,120
+ The J is basically based on this.
+
+1051
+01:47:09,120 --> 01:47:13,120
+ You are from 1 to M.
+
+1052
+01:47:13,120 --> 01:47:20,120
+ And then the La-klang-je, this coefficient, it will also be a matrix.
+
+1053
+01:47:20,120 --> 01:47:23,120
+ Because we have different J, different K.
+
+1054
+01:47:23,120 --> 01:47:29,120
+ So once you fix this, we take the vector derivative.
+
+1055
+01:47:29,120 --> 01:47:31,120
+ It's similar to what we did before.
+
+1056
+01:47:31,120 --> 01:47:36,120
+ So it should be familiar with that.
+
+1057
+01:47:36,120 --> 01:47:38,120
+ And this is linear.
+
+1058
+01:47:38,120 --> 01:47:40,120
+ This is second order.
+
+1059
+01:47:40,120 --> 01:47:42,120
+ Second order, you take derivative.
+
+1060
+01:47:42,120 --> 01:47:45,120
+ And this, oh, I also need to emphasize this C-X matrix.
+
+1061
+01:47:45,120 --> 01:47:47,120
+ It's a symmetric one.
+
+1062
+01:47:47,120 --> 01:47:50,120
+ So you only have one term.
+
+1063
+01:47:50,120 --> 01:47:54,120
+ And this one is the fourth order.
+
+1064
+01:47:54,120 --> 01:47:56,120
+ It's a linear function of A-k.
+
+1065
+01:47:56,120 --> 01:47:59,120
+ So you don't have A-k left.
+
+1066
+01:47:59,120 --> 01:48:01,120
+ You have this.
+
+1067
+01:48:01,120 --> 01:48:08,120
+ And then after that, again, you need to simplify a little bit.
+
+1068
+01:48:08,120 --> 01:48:15,120
+ And we get a similar form of this A-k here, except it's more involved.
+
+1069
+01:48:15,120 --> 01:48:18,120
+ We have this S-matrix here.
+
+1070
+01:48:18,120 --> 01:48:23,120
+ And also lambda is, now it's a vector also.
+
+1071
+01:48:23,120 --> 01:48:26,120
+ Because this is a vector.
+
+1072
+01:48:26,120 --> 01:48:27,120
+ It is okay.
+
+1073
+01:48:27,120 --> 01:48:34,120
+ And let's see, this is the constraint, you see, given.
+
+1074
+01:48:34,120 --> 01:48:36,120
+ We already know for this.
+
+1075
+01:48:36,120 --> 01:48:39,120
+ The meaning of E of k is here.
+
+1076
+01:48:39,120 --> 01:48:44,120
+ The unit vector in the k dimension.
+
+1077
+01:48:44,120 --> 01:48:47,120
+ So I hope you're familiar with this.
+
+1078
+01:48:47,120 --> 01:48:52,120
+ Let me emphasize the meaning of here.
+
+1079
+01:48:52,120 --> 01:48:58,120
+ Because this one we need to use quite often.
+
+1080
+01:48:58,120 --> 01:49:05,120
+ Say E-k here will be equal to say unit vector.
+
+1081
+01:49:05,120 --> 01:49:11,120
+ That means the other value, they are all zero.
+
+1082
+01:49:11,120 --> 01:49:16,120
+ Except this is the k-k position.
+
+1083
+01:49:16,120 --> 01:49:19,120
+ Say assume k equal to 3.
+
+1084
+01:49:19,120 --> 01:49:23,120
+ It will be the first one, zero, zero, then three.
+
+1085
+01:49:23,120 --> 01:49:26,120
+ The position of three becomes one.
+
+1086
+01:49:26,120 --> 01:49:30,120
+ And k equal to one, then it will be one, zero, zero.
+
+1087
+01:49:30,120 --> 01:49:34,120
+ So remember the definition of this.
+
+1088
+01:49:34,120 --> 01:49:40,120
+ Again, this helps me to switch back to this.
+
+1089
+01:49:40,120 --> 01:49:41,120
+ Yeah.
+
+1090
+01:49:41,120 --> 01:49:43,120
+ And yeah.
+
+1091
+01:49:43,120 --> 01:49:47,120
+ So we have this relationship based on this condition.
+
+1092
+01:49:47,120 --> 01:49:52,120
+ Then we get the similar result as what we did before.
+
+1093
+01:49:52,120 --> 01:49:53,120
+ Lambda k.
+
+1094
+01:49:53,120 --> 01:49:57,120
+ But except, this pi is similar.
+
+1095
+01:49:57,120 --> 01:50:01,120
+ Except now this is, you have to, this is a vector.
+
+1096
+01:50:01,120 --> 01:50:06,120
+ So you need to have this, have this also vector.
+
+1097
+01:50:06,120 --> 01:50:13,120
+ And there are, that your sub-student bag, you'll get the optimal 8k vector.
+
+1098
+01:50:13,120 --> 01:50:17,120
+ Our k is, we have to do it one, two, three, four up to m.
+
+1099
+01:50:17,120 --> 01:50:20,120
+ So each of them, we have a similar form.
+
+1100
+01:50:20,120 --> 01:50:22,120
+ So this part looks interesting.
+
+1101
+01:50:22,120 --> 01:50:24,120
+ This one is independent of k.
+
+1102
+01:50:24,120 --> 01:50:27,120
+ So only this, the last one.
+
+1103
+01:50:27,120 --> 01:50:31,120
+ So that means we get, for example, the first one.
+
+1104
+01:50:31,120 --> 01:50:37,120
+ We will basically taking the, you see the first number.
+
+1105
+01:50:37,120 --> 01:50:39,120
+ This is a matrix.
+
+1106
+01:50:39,120 --> 01:50:46,120
+ Then you'll be picking up the first column and so on.
+
+1107
+01:50:46,120 --> 01:50:50,120
+ So the second one, you pick the second column.
+
+1108
+01:50:50,120 --> 01:50:56,120
+ That's, now to be careful about this.
+
+1109
+01:50:56,120 --> 01:51:04,120
+ Now we have to put back this theta hat, which is equal to a multiplied by the theta x.
+
+1110
+01:51:04,120 --> 01:51:09,120
+ So remember our a is this vector transform.
+
+1111
+01:51:09,120 --> 01:51:12,120
+ You see, I told you there are two forms.
+
+1112
+01:51:12,120 --> 01:51:15,120
+ You'll get this, you'll get this a.
+
+1113
+01:51:15,120 --> 01:51:18,120
+ So here is something.
+
+1114
+01:51:18,120 --> 01:51:20,120
+ Oh yeah, okay.
+
+1115
+01:51:20,120 --> 01:51:25,120
+ So here.
+
+1116
+01:51:25,120 --> 01:51:30,120
+ Yeah, so this is one, you see, our a is either this way or this way.
+
+1117
+01:51:30,120 --> 01:51:35,120
+ So that's how the optimal is the same.
+
+1118
+01:51:35,120 --> 01:51:38,120
+ You see, we do it here, multiplied by x.
+
+1119
+01:51:38,120 --> 01:51:44,120
+ And then again, you'll do, you see, each need to transform.
+
+1120
+01:51:44,120 --> 01:51:54,120
+ So if you go back to here, you'll, this whole thing, transform, our e k transform will become the,
+
+1121
+01:51:54,120 --> 01:52:01,120
+ become the lab most and the other independent of the k.
+
+1122
+01:52:01,120 --> 01:52:08,120
+ So you see here, if you know the meaning of e1, e1 is a vector.
+
+1123
+01:52:08,120 --> 01:52:10,120
+ The first element equal to 1.
+
+1124
+01:52:10,120 --> 01:52:12,120
+ The rest equal to 0.
+
+1125
+01:52:12,120 --> 01:52:15,120
+ But after your transform, it becomes a row vector.
+
+1126
+01:52:15,120 --> 01:52:19,120
+ Then the first element is 1, 0, 0, 0.
+
+1127
+01:52:19,120 --> 01:52:23,120
+ Then the second one, 0, 1, 0, 0.
+
+1128
+01:52:23,120 --> 01:52:32,120
+ Then subsequently, you're shifting this one from lab to the right by depending on the position.
+
+1129
+01:52:32,120 --> 01:52:38,120
+ So therefore, you can verify this become an identity matrix, i.
+
+1130
+01:52:38,120 --> 01:52:42,120
+ So being identity matrix, of course, we do not need this.
+
+1131
+01:52:42,120 --> 01:52:48,120
+ So therefore, our rule for this vector case is just equal to this one.
+
+1132
+01:52:48,120 --> 01:52:50,120
+ All right.
+
+1133
+01:52:50,120 --> 01:52:57,120
+ So this looks nice because it's almost the same form as the scalar case except the s,
+
+1134
+01:52:57,120 --> 01:52:59,120
+ previously is a vector.
+
+1135
+01:52:59,120 --> 01:53:03,120
+ Now become a matrix.
+
+1136
+01:53:03,120 --> 01:53:12,120
+ And furthermore, the covariant matrix, again here, this is, you'll put in here.
+
+1137
+01:53:12,120 --> 01:53:18,120
+ And then again, our optimal one is this.
+
+1138
+01:53:18,120 --> 01:53:25,120
+ And then you put this EL here.
+
+1139
+01:53:25,120 --> 01:53:35,120
+ So this is, we are talking about covariant matrix of each element, KL, because the matrix is big.
+
+1140
+01:53:35,120 --> 01:53:40,120
+ So we just look at each element.
+
+1141
+01:53:40,120 --> 01:53:45,120
+ The element could be off-diagonal, could be diagonal, depending on the value of K and L.
+
+1142
+01:53:45,120 --> 01:53:51,120
+ K is the row, and L is the column position.
+
+1143
+01:53:51,120 --> 01:54:00,120
+ So again, I repeat here, that will be, you see, our AK here optimal is K transform.
+
+1144
+01:54:00,120 --> 01:54:06,120
+ Then this EL is the one column at the far right.
+
+1145
+01:54:06,120 --> 01:54:12,120
+ Then you multiply and then you simplify a little bit.
+
+1146
+01:54:12,120 --> 01:54:15,120
+ So again, in the middle, they cancel out one term.
+
+1147
+01:54:15,120 --> 01:54:17,120
+ So we end up with this.
+
+1148
+01:54:17,120 --> 01:54:29,120
+ And to be careful, if you observe, you'll see as I mentioned earlier, this EL, multiply at the far right.
+
+1149
+01:54:29,120 --> 01:54:45,120
+ If you pick the L column, where the AK transform row here, pick the K rows of that matrix.
+
+1150
+01:54:45,120 --> 01:54:57,120
+ So in the end, combining these two, we will be picking up this matrix from the K rows and L column at that position.
+
+1151
+01:54:57,120 --> 01:55:05,120
+ And we happen to be, for this covariant matrix, we are evaluating at this KL, looking at this KL position.
+
+1152
+01:55:05,120 --> 01:55:12,120
+ Then, of course, for all of the index run through from 1 to M.
+
+1153
+01:55:12,120 --> 01:55:18,120
+ So therefore, this matrix inside must be just equal to the matrix inside.
+
+1154
+01:55:18,120 --> 01:55:27,120
+ So finally, we get this C, C, the hat, this covariant matrix is just equal to this.
+
+1155
+01:55:27,120 --> 01:55:39,120
+ So that's why this understanding of the matrix and how to operate will be very useful and essential to,
+
+1156
+01:55:39,120 --> 01:55:47,120
+ of course, some of the basic factors about this unit vector and the meaning of that and the definition.
+
+1157
+01:55:47,120 --> 01:55:53,120
+ And in particular, how are we going to get each element through this?
+
+1158
+01:55:53,120 --> 01:56:03,120
+ Because the observation is, you can see here, our theta hat in the end, you only depend on this.
+
+1159
+01:56:03,120 --> 01:56:17,120
+ And similarly, C, C, theta, we will, once you substitute, they also make sense because we only need the so-called,
+
+1160
+01:56:17,120 --> 01:56:27,120
+ this scale matrix based on the means, the expectation of the data.
+
+1161
+01:56:27,120 --> 01:56:34,120
+ And the second order, the data covariant matrix.
+
+1162
+01:56:34,120 --> 01:56:41,120
+ And also, remember the scalar case is the spatial case of the matrix case.
+
+1163
+01:56:41,120 --> 01:56:49,120
+ So if you reduce this, the unknown parameter from multiple M into 1,
+
+1164
+01:56:49,120 --> 01:57:00,120
+ then you expect to get the same result as by making this more general expression reduced to the scalar parameter case.
+
+1165
+01:57:00,120 --> 01:57:06,120
+ And that verifies the, yeah, being the case.
+
+1166
+01:57:06,120 --> 01:57:11,120
+ So any question, any problem at this point?
+
+1167
+01:57:11,120 --> 01:57:19,120
+ Are you okay with the elevation and so on and this?
+
+1168
+01:57:19,120 --> 01:57:28,120
+ So yeah, some should ask whether this elevation requires, yeah, I think mostly you should know.
+
+1169
+01:57:28,120 --> 01:57:37,120
+ And if you are working out the Simon question, some of the Simon questions are similar to the like,
+
+1170
+01:57:37,120 --> 01:57:43,120
+ paper question. So it's one of the first assignment one.
+
+1171
+01:57:43,120 --> 01:57:56,120
+ So it will be, yeah, also let you get familiar with the requirements and get familiar with the exercises on this part.
+
+1172
+01:57:56,120 --> 01:58:13,120
+ So yeah, and yeah, after you submit, then we'll go through the solutions or at least the partial solution for that.
+
+1173
+01:58:13,120 --> 01:58:27,120
+ So any questions before we maybe move on to finish this chapter?
+
+1174
+01:58:27,120 --> 01:58:47,120
+ So do you find today's week easier compared to, okay, so mostly just metrics and some tricks, yeah, fine?
+
+1175
+01:58:47,120 --> 01:58:55,120
+ Okay, good. So we can continue.
+
+1176
+01:58:55,120 --> 01:59:01,120
+ So this is the same year.
+
+1177
+01:59:01,120 --> 01:59:08,120
+ Now this is where we go back, combine with the general linear model.
+
+1178
+01:59:08,120 --> 01:59:17,120
+ So you see here, there's a relation between linear model and linear estimator.
+
+1179
+01:59:17,120 --> 01:59:28,120
+ So depending on, you know, model is our data linearly depend on the unknown planet.
+
+1180
+01:59:28,120 --> 01:59:31,120
+ So this edge is called this.
+
+1181
+01:59:31,120 --> 01:59:39,120
+ Well, linear estimator is other, we're given the data doing linear combination.
+
+1182
+01:59:39,120 --> 01:59:55,120
+ So and then we, before coming to this part, we do not require this model, but we require the means expectation satisfy this similar condition.
+
+1183
+01:59:55,120 --> 02:00:00,120
+ So yeah, the same as something edge is data vector.
+
+1184
+02:00:00,120 --> 02:00:06,120
+ And then this is a non constant coefficient matrix.
+
+1185
+02:00:06,120 --> 02:00:14,120
+ And then I mentioned it to make sure it's not necessarily square one.
+
+1186
+02:00:14,120 --> 02:00:16,120
+ And usually not equal to n.
+
+1187
+02:00:16,120 --> 02:00:20,120
+ Usually n is much larger compared to n.
+
+1188
+02:00:20,120 --> 02:00:22,120
+ And this is data vector.
+
+1189
+02:00:22,120 --> 02:00:31,120
+ And now we also have this noise is, there must be the same dimension with x.
+
+1190
+02:00:31,120 --> 02:00:39,120
+ You are adding this noise vector with zero means and covariant metrics.
+
+1191
+02:00:39,120 --> 02:00:44,120
+ So we assume this first, we do not need Gaussian here first.
+
+1192
+02:00:44,120 --> 02:00:47,120
+ We are just looking at this linear model.
+
+1193
+02:00:47,120 --> 02:00:55,120
+ And also our noise covariant metrics is c is not necessarily diagonal.
+
+1194
+02:00:55,120 --> 02:01:06,120
+ So yeah, so from here, you see you apply this expectation into this vector,
+
+1195
+02:01:06,120 --> 02:01:12,120
+ then you follow the same linear operation, e of x, you apply this.
+
+1196
+02:01:12,120 --> 02:01:17,120
+ It will be edge theta.
+
+1197
+02:01:17,120 --> 02:01:24,120
+ And then e of w, because this is a zero mean, then become zero vector, zero.
+
+1198
+02:01:24,120 --> 02:01:35,120
+ So therefore, in this case, we know the s metrics have to be edge here.
+
+1199
+02:01:35,120 --> 02:01:47,120
+ Therefore, if we apply the proof, since here we already know the covariant metrics of the noise.
+
+1200
+02:01:47,120 --> 02:01:54,120
+ So here some students may argue because our covariant is for the noise,
+
+1201
+02:01:54,120 --> 02:02:00,120
+ but why is for the data also?
+
+1202
+02:02:00,120 --> 02:02:08,120
+ Any feedback, any comment?
+
+1203
+02:02:08,120 --> 02:02:12,120
+ Because this part is deterministic, you see?
+
+1204
+02:02:12,120 --> 02:02:20,120
+ So when you get the, maybe it's a good thing we had a little bit time left here today.
+
+1205
+02:02:20,120 --> 02:02:26,120
+ I don't want to rush into the next chapter.
+
+1206
+02:02:26,120 --> 02:02:36,120
+ If you continue into some of my discussion here, here I'm talking about constant,
+
+1207
+02:02:36,120 --> 02:02:39,120
+ the deterministic multiplied by a random variable.
+
+1208
+02:02:39,120 --> 02:02:45,120
+ But we can also extend it into the summation part.
+
+1209
+02:02:45,120 --> 02:02:55,120
+ If I have, say, again, we just look at scatter case, if x plus b, okay?
+
+1210
+02:02:55,120 --> 02:03:03,120
+ So, yeah, you can make it more general by multiply coefficient a, yeah.
+
+1211
+02:03:03,120 --> 02:03:07,120
+ But we already know how the road coefficient.
+
+1212
+02:03:07,120 --> 02:03:16,120
+ So if you look at expectation of that, we already know this is e of x plus e of b is just equal to b.
+
+1213
+02:03:16,120 --> 02:03:29,120
+ But the weapon, if I now want to get the variance of this x plus b, it got to work.
+
+1214
+02:03:29,120 --> 02:03:32,120
+ Yes, can we ignore this?
+
+1215
+02:03:32,120 --> 02:03:35,120
+ If you take the expectation, we cannot ignore b.
+
+1216
+02:03:35,120 --> 02:03:37,120
+ b is no zero.
+
+1217
+02:03:37,120 --> 02:03:47,120
+ But to get the variance, it's just equal to variance of x.
+
+1218
+02:03:47,120 --> 02:03:48,120
+ Why?
+
+1219
+02:03:48,120 --> 02:03:55,120
+ Any, you can conceptually, b is a constant, yes?
+
+1220
+02:03:55,120 --> 02:04:00,120
+ Okay, yeah, that's very good, yes.
+
+1221
+02:04:00,120 --> 02:04:01,120
+ So that's conceptually.
+
+1222
+02:04:01,120 --> 02:04:05,120
+ But here we can make it a little bit more rigorous.
+
+1223
+02:04:05,120 --> 02:04:14,120
+ We can apply, we can derive that also to be, yeah.
+
+1224
+02:04:14,120 --> 02:04:18,120
+ So let's see what we can do in this case.
+
+1225
+02:04:18,120 --> 02:04:25,120
+ Actually, this is also good, because early on I talked about this relationship.
+
+1226
+02:04:25,120 --> 02:04:31,120
+ But some students may also wonder why do we get this?
+
+1227
+02:04:31,120 --> 02:04:37,120
+ So I think I will do the two steps in one go.
+
+1228
+02:04:37,120 --> 02:04:41,120
+ So we go back to principle, you see, to the definition.
+
+1229
+02:04:41,120 --> 02:04:49,120
+ I want to get the variance of x plus b, just ignore the coefficient.
+
+1230
+02:04:49,120 --> 02:04:56,120
+ So by definition, you see, we go into very fundamental.
+
+1231
+02:04:56,120 --> 02:05:01,120
+ It will be, you see, 3D is, we don't remove the b first.
+
+1232
+02:05:01,120 --> 02:05:05,120
+ We put that, we call that, that is y, for example.
+
+1233
+02:05:05,120 --> 02:05:16,120
+ Then it will be x plus b, correctively thinking about y, minus expectation of this x plus b.
+
+1234
+02:05:16,120 --> 02:05:20,120
+ So b must be also there, okay.
+
+1235
+02:05:20,120 --> 02:05:25,120
+ Then take the difference, then you square it.
+
+1236
+02:05:25,120 --> 02:05:31,120
+ So this is how we will be doing.
+
+1237
+02:05:31,120 --> 02:05:40,120
+ Now if you explain it first, because we make it easier just looking at the scalar case.
+
+1238
+02:05:40,120 --> 02:05:45,120
+ So we make life easy, but metric case is similar, just more, more involved.
+
+1239
+02:05:45,120 --> 02:05:50,120
+ So we, because this one all being, being scalar.
+
+1240
+02:05:50,120 --> 02:05:54,120
+ I can take the first term here, square, alright.
+
+1241
+02:05:54,120 --> 02:06:06,120
+ And then subtract two times of this x plus b, then e of this x plus b.
+
+1242
+02:06:06,120 --> 02:06:08,120
+ Then finally, you have to add here.
+
+1243
+02:06:08,120 --> 02:06:12,120
+ Early on I make a mistake by making it a minor, so it should be add.
+
+1244
+02:06:12,120 --> 02:06:19,120
+ Now this is e x plus b, power of two.
+
+1245
+02:06:19,120 --> 02:06:28,120
+ Okay, so yeah, so now since we break down into each term, we can bring the e inside.
+
+1246
+02:06:28,120 --> 02:06:38,120
+ You cannot break the e inside the term within the power of two, because that's not the right way.
+
+1247
+02:06:38,120 --> 02:06:49,120
+ Now since you're explaining the sum of three terms, so I can do it now, you see.
+
+1248
+02:06:49,120 --> 02:06:57,120
+ So therefore we have this e of x plus b, power of two.
+
+1249
+02:06:57,120 --> 02:07:00,120
+ Okay, so remember it's power of two first.
+
+1250
+02:07:00,120 --> 02:07:07,120
+ And then subtract this two x plus b.
+
+1251
+02:07:07,120 --> 02:07:16,120
+ Then now we multiply, multiply inside, because we call e of x.
+
+1252
+02:07:16,120 --> 02:07:23,120
+ I just keep it there, but e of b is the same as b, you know what I mean?
+
+1253
+02:07:23,120 --> 02:07:25,120
+ Keep this.
+
+1254
+02:07:25,120 --> 02:07:29,120
+ And then now how about the last term?
+
+1255
+02:07:29,120 --> 02:07:36,120
+ You multiply inside first, e of x.
+
+1256
+02:07:37,120 --> 02:07:39,120
+ Plus b.
+
+1257
+02:07:39,120 --> 02:07:45,120
+ Okay, then you need to do it power of two.
+
+1258
+02:07:45,120 --> 02:07:49,120
+ Is it right? Anything wrong?
+
+1259
+02:07:49,120 --> 02:07:57,120
+ Expectation, yes, we still need to keep the expectation from outside.
+
+1260
+02:07:57,120 --> 02:08:00,120
+ I haven't moved in yet.
+
+1261
+02:08:00,120 --> 02:08:04,120
+ Yeah, very good, thanks for pointing out.
+
+1262
+02:08:04,120 --> 02:08:08,120
+ So that will be like this, am I right?
+
+1263
+02:08:08,120 --> 02:08:14,120
+ So let's try to simplify it a little bit now if I...
+
+1264
+02:08:14,120 --> 02:08:16,120
+ Yes?
+
+1265
+02:08:17,120 --> 02:08:24,120
+ Oh, the...
+
+1266
+02:08:24,120 --> 02:08:26,120
+ Maybe you mean?
+
+1267
+02:08:26,120 --> 02:08:35,120
+ Yeah, we would have the state b outside the state of n plus 2 minus 3.
+
+1268
+02:08:35,120 --> 02:08:37,120
+ Yeah, okay, that's another...
+
+1269
+02:08:37,120 --> 02:08:40,120
+ Yes, that's a simple way to do it.
+
+1270
+02:08:40,120 --> 02:08:46,120
+ But yeah, we can do it either way, but okay, that's good.
+
+1271
+02:08:46,120 --> 02:08:52,120
+ So what you said, yes, maybe it's also easy.
+
+1272
+02:08:52,120 --> 02:08:57,120
+ You are saying you directly operate on this first,
+
+1273
+02:08:57,120 --> 02:09:04,120
+ but I want to show how you remove the power of two.
+
+1274
+02:09:04,120 --> 02:09:09,120
+ You need to explain the power of two first,
+
+1275
+02:09:09,120 --> 02:09:17,120
+ or let's see, yeah, how are you going to take the b out if it's reading?
+
+1276
+02:09:17,120 --> 02:09:19,120
+ Maybe you'll come up sometimes,
+
+1277
+02:09:19,120 --> 02:09:22,120
+ you know in the past, smoke outside,
+
+1278
+02:09:22,120 --> 02:09:25,120
+ actually I take them for some students to come out.
+
+1279
+02:09:25,120 --> 02:09:27,120
+ It's good your volunteer to...
+
+1280
+02:09:27,120 --> 02:09:29,120
+ I want to see how you do it then,
+
+1281
+02:09:29,120 --> 02:09:33,120
+ and then I can take this from student point of view,
+
+1282
+02:09:33,120 --> 02:09:37,120
+ it's actually better to take this.
+
+1283
+02:09:37,120 --> 02:09:39,120
+ Yeah?
+
+1284
+02:09:39,120 --> 02:09:44,120
+ So this is plus b minus expectation of x plus b,
+
+1285
+02:09:44,120 --> 02:09:47,120
+ and this square is outside.
+
+1286
+02:09:47,120 --> 02:09:49,120
+ So we don't have to handle the square,
+
+1287
+02:09:49,120 --> 02:09:51,120
+ we can just do this, okay?
+
+1288
+02:09:51,120 --> 02:09:58,120
+ This is just equal to the expectation of x plus b minus...
+
+1289
+02:09:58,120 --> 02:10:00,120
+ Okay, okay.
+
+1290
+02:10:00,120 --> 02:10:02,120
+ expectation of x plus b here.
+
+1291
+02:10:02,120 --> 02:10:04,120
+ Okay, okay, there you can sort out the b.
+
+1292
+02:10:04,120 --> 02:10:08,120
+ Oh yes, yes, very smart, so we see.
+
+1293
+02:10:08,120 --> 02:10:10,120
+ Yes, very good, yeah.
+
+1294
+02:10:10,120 --> 02:10:13,120
+ That's right, very good, thank you.
+
+1295
+02:10:13,120 --> 02:10:16,120
+ There is almost done, so we...
+
+1296
+02:10:16,120 --> 02:10:21,120
+ Yeah, that's good, but if you all go to the routing way,
+
+1297
+02:10:21,120 --> 02:10:24,120
+ then you will see in the end, it can sort out.
+
+1298
+02:10:24,120 --> 02:10:27,120
+ But this is even better inside.
+
+1299
+02:10:27,120 --> 02:10:29,120
+ Inside one, but you have to be careful,
+
+1300
+02:10:29,120 --> 02:10:33,120
+ you don't touch the power of two first.
+
+1301
+02:10:33,120 --> 02:10:37,120
+ Yeah, because there is a very good operation,
+
+1302
+02:10:37,120 --> 02:10:43,120
+ because then after that, yeah, that's a property of e of x.
+
+1303
+02:10:43,120 --> 02:10:47,120
+ So I may like more clearly.
+
+1304
+02:10:47,120 --> 02:10:52,120
+ It will become minus e of x, then minus...
+
+1305
+02:10:52,120 --> 02:10:56,120
+ Because e of b is the b, so your minus b.
+
+1306
+02:10:56,120 --> 02:11:00,120
+ Then this one needs the power of two.
+
+1307
+02:11:00,120 --> 02:11:05,120
+ And you can sort this equal to e of this,
+
+1308
+02:11:05,120 --> 02:11:09,120
+ x minus e of x, power of two of this.
+
+1309
+02:11:09,120 --> 02:11:14,120
+ And that's precisely which is the variant of x.
+
+1310
+02:11:14,120 --> 02:11:17,120
+ Yeah, very good, very fast.
+
+1311
+02:11:17,120 --> 02:11:20,120
+ Okay, so for this part,
+
+1312
+02:11:20,120 --> 02:11:22,120
+ e of b is a much easier way.
+
+1313
+02:11:22,120 --> 02:11:25,120
+ So please learn from...
+
+1314
+02:11:25,120 --> 02:11:28,120
+ So let's give a applause for this.
+
+1315
+02:11:28,120 --> 02:11:30,120
+ I know your name.
+
+1316
+02:11:30,120 --> 02:11:34,120
+ Yeah, yeah, yeah, yeah.
+
+1317
+02:11:34,120 --> 02:11:35,120
+ Thanks.
+
+1318
+02:11:35,120 --> 02:11:40,120
+ I hope the other students can be more active, proactive.
+
+1319
+02:11:40,120 --> 02:11:42,120
+ Okay, so very good.
+
+1320
+02:11:42,120 --> 02:11:46,120
+ I give you some bonus, because you...
+
+1321
+02:11:46,120 --> 02:11:48,120
+ Yeah, so that's very good.
+
+1322
+02:11:48,120 --> 02:11:53,120
+ You never save the trouble of deriving from the principle.
+
+1323
+02:11:53,120 --> 02:11:57,120
+ Yeah, so yeah, that's a good way.
+
+1324
+02:11:57,120 --> 02:12:03,120
+ You make good use of whatever simple step you can make good use.
+
+1325
+02:12:03,120 --> 02:12:08,120
+ You do it early, then you'll get a much easier derivation.
+
+1326
+02:12:08,120 --> 02:12:10,120
+ And that's what I emphasize.
+
+1327
+02:12:10,120 --> 02:12:14,120
+ In this course, later through the assignment one,
+
+1328
+02:12:14,120 --> 02:12:17,120
+ there will be some of the questions.
+
+1329
+02:12:17,120 --> 02:12:19,120
+ There are always...
+
+1330
+02:12:19,120 --> 02:12:22,120
+ Usually they will have several approaches,
+
+1331
+02:12:22,120 --> 02:12:26,120
+ and I also want to show after the...
+
+1332
+02:12:26,120 --> 02:12:28,120
+ you'll submit the results.
+
+1333
+02:12:28,120 --> 02:12:32,120
+ Then I will go through them to let you know they are in this course,
+
+1334
+02:12:32,120 --> 02:12:35,120
+ because derivation is...
+
+1335
+02:12:35,120 --> 02:12:39,120
+ You know, sometimes very often you can get different ways.
+
+1336
+02:12:39,120 --> 02:12:42,120
+ Some are a bit more troublesome.
+
+1337
+02:12:42,120 --> 02:12:47,120
+ Some is easier, but try to find the easiest way.
+
+1338
+02:12:47,120 --> 02:12:55,120
+ So therefore this concludes the result is random variable plus a constant.
+
+1339
+02:12:55,120 --> 02:13:00,120
+ For means, you have to keep the mean, the expectation, the constant, still there.
+
+1340
+02:13:00,120 --> 02:13:03,120
+ But for barrier, you just look at the random part.
+
+1341
+02:13:03,120 --> 02:13:06,120
+ Yeah, that's also very useful,
+
+1342
+02:13:06,120 --> 02:13:11,120
+ because save a lot of trouble here
+
+1343
+02:13:11,120 --> 02:13:20,120
+ when we are looking into this one here.
+
+1344
+02:13:20,120 --> 02:13:28,120
+ So you see here, our covariance matrix of the data is the same,
+
+1345
+02:13:28,120 --> 02:13:31,120
+ because this one is just like the P, you see?
+
+1346
+02:13:31,120 --> 02:13:35,120
+ So when we get the expectation, we are taking this part.
+
+1347
+02:13:35,120 --> 02:13:40,120
+ But when we take about the covariance matrix of this,
+
+1348
+02:13:40,120 --> 02:13:43,120
+ it's the same as this random part.
+
+1349
+02:13:43,120 --> 02:13:48,120
+ And the covariance matrix of the noise already given by C.
+
+1350
+02:13:48,120 --> 02:13:54,120
+ So our C of X is the same as C here.
+
+1351
+02:13:54,120 --> 02:13:57,120
+ Okay, so therefore you'll get everything,
+
+1352
+02:13:57,120 --> 02:14:04,120
+ then you'll get the covariance matrix of the estimate here.
+
+1353
+02:14:04,120 --> 02:14:05,120
+ Yeah, that's good.
+
+1354
+02:14:05,120 --> 02:14:12,120
+ So we spend a little bit time to at least understand here better.
+
+1355
+02:14:12,120 --> 02:14:19,120
+ And you can also see here at least through this past two weeks or so.
+
+1356
+02:14:19,120 --> 02:14:24,120
+ Most of the time we need to know the expectation
+
+1357
+02:14:24,120 --> 02:14:29,120
+ and the second moment of the random variable.
+
+1358
+02:14:29,120 --> 02:14:37,120
+ It's not as the requirement of probability and random process,
+
+1359
+02:14:37,120 --> 02:14:40,120
+ rather minimum,
+
+1360
+02:14:40,120 --> 02:14:44,120
+ comparing to the 7401,
+
+1361
+02:14:44,120 --> 02:14:47,120
+ where everything is about the whole cause,
+
+1362
+02:14:47,120 --> 02:14:50,120
+ is probability and random process.
+
+1363
+02:14:50,120 --> 02:14:55,120
+ But we are here, we are combining with some signal processing
+
+1364
+02:14:55,120 --> 02:15:00,120
+ and maybe a little bit on the communication one.
+
+1365
+02:15:00,120 --> 02:15:03,120
+ Not much, but more in the...
+
+1366
+02:15:03,120 --> 02:15:05,120
+ Yeah, it's related to communication.
+
+1367
+02:15:05,120 --> 02:15:09,120
+ But in communication, you also need to do detection estimation.
+
+1368
+02:15:09,120 --> 02:15:12,120
+ Okay, so yeah.
+
+1369
+02:15:12,120 --> 02:15:16,120
+ So we still have some time, but I, as I say,
+
+1370
+02:15:16,120 --> 02:15:21,120
+ I won't go into the next chapter because the MLE is important,
+
+1371
+02:15:21,120 --> 02:15:29,120
+ but I want to make good use of this probably 20 minutes or so.
+
+1372
+02:15:29,120 --> 02:15:34,120
+ Go through this matrix again
+
+1373
+02:15:34,120 --> 02:15:40,120
+ because that part I believe is very important.
+
+1374
+02:15:40,120 --> 02:15:47,120
+ So this is one already uploaded in the interview.
+
+1375
+02:15:47,120 --> 02:15:48,120
+ So these are the one.
+
+1376
+02:15:48,120 --> 02:15:54,120
+ This part, the trace we will do later.
+
+1377
+02:15:54,120 --> 02:15:56,120
+ So we put it together.
+
+1378
+02:15:56,120 --> 02:15:59,120
+ So symmetric matrix is easy.
+
+1379
+02:15:59,120 --> 02:16:04,120
+ And this is the...
+
+1380
+02:16:04,120 --> 02:16:06,120
+ 64.
+
+1381
+02:16:06,120 --> 02:16:11,120
+ 64 is the early topic, it's actually the same,
+
+1382
+02:16:11,120 --> 02:16:20,120
+ but I can go through the newer one.
+
+1383
+02:16:20,120 --> 02:16:26,120
+ So let me just go through it
+
+1384
+02:16:26,120 --> 02:16:32,119
+ and then I will emphasize some of the important properties
+
+1385
+02:16:32,119 --> 02:16:39,119
+ because linear algebraic is, later you will see, is quite useful.
+
+1386
+02:16:39,120 --> 02:16:46,120
+ So first, we have dealing with no square matrix in general, including no square.
+
+1387
+02:16:46,120 --> 02:16:53,120
+ But in the special case, with M equal to N, here, they will become square one.
+
+1388
+02:16:53,120 --> 02:16:59,120
+ So they are here, I'm assuming where M is smaller than N,
+
+1389
+02:16:59,120 --> 02:17:01,120
+ or equal to N, maximum.
+
+1390
+02:17:01,120 --> 02:17:04,120
+ But we can do it otherwise.
+
+1391
+02:17:04,120 --> 02:17:10,120
+ So I partition this into low vector.
+
+1392
+02:17:10,120 --> 02:17:17,120
+ And then each is one by N matrix called low vector.
+
+1393
+02:17:17,120 --> 02:17:26,120
+ And then one of the important concepts, we call that as, assuming we have K low vector.
+
+1394
+02:17:26,120 --> 02:17:33,120
+ Among them, K of course, maximum up to a small m, but it can be smaller than N.
+
+1395
+02:17:33,120 --> 02:17:38,120
+ So at least that is going a1, a2, aK up to K.
+
+1396
+02:17:38,120 --> 02:17:45,120
+ If K equal to M, then all of them, if not, then it will be somewhere in the middle.
+
+1397
+02:17:45,120 --> 02:17:49,120
+ So we put those linearly independent.
+
+1398
+02:17:49,120 --> 02:17:53,120
+ So what's the meaning of linearly independent?
+
+1399
+02:17:53,120 --> 02:17:57,120
+ Because that's an important concept.
+
+1400
+02:17:57,120 --> 02:18:00,120
+ How to define that?
+
+1401
+02:18:00,120 --> 02:18:16,120
+ If we want to try to use any constant, b1, b2, and so on, a1 here is both phase.
+
+1402
+02:18:16,120 --> 02:18:18,120
+ So these are low vector.
+
+1403
+02:18:18,120 --> 02:18:25,120
+ But b1 and so on, they are just scalar constant coefficient.
+
+1404
+02:18:25,120 --> 02:18:31,120
+ If you try to see they add together for whatever choice of b1, b2, and so on,
+
+1405
+02:18:31,120 --> 02:18:36,120
+ you want to make it zero, then the only choice, the b1, b2, and up to pK,
+
+1406
+02:18:36,120 --> 02:18:40,120
+ all of them must be zero in order to make it zero.
+
+1407
+02:18:40,120 --> 02:18:46,120
+ Of course, you make all of them zero, you will also become a zero vector.
+
+1408
+02:18:46,120 --> 02:18:56,120
+ For linearly independent one, wherever you let even one of them not equal to zero,
+
+1409
+02:18:56,120 --> 02:18:59,120
+ your n-tabway is not equal to zero.
+
+1410
+02:18:59,120 --> 02:19:08,120
+ Of course, we're assuming our a1, a2, and so on, they are not equal to a zero vector.
+
+1411
+02:19:08,120 --> 02:19:15,120
+ Actually, if one of them happens to be a zero, then this zero vector cannot be linearly independent
+
+1412
+02:19:15,120 --> 02:19:20,120
+ of the other because I can always, for example, a1 is a zero.
+
+1413
+02:19:20,120 --> 02:19:23,120
+ Then I make b1 not equal to zero.
+
+1414
+02:19:23,120 --> 02:19:26,120
+ Then the rest equal to zero.
+
+1415
+02:19:26,120 --> 02:19:30,120
+ You satisfy the condition, but it's b1 not equal to zero.
+
+1416
+02:19:30,120 --> 02:19:38,120
+ So therefore, it will mean all of these a1, a2, ak vector, they are at least not the zero
+
+1417
+02:19:38,120 --> 02:19:41,120
+ vector to be linearly independent.
+
+1418
+02:19:41,120 --> 02:19:50,120
+ Furthermore, you cannot find any other b1, b2 to make it zero, except you make all of
+
+1419
+02:19:50,120 --> 02:19:51,120
+ them as zero.
+
+1420
+02:19:51,120 --> 02:19:53,120
+ So that's a two-bit one.
+
+1421
+02:19:53,120 --> 02:19:55,120
+ This is very important.
+
+1422
+02:19:55,120 --> 02:19:59,120
+ The meaning of this is linearly independent.
+
+1423
+02:19:59,120 --> 02:20:12,120
+ By using any of the row vectors, you cannot linearly compile by using the rest of the
+
+1424
+02:20:12,120 --> 02:20:13,120
+ vector.
+
+1425
+02:20:13,120 --> 02:20:16,120
+ Just try to linearly compile.
+
+1426
+02:20:16,120 --> 02:20:21,120
+ So that means each row is in the same linearly independent to the other.
+
+1427
+02:20:22,120 --> 02:20:30,120
+ If you look at the space, look at the two-dimensions.
+
+1428
+02:20:30,120 --> 02:20:32,120
+ Just assume you have two vectors.
+
+1429
+02:20:32,120 --> 02:20:38,120
+ So these two vectors, being linearly independent, as long as they are not lying on the same
+
+1430
+02:20:38,120 --> 02:20:44,120
+ line in the 2D plane, so it will generate the true 2D plane.
+
+1431
+02:20:44,120 --> 02:20:50,120
+ If the two of them are in the same line, of course, you can only generate one line.
+
+1432
+02:20:50,120 --> 02:20:54,120
+ So the meaning is it will be clear.
+
+1433
+02:20:54,120 --> 02:20:56,120
+ If you have two, generate a plane.
+
+1434
+02:20:56,120 --> 02:21:00,120
+ If there are three, generate a three-dimensional space.
+
+1435
+02:21:00,120 --> 02:21:06,120
+ Higher one, and we cannot visualize, but you just imagine you get higher dimensions, but
+
+1436
+02:21:06,120 --> 02:21:09,120
+ they must be linearly independent.
+
+1437
+02:21:09,120 --> 02:21:13,120
+ So this is the first thing you need to remember.
+
+1438
+02:21:13,120 --> 02:21:22,120
+ As I say, I may put this as one of the basic requirements in the course.
+
+1439
+02:21:22,120 --> 02:21:29,120
+ And then the row ring of A. So given a matrix, as you will define the ring, it's very important.
+
+1440
+02:21:29,120 --> 02:21:36,120
+ We call that as maximum numbers of these linearly independent row vectors.
+
+1441
+02:21:36,120 --> 02:21:40,120
+ So given now we have M rows.
+
+1442
+02:21:40,120 --> 02:21:50,120
+ So if it happened to be all of the M rows linearly independent, the row ring is M.
+
+1443
+02:21:50,120 --> 02:21:57,120
+ But if less than that, say M is 5, but you only file three of them independent.
+
+1444
+02:21:57,120 --> 02:21:59,120
+ They will call this row ring 3.
+
+1445
+02:21:59,120 --> 02:22:04,120
+ So that's easy to understand.
+
+1446
+02:22:04,120 --> 02:22:10,120
+ So the alternative definition defines the greatest integer D.
+
+1447
+02:22:10,120 --> 02:22:14,120
+ Here is determinant of the sub-matrix.
+
+1448
+02:22:14,120 --> 02:22:19,120
+ It's not equal to no zero constant.
+
+1449
+02:22:19,120 --> 02:22:23,120
+ These are also very important concepts.
+
+1450
+02:22:23,120 --> 02:22:29,120
+ We call sub-matrix, sometimes we call it as the determinant of sub-matrix.
+
+1451
+02:22:29,120 --> 02:22:33,120
+ We call it as a minor, D by D minor.
+
+1452
+02:22:33,120 --> 02:22:42,120
+ Because in general, as I mentioned, this matrix may be a no square matrix in general.
+
+1453
+02:22:42,120 --> 02:22:52,120
+ But given a no square matrix, we can always pick the sub-matrix where this sub-block,
+
+1454
+02:22:52,120 --> 02:22:57,120
+ they are square, for example, 2 by 2.
+
+1455
+02:22:57,120 --> 02:23:06,120
+ If you have, say, 2 by 3 matrix, then you can take the first two rows, 2 by 2,
+
+1456
+02:23:06,120 --> 02:23:12,120
+ then the first row and the first column and the third column,
+
+1457
+02:23:12,120 --> 02:23:15,120
+ and get another, generate another sub-matrix.
+
+1458
+02:23:15,120 --> 02:23:25,120
+ So as long as you try to get as big as, as big as the sub-matrix,
+
+1459
+02:23:25,120 --> 02:23:32,120
+ as possible you can get, say, among the, usually say you have 5 by 10.
+
+1460
+02:23:32,120 --> 02:23:34,120
+ 5 by 10 matrix.
+
+1461
+02:23:34,120 --> 02:23:36,120
+ You always look at the smallest one.
+
+1462
+02:23:36,120 --> 02:23:42,120
+ So one by one, of course, as long as the matrix is not totally zero,
+
+1463
+02:23:42,120 --> 02:23:45,120
+ then you have ring one at least.
+
+1464
+02:23:45,120 --> 02:23:49,120
+ Then the second one, you just took some of the 2 by 2.
+
+1465
+02:23:49,120 --> 02:23:53,120
+ If the determinant of this sub-matrix is not zero, then it is ring two.
+
+1466
+02:23:53,120 --> 02:23:58,120
+ Then, after that, you keep increasing up to the maximum.
+
+1467
+02:23:58,120 --> 02:24:00,120
+ So this is another definition.
+
+1468
+02:24:00,120 --> 02:24:03,120
+ Sometimes late home, we'll get more into that.
+
+1469
+02:24:03,120 --> 02:24:07,120
+ And then, leaving the ring rows can be defined similarly.
+
+1470
+02:24:07,120 --> 02:24:10,120
+ Actually, for giving matrix on any side,
+
+1471
+02:24:10,120 --> 02:24:19,120
+ the maximum number of is leaning dependent row vector always equal to is leaning dependent column vector.
+
+1472
+02:24:19,120 --> 02:24:27,120
+ So even if the matrix is not square one, you may sometimes think I'm more column, like 5 by 10.
+
+1473
+02:24:27,120 --> 02:24:33,120
+ Then it may be possible I'm more independent column compared to independent row.
+
+1474
+02:24:33,120 --> 02:24:35,120
+ Not possible.
+
+1475
+02:24:35,120 --> 02:24:39,120
+ So that's why eventually we talk about ring.
+
+1476
+02:24:39,120 --> 02:24:47,120
+ We just refer to the maximum either column ring or the row ring.
+
+1477
+02:24:47,120 --> 02:24:51,120
+ The maximum one is the same.
+
+1478
+02:24:51,120 --> 02:24:59,120
+ But the matrix can be of full row ring if the ring A is equal to N.
+
+1479
+02:24:59,120 --> 02:25:05,120
+ And then similarly, or full column ring if ring of A equal to N.
+
+1480
+02:25:05,120 --> 02:25:16,120
+ Because the number of column may not be the same as column number of row.
+
+1481
+02:25:16,120 --> 02:25:20,120
+ But then the maximum one, they must be the same.
+
+1482
+02:25:20,120 --> 02:25:24,120
+ You cannot be one is larger than the other.
+
+1483
+02:25:24,120 --> 02:25:28,120
+ But dimension can be different.
+
+1484
+02:25:28,120 --> 02:25:37,120
+ So now let's see the M by N matrix can be both of full row ring and full column ring.
+
+1485
+02:25:37,120 --> 02:25:42,120
+ Only if it is square one, square matrix, M equal to N.
+
+1486
+02:25:42,120 --> 02:25:45,120
+ That's very important.
+
+1487
+02:25:45,120 --> 02:25:50,120
+ So therefore, that's why we call the ring of matrix.
+
+1488
+02:25:50,120 --> 02:26:00,120
+ Just take any of the sub-matrix which give Nd by D, the largest sub-block.
+
+1489
+02:26:00,120 --> 02:26:07,120
+ And some of the property I think I mentioned before.
+
+1490
+02:26:07,120 --> 02:26:20,120
+ The ring of a product of A and B must be smaller or equal to either ring A or ring B.
+
+1491
+02:26:20,120 --> 02:26:26,120
+ It cannot be greater than the ring of each of them.
+
+1492
+02:26:26,120 --> 02:26:31,120
+ So when you multiply, then the ring, normally you are lucky, you keep the same ring.
+
+1493
+02:26:31,120 --> 02:26:34,120
+ But it can reduce.
+
+1494
+02:26:34,120 --> 02:26:39,120
+ So rather than you add two matrix, then you get the bigger ring.
+
+1495
+02:26:39,120 --> 02:26:43,120
+ Sometimes it depends.
+
+1496
+02:26:43,120 --> 02:26:51,120
+ But the ring may increase but can never be bigger than the sum of each of the ring.
+
+1497
+02:26:51,120 --> 02:26:55,120
+ That's also a very useful property.
+
+1498
+02:26:55,120 --> 02:27:01,120
+ And then there is this power, so convention.
+
+1499
+02:27:01,120 --> 02:27:04,120
+ The convention is similar to the scalar.
+
+1500
+02:27:04,120 --> 02:27:09,120
+ Any number raised to power 0 is equal to 1.
+
+1501
+02:27:09,120 --> 02:27:11,120
+ But matrix, we say D5.
+
+1502
+02:27:11,120 --> 02:27:17,120
+ A matrix, only for square matrix raised to power 0 is equal to I.
+
+1503
+02:27:17,120 --> 02:27:19,120
+ And then A1 is just by itself.
+
+1504
+02:27:19,120 --> 02:27:22,120
+ A2 is a product of two.
+
+1505
+02:27:22,120 --> 02:27:29,120
+ Being square matrix, you can even break using the sum of the exponent.
+
+1506
+02:27:29,120 --> 02:27:36,120
+ You can use the product of each of these, knowing the negative integers.
+
+1507
+02:27:36,120 --> 02:27:42,120
+ And this is, for being, we don't need to know much here, projection matrix.
+
+1508
+02:27:42,120 --> 02:27:50,120
+ If A squared is equal to A, then this is a special one in some cause.
+
+1509
+02:27:50,120 --> 02:27:55,120
+ And then the null matrix, A is a null space.
+
+1510
+02:27:55,120 --> 02:27:57,120
+ Null space, no null matrix.
+
+1511
+02:27:57,120 --> 02:28:04,120
+ If A exists at least one null zero column vector, then you multiply this, become zero.
+
+1512
+02:28:04,120 --> 02:28:08,120
+ That means, you see, we start with a null zero column vector.
+
+1513
+02:28:08,120 --> 02:28:12,120
+ Somehow, if A multiplies this null zero, then make it zero.
+
+1514
+02:28:12,120 --> 02:28:19,120
+ So that means we have some kind of non-space.
+
+1515
+02:28:19,120 --> 02:28:26,120
+ So that your change, a null zero vector, becomes zero.
+
+1516
+02:28:26,120 --> 02:28:31,120
+ But of course, this is, it won't happen in the scalar case.
+
+1517
+02:28:31,120 --> 02:28:39,120
+ If your A multiplied by x, unless A equal to zero, then, you know, if a scalar case, A,
+
+1518
+02:28:39,120 --> 02:28:43,120
+ no equal to zero, you multiply by a null zero number, you will never become zero.
+
+1519
+02:28:43,120 --> 02:28:48,120
+ So that's something very different between matrix and scalar.
+
+1520
+02:28:48,120 --> 02:28:50,120
+ So that's something useful.
+
+1521
+02:28:50,120 --> 02:28:55,120
+ And also, you know, it's a, yeah, that's concept very useful.
+
+1522
+02:28:55,120 --> 02:28:58,120
+ It's also not a rule of that.
+
+1523
+02:28:58,120 --> 02:29:09,120
+ If now we have set of linearly independent column vector, that means, yeah, you will be A
+
+1524
+02:29:09,120 --> 02:29:11,120
+ multiplied by this.
+
+1525
+02:29:11,120 --> 02:29:14,120
+ All of them equal to zero.
+
+1526
+02:29:14,120 --> 02:29:19,120
+ So that means you will have this.
+
+1527
+02:29:19,120 --> 02:29:24,120
+ If only if any column vector be satisfied this.
+
+1528
+02:29:24,120 --> 02:29:31,120
+ So that means our A multiplied, if we have A multiplied by B equal to zero, then our
+
+1529
+02:29:31,120 --> 02:29:39,120
+ B will be a linearly combination of all these x1, x2, which satisfy this.
+
+1530
+02:29:39,120 --> 02:29:42,120
+ So, yeah.
+
+1531
+02:29:42,120 --> 02:29:52,120
+ So therefore, from here, you can say the non-space of A is generated by this x1, xl.
+
+1532
+02:29:53,120 --> 02:29:57,120
+ And then the dimension of this non-space equal to l.
+
+1533
+02:29:57,120 --> 02:30:01,120
+ So, you see, I have at least all these.
+
+1534
+02:30:01,120 --> 02:30:05,120
+ So, and then we can define the range.
+
+1535
+02:30:05,120 --> 02:30:08,120
+ Y is in the range of A.
+
+1536
+02:30:08,120 --> 02:30:19,120
+ If we can find some vector such that we want to create this Y from the A matrix.
+
+1537
+02:30:19,120 --> 02:30:22,120
+ Of course, you must multiply by some x.
+
+1538
+02:30:22,120 --> 02:30:30,120
+ If you can find this, then that means our Y is in the same, generated by the A matrix.
+
+1539
+02:30:30,120 --> 02:30:38,120
+ You see, the other one here is how we multiply by, you can think about this, zero is also
+
+1540
+02:30:38,120 --> 02:30:41,120
+ generated by this A in the same.
+
+1541
+02:30:41,120 --> 02:30:43,120
+ You'll find some x.
+
+1542
+02:30:43,120 --> 02:30:45,120
+ That's the equal to zero.
+
+1543
+02:30:45,120 --> 02:30:47,120
+ So here is other way.
+
+1544
+02:30:47,120 --> 02:30:54,120
+ So, we're breaking five x such that this A multiplied by x, generally this is Y.
+
+1545
+02:30:54,120 --> 02:31:03,120
+ But not always, you see, some of the Y, depending on the property of the A, you may never find
+
+1546
+02:31:03,120 --> 02:31:06,120
+ any x to satisfy this.
+
+1547
+02:31:06,120 --> 02:31:11,120
+ So, these are quite different property of magic.
+
+1548
+02:31:11,120 --> 02:31:16,120
+ And one of the very important concepts is eigenvalue and eigenvector.
+
+1549
+02:31:16,120 --> 02:31:26,120
+ So, that's very useful also because in general, you see, given the A matrix, I multiply by,
+
+1550
+02:31:26,120 --> 02:31:29,120
+ you can try it out by yourself, using whatever.
+
+1551
+02:31:29,120 --> 02:31:37,120
+ If you, in general, your A matrix multiplied by a vector, you will give another new vector,
+
+1552
+02:31:37,120 --> 02:31:42,120
+ which is not at least not in the same direction as B.
+
+1553
+02:31:42,120 --> 02:31:51,120
+ Because now in the space, okay, it will take a vector, multiply A from the left, it will
+
+1554
+02:31:51,120 --> 02:31:53,120
+ become a new vector.
+
+1555
+02:31:53,120 --> 02:31:57,120
+ And this new vector happens to be just in the same direction.
+
+1556
+02:31:57,120 --> 02:32:01,120
+ It will be a scaling of this given B vector.
+
+1557
+02:32:01,120 --> 02:32:08,120
+ So, this, that means after multiply, you will steer in the same direction.
+
+1558
+02:32:08,120 --> 02:32:19,120
+ But the, but the coefficient may change, say, from B, from becoming 2B, or 3B, or half, or 0.5B.
+
+1559
+02:32:19,120 --> 02:32:23,120
+ So, in this space, okay, this lambda is a scalar.
+
+1560
+02:32:23,120 --> 02:32:29,120
+ Then, we have the, we call that lambda is eigenvalue, so here is that.
+
+1561
+02:32:29,120 --> 02:32:32,120
+ And this vector is a eigenvector.
+
+1562
+02:32:32,120 --> 02:32:39,120
+ So, given an A, you only, you can find some eigenvector, which is this property.
+
+1563
+02:32:39,120 --> 02:32:42,120
+ But this A is a square matrix.
+
+1564
+02:32:42,120 --> 02:32:47,120
+ So, remember, eigendecomersion is requiring a square matrix.
+
+1565
+02:32:47,120 --> 02:32:51,120
+ Later on, the singular value, we can deal with a no square matrix.
+
+1566
+02:32:51,120 --> 02:32:55,120
+ So, how to, how to verify that, get eigenvalue and eigenvector?
+
+1567
+02:32:55,120 --> 02:32:57,120
+ Very easy.
+
+1568
+02:32:57,120 --> 02:33:05,120
+ So, always, given A, you'll minus this lambda times identity matrix.
+
+1569
+02:33:05,120 --> 02:33:07,120
+ Then make this determinant.
+
+1570
+02:33:07,120 --> 02:33:11,120
+ Determinant, if you expand it, it will be depending on the dimension of A.
+
+1571
+02:33:11,120 --> 02:33:14,120
+ It will be a polynomial of lambda.
+
+1572
+02:33:14,120 --> 02:33:23,120
+ And then, you all know polynomial, whatever, the order equal to 3, you will find 3 rules, 3, 0.
+
+1573
+02:33:23,120 --> 02:33:27,120
+ It could be complex, but here, we allow complex numbers.
+
+1574
+02:33:27,120 --> 02:33:28,120
+ So, yeah, okay?
+
+1575
+02:33:28,120 --> 02:33:31,120
+ So, that means you make the determinant equal to 0.
+
+1576
+02:33:31,120 --> 02:33:37,120
+ Then, you can, you can get this is one of the eigenvalues.
+
+1577
+02:33:37,120 --> 02:33:45,120
+ And after that, substitute this, you can solve and you will get the corresponding eigenvector.
+
+1578
+02:33:45,120 --> 02:33:52,120
+ Because once this determinant equal to 0, that means you have a non-space, okay, for square matrix.
+
+1579
+02:33:52,120 --> 02:33:54,120
+ Then, you reduce.
+
+1580
+02:33:54,120 --> 02:33:57,120
+ You can get no zero vector.
+
+1581
+02:33:57,120 --> 02:34:02,120
+ And this vector, it happens to be the eigenvector.
+
+1582
+02:34:02,120 --> 02:34:10,120
+ So, square matrix A of dimension 7 will have n linearly independent vector.
+
+1583
+02:34:10,120 --> 02:34:17,120
+ If all its n eigenvalues are distinct, it will satisfy.
+
+1584
+02:34:17,120 --> 02:34:23,120
+ But this is only sufficient condition.
+
+1585
+02:34:23,120 --> 02:34:30,120
+ If the eigenvalues are the same, you may also have independent eigenvector.
+
+1586
+02:34:30,120 --> 02:34:32,120
+ But you cannot guarantee.
+
+1587
+02:34:32,120 --> 02:34:34,120
+ Otherwise, A may or may not.
+
+1588
+02:34:34,120 --> 02:34:38,120
+ Yes, so you see here, I have n linearly independent vector.
+
+1589
+02:34:38,120 --> 02:34:41,120
+ If they are distinct, then we are very sure.
+
+1590
+02:34:41,120 --> 02:34:45,120
+ But if not, then you will depend.
+
+1591
+02:34:45,120 --> 02:34:50,120
+ Then this symmetric matrix, this one is very important.
+
+1592
+02:34:50,120 --> 02:34:51,120
+ We have this.
+
+1593
+02:34:51,120 --> 02:35:01,120
+ And later on, we will see if this is expectation, you see, we will be taking the outer product.
+
+1594
+02:35:01,120 --> 02:35:02,120
+ We will see.
+
+1595
+02:35:02,120 --> 02:35:07,120
+ So, symmetric eigenvalues or symmetric matrix are very important.
+
+1596
+02:35:07,120 --> 02:35:08,120
+ They are all real.
+
+1597
+02:35:08,120 --> 02:35:10,120
+ So, these are very special properties.
+
+1598
+02:35:10,120 --> 02:35:17,120
+ And then, the symmetric matrix will always have n linearly independent eigenvector.
+
+1599
+02:35:17,120 --> 02:35:24,120
+ So, in this case, it may or may not be orthogonal, but can be met orthogonal.
+
+1600
+02:35:24,120 --> 02:35:30,120
+ Linenly independent, for example, in the two dimensional case, if I have two vectors,
+
+1601
+02:35:30,120 --> 02:35:33,120
+ they are not, as long as they are not in the same line, 45 degree.
+
+1602
+02:35:33,120 --> 02:35:35,120
+ They are linearly independent, but not orthogonal.
+
+1603
+02:35:35,120 --> 02:35:42,120
+ A orthogonal, they must be 90 degrees, but you can do some change to make them orthogonal.
+
+1604
+02:35:42,120 --> 02:35:45,120
+ Okay, so these are very important.
+
+1605
+02:35:45,120 --> 02:35:48,120
+ A is positive definite or semi-definite.
+
+1606
+02:35:48,120 --> 02:35:53,120
+ All of its eigenvalues are positive or at least non-negative.
+
+1607
+02:35:53,120 --> 02:35:58,120
+ So, later, we will go back into that in some examples later.
+
+1608
+02:35:58,120 --> 02:36:01,120
+ So, here is just some definition.
+
+1609
+02:36:01,120 --> 02:36:08,120
+ If A is positive definite, all of its principal minus are also positive.
+
+1610
+02:36:08,120 --> 02:36:10,120
+ So, yeah.
+
+1611
+02:36:10,120 --> 02:36:11,120
+ So, yeah.
+
+1612
+02:36:11,120 --> 02:36:17,120
+ So, this one, we can define a matrix having columns to be eigenvector.
+
+1613
+02:36:17,120 --> 02:36:20,120
+ You just put them together.
+
+1614
+02:36:20,120 --> 02:36:27,120
+ Then, if A is symmetric, you can always choose its eigenvector as orthogonal.
+
+1615
+02:36:27,120 --> 02:36:33,120
+ So, in that case, this V matrix becomes an orthogonal matrix.
+
+1616
+02:36:33,120 --> 02:36:39,120
+ And that's very important because our A can be written in this way.
+
+1617
+02:36:39,120 --> 02:36:46,120
+ Because orthogonal, then the inverse, you will be just equal to the transpose.
+
+1618
+02:36:46,120 --> 02:36:50,120
+ So, you can have this decomposition.
+
+1619
+02:36:50,120 --> 02:36:53,120
+ And then you can write as the...
+
+1620
+02:36:53,120 --> 02:36:58,120
+ Yeah, this is a diagonal matrix with this diagonal.
+
+1621
+02:36:58,120 --> 02:37:00,120
+ Those are eigenvalues.
+
+1622
+02:37:00,120 --> 02:37:05,120
+ And this is what we call like the outer product, you see, because A is a matrix.
+
+1623
+02:37:05,120 --> 02:37:09,120
+ So, you need vector followed by column vector.
+
+1624
+02:37:09,120 --> 02:37:15,120
+ And then, if no singular, you can get the inverse by just inverting this.
+
+1625
+02:37:15,120 --> 02:37:17,120
+ So, it's very easy.
+
+1626
+02:37:17,120 --> 02:37:29,120
+ And then, you can also define the square of this matrix by taking the square of each of the diagonal elements.
+
+1627
+02:37:29,120 --> 02:37:32,120
+ So, that's very convenient.
+
+1628
+02:37:32,120 --> 02:37:35,120
+ Finally, the singular value decomposition is...
+
+1629
+02:37:35,120 --> 02:37:38,120
+ We can deal with a no square matrix.
+
+1630
+02:37:38,120 --> 02:37:45,120
+ So, in this case, you can see the similar eigenvectors decomposition, except the left and right matrix.
+
+1631
+02:37:45,120 --> 02:37:47,120
+ They are different matrix.
+
+1632
+02:37:47,120 --> 02:37:51,120
+ For eigenvectors decomposition, it's the same matrix, you see.
+
+1633
+02:37:51,120 --> 02:37:53,120
+ So, that's the main difference.
+
+1634
+02:37:53,120 --> 02:37:55,120
+ So, it can be more flexible.
+
+1635
+02:37:55,120 --> 02:38:05,120
+ And how to get that, actually, is we are dealing that by taking the transpose together.
+
+1636
+02:38:05,120 --> 02:38:16,120
+ So, what we get there is we make this A no square matrix become a square one by A multiplied by A transpose,
+
+1637
+02:38:16,120 --> 02:38:23,120
+ or A transpose multiplied by A to get certified with U and V.
+
+1638
+02:38:23,120 --> 02:38:27,120
+ So, then you can get the so-called left...
+
+1639
+02:38:28,120 --> 02:38:30,120
+ eigen...
+
+1640
+02:38:30,120 --> 02:38:36,120
+ Yeah, left and right singular vector for singular value decomposition.
+
+1641
+02:38:36,120 --> 02:38:37,120
+ So, yeah.
+
+1642
+02:38:37,120 --> 02:38:39,120
+ So, how to get there, yes.
+
+1643
+02:38:39,120 --> 02:38:43,120
+ We are using this either A transpose A to get this,
+
+1644
+02:38:43,120 --> 02:38:47,120
+ and all A multiplied by A transpose to get this V.
+
+1645
+02:38:47,120 --> 02:38:51,120
+ So, these are both square.
+
+1646
+02:38:51,120 --> 02:38:53,120
+ But both of them, if they are not...
+
+1647
+02:38:53,120 --> 02:38:58,120
+ The matrix no square cannot be both of them of full range.
+
+1648
+02:38:58,120 --> 02:39:02,120
+ You can easily verify by looking at the side.
+
+1649
+02:39:02,120 --> 02:39:03,120
+ Okay.
+
+1650
+02:39:03,120 --> 02:39:10,120
+ And similarly, using this decomposition, we can write this A into this very special form.
+
+1651
+02:39:10,120 --> 02:39:11,120
+ Yeah.
+
+1652
+02:39:11,120 --> 02:39:16,120
+ Then, you cannot inverse if no square one,
+
+1653
+02:39:16,120 --> 02:39:28,120
+ but we can get the so-called generalized or pseudo inverse by looking at one of the full range one.
+
+1654
+02:39:28,120 --> 02:39:29,120
+ Yeah.
+
+1655
+02:39:29,120 --> 02:39:37,120
+ So, after that, the definition of generalized is either in this form or in that form.
+
+1656
+02:39:37,120 --> 02:39:40,120
+ So, if you remember what the...
+
+1657
+02:39:40,120 --> 02:39:45,120
+ Last week, we were talking about the linear model.
+
+1658
+02:39:45,120 --> 02:39:47,120
+ Then we kept this.
+
+1659
+02:39:47,120 --> 02:39:52,120
+ Only one of them can be of full range.
+
+1660
+02:39:52,120 --> 02:39:58,120
+ So, we are looking at something similar to this pseudo inverse.
+
+1661
+02:39:58,120 --> 02:40:00,120
+ I think that's...
+
+1662
+02:40:00,120 --> 02:40:04,120
+ In reality, I think it's not a matrix.
+
+1663
+02:40:04,120 --> 02:40:06,120
+ So, that's all for today.
+
+1664
+02:40:06,120 --> 02:40:16,120
+ So, I hope this additional one can help you to understand this very basic of linear spreading matrix.
+
+1665
+02:40:16,120 --> 02:40:24,120
+ So, I think it's the time we can finish today's class.
+
+1666
+02:40:24,120 --> 02:40:27,120
+ So, I will see you next week.
+
+1667
+02:40:27,120 --> 02:40:28,120
+ Any questions?
+
+1668
+02:40:28,120 --> 02:40:34,120
+ You can stay back to ask or can email me or...
+
+1669
+02:40:34,120 --> 02:40:35,120
+ Yeah.
+
+1670
+02:40:35,120 --> 02:40:36,120
+ Okay.
+
+1671
+02:41:05,120 --> 02:41:07,120
+ Thank you.
+
+1672
+02:41:35,120 --> 02:41:37,120
+ Bye.
+
+1673
+02:42:05,120 --> 02:42:06,120
+ Thank you.
+
+1674
+02:42:35,120 --> 02:42:37,120
+ Bye.
+
+1675
+02:43:05,120 --> 02:43:07,120
+ Bye.
+
+1676
+02:43:35,120 --> 02:43:37,120
+ Bye.
+
+1677
+02:44:05,120 --> 02:44:07,120
+ Bye.
+
+1678
+02:44:35,120 --> 02:44:37,120
+ Bye.
+
+1679
+02:45:05,120 --> 02:45:06,120
+ Bye.
+
+1680
+02:45:35,120 --> 02:45:37,120
+ Bye.
+
+1681
+02:46:05,120 --> 02:46:07,120
+ Bye.
+
+1682
+02:46:35,120 --> 02:46:36,120
+ Bye.
+
+1683
+02:47:05,120 --> 02:47:07,120
+ Bye.
+
+1684
+02:47:35,120 --> 02:47:36,120
+ Bye.
+
+1685
+02:48:05,120 --> 02:48:06,120
+ Bye.
+
+1686
+02:48:35,120 --> 02:48:37,120
+ Bye.
+
+1687
+02:49:05,120 --> 02:49:07,120
+ Bye.
+
+1688
+02:49:35,120 --> 02:49:37,120
+ Bye.
+
+1689
+02:50:05,120 --> 02:50:06,120
+ Bye.
+
+1690
+02:50:35,120 --> 02:50:37,120
+ Bye.
+
+1691
+02:51:05,120 --> 02:51:06,120
+ Bye.
+
+1692
+02:51:35,120 --> 02:51:36,120
+ Bye.
+
+1693
+02:52:05,120 --> 02:52:07,120
+ Bye.
+
+1694
+02:52:35,120 --> 02:52:36,120
+ Bye.
+
+1695
+02:53:05,120 --> 02:53:06,120
+ Bye.
+
+1696
+02:53:35,120 --> 02:53:36,120
+ Bye.
+
+1697
+02:54:05,120 --> 02:54:06,120
+ Bye.
+
+1698
+02:54:35,120 --> 02:54:37,120
+ Bye.
+
+1699
+02:55:05,120 --> 02:55:06,120
+ Bye.
+
+1700
+02:55:35,120 --> 02:55:37,120
+ Bye.
+
+1701
+02:56:05,120 --> 02:56:06,120
+ Bye.
+
+1702
+02:56:35,120 --> 02:56:37,120
+ Bye.
+
+1703
+02:57:05,120 --> 02:57:06,120
+ Bye.
+
+1704
+02:57:35,120 --> 02:57:37,120
+ Bye.
+
+1705
+02:58:05,120 --> 02:58:06,120
+ Bye.
+
+1706
+02:58:35,120 --> 02:58:37,120
+ Bye.
+
+1707
+02:59:05,120 --> 02:59:06,120
+ Bye.
+
+1708
+02:59:35,120 --> 02:59:37,120
+ Bye.
+
