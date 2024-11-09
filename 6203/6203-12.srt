@@ -1,0 +1,5924 @@
+1
+00:00:00,000 --> 00:00:02,000
+.
+
+2
+00:00:30,000 --> 00:00:32,000
+.
+
+3
+00:01:00,000 --> 00:01:02,000
+.
+
+4
+00:01:30,000 --> 00:01:32,000
+.
+
+5
+00:02:00,000 --> 00:02:02,000
+.
+
+6
+00:02:30,000 --> 00:02:48,000
+If you want your Y to follow your reference input R, you have to make this T as close as 1 so that Y is following R here.
+
+7
+00:02:48,000 --> 00:02:54,000
+So this should be small and this should be close to 1.
+
+8
+00:02:54,000 --> 00:03:04,000
+And we showed that this is not possible because your T and S are dependent on each other.
+
+9
+00:03:04,000 --> 00:03:10,000
+Yeah, that is your T and S added together, you get 1.
+
+10
+00:03:10,000 --> 00:03:24,000
+So if you want to make it this small, maybe you cannot have freedom to choose your S to be close to 1.
+
+11
+00:03:24,000 --> 00:03:34,000
+If you want this to be close to 1, in that case your T is fixed because you can find your T from this equation.
+
+12
+00:03:34,000 --> 00:03:38,000
+So that is one degree of freedom.
+
+13
+00:03:38,000 --> 00:03:52,000
+Now, actually this is for this type of system. In other words, you have a unit feedback control here and you have a controller here.
+
+14
+00:03:52,000 --> 00:04:02,000
+That was the cases we started so far for the controller design based on transfer functions.
+
+15
+00:04:02,000 --> 00:04:10,000
+Okay, so today I will start with two degrees of freedom feedback controller.
+
+16
+00:04:10,000 --> 00:04:22,000
+In this case, we consider this configuration.
+
+17
+00:04:22,000 --> 00:04:30,000
+In this diagram, this G is the plant to be controlled. That is the same as this.
+
+18
+00:04:30,000 --> 00:04:41,000
+Then our controller is moved to outside the loop. You have a feed forward controller here, GF.
+
+19
+00:04:41,000 --> 00:04:46,000
+And of course you have a feedback controller, GB.
+
+20
+00:04:46,000 --> 00:04:59,000
+For special case, if GF and GB are the same, then you can move inside to get this.
+
+21
+00:04:59,000 --> 00:05:03,000
+In that case, you have one degree of freedom.
+
+22
+00:05:04,000 --> 00:05:13,000
+So now we have GF, GB, two different controllers.
+
+23
+00:05:13,000 --> 00:05:20,000
+Special case is that they are equal. Then you have this block diagram.
+
+24
+00:05:20,000 --> 00:05:36,000
+In that case, you can move this. If GB and GF are the same, both are GC, then you can use block diagram manipulation approach to move these two blocks to have this.
+
+25
+00:05:36,000 --> 00:05:41,000
+Okay, so now why this is two degrees of freedom?
+
+26
+00:05:41,000 --> 00:05:48,000
+Let me put this diagram here for easy reference.
+
+27
+00:05:51,000 --> 00:06:05,000
+Assume your GB has this transfer function, SC divided by RC. Your GF has this transfer function, TC divided by RC.
+
+28
+00:06:05,000 --> 00:06:14,000
+So both GB and GF have the same denominator. The numerator are different.
+
+29
+00:06:14,000 --> 00:06:19,000
+If the numerators are the same, then it's one degree of freedom.
+
+30
+00:06:22,000 --> 00:06:28,000
+Now, from this diagram, you can show that. You have this equation.
+
+31
+00:06:28,000 --> 00:06:33,000
+Let me show you. It's very easy.
+
+32
+00:06:33,000 --> 00:06:53,000
+In fact, from this diagram, your U is equal to GF R minus GB Y.
+
+33
+00:06:53,000 --> 00:06:56,000
+That's from the diagram.
+
+34
+00:06:56,000 --> 00:07:12,000
+Then you substitute this two transfer functions in. You will have TC over RC R minus SC over RC times Y.
+
+35
+00:07:12,000 --> 00:07:19,000
+Then you multiply RC on both sides. You get this.
+
+36
+00:07:20,000 --> 00:07:28,000
+Now, assume this plant, G, has this model.
+
+37
+00:07:31,000 --> 00:07:35,000
+So this implies this G.
+
+38
+00:07:36,000 --> 00:07:45,000
+You can have the output Y here includes two parts.
+
+39
+00:07:45,000 --> 00:07:51,000
+Y is from here. Y is from the V. So you have two terms.
+
+40
+00:07:51,000 --> 00:08:08,000
+Then you can write this G as a transfer function Z minus K times B over A.
+
+41
+00:08:11,000 --> 00:08:13,000
+In that case, you get the first term.
+
+42
+00:08:13,000 --> 00:08:22,000
+Of course, for the second term, maybe you have this.
+
+43
+00:08:25,000 --> 00:08:30,000
+The second term is due to the noise. So you can consider this.
+
+44
+00:08:30,000 --> 00:08:52,000
+So this Y should be due to this times U plus.
+
+45
+00:08:52,000 --> 00:09:01,000
+Anyway, this one, I think you can also put 1 over A here.
+
+46
+00:09:01,000 --> 00:09:08,000
+Then you have 1 over A V. Then multiply A on both sides. You have this equation.
+
+47
+00:09:08,000 --> 00:09:18,000
+Anyway, this second term is not very important because you can change this H.
+
+48
+00:09:19,000 --> 00:09:25,000
+You just add a block here to represent the effect of the disturbance.
+
+49
+00:09:32,000 --> 00:09:37,000
+This V denotes the accumulated effect of the disturbance.
+
+50
+00:09:38,000 --> 00:09:47,000
+Now, you substitute this U to this equation. You get this.
+
+51
+00:09:47,000 --> 00:09:54,000
+Basically, as I said, this U equals this. So you just substitute this part to here.
+
+52
+00:09:54,000 --> 00:10:01,000
+This is Z minus K times V. Then you have this divided by RC.
+
+53
+00:10:01,000 --> 00:10:05,000
+So you just do this substitution. You get this.
+
+54
+00:10:05,000 --> 00:10:10,000
+Then you do some manipulation. How do we do manipulation?
+
+55
+00:10:10,000 --> 00:10:19,000
+You just move the term related to Y to the left and factorize Y out.
+
+56
+00:10:19,000 --> 00:10:24,000
+You will have this equation. You can see on the right side, you have this.
+
+57
+00:10:24,000 --> 00:10:38,000
+Then you have this V here. After you multiply this to this term,
+
+58
+00:10:38,000 --> 00:10:44,000
+then you move to the right side. To some manipulation, you get this result.
+
+59
+00:10:44,000 --> 00:10:56,000
+Here we put a notation for easy reference.
+
+60
+00:10:56,000 --> 00:11:12,000
+We call this numerator as phi CL in this notation.
+
+61
+00:11:13,000 --> 00:11:24,000
+So with this notation, this equation will change to that.
+
+62
+00:11:24,000 --> 00:11:29,000
+So what you do is first you multiply RC on both sides.
+
+63
+00:11:29,000 --> 00:11:40,000
+Then the left side will be phi CL YN equals C minus K BTC RN plus RC V.
+
+64
+00:11:40,000 --> 00:11:46,000
+Then you divide by phi CL, you get this. So you have these two terms.
+
+65
+00:11:46,000 --> 00:11:58,000
+This phi CL is the closed loop characteristic polynomial.
+
+66
+00:11:58,000 --> 00:12:16,000
+In response, we want this phi CL to be stable, which implies all the roots of this polynomial should be inside the unit circle for stability.
+
+67
+00:12:16,000 --> 00:12:31,000
+Also, we want to make these terms small so that the effect of the disturbance can be reduced or can be rejected.
+
+68
+00:12:31,000 --> 00:12:37,000
+At the same time, we want this to be close to one in this case.
+
+69
+00:12:37,000 --> 00:12:44,000
+So that we can allow RY to track RN.
+
+70
+00:12:44,000 --> 00:12:54,000
+So this is close to one. This time it's possible because we can choose RC and TC independently.
+
+71
+00:12:54,000 --> 00:12:58,000
+So we have two freedoms.
+
+72
+00:12:58,000 --> 00:13:06,000
+So this is two freedoms for controller design.
+
+73
+00:13:06,000 --> 00:13:13,000
+Because our controller now has two parts.
+
+74
+00:13:13,000 --> 00:13:27,000
+GF and GB. GF and GB both have the same denominator, but they have different numerators.
+
+75
+00:13:27,000 --> 00:13:36,000
+So you can choose TC and SC independently to meet these two conditions.
+
+76
+00:13:37,000 --> 00:13:43,000
+Of course, for stability, you have to choose phi CL to be stable.
+
+77
+00:13:43,000 --> 00:13:48,000
+So that's the general framework when you design a controller.
+
+78
+00:13:48,000 --> 00:13:52,000
+So in this case, you have two freedoms.
+
+79
+00:13:52,000 --> 00:14:06,000
+Next, we consider a special method to find GF and GB, which is called pole placement controller.
+
+80
+00:14:06,000 --> 00:14:17,000
+I think in state space design method, you also consider pole placement or pole assignment design.
+
+81
+00:14:17,000 --> 00:14:22,000
+That is, you are given the closed loop poles.
+
+82
+00:14:22,000 --> 00:14:31,000
+You have to find the controller to ensure the closed loop system to have the desired pole.
+
+83
+00:14:31,000 --> 00:14:37,000
+In our case, it's the phi CL I just showed you.
+
+84
+00:14:37,000 --> 00:14:49,000
+So pole placement means this phi CL is the closed loop characteristic polynomial.
+
+85
+00:14:49,000 --> 00:14:53,000
+So its root is the closed loop poles.
+
+86
+00:14:53,000 --> 00:14:59,000
+So in this case, if you are given the closed loop pole, then you can find the phi CL.
+
+87
+00:14:59,000 --> 00:15:14,000
+So based on phi CL and other specifications, we are going to find the two controllers here, GB and GF.
+
+88
+00:15:14,000 --> 00:15:21,000
+So this is the idea for pole placement controller design.
+
+89
+00:15:22,000 --> 00:15:29,000
+So this is the diagram.
+
+90
+00:15:29,000 --> 00:15:40,000
+Just now in this framework, I didn't put a gamma because it's just to show this is two degrees of freedom.
+
+91
+00:15:40,000 --> 00:15:46,000
+If you put a gamma, then that means the numerator is slightly different.
+
+92
+00:15:46,000 --> 00:15:50,000
+So I put a constant gamma here.
+
+93
+00:15:50,000 --> 00:15:56,000
+Basically, they have the same block diagram.
+
+94
+00:15:56,000 --> 00:16:05,000
+Yeah, the disturbance has been ignored in this case after I discussed the general framework.
+
+95
+00:16:05,000 --> 00:16:26,000
+So based on this, we want to find RC, TC, SC, and gamma based on the given closed loop poles and other requirements.
+
+96
+00:16:26,000 --> 00:16:30,000
+Okay, as I just mentioned, the plant, yeah, this is the plant G.
+
+97
+00:16:30,000 --> 00:16:37,000
+It has this transfer function, poles transfer function.
+
+98
+00:16:37,000 --> 00:16:43,000
+Okay, maybe the notation here is slightly different from the previous part.
+
+99
+00:16:43,000 --> 00:16:47,000
+This time, this K is not an independent variable.
+
+100
+00:16:47,000 --> 00:16:52,000
+It's not the sampling sequence.
+
+101
+00:16:52,000 --> 00:16:56,000
+It's not the K we mentioned before.
+
+102
+00:16:56,000 --> 00:17:01,000
+So this K is a fixed number.
+
+103
+00:17:01,000 --> 00:17:12,000
+And we are showing BZ and AZ are co-prime, which means they do not have common factors.
+
+104
+00:17:12,000 --> 00:17:18,000
+Of course, from the block diagram, we have this Y equals G times U.
+
+105
+00:17:18,000 --> 00:17:27,000
+Okay, so this is given. G is given.
+
+106
+00:17:27,000 --> 00:17:34,000
+Okay, in our design, we want the control system.
+
+107
+00:17:57,000 --> 00:18:08,000
+Okay, so we want to design a controller.
+
+108
+00:18:08,000 --> 00:18:11,000
+Yeah, I think our control system is this.
+
+109
+00:18:11,000 --> 00:18:20,000
+We want this control system to have this overall closed loop transfer function.
+
+110
+00:18:20,000 --> 00:18:29,000
+Yeah, later on, we should design our controller so that this Y will follow this YM.
+
+111
+00:18:29,000 --> 00:18:32,000
+Or you can just make Y equals YM.
+
+112
+00:18:32,000 --> 00:18:39,000
+So in other words, this overall transfer function,
+
+113
+00:18:39,000 --> 00:18:55,000
+gamma times Z minus KBR over phi CAO is the required or desired closed loop transfer function for this system from R to Y.
+
+114
+00:18:55,000 --> 00:19:00,000
+So from R to Y, we should have this transfer function.
+
+115
+00:19:00,000 --> 00:19:05,000
+Yeah, you can consider this as a desired closed loop transfer function.
+
+116
+00:19:05,000 --> 00:19:16,000
+So phi CAO is determined based on the given poles of the system.
+
+117
+00:19:16,000 --> 00:19:20,000
+So these given poles are chosen also based on the required specifications.
+
+118
+00:19:20,000 --> 00:19:25,000
+BR is a polynomial to be determined also.
+
+119
+00:19:25,000 --> 00:19:30,000
+So you have to choose BR also.
+
+120
+00:19:30,000 --> 00:19:40,000
+Okay, for Y to follow R at the steady state, your gamma should be chosen as this.
+
+121
+00:19:40,000 --> 00:19:48,000
+Yeah, because if this Y follow this YM,
+
+122
+00:19:48,000 --> 00:19:57,000
+this closed loop transfer function should have a DC gain of one.
+
+123
+00:19:58,000 --> 00:20:02,000
+So when this DC gain is Z equals one.
+
+124
+00:20:02,000 --> 00:20:06,000
+When Z equals one, this part should be equal to one.
+
+125
+00:20:06,000 --> 00:20:10,000
+So based on that, your gamma should be equal to this.
+
+126
+00:20:10,000 --> 00:20:12,000
+Because when Z equals one, this term is one.
+
+127
+00:20:12,000 --> 00:20:17,000
+So gamma times BR one divided by phi CAO one equals one.
+
+128
+00:20:17,000 --> 00:20:19,000
+So gamma should be equal to this.
+
+129
+00:20:19,000 --> 00:20:23,000
+So this is how we find our gamma here.
+
+130
+00:20:24,000 --> 00:20:27,000
+Okay, in the container design.
+
+131
+00:20:30,000 --> 00:20:40,000
+And I also mentioned our controller has this transfer function for the feed forward part.
+
+132
+00:20:40,000 --> 00:20:42,000
+This is the feedback part.
+
+133
+00:20:42,000 --> 00:20:46,000
+So we have TC, SC, RC polynomials.
+
+134
+00:20:46,000 --> 00:20:50,000
+So we have to find these three polynomials.
+
+135
+00:20:50,000 --> 00:21:03,000
+Okay, now we look at the control equation.
+
+136
+00:21:03,000 --> 00:21:11,000
+Yeah, if you just write this U equals this times R minus this times Y.
+
+137
+00:21:11,000 --> 00:21:14,000
+Actually, we did this earlier.
+
+138
+00:21:20,000 --> 00:21:22,000
+Here.
+
+139
+00:21:22,000 --> 00:21:25,000
+Yeah, this equation.
+
+140
+00:21:35,000 --> 00:21:41,000
+Yeah, this equation is obtained similarly to this equation.
+
+141
+00:21:41,000 --> 00:21:46,000
+Yeah, here we don't have gamma, but if you put a gamma here, then you have this.
+
+142
+00:21:46,000 --> 00:21:55,000
+Okay, so we have to find RC, SC, TC in order to design our controller.
+
+143
+00:21:55,000 --> 00:21:57,000
+Yeah, we have found the gamma already.
+
+144
+00:21:57,000 --> 00:22:07,000
+So next we just found our polynomials.
+
+145
+00:22:07,000 --> 00:22:13,000
+RC, TC, and SC.
+
+146
+00:22:16,000 --> 00:22:19,000
+Okay, yeah, we have to find these polynomials.
+
+147
+00:22:21,000 --> 00:22:22,000
+Okay.
+
+148
+00:22:27,000 --> 00:22:31,000
+Yeah, just now I already discussed.
+
+149
+00:22:31,000 --> 00:22:34,000
+We have feedback components here.
+
+150
+00:22:34,000 --> 00:22:39,000
+That is to ensure stability and also reject disturbance.
+
+151
+00:22:39,000 --> 00:22:42,000
+And we have this feed forward components.
+
+152
+00:22:42,000 --> 00:22:51,000
+Yeah, this is feed forward components to ensure Y to track R.
+
+153
+00:22:52,000 --> 00:22:56,000
+Now we compute the transfer function.
+
+154
+00:22:56,000 --> 00:23:00,000
+Yeah, here I think I just put a gamma here.
+
+155
+00:23:00,000 --> 00:23:05,000
+I cannot find the diagram, so I just use this again.
+
+156
+00:23:05,000 --> 00:23:19,000
+So based on this, we can find the transfer function for this actual system with the controller here
+
+157
+00:23:19,000 --> 00:23:22,000
+and the feedback controller here.
+
+158
+00:23:22,000 --> 00:23:25,000
+We have this closed loop transfer function.
+
+159
+00:23:25,000 --> 00:23:28,000
+That is Y equals this.
+
+160
+00:23:30,000 --> 00:23:33,000
+Yeah, this can be obtained easily.
+
+161
+00:23:33,000 --> 00:23:39,000
+You just do some calculations based on the previous equation.
+
+162
+00:23:49,000 --> 00:24:00,000
+Yeah, I said this should be same as phi 18.
+
+163
+00:24:08,000 --> 00:24:10,000
+Yeah, that is this equation.
+
+164
+00:24:10,000 --> 00:24:15,000
+Yeah, this is the desired closed loop transfer function.
+
+165
+00:24:15,000 --> 00:24:20,000
+This is the computed closed loop transfer function.
+
+166
+00:24:20,000 --> 00:24:28,000
+So this part should be same as BR phi CAO if you compute this with this.
+
+167
+00:24:29,000 --> 00:24:36,000
+Okay, so now we are going to find our TC RC SC from this equation.
+
+168
+00:24:36,000 --> 00:24:42,000
+Of course, phi CAO should be found based on the given poles.
+
+169
+00:24:43,000 --> 00:24:50,000
+Yeah, your A and B are given because the plant to be consumed should be given.
+
+170
+00:24:51,000 --> 00:24:54,000
+Okay, normally our...
+
+171
+00:25:08,000 --> 00:25:14,000
+Yeah, normally this degree of BR should be less than the degree of B.
+
+172
+00:25:14,000 --> 00:25:24,000
+So that the closed loop transfer function is of lower order than B times TC.
+
+173
+00:25:24,000 --> 00:25:28,000
+How do we achieve this?
+
+174
+00:25:28,000 --> 00:25:31,000
+Yeah, we can do some cancellations.
+
+175
+00:25:31,000 --> 00:25:40,000
+Okay, so this is achieved by canceling some common terms between the numerator and the denominator.
+
+176
+00:25:40,000 --> 00:25:45,000
+So how do we do the cancellation?
+
+177
+00:25:45,000 --> 00:25:49,000
+We just do factorization on our A and B.
+
+178
+00:25:49,000 --> 00:25:52,000
+Yeah, B and A are given.
+
+179
+00:25:52,000 --> 00:25:57,000
+They are the numerator and the denominator of the transfer function.
+
+180
+00:25:57,000 --> 00:26:02,000
+So we can factorize our B as a good part and a bad part.
+
+181
+00:26:03,000 --> 00:26:14,000
+Good part means all the roots of this BG are inside the unit circle.
+
+182
+00:26:14,000 --> 00:26:24,000
+The bad part means the roots of BB are outside the unit circle.
+
+183
+00:26:24,000 --> 00:26:27,000
+So we can do this factorization.
+
+184
+00:26:27,000 --> 00:26:34,000
+Similarly, we can also factorize our denominator A as good part and bad part.
+
+185
+00:26:34,000 --> 00:26:42,000
+Yeah, in this case, good part means all the roots of AG should be inside the unit circle.
+
+186
+00:26:42,000 --> 00:26:46,000
+For this, the roots will be outside the unit circle.
+
+187
+00:26:46,000 --> 00:26:52,000
+Yeah, even for those inside the unit circle, you can also give further restrictions.
+
+188
+00:26:52,000 --> 00:26:57,000
+Yeah, that means you want to cancel out this.
+
+189
+00:26:57,000 --> 00:27:01,000
+Yeah, because these are stable roots.
+
+190
+00:27:01,000 --> 00:27:03,000
+These are also stable roots.
+
+191
+00:27:03,000 --> 00:27:07,000
+So you want to cancel out them in the equation here.
+
+192
+00:27:07,000 --> 00:27:18,000
+So to do the cancellation, we just define our RC as the good part of B times R1.
+
+193
+00:27:18,000 --> 00:27:20,000
+R1 is to be determined.
+
+194
+00:27:20,000 --> 00:27:28,000
+And we also define this SC as a good part of A times S1.
+
+195
+00:27:28,000 --> 00:27:34,000
+S1 is a polynomial to be determined.
+
+196
+00:27:34,000 --> 00:27:47,000
+And also TC, yeah, we have TC here, contains the good part of A and another polynomial T1.
+
+197
+00:27:48,000 --> 00:27:57,000
+Okay, so this is to keep the good part in your controller.
+
+198
+00:27:57,000 --> 00:28:05,000
+Yeah, with this choice of RC, SC, and TC, you do substitution to the equation here.
+
+199
+00:28:06,000 --> 00:28:10,000
+Actually, yeah, this should be 21.
+
+200
+00:28:10,000 --> 00:28:18,000
+Yeah, because I think there is a typo, so you change this to 21, and here also 21.
+
+201
+00:28:18,000 --> 00:28:21,000
+Yeah, this is 22.
+
+202
+00:28:21,000 --> 00:28:27,000
+Okay, so if you do this substitution, A is AGAB, and that's this part.
+
+203
+00:28:27,000 --> 00:28:33,000
+And RC is BGR1, that's this.
+
+204
+00:28:33,000 --> 00:28:40,000
+And RB has been factorized as good part and bad part, so that's this.
+
+205
+00:28:40,000 --> 00:28:46,000
+And the SC, yeah, this is SC, good part times S1.
+
+206
+00:28:46,000 --> 00:28:54,000
+And our numerator B is changed to that based on the factorization here.
+
+207
+00:28:54,000 --> 00:28:59,000
+And this TC is AGT1.
+
+208
+00:28:59,000 --> 00:29:05,000
+Okay, so now you can see, you can do cancellation.
+
+209
+00:29:05,000 --> 00:29:10,000
+Yeah, you can cancel out the good part.
+
+210
+00:29:10,000 --> 00:29:16,000
+So AG here, here, here, or cancel out.
+
+211
+00:29:16,000 --> 00:29:26,000
+And also BG, yeah, this BG, you have this BG, and this BG cancel out.
+
+212
+00:29:26,000 --> 00:29:39,000
+So this cancellation will make the order here.
+
+213
+00:29:39,000 --> 00:29:44,000
+Yeah, this order of the BR, yeah, the result here is BR.
+
+214
+00:29:44,000 --> 00:29:48,000
+In this case, your BR is just BB times T1.
+
+215
+00:29:48,000 --> 00:29:55,000
+So in this case, the order will be reduced compared to the original B.
+
+216
+00:29:55,000 --> 00:29:58,000
+So that's why we have this situation.
+
+217
+00:29:58,000 --> 00:30:04,000
+Yeah, in this way, you can also reduce the order of the closed loop transfer function
+
+218
+00:30:04,000 --> 00:30:07,000
+after you do the cancellation.
+
+219
+00:30:07,000 --> 00:30:15,000
+Okay, so with this cancellation, you get this, yeah, you get this equation.
+
+220
+00:30:15,000 --> 00:30:23,000
+Therefore, our BR is just BB times T1.
+
+221
+00:30:23,000 --> 00:30:27,000
+So this order will be lower than the order of B.
+
+222
+00:30:27,000 --> 00:30:32,000
+Yeah, you have the freedom of choosing T1.
+
+223
+00:30:32,000 --> 00:30:39,000
+So, yeah, because some of the B has been canceled out.
+
+224
+00:30:39,000 --> 00:30:41,000
+So the order here is lower.
+
+225
+00:30:41,000 --> 00:30:49,000
+And also the new denominator should be equal to the closed loop transfer polynomial.
+
+226
+00:30:49,000 --> 00:30:52,000
+Closed loop characteristic polynomial.
+
+227
+00:30:52,000 --> 00:31:03,000
+So we have two equations to find our controller.
+
+228
+00:31:03,000 --> 00:31:14,000
+Yeah, this, yeah, now we are going to find T1, R1, and S1.
+
+229
+00:31:14,000 --> 00:31:19,000
+For R1 and S1, you can solve equation 5.24.
+
+230
+00:31:19,000 --> 00:31:27,000
+Yeah, this is called pole assignment equation.
+
+231
+00:31:27,000 --> 00:31:31,000
+For T1, you have many options to choose.
+
+232
+00:31:31,000 --> 00:31:41,000
+Yeah, if you consider disturbance, then you have to choose a suitable T1 to reject the disturbance.
+
+233
+00:31:41,000 --> 00:31:43,000
+Okay?
+
+234
+00:31:43,000 --> 00:31:50,000
+If you choose your T1 to be S1, yeah, T1 to be same as S1.
+
+235
+00:31:50,000 --> 00:32:00,000
+In that case, the two degree of freedom controller is reduced to the one degree of freedom controller.
+
+236
+00:32:00,000 --> 00:32:08,000
+Because if T1 equals S1, you will have this TC.
+
+237
+00:32:08,000 --> 00:32:14,000
+Yeah, this TC to be same as SC.
+
+238
+00:32:14,000 --> 00:32:24,000
+If TC same as SC, the controller will be like this.
+
+239
+00:32:24,000 --> 00:32:26,000
+Okay?
+
+240
+00:32:26,000 --> 00:32:32,000
+So if TC same as SC, then you can move GF and GB inside.
+
+241
+00:32:32,000 --> 00:32:43,000
+So that's one degree of freedom in this case.
+
+242
+00:32:43,000 --> 00:32:53,000
+So dependent requirement, you choose your T1.
+
+243
+00:32:53,000 --> 00:33:00,000
+Yeah, we can also choose a simple T1.
+
+244
+00:33:00,000 --> 00:33:03,000
+That is, we choose T1 as 1.
+
+245
+00:33:03,000 --> 00:33:09,000
+Yeah, in our solution here, we just choose T1 to be 1.
+
+246
+00:33:09,000 --> 00:33:14,000
+So with this choice, our gamma can be found as this.
+
+247
+00:33:14,000 --> 00:33:38,000
+Because in the equation earlier, we have this equation to determine our gamma.
+
+248
+00:33:38,000 --> 00:33:50,000
+Yeah, because in this case, this BR, you can see in our choice of...
+
+249
+00:33:50,000 --> 00:33:56,000
+Yeah, in this case, our BR equals B times T1.
+
+250
+00:33:56,000 --> 00:34:06,000
+So if T1 is 1, then our BR is just this BB.
+
+251
+00:34:06,000 --> 00:34:16,000
+So that's why, based on the equation here, we have this gamma found.
+
+252
+00:34:16,000 --> 00:34:19,000
+Okay? So that's how we get the gamma in this case.
+
+253
+00:34:19,000 --> 00:34:29,000
+Yeah, because in this case, BR is same as this, after you do cancellation.
+
+254
+00:34:29,000 --> 00:34:35,000
+Okay, so we have this close to transfer function in this case.
+
+255
+00:34:35,000 --> 00:34:46,000
+Yeah, if you look at the close to transfer function, BR will be just the BB, this.
+
+256
+00:34:46,000 --> 00:34:56,000
+And this is the gamma determined here, and this factor is same as this.
+
+257
+00:34:56,000 --> 00:35:00,000
+So that's the close to transfer function.
+
+258
+00:35:01,000 --> 00:35:13,000
+From these calculations, we can see that the bad zeros cannot be cancelled out by feedback.
+
+259
+00:35:13,000 --> 00:35:17,000
+In other words, you cannot change those bad zeros.
+
+260
+00:35:17,000 --> 00:35:30,000
+For example, those zeros outside the unit circle cannot be changed through our feedback design.
+
+261
+00:35:30,000 --> 00:35:37,000
+They remain in the close to transfer function.
+
+262
+00:35:37,000 --> 00:35:40,000
+Okay?
+
+263
+00:35:40,000 --> 00:35:44,000
+Okay, now let's consider an example.
+
+264
+00:35:45,000 --> 00:35:56,000
+Yeah, this is a magnetically suspended steel ball system here in this diagram.
+
+265
+00:35:56,000 --> 00:36:02,000
+So this is a ball. We are controlling the position of this ball.
+
+266
+00:36:02,000 --> 00:36:11,000
+Yeah, this ball should be maintained at a certain position in this space.
+
+267
+00:36:11,000 --> 00:36:14,000
+How do we do that?
+
+268
+00:36:14,000 --> 00:36:20,000
+We are going to control the current in this circuit.
+
+269
+00:36:20,000 --> 00:36:25,000
+Yeah, because for different currents, you will have different magnetic fields.
+
+270
+00:36:25,000 --> 00:36:31,000
+So the strength of the magnetic field is dependent on current I.
+
+271
+00:36:31,000 --> 00:36:41,000
+In fact, we are using the magnetic force to counteract the weight of the ball.
+
+272
+00:36:41,000 --> 00:36:48,000
+So that we want to maintain this ball at a given position.
+
+273
+00:36:48,000 --> 00:36:50,000
+Okay?
+
+274
+00:36:50,000 --> 00:36:57,000
+Yeah, this H is the output of the system.
+
+275
+00:36:57,000 --> 00:37:02,000
+Yeah, that is, the input is the current I.
+
+276
+00:37:02,000 --> 00:37:05,000
+And the output is the distance here.
+
+277
+00:37:05,000 --> 00:37:11,000
+Because that's an indication of the position of the ball in this space.
+
+278
+00:37:11,000 --> 00:37:13,000
+Okay.
+
+279
+00:37:13,000 --> 00:37:22,000
+Assume the ball is stationary at a given position, given distance Hs.
+
+280
+00:37:22,000 --> 00:37:26,000
+So, actually this system is a non-linear system.
+
+281
+00:37:26,000 --> 00:37:39,000
+So to apply our design approach, we linearize the system around this equilibrium point.
+
+282
+00:37:39,000 --> 00:37:46,000
+So Hs is the position we want the ball to maintain.
+
+283
+00:37:46,000 --> 00:37:53,000
+And Is is the required current to maintain this ball.
+
+284
+00:37:54,000 --> 00:38:03,000
+But if we have some disturbance, then this ball will move up or down.
+
+285
+00:38:03,000 --> 00:38:19,000
+So in this case, without the shooter ball controlling the current I, the ball may be moved out from the stationary position.
+
+286
+00:38:19,000 --> 00:38:24,000
+So in this case, we have to design a shooter ball controller.
+
+287
+00:38:24,000 --> 00:38:36,000
+That is, we have to find a controller for I to maintain this ball at the given position, even if there is a disturbance.
+
+288
+00:38:36,000 --> 00:38:51,000
+Yeah, for example, if this is moved down, then this current should be increased to pull this ball back to the stationary position.
+
+289
+00:38:51,000 --> 00:38:55,000
+That is to maintain at this position.
+
+290
+00:38:55,000 --> 00:39:00,000
+Okay, so to linearize the system, we get this transfer function.
+
+291
+00:39:00,000 --> 00:39:04,000
+Yeah, this is a continuous transfer function.
+
+292
+00:39:04,000 --> 00:39:13,000
+That's the number of transform of H divided by the number of transform of the current.
+
+293
+00:39:13,000 --> 00:39:17,000
+So that's the transfer function.
+
+294
+00:39:17,000 --> 00:39:23,000
+Yeah, how do we get this? We just apply certain physical laws to have this transfer function.
+
+295
+00:39:23,000 --> 00:39:26,000
+Yeah, that's not our topic today.
+
+296
+00:39:26,000 --> 00:39:29,000
+So this is the modeling part.
+
+297
+00:39:29,000 --> 00:39:33,000
+Yeah, how do we get the model of this is another issue.
+
+298
+00:39:33,000 --> 00:39:38,000
+So here, we just use this transfer function to represent the system.
+
+299
+00:39:38,000 --> 00:39:42,000
+So that means the output here is H.
+
+300
+00:39:42,000 --> 00:39:45,000
+So the number of transform will be HS.
+
+301
+00:39:45,000 --> 00:39:47,000
+The input will be I.
+
+302
+00:39:47,000 --> 00:39:49,000
+So the number of transform will be IS.
+
+303
+00:39:49,000 --> 00:39:53,000
+So HS divided by IS will be this.
+
+304
+00:39:53,000 --> 00:40:06,000
+Okay, if you find the pause for this transfer function, which is in S domain, then you found you have this repose.
+
+305
+00:40:06,000 --> 00:40:09,000
+Two of them on the left half plane.
+
+306
+00:40:09,000 --> 00:40:12,000
+But you have one at the right half plane.
+
+307
+00:40:12,000 --> 00:40:15,000
+So this system is unstable.
+
+308
+00:40:15,000 --> 00:40:26,000
+In other words, if you don't design a suitable controller, this ball cannot be maintained at the stationary position.
+
+309
+00:40:26,000 --> 00:40:31,000
+Okay, so we have to design a controller.
+
+310
+00:40:31,000 --> 00:40:38,000
+That is, we have to design a console for this I.
+
+311
+00:40:39,000 --> 00:40:48,000
+To do the design, we have to convert this to Z transfer function.
+
+312
+00:40:48,000 --> 00:40:54,000
+So in that case, if you have a digital controller, then you have a zero-order hold.
+
+313
+00:40:54,000 --> 00:41:06,000
+So together with the zero-order hold, GS will give you the pulse transfer function can be found to be this.
+
+314
+00:41:08,000 --> 00:41:12,000
+Basically, you can do it as an exercise.
+
+315
+00:41:12,000 --> 00:41:26,000
+So the corresponding pulse transfer function will be 1 minus Z inverse times the Z transform of this GS divided by S.
+
+316
+00:41:26,000 --> 00:41:31,000
+So after some calculation, you get this answer.
+
+317
+00:41:32,000 --> 00:41:45,000
+Okay, because we are going to figure out the bad poles or good poles and bad zeros and good zeros.
+
+318
+00:41:45,000 --> 00:41:49,000
+So we have to do factorization and the numerator and the denominator.
+
+319
+00:41:49,000 --> 00:41:53,000
+So we have this factorization.
+
+320
+00:41:53,000 --> 00:41:58,000
+And this can be compared with the standard form.
+
+321
+00:41:58,000 --> 00:42:03,000
+Yeah, we have a standard form for our transfer function.
+
+322
+00:42:21,000 --> 00:42:25,000
+Yeah, I think I missed that page.
+
+323
+00:42:25,000 --> 00:42:35,000
+Anyway, so compared to the standard form, which is this Z to the power minus K divided by A.
+
+324
+00:42:35,000 --> 00:42:38,000
+So this K is 1.
+
+325
+00:42:38,000 --> 00:42:44,000
+Yeah, after you do some manipulation.
+
+326
+00:42:44,000 --> 00:42:49,000
+And our B and A are given as this.
+
+327
+00:42:49,000 --> 00:42:55,000
+So A contains these three factors.
+
+328
+00:42:55,000 --> 00:42:59,000
+Two of them will give you stable poles.
+
+329
+00:42:59,000 --> 00:43:03,000
+So we call them as good factors.
+
+330
+00:43:03,000 --> 00:43:05,000
+Good part.
+
+331
+00:43:05,000 --> 00:43:11,000
+So this factor will give you pole at 0.7311.
+
+332
+00:43:11,000 --> 00:43:16,000
+This will give you 0.3679.
+
+333
+00:43:16,000 --> 00:43:26,000
+And you have a bad pole, a bad factor, which has a pole outside at 1.3679.
+
+334
+00:43:26,000 --> 00:43:29,000
+So this is AB, that's AG.
+
+335
+00:43:29,000 --> 00:43:31,000
+Similarly for B.
+
+336
+00:43:31,000 --> 00:43:37,000
+For this B, we have good part.
+
+337
+00:43:37,000 --> 00:43:40,000
+Good part means stable zero.
+
+338
+00:43:40,000 --> 00:43:46,000
+This factor together with the constant in front.
+
+339
+00:43:46,000 --> 00:43:48,000
+So that's BG.
+
+340
+00:43:48,000 --> 00:43:54,000
+Of course, the bad zero, which is unstable zero, that's this.
+
+341
+00:43:54,000 --> 00:44:02,000
+Okay, so we have these good ones and bad ones.
+
+342
+00:44:03,000 --> 00:44:09,000
+Okay, so that means we have done this part here.
+
+343
+00:44:09,000 --> 00:44:15,000
+Factorization of B into good part, bad part, A into good part, and bad part.
+
+344
+00:44:15,000 --> 00:44:22,000
+Now, that means we have found part of RC, SC, and TC.
+
+345
+00:44:22,000 --> 00:44:27,000
+Yeah, of course, this T1 is considered to be 1 in our case.
+
+346
+00:44:27,000 --> 00:44:36,000
+We also have AG as these two factors as part of TC and also part of SC.
+
+347
+00:44:36,000 --> 00:44:40,000
+So we are going to find R1 and S1.
+
+348
+00:44:40,000 --> 00:44:45,000
+Yeah, T1, as I said, is 1 already.
+
+349
+00:44:45,000 --> 00:44:59,000
+Okay, R1, T1 can be found from this equation here.
+
+350
+00:44:59,000 --> 00:45:00,000
+Okay?
+
+351
+00:45:00,000 --> 00:45:08,000
+Yeah, we had this equation derived earlier.
+
+352
+00:45:08,000 --> 00:45:15,000
+Okay, so in this case, we have to choose our phi c u.
+
+353
+00:45:15,000 --> 00:45:21,000
+Yeah, this is characteristic polynomial of the closed loop system.
+
+354
+00:45:21,000 --> 00:45:24,000
+So we have to choose this.
+
+355
+00:45:24,000 --> 00:45:27,000
+Yeah, in this case, we choose phi c u to be this.
+
+356
+00:45:27,000 --> 00:45:40,000
+Yeah, you can find out the two poles will be at...
+
+357
+00:45:40,000 --> 00:45:43,000
+Yeah, I think I did the calculation.
+
+358
+00:45:43,000 --> 00:45:49,000
+These are the two poles at this position.
+
+359
+00:45:49,000 --> 00:45:52,000
+Okay?
+
+360
+00:45:52,000 --> 00:46:02,000
+Okay, so these two poles are stable, so that will give you this characteristic polynomial.
+
+361
+00:46:02,000 --> 00:46:08,000
+Actually, these two poles are given, so based on this, you find the phi c u.
+
+362
+00:46:08,000 --> 00:46:14,000
+Once you get this phi c u, then you solve the equation.
+
+363
+00:46:14,000 --> 00:46:26,000
+Yeah, that is this equation to find R1 and S1.
+
+364
+00:46:26,000 --> 00:46:38,000
+Okay, this is the bad factor of AB, and this is the bad factor of B.
+
+365
+00:46:38,000 --> 00:46:44,000
+So both are unstable factors.
+
+366
+00:46:44,000 --> 00:46:50,000
+This is the first order, this is the first order, and this is the second order.
+
+367
+00:46:50,000 --> 00:46:56,000
+So we can solve the equation to get R1 and S1.
+
+368
+00:46:56,000 --> 00:46:59,000
+They have this solution.
+
+369
+00:46:59,000 --> 00:47:01,000
+S1 is just a constant.
+
+370
+00:47:01,000 --> 00:47:08,000
+R1 will be this first order polynomial.
+
+371
+00:47:08,000 --> 00:47:29,000
+Okay, so now using our definition of Rc, Sc, and Tc, you can get the results of the consumer.
+
+372
+00:47:29,000 --> 00:47:35,000
+So Rc will be the good part of B times R1, which is this.
+
+373
+00:47:35,000 --> 00:47:45,000
+After you multiply this R1 with the good zero, you get this second order polynomial.
+
+374
+00:47:45,000 --> 00:47:49,000
+Sc is Ag times S1.
+
+375
+00:47:50,000 --> 00:47:59,000
+So you have this, and Tc is just Ag, because Ty has been chosen as 1.
+
+376
+00:47:59,000 --> 00:48:01,000
+So this is Ag.
+
+377
+00:48:01,000 --> 00:48:06,000
+So we have obtained our controller.
+
+378
+00:48:06,000 --> 00:48:13,000
+Once you get the controller, then we can do a simulation study.
+
+379
+00:48:13,000 --> 00:48:30,000
+Let's just substitute our controller to the block diagram, and using Matlab, you can do a calculation.
+
+380
+00:48:30,000 --> 00:48:35,000
+So the simulation result will be this.
+
+381
+00:48:35,000 --> 00:48:42,000
+That's the current, which is the control signal.
+
+382
+00:48:42,000 --> 00:48:46,000
+And this is the H.
+
+383
+00:48:46,000 --> 00:48:50,000
+Yeah, that's the output.
+
+384
+00:48:50,000 --> 00:48:54,000
+So the equilibrium value is one centimeter.
+
+385
+00:48:54,000 --> 00:49:03,000
+So eventually, the ball is maintained at this position.
+
+386
+00:49:03,000 --> 00:49:14,000
+So our design makes the system stable, and also has good performance.
+
+387
+00:49:14,000 --> 00:49:18,000
+Okay, so this is about pole assignment design.
+
+388
+00:49:18,000 --> 00:49:35,000
+And now we have finished controller design for the system based on transfer functions.
+
+389
+00:49:35,000 --> 00:49:39,000
+So we have finished all the designs.
+
+390
+00:49:39,000 --> 00:49:46,000
+This part has a controller design based on the status-based model.
+
+391
+00:49:46,000 --> 00:49:52,000
+And my part has designs based on transfer functions.
+
+392
+00:49:52,000 --> 00:49:59,000
+Okay, after we design the controller, we are going to do implementation.
+
+393
+00:50:09,000 --> 00:50:21,000
+Okay, so this is my last chapter.
+
+394
+00:50:21,000 --> 00:50:39,000
+Yeah, as mentioned in the beginning of my lecture in part one, this is a simplified diagram of feedback control system.
+
+395
+00:50:39,000 --> 00:50:42,000
+Yeah, actually this is one degree of freedom.
+
+396
+00:50:42,000 --> 00:50:48,000
+So once you get this controller, you have to do implementation.
+
+397
+00:50:48,000 --> 00:50:50,000
+So how do we implement this?
+
+398
+00:50:50,000 --> 00:50:59,000
+Yeah, basically you have the Z-transfer function of this.
+
+399
+00:50:59,000 --> 00:51:04,000
+So we have software realization or implementation.
+
+400
+00:51:04,000 --> 00:51:09,000
+In this case, just write computer program.
+
+401
+00:51:09,000 --> 00:51:16,000
+Yeah, I think nowadays we don't use this hardware realization.
+
+402
+00:51:16,000 --> 00:51:27,000
+At an earlier time, even though we have a digital controller, we can also use hardware to do implementation.
+
+403
+00:51:27,000 --> 00:51:40,000
+So in this case, you have to construct the circuitry using digital adders, multipliers, delay elements, and so on.
+
+404
+00:51:40,000 --> 00:51:46,000
+Okay, so we just considered software implementation.
+
+405
+00:51:46,000 --> 00:51:54,000
+So this is the general form of controller.
+
+406
+00:51:54,000 --> 00:51:57,000
+So you have a numerator and denominator.
+
+407
+00:51:57,000 --> 00:52:08,000
+Yeah, for your controller to be implemented, the denominator should have a higher order than the numerator.
+
+408
+00:52:08,000 --> 00:52:19,000
+And those coefficients, b0 up to bn, a1 up to an, are all real coefficients.
+
+409
+00:52:19,000 --> 00:52:22,000
+Of course, some of them may be zero.
+
+410
+00:52:22,000 --> 00:52:32,000
+Okay, so for example, we have this typical PID controller.
+
+411
+00:52:32,000 --> 00:52:38,000
+Yeah, you have proportional gain, integral gain, derivative gain.
+
+412
+00:52:38,000 --> 00:52:56,000
+We can write this PID controller in the form given just now.
+
+413
+00:52:56,000 --> 00:52:59,000
+Yeah, that is in this form.
+
+414
+00:52:59,000 --> 00:53:04,000
+So you can do some simple calculations.
+
+415
+00:53:04,000 --> 00:53:11,000
+Yeah, basically you do addition of the three terms to find this rational function.
+
+416
+00:53:11,000 --> 00:53:20,000
+Then you rearrange your numerator in this order.
+
+417
+00:53:20,000 --> 00:53:22,000
+So that's the constant.
+
+418
+00:53:23,000 --> 00:53:31,000
+This is the z inverse term, z inverse squared term.
+
+419
+00:53:31,000 --> 00:53:39,000
+Okay, when you do implementation, you have to use this general form.
+
+420
+00:53:39,000 --> 00:53:54,000
+That is in term of z to problem, yeah, z negative powers cannot be positive powers for implementation.
+
+421
+00:53:54,000 --> 00:54:00,000
+Okay, so for this PID controller, you can see if you compare this with the standard form,
+
+422
+00:54:00,000 --> 00:54:15,000
+your a1 is just negative one, and a2 is zero, and the b0, b1, b2 are given here.
+
+423
+00:54:15,000 --> 00:54:24,000
+Then you can find out from the equation just now.
+
+424
+00:54:24,000 --> 00:54:30,000
+Yeah, this is the equation.
+
+425
+00:54:30,000 --> 00:54:33,000
+Yeah, this is the transfer function.
+
+426
+00:54:33,000 --> 00:54:38,000
+So you can write this as yz over xz.
+
+427
+00:54:38,000 --> 00:54:47,000
+So based on this, you can get this equation.
+
+428
+00:54:47,000 --> 00:54:53,000
+Yeah, basically you do cross product y times this equals x times this numerator.
+
+429
+00:54:53,000 --> 00:54:58,000
+Then you keep your yz and lift.
+
+430
+00:54:58,000 --> 00:55:03,000
+Then the remaining part of the yz are moved to the right side.
+
+431
+00:55:03,000 --> 00:55:08,000
+You have two terms moved to the right side.
+
+432
+00:55:08,000 --> 00:55:14,000
+And the xz times b will be equal to this.
+
+433
+00:55:14,000 --> 00:55:20,000
+Okay, so you can convert this to time domain.
+
+434
+00:55:20,000 --> 00:55:27,000
+That is you take an inverse z transform, you get this difference equation.
+
+435
+00:55:27,000 --> 00:55:35,000
+As you can see from this equation, the new output, that's the controller output,
+
+436
+00:55:35,000 --> 00:55:42,000
+depends on the previous output of the controller.
+
+437
+00:55:42,000 --> 00:55:47,000
+Yeah, that is yn minus one, yn minus two.
+
+438
+00:55:47,000 --> 00:55:50,000
+So these signals are available.
+
+439
+00:55:50,000 --> 00:55:55,000
+So you can use them in the program.
+
+440
+00:55:55,000 --> 00:56:00,000
+Yeah, that's the previous data of your output of the controller.
+
+441
+00:56:00,000 --> 00:56:09,000
+And it also depends on the input here, xn minus one, xn minus two.
+
+442
+00:56:09,000 --> 00:56:13,000
+And also the new input just arrived.
+
+443
+00:56:13,000 --> 00:56:17,000
+You can program this.
+
+444
+00:56:17,000 --> 00:56:25,000
+Okay, so to do the programming, we have the so-called direct programming.
+
+445
+00:56:25,000 --> 00:56:39,000
+Now, we consider this general form.
+
+446
+00:56:39,000 --> 00:56:47,000
+Yeah, so this equation can be rewritten in this form.
+
+447
+00:56:47,000 --> 00:56:51,000
+As I said, you just do cross product.
+
+448
+00:56:51,000 --> 00:56:57,000
+This denominator times y should be equal to the numerator times x.
+
+449
+00:56:57,000 --> 00:56:58,000
+That's this.
+
+450
+00:56:58,000 --> 00:57:04,000
+Then you move the, you just keep yz and the left.
+
+451
+00:57:04,000 --> 00:57:08,000
+Yeah, yz times that should be kept in the left.
+
+452
+00:57:08,000 --> 00:57:16,000
+But other terms of yz are moved to the right.
+
+453
+00:57:16,000 --> 00:57:29,000
+And for the input terms, you just multiply xz inside to the bracket, you get this.
+
+454
+00:57:29,000 --> 00:57:33,000
+You take an inverse z transform, you will have this.
+
+455
+00:57:33,000 --> 00:57:41,000
+yk equals negative a1, yk minus one, and so on.
+
+456
+00:57:41,000 --> 00:57:46,000
+And for the x terms, you have this.
+
+457
+00:57:46,000 --> 00:57:52,000
+So you can see this yk, that's the output of the controller.
+
+458
+00:57:52,000 --> 00:57:58,000
+Depends on the previous output of the control signals.
+
+459
+00:57:58,000 --> 00:58:02,000
+Yeah, the previous control signals.
+
+460
+00:58:02,000 --> 00:58:06,000
+And also the input to the controller.
+
+461
+00:58:06,000 --> 00:58:14,000
+This is the previous input and this current input to the control.
+
+462
+00:58:14,000 --> 00:58:19,000
+And you can draw a block diagram for your implementation.
+
+463
+00:58:19,000 --> 00:58:33,000
+That's this.
+
+464
+00:58:33,000 --> 00:58:41,000
+Okay, so as said for the controller, your input is x, output is y.
+
+465
+00:58:41,000 --> 00:58:45,000
+So you can see here we have two parts.
+
+466
+00:58:45,000 --> 00:58:47,000
+One part depends on y.
+
+467
+00:58:47,000 --> 00:58:55,000
+The other part depends on your input x.
+
+468
+00:58:55,000 --> 00:59:10,000
+So based on the results here, this part is b0 xz plus b1 z inverse xz and so on.
+
+469
+00:59:10,000 --> 00:59:14,000
+That's this part of the block diagram.
+
+470
+00:59:14,000 --> 00:59:19,000
+That's xz times b0.
+
+471
+00:59:19,000 --> 00:59:21,000
+That's the first term.
+
+472
+00:59:21,000 --> 00:59:24,000
+Then you have z inverse here.
+
+473
+00:59:24,000 --> 00:59:26,000
+Yeah, that's just the delay element.
+
+474
+00:59:26,000 --> 00:59:37,000
+So this delayed by one sample, you get this xk minus one.
+
+475
+00:59:37,000 --> 00:59:40,000
+Or this term.
+
+476
+00:59:40,000 --> 00:59:45,000
+So, oh sorry, this term.
+
+477
+00:59:45,000 --> 00:59:50,000
+So this times b1, you get this second term.
+
+478
+00:59:51,000 --> 00:59:58,000
+Then delayed by one more element, one more sample.
+
+479
+00:59:58,000 --> 01:00:02,000
+Yeah, now there will be xk minus two.
+
+480
+01:00:02,000 --> 01:00:06,000
+Then this times b2, you get this third term.
+
+481
+01:00:06,000 --> 01:00:09,000
+So all together you have m terms.
+
+482
+01:00:09,000 --> 01:00:10,000
+m delays.
+
+483
+01:00:10,000 --> 01:00:13,000
+Yeah, you have m delays.
+
+484
+01:00:14,000 --> 01:00:20,000
+Until m's delay, this value here should be xk minus m.
+
+485
+01:00:20,000 --> 01:00:22,000
+Then times bm, you get this term.
+
+486
+01:00:22,000 --> 01:00:29,000
+So all this added together, you get the second part.
+
+487
+01:00:29,000 --> 01:00:35,000
+Okay, now we assume this is output y.
+
+488
+01:00:35,000 --> 01:00:40,000
+Then how we find these terms?
+
+489
+01:00:40,000 --> 01:00:46,000
+If this is y, you have z inverse here.
+
+490
+01:00:46,000 --> 01:00:51,000
+Which means this will be yk minus one.
+
+491
+01:00:51,000 --> 01:00:56,000
+Then times negative a1.
+
+492
+01:00:56,000 --> 01:00:58,000
+That's the first term.
+
+493
+01:00:58,000 --> 01:01:04,000
+You delayed by one sample, because this is yk minus one.
+
+494
+01:01:04,000 --> 01:01:07,000
+Now there will be yk minus two.
+
+495
+01:01:07,000 --> 01:01:11,000
+So this times a2.
+
+496
+01:01:11,000 --> 01:01:13,000
+And in front you have a negative sign.
+
+497
+01:01:13,000 --> 01:01:17,000
+So minus a2 times this.
+
+498
+01:01:17,000 --> 01:01:19,000
+That will be the second term.
+
+499
+01:01:19,000 --> 01:01:20,000
+And so on.
+
+500
+01:01:20,000 --> 01:01:24,000
+You have all together, m delay elements.
+
+501
+01:01:24,000 --> 01:01:29,000
+So this is time an, and in front you have a negative.
+
+502
+01:01:29,000 --> 01:01:42,000
+So this part minus this part will give you y.
+
+503
+01:01:42,000 --> 01:01:48,000
+So you can see you have addition here, you have subtraction here.
+
+504
+01:01:48,000 --> 01:01:55,000
+So this all combined, you get this y.
+
+505
+01:01:55,000 --> 01:02:01,000
+Okay, so that's the block diagram showing the implementation.
+
+506
+01:02:01,000 --> 01:02:06,000
+And this is called direct programming implementation.
+
+507
+01:02:06,000 --> 01:02:13,000
+Okay, as you can see here, when you do this implementation,
+
+508
+01:02:13,000 --> 01:02:18,000
+you have this property.
+
+509
+01:02:18,000 --> 01:02:30,000
+Yeah, that is, we use separate sets of delay elements for the numerator and the denominator.
+
+510
+01:02:30,000 --> 01:02:34,000
+Yeah.
+
+511
+01:02:34,000 --> 01:02:40,000
+Yeah, this part is from the numerator.
+
+512
+01:02:40,000 --> 01:02:43,000
+This part is from the denominator.
+
+513
+01:02:43,000 --> 01:02:50,000
+So we have separate implementation of the delay elements.
+
+514
+01:02:50,000 --> 01:02:53,000
+For the numerator, we have m delay elements.
+
+515
+01:02:53,000 --> 01:02:58,000
+For the denominator, we have n delay elements.
+
+516
+01:02:58,000 --> 01:03:06,000
+So all together, we have m plus m delay elements.
+
+517
+01:03:06,000 --> 01:03:13,000
+So this is not cost effective.
+
+518
+01:03:13,000 --> 01:03:22,000
+So to reduce the cost, we can reduce the use of the delay elements.
+
+519
+01:03:22,000 --> 01:03:27,000
+So we have this question, can we reduce the number of delay elements?
+
+520
+01:03:27,000 --> 01:03:31,000
+If yes, yeah, I think the answer should be yes.
+
+521
+01:03:31,000 --> 01:03:43,000
+If we can do that, what is the minimum number of delay elements to be used for the implementation?
+
+522
+01:03:43,000 --> 01:03:53,000
+Okay, so now we have the second way of doing implementation.
+
+523
+01:03:53,000 --> 01:04:01,000
+Yeah, for this transfer function.
+
+524
+01:04:01,000 --> 01:04:10,000
+It's called standard programming, just a name for this second implementation.
+
+525
+01:04:10,000 --> 01:04:17,000
+In this case, we can reduce the delay elements from n plus m to n.
+
+526
+01:04:17,000 --> 01:04:20,000
+Yeah, the minimum number should be n.
+
+527
+01:04:20,000 --> 01:04:26,000
+So we just rearrange this equation, this transfer function.
+
+528
+01:04:26,000 --> 01:04:32,000
+What we do is to multiply an intermediate variable called h.
+
+529
+01:04:32,000 --> 01:04:38,000
+At the same time, we divide hz.
+
+530
+01:04:38,000 --> 01:04:49,000
+Okay, we also rewrite this rational transfer function into the product of these two functions.
+
+531
+01:04:49,000 --> 01:04:55,000
+In this way, we can define y divided by h as the numerator.
+
+532
+01:04:55,000 --> 01:05:01,000
+And the h divided by x as this part is one divided by that.
+
+533
+01:05:01,000 --> 01:05:05,000
+So we have an intermediate variable.
+
+534
+01:05:05,000 --> 01:05:16,000
+Okay, now for these two equations, we have the following implementations.
+
+535
+01:05:16,000 --> 01:05:28,000
+So from 6.3, you can write your yz as b0 hz plus b1 z inverse hz and so on.
+
+536
+01:05:28,000 --> 01:05:37,000
+Okay, so if you have this hz found, you can get your yz.
+
+537
+01:05:37,000 --> 01:05:43,000
+Yeah, basically, you have to get the output from your controller.
+
+538
+01:05:43,000 --> 01:05:45,000
+Your output is yz.
+
+539
+01:05:45,000 --> 01:05:48,000
+Now, how do we get hz?
+
+540
+01:05:48,000 --> 01:05:52,000
+Hz is from this 6.4.
+
+541
+01:05:52,000 --> 01:05:56,000
+So you multiply hz with the denominator.
+
+542
+01:05:56,000 --> 01:05:59,000
+That will be the same as one times xz.
+
+543
+01:05:59,000 --> 01:06:06,000
+So hz will be equal to xz minus this part.
+
+544
+01:06:06,000 --> 01:06:20,000
+Okay, with this, we can have this implementation.
+
+545
+01:06:20,000 --> 01:06:26,000
+Yeah, so that's our output y.
+
+546
+01:06:26,000 --> 01:06:36,000
+This part is obtained from the numerator.
+
+547
+01:06:36,000 --> 01:06:41,000
+And the h is obtained from the denominator.
+
+548
+01:06:41,000 --> 01:06:43,000
+So this is the input.
+
+549
+01:06:43,000 --> 01:06:45,000
+Yeah, that's xz.
+
+550
+01:06:45,000 --> 01:06:50,000
+Then xz minus all these terms will give you hz.
+
+551
+01:06:50,000 --> 01:06:52,000
+So assume this is hz.
+
+552
+01:06:52,000 --> 01:06:56,000
+Then this will be z inverse times hz.
+
+553
+01:06:56,000 --> 01:07:01,000
+Yeah, if it's in time domain, that's hk.
+
+554
+01:07:01,000 --> 01:07:06,000
+Then this is hk minus one.
+
+555
+01:07:06,000 --> 01:07:12,000
+So that's this term, z inverse times hz times negative a1.
+
+556
+01:07:12,000 --> 01:07:17,000
+It will be, yeah, that means you minus a1 times this.
+
+557
+01:07:17,000 --> 01:07:21,000
+Second term, you minus a2 z inverse hz.
+
+558
+01:07:21,000 --> 01:07:24,000
+So here is the z inverse hz.
+
+559
+01:07:24,000 --> 01:07:30,000
+You delay one more step, you get this.
+
+560
+01:07:30,000 --> 01:07:34,000
+So this will be z inverse squared.
+
+561
+01:07:34,000 --> 01:07:37,000
+Then times a2 times negative sign.
+
+562
+01:07:37,000 --> 01:07:39,000
+That's the second term.
+
+563
+01:07:39,000 --> 01:07:41,000
+So up to here, you have n delay elements.
+
+564
+01:07:41,000 --> 01:07:44,000
+Yeah, here you have n delay.
+
+565
+01:07:44,000 --> 01:07:48,000
+So this is how you obtain hz.
+
+566
+01:07:48,000 --> 01:07:54,000
+So hz is x minus those signals.
+
+567
+01:07:54,000 --> 01:08:02,000
+Once you get hz, you can use the 6.5 to get your yz.
+
+568
+01:08:02,000 --> 01:08:07,000
+So yz, as you can see, is b0 times hz.
+
+569
+01:08:07,000 --> 01:08:10,000
+That's this term, first term.
+
+570
+01:08:10,000 --> 01:08:14,000
+Plus b1 times z inverse hz.
+
+571
+01:08:14,000 --> 01:08:16,000
+So that's this.
+
+572
+01:08:16,000 --> 01:08:21,000
+Then plus b2 z inverse squared hz and so on.
+
+573
+01:08:21,000 --> 01:08:26,000
+So in this way, you just need n delay elements
+
+574
+01:08:26,000 --> 01:08:29,000
+for the implementation.
+
+575
+01:08:29,000 --> 01:08:36,000
+So you don't have to implement the numerator and the denominator
+
+576
+01:08:36,000 --> 01:08:39,000
+with separate delay elements.
+
+577
+01:08:39,000 --> 01:08:41,000
+In fact, we use
+
+578
+01:08:41,000 --> 01:08:52,000
+those elements for both numerator and also denominator.
+
+579
+01:08:52,000 --> 01:08:58,000
+Yeah, so that means we use n delay elements.
+
+580
+01:08:58,000 --> 01:09:02,000
+In the block diagram,
+
+581
+01:09:02,000 --> 01:09:09,000
+you can see that all the a coefficients
+
+582
+01:09:09,000 --> 01:09:16,000
+are in the feedback elements.
+
+583
+01:09:16,000 --> 01:09:25,000
+And those bs are feedback forward elements.
+
+584
+01:09:25,000 --> 01:09:33,000
+Yeah, this is preferred because we have less delay elements.
+
+585
+01:09:33,000 --> 01:09:42,000
+So you save your memory space and also cost.
+
+586
+01:09:42,000 --> 01:09:46,000
+Yeah, maybe we have a break for 20 minutes.
+
+587
+01:09:46,000 --> 01:09:50,000
+Then after that, we consider sources of error.
+
+588
+01:09:50,000 --> 01:09:54,000
+Yeah, when we do this implementation using computer,
+
+589
+01:09:54,000 --> 01:09:57,000
+we will have some errors involved.
+
+590
+01:09:57,000 --> 01:10:06,000
+How do we reduce the error is an issue to be discussed.
+
+591
+01:10:24,000 --> 01:10:28,000
+Yeah.
+
+592
+01:10:54,000 --> 01:10:58,000
+Yeah.
+
+593
+01:11:24,000 --> 01:11:28,000
+Yeah.
+
+594
+01:11:54,000 --> 01:11:58,000
+Yeah.
+
+595
+01:12:24,000 --> 01:12:28,000
+Yeah.
+
+596
+01:12:54,000 --> 01:12:58,000
+Yeah.
+
+597
+01:13:24,000 --> 01:13:28,000
+Yeah.
+
+598
+01:13:54,000 --> 01:13:58,000
+Yeah.
+
+599
+01:14:24,000 --> 01:14:28,000
+Yeah.
+
+600
+01:14:54,000 --> 01:14:58,000
+Yeah.
+
+601
+01:15:24,000 --> 01:15:28,000
+Yeah.
+
+602
+01:15:54,000 --> 01:15:58,000
+Yeah.
+
+603
+01:16:24,000 --> 01:16:28,000
+Yeah.
+
+604
+01:16:54,000 --> 01:16:58,000
+Yeah.
+
+605
+01:17:24,000 --> 01:17:28,000
+Yeah.
+
+606
+01:17:54,000 --> 01:17:58,000
+Yeah.
+
+607
+01:18:24,000 --> 01:18:28,000
+Yeah.
+
+608
+01:18:54,000 --> 01:18:58,000
+Yeah.
+
+609
+01:19:24,000 --> 01:19:28,000
+Yeah.
+
+610
+01:19:54,000 --> 01:19:58,000
+Yeah.
+
+611
+01:20:24,000 --> 01:20:28,000
+Yeah.
+
+612
+01:20:54,000 --> 01:20:58,000
+Yeah.
+
+613
+01:21:24,000 --> 01:21:28,000
+Yeah.
+
+614
+01:21:54,000 --> 01:21:58,000
+Yeah.
+
+615
+01:22:24,000 --> 01:22:28,000
+Yeah.
+
+616
+01:22:54,000 --> 01:22:58,000
+Yeah.
+
+617
+01:23:24,000 --> 01:23:28,000
+Yeah.
+
+618
+01:23:54,000 --> 01:23:58,000
+Yeah.
+
+619
+01:24:24,000 --> 01:24:28,000
+Yeah.
+
+620
+01:24:54,000 --> 01:24:58,000
+Yeah.
+
+621
+01:25:24,000 --> 01:25:28,000
+Yeah.
+
+622
+01:25:54,000 --> 01:25:58,000
+Yeah.
+
+623
+01:26:24,000 --> 01:26:28,000
+Yeah.
+
+624
+01:26:54,000 --> 01:26:58,000
+Yeah.
+
+625
+01:27:24,000 --> 01:27:28,000
+Yeah.
+
+626
+01:27:54,000 --> 01:27:58,000
+Yeah.
+
+627
+01:28:24,000 --> 01:28:28,000
+Yeah.
+
+628
+01:28:54,000 --> 01:28:58,000
+Yeah.
+
+629
+01:29:24,000 --> 01:29:28,000
+Yeah.
+
+630
+01:29:54,000 --> 01:29:58,000
+Yeah.
+
+631
+01:30:24,000 --> 01:30:28,000
+Yeah.
+
+632
+01:30:54,000 --> 01:30:58,000
+Yeah.
+
+633
+01:31:24,000 --> 01:31:28,000
+Yeah.
+
+634
+01:31:54,000 --> 01:31:58,000
+Yeah.
+
+635
+01:32:24,000 --> 01:32:28,000
+Yeah.
+
+636
+01:32:54,000 --> 01:32:56,000
+Yeah.
+
+637
+01:32:56,000 --> 01:32:59,000
+Yeah.
+
+638
+01:33:27,000 --> 01:33:34,000
+Okay, let's consider the sources of error in implementation.
+
+639
+01:33:34,000 --> 01:33:50,000
+Yeah, we have quantization error because the digital processor has a finite number of discrete levels.
+
+640
+01:33:50,000 --> 01:34:06,000
+So, when you do the implementation, for example, XZ and YZ, yeah, when you implement this, you have some quantization.
+
+641
+01:34:06,000 --> 01:34:10,000
+Yeah, you have to quantize the signal here.
+
+642
+01:34:10,000 --> 01:34:16,000
+So, this quantization will give you error.
+
+643
+01:34:16,000 --> 01:34:29,000
+Also, when you do the calculation, for example, addition, subtraction, yeah, addition here, you have round-off errors.
+
+644
+01:34:29,000 --> 01:34:32,000
+Yes, like truncation.
+
+645
+01:34:32,000 --> 01:34:42,000
+Yeah, even when you do the examination using your calculator, you have some round-off errors involved.
+
+646
+01:34:42,000 --> 01:34:48,000
+So, you have a number of calculations or operations.
+
+647
+01:34:48,000 --> 01:35:00,000
+So, those accumulation of errors will have impact on the overall system.
+
+648
+01:35:00,000 --> 01:35:06,000
+Third case is the quantization errors of the controller coefficients.
+
+649
+01:35:06,000 --> 01:35:14,000
+Yeah, for example, we have this controller coefficients, B0, B1, B2, BM, A1, A2, AM.
+
+650
+01:35:14,000 --> 01:35:25,000
+Yeah, when you implement them, you also have quantization error because of the finite world length of the digital processor.
+
+651
+01:35:25,000 --> 01:35:34,000
+So, those are the sources of errors in the digital implementation of the controller.
+
+652
+01:35:34,000 --> 01:35:43,000
+Okay, for cases one and two, we don't do analysis.
+
+653
+01:35:43,000 --> 01:35:55,000
+So, today, I will just analyze the effect of quantization error of the controller coefficients, such as B0, B1, BM.
+
+654
+01:35:56,000 --> 01:36:13,000
+Yeah, based on this analysis, we will make some suggestions on how to reduce the effects of such quantization errors.
+
+655
+01:36:13,000 --> 01:36:24,000
+So, now, let's do analysis, which is the sensitivity to quantization of controller coefficients.
+
+656
+01:36:24,000 --> 01:36:34,000
+Yeah, I already mentioned this because the digital processor has a finite world length.
+
+657
+01:36:34,000 --> 01:36:47,000
+So, you have those quantization errors involved.
+
+658
+01:36:47,000 --> 01:36:56,000
+Yeah, when we design the controller, we will consider the required close-loop pause.
+
+659
+01:36:56,000 --> 01:36:59,000
+For example, pause assignment, you are given some pause.
+
+660
+01:36:59,000 --> 01:37:05,000
+Then, based on this pause, you get the close-loop characteristic polynomial.
+
+661
+01:37:05,000 --> 01:37:10,000
+Based on this polynomial, you design your controller.
+
+662
+01:37:10,000 --> 01:37:15,000
+However, after you design your controller, you have to do implementation.
+
+663
+01:37:15,000 --> 01:37:19,000
+So, the implementation has such errors.
+
+664
+01:37:19,000 --> 01:37:25,000
+Yeah, I mean those quantization errors for the coefficients.
+
+665
+01:37:25,000 --> 01:37:37,000
+So, those errors were caused by the errors in the pull and the zero of the closed-loop system.
+
+666
+01:37:37,000 --> 01:37:48,000
+In other words, the actual implemented control system may have different pause from the desired pause.
+
+667
+01:37:48,000 --> 01:37:53,000
+Yeah, you have a desired pause to find the controller.
+
+668
+01:37:53,000 --> 01:38:11,000
+But after you do the implementation, because of such errors, the implemented closed-loop pause may be different from the given pause.
+
+669
+01:38:11,000 --> 01:38:16,000
+So, we have to do such analysis.
+
+670
+01:38:16,000 --> 01:38:25,000
+Because of the difference, it may give you different response of the closed-loop system.
+
+671
+01:38:25,000 --> 01:38:29,000
+Okay, so now let's do analysis.
+
+672
+01:38:29,000 --> 01:38:36,000
+Yeah, for example, we have this controller, which is this Z transfer function.
+
+673
+01:38:36,000 --> 01:38:42,000
+Yeah, this is the general form.
+
+674
+01:38:42,000 --> 01:38:52,000
+Okay, so we are going to consider the errors in the coefficients B0 up to Bn, A1 up to An.
+
+675
+01:38:52,000 --> 01:38:59,000
+Okay, before we consider the error, we consider the exact zeros, exact pause.
+
+676
+01:38:59,000 --> 01:39:08,000
+So, to this end, we factorize the numerator to this factor form.
+
+677
+01:39:08,000 --> 01:39:13,000
+Also, the denominator is factorized into this factor form.
+
+678
+01:39:13,000 --> 01:39:16,000
+So, we have this pause, P1 up to Pn.
+
+679
+01:39:16,000 --> 01:39:21,000
+So, that's the actual pull given.
+
+680
+01:39:21,000 --> 01:39:28,000
+Okay, so when we design this controller, maybe this is the actual pull given.
+
+681
+01:39:28,000 --> 01:39:49,000
+And now, when you do the implementation, the values of the coefficients are implemented as B0 bar, B1 bar, Bn bar, A1 bar, An bar, and so on.
+
+682
+01:39:49,000 --> 01:39:55,000
+So, this is the actual implemented transfer function with the digital processor.
+
+683
+01:39:55,000 --> 01:40:00,000
+Again, we do factorization for the numerator and the denominator.
+
+684
+01:40:00,000 --> 01:40:06,000
+We have the implemented zeros, Z1 bar up to Zn bar.
+
+685
+01:40:06,000 --> 01:40:15,000
+Z implemented the pause, P1 bar up to Pn bar.
+
+686
+01:40:15,000 --> 01:40:20,000
+Yeah, that is, we have errors in the implementation.
+
+687
+01:40:20,000 --> 01:40:27,000
+Yeah, we denote the error as theta Aj for the A coefficients.
+
+688
+01:40:27,000 --> 01:40:32,000
+Theta Bj for the numerator coefficients.
+
+689
+01:40:32,000 --> 01:40:36,000
+Yeah, this is the implemented values on the left.
+
+690
+01:40:36,000 --> 01:40:45,000
+These are the actual values and these are the errors.
+
+691
+01:40:46,000 --> 01:40:57,000
+Okay, let's see how this theta Aj affects the errors in the pull, or the changes in the pull.
+
+692
+01:40:57,000 --> 01:41:04,000
+How the errors in Bj affect the zeros.
+
+693
+01:41:04,000 --> 01:41:08,000
+Yeah, the change in the zeros.
+
+694
+01:41:08,000 --> 01:41:18,000
+Okay, so now the denominator, yeah, we consider the pause first.
+
+695
+01:41:18,000 --> 01:41:27,000
+So, this is the denominator which can be written in polynomial form or vector form.
+
+696
+01:41:27,000 --> 01:41:31,000
+Yeah, these are the two forms.
+
+697
+01:41:31,000 --> 01:41:40,000
+Now, we assume Pi, yeah, this Pi is the i-th pole of HZ.
+
+698
+01:41:40,000 --> 01:41:46,000
+Similarly, this is the implemented denominator.
+
+699
+01:41:46,000 --> 01:41:53,000
+So, this Pi bar is the implemented pole of the consumer.
+
+700
+01:41:53,000 --> 01:41:58,000
+So, we have this error in the pole.
+
+701
+01:41:58,000 --> 01:42:01,000
+Yeah, that's the implemented pole.
+
+702
+01:42:01,000 --> 01:42:08,000
+That's the actual pole before implementation and this is the error.
+
+703
+01:42:08,000 --> 01:42:18,000
+So, we are now considering how theta Pi is affected by the errors in Aj.
+
+704
+01:42:18,000 --> 01:42:23,000
+Yeah, this is the consideration.
+
+705
+01:42:23,000 --> 01:42:47,000
+Yeah, based on mathematical analysis, the magnitude of the change of the pole Pi is approximately equal to this.
+
+706
+01:42:47,000 --> 01:42:54,000
+Yeah, it's the first order derivative times the change in the coefficients.
+
+707
+01:42:54,000 --> 01:42:57,000
+Yeah, first order derivative of the z.
+
+708
+01:42:57,000 --> 01:43:01,000
+Yeah, because our polynomial is z.
+
+709
+01:43:01,000 --> 01:43:02,000
+Yeah, the pole is from z.
+
+710
+01:43:02,000 --> 01:43:05,000
+So, z with respect to Aj.
+
+711
+01:43:05,000 --> 01:43:09,000
+Yeah, that's the first order derivative times theta Aj.
+
+712
+01:43:09,000 --> 01:43:16,000
+So, that's the sensitivity analysis, dependent derivative at the pole location.
+
+713
+01:43:16,000 --> 01:43:22,000
+So, if you have n coefficients, then you add them together.
+
+714
+01:43:22,000 --> 01:43:26,000
+You get this.
+
+715
+01:43:26,000 --> 01:43:31,000
+The issue is how we compute this.
+
+716
+01:43:31,000 --> 01:43:38,000
+The partial derivative of z with respect to Aj.
+
+717
+01:43:38,000 --> 01:43:42,000
+Yeah, we have this chain rule.
+
+718
+01:43:42,000 --> 01:43:45,000
+Yeah, this is the polynomial dz.
+
+719
+01:43:45,000 --> 01:43:55,000
+If you take the partial derivative of dz with respect to coefficient Aj and calculate this derivative at Pi,
+
+720
+01:43:55,000 --> 01:44:06,000
+it can be found as it is the product of partial derivative of dz with respect to z,
+
+721
+01:44:06,000 --> 01:44:11,000
+then times partial derivative of z with respect to Aj.
+
+722
+01:44:11,000 --> 01:44:17,000
+This is just chain rule, the application of chain rule to get this derivative.
+
+723
+01:44:17,000 --> 01:44:22,000
+Yeah, because this d is given, so you can compute this.
+
+724
+01:44:22,000 --> 01:44:27,000
+You can compute this one and also this one.
+
+725
+01:44:27,000 --> 01:44:31,000
+So, from this equation, you can obtain this value.
+
+726
+01:44:32,000 --> 01:44:34,000
+Yeah.
+
+727
+01:44:34,000 --> 01:44:47,000
+That is, after some calculation, this term, this partial derivative will be equal to this.
+
+728
+01:44:47,000 --> 01:44:51,000
+Yeah, this derivative Aj is just copied here.
+
+729
+01:44:51,000 --> 01:44:53,000
+How do we get this?
+
+730
+01:44:53,000 --> 01:44:56,000
+Yeah, I show you the calculation.
+
+731
+01:45:09,000 --> 01:45:16,000
+Okay, so this is the calculation.
+
+732
+01:45:16,000 --> 01:45:19,000
+Yeah, this is the denominator.
+
+733
+01:45:19,000 --> 01:45:23,000
+Yeah, this one is the actual one.
+
+734
+01:45:23,000 --> 01:45:25,000
+Yeah, that is dz.
+
+735
+01:45:25,000 --> 01:45:29,000
+Yeah, we'll consider dz here.
+
+736
+01:45:29,000 --> 01:45:32,000
+So, dz can be written in polynomial form.
+
+737
+01:45:32,000 --> 01:45:42,000
+That is 1 plus A1 z inverse plus until Aj z to the power of little j plus until An z to the power of little n.
+
+738
+01:45:42,000 --> 01:45:49,000
+In polynomial form, you can also write this in factor form.
+
+739
+01:45:49,000 --> 01:45:55,000
+Yeah, this is in factor form, 1 plus the product of 1 minus Pi z inverse.
+
+740
+01:45:55,000 --> 01:45:58,000
+Yeah, this is in terms of z inverse.
+
+741
+01:45:58,000 --> 01:46:02,000
+You can factorize z inverse out for each factor.
+
+742
+01:46:02,000 --> 01:46:07,000
+Then you multiply this z inverse together, you get z to the power of little n.
+
+743
+01:46:07,000 --> 01:46:13,000
+Then inside this factor is just z minus P1 up to z minus Pn.
+
+744
+01:46:13,000 --> 01:46:17,000
+And we define this product as d1z.
+
+745
+01:46:17,000 --> 01:46:19,000
+Okay?
+
+746
+01:46:19,000 --> 01:46:28,000
+Okay, so now our partial derivative of dz with respect to Aj.
+
+747
+01:46:28,000 --> 01:46:36,000
+Yeah, based on this first part, the partial derivative of this d with respect to Aj is just this term.
+
+748
+01:46:36,000 --> 01:46:40,000
+z to the power of little j here.
+
+749
+01:46:40,000 --> 01:46:41,000
+Okay?
+
+750
+01:46:41,000 --> 01:46:46,000
+So, you calculate this at z equals Pi, then you get this.
+
+751
+01:46:46,000 --> 01:46:52,000
+Yeah, because z equals Pi, then it's Pi to the power of little j.
+
+752
+01:46:52,000 --> 01:46:59,000
+Yeah, we get this bigger.
+
+753
+01:46:59,000 --> 01:47:00,000
+Okay?
+
+754
+01:47:00,000 --> 01:47:01,000
+You get this.
+
+755
+01:47:01,000 --> 01:47:04,000
+So that's the left side.
+
+756
+01:47:04,000 --> 01:47:07,000
+Here.
+
+757
+01:47:07,000 --> 01:47:11,000
+Okay, now how about this term?
+
+758
+01:47:11,000 --> 01:47:20,000
+Yeah, this term is the partial derivative of d with respect to z calculated at z equals Pi.
+
+759
+01:47:20,000 --> 01:47:32,000
+So this time, we will consider this polynomial taking partial derivative with respect to z.
+
+760
+01:47:32,000 --> 01:47:38,000
+So you have this result.
+
+761
+01:47:38,000 --> 01:47:42,000
+Yeah, this is zn times d1z.
+
+762
+01:47:42,000 --> 01:47:49,000
+So you use product rule, z to the power of little n.
+
+763
+01:47:49,000 --> 01:47:55,000
+Yeah, because this is negative one, you factorize how this is z to the power of negative n.
+
+764
+01:47:55,000 --> 01:47:57,000
+So you have negative in front.
+
+765
+01:47:57,000 --> 01:48:04,000
+So this derivative is equal to negative n times z to the power of negative n minus one.
+
+766
+01:48:04,000 --> 01:48:06,000
+That's the derivative of this.
+
+767
+01:48:06,000 --> 01:48:28,000
+So you multiply d1z, then calculate it at the Pi, and then plus z to the power of little n times the partial derivative of d1 with respect to z calculated at Pi.
+
+768
+01:48:28,000 --> 01:48:38,000
+Okay, when you do this calculation, you will get this answer here.
+
+769
+01:48:38,000 --> 01:48:40,000
+How do we get this answer?
+
+770
+01:48:40,000 --> 01:48:44,000
+Yeah, let's look at the substitution.
+
+771
+01:48:44,000 --> 01:48:48,000
+So when z, in fact, this term is zero.
+
+772
+01:48:48,000 --> 01:48:54,000
+Yeah, because when z equals Pi, yeah, you have Pi here.
+
+773
+01:48:54,000 --> 01:48:59,000
+So if you substitute here, that's zero. Zero times this is still zero.
+
+774
+01:48:59,000 --> 01:49:06,000
+So this term will go to zero.
+
+775
+01:49:06,000 --> 01:49:14,000
+So you just have this secant term left in the calculation.
+
+776
+01:49:14,000 --> 01:49:17,000
+Okay, how do we calculate the secant term?
+
+777
+01:49:17,000 --> 01:49:20,000
+You also use a product rule.
+
+778
+01:49:20,000 --> 01:49:24,000
+Yeah, basically, you have n factors.
+
+779
+01:49:24,000 --> 01:49:31,000
+So the derivative of d1z.
+
+780
+01:49:31,000 --> 01:49:34,000
+Yeah, you have n factors here.
+
+781
+01:49:34,000 --> 01:49:38,000
+You take a derivative with respect to z.
+
+782
+01:49:38,000 --> 01:49:44,000
+So for the first term, this derivative is one, then you have this left.
+
+783
+01:49:45,000 --> 01:49:52,000
+Yeah, you have this result. z minus p2 times z minus Pi up to z minus pn.
+
+784
+01:49:52,000 --> 01:49:54,000
+So you have this.
+
+785
+01:49:54,000 --> 01:50:04,000
+Then for the secant factor up to the i-th factor, yeah, this z minus Pi.
+
+786
+01:50:04,000 --> 01:50:18,000
+For this factor, after you take a derivative, you just have z minus p1 times z minus Pi minus one times z minus Pi plus one and so on.
+
+787
+01:50:18,000 --> 01:50:27,000
+In other words, when you take the derivative with respect to the factor you are considering, that factor will disappear.
+
+788
+01:50:27,000 --> 01:50:31,000
+So for the first term, this disappears.
+
+789
+01:50:31,000 --> 01:50:35,000
+For the secant term, secant factors disappear.
+
+790
+01:50:35,000 --> 01:50:40,000
+For the i-th term, this factor disappears.
+
+791
+01:50:40,000 --> 01:50:47,000
+And then for the n-th term, the n-th factor disappears.
+
+792
+01:50:47,000 --> 01:50:54,000
+Then you take the, you calculate these terms at z equals Pi.
+
+793
+01:50:54,000 --> 01:50:57,000
+You can see all this will be zero.
+
+794
+01:50:57,000 --> 01:51:00,000
+Yeah, because this z minus Pi will be zero.
+
+795
+01:51:00,000 --> 01:51:03,000
+This z minus Pi will be zero.
+
+796
+01:51:03,000 --> 01:51:07,000
+Only this term will be non-zero, correct?
+
+797
+01:51:09,000 --> 01:51:12,000
+Yeah, only this term will be non-zero.
+
+798
+01:51:12,000 --> 01:51:17,000
+Because you don't have z minus Pi in this term.
+
+799
+01:51:17,000 --> 01:51:22,000
+Then you just change this z to Pi, you get this, correct?
+
+800
+01:51:23,000 --> 01:51:35,000
+So that is, for example, is Pi minus p1 times Pi minus p2, then Pi minus Pi minus one, Pi minus Pi plus one, up to Pi minus pn.
+
+801
+01:51:35,000 --> 01:51:39,000
+So you have this compact notation.
+
+802
+01:51:39,000 --> 01:51:43,000
+That is the product of Pi minus pk.
+
+803
+01:51:43,000 --> 01:51:50,000
+4k from one to n, except k is not equal to i here.
+
+804
+01:51:50,000 --> 01:51:53,000
+So you have this result here.
+
+805
+01:51:53,000 --> 01:51:55,000
+Okay?
+
+806
+01:51:55,000 --> 01:51:57,000
+Yeah.
+
+807
+01:51:59,000 --> 01:52:01,000
+This Pi is from this.
+
+808
+01:52:01,000 --> 01:52:03,000
+Yeah, because z equals Pi.
+
+809
+01:52:03,000 --> 01:52:13,000
+So this Pi is, z to the power of negative n will be changed to Pi to negative power of n.
+
+810
+01:52:13,000 --> 01:52:16,000
+So this is equal to that.
+
+811
+01:52:16,000 --> 01:52:31,000
+So our partial derivative of dz with respect to z calculated at this value will be equal to this.
+
+812
+01:52:31,000 --> 01:52:37,000
+Then this one will be equal to this one, this term, divided by this.
+
+813
+01:52:37,000 --> 01:52:43,000
+And this is just Pi to the power of negative j.
+
+814
+01:52:43,000 --> 01:52:48,000
+So this divided by this, you get this answer.
+
+815
+01:52:48,000 --> 01:52:58,000
+Yeah, because in this case, Pi to the power of negative n will be changed to Pi to the power of n in the numerator.
+
+816
+01:52:58,000 --> 01:53:01,000
+This is actually in the denominator.
+
+817
+01:53:01,000 --> 01:53:06,000
+So that is moved to the numerator, so it's Pi to the power of n.
+
+818
+01:53:06,000 --> 01:53:12,000
+Then multiply with that, so it's Pi to the power of n minus j.
+
+819
+01:53:12,000 --> 01:53:16,000
+That's the denominator, which is from here.
+
+820
+01:53:16,000 --> 01:53:20,000
+Okay, so we have this sensitivity.
+
+821
+01:53:21,000 --> 01:53:41,000
+That is how this theta aj affects the arrow in the ice pole can be analyzed by this expression.
+
+822
+01:53:41,000 --> 01:53:46,000
+Similarly, for the zero, you get this result.
+
+823
+01:53:46,000 --> 01:53:56,000
+Okay, now let's do some discussion about this arrow.
+
+824
+01:54:08,000 --> 01:54:11,000
+Yeah, this is the result.
+
+825
+01:54:11,000 --> 01:54:13,000
+That's for zero, that's for pole.
+
+826
+01:54:13,000 --> 01:54:22,000
+So let's discuss the effect of theta j and theta Pi.
+
+827
+01:54:28,000 --> 01:54:35,000
+You can see this denominator is Pi minus Pk.
+
+828
+01:54:36,000 --> 01:54:44,000
+If Pi is very close to Pk, then this is small.
+
+829
+01:54:44,000 --> 01:54:49,000
+Yeah, that means the denominator is small.
+
+830
+01:54:49,000 --> 01:54:52,000
+So overall, the effect will be big.
+
+831
+01:54:52,000 --> 01:54:56,000
+That is, you have large sensitivity.
+
+832
+01:54:57,000 --> 01:55:05,000
+Yeah, that is, this variation will be amplified by this large value.
+
+833
+01:55:05,000 --> 01:55:09,000
+So if the poles were zero, yeah, we just consider pole.
+
+834
+01:55:09,000 --> 01:55:16,000
+If the poles of the consumer are tightly clustered together in the z-plane,
+
+835
+01:55:16,000 --> 01:55:25,000
+they will contribute large errors of the pole realized for the same error here.
+
+836
+01:55:26,000 --> 01:55:33,000
+Yeah, because this is negative gain of this error.
+
+837
+01:55:33,000 --> 01:55:40,000
+Yeah, this error multiplied with this, you get this error in the pole.
+
+838
+01:55:40,000 --> 01:55:45,000
+So we want to reduce the denominator.
+
+839
+01:55:45,000 --> 01:55:48,000
+How do we reduce?
+
+840
+01:55:48,000 --> 01:55:53,000
+If you have just one, yeah, if this transfer function,
+
+841
+01:55:53,000 --> 01:55:59,000
+if your transfer function is first order, then you just have one pole.
+
+842
+01:55:59,000 --> 01:56:03,000
+Then you don't have the denominator in that case.
+
+843
+01:56:03,000 --> 01:56:11,000
+Yeah, in some case, you may not have first order in your transfer function.
+
+844
+01:56:11,000 --> 01:56:14,000
+Then you can consider second order.
+
+845
+01:56:14,000 --> 01:56:19,000
+Second order, if your transfer function is second order,
+
+846
+01:56:19,000 --> 01:56:23,000
+then the denominator just have one term.
+
+847
+01:56:23,000 --> 01:56:26,000
+That is, you don't have the product.
+
+848
+01:56:26,000 --> 01:56:31,000
+In this case, you can also reduce the error.
+
+849
+01:56:31,000 --> 01:56:38,000
+Okay, so the effect can be reduced by realizing a high order filter
+
+850
+01:56:38,000 --> 01:56:42,000
+with an interconnected second order or first order.
+
+851
+01:56:42,000 --> 01:56:51,000
+Yeah, maybe also include a first order as discussed below.
+
+852
+01:56:51,000 --> 01:56:56,000
+So if you have a high order transfer function, when you do implementation,
+
+853
+01:56:56,000 --> 01:57:05,000
+you can make it as interconnected of second order or first order transfer functions.
+
+854
+01:57:05,000 --> 01:57:18,000
+Yeah, first order is also good.
+
+855
+01:57:18,000 --> 01:57:21,000
+Yeah, second order or first order.
+
+856
+01:57:21,000 --> 01:57:23,000
+Both are acceptable.
+
+857
+01:57:24,000 --> 01:57:33,000
+Yeah, because in this case, you will have less denominators.
+
+858
+01:57:42,000 --> 01:57:48,000
+Okay, so now let's see how we do the implementation.
+
+859
+01:57:48,000 --> 01:57:58,000
+So we can reduce quantization errors by decomposing a high order pulse transfer function
+
+860
+01:57:58,000 --> 01:58:03,000
+into a combination of low order pulse transfer function.
+
+861
+01:58:03,000 --> 01:58:07,000
+Yeah, that is first order or second order.
+
+862
+01:58:07,000 --> 01:58:17,000
+In this case, your system can be made less sensitive to the coefficient error.
+
+863
+01:58:18,000 --> 01:58:25,000
+So we also have two approaches, series programming or parallel programming.
+
+864
+01:58:27,000 --> 01:58:31,000
+Okay, first is consider series programming.
+
+865
+01:58:34,000 --> 01:58:40,000
+So in this case, the transfer function of the controller is given.
+
+866
+01:58:40,000 --> 01:58:42,000
+Yeah, you have obtained this.
+
+867
+01:58:42,000 --> 01:58:54,000
+We just write your transfer function as a product of low order transfer functions, G1, G2, Gp.
+
+868
+01:58:54,000 --> 01:59:09,000
+So in this case, the implementation of GZ can be considered as a series connection of G1, G2, up to Gp.
+
+869
+01:59:09,000 --> 01:59:12,000
+Okay, so this is called a series programming.
+
+870
+01:59:12,000 --> 01:59:15,000
+Yeah, that's the input, that's the output.
+
+871
+01:59:15,000 --> 01:59:25,000
+So if you have a high order, then you can write your high order transfer function as a product of low order transfer functions.
+
+872
+01:59:26,000 --> 01:59:28,000
+So this is the general idea.
+
+873
+01:59:28,000 --> 01:59:32,000
+Now let's see how we obtain RGI.
+
+874
+01:59:32,000 --> 01:59:43,000
+Yeah, this GI is not fixed.
+
+875
+01:59:43,000 --> 01:59:54,000
+You can have many ways to obtain this GI, as long as this GI first or second order.
+
+876
+01:59:54,000 --> 02:00:06,000
+So in this case, GI may have real poles, real zeros, complex poles, and complex zeros.
+
+877
+02:00:06,000 --> 02:00:11,000
+Yeah, real pole or real zero, you can have first order.
+
+878
+02:00:11,000 --> 02:00:16,000
+If you have complex pole, then you have second order.
+
+879
+02:00:17,000 --> 02:00:26,000
+Okay, so you can group real pole, real zero to produce either first order or second order transfer function.
+
+880
+02:00:26,000 --> 02:00:37,000
+Or group a pair of conjugate complex poles and a pair of conjugate complex zeros to produce a second order transfer function.
+
+881
+02:00:37,000 --> 02:00:41,000
+That means the numerator is second order, denominator is second order.
+
+882
+02:00:42,000 --> 02:00:46,000
+Yeah, in this case, if you have complex poles.
+
+883
+02:00:50,000 --> 02:00:53,000
+This is also another way, other options.
+
+884
+02:00:53,000 --> 02:01:00,000
+Group two real zeros with a pair of conjugate complex poles and so on.
+
+885
+02:01:00,000 --> 02:01:08,000
+So this G1, G2, Gp can be found from many different ways.
+
+886
+02:01:08,000 --> 02:01:13,000
+As long as they are first order or second order.
+
+887
+02:01:13,000 --> 02:01:14,000
+It's okay.
+
+888
+02:01:14,000 --> 02:01:18,000
+And also they should be causal.
+
+889
+02:01:20,000 --> 02:01:23,000
+And the coefficient should be real.
+
+890
+02:01:23,000 --> 02:01:29,000
+So that's why for complex poles or zeros, you must have second order.
+
+891
+02:01:30,000 --> 02:01:31,000
+Okay.
+
+892
+02:01:34,000 --> 02:01:36,000
+So this is a summary.
+
+893
+02:01:36,000 --> 02:01:41,000
+GZ can be decomposed into this form.
+
+894
+02:01:41,000 --> 02:01:46,000
+Like this first order or second order.
+
+895
+02:01:46,000 --> 02:01:51,000
+Once you have this first order and the second order, you can do this implementation.
+
+896
+02:01:51,000 --> 02:01:55,000
+For first order, you have this implementation.
+
+897
+02:01:55,000 --> 02:02:06,000
+Yeah, remember we have the earlier realization showing here.
+
+898
+02:02:11,000 --> 02:02:16,000
+Yeah, for first order, for example, this one here.
+
+899
+02:02:16,000 --> 02:02:23,000
+So you just have one delay element.
+
+900
+02:02:23,000 --> 02:02:26,000
+Yeah, that's one delay element.
+
+901
+02:02:26,000 --> 02:02:28,000
+So that's our H.
+
+902
+02:02:28,000 --> 02:02:35,000
+And because this is one, so our B0 is one.
+
+903
+02:02:35,000 --> 02:02:37,000
+That's this.
+
+904
+02:02:37,000 --> 02:02:41,000
+And then we have Bi here.
+
+905
+02:02:41,000 --> 02:02:44,000
+So that's B.
+
+906
+02:02:44,000 --> 02:02:48,000
+Yeah, Bm is our Bi.
+
+907
+02:02:49,000 --> 02:02:54,000
+For the denominator, you have Ai.
+
+908
+02:02:54,000 --> 02:02:56,000
+Yeah, it's this.
+
+909
+02:02:56,000 --> 02:02:58,000
+Okay.
+
+910
+02:02:58,000 --> 02:03:03,000
+So that's the implementation of the first order.
+
+911
+02:03:05,000 --> 02:03:11,000
+Now for second order like this, then you just have this implementation.
+
+912
+02:03:11,000 --> 02:03:15,000
+So you have one here as B0.
+
+913
+02:03:15,000 --> 02:03:20,000
+And this is Ei. Ei is our B1.
+
+914
+02:03:20,000 --> 02:03:25,000
+And Fi is our B2.
+
+915
+02:03:25,000 --> 02:03:28,000
+Yeah, you just have two delay elements.
+
+916
+02:03:28,000 --> 02:03:36,000
+As for denominator, then you have Ci here as your A1.
+
+917
+02:03:36,000 --> 02:03:39,000
+Di here as your A2.
+
+918
+02:03:40,000 --> 02:03:46,000
+So that's the implementation of the second order.
+
+919
+02:03:46,000 --> 02:03:59,000
+Then after you implement each of these, you just have this series connection for each of them.
+
+920
+02:03:59,000 --> 02:04:06,000
+Yeah, so that in this way, you can reduce the sensitivity to coefficient errors.
+
+921
+02:04:06,000 --> 02:04:11,000
+Yeah, next we have parallel programming.
+
+922
+02:04:11,000 --> 02:04:17,000
+Parallel programming is just to do partial friction expansion.
+
+923
+02:04:17,000 --> 02:04:26,000
+Yeah, you write your gz, which is a rational transfer function, into a number of terms.
+
+924
+02:04:27,000 --> 02:04:34,000
+Yeah, you may have a constant term if the transfer function is proper,
+
+925
+02:04:34,000 --> 02:04:39,000
+which means the order of the numerator is same as the order of the denominator.
+
+926
+02:04:39,000 --> 02:04:42,000
+Then you have this constant.
+
+927
+02:04:42,000 --> 02:04:46,000
+Then for other terms, you do partial friction expansion.
+
+928
+02:04:46,000 --> 02:04:48,000
+So you have this.
+
+929
+02:04:48,000 --> 02:04:50,000
+Yeah.
+
+930
+02:04:51,000 --> 02:05:00,000
+When we find the inverse Z transform, we have such partial friction expansion.
+
+931
+02:05:00,000 --> 02:05:06,000
+So in this way, you have three cases.
+
+932
+02:05:06,000 --> 02:05:12,000
+A constant, a first order, and a second order.
+
+933
+02:05:12,000 --> 02:05:15,000
+So in this case, when you do the partial friction expansion,
+
+934
+02:05:15,000 --> 02:05:20,000
+the order of the numerator will be less than the order of the denominator.
+
+935
+02:05:20,000 --> 02:05:28,000
+Okay, so now you just do implementation for all terms.
+
+936
+02:05:28,000 --> 02:05:34,000
+So for the constant term, and for the first order term, for the second order term.
+
+937
+02:05:34,000 --> 02:05:52,000
+You have, for example, J first order and this Q minus J of this and plus this.
+
+938
+02:05:52,000 --> 02:05:58,000
+So you do implementation for each of them.
+
+939
+02:05:58,000 --> 02:06:03,000
+For example, for this first order, you have this implementation
+
+940
+02:06:03,000 --> 02:06:05,000
+based on this diagram.
+
+941
+02:06:05,000 --> 02:06:15,000
+So you have one delay, and you don't have, you just have a constant, B0.
+
+942
+02:06:15,000 --> 02:06:21,000
+And our B0 is just this Bi here.
+
+943
+02:06:21,000 --> 02:06:24,000
+Okay, so that's this.
+
+944
+02:06:24,000 --> 02:06:26,000
+Yeah.
+
+945
+02:06:26,000 --> 02:06:29,000
+So that's this term, that's the numerator.
+
+946
+02:06:29,000 --> 02:06:33,000
+And for the denominator, you just have A1.
+
+947
+02:06:33,000 --> 02:06:35,000
+So that's A1 here.
+
+948
+02:06:35,000 --> 02:06:39,000
+Yeah, in our case it's Ai, so that's the implementation.
+
+949
+02:06:39,000 --> 02:06:46,000
+For this term, for the numerator, you have two terms.
+
+950
+02:06:46,000 --> 02:06:51,000
+So that's Ai, which is the same as our B0.
+
+951
+02:06:51,000 --> 02:06:56,000
+You have Fi, which is the same as our B1.
+
+952
+02:06:56,000 --> 02:07:01,000
+So that's this, two branches, that's the output.
+
+953
+02:07:01,000 --> 02:07:05,000
+And this is the denominator, so you have Ci, Di.
+
+954
+02:07:05,000 --> 02:07:08,000
+You have two delay elements.
+
+955
+02:07:08,000 --> 02:07:15,000
+Okay, so after you do this implementation, you just add each of the block output.
+
+956
+02:07:15,000 --> 02:07:18,000
+You get the overall output.
+
+957
+02:07:18,000 --> 02:07:22,000
+So you have A here, that's a constant.
+
+958
+02:07:22,000 --> 02:07:26,000
+And this, for example, G1 up to Gq.
+
+959
+02:07:26,000 --> 02:07:33,000
+So all together, you have q blocks.
+
+960
+02:07:33,000 --> 02:07:37,000
+Then you get this parallel implementation.
+
+961
+02:07:37,000 --> 02:07:51,000
+Okay, so this can reduce our sensitivities due to the coefficients error.
+
+962
+02:07:51,000 --> 02:07:55,000
+Okay, so that's all for my second part.
+
+963
+02:07:55,000 --> 02:08:00,000
+Now I give you a summary about the second part.
+
+964
+02:08:21,000 --> 02:08:46,000
+So we have two chapters for my second part.
+
+965
+02:08:46,000 --> 02:08:49,000
+Yeah, chapter six is quite short.
+
+966
+02:08:49,000 --> 02:08:59,000
+For chapter five, we design our discrete time controllers based on transfer functions.
+
+967
+02:08:59,000 --> 02:09:01,000
+So we have a few approaches.
+
+968
+02:09:01,000 --> 02:09:08,000
+First approach is a digital implementation of analog controller design,
+
+969
+02:09:08,000 --> 02:09:18,000
+which means we design our controller based on classical control approach to obtain a continuous controller.
+
+970
+02:09:18,000 --> 02:09:25,000
+Then you convert the continuous controller, which is an analog transfer function,
+
+971
+02:09:25,000 --> 02:09:34,000
+to digital controller, which is a Z transfer function.
+
+972
+02:09:34,000 --> 02:09:43,000
+Then we have Z domain digital controller design based on frequency response approach.
+
+973
+02:09:43,000 --> 02:09:50,000
+And the third approach is based on pulse transfer function approach.
+
+974
+02:09:50,000 --> 02:09:54,000
+Basically, we have these diagrams.
+
+975
+02:09:54,000 --> 02:09:57,000
+So you are given this transfer.
+
+976
+02:09:57,000 --> 02:10:04,000
+Yeah, maybe you are given this plant, then also sampling period.
+
+977
+02:10:04,000 --> 02:10:11,000
+Then based on the given plant and the sampling period, you have to find this transfer function.
+
+978
+02:10:11,000 --> 02:10:20,000
+And then based on the required performance and also this transfer function,
+
+979
+02:10:20,000 --> 02:10:23,000
+that's for second and third approach.
+
+980
+02:10:23,000 --> 02:10:26,000
+You can find this easy.
+
+981
+02:10:26,000 --> 02:10:31,000
+For the first approach, as I just mentioned,
+
+982
+02:10:31,000 --> 02:10:38,000
+you design CS for the analog subsystem to meet the desired specification.
+
+983
+02:10:38,000 --> 02:10:46,000
+Then you map the analog controller to digital controller using a suitable transformation.
+
+984
+02:10:46,000 --> 02:10:53,000
+And you check the response of the system.
+
+985
+02:10:53,000 --> 02:10:56,000
+Yeah, this one is done offline.
+
+986
+02:10:56,000 --> 02:11:00,000
+Normally, you have to use MATLAB to do this.
+
+987
+02:11:00,000 --> 02:11:09,000
+So we don't have such facility or MATLAB software in examination and quiz.
+
+988
+02:11:09,000 --> 02:11:14,000
+So you don't have to do this check.
+
+989
+02:11:14,000 --> 02:11:24,000
+Okay, for this suitable transformation method, we have backward difference approximation method.
+
+990
+02:11:24,000 --> 02:11:26,000
+You just change your S to this.
+
+991
+02:11:26,000 --> 02:11:29,000
+You get the Z transfer function.
+
+992
+02:11:29,000 --> 02:11:33,000
+For the difference method, you change S to this.
+
+993
+02:11:33,000 --> 02:11:36,000
+And the binomial transformation method.
+
+994
+02:11:36,000 --> 02:11:38,000
+Yeah, this is an important approach.
+
+995
+02:11:38,000 --> 02:11:42,000
+So these two are normally not used.
+
+996
+02:11:42,000 --> 02:11:47,000
+We use binomial transformation in many cases.
+
+997
+02:11:47,000 --> 02:11:51,000
+Yeah, like in our example.
+
+998
+02:11:51,000 --> 02:11:55,000
+So this T is given.
+
+999
+02:11:55,000 --> 02:12:08,000
+So you can change this S to a function of Z to get the corresponding Z transfer function from the Laplace transfer function.
+
+1000
+02:12:08,000 --> 02:12:11,000
+Another way is pole-zero matching.
+
+1001
+02:12:11,000 --> 02:12:14,000
+So this is also frequently used.
+
+1002
+02:12:14,000 --> 02:12:20,000
+So we have two frequently used methods for this approach.
+
+1003
+02:12:20,000 --> 02:12:29,000
+So for the pole-zero matching, you have to write the continuous transfer function in pole-zero form.
+
+1004
+02:12:29,000 --> 02:12:32,000
+Of course, in front, you may have a constant.
+
+1005
+02:12:32,000 --> 02:12:38,000
+So the coefficient for S here should be one.
+
+1006
+02:12:38,000 --> 02:12:43,000
+So that's why you have a constant in front in general.
+
+1007
+02:12:43,000 --> 02:12:47,000
+Okay, so how do we do the matching?
+
+1008
+02:12:47,000 --> 02:12:50,000
+All the zeroes are matched to this.
+
+1009
+02:12:50,000 --> 02:12:54,000
+Yes, ai is matched to e to the power of ait.
+
+1010
+02:12:54,000 --> 02:12:58,000
+bi is mapped to e to the power of bit.
+
+1011
+02:12:58,000 --> 02:13:01,000
+So this is the mapping of all the poles.
+
+1012
+02:13:01,000 --> 02:13:05,000
+This is the mapping of all the finite zeroes.
+
+1013
+02:13:05,000 --> 02:13:08,000
+You have zeroes at the infinity position.
+
+1014
+02:13:08,000 --> 02:13:11,000
+So you have to add this factor.
+
+1015
+02:13:11,000 --> 02:13:26,000
+Normally, we add z plus one to power of m minus one to make this overall transfer function to be strictly proper.
+
+1016
+02:13:26,000 --> 02:13:30,000
+And this is the mapping of pole and zeroes.
+
+1017
+02:13:30,000 --> 02:13:37,000
+Now, we have a constant in front to reflect our constant k here.
+
+1018
+02:13:37,000 --> 02:13:40,000
+So how do we determine this alpha?
+
+1019
+02:13:40,000 --> 02:13:48,000
+We can consider some critical frequencies in the two transfer functions.
+
+1020
+02:13:48,000 --> 02:13:53,000
+For example, normally we consider DC gain.
+
+1021
+02:13:53,000 --> 02:14:00,000
+So for this DC gain of this GA and GZ to be the same, we have this equation.
+
+1022
+02:14:00,000 --> 02:14:06,000
+For DC gain, in continuous domain, your S is zero.
+
+1023
+02:14:06,000 --> 02:14:09,000
+In Z domain, your Z should be one.
+
+1024
+02:14:09,000 --> 02:14:14,000
+So based on this equation, you can find your alpha.
+
+1025
+02:14:14,000 --> 02:14:24,000
+We had examples illustrating this procedure.
+
+1026
+02:14:24,000 --> 02:14:28,000
+This is the second approach.
+
+1027
+02:14:28,000 --> 02:14:32,000
+That is based on frequency domain.
+
+1028
+02:14:32,000 --> 02:14:35,000
+You can design your controller.
+
+1029
+02:14:35,000 --> 02:14:44,000
+So this time, you have to obtain a transfer function of the given plant.
+
+1030
+02:14:44,000 --> 02:14:47,000
+How do we obtain the transfer function?
+
+1031
+02:14:47,000 --> 02:14:54,000
+You have to consider the zero order hold to get there with the transfer function.
+
+1032
+02:14:54,000 --> 02:14:57,000
+I mean the no plus transfer function of the plant.
+
+1033
+02:14:57,000 --> 02:15:01,000
+So you get this Z domain transfer function.
+
+1034
+02:15:01,000 --> 02:15:06,000
+That's the pulse transfer function.
+
+1035
+02:15:06,000 --> 02:15:18,000
+Then you transform this GZ S into GW using bilinear transformation here.
+
+1036
+02:15:18,000 --> 02:15:29,000
+Once you have this GW, you can plot the body diagram of this GW.
+
+1037
+02:15:29,000 --> 02:15:31,000
+Just change the W to JV.
+
+1038
+02:15:31,000 --> 02:15:33,000
+Then you have two plots.
+
+1039
+02:15:33,000 --> 02:15:34,000
+One is the phase.
+
+1040
+02:15:34,000 --> 02:15:37,000
+One is the magnitude.
+
+1041
+02:15:37,000 --> 02:15:49,000
+Then based on these diagrams, you can use the analog frequency response measure to design a controller CW.
+
+1042
+02:15:49,000 --> 02:16:05,000
+That satisfies the frequency domain specification such as the phase margin and also the steady state performance.
+
+1043
+02:16:05,000 --> 02:16:10,000
+We had the example illustrating how we get this CW.
+
+1044
+02:16:10,000 --> 02:16:26,000
+Once you get this CW, then you can convert CW using the bilinear transformation here to obtain CZ.
+
+1045
+02:16:26,000 --> 02:16:33,000
+And of course, in practice, you have to verify the performance obtained.
+
+1046
+02:16:33,000 --> 02:16:37,000
+In our case, you don't have to do this step.
+
+1047
+02:16:37,000 --> 02:16:44,000
+That's the frequency response design approach.
+
+1048
+02:16:44,000 --> 02:16:55,000
+For the frequency design approach, we have a few compensators like phase lead, phase lag, and phase lead.
+
+1049
+02:16:55,000 --> 02:17:06,000
+In our example, we consider the phase lead.
+
+1050
+02:17:06,000 --> 02:17:14,000
+Phase lag and the phase lag lead are for your exercise.
+
+1051
+02:17:14,000 --> 02:17:22,000
+Because we didn't have detailed design examples for these two cases.
+
+1052
+02:17:22,000 --> 02:17:27,000
+So this will not be examined.
+
+1053
+02:17:27,000 --> 02:17:39,000
+In fact, for the phase lead one, because we need to draw both diagrams, and it's quite troublesome to draw the diagrams.
+
+1054
+02:17:39,000 --> 02:17:48,000
+So we also don't have drawing of the diagrams.
+
+1055
+02:17:48,000 --> 02:17:54,000
+At the most, we will ask you some calculations.
+
+1056
+02:17:55,000 --> 02:17:59,000
+So don't worry about drawing the body diagram.
+
+1057
+02:17:59,000 --> 02:18:04,000
+Maybe you should know what is the phase margin, what is the gain margin, give you the frequency.
+
+1058
+02:18:04,000 --> 02:18:11,000
+You should know how to compute the phase margin based on the definition.
+
+1059
+02:18:11,000 --> 02:18:20,000
+So now, third part, third design approach is quite important because we don't have to draw diagrams.
+
+1060
+02:18:20,000 --> 02:18:22,000
+You just do calculations.
+
+1061
+02:18:22,000 --> 02:18:28,000
+So in this case, you are given the closed loop transfer function.
+
+1062
+02:18:28,000 --> 02:18:36,000
+In some cases, you have to choose the closed loop transfer functions.
+
+1063
+02:18:36,000 --> 02:18:43,000
+Once you have this closed loop transfer function found, you can get the controller using this formula.
+
+1064
+02:18:43,000 --> 02:18:45,000
+So you have to remember this formula.
+
+1065
+02:18:45,000 --> 02:18:51,000
+If you don't remember, you should know how to derive this formula.
+
+1066
+02:18:51,000 --> 02:18:58,000
+I think the derivation of this formula is quite easy.
+
+1067
+02:18:58,000 --> 02:19:06,000
+So if you are given GCAO, and you have this GZAS, you can compute this CZ.
+
+1068
+02:19:06,000 --> 02:19:12,000
+Now for this GCAO, you have to consider such necessary conditions.
+
+1069
+02:19:12,000 --> 02:19:27,000
+In order to ensure the implementation of CZ and also internal stability and also zero status error.
+
+1070
+02:19:27,000 --> 02:19:38,000
+So for CZ to be implementable, your GCAO should have a relative degree,
+
+1071
+02:19:38,000 --> 02:19:45,000
+bigger than or equal to the relative degree of GZAS.
+
+1072
+02:19:45,000 --> 02:19:57,000
+And if your GZAS, that is the given system, the given plant has unstable zeros,
+
+1073
+02:19:57,000 --> 02:20:07,000
+then your GCAO should contain these unstable zeros to avoid unstable zero pole cancellation.
+
+1074
+02:20:08,000 --> 02:20:22,000
+In fact, for today's pole assignment method, such unstable zeros cannot be changed based on your controller design.
+
+1075
+02:20:22,000 --> 02:20:32,000
+So that's why it should be included in your closed loop transfer function.
+
+1076
+02:20:32,000 --> 02:20:37,000
+So the unstable zero cannot be changed by your controller.
+
+1077
+02:20:37,000 --> 02:20:44,000
+Okay, for the unstable poles, it should be the zeros of one minus GCAO.
+
+1078
+02:20:44,000 --> 02:20:50,000
+So when you choose this GCAO, you have to consider these two cases.
+
+1079
+02:20:50,000 --> 02:20:59,000
+If your GZAS does not have unstable zero, does not have unstable pole, then you don't worry about these two conditions.
+
+1080
+02:21:03,000 --> 02:21:19,000
+But if you have such an exam question, you have to give a reason why you choose your GCAO in a certain way.
+
+1081
+02:21:19,000 --> 02:21:28,000
+So you have to explain why you choose your GCAO as you do your choice.
+
+1082
+02:21:29,000 --> 02:21:35,000
+Okay, so these conditions for you to choose GCAO.
+
+1083
+02:21:35,000 --> 02:21:39,000
+Once you get this, then you have CZ.
+
+1084
+02:21:39,000 --> 02:21:44,000
+Yeah, this is the procedure of choosing GCAO.
+
+1085
+02:21:44,000 --> 02:21:48,000
+So you have to consider the given specification.
+
+1086
+02:21:48,000 --> 02:21:52,000
+From the given specification, you get the continuous time,
+
+1087
+02:21:53,000 --> 02:21:59,000
+closed loop, first order or second order transfer function.
+
+1088
+02:21:59,000 --> 02:22:05,000
+From this, you convert to the discrete time, GCAOZ.
+
+1089
+02:22:05,000 --> 02:22:10,000
+You can use pole-zero matching approach to do the conversion.
+
+1090
+02:22:10,000 --> 02:22:18,000
+After you get this done, you just verify if GCAO meets the four necessary condition or not.
+
+1091
+02:22:19,000 --> 02:22:22,000
+We have some special case.
+
+1092
+02:22:24,000 --> 02:22:28,000
+For example, finite settling time design.
+
+1093
+02:22:28,000 --> 02:22:32,000
+In this case, you choose your GCAO to be this.
+
+1094
+02:22:32,000 --> 02:22:39,000
+The condition is that your GZAS shouldn't have unstable zero.
+
+1095
+02:22:41,000 --> 02:22:44,000
+So you have this choice.
+
+1096
+02:22:45,000 --> 02:22:55,000
+And this K should be bigger than or equal to the intrinsic delay
+
+1097
+02:22:55,000 --> 02:23:00,000
+plus the relative degree of the transfer function GZAS.
+
+1098
+02:23:00,000 --> 02:23:06,000
+If the delay is zero, then just the bigger line goes to the relative degree.
+
+1099
+02:23:08,000 --> 02:23:12,000
+The smallest K is equal to this.
+
+1100
+02:23:12,000 --> 02:23:16,000
+So in that case, you have a dead-bit control.
+
+1101
+02:23:17,000 --> 02:23:23,000
+Once you have chosen your ZK, you can find your CZ using this formula.
+
+1102
+02:23:23,000 --> 02:23:27,000
+Any design parameter is the sampling period T.
+
+1103
+02:23:27,000 --> 02:23:33,000
+Because for different PT, you get different GZAS.
+
+1104
+02:23:34,000 --> 02:23:41,000
+One disadvantage is that the resulting control system
+
+1105
+02:23:41,000 --> 02:23:47,000
+may exhibit undesirable inter-sampling behavior.
+
+1106
+02:23:47,000 --> 02:23:55,000
+So to avoid such inter-sampling behavior, we have repo-free controller design.
+
+1107
+02:23:55,000 --> 02:24:02,000
+For this case, we don't have a restriction on the reference input.
+
+1108
+02:24:03,000 --> 02:24:07,000
+You can consider any type of reference input.
+
+1109
+02:24:07,000 --> 02:24:15,000
+But for repo-free controller, the reference input should be a unit step input.
+
+1110
+02:24:16,000 --> 02:24:24,000
+So in this case, we can maintain the control variable constant after n samples,
+
+1111
+02:24:24,000 --> 02:24:31,000
+where n is the degree of the denominator of your GZAS.
+
+1112
+02:24:34,000 --> 02:24:42,000
+Based on the diagram of the feedback system, your GZ can be found as this.
+
+1113
+02:24:43,000 --> 02:24:45,000
+That's the closed loop transfer function.
+
+1114
+02:24:45,000 --> 02:24:49,000
+That's RZ divided by the planned transfer function.
+
+1115
+02:24:53,000 --> 02:24:58,000
+In this case, you have to choose your GZL to meet this condition.
+
+1116
+02:24:59,000 --> 02:25:03,000
+And also the zero state error condition.
+
+1117
+02:25:06,000 --> 02:25:08,000
+Yeah, we have two examples.
+
+1118
+02:25:08,000 --> 02:25:13,000
+One example is the case, we have an integrator.
+
+1119
+02:25:14,000 --> 02:25:31,000
+So if you have an integrator, you have to choose UZ as a zero after n samples.
+
+1120
+02:25:32,000 --> 02:25:38,000
+Yeah, I mean integrator in the plant.
+
+1121
+02:25:38,000 --> 02:25:44,000
+If you have integrator, your UZ will just have finite terms.
+
+1122
+02:25:46,000 --> 02:25:51,000
+Because after n samples, U should be zero.
+
+1123
+02:25:53,000 --> 02:25:57,000
+If you don't have integrator, you have to consider GZ.
+
+1124
+02:25:58,000 --> 02:26:06,000
+In that case, this constant is non-zero after n samples.
+
+1125
+02:26:06,000 --> 02:26:11,000
+Yeah, because if it's zero, then your output will be zero.
+
+1126
+02:26:12,000 --> 02:26:15,000
+If you have no integrator in the plant.
+
+1127
+02:26:15,000 --> 02:26:20,000
+So you have to consider UZ to choose your GZL.
+
+1128
+02:26:21,000 --> 02:26:23,000
+Yeah, you just look at the examples.
+
+1129
+02:26:23,000 --> 02:26:27,000
+And in the past, we have some questions in the exam paper.
+
+1130
+02:26:27,000 --> 02:26:32,000
+So you can also practice the questions.
+
+1131
+02:26:32,000 --> 02:26:39,000
+Okay, once you have this GZL found, then you can compute your CZ using this formula.
+
+1132
+02:26:41,000 --> 02:26:47,000
+Today, we also consider two degree of freedom feedback controller.
+
+1133
+02:26:47,000 --> 02:26:53,000
+That means we have a feedback controller, we have a feed-forward controller.
+
+1134
+02:26:53,000 --> 02:26:59,000
+So for the feed-forward controller and the feedback controller, both have the same denominator.
+
+1135
+02:26:59,000 --> 02:27:01,000
+The numerators are different.
+
+1136
+02:27:02,000 --> 02:27:07,000
+So that these two different numerators give you two degree of freedom.
+
+1137
+02:27:08,000 --> 02:27:12,000
+If they are the same, they have one degree of freedom.
+
+1138
+02:27:12,000 --> 02:27:21,000
+Because if they are the same, you can move these two controllers to the front of G within the feedback loop.
+
+1139
+02:27:21,000 --> 02:27:25,000
+And this will become unit feedback.
+
+1140
+02:27:25,000 --> 02:27:27,000
+And in front, it's also one.
+
+1141
+02:27:30,000 --> 02:27:36,000
+Then, based on this, we have pole placement controller.
+
+1142
+02:27:36,000 --> 02:27:39,000
+So this is the given plant.
+
+1143
+02:27:39,000 --> 02:27:41,000
+Yeah, that is the transfer function is given.
+
+1144
+02:27:41,000 --> 02:27:48,000
+And from the given transfer function, you have to write your B in factor form.
+
+1145
+02:27:48,000 --> 02:27:54,000
+So that you know which are the good factors and the bad factors.
+
+1146
+02:27:54,000 --> 02:28:03,000
+The bad factors are factors having roots outside the unit circle for both B and A.
+
+1147
+02:28:03,000 --> 02:28:07,000
+So you do this factorization.
+
+1148
+02:28:07,000 --> 02:28:12,000
+Then, this is the closed loop transfer function.
+
+1149
+02:28:12,000 --> 02:28:21,000
+So our phi CAO should be chosen based on the given desired poles.
+
+1150
+02:28:21,000 --> 02:28:26,000
+So you have to compute this phi CAO from the given closed loop poles.
+
+1151
+02:28:27,000 --> 02:28:35,000
+Once you have this phi CAO, you can find your RC, SC, TC in this way.
+
+1152
+02:28:35,000 --> 02:28:40,000
+So you can write your RC as BG.
+
+1153
+02:28:40,000 --> 02:28:48,000
+So you have this BG included in the denominator of the controller.
+
+1154
+02:28:49,000 --> 02:29:01,000
+And you have AG included in the numerator of the two controllers, you see TC and SC.
+
+1155
+02:29:01,000 --> 02:29:03,000
+You have AG.
+
+1156
+02:29:03,000 --> 02:29:10,000
+So these good factors can be cancelled out because they are stable.
+
+1157
+02:29:10,000 --> 02:29:13,000
+So they can be cancelled out with the plant.
+
+1158
+02:29:14,000 --> 02:29:23,000
+In this way, your closed loop transfer function can have lower order closed loop transfer function.
+
+1159
+02:29:23,000 --> 02:29:29,000
+So based on this equation, you can find your R1 and S1.
+
+1160
+02:29:29,000 --> 02:29:33,000
+T1 is additional freedom.
+
+1161
+02:29:33,000 --> 02:29:45,000
+So depending on whether you have disturbance or not, you can choose your T1 based on the requirement.
+
+1162
+02:29:45,000 --> 02:29:51,000
+If you choose T1 as S1, then you have one degree of freedom.
+
+1163
+02:29:51,000 --> 02:29:55,000
+Sometimes you just simply choose T1 as 1.
+
+1164
+02:29:55,000 --> 02:29:59,000
+So that also gives you additional freedom.
+
+1165
+02:30:04,000 --> 02:30:06,000
+So that's pole assignment controller.
+
+1166
+02:30:06,000 --> 02:30:13,000
+This is how you determine the gamma to ensure your Y tracks R at the steady state.
+
+1167
+02:30:16,000 --> 02:30:19,000
+Okay, so this is the implementation.
+
+1168
+02:30:19,000 --> 02:30:23,000
+So this is the controller transfer function.
+
+1169
+02:30:23,000 --> 02:30:28,000
+You can have these two conditions for implementation.
+
+1170
+02:30:29,000 --> 02:30:34,000
+The causality and also your coefficients should be real.
+
+1171
+02:30:37,000 --> 02:30:41,000
+We have direct programming like this.
+
+1172
+02:30:41,000 --> 02:30:49,000
+In this case, you have N delay elements here.
+
+1173
+02:30:49,000 --> 02:30:51,000
+You have M delay elements here.
+
+1174
+02:30:51,000 --> 02:30:54,000
+So altogether, you have M plus M.
+
+1175
+02:30:54,000 --> 02:30:56,000
+The input is X.
+
+1176
+02:30:56,000 --> 02:30:57,000
+The output is Y.
+
+1177
+02:30:57,000 --> 02:30:59,000
+So that's the controller.
+
+1178
+02:30:59,000 --> 02:31:05,000
+And we have this implementation also.
+
+1179
+02:31:10,000 --> 02:31:15,000
+Actually, that's the same as this, called direct programming.
+
+1180
+02:31:15,000 --> 02:31:17,000
+That's a bigger diagram.
+
+1181
+02:31:17,000 --> 02:31:20,000
+We have standard programming.
+
+1182
+02:31:20,000 --> 02:31:26,000
+That is, we introduce our intermediate variable H here.
+
+1183
+02:31:26,000 --> 02:31:35,000
+So that you can obtain Y from H and you can obtain H from the input X.
+
+1184
+02:31:35,000 --> 02:31:36,000
+So you have this diagram.
+
+1185
+02:31:36,000 --> 02:31:42,000
+So that's H obtained from X and also some feedback here.
+
+1186
+02:31:42,000 --> 02:31:48,000
+Once you get this H, you can get Y, as you can see from the first equation.
+
+1187
+02:31:50,000 --> 02:31:55,000
+And we also did sensitivity analysis.
+
+1188
+02:31:55,000 --> 02:32:09,000
+That is how the change in the pole depending on the change in the coefficients.
+
+1189
+02:32:09,000 --> 02:32:18,000
+Or how the error in the pole depends on the error in the implementation of the coefficients.
+
+1190
+02:32:18,000 --> 02:32:20,000
+So this is the formula.
+
+1191
+02:32:20,000 --> 02:32:29,000
+Based on these two formulas, we have a suggestion to implement a high order transfer function.
+
+1192
+02:32:32,000 --> 02:32:41,000
+So we have to decompose a high order pulse transfer function into a combination of low order pulse transfer functions.
+
+1193
+02:32:41,000 --> 02:32:46,000
+Normally, first order and second order.
+
+1194
+02:32:46,000 --> 02:32:52,000
+So you have two approaches, series programming and parallel programming.
+
+1195
+02:32:52,000 --> 02:33:00,000
+Series programming is to write your GZ as a product of a number of low order transfer functions.
+
+1196
+02:33:00,000 --> 02:33:07,000
+How do you choose G1, G2, Gp is not unique.
+
+1197
+02:33:07,000 --> 02:33:13,000
+Once you have G1, G2, Gp chosen, you can implement them individually.
+
+1198
+02:33:14,000 --> 02:33:20,000
+Then you just do a series connection like this.
+
+1199
+02:33:23,000 --> 02:33:28,000
+So these are the suggestions for you to choose Gi.
+
+1200
+02:33:31,000 --> 02:33:38,000
+So these are the implementations for...
+
+1201
+02:33:39,000 --> 02:33:45,000
+Yeah, this is for series implementation.
+
+1202
+02:33:45,000 --> 02:33:49,000
+That's the first order, second order.
+
+1203
+02:33:49,000 --> 02:33:55,000
+And we have parallel programming, so you do partial friction expansion in this case.
+
+1204
+02:33:55,000 --> 02:34:00,000
+You can decompose the transfer function into a number of terms like this.
+
+1205
+02:34:01,000 --> 02:34:10,000
+And you can implement your A and first order transfer function, second order transfer function accordingly.
+
+1206
+02:34:10,000 --> 02:34:12,000
+Yeah, like this.
+
+1207
+02:34:12,000 --> 02:34:16,000
+Then you add this, yeah this is parallel, you just do addition here.
+
+1208
+02:34:16,000 --> 02:34:20,000
+So that the input is this, this is output.
+
+1209
+02:34:20,000 --> 02:34:24,000
+So that's all for my part. Thank you.
+
+1210
+02:34:30,000 --> 02:34:35,000
+Okay, so next week we have Chris.
+
+1211
+02:35:00,000 --> 02:35:05,000
+He's going to talk a little bit about G1, G2, Gp.
+
+1212
+02:35:30,000 --> 02:35:35,000
+G1, Gp, Gp, Gp.
+
+1213
+02:36:00,000 --> 02:36:05,000
+G1, Gp, Gp, Gp.
+
+1214
+02:36:30,000 --> 02:36:35,000
+G1, Gp, Gp, Gp.
+
+1215
+02:37:00,000 --> 02:37:05,000
+G1, Gp, Gp, Gp.
+
+1216
+02:37:30,000 --> 02:37:35,000
+G1, Gp, Gp, Gp.
+
+1217
+02:38:00,000 --> 02:38:05,000
+G1, Gp, Gp, Gp.
+
+1218
+02:38:05,000 --> 02:38:10,000
+G1, Gp, Gp, Gp.
+
+1219
+02:38:10,000 --> 02:38:15,000
+G1, Gp, Gp, Gp.
+
+1220
+02:38:15,000 --> 02:38:20,000
+G1, Gp, Gp, Gp.
+
+1221
+02:38:20,000 --> 02:38:25,000
+G1, Gp, Gp, Gp.
+
+1222
+02:38:25,000 --> 02:38:30,000
+G1, Gp, Gp, Gp.
+
+1223
+02:38:30,000 --> 02:38:35,000
+G1, Gp, Gp, Gp.
+
+1224
+02:38:35,000 --> 02:38:40,000
+G1, Gp, Gp, Gp.
+
+1225
+02:38:40,000 --> 02:38:45,000
+G1, Gp, Gp, Gp.
+
+1226
+02:38:45,000 --> 02:38:50,000
+G1, Gp, Gp, Gp.
+
+1227
+02:38:50,000 --> 02:38:55,000
+G1, Gp, Gp, Gp.
+
+1228
+02:38:55,000 --> 02:39:00,000
+G1, Gp, Gp, Gp.
+
+1229
+02:39:00,000 --> 02:39:05,000
+G1, Gp, Gp, Gp.
+
+1230
+02:39:05,000 --> 02:39:10,000
+G1, Gp, Gp, Gp.
+
+1231
+02:39:10,000 --> 02:39:15,000
+G1, Gp, Gp, Gp.
+
+1232
+02:39:15,000 --> 02:39:20,000
+G1, Gp, Gp, Gp.
+
+1233
+02:39:20,000 --> 02:39:25,000
+G1, Gp, Gp, Gp.
+
+1234
+02:39:25,000 --> 02:39:30,000
+G1, Gp, Gp, Gp.
+
+1235
+02:39:30,000 --> 02:39:35,000
+G1, Gp, Gp, Gp.
+
+1236
+02:39:35,000 --> 02:39:40,000
+G1, Gp, Gp.
+
+1237
+02:39:40,000 --> 02:39:45,000
+G1, Gp, Gp.
+
+1238
+02:39:45,000 --> 02:39:50,000
+G1, Gp, Gp, Gp.
+
+1239
+02:39:50,000 --> 02:39:55,000
+G1, Gp, Gp, Gp.
+
+1240
+02:39:55,000 --> 02:40:00,000
+G1, Gp, Gp, Gp.
+
+1241
+02:40:00,000 --> 02:40:05,000
+G1, Gp, Gp, Gp.
+
+1242
+02:40:05,000 --> 02:40:10,000
+G1, Gp, Gp, Gp.
+
+1243
+02:40:10,000 --> 02:40:15,000
+G1, Gp, Gp, Gp.
+
+1244
+02:40:15,000 --> 02:40:20,000
+G1, Gp, Gp, Gp.
+
+1245
+02:40:20,000 --> 02:40:25,000
+G1, Gp, Gp, Gp.
+
+1246
+02:40:25,000 --> 02:40:30,000
+G1, Gp, Gp.
+
+1247
+02:40:30,000 --> 02:40:35,000
+G1, Gp, Gp.
+
+1248
+02:40:35,000 --> 02:40:40,000
+G1, Gp, Gp.
+
+1249
+02:40:40,000 --> 02:40:45,000
+G1, Gp, Gp.
+
+1250
+02:40:45,000 --> 02:40:50,000
+G1, Gp, Gp.
+
+1251
+02:40:50,000 --> 02:40:55,000
+G1, Gp, Gp.
+
+1252
+02:40:55,000 --> 02:41:00,000
+G1, Gp, Gp.
+
+1253
+02:41:00,000 --> 02:41:05,000
+G1, Gp, Gp.
+
+1254
+02:41:05,000 --> 02:41:10,000
+G1, Gp, Gp.
+
+1255
+02:41:10,000 --> 02:41:15,000
+G1, Gp, Gp.
+
+1256
+02:41:15,000 --> 02:41:20,000
+G1, Gp, Gp.
+
+1257
+02:41:20,000 --> 02:41:25,000
+G1, Gp, Gp.
+
+1258
+02:41:25,000 --> 02:41:30,000
+G1, Gp, Gp.
+
+1259
+02:41:30,000 --> 02:41:35,000
+G1, Gp, Gp.
+
+1260
+02:41:35,000 --> 02:41:40,000
+G1, Gp, Gp.
+
+1261
+02:41:40,000 --> 02:41:45,000
+G1, Gp, Gp.
+
+1262
+02:41:45,000 --> 02:41:50,000
+G1, Gp, Gp.
+
+1263
+02:41:50,000 --> 02:41:55,000
+G1, Gp, Gp.
+
+1264
+02:41:55,000 --> 02:42:00,000
+G1, Gp, Gp.
+
+1265
+02:42:00,000 --> 02:42:05,000
+G1, Gp, Gp.
+
+1266
+02:42:05,000 --> 02:42:10,000
+G1, Gp, Gp.
+
+1267
+02:42:10,000 --> 02:42:15,000
+G1, Gp, Gp.
+
+1268
+02:42:15,000 --> 02:42:20,000
+G1, Gp, Gp.
+
+1269
+02:42:20,000 --> 02:42:25,000
+G1, Gp, Gp.
+
+1270
+02:42:25,000 --> 02:42:30,000
+G1, Gp, Gp.
+
+1271
+02:42:30,000 --> 02:42:35,000
+G1, Gp, Gp.
+
+1272
+02:42:35,000 --> 02:42:40,000
+G1, Gp, Gp.
+
+1273
+02:42:40,000 --> 02:42:45,000
+G1, Gp, Gp.
+
+1274
+02:42:45,000 --> 02:42:50,000
+G1, Gp, Gp.
+
+1275
+02:42:50,000 --> 02:42:55,000
+G1, Gp, Gp.
+
+1276
+02:42:55,000 --> 02:43:00,000
+G1, Gp, Gp.
+
+1277
+02:43:00,000 --> 02:43:05,000
+G1, Gp, Gp.
+
+1278
+02:43:05,000 --> 02:43:10,000
+G1, Gp, Gp.
+
+1279
+02:43:10,000 --> 02:43:15,000
+G1, Gp, Gp.
+
+1280
+02:43:15,000 --> 02:43:20,000
+G1, Gp, Gp.
+
+1281
+02:43:20,000 --> 02:43:25,000
+G1, Gp, Gp.
+
+1282
+02:43:25,000 --> 02:43:30,000
+G1, Gp, Gp.
+
+1283
+02:43:30,000 --> 02:43:35,000
+G1, Gp, Gp.
+
+1284
+02:43:35,000 --> 02:43:40,000
+G1, Gp, Gp.
+
+1285
+02:43:40,000 --> 02:43:45,000
+G1, Gp, Gp.
+
+1286
+02:43:45,000 --> 02:43:50,000
+G1, Gp, Gp.
+
+1287
+02:43:50,000 --> 02:43:55,000
+G1, Gp, Gp.
+
+1288
+02:43:55,000 --> 02:44:00,000
+G1, Gp, Gp.
+
+1289
+02:44:00,000 --> 02:44:05,000
+G1, Gp, Gp.
+
+1290
+02:44:05,000 --> 02:44:10,000
+G1, Gp, Gp.
+
+1291
+02:44:10,000 --> 02:44:15,000
+G1, Gp, Gp.
+
+1292
+02:44:15,000 --> 02:44:20,000
+G1, Gp, Gp.
+
+1293
+02:44:20,000 --> 02:44:25,000
+G1, Gp, Gp.
+
+1294
+02:44:25,000 --> 02:44:30,000
+G1, Gp, Gp.
+
+1295
+02:44:30,000 --> 02:44:35,000
+G1, Gp, Gp.
+
+1296
+02:44:35,000 --> 02:44:40,000
+G1, Gp, Gp.
+
+1297
+02:44:40,000 --> 02:44:45,000
+G1, Gp, Gp.
+
+1298
+02:44:45,000 --> 02:44:50,000
+G1, Gp, Gp.
+
+1299
+02:44:50,000 --> 02:44:55,000
+G1, Gp, Gp.
+
+1300
+02:44:55,000 --> 02:45:00,000
+G1, Gp, Gp.
+
+1301
+02:45:00,000 --> 02:45:05,000
+G1, Gp, Gp.
+
+1302
+02:45:05,000 --> 02:45:10,000
+G1, Gp, Gp.
+
+1303
+02:45:10,000 --> 02:45:15,000
+G1, Gp, Gp.
+
+1304
+02:45:15,000 --> 02:45:20,000
+G1, Gp, Gp.
+
+1305
+02:45:20,000 --> 02:45:25,000
+G1, Gp, Gp.
+
+1306
+02:45:25,000 --> 02:45:30,000
+G1, Gp, Gp.
+
+1307
+02:45:30,000 --> 02:45:35,000
+G1, Gp, Gp.
+
+1308
+02:45:35,000 --> 02:45:40,000
+G1, Gp, Gp.
+
+1309
+02:45:40,000 --> 02:45:45,000
+G1, Gp, Gp.
+
+1310
+02:45:45,000 --> 02:45:50,000
+G1, Gp, Gp.
+
+1311
+02:45:50,000 --> 02:45:55,000
+G1, Gp, Gp.
+
+1312
+02:45:55,000 --> 02:46:00,000
+G1, Gp, Gp.
+
+1313
+02:46:00,000 --> 02:46:05,000
+G1, Gp, Gp.
+
+1314
+02:46:05,000 --> 02:46:10,000
+G1, Gp, Gp.
+
+1315
+02:46:10,000 --> 02:46:15,000
+G1, Gp, Gp.
+
+1316
+02:46:15,000 --> 02:46:20,000
+G1, Gp, Gp.
+
+1317
+02:46:20,000 --> 02:46:25,000
+G1, Gp, Gp.
+
+1318
+02:46:25,000 --> 02:46:30,000
+G1, Gp, Gp.
+
+1319
+02:46:30,000 --> 02:46:35,000
+G1, Gp, Gp.
+
+1320
+02:46:35,000 --> 02:46:40,000
+G1, Gp, Gp.
+
+1321
+02:46:40,000 --> 02:46:45,000
+G1, Gp, Gp.
+
+1322
+02:46:45,000 --> 02:46:50,000
+G1, Gp, Gp.
+
+1323
+02:46:50,000 --> 02:46:55,000
+G1, Gp, Gp.
+
+1324
+02:46:55,000 --> 02:47:00,000
+G1, Gp, Gp.
+
+1325
+02:47:00,000 --> 02:47:05,000
+G1, Gp, Gp.
+
+1326
+02:47:05,000 --> 02:47:10,000
+G1, Gp, Gp.
+
+1327
+02:47:10,000 --> 02:47:15,000
+G1, Gp, Gp.
+
+1328
+02:47:15,000 --> 02:47:20,000
+G1, Gp, Gp.
+
+1329
+02:47:20,000 --> 02:47:25,000
+G1, Gp, Gp.
+
+1330
+02:47:25,000 --> 02:47:30,000
+G1, Gp, Gp.
+
+1331
+02:47:30,000 --> 02:47:35,000
+G1, Gp, Gp.
+
+1332
+02:47:35,000 --> 02:47:40,000
+G1, Gp, Gp.
+
+1333
+02:47:40,000 --> 02:47:45,000
+G1, Gp, Gp.
+
+1334
+02:47:45,000 --> 02:47:50,000
+G1, Gp, Gp.
+
+1335
+02:47:50,000 --> 02:47:55,000
+G1, Gp, Gp.
+
+1336
+02:47:55,000 --> 02:48:00,000
+G1, Gp, Gp.
+
+1337
+02:48:00,000 --> 02:48:05,000
+G1, Gp, Gp.
+
+1338
+02:48:05,000 --> 02:48:10,000
+G1, Gp, Gp.
+
+1339
+02:48:10,000 --> 02:48:15,000
+G1, Gp, Gp.
+
+1340
+02:48:15,000 --> 02:48:20,000
+G1, Gp, Gp.
+
+1341
+02:48:20,000 --> 02:48:25,000
+G1, Gp, Gp.
+
+1342
+02:48:25,000 --> 02:48:30,000
+G1, Gp, Gp.
+
+1343
+02:48:30,000 --> 02:48:35,000
+G1, Gp, Gp.
+
+1344
+02:48:35,000 --> 02:48:40,000
+G1, Gp, Gp.
+
+1345
+02:48:40,000 --> 02:48:45,000
+G1, Gp, Gp.
+
+1346
+02:48:45,000 --> 02:48:50,000
+G1, Gp, Gp.
+
+1347
+02:48:50,000 --> 02:48:55,000
+G1, Gp, Gp.
+
+1348
+02:48:55,000 --> 02:49:00,000
+G1, Gp, Gp.
+
+1349
+02:49:00,000 --> 02:49:05,000
+G1, Gp, Gp.
+
+1350
+02:49:05,000 --> 02:49:10,000
+G1, Gp, Gp.
+
+1351
+02:49:10,000 --> 02:49:15,000
+G1, Gp, Gp.
+
+1352
+02:49:15,000 --> 02:49:20,000
+G1, Gp, Gp.
+
+1353
+02:49:20,000 --> 02:49:25,000
+G1, Gp, Gp.
+
+1354
+02:49:25,000 --> 02:49:30,000
+G1, Gp, Gp.
+
+1355
+02:49:30,000 --> 02:49:35,000
+G1, Gp, Gp.
+
+1356
+02:49:35,000 --> 02:49:40,000
+G1, Gp, Gp.
+
+1357
+02:49:40,000 --> 02:49:45,000
+G1, Gp, Gp.
+
+1358
+02:49:45,000 --> 02:49:50,000
+G1, Gp, Gp.
+
+1359
+02:49:50,000 --> 02:49:55,000
+G1, Gp, Gp.
+
+1360
+02:49:55,000 --> 02:50:00,000
+G1, Gp, Gp.
+
+1361
+02:50:00,000 --> 02:50:05,000
+G1, Gp, Gp.
+
+1362
+02:50:05,000 --> 02:50:10,000
+G1, Gp, Gp.
+
+1363
+02:50:10,000 --> 02:50:15,000
+G1, Gp, Gp.
+
+1364
+02:50:15,000 --> 02:50:20,000
+G1, Gp, Gp.
+
+1365
+02:50:20,000 --> 02:50:25,000
+G1, Gp, Gp.
+
+1366
+02:50:25,000 --> 02:50:30,000
+G1, Gp, Gp.
+
+1367
+02:50:30,000 --> 02:50:35,000
+G1, Gp, Gp.
+
+1368
+02:50:35,000 --> 02:50:40,000
+G1, Gp, Gp.
+
+1369
+02:50:40,000 --> 02:50:45,000
+G1, Gp, Gp.
+
+1370
+02:50:45,000 --> 02:50:50,000
+G1, Gp, Gp.
+
+1371
+02:50:50,000 --> 02:50:55,000
+G1, Gp, Gp.
+
+1372
+02:50:55,000 --> 02:51:00,000
+G1, Gp, Gp.
+
+1373
+02:51:00,000 --> 02:51:05,000
+G1, Gp, Gp.
+
+1374
+02:51:05,000 --> 02:51:10,000
+G1, Gp, Gp.
+
+1375
+02:51:10,000 --> 02:51:15,000
+G1, Gp, Gp.
+
+1376
+02:51:15,000 --> 02:51:20,000
+G1, Gp, Gp.
+
+1377
+02:51:20,000 --> 02:51:25,000
+G1, Gp, Gp.
+
+1378
+02:51:25,000 --> 02:51:30,000
+G1, Gp, Gp.
+
+1379
+02:51:30,000 --> 02:51:35,000
+G1, Gp, Gp.
+
+1380
+02:51:35,000 --> 02:51:40,000
+G1, Gp, Gp.
+
+1381
+02:51:40,000 --> 02:51:45,000
+G1, Gp, Gp.
+
+1382
+02:51:45,000 --> 02:51:50,000
+G1, Gp, Gp.
+
+1383
+02:51:50,000 --> 02:51:55,000
+G1, Gp, Gp.
+
+1384
+02:51:55,000 --> 02:52:00,000
+G1, Gp, Gp.
+
+1385
+02:52:00,000 --> 02:52:05,000
+G1, Gp, Gp.
+
+1386
+02:52:05,000 --> 02:52:10,000
+G1, Gp, Gp.
+
+1387
+02:52:10,000 --> 02:52:15,000
+G1, Gp, Gp.
+
+1388
+02:52:15,000 --> 02:52:20,000
+G1, Gp, Gp.
+
+1389
+02:52:20,000 --> 02:52:25,000
+G1, Gp, Gp.
+
+1390
+02:52:25,000 --> 02:52:30,000
+G1, Gp, Gp.
+
+1391
+02:52:30,000 --> 02:52:35,000
+G1, Gp, Gp.
+
+1392
+02:52:35,000 --> 02:52:40,000
+G1, Gp, Gp.
+
+1393
+02:52:40,000 --> 02:52:45,000
+G1, Gp, Gp.
+
+1394
+02:52:45,000 --> 02:52:50,000
+G1, Gp, Gp.
+
+1395
+02:52:50,000 --> 02:52:55,000
+G1, Gp, Gp.
+
+1396
+02:52:55,000 --> 02:53:00,000
+G1, Gp, Gp.
+
+1397
+02:53:00,000 --> 02:53:05,000
+G1, Gp, Gp.
+
+1398
+02:53:05,000 --> 02:53:10,000
+G1, Gp, Gp.
+
+1399
+02:53:10,000 --> 02:53:15,000
+G1, Gp, Gp.
+
+1400
+02:53:15,000 --> 02:53:20,000
+G1, Gp, Gp.
+
+1401
+02:53:20,000 --> 02:53:25,000
+G1, Gp, Gp.
+
+1402
+02:53:25,000 --> 02:53:30,000
+G1, Gp, Gp.
+
+1403
+02:53:30,000 --> 02:53:35,000
+G1, Gp, Gp.
+
+1404
+02:53:35,000 --> 02:53:40,000
+G1, Gp, Gp.
+
+1405
+02:53:40,000 --> 02:53:45,000
+G1, Gp, Gp.
+
+1406
+02:53:45,000 --> 02:53:50,000
+G1, Gp, Gp.
+
+1407
+02:53:50,000 --> 02:53:55,000
+G1, Gp, Gp.
+
+1408
+02:53:55,000 --> 02:54:00,000
+G1, Gp, Gp.
+
+1409
+02:54:00,000 --> 02:54:05,000
+G1, Gp, Gp.
+
+1410
+02:54:05,000 --> 02:54:10,000
+G1, Gp, Gp.
+
+1411
+02:54:10,000 --> 02:54:15,000
+G1, Gp, Gp.
+
+1412
+02:54:15,000 --> 02:54:20,000
+G1, Gp, Gp.
+
+1413
+02:54:20,000 --> 02:54:25,000
+G1, Gp, Gp.
+
+1414
+02:54:25,000 --> 02:54:30,000
+G1, Gp, Gp.
+
+1415
+02:54:30,000 --> 02:54:35,000
+G1, Gp, Gp.
+
+1416
+02:54:35,000 --> 02:54:40,000
+G1, Gp, Gp.
+
+1417
+02:54:40,000 --> 02:54:45,000
+G1, Gp, Gp.
+
+1418
+02:54:45,000 --> 02:54:50,000
+G1, Gp, Gp.
+
+1419
+02:54:50,000 --> 02:54:55,000
+G1, Gp, Gp.
+
+1420
+02:54:55,000 --> 02:55:00,000
+G1, Gp, Gp.
+
+1421
+02:55:00,000 --> 02:55:05,000
+G1, Gp, Gp.
+
+1422
+02:55:05,000 --> 02:55:10,000
+G1, Gp, Gp.
+
+1423
+02:55:10,000 --> 02:55:15,000
+G1, Gp, Gp.
+
+1424
+02:55:15,000 --> 02:55:20,000
+G1, Gp, Gp.
+
+1425
+02:55:20,000 --> 02:55:25,000
+G1, Gp, Gp.
+
+1426
+02:55:25,000 --> 02:55:30,000
+G1, Gp, Gp.
+
+1427
+02:55:30,000 --> 02:55:35,000
+G1, Gp, Gp.
+
+1428
+02:55:35,000 --> 02:55:40,000
+G1, Gp, Gp.
+
+1429
+02:55:40,000 --> 02:55:45,000
+G1, Gp, Gp.
+
+1430
+02:55:45,000 --> 02:55:50,000
+G1, Gp, Gp.
+
+1431
+02:55:50,000 --> 02:55:55,000
+G1, Gp, Gp.
+
+1432
+02:55:55,000 --> 02:56:00,000
+G1, Gp, Gp.
+
+1433
+02:56:00,000 --> 02:56:05,000
+G1, Gp, Gp.
+
+1434
+02:56:05,000 --> 02:56:10,000
+G1, Gp, Gp.
+
+1435
+02:56:10,000 --> 02:56:15,000
+G1, Gp, Gp.
+
+1436
+02:56:15,000 --> 02:56:20,000
+G1, Gp, Gp.
+
+1437
+02:56:20,000 --> 02:56:25,000
+G1, Gp, Gp.
+
+1438
+02:56:25,000 --> 02:56:30,000
+G1, Gp, Gp.
+
+1439
+02:56:30,000 --> 02:56:35,000
+G1, Gp, Gp.
+
+1440
+02:56:35,000 --> 02:56:40,000
+G1, Gp, Gp.
+
+1441
+02:56:40,000 --> 02:56:45,000
+G1, Gp, Gp.
+
+1442
+02:56:45,000 --> 02:56:50,000
+G1, Gp, Gp.
+
+1443
+02:56:50,000 --> 02:56:55,000
+G1, Gp, Gp.
+
+1444
+02:56:55,000 --> 02:57:00,000
+G1, Gp, Gp.
+
+1445
+02:57:00,000 --> 02:57:05,000
+G1, Gp, Gp.
+
+1446
+02:57:05,000 --> 02:57:10,000
+G1, Gp, Gp.
+
+1447
+02:57:10,000 --> 02:57:15,000
+G1, Gp, Gp.
+
+1448
+02:57:15,000 --> 02:57:20,000
+G1, Gp, Gp.
+
+1449
+02:57:20,000 --> 02:57:25,000
+G1, Gp, Gp.
+
+1450
+02:57:25,000 --> 02:57:30,000
+G1, Gp, Gp.
+
+1451
+02:57:30,000 --> 02:57:35,000
+G1, Gp, Gp.
+
+1452
+02:57:35,000 --> 02:57:40,000
+G1, Gp, Gp.
+
+1453
+02:57:40,000 --> 02:57:45,000
+G1, Gp, Gp.
+
+1454
+02:57:45,000 --> 02:57:50,000
+G1, Gp, Gp.
+
+1455
+02:57:50,000 --> 02:57:55,000
+G1, Gp, Gp.
+
+1456
+02:57:55,000 --> 02:58:00,000
+G1, Gp, Gp.
+
+1457
+02:58:00,000 --> 02:58:05,000
+G1, Gp, Gp.
+
+1458
+02:58:05,000 --> 02:58:10,000
+G1, Gp, Gp.
+
+1459
+02:58:10,000 --> 02:58:15,000
+G1, Gp, Gp.
+
+1460
+02:58:15,000 --> 02:58:20,000
+G1, Gp, Gp.
+
+1461
+02:58:20,000 --> 02:58:25,000
+G1, Gp, Gp.
+
+1462
+02:58:25,000 --> 02:58:30,000
+G1, Gp, Gp.
+
+1463
+02:58:30,000 --> 02:58:35,000
+G1, Gp, Gp.
+
+1464
+02:58:35,000 --> 02:58:40,000
+G1, Gp, Gp.
+
+1465
+02:58:40,000 --> 02:58:45,000
+G1, Gp, Gp.
+
+1466
+02:58:45,000 --> 02:58:50,000
+G1, Gp, Gp.
+
+1467
+02:58:50,000 --> 02:58:55,000
+G1, Gp, Gp.
+
+1468
+02:58:55,000 --> 02:59:00,000
+G1, Gp, Gp.
+
+1469
+02:59:00,000 --> 02:59:05,000
+G1, Gp, Gp.
+
+1470
+02:59:05,000 --> 02:59:10,000
+G1, Gp, Gp.
+
+1471
+02:59:10,000 --> 02:59:15,000
+G1, Gp, Gp.
+
+1472
+02:59:15,000 --> 02:59:20,000
+G1, Gp, Gp.
+
+1473
+02:59:20,000 --> 02:59:25,000
+G1, Gp, Gp.
+
+1474
+02:59:25,000 --> 02:59:30,000
+G1, Gp, Gp.
+
+1475
+02:59:30,000 --> 02:59:35,000
+G1, Gp, Gp.
+
+1476
+02:59:35,000 --> 02:59:40,000
+G1, Gp, Gp.
+
+1477
+02:59:40,000 --> 02:59:45,000
+.
+
+1478
+02:59:45,000 --> 02:59:50,000
+.
+
+1479
+02:59:50,000 --> 02:59:55,000
+.
+
+1480
+02:59:55,000 --> 03:00:00,000
+.
+
+1481
+03:00:00,000 --> 03:00:01,000
+.
+

@@ -1,0 +1,6524 @@
+1
+00:00:00,000 --> 00:00:02,000
+.
+
+2
+00:00:30,000 --> 00:00:32,000
+.
+
+3
+00:01:00,000 --> 00:01:02,000
+.
+
+4
+00:01:30,000 --> 00:01:33,000
+OK, let's start.
+
+5
+00:01:39,000 --> 00:01:47,000
+Yeah, let's continue with the mapping between S-plane and Z-plane.
+
+6
+00:01:50,000 --> 00:01:56,000
+Yeah, the mapping is based on this transformation, as mentioned last week.
+
+7
+00:01:56,000 --> 00:02:06,000
+So, S-domain has variable S, Z-domain has variable Z, so they have this relationship.
+
+8
+00:02:07,000 --> 00:02:15,000
+Now, we consider the case when the frequency is constant.
+
+9
+00:02:16,000 --> 00:02:22,000
+So, in S-domain, the imaginary part denotes the frequency.
+
+10
+00:02:22,000 --> 00:02:28,000
+So, if the frequency is constant, that means omega is constant.
+
+11
+00:02:29,000 --> 00:02:35,000
+And the sigma can be any value between negative infinity and positive infinity.
+
+12
+00:02:36,000 --> 00:02:51,000
+OK, based on this relationship, as mentioned here, we can find that the angle of Z is t omega.
+
+13
+00:02:52,000 --> 00:02:54,000
+That's this part here.
+
+14
+00:02:55,000 --> 00:03:04,000
+So, if omega is a constant with t as the sampling period, then the angle will be fixed.
+
+15
+00:03:05,000 --> 00:03:16,000
+But the magnitude of Z is changing because sigma is in the range between negative infinity and positive infinity.
+
+16
+00:03:16,000 --> 00:03:21,000
+However, it is bigger than or equal to zero.
+
+17
+00:03:22,000 --> 00:03:25,000
+Yeah, when sigma is negative infinity, it's zero.
+
+18
+00:03:26,000 --> 00:03:28,000
+So, we have this mapping here.
+
+19
+00:03:29,000 --> 00:03:36,000
+Yeah, this is the S-domain graph of constant frequency Lucy.
+
+20
+00:03:37,000 --> 00:03:45,000
+For example, if your omega is equal to omega one, that means this is a constant.
+
+21
+00:03:46,000 --> 00:03:51,000
+The angle is straight line parallel to the real axis here.
+
+22
+00:03:52,000 --> 00:04:01,000
+Then, the angle corresponding to this straight line will be this, omega one t.
+
+23
+00:04:02,000 --> 00:04:08,000
+So, this is the image of j omega one in the Z-plane.
+
+24
+00:04:09,000 --> 00:04:13,000
+Yeah, as I said, this magnitude is changing from zero to infinity.
+
+25
+00:04:13,000 --> 00:04:21,000
+So, you have this straight line as the mapping of j omega one in the Z-plane.
+
+26
+00:04:22,000 --> 00:04:31,000
+Similarly, if you have another straight line like negative j omega one, the angle will be negative omega one t.
+
+27
+00:04:32,000 --> 00:04:37,000
+So, this is the angle and the straight line would be like this.
+
+28
+00:04:38,000 --> 00:04:43,000
+For omega equals omega two, then you have this range.
+
+29
+00:04:44,000 --> 00:04:48,000
+Okay, remember we have the concept of primary strip.
+
+30
+00:04:49,000 --> 00:04:57,000
+So, those omegas should be in the range between negative half omega s and positive half omega s.
+
+31
+00:04:57,000 --> 00:05:07,000
+In fact, based on sampling theorem, you have this situation also.
+
+32
+00:05:08,000 --> 00:05:20,000
+Your sampling frequency, omega s is the sampling frequency, should be at least twice of the bandwidth of the signal.
+
+33
+00:05:21,000 --> 00:05:33,000
+So, that means the range of all the frequencies of the signal considered should be in this range.
+
+34
+00:05:34,000 --> 00:05:38,000
+Okay, so that's the case when we have constant frequency.
+
+35
+00:05:39,000 --> 00:05:41,000
+Now, let's look at an example.
+
+36
+00:05:42,000 --> 00:05:51,000
+In this example, we are looking for the mapping of this region in the S-plane to the Z-plane.
+
+37
+00:05:52,000 --> 00:05:57,000
+So, for this region, it's bounded by four straight lines.
+
+38
+00:05:58,000 --> 00:06:08,000
+Theta equals negative theta one, theta equals negative theta two, and below is negative j omega two, above is j omega one.
+
+39
+00:06:09,000 --> 00:06:18,000
+Okay, so we found the boundary of these four lines, and then found their mapping in the Z-plane.
+
+40
+00:06:19,000 --> 00:06:24,000
+For omega equals omega one, what's the image?
+
+41
+00:06:25,000 --> 00:06:32,000
+Just now we talked about the image of this horizontal line, it will be this straight line.
+
+42
+00:06:32,000 --> 00:06:48,000
+Okay, so if your region is below omega one, yeah, below this straight line, j omega one, then that should be on the right side of this.
+
+43
+00:06:49,000 --> 00:06:58,000
+So, it's this part of the region in the Z-plane as the image below j omega one.
+
+44
+00:06:59,000 --> 00:07:05,000
+Okay, for this horizontal line, negative j omega two, you have this image.
+
+45
+00:07:06,000 --> 00:07:15,000
+Then, for the region above this horizontal line, it should be on the right side of this line also.
+
+46
+00:07:16,000 --> 00:07:26,000
+The angle should be bigger than this negative j, negative omega two t, so it's on the right side also.
+
+47
+00:07:26,000 --> 00:07:29,000
+And now we have two vertical lines.
+
+48
+00:07:30,000 --> 00:07:42,000
+For this left vertical line, the image will be a circle with the radius e to the power of negative sigma one t.
+
+49
+00:07:43,000 --> 00:07:53,000
+That's this circle, centered at the origin.
+
+50
+00:07:54,000 --> 00:08:05,000
+So, for the region on the left side of this negative sigma one, it should be inside the circle of this, yeah, this big circle.
+
+51
+00:08:06,000 --> 00:08:15,000
+Now, for this sigma equals negative sigma two, it's also a circle with the radius e to the power of negative sigma two t.
+
+52
+00:08:15,000 --> 00:08:25,000
+So, the radius is smaller, but this region is on the right side of this vertical line, so the image should be outside this circle.
+
+53
+00:08:26,000 --> 00:08:35,000
+Okay, so you consider all the overlapping of the images of all the regions concerned.
+
+54
+00:08:36,000 --> 00:08:50,000
+We have this shaded area in the z-plane as the image of this shaded area inside the rectangle.
+
+55
+00:08:51,000 --> 00:08:55,000
+Okay, so that's how you find the region in the z-plane.
+
+56
+00:08:56,000 --> 00:09:04,000
+So, basically you find the boundary images and then find the overlapping regions to get the answer.
+
+57
+00:09:05,000 --> 00:09:11,000
+Okay, next, we consider constant damping ratio Lucy.
+
+58
+00:09:12,000 --> 00:09:13,000
+What does this mean?
+
+59
+00:09:13,000 --> 00:09:18,000
+Yeah, in this case, we have a constant damping ratio.
+
+60
+00:09:19,000 --> 00:09:24,000
+Actually, damping ratio is an important concept in control system.
+
+61
+00:09:25,000 --> 00:09:34,000
+So, if you consider secant order system, which means the denominator of the transfer function is secant order.
+
+62
+00:09:34,000 --> 00:09:37,000
+Yeah, I just considered the denominator.
+
+63
+00:09:38,000 --> 00:09:45,000
+It will be s squared plus two zeta omega n s plus omega n squared.
+
+64
+00:09:46,000 --> 00:09:52,000
+Okay, we have the parameters zeta and omega n.
+
+65
+00:09:53,000 --> 00:09:56,000
+This zeta is called damping ratio of the system.
+
+66
+00:09:57,000 --> 00:10:02,000
+Omega n is called the natural frequency of the system.
+
+67
+00:10:02,000 --> 00:10:08,000
+Okay, if you find the pole of the system, it will be this.
+
+68
+00:10:09,000 --> 00:10:10,000
+You have two poles.
+
+69
+00:10:11,000 --> 00:10:15,000
+When our damping ratio is between zero and one.
+
+70
+00:10:16,000 --> 00:10:22,000
+Yeah, between zero and one, you have this two complex poles in the complex plane.
+
+71
+00:10:23,000 --> 00:10:25,000
+Yeah, you can saw this complex poles.
+
+72
+00:10:26,000 --> 00:10:29,000
+So, one is here, for example.
+
+73
+00:10:30,000 --> 00:10:36,000
+Then the other one is a conjugate of this pole.
+
+74
+00:10:37,000 --> 00:10:44,000
+So, if you saw a line from the pole to this origin,
+
+75
+00:10:46,000 --> 00:10:51,000
+and saw this vertical line and this horizontal line,
+
+76
+00:10:51,000 --> 00:10:58,000
+this is the real part, which is negative zeta omega n.
+
+77
+00:11:00,000 --> 00:11:06,000
+And the imaginary part is this.
+
+78
+00:11:07,000 --> 00:11:11,000
+J omega n square root one minus zeta squared.
+
+79
+00:11:12,000 --> 00:11:16,000
+And you can denote omega d as this.
+
+80
+00:11:17,000 --> 00:11:19,000
+Just a notation for this part.
+
+81
+00:11:19,000 --> 00:11:21,000
+So, actually this is omega d.
+
+82
+00:11:22,000 --> 00:11:25,000
+The imaginary part of the pole is omega d.
+
+83
+00:11:26,000 --> 00:11:28,000
+For this case.
+
+84
+00:11:29,000 --> 00:11:33,000
+Okay, you can see that the angle here,
+
+85
+00:11:35,000 --> 00:11:42,000
+if it's alpha, then your cosine alpha is equal to zeta.
+
+86
+00:11:43,000 --> 00:11:44,000
+Okay?
+
+87
+00:11:45,000 --> 00:11:46,000
+Yeah, you can find this easily.
+
+88
+00:11:46,000 --> 00:11:55,000
+Actually, the cosine alpha equals this distance divided by this distance.
+
+89
+00:11:56,000 --> 00:12:01,000
+This distance is zeta omega n, this distance is omega n.
+
+90
+00:12:02,000 --> 00:12:04,000
+So, the ratio will be zeta.
+
+91
+00:12:05,000 --> 00:12:09,000
+If zeta is constant, it implies alpha is constant.
+
+92
+00:12:10,000 --> 00:12:14,000
+So, in the S-plane, yeah, we are considering S-plane,
+
+93
+00:12:15,000 --> 00:12:20,000
+for constant damping ratio, it is a straight line, like this.
+
+94
+00:12:21,000 --> 00:12:22,000
+Okay?
+
+95
+00:12:23,000 --> 00:12:27,000
+So, this straight line will give you a constant damping ratio.
+
+96
+00:12:28,000 --> 00:12:32,000
+Yeah, of course, you have a different real part and the imaginary part.
+
+97
+00:12:33,000 --> 00:12:35,000
+So, if you treat omega d as a variable,
+
+98
+00:12:35,000 --> 00:12:40,000
+then, if your imaginary part is changing,
+
+99
+00:12:41,000 --> 00:12:44,000
+then your pole will change along this straight line.
+
+100
+00:12:45,000 --> 00:12:50,000
+So, we are looking for the image of this red line in the Z-plane.
+
+101
+00:12:51,000 --> 00:12:55,000
+So, that's the objective of this subsection.
+
+102
+00:12:56,000 --> 00:13:04,000
+Okay, so now, we are looking for this image with constant damping ratio.
+
+103
+00:13:05,000 --> 00:13:08,000
+That is, we are looking for the image of this red line.
+
+104
+00:13:09,000 --> 00:13:12,000
+Yeah, this is the relationship between S and Z.
+
+105
+00:13:13,000 --> 00:13:17,000
+Now, our S is equal to that.
+
+106
+00:13:18,000 --> 00:13:24,000
+You just substitute negative zeta omega n plus minus j omega d t.
+
+107
+00:13:25,000 --> 00:13:27,000
+Yeah, times t, you get this.
+
+108
+00:13:28,000 --> 00:13:31,000
+Okay, so you do some simplification.
+
+109
+00:13:31,000 --> 00:13:35,000
+As I said, we are going to consider omega d as a variable.
+
+110
+00:13:36,000 --> 00:13:40,000
+So, in this case, we do some manipulation here.
+
+111
+00:13:41,000 --> 00:13:51,000
+This t is equal to 2 pi divided by omega s.
+
+112
+00:13:52,000 --> 00:13:53,000
+Okay, that's t.
+
+113
+00:13:54,000 --> 00:14:00,000
+Yeah, because omega s is the sampling frequency in radians per second.
+
+114
+00:14:01,000 --> 00:14:05,000
+So, that's t will be equal to 2 pi divided by this.
+
+115
+00:14:06,000 --> 00:14:11,000
+And this omega n, based on this definition,
+
+116
+00:14:12,000 --> 00:14:17,000
+it will be equal to omega d divided by square root 1 minus zeta squared.
+
+117
+00:14:18,000 --> 00:14:21,000
+So, this omega d divided by that is our omega n.
+
+118
+00:14:22,000 --> 00:14:23,000
+Of course, we have this zeta here.
+
+119
+00:14:24,000 --> 00:14:28,000
+So, that's the real part of your S.
+
+120
+00:14:28,000 --> 00:14:35,000
+Now, for the imaginary part, you also change t to 2 pi divided by omega s.
+
+121
+00:14:36,000 --> 00:14:39,000
+Okay, so this is our manipulation.
+
+122
+00:14:40,000 --> 00:14:49,000
+Now, based on this, our magnitude of z will be equal to part of this real part.
+
+123
+00:14:50,000 --> 00:14:57,000
+And the imaginary part, no, the angle will be this part here.
+
+124
+00:14:58,000 --> 00:15:01,000
+So, it's e to the power of j 2 pi omega d over omega s.
+
+125
+00:15:02,000 --> 00:15:04,000
+From this part, you get this angle.
+
+126
+00:15:06,000 --> 00:15:10,000
+Okay, so 2 pi omega d divided by omega s is the angle.
+
+127
+00:15:11,000 --> 00:15:16,000
+Okay, now we have this magnitude and angle.
+
+128
+00:15:16,000 --> 00:15:24,000
+Now, as I said, I will choose omega d over omega s as a variable.
+
+129
+00:15:25,000 --> 00:15:28,000
+That is, we consider omega d is changing.
+
+130
+00:15:29,000 --> 00:15:37,000
+So, if you look at the result here, as this increases,
+
+131
+00:15:38,000 --> 00:15:42,000
+as omega d over omega s increases,
+
+132
+00:15:42,000 --> 00:15:51,000
+the magnitude decreases exponentially, but the angle will increase linearly.
+
+133
+00:15:52,000 --> 00:16:05,000
+Okay, so we have this image for the red line.
+
+134
+00:16:05,000 --> 00:16:17,000
+So, at the beginning, this red line is the positive half of the two poles.
+
+135
+00:16:18,000 --> 00:16:20,000
+So, at the beginning, it's this point.
+
+136
+00:16:21,000 --> 00:16:25,000
+This point has an image at this position.
+
+137
+00:16:25,000 --> 00:16:35,000
+Then, as this omega d increases, the angle will increase linearly,
+
+138
+00:16:36,000 --> 00:16:39,000
+but the magnitude will decrease exponentially.
+
+139
+00:16:40,000 --> 00:16:51,000
+So, we can see that you get this logarithm spiral, like this.
+
+140
+00:16:52,000 --> 00:16:57,000
+Yeah, we can see a few important points.
+
+141
+00:16:58,000 --> 00:17:04,000
+For example, one omega d over omega s is 0.25.
+
+142
+00:17:05,000 --> 00:17:11,000
+That means omega d is just one quarter of omega s.
+
+143
+00:17:12,000 --> 00:17:14,000
+You can compute this angle.
+
+144
+00:17:15,000 --> 00:17:19,000
+Yeah, this is one quarter, so it's half pi.
+
+145
+00:17:19,000 --> 00:17:25,000
+Half pi, then, yeah, this angle will be half pi.
+
+146
+00:17:26,000 --> 00:17:32,000
+If omega d over omega s is a quarter, that's this point.
+
+147
+00:17:33,000 --> 00:17:37,000
+So, this angle is half pi, but the magnitude is much smaller than this.
+
+148
+00:17:38,000 --> 00:17:40,000
+It decreases exponentially.
+
+149
+00:17:40,000 --> 00:17:47,000
+And the one omega d over omega s increases further to half here.
+
+150
+00:17:48,000 --> 00:17:54,000
+Then, yeah, to half. Actually, it's this, at this point.
+
+151
+00:17:55,000 --> 00:18:02,000
+Then, your angle here will be, yeah, if this is half, then that will be pi. That's this.
+
+152
+00:18:03,000 --> 00:18:05,000
+Then, you increase further, you get this.
+
+153
+00:18:05,000 --> 00:18:12,000
+Eventually, it will converge to zero, because the magnitude converges to zero.
+
+154
+00:18:13,000 --> 00:18:17,000
+Okay? Yeah, let's look at the case.
+
+155
+00:18:18,000 --> 00:18:22,000
+If we have zeta as 0.3, yeah, I already mentioned.
+
+156
+00:18:23,000 --> 00:18:32,000
+One omega d, yeah, if zeta is 0.3, you can compute the angle corresponding to this value.
+
+157
+00:18:32,000 --> 00:18:36,000
+That is omega d over omega s.
+
+158
+00:18:37,000 --> 00:18:41,000
+That's the angle is half pi, as I just mentioned.
+
+159
+00:18:42,000 --> 00:18:48,000
+But the magnitude with this zeta value is 0.61.
+
+160
+00:18:49,000 --> 00:18:50,000
+So, that's 0.61.
+
+161
+00:18:51,000 --> 00:18:57,000
+And if you have, yeah, omega d over omega s is half,
+
+162
+00:18:58,000 --> 00:19:01,000
+the magnitude is further reduced to this.
+
+163
+00:19:02,000 --> 00:19:07,000
+So that's this. You have this magnitude, but the angle is pi.
+
+164
+00:19:08,000 --> 00:19:09,000
+Okay?
+
+165
+00:19:10,000 --> 00:19:20,000
+Okay, so that's the image of this red line in the z-plane.
+
+166
+00:19:21,000 --> 00:19:31,000
+However, we should focus our omega in the primary strip.
+
+167
+00:19:32,000 --> 00:19:37,000
+Which means our omega should be in this range.
+
+168
+00:19:38,000 --> 00:19:39,000
+Okay?
+
+169
+00:19:40,000 --> 00:19:47,000
+So, if your omega is in this range, that is between zero and the half omega s,
+
+170
+00:19:48,000 --> 00:19:51,000
+then you just have this image up to here.
+
+171
+00:19:52,000 --> 00:19:57,000
+This part above the real axis.
+
+172
+00:19:58,000 --> 00:20:00,000
+Yeah, because omega s has an image here.
+
+173
+00:20:00,000 --> 00:20:04,000
+Okay, so this is the image of this part.
+
+174
+00:20:05,000 --> 00:20:13,000
+As I just mentioned, if you have a complex pole, you will have another pole.
+
+175
+00:20:14,000 --> 00:20:17,000
+What's the other pole? It's the conjugate of this.
+
+176
+00:20:18,000 --> 00:20:20,000
+So, we have another branch, in fact.
+
+177
+00:20:21,000 --> 00:20:24,000
+This branch is symmetric to this with respect to the real axis.
+
+178
+00:20:25,000 --> 00:20:26,000
+So, it's something like this.
+
+179
+00:20:27,000 --> 00:20:29,000
+So, how do we get the image of this?
+
+180
+00:20:30,000 --> 00:20:37,000
+Yeah, we have obtained the image of this upper half plane.
+
+181
+00:20:38,000 --> 00:20:42,000
+That's this shape, like this.
+
+182
+00:20:43,000 --> 00:20:44,000
+Then, how about this?
+
+183
+00:20:45,000 --> 00:20:47,000
+Yeah, you just do a reflection.
+
+184
+00:20:48,000 --> 00:20:54,000
+Because these two are symmetric with respect to the real axis.
+
+185
+00:20:55,000 --> 00:20:57,000
+Their image will be also symmetric.
+
+186
+00:20:57,000 --> 00:21:04,000
+So, overall, for the upper half, it's something like this.
+
+187
+00:21:05,000 --> 00:21:06,000
+Okay?
+
+188
+00:21:07,000 --> 00:21:16,000
+Then, for the lower half, you just find them by doing a symmetric mapping.
+
+189
+00:21:17,000 --> 00:21:24,000
+So, you do a symmetric mapping, you will get something like this.
+
+190
+00:21:25,000 --> 00:21:26,000
+Okay?
+
+191
+00:21:29,000 --> 00:21:30,000
+Yeah.
+
+192
+00:21:35,000 --> 00:21:39,000
+Okay, actually, last week, we considered an example.
+
+193
+00:21:40,000 --> 00:21:41,000
+I have not finished the example.
+
+194
+00:21:42,000 --> 00:21:49,000
+Yeah, we are looking for the, if you recall this example, here.
+
+195
+00:21:50,000 --> 00:21:53,000
+We have two requirements.
+
+196
+00:21:54,000 --> 00:22:00,000
+One is the settling time should be less than equal to four seconds with the two percent error tolerance.
+
+197
+00:22:01,000 --> 00:22:11,000
+The other is that the dimension ratio should be in this range, between 0.707 and 1.
+
+198
+00:22:12,000 --> 00:22:15,000
+So, we have this situation.
+
+199
+00:22:15,000 --> 00:22:27,000
+The dimension ratio is bigger than some value, like this, bigger than 0.707, but less than one.
+
+200
+00:22:28,000 --> 00:22:31,000
+So, how do we find this image?
+
+201
+00:22:32,000 --> 00:22:35,000
+Yeah, that's the result here.
+
+202
+00:22:36,000 --> 00:22:41,000
+So, you have a boundary, zeta equals zeta one.
+
+203
+00:22:42,000 --> 00:22:47,000
+That's the positive omega side.
+
+204
+00:22:48,000 --> 00:22:51,000
+For the conjugate, we have this boundary.
+
+205
+00:22:52,000 --> 00:22:59,000
+So, for damping ratio bigger than equal to zeta one, it will be the shaded region in S-plane.
+
+206
+00:23:00,000 --> 00:23:04,000
+Okay, so now, we found the image of the boundary.
+
+207
+00:23:05,000 --> 00:23:11,000
+So, for this zeta equals zeta one, the image will be like this.
+
+208
+00:23:12,000 --> 00:23:19,000
+For the lower half, you have this image, as I just mentioned.
+
+209
+00:23:20,000 --> 00:23:24,000
+You find this by symmetric image of that.
+
+210
+00:23:25,000 --> 00:23:33,000
+Okay, so damping ratio bigger than zeta one will be inside the hot shaped region.
+
+211
+00:23:33,000 --> 00:23:38,000
+So, that's how we get the image of this zeta bigger than zeta one.
+
+212
+00:23:39,000 --> 00:23:49,000
+Therefore, for this case, you just find the boundary with zeta one as 0.707.
+
+213
+00:23:50,000 --> 00:24:00,000
+So, you do some calculation, then you have this image as the boundary.
+
+214
+00:24:00,000 --> 00:24:03,000
+Okay?
+
+215
+00:24:04,000 --> 00:24:17,000
+Yeah, for zeta bigger than 0.707, it will be the region inside this hot shaped area.
+
+216
+00:24:18,000 --> 00:24:22,000
+We have the case when zeta equals one.
+
+217
+00:24:23,000 --> 00:24:24,000
+What does this mean?
+
+218
+00:24:24,000 --> 00:24:25,000
+What does this mean?
+
+219
+00:24:26,000 --> 00:24:30,000
+If zeta equals one, our pole will be...
+
+220
+00:24:31,000 --> 00:24:43,000
+Yeah, if you look at the transfer function.
+
+221
+00:24:43,000 --> 00:24:48,000
+If zeta equals one, you have two repeated poles.
+
+222
+00:24:49,000 --> 00:24:54,000
+Both are on the real axis.
+
+223
+00:24:55,000 --> 00:24:57,000
+I mean, in the s domain.
+
+224
+00:24:58,000 --> 00:25:02,000
+So, that means, in this case, your pole...
+
+225
+00:25:04,000 --> 00:25:06,000
+Yeah, two repeated poles will be here.
+
+226
+00:25:07,000 --> 00:25:10,000
+Yeah, that's the case when zeta equals one.
+
+227
+00:25:10,000 --> 00:25:11,000
+Okay?
+
+228
+00:25:11,000 --> 00:25:13,000
+So, we have two repeated poles here.
+
+229
+00:25:13,000 --> 00:25:15,000
+Then, what's the image of the...
+
+230
+00:25:16,000 --> 00:25:22,000
+Yeah, in that case, you have to consider the image of the negative real axis.
+
+231
+00:25:23,000 --> 00:25:25,000
+What's the image of the negative real axis?
+
+232
+00:25:26,000 --> 00:25:27,000
+It will be this.
+
+233
+00:25:28,000 --> 00:25:31,000
+Yeah, because at this point, the image is here.
+
+234
+00:25:32,000 --> 00:25:39,000
+When the real part tends to negative infinity, the magnitude will go to zero.
+
+235
+00:25:40,000 --> 00:25:47,000
+So, the image is just inside the hot shaped region.
+
+236
+00:25:47,000 --> 00:25:48,000
+That's zeta equals one.
+
+237
+00:25:49,000 --> 00:25:53,000
+So, to meet the second condition.
+
+238
+00:25:54,000 --> 00:25:55,000
+Yeah, this condition.
+
+239
+00:25:56,000 --> 00:26:00,000
+Zeta is bigger than 0.707, less than or equal to one.
+
+240
+00:26:01,000 --> 00:26:07,000
+Our image will be inside the hot shaped region,
+
+241
+00:26:07,000 --> 00:26:12,000
+because zeta equals one is already inside, including the boundary here,
+
+242
+00:26:13,000 --> 00:26:15,000
+because it equals 0.707.
+
+243
+00:26:16,000 --> 00:26:19,000
+Last week, we said to meet the first condition,
+
+244
+00:26:19,000 --> 00:26:21,000
+that is the settling time requirement.
+
+245
+00:26:22,000 --> 00:26:28,000
+We need our pole inside the unit circle.
+
+246
+00:26:29,000 --> 00:26:30,000
+No unit circle.
+
+247
+00:26:30,000 --> 00:26:31,000
+No unit circle.
+
+248
+00:26:31,000 --> 00:26:37,000
+Inside this circle, with the readers, calculated as e to the power of...
+
+249
+00:26:38,000 --> 00:26:41,000
+Yeah, this is the readers, calculated here.
+
+250
+00:26:42,000 --> 00:26:50,000
+So, you consider the intersection of the two regions, you get this.
+
+251
+00:26:51,000 --> 00:26:59,000
+So, that's the required pole locations in the z domain.
+
+252
+00:27:00,000 --> 00:27:06,000
+So, this completes the solution of the example.
+
+253
+00:27:10,000 --> 00:27:12,000
+Now, let's consider another example.
+
+254
+00:27:17,000 --> 00:27:23,000
+You have to specify the region in the z-plane that corresponds to a desirable region,
+
+255
+00:27:24,000 --> 00:27:27,000
+shaded in the s-plane here.
+
+256
+00:27:27,000 --> 00:27:32,000
+So, this region is bounded by two horizontal lines,
+
+257
+00:27:33,000 --> 00:27:40,000
+and also two straight lines, which corresponds to zeta equals zeta one.
+
+258
+00:27:41,000 --> 00:27:49,000
+Okay, so this is formed by considering the bound first.
+
+259
+00:27:49,000 --> 00:27:57,000
+So, for this bound, omega equals omega one, we have this image.
+
+260
+00:27:58,000 --> 00:28:01,000
+For omega equals negative omega one, we have this image.
+
+261
+00:28:02,000 --> 00:28:09,000
+So, for this zeta equals zeta one, we have this heart-shaped figure.
+
+262
+00:28:10,000 --> 00:28:15,000
+Then, for this region, it will be inside this.
+
+263
+00:28:15,000 --> 00:28:21,000
+Yeah, and the left of this straight line, and also this straight line,
+
+264
+00:28:22,000 --> 00:28:27,000
+and the inside this heart-shaped region.
+
+265
+00:28:28,000 --> 00:28:31,000
+Oh, so we have another bound, zeta equals zeta one.
+
+266
+00:28:32,000 --> 00:28:34,000
+That means this is negative zeta one here.
+
+267
+00:28:35,000 --> 00:28:44,000
+Then, the circle is the image of this zeta equals negative zeta one.
+
+268
+00:28:45,000 --> 00:28:49,000
+So, you consider all these intersections, you get this region.
+
+269
+00:28:50,000 --> 00:28:56,000
+Okay, so that's how we found the image of the regions in the s-plane.
+
+270
+00:29:05,000 --> 00:29:08,000
+Okay, so that's the first topic of this chapter.
+
+271
+00:29:09,000 --> 00:29:14,000
+Next, we consider stability analysis of a closed loop system in the z-plane.
+
+272
+00:29:15,000 --> 00:29:19,000
+Yeah, stability is an essential requirement.
+
+273
+00:29:20,000 --> 00:29:26,000
+When you design your controller, the first thing is to ensure you have a stable system.
+
+274
+00:29:27,000 --> 00:29:37,000
+In linear system, for stability, you have this condition.
+
+275
+00:29:37,000 --> 00:29:44,000
+That is, you find the closed loop transfer function first.
+
+276
+00:29:45,000 --> 00:29:50,000
+Then, the stability is determined by the poles of the system.
+
+277
+00:29:51,000 --> 00:29:56,000
+That is the roots of the characteristic equation found from this.
+
+278
+00:29:57,000 --> 00:30:02,000
+You make the denominator zero, you solve the equation, you get the poles.
+
+279
+00:30:03,000 --> 00:30:06,000
+So, how do we ensure stability?
+
+280
+00:30:07,000 --> 00:30:14,000
+You have to ensure all the poles are inside the unit circle.
+
+281
+00:30:15,000 --> 00:30:18,000
+Okay, so that's the stability.
+
+282
+00:30:19,000 --> 00:30:24,000
+In fact, this is also considered as the region of convergence.
+
+283
+00:30:24,000 --> 00:30:35,000
+Actually, for stability, you don't allow your signal to go to infinity.
+
+284
+00:30:36,000 --> 00:30:42,000
+Yeah, so that's ensured if all the poles are inside the unit circle.
+
+285
+00:30:43,000 --> 00:30:50,000
+If you have one pole outside the unit circle, then if you take an inverse Z-transform,
+
+286
+00:30:50,000 --> 00:30:56,000
+the term corresponding to that pole will diverge.
+
+287
+00:30:57,000 --> 00:31:05,000
+Okay, so to be stable, all roots of the characteristic equation must be inside the unit circle.
+
+288
+00:31:06,000 --> 00:31:10,000
+Roots outside the unit circle will give you instability.
+
+289
+00:31:11,000 --> 00:31:14,000
+How about those poles and the unit circle?
+
+290
+00:31:15,000 --> 00:31:18,000
+We have some special cases.
+
+291
+00:31:18,000 --> 00:31:26,000
+If we have a sample pole at the point Z equals one, then you have critical stability.
+
+292
+00:31:27,000 --> 00:31:32,000
+That means your signal does not go to infinity, but does not converge.
+
+293
+00:31:33,000 --> 00:31:44,000
+It will stay at the unit, yeah, because this is corresponding to the unit step input, so it's a constant.
+
+294
+00:31:45,000 --> 00:31:53,000
+And if you have a single pair of complex conjugate poles and the unit circle, it's also critical stability.
+
+295
+00:31:54,000 --> 00:31:57,000
+The signal will oscillate.
+
+296
+00:31:58,000 --> 00:32:11,000
+Yeah, if you take an inverse Z-transform corresponding to this pair, then you have sine functions.
+
+297
+00:32:12,000 --> 00:32:14,000
+Yeah, so you have oscillation.
+
+298
+00:32:15,000 --> 00:32:21,000
+So it's also critical stability because the signal does not go to infinity.
+
+299
+00:32:22,000 --> 00:32:28,000
+However, if you have multiple poles at the unit circle, you will have an unstable system.
+
+300
+00:32:29,000 --> 00:32:34,000
+For example, you have two poles at Z equals one.
+
+301
+00:32:35,000 --> 00:32:38,000
+The corresponding signal will diverge.
+
+302
+00:32:39,000 --> 00:32:45,000
+In our case, we just focus on strict stability.
+
+303
+00:32:46,000 --> 00:32:51,000
+We have to ensure all the poles inside the unit circle because for critical stability,
+
+304
+00:32:52,000 --> 00:33:01,000
+if we have some uncertainty or disturbance or some perturbation, the system will be likely to be unstable.
+
+305
+00:33:02,000 --> 00:33:07,000
+So in that case, we don't wish to have such a control system.
+
+306
+00:33:08,000 --> 00:33:11,000
+Okay, how about the zeros of the transfer function?
+
+307
+00:33:12,000 --> 00:33:17,000
+Just now, we mentioned the closed loop transfer function is this, right?
+
+308
+00:33:18,000 --> 00:33:21,000
+This is how you calculate the closed loop transfer function.
+
+309
+00:33:22,000 --> 00:33:24,000
+So if you simplify that, you have a numerator.
+
+310
+00:33:25,000 --> 00:33:27,000
+The numerator will give you zeros.
+
+311
+00:33:28,000 --> 00:33:31,000
+The zeros does not affect stability.
+
+312
+00:33:32,000 --> 00:33:35,000
+So you don't worry about zeros when you talk about stability.
+
+313
+00:33:35,000 --> 00:33:39,000
+However, zeros will affect your response.
+
+314
+00:33:40,000 --> 00:33:41,000
+Okay?
+
+315
+00:33:42,000 --> 00:33:47,000
+So that will affect your trial and response and also steady state performance.
+
+316
+00:33:48,000 --> 00:33:50,000
+But does not affect stability.
+
+317
+00:33:51,000 --> 00:33:54,000
+Even if your system is stable, maybe the performance is not good.
+
+318
+00:33:55,000 --> 00:33:58,000
+So in that case, you have to consider zeros.
+
+319
+00:34:00,000 --> 00:34:03,000
+Okay, so how do we check stability?
+
+320
+00:34:03,000 --> 00:34:09,000
+Yeah, one straightforward method is to solve the equation.
+
+321
+00:34:10,000 --> 00:34:12,000
+Yeah, you solve this equation to find the poles.
+
+322
+00:34:13,000 --> 00:34:18,000
+If all the solutions are inside the unit circle, your system is stable.
+
+323
+00:34:19,000 --> 00:34:25,000
+However, if you want to solve the equation, especially high-order equations,
+
+324
+00:34:26,000 --> 00:34:31,000
+it's very tedious. Sometimes, maybe cannot be solved manually.
+
+325
+00:34:31,000 --> 00:34:39,000
+So in some cases, we don't have to solve the equation to determine stability.
+
+326
+00:34:40,000 --> 00:34:43,000
+Because we just need to know whether the poles are inside the unit circle or not.
+
+327
+00:34:44,000 --> 00:34:46,000
+You don't need to know the exact location.
+
+328
+00:34:47,000 --> 00:34:54,000
+So we will have a method called jury stability test to check stability.
+
+329
+00:34:55,000 --> 00:34:57,000
+In this case, you don't solve the equation.
+
+330
+00:34:58,000 --> 00:35:00,000
+Okay? So how do we do that?
+
+331
+00:35:01,000 --> 00:35:04,000
+Let's consider this nth order polynomial.
+
+332
+00:35:05,000 --> 00:35:10,000
+Suppose this is the denominator of the transfer function.
+
+333
+00:35:11,000 --> 00:35:13,000
+So we are just considering the denominator.
+
+334
+00:35:14,000 --> 00:35:16,000
+Don't worry about the numerator.
+
+335
+00:35:17,000 --> 00:35:24,000
+Assume this is the denominator and we know the coefficients of the polynomial.
+
+336
+00:35:25,000 --> 00:35:26,000
+This denominator is a polynomial.
+
+337
+00:35:27,000 --> 00:35:30,000
+We know the coefficient will be a0, a1, up to an.
+
+338
+00:35:31,000 --> 00:35:32,000
+So these are known.
+
+339
+00:35:33,000 --> 00:35:35,000
+Assume a0 is positive.
+
+340
+00:35:36,000 --> 00:35:39,000
+Then we are going to check stability of the system.
+
+341
+00:35:40,000 --> 00:35:46,000
+Before we study the criteria, we talk about jury table.
+
+342
+00:35:49,000 --> 00:35:52,000
+Jury table is formed in this way.
+
+343
+00:35:53,000 --> 00:35:54,000
+So I show you the jury table.
+
+344
+00:35:57,000 --> 00:35:59,000
+How do we form the jury table?
+
+345
+00:35:59,000 --> 00:36:01,000
+We have some procedures.
+
+346
+00:36:06,000 --> 00:36:14,000
+Okay, for the first row, if you look at the first row of this table,
+
+347
+00:36:16,000 --> 00:36:18,000
+it's an up to a0.
+
+348
+00:36:19,000 --> 00:36:26,000
+So that's the coefficient of pz in the ascending motor of power z.
+
+349
+00:36:26,000 --> 00:36:32,000
+So an is the constant up to a0, so you put it in the first row.
+
+350
+00:36:33,000 --> 00:36:34,000
+How about second row?
+
+351
+00:36:35,000 --> 00:36:37,000
+Second row, you just reverse the order.
+
+352
+00:36:38,000 --> 00:36:39,000
+Okay?
+
+353
+00:36:40,000 --> 00:36:43,000
+So second row is the reverse of the first row.
+
+354
+00:36:44,000 --> 00:36:52,000
+Actually, for the remaining rows, we also obtain the even rows in the same way.
+
+355
+00:36:53,000 --> 00:36:58,000
+So now we just want to obtain the outnumbered rows.
+
+356
+00:36:59,000 --> 00:37:00,000
+For example, the third row.
+
+357
+00:37:01,000 --> 00:37:02,000
+How do we get third row?
+
+358
+00:37:03,000 --> 00:37:04,000
+This is the method.
+
+359
+00:37:05,000 --> 00:37:10,000
+Yeah, the third row contains b values.
+
+360
+00:37:11,000 --> 00:37:14,000
+So we have to compute b0, b1, up to bn-1.
+
+361
+00:37:15,000 --> 00:37:18,000
+How do we obtain these values?
+
+362
+00:37:19,000 --> 00:37:24,000
+For example, when k is 0, how do we get b0?
+
+363
+00:37:26,000 --> 00:37:30,000
+So in this case, you form two by two matrix.
+
+364
+00:37:31,000 --> 00:37:32,000
+The first column is a and a0.
+
+365
+00:37:33,000 --> 00:37:34,000
+That is a and a0.
+
+366
+00:37:35,000 --> 00:37:39,000
+That's the first column of the first two rows.
+
+367
+00:37:40,000 --> 00:37:41,000
+So that's fixed.
+
+368
+00:37:42,000 --> 00:37:46,000
+Then the second column, yeah, when k is 0, what do you have here?
+
+369
+00:37:46,000 --> 00:37:51,000
+It's am-1 and the a1.
+
+370
+00:37:52,000 --> 00:37:54,000
+Where do we get am-1 and a1?
+
+371
+00:37:58,000 --> 00:38:01,000
+Yeah, when k is 0, so it's am-1.
+
+372
+00:38:02,000 --> 00:38:03,000
+That's a1.
+
+373
+00:38:04,000 --> 00:38:05,000
+So you look at the table here.
+
+374
+00:38:05,000 --> 00:38:19,000
+It will be this.
+
+375
+00:38:19,000 --> 00:38:30,000
+Oh, sorry.
+
+376
+00:38:31,000 --> 00:38:32,000
+It's this.
+
+377
+00:38:33,000 --> 00:38:36,000
+These two numbers, am-1 and a1.
+
+378
+00:38:37,000 --> 00:38:39,000
+Yeah, when k is 0.
+
+379
+00:38:40,000 --> 00:38:43,000
+So based on these two by two matrix, you completely determine it.
+
+380
+00:38:44,000 --> 00:38:45,000
+That will give you b0.
+
+381
+00:38:50,000 --> 00:38:59,000
+So for b1, you change the second column to this two number.
+
+382
+00:39:01,000 --> 00:39:06,000
+Yeah, in this case, it's am-2 and a2, if you look at the formula here.
+
+383
+00:39:07,000 --> 00:39:09,000
+So you have this.
+
+384
+00:39:10,000 --> 00:39:11,000
+Yeah, this first column is fixed.
+
+385
+00:39:12,000 --> 00:39:14,000
+The second column is changed to this.
+
+386
+00:39:15,000 --> 00:39:16,000
+Then you compute the determinant, you get b1.
+
+387
+00:39:16,000 --> 00:39:23,000
+Then for next one, you have this column as your second column.
+
+388
+00:39:24,000 --> 00:39:28,000
+So you just shift the second column in this way.
+
+389
+00:39:29,000 --> 00:39:33,000
+And finally, for this element, when k is am-1,
+
+390
+00:39:34,000 --> 00:39:38,000
+when k is am-1, then this will be a0.
+
+391
+00:39:38,000 --> 00:39:42,000
+And this is, yeah, k is m-1.
+
+392
+00:39:43,000 --> 00:39:46,000
+Then m-1 plus 1 is an.
+
+393
+00:39:47,000 --> 00:39:49,000
+So that's this period.
+
+394
+00:39:50,000 --> 00:39:51,000
+Okay?
+
+395
+00:39:52,000 --> 00:39:54,000
+So that's how you form the two by two matrix.
+
+396
+00:39:55,000 --> 00:40:01,000
+Yeah, maybe for easy to remember, we compute this one first.
+
+397
+00:40:02,000 --> 00:40:05,000
+You just use this as the first column, this as the second column.
+
+398
+00:40:05,000 --> 00:40:08,000
+Then you compute the determinant, you get this.
+
+399
+00:40:09,000 --> 00:40:13,000
+Then for this, you just change these two values to this.
+
+400
+00:40:14,000 --> 00:40:18,000
+Yeah, you have to replace the second column by the previous column here.
+
+401
+00:40:19,000 --> 00:40:23,000
+Then compute determinant until you have this to get this b0.
+
+402
+00:40:24,000 --> 00:40:25,000
+Okay?
+
+403
+00:40:26,000 --> 00:40:28,000
+So you just, to compute this, use this pair.
+
+404
+00:40:29,000 --> 00:40:30,000
+This one, you use this pair.
+
+405
+00:40:31,000 --> 00:40:34,000
+This one, you use the second pair here.
+
+406
+00:40:35,000 --> 00:40:37,000
+So that's how we get b.
+
+407
+00:40:38,000 --> 00:40:41,000
+Once you get b, then you reverse the order.
+
+408
+00:40:43,000 --> 00:40:46,000
+Yeah, you just reverse the order to get the fourth row.
+
+409
+00:40:47,000 --> 00:40:53,000
+Okay, for the fifth row, you have to use the previous two rows to do computation.
+
+410
+00:40:54,000 --> 00:40:56,000
+This time, you use the same rule.
+
+411
+00:40:56,000 --> 00:41:03,000
+For example, for this Cm minus two, you also have to use the two by two matrix,
+
+412
+00:41:04,000 --> 00:41:08,000
+which is formed by this column and this column.
+
+413
+00:41:09,000 --> 00:41:13,000
+Then you compute the determinant of this two by two matrix, you get this.
+
+414
+00:41:14,000 --> 00:41:23,000
+Then for this value, you replace this column by this column here.
+
+415
+00:41:23,000 --> 00:41:27,000
+Then compute this until C0 here.
+
+416
+00:41:28,000 --> 00:41:31,000
+C0, then this will be the second column.
+
+417
+00:41:32,000 --> 00:41:35,000
+So you can compute the determinant to get C0.
+
+418
+00:41:36,000 --> 00:41:40,000
+Once you get this C0, you have finished the fifth column.
+
+419
+00:41:41,000 --> 00:41:44,000
+Then you reverse the order to get the sixth column.
+
+420
+00:41:45,000 --> 00:41:47,000
+Then you can stop at this here.
+
+421
+00:41:48,000 --> 00:41:50,000
+You have a second order in this case.
+
+422
+00:41:50,000 --> 00:41:52,000
+Yeah, you have three values.
+
+423
+00:41:53,000 --> 00:41:55,000
+So that's how you get the jury table.
+
+424
+00:41:56,000 --> 00:41:59,000
+Okay, so this is to form the jury table.
+
+425
+00:42:00,000 --> 00:42:04,000
+Now, let's consider the stability criteria by jury test.
+
+426
+00:42:05,000 --> 00:42:10,000
+We have four conditions for stability of this polynomial.
+
+427
+00:42:10,000 --> 00:42:21,000
+First, the magnitude of An, that is the absolute value of this An should be less than A0.
+
+428
+00:42:22,000 --> 00:42:25,000
+Remember, we put A0 as positive.
+
+429
+00:42:28,000 --> 00:42:36,000
+Second condition, you compute P1, that is you let Z be one, you compute P1,
+
+430
+00:42:36,000 --> 00:42:42,000
+which is A0 plus A1 up to An. This should be bigger than zero.
+
+431
+00:42:43,000 --> 00:42:47,000
+Third condition, you compute the P negative one.
+
+432
+00:42:49,000 --> 00:42:54,000
+Okay, if n is even number, this value should be bigger than zero.
+
+433
+00:42:55,000 --> 00:43:04,000
+If n is odd number, yeah, odd integer, for example three, five, then this value should be negative.
+
+434
+00:43:04,000 --> 00:43:08,000
+And finally, you will use the jury table.
+
+435
+00:43:09,000 --> 00:43:18,000
+Okay, for the jury table, you have to compare the absolute value of Bn minus one, which is this value,
+
+436
+00:43:19,000 --> 00:43:24,000
+the absolute value of this term, and also the absolute value of B0, the last one.
+
+437
+00:43:24,000 --> 00:43:31,000
+This absolute value should be bigger than the absolute value of B0,
+
+438
+00:43:32,000 --> 00:43:40,000
+and also for other first common values, until Q2, yeah, this Q2,
+
+439
+00:43:41,000 --> 00:43:46,000
+the absolute value should be bigger than the absolute value of Q0.
+
+440
+00:43:47,000 --> 00:43:54,000
+So, if all the four conditions are satisfied, this polynomial will have all the poles,
+
+441
+00:43:55,000 --> 00:43:58,000
+all its roots inside the unit circle.
+
+442
+00:43:59,000 --> 00:44:03,000
+Okay, you don't have to find the exact location.
+
+443
+00:44:04,000 --> 00:44:10,000
+Based on this, you know all the roots of Pz should be inside the unit circle.
+
+444
+00:44:11,000 --> 00:44:13,000
+Now, we have a special case.
+
+445
+00:44:13,000 --> 00:44:18,000
+For second order system, you only need the first three conditions.
+
+446
+00:44:20,000 --> 00:44:22,000
+You don't have to form jury table.
+
+447
+00:44:23,000 --> 00:44:27,000
+So, in that case, you save lots of calculation.
+
+448
+00:44:32,000 --> 00:44:35,000
+Okay, let's look at some examples.
+
+449
+00:44:36,000 --> 00:44:39,000
+Yeah, this is a general fourth order polynomial.
+
+450
+00:44:40,000 --> 00:44:46,000
+Then, you can have these four conditions found.
+
+451
+00:44:47,000 --> 00:44:51,000
+Yeah, because that's the first condition.
+
+452
+00:44:52,000 --> 00:44:54,000
+This is P1, and that's P-1.
+
+453
+00:44:55,000 --> 00:44:59,000
+This should be bigger than zero, because n is a given number.
+
+454
+00:45:00,000 --> 00:45:05,000
+And also from the jury table, you have these two conditions.
+
+455
+00:45:06,000 --> 00:45:10,000
+Okay, yeah, in this case, you have a fourth order.
+
+456
+00:45:11,000 --> 00:45:18,000
+So, you have to form until the fifth row here.
+
+457
+00:45:25,000 --> 00:45:28,000
+The middle one is not required.
+
+458
+00:45:29,000 --> 00:45:31,000
+So, you don't have to compute the C1.
+
+459
+00:45:32,000 --> 00:45:38,000
+Okay, this is how you form the matrix to compute the determinant,
+
+460
+00:45:39,000 --> 00:45:42,000
+so that B3, B2, B1, B0 can be found.
+
+461
+00:45:43,000 --> 00:45:48,000
+And this is how you form the two by two matrices to compute the C2, C1, and C0.
+
+462
+00:45:49,000 --> 00:45:51,000
+I said you don't have to compute C1.
+
+463
+00:45:53,000 --> 00:45:57,000
+Okay, that's for the case when you have a fourth order polynomial.
+
+464
+00:45:58,000 --> 00:46:02,000
+And let's look at the numerical example.
+
+465
+00:46:03,000 --> 00:46:06,000
+So, this is a fourth order polynomial.
+
+466
+00:46:07,000 --> 00:46:09,000
+You check the first condition.
+
+467
+00:46:11,000 --> 00:46:18,000
+A0 is actually one, and this A4 is negative 0.08.
+
+468
+00:46:19,000 --> 00:46:22,000
+So, its opposite value is 0.08, which is less than one.
+
+469
+00:46:23,000 --> 00:46:25,000
+So, first condition is satisfied.
+
+470
+00:46:25,000 --> 00:46:29,000
+Yeah, maybe I put this condition here for easy reference.
+
+471
+00:46:31,000 --> 00:46:34,000
+Okay, so first condition satisfied.
+
+472
+00:46:35,000 --> 00:46:37,000
+Now, you compute P1.
+
+473
+00:46:38,000 --> 00:46:43,000
+Just let Z be one, you do a calculation, that's positive.
+
+474
+00:46:44,000 --> 00:46:46,000
+So, second condition satisfied.
+
+475
+00:46:47,000 --> 00:46:50,000
+You compute P is negative one, so Z is negative one.
+
+476
+00:46:51,000 --> 00:46:53,000
+Negative one, that will be positive.
+
+477
+00:46:53,000 --> 00:46:55,000
+This will also be negative.
+
+478
+00:46:56,000 --> 00:46:57,000
+Yeah, that's negative.
+
+479
+00:46:58,000 --> 00:46:59,000
+Then you compute this value.
+
+480
+00:47:00,000 --> 00:47:01,000
+That's bigger than zero.
+
+481
+00:47:02,000 --> 00:47:04,000
+So, third condition satisfied.
+
+482
+00:47:05,000 --> 00:47:12,000
+And finally, you form a jury table to compute the B values and also C values.
+
+483
+00:47:12,000 --> 00:47:26,000
+This is how you can compute the B values and the C values.
+
+484
+00:47:27,000 --> 00:47:34,000
+You just form the two by two matrix, find the determinant to get the B3,
+
+485
+00:47:35,000 --> 00:47:38,000
+and this give you B2, this will give you B1.
+
+486
+00:47:38,000 --> 00:47:47,000
+Then, from the B values, you can get your C2, C1, and C0.
+
+487
+00:47:48,000 --> 00:47:49,000
+You don't have to compute C1, in fact.
+
+488
+00:47:50,000 --> 00:47:51,000
+Okay?
+
+489
+00:47:52,000 --> 00:47:56,000
+So, all the four conditions are satisfied.
+
+490
+00:47:57,000 --> 00:47:58,000
+Okay?
+
+491
+00:48:00,000 --> 00:48:05,000
+Therefore, this polynomial is a stable polynomial.
+
+492
+00:48:05,000 --> 00:48:16,000
+In fact, you can check that the four poles are at 0.8, 0.5, negative 0.5, and 0.4.
+
+493
+00:48:17,000 --> 00:48:18,000
+Yeah.
+
+494
+00:48:21,000 --> 00:48:24,000
+Now, let's look at the third order polynomial.
+
+495
+00:48:24,000 --> 00:48:35,000
+Yeah, in this case, A0 is 1, A1 is negative 1.1, A2 is negative 0.1, A3 is 0.2.
+
+496
+00:48:36,000 --> 00:48:43,000
+So, based on these four conditions, we check the jury test, check the stability.
+
+497
+00:48:44,000 --> 00:48:46,000
+First, condition satisfied.
+
+498
+00:48:47,000 --> 00:48:48,000
+That's okay.
+
+499
+00:48:49,000 --> 00:48:50,000
+Second condition, you compute P1.
+
+500
+00:48:51,000 --> 00:48:52,000
+That's zero.
+
+501
+00:48:55,000 --> 00:48:56,000
+What does this mean?
+
+502
+00:48:57,000 --> 00:49:01,000
+If this is zero, it means one is a solution.
+
+503
+00:49:02,000 --> 00:49:07,000
+Yeah, because P1 equals zero, that means one satisfies this equation.
+
+504
+00:49:08,000 --> 00:49:09,000
+So, one is the solution.
+
+505
+00:49:10,000 --> 00:49:14,000
+So, you have a pole at z equals one, in this case.
+
+506
+00:49:15,000 --> 00:49:21,000
+Then you compute P1, and this is negative.
+
+507
+00:49:22,000 --> 00:49:24,000
+So, this condition is satisfied.
+
+508
+00:49:27,000 --> 00:49:30,000
+And you also have to check the fourth condition.
+
+509
+00:49:31,000 --> 00:49:36,000
+To check the fourth condition, you have to form the jury table.
+
+510
+00:49:37,000 --> 00:49:38,000
+So, this is the first row.
+
+511
+00:49:39,000 --> 00:49:41,000
+You reverse the order to get the second row.
+
+512
+00:49:42,000 --> 00:49:43,000
+Compute P2.
+
+513
+00:49:44,000 --> 00:49:46,000
+That's the first P value.
+
+514
+00:49:47,000 --> 00:49:50,000
+Use this first column and last column.
+
+515
+00:49:51,000 --> 00:49:52,000
+Compute the determinant.
+
+516
+00:49:53,000 --> 00:49:54,000
+Get this P2.
+
+517
+00:49:55,000 --> 00:49:58,000
+Then replace this column by the second last column here.
+
+518
+00:49:59,000 --> 00:50:00,000
+Compute the determinant.
+
+519
+00:50:01,000 --> 00:50:02,000
+Get this.
+
+520
+00:50:03,000 --> 00:50:04,000
+And this is the P0.
+
+521
+00:50:05,000 --> 00:50:07,000
+In fact, you don't have to compute P1,
+
+522
+00:50:08,000 --> 00:50:12,000
+because you just need to compare the opposite value of P2
+
+523
+00:50:12,000 --> 00:50:15,000
+and also the opposite value of P0.
+
+524
+00:50:16,000 --> 00:50:19,000
+And you can see this condition is also satisfied.
+
+525
+00:50:23,000 --> 00:50:24,000
+So, what's the conclusion?
+
+526
+00:50:25,000 --> 00:50:27,000
+Our system is critically stable.
+
+527
+00:50:28,000 --> 00:50:34,000
+You just have one pole at z equals one.
+
+528
+00:50:35,000 --> 00:50:38,000
+Two other poles are inside the unit circle.
+
+529
+00:50:38,000 --> 00:50:41,000
+Okay, now let's consider more examples.
+
+530
+00:50:42,000 --> 00:50:44,000
+This is a third-order polynomial.
+
+531
+00:50:45,000 --> 00:50:47,000
+We check the four conditions.
+
+532
+00:50:48,000 --> 00:50:50,000
+First condition, satisfied.
+
+533
+00:50:51,000 --> 00:50:54,000
+Second condition, you compute P1.
+
+534
+00:50:56,000 --> 00:50:58,000
+When z equals one, you do a calculation,
+
+535
+00:50:59,000 --> 00:51:00,000
+and the answer is negative,
+
+536
+00:51:01,000 --> 00:51:04,000
+which means this condition is not true.
+
+537
+00:51:04,000 --> 00:51:06,000
+So what can we say that?
+
+538
+00:51:07,000 --> 00:51:08,000
+System is unstable.
+
+539
+00:51:10,000 --> 00:51:12,000
+Then you don't have to proceed.
+
+540
+00:51:14,000 --> 00:51:15,000
+Yes, you can stop here,
+
+541
+00:51:16,000 --> 00:51:20,000
+because this second condition is not satisfied.
+
+542
+00:51:21,000 --> 00:51:23,000
+Then you say this system is unstable.
+
+543
+00:51:24,000 --> 00:51:29,000
+So when you are using jury criteria to check stability,
+
+544
+00:51:30,000 --> 00:51:32,000
+you don't form the table.
+
+545
+00:51:32,000 --> 00:51:34,000
+Like this, you don't have to form the table.
+
+546
+00:51:35,000 --> 00:51:39,000
+You just check the conditions one by one here.
+
+547
+00:51:40,000 --> 00:51:42,000
+First condition, second condition, third condition.
+
+548
+00:51:43,000 --> 00:51:45,000
+If all these conditions are satisfied,
+
+549
+00:51:46,000 --> 00:51:49,000
+then you form the jury table
+
+550
+00:51:50,000 --> 00:51:51,000
+and check the fourth condition.
+
+551
+00:51:52,000 --> 00:51:55,000
+If one of the conditions like this is not satisfied,
+
+552
+00:51:56,000 --> 00:51:57,000
+then you can stop here.
+
+553
+00:51:57,000 --> 00:51:59,000
+If one of the conditions like this is not satisfied,
+
+554
+00:52:00,000 --> 00:52:01,000
+then you can stop here
+
+555
+00:52:02,000 --> 00:52:06,000
+to give your answer about the system stability.
+
+556
+00:52:09,000 --> 00:52:11,000
+Okay, now let's consider a control system.
+
+557
+00:52:15,000 --> 00:52:20,000
+Just now, we mentioned this closed-loop system.
+
+558
+00:52:27,000 --> 00:52:42,000
+Okay, assume the sampling period is one second,
+
+559
+00:52:43,000 --> 00:52:47,000
+and the open-loop pulse transfer function is this.
+
+560
+00:52:48,000 --> 00:52:53,000
+Yeah, that is gz equals this value, where k is a constant.
+
+561
+00:52:53,000 --> 00:52:58,000
+What's our h in this case?
+
+562
+00:52:59,000 --> 00:53:02,000
+Actually, h is one.
+
+563
+00:53:03,000 --> 00:53:04,000
+How do we know it's one?
+
+564
+00:53:05,000 --> 00:53:07,000
+Because it says unit feedback.
+
+565
+00:53:08,000 --> 00:53:11,000
+Nothing means the feedback here is unit feedback.
+
+566
+00:53:12,000 --> 00:53:13,000
+So h is equal to one.
+
+567
+00:53:14,000 --> 00:53:19,000
+Okay, now we have to determine the range of k for stability.
+
+568
+00:53:20,000 --> 00:53:25,000
+Okay, so now we compute the closed-loop pulse transfer function
+
+569
+00:53:26,000 --> 00:53:31,000
+using this formula, which is g divided by one plus gh.
+
+570
+00:53:32,000 --> 00:53:33,000
+I said h is equal to one.
+
+571
+00:53:34,000 --> 00:53:40,000
+So you just substitute this g into here with h as one.
+
+572
+00:53:41,000 --> 00:53:42,000
+After simplification, you get this.
+
+573
+00:53:43,000 --> 00:53:46,000
+So that's a second-order system
+
+574
+00:53:46,000 --> 00:53:51,000
+because the denominator is a second-order.
+
+575
+00:53:52,000 --> 00:53:56,000
+And in fact, your a0 is equal to one.
+
+576
+00:53:57,000 --> 00:53:59,000
+a1 equals this.
+
+577
+00:54:00,000 --> 00:54:02,000
+That's the coefficient of z.
+
+578
+00:54:03,000 --> 00:54:06,000
+a2 is the constant term.
+
+579
+00:54:07,000 --> 00:54:12,000
+We don't have to check the force condition
+
+580
+00:54:13,000 --> 00:54:16,000
+because our system is second-order.
+
+581
+00:54:17,000 --> 00:54:19,000
+So you don't have to form the jury table.
+
+582
+00:54:20,000 --> 00:54:26,000
+You just need to consider the first three conditions for this system.
+
+583
+00:54:28,000 --> 00:54:31,000
+Okay, so we have this first condition.
+
+584
+00:54:32,000 --> 00:54:34,000
+a2 magnitude should be less than a0.
+
+585
+00:54:35,000 --> 00:54:36,000
+a0 is one, in fact.
+
+586
+00:54:37,000 --> 00:54:38,000
+What is a2? a2 is this.
+
+587
+00:54:39,000 --> 00:54:41,000
+So this observed value should be less than one.
+
+588
+00:54:43,000 --> 00:54:46,000
+p1 should be bigger than zero according to this.
+
+589
+00:54:47,000 --> 00:54:50,000
+p-1 also should be bigger than zero
+
+590
+00:54:51,000 --> 00:54:54,000
+because n is two, which is even.
+
+591
+00:54:55,000 --> 00:54:57,000
+Okay, so now based on these three conditions,
+
+592
+00:54:58,000 --> 00:55:01,000
+we will have three inequalities.
+
+593
+00:55:01,000 --> 00:55:17,000
+Yeah, these are the three conditions to be checked.
+
+594
+00:55:18,000 --> 00:55:20,000
+Now, for the first condition,
+
+595
+00:55:21,000 --> 00:55:24,000
+this observed value should be less than one
+
+596
+00:55:25,000 --> 00:55:26,000
+because a0 is one.
+
+597
+00:55:27,000 --> 00:55:29,000
+Then you solve this inequality.
+
+598
+00:55:29,000 --> 00:55:32,000
+Yeah, I believe you know how to solve this inequality.
+
+599
+00:55:33,000 --> 00:55:35,000
+It has this solution.
+
+600
+00:55:36,000 --> 00:55:40,000
+Yeah, basically you have to remove the absolute sign.
+
+601
+00:55:41,000 --> 00:55:45,000
+So that means this term should be bigger than negative one
+
+602
+00:55:46,000 --> 00:55:47,000
+but less than one.
+
+603
+00:55:48,000 --> 00:55:49,000
+So you get this solution for k.
+
+604
+00:55:50,000 --> 00:55:52,000
+Now p1 should be bigger than zero.
+
+605
+00:55:53,000 --> 00:55:55,000
+And our p1, yeah, you do a calculation.
+
+606
+00:55:56,000 --> 00:55:57,000
+What is p1?
+
+607
+00:55:57,000 --> 00:56:02,000
+When z equals one, you can find that it's this value.
+
+608
+00:56:04,000 --> 00:56:08,000
+Actually, it is just this plus this.
+
+609
+00:56:12,000 --> 00:56:14,000
+This implies your k should be positive.
+
+610
+00:56:15,000 --> 00:56:18,000
+Third condition, p-1, you compute p-1.
+
+611
+00:56:19,000 --> 00:56:21,000
+So you replace z by negative one, negative one.
+
+612
+00:56:22,000 --> 00:56:24,000
+Then you do a calculation, you get this.
+
+613
+00:56:25,000 --> 00:56:26,000
+That should be positive.
+
+614
+00:56:27,000 --> 00:56:28,000
+Less than this.
+
+615
+00:56:29,000 --> 00:56:33,000
+Your k should satisfy the three conditions simultaneously.
+
+616
+00:56:34,000 --> 00:56:35,000
+So what's your final result?
+
+617
+00:56:36,000 --> 00:56:38,000
+You find the overlapping regions.
+
+618
+00:56:39,000 --> 00:56:40,000
+That's this.
+
+619
+00:56:41,000 --> 00:56:44,000
+So for stability, your k should be bigger than zero
+
+620
+00:56:45,000 --> 00:56:46,000
+but less than this.
+
+621
+00:56:47,000 --> 00:56:49,000
+So you cannot choose your k obviously.
+
+622
+00:56:50,000 --> 00:56:52,000
+That's why when you design your controller,
+
+623
+00:56:53,000 --> 00:56:56,000
+you have to be careful about the choice of k.
+
+624
+00:56:57,000 --> 00:57:00,000
+Actually, when k equals this boundary,
+
+625
+00:57:01,000 --> 00:57:03,000
+the system becomes critically stable.
+
+626
+00:57:04,000 --> 00:57:07,000
+In this case, the two, yeah, actually,
+
+627
+00:57:08,000 --> 00:57:11,000
+this is a second order polynomial.
+
+628
+00:57:12,000 --> 00:57:13,000
+You have two poles.
+
+629
+00:57:14,000 --> 00:57:16,000
+These two poles will be on the unit circle
+
+630
+00:57:17,000 --> 00:57:21,000
+and the pair of, yeah, you solve this equation,
+
+631
+00:57:22,000 --> 00:57:26,000
+you get this pair of complex conjugate poles.
+
+632
+00:57:27,000 --> 00:57:30,000
+With the sampling period of one second,
+
+633
+00:57:31,000 --> 00:57:35,000
+you can find the oscillation frequency from 4.2.
+
+634
+00:57:36,000 --> 00:57:38,000
+Yeah, 4.2 is the one we're considering
+
+635
+00:57:39,000 --> 00:57:41,000
+constant damping ratio.
+
+636
+00:57:42,000 --> 00:57:44,000
+Remember, we have the definition
+
+637
+00:57:45,000 --> 00:57:49,000
+of constant damping ratio, omega d here.
+
+638
+00:57:50,000 --> 00:57:51,000
+Yeah.
+
+639
+00:57:52,000 --> 00:57:53,000
+This.
+
+640
+00:57:54,000 --> 00:57:56,000
+And omega d is the imaginary part.
+
+641
+00:57:57,000 --> 00:57:58,000
+Here.
+
+642
+00:57:59,000 --> 00:58:00,000
+Okay?
+
+643
+00:58:01,000 --> 00:58:03,000
+So that's the frequency of oscillation.
+
+644
+00:58:04,000 --> 00:58:05,000
+So omega d
+
+645
+00:58:08,000 --> 00:58:11,000
+over omega, yeah, omega d times t.
+
+646
+00:58:12,000 --> 00:58:13,000
+T is one.
+
+647
+00:58:14,000 --> 00:58:17,000
+So the angle of z is your omega d.
+
+648
+00:58:18,000 --> 00:58:20,000
+So if you want to find the angle,
+
+649
+00:58:22,000 --> 00:58:25,000
+you have to use these two terms.
+
+650
+00:58:25,000 --> 00:58:27,000
+You know how to find the angle?
+
+651
+00:58:28,000 --> 00:58:30,000
+It's the inverse tangent of the imaginary part
+
+652
+00:58:31,000 --> 00:58:32,000
+divided by the real part.
+
+653
+00:58:33,000 --> 00:58:34,000
+Okay?
+
+654
+00:58:35,000 --> 00:58:36,000
+So it's this.
+
+655
+00:58:37,000 --> 00:58:40,000
+So that's the frequency of oscillation in this case.
+
+656
+00:58:41,000 --> 00:58:43,000
+Yeah, if your case is this value,
+
+657
+00:58:44,000 --> 00:58:48,000
+the feedback system we are considering here
+
+658
+00:58:49,000 --> 00:58:50,000
+is not,
+
+659
+00:58:50,000 --> 00:58:51,000
+is not,
+
+660
+00:58:54,000 --> 00:58:55,000
+the output is not convergent.
+
+661
+00:58:56,000 --> 00:58:57,000
+It will oscillate.
+
+662
+00:58:58,000 --> 00:59:01,000
+And the frequency of oscillation is this.
+
+663
+00:59:04,000 --> 00:59:07,000
+Okay, so that's about stability
+
+664
+00:59:09,000 --> 00:59:11,000
+using jury criteria.
+
+665
+00:59:12,000 --> 00:59:15,000
+We have another method to check stability.
+
+666
+00:59:16,000 --> 00:59:17,000
+That is to use the
+
+667
+00:59:21,000 --> 00:59:23,000
+Rouse array approach.
+
+668
+00:59:25,000 --> 00:59:29,000
+If you study classical continuous time control system,
+
+669
+00:59:30,000 --> 00:59:33,000
+you know what is the Rouse array.
+
+670
+00:59:34,000 --> 00:59:35,000
+If you have not studied,
+
+671
+00:59:36,000 --> 00:59:38,000
+maybe you don't know this method.
+
+672
+00:59:40,000 --> 00:59:46,000
+Yeah, basically we will transform our z to w.
+
+673
+00:59:47,000 --> 00:59:49,000
+Yeah, we define z as this.
+
+674
+00:59:50,000 --> 00:59:53,000
+Then based on that, w will be equal to this.
+
+675
+00:59:56,000 --> 00:59:57,000
+Then this transformation
+
+676
+00:59:58,000 --> 01:00:01,000
+will map the inside of the unit circle in the z-plane
+
+677
+01:00:02,000 --> 01:00:03,000
+into the left half-plane,
+
+678
+01:00:05,000 --> 01:00:07,000
+yeah, left side of the w-plane.
+
+679
+01:00:08,000 --> 01:00:09,000
+You can prove this.
+
+680
+01:00:10,000 --> 01:00:13,000
+Assume w has a real part and the imaginary part.
+
+681
+01:00:13,000 --> 01:00:16,000
+The real part is sigma, imaginary part is omega.
+
+682
+01:00:17,000 --> 01:00:18,000
+Then you compute
+
+683
+01:00:19,000 --> 01:00:20,000
+the magnitude of z.
+
+684
+01:00:21,000 --> 01:00:22,000
+Yeah, because later on,
+
+685
+01:00:23,000 --> 01:00:25,000
+inside the unit circle means the magnitude of z
+
+686
+01:00:26,000 --> 01:00:28,000
+should be less than one.
+
+687
+01:00:29,000 --> 01:00:30,000
+Okay, z equals that.
+
+688
+01:00:31,000 --> 01:00:32,000
+Then you do a calculation
+
+689
+01:00:33,000 --> 01:00:35,000
+with w changed to that.
+
+690
+01:00:36,000 --> 01:00:37,000
+Then you do a calculation
+
+691
+01:00:38,000 --> 01:00:40,000
+with w changed to that.
+
+692
+01:00:44,000 --> 01:00:46,000
+Okay, so you compute the magnitude of this
+
+693
+01:00:49,000 --> 01:00:51,000
+and this should be less than one.
+
+694
+01:00:52,000 --> 01:00:55,000
+Actually, here,
+
+695
+01:00:56,000 --> 01:00:58,000
+this condition is equivalent to that
+
+696
+01:00:59,000 --> 01:01:01,000
+because this is magnitude less than one.
+
+697
+01:01:02,000 --> 01:01:03,000
+If we take the square
+
+698
+01:01:05,000 --> 01:01:07,000
+of the magnitude, it's also less than one.
+
+699
+01:01:08,000 --> 01:01:10,000
+Then the square of the magnitude is equal to this
+
+700
+01:01:11,000 --> 01:01:12,000
+divided by this, right?
+
+701
+01:01:13,000 --> 01:01:15,000
+Yeah, the numerator magnitude square
+
+702
+01:01:16,000 --> 01:01:18,000
+will be sigma plus one squared
+
+703
+01:01:19,000 --> 01:01:20,000
+plus omega squared.
+
+704
+01:01:21,000 --> 01:01:22,000
+Yeah, that's how you find the magnitude
+
+705
+01:01:23,000 --> 01:01:24,000
+of a complex number.
+
+706
+01:01:25,000 --> 01:01:26,000
+For the denominator,
+
+707
+01:01:27,000 --> 01:01:28,000
+the real part is sigma minus one.
+
+708
+01:01:29,000 --> 01:01:31,000
+So the magnitude is sigma minus one squared
+
+709
+01:01:32,000 --> 01:01:33,000
+plus omega squared.
+
+710
+01:01:34,000 --> 01:01:37,000
+So if z magnitude is less than one,
+
+711
+01:01:38,000 --> 01:01:40,000
+it implies this is also less than one.
+
+712
+01:01:41,000 --> 01:01:43,000
+Actually, if this is less than one,
+
+713
+01:01:44,000 --> 01:01:46,000
+our z magnitude is also less than one.
+
+714
+01:01:47,000 --> 01:01:50,000
+So that's sufficient and necessary condition
+
+715
+01:01:51,000 --> 01:01:52,000
+for these two cases,
+
+716
+01:01:53,000 --> 01:01:55,000
+these two substitutions.
+
+717
+01:01:56,000 --> 01:01:57,000
+Now, we consider this part
+
+718
+01:01:58,000 --> 01:02:01,000
+where you multiply the denominator and both sides.
+
+719
+01:02:02,000 --> 01:02:04,000
+This inequality becomes that.
+
+720
+01:02:07,000 --> 01:02:10,000
+Because the denominator is positive,
+
+721
+01:02:12,000 --> 01:02:14,000
+so you don't reverse the sign here.
+
+722
+01:02:15,000 --> 01:02:16,000
+So this is the result.
+
+723
+01:02:17,000 --> 01:02:18,000
+Now you solve this.
+
+724
+01:02:19,000 --> 01:02:21,000
+Inequality is sigma less than zero.
+
+725
+01:02:22,000 --> 01:02:24,000
+Based on this proof,
+
+726
+01:02:25,000 --> 01:02:27,000
+we can see that z magnitude less than one
+
+727
+01:02:28,000 --> 01:02:30,000
+is equivalent to sigma less than one.
+
+728
+01:02:31,000 --> 01:02:37,000
+That is, if you have the unit circle in the z-plane,
+
+729
+01:02:38,000 --> 01:02:41,000
+the inside of this unit circle is equivalent
+
+730
+01:02:42,000 --> 01:02:47,000
+to the left side of the w-plane.
+
+731
+01:02:48,000 --> 01:02:49,000
+So based on this,
+
+732
+01:02:50,000 --> 01:02:53,000
+we can do bilinear transformation
+
+733
+01:02:54,000 --> 01:02:56,000
+and then use Routh's stability criteria.
+
+734
+01:02:56,000 --> 01:02:57,000
+What do we do?
+
+735
+01:02:58,000 --> 01:03:01,000
+Just now, we have a polynomial of z.
+
+736
+01:03:02,000 --> 01:03:03,000
+So you have Pz.
+
+737
+01:03:04,000 --> 01:03:10,000
+Then you replace z by this, w plus one over w minus one.
+
+738
+01:03:12,000 --> 01:03:13,000
+You do a substitution.
+
+739
+01:03:14,000 --> 01:03:16,000
+So you replace your z by this.
+
+740
+01:03:16,000 --> 01:03:18,000
+So you replace your z by this.
+
+741
+01:03:25,000 --> 01:03:28,000
+What we have is a rational function in this case,
+
+742
+01:03:29,000 --> 01:03:31,000
+because this is a rational function here.
+
+743
+01:03:32,000 --> 01:03:36,000
+So you substitute this into the polynomial Pz.
+
+744
+01:03:37,000 --> 01:03:39,000
+Then you get a rational function.
+
+745
+01:03:40,000 --> 01:03:45,000
+Then you consider the numerator of the rational function.
+
+746
+01:03:46,000 --> 01:03:48,000
+So this numerator is P prime w.
+
+747
+01:03:49,000 --> 01:03:51,000
+Then, using this P prime w,
+
+748
+01:03:52,000 --> 01:03:55,000
+you can check the stability of the original Pz
+
+749
+01:03:56,000 --> 01:03:59,000
+using the continuous Routh's stability criteria.
+
+750
+01:04:00,000 --> 01:04:05,000
+That is, we have to ensure the roots of P prime w
+
+751
+01:04:06,000 --> 01:04:07,000
+on the left half-plane,
+
+752
+01:04:09,000 --> 01:04:12,000
+because we have used this transformation.
+
+753
+01:04:13,000 --> 01:04:15,000
+So let's look at an example.
+
+754
+01:04:16,000 --> 01:04:19,000
+Suppose we have this fourth order polynomial
+
+755
+01:04:20,000 --> 01:04:23,000
+studied earlier in example 4.5.
+
+756
+01:04:33,000 --> 01:04:41,000
+So now you just replace this z by w plus one over w minus one.
+
+757
+01:04:42,000 --> 01:04:45,000
+Then you have lots of calculations involved.
+
+758
+01:04:47,000 --> 01:04:50,000
+You have to compute the fourth power of this,
+
+759
+01:04:51,000 --> 01:04:54,000
+the third power of this, squared, and this.
+
+760
+01:04:55,000 --> 01:04:59,000
+Then you do subtraction, addition, and so on.
+
+761
+01:05:00,000 --> 01:05:04,000
+After simplification, you get this numerator.
+
+762
+01:05:05,000 --> 01:05:07,000
+Based on this numerator coefficient,
+
+763
+01:05:07,000 --> 01:05:12,000
+you can form a Routh's array like this.
+
+764
+01:05:13,000 --> 01:05:17,000
+You should know what is the method of Routh's array
+
+765
+01:05:18,000 --> 01:05:23,000
+based on the classical continuous control system.
+
+766
+01:05:24,000 --> 01:05:25,000
+So you form the first row
+
+767
+01:05:26,000 --> 01:05:28,000
+with the coefficient of the highest power.
+
+768
+01:05:29,000 --> 01:05:30,000
+You jump one term and jump one.
+
+769
+01:05:31,000 --> 01:05:34,000
+You get one, 59.78, 21.
+
+770
+01:05:34,000 --> 01:05:37,000
+For the second row here, that's the second term,
+
+771
+01:05:38,000 --> 01:05:39,000
+and then jump one, you get this.
+
+772
+01:05:40,000 --> 01:05:41,000
+Then based on these two rows,
+
+773
+01:05:42,000 --> 01:05:47,000
+you have the row corresponding to w squared,
+
+774
+01:05:48,000 --> 01:05:50,000
+and from this you get w1 and w0.
+
+775
+01:05:51,000 --> 01:05:53,000
+Then you look at the first corner here.
+
+776
+01:05:55,000 --> 01:05:58,000
+As you can see, there is no change in the sign.
+
+777
+01:05:58,000 --> 01:06:07,000
+So you have zero root on the right half plane.
+
+778
+01:06:08,000 --> 01:06:12,000
+The number of changes in the sign in the first column
+
+779
+01:06:13,000 --> 01:06:17,000
+corresponding to the number of roots of your p prime w
+
+780
+01:06:18,000 --> 01:06:19,000
+on the right half plane.
+
+781
+01:06:20,000 --> 01:06:22,000
+If there is no sign change,
+
+782
+01:06:23,000 --> 01:06:25,000
+you have zero root on the right half plane.
+
+783
+01:06:25,000 --> 01:06:27,000
+So this is a stable system.
+
+784
+01:06:28,000 --> 01:06:32,000
+This is a method using our classical control.
+
+785
+01:06:33,000 --> 01:06:36,000
+For the two methods, we have some remarks.
+
+786
+01:06:39,000 --> 01:06:42,000
+Our jury table or jury test
+
+787
+01:06:43,000 --> 01:06:46,000
+does not give you the number of roots
+
+788
+01:06:47,000 --> 01:06:48,000
+outside the unit circle,
+
+789
+01:06:49,000 --> 01:06:53,000
+but the Routh's test will give you the number of roots
+
+790
+01:06:53,000 --> 01:06:54,000
+on the right half plane.
+
+791
+01:06:55,000 --> 01:06:57,000
+That is the number of unstable roots.
+
+792
+01:06:58,000 --> 01:07:03,000
+However, the jury table is easier in calculation
+
+793
+01:07:04,000 --> 01:07:06,000
+than our bilinear transformation.
+
+794
+01:07:07,000 --> 01:07:14,000
+For example, the case for the fourth order example,
+
+795
+01:07:15,000 --> 01:07:19,000
+you have to substitute this to the polynomial
+
+796
+01:07:20,000 --> 01:07:21,000
+and do lots of calculation.
+
+797
+01:07:22,000 --> 01:07:27,000
+So this is a very tedious computation.
+
+798
+01:07:28,000 --> 01:07:31,000
+This is not required in our examination
+
+799
+01:07:32,000 --> 01:07:33,000
+because lots of calculation.
+
+800
+01:07:34,000 --> 01:07:40,000
+But jury test is definitely required.
+
+801
+01:07:44,000 --> 01:07:50,000
+Stability has nothing to do with the system's performance.
+
+802
+01:07:52,000 --> 01:07:57,000
+That is, how the output tracks the input is not discussed.
+
+803
+01:07:58,000 --> 01:08:04,000
+Stability is to check whether you have a signal
+
+804
+01:08:05,000 --> 01:08:08,000
+that goes to unbounded.
+
+805
+01:08:11,000 --> 01:08:15,000
+So now if we want to consider system performance,
+
+806
+01:08:16,000 --> 01:08:17,000
+we have two analyses,
+
+807
+01:08:17,000 --> 01:08:21,000
+quadrant and steady state analyses.
+
+808
+01:08:22,000 --> 01:08:27,000
+For quadrant analysis, it is very difficult.
+
+809
+01:08:28,000 --> 01:08:32,000
+For second order, it is possible to do analysis manually.
+
+810
+01:08:33,000 --> 01:08:34,000
+But for high order system
+
+811
+01:08:35,000 --> 01:08:37,000
+and also for advanced control systems,
+
+812
+01:08:38,000 --> 01:08:42,000
+normally you will use computational tools such as Matlab.
+
+813
+01:08:43,000 --> 01:08:45,000
+We did this previously.
+
+814
+01:08:45,000 --> 01:08:52,000
+We are using Matlab to find the output response.
+
+815
+01:08:54,000 --> 01:08:58,000
+But here I just gave you some definitions
+
+816
+01:08:59,000 --> 01:09:00,000
+on the quadrant response.
+
+817
+01:09:01,000 --> 01:09:07,000
+The response over a time period from zero to settling time
+
+818
+01:09:08,000 --> 01:09:10,000
+is called quadrant response.
+
+819
+01:09:11,000 --> 01:09:14,000
+You have overshoot, you have rise time,
+
+820
+01:09:15,000 --> 01:09:17,000
+you have settling time like this.
+
+821
+01:09:18,000 --> 01:09:22,000
+Just previous week, we studied the settling time requirement.
+
+822
+01:09:23,000 --> 01:09:25,000
+So this is quadrant response.
+
+823
+01:09:26,000 --> 01:09:32,000
+You are using computational tool to find such results.
+
+824
+01:09:33,000 --> 01:09:37,000
+So here we don't consider our calculation manually.
+
+825
+01:09:38,000 --> 01:09:42,000
+I will study steady state response
+
+826
+01:09:43,000 --> 01:09:45,000
+because we can use final value theorem
+
+827
+01:09:46,000 --> 01:09:49,000
+to determine our steady state value.
+
+828
+01:09:50,000 --> 01:09:53,000
+Steady state means your time goes to infinity.
+
+829
+01:09:54,000 --> 01:09:58,000
+So we have steady state error analysis
+
+830
+01:09:59,000 --> 01:10:04,000
+as our last part of these four weeks.
+
+831
+01:10:07,000 --> 01:10:11,000
+Okay, so how do we study steady state error analysis?
+
+832
+01:10:12,000 --> 01:10:15,000
+We will use some typical input signals.
+
+833
+01:10:16,000 --> 01:10:17,000
+They are called test signals.
+
+834
+01:10:18,000 --> 01:10:23,000
+The typical signals are step input, ramp input,
+
+835
+01:10:24,000 --> 01:10:25,000
+and the acceleration input.
+
+836
+01:10:26,000 --> 01:10:33,000
+Also, we have to recall one important concept.
+
+837
+01:10:34,000 --> 01:10:36,000
+For continuous time system,
+
+838
+01:10:37,000 --> 01:10:39,000
+you have this open loop transfer function.
+
+839
+01:10:40,000 --> 01:10:45,000
+Open loop means, for example, you have this feedback system.
+
+840
+01:10:46,000 --> 01:10:47,000
+That's closed loop.
+
+841
+01:10:48,000 --> 01:10:49,000
+That's closed.
+
+842
+01:10:50,000 --> 01:10:52,000
+Open loop means you've broken the loop.
+
+843
+01:10:53,000 --> 01:10:54,000
+So in this case, it's open.
+
+844
+01:10:55,000 --> 01:10:57,000
+Then you have open loop transfer function.
+
+845
+01:10:58,000 --> 01:11:01,000
+For continuous time system, it's Gs times Hs.
+
+846
+01:11:02,000 --> 01:11:05,000
+So if the open loop transfer function is like this,
+
+847
+01:11:06,000 --> 01:11:09,000
+the number of integrators in the open loop transfer function,
+
+848
+01:11:10,000 --> 01:11:14,000
+N, is called the type of system.
+
+849
+01:11:16,000 --> 01:11:18,000
+Okay, we have this concept.
+
+850
+01:11:19,000 --> 01:11:21,000
+Now, for discrete time system,
+
+851
+01:11:22,000 --> 01:11:26,000
+if we have this open loop transfer function,
+
+852
+01:11:27,000 --> 01:11:29,000
+that is, this is open,
+
+853
+01:11:29,000 --> 01:11:32,000
+then the open loop is G times H.
+
+854
+01:11:33,000 --> 01:11:34,000
+Yeah, that's this part here.
+
+855
+01:11:36,000 --> 01:11:41,000
+Then, if this open loop transfer function is denoted as this,
+
+856
+01:11:42,000 --> 01:11:47,000
+we have integrator 1 over Z minus 1 to power N.
+
+857
+01:11:48,000 --> 01:11:50,000
+So that means you have also an integrator here.
+
+858
+01:11:51,000 --> 01:11:54,000
+This is called the type of discrete time system,
+
+859
+01:11:55,000 --> 01:11:57,000
+similar to the continuous time system.
+
+860
+01:11:57,000 --> 01:11:59,000
+Of course, in this situation,
+
+861
+01:12:00,000 --> 01:12:06,000
+your Pz and Az shouldn't have the factor of Z minus 1.
+
+862
+01:12:07,000 --> 01:12:09,000
+Yeah, if your Pz has a factor of this,
+
+863
+01:12:10,000 --> 01:12:11,000
+that will cancel out this.
+
+864
+01:12:12,000 --> 01:12:13,000
+If your Az has such a factor,
+
+865
+01:12:14,000 --> 01:12:15,000
+it should combine with this.
+
+866
+01:12:16,000 --> 01:12:21,000
+So that's the definition of the type of system.
+
+867
+01:12:22,000 --> 01:12:24,000
+Okay, now we consider this system
+
+868
+01:12:27,000 --> 01:12:35,000
+Yeah, this is a typical discrete time control system.
+
+869
+01:12:36,000 --> 01:12:39,000
+We have this actual 18-a-root, E t,
+
+870
+01:12:40,000 --> 01:12:43,000
+which is R t minus B t.
+
+871
+01:12:44,000 --> 01:12:47,000
+Yeah, actually this E t is a continuous time signal.
+
+872
+01:12:48,000 --> 01:12:50,000
+Of course, you can take Z transform
+
+873
+01:12:51,000 --> 01:12:54,000
+to obtain E z equal to R z minus B z.
+
+874
+01:12:54,000 --> 01:12:57,000
+Yeah, for continuous time signal, you have Z transform,
+
+875
+01:12:58,000 --> 01:12:59,000
+as I mentioned before.
+
+876
+01:13:00,000 --> 01:13:04,000
+Okay, so we are looking for the steady state error
+
+877
+01:13:05,000 --> 01:13:09,000
+of E t or E kt.
+
+878
+01:13:10,000 --> 01:13:13,000
+So based on final value theorem,
+
+879
+01:13:14,000 --> 01:13:19,000
+the steady state error will be equal to E kt,
+
+880
+01:13:20,000 --> 01:13:21,000
+when k tends to infinity.
+
+881
+01:13:22,000 --> 01:13:25,000
+That's the definition of steady state error.
+
+882
+01:13:26,000 --> 01:13:27,000
+Based on final value theorem,
+
+883
+01:13:28,000 --> 01:13:29,000
+this is the same as this.
+
+884
+01:13:30,000 --> 01:13:33,000
+Of course, assume the system is stable.
+
+885
+01:13:34,000 --> 01:13:36,000
+Yeah, if your system is unstable,
+
+886
+01:13:37,000 --> 01:13:38,000
+then you have divergence.
+
+887
+01:13:39,000 --> 01:13:42,000
+Okay, so this E z is this E z here.
+
+888
+01:13:43,000 --> 01:13:47,000
+Then you have 1 minus Z inverse times this Z transform of E.
+
+889
+01:13:48,000 --> 01:13:50,000
+And then take an limit of Z tends to one,
+
+890
+01:13:51,000 --> 01:13:52,000
+you get the answer.
+
+891
+01:13:53,000 --> 01:13:56,000
+Okay, so that's how we find the steady state error.
+
+892
+01:13:57,000 --> 01:14:02,000
+Okay, now let's consider a few typical case.
+
+893
+01:14:03,000 --> 01:14:05,000
+Yeah, first, with the input.
+
+894
+01:14:06,000 --> 01:14:07,000
+With this input.
+
+895
+01:14:09,000 --> 01:14:10,000
+Yeah, okay.
+
+896
+01:14:10,000 --> 01:14:11,000
+Okay.
+
+897
+01:14:14,000 --> 01:14:17,000
+Yeah, here actually we do some analysis.
+
+898
+01:14:18,000 --> 01:14:21,000
+E z equals R z minus B z, as I just mentioned.
+
+899
+01:14:22,000 --> 01:14:23,000
+Here.
+
+900
+01:14:24,000 --> 01:14:25,000
+Yeah, that's E z.
+
+901
+01:14:26,000 --> 01:14:28,000
+So you do some analysis.
+
+902
+01:14:29,000 --> 01:14:32,000
+And this B z equals G H z times E z.
+
+903
+01:14:33,000 --> 01:14:35,000
+From the block diagram.
+
+904
+01:14:36,000 --> 01:14:37,000
+Yeah, that's B t.
+
+905
+01:14:38,000 --> 01:14:39,000
+So you have B z here.
+
+906
+01:14:40,000 --> 01:14:44,000
+This is the pulse transfer function, you can find out.
+
+907
+01:14:45,000 --> 01:14:46,000
+Then times E z here.
+
+908
+01:14:47,000 --> 01:14:49,000
+Okay, G H z times E z.
+
+909
+01:14:50,000 --> 01:14:53,000
+And how do we find the G H z for this system?
+
+910
+01:14:55,000 --> 01:14:57,000
+Yeah, we have a zero-order hold.
+
+911
+01:14:58,000 --> 01:15:03,000
+So you have to use the zero-order hold formula,
+
+912
+01:15:04,000 --> 01:15:06,000
+which has this factor, 1 minus Z inverse.
+
+913
+01:15:06,000 --> 01:15:12,000
+Then times Z transform of G p times H s over s.
+
+914
+01:15:13,000 --> 01:15:19,000
+Basically, you multiply G p with H, and then divide by s.
+
+915
+01:15:20,000 --> 01:15:21,000
+Then you find the corresponding Z transform,
+
+916
+01:15:22,000 --> 01:15:23,000
+then multiply with that.
+
+917
+01:15:24,000 --> 01:15:26,000
+You get this pulse transfer function.
+
+918
+01:15:27,000 --> 01:15:32,000
+So B z will be equal to this pulse transfer function times E z.
+
+919
+01:15:33,000 --> 01:15:34,000
+Okay?
+
+920
+01:15:34,000 --> 01:15:43,000
+Yeah, we did this in week three.
+
+921
+01:15:44,000 --> 01:15:45,000
+Okay?
+
+922
+01:15:46,000 --> 01:15:49,000
+Okay, so based on that, you can find G z equals this.
+
+923
+01:15:50,000 --> 01:15:51,000
+Yeah, you substitute this.
+
+924
+01:15:52,000 --> 01:15:54,000
+Yeah, you consider this equation.
+
+925
+01:15:55,000 --> 01:16:00,000
+You move the term here to the left and factorize E z out.
+
+926
+01:16:01,000 --> 01:16:03,000
+Then you find E z to be this.
+
+927
+01:16:04,000 --> 01:16:05,000
+Right?
+
+928
+01:16:06,000 --> 01:16:07,000
+So you move this here.
+
+929
+01:16:08,000 --> 01:16:14,000
+You have coefficient 1 plus G H z as the coefficient of E z.
+
+930
+01:16:15,000 --> 01:16:16,000
+So E z equals that.
+
+931
+01:16:17,000 --> 01:16:22,000
+Okay, so we are using this E z to find the steady state.
+
+932
+01:16:23,000 --> 01:16:25,000
+Yeah, based on final value theorem.
+
+933
+01:16:26,000 --> 01:16:30,000
+So it's 1 minus Z inverse times E z when Z turns to 1.
+
+934
+01:16:31,000 --> 01:16:32,000
+Okay?
+
+935
+01:16:32,000 --> 01:16:35,000
+So this analysis is possible for us to do.
+
+936
+01:16:36,000 --> 01:16:39,000
+Okay, now let's consider a few typical case.
+
+937
+01:16:40,000 --> 01:16:43,000
+When the input is unit step,
+
+938
+01:16:44,000 --> 01:16:46,000
+yeah, when this is unit step,
+
+939
+01:16:47,000 --> 01:16:50,000
+then we do steady state analysis.
+
+940
+01:16:51,000 --> 01:16:54,000
+If this is unit step, R z will be equal to this.
+
+941
+01:16:56,000 --> 01:17:01,000
+Then we substitute this R z to the formula we just obtained.
+
+942
+01:17:02,000 --> 01:17:04,000
+Yeah, this is the formula we just obtained.
+
+943
+01:17:12,000 --> 01:17:14,000
+Yeah, you have this R z.
+
+944
+01:17:15,000 --> 01:17:18,000
+Then this one times this.
+
+945
+01:17:19,000 --> 01:17:20,000
+This cancel out.
+
+946
+01:17:21,000 --> 01:17:22,000
+So you just have this term.
+
+947
+01:17:24,000 --> 01:17:27,000
+And this limit is equal to that.
+
+948
+01:17:29,000 --> 01:17:31,000
+So based on this, we can have a definition.
+
+949
+01:17:33,000 --> 01:17:36,000
+Called position error constant, K P.
+
+950
+01:17:37,000 --> 01:17:38,000
+That is this term.
+
+951
+01:17:39,000 --> 01:17:44,000
+Then the steady state error will be 1 over 1 plus K P.
+
+952
+01:17:46,000 --> 01:17:50,000
+Okay, this K P, what depends on the type of the system?
+
+953
+01:17:51,000 --> 01:17:55,000
+Yeah, just now I have a definition of the type of the system.
+
+954
+01:17:55,000 --> 01:17:56,000
+Here.
+
+955
+01:18:05,000 --> 01:18:13,000
+Yeah, this is the open loop transfer function, G H Z.
+
+956
+01:18:14,000 --> 01:18:15,000
+Yeah, that's G H Z.
+
+957
+01:18:16,000 --> 01:18:22,000
+So if you have zero integrator, what do you have here?
+
+958
+01:18:23,000 --> 01:18:26,000
+When Z tends to 1, you get B1 divided by A1.
+
+959
+01:18:27,000 --> 01:18:30,000
+Yeah, if this N is zero, you don't have this part.
+
+960
+01:18:31,000 --> 01:18:33,000
+So you just have B1 divided by A1.
+
+961
+01:18:34,000 --> 01:18:38,000
+So this K P is just a constant.
+
+962
+01:18:39,000 --> 01:18:44,000
+Then you have a non-zero error in this case.
+
+963
+01:18:45,000 --> 01:18:48,000
+Because 1 over 1 plus K P, K P is a constant.
+
+964
+01:18:49,000 --> 01:18:55,000
+So in this case, you cannot find the zero steady state error
+
+965
+01:18:56,000 --> 01:18:58,000
+to track this constant input.
+
+966
+01:18:59,000 --> 01:19:04,000
+However, if your open loop transfer function here has an integrator,
+
+967
+01:19:05,000 --> 01:19:08,000
+for example, N equals 1, what do you have?
+
+968
+01:19:09,000 --> 01:19:14,000
+When Z equals 1, that is when Z tends to 1,
+
+969
+01:19:15,000 --> 01:19:17,000
+this will go to infinity, right?
+
+970
+01:19:18,000 --> 01:19:21,000
+Yeah, because 1 divided by 0, that's infinity.
+
+971
+01:19:22,000 --> 01:19:24,000
+If N is 1, what's bigger than 1?
+
+972
+01:19:25,000 --> 01:19:26,000
+Then this is a constant.
+
+973
+01:19:27,000 --> 01:19:29,000
+So this is infinity, K P can be infinity,
+
+974
+01:19:30,000 --> 01:19:32,000
+then this 1 divided by infinity will be zero.
+
+975
+01:19:33,000 --> 01:19:36,000
+So if you want to have zero steady state error,
+
+976
+01:19:37,000 --> 01:19:41,000
+your open loop transfer function should have at least one integrator.
+
+977
+01:19:41,000 --> 01:19:48,000
+Okay, so that's the case when we consider unit step input.
+
+978
+01:19:49,000 --> 01:19:52,000
+Now, if your input here is a ramp,
+
+979
+01:19:55,000 --> 01:19:59,000
+yeah, ramp, what's the,
+
+980
+01:19:59,000 --> 01:20:09,000
+yeah, if this R T here is the ramp,
+
+981
+01:20:10,000 --> 01:20:15,000
+in this case, your R Z will be equal to this.
+
+982
+01:20:16,000 --> 01:20:20,000
+Yeah, you can find this Z transform from the table.
+
+983
+01:20:21,000 --> 01:20:25,000
+So, you use the formula we just have,
+
+984
+01:20:25,000 --> 01:20:30,000
+then you substitute this R Z to here,
+
+985
+01:20:31,000 --> 01:20:33,000
+and do some calculation.
+
+986
+01:20:34,000 --> 01:20:37,000
+Actually, here, you have a square,
+
+987
+01:20:38,000 --> 01:20:40,000
+so any cancel out one factor,
+
+988
+01:20:41,000 --> 01:20:46,000
+so you have 1 minus Z inverse lift in the denominator here.
+
+989
+01:20:47,000 --> 01:20:49,000
+So this multiply the denominator here,
+
+990
+01:20:50,000 --> 01:20:53,000
+you have these two terms, okay?
+
+991
+01:20:55,000 --> 01:20:58,000
+Then when Z go to one, this will go to zero,
+
+992
+01:20:59,000 --> 01:21:00,000
+that will go to one.
+
+993
+01:21:01,000 --> 01:21:04,000
+So you have this, yeah, this T in the numerator,
+
+994
+01:21:05,000 --> 01:21:09,000
+that go to zero, so you have this part,
+
+995
+01:21:10,000 --> 01:21:13,000
+and you divide T again, you get this.
+
+996
+01:21:14,000 --> 01:21:17,000
+So we have a definition of velocity error constant K V.
+
+997
+01:21:18,000 --> 01:21:19,000
+For this case,
+
+998
+01:21:20,000 --> 01:21:25,000
+you see this error will be one divided by K V, right?
+
+999
+01:21:26,000 --> 01:21:27,000
+This is the definition.
+
+1000
+01:21:28,000 --> 01:21:32,000
+Actually, K V also depends on the number of integrators.
+
+1001
+01:21:37,000 --> 01:21:40,000
+Yeah, if this N is zero, what is K V?
+
+1002
+01:21:42,000 --> 01:21:44,000
+If this N is zero, you don't have this.
+
+1003
+01:21:44,000 --> 01:21:50,000
+Then when Z go to one, this term will go to constant.
+
+1004
+01:21:51,000 --> 01:21:53,000
+So that means this is a constant.
+
+1005
+01:21:54,000 --> 01:21:56,000
+Then this will go to zero.
+
+1006
+01:21:57,000 --> 01:22:00,000
+So K V is zero, then that will be infinity.
+
+1007
+01:22:02,000 --> 01:22:05,000
+In this case, if you have no integrator,
+
+1008
+01:22:06,000 --> 01:22:08,000
+your speed is error will go to infinity
+
+1009
+01:22:09,000 --> 01:22:11,000
+if your input is ramped.
+
+1010
+01:22:11,000 --> 01:22:15,000
+However, if your system has one integrator,
+
+1011
+01:22:16,000 --> 01:22:18,000
+this will cancel out with this.
+
+1012
+01:22:19,000 --> 01:22:21,000
+Yeah, one under the inverse will cancel out this,
+
+1013
+01:22:22,000 --> 01:22:23,000
+then you have a constant.
+
+1014
+01:22:24,000 --> 01:22:27,000
+So you have a non-zero state error,
+
+1015
+01:22:28,000 --> 01:22:30,000
+but not go to infinity.
+
+1016
+01:22:31,000 --> 01:22:32,000
+Okay?
+
+1017
+01:22:33,000 --> 01:22:36,000
+Similarly, you can analyze acceleration input.
+
+1018
+01:22:37,000 --> 01:22:39,000
+In this case, you have this R Z,
+
+1019
+01:22:39,000 --> 01:22:44,000
+then you do some calculation by substituting this R Z to here.
+
+1020
+01:22:45,000 --> 01:22:46,000
+Yeah, you get this.
+
+1021
+01:22:47,000 --> 01:22:50,000
+You have cube, so you have square left in the denominator.
+
+1022
+01:22:51,000 --> 01:22:54,000
+After you take limit, you get this.
+
+1023
+01:22:56,000 --> 01:22:59,000
+And you can put this square in the denominator.
+
+1024
+01:23:00,000 --> 01:23:06,000
+And we have the definition of acceleration error constant, K A.
+
+1025
+01:23:07,000 --> 01:23:08,000
+So that's the definition.
+
+1026
+01:23:09,000 --> 01:23:11,000
+Again, steady state error will be one over K A.
+
+1027
+01:23:12,000 --> 01:23:16,000
+Okay, so these are the definitions of three error constants.
+
+1028
+01:23:17,000 --> 01:23:20,000
+And based on the error constants,
+
+1029
+01:23:21,000 --> 01:23:26,000
+we have those steady state error summarized in this table.
+
+1030
+01:23:27,000 --> 01:23:29,000
+Just now, I already considered,
+
+1031
+01:23:30,000 --> 01:23:34,000
+if you have a step input and your system types zero,
+
+1032
+01:23:35,000 --> 01:23:38,000
+you have non-zero steady state error.
+
+1033
+01:23:39,000 --> 01:23:41,000
+Because K P is a constant.
+
+1034
+01:23:42,000 --> 01:23:44,000
+And if your system type one, that means
+
+1035
+01:23:45,000 --> 01:23:48,000
+if you have one integrator, that will go to zero.
+
+1036
+01:23:49,000 --> 01:23:51,000
+Two integrator, that will go to zero.
+
+1037
+01:23:52,000 --> 01:23:56,000
+For ramp input, yeah, this is the input to the system.
+
+1038
+01:23:57,000 --> 01:23:59,000
+Type zero, that error will go to infinity.
+
+1039
+01:24:00,000 --> 01:24:01,000
+I already analyzed that.
+
+1040
+01:24:02,000 --> 01:24:04,000
+For type one, that's a constant.
+
+1041
+01:24:05,000 --> 01:24:07,000
+For type two, that will be zero.
+
+1042
+01:24:07,000 --> 01:24:09,000
+And so on, you have this situation.
+
+1043
+01:24:10,000 --> 01:24:13,000
+Okay, so that's the steady state error analysis.
+
+1044
+01:24:15,000 --> 01:24:20,000
+Yeah, this analysis just applies to our system here.
+
+1045
+01:24:21,000 --> 01:24:24,000
+Because our transfer function is obtained
+
+1046
+01:24:25,000 --> 01:24:26,000
+based on this system.
+
+1047
+01:24:28,000 --> 01:24:32,000
+And also, actually, the error I mentioned
+
+1048
+01:24:33,000 --> 01:24:36,000
+is not steady state tracking error.
+
+1049
+01:24:37,000 --> 01:24:40,000
+It's a steady state actuating error here.
+
+1050
+01:24:41,000 --> 01:24:44,000
+You see, it's the error between R T and B T.
+
+1051
+01:24:45,000 --> 01:24:47,000
+If H is one, then it's tracking error.
+
+1052
+01:24:48,000 --> 01:24:49,000
+Okay?
+
+1053
+01:24:51,000 --> 01:24:53,000
+If you have other configurations,
+
+1054
+01:24:54,000 --> 01:24:56,000
+you can do similar analysis.
+
+1055
+01:24:59,000 --> 01:25:01,000
+Yeah, you have some other configuration here.
+
+1056
+01:25:01,000 --> 01:25:04,000
+Maybe as exercise, you can define
+
+1057
+01:25:05,000 --> 01:25:08,000
+the position error constant, velocity error constant,
+
+1058
+01:25:09,000 --> 01:25:11,000
+acceleration constant, or coordinate
+
+1059
+01:25:12,000 --> 01:25:15,000
+for each of the configuration in the system.
+
+1060
+01:25:16,000 --> 01:25:20,000
+Okay, finally, we consider our response to disturbance.
+
+1061
+01:25:23,000 --> 01:25:28,000
+Yeah, just now we considered input R T here.
+
+1062
+01:25:29,000 --> 01:25:31,000
+And we found the output.
+
+1063
+01:25:32,000 --> 01:25:35,000
+Now, if we have disturbance, for example here,
+
+1064
+01:25:36,000 --> 01:25:38,000
+you have disturbance entering the system.
+
+1065
+01:25:39,000 --> 01:25:41,000
+Then, how do we find the output?
+
+1066
+01:25:42,000 --> 01:25:47,000
+You can use superposition, because this is a linear system.
+
+1067
+01:25:48,000 --> 01:25:51,000
+So, in other words, the total output C Z
+
+1068
+01:25:52,000 --> 01:25:55,000
+will be equal to the output when R is zero
+
+1069
+01:25:55,000 --> 01:26:02,000
+and N is non-zero, plus when N is zero, R is non-zero.
+
+1070
+01:26:03,000 --> 01:26:07,000
+So, you find the response of your output
+
+1071
+01:26:08,000 --> 01:26:11,000
+respectively to R and N.
+
+1072
+01:26:12,000 --> 01:26:15,000
+Previously, we already considered response to R.
+
+1073
+01:26:16,000 --> 01:26:19,000
+So, now we focus on response to disturbance.
+
+1074
+01:26:20,000 --> 01:26:24,000
+So, we want to find the output in response to N.
+
+1075
+01:26:25,000 --> 01:26:30,000
+To do this, we find the transfer function from N to C.
+
+1076
+01:26:31,000 --> 01:26:37,000
+Okay, we do a transformation of the block diagram.
+
+1077
+01:26:38,000 --> 01:26:42,000
+I think you should know how to do block diagram transformation.
+
+1078
+01:26:43,000 --> 01:26:44,000
+So, that's N.
+
+1079
+01:26:45,000 --> 01:26:47,000
+Then, after this, you have this G.
+
+1080
+01:26:48,000 --> 01:26:49,000
+Yeah, that's G.
+
+1081
+01:26:50,000 --> 01:26:52,000
+Yeah, this is a summation, but here is a subtraction.
+
+1082
+01:26:52,000 --> 01:26:55,000
+So, this sign is moved to here.
+
+1083
+01:26:56,000 --> 01:26:58,000
+So, N applied to this, you have G.
+
+1084
+01:26:59,000 --> 01:27:00,000
+Then, that's output C.
+
+1085
+01:27:01,000 --> 01:27:04,000
+C is feedback through, yeah, GD.
+
+1086
+01:27:05,000 --> 01:27:06,000
+So, here, C is feedback through GD.
+
+1087
+01:27:07,000 --> 01:27:09,000
+This negative sign is moved to here.
+
+1088
+01:27:10,000 --> 01:27:11,000
+Okay?
+
+1089
+01:27:12,000 --> 01:27:13,000
+So, you have feedback pass.
+
+1090
+01:27:14,000 --> 01:27:15,000
+Okay, based on this diagram,
+
+1091
+01:27:16,000 --> 01:27:18,000
+you can find the transfer function
+
+1092
+01:27:18,000 --> 01:27:25,000
+from N to output C.
+
+1093
+01:27:26,000 --> 01:27:27,000
+And then, you find the error.
+
+1094
+01:27:28,000 --> 01:27:31,000
+Actually, we also consider error analysis.
+
+1095
+01:27:32,000 --> 01:27:33,000
+Okay?
+
+1096
+01:27:34,000 --> 01:27:35,000
+Yeah.
+
+1097
+01:27:38,000 --> 01:27:41,000
+So, our R is zero in this case.
+
+1098
+01:27:42,000 --> 01:27:44,000
+What's the error for this situation?
+
+1099
+01:27:45,000 --> 01:27:47,000
+The error is actual 18 error.
+
+1100
+01:27:48,000 --> 01:27:49,000
+If we have unit feedback,
+
+1101
+01:27:50,000 --> 01:27:52,000
+yeah, actually, this diagram is unit feedback.
+
+1102
+01:27:53,000 --> 01:27:55,000
+Then, the error is same as tracking error.
+
+1103
+01:27:56,000 --> 01:27:57,000
+So, it's R minus C.
+
+1104
+01:27:58,000 --> 01:28:02,000
+Yeah, that's always the definition of error G.
+
+1105
+01:28:03,000 --> 01:28:06,000
+And R is zero, so that's negative C, right?
+
+1106
+01:28:07,000 --> 01:28:10,000
+Yeah, we assume R is zero,
+
+1107
+01:28:11,000 --> 01:28:13,000
+because we try to use superposition.
+
+1108
+01:28:14,000 --> 01:28:17,000
+So, this is the transfer function
+
+1109
+01:28:20,000 --> 01:28:23,000
+from N to C.
+
+1110
+01:28:24,000 --> 01:28:28,000
+It's G divided by one plus G times GD.
+
+1111
+01:28:29,000 --> 01:28:31,000
+But, in front, you have negative,
+
+1112
+01:28:32,000 --> 01:28:33,000
+and the input here is N.
+
+1113
+01:28:34,000 --> 01:28:36,000
+So, that's how you find this C.
+
+1114
+01:28:37,000 --> 01:28:40,000
+C is equal to this G divided by that times N.
+
+1115
+01:28:41,000 --> 01:28:42,000
+Okay?
+
+1116
+01:28:45,000 --> 01:28:46,000
+Okay.
+
+1117
+01:28:47,000 --> 01:28:50,000
+If the denominator here is much bigger than one,
+
+1118
+01:28:51,000 --> 01:28:54,000
+then you can, I mean, the magnitude,
+
+1119
+01:28:55,000 --> 01:28:56,000
+yeah, is much bigger than one,
+
+1120
+01:28:57,000 --> 01:28:59,000
+then you can ignore this one.
+
+1121
+01:29:00,000 --> 01:29:01,000
+If you ignore that,
+
+1122
+01:29:02,000 --> 01:29:06,000
+then this becomes this, approximately.
+
+1123
+01:29:07,000 --> 01:29:08,000
+Okay?
+
+1124
+01:29:09,000 --> 01:29:11,000
+So, this G comes out with this G.
+
+1125
+01:29:11,000 --> 01:29:13,000
+You have negative one over GD N.
+
+1126
+01:29:15,000 --> 01:29:18,000
+So, based on this 4.11,
+
+1127
+01:29:20,000 --> 01:29:24,000
+if this GD has very large magnitude for all Z,
+
+1128
+01:29:25,000 --> 01:29:27,000
+the error is small.
+
+1129
+01:29:28,000 --> 01:29:30,000
+In fact, we want this error to be small.
+
+1130
+01:29:31,000 --> 01:29:33,000
+That means, if this is small,
+
+1131
+01:29:34,000 --> 01:29:37,000
+the effect of disturbance is small.
+
+1132
+01:29:39,000 --> 01:29:40,000
+Okay?
+
+1133
+01:29:41,000 --> 01:29:43,000
+Now, let's consider a special case.
+
+1134
+01:29:44,000 --> 01:29:48,000
+That is, if this N is a constant disturbance,
+
+1135
+01:29:49,000 --> 01:29:51,000
+yeah, just now we considered general case.
+
+1136
+01:29:52,000 --> 01:29:53,000
+If N is constant,
+
+1137
+01:29:54,000 --> 01:29:58,000
+and this GD includes a pure integrator,
+
+1138
+01:29:59,000 --> 01:30:03,000
+which means GD has a pole at Z equals one.
+
+1139
+01:30:06,000 --> 01:30:08,000
+Yeah, this GD is designed by us.
+
+1140
+01:30:08,000 --> 01:30:12,000
+So, you can include an integrator in your GD.
+
+1141
+01:30:14,000 --> 01:30:17,000
+And we also assume this GZ.
+
+1142
+01:30:18,000 --> 01:30:21,000
+That's the transfer function of the plant.
+
+1143
+01:30:22,000 --> 01:30:23,000
+Yeah, GD is a controller.
+
+1144
+01:30:24,000 --> 01:30:26,000
+GZ is the transfer function of the plant.
+
+1145
+01:30:27,000 --> 01:30:30,000
+So, GZ has no zero at Z equals one.
+
+1146
+01:30:31,000 --> 01:30:34,000
+If we have zero, then this integrator pole
+
+1147
+01:30:35,000 --> 01:30:37,000
+will be cancelled out by this zero.
+
+1148
+01:30:39,000 --> 01:30:41,000
+Then, under this saturation,
+
+1149
+01:30:42,000 --> 01:30:45,000
+this error due to a constant disturbance is zero.
+
+1150
+01:30:46,000 --> 01:30:50,000
+Yeah, the K word here is steady state error.
+
+1151
+01:30:51,000 --> 01:30:54,000
+So, that means one time go to infinity.
+
+1152
+01:30:55,000 --> 01:30:57,000
+Even if you have a non-zero value here,
+
+1153
+01:30:58,000 --> 01:31:03,000
+the error will be eliminated by the integrator.
+
+1154
+01:31:04,000 --> 01:31:06,000
+Of course, during the transition period,
+
+1155
+01:31:06,000 --> 01:31:08,000
+you cannot eliminate.
+
+1156
+01:31:09,000 --> 01:31:11,000
+Okay, now let's do a proof.
+
+1157
+01:31:12,000 --> 01:31:14,000
+Assume this GD equals that.
+
+1158
+01:31:15,000 --> 01:31:17,000
+Because GD has an integrator,
+
+1159
+01:31:18,000 --> 01:31:21,000
+so the denominator should have this factor.
+
+1160
+01:31:22,000 --> 01:31:25,000
+And the remaining part is just G hat D, Z.
+
+1161
+01:31:26,000 --> 01:31:28,000
+Of course, this is non-polynomial.
+
+1162
+01:31:29,000 --> 01:31:30,000
+It's actually a transfer function.
+
+1163
+01:31:31,000 --> 01:31:34,000
+Yeah, we just factorized Z minus one out.
+
+1164
+01:31:36,000 --> 01:31:40,000
+So, based on this, you can also do this manipulation.
+
+1165
+01:31:41,000 --> 01:31:44,000
+And this part has no zero at Z equals one.
+
+1166
+01:31:46,000 --> 01:31:48,000
+Because if you have zero,
+
+1167
+01:31:49,000 --> 01:31:50,000
+then the integrator has no meaning.
+
+1168
+01:31:51,000 --> 01:31:52,000
+It's cancelled out.
+
+1169
+01:31:53,000 --> 01:31:56,000
+Now, we assume the constant disturbance is C.
+
+1170
+01:31:57,000 --> 01:31:58,000
+The value is C.
+
+1171
+01:31:59,000 --> 01:32:03,000
+So, the disturbance Z transform is C divided by this.
+
+1172
+01:32:04,000 --> 01:32:08,000
+This is the Z transform of a constant value.
+
+1173
+01:32:09,000 --> 01:32:15,000
+Okay, now let's use 4.10 to do calculation.
+
+1174
+01:32:16,000 --> 01:32:17,000
+4.10 is here.
+
+1175
+01:32:18,000 --> 01:32:23,000
+Now, of course, you have to substitute this GD into here.
+
+1176
+01:32:26,000 --> 01:32:32,000
+And the GZ, yeah, this GZ has no zero at Z equals one.
+
+1177
+01:32:33,000 --> 01:32:34,000
+NZ, NZ equals that.
+
+1178
+01:32:35,000 --> 01:32:39,000
+So, we substitute NZ and the GD to this 4.10.
+
+1179
+01:32:42,000 --> 01:32:45,000
+And also consider the final value theorem.
+
+1180
+01:32:46,000 --> 01:32:47,000
+You get this.
+
+1181
+01:32:48,000 --> 01:32:49,000
+This G is this G.
+
+1182
+01:32:51,000 --> 01:32:56,000
+Yeah, that's your controller part.
+
+1183
+01:32:57,000 --> 01:32:58,000
+That's NZ.
+
+1184
+01:32:59,000 --> 01:33:01,000
+Okay, so NZ equals that.
+
+1185
+01:33:01,000 --> 01:33:03,000
+Just now, we get this NZ.
+
+1186
+01:33:07,000 --> 01:33:10,000
+And we have this just copied here.
+
+1187
+01:33:11,000 --> 01:33:13,000
+Okay, so you do a calculation.
+
+1188
+01:33:16,000 --> 01:33:19,000
+You multiply one minus Z inverse.
+
+1189
+01:33:20,000 --> 01:33:23,000
+Inside the denominator, you have these two terms.
+
+1190
+01:33:24,000 --> 01:33:26,000
+Yeah, one times that, you get this.
+
+1191
+01:33:27,000 --> 01:33:29,000
+This one minus Z inverse comes out with this.
+
+1192
+01:33:29,000 --> 01:33:33,000
+So, you have GD hat Z, Z inverse times G.
+
+1193
+01:33:34,000 --> 01:33:40,000
+Then one minus Z inverse combined with G and C, you get this.
+
+1194
+01:33:41,000 --> 01:33:42,000
+Okay, you take a limit.
+
+1195
+01:33:43,000 --> 01:33:47,000
+This goes to zero because G has no zero at Z equals one.
+
+1196
+01:33:48,000 --> 01:33:49,000
+So, this will go to constant.
+
+1197
+01:33:50,000 --> 01:33:51,000
+C is a constant.
+
+1198
+01:33:52,000 --> 01:33:53,000
+So, a constant times zero is zero.
+
+1199
+01:33:54,000 --> 01:33:58,000
+This will go to zero, but this is non-zero.
+
+1200
+01:33:59,000 --> 01:34:00,000
+That's not equal to one.
+
+1201
+01:34:01,000 --> 01:34:02,000
+That's G one.
+
+1202
+01:34:03,000 --> 01:34:06,000
+G one is non-zero because you don't have zero at the...
+
+1203
+01:34:07,000 --> 01:34:09,000
+Yeah, GZ has no zero at Z equals one.
+
+1204
+01:34:10,000 --> 01:34:11,000
+So, this is zero.
+
+1205
+01:34:13,000 --> 01:34:14,000
+Okay?
+
+1206
+01:34:15,000 --> 01:34:21,000
+So, we proved our disturbance has no effect.
+
+1207
+01:34:22,000 --> 01:34:27,000
+And your arrow at the speed state.
+
+1208
+01:34:28,000 --> 01:34:33,000
+That means this disturbance effect is eliminated by a controller,
+
+1209
+01:34:34,000 --> 01:34:36,000
+including integrator.
+
+1210
+01:34:37,000 --> 01:34:40,000
+If your controller has integrator, so at the speed state,
+
+1211
+01:34:41,000 --> 01:34:44,000
+if this is a constant, it has no effect.
+
+1212
+01:34:45,000 --> 01:34:47,000
+But it has effect during transition period.
+
+1213
+01:34:48,000 --> 01:34:53,000
+Okay, so that's the first part of my course.
+
+1214
+01:34:54,000 --> 01:34:59,000
+I will come back in week nine.
+
+1215
+01:35:00,000 --> 01:35:04,000
+Yeah, but before that, we have a quiz today.
+
+1216
+01:35:18,000 --> 01:35:19,000
+Okay.
+
+1217
+01:35:20,000 --> 01:35:21,000
+Okay.
+
+1218
+01:35:22,000 --> 01:35:23,000
+Okay.
+
+1219
+01:35:24,000 --> 01:35:25,000
+Okay.
+
+1220
+01:35:26,000 --> 01:35:27,000
+Okay.
+
+1221
+01:35:28,000 --> 01:35:29,000
+Okay.
+
+1222
+01:35:30,000 --> 01:35:31,000
+Okay.
+
+1223
+01:35:32,000 --> 01:35:33,000
+Okay.
+
+1224
+01:35:34,000 --> 01:35:35,000
+Okay.
+
+1225
+01:35:36,000 --> 01:35:37,000
+Okay.
+
+1226
+01:35:38,000 --> 01:35:39,000
+Okay.
+
+1227
+01:35:40,000 --> 01:35:41,000
+Okay.
+
+1228
+01:35:42,000 --> 01:35:43,000
+Okay.
+
+1229
+01:35:44,000 --> 01:35:45,000
+Okay.
+
+1230
+01:35:46,000 --> 01:35:47,000
+Okay.
+
+1231
+01:35:48,000 --> 01:35:49,000
+Okay.
+
+1232
+01:35:50,000 --> 01:35:51,000
+Okay.
+
+1233
+01:35:52,000 --> 01:35:53,000
+Okay.
+
+1234
+01:35:54,000 --> 01:35:55,000
+Okay.
+
+1235
+01:35:56,000 --> 01:35:57,000
+Okay.
+
+1236
+01:35:58,000 --> 01:35:59,000
+Okay.
+
+1237
+01:36:00,000 --> 01:36:01,000
+Okay.
+
+1238
+01:36:02,000 --> 01:36:03,000
+Okay.
+
+1239
+01:36:04,000 --> 01:36:05,000
+Okay.
+
+1240
+01:36:06,000 --> 01:36:07,000
+Okay.
+
+1241
+01:36:08,000 --> 01:36:09,000
+Okay.
+
+1242
+01:36:10,000 --> 01:36:11,000
+Okay.
+
+1243
+01:36:12,000 --> 01:36:13,000
+Okay.
+
+1244
+01:36:14,000 --> 01:36:15,000
+Okay.
+
+1245
+01:36:16,000 --> 01:36:17,000
+Okay.
+
+1246
+01:36:18,000 --> 01:36:19,000
+Okay.
+
+1247
+01:36:20,000 --> 01:36:21,000
+Okay.
+
+1248
+01:36:22,000 --> 01:36:23,000
+Okay.
+
+1249
+01:36:24,000 --> 01:36:25,000
+Okay.
+
+1250
+01:36:26,000 --> 01:36:27,000
+Okay.
+
+1251
+01:36:28,000 --> 01:36:29,000
+Okay.
+
+1252
+01:36:30,000 --> 01:36:31,000
+Okay.
+
+1253
+01:36:32,000 --> 01:36:33,000
+Okay.
+
+1254
+01:36:34,000 --> 01:36:35,000
+Okay.
+
+1255
+01:36:36,000 --> 01:36:37,000
+Okay.
+
+1256
+01:36:38,000 --> 01:36:39,000
+Okay.
+
+1257
+01:36:40,000 --> 01:36:41,000
+Okay.
+
+1258
+01:36:42,000 --> 01:36:43,000
+Okay.
+
+1259
+01:36:44,000 --> 01:36:45,000
+Okay.
+
+1260
+01:36:46,000 --> 01:36:47,000
+Okay.
+
+1261
+01:36:48,000 --> 01:36:49,000
+Okay.
+
+1262
+01:36:50,000 --> 01:36:51,000
+Okay.
+
+1263
+01:36:52,000 --> 01:36:53,000
+Okay.
+
+1264
+01:36:54,000 --> 01:36:55,000
+Okay.
+
+1265
+01:36:56,000 --> 01:36:57,000
+Okay.
+
+1266
+01:36:58,000 --> 01:36:59,000
+Okay.
+
+1267
+01:37:00,000 --> 01:37:01,000
+Okay.
+
+1268
+01:37:02,000 --> 01:37:03,000
+Okay.
+
+1269
+01:37:04,000 --> 01:37:05,000
+Okay.
+
+1270
+01:37:06,000 --> 01:37:07,000
+Okay.
+
+1271
+01:37:08,000 --> 01:37:09,000
+Okay.
+
+1272
+01:37:10,000 --> 01:37:11,000
+Okay.
+
+1273
+01:37:12,000 --> 01:37:13,000
+Okay.
+
+1274
+01:37:13,000 --> 01:37:14,000
+Okay.
+
+1275
+01:37:14,000 --> 01:37:15,000
+Okay.
+
+1276
+01:37:15,000 --> 01:37:16,000
+Okay.
+
+1277
+01:37:16,000 --> 01:37:17,000
+Okay.
+
+1278
+01:37:17,000 --> 01:37:18,000
+Okay.
+
+1279
+01:37:18,000 --> 01:37:19,000
+Okay.
+
+1280
+01:37:19,000 --> 01:37:20,000
+Okay.
+
+1281
+01:37:20,000 --> 01:37:21,000
+Okay.
+
+1282
+01:37:21,000 --> 01:37:22,000
+Okay.
+
+1283
+01:37:22,000 --> 01:37:23,000
+Okay.
+
+1284
+01:37:23,000 --> 01:37:24,000
+Okay.
+
+1285
+01:37:24,000 --> 01:37:25,000
+Okay.
+
+1286
+01:37:25,000 --> 01:37:26,000
+Okay.
+
+1287
+01:37:26,000 --> 01:37:27,000
+Okay.
+
+1288
+01:37:27,000 --> 01:37:28,000
+Okay.
+
+1289
+01:37:28,000 --> 01:37:29,000
+Okay.
+
+1290
+01:37:29,000 --> 01:37:30,000
+Okay.
+
+1291
+01:37:30,000 --> 01:37:31,000
+Okay.
+
+1292
+01:37:31,000 --> 01:37:32,000
+Okay.
+
+1293
+01:37:32,000 --> 01:37:33,000
+Okay.
+
+1294
+01:37:33,000 --> 01:37:34,000
+Okay.
+
+1295
+01:37:34,000 --> 01:37:35,000
+Okay.
+
+1296
+01:37:35,000 --> 01:37:36,000
+Okay.
+
+1297
+01:37:36,000 --> 01:37:37,000
+Okay.
+
+1298
+01:37:38,000 --> 01:37:39,000
+Okay.
+
+1299
+01:37:39,000 --> 01:37:40,000
+Okay.
+
+1300
+01:37:40,000 --> 01:37:41,000
+Okay.
+
+1301
+01:37:41,000 --> 01:37:42,000
+Okay.
+
+1302
+01:37:42,000 --> 01:37:43,000
+Okay.
+
+1303
+01:37:43,000 --> 01:37:44,000
+Okay.
+
+1304
+01:37:44,000 --> 01:37:45,000
+Okay.
+
+1305
+01:37:45,000 --> 01:37:46,000
+Okay.
+
+1306
+01:37:46,000 --> 01:37:47,000
+Okay.
+
+1307
+01:37:47,000 --> 01:37:48,000
+Okay.
+
+1308
+01:37:48,000 --> 01:37:49,000
+Okay.
+
+1309
+01:37:49,000 --> 01:37:50,000
+Okay.
+
+1310
+01:37:50,000 --> 01:37:51,000
+Okay.
+
+1311
+01:37:51,000 --> 01:37:52,000
+Okay.
+
+1312
+01:37:52,000 --> 01:37:53,000
+Okay.
+
+1313
+01:37:53,000 --> 01:37:54,000
+Okay.
+
+1314
+01:37:54,000 --> 01:37:55,000
+Okay.
+
+1315
+01:37:55,000 --> 01:37:56,000
+Okay.
+
+1316
+01:37:56,000 --> 01:37:57,000
+Okay.
+
+1317
+01:37:57,000 --> 01:37:58,000
+Okay.
+
+1318
+01:37:58,000 --> 01:37:59,000
+Okay.
+
+1319
+01:37:59,000 --> 01:38:00,000
+Okay.
+
+1320
+01:38:00,000 --> 01:38:01,000
+Okay.
+
+1321
+01:38:01,000 --> 01:38:02,000
+Okay.
+
+1322
+01:38:02,000 --> 01:38:03,000
+Okay.
+
+1323
+01:38:03,000 --> 01:38:04,000
+Okay.
+
+1324
+01:38:04,000 --> 01:38:05,000
+Okay.
+
+1325
+01:38:05,000 --> 01:38:06,000
+Okay.
+
+1326
+01:38:06,000 --> 01:38:07,000
+Okay.
+
+1327
+01:38:07,000 --> 01:38:08,000
+Okay.
+
+1328
+01:38:08,000 --> 01:38:09,000
+Okay.
+
+1329
+01:38:09,000 --> 01:38:10,000
+Okay.
+
+1330
+01:38:10,000 --> 01:38:11,000
+Okay.
+
+1331
+01:38:11,000 --> 01:38:12,000
+Okay.
+
+1332
+01:38:12,000 --> 01:38:13,000
+Okay.
+
+1333
+01:38:13,000 --> 01:38:14,000
+Okay.
+
+1334
+01:38:14,000 --> 01:38:15,000
+Okay.
+
+1335
+01:38:15,000 --> 01:38:16,000
+Okay.
+
+1336
+01:38:16,000 --> 01:38:17,000
+Okay.
+
+1337
+01:38:17,000 --> 01:38:18,000
+Okay.
+
+1338
+01:38:18,000 --> 01:38:34,000
+Okay.
+
+1339
+01:38:34,000 --> 01:38:43,000
+Okay.
+
+1340
+01:38:43,000 --> 01:39:11,000
+Okay.
+
+1341
+01:39:11,000 --> 01:39:39,000
+Okay.
+
+1342
+01:39:39,000 --> 01:40:07,000
+Okay.
+
+1343
+01:40:07,000 --> 01:40:36,000
+Okay.
+
+1344
+01:40:36,000 --> 01:41:04,000
+Okay.
+
+1345
+01:41:04,000 --> 01:41:33,000
+Okay.
+
+1346
+01:41:33,000 --> 01:42:02,000
+Okay.
+
+1347
+01:42:02,000 --> 01:42:31,000
+Okay.
+
+1348
+01:42:31,000 --> 01:43:00,000
+Okay.
+
+1349
+01:43:00,000 --> 01:43:29,000
+Okay.
+
+1350
+01:43:29,000 --> 01:43:58,000
+Okay.
+
+1351
+01:43:58,000 --> 01:44:27,000
+Okay.
+
+1352
+01:44:27,000 --> 01:44:56,000
+Okay.
+
+1353
+01:44:56,000 --> 01:45:25,000
+Okay.
+
+1354
+01:45:25,000 --> 01:45:54,000
+Okay.
+
+1355
+01:45:54,000 --> 01:46:23,000
+Okay.
+
+1356
+01:46:23,000 --> 01:46:52,000
+Okay.
+
+1357
+01:46:52,000 --> 01:47:21,000
+Okay.
+
+1358
+01:47:21,000 --> 01:47:50,000
+Okay.
+
+1359
+01:47:50,000 --> 01:48:19,000
+Okay.
+
+1360
+01:48:19,000 --> 01:48:48,000
+Okay.
+
+1361
+01:48:48,000 --> 01:49:17,000
+Okay.
+
+1362
+01:49:17,000 --> 01:49:46,000
+Okay.
+
+1363
+01:49:46,000 --> 01:50:15,000
+Okay.
+
+1364
+01:50:15,000 --> 01:50:44,000
+Okay.
+
+1365
+01:50:44,000 --> 01:51:13,000
+Okay.
+
+1366
+01:51:13,000 --> 01:51:42,000
+Okay.
+
+1367
+01:51:42,000 --> 01:52:11,000
+Okay.
+
+1368
+01:52:11,000 --> 01:52:40,000
+Okay.
+
+1369
+01:52:40,000 --> 01:53:09,000
+Okay.
+
+1370
+01:53:09,000 --> 01:53:38,000
+Okay.
+
+1371
+01:53:38,000 --> 01:54:07,000
+Okay.
+
+1372
+01:54:07,000 --> 01:54:36,000
+Okay.
+
+1373
+01:54:36,000 --> 01:55:05,000
+Okay.
+
+1374
+01:55:05,000 --> 01:55:06,000
+Its
+
+1375
+01:55:06,000 --> 01:55:12,000
+so when the paper distribute to you don't turned it over we will start at the same time
+
+1376
+01:55:12,000 --> 01:55:14,000
+yeah otherwise some people were early.
+
+1377
+01:55:14,000 --> 01:55:17,000
+You didn't like a paper then stardate that's not fair.
+
+1378
+01:55:17,000 --> 01:55:18,000
+Okay.
+
+1379
+01:55:18,000 --> 01:55:19,000
+Okay.
+
+1380
+01:55:19,000 --> 01:55:20,000
+So we were start at the eight 45.
+
+1381
+01:55:20,000 --> 01:55:26,000
+At the same time all the students
+
+1382
+01:55:26,000 --> 01:55:40,180
+Don't turn it over, just put the paper on the table.
+
+1383
+01:55:40,180 --> 01:55:41,180
+Don't turn it over.
+
+1384
+01:55:41,180 --> 01:55:42,180
+Don't write.
+
+1385
+01:55:42,180 --> 01:55:43,180
+Hello?
+
+1386
+01:55:43,180 --> 01:55:44,180
+Excuse me.
+
+1387
+01:55:44,180 --> 01:55:45,180
+Hello.
+
+1388
+01:55:45,180 --> 01:55:49,440
+Don't turn it over.
+
+1389
+01:55:49,440 --> 01:55:54,840
+We will start the quiz at the same time.
+
+1390
+01:55:54,840 --> 01:55:57,600
+Just put the paper on the table.
+
+1391
+01:55:57,600 --> 01:56:11,160
+Wait until 845.
+
+1392
+01:56:11,160 --> 01:56:31,360
+Also, when you submit the answers, you have to submit to the invagilator.
+
+1393
+01:56:31,360 --> 01:56:59,360
+The invagilator will make a tick to take your attendance, okay?
+
+1394
+01:56:59,360 --> 01:57:02,760
+Yeah, I think it's enough.
+
+1395
+01:57:02,760 --> 01:57:04,160
+The space will be enough.
+
+1396
+01:57:04,160 --> 01:57:05,160
+Okay.
+
+1397
+01:57:05,160 --> 01:57:06,160
+Yeah, we see one page.
+
+1398
+01:57:06,160 --> 01:57:07,160
+Two, three.
+
+1399
+01:57:07,160 --> 01:57:08,160
+Yeah.
+
+1400
+01:57:08,160 --> 01:57:09,160
+Yeah.
+
+1401
+01:57:09,160 --> 01:57:10,160
+Any way for their draft.
+
+1402
+01:57:10,160 --> 01:57:11,160
+They prepare their own.
+
+1403
+01:57:11,160 --> 01:57:12,160
+They want to prepare their own?
+
+1404
+01:57:12,160 --> 01:57:13,160
+Do they have their own?
+
+1405
+01:57:13,160 --> 01:57:14,160
+Their draft.
+
+1406
+01:57:14,160 --> 01:57:15,160
+Do they prepare their own?
+
+1407
+01:57:15,160 --> 01:57:16,160
+No.
+
+1408
+01:57:16,160 --> 01:57:17,160
+They can also write off to here.
+
+1409
+01:57:17,160 --> 01:57:18,160
+Yeah.
+
+1410
+01:57:18,160 --> 01:57:48,080
+Okay, please don't turn the paper over until we ask you to do so.
+
+1411
+01:57:48,120 --> 01:57:49,120
+Okay.
+
+1412
+01:57:49,120 --> 01:57:50,120
+Okay.
+
+1413
+01:57:50,120 --> 01:57:51,120
+Okay.
+
+1414
+01:57:51,120 --> 01:58:21,080
+No.
+
+1415
+01:58:21,080 --> 01:58:22,600
+Just use this.
+
+1416
+01:58:22,600 --> 01:58:26,160
+You don't have to use your own rough paper.
+
+1417
+01:58:26,160 --> 01:58:28,760
+Just write your draft.
+
+1418
+01:58:28,760 --> 01:58:31,240
+I think we have enough space.
+
+1419
+01:58:31,240 --> 01:58:32,460
+Okay.
+
+1420
+01:58:32,460 --> 01:58:36,120
+You can use the back side.
+
+1421
+01:58:36,120 --> 01:58:44,680
+Yeah, we should be uniform.
+
+1422
+01:58:44,680 --> 01:59:10,840
+So just use the paper.
+
+1423
+01:59:10,840 --> 01:59:11,840
+Yeah.
+
+1424
+01:59:11,840 --> 01:59:21,000
+The space will be taken when you submit your answers, okay?
+
+1425
+01:59:21,000 --> 01:59:27,640
+So later, yeah, group one, submit to her.
+
+1426
+01:59:27,640 --> 01:59:31,840
+Yeah, you can stand here, right?
+
+1427
+01:59:31,840 --> 01:59:32,840
+Yeah.
+
+1428
+01:59:32,840 --> 01:59:35,960
+Group two, submit to him.
+
+1429
+01:59:35,960 --> 01:59:38,560
+Group three, to her.
+
+1430
+01:59:38,560 --> 01:59:39,560
+Group four, to her.
+
+1431
+01:59:39,560 --> 01:59:40,560
+And to him.
+
+1432
+01:59:40,560 --> 01:59:41,560
+Group five, to her.
+
+1433
+01:59:41,560 --> 01:59:42,560
+Group six, to her.
+
+1434
+01:59:42,560 --> 01:59:43,560
+Group seven, to her.
+
+1435
+01:59:43,560 --> 01:59:44,560
+Group eight, to her.
+
+1436
+01:59:44,560 --> 01:59:45,560
+Group nine, to her.
+
+1437
+01:59:45,560 --> 01:59:46,560
+Group 10, to her.
+
+1438
+01:59:46,560 --> 01:59:47,560
+Group 11, to her.
+
+1439
+01:59:47,560 --> 01:59:48,560
+Group 12, to her.
+
+1440
+01:59:48,560 --> 01:59:49,560
+Group 13, to her.
+
+1441
+01:59:49,560 --> 01:59:50,560
+Group 14, to her.
+
+1442
+01:59:50,560 --> 01:59:51,560
+Group 15, to her.
+
+1443
+01:59:51,560 --> 01:59:52,560
+Group 16, to her.
+
+1444
+01:59:52,560 --> 01:59:53,560
+Group 17, to her.
+
+1445
+01:59:53,560 --> 01:59:54,560
+Group 18, to her.
+
+1446
+01:59:54,560 --> 01:59:55,560
+Group 19, to her.
+
+1447
+01:59:55,560 --> 01:59:56,560
+Group 19, to her.
+
+1448
+01:59:56,560 --> 01:59:57,560
+Group 20, to her.
+
+1449
+01:59:57,560 --> 01:59:58,560
+Group 20, to her.
+
+1450
+01:59:58,560 --> 01:59:59,560
+Group 21, to her.
+
+1451
+01:59:59,560 --> 02:00:00,560
+Group 21, to her.
+
+1452
+02:00:00,560 --> 02:00:01,560
+Group 22, to her.
+
+1453
+02:00:01,560 --> 02:00:02,560
+Group 22, to her.
+
+1454
+02:00:02,560 --> 02:00:03,560
+Group 23, to her.
+
+1455
+02:00:03,560 --> 02:00:04,560
+Group 23, to her.
+
+1456
+02:00:04,560 --> 02:00:05,560
+Group 24, to her.
+
+1457
+02:00:05,560 --> 02:00:06,560
+Group 24, to her.
+
+1458
+02:00:06,560 --> 02:00:07,560
+Group 25, to her.
+
+1459
+02:00:07,560 --> 02:00:08,560
+Group 25, to her.
+
+1460
+02:00:10,560 --> 02:00:11,560
+Group 25, to her.
+
+1461
+02:00:11,560 --> 02:00:12,560
+Group 25, to her.
+
+1462
+02:00:12,560 --> 02:00:13,560
+Group 25, to her.
+
+1463
+02:00:13,560 --> 02:00:14,560
+Group 25, to her.
+
+1464
+02:00:14,560 --> 02:00:15,560
+Group 25, to her.
+
+1465
+02:00:15,560 --> 02:00:16,560
+Group 25, to her.
+
+1466
+02:00:16,560 --> 02:00:17,560
+Group 25, to her.
+
+1467
+02:00:17,560 --> 02:00:18,560
+Group 25, to her.
+
+1468
+02:00:18,560 --> 02:00:19,560
+Group 25, to her.
+
+1469
+02:00:19,560 --> 02:00:20,560
+Group 25, to her.
+
+1470
+02:00:20,560 --> 02:00:21,560
+Group 25, to her.
+
+1471
+02:00:21,560 --> 02:00:22,560
+Group 25, to her.
+
+1472
+02:00:22,560 --> 02:00:23,560
+Group 25, to her.
+
+1473
+02:00:23,560 --> 02:00:24,560
+Group 25, to her.
+
+1474
+02:00:24,560 --> 02:00:25,560
+Group 25, to her.
+
+1475
+02:00:25,560 --> 02:00:26,560
+Group 25, to her.
+
+1476
+02:00:26,560 --> 02:00:27,560
+Group 25, to her.
+
+1477
+02:00:27,560 --> 02:00:28,560
+Group 25, to her.
+
+1478
+02:00:28,560 --> 02:00:29,560
+Group 25, to her.
+
+1479
+02:00:29,560 --> 02:00:30,560
+Group 25, to her.
+
+1480
+02:00:30,560 --> 02:00:31,560
+Group 25, to her.
+
+1481
+02:00:31,560 --> 02:00:32,560
+Group 25, to her.
+
+1482
+02:00:32,560 --> 02:00:33,560
+Group 25, to her.
+
+1483
+02:00:33,560 --> 02:00:34,560
+Group 25, to her.
+
+1484
+02:00:34,560 --> 02:00:35,560
+Group 25, to her.
+
+1485
+02:00:35,560 --> 02:00:36,560
+Group 25, to her.
+
+1486
+02:00:36,560 --> 02:00:37,560
+Group 25, to her.
+
+1487
+02:00:37,560 --> 02:00:38,560
+Group 25, to her.
+
+1488
+02:00:40,560 --> 02:00:41,560
+Group 25, to her.
+
+1489
+02:00:41,560 --> 02:00:42,560
+Group 25, to her.
+
+1490
+02:00:42,560 --> 02:00:43,560
+Group 25, to her.
+
+1491
+02:00:43,560 --> 02:00:44,560
+Group 25, to her.
+
+1492
+02:00:44,560 --> 02:00:45,560
+Group 25, to her.
+
+1493
+02:00:45,560 --> 02:00:46,560
+Group 25, to her.
+
+1494
+02:00:46,560 --> 02:00:47,560
+Group 25, to her.
+
+1495
+02:00:47,560 --> 02:00:48,560
+Group 25, to her.
+
+1496
+02:00:48,560 --> 02:00:49,560
+Group 25, to her.
+
+1497
+02:00:49,560 --> 02:00:50,560
+Group 25, to her.
+
+1498
+02:00:50,560 --> 02:00:51,560
+Group 25, to her.
+
+1499
+02:00:51,560 --> 02:00:52,560
+Group 25, to her.
+
+1500
+02:00:52,560 --> 02:00:53,560
+Group 25, to her.
+
+1501
+02:00:53,560 --> 02:00:54,560
+Group 25, to her.
+
+1502
+02:00:54,560 --> 02:00:55,560
+Group 25, to her.
+
+1503
+02:00:55,560 --> 02:00:56,560
+Group 25, to her.
+
+1504
+02:00:56,560 --> 02:00:57,560
+Group 25, to her.
+
+1505
+02:00:57,560 --> 02:00:58,560
+Group 25, to her.
+
+1506
+02:00:58,560 --> 02:00:59,560
+Group 25, to her.
+
+1507
+02:00:59,560 --> 02:01:00,560
+Group 25, to her.
+
+1508
+02:01:00,560 --> 02:01:01,560
+Group 25, to her.
+
+1509
+02:01:01,560 --> 02:01:26,560
+Group 25, to her.
+
+1510
+02:01:26,560 --> 02:01:54,560
+Group 25, to her.
+
+1511
+02:01:54,560 --> 02:02:23,560
+Group 25, to her.
+
+1512
+02:02:23,560 --> 02:02:51,560
+Group 25, to her.
+
+1513
+02:02:51,560 --> 02:03:20,560
+Group 25, to her.
+
+1514
+02:03:20,560 --> 02:03:48,560
+Group 25, to her.
+
+1515
+02:03:48,560 --> 02:04:17,560
+Group 25, to her.
+
+1516
+02:04:17,560 --> 02:04:46,560
+Group 25, to her.
+
+1517
+02:04:46,560 --> 02:05:14,560
+Group 25, to her.
+
+1518
+02:05:14,560 --> 02:05:43,560
+Group 25, to her.
+
+1519
+02:05:43,560 --> 02:06:11,560
+Group 25, to her.
+
+1520
+02:06:11,560 --> 02:06:40,560
+Group 25, to her.
+
+1521
+02:06:40,560 --> 02:07:08,560
+Group 25, to her.
+
+1522
+02:07:08,560 --> 02:07:37,560
+Group 25, to her.
+
+1523
+02:07:37,560 --> 02:08:05,560
+Group 25, to her.
+
+1524
+02:08:05,560 --> 02:08:34,560
+Group 25, to her.
+
+1525
+02:08:34,560 --> 02:09:02,560
+Group 25, to her.
+
+1526
+02:09:02,560 --> 02:09:31,560
+Group 25, to her.
+
+1527
+02:09:31,560 --> 02:09:59,560
+Group 25, to her.
+
+1528
+02:09:59,560 --> 02:10:28,560
+Group 25, to her.
+
+1529
+02:10:28,560 --> 02:10:56,560
+Group 25, to her.
+
+1530
+02:10:56,560 --> 02:11:25,560
+Group 25, to her.
+
+1531
+02:11:25,560 --> 02:11:54,560
+Group 25, to her.
+
+1532
+02:11:54,560 --> 02:12:23,560
+Group 25, to her.
+
+1533
+02:12:23,560 --> 02:12:52,560
+Group 25, to her.
+
+1534
+02:12:52,560 --> 02:13:21,560
+Group 25, to her.
+
+1535
+02:13:21,560 --> 02:13:50,560
+Group 25, to her.
+
+1536
+02:13:50,560 --> 02:14:19,560
+Group 25, to her.
+
+1537
+02:14:19,560 --> 02:14:48,560
+Group 25, to her.
+
+1538
+02:14:48,560 --> 02:15:17,560
+Group 25, to her.
+
+1539
+02:15:17,560 --> 02:15:46,560
+Group 25, to her.
+
+1540
+02:15:46,560 --> 02:16:15,560
+Group 25, to her.
+
+1541
+02:16:15,560 --> 02:16:44,560
+Group 25, to her.
+
+1542
+02:16:44,560 --> 02:17:13,560
+Group 25, to her.
+
+1543
+02:17:13,560 --> 02:17:42,560
+Group 25, to her.
+
+1544
+02:17:42,560 --> 02:18:11,560
+Group 25, to her.
+
+1545
+02:18:11,560 --> 02:18:40,560
+Group 25, to her.
+
+1546
+02:18:40,560 --> 02:19:09,560
+Group 25, to her.
+
+1547
+02:19:09,560 --> 02:19:38,560
+Group 25, to her.
+
+1548
+02:19:38,560 --> 02:20:07,560
+Group 25, to her.
+
+1549
+02:20:07,560 --> 02:20:36,560
+Group 25, to her.
+
+1550
+02:20:36,560 --> 02:21:05,560
+Group 25, to her.
+
+1551
+02:21:05,560 --> 02:21:34,560
+Group 25, to her.
+
+1552
+02:21:34,560 --> 02:22:03,560
+Group 25, to her.
+
+1553
+02:22:03,560 --> 02:22:32,560
+Group 25, to her.
+
+1554
+02:22:32,560 --> 02:23:01,560
+Group 25, to her.
+
+1555
+02:23:01,560 --> 02:23:30,560
+Group 25, to her.
+
+1556
+02:23:30,560 --> 02:23:59,560
+Group 25, to her.
+
+1557
+02:23:59,560 --> 02:24:28,560
+Group 25, to her.
+
+1558
+02:24:28,560 --> 02:24:57,560
+Group 25, to her.
+
+1559
+02:24:57,560 --> 02:25:26,560
+Group 25, to her.
+
+1560
+02:25:26,560 --> 02:25:55,560
+Group 25, to her.
+
+1561
+02:25:55,560 --> 02:26:24,560
+Group 25, to her.
+
+1562
+02:26:24,560 --> 02:26:53,560
+Group 25, to her.
+
+1563
+02:26:53,560 --> 02:27:22,560
+Group 25, to her.
+
+1564
+02:27:22,560 --> 02:27:51,560
+Group 25, to her.
+
+1565
+02:27:51,560 --> 02:28:20,560
+Group 25, to her.
+
+1566
+02:28:20,560 --> 02:28:49,560
+Group 25, to her.
+
+1567
+02:28:49,560 --> 02:29:18,560
+Group 25, to her.
+
+1568
+02:29:18,560 --> 02:29:47,560
+Group 25, to her.
+
+1569
+02:29:47,560 --> 02:30:16,560
+Group 25, to her.
+
+1570
+02:30:16,560 --> 02:30:45,560
+Group 25, to her.
+
+1571
+02:30:45,560 --> 02:31:14,560
+Group 25, to her.
+
+1572
+02:31:14,560 --> 02:31:43,560
+Group 25, to her.
+
+1573
+02:31:43,560 --> 02:32:12,560
+Group 25, to her.
+
+1574
+02:32:12,560 --> 02:32:41,560
+Group 25, to her.
+
+1575
+02:32:41,560 --> 02:33:10,560
+Group 25, to her.
+
+1576
+02:33:10,560 --> 02:33:39,560
+Group 25, to her.
+
+1577
+02:33:39,560 --> 02:34:08,560
+Group 25, to her.
+
+1578
+02:34:08,560 --> 02:34:37,560
+Group 25, to her.
+
+1579
+02:34:37,560 --> 02:35:06,560
+Group 25, to her.
+
+1580
+02:35:06,560 --> 02:35:35,560
+Group 25, to her.
+
+1581
+02:35:35,560 --> 02:36:04,560
+Group 25, to her.
+
+1582
+02:36:04,560 --> 02:36:33,560
+Group 25, to her.
+
+1583
+02:36:33,560 --> 02:37:02,560
+Group 25, to her.
+
+1584
+02:37:02,560 --> 02:37:31,560
+Group 25, to her.
+
+1585
+02:37:31,560 --> 02:38:00,560
+Group 25, to her.
+
+1586
+02:38:00,560 --> 02:38:29,560
+Group 25, to her.
+
+1587
+02:38:29,560 --> 02:38:58,560
+Group 25, to her.
+
+1588
+02:38:58,560 --> 02:39:27,560
+Group 25, to her.
+
+1589
+02:39:27,560 --> 02:39:56,560
+Group 25, to her.
+
+1590
+02:39:56,560 --> 02:40:25,560
+Group 25, to her.
+
+1591
+02:40:25,560 --> 02:40:54,560
+Group 25, to her.
+
+1592
+02:40:54,560 --> 02:41:23,560
+Group 25, to her.
+
+1593
+02:41:23,560 --> 02:41:52,560
+Group 25, to her.
+
+1594
+02:41:52,560 --> 02:42:21,560
+Group 25, to her.
+
+1595
+02:42:21,560 --> 02:42:50,560
+Group 25, to her.
+
+1596
+02:42:50,560 --> 02:43:19,560
+Group 25, to her.
+
+1597
+02:43:19,560 --> 02:43:48,560
+Group 25, to her.
+
+1598
+02:43:48,560 --> 02:44:17,560
+Group 25, to her.
+
+1599
+02:44:17,560 --> 02:44:46,560
+Group 25, to her.
+
+1600
+02:44:46,560 --> 02:45:15,560
+Group 25, to her.
+
+1601
+02:45:15,560 --> 02:45:44,560
+Group 25, to her.
+
+1602
+02:45:44,560 --> 02:46:13,560
+Group 25, to her.
+
+1603
+02:46:13,560 --> 02:46:42,560
+Group 25, to her.
+
+1604
+02:46:42,560 --> 02:47:11,560
+Group 25, to her.
+
+1605
+02:47:11,560 --> 02:47:40,560
+Group 25, to her.
+
+1606
+02:47:40,560 --> 02:48:09,560
+Group 25, to her.
+
+1607
+02:48:09,560 --> 02:48:38,560
+Group 25, to her.
+
+1608
+02:48:38,560 --> 02:49:07,560
+Group 25, to her.
+
+1609
+02:49:07,560 --> 02:49:36,560
+Group 25, to her.
+
+1610
+02:49:36,560 --> 02:50:05,560
+Group 25, to her.
+
+1611
+02:50:05,560 --> 02:50:34,560
+Group 25, to her.
+
+1612
+02:50:34,560 --> 02:51:03,560
+Group 25, to her.
+
+1613
+02:51:03,560 --> 02:51:32,560
+Group 25, to her.
+
+1614
+02:51:32,560 --> 02:52:01,560
+Group 25, to her.
+
+1615
+02:52:01,560 --> 02:52:30,560
+Group 25, to her.
+
+1616
+02:52:30,560 --> 02:52:59,560
+Group 25, to her.
+
+1617
+02:52:59,560 --> 02:53:28,560
+Group 25, to her.
+
+1618
+02:53:28,560 --> 02:53:57,560
+Group 25, to her.
+
+1619
+02:53:57,560 --> 02:54:26,560
+Group 25, to her.
+
+1620
+02:54:26,560 --> 02:54:55,560
+Group 25, to her.
+
+1621
+02:54:55,560 --> 02:55:24,560
+Group 25, to her.
+
+1622
+02:55:24,560 --> 02:55:53,560
+Group 25, to her.
+
+1623
+02:55:53,560 --> 02:56:22,560
+Group 25, to her.
+
+1624
+02:56:22,560 --> 02:56:51,560
+Group 25, to her.
+
+1625
+02:56:51,560 --> 02:57:20,560
+Group 25, to her.
+
+1626
+02:57:20,560 --> 02:57:49,560
+Group 25, to her.
+
+1627
+02:57:49,560 --> 02:58:18,560
+Group 25, to her.
+
+1628
+02:58:18,560 --> 02:58:47,560
+Group 25, to her.
+
+1629
+02:58:47,560 --> 02:59:16,560
+Group 25, to her.
+
+1630
+02:59:16,560 --> 02:59:45,560
+Group 25, to her.
+
+1631
+02:59:45,560 --> 03:00:00,560
+Group 25, to her.
+

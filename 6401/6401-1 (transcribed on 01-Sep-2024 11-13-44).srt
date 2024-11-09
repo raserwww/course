@@ -1,0 +1,8032 @@
+1
+00:00:00,000 --> 00:00:09,000
+ If they happen to be free, we will answer questions from students and so on.
+
+2
+00:00:09,000 --> 00:00:24,000
+ But if you are now happy, now or at least select courses you are selecting, then that's okay.
+
+3
+00:00:24,000 --> 00:00:29,000
+ It's mainly for the cost-retribution problem.
+
+4
+00:00:29,000 --> 00:00:39,000
+ Of course, if you have other more urgent questions regarding your plans and so on, you may also ask.
+
+5
+00:00:39,000 --> 00:00:43,000
+ But the main purpose is you all know the recent problem.
+
+6
+00:00:44,000 --> 00:00:55,000
+ So, although this past few days we worked very hard, and now except a few very popular courses,
+
+7
+00:00:55,000 --> 00:01:02,000
+ we still have more students waiting for the rest of the courses, including this one.
+
+8
+00:01:02,000 --> 00:01:14,000
+ Also, I was a little bit surprised about the 6405 natural language processing, which is, you know,
+
+9
+00:01:14,000 --> 00:01:25,000
+ there is a small deal with the venue, where you get a special venue interactive like a tutorial room.
+
+10
+00:01:25,000 --> 00:01:30,000
+ So the capacity remains only like 200.
+
+11
+00:01:30,000 --> 00:01:36,000
+ But then currently the maximum number is far below that.
+
+12
+00:01:36,000 --> 00:01:46,000
+ So anyway, for those, if you are very good at programming, you know, Python and so on, and more in the machine learning.
+
+13
+00:01:46,000 --> 00:01:50,000
+ Natural language processing is quite different from signal processing.
+
+14
+00:01:50,000 --> 00:01:53,000
+ So you see, there are also exposed processing.
+
+15
+00:01:53,000 --> 00:01:57,000
+ One is more very much related to machine learning.
+
+16
+00:01:57,000 --> 00:02:05,000
+ This one is more like the hardcore signal processing, the advanced digital signal processing.
+
+17
+00:02:05,000 --> 00:02:16,000
+ Okay, so I think we should start now, since there are students coming and so on.
+
+18
+00:02:20,000 --> 00:02:41,000
+ So as I say, most of the students here are SPML and the communication engineering, CCA, computer control and automation.
+
+19
+00:02:41,000 --> 00:02:51,000
+ So these are so-called three programs, more related to like soft science, soft engineering,
+
+20
+00:02:51,000 --> 00:03:01,000
+ where the ETE and the PE, the student actually cannot select this one.
+
+21
+00:03:01,000 --> 00:03:03,000
+ Yeah, so we can start now.
+
+22
+00:03:03,000 --> 00:03:06,000
+ So first introduce myself.
+
+23
+00:03:06,000 --> 00:03:08,000
+ So my name is Lin Zhiping.
+
+24
+00:03:08,000 --> 00:03:11,000
+ This is my context.
+
+25
+00:03:11,000 --> 00:03:20,000
+ I also, I don't know why the projector seems like this.
+
+26
+00:03:20,000 --> 00:03:22,000
+ Yellow light, I don't know.
+
+27
+00:03:22,000 --> 00:03:24,000
+ So let's look.
+
+28
+00:03:24,000 --> 00:03:31,000
+ There is a, I should bring this down here because, let me see.
+
+29
+00:03:31,000 --> 00:03:42,000
+ There is the one with LTCC.
+
+30
+00:03:42,000 --> 00:03:48,000
+ Okay.
+
+31
+00:03:48,000 --> 00:04:04,000
+ Let me see.
+
+32
+00:04:04,000 --> 00:04:16,000
+ It's the control button.
+
+33
+00:04:16,000 --> 00:04:27,000
+ So there is a button to send all this out.
+
+34
+00:04:27,000 --> 00:04:43,000
+ Let's change this.
+
+35
+00:04:43,000 --> 00:04:46,000
+ Let me see.
+
+36
+00:04:46,000 --> 00:04:48,000
+ This should be already on.
+
+37
+00:04:48,000 --> 00:04:55,000
+ Yeah, this is already down, but then I don't know why, what happened to this.
+
+38
+00:04:55,000 --> 00:04:57,000
+ There is a yellow light.
+
+39
+00:04:57,000 --> 00:04:59,000
+ It's not in my computer.
+
+40
+00:04:59,000 --> 00:05:03,000
+ Not to be confused, it's probably always there.
+
+41
+00:05:03,000 --> 00:05:04,000
+ Okay.
+
+42
+00:05:04,000 --> 00:05:11,000
+ So anyway, sorry, I thought there's a curtain.
+
+43
+00:05:11,000 --> 00:05:12,000
+ Okay.
+
+44
+00:05:12,000 --> 00:05:15,000
+ So let's come back to this.
+
+45
+00:05:15,000 --> 00:05:22,000
+ Don't worry about that because today the section is more like an introduction.
+
+46
+00:05:22,000 --> 00:05:31,000
+ Let me just go to give you those backgrounds first.
+
+47
+00:05:31,000 --> 00:05:33,000
+ Let me do this.
+
+48
+00:05:33,000 --> 00:05:36,000
+ You already have my context.
+
+49
+00:05:36,000 --> 00:05:37,000
+ Okay.
+
+50
+00:05:37,000 --> 00:05:47,000
+ So that's even more useful.
+
+51
+00:05:47,000 --> 00:05:55,000
+ Yeah, make it.
+
+52
+00:05:55,000 --> 00:06:10,000
+ Now, in the past, the lecture sequence is always, you can see here there is a part one,
+
+53
+00:06:10,000 --> 00:06:14,000
+ which is more on deterministic signal processing.
+
+54
+00:06:14,000 --> 00:06:25,000
+ Then in the past several years, there have been a few lecturers teaching this part one.
+
+55
+00:06:25,000 --> 00:06:28,000
+ Change at least.
+
+56
+00:06:28,000 --> 00:06:29,000
+ Let me see.
+
+57
+00:06:29,000 --> 00:06:36,000
+ I myself, I taught this course for I think five or six years.
+
+58
+00:06:36,000 --> 00:06:48,000
+ So you can, some of the contents also undergo certain change, but I will talk about that later.
+
+59
+00:06:48,000 --> 00:06:55,000
+ But for this part one, in the past six years, it's been changed three times.
+
+60
+00:06:55,000 --> 00:07:00,000
+ We start with one professor teaching for quite a long time.
+
+61
+00:07:00,000 --> 00:07:03,000
+ He's a part-time lecturer.
+
+62
+00:07:03,000 --> 00:07:06,000
+ He retired probably four years ago.
+
+63
+00:07:06,000 --> 00:07:18,000
+ Then after that, taking over by a part-time lecturer, Dr. Zilab.
+
+64
+00:07:18,000 --> 00:07:21,000
+ He taught for two years.
+
+65
+00:07:21,000 --> 00:07:29,000
+ That two years is a very difficult time for students taking these courses.
+
+66
+00:07:29,000 --> 00:07:32,000
+ So don't worry about it.
+
+67
+00:07:32,000 --> 00:07:40,000
+ If you look back about two or three years back, the past year exam paper, you may find that part very difficult.
+
+68
+00:07:40,000 --> 00:07:43,000
+ That was said by this Dr. Zilab.
+
+69
+00:07:44,000 --> 00:07:47,000
+ After two years, he also, he didn't want to teach.
+
+70
+00:07:47,000 --> 00:07:51,000
+ He said, oh, very difficult to teach, saying so on.
+
+71
+00:07:51,000 --> 00:07:56,000
+ Then from last year, we have a young professor.
+
+72
+00:07:56,000 --> 00:08:02,000
+ I think many of you should know him in the station project selection.
+
+73
+00:08:02,000 --> 00:08:05,000
+ I don't know whether all his projects being taken.
+
+74
+00:08:05,000 --> 00:08:08,000
+ He proposed many, probably maximum.
+
+75
+00:08:08,000 --> 00:08:10,000
+ Now it's 25.
+
+76
+00:08:10,000 --> 00:08:16,000
+ Even 10 more like today.
+
+77
+00:08:16,000 --> 00:08:22,000
+ So he's quite familiar with signal processing, machine learning.
+
+78
+00:08:22,000 --> 00:08:32,000
+ But at least when he joined last year, I asked him to make this question a little bit easier.
+
+79
+00:08:32,000 --> 00:08:41,000
+ So that at least last year, he recovered a little bit from two years ago.
+
+80
+00:08:41,000 --> 00:08:47,000
+ And these student find the exam questions quite difficult.
+
+81
+00:08:47,000 --> 00:08:50,000
+ And then this year, we have discussion.
+
+82
+00:08:50,000 --> 00:08:56,000
+ He also said he may even revise and make it a little bit easier.
+
+83
+00:08:56,000 --> 00:09:02,000
+ But anyway, you know the course title of this.
+
+84
+00:09:02,000 --> 00:09:07,000
+ So taking this course like this, not just remember the course code.
+
+85
+00:09:07,000 --> 00:09:17,000
+ You should know the subject title, which is advanced digital signal processing.
+
+86
+00:09:17,000 --> 00:09:23,000
+ So having this advanced, we cannot teach something very basic,
+
+87
+00:09:23,000 --> 00:09:26,000
+ which will be going back to the DSP.
+
+88
+00:09:26,000 --> 00:09:28,000
+ But there is a relationship.
+
+89
+00:09:28,000 --> 00:09:42,000
+ So we try to balance by maybe providing more example or technique a little bit slowly and so on.
+
+90
+00:09:42,000 --> 00:09:53,000
+ In the past years, I never really came here to teach like we want.
+
+91
+00:09:53,000 --> 00:10:00,000
+ But based on the problems in the past few years,
+
+92
+00:10:00,000 --> 00:10:06,000
+ and also we find some students, they come to the second part or in the middle,
+
+93
+00:10:06,000 --> 00:10:12,000
+ and they are finding this course very difficult, challenging.
+
+94
+00:10:12,000 --> 00:10:18,000
+ But it's already like too late.
+
+95
+00:10:18,000 --> 00:10:30,000
+ So this year also, it happened to be the course schedule change.
+
+96
+00:10:30,000 --> 00:10:33,000
+ In the past few years, it's always Friday.
+
+97
+00:10:33,000 --> 00:10:41,000
+ So Friday is almost, students get used to it already after several days.
+
+98
+00:10:41,000 --> 00:10:43,000
+ And this happened to be Monday.
+
+99
+00:10:43,000 --> 00:10:54,000
+ So I decided to give the first week one by myself, other than part two.
+
+100
+00:10:54,000 --> 00:11:01,000
+ Then, since I know this course, the history is better at least.
+
+101
+00:11:01,000 --> 00:11:06,000
+ So he only started to teach from last year.
+
+102
+00:11:06,000 --> 00:11:11,000
+ Then I thought I would give maybe a more introduction.
+
+103
+00:11:11,000 --> 00:11:18,000
+ And also putting in the so-called requirements and so on.
+
+104
+00:11:18,000 --> 00:11:20,000
+ I mean, then it's up to you.
+
+105
+00:11:20,000 --> 00:11:29,000
+ Because now, if two days ago, when we had all the course already up to maximum,
+
+106
+00:11:29,000 --> 00:11:34,000
+ then I will not say anything about a chop and so on.
+
+107
+00:11:34,000 --> 00:11:39,000
+ But now, as I say, we have the flexibility at least.
+
+108
+00:11:39,000 --> 00:11:41,000
+ At least some courses.
+
+109
+00:11:41,000 --> 00:11:49,000
+ Then some of you, after the briefing, you'll find this course is useful,
+
+110
+00:11:49,000 --> 00:11:51,000
+ but really too difficult.
+
+111
+00:11:51,000 --> 00:11:56,000
+ Your background is not enough.
+
+112
+00:11:56,000 --> 00:11:59,000
+ Then, of course, there are two ways.
+
+113
+00:11:59,000 --> 00:12:04,000
+ If you still decide to take and then you'll find other courses,
+
+114
+00:12:04,000 --> 00:12:06,000
+ it's not easy to get in.
+
+115
+00:12:06,000 --> 00:12:10,000
+ Anyway, for SPA, ML students, this is the core subject.
+
+116
+00:12:10,000 --> 00:12:15,000
+ But now we have six to choose from.
+
+117
+00:12:15,000 --> 00:12:20,000
+ Rather than in the past, five out of four, then the choice is more limited.
+
+118
+00:12:20,000 --> 00:12:27,000
+ And JDP is also proposed by me by adding one more SC since last year.
+
+119
+00:12:27,000 --> 00:12:31,000
+ And we start with this new program, SPML.
+
+120
+00:12:31,000 --> 00:12:39,000
+ So the main reason I want to highlight this course is we have two parts
+
+121
+00:12:39,000 --> 00:12:43,000
+ which are quite related, but quite different.
+
+122
+00:12:43,000 --> 00:12:49,000
+ If you look at the content, then those are highlighted here.
+
+123
+00:12:49,000 --> 00:12:53,000
+ The part one, roughly about half, six weeks.
+
+124
+00:12:53,000 --> 00:12:59,000
+ I think today I won't talk too much into the technical part,
+
+125
+00:12:59,000 --> 00:13:06,000
+ because anyway, after six weeks, probably you forgot at least half of the material.
+
+126
+00:13:06,000 --> 00:13:12,000
+ So when I come back after the recess, I will go back to review.
+
+127
+00:13:12,000 --> 00:13:17,000
+ So this is deterministic signal.
+
+128
+00:13:17,000 --> 00:13:19,000
+ Later I will talk briefly.
+
+129
+00:13:19,000 --> 00:13:21,000
+ I think most of you should know.
+
+130
+00:13:21,000 --> 00:13:29,000
+ But the other part two, the one I'm going to teach mainly is statistical signal processing.
+
+131
+00:13:29,000 --> 00:13:31,000
+ Also both are signal processing.
+
+132
+00:13:31,000 --> 00:13:36,000
+ That's why I put into the same course, we call it advanced digital signal processing.
+
+133
+00:13:36,000 --> 00:13:40,000
+ But the measures are quite different.
+
+134
+00:13:40,000 --> 00:13:42,000
+ I won't say which one is more difficult,
+
+135
+00:13:42,000 --> 00:13:47,000
+ because it's just like you have two branches.
+
+136
+00:13:47,000 --> 00:13:54,000
+ So if you look at other courses, at least I'm quite familiar with those
+
+137
+00:13:54,000 --> 00:13:57,000
+ that are related to signal processing and so on.
+
+138
+00:13:57,000 --> 00:13:59,000
+ So they have some connection.
+
+139
+00:13:59,000 --> 00:14:05,000
+ Usually it's part one easier, then you move on to part two.
+
+140
+00:14:05,000 --> 00:14:13,000
+ So they are probably the same level of difficulty, but using similar approach.
+
+141
+00:14:13,000 --> 00:14:17,000
+ For example, on Wednesday I'm teaching another course,
+
+142
+00:14:17,000 --> 00:14:24,000
+ which is supposed to be PhD and MNC plus MSc.
+
+143
+00:14:24,000 --> 00:14:30,000
+ And that's called statistical signal processing.
+
+144
+00:14:30,000 --> 00:14:37,000
+ It's different from here, because statistical signal processing has many different topics.
+
+145
+00:14:37,000 --> 00:14:41,000
+ But in that course, I also have two parts.
+
+146
+00:14:41,000 --> 00:14:45,000
+ One is detection, like signal detection.
+
+147
+00:14:45,000 --> 00:14:49,000
+ The other is signal estimation.
+
+148
+00:14:49,000 --> 00:14:54,000
+ So you can see the two parts, they are all statistical, so they are quite related.
+
+149
+00:14:54,000 --> 00:15:00,000
+ Usually students at the beginning find estimation a bit difficult,
+
+150
+00:15:00,000 --> 00:15:06,000
+ but once they learn, then they find detection is maybe similar, because they're both similar.
+
+151
+00:15:06,000 --> 00:15:11,000
+ But here, because in the past we have quite a number of students
+
+152
+00:15:11,000 --> 00:15:18,000
+ after spending half of the course, and then they finally learn something,
+
+153
+00:15:18,000 --> 00:15:22,000
+ like multirate, DSP, field bank, and so on.
+
+154
+00:15:22,000 --> 00:15:29,000
+ Then try to relax a little bit, then come to my part, if I go, even more challenging,
+
+155
+00:15:29,000 --> 00:15:38,000
+ because there everything is statistical, like probabilities, random process, and so on.
+
+156
+00:15:38,000 --> 00:15:50,000
+ So this is what I want to highlight, and I also give at least the first lecture,
+
+157
+00:15:50,000 --> 00:16:02,000
+ which I'm not covering for the whole of today, but at least I will go through some of that, maybe after the break.
+
+158
+00:16:02,000 --> 00:16:12,000
+ So by the way, here, being with Wang is also good, because of course, different lecturers have different way of teaching.
+
+159
+00:16:12,000 --> 00:16:18,000
+ But I will say most of the lecturers, including myself, instead of three hours,
+
+160
+00:16:18,000 --> 00:16:24,000
+ so by the way, undergraduate teaching, every one hour you take a break, so it will be two breaks.
+
+161
+00:16:24,000 --> 00:16:33,000
+ But here we combine into one bigger block, so we normally take just one break in the middle, maybe 15 minutes.
+
+162
+00:16:33,000 --> 00:16:41,000
+ And then after that, go all the way to 9, so by the way, it should be 9.20,
+
+163
+00:16:41,000 --> 00:16:47,000
+ but we will see sometime end a little bit early, but surely it's like after 9.
+
+164
+00:16:47,000 --> 00:16:56,000
+ So just one break. Sometime I'll get more content, then can stay on for a little bit later.
+
+165
+00:16:56,000 --> 00:16:59,000
+ So it's more like flexible.
+
+166
+00:16:59,000 --> 00:17:17,000
+ Okay, so therefore, in the first hours or so, I will try to give you the first welcome to your study, your journey.
+
+167
+00:17:17,000 --> 00:17:21,000
+ I assume most of you are the new students.
+
+168
+00:17:21,000 --> 00:17:28,000
+ Of course, some of you already in the second semester or second year, or they might be different study,
+
+169
+00:17:28,000 --> 00:17:34,000
+ but very small number, the majority is new students.
+
+170
+00:17:34,000 --> 00:17:43,000
+ So having these, this is roughly the contents.
+
+171
+00:17:43,000 --> 00:17:52,000
+ Some things you will see here, the first six weeks, you will still review maybe half of DSP,
+
+172
+00:17:52,000 --> 00:18:00,000
+ then after that, go to multiple DSP and filter, filter bank.
+
+173
+00:18:00,000 --> 00:18:09,000
+ Next week, you will also cover this, and so I won't go into what's in this part.
+
+174
+00:18:09,000 --> 00:18:20,000
+ But then in my part, if you look at the contents, it looks like quite easy, only two main part after the background.
+
+175
+00:18:20,000 --> 00:18:28,000
+ So one is more like linear prediction, which is in the same, so a little bit related to machine learning,
+
+176
+00:18:28,000 --> 00:18:38,000
+ but not using neural network, it's just use the statistical approach and also optimal linear filter.
+
+177
+00:18:38,000 --> 00:18:44,000
+ This filter is different from the part one filter, where that's handling deterministic signal,
+
+178
+00:18:44,000 --> 00:18:48,000
+ where here is from the statistical point of view.
+
+179
+00:18:48,000 --> 00:18:53,000
+ So yeah, and then similarly power spectrum estimation.
+
+180
+00:18:53,000 --> 00:19:07,000
+ Again, we will be dealing with random signal, looking at behavior of going through a random process,
+
+181
+00:19:07,000 --> 00:19:16,000
+ and how the frequency content is no longer like looking at sideways, where that belong to the deterministic part.
+
+182
+00:19:16,000 --> 00:19:24,000
+ So that's about give you overall picture of the relationship.
+
+183
+00:19:24,000 --> 00:19:33,000
+ But anyway, there are also some common topic, like you must be familiar with signal and system,
+
+184
+00:19:33,000 --> 00:19:42,000
+ and also filters, which is the centers of the two part.
+
+185
+00:19:42,000 --> 00:19:57,000
+ And before going further, I think this may be useful for some of you, if you are planning your study.
+
+186
+00:19:57,000 --> 00:20:06,000
+ I will say in terms of the percentage, now is almost standard for most of the courses,
+
+187
+00:20:06,000 --> 00:20:15,000
+ except some courses like NLP, actually to me is quite good because no final exam,
+
+188
+00:20:15,000 --> 00:20:23,000
+ but every week you will have some continuing assessment, like quiz, natural language processing.
+
+189
+00:20:23,000 --> 00:20:36,000
+ And then for most of the other courses, usually they will have more than two continuous assessment.
+
+190
+00:20:36,000 --> 00:20:46,000
+ Because why? Because having two CA means continuous assessment, so it's a short form, because it's 40%.
+
+191
+00:20:46,000 --> 00:20:55,000
+ Because why? Because two CA is a minimum, we cannot do one CA, this is not allowed by NTU.
+
+192
+00:20:55,000 --> 00:21:04,000
+ And then I argue because I'm in charge of the SPML, before it's called SP.
+
+193
+00:21:04,000 --> 00:21:11,000
+ So most of the SP courses actually have only two continuous assessment.
+
+194
+00:21:11,000 --> 00:21:20,000
+ So in the same way, it's easier to manage it, because you're, yeah, but on the other hand, each percentage is higher.
+
+195
+00:21:20,000 --> 00:21:38,000
+ So particularly the quiz, which is my part, part two, it's 20% and you will be held in class, I mean physically here, with 12.
+
+196
+00:21:38,000 --> 00:21:45,000
+ So last year there was only an offer in one, semester one.
+
+197
+00:21:45,000 --> 00:21:54,000
+ And then I also do the same because some lecturers, they may not put it at the beginning, but then announce only at a later time.
+
+198
+00:21:54,000 --> 00:22:03,000
+ And then students sometimes argue, oh I need to go back to China for an interview and so on, or give some reason.
+
+199
+00:22:03,000 --> 00:22:13,000
+ So for me it's always upfront I say that, so at least I also make later the three NTU do the announcement.
+
+200
+00:22:13,000 --> 00:22:19,000
+ And it will be the same day, same time during the class.
+
+201
+00:22:19,000 --> 00:22:30,000
+ So we're 12, because we're 12 is Mondays, still at least three weeks from the final exams.
+
+202
+00:22:30,000 --> 00:22:39,000
+ If Friday, last year is Friday, some students complained about like too late, so I was thinking to bring to week 11.
+
+203
+00:22:39,000 --> 00:22:50,000
+ But it happened to be now, this year we're having on Monday, so yeah, we're 12 Mondays, still quite a long time to the final exam.
+
+204
+00:22:50,000 --> 00:22:59,000
+ So please take down this and don't say later argue, say you don't know.
+
+205
+00:22:59,000 --> 00:23:13,000
+ But for the other, the first part of the CA1, it will be, you can take back home assignments, then you can do it within like two weeks and so on.
+
+206
+00:23:13,000 --> 00:23:26,000
+ So that part I let Paul Woon to say, usually near the end of his teaching, then can go over to the research suite and then submit.
+
+207
+00:23:26,000 --> 00:23:30,000
+ But anyway, the timing, let him talk about that next week.
+
+208
+00:23:30,000 --> 00:23:32,000
+ So my part is this.
+
+209
+00:23:32,000 --> 00:23:36,000
+ So this, the very basic, yeah.
+
+210
+00:23:36,000 --> 00:23:39,000
+ So any question?
+
+211
+00:23:39,000 --> 00:23:50,000
+ Oh, we have, yeah, most of the students are doing things like week one, and then gradually they, because there is a video recording.
+
+212
+00:23:50,000 --> 00:24:00,000
+ So yeah, and then some, you know, you decide maybe not come physically to save the time and so on.
+
+213
+00:24:00,000 --> 00:24:01,000
+ It's fine.
+
+214
+00:24:01,000 --> 00:24:11,000
+ Anyway, other than quiz, we don't take attendance in view of the very large class, but quiz is very, very essential.
+
+215
+00:24:11,000 --> 00:24:12,000
+ Okay.
+
+216
+00:24:12,000 --> 00:24:15,000
+ So any question?
+
+217
+00:24:15,000 --> 00:24:29,000
+ As I say, today I prefer, I prepare quite some basics rather than, you know, going into the technical detail.
+
+218
+00:24:29,000 --> 00:24:35,000
+ Maybe, yeah, I try to cover before taking the brain in the middle.
+
+219
+00:24:35,000 --> 00:24:51,000
+ So let's look at the book first, because there are two related textbooks, but it was published at different time.
+
+220
+00:24:51,000 --> 00:24:56,000
+ So this is what Paul Woon, he will teach his part.
+
+221
+00:24:56,000 --> 00:24:58,000
+ Yes, if you look at this book.
+
+222
+00:24:58,000 --> 00:25:11,000
+ I think our bookstore here, they may also sell this one if you really want to have the hard copy.
+
+223
+00:25:11,000 --> 00:25:13,000
+ So this is the one.
+
+224
+00:25:13,000 --> 00:25:21,000
+ The one, yeah, use the title, then the textbook edition.
+
+225
+00:25:21,000 --> 00:25:24,000
+ It's a very basic book, and this is a good reference.
+
+226
+00:25:24,000 --> 00:25:27,000
+ It's some Malibu program and so on.
+
+227
+00:25:27,000 --> 00:25:30,000
+ I think Paul Woon will talk more on this.
+
+228
+00:25:30,000 --> 00:25:44,000
+ But the reason I want to highlight is, unfortunately, that book, it doesn't cover the power spectrum estimation.
+
+229
+00:25:44,000 --> 00:25:48,000
+ So this is exactly the same book, same author, same title.
+
+230
+00:25:48,000 --> 00:25:51,000
+ It also called force edition.
+
+231
+00:25:51,000 --> 00:25:56,000
+ And this one you cannot, hard copy at least, cannot buy in Singapore.
+
+232
+00:25:56,000 --> 00:26:07,000
+ But the library, the reserve, if you go to the, I don't know how many of you, you now have the next generation cards.
+
+233
+00:26:07,000 --> 00:26:08,000
+ You got it last week.
+
+234
+00:26:08,000 --> 00:26:11,000
+ So once you have that, you can go to the library.
+
+235
+00:26:11,000 --> 00:26:18,000
+ The library, mostly now they don't have too many, usually have hard copy book,
+
+236
+00:26:18,000 --> 00:26:22,000
+ but probably new one getting filled up, those old one.
+
+237
+00:26:22,000 --> 00:26:28,000
+ But this book, don't worry, I request them to put into the reserve room.
+
+238
+00:26:28,000 --> 00:26:29,000
+ You know reserve room?
+
+239
+00:26:29,000 --> 00:26:36,000
+ It's the counter where you cannot, you can only borrow for two hours, usually make photocopy and so on.
+
+240
+00:26:36,000 --> 00:26:39,000
+ So that book, there are several copy.
+
+241
+00:26:39,000 --> 00:26:44,000
+ That book contain the power spectrum estimation chapter.
+
+242
+00:26:44,000 --> 00:26:47,000
+ As I also show you this one.
+
+243
+00:26:47,000 --> 00:26:53,000
+ But anyway, you look at my lecture notes, normally I give quite detail.
+
+244
+00:26:53,000 --> 00:27:00,000
+ And also sometimes in the class I can add on some derivation and so on.
+
+245
+00:27:00,000 --> 00:27:02,000
+ So yeah, just to let you know.
+
+246
+00:27:02,000 --> 00:27:09,000
+ So these are the, another useful information.
+
+247
+00:27:09,000 --> 00:27:10,000
+ So this is the book.
+
+248
+00:27:10,000 --> 00:27:13,000
+ Let me see what else.
+
+249
+00:27:13,000 --> 00:27:19,000
+ Covering page, which is, yeah, okay.
+
+250
+00:27:19,000 --> 00:27:28,000
+ So this is what I call, yeah, I did last year, I don't know why this one is yellow,
+
+251
+00:27:28,000 --> 00:27:33,000
+ but they don't have, so it's more like the hardware problem.
+
+252
+00:27:33,000 --> 00:27:36,000
+ Because I show the same file.
+
+253
+00:27:36,000 --> 00:27:42,000
+ So this is more like requirement or background.
+
+254
+00:27:42,000 --> 00:27:47,000
+ And I am referring back to our NTU here.
+
+255
+00:27:47,000 --> 00:27:52,000
+ And I also have been teaching this course.
+
+256
+00:27:52,000 --> 00:27:53,000
+ This is year two.
+
+257
+00:27:53,000 --> 00:27:57,000
+ Year two course, signal and system.
+
+258
+00:27:57,000 --> 00:28:04,000
+ I think most of you, if you are in the specialization,
+
+259
+00:28:04,000 --> 00:28:12,000
+ is information engineering or information technology and so on,
+
+260
+00:28:12,000 --> 00:28:15,000
+ then you should also take this one.
+
+261
+00:28:15,000 --> 00:28:23,000
+ Here in year two, the signal and system is not even as a core subject.
+
+262
+00:28:23,000 --> 00:28:26,000
+ So core subject is compulsory.
+
+263
+00:28:26,000 --> 00:28:29,000
+ Every student must take, and you must pass.
+
+264
+00:28:29,000 --> 00:28:40,000
+ If you're fair, you're, for example, the, this core is a prerequisite for DSP.
+
+265
+00:28:40,000 --> 00:28:47,000
+ DSP is ES3, Distortion, No Processing, Rhesus, and NTU, NTU Contact.
+
+266
+00:28:47,000 --> 00:28:51,000
+ And that's why in the admission in the past,
+
+267
+00:28:51,000 --> 00:28:57,000
+ I'm in charge of the signal processing program, the admission,
+
+268
+00:28:57,000 --> 00:29:00,000
+ going through those materials.
+
+269
+00:29:00,000 --> 00:29:05,000
+ Normally, if student, you don't take signal and system,
+
+270
+00:29:05,000 --> 00:29:10,000
+ usually we will reject.
+
+271
+00:29:10,000 --> 00:29:12,000
+ All right, please, you take something.
+
+272
+00:29:12,000 --> 00:29:18,000
+ Some students don't take signal and system, but take DSP is still okay.
+
+273
+00:29:18,000 --> 00:29:23,000
+ But DSP here, NTU is elective.
+
+274
+00:29:23,000 --> 00:29:25,000
+ It's not every student taking this one.
+
+275
+00:29:25,000 --> 00:29:29,000
+ But signal and system is compulsory.
+
+276
+00:29:29,000 --> 00:29:35,000
+ But the problem is now, like both CCA,
+
+277
+00:29:35,000 --> 00:29:37,000
+ I think the communication engineering program,
+
+278
+00:29:37,000 --> 00:29:44,000
+ usually students come from a very more similar background.
+
+279
+00:29:44,000 --> 00:29:47,000
+ Usually they will be taking signal and system.
+
+280
+00:29:47,000 --> 00:29:53,000
+ But now since both CCA and SPML, since changing the program contents,
+
+281
+00:29:53,000 --> 00:29:56,000
+ where they meet about half, for each program,
+
+282
+00:29:56,000 --> 00:29:59,000
+ about half the students coming from computer background.
+
+283
+00:29:59,000 --> 00:30:03,000
+ And usually computer engineering or computer science backgrounds
+
+284
+00:30:03,000 --> 00:30:09,000
+ usually may not even take signal and system or may not take DSP.
+
+285
+00:30:09,000 --> 00:30:17,000
+ So in a sense, it's a little bit difficult like this for to start this ADSP.
+
+286
+00:30:17,000 --> 00:30:24,000
+ But then of course, there are also some students can bridge the gap.
+
+287
+00:30:24,000 --> 00:30:31,000
+ How? Of course, if you don't have at least one of these two courses,
+
+288
+00:30:31,000 --> 00:30:34,000
+ take them before unfamiliar.
+
+289
+00:30:34,000 --> 00:30:37,000
+ So I will strongly suggest you,
+
+290
+00:30:37,000 --> 00:30:44,000
+ because during the first few weeks, usually you don't have even CA or like this,
+
+291
+00:30:44,000 --> 00:30:46,000
+ like more times.
+
+292
+00:30:46,000 --> 00:30:52,000
+ And unless some students start to finding a job, you know,
+
+293
+00:30:52,000 --> 00:30:57,000
+ to look for job, they spend time going for the job, so on.
+
+294
+00:30:57,000 --> 00:31:03,000
+ Otherwise, I think you should spend quite some time, you know,
+
+295
+00:31:03,000 --> 00:31:09,000
+ prepare well for signal and system or DSP.
+
+296
+00:31:09,000 --> 00:31:13,000
+ The best is you start from signal and system,
+
+297
+00:31:13,000 --> 00:31:21,000
+ because here you cover, you know, the very basic signals,
+
+298
+00:31:21,000 --> 00:31:26,000
+ you know, different type of signals and different type of systems
+
+299
+00:31:26,000 --> 00:31:32,000
+ and very basic property like convolutions, Z-transforms,
+
+300
+00:31:32,000 --> 00:31:36,000
+ and correlation and so on.
+
+301
+00:31:36,000 --> 00:31:42,000
+ So those are very basic and we assume you already know
+
+302
+00:31:42,000 --> 00:31:51,000
+ and then can go faster and stability, you know, transfer functions, all those.
+
+303
+00:31:51,000 --> 00:31:56,000
+ Okay, so these are the so-called requirements for this one.
+
+304
+00:31:56,000 --> 00:32:01,000
+ And then, of course, as I say, in the part one, province part,
+
+305
+00:32:01,000 --> 00:32:11,000
+ he actually is a part, he's spent about half going through more like the contents in the DSP.
+
+306
+00:32:11,000 --> 00:32:15,000
+ But even that, because it's not the whole course,
+
+307
+00:32:15,000 --> 00:32:19,000
+ so it's more like the contents review of DSP.
+
+308
+00:32:19,000 --> 00:32:26,000
+ So some students find that part, if you don't have the signal and system background,
+
+309
+00:32:26,000 --> 00:32:28,000
+ you'll find it not so easy.
+
+310
+00:32:28,000 --> 00:32:31,000
+ Okay, so that's why I want to bring this.
+
+311
+00:32:31,000 --> 00:32:36,000
+ So once you know this, the relation with other courses is quite okay.
+
+312
+00:32:36,000 --> 00:32:38,000
+ They are more in parallel.
+
+313
+00:32:38,000 --> 00:32:43,000
+ You go to controlling system, you know, right now,
+
+314
+00:32:43,000 --> 00:32:47,000
+ there is a linear system course in the 7,000 series,
+
+315
+00:32:47,000 --> 00:32:49,000
+ or system analysis and so on.
+
+316
+00:32:49,000 --> 00:32:53,000
+ So related communications like digital communication system,
+
+317
+00:32:53,000 --> 00:32:56,000
+ you know, some DSP context.
+
+318
+00:32:56,000 --> 00:33:01,000
+ And then you have some like next semester is a core subject,
+
+319
+00:33:01,000 --> 00:33:05,000
+ is DSP application, it also related to that,
+
+320
+00:33:05,000 --> 00:33:13,000
+ but it's less mass but more on some of the hardware and the, yeah,
+
+321
+00:33:13,000 --> 00:33:23,000
+ or firmware, some of the finite digit effect and so on.
+
+322
+00:33:23,000 --> 00:33:28,000
+ And then, as I say, particularly for the second half,
+
+323
+00:33:28,000 --> 00:33:33,000
+ probability and random process is also very important.
+
+324
+00:33:33,000 --> 00:33:39,000
+ And we had 7,000 series course, 7401.
+
+325
+00:33:39,000 --> 00:33:48,000
+ So in the past, that 7401 is not on the same day as 6401.
+
+326
+00:33:48,000 --> 00:33:54,000
+ So I asked, thank us students to take that course at the same time.
+
+327
+00:33:54,000 --> 00:33:55,000
+ It's easier.
+
+328
+00:33:55,000 --> 00:33:59,000
+ But now this year, due to the new change,
+
+329
+00:33:59,000 --> 00:34:02,000
+ the 7401 is also on Monday.
+
+330
+00:34:02,000 --> 00:34:05,000
+ So you can take one of these.
+
+331
+00:34:05,000 --> 00:34:08,000
+ So this is the first time that I have taken one of these.
+
+332
+00:34:08,000 --> 00:34:12,000
+ I cannot take both at least in the same semester.
+
+333
+00:34:12,000 --> 00:34:17,000
+ So these are more the postgraduate courses.
+
+334
+00:34:17,000 --> 00:34:23,000
+ So I give you some information so that at least you can see
+
+335
+00:34:23,000 --> 00:34:30,000
+ the connection and the requirements.
+
+336
+00:34:30,000 --> 00:34:33,000
+ Any questions you would like to ask?
+
+337
+00:34:33,000 --> 00:34:37,000
+ Today the first half is more like a dialogue.
+
+338
+00:34:37,000 --> 00:34:46,000
+ I give you some basics and also I hope to get some feedback from you also.
+
+339
+00:34:46,000 --> 00:34:50,000
+ If you have a question, here is.
+
+340
+00:34:50,000 --> 00:34:56,000
+ Although it's big, but we can still do it interactively.
+
+341
+00:34:56,000 --> 00:34:58,000
+ Say yes, please.
+
+342
+00:34:58,000 --> 00:34:59,000
+ Yes, good.
+
+343
+00:34:59,000 --> 00:35:05,000
+ I wonder if the Part 2 is different from the 7402?
+
+344
+00:35:05,000 --> 00:35:07,000
+ Yes.
+
+345
+00:35:07,000 --> 00:35:11,000
+ Actually, this is a good question.
+
+346
+00:35:11,000 --> 00:35:16,000
+ I think some of you can also tell.
+
+347
+00:35:16,000 --> 00:35:21,000
+ Particularly those are in the machine learning courses.
+
+348
+00:35:21,000 --> 00:35:23,000
+ There are some content.
+
+349
+00:35:23,000 --> 00:35:30,000
+ I won't say maybe less than half, but maybe one third of the two courses
+
+350
+00:35:30,000 --> 00:35:36,000
+ may be even the same if it happens to be taught by the same lecturer.
+
+351
+00:35:36,000 --> 00:35:40,000
+ Sometimes it can be used, but usually it's less than half.
+
+352
+00:35:40,000 --> 00:35:44,000
+ Also those, you know now there are quite a few machine learning courses.
+
+353
+00:35:44,000 --> 00:35:46,000
+ There are certain parts.
+
+354
+00:35:46,000 --> 00:35:49,000
+ There is some overlap.
+
+355
+00:35:49,000 --> 00:35:55,000
+ Surprisingly for this course, also I'm the one teaching this second half
+
+356
+00:35:55,000 --> 00:35:58,000
+ and statistical signal processing.
+
+357
+00:35:58,000 --> 00:36:04,000
+ There are almost very little relationship other than using the same approach,
+
+358
+00:36:04,000 --> 00:36:06,000
+ statistical signal processing.
+
+359
+00:36:06,000 --> 00:36:11,000
+ I'm more hardworking professor.
+
+360
+00:36:11,000 --> 00:36:15,000
+ I do things totally quite different.
+
+361
+00:36:15,000 --> 00:36:18,000
+ Not to share the same material, no.
+
+362
+00:36:18,000 --> 00:36:19,000
+ Quite different. Why?
+
+363
+00:36:19,000 --> 00:36:24,000
+ Because for those of you who are going to take the statistical signal processing,
+
+364
+00:36:24,000 --> 00:36:31,000
+ the one is talking about signal detection parameter estimation.
+
+365
+00:36:31,000 --> 00:36:35,000
+ It's more on the model than you do that.
+
+366
+00:36:35,000 --> 00:36:41,000
+ Where here also is a statistical signal processing.
+
+367
+00:36:41,000 --> 00:36:50,000
+ The one is more like the time series talking about sequence, sequential data.
+
+368
+00:36:50,000 --> 00:36:58,000
+ For example, you are doing the stock market prediction.
+
+369
+00:36:58,000 --> 00:37:01,000
+ For example, you will see the time sequence.
+
+370
+00:37:01,000 --> 00:37:06,000
+ Also, one good example is you apply to speed signal processing
+
+371
+00:37:06,000 --> 00:37:09,000
+ related to the time sequence.
+
+372
+00:37:09,000 --> 00:37:13,000
+ We are going linear predictions.
+
+373
+00:37:13,000 --> 00:37:21,000
+ We are looking at the sequence where the signal detection estimation is taking the data.
+
+374
+00:37:21,000 --> 00:37:26,000
+ Mostly it's more like batch processing.
+
+375
+00:37:26,000 --> 00:37:34,000
+ You can apply to extend to more advanced like harmonic filter.
+
+376
+00:37:34,000 --> 00:37:42,000
+ So that two part, surprisingly if you are seeing there are higher levels,
+
+377
+00:37:42,000 --> 00:37:47,000
+ you can see they are parallel.
+
+378
+00:37:47,000 --> 00:37:54,000
+ But statistical signal processing, if you move one step forward,
+
+379
+00:37:54,000 --> 00:37:59,000
+ including the sequential estimation, sequential detection,
+
+380
+00:37:59,000 --> 00:38:01,000
+ then it will go to common filter.
+
+381
+00:38:01,000 --> 00:38:03,000
+ Here is the same here.
+
+382
+00:38:03,000 --> 00:38:09,000
+ You are looking at the linear filter, the optimal filter, the prediction.
+
+383
+00:38:09,000 --> 00:38:15,000
+ We don't go into common filter, but if you go one level higher, they converge.
+
+384
+00:38:15,000 --> 00:38:22,000
+ Common filter is very powerful and that's why nowadays you still use common filter
+
+385
+00:38:22,000 --> 00:38:27,000
+ in many practical projects.
+
+386
+00:38:27,000 --> 00:38:36,000
+ So only at that level, but nowadays we try not to make the courses so difficult
+
+387
+00:38:36,000 --> 00:38:37,000
+ in the difficult time.
+
+388
+00:38:37,000 --> 00:38:40,000
+ So we don't go up to that level.
+
+389
+00:38:40,000 --> 00:38:43,000
+ Some students ask me, why don't you teach common filter?
+
+390
+00:38:43,000 --> 00:38:50,000
+ I say I can teach, but then probably more students may find that part more challenging.
+
+391
+00:38:50,000 --> 00:38:54,000
+ So I advise those, but I give it a PhD student.
+
+392
+00:38:54,000 --> 00:38:59,000
+ Once you learn the basics, you can learn one level further.
+
+393
+00:38:59,000 --> 00:39:02,000
+ So the answer to your question is no.
+
+394
+00:39:02,000 --> 00:39:05,000
+ They are related, but totally different.
+
+395
+00:39:05,000 --> 00:39:14,000
+ I will show you, I don't share the material of this course and the other one.
+
+396
+00:39:14,000 --> 00:39:15,000
+ So good question.
+
+397
+00:39:15,000 --> 00:39:18,000
+ Yes, please.
+
+398
+00:39:18,000 --> 00:39:20,000
+ So any other?
+
+399
+00:39:20,000 --> 00:39:28,000
+ Any student who looks from behind, you can come down or I can go to you.
+
+400
+00:39:28,000 --> 00:39:30,000
+ Okay, good.
+
+401
+00:39:30,000 --> 00:39:35,000
+ Anything else you would like to ask?
+
+402
+00:39:35,000 --> 00:39:38,000
+ No?
+
+403
+00:39:38,000 --> 00:39:40,000
+ Okay.
+
+404
+00:39:40,000 --> 00:39:45,000
+ So let me maybe get a quick survey.
+
+405
+00:39:45,000 --> 00:39:47,000
+ Just raise your hand and so on.
+
+406
+00:39:47,000 --> 00:39:53,000
+ So if you have taken a signaling system, maybe you'll raise your hand.
+
+407
+00:39:53,000 --> 00:39:58,000
+ Just raise your hand.
+
+408
+00:39:58,000 --> 00:40:01,000
+ More than half, probably two thirds.
+
+409
+00:40:01,000 --> 00:40:07,000
+ How about DSP?
+
+410
+00:40:07,000 --> 00:40:08,000
+ Okay, very good.
+
+411
+00:40:08,000 --> 00:40:09,000
+ Quite a lot.
+
+412
+00:40:09,000 --> 00:40:12,000
+ So how about taking both?
+
+413
+00:40:12,000 --> 00:40:16,000
+ Because some of you take only one.
+
+414
+00:40:16,000 --> 00:40:19,000
+ Okay, so maybe now.
+
+415
+00:40:19,000 --> 00:40:22,000
+ So that's very good.
+
+416
+00:40:22,000 --> 00:40:26,000
+ If you take at least one of them or both, it's better.
+
+417
+00:40:26,000 --> 00:40:29,000
+ How many of you have never taken these two?
+
+418
+00:40:29,000 --> 00:40:33,000
+ One of the both?
+
+419
+00:40:33,000 --> 00:40:37,000
+ How many?
+
+420
+00:40:37,000 --> 00:40:42,000
+ So I think you can take a look at the other courses.
+
+421
+00:40:42,000 --> 00:40:54,000
+ And then probably you'll think again or you'll try to spend your time or you'll learn together with other courses.
+
+422
+00:40:54,000 --> 00:41:06,000
+ Because last year we had one student from computer background and take this course and really fighting quite difficult.
+
+423
+00:41:06,000 --> 00:41:15,000
+ So maybe the student start only from part two.
+
+424
+00:41:15,000 --> 00:41:19,000
+ Because last year, we did not come and we wanted to teach.
+
+425
+00:41:19,000 --> 00:41:26,000
+ And that is a little bit too late because after that there are a lot of assignments and so on for all the courses.
+
+426
+00:41:26,000 --> 00:41:32,000
+ So anyway, I hope I let you know early.
+
+427
+00:41:32,000 --> 00:41:37,000
+ So I think that's a good thing.
+
+428
+00:41:37,000 --> 00:41:45,000
+ Because now the courses have some capacity, some vacancy, then you can really consider.
+
+429
+00:41:45,000 --> 00:41:53,000
+ But of course I welcome you, everyone, particularly being a call for SPML.
+
+430
+00:41:53,000 --> 00:41:58,000
+ So I hope you can take a look at the course.
+
+431
+00:41:58,000 --> 00:42:02,000
+ I hope you can take a look at the course.
+
+432
+00:42:02,000 --> 00:42:12,000
+ But if you're lacking background, I can only say you should try to prepare yourself well.
+
+433
+00:42:12,000 --> 00:42:16,000
+ So like magic and so on.
+
+434
+00:42:16,000 --> 00:42:22,000
+ But I do prepare some appendix to help students.
+
+435
+00:42:22,000 --> 00:42:29,000
+ I think some students tell me they cannot download the lecture notes.
+
+436
+00:42:29,000 --> 00:42:39,000
+ Because I put two, one is this so-called one I just showed, the chapter one, upload and you learn.
+
+437
+00:42:39,000 --> 00:42:46,000
+ As long as even you are in the waiting list, you can log in until you learn you should be able to download.
+
+438
+00:42:46,000 --> 00:43:02,000
+ And I also upload appendix on linear algebra and like the random Gaussian, not going through all the probability and so on.
+
+439
+00:43:02,000 --> 00:43:22,000
+ So that's also quite useful because we require some math, but we cannot go through it in detail.
+
+440
+00:43:22,000 --> 00:43:25,000
+ Okay.
+
+441
+00:43:25,000 --> 00:43:29,000
+ So, one more question.
+
+442
+00:43:29,000 --> 00:43:30,000
+ Yeah.
+
+443
+00:43:30,000 --> 00:43:37,000
+ Let me see what else before we start.
+
+444
+00:43:37,000 --> 00:43:42,000
+ So let me show you just very briefly.
+
+445
+00:43:42,000 --> 00:43:49,000
+ This is not me because we have the year two signaling system.
+
+446
+00:43:49,000 --> 00:44:09,000
+ So this is what I say you see here.
+
+447
+00:44:09,000 --> 00:44:11,000
+ So this is only part one.
+
+448
+00:44:11,000 --> 00:44:13,000
+ There is a three part one.
+
+449
+00:44:13,000 --> 00:44:18,000
+ So here, these are concepts you should be familiar.
+
+450
+00:44:18,000 --> 00:44:31,000
+ Signal and system, then you have different type of signal and operation of signal which is include very famous convolution correlation.
+
+451
+00:44:31,000 --> 00:44:37,000
+ And you see here, even so now there are deep learning and so on.
+
+452
+00:44:37,000 --> 00:44:45,000
+ Remember the very fundamental, the starting point of deep learning is called convolution neural network.
+
+453
+00:44:45,000 --> 00:44:52,000
+ And the convolution, the concept come from BSP, come from the signal and system.
+
+454
+00:44:52,000 --> 00:45:02,000
+ Because the basic idea is to do convolution to correlate the signals.
+
+455
+00:45:02,000 --> 00:45:09,000
+ Because neural network is not linear system, but it still contain the linear part.
+
+456
+00:45:09,000 --> 00:45:15,000
+ It's a combination of linear, the neural function, activation function is no linear.
+
+457
+00:45:15,000 --> 00:45:17,000
+ So you'll see here.
+
+458
+00:45:17,000 --> 00:45:18,000
+ And property of system.
+
+459
+00:45:18,000 --> 00:45:29,000
+ And after that, this is signal, then there you go into the system part, whether the system is time invariant and so on.
+
+460
+00:45:29,000 --> 00:45:35,000
+ And then also continue time, discrete time, and how you connect these two is by sampling.
+
+461
+00:45:35,000 --> 00:45:39,000
+ And that's also very important in part one.
+
+462
+00:45:39,000 --> 00:45:45,000
+ So these are the very basic, you see here convolution operations include that.
+
+463
+00:45:45,000 --> 00:45:56,000
+ And some properties, you see properties and correlation is also very much related to the nowadays the very fashion.
+
+464
+00:45:56,000 --> 00:45:58,000
+ You'll see here transformer.
+
+465
+00:45:58,000 --> 00:46:05,000
+ You'll see transformer is basically the main idea is you just try to do the correlation.
+
+466
+00:46:05,000 --> 00:46:10,000
+ You focus on the things you like.
+
+467
+00:46:10,000 --> 00:46:15,000
+ And that's how it's coming from correlation.
+
+468
+00:46:15,000 --> 00:46:21,000
+ You try to correlate, pay attention to the important part.
+
+469
+00:46:22,000 --> 00:46:24,000
+ Okay.
+
+470
+00:46:24,000 --> 00:46:30,000
+ But of course I will not coming through here since most of you have already learned.
+
+471
+00:46:30,000 --> 00:46:39,000
+ I just tell those students who are lacking the background.
+
+472
+00:46:39,000 --> 00:46:45,000
+ And this is quite useful.
+
+473
+00:46:45,000 --> 00:46:52,000
+ This is what I prepare myself using latex.
+
+474
+00:46:52,000 --> 00:47:00,000
+ Okay, if you're talking about sharing, this part I share with the other courses,
+
+475
+00:47:00,000 --> 00:47:06,000
+ statistical signal processing because that course also require linear algebraic.
+
+476
+00:47:06,000 --> 00:47:09,000
+ But this is in the appendix.
+
+477
+00:47:09,000 --> 00:47:12,000
+ It's not the main content.
+
+478
+00:47:12,000 --> 00:47:16,000
+ So yeah, it's very important.
+
+479
+00:47:16,000 --> 00:47:22,000
+ And for this part two, I also include some material,
+
+480
+00:47:22,000 --> 00:47:30,000
+ like matrix eigenvalues into the power spectrum estimation.
+
+481
+00:47:30,000 --> 00:47:34,000
+ So that's the, yeah.
+
+482
+00:47:34,000 --> 00:47:43,000
+ So anyway, this you can download and then take a look at those definition about
+
+483
+00:47:43,000 --> 00:47:50,000
+ rank and non-space, eigenvector and so on.
+
+484
+00:47:50,000 --> 00:47:58,000
+ So it requires inverse, singular value decomposition and so on.
+
+485
+00:47:58,000 --> 00:48:01,000
+ And then some values for equality.
+
+486
+00:48:01,000 --> 00:48:06,000
+ This is more for the statistical signal processing.
+
+487
+00:48:06,000 --> 00:48:16,000
+ And then you can even add properties of Gauss-Schwein-Reydarm-Bederberg.
+
+488
+00:48:16,000 --> 00:48:22,000
+ Which, again, I put into the chapter one.
+
+489
+00:48:22,000 --> 00:48:28,000
+ So you don't need to worry too much about this correlation.
+
+490
+00:48:28,000 --> 00:48:43,000
+ So this is another thing I try to, this, let you know some of the useful and related ones.
+
+491
+00:48:43,000 --> 00:48:45,000
+ Then let me see this.
+
+492
+00:48:45,000 --> 00:48:51,000
+ This is, today I prepared last year at the end of the revision.
+
+493
+00:48:51,000 --> 00:49:00,000
+ But maybe you can also at least consider that as some background.
+
+494
+00:49:00,000 --> 00:49:14,000
+ You see here, so this part two requires linear algebra, calculus, which is derivative and mass derivation.
+
+495
+00:49:14,000 --> 00:49:22,000
+ Some concept, block diagram, computation and basic probability random process.
+
+496
+00:49:22,000 --> 00:49:29,000
+ Yeah, those are things you will, I will go back to this again.
+
+497
+00:49:29,000 --> 00:49:39,000
+ So yeah, I think maybe it's also useful because instead of the end, like you feel a little bit too late to learn.
+
+498
+00:49:39,000 --> 00:49:43,000
+ Then here you can also see the connection.
+
+499
+00:49:43,000 --> 00:49:52,000
+ For those already learn DSP, then you see here we also use filter, FIR filter, IRR filter.
+
+500
+00:49:52,000 --> 00:50:00,000
+ But because we are dealing with a random signal, so we call it more like moving average, MA.
+
+501
+00:50:00,000 --> 00:50:09,000
+ So filter, we assume you have the concept, or at least how to do it here.
+
+502
+00:50:09,000 --> 00:50:12,000
+ In my part I don't do the filter design part.
+
+503
+00:50:12,000 --> 00:50:20,000
+ ProWin's part, he also require you to, I don't know this year whether you will change or not, but in the past you have.
+
+504
+00:50:20,000 --> 00:50:24,000
+ And the IRR filter, you see, you have IRR filter.
+
+505
+00:50:24,000 --> 00:50:32,000
+ And these are the all poles, they corresponding to the AR process and IRR filter.
+
+506
+00:50:33,000 --> 00:50:40,000
+ That one, that one again I will go through in some detail later.
+
+507
+00:50:43,000 --> 00:50:46,000
+ Okay, so here is also useful.
+
+508
+00:50:46,000 --> 00:50:54,000
+ Then you see the relationship, the comparison about deterministic signal and random signal.
+
+509
+00:50:54,000 --> 00:51:01,000
+ Because deterministic signal, you see, we are directly apply Fourier transform into the signal.
+
+510
+00:51:01,000 --> 00:51:08,000
+ Say for example, you have the side way, when you apply Fourier transform, you will see a spectral line.
+
+511
+00:51:08,000 --> 00:51:17,000
+ Ideally just one line, but if you have noise, you can spread a little bit, but you always see one very strong line.
+
+512
+00:51:17,000 --> 00:51:23,000
+ And that's why you use the traditional filter, high pass, low pass, there is no problem.
+
+513
+00:51:23,000 --> 00:51:25,000
+ You can separate the signal well.
+
+514
+00:51:25,000 --> 00:51:31,000
+ Okay, so you see here, take DFT, you go through that.
+
+515
+00:51:31,000 --> 00:51:37,000
+ But for advanced DSP, we are dealing with random signal, at least the part two.
+
+516
+00:51:37,000 --> 00:51:50,000
+ Then you don't directly apply, because if you apply Fourier transform into the signal directly, you will get into trouble.
+
+517
+00:51:50,000 --> 00:51:58,000
+ So what you do here is you do some kind of averaging, and that's also a big similar to neural networks.
+
+518
+00:51:58,000 --> 00:52:10,000
+ You are trying to manipulate, try to reduce the randomness of the signals by going through autocorrelation.
+
+519
+00:52:10,000 --> 00:52:26,000
+ So here, you apply autocorrelation or cross correlation, then the behaviour of this autocorrelation is more like deterministic signal.
+
+520
+00:52:26,000 --> 00:52:32,000
+ And after that you apply Fourier transform, you get our spectrum.
+
+521
+00:52:32,000 --> 00:52:47,000
+ So that's the relationship is also if you start with a white noise or another input random signal, then you see you go through one step.
+
+522
+00:52:47,000 --> 00:52:50,000
+ So you see the connection.
+
+523
+00:52:50,000 --> 00:52:56,000
+ But the idea is you are building up on the DSP, ADSP.
+
+524
+00:52:56,000 --> 00:53:00,000
+ If you don't know how to do this, how can you perform this?
+
+525
+00:53:00,000 --> 00:53:09,000
+ So you should really learn the basics before you move on to that.
+
+526
+00:53:09,000 --> 00:53:16,000
+ And also one very interesting relationship is you go through filter for deterministic signal.
+
+527
+00:53:16,000 --> 00:53:21,000
+ You only need the transfer function, it's very well along this frequency.
+
+528
+00:53:21,000 --> 00:53:26,000
+ Input goes through this filter, goes through output.
+
+529
+00:53:26,000 --> 00:53:31,000
+ And then now your input output is random signal.
+
+530
+00:53:31,000 --> 00:53:38,000
+ Then instead of this, you see you need to take the absolute value and then raise the power of 2.
+
+531
+00:53:38,000 --> 00:53:42,000
+ Why? Because you go through this correlation.
+
+532
+00:53:42,000 --> 00:53:48,000
+ So that's the relation with the transfer function, the frequency response.
+
+533
+00:53:48,000 --> 00:53:51,000
+ So that's the result.
+
+534
+00:53:51,000 --> 00:53:56,000
+ But there is some difference.
+
+535
+00:53:56,000 --> 00:54:06,000
+ And also depending on input, if it's a white noise, then you can simplify this input.
+
+536
+00:54:06,000 --> 00:54:09,000
+ The spectrum you have reduced to constant.
+
+537
+00:54:09,000 --> 00:54:11,000
+ Then you'll get this.
+
+538
+00:54:11,000 --> 00:54:16,000
+ So that's what we are going to learn in some detail.
+
+539
+00:54:17,000 --> 00:54:25,000
+ Again, I give you some fundamental before.
+
+540
+00:54:33,000 --> 00:54:42,000
+ Finally, I think I maybe just mention about because some students, they feel they start taking the...
+
+541
+00:54:42,000 --> 00:54:47,000
+ Also, you may see, so this is quite interesting.
+
+542
+00:54:47,000 --> 00:54:54,000
+ I'm always teaching this DSP for the NTU-TUM program.
+
+543
+00:54:54,000 --> 00:55:04,000
+ Where it has this core DSP which is covering all the wave from the signaling system.
+
+544
+00:55:04,000 --> 00:55:10,000
+ And then to DSP, then finally just a little bit of advanced DSP.
+
+545
+00:55:10,000 --> 00:55:20,000
+ Because here we devalve this core for students because they are from IC design,
+
+546
+00:55:20,000 --> 00:55:26,000
+ like electronic technology students here.
+
+547
+00:55:26,000 --> 00:55:29,000
+ They don't have the signaling system background.
+
+548
+00:55:29,000 --> 00:55:36,000
+ So this core, I won't go into detail, but just let you know so that you see the relationship.
+
+549
+00:55:36,000 --> 00:55:40,000
+ We start from this part one in that course.
+
+550
+00:55:40,000 --> 00:55:46,000
+ You can see it's a more signal and system content.
+
+551
+00:55:46,000 --> 00:55:52,000
+ And then you have convolution, different equation, filtering, and Z-transform, transfer function.
+
+552
+00:55:52,000 --> 00:55:58,000
+ There's a little bit of hardware for DSP, but not covered usually in DSP.
+
+553
+00:55:58,000 --> 00:56:05,000
+ Because for IC design students, they want to use DSP for hardware.
+
+554
+00:56:05,000 --> 00:56:08,000
+ And then you can see the book is this one.
+
+555
+00:56:08,000 --> 00:56:14,000
+ And this is only part one, it's about half of the course.
+
+556
+00:56:14,000 --> 00:56:20,000
+ And then you can see what I teach for many years in this.
+
+557
+00:56:20,000 --> 00:56:24,000
+ So you see here, this is part two.
+
+558
+00:56:24,000 --> 00:56:26,000
+ And I give you a paper here.
+
+559
+00:56:26,000 --> 00:56:30,000
+ You see, we start with digital signal spectrum.
+
+560
+00:56:30,000 --> 00:56:33,000
+ That's about deterministic signals.
+
+561
+00:56:33,000 --> 00:56:39,000
+ And then DFT, and then FFT is a fast transfer.
+
+562
+00:56:39,000 --> 00:56:43,000
+ And after that, moving to DSP.
+
+563
+00:56:43,000 --> 00:56:48,000
+ Of course, this digital spectrum is also belong to DSP.
+
+564
+00:56:48,000 --> 00:56:51,000
+ But it's dealing with deterministic signal.
+
+565
+00:56:51,000 --> 00:56:58,000
+ And after that is design of digital filter, linear phase FIR filter.
+
+566
+00:56:58,000 --> 00:57:05,000
+ And the last two chapters, looks like we're getting from this advanced DSP.
+
+567
+00:57:05,000 --> 00:57:14,000
+ But normally we don't require those IC design students to learn this.
+
+568
+00:57:14,000 --> 00:57:20,000
+ Just give them an introduction to go through quickly.
+
+569
+00:57:20,000 --> 00:57:30,000
+ So that's how we teach the other MSE course where it's covering the whole spectrum from
+
+570
+00:57:30,000 --> 00:57:37,000
+ signaling system DSP, all the way to finally a little bit of introduction of advanced DSP.
+
+571
+00:57:40,000 --> 00:57:49,000
+ So I guess that's all my introduction before we go through that.
+
+572
+00:57:49,000 --> 00:57:54,000
+ So let me come back here again because some students came late.
+
+573
+00:57:54,000 --> 00:57:59,000
+ This is important. I want to highlight this.
+
+574
+00:57:59,000 --> 00:58:05,000
+ So pay attention to the...
+
+575
+00:58:05,000 --> 00:58:12,000
+ We start from the teaching sequence again.
+
+576
+00:58:12,000 --> 00:58:18,000
+ So today I only teach way one here, but not really too much technical detail
+
+577
+00:58:18,000 --> 00:58:22,000
+ because I will come back only after the recess.
+
+578
+00:58:22,000 --> 00:58:25,000
+ So after that, it will be full.
+
+579
+00:58:25,000 --> 00:58:35,000
+ He will cover six weeks and get one assignment.
+
+580
+00:58:35,000 --> 00:58:41,000
+ So today I'm more like give you general instruction.
+
+581
+00:58:41,000 --> 00:58:43,000
+ After that we take a break.
+
+582
+00:58:43,000 --> 00:58:50,000
+ Then I will start to teach part of the lecture one because some students may not come today
+
+583
+00:58:50,000 --> 00:58:53,000
+ because this week is supposed to be a chop.
+
+584
+00:58:53,000 --> 00:59:00,000
+ They may move from other courses to work here and they will miss the introduction.
+
+585
+00:59:00,000 --> 00:59:07,000
+ And then this is more important, the final exam and continued assessment.
+
+586
+00:59:07,000 --> 00:59:13,000
+ So the final exam paper now is we set four questions.
+
+587
+00:59:13,000 --> 00:59:18,000
+ If you look at the past exam paper later in the library two years back,
+
+588
+00:59:18,000 --> 00:59:21,000
+ at that time we still had five questions.
+
+589
+00:59:21,000 --> 00:59:27,000
+ Five questions, we will have three questions for part one, two questions for part two.
+
+590
+00:59:27,000 --> 00:59:35,000
+ But I think from last year or even the year before it changed to just four questions.
+
+591
+00:59:35,000 --> 00:59:40,000
+ And here is a simple, so in this thing is somehow easier,
+
+592
+00:59:40,000 --> 00:59:46,000
+ but you need to know the percentage is also higher.
+
+593
+00:59:46,000 --> 00:59:50,000
+ And that's why last year one student for some reason, quite a few students,
+
+594
+00:59:50,000 --> 00:59:57,000
+ maybe a few students did not attend the quiz, then it will be quite challenging
+
+595
+00:59:57,000 --> 01:00:03,000
+ because 20% go and not a good reason.
+
+596
+01:00:03,000 --> 01:00:12,000
+ If you're already on that day on MC, then probably we will consider make up
+
+597
+01:00:12,000 --> 01:00:20,000
+ or maybe consider that component as not counting into the percentage.
+
+598
+01:00:20,000 --> 01:00:26,000
+ So anyway, just pay attention and plan your time well.
+
+599
+01:00:27,000 --> 01:00:34,000
+ For year one student usually you should stay here at least for the first year.
+
+600
+01:00:34,000 --> 01:00:40,000
+ Yeah, for considering even if you are looking for job,
+
+601
+01:00:40,000 --> 01:00:45,000
+ now you can do online or really need to view nowadays.
+
+602
+01:00:45,000 --> 01:00:52,000
+ You see here the no visa requirement, at least then you can,
+
+603
+01:00:52,000 --> 01:01:00,000
+ the air ticket is not so expensive, so you can consider that option really necessary.
+
+604
+01:01:00,000 --> 01:01:04,000
+ Try not to miss like this the quiz.
+
+605
+01:01:04,000 --> 01:01:09,000
+ So I think it's probably we take a break,
+
+606
+01:01:09,000 --> 01:01:17,000
+ and then we can come back or start the chapter one,
+
+607
+01:01:17,000 --> 01:01:27,000
+ go through mostly some of the concepts and also the
+
+608
+01:01:27,000 --> 01:01:37,000
+ probabilities and random process, little bit to introduce into this part too.
+
+609
+01:01:37,000 --> 01:01:43,000
+ Any questions to raise?
+
+610
+01:01:43,000 --> 01:01:49,000
+ Just like earlier one very good question.
+
+611
+01:01:49,000 --> 01:01:54,000
+ Any other?
+
+612
+01:01:54,000 --> 01:01:57,000
+ Yeah, sorry?
+
+613
+01:01:57,000 --> 01:02:03,000
+ Yeah, one bring back home assignment, yes,
+
+614
+01:02:03,000 --> 01:02:07,000
+ because most are considered as CA, you know here,
+
+615
+01:02:07,000 --> 01:02:12,000
+ we call CA continuous assessment, which is not exam.
+
+616
+01:02:12,000 --> 01:02:17,000
+ So we have two component, so one assignment which is set by problem.
+
+617
+01:02:17,000 --> 01:02:22,000
+ In my part I just take one quiz which is physical one,
+
+618
+01:02:22,000 --> 01:02:26,000
+ I did that for the past two or three years.
+
+619
+01:02:26,000 --> 01:02:33,000
+ Yes?
+
+620
+01:02:33,000 --> 01:02:38,000
+ The one I think probably you will know next week.
+
+621
+01:02:38,000 --> 01:02:44,000
+ Normally in the past he will say probably five or six,
+
+622
+01:02:44,000 --> 01:02:50,000
+ then after that usually it's two weeks, then usually it's after recess week,
+
+623
+01:02:50,000 --> 01:02:56,000
+ because it's more like some mini project they will need to spend some time,
+
+624
+01:02:56,000 --> 01:03:01,000
+ maybe after recess week or yeah, all that time.
+
+625
+01:03:01,000 --> 01:03:06,000
+ If we have two, normally that way I, for my other course,
+
+626
+01:03:06,000 --> 01:03:11,000
+ for some of you you may obtain the statistical signal processing on Wednesday.
+
+627
+01:03:11,000 --> 01:03:16,000
+ Also follow the same pattern, one assignment,
+
+628
+01:03:16,000 --> 01:03:21,000
+ and the other is a quiz, yes.
+
+629
+01:03:21,000 --> 01:03:26,000
+ Yeah, good question. Any other question you would like to raise?
+
+630
+01:03:26,000 --> 01:03:31,000
+ Any from other students?
+
+631
+01:03:31,000 --> 01:03:36,000
+ Because next week I will not be here,
+
+632
+01:03:36,000 --> 01:03:41,000
+ if you want to ask question you can email me or you can convey to ProWoo.
+
+633
+01:03:41,000 --> 01:03:46,000
+ I think for the job,
+
+634
+01:03:46,000 --> 01:03:51,000
+ not here the end of next week, I think in the middle, Wednesday or Thursday,
+
+635
+01:03:51,000 --> 01:03:56,000
+ I don't remember.
+
+636
+01:03:56,000 --> 01:04:01,000
+ Now our class is on Monday, so you still can consider
+
+637
+01:04:01,000 --> 01:04:06,000
+ by next week.
+
+638
+01:04:06,000 --> 01:04:11,000
+ The registration system looks like quite stable,
+
+639
+01:04:11,000 --> 01:04:16,000
+ because some students drop from one course, attend the other,
+
+640
+01:04:16,000 --> 01:04:21,000
+ some courses have some vacancy, but some popular courses
+
+641
+01:04:21,000 --> 01:04:26,000
+ already quite full, so you need to consider that also.
+
+642
+01:04:26,000 --> 01:04:31,000
+ Particularly if you are dropping out from the SE,
+
+643
+01:04:31,000 --> 01:04:36,000
+ if there is vacancy you can come back.
+
+644
+01:04:36,000 --> 01:04:41,000
+ If you are SE, the capacity already full,
+
+645
+01:04:41,000 --> 01:04:46,000
+ you cannot be even in the waiting list. Waiting list is for those students
+
+646
+01:04:46,000 --> 01:04:51,000
+ not taking that as SE. If you are from other programs,
+
+647
+01:04:51,000 --> 01:04:56,000
+ this one you are from SPML,
+
+648
+01:04:56,000 --> 01:05:01,000
+ if there is vacancy you are joining right now, then it becomes directly confirmed.
+
+649
+01:05:01,000 --> 01:05:06,000
+ But in case it is already filled up like
+
+650
+01:05:06,000 --> 01:05:11,000
+ 6407, Group A, you can check yourself.
+
+651
+01:05:11,000 --> 01:05:16,000
+ It is already full, then assume you are already in Group A,
+
+652
+01:05:16,000 --> 01:05:21,000
+ then you drop out, someone else fill up. Then later you cannot go
+
+653
+01:05:21,000 --> 01:05:26,000
+ into that group anymore, not even in the waiting list. That's why some students complain,
+
+654
+01:05:26,000 --> 01:05:31,000
+ but that's the system, because normally we will locate
+
+655
+01:05:31,000 --> 01:05:36,000
+ the students by the program into the
+
+656
+01:05:36,000 --> 01:05:41,000
+ confirmed list first, but you don't randomly drop out if it is already
+
+657
+01:05:41,000 --> 01:05:46,000
+ full. And similarly in Group B, like some students in Group B
+
+658
+01:05:46,000 --> 01:05:51,000
+ you are in the confirmed list, but now there is a gap, it's okay, you can
+
+659
+01:05:51,000 --> 01:05:56,000
+ join directly, but you cannot move on to Group A
+
+660
+01:05:56,000 --> 01:06:01,000
+ because it's already maximum, there is no
+
+661
+01:06:01,000 --> 01:06:06,000
+ space, even not in the waiting list. So you have to be careful
+
+662
+01:06:06,000 --> 01:06:11,000
+ about this regulation. If you are in the other program,
+
+663
+01:06:11,000 --> 01:06:16,000
+ you are not guaranteed to be confirmed later,
+
+664
+01:06:16,000 --> 01:06:21,000
+ unless there is like currently those in Group B,
+
+665
+01:06:21,000 --> 01:06:26,000
+ like the 6407, Group B,
+
+666
+01:06:26,000 --> 01:06:31,000
+ those are in waiting list, you know your queue number, then you can roughly estimate.
+
+667
+01:06:31,000 --> 01:06:36,000
+ Most of them can be going, but those are at the end, then
+
+668
+01:06:36,000 --> 01:06:41,000
+ you may not get a place, so you have to be very careful.
+
+669
+01:06:41,000 --> 01:06:46,000
+ I try to help you based on what I know.
+
+670
+01:06:46,000 --> 01:06:51,000
+ Any
+
+671
+01:06:51,000 --> 01:06:56,000
+ questions? If not, then we take a break, we come back
+
+672
+01:06:56,000 --> 01:07:01,000
+ about 7.50. We have a clock at the back, you can
+
+673
+01:07:01,000 --> 01:07:06,000
+ refer to that.
+
+674
+01:07:06,000 --> 01:07:11,000
+ 7.52.
+
+675
+01:07:11,000 --> 01:07:16,000
+ See you later. If you have questions, you can also
+
+676
+01:07:16,000 --> 01:07:21,000
+ ask me during the break or at the end of the class.
+
+677
+01:07:31,000 --> 01:07:36,000
+ Thank you.
+
+678
+01:08:01,000 --> 01:08:06,000
+ .
+
+679
+01:08:31,000 --> 01:08:36,000
+ .
+
+680
+01:08:36,000 --> 01:08:41,000
+ .
+
+681
+01:08:41,000 --> 01:08:46,000
+ .
+
+682
+01:08:46,000 --> 01:08:51,000
+ .
+
+683
+01:08:51,000 --> 01:08:56,000
+ .
+
+684
+01:08:56,000 --> 01:09:01,000
+ .
+
+685
+01:09:01,000 --> 01:09:06,000
+ .
+
+686
+01:09:06,000 --> 01:09:11,000
+ .
+
+687
+01:09:11,000 --> 01:09:16,000
+ .
+
+688
+01:09:16,000 --> 01:09:21,000
+ .
+
+689
+01:09:21,000 --> 01:09:26,000
+ .
+
+690
+01:09:26,000 --> 01:09:31,000
+ .
+
+691
+01:09:31,000 --> 01:09:36,000
+ .
+
+692
+01:09:36,000 --> 01:09:41,000
+ .
+
+693
+01:09:41,000 --> 01:09:46,000
+ .
+
+694
+01:09:46,000 --> 01:09:51,000
+ .
+
+695
+01:09:51,000 --> 01:09:56,000
+ .
+
+696
+01:09:56,000 --> 01:10:01,000
+ .
+
+697
+01:10:01,000 --> 01:10:06,000
+ .
+
+698
+01:10:06,000 --> 01:10:11,000
+ .
+
+699
+01:10:11,000 --> 01:10:16,000
+ .
+
+700
+01:10:16,000 --> 01:10:21,000
+ .
+
+701
+01:10:21,000 --> 01:10:26,000
+ .
+
+702
+01:10:26,000 --> 01:10:31,000
+ .
+
+703
+01:10:31,000 --> 01:10:36,000
+ .
+
+704
+01:10:36,000 --> 01:10:41,000
+ .
+
+705
+01:10:41,000 --> 01:10:46,000
+ .
+
+706
+01:10:46,000 --> 01:10:51,000
+ .
+
+707
+01:10:51,000 --> 01:10:56,000
+ .
+
+708
+01:10:56,000 --> 01:11:01,000
+ .
+
+709
+01:11:01,000 --> 01:11:06,000
+ .
+
+710
+01:11:06,000 --> 01:11:11,000
+ .
+
+711
+01:11:11,000 --> 01:11:16,000
+ .
+
+712
+01:11:16,000 --> 01:11:21,000
+ .
+
+713
+01:11:21,000 --> 01:11:26,000
+ .
+
+714
+01:11:26,000 --> 01:11:31,000
+ .
+
+715
+01:11:31,000 --> 01:11:36,000
+ .
+
+716
+01:11:36,000 --> 01:11:41,000
+ .
+
+717
+01:11:41,000 --> 01:11:46,000
+ .
+
+718
+01:11:46,000 --> 01:11:51,000
+ .
+
+719
+01:11:51,000 --> 01:11:56,000
+ .
+
+720
+01:11:56,000 --> 01:12:01,000
+ .
+
+721
+01:12:01,000 --> 01:12:06,000
+ .
+
+722
+01:12:06,000 --> 01:12:11,000
+ .
+
+723
+01:12:11,000 --> 01:12:16,000
+ .
+
+724
+01:12:16,000 --> 01:12:21,000
+ .
+
+725
+01:12:21,000 --> 01:12:26,000
+ .
+
+726
+01:12:26,000 --> 01:12:31,000
+ .
+
+727
+01:12:31,000 --> 01:12:36,000
+ .
+
+728
+01:12:36,000 --> 01:12:41,000
+ .
+
+729
+01:12:41,000 --> 01:12:46,000
+ .
+
+730
+01:12:46,000 --> 01:12:51,000
+ .
+
+731
+01:12:51,000 --> 01:12:56,000
+ .
+
+732
+01:12:56,000 --> 01:13:01,000
+ .
+
+733
+01:13:01,000 --> 01:13:06,000
+ .
+
+734
+01:13:06,000 --> 01:13:11,000
+ .
+
+735
+01:13:11,000 --> 01:13:16,000
+ .
+
+736
+01:13:16,000 --> 01:13:21,000
+ .
+
+737
+01:13:21,000 --> 01:13:26,000
+ .
+
+738
+01:13:26,000 --> 01:13:31,000
+ .
+
+739
+01:13:31,000 --> 01:13:36,000
+ .
+
+740
+01:13:36,000 --> 01:13:41,000
+ .
+
+741
+01:13:41,000 --> 01:13:46,000
+ .
+
+742
+01:13:46,000 --> 01:13:51,000
+ .
+
+743
+01:13:51,000 --> 01:13:56,000
+ .
+
+744
+01:13:56,000 --> 01:14:01,000
+ .
+
+745
+01:14:01,000 --> 01:14:06,000
+ .
+
+746
+01:14:06,000 --> 01:14:11,000
+ .
+
+747
+01:14:11,000 --> 01:14:16,000
+ .
+
+748
+01:14:16,000 --> 01:14:21,000
+ .
+
+749
+01:14:21,000 --> 01:14:26,000
+ .
+
+750
+01:14:26,000 --> 01:14:31,000
+ .
+
+751
+01:14:31,000 --> 01:14:36,000
+ .
+
+752
+01:14:36,000 --> 01:14:41,000
+ .
+
+753
+01:14:41,000 --> 01:14:46,000
+ .
+
+754
+01:14:46,000 --> 01:14:51,000
+ .
+
+755
+01:14:51,000 --> 01:14:56,000
+ .
+
+756
+01:14:56,000 --> 01:15:01,000
+ .
+
+757
+01:15:01,000 --> 01:15:06,000
+ .
+
+758
+01:15:06,000 --> 01:15:11,000
+ .
+
+759
+01:15:11,000 --> 01:15:16,000
+ .
+
+760
+01:15:16,000 --> 01:15:21,000
+ .
+
+761
+01:15:21,000 --> 01:15:26,000
+ .
+
+762
+01:15:26,000 --> 01:15:31,000
+ .
+
+763
+01:15:31,000 --> 01:15:36,000
+ .
+
+764
+01:15:36,000 --> 01:15:41,000
+ .
+
+765
+01:15:41,000 --> 01:15:46,000
+ .
+
+766
+01:15:46,000 --> 01:15:51,000
+ .
+
+767
+01:15:51,000 --> 01:15:56,000
+ .
+
+768
+01:15:56,000 --> 01:16:01,000
+ .
+
+769
+01:16:01,000 --> 01:16:06,000
+ .
+
+770
+01:16:06,000 --> 01:16:11,000
+ .
+
+771
+01:16:11,000 --> 01:16:16,000
+ .
+
+772
+01:16:16,000 --> 01:16:21,000
+ .
+
+773
+01:16:21,000 --> 01:16:26,000
+ .
+
+774
+01:16:26,000 --> 01:16:31,000
+ .
+
+775
+01:16:31,000 --> 01:16:36,000
+ .
+
+776
+01:16:36,000 --> 01:16:41,000
+ .
+
+777
+01:16:41,000 --> 01:16:46,000
+ .
+
+778
+01:16:46,000 --> 01:16:51,000
+ .
+
+779
+01:16:51,000 --> 01:16:56,000
+ .
+
+780
+01:16:56,000 --> 01:17:01,000
+ .
+
+781
+01:17:01,000 --> 01:17:06,000
+ .
+
+782
+01:17:06,000 --> 01:17:11,000
+ .
+
+783
+01:17:11,000 --> 01:17:16,000
+ .
+
+784
+01:17:16,000 --> 01:17:21,000
+ .
+
+785
+01:17:21,000 --> 01:17:26,000
+ .
+
+786
+01:17:26,000 --> 01:17:31,000
+ .
+
+787
+01:17:31,000 --> 01:17:36,000
+ .
+
+788
+01:17:36,000 --> 01:17:41,000
+ .
+
+789
+01:17:41,000 --> 01:17:46,000
+ .
+
+790
+01:17:46,000 --> 01:17:51,000
+ .
+
+791
+01:17:51,000 --> 01:17:56,000
+ .
+
+792
+01:17:56,000 --> 01:18:01,000
+ .
+
+793
+01:18:01,000 --> 01:18:06,000
+ .
+
+794
+01:18:06,000 --> 01:18:11,000
+ .
+
+795
+01:18:11,000 --> 01:18:16,000
+ .
+
+796
+01:18:16,000 --> 01:18:21,000
+ .
+
+797
+01:18:21,000 --> 01:18:26,000
+ .
+
+798
+01:18:26,000 --> 01:18:31,000
+ .
+
+799
+01:18:31,000 --> 01:18:36,000
+ .
+
+800
+01:18:36,000 --> 01:18:41,000
+ .
+
+801
+01:18:41,000 --> 01:18:46,000
+ .
+
+802
+01:18:46,000 --> 01:18:51,000
+ .
+
+803
+01:18:51,000 --> 01:18:56,000
+ .
+
+804
+01:18:56,000 --> 01:19:01,000
+ .
+
+805
+01:19:01,000 --> 01:19:06,000
+ .
+
+806
+01:19:06,000 --> 01:19:11,000
+ .
+
+807
+01:19:11,000 --> 01:19:16,000
+ .
+
+808
+01:19:16,000 --> 01:19:21,000
+ .
+
+809
+01:19:21,000 --> 01:19:26,000
+ .
+
+810
+01:19:26,000 --> 01:19:31,000
+ .
+
+811
+01:19:31,000 --> 01:19:36,000
+ .
+
+812
+01:19:36,000 --> 01:19:41,000
+ .
+
+813
+01:19:41,000 --> 01:19:46,000
+ .
+
+814
+01:19:46,000 --> 01:19:51,000
+ .
+
+815
+01:19:51,000 --> 01:19:56,000
+ .
+
+816
+01:19:56,000 --> 01:20:01,000
+ .
+
+817
+01:20:01,000 --> 01:20:06,000
+ .
+
+818
+01:20:06,000 --> 01:20:11,000
+ .
+
+819
+01:20:11,000 --> 01:20:16,000
+ .
+
+820
+01:20:16,000 --> 01:20:21,000
+ .
+
+821
+01:20:21,000 --> 01:20:26,000
+ .
+
+822
+01:20:26,000 --> 01:20:31,000
+ .
+
+823
+01:20:31,000 --> 01:20:36,000
+ .
+
+824
+01:20:36,000 --> 01:20:41,000
+ .
+
+825
+01:20:41,000 --> 01:20:46,000
+ .
+
+826
+01:20:46,000 --> 01:20:51,000
+ .
+
+827
+01:20:51,000 --> 01:20:56,000
+ .
+
+828
+01:20:56,000 --> 01:21:01,000
+ .
+
+829
+01:21:01,000 --> 01:21:06,000
+ .
+
+830
+01:21:06,000 --> 01:21:11,000
+ .
+
+831
+01:21:11,000 --> 01:21:16,000
+ .
+
+832
+01:21:16,000 --> 01:21:21,000
+ .
+
+833
+01:21:21,000 --> 01:21:26,000
+ .
+
+834
+01:21:26,000 --> 01:21:31,000
+ .
+
+835
+01:21:31,000 --> 01:21:36,000
+ .
+
+836
+01:21:36,000 --> 01:21:41,000
+ .
+
+837
+01:21:41,000 --> 01:21:46,000
+ .
+
+838
+01:21:46,000 --> 01:21:51,000
+ .
+
+839
+01:21:51,000 --> 01:21:56,000
+ .
+
+840
+01:21:56,000 --> 01:22:01,000
+ .
+
+841
+01:22:01,000 --> 01:22:06,000
+ .
+
+842
+01:22:06,000 --> 01:22:11,000
+ .
+
+843
+01:22:11,000 --> 01:22:16,000
+ .
+
+844
+01:22:16,000 --> 01:22:21,000
+ .
+
+845
+01:22:21,000 --> 01:22:26,000
+ .
+
+846
+01:22:26,000 --> 01:22:31,000
+ .
+
+847
+01:22:31,000 --> 01:22:36,000
+ .
+
+848
+01:22:36,000 --> 01:22:41,000
+ .
+
+849
+01:22:41,000 --> 01:22:46,000
+ .
+
+850
+01:22:46,000 --> 01:22:51,000
+ .
+
+851
+01:22:51,000 --> 01:22:56,000
+ .
+
+852
+01:22:56,000 --> 01:23:01,000
+ .
+
+853
+01:23:01,000 --> 01:23:06,000
+ .
+
+854
+01:23:06,000 --> 01:23:11,000
+ .
+
+855
+01:23:11,000 --> 01:23:16,000
+ .
+
+856
+01:23:16,000 --> 01:23:21,000
+ .
+
+857
+01:23:21,000 --> 01:23:26,000
+ .
+
+858
+01:23:26,000 --> 01:23:31,000
+ .
+
+859
+01:23:31,000 --> 01:23:36,000
+ .
+
+860
+01:23:36,000 --> 01:23:41,000
+ .
+
+861
+01:23:41,000 --> 01:23:46,000
+ .
+
+862
+01:23:46,000 --> 01:23:51,000
+ .
+
+863
+01:23:51,000 --> 01:23:56,000
+ .
+
+864
+01:23:56,000 --> 01:24:01,000
+ .
+
+865
+01:24:01,000 --> 01:24:06,000
+ .
+
+866
+01:24:06,000 --> 01:24:11,000
+ .
+
+867
+01:24:11,000 --> 01:24:16,000
+ .
+
+868
+01:24:16,000 --> 01:24:21,000
+ .
+
+869
+01:24:21,000 --> 01:24:26,000
+ .
+
+870
+01:24:26,000 --> 01:24:31,000
+ .
+
+871
+01:24:31,000 --> 01:24:36,000
+ .
+
+872
+01:24:36,000 --> 01:24:41,000
+ .
+
+873
+01:24:41,000 --> 01:24:46,000
+ .
+
+874
+01:24:46,000 --> 01:24:51,000
+ .
+
+875
+01:24:51,000 --> 01:24:56,000
+ .
+
+876
+01:24:56,000 --> 01:25:01,000
+ .
+
+877
+01:25:01,000 --> 01:25:06,000
+ .
+
+878
+01:25:06,000 --> 01:25:11,000
+ .
+
+879
+01:25:11,000 --> 01:25:16,000
+ .
+
+880
+01:25:16,000 --> 01:25:21,000
+ .
+
+881
+01:25:21,000 --> 01:25:26,000
+ .
+
+882
+01:25:26,000 --> 01:25:31,000
+ .
+
+883
+01:25:31,000 --> 01:25:36,000
+ .
+
+884
+01:25:36,000 --> 01:25:41,000
+ .
+
+885
+01:25:41,000 --> 01:25:46,000
+ .
+
+886
+01:25:46,000 --> 01:25:51,000
+ .
+
+887
+01:25:51,000 --> 01:25:56,000
+ .
+
+888
+01:25:56,000 --> 01:26:01,000
+ .
+
+889
+01:26:01,000 --> 01:26:06,000
+ .
+
+890
+01:26:06,000 --> 01:26:11,000
+ .
+
+891
+01:26:11,000 --> 01:26:16,000
+ .
+
+892
+01:26:16,000 --> 01:26:21,000
+ .
+
+893
+01:26:21,000 --> 01:26:26,000
+ .
+
+894
+01:26:26,000 --> 01:26:31,000
+ .
+
+895
+01:26:31,000 --> 01:26:36,000
+ .
+
+896
+01:26:36,000 --> 01:26:41,000
+ .
+
+897
+01:26:41,000 --> 01:26:46,000
+ .
+
+898
+01:26:46,000 --> 01:26:51,000
+ .
+
+899
+01:26:52,000 --> 01:26:57,000
+ .
+
+900
+01:26:57,000 --> 01:27:02,000
+ .
+
+901
+01:27:02,000 --> 01:27:07,000
+ .
+
+902
+01:27:07,000 --> 01:27:12,000
+ .
+
+903
+01:27:12,000 --> 01:27:17,000
+ .
+
+904
+01:27:17,000 --> 01:27:22,000
+ .
+
+905
+01:27:22,000 --> 01:27:27,000
+ .
+
+906
+01:27:27,000 --> 01:27:32,000
+ .
+
+907
+01:27:32,000 --> 01:27:37,000
+ .
+
+908
+01:27:37,000 --> 01:27:42,000
+ .
+
+909
+01:27:43,000 --> 01:27:48,000
+ .
+
+910
+01:27:48,000 --> 01:27:53,000
+ .
+
+911
+01:27:53,000 --> 01:27:58,000
+ .
+
+912
+01:27:58,000 --> 01:28:03,000
+ .
+
+913
+01:28:03,000 --> 01:28:08,000
+ .
+
+914
+01:28:08,000 --> 01:28:13,000
+ .
+
+915
+01:28:13,000 --> 01:28:18,000
+ .
+
+916
+01:28:18,000 --> 01:28:23,000
+ .
+
+917
+01:28:23,000 --> 01:28:28,000
+ .
+
+918
+01:28:28,000 --> 01:28:33,000
+ .
+
+919
+01:28:34,000 --> 01:28:39,000
+ .
+
+920
+01:28:39,000 --> 01:28:43,000
+ .
+
+921
+01:28:43,000 --> 01:28:48,000
+ .
+
+922
+01:28:48,000 --> 01:28:53,000
+ .
+
+923
+01:28:53,000 --> 01:28:58,000
+ .
+
+924
+01:28:59,000 --> 01:29:04,000
+ .
+
+925
+01:29:04,000 --> 01:29:09,000
+ .
+
+926
+01:29:09,000 --> 01:29:14,000
+ .
+
+927
+01:29:14,000 --> 01:29:19,000
+ .
+
+928
+01:29:19,000 --> 01:29:24,000
+ .
+
+929
+01:29:24,000 --> 01:29:29,000
+ .
+
+930
+01:29:29,000 --> 01:29:34,000
+ .
+
+931
+01:29:34,000 --> 01:29:39,000
+ .
+
+932
+01:29:39,000 --> 01:29:44,000
+ .
+
+933
+01:29:44,000 --> 01:29:49,000
+ .
+
+934
+01:29:49,000 --> 01:29:54,000
+ .
+
+935
+01:29:54,000 --> 01:29:59,000
+ .
+
+936
+01:29:59,000 --> 01:30:04,000
+ .
+
+937
+01:30:04,000 --> 01:30:09,000
+ .
+
+938
+01:30:09,000 --> 01:30:14,000
+ .
+
+939
+01:30:14,000 --> 01:30:19,000
+ .
+
+940
+01:30:19,000 --> 01:30:24,000
+ .
+
+941
+01:30:24,000 --> 01:30:29,000
+ .
+
+942
+01:30:29,000 --> 01:30:34,000
+ .
+
+943
+01:30:34,000 --> 01:30:39,000
+ .
+
+944
+01:30:40,000 --> 01:30:45,000
+ .
+
+945
+01:30:45,000 --> 01:30:50,000
+ .
+
+946
+01:30:50,000 --> 01:30:55,000
+ .
+
+947
+01:30:55,000 --> 01:31:00,000
+ .
+
+948
+01:31:00,000 --> 01:31:05,000
+ .
+
+949
+01:31:05,000 --> 01:31:10,000
+ .
+
+950
+01:31:10,000 --> 01:31:15,000
+ .
+
+951
+01:31:15,000 --> 01:31:20,000
+ .
+
+952
+01:31:20,000 --> 01:31:25,000
+ .
+
+953
+01:31:25,000 --> 01:31:30,000
+ .
+
+954
+01:31:30,000 --> 01:31:35,000
+ .
+
+955
+01:31:35,000 --> 01:31:40,000
+ .
+
+956
+01:31:40,000 --> 01:31:45,000
+ .
+
+957
+01:31:45,000 --> 01:31:50,000
+ .
+
+958
+01:31:50,000 --> 01:31:55,000
+ .
+
+959
+01:31:55,000 --> 01:32:00,000
+ .
+
+960
+01:32:00,000 --> 01:32:05,000
+ .
+
+961
+01:32:05,000 --> 01:32:10,000
+ .
+
+962
+01:32:10,000 --> 01:32:15,000
+ .
+
+963
+01:32:15,000 --> 01:32:20,000
+ .
+
+964
+01:32:20,000 --> 01:32:25,000
+ .
+
+965
+01:32:25,000 --> 01:32:30,000
+ .
+
+966
+01:32:30,000 --> 01:32:35,000
+ .
+
+967
+01:32:35,000 --> 01:32:40,000
+ .
+
+968
+01:32:40,000 --> 01:32:45,000
+ .
+
+969
+01:32:45,000 --> 01:32:50,000
+ .
+
+970
+01:32:50,000 --> 01:32:55,000
+ .
+
+971
+01:32:55,000 --> 01:33:00,000
+ .
+
+972
+01:33:00,000 --> 01:33:05,000
+ .
+
+973
+01:33:05,000 --> 01:33:10,000
+ .
+
+974
+01:33:11,000 --> 01:33:16,000
+ .
+
+975
+01:33:16,000 --> 01:33:20,000
+ .
+
+976
+01:33:20,000 --> 01:33:25,000
+ .
+
+977
+01:33:25,000 --> 01:33:30,000
+ .
+
+978
+01:33:30,000 --> 01:33:35,000
+ .
+
+979
+01:33:35,000 --> 01:33:40,000
+ .
+
+980
+01:33:40,000 --> 01:33:45,000
+ .
+
+981
+01:33:45,000 --> 01:33:50,000
+ .
+
+982
+01:33:50,000 --> 01:33:55,000
+ .
+
+983
+01:33:55,000 --> 01:34:00,000
+ .
+
+984
+01:34:00,000 --> 01:34:05,000
+ .
+
+985
+01:34:05,000 --> 01:34:10,000
+ .
+
+986
+01:34:10,000 --> 01:34:15,000
+ .
+
+987
+01:34:15,000 --> 01:34:20,000
+ .
+
+988
+01:34:20,000 --> 01:34:25,000
+ .
+
+989
+01:34:26,000 --> 01:34:31,000
+ .
+
+990
+01:34:31,000 --> 01:34:36,000
+ .
+
+991
+01:34:36,000 --> 01:34:41,000
+ .
+
+992
+01:34:41,000 --> 01:34:46,000
+ .
+
+993
+01:34:46,000 --> 01:34:51,000
+ .
+
+994
+01:34:52,000 --> 01:34:57,000
+ .
+
+995
+01:34:57,000 --> 01:35:02,000
+ .
+
+996
+01:35:02,000 --> 01:35:07,000
+ .
+
+997
+01:35:07,000 --> 01:35:12,000
+ .
+
+998
+01:35:12,000 --> 01:35:17,000
+ .
+
+999
+01:35:17,000 --> 01:35:22,000
+ .
+
+1000
+01:35:22,000 --> 01:35:27,000
+ .
+
+1001
+01:35:27,000 --> 01:35:32,000
+ .
+
+1002
+01:35:32,000 --> 01:35:37,000
+ .
+
+1003
+01:35:37,000 --> 01:35:42,000
+ .
+
+1004
+01:35:43,000 --> 01:35:48,000
+ .
+
+1005
+01:35:48,000 --> 01:35:52,000
+ .
+
+1006
+01:35:52,000 --> 01:35:57,000
+ .
+
+1007
+01:35:57,000 --> 01:36:02,000
+ .
+
+1008
+01:36:02,000 --> 01:36:07,000
+ .
+
+1009
+01:36:08,000 --> 01:36:13,000
+ .
+
+1010
+01:36:13,000 --> 01:36:18,000
+ .
+
+1011
+01:36:18,000 --> 01:36:23,000
+ .
+
+1012
+01:36:23,000 --> 01:36:28,000
+ .
+
+1013
+01:36:28,000 --> 01:36:33,000
+ .
+
+1014
+01:36:33,000 --> 01:36:38,000
+ .
+
+1015
+01:36:38,000 --> 01:36:43,000
+ .
+
+1016
+01:36:43,000 --> 01:36:48,000
+ .
+
+1017
+01:36:48,000 --> 01:36:53,000
+ .
+
+1018
+01:36:53,000 --> 01:36:58,000
+ .
+
+1019
+01:36:59,000 --> 01:37:04,000
+ .
+
+1020
+01:37:04,000 --> 01:37:08,000
+ .
+
+1021
+01:37:08,000 --> 01:37:13,000
+ .
+
+1022
+01:37:13,000 --> 01:37:18,000
+ .
+
+1023
+01:37:18,000 --> 01:37:23,000
+ .
+
+1024
+01:37:23,000 --> 01:37:28,000
+ .
+
+1025
+01:37:28,000 --> 01:37:33,000
+ .
+
+1026
+01:37:33,000 --> 01:37:38,000
+ .
+
+1027
+01:37:38,000 --> 01:37:43,000
+ .
+
+1028
+01:37:43,000 --> 01:37:48,000
+ .
+
+1029
+01:37:49,000 --> 01:37:54,000
+ .
+
+1030
+01:37:54,000 --> 01:37:58,000
+ .
+
+1031
+01:37:58,000 --> 01:38:03,000
+ .
+
+1032
+01:38:03,000 --> 01:38:08,000
+ .
+
+1033
+01:38:08,000 --> 01:38:13,000
+ .
+
+1034
+01:38:13,000 --> 01:38:18,000
+ .
+
+1035
+01:38:18,000 --> 01:38:23,000
+ .
+
+1036
+01:38:23,000 --> 01:38:28,000
+ .
+
+1037
+01:38:28,000 --> 01:38:33,000
+ .
+
+1038
+01:38:33,000 --> 01:38:38,000
+ .
+
+1039
+01:38:38,000 --> 01:38:43,000
+ .
+
+1040
+01:38:43,000 --> 01:38:48,000
+ .
+
+1041
+01:38:48,000 --> 01:38:53,000
+ .
+
+1042
+01:38:53,000 --> 01:38:58,000
+ .
+
+1043
+01:38:58,000 --> 01:39:03,000
+ .
+
+1044
+01:39:03,000 --> 01:39:08,000
+ .
+
+1045
+01:39:08,000 --> 01:39:13,000
+ .
+
+1046
+01:39:13,000 --> 01:39:18,000
+ .
+
+1047
+01:39:18,000 --> 01:39:23,000
+ .
+
+1048
+01:39:23,000 --> 01:39:28,000
+ .
+
+1049
+01:39:28,000 --> 01:39:33,000
+ .
+
+1050
+01:39:33,000 --> 01:39:38,000
+ .
+
+1051
+01:39:38,000 --> 01:39:43,000
+ .
+
+1052
+01:39:43,000 --> 01:39:48,000
+ .
+
+1053
+01:39:48,000 --> 01:39:53,000
+ .
+
+1054
+01:39:53,000 --> 01:39:58,000
+ .
+
+1055
+01:39:58,000 --> 01:40:03,000
+ .
+
+1056
+01:40:03,000 --> 01:40:08,000
+ .
+
+1057
+01:40:08,000 --> 01:40:13,000
+ .
+
+1058
+01:40:13,000 --> 01:40:18,000
+ .
+
+1059
+01:40:19,000 --> 01:40:24,000
+ .
+
+1060
+01:40:24,000 --> 01:40:29,000
+ .
+
+1061
+01:40:29,000 --> 01:40:34,000
+ .
+
+1062
+01:40:34,000 --> 01:40:39,000
+ .
+
+1063
+01:40:39,000 --> 01:40:44,000
+ .
+
+1064
+01:40:44,000 --> 01:40:49,000
+ .
+
+1065
+01:40:49,000 --> 01:40:54,000
+ .
+
+1066
+01:40:54,000 --> 01:40:59,000
+ .
+
+1067
+01:40:59,000 --> 01:41:04,000
+ .
+
+1068
+01:41:04,000 --> 01:41:09,000
+ .
+
+1069
+01:41:10,000 --> 01:41:15,000
+ .
+
+1070
+01:41:15,000 --> 01:41:20,000
+ .
+
+1071
+01:41:20,000 --> 01:41:25,000
+ .
+
+1072
+01:41:25,000 --> 01:41:30,000
+ .
+
+1073
+01:41:30,000 --> 01:41:35,000
+ .
+
+1074
+01:41:35,000 --> 01:41:40,000
+ .
+
+1075
+01:41:40,000 --> 01:41:45,000
+ .
+
+1076
+01:41:45,000 --> 01:41:50,000
+ .
+
+1077
+01:41:50,000 --> 01:41:55,000
+ .
+
+1078
+01:41:55,000 --> 01:42:00,000
+ .
+
+1079
+01:42:00,000 --> 01:42:05,000
+ .
+
+1080
+01:42:05,000 --> 01:42:10,000
+ .
+
+1081
+01:42:10,000 --> 01:42:15,000
+ .
+
+1082
+01:42:15,000 --> 01:42:20,000
+ .
+
+1083
+01:42:20,000 --> 01:42:25,000
+ .
+
+1084
+01:42:26,000 --> 01:42:31,000
+ .
+
+1085
+01:42:31,000 --> 01:42:35,000
+ .
+
+1086
+01:42:35,000 --> 01:42:40,000
+ .
+
+1087
+01:42:40,000 --> 01:42:45,000
+ .
+
+1088
+01:42:45,000 --> 01:42:50,000
+ .
+
+1089
+01:42:51,000 --> 01:42:56,000
+ .
+
+1090
+01:42:56,000 --> 01:43:01,000
+ .
+
+1091
+01:43:01,000 --> 01:43:06,000
+ .
+
+1092
+01:43:06,000 --> 01:43:11,000
+ .
+
+1093
+01:43:11,000 --> 01:43:16,000
+ .
+
+1094
+01:43:16,000 --> 01:43:21,000
+ .
+
+1095
+01:43:21,000 --> 01:43:26,000
+ .
+
+1096
+01:43:26,000 --> 01:43:31,000
+ .
+
+1097
+01:43:31,000 --> 01:43:36,000
+ .
+
+1098
+01:43:36,000 --> 01:43:41,000
+ .
+
+1099
+01:43:41,000 --> 01:43:46,000
+ .
+
+1100
+01:43:46,000 --> 01:43:51,000
+ .
+
+1101
+01:43:51,000 --> 01:43:56,000
+ .
+
+1102
+01:43:56,000 --> 01:44:01,000
+ .
+
+1103
+01:44:01,000 --> 01:44:06,000
+ .
+
+1104
+01:44:06,000 --> 01:44:11,000
+ .
+
+1105
+01:44:11,000 --> 01:44:16,000
+ .
+
+1106
+01:44:16,000 --> 01:44:21,000
+ .
+
+1107
+01:44:21,000 --> 01:44:26,000
+ .
+
+1108
+01:44:26,000 --> 01:44:31,000
+ .
+
+1109
+01:44:31,000 --> 01:44:36,000
+ .
+
+1110
+01:44:36,000 --> 01:44:41,000
+ .
+
+1111
+01:44:41,000 --> 01:44:46,000
+ .
+
+1112
+01:44:46,000 --> 01:44:51,000
+ .
+
+1113
+01:44:51,000 --> 01:44:56,000
+ .
+
+1114
+01:44:56,000 --> 01:45:01,000
+ .
+
+1115
+01:45:01,000 --> 01:45:06,000
+ .
+
+1116
+01:45:06,000 --> 01:45:11,000
+ .
+
+1117
+01:45:11,000 --> 01:45:16,000
+ .
+
+1118
+01:45:16,000 --> 01:45:21,000
+ .
+
+1119
+01:45:21,000 --> 01:45:26,000
+ .
+
+1120
+01:45:26,000 --> 01:45:31,000
+ .
+
+1121
+01:45:31,000 --> 01:45:36,000
+ .
+
+1122
+01:45:36,000 --> 01:45:41,000
+ .
+
+1123
+01:45:41,000 --> 01:45:46,000
+ .
+
+1124
+01:45:46,000 --> 01:45:51,000
+ .
+
+1125
+01:45:51,000 --> 01:45:56,000
+ .
+
+1126
+01:45:56,000 --> 01:46:01,000
+ .
+
+1127
+01:46:01,000 --> 01:46:06,000
+ .
+
+1128
+01:46:06,000 --> 01:46:11,000
+ .
+
+1129
+01:46:11,000 --> 01:46:16,000
+ .
+
+1130
+01:46:16,000 --> 01:46:21,000
+ .
+
+1131
+01:46:21,000 --> 01:46:26,000
+ .
+
+1132
+01:46:26,000 --> 01:46:31,000
+ .
+
+1133
+01:46:31,000 --> 01:46:36,000
+ .
+
+1134
+01:46:36,000 --> 01:46:41,000
+ .
+
+1135
+01:46:41,000 --> 01:46:46,000
+ .
+
+1136
+01:46:46,000 --> 01:46:51,000
+ .
+
+1137
+01:46:51,000 --> 01:46:56,000
+ .
+
+1138
+01:46:56,000 --> 01:47:01,000
+ .
+
+1139
+01:47:02,000 --> 01:47:07,000
+ .
+
+1140
+01:47:07,000 --> 01:47:12,000
+ .
+
+1141
+01:47:12,000 --> 01:47:17,000
+ .
+
+1142
+01:47:17,000 --> 01:47:22,000
+ .
+
+1143
+01:47:22,000 --> 01:47:27,000
+ .
+
+1144
+01:47:27,000 --> 01:47:32,000
+ .
+
+1145
+01:47:32,000 --> 01:47:37,000
+ .
+
+1146
+01:47:37,000 --> 01:47:42,000
+ .
+
+1147
+01:47:42,000 --> 01:47:47,000
+ .
+
+1148
+01:47:47,000 --> 01:47:52,000
+ .
+
+1149
+01:47:53,000 --> 01:47:58,000
+ .
+
+1150
+01:47:58,000 --> 01:48:03,000
+ .
+
+1151
+01:48:03,000 --> 01:48:08,000
+ .
+
+1152
+01:48:08,000 --> 01:48:13,000
+ .
+
+1153
+01:48:13,000 --> 01:48:18,000
+ .
+
+1154
+01:48:18,000 --> 01:48:23,000
+ .
+
+1155
+01:48:23,000 --> 01:48:28,000
+ .
+
+1156
+01:48:28,000 --> 01:48:33,000
+ .
+
+1157
+01:48:33,000 --> 01:48:38,000
+ .
+
+1158
+01:48:38,000 --> 01:48:43,000
+ .
+
+1159
+01:48:43,000 --> 01:48:48,000
+ .
+
+1160
+01:48:48,000 --> 01:48:53,000
+ .
+
+1161
+01:48:53,000 --> 01:48:58,000
+ .
+
+1162
+01:48:58,000 --> 01:49:03,000
+ .
+
+1163
+01:49:03,000 --> 01:49:08,000
+ .
+
+1164
+01:49:09,000 --> 01:49:14,000
+ .
+
+1165
+01:49:14,000 --> 01:49:19,000
+ .
+
+1166
+01:49:19,000 --> 01:49:24,000
+ .
+
+1167
+01:49:24,000 --> 01:49:29,000
+ .
+
+1168
+01:49:29,000 --> 01:49:34,000
+ .
+
+1169
+01:49:35,000 --> 01:49:40,000
+ .
+
+1170
+01:49:40,000 --> 01:49:45,000
+ .
+
+1171
+01:49:45,000 --> 01:49:50,000
+ .
+
+1172
+01:49:50,000 --> 01:49:55,000
+ .
+
+1173
+01:49:55,000 --> 01:50:00,000
+ .
+
+1174
+01:50:00,000 --> 01:50:05,000
+ .
+
+1175
+01:50:05,000 --> 01:50:10,000
+ .
+
+1176
+01:50:10,000 --> 01:50:15,000
+ .
+
+1177
+01:50:15,000 --> 01:50:20,000
+ .
+
+1178
+01:50:20,000 --> 01:50:25,000
+ .
+
+1179
+01:50:26,000 --> 01:50:31,000
+ .
+
+1180
+01:50:31,000 --> 01:50:35,000
+ .
+
+1181
+01:50:35,000 --> 01:50:40,000
+ .
+
+1182
+01:50:40,000 --> 01:50:45,000
+ .
+
+1183
+01:50:45,000 --> 01:50:50,000
+ .
+
+1184
+01:50:50,000 --> 01:50:55,000
+ .
+
+1185
+01:50:55,000 --> 01:51:00,000
+ .
+
+1186
+01:51:00,000 --> 01:51:05,000
+ .
+
+1187
+01:51:05,000 --> 01:51:10,000
+ .
+
+1188
+01:51:10,000 --> 01:51:15,000
+ .
+
+1189
+01:51:16,000 --> 01:51:21,000
+ .
+
+1190
+01:51:21,000 --> 01:51:26,000
+ .
+
+1191
+01:51:26,000 --> 01:51:31,000
+ .
+
+1192
+01:51:31,000 --> 01:51:36,000
+ .
+
+1193
+01:51:36,000 --> 01:51:41,000
+ .
+
+1194
+01:51:42,000 --> 01:51:47,000
+ .
+
+1195
+01:51:47,000 --> 01:51:52,000
+ .
+
+1196
+01:51:52,000 --> 01:51:57,000
+ .
+
+1197
+01:51:57,000 --> 01:52:02,000
+ .
+
+1198
+01:52:02,000 --> 01:52:07,000
+ .
+
+1199
+01:52:08,000 --> 01:52:13,000
+ .
+
+1200
+01:52:13,000 --> 01:52:18,000
+ .
+
+1201
+01:52:18,000 --> 01:52:23,000
+ .
+
+1202
+01:52:23,000 --> 01:52:28,000
+ .
+
+1203
+01:52:28,000 --> 01:52:33,000
+ .
+
+1204
+01:52:33,000 --> 01:52:38,000
+ .
+
+1205
+01:52:38,000 --> 01:52:43,000
+ .
+
+1206
+01:52:43,000 --> 01:52:48,000
+ .
+
+1207
+01:52:48,000 --> 01:52:53,000
+ .
+
+1208
+01:52:53,000 --> 01:52:58,000
+ .
+
+1209
+01:52:58,000 --> 01:53:03,000
+ .
+
+1210
+01:53:03,000 --> 01:53:08,000
+ .
+
+1211
+01:53:08,000 --> 01:53:13,000
+ .
+
+1212
+01:53:13,000 --> 01:53:18,000
+ .
+
+1213
+01:53:18,000 --> 01:53:23,000
+ .
+
+1214
+01:53:23,000 --> 01:53:28,000
+ .
+
+1215
+01:53:28,000 --> 01:53:33,000
+ .
+
+1216
+01:53:33,000 --> 01:53:38,000
+ .
+
+1217
+01:53:38,000 --> 01:53:43,000
+ .
+
+1218
+01:53:43,000 --> 01:53:48,000
+ .
+
+1219
+01:53:48,000 --> 01:53:53,000
+ .
+
+1220
+01:53:53,000 --> 01:53:58,000
+ .
+
+1221
+01:53:58,000 --> 01:54:03,000
+ .
+
+1222
+01:54:03,000 --> 01:54:08,000
+ .
+
+1223
+01:54:08,000 --> 01:54:13,000
+ .
+
+1224
+01:54:13,000 --> 01:54:18,000
+ .
+
+1225
+01:54:18,000 --> 01:54:23,000
+ .
+
+1226
+01:54:23,000 --> 01:54:28,000
+ .
+
+1227
+01:54:28,000 --> 01:54:33,000
+ .
+
+1228
+01:54:33,000 --> 01:54:38,000
+ .
+
+1229
+01:54:39,000 --> 01:54:44,000
+ .
+
+1230
+01:54:44,000 --> 01:54:49,000
+ .
+
+1231
+01:54:49,000 --> 01:54:54,000
+ .
+
+1232
+01:54:54,000 --> 01:54:59,000
+ .
+
+1233
+01:54:59,000 --> 01:55:04,000
+ .
+
+1234
+01:55:04,000 --> 01:55:09,000
+ .
+
+1235
+01:55:09,000 --> 01:55:14,000
+ .
+
+1236
+01:55:14,000 --> 01:55:19,000
+ .
+
+1237
+01:55:19,000 --> 01:55:24,000
+ .
+
+1238
+01:55:24,000 --> 01:55:29,000
+ .
+
+1239
+01:55:29,000 --> 01:55:34,000
+ .
+
+1240
+01:55:34,000 --> 01:55:39,000
+ .
+
+1241
+01:55:39,000 --> 01:55:44,000
+ .
+
+1242
+01:55:44,000 --> 01:55:49,000
+ .
+
+1243
+01:55:49,000 --> 01:55:54,000
+ .
+
+1244
+01:55:54,000 --> 01:55:59,000
+ .
+
+1245
+01:55:59,000 --> 01:56:04,000
+ .
+
+1246
+01:56:04,000 --> 01:56:09,000
+ .
+
+1247
+01:56:09,000 --> 01:56:14,000
+ .
+
+1248
+01:56:14,000 --> 01:56:19,000
+ .
+
+1249
+01:56:20,000 --> 01:56:25,000
+ .
+
+1250
+01:56:25,000 --> 01:56:30,000
+ .
+
+1251
+01:56:30,000 --> 01:56:35,000
+ .
+
+1252
+01:56:35,000 --> 01:56:40,000
+ .
+
+1253
+01:56:40,000 --> 01:56:45,000
+ .
+
+1254
+01:56:45,000 --> 01:56:50,000
+ .
+
+1255
+01:56:50,000 --> 01:56:55,000
+ .
+
+1256
+01:56:55,000 --> 01:57:00,000
+ .
+
+1257
+01:57:00,000 --> 01:57:05,000
+ .
+
+1258
+01:57:05,000 --> 01:57:10,000
+ .
+
+1259
+01:57:10,000 --> 01:57:15,000
+ .
+
+1260
+01:57:15,000 --> 01:57:20,000
+ .
+
+1261
+01:57:20,000 --> 01:57:25,000
+ .
+
+1262
+01:57:25,000 --> 01:57:30,000
+ .
+
+1263
+01:57:30,000 --> 01:57:35,000
+ .
+
+1264
+01:57:35,000 --> 01:57:40,000
+ .
+
+1265
+01:57:40,000 --> 01:57:45,000
+ .
+
+1266
+01:57:45,000 --> 01:57:50,000
+ .
+
+1267
+01:57:50,000 --> 01:57:55,000
+ .
+
+1268
+01:57:55,000 --> 01:58:00,000
+ .
+
+1269
+01:58:01,000 --> 01:58:06,000
+ .
+
+1270
+01:58:06,000 --> 01:58:11,000
+ .
+
+1271
+01:58:11,000 --> 01:58:16,000
+ .
+
+1272
+01:58:16,000 --> 01:58:21,000
+ .
+
+1273
+01:58:21,000 --> 01:58:26,000
+ .
+
+1274
+01:58:26,000 --> 01:58:31,000
+ .
+
+1275
+01:58:31,000 --> 01:58:36,000
+ .
+
+1276
+01:58:36,000 --> 01:58:41,000
+ .
+
+1277
+01:58:41,000 --> 01:58:46,000
+ .
+
+1278
+01:58:46,000 --> 01:58:51,000
+ .
+
+1279
+01:58:51,000 --> 01:58:56,000
+ .
+
+1280
+01:58:56,000 --> 01:59:01,000
+ .
+
+1281
+01:59:01,000 --> 01:59:06,000
+ .
+
+1282
+01:59:06,000 --> 01:59:11,000
+ .
+
+1283
+01:59:11,000 --> 01:59:16,000
+ .
+
+1284
+01:59:16,000 --> 01:59:21,000
+ .
+
+1285
+01:59:21,000 --> 01:59:26,000
+ .
+
+1286
+01:59:26,000 --> 01:59:31,000
+ .
+
+1287
+01:59:31,000 --> 01:59:36,000
+ .
+
+1288
+01:59:36,000 --> 01:59:41,000
+ .
+
+1289
+01:59:41,000 --> 01:59:46,000
+ .
+
+1290
+01:59:46,000 --> 01:59:51,000
+ .
+
+1291
+01:59:51,000 --> 01:59:56,000
+ .
+
+1292
+01:59:56,000 --> 02:00:01,000
+ .
+
+1293
+02:00:01,000 --> 02:00:06,000
+ .
+
+1294
+02:00:06,000 --> 02:00:11,000
+ .
+
+1295
+02:00:11,000 --> 02:00:16,000
+ .
+
+1296
+02:00:16,000 --> 02:00:21,000
+ .
+
+1297
+02:00:21,000 --> 02:00:26,000
+ .
+
+1298
+02:00:26,000 --> 02:00:31,000
+ .
+
+1299
+02:00:31,000 --> 02:00:36,000
+ .
+
+1300
+02:00:36,000 --> 02:00:41,000
+ .
+
+1301
+02:00:41,000 --> 02:00:46,000
+ .
+
+1302
+02:00:46,000 --> 02:00:51,000
+ .
+
+1303
+02:00:51,000 --> 02:00:56,000
+ .
+
+1304
+02:00:57,000 --> 02:01:02,000
+ .
+
+1305
+02:01:02,000 --> 02:01:07,000
+ .
+
+1306
+02:01:07,000 --> 02:01:12,000
+ .
+
+1307
+02:01:12,000 --> 02:01:17,000
+ .
+
+1308
+02:01:17,000 --> 02:01:22,000
+ .
+
+1309
+02:01:22,000 --> 02:01:27,000
+ .
+
+1310
+02:01:27,000 --> 02:01:32,000
+ .
+
+1311
+02:01:32,000 --> 02:01:37,000
+ .
+
+1312
+02:01:37,000 --> 02:01:42,000
+ .
+
+1313
+02:01:42,000 --> 02:01:47,000
+ .
+
+1314
+02:01:48,000 --> 02:01:53,000
+ .
+
+1315
+02:01:53,000 --> 02:01:58,000
+ .
+
+1316
+02:01:58,000 --> 02:02:03,000
+ .
+
+1317
+02:02:03,000 --> 02:02:08,000
+ .
+
+1318
+02:02:08,000 --> 02:02:13,000
+ .
+
+1319
+02:02:13,000 --> 02:02:18,000
+ .
+
+1320
+02:02:18,000 --> 02:02:23,000
+ .
+
+1321
+02:02:23,000 --> 02:02:28,000
+ .
+
+1322
+02:02:28,000 --> 02:02:33,000
+ .
+
+1323
+02:02:33,000 --> 02:02:38,000
+ .
+
+1324
+02:02:38,000 --> 02:02:43,000
+ .
+
+1325
+02:02:43,000 --> 02:02:48,000
+ .
+
+1326
+02:02:48,000 --> 02:02:53,000
+ .
+
+1327
+02:02:53,000 --> 02:02:58,000
+ .
+
+1328
+02:02:58,000 --> 02:03:03,000
+ .
+
+1329
+02:03:03,000 --> 02:03:08,000
+ .
+
+1330
+02:03:08,000 --> 02:03:13,000
+ .
+
+1331
+02:03:13,000 --> 02:03:18,000
+ .
+
+1332
+02:03:18,000 --> 02:03:23,000
+ .
+
+1333
+02:03:23,000 --> 02:03:28,000
+ .
+
+1334
+02:03:28,000 --> 02:03:33,000
+ .
+
+1335
+02:03:33,000 --> 02:03:38,000
+ .
+
+1336
+02:03:38,000 --> 02:03:43,000
+ .
+
+1337
+02:03:43,000 --> 02:03:48,000
+ .
+
+1338
+02:03:48,000 --> 02:03:53,000
+ .
+
+1339
+02:03:53,000 --> 02:03:58,000
+ .
+
+1340
+02:03:58,000 --> 02:04:03,000
+ .
+
+1341
+02:04:03,000 --> 02:04:08,000
+ .
+
+1342
+02:04:08,000 --> 02:04:13,000
+ .
+
+1343
+02:04:13,000 --> 02:04:18,000
+ .
+
+1344
+02:04:18,000 --> 02:04:23,000
+ .
+
+1345
+02:04:23,000 --> 02:04:28,000
+ .
+
+1346
+02:04:28,000 --> 02:04:33,000
+ .
+
+1347
+02:04:33,000 --> 02:04:38,000
+ .
+
+1348
+02:04:38,000 --> 02:04:43,000
+ .
+
+1349
+02:04:43,000 --> 02:04:48,000
+ .
+
+1350
+02:04:48,000 --> 02:04:53,000
+ .
+
+1351
+02:04:53,000 --> 02:04:58,000
+ .
+
+1352
+02:04:58,000 --> 02:05:03,000
+ .
+
+1353
+02:05:03,000 --> 02:05:08,000
+ .
+
+1354
+02:05:08,000 --> 02:05:13,000
+ .
+
+1355
+02:05:13,000 --> 02:05:18,000
+ .
+
+1356
+02:05:18,000 --> 02:05:23,000
+ .
+
+1357
+02:05:23,000 --> 02:05:28,000
+ .
+
+1358
+02:05:28,000 --> 02:05:33,000
+ .
+
+1359
+02:05:33,000 --> 02:05:38,000
+ .
+
+1360
+02:05:38,000 --> 02:05:43,000
+ .
+
+1361
+02:05:43,000 --> 02:05:48,000
+ .
+
+1362
+02:05:48,000 --> 02:05:53,000
+ .
+
+1363
+02:05:53,000 --> 02:05:58,000
+ .
+
+1364
+02:05:58,000 --> 02:06:03,000
+ .
+
+1365
+02:06:03,000 --> 02:06:08,000
+ .
+
+1366
+02:06:08,000 --> 02:06:13,000
+ .
+
+1367
+02:06:13,000 --> 02:06:18,000
+ .
+
+1368
+02:06:18,000 --> 02:06:23,000
+ .
+
+1369
+02:06:23,000 --> 02:06:28,000
+ .
+
+1370
+02:06:28,000 --> 02:06:33,000
+ .
+
+1371
+02:06:33,000 --> 02:06:38,000
+ .
+
+1372
+02:06:38,000 --> 02:06:43,000
+ .
+
+1373
+02:06:43,000 --> 02:06:48,000
+ .
+
+1374
+02:06:48,000 --> 02:06:53,000
+ .
+
+1375
+02:06:53,000 --> 02:06:58,000
+ .
+
+1376
+02:06:58,000 --> 02:07:03,000
+ .
+
+1377
+02:07:03,000 --> 02:07:08,000
+ .
+
+1378
+02:07:08,000 --> 02:07:13,000
+ .
+
+1379
+02:07:13,000 --> 02:07:18,000
+ .
+
+1380
+02:07:18,000 --> 02:07:23,000
+ .
+
+1381
+02:07:23,000 --> 02:07:28,000
+ .
+
+1382
+02:07:28,000 --> 02:07:33,000
+ .
+
+1383
+02:07:33,000 --> 02:07:38,000
+ .
+
+1384
+02:07:39,000 --> 02:07:44,000
+ .
+
+1385
+02:07:44,000 --> 02:07:49,000
+ .
+
+1386
+02:07:49,000 --> 02:07:54,000
+ .
+
+1387
+02:07:54,000 --> 02:07:59,000
+ .
+
+1388
+02:07:59,000 --> 02:08:04,000
+ .
+
+1389
+02:08:04,000 --> 02:08:09,000
+ .
+
+1390
+02:08:09,000 --> 02:08:14,000
+ .
+
+1391
+02:08:14,000 --> 02:08:19,000
+ .
+
+1392
+02:08:19,000 --> 02:08:24,000
+ .
+
+1393
+02:08:24,000 --> 02:08:29,000
+ .
+
+1394
+02:08:29,000 --> 02:08:34,000
+ .
+
+1395
+02:08:34,000 --> 02:08:39,000
+ .
+
+1396
+02:08:39,000 --> 02:08:44,000
+ .
+
+1397
+02:08:44,000 --> 02:08:49,000
+ .
+
+1398
+02:08:49,000 --> 02:08:54,000
+ .
+
+1399
+02:08:55,000 --> 02:09:00,000
+ .
+
+1400
+02:09:00,000 --> 02:09:05,000
+ .
+
+1401
+02:09:05,000 --> 02:09:10,000
+ .
+
+1402
+02:09:10,000 --> 02:09:15,000
+ .
+
+1403
+02:09:15,000 --> 02:09:20,000
+ .
+
+1404
+02:09:20,000 --> 02:09:25,000
+ .
+
+1405
+02:09:25,000 --> 02:09:30,000
+ .
+
+1406
+02:09:30,000 --> 02:09:35,000
+ .
+
+1407
+02:09:35,000 --> 02:09:40,000
+ .
+
+1408
+02:09:40,000 --> 02:09:45,000
+ .
+
+1409
+02:09:46,000 --> 02:09:51,000
+ .
+
+1410
+02:09:51,000 --> 02:09:56,000
+ .
+
+1411
+02:09:56,000 --> 02:10:01,000
+ .
+
+1412
+02:10:01,000 --> 02:10:06,000
+ .
+
+1413
+02:10:06,000 --> 02:10:11,000
+ .
+
+1414
+02:10:11,000 --> 02:10:16,000
+ .
+
+1415
+02:10:16,000 --> 02:10:21,000
+ .
+
+1416
+02:10:21,000 --> 02:10:26,000
+ .
+
+1417
+02:10:26,000 --> 02:10:31,000
+ .
+
+1418
+02:10:31,000 --> 02:10:36,000
+ .
+
+1419
+02:10:36,000 --> 02:10:41,000
+ .
+
+1420
+02:10:41,000 --> 02:10:46,000
+ .
+
+1421
+02:10:46,000 --> 02:10:51,000
+ .
+
+1422
+02:10:51,000 --> 02:10:56,000
+ .
+
+1423
+02:10:56,000 --> 02:11:01,000
+ .
+
+1424
+02:11:02,000 --> 02:11:07,000
+ .
+
+1425
+02:11:07,000 --> 02:11:12,000
+ .
+
+1426
+02:11:12,000 --> 02:11:17,000
+ .
+
+1427
+02:11:17,000 --> 02:11:22,000
+ .
+
+1428
+02:11:22,000 --> 02:11:27,000
+ .
+
+1429
+02:11:27,000 --> 02:11:32,000
+ .
+
+1430
+02:11:32,000 --> 02:11:37,000
+ .
+
+1431
+02:11:37,000 --> 02:11:42,000
+ .
+
+1432
+02:11:42,000 --> 02:11:47,000
+ .
+
+1433
+02:11:47,000 --> 02:11:52,000
+ .
+
+1434
+02:11:52,000 --> 02:11:57,000
+ .
+
+1435
+02:11:57,000 --> 02:12:02,000
+ .
+
+1436
+02:12:02,000 --> 02:12:07,000
+ .
+
+1437
+02:12:07,000 --> 02:12:12,000
+ .
+
+1438
+02:12:12,000 --> 02:12:17,000
+ .
+
+1439
+02:12:17,000 --> 02:12:22,000
+ .
+
+1440
+02:12:22,000 --> 02:12:27,000
+ .
+
+1441
+02:12:27,000 --> 02:12:32,000
+ .
+
+1442
+02:12:32,000 --> 02:12:37,000
+ .
+
+1443
+02:12:37,000 --> 02:12:42,000
+ .
+
+1444
+02:12:42,000 --> 02:12:47,000
+ .
+
+1445
+02:12:47,000 --> 02:12:52,000
+ .
+
+1446
+02:12:52,000 --> 02:12:57,000
+ .
+
+1447
+02:12:57,000 --> 02:13:02,000
+ .
+
+1448
+02:13:02,000 --> 02:13:07,000
+ .
+
+1449
+02:13:07,000 --> 02:13:12,000
+ .
+
+1450
+02:13:12,000 --> 02:13:17,000
+ .
+
+1451
+02:13:17,000 --> 02:13:22,000
+ .
+
+1452
+02:13:22,000 --> 02:13:27,000
+ .
+
+1453
+02:13:27,000 --> 02:13:32,000
+ .
+
+1454
+02:13:32,000 --> 02:13:37,000
+ .
+
+1455
+02:13:37,000 --> 02:13:42,000
+ .
+
+1456
+02:13:42,000 --> 02:13:47,000
+ .
+
+1457
+02:13:47,000 --> 02:13:52,000
+ .
+
+1458
+02:13:52,000 --> 02:13:57,000
+ .
+
+1459
+02:13:57,000 --> 02:14:02,000
+ .
+
+1460
+02:14:02,000 --> 02:14:07,000
+ .
+
+1461
+02:14:07,000 --> 02:14:12,000
+ .
+
+1462
+02:14:12,000 --> 02:14:17,000
+ .
+
+1463
+02:14:17,000 --> 02:14:22,000
+ .
+
+1464
+02:14:23,000 --> 02:14:28,000
+ .
+
+1465
+02:14:28,000 --> 02:14:33,000
+ .
+
+1466
+02:14:33,000 --> 02:14:38,000
+ .
+
+1467
+02:14:38,000 --> 02:14:43,000
+ .
+
+1468
+02:14:43,000 --> 02:14:48,000
+ .
+
+1469
+02:14:48,000 --> 02:14:53,000
+ .
+
+1470
+02:14:53,000 --> 02:14:58,000
+ .
+
+1471
+02:14:58,000 --> 02:15:03,000
+ .
+
+1472
+02:15:03,000 --> 02:15:08,000
+ .
+
+1473
+02:15:08,000 --> 02:15:13,000
+ .
+
+1474
+02:15:14,000 --> 02:15:19,000
+ .
+
+1475
+02:15:19,000 --> 02:15:24,000
+ .
+
+1476
+02:15:24,000 --> 02:15:29,000
+ .
+
+1477
+02:15:29,000 --> 02:15:34,000
+ .
+
+1478
+02:15:34,000 --> 02:15:39,000
+ .
+
+1479
+02:15:39,000 --> 02:15:44,000
+ .
+
+1480
+02:15:44,000 --> 02:15:49,000
+ .
+
+1481
+02:15:49,000 --> 02:15:54,000
+ .
+
+1482
+02:15:54,000 --> 02:15:59,000
+ .
+
+1483
+02:15:59,000 --> 02:16:04,000
+ .
+
+1484
+02:16:04,000 --> 02:16:09,000
+ .
+
+1485
+02:16:09,000 --> 02:16:14,000
+ .
+
+1486
+02:16:14,000 --> 02:16:19,000
+ .
+
+1487
+02:16:19,000 --> 02:16:24,000
+ .
+
+1488
+02:16:24,000 --> 02:16:29,000
+ .
+
+1489
+02:16:29,000 --> 02:16:34,000
+ .
+
+1490
+02:16:34,000 --> 02:16:39,000
+ .
+
+1491
+02:16:39,000 --> 02:16:44,000
+ .
+
+1492
+02:16:44,000 --> 02:16:49,000
+ .
+
+1493
+02:16:49,000 --> 02:16:54,000
+ .
+
+1494
+02:16:54,000 --> 02:16:59,000
+ .
+
+1495
+02:16:59,000 --> 02:17:04,000
+ .
+
+1496
+02:17:04,000 --> 02:17:09,000
+ .
+
+1497
+02:17:09,000 --> 02:17:14,000
+ .
+
+1498
+02:17:14,000 --> 02:17:19,000
+ .
+
+1499
+02:17:20,000 --> 02:17:25,000
+ .
+
+1500
+02:17:25,000 --> 02:17:30,000
+ .
+
+1501
+02:17:30,000 --> 02:17:35,000
+ .
+
+1502
+02:17:35,000 --> 02:17:40,000
+ .
+
+1503
+02:17:40,000 --> 02:17:45,000
+ .
+
+1504
+02:17:45,000 --> 02:17:50,000
+ .
+
+1505
+02:17:50,000 --> 02:17:55,000
+ .
+
+1506
+02:17:55,000 --> 02:18:00,000
+ .
+
+1507
+02:18:00,000 --> 02:18:05,000
+ .
+
+1508
+02:18:05,000 --> 02:18:10,000
+ .
+
+1509
+02:18:10,000 --> 02:18:15,000
+ .
+
+1510
+02:18:15,000 --> 02:18:20,000
+ .
+
+1511
+02:18:20,000 --> 02:18:25,000
+ .
+
+1512
+02:18:25,000 --> 02:18:30,000
+ .
+
+1513
+02:18:30,000 --> 02:18:35,000
+ .
+
+1514
+02:18:35,000 --> 02:18:40,000
+ .
+
+1515
+02:18:40,000 --> 02:18:45,000
+ .
+
+1516
+02:18:45,000 --> 02:18:50,000
+ .
+
+1517
+02:18:50,000 --> 02:18:55,000
+ .
+
+1518
+02:18:55,000 --> 02:19:00,000
+ .
+
+1519
+02:19:00,000 --> 02:19:05,000
+ .
+
+1520
+02:19:05,000 --> 02:19:10,000
+ .
+
+1521
+02:19:10,000 --> 02:19:15,000
+ .
+
+1522
+02:19:15,000 --> 02:19:20,000
+ .
+
+1523
+02:19:20,000 --> 02:19:25,000
+ .
+
+1524
+02:19:25,000 --> 02:19:30,000
+ .
+
+1525
+02:19:30,000 --> 02:19:35,000
+ .
+
+1526
+02:19:35,000 --> 02:19:40,000
+ .
+
+1527
+02:19:40,000 --> 02:19:45,000
+ .
+
+1528
+02:19:45,000 --> 02:19:50,000
+ .
+
+1529
+02:19:50,000 --> 02:19:55,000
+ .
+
+1530
+02:19:55,000 --> 02:20:00,000
+ .
+
+1531
+02:20:00,000 --> 02:20:05,000
+ .
+
+1532
+02:20:05,000 --> 02:20:10,000
+ .
+
+1533
+02:20:10,000 --> 02:20:15,000
+ .
+
+1534
+02:20:15,000 --> 02:20:20,000
+ .
+
+1535
+02:20:20,000 --> 02:20:25,000
+ .
+
+1536
+02:20:25,000 --> 02:20:30,000
+ .
+
+1537
+02:20:30,000 --> 02:20:35,000
+ .
+
+1538
+02:20:35,000 --> 02:20:40,000
+ .
+
+1539
+02:20:40,000 --> 02:20:45,000
+ .
+
+1540
+02:20:45,000 --> 02:20:50,000
+ .
+
+1541
+02:20:50,000 --> 02:20:55,000
+ .
+
+1542
+02:20:55,000 --> 02:21:00,000
+ .
+
+1543
+02:21:00,000 --> 02:21:05,000
+ .
+
+1544
+02:21:05,000 --> 02:21:10,000
+ .
+
+1545
+02:21:10,000 --> 02:21:15,000
+ .
+
+1546
+02:21:15,000 --> 02:21:20,000
+ .
+
+1547
+02:21:20,000 --> 02:21:25,000
+ .
+
+1548
+02:21:25,000 --> 02:21:30,000
+ .
+
+1549
+02:21:30,000 --> 02:21:35,000
+ .
+
+1550
+02:21:35,000 --> 02:21:40,000
+ .
+
+1551
+02:21:40,000 --> 02:21:45,000
+ .
+
+1552
+02:21:45,000 --> 02:21:50,000
+ .
+
+1553
+02:21:50,000 --> 02:21:55,000
+ .
+
+1554
+02:21:55,000 --> 02:22:00,000
+ .
+
+1555
+02:22:00,000 --> 02:22:05,000
+ .
+
+1556
+02:22:05,000 --> 02:22:10,000
+ .
+
+1557
+02:22:10,000 --> 02:22:15,000
+ .
+
+1558
+02:22:15,000 --> 02:22:20,000
+ .
+
+1559
+02:22:20,000 --> 02:22:25,000
+ .
+
+1560
+02:22:25,000 --> 02:22:30,000
+ .
+
+1561
+02:22:30,000 --> 02:22:35,000
+ .
+
+1562
+02:22:35,000 --> 02:22:40,000
+ .
+
+1563
+02:22:40,000 --> 02:22:45,000
+ .
+
+1564
+02:22:45,000 --> 02:22:50,000
+ .
+
+1565
+02:22:50,000 --> 02:22:55,000
+ .
+
+1566
+02:22:55,000 --> 02:23:00,000
+ .
+
+1567
+02:23:00,000 --> 02:23:05,000
+ .
+
+1568
+02:23:05,000 --> 02:23:10,000
+ .
+
+1569
+02:23:10,000 --> 02:23:15,000
+ .
+
+1570
+02:23:15,000 --> 02:23:20,000
+ .
+
+1571
+02:23:20,000 --> 02:23:25,000
+ .
+
+1572
+02:23:25,000 --> 02:23:30,000
+ .
+
+1573
+02:23:30,000 --> 02:23:35,000
+ .
+
+1574
+02:23:35,000 --> 02:23:40,000
+ .
+
+1575
+02:23:40,000 --> 02:23:45,000
+ .
+
+1576
+02:23:45,000 --> 02:23:50,000
+ .
+
+1577
+02:23:50,000 --> 02:23:55,000
+ .
+
+1578
+02:23:55,000 --> 02:24:00,000
+ .
+
+1579
+02:24:00,000 --> 02:24:05,000
+ .
+
+1580
+02:24:05,000 --> 02:24:10,000
+ .
+
+1581
+02:24:10,000 --> 02:24:15,000
+ .
+
+1582
+02:24:15,000 --> 02:24:20,000
+ .
+
+1583
+02:24:20,000 --> 02:24:25,000
+ .
+
+1584
+02:24:26,000 --> 02:24:31,000
+ .
+
+1585
+02:24:31,000 --> 02:24:36,000
+ .
+
+1586
+02:24:36,000 --> 02:24:41,000
+ .
+
+1587
+02:24:41,000 --> 02:24:46,000
+ .
+
+1588
+02:24:46,000 --> 02:24:51,000
+ .
+
+1589
+02:24:51,000 --> 02:24:56,000
+ .
+
+1590
+02:24:56,000 --> 02:25:01,000
+ .
+
+1591
+02:25:01,000 --> 02:25:06,000
+ .
+
+1592
+02:25:06,000 --> 02:25:11,000
+ .
+
+1593
+02:25:11,000 --> 02:25:16,000
+ .
+
+1594
+02:25:16,000 --> 02:25:21,000
+ .
+
+1595
+02:25:21,000 --> 02:25:26,000
+ .
+
+1596
+02:25:26,000 --> 02:25:31,000
+ .
+
+1597
+02:25:31,000 --> 02:25:36,000
+ .
+
+1598
+02:25:36,000 --> 02:25:41,000
+ .
+
+1599
+02:25:42,000 --> 02:25:47,000
+ .
+
+1600
+02:25:47,000 --> 02:25:52,000
+ .
+
+1601
+02:25:52,000 --> 02:25:57,000
+ .
+
+1602
+02:25:57,000 --> 02:26:02,000
+ .
+
+1603
+02:26:02,000 --> 02:26:07,000
+ .
+
+1604
+02:26:07,000 --> 02:26:12,000
+ .
+
+1605
+02:26:12,000 --> 02:26:17,000
+ .
+
+1606
+02:26:17,000 --> 02:26:22,000
+ .
+
+1607
+02:26:22,000 --> 02:26:27,000
+ .
+
+1608
+02:26:27,000 --> 02:26:32,000
+ .
+
+1609
+02:26:32,000 --> 02:26:37,000
+ .
+
+1610
+02:26:37,000 --> 02:26:42,000
+ .
+
+1611
+02:26:42,000 --> 02:26:47,000
+ .
+
+1612
+02:26:47,000 --> 02:26:52,000
+ .
+
+1613
+02:26:52,000 --> 02:26:57,000
+ .
+
+1614
+02:26:58,000 --> 02:27:03,000
+ .
+
+1615
+02:27:03,000 --> 02:27:08,000
+ .
+
+1616
+02:27:08,000 --> 02:27:13,000
+ .
+
+1617
+02:27:13,000 --> 02:27:18,000
+ .
+
+1618
+02:27:18,000 --> 02:27:23,000
+ .
+
+1619
+02:27:23,000 --> 02:27:28,000
+ .
+
+1620
+02:27:28,000 --> 02:27:33,000
+ .
+
+1621
+02:27:33,000 --> 02:27:38,000
+ .
+
+1622
+02:27:38,000 --> 02:27:43,000
+ .
+
+1623
+02:27:43,000 --> 02:27:48,000
+ .
+
+1624
+02:27:48,000 --> 02:27:53,000
+ .
+
+1625
+02:27:53,000 --> 02:27:58,000
+ .
+
+1626
+02:27:58,000 --> 02:28:03,000
+ .
+
+1627
+02:28:03,000 --> 02:28:08,000
+ .
+
+1628
+02:28:08,000 --> 02:28:13,000
+ .
+
+1629
+02:28:13,000 --> 02:28:18,000
+ .
+
+1630
+02:28:18,000 --> 02:28:23,000
+ .
+
+1631
+02:28:23,000 --> 02:28:28,000
+ .
+
+1632
+02:28:28,000 --> 02:28:33,000
+ .
+
+1633
+02:28:33,000 --> 02:28:38,000
+ .
+
+1634
+02:28:38,000 --> 02:28:43,000
+ .
+
+1635
+02:28:43,000 --> 02:28:48,000
+ .
+
+1636
+02:28:48,000 --> 02:28:53,000
+ .
+
+1637
+02:28:53,000 --> 02:28:58,000
+ .
+
+1638
+02:28:58,000 --> 02:29:03,000
+ .
+
+1639
+02:29:03,000 --> 02:29:08,000
+ .
+
+1640
+02:29:08,000 --> 02:29:13,000
+ .
+
+1641
+02:29:13,000 --> 02:29:18,000
+ .
+
+1642
+02:29:18,000 --> 02:29:23,000
+ .
+
+1643
+02:29:23,000 --> 02:29:28,000
+ .
+
+1644
+02:29:28,000 --> 02:29:33,000
+ .
+
+1645
+02:29:33,000 --> 02:29:38,000
+ .
+
+1646
+02:29:38,000 --> 02:29:43,000
+ .
+
+1647
+02:29:43,000 --> 02:29:48,000
+ .
+
+1648
+02:29:48,000 --> 02:29:53,000
+ .
+
+1649
+02:29:53,000 --> 02:29:58,000
+ .
+
+1650
+02:29:58,000 --> 02:30:03,000
+ .
+
+1651
+02:30:03,000 --> 02:30:08,000
+ .
+
+1652
+02:30:08,000 --> 02:30:13,000
+ .
+
+1653
+02:30:13,000 --> 02:30:18,000
+ .
+
+1654
+02:30:19,000 --> 02:30:24,000
+ .
+
+1655
+02:30:24,000 --> 02:30:29,000
+ .
+
+1656
+02:30:29,000 --> 02:30:34,000
+ .
+
+1657
+02:30:34,000 --> 02:30:39,000
+ .
+
+1658
+02:30:39,000 --> 02:30:44,000
+ .
+
+1659
+02:30:44,000 --> 02:30:49,000
+ .
+
+1660
+02:30:49,000 --> 02:30:54,000
+ .
+
+1661
+02:30:54,000 --> 02:30:59,000
+ .
+
+1662
+02:30:59,000 --> 02:31:04,000
+ .
+
+1663
+02:31:04,000 --> 02:31:09,000
+ .
+
+1664
+02:31:09,000 --> 02:31:14,000
+ .
+
+1665
+02:31:14,000 --> 02:31:19,000
+ .
+
+1666
+02:31:19,000 --> 02:31:24,000
+ .
+
+1667
+02:31:24,000 --> 02:31:29,000
+ .
+
+1668
+02:31:29,000 --> 02:31:34,000
+ .
+
+1669
+02:31:35,000 --> 02:31:40,000
+ .
+
+1670
+02:31:40,000 --> 02:31:45,000
+ .
+
+1671
+02:31:45,000 --> 02:31:50,000
+ .
+
+1672
+02:31:50,000 --> 02:31:55,000
+ .
+
+1673
+02:31:55,000 --> 02:32:00,000
+ .
+
+1674
+02:32:00,000 --> 02:32:05,000
+ .
+
+1675
+02:32:05,000 --> 02:32:10,000
+ .
+
+1676
+02:32:10,000 --> 02:32:15,000
+ .
+
+1677
+02:32:15,000 --> 02:32:20,000
+ .
+
+1678
+02:32:20,000 --> 02:32:25,000
+ .
+
+1679
+02:32:25,000 --> 02:32:30,000
+ .
+
+1680
+02:32:30,000 --> 02:32:35,000
+ .
+
+1681
+02:32:35,000 --> 02:32:40,000
+ .
+
+1682
+02:32:40,000 --> 02:32:45,000
+ .
+
+1683
+02:32:45,000 --> 02:32:50,000
+ .
+
+1684
+02:32:50,000 --> 02:32:55,000
+ .
+
+1685
+02:32:55,000 --> 02:33:00,000
+ .
+
+1686
+02:33:00,000 --> 02:33:05,000
+ .
+
+1687
+02:33:05,000 --> 02:33:10,000
+ .
+
+1688
+02:33:10,000 --> 02:33:15,000
+ .
+
+1689
+02:33:15,000 --> 02:33:20,000
+ .
+
+1690
+02:33:20,000 --> 02:33:25,000
+ .
+
+1691
+02:33:25,000 --> 02:33:30,000
+ .
+
+1692
+02:33:30,000 --> 02:33:35,000
+ .
+
+1693
+02:33:35,000 --> 02:33:40,000
+ .
+
+1694
+02:33:40,000 --> 02:33:45,000
+ .
+
+1695
+02:33:45,000 --> 02:33:50,000
+ .
+
+1696
+02:33:50,000 --> 02:33:55,000
+ .
+
+1697
+02:33:55,000 --> 02:34:00,000
+ .
+
+1698
+02:34:00,000 --> 02:34:05,000
+ .
+
+1699
+02:34:05,000 --> 02:34:10,000
+ .
+
+1700
+02:34:10,000 --> 02:34:15,000
+ .
+
+1701
+02:34:15,000 --> 02:34:20,000
+ .
+
+1702
+02:34:20,000 --> 02:34:25,000
+ .
+
+1703
+02:34:25,000 --> 02:34:30,000
+ .
+
+1704
+02:34:30,000 --> 02:34:35,000
+ .
+
+1705
+02:34:35,000 --> 02:34:40,000
+ .
+
+1706
+02:34:40,000 --> 02:34:45,000
+ .
+
+1707
+02:34:45,000 --> 02:34:50,000
+ .
+
+1708
+02:34:50,000 --> 02:34:55,000
+ .
+
+1709
+02:34:55,000 --> 02:35:00,000
+ .
+
+1710
+02:35:00,000 --> 02:35:05,000
+ .
+
+1711
+02:35:05,000 --> 02:35:10,000
+ .
+
+1712
+02:35:10,000 --> 02:35:15,000
+ .
+
+1713
+02:35:15,000 --> 02:35:20,000
+ .
+
+1714
+02:35:20,000 --> 02:35:25,000
+ .
+
+1715
+02:35:25,000 --> 02:35:30,000
+ .
+
+1716
+02:35:30,000 --> 02:35:35,000
+ .
+
+1717
+02:35:35,000 --> 02:35:40,000
+ .
+
+1718
+02:35:40,000 --> 02:35:45,000
+ .
+
+1719
+02:35:46,000 --> 02:35:51,000
+ .
+
+1720
+02:35:51,000 --> 02:35:56,000
+ .
+
+1721
+02:35:56,000 --> 02:36:01,000
+ .
+
+1722
+02:36:01,000 --> 02:36:06,000
+ .
+
+1723
+02:36:06,000 --> 02:36:11,000
+ .
+
+1724
+02:36:12,000 --> 02:36:17,000
+ .
+
+1725
+02:36:17,000 --> 02:36:22,000
+ .
+
+1726
+02:36:22,000 --> 02:36:27,000
+ .
+
+1727
+02:36:27,000 --> 02:36:32,000
+ .
+
+1728
+02:36:32,000 --> 02:36:37,000
+ .
+
+1729
+02:36:37,000 --> 02:36:42,000
+ .
+
+1730
+02:36:42,000 --> 02:36:47,000
+ .
+
+1731
+02:36:47,000 --> 02:36:52,000
+ .
+
+1732
+02:36:52,000 --> 02:36:57,000
+ .
+
+1733
+02:36:57,000 --> 02:37:02,000
+ .
+
+1734
+02:37:02,000 --> 02:37:07,000
+ .
+
+1735
+02:37:07,000 --> 02:37:12,000
+ .
+
+1736
+02:37:12,000 --> 02:37:17,000
+ .
+
+1737
+02:37:17,000 --> 02:37:22,000
+ .
+
+1738
+02:37:22,000 --> 02:37:27,000
+ .
+
+1739
+02:37:27,000 --> 02:37:32,000
+ .
+
+1740
+02:37:32,000 --> 02:37:37,000
+ .
+
+1741
+02:37:37,000 --> 02:37:42,000
+ .
+
+1742
+02:37:42,000 --> 02:37:47,000
+ .
+
+1743
+02:37:47,000 --> 02:37:52,000
+ .
+
+1744
+02:37:52,000 --> 02:37:57,000
+ .
+
+1745
+02:37:57,000 --> 02:38:02,000
+ .
+
+1746
+02:38:02,000 --> 02:38:07,000
+ .
+
+1747
+02:38:07,000 --> 02:38:12,000
+ .
+
+1748
+02:38:12,000 --> 02:38:17,000
+ .
+
+1749
+02:38:17,000 --> 02:38:22,000
+ .
+
+1750
+02:38:22,000 --> 02:38:27,000
+ .
+
+1751
+02:38:27,000 --> 02:38:32,000
+ .
+
+1752
+02:38:32,000 --> 02:38:37,000
+ .
+
+1753
+02:38:37,000 --> 02:38:42,000
+ .
+
+1754
+02:38:43,000 --> 02:38:48,000
+ .
+
+1755
+02:38:48,000 --> 02:38:52,000
+ .
+
+1756
+02:38:52,000 --> 02:38:57,000
+ .
+
+1757
+02:38:57,000 --> 02:39:02,000
+ .
+
+1758
+02:39:02,000 --> 02:39:07,000
+ .
+
+1759
+02:39:07,000 --> 02:39:12,000
+ .
+
+1760
+02:39:12,000 --> 02:39:17,000
+ .
+
+1761
+02:39:17,000 --> 02:39:22,000
+ .
+
+1762
+02:39:22,000 --> 02:39:27,000
+ .
+
+1763
+02:39:27,000 --> 02:39:32,000
+ .
+
+1764
+02:39:32,000 --> 02:39:37,000
+ .
+
+1765
+02:39:37,000 --> 02:39:42,000
+ .
+
+1766
+02:39:42,000 --> 02:39:47,000
+ .
+
+1767
+02:39:47,000 --> 02:39:52,000
+ .
+
+1768
+02:39:52,000 --> 02:39:57,000
+ .
+
+1769
+02:39:57,000 --> 02:40:02,000
+ .
+
+1770
+02:40:02,000 --> 02:40:07,000
+ .
+
+1771
+02:40:07,000 --> 02:40:12,000
+ .
+
+1772
+02:40:12,000 --> 02:40:17,000
+ .
+
+1773
+02:40:17,000 --> 02:40:22,000
+ .
+
+1774
+02:40:22,000 --> 02:40:27,000
+ .
+
+1775
+02:40:27,000 --> 02:40:32,000
+ .
+
+1776
+02:40:32,000 --> 02:40:37,000
+ .
+
+1777
+02:40:37,000 --> 02:40:42,000
+ .
+
+1778
+02:40:42,000 --> 02:40:47,000
+ .
+
+1779
+02:40:47,000 --> 02:40:52,000
+ .
+
+1780
+02:40:52,000 --> 02:40:57,000
+ .
+
+1781
+02:40:57,000 --> 02:41:02,000
+ .
+
+1782
+02:41:02,000 --> 02:41:07,000
+ .
+
+1783
+02:41:07,000 --> 02:41:12,000
+ .
+
+1784
+02:41:13,000 --> 02:41:18,000
+ .
+
+1785
+02:41:18,000 --> 02:41:23,000
+ .
+
+1786
+02:41:23,000 --> 02:41:28,000
+ .
+
+1787
+02:41:28,000 --> 02:41:33,000
+ .
+
+1788
+02:41:33,000 --> 02:41:38,000
+ .
+
+1789
+02:41:38,000 --> 02:41:43,000
+ .
+
+1790
+02:41:43,000 --> 02:41:48,000
+ .
+
+1791
+02:41:48,000 --> 02:41:53,000
+ .
+
+1792
+02:41:53,000 --> 02:41:58,000
+ .
+
+1793
+02:41:58,000 --> 02:42:03,000
+ .
+
+1794
+02:42:03,000 --> 02:42:08,000
+ .
+
+1795
+02:42:08,000 --> 02:42:13,000
+ .
+
+1796
+02:42:13,000 --> 02:42:18,000
+ .
+
+1797
+02:42:18,000 --> 02:42:23,000
+ .
+
+1798
+02:42:23,000 --> 02:42:28,000
+ .
+
+1799
+02:42:28,000 --> 02:42:33,000
+ .
+
+1800
+02:42:33,000 --> 02:42:38,000
+ .
+
+1801
+02:42:38,000 --> 02:42:43,000
+ .
+
+1802
+02:42:43,000 --> 02:42:48,000
+ .
+
+1803
+02:42:48,000 --> 02:42:53,000
+ .
+
+1804
+02:42:53,000 --> 02:42:58,000
+ .
+
+1805
+02:42:58,000 --> 02:43:03,000
+ .
+
+1806
+02:43:03,000 --> 02:43:08,000
+ .
+
+1807
+02:43:08,000 --> 02:43:13,000
+ .
+
+1808
+02:43:13,000 --> 02:43:18,000
+ .
+
+1809
+02:43:19,000 --> 02:43:24,000
+ .
+
+1810
+02:43:24,000 --> 02:43:29,000
+ .
+
+1811
+02:43:29,000 --> 02:43:34,000
+ .
+
+1812
+02:43:34,000 --> 02:43:39,000
+ .
+
+1813
+02:43:39,000 --> 02:43:44,000
+ .
+
+1814
+02:43:44,000 --> 02:43:49,000
+ .
+
+1815
+02:43:49,000 --> 02:43:54,000
+ .
+
+1816
+02:43:54,000 --> 02:43:59,000
+ .
+
+1817
+02:43:59,000 --> 02:44:04,000
+ .
+
+1818
+02:44:04,000 --> 02:44:09,000
+ .
+
+1819
+02:44:10,000 --> 02:44:15,000
+ .
+
+1820
+02:44:15,000 --> 02:44:20,000
+ .
+
+1821
+02:44:20,000 --> 02:44:25,000
+ .
+
+1822
+02:44:25,000 --> 02:44:30,000
+ .
+
+1823
+02:44:30,000 --> 02:44:35,000
+ .
+
+1824
+02:44:35,000 --> 02:44:40,000
+ .
+
+1825
+02:44:40,000 --> 02:44:45,000
+ .
+
+1826
+02:44:45,000 --> 02:44:50,000
+ .
+
+1827
+02:44:50,000 --> 02:44:55,000
+ .
+
+1828
+02:44:55,000 --> 02:45:00,000
+ .
+
+1829
+02:45:00,000 --> 02:45:05,000
+ .
+
+1830
+02:45:05,000 --> 02:45:10,000
+ .
+
+1831
+02:45:10,000 --> 02:45:15,000
+ .
+
+1832
+02:45:15,000 --> 02:45:20,000
+ .
+
+1833
+02:45:20,000 --> 02:45:25,000
+ .
+
+1834
+02:45:26,000 --> 02:45:31,000
+ .
+
+1835
+02:45:31,000 --> 02:45:36,000
+ .
+
+1836
+02:45:36,000 --> 02:45:41,000
+ .
+
+1837
+02:45:41,000 --> 02:45:46,000
+ .
+
+1838
+02:45:46,000 --> 02:45:51,000
+ .
+
+1839
+02:45:51,000 --> 02:45:56,000
+ .
+
+1840
+02:45:56,000 --> 02:46:01,000
+ .
+
+1841
+02:46:01,000 --> 02:46:06,000
+ .
+
+1842
+02:46:06,000 --> 02:46:11,000
+ .
+
+1843
+02:46:11,000 --> 02:46:16,000
+ .
+
+1844
+02:46:16,000 --> 02:46:21,000
+ .
+
+1845
+02:46:21,000 --> 02:46:26,000
+ .
+
+1846
+02:46:26,000 --> 02:46:31,000
+ .
+
+1847
+02:46:31,000 --> 02:46:36,000
+ .
+
+1848
+02:46:36,000 --> 02:46:41,000
+ .
+
+1849
+02:46:41,000 --> 02:46:46,000
+ .
+
+1850
+02:46:46,000 --> 02:46:51,000
+ .
+
+1851
+02:46:51,000 --> 02:46:56,000
+ .
+
+1852
+02:46:56,000 --> 02:47:01,000
+ .
+
+1853
+02:47:01,000 --> 02:47:06,000
+ .
+
+1854
+02:47:06,000 --> 02:47:11,000
+ .
+
+1855
+02:47:11,000 --> 02:47:16,000
+ .
+
+1856
+02:47:16,000 --> 02:47:21,000
+ .
+
+1857
+02:47:21,000 --> 02:47:26,000
+ .
+
+1858
+02:47:26,000 --> 02:47:31,000
+ .
+
+1859
+02:47:31,000 --> 02:47:36,000
+ .
+
+1860
+02:47:36,000 --> 02:47:41,000
+ .
+
+1861
+02:47:41,000 --> 02:47:46,000
+ .
+
+1862
+02:47:46,000 --> 02:47:51,000
+ .
+
+1863
+02:47:51,000 --> 02:47:56,000
+ .
+
+1864
+02:47:56,000 --> 02:48:01,000
+ .
+
+1865
+02:48:01,000 --> 02:48:06,000
+ .
+
+1866
+02:48:06,000 --> 02:48:11,000
+ .
+
+1867
+02:48:11,000 --> 02:48:16,000
+ .
+
+1868
+02:48:16,000 --> 02:48:21,000
+ .
+
+1869
+02:48:22,000 --> 02:48:27,000
+ .
+
+1870
+02:48:27,000 --> 02:48:31,000
+ .
+
+1871
+02:48:31,000 --> 02:48:36,000
+ .
+
+1872
+02:48:36,000 --> 02:48:41,000
+ .
+
+1873
+02:48:41,000 --> 02:48:46,000
+ .
+
+1874
+02:48:47,000 --> 02:48:52,000
+ .
+
+1875
+02:48:52,000 --> 02:48:57,000
+ .
+
+1876
+02:48:57,000 --> 02:49:02,000
+ .
+
+1877
+02:49:02,000 --> 02:49:07,000
+ .
+
+1878
+02:49:07,000 --> 02:49:12,000
+ .
+
+1879
+02:49:12,000 --> 02:49:17,000
+ .
+
+1880
+02:49:17,000 --> 02:49:22,000
+ .
+
+1881
+02:49:22,000 --> 02:49:27,000
+ .
+
+1882
+02:49:27,000 --> 02:49:32,000
+ .
+
+1883
+02:49:32,000 --> 02:49:37,000
+ .
+
+1884
+02:49:38,000 --> 02:49:43,000
+ .
+
+1885
+02:49:43,000 --> 02:49:48,000
+ .
+
+1886
+02:49:48,000 --> 02:49:53,000
+ .
+
+1887
+02:49:53,000 --> 02:49:58,000
+ .
+
+1888
+02:49:58,000 --> 02:50:03,000
+ .
+
+1889
+02:50:03,000 --> 02:50:08,000
+ .
+
+1890
+02:50:08,000 --> 02:50:13,000
+ .
+
+1891
+02:50:13,000 --> 02:50:18,000
+ .
+
+1892
+02:50:18,000 --> 02:50:23,000
+ .
+
+1893
+02:50:23,000 --> 02:50:28,000
+ .
+
+1894
+02:50:29,000 --> 02:50:34,000
+ .
+
+1895
+02:50:34,000 --> 02:50:39,000
+ .
+
+1896
+02:50:39,000 --> 02:50:44,000
+ .
+
+1897
+02:50:44,000 --> 02:50:49,000
+ .
+
+1898
+02:50:49,000 --> 02:50:54,000
+ .
+
+1899
+02:50:54,000 --> 02:50:59,000
+ .
+
+1900
+02:50:59,000 --> 02:51:04,000
+ .
+
+1901
+02:51:04,000 --> 02:51:09,000
+ .
+
+1902
+02:51:09,000 --> 02:51:14,000
+ .
+
+1903
+02:51:14,000 --> 02:51:19,000
+ .
+
+1904
+02:51:19,000 --> 02:51:24,000
+ .
+
+1905
+02:51:24,000 --> 02:51:29,000
+ .
+
+1906
+02:51:29,000 --> 02:51:34,000
+ .
+
+1907
+02:51:34,000 --> 02:51:39,000
+ .
+
+1908
+02:51:39,000 --> 02:51:44,000
+ .
+
+1909
+02:51:49,000 --> 02:51:54,000
+ .
+
+1910
+02:51:54,000 --> 02:51:59,000
+ .
+
+1911
+02:51:59,000 --> 02:52:04,000
+ .
+
+1912
+02:52:04,000 --> 02:52:09,000
+ .
+
+1913
+02:52:09,000 --> 02:52:14,000
+ .
+
+1914
+02:52:14,000 --> 02:52:19,000
+ .
+
+1915
+02:52:19,000 --> 02:52:24,000
+ .
+
+1916
+02:52:24,000 --> 02:52:29,000
+ .
+
+1917
+02:52:29,000 --> 02:52:34,000
+ .
+
+1918
+02:52:34,000 --> 02:52:39,000
+ .
+
+1919
+02:52:39,000 --> 02:52:44,000
+ .
+
+1920
+02:52:44,000 --> 02:52:49,000
+ .
+
+1921
+02:52:49,000 --> 02:52:54,000
+ .
+
+1922
+02:52:54,000 --> 02:52:59,000
+ .
+
+1923
+02:52:59,000 --> 02:53:04,000
+ .
+
+1924
+02:53:04,000 --> 02:53:09,000
+ .
+
+1925
+02:53:09,000 --> 02:53:14,000
+ .
+
+1926
+02:53:14,000 --> 02:53:19,000
+ .
+
+1927
+02:53:19,000 --> 02:53:24,000
+ .
+
+1928
+02:53:24,000 --> 02:53:29,000
+ .
+
+1929
+02:53:29,000 --> 02:53:34,000
+ .
+
+1930
+02:53:34,000 --> 02:53:39,000
+ .
+
+1931
+02:53:39,000 --> 02:53:44,000
+ .
+
+1932
+02:53:44,000 --> 02:53:49,000
+ .
+
+1933
+02:53:49,000 --> 02:53:54,000
+ .
+
+1934
+02:53:54,000 --> 02:53:59,000
+ .
+
+1935
+02:53:59,000 --> 02:54:04,000
+ .
+
+1936
+02:54:04,000 --> 02:54:09,000
+ .
+
+1937
+02:54:09,000 --> 02:54:14,000
+ .
+
+1938
+02:54:14,000 --> 02:54:19,000
+ .
+
+1939
+02:54:19,000 --> 02:54:24,000
+ .
+
+1940
+02:54:24,000 --> 02:54:29,000
+ .
+
+1941
+02:54:29,000 --> 02:54:34,000
+ .
+
+1942
+02:54:34,000 --> 02:54:39,000
+ .
+
+1943
+02:54:39,000 --> 02:54:44,000
+ .
+
+1944
+02:54:44,000 --> 02:54:49,000
+ .
+
+1945
+02:54:49,000 --> 02:54:54,000
+ .
+
+1946
+02:54:54,000 --> 02:54:59,000
+ .
+
+1947
+02:54:59,000 --> 02:55:04,000
+ .
+
+1948
+02:55:04,000 --> 02:55:09,000
+ .
+
+1949
+02:55:09,000 --> 02:55:14,000
+ .
+
+1950
+02:55:14,000 --> 02:55:19,000
+ .
+
+1951
+02:55:19,000 --> 02:55:24,000
+ .
+
+1952
+02:55:24,000 --> 02:55:29,000
+ .
+
+1953
+02:55:29,000 --> 02:55:34,000
+ .
+
+1954
+02:55:34,000 --> 02:55:39,000
+ .
+
+1955
+02:55:39,000 --> 02:55:44,000
+ .
+
+1956
+02:55:44,000 --> 02:55:49,000
+ .
+
+1957
+02:55:49,000 --> 02:55:54,000
+ .
+
+1958
+02:55:54,000 --> 02:55:59,000
+ .
+
+1959
+02:55:59,000 --> 02:56:04,000
+ .
+
+1960
+02:56:04,000 --> 02:56:09,000
+ .
+
+1961
+02:56:09,000 --> 02:56:14,000
+ .
+
+1962
+02:56:14,000 --> 02:56:19,000
+ .
+
+1963
+02:56:19,000 --> 02:56:24,000
+ .
+
+1964
+02:56:24,000 --> 02:56:29,000
+ .
+
+1965
+02:56:29,000 --> 02:56:34,000
+ .
+
+1966
+02:56:34,000 --> 02:56:39,000
+ .
+
+1967
+02:56:39,000 --> 02:56:44,000
+ .
+
+1968
+02:56:44,000 --> 02:56:49,000
+ .
+
+1969
+02:56:49,000 --> 02:56:54,000
+ .
+
+1970
+02:56:54,000 --> 02:56:59,000
+ .
+
+1971
+02:56:59,000 --> 02:57:04,000
+ .
+
+1972
+02:57:04,000 --> 02:57:09,000
+ .
+
+1973
+02:57:09,000 --> 02:57:14,000
+ .
+
+1974
+02:57:14,000 --> 02:57:19,000
+ .
+
+1975
+02:57:19,000 --> 02:57:24,000
+ .
+
+1976
+02:57:24,000 --> 02:57:29,000
+ .
+
+1977
+02:57:29,000 --> 02:57:34,000
+ .
+
+1978
+02:57:34,000 --> 02:57:39,000
+ .
+
+1979
+02:57:39,000 --> 02:57:44,000
+ .
+
+1980
+02:57:44,000 --> 02:57:49,000
+ .
+
+1981
+02:57:49,000 --> 02:57:54,000
+ .
+
+1982
+02:57:54,000 --> 02:57:59,000
+ .
+
+1983
+02:57:59,000 --> 02:58:04,000
+ .
+
+1984
+02:58:04,000 --> 02:58:09,000
+ .
+
+1985
+02:58:09,000 --> 02:58:14,000
+ .
+
+1986
+02:58:14,000 --> 02:58:19,000
+ .
+
+1987
+02:58:19,000 --> 02:58:24,000
+ .
+
+1988
+02:58:24,000 --> 02:58:29,000
+ .
+
+1989
+02:58:29,000 --> 02:58:34,000
+ .
+
+1990
+02:58:34,000 --> 02:58:39,000
+ .
+
+1991
+02:58:39,000 --> 02:58:44,000
+ .
+
+1992
+02:58:44,000 --> 02:58:49,000
+ .
+
+1993
+02:58:49,000 --> 02:58:54,000
+ .
+
+1994
+02:58:54,000 --> 02:58:59,000
+ .
+
+1995
+02:58:59,000 --> 02:59:04,000
+ .
+
+1996
+02:59:04,000 --> 02:59:09,000
+ .
+
+1997
+02:59:09,000 --> 02:59:14,000
+ .
+
+1998
+02:59:14,000 --> 02:59:19,000
+ .
+
+1999
+02:59:19,000 --> 02:59:24,000
+ .
+
+2000
+02:59:24,000 --> 02:59:29,000
+ .
+
+2001
+02:59:29,000 --> 02:59:34,000
+ .
+
+2002
+02:59:34,000 --> 02:59:39,000
+ .
+
+2003
+02:59:39,000 --> 02:59:44,000
+ .
+
+2004
+02:59:44,000 --> 02:59:49,000
+ .
+
+2005
+02:59:49,000 --> 02:59:54,000
+ .
+
+2006
+02:59:54,000 --> 02:59:59,000
+ .
+
+2007
+02:59:59,000 --> 03:00:04,000
+ .
+
+2008
+03:00:04,000 --> 03:00:09,000
+ .
+
