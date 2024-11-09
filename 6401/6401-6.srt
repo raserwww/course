@@ -1,0 +1,5052 @@
+1
+00:00:00,000 --> 00:00:18,000
+Um.
+
+2
+00:00:30,000 --> 00:00:31,000
+Okay.
+
+3
+00:00:31,000 --> 00:00:40,000
+Can I do full screen?
+
+4
+00:00:40,000 --> 00:00:47,560
+Okay, maybe this is better.
+
+5
+00:00:47,560 --> 00:00:56,720
+All right, so before I start my lecture today, right, so some, I believe all of you should
+
+6
+00:00:56,720 --> 00:00:58,720
+know that one is announced.
+
+7
+00:00:58,720 --> 00:01:03,560
+Okay, how many of you haven't checked the, or how many of you don't know what, I mean,
+
+8
+00:01:03,560 --> 00:01:06,400
+the homework one is announced?
+
+9
+00:01:06,400 --> 00:01:07,720
+All of you know the homework one, right?
+
+10
+00:01:07,720 --> 00:01:12,880
+So basically you will have, I guess, more than three weeks to do it.
+
+11
+00:01:12,880 --> 00:01:18,560
+Okay, and also I set the deadline to be after, I mean, not after, like the Sunday of the
+
+12
+00:01:18,560 --> 00:01:23,300
+recess week, so you can use the recess week to do the homework if you don't, if you have
+
+13
+00:01:23,300 --> 00:01:25,320
+tied up for other projects.
+
+14
+00:01:25,320 --> 00:01:31,720
+But recess week you should have no cost work, right, so it's entirely, you know, for you
+
+15
+00:01:31,720 --> 00:01:32,720
+to do the homework.
+
+16
+00:01:32,720 --> 00:01:36,760
+Okay, so, but a few things I wish you to, you know, explain.
+
+17
+00:01:36,760 --> 00:01:42,120
+First one is, as I mentioned in the homework instructions, so you can choose to either
+
+18
+00:01:42,120 --> 00:01:48,600
+typeset your answer or you can write by hand and then scan the copy to me, right, either
+
+19
+00:01:48,600 --> 00:01:49,600
+way works.
+
+20
+00:01:49,600 --> 00:01:54,600
+But I strongly prefer the types, sorry, the typeset one because it's clear.
+
+21
+00:01:54,600 --> 00:01:57,960
+So if you can typeset your answer, that would be perfect.
+
+22
+00:01:57,960 --> 00:02:03,080
+If you choose to write by hand, you need to make sure that those things are readable to
+
+23
+00:02:03,080 --> 00:02:08,320
+me, right, because I do have experience, like people submit your answer but I cannot read,
+
+24
+00:02:08,320 --> 00:02:09,320
+you know.
+
+25
+00:02:09,320 --> 00:02:14,240
+It's like you make my job easier, right, because if I don't recognize your solution, I cannot
+
+26
+00:02:14,240 --> 00:02:15,240
+give you marks.
+
+27
+00:02:15,240 --> 00:02:16,240
+It's very simple, right?
+
+28
+00:02:16,240 --> 00:02:17,240
+So it's up to you.
+
+29
+00:02:17,240 --> 00:02:19,940
+If you want to do typesetting, that's perfect.
+
+30
+00:02:19,940 --> 00:02:26,780
+If you want to do handwritten solution, make sure you write those equations, numbers, words
+
+31
+00:02:26,780 --> 00:02:29,020
+very clearly, okay?
+
+32
+00:02:29,020 --> 00:02:34,180
+Don't give me something like a very, you know, ambiguous, so I could give you the wrong marks,
+
+33
+00:02:34,180 --> 00:02:35,180
+all right?
+
+34
+00:02:35,180 --> 00:02:40,740
+So, and also bear in mind that I will not return the graded homework one to you, so,
+
+35
+00:02:40,740 --> 00:02:45,580
+you know, if you cause any misunderstanding that there's a problem for me to grade, okay?
+
+36
+00:02:45,580 --> 00:02:47,900
+So I hope this is clear for everyone.
+
+37
+00:02:47,900 --> 00:02:49,900
+Okay, any question?
+
+38
+00:02:50,180 --> 00:02:54,940
+Another thing is that you need to submit this using the online portal, right, so you don't
+
+39
+00:02:54,940 --> 00:03:02,500
+really bring the hard copy to me, but instead you submit the PDF to NTU Learn, so does anyone
+
+40
+00:03:02,500 --> 00:03:06,260
+doesn't know where to submit your PDF?
+
+41
+00:03:06,260 --> 00:03:07,260
+You know where to submit?
+
+42
+00:03:07,260 --> 00:03:13,060
+Okay, just in case, right, so if you go to NTU Learn, right, you should find something
+
+43
+00:03:13,060 --> 00:03:19,220
+like, oops, sorry, not this one, okay, something like this, right?
+
+44
+00:03:19,220 --> 00:03:25,220
+This is your, you know, cost, you know, subject site, I mean, maybe you start from here, right,
+
+45
+00:03:25,220 --> 00:03:35,900
+so if you click the 6401, you go to the assignment, sorry, where's the, okay, okay, here, right,
+
+46
+00:03:35,900 --> 00:03:43,060
+you go to the assignments, you should find this announcement here, oh, wait, hey, wait
+
+47
+00:03:43,060 --> 00:03:50,500
+a second, where did I, hey, sorry, where did I announce that, hey, I thought I announced
+
+48
+00:03:50,500 --> 00:04:12,820
+that, right, wait a second, sorry, sorry, it's not announced, it's a not semester, oh,
+
+49
+00:04:12,820 --> 00:04:17,460
+sorry, sorry, okay, I don't know why I went to the wrong place, sorry, thanks for reminding
+
+50
+00:04:17,460 --> 00:04:21,580
+me, okay, this is actually, okay, thanks, this is the assignment, sorry, I don't know
+
+51
+00:04:21,580 --> 00:04:26,020
+why, and I mean, for those of you who, I mean, who doesn't know where to find this, should
+
+52
+00:04:26,020 --> 00:04:31,140
+be here, right, under the assignment, you can download the question set here, so this
+
+53
+00:04:31,140 --> 00:04:36,180
+is actually the questions you're going to do, I added some hints here, because I realized
+
+54
+00:04:36,180 --> 00:04:41,980
+last semester, many of the students go to the completely wrong direction, right, so
+
+55
+00:04:41,980 --> 00:04:48,060
+I give the hints because, you know, I try to help you to find the right tool to solve
+
+56
+00:04:48,060 --> 00:04:51,620
+the problem, but of course, you need to figure out how to solve that, but I'm trying to give
+
+57
+00:04:51,620 --> 00:04:57,020
+you some ideas, if you don't know what they are, and so basically you have to do three
+
+58
+00:04:57,020 --> 00:05:03,740
+questions, one, two, and three, I specify how many marks they're worth, but in the end,
+
+59
+00:05:03,740 --> 00:05:08,380
+you should prepare an answer sheet to me, like, you know, how to answer question one,
+
+60
+00:05:08,380 --> 00:05:13,820
+how to answer question two, make sure every subquestion is well addressed, okay, but you
+
+61
+00:05:13,820 --> 00:05:21,760
+need to create a PDF as your answer, and then you should click here, and this is how you
+
+62
+00:05:21,760 --> 00:05:31,020
+should submit, okay, make sense, so you just need to say, hey, I want to create my submission,
+
+63
+00:05:31,020 --> 00:05:38,300
+and you can, okay, so you can upload the file, you just select the PDF here, alright, and
+
+64
+00:05:38,300 --> 00:05:44,300
+then I can see the PDF, I can grade them, I can give you marks, alright, okay, is it
+
+65
+00:05:44,300 --> 00:05:50,540
+clear, so you can submit as many times as you want, means that you do submission, but
+
+66
+00:05:50,540 --> 00:05:55,260
+somehow you find that, oh, I got some question wrong, I want to fix it, feel free to create
+
+67
+00:05:55,260 --> 00:06:01,740
+another submission, okay, but only the last submission will be graded, which means if
+
+68
+00:06:01,740 --> 00:06:07,660
+you submit a second time, it's going to replace your first submission, alright, so make sure
+
+69
+00:06:07,660 --> 00:06:12,660
+your last submission is the one you want me to grade, so I will only grade your last
+
+70
+00:06:12,660 --> 00:06:18,460
+submission, okay, but feel free to modify it, I mean, of course, before the deadline,
+
+71
+00:06:18,460 --> 00:06:22,140
+okay, after deadline, if you modify it, you're going to get penalty, right, because it's
+
+72
+00:06:22,140 --> 00:06:27,580
+going to mark as the late submission, so if it's between, sorry, if it's before the deadline,
+
+73
+00:06:27,580 --> 00:06:33,940
+which is the midnight of the Sunday, I forgot which day, but, you know, the, okay, October
+
+74
+00:06:33,940 --> 00:06:41,300
+6th, right, if it's before the midnight of October 6th, feel free to modify, feel free
+
+75
+00:06:41,300 --> 00:06:47,820
+to upload another time, but make sure you only, I only, you submit the desired one as
+
+76
+00:06:47,820 --> 00:06:56,260
+the last copy, okay, is it clear for everyone, okay, so you can, you can, you know, discuss
+
+77
+00:06:56,260 --> 00:07:01,500
+with your friends, you can, you know, check the online thing, but make sure when you prepare
+
+78
+00:07:01,500 --> 00:07:05,580
+the solution, right, the answer, that's going to be independent, alright, because if I see
+
+79
+00:07:05,580 --> 00:07:11,420
+two identical answers, then, you know, I could treat it as plagiarism, right, so you don't
+
+80
+00:07:11,420 --> 00:07:15,780
+want to really exactly copy your friends, you know, submit two answers, but I'm okay
+
+81
+00:07:15,780 --> 00:07:20,100
+if you want to discuss, right, I'm okay for that, but when you prepare your solution,
+
+82
+00:07:20,100 --> 00:07:24,660
+your answers, make sure it's independently done by you, alright, don't just copy your
+
+83
+00:07:24,660 --> 00:07:28,740
+friends solution, because he could be wrong, right, so make sure you think independently
+
+84
+00:07:28,780 --> 00:07:33,900
+and you do the homework independently, alright, but I'm okay if you read the textbook, you
+
+85
+00:07:33,900 --> 00:07:38,660
+want to check things online, you don't really find a similar question online, I just, you
+
+86
+00:07:38,660 --> 00:07:46,060
+know, create them, so, you know, that one I can make sure, I can for sure, and also,
+
+87
+00:07:46,060 --> 00:07:53,500
+you see, what I want to say here, so okay, write the answer compactly, right, because
+
+88
+00:07:53,540 --> 00:07:59,260
+I do have received some cases before, people write like many, many pages, like ten pages,
+
+89
+00:07:59,260 --> 00:08:04,140
+right, but I have to look for those answers from so many pages, so I just need to have
+
+90
+00:08:04,140 --> 00:08:08,140
+that answer and also explain how you get there, right, that would be sufficient, you don't
+
+91
+00:08:08,140 --> 00:08:14,060
+have to write like, you know, hundred pages, no need, alright, okay, and okay, one last
+
+92
+00:08:14,060 --> 00:08:17,940
+thing is that if you go to the question here, you may find that some of the questions, for
+
+93
+00:08:17,940 --> 00:08:23,260
+example, this one, you will need also some knowledge that we're going to learn either
+
+94
+00:08:23,260 --> 00:08:28,380
+today or tomorrow, okay, so don't worry because we're going to get there, but you can start
+
+95
+00:08:28,380 --> 00:08:32,660
+to do things you already know how to do, right, if you find there's some kind of tools you
+
+96
+00:08:32,660 --> 00:08:37,180
+need to use later, that's fine, that's possible, right, because this homework will cover the
+
+97
+00:08:37,180 --> 00:08:44,180
+entire scope of my path one, okay, so it's perfectly fine, I believe 3D will need some
+
+98
+00:08:44,540 --> 00:08:48,700
+knowledge like maybe tomorrow, right, I don't even know I can cover that today but tomorrow,
+
+99
+00:08:48,700 --> 00:08:54,660
+okay, it's the last topic of my lectures, okay, so totally fine, but for some of the
+
+100
+00:08:54,660 --> 00:08:58,620
+questions, I believe like question one, you should be able to do it already, okay, if
+
+101
+00:08:58,620 --> 00:09:05,460
+you have any question, you can clarify with me, say, after the lecture, but I cannot tell
+
+102
+00:09:05,460 --> 00:09:09,140
+you the answer, right, because that defeats the purpose, so I won't tell you exactly how
+
+103
+00:09:09,140 --> 00:09:14,140
+to solve them, but if you have any doubt about the concept, you want me to clarify the question,
+
+104
+00:09:14,620 --> 00:09:21,420
+I'm happy to help, okay, is it clear for everyone, like homework, okay, all of you know how to
+
+105
+00:09:21,420 --> 00:09:26,100
+submit and by what time you need to submit, right, okay, great, any question you can let
+
+106
+00:09:26,100 --> 00:09:31,620
+me know, but this is actually about the homework one, right, which is actually quite important,
+
+107
+00:09:31,620 --> 00:09:38,620
+you know, 20%, right, okay, so then we can start our lecture today, alright, so let me
+
+108
+00:09:38,620 --> 00:09:45,620
+just first do a recap about the things we learned last week, alright, because, you know,
+
+109
+00:09:45,860 --> 00:09:49,420
+last week the things is also very, actually, I would say the most important thing last
+
+110
+00:09:49,420 --> 00:09:54,820
+week, right, we actually learned multi-rate system, another thing is the polyphase structure,
+
+111
+00:09:54,820 --> 00:10:00,420
+alright, so multi-rate system is that we are going to change the signal rate, or in other
+
+112
+00:10:00,420 --> 00:10:05,420
+words the frequency, in the signal processing system, right, and the polyphase structure
+
+113
+00:10:05,420 --> 00:10:12,180
+is one way to implement a signal processing system using different rate, right, in different
+
+114
+00:10:12,180 --> 00:10:17,940
+branches, so the idea of doing this polyphase is to save some computational requirements,
+
+115
+00:10:17,940 --> 00:10:22,620
+you know, improve the efficiency, and today we're going to see one example that you can
+
+116
+00:10:22,620 --> 00:10:27,380
+actually use polyphase structure to implement the filter bank, right, that's one scenario
+
+117
+00:10:27,380 --> 00:10:33,100
+that you will find polyphase structure very useful, okay, but let's begin with the multi-rate
+
+118
+00:10:33,100 --> 00:10:40,100
+system where we first talk about the decimation and interpolation, right, and also there's
+
+119
+00:10:41,100 --> 00:10:46,060
+a downsampling and upsampling, so these two are the building blocks, the most fundamental
+
+120
+00:10:46,060 --> 00:10:53,060
+blocks for multi-rate system, okay, so I will show the formula later, but let's just memorize
+
+121
+00:10:53,120 --> 00:10:58,780
+this figure, right, this kind of illustration, as the spectrum change in the frequency domain,
+
+122
+00:10:58,820 --> 00:11:05,820
+right, so I think it's also very easy to remember this because when you do decimation, let me
+
+123
+00:11:05,820 --> 00:11:10,660
+use the pointer, oops, I don't have a pointer, but anyway, you can see my mouse, right, okay,
+
+124
+00:11:10,660 --> 00:11:17,660
+so if you are doing decimation of a system, let's say downsample, before that you do an
+
+125
+00:11:17,980 --> 00:11:24,780
+anti-aliasing filter, right, so if this is your original spectrum, all right, you are
+
+126
+00:11:24,820 --> 00:11:29,660
+going to end up with something like this, eventually, so two things I wish you to pay
+
+127
+00:11:29,660 --> 00:11:34,180
+attention to, right, so first one is here, I mean, because some people asked me last
+
+128
+00:11:34,180 --> 00:11:39,540
+time, I realized it's good to share, in the first place, in the figure, the range is between
+
+129
+00:11:39,540 --> 00:11:46,420
+zero and two pi, right, so this is the original scale, but here in this plot, the scale is
+
+130
+00:11:46,420 --> 00:11:51,660
+actually not between zero and two pi, it's actually between zero and two d times pi,
+
+131
+00:11:51,780 --> 00:11:55,300
+okay, that's the first thing, I think even though I emphasized, some people still ask
+
+132
+00:11:55,300 --> 00:12:01,020
+me, because if you look at the notation of the horizontal axis, right, all of here says
+
+133
+00:12:01,020 --> 00:12:08,020
+omega x, but we have to talk about omega y, right, because omega y is the variable for
+
+134
+00:12:08,060 --> 00:12:13,620
+y, which is the output, right, so what the node's trying to say is that you need to do
+
+135
+00:12:13,620 --> 00:12:18,100
+two things, right, first one you have to create the duplicate, and then you have to scale
+
+136
+00:12:18,100 --> 00:12:24,660
+everything by a d factor, okay, so if this give you some misunderstanding, so I think
+
+137
+00:12:24,660 --> 00:12:29,820
+another way to interpret the change is that, imagine the range, so this is actually zero
+
+138
+00:12:29,820 --> 00:12:37,140
+to two pi, and here, zero and two pi is here, the red line here indicate, the red bar here
+
+139
+00:12:37,140 --> 00:12:44,140
+indicate two pi, right, in the omega y, so imagine that you are going from here, this
+
+140
+00:12:44,140 --> 00:12:50,060
+is your input, to a range between zero and two pi here, similarly, you are actually stretching
+
+141
+00:12:50,060 --> 00:12:57,060
+the signal, right, in other words, you are expanding the signal in the horizontal axis,
+
+142
+00:12:57,260 --> 00:13:03,780
+so another way to put it, originally this is a very narrow and very thin signal, everything
+
+143
+00:13:03,780 --> 00:13:08,800
+is very narrow, after down sampling you are talking about very fat signal, you are expanding
+
+144
+00:13:08,840 --> 00:13:15,840
+the signal from very thin to very fat, right, so this is what happens, or the phenomena
+
+145
+00:13:15,840 --> 00:13:20,800
+in the spectrum, right, in the frequency domain, you can actually memorize this in the following
+
+146
+00:13:20,800 --> 00:13:26,280
+way, when you do down sampling, or when you do decimation, you are stretching the signal,
+
+147
+00:13:26,280 --> 00:13:31,980
+expanding the signal, right, that's the phenomenon for down sampling, and because of that, because
+
+148
+00:13:31,980 --> 00:13:36,680
+of you are doing the stretching here, there is a risk of getting the aliasing, right,
+
+149
+00:13:36,680 --> 00:13:42,520
+this is actually the aliasing happens, only when you stretch the signal, the two can possibly
+
+150
+00:13:42,520 --> 00:13:47,840
+be overlapped, right, otherwise how can you get overlaps, right, so if you want to get
+
+151
+00:13:47,840 --> 00:13:51,960
+aliasing, you have to stretch the signal, right, this is actually how I memorize it,
+
+152
+00:13:51,960 --> 00:13:57,000
+okay, so you make the signal fatter, like larger, there is a risk of overlapping each
+
+153
+00:13:57,000 --> 00:14:02,800
+other and that's called aliasing, okay, so now, if you think about the opposite way,
+
+154
+00:14:02,800 --> 00:14:08,920
+interpolation, so interpolation, which is the opposite of down sampling of the decimation,
+
+155
+00:14:08,920 --> 00:14:13,560
+is actually not stretching the signal, it's actually shrinking the signal, alright, so
+
+156
+00:14:13,560 --> 00:14:18,520
+also I wish you to pay attention that in the input, right, this is actually the range of
+
+157
+00:14:18,520 --> 00:14:24,760
+zero to two pi, only within the blue box is the range of zero to two pi, right, in output
+
+158
+00:14:24,760 --> 00:14:31,800
+plot, in output spectrum, here, the blue box, this is actually from zero to two pi, so you
+
+159
+00:14:31,800 --> 00:14:38,000
+have to divide the original six pi by three, which is the up sampling ratio, right, so
+
+160
+00:14:38,000 --> 00:14:45,520
+if you observe the waveform, originally this is the waveform, after, you know, the interpolation,
+
+161
+00:14:45,520 --> 00:14:50,680
+right, this is actually the waveform, so in fact, the waveform actually has been shrinked,
+
+162
+00:14:50,680 --> 00:14:57,200
+right, you compress the signal, such that the signal doesn't occupy that kind of much
+
+163
+00:14:58,160 --> 00:15:03,280
+bandwidth, right, so you actually compress them a little bit, so you can imagine that for down
+
+164
+00:15:03,280 --> 00:15:08,360
+sampling or decimation, you are expanding the signal, for up sampling interpolation, you are
+
+165
+00:15:08,360 --> 00:15:12,760
+shrinking the signal, you are compressing the signal, right, this is how, I mean, I visually
+
+166
+00:15:12,760 --> 00:15:19,600
+memorize it, and also you can perfectly derive that using the, you know, frequency domain close
+
+167
+00:15:19,600 --> 00:15:24,280
+form relationship, right, if you divide it by something, if you multiply by something, they
+
+168
+00:15:24,280 --> 00:15:30,040
+correspond to the shrinking and expanding, right, correspondingly, okay, but you can memorize the
+
+169
+00:15:30,040 --> 00:15:34,600
+visual, right, which is easier, because later what we're going to use that for filter bank, right,
+
+170
+00:15:34,600 --> 00:15:41,840
+okay, all right, I mean, these are just extracting, I extract them from the last week's lecture,
+
+171
+00:15:41,840 --> 00:15:46,560
+right, but I just want to highlight the difference so you can understand, right, they are doing the
+
+172
+00:15:46,560 --> 00:15:52,360
+opposite thing, one is expanding, one is shrinking, right, okay, and like I mentioned, right, not only
+
+173
+00:15:52,600 --> 00:15:59,480
+the visual, you also need to understand, or in some case, kind of remember the mathematical
+
+174
+00:15:59,480 --> 00:16:06,680
+relationship, okay, but first of all, interpolation is always up sampling followed by a low pass
+
+175
+00:16:06,680 --> 00:16:12,120
+filter, or some people call that reconstruction filter, decimation is the opposite, you have to do
+
+176
+00:16:12,120 --> 00:16:19,320
+anti-aliasing first, after that, you need to do down sampling, right, so it's just like the signal
+
+177
+00:16:19,320 --> 00:16:24,280
+processing system where you have sampling and the reconstruction, so sampling is something like the
+
+178
+00:16:24,280 --> 00:16:31,160
+decimation process, where anti-aliasing is a low pass filter before the down sampler, right,
+
+179
+00:16:31,160 --> 00:16:37,680
+and the interpolation is just like the reconstruction process, where your low pass filter is after the
+
+180
+00:16:37,680 --> 00:16:45,040
+up sampling, okay, so, and this is actually how the system is formed, and correspondingly there's a
+
+181
+00:16:45,480 --> 00:16:50,920
+time domain relationship, and there's also a frequency domain relationship, so most likely we're
+
+182
+00:16:50,920 --> 00:16:57,400
+going to use the z transform to represent a frequency, like, you know, because it's easier, right,
+
+183
+00:16:57,400 --> 00:17:02,600
+because many times when you do down sampling, up sampling, they're corresponding to a z domain, but
+
+184
+00:17:02,600 --> 00:17:08,040
+they have some factor here, right, some kind of exponential term here, you can also do omega, but
+
+185
+00:17:08,040 --> 00:17:13,880
+it's actually more complicated, right, so z domain is actually the common representation we use for
+
+186
+00:17:13,880 --> 00:17:21,400
+up sampling, down sampling, alright, but of course if the question asks you to plot the spectrum,
+
+187
+00:17:21,400 --> 00:17:26,920
+normally the spectrum are talking about the omega domain, right, so you have to do another change of
+
+188
+00:17:26,920 --> 00:17:33,840
+variable, right, by replacing z with j to power, sorry, e to power of j omega, right, and then you
+
+189
+00:17:33,840 --> 00:17:40,160
+plot the omega in the corresponding way, okay, so make sure you understand not only the visual, but
+
+190
+00:17:40,160 --> 00:17:45,240
+the visual is also important, right, the spectrum change is important, but you also need to understand
+
+191
+00:17:45,240 --> 00:17:50,640
+how, you know, in time domain, in the z domain, what happened for interpolation, what happened for
+
+192
+00:17:50,640 --> 00:18:00,440
+decimation, right, this is also important, okay, alright, so here the u actually refer to the process
+
+193
+00:18:00,440 --> 00:18:09,080
+only up sampling, right, here the v refer to the, sorry, the v here refer to actually the low-pass
+
+194
+00:18:09,080 --> 00:18:15,000
+filtering process, right, and here the xd refer to the end, right, so you better read those notations
+
+195
+00:18:15,000 --> 00:18:19,280
+correspondingly, but this is what we covered last week, last week, which is the fundamental blocks,
+
+196
+00:18:19,280 --> 00:18:26,800
+and based on that, right, we can say, well, each of this block can give you integer times for up
+
+197
+00:18:26,800 --> 00:18:34,200
+sampling, down sampling, but by making use of both, you can do fractional kind of up sampling, down
+
+198
+00:18:34,240 --> 00:18:41,000
+sampling, by a factor of i divided by d, so for any fractional number, you can make it like, you know,
+
+199
+00:18:41,000 --> 00:18:48,040
+integer divided by integer, right, so in this case, you can always use a interpolator followed by a
+
+200
+00:18:48,040 --> 00:18:56,680
+decimeter to implement a fractional rate change, okay, but you have to do interpolation first,
+
+201
+00:18:56,680 --> 00:19:01,560
+followed by decimation, not the other way around, right, the reason is that you don't want to lose
+
+202
+00:19:01,600 --> 00:19:08,240
+information before, you know, doing this kind of processing, like filters, if you do down sampling,
+
+203
+00:19:08,240 --> 00:19:14,160
+you will lose information, okay, so because of that, because of this order, right, up sampling,
+
+204
+00:19:14,160 --> 00:19:19,440
+sorry, interpolation first, decimation second, you can actually merge the two filters in between,
+
+205
+00:19:19,440 --> 00:19:24,480
+and if both of them are low-pass filter, if you merge them, you still have a low-pass filter,
+
+206
+00:19:24,480 --> 00:19:31,440
+right, so this low-pass filter will be an overall low-pass filter, but the color frequency matters,
+
+207
+00:19:31,840 --> 00:19:38,080
+the color frequency will be the minimum of the two, right, so you should choose the minimum out of
+
+208
+00:19:38,080 --> 00:19:44,480
+the low-pass filter for the interpolation, and then the low-pass filter of the decimation in
+
+209
+00:19:44,480 --> 00:19:51,920
+terms of color frequency, right, so this is actually the takeaway, but overall, you just need
+
+210
+00:19:51,920 --> 00:19:57,120
+to have two rate change plus a low-pass filter to implement kind of a fractional rate change,
+
+211
+00:19:57,120 --> 00:20:02,160
+right, this is actually the standard form of implementing non-integer kind of rate change,
+
+212
+00:20:02,160 --> 00:20:07,160
+all right, and you should know where you end up here, right, how can you merge the two,
+
+213
+00:20:07,160 --> 00:20:12,400
+how can you end up with the, you know, design of the low-pass filter in the middle, right,
+
+214
+00:20:12,400 --> 00:20:19,440
+so, and that's actually all we talk about for multi-rate system, right, so basically we can
+
+215
+00:20:19,440 --> 00:20:27,600
+cover any rate change by using the building blocks, and later we say that, well, so we have
+
+216
+00:20:27,600 --> 00:20:34,520
+a very high rate signal processing system, right, you actually use this divide and conquer strategy
+
+217
+00:20:34,520 --> 00:20:42,960
+to process, let's say, a system with multi-branches, and every branch you can afford a low, lower rate
+
+218
+00:20:42,960 --> 00:20:51,120
+kind of system, I mean, the way you do that is by dividing the entire filters by multiple groups,
+
+219
+00:20:51,120 --> 00:20:55,400
+right, so you can call this is like my group one, this is my group two, and this, sorry,
+
+220
+00:20:55,400 --> 00:21:02,280
+this is my group three, so every group will be a sampled version of the original impulse response,
+
+221
+00:21:02,280 --> 00:21:07,080
+right, so you imagine your original impulse response is very high rate, like very fast,
+
+222
+00:21:07,760 --> 00:21:13,080
+high frequency, but you do a sampling of that, right, let's say I sample the zeroth term,
+
+223
+00:21:13,080 --> 00:21:19,960
+m's term, and 2m's term as the first group, I sample the h1, hn plus 1, h2n plus 1 as the group two,
+
+224
+00:21:19,960 --> 00:21:27,480
+so by combining the delay and also the sampled version of my impulse response, I can design
+
+225
+00:21:27,480 --> 00:21:32,400
+something like a filter bank, right, today we're going to look at the filter bank, but a multi-branch
+
+226
+00:21:32,440 --> 00:21:38,880
+signal processing system, such that your signal can be processing many branches, but every branch
+
+227
+00:21:38,880 --> 00:21:45,240
+you can afford a lower rate, a slower kind of processing, and hopefully they can increase your
+
+228
+00:21:45,240 --> 00:21:51,200
+processing time by this kind of a multi-branching here, because you see like a very fast rate if you
+
+229
+00:21:51,200 --> 00:21:56,840
+sample by m kind of groups, every branch will be just 1 over m, right, in terms of the rate,
+
+230
+00:21:56,840 --> 00:22:02,480
+so this is the advantage of doing this polyphase structure, right, and also you have to understand
+
+231
+00:22:02,480 --> 00:22:08,120
+how in time domain the impulse response is sampled, and eventually, sorry, this is actually not time
+
+232
+00:22:08,120 --> 00:22:12,240
+domain, this is already a z domain, but the coefficients are coming from the time domain
+
+233
+00:22:12,240 --> 00:22:18,440
+impulse response, right, and then correspondingly, right, if you do this, what is the grouping,
+
+234
+00:22:18,440 --> 00:22:23,080
+right, how did you do grouping for, you know, different branches, so this is my first branch,
+
+235
+00:22:23,160 --> 00:22:28,440
+which is the p0, this is my second branch, which is the p1, and this is my third branch, which is p2,
+
+236
+00:22:28,440 --> 00:22:35,200
+right, how they are arranged and why there's a time delay, right, sorry, I mean time delay,
+
+237
+00:22:35,200 --> 00:22:39,920
+you have to have time delay, otherwise every branch is the same, right, the time delay will
+
+238
+00:22:39,920 --> 00:22:45,880
+give you different sample measurements, right, so here no delay is 0, 1, if there's a delay,
+
+239
+00:22:45,880 --> 00:22:50,760
+that's h1, right, and if there's a 2 delay, sorry, there's m1, m minus 1 delay, you have,
+
+240
+00:22:50,880 --> 00:22:57,120
+you will have the hm minus 1, right, so the time delay will be different for every branch,
+
+241
+00:22:57,120 --> 00:23:05,360
+and that's why we can kind of cover all of the impulse response, you know, original h, okay,
+
+242
+00:23:05,360 --> 00:23:12,800
+so this is polyphase, okay, and then in the end, we say that, well, after we learn the
+
+243
+00:23:12,800 --> 00:23:18,240
+mathematic formulation of multirate system, we can also use the block diagram to represent
+
+244
+00:23:18,360 --> 00:23:24,760
+multirate system, right, so about comparing to the block diagram we learned like two weeks ago,
+
+245
+00:23:24,760 --> 00:23:30,360
+we need to use something new, right, so we will introduce this down sampler and also up sampler,
+
+246
+00:23:30,360 --> 00:23:38,040
+which is a error downward and upward, okay, and there's always a factor associated with error,
+
+247
+00:23:38,040 --> 00:23:43,960
+right, so those number will indicate the ratio, right, how many times you are talking about,
+
+248
+00:23:44,360 --> 00:23:51,560
+and those will be incorporated in the system together with other kind of indicators like,
+
+249
+00:23:51,560 --> 00:23:58,760
+you know, multiplier, you know, what is that, summation, right, together, but there are a few
+
+250
+00:23:58,760 --> 00:24:04,680
+properties you have to be familiar with, right, I mean the most important one I would say is the
+
+251
+00:24:04,680 --> 00:24:09,960
+normal identity, right, so you will use that for homework as well, which is actually quite
+
+252
+00:24:09,960 --> 00:24:17,640
+important, but what does the normal identity refers to is that if you want to swap the order,
+
+253
+00:24:17,640 --> 00:24:21,640
+right, for example, if this is my original order, which is like down sampling first,
+
+254
+00:24:21,640 --> 00:24:29,040
+followed by the filtering, you can swap them, but this filter has to be rate changed, right,
+
+255
+00:24:29,040 --> 00:24:34,880
+I mean it also makes sense, originally the filter is actually the low rate end, right,
+
+256
+00:24:34,880 --> 00:24:39,560
+it's after down sampling, if you want to move that before the down sampling, you are operating
+
+257
+00:24:40,040 --> 00:24:45,000
+the same filter in the high rate version, so you have to increase the rate of that filter as well
+
+258
+00:24:45,000 --> 00:24:51,400
+to match your original signal rate, right, but you can derive it, the important thing is that
+
+259
+00:24:51,400 --> 00:24:58,800
+if you move the filter across the down sampler, here across the up sampler, the rate of the filter
+
+260
+00:24:58,800 --> 00:25:04,840
+has also been changed, right, correspondingly, so you have to incorporate the change and derive
+
+261
+00:25:04,880 --> 00:25:10,760
+the corresponding filter, if you move that across the rate change, alright, so this is
+
+262
+00:25:10,760 --> 00:25:20,400
+normal identity, important, but there are other, there are a few of, you know, not that important,
+
+263
+00:25:20,400 --> 00:25:26,120
+but the useful property, right, you may use for simplifying or changing the block diagram you
+
+264
+00:25:26,120 --> 00:25:31,040
+have, right, I think I mentioned a few, but you can actually check everything, some of them are
+
+265
+00:25:31,040 --> 00:25:39,480
+quite trivial, so maybe, what do I, example, right, so for example, if I have here, for example, if I
+
+266
+00:25:39,480 --> 00:25:44,720
+have a down sampler followed by a time delay, right, there by time delay one, if I want to move
+
+267
+00:25:44,720 --> 00:25:51,680
+that before, to before the down sampler, right, this time delay will also be multiplied by D, right,
+
+268
+00:25:51,680 --> 00:25:57,800
+also easy to understand, right, you are delaying the signal in the low rate version, now you want
+
+269
+00:25:57,840 --> 00:26:02,480
+to delay the same thing in the high rate version, you have to make the delay more, right, because now
+
+270
+00:26:02,480 --> 00:26:09,480
+the, you know, measurements are more dense, denser than the one after the down sampling, right, so
+
+271
+00:26:09,480 --> 00:26:14,400
+some of these are pretty intuitive, some of them you may want to think about it, but if you use
+
+272
+00:26:14,400 --> 00:26:20,720
+them, sometimes you can simplify the block diagram, alright, so you may need them for homework as well,
+
+273
+00:26:20,800 --> 00:26:28,880
+but I just highlight a few could be useful, and also maybe, I would say maybe worth memorizing,
+
+274
+00:26:28,880 --> 00:26:33,840
+right, just think about it, convince yourself why they are true, if not, you can actually sit down
+
+275
+00:26:33,840 --> 00:26:40,080
+and write the Z transform, and they can actually, you can actually derive why the change makes sense,
+
+276
+00:26:40,080 --> 00:26:50,720
+right, okay, any question for the multi-rate system I talked about last week, before I move
+
+277
+00:26:50,720 --> 00:27:02,120
+on to the thing for this week? Okay, good, good, so now today's topic, right, I think mainly we are,
+
+278
+00:27:02,120 --> 00:27:07,800
+we're going to have two, right, I believe the last topic for next week, so the first topic is
+
+279
+00:27:07,800 --> 00:27:12,600
+actually called multi-stage, okay, we talk about many things about the multi, right, but don't confuse
+
+280
+00:27:12,600 --> 00:27:19,360
+yourself, multi-rate is about the sampling frequency, I mean the signal frequency, right, multi-rate means
+
+281
+00:27:19,360 --> 00:27:25,920
+in a signal processing system, you are talking about a signal in different rate, and it will involve
+
+282
+00:27:25,920 --> 00:27:31,480
+a lot of rate change, like up sampling, down sampling, but multi-stage is different, right, multi-stage
+
+283
+00:27:31,480 --> 00:27:40,520
+is about, okay, maybe introduce here, right, so multi-stage is about the way you can actually find
+
+284
+00:27:40,520 --> 00:27:47,440
+that equivalent to, let's say, a specific multi-rate system, right, so for example my original system is
+
+285
+00:27:47,440 --> 00:27:54,040
+something like this, I have an interpolation system which is up sampler followed by a reconstruction
+
+286
+00:27:54,040 --> 00:28:00,880
+filter, right, low pass filter, so it looks perfect because I can, you know, theoretically derive what
+
+287
+00:28:00,920 --> 00:28:05,840
+is the outcome and I can actually find out what is the color frequency for my low pass filter, right, so
+
+288
+00:28:05,840 --> 00:28:12,080
+theoretically there's nothing wrong with it, everything is pretty standard, the problem may happen during
+
+289
+00:28:12,080 --> 00:28:18,200
+the implementation stage, right, because in practice someone has to implement that, and if you're
+
+290
+00:28:18,200 --> 00:28:26,320
+implementing a multi-system, a multi-rate system like this, you could end up with, you know, an eye which is
+
+291
+00:28:26,320 --> 00:28:32,200
+very large, like I'm talking about a hundred times, you know, up sampling, or dramatically increasing
+
+292
+00:28:32,200 --> 00:28:38,960
+like rate, let's say in one stage, and to do so you need to have a filter, right, if you remember like
+
+293
+00:28:38,960 --> 00:28:44,840
+an ideal pass filter, you need to make sure your pass band is very narrow, such that you don't really get
+
+294
+00:28:44,840 --> 00:28:51,640
+this duplicates, so if you want to have like a very narrow kind of pass band and with a very sharp
+
+295
+00:28:51,640 --> 00:28:57,600
+transition, ideally that's great, theoretically you can have one, but in practice, I don't know if you
+
+296
+00:28:57,600 --> 00:29:02,000
+still remember, we talked about how do you design the filter, right, if you do windowing method, you
+
+297
+00:29:02,000 --> 00:29:09,040
+always have this transition kind of a period between the stop band and pass band, right, so I
+
+298
+00:29:09,040 --> 00:29:18,400
+practically, it's very hard to get a filter that is only with very kind of narrow pass band, and if you
+
+299
+00:29:18,400 --> 00:29:24,040
+want to do so, you need to have a lot of filter coefficient, talking about FIR, right, you have to do
+
+300
+00:29:24,040 --> 00:29:30,160
+like really really high order FIR, which is very expensive in practice, right, so this is a problem
+
+301
+00:29:30,160 --> 00:29:37,800
+for practical implementation, if you want to do this in only one stage, okay, because you have to
+
+302
+00:29:37,800 --> 00:29:44,240
+have a very high requirement for your filter design, right, to get rid of the duplicates, or if you're
+
+303
+00:29:44,320 --> 00:29:51,320
+talking about down sampling, get rid of the aliasing, right, so a practical way to do it is, again, is by
+
+304
+00:29:51,320 --> 00:29:57,600
+divide and conquer, right, if you cannot do this in one shot, you can do this in many shots, or I mean
+
+305
+00:29:57,600 --> 00:30:05,240
+in other words, you can do this in many stages, so in practice, sometimes we have to decompose a single
+
+306
+00:30:05,240 --> 00:30:12,400
+stage rate change into a multi-stage rate change, okay, in other words, I know I want to do a very
+
+307
+00:30:12,480 --> 00:30:19,360
+large eye change, or eye up sampling, but I don't want to do this in one step, I can do, let's say, you know,
+
+308
+00:30:19,360 --> 00:30:27,080
+eye one change one time, and maybe eye two change, and gradually eye L minus one change, and another time
+
+309
+00:30:27,080 --> 00:30:36,520
+eye L change, right, I can actually divide it into L stages, such that every eye here, so this eye, this eye,
+
+310
+00:30:36,560 --> 00:30:44,080
+every eye becomes smaller, right, so I want to say if I want to achieve 64 up sampling, I can do two up
+
+311
+00:30:44,080 --> 00:30:50,560
+sampling every time, and I can do this, how many times, six times, right, to reach that, so it can give you
+
+312
+00:30:50,560 --> 00:30:58,120
+like a more flexible way to implement a really high ratio of change in the multi-stage system, so multi-stage
+
+313
+00:30:58,120 --> 00:31:05,320
+implementation is a way to practically simplify the computational requirement, if you have to do a really
+
+314
+00:31:05,360 --> 00:31:15,440
+large ratio of rate change, right, so this is what we mean by multi-stage implementation, okay, so we
+
+315
+00:31:15,440 --> 00:31:18,880
+differentiate the two, right, so they are not the same thing, even though they don't have, or both of them
+
+316
+00:31:18,880 --> 00:31:27,320
+have the multi in the naming, okay, so this is actually an example for up sampling, same for down
+
+317
+00:31:27,320 --> 00:31:32,600
+sampling, right, if you do down sampling, you also have this issue where you have to have anti-aliasing
+
+318
+00:31:32,600 --> 00:31:41,280
+filter to protect your processing from aliasing, right, and similarly, the path span for this anti-aliasing
+
+319
+00:31:41,280 --> 00:31:46,800
+filter will be depending on the down sampling ratio, right, remember we're talking about every time we do
+
+320
+00:31:46,800 --> 00:31:53,280
+down sampling, we're expanding the waveform, like stretching them to be fatter, right, and if this D is
+
+321
+00:31:53,280 --> 00:31:59,520
+very large, you are expanding the signal like a very aggressive way, so you need to make sure originally
+
+322
+00:31:59,520 --> 00:32:06,000
+this signal is band limited, let's say by pi over D, right, in the first place, so it's going to be a very
+
+323
+00:32:06,000 --> 00:32:13,240
+narrow path span if the D is very large, okay, so very similar idea, in practically having such kind of
+
+324
+00:32:13,240 --> 00:32:19,440
+age is maybe impractical, right, due to the fact that D is large and due to the fact that you don't really
+
+325
+00:32:19,640 --> 00:32:26,200
+have a lot of coefficients in your FIR to make your transition banding very narrow, so in this case, you
+
+326
+00:32:26,200 --> 00:32:35,000
+may also want to decompose the decimation process into, let's say, J stages, right, many many stages, so
+
+327
+00:32:35,000 --> 00:32:42,600
+that every stage you can afford a relatively cheaper filters to avoid aliasing, right, so this is another
+
+328
+00:32:42,600 --> 00:32:48,320
+similar story, I mean, as an interpolation, but all of these are not due to theory but due to practical
+
+329
+00:32:48,320 --> 00:32:58,080
+implementation, right, so now in this case, your every D here can be relatively like more flexible in terms of
+
+330
+00:32:58,080 --> 00:33:04,640
+the coefficients, you just need to make sure in this stage there's no aliasing happens, right, this is the
+
+331
+00:33:04,960 --> 00:33:16,160
+relaxed requirement comparing to one stage, alright, so but let's look at how we can design the filters, right, if
+
+332
+00:33:16,160 --> 00:33:24,640
+we're talking about a multi-stage system, so we started by the overall requirement of the system, right, so in
+
+333
+00:33:24,680 --> 00:33:31,760
+overall sense, we can actually define the passband and stopband, right, so for example, overall I want to do,
+
+334
+00:33:31,760 --> 00:33:41,440
+let's say, 100 times up-sampling, so I can know that my passband will be, say, the passband specified by FPC is
+
+335
+00:33:41,520 --> 00:33:50,240
+some number, right, you can design, you can actually derive it, and also you can actually define your FSC, which is
+
+336
+00:33:50,240 --> 00:33:58,880
+the stopband, right, so in principle, if you do D number of rate change, you have to make sure that your FSC is
+
+337
+00:33:58,880 --> 00:34:08,960
+smaller or equal to the FX divided by 2D, right, so here the FX is actually the, you know, the signal frequency
+
+338
+00:34:08,960 --> 00:34:16,640
+range, I mean, the passband, sorry, the spectrum range, right, and here the FPC and FSC are the corresponding
+
+339
+00:34:16,640 --> 00:34:21,840
+the passband and stopband frequencies, I mean, for ideal filter they are the same, but for practical filter
+
+340
+00:34:21,840 --> 00:34:31,520
+normally the FSC is larger than PC due to the transition, right, transition band, so for general FIR, you just
+
+341
+00:34:31,520 --> 00:34:38,800
+need to make sure your FSC, which is here, this point is actually smaller than 0.5 FT, right, FT is actually
+
+342
+00:34:38,800 --> 00:34:46,480
+your sampling frequency, which is talking about the input signal, okay, not output, but input signal, okay, so
+
+343
+00:34:48,480 --> 00:34:55,680
+in this case, if you don't do things carefully, right, there could be aliasing, so the aliasing will occur
+
+344
+00:34:56,560 --> 00:35:03,360
+due to the fact that your FSC is too large, right, so if your FSC is actually more than
+
+345
+00:35:04,240 --> 00:35:14,320
+half of the FX here, it goes beyond that point, now if you do, let's say, like a down sampling,
+
+346
+00:35:14,320 --> 00:35:19,520
+right, so another, due to the symmetric property, another waveform which is symmetric at the point
+
+347
+00:35:19,520 --> 00:35:24,560
+will be reflected and there should be an overlap, right, and we learn that this overlap is actually
+
+348
+00:35:24,560 --> 00:35:31,840
+the aliasing, so the aliasing happens for this case, and the factor may influence
+
+349
+00:35:31,840 --> 00:35:39,280
+the aliasing including, for example, if you reduce your filter order, right, FIR, reduce them, it could
+
+350
+00:35:39,280 --> 00:35:47,760
+lead to increase the transition bandwidth, so if I fix my FPC, if I increase my transition bandwidth,
+
+351
+00:35:47,760 --> 00:35:52,080
+my FSC could increase, right, so that's the price you may need to pay if you want to save the
+
+352
+00:35:52,080 --> 00:35:59,520
+computational requirement, or besides, if you somehow input sampling frequency has been reduced,
+
+353
+00:35:59,520 --> 00:36:05,840
+right, in other words, your, this kind of F tau is reduced, you may also need to aliasing because now
+
+354
+00:36:05,840 --> 00:36:13,600
+you need to correspondingly have a smaller FSC, right, so basically aliasing will be due to two facts,
+
+355
+00:36:14,400 --> 00:36:20,560
+it's like first your filter order, right, how long is your transition kind of bandwidth, and also
+
+356
+00:36:20,560 --> 00:36:25,200
+your signal quality, right, what is the sampling frequency, so those two will determine whether
+
+357
+00:36:25,200 --> 00:36:29,920
+the distortion, or in other words, aliasing will happen, right, in the multi-wave system.
+
+358
+00:36:30,480 --> 00:36:38,640
+So now our job is to design a multi-stage implementation to avoid the so-called aliasing,
+
+359
+00:36:38,640 --> 00:36:44,960
+right, so let's take the decimation for example, right, how can I make sure my multi-wave filters
+
+360
+00:36:44,960 --> 00:36:53,520
+every stage can avoid the distortion, right, we actually need the following condition to satisfy,
+
+361
+00:36:53,520 --> 00:37:00,480
+right, so this is actually the requirement for a practical filters deployed to every stage,
+
+362
+00:37:00,480 --> 00:37:08,960
+so here we're talking about the i-th stage, where the fi is actually the, you know, the the frequency
+
+363
+00:37:08,960 --> 00:37:14,240
+for the i stage, right, then the fi minus one is the frequency before it is actually the i minus one
+
+364
+00:37:14,240 --> 00:37:21,840
+stage, so you need you need to make sure at least, right, your transition band is between
+
+365
+00:37:22,640 --> 00:37:30,320
+pc and fi minus pc, so why this is true, because if you if you use a symmetric property to plot
+
+366
+00:37:30,320 --> 00:37:36,960
+the aliasing, right, you can allow some aliasing happens, or overlapping happens in a transition
+
+367
+00:37:36,960 --> 00:37:42,000
+period, because in the end you can actually remove those transition period using reconstruction
+
+368
+00:37:42,080 --> 00:37:47,760
+kind of filters, right, but you shouldn't allow any overlapping happens in the path span, right,
+
+369
+00:37:47,760 --> 00:37:53,840
+so this is actually a path span between zero and the fpc, so in order to do so you need to make sure
+
+370
+00:37:53,840 --> 00:38:02,160
+that this fpc plus your transition period plus another fpc together shouldn't go beyond fi,
+
+371
+00:38:02,800 --> 00:38:08,320
+right, so imagine this, right, so you have a, I cannot use the pointer, but you have another
+
+372
+00:38:08,320 --> 00:38:12,560
+duplicates, right, the the symmetric property, right, you have another kind of waveform which
+
+373
+00:38:12,560 --> 00:38:19,600
+is starting from the fi here, and he's going to create another symmetric plot here, like a path
+
+374
+00:38:19,600 --> 00:38:25,120
+span followed by a transition period, a transition bandwidth, so the overlapping can happen in the
+
+375
+00:38:25,120 --> 00:38:30,960
+transition band, because eventually they will be removed in the reconstruction stage, but you cannot
+
+376
+00:38:30,960 --> 00:38:37,680
+allow any overlapping within the path span here, if it's within the path span they will be introducing
+
+377
+00:38:37,680 --> 00:38:44,960
+distortion to you, okay, so to this end you can compute what is the required transition band,
+
+378
+00:38:44,960 --> 00:38:52,080
+which must be between the pc and also fi minus pc, because in this plot, right, here's your fpc,
+
+379
+00:38:52,720 --> 00:38:58,800
+this is this is actually your transition band, and then there's another fpc which is the symmetric
+
+380
+00:38:58,800 --> 00:39:04,000
+property, a symmetric version of your baseband signal, so together they will be range in the
+
+381
+00:39:04,080 --> 00:39:10,240
+current state, which is fi, right, and due to that you can derive what is the transition band here,
+
+382
+00:39:11,280 --> 00:39:16,960
+right, so this upper bound is a limit, you cannot go beyond this bound, right, if your transition
+
+383
+00:39:16,960 --> 00:39:23,520
+band is actually beyond this bound, you will have aliasing in your path span, right, okay,
+
+384
+00:39:24,800 --> 00:39:29,920
+I hope this makes sense, I mean, so we're not talking about ideal filter anymore, right, so
+
+385
+00:39:30,080 --> 00:39:34,640
+before, every time we see a low pass filter, it's a very sharp transition from path span to
+
+386
+00:39:34,640 --> 00:39:39,600
+stop band, so you don't have this aliasing in the transition band, right, but right now we're talking
+
+387
+00:39:39,600 --> 00:39:46,400
+about practical implementation, that's all this multi-stage is about, right, so there is this
+
+388
+00:39:46,400 --> 00:39:54,160
+transition band, which is actually between the fpc and the fsc here, right, but you cannot have this
+
+389
+00:39:54,160 --> 00:39:59,600
+transition band to be too wide, if it's too wide, it's going to give you problem, because there could
+
+390
+00:39:59,600 --> 00:40:06,960
+be overlap in the path span, so this kind of range is to constrain how long or how wide your
+
+391
+00:40:06,960 --> 00:40:14,640
+transition band can be, make sense, so this quantity fi minus fpc is the upper bound of your
+
+392
+00:40:14,640 --> 00:40:19,680
+transition band, if you go beyond it, you will have distortion in path span, if it's more than that,
+
+393
+00:40:19,680 --> 00:40:28,640
+that's fine, right, it's okay, but you cannot be beyond that, all right, I hope this makes sense,
+
+394
+00:40:28,640 --> 00:40:34,320
+so two different things, two things from what we talked about last week, no longer ideal filter,
+
+395
+00:40:34,320 --> 00:40:38,160
+if it's ideal filter, there's no transition at all, right, so it's a practical filter,
+
+396
+00:40:38,160 --> 00:40:43,440
+you will have transition, but the transition band can be wide, can be narrow, depends on your FIR,
+
+397
+00:40:43,440 --> 00:40:48,080
+right, if you have a high order FIR, you can get wider band, if you have lower FIR, you can, sorry,
+
+398
+00:40:48,080 --> 00:40:53,120
+if you get lower FIR, you get a wider band, if you have higher order FIR, you get a narrow band,
+
+399
+00:40:53,840 --> 00:41:00,640
+you need certain upper bound on this transition band to make sure there's no distortion in the
+
+400
+00:41:00,640 --> 00:41:05,520
+path span, so here we are okay to have some distortion in the transition band,
+
+401
+00:41:06,480 --> 00:41:12,640
+because eventually they will be filled out in the final reconstruction, but if you get overlapping
+
+402
+00:41:12,640 --> 00:41:16,720
+in the path span, you've got a problem, because your signals are distorted, right, this is what
+
+403
+00:41:16,720 --> 00:41:22,160
+we need, and to satisfy that condition, the transition band must be within this range,
+
+404
+00:41:22,880 --> 00:41:26,480
+okay, and your store band will be within this range, so this is the corresponding,
+
+405
+00:41:27,360 --> 00:41:31,360
+you know, how should I say, equation, they must be satisfied, sorry,
+
+406
+00:41:31,360 --> 00:41:38,160
+inequality, they must be satisfied, right, okay, so you can take this as this example, right,
+
+407
+00:41:38,720 --> 00:41:49,520
+and if this is my first stage, we're talking about Fi is equal to 1, and the i minus 1 is actually
+
+408
+00:41:49,520 --> 00:41:58,560
+equal to F0, right, so F0 and F1 are the frequency before and after the current down sampling,
+
+409
+00:41:58,560 --> 00:42:03,360
+right, so you have to fit in the value and compute the range, right, if you don't want
+
+410
+00:42:03,440 --> 00:42:09,520
+adiasing, that's the condition they must be satisfied, right, so after down sampling by DI,
+
+411
+00:42:09,520 --> 00:42:16,000
+there will be adiasing from the signal component, or four within the transition band, right, so
+
+412
+00:42:16,640 --> 00:42:22,960
+this is actually four within the transition band, but the adiasing occurred at the frequency above
+
+413
+00:42:22,960 --> 00:42:29,440
+PC only, so there's no frequency, sorry, there's no adiasing below FPC, but all above FPC,
+
+414
+00:42:29,440 --> 00:42:33,120
+right, so that's okay, right, that's actually something we can afford,
+
+415
+00:42:33,760 --> 00:42:37,280
+but the important thing is that there shouldn't be any adiasing in the pass band,
+
+416
+00:42:38,240 --> 00:42:46,000
+that's the true distortion that we don't really want them to happen, all right, okay, any question?
+
+417
+00:42:48,400 --> 00:42:53,200
+Okay, you need to think about it, right, because practical case is always more complicated than
+
+418
+00:42:53,280 --> 00:42:59,440
+ideal case, right, so think about it, the key thing is that we have two numbers,
+
+419
+00:42:59,440 --> 00:43:04,800
+right, PC and SC, and they describe the color frequency at the pass band and color frequency
+
+420
+00:43:04,800 --> 00:43:09,120
+at the stop band, right, and this range matters, the difference between them matters,
+
+421
+00:43:09,120 --> 00:43:12,720
+you don't have to, you cannot have them to be too large, they must be limited,
+
+422
+00:43:13,600 --> 00:43:19,840
+okay, so that was, okay, this is actually down sampling in decimation,
+
+423
+00:43:20,480 --> 00:43:28,240
+now for upsampling, it's also kind of similar, the only difference is that for upsampling,
+
+424
+00:43:28,240 --> 00:43:34,480
+the low pass filter is after upsampler, right, it's not anti-adiasing, but it's the reconstruction
+
+425
+00:43:34,480 --> 00:43:43,760
+filter, again, we are dividing the, say, i number of upsampling into, let's say, j stages, right,
+
+426
+00:43:43,760 --> 00:43:52,800
+j number of stages, so every stage, you will have, let's say, the upsampling rate as f1, f2,
+
+427
+00:43:52,800 --> 00:43:58,240
+f3, all the way to fj, right, so the rate change can be describing this way, sequentially,
+
+428
+00:43:58,800 --> 00:44:07,840
+for every stage, right, from 1 to j, so the output rate will be, you know, together as i times your
+
+429
+00:44:07,840 --> 00:44:17,280
+fj, and corresponding to an input signal, right, so, again, for the j stage, sorry, for the i
+
+430
+00:44:17,280 --> 00:44:24,080
+stage, you need to make sure your frequency between, oh sorry, the transition band is actually
+
+431
+00:44:24,080 --> 00:44:30,880
+between your fpc and your fi minus fpc, which is very similar as our decimation in the equation,
+
+432
+00:44:30,880 --> 00:44:37,280
+right, so in other words, if you want to avoid any kind of a distortion in the reconstruction
+
+433
+00:44:37,280 --> 00:44:42,880
+process, this inequality must be satisfied, right, here, so that's something you need to
+
+434
+00:44:42,880 --> 00:44:49,200
+fit into your design and make sure your transition band cannot be too large, right, they must be
+
+435
+00:44:49,200 --> 00:44:55,680
+within this kind of specific range, so here's one kind of a practical system for a two-stage
+
+436
+00:44:55,680 --> 00:45:00,640
+scenario, you can actually read it, but the idea is that you have to design the h1 and h2
+
+437
+00:45:00,640 --> 00:45:09,200
+correspondingly to make sure of all the way from the 160 hertz to 8 k hertz are entirely, you know,
+
+438
+00:45:09,200 --> 00:45:15,840
+distortion free, right, this is what you will kind of figure out for your filter 1 and filter 2,
+
+439
+00:45:15,840 --> 00:45:22,160
+right, h1 and h2, okay, so, but actually, I just want to keep the thing simple, right, multi-stage
+
+440
+00:45:22,160 --> 00:45:28,320
+design, okay, is only useful for practical, okay, practical implementation, so all we talked about
+
+441
+00:45:28,320 --> 00:45:35,040
+last week, right, multi, what is that, multi-rate system, polyphase structure are for ideal design,
+
+442
+00:45:35,600 --> 00:45:40,640
+now we're moving from ideal design to the practical implementation, so multi-stage
+
+443
+00:45:40,640 --> 00:45:46,800
+implementation is the one you need to deal with large factor of rate change, right, so large d,
+
+444
+00:45:46,800 --> 00:45:52,080
+large i, and the philosophy here is to divide and conquer, right, you want to divide a very large
+
+445
+00:45:52,080 --> 00:45:57,760
+rate transition into multiple smaller rate transition, but for every stage, there's a
+
+446
+00:45:57,760 --> 00:46:04,560
+requirement for the h, right, same for decimation and interpolation, and here's the corresponding
+
+447
+00:46:04,560 --> 00:46:09,760
+condition, right, this is the condition for interpolation, and this is the condition for the
+
+448
+00:46:11,040 --> 00:46:16,800
+decimation, right, so if you satisfy them for every stage, you will get aliasing free, you will get
+
+449
+00:46:16,800 --> 00:46:21,920
+distortion free, if not, there will be some distortion or some aliasing in the pathway,
+
+450
+00:46:21,920 --> 00:46:28,000
+which is a some kind of loss you have to afford in the implementation, right, so this is actually
+
+451
+00:46:28,000 --> 00:46:36,560
+the takeaway for multi-stage, so any questions before I move on to the another topic, I mean,
+
+452
+00:46:36,560 --> 00:46:43,520
+this is like something missing, right, going from theoretical design to practical design,
+
+453
+00:46:43,520 --> 00:46:50,240
+right, but with that, pretty much we're done with the multi-rate system, okay,
+
+454
+00:46:52,800 --> 00:46:53,840
+all good, no question,
+
+455
+00:46:56,080 --> 00:47:02,800
+okay, great, then let's move on application, right, so basically, we have learned the
+
+456
+00:47:02,800 --> 00:47:08,960
+concept of multi-rate system, and we say that it's going to be useful, especially when we talk about,
+
+457
+00:47:08,960 --> 00:47:16,560
+you know, signal with rate change, but by using that, right, it can give us some useful
+
+458
+00:47:16,560 --> 00:47:22,000
+applications, so we're going to learn a few useful applications for my part, I think today
+
+459
+00:47:22,000 --> 00:47:28,000
+we're going to cover one or two at least, the last one is very important, but I will probably leave
+
+460
+00:47:28,000 --> 00:47:33,040
+that for next week, all right, so that's the only topic left, so next week we're going to finish
+
+461
+00:47:33,040 --> 00:47:38,320
+this topic and followed by a summary, I'm going to give you some summary about what we cover for
+
+462
+00:47:38,320 --> 00:47:42,400
+the entire part one, right, and also time for you to ask a question, right, so today we're going to
+
+463
+00:47:42,400 --> 00:47:48,800
+look at how to implement a fractional phase shift, right, so we have learned phase shift, which is,
+
+464
+00:47:48,800 --> 00:47:55,040
+you can easily do this, let's say, you know, do a z to the power of minus one, z to the power minus two,
+
+465
+00:47:55,040 --> 00:48:00,320
+but one thing you realize is that always is an integer amount of shift, we never talk about
+
+466
+00:48:00,320 --> 00:48:06,240
+fractional shift, right, but in practice this is also sometimes needed, if we're going to do it,
+
+467
+00:48:06,240 --> 00:48:12,480
+we can actually combine the phase shift with some rate change, right, if you do that, you can
+
+468
+00:48:12,480 --> 00:48:17,920
+actually implement a fractional amount of phase shift, right, this is the first application by using
+
+469
+00:48:17,920 --> 00:48:23,360
+multirate system you can achieve, all right, another important thing is the filter bank, actually many
+
+470
+00:48:23,360 --> 00:48:29,840
+many of the modern signal processing system is using the bank, right, in other words, you may not
+
+471
+00:48:29,840 --> 00:48:36,000
+only apply one filter to the entire signal, but you want to use different filters for different
+
+472
+00:48:36,480 --> 00:48:43,040
+frequency components, right, how can we do this to do like a frequency-wise or segment-wise kind of
+
+473
+00:48:43,040 --> 00:48:47,600
+processing, this is actually using the filter band, right, so these two are two applications we're
+
+474
+00:48:47,600 --> 00:48:54,720
+going to look at for at least within this course scope, okay, so first one is the phase shift, right,
+
+475
+00:48:54,720 --> 00:49:01,280
+just a quick recap, what is the phase shift, so I think we learned that every time we want to do
+
+476
+00:49:01,280 --> 00:49:05,920
+like signal processing, for example, the polyphase structure, you can do down sample
+
+477
+00:49:05,920 --> 00:49:12,400
+version of the of the filter, but to make sure every branch are different, you also need to do
+
+478
+00:49:12,400 --> 00:49:18,560
+a phase shift, so every kind of, if you remember like the polyphase structure, right, every branch
+
+479
+00:49:18,560 --> 00:49:25,440
+before applying the filters, you have to shift the signal by one progressively from branch to branch,
+
+480
+00:49:25,440 --> 00:49:30,880
+all right, so this is actually the phase shift we're talking about, but all of these things are
+
+481
+00:49:30,880 --> 00:49:34,800
+integer amount, right, because that's something it's easy to implement, you just need to
+
+482
+00:49:35,680 --> 00:49:41,680
+do a time delay to kind of go from one measurement to the other, but in practice sometimes we also
+
+483
+00:49:41,680 --> 00:49:49,680
+need to do fractional amount of, you know, shift in order to delay to a sampled interval, right,
+
+484
+00:49:50,640 --> 00:49:56,800
+so for example in this case I want to move to the delay which is k divided by i, right, and of course
+
+485
+00:49:56,800 --> 00:50:02,880
+k and i are both let's say prime positive integers, but k divided by i will give you some fractional
+
+486
+00:50:02,880 --> 00:50:09,200
+amount of shift, so in here, in the frequency domain, the delay corresponding to the linear
+
+487
+00:50:09,200 --> 00:50:14,320
+phase shift of the following form, right, which is minus k divided by i times omega,
+
+488
+00:50:15,200 --> 00:50:20,000
+so all of you know that actually the time delay corresponding to the phase shift, right, in the
+
+489
+00:50:20,000 --> 00:50:26,560
+frequency domain, so in this case how can we actually implement that, right, because in practice
+
+490
+00:50:26,560 --> 00:50:32,240
+you cannot simply do like a fractional amount of delay, right, which is actually not a discrete
+
+491
+00:50:32,240 --> 00:50:37,360
+signal, sorry, discrete system can do, you can do this in analog system, but in this digital system
+
+492
+00:50:37,360 --> 00:50:46,560
+it's hard to do it, so in practice the method to generate a delay that is let's say like a
+
+493
+00:50:46,560 --> 00:50:54,720
+maybe a fractional amount of time is by making use of like a up sampling followed by down
+
+494
+00:50:54,720 --> 00:50:59,680
+sampling system, right, so you cannot do this directly but you can choose to first
+
+495
+00:50:59,680 --> 00:51:06,480
+let's say up sample the signal by i time such that your sampling, your rate has been changed
+
+496
+00:51:06,480 --> 00:51:12,800
+from fx to i time fx, okay, of course you have to do some kind of a low pass filter before
+
+497
+00:51:12,800 --> 00:51:21,520
+after it, but now in the up sampled signal space you can then delay the entire signal, the high
+
+498
+00:51:21,520 --> 00:51:30,560
+rate signal by k samples, okay, so here the k is the numerator of your fractional delay, the i is
+
+499
+00:51:30,560 --> 00:51:38,320
+the denominator of your fractional delay, so if you see k divided by i it means you need to first
+
+500
+00:51:38,320 --> 00:51:45,200
+up sample by i time getting the signal to be faster, right, in order to increase the rate
+
+501
+00:51:45,280 --> 00:51:52,640
+then divided by k samples, okay, or in other words if i equal to 1 which means it's k delay, right,
+
+502
+00:51:52,640 --> 00:51:59,680
+there's no up sampling and you're talking about integer amount of delay, but if there is a integer
+
+503
+00:51:59,680 --> 00:52:05,360
+denominator you have to do the corresponding up sampling to go to a higher rate signal first
+
+504
+00:52:05,920 --> 00:52:13,680
+and then delay by k time, followed by down sampling it will be equivalently delaying the original
+
+505
+00:52:13,680 --> 00:52:22,400
+signal by k divided by i times, okay, so this is the practical way to implement the fractional
+
+506
+00:52:22,400 --> 00:52:29,440
+amount of phase shift or time delay, so I don't know if it makes sense intuitively, but
+
+507
+00:52:29,440 --> 00:52:35,840
+you know you can imagine that, for example, I want to do say 3 divided by 2, right, sample delay,
+
+508
+00:52:36,400 --> 00:52:40,720
+I first make my sampling faster, right, twice, sorry, twice faster than before,
+
+509
+00:52:40,720 --> 00:52:47,520
+so that one delay three times is equivalent to be let's say every one and a half samples I do a delay,
+
+510
+00:52:47,520 --> 00:52:53,360
+right, so this is actually the practical trick we use to implement fractional phase delay,
+
+511
+00:52:53,360 --> 00:53:00,160
+right, phase shift, so here's one example, right, so suppose, I mean this could be something
+
+512
+00:53:00,160 --> 00:53:05,600
+given in the exam as well, right, I'm saying that okay given I have an original signal xn
+
+513
+00:53:05,600 --> 00:53:10,640
+which is discrete signal, I want to design a system to execute a sub-sample delay, in other
+
+514
+00:53:10,640 --> 00:53:18,240
+words fractional delay, right, non-integer delay, let's say of the amount of 0.4, right, so 0.4
+
+515
+00:53:18,240 --> 00:53:26,320
+all of you should know is actually 2 over 5, right, 2 over 5, so this is not a, this is not a integer,
+
+516
+00:53:26,320 --> 00:53:32,640
+but if you can write it as a fractional number, right, 2 divided by 5, now you can figure out my
+
+517
+00:53:32,640 --> 00:53:39,600
+k equal to 2, my i equal to 5, right, so in this case I can first up sampling my signal into
+
+518
+00:53:39,600 --> 00:53:45,200
+five times, get into the faster rate version, of course you need the low-pass filter, right, to get
+
+519
+00:53:45,200 --> 00:53:51,600
+rid of the duplicates, and then delay by two times, so the two is the denominator, sorry, the two is the
+
+520
+00:53:51,600 --> 00:53:59,680
+numerator, right, so now if you divide by two time in the faster rate version it will be equivalent
+
+521
+00:54:00,400 --> 00:54:07,120
+to delay by 2 over 5, right, so you can do this to the original example, right, this is the general
+
+522
+00:54:07,120 --> 00:54:15,040
+form, k divided by i, but this form can be used to represent any fractional number, as long as you
+
+523
+00:54:15,040 --> 00:54:23,920
+can write it as k divided by i, right, so now I need to do 0.4 delay, I can write the 0.4 as 2
+
+524
+00:54:23,920 --> 00:54:30,640
+divided by 5, so now my k equal to 2, i equal to 5, now I will know that I need to first do up sampling
+
+525
+00:54:30,640 --> 00:54:37,360
+of 5, then time delay of 2, right, this is how you interpret the question and figure out the
+
+526
+00:54:37,360 --> 00:54:44,560
+corresponding fractional phase shift solution, alright, so now the only different, the only
+
+527
+00:54:44,560 --> 00:54:51,040
+question is like how can you make your y, sorry, make your h qualify, right, remember h must be
+
+528
+00:54:51,040 --> 00:54:56,320
+there to get rid of the duplicates because you have done one up sampling, right, remember up
+
+529
+00:54:56,320 --> 00:55:02,320
+sampling must be followed by a low pass filter, right, and also this low pass filter as we
+
+530
+00:55:02,320 --> 00:55:08,160
+mentioned is going to do, is going to serve for this five time up sampling, so the color frequency
+
+531
+00:55:08,160 --> 00:55:16,080
+for the h will also be pi divided by 5, right, of course you can do the gain of 5 to normalize the
+
+532
+00:55:16,080 --> 00:55:21,360
+energy, right, but actually this is important, right, so this is actually due to the formula we
+
+533
+00:55:21,360 --> 00:55:26,320
+learned for the up sampling, sorry, interpolation, right, so this one, these two together is
+
+534
+00:55:26,320 --> 00:55:32,800
+interpolation, okay, so now you are using what we learned, right, like a multi-ray system
+
+535
+00:55:33,360 --> 00:55:45,760
+to implement a fractional phase shift, okay, make sense, alright, so now to do so, now you can draw
+
+536
+00:55:46,320 --> 00:55:53,120
+the block diagram in the following way, right, and of course this is actually how you implement it,
+
+537
+00:55:53,760 --> 00:56:00,240
+but ideally, sorry, equivalently, right, you can use your normal identity to swap the order of the
+
+538
+00:56:00,240 --> 00:56:06,960
+two, and you will realize that, well, equivalently we're doing this, you know, two divided by five
+
+539
+00:56:07,760 --> 00:56:12,800
+phase shift, right, this is actually equivalent how you do it, and the questions ask you to prove
+
+540
+00:56:13,440 --> 00:56:18,960
+the following scheme is actually time invariant, okay, so now this is a question like how can I
+
+541
+00:56:18,960 --> 00:56:28,960
+show that the entire system is actually time invariant, okay, so last time we said that
+
+542
+00:56:28,960 --> 00:56:35,440
+if you have multi-rayed system, right, it may not always be time invariant, right, that's what I
+
+543
+00:56:35,440 --> 00:56:40,320
+said, if you don't have any rate change, it's going to be time invariant, now you have to prove
+
+544
+00:56:40,320 --> 00:56:45,920
+that even there is some kind of upsampling, downsampling, the whole thing is still time
+
+545
+00:56:45,920 --> 00:56:51,600
+invariant, so then you have to prove it, okay, now the question is that can you prove that
+
+546
+00:56:52,320 --> 00:56:58,000
+here everything besides time delay this self is actually a time invariant system,
+
+547
+00:57:02,000 --> 00:57:05,120
+okay, so think about what happens if you do upsampling five times,
+
+548
+00:57:05,920 --> 00:57:11,360
+followed by a reconstruction filter, and a downsampling by five, what is this actually
+
+549
+00:57:11,360 --> 00:57:16,720
+the entire process from here, upsampling, low-pass filter, and downsampling, what does it entirely,
+
+550
+00:57:16,720 --> 00:57:26,320
+these three things doing here, any guess?
+
+551
+00:57:29,200 --> 00:57:34,480
+You have to link to the thing we covered last week, right, I think I have this recap slide here,
+
+552
+00:57:36,080 --> 00:57:47,120
+right, so this is what you need, right, so we see that if you do, if you have to do a downsampling
+
+553
+00:57:47,120 --> 00:57:53,440
+first followed by another upsampling, you will get a, like a, how should I say,
+
+554
+00:57:55,280 --> 00:58:01,520
+a, like a sampling version with zero, right, because if you do downsampling you are losing
+
+555
+00:58:01,520 --> 00:58:06,480
+information, right, and then if you do upsampling you cannot get back the original signal, so
+
+556
+00:58:06,480 --> 00:58:12,800
+in this case you will be a sampled version of your original signal, right, in other words at the time
+
+557
+00:58:12,800 --> 00:58:17,360
+zero I got my original measure, then zero, zero, zero, another measurement, zero, zero, zero, right,
+
+558
+00:58:17,360 --> 00:58:24,080
+that's what you get, but if you are doing upsampling followed by downsampling, they cancel
+
+559
+00:58:24,080 --> 00:58:30,160
+each other, right, you're adding zero to your signal and you're removing zero from your signal,
+
+560
+00:58:30,160 --> 00:58:32,640
+you don't do anything, right, you don't change your signal at all,
+
+561
+00:58:33,600 --> 00:58:36,240
+so this is actually what you need, the first row here,
+
+562
+00:58:39,120 --> 00:58:48,320
+make sense, so because of that, right, now if you look at our case which is here, right, we are first
+
+563
+00:58:48,320 --> 00:58:53,360
+doing upsampling, right, we're doing upsampling, the low-pass filter here, the only job is to get
+
+564
+00:58:53,360 --> 00:58:59,520
+rid of the duplicates, right, they don't really distort a signal originally and followed by a
+
+565
+00:58:59,520 --> 00:59:07,440
+downsampling, so basically it does nothing to your original system, right, because it's actually
+
+566
+00:59:07,440 --> 00:59:12,080
+preserving the original signal, in other words you are doing a perfect reconstruction of the original
+
+567
+00:59:12,080 --> 00:59:16,320
+signal, of course it's a time invariant system, right, because it's actually identity, you don't
+
+568
+00:59:16,320 --> 00:59:22,240
+do anything to your signal, right, so this is the reason you can say that well the entire system
+
+569
+00:59:22,800 --> 00:59:28,560
+is just the final phase shift which is z to the power of minus two divided by five,
+
+570
+00:59:29,680 --> 00:59:36,320
+right, and a time delay is not really distorted, you know, violating the time invariance, right,
+
+571
+00:59:36,320 --> 00:59:39,760
+because it's just time delay, if you delay time you still get the same waveform,
+
+572
+00:59:40,960 --> 00:59:46,320
+so in this case you can actually derive the transfer function which is nothing but the
+
+573
+00:59:46,320 --> 00:59:51,040
+z to the power of minus two divided by five and this transfer function itself is a time invariant
+
+574
+00:59:51,040 --> 00:59:56,480
+system, so you need to understand what the question is asking for, right, the question is
+
+575
+00:59:56,480 --> 01:00:02,160
+asking you can you show that the scheme is time invariant, so you need to think about where did
+
+576
+01:00:02,160 --> 01:00:06,880
+we talk about time invariance, it's the time we talk about multi-rate system, right, we say well
+
+577
+01:00:06,880 --> 01:00:11,760
+if you don't have a rate change in this course it's going to be time invariant, but if you have
+
+578
+01:00:11,760 --> 01:00:19,600
+rate change it may not be, right, it could be time varying, now if you look at the entire system here
+
+579
+01:00:20,240 --> 01:00:26,880
+you want to decouple the, you know, rate change system with the time delay, right, and then you
+
+580
+01:00:26,880 --> 01:00:31,760
+look at the rate change part, this is actually fortunately it's actually upsampling first then
+
+581
+01:00:31,760 --> 01:00:37,520
+downsampling, right, in other words you don't lose any information, so then if you refer to
+
+582
+01:00:37,520 --> 01:00:45,360
+the property we learned just now, right, you can learn that if the upsampling rate equal to the
+
+583
+01:00:45,360 --> 01:00:51,760
+downsampling rate you get back to original signal, no change, right, to this case even though we do
+
+584
+01:00:51,760 --> 01:00:57,760
+have some rate change in our system, which is here, it doesn't really violate the time invariance
+
+585
+01:00:57,760 --> 01:01:03,760
+because themself is a self-reconstruction, right, just get this original signal, now we just need to
+
+586
+01:01:03,760 --> 01:01:07,760
+analyze the time delay, the time delay don't really violate the time invariance, so you can
+
+587
+01:01:07,760 --> 01:01:15,440
+conclude that the entire system is time invariant, okay, I mean don't get panicked, I mean every time
+
+588
+01:01:15,440 --> 01:01:19,520
+you see some question doesn't look familiar with you, you need to check where did we talk about
+
+589
+01:01:19,520 --> 01:01:24,320
+this concept, right, in the entire lecture, the only time we say well there's something to do
+
+590
+01:01:24,320 --> 01:01:30,560
+with time invariant is the time we introduce multi-rate system, right, and you think about
+
+591
+01:01:30,560 --> 01:01:36,240
+okay in this kind of question which part is actually multi-rate, which part is not, right,
+
+592
+01:01:36,240 --> 01:01:42,320
+you decompose the two and you analyze whether this rate change will affect the time invariance
+
+593
+01:01:42,880 --> 01:01:47,040
+and now you can reach a conclusion, right, this is how you can approach the question.
+
+594
+01:01:50,160 --> 01:01:55,040
+Make sense for this one? Like I mentioned, right, you do need to be familiar with the,
+
+595
+01:01:55,920 --> 01:02:01,360
+you know, the noble identity and also those useful property, right, because sometimes they help you to
+
+596
+01:02:02,000 --> 01:02:10,640
+you know resolve some of the challenges, okay, all right, so this is the, okay, this is actually
+
+597
+01:02:10,640 --> 01:02:16,880
+the first one we're talking about, maybe we take a break, let's say 20 minutes, right, we come back
+
+598
+01:02:16,880 --> 01:02:22,160
+around 7.55, okay, then we talk about the filter bank, right, because filter bank will be the second
+
+599
+01:02:22,160 --> 01:02:27,600
+application, all right, so the first application is a fractional phase shift, but think about it,
+
+600
+01:02:27,600 --> 01:02:33,680
+if there's anything unclear, I'm happy to clarify, all right, okay, let's take a 20 minutes break, okay.
+
+601
+01:02:57,600 --> 01:03:01,680
+Okay.
+
+602
+01:03:27,600 --> 01:03:31,680
+Okay.
+
+603
+01:03:57,600 --> 01:04:01,680
+Okay.
+
+604
+01:04:27,600 --> 01:04:31,680
+Okay.
+
+605
+01:04:57,600 --> 01:05:01,680
+Okay.
+
+606
+01:05:27,600 --> 01:05:31,680
+Okay.
+
+607
+01:05:57,600 --> 01:06:01,680
+Okay.
+
+608
+01:06:27,600 --> 01:06:31,680
+Okay.
+
+609
+01:06:57,600 --> 01:07:01,680
+Okay.
+
+610
+01:07:27,600 --> 01:07:31,680
+Okay.
+
+611
+01:07:57,600 --> 01:08:01,680
+Okay.
+
+612
+01:08:27,600 --> 01:08:31,680
+Okay.
+
+613
+01:08:57,600 --> 01:09:01,680
+Okay.
+
+614
+01:09:27,600 --> 01:09:31,600
+Okay.
+
+615
+01:09:57,600 --> 01:10:01,600
+Okay.
+
+616
+01:10:27,600 --> 01:10:31,600
+Okay.
+
+617
+01:10:57,600 --> 01:11:01,600
+Okay.
+
+618
+01:11:27,600 --> 01:11:31,600
+Okay.
+
+619
+01:11:57,600 --> 01:12:01,600
+Okay.
+
+620
+01:12:27,600 --> 01:12:31,600
+Okay.
+
+621
+01:12:57,600 --> 01:13:01,600
+Okay.
+
+622
+01:13:27,600 --> 01:13:31,600
+Okay.
+
+623
+01:13:57,600 --> 01:14:01,600
+Okay.
+
+624
+01:14:27,600 --> 01:14:31,600
+Okay.
+
+625
+01:14:57,600 --> 01:15:01,600
+Okay.
+
+626
+01:15:27,600 --> 01:15:31,600
+Okay.
+
+627
+01:15:57,600 --> 01:16:01,600
+Okay.
+
+628
+01:16:27,600 --> 01:16:31,600
+Okay.
+
+629
+01:16:57,600 --> 01:17:01,600
+Okay.
+
+630
+01:17:27,600 --> 01:17:31,600
+Okay.
+
+631
+01:17:57,600 --> 01:18:01,600
+Okay.
+
+632
+01:18:27,600 --> 01:18:31,600
+Okay.
+
+633
+01:18:57,600 --> 01:19:01,600
+Okay.
+
+634
+01:19:27,600 --> 01:19:31,600
+Okay.
+
+635
+01:19:57,600 --> 01:20:01,600
+Okay.
+
+636
+01:20:27,600 --> 01:20:31,600
+Okay.
+
+637
+01:20:57,600 --> 01:21:01,600
+Okay.
+
+638
+01:21:27,600 --> 01:21:31,600
+Okay.
+
+639
+01:21:57,600 --> 01:22:01,600
+Okay.
+
+640
+01:22:27,600 --> 01:22:31,600
+Okay.
+
+641
+01:22:57,600 --> 01:23:01,600
+Okay.
+
+642
+01:23:01,600 --> 01:23:05,600
+Okay.
+
+643
+01:23:25,600 --> 01:23:29,600
+All right.
+
+644
+01:23:29,600 --> 01:23:33,600
+Okay.
+
+645
+01:23:59,600 --> 01:24:03,600
+Okay.
+
+646
+01:24:29,600 --> 01:24:39,600
+Why there's a visual change here, okay, because, you know, when I talk about this fractional phase shift, I feel like people are confused about what happened.
+
+647
+01:24:39,600 --> 01:24:43,600
+Maybe let me explain this again, right, make sure you understand.
+
+648
+01:24:43,600 --> 01:24:55,600
+So, I think the best way to kind of interpret the change in the spectrum is by shrinking and, you know, expanding the signal, right, the waveform.
+
+649
+01:24:55,600 --> 01:25:03,600
+But, for example, for the up-sampling process, when we say shrinking, right, we're not just shrinking only in the baseband.
+
+650
+01:25:03,600 --> 01:25:07,600
+We're actually shrinking the entire signals.
+
+651
+01:25:07,600 --> 01:25:15,600
+In other words, let me write the, sorry, sorry for my writing, but I think this better explain the thing, right.
+
+652
+01:25:15,600 --> 01:25:25,600
+So, suppose this is my omega, right. Originally, maybe I use a different color to denote original kind of signals.
+
+653
+01:25:25,600 --> 01:25:35,600
+So, if original signal is something like this, right, and maybe I will do things like this.
+
+654
+01:25:35,600 --> 01:25:43,600
+Okay. And we'll do something like this. So, imagine this is my 2 pi, right.
+
+655
+01:25:43,600 --> 01:25:52,600
+Originally, and this is my zero, right. So, before sampling, this is my original signal, okay, without any up-sampling, right.
+
+656
+01:25:52,600 --> 01:26:00,600
+Like I said, if I do up-sampling, let's say by two times, right, I'm saying that actually this corresponding to a shrinking of my signal, okay.
+
+657
+01:26:00,600 --> 01:26:04,600
+But once it's shrinking, of course, the baseband signal will be shrinked.
+
+658
+01:26:04,600 --> 01:26:09,600
+Okay, let me zoom in a bit. So, let's say the baseband signal I use a purple color.
+
+659
+01:26:09,600 --> 01:26:15,600
+So, the baseband signal will be shrinked in this way, right, okay.
+
+660
+01:26:15,600 --> 01:26:22,600
+But, the second waveform, right, is not shrink according to 2 pi.
+
+661
+01:26:23,600 --> 01:26:31,600
+It's actually shrink towards zero. Okay, because once it's shrinking, it's like entire signal waveform shrinks towards zero, right.
+
+662
+01:26:31,600 --> 01:26:41,600
+So, after shrinking, what I get, in fact, is this. I will get another waveform like this, and another waveform like this.
+
+663
+01:26:41,600 --> 01:26:52,600
+You see the actual shrinking, right. So, you can tell that actually this part goes here, right, and this part goes here, right.
+
+664
+01:26:52,600 --> 01:27:00,600
+This is what I mean by shrinking, right, because the shrinking is for the entire waveform in the entire axis.
+
+665
+01:27:00,600 --> 01:27:09,600
+Okay, and if you revisit, right, every time we say that we only check the waveform between zero and the 2 pi, right,
+
+666
+01:27:09,600 --> 01:27:16,600
+this is actually the duplicates we're talking about, right, and now you can tell that where the duplicates come from.
+
+667
+01:27:16,600 --> 01:27:22,600
+So, why there's a duplicate? Because this duplicate is coming from the second waveform, right.
+
+668
+01:27:22,600 --> 01:27:32,600
+This duplicate is coming from the third waveform, but the shrinking themselves, the shrinking themselves will shrink the entire signal domain, right.
+
+669
+01:27:33,600 --> 01:27:40,600
+But, of course, I'm only interested in the baseband signal, so I don't want to keep these kind of duplicates, right,
+
+670
+01:27:40,600 --> 01:27:46,600
+because the duplicate is actually not part of the baseband signal. The baseband signal is only a triangle, right.
+
+671
+01:27:46,600 --> 01:27:57,600
+So, to maintain my original waveform, I need to kind of kill the duplicates. That's why I need to probably design a low-pass filter to only pass the baseband, right.
+
+672
+01:27:57,600 --> 01:28:02,600
+This is my low-pass filter. I need to pass only the baseband signal, right.
+
+673
+01:28:02,600 --> 01:28:07,600
+So, this is why I need a low-pass filter always after the upsampling.
+
+674
+01:28:07,600 --> 01:28:14,600
+Okay, if you don't do the upsampling, if you don't do the low-pass filter, you still get the waveform, but it's a shrinking version,
+
+675
+01:28:14,600 --> 01:28:20,600
+and unfortunately, the duplicates will go within the zero to 2 pi range.
+
+676
+01:28:20,600 --> 01:28:27,600
+Okay, this is the reason, right. And now if you reinterpret originally what this figure is talking about, right.
+
+677
+01:28:27,600 --> 01:28:38,600
+So, ideally, I should have only the baseband signal like this, but because of shrinking, actually all of this kind of waveform goes within the 2 pi, right.
+
+678
+01:28:38,600 --> 01:28:44,600
+So, I wish to kill these two, because these two signals should, these two signals are not part of the baseband signal.
+
+679
+01:28:44,600 --> 01:28:51,600
+I need to create a low-pass filter that is only keeping the waveform within the baseband, right.
+
+680
+01:28:51,600 --> 01:28:59,600
+So, well, this better explain what happened, because I, people ask me where does this duplicate come from.
+
+681
+01:28:59,600 --> 01:29:09,600
+It's coming from the fact that the other periodic signal goes to the zero to 2 pi range, and we have to remove them, right.
+
+682
+01:29:09,600 --> 01:29:13,600
+If you have something that goes into the zero to 2 pi range, you have to get them out, right.
+
+683
+01:29:13,600 --> 01:29:18,600
+You have to somehow kill all of this signal, except for the baseband waveform, alright.
+
+684
+01:29:18,600 --> 01:29:28,600
+So, if, then back to what we are talking about just now, right, here, okay, this example, right.
+
+685
+01:29:28,600 --> 01:29:34,600
+I think people are still asking me why we can, we have this HZ, but it really doesn't change everything, right.
+
+686
+01:29:34,600 --> 01:29:43,600
+So, first, not every HZ here will maintain the entire process to be, you know, the original signal, right.
+
+687
+01:29:43,600 --> 01:29:50,600
+The H must be a qualified low-pass filter for the interpolation, okay.
+
+688
+01:29:50,600 --> 01:29:52,600
+The reason is also very simple, right.
+
+689
+01:29:52,600 --> 01:29:57,600
+Let's create another one, a new one, and we don't save.
+
+690
+01:29:57,600 --> 01:30:07,600
+So, maybe I will just use up sampling by two as example, right, because five is too many, I don't want to draw five, right.
+
+691
+01:30:07,600 --> 01:30:09,600
+But anyway, let's draw two again.
+
+692
+01:30:09,600 --> 01:30:20,600
+So, if this is my original signal, right, sorry, this is my axis, and my original signal is something like this, right,
+
+693
+01:30:20,600 --> 01:30:37,600
+and originally, let's see, okay, what should I do, let's see, this is zero, this is 2 pi, right, and I got my 4 pi here, right.
+
+694
+01:30:38,600 --> 01:30:43,600
+So, originally, I will have like this, things like this, right.
+
+695
+01:30:43,600 --> 01:30:48,600
+So, after I do two times up sampling, what happens?
+
+696
+01:30:48,600 --> 01:30:56,600
+I will have my original signal shrink by two, or maybe I use another color, right, just to differentiate, maybe I use blue to differentiate.
+
+697
+01:30:56,600 --> 01:31:03,600
+So, after sampling, what I have is this, oops, is this, and the entire thing is shrinked.
+
+698
+01:31:03,600 --> 01:31:15,600
+So, I have another one located at pi, right, and this, but you know, this is actually coming from here, and the other guy coming from here,
+
+699
+01:31:15,600 --> 01:31:22,600
+so I will have another one like this, okay, then similarly, I will have one here, and one here, right.
+
+700
+01:31:22,600 --> 01:31:29,600
+This is what happened after up sampling by two, okay, except for my terrible drawing, I hope that makes sense, all right.
+
+701
+01:31:29,600 --> 01:31:37,600
+So, now, the role of this HZ here, okay, it shouldn't affect any of the baseband, right.
+
+702
+01:31:37,600 --> 01:31:50,600
+So, a good HZ will be something like, let's say, like this, sorry, like this, right, should be between the two triangles, okay.
+
+703
+01:31:50,600 --> 01:31:58,600
+By doing so, this one will be killed, but there shouldn't be any distortion of the original triangle.
+
+704
+01:31:58,600 --> 01:32:03,600
+Okay, if you have, then that's not qualified low-pass filter for reconstruction, okay.
+
+705
+01:32:03,600 --> 01:32:06,600
+So, let me just use the eraser to tell you what should happen.
+
+706
+01:32:06,600 --> 01:32:14,600
+So, do I have a better eraser, like, okay, anyway, I'll just do this, right.
+
+707
+01:32:14,600 --> 01:32:23,600
+So, basically, this will be removed, right, there shouldn't be this signal, right, after the low-pass filter, so only the one within the passband will survive, right.
+
+708
+01:32:24,600 --> 01:32:31,600
+So, after my up sampling by two, followed by HZ, I should only have the blue signal left out here.
+
+709
+01:32:31,600 --> 01:32:35,600
+No duplicates, okay, this is what happened.
+
+710
+01:32:35,600 --> 01:32:45,600
+So, this is what happened after H, okay, so the change will be, the signal has been shrinked from the black and blue, and the duplicate here has been removed.
+
+711
+01:32:45,600 --> 01:32:54,600
+Alright, so similarly, this one has been, will be removed as well, right, so you don't have the one duplicates, but you still have the baseband signal like that.
+
+712
+01:32:54,600 --> 01:32:59,600
+Alright, now we have another down sampling, okay, remember what happened to down sampling.
+
+713
+01:32:59,600 --> 01:33:03,600
+We just learned this, right, as the recap here.
+
+714
+01:33:03,600 --> 01:33:12,600
+So, down sampling will do something like expanding the signal, right, you are making the signal fatter, you're expanding the signal exactly by two.
+
+715
+01:33:12,600 --> 01:33:24,600
+So, in this case, your blue signal will be expanded again, and it goes back to, oops, it goes back to the black signal, right, it goes back to original form.
+
+716
+01:33:24,600 --> 01:33:32,600
+Similarly here, you will have this one goes to the, this, right, so you are going to restore that again.
+
+717
+01:33:32,600 --> 01:33:34,600
+Make sense?
+
+718
+01:33:34,600 --> 01:33:39,600
+So, without the replicates, you can restore the original signal without distortion.
+
+719
+01:33:39,600 --> 01:33:46,600
+But, if the H is like a very narrow, you got a problem, right, you have distorted your original signal, then you cannot get back.
+
+720
+01:33:46,600 --> 01:34:02,600
+In other words, to say that, where's my, where's my example, to say that this thing is equivalent to X, right, it means that if this signal is X,
+
+721
+01:34:02,600 --> 01:34:12,600
+this H cannot be arbitrary H, it must be the qualified low pass filter that exactly truncate the band span signal from the duplicates.
+
+722
+01:34:12,600 --> 01:34:16,600
+Otherwise, you won't get back to original signal, right, there's a condition.
+
+723
+01:34:16,600 --> 01:34:19,600
+So, you cannot say arbitrarily these two cancel each other, no.
+
+724
+01:34:19,600 --> 01:34:25,600
+Only when the H are the qualified low pass filter, they can cancel each other and you can get back to original signal.
+
+725
+01:34:25,600 --> 01:34:27,600
+Alright, so that's the condition.
+
+726
+01:34:27,600 --> 01:34:35,600
+So, it's not true to say, well, as long as I see something like upsampling H downsampling, I can assume that the signal is original, no, that's wrong.
+
+727
+01:34:35,600 --> 01:34:39,600
+Okay, it must be something to do with the H, H must be properly designed.
+
+728
+01:34:39,600 --> 01:34:45,600
+Alright, I want to clarify that because, you know, I don't want to misunderstand my point here.
+
+729
+01:34:45,600 --> 01:34:47,600
+Okay, that's the point one, alright.
+
+730
+01:34:47,600 --> 01:34:53,600
+Point two, some people ask me, why not just do directly, you know, fractional delay, right, why do we have to go upsample?
+
+731
+01:34:53,600 --> 01:34:57,600
+Because in discrete signal, you cannot do fractional delay, right.
+
+732
+01:34:57,600 --> 01:35:02,600
+Think about the discrete signal means every clock there's a measurement, right, from time to time.
+
+733
+01:35:02,600 --> 01:35:06,600
+If you do fractional delay, you violate the discrete system, right.
+
+734
+01:35:06,600 --> 01:35:09,600
+Remember, we talked about discrete system in the beginning, right.
+
+735
+01:35:09,600 --> 01:35:15,600
+Discrete system means you only have measurement from clock to clock, means T2, T3, T4, T, right.
+
+736
+01:35:15,600 --> 01:35:20,600
+You cannot measure things in between, otherwise it's no longer discrete system.
+
+737
+01:35:20,600 --> 01:35:31,600
+So you have to first get into a faster sample version or a higher rate such that you can do integer number of, you know, delay, right.
+
+738
+01:35:31,600 --> 01:35:35,600
+Then downgrade back to original system, that's how you do it.
+
+739
+01:35:35,600 --> 01:35:40,600
+Alright, okay, any questions still?
+
+740
+01:35:40,600 --> 01:35:45,600
+Okay, one last thing, right, many people ask me the homework, okay.
+
+741
+01:35:45,600 --> 01:35:54,600
+It may be my fault because I didn't kind of expect that people are not familiar with this so-called mathematical expression of the multirate system.
+
+742
+01:35:54,600 --> 01:35:59,600
+So we talk about block diagram, right, all of you should be familiar with block diagram.
+
+743
+01:35:59,600 --> 01:36:11,600
+So if you say like a system, I want the decimation, I need to first do a low-pass filter, right, followed by an upsampler, sorry, downsampler, right.
+
+744
+01:36:11,600 --> 01:36:25,600
+That was what we learned, but if you write them in the analytical way here as equation, in fact, the way to read them is actually you first apply A to X,
+
+745
+01:36:25,600 --> 01:36:33,600
+and then D3 to whatever you have here, and then A again, and then D3, and A again, and D3.
+
+746
+01:36:33,600 --> 01:36:35,600
+So you have to read from the right to left.
+
+747
+01:36:35,600 --> 01:36:41,600
+Just imagine you do multiplication, right, in the numerical number.
+
+748
+01:36:41,600 --> 01:36:46,600
+Imagine you do multiplication in practice, right, you do A times B times C, right.
+
+749
+01:36:46,600 --> 01:36:54,600
+So if C is your input, you have to do first B times C, after that you times A back to the original output, right.
+
+750
+01:36:54,600 --> 01:37:05,600
+So when you read this, this line actually means I first apply A to my X, and then D3 to the AX, and then A to the D3AX, right.
+
+751
+01:37:05,600 --> 01:37:07,600
+This is how it actually means in practice.
+
+752
+01:37:07,600 --> 01:37:12,600
+So it's actually the reverse order of when you draw the block diagram, right.
+
+753
+01:37:12,600 --> 01:37:21,600
+But actually I think that's the right way to represent a multirate system in a numerical way, right.
+
+754
+01:37:21,600 --> 01:37:32,600
+I mean, this is also the same, like, when we talk about time domain representation, right, if you recall, for example, for example here, right.
+
+755
+01:37:32,600 --> 01:37:41,600
+When you interpret the entire numerical expression, you first do here, and then you do here, and then you multiply the 1 over D, right.
+
+756
+01:37:41,600 --> 01:37:43,600
+You never multiply things from left to right.
+
+757
+01:37:43,600 --> 01:37:47,600
+You have to do, you know, within the bracket and outside the bracket, right.
+
+758
+01:37:47,600 --> 01:37:49,600
+That's the same convention, all right.
+
+759
+01:37:49,600 --> 01:37:51,600
+I just want to avoid any misunderstanding.
+
+760
+01:37:51,600 --> 01:37:56,600
+So some people ask me why here down sampling is before the low pass.
+
+761
+01:37:56,600 --> 01:37:58,600
+No, that's not the right way to interpret that.
+
+762
+01:37:58,600 --> 01:38:07,600
+You are first applying low pass filter to your signal, followed by down sampling of 3, followed by another low pass filter A, and then down sampling of 3, right.
+
+763
+01:38:07,600 --> 01:38:08,600
+This is the right way to read it.
+
+764
+01:38:08,600 --> 01:38:11,600
+So it's actually consistent with what we learned, right.
+
+765
+01:38:11,600 --> 01:38:16,600
+You have to first do anti-aliasing followed by down sampling, okay.
+
+766
+01:38:16,600 --> 01:38:18,600
+Make sense?
+
+767
+01:38:18,600 --> 01:38:29,600
+All right, so, okay, I don't want to give you other hints, but, you know, if you find that directly deriving the Z-transform is very complicated, you probably want to try another way around.
+
+768
+01:38:29,600 --> 01:38:31,600
+That's all I can mention to you, right.
+
+769
+01:38:31,600 --> 01:38:37,600
+But if you get the right approach, it shouldn't be very complicated in terms of calculation, all right.
+
+770
+01:38:37,600 --> 01:38:45,600
+If you have a very messy kind of mathematical formulation, it maybe means you are not doing this in the most optimized way, all right.
+
+771
+01:38:45,600 --> 01:38:50,600
+So think about another approach to kind of make it easier, all right.
+
+772
+01:38:50,600 --> 01:38:56,600
+Okay, so that's all I want to mention because those are questions I got during the break.
+
+773
+01:38:56,600 --> 01:38:58,600
+So where are we now?
+
+774
+01:38:58,600 --> 01:38:59,600
+Right, okay.
+
+775
+01:38:59,600 --> 01:39:08,600
+We talked about using multi-ray processing to implement phase shift and with the, especially with the fractional phase shift, right.
+
+776
+01:39:08,600 --> 01:39:11,600
+This is one of the good use case of multi-ray system.
+
+777
+01:39:11,600 --> 01:39:12,600
+But it's not the only way.
+
+778
+01:39:12,600 --> 01:39:17,600
+Actually, multi-ray system is very useful in many, many kind of modern signal processing.
+
+779
+01:39:17,600 --> 01:39:21,600
+Another very important example is the filter bank, all right.
+
+780
+01:39:21,600 --> 01:39:24,600
+So first, what is filter bank and why do we need filter banks?
+
+781
+01:39:24,600 --> 01:39:34,600
+So, so far, all of this processing we talk about is like you give me a signal, I pass that into a low-pass filter, right, and I do some kind of change, I do another low-pass filter.
+
+782
+01:39:34,600 --> 01:39:39,600
+So you are processing the signal, the entire signal, with the same low-pass filter, right.
+
+783
+01:39:39,600 --> 01:39:45,600
+You never differentiate which part of the signal should be filter one, which part of the signal should be filter two, right.
+
+784
+01:39:45,600 --> 01:39:55,600
+So if it's like you are treating the entire signal into one of the filter, right, this is not filter bank, this is just one filter, right.
+
+785
+01:39:55,600 --> 01:40:07,600
+But in many cases, your signal could have different, let's say, characteristics or behavior, let's say, in different frequency domain, right, which is very common.
+
+786
+01:40:07,600 --> 01:40:17,600
+I give you one example, right, so when you listen to the music, right, your high-frequency components could be very different from low-frequency components, right.
+
+787
+01:40:17,600 --> 01:40:25,600
+High-frequency component could correspond to some instrument, low-frequency component could respond to, I don't know, vocal or other kind of instrument.
+
+788
+01:40:25,600 --> 01:40:36,600
+So you want to maybe, if you want to separate different instruments, you have to analyze them in different frequency and do different kind of filtering, right, so which is very practical, very common in the modern signal processing.
+
+789
+01:40:36,600 --> 01:40:46,600
+But the question is like if I know, let's say, I want to apply filter one to high-pass component, I want to apply filter two to low-pass component,
+
+790
+01:40:46,600 --> 01:40:58,600
+so how can I separate maybe different components or subbands first and then use the suitable processing technique, right, to different bands, right.
+
+791
+01:40:58,600 --> 01:41:12,600
+So in this case, you will not only need one filter, you need multiple filter to deal with each of the parts, and this structure of multiple filters to deal with different part of the signal, with different characteristics,
+
+792
+01:41:12,600 --> 01:41:27,600
+this is called a filter bank, right, just like a bank where your filter has been separated into different channels or components and processing differently and eventually merge them back to form the original signal.
+
+793
+01:41:27,600 --> 01:41:32,600
+It's like decomposition first, processing separately, and then merge second, right.
+
+794
+01:41:32,600 --> 01:41:39,600
+So this is like a very common structure we use to process signals with different characteristics.
+
+795
+01:41:39,600 --> 01:41:46,600
+And one of the most common way to decompose the signal is by looking at the frequency channels, right.
+
+796
+01:41:46,600 --> 01:41:54,600
+So imagine this is your spectrum and you can actually get the amplitude of different frequency components, right.
+
+797
+01:41:54,600 --> 01:42:07,600
+And here, if you observe the waveform, I mean the spectrum, you can, I mean, for example, I think this is actually acoustic, sorry, this is actually the MPAD, which is the audio encoder system.
+
+798
+01:42:07,600 --> 01:42:19,600
+So you may know that, well, in certain frequency there could be a noise, right, certain frequency there could be the signal you want, for example, this could be corresponding to our human voice, right, vocal system.
+
+799
+01:42:20,600 --> 01:42:33,600
+So in practice, you want to pay more attention to the preserved signal, in other words, you want to allocate more bits, you want to reconstruct that portion, while you want to kill the other portion.
+
+800
+01:42:33,600 --> 01:42:39,600
+Like maybe here you can do lower bit kind of compression, right, because you don't care about the noise, you don't care about the background.
+
+801
+01:42:39,600 --> 01:42:46,600
+So this is actually one of the kind of classic way of dealing with a mixture of signal, right.
+
+802
+01:42:46,600 --> 01:42:50,600
+It's like a decomposed processing and a synthesize, right.
+
+803
+01:42:50,600 --> 01:42:55,600
+So the right tool to do it is called filter bank, right.
+
+804
+01:42:55,600 --> 01:43:01,600
+And the way of implementing filter bank is by using multi-rate signal processing system.
+
+805
+01:43:01,600 --> 01:43:05,600
+So let me just give one example how the filter bank look like, right.
+
+806
+01:43:05,600 --> 01:43:10,600
+So the filter bank usually will have two parts, okay.
+
+807
+01:43:10,600 --> 01:43:15,600
+So the first part of the filter bank is called analysis part, okay.
+
+808
+01:43:15,600 --> 01:43:21,600
+I don't know if you recall that we learned Fourier transform, right, DTFT, DFT, I mentioned that.
+
+809
+01:43:21,600 --> 01:43:24,600
+The Fourier transform is normally called analysis transform.
+
+810
+01:43:24,600 --> 01:43:27,600
+The inverse transform is called a synthesis transform, right.
+
+811
+01:43:27,600 --> 01:43:35,600
+Just like when you want to analyze the system, you want to analyze signal in spectrum and then later synthesize them back to the time domain.
+
+812
+01:43:35,600 --> 01:43:39,600
+Actually the name of analysis or synthesis coming from the filter bank, right.
+
+813
+01:43:39,600 --> 01:43:41,600
+This is actually where the name come from.
+
+814
+01:43:41,600 --> 01:43:46,600
+So very similar as we do transform here.
+
+815
+01:43:46,600 --> 01:43:52,600
+We can also use a similar concept to first, let's say take input signal here,
+
+816
+01:43:52,600 --> 01:44:02,600
+and I'm going to analyze the signal by using a set of parallel filters with different kind of, you know, transfer function, okay.
+
+817
+01:44:02,600 --> 01:44:09,600
+So the phenomenon is that when your signal come in, you don't really have a single filter to process it,
+
+818
+01:44:09,600 --> 01:44:20,600
+but instead you have a list of filters in a parallel sense to process them by splitting the signal into a number of sub bands, okay.
+
+819
+01:44:20,600 --> 01:44:27,600
+Imagine that you have a mixture of, let's say, different instrument, different vocal, different kind of noise together.
+
+820
+01:44:27,600 --> 01:44:32,600
+The first thing you do is you want to decompose them into different frequency band, right.
+
+821
+01:44:32,600 --> 01:44:38,600
+Maybe from zero to frequency one, from F1 to F2, right, that's how you divide the frequency band.
+
+822
+01:44:38,600 --> 01:44:45,600
+And for every band, you apply a corresponding kind of DSP process to process them, right.
+
+823
+01:44:45,600 --> 01:44:52,600
+So this is actually the analysis process, you know, before here, before DSP, right, this is actually the analysis process.
+
+824
+01:44:52,600 --> 01:45:02,600
+Just like when you do transform to convert time domain signal into a list of frequency, let's say Fourier coefficients, right, DFT coefficients.
+
+825
+01:45:02,600 --> 01:45:11,600
+But of course, after you process the DSP, you have to combine them together to form the, I mean, the original combination of the signal.
+
+826
+01:45:11,600 --> 01:45:23,600
+So the process of using a list of filters to synthesize the entire signal, right, so this process is called the synthesis filter band.
+
+827
+01:45:23,600 --> 01:45:30,600
+Okay, so the synthesis filter band will take multichannel input, sorry, multichannel signal as the input.
+
+828
+01:45:30,600 --> 01:45:35,600
+By processing them followed by a summation, I'm going to get a single output, right.
+
+829
+01:45:35,600 --> 01:45:42,600
+And this single output is the synthesized data from multichannel output, sorry, multichannel input, right.
+
+830
+01:45:42,600 --> 01:45:47,600
+So the analysis is like from one to many, right, this is the analysis process.
+
+831
+01:45:47,600 --> 01:45:50,600
+So synthesis is the opposite, you're from many to one, right.
+
+832
+01:45:50,600 --> 01:45:57,600
+So any filter band will always have these two components, analysis followed by synthesis, okay.
+
+833
+01:45:57,600 --> 01:46:03,600
+So that's kind of the, how should I say, the fundamental structure of the filter band, right.
+
+834
+01:46:03,600 --> 01:46:10,600
+But of course, how to design the corresponding age and the G, that's something we're going to study, right.
+
+835
+01:46:10,600 --> 01:46:18,600
+But I would say all filter bands in this course will be having these two components, right, analysis and synthesis.
+
+836
+01:46:18,600 --> 01:46:23,600
+The important thing is to look at is it many to one or one to many, right, that makes a difference.
+
+837
+01:46:23,600 --> 01:46:31,600
+Now the question is that we know we need to divide the signal into different components and we want to process them separately.
+
+838
+01:46:31,600 --> 01:46:40,600
+The question is how can I find an optimal method to divide the signal into different subbands such that,
+
+839
+01:46:40,600 --> 01:46:43,600
+okay, now you need two properties.
+
+840
+01:46:43,600 --> 01:46:50,600
+First one is that when you divide them, every component of the subband can be processed accordingly, right.
+
+841
+01:46:50,600 --> 01:46:51,600
+So that's the first requirement.
+
+842
+01:46:51,600 --> 01:46:59,600
+The second requirement is that after you process them, you need to make sure they can be again combined together
+
+843
+01:46:59,600 --> 01:47:03,600
+and restore the original signal without distortion.
+
+844
+01:47:03,600 --> 01:47:10,600
+Or maybe in other words, restore distortion as small as possible, okay, because in many cases you won't get perfect reconstruction.
+
+845
+01:47:10,600 --> 01:47:14,600
+So if you have to have distortion, minimize the distortion, alright.
+
+846
+01:47:14,600 --> 01:47:20,600
+So this is actually the criteria or objective when we design the filter band, okay.
+
+847
+01:47:20,600 --> 01:47:26,600
+You want to separate them in a meaningful way such that every subband can be processed accordingly.
+
+848
+01:47:26,600 --> 01:47:33,600
+But also you want to make sure they can be combined together without or with minimal amount of distortion, right.
+
+849
+01:47:33,600 --> 01:47:36,600
+This is the objective of designing filter banks.
+
+850
+01:47:36,600 --> 01:47:46,600
+So basically to avoid distortion, the important issue is to minimize the effects of non-ideal transition band, okay.
+
+851
+01:47:46,600 --> 01:47:48,600
+Again, this is about practical implementation.
+
+852
+01:47:48,600 --> 01:47:53,600
+If it's ideal to pass filter, you can easily get without distortion, right,
+
+853
+01:47:53,600 --> 01:47:58,600
+because you just need to make sure every pass band is not overlapping to each other, right.
+
+854
+01:47:58,600 --> 01:48:02,600
+But in practice, we always have this transition band.
+
+855
+01:48:02,600 --> 01:48:09,600
+So how can I make sure that this kind of transition band brings minimal effects to my final output, right.
+
+856
+01:48:09,600 --> 01:48:13,600
+This is actually the design we need to talk about here.
+
+857
+01:48:13,600 --> 01:48:16,600
+Now let's look at the ideal case first, right.
+
+858
+01:48:16,600 --> 01:48:28,600
+The ideal case is always, you know, using different kind of a low pass filter to analyze the frequency response characteristics of my input signal, right.
+
+859
+01:48:28,600 --> 01:48:33,600
+The most simple case I can think about is let's just divide the entire frequency range.
+
+860
+01:48:33,600 --> 01:48:37,600
+Let's say into n, right, n different sections.
+
+861
+01:48:37,600 --> 01:48:47,600
+So if let's say my original range is from 0 to 2 pi, I just need to uniformly divide my 2 pi into n shares, right.
+
+862
+01:48:47,600 --> 01:48:51,600
+Every share get exactly 2 pi divided by n, right.
+
+863
+01:48:51,600 --> 01:48:54,600
+I just cut them uniformly into n pieces.
+
+864
+01:48:54,600 --> 01:49:05,600
+So in this case, every low pass filter will be correspondingly the same low pass filter, but delayed by 2 pi times k divided by n, right.
+
+865
+01:49:05,600 --> 01:49:10,600
+So if this is my H0, that's going to be my first low pass filter.
+
+866
+01:49:10,600 --> 01:49:14,600
+And then I delay 2 pi divided by n, I got my second low pass filter, right.
+
+867
+01:49:14,600 --> 01:49:20,600
+So correspondingly, you can have H0, H1, H2, all the way to Hn minus 1, right.
+
+868
+01:49:20,600 --> 01:49:27,600
+So this will be the easy way to do it if you have ideal low pass filter.
+
+869
+01:49:27,600 --> 01:49:30,600
+You just need to do uniformly sharing, right.
+
+870
+01:49:30,600 --> 01:49:37,600
+And in this case, so you only need to specify your H0, right.
+
+871
+01:49:37,600 --> 01:49:46,600
+H0 is specified, that's going to be your prototype filters, and the other thing will be just delayed version of the spectrum, right.
+
+872
+01:49:46,600 --> 01:49:55,600
+Okay, now this filter is the frequency response, right, frequency response of my low pass filter.
+
+873
+01:49:55,600 --> 01:50:00,600
+And you can actually get into the time domain of each of them.
+
+874
+01:50:00,600 --> 01:50:08,600
+And we see that the time domain response, the time domain transform of the frequency response is called the impulse response, right.
+
+875
+01:50:08,600 --> 01:50:11,600
+That's the impulse response of the low pass filter.
+
+876
+01:50:11,600 --> 01:50:15,600
+And the impulse response can be computed as the following.
+
+877
+01:50:15,600 --> 01:50:25,600
+If I have the H0 or my original H0, the delayed frequency will be the, something like the phase shift in time, right.
+
+878
+01:50:25,600 --> 01:50:27,600
+So this is the phase shift in time.
+
+879
+01:50:27,600 --> 01:50:39,600
+So correspondingly, the delayed version of, sorry, the other low pass filter will be the prototype impulse response multiplied by a specified phase shift in time domain, okay.
+
+880
+01:50:39,600 --> 01:50:41,600
+This is time domain.
+
+881
+01:50:42,600 --> 01:50:49,600
+So this is basically what we need to form the analysis, you know, filter bank, right, ideal case.
+
+882
+01:50:49,600 --> 01:50:54,600
+Now if it's ideal case, let's just work out what exactly is the design here, right.
+
+883
+01:50:54,600 --> 01:51:02,600
+So we know that the output of the low pass filter, right, after you apply the low pass filter, you will get a very narrow band in the output.
+
+884
+01:51:02,600 --> 01:51:10,600
+Originally the band is like very wide, but every time you do a low pass filter, you only capture a very small amount of information in that narrow band.
+
+885
+01:51:10,600 --> 01:51:17,600
+So the signal, after you do this kind of pass-pass, right, you only have a very narrow signal.
+
+886
+01:51:17,600 --> 01:51:24,600
+You can actually do a downsampling to make them spread out in the baseband range, like a zero to pi, okay.
+
+887
+01:51:24,600 --> 01:51:32,600
+Just now we, you know, you should recall that, we say that if you do, if you do like a low pass filter, right, you can actually go from blue to green.
+
+888
+01:51:32,600 --> 01:51:39,600
+So if you first have a very narrow band signal, you can actually expand them to occupy the entire band, right.
+
+889
+01:51:39,600 --> 01:51:45,600
+So that's why we can actually design the analysis filter band in the following way.
+
+890
+01:51:45,600 --> 01:51:51,600
+So we first, okay, analytically the formulation is the following.
+
+891
+01:51:51,600 --> 01:51:58,600
+You will have the case band output specified as the following, right.
+
+892
+01:51:58,600 --> 01:52:08,600
+You will have your input signal x, followed by a phase shift in the time domain, followed by a low pass filter, right.
+
+893
+01:52:08,600 --> 01:52:18,600
+So this is going to be your corresponding, what is that, the channel output like this, right.
+
+894
+01:52:18,600 --> 01:52:21,600
+So this is actually, if k equal to zero, this is your x zero.
+
+895
+01:52:21,600 --> 01:52:24,600
+If k equal to one, this is x one, right.
+
+896
+01:52:24,600 --> 01:52:32,600
+So what I'm doing is just plugging this guy, plugging this guy into here, and I convolve with my original signal, right.
+
+897
+01:52:32,600 --> 01:52:38,600
+So filtering is nothing but convolution between the impulse response and the time domain signal, right.
+
+898
+01:52:38,600 --> 01:52:39,600
+So I'm just doing this.
+
+899
+01:52:39,600 --> 01:52:46,600
+But of course, depends on which channel it is, the k here will change from zero to one to three to four.
+
+900
+01:52:46,600 --> 01:52:49,600
+All right, remember, only this term change.
+
+901
+01:52:49,600 --> 01:52:54,600
+You always apply the so-called prototype filter, right.
+
+902
+01:52:54,600 --> 01:53:04,600
+Okay, so this becomes my time domain representation of the result in every channel of my analysis filter, okay.
+
+903
+01:53:04,600 --> 01:53:08,600
+We haven't talked about synthesis yet, just analysis means that one too many.
+
+904
+01:53:08,600 --> 01:53:18,600
+This equation give you the time domain output representation of every channel in the analysis process, okay.
+
+905
+01:53:18,600 --> 01:53:21,600
+And you can draw the process in the following, right.
+
+906
+01:53:21,600 --> 01:53:26,600
+You first have a phase shift in time domain followed by a prototype filtering.
+
+907
+01:53:26,600 --> 01:53:30,600
+So here the h becomes the same, right, h zero, h zero.
+
+908
+01:53:30,600 --> 01:53:34,600
+If you merge the two, it's going to give you h zero, h one, h two, right.
+
+909
+01:53:34,600 --> 01:53:38,600
+Either way, but making the h zero will make things simpler, right.
+
+910
+01:53:38,600 --> 01:53:42,600
+The only difference is the different kind of phase shift here, okay.
+
+911
+01:53:42,600 --> 01:53:45,600
+So after that, you do a down sampling.
+
+912
+01:53:45,600 --> 01:53:49,600
+This is to lower down the rate because your signal will be very narrow.
+
+913
+01:53:49,600 --> 01:53:52,600
+Even if you expand it, you won't really get distortion, right.
+
+914
+01:53:52,600 --> 01:53:55,600
+So you can afford a lower rate processing.
+
+915
+01:53:55,600 --> 01:53:59,600
+If you remember, this is what we do for a polyphase structure, right.
+
+916
+01:53:59,600 --> 01:54:04,600
+You lower the rate, you can process them in different channels, okay.
+
+917
+01:54:04,600 --> 01:54:10,600
+So these kind of form a very standard analysis filter bank, all right.
+
+918
+01:54:10,600 --> 01:54:14,600
+And this one give you the time domain relationship.
+
+919
+01:54:14,600 --> 01:54:17,600
+So does it make sense for everyone?
+
+920
+01:54:17,600 --> 01:54:21,600
+Before I move on, I want to make sure everybody agree on this equation here.
+
+921
+01:54:21,600 --> 01:54:27,600
+It's nothing but a convolution of this guy with your x, right.
+
+922
+01:54:27,600 --> 01:54:31,600
+It's convolution, right, convolution, I hope all of you know what is convolution.
+
+923
+01:54:31,600 --> 01:54:35,600
+That's where we got this summation because convolution, you have to do a summation
+
+924
+01:54:35,600 --> 01:54:40,600
+multiplied by flipping one of the signal multiplied by the other,
+
+925
+01:54:40,600 --> 01:54:43,600
+and you do a summation over n, right.
+
+926
+01:54:44,600 --> 01:54:46,600
+Okay.
+
+927
+01:54:46,600 --> 01:54:48,600
+And of course the downsampling is actually here.
+
+928
+01:54:48,600 --> 01:54:52,600
+You have to downsample the signal by d times, right.
+
+929
+01:54:54,600 --> 01:54:57,600
+Okay, make sure you understand where this comes from.
+
+930
+01:54:57,600 --> 01:55:06,600
+It's a time domain representation of the output for every channel in the analysis bank, all right.
+
+931
+01:55:06,600 --> 01:55:10,600
+Here the downsampling is d, the prototype filter is h0,
+
+932
+01:55:10,600 --> 01:55:17,600
+and the k stands for which channel, right, k range from 0 to 1 to 2 all the way to n here.
+
+933
+01:55:17,600 --> 01:55:20,600
+Sorry, n minus 1, the last branch.
+
+934
+01:55:20,600 --> 01:55:22,600
+Okay.
+
+935
+01:55:22,600 --> 01:55:24,600
+So far so good?
+
+936
+01:55:24,600 --> 01:55:28,600
+Okay, now let's look at the synthesis process, right.
+
+937
+01:55:28,600 --> 01:55:32,600
+So the synthesis process is the exact symmetric part of the analysis
+
+938
+01:55:32,600 --> 01:55:35,600
+because analysis is like one too many.
+
+939
+01:55:35,600 --> 01:55:38,600
+You want to decompose the signal into many, many branches.
+
+940
+01:55:38,600 --> 01:55:42,600
+So every branch got a bandpass version of the signal,
+
+941
+01:55:42,600 --> 01:55:46,600
+then you do downsampling to make the waveform stretch out.
+
+942
+01:55:46,600 --> 01:55:50,600
+Now, synthesis will be the exact opposite.
+
+943
+01:55:50,600 --> 01:55:55,600
+You want to first upsample the signal to go back to your original rate
+
+944
+01:55:55,600 --> 01:55:59,600
+because you have to merge them into original, right, you have to go back to original rate.
+
+945
+01:55:59,600 --> 01:56:02,600
+And in other words, if you do the upsampling like this,
+
+946
+01:56:02,600 --> 01:56:08,600
+you will make your signal like, how should I say, compressed, right.
+
+947
+01:56:08,600 --> 01:56:11,600
+Okay, maybe a better way to do this is by drawing a figure.
+
+948
+01:56:11,600 --> 01:56:16,600
+I think that one may help you, but forgive me for my terrible drawing.
+
+949
+01:56:16,600 --> 01:56:22,600
+Okay, so what happened in analysis is that let's say originally you have,
+
+950
+01:56:22,600 --> 01:56:26,600
+I just arbitrarily draw some kind of bunch of signal, right.
+
+951
+01:56:26,600 --> 01:56:32,600
+So if this is my waveform, right, I'll be drawing something from 0 to 2 pi.
+
+952
+01:56:32,600 --> 01:56:41,600
+Okay, this is my original, right, this is my xt, okay, x, but let's say k, xt.
+
+953
+01:56:41,600 --> 01:56:47,600
+Sorry, yeah, I said, no, omega, okay, actually omega.
+
+954
+01:56:47,600 --> 01:56:53,600
+All right, so the first thing you do is a phase shift, but phase shift doesn't, okay.
+
+955
+01:56:53,600 --> 01:56:59,600
+Okay, these two together will give you some kind of passband, right, bandpass filter.
+
+956
+01:56:59,600 --> 01:57:09,600
+So bandpass filter will only select a few, a very narrow band from your original, right, sorry.
+
+957
+01:57:09,600 --> 01:57:12,600
+So this is your h0, right.
+
+958
+01:57:12,600 --> 01:57:15,600
+Other h is just like shifted version of my h0, right.
+
+959
+01:57:15,600 --> 01:57:22,600
+So after that, you won't have any of the other components, all of these will be gone, all right.
+
+960
+01:57:23,600 --> 01:57:30,600
+So this is what happened after the bandpass filter, right, or lowpass filter, okay.
+
+961
+01:57:30,600 --> 01:57:36,600
+So this is what happened after here, after the h in the frequency domain, right.
+
+962
+01:57:36,600 --> 01:57:38,600
+I'm not talking about time, but frequency domain, all right.
+
+963
+01:57:38,600 --> 01:57:40,600
+So why do we need to do a downsampling?
+
+964
+01:57:40,600 --> 01:57:50,600
+Because if you do downsampling, you can actually, sorry, you can actually stretch the blue all the way to,
+
+965
+01:57:50,600 --> 01:57:58,600
+sorry, actually this is terrible, no, actually it will make it better, something like this.
+
+966
+01:57:58,600 --> 01:58:07,600
+You are expanding this black to blue, right, to make sure they occupy, not two pi, this is pi actually,
+
+967
+01:58:07,600 --> 01:58:13,600
+I want to say this is pi actually, because it's a symmetric, right, so I want to stretch out all the signal to pi.
+
+968
+01:58:13,600 --> 01:58:18,600
+Because that's how you can lower the rate while not distorting the signal, all right.
+
+969
+01:58:18,600 --> 01:58:23,600
+So this stretching is actually the downsampling by the operator.
+
+970
+01:58:23,600 --> 01:58:26,600
+So this is actually what happened here, right.
+
+971
+01:58:26,600 --> 01:58:32,600
+So because you are doing the very narrow lowpass filter, it's safe to do downsampling.
+
+972
+01:58:32,600 --> 01:58:37,600
+Because this filter itself serves as an anti-aliasing filter in the first place.
+
+973
+01:58:37,600 --> 01:58:41,600
+It's a lowpass filter, they avoid aliasing by cutting off the free spectrum.
+
+974
+01:58:41,600 --> 01:58:47,600
+So even if your downsampling is safe, and then you can do processing at a much lower rate, all right.
+
+975
+01:58:47,600 --> 01:58:52,600
+And this is what happened in the frequency, and this is what happened in the time.
+
+976
+01:58:52,600 --> 01:58:58,600
+So you need to know both, okay, I'm complimenting the story, but time domain is nothing but a convolution, okay.
+
+977
+01:58:58,600 --> 01:59:05,600
+Frequency domain is nothing but a lowpass followed by a downsampling, stretching out the signal, all right.
+
+978
+01:59:05,600 --> 01:59:07,600
+Make sense?
+
+979
+01:59:08,600 --> 01:59:21,600
+Okay, so in the time domain, it's nothing but a convolution between X and convolved with your HK, right.
+
+980
+01:59:21,600 --> 01:59:23,600
+It's nothing but this.
+
+981
+01:59:23,600 --> 01:59:27,600
+So this kind of time domain expression is represented here, right.
+
+982
+01:59:27,600 --> 01:59:29,600
+So this is time domain representation.
+
+983
+01:59:29,600 --> 01:59:35,600
+So convolution in time corresponding to multiplication in frequency, all right.
+
+984
+01:59:35,600 --> 01:59:38,600
+Now, we do synthesis, right.
+
+985
+01:59:38,600 --> 01:59:45,600
+After we analysis them of every band, you can do processing, and after you do processing, you want to merge them back.
+
+986
+01:59:45,600 --> 01:59:49,600
+So very first thing you want to do is first upsampling, okay.
+
+987
+01:59:49,600 --> 01:59:53,600
+Upsampling is nothing but shrinking the signal, right.
+
+988
+01:59:53,600 --> 01:59:59,600
+So in other words, you do something on the blue signals, you want to shrink the blue signal back to the black, right.
+
+989
+01:59:59,600 --> 02:00:01,600
+This is actually the upsampling process.
+
+990
+02:00:01,600 --> 02:00:07,600
+You do upsampling by D time, you are getting back the original rate, okay.
+
+991
+02:00:07,600 --> 02:00:10,600
+But of course, the signal waveform may change because you do some filtering, right.
+
+992
+02:00:10,600 --> 02:00:20,600
+The filtering may change the waveform, but when you do upsampling, you can shrink the signal back to the specific range, getting them ready to be merged, okay.
+
+993
+02:00:20,600 --> 02:00:28,600
+So now, after you shrink them back, you have to do the so-called processing, right, like another filter.
+
+994
+02:00:28,600 --> 02:00:34,600
+So this filter will involve a GN followed by a phase shift, okay.
+
+995
+02:00:34,600 --> 02:00:42,600
+So you can consider these two as like shift the base band output to the specific pass band output, right.
+
+996
+02:00:42,600 --> 02:00:49,600
+So originally, we are dividing the signal into different bands, right, like say band zero, band one, band two.
+
+997
+02:00:49,600 --> 02:00:56,600
+But after the analysis, you know, they will be kind of scaled and occupy the entire zero to pi.
+
+998
+02:00:56,600 --> 02:01:01,600
+Now I have to merge them. Before that, I need to move them to the corresponding location.
+
+999
+02:01:01,600 --> 02:01:07,600
+For example, signaling second band within the H1, signaling third band within H2.
+
+1000
+02:01:07,600 --> 02:01:12,600
+So we have to put them in the corresponding location and then sum them up, right.
+
+1001
+02:01:12,600 --> 02:01:21,600
+So this is what the synthesis is doing here because it's going to be first multiplied by some filters followed by a shift.
+
+1002
+02:01:21,600 --> 02:01:29,600
+So this shift will be corresponding to the specific band pass filter in the analysis, okay.
+
+1003
+02:01:29,600 --> 02:01:37,600
+Because, for example, this branch probably doing the shift, here you have the shift by one, like one range, then two range, and three range.
+
+1004
+02:01:37,600 --> 02:01:40,600
+You have to shift them to the corresponding locations, right.
+
+1005
+02:01:40,600 --> 02:01:44,600
+After that, you can merge them together to form the final signal.
+
+1006
+02:01:44,600 --> 02:01:47,600
+So when you merge them, hopefully there won't be too much overlap.
+
+1007
+02:01:47,600 --> 02:01:54,600
+If it's ideal case, there shouldn't be any overlap because every band will be not overlapping to each other, right.
+
+1008
+02:01:54,600 --> 02:02:03,600
+And, I mean, again, this is, I can also draw something like what happened in the frequency.
+
+1009
+02:02:03,600 --> 02:02:11,600
+I mean, in the frequency, imagine this is what I have, maybe I draw something maybe better, right.
+
+1010
+02:02:11,600 --> 02:02:17,600
+So imagine this is what I have before merging, right, maybe from zero to pi, this is my signal.
+
+1011
+02:02:17,600 --> 02:02:20,600
+So here, this is actually your y, right.
+
+1012
+02:02:20,600 --> 02:02:22,600
+This is what happened in your y.
+
+1013
+02:02:22,600 --> 02:02:24,600
+Now, it depends on which k, right.
+
+1014
+02:02:24,600 --> 02:02:33,600
+If this is yk, what I need to do is I first need to shrink that into the range, okay.
+
+1015
+02:02:33,600 --> 02:02:34,600
+I need to do a shrinking.
+
+1016
+02:02:34,600 --> 02:02:36,600
+So I need to shrink it.
+
+1017
+02:02:36,600 --> 02:02:40,600
+This is by upsumpling by d, right.
+
+1018
+02:02:40,600 --> 02:02:42,600
+But this is step one.
+
+1019
+02:02:42,600 --> 02:02:50,600
+After shrinking, I also need to move this triangle into the location, sorry, I need to move the triangle into the location
+
+1020
+02:02:50,600 --> 02:03:02,600
+such that this location is corresponding to the, sorry, the hk filter location.
+
+1021
+02:03:02,600 --> 02:03:07,600
+I need to move them, I need to shift that into that location before summing them up.
+
+1022
+02:03:08,600 --> 02:03:16,600
+Make sense? Because, you know, every hk are in different locations, I need to move them in the corresponding location
+
+1023
+02:03:16,600 --> 02:03:18,600
+and sum them up, right.
+
+1024
+02:03:18,600 --> 02:03:20,600
+That's where the shifting coming from, right.
+
+1025
+02:03:20,600 --> 02:03:22,600
+That's where they always have this shift.
+
+1026
+02:03:22,600 --> 02:03:28,600
+Now, this is a phase shifting time, which corresponding to the delay in the frequency,
+
+1027
+02:03:28,600 --> 02:03:33,600
+which is exactly you are shifting the spectrum in the horizontal axis, right.
+
+1028
+02:03:33,600 --> 02:03:36,600
+Make sense?
+
+1029
+02:03:36,600 --> 02:03:42,600
+So the thesis is the reverse process of the analysis, okay.
+
+1030
+02:03:42,600 --> 02:03:48,600
+And only by doing so, all of these components are ready to be merged, to be summed together.
+
+1031
+02:03:48,600 --> 02:04:00,600
+And when summed together, they can reform the original signal, which covering every frequency period, every frequency range, okay.
+
+1032
+02:04:00,600 --> 02:04:04,600
+So that's why you are corresponding, have a way to synthesize them.
+
+1033
+02:04:04,600 --> 02:04:06,600
+And the way you do that is also very similar.
+
+1034
+02:04:06,600 --> 02:04:13,600
+You are, we are doing this down sampling, up sampling, filtering in the frequency domain,
+
+1035
+02:04:13,600 --> 02:04:16,600
+which is corresponding to the convolution in the time domain,
+
+1036
+02:04:16,600 --> 02:04:21,600
+where you are going to convolve with your y and the,
+
+1037
+02:04:21,600 --> 02:04:28,600
+a y and also the down sample, up sample version of your signal weighs the filter, right.
+
+1038
+02:04:28,600 --> 02:04:31,600
+This is where the convolution happens.
+
+1039
+02:04:31,600 --> 02:04:34,600
+And after that, you are going to sum up every component.
+
+1040
+02:04:34,600 --> 02:04:37,600
+So this is your k equal to one, right.
+
+1041
+02:04:37,600 --> 02:04:42,600
+This is, sorry, k equal to zero, and this is the branch with k equal to one, and this is the branch with k equal to two.
+
+1042
+02:04:42,600 --> 02:04:47,600
+So you just sum them together, multiply by the corresponding phase shift here.
+
+1043
+02:04:47,600 --> 02:04:55,600
+And that's how you can form the original, sorry, the final output as the VN, right.
+
+1044
+02:04:55,600 --> 02:04:57,600
+Okay.
+
+1045
+02:04:57,600 --> 02:04:59,600
+So now this is the synthesis process.
+
+1046
+02:04:59,600 --> 02:05:02,600
+So you need to understand how the analysis happens.
+
+1047
+02:05:02,600 --> 02:05:04,600
+It's just from one to many, right.
+
+1048
+02:05:04,600 --> 02:05:11,600
+For an analysis system, you'll get the many kind of output, right, x1, x2, all the way to xN minus one.
+
+1049
+02:05:11,600 --> 02:05:21,600
+And with synthesis, you are going to use multiple y, right, y0, y1, y2, to yN minus one, together form a single V, right.
+
+1050
+02:05:21,600 --> 02:05:25,600
+This V will be the many to one output.
+
+1051
+02:05:25,600 --> 02:05:28,600
+Okay, so this is the synthesis process.
+
+1052
+02:05:31,600 --> 02:05:34,600
+Make sense, or any questions I can take?
+
+1053
+02:05:37,600 --> 02:05:44,600
+Okay, if you have any questions, you can ask me, right, because if you get lost, you may not get anything from later, right.
+
+1054
+02:05:44,600 --> 02:05:46,600
+It's better to ask now before I move on.
+
+1055
+02:05:48,600 --> 02:05:50,600
+Okay, good.
+
+1056
+02:05:50,600 --> 02:05:58,600
+Now, you know, the actual further back will be the combination of the two, right.
+
+1057
+02:05:58,600 --> 02:06:04,600
+So in other words, if you have a signal come in, you will first do an analysis, which is something we call compressive coding,
+
+1058
+02:06:04,600 --> 02:06:09,600
+followed by some signal processing practice, and then followed by a synthesis process.
+
+1059
+02:06:09,600 --> 02:06:12,600
+Sometimes we also call that compressive decoding, right.
+
+1060
+02:06:12,600 --> 02:06:21,600
+Of course, we need to make sure that all of this critical sampling condition is satisfied in every kind of, you know, process, including every band.
+
+1061
+02:06:21,600 --> 02:06:31,600
+And the further back itself is known as over-sampled, if the output sampling frequency of the further back is larger than two times of the signal bandwidth.
+
+1062
+02:06:31,600 --> 02:06:36,600
+So you can do over-sampling if you want, or maybe you don't, you have to do critical sampling, right.
+
+1063
+02:06:36,600 --> 02:06:43,600
+But you cannot do under-sampling. If you do under-sampling, you will get overlap or aliasing in the final synthesis, right.
+
+1064
+02:06:45,600 --> 02:06:54,600
+But, you know, the interesting part is that although we work out here, where we work out the time domain expression for analysis,
+
+1065
+02:06:54,600 --> 02:06:57,600
+we work out the time domain expression for the synthesis.
+
+1066
+02:06:57,600 --> 02:07:04,600
+This is not the simplest version, right. Of course, you have to first do normalization, which is something you can always do.
+
+1067
+02:07:05,600 --> 02:07:12,600
+And then, you know, this YM will be often the modified version of X in many applications,
+
+1068
+02:07:12,600 --> 02:07:17,600
+so you can do whatever process you like in each of the channels, in each of the bands, right.
+
+1069
+02:07:17,600 --> 02:07:26,600
+But if you stick to the original formulation like this, or like this, it's correct.
+
+1070
+02:07:26,600 --> 02:07:33,600
+But computationally, this way of computation is not the most efficient way, okay.
+
+1071
+02:07:33,600 --> 02:07:40,600
+The idea is also very simple, right. You know, if you look at the form here, it's actually a convolution form.
+
+1072
+02:07:40,600 --> 02:07:45,600
+And if you remember like the time we do, you know, what is that,
+
+1073
+02:07:45,600 --> 02:07:52,600
+when we say convolution is equal to the multiplication in the DFT domain, right,
+
+1074
+02:07:52,600 --> 02:08:02,600
+actually one can further speed up this convolution with a DFT version, followed by a speed up of the DFT with FFT.
+
+1075
+02:08:02,600 --> 02:08:07,600
+So every time when you see some form of the expression just like the convolution,
+
+1076
+02:08:07,600 --> 02:08:12,600
+you can think about the possible speed up by converting everything in the DFT domain,
+
+1077
+02:08:12,600 --> 02:08:15,600
+followed by a faster version of DFT, okay.
+
+1078
+02:08:15,600 --> 02:08:18,600
+So let me show you how this is done for filter band in many case.
+
+1079
+02:08:18,600 --> 02:08:22,600
+So we started by looking at the original form, right.
+
+1080
+02:08:22,600 --> 02:08:31,600
+So this is actually our original form where you will have each channels represented as the convolution, right.
+
+1081
+02:08:31,600 --> 02:08:38,600
+But if it's convolution, then the kind of phase shift will be different, right,
+
+1082
+02:08:38,600 --> 02:08:45,600
+because this phase shift will be e to the power of j omega, sorry, omega zero and maybe e to the power of j omega one.
+
+1083
+02:08:45,600 --> 02:08:50,600
+But you can somehow make them to be kind of like a unified,
+
+1084
+02:08:50,600 --> 02:08:59,600
+because you can always multiply by e to the power of j two pi k m d minus n divided by m,
+
+1085
+02:08:59,600 --> 02:09:03,600
+plus another kind of factors like this.
+
+1086
+02:09:03,600 --> 02:09:07,600
+I mean this is just like adding a term and a minus a term, okay.
+
+1087
+02:09:07,600 --> 02:09:12,600
+So I'm not doing something very tricky, but what I'm doing here is, let me just compare to original.
+
+1088
+02:09:12,600 --> 02:09:19,600
+So originally I have e to the power of minus two pi n k divided by m, right.
+
+1089
+02:09:19,600 --> 02:09:24,600
+So here this is the k, this is actually the k I'm talking about.
+
+1090
+02:09:24,600 --> 02:09:31,600
+But what I can do is I can still keep this term n here, but add another m d here in front.
+
+1091
+02:09:31,600 --> 02:09:35,600
+So I'm adding a term and subtracting the same term.
+
+1092
+02:09:35,600 --> 02:09:38,600
+So these two cancel each other, right.
+
+1093
+02:09:38,600 --> 02:09:43,600
+No change, I'm just adding a term and actually subtracting a term.
+
+1094
+02:09:43,600 --> 02:09:51,600
+All right, but adding this term will be something like change the order of the sequence.
+
+1095
+02:09:51,600 --> 02:09:53,600
+Okay, so if you compare this one with original.
+
+1096
+02:09:53,600 --> 02:10:00,600
+Original form is you do a phase shift first, followed by h, followed by downsampling, right.
+
+1097
+02:10:00,600 --> 02:10:02,600
+That's the original order.
+
+1098
+02:10:02,600 --> 02:10:09,600
+But now I can change the order to first filtering and then downsampling and then another phase shift.
+
+1099
+02:10:09,600 --> 02:10:12,600
+So this phase shift will be different, but another phase shift.
+
+1100
+02:10:13,600 --> 02:10:18,600
+The reason I'm doing that is I'm doing a mathematical modification of the original form.
+
+1101
+02:10:18,600 --> 02:10:28,600
+So by doing so, this is just like convolution between the h and x, followed by downsampling, all right.
+
+1102
+02:10:28,600 --> 02:10:32,600
+And followed by a phase delay, sorry, phase shift in the end.
+
+1103
+02:10:32,600 --> 02:10:39,600
+Okay, I'm just massaging the term to somehow reach an equivalent representation of the nanosulfury band, right.
+
+1104
+02:10:39,600 --> 02:10:42,600
+But the change is that I'm changing the order.
+
+1105
+02:10:42,600 --> 02:10:50,600
+I'm making the phase shift to the end rather than to the beginning, all right.
+
+1106
+02:10:50,600 --> 02:10:52,600
+So you can see, I mean, there's no big change.
+
+1107
+02:10:52,600 --> 02:10:55,600
+I'm just adding a term and subtracting a term.
+
+1108
+02:10:55,600 --> 02:10:57,600
+It doesn't really change the mathematical formulation.
+
+1109
+02:10:57,600 --> 02:11:06,600
+But by doing so, this is equivalent of doing a filtering followed by downsampling before your phase shift.
+
+1110
+02:11:06,600 --> 02:11:11,600
+Okay, so I'm actually changing the phase shift in the faster version to the lower version.
+
+1111
+02:11:11,600 --> 02:11:18,600
+Another way to interpret that is, I mean, I should also refer to the property we had before, right.
+
+1112
+02:11:18,600 --> 02:11:27,600
+So if you look at the property here, right, you can do, you know, some kind of a delay before the downsampling.
+
+1113
+02:11:27,600 --> 02:11:29,600
+Also you can move it downward, right.
+
+1114
+02:11:29,600 --> 02:11:33,600
+So when you move it, the ratio of the delay will be changed.
+
+1115
+02:11:33,600 --> 02:11:35,600
+So it's very similar here.
+
+1116
+02:11:35,600 --> 02:11:47,600
+When I first started by doing a phase shift first, this is actually e to the power of minus j omega n, all right.
+
+1117
+02:11:47,600 --> 02:11:54,600
+But if I move this to the end, I will have correspondingly j omega m d.
+
+1118
+02:11:54,600 --> 02:12:01,600
+So I have the d number of multiplication of the original shift because I'm now doing a delay in the downsampled version,
+
+1119
+02:12:01,600 --> 02:12:03,600
+not the original rate.
+
+1120
+02:12:03,600 --> 02:12:07,600
+But it doesn't change the form, it's an equivalent form, all right.
+
+1121
+02:12:07,600 --> 02:12:11,600
+That's the first change I want to specify, but you have two ways to interpret that.
+
+1122
+02:12:11,600 --> 02:12:15,600
+One way is by adding and subtracting a term without changing the equation.
+
+1123
+02:12:15,600 --> 02:12:21,600
+The second way to interpret that is I'm just moving the phase shift from before to later, right.
+
+1124
+02:12:21,600 --> 02:12:27,600
+But of course when I move it, I have to make sure my delay has been amplified by d times, right.
+
+1125
+02:12:27,600 --> 02:12:29,600
+It's a property we have learned, okay.
+
+1126
+02:12:29,600 --> 02:12:39,600
+So the only change comparing this structure with the original one is just by decimation before frequency shift, all right.
+
+1127
+02:12:39,600 --> 02:12:43,600
+Now, you can do similar things for the synthesis process, all right.
+
+1128
+02:12:43,600 --> 02:12:49,600
+The synthesis process, ideally, originally is by upsampling first, filtering, followed by the phase shift.
+
+1129
+02:12:49,600 --> 02:12:53,600
+But I can always move the phase shift to before.
+
+1130
+02:12:53,600 --> 02:13:00,600
+Of course, you have to multiply by d times, right, because now phase shift happened in the lower rate.
+
+1131
+02:13:00,600 --> 02:13:05,600
+You have to make sure this phase shift has been changed correspondingly, right.
+
+1132
+02:13:05,600 --> 02:13:08,600
+Okay, so correspondingly, this is your modified version.
+
+1133
+02:13:08,600 --> 02:13:13,600
+But why are we doing this? Why do we need to care about the order, right?
+
+1134
+02:13:13,600 --> 02:13:17,600
+The reason is that we want to simplify the process.
+
+1135
+02:13:17,600 --> 02:13:19,600
+So, okay, let me just go slowly.
+
+1136
+02:13:19,600 --> 02:13:26,600
+So this is actually the form by doing the phase shift first and then doing a upsampling, right.
+
+1137
+02:13:26,600 --> 02:13:31,600
+Of course, I mean, first of all, you have to achieve this critical sample
+
+1138
+02:13:31,600 --> 02:13:37,600
+because, you know, if you don't do critical sample, you will have some aliasing, right, in your synthesis process.
+
+1139
+02:13:37,600 --> 02:13:40,600
+But let's say you have this critical sampling.
+
+1140
+02:13:40,600 --> 02:13:46,600
+You can actually achieve this analysis filter by using a polyphase filter.
+
+1141
+02:13:46,600 --> 02:13:49,600
+Okay, so remember we were talking about polyphase filter last week,
+
+1142
+02:13:49,600 --> 02:13:54,600
+where it's nothing but you originally have a very high rate kind of filter.
+
+1143
+02:13:54,600 --> 02:13:56,600
+You don't want to do that rate.
+
+1144
+02:13:56,600 --> 02:14:01,600
+You do sample of your impulse response to break them into different branches, right.
+
+1145
+02:14:01,600 --> 02:14:03,600
+So here we are also doing something similar.
+
+1146
+02:14:03,600 --> 02:14:11,600
+We are talking about breaking down the original rate into multiple kind of frequency range.
+
+1147
+02:14:11,600 --> 02:14:14,600
+And every frequency range, I'm doing a different kind of processing.
+
+1148
+02:14:14,600 --> 02:14:16,600
+Of course, the rate is also different, right.
+
+1149
+02:14:16,600 --> 02:14:23,600
+So here, if we do have this change by making the phase delay, you know, here is after downsampling,
+
+1150
+02:14:23,600 --> 02:14:25,600
+here is before the upsampling.
+
+1151
+02:14:25,600 --> 02:14:30,600
+You can actually achieve the analysis filter bank by using a polyphase filter.
+
+1152
+02:14:30,600 --> 02:14:33,600
+Of course, here the N must be equal to D, right.
+
+1153
+02:14:33,600 --> 02:14:34,600
+How to do it?
+
+1154
+02:14:34,600 --> 02:14:41,600
+You can actually let your polyphase kind of impulse response equal to the prototype filter.
+
+1155
+02:14:42,600 --> 02:14:51,600
+But of course, it's going to be, you know, HN, sorry, N times big N minus K, right.
+
+1156
+02:14:51,600 --> 02:14:55,600
+This is a way you can make them corresponding to each other.
+
+1157
+02:14:55,600 --> 02:15:02,600
+And the corresponding set of decimated input sequence will be also equal to the following, right.
+
+1158
+02:15:02,600 --> 02:15:09,600
+So you are linking up the filter bank with the polyphase structure that we learned last week.
+
+1159
+02:15:09,600 --> 02:15:16,600
+So in other words, you are using the polyphase structure to implement a filter bank that we want to do for this time, right.
+
+1160
+02:15:16,600 --> 02:15:24,600
+But remember, polyphase structure is only a way to, how should I say, to decompose a high rate processing to low rate processing.
+
+1161
+02:15:24,600 --> 02:15:30,600
+You can always do the decomposition because it doesn't really change the entire end-to-end processing form, right.
+
+1162
+02:15:30,600 --> 02:15:43,600
+So here we're just using the polyphase structure to implement the filter bank such that you can swap the H0, which is the original prototype, with the corresponding polyphase.
+
+1163
+02:15:43,600 --> 02:15:52,600
+Okay, so now I'm going to kind of relate my H0, which is the prototype filter, with the polyphase filter, which is PN, right.
+
+1164
+02:15:52,600 --> 02:15:59,600
+So I just change the H0 here with the PN here, all right.
+
+1165
+02:15:59,600 --> 02:16:07,600
+So again, still you need to do an inner convolution here, and then an outer convolution second.
+
+1166
+02:16:07,600 --> 02:16:09,600
+You need to do two convolutions, right.
+
+1167
+02:16:09,600 --> 02:16:17,600
+But we are doing this kind of convolution, sorry, an inner sum followed by an outer convolution.
+
+1168
+02:16:17,600 --> 02:16:25,600
+Now, the outer convolution themselves can actually be equivalent by doing a DFT, ways of multiplication, right,
+
+1169
+02:16:25,600 --> 02:16:33,600
+because time domain convolution can be equivalent to a DFT followed by a time domain multiplication, okay.
+
+1170
+02:16:33,600 --> 02:16:39,600
+So by doing so, we can actually approximate, I mean not probably equivalently,
+
+1171
+02:16:39,600 --> 02:16:48,600
+saying that the outer process of this convolution becomes equivalent to an n-point DFT like this, all right.
+
+1172
+02:16:48,600 --> 02:16:50,600
+So far everything is equivalent, right.
+
+1173
+02:16:50,600 --> 02:17:00,600
+I'm not doing any change, but equivalently you can mathematically represent the convolution, outer convolution, as n-point DFT here.
+
+1174
+02:17:00,600 --> 02:17:05,600
+Because the form like that is exactly convolution, right, this is exactly convolution.
+
+1175
+02:17:05,600 --> 02:17:11,600
+So you can replace the convolution with n-point DFT and to form the way like this.
+
+1176
+02:17:11,600 --> 02:17:19,600
+But of course, before the DFT, the inner process also involved a filtering with the polyphase structure, the P0 here.
+
+1177
+02:17:19,600 --> 02:17:30,600
+So the entire filter band can be represented, at least the analysis part can be represented as a polyphase kind of filter followed by a n-point DFT.
+
+1178
+02:17:30,600 --> 02:17:36,600
+So the n-point DFT will be the DFT of the every output from the subband.
+
+1179
+02:17:36,600 --> 02:17:40,600
+That's where the n comes from because you have eventually n number of channels.
+
+1180
+02:17:40,600 --> 02:17:49,600
+So every time I got n number of channels output, I will do a DFT of the time domain response to get my DFT spectrum.
+
+1181
+02:17:49,600 --> 02:17:57,600
+This is how you can equivalently get your x0, x1, xk, and xn-1, right.
+
+1182
+02:17:58,600 --> 02:18:06,600
+So if you keep like that, you don't really save anything, because DFT doesn't really reduce the complexity.
+
+1183
+02:18:06,600 --> 02:18:11,600
+But in practice, one can actually do FFT to speed up the n-point of DFT.
+
+1184
+02:18:11,600 --> 02:18:17,600
+And if you do FFT, you can save the computational cost from n squared to n log n.
+
+1185
+02:18:17,600 --> 02:18:19,600
+This is where the saving comes from.
+
+1186
+02:18:19,600 --> 02:18:25,600
+It gives you a more computationally efficient way to implement a filter band.
+
+1187
+02:18:25,600 --> 02:18:27,600
+But of course, you can choose not doing that.
+
+1188
+02:18:27,600 --> 02:18:34,600
+You still get a filter band, but you have to do exactly n squared number of multiplication when you want to do this convolution here.
+
+1189
+02:18:34,600 --> 02:18:37,600
+This is actually the original cost.
+
+1190
+02:18:37,600 --> 02:18:41,600
+So this is actually how you do the analysis.
+
+1191
+02:18:41,600 --> 02:18:47,600
+For the synthesis part, you can similarly use the n polyphase filter to do the interpolation.
+
+1192
+02:18:47,600 --> 02:18:49,600
+Also, the analogy is very similar.
+
+1193
+02:18:49,600 --> 02:18:58,600
+You can actually use your polyphase to represent the prototype filter used in your synthesis process.
+
+1194
+02:18:58,600 --> 02:19:04,600
+You can also treat your output as the ELF polyphase filter becomes the following.
+
+1195
+02:19:04,600 --> 02:19:12,600
+So in this case, originally I'm talking about a synthesis process by merging n number of contributions from every channels.
+
+1196
+02:19:13,600 --> 02:19:25,600
+But now I can transfer them into the way of doing a convolution with my Y together with your polyphase structure for every phase.
+
+1197
+02:19:25,600 --> 02:19:27,600
+Sorry, for every channel in this case.
+
+1198
+02:19:27,600 --> 02:19:31,600
+So then my synthesis process will be simplified in the following.
+
+1199
+02:19:31,600 --> 02:19:35,600
+You consider some signal coming from your DSP process.
+
+1200
+02:19:35,600 --> 02:19:46,600
+After that, you're directly doing an inverse n-point DFT to get them into your every channel output like y0, y1, y2, all the way to yn minus 1,
+
+1201
+02:19:46,600 --> 02:19:49,600
+followed by a polyphase filtering.
+
+1202
+02:19:49,600 --> 02:19:55,600
+After that, you just need to make sure all of these signals are forming the final V.
+
+1203
+02:19:55,600 --> 02:19:59,600
+That's going to be the synthesis process equivalently.
+
+1204
+02:19:59,600 --> 02:20:04,600
+Of course, you can do similar speed-up for this inverse DFT by using inverse FFT.
+
+1205
+02:20:04,600 --> 02:20:08,600
+You can save the computation from n squared to n log n.
+
+1206
+02:20:08,600 --> 02:20:15,600
+So this is actually the practical way of people implementing filter banks.
+
+1207
+02:20:15,600 --> 02:20:23,600
+But theoretically, it's nothing but low-pass filter and the down sampling by processing,
+
+1208
+02:20:23,600 --> 02:20:28,600
+followed by up sampling, low-pass filter, followed by a phase shift.
+
+1209
+02:20:28,600 --> 02:20:31,600
+But just like the DFT, nobody really does that.
+
+1210
+02:20:31,600 --> 02:20:37,600
+But in practice, people will do FFT to enjoy the merits of the computational efficiency.
+
+1211
+02:20:37,600 --> 02:20:43,600
+So this is actually how practically filter banks can be implemented.
+
+1212
+02:20:43,600 --> 02:20:47,600
+So let's say this.
+
+1213
+02:20:47,600 --> 02:20:52,600
+I won't really test you on how FFT can be speed-up for DFT.
+
+1214
+02:20:52,600 --> 02:21:00,600
+But what I need to know is basically, first, in time domain, how these two are represented.
+
+1215
+02:21:00,600 --> 02:21:05,600
+So analysis kind of filter, how this is represented in the time domain.
+
+1216
+02:21:05,600 --> 02:21:13,600
+You need to understand this process is nothing but a phase shift followed by a convolution.
+
+1217
+02:21:13,600 --> 02:21:17,600
+So your x is your time input, your time domain input.
+
+1218
+02:21:17,600 --> 02:21:21,600
+Phase shift will be a function of your omega.
+
+1219
+02:21:21,600 --> 02:21:23,600
+This is 0, 1, 2, 3.
+
+1220
+02:21:23,600 --> 02:21:31,600
+And also, this is your kind of the impulse response of the channel-specific low-pass filter.
+
+1221
+02:21:31,600 --> 02:21:34,600
+You need to know what happened in time domain.
+
+1222
+02:21:34,600 --> 02:21:37,600
+And also, you need to know what happened in the frequency domain.
+
+1223
+02:21:37,600 --> 02:21:40,600
+In the frequency domain, it's nothing but selecting a band.
+
+1224
+02:21:40,600 --> 02:21:42,600
+You're first selecting the specific band.
+
+1225
+02:21:42,600 --> 02:21:47,600
+You do the downsampling to stretch out the entire band into the 0 to pi range.
+
+1226
+02:21:47,600 --> 02:21:50,600
+And you do low-rate processing.
+
+1227
+02:21:50,600 --> 02:21:56,600
+And then, corresponding in the time domain, when you do synthesis, you need to first upsampled.
+
+1228
+02:21:56,600 --> 02:22:01,600
+In other words, you have to go from this very narrow band into the blue, which is the...
+
+1229
+02:22:01,600 --> 02:22:02,600
+Oh, sorry, sorry.
+
+1230
+02:22:02,600 --> 02:22:11,600
+You have to go from the blue, which is the very wide band, and you do upsampling to make them shrink into only the selected region.
+
+1231
+02:22:11,600 --> 02:22:14,600
+And then you shift to the original bandwidth.
+
+1232
+02:22:14,600 --> 02:22:22,600
+So this is done by doing the upsampling, filtering, and the phase shift.
+
+1233
+02:22:22,600 --> 02:22:25,600
+So we should understand what happened in the time domain.
+
+1234
+02:22:25,600 --> 02:22:27,600
+This is the time domain. What happened?
+
+1235
+02:22:27,600 --> 02:22:33,600
+Which is nothing but an upsampling followed by a convolution and then a phase shift.
+
+1236
+02:22:33,600 --> 02:22:37,600
+And correspondingly, I want you to interpret this in the frequency domain.
+
+1237
+02:22:37,600 --> 02:22:45,600
+What you are doing here is you are going to shrink the signal into a limited band, with or without shifting to the corresponding band pass,
+
+1238
+02:22:45,600 --> 02:22:47,600
+and then do a summation together.
+
+1239
+02:22:47,600 --> 02:22:53,600
+Every channel occupies the specific bandwidth, and they won't be overlapping to each other.
+
+1240
+02:22:53,600 --> 02:22:58,600
+So, up to here, I think that's pretty much what I need you to know.
+
+1241
+02:22:58,600 --> 02:23:05,600
+The speedup is something as additional, because speedup is the merits that people want to enjoy in practice.
+
+1242
+02:23:05,600 --> 02:23:11,600
+But I won't really test you and say, hey, how can you write FFT to speed up the DFT node? You don't have to know this.
+
+1243
+02:23:11,600 --> 02:23:19,600
+But you need to know that actually nobody will do the actual implementation, because this is not efficient.
+
+1244
+02:23:19,600 --> 02:23:26,600
+People are going to further optimize it by using a DFT and then FFT to speed up that.
+
+1245
+02:23:26,600 --> 02:23:30,600
+This is the practical solution for designing a filter band.
+
+1246
+02:23:30,600 --> 02:23:37,600
+Okay. Any questions? Good?
+
+1247
+02:23:37,600 --> 02:23:43,600
+Okay, so I think I have another topic, but I think I'm going to leave it for next week, because it's already nine.
+
+1248
+02:23:43,600 --> 02:23:48,600
+So, last but not least, this is actually, I mean, quadrature mirror filter.
+
+1249
+02:23:48,600 --> 02:23:54,600
+This is also very important, because in your homework Q3, you need this to do the Q3 question.
+
+1250
+02:23:54,600 --> 02:23:57,600
+Right. But I'm going to leave it for next week.
+
+1251
+02:23:57,600 --> 02:24:04,600
+So next week, I will spend maybe, let's say, 40 minutes to an hour to cover the last topic.
+
+1252
+02:24:04,600 --> 02:24:09,600
+The second half, I'm going to do a quick summary of the entire thing we covered so far.
+
+1253
+02:24:09,600 --> 02:24:15,600
+So I will give you some kind of highlights, you know, possibly relevant to your exam, but I don't know.
+
+1254
+02:24:15,600 --> 02:24:20,600
+And then you have questions you can ask me. Okay, you can bring the question to me. I will reserve some time to take any question.
+
+1255
+02:24:20,600 --> 02:24:25,600
+Okay, so that will be the arrangement for last week. So last week will be the last lecture, right?
+
+1256
+02:24:25,600 --> 02:24:28,600
+You know that after that, you have this recess, right?
+
+1257
+02:24:28,600 --> 02:24:35,600
+So do come here next week, and hopefully we can wrap up the part for my portion.
+
+1258
+02:24:35,600 --> 02:24:38,600
+All right. Any questions before I end the session?
+
+1259
+02:24:38,600 --> 02:24:41,600
+If no, thanks so much, and hopefully we'll see you next week.
+
+1260
+02:24:41,600 --> 02:24:44,600
+All right, and the last lecture next week. Thank you.
+
+1261
+02:24:50,600 --> 02:25:19,600
+.
+
+1262
+02:25:19,600 --> 02:25:48,600
+.
+
+1263
+02:25:48,600 --> 02:26:11,600
+.
+

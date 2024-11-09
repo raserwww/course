@@ -1,0 +1,3992 @@
+1
+00:00:00,000 --> 00:00:10,480
+chapter, so the quiz will be only on the first two chapters, and for the part two, not the
+
+2
+00:00:10,480 --> 00:00:20,120
+Pro Woon Byung's part, which you already finished the assignment. Okay, so I hope this is clear
+
+3
+00:00:20,120 --> 00:00:42,080
+to you. I will also make an announcement later, maybe next week or so, to remind you, or maybe
+
+4
+00:00:42,080 --> 00:00:55,720
+tomorrow after the class. Any questions so far? I think we start this part two from last week,
+
+5
+00:00:55,720 --> 00:01:09,720
+although I did a little bit background on Dealing Week 1, and then continue from last week. So yeah,
+
+6
+00:01:09,720 --> 00:01:20,960
+so this part is quite different from the part one, where you already finished. It required,
+
+7
+00:01:20,960 --> 00:01:30,240
+of course, some knowledge from the part one, and some others, related ones, such as probability,
+
+8
+00:01:30,240 --> 00:01:42,480
+random process, and some matrix, algebraic matrix theory, which we will introduce for the mainly
+
+9
+00:01:42,480 --> 00:01:53,120
+for chapter three. The second chapter, there are also some, but maybe not very heavy, and also some
+
+10
+00:01:53,160 --> 00:02:06,800
+complex numbers. So maybe, okay, so come back to this later. So last week, before I left, I asked you
+
+11
+00:02:06,800 --> 00:02:21,400
+to try to figure out how to do these exercises, which is quite useful, because it links power,
+
+12
+00:02:21,400 --> 00:02:33,560
+density, spectrum, and the AR, which is a weekly stationary AR process, and also filters, and
+
+13
+00:02:33,560 --> 00:02:49,280
+different equations, and so on. So any of you finish, and you would like to, perhaps, you want
+
+14
+00:02:49,280 --> 00:03:02,680
+to give your solution here. Sometimes I encourage students, you know, come up to the stage to do it.
+
+15
+00:03:02,680 --> 00:03:15,640
+Also, now the bigger class size is not so easy. We do that for tutorial or small class size. But
+
+16
+00:03:15,680 --> 00:03:30,840
+anyway, it will be good to try. Any volunteer, any student, going through these several steps,
+
+17
+00:03:30,840 --> 00:03:51,320
+as you can see here. No? Okay, so maybe, let me try to explain it here. So this may also serve as
+
+18
+00:03:51,320 --> 00:04:05,320
+review or summary of what you should learn, and also important to take notes. So let's start with
+
+19
+00:04:05,320 --> 00:04:17,160
+reviewing, say, jet planes. I think you, you see here? You already learned, you know, like,
+
+20
+00:04:17,160 --> 00:04:27,960
+transfer functions, jet transforms. So in the jet plane, which is complex, you will have a lower part,
+
+21
+00:04:27,960 --> 00:04:36,600
+okay? Of course, usually you need to write zero, and imaginary part, all right? So this is very
+
+22
+00:04:36,600 --> 00:04:46,760
+important to link jet transform, you know, transfer functions and the Fourier transform,
+
+23
+00:04:46,760 --> 00:04:58,040
+which we also need here for the power density spectrum, like you can see here. So you see here,
+
+24
+00:04:58,040 --> 00:05:09,720
+if you draw so-called unit circles, you know, in the jet plane, of course, this is minus one,
+
+25
+00:05:09,720 --> 00:05:20,760
+this is one, and this is j, also 90 degrees. So this will be minus j. So this is more like the
+
+26
+00:05:21,480 --> 00:05:29,960
+year two signaling systems, you know, like contents. So I always emphasize you should
+
+27
+00:05:29,960 --> 00:05:38,440
+have a good understanding of this. And then, what happens if j is the whole complex plane?
+
+28
+00:05:38,440 --> 00:05:48,680
+If I let z equal to e to the power j omega, of course, this j is what you know, the
+
+29
+00:05:49,640 --> 00:05:57,400
+minus one, take the square root, and that's here. So this is complex.
+
+30
+00:06:00,360 --> 00:06:15,160
+So these are very basic maps here. Sometimes we also do it by 2 pi f. This is the angular
+
+31
+00:06:15,160 --> 00:06:23,640
+frequency, this is the frequency in hertz, and it will be continuous because in the complex plane
+
+32
+00:06:23,640 --> 00:06:36,920
+you go by one circle, it's 2 pi, 360 degrees. So we call this unit circle.
+
+33
+00:06:37,000 --> 00:06:48,360
+So the unit circle is here, also here. If you draw, it will be here. Then you use this.
+
+34
+00:06:49,400 --> 00:07:02,840
+So you all know in the transport function and so on, we have edge to the edge of jet.
+
+35
+00:07:03,400 --> 00:07:13,080
+And in, normally we represent it by rational functions, which is, say,
+
+36
+00:07:14,680 --> 00:07:26,360
+it's b of j plus a of j. And I think this is very well known, like IR filters, which
+
+37
+00:07:26,760 --> 00:07:38,600
+I think part one is focused more on FIR filters, but you should already learn that maybe in DSP
+
+38
+00:07:38,600 --> 00:07:47,080
+or in some other courses. I need to emphasize both IR filter and FIR filters are quite important in
+
+39
+00:07:48,040 --> 00:07:54,200
+in this part two. Also, probably in part one, he may spend more time on
+
+40
+00:07:54,920 --> 00:08:02,680
+FIR filter, which is somewhat easier. But in this part two, I think you need to get used to
+
+41
+00:08:03,880 --> 00:08:14,760
+rational functions, which is like corresponding to IR filter. So if you all have the transport
+
+42
+00:08:14,760 --> 00:08:24,840
+functions, then you want to link to Fourier transform, or we call that frequency response,
+
+43
+00:08:24,840 --> 00:08:31,400
+depending on you're talking about a signal. You know, signals, we normally say you take the
+
+44
+00:08:31,400 --> 00:08:41,160
+Fourier transform, but if you are referring to the linear time invariant system, you see,
+
+45
+00:08:41,160 --> 00:08:50,440
+such as you have the input-output relationship, so you can have edge of jet, or you may also call
+
+46
+00:08:50,440 --> 00:09:01,080
+that as H e to the power j omega, you see. So that's the input, can be time domain, can be
+
+47
+00:09:02,040 --> 00:09:15,400
+in frequency domain, or can be in the jet domain. So these are all very important
+
+48
+00:09:17,000 --> 00:09:26,600
+relationships, and you should have a good understanding of that. Typically,
+
+49
+00:09:27,000 --> 00:09:35,960
+although we also need to pay attention, although we call that edge of jet, but if you write down,
+
+50
+00:09:37,240 --> 00:09:49,480
+we are talking about causal filters, then we will write it as jet to the power of negative power,
+
+51
+00:09:49,480 --> 00:09:54,840
+you see. So don't get confused, jet corresponding, if you write it as a rational function,
+
+52
+00:09:54,840 --> 00:10:03,400
+it will be a function of jet to the negative power. So say if you have higher order, you will
+
+53
+00:10:03,400 --> 00:10:11,400
+be a to jet to the power of two, and so on, and then for b, normally this is normalized,
+
+54
+00:10:11,400 --> 00:10:19,720
+but for b, we may just starting from the zero constant b one j minus one, and so on.
+
+55
+00:10:20,360 --> 00:10:26,280
+Okay, so these are the notations, because for,
+
+56
+00:10:28,680 --> 00:10:35,640
+when you talk about, you know, real world signals, normally we will be talking about
+
+57
+00:10:37,320 --> 00:10:47,000
+filters, causal filter is your base on past sample to filter the current value or predict
+
+58
+00:10:47,880 --> 00:10:52,440
+future value, and that will be the main topic which we are going to talk about,
+
+59
+00:10:52,440 --> 00:11:02,920
+linear prediction filter. Okay, so get it clear here, and then what's next? So
+
+60
+00:11:04,280 --> 00:11:16,440
+try to provide some important background before we tackle that question. Okay, so
+
+61
+00:11:17,000 --> 00:11:26,920
+let's see, after that we will have, now if you remember earlier, we have h of j equal to
+
+62
+00:11:27,960 --> 00:11:37,880
+b, b is for the numerator, so we have this, and then if you substitute
+
+63
+00:11:37,880 --> 00:11:50,760
+z into the unit circle, you will get the frequency response, which is like
+
+64
+00:11:53,640 --> 00:12:03,080
+like that. So that means in this case, we are not looking at the whole complex variable of z,
+
+65
+00:12:03,080 --> 00:12:10,680
+so this is more like if you are talking about the input is sideways, and then, you know,
+
+66
+00:12:10,680 --> 00:12:18,520
+you use Fourier analysis, and then the output also sideways, goes through a linear system,
+
+67
+00:12:18,520 --> 00:12:33,160
+you go through this frequency response, so you have this, okay, and this is what you get here.
+
+68
+00:12:34,200 --> 00:12:42,280
+Now, since you put this complex, you know, j is, as I already say, is a complex,
+
+69
+00:12:43,080 --> 00:12:54,360
+in general, complex j number here, so then you may talk about if you are going back to the DSP,
+
+70
+00:12:54,360 --> 00:13:03,560
+not the advanced DSP here, you may talk about, you know, amplitude and phase response, so I think
+
+71
+00:13:03,560 --> 00:13:11,800
+phase for now, you don't really care too much either way, talk about amplitude, because that's
+
+72
+00:13:14,120 --> 00:13:21,000
+very important, you will see which component you have the more dominant, higher value, you see,
+
+73
+00:13:21,000 --> 00:13:31,240
+then this is any complex number, you see, polar form, you take the magnitude, okay, then you'll be
+
+74
+00:13:31,240 --> 00:13:41,320
+taking the absolute value, and then taking absolute value, sometimes the operation is not
+
+75
+00:13:42,760 --> 00:13:51,320
+very easy to manipulate, so you can also take the amplitude and then raise the power of two,
+
+76
+00:13:51,320 --> 00:14:00,840
+so this is, in this case, is very interesting, you can write just as product of, say, I have,
+
+77
+00:14:02,120 --> 00:14:09,560
+of course, here I have to make the assumption, the filter coefficient a lower coefficient,
+
+78
+00:14:12,280 --> 00:14:14,520
+okay, so that's always being
+
+79
+00:14:14,680 --> 00:14:24,840
+assumed here, because when you build a circuit or algorithm, normally we will use a lower
+
+80
+00:14:24,840 --> 00:14:32,120
+coefficient, but sometimes you may consider complex coefficient, which is probably only
+
+81
+00:14:32,120 --> 00:14:40,040
+mathematically interesting. Assume you have lower coefficient, then what you can have the
+
+82
+00:14:40,040 --> 00:14:44,920
+relationship is, instead of take absolute value raise power two, you can just simply
+
+83
+00:14:47,640 --> 00:14:56,920
+multiply, you see, I have an edge to the power e j omega, if you put that in, and multiply by
+
+84
+00:14:57,160 --> 00:15:00,840
+e to the power minus j
+
+85
+00:15:04,680 --> 00:15:14,680
+j omega, so this is, you see, the same filter coefficient are the same except the variable,
+
+86
+00:15:14,680 --> 00:15:20,600
+you have one is e to the power j omega, while the other is a complex conjugate, you see,
+
+87
+00:15:21,160 --> 00:15:29,720
+because this is a pure complex number, then you can also write this way, you can write like
+
+88
+00:15:30,680 --> 00:15:40,120
+e to the power j omega, multiply by this same function, you see, so you be careful,
+
+89
+00:15:40,120 --> 00:15:48,360
+one is you have the negative part, now I write the same one, but if I take the complex conjugate
+
+90
+00:15:49,000 --> 00:15:57,320
+operation, it will be the same, so these are very basic from, you know, like complex number
+
+91
+00:15:58,760 --> 00:16:07,400
+and so on, and as I emphasize, you will be assuming lower coefficient, okay, so what's the
+
+92
+00:16:07,400 --> 00:16:16,760
+implication of here, you need to just give a quick summarize, if I start from say h of j,
+
+93
+00:16:17,720 --> 00:16:24,360
+then if you take the, evaluate along the unit circle, you will get
+
+94
+00:16:28,840 --> 00:16:31,640
+frequency response, so that's
+
+95
+00:16:34,360 --> 00:16:39,480
+an easy one, and then now if I give you this,
+
+96
+00:16:39,480 --> 00:16:49,560
+you see, if you write as the frequency response, but you have expression of power of two,
+
+97
+00:16:49,560 --> 00:17:03,400
+so how are we going to get back the original function of the linear time invariant system,
+
+98
+00:17:03,400 --> 00:17:14,120
+so what you do here is you can first of course you write this as a function of e to the power
+
+99
+00:17:14,120 --> 00:17:28,760
+j omega, and then so what you get is you can get as a product of this, so from this absolute value
+
+100
+00:17:28,760 --> 00:17:36,280
+and raise the power of two, you can get that, so the way to do is like the reverse is I let
+
+101
+00:17:37,480 --> 00:17:45,640
+you identify the e to the power j omega, and then after that I just make a variable change,
+
+102
+00:17:45,640 --> 00:17:59,240
+you see, from e to the power j omega go to j, and if you have the power of minus j omega,
+
+103
+00:17:59,880 --> 00:18:09,560
+then you will just do it to the power minus one, because the corresponding is in,
+
+104
+00:18:10,200 --> 00:18:20,600
+because in j is a complex variable, you can invert the j, but you're not taking the conjugate,
+
+105
+00:18:20,600 --> 00:18:33,400
+conjugate is you will be referring to the e to the power j omega, okay, so therefore with all this
+
+106
+00:18:33,960 --> 00:18:43,960
+you know background, what can we do for this XIG, so you see here this one is given,
+
+107
+00:18:46,680 --> 00:19:00,360
+giving this form, so you see here we give the power density spectrum, when we talk about power
+
+108
+00:19:00,360 --> 00:19:10,120
+density spectrum, we will be right in the frequency domain, say this is
+
+109
+00:19:13,800 --> 00:19:17,160
+omega, this is a function, so we simply
+
+110
+00:19:19,640 --> 00:19:26,680
+like simplify this, it will be the same here, because like you can see here in the
+
+111
+00:19:27,640 --> 00:19:38,760
+expression, so we see it as a function of this e to the power j omega, sometimes we also call
+
+112
+00:19:39,400 --> 00:19:49,800
+if you replay this into j, you see, like what we already done early, you see, by
+
+113
+00:19:54,680 --> 00:20:04,120
+writing this way, sometimes we also call this product in the j domain also a power density
+
+114
+00:20:04,680 --> 00:20:14,680
+spectrum, also it's not a regular power density spectrum, it's only referred to frequency,
+
+115
+00:20:14,680 --> 00:20:23,000
+so sometimes we may say this is the power density spectrum in j domain, because from one you can get
+
+116
+00:20:23,000 --> 00:20:34,680
+to the other, like what we see in these XIGs, okay, so therefore with all this
+
+117
+00:20:37,560 --> 00:20:44,760
+preparation for these XIGs, you can see here from the given one
+
+118
+00:20:44,760 --> 00:21:02,600
+omega here, you can rewrite it into this, you see, so remember we are given the absolute value
+
+119
+00:21:02,600 --> 00:21:09,240
+raised power of two, so what you can write here, instead of absolute value raised power of two,
+
+120
+00:21:09,240 --> 00:21:16,040
+you can write it as one minus e to the power minus j omega,
+
+121
+00:21:16,040 --> 00:21:24,360
+and you'll be the same, you can, so you can verify by yourself by expanding it, you see, here
+
+122
+00:21:25,160 --> 00:21:34,040
+to the power minus two omega, so this is the one, you see, the given one, instead of taking absolute
+
+123
+00:21:34,040 --> 00:21:40,440
+value with power two, you just simply write without absolute value, but then you have to multiply by
+
+124
+00:21:40,440 --> 00:21:54,680
+the other factor in the denominator also, so maybe I explain using this page, so it will be
+
+125
+00:21:54,680 --> 00:22:05,320
+continuing this way, it will be just one minus e to the power j omega, okay, and then plus, you see
+
+126
+00:22:05,320 --> 00:22:14,440
+all the other coefficients are the same, except only the whatever power you see, one factor is all the
+
+127
+00:22:14,440 --> 00:22:25,400
+minus j omega, the other will be j positive, okay, j to the power two omega, so here you don't need
+
+128
+00:22:25,960 --> 00:22:34,200
+you don't need to take the absolute value, because you take absolute value raised power
+
+129
+00:22:34,200 --> 00:22:43,640
+two is the same as you explained that, and then as a product, so therefore based on what we
+
+130
+00:22:44,440 --> 00:22:49,800
+analysis here, you can from here to get the corresponding
+
+131
+00:22:51,720 --> 00:23:00,840
+so-called power spectrum density in the Z domain, in this way by just simply
+
+132
+00:23:00,840 --> 00:23:12,200
+now you get the product of H of Z and H of Z to the power minus one, so this is what you can
+
+133
+00:23:13,960 --> 00:23:21,320
+you see you can do, and then where is this H of Z, you see H of Z is the one corresponding to
+
+134
+00:23:21,960 --> 00:23:30,280
+corresponding to the e to the power minus j omega, so therefore our H of Z in this case it will be
+
+135
+00:23:31,720 --> 00:23:42,120
+one over one minus z to the power minus one, and then plus 0.5 z to the power minus two, okay,
+
+136
+00:23:44,040 --> 00:23:52,600
+and then if you want to verify the filter is a stable one, you have to get the poles, you see,
+
+137
+00:23:53,160 --> 00:24:00,760
+this is second order, so I'm sure you know how to get the rules of second order
+
+138
+00:24:01,720 --> 00:24:15,880
+equation polynomial, okay, so this is how your gate, so this is our LTI is linear and also
+
+139
+00:24:15,880 --> 00:24:25,400
+stable, you can you can verify, so this is a function, you see, if you look at that,
+
+140
+00:24:25,400 --> 00:24:32,280
+and then from here, you know, here we are trying to get the different equation because this
+
+141
+00:24:32,280 --> 00:24:42,520
+filter is an opposed filter, so I assume you also know how to get from this
+
+142
+00:24:42,520 --> 00:24:50,600
+input-output relationship, because this, you see, as I already said, this is the ratio of the
+
+143
+00:24:50,600 --> 00:24:58,520
+output that comes from first input, so therefore our corresponding difference equation in the time
+
+144
+00:24:58,520 --> 00:25:15,080
+domain, it will be give you like yn, if you use yn or perhaps I think we use w here, so maybe
+
+145
+00:25:15,080 --> 00:25:30,280
+I can write, is it not to confuse, it will be x of z versus w of z, because w normally
+
+146
+00:25:31,640 --> 00:25:40,680
+is like white noise because we use omega w, okay, so therefore the in this case input is w,
+
+147
+00:25:40,760 --> 00:25:49,080
+like the wn, where output is xn, so with the input-output, you have to write it
+
+148
+00:25:50,040 --> 00:26:00,040
+clearly, okay, so in that case, how from this, it should be very easy, you can write the
+
+149
+00:26:00,040 --> 00:26:09,400
+corresponding difference equation, since xn here is the output, so our xn is,
+
+150
+00:26:11,720 --> 00:26:20,600
+this is a causal filter, it only depends on the pass value, and then minus 0.5, so
+
+151
+00:26:20,920 --> 00:26:30,200
+n minus 2, because you see here, z to the power minus 2, I mean your delay, delay two sample,
+
+152
+00:26:30,200 --> 00:26:38,280
+and then finally in the numerator here, corresponding to the input, so in this case,
+
+153
+00:26:41,400 --> 00:26:50,280
+the filter doesn't have any zero, so the numerator is one, so corresponding to
+
+154
+00:26:50,520 --> 00:27:02,120
+wn, okay, so this is what our sub-question A, determining the difference equation for
+
+155
+00:27:02,760 --> 00:27:12,360
+generating this AR process when the excitation is white noise, okay, so you can see here,
+
+156
+00:27:12,360 --> 00:27:19,160
+because lastly we also talked about the innovation and representation, so innovation,
+
+157
+00:27:19,160 --> 00:27:27,560
+so you see here, this is the random process related to filter, related to white noise, and
+
+158
+00:27:31,000 --> 00:27:40,040
+the description, you can also use the proper difference equation, which you learned before,
+
+159
+00:27:40,680 --> 00:27:47,800
+except in the past, you always assume, you see when I talk about filter, you assume the input is
+
+160
+00:27:47,800 --> 00:27:55,880
+a proper unit state function or impulse function, you go through a system, you generate another
+
+161
+00:27:55,880 --> 00:28:02,680
+deterministic function, or sometimes even input is a side way, you go through a system, generate
+
+162
+00:28:02,680 --> 00:28:12,680
+another side way, but here we are trying to lean into the random signal, so random signal,
+
+163
+00:28:12,680 --> 00:28:21,320
+the input will be like white noise, you go through a system, you will generate this AR process, okay,
+
+164
+00:28:21,320 --> 00:28:32,440
+so it's quite, quite related to what you learned before, except the nature of the input signal
+
+165
+00:28:32,440 --> 00:28:39,720
+and the output change, but the system in the middle, except it will not change, you see here,
+
+166
+00:28:40,680 --> 00:28:52,520
+so this is still the same as what you learned before, so finally the second sub-question is
+
+167
+00:28:52,520 --> 00:28:58,280
+determine the system function for the white turning filter, so white turning filter is the
+
+168
+00:28:59,800 --> 00:29:07,080
+reverse, so now we have the output which is x of n, now if we want to generate
+
+169
+00:29:07,960 --> 00:29:14,680
+generally white noise, how are we going to build another filter to go back,
+
+170
+00:29:15,320 --> 00:29:22,200
+actually it's very easy in this case, once you get this H of z, what you do is just take one
+
+171
+00:29:22,920 --> 00:29:32,280
+over H of z right here, it's an inverse filter, always the other round, and then from the input
+
+172
+00:29:32,280 --> 00:29:37,880
+output relationship you can also see here, I guess, yeah, if this is the ratio, you want the
+
+173
+00:29:37,880 --> 00:29:45,240
+reverse, you see, the input become output, output become input, of course the filter you just take
+
+174
+00:29:45,240 --> 00:29:57,640
+the, you know, take the inverse, so in that case very easy our inverse filter, one over H of z
+
+175
+00:29:58,520 --> 00:30:07,320
+it will be just equal to, you know, this is all poles, then you will become a IR filter,
+
+176
+00:30:07,320 --> 00:30:18,440
+okay, then simply you just write it down as one minus plus 0.5 z to the power minus two,
+
+177
+00:30:19,000 --> 00:30:28,280
+okay, so this is also an IR filter because you have all poles IR filter, your inverse will be
+
+178
+00:30:28,840 --> 00:30:35,000
+the numerator here is one, so you become the denominator, the denominator one is the same as
+
+179
+00:30:35,000 --> 00:30:44,200
+you're not dividing anything, okay, so this xij is at the end of the chapter one, somewhat
+
+180
+00:30:45,160 --> 00:30:54,760
+link what you learned so far, although not all, but at least several concepts, and in particular I
+
+181
+00:30:54,760 --> 00:31:05,640
+hope it helps you to get a better understanding about the filters and complex numbers and
+
+182
+00:31:05,640 --> 00:31:14,600
+frequency response, transfer functions, and all these, okay, any question before we
+
+183
+00:31:16,040 --> 00:31:20,520
+start the new chapter two?
+
+184
+00:31:25,000 --> 00:31:32,680
+Because the review here is also important because subsequently we talk about still linear
+
+185
+00:31:33,320 --> 00:31:44,280
+prediction filter which is very much related to the discussion here, okay, if no question let's
+
+186
+00:31:46,920 --> 00:31:48,760
+continue here, we will,
+
+187
+00:31:52,440 --> 00:32:00,440
+we have two just two main chapters, chapter one is the more like it's quite long you
+
+188
+00:32:01,000 --> 00:32:07,240
+introduce some concepts, some maps, backgrounds, and so on, and that's why in the past I also do
+
+189
+00:32:07,240 --> 00:32:15,160
+the same for this quiz, it will be, there could be one question from more like
+
+190
+00:32:17,480 --> 00:32:25,800
+probability related, and then it could be two questions for the chapter two which is,
+
+191
+00:32:26,680 --> 00:32:34,120
+which we are going to discuss for the quiz. It's not a very difficult question, just like
+
+192
+00:32:34,120 --> 00:32:42,840
+small question similar to exam question, a little bit simple, maybe half of one question equivalent
+
+193
+00:32:42,840 --> 00:32:51,000
+to half of the final exam papers and paper question, and then in the final exam paper
+
+194
+00:32:51,000 --> 00:33:01,960
+usually I will not exam on the mass background again, but it could be incorporated into part of
+
+195
+00:33:01,960 --> 00:33:10,840
+the part of the question related to chapter two and chapter three, so usually one chapter will
+
+196
+00:33:10,840 --> 00:33:20,760
+have one proper question, have some sub-question, so that's what you can take note in
+
+197
+00:33:22,200 --> 00:33:32,280
+preparing for the upcoming quiz in grade 12 and the final exam. Okay, so what do we
+
+198
+00:33:33,080 --> 00:33:42,280
+have here? We will first go through introduction and then after that we talk about forward and
+
+199
+00:33:42,280 --> 00:33:54,920
+backward linear prediction, so this is very relative to filter but not exactly the same,
+
+200
+00:33:54,920 --> 00:34:05,560
+you have new concepts here also, and then one of the important ones is to solve
+
+201
+00:34:05,560 --> 00:34:13,720
+normal equation arising from this linear prediction, and then after that we will talk
+
+202
+00:34:13,720 --> 00:34:20,760
+about one another important filter, Wiener filters, which can be used for filtering and
+
+203
+00:34:20,760 --> 00:34:33,720
+prediction, so that's the outline of this chapter, and like in part one and also in your
+
+204
+00:34:33,720 --> 00:34:43,080
+previous study, such as DSP and so on, you already learned how to design filters,
+
+205
+00:34:43,960 --> 00:34:54,280
+FIR, IR filter, or even filter paint, you have several filters putting together, and then you can
+
+206
+00:34:54,280 --> 00:35:06,600
+have very wide applications in communication, control, geophysics, or even some biomedical
+
+207
+00:35:06,600 --> 00:35:20,200
+things. But here we also talk about filter, as you're just seeing, we are also mainly dealing
+
+208
+00:35:20,200 --> 00:35:29,480
+with linear filters, but then we will be looking from the statistical viewpoints, a little bit
+
+209
+00:35:29,480 --> 00:35:38,120
+similar to the statistical signal processing, the 7402, some of you also taking that one.
+
+210
+00:35:40,760 --> 00:35:49,640
+And then here, it's no longer in frequency domain, sorry, in the early part one, the
+
+211
+00:35:49,640 --> 00:35:58,920
+conventional filter design, we normally call that frequency selective filters, that means you have
+
+212
+00:35:58,920 --> 00:36:07,720
+low pass, high pass, bank pass, you're based on the frequency bank to design, your specification
+
+213
+00:36:07,720 --> 00:36:17,960
+is based on frequency, so we call that like frequency selective filters. Here, because our
+
+214
+00:36:19,480 --> 00:36:25,800
+signal and noise, it could be mixed together in the same frequency bank, you can't separate the
+
+215
+00:36:25,800 --> 00:36:32,280
+low or high frequency. So what you do is you're based on some statistical property, say like
+
+216
+00:36:35,560 --> 00:36:45,320
+Gaussian signal, or AR processing, and so on. And then we get the best by minimizing
+
+217
+00:36:45,880 --> 00:36:58,040
+in terms of the mean square errors in the statistical viewpoints. And then
+
+218
+00:36:59,640 --> 00:37:08,120
+we will use mainly second order statistics, of course in that case also include the first order,
+
+219
+00:37:08,600 --> 00:37:18,440
+first order is the starting point, like mean values, and so you need that to build up the
+
+220
+00:37:18,440 --> 00:37:26,440
+second order statistics, which is autocorrelation and cross-correlation. And this is the same
+
+221
+00:37:26,440 --> 00:37:35,560
+approach we will be also studying in chapter three, the power spectrum estimation, which are
+
+222
+00:37:35,560 --> 00:37:43,960
+also based on the autocorrelation and cross-correlation. So this two chapters are very much
+
+223
+00:37:44,920 --> 00:37:54,680
+related, it's just the emphasis are a little bit different. One is more in the time domain
+
+224
+00:37:54,680 --> 00:38:01,480
+analysis in the linear prediction, where the power spectrum density is more like in the
+
+225
+00:38:01,960 --> 00:38:12,360
+frequency domain. Okay, so that's the background, seems not working here.
+
+226
+00:38:15,800 --> 00:38:23,400
+Yeah, so what's mean by forward linear prediction? I think this is,
+
+227
+00:38:23,400 --> 00:38:33,400
+again here you can, nowadays it's very common you try to link into machine learning and so on,
+
+228
+00:38:33,400 --> 00:38:44,120
+and this cause it does have some connection, and actually you can see this is more the traditional
+
+229
+00:38:44,120 --> 00:38:53,400
+machine learning approach rather than using neural network. So this, for example linear
+
+230
+00:38:53,400 --> 00:39:04,440
+prediction is very popular and very important in the speech signal processing, and even nowadays
+
+231
+00:39:04,440 --> 00:39:14,920
+you still have some, you know, if you are processing or analyzing speech signal, you can
+
+232
+00:39:14,920 --> 00:39:23,640
+still use linear prediction. So nowadays, very often you use deep learning models to do
+
+233
+00:39:23,640 --> 00:39:40,200
+like the learning from the last data, data size, and so on. So the meaning of linear prediction is
+
+234
+00:39:41,480 --> 00:39:51,560
+you're given some pass value, then based on the pass value you try to, if you are using linear,
+
+235
+00:39:51,560 --> 00:40:01,240
+you just do the linear combination to predict the current value. But you don't know the current
+
+236
+00:40:04,040 --> 00:40:13,880
+signal value yet based on, say, pass p if you are using order p. Okay, so this is,
+
+237
+00:40:14,680 --> 00:40:24,200
+you see, like what we call forward linear prediction is you use pass value then
+
+238
+00:40:25,000 --> 00:40:32,440
+predict the next value in terms of the time sequence, say one, two, three, then you predict
+
+239
+00:40:33,000 --> 00:40:40,680
+three. So you can mathematically, you can see, we try to predict the current value,
+
+240
+00:40:40,680 --> 00:40:49,000
+which is x of n. n is the, you can take n equal to three or four and so on, you just give this.
+
+241
+00:40:49,560 --> 00:41:00,440
+And then in that case was a pass value. If it's one step, meaning you see you go back by one
+
+242
+00:41:01,240 --> 00:41:09,080
+sample, and one sample at a time, and then we're dealing with discrete time signal, then of course
+
+243
+00:41:09,160 --> 00:41:16,440
+it will be n minus one, n minus two, and so on. Until when? Then depending on how many
+
+244
+00:41:17,160 --> 00:41:24,360
+samples you're predicting, say if order p, then you will be using p values, one, two, three,
+
+245
+00:41:24,360 --> 00:41:32,360
+up to p. So mathematically you can define, this is the value. We don't know x of n, we use hat.
+
+246
+00:41:33,000 --> 00:41:42,920
+So this symbol is estimation, like what I did in the statistical signal processing. The estimate
+
+247
+00:41:42,920 --> 00:41:52,760
+value we use hat. And then here we purposely use the coefficient of minus sign. Of course, whether
+
+248
+00:41:52,760 --> 00:42:01,880
+you take a minus sign or plus, depending on your writing. The way we
+
+249
+00:42:01,960 --> 00:42:10,600
+put minor, because later you want to combine this coefficient to make it positive. But the
+
+250
+00:42:10,600 --> 00:42:16,280
+value, the coefficient value exactly could be negative. So whether it's minus sign or not,
+
+251
+00:42:16,280 --> 00:42:23,720
+doesn't matter. It's just a way of convenient. Okay, so this is what we'll be doing here.
+
+252
+00:42:23,720 --> 00:42:32,600
+So remember, you take know the summation is k is from one to p, not from zero here, because
+
+253
+00:42:33,480 --> 00:42:43,320
+n minus one is the first pass value, and so on. Okay, so this is the way to write.
+
+254
+00:42:45,000 --> 00:42:52,520
+And then you can take an example like p equal to three. So that means you use three pass values.
+
+255
+00:42:52,520 --> 00:42:59,480
+And then I'll end here to be zero, at that zero moment. So the pass value, of course,
+
+256
+00:42:59,480 --> 00:43:07,720
+you will go back to before zero. And how many values? Okay, p over three, you have three values.
+
+257
+00:43:07,720 --> 00:43:15,400
+Minus one, minus two, minus three. Okay, so you write in this way. So this is a forward linear
+
+258
+00:43:15,400 --> 00:43:24,760
+predictor of the x zero value. So I need to take note here is a way to not involve the x of the
+
+259
+00:43:24,760 --> 00:43:37,320
+true x zero of value here, and pass value. They're all from the same random process. And then the
+
+260
+00:43:37,320 --> 00:43:47,000
+value here, you can see that as a realization. A random process, you can take one realization,
+
+261
+00:43:47,000 --> 00:43:57,320
+you will get extra signal value, like speed signals. Once you measure one speed signal,
+
+262
+00:43:57,320 --> 00:44:06,520
+it's a proper realization. Okay, so from here, you can see a forward prediction filter. It will be a
+
+263
+00:44:06,520 --> 00:44:17,240
+causal filter, because your color value based on pass value. And then from here, we want to see
+
+264
+00:44:17,240 --> 00:44:24,920
+how good we do the prediction. So that's what they call forward prediction, prediction errors.
+
+265
+00:44:24,920 --> 00:44:33,640
+So assume now we know the true value of x of n, like in machine learning, you had
+
+266
+00:44:33,640 --> 00:44:42,280
+the ground truth. You want to compare how good you are doing. Then, of course, you take the
+
+267
+00:44:42,280 --> 00:44:49,480
+difference and see, ideally, we're hoping this becomes zero. But in fact, usually, it may be
+
+268
+00:44:50,600 --> 00:45:00,680
+small value. So I call there four prediction errors here by take the difference. Okay,
+
+269
+00:45:00,760 --> 00:45:10,600
+so remember here the notation f of p. Take the difference, and then now you'll see why we put the
+
+270
+00:45:10,600 --> 00:45:17,080
+negative coefficient here. If you minor this, then previously our coefficient is minor. So
+
+271
+00:45:17,080 --> 00:45:26,760
+minor is minor, become plus. So you can now conveniently combine these together.
+
+272
+00:45:26,760 --> 00:45:37,640
+You see this also looks like a filter, you see, based on the x of n minus k. But the
+
+273
+00:45:38,520 --> 00:45:47,320
+summation now is k from zero up to the same p. And why? Because you're adding one more here. And
+
+274
+00:45:47,320 --> 00:45:54,360
+when k go to zero, n minus zero will be just equal to x of n. And then the coefficient here is,
+
+275
+00:45:54,440 --> 00:46:00,600
+of course, equal to one. So you need to take note of the relationship and
+
+276
+00:46:01,480 --> 00:46:08,360
+the difference between the two. Okay, so it's very important to take note. This
+
+277
+00:46:09,880 --> 00:46:20,200
+filter, you see, there will be two relative filters. One is what we call forward linear
+
+278
+00:46:21,160 --> 00:46:29,320
+predictors. This is the filter. You are only based on pass value, you see. You're based on the
+
+279
+00:46:29,320 --> 00:46:40,920
+p pass value to predict the current value. So this is the one we call linear prediction filter.
+
+280
+00:46:41,640 --> 00:46:51,560
+In this case, forward is in the middle. But then if you want to represent this, this is
+
+281
+00:46:52,600 --> 00:47:01,160
+forward prediction error filter. It's also a filter because the representation here,
+
+282
+00:47:01,160 --> 00:47:08,440
+they are very similar. All these are filter representation. And this is also a filter.
+
+283
+00:47:08,440 --> 00:47:16,280
+Except this one yields the xn value. You see, you now know up to the xn value.
+
+284
+00:47:16,280 --> 00:47:27,560
+So we want to see how much is this forward prediction error after you do the prediction.
+
+285
+00:47:28,120 --> 00:47:42,040
+So you see here, this is the block diagram for this filter representation. The input is xn.
+
+286
+00:47:42,040 --> 00:47:48,520
+So you go through one delay and then go through this filter, estimate that. Then the output here
+
+287
+00:47:48,520 --> 00:48:01,640
+is fp of n. The output is not the xn of n. So we're talking about only the forward linear
+
+288
+00:48:03,160 --> 00:48:13,400
+predictor filter. It will be this part only. So don't get confused. This is what I call
+
+289
+00:48:14,040 --> 00:48:27,160
+error prediction error filter. And similarly here, you can write in another way by
+
+290
+00:48:28,360 --> 00:48:36,600
+expressing the coefficient clearly here, including this coefficient of one. This is
+
+291
+00:48:36,600 --> 00:48:46,280
+directly from xn. So again, the filter output here is the fp of n, not the xn of n. If you
+
+292
+00:48:46,280 --> 00:48:53,480
+want to get the prediction of this xn, you will need to exclude this branch. So you only
+
+293
+00:48:53,480 --> 00:48:59,800
+predict based on this. And also the filter coefficient based on our equation, it will be
+
+294
+00:48:59,800 --> 00:49:05,240
+minus. But whether you put minus or not is less important because filter coefficient can be
+
+295
+00:49:05,240 --> 00:49:14,120
+possibly negative anyway. It doesn't really matter. What's important here is you need to
+
+296
+00:49:14,120 --> 00:49:20,200
+differentiate the two filters. One is a prediction error filter, while the other is a linear
+
+297
+00:49:21,480 --> 00:49:32,520
+forward prediction filter. So I don't show the other filter product, but it's very clear if you
+
+298
+00:49:33,480 --> 00:49:40,280
+if you remove this branch, they will become the prediction filters block diagram.
+
+299
+00:49:41,240 --> 00:49:48,840
+And then we'll call it Z-Sung form. That's why before starting this, I gave you the background.
+
+300
+00:49:49,720 --> 00:50:00,520
+That's precisely what we already I just revealed. Can have Z-Sung form of this fp of n. Then
+
+301
+00:50:01,480 --> 00:50:08,120
+of course in that case, you can write into is equal to ap of z and multiply that. Or
+
+302
+00:50:09,880 --> 00:50:16,760
+from here, you can also get the ap of z or equal to the ratios and so on.
+
+303
+00:50:18,200 --> 00:50:26,680
+And then here, the ap of z is in this case will be the f by r filter because it's all
+
+304
+00:50:27,400 --> 00:50:33,800
+coefficient and then z to the power minus k is in the so-called denominator,
+
+305
+00:50:35,400 --> 00:50:43,720
+the numerator. The denominator again seeing this is equal to divided by one. So that's easy.
+
+306
+00:50:43,720 --> 00:50:54,040
+And then now, remember we tried to get the mean square of the forward linear
+
+307
+00:50:55,800 --> 00:51:04,520
+prediction error of that because in general because we're dealing with random signals. So
+
+308
+00:51:04,760 --> 00:51:15,560
+we will need to look into the mean square errors. So what you'll do is you'll
+
+309
+00:51:16,920 --> 00:51:23,720
+take the power of two, the absolute value of power of two. But this is in the time domain,
+
+310
+00:51:23,720 --> 00:51:28,680
+different from our earlier discussion in the frequency domain. And then you'll take the
+
+311
+00:51:28,680 --> 00:51:38,120
+expectation in the mean square value. And then you can, if you'll explain this, because
+
+312
+00:51:39,320 --> 00:51:47,640
+fp of n is the first order. You'll take the power of two and then assuming here will allow
+
+313
+00:51:47,640 --> 00:51:56,120
+the coefficient to be complex in general. But if it's all real, then taking the conjugate is just
+
+314
+00:51:56,120 --> 00:52:05,960
+equal to except. So in this expression, assuming we allow it here, then when you explain this,
+
+315
+00:52:05,960 --> 00:52:13,640
+you can write this is like the second order, like the quadratic equation depending on the
+
+316
+00:52:13,640 --> 00:52:21,400
+coefficient. And for this first order part, we need to take the real part. Otherwise,
+
+317
+00:52:21,400 --> 00:52:30,520
+you will be complex because when you're dealing with mean square row, we're trying to
+
+318
+00:52:31,960 --> 00:52:34,840
+since we take absolute value raised to power two, it should be a
+
+319
+00:52:37,000 --> 00:52:45,160
+positive and lower value, no longer complex. So this is the quadratic function of the
+
+320
+00:52:45,800 --> 00:52:55,320
+predictor coefficient ap of k here. And then you all know for quadratic, if you want to minimize,
+
+321
+00:52:55,320 --> 00:53:03,720
+you take the first order derivative, set it equal to zero. And then I won't show the detail here.
+
+322
+00:53:03,720 --> 00:53:10,760
+To minimize that, then you end up with a set of linear equation because in total, we have
+
+323
+00:53:11,480 --> 00:53:23,480
+p coefficient. So you see here the relationship is you have the autocorrelation here.
+
+324
+00:53:24,760 --> 00:53:32,360
+Remember last week, we talked about you can link this with the autocorrelation fact. When you take
+
+325
+00:53:32,360 --> 00:53:38,280
+expectation, you end up with the second order correlation, you will give you the
+
+326
+00:53:38,360 --> 00:53:48,040
+autocorrelation coefficient. And then in total, if you have p unknown, then you will have p
+
+327
+00:53:48,040 --> 00:53:53,560
+equation. And it turns out to be in this case, assuming you know the autocorrelation,
+
+328
+00:53:53,560 --> 00:54:01,160
+you can solve this because they will all be linear in terms of the coefficient.
+
+329
+00:54:01,720 --> 00:54:10,840
+Okay, so that's why I call that as a normal equation for the coefficient of the linear
+
+330
+00:54:10,840 --> 00:54:20,680
+predictors here. Remember our definition. And then once you get the, you solve, you get the
+
+331
+00:54:20,680 --> 00:54:28,360
+optimal value coefficient here, you substitute back, then you can get the minimum mean square
+
+332
+00:54:28,360 --> 00:54:40,920
+prediction error in this case. So you see the difference. This is the mean square error in
+
+333
+00:54:40,920 --> 00:54:47,720
+general, okay, for all the different combinations. And then you'll choose a set of the coefficients
+
+334
+00:54:48,280 --> 00:54:55,400
+such that it becomes the minimum one. Then we use the smaller, this is a capital Ipsilon,
+
+335
+00:54:55,400 --> 00:55:05,160
+this is a small one. Then the error, except now reduced to the linear equation of that, rather
+
+336
+00:55:05,160 --> 00:55:13,080
+than the quadratic one. Quadratic one is not, in general, it works for all the different
+
+337
+00:55:13,080 --> 00:55:21,560
+coefficients. Once you get the optimal coefficient set, you substitute inside, you will get linear
+
+338
+00:55:22,200 --> 00:55:33,400
+forms in terms of the autocorrelation and the filter coefficient here. Okay, so this is the one
+
+339
+00:55:33,400 --> 00:55:43,560
+here. One very important, another filter structure, because so far, normally when you discuss a filter,
+
+340
+00:55:43,560 --> 00:55:51,160
+the easiest way to represent is a direct form, where you're, so you can see here the input,
+
+341
+00:55:51,160 --> 00:55:56,920
+you go through the filter coefficient, and then just sum that together. Mathematically, direct
+
+342
+00:55:56,920 --> 00:56:09,320
+form via filter is the same as this so-called P state lattice filter, because it represent the
+
+343
+00:56:10,280 --> 00:56:18,760
+input and go through the coefficient, you go through the output. But in practice, I don't know,
+
+344
+00:56:20,360 --> 00:56:29,480
+most of you are only studying for MSc students, you're now semester one, but for some of the
+
+345
+00:56:29,480 --> 00:56:37,960
+students who came last year or came one semester early, you may have already taken the other
+
+346
+00:56:38,040 --> 00:56:46,120
+related course, 6402, which is a lawyer time DSP and application, where emphasize a lot about
+
+347
+00:56:46,120 --> 00:56:54,200
+practical, like finite wall length and those quantization effect and so on, which, for example,
+
+348
+00:56:54,200 --> 00:57:03,400
+you're building up, building an Arduino controller or signal DSP processor, which is a very finite
+
+349
+00:57:03,400 --> 00:57:10,600
+number of bits. So you will see here, there will be different, mathematically, if you allow
+
+350
+00:57:10,600 --> 00:57:17,640
+infinity precision, then they are the same, these two filter structure. But in terms of
+
+351
+00:57:18,840 --> 00:57:26,040
+practical application, the lattice filter is much more robust, in a sense, if you make
+
+352
+00:57:26,680 --> 00:57:32,760
+the filter coefficient change a little bit, the direct form via filter, the result will be quite
+
+353
+00:57:32,760 --> 00:57:41,880
+different back here. So you can see here, we can use another equivalent, an all-GILO lattice
+
+354
+00:57:42,520 --> 00:57:51,800
+filter, which if the, our FIR filter is a P-state, you will get also the P-state lattice. So this,
+
+355
+00:57:52,600 --> 00:57:58,680
+for those who are already learning FFT, you will see it's very similar to FFT, you have
+
+356
+00:57:59,480 --> 00:58:11,400
+the, every state looks more like a butterfly, you know, kind of structure. So you have input
+
+357
+00:58:11,400 --> 00:58:19,480
+signal at the beginning, you're branching to F0n, 0n, and then go through first state, you
+
+358
+00:58:19,480 --> 00:58:26,280
+produce two output from two branches, and then go to the second one, and so on. So
+
+359
+00:58:29,000 --> 00:58:38,440
+mathematically, it's the same, but this one is more robust in terms of application. So this is,
+
+360
+00:58:38,440 --> 00:58:55,080
+so this lattice filter, you can describe it as, remember here, it's all the recursive equation,
+
+361
+00:58:55,080 --> 00:59:03,560
+you see our normal recursive filter is in terms of the time sample, you see, say n depending on
+
+362
+00:59:03,560 --> 00:59:10,520
+the path value is n minus one, so. So you, if you look closely, the, all the, all the values
+
+363
+00:59:10,520 --> 00:59:19,480
+subscript, the FGLO is the first one, then you go to the F1, and similarly G of one, and so on.
+
+364
+00:59:19,480 --> 00:59:27,160
+So you can see here, both at the time also recursive, so in terms of filter structure,
+
+365
+00:59:27,160 --> 00:59:35,240
+it looks a little bit more complicated, you start with the initial value, and after you recursively
+
+366
+00:59:36,360 --> 00:59:43,720
+build to get the next output value, both based not just on the past value,
+
+367
+00:59:44,840 --> 00:59:55,480
+it's one sample early, and also the early filter, filter order, so you start from
+
+368
+00:59:55,560 --> 01:00:02,200
+order zero to go to order one, order two, and so on. Eventually you go to order P, okay.
+
+369
+01:00:02,200 --> 01:00:09,960
+And then here, you can see instead of, you know, early on we have A0, A1, and so on, those filter
+
+370
+01:00:09,960 --> 01:00:18,680
+coefficients. Here, we have a different set of coefficients, so each, each state will have this
+
+371
+01:00:18,680 --> 01:00:27,560
+KM coefficient, they're just one coefficient, but of course, again, totally a P, so you have K1,
+
+372
+01:00:27,560 --> 01:00:37,160
+K2, up to KP, so this coefficient we call reflection or partial coefficient, okay, for this, and
+
+373
+01:00:39,800 --> 01:00:48,440
+and then it's quite interesting to know there is a relationship, and the relationship is one-to-one
+
+374
+01:00:48,440 --> 01:00:59,560
+mapping. If you're starting from a fire filter in terms of the A1, A2, up to AP, the one we just,
+
+375
+01:01:01,720 --> 01:01:08,280
+you know, stay early at the beginning, then you can get the corresponding
+
+376
+01:01:08,280 --> 01:01:19,800
+K1 all the way up to KP. In total, there are P coefficient of A, and the same as the K1, so
+
+377
+01:01:21,800 --> 01:01:31,640
+from one way, you can go to the other end, vice versa, so yeah, that's, so we can, we can
+
+378
+01:01:31,640 --> 01:01:43,880
+briefly discuss the relationship. So if you know KM, how to get AL, and then remember you, you will
+
+379
+01:01:43,880 --> 01:01:52,120
+do it by similar to the order recursive in, so, so in the end, eventually you want to get this
+
+380
+01:01:52,120 --> 01:02:01,640
+AJ up to the order P, but we start from the A0J, A0J is the zero order, then it will be just a
+
+381
+01:02:01,640 --> 01:02:10,440
+constant equal to one, and the other day you use this recursive equation to calculate things.
+
+382
+01:02:10,440 --> 01:02:21,000
+We already know A0, which is one, then you can get the next AJ, A1 object by, so see the
+
+383
+01:02:21,560 --> 01:02:29,640
+the relationship is, it depends on the previous A0J, for example, A1, then you need to have this
+
+384
+01:02:30,600 --> 01:02:39,400
+K1, and then, because K1 from here, you already know, and then also, so here is a very important,
+
+385
+01:02:39,400 --> 01:02:47,320
+you see here, once you know the AM minus one, the previous order of J, then you reverse the J,
+
+386
+01:02:47,960 --> 01:02:54,120
+change whatever you see J here into J to the power minus one, so okay, they'll create another
+
+387
+01:02:54,120 --> 01:03:00,360
+create only one, and then you must multiply this J to the power minus M, then the M is
+
+388
+01:03:00,360 --> 01:03:07,480
+depending on this M, okay, and then finally you do it one by one, depending on those up to P,
+
+389
+01:03:07,560 --> 01:03:19,400
+then once you get P, you'll get this, you see in total P coefficient, AP1 and so on, so every time
+
+390
+01:03:22,040 --> 01:03:29,240
+this small p is not up to the final, we call that the capital P, then you haven't done yet,
+
+391
+01:03:29,240 --> 01:03:36,840
+you have to continue doing that, so we can later give some example and finish this part,
+
+392
+01:03:36,840 --> 01:03:43,960
+and on the other hand, you can also do it the other way around, once you know this set of L,
+
+393
+01:03:43,960 --> 01:03:55,000
+you can get the K of A, so how to do that, so this is the reverse spec, you see, so you need to be
+
+394
+01:03:55,000 --> 01:04:03,080
+careful, here is a way, since we know the A1, A2 up to AP, we already know the AP object, so we
+
+395
+01:04:03,880 --> 01:04:10,840
+we fix this, we start from the P, the last one, AP object, I already know, and out of that,
+
+396
+01:04:11,880 --> 01:04:21,640
+so we get among this filter, we only take the first one, KP go to AP, and out of that, again,
+
+397
+01:04:21,640 --> 01:04:28,920
+you recursively build down, you see, from AP, you go to the next value P minus one, and so on,
+
+398
+01:04:29,480 --> 01:04:41,480
+so you see here, you get the order, this subscript corresponding to the order,
+
+399
+01:04:42,360 --> 01:04:53,240
+early, the lower order, and then here, we denote again here, A minus Z is equal to that,
+
+400
+01:04:53,960 --> 01:05:01,080
+once you get this, you can see this is the, it will work out into the, something like that,
+
+401
+01:05:01,080 --> 01:05:10,600
+FIR, FIR filter, the numerators only, then we get the next K minus one,
+
+402
+01:05:13,320 --> 01:05:17,800
+the value is getting from the highest coefficient, you see, so first one you get one,
+
+403
+01:05:17,800 --> 01:05:24,440
+then you get the second one, and so on, so you keep going down, so let's go through the two
+
+404
+01:05:24,440 --> 01:05:32,200
+examples, one to the other, and then you can see how you do, for example, P goes to three,
+
+405
+01:05:32,200 --> 01:05:39,080
+and now we know the coefficient set, K1, K2, K3, so you see here, all these, the absolute value of K
+
+406
+01:05:39,080 --> 01:05:47,720
+is all smaller than one, so the filter will be stable, you can ensure that, and then we start
+
+407
+01:05:47,720 --> 01:05:55,800
+from A0 of J equal to one, and from here, you're using the formula, you get A1 of J here, then we
+
+408
+01:05:55,800 --> 01:06:02,440
+know these are value given, okay, and now that, because it's not done yet, in total, it's three,
+
+409
+01:06:02,440 --> 01:06:11,240
+so once you get A1J, you get A2 of J, so remember here, you need to take note, as I emphasize,
+
+410
+01:06:11,240 --> 01:06:19,320
+when we talk about A1 of J here, the J doesn't have a negative power, but the filter coefficient,
+
+411
+01:06:19,320 --> 01:06:25,800
+filter is all in terms of J to the negative power, see, so J to the minus one, then what
+
+412
+01:06:25,800 --> 01:06:33,960
+happens if you want to get A1J to the, change J to the power minus one, so whatever you see
+
+413
+01:06:34,680 --> 01:06:41,800
+J to the power minus one, you'll reverse back to be positive power, it will be, because J to the
+
+414
+01:06:42,680 --> 01:06:49,800
+negative power minus one, and then you'll raise another power minus one, then become J to the
+
+415
+01:06:49,800 --> 01:06:58,760
+powers one, so it becomes positive power of J, and then, but how are we going back to,
+
+416
+01:06:58,760 --> 01:07:04,680
+because eventually we want to, still want to get the FYI filter in terms of negative J, so what
+
+417
+01:07:04,680 --> 01:07:12,120
+you'll do is multiply by this, this is the highest, because J to the, whatever you see here, they're
+
+418
+01:07:12,120 --> 01:07:18,520
+all lower than two, so once you multiply that, they become, you'll reduce to the negative power,
+
+419
+01:07:18,520 --> 01:07:25,960
+so that's why when you combine, you'll get this, and similarly you'll go to the next one, A3 of J,
+
+420
+01:07:25,960 --> 01:07:34,120
+and now you'll get a proper third order of this, okay, so this is the one when T equal to three,
+
+421
+01:07:35,080 --> 01:07:43,080
+you'll get A3 of J, and you already get the A1, A2, A3 coefficient, so this is done,
+
+422
+01:07:43,480 --> 01:07:51,320
+and then, because we all involve this, you see, so it may be easier we define this,
+
+423
+01:07:51,320 --> 01:07:59,400
+BM of J is equal to that, then the equation looks a little bit, a little bit simpler, you don't,
+
+424
+01:07:59,400 --> 01:08:11,400
+so you replace this with that, and similarly with this notation, you can also get this
+
+425
+01:08:11,640 --> 01:08:21,320
+relationship, and this is what you will be, you will calculate the other round from KM back to,
+
+426
+01:08:22,360 --> 01:08:28,040
+yeah, back to A1, A2, yeah, so that's,
+
+427
+01:08:31,560 --> 01:08:33,000
+so now let's see
+
+428
+01:08:33,080 --> 01:08:43,080
+how we can get the KM coefficient if you are given this by a transform function, F by R here,
+
+429
+01:08:44,120 --> 01:08:55,160
+because this is F by R, so what you do here is, remember, as I say, this is the highest order,
+
+430
+01:08:55,640 --> 01:09:06,200
+we start from A2J, and then your K2 is, you will be this one, okay, so once you get K2 and A2J,
+
+431
+01:09:06,200 --> 01:09:14,440
+you can get B2 of J, if you check that here, so you see here, yeah, so what you define is
+
+432
+01:09:14,440 --> 01:09:27,960
+here, so, and then after that, you get the next, you see, from AM of J, you can get AM minus 1,
+
+433
+01:09:27,960 --> 01:09:35,240
+seeing this one, you can already get, and this is known, and you already know the KM coefficient,
+
+434
+01:09:35,240 --> 01:09:45,880
+so you keep going down, A2J, then B2J, then get, from here, our first, this is highest coefficient,
+
+435
+01:09:45,880 --> 01:09:52,440
+we will get this, and then you can move down to A1 using this, since all these are known,
+
+436
+01:09:53,240 --> 01:10:02,120
+and then you can see, you always end up with J to the power, negative power, and furthermore,
+
+437
+01:10:02,120 --> 01:10:10,680
+you can see the highest coefficient always cancel out, so you will go one, one of the lower, okay,
+
+438
+01:10:11,640 --> 01:10:17,880
+so the one of the lower, the highest coefficient, you will be, you'll be K1, and then we are done,
+
+439
+01:10:17,880 --> 01:10:27,160
+because here is a second order, K1, K2, okay, then you can, you can apply this to other
+
+440
+01:10:27,960 --> 01:10:35,720
+example recursively, and the important one, as I mentioned here, these are very important properties,
+
+441
+01:10:37,320 --> 01:10:48,920
+is the zero of AJ all inside, you see, yeah, we want to ensure this AJ to be like the,
+
+442
+01:10:48,920 --> 01:11:00,680
+remember it's the minimum, minimum phase, that mean if AJ or the, the zero are all within, within
+
+443
+01:11:00,680 --> 01:11:11,480
+the unit circle, your inverse this filter, you will get stable and causal, causal linear, linear
+
+444
+01:11:11,480 --> 01:11:18,200
+filter here, and then that's very easy, you can, necessary and sufficient condition is all these
+
+445
+01:11:19,080 --> 01:11:25,640
+must be absolute value is smaller than one, so it's quite easy to test, rather than if you know
+
+446
+01:11:25,640 --> 01:11:36,520
+those A1, A2, you need to solve the Young's order polynomial, sometimes it's not easy and particularly
+
+447
+01:11:36,520 --> 01:11:44,040
+when you have high order, so that's, yeah, so I think it's a good time to take a break here before
+
+448
+01:11:44,040 --> 01:11:52,040
+we move on to the backwalk linear prediction, you know, based on the clock, we come back at
+
+449
+01:11:53,640 --> 01:11:59,880
+7.55, now it's 7.41, usually we take a break about 15 minutes,
+
+450
+01:12:01,640 --> 01:12:11,000
+okay, any questions you can raise here or you can ask me during the break or after the,
+
+451
+01:12:11,000 --> 01:12:25,960
+after the lectures also. I am now, I'll see you later, 7.55.
+
+452
+01:12:41,000 --> 01:12:51,960
+So
+
+453
+01:13:11,000 --> 01:13:21,960
+so
+
+454
+01:13:41,000 --> 01:13:51,960
+so
+
+455
+01:14:11,000 --> 01:14:21,960
+so
+
+456
+01:14:41,000 --> 01:14:51,960
+so
+
+457
+01:15:11,000 --> 01:15:21,960
+so
+
+458
+01:15:41,000 --> 01:15:51,960
+so
+
+459
+01:16:11,000 --> 01:16:21,960
+so
+
+460
+01:16:41,000 --> 01:16:51,960
+so
+
+461
+01:17:11,000 --> 01:17:21,960
+so
+
+462
+01:17:41,000 --> 01:17:51,960
+so
+
+463
+01:18:11,000 --> 01:18:21,960
+so
+
+464
+01:18:41,000 --> 01:18:51,960
+so
+
+465
+01:19:11,000 --> 01:19:21,960
+so
+
+466
+01:19:41,000 --> 01:19:51,960
+so
+
+467
+01:20:11,000 --> 01:20:21,960
+so
+
+468
+01:20:41,000 --> 01:20:51,960
+so
+
+469
+01:21:11,000 --> 01:21:21,960
+so
+
+470
+01:21:41,000 --> 01:21:51,960
+so
+
+471
+01:22:11,000 --> 01:22:21,960
+so
+
+472
+01:22:41,000 --> 01:22:51,960
+so
+
+473
+01:23:11,000 --> 01:23:21,960
+so
+
+474
+01:23:41,000 --> 01:23:51,960
+so
+
+475
+01:24:11,000 --> 01:24:21,960
+so
+
+476
+01:24:41,000 --> 01:24:51,960
+so
+
+477
+01:25:11,000 --> 01:25:21,960
+so
+
+478
+01:25:25,800 --> 01:25:35,080
+yeah so just now we talk about forward linear prediction and now we want to reverse back to
+
+479
+01:25:35,960 --> 01:25:42,680
+backwalks so let me do some proper drawings first
+
+480
+01:25:46,280 --> 01:25:51,880
+so if we have the say we have x n here
+
+481
+01:25:52,200 --> 01:26:07,080
+okay then the previous value will be n minus one and that one going back n minus two and so on
+
+482
+01:26:08,920 --> 01:26:19,160
+so the time is in terms of time will be yeah in in this this direction so this are for example
+
+483
+01:26:19,160 --> 01:26:24,200
+current value you based on the based on the past
+
+484
+01:26:26,840 --> 01:26:39,960
+several value to to predict so for example the one we talk about the p p order then there will be
+
+485
+01:26:40,760 --> 01:26:53,720
+n minus p okay so yeah that's how we will be uh previous previously doing here it's from past
+
+486
+01:26:53,720 --> 01:27:02,520
+value up to the kind of one and this is what we also uh learned from before like the causal
+
+487
+01:27:03,160 --> 01:27:09,800
+causal filter the filter is called your base on pass value now we want the reverse back which is
+
+488
+01:27:10,680 --> 01:27:22,520
+anti-causal is now still given in total say you have x p minus n minus p all the way up to x n
+
+489
+01:27:22,520 --> 01:27:33,640
+now what we're doing is you see this is the x n minus p is the is a value we want to predict
+
+490
+01:27:34,200 --> 01:27:38,600
+assume we do not know maybe they were too noisy and so on so we already
+
+491
+01:27:40,040 --> 01:27:50,600
+get whatever up to x of n so our backflow backflow is the one is we base on
+
+492
+01:27:52,040 --> 01:28:01,720
+the x n minus p the next value will be n minus p and then p minus one so it's it's one
+
+493
+01:28:02,680 --> 01:28:10,120
+one value after this n minus p n minus p is the earliest one so your next
+
+494
+01:28:10,120 --> 01:28:19,000
+at least one is so so what we are doing is assuming is there p order you know we use p
+
+495
+01:28:19,000 --> 01:28:30,840
+order mean we use in total of like p value so so so the way we do is now we want to predict this
+
+496
+01:28:31,720 --> 01:28:41,080
+last value here from the observation of the those past value of the process but this past value is
+
+497
+01:28:41,880 --> 01:28:49,480
+for example we are talking about the current value is up to x of n but now assume we already
+
+498
+01:28:49,480 --> 01:28:57,800
+measure all the way up to x of n so so so we want to do this backward and
+
+499
+01:28:57,800 --> 01:29:11,000
+again here we are using one step backward linear predictors of order p then so the
+
+500
+01:29:11,000 --> 01:29:20,680
+value we are predicting it is x n minus p which is the earliest one actually give the
+
+501
+01:29:21,640 --> 01:29:29,000
+prediction of this value by the weight linear combination of all those past value
+
+502
+01:29:29,000 --> 01:29:39,000
+but all these very well after this x n minus p okay then once we are clear about this relationship
+
+503
+01:29:39,560 --> 01:29:50,120
+then the expression is very similar to what we you know already wrote early but you need to pay
+
+504
+01:29:50,120 --> 01:30:00,360
+attention to the to the summation index here okay we also we call this as b or p instead of a
+
+505
+01:30:00,360 --> 01:30:09,800
+we call it b or p and then we also use a minus sign here a but the summation is from k from 0
+
+506
+01:30:09,800 --> 01:30:17,000
+up to p minus 1 because you see here we still refer the reference for is there this x of n
+
+507
+01:30:17,640 --> 01:30:24,200
+okay then now we use x of n so that mean k equal to 0 mean we are talking about x of
+
+508
+01:30:24,200 --> 01:30:31,400
+x of n here okay and then after that x n minus 1 so k equal to 1 and then we'll
+
+509
+01:30:33,080 --> 01:30:39,880
+previously we're up to p but now we only sum up to p minus 1 because our starting point is k from 0
+
+510
+01:30:39,880 --> 01:30:50,360
+okay and all these a coefficient this minus b p k because there is also prediction coefficient of the
+
+511
+01:30:50,920 --> 01:31:01,560
+one step but here is a backward linear predictor of order p okay so so you can just imagine this
+
+512
+01:31:01,560 --> 01:31:11,400
+is a totally a reverse process of what we discussed earlier linear the forward linear
+
+513
+01:31:11,960 --> 01:31:18,600
+prediction but it's other around and then one thing important to point out where the forward
+
+514
+01:31:18,600 --> 01:31:25,720
+linear prediction is a causal filter this is not causal because you are using future value to
+
+515
+01:31:26,280 --> 01:31:34,360
+predict the early value okay sometimes we call there is a anti-causal because it's a totally
+
+516
+01:31:35,320 --> 01:31:44,840
+reverse the process but by any case this is not a causal filter and then you can also look at
+
+517
+01:31:45,480 --> 01:31:59,080
+an example here if p equal to 3 then we are using this x minus 2 minus 1 x 0
+
+518
+01:31:59,880 --> 01:32:08,680
+assume 0 is our current value then we'll try to predict using this 3 value back to an even earlier
+
+519
+01:32:09,560 --> 01:32:17,640
+sample x of minus 3 so here you may say why do we the pass value we already know what
+
+520
+01:32:17,640 --> 01:32:25,800
+do we need to predict because sometimes what you measure the here those major
+
+521
+01:32:26,840 --> 01:32:33,480
+signal may be noisy because remember we are dealing with random signal and also signaling
+
+522
+01:32:33,480 --> 01:32:39,240
+noise so it could be the noisy movement so even when you have those value the value may not be the
+
+523
+01:32:39,240 --> 01:32:46,280
+true value so since you're you know some property of this random process and then you'll get some
+
+524
+01:32:46,280 --> 01:32:56,440
+future value you may still use it to try to improve the pass value in the same but collectively
+
+525
+01:32:56,440 --> 01:33:06,920
+we also call that as a linear prediction except is predict the early value okay
+
+526
+01:33:07,960 --> 01:33:17,880
+so i hope this is clear to you and then once you know that and also know this relationship then
+
+527
+01:33:17,880 --> 01:33:30,120
+you can you can work out the backward prediction errors and so on so so assume this is the true
+
+528
+01:33:30,120 --> 01:33:38,120
+value and that estimate value then you can you can define the backward prediction error by taking the
+
+529
+01:33:38,120 --> 01:33:44,840
+difference and substitute back and then again this coefficient is equal to one so you can
+
+530
+01:33:44,840 --> 01:33:52,280
+combine together so now this looks nice almost the same as our previous one summation is from
+
+531
+01:33:52,920 --> 01:34:01,320
+k from zero up to p but you need to take note the the in the the forward
+
+532
+01:34:02,680 --> 01:34:09,400
+prediction error filter the coefficient is the first one is one but here is the last one is
+
+533
+01:34:09,960 --> 01:34:16,360
+vp up to the p this because this corresponding to the to the
+
+534
+01:34:16,360 --> 01:34:26,200
+index of p okay so don't get confused here similarly in the z domain you can you can
+
+535
+01:34:26,200 --> 01:34:35,240
+substitute and then get the relationship and it's quite interesting to know the if you are dealing
+
+536
+01:34:35,240 --> 01:34:44,600
+with in general like complex coefficients then the two these two coefficients are
+
+537
+01:34:45,240 --> 01:34:58,040
+related by conjugate conjugate but but the order also reverse so so that mean if you are listing
+
+538
+01:34:58,040 --> 01:35:12,760
+say a1 up to ap again then the other one is it will be from from b0 and then up to b p minus 1
+
+539
+01:35:12,760 --> 01:35:23,640
+so the relationship is not say i i get the b1 to a1 is it will be reversed by you know p minus k
+
+540
+01:35:23,640 --> 01:35:33,320
+if say for example if k equal to zero our bp zero you get from the from the last one p minus
+
+541
+01:35:33,320 --> 01:35:42,120
+zero it will be corresponding to the p so from one end to the other and yeah and that's that's a
+
+542
+01:35:42,840 --> 01:35:52,120
+similar concept if you are if you are taking the 7402 we call that as a max filter is also doing
+
+543
+01:35:52,120 --> 01:35:59,800
+the same you get the filter but you reverse the reverse the order here okay so therefore
+
+544
+01:36:01,080 --> 01:36:11,720
+this relationship help us to to link this to bp object if you're you know is initially expressed
+
+545
+01:36:11,720 --> 01:36:22,040
+in terms of this bp now using this relationship your substitute inside then if you're
+
+546
+01:36:22,120 --> 01:36:32,120
+oh the highest order is p then you can pull out this z to the power minus p if you pull this out
+
+547
+01:36:32,840 --> 01:36:44,440
+and make the change of of of available so you will see it turn out to be this part is almost the same
+
+548
+01:36:44,440 --> 01:36:54,040
+as the ap object except this is a positive power z to the power positive k and of course the
+
+549
+01:36:54,040 --> 01:37:04,680
+coefficient is conjugate so so you can see here so so uh writing it as ap to the power conjugate
+
+550
+01:37:05,480 --> 01:37:11,800
+here the conjugate only mean the coefficient you are taking the conjugate because we do not take
+
+551
+01:37:11,800 --> 01:37:23,720
+conjugate of this j as i say j is complex better but normally we we don't take a conjugate directly
+
+552
+01:37:23,720 --> 01:37:33,560
+we take j the corresponding one is j to the power minus one and so on okay so this is the very
+
+553
+01:37:33,560 --> 01:37:44,280
+useful relationship here yeah and then the very important implication here is if you are trying
+
+554
+01:37:44,280 --> 01:37:54,920
+to get the zero because both of them are fir filter it's all numerator then yeah using this
+
+555
+01:37:54,920 --> 01:38:05,880
+system function this is bp of j then they are just conjugate reciprocal of the g law of ap object
+
+556
+01:38:06,760 --> 01:38:19,320
+so both are related say if you have zero say minus j then the other one will be j and in the case of
+
+557
+01:38:19,320 --> 01:38:27,000
+the coefficient are rare if you have lower coefficient then that means the g laws if complex
+
+558
+01:38:27,000 --> 01:38:37,400
+they always conjugate so you get the same cell of of zero if the coefficient they are always rare
+
+559
+01:38:38,840 --> 01:38:48,120
+so therefore this bp of j here we call there is reciprocal or reverse polynomial of this ap object
+
+560
+01:38:48,120 --> 01:39:00,120
+so they are relating in this way okay any questions you do have here to ask or
+
+561
+01:39:04,920 --> 01:39:11,400
+if not then we can carry on with this so very similarly we can define the
+
+562
+01:39:12,280 --> 01:39:20,440
+mean square value of this backward linear prediction error so basically is similar to the
+
+563
+01:39:22,680 --> 01:39:29,960
+forward linear prediction things involving random signal you take the expectation
+
+564
+01:39:29,960 --> 01:39:37,880
+and raise the power of two and yeah and then take now the this
+
+565
+01:39:40,840 --> 01:39:47,640
+backward linear prediction error is defined in this way is a reverse order and now we
+
+566
+01:39:48,600 --> 01:39:58,600
+we already used the ap of k the forward linear prediction filter coefficient here
+
+567
+01:39:59,320 --> 01:40:06,840
+and it turned out to be the the the same here since if you
+
+568
+01:40:09,240 --> 01:40:17,720
+square it and then you will see this is also a quadratic function of this prediction coefficient
+
+569
+01:40:17,720 --> 01:40:25,800
+error and then you'll minimize it you end up with the same cell linear equation which is given
+
+570
+01:40:25,800 --> 01:40:33,320
+previously so therefore in this case you'll minimize you'll get also get the same minimum
+
+571
+01:40:33,880 --> 01:40:40,840
+mean square backward linear prediction prediction error the same as the forward one so
+
+572
+01:40:42,600 --> 01:40:47,400
+so we don't need to go into the detail discussion here
+
+573
+01:40:47,720 --> 01:40:59,240
+okay any question before we move on to another relative topic which is we try to link now to the
+
+574
+01:41:00,760 --> 01:41:05,880
+our auto correlation coefficient so far we only talk about
+
+575
+01:41:07,720 --> 01:41:14,280
+prediction filter either forward linear prediction or backward
+
+576
+01:41:18,120 --> 01:41:24,680
+but remember we are dealing with like the stationary random process so
+
+577
+01:41:25,960 --> 01:41:32,440
+eventually we still need to find out the auto correlation or cross correlation
+
+578
+01:41:33,720 --> 01:41:41,880
+to get a better understanding of this random process and the relationship with the linear
+
+579
+01:41:41,880 --> 01:42:00,040
+filter involved so how do you feel the cause so far after this point is it easy to follow or
+
+580
+01:42:00,840 --> 01:42:09,480
+difficult or average say compared to part one for example you already finished part one by
+
+581
+01:42:09,560 --> 01:42:21,320
+phone like the i mean the multi-ray one because the early part dsp probably some of you already
+
+582
+01:42:21,320 --> 01:42:28,440
+learned so normally i'll assume multi-ray field bank the one new to you so do you
+
+583
+01:42:29,560 --> 01:42:36,840
+so now we also start to learn something which is not from dsp here it's some new
+
+584
+01:42:37,480 --> 01:42:47,720
+contents so so do okay you you find with the current progress the not say
+
+585
+01:42:48,760 --> 01:42:57,080
+too difficult or too too easy or everyone fear is easy to it's all linear equation
+
+586
+01:42:57,320 --> 01:43:12,440
+like that okay so so no no much problem and we can carry on yeah so so now
+
+587
+01:43:15,800 --> 01:43:21,640
+as i say we are dealing with random process and random process there are three types
+
+588
+01:43:22,440 --> 01:43:32,760
+ar which is like the opal's ar and p's order process or ma moving average or the combined
+
+589
+01:43:32,760 --> 01:43:46,680
+of the two ama ar plus ma so it's ah in short so ar is we'll say in between is not not too
+
+590
+01:43:47,240 --> 01:43:57,960
+difficult compared to the ama ma is more like the fir filter ai is you're saying it
+
+591
+01:43:58,760 --> 01:44:09,400
+looks like the opal's ir filters later you will see this so now remember here even if we are
+
+592
+01:44:10,120 --> 01:44:19,960
+dealing with a linear prediction because we are involving the the random process so we need to
+
+593
+01:44:20,920 --> 01:44:27,400
+to find out the relationship of this coefficient and the autocorrelation
+
+594
+01:44:28,600 --> 01:44:34,360
+sequence you see you because from a random process we are assuming those
+
+595
+01:44:34,360 --> 01:44:45,160
+are weakly stationary so it must exist those autocorrelation by definition so from the
+
+596
+01:44:47,080 --> 01:44:56,680
+from the chapter one we already know they are related the coefficient the
+
+597
+01:44:57,400 --> 01:45:09,560
+autocorrelation coefficient related to this the linear prediction coefficient in in this way so
+
+598
+01:45:11,240 --> 01:45:16,280
+and that depending on you see you see the autocorrelation you can
+
+599
+01:45:18,520 --> 01:45:23,720
+starting from and we don't need to look at the negative one because autocorrelation
+
+600
+01:45:23,720 --> 01:45:33,880
+i think this is important properties always symmetry is even even function assuming of
+
+601
+01:45:33,880 --> 01:45:43,720
+course we are dealing with coefficient are all rare okay so so therefore we look at the case of
+
+602
+01:45:43,720 --> 01:45:55,560
+m equal to equal to zero when m equal to zero because ar process is you know starting from
+
+603
+01:45:55,560 --> 01:46:04,520
+is driven by white noise something like you always remember ai is like white noise white noise goes
+
+604
+01:46:04,520 --> 01:46:14,920
+through opposed opposed filter ir filter which is only the post one of the that one over this so
+
+605
+01:46:14,920 --> 01:46:22,680
+so therefore m equal to zero our white noise you will come in into the picture so you have this
+
+606
+01:46:23,320 --> 01:46:30,440
+you see sigma w raised power 2 that's is the is a white noise
+
+607
+01:46:33,480 --> 01:46:42,680
+barrier and then the other part there will be auto correlated like the you see the m depends on the
+
+608
+01:46:43,080 --> 01:46:51,880
+the pass value so in this thing is a is similar to the filter relationship
+
+609
+01:46:53,560 --> 01:47:01,000
+you know m equal to zero then what adding one more tell me this is noise so you need to differentiate
+
+610
+01:47:01,000 --> 01:47:10,840
+m equal to zero or m greater than zero then the noise will not will not come into the into the
+
+611
+01:47:10,840 --> 01:47:18,360
+picture because white noise is only involving at the at the starting point after that equal
+
+612
+01:47:19,880 --> 01:47:30,280
+the other correlation it will be just depending on the the pass value okay yeah okay then depending
+
+613
+01:47:30,280 --> 01:47:41,720
+on what's the order of p is up to this p here so recursive you see once you know the first one
+
+614
+01:47:42,680 --> 01:47:51,000
+then the past p value you can get the you can get the next one and then keep keep going and what
+
+615
+01:47:51,000 --> 01:47:58,280
+what about the m negative one as i say once you get this other side you you'll get the symmetry
+
+616
+01:47:59,080 --> 01:48:06,600
+symmetry value and this relationship is very important and what we call there is a
+
+617
+01:48:06,600 --> 01:48:16,840
+euler walker's equation or if you're writing metric form you see so i hope you get
+
+618
+01:48:17,640 --> 01:48:27,880
+you try to get familiar with how you're expressing metric form here say so you see here the the first
+
+619
+01:48:27,880 --> 01:48:36,120
+one the first line here is corresponding to m equal to equal to zero here you see so this this
+
+620
+01:48:36,120 --> 01:48:43,320
+term is at the coefficient equal to one so you multiply by one look at this and then remember
+
+621
+01:48:43,320 --> 01:48:50,120
+all this term you can move to the left hand side you see they will become become the positive
+
+622
+01:48:50,120 --> 01:49:01,160
+coefficient and since our k index is from one up to p so you will have because there are m here is
+
+623
+01:49:01,160 --> 01:49:08,520
+a you see i evaluate this m equal to zero so zero minus one it will be the will be minus one and
+
+624
+01:49:08,520 --> 01:49:16,760
+then next value minus two and so on all the way up to minus p and that corresponding this a1 ap
+
+625
+01:49:16,760 --> 01:49:25,560
+coefficient so that gives you the first you see when you multiply this matrix your the first row
+
+626
+01:49:25,560 --> 01:49:32,600
+multiply this column is common so you're doing doing one row by one row so this one you get this
+
+627
+01:49:33,320 --> 01:49:41,640
+and you have remember you have this term equal to this so now the next value is if m equal to
+
+628
+01:49:41,640 --> 01:49:48,760
+one you see so you see here so this value is corresponding to here you see you are starting
+
+629
+01:49:48,760 --> 01:49:55,880
+from m equal to zero then you go to one and so on okay so now if you look at m equal to one
+
+630
+01:49:56,440 --> 01:50:02,840
+so you have to use this equation you see this one is no longer this one only for m equal to zero so
+
+631
+01:50:02,840 --> 01:50:13,880
+therefore you see our summation is always k from one to p and then one minus one to the next value
+
+632
+01:50:13,880 --> 01:50:24,520
+it will be zero yeah so it's very easy you can you fix the first uh first intake here zero one
+
+633
+01:50:24,520 --> 01:50:34,120
+and so on so subsequently you just each of the next value you will just minus one one then zero
+
+634
+01:50:34,120 --> 01:50:40,040
+and then zero minus one become minus one and so on okay so it's very easy and this one of course
+
+635
+01:50:40,040 --> 01:50:48,600
+is always there all these ak coefficient they are all there and yeah then the one is always
+
+636
+01:50:48,600 --> 01:50:56,200
+corresponding with this one okay and then now for other than this m equal to g load or the rest
+
+637
+01:50:56,200 --> 01:51:03,880
+you don't get distance so n w is equal to zero yeah all right okay so in the same way you can
+
+638
+01:51:03,880 --> 01:51:11,720
+move down and then you easily get those and and also in views of the symmetry you see here
+
+639
+01:51:12,280 --> 01:51:17,400
+uh you can replace things what we normally interest is the positive
+
+640
+01:51:18,600 --> 01:51:24,840
+autocorrelation function value to from zero up to the positive one divided by symmetry
+
+641
+01:51:24,840 --> 01:51:32,440
+so you can replay this with one two and so on okay so therefore you can see here
+
+642
+01:51:32,920 --> 01:51:40,200
+uh this is a topology matrix mean all the diagonal elements
+
+643
+01:51:41,640 --> 01:51:47,240
+here then the next one also called diagonal so this is a principal diagram and the other is
+
+644
+01:51:48,200 --> 01:51:55,720
+just diagonal diagonal lines you see you can keep moving up and down here okay
+
+645
+01:51:56,440 --> 01:52:06,360
+so they are all the same value and also symmetry one and one and two and two and this is p and p
+
+646
+01:52:11,400 --> 01:52:12,600
+okay so how
+
+647
+01:52:12,600 --> 01:52:24,520
+uh yeah you can also see here if you very carefully if i
+
+648
+01:52:26,360 --> 01:52:35,160
+delete the first row and and this one so what do i get if i start from this one here okay then
+
+649
+01:52:35,240 --> 01:52:46,600
+we will get we'll get this so instead of starting from zero starting from one so this is the
+
+650
+01:52:48,440 --> 01:52:56,920
+part of the you can see the equation that you you'll take part of it you'll get this
+
+651
+01:52:57,080 --> 01:53:05,640
+right okay so why do we do we get this because sometimes we do not know the noise variance or we
+
+652
+01:53:06,680 --> 01:53:13,160
+do not need to import that one we want to uh we want to find out the
+
+653
+01:53:14,600 --> 01:53:23,880
+linear prediction filter coefficient and the autocorrelation here okay and uh so
+
+654
+01:53:23,880 --> 01:53:36,200
+how do we move from here to here any any idea why suddenly become become here
+
+655
+01:53:38,760 --> 01:53:45,880
+so this is a little bit of simple submatrix manipulation so i hope you can
+
+656
+01:53:46,520 --> 01:53:55,080
+uh get a good understanding of that if you look at the upper part of that i if i
+
+657
+01:53:57,080 --> 01:54:07,240
+consider that as a submatrix you see if i i call this a and then this bigger one
+
+658
+01:54:07,640 --> 01:54:19,880
+speed and then miss you know the one or the a1 so on i also call that as i break down into into
+
+659
+01:54:21,000 --> 01:54:21,640
+into two
+
+660
+01:54:24,200 --> 01:54:32,920
+two vector okay okay so this is uh no problem as long as the dimension is compatible you see here
+
+661
+01:54:32,920 --> 01:54:39,800
+so this is a very useful technique like sub sub matrix operation then
+
+662
+01:54:40,920 --> 01:54:46,920
+remember the running size is still equal to zero so we get the zero zero is a vector
+
+663
+01:54:48,280 --> 01:54:54,440
+okay so therefore in this case you can see it will end up with just just imagine these are the
+
+664
+01:54:55,080 --> 01:55:03,640
+are the two numbers is a sub-matrix so this is equivalent to say of course you make sure the
+
+665
+01:55:03,640 --> 01:55:15,960
+matrix are compatible it's ac a multiple ac plus b d will be equal to zero just just imagine you
+
+666
+01:55:15,960 --> 01:55:25,320
+will be dealing with say a row vector multiplied by another column vector okay so you all know
+
+667
+01:55:25,320 --> 01:55:31,400
+if you multiply this of course it will be equal to one mile divided by two plus two
+
+668
+01:55:31,400 --> 01:55:40,120
+miles divided by three you know like so yeah okay so in the same way in some matrix operation you
+
+669
+01:55:40,120 --> 01:55:50,040
+can you can break down into block block matrix then as long as the matrix i make sure a can
+
+670
+01:55:50,040 --> 01:55:57,160
+multiply by c and b can multiply by d yeah you have to make sure the dimension met okay and
+
+671
+01:55:57,160 --> 01:56:08,920
+that's that's how we we we we do it for for this if we partition this first column with i call this
+
+672
+01:56:09,160 --> 01:56:16,440
+a then this is the big one is b and similarly this one is corresponding to c and this is d
+
+673
+01:56:17,000 --> 01:56:26,280
+yeah so what happened if in using this uh we'll end up with let me write down this x x
+
+674
+01:56:27,080 --> 01:56:38,680
+uh one okay this is just a column vector x x is auto correlation okay so this is our a
+
+675
+01:56:40,520 --> 01:56:49,880
+and then this is just a column vector then of course it can c is just equal to one it can it
+
+676
+01:56:49,880 --> 01:56:58,040
+can multiply by one all right because when you multiply you make sure the the first metric the
+
+677
+01:56:58,040 --> 01:57:07,400
+column the same as the second metric the number of rows so it is one this is also one okay and then
+
+678
+01:57:07,400 --> 01:57:17,320
+weapon this b b is the big one the one uh very big one uh it will be x x g low and so on so
+
+679
+01:57:17,960 --> 01:57:27,240
+so i don't write down here and then you multiply by that vector uh removing one so what the d is
+
+680
+01:57:27,880 --> 01:57:37,400
+starting from a1 okay after ap okay all right so let me see you can yeah you can see so therefore
+
+681
+01:57:37,480 --> 01:57:44,120
+n w is equal to equal to zero okay so uh
+
+682
+01:57:46,360 --> 01:57:54,760
+so therefore uh you see using this operation you will see this is our p there okay multiplied by
+
+683
+01:57:54,760 --> 01:58:07,160
+this is this is a b and then uh so by right the a multiplied by c equal p you see you have this
+
+684
+01:58:07,160 --> 01:58:12,600
+one multiplied by this little thing it will be just equal to this vector plus the whole thing
+
+685
+01:58:12,600 --> 01:58:18,920
+equal to zero but of course this vector we can move it to the right right hand side then you
+
+686
+01:58:18,920 --> 01:58:29,080
+will become minus so that's how we get the uh still another cell equation but this is one number
+
+687
+01:58:29,160 --> 01:58:39,320
+less and also this matrix now is square matrix it's p by p where this one is not a square one
+
+688
+01:58:39,320 --> 01:58:46,360
+the one early this is a p plus one because you can total p plus one this is square matrix
+
+689
+01:58:47,240 --> 01:58:57,000
+when we move that one you make the matrix not a square one but after this operation we recover
+
+690
+01:58:57,000 --> 01:59:06,280
+this one okay so that's that's how this equation gives you the relationship between the auto
+
+691
+01:59:06,280 --> 01:59:15,960
+correlation function and the linear prediction filter coefficient okay yeah so from assuming
+
+692
+01:59:15,960 --> 01:59:23,160
+you know this autocorrelation you can solve this using this relationship you do not need to involve
+
+693
+01:59:23,160 --> 01:59:34,440
+with the noise noise value the white noise in in this case okay so i hope yeah yeah this is clear
+
+694
+01:59:36,280 --> 01:59:46,200
+so now when we are solving that we use the p p order we we do not know the underlying process
+
+695
+01:59:46,200 --> 01:59:54,600
+of this x of n is the x of n is the ar process coming out coming out from from uh
+
+696
+01:59:56,200 --> 02:00:03,080
+you know in involving the underlying ar process but our our order of the
+
+697
+02:00:03,800 --> 02:00:10,600
+linear prediction filter we are using key just we just try to guess based on the
+
+698
+02:00:11,320 --> 02:00:18,120
+past p value assume it's a forward linear prediction predicting that value so the the
+
+699
+02:00:19,400 --> 02:00:27,720
+the number of parameter i mean the order of the our linear prediction filter it may or may not be
+
+700
+02:00:27,720 --> 02:00:39,080
+the same as the underlying process the process may even not as ar processor it can be other so
+
+701
+02:00:39,080 --> 02:00:46,680
+if it's ama or ma you use this to predict you will get a much bigger error but even if this
+
+702
+02:00:46,680 --> 02:00:52,920
+is ar process but if the order are not the same say the underlying ar process is order of 10
+
+703
+02:00:52,920 --> 02:01:01,240
+then you use the order of five to predict then you'll get some some kind of some kind of
+
+704
+02:01:02,840 --> 02:01:08,120
+of errors the coefficient may not be the same but in the case of your you're doing the right thing
+
+705
+02:01:08,120 --> 02:01:17,160
+you know the underlying ar process is 10 for example in speed signal prediction typically
+
+706
+02:01:17,160 --> 02:01:27,000
+each of the one the order is roughly about 10 so you can use all the 10 filter to estimate then in
+
+707
+02:01:27,000 --> 02:01:35,160
+in that case your prediction will be very good and actually in this case the optimal ones here
+
+708
+02:01:35,160 --> 02:01:43,480
+at least theoretically it will give you the exactly the same coefficient so you you minimize
+
+709
+02:01:43,480 --> 02:01:52,440
+then you you happen to get the true coefficient corresponding to the ar piece order if you are
+
+710
+02:01:52,440 --> 02:01:59,400
+using in this case you're using piece order so that's so that's how this is matched perfectly
+
+711
+02:01:59,400 --> 02:02:08,280
+you see so uh so this so by right usually the ak and this apk they are not necessarily the same
+
+712
+02:02:08,280 --> 02:02:17,320
+one is inherently is defined by your given ar process you see remember ar process is
+
+713
+02:02:17,320 --> 02:02:28,200
+corresponding to to some ar coefficient by how they get that is you assume you
+
+714
+02:02:29,240 --> 02:02:36,840
+you're generally white noise then you go through that you know each of the ar process defined by
+
+715
+02:02:36,840 --> 02:02:48,520
+uh like the oppose irr filter you get from there generally you may create a ar process so they want
+
+716
+02:02:48,520 --> 02:02:56,760
+that that's determined by the ar process except and then now what we are doing here is a big
+
+717
+02:02:57,560 --> 02:03:03,960
+because we may not know you know so we only have the major the major the random process
+
+718
+02:03:03,960 --> 02:03:10,600
+you measure like for example you take a speed signal so you take the path p value then i use the
+
+719
+02:03:11,240 --> 02:03:18,840
+estimate we try to build up this prediction filter and i i based on the major data we create
+
+720
+02:03:18,840 --> 02:03:25,480
+the coefficient then if the p happened to be the to be the same then you're lucky you'll just
+
+721
+02:03:25,480 --> 02:03:32,680
+heat that that coefficient set but usually not not the case you may get something
+
+722
+02:03:33,560 --> 02:03:43,720
+closer to it okay so try to understand the relationship in this case and then in in that
+
+723
+02:03:43,720 --> 02:03:50,360
+case are your the minimum mean square mean square errors in the piece of the predictor it will be
+
+724
+02:03:51,080 --> 02:03:58,520
+equal to the value of the white noise process and that's the best you can get because because
+
+725
+02:03:58,520 --> 02:04:04,600
+white noise the if you have the white noise value you go to that that's the that's the minimum
+
+726
+02:04:05,160 --> 02:04:15,560
+minimum error because you cannot reduce this you know this this one your mean mean square
+
+727
+02:04:15,560 --> 02:04:22,600
+error may be bigger than that but will never be smaller uh smaller than that and most equal is
+
+728
+02:04:22,600 --> 02:04:29,400
+the best you can get you know to those taking the statistical signal for saying this something
+
+729
+02:04:29,400 --> 02:04:36,040
+similar the criminal law power is here yo yo yo the lower power is the best you can achieve that
+
+730
+02:04:36,040 --> 02:04:43,960
+one so that's it lucky otherwise you have some bigger bigger errors or bigger
+
+731
+02:04:45,800 --> 02:04:58,760
+barriers okay so yeah so therefore if we our prediction error filter we have this system
+
+732
+02:04:59,560 --> 02:05:10,440
+function or ap object yeah it will be a noise whitening filter so you'll see here that's the
+
+733
+02:05:10,440 --> 02:05:17,960
+reverse whitening filter is the one we we start with ar process then we go through the
+
+734
+02:05:17,960 --> 02:05:24,840
+whitening filter then we produce the innovation innovations process i mean the white noise
+
+735
+02:05:24,840 --> 02:05:31,880
+why not process it will be the reverse so the forward one is you i repeat again you
+
+736
+02:05:31,880 --> 02:05:37,400
+try you use this white noise input goes through this ar
+
+737
+02:05:40,520 --> 02:05:43,160
+ir filter then you produce this uh
+
+738
+02:05:46,600 --> 02:05:53,000
+the random process which is xn now assume you already know the
+
+739
+02:05:53,000 --> 02:05:59,320
+chunks of function the filter you'll make the inverse and you can make this as an input then
+
+740
+02:06:00,040 --> 02:06:09,320
+the output will be a new white noise so it's a reverse process of course assuming you can get
+
+741
+02:06:09,320 --> 02:06:22,200
+this whitening filter properly if this is a stable one okay any questions at this point before we move
+
+742
+02:06:22,200 --> 02:06:32,600
+on it's getting a little bit more involved any any question anything you'd like to
+
+743
+02:06:33,960 --> 02:06:43,080
+ask or like to clarify before we move on move on
+
+744
+02:06:43,080 --> 02:06:54,600
+okay so you'll see here we need to solve this set of the normal
+
+745
+02:06:56,600 --> 02:07:06,440
+equations say for example we are not dealing the the the equation involving the involving the noise
+
+746
+02:07:06,760 --> 02:07:15,480
+value we're just trying to find out those linear prediction field the coefficient and the
+
+747
+02:07:15,480 --> 02:07:22,680
+autocorrelation so this is what we call the normal equation in yeah in total we have p
+
+748
+02:07:23,320 --> 02:07:32,760
+and then the coefficient uh the the term is p plus one because you start from k from 0 to p
+
+749
+02:07:32,760 --> 02:07:45,400
+uh but then our first coefficient is equal to one so we only have p coefficients here okay
+
+750
+02:07:47,880 --> 02:07:55,400
+yeah so therefore this is the normal equation in total a system of equation
+
+751
+02:07:56,360 --> 02:08:06,200
+p equation at p unknown to solve and then the resulting minimum mean square
+
+752
+02:08:06,760 --> 02:08:16,600
+error is given by the previous equation equation 88 and then uh if you uh we can
+
+753
+02:08:17,320 --> 02:08:25,720
+again add in the one here this is the one related to the to the noise the minimum mean square one
+
+754
+02:08:25,720 --> 02:08:33,960
+so okay so so that's the one uh you see this l equal to one two up to p and that give you all
+
+755
+02:08:33,960 --> 02:08:46,040
+this equation but if l equal to 0 then we we get then addition you know minimum mean square
+
+756
+02:08:47,400 --> 02:08:53,240
+mean square error which is also recursive except at the end equal to this
+
+757
+02:08:54,760 --> 02:09:01,720
+minimum mean square mean square error which in the case of if your order happened to be the same
+
+758
+02:09:01,720 --> 02:09:04,440
+you will get the value of the white noise
+
+759
+02:09:08,120 --> 02:09:15,560
+so therefore uh yeah you minimize that and then we will need to solve this
+
+760
+02:09:18,440 --> 02:09:28,120
+equation so let's look at any one example to see how we can actually solve particularly if the
+
+761
+02:09:28,120 --> 02:09:39,160
+order is very high yeah so let's consider the case p equal to three then you can lease out the term
+
+762
+02:09:39,160 --> 02:09:49,800
+here so as i say in total it will be p plus one term because our summation start from from zero
+
+763
+02:09:49,800 --> 02:09:58,280
+which is l minus zero so this is the one but the coefficient here equal to one so you have a
+
+764
+02:09:59,640 --> 02:10:07,880
+three one two three so you'll be careful here we have two index here one is the
+
+765
+02:10:07,880 --> 02:10:15,480
+subscript here is you see a three mean though the order p equal to three but among this
+
+766
+02:10:16,280 --> 02:10:23,320
+uh other three linear prediction filter you have three coefficient so that's why a three
+
+767
+02:10:23,320 --> 02:10:30,120
+of a one is the first one and the second one two and that's the one okay so that's uh is
+
+768
+02:10:30,120 --> 02:10:39,320
+the coefficient of this uh other correlation with the shift okay l this is minus zero that's minus
+
+769
+02:10:39,320 --> 02:10:52,360
+one minus two and so on okay so depending on uh yeah l yeah equal to here l if l equal to zero
+
+770
+02:10:52,360 --> 02:11:00,920
+you put l equal to zero in you will have to equal to this term but if l equal to one two three then
+
+771
+02:11:00,920 --> 02:11:08,920
+it will be equal to zero so this is very similar to what we state early the Euler-Walker
+
+772
+02:11:10,360 --> 02:11:18,360
+equation okay so that give you the more concrete expression here because we know that p
+
+773
+02:11:18,360 --> 02:11:27,160
+equal to three so you have this and also make good use of this symmetry relationship
+
+774
+02:11:28,040 --> 02:11:38,520
+and uh here is easier to see the the matrix here it's uh properties that's uh I think maybe one
+
+775
+02:11:39,400 --> 02:11:49,560
+scientist name here that discover this property so this metric here is uh you see all uh three
+
+776
+02:11:50,280 --> 02:11:58,120
+so we say the all the diagonal they are the same values yeah equal to the same value here so this
+
+777
+02:11:58,120 --> 02:12:07,240
+is the principal diagonal then this is one offset from this one you can move up upper right yeah
+
+778
+02:12:07,240 --> 02:12:15,480
+and then one move up one position you get this then the another position further up and right
+
+779
+02:12:15,480 --> 02:12:21,800
+and you get the other one of course finally you only have one element so if you have more than one
+
+780
+02:12:21,800 --> 02:12:27,560
+you can see these are the same value and this is same then this is same similarly you move down
+
+781
+02:12:28,680 --> 02:12:36,840
+left and down you get the others from four reduce three and then two and finally one okay so these
+
+782
+02:12:36,840 --> 02:12:44,200
+are very useful property of this symmetry property of the auto correlation matrix
+
+783
+02:12:45,160 --> 02:12:51,400
+it's not just symmetry but also satisfy is a symmetry of course because this so this is a
+
+784
+02:12:51,400 --> 02:12:57,720
+very important property because later on in chapter three when we started
+
+785
+02:12:57,720 --> 02:12:59,080
+the
+
+786
+02:13:01,640 --> 02:13:09,000
+the power spectrum estimation we're also involving matrix similar to that so that's
+
+787
+02:13:09,000 --> 02:13:15,000
+yeah please take note of that yeah any questions at this point
+
+788
+02:13:16,680 --> 02:13:23,160
+yeah okay so we can move on yeah so how to solve that of course nowadays uh
+
+789
+02:13:23,800 --> 02:13:33,560
+you you have a computer's algorithm very powerful so you may may not worry worry too much even if
+
+790
+02:13:33,560 --> 02:13:40,520
+you have a big matrix equation you can always solve it but in the early day you see here
+
+791
+02:13:41,960 --> 02:13:51,480
+1947 or 1959 which is very many same uh yeah quite
+
+792
+02:13:53,160 --> 02:14:00,760
+yeah many years back so yeah so so at that time you have involving a big matrix is
+
+793
+02:14:00,760 --> 02:14:11,080
+no easy no easy to solve inverse a big magic and therefore you can develop computationally efficient
+
+794
+02:14:11,080 --> 02:14:20,120
+and iterative methods to solve that and these are the two of them we're not going to
+
+795
+02:14:20,120 --> 02:14:27,160
+too much detail because this is a little bit more involved and they're they're also recursively
+
+796
+02:14:28,680 --> 02:14:35,800
+algorithm to really solve and i think if you use mallet you should have already some
+
+797
+02:14:36,360 --> 02:14:44,200
+building functions to solve it so but they just we just go through one of them as a simple
+
+798
+02:14:44,200 --> 02:14:55,000
+example to illustrate but don't worry about this very complicated and involved just use that as an
+
+799
+02:14:55,640 --> 02:15:03,880
+example and here the the algorithm the idea is also similar to what we discussed early is more
+
+800
+02:15:03,880 --> 02:15:12,840
+like all the recursive so so what i do is because low order is easier to solve so you can start with
+
+801
+02:15:12,840 --> 02:15:23,160
+a predictor of order p equal to one then in this case you're only solving because p equal to one
+
+802
+02:15:23,160 --> 02:15:32,920
+you only have one coefficient which is a one you see so remember i say p referring to this order
+
+803
+02:15:32,920 --> 02:15:38,600
+and of course p equal to one is you only have one coefficient and then you're putting into the
+
+804
+02:15:39,240 --> 02:15:47,800
+normal equation where p equal to one we have two equation one is equal to that the other equal to
+
+805
+02:15:47,800 --> 02:15:54,440
+zero then it's very easy to solve these things you have only one coefficient you have two equations
+
+806
+02:15:54,440 --> 02:16:00,680
+you are assuming this one you do not know you may want to solve so so anyway we are more interested
+
+807
+02:16:00,680 --> 02:16:09,400
+in solving that then you can easily get a one of one equal to this okay so that's done and then
+
+808
+02:16:09,400 --> 02:16:18,040
+once you as i say here your two equation two unknown then once you solve one you need to
+
+809
+02:16:18,040 --> 02:16:24,680
+solve the other so so in this case assuming we know the autocorrelation and we substitute
+
+810
+02:16:24,680 --> 02:16:34,280
+you can get into the second equation they'll cause your base on a one of one and so on so you
+
+811
+02:16:34,280 --> 02:16:42,360
+can see this is a relationship because of that it'll make good use of the symmetry so this is
+
+812
+02:16:42,360 --> 02:16:53,320
+done if the order p equal to one then what next is going to using what we solve for p equal to one so
+
+813
+02:16:53,320 --> 02:17:01,160
+the recursive is you solve from lowest order then your other one you get coefficient and then your
+
+814
+02:17:01,160 --> 02:17:07,240
+next go to order two and after that you'll solve order two you go to order three and so on so
+
+815
+02:17:08,200 --> 02:17:15,400
+here is we are illustrating using this equation but as i say you can drawing algorithm to
+
+816
+02:17:16,200 --> 02:17:23,960
+uh automatically solve it rather than writing down so let's just illustrate uh what we can do
+
+817
+02:17:23,960 --> 02:17:31,080
+once we already solved for the one then we go to p equal to two then in that case p equal to two
+
+818
+02:17:31,080 --> 02:17:39,800
+we have two coefficient plus this term here so you have three equation three three unknowns and
+
+819
+02:17:39,800 --> 02:17:47,880
+assuming these are solved okay then you'll see here what we solve is a one of one
+
+820
+02:17:49,400 --> 02:17:56,520
+so these two coefficients since the order changes you you cannot assume our a two of one is
+
+821
+02:17:57,240 --> 02:18:03,480
+equal to a one of one there will be there will be different once you change order you have to
+
+822
+02:18:03,800 --> 02:18:11,160
+solve the two coefficient different but you in a way you can find out they are
+
+823
+02:18:11,720 --> 02:18:19,720
+somewhat related to the early one okay so let's see what we can do here this is look complicated
+
+824
+02:18:19,720 --> 02:18:27,400
+but then using some simple trick usually you try to solve with the equation without involving
+
+825
+02:18:27,400 --> 02:18:35,960
+that one okay so if you look at the the last two equation and then using what i described early
+
+826
+02:18:35,960 --> 02:18:45,560
+you can simplify into this matrix uh equation two equation with two unknown and then after that you
+
+827
+02:18:45,560 --> 02:19:00,120
+can you can you can solve using the previous one our a two of two which somehow you make good use of
+
+828
+02:19:00,120 --> 02:19:13,400
+the you see relationship here our a one of one is a ratio of these two then the the idea here is
+
+829
+02:19:14,040 --> 02:19:22,520
+you make make use of the lower the solution already rather than going back you may directly
+
+830
+02:19:22,520 --> 02:19:29,880
+solve using those uh you know autocorrelation function but the idea here is recursive so we
+
+831
+02:19:29,880 --> 02:19:36,360
+make good use of that you can you can see i won't go into detail but you will see here this part is
+
+832
+02:19:36,360 --> 02:19:43,560
+actually turned out to be the same as the ratios a one of one so you substitute then this is all
+
+833
+02:19:43,560 --> 02:19:54,680
+you already solved you can substitute and then uh yeah and then yeah you you also make good use of
+
+834
+02:19:54,680 --> 02:20:03,640
+this one this one is also solved so early so it turned out to be simplified if you already know
+
+835
+02:20:03,640 --> 02:20:12,200
+a one of this one and this so it's quite easy right here similarly a two of one you also need
+
+836
+02:20:12,200 --> 02:20:21,800
+to solve assume this one so so a one of one also solved turned out to be to be easy here and once
+
+837
+02:20:21,800 --> 02:20:32,200
+you know this then now you you want to get this you put back here and of course the autocorrelation
+
+838
+02:20:32,200 --> 02:20:38,280
+function you know so you can solve that so you see here there is a recursive in the
+
+839
+02:20:39,160 --> 02:20:45,960
+sense of all the recursive you solve for lower order first and then you build up to the higher
+
+840
+02:20:45,960 --> 02:20:57,720
+one and so on okay rather than always solving these big matrix equations okay but i will say
+
+841
+02:20:57,800 --> 02:21:12,920
+this part is not not our main discussion okay any any questions you like to raise
+
+842
+02:21:14,520 --> 02:21:20,760
+we still have some time you can talk a little bit on wiener filter
+
+843
+02:21:21,720 --> 02:21:30,040
+so so far so good is it okay
+
+844
+02:21:32,920 --> 02:21:41,800
+no no issue need some discussion
+
+845
+02:21:41,800 --> 02:21:44,840
+so
+
+846
+02:21:48,360 --> 02:21:58,280
+okay yeah as i say this more or less we finish the discussion of like the linear prediction
+
+847
+02:21:59,560 --> 02:22:06,200
+filter and uh so before uh ending this lecture i will just
+
+848
+02:22:07,080 --> 02:22:14,360
+probably introduce this concept of wiener filters because these are in the same you can
+
+849
+02:22:14,360 --> 02:22:24,360
+think about this is a generalization of what our linear prediction filter we
+
+850
+02:22:24,360 --> 02:22:35,240
+discuss you know up to now so this is a little bit like moving one step forward to consider one
+
+851
+02:22:36,200 --> 02:22:46,360
+more important and related wiener filters this it can be used for filtering and prediction so
+
+852
+02:22:47,880 --> 02:22:54,600
+somewhat we also try to understand the relationship what's meant by filtering
+
+853
+02:22:55,960 --> 02:23:05,720
+and then what's meant by prediction so and you can very conveniently using wiener filter to
+
+854
+02:23:06,680 --> 02:23:14,520
+uh to link these two actually the same wiener filter depending on how you define you can
+
+855
+02:23:15,080 --> 02:23:23,960
+you can serve for these two purpose okay so uh remember so far when you talk about linear
+
+856
+02:23:23,960 --> 02:23:34,920
+prediction we are always assuming we are dealing with one ar processes so we have the x of x of n
+
+857
+02:23:34,920 --> 02:23:42,280
+which is the well actually not necessarily ar it could be it could be another other type of
+
+858
+02:23:43,560 --> 02:23:54,840
+weakly stationary random process but it must be weakly stationary so that we we can you know
+
+859
+02:23:54,840 --> 02:24:01,000
+remember we create stationary random process we can use the autocorrelation to describe it
+
+860
+02:24:01,640 --> 02:24:11,000
+and autocorrelation is the second order statistic so here the main difference is
+
+861
+02:24:12,600 --> 02:24:23,400
+now we try to directly building our white noise into this signal model you see
+
+862
+02:24:23,640 --> 02:24:30,040
+uh previously we are only considering the the ringdom process is driven by
+
+863
+02:24:31,080 --> 02:24:38,840
+by by white noise you see white noise goes through some kind of filter then what do we get is this
+
+864
+02:24:39,640 --> 02:24:50,840
+ringdom process the output x of a so we do not know the the the noise directly what we can measure
+
+865
+02:24:50,920 --> 02:25:00,840
+is only like x of n so we use past value to predict the future value or vice versa you get
+
+866
+02:25:00,840 --> 02:25:11,720
+all the value then predict back to the backward prediction so the difference here is we are
+
+867
+02:25:11,720 --> 02:25:20,120
+thinking about our input signal here xn is somewhat is a sum of the signal the signal
+
+868
+02:25:20,120 --> 02:25:28,520
+itself it could be also a ringdom process but it's a clear summation here we we have this
+
+869
+02:25:28,520 --> 02:25:35,880
+design signals this is what we want but then it mix with noise so what we can measure is
+
+870
+02:25:35,880 --> 02:25:45,800
+again is a similar we only have the xn here the input signal to the to the wiener filter and
+
+871
+02:25:46,520 --> 02:25:53,000
+what we're going to do now is we try to build another optimal linear filter such that
+
+872
+02:25:53,560 --> 02:26:07,080
+the filter output we call it yn and then we try to design the filter in such a way where this yn is
+
+873
+02:26:07,080 --> 02:26:13,720
+uh try to able to approximate our another
+
+874
+02:26:16,360 --> 02:26:25,000
+specify or we reference design signal we call it dn you see the dn may be because we we this is
+
+875
+02:26:25,000 --> 02:26:30,760
+a signal but this one we cannot we do not have assessed this one what we can measure is only xn
+
+876
+02:26:31,400 --> 02:26:37,320
+so in the same you can think about we try to recover this xn or some
+
+877
+02:26:38,360 --> 02:26:45,800
+desirable signal related to xn so later we will explain what's this da mean so so again here
+
+878
+02:26:46,360 --> 02:26:55,480
+a yn here is what we call our design signal da plus some noise because we may not be able to get
+
+879
+02:26:55,480 --> 02:27:02,920
+this d of n exactly so so that's that's the idea here so you see here our filter here is
+
+880
+02:27:03,480 --> 02:27:11,880
+the input is xn so so that's why i say this is a bit similar to our linear forward linear
+
+881
+02:27:12,440 --> 02:27:20,600
+prediction filter in the same but more general yeah because we are building a little bit of the
+
+882
+02:27:21,480 --> 02:27:31,240
+of the more specific model here previously we only always assume we only have x of n now okay
+
+883
+02:27:31,240 --> 02:27:42,120
+so that's the main difference yeah so now what's this dn if we are doing filtering so our dn we
+
+884
+02:27:42,120 --> 02:27:49,560
+just let dn equal to equal to sn so therefore we design this filter our field here is very
+
+885
+02:27:49,560 --> 02:27:59,720
+similar before we call h object to suppress our noise yn so we try to get our yn is approximately
+
+886
+02:27:59,720 --> 02:28:08,280
+equal to the sn so this is the filtering one and then we can also do a signal prediction so you
+
+887
+02:28:08,280 --> 02:28:16,840
+see here the relationship filtering is the you just get the column value out of the column input
+
+888
+02:28:17,160 --> 02:28:27,480
+input value the n you see the yn that you you assume you have xn available so it's not like
+
+889
+02:28:27,480 --> 02:28:33,960
+what we before so far with this prediction is you're based on past value so it's a causal
+
+890
+02:28:34,920 --> 02:28:43,400
+causal filter here and now but this one so that's why you're saying we say wiener filter is more
+
+891
+02:28:43,400 --> 02:28:51,160
+general compared to linearity because you can also do signal prediction why in what way we use
+
+892
+02:28:51,160 --> 02:29:00,600
+our referencing the dn which is xn plus d that mean if d greater than 0 so what we want here is
+
+893
+02:29:01,320 --> 02:29:09,160
+not just xn it will be some future value say n plus 1 if n plus 1 it will be one step
+
+894
+02:29:09,560 --> 02:29:19,160
+forward prediction n plus 2 is the two step as you're predicting two sample ahead and so on so
+
+895
+02:29:19,160 --> 02:29:25,000
+deep but d must be greater than 0 and then since we are talking about discrete time signal d should
+
+896
+02:29:25,000 --> 02:29:32,840
+be integer also because we only define signal at one two three four five so okay so therefore
+
+897
+02:29:32,840 --> 02:29:41,320
+uh is in this thing is a relative but more general than the linear prediction you see here so you
+
+898
+02:29:42,120 --> 02:29:51,080
+should try to know the relationship here uh yeah because before you see our early on our linear
+
+899
+02:29:51,080 --> 02:29:58,120
+prediction you can assume our dn is always only because x of n plus d you see we even do not know
+
+900
+02:29:58,120 --> 02:30:07,640
+the s of n so here is uh is more general you allow us to define what our dn yeah and then
+
+901
+02:30:07,640 --> 02:30:15,320
+they could even be doing the signal smoothing if the reference signal is as n minus d so this is
+
+902
+02:30:15,320 --> 02:30:24,680
+a little bit like the back walk uh back walk linear prediction so your smoothing is already
+
+903
+02:30:24,680 --> 02:30:31,880
+the past value you try to do but not exactly the same because the coefficient the the the
+
+904
+02:30:31,880 --> 02:30:39,080
+design is somewhat different okay so therefore uh i think we i just give the introduction so we
+
+905
+02:30:39,080 --> 02:30:48,600
+can finish the class here i don't want to delay you since we come down the the break time so let's
+
+906
+02:30:48,600 --> 02:30:57,720
+assume we have xn wn and dn and then they are all random process and zero mean and y same
+
+907
+02:30:57,720 --> 02:31:04,520
+stationary so what uh so you see here the in this things are the output filter the
+
+908
+02:31:06,040 --> 02:31:12,840
+optimal linear filter we also call it hn so yeah you see is so what we do is a similar
+
+909
+02:31:12,840 --> 02:31:20,440
+we try to do a mini minimization to get the minimum mean mean square mean square arrow
+
+910
+02:31:20,440 --> 02:31:27,640
+because you see so we now we can define the arrow which is desirable signal subtract to the output
+
+911
+02:31:27,640 --> 02:31:34,360
+of the of the filter and then you'll take absolute value raise power to take the expectation so in
+
+912
+02:31:34,360 --> 02:31:42,920
+a sense are quite similar and our winner filter can be designed if ir or ir if you're dealing with
+
+913
+02:31:42,920 --> 02:31:55,640
+ir then the input data must be available over the over the infinity path because ir is recursive
+
+914
+02:31:55,640 --> 02:32:08,600
+so you need all the past value so yeah so i yeah so just a very quick one to introduce to get
+
+915
+02:32:09,960 --> 02:32:17,080
+because these are very similar to what we we define uh we discussed early assume where
+
+916
+02:32:17,080 --> 02:32:24,280
+if i feel there is a much easier that that's a finite value and then the output you are depending
+
+917
+02:32:24,280 --> 02:32:31,560
+on the past finite data set of that so this is a very easy way you should all know this if ir
+
+918
+02:32:31,560 --> 02:32:38,040
+filter you know this and then what we do we minimize by taking developing the subject to
+
+919
+02:32:38,040 --> 02:32:45,880
+this is a mean square uh you know minimize take the expectation so and then from here
+
+920
+02:32:46,840 --> 02:32:53,080
+you see your n double is expanding that then you'll get a very similar
+
+921
+02:32:55,480 --> 02:32:59,640
+you see you're expanding your quadratic function to feel the coefficient you'll
+
+922
+02:32:59,640 --> 02:33:06,120
+minimize then you'll get a very similar linear system of equation except here
+
+923
+02:33:06,680 --> 02:33:12,200
+since we have the desirable input so instead of you know previously the normal equation
+
+924
+02:33:12,200 --> 02:33:20,680
+equals zero but we have the auto correlation this is the input sequence and there is a
+
+925
+02:33:20,680 --> 02:33:27,560
+cross correlation because we have a design signal dn and also the input sequence so you
+
+926
+02:33:27,560 --> 02:33:33,880
+now introduce this cross correlation and then this equation we call it winner hope equation
+
+927
+02:33:33,880 --> 02:33:42,120
+probably is uh in bank by both winner and this hope so so uh then the how to solve is a
+
+928
+02:33:42,120 --> 02:33:48,200
+very similar to what we discovered early and then you can also convert into this
+
+929
+02:33:48,200 --> 02:33:56,760
+matrix the equation because if i filter you only have to find a number of coefficients and so so
+
+930
+02:33:57,080 --> 02:33:59,240
+uh and yeah so
+
+931
+02:34:01,640 --> 02:34:13,000
+yeah so i think probably yeah we will we will we will stop here because the other part is very
+
+932
+02:34:13,960 --> 02:34:23,160
+much involved and the example are quite it's quite important to discuss in some
+
+933
+02:34:23,800 --> 02:34:33,720
+uh some detail later i also want to give you some time to probably some student will stay back to
+
+934
+02:34:33,720 --> 02:34:42,520
+ask a question to clarify yeah so yeah i think we are in good timing so
+
+935
+02:34:42,520 --> 02:34:53,480
+uh yeah so uh surely we will finish this uh chapter uh by next week or probably just
+
+936
+02:34:53,480 --> 02:35:03,000
+yeah so we may have some time to next week to introduce the power spectrum estimation also
+
+937
+02:35:03,960 --> 02:35:14,760
+yeah so any questions you have after this point i think the linear predictions and forward
+
+938
+02:35:14,760 --> 02:35:26,840
+backwards and so those solving the equations and there are quite a lot material and quite a some
+
+939
+02:35:26,840 --> 02:35:33,560
+equation to learn also matrix equation and so on
+
+940
+02:35:35,400 --> 02:35:45,240
+the questions oh you're you're okay so far you don't have much difficulty or anything you like to
+
+941
+02:35:45,800 --> 02:35:47,160
+clarify at this point
+
+942
+02:35:50,680 --> 02:36:00,040
+no if not then i think we will finish at this point so next week we will continue to yeah and
+
+943
+02:36:00,920 --> 02:36:07,160
+yeah and then you may also begin to digest what we we learned
+
+944
+02:36:07,560 --> 02:36:18,760
+uh so far yeah before we take the quiz week 12 i already maybe i highlight again in case
+
+945
+02:36:19,400 --> 02:36:29,640
+some student come a little bit late and also for the benefit of those student to not coming but
+
+946
+02:36:29,720 --> 02:36:36,200
+watching the video recording so i explain give a more
+
+947
+02:36:38,600 --> 02:36:45,640
+elaboration on what the quiz will test so yeah so we finish day one so today we finish
+
+948
+02:36:45,640 --> 02:36:52,200
+probably more than half of this chapter so by next week so this is week nine
+
+949
+02:36:52,200 --> 02:36:58,680
+we we tend surely we finish this then you can have a good preparation i will
+
+950
+02:36:59,960 --> 02:37:08,760
+maybe next week after finish this chapter i will metal down a little bit on the on on the scope
+
+951
+02:37:08,760 --> 02:37:15,880
+because these two chapters there are still a lot material some are not really that directly
+
+952
+02:37:15,880 --> 02:37:25,800
+uh you're useful to or relevant not the focus of this course so we may exclude at least for the
+
+953
+02:37:25,800 --> 02:37:33,080
+quiz yeah so we'll discard that next week yeah okay so if no question i will
+
+954
+02:37:33,080 --> 02:37:42,280
+uh stop here see you next week yeah thank you
+
+955
+02:38:03,080 --> 02:38:04,460
+you
+
+956
+02:38:33,080 --> 02:38:34,460
+you
+
+957
+02:39:03,080 --> 02:39:04,460
+you
+
+958
+02:39:33,080 --> 02:39:34,460
+you
+
+959
+02:40:03,080 --> 02:40:04,460
+you
+
+960
+02:40:33,080 --> 02:40:33,580
+you
+
+961
+02:41:03,080 --> 02:41:03,580
+you
+
+962
+02:41:33,080 --> 02:41:33,580
+you
+
+963
+02:42:03,080 --> 02:42:03,580
+you
+
+964
+02:42:33,080 --> 02:42:33,580
+you
+
+965
+02:43:03,080 --> 02:43:03,580
+you
+
+966
+02:43:33,080 --> 02:43:33,580
+you
+
+967
+02:44:03,080 --> 02:44:03,580
+you
+
+968
+02:44:33,080 --> 02:44:33,580
+you
+
+969
+02:45:03,080 --> 02:45:03,580
+you
+
+970
+02:45:33,080 --> 02:45:33,580
+you
+
+971
+02:46:03,080 --> 02:46:03,580
+you
+
+972
+02:46:33,080 --> 02:46:33,580
+you
+
+973
+02:47:03,080 --> 02:47:03,580
+you
+
+974
+02:47:33,080 --> 02:47:33,580
+you
+
+975
+02:48:03,080 --> 02:48:03,580
+you
+
+976
+02:48:33,080 --> 02:48:33,580
+you
+
+977
+02:49:03,080 --> 02:49:03,580
+you
+
+978
+02:49:33,080 --> 02:49:33,580
+you
+
+979
+02:50:03,080 --> 02:50:03,580
+you
+
+980
+02:50:33,080 --> 02:50:33,580
+you
+
+981
+02:51:03,080 --> 02:51:03,580
+you
+
+982
+02:51:33,080 --> 02:51:33,580
+you
+
+983
+02:52:03,080 --> 02:52:03,580
+you
+
+984
+02:52:33,080 --> 02:52:33,580
+you
+
+985
+02:53:03,080 --> 02:53:03,580
+you
+
+986
+02:53:33,080 --> 02:53:33,580
+you
+
+987
+02:54:03,080 --> 02:54:03,580
+you
+
+988
+02:54:33,080 --> 02:54:33,580
+you
+
+989
+02:55:03,080 --> 02:55:03,580
+you
+
+990
+02:55:33,080 --> 02:55:33,580
+you
+
+991
+02:56:03,080 --> 02:56:03,580
+you
+
+992
+02:56:33,080 --> 02:56:33,580
+you
+
+993
+02:57:03,080 --> 02:57:03,580
+you
+
+994
+02:57:33,080 --> 02:57:33,580
+you
+
+995
+02:58:03,080 --> 02:58:03,580
+you
+
+996
+02:58:33,080 --> 02:58:33,580
+you
+
+997
+02:59:03,080 --> 02:59:03,580
+you
+
+998
+02:59:33,080 --> 02:59:33,580
+you
+

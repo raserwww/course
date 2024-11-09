@@ -1,0 +1,5268 @@
+1
+00:00:30,000 --> 00:00:49,000
+ Okay, so let's start the class now.
+
+2
+00:01:00,000 --> 00:01:14,600
+ So, how do you feel this course so far particularly the part 2?
+
+3
+00:01:14,600 --> 00:01:29,080
+ Okay, the contents and the next notes and also the next.
+
+4
+00:01:29,080 --> 00:01:41,600
+ You can follow or you find too easy or too difficult.
+
+5
+00:01:41,600 --> 00:01:50,039
+ So you can give me feedback to see how to improve.
+
+6
+00:01:50,039 --> 00:01:55,960
+ So let me highlight again.
+
+7
+00:01:55,960 --> 00:02:04,960
+ Let me see what I have.
+
+8
+00:02:04,960 --> 00:02:22,000
+ First, remind again about the quiz which will be conduct here and I also make the announcement.
+
+9
+00:02:22,000 --> 00:02:25,760
+ So it will be week 12.
+
+10
+00:02:25,760 --> 00:02:29,840
+ Already confirmed 8 to 9 p.m.
+
+11
+00:02:29,840 --> 00:02:39,280
+ We still have the normal class and take the break maybe 20 minutes and then after that
+
+12
+00:02:39,280 --> 00:02:44,280
+ you should be sitting by 7.50 p.m.
+
+13
+00:02:44,280 --> 00:02:48,080
+ I have some student helpers to help.
+
+14
+00:02:48,080 --> 00:02:58,840
+ So as I already told you it will be on the first two chapters and yeah maybe I think
+
+15
+00:02:58,840 --> 00:03:06,440
+ today we will finish this chapter 2 and so that you have like 2 weeks.
+
+16
+00:03:06,440 --> 00:03:09,320
+ So there will be quite enough time.
+
+17
+00:03:09,320 --> 00:03:20,800
+ Next week perhaps I can see how to narrow down certain parts to give the scope.
+
+18
+00:03:20,800 --> 00:03:29,240
+ That quiz may be different from the final exam paper.
+
+19
+00:03:29,240 --> 00:03:41,160
+ So just give you some information before we start.
+
+20
+00:03:41,160 --> 00:03:52,000
+ Let's see what's the main focus of the linear prediction and the optimal linear filter.
+
+21
+00:03:52,000 --> 00:04:06,440
+ That was one of the main parts of this second half after learning some necessary background
+
+22
+00:04:06,440 --> 00:04:17,480
+ like probabilities, statistics and some filters and some linear algebra.
+
+23
+00:04:17,480 --> 00:04:22,200
+ Those are quite useful.
+
+24
+00:04:22,200 --> 00:04:37,400
+ So let's go back again to see.
+
+25
+00:04:37,400 --> 00:04:53,640
+ So let's again try to clarify some basic concepts about prediction filtering and also
+
+26
+00:04:53,640 --> 00:05:09,080
+ the linear predictor and the so-called prediction error filters because they are related but
+
+27
+00:05:09,080 --> 00:05:19,280
+ they are not the same and that also helps to understand the Wiener filter.
+
+28
+00:05:19,280 --> 00:05:28,119
+ You can see Wiener filter is like the more general extending what we learned in the early
+
+29
+00:05:28,119 --> 00:05:36,520
+ part, linear prediction filter into the more general case.
+
+30
+00:05:36,520 --> 00:05:53,880
+ So let's hope this one will work.
+
+31
+00:05:53,880 --> 00:06:13,560
+ We need to activate all the things.
+
+32
+00:06:13,560 --> 00:06:19,159
+ Okay, looks like it's working.
+
+33
+00:06:19,160 --> 00:06:26,160
+ Let's see.
+
+34
+00:06:26,160 --> 00:06:39,360
+ We need to rotate.
+
+35
+00:06:39,360 --> 00:06:42,360
+ Exchange.
+
+36
+00:06:42,360 --> 00:06:49,360
+ Okay, finally.
+
+37
+00:06:49,360 --> 00:06:57,720
+ Okay, so like this, looks like working.
+
+38
+00:06:57,720 --> 00:07:09,160
+ Last time in LT 19, the one not working after several weeks, finally the CITS replaced by
+
+39
+00:07:09,160 --> 00:07:11,160
+ a new one.
+
+40
+00:07:11,160 --> 00:07:19,960
+ So let's see what's the prediction and filtering.
+
+41
+00:07:19,960 --> 00:07:30,560
+ I think you have learned DSP before or at least in part one about filtering.
+
+42
+00:07:30,560 --> 00:07:40,960
+ So if we talk about discrete time signal like XN, which is input, if you go to the
+
+43
+00:07:40,960 --> 00:07:51,840
+ filter, you'll go through filters like linear time invariant filter.
+
+44
+00:07:51,840 --> 00:08:01,760
+ So this is, you see more like the what you learned in part one or in your undergraduate
+
+45
+00:08:01,760 --> 00:08:04,159
+ DSP.
+
+46
+00:08:04,160 --> 00:08:14,560
+ So filters, if you say the impulse response, because we are talking about linear time invariant
+
+47
+00:08:14,560 --> 00:08:16,720
+ and constant coefficient.
+
+48
+00:08:16,720 --> 00:08:28,320
+ So if the input signal goes through a filter, it will go through by convolution.
+
+49
+00:08:28,320 --> 00:08:41,439
+ Say you already know that it will be, in general, if we are talking about discrete time, it
+
+50
+00:08:41,439 --> 00:08:44,600
+ should be summation, you see.
+
+51
+00:08:44,600 --> 00:08:46,760
+ Continuous time will be integration.
+
+52
+00:08:46,760 --> 00:08:53,920
+ So need to keep this well known.
+
+53
+00:08:53,920 --> 00:09:05,520
+ So what you do is you have the impulse response by K minus N.
+
+54
+00:09:05,520 --> 00:09:11,199
+ So this YN is the output.
+
+55
+00:09:11,199 --> 00:09:26,920
+ So K would be the dummy index and then about X of K.
+
+56
+00:09:26,920 --> 00:09:39,640
+ So this is the very classical in general, the linear filter concept.
+
+57
+00:09:39,640 --> 00:09:40,640
+ So okay.
+
+58
+00:09:40,640 --> 00:09:54,240
+ Then if we are talking about, so see here, if we are talking about a causal filter.
+
+59
+00:09:54,240 --> 00:09:59,720
+ Okay.
+
+60
+00:09:59,720 --> 00:10:14,320
+ Causal filter means you see our output, say if I have the importer, say this is X input
+
+61
+00:10:14,320 --> 00:10:17,560
+ signal, this is the current time N.
+
+62
+00:10:17,560 --> 00:10:18,560
+ Okay.
+
+63
+00:10:18,560 --> 00:10:21,640
+ Then the previous one is N minus one here.
+
+64
+00:10:21,640 --> 00:10:26,479
+ You know what I'm saying?
+
+65
+00:10:26,479 --> 00:10:28,560
+ So that's in the past, you see.
+
+66
+00:10:28,560 --> 00:10:35,719
+ So the X of N at this current time, those are future times, you see.
+
+67
+00:10:35,719 --> 00:10:40,880
+ You go through a filter.
+
+68
+00:10:40,880 --> 00:10:50,960
+ And then the output signal, you see, you will have the YN here.
+
+69
+00:10:50,960 --> 00:11:00,480
+ It will be depending on, you know, future thing this commutation and also the causal
+
+70
+00:11:00,480 --> 00:11:04,840
+ linear time invariant filters, filters concept.
+
+71
+00:11:04,840 --> 00:11:09,880
+ So it will be X N input value.
+
+72
+00:11:09,880 --> 00:11:21,120
+ At this point, it will be a linear combination of this N, N, X of N, evaluate at that same
+
+73
+00:11:21,120 --> 00:11:22,120
+ time, you see.
+
+74
+00:11:22,120 --> 00:11:33,120
+ N equal to say three, then it will be X three, then the previous value, N minus one, N,
+
+75
+00:11:33,120 --> 00:11:34,320
+ and so on.
+
+76
+00:11:34,320 --> 00:11:44,440
+ So this is what we call filtering is, filtering is, let me repeat again, the causal and linear
+
+77
+00:11:44,440 --> 00:11:45,440
+ filtering.
+
+78
+00:11:45,440 --> 00:11:51,920
+ So the output value depending on the input value at the same time, you see, the same
+
+79
+00:11:51,920 --> 00:11:53,920
+ N filter.
+
+80
+00:11:53,920 --> 00:11:59,360
+ N, the past value, the previous value.
+
+81
+00:11:59,360 --> 00:12:07,240
+ So this is the very well known factor and what you should learn, very fundamental.
+
+82
+00:12:07,240 --> 00:12:10,200
+ So this one is filter.
+
+83
+00:12:10,200 --> 00:12:23,880
+ So how about prediction, you see, because prediction filter, sometimes to avoid, it's
+
+84
+00:12:23,880 --> 00:12:30,080
+ confusing with the filtering, we call this predictors.
+
+85
+00:12:30,080 --> 00:12:42,840
+ So prediction is, again, we're referring to the value of X N, N minus one, N minus
+
+86
+00:12:42,840 --> 00:12:47,000
+ two, and so on, the past value.
+
+87
+00:12:47,000 --> 00:12:57,160
+ So our output going through filter, you see, our output value Y N here depends on, you
+
+88
+00:12:57,160 --> 00:12:59,040
+ know, at this N index.
+
+89
+00:12:59,040 --> 00:13:10,440
+ It only is a linear combination of the value, not including X of N. We only have X N minus
+
+90
+00:13:10,440 --> 00:13:18,280
+ one and then X N minus two and so on.
+
+91
+00:13:18,280 --> 00:13:19,280
+ Going back.
+
+92
+00:13:19,280 --> 00:13:30,640
+ So that means predictions, the output equals, not, it owns the current input value of this
+
+93
+00:13:30,640 --> 00:13:38,640
+ X N. So that's the difference between filtering and prediction.
+
+94
+00:13:38,640 --> 00:13:46,080
+ And later we can also talk about smoothing when we come to the carbon filter.
+
+95
+00:13:46,080 --> 00:13:57,600
+ So that's the, as you see here, if you all compare the two filters, it depends on the
+
+96
+00:13:57,600 --> 00:14:05,200
+ value, the filtering, the input value at the same time N and previous one.
+
+97
+00:14:05,200 --> 00:14:14,000
+ And prediction, of course, here I'm talking about the normal forward linear prediction.
+
+98
+00:14:14,000 --> 00:14:22,320
+ So it will be the immediate past value if you are talking about step one.
+
+99
+00:14:22,320 --> 00:14:29,120
+ And depending on the order of the predictor, it can be order P, then that means you will
+
+100
+00:14:29,120 --> 00:14:31,440
+ be using P value.
+
+101
+00:14:31,440 --> 00:14:36,040
+ So I hope this will be clear to you.
+
+102
+00:14:36,040 --> 00:14:42,840
+ And that's the linear forward linear predictor.
+
+103
+00:14:42,840 --> 00:14:55,000
+ And that's how when, if you all look at this expression here, you refer to the lecture
+
+104
+00:14:55,000 --> 00:14:56,000
+ note here.
+
+105
+00:14:56,000 --> 00:14:57,000
+ You see here?
+
+106
+00:14:57,000 --> 00:14:58,000
+ Okay.
+
+107
+00:14:58,000 --> 00:15:04,560
+ So our output Y N here will be, we're trying to predict the X N value.
+
+108
+00:15:04,560 --> 00:15:11,400
+ So we, our Y N, in this case, in this context will be X N hat.
+
+109
+00:15:11,400 --> 00:15:13,160
+ And then we'll pay some past value.
+
+110
+00:15:13,160 --> 00:15:14,160
+ See?
+
+111
+00:15:14,160 --> 00:15:21,520
+ N minus 1 all the way, N minus P. So this is a prediction or linear predictor.
+
+112
+00:15:21,520 --> 00:15:23,480
+ And this is a forward one.
+
+113
+00:15:23,480 --> 00:15:30,160
+ And it's, of course, causal, but we only pay some past value.
+
+114
+00:15:30,160 --> 00:15:38,840
+ So this one step, you use one value back, one sample value, if it's two steps, you'll
+
+115
+00:15:38,840 --> 00:15:50,120
+ use two value back, and every two value, you will be using those values, a linear prediction.
+
+116
+00:15:50,120 --> 00:15:55,000
+ And why this, so there's a difference.
+
+117
+00:15:55,000 --> 00:16:00,080
+ You see here is linear prediction errors.
+
+118
+00:16:00,080 --> 00:16:01,080
+ So that make a difference.
+
+119
+00:16:01,080 --> 00:16:03,440
+ You see now we use this predict value.
+
+120
+00:16:03,440 --> 00:16:06,960
+ We try to see how good we are doing.
+
+121
+00:16:06,960 --> 00:16:10,560
+ And then you'll take the difference.
+
+122
+00:16:10,560 --> 00:16:18,600
+ I mean, this is not the output value of the Y N where we are predicting is.
+
+123
+00:16:18,600 --> 00:16:20,600
+ In fact, we try to see how good we are doing.
+
+124
+00:16:20,600 --> 00:16:24,320
+ So it's a prediction error.
+
+125
+00:16:24,320 --> 00:16:33,640
+ So it looks the expression similar, but now this one includes the value at the same N.
+
+126
+00:16:33,640 --> 00:16:40,760
+ So you become a filter because you are using the, using the current N value.
+
+127
+00:16:40,760 --> 00:16:44,319
+ But it's not the predictor.
+
+128
+00:16:44,319 --> 00:16:51,520
+ It's a forward prediction error filter.
+
+129
+00:16:51,520 --> 00:17:01,400
+ So therefore the forward prediction error filter here, this is the one, you judge it
+
+130
+00:17:01,400 --> 00:17:02,400
+ here.
+
+131
+00:17:02,400 --> 00:17:07,960
+ The output value here is not the XN head here.
+
+132
+00:17:07,960 --> 00:17:18,760
+ So the whole thing, this is called the linear error filter, not the predictor.
+
+133
+00:17:18,760 --> 00:17:23,240
+ So they are relative, but not the same.
+
+134
+00:17:23,240 --> 00:17:25,000
+ So this is linear forward.
+
+135
+00:17:25,000 --> 00:17:27,760
+ And then backward is the other row.
+
+136
+00:17:27,760 --> 00:17:34,760
+ The forward prediction error filter here is you collect the data first, then we will
+
+137
+00:17:34,760 --> 00:17:43,800
+ be predicting the, the, the past, one of the past values, say P value before the current
+
+138
+00:17:43,800 --> 00:17:49,720
+ time, N minus P, N, using the future value.
+
+139
+00:17:49,720 --> 00:17:53,800
+ So, so, so in this sense, it's not causal.
+
+140
+00:17:53,800 --> 00:18:02,879
+ So, also we, also use the prediction that is a little bit like predicting back the past
+
+141
+00:18:02,879 --> 00:18:05,080
+ value, using future value.
+
+142
+00:18:05,080 --> 00:18:06,080
+ Okay.
+
+143
+00:18:06,080 --> 00:18:10,919
+ So I won't go into the program for this one.
+
+144
+00:18:10,919 --> 00:18:21,200
+ So all of this is great to you before we set this into the continuation of the, of the
+
+145
+00:18:21,200 --> 00:18:22,200
+ Wiener filter.
+
+146
+00:18:22,200 --> 00:18:31,560
+ And along the way, we also discuss different filter structure like the lattice filters,
+
+147
+00:18:31,560 --> 00:18:36,280
+ which is more advanced in terms of implementation.
+
+148
+00:18:36,280 --> 00:18:40,680
+ So and how to convert the coefficient.
+
+149
+00:18:40,680 --> 00:18:49,560
+ By the way, I even saw a, used this in the, we buy several times, but still sometimes
+
+150
+00:18:49,560 --> 00:18:55,360
+ some type of error and then some students also quite helpful to help prefer to pull
+
+151
+00:18:55,360 --> 00:18:56,360
+ out.
+
+152
+00:18:56,360 --> 00:19:02,200
+ So you keep the, take note of my more update version.
+
+153
+00:19:02,200 --> 00:19:09,760
+ So to the result, whatever, you will be referring to the most update version.
+
+154
+00:19:09,760 --> 00:19:16,360
+ For example, last time one student, pull out the type of error here.
+
+155
+00:19:16,360 --> 00:19:19,919
+ Correctly, it should be, although it's second order.
+
+156
+00:19:19,919 --> 00:19:26,679
+ So we are changing the Z into Z, Z minus one.
+
+157
+00:19:26,679 --> 00:19:36,360
+ So I emphasize, when we say A2 of Z, you refer to polynomial in the Z to the negative power,
+
+158
+00:19:36,360 --> 00:19:38,919
+ say Z minus one and minus two.
+
+159
+00:19:38,919 --> 00:19:42,280
+ Then Z change to Z to the power minus one.
+
+160
+00:19:42,280 --> 00:19:44,080
+ That means you are changing back.
+
+161
+00:19:44,080 --> 00:19:49,800
+ So whatever Z to the minus one, you change to Z, Z to the power minus two, because you
+
+162
+00:19:49,800 --> 00:19:51,280
+ are negative and negative.
+
+163
+00:19:51,280 --> 00:19:53,199
+ So become positive.
+
+164
+00:19:53,199 --> 00:20:02,480
+ And then why the way in the end still get negative power, because you will multiply this high,
+
+165
+00:20:02,480 --> 00:20:07,480
+ higher negative power, Z to the power minus two.
+
+166
+00:20:07,480 --> 00:20:12,240
+ Because A1 is only first order.
+
+167
+00:20:12,240 --> 00:20:16,400
+ So the maximum is only Z to the power minus one.
+
+168
+00:20:16,400 --> 00:20:20,520
+ And then you change to Z to the power minus one become Z.
+
+169
+00:20:20,520 --> 00:20:26,160
+ So in the end, we still get all the negative Z to the power.
+
+170
+00:20:26,160 --> 00:20:30,280
+ Similarly, now this is minus two.
+
+171
+00:20:30,280 --> 00:20:33,920
+ Then you change Z to the power minus two.
+
+172
+00:20:33,920 --> 00:20:37,520
+ It will become Z to the power two.
+
+173
+00:20:37,520 --> 00:20:41,600
+ And sorry, Z to the power minus one.
+
+174
+00:20:41,600 --> 00:20:47,040
+ So whatever you see Z to the power minus two, it will become Z to.
+
+175
+00:20:47,040 --> 00:20:51,719
+ And similarly Z to the power minus one, it will become Z.
+
+176
+00:20:51,719 --> 00:20:55,600
+ But then since we multiply Z to the power minus three.
+
+177
+00:20:55,600 --> 00:21:00,480
+ So in the end, the product will be still negative power of Z.
+
+178
+00:21:00,480 --> 00:21:07,840
+ So you don't see any positive Z to the positive power.
+
+179
+00:21:07,840 --> 00:21:10,000
+ And so on.
+
+180
+00:21:10,960 --> 00:21:20,160
+ So the other will be straightforward, backward, linear prediction.
+
+181
+00:21:20,160 --> 00:21:25,400
+ And any question at this point?
+
+182
+00:21:25,400 --> 00:21:27,280
+ You would like to clarify?
+
+183
+00:21:31,600 --> 00:21:39,400
+ There is some important derivation where a few students email to us
+
+184
+00:21:39,400 --> 00:21:47,480
+ about how we get the minimization of this
+
+185
+00:21:47,480 --> 00:21:53,880
+ by getting this set of normal equations by minimize this.
+
+186
+00:21:53,880 --> 00:22:03,240
+ And the derivation is like following the quadratic function.
+
+187
+00:22:03,240 --> 00:22:06,440
+ And it works for complex also.
+
+188
+00:22:06,440 --> 00:22:12,600
+ So I show some derivation here.
+
+189
+00:22:12,600 --> 00:22:18,480
+ So that maybe it's not including the lecture notes.
+
+190
+00:22:18,480 --> 00:22:22,880
+ Because this derivation is also useful.
+
+191
+00:22:22,880 --> 00:22:26,880
+ Later part is for the winner filter.
+
+192
+00:22:26,880 --> 00:22:35,160
+ So I just write down here so that you can understand the relationship
+
+193
+00:22:35,160 --> 00:22:43,800
+ and how this in general, how you derive the second order
+
+194
+00:22:43,800 --> 00:22:46,800
+ like the quadratic cost function.
+
+195
+00:22:46,800 --> 00:22:51,760
+ And this concept is also very useful if you are deriving
+
+196
+00:22:51,760 --> 00:22:55,880
+ some similar error function.
+
+197
+00:22:55,880 --> 00:22:59,040
+ So let's make the code is at the series.
+
+198
+00:22:59,040 --> 00:23:03,560
+ So it becomes very general.
+
+199
+00:23:03,560 --> 00:23:13,480
+ Let's consider here we are talking about stationally random process,
+
+200
+00:23:13,480 --> 00:23:17,000
+ WAN and DN.
+
+201
+00:23:17,000 --> 00:23:22,320
+ They could be relative, but they will be different in general.
+
+202
+00:23:22,320 --> 00:23:28,000
+ Then you can apply to linear prediction filter.
+
+203
+00:23:28,000 --> 00:23:31,679
+ Or later on the winner filter is more general.
+
+204
+00:23:31,680 --> 00:23:37,040
+ So the idea here is given this tool.
+
+205
+00:23:37,040 --> 00:23:45,640
+ We try to use the random process of WAN.
+
+206
+00:23:45,640 --> 00:23:47,480
+ WAN not necessarily noise.
+
+207
+00:23:47,480 --> 00:23:51,160
+ So don't always assume W would be noise.
+
+208
+00:23:51,160 --> 00:23:57,160
+ Sometimes noise sometimes could be just another stationally process.
+
+209
+00:23:57,160 --> 00:24:02,480
+ So we try to use a linear combination.
+
+210
+00:24:02,480 --> 00:24:05,080
+ These are coefficient.
+
+211
+00:24:05,080 --> 00:24:09,520
+ So you see here this is again a concept of filters.
+
+212
+00:24:09,520 --> 00:24:14,760
+ You do linear convolution.
+
+213
+00:24:14,760 --> 00:24:19,440
+ And then linear estimator of this DN.
+
+214
+00:24:19,440 --> 00:24:20,880
+ Try to see how much.
+
+215
+00:24:20,880 --> 00:24:26,960
+ And in general, you will not get a perfect estimation.
+
+216
+00:24:26,960 --> 00:24:34,280
+ So you produce some estimation error here, which we call it DN.
+
+217
+00:24:34,280 --> 00:24:40,600
+ And then now how are we going to get the optimal coefficient?
+
+218
+00:24:40,600 --> 00:24:47,120
+ Because by choosing different coefficient, you will get different error function.
+
+219
+00:24:47,120 --> 00:24:56,800
+ So the optimal coefficient we try to derive is trying to minimize the mean square error.
+
+220
+00:24:57,639 --> 00:24:59,120
+ This is the error.
+
+221
+00:24:59,120 --> 00:25:05,639
+ And then so the idea here is it could be positive or negative.
+
+222
+00:25:05,639 --> 00:25:12,040
+ So in general, we take the absolute value and raise power 2 and take the expectation
+
+223
+00:25:12,040 --> 00:25:15,440
+ because we are dealing with random process.
+
+224
+00:25:15,440 --> 00:25:21,480
+ So here we are dealing with complex.
+
+225
+00:25:21,480 --> 00:25:25,760
+ But real coefficient will be a special case.
+
+226
+00:25:25,760 --> 00:25:28,840
+ So let's make it general.
+
+227
+00:25:28,840 --> 00:25:39,600
+ Then it turns out to be showing to minimize that we were in the end.
+
+228
+00:25:39,600 --> 00:25:52,560
+ Our that in total this m equal to this is 0, q plus 1 equation.
+
+229
+00:25:52,560 --> 00:25:54,400
+ It will satisfy this.
+
+230
+00:25:54,400 --> 00:26:02,480
+ So our error multiplied by this WN and take note this is conjugate if you are dealing
+
+231
+00:26:02,480 --> 00:26:04,600
+ with complex.
+
+232
+00:26:04,600 --> 00:26:10,080
+ So this is a kind of orthogonal property.
+
+233
+00:26:10,080 --> 00:26:14,520
+ That's also why later when we talk about Wiener-Pilter, we talk about this.
+
+234
+00:26:14,520 --> 00:26:17,600
+ Also, it's similar here.
+
+235
+00:26:17,600 --> 00:26:23,280
+ We will see they multiply take expectation equal to 0.
+
+236
+00:26:23,280 --> 00:26:33,760
+ So in the sense orthogonal, yeah, this property in the statistical sense.
+
+237
+00:26:33,760 --> 00:26:38,240
+ So then we know the relationship.
+
+238
+00:26:38,240 --> 00:26:50,840
+ Our yeah, if you substitute the E n into dn minus this, you will see and also our estimate
+
+239
+00:26:50,840 --> 00:26:52,360
+ here.
+
+240
+00:26:52,360 --> 00:26:56,320
+ You can break down into two parts.
+
+241
+00:26:56,320 --> 00:27:03,320
+ One is taking out the dn, your expectation you will have it here.
+
+242
+00:27:03,320 --> 00:27:14,199
+ And the other is you take the expectation you will become the auto correlation because
+
+243
+00:27:14,800 --> 00:27:25,160
+ as you see here, our dn hat is we are using the linear combination of those W, W, N and
+
+244
+00:27:25,160 --> 00:27:26,800
+ the delay.
+
+245
+00:27:26,800 --> 00:27:32,520
+ So in the N, you will see you have WN minus N, N also this one.
+
+246
+00:27:32,520 --> 00:27:37,680
+ So it becomes the auto correlation because after taking expectation.
+
+247
+00:27:37,680 --> 00:27:40,760
+ So here is the concept they are all linked together.
+
+248
+00:27:41,360 --> 00:27:44,680
+ So that's why this part is not so easy.
+
+249
+00:27:44,680 --> 00:27:53,680
+ You need to understand a few concepts put into the same context here.
+
+250
+00:27:54,120 --> 00:28:03,120
+ So that's how we arrive at this and how to do that, that's what I just call the theory.
+
+251
+00:28:04,120 --> 00:28:10,120
+ To do that, we are dealing with a complex in general.
+
+252
+00:28:10,120 --> 00:28:14,959
+ We let this coefficient it could be complex.
+
+253
+00:28:14,959 --> 00:28:18,840
+ So we break into the real part, imaginary part.
+
+254
+00:28:18,840 --> 00:28:25,840
+ And then the optimal coefficient is satisfied because whenever you take the optimal, you
+
+255
+00:28:26,840 --> 00:28:33,840
+ take derivative should be equal to zero for both the real part and the imaginary part.
+
+256
+00:28:37,040 --> 00:28:39,760
+ So you break into that.
+
+257
+00:28:39,760 --> 00:28:44,399
+ And then you can, we are dealing with a complex.
+
+258
+00:28:44,399 --> 00:28:51,399
+ So you need to take the expectation and this e n is you see here, because it is the second
+
+259
+00:28:51,520 --> 00:28:58,520
+ order quadratic, take derivation and second order it will reduce to first order of e n.
+
+260
+00:29:05,000 --> 00:29:06,960
+ And similarly, it is complex.
+
+261
+00:29:06,960 --> 00:29:10,720
+ So you will have conjugate and no conjugate.
+
+262
+00:29:10,720 --> 00:29:17,720
+ And then you take, this one no conjugate, you take derivative using the conjugate part.
+
+263
+00:29:17,720 --> 00:29:24,720
+ If you are dealing with complex, if it's rare, then you don't need, you can combine this.
+
+264
+00:29:24,720 --> 00:29:29,720
+ Similarly for the imaginary part, you also do the same here.
+
+265
+00:29:29,720 --> 00:29:35,720
+ So that's, we're not going to detail.
+
+266
+00:29:35,720 --> 00:29:42,720
+ Now you can go back to from the, our notation.
+
+267
+00:29:43,720 --> 00:29:50,720
+ You will see here, d e n, take derivative will be just equal to minus w n minus n.
+
+268
+00:29:52,760 --> 00:29:59,760
+ And then you take conjugate because you will be just take the, is the same but conjugate
+
+269
+00:29:59,840 --> 00:30:04,880
+ of w n if this is complex.
+
+270
+00:30:04,880 --> 00:30:11,880
+ Similarly if you are taking with respect to u i, you have this and if this is conjugate,
+
+271
+00:30:12,040 --> 00:30:14,040
+ you will get this.
+
+272
+00:30:14,040 --> 00:30:21,040
+ So therefore if you combine them together, you will end up with this relationship, e of
+
+273
+00:30:28,480 --> 00:30:32,040
+ this plus this equal to 0.
+
+274
+00:30:32,040 --> 00:30:39,040
+ And similarly you will have the minus one plus this also equal to 0 by minus 1 plus this
+
+275
+00:30:42,360 --> 00:30:46,520
+ using that relationship.
+
+276
+00:30:46,520 --> 00:30:53,520
+ And then from here, yeah, you can show e of this will be equal to 0 for this m cell equation.
+
+277
+00:31:03,520 --> 00:31:10,520
+ And then e n is equal to this d n and estimate the derivative.
+
+278
+00:31:11,880 --> 00:31:16,880
+ So you will have this relationship.
+
+279
+00:31:16,880 --> 00:31:23,880
+ And if you make this into two terms and move those to the other side, you will have this
+
+280
+00:31:25,960 --> 00:31:30,840
+ relationship by e of the d n multiplied by this.
+
+281
+00:31:30,840 --> 00:31:36,600
+ And this is what we, I say the auto correlation.
+
+282
+00:31:36,600 --> 00:31:42,560
+ So that's the, we are using the optimization and the minimization.
+
+283
+00:31:42,560 --> 00:31:48,120
+ So we derive at this general theory the result.
+
+284
+00:31:48,120 --> 00:31:54,120
+ And now we put back to our linear prediction problem.
+
+285
+00:31:54,120 --> 00:32:01,120
+ In our case here, for linear prediction of d n just equal to x n and our w n is also
+
+286
+00:32:02,120 --> 00:32:05,360
+ x n.
+
+287
+00:32:05,360 --> 00:32:08,040
+ So that looks a bit, a bit confusing.
+
+288
+00:32:08,040 --> 00:32:13,439
+ It's not the case because that's the precisely what we are doing.
+
+289
+00:32:13,439 --> 00:32:20,439
+ We are using the same sequence to trying to predict but it's pass value.
+
+290
+00:32:20,440 --> 00:32:26,440
+ So that's how this is.
+
+291
+00:32:26,440 --> 00:32:33,440
+ And also in our case, p is just equal to q in our setting here.
+
+292
+00:32:36,720 --> 00:32:43,720
+ And our a p l is in this, is equal to minus u l because the theorem is general.
+
+293
+00:32:44,720 --> 00:32:51,720
+ And therefore if you substitute all these, we get this relationship which is the set
+
+294
+00:32:53,640 --> 00:33:00,640
+ of the linear normal equation.
+
+295
+00:33:01,440 --> 00:33:08,440
+ And then if you, for this linear prediction you use this result to put in.
+
+296
+00:33:09,240 --> 00:33:16,240
+ Then we want to see the optimal one, how was the mean square, mean square error.
+
+297
+00:33:18,760 --> 00:33:24,840
+ This is, so it's very useful for absolute value raise of power two for complex.
+
+298
+00:33:24,840 --> 00:33:29,720
+ You can always write it as e n and multiply by conjugate.
+
+299
+00:33:29,720 --> 00:33:33,960
+ So then, let me avoid this absolute value and the power two.
+
+300
+00:33:33,960 --> 00:33:40,960
+ Then you already know e n is the one here.
+
+301
+00:33:41,240 --> 00:33:43,040
+ Then I replace this.
+
+302
+00:33:43,040 --> 00:33:50,040
+ In our case here, we use x n hat to predict our x n.
+
+303
+00:33:50,320 --> 00:33:56,320
+ So that's why it makes sense even this same sequence.
+
+304
+00:33:56,320 --> 00:34:03,320
+ And after that you can substitute this one here.
+
+305
+00:34:04,960 --> 00:34:09,960
+ Yeah, this is x n.
+
+306
+00:34:09,960 --> 00:34:16,960
+ And therefore, because the pi is very visual, they will be equal to zero.
+
+307
+00:34:16,960 --> 00:34:20,960
+ So you only need to keep this one here.
+
+308
+00:34:20,960 --> 00:34:24,960
+ And the other one now, we do it one more time for this e n.
+
+309
+00:34:24,960 --> 00:34:31,960
+ You put this one here and then you multiply and then you evaluate here, substitute this
+
+310
+00:34:32,960 --> 00:34:35,960
+ one here.
+
+311
+00:34:35,960 --> 00:34:40,960
+ So that's why your n tau is this.
+
+312
+00:34:40,960 --> 00:34:46,960
+ And that's precisely, you see now you explain this.
+
+313
+00:34:46,960 --> 00:34:53,960
+ And based on the definition of auto correlation here, x, we will get this is n and n is zero.
+
+314
+00:34:54,960 --> 00:34:59,960
+ There's no time delay.
+
+315
+00:34:59,960 --> 00:35:06,960
+ Well, for the other here, it's auto correlation but with some delay here.
+
+316
+00:35:08,960 --> 00:35:12,960
+ How much it will be depending on this k.
+
+317
+00:35:12,960 --> 00:35:15,960
+ k is from one, it will be minus one.
+
+318
+00:35:15,960 --> 00:35:18,960
+ And two, it will be minus two and so on.
+
+319
+00:35:18,960 --> 00:35:22,960
+ But auto correlation is an even function.
+
+320
+00:35:22,960 --> 00:35:24,960
+ So minus one is the same.
+
+321
+00:35:24,960 --> 00:35:28,960
+ It can be replaced by one and two and so on.
+
+322
+00:35:28,960 --> 00:35:30,960
+ Minus one and so on.
+
+323
+00:35:30,960 --> 00:35:35,960
+ So this is eventually we get the result.
+
+324
+00:35:35,960 --> 00:35:44,960
+ And this also works for the Wiener filter because it has a very similar set of normal equations.
+
+325
+00:35:44,960 --> 00:35:48,960
+ So you can also cover here.
+
+326
+00:35:49,960 --> 00:35:58,960
+ Any questions before we move on to what we let?
+
+327
+00:35:59,960 --> 00:36:01,960
+ Yeah.
+
+328
+00:36:16,960 --> 00:36:26,960
+ So now, like we come back continue from what we discussed, Wiener filter for filtering and prediction.
+
+329
+00:36:26,960 --> 00:36:37,960
+ So you'll see here now since you have the concept, the difference between predictions and filtering.
+
+330
+00:36:37,960 --> 00:36:45,960
+ So you can also see we now assume some signal model is a very simple one.
+
+331
+00:36:45,960 --> 00:36:51,960
+ Just instead of like the prediction, you only know x of n.
+
+332
+00:36:51,960 --> 00:36:59,960
+ Now we know this x of n come from the sum of desirable signal as n and also the noise.
+
+333
+00:36:59,960 --> 00:37:02,960
+ And then we desire optimal.
+
+334
+00:37:02,960 --> 00:37:05,960
+ This linear filter is more general.
+
+335
+00:37:05,960 --> 00:37:13,960
+ It's not just filter is more like the generalized filter including filtering, prediction and smoothing.
+
+336
+00:37:13,960 --> 00:37:17,960
+ And this is our Y n here.
+
+337
+00:37:17,960 --> 00:37:27,960
+ So how to decide that we need to somehow come up with desirable signal called the n and then we minimize this E n.
+
+338
+00:37:27,960 --> 00:37:32,960
+ So that's how it's, yeah.
+
+339
+00:37:32,960 --> 00:37:38,960
+ So that's, you'll see here if the reference is for the our sm.
+
+340
+00:37:38,960 --> 00:37:46,960
+ Then we decide this try to suppress the Wn because we don't have a direct measure of sm.
+
+341
+00:37:46,960 --> 00:37:49,960
+ Then otherwise we don't need to do filtering.
+
+342
+00:37:49,960 --> 00:37:52,960
+ We already get the desirable signal.
+
+343
+00:37:52,960 --> 00:37:55,960
+ All we have is only x of n not sm.
+
+344
+00:37:55,960 --> 00:38:03,960
+ So we try to decide this to reduce the Wn impact of Wn as much as possible.
+
+345
+00:38:03,960 --> 00:38:12,960
+ And then you can see here is filtering because our Dn is at the same time as Yn.
+
+346
+00:38:12,960 --> 00:38:29,960
+ Then we will be prediction if this Dn is not just xn but is the time instant, the head of the current time n is n plus d.
+
+347
+00:38:29,960 --> 00:38:31,960
+ So it's some future value.
+
+348
+00:38:31,960 --> 00:38:37,960
+ That's how this is prediction with some positive integer d.
+
+349
+00:38:38,960 --> 00:38:52,960
+ And we can do signal smoothing if it is back where try to improve the past value is n minus d.
+
+350
+00:38:52,960 --> 00:39:02,960
+ Okay, so therefore here we will be discussing more about filtering and prediction.
+
+351
+00:39:02,960 --> 00:39:11,960
+ And then we make the assumption of now instead of just x of n, we have Sn, Wn and Dn.
+
+352
+00:39:11,960 --> 00:39:17,960
+ So they all have zero mean and Ysang stationary.
+
+353
+00:39:18,960 --> 00:39:28,960
+ And so again here you see the Wn filter is we try to get the optimal linear filter coefficient.
+
+354
+00:39:28,960 --> 00:39:34,960
+ And in the sense of minimize the mean square errors here.
+
+355
+00:39:34,960 --> 00:39:43,960
+ And then you see here the expression here is what I put in early in the derivation.
+
+356
+00:39:43,960 --> 00:39:48,960
+ So take the difference between this Dn and Wn.
+
+357
+00:39:48,960 --> 00:39:55,960
+ So derivation apply to both Wn filter and our early linear prediction.
+
+358
+00:39:55,960 --> 00:40:04,960
+ And here for linear prediction we are only assuming you use finite value.
+
+359
+00:40:04,960 --> 00:40:10,960
+ So it's more like the FIR filter here but Wn filter.
+
+360
+00:40:10,960 --> 00:40:19,960
+ So by definition it could be for both FIR and IR filter.
+
+361
+00:40:19,960 --> 00:40:29,960
+ So IR filter then it's you will be assuming you have whatever you are doing you need to collect past value.
+
+362
+00:40:29,960 --> 00:40:32,960
+ Infinity many of them.
+
+363
+00:40:32,960 --> 00:40:35,960
+ But FIR is always finite value.
+
+364
+00:40:35,960 --> 00:40:44,960
+ So we start with FIR filter which we discussed briefly already.
+
+365
+00:40:44,960 --> 00:40:49,960
+ So you see here this is the filtering.
+
+366
+00:40:49,960 --> 00:40:58,960
+ Let's see we are using the cell of past value including the x of n.
+
+367
+00:40:58,960 --> 00:41:06,960
+ So it's not a prediction it's a filtering problem.
+
+368
+00:41:06,960 --> 00:41:13,960
+ In total starting from 0 up to m minus 1.
+
+369
+00:41:13,960 --> 00:41:19,960
+ So we don't use future value because this is causal.
+
+370
+00:41:19,960 --> 00:41:34,960
+ And then that's precisely the way minimized by minimized mean square root as what I mentioned earlier.
+
+371
+00:41:34,960 --> 00:41:42,960
+ And after that you'll get the set of linear system of equation you see.
+
+372
+00:41:42,960 --> 00:41:49,960
+ So FIR filter you only have the finite capital M value.
+
+373
+00:41:49,960 --> 00:42:03,960
+ So you will get this in total M equation with unknown is the filter coefficient here which is in total also m tag.
+
+374
+00:42:03,960 --> 00:42:17,960
+ So you can solve assuming you have the auto correlation of the input sequence and also the cross correlation between this design sequence which are given to you.
+
+375
+00:42:17,960 --> 00:42:19,960
+ And also the input sequence.
+
+376
+00:42:19,960 --> 00:42:22,960
+ So remember this input is including noise.
+
+377
+00:42:22,960 --> 00:42:24,960
+ So we have this available.
+
+378
+00:42:24,960 --> 00:42:26,960
+ You can measure this.
+
+379
+00:42:26,960 --> 00:42:31,960
+ And this we call this we know of equation.
+
+380
+00:42:31,960 --> 00:42:42,960
+ And then you see here it correspond to the normal equation in the context of the linear prediction like the one we just showed.
+
+381
+00:42:42,960 --> 00:42:48,960
+ So the derivation above apply to both case.
+
+382
+00:42:48,960 --> 00:42:53,960
+ And then you can also write into magic form because for FIR filter.
+
+383
+00:42:53,960 --> 00:43:00,960
+ You will not be able to do because infinity filter that is not the magic.
+
+384
+00:43:00,960 --> 00:43:02,960
+ Magic by definition.
+
+385
+00:43:02,960 --> 00:43:03,960
+ Finite size.
+
+386
+00:43:03,960 --> 00:43:07,960
+ So here is M by M is probably magic.
+
+387
+00:43:07,960 --> 00:43:13,960
+ Satisfy this because dealing with a white saying stationally.
+
+388
+00:43:13,960 --> 00:43:18,960
+ So we only care the type delay.
+
+389
+00:43:18,960 --> 00:43:23,960
+ And then you also need to know this cross correlation factor.
+
+390
+00:43:23,960 --> 00:43:28,960
+ And because this is already a nice magic equation.
+
+391
+00:43:28,960 --> 00:43:33,960
+ Assume this is invertible.
+
+392
+00:43:33,960 --> 00:43:39,960
+ Then you can get the optimal filter coefficient by taking the inverse.
+
+393
+00:43:39,960 --> 00:43:54,960
+ And then once you get this optimal filter coefficient you can also derive the resulting mean square, mean square errors by substitute this optimal way.
+
+394
+00:43:54,960 --> 00:43:57,960
+ Then you end up with this.
+
+395
+00:43:57,960 --> 00:44:02,960
+ So this is the value of the dissolver signal.
+
+396
+00:44:02,960 --> 00:44:14,960
+ And this is the, because basically this is a positive value because magic here is a positive definite.
+
+397
+00:44:14,960 --> 00:44:17,960
+ You take the inverse still positive definite.
+
+398
+00:44:17,960 --> 00:44:30,960
+ And yeah, so you see the way we design this optimal filter is one to maximize this.
+
+399
+00:44:30,960 --> 00:44:40,960
+ So the total error will be the smallest possible you can get.
+
+400
+00:44:40,960 --> 00:44:47,960
+ Yeah, so yeah, that's how in this one where the Dn is given.
+
+401
+00:44:47,960 --> 00:44:50,960
+ Then you can evaluate that.
+
+402
+00:44:51,960 --> 00:45:02,960
+ And in the case of filtering, as I say, Dn in this case will be equal to the Sn.
+
+403
+00:45:02,960 --> 00:45:14,960
+ Then since now we are dealing with these two process, random process Sn of the, we usually assume they are uncorrelated.
+
+404
+00:45:14,960 --> 00:45:24,960
+ So in that case, our X is the sum of Sn plus Wn.
+
+405
+00:45:24,960 --> 00:45:38,960
+ If they are correlated, you will produce some cross term because the autocorrelation and cross correlation, they are second order statistic.
+
+406
+00:45:38,960 --> 00:45:44,960
+ So you need to scrape when you explain, you will have the cross term.
+
+407
+00:45:44,960 --> 00:45:50,960
+ But the cross term when the two are uncorrelated, they will become G low.
+
+408
+00:45:50,960 --> 00:45:54,960
+ G low in the sense of you are taking the expectation.
+
+409
+00:45:54,960 --> 00:45:55,960
+ So don't get confused.
+
+410
+00:45:55,960 --> 00:46:00,960
+ G low doesn't mean it's always equal to G low.
+
+411
+00:46:00,960 --> 00:46:04,960
+ It's G low in the sense of expectation.
+
+412
+00:46:04,960 --> 00:46:07,960
+ So there's a difference here.
+
+413
+00:46:09,960 --> 00:46:26,960
+ Okay, and then the cross correlation term here, it will be just SnS, the noise uncorrelated, your N star is 0.
+
+414
+00:46:26,960 --> 00:46:30,960
+ But the autocorrelation, you need to include this term.
+
+415
+00:46:30,960 --> 00:46:36,960
+ Okay, then as I already mentioned, we substitute back, you see.
+
+416
+00:46:36,960 --> 00:46:46,960
+ This winner hope or normal equation, we need to get this autocorrelation of the major data, X.
+
+417
+00:46:46,960 --> 00:46:49,960
+ So you substitute this inside.
+
+418
+00:46:49,960 --> 00:46:56,960
+ Then also this one, you get the relationship here.
+
+419
+00:46:56,960 --> 00:47:05,960
+ In the case of prediction, like what we did early, the linear prediction, then the Dn is all the same here.
+
+420
+00:47:05,960 --> 00:47:10,960
+ Except you replace by Sn plus D.
+
+421
+00:47:10,960 --> 00:47:20,960
+ So all the other are the same except this one SnS to put the D value ahead.
+
+422
+00:47:20,960 --> 00:47:25,960
+ Where the autocorrelation one, they will be the same.
+
+423
+00:47:25,960 --> 00:47:28,960
+ Okay, so yeah.
+
+424
+00:47:29,960 --> 00:47:38,960
+ Then numerically, you can evaluate by, because the magic version, it may be a big one.
+
+425
+00:47:38,960 --> 00:47:48,960
+ So in the early day computation, it's very important and you can do it recursively.
+
+426
+00:47:48,960 --> 00:47:53,960
+ But probably now it's less of a problem.
+
+427
+00:47:53,960 --> 00:48:05,960
+ Okay, anything you would like to ask or clarify or you are okay with all these derivations?
+
+428
+00:48:13,960 --> 00:48:17,960
+ Okay, so this example is quite useful.
+
+429
+00:48:17,960 --> 00:48:22,960
+ Like this, it helps to clarify some of the theory.
+
+430
+00:48:22,960 --> 00:48:35,960
+ And actually if you look at some past year exam paper question, one or twice, maybe one time, I have a question.
+
+431
+00:48:35,960 --> 00:48:45,960
+ They see me look at this, but I think some students okay, but some probably they don't study the lecture note.
+
+432
+00:48:45,960 --> 00:48:48,960
+ They don't follow, don't come here.
+
+433
+00:48:48,960 --> 00:48:55,960
+ So I hope those coming here, please pay attention to that.
+
+434
+00:48:55,960 --> 00:48:59,960
+ So this is a simple example.
+
+435
+00:48:59,960 --> 00:49:11,960
+ And then it has several very important ingredients because it's involving AR process and also it's VINAR filter,
+
+436
+00:49:12,960 --> 00:49:29,960
+ and then you'll see here we often involve like two white noise random process.
+
+437
+00:49:29,960 --> 00:49:34,960
+ And that's why some students always confuse.
+
+438
+00:49:35,960 --> 00:49:48,960
+ For example, why we have this VIN in this white noise here and then you also have the X of N, the major data is another white noise WN.
+
+439
+00:49:48,960 --> 00:49:55,960
+ And then we say these two white noise, they are statistically independent.
+
+440
+00:49:55,960 --> 00:50:03,960
+ Sometimes I get the question about we add this white noise here and then another one.
+
+441
+00:50:03,960 --> 00:50:08,960
+ So can we add the two together?
+
+442
+00:50:08,960 --> 00:50:11,960
+ So that's the wrong concept.
+
+443
+00:50:11,960 --> 00:50:15,960
+ So here, get a good understanding of this example.
+
+444
+00:50:15,960 --> 00:50:37,960
+ It also helps you to clarify some of the concepts about random process, particularly stationary random process and the signal in noise.
+
+445
+00:50:37,960 --> 00:50:41,960
+ So let's show it more clearly.
+
+446
+00:50:41,960 --> 00:50:49,960
+ Let's go back to the prog diagram of the VINAR filter here.
+
+447
+00:50:49,960 --> 00:50:56,960
+ So if you come back here, this WN white noise is very clear.
+
+448
+00:50:56,960 --> 00:50:59,960
+ We only have this X available to us.
+
+449
+00:50:59,960 --> 00:51:05,960
+ We measure this, but this major data is also a random process.
+
+450
+00:51:05,960 --> 00:51:14,960
+ Some of this XN is random, but the signal we are looking for is...
+
+451
+00:51:14,960 --> 00:51:22,960
+ You know the random process could be white noise, could be some useful signals.
+
+452
+00:51:22,960 --> 00:51:26,960
+ For example, you are taking some data and so on.
+
+453
+00:51:26,960 --> 00:51:33,960
+ Some of the major data, actually your model is a random process, but they are useful.
+
+454
+00:51:34,960 --> 00:51:42,960
+ So what you see in this diagram here is we only have this WN.
+
+455
+00:51:42,960 --> 00:51:45,960
+ But where is the VN?
+
+456
+00:51:45,960 --> 00:51:54,960
+ In the equation, we see there is another white noise, this expression for the SN.
+
+457
+00:51:54,960 --> 00:52:03,960
+ So anyone now want to test you about how good you understand this white noise.
+
+458
+00:52:03,960 --> 00:52:16,960
+ Because always get confused and then there is not a clear understanding about how the relationship ends.
+
+459
+00:52:16,960 --> 00:52:25,960
+ And then also always question why we write down WN clearly but not the VN here.
+
+460
+00:52:25,960 --> 00:52:35,960
+ So any of you have some good answers, please try.
+
+461
+00:52:35,960 --> 00:52:41,960
+ I think try to see what you understand this.
+
+462
+00:52:41,960 --> 00:52:52,960
+ Because you see now in the example I show clearly there is a VN, which is white noise related to the SN.
+
+463
+00:52:52,960 --> 00:53:00,960
+ But in this program here, I only show WN, but not.
+
+464
+00:53:00,960 --> 00:53:07,960
+ Because some students say why I have another VN as I already show in the other case.
+
+465
+00:53:07,960 --> 00:53:11,960
+ Then why don't we combine these two noises into one noise.
+
+466
+00:53:11,960 --> 00:53:13,960
+ Any, yes?
+
+467
+00:53:31,960 --> 00:53:33,960
+ Very good, yes.
+
+468
+00:53:37,960 --> 00:53:53,960
+ So the question is actually why is there a station of process and which can be become a state to be predictable and single?
+
+469
+00:53:53,960 --> 00:53:56,960
+ Yes, very good. This is a very good understanding.
+
+470
+00:53:56,960 --> 00:54:03,960
+ Because if you already want to write this down further, you can draw another block here.
+
+471
+00:54:03,960 --> 00:54:12,960
+ SN is come from, you see that's why in the very beginning we spent quite some time to talk about the innovation representation.
+
+472
+00:54:12,960 --> 00:54:19,960
+ Because this SN here is AI, AI for the random process.
+
+473
+00:54:19,960 --> 00:54:24,960
+ The AI process will model it as, you see your star with a white noise.
+
+474
+00:54:24,960 --> 00:54:26,960
+ So that white noise is a VN.
+
+475
+00:54:26,960 --> 00:54:31,960
+ The VN generates this SN.
+
+476
+00:54:31,960 --> 00:54:35,960
+ You see it goes through but it's not randomly generated.
+
+477
+00:54:35,960 --> 00:54:37,960
+ It follows certain way.
+
+478
+00:54:37,960 --> 00:54:42,960
+ Follow AI is the first order, the IR filter.
+
+479
+00:54:42,960 --> 00:54:52,960
+ The white noise VN goes through a filter, which is not within our control here.
+
+480
+00:54:52,960 --> 00:54:55,960
+ This filter is what we are going to design.
+
+481
+00:54:55,960 --> 00:54:57,960
+ We have the control.
+
+482
+00:54:57,960 --> 00:54:58,960
+ We can change the vision.
+
+483
+00:54:58,960 --> 00:55:07,960
+ That filter, that's not really like the process, like the plan for those coming from control background.
+
+484
+00:55:07,960 --> 00:55:13,960
+ The one is in the process except like in communication, you have the channels.
+
+485
+00:55:13,960 --> 00:55:15,960
+ You model the channel.
+
+486
+00:55:15,960 --> 00:55:17,960
+ The channel is there.
+
+487
+00:55:17,960 --> 00:55:21,960
+ You can only compensate the channel later by designing filter.
+
+488
+00:55:21,960 --> 00:55:26,960
+ This one can be also applied to channel equalization.
+
+489
+00:55:26,960 --> 00:55:41,960
+ So that part we did not draw is the VN goes through like a filter, which is the IR first order filter.
+
+490
+00:55:41,960 --> 00:55:47,960
+ They generally say this thing but because we have no control of day one.
+
+491
+00:55:47,960 --> 00:55:50,960
+ So we just show okay, this is the signal SN.
+
+492
+00:55:50,960 --> 00:56:05,960
+ But then if you are trying to study the design filter, we need to have some knowledge about coming back to here.
+
+493
+00:56:05,960 --> 00:56:16,960
+ So this is the way this VN generates this SN as the student here correctly points out.
+
+494
+00:56:16,960 --> 00:56:18,960
+ And this WN is the one.
+
+495
+00:56:18,960 --> 00:56:31,960
+ You see once you have the SN, the random process, then at any moment of N, you add these two into our major input signal, X of N.
+
+496
+00:56:31,960 --> 00:56:42,960
+ So the VN and WN, they come from two, I will say two different inputs.
+
+497
+00:56:42,960 --> 00:56:44,960
+ They are not on the same page.
+
+498
+00:56:44,960 --> 00:56:47,960
+ There is no way you can compile.
+
+499
+00:56:47,960 --> 00:56:50,960
+ You cannot say I add this WN here.
+
+500
+00:56:50,960 --> 00:56:51,960
+ It's not okay.
+
+501
+00:56:51,960 --> 00:56:53,960
+ This VN generates that.
+
+502
+00:56:53,960 --> 00:57:02,960
+ So you produce a little bit like some kind of cascade of two systems.
+
+503
+00:57:02,960 --> 00:57:06,960
+ You do one first, then you have another one.
+
+504
+00:57:06,960 --> 00:57:10,960
+ But this is in your add one here.
+
+505
+00:57:10,960 --> 00:57:19,960
+ Later, once you get this metadata, we design a filter which is another block to try to compensate in some sense.
+
+506
+00:57:19,960 --> 00:57:23,960
+ Okay, so I hope this is the setting.
+
+507
+00:57:23,960 --> 00:57:26,960
+ You should have a good understanding of that.
+
+508
+00:57:26,960 --> 00:57:35,960
+ And then now our problem is the design of our VN filter of length, M equal to two, which try to estimate this SN here.
+
+509
+00:57:35,960 --> 00:57:37,960
+ So how to do that?
+
+510
+00:57:37,960 --> 00:57:42,960
+ So this one, you can see here.
+
+511
+00:57:42,960 --> 00:57:43,960
+ Try to estimate this.
+
+512
+00:57:43,960 --> 00:57:49,960
+ It's equivalent to filtering problem with this VN equal to this.
+
+513
+00:57:49,960 --> 00:57:55,960
+ And also, in this case, the cross correlation here is just equal to this.
+
+514
+00:57:55,960 --> 00:57:57,960
+ It's already show.
+
+515
+00:57:57,960 --> 00:58:03,960
+ And now you see here, this is AR process.
+
+516
+00:58:03,960 --> 00:58:11,960
+ It can be obtained by exciting single-port filter with this system function.
+
+517
+00:58:11,960 --> 00:58:18,960
+ But you see here, we put out this by the Y noise VN.
+
+518
+00:58:18,960 --> 00:58:25,960
+ And then now we use the spectral density, power spectral density of the same.
+
+519
+00:58:25,960 --> 00:58:30,960
+ You can see here this is Y noise.
+
+520
+00:58:30,960 --> 00:58:35,960
+ So Y noise, the spectrum is a constant here, the barrier.
+
+521
+00:58:35,960 --> 00:58:47,960
+ But if it is excited by no Y noise by another random process, which is another proper power density, density of spectrum,
+
+522
+00:58:47,960 --> 00:58:50,960
+ then you will need to write that one here.
+
+523
+00:58:50,960 --> 00:58:53,960
+ So this constant is a spatial case.
+
+524
+00:58:53,960 --> 00:58:55,960
+ Then we know the HZ.
+
+525
+00:58:55,960 --> 00:58:58,960
+ So this is IR filter, very simple one.
+
+526
+00:58:58,960 --> 00:58:59,960
+ You replace.
+
+527
+00:58:59,960 --> 00:59:03,960
+ So make sure you have, yeah, this is a good place.
+
+528
+00:59:03,960 --> 00:59:08,960
+ I mentioned H of Z is corresponding to, you have Z to the negative power.
+
+529
+00:59:08,960 --> 00:59:14,960
+ But when you change the Z to the power minus one, whatever you see, negative power becomes positive.
+
+530
+00:59:14,960 --> 00:59:17,960
+ So you see here.
+
+531
+00:59:17,960 --> 00:59:21,960
+ And then you multiply these two together.
+
+532
+00:59:21,960 --> 00:59:27,960
+ It becomes the second order quadratic.
+
+533
+00:59:27,960 --> 00:59:30,960
+ I think this one, they should be linked together.
+
+534
+00:59:30,960 --> 00:59:32,960
+ No, sorry.
+
+535
+00:59:32,960 --> 00:59:37,960
+ When you multiply, you have this.
+
+536
+00:59:37,960 --> 00:59:43,960
+ And then we, of course, you multiply, you only get one.
+
+537
+00:59:43,960 --> 00:59:49,960
+ But I remember last time I showed you there is a pair of these.
+
+538
+00:59:49,960 --> 00:59:54,960
+ If you have the denominator looking this form,
+
+539
+00:59:54,960 --> 01:00:00,960
+ the numerator must be changed to one minus, it's a constant, but not one.
+
+540
+01:00:00,960 --> 01:00:04,960
+ One minus 0.6 power two.
+
+541
+01:00:04,960 --> 01:00:13,960
+ Okay. Then this one, if you can, you can get the inverse transform back to time sequence.
+
+542
+01:00:13,960 --> 01:00:17,960
+ So therefore, when you multiply, of course, you only get one.
+
+543
+01:00:17,960 --> 01:00:24,960
+ So you change to that, you have to divide the same no zero coefficient.
+
+544
+01:00:24,960 --> 01:00:27,960
+ So why we create this and divide this?
+
+545
+01:00:27,960 --> 01:00:33,960
+ Because we want to combine this into one.
+
+546
+01:00:33,960 --> 01:00:36,960
+ So take the inverse transform.
+
+547
+01:00:36,960 --> 01:00:42,960
+ You see here this RSSM is equal to that.
+
+548
+01:00:42,960 --> 01:00:47,960
+ And then this is the, because they are uncorrelated, you are summing these two.
+
+549
+01:00:47,960 --> 01:00:52,960
+ So there's not a problem.
+
+550
+01:00:52,960 --> 01:01:00,960
+ And then therefore, we, once I get the auto correlation, cross correlation value here,
+
+551
+01:01:00,960 --> 01:01:08,960
+ you can, you can substitute and then solve this.
+
+552
+01:01:08,960 --> 01:01:15,960
+ Okay. And then after that, easily you inverse this matrix invertible.
+
+553
+01:01:15,960 --> 01:01:22,960
+ So you invert this matrix, you will get the optimal value at h of zero and h of one.
+
+554
+01:01:22,960 --> 01:01:24,960
+ Go to that.
+
+555
+01:01:24,960 --> 01:01:28,960
+ So once you get this, you can also evaluate the minimum value.
+
+556
+01:01:28,960 --> 01:01:30,960
+ This is already given.
+
+557
+01:01:30,960 --> 01:01:33,960
+ And then the other one, you also know this.
+
+558
+01:01:33,960 --> 01:01:35,960
+ So these are the two values.
+
+559
+01:01:35,960 --> 01:01:40,960
+ So in the end, it's equal to zero point four five.
+
+560
+01:01:40,960 --> 01:01:42,960
+ So let me go back again here.
+
+561
+01:01:42,960 --> 01:01:57,960
+ So you see here, you see, so this is what you can, you can get inverse transform into that one.
+
+562
+01:01:57,960 --> 01:02:00,960
+ RSSM equal to this.
+
+563
+01:02:00,960 --> 01:02:15,960
+ Okay. And then you don't know why this one becomes one because I remember one minus zero, zero point six power two is zero point three, three nine, sorry, three six.
+
+564
+01:02:15,960 --> 01:02:18,960
+ Then it will be zero point six four.
+
+565
+01:02:18,960 --> 01:02:22,960
+ So I purposely choose this equal to zero point six four.
+
+566
+01:02:22,960 --> 01:02:25,960
+ So you become, this becomes one.
+
+567
+01:02:25,960 --> 01:02:36,960
+ And this one, if you remember what I showed early, I think now I, in the past I put it as a decent number, but now I include into the collection of.
+
+568
+01:02:36,960 --> 01:02:49,960
+ So this one, you take the inverse, this transform, it will give you this auto correlation sequence, zero point six, take absolute value of n.
+
+569
+01:02:49,960 --> 01:03:00,960
+ So that means the sequence is, is, is a symmetry, is an even function from positive n and negative n.
+
+570
+01:03:00,960 --> 01:03:01,960
+ They are the same.
+
+571
+01:03:01,960 --> 01:03:13,960
+ If you do not have the absolute value here, then of course zero point six raise the power of one will be different from zero point six raise the power of minus one.
+
+572
+01:03:13,960 --> 01:03:14,960
+ Right.
+
+573
+01:03:14,960 --> 01:03:15,960
+ So yeah.
+
+574
+01:03:15,960 --> 01:03:16,960
+ Okay.
+
+575
+01:03:16,960 --> 01:03:19,960
+ So that's the important one.
+
+576
+01:03:19,960 --> 01:03:20,960
+ Yeah.
+
+577
+01:03:20,960 --> 01:03:25,960
+ So I think it's, maybe it's a good time to take a break here.
+
+578
+01:03:25,960 --> 01:03:37,960
+ Now we, before we move on to the, or second order T and the, we know as IR filter, which is even more complicated, more difficult.
+
+579
+01:03:37,960 --> 01:03:45,960
+ So we come back at seven, 15 following the clock at the end.
+
+580
+01:03:45,960 --> 01:03:58,960
+ Any questions you can come to ask or otherwise we will continue the lectures here.
+
+581
+01:03:58,960 --> 01:04:01,960
+ Are you okay?
+
+582
+01:04:01,960 --> 01:04:04,960
+ Come back at seven, 15.
+
+583
+01:04:04,960 --> 01:04:06,960
+ We'll be doing the class.
+
+584
+01:04:34,960 --> 01:04:36,960
+ Okay.
+
+585
+01:05:04,960 --> 01:05:06,960
+ Okay.
+
+586
+01:05:34,960 --> 01:05:36,960
+ Okay.
+
+587
+01:06:04,960 --> 01:06:05,960
+ Okay.
+
+588
+01:06:34,960 --> 01:06:35,960
+ Okay.
+
+589
+01:07:04,960 --> 01:07:05,960
+ Okay.
+
+590
+01:07:34,960 --> 01:07:35,960
+ Okay.
+
+591
+01:08:04,960 --> 01:08:05,960
+ Okay.
+
+592
+01:08:34,960 --> 01:08:35,960
+ Okay.
+
+593
+01:09:04,960 --> 01:09:06,960
+ Okay.
+
+594
+01:09:34,960 --> 01:09:35,960
+ Okay.
+
+595
+01:10:04,960 --> 01:10:05,960
+ Okay.
+
+596
+01:10:34,960 --> 01:10:36,960
+ Okay.
+
+597
+01:11:04,960 --> 01:11:07,960
+ Okay.
+
+598
+01:11:34,960 --> 01:11:36,960
+ Okay.
+
+599
+01:12:04,960 --> 01:12:07,960
+ Okay.
+
+600
+01:12:34,960 --> 01:12:36,960
+ Okay.
+
+601
+01:13:04,960 --> 01:13:07,960
+ Okay.
+
+602
+01:13:34,960 --> 01:13:36,960
+ Okay.
+
+603
+01:14:04,960 --> 01:14:06,960
+ Okay.
+
+604
+01:14:34,960 --> 01:14:37,960
+ Okay.
+
+605
+01:15:04,960 --> 01:15:06,960
+ Okay.
+
+606
+01:15:34,960 --> 01:15:37,960
+ Okay.
+
+607
+01:16:04,960 --> 01:16:06,960
+ Okay.
+
+608
+01:16:34,960 --> 01:16:37,960
+ Okay.
+
+609
+01:17:04,960 --> 01:17:06,960
+ Okay.
+
+610
+01:17:34,960 --> 01:17:37,960
+ Okay.
+
+611
+01:18:04,960 --> 01:18:06,960
+ Okay.
+
+612
+01:18:34,960 --> 01:18:37,960
+ Okay.
+
+613
+01:19:04,960 --> 01:19:06,960
+ Okay.
+
+614
+01:19:34,960 --> 01:19:37,960
+ Okay.
+
+615
+01:20:04,960 --> 01:20:06,960
+ Okay.
+
+616
+01:20:34,960 --> 01:20:37,960
+ Okay.
+
+617
+01:21:04,960 --> 01:21:06,960
+ Okay.
+
+618
+01:21:34,960 --> 01:21:41,960
+ Okay.
+
+619
+01:21:41,960 --> 01:21:42,960
+ Okay.
+
+620
+01:21:42,960 --> 01:21:49,960
+ So let's continue from this discussion here.
+
+621
+01:21:49,960 --> 01:21:50,960
+ So, yeah.
+
+622
+01:21:50,960 --> 01:22:00,960
+ So all of these examples are simple, but it does illustrate several basic and useful concepts.
+
+623
+01:22:00,960 --> 01:22:08,960
+ For example, starting from this given signal, then the two white noise, there are, you know,
+
+624
+01:22:08,960 --> 01:22:18,960
+ there are rows in this and also why we assume they are uncorrelated.
+
+625
+01:22:18,960 --> 01:22:28,960
+ In the process, you see, so this also goes through this power spectrum density, how to
+
+626
+01:22:28,960 --> 01:22:34,960
+ inverse, we usually do not take the
+
+627
+01:22:34,960 --> 01:22:39,960
+ compute inverse, the transform, which is very demanding.
+
+628
+01:22:39,960 --> 01:22:46,960
+ We use the transform play and that happens to be this one here corresponding to this.
+
+629
+01:22:46,960 --> 01:22:49,960
+ So, already given in the lecture note.
+
+630
+01:22:49,960 --> 01:22:54,960
+ And then we know the uncorrelated and we have this relationship.
+
+631
+01:22:54,960 --> 01:23:03,960
+ And once we get this, we can get the auto correlation and cross correlation coefficient.
+
+632
+01:23:03,960 --> 01:23:09,960
+ Put in, then you solve the matrix equation.
+
+633
+01:23:09,960 --> 01:23:11,960
+ Okay.
+
+634
+01:23:11,960 --> 01:23:21,960
+ So at this point, as I already mentioned briefly, for the validation of the optimal filter coefficient.
+
+635
+01:23:21,960 --> 01:23:30,960
+ So one of the important concepts in this is the orthogonality principle in the linear
+
+636
+01:23:30,960 --> 01:23:32,960
+ mean square estimation.
+
+637
+01:23:32,960 --> 01:23:46,960
+ If you are doing that, and then we can link into our geometrics, you know, the illustrations
+
+638
+01:23:46,960 --> 01:23:48,960
+ using this concept.
+
+639
+01:23:48,960 --> 01:23:53,960
+ But the two are relative but not the same here.
+
+640
+01:23:53,960 --> 01:24:01,960
+ When we talk orthogonal, we are referring to the, it's not directly the two vectors,
+
+641
+01:24:01,960 --> 01:24:11,960
+ they are orthogonal, it's more like the mean, you take the expectation, the mean value will become zero.
+
+642
+01:24:11,960 --> 01:24:12,960
+ Okay.
+
+643
+01:24:12,960 --> 01:24:16,960
+ So, yeah, so that's how we'll be doing.
+
+644
+01:24:16,960 --> 01:24:27,960
+ So let's, to understand this easier, we follow the geometric vectors concepts.
+
+645
+01:24:27,960 --> 01:24:41,960
+ So let's consider, yeah, we have three vectors, relative through these two scalar coefficients.
+
+646
+01:24:42,960 --> 01:24:52,960
+ So that means this V0 hat is a linear combination of this B1 and B2.
+
+647
+01:24:52,960 --> 01:25:04,960
+ And then we want to see here for which value of this C1 and C2, such that the distance,
+
+648
+01:25:04,960 --> 01:25:11,960
+ so see here this V0 is the one we are trying to estimate based on B1, B2.
+
+649
+01:25:11,960 --> 01:25:19,960
+ But in general, we, our linear combination, even the optimal one may not be equal to V0
+
+650
+01:25:19,960 --> 01:25:25,960
+ because they may not lie in the same space.
+
+651
+01:25:25,960 --> 01:25:28,960
+ So there, so later you will see here.
+
+652
+01:25:28,960 --> 01:25:41,960
+ So, so the best is we try to minimize the distance because if we cannot get this, at least we minimize the,
+
+653
+01:25:41,960 --> 01:25:52,960
+ minimize the difference which in terms of vector will be measured the distance between these two vectors.
+
+654
+01:25:53,960 --> 01:26:07,960
+ And that's what we also well known the so-called smallest distance will be achieved if we choose the two coefficients,
+
+655
+01:26:07,960 --> 01:26:21,960
+ C1 and C2, such that this V, this error vector is orthogonal or perpendicular to both B1 and B2.
+
+656
+01:26:22,960 --> 01:26:27,960
+ So if we are doing that, that will be the best.
+
+657
+01:26:27,960 --> 01:26:34,960
+ So I think it's better to look at this geometric interpretation of the linear mean square.
+
+658
+01:26:34,960 --> 01:26:47,960
+ So I think this is easy to understand if we consider two dimension, two dimension vectors where you have this one axis
+
+659
+01:26:47,960 --> 01:26:49,960
+ and the other is two here.
+
+660
+01:26:49,960 --> 01:27:03,960
+ So two axis you explain you can generate 2D plane which is linear combination.
+
+661
+01:27:03,960 --> 01:27:06,960
+ So whatever value in this 2D plane you can do.
+
+662
+01:27:06,960 --> 01:27:13,960
+ But however if our vector here, dn is not lying in this 2D plane,
+
+663
+01:27:13,960 --> 01:27:23,960
+ it will be the, if you look at the 3D space, you have a 2D plane and that vector is not on this.
+
+664
+01:27:23,960 --> 01:27:39,960
+ So whatever you generate, they will always some errors of this and the pairs you can generate is,
+
+665
+01:27:39,960 --> 01:27:43,960
+ you can consider there's a projection here.
+
+666
+01:27:43,960 --> 01:27:54,960
+ If this is vector and then in this 2D plane, if you make this en, you can move around this,
+
+667
+01:27:54,960 --> 01:28:02,960
+ but then you also always, you can always measure the en.
+
+668
+01:28:02,960 --> 01:28:15,960
+ And it's easy to see if the dn have, having to be at this particular location where the error signal
+
+669
+01:28:15,960 --> 01:28:22,960
+ it will be orthogonal or perpendicular to this 2D plane.
+
+670
+01:28:22,960 --> 01:28:37,960
+ Then there will be the minimum distance, you see here, because if you move this dn head to another location,
+
+671
+01:28:37,960 --> 01:28:43,960
+ our en here will certainly be larger than this one.
+
+672
+01:28:43,960 --> 01:28:50,960
+ So that's why this is the orthogonal property here.
+
+673
+01:28:50,960 --> 01:28:57,960
+ Okay, so that's the geometric interpretation if you look at the 2D plane.
+
+674
+01:28:57,960 --> 01:29:10,960
+ And then how can we apply here into the context of this random signal and mean square errors in terms of expectation?
+
+675
+01:29:10,960 --> 01:29:13,960
+ Because what we measure here is this e here.
+
+676
+01:29:13,960 --> 01:29:25,960
+ So again, this is a little bit similar to what my early derivation here is all related.
+
+677
+01:29:25,960 --> 01:29:38,960
+ We consider the outputs of the filter, which is, you see, you have input signal here,
+
+678
+01:29:38,960 --> 01:29:42,960
+ you have the filter, then you estimate this.
+
+679
+01:29:42,960 --> 01:29:52,960
+ And then this is the vector in the subspace spanned by this data, you see.
+
+680
+01:29:52,960 --> 01:29:59,960
+ So in total here, we are looking at the m dimensional space, you have m data, k-data, you see.
+
+681
+01:29:59,960 --> 01:30:06,960
+ What we saw earlier, it's in the spatial k, the 2D, you only have 2.
+
+682
+01:30:06,960 --> 01:30:11,960
+ So in general, the m, we cannot visualize its high dimension.
+
+683
+01:30:11,960 --> 01:30:16,960
+ You can just think about this is the similar concept.
+
+684
+01:30:16,960 --> 01:30:23,960
+ Then we create this error of the estimation, which is this is the 2 1, we try to get,
+
+685
+01:30:23,960 --> 01:30:26,960
+ then this is the estimate 1.
+
+686
+01:30:26,960 --> 01:30:30,960
+ That will be a vector from dn to dn head.
+
+687
+01:30:30,960 --> 01:30:35,960
+ In the pictures, we show for the 2 dimensional case.
+
+688
+01:30:35,960 --> 01:30:49,960
+ So our orthogonal principle here is the mean square error, which measure by taking the square,
+
+689
+01:30:49,960 --> 01:30:53,960
+ and then take the expectation.
+
+690
+01:30:53,960 --> 01:31:02,960
+ It will be minimized when the filter coefficient selects after this error,
+
+691
+01:31:02,960 --> 01:31:08,960
+ and then the result is orthogonal to each of the data points in the estimate.
+
+692
+01:31:08,960 --> 01:31:17,960
+ So here, we have controls, we are choosing the coefficient, so you can change this part.
+
+693
+01:31:17,960 --> 01:31:18,960
+ This is a given one.
+
+694
+01:31:18,960 --> 01:31:23,960
+ So therefore, this e n is depending on how we choose the coefficient.
+
+695
+01:31:23,960 --> 01:31:29,960
+ So therefore, you see, these are the data points given, in total, go to m.
+
+696
+01:31:29,960 --> 01:31:32,960
+ The one we have available.
+
+697
+01:31:32,960 --> 01:31:41,960
+ So we want to choose our coefficient such that this error here is in a sense of orthogonal,
+
+698
+01:31:41,960 --> 01:31:45,960
+ in the sense of you take the expectation here.
+
+699
+01:31:45,960 --> 01:31:52,960
+ When you multiply, they may not be equal to zero because of the random process we talked about,
+
+700
+01:31:52,960 --> 01:31:56,960
+ but it is only in the mean expectation.
+
+701
+01:31:56,960 --> 01:32:04,960
+ You take the mean value, and then the e n is defined as dn.
+
+702
+01:32:04,960 --> 01:32:07,960
+ Subtract this estimate here.
+
+703
+01:32:07,960 --> 01:32:20,960
+ So therefore, once you know this, satisfy this, the minimum msc will be here.
+
+704
+01:32:20,960 --> 01:32:24,960
+ So this is the error in general.
+
+705
+01:32:24,960 --> 01:32:31,960
+ You see, for whatever you choose different coefficient, you will end up with a larger or smaller error.
+
+706
+01:32:31,960 --> 01:32:36,960
+ But the minimum one is the one we already chosen, satisfy this condition.
+
+707
+01:32:36,960 --> 01:32:42,960
+ And this condition is what I derived earlier in the note.
+
+708
+01:32:42,960 --> 01:32:53,960
+ So therefore, the smallest error you get will be e n multiplied by dn, take the expectation.
+
+709
+01:32:53,960 --> 01:33:05,960
+ So these two are not, they will not be zero in general, because the dn is a given.
+
+710
+01:33:05,960 --> 01:33:14,960
+ Then the e n, as I say, whatever you minimize, you cannot make this equal to zero.
+
+711
+01:33:14,960 --> 01:33:24,960
+ Unless the dn happens to be lying in this, it's generated by this subspace, but in general, it's not.
+
+712
+01:33:24,960 --> 01:33:29,960
+ So we don't have, you can only minimize that.
+
+713
+01:33:29,960 --> 01:33:41,960
+ So therefore, this optimal FIR winner filter, or the solution to this winner hope equation, it will be unique if,
+
+714
+01:33:41,960 --> 01:33:51,960
+ and only if this, the one, this square matrix in our early equation, we talk about FIR,
+
+715
+01:33:51,960 --> 01:34:03,960
+ and create a finite data sample and get the finite number, finite dimension, and it's no singular.
+
+716
+01:34:03,960 --> 01:34:09,960
+ You can invert and you will get the optimal one.
+
+717
+01:34:09,960 --> 01:34:25,960
+ So, so far we finished the main topic, which is FIR winner filter, which is very useful.
+
+718
+01:34:25,960 --> 01:34:35,960
+ And you can also realize this FIR filter is in a sense, is more general,
+
+719
+01:34:35,960 --> 01:34:52,960
+ comparing to the linear prediction, because you give the most scope, you can cater more input signals and so on.
+
+720
+01:34:52,960 --> 01:35:02,960
+ So there is a clear relationship between linear prediction and FIR winner filter.
+
+721
+01:35:02,960 --> 01:35:11,960
+ So now I want to move one step forward to look at FIR winner filter.
+
+722
+01:35:11,960 --> 01:35:22,960
+ So, but you expect this will be a much more difficult topic, but I will say,
+
+723
+01:35:22,960 --> 01:35:33,960
+ if you can get a good understanding of this part, then you will have no problem of the,
+
+724
+01:35:33,960 --> 01:35:43,960
+ there is this first two chapter, the main spec ground and as well as our chapter two of linear prediction and winner filter,
+
+725
+01:35:43,960 --> 01:35:56,960
+ because this, I should say, this is the most difficult part because it also make good use of the innovation representation.
+
+726
+01:35:56,960 --> 01:36:06,960
+ It looks like that only you follow from that concept, you will be able to solve this problem, otherwise it's very hard to,
+
+727
+01:36:06,960 --> 01:36:13,960
+ not like FIR winner filter, you can convert it to a magic equation here.
+
+728
+01:36:13,960 --> 01:36:16,960
+ You'll see there is difficulty here.
+
+729
+01:36:16,960 --> 01:36:33,960
+ So anyway, let's try to see how much we can understand in this FIR winner filter and also how good it is after designing a much more complicated to see.
+
+730
+01:36:33,960 --> 01:36:39,960
+ It has some improvement compared, because FIR filter includes FIR filter, it's a special case,
+
+731
+01:36:39,960 --> 01:36:50,960
+ but if the improvement is not much, then you will see that just a little, then probably not really worth the effort to go into that,
+
+732
+01:36:50,960 --> 01:36:53,960
+ at least for this simple example here.
+
+733
+01:36:53,960 --> 01:37:02,960
+ So let's see what we can go in this topic and this direction.
+
+734
+01:37:02,960 --> 01:37:10,960
+ So let's do it slowly here, there is not an easy topic.
+
+735
+01:37:10,960 --> 01:37:16,960
+ So now for FIR filter, we know the M is finite, so there's no problem.
+
+736
+01:37:16,960 --> 01:37:25,960
+ Your sum, finite number of terms, you can always convert into a magic, so that's sort of problem.
+
+737
+01:37:25,960 --> 01:37:40,960
+ But however if M goes to infinity, then the FIR filters will become IR causal filter because,
+
+738
+01:37:41,960 --> 01:38:01,960
+ so that's a meaning of, I hope you also know the full meaning of IR and IR, which some students know the name, but then forget about what's the full name of IR and IR,
+
+739
+01:38:01,960 --> 01:38:06,960
+ knowing the full name of this also help you to get a better understanding.
+
+740
+01:38:06,960 --> 01:38:19,960
+ So FIR, finite, impulse response, so that means your impulse response, as you remember, any linear system, linear filter, you can represent by impulse response.
+
+741
+01:38:19,960 --> 01:38:26,960
+ So FIR is finite, so that means the H of N, you have finite number of no zero terms.
+
+742
+01:38:27,960 --> 01:38:39,960
+ IR on that thing is infinity, impulse response, that means the H of N is going to infinity many term, you don't have a finite number.
+
+743
+01:38:39,960 --> 01:38:51,960
+ The no zero value, you can explain to infinity, so become infinity in rather versus finite, so that's the main difference.
+
+744
+01:38:51,960 --> 01:39:08,960
+ So therefore if you are dealing with IR causal filter, you see, so that's what I remember, what I was discussing earlier, the diagram is you need to, in general, you need to sum up to infinity.
+
+745
+01:39:08,960 --> 01:39:31,960
+ And if for no causal, you will need to start from k equal to minus infinity, but for causal, you can start from zero because the impulse response, you will take zero and for those negative points.
+
+746
+01:39:32,960 --> 01:39:35,960
+ So therefore you only sum up half length.
+
+747
+01:39:36,960 --> 01:39:51,960
+ Okay, so that's the first main change from IR filter, then our Dn, we need infinity many term to do, so we cannot use the matrix notation, no longer work here.
+
+748
+01:39:52,960 --> 01:40:06,960
+ But then we can still define the mean square value of this arrow, and then you can try to take the mean square expectation.
+
+749
+01:40:07,960 --> 01:40:19,960
+ Again, this is a quadratic function in the evening impulse response coefficient, you still, most of you will be second order here.
+
+750
+01:40:20,960 --> 01:40:41,960
+ Then we, our also a generality principle, what you suggest is still apply here, you see, you are arrow here, always if you get the optimal one, you will minimize, you will get this relationship for all the n greater or equal to zero.
+
+751
+01:40:42,960 --> 01:40:50,960
+ Then you still have this infinity many, we now have equation here.
+
+752
+01:40:51,960 --> 01:40:58,960
+ Everything so far extends working, except you are summing infinity many of them.
+
+753
+01:40:59,960 --> 01:41:04,960
+ So that means, basically you just take the n, go to infinity last, you end up with this.
+
+754
+01:41:05,960 --> 01:41:15,960
+ Okay, assume we get the optimal solution, then we also can get the corresponding MSE as this.
+
+755
+01:41:16,960 --> 01:41:27,960
+ So, therefore if you look at this equation, it holds only for n greater than zero.
+
+756
+01:41:27,960 --> 01:41:41,960
+ Okay, because we are dealing with causal IR filter, we are not talking about no causal one.
+
+757
+01:41:42,960 --> 01:41:54,960
+ If no causal, it will be easy, you can sum from money infinity to there, and therefore you can take jet transform, because jet transform apply to money infinity to infinity.
+
+758
+01:41:54,960 --> 01:42:03,960
+ So in this case, we cannot get the Wiener-Holtz equation by applying directly using jet transform.
+
+759
+01:42:04,960 --> 01:42:09,960
+ So, therefore this is the difficult part, we stuck somewhere here.
+
+760
+01:42:10,960 --> 01:42:14,960
+ We cannot use the magic equation, nor use the jet transform.
+
+761
+01:42:14,960 --> 01:42:24,960
+ And that's how this come to rescue if we are referring back to the innovation representation.
+
+762
+01:42:25,960 --> 01:42:30,960
+ So let's see how we can do it here.
+
+763
+01:42:30,960 --> 01:42:45,960
+ So you see here, this is, I think we need to think about, so this is the way we are early on.
+
+764
+01:42:46,960 --> 01:42:59,960
+ I raised the question about if you are talking about the Wiener process, so in general for stationary Wiener process, you can use the concept of innovation process.
+
+765
+01:43:00,960 --> 01:43:12,960
+ And why not to imagine this exchange is generated by a Wiener going through this filter to generate this.
+
+766
+01:43:12,960 --> 01:43:22,960
+ So therefore we can extend this.
+
+767
+01:43:23,960 --> 01:43:28,960
+ This is the filter we want to design then, but this is we are trying to represent this.
+
+768
+01:43:29,960 --> 01:43:36,960
+ So let's see how we can do it properly.
+
+769
+01:43:36,960 --> 01:43:43,960
+ So how to get this G of jet?
+
+770
+01:43:44,960 --> 01:43:53,960
+ Remember we learned the spectral factorization, which is we are taking the jet transform of this.
+
+771
+01:43:54,960 --> 01:43:57,960
+ Assume we know the autocorrelation of this X.
+
+772
+01:43:57,960 --> 01:44:10,960
+ Then we can, from here you take the jet transform, you create this, and then assume this white noise equal to 1.
+
+773
+01:44:11,960 --> 01:44:23,960
+ So there is some well known technique for one variable case, we set it by certain condition.
+
+774
+01:44:23,960 --> 01:44:31,960
+ You can factorize this into a product of GZ and G multiplied by Z to the power minus 1.
+
+775
+01:44:32,960 --> 01:44:36,960
+ But you need to think about not every function you can do that.
+
+776
+01:44:37,960 --> 01:44:49,960
+ Only those, say for example, if you are given a proper autocorrelation, you are this special function,
+
+777
+01:44:49,960 --> 01:44:59,960
+ or we call it power density spectrum in the jet domain.
+
+778
+01:45:00,960 --> 01:45:02,960
+ Then you can factorize that.
+
+779
+01:45:03,960 --> 01:45:13,960
+ So this part we are not going to discuss in detail, but later you will see you can do that.
+
+780
+01:45:14,960 --> 01:45:16,960
+ So that's one step.
+
+781
+01:45:16,960 --> 01:45:23,960
+ Now we injecting W in the overall system.
+
+782
+01:45:24,960 --> 01:45:34,960
+ Assume we already get the GZ, then you can look at this overall system, GZ multiplied by Z.
+
+783
+01:45:35,960 --> 01:45:39,960
+ In the jet domain, you can cascade your product.
+
+784
+01:45:40,960 --> 01:45:46,960
+ Your n-tub is a new equivalent transfer function, we call it QZ.
+
+785
+01:45:47,960 --> 01:46:03,960
+ Which you can also, we can see both of them are like causal, so you can see also the jet transform is from 0 to infinity large.
+
+786
+01:46:03,960 --> 01:46:23,960
+ In this case, we can assume from here the product you can get the QZ, then you can get the Q of K in the time domain.
+
+787
+01:46:24,960 --> 01:46:34,960
+ Then we can get the output here, which is the, since we get this, you also know the wind noise, you can do the convolution.
+
+788
+01:46:35,960 --> 01:46:39,960
+ Like go through the equivalent filter, you will get that.
+
+789
+01:46:40,960 --> 01:46:46,960
+ So again now we haven't got this Q of K yet.
+
+790
+01:46:47,960 --> 01:46:54,960
+ In order, yeah, there are Q of K, we know the expression, but there are many, many choices.
+
+791
+01:46:55,960 --> 01:46:58,960
+ You can think about this as a linear combination of this wind noise.
+
+792
+01:47:00,960 --> 01:47:04,960
+ Then we can apply the uncertainty principle.
+
+793
+01:47:04,960 --> 01:47:06,960
+ We already discussed that.
+
+794
+01:47:07,960 --> 01:47:18,960
+ Then it will end up with this winner-hope equation, which satisfies in this case you see here.
+
+795
+01:47:19,960 --> 01:47:30,960
+ This one is also we use W1 WTEDO, it means Auto Covalentation for the WTEDO.
+
+796
+01:47:30,960 --> 01:47:32,960
+ This is our create.
+
+797
+01:47:33,960 --> 01:47:35,960
+ We assume there is a wind noise as input.
+
+798
+01:47:36,960 --> 01:47:42,960
+ And then this is the cross correlation of D and WTEDO.
+
+799
+01:47:43,960 --> 01:47:46,960
+ But it's only for all the positive M here.
+
+800
+01:47:47,960 --> 01:47:54,960
+ So again here there will be infinity many of the equation and you have infinity many of the coefficient.
+
+801
+01:47:55,960 --> 01:48:06,960
+ But one good thing here is since we assume wind noise, then this Auto Covalentation of wind noise sequence is a delta function.
+
+802
+01:48:07,960 --> 01:48:09,960
+ You see, I already know that.
+
+803
+01:48:10,960 --> 01:48:13,960
+ And also we assume unit value.
+
+804
+01:48:14,960 --> 01:48:23,960
+ And also for this part it will be the cross correlation of Dn and this.
+
+805
+01:48:25,960 --> 01:48:37,960
+ Therefore in this case, in this case our QM here because you see here.
+
+806
+01:48:38,960 --> 01:48:39,960
+ So let me repeat again.
+
+807
+01:48:40,960 --> 01:48:47,960
+ This one initially if it's not for wind noise, you see there will be infinity many of the sum here.
+
+808
+01:48:48,960 --> 01:48:51,960
+ But because of this it's a wind noise.
+
+809
+01:48:51,960 --> 01:48:55,960
+ So there is only one term here.
+
+810
+01:48:56,960 --> 01:49:06,960
+ Among infinity some of them only one of the term for given, you see K is the index.
+
+811
+01:49:07,960 --> 01:49:09,960
+ But M is your choice.
+
+812
+01:49:10,960 --> 01:49:20,960
+ When you are evaluating this equation, that's why I always spend a lot of time when I am doing a tutorial for the undergraduate students.
+
+813
+01:49:21,960 --> 01:49:27,960
+ For the commolution concept or correlation, the signaling system there.
+
+814
+01:49:28,960 --> 01:49:36,960
+ I need to explain many times about the difference between this index of K and the value of M.
+
+815
+01:49:37,960 --> 01:49:41,960
+ So let me, I think for you should have a better understanding.
+
+816
+01:49:42,960 --> 01:49:47,960
+ So what you do is M is also change, you see, you can.
+
+817
+01:49:47,960 --> 01:49:55,960
+ But in terms of the summation, you see, you need to specify one M at a time, one small M.
+
+818
+01:49:56,960 --> 01:50:04,960
+ Say for example if I look at M equal to zero, you see, our summation is all the positive index of M.
+
+819
+01:50:05,960 --> 01:50:12,960
+ So if I evaluate one by one, you see, so you fix one small M first, then you look at the sum.
+
+820
+01:50:12,960 --> 01:50:21,960
+ And then say for example if M equal to zero, and in order to satisfy this is delta function, M equal to zero,
+
+821
+01:50:22,960 --> 01:50:29,960
+ this term must be equal to zero so that I get among all the different K equal to zero.
+
+822
+01:50:30,960 --> 01:50:40,960
+ I think there is only one of the term not equal to zero or is equal to one, which is making the argument equal to zero.
+
+823
+01:50:41,960 --> 01:50:49,960
+ M equal to zero, K must be, small K must be equal to zero, then you only pick this Q of zero.
+
+824
+01:50:50,960 --> 01:50:59,960
+ Okay, so this left hand side, you always give you, actually the sum is give you only, always give you QM in the left hand side.
+
+825
+01:51:00,960 --> 01:51:04,960
+ Because whatever M you change, you see now your next you change M equal to three.
+
+826
+01:51:05,960 --> 01:51:10,960
+ Three, then three minus what equal to zero, because equal to three.
+
+827
+01:51:11,960 --> 01:51:14,960
+ So if small M equal to three, you only pick up Q three.
+
+828
+01:51:15,960 --> 01:51:20,960
+ So therefore the left hand side is always give you QM.
+
+829
+01:51:21,960 --> 01:51:26,960
+ Also you get infinity many sum because this special property.
+
+830
+01:51:26,960 --> 01:51:40,960
+ So this is very important because that so we end up with at least from the very t the infinity sum will reduce to only one term go to that.
+
+831
+01:51:41,960 --> 01:51:42,960
+ So that's good.
+
+832
+01:51:44,960 --> 01:51:51,960
+ So therefore you see now QJ will replace this QM, QK with this.
+
+833
+01:51:52,960 --> 01:52:10,960
+ Okay, and then the problem here is you see by definition the autocorrelation related to the Z transform by assuming infinity of the term.
+
+834
+01:52:11,960 --> 01:52:15,960
+ So therefore here we only summing half of that.
+
+835
+01:52:15,960 --> 01:52:21,960
+ So what we call this is the Z transform of this.
+
+836
+01:52:22,960 --> 01:52:26,960
+ Okay, but you take the positive half.
+
+837
+01:52:27,960 --> 01:52:28,960
+ So we add this.
+
+838
+01:52:29,960 --> 01:52:35,960
+ Okay, because this one D of X of M, this is available.
+
+839
+01:52:36,960 --> 01:52:41,960
+ Okay, the one we have the desirable signal D and also the major X.
+
+840
+01:52:42,960 --> 01:52:45,960
+ But so far we do not have this.
+
+841
+01:52:46,960 --> 01:52:54,960
+ We only assume we have this white noise coming in and D is available, but not this one.
+
+842
+01:52:55,960 --> 01:53:01,960
+ Yeah, because this is, but however you know here there's another useful relationship.
+
+843
+01:53:02,960 --> 01:53:08,960
+ So I say this part try to combine all the other things we learn into here.
+
+844
+01:53:08,960 --> 01:53:18,960
+ Because our WM here we use a concept of the whitening or inverse filter excite with XN, you see.
+
+845
+01:53:19,960 --> 01:53:20,960
+ It's a reverse process.
+
+846
+01:53:21,960 --> 01:53:25,960
+ The white noise goes through H of Z, you create this X of N.
+
+847
+01:53:26,960 --> 01:53:34,960
+ Then this white noise reverse back will be go through the inverse filter, one of the two Z.
+
+848
+01:53:34,960 --> 01:53:40,960
+ Then we consider XN as an input to reproduce this.
+
+849
+01:53:41,960 --> 01:53:46,960
+ So therefore this part is a little bit difficult.
+
+850
+01:53:47,960 --> 01:53:51,960
+ We assume maybe next week I will show how to derive this one.
+
+851
+01:53:52,960 --> 01:54:03,960
+ So therefore we can, by using this inverse filter and we can show this one here.
+
+852
+01:54:04,960 --> 01:54:13,960
+ Because we need to get this in order to get the inverse of the positive half.
+
+853
+01:54:14,960 --> 01:54:21,960
+ So therefore this one, we already know this, this one shows, we know, can get this.
+
+854
+01:54:22,960 --> 01:54:33,960
+ Then this one can be show, we once I get this G of Z, you can get the G to the argument of Z to the power minus one.
+
+855
+01:54:34,960 --> 01:54:35,960
+ So we derive that.
+
+856
+01:54:36,960 --> 01:54:48,960
+ So that's the important one because we need this and then you take the positive half so that you will get what we require here.
+
+857
+01:54:49,960 --> 01:55:02,960
+ So therefore by putting all these together, the optimal causal IR filter, in this case you see we need to get the edge.
+
+858
+01:55:02,960 --> 01:55:07,960
+ And edge and G, we multiply together is this QJ.
+
+859
+01:55:08,960 --> 01:55:19,960
+ And QJ here, we, so you see here, the QJ here is we need to get from this.
+
+860
+01:55:20,960 --> 01:55:25,960
+ And the one, as I say, you can show this one equal to this.
+
+861
+01:55:25,960 --> 01:55:37,960
+ Then once you take this, you keep the positive half, you will get this and this is QJ.
+
+862
+01:55:38,960 --> 01:55:39,960
+ So GJ is already known.
+
+863
+01:55:40,960 --> 01:55:48,960
+ So in the end, the difficult part is getting this and then you take the derivation, take the ratio.
+
+864
+01:55:48,960 --> 01:55:57,960
+ So let's see how we apply into this example again.
+
+865
+01:55:58,960 --> 01:56:01,960
+ We are using the IR filter.
+
+866
+01:56:02,960 --> 01:56:03,960
+ It's the same example.
+
+867
+01:56:04,960 --> 01:56:05,960
+ Everything else is the same.
+
+868
+01:56:06,960 --> 01:56:10,960
+ So we don't need to restate the problem.
+
+869
+01:56:10,960 --> 01:56:16,960
+ So now the new problem here, all the settings are the same as before.
+
+870
+01:56:17,960 --> 01:56:23,960
+ Except we want to design the optimal causal IR filter to estimate the same.
+
+871
+01:56:24,960 --> 01:56:28,960
+ Previously we used a low order IR filter, only two tap Emicode 2.
+
+872
+01:56:30,960 --> 01:56:37,960
+ So now let's see how we apply what available given here.
+
+873
+01:56:38,960 --> 01:56:42,960
+ So all these, it's a filtering problem.
+
+874
+01:56:43,960 --> 01:56:44,960
+ We have this relationship.
+
+875
+01:56:45,960 --> 01:56:49,960
+ And then we also have this causal relation equal to this SS.
+
+876
+01:56:50,960 --> 01:56:51,960
+ We already know equal to that.
+
+877
+01:56:52,960 --> 01:56:58,960
+ And then we also know the XS is the sum of these two.
+
+878
+01:56:59,960 --> 01:57:02,960
+ This one is you get from here.
+
+879
+01:57:03,960 --> 01:57:04,960
+ And this is Y noise.
+
+880
+01:57:05,960 --> 01:57:06,960
+ So it's equal to 1.
+
+881
+01:57:07,960 --> 01:57:08,960
+ So far, okay.
+
+882
+01:57:09,960 --> 01:57:16,960
+ So now how this is the spectral factorization.
+
+883
+01:57:17,960 --> 01:57:21,960
+ Spectral factorization means this function cannot be arbitrary.
+
+884
+01:57:22,960 --> 01:57:23,960
+ It must satisfy the condition.
+
+885
+01:57:23,960 --> 01:57:37,960
+ This one is already you know is come from the special density function.
+
+886
+01:57:38,960 --> 01:57:44,960
+ Or the json from auto correlation function.
+
+887
+01:57:45,960 --> 01:57:48,960
+ You can see here if you add another constant.
+
+888
+01:57:49,960 --> 01:57:51,960
+ This is a special case of another spectral function.
+
+889
+01:57:51,960 --> 01:57:52,960
+ Add this together.
+
+890
+01:57:53,960 --> 01:57:57,960
+ The new one you can, you see the denominator is the same here.
+
+891
+01:57:58,960 --> 01:58:00,960
+ But the numerator change, you see.
+
+892
+01:58:01,960 --> 01:58:03,960
+ If you do it properly, you will be one.
+
+893
+01:58:04,960 --> 01:58:10,960
+ You make one to be the same denominator and the same numerator.
+
+894
+01:58:11,960 --> 01:58:12,960
+ And then you know this value.
+
+895
+01:58:13,960 --> 01:58:18,960
+ So you can add this into the denominator.
+
+896
+01:58:18,960 --> 01:58:21,960
+ Then it turns out to be the numerator.
+
+897
+01:58:22,960 --> 01:58:24,960
+ You can also factorize into as a product.
+
+898
+01:58:25,960 --> 01:58:30,960
+ And which the same except z and z to the power minus one.
+
+899
+01:58:31,960 --> 01:58:33,960
+ Here we only dealing as a first order.
+
+900
+01:58:34,960 --> 01:58:38,960
+ If you go to higher order, you will see a similar relationship.
+
+901
+01:58:39,960 --> 01:58:40,960
+ So let's call it good.
+
+902
+01:58:41,960 --> 01:58:43,960
+ So once you know that you can factorize.
+
+903
+01:58:43,960 --> 01:58:46,960
+ So what I call spectral factorization.
+
+904
+01:58:47,960 --> 01:58:50,960
+ You can factorize it into two parts.
+
+905
+01:58:51,960 --> 01:58:57,960
+ One is this corresponding to the negative power of z, which we call it gz.
+
+906
+01:58:58,960 --> 01:59:03,960
+ And the other is just change whatever z to the negative power into positive one.
+
+907
+01:59:04,960 --> 01:59:07,960
+ And in our case here we are dealing with a first order.
+
+908
+01:59:08,960 --> 01:59:09,960
+ So you only have this.
+
+909
+01:59:10,960 --> 01:59:11,960
+ Similarly this one.
+
+910
+01:59:11,960 --> 01:59:12,960
+ Okay.
+
+911
+01:59:13,960 --> 01:59:21,960
+ And let's look at the minimum phase.
+
+912
+01:59:22,960 --> 01:59:25,960
+ This gj is also minimum phase.
+
+913
+01:59:26,960 --> 01:59:27,960
+ This is very important.
+
+914
+01:59:28,960 --> 01:59:30,960
+ So I hope you remember minimum phase.
+
+915
+01:59:31,960 --> 01:59:35,960
+ Meaning the poles will be within the unit circle.
+
+916
+01:59:36,960 --> 01:59:37,960
+ In this case it is 0.6.
+
+917
+01:59:37,960 --> 01:59:40,960
+ And at the same time the zero here.
+
+918
+01:59:41,960 --> 01:59:43,960
+ Also within the unit circle.
+
+919
+01:59:44,960 --> 01:59:46,960
+ In this case 1 over 3.
+
+920
+01:59:47,960 --> 01:59:49,960
+ Because remember z to the power minus one.
+
+921
+01:59:50,960 --> 01:59:53,960
+ So 1 over 3 take the inverse.
+
+922
+01:59:54,960 --> 01:59:55,960
+ It will be 3.
+
+923
+01:59:56,960 --> 01:59:59,960
+ 3 multiplied by 1 over 3 of course equal to 1.
+
+924
+02:00:00,960 --> 02:00:04,960
+ Which is make the zero numerator become zero.
+
+925
+02:00:04,960 --> 02:00:06,960
+ So this is minimum phase.
+
+926
+02:00:07,960 --> 02:00:08,960
+ So that's quite good.
+
+927
+02:00:10,960 --> 02:00:18,960
+ And then therefore this is let's look at it carefully.
+
+928
+02:00:19,960 --> 02:00:24,960
+ We have g to the power z minus one.
+
+929
+02:00:25,960 --> 02:00:30,960
+ This one we already know equal to that.
+
+930
+02:00:30,960 --> 02:00:34,960
+ So we know the gj.
+
+931
+02:00:35,960 --> 02:00:41,960
+ If you change z to the power minus one.
+
+932
+02:00:42,960 --> 02:00:44,960
+ Everything here become z.
+
+933
+02:00:45,960 --> 02:00:46,960
+ Okay.
+
+934
+02:00:47,960 --> 02:00:54,960
+ And then I show you see here you have the...
+
+935
+02:00:54,960 --> 02:00:55,960
+ Okay.
+
+936
+02:00:56,960 --> 02:01:01,960
+ Then gj is in the denominator here.
+
+937
+02:01:02,960 --> 02:01:03,960
+ G to the power minus one here.
+
+938
+02:01:04,960 --> 02:01:12,960
+ So you somehow can show out one of the factor.
+
+939
+02:01:13,960 --> 02:01:15,960
+ Because let's repeat again here.
+
+940
+02:01:16,960 --> 02:01:20,960
+ You take the make it into the denominator.
+
+941
+02:01:20,960 --> 02:01:21,960
+ That means you are multiply.
+
+942
+02:01:22,960 --> 02:01:24,960
+ This one will become numerator.
+
+943
+02:01:25,960 --> 02:01:29,960
+ And also remember z to the power become positive power.
+
+944
+02:01:30,960 --> 02:01:35,960
+ So you see here you have this one in the numerator here.
+
+945
+02:01:36,960 --> 02:01:37,960
+ Which can show this one.
+
+946
+02:01:38,960 --> 02:01:40,960
+ So this one you have this denominator.
+
+947
+02:01:41,960 --> 02:01:46,960
+ And the numerator of this one it become the denominator.
+
+948
+02:01:47,960 --> 02:01:49,960
+ Because you are multiplying that.
+
+949
+02:01:50,960 --> 02:01:54,960
+ That's how you end up with this after divide.
+
+950
+02:01:55,960 --> 02:01:59,960
+ So we are not done yet.
+
+951
+02:02:00,960 --> 02:02:06,960
+ Because this one here you have a mixture of z to the power minus one.
+
+952
+02:02:07,960 --> 02:02:10,960
+ And z to the power positive one in this case.
+
+953
+02:02:11,960 --> 02:02:16,960
+ So you can do fraction expansion.
+
+954
+02:02:16,960 --> 02:02:20,960
+ Because this is the product of two.
+
+955
+02:02:21,960 --> 02:02:30,960
+ You can expand it as a sum of one of the numerator.
+
+956
+02:02:31,960 --> 02:02:33,960
+ This is one of the denominator here.
+
+957
+02:02:34,960 --> 02:02:37,960
+ And then we take out the constant here coefficient.
+
+958
+02:02:38,960 --> 02:02:45,960
+ So what you need to do is expand this into a sum of one.
+
+959
+02:02:46,960 --> 02:02:48,960
+ So you need to do fraction with denominator.
+
+960
+02:02:49,960 --> 02:02:51,960
+ Then the other one with this is denominator.
+
+961
+02:02:52,960 --> 02:02:56,960
+ So you need to work out the coefficient when you are doing the expansion.
+
+962
+02:02:57,960 --> 02:02:59,960
+ And this is what you will get here.
+
+963
+02:03:00,960 --> 02:03:05,960
+ I think it's a good exercise for you to verify how you end up with this.
+
+964
+02:03:06,960 --> 02:03:09,960
+ And then finally you remember here.
+
+965
+02:03:09,960 --> 02:03:19,960
+ This part we have a positive power and negative power and positive power of jet.
+
+966
+02:03:20,960 --> 02:03:28,960
+ So remember we only take the positive part corresponding to...
+
+967
+02:03:29,960 --> 02:03:37,960
+ You see when you expand we are talking about the positive one is from zero to the z minus one.
+
+968
+02:03:37,960 --> 02:03:42,960
+ And z minus one, z minus two, z to the power minus two and so on.
+
+969
+02:03:43,960 --> 02:03:44,960
+ So don't get confused.
+
+970
+02:03:45,960 --> 02:03:47,960
+ This is the nt causal part.
+
+971
+02:03:48,960 --> 02:03:50,960
+ So we keep this one in there.
+
+972
+02:03:51,960 --> 02:03:59,960
+ So after a long derivation we come out with this relatively simple filter here.
+
+973
+02:04:00,960 --> 02:04:03,960
+ And then it's not done yet.
+
+974
+02:04:04,960 --> 02:04:10,960
+ Our optimal one is we get the one and then we divide by gz.
+
+975
+02:04:11,960 --> 02:04:14,960
+ So finally you can solve one of the factors.
+
+976
+02:04:15,960 --> 02:04:21,960
+ nt is the simple jet transform which is first order.
+
+977
+02:04:22,960 --> 02:04:28,960
+ Then you can expand here.
+
+978
+02:04:29,960 --> 02:04:30,960
+ This is a jet transform.
+
+979
+02:04:31,960 --> 02:04:36,960
+ You see this one in the jet transform.
+
+980
+02:04:37,960 --> 02:04:42,960
+ You take the inverse jet transform or you use the transformation pair.
+
+981
+02:04:43,960 --> 02:04:46,960
+ You have the time sequence of this one.
+
+982
+02:04:47,960 --> 02:04:50,960
+ You will be corresponding to the jet transform.
+
+983
+02:04:51,960 --> 02:04:53,960
+ But only this...
+
+984
+02:04:54,960 --> 02:05:05,960
+ It's only work on the positive k because our uk here is a unistep function.
+
+985
+02:05:06,960 --> 02:05:11,960
+ That means we are taking only the positive half.
+
+986
+02:05:12,960 --> 02:05:14,960
+ Because why? Because the filter here is a causal one.
+
+987
+02:05:15,960 --> 02:05:16,960
+ It's a causal IR filter.
+
+988
+02:05:17,960 --> 02:05:18,960
+ The one we are designing.
+
+989
+02:05:19,960 --> 02:05:20,960
+ You see here.
+
+990
+02:05:21,960 --> 02:05:25,960
+ So therefore this is after a very long derivation.
+
+991
+02:05:26,960 --> 02:05:32,960
+ We end up with relatively simple IR filter which is infinity.
+
+992
+02:05:33,960 --> 02:05:39,960
+ Because this k for whatever greater than 0 is going forever.
+
+993
+02:05:40,960 --> 02:05:47,960
+ It's also when k is getting bigger and bigger, the value becomes smaller and smaller.
+
+994
+02:05:47,960 --> 02:05:56,960
+ But it will never become 0 because theoretically it can become very small but not 0.
+
+995
+02:05:57,960 --> 02:05:58,960
+ It will keep going.
+
+996
+02:05:59,960 --> 02:06:05,960
+ So therefore we also have this.
+
+997
+02:06:06,960 --> 02:06:13,960
+ Then we can compute the minimum wing square row using the 140 since we already have that.
+
+998
+02:06:13,960 --> 02:06:15,960
+ So it turns out to be...
+
+999
+02:06:16,960 --> 02:06:25,960
+ It's only slightly better than the optimal two-tap IR filter which we obtained earlier.
+
+1000
+02:06:26,960 --> 02:06:29,960
+ 0.45. This is 0.445.
+
+1001
+02:06:30,960 --> 02:06:32,960
+ So only a little bit better.
+
+1002
+02:06:33,960 --> 02:06:38,960
+ Of course IR filter theoretically you have many more tapes to improve.
+
+1003
+02:06:38,960 --> 02:06:47,960
+ But the improvement is very marginal in this case because the...
+
+1004
+02:06:49,960 --> 02:06:51,960
+ You know, at least for this example.
+
+1005
+02:06:52,960 --> 02:06:55,960
+ I don't know whether some are more complicated.
+
+1006
+02:06:56,960 --> 02:06:58,960
+ For example you can get better.
+
+1007
+02:06:59,960 --> 02:07:07,960
+ So the conclusion here is maybe not the worst way to look into IR filter at least in this example.
+
+1008
+02:07:08,960 --> 02:07:14,960
+ Since you have computationally this is also much more heavier.
+
+1009
+02:07:15,960 --> 02:07:23,960
+ You spend a lot of effort but in the end you only get slightly better results here.
+
+1010
+02:07:24,960 --> 02:07:26,960
+ So yeah, I think that's...
+
+1011
+02:07:27,960 --> 02:07:36,960
+ We finished the chapter 2 with this IR filter.
+
+1012
+02:07:36,960 --> 02:07:43,960
+ So this little bit more tedious in this part here.
+
+1013
+02:07:44,960 --> 02:07:45,960
+ So I...
+
+1014
+02:07:46,960 --> 02:07:47,960
+ Yeah, I...
+
+1015
+02:07:48,960 --> 02:07:53,960
+ Perhaps maybe we still have some time left.
+
+1016
+02:07:54,960 --> 02:08:02,960
+ So we want to see whether you have some questions or some...
+
+1017
+02:08:03,960 --> 02:08:11,960
+ Something you'd like to clarify or even in the...
+
+1018
+02:08:12,960 --> 02:08:21,960
+ In the chapter 1 or some of the other parts before...
+
+1019
+02:08:21,960 --> 02:08:31,960
+ I think probably the next chapter is quite different from the other 2 chapters.
+
+1020
+02:08:32,960 --> 02:08:33,960
+ It's also getting more difficult.
+
+1021
+02:08:34,960 --> 02:08:35,960
+ So we...
+
+1022
+02:08:36,960 --> 02:08:38,960
+ Let's see now is week 10.
+
+1023
+02:08:39,960 --> 02:08:41,960
+ Week 10 and next week we have...
+
+1024
+02:08:42,960 --> 02:08:48,960
+ Week 11 we still discuss probably half of the chapter 3.
+
+1025
+02:08:48,960 --> 02:08:54,960
+ And then week 12 we will spend half week to do the quiz.
+
+1026
+02:08:55,960 --> 02:08:56,960
+ So we still have half week.
+
+1027
+02:08:57,960 --> 02:08:59,960
+ So perhaps one and half week.
+
+1028
+02:09:00,960 --> 02:09:06,960
+ The next chapter we need probably about one and half week to two weeks.
+
+1029
+02:09:07,960 --> 02:09:08,960
+ So maximum two weeks.
+
+1030
+02:09:09,960 --> 02:09:13,960
+ So perhaps let me make good use of this level of time.
+
+1031
+02:09:13,960 --> 02:09:26,960
+ I can maybe go through the first 2 chapters and I can narrow down some of the parts where we will not...
+
+1032
+02:09:28,960 --> 02:09:30,960
+ I give the score for the quiz.
+
+1033
+02:09:31,960 --> 02:09:33,960
+ Upcoming quiz in week 12 first.
+
+1034
+02:09:34,960 --> 02:09:39,960
+ But this may not be the same as in the final exam paper.
+
+1035
+02:09:40,960 --> 02:09:41,960
+ So let me make it clear.
+
+1036
+02:09:41,960 --> 02:09:42,960
+ It could be the same.
+
+1037
+02:09:43,960 --> 02:09:45,960
+ I will see after the...
+
+1038
+02:09:46,960 --> 02:09:51,960
+ Knowing your quiz result to see how good you performed and so on.
+
+1039
+02:09:52,960 --> 02:09:55,960
+ So let me quickly run through this.
+
+1040
+02:09:56,960 --> 02:10:00,960
+ Some of the system signal...
+
+1041
+02:10:01,960 --> 02:10:06,960
+ Let me explain it to full screen.
+
+1042
+02:10:06,960 --> 02:10:07,960
+ Full screen.
+
+1043
+02:10:10,960 --> 02:10:11,960
+ So these are the...
+
+1044
+02:10:12,960 --> 02:10:15,960
+ We are not dealing with chaotic signal.
+
+1045
+02:10:16,960 --> 02:10:18,960
+ We can live out random signal.
+
+1046
+02:10:19,960 --> 02:10:23,960
+ Of course you need a good understanding and...
+
+1047
+02:10:24,960 --> 02:10:25,960
+ Discrete random variable.
+
+1048
+02:10:26,960 --> 02:10:32,960
+ It can have probability match function rather than...
+
+1049
+02:10:33,960 --> 02:10:35,960
+ Continue will be PDF.
+
+1050
+02:10:36,960 --> 02:10:39,960
+ These are the basic notation.
+
+1051
+02:10:40,960 --> 02:10:44,960
+ And then some example of that.
+
+1052
+02:10:45,960 --> 02:10:50,960
+ Then how you define the probability match function.
+
+1053
+02:10:51,960 --> 02:10:54,960
+ Cumulate distribution is for...
+
+1054
+02:10:56,960 --> 02:10:57,960
+ Yeah, for...
+
+1055
+02:10:58,960 --> 02:10:59,960
+ Discrete time.
+
+1056
+02:10:59,960 --> 02:11:02,960
+ Discrete time and also you have...
+
+1057
+02:11:03,960 --> 02:11:07,960
+ Similar definition for continue random variable.
+
+1058
+02:11:08,960 --> 02:11:10,960
+ The different between the two is...
+
+1059
+02:11:11,960 --> 02:11:15,960
+ Discrete random variable you use summation.
+
+1060
+02:11:16,960 --> 02:11:17,960
+ Same as discrete time signal.
+
+1061
+02:11:18,960 --> 02:11:21,960
+ Continue random variable you are dealing with integration.
+
+1062
+02:11:22,960 --> 02:11:25,960
+ So these are the several examples.
+
+1063
+02:11:25,960 --> 02:11:29,960
+ We usually only look at mostly like gaussians or...
+
+1064
+02:11:30,960 --> 02:11:31,960
+ Simple one.
+
+1065
+02:11:32,960 --> 02:11:35,960
+ Otherwise give you the PDF and so on.
+
+1066
+02:11:36,960 --> 02:11:40,960
+ Expectation is one of the very important concepts.
+
+1067
+02:11:41,960 --> 02:11:44,960
+ So you should have a very good understanding of...
+
+1068
+02:11:45,960 --> 02:11:47,960
+ Expectation and expect value.
+
+1069
+02:11:48,960 --> 02:11:51,960
+ And then similarly you can extend it to...
+
+1070
+02:11:51,960 --> 02:11:53,960
+ Layer value function to take.
+
+1071
+02:11:54,960 --> 02:11:58,960
+ So this somehow generalize the expectation.
+
+1072
+02:11:59,960 --> 02:12:03,960
+ And it can by choosing different function you can go to...
+
+1073
+02:12:04,960 --> 02:12:06,960
+ M's moment and also...
+
+1074
+02:12:08,960 --> 02:12:14,960
+ This one we will not discuss...
+
+1075
+02:12:14,960 --> 02:12:15,960
+ We are not...
+
+1076
+02:12:16,960 --> 02:12:21,960
+ You can take out for this moment generating function...
+
+1077
+02:12:22,960 --> 02:12:26,960
+ Which will not be included at least for the quiz.
+
+1078
+02:12:27,960 --> 02:12:30,960
+ And this probability we also know in here.
+
+1079
+02:12:31,960 --> 02:12:33,960
+ But variance also very important.
+
+1080
+02:12:34,960 --> 02:12:37,960
+ You can see this is another second order function.
+
+1081
+02:12:38,960 --> 02:12:41,960
+ Extend from the expectation.
+
+1082
+02:12:41,960 --> 02:12:46,960
+ So the very basic expectation with function.
+
+1083
+02:12:47,960 --> 02:12:48,960
+ Second order.
+
+1084
+02:12:49,960 --> 02:12:53,960
+ Then this variation you should know how to...
+
+1085
+02:12:54,960 --> 02:12:55,960
+ File out the relationship.
+
+1086
+02:12:56,960 --> 02:12:58,960
+ But it's as I say since I...
+
+1087
+02:12:59,960 --> 02:13:01,960
+ Excluding this moment generating function.
+
+1088
+02:13:02,960 --> 02:13:03,960
+ You can leave out this part.
+
+1089
+02:13:04,960 --> 02:13:08,960
+ And statistic, discrete random variable.
+
+1090
+02:13:08,960 --> 02:13:13,960
+ So usually we just remember the very basic one.
+
+1091
+02:13:14,960 --> 02:13:16,960
+ Or maybe not...
+
+1092
+02:13:19,960 --> 02:13:20,960
+ Discrete random variable.
+
+1093
+02:13:21,960 --> 02:13:28,960
+ In case I need that I will give you the PDF or PMF.
+
+1094
+02:13:29,960 --> 02:13:33,960
+ So mean and variance.
+
+1095
+02:13:34,960 --> 02:13:37,960
+ Moment generating function as I say you can exclude this part.
+
+1096
+02:13:39,960 --> 02:13:41,960
+ Similarly for continuous...
+
+1097
+02:13:42,960 --> 02:13:47,960
+ Because uniform is very easy if you don't look at moment generating function.
+
+1098
+02:13:48,960 --> 02:13:51,960
+ You have this PDF and mean and variance.
+
+1099
+02:13:52,960 --> 02:13:59,960
+ You should be able to remember or you can do integration to get out.
+
+1100
+02:14:00,960 --> 02:14:04,960
+ Remember some years ago, one or two years ago.
+
+1101
+02:14:04,960 --> 02:14:08,960
+ I include one question in the quiz.
+
+1102
+02:14:09,960 --> 02:14:11,960
+ How to derive this?
+
+1103
+02:14:12,960 --> 02:14:17,960
+ I think most of students can derive some to correct.
+
+1104
+02:14:18,960 --> 02:14:19,960
+ It's a simple integration.
+
+1105
+02:14:20,960 --> 02:14:21,960
+ So that's...
+
+1106
+02:14:22,960 --> 02:14:25,960
+ And then exponential is parameter.
+
+1107
+02:14:26,960 --> 02:14:27,960
+ Again this one is a bit complicated.
+
+1108
+02:14:28,960 --> 02:14:30,960
+ Other than that you see it all looks very simple.
+
+1109
+02:14:30,960 --> 02:14:32,960
+ Particularly normal like Gaussian.
+
+1110
+02:14:33,960 --> 02:14:35,960
+ It's parameter mean and variance.
+
+1111
+02:14:36,960 --> 02:14:37,960
+ So this is very easy.
+
+1112
+02:14:38,960 --> 02:14:41,960
+ So this is the requirement for Gaussian.
+
+1113
+02:14:42,960 --> 02:14:45,960
+ And then jointly distribute discrete random variable.
+
+1114
+02:14:46,960 --> 02:14:48,960
+ We just know the concept.
+
+1115
+02:14:49,960 --> 02:14:54,960
+ Not going to the derivation of this one.
+
+1116
+02:14:55,960 --> 02:15:01,960
+ But for correlation and covariance.
+
+1117
+02:15:02,960 --> 02:15:05,960
+ These are very important concepts.
+
+1118
+02:15:06,960 --> 02:15:07,960
+ These two.
+
+1119
+02:15:08,960 --> 02:15:14,960
+ Like you see, XIGs should be able to work out to derive that.
+
+1120
+02:15:15,960 --> 02:15:17,960
+ Stochastic random process.
+
+1121
+02:15:17,960 --> 02:15:28,960
+ We just know the very basic concept of how this related to the random variable.
+
+1122
+02:15:29,960 --> 02:15:36,960
+ And of course the very important one, weekly, stationary random process.
+
+1123
+02:15:37,960 --> 02:15:42,960
+ You'll see the definitions and so on.
+
+1124
+02:15:42,960 --> 02:15:48,960
+ But for example, how to get moment at one particular point.
+
+1125
+02:15:49,960 --> 02:15:57,960
+ And then statistical ensembles, go by expectations and so on.
+
+1126
+02:15:58,960 --> 02:16:02,960
+ Correlation, you'll know the definition.
+
+1127
+02:16:03,960 --> 02:16:08,960
+ Auto correlation because we use that also quite a lot later.
+
+1128
+02:16:08,960 --> 02:16:17,960
+ But pathway will be stochastic ensemble.
+
+1129
+02:16:18,960 --> 02:16:19,960
+ Cross covariance.
+
+1130
+02:16:22,960 --> 02:16:23,960
+ These are basic.
+
+1131
+02:16:24,960 --> 02:16:29,960
+ This part is stationary stochastic process.
+
+1132
+02:16:29,960 --> 02:16:40,959
+ So case process, if you are talking many variables and also using the PDF,
+
+1133
+02:16:41,959 --> 02:16:43,959
+ we will skip this part.
+
+1134
+02:16:44,959 --> 02:16:47,959
+ This is a strong definition of stationality.
+
+1135
+02:16:47,959 --> 02:17:01,959
+ So what we look at is only the weekly stationary based on the auto covariance
+
+1136
+02:17:02,959 --> 02:17:06,959
+ and auto correlation defined this way.
+
+1137
+02:17:07,959 --> 02:17:12,959
+ Basically this is for random process, we are more just looking at the white things.
+
+1138
+02:17:12,959 --> 02:17:18,959
+ So weekly stationary using this definition here.
+
+1139
+02:17:19,959 --> 02:17:28,959
+ So this is much simpler than able to work out some of the exigences.
+
+1140
+02:17:30,959 --> 02:17:36,959
+ Called DCT, I think probably, yeah we will skip this one.
+
+1141
+02:17:37,959 --> 02:17:39,959
+ And then white noise occurs.
+
+1142
+02:17:40,959 --> 02:17:49,959
+ This one we use a lot and also the uni impulse functions, this white noise.
+
+1143
+02:17:50,959 --> 02:17:52,959
+ So this is important one.
+
+1144
+02:17:53,959 --> 02:17:55,959
+ So this one you can skip this part.
+
+1145
+02:17:56,959 --> 02:18:05,959
+ We do not really directly use this script or go this, the random signal statistics.
+
+1146
+02:18:06,959 --> 02:18:11,959
+ So these are useful for the calculation.
+
+1147
+02:18:17,959 --> 02:18:23,959
+ Okay, so we can know the definition.
+
+1148
+02:18:25,959 --> 02:18:27,959
+ Power density spectrum, these are important.
+
+1149
+02:18:28,959 --> 02:18:31,959
+ We also need that in the later part.
+
+1150
+02:18:31,959 --> 02:18:36,959
+ So you can see the relationship, power density spectrum and auto correlation.
+
+1151
+02:18:37,959 --> 02:18:46,959
+ And then this average power and then this one, close power density.
+
+1152
+02:18:47,959 --> 02:18:53,959
+ Also if I for discrete random process, these are the important one.
+
+1153
+02:18:54,959 --> 02:18:58,959
+ We refer to that later many times exigences.
+
+1154
+02:18:59,959 --> 02:19:03,959
+ And this one I think I discussed that before.
+
+1155
+02:19:04,959 --> 02:19:15,959
+ And innovation, representation, probably just know the basic concept about how white noise we discussed several times.
+
+1156
+02:19:16,959 --> 02:19:21,959
+ Going through linear causal filter, then you create this in general.
+
+1157
+02:19:21,959 --> 02:19:27,959
+ And reverse back, this is inverse or we call it white turning filter.
+
+1158
+02:19:28,959 --> 02:19:34,959
+ So like this you should know the filter, white turning filter, the relationship.
+
+1159
+02:19:35,959 --> 02:19:47,959
+ And then the representation, how to derive that like the Roland series, which this part become a bit complicated.
+
+1160
+02:19:47,959 --> 02:19:50,960
+ So you can skip this part.
+
+1161
+02:19:51,960 --> 02:19:57,960
+ But at least you know the representation of the relationship is formula.
+
+1162
+02:20:00,960 --> 02:20:06,960
+ So these are the derivation, I think you can skip here.
+
+1163
+02:20:07,960 --> 02:20:09,960
+ But the result should be important.
+
+1164
+02:20:09,960 --> 02:20:17,960
+ Particularly the rational power spectrum which you should know how to do it.
+
+1165
+02:20:18,960 --> 02:20:22,960
+ And do the factorization. I already give example and later you also see.
+
+1166
+02:20:23,960 --> 02:20:28,960
+ So these are the same examples you are dealing in the winner filter one.
+
+1167
+02:20:29,960 --> 02:20:37,960
+ And then it can be extend to the case where the input is not necessarily white.
+
+1168
+02:20:37,960 --> 02:20:41,960
+ It can be other white saying stationally.
+
+1169
+02:20:42,960 --> 02:20:47,960
+ So you have a proper autocorrelation function and the J, corresponding J transform.
+
+1170
+02:20:48,960 --> 02:20:51,960
+ So this is very similar to filter.
+
+1171
+02:20:52,960 --> 02:20:55,960
+ Input J transform goes through the filter.
+
+1172
+02:20:56,960 --> 02:21:00,960
+ But not in the power spectrum in filter, you only have HJ.
+
+1173
+02:21:01,960 --> 02:21:03,960
+ You don't have this part.
+
+1174
+02:21:03,960 --> 02:21:11,960
+ So that's the difference when you are dealing with random process and dealing with deterministic signal.
+
+1175
+02:21:12,960 --> 02:21:16,960
+ Where you only go through the filter transform function.
+
+1176
+02:21:17,960 --> 02:21:18,960
+ Because power thanks to this spectrum.
+
+1177
+02:21:19,960 --> 02:21:22,960
+ Genshi is a second order statistic.
+
+1178
+02:21:23,960 --> 02:21:25,960
+ So you require power of two.
+
+1179
+02:21:26,960 --> 02:21:30,960
+ Then from here, this is in the jet domain.
+
+1180
+02:21:31,960 --> 02:21:33,960
+ So this is in the frequency domain.
+
+1181
+02:21:34,960 --> 02:21:36,960
+ So what we call power density spectrum.
+
+1182
+02:21:37,960 --> 02:21:42,960
+ Sometimes we call this as also power density spectrum but in the jet domain.
+
+1183
+02:21:43,960 --> 02:21:47,960
+ Because the proper one is in the frequency domain here.
+
+1184
+02:21:48,960 --> 02:21:51,960
+ And then how to get this example.
+
+1185
+02:21:51,960 --> 02:21:58,960
+ So this here you can see the transformation pair using this through this example.
+
+1186
+02:21:59,960 --> 02:22:02,960
+ And then you can also get one in the frequency domain.
+
+1187
+02:22:03,960 --> 02:22:08,960
+ So that's the derivation and the result.
+
+1188
+02:22:09,960 --> 02:22:13,960
+ So you may spend time trying to work out how this example is done.
+
+1189
+02:22:14,960 --> 02:22:19,960
+ And then the AR, MA and AMA these are important.
+
+1190
+02:22:19,960 --> 02:22:25,960
+ Auto correlation and so all these are basic.
+
+1191
+02:22:26,960 --> 02:22:29,960
+ And then the relationship these are also very important here.
+
+1192
+02:22:30,960 --> 02:22:32,960
+ Along the way we keep deriving this you see.
+
+1193
+02:22:33,960 --> 02:22:38,960
+ From the filter parameter and auto correlation sequence.
+
+1194
+02:22:39,960 --> 02:22:41,960
+ And these are the important one.
+
+1195
+02:22:42,960 --> 02:22:46,960
+ And make good use of this delta function for wide noise process.
+
+1196
+02:22:47,960 --> 02:22:52,960
+ Okay and you come up with this for causal filter.
+
+1197
+02:22:53,960 --> 02:22:56,960
+ And then I already provide the exercises for that.
+
+1198
+02:22:57,960 --> 02:23:02,960
+ And for linear prediction I think to just now I already reviewed some.
+
+1199
+02:23:03,960 --> 02:23:08,960
+ Like the forward linear prediction and forward prediction errors.
+
+1200
+02:23:09,960 --> 02:23:13,960
+ And this is for forward prediction.
+
+1201
+02:23:13,960 --> 02:23:25,960
+ So you see here the predictor is embedded in this linear filter.
+
+1202
+02:23:26,960 --> 02:23:33,960
+ The predictor is only part of the forward linear prediction error.
+
+1203
+02:23:34,960 --> 02:23:35,960
+ This output is not this.
+
+1204
+02:23:36,960 --> 02:23:38,960
+ So predictor is only this part.
+
+1205
+02:23:39,960 --> 02:23:47,960
+ And then this filter structure this is referring to prediction error filter.
+
+1206
+02:23:48,960 --> 02:23:49,960
+ Not the predictor.
+
+1207
+02:23:50,960 --> 02:23:55,960
+ So you see here you have a branch or exact directly output here.
+
+1208
+02:23:56,960 --> 02:23:57,960
+ You use this value.
+
+1209
+02:23:58,960 --> 02:24:00,960
+ Okay and then the jet transform and so on.
+
+1210
+02:24:01,960 --> 02:24:04,960
+ And then this one is what I derived earlier.
+
+1211
+02:24:04,960 --> 02:24:05,960
+ Very similar.
+
+1212
+02:24:06,960 --> 02:24:11,960
+ But you don't need to or not test the true of that.
+
+1213
+02:24:12,960 --> 02:24:15,960
+ Additional just let you know how you derived that.
+
+1214
+02:24:16,960 --> 02:24:25,960
+ So p state, native filter this is important to know the equation, the retouching.
+
+1215
+02:24:26,960 --> 02:24:29,960
+ And then how to convert these two set of coefficient.
+
+1216
+02:24:29,960 --> 02:24:34,960
+ Then you need to remember how to follow the example here.
+
+1217
+02:24:35,960 --> 02:24:36,960
+ Okay.
+
+1218
+02:24:37,960 --> 02:24:42,960
+ How this back work related to forward linear prediction.
+
+1219
+02:24:43,960 --> 02:24:51,960
+ Very similar you just reverse and this coefficient relationship with that.
+
+1220
+02:24:54,960 --> 02:24:56,960
+ Minimum yeah this back work.
+
+1221
+02:24:56,960 --> 02:25:02,960
+ And then the relation with that you apply to AR process in particular.
+
+1222
+02:25:03,960 --> 02:25:06,960
+ You get a simpler Euler work equation.
+
+1223
+02:25:07,960 --> 02:25:12,960
+ I think this part need to know how to calculate how to.
+
+1224
+02:25:13,960 --> 02:25:16,960
+ Usually it's one goal for very high order.
+
+1225
+02:25:17,960 --> 02:25:18,960
+ There's a lower order of here.
+
+1226
+02:25:18,960 --> 02:25:20,960
+ To solution.
+
+1227
+02:25:21,960 --> 02:25:25,960
+ So this you can use the Euler work equation.
+
+1228
+02:25:26,960 --> 02:25:29,960
+ And convert to magic form.
+
+1229
+02:25:30,960 --> 02:25:31,960
+ Okay I think this part.
+
+1230
+02:25:32,960 --> 02:25:37,960
+ Living soon to bring everything and here we can skip.
+
+1231
+02:25:38,960 --> 02:25:40,960
+ I think a big T here.
+
+1232
+02:25:41,960 --> 02:25:43,960
+ So this part you can skip.
+
+1233
+02:25:43,960 --> 02:25:46,960
+ For winner filter we just discussed.
+
+1234
+02:25:47,960 --> 02:25:55,960
+ We only winner filter we only apply up to FIR winner filter.
+
+1235
+02:25:56,960 --> 02:25:58,960
+ Not the IR filter.
+
+1236
+02:25:59,960 --> 02:26:04,960
+ So I think I don't also generality principle.
+
+1237
+02:26:05,960 --> 02:26:10,960
+ I think we're not including to the past here.
+
+1238
+02:26:10,960 --> 02:26:21,960
+ So yeah so the quiz for this chapter 2 will be up to here.
+
+1239
+02:26:22,960 --> 02:26:28,960
+ So you can skip this from also generality principle.
+
+1240
+02:26:29,960 --> 02:26:34,960
+ So I think that's give you a rough scope.
+
+1241
+02:26:34,960 --> 02:26:40,960
+ Instead of discussing a very small part of the next chapter.
+
+1242
+02:26:41,960 --> 02:26:45,960
+ So next week I will continue the chapter 3.
+
+1243
+02:26:46,960 --> 02:26:52,960
+ And at the same time you can prepare for the quiz for week 12.
+
+1244
+02:26:53,960 --> 02:26:55,960
+ So next week is week 11 only.
+
+1245
+02:26:56,960 --> 02:26:58,960
+ Okay so yeah.
+
+1246
+02:26:58,960 --> 02:27:05,960
+ So I hope you are okay with the progress.
+
+1247
+02:27:06,960 --> 02:27:10,960
+ And every week we just discuss the part of it.
+
+1248
+02:27:11,960 --> 02:27:15,960
+ Not too many material together.
+
+1249
+02:27:16,960 --> 02:27:21,960
+ Okay so I think it's about the time to end here.
+
+1250
+02:27:22,960 --> 02:27:23,960
+ Usually you try to end about 9 p.m.
+
+1251
+02:27:23,960 --> 02:27:29,960
+ See you next week.
+
+1252
+02:27:30,960 --> 02:27:32,960
+ If you have question you can stay back here.
+
+1253
+02:27:53,960 --> 02:27:55,960
+ Thank you.
+
+1254
+02:28:23,960 --> 02:28:26,960
+ Thank you.
+
+1255
+02:28:53,960 --> 02:28:55,960
+ Thank you.
+
+1256
+02:29:23,960 --> 02:29:25,960
+ Thank you.
+
+1257
+02:29:53,960 --> 02:29:55,960
+ Thank you.
+
+1258
+02:30:23,960 --> 02:30:25,960
+ Thank you.
+
+1259
+02:30:53,960 --> 02:30:55,960
+ Thank you.
+
+1260
+02:31:23,960 --> 02:31:25,960
+ Thank you.
+
+1261
+02:31:53,960 --> 02:31:55,960
+ Thank you.
+
+1262
+02:32:23,960 --> 02:32:25,960
+ Thank you.
+
+1263
+02:32:53,960 --> 02:32:55,960
+ Thank you.
+
+1264
+02:33:23,960 --> 02:33:25,960
+ Thank you.
+
+1265
+02:33:53,960 --> 02:33:55,960
+ Thank you.
+
+1266
+02:34:23,960 --> 02:34:25,960
+ Thank you.
+
+1267
+02:34:53,960 --> 02:34:55,960
+ Thank you.
+
+1268
+02:35:23,960 --> 02:35:25,960
+ Thank you.
+
+1269
+02:35:53,960 --> 02:35:55,960
+ Thank you.
+
+1270
+02:36:23,960 --> 02:36:25,960
+ Thank you.
+
+1271
+02:36:53,960 --> 02:36:55,960
+ Thank you.
+
+1272
+02:37:23,960 --> 02:37:25,960
+ Thank you.
+
+1273
+02:37:53,960 --> 02:37:55,960
+ Thank you.
+
+1274
+02:38:23,960 --> 02:38:25,960
+ Thank you.
+
+1275
+02:38:53,960 --> 02:38:55,960
+ Thank you.
+
+1276
+02:39:23,960 --> 02:39:25,960
+ Thank you.
+
+1277
+02:39:53,960 --> 02:39:55,960
+ Thank you.
+
+1278
+02:40:23,960 --> 02:40:25,960
+ Thank you.
+
+1279
+02:40:53,960 --> 02:40:55,960
+ Thank you.
+
+1280
+02:41:23,960 --> 02:41:25,960
+ Thank you.
+
+1281
+02:41:53,960 --> 02:41:55,960
+ Thank you.
+
+1282
+02:42:23,960 --> 02:42:25,960
+ Thank you.
+
+1283
+02:42:53,960 --> 02:42:55,960
+ Thank you.
+
+1284
+02:43:23,960 --> 02:43:25,960
+ Thank you.
+
+1285
+02:43:53,960 --> 02:43:55,960
+ Thank you.
+
+1286
+02:44:23,960 --> 02:44:25,960
+ Thank you.
+
+1287
+02:44:53,960 --> 02:44:55,960
+ Thank you.
+
+1288
+02:45:23,960 --> 02:45:25,960
+ Thank you.
+
+1289
+02:45:53,960 --> 02:45:55,960
+ Thank you.
+
+1290
+02:46:23,960 --> 02:46:25,960
+ Thank you.
+
+1291
+02:46:53,960 --> 02:46:55,960
+ Thank you.
+
+1292
+02:47:23,960 --> 02:47:25,960
+ Thank you.
+
+1293
+02:47:53,960 --> 02:47:55,960
+ Thank you.
+
+1294
+02:48:23,960 --> 02:48:25,960
+ Thank you.
+
+1295
+02:48:53,960 --> 02:48:55,960
+ Thank you.
+
+1296
+02:49:23,960 --> 02:49:25,960
+ Thank you.
+
+1297
+02:49:53,960 --> 02:49:55,960
+ Thank you.
+
+1298
+02:50:23,960 --> 02:50:25,960
+ Thank you.
+
+1299
+02:50:53,960 --> 02:50:55,960
+ Thank you.
+
+1300
+02:51:23,960 --> 02:51:25,960
+ Thank you.
+
+1301
+02:51:53,960 --> 02:51:55,960
+ Thank you.
+
+1302
+02:52:23,960 --> 02:52:25,960
+ Thank you.
+
+1303
+02:52:53,960 --> 02:52:55,960
+ Thank you.
+
+1304
+02:53:23,960 --> 02:53:25,960
+ Thank you.
+
+1305
+02:53:53,960 --> 02:53:55,960
+ Thank you.
+
+1306
+02:54:23,960 --> 02:54:25,960
+ Thank you.
+
+1307
+02:54:53,960 --> 02:54:55,960
+ Thank you.
+
+1308
+02:55:23,960 --> 02:55:25,960
+ Thank you.
+
+1309
+02:55:53,960 --> 02:55:55,960
+ Thank you.
+
+1310
+02:56:23,960 --> 02:56:25,960
+ Thank you.
+
+1311
+02:56:53,960 --> 02:56:55,960
+ Thank you.
+
+1312
+02:57:23,960 --> 02:57:25,960
+ Thank you.
+
+1313
+02:57:53,960 --> 02:57:55,960
+ Thank you.
+
+1314
+02:58:23,960 --> 02:58:25,960
+ Thank you.
+
+1315
+02:58:53,960 --> 02:58:55,960
+ Thank you.
+
+1316
+02:59:23,960 --> 02:59:25,960
+ Thank you.
+
+1317
+02:59:53,960 --> 02:59:55,960
+ Thank you.
+

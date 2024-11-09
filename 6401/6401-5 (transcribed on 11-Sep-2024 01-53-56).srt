@@ -1,0 +1,4484 @@
+1
+00:00:00,000 --> 00:00:08,360
+ All right, let's start. So welcome back, and this is actually my lecture five, because this
+
+2
+00:00:08,360 --> 00:00:14,120
+ is actually lecture four, this is week five. So far, we have already finished all of the
+
+3
+00:00:14,120 --> 00:00:19,920
+ so-called review of the fundamentals of signal processing. If you remember, from week two
+
+4
+00:00:19,920 --> 00:00:27,400
+ to week four, we started by talking about representation of signals. DTFT, DFT, these
+
+5
+00:00:27,400 --> 00:00:33,320
+ are basically the method you can use to represent signals, not in time domain, but in the frequency
+
+6
+00:00:33,320 --> 00:00:38,239
+ domain. So you should be familiar with all of these transforms, inverse transforms, property
+
+7
+00:00:38,239 --> 00:00:42,720
+ of the transform spectrums, how to interpret the spectrums, and what are the basically
+
+8
+00:00:42,720 --> 00:00:49,160
+ problems, right? We talk about thumb-pulling theorem, aliasing properties, and that's why
+
+9
+00:00:49,160 --> 00:00:55,160
+ we say that in the actual signal processing pipeline, there was always the anti-aliasing
+
+10
+00:00:55,160 --> 00:01:00,160
+ filter, if you still remember, that's a low-pass filter before your sampling, right? There's
+
+11
+00:01:00,160 --> 00:01:05,280
+ also a reconstruction filtering, which is at the end, right? And later, we talk about
+
+12
+00:01:05,280 --> 00:01:11,960
+ the system, right? How can we represent a filter in frequency domain, in time domain?
+
+13
+00:01:11,960 --> 00:01:16,720
+ We also mentioned that there are many ways to, and how can you convert one way to the
+
+14
+00:01:16,720 --> 00:01:22,960
+ other, right? Difference equation, impulse response, these are in time domain, spectrum
+
+15
+00:01:23,039 --> 00:01:27,679
+ response, and also Z-transform, right? These are in the frequency domain. We also look
+
+16
+00:01:27,679 --> 00:01:33,559
+ at why certain representation is better, and last week, we also talked a little bit about
+
+17
+00:01:33,559 --> 00:01:37,679
+ the filter design, right? So I actually decided to simplify that part. So windowing method
+
+18
+00:01:37,679 --> 00:01:41,560
+ is the only method you need to know. You forget about other, you know, more complicated method
+
+19
+00:01:41,560 --> 00:01:47,199
+ because that's not the focus, right? But starting from today, you will see completely new content,
+
+20
+00:01:47,199 --> 00:01:50,679
+ all right? So I don't know how many of you may, some of you may learn this multi-array
+
+21
+00:01:50,720 --> 00:01:56,040
+ processing, but it will be new to most of you, all right? So I'm going to kind of slow
+
+22
+00:01:56,040 --> 00:02:00,960
+ down a little bit and make sure all of us understand, you know, starting from basic things to more
+
+23
+00:02:00,960 --> 00:02:06,000
+ advanced things, right? And the same principle, if you have any question, all right, raise
+
+24
+00:02:06,000 --> 00:02:10,360
+ your hand, I'm happy you entrust me. So I can also share the question to other students,
+
+25
+00:02:10,360 --> 00:02:15,440
+ right? So make sure everybody understands everything, all right? So starting from today,
+
+26
+00:02:15,440 --> 00:02:20,000
+ we're going to look at this topic of multi-array signal processing. When we talk about the
+
+27
+00:02:20,000 --> 00:02:25,000
+ rate, right, when we talk about how fast the signal can be processed or how fast the signal
+
+28
+00:02:25,000 --> 00:02:30,520
+ is represented, right? So we already have, you know, you should have something related to it,
+
+29
+00:02:30,520 --> 00:02:36,320
+ if you remember, like in the sampling theorem part, we say there is a sampling rate that we
+
+30
+00:02:36,320 --> 00:02:42,000
+ need to satisfy, right? The Nyquist rate, we still remember. And some of the sampling can be
+
+31
+00:02:42,000 --> 00:02:47,720
+ faster, some of them can be slower, right? So this sampling rate is actually the rate we're
+
+32
+00:02:47,760 --> 00:02:54,480
+ talking about, right? But if you remember, in the fundamental part, every time we sample the
+
+33
+00:02:54,480 --> 00:03:00,120
+ signals, we won't change the rate anymore, right? All of this filtering, all of this, you know,
+
+34
+00:03:00,120 --> 00:03:06,079
+ processing, they will not change the sampling rate, right? If you remember, I say once you
+
+35
+00:03:06,079 --> 00:03:11,000
+ sample, you cannot change that F, Ft, right? The only thing you change is like, you know,
+
+36
+00:03:11,000 --> 00:03:15,160
+ zero paddings, you can make more zeros, but you won't really change the rate in the beginning.
+
+37
+00:03:15,400 --> 00:03:22,600
+ So, but now I'm telling you that actually sometimes it's possible and also it's necessary to change
+
+38
+00:03:22,600 --> 00:03:27,400
+ the rate when you process the signal, right? And today we're going to learn why, I mean,
+
+39
+00:03:27,400 --> 00:03:32,079
+ in the first place, why we need to do it. And then what is this multirate signal processing,
+
+40
+00:03:32,079 --> 00:03:36,960
+ right? This is actually the part one today. So we all learned this, right? Fundamental
+
+41
+00:03:36,960 --> 00:03:42,359
+ concept in DSP, you need to basically make sure your sampling rate, this is Nyquist condition,
+
+42
+00:03:42,920 --> 00:03:49,640
+ will be, need to be larger or equal to two times your maximum frequency bandwidth of your signal,
+
+43
+00:03:49,640 --> 00:03:54,280
+ right? This is the necessary condition to avoid distortion, right? In other words, aliasing,
+
+44
+00:03:54,280 --> 00:04:00,600
+ right, to avoid that. So, and of course, you cannot make your sampling rate super high because you
+
+45
+00:04:00,600 --> 00:04:05,960
+ have to pay the addition, accordingly, the computational cost, right? So basically, you need
+
+46
+00:04:05,960 --> 00:04:11,880
+ to find a suitable rate, which is kind of a tradeoff between computational efficiency and also
+
+47
+00:04:11,960 --> 00:04:17,399
+ avoid of the distortion. In other words, make sure there's enough accuracy of your processing
+
+48
+00:04:17,399 --> 00:04:22,920
+ system, right? So this is actually the design or the philosophy we actually need to follow
+
+49
+00:04:22,920 --> 00:04:29,640
+ based on the sampling theory, right? But, you know, in practice, right, this sampling rate,
+
+50
+00:04:30,440 --> 00:04:35,800
+ well, first of all, the input rate of many different applications can be, has been already
+
+51
+00:04:35,800 --> 00:04:40,920
+ predefined, right? For example, if you have a sensor or you have some kind of a receiver, right?
+
+52
+00:04:40,920 --> 00:04:47,800
+ They may already predefined or predetermined the sampling rate for you for specific input.
+
+53
+00:04:49,160 --> 00:04:54,600
+ But sometimes, right, a different sampling rate will also be needed, right? For example,
+
+54
+00:04:54,600 --> 00:05:00,680
+ in your processor or maybe at output side, determined by those functional blocks of your system,
+
+55
+00:05:00,680 --> 00:05:06,680
+ right? So there could be a mismatch comparing your input sampling rate, signal rate, or
+
+56
+00:05:06,680 --> 00:05:10,600
+ comparing to your processing rate, right? So there could be a mismatch. I mean, this is one
+
+57
+00:05:10,600 --> 00:05:16,360
+ example, like, I don't know for this generation, how many of you have listened to a CD, but for
+
+58
+00:05:16,360 --> 00:05:24,440
+ my generation, we do play CD when we were a child. And you know that for CD, right, there's a sampling
+
+59
+00:05:24,440 --> 00:05:29,880
+ rate, which is 44 kilohertz. But if you talk about the radio frequency for broadcasting, it's
+
+60
+00:05:29,880 --> 00:05:35,400
+ actually lower, right? 32 kilohertz. You know, digital radio tape, it's another kind of, you know,
+
+61
+00:05:35,400 --> 00:05:40,679
+ frequency, which is 48 kilohertz. So even though all of them are sound, are acoustic signals,
+
+62
+00:05:40,679 --> 00:05:47,080
+ right? The actual rate are different. But in practice, for example, you want to design a
+
+63
+00:05:47,080 --> 00:05:53,239
+ hi-fi system, you may need to unify them, right, in one system. So this is one example to show that
+
+64
+00:05:53,239 --> 00:05:58,760
+ you may need to handle different data source or signal source with different rates, but eventually
+
+65
+00:05:58,760 --> 00:06:03,560
+ you want to handle them in one system, right? So this is one of the scenarios that you have to
+
+66
+00:06:04,280 --> 00:06:09,640
+ convert them into one rate rather than working in different rates, right? So this is actually one
+
+67
+00:06:09,640 --> 00:06:16,040
+ of the scenarios that why multi-ray signal processing is needed, is based on the facts, right, in the
+
+68
+00:06:16,040 --> 00:06:25,720
+ actual system. So, you know, yeah, this is actually another example where your bandwidth of low pass
+
+69
+00:06:25,720 --> 00:06:32,760
+ filter, right? So imagine this is your input signal, where as you can see that the frequency, maximum
+
+70
+00:06:32,760 --> 00:06:37,800
+ frequency is pretty high, right? It's already reached, you know, fs divided by two, but no pass
+
+71
+00:06:37,800 --> 00:06:43,800
+ filter, right, could give you a cutoff frequency that is smaller than the W, right? The original,
+
+72
+00:06:44,840 --> 00:06:51,719
+ you know, I mean bandwidth. So it is possible that other processing system after the filter
+
+73
+00:06:52,280 --> 00:06:57,560
+ may use a smaller sampling frequency, right? For example, if you want to have some full-load
+
+74
+00:06:57,640 --> 00:07:03,560
+ processing, they may give you an even lower kind of a sampling frequency. So in this case,
+
+75
+00:07:04,120 --> 00:07:09,320
+ you are going to work on different kind of rates along the system, even for the same input signal,
+
+76
+00:07:09,320 --> 00:07:14,520
+ right? It depends on how many kind of a model you have in the processing pipeline. So as a
+
+77
+00:07:14,520 --> 00:07:21,080
+ designer, you need to think about how to effectively reduce the overall computational complex, right,
+
+78
+00:07:21,080 --> 00:07:27,160
+ throughout the whole system, right, to kind of, by using a suitable sampling frequency to,
+
+79
+00:07:27,160 --> 00:07:32,600
+ for not only the application, but also the other processing applications, right? So this is actually
+
+80
+00:07:32,600 --> 00:07:37,560
+ another motivation that even for a single source of signal, depends on the fact that there could
+
+81
+00:07:37,560 --> 00:07:44,760
+ be multiple processing stages in the pipeline, and then we have to unify the rate required by
+
+82
+00:07:44,760 --> 00:07:49,320
+ different modules in the processing pipeline, right? But how to do it? This is another kind of a
+
+83
+00:07:49,320 --> 00:07:55,560
+ question, right, to do it. And in general, right, basically this multi-read signal processing is
+
+84
+00:07:55,560 --> 00:08:02,200
+ kind of a frequently used even in the same system, and the deal with different rates, in other words,
+
+85
+00:08:02,200 --> 00:08:08,920
+ to minimize the overall complexity to achieve a susceptible performance, right? And this process,
+
+86
+00:08:08,920 --> 00:08:16,040
+ I mean, the process of converting the signal, let's say from the given sampling rate to another,
+
+87
+00:08:16,040 --> 00:08:21,640
+ right? So let's say you are started by a rate, let's say, F A, you want to convert it to F B,
+
+88
+00:08:21,719 --> 00:08:28,039
+ right? This conversion process is referred as sampling rate conversion, okay? So this is not
+
+89
+00:08:28,039 --> 00:08:34,280
+ like sampling, okay, let me just clarify that. This sampling we learned in the first lecture is to
+
+90
+00:08:34,280 --> 00:08:40,360
+ convert an analog signal to a digital signal, right? Just one rate, you only get one rate
+
+91
+00:08:41,080 --> 00:08:46,680
+ from analog to digital. That rate, sampling rate, will be the rate of your output digital signal,
+
+92
+00:08:46,680 --> 00:08:52,439
+ right? So here, we're not talking about analog signal, it's actually from digital to digital,
+
+93
+00:08:52,439 --> 00:08:57,560
+ all right, discrete signal to discrete signal. But the rate has been changed, all right, the
+
+94
+00:08:57,560 --> 00:09:02,760
+ sampling rate has been changed. So the conversion here, so called sampling rate conversion, is to
+
+95
+00:09:02,760 --> 00:09:09,560
+ take a discrete signal with a specific rate and output another discrete signal with a different
+
+96
+00:09:09,560 --> 00:09:14,199
+ rate, right? So this is actually what we call sampling rate conversion, right? This is different
+
+97
+00:09:14,200 --> 00:09:22,040
+ from sampling, all right? And if you have a system involving or using multiple processing or
+
+98
+00:09:22,040 --> 00:09:28,280
+ sampling rate, you can call this system a multirate digital signal processing system, right? So basically
+
+99
+00:09:28,280 --> 00:09:33,400
+ what we experienced so far, right, before this lecture, all of the system we talked about before
+
+100
+00:09:33,400 --> 00:09:38,120
+ this lecture are single rate system, right? We haven't talked about multirate, but later you will
+
+101
+00:09:38,120 --> 00:09:43,800
+ see what can be different if we move on to a multirate signal processing system, right? But
+
+102
+00:09:43,800 --> 00:09:49,400
+ as long as you involve this multiple rates, it's qualified for a multirate system, all right?
+
+103
+00:09:50,280 --> 00:09:57,560
+ So, yeah, so actually, right, so basically sampling, this sampling rate conversion can also be
+
+104
+00:09:57,560 --> 00:10:03,640
+ realized by passing a digital signal, passing a signal through a DA converter, right? Because later
+
+105
+00:10:03,640 --> 00:10:08,040
+ you will see that actually the main components are very similar, right? Even though the definition
+
+106
+00:10:08,040 --> 00:10:16,680
+ of them is different, right? And so basically if we can do this sampling rate conversion,
+
+107
+00:10:16,680 --> 00:10:23,079
+ which is normally required in a complex digital signal processing system, the conversion is better
+
+108
+00:10:23,079 --> 00:10:29,000
+ performed in the digital domain, right, for better performance, and then you can lead to less cost of
+
+109
+00:10:29,000 --> 00:10:34,040
+ computational efficiency, right, sorry, less cost of computational, right? So this is actually the
+
+110
+00:10:34,040 --> 00:10:41,800
+ reason. So here's one single example, right, illustrates how the, you know, basically the
+
+111
+00:10:41,800 --> 00:10:47,800
+ requirement for sampling rate conversion, right? So as we see, all of the single rate we have learned
+
+112
+00:10:47,800 --> 00:10:53,800
+ so far, I mean, before this lecture, we always assume that the signal processing system is actually a
+
+113
+00:10:54,439 --> 00:10:59,800
+ LTI system, right? If you remember what is LTI, we say we can assume that the system is linear,
+
+114
+00:11:00,359 --> 00:11:10,040
+ time-invariant, right? And that was the single rate. But today you will see that after having this
+
+115
+00:11:10,040 --> 00:11:16,280
+ rate conversion system, right? The system we have will no longer be time-invariant, okay? So later
+
+116
+00:11:16,280 --> 00:11:21,479
+ you will see the difference, right? But in fact, when is this sampling rate conversion system in
+
+117
+00:11:21,479 --> 00:11:28,839
+ there, you will have a time-variant system. In other words, if you're, for example, you get an input XT
+
+118
+00:11:29,720 --> 00:11:36,440
+ and output YT, right? Now you shift your XT, let's say, to two seconds, right? You do XT,
+
+119
+00:11:36,440 --> 00:11:43,240
+ say, plus two. You will not necessarily have YXT plus two, right? So because this kind of system
+
+120
+00:11:43,240 --> 00:11:49,320
+ will not be the same if you have some time delay, right? I mean, this was the property before,
+
+121
+00:11:49,320 --> 00:11:54,920
+ right, before this week, but it's no longer the property. So bear in mind that having this
+
+122
+00:11:54,920 --> 00:11:59,959
+ conversion system will make the system still linear, but not time-invariant. It's going to be
+
+123
+00:11:59,959 --> 00:12:08,839
+ time-variant, all right? So you can consider that you have input XN, which initially was the rate
+
+124
+00:12:08,839 --> 00:12:16,599
+ FX, right? And then after that, you will have a YM with a different rate, which let's say FY, right?
+
+125
+00:12:16,599 --> 00:12:22,360
+ So apparently there will be a rate change. But of course, they are actually talking about the same
+
+126
+00:12:22,360 --> 00:12:28,040
+ actually signal in the analog domain, right? Just like different way of sampling that. So you can
+
+127
+00:12:28,040 --> 00:12:35,560
+ imagine that a rate, which is actually FX, well, corresponding to the, let's say the XN here,
+
+128
+00:12:35,560 --> 00:12:42,600
+ XN plus one, XN plus two. So something like the, I don't know if you can see this, but the line that
+
+129
+00:12:42,600 --> 00:12:49,000
+ is thinner, right? So maybe I use a pointer to do this, right? So this is corresponding to your XN
+
+130
+00:12:49,720 --> 00:12:55,480
+ and this is actually, sorry, XN plus one is here, XN plus two is actually here, right? So basically
+
+131
+00:12:55,480 --> 00:13:03,640
+ you will have those thin line, which is actually a sampled version as the FX, right? So in other
+
+132
+00:13:03,640 --> 00:13:10,440
+ words, your TX will be larger, right? But the same kind of envelope, you can sample that in the FY
+
+133
+00:13:10,440 --> 00:13:16,840
+ rate, which you end up with the thicker line, right? This is actually the sampled signals
+
+134
+00:13:17,000 --> 00:13:24,520
+ related, referred as the YM here. So basically changing the rate is nothing but changing the
+
+135
+00:13:24,520 --> 00:13:30,120
+ sampling points, right? You can either sample the signal with like a more, like a denser point,
+
+136
+00:13:30,120 --> 00:13:35,160
+ or you can sample the signal with a sparser point, right? This is actually the difference.
+
+137
+00:13:35,160 --> 00:13:41,320
+ So you can consider the output YM as an estimated version from the XN, right? So of course, you
+
+138
+00:13:41,320 --> 00:13:46,840
+ don't have this envelope, but you can estimate the YM in the best way, right? You can use that,
+
+139
+00:13:46,840 --> 00:13:54,680
+ treat it as an estimation of the X, right? And of course, this YM and XN will use different
+
+140
+00:13:54,680 --> 00:14:02,040
+ time indices. So the N and M will have different kind of interval in time, right? So later you
+
+141
+00:14:02,040 --> 00:14:06,040
+ will see that this is actually very important. So later you will see no matter, it's in the
+
+142
+00:14:06,040 --> 00:14:11,719
+ frequency domain or time domain, once you do the rate conversion, you have to be very careful about
+
+143
+00:14:11,719 --> 00:14:17,160
+ indexing system, because the indexing system will change, right? And you must be very clear about,
+
+144
+00:14:17,160 --> 00:14:22,680
+ we're talking about closer indexing or finer indexing, all right? So later you will, but you
+
+145
+00:14:22,680 --> 00:14:28,199
+ know, bear this in mind, right? These are something could be changed, all right? And I think I already
+
+146
+00:14:28,199 --> 00:14:32,920
+ mentioned something, right? So this system with the time, you know, rate conversion will be time
+
+147
+00:14:32,920 --> 00:14:40,280
+ variant, right? In other words, the system will provide a flat response and the time delay TI for
+
+148
+00:14:40,280 --> 00:14:47,160
+ the isompole of XN, right? So in particular, if this delay is the time variant for the same I,
+
+149
+00:14:47,160 --> 00:14:54,439
+ right? Which means the future is actually time variant, right? So basically this is actually
+
+150
+00:14:55,000 --> 00:15:02,199
+ the thing will happen, right? But of course, using this rate conversion, end up with a multi-rate
+
+151
+00:15:02,200 --> 00:15:07,800
+ processing where also enjoy some merits, some advantages. For example, you can, if you design
+
+152
+00:15:07,800 --> 00:15:13,480
+ a system in a good way, you can actually have less computational requirements, right? And also
+
+153
+00:15:13,480 --> 00:15:20,120
+ sometimes less storage for the future coefficients and his signal histories. They can give you a
+
+154
+00:15:20,120 --> 00:15:26,120
+ fewer, lower order of future design, right? So last time we say that we actually care about the
+
+155
+00:15:26,120 --> 00:15:32,120
+ order of your FIR, right? So the few order means actually few computational requirements for
+
+156
+00:15:32,120 --> 00:15:37,400
+ filtering. So it's possible to actually lower the order of the filter by carefully design this rate
+
+157
+00:15:37,400 --> 00:15:44,920
+ conversion. So basically these are the merits of them. And so these are the advantages,
+
+158
+00:15:46,040 --> 00:15:49,800
+ something you gain, right? These are something you enjoy, but you also have to pay the price
+
+159
+00:15:50,439 --> 00:15:55,319
+ for this introducing this additional complexity of doing this rate conversion.
+
+160
+00:15:55,319 --> 00:16:02,599
+ So in practice, as a designer, your job is to wait the two, right? So you look at, is this like
+
+161
+00:16:02,599 --> 00:16:09,719
+ something I gain, right? If I enjoy more benefits of doing this by paying less price for this
+
+162
+00:16:09,719 --> 00:16:14,920
+ additional complexity, that's actually a deal, right? You're not doing it. But if you pay a lot
+
+163
+00:16:15,000 --> 00:16:21,079
+ of price for introducing this complicated conversion, but while not gaining too much,
+
+164
+00:16:21,079 --> 00:16:25,319
+ then probably it's not a good way to go, right? So this is actually the logic when you trade off
+
+165
+00:16:25,319 --> 00:16:30,680
+ the two, right? You want to gain something in the overall sense, right? So basically, I mean,
+
+166
+00:16:30,680 --> 00:16:35,719
+ this gives you some idea like why we want to do this, right? What will happen when we have this
+
+167
+00:16:35,719 --> 00:16:40,040
+ rate conversion. But we haven't introduced anything specific, right? What's the principle of doing
+
+168
+00:16:40,040 --> 00:16:46,040
+ that? And what happens if you change the rate? So after that, right, this part, now we're going to
+
+169
+00:16:46,040 --> 00:16:54,120
+ learn basically some, how should I say, building blocks of designing a rate conversion system,
+
+170
+00:16:54,120 --> 00:17:00,920
+ all right? So we started by looking at changing the frequency by a factor of integers. So in other
+
+171
+00:17:00,920 --> 00:17:07,639
+ words, when you change the rate, in principle, you can do, let's say, 0.3 times, right? Maybe 0.4
+
+172
+00:17:07,640 --> 00:17:12,760
+ times. Later we're going to learn how to do it. But let's start it by thinking about integer
+
+173
+00:17:12,760 --> 00:17:19,640
+ number of rate change. So in other words, how about up sampling by two or down sampling by three,
+
+174
+00:17:19,640 --> 00:17:26,200
+ right? So we started by doing the up sampling, down sampling with integer number of multipliers,
+
+175
+00:17:26,200 --> 00:17:32,120
+ all right? So let's start it by so-called interpolation. Okay, so how many of you heard of the term
+
+176
+00:17:32,199 --> 00:17:36,360
+ interpolation? Chopin, how many of you heard of the term interpolation anywhere?
+
+177
+00:17:38,439 --> 00:17:44,439
+ No? Okay, so I mean, for example, when you do, when you see a picture, right, in computer,
+
+178
+00:17:45,320 --> 00:17:51,639
+ you are trying to enlarge the image, right? Basically you're showing the image with more pixels.
+
+179
+00:17:52,679 --> 00:17:57,959
+ What actually does by computer is actually interpolation. You are basically rendering the
+
+180
+00:17:58,040 --> 00:18:03,720
+ same image with more samples, right? But interpolation, okay, this is very important.
+
+181
+00:18:03,720 --> 00:18:11,080
+ Interpolation is not just equivalent to up sampling, okay? Interpolation is based by up
+
+182
+00:18:11,080 --> 00:18:17,000
+ sampling, but interpolation is not equal to up sampling, all right? So this is a common
+
+183
+00:18:17,000 --> 00:18:21,720
+ misunderstanding. So later, here we're going to see what happens here, right? So like I mentioned,
+
+184
+00:18:21,720 --> 00:18:27,400
+ right? Interpolation is based on the up sampling process. So up sampling is very easy to understand,
+
+185
+00:18:27,400 --> 00:18:33,640
+ right? You first have, let's say, two samples, but you want to generate maybe four samples representing
+
+186
+00:18:33,640 --> 00:18:39,640
+ the similar signals, right? Going from a fewer sample to more samples. Or in other words, you
+
+187
+00:18:39,640 --> 00:18:45,880
+ want to sample the signal with more, how to say, denser steps, right? Or maybe finer scales. This
+
+188
+00:18:45,880 --> 00:18:52,520
+ is actually up sampling process. So if you have up sampling process, the, we're normally, okay,
+
+189
+00:18:52,520 --> 00:18:58,520
+ we normally use this symbol to denote up sampling, like an upward arrow, right? So from this course,
+
+190
+00:18:58,520 --> 00:19:02,920
+ every time you see upward arrow, it means up sampling, okay? It's a convention we're going
+
+191
+00:19:02,920 --> 00:19:09,720
+ to use for this course. And normally there will be a number beside it, okay? Let's say two or three,
+
+192
+00:19:09,720 --> 00:19:15,480
+ this describes the ratio, right? How many times you want to do up sampling, all right? If it's two,
+
+193
+00:19:15,480 --> 00:19:21,240
+ it means goes from, let's say, I don't know, like let's say one hertz to two hertz, right?
+
+194
+00:19:21,240 --> 00:19:26,200
+ One kilohertz to two kilohertz. So this is actually the ratio. So we always use this to describe
+
+195
+00:19:26,200 --> 00:19:32,600
+ up sampling. And when you say it's up sampling process, right, the idea is to increase the
+
+196
+00:19:32,600 --> 00:19:39,240
+ sampling rate by this number factor, all right? So illustratively, let's consider time domain
+
+197
+00:19:39,240 --> 00:19:44,920
+ representation of a signal, right? This is your original signal. Apparently you have how many? Like
+
+198
+00:19:44,920 --> 00:19:53,480
+ one, two, three, four, let's say five, right? Samples within this interval, right? But this is
+
+199
+00:19:53,480 --> 00:19:59,400
+ the original rate. Now, if I want to do up sampling, let's say here is up sampling of three times.
+
+200
+00:20:00,040 --> 00:20:05,320
+ What I have is to increase the number of sample by three times within the same time interval,
+
+201
+00:20:06,120 --> 00:20:11,720
+ all right? So in other words, you have to, for example, here make sure within this range,
+
+202
+00:20:11,720 --> 00:20:18,200
+ there are two more samples here, right? Again, here, every time when you measure one sample in
+
+203
+00:20:18,200 --> 00:20:25,320
+ the original XM, you have to measure three samples in the corresponding YM, right? So this is actually
+
+204
+00:20:25,320 --> 00:20:31,960
+ the literate, the literate meaning of up sampling. Increase number of sample within the same time
+
+205
+00:20:31,960 --> 00:20:40,280
+ interval by I times, right? Sample the signal in a dancer rate, okay? But this is not interpolation,
+
+206
+00:20:40,280 --> 00:20:45,879
+ right? This is only an up sampling. Let me make it very clear, right? Okay, then we're going to see
+
+207
+00:20:45,879 --> 00:20:51,800
+ what is missing here. But for up sampling, we need to use two numbers, two rates to describe the
+
+208
+00:20:51,800 --> 00:20:59,480
+ input and output. So FX refers to the rate of the input, FY refers to the rate of the output,
+
+209
+00:20:59,480 --> 00:21:05,480
+ right? And in other words, if this is an up sampling of I times, you will have the FY equal to
+
+210
+00:21:05,560 --> 00:21:12,120
+ I times FX, which is easy to understand, right? You increase the rate by I times. But most likely
+
+211
+00:21:12,120 --> 00:21:18,520
+ when you do interpolation, the input is already a discrete signal, right? Even if you want to
+
+212
+00:21:18,520 --> 00:21:23,560
+ sample that more frequently, you don't have information between two numbers, right? Two
+
+213
+00:21:23,560 --> 00:21:31,160
+ measurements. So as usual way people do is by feeding zeros between two successive values in your
+
+214
+00:21:31,240 --> 00:21:37,240
+ input, just like the way they do it here, right? So for example, if I have two adjacent measurements
+
+215
+00:21:37,240 --> 00:21:43,400
+ in my input, I want to get two more measurements, right? Sample by three times more. I have no choice
+
+216
+00:21:43,400 --> 00:21:49,080
+ because there's no measurements in my input. So I have to make them zero, right? Because that was
+
+217
+00:21:49,080 --> 00:21:55,560
+ off the grade measurements in my input. So basically, the up sampling process, if you
+
+218
+00:21:55,560 --> 00:22:04,440
+ want to represent it mathematically, right? Your output, Vm will be equal to, if your m is equal
+
+219
+00:22:04,440 --> 00:22:12,200
+ to the integer amount of I, right? You will equal, it will be equal to x, but index is m divided by
+
+220
+00:22:12,200 --> 00:22:21,080
+ I, okay? So think about why? Because here the m value will be selectively as the zero minus
+
+221
+00:22:21,080 --> 00:22:27,560
+ plus I, minus plus two I. So if these are the selected value, right? Divided by I, I'm going to get
+
+222
+00:22:27,560 --> 00:22:34,679
+ zero, one, two, three, four, right? Those are the measured numbers in my input. If the measurement
+
+223
+00:22:34,679 --> 00:22:42,360
+ is not equal to the integer multiple of I's, there will be zeros in the output. So this is the
+
+224
+00:22:42,360 --> 00:22:50,439
+ mathematical description in time domain of the output after up sampling by I time, okay?
+
+225
+00:22:51,479 --> 00:22:56,520
+ Should be easy to understand, right? Time domain. You just need to insert zeros between every two
+
+226
+00:22:56,520 --> 00:23:03,080
+ JSON measurements in the input. How many zeros depends on up sampling rate, all right? Okay,
+
+227
+00:23:03,080 --> 00:23:08,679
+ so bear in mind that, so today we're going to learn up sampling and down sampling, right? And
+
+228
+00:23:08,680 --> 00:23:15,240
+ corresponding up sampling will lead to interpolation, down sampling will lead to decimation. So for
+
+229
+00:23:15,240 --> 00:23:21,080
+ both of the four operators, right? Up sampling, down sampling, interpolation, decimation, you need to
+
+230
+00:23:21,080 --> 00:23:27,080
+ know first time domain what happened, right? So this is what happened in time domain for up
+
+231
+00:23:27,080 --> 00:23:33,880
+ sampling, all right? Also we need to know what happened in the frequency domain. So particularly
+
+232
+00:23:33,880 --> 00:23:40,280
+ for this part, Z-transform, okay? So bear in mind that you need to make sure you are familiar with
+
+233
+00:23:40,920 --> 00:23:47,960
+ what happened both in time domain and frequency domain as the Z-transform, all right? This is
+
+234
+00:23:47,960 --> 00:23:52,360
+ very important because later we're going to play the trick, right? How these two interact with each
+
+235
+00:23:52,360 --> 00:23:58,040
+ other. So you need to know both, all right? So this is the mathematical form for time domain
+
+236
+00:23:58,600 --> 00:24:07,960
+ representation of an up sampling operator by i times, okay? Make sense, everyone? Does it make
+
+237
+00:24:07,960 --> 00:24:15,000
+ sense? Okay, now, right, if we have the time domain representation, we can simply do a Z-transform to
+
+238
+00:24:15,000 --> 00:24:21,159
+ get the frequency domain representation, right? So I mean, I believe all of you can do Z-transform,
+
+239
+00:24:21,159 --> 00:24:26,040
+ so you just need to make sure Z-transform is applied to the left-hand side and right-hand side,
+
+240
+00:24:26,040 --> 00:24:30,840
+ right? So, sorry, no, not exactly, but I mean, yeah, left-hand side is very easy, but right-hand
+
+241
+00:24:30,840 --> 00:24:36,840
+ side you have to play with this ratio, right? But basically by definition Z-transform is defined
+
+242
+00:24:36,840 --> 00:24:42,200
+ as the, well, basically it's a DTFT but with the change of variables, right? So this is the
+
+243
+00:24:42,200 --> 00:24:49,960
+ original Z-transform, but we want to represent it as the Z-transform of X. So what you need to do is
+
+244
+00:24:49,960 --> 00:24:58,200
+ is you have to replace the Vm here with the X, all right? So how does this relate it? Well,
+
+245
+00:24:58,760 --> 00:25:06,680
+ this equation tells you, right? So Vm well equal to Xm divided by i only at time when m equal to
+
+246
+00:25:06,680 --> 00:25:12,840
+ these integers, all right? So in the summation, I think they kind of jumped one step, but in,
+
+247
+00:25:13,640 --> 00:25:17,560
+ you know, going from here, right, what you can do is you can directly substitute this guy
+
+248
+00:25:18,280 --> 00:25:26,120
+ into in here without changing the m, all right? But you see that there are many m give you zeros
+
+249
+00:25:26,840 --> 00:25:33,399
+ as the Vm, so you only select those which are non-zeros, okay? In this case, you can actually
+
+250
+00:25:33,399 --> 00:25:40,679
+ change the variable from m to the i times m, right? When you do, when you change the m to the i times m,
+
+251
+00:25:40,680 --> 00:25:47,880
+ you can get rid of this m divided by, right? As the Xm directly, correspondingly the exponential
+
+252
+00:25:47,880 --> 00:25:53,000
+ here will no longer be minus m, but it's going to be minus m times i. So there's a single kind of
+
+253
+00:25:53,000 --> 00:25:58,600
+ change of variables, it's a simple trick, all right? But basically, you can do that one more
+
+254
+00:25:58,600 --> 00:26:04,920
+ step further. I mean, I don't know if they can write something, but pen, okay, good. So what I'm
+
+255
+00:26:04,920 --> 00:26:14,360
+ talking about here is you can first stick to Xm divided by l, i, sorry, i, sorry, excuse my
+
+256
+00:26:14,360 --> 00:26:19,400
+ handwriting, it's very ugly, but you know, it's better than nothing. So originally it's this,
+
+257
+00:26:19,400 --> 00:26:24,440
+ okay? If you just substitute that, but what I'm doing here is I will assign the m to be
+
+258
+00:26:25,400 --> 00:26:36,600
+ i times m. Why I'm doing this? Because only when m equal to i times m, these Vm will be nonzero,
+
+259
+00:26:36,600 --> 00:26:42,120
+ right? Remember, this was the definition here, right? Multiple time of i, that will give you
+
+260
+00:26:42,120 --> 00:26:50,360
+ nonzero elements. Other Vm will be zero. Because of that, you can do a swap of variables and then
+
+261
+00:26:50,360 --> 00:26:56,439
+ once you substitute this guy in, i and i cancel. That's how you get Xm, right? And also this
+
+262
+00:26:56,439 --> 00:27:04,120
+ i m goes to index, this one gives you the m times i, right? Make sense? Well, if not, you can just
+
+263
+00:27:04,120 --> 00:27:09,000
+ change, let's say this is, you know, you can first do n if you want, right? If you think this is
+
+264
+00:27:09,000 --> 00:27:13,240
+ hard to imagine, so let's do n first and then change to m, right? It's just a dummy variable,
+
+265
+00:27:13,240 --> 00:27:16,600
+ right? It doesn't matter. But mathematically, this is the change that has been made here.
+
+266
+00:27:17,560 --> 00:27:22,040
+ How about other terms? How about those not equal to i times m? Well, there will be zero, right?
+
+267
+00:27:22,040 --> 00:27:25,399
+ There will be zero and they won't contribute to the summation. Okay?
+
+268
+00:27:28,679 --> 00:27:33,959
+ Make sense? Well, if not, you can ask me right afterward. But you can try this yourself. I think
+
+269
+00:27:33,959 --> 00:27:39,719
+ that's the best way you can learn it. But this is how you can get rid of the m divided by i.
+
+270
+00:27:39,800 --> 00:27:45,800
+ And if you look at this form, right? Apparently, this is a standard way of z-transform.
+
+271
+00:27:47,240 --> 00:27:54,280
+ Except that you are talking about a variable that is z to the i, right? If it's z to the i,
+
+272
+00:27:55,000 --> 00:28:00,040
+ you will make the standard form of z-transform, right? z-transform says the base must be z to
+
+273
+00:28:00,040 --> 00:28:06,680
+ power of minus m, all right? I just do another change of base function. Remember, we can change
+
+274
+00:28:06,680 --> 00:28:12,040
+ the base if you want, from omega to z, right? Right now, we're from z to z to the power of i, right?
+
+275
+00:28:13,400 --> 00:28:20,120
+ So to that end, you will have a z-transform, but the variable becomes z to the power of i, right?
+
+276
+00:28:20,120 --> 00:28:27,560
+ In other words, you are talking about a, how should I say, a faster rate of your z-transform,
+
+277
+00:28:27,560 --> 00:28:34,120
+ right? Because you do a power of i. Remember, z is equal to e to the power of minus j omega, right?
+
+278
+00:28:34,199 --> 00:28:38,520
+ Also, e to the power of j omega. If you have the omega times i, you are changing the rate of your
+
+279
+00:28:38,520 --> 00:28:49,159
+ frequency, right? Okay. Okay, so I just give you a rough derivation, but mathematically,
+
+280
+00:28:49,159 --> 00:28:53,239
+ you can actually verify it, right? You can sit down and write it. But there are two
+
+281
+00:28:53,239 --> 00:28:57,639
+ change of variables. If you are, if you can get it, right? So here from here, there's a change of
+
+282
+00:28:57,639 --> 00:29:01,399
+ variables. Here from here, there's another change of variables, right? But you need to keep this
+
+283
+00:29:01,480 --> 00:29:07,640
+ to in mind how they can end up with here, right? But remember, just now I say that this is actually
+
+284
+00:29:07,640 --> 00:29:14,520
+ the time domain representation of the ARP sampling. Okay, not interpolation, but just ARP sampling.
+
+285
+00:29:14,520 --> 00:29:21,480
+ All right. And this is actually the, oops, sorry, where's my mouse? This is actually the
+
+286
+00:29:21,480 --> 00:29:30,280
+ frequency relationship of the ARP sampling, right? So if you go from x to v by ARP sampling by i times,
+
+287
+00:29:30,840 --> 00:29:38,040
+ it is equivalent to change the rate from z to z, z to the power of i, right? You make the rate faster,
+
+288
+00:29:38,040 --> 00:29:45,399
+ basically. Okay, so you have to know the two, okay? Because we have to go and play, play around with
+
+289
+00:29:45,399 --> 00:29:49,639
+ the two sometimes in time domain, sometimes in frequency, right? But these are the two you need
+
+290
+00:29:49,639 --> 00:29:54,600
+ to know. Of course, you know, you can do a simple change from z to omega. I think everybody can do
+
+291
+00:29:54,600 --> 00:30:00,679
+ this, right? So if you do a change from z to omega, remember, what is the z, right? In the first
+
+292
+00:30:00,679 --> 00:30:09,240
+ place, z is equal to e to the power of j omega, all right? So if you have a z to the power of i,
+
+293
+00:30:09,959 --> 00:30:15,719
+ you are basically talking about e to the power of j omega i. So that's why they have it here, right?
+
+294
+00:30:15,800 --> 00:30:25,080
+ All right. Okay. So, okay, I don't want to get confused. That's why I strongly suggest you to
+
+295
+00:30:25,080 --> 00:30:30,680
+ write down this by yourself. You go through it one time, you will be more clear, basically, all
+
+296
+00:30:30,680 --> 00:30:35,480
+ right? But after a while, you should be, you know, you have to be familiar with that, all right?
+
+297
+00:30:35,480 --> 00:30:42,440
+ Simple math, but not very straightforward in the beginning, I would say. Okay. So I think 2.1,
+
+298
+00:30:42,440 --> 00:30:48,280
+ 2.2, 2.3, that's all you need for up-sampling, okay? You need to know them, and unless you want
+
+299
+00:30:48,280 --> 00:30:54,440
+ to derive it, you can memorize it if you want, right? Last but not least, besides knowing the
+
+300
+00:30:54,440 --> 00:31:01,000
+ mathematic equation from time, from frequency, one last thing I wish you to know is the visual
+
+301
+00:31:01,000 --> 00:31:06,280
+ representation, right? What happened in the spectrum visually? Okay, just now we say that,
+
+302
+00:31:06,280 --> 00:31:12,280
+ well, mathematically, right, just go from omega to omega i, right? But when you plot the spectrum,
+
+303
+00:31:12,440 --> 00:31:17,480
+ what happened? If you still remember, right, we say that in the sampling, we also talk about the
+
+304
+00:31:17,480 --> 00:31:21,960
+ spectrum, right? Visualize how the 80 is in, where the 80 is in come from. Still remember that?
+
+305
+00:31:21,960 --> 00:31:27,240
+ So here we're going to do the same thing, right? If you do up-sampling, what happened to the spectrum?
+
+306
+00:31:27,879 --> 00:31:34,600
+ So imagine that this is your original spectrum, x, okay? I mean, just some random drawing, right?
+
+307
+00:31:34,600 --> 00:31:41,960
+ So this is your x, and normally, like I said, we can just do a plot within 0 to 2 pi, right?
+
+308
+00:31:41,960 --> 00:31:49,160
+ Others will be just repeating, right? This is why you do DTFT. Now, if you do up-sampling,
+
+309
+00:31:49,160 --> 00:31:58,040
+ in this case, by 3, the spectrum of your v will be something like this. Okay, let's pose a little
+
+310
+00:31:58,040 --> 00:32:04,840
+ bit and look at what's the difference, all right? So from x to y, sorry, from x to v, apparently,
+
+311
+00:32:04,840 --> 00:32:10,680
+ you can say that the shape doesn't change, right? You still have the same waveform, all right? But
+
+312
+00:32:11,640 --> 00:32:16,600
+ the resolution of your frequency has been changed, right? So you can see that the force
+
+313
+00:32:17,480 --> 00:32:25,320
+ replicas here is actually 6 pi. Here is actually 2 pi, right? So we're talking about the same waveform,
+
+314
+00:32:25,320 --> 00:32:31,960
+ but we are actually shrinking, how should I say, am I shrinking it or expanding it? Like shrinking the
+
+315
+00:32:31,960 --> 00:32:40,920
+ x-axis, the horizontal axis from originally 6 pi to 6 pi divided by 3. So basically every
+
+316
+00:32:40,920 --> 00:32:46,600
+ frequency, right? For example, the center point here originally was 2 pi, after up-sampling will be
+
+317
+00:32:46,600 --> 00:32:53,480
+ 2 pi divided by 3, okay? So this is what actually happened. And for those who know function, right,
+
+318
+00:32:53,480 --> 00:32:58,280
+ this can be easily interpreted from here, you are multiplying the variable with i,
+
+319
+00:32:58,840 --> 00:33:04,520
+ correspondingly you are kind of shrinking the entire axis by i, right? So this is what happened
+
+320
+00:33:05,480 --> 00:33:12,120
+ for up-sampling, okay? Very simple. You up-sample by i times, you shrink your axis by i times,
+
+321
+00:33:12,920 --> 00:33:22,440
+ right? Okay? Make sense? Okay, now from here, I'm going to introduce you interpolation, okay? We
+
+322
+00:33:22,440 --> 00:33:29,240
+ haven't done interpolation yet, but up-sampling. Now this graph explains to you why up-sampling
+
+323
+00:33:29,240 --> 00:33:36,600
+ sometimes is not enough. We have to do something extra to make it interpolation, okay? So all the
+
+324
+00:33:36,600 --> 00:33:43,400
+ problem coming from the middle one here, right? Here, this guy and this guy. All right? Originally,
+
+325
+00:33:43,400 --> 00:33:48,200
+ I mentioned to you that most of the function, sorry, the discrete time signals, we just need to
+
+326
+00:33:48,200 --> 00:33:53,640
+ represent the waveform within 0 to 2 pi, right? This is where the baseband is talking about.
+
+327
+00:33:54,280 --> 00:34:01,240
+ Ideally, the baseband should capture just one waveform. So here, if you look at the 0 to 2 pi,
+
+328
+00:34:01,240 --> 00:34:07,080
+ they just form one kind of entire waveform, right? But after you do up-sampling,
+
+329
+00:34:07,720 --> 00:34:14,920
+ due to the fact that you are shrinking the axis between 0 to 2 pi, you can tell that here,
+
+330
+00:34:15,000 --> 00:34:21,960
+ within the baseband, you actually have three waveforms, right? You got two replicates or
+
+331
+00:34:21,960 --> 00:34:27,639
+ duplicates here. So these two duplicates are formed by shrinking the axis. You're kind of pushing
+
+332
+00:34:27,639 --> 00:34:34,280
+ them to the baseband, okay? I mean, here it looks okay, but the problem is that
+
+333
+00:34:34,920 --> 00:34:40,120
+ interpolation or up-sampling is not the only module in your system, right? So later, you may also do
+
+334
+00:34:40,120 --> 00:34:45,799
+ like down-sampling or other operations. So you want to get rid of these duplicates within the
+
+335
+00:34:45,799 --> 00:34:54,279
+ baseband and only keep just one entire waveform. To this end, you need to do something else to kill
+
+336
+00:34:54,279 --> 00:34:58,359
+ all of these images here. We call it images. We're going to kill this guy. You want to kill this guy.
+
+337
+00:34:58,920 --> 00:35:04,680
+ You don't want to have them because they are already represented here and here, right? Because
+
+338
+00:35:04,680 --> 00:35:10,040
+ they are just duplicates. So can anyone tell me if I want to kill the two images in here?
+
+339
+00:35:11,000 --> 00:35:12,359
+ What operations I need to do?
+
+340
+00:35:16,600 --> 00:35:21,240
+ So I have this as input, right? This is my input signal. I say, well, I don't like these two guys,
+
+341
+00:35:21,240 --> 00:35:25,319
+ right? These are just replicates. There's no information, right? I want to do something to
+
+342
+00:35:25,319 --> 00:35:32,680
+ the signal to kill all of the components here and here, only keep the baseband signals. So what
+
+343
+00:35:32,680 --> 00:35:38,680
+ operation I need to do here? Low pass filter, right? Low pass filter because all of the baseband are
+
+344
+00:35:38,680 --> 00:35:43,160
+ in the low frequency components. These are something in the higher frequency. I can kill them by
+
+345
+00:35:43,160 --> 00:35:50,040
+ simply doing a low pass filter. So exactly the interpolation we're talking about is actually
+
+346
+00:35:50,040 --> 00:35:56,279
+ a combination of an up sampling followed by a low pass filter. Okay. The sequence actually
+
+347
+00:35:56,279 --> 00:36:04,600
+ matter here. You have to do up sampling first, followed by a low pass filter. Together, these
+
+348
+00:36:04,600 --> 00:36:11,799
+ two things together is called interpolation. Because if you do interpolation, you are guaranteed to
+
+349
+00:36:11,799 --> 00:36:18,360
+ have things only relative to the baseband, right? You don't have images. They're duplicates, right?
+
+350
+00:36:18,360 --> 00:36:23,640
+ This is what interpolation want to do. If you only do up sampling, you will have images in between.
+
+351
+00:36:24,680 --> 00:36:32,600
+ Okay? So this is the difference. All right. And later you will see that for decimation, the order
+
+352
+00:36:32,600 --> 00:36:40,120
+ is the opposite. For interpolation, it's always first up sampling and then low pass filter.
+
+353
+00:36:40,680 --> 00:36:48,839
+ So basically, this is my input. The input is here. You are first up sampling to get V. So V is the
+
+354
+00:36:49,400 --> 00:36:55,560
+ scaled version with the images in between. So after you do this low pass filter, you will get the
+
+355
+00:36:55,560 --> 00:37:03,160
+ final output of your interpolation and the Y will have the shrink waveform without images, right?
+
+356
+00:37:03,160 --> 00:37:07,240
+ This is how the interpolation will give you, right? What the interpolation will give you.
+
+357
+00:37:09,000 --> 00:37:13,960
+ So of course, I mean, this filter, you have to make them somehow appropriate, right? You cannot
+
+358
+00:37:13,960 --> 00:37:20,360
+ do arbitrary low pass filter. So the low pass filter usually will have a color frequency around
+
+359
+00:37:20,440 --> 00:37:27,240
+ pi divided by i. Okay, this is important. So why? Because if you look at here, right, you want to
+
+360
+00:37:27,240 --> 00:37:33,240
+ choose a proper color frequency such that you don't really distort your baseband, right? Your
+
+361
+00:37:33,240 --> 00:37:41,560
+ baseband signal must be survived. And talking about the number of images, right, you are talking about
+
+362
+00:37:41,560 --> 00:37:48,280
+ dividing the entire 2 pi by three divisions, right? So in this case, your color frequency is
+
+363
+00:37:48,280 --> 00:37:57,000
+ something like pi divided by i in this case. So for an i-th time in up sampling, you must apply,
+
+364
+00:37:57,560 --> 00:38:04,200
+ or maybe you better apply, a low pass filter that is with color frequency between zero and pi divided
+
+365
+00:38:04,200 --> 00:38:10,200
+ by i. Right, so this i will be the up sampling factor. So together, this forms a good interpolation.
+
+366
+00:38:11,720 --> 00:38:15,880
+ All right, of course, this is ideal low pass filter. We haven't talked about real practical low pass
+
+367
+00:38:16,040 --> 00:38:21,880
+ filter, but ideal low pass filter, you can make it like zero elsewhere and a constant within the
+
+368
+00:38:21,880 --> 00:38:28,360
+ passband, right? Okay, so this is interpolation. Okay, you should know the difference between
+
+369
+00:38:28,360 --> 00:38:33,560
+ interpolation and up sampling. And now we see that for all of the three we're going to learn today,
+
+370
+00:38:33,560 --> 00:38:38,520
+ you need to know first time domain relationship and then frequency. All right, so later on,
+
+371
+00:38:38,520 --> 00:38:42,520
+ now we're going to see how they look like. So we start by frequency, right, because frequency is
+
+372
+00:38:42,520 --> 00:38:50,840
+ actually easier. Right, so we see that well, we, you know, if it's actually a up sampling, right,
+
+373
+00:38:50,840 --> 00:38:56,680
+ we learn that this is the up sampling version, but the low pass version of up sample version will
+
+374
+00:38:56,680 --> 00:39:02,840
+ be just a constraint on the frequency, right, nothing else. So without this constraint, it's going
+
+375
+00:39:02,840 --> 00:39:07,880
+ to be a up sample version, right? Where is the constraint is going to give you interpolated
+
+376
+00:39:07,880 --> 00:39:12,520
+ version? The only difference between interpolation and up sampling is just the low pass filter,
+
+377
+00:39:12,520 --> 00:39:16,680
+ right? You add another low pass filter, give you the frequency constraint, that's going to be
+
+378
+00:39:16,680 --> 00:39:22,360
+ interpolation, right? So this is easy to remember, right? You can link interpolation with up sampling
+
+379
+00:39:22,360 --> 00:39:28,600
+ in frequency first because the change is actually minimum, right? Only the frequency constraint.
+
+380
+00:39:29,640 --> 00:39:36,200
+ And now some of you may realize that I also have a scaling factor here, right, the C. In practice,
+
+381
+00:39:36,200 --> 00:39:41,319
+ you can't have a scaling factor, you don't have to make the C equal to 1. And the reason of doing that
+
+382
+00:39:42,680 --> 00:39:47,960
+ is actually, sorry, is actually one to, wait, did I see this?
+
+383
+00:39:50,279 --> 00:39:56,680
+ So, so in fact, right, if we have a scaling factor and it can be proven that if this
+
+384
+00:39:56,680 --> 00:40:02,759
+ scaling factor is set to be I, same as there are some up sampling factor, right, your output
+
+385
+00:40:02,840 --> 00:40:12,040
+ version of YM will equal to the X up sample version for all of these numbers exactly, right?
+
+386
+00:40:12,040 --> 00:40:17,560
+ So the normal choice for the scaling factor is actually C equal to I. This is also easy to
+
+387
+00:40:17,560 --> 00:40:22,760
+ memorize because you want to make sure the energy is conserved. You have to kill, you know, actually
+
+388
+00:40:22,760 --> 00:40:28,840
+ n minus 1 number of images. Of course, you have removed some energies. In other words, you want
+
+389
+00:40:28,920 --> 00:40:33,560
+ to make your low pass filter to compensate those energies so you do a scale up, right?
+
+390
+00:40:33,560 --> 00:40:39,800
+ So the normal choice is to make the C equal to I and a column frequency equal to pi divided by,
+
+391
+00:40:39,800 --> 00:40:46,120
+ right? This is the common choice. Okay, but now that's all, that's also only the frequency domain,
+
+392
+00:40:46,120 --> 00:40:51,640
+ right? We also have to talk about the time domain. So remember, for all of the four alerts today,
+
+393
+00:40:51,640 --> 00:40:58,120
+ you have to do frequency plus time, right? So the time domain, these kind of, you know,
+
+394
+00:40:58,120 --> 00:41:04,040
+ process can be represented as a convolution operator, right? So basically what you're doing here
+
+395
+00:41:04,040 --> 00:41:12,279
+ is a convolution between the H and V. So H will be your low pass filter, V will be your up sample
+
+396
+00:41:12,279 --> 00:41:19,240
+ version of your input, right? So filtering can be always interpreted as a convolution. So in
+
+397
+00:41:19,240 --> 00:41:26,680
+ time domain, this is what actually happened. And, but this VK will be zero except for the
+
+398
+00:41:26,680 --> 00:41:33,000
+ multiple time of I, right? Remember, VK will have a lot of zero inserted to the middle, all right?
+
+399
+00:41:33,640 --> 00:41:41,080
+ So in other words, VK will only equal to XK when the V integers, index equal to K times I in this
+
+400
+00:41:41,080 --> 00:41:47,640
+ case, right? So these will be the mathematical expression of the time domain operation, what
+
+401
+00:41:47,640 --> 00:41:57,720
+ happened for interpolation, okay? Oh, sorry. Here, okay, I should have one more line here, right?
+
+402
+00:41:57,720 --> 00:42:05,319
+ So basically if you, you have to change the K to K times I because only the K equal to multiple of I,
+
+403
+00:42:05,319 --> 00:42:14,600
+ maybe let me clear this eraser, right? So, so mathematically this is actually what happened
+
+404
+00:42:14,600 --> 00:42:20,520
+ as a convolution, right? But these V is as something special. Remember, V will have a lot of zero in
+
+405
+00:42:20,520 --> 00:42:26,920
+ between in two adjacent kind of samples, right? So only when the K equal to integer amount of
+
+406
+00:42:26,920 --> 00:42:33,480
+ times I, they will give you non-zero variable. So you have to change the K here as the K times I to
+
+407
+00:42:33,480 --> 00:42:38,360
+ avoid the zero, right? I mean, this is also true, but it's going to give you some duplicate term,
+
+408
+00:42:38,360 --> 00:42:46,040
+ which is zero, right? Okay, but actually this 3.6, this is actually the time domain
+
+409
+00:42:46,040 --> 00:42:54,440
+ representation of the interpolation process, all right? Okay, so, so, so far we are done with
+
+410
+00:42:54,440 --> 00:42:59,640
+ up sampling and interpolation. We learned that up sampling straightforward, you just need to
+
+411
+00:42:59,640 --> 00:43:05,480
+ change the rate to a faster rate and adding zeros, but it gives you images in frequency domain. To
+
+412
+00:43:05,560 --> 00:43:11,720
+ avoid images, you have to do another low pass filter and together, up sampling with low pass
+
+413
+00:43:11,720 --> 00:43:16,040
+ filter together, this is called interpolation. So we actually have these two pair of concepts,
+
+414
+00:43:16,040 --> 00:43:22,280
+ right? Up sampling, interpolation. Now we have the counterpart, right? Which is actually making
+
+415
+00:43:22,280 --> 00:43:27,240
+ the rate lower slower, right? You can, if you can increase the rate, you can also decrease the rate,
+
+416
+00:43:27,240 --> 00:43:34,360
+ right? So decreasing the rate of your signal, this is referred as, first, refers as down sampling,
+
+417
+00:43:34,360 --> 00:43:40,840
+ all right? So down sampling will be denoted as an arrow downward, you know, pointing to downward,
+
+418
+00:43:40,840 --> 00:43:47,640
+ this is down sampling, and you will also have a constant beside it, right? So this constant D
+
+419
+00:43:47,640 --> 00:43:53,000
+ describes how much you want a down sample, right? If it's two, it's going to, every two measure,
+
+420
+00:43:53,000 --> 00:43:59,080
+ you might, you actually sample one time, right? So together, this is actually a down sampling operator.
+
+421
+00:43:59,080 --> 00:44:03,880
+ So normally you will have something like this, you have input signals, down sample would give you
+
+422
+00:44:03,880 --> 00:44:10,600
+ an output signal, right? So in the time domain, if this is your input signal, and we want to
+
+423
+00:44:10,600 --> 00:44:16,520
+ down sample this by three times, that means, so every three measurements, you sample one time,
+
+424
+00:44:16,520 --> 00:44:21,320
+ right? Every three measurements, you sample one time. Every three measurement, you sample one time.
+
+425
+00:44:21,320 --> 00:44:27,480
+ So all of these samples will be uniform distributed, but it's like every one measure for three samples,
+
+426
+00:44:27,560 --> 00:44:34,120
+ right? Okay? So this is actually what happened in the time domain, and in the time domain,
+
+427
+00:44:34,120 --> 00:44:41,560
+ the mathematical description is also very simple, right? So you have input, which is the x, you want
+
+428
+00:44:41,560 --> 00:44:46,920
+ to generate the output, so you want to make sure that your output only measured at, you know,
+
+429
+00:44:46,920 --> 00:44:52,120
+ D number of samples, right? Every D number of samples. So this is actually the time domain
+
+430
+00:44:52,120 --> 00:44:58,120
+ representation. And also I want you to kind of look at what happened visually in the spectrum,
+
+431
+00:44:58,120 --> 00:45:05,160
+ right? So this is actually quite different from the interpolation we just learned, right? Remember,
+
+432
+00:45:05,160 --> 00:45:10,440
+ interpolation what happened is that you are shrinking the axis, right? You shrink the axis,
+
+433
+00:45:11,240 --> 00:45:16,520
+ but the waveform are actually the same. You are not distort the waveform, right? But down
+
+434
+00:45:16,520 --> 00:45:25,000
+ sample is slightly different, okay? So let me explain this in a first way. So here, this is
+
+435
+00:45:25,000 --> 00:45:33,240
+ your input, right? Which is the x omega x versus omega x. x omega x versus omega x. So we stick to
+
+436
+00:45:33,240 --> 00:45:40,840
+ the original frequency, which is omega x, right? Now if you don't change the frequency, we still
+
+437
+00:45:40,840 --> 00:45:48,280
+ stick to the original frequency, what happened to down sampling, let's forget about decimation,
+
+438
+00:45:48,280 --> 00:45:55,400
+ right? Only down sampling here is to kind of something like adding duplicates uniformly
+
+439
+00:45:55,400 --> 00:46:02,440
+ within the 2 pi range, okay? It's different from up sampling, right? Up sampling is like you don't
+
+440
+00:46:02,440 --> 00:46:09,320
+ really insert things, you are actually shrinking the axis, right? Remember, this is not shrinking the
+
+441
+00:46:09,320 --> 00:46:14,440
+ axis, right? Remember, originally these two waveform are far away from each other, but we're
+
+442
+00:46:14,440 --> 00:46:21,080
+ adding the same replicates within them uniformly, right? So in other words, if you are up sampling
+
+443
+00:46:21,080 --> 00:46:26,760
+ by three, you have to make sure originally there's only one measure within the 2 pi range, now we
+
+444
+00:46:26,760 --> 00:46:33,880
+ have three measures in the 2 pi range, okay? And then, you know, this becomes the measured
+
+445
+00:46:34,120 --> 00:46:43,320
+ spectrum of the y in the original omega x, okay? Why I keep saying it's original omega x? Because
+
+446
+00:46:44,600 --> 00:46:50,600
+ actually the omega y will have different scale as the omega x. So this line describes the
+
+447
+00:46:50,600 --> 00:46:57,240
+ relationship between omega y and omega x. So in other words, originally omega x is 2 pi,
+
+448
+00:46:57,799 --> 00:47:04,600
+ after down sampling, if you switch to the y kind of domain, your frequency axis will be no longer
+
+449
+00:47:04,600 --> 00:47:12,520
+ 2 pi, but 2 times d times pi, right? So in other words, you are not just inserting kind of,
+
+450
+00:47:12,520 --> 00:47:20,520
+ you know, duplicates, you are also expanding the axis, right? From 2 pi to 2 pi times d, basically.
+
+451
+00:47:21,320 --> 00:47:26,840
+ So in total, this is the phenomenon. You are expanding the waveform and you are adding
+
+452
+00:47:26,840 --> 00:47:33,640
+ the duplicates in between. Okay, so I pose a little bit and you think about whether this makes sense to
+
+453
+00:47:33,640 --> 00:47:46,680
+ you, all right? Okay? All right, so because of this kind of phenomenon, right, you probably realize
+
+454
+00:47:46,680 --> 00:47:51,399
+ something. This is the same reason that we have aliasing in the sampling process. Okay, if you
+
+455
+00:47:51,399 --> 00:47:56,359
+ will still remember, we talk about aliasing when we talk about sampling, right? We say, well, there's
+
+456
+00:47:56,359 --> 00:48:03,640
+ sometimes you could have the overlap between two waveforms. That's how you can get aliasing, right?
+
+457
+00:48:03,640 --> 00:48:11,160
+ So here, there's also a chance that this added duplicates could have overlap with your baseband
+
+458
+00:48:11,160 --> 00:48:17,560
+ signal. And this happens when your baseband signal itself, the spectrum range is too large.
+
+459
+00:48:18,839 --> 00:48:24,120
+ Okay, or maybe your d is actually too large, right? So either way, somehow when you create
+
+460
+00:48:24,120 --> 00:48:30,359
+ these duplicates, there could be an overlap between your baseband signal and your replicates.
+
+461
+00:48:31,640 --> 00:48:36,040
+ So just like the aliasing we talk about in the sampling here, if you are doing the
+
+462
+00:48:36,120 --> 00:48:43,000
+ down sampling too aggressively, you may also have the aliasing due to this overlap here.
+
+463
+00:48:43,960 --> 00:48:48,120
+ Because once they overlap, you have to only represent the summation. You cannot unmix them,
+
+464
+00:48:48,120 --> 00:48:52,520
+ right? You cannot get back. So this is also a similar distortion about these different names,
+
+465
+00:48:52,520 --> 00:48:59,240
+ right? Aliasing is due to over sampling, sorry, is due to the sampling, it's kind of not fast enough.
+
+466
+00:48:59,240 --> 00:49:05,000
+ Here, this overlap is due to the rate conversion, it's due to the down sampling. But similarly,
+
+467
+00:49:05,000 --> 00:49:11,320
+ you need to make sure your baseband spectrum is limited to avoid this kind of distortion.
+
+468
+00:49:12,360 --> 00:49:18,760
+ Okay? Just like the way we do this for aliasing, right? What we should do to make my baseband
+
+469
+00:49:18,760 --> 00:49:24,680
+ signal more limited? If I want to do something, right, what do you think I should do to make my
+
+470
+00:49:24,680 --> 00:49:28,600
+ baseband signal? For example, here, this is my baseband signal, right? If I don't do anything,
+
+471
+00:49:28,600 --> 00:49:34,280
+ I just directly down sample by three, my first replicates will overlap with my baseband signal,
+
+472
+00:49:34,280 --> 00:49:40,120
+ right? This is something I don't want to see. Now I want to avoid this. What should I do?
+
+473
+00:49:40,120 --> 00:49:45,480
+ A simple operation, what should I do to avoid this overlap? Any suggestions?
+
+474
+00:49:47,800 --> 00:49:51,400
+ Think about how we deal with aliasing, right? Because aliasing is very similar here.
+
+475
+00:49:57,000 --> 00:49:59,960
+ So what do we do to avoid aliasing? Do you still remember?
+
+476
+00:50:00,920 --> 00:50:12,280
+ There's one simple operator. We call it anti-aliasing stuff. Do you still remember? Like lecture one,
+
+477
+00:50:12,280 --> 00:50:16,680
+ right? First lecture, we say, if you don't do things carefully, you can get aliasing, right? But if we
+
+478
+00:50:16,680 --> 00:50:21,720
+ do something beforehand, we can get rid of aliasing, possibly. What have we done there?
+
+479
+00:50:23,240 --> 00:50:27,160
+ Low pass filter, right? So anti-aliasing filter is a low pass filter. You have to make sure
+
+480
+00:50:28,120 --> 00:50:35,799
+ these components, which is beyond the risky part, are being removed. Remember, right? So what we did
+
+481
+00:50:35,799 --> 00:50:43,799
+ for aliasing is that before sampling, we have a low pass filter to constrain the spectrum within the
+
+482
+00:50:43,799 --> 00:50:50,040
+ safety region. Remember? Anti-aliasing filter, right? Think about it, right? Anti-aliasing filter
+
+483
+00:50:50,040 --> 00:50:57,480
+ is a low pass filter before sampling. Okay? Here, very similar idea. You want to avoid the overlap
+
+484
+00:50:57,480 --> 00:51:06,040
+ here. You need to apply a low pass filter before done sampling. Makes sense? And how to determine
+
+485
+00:51:06,040 --> 00:51:12,040
+ this? I mean, so first, I hope all of you agree that a low pass filter is needed.
+
+486
+00:51:12,040 --> 00:51:20,600
+ Low pass filter is needed to get rid of the possible overlap. And actually, sometimes we
+
+487
+00:51:20,600 --> 00:51:24,840
+ also call this anti-aliasing because if you treat that as aliasing, right? The role of this filter
+
+488
+00:51:24,840 --> 00:51:30,840
+ is also anti-aliasing filter. So anti-aliasing filter is necessary not only before sampling,
+
+489
+00:51:30,840 --> 00:51:37,160
+ but also here before done sampling, right? And this is actually why we always need a low pass
+
+490
+00:51:37,160 --> 00:51:43,879
+ filter before done sampling. Okay? Together, the two together, this is called decimation.
+
+491
+00:51:45,319 --> 00:51:50,200
+ Okay? Just now I said that up sampling plus low pass filter before, sorry, after is called
+
+492
+00:51:50,200 --> 00:51:57,000
+ interpolation. So here, low pass filtering plus a done sampler together is called a decimation
+
+493
+00:51:57,000 --> 00:52:04,520
+ operator, right? So decimation equals to anti-aliasing or low pass plus a done sampling, all right?
+
+494
+00:52:05,000 --> 00:52:11,000
+ So done sampling is part of the components in the decimation process. If you only do done
+
+495
+00:52:11,000 --> 00:52:17,000
+ sampling, you have the risk of aliasing, right? But if you do decimation properly, you won't
+
+496
+00:52:17,000 --> 00:52:22,040
+ have aliasing because of this anti-aliasing filter before, okay? So order here the matter,
+
+497
+00:52:22,040 --> 00:52:29,000
+ right? Remember, interpolation, low pass filter is after the up sampler. Here, the decimation,
+
+498
+00:52:29,960 --> 00:52:36,040
+ low pass filter must be before the done sampling for the same reason as we learn for in the
+
+499
+00:52:36,040 --> 00:52:44,760
+ sampling process, right? Okay? So together, this is called the decimation operator. And in this
+
+500
+00:52:44,760 --> 00:52:53,000
+ case, right, your YM, of course, is going to be distorted because the low pass filter will also
+
+501
+00:52:53,000 --> 00:52:57,640
+ making the signal losing the high frequency component, but you will not get aliasing, right?
+
+502
+00:52:57,640 --> 00:53:02,759
+ You lose something, but you won't get aliasing artifacts, right? So the frequency in the low
+
+503
+00:53:02,759 --> 00:53:08,200
+ range have been preserved. This is the good part because it only sacrifice the high frequency,
+
+504
+00:53:08,200 --> 00:53:12,920
+ but you kind of save for the low frequency range, right? Whatever within the low pass
+
+505
+00:53:12,920 --> 00:53:18,839
+ filter will be safe. So this will most likely, I mean, think about the natural signals, right?
+
+506
+00:53:18,839 --> 00:53:23,879
+ Most of them are low frequency, so you can contain or you can preserve most of the information of
+
+507
+00:53:23,880 --> 00:53:29,880
+ the signal, even if you apply a low pass filter, right? So mathematically, like I said, we have
+
+508
+00:53:29,880 --> 00:53:36,120
+ to learn two things, right? Frequency versus time. So let's do frequency first. In frequency domain,
+
+509
+00:53:36,120 --> 00:53:40,280
+ when you apply the low pass filter, it's very straightforward. An ideal low pass filter will
+
+510
+00:53:40,280 --> 00:53:46,360
+ be something like this, right? It's going to be one within the cutoff frequency and zero elsewhere,
+
+511
+00:53:46,360 --> 00:53:52,200
+ right? So this is the mathematics description. So the cutoff frequency will be pi divided by d,
+
+512
+00:53:52,839 --> 00:53:57,560
+ right? For the same similar reason I could talk about in the interpolation, right? Because
+
+513
+00:53:58,279 --> 00:54:04,439
+ when we talk about the adding the replicas, we're adding actually from one to i in the
+
+514
+00:54:04,439 --> 00:54:11,080
+ two pi range, right? So every kind of a, you know, baseband will share only pi divided by d
+
+515
+00:54:11,080 --> 00:54:17,560
+ range here. So this is actually the cutoff frequency we wish to preserve before down sampling. So in
+
+516
+00:54:17,560 --> 00:54:25,320
+ this case, the low pass filter will have one as the passband between zero and pi divided by d,
+
+517
+00:54:26,520 --> 00:54:32,360
+ okay? So this idea, of course, in practice you cannot get this, but ideally it's one versus zero,
+
+518
+00:54:32,360 --> 00:54:37,960
+ right? So they are going to eliminate all of the spectrum outside this range from d divided,
+
+519
+00:54:37,960 --> 00:54:44,600
+ pi divided by d to pi, right? And this is basically what happened as the anti-aliasing,
+
+520
+00:54:44,600 --> 00:54:52,120
+ right? So the output of the filter, again, you know, a filtering in a time domain will be convolution,
+
+521
+00:54:52,120 --> 00:54:59,160
+ right? So in the time domain, it's corresponding to a convolution between the h, here's a lower h,
+
+522
+00:54:59,160 --> 00:55:06,920
+ which is the time impulse response, convolved with the input x, right? And this is actually,
+
+523
+00:55:07,800 --> 00:55:18,520
+ you know, so for a similar reason, your x will be first down sampled to the v, right? In this case,
+
+524
+00:55:19,160 --> 00:55:25,240
+ you will not have none zero for any sample, right? In practice, you have to make sure your x
+
+525
+00:55:25,960 --> 00:55:32,040
+ has been down sampled as well, which is actually m times d minus k, right? So without it, it's not
+
+526
+00:55:32,040 --> 00:55:38,040
+ down sampled, whether it's actually down sampled version of your decimation process, right? So the
+
+527
+00:55:38,040 --> 00:55:45,640
+ entire time domain relationship is the following, right? This will be your time domain relationship
+
+528
+00:55:45,640 --> 00:55:53,320
+ for decimation process, right? So two things, right? d will depend on your down sampling factor,
+
+529
+00:55:53,880 --> 00:55:59,720
+ h will be depends on your color frequency, right, as the low pass filter. So two things will decide
+
+530
+00:55:59,720 --> 00:56:07,799
+ the time impulse response of h, right? So just now was the time, right, time domain relationship.
+
+531
+00:56:08,759 --> 00:56:15,240
+ And okay, here is actually the reason why we're saying that once you involve the down
+
+532
+00:56:15,240 --> 00:56:22,359
+ sampling operator, the system is no longer time invariant, okay? It's still linear, but not time
+
+533
+00:56:22,440 --> 00:56:28,040
+ not time invariant. Why? Because if you are somehow, I mean the fact is that your x
+
+534
+00:56:28,760 --> 00:56:36,600
+ produce y, but if you get a time delay in the x, right, due to the time delay, you will not be
+
+535
+00:56:36,600 --> 00:56:41,240
+ equal to y m minus n naught. I mean, this is also very simple, right? Think easy to understand.
+
+536
+00:56:41,240 --> 00:56:45,960
+ You have a signal, right? You have this down sampling. So maybe the first time you pick
+
+537
+00:56:46,040 --> 00:56:54,840
+ x0, x3, x6, but once you shift it sometime, you will pick x1, x4, and x7, right? So because of this
+
+538
+00:56:54,840 --> 00:57:01,320
+ off the grid effect, if you have any time delay that is not equal to the factor of a down sampling,
+
+539
+00:57:01,320 --> 00:57:07,160
+ you will not get the same result because when you sample that, you kind of change the measure you have,
+
+540
+00:57:07,160 --> 00:57:11,880
+ right? So think about this down sampling process. So, but the key point is that once we have the
+
+541
+00:57:11,880 --> 00:57:17,480
+ multiray in the system, you will lose the property of time invariant. Okay, so don't assume this when
+
+542
+00:57:17,480 --> 00:57:25,000
+ you solve any questions. It's no longer true, okay? So, okay, that was the time, but again,
+
+543
+00:57:25,000 --> 00:57:31,800
+ we have to talk about what is the frequency domain representation, right? So from the time domain
+
+544
+00:57:31,800 --> 00:57:39,080
+ representation, we can actually, so this was your time domain representation, right? You can simply
+
+545
+00:57:39,080 --> 00:57:45,480
+ do a DTFT to get the time domain representation, sorry, frequency domain representation, right?
+
+546
+00:57:45,480 --> 00:57:53,240
+ And this is nothing but a multiplication between your spectrum of the, sorry, the low pass filter
+
+547
+00:57:54,120 --> 00:57:59,880
+ point wise multiplied by your spectrum of the input signal, right? But of course, you have to
+
+548
+00:57:59,880 --> 00:58:05,080
+ talk about the down sampling. So once you do down sampling, you're kind of a, how to say,
+
+549
+00:58:05,080 --> 00:58:10,360
+ expanding your frequency spectrum by D times, right? Remember, just always say that
+
+550
+00:58:12,920 --> 00:58:19,400
+ here, right? Originally, I'm talking about omega x, which is 0 to 2 pi, but once you do down
+
+551
+00:58:19,400 --> 00:58:28,120
+ sampling, you are equivalent to expanding the frequency axis from 2 pi to 2 pi times D, right?
+
+552
+00:58:28,120 --> 00:58:35,000
+ So you will have this expanding artifacts in your frequency spectrum, and this is handled by dividing
+
+553
+00:58:35,160 --> 00:58:41,880
+ your omega by a D here, right? The D factor here. So D factor will be something like expanding your
+
+554
+00:58:42,760 --> 00:58:49,080
+ frequency axis by D times. And this expanding, remember, we always first do down sampling,
+
+555
+00:58:49,720 --> 00:58:54,840
+ followed by, sorry, we always do low pass filter followed by down sampling. So the convolution
+
+556
+00:58:54,840 --> 00:59:01,000
+ happens first, down sampling happens second. So this kind of expanding artifacts will be
+
+557
+00:59:01,000 --> 00:59:08,120
+ happened to both your H spectrum and the X spectrum, right? Because that happens for
+
+558
+00:59:08,120 --> 00:59:13,400
+ after you have already do the low pass filter, right? So both of them will be expanded. So there
+
+559
+00:59:13,400 --> 00:59:21,320
+ will be a D factor there, and then you will have this, you know, kind of a point wise product
+
+560
+00:59:21,320 --> 00:59:27,720
+ together to form your final spectrum output, right? This is how you get it. And of course,
+
+561
+00:59:27,799 --> 00:59:35,000
+ you need to properly design the HD such that AD is in can be eliminated, right? So if this is
+
+562
+00:59:35,000 --> 00:59:40,279
+ eliminated, you will have the spectrum to do something like this, right? This will be the
+
+563
+00:59:40,279 --> 00:59:46,680
+ corresponding spectrum. All right, but this is like a point wise product here, right? And you only
+
+564
+00:59:46,680 --> 00:59:51,959
+ represent the frequency that is between 0 and pi, right? Because that's the baseband signal. You
+
+565
+00:59:51,960 --> 00:59:59,320
+ can forget about the other kind of outside the baseband range, okay? All right, so here's actually
+
+566
+00:59:59,320 --> 01:00:04,920
+ another illustration of what happened when we do decimation, right? Decimation means down sampling
+
+567
+01:00:04,920 --> 01:00:16,040
+ plus the, what is that, the anti-aliasing, right? So originally, this is my X, right? Like I said,
+
+568
+01:00:16,040 --> 01:00:23,000
+ you can, when you do decimation, you can first imagine, you know, your baseband is kind of here
+
+569
+01:00:23,000 --> 01:00:30,279
+ and here, right? But you're going to make, in this case, four measures, four waveforms within the
+
+570
+01:00:30,279 --> 01:00:36,840
+ 2 pi range. So in other words, this is like a down sampling by four, right? I hope this is obvious
+
+571
+01:00:36,840 --> 01:00:41,480
+ for everyone, like, because when you do down sampling by four, you are making four waveforms
+
+572
+01:00:41,480 --> 01:00:49,560
+ within the 2 pi range uniformly, right? So basically, you know, there will be k1, k2, k3 as the replicates
+
+573
+01:00:49,560 --> 01:00:57,640
+ of my k0. So, but still, we are talking about the original frequency axis, which is the omega x,
+
+574
+01:00:57,640 --> 01:01:05,160
+ right? But another thing you have to do is kind of expanding the axis, omega range from original
+
+575
+01:01:05,160 --> 01:01:12,920
+ scale to omega times the down sampling factor, right? In this case, it's four. So the actual
+
+576
+01:01:12,920 --> 01:01:20,359
+ range, well, now becomes between zero and eight pi. In other words, two pi times four, right? So this
+
+577
+01:01:20,359 --> 01:01:26,200
+ will be your final spectrum of the down sampling, right? You have to do two things. First one is
+
+578
+01:01:26,200 --> 01:01:32,120
+ adding kind of components into it and then scale or expanding the axis, right? Because that's what
+
+579
+01:01:32,120 --> 01:01:38,359
+ the mathematics means, but you have something divided by d, right? This is how you do it. So
+
+580
+01:01:38,359 --> 01:01:45,400
+ these will be the corresponding y components. And normally, we only keep the free form within
+
+581
+01:01:45,400 --> 01:01:51,240
+ zero to two pi, right? If you keep it, this will become your corresponding base band waveform of the
+
+582
+01:01:51,240 --> 01:01:59,720
+ output, right? Because other will be just, you know, repeating itself, right? Okay? But you need to
+
+583
+01:01:59,799 --> 01:02:05,640
+ know visually how I go from here to here. So I do two things, right? First one is creating
+
+584
+01:02:05,640 --> 01:02:11,879
+ replicates. Depends on how many, what is the factor of down sampling, right? The second thing is
+
+585
+01:02:11,879 --> 01:02:19,160
+ scale the frequency axis similarly by d times, right? Here's four times. So pretty much every
+
+586
+01:02:19,160 --> 01:02:25,480
+ frequency is multiplied by d here. And then you only represent one base band range, which is from zero
+
+587
+01:02:25,480 --> 01:02:33,560
+ to two pi. And that's enough. Okay? You can also derive this from the mathematical expression. So
+
+588
+01:02:33,560 --> 01:02:38,280
+ I skip that part. I direct to tell you the visual change, but you are more than welcome to derive
+
+589
+01:02:38,280 --> 01:02:42,360
+ it, right? Because I guess some of you should be able to do it because, you know, mathematics is
+
+590
+01:02:42,360 --> 01:02:47,480
+ very clear, right? You have something divided by d, you are expanding the axis, right? Okay?
+
+591
+01:02:48,680 --> 01:02:55,400
+ So this is what happened. Okay. So right now, we have finished actually the, I mentioned the four
+
+592
+01:02:55,560 --> 01:03:01,480
+ major basic components of my multirate processing, right? Which are up sampling followed by
+
+593
+01:03:01,480 --> 01:03:06,040
+ interpolation, right? The only difference is you have another low pass filter after the up
+
+594
+01:03:06,040 --> 01:03:11,000
+ sampler, right? And the third thing is down sampling. But we say down sampling, you could have
+
+595
+01:03:11,000 --> 01:03:17,560
+ aliasing. So you need an anti-aliasing before it. Together is called decimation. So we have learned
+
+596
+01:03:17,560 --> 01:03:25,000
+ the four, all right? So this is a summary of the four, you know, on the left-hand side, right?
+
+597
+01:03:25,000 --> 01:03:29,560
+ This is something we call the block diagram. We're going to see this many times. But block
+
+598
+01:03:29,560 --> 01:03:34,440
+ diagram, you should know how to represent up sampling and down sampling, all right? And
+
+599
+01:03:35,560 --> 01:03:41,400
+ interpolator will be up sampler followed by a low pass filter, right? But the key is that you have
+
+600
+01:03:41,400 --> 01:03:46,680
+ to figure out what is the factor of your up sampling and then what is the color frequency of your
+
+601
+01:03:46,680 --> 01:03:53,400
+ low pass filter, right? And there's an intermediate output, the ux, the xu, this will be your output
+
+602
+01:03:53,400 --> 01:04:00,120
+ of up sampler, okay? Similarly for decimator, it's going to be first low pass filter with some
+
+603
+01:04:00,120 --> 01:04:06,120
+ color frequency followed by a down sampling operator, right? So together this is actually a
+
+604
+01:04:06,120 --> 01:04:13,080
+ decimator. And then like I mentioned, you need to know both the time domain and frequency domain
+
+605
+01:04:13,080 --> 01:04:20,920
+ representation, right? So here, xu, this is a time domain representation of the up sampling,
+
+606
+01:04:20,920 --> 01:04:27,080
+ right? xu is here. xu is before low pass filter, right? So this is the time domain of the
+
+607
+01:04:28,440 --> 01:04:35,800
+ up sampling, all right? This is a time domain representation of the interpolation, all right?
+
+608
+01:04:35,800 --> 01:04:41,480
+ This is the frequency domain of the up sampling in Z transformable. You can easily convert it to
+
+609
+01:04:41,480 --> 01:04:47,080
+ omega if you want, right? And then this is the frequency domain representation of your interpolation.
+
+610
+01:04:47,480 --> 01:04:54,120
+ Okay, so I just give you a summary, but I strongly encourage you to try it and see whether you can
+
+611
+01:04:54,120 --> 01:04:59,480
+ end up with something similar, right? If you can, you should be fine with everything, right? If you
+
+612
+01:04:59,480 --> 01:05:04,200
+ get something stuck, you can ask me or you can just try it again, right? But this is really important
+
+613
+01:05:04,200 --> 01:05:08,120
+ because we're going to play some tricks there, right? Later we'll move on to more complicated
+
+614
+01:05:08,120 --> 01:05:14,440
+ scenarios. So similarly, right? For decimation, you also need to know what is the time domain,
+
+615
+01:05:14,520 --> 01:05:19,880
+ what is the frequency domain, right? And importantly is that you don't mess up with the,
+
+616
+01:05:20,520 --> 01:05:26,680
+ you know, every time when you do, you know, an interpolation, you have to think about like
+
+617
+01:05:26,680 --> 01:05:31,320
+ shrinking, right? Every time when you do up sampling, we have to think about the, sorry,
+
+618
+01:05:31,320 --> 01:05:35,560
+ when you do decimation, you have to think about the expanding axis, right? So don't mess up the
+
+619
+01:05:35,560 --> 01:05:39,880
+ scaling, right? Scaling actually matters here, right? But I think this table gives you a good
+
+620
+01:05:39,880 --> 01:05:44,360
+ summary of the four things we have learned in the first part of the lecture, all right? Try to
+
+621
+01:05:44,360 --> 01:05:50,920
+ digest it and we will do, let's say, a 15-minute break and we come back for the second part,
+
+622
+01:05:50,920 --> 01:06:00,280
+ all right? So we're going to resume around 7.50, okay? All right, thank you. So let's see 15 minutes.
+
+623
+01:21:44,759 --> 01:21:55,000
+ All right, let's continue and I will try to also finish the class around 9, right?
+
+624
+01:21:55,000 --> 01:21:59,960
+ If possible, I actually, okay, but before that, right, I got some questions just now from the
+
+625
+01:21:59,960 --> 01:22:09,400
+ many students talking about this visual example, right? Where is it? Okay, here, right? So this one,
+
+626
+01:22:10,120 --> 01:22:14,200
+ so many of you do really understand where this comes from, right? And I just want to maybe
+
+627
+01:22:15,960 --> 01:22:21,240
+ repeat a bit, a little bit to explain this part. So, you know, all of this visual example, right?
+
+628
+01:22:21,240 --> 01:22:27,080
+ I have one for decimation, I have another one for interpolation. So all of this is just for you to
+
+629
+01:22:27,799 --> 01:22:34,280
+ easily interpret what happened in the spectrum, right? But both of them are actually following the
+
+630
+01:22:34,280 --> 01:22:40,679
+ exact frequency relationship, right? So the math is always true, right? But how you interpret the
+
+631
+01:22:40,679 --> 01:22:46,200
+ change in the spectrum, it depends, right? You have multiple ways to implement that, right? So,
+
+632
+01:22:46,200 --> 01:22:49,960
+ for example, here, if you truly want to understand what is the change or what is the
+
+633
+01:22:51,080 --> 01:22:58,200
+ modification, right? From the X to Y after you do decimation, you have to go back to the frequency
+
+634
+01:22:58,200 --> 01:23:06,200
+ relationship, which is something here, right? So this is actually our spectrum change. And the
+
+635
+01:23:06,200 --> 01:23:13,240
+ spectrum here, with the Y here and also the X here, okay? So if you look at that, the difference
+
+636
+01:23:13,240 --> 01:23:19,000
+ here is actually by scaling of the omega of D, right? So what does this mean? If I have a function,
+
+637
+01:23:19,639 --> 01:23:26,599
+ originally it's X as a function of omega, now I have X function of omega divided by D, right?
+
+638
+01:23:26,600 --> 01:23:32,520
+ What actually happened, if you think about it, is actually an expanding of your function, right?
+
+639
+01:23:32,520 --> 01:23:37,800
+ So you can imagine in this way, like, how should I say, your omega is triangle, right? Okay,
+
+640
+01:23:37,800 --> 01:23:45,320
+ maybe I just draw this. So imagine that your X is originally a triangle, right? And for example,
+
+641
+01:23:45,320 --> 01:23:51,160
+ this is my zero, this is one, this is minus, so originally X is like this, right? So suppose this
+
+642
+01:23:51,160 --> 01:23:59,720
+ is my X omega, right? Now I have X omega divided by two, right? So here I just let D equal to two.
+
+643
+01:24:00,840 --> 01:24:07,559
+ How does the waveform of this guy look like? You can just check, for example, here when omega
+
+644
+01:24:07,559 --> 01:24:16,840
+ equal to one, I will get zero, right, at this point. Now if my function changed to X omega divided
+
+645
+01:24:16,840 --> 01:24:24,440
+ by two, which means I need to have an omega equal to two to reach, sorry, to reach the zero, right?
+
+646
+01:24:24,440 --> 01:24:30,840
+ So in this case, the waveform will be something still a triangle, but the cutoff frequency becomes two,
+
+647
+01:24:30,840 --> 01:24:39,000
+ right, in this case, right? Make sense? Everybody agree? Right? You just find some key points,
+
+648
+01:24:39,000 --> 01:24:43,400
+ right? You find out, okay, if I reach this point, what should be the corresponding value, right?
+
+649
+01:24:43,400 --> 01:24:51,080
+ If I divide it by two, I need to pay two times to reach the same index as the one here in my input,
+
+650
+01:24:51,080 --> 01:24:55,559
+ right? So when you divide it by two, you are basically same waveform you're expanding the
+
+651
+01:24:55,559 --> 01:25:02,440
+ waveform by two times, right? This is another way to interpret the change, okay? I'm just talking
+
+652
+01:25:02,440 --> 01:25:08,759
+ about math, right? Does this make sense for everyone? Like, okay, simple math, right? Any function,
+
+653
+01:25:08,759 --> 01:25:12,599
+ you have a variable divided by two, you are basically expanding the function by two accordingly,
+
+654
+01:25:12,600 --> 01:25:18,920
+ right? Okay, now if you agree with that, right, we go to the visualization we just talked about here.
+
+655
+01:25:19,800 --> 01:25:25,720
+ Here, right? Another way to interpret the change, suppose this is my original x,
+
+656
+01:25:26,520 --> 01:25:35,880
+ I'm talking about a y, which is equal to one divided by d, x omega divided by d, right?
+
+657
+01:25:36,600 --> 01:25:44,200
+ This is what, this is actually my y, okay? So what I'm actually doing here is a stretching of my
+
+658
+01:25:44,200 --> 01:25:49,240
+ current waveform, right? So basically I'm saying, well, initially I'm ending here, but right now,
+
+659
+01:25:49,240 --> 01:26:02,440
+ I should somehow goes to something like this, right? Make sense? Okay, but you know, there's another
+
+660
+01:26:02,519 --> 01:26:09,320
+ way to interpret that because if you do the same thing here, right? You end up with something
+
+661
+01:26:10,120 --> 01:26:13,480
+ quite similar as this one. And no, wait, wait, where is my,
+
+662
+01:26:17,240 --> 01:26:20,759
+ oh no, I mean, I should use another figure, right? So there's a figure shows the,
+
+663
+01:26:21,639 --> 01:26:25,719
+ hey, wait, wait, I think I have a figure with the change of axis, right? Where is it?
+
+664
+01:26:25,800 --> 01:26:34,360
+ Or maybe after, right? Okay, right, this is, okay, this is a good example, right? So previously,
+
+665
+01:26:34,360 --> 01:26:39,640
+ I'm saying that you can view this as adding components and then changing the scale, right,
+
+666
+01:26:39,640 --> 01:26:43,960
+ to from 2 pi to 8 pi, right? But the equivalent to that you can also think about, okay,
+
+667
+01:26:43,960 --> 01:26:49,000
+ forget about changing the axis. I'm using the same axis here, all right? So for example,
+
+668
+01:26:49,000 --> 01:26:57,320
+ this is my x, I'm going to change this to y, which is equal to x omega divided by 4, right?
+
+669
+01:26:57,320 --> 01:27:02,040
+ This is by 4. So what I'm actually having will be the same axis, no change of axis,
+
+670
+01:27:02,040 --> 01:27:09,960
+ still between 0 to 2 pi, right? I'm just expanding this function to something like this, right?
+
+671
+01:27:10,600 --> 01:27:18,120
+ So here, this was originally let's say k, so I will end up with 4k, right? Some number.
+
+672
+01:27:19,400 --> 01:27:24,440
+ All right, I'm expanding my function. So similarly, there was another, there should be another waveform
+
+673
+01:27:24,440 --> 01:27:30,280
+ here originally something like this, but I'm just expanding that to something like this, right?
+
+674
+01:27:31,000 --> 01:27:35,000
+ So in this case, you can also get the same thing, right? Because if you compare this one with this
+
+675
+01:27:35,000 --> 01:27:41,240
+ one, it's the same, right? I got the same result, but I'm interpreting this down some point or
+
+676
+01:27:41,240 --> 01:27:47,640
+ decimation in a different way, right? But both of them are for the same math equation.
+
+677
+01:27:48,200 --> 01:27:51,640
+ You have a different way to interpret the change, but either way is okay, right?
+
+678
+01:27:52,440 --> 01:27:58,440
+ Because they are basically just doing this, this one, right? Just doing this kind of frequency
+
+679
+01:27:58,440 --> 01:28:05,240
+ domain relationship, all right? I hope I didn't confuse you more, but I hope I clarify this a
+
+680
+01:28:05,240 --> 01:28:11,720
+ little bit, right? So my point is this, there's no unique way to explain what's happening in the
+
+681
+01:28:11,720 --> 01:28:17,240
+ spectrum, right? You have your own way, but in the end of the day, all of these interpretation is
+
+682
+01:28:17,240 --> 01:28:23,639
+ just to explain what happened if you have a change in the frequency expression, right? As
+
+683
+01:28:23,639 --> 01:28:29,080
+ long as you stick to that equation, you are good. I mean, you get the same results, all right?
+
+684
+01:28:31,240 --> 01:28:35,080
+ Okay? If you're still confused, you can ask me, right? I'm happy to explain, right? But this is
+
+685
+01:28:35,080 --> 01:28:40,120
+ what happened, but in the end of the day, I hope it's kind of convinced you the change in the
+
+686
+01:28:40,120 --> 01:28:47,080
+ spectrum by looking at the equation in the frequency, right? But the frequency change,
+
+687
+01:28:47,080 --> 01:28:51,880
+ this guy is what truly happened, right? So you have to really understand, you know, or maybe even
+
+688
+01:28:51,880 --> 01:28:57,960
+ memorize this and this equation. This is what actually happened in the frequency, right? Visual
+
+689
+01:28:57,960 --> 01:29:08,200
+ example is just a plot in the spectrum, right? All right? Okay, good. So with that, I'm actually,
+
+690
+01:29:08,280 --> 01:29:13,000
+ this is actually the table summarized all of the equations you need for basic components, right?
+
+691
+01:29:13,000 --> 01:29:18,840
+ Integer factor of up-sampling, down-sampling, interpolation, decimation, this is all you need,
+
+692
+01:29:18,840 --> 01:29:26,120
+ right? And basically the main points we talked about so far are the operations we need in time
+
+693
+01:29:26,120 --> 01:29:33,400
+ domain, right? For decimation, what we need for interpolation and what are the spectrum before
+
+694
+01:29:33,400 --> 01:29:39,639
+ and after the interpolation decimation, right? That's what we just showed. And for decimation,
+
+695
+01:29:39,639 --> 01:29:45,639
+ we need to understand why anti-aliasing is needed, right? So anti-image is the post, you know,
+
+696
+01:29:45,639 --> 01:29:52,280
+ the post-processing for interpolation, right? Anti-aliasing is the pre-processing for down-sampling,
+
+697
+01:29:52,920 --> 01:29:59,320
+ all right? And you must be able to correctly plot the spectrum achieved before and after this kind
+
+698
+01:29:59,320 --> 01:30:03,559
+ of process, which was just covered just now, right? So you may have some examples, some questions
+
+699
+01:30:04,200 --> 01:30:09,320
+ in homework, in exam, ask you to plot the, you know, spectrum roughly. You need to know how
+
+700
+01:30:09,320 --> 01:30:14,599
+ these are expanded, shrinked, how the access are changed, right? Once you get those clear,
+
+701
+01:30:14,599 --> 01:30:19,719
+ you have no problem doing the questions, all right? Okay, so that's all for the basic component.
+
+702
+01:30:19,719 --> 01:30:26,280
+ But those things I learned so far, we learned so far can only deal with integer, right? Integer
+
+703
+01:30:26,280 --> 01:30:32,759
+ factors for up-sampling, down-sampling. But I said that one can also do non-integer scaling,
+
+704
+01:30:32,759 --> 01:30:38,519
+ right? You can do like 1.5 up-sampling, you can do 2.5 down-sampling. But how can we do it, right?
+
+705
+01:30:38,519 --> 01:30:44,519
+ How can we implement that? It's also very simple because we already know, right, so this is actually
+
+706
+01:30:44,519 --> 01:30:50,200
+ changing frequency by a factor of ratio, okay? A more general case, right? But the way to do that
+
+707
+01:30:50,200 --> 01:30:58,040
+ is by using both up-sampling and down-sampling. Why? Because let's say 2.5, right? You can do
+
+708
+01:30:58,040 --> 01:31:03,000
+ five times up-sampling followed by two times down-sampling. This is how you achieve, you
+
+709
+01:31:03,000 --> 01:31:10,360
+ achieve 2.5, right? 1.5, you do three times up-sampling, two times down-sampling, right? You can always
+
+710
+01:31:10,360 --> 01:31:18,280
+ use a fractional number, right? Like here, ratio to achieve any real number, you know, real number
+
+711
+01:31:18,360 --> 01:31:26,519
+ kind of rate change, right? But the key here is that if you want to do it, make sure you always do
+
+712
+01:31:26,519 --> 01:31:34,599
+ interpolation first, followed by decimation. That's the principle. Okay, why? It's very easy, right?
+
+713
+01:31:34,599 --> 01:31:41,240
+ Interpolation, you don't lose anything. You add in zero. Decimation, you are going to lose information,
+
+714
+01:31:42,759 --> 01:31:47,960
+ right? Everybody agree, right? So you definitely need to want to add things first and then removing
+
+715
+01:31:47,960 --> 01:31:55,000
+ things, right? The whole idea is to make sure the information loss is minimized, right? To this end,
+
+716
+01:31:55,000 --> 01:32:04,040
+ if you need to do a fractional factor which is non-integer, if you have to use some down-sampling,
+
+717
+01:32:04,040 --> 01:32:10,600
+ up-sampling, make sure you do interpolation first. Always up first and then down. All right, this is
+
+718
+01:32:10,600 --> 01:32:16,280
+ the principle. So a general pipeline for conversion will be the following, right? You will have an
+
+719
+01:32:16,280 --> 01:32:22,440
+ interpolation in the first place and then up-sam- sorry, a decimator in the second place.
+
+720
+01:32:23,960 --> 01:32:30,759
+ And if they give you the i and d, you can compute the factor conversion here, i divided by d,
+
+721
+01:32:30,759 --> 01:32:38,200
+ right? You can use your own i, your own d to design a specific rate. Okay? Make sense?
+
+722
+01:32:39,160 --> 01:32:47,639
+ All right. So now, like I mentioned, you must do interpolation before and then followed by
+
+723
+01:32:47,639 --> 01:32:51,400
+ decimation. This is to preserve the design of the spectrum characteristics, right? You don't want to
+
+724
+01:32:51,400 --> 01:32:56,200
+ lose things first. You want to gain first and then lose, right? This is the principle.
+
+725
+01:32:58,360 --> 01:33:06,200
+ So both operators, right? Both filters, hd and h... Okay. The interesting part is this. If you do
+
+726
+01:33:06,200 --> 01:33:10,599
+ interpolation first and decimator first, you will find that actually these two guys,
+
+727
+01:33:11,559 --> 01:33:18,840
+ are actually one after the other, right? These two filters are next to each other. In other words,
+
+728
+01:33:18,840 --> 01:33:24,040
+ there's no rate change in the filtering process. You have two filters, no rate change, and they're
+
+729
+01:33:24,040 --> 01:33:29,240
+ just one after the other, right? So it gives you some idea that it can be combined, right? You have
+
+730
+01:33:29,240 --> 01:33:35,080
+ two low pass filter, one after the other, right? So what's the point of apply two times? You can
+
+731
+01:33:35,080 --> 01:33:40,200
+ apply one times, right? You know, if they're both ideal for filter, right? You can just do it one
+
+732
+01:33:40,200 --> 01:33:47,400
+ time. So in fact, that's always what we do, right? So we're going to do a combined filtering, which
+
+733
+01:33:47,400 --> 01:33:54,680
+ is before the down sampling and after the up sampler, right? This is going to replace the two
+
+734
+01:33:54,680 --> 01:33:59,320
+ together, right? This is actually anti-amidgen. This is anti-aliasing. You just need one filter
+
+735
+01:33:59,320 --> 01:34:08,280
+ to get rid of both. But these combined filter must capture the highest sampling rate in the system.
+
+736
+01:34:08,280 --> 01:34:15,080
+ So in other words, if you have, let's say, you know, two filters, right? I don't know, one, let's say
+
+737
+01:34:15,080 --> 01:34:21,960
+ one is actually, how should I say, pi divided by i, the other one is pi divided by d, right? If i is
+
+738
+01:34:21,960 --> 01:34:27,400
+ not equal to d, you must pick the one, for example, i and d, which is actually larger, right? i and d,
+
+739
+01:34:27,400 --> 01:34:32,360
+ either one, if it's i is larger, you have to do pi divided by i, right? If d is larger, you have to do
+
+740
+01:34:32,360 --> 01:34:36,679
+ pi divided by d, right? So this is also easy to understand because you have two low-pass filter,
+
+741
+01:34:36,679 --> 01:34:42,759
+ right? You have two plus low-pass filter multiplied together, always the narrow passband will wings,
+
+742
+01:34:42,759 --> 01:34:49,559
+ right? So in other words, either way, d or i, you take the maximum and you can compute the overall
+
+743
+01:34:49,559 --> 01:34:55,480
+ color frequency, right? So after merging, you're going to have a pipeline like this, right? After
+
+744
+01:34:55,559 --> 01:35:01,400
+ sampling, low-pass filter together combined and then done sampling, right? So this will be the
+
+745
+01:35:01,400 --> 01:35:09,240
+ overall pipeline and make sure the color frequency for this guy will be the minimum of the two,
+
+746
+01:35:10,759 --> 01:35:18,360
+ right? In other words, if you have a pi divided by, you know, something, let's say n, right? So n will
+
+747
+01:35:18,360 --> 01:35:28,599
+ be the maximum of the, you know, i and d, right? So maximum i and d, right? So whatever color frequency
+
+748
+01:35:28,599 --> 01:35:42,599
+ is smaller, you stick to it. The other one doesn't matter, right? Okay? So in this case, right? So
+
+749
+01:35:43,000 --> 01:35:55,720
+ in the, let me see, output of the, oh, okay. So if this case output of the op sampler here,
+
+750
+01:35:56,360 --> 01:36:03,480
+ this guy will be, let's talk about the time domain frequency, time domain, right? First, right? We
+
+751
+01:36:03,480 --> 01:36:08,920
+ go through every step, right? So the v here will be, apparently, for, we followed the op sampler,
+
+752
+01:36:09,000 --> 01:36:16,920
+ right? Like the time domain representation like this, right? And after the low-pass filter,
+
+753
+01:36:16,920 --> 01:36:22,600
+ so this step, right? Low-pass filter itself is actually a time invariant process. So we take the
+
+754
+01:36:22,600 --> 01:36:28,760
+ output of the v and pass through a low-pass filter. In time domain, this is a convolution, right? You
+
+755
+01:36:28,760 --> 01:36:36,040
+ convolve your v with h. And if you write down the convolution, this will be the form, right? Following
+
+756
+01:36:36,840 --> 01:36:46,760
+ form. But of course, your vx, or in this case vk, will not be nonzero everywhere, right? They will
+
+757
+01:36:46,760 --> 01:36:53,160
+ only be nonzero when the l is integer of the i, right? So in this case, you can change the variable
+
+758
+01:36:53,160 --> 01:37:00,040
+ from k to ki, right? And only the ki will give you nonzero output. Other one will be zero,
+
+759
+01:37:00,040 --> 01:37:05,960
+ so they can be killed, right? So the output time domain after the low-pass filter will be
+
+760
+01:37:06,760 --> 01:37:12,040
+ this 4.3, right? So let's stick to the time domain first. Later, we'll talk about the frequency
+
+761
+01:37:12,040 --> 01:37:17,560
+ domain, right? And then, you know, down sampling will be something very straightforward. You can
+
+762
+01:37:17,560 --> 01:37:24,600
+ just, you know, output down sampling by scanning the index by m, right? So this one will give you
+
+763
+01:37:24,600 --> 01:37:30,760
+ the final output in the time domain, right? So there's also some kind of factoring, how should I
+
+764
+01:37:30,760 --> 01:37:35,640
+ say, in my original slides, there's adding some of the factor like you'll get a zero, get some kind
+
+765
+01:37:35,640 --> 01:37:39,720
+ of off-the-grade elements. I remove it because I don't want to bring your troubles, right? But
+
+766
+01:37:39,720 --> 01:37:43,960
+ mathematically, this is the form. You don't have to deal with those off-the-grade effects. I won't
+
+767
+01:37:43,960 --> 01:37:49,400
+ give you the test on that. But I wish you to understand how from time domain we go from all the way
+
+768
+01:37:49,400 --> 01:37:57,000
+ here to the end, right? This is something you need to know. From step to step, right? How the
+
+769
+01:37:57,000 --> 01:38:02,200
+ up sampling works, how the low-pass works, and how the down sampling works, all right? Mathematically,
+
+770
+01:38:03,000 --> 01:38:09,559
+ now we want to look at visually, right? Visually what happens? You know, you should be able to do
+
+771
+01:38:09,559 --> 01:38:14,679
+ this because this is nothing but a combination of the visual change of the interpolation plus the
+
+772
+01:38:14,680 --> 01:38:22,280
+ decimation, all right? So let's take this example where you have a two times up sampling followed
+
+773
+01:38:22,280 --> 01:38:28,920
+ by a low-pass filter and followed by a down sampling of five, right? So initially, this is my x,
+
+774
+01:38:28,920 --> 01:38:37,240
+ right? My input spectrum. So I want to get the spectrum after the up sampling. So what should
+
+775
+01:38:37,240 --> 01:38:51,400
+ we do? Remember for up sampling, what should we do? So for up sampling, what we actually did is
+
+776
+01:38:51,400 --> 01:38:59,000
+ actually adding the components, right, to the... Wait, why? This is increased. Let me see.
+
+777
+01:38:59,960 --> 01:39:09,880
+ Wait a second. Why? There should be adding some components to it, right?
+
+778
+01:39:13,720 --> 01:39:18,360
+ Oh, because this is... Okay, so this is actually... Okay, I was wrong. This is before the anti-image
+
+779
+01:39:19,560 --> 01:39:24,040
+ filters, right? So ideally, if you're doing this, you should add components to the middle, right?
+
+780
+01:39:24,040 --> 01:39:28,440
+ But here, this is actually the images. I haven't get rid of images because this is actually without
+
+781
+01:39:28,440 --> 01:39:34,360
+ applying anti-image filter, right? So this is just up sampling. But after that, you need to design
+
+782
+01:39:35,240 --> 01:39:39,480
+ this guy very carefully, right? So this is actually the spectrum of the filter. So the
+
+783
+01:39:39,480 --> 01:39:45,400
+ filter must be capturing the anti-image filter from this guy and also the anti-aliative filter
+
+784
+01:39:45,400 --> 01:39:51,480
+ from this guy, right? So now you have a factor of two and a factor of five. You need to make a
+
+785
+01:39:51,480 --> 01:39:55,960
+ decision, right? What is the color frequency of your overall low-pass filter in the middle,
+
+786
+01:39:56,520 --> 01:40:04,280
+ okay? So we say that the principle will be taking the minimum, oops, where's my mouse,
+
+787
+01:40:04,280 --> 01:40:10,760
+ taking the minimum of the two, right? So in other words, you need to compare the i and d,
+
+788
+01:40:11,480 --> 01:40:19,640
+ right? In this case, your i is two, your d is five. In this case, your color frequency must be
+
+789
+01:40:20,440 --> 01:40:26,280
+ maximum of the two, right? So in other words, it must be pi over five, right? Because pi over five
+
+790
+01:40:26,280 --> 01:40:32,520
+ is smaller than pi over two. So your color frequency must be pi over five here. So you need to have a
+
+791
+01:40:32,520 --> 01:40:37,880
+ low-pass filter that's satisfying not only the anti-image filter, but also the anti-aliasing
+
+792
+01:40:37,880 --> 01:40:45,240
+ filter, right? So in this case, make sure your combined filter will be limited to zero from zero
+
+793
+01:40:45,880 --> 01:40:51,320
+ to pi over two, pi over five, right? But of course, as you can see here, this is not an ideal low-pass
+
+794
+01:40:51,320 --> 01:40:56,280
+ filter, right? This is actually slightly not ideal filter. But anyway, it is still within the pi
+
+795
+01:40:56,280 --> 01:41:05,480
+ over five. So you can apply this filter to the original input here, right? And by doing so,
+
+796
+01:41:06,760 --> 01:41:12,920
+ anything within here will be killed, right? So only in this part will it be limited to
+
+797
+01:41:12,920 --> 01:41:20,040
+ pi over five will survive, right? This is actually a filtered image here, right? Filter signal here.
+
+798
+01:41:21,800 --> 01:41:28,680
+ And now because it is band limited to pi over five, now if you do a down-sampling or a decimation
+
+799
+01:41:28,680 --> 01:41:35,480
+ here, it will be safe because already this is pi divided by five limited. So when you create, let's
+
+800
+01:41:35,480 --> 01:41:41,960
+ say, five replicas in the middle, you will not have overlap, right? So this is actually the final
+
+801
+01:41:41,960 --> 01:41:48,680
+ output we have, like here, right? But the important part is this filter. You have to make sure this
+
+802
+01:41:48,680 --> 01:41:55,960
+ filter is properly chosen, right? And the color frequency must be the minimum of the two from the
+
+803
+01:41:56,520 --> 01:41:59,880
+ down-sampling, from up-sampling, from down-sampling, you compare the two,
+
+804
+01:41:59,880 --> 01:42:04,840
+ whichever give you the smaller kind of color frequency, you use that one, right? This is actually
+
+805
+01:42:04,840 --> 01:42:11,720
+ how you can design it. But this figure shows you a pipeline, right? Gradually going from the input
+
+806
+01:42:11,720 --> 01:42:19,880
+ all the way to output and they give you the visual change, right? Okay? All right, so be
+
+807
+01:42:19,880 --> 01:42:25,720
+ prepared for some questions like this, you know, and make sure you know how to choose the, you know,
+
+808
+01:42:25,720 --> 01:42:29,560
+ the color frequency, right? I may not give you something very obvious, but you should use this
+
+809
+01:42:29,560 --> 01:42:39,960
+ principle to make a decision, okay? All right. Change bias. Oh, of course, you know, here you
+
+810
+01:42:39,960 --> 01:42:44,360
+ can actually scale it, right? But for this case, it doesn't matter, right? You can use one. The more
+
+811
+01:42:44,360 --> 01:42:49,640
+ important thing is make sure the waveform is not distorted, right? But in principle, you can also
+
+812
+01:42:49,640 --> 01:42:55,880
+ use a constant scanning, not necessarily one, right? Okay, so this will summarize, right? So far,
+
+813
+01:42:55,880 --> 01:43:04,520
+ we have learned three cases, okay? Three different cases. Decimation, interpolation by integer, right?
+
+814
+01:43:04,520 --> 01:43:11,160
+ Just one component, we'll do. Basic component. By combining the two, you can also implement a
+
+815
+01:43:11,160 --> 01:43:16,920
+ fractional of the change, right? And you can do a interpolation followed by a decimation
+
+816
+01:43:17,560 --> 01:43:23,800
+ to reach a ratio of the integers, right? So in principle, you can do any rate, any rate of up
+
+817
+01:43:23,800 --> 01:43:29,400
+ sampling or any rate of down sampling, right? By designing the ratio property. And you need to
+
+818
+01:43:29,400 --> 01:43:35,559
+ understand how the things are changed, right, in time domain and also in the frequency domain,
+
+819
+01:43:36,120 --> 01:43:43,080
+ right? And for decimation and interpolation, the order is different, right? Decimation, just like,
+
+820
+01:43:43,080 --> 01:43:48,679
+ okay, just now I was talking to some of the students, right? So you can actually refer this back to
+
+821
+01:43:48,679 --> 01:43:53,320
+ the lecture one we talked about, right? If you remember lecture one, we say this is actually
+
+822
+01:43:53,320 --> 01:43:59,320
+ the pipeline for sampling. And if you remember the sampling pipeline, I'm saying that we will have a
+
+823
+01:43:59,879 --> 01:44:06,599
+ sampling stage and the reconstruction stage. And in fact, this sampling stage is very like
+
+824
+01:44:07,240 --> 01:44:12,679
+ the decimation we're talking about, right, if you remember here. This is the decimation we talk
+
+825
+01:44:12,679 --> 01:44:17,960
+ about here, right? And the pipeline, I think it is in followed by down sampling, is very similar to
+
+826
+01:44:17,960 --> 01:44:24,360
+ A2D process. Why? Because you can actually view analog signal as a discrete signal with
+
+827
+01:44:24,360 --> 01:44:30,280
+ infinity large rate, right? Just make the points very dense. It's going to give you something
+
+828
+01:44:30,280 --> 01:44:37,080
+ like a discrete signal. So this kind of risk is there, right? Both in the sampling and down
+
+829
+01:44:37,080 --> 01:44:43,080
+ decimation, if you are decimating image or the signals too aggressively, right? In this case,
+
+830
+01:44:43,080 --> 01:44:49,400
+ not high enough sampling rate. In the decimation case, too large ratio when you do down sampling,
+
+831
+01:44:49,400 --> 01:44:56,200
+ right? And correspondingly, the reconstruction stage is very similar to the interpolation stage
+
+832
+01:44:56,200 --> 01:45:03,320
+ here. If you treat the analog signal as a super high or infinity large sampling rate, rate of
+
+833
+01:45:03,879 --> 01:45:08,200
+ discrete signal, interpolation is just like reconstruction, right? You are going from lower
+
+834
+01:45:08,200 --> 01:45:13,879
+ rate to higher rate. So you can actually relate that to, right? That will help you to memorize why
+
+835
+01:45:14,760 --> 01:45:20,440
+ filter must be before or after the operator, right? It's the same principle, okay? So, but
+
+836
+01:45:20,440 --> 01:45:27,960
+ basically, for today's lecture, you have to be very sure about the order and you have to be very
+
+837
+01:45:27,960 --> 01:45:32,120
+ sure about the relationship not only in the time but also in the frequency domain, right? So both
+
+838
+01:45:32,120 --> 01:45:41,320
+ of them you must be able to derive and use, right? And the filter, right? For both scenarios,
+
+839
+01:45:41,320 --> 01:45:46,679
+ the filter matters and the filter color frequency will be in terms of the sampling frequency
+
+840
+01:45:47,400 --> 01:45:51,559
+ for decimation and output sampling frequency for interpolation, right? So you have to be able
+
+841
+01:45:51,559 --> 01:45:58,040
+ to determine the color frequencies. And when we talk about the conversion of the ratio, right?
+
+842
+01:45:58,040 --> 01:46:03,160
+ These in needle filter, you have to check which one give you a smaller color frequency, right? In
+
+843
+01:46:03,160 --> 01:46:07,639
+ other words, is D larger or I larger, right? You pick the larger one which gives you the smaller
+
+844
+01:46:08,280 --> 01:46:13,160
+ frequency and that one becomes the overall color frequency amongst the two, right? So it's going
+
+845
+01:46:13,160 --> 01:46:18,760
+ to be minimum of the two, determining the low pass filter in the middle, right? So this is like a
+
+846
+01:46:18,760 --> 01:46:24,920
+ summary so far but if you know the three cases, you are all good for multi-rate processing, right?
+
+847
+01:46:24,920 --> 01:46:29,800
+ Not by design filter but by, you know, formulating the mathematical relationship, right? It should
+
+848
+01:46:29,800 --> 01:46:36,360
+ be fine, right? Basically, you can do anything, all right? So make sure you know them. Let me say
+
+849
+01:46:36,440 --> 01:46:41,080
+ this again. You will have a question on this part, you know, for sure. So if you're not familiar with
+
+850
+01:46:41,080 --> 01:46:45,880
+ that, you know, better check it or you can ask me, right? I'm happy to take any questions. Okay, now
+
+851
+01:46:46,839 --> 01:46:50,360
+ the second part of today's, actually the third part for today's lecture is that
+
+852
+01:46:51,240 --> 01:46:56,839
+ now we know mathematically how you can do up sampling, you can do down sampling, you can do
+
+853
+01:46:56,839 --> 01:47:04,599
+ any rate. Now how can we implement this in the system, right? So what is actually the
+
+854
+01:47:04,600 --> 01:47:08,120
+ way we should implement that? Just like when we implement the filters, right? We learn the
+
+855
+01:47:08,120 --> 01:47:13,880
+ ideal path filter but we say, well, to implement that, we need to do FIR, right? So here, if we want
+
+856
+01:47:13,880 --> 01:47:20,920
+ to implement a multi-rate system, what should we do in practice, right? So in practice,
+
+857
+01:47:23,080 --> 01:47:28,680
+ you know, when we design that, you have to think about efficiency, right? Efficiency is always the
+
+858
+01:47:28,680 --> 01:47:35,080
+ consideration for actual implementation. So if you stick to very high rate, because we're going
+
+859
+01:47:35,080 --> 01:47:41,400
+ to change the rate from time to time, right? If you stick to the high rate, there is a need to
+
+860
+01:47:41,400 --> 01:47:47,640
+ have a faster DSP, right, in principle. In other words, you have to pay more for the computational
+
+861
+01:47:47,640 --> 01:47:55,880
+ resource, right? So actually, if you want to do the same thing, right, deal with like very high rate
+
+862
+01:47:55,880 --> 01:48:02,120
+ without paying too much or in other words, less computational complexity, right? You actually
+
+863
+01:48:02,120 --> 01:48:07,240
+ need to minimize the cost for the acceptable performance, right? So basically, you have to
+
+864
+01:48:07,240 --> 01:48:13,240
+ control the rate. On one side, you will have implemented the desired multi-rate system. On the
+
+865
+01:48:13,240 --> 01:48:19,800
+ other hand, you have to accept doing some minimum rate to get the acceptable performance, right?
+
+866
+01:48:19,800 --> 01:48:26,120
+ So this is actually the design principle. So if we consider the pipeline we just look at here,
+
+867
+01:48:27,720 --> 01:48:34,840
+ normally the way you do that is by first increase the rate by i, right? And by doing so, you have
+
+868
+01:48:34,840 --> 01:48:40,920
+ to somehow implement insertion of i minus 1 0s. Remember, we are talking about adding 0 to 2
+
+869
+01:48:40,920 --> 01:48:46,760
+ adjacent measurements for my input, right? So that's how you can achieve the signal after
+
+870
+01:48:46,840 --> 01:48:53,400
+ up some point, right? But eventually, you need to do down some point, right? You eventually have to
+
+871
+01:48:53,400 --> 01:49:01,480
+ remove the numbers, remove the elements from the input signals, right? So this one gives you some
+
+872
+01:49:01,480 --> 01:49:05,960
+ kind of inefficiency, right? Because anywhere you are going to remove it, why do you need to add
+
+873
+01:49:05,960 --> 01:49:11,560
+ things in the first place, right? So just like if you think about FFT, right, when we say FFT can
+
+874
+01:49:11,560 --> 01:49:19,640
+ speed up the DFT, it's the same principle. Sometimes you have to do some repeated computation.
+
+875
+01:49:19,640 --> 01:49:25,560
+ That's where the redundancy comes from. And if you can identify that kind of space, it gives you
+
+876
+01:49:25,560 --> 01:49:30,440
+ some room to improve, right? So similar here, if we know that we're going to remove some elements
+
+877
+01:49:30,440 --> 01:49:35,240
+ eventually, right? You don't have to maybe you don't have to insert too many 0s in the beginning,
+
+878
+01:49:35,240 --> 01:49:40,520
+ right? This will give you some room to improve. So in this case, where you think this is actually
+
+879
+01:49:40,520 --> 01:49:48,040
+ very inefficient because only one out of I input is 0, right? Because here you actually
+
+880
+01:49:48,040 --> 01:49:54,840
+ have sampled I time. So in I adjacent elements, only one is nonzero, right? This is actually one
+
+881
+01:49:54,840 --> 01:50:02,520
+ of the inefficient parts. And also consider the output stage. Out of D filtered output,
+
+882
+01:50:02,520 --> 01:50:06,520
+ only one is going to be output, right? So you actually take only one measurement,
+
+883
+01:50:06,520 --> 01:50:12,520
+ out of D adjacent measurements. So in this case, even though you don't really need a signal in
+
+884
+01:50:12,520 --> 01:50:17,640
+ such a high rate, you have to somehow operate everything in the highest possible sampling
+
+885
+01:50:17,640 --> 01:50:23,000
+ rate in the system. So this is actually the place where the redundancy comes from, right?
+
+886
+01:50:23,720 --> 01:50:30,280
+ And the design is actually trying to find the efficient implementation, right? To reduce the
+
+887
+01:50:30,280 --> 01:50:36,440
+ total computational complexity while preserving the accurate output, right? This is where the
+
+888
+01:50:36,440 --> 01:50:42,759
+ efficiency comes from, right? So the solution for that, I mean not only a solution, but one of
+
+889
+01:50:42,759 --> 01:50:49,880
+ the solution for it is to introduce so-called multi-phase filter structure, okay? So let me first
+
+890
+01:50:49,880 --> 01:50:56,920
+ explain what is polyphase, all right? So we talk about multi-rate, okay? Multi-rate is up
+
+891
+01:50:56,920 --> 01:51:02,440
+ sampling, down sampling, right? That's like how fast you are processing the signal, okay? Now
+
+892
+01:51:03,160 --> 01:51:07,240
+ polyphase is different from multi-rate, even though this sounds very similar, right? But it's not,
+
+893
+01:51:07,240 --> 01:51:13,400
+ okay? Phase is not equal to rate, okay? Phase, think about, we talk about signal,
+
+894
+01:51:13,400 --> 01:51:18,920
+ z-transform, right? Phase shift, okay? I hope you still remember what is phase shift, right? Phase
+
+895
+01:51:18,920 --> 01:51:23,640
+ shift is nothing but z to the power of minus 1 or z to the power of minus 2, right? You have some kind
+
+896
+01:51:23,640 --> 01:51:30,760
+ of a change of the phase in the frequency domain, right? If you shift the phase to some kind of a
+
+897
+01:51:30,760 --> 01:51:38,200
+ delay, it's going to give you a phase change, right? So here the polyphase filter structure is
+
+898
+01:51:38,200 --> 01:51:45,080
+ saying that we're not going to only do one branch without any phase change. We're going to do multi-
+
+899
+01:51:45,080 --> 01:51:52,440
+ branch and every branch with some phase change and together they can implement a multi-rate system.
+
+900
+01:51:52,440 --> 01:51:57,799
+ But every branch, due to the phase change, I don't have to run in an extremely high rate,
+
+901
+01:51:58,599 --> 01:52:03,000
+ right? This is the principle. You kind of divide and conquer. You have to, you originally have to
+
+902
+01:52:03,000 --> 01:52:09,240
+ do a very high-rate processing, but you divide that into multiple phase versions of the signal
+
+903
+01:52:09,240 --> 01:52:14,759
+ processing. Every branch hopefully can lower the rate, all right? So this is where the polyphase
+
+904
+01:52:14,759 --> 01:52:22,040
+ come from. So mathematically, right, the polyphase processing structures the following. So consider
+
+905
+01:52:22,440 --> 01:52:30,040
+ let's say I have a filter, right, which is Hn. So I originally, I have to implement Hn in the way
+
+906
+01:52:30,040 --> 01:52:36,519
+ that, you know, you have to, you can actually generate, let's say maybe an IR or FIR in the way
+
+907
+01:52:36,519 --> 01:52:42,519
+ of representing this in the transfer function, right? This is my original transfer function.
+
+908
+01:52:42,519 --> 01:52:45,800
+ So I hope you still remember what is transfer function, right? You do a z transform of your
+
+909
+01:52:46,280 --> 01:52:51,720
+ impulse response because, you know, the transfer function. Originally I have to do, you know,
+
+910
+01:52:51,720 --> 01:52:59,720
+ maybe a rate is very high, but I can actually decompose it into, let's say, not from,
+
+911
+01:52:59,720 --> 01:53:05,720
+ they say zero order, first order, third order. I will do zero order, then directly M order,
+
+912
+01:53:06,440 --> 01:53:12,360
+ and then, you know, two M order, something like that. So now you see that the number of measurements
+
+913
+01:53:12,360 --> 01:53:18,920
+ here in every term becomes lower, right? So in other words, originally it's actually H0,
+
+914
+01:53:18,920 --> 01:53:26,920
+ H1, H2, all the way to HM. Now I only sample at H0 and the HM, right? So in some way you are lower
+
+915
+01:53:26,920 --> 01:53:34,440
+ the rate in this term, right? Let me just use a pointer. So no, actually the pointer here. So
+
+916
+01:53:34,440 --> 01:53:42,839
+ this term alone, right, I'm separating only sample at M number of lower rate. I separate that,
+
+917
+01:53:42,839 --> 01:53:48,679
+ this color, like a zero phase term, I will have a lower rate kind of a filter, right? But of course,
+
+918
+01:53:48,679 --> 01:53:56,839
+ I have to deal with other term. So the second term will be sampled at H1, HM plus one, maybe H2M
+
+919
+01:53:56,839 --> 01:54:02,280
+ plus one, something like that, right? But of course I need to make a phase shift beforehand.
+
+920
+01:54:02,840 --> 01:54:08,519
+ If you multiply this in, this one gives you the first order term, right? This one gives you the
+
+921
+01:54:08,519 --> 01:54:14,920
+ M plus one order term, all right? But I can take it out. I will have a correspondingly a
+
+922
+01:54:15,719 --> 01:54:22,280
+ down sampled version of my impulse response, okay? I hope this makes sense for everyone, right?
+
+923
+01:54:23,000 --> 01:54:29,080
+ So by doing so, you can do this for, let's say, z to the power of minus one, z to the power of minus
+
+924
+01:54:29,080 --> 01:54:35,559
+ two, all the way to z to the power of minus M minus one, right? You extract that into M different
+
+925
+01:54:35,559 --> 01:54:45,400
+ branches, okay? Every branch becomes a lower rate processing, okay? I hope, I don't know whether this
+
+926
+01:54:45,400 --> 01:54:51,240
+ confuses you or make it clear, right? But basically, I'm doing nothing but separating all of these
+
+927
+01:54:51,240 --> 01:54:59,000
+ components into M groups, all right? So every line is a group. So every group will have fewer
+
+928
+01:54:59,000 --> 01:55:05,080
+ number of impulse here, exactly one over M number of impulse. So it's actually lower rate because
+
+929
+01:55:05,080 --> 01:55:12,440
+ you're processing this every M, you know, impulse, right? But you are going to do M groups. So it's
+
+930
+01:55:12,440 --> 01:55:18,360
+ not only one group, but M groups. So it's going to divide the entire high rate processing into
+
+931
+01:55:18,360 --> 01:55:25,960
+ M number of lower rate processing. This is what the polyphase is doing, right? So in this case,
+
+932
+01:55:27,240 --> 01:55:32,040
+ you are formed the corresponding representation of the polyphase structure mathematically, right?
+
+933
+01:55:33,240 --> 01:55:42,679
+ And you can actually, the components P here. So let me see, okay. So this is original form, right?
+
+934
+01:55:42,680 --> 01:55:51,880
+ But if you look at the expression every, in every term, right? This is corresponding to the subsample
+
+935
+01:55:51,880 --> 01:55:57,800
+ version of your initial, sorry, it's not subsample version, but it's actually a version that is
+
+936
+01:55:57,800 --> 01:56:04,760
+ lower, right? Remember, if you do a down sampling, it's the same as you change the variable to Z to
+
+937
+01:56:04,760 --> 01:56:10,440
+ power of M, right? If you're doing down sampling M times. So you can view these four filter in every
+
+938
+01:56:10,440 --> 01:56:19,160
+ branch as a corresponding filter P, let's say P0, P1, P2, P3, but down sample version, right? So this
+
+939
+01:56:19,160 --> 01:56:26,040
+ is your M down sample version of the filter P0, P1, P2, then sum them together. Okay. So basically,
+
+940
+01:56:26,040 --> 01:56:32,280
+ I'm just changing the variable. I'm just calling the whole thing here as the P0 Z to power of M,
+
+941
+01:56:32,280 --> 01:56:38,360
+ right? The second term here as the P1 Z to power of M. I just give the name, right? But every P here
+
+942
+01:56:38,360 --> 01:56:45,000
+ corresponding to every branch, right? Every face. And here the PI is defined as the following, right?
+
+943
+01:56:45,000 --> 01:56:52,920
+ So every PI is called a polyphase component of the entire polyphase structure, right? So I index
+
+944
+01:56:52,920 --> 01:56:59,320
+ which branch you are talking about, right? And this can be obtained by down sampling a delayed
+
+945
+01:56:59,320 --> 01:57:05,880
+ version of the original HN, right? I already mentioned to you, right? Because here the coefficients
+
+946
+01:57:05,880 --> 01:57:12,920
+ are all coming from impulse response of my original filter H. But I down sample that, right? So I
+
+947
+01:57:12,920 --> 01:57:22,920
+ sample like every M elements, right? H0, HM, H2M. So every PI can be treated as a down sample version
+
+948
+01:57:23,480 --> 01:57:32,520
+ of the delayed original filters, right? Impulse response. Okay? So as you can see, here's where the
+
+949
+01:57:32,520 --> 01:57:37,000
+ lower rate come from because I'm doing down sampling, right? I can achieve a down sample
+
+950
+01:57:37,000 --> 01:57:43,560
+ of the version of the filter that may be high rate in the beginning. All right. So by doing so,
+
+951
+01:57:44,600 --> 01:57:51,320
+ let's give you an example, right? M equals 3. I'm able to represent the original, let's say this is
+
+952
+01:57:51,320 --> 01:57:57,640
+ my original filtering, into a polyphase structure, which is going to be three terms, not only one
+
+953
+01:57:57,640 --> 01:58:04,680
+ term, but three terms. Every term corresponding to one polyphase components, right? So this actually
+
+954
+01:58:04,680 --> 01:58:13,400
+ P0 is actually corresponding to the first term, right here. So I can do P0, P1 and P2, but of
+
+955
+01:58:13,400 --> 01:58:20,600
+ course there must be a delay here, right? Phase delay here. And actually you can even extract
+
+956
+01:58:20,680 --> 01:58:26,360
+ the common factor Z minus 1 and group the next two terms, right? So why are we doing this?
+
+957
+01:58:27,400 --> 01:58:32,520
+ So if we do this and the correspondingly, if you remember the block diagram we talked about before,
+
+958
+01:58:32,520 --> 01:58:39,800
+ right? You can have a block diagram where every branch corresponding to one component of the
+
+959
+01:58:39,800 --> 01:58:47,160
+ polyphase, right? So the first component, well, take care of the first branch. So no delay,
+
+960
+01:58:47,160 --> 01:58:53,320
+ just a P0. This is my first branch, okay? The second branch you need to add a delay here, right?
+
+961
+01:58:53,320 --> 01:58:59,880
+ So this Z1 delay will deal with the second branch and this is my P1, right? And then you do another
+
+962
+01:58:59,880 --> 01:59:06,280
+ delay and the P2, right? This is my P2. So you can actually decompose a single branch high rate
+
+963
+01:59:06,280 --> 01:59:11,240
+ processing into a multi branch lower rate processing, right? This is what the polyphase is doing,
+
+964
+01:59:11,240 --> 01:59:19,480
+ okay? So in this way it's going to, I mean, of course, this is not the only way, right? So
+
+965
+01:59:19,480 --> 01:59:26,280
+ this is the block diagram directly derived from my expression. But I hope you still remember that
+
+966
+01:59:26,280 --> 01:59:34,120
+ we can actually use the equivalent form to implement the block diagram, right? So by doing so,
+
+967
+01:59:34,120 --> 01:59:38,760
+ you can actually get from here to here. So going from here to here is just like the transpose,
+
+968
+01:59:38,760 --> 01:59:43,480
+ right? If you remember, you change the input and output, you can get the transpose, right?
+
+969
+01:59:43,480 --> 01:59:51,560
+ And also you can, how should I say, you can actually, let me see what happened here, right?
+
+970
+01:59:52,760 --> 02:00:02,840
+ So he's first doing the transpose and let me see what, why he can do this one?
+
+971
+02:00:03,160 --> 02:00:19,160
+ So this is my P0, right? And then this is my P1. So he do a P1 and then, oh, he's doing time delay
+
+972
+02:00:19,160 --> 02:00:25,560
+ afterward, okay? Which is also fine. I mean, he just changed the order, right? So he's moving the
+
+973
+02:00:25,560 --> 02:00:31,480
+ time delay to the, you know, P1 but afterward and then he's doing the time delay two times. So he
+
+974
+02:00:31,480 --> 02:00:37,160
+ has to group the two and move it here. But anyway, so eventually the point is that you have multiple,
+
+975
+02:00:37,160 --> 02:00:42,679
+ equivalent way to implement the original polyphase, right? But you can always start from the direct
+
+976
+02:00:42,679 --> 02:00:47,799
+ way, right? You can just represent everything and make it a multi-bridge. But equivalent form
+
+977
+02:00:47,799 --> 02:00:50,759
+ doesn't really reduce the computational, right? It's still the same computational,
+
+978
+02:00:50,759 --> 02:00:55,879
+ but you can actually interchange between two equivalent forms, right? To implement that.
+
+979
+02:00:56,440 --> 02:01:03,720
+ But the principle, the basic idea is that they give you a way to lower the rates, right? And in this
+
+980
+02:01:03,720 --> 02:01:10,760
+ kind of a signal flow graph, it's going to give you a set of, they can always represent it in set of
+
+981
+02:01:10,760 --> 02:01:15,720
+ branches and nodes, just like when we do the block diagram, right? So here when we say branch,
+
+982
+02:01:16,680 --> 02:01:22,440
+ we are basically talking about, you know, this is actually called one branch, right? Everything is
+
+983
+02:01:22,440 --> 02:01:27,400
+ actually one branch. And nodes normally define the connection points of the branches in the structure,
+
+984
+02:01:27,400 --> 02:01:32,919
+ right? So we use nodes to describe the connection points. And we are going to use some of the
+
+985
+02:01:32,919 --> 02:01:37,639
+ components like this. So we have learned some components before, right? Addition, you know,
+
+986
+02:01:38,519 --> 02:01:43,960
+ splitting points, we also learned what is the delay, right? But now talking about the multi-rate,
+
+987
+02:01:43,960 --> 02:01:49,320
+ we're going to have something different. So we may see something like a down sampling, right? You
+
+988
+02:01:49,320 --> 02:01:53,320
+ should, you know, once you see a down sampling with D, you should know that it's a D number of kind
+
+989
+02:01:53,320 --> 02:01:59,160
+ of reducing the rate. And also there could be up sampling, which is I, right? Input output, these
+
+990
+02:01:59,160 --> 02:02:05,240
+ are pretty standard. But these two components are something new. Only appears in a multi-rate system,
+
+991
+02:02:05,240 --> 02:02:13,480
+ right? And this is a page where I show you that it's possible to manipulate some of the, you know,
+
+992
+02:02:14,599 --> 02:02:18,759
+ components, right? If you want to change the order. So I quickly go give you some idea, but
+
+993
+02:02:18,760 --> 02:02:24,040
+ feel free to read them more details, right? So for example, if you have, let's see,
+
+994
+02:02:25,400 --> 02:02:31,960
+ up sampling by L, right? And down sampling by also L, these two can cancel each other, right? I
+
+995
+02:02:31,960 --> 02:02:35,960
+ hope this makes sense to most of you, right? You have up sampling and you down sampling. So if
+
+996
+02:02:35,960 --> 02:02:41,880
+ it's the same rate, you can cancel each other, right? Do I need to explain this? I mean,
+
+997
+02:02:41,880 --> 02:02:45,240
+ it should be very straightforward. You're adding zero and then you remove zero, right? You got the
+
+998
+02:02:45,240 --> 02:02:52,840
+ same thing, all right? Same for, but, okay, if you do up sampling first and down sampling,
+
+999
+02:02:52,840 --> 02:02:58,920
+ they can cancel each other, all right? But if you have down sampling first and then up sampling,
+
+1000
+02:02:58,920 --> 02:03:05,559
+ all right? This you have to be very careful, right? Because you may get some zeros, okay? Why?
+
+1001
+02:03:05,559 --> 02:03:11,880
+ Because you see, you are losing information first and then you're adding zero to it. You cannot get
+
+1002
+02:03:11,960 --> 02:03:17,480
+ back to the original signal, right? So you have the same rate, but there will be many zero in between,
+
+1003
+02:03:18,280 --> 02:03:24,840
+ okay? So this is also the idea when you do like a fracture of the rates, you have to first do
+
+1004
+02:03:24,840 --> 02:03:30,440
+ interpolation and then decimation. If not, you're going to end up many zeros in between. So by doing
+
+1005
+02:03:30,440 --> 02:03:36,520
+ so, combine the two, I'll give you only non-zero, only one at the point where n equal to the integer
+
+1006
+02:03:36,520 --> 02:03:42,360
+ number of n, right? It's not equal to the original signal, right? This is the rate you have to be
+
+1007
+02:03:42,360 --> 02:03:46,600
+ bearing in mind, right? And the other thing is such as if you have down sampling followed by another
+
+1008
+02:03:46,600 --> 02:03:50,920
+ down sampling, you can combine the two, right? This should be easy. And the combination is by
+
+1009
+02:03:50,920 --> 02:03:55,640
+ multiply the factor, right? Up sampling is the same. You can multiply them together. But I mean,
+
+1010
+02:03:55,640 --> 02:04:00,280
+ I won't go through everyone, but you just check them one by one. But these are some of the common
+
+1011
+02:04:00,280 --> 02:04:06,599
+ operators that you can apply and play with the block diagram which involves multirate processing,
+
+1012
+02:04:06,599 --> 02:04:12,679
+ right? Make sure you are convinced by everyone, okay? You may need to use it. But I want to really
+
+1013
+02:04:12,679 --> 02:04:18,200
+ emphasize the following things, right? This is called noble identity, okay? This is the most
+
+1014
+02:04:18,200 --> 02:04:22,840
+ important identity we are going to introduce because very likely we're going to use them
+
+1015
+02:04:22,840 --> 02:04:28,360
+ anytime to, you know, get rid of this, you know, different kind of a rate conversion, right? So
+
+1016
+02:04:28,360 --> 02:04:35,320
+ what does that mean? It basically means we want to prove the equivalence of the left figure. So
+
+1017
+02:04:35,320 --> 02:04:43,719
+ here. So what does that mean? So it means I will, if I first do down sampling followed by a filter,
+
+1018
+02:04:43,719 --> 02:04:47,719
+ right? I mean, this is not a conventional way. Conventionally, we have to do anti-aliasing first
+
+1019
+02:04:48,360 --> 02:04:55,559
+ followed by down sampling, right? But if we have a down sampling first followed by a low pass filter,
+
+1020
+02:04:55,560 --> 02:05:02,440
+ right? You want to make it correct. You want to change the order to make it low pass first,
+
+1021
+02:05:02,440 --> 02:05:09,400
+ down sampling second. How can I make the two equivalent? So you can swap the order, but
+
+1022
+02:05:10,360 --> 02:05:17,640
+ the low pass filter must be changed the rate. Okay, you can see that the difference here is
+
+1023
+02:05:17,640 --> 02:05:24,840
+ originally this is my HZ, right? This is after the down sample version. But if I swap the order,
+
+1024
+02:05:24,840 --> 02:05:30,280
+ I still have a low pass filter in beforehand. But if you see that the rate of my low pass
+
+1025
+02:05:30,280 --> 02:05:39,480
+ filter has already been D times. Okay. All right. So you can prove it, but I give you some intuition,
+
+1026
+02:05:39,480 --> 02:05:44,680
+ right? So you have a filtering filter, which is in the low rate version of the signal.
+
+1027
+02:05:45,560 --> 02:05:50,280
+ Now I have to do a equivalent filtering in the high rate version of the signal,
+
+1028
+02:05:51,160 --> 02:05:56,440
+ which means if you want to do the same thing, you have to make the low pass filter also high rate.
+
+1029
+02:05:57,080 --> 02:06:00,759
+ You have to match the rate. So in this case, every time if you want to bring
+
+1030
+02:06:01,480 --> 02:06:06,200
+ beforehand your low pass filter across the down sampling, you have to increase the rate
+
+1031
+02:06:07,000 --> 02:06:11,320
+ of your low pass filtering, which is by changing the Z to Z to the power of D.
+
+1032
+02:06:11,960 --> 02:06:17,080
+ Right? Remember, if you do Z to the power of D, you are enlarging the omega by D times, right?
+
+1033
+02:06:17,640 --> 02:06:24,920
+ This is how you modify your filters. Okay? And similarly, if now I want to do the same thing
+
+1034
+02:06:24,920 --> 02:06:30,200
+ for the up sampling, right? We just learned that for up sampling, the entire image filter must be
+
+1035
+02:06:30,200 --> 02:06:35,000
+ after the up sampling operator, right? But somehow if your filter is before it,
+
+1036
+02:06:36,040 --> 02:06:42,920
+ and you want to bring it back, bring it forward to the afterward position, you also need to change
+
+1037
+02:06:42,920 --> 02:06:49,480
+ the rate. Why? The similar reason, right? Originally, I'm doing the low pass filter in the low rate
+
+1038
+02:06:49,480 --> 02:06:53,800
+ version before up sampling. Now I want to do the similar thing in the high rate version.
+
+1039
+02:06:54,680 --> 02:06:59,720
+ I have to increase my filtering rate correspondingly by eye time.
+
+1040
+02:07:02,840 --> 02:07:10,600
+ Okay? Let me repeat, right? So the novel identity tells you the way to make the equivalent filtering
+
+1041
+02:07:10,600 --> 02:07:16,920
+ if you want to swap the order between up sampling, down sampling, and the low pass filter. It gives
+
+1042
+02:07:16,920 --> 02:07:22,280
+ you the guidance. If you want to swap, how can I change my filter accordingly? So they won't be the
+
+1043
+02:07:22,280 --> 02:07:30,280
+ same filter, right? The only change is the rate of the filter. So if you want to bring the filter
+
+1044
+02:07:30,280 --> 02:07:34,920
+ to the in front of the down sampling, you have to increase the rate. Similarly, if you want to bring
+
+1045
+02:07:34,920 --> 02:07:39,800
+ the filter after the up sampling, you have to increase the rate. The rate will be correspondingly
+
+1046
+02:07:39,800 --> 02:07:46,440
+ to the up sampling and down sampling rate because the whole idea is to match the corresponding
+
+1047
+02:07:46,440 --> 02:07:51,720
+ rate of the signal, right? Every time you do rate change, the signal rate will be different.
+
+1048
+02:07:52,360 --> 02:07:58,200
+ Your low pass filter will also be the matched rate. So this is the corresponding scaling, right?
+
+1049
+02:08:00,680 --> 02:08:07,240
+ So this will be, if I ask you, right? If I ask me, this is the most important property to play
+
+1050
+02:08:07,240 --> 02:08:13,000
+ with the Bloch diagram. So make sure you know it. If you can, you can prove it. So I won't really
+
+1051
+02:08:13,000 --> 02:08:17,800
+ go to the proof, but you can check them if you want, right? Basically, you can mathematically
+
+1052
+02:08:17,800 --> 02:08:22,679
+ derive, right? If you change the order, what happened? But I kind of give you some idea, right? If you
+
+1053
+02:08:22,679 --> 02:08:27,559
+ want to memorize it, what's the right way to memorize it, right? The idea is to match the
+
+1054
+02:08:27,559 --> 02:08:33,000
+ rate. You don't change the waveform of your low pass filter, but you have to scale your passband
+
+1055
+02:08:33,000 --> 02:08:38,760
+ accordingly, right? This is the principle, okay? But make sure you know how to bring it back,
+
+1056
+02:08:38,760 --> 02:08:43,560
+ bring it down, you know, back, forward, and how to change the rate because I will give you some
+
+1057
+02:08:43,560 --> 02:08:47,400
+ tests on that, right? Just a warning. I mean, homework, you will see some of the questions,
+
+1058
+02:08:47,400 --> 02:08:51,160
+ right? And later you will see what I'm talking about, right? So, but if you see that's such a
+
+1059
+02:08:51,160 --> 02:08:56,920
+ little question, like changing order, swap the order, this is the weapon you need to use, okay?
+
+1060
+02:08:56,920 --> 02:09:02,200
+ Or maybe plus some of the property here, right? Some property here. So this table and this
+
+1061
+02:09:03,400 --> 02:09:08,520
+ identity is the weapon you need to use, right? So if you get no ideas to do the homework,
+
+1062
+02:09:08,520 --> 02:09:13,880
+ check the slides here, okay? All right, so almost the end, all right? So,
+
+1063
+02:09:16,440 --> 02:09:22,360
+ observe the response of this. Okay, so in this case, right, you can actually tell that the
+
+1064
+02:09:22,360 --> 02:09:30,280
+ decimator, in fact, can be viewed as a transpose of the interpolator, right? And that's why we see
+
+1065
+02:09:30,280 --> 02:09:36,440
+ that decimator is the due of the interpolator, vice versa, right? Because if you still remember
+
+1066
+02:09:36,440 --> 02:09:42,440
+ the, what is that? The transpose structure, right? You have a block diagram, you want to transpose it.
+
+1067
+02:09:43,080 --> 02:09:48,120
+ Previously we say that, you know, you can actually change the adding, adder to the, you know,
+
+1068
+02:09:48,120 --> 02:09:54,440
+ splitting point, right? You can also revert the order, order of the signal flow. But if your
+
+1069
+02:09:54,440 --> 02:10:02,280
+ block diagram involves the rate change, you can consider the down sampling as the transpose of
+
+1070
+02:10:02,280 --> 02:10:07,240
+ an up sampling, right? Because they are the exact due operator. So that's why, that's why how you can
+
+1071
+02:10:07,240 --> 02:10:12,839
+ do a transpose, which involves also the rate change, right? So according to transformation,
+
+1072
+02:10:12,839 --> 02:10:17,480
+ right, it can be achieved by changing the input to output. So for example, if I want to find the
+
+1073
+02:10:17,480 --> 02:10:23,000
+ corresponding transpose of this guy, I can actually simply doing the opposite, right? This
+
+1074
+02:10:23,000 --> 02:10:28,280
+ will be the due of it, right? Similarly, if you want to change the up sampling to it, you can
+
+1075
+02:10:28,280 --> 02:10:34,520
+ actually, so you actually find the due of it. You change the order and you flip the sign of the
+
+1076
+02:10:34,520 --> 02:10:38,760
+ up sampling and down sample, right? This is how you can achieve it. Oh, sorry, from A to B, sorry,
+
+1077
+02:10:38,760 --> 02:10:44,040
+ from A to B, you change the order, right? Output becomes input, input becomes output,
+
+1078
+02:10:44,040 --> 02:10:49,480
+ down sampling becomes up sampling. So A or B will be equivalent, right? And C and D will be equivalent.
+
+1079
+02:10:49,480 --> 02:10:53,959
+ This is how you do transpose to get the equivalent kind of block diagram, right?
+
+1080
+02:10:53,959 --> 02:10:58,839
+ So I think that's all I want to cover today. Again, you know, I strongly encourage you to
+
+1081
+02:11:00,040 --> 02:11:04,360
+ derive this one, even though I don't really go through it, but I strongly encourage you to derive
+
+1082
+02:11:04,360 --> 02:11:12,040
+ it. If you really cannot do it, at least memorize this one, right? How you change the rate, okay?
+
+1083
+02:11:12,040 --> 02:11:17,160
+ The idea is to match the rate before and after down sampling, before and after, you know, up
+
+1084
+02:11:17,160 --> 02:11:22,280
+ sampling, right? But if you can, I strongly encourage you to derive it, right? It shouldn't be
+
+1085
+02:11:22,280 --> 02:11:26,760
+ very hard, but you have to sit down and work out the math and make sure the filter is matched
+
+1086
+02:11:26,760 --> 02:11:33,240
+ before and after the swap, okay? But with that, this is what I want to cover for the basic
+
+1087
+02:11:33,240 --> 02:11:39,400
+ multirate processing, right? It's not the end. So next, do I have something? Okay, no. So next week,
+
+1088
+02:11:39,400 --> 02:11:43,720
+ I'm going to talk about like how to implement the filter, right? Just like the way we implement
+
+1089
+02:11:43,720 --> 02:11:50,200
+ for single-rate processing. I'm going to say a few things about how to use polyphase filtering
+
+1090
+02:11:50,200 --> 02:11:56,760
+ to implement the multirate processing, right? But for today's lecture, right, the takeaway
+
+1091
+02:11:56,760 --> 02:12:01,800
+ will be the following. You need to know first why we need to do multirate processing, okay? We talk
+
+1092
+02:12:01,800 --> 02:12:06,680
+ about the reason of different source of the input. We talk about the same input may have
+
+1093
+02:12:06,680 --> 02:12:12,120
+ different module of the processing module, right? They may have different rates. And we have four
+
+1094
+02:12:12,120 --> 02:12:18,120
+ basic modules, right? Up sampling and it can be evolved to interpolation. We have down sampling,
+
+1095
+02:12:18,120 --> 02:12:22,840
+ it can be evolved to the decimation. So you need to know the difference between the two,
+
+1096
+02:12:22,840 --> 02:12:27,880
+ all right? The difference will be the additional anti-aliasing, sorry, anti-image filter.
+
+1097
+02:12:27,880 --> 02:12:34,599
+ The additional will be the anti-aliasing filter, right? And make sure you know the representation
+
+1098
+02:12:34,599 --> 02:12:40,280
+ in both time and frequency, all right? Not only time, but also frequency. You need,
+
+1099
+02:12:40,280 --> 02:12:44,679
+ every operator, you need to tell me in time how the input and output related,
+
+1100
+02:12:44,679 --> 02:12:52,200
+ in frequency, how the two are related, right? And also how to design and manipulate the rate,
+
+1101
+02:12:52,200 --> 02:12:57,960
+ sorry, sampling conversion system, right? So you have ratio of the factor, how can we design an
+
+1102
+02:12:57,960 --> 02:13:03,960
+ interpolation followed by a down sampling. So you can actually use this kind of i divided by d to
+
+1103
+02:13:04,040 --> 02:13:09,960
+ reach any ratio, right? And now the second part is become the polyphase structure. So you should
+
+1104
+02:13:09,960 --> 02:13:17,240
+ understand why polyphase structure by using multiple branches. Every branch can possibly reduce the
+
+1105
+02:13:17,240 --> 02:13:21,640
+ rate. In other words, reduce the computational resource, right? Computational complex. But of
+
+1106
+02:13:21,640 --> 02:13:27,320
+ course there's no free lunch. You have to do multi-branches. So understand how this multi-branche
+
+1107
+02:13:27,320 --> 02:13:33,080
+ is derived from your multiple terms of the transfer function, right? You should be able to
+
+1108
+02:13:33,080 --> 02:13:39,880
+ decompose it and draw the block diagram, right? And in the end, given the block diagram, I may
+
+1109
+02:13:39,880 --> 02:13:46,120
+ ask you to manipulate it, right? Moving the filter forward, backward, find the equivalent kind of
+
+1110
+02:13:46,120 --> 02:13:51,240
+ identity. So noble identity is the most important thing you need to know, right? We're going to
+
+1111
+02:13:51,240 --> 02:13:57,640
+ keep using that for many of the questions. And also, you know, this table, these are some trivial
+
+1112
+02:13:57,640 --> 02:14:02,840
+ kind of equivalency. Make sure you know what they are and make sure you can use them. We won't be
+
+1113
+02:14:02,840 --> 02:14:07,800
+ able to prove them, but at least you understand why there's some kind of a change possible, right?
+
+1114
+02:14:07,800 --> 02:14:12,760
+ Like cancellation each other, why you have to do up-sumpling first, followed by down-sumpling.
+
+1115
+02:14:12,760 --> 02:14:17,960
+ The other way will not be exactly equal, right? Make sure all of these are convincing to you,
+
+1116
+02:14:18,600 --> 02:14:23,640
+ okay? For that, I think you should be no problem dealing with this part, all right? But, you know,
+
+1117
+02:14:23,640 --> 02:14:29,080
+ look forward to the homework. So with this knowledge, you may need, you may be able to do the first
+
+1118
+02:14:29,960 --> 02:14:34,760
+ one or two questions, all right? The last question you need to wait until the next week and maybe the
+
+1119
+02:14:34,760 --> 02:14:40,920
+ last week lectures, okay? So the homework will be announced, I think maybe Wednesday or Thursday,
+
+1120
+02:14:40,920 --> 02:14:44,519
+ okay? So I will make an announcement and you should be able to find that in the homework,
+
+1121
+02:14:45,240 --> 02:14:58,920
+ all right? Okay, so thank you so much. That's the end. So, yeah, hope to see you next week.
+

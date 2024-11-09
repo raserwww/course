@@ -1,0 +1,6004 @@
+1
+00:03:30,000 --> 00:03:32,000
+ .
+
+2
+00:06:30,000 --> 00:06:50,000
+ Okay. Hello.
+
+3
+00:06:50,000 --> 00:06:55,000
+ First week of school, right?
+
+4
+00:06:55,000 --> 00:06:57,000
+ So how do you all feel?
+
+5
+00:06:57,000 --> 00:06:59,000
+ All geared up, right?
+
+6
+00:06:59,000 --> 00:07:01,000
+ You start the semester.
+
+7
+00:07:01,000 --> 00:07:03,000
+ Okay.
+
+8
+00:07:03,000 --> 00:07:05,000
+ First of all, let's...
+
+9
+00:07:05,000 --> 00:07:09,000
+ Can you hear me from the back?
+
+10
+00:07:09,000 --> 00:07:17,000
+ No?
+
+11
+00:07:17,000 --> 00:07:22,000
+ The microphone.
+
+12
+00:07:22,000 --> 00:07:24,000
+ Okay, this is probably as near as it's going to get.
+
+13
+00:07:24,000 --> 00:07:26,000
+ Can you hear me?
+
+14
+00:07:26,000 --> 00:07:27,000
+ Is that all right?
+
+15
+00:07:27,000 --> 00:07:33,000
+ All the way to the back, can you hear?
+
+16
+00:07:33,000 --> 00:07:35,000
+ You know, I ever had this experience.
+
+17
+00:07:35,000 --> 00:07:37,000
+ You know, after I finished the class, somebody told me,
+
+18
+00:07:37,000 --> 00:07:41,000
+ you know, all along I couldn't hear you, you know.
+
+19
+00:07:41,000 --> 00:07:45,000
+ I say, oh gee, you know, thanks for telling me.
+
+20
+00:07:45,000 --> 00:07:46,000
+ Right?
+
+21
+00:07:46,000 --> 00:07:49,000
+ So I have to make sure you can hear me right at the end.
+
+22
+00:07:49,000 --> 00:07:51,000
+ Okay. Thank you.
+
+23
+00:07:51,000 --> 00:07:53,000
+ Okay.
+
+24
+00:07:53,000 --> 00:07:55,000
+ Are you in the right class?
+
+25
+00:07:55,000 --> 00:07:57,000
+ I hope so, right?
+
+26
+00:07:57,000 --> 00:07:58,000
+ Okay.
+
+27
+00:07:58,000 --> 00:08:01,000
+ So I'm pretty sure I'm in the right class.
+
+28
+00:08:01,000 --> 00:08:06,000
+ So this is EE6407, right?
+
+29
+00:08:06,000 --> 00:08:09,000
+ And my name is Lim, right?
+
+30
+00:08:09,000 --> 00:08:11,000
+ I'm Prof Lim, Lim Ming-hyot.
+
+31
+00:08:11,000 --> 00:08:13,000
+ I'm in the School of EEE.
+
+32
+00:08:13,000 --> 00:08:16,000
+ So my office is stated there,
+
+33
+00:08:16,000 --> 00:08:22,000
+ but you can connect with me to email, right?
+
+34
+00:08:23,000 --> 00:08:28,000
+ Connecting by email doesn't guarantee an immediate reply.
+
+35
+00:08:28,000 --> 00:08:29,000
+ Okay.
+
+36
+00:08:29,000 --> 00:08:31,000
+ There will be times where I miss out your email.
+
+37
+00:08:31,000 --> 00:08:35,000
+ So if you don't hear anything, drop me a gentle reminder.
+
+38
+00:08:35,000 --> 00:08:40,000
+ Just say there, I send you an email, right, about such and such.
+
+39
+00:08:40,000 --> 00:08:42,000
+ Did you have time to look at it?
+
+40
+00:08:42,000 --> 00:08:44,000
+ You know, things like that.
+
+41
+00:08:44,000 --> 00:08:45,000
+ Okay.
+
+42
+00:08:45,000 --> 00:08:50,000
+ And I think you know why, because these days we tend to be
+
+43
+00:08:50,000 --> 00:08:54,000
+ overwhelmed by emails, right?
+
+44
+00:08:54,000 --> 00:08:58,000
+ So try and be understanding on that count.
+
+45
+00:08:58,000 --> 00:09:00,000
+ So email is good.
+
+46
+00:09:00,000 --> 00:09:05,000
+ I'll do my best to handle or manage the email.
+
+47
+00:09:05,000 --> 00:09:08,000
+ So the title of this subject, this course, is
+
+48
+00:09:08,000 --> 00:09:12,000
+ Genetic Algorithms and Machine Learnings, right?
+
+49
+00:09:12,000 --> 00:09:16,000
+ Now before we go any further, it always makes sense to try
+
+50
+00:09:17,000 --> 00:09:23,000
+ and understand, you know, in a very broad sense, the title.
+
+51
+00:09:23,000 --> 00:09:28,000
+ So one of the questions that probably occurred to you would be,
+
+52
+00:09:28,000 --> 00:09:32,000
+ okay, look, you know, there's this genetic algorithm here,
+
+53
+00:09:32,000 --> 00:09:34,000
+ and then machine learning.
+
+54
+00:09:34,000 --> 00:09:36,000
+ Is it really connected?
+
+55
+00:09:39,000 --> 00:09:44,000
+ These days, recently, I attended this conference on Artificial Intelligence.
+
+56
+00:09:44,000 --> 00:09:49,000
+ You can sense the euphoria of artificial intelligence.
+
+57
+00:09:49,000 --> 00:09:51,000
+ There were so many people attending.
+
+58
+00:09:51,000 --> 00:09:55,000
+ Everybody's talking about AI, what they can do, and so on.
+
+59
+00:09:55,000 --> 00:09:57,000
+ Okay.
+
+60
+00:09:57,000 --> 00:10:01,000
+ So really, when you think about AI, the term machine learning comes
+
+61
+00:10:01,000 --> 00:10:03,000
+ into the mind.
+
+62
+00:10:03,000 --> 00:10:06,000
+ It's all about learning, correct?
+
+63
+00:10:06,000 --> 00:10:10,000
+ Now on that basis or on that denominator learning, right,
+
+64
+00:10:10,000 --> 00:10:15,000
+ that's why you can link the two genetic algorithms into machine
+
+65
+00:10:15,000 --> 00:10:20,000
+ as one of the methods of machine learning, right?
+
+66
+00:10:20,000 --> 00:10:24,000
+ So there's no doubt that you can put GA as one of the methods in AI,
+
+67
+00:10:24,000 --> 00:10:26,000
+ if you may, right?
+
+68
+00:10:26,000 --> 00:10:30,000
+ So later on, as you understand the genetic algorithm mechanisms
+
+69
+00:10:30,000 --> 00:10:33,000
+ a little bit more, then you begin to see, you know,
+
+70
+00:10:33,000 --> 00:10:39,000
+ where the aspects of learning comes about.
+
+71
+00:10:39,000 --> 00:10:41,000
+ GA is good, right?
+
+72
+00:10:41,000 --> 00:10:43,000
+ But it's not good for everything.
+
+73
+00:10:43,000 --> 00:10:47,000
+ Just like machine learning may not be good for everything, right?
+
+74
+00:10:47,000 --> 00:10:50,000
+ So sometimes maybe we overdo it.
+
+75
+00:10:50,000 --> 00:10:53,000
+ So same thing with GA also, right?
+
+76
+00:10:53,000 --> 00:10:58,000
+ So as the term implies, you begin to wonder how did it come about?
+
+77
+00:10:58,000 --> 00:11:06,000
+ The word genetic probably has some natural so-called association with nature,
+
+78
+00:11:06,000 --> 00:11:10,000
+ and we will see why, you know, that is the case, right?
+
+79
+00:11:10,000 --> 00:11:13,000
+ So you have the term genetic algorithm.
+
+80
+00:11:13,000 --> 00:11:17,000
+ So it's good to have an understanding of the background,
+
+81
+00:11:17,000 --> 00:11:19,000
+ how this comes about, and so on, right?
+
+82
+00:11:19,000 --> 00:11:23,000
+ So certainly without any doubt, it's very closely linked.
+
+83
+00:11:23,000 --> 00:11:26,000
+ It's just another method or approach.
+
+84
+00:11:26,000 --> 00:11:32,000
+ It's not one of the two in your bag that allows you to solve different types of problems, okay?
+
+85
+00:11:32,000 --> 00:11:42,000
+ So that is the basis of this course here.
+
+86
+00:11:42,000 --> 00:11:51,000
+ I think it is reasonable to assume that you will be concerned about how your grades
+
+87
+00:11:51,000 --> 00:11:54,000
+ is going to be determined, right?
+
+88
+00:11:54,000 --> 00:12:01,000
+ And of course exam is part and parcel of the evaluation process.
+
+89
+00:12:01,000 --> 00:12:06,000
+ So the final exam is a three-hour exam.
+
+90
+00:12:06,000 --> 00:12:12,000
+ It constitutes 60% of the grade.
+
+91
+00:12:12,000 --> 00:12:16,000
+ So because I take only three weeks, I will say roughly one quarter,
+
+92
+00:12:16,000 --> 00:12:19,000
+ so I'll contribute one question.
+
+93
+00:12:19,000 --> 00:12:23,000
+ I leave it to you to decide whether it's significant or not.
+
+94
+00:12:23,000 --> 00:12:29,000
+ If you feel that 25% is not so significant, you can put less emphasis.
+
+95
+00:12:29,000 --> 00:12:33,000
+ But nevertheless, that is what it is, 25%.
+
+96
+00:12:33,000 --> 00:12:36,000
+ So one of the questions.
+
+97
+00:12:36,000 --> 00:12:40,000
+ Now continuous assessment is also part of it.
+
+98
+00:12:40,000 --> 00:12:50,000
+ So continuous assessment consists of usually homework assignment as well as quiz.
+
+99
+00:12:50,000 --> 00:12:55,000
+ So for now, for this semester, I'm just going to do with quiz.
+
+100
+00:12:55,000 --> 00:12:59,000
+ There won't be any homework assignment.
+
+101
+00:12:59,000 --> 00:13:03,000
+ I'm not sure you see that as good or bad.
+
+102
+00:13:03,000 --> 00:13:06,000
+ You may shout, hey, no homework.
+
+103
+00:13:06,000 --> 00:13:08,000
+ So nice.
+
+104
+00:13:08,000 --> 00:13:10,000
+ But don't be too comfortable, right?
+
+105
+00:13:10,000 --> 00:13:12,000
+ No homework whatsoever.
+
+106
+00:13:12,000 --> 00:13:17,000
+ Perhaps what it means is that you've got to use your own initiative to practice.
+
+107
+00:13:17,000 --> 00:13:23,000
+ Go and look for questions or problems and discuss.
+
+108
+00:13:23,000 --> 00:13:26,000
+ So there's no homework assignment, but this is a quiz.
+
+109
+00:13:26,000 --> 00:13:32,000
+ So the quiz I will conduct because I have three weeks of lesson.
+
+110
+00:13:32,000 --> 00:13:35,000
+ So I'll conduct on the third week.
+
+111
+00:13:35,000 --> 00:13:41,000
+ So this is week one, and then next week, and then the final week.
+
+112
+00:13:41,000 --> 00:13:43,000
+ So there's week three.
+
+113
+00:13:43,000 --> 00:13:48,000
+ It will be around 15 minutes.
+
+114
+00:13:48,000 --> 00:13:52,000
+ The venue, I will let you know where the venue is.
+
+115
+00:13:52,000 --> 00:13:57,000
+ It won't be in this LT because there's a bigger group.
+
+116
+00:13:57,000 --> 00:14:01,000
+ There's another group that needs to take the quiz or so.
+
+117
+00:14:01,000 --> 00:14:13,000
+ Timing wise, it will be the second half of the lecture towards the last hour of the lecture.
+
+118
+00:14:13,000 --> 00:14:14,000
+ Clear?
+
+119
+00:14:14,000 --> 00:14:16,000
+ That's how we're going to do the assessment.
+
+120
+00:14:16,000 --> 00:14:18,000
+ All right?
+
+121
+00:14:18,000 --> 00:14:33,000
+ So let's go to the term, let's begin by talking about genetic algorithm or evolutionary computing.
+
+122
+00:14:33,000 --> 00:14:42,000
+ So the term evolutionary computing, computing you know, computers.
+
+123
+00:14:42,000 --> 00:14:47,000
+ Evolutionary, there are two meanings to it.
+
+124
+00:14:47,000 --> 00:14:57,000
+ If you look within the context of nature, all right, then so-called evolutionary process in nature comes to mind.
+
+125
+00:14:57,000 --> 00:15:05,000
+ For example, how species evolve with time, you know, how it adapts to environment.
+
+126
+00:15:05,000 --> 00:15:10,000
+ So there is a meaning of so-called evolution.
+
+127
+00:15:10,000 --> 00:15:16,000
+ Now the other angle of it, you can look at evolution in a very generic sense, right?
+
+128
+00:15:16,000 --> 00:15:26,000
+ In a sense that for example, you know, I could say things like, oh gee, you know, I've known you since like 20 years ago.
+
+129
+00:15:26,000 --> 00:15:33,000
+ Over the years I've seen, I'm amazed at how you evolve into a perfect gentleman.
+
+130
+00:15:33,000 --> 00:15:40,000
+ So what that means is that it is so-called a gradual development or changes over time.
+
+131
+00:15:40,000 --> 00:15:49,000
+ All right, so in that sense there are two angles as you can see the meaning of the word evolution.
+
+132
+00:15:49,000 --> 00:15:56,000
+ All right, so when you put together evolutionary computing, all right, computing has to do with programs.
+
+133
+00:15:56,000 --> 00:16:02,000
+ Okay, so basically when you link the two, all it means is that you're going to use a computer.
+
+134
+00:16:02,000 --> 00:16:09,000
+ I'm meaning through your program, you're going to code it such that the approach will be somewhat synonymous
+
+135
+00:16:09,000 --> 00:16:17,000
+ to how evolution happens, the process of evolution.
+
+136
+00:16:17,000 --> 00:16:27,000
+ Okay, so when we talk about genetic algorithm, all right, so in future, you don't have to, if we talk, we say genetic algorithm,
+
+137
+00:16:27,000 --> 00:16:33,000
+ we say evolutionary algorithm, evolutionary computing, we are basically talking about the same thing.
+
+138
+00:16:33,000 --> 00:16:40,000
+ All right, later on I'll explain a little bit clearer why that is so.
+
+139
+00:16:40,000 --> 00:16:49,000
+ So some of you may want to know or I have been asked a few times, is there a textbook?
+
+140
+00:16:49,000 --> 00:17:02,000
+ So the textbook I use is, the textbook I use, let's just make sure I write it now.
+
+141
+00:17:19,000 --> 00:17:46,000
+ Okay, I use the textbook, the title, introduction to evolutionary computing.
+
+142
+00:17:46,000 --> 00:17:56,000
+ So this book is authored by Iben and Jim Smith.
+
+143
+00:17:56,000 --> 00:18:04,000
+ Smith is a good friend, right, so I've asked him permission to say, gee, you know, I cannot get my students to buy any of this book.
+
+144
+00:18:04,000 --> 00:18:13,000
+ He said it's perfectly all right, right, so the nice thing is that this is available online, right, you can download it and read it,
+
+145
+00:18:13,000 --> 00:18:18,000
+ or you can go according to my lecture and try to understand the concepts, all right.
+
+146
+00:18:18,000 --> 00:18:30,000
+ So the best is, hopefully through the lecture, it strikes a greater curiosity and you would read further from the textbook.
+
+147
+00:18:30,000 --> 00:18:42,000
+ So it's available online, right, you go online, it is not something that I should freely send to you or anything like that.
+
+148
+00:18:43,000 --> 00:19:05,000
+ Okay, let's talk about, let's begin, right, by going into trying to understand the big picture of what we are trying to do, right.
+
+149
+00:19:05,000 --> 00:19:11,000
+ So all of you are engineers, you know, what do you do?
+
+150
+00:19:11,000 --> 00:19:23,000
+ Basically you solve problems, right, whatever you do, be it a programmer, engineer, you're given a problem, you want to solve problems, right.
+
+151
+00:19:23,000 --> 00:19:30,000
+ So is it wrong to say that what we are doing is actually problem solving, all right.
+
+152
+00:19:30,000 --> 00:19:41,000
+ Okay, so if you're doing problem solving, it only makes sense to try and understand the nature of the problem, all right, and I'm going to do exactly that.
+
+153
+00:19:41,000 --> 00:19:49,000
+ So let's take a big picture look at how, what the problems entails, right, okay.
+
+154
+00:19:49,000 --> 00:19:58,000
+ So we will classify the problems according to these four different categories.
+
+155
+00:19:58,000 --> 00:20:11,000
+ One is the back box modeling and then the other is a search problem and third one is optimization versus constraint satisfaction.
+
+156
+00:20:11,000 --> 00:20:19,000
+ And the last one is an NP, NP stands for non-deterministic polynomial problems.
+
+157
+00:20:19,000 --> 00:20:24,000
+ Okay, let's try and understand what all this means.
+
+158
+00:20:29,000 --> 00:20:47,000
+ You have a system, right, a system that you can very easily or simply be modeled as such.
+
+159
+00:20:47,000 --> 00:20:52,000
+ You have your input, you have your output, and then you have the model, all right.
+
+160
+00:20:52,000 --> 00:21:03,000
+ So the model is an encapsulation of the technique, the approaches on how you derive the output from your input.
+
+161
+00:21:03,000 --> 00:21:07,000
+ Okay, so essentially there are three components.
+
+162
+00:21:07,000 --> 00:21:16,000
+ You have your input, the model, and the output.
+
+163
+00:21:16,000 --> 00:21:22,000
+ So depending on these three, right, what are we solving for?
+
+164
+00:21:22,000 --> 00:21:28,000
+ Are we looking for the input? Are we looking for the model? Are we looking for the output?
+
+165
+00:21:28,000 --> 00:21:34,000
+ That's the basis we're going to use to so-called categorize accordingly.
+
+166
+00:21:35,000 --> 00:21:48,000
+ So the first thing we can do is take away the input.
+
+167
+00:21:48,000 --> 00:21:51,000
+ The model and the desired output is known.
+
+168
+00:21:51,000 --> 00:21:55,000
+ You know what the model, you know the output.
+
+169
+00:21:55,000 --> 00:22:00,000
+ What are you looking for? You're looking for the inputs.
+
+170
+00:22:00,000 --> 00:22:03,000
+ Quite clear, okay, you're looking for the inputs.
+
+171
+00:22:03,000 --> 00:22:12,000
+ So then we question, okay, what kind of problems falls into this category to illustrate what this means.
+
+172
+00:22:17,000 --> 00:22:22,000
+ So some examples, the timetables.
+
+173
+00:22:22,000 --> 00:22:25,000
+ Do you all have a timetable?
+
+174
+00:22:26,000 --> 00:22:33,000
+ Timetable tells you what time, the time, and the class that you have.
+
+175
+00:22:33,000 --> 00:22:38,000
+ So of course finally your timetable allows you to go through your whole program accordingly.
+
+176
+00:22:38,000 --> 00:22:44,000
+ But what's the process of scheduling this timetable?
+
+177
+00:22:46,000 --> 00:22:52,000
+ So you'll be looking for a set of the inputs that fits the criteria.
+
+178
+00:22:55,000 --> 00:23:03,000
+ Design specifications, I have a certain specifications.
+
+179
+00:23:03,000 --> 00:23:10,000
+ Give me the design that can fulfill this, satisfy these requirements or specifications.
+
+180
+00:23:13,000 --> 00:23:17,000
+ TSB, the traveling salesman problem.
+
+181
+00:23:17,000 --> 00:23:20,000
+ It's classical computer science problem.
+
+182
+00:23:20,000 --> 00:23:24,000
+ That is known to be NP in nature.
+
+183
+00:23:24,000 --> 00:23:32,000
+ So basically the traveling salesman problem, if you talk about N-city traveling salesman problem,
+
+184
+00:23:32,000 --> 00:23:36,000
+ basically the problem can be formulated as such.
+
+185
+00:23:36,000 --> 00:23:46,000
+ There are N number of cities and the salesman is supposed to visit each and every city once and only once.
+
+186
+00:23:46,000 --> 00:23:51,000
+ Such that the distance is minimized.
+
+187
+00:23:52,000 --> 00:24:00,000
+ Then you begin to think about it, you know, looks like a toy problem or too simple a problem.
+
+188
+00:24:00,000 --> 00:24:08,000
+ But yet from a computational point of view, we still put it as a class that belongs to the NP problems.
+
+189
+00:24:08,000 --> 00:24:13,000
+ And you understand later what NP means or the significance of NP.
+
+190
+00:24:13,000 --> 00:24:17,000
+ And furthermore, this is a classical computer science problem.
+
+191
+00:24:17,000 --> 00:24:28,000
+ We started it because many real world practical problems can be transformed or mapped into the traveling salesman problem.
+
+192
+00:24:28,000 --> 00:24:38,000
+ Every day your logistics, the transportation logistics, very similar to the so-called the traveling salesman problem.
+
+193
+00:24:38,000 --> 00:24:42,000
+ And many more examples.
+
+194
+00:24:42,000 --> 00:24:50,000
+ And I will use the eight queens quite a lot in this subject.
+
+195
+00:24:50,000 --> 00:24:55,000
+ So the eight queens problem, very easy to understand.
+
+196
+00:24:55,000 --> 00:25:02,000
+ I can spend one minute tell you and then you know what the eight queens problem is.
+
+197
+00:25:02,000 --> 00:25:11,000
+ So let's take a look at some of these examples and talk a little bit more about each one of these.
+
+198
+00:25:12,000 --> 00:25:19,000
+ Okay. Optimization. Let's take a look at timetable, right?
+
+199
+00:25:19,000 --> 00:25:26,000
+ University timetable, huge search space, right?
+
+200
+00:25:26,000 --> 00:25:33,000
+ So what are the things that you're trying to search for?
+
+201
+00:25:33,000 --> 00:25:38,000
+ What are the constraints or requirements?
+
+202
+00:25:38,000 --> 00:25:44,000
+ What are the resources that you have? Let's begin my next.
+
+203
+00:25:44,000 --> 00:25:57,000
+ The number of classrooms, all right, the physical venues. What else?
+
+204
+00:25:57,000 --> 00:26:01,000
+ The time slots. You have limited number of time slots.
+
+205
+00:26:01,000 --> 00:26:10,000
+ Correct? All right. And number of teachers, limited also.
+
+206
+00:26:10,000 --> 00:26:17,000
+ Or a few other constraints, the few other so-called resources available.
+
+207
+00:26:17,000 --> 00:26:24,000
+ So what do you understand by resources?
+
+208
+00:26:24,000 --> 00:26:36,000
+ That's what you have, right? Okay. We optimize because we have limited resources.
+
+209
+00:26:36,000 --> 00:26:40,000
+ If resources is enough, there's no worry. Okay.
+
+210
+00:26:40,000 --> 00:26:47,000
+ So the way you optimize because there's resources is limited, right?
+
+211
+00:26:47,000 --> 00:26:52,000
+ And therefore you want to make the most efficient use of the resources.
+
+212
+00:26:52,000 --> 00:26:59,000
+ Okay. So you have all these resources, classrooms and so on, right?
+
+213
+00:26:59,000 --> 00:27:08,000
+ Now, timetable must be good. Good is defined by a number of competing criteria, right?
+
+214
+00:27:08,000 --> 00:27:13,000
+ And timetables must be feasible, right?
+
+215
+00:27:13,000 --> 00:27:22,000
+ Let's ask ourselves, what is the meaning? How do you define a good timetable?
+
+216
+00:27:22,000 --> 00:27:25,000
+ A timetable must be feasible, right?
+
+217
+00:27:25,000 --> 00:27:29,000
+ Feasible means that it must be a workable timetable.
+
+218
+00:27:29,000 --> 00:27:35,000
+ For example, you cannot have a timetable that makes you have two classes at the same time slot.
+
+219
+00:27:35,000 --> 00:27:40,000
+ That is not feasible. It's a timetable, but it's not a feasible timetable.
+
+220
+00:27:40,000 --> 00:27:47,000
+ Or you cannot assign the same lecturer to teach in two classes at the same time.
+
+221
+00:27:47,000 --> 00:27:52,000
+ So quite clearly, right, you know what the meaning of feasible.
+
+222
+00:27:52,000 --> 00:27:57,000
+ What about the different criteria?
+
+223
+00:27:57,000 --> 00:28:07,000
+ So in order to understand this, you must distinguish between the hard and the soft criteria or constraints.
+
+224
+00:28:07,000 --> 00:28:11,000
+ Hard constraints must be satisfied.
+
+225
+00:28:11,000 --> 00:28:19,000
+ Hard constraints is what makes a timetable feasible or infeasible.
+
+226
+00:28:19,000 --> 00:28:29,000
+ As long as this hard constraint is violated or not satisfied, it's not a feasible timetable.
+
+227
+00:28:29,000 --> 00:28:32,000
+ Now, what about soft constraints?
+
+228
+00:28:38,000 --> 00:28:48,000
+ As the name soft implies, soft is a constraint where you try to satisfy.
+
+229
+00:28:48,000 --> 00:28:53,000
+ But if you cannot find it, you cannot satisfy it well, you can live it.
+
+230
+00:28:53,000 --> 00:28:56,000
+ So there's a soft constraint.
+
+231
+00:28:56,000 --> 00:29:03,000
+ For example, let's say I'm teaching.
+
+232
+00:29:03,000 --> 00:29:10,000
+ If I'm assigning, let's say, six classes in a row, is doable?
+
+233
+00:29:10,000 --> 00:29:15,000
+ All right, one after another, is doable.
+
+234
+00:29:15,000 --> 00:29:18,000
+ But do you think that's a preference?
+
+235
+00:29:18,000 --> 00:29:20,000
+ Definitely not.
+
+236
+00:29:21,000 --> 00:29:26,000
+ So it would be a situation where if really have to, there's no other way out.
+
+237
+00:29:26,000 --> 00:29:29,000
+ I have no choice, you know, that would be the timetable.
+
+238
+00:29:29,000 --> 00:29:33,000
+ But to me, that's not a good timetable.
+
+239
+00:29:33,000 --> 00:29:38,000
+ You see the difference between the hard and the soft constraints.
+
+240
+00:29:38,000 --> 00:29:48,000
+ And also, I also know of, let's say, some colleagues who say, hey, can you put me all my classes on the same day?
+
+241
+00:29:48,000 --> 00:29:57,000
+ Or at most two days, so that he doesn't have to, he can have the rest of the week to do his own work.
+
+242
+00:29:57,000 --> 00:30:06,000
+ So of course, when the viewpoint is scheduling it or planning the timetable, you will try and accede to that request.
+
+243
+00:30:06,000 --> 00:30:13,000
+ But if indeed, because of these constraints imposed, you cannot find a feasible solution,
+
+244
+00:30:13,000 --> 00:30:15,000
+ then you've got to relax these constraints.
+
+245
+00:30:15,000 --> 00:30:20,000
+ These are so-called soft constraints.
+
+246
+00:30:20,000 --> 00:30:34,000
+ All right, so now my question is, OK, optimization means you have to define what is good, what is bad.
+
+247
+00:30:34,000 --> 00:30:40,000
+ So how do you tell how good the timetable is?
+
+248
+00:30:40,000 --> 00:30:47,000
+ Or how bad the timetable is?
+
+249
+00:30:47,000 --> 00:30:58,000
+ Based on the two so-called constraints category I told you, hard constraints cannot, so-called not negotiable.
+
+250
+00:30:58,000 --> 00:31:00,000
+ But it's a soft constraint.
+
+251
+00:31:00,000 --> 00:31:03,000
+ For example, you can have hundreds of soft constraints.
+
+252
+00:31:03,000 --> 00:31:13,000
+ A good timetable will be the one that so-called fulfill most of the other constraints, the soft constraints.
+
+253
+00:31:13,000 --> 00:31:21,000
+ All right, so when you talk about optimization, the question is always, OK, how do you know this is good?
+
+254
+00:31:22,000 --> 00:31:29,000
+ There must be some measure of goodness of how good that solution is.
+
+255
+00:31:29,000 --> 00:31:40,000
+ So there's optimization.
+
+256
+00:31:40,000 --> 00:31:47,000
+ So optimization of satellite structure.
+
+257
+00:31:48,000 --> 00:31:55,000
+ So when you design a satellite, there are many infinite number of possibilities of the structure.
+
+258
+00:31:55,000 --> 00:32:04,000
+ But because of the physics behind it, certain structures will give you better characteristics.
+
+259
+00:32:04,000 --> 00:32:18,000
+ So one way is, of course, a human would design this structure and then test out how resistant it is to vibrations.
+
+260
+00:32:18,000 --> 00:32:22,000
+ So that's how a human would do it.
+
+261
+00:32:22,000 --> 00:32:25,000
+ Why not use a program to evolve it?
+
+262
+00:32:25,000 --> 00:32:31,000
+ Use a genetic algorithm or evolutionary algorithm to evolve the design structures.
+
+263
+00:32:31,000 --> 00:32:37,000
+ Since you understand the physics of it, you can formulate it.
+
+264
+00:32:37,000 --> 00:32:44,000
+ You can model the vibration and then test out.
+
+265
+00:32:44,000 --> 00:32:47,000
+ So which gives you the so-called the fitness.
+
+266
+00:32:47,000 --> 00:32:58,000
+ The fitness, I see my arrow here, but it doesn't show here.
+
+267
+00:32:58,000 --> 00:33:08,000
+ So you can see the fitness, which is according to its vibration resistance.
+
+268
+00:33:08,000 --> 00:33:09,000
+ So that's quite clear.
+
+269
+00:33:09,000 --> 00:33:15,000
+ You just evolve the structures and then you measure the fitness.
+
+270
+00:33:15,000 --> 00:33:22,000
+ Now, what is so special about evolutionary algorithm or genetic algorithm?
+
+271
+00:33:22,000 --> 00:33:27,000
+ What's so special about doing it this way?
+
+272
+00:33:28,000 --> 00:33:36,000
+ Many people do not realize it's the creativity aspect, the evolutionary creativity.
+
+273
+00:33:36,000 --> 00:33:39,000
+ Let me explain what this means.
+
+274
+00:33:39,000 --> 00:33:45,000
+ When you design, normally what's your thought process?
+
+275
+00:33:45,000 --> 00:33:49,000
+ You have the specifications.
+
+276
+00:33:49,000 --> 00:33:54,000
+ So chances are you look back at what are the existing designs.
+
+277
+00:33:55,000 --> 00:34:03,000
+ And then you will tweak or make modifications or use that as a reference to come up with another design.
+
+278
+00:34:03,000 --> 00:34:09,000
+ So not wrong to say that it's likely to be our thought process, isn't it?
+
+279
+00:34:09,000 --> 00:34:20,000
+ So if that's your thought process, do you foresee that whatever your design would just be a variation of what is existing?
+
+280
+00:34:20,000 --> 00:34:23,000
+ Quite similar.
+
+281
+00:34:23,000 --> 00:34:25,000
+ You understand my point?
+
+282
+00:34:25,000 --> 00:34:30,000
+ Because that is what as a designer, that's your thought process.
+
+283
+00:34:30,000 --> 00:34:39,000
+ So based on existing design, so you're going to change, you're going to modify, and then you come up with something new or different.
+
+284
+00:34:39,000 --> 00:34:44,000
+ That fulfills the specifications or the requirements.
+
+285
+00:34:44,000 --> 00:34:46,000
+ Correct?
+
+286
+00:34:46,000 --> 00:34:51,000
+ So chances are your design won't be too different.
+
+287
+00:34:51,000 --> 00:34:55,000
+ That will be quite similar in that sense.
+
+288
+00:34:55,000 --> 00:35:04,000
+ So from an optimization viewpoint, you will be searching only along a small section of the possibility.
+
+289
+00:35:04,000 --> 00:35:09,000
+ You'll be exploring only a small segment of the possibility.
+
+290
+00:35:09,000 --> 00:35:17,000
+ But in your genetic algorithm, does it care what the structure is?
+
+291
+00:35:17,000 --> 00:35:18,000
+ It doesn't really care.
+
+292
+00:35:18,000 --> 00:35:22,000
+ It will just evolve the different structures.
+
+293
+00:35:22,000 --> 00:35:27,000
+ It will just come out with different structures, and then all it cares about is fitness.
+
+294
+00:35:27,000 --> 00:35:29,000
+ Is it good enough?
+
+295
+00:35:29,000 --> 00:35:34,000
+ Is it vibration resistance?
+
+296
+00:35:34,000 --> 00:35:45,000
+ So what this means is that from an optimization point of view, in your evolutionary algorithm, it's going to search a wider range of possibilities.
+
+297
+00:35:45,000 --> 00:35:49,000
+ That is what we mean by creativity.
+
+298
+00:35:49,000 --> 00:36:00,000
+ So to put it another way, evolutionary algorithm allows you to explore solutions that you otherwise would never have thought of.
+
+299
+00:36:00,000 --> 00:36:05,000
+ That's the power of it.
+
+300
+00:36:05,000 --> 00:36:16,000
+ So this can be optimization problem.
+
+301
+00:36:16,000 --> 00:36:20,000
+ Okay, the egg-queen problem.
+
+302
+00:36:20,000 --> 00:36:25,000
+ How can it be optimization problem?
+
+303
+00:36:25,000 --> 00:36:29,000
+ Well, before that, let's understand the egg-queen problem.
+
+304
+00:36:29,000 --> 00:36:34,000
+ Egg by egg chess board and egg queens.
+
+305
+00:36:34,000 --> 00:36:37,000
+ If you play chess, for sure you will know what this means.
+
+306
+00:36:37,000 --> 00:36:42,000
+ But if you don't play chess, it's not difficult to understand.
+
+307
+00:36:42,000 --> 00:36:53,000
+ A queen is a piece that commands horizontal, vertical, and diagonal.
+
+308
+00:36:53,000 --> 00:36:56,000
+ That's a queen.
+
+309
+00:36:56,000 --> 00:37:03,000
+ So in this problem here, the challenge is to put the egg queens on the chess board without any conflict.
+
+310
+00:37:03,000 --> 00:37:09,000
+ Conflict means two queens attacking each other.
+
+311
+00:37:09,000 --> 00:37:13,000
+ For example, if you have two queens on the same row, there's a conflict.
+
+312
+00:37:13,000 --> 00:37:20,000
+ If you have two queens on the same column, there's a conflict.
+
+313
+00:37:20,000 --> 00:37:27,000
+ Or you have two queens on the same diagonal, there's also a conflict.
+
+314
+00:37:27,000 --> 00:37:32,000
+ So it's not difficult to understand what the egg-queen problem is.
+
+315
+00:37:32,000 --> 00:37:37,000
+ So two queens incomplete if they share the same row, column, or diagonal.
+
+316
+00:37:37,000 --> 00:37:43,000
+ Can it be extended to an egg-queen problem? Definitely can.
+
+317
+00:37:43,000 --> 00:37:52,000
+ So optimization means what?
+
+318
+00:37:52,000 --> 00:37:59,000
+ To find the best solution. What is the best solution?
+
+319
+00:37:59,000 --> 00:38:06,000
+ When you have zero conflicts, no queens mutually attacking.
+
+320
+00:38:06,000 --> 00:38:11,000
+ So when you optimize, you have a certain figure of merit.
+
+321
+00:38:11,000 --> 00:38:16,000
+ You understand the figure of merit? A measurement to say, oh, this is good, or this is better than this, and so on.
+
+322
+00:38:16,000 --> 00:38:20,000
+ How do you measure?
+
+323
+00:38:20,000 --> 00:38:26,000
+ According to the number of queens that are not in conflict.
+
+324
+00:38:26,000 --> 00:38:35,000
+ So that will be the so-called how you will measure the goodness of the egg queens.
+
+325
+00:38:35,000 --> 00:38:57,000
+ Is this configuration, are there any conflicts?
+
+326
+00:38:57,000 --> 00:39:11,000
+ Any conflicts?
+
+327
+00:39:11,000 --> 00:39:20,000
+ No conflicts?
+
+328
+00:39:20,000 --> 00:39:38,000
+ No? Good.
+
+329
+00:39:38,000 --> 00:39:46,000
+ Any conflict? Any conflict in this configuration?
+
+330
+00:39:46,000 --> 00:39:52,000
+ Yes? No? No?
+
+331
+00:39:52,000 --> 00:40:02,000
+ Anybody say yes? Yes? Good.
+
+332
+00:40:02,000 --> 00:40:06,000
+ Two. Two means what? Two conflicts, right?
+
+333
+00:40:07,000 --> 00:40:11,000
+ Can you see? Oh, I cannot.
+
+334
+00:40:11,000 --> 00:40:27,000
+ Can you see the second queen here? This queen and this queen?
+
+335
+00:40:27,000 --> 00:40:39,000
+ This queen, this column, and this column.
+
+336
+00:40:39,000 --> 00:40:46,000
+ What are the so-called requirements? What does it mean to be in conflict?
+
+337
+00:40:46,000 --> 00:41:01,000
+ Row, column, diagonal. Can you see?
+
+338
+00:41:01,000 --> 00:41:11,000
+ So you understand what the so-called egg queens problem is.
+
+339
+00:41:11,000 --> 00:41:17,000
+ To find a configuration where none of the queens are mutually attacking each other.
+
+340
+00:41:17,000 --> 00:41:25,000
+ So if I give you another configuration and there are four queens that are mutually attacking,
+
+341
+00:41:25,000 --> 00:41:29,000
+ so which one do you think would be better?
+
+342
+00:41:29,000 --> 00:41:32,000
+ Of course this one. This one, there are only two queens.
+
+343
+00:41:32,000 --> 00:41:44,000
+ So what I'm trying to say is that in optimization, we have to have a way to ascertain or distinguish the goodness of the solution.
+
+344
+00:41:44,000 --> 00:41:46,000
+ That's optimization.
+
+345
+00:41:46,000 --> 00:41:56,000
+ And I think if I say objective function, if you have done basic mathematics before, you understand what that means.
+
+346
+00:41:56,000 --> 00:42:04,000
+ So you want to try one more because I'm going to use the egg queens problem a lot.
+
+347
+00:42:04,000 --> 00:42:08,000
+ So it's good to get really, really familiar.
+
+348
+00:42:08,000 --> 00:42:19,000
+ So that later when we formulate it, you'll understand what it means.
+
+349
+00:42:19,000 --> 00:42:27,000
+ So are there any valid non-attacking configurations?
+
+350
+00:42:27,000 --> 00:42:41,000
+ Meaning like zero queens attacking?
+
+351
+00:42:41,000 --> 00:43:00,000
+ Spend a couple of minutes. Tell me.
+
+352
+00:43:00,000 --> 00:43:05,000
+ Let me explain what this means.
+
+353
+00:43:05,000 --> 00:43:20,000
+ I should explain.
+
+354
+00:43:20,000 --> 00:43:45,000
+ Okay. So when you have
+
+355
+00:43:45,000 --> 00:44:14,000
+ three, five, seven, one, six, four, two, eight, six, four, two, eight.
+
+356
+00:44:14,000 --> 00:44:36,000
+ So this is for the first one. Three, five, seven, one, six.
+
+357
+00:44:36,000 --> 00:44:50,000
+ So out of this six layout of egg queens, are there any that are non-attacking?
+
+358
+00:45:06,000 --> 00:45:19,000
+ So the first one, have you working out?
+
+359
+00:45:19,000 --> 00:45:23,000
+ First one, attacking.
+
+360
+00:45:23,000 --> 00:45:26,000
+ First one is no good, right?
+
+361
+00:45:26,000 --> 00:45:30,000
+ No good means they are queens attacking, right?
+
+362
+00:45:30,000 --> 00:45:31,000
+ Okay.
+
+363
+00:45:31,000 --> 00:45:33,000
+ First one good, no good.
+
+364
+00:45:33,000 --> 00:45:35,000
+ No good.
+
+365
+00:45:35,000 --> 00:45:41,000
+ Second one.
+
+366
+00:45:41,000 --> 00:45:55,000
+ Okay, get used to it.
+
+367
+00:45:55,000 --> 00:45:56,000
+ So get used to it.
+
+368
+00:45:56,000 --> 00:46:03,000
+ If exam I give you 12 queens, you know, then it's going to be very easily.
+
+369
+00:46:03,000 --> 00:46:05,000
+ Second one.
+
+370
+00:46:33,000 --> 00:46:36,000
+ Okay.
+
+371
+00:47:03,000 --> 00:47:16,000
+ So be good.
+
+372
+00:47:16,000 --> 00:47:22,000
+ Is be good?
+
+373
+00:47:22,000 --> 00:47:45,000
+ Good.
+
+374
+00:47:46,000 --> 00:47:56,000
+ Okay.
+
+375
+00:48:17,000 --> 00:48:21,000
+ So be, who says is good?
+
+376
+00:48:21,000 --> 00:48:24,000
+ Good.
+
+377
+00:48:24,000 --> 00:48:26,000
+ Okay.
+
+378
+00:48:26,000 --> 00:48:33,000
+ No mutually attacking?
+
+379
+00:48:33,000 --> 00:48:36,000
+ Okay, be is good, right?
+
+380
+00:48:36,000 --> 00:48:41,000
+ So, okay, one more, then the rest I leave it to you to do on your own time.
+
+381
+00:48:41,000 --> 00:48:45,000
+ C, C?
+
+382
+00:48:45,000 --> 00:48:47,000
+ C no good.
+
+383
+00:48:47,000 --> 00:48:49,000
+ Okay.
+
+384
+00:48:49,000 --> 00:48:51,000
+ So what about D?
+
+385
+00:48:51,000 --> 00:48:57,000
+ Maybe let's go through D.
+
+386
+00:48:57,000 --> 00:48:59,000
+ D?
+
+387
+00:48:59,000 --> 00:49:02,000
+ No.
+
+388
+00:49:02,000 --> 00:49:04,000
+ No.
+
+389
+00:49:04,000 --> 00:49:05,000
+ Right?
+
+390
+00:49:05,000 --> 00:49:07,000
+ So D is no good.
+
+391
+00:49:07,000 --> 00:49:09,000
+ What about E?
+
+392
+00:49:09,000 --> 00:49:10,000
+ No.
+
+393
+00:49:10,000 --> 00:49:12,000
+ No.
+
+394
+00:49:12,000 --> 00:49:14,000
+ Okay.
+
+395
+00:49:14,000 --> 00:49:15,000
+ Okay.
+
+396
+00:49:15,000 --> 00:49:19,000
+ What about F?
+
+397
+00:49:19,000 --> 00:49:22,000
+ What about F?
+
+398
+00:49:42,000 --> 00:49:52,000
+ F, good.
+
+399
+00:49:52,000 --> 00:49:54,000
+ No good.
+
+400
+00:49:54,000 --> 00:49:56,000
+ Good.
+
+401
+00:49:56,000 --> 00:50:00,000
+ F, good.
+
+402
+00:50:00,000 --> 00:50:02,000
+ Okay, F is good.
+
+403
+00:50:02,000 --> 00:50:04,000
+ Right?
+
+404
+00:50:04,000 --> 00:50:08,000
+ So B and F is good.
+
+405
+00:50:08,000 --> 00:50:10,000
+ Okay.
+
+406
+00:50:10,000 --> 00:50:12,000
+ So what do I do, right?
+
+407
+00:50:12,000 --> 00:50:13,000
+ Okay.
+
+408
+00:50:13,000 --> 00:50:19,000
+ If I were to ask you to formulate this, right, in terms of equations, how to know,
+
+409
+00:50:19,000 --> 00:50:25,000
+ because chances are you probably have to draw out the configuration, right?
+
+410
+00:50:25,000 --> 00:50:28,000
+ And then to see whether it's in conflict or not.
+
+411
+00:50:28,000 --> 00:50:31,000
+ It's very, so there's another point you need to know.
+
+412
+00:50:31,000 --> 00:50:38,000
+ It's very easy to see that a configuration is no good, correct?
+
+413
+00:50:38,000 --> 00:50:45,000
+ If you see one poop in conflict, you already proven that this is no good, right?
+
+414
+00:50:45,000 --> 00:50:54,000
+ To prove that this is a valid configuration, you have to check everyone, right?
+
+415
+00:50:54,000 --> 00:50:56,000
+ Correct?
+
+416
+00:50:56,000 --> 00:50:58,000
+ To prove that it's valid.
+
+417
+00:50:58,000 --> 00:51:05,000
+ So if you have a thousand queens, you do it a thousand times, right?
+
+418
+00:51:05,000 --> 00:51:12,000
+ So keep that thought in mind later when we, so-called, let's say you have a solution, right?
+
+419
+00:51:12,000 --> 00:51:15,000
+ How do you prove or show that it is good?
+
+420
+00:51:15,000 --> 00:51:19,000
+ Whether it's optimum or not optimum, okay?
+
+421
+00:51:19,000 --> 00:51:25,000
+ So think about how you would formulate it, right, in terms of equation,
+
+422
+00:51:25,000 --> 00:51:30,000
+ meaning that if I give you a string like that, right, you can go,
+
+423
+00:51:30,000 --> 00:51:37,000
+ based on the equation or formulation, then you can check whether it is valid or not,
+
+424
+00:51:37,000 --> 00:51:39,000
+ whether it's attacking or not.
+
+425
+00:51:39,000 --> 00:51:44,000
+ I mean, you know, right, if you can formulate it, you can put it into an algorithm.
+
+426
+00:51:44,000 --> 00:51:46,000
+ That's all the idea, okay?
+
+427
+00:51:46,000 --> 00:51:54,000
+ I will show you next week after you've tried it.
+
+428
+00:51:54,000 --> 00:52:02,000
+ Okay, let's talk about modeling.
+
+429
+00:52:02,000 --> 00:52:06,000
+ Okay, so we look at optimization.
+
+430
+00:52:06,000 --> 00:52:09,000
+ Now let's take a look at modeling, right?
+
+431
+00:52:09,000 --> 00:52:17,000
+ So based on the black box, you have three entities, as we say, the input and then the output and the model, right?
+
+432
+00:52:17,000 --> 00:52:28,000
+ So what if you know your, you have your input, you have your output, but the model is not known?
+
+433
+00:52:28,000 --> 00:52:32,000
+ So this course is about machine learning, right?
+
+434
+00:52:32,000 --> 00:52:37,000
+ So later on, I think Prof. Malgatso is going to tell you a lot about neural networks and so on.
+
+435
+00:52:37,000 --> 00:52:42,000
+ So when you do training on your neural networks, right?
+
+436
+00:52:42,000 --> 00:52:45,000
+ So your network consists of multiple layers.
+
+437
+00:52:45,000 --> 00:52:53,000
+ What are you trying to solve when you do machine learning in your neural network?
+
+438
+00:52:53,000 --> 00:53:00,000
+ You're trying to build or find the weights, the connection between the different neurons, right?
+
+439
+00:53:00,000 --> 00:53:04,000
+ So normally in your training process, you will do it iteratively.
+
+440
+00:53:04,000 --> 00:53:16,000
+ So you will iterate until you find a set of weights that correctly associate your output and the input.
+
+441
+00:53:16,000 --> 00:53:21,000
+ So for example, when you do image recognition or character recognition, right?
+
+442
+00:53:21,000 --> 00:53:29,000
+ You have a set of your training sample, could be you have your inputs, which are all the images of your characters, right?
+
+443
+00:53:29,000 --> 00:53:31,000
+ And then you would have labeled them.
+
+444
+00:53:31,000 --> 00:53:35,000
+ Okay, this image is A, this image is B and so on.
+
+445
+00:53:35,000 --> 00:53:43,000
+ So based on this image here, you, you will iteratively, right?
+
+446
+00:53:43,000 --> 00:53:49,000
+ So-called find the weights that can correct correctly associate between the inputs and outputs.
+
+447
+00:53:49,000 --> 00:53:53,000
+ That's the basis of machine learning, right?
+
+448
+00:53:53,000 --> 00:53:54,000
+ In neural network.
+
+449
+00:53:55,000 --> 00:54:04,000
+ So if you think in this model here, all right?
+
+450
+00:54:04,000 --> 00:54:10,000
+ So basically what you're doing is that when you find the weights, you're finding the model for that.
+
+451
+00:54:10,000 --> 00:54:14,000
+ Typically that is what you do, okay?
+
+452
+00:54:14,000 --> 00:54:16,000
+ So you do it iteratively.
+
+453
+00:54:16,000 --> 00:54:20,000
+ Can you use a GA to do it?
+
+454
+00:54:21,000 --> 00:54:25,000
+ Yes, you can.
+
+455
+00:54:25,000 --> 00:54:30,000
+ So you can, modeling problems can be transformed into optimization problems.
+
+456
+00:54:30,000 --> 00:54:38,000
+ You have all the different weights, which you normally in your deep neural network, you will iteratively train it, right?
+
+457
+00:54:38,000 --> 00:54:40,000
+ Until you get a set of weights.
+
+458
+00:54:40,000 --> 00:54:43,000
+ You can also optimize it.
+
+459
+00:54:43,000 --> 00:54:46,000
+ I evolve the set of weights.
+
+460
+00:54:46,000 --> 00:54:51,000
+ I will evolve the set of weights until there is a set of weights, right?
+
+461
+00:54:51,000 --> 00:54:54,000
+ That very closely, right?
+
+462
+00:54:54,000 --> 00:54:57,000
+ Model the inputs and outputs.
+
+463
+00:54:57,000 --> 00:55:02,000
+ Okay, so we can also transform it into optimization problems or so.
+
+464
+00:55:02,000 --> 00:55:04,000
+ Now.
+
+465
+00:55:08,000 --> 00:55:11,000
+ So that's on machine learning.
+
+466
+00:55:11,000 --> 00:55:16,000
+ Predicting stock exchange.
+
+467
+00:55:16,000 --> 00:55:20,000
+ In your stock market, you have historical data.
+
+468
+00:55:20,000 --> 00:55:24,000
+ We call it the valuation of the equity.
+
+469
+00:55:24,000 --> 00:55:29,000
+ So you have this historical time series data.
+
+470
+00:55:29,000 --> 00:55:32,000
+ Can I build a model?
+
+471
+00:55:32,000 --> 00:55:35,000
+ According to this historical data, right?
+
+472
+00:55:35,000 --> 00:55:38,000
+ To find a model, right?
+
+473
+00:55:38,000 --> 00:55:48,000
+ That will closely predict, does approximation of the trend of the stock.
+
+474
+00:55:48,000 --> 00:55:49,000
+ Same thing, right?
+
+475
+00:55:49,000 --> 00:55:51,000
+ We're just looking for a model.
+
+476
+00:55:51,000 --> 00:56:01,000
+ So that becomes a model for predicting the price of the stock.
+
+477
+00:56:01,000 --> 00:56:04,000
+ In your smart homes, you have so-called your...
+
+478
+00:56:04,000 --> 00:56:07,000
+ Let's say your IoT, right?
+
+479
+00:56:07,000 --> 00:56:10,000
+ Or at home, let's say your voice control.
+
+480
+00:56:10,000 --> 00:56:15,000
+ Can you train your device, your controller, to understand certain commands?
+
+481
+00:56:15,000 --> 00:56:22,000
+ Then, likes on, you know, then the output will be associated to a so-called switching on,
+
+482
+00:56:22,000 --> 00:56:25,000
+ a particular switch, and so on, right?
+
+483
+00:56:25,000 --> 00:56:31,000
+ So basically, essentially what you're doing is finding a model.
+
+484
+00:56:31,000 --> 00:56:42,000
+ All right?
+
+485
+00:56:42,000 --> 00:56:52,000
+ Okay, another example of model is your so-called load, not load.
+
+486
+00:56:52,000 --> 00:56:55,000
+ Loan, loan-applicant credibility.
+
+487
+00:56:55,000 --> 00:56:57,000
+ Okay?
+
+488
+00:56:57,000 --> 00:57:00,000
+ So when you want to get a load, all right?
+
+489
+00:57:00,000 --> 00:57:03,000
+ The bank is taking a risk on you.
+
+490
+00:57:03,000 --> 00:57:05,000
+ Okay?
+
+491
+00:57:05,000 --> 00:57:08,000
+ So the bank would...
+
+492
+00:57:08,000 --> 00:57:16,000
+ Ideally, the bank only want to loan you if they believe that you have so-called the capability to repay the loan.
+
+493
+00:57:16,000 --> 00:57:17,000
+ All right?
+
+494
+00:57:17,000 --> 00:57:19,000
+ So how do you evaluate, all right?
+
+495
+00:57:19,000 --> 00:57:24,000
+ So in the old days, I remember when I go to the bank, right, to get a loan,
+
+496
+00:57:24,000 --> 00:57:28,000
+ you literally have a bank officer to sit down and ask you a series of questions.
+
+497
+00:57:28,000 --> 00:57:36,000
+ And based on the questions, according to how I answer or the profile, they will give a score.
+
+498
+00:57:36,000 --> 00:57:37,000
+ All right?
+
+499
+00:57:37,000 --> 00:57:44,000
+ So essentially what the loan officer has is a model, all right?
+
+500
+00:57:44,000 --> 00:57:52,000
+ They have a model to so-called determine the credit-worthiness of the loan-applicant, all right?
+
+501
+00:57:52,000 --> 00:57:55,000
+ Now, this is, of course, a lot of it can be done by machines.
+
+502
+00:57:55,000 --> 00:57:58,000
+ All these can be automated, all right?
+
+503
+00:57:58,000 --> 00:58:10,000
+ So by the same token, you can also use your event-based algorithm to come up with a model for this prediction.
+
+504
+00:58:10,000 --> 00:58:13,000
+ So to come up with a model, all right?
+
+505
+00:58:13,000 --> 00:58:23,000
+ So you will base your accuracy on the historical data of what happens based on the profile of the different loan applicants and so on.
+
+506
+00:58:23,000 --> 00:58:24,000
+ All right?
+
+507
+00:58:24,000 --> 00:58:39,000
+ So this will fall very nicely into a so-called black box model where we are trying to find the model.
+
+508
+00:58:39,000 --> 00:58:48,000
+ So the third category on your black, according to the black box, would be the simulation.
+
+509
+00:58:48,000 --> 00:58:57,000
+ So in simulation, you have a situation where you know the input, all right?
+
+510
+00:58:57,000 --> 00:59:02,000
+ And then you know the model, but what you don't know is the output.
+
+511
+00:59:02,000 --> 00:59:03,000
+ All right?
+
+512
+00:59:03,000 --> 00:59:05,000
+ What you don't know is the output.
+
+513
+00:59:05,000 --> 00:59:12,000
+ So this is very good, all right?
+
+514
+00:59:12,000 --> 00:59:20,000
+ To answer in scenarios where you have that, to answer what if kind of a scenario, right?
+
+515
+00:59:20,000 --> 00:59:25,000
+ For example, in economics and artificial life, all right?
+
+516
+00:59:25,000 --> 00:59:34,000
+ So if you are a so-called a planner, right, you are in an economic planning unit, for example, all right?
+
+517
+00:59:34,000 --> 00:59:38,000
+ So you change a certain policy.
+
+518
+00:59:38,000 --> 00:59:43,000
+ Do you know what the result or the repercussion of this change in policy?
+
+519
+00:59:43,000 --> 00:59:46,000
+ You don't know because you cannot test it out.
+
+520
+00:59:46,000 --> 00:59:50,000
+ You cannot experiment it.
+
+521
+00:59:50,000 --> 00:59:51,000
+ All right?
+
+522
+00:59:51,000 --> 00:59:53,000
+ So what's the next best course?
+
+523
+00:59:53,000 --> 00:59:55,000
+ You simulate it, all right?
+
+524
+00:59:55,000 --> 00:59:57,000
+ You simulate it.
+
+525
+00:59:57,000 --> 01:00:05,000
+ Or you want to do a prediction on the population growth, all right?
+
+526
+01:00:05,000 --> 01:00:15,000
+ According to the so-called different parameters or policies or texts, your text policy or text regime and so on.
+
+527
+01:00:15,000 --> 01:00:21,000
+ So you want to find out what the output is.
+
+528
+01:00:21,000 --> 01:00:23,000
+ So you cannot actually test it out, all right?
+
+529
+01:00:23,000 --> 01:00:24,000
+ So what do you do?
+
+530
+01:00:24,000 --> 01:00:27,000
+ You use simulation to do it, okay?
+
+531
+01:00:27,000 --> 01:00:34,000
+ So you are very applicable in evolutionary economics, artificial life, right?
+
+532
+01:00:34,000 --> 01:00:37,000
+ Or in your weather forecast systems, all right?
+
+533
+01:00:37,000 --> 01:00:44,000
+ And also the, let's say, impact analysis on the new text systems and so on.
+
+534
+01:00:44,000 --> 01:00:52,000
+ Let's talk a little bit about the evolving artificial life, all right?
+
+535
+01:00:52,000 --> 01:00:58,000
+ So this book by Epstein, it's a good book that talks a lot about this, right?
+
+536
+01:00:58,000 --> 01:01:00,000
+ If you're interested, you can look into this.
+
+537
+01:01:00,000 --> 01:01:04,000
+ So you can simulate trade, economic competition, all right?
+
+538
+01:01:04,000 --> 01:01:08,000
+ And then to calibrate the models, okay?
+
+539
+01:01:08,000 --> 01:01:14,000
+ So when you think about it, it would be a situation where you cannot actually test it out, right?
+
+540
+01:01:14,000 --> 01:01:18,000
+ In many problems, you can't actually test it out, all right?
+
+541
+01:01:18,000 --> 01:01:25,000
+ So therefore you rely on some kind of simulation model, all right, to predict what the output is.
+
+542
+01:01:25,000 --> 01:01:33,000
+ And then from the output, you would use it to, so-called, to calibrate the parameters, okay?
+
+543
+01:01:33,000 --> 01:01:43,000
+ So very useful, for example, to optimize strategies and policies and so on, all right?
+
+544
+01:01:43,000 --> 01:01:50,000
+ And the other example you can talk about from a biological point of view, all right?
+
+545
+01:01:50,000 --> 01:01:56,000
+ We know that incest prevention keeps evolution from rapid degeneration.
+
+546
+01:01:56,000 --> 01:01:59,000
+ We all know this, all right?
+
+547
+01:01:59,000 --> 01:02:01,000
+ Can we test it?
+
+548
+01:02:01,000 --> 01:02:02,000
+ No, all right?
+
+549
+01:02:02,000 --> 01:02:05,000
+ It's simulated.
+
+550
+01:02:05,000 --> 01:02:08,000
+ What about multi-paran reproduction?
+
+551
+01:02:08,000 --> 01:02:16,000
+ Multi-paran reproduction makes evolution more efficient.
+
+552
+01:02:16,000 --> 01:02:19,000
+ Can never happen, all right?
+
+553
+01:02:19,000 --> 01:02:27,000
+ So therefore the only request is to simulate, okay?
+
+554
+01:02:27,000 --> 01:02:35,000
+ No picture to show on this.
+
+555
+01:02:35,000 --> 01:02:42,000
+ Okay, so we are looking at the black box categorization.
+
+556
+01:02:42,000 --> 01:02:45,000
+ Let's think in terms of the search problems, all right?
+
+557
+01:02:45,000 --> 01:02:50,000
+ Let's look from the viewpoint of it being a search problem.
+
+558
+01:02:50,000 --> 01:02:59,000
+ So you can see from our earlier discussion, simulation is very different from optimization and modeling, all right?
+
+559
+01:02:59,000 --> 01:03:07,000
+ So in simulation, all right, we actually, as compared to optimization and modeling,
+
+560
+01:03:07,000 --> 01:03:13,000
+ you can see the difference from what we have looked, talked about earlier on.
+
+561
+01:03:13,000 --> 01:03:21,000
+ So optimization and modeling problems search through the huge search possibilities, all right?
+
+562
+01:03:21,000 --> 01:03:25,000
+ So when we talk about the search possibilities, you are talking about a search space.
+
+563
+01:03:25,000 --> 01:03:32,000
+ So search space is the so-called solution, the landscape, the possibilities that is available.
+
+564
+01:03:32,000 --> 01:03:39,000
+ So this is a collection of all objects of interest, including the desired solution.
+
+565
+01:03:39,000 --> 01:03:47,000
+ Now the question we want to ask is how big, how complex is the search space?
+
+566
+01:03:47,000 --> 01:03:52,000
+ So how complex, how large is the search space?
+
+567
+01:03:52,000 --> 01:04:00,000
+ So to be able to classify this problem, that helps us to decide what is a good tool,
+
+568
+01:04:00,000 --> 01:04:05,000
+ the tools that we can use to solve this problem.
+
+569
+01:04:05,000 --> 01:04:13,000
+ Okay, so understanding of the nature of the search space that we are talking about,
+
+570
+01:04:13,000 --> 01:04:32,000
+ that will help us, or that provide us with so-called information on how to deal with the problem.
+
+571
+01:04:32,000 --> 01:04:39,000
+ All right, in our categorization also, we have this optimization versus constraint satisfaction.
+
+572
+01:04:40,000 --> 01:04:47,000
+ So far we have looked at, basically we mentioned about objective function.
+
+573
+01:04:47,000 --> 01:05:00,000
+ So basically it is for us to assign a value or a figure of merit to reflect the quality on a scale.
+
+574
+01:05:00,000 --> 01:05:04,000
+ So for example, in the n-quins problem, or a-quins problem,
+
+575
+01:05:04,000 --> 01:05:10,000
+ so the objective function could be based on the number of unchecked queens.
+
+576
+01:05:10,000 --> 01:05:18,000
+ From the examples that you have seen, if I ask you which layout or configuration is better,
+
+577
+01:05:18,000 --> 01:05:25,000
+ so you can tell me which is better according to the number of queens that are not attacking each other.
+
+578
+01:05:25,000 --> 01:05:30,000
+ That will be the goodness measure of the configuration.
+
+579
+01:05:31,000 --> 01:05:37,000
+ So we can also think of the traveling salesman problem.
+
+580
+01:05:37,000 --> 01:05:46,000
+ The objective function of the traveling salesman problem will be based on the tour length, the distance traveled.
+
+581
+01:05:46,000 --> 01:05:53,000
+ So the length of a tour, visiting given set of cities, what is the objective?
+
+582
+01:05:53,000 --> 01:05:59,000
+ We want to minimize the cost, which is the distance.
+
+583
+01:06:01,000 --> 01:06:03,000
+ That is objective function.
+
+584
+01:06:03,000 --> 01:06:05,000
+ You clear the objective function?
+
+585
+01:06:05,000 --> 01:06:10,000
+ It is a function to measure the figure, the goodness of a solution.
+
+586
+01:06:11,000 --> 01:06:15,000
+ Now on the other side of it, we have constraint.
+
+587
+01:06:17,000 --> 01:06:28,000
+ Constraint is something that is a binary evaluation telling whether a given requirement holds or not.
+
+588
+01:06:29,000 --> 01:06:32,000
+ It is something that you can answer yes, no.
+
+589
+01:06:32,000 --> 01:06:35,000
+ Yes means it satisfies the constraint.
+
+590
+01:06:35,000 --> 01:06:37,000
+ No means it doesn't satisfy.
+
+591
+01:06:40,000 --> 01:06:48,000
+ So for example, in the eight queens problem, you are finding a configuration of eight queens on the chess board,
+
+592
+01:06:48,000 --> 01:06:51,000
+ such that no two queens attack each other.
+
+593
+01:06:52,000 --> 01:07:00,000
+ So if I give you two queens a position of it, you can answer me yes, they are attacking or no, they are not mutually attacking.
+
+594
+01:07:00,000 --> 01:07:04,000
+ That is the implication or meaning of constraint.
+
+595
+01:07:07,000 --> 01:07:18,000
+ In the traveling salesman problem, constraint, an example of a constraint is you want to find a tour
+
+596
+01:07:19,000 --> 01:07:25,000
+ with minimal length where x is visited after city y.
+
+597
+01:07:28,000 --> 01:07:31,000
+ It is just like you are a delivery truck, so you are doing a delivery.
+
+598
+01:07:33,000 --> 01:07:39,000
+ So your solution must be such that you visit x after city y.
+
+599
+01:07:40,000 --> 01:07:42,000
+ Then you ask why?
+
+600
+01:07:42,000 --> 01:07:44,000
+ Why must it be the case?
+
+601
+01:07:45,000 --> 01:07:49,000
+ Perhaps x is a more important customer.
+
+602
+01:07:50,000 --> 01:07:52,000
+ So you have to make sure you visit x.
+
+603
+01:07:53,000 --> 01:07:55,000
+ After that, you visit y.
+
+604
+01:07:57,000 --> 01:08:02,000
+ So these are constraints that can be incorporated in a practical scenario.
+
+605
+01:08:03,000 --> 01:08:15,000
+ So between your objective function and your constraint, we can put together a simple table.
+
+606
+01:08:20,000 --> 01:08:31,000
+ So you have your constraints in red, yes, no, and then you have your objective function.
+
+607
+01:08:33,000 --> 01:08:44,000
+ So based on these two categorizations of yes and no for the constraint and objective function, you have four possibilities.
+
+608
+01:08:45,000 --> 01:08:56,000
+ The first one when you have yes for objective function and constraints, you have what we call constraint optimization problem.
+
+609
+01:08:57,000 --> 01:09:02,000
+ C O P, objective function and then you have constraint.
+
+610
+01:09:03,000 --> 01:09:06,000
+ Constraint optimization problem.
+
+611
+01:09:09,000 --> 01:09:22,000
+ When you only have your constraints, the first row under constraints yes and then objective function no.
+
+612
+01:09:22,000 --> 01:09:27,000
+ That is a CS constraint satisfaction problem, CST.
+
+613
+01:09:29,000 --> 01:09:33,000
+ And the next one is free optimization problem.
+
+614
+01:09:35,000 --> 01:09:39,000
+ So let's think about the eight queens problem.
+
+615
+01:09:42,000 --> 01:09:47,000
+ How do you formulate it as constraint satisfaction problem?
+
+616
+01:09:48,000 --> 01:09:52,000
+ How does it become a constraint satisfaction problem?
+
+617
+01:09:56,000 --> 01:09:58,000
+ The eight queens problem.
+
+618
+01:10:10,000 --> 01:10:13,000
+ Think about the six examples I gave you.
+
+619
+01:10:14,000 --> 01:10:21,000
+ So out of the six examples, you pointed out two are valid.
+
+620
+01:10:22,000 --> 01:10:26,000
+ So therefore only two solutions are feasible.
+
+621
+01:10:27,000 --> 01:10:29,000
+ The rest are not acceptable.
+
+622
+01:10:30,000 --> 01:10:33,000
+ Why are the two, I think it's B and F.
+
+623
+01:10:34,000 --> 01:10:38,000
+ Why are B and F acceptable?
+
+624
+01:10:39,000 --> 01:10:41,000
+ Because you satisfy all the constraints.
+
+625
+01:10:42,000 --> 01:10:44,000
+ So there is a constraint satisfaction.
+
+626
+01:10:45,000 --> 01:10:47,000
+ The rest of it are not admissible.
+
+627
+01:10:52,000 --> 01:10:58,000
+ So what about free optimization problem?
+
+628
+01:11:01,000 --> 01:11:07,000
+ How do you formulate the eight queens as a free optimization problem?
+
+629
+01:11:12,000 --> 01:11:17,000
+ Remember your free optimization, you only have objective function.
+
+630
+01:11:18,000 --> 01:11:20,000
+ There are no constraints.
+
+631
+01:11:22,000 --> 01:11:23,000
+ How do you formulate it?
+
+632
+01:11:23,000 --> 01:11:28,000
+ Or tell me or put to me the question is what am I trying to solve for?
+
+633
+01:11:29,000 --> 01:11:31,000
+ Or how would it be formulated?
+
+634
+01:11:41,000 --> 01:11:42,000
+ Any thoughts?
+
+635
+01:11:50,000 --> 01:11:59,000
+ So when I ask you, when we are comparing the layout of the eight queens,
+
+636
+01:12:00,000 --> 01:12:03,000
+ so I ask you is this better or is this better?
+
+637
+01:12:06,000 --> 01:12:10,000
+ So you must have a way of measuring which is better, isn't it?
+
+638
+01:12:10,000 --> 01:12:11,000
+ How do you measure?
+
+639
+01:12:14,000 --> 01:12:15,000
+ The what?
+
+640
+01:12:17,000 --> 01:12:24,000
+ Last queens, max queens not attacking, right?
+
+641
+01:12:25,000 --> 01:12:28,000
+ So they are the maximum number of queens that is not attacking.
+
+642
+01:12:29,000 --> 01:12:30,000
+ Correct?
+
+643
+01:12:30,000 --> 01:12:32,000
+ So that becomes your objective function.
+
+644
+01:12:34,000 --> 01:12:37,000
+ So you may not appreciate because it's only eight queens.
+
+645
+01:12:37,000 --> 01:12:40,000
+ But what if it's a 2,000 queens?
+
+646
+01:12:43,000 --> 01:12:47,000
+ So you run it as a free optimization problem.
+
+647
+01:12:47,000 --> 01:12:50,000
+ All you want is that for your algorithm just give me the maximum.
+
+648
+01:12:52,000 --> 01:13:01,000
+ Find a configuration that has the maximum number of queens that are not attacking.
+
+649
+01:13:02,000 --> 01:13:03,000
+ All right.
+
+650
+01:13:06,000 --> 01:13:14,000
+ Now what about the COP constraint optimization problem?
+
+651
+01:13:17,000 --> 01:13:20,000
+ How do you formulate the eight queens?
+
+652
+01:13:24,000 --> 01:13:28,000
+ Remember constraint optimization, you have constraints,
+
+653
+01:13:28,000 --> 01:13:31,000
+ you also have objective function.
+
+654
+01:14:29,000 --> 01:14:35,000
+ Phrase it to be such that it is COP constraint optimization.
+
+655
+01:14:43,000 --> 01:14:44,000
+ Maximum?
+
+656
+01:14:46,000 --> 01:14:49,000
+ So why is it a constraint optimization?
+
+657
+01:14:59,000 --> 01:15:11,000
+ So the maximum number of queens, okay, you are right, right?
+
+658
+01:15:12,000 --> 01:15:16,000
+ But the objective function, okay, maybe I should ask you this question.
+
+659
+01:15:16,000 --> 01:15:18,000
+ How do you formulate the objective function?
+
+660
+01:15:24,000 --> 01:15:26,000
+ Would it be based on the number of constraints that is fine?
+
+661
+01:15:29,000 --> 01:15:37,000
+ In other words, the objective function tells you how good a solution is, right?
+
+662
+01:15:38,000 --> 01:15:42,000
+ So if I ask you how good it is, you say this is eight.
+
+663
+01:15:43,000 --> 01:15:48,000
+ The measurement of how good it is, the fineness of it is eight and so on.
+
+664
+01:15:48,000 --> 01:15:50,000
+ How do you measure this eight?
+
+665
+01:15:50,000 --> 01:15:52,000
+ It would be based on the number of queens.
+
+666
+01:15:52,000 --> 01:15:53,000
+ Am I correct?
+
+667
+01:15:53,000 --> 01:15:54,000
+ That are not attacking.
+
+668
+01:15:58,000 --> 01:16:01,000
+ So inherently the objective function is part of the constraint.
+
+669
+01:16:01,000 --> 01:16:07,000
+ Can you make it into a more clear-cut constraint optimization?
+
+670
+01:16:13,000 --> 01:16:14,000
+ Come, give me an example.
+
+671
+01:16:17,000 --> 01:16:19,000
+ Stay close together.
+
+672
+01:16:20,000 --> 01:16:27,000
+ As close like based on the distance possible, right?
+
+673
+01:16:28,000 --> 01:16:37,000
+ Like find me a configuration, a non-attacking configuration where the queens are near to each other, right?
+
+674
+01:16:38,000 --> 01:16:39,000
+ Any other variations?
+
+675
+01:16:43,000 --> 01:16:44,000
+ The number of configurations?
+
+676
+01:16:50,000 --> 01:16:56,000
+ No queens attacking each other.
+
+677
+01:16:57,000 --> 01:17:00,000
+ So that will be a measure for objective function, right?
+
+678
+01:17:06,000 --> 01:17:11,000
+ The number of queens satisfied?
+
+679
+01:17:20,000 --> 01:17:21,000
+ Uh-huh.
+
+680
+01:17:26,000 --> 01:17:28,000
+ How many parts are satisfied?
+
+681
+01:17:32,000 --> 01:17:38,000
+ That will also be the objective function, right?
+
+682
+01:17:39,000 --> 01:17:49,000
+ How about if I tell you, okay, can you find me a configuration where the first queen must be in column three?
+
+683
+01:17:51,000 --> 01:17:52,000
+ How about that?
+
+684
+01:17:53,000 --> 01:17:54,000
+ All right?
+
+685
+01:17:56,000 --> 01:18:00,000
+ Or you could use this to your advantage if you have a 2,000 queens, for example.
+
+686
+01:18:00,000 --> 01:18:01,000
+ All right?
+
+687
+01:18:01,000 --> 01:18:05,000
+ I'm going to fix half of it to a certain position.
+
+688
+01:18:05,000 --> 01:18:08,000
+ Then when I solve it, I solve a smaller scale problem.
+
+689
+01:18:10,000 --> 01:18:12,000
+ So there's a, in a way, there's constraint.
+
+690
+01:18:18,000 --> 01:18:19,000
+ Okay?
+
+691
+01:18:19,000 --> 01:18:23,000
+ You may not be very clear right now, but the last thing about the traveling salesman problem.
+
+692
+01:18:23,000 --> 01:18:25,000
+ Traveling salesman problem.
+
+693
+01:18:26,000 --> 01:18:32,000
+ How do we go about making it into a free optimization problem?
+
+694
+01:18:33,000 --> 01:18:40,000
+ In the context of a traveling salesman problem, how is it a free optimization problem?
+
+695
+01:18:51,000 --> 01:18:56,000
+ Remember, free optimization problem, only the objective function.
+
+696
+01:18:56,000 --> 01:18:57,000
+ All right?
+
+697
+01:19:02,000 --> 01:19:18,000
+ So, you have n number of cities, right?
+
+698
+01:19:18,000 --> 01:19:20,000
+ Find me a tour sequence.
+
+699
+01:19:20,000 --> 01:19:26,000
+ So just to be sure you know, you are clear about the traveling salesman.
+
+700
+01:19:32,000 --> 01:19:41,000
+ So, for example, you have, right?
+
+701
+01:19:41,000 --> 01:19:54,000
+ 8 city, 3, 6, F, G, H, right?
+
+702
+01:19:54,000 --> 01:20:18,000
+ So, a tour sequence could mean like, say, A, D, H, F, C, G, E, N, B.
+
+703
+01:20:18,000 --> 01:20:20,000
+ That could be a tour sequence.
+
+704
+01:20:20,000 --> 01:20:21,000
+ All right?
+
+705
+01:20:21,000 --> 01:20:47,000
+ So what this means is this is A to D, and then D to H, and then H to F, F to C, and then C to G, and then B, and then B.
+
+706
+01:20:48,000 --> 01:20:50,000
+ That will be the end.
+
+707
+01:20:50,000 --> 01:20:58,000
+ But normally when we go back to the original point, just like in distribution, you have to go back to the headquarter, right?
+
+708
+01:20:58,000 --> 01:21:08,000
+ So when it goes back to the original, we call it a closed circuit.
+
+709
+01:21:09,000 --> 01:21:10,000
+ All right?
+
+710
+01:21:10,000 --> 01:21:18,000
+ So it visits each and every node once and only once, and then goes back to the original starting point.
+
+711
+01:21:18,000 --> 01:21:27,000
+ So the cost function will be the total distance that it has to travel.
+
+712
+01:21:27,000 --> 01:21:28,000
+ All right?
+
+713
+01:21:28,000 --> 01:21:44,000
+ Now, so I'm asking you, can you formulate this, or what would make it into a free optimization problem?
+
+714
+01:21:44,000 --> 01:21:47,000
+ Minimize the cost, all right?
+
+715
+01:21:47,000 --> 01:21:49,000
+ Minimize the distance.
+
+716
+01:21:49,000 --> 01:21:51,000
+ Free optimization, all right?
+
+717
+01:21:51,000 --> 01:21:54,000
+ Only 8 city, not difficult.
+
+718
+01:21:54,000 --> 01:21:57,000
+ But what if it's a 10,000 city?
+
+719
+01:21:57,000 --> 01:22:00,000
+ You may not know what's the best.
+
+720
+01:22:00,000 --> 01:22:01,000
+ All right?
+
+721
+01:22:01,000 --> 01:22:06,000
+ So my problem is just find me the best.
+
+722
+01:22:06,000 --> 01:22:07,000
+ All right?
+
+723
+01:22:07,000 --> 01:22:09,000
+ I don't know what's the best, all right?
+
+724
+01:22:09,000 --> 01:22:11,000
+ But I just need a good solution.
+
+725
+01:22:11,000 --> 01:22:12,000
+ So just find me the best.
+
+726
+01:22:12,000 --> 01:22:18,000
+ Free optimization.
+
+727
+01:22:18,000 --> 01:22:20,000
+ Okay?
+
+728
+01:22:21,000 --> 01:22:28,000
+ How about your constraint optimization problem?
+
+729
+01:22:38,000 --> 01:22:44,000
+ Find specific cities.
+
+730
+01:22:45,000 --> 01:22:54,000
+ So, okay.
+
+731
+01:22:54,000 --> 01:23:00,000
+ Like visiting a certain city first, like what we said, right?
+
+732
+01:23:00,000 --> 01:23:03,000
+ X before Y, okay?
+
+733
+01:23:03,000 --> 01:23:06,000
+ So very practical, right?
+
+734
+01:23:06,000 --> 01:23:10,000
+ Because in logistics, quite common inside that.
+
+735
+01:23:10,000 --> 01:23:15,000
+ So find me a minimum tour, all right?
+
+736
+01:23:15,000 --> 01:23:23,000
+ Where city X or city D must be visited first before G.
+
+737
+01:23:23,000 --> 01:23:29,000
+ And that's the constraint.
+
+738
+01:23:29,000 --> 01:23:38,000
+ What about CSP?
+
+739
+01:23:38,000 --> 01:23:40,000
+ Constraint satisfaction?
+
+740
+01:23:40,000 --> 01:23:47,000
+ If you look at the table, only got constraints.
+
+741
+01:23:47,000 --> 01:23:51,000
+ Don't care about minimum.
+
+742
+01:23:51,000 --> 01:23:53,000
+ Don't care about minimum, all right?
+
+743
+01:23:53,000 --> 01:23:56,000
+ I have a certain constraint, all right?
+
+744
+01:23:56,000 --> 01:24:00,000
+ Maybe a certain sequence of constraints.
+
+745
+01:24:00,000 --> 01:24:03,000
+ Just find me a solution, all right?
+
+746
+01:24:03,000 --> 01:24:09,000
+ As long as it satisfies that constraint, it's a good solution.
+
+747
+01:24:09,000 --> 01:24:13,000
+ So it's just like your traveling salesman problem, for example,
+
+748
+01:24:13,000 --> 01:24:18,000
+ in your delivery truck, where you have a big truck,
+
+749
+01:24:18,000 --> 01:24:24,000
+ you want to deliver 120 items, all right?
+
+750
+01:24:24,000 --> 01:24:28,000
+ So the way you put the items in the truck,
+
+751
+01:24:28,000 --> 01:24:34,000
+ what will be your consideration?
+
+752
+01:24:34,000 --> 01:24:36,000
+ You know what's a truck, right?
+
+753
+01:24:36,000 --> 01:24:40,000
+ So where you put things, you stack things in.
+
+754
+01:24:40,000 --> 01:24:47,000
+ So the first one you come, the first one you want to deliver, all right?
+
+755
+01:24:47,000 --> 01:24:50,000
+ Hopefully it will be at the end of the truck.
+
+756
+01:24:50,000 --> 01:24:56,000
+ You don't want to go all the way to the back, you know, to dig it out.
+
+757
+01:24:56,000 --> 01:25:00,000
+ So that means that there will be a certain so-called
+
+758
+01:25:00,000 --> 01:25:05,000
+ the way you plan your traveling, okay?
+
+759
+01:25:05,000 --> 01:25:10,000
+ You have to consider that, okay?
+
+760
+01:25:10,000 --> 01:25:20,000
+ So this is how we categorize according to the optimization and constraints.
+
+761
+01:25:20,000 --> 01:25:24,000
+ Okay.
+
+762
+01:25:24,000 --> 01:25:29,000
+ So we have, so far, just classified the problems, all right?
+
+763
+01:25:29,000 --> 01:25:32,000
+ We talked about the different types of problems, you know,
+
+764
+01:25:32,000 --> 01:25:38,000
+ how we can actually approach or formulate it, all right?
+
+765
+01:25:38,000 --> 01:25:41,000
+ So we haven't talked about the problem solvers, all right?
+
+766
+01:25:41,000 --> 01:25:46,000
+ We didn't really consider the methods of how we're going to solve it, okay?
+
+767
+01:25:46,000 --> 01:25:58,000
+ So in order to classify it, all right, according to the MP-ness of the problem,
+
+768
+01:25:58,000 --> 01:26:03,000
+ so we need to know the properties of the problem solvers.
+
+769
+01:26:03,000 --> 01:26:11,000
+ So MP stands for non-deterministic polynomial.
+
+770
+01:26:11,000 --> 01:26:15,000
+ You all know what a polynomial is, right?
+
+771
+01:26:15,000 --> 01:26:31,000
+ For example, if I tell you fn equal to n to the power of 48 plus 72n
+
+772
+01:26:31,000 --> 01:26:39,000
+ to the power of 7 plus 1 million.
+
+773
+01:26:39,000 --> 01:26:43,000
+ That's a polynomial, all right?
+
+774
+01:26:43,000 --> 01:26:45,000
+ What's the polynomial?
+
+775
+01:26:45,000 --> 01:26:51,000
+ Degree to the power of 48.
+
+776
+01:26:51,000 --> 01:26:55,000
+ Then you say non-deterministic polynomial.
+
+777
+01:26:55,000 --> 01:27:00,000
+ What does that mean?
+
+778
+01:27:00,000 --> 01:27:08,000
+ Non-deterministic.
+
+779
+01:27:08,000 --> 01:27:12,000
+ I don't really know this.
+
+780
+01:27:12,000 --> 01:27:14,000
+ I don't know.
+
+781
+01:27:14,000 --> 01:27:18,000
+ Then you ask me if you have a problem to solve, you ask me,
+
+782
+01:27:18,000 --> 01:27:20,000
+ okay, how long is it going to solve?
+
+783
+01:27:20,000 --> 01:27:24,000
+ If I know, I can tell you, yeah, this is the worst case, right?
+
+784
+01:27:24,000 --> 01:27:27,000
+ According to n, all right?
+
+785
+01:27:27,000 --> 01:27:30,000
+ The complexity of this is according to n.
+
+786
+01:27:30,000 --> 01:27:35,000
+ But if it is an MP, non-deterministic polynomial,
+
+787
+01:27:35,000 --> 01:27:39,000
+ and then you ask me, okay, how long is it going to solve this problem?
+
+788
+01:27:39,000 --> 01:27:43,000
+ Well, gee, I don't know, all right, because it's non-deterministic.
+
+789
+01:27:43,000 --> 01:27:48,000
+ I haven't found a polynomial algorithm.
+
+790
+01:27:48,000 --> 01:27:55,000
+ So that's the class of types of problems that we are talking about.
+
+791
+01:27:55,000 --> 01:28:03,000
+ Basically, what we want to do is to be able to know how difficult the problem is, right?
+
+792
+01:28:03,000 --> 01:28:07,000
+ Now, this is very useful.
+
+793
+01:28:07,000 --> 01:28:10,000
+ There are two classes of problems.
+
+794
+01:28:10,000 --> 01:28:17,000
+ One is a discrete problem, and one is a continuous problem, right?
+
+795
+01:28:17,000 --> 01:28:25,000
+ So the discrete problems, right, the solution is in discrete spaces.
+
+796
+01:28:25,000 --> 01:28:29,000
+ For example, the traveling salesman problem, the way we have formulated it,
+
+797
+01:28:29,000 --> 01:28:31,000
+ it is a discrete problem, right?
+
+798
+01:28:31,000 --> 01:28:33,000
+ It's a discrete problem.
+
+799
+01:28:33,000 --> 01:28:38,000
+ It is a discrete combinatorial problem.
+
+800
+01:28:38,000 --> 01:28:44,000
+ We are basically finding out from the set of finite possibilities of combinations, right?
+
+801
+01:28:45,000 --> 01:28:48,000
+ Like the n-queens problem.
+
+802
+01:28:48,000 --> 01:28:53,000
+ So there is a discrete combinatorial problem.
+
+803
+01:28:53,000 --> 01:28:58,000
+ The other type of problem is a continuous problem.
+
+804
+01:28:58,000 --> 01:29:04,000
+ For example, you want to tune your PID controller, right?
+
+805
+01:29:04,000 --> 01:29:11,000
+ You want to set, you want to determine so-called optimal parameters, right?
+
+806
+01:29:11,000 --> 01:29:15,000
+ So that can be a continuous problem because you are finding a variable.
+
+807
+01:29:15,000 --> 01:29:23,000
+ The values of the so-called parameters could be 0.2178, you know, or 1.766 and so on.
+
+808
+01:29:23,000 --> 01:29:25,000
+ So it's all a continuous space.
+
+809
+01:29:25,000 --> 01:29:30,000
+ So there's a continuous type of problem, right?
+
+810
+01:29:30,000 --> 01:29:35,000
+ So you have so-called discrete as well as a continuous.
+
+811
+01:29:35,000 --> 01:29:47,000
+ Now, the theory of NP-ness is very useful, particularly for discrete type of problem.
+
+812
+01:29:47,000 --> 01:29:49,000
+ There are many examples of discrete problem.
+
+813
+01:29:49,000 --> 01:29:57,000
+ The two we talk about would be the so-called n-queens and the traveling salesman problem.
+
+814
+01:29:57,000 --> 01:30:04,000
+ Now, based on NP, we can have an understanding on how difficult the problem is
+
+815
+01:30:04,000 --> 01:30:11,000
+ or how do we so-called characterize the complexity of the problem.
+
+816
+01:30:11,000 --> 01:30:26,000
+ So in order to categorize it, we think about so-called the problem size.
+
+817
+01:30:26,000 --> 01:30:30,000
+ So problem size is the dimensionality of the problem I can
+
+818
+01:30:30,000 --> 01:30:36,000
+ and the number of different values of the problem variables.
+
+819
+01:30:36,000 --> 01:30:42,000
+ In your 8-queens problem, what is the dimension?
+
+820
+01:30:42,000 --> 01:30:44,000
+ 8, right?
+
+821
+01:30:44,000 --> 01:30:47,000
+ The n would be equal to 8.
+
+822
+01:30:47,000 --> 01:30:56,000
+ If it's a thousand queen, thousand, the traveling salesman problem, right?
+
+823
+01:30:57,000 --> 01:31:02,000
+ 50 city, dimension would be 50, right?
+
+824
+01:31:02,000 --> 01:31:04,000
+ And so on.
+
+825
+01:31:04,000 --> 01:31:07,000
+ And then we consider the running time.
+
+826
+01:31:07,000 --> 01:31:13,000
+ There's a number of operations the algorithm takes to terminate.
+
+827
+01:31:13,000 --> 01:31:20,000
+ So what we want to know as far as the running time is concerned, running time is concerned, right?
+
+828
+01:31:20,000 --> 01:31:24,000
+ The worst case is a function of the problem size, right?
+
+829
+01:31:24,000 --> 01:31:27,000
+ There's a polynomial algorithm or not.
+
+830
+01:31:27,000 --> 01:31:32,000
+ Ideally, if there's a polynomial algorithm, that problem is easy.
+
+831
+01:31:32,000 --> 01:31:37,000
+ For example, if I ask you to do a sorting, what's so difficult?
+
+832
+01:31:37,000 --> 01:31:40,000
+ At most, it's n squared.
+
+833
+01:31:40,000 --> 01:31:45,000
+ That's definitely a polynomial algorithm, correct?
+
+834
+01:31:45,000 --> 01:31:51,000
+ Or is it a super polynomial or is it an exponential?
+
+835
+01:31:51,000 --> 01:32:03,000
+ So in your traveling salesman problem, what's the size or what's the number of possibilities of your traveling salesman problem?
+
+836
+01:32:03,000 --> 01:32:09,000
+ If you are looking for the sequence.
+
+837
+01:32:09,000 --> 01:32:13,000
+ If I give you 8 city, how many possible combinations?
+
+838
+01:32:23,000 --> 01:32:27,000
+ Let's say you have an 8 city traveling salesman problem, right?
+
+839
+01:32:40,000 --> 01:32:48,000
+ Can you say this is 8 factorial, right?
+
+840
+01:32:48,000 --> 01:32:52,000
+ 8 times 7, 1.
+
+841
+01:32:52,000 --> 01:33:01,000
+ You have 50 city, 50 factorial, right?
+
+842
+01:33:01,000 --> 01:33:06,000
+ Can you see the way it increased?
+
+843
+01:33:06,000 --> 01:33:10,000
+ It's not linear, okay?
+
+844
+01:33:10,000 --> 01:33:15,000
+ So that's one of the reasons why it's considered as intractable, right?
+
+845
+01:33:15,000 --> 01:33:21,000
+ As the size of the so-called problem increases.
+
+846
+01:33:21,000 --> 01:33:24,000
+ So we consider also the running time.
+
+847
+01:33:24,000 --> 01:33:27,000
+ So normally in an algorithm, right?
+
+848
+01:33:27,000 --> 01:33:30,000
+ When you look at an algorithm, you look for the steps.
+
+849
+01:33:30,000 --> 01:33:35,000
+ Usually there's a part, the iteration part that gives on repeating, right?
+
+850
+01:33:35,000 --> 01:33:42,000
+ So you look for the most so-called prominent or crucial step, right?
+
+851
+01:33:42,000 --> 01:33:56,000
+ Where the repetition of the algorithm, for example, may be going through a trillion times, for example.
+
+852
+01:33:56,000 --> 01:34:06,000
+ And the third point we want to, when we talk about emptiness, will be the problem reduction, right?
+
+853
+01:34:06,000 --> 01:34:13,000
+ So transforming current problems onto another wire mapping.
+
+854
+01:34:13,000 --> 01:34:16,000
+ There are many problems that are already known.
+
+855
+01:34:16,000 --> 01:34:21,000
+ We already, we have good understanding of the problem.
+
+856
+01:34:21,000 --> 01:34:25,000
+ For example, the traveling salesman problem.
+
+857
+01:34:25,000 --> 01:34:29,000
+ Classical computer science problem, right?
+
+858
+01:34:29,000 --> 01:34:33,000
+ We have good understanding of the traveling salesman problem, okay?
+
+859
+01:34:33,000 --> 01:34:40,000
+ We study it because it is very relevant to many practical scenarios, right?
+
+860
+01:34:40,000 --> 01:34:48,000
+ So when you're out there, for example, your boss asks you to solve a particular problem or formulate a particular problem, right?
+
+861
+01:34:48,000 --> 01:34:53,000
+ So you have all these descriptions of what the requirements are and so on.
+
+862
+01:34:53,000 --> 01:34:58,000
+ Now, if you are so-called a programmer or practitioner, right?
+
+863
+01:34:58,000 --> 01:35:09,000
+ So very likely what you would do is that you will find maybe a relevant, well-studied or known problem.
+
+864
+01:35:10,000 --> 01:35:15,000
+ So let's say the problem that you have, right?
+
+865
+01:35:15,000 --> 01:35:20,000
+ You can map it into a traveling salesman problem or TSP.
+
+866
+01:35:20,000 --> 01:35:28,000
+ Then you can apply the method and the approaches that you already know or you already have it, right?
+
+867
+01:35:28,000 --> 01:35:31,000
+ And then to solve the problem, okay?
+
+868
+01:35:31,000 --> 01:35:41,000
+ So in the theory of NpNAS, right, we look for such so-called such kind of problems, right?
+
+869
+01:35:41,000 --> 01:35:46,000
+ So that's what we call the NP completeness, okay?
+
+870
+01:35:46,000 --> 01:35:59,000
+ So, you know, we look at the categorization on how we categorize according to the NP characteristics, okay?
+
+871
+01:35:59,000 --> 01:36:02,000
+ So let's take a break, right?
+
+872
+01:36:02,000 --> 01:36:08,000
+ And then we come back before 8.30.
+
+873
+01:36:08,000 --> 01:36:10,000
+ Does that all right?
+
+874
+01:36:29,000 --> 01:36:31,000
+ Thank you.
+
+875
+01:36:59,000 --> 01:37:02,000
+ Thank you.
+
+876
+01:37:29,000 --> 01:37:32,000
+ Thank you.
+
+877
+01:37:59,000 --> 01:38:01,000
+ Thank you.
+
+878
+01:38:29,000 --> 01:38:32,000
+ Thank you.
+
+879
+01:38:59,000 --> 01:39:01,000
+ Thank you.
+
+880
+01:39:29,000 --> 01:39:32,000
+ Thank you.
+
+881
+01:39:59,000 --> 01:40:01,000
+ Thank you.
+
+882
+01:40:29,000 --> 01:40:32,000
+ Thank you.
+
+883
+01:40:59,000 --> 01:41:01,000
+ Thank you.
+
+884
+01:41:29,000 --> 01:41:31,000
+ Thank you.
+
+885
+01:41:59,000 --> 01:42:01,000
+ Thank you.
+
+886
+01:42:29,000 --> 01:42:31,000
+ Thank you.
+
+887
+01:42:59,000 --> 01:43:01,000
+ Thank you.
+
+888
+01:43:29,000 --> 01:43:31,000
+ Thank you.
+
+889
+01:43:59,000 --> 01:44:01,000
+ Thank you.
+
+890
+01:44:29,000 --> 01:44:31,000
+ Thank you.
+
+891
+01:44:59,000 --> 01:45:01,000
+ Thank you.
+
+892
+01:45:29,000 --> 01:45:31,000
+ Thank you.
+
+893
+01:45:59,000 --> 01:46:01,000
+ Thank you.
+
+894
+01:46:29,000 --> 01:46:31,000
+ Thank you.
+
+895
+01:46:59,000 --> 01:47:01,000
+ Thank you.
+
+896
+01:47:29,000 --> 01:47:31,000
+ Thank you.
+
+897
+01:47:59,000 --> 01:48:01,000
+ Thank you.
+
+898
+01:48:29,000 --> 01:48:31,000
+ Thank you.
+
+899
+01:48:59,000 --> 01:49:01,000
+ Thank you.
+
+900
+01:49:29,000 --> 01:49:31,000
+ Thank you.
+
+901
+01:49:59,000 --> 01:50:01,000
+ Thank you.
+
+902
+01:50:29,000 --> 01:50:31,000
+ Thank you.
+
+903
+01:50:59,000 --> 01:51:01,000
+ Thank you.
+
+904
+01:51:29,000 --> 01:51:31,000
+ Thank you.
+
+905
+01:51:59,000 --> 01:52:01,000
+ Thank you.
+
+906
+01:52:29,000 --> 01:52:31,000
+ Thank you.
+
+907
+01:52:59,000 --> 01:53:01,000
+ Thank you.
+
+908
+01:53:29,000 --> 01:53:31,000
+ Thank you.
+
+909
+01:53:59,000 --> 01:54:01,000
+ Thank you.
+
+910
+01:54:29,000 --> 01:54:31,000
+ Thank you.
+
+911
+01:54:59,000 --> 01:55:01,000
+ Thank you.
+
+912
+01:55:29,000 --> 01:55:31,000
+ Thank you.
+
+913
+01:55:59,000 --> 01:56:01,000
+ Thank you.
+
+914
+01:56:29,000 --> 01:56:31,000
+ Thank you.
+
+915
+01:56:59,000 --> 01:57:01,000
+ Thank you.
+
+916
+01:57:29,000 --> 01:57:31,000
+ Thank you.
+
+917
+01:57:59,000 --> 01:58:01,000
+ Thank you.
+
+918
+01:58:29,000 --> 01:58:31,000
+ Thank you.
+
+919
+01:58:59,000 --> 01:59:01,000
+ Thank you.
+
+920
+01:59:29,000 --> 01:59:31,000
+ Thank you.
+
+921
+01:59:54,000 --> 01:59:56,000
+ Okay.
+
+922
+01:59:56,000 --> 01:59:57,000
+ We are back.
+
+923
+01:59:57,000 --> 02:00:26,000
+ So let's pick up from where we left off.
+
+924
+02:00:27,000 --> 02:00:28,000
+ Okay.
+
+925
+02:00:28,000 --> 02:00:40,000
+ We are into trying to classify or categorize the problems.
+
+926
+02:00:40,000 --> 02:00:46,000
+ So we have looked at from the angle of the types of problems that we can deal with and
+
+927
+02:00:46,000 --> 02:00:47,000
+ so on.
+
+928
+02:00:47,000 --> 02:00:51,000
+ Now let's take a look at another angle.
+
+929
+02:00:51,000 --> 02:00:52,000
+ That's the NP.
+
+930
+02:00:52,000 --> 02:00:54,000
+ What does NP stand for?
+
+931
+02:00:54,000 --> 02:00:56,000
+ What I just told you.
+
+932
+02:00:56,000 --> 02:01:01,000
+ NP stands for?
+
+933
+02:01:01,000 --> 02:01:12,000
+ Non-polynomial.
+
+934
+02:01:12,000 --> 02:01:16,000
+ NP stands for non-deterministic polynomial.
+
+935
+02:01:16,000 --> 02:01:17,720
+ All right?
+
+936
+02:01:17,720 --> 02:01:20,000
+ You know what a polynomial is.
+
+937
+02:01:20,000 --> 02:01:21,000
+ Okay.
+
+938
+02:01:21,000 --> 02:01:25,000
+ Example, I give you n to the power of 17 plus n squared.
+
+939
+02:01:25,000 --> 02:01:27,000
+ That's a polynomial.
+
+940
+02:01:27,000 --> 02:01:28,000
+ All right?
+
+941
+02:01:28,000 --> 02:01:36,000
+ Now, non-deterministic means you cannot fix a number to it.
+
+942
+02:01:36,000 --> 02:01:37,000
+ All right?
+
+943
+02:01:37,000 --> 02:01:39,000
+ Or you can put it in this way.
+
+944
+02:01:39,000 --> 02:01:43,000
+ If you have a problem, then you categorize it as NP.
+
+945
+02:01:43,000 --> 02:01:48,000
+ So what it means is that if you were to ask me how long it takes to solve this problem
+
+946
+02:01:48,000 --> 02:01:56,000
+ or how much computational resources it takes to solve this problem, if it is polynomial,
+
+947
+02:01:56,000 --> 02:02:02,000
+ I could tell you, okay, this is n to the power of 13, for example.
+
+948
+02:02:02,000 --> 02:02:04,000
+ So it depends on n.
+
+949
+02:02:04,000 --> 02:02:05,000
+ All right?
+
+950
+02:02:05,000 --> 02:02:09,000
+ Or if it's non-deterministic, I say, gee, I don't really know.
+
+951
+02:02:09,000 --> 02:02:10,000
+ You know?
+
+952
+02:02:10,000 --> 02:02:11,000
+ It's non-deterministic.
+
+953
+02:02:11,000 --> 02:02:12,000
+ Okay?
+
+954
+02:02:12,000 --> 02:02:18,000
+ So what is the kind of problems or so-called types of problems that we want to deal with?
+
+955
+02:02:18,000 --> 02:02:24,000
+ So accordingly, we consider the size of a problem, the running time, and so on.
+
+956
+02:02:24,000 --> 02:02:31,000
+ Now, we also mentioned about two types.
+
+957
+02:02:31,000 --> 02:02:34,000
+ That is the discrete problem and the continuous problem.
+
+958
+02:02:34,000 --> 02:02:40,000
+ So this NP-ness is particularly useful for the discrete type of problem.
+
+959
+02:02:40,000 --> 02:02:48,000
+ For example, as I said or said it many times, examples, the eight queens or the traveling salesman problem.
+
+960
+02:02:48,000 --> 02:02:49,000
+ All right?
+
+961
+02:02:49,000 --> 02:02:56,000
+ So what we want to know is the understanding in terms of complexity based on the dimensionality.
+
+962
+02:02:56,000 --> 02:03:03,000
+ If it is a traveling salesman problem, how would it increase according to n?
+
+963
+02:03:03,000 --> 02:03:04,000
+ All right?
+
+964
+02:03:04,000 --> 02:03:07,000
+ So it's certainly not linear or polynomial.
+
+965
+02:03:07,000 --> 02:03:08,000
+ All right?
+
+966
+02:03:08,000 --> 02:03:15,000
+ So far, I don't think we have a polynomial algorithm to solve it yet.
+
+967
+02:03:15,000 --> 02:03:24,000
+ You can find a polynomial algorithm to solve the simple so-called problem, like, for example,
+
+968
+02:03:24,000 --> 02:03:27,000
+ to find the distance between two points.
+
+969
+02:03:27,000 --> 02:03:28,000
+ All right?
+
+970
+02:03:28,000 --> 02:03:30,000
+ That's a polynomial.
+
+971
+02:03:30,000 --> 02:03:37,000
+ But to find the so-called shortest distance for the traveling salesman problem, it's certainly NP.
+
+972
+02:03:37,000 --> 02:03:38,000
+ All right?
+
+973
+02:03:38,000 --> 02:03:40,000
+ Again, I put it this way.
+
+974
+02:03:40,000 --> 02:03:41,000
+ I cannot tell you.
+
+975
+02:03:41,000 --> 02:03:42,000
+ All right?
+
+976
+02:03:42,000 --> 02:03:47,000
+ Or I cannot give you a polynomial categorization of it.
+
+977
+02:03:47,000 --> 02:03:56,000
+ So henceforth, we can categorize the problem according to these classes.
+
+978
+02:03:56,000 --> 02:04:01,000
+ So the class P algorithm.
+
+979
+02:04:02,000 --> 02:04:08,000
+ So accordingly, it's an algorithm can solve the problem in polynomial time.
+
+980
+02:04:08,000 --> 02:04:09,000
+ All right?
+
+981
+02:04:09,000 --> 02:04:15,000
+ So the worst case running time for problem size n is less than fn for some polynomial
+
+982
+02:04:15,000 --> 02:04:17,000
+ formula.
+
+983
+02:04:17,000 --> 02:04:21,000
+ So just to impress on you a little bit.
+
+984
+02:04:21,000 --> 02:04:29,000
+ So this fn, all right?
+
+985
+02:04:29,000 --> 02:04:41,000
+ It can be any polynomial, for example, n to the power of 136 plus 78, for example.
+
+986
+02:04:41,000 --> 02:04:43,000
+ All right?
+
+987
+02:04:43,000 --> 02:04:47,000
+ Is this deterministic?
+
+988
+02:04:47,000 --> 02:04:48,000
+ Deterministic.
+
+989
+02:04:48,000 --> 02:04:49,000
+ All right?
+
+990
+02:04:49,000 --> 02:04:54,000
+ You might get scared, gee, it's 136.
+
+991
+02:04:54,000 --> 02:05:02,000
+ But really what we want is from the viewpoint of problem solving, if we know, all right,
+
+992
+02:05:02,000 --> 02:05:05,000
+ that is what is more important.
+
+993
+02:05:05,000 --> 02:05:09,000
+ Because if I know this is the complexity, at least I can tell my boss, you know, it's
+
+994
+02:05:09,000 --> 02:05:14,000
+ going to take us like 88 hours just to compute one solution.
+
+995
+02:05:14,000 --> 02:05:15,000
+ All right?
+
+996
+02:05:15,000 --> 02:05:17,000
+ That's all I can tell my boss.
+
+997
+02:05:17,000 --> 02:05:20,000
+ Or I could plan my computational resources.
+
+998
+02:05:20,000 --> 02:05:21,000
+ All right?
+
+999
+02:05:21,000 --> 02:05:23,000
+ Now I know this is the complexity.
+
+1000
+02:05:23,000 --> 02:05:30,000
+ So I can farm it out to, let's say, 10,000 computing nodes to solve the problem.
+
+1001
+02:05:30,000 --> 02:05:31,000
+ All right?
+
+1002
+02:05:31,000 --> 02:05:32,000
+ Why?
+
+1003
+02:05:32,000 --> 02:05:33,000
+ Because I know.
+
+1004
+02:05:33,000 --> 02:05:34,000
+ I know.
+
+1005
+02:05:34,000 --> 02:05:36,000
+ All right?
+
+1006
+02:05:36,000 --> 02:05:45,000
+ If it is NP, well, I don't know.
+
+1007
+02:05:45,000 --> 02:05:52,000
+ Some problems, the worst case could be some polynomial which is unknown to me.
+
+1008
+02:05:53,000 --> 02:05:55,000
+ That's where the difficulty lies.
+
+1009
+02:05:55,000 --> 02:05:56,000
+ Okay?
+
+1010
+02:05:56,000 --> 02:05:58,000
+ So there's a class of problems that we talk about.
+
+1011
+02:05:58,000 --> 02:06:05,000
+ Now, so accordingly, if you look at the class P, you can solve the problem in polynomial
+
+1012
+02:06:05,000 --> 02:06:06,000
+ time.
+
+1013
+02:06:06,000 --> 02:06:09,000
+ For example, the solving problem.
+
+1014
+02:06:09,000 --> 02:06:10,000
+ All right?
+
+1015
+02:06:10,000 --> 02:06:13,000
+ N squared or n log n.
+
+1016
+02:06:13,000 --> 02:06:15,000
+ Very easy.
+
+1017
+02:06:15,000 --> 02:06:16,000
+ Okay?
+
+1018
+02:06:16,000 --> 02:06:17,000
+ Okay?
+
+1019
+02:06:17,000 --> 02:06:26,000
+ Now, the other type is our class NP, non-detonistic polynomial.
+
+1020
+02:06:26,000 --> 02:06:27,000
+ Right?
+
+1021
+02:06:27,000 --> 02:06:29,000
+ Problem can be solved.
+
+1022
+02:06:29,000 --> 02:06:31,000
+ All right?
+
+1023
+02:06:31,000 --> 02:06:39,000
+ And any solution can be verified within polynomial time by some other algorithm.
+
+1024
+02:06:39,000 --> 02:06:42,000
+ All right?
+
+1025
+02:06:42,000 --> 02:06:44,000
+ So it's a class NP.
+
+1026
+02:06:44,000 --> 02:06:45,000
+ All right?
+
+1027
+02:06:45,000 --> 02:06:47,000
+ And I say it's the kind of problem that I don't know.
+
+1028
+02:06:47,000 --> 02:06:52,000
+ I don't have a so-called polynomial algorithm to solve it.
+
+1029
+02:06:52,000 --> 02:06:53,000
+ All right?
+
+1030
+02:06:53,000 --> 02:06:59,000
+ So we put them under the class NP, right?
+
+1031
+02:06:59,000 --> 02:07:06,000
+ If, all right, if I give you a solution, you can solve it within polynomial time.
+
+1032
+02:07:06,000 --> 02:07:11,000
+ That's a class NP.
+
+1033
+02:07:11,000 --> 02:07:12,000
+ All right?
+
+1034
+02:07:12,000 --> 02:07:17,000
+ So I'm not sure if you so-called appreciate the implication of this, right?
+
+1035
+02:07:17,000 --> 02:07:22,000
+ Now, normally when you solve, for example, if I give you a solution, all right, you come
+
+1036
+02:07:22,000 --> 02:07:27,000
+ up with the so-called a figure of merit or fitness.
+
+1037
+02:07:27,000 --> 02:07:32,000
+ Now, if you compare, for example, let's say in order to calculate the fitness, all I
+
+1038
+02:07:32,000 --> 02:07:36,000
+ need to do is I add 50 numbers.
+
+1039
+02:07:36,000 --> 02:07:37,000
+ All right?
+
+1040
+02:07:37,000 --> 02:07:44,000
+ So I just add, as compared to another algorithm or another problem where in order to find
+
+1041
+02:07:44,000 --> 02:07:49,000
+ the fitness, I have to multiply the 15 numbers.
+
+1042
+02:07:49,000 --> 02:07:51,000
+ Which one is more expensive?
+
+1043
+02:07:51,000 --> 02:07:56,000
+ Obviously the one that you do the multiplication.
+
+1044
+02:07:56,000 --> 02:07:57,000
+ All right?
+
+1045
+02:07:57,000 --> 02:08:01,000
+ Remember when you solve a problem, you do a so-called, you're in the process of solving
+
+1046
+02:08:01,000 --> 02:08:02,000
+ a problem.
+
+1047
+02:08:02,000 --> 02:08:06,000
+ You will probably do it a million times or billion times or trillion times.
+
+1048
+02:08:06,000 --> 02:08:09,000
+ So that can be quite serious.
+
+1049
+02:08:09,000 --> 02:08:11,000
+ All right?
+
+1050
+02:08:11,000 --> 02:08:20,000
+ So in the class NP, we say the solution can be verified in polynomial time.
+
+1051
+02:08:20,000 --> 02:08:22,000
+ So let me give you a hint.
+
+1052
+02:08:22,000 --> 02:08:28,000
+ For example, let's say in the traveling salesman problem, all right?
+
+1053
+02:08:28,000 --> 02:08:32,000
+ I give you a solution.
+
+1054
+02:08:32,000 --> 02:08:34,000
+ I give you a sequence.
+
+1055
+02:08:34,000 --> 02:08:37,000
+ Now I ask you, is this minimum?
+
+1056
+02:08:37,000 --> 02:08:41,000
+ Can you think about it?
+
+1057
+02:08:41,000 --> 02:08:48,000
+ Is this minimum?
+
+1058
+02:08:48,000 --> 02:08:51,000
+ Do you know it's minimum?
+
+1059
+02:08:51,000 --> 02:08:56,000
+ Okay, you prove that it's not minimum.
+
+1060
+02:08:56,000 --> 02:09:08,000
+ You can, but how?
+
+1061
+02:09:08,000 --> 02:09:13,000
+ Still the traveling salesman problem, you know what the traveling TSP is.
+
+1062
+02:09:13,000 --> 02:09:14,000
+ All right?
+
+1063
+02:09:14,000 --> 02:09:20,000
+ So the free optimizer, just try to find the so-called shortest distance and so on.
+
+1064
+02:09:20,000 --> 02:09:24,000
+ Now let's take this problem, say.
+
+1065
+02:09:24,000 --> 02:09:28,000
+ So now I give you this to a sequence.
+
+1066
+02:09:28,000 --> 02:09:38,000
+ Now my question is, is this minimum?
+
+1067
+02:09:38,000 --> 02:09:43,000
+ If it's minimum, can you prove it?
+
+1068
+02:09:43,000 --> 02:09:50,000
+ So you will prove it, how do you prove it?
+
+1069
+02:09:50,000 --> 02:10:03,000
+ You can only prove it as minimum if it tests out all the possibilities.
+
+1070
+02:10:03,000 --> 02:10:04,000
+ All right?
+
+1071
+02:10:04,000 --> 02:10:06,000
+ There it goes.
+
+1072
+02:10:06,000 --> 02:10:08,000
+ Is it polynomial time?
+
+1073
+02:10:08,000 --> 02:10:12,000
+ Most of the time you can tell it's not the minimum because you know I have a better solution
+
+1074
+02:10:12,000 --> 02:10:13,000
+ so you can discount it.
+
+1075
+02:10:13,000 --> 02:10:24,000
+ But there will be cases where you know you will have to so-called literally, right, test out all the possible combinations.
+
+1076
+02:10:24,000 --> 02:10:25,000
+ All right?
+
+1077
+02:10:25,000 --> 02:10:32,000
+ So that's why in optimization, there are many benchmarks that are created.
+
+1078
+02:10:32,000 --> 02:10:38,000
+ So they create this benchmark, the best known solution is such and such.
+
+1079
+02:10:38,000 --> 02:10:45,000
+ So if you solve it, if you get a better solution, then chances are your algorithm is better.
+
+1080
+02:10:45,000 --> 02:10:46,000
+ All right?
+
+1081
+02:10:46,000 --> 02:10:48,000
+ That's the purpose of so-called benchmarks.
+
+1082
+02:10:48,000 --> 02:10:55,000
+ So the hint I give you is that definitely your TSP is not your class NP, right?
+
+1083
+02:10:55,000 --> 02:10:57,000
+ Isn't it?
+
+1084
+02:10:57,000 --> 02:10:59,000
+ All right?
+
+1085
+02:10:59,000 --> 02:11:11,000
+ So class NP complete.
+
+1086
+02:11:11,000 --> 02:11:15,000
+ Problem belongs to class NP.
+
+1087
+02:11:15,000 --> 02:11:17,000
+ This part of NP, all right?
+
+1088
+02:11:17,000 --> 02:11:20,000
+ This is NP problem.
+
+1089
+02:11:20,000 --> 02:11:33,000
+ And any other problem in NP can be reduced to this problem by an algorithm running in polynomial time.
+
+1090
+02:11:33,000 --> 02:11:36,000
+ In other words, you are talking about mapping.
+
+1091
+02:11:36,000 --> 02:11:41,000
+ In the earlier slide, we talked about mapping, right?
+
+1092
+02:11:41,000 --> 02:11:43,000
+ So we already know some of these problems.
+
+1093
+02:11:43,000 --> 02:11:46,000
+ We categorize it quite well.
+
+1094
+02:11:46,000 --> 02:11:49,000
+ For example, you are traveling still soon.
+
+1095
+02:11:49,000 --> 02:11:58,000
+ Now, here you have somebody tells you or your boss tells you, okay, this is a problem I want you to solve.
+
+1096
+02:11:58,000 --> 02:12:04,000
+ Describe to you, like for example, it's a communication problem in communication.
+
+1097
+02:12:04,000 --> 02:12:11,000
+ So the boss tells you this, that, you know, all the different nodes, right, and so on, the configuration.
+
+1098
+02:12:11,000 --> 02:12:19,000
+ And of course, you can take the problem as it is and solve it and try and solve it, formulate it.
+
+1099
+02:12:19,000 --> 02:12:20,000
+ All right?
+
+1100
+02:12:20,000 --> 02:12:33,000
+ Saying that seems easy, but wouldn't it be easier if you can map this problem into some known problems that is already well categorized?
+
+1101
+02:12:33,000 --> 02:12:34,000
+ All right?
+
+1102
+02:12:34,000 --> 02:12:38,000
+ So you map it or transform it into another type of problem.
+
+1103
+02:12:38,000 --> 02:12:42,000
+ The advantage is very obvious because it is already well studied.
+
+1104
+02:12:42,000 --> 02:12:44,000
+ We are understood.
+
+1105
+02:12:44,000 --> 02:12:49,000
+ So you can use the approach and the algorithm to solve the problem.
+
+1106
+02:12:49,000 --> 02:12:50,000
+ All right?
+
+1107
+02:12:50,000 --> 02:12:52,000
+ That's what MP complete means.
+
+1108
+02:12:52,000 --> 02:12:53,000
+ All right?
+
+1109
+02:12:53,000 --> 02:12:54,000
+ You see?
+
+1110
+02:12:54,000 --> 02:12:57,000
+ It belongs to class MP, all right?
+
+1111
+02:12:57,000 --> 02:13:08,000
+ And any other problem in MP can be reduced to this problem by an algorithm running in polynomial time.
+
+1112
+02:13:08,000 --> 02:13:09,000
+ All right?
+
+1113
+02:13:09,000 --> 02:13:16,000
+ So that means that that process of reduction of mapping, you have to do it in polynomial time.
+
+1114
+02:13:17,000 --> 02:13:19,000
+ Which I think you can see why.
+
+1115
+02:13:19,000 --> 02:13:28,000
+ If it is not in polynomial time, it doesn't make sense to do the transformation or the mapping.
+
+1116
+02:13:28,000 --> 02:13:34,000
+ So there's your MP complete.
+
+1117
+02:13:34,000 --> 02:13:41,000
+ Now, the other type is your MP hard, MP hard problem.
+
+1118
+02:13:41,000 --> 02:13:49,000
+ So we say it's MP hard because problem is at least as hard as any other problem in MP complete.
+
+1119
+02:13:49,000 --> 02:13:50,000
+ Okay?
+
+1120
+02:13:50,000 --> 02:13:55,000
+ But solution cannot necessarily be verified within polynomial time.
+
+1121
+02:13:55,000 --> 02:13:59,000
+ And that's MP hard.
+
+1122
+02:13:59,000 --> 02:14:06,000
+ Solution cannot necessarily be verified within polynomial time.
+
+1123
+02:14:06,000 --> 02:14:10,000
+ You can general the solution, but to verify it, all right?
+
+1124
+02:14:10,000 --> 02:14:16,000
+ You may not have a, you may not necessarily have a polynomial time algorithm.
+
+1125
+02:14:16,000 --> 02:14:20,000
+ So there's your MP hard.
+
+1126
+02:14:20,000 --> 02:14:21,000
+ All right?
+
+1127
+02:14:21,000 --> 02:14:39,000
+ So with this basic understanding, we can put together a diagram to see how we can, the link between the different types of classes.
+
+1128
+02:14:39,000 --> 02:14:47,000
+ So you have two figures, one on the left, P not equal to MP.
+
+1129
+02:14:47,000 --> 02:14:51,000
+ And then on the right, P is equal to MP.
+
+1130
+02:14:51,000 --> 02:14:53,000
+ All right?
+
+1131
+02:14:53,000 --> 02:14:56,000
+ So let's talk about the P equal to MP.
+
+1132
+02:14:56,000 --> 02:15:02,000
+ Meaning we say P on the right-hand side.
+
+1133
+02:15:02,000 --> 02:15:06,000
+ So in computer size, all right?
+
+1134
+02:15:06,000 --> 02:15:09,000
+ It is, has been an open problem.
+
+1135
+02:15:09,000 --> 02:15:25,000
+ So basically if you look at this figure here, what it's saying is that if, given an MP problem, any MP problem, any problem you're known to be MP.
+
+1136
+02:15:25,000 --> 02:15:34,000
+ Now the challenge is, can you prove that there's a P algorithm that can solve this MP problem?
+
+1137
+02:15:34,000 --> 02:15:39,000
+ Just for one case, can you prove?
+
+1138
+02:15:39,000 --> 02:15:40,000
+ All right?
+
+1139
+02:15:40,000 --> 02:15:43,000
+ I repeat, this is an MP problem.
+
+1140
+02:15:43,000 --> 02:15:44,000
+ All right?
+
+1141
+02:15:44,000 --> 02:15:48,000
+ So the challenge is, it's a real challenge in computer science.
+
+1142
+02:15:48,000 --> 02:15:57,000
+ So the challenge is, can you find a P algorithm to solve this MP problem?
+
+1143
+02:15:57,000 --> 02:16:01,000
+ If you can prove it, right?
+
+1144
+02:16:01,000 --> 02:16:03,000
+ Then you win the prize.
+
+1145
+02:16:03,000 --> 02:16:06,000
+ There's an open prize for it.
+
+1146
+02:16:06,000 --> 02:16:12,000
+ Now so far, there isn't any.
+
+1147
+02:16:12,000 --> 02:16:25,000
+ Because if you have proven it, that there's, for this MP problem, if shown that there's a P algorithm to solve it, then you would have proven P equal to MP.
+
+1148
+02:16:25,000 --> 02:16:26,000
+ All right?
+
+1149
+02:16:26,000 --> 02:16:28,000
+ Or P can be equal to MP.
+
+1150
+02:16:28,000 --> 02:16:32,000
+ Then this would be the figure that you see.
+
+1151
+02:16:32,000 --> 02:16:34,000
+ This is how you would draw it.
+
+1152
+02:16:34,000 --> 02:16:36,000
+ P equal to MP.
+
+1153
+02:16:36,000 --> 02:16:38,000
+ I'm just proven it.
+
+1154
+02:16:38,000 --> 02:16:39,000
+ Okay?
+
+1155
+02:16:39,000 --> 02:16:44,000
+ But so far, there has been no proof.
+
+1156
+02:16:44,000 --> 02:16:45,000
+ All right?
+
+1157
+02:16:45,000 --> 02:16:48,000
+ You can't prove it, or you can't show it.
+
+1158
+02:16:48,000 --> 02:16:56,000
+ So therefore, what is more likely is this figure.
+
+1159
+02:16:56,000 --> 02:16:59,000
+ P is not equal to MP.
+
+1160
+02:16:59,000 --> 02:17:01,000
+ All right?
+
+1161
+02:17:01,000 --> 02:17:04,000
+ So we assume P is not equal to MP.
+
+1162
+02:17:04,000 --> 02:17:12,000
+ So therefore, the way we draw or how we categorize it, we have your P, right?
+
+1163
+02:17:12,000 --> 02:17:17,000
+ So under the broad MP here, there's one that is NP-hard.
+
+1164
+02:17:17,000 --> 02:17:18,000
+ NP-hard.
+
+1165
+02:17:18,000 --> 02:17:20,000
+ All right?
+
+1166
+02:17:20,000 --> 02:17:25,000
+ And which is why we study genetic algorithm.
+
+1167
+02:17:25,000 --> 02:17:28,000
+ Because many problems, right?
+
+1168
+02:17:28,000 --> 02:17:30,000
+ They're NP-hard.
+
+1169
+02:17:30,000 --> 02:17:34,000
+ And you really understood what it means to be NP, right?
+
+1170
+02:17:34,000 --> 02:17:35,000
+ And NP-hard.
+
+1171
+02:17:35,000 --> 02:17:36,000
+ Okay?
+
+1172
+02:17:36,000 --> 02:17:48,000
+ So that means that any deterministic or precise algorithm is unlikely to perform well.
+
+1173
+02:17:48,000 --> 02:17:52,000
+ For example, your branch and bound.
+
+1174
+02:17:53,000 --> 02:18:00,000
+ Or many of your classical methods, dynamic programming, linear programming, right?
+
+1175
+02:18:00,000 --> 02:18:02,000
+ Especially for discrete problem.
+
+1176
+02:18:02,000 --> 02:18:08,000
+ They are not likely to perform well in this kind of a problem.
+
+1177
+02:18:08,000 --> 02:18:10,000
+ Therefore, right?
+
+1178
+02:18:10,000 --> 02:18:13,000
+ What's the best alternative?
+
+1179
+02:18:13,000 --> 02:18:16,000
+ P is GA.
+
+1180
+02:18:16,000 --> 02:18:20,000
+ Your method heuristics.
+
+1181
+02:18:20,000 --> 02:18:22,000
+ You understand heuristics?
+
+1182
+02:18:22,000 --> 02:18:23,000
+ What is heuristics?
+
+1183
+02:18:23,000 --> 02:18:27,000
+ Heuristics are rule of thumb.
+
+1184
+02:18:27,000 --> 02:18:28,000
+ All right?
+
+1185
+02:18:28,000 --> 02:18:36,000
+ For example, if I go in the morning to Orchard Road to downtown, all right?
+
+1186
+02:18:36,000 --> 02:18:42,000
+ It should take me much longer than I go after 10 o'clock.
+
+1187
+02:18:42,000 --> 02:18:45,000
+ That's the rule of thumb, but it's not 100% true.
+
+1188
+02:18:45,000 --> 02:18:47,000
+ All right?
+
+1189
+02:18:47,000 --> 02:18:48,000
+ Okay?
+
+1190
+02:18:48,000 --> 02:18:49,000
+ But most of the time it's true.
+
+1191
+02:18:49,000 --> 02:18:50,000
+ That's what we use.
+
+1192
+02:18:50,000 --> 02:18:53,000
+ Those are precise heuristics.
+
+1193
+02:18:53,000 --> 02:19:01,000
+ So method heuristics, the term method heuristics refers to genetic algorithm, like other algorithms
+
+1194
+02:19:01,000 --> 02:19:04,000
+ like N-colony, right?
+
+1195
+02:19:04,000 --> 02:19:12,000
+ Or B, artificial B, whale optimization, gray wolf optimization, particle swarm.
+
+1196
+02:19:12,000 --> 02:19:15,000
+ All these are method heuristics.
+
+1197
+02:19:15,000 --> 02:19:22,000
+ So you can see that many of these algorithms are inspired by nature.
+
+1198
+02:19:22,000 --> 02:19:32,000
+ So they are inspired based on the metaphor in nature or examples that you see in nature.
+
+1199
+02:19:32,000 --> 02:19:33,000
+ Okay?
+
+1200
+02:19:33,000 --> 02:19:44,000
+ So that's why we so-called study, so-called genetic algorithm presents itself as a very
+
+1201
+02:19:44,000 --> 02:19:49,000
+ powerful tool to deal with this NP-hard problem.
+
+1202
+02:19:49,000 --> 02:19:59,000
+ Now, let me use this excerpt from a classical text on complexity by Gary and Johnson.
+
+1203
+02:19:59,000 --> 02:20:01,000
+ All right?
+
+1204
+02:20:01,000 --> 02:20:10,000
+ So in this book here, it says there's a, you have, so one day you will call into your
+
+1205
+02:20:10,000 --> 02:20:13,000
+ boss office, all right?
+
+1206
+02:20:13,000 --> 02:20:22,000
+ And your boss tells you that the company is going into a bandage snatch market.
+
+1207
+02:20:22,000 --> 02:20:29,000
+ So for this reason, we need a method to determine whether or not any given set of specifications
+
+1208
+02:20:29,000 --> 02:20:35,000
+ for a new bandage snatch component can be met, all right?
+
+1209
+02:20:35,000 --> 02:20:39,000
+ And if so, for constructing a design that meets them.
+
+1210
+02:20:39,000 --> 02:20:49,000
+ Now, because you are the chief algorithm designer, so therefore it's your task to do it.
+
+1211
+02:20:49,000 --> 02:20:54,000
+ Because you are optimistic, so you go into your boss office.
+
+1212
+02:20:54,000 --> 02:20:55,000
+ Okay.
+
+1213
+02:20:55,000 --> 02:20:58,000
+ You're very enthusiastic.
+
+1214
+02:20:58,000 --> 02:20:59,000
+ All right?
+
+1215
+02:20:59,000 --> 02:21:04,000
+ After consulting with the bandage snatch department to determine exactly what the problem is,
+
+1216
+02:21:04,000 --> 02:21:10,000
+ you rush back home to your office, take out all the reference books, all right, and try
+
+1217
+02:21:10,000 --> 02:21:16,000
+ to figure out, all right, because you believe or you're optimistic, there's a way you can
+
+1218
+02:21:16,000 --> 02:21:21,000
+ solve it, all right?
+
+1219
+02:21:21,000 --> 02:21:29,000
+ So you try a couple of weeks later, you're frustrated.
+
+1220
+02:21:29,000 --> 02:21:36,000
+ Say, heck, that's just cannot find, you know, an algorithm.
+
+1221
+02:21:36,000 --> 02:21:40,000
+ But then it's time to see your boss to update.
+
+1222
+02:21:40,000 --> 02:21:44,000
+ So what do you tell your boss?
+
+1223
+02:21:44,000 --> 02:21:48,000
+ Well, you can look at three possible scenarios, all right?
+
+1224
+02:21:48,000 --> 02:21:53,000
+ So you go into your boss office.
+
+1225
+02:21:53,000 --> 02:21:57,000
+ You know, I just cannot find an efficient algorithm.
+
+1226
+02:21:57,000 --> 02:21:58,000
+ All right?
+
+1227
+02:21:58,000 --> 02:22:02,000
+ I guess I'm just too dumb.
+
+1228
+02:22:02,000 --> 02:22:05,000
+ So the scenario number one, isn't it important?
+
+1229
+02:22:05,000 --> 02:22:07,000
+ I'm just too dumb, you know, all right?
+
+1230
+02:22:07,000 --> 02:22:16,000
+ So that's as good as telling your boss I'm not good enough so you should fire me.
+
+1231
+02:22:16,000 --> 02:22:23,000
+ Now think about it, is that so-called a good thing to do?
+
+1232
+02:22:23,000 --> 02:22:26,000
+ Probably not, all right?
+
+1233
+02:22:26,000 --> 02:22:34,000
+ Or another scenario, you walk into your boss office, all right?
+
+1234
+02:22:34,000 --> 02:22:41,000
+ You say, I can't find an efficient algorithm, all right?
+
+1235
+02:22:41,000 --> 02:22:47,000
+ I can't find an efficient algorithm because no such algorithm is possible.
+
+1236
+02:22:47,000 --> 02:22:53,000
+ Hmm, your boss say, okay, I see.
+
+1237
+02:22:53,000 --> 02:22:57,000
+ What does that mean?
+
+1238
+02:22:57,000 --> 02:22:59,000
+ Does that mean you're not good enough?
+
+1239
+02:22:59,000 --> 02:23:02,000
+ So I should fire you and find another person?
+
+1240
+02:23:02,000 --> 02:23:06,000
+ They can find me the algorithm?
+
+1241
+02:23:06,000 --> 02:23:13,000
+ It's better than before but not good enough, all right?
+
+1242
+02:23:13,000 --> 02:23:20,000
+ Now you are a learned individual, you understand about complexity.
+
+1243
+02:23:20,000 --> 02:23:29,000
+ So you confidently walk into your boss office and say, look, I can't find an efficient algorithm
+
+1244
+02:23:29,000 --> 02:23:35,000
+ but neither can all these famous people.
+
+1245
+02:23:35,000 --> 02:23:38,000
+ Hmm?
+
+1246
+02:23:38,000 --> 02:23:43,000
+ So it's like telling your boss you're not going to find anybody?
+
+1247
+02:23:43,000 --> 02:23:48,000
+ You can fire me but you're not going to be able to find anybody, all right?
+
+1248
+02:23:48,000 --> 02:23:51,000
+ Is that not better?
+
+1249
+02:23:51,000 --> 02:23:52,000
+ Okay?
+
+1250
+02:23:52,000 --> 02:23:57,000
+ That's because you understand, all right, about interactability.
+
+1251
+02:23:57,000 --> 02:24:04,000
+ What does it mean when you say a problem is intractable?
+
+1252
+02:24:04,000 --> 02:24:05,000
+ Okay?
+
+1253
+02:24:05,000 --> 02:24:13,000
+ So my point is that's why it's important to understand from a complexity point of view
+
+1254
+02:24:13,000 --> 02:24:20,000
+ the nature of the types of problems that you are dealing with.
+
+1255
+02:24:20,000 --> 02:24:21,000
+ All right?
+
+1256
+02:24:21,000 --> 02:24:34,000
+ So you hopefully you have some appreciation of why we use genetic algorithm, okay?
+
+1257
+02:24:34,000 --> 02:24:47,000
+ So let's try and understand a little bit how it came about.
+
+1258
+02:24:47,000 --> 02:24:52,000
+ So we are talking about evolutionary computing.
+
+1259
+02:24:52,000 --> 02:25:04,000
+ So I will first let's talk a little bit about the historical perspective.
+
+1260
+02:25:04,000 --> 02:25:05,000
+ All right?
+
+1261
+02:25:05,000 --> 02:25:10,000
+ So we look at a historical perspective, understand some of the background very briefly,
+
+1262
+02:25:10,000 --> 02:25:20,000
+ some general understanding of the precursor to genetic algorithm.
+
+1263
+02:25:20,000 --> 02:25:31,000
+ So of course you know by now that evolutionary computing is inspired based on the metaphor in nature.
+
+1264
+02:25:31,000 --> 02:25:32,000
+ All right?
+
+1265
+02:25:32,000 --> 02:25:39,000
+ Now from a biological perspective, there are actually two aspects of it that serves as
+
+1266
+02:25:39,000 --> 02:25:53,000
+ an inspiration for metaphorical inspiration for genetic algorithm.
+
+1267
+02:25:53,000 --> 02:26:00,000
+ One is from Darwinian evolution theory and the other is on genetics.
+
+1268
+02:26:00,000 --> 02:26:01,000
+ All right?
+
+1269
+02:26:01,000 --> 02:26:05,000
+ So if somebody asks you, okay, what's the background or how is it?
+
+1270
+02:26:05,000 --> 02:26:09,000
+ Just like neural network, you know, is based on the biological brain.
+
+1271
+02:26:09,000 --> 02:26:16,000
+ It's based on the neurons in the brain and how they are connected and the firing mechanism and so on.
+
+1272
+02:26:16,000 --> 02:26:19,000
+ So how we actually come to the neural network?
+
+1273
+02:26:19,000 --> 02:26:22,000
+ Well, it's all based on the biological brain, all right?
+
+1274
+02:26:22,000 --> 02:26:24,000
+ The inspiration of it.
+
+1275
+02:26:24,000 --> 02:26:32,000
+ So by the same token, genetic algorithm, Darwinian and then the genetics.
+
+1276
+02:26:32,000 --> 02:26:40,000
+ And finally we quickly look at the motivation for EC.
+
+1277
+02:26:40,000 --> 02:26:59,000
+ So in the early years, conceptually, there have been ideas to use evolution as a method of problem solving.
+
+1278
+02:26:59,000 --> 02:27:04,000
+ In 48, 62, 64, 65, right?
+
+1279
+02:27:04,000 --> 02:27:14,000
+ See as early as 48, you have the so-called the genetic or evolutionary search.
+
+1280
+02:27:14,000 --> 02:27:25,000
+ Your genetic algorithm can trace back to 1975 based on the work by John Holland.
+
+1281
+02:27:25,000 --> 02:27:34,000
+ And 1992, COSA introduced what we call the genetic programming.
+
+1282
+02:27:34,000 --> 02:27:38,000
+ Now I want you to look at the timeline.
+
+1283
+02:27:38,000 --> 02:28:03,000
+ So compare from 1948 to between 1948 and 1975, what is likely to be the different in terms of the, I say, the situation, you know, between 1948 and 1975 from computing point of view?
+
+1284
+02:28:08,000 --> 02:28:12,000
+ When did you get the first PC?
+
+1285
+02:28:12,000 --> 02:28:16,000
+ 80s also?
+
+1286
+02:28:16,000 --> 02:28:19,000
+ So the point becomes very clear in those early days, right?
+
+1287
+02:28:19,000 --> 02:28:27,000
+ It was practically not implementable on computer yet.
+
+1288
+02:28:27,000 --> 02:28:31,000
+ So what this means is that these were concepts.
+
+1289
+02:28:31,000 --> 02:28:45,000
+ The concept, people have thought about the concepts of using so-called solving a problem using an evolutionary approach.
+
+1290
+02:28:45,000 --> 02:28:46,000
+ Okay?
+
+1291
+02:28:46,000 --> 02:28:53,000
+ So until 1975 and Holland introduced genetic algorithms, right?
+
+1292
+02:28:53,000 --> 02:28:57,000
+ And after that it became so popular, right?
+
+1293
+02:28:57,000 --> 02:29:14,000
+ So although you have this different categorization of evolution strategies, which uses kind of a mutation kind of operations to generate alternative solutions, you have evolutionary programming, right?
+
+1294
+02:29:14,000 --> 02:29:20,000
+ That solve a problem based on so-called finite state machine, right?
+
+1295
+02:29:20,000 --> 02:29:24,000
+ Formulating it as finite state machine, right?
+
+1296
+02:29:24,000 --> 02:29:28,000
+ And genetic algorithm, the first version of it is binary chromosomes, right?
+
+1297
+02:29:28,000 --> 02:29:33,000
+ Just evolving and then doing swapping and mutation.
+
+1298
+02:29:33,000 --> 02:29:40,000
+ And finally the COSA on genetic programming, they evolve programs, right?
+
+1299
+02:29:44,000 --> 02:29:45,000
+ Okay?
+
+1300
+02:29:45,000 --> 02:29:53,000
+ So these days we don't make distinction between this different approach.
+
+1301
+02:29:53,000 --> 02:29:58,000
+ So quite clearly you can see there are different evolutionary approach.
+
+1302
+02:29:58,000 --> 02:30:01,000
+ But nowadays we don't really make a distinction between this.
+
+1303
+02:30:01,000 --> 02:30:05,000
+ That's why your title is a genetic algorithm.
+
+1304
+02:30:05,000 --> 02:30:08,000
+ Basically what we mean is just evolutionary approach.
+
+1305
+02:30:08,000 --> 02:30:09,000
+ Okay?
+
+1306
+02:30:09,000 --> 02:30:15,000
+ Because most of the time no matter what method you use we call it genetic algorithm.
+
+1307
+02:30:15,000 --> 02:30:16,000
+ Alright?
+
+1308
+02:30:16,000 --> 02:30:19,000
+ So there's no need to be concerned about this different categorization.
+
+1309
+02:30:19,000 --> 02:30:21,000
+ Just call it genetic algorithm.
+
+1310
+02:30:21,000 --> 02:30:23,000
+ That's fine.
+
+1311
+02:30:23,000 --> 02:30:32,000
+ But you should understand that there are these different categorization.
+
+1312
+02:30:32,000 --> 02:30:37,000
+ So Darwinian.
+
+1313
+02:30:37,000 --> 02:30:40,000
+ The Darwinian evolution.
+
+1314
+02:30:40,000 --> 02:30:48,000
+ What's the so-called idea behind the Darwinian evolution?
+
+1315
+02:30:48,000 --> 02:30:51,000
+ Survival of the fittest.
+
+1316
+02:30:51,000 --> 02:30:53,000
+ Alright?
+
+1317
+02:30:53,000 --> 02:30:57,000
+ Why?
+
+1318
+02:30:57,000 --> 02:30:58,000
+ Alright?
+
+1319
+02:30:58,000 --> 02:31:06,000
+ Why is there so-called evolution or adaptation?
+
+1320
+02:31:06,000 --> 02:31:12,000
+ Because of resources.
+
+1321
+02:31:12,000 --> 02:31:14,000
+ Finite resources.
+
+1322
+02:31:14,000 --> 02:31:20,000
+ As I said before we optimize because it's not enough.
+
+1323
+02:31:20,000 --> 02:31:22,000
+ Therefore you need to optimize.
+
+1324
+02:31:22,000 --> 02:31:28,000
+ Or we innovate because we want to improve on things or because they are limited resources.
+
+1325
+02:31:28,000 --> 02:31:33,000
+ So all environments has finite resources.
+
+1326
+02:31:33,000 --> 02:31:34,000
+ Okay?
+
+1327
+02:31:34,000 --> 02:31:36,000
+ Life forms have basic instinct.
+
+1328
+02:31:36,000 --> 02:31:41,000
+ Life cycles geared towards reproduction.
+
+1329
+02:31:41,000 --> 02:31:46,000
+ That means survival of the species.
+
+1330
+02:31:46,000 --> 02:31:53,000
+ It's about so-called ensuring the survival of the group or the species.
+
+1331
+02:31:53,000 --> 02:32:02,000
+ So the idea is that individuals that compete for resources most effectively have increased chance of reproduction.
+
+1332
+02:32:02,000 --> 02:32:06,000
+ To ensure survival.
+
+1333
+02:32:06,000 --> 02:32:13,000
+ So in nature of course we say survival of the fittest.
+
+1334
+02:32:13,000 --> 02:32:25,000
+ Meaning that individuals that has the highest capability to compete for the limited resources.
+
+1335
+02:32:25,000 --> 02:32:30,000
+ Then has a higher chance of reproduction.
+
+1336
+02:32:31,000 --> 02:32:38,000
+ So therefore in the fitness, when we talk about fitness in evolutionary algorithm.
+
+1337
+02:32:38,000 --> 02:32:41,000
+ So we always have this fitness measure.
+
+1338
+02:32:41,000 --> 02:32:46,000
+ Just like your objective function when you say how good a solution is.
+
+1339
+02:32:46,000 --> 02:32:49,000
+ So that is equivalent to fitness.
+
+1340
+02:32:49,000 --> 02:32:53,000
+ Fitness in natural evolution is derived secondary measure.
+
+1341
+02:32:53,000 --> 02:32:58,000
+ We humans assign a high fitness to individuals with many offspring.
+
+1342
+02:32:58,000 --> 02:33:04,000
+ In nature fitness means higher number of offspring.
+
+1343
+02:33:04,000 --> 02:33:14,000
+ In our algorithm it is about the goodness of the solution.
+
+1344
+02:33:14,000 --> 02:33:18,000
+ What defines the goodness depends on your problem.
+
+1345
+02:33:18,000 --> 02:33:26,000
+ If it's a traveling system problem the goodness of it is how short the distance is needed.
+
+1346
+02:33:26,000 --> 02:33:34,000
+ So it depends on the problem.
+
+1347
+02:33:34,000 --> 02:33:46,000
+ Also in the Darwinian evolution we talk about diversity.
+
+1348
+02:33:46,000 --> 02:33:52,000
+ So diversity means what?
+
+1349
+02:33:52,000 --> 02:33:55,000
+ Greater variation.
+
+1350
+02:33:55,000 --> 02:33:58,000
+ More diverse.
+
+1351
+02:33:58,000 --> 02:34:08,000
+ So in the real world there is an expression of individuals.
+
+1352
+02:34:08,000 --> 02:34:18,000
+ So that expression of the individuals is what we call the phenotypic traits.
+
+1353
+02:34:18,000 --> 02:34:32,000
+ For example in humans, black hair, long hair, no hair, blue eyes, brown eyes and so on.
+
+1354
+02:34:32,000 --> 02:34:37,000
+ So those are the phenotypic traits.
+
+1355
+02:34:37,000 --> 02:34:44,000
+ So it is partly determined by inheritance and partly by factors during development.
+
+1356
+02:34:44,000 --> 02:34:52,000
+ It is unique to each individual as a result of random changes.
+
+1357
+02:34:52,000 --> 02:35:05,000
+ So in Darwinian's theory what determines the traits?
+
+1358
+02:35:05,000 --> 02:35:14,000
+ It is the traits that will lead to higher chances of reproduction.
+
+1359
+02:35:14,000 --> 02:35:18,000
+ That is the natural evolution way.
+
+1360
+02:35:18,000 --> 02:35:22,000
+ And these traits can be inherited.
+
+1361
+02:35:22,000 --> 02:35:26,000
+ And in your genetic algorithm this is a form of learning.
+
+1362
+02:35:26,000 --> 02:35:42,000
+ Those are good ones you will inherit.
+
+1363
+02:35:42,000 --> 02:35:52,000
+ So quickly we talk about so-called individuals and the population.
+
+1364
+02:35:52,000 --> 02:36:00,000
+ So in the Darwinian evolution, when we talk about the survival of the fitters,
+
+1365
+02:36:00,000 --> 02:36:09,000
+ the word fitters means that you must have a way to distinguish which is fitter.
+
+1366
+02:36:09,000 --> 02:36:12,000
+ So because there is a basis of selection.
+
+1367
+02:36:12,000 --> 02:36:13,000
+ Selection for what?
+
+1368
+02:36:13,000 --> 02:36:15,000
+ Selection for reproduction.
+
+1369
+02:36:15,000 --> 02:36:18,000
+ Or accordingly for higher chances of reproduction.
+
+1370
+02:36:18,000 --> 02:36:23,000
+ So individuals becomes the units of selection.
+
+1371
+02:36:23,000 --> 02:36:31,000
+ And when we talk about evolution as a whole, population is a unit of evolution.
+
+1372
+02:36:31,000 --> 02:36:42,000
+ Selection is the individuals, but the evolution aspect is the population as a whole.
+
+1373
+02:36:42,000 --> 02:36:57,000
+ So one aspect of the inspiration is the Darwinian evolution.
+
+1374
+02:36:57,000 --> 02:37:02,000
+ Now the second aspect of the evolution is the genetics.
+
+1375
+02:37:03,000 --> 02:37:18,000
+ So putting it very simply, all our characteristic traits are encoded in what we call the DNA.
+
+1376
+02:37:18,000 --> 02:37:23,000
+ So the DNA is like the signature of how we look.
+
+1377
+02:37:23,000 --> 02:37:35,000
+ So the manifestation of the characteristic of the DNA would determine the phenotypic traits.
+
+1378
+02:37:35,000 --> 02:37:48,000
+ So the main point to make is that the genetic algorithms, the inspiration of it also comes from the genetics part.
+
+1379
+02:37:48,000 --> 02:37:56,000
+ So in your algorithm, you use concepts like chromosomes.
+
+1380
+02:37:56,000 --> 02:38:02,000
+ So you use concepts like chromosomes and genes and so on.
+
+1381
+02:38:02,000 --> 02:38:09,000
+ So you have your natural evolution that determines the evolution of the selection of the individuals
+
+1382
+02:38:09,000 --> 02:38:13,000
+ and then survival of the fitters and so on.
+
+1383
+02:38:13,000 --> 02:38:23,000
+ Because in the genetics, it provides a blueprint for how we can actually cope these problems
+
+1384
+02:38:23,000 --> 02:38:35,000
+ based on the inspiration of the so-called genetics.
+
+1385
+02:38:35,000 --> 02:38:39,000
+ So this is from the genetics part.
+
+1386
+02:38:39,000 --> 02:38:45,000
+ So genes are encoded in strands of DNA called chromosomes.
+
+1387
+02:38:45,000 --> 02:38:50,000
+ So most cells, there are two copies of each chromosome.
+
+1388
+02:38:50,000 --> 02:38:52,000
+ So that's called a diploidy.
+
+1389
+02:38:52,000 --> 02:38:58,000
+ Now the complete genetic material in an individual genotype is called a genome.
+
+1390
+02:38:58,000 --> 02:39:08,000
+ So when we talk about the genome, it's a complete genetic material.
+
+1391
+02:39:08,000 --> 02:39:16,000
+ So for every species, within a species, most of the genetic material is the same.
+
+1392
+02:39:16,000 --> 02:39:24,000
+ So basically two points here, from evolution standpoint, Darwinian evolution,
+
+1393
+02:39:24,000 --> 02:39:30,000
+ from the genetics, that becomes the so-called inspiration for our genetic algorithm.
+
+1394
+02:39:30,000 --> 02:39:37,000
+ And we also, from the genetics point, there is also the mutation.
+
+1395
+02:39:37,000 --> 02:39:48,000
+ So mutation, random change or unexpected change, you talk about virus mutation and so on,
+
+1396
+02:39:48,000 --> 02:39:51,000
+ I think that will give you an idea of what it means.
+
+1397
+02:39:51,000 --> 02:39:58,000
+ So in our genetic algorithm, we also have implement a mutation process.
+
+1398
+02:39:58,000 --> 02:40:04,000
+ So in the algorithm, mutation gives us the ability to vary the solution.
+
+1399
+02:40:04,000 --> 02:40:08,000
+ So when we vary, we increase the diversity.
+
+1400
+02:40:08,000 --> 02:40:20,000
+ So whenever diversity, we explore more possibilities of different solutions.
+
+1401
+02:40:20,000 --> 02:40:29,000
+ So I think from this, I think the evolutionary computation metaphor,
+
+1402
+02:40:29,000 --> 02:40:35,000
+ you can kind of have a picture of what really happens in nature,
+
+1403
+02:40:35,000 --> 02:40:42,000
+ how we have brought it into our algorithm we are in terms of problem solving.
+
+1404
+02:40:43,000 --> 02:40:51,000
+ So you know, a population of individuals exists in an environment with limited resources.
+
+1405
+02:40:51,000 --> 02:40:59,000
+ So as I said before, if resources is enough, there's no need to compete, because it's more than enough.
+
+1406
+02:40:59,000 --> 02:41:01,000
+ And also the competition, right?
+
+1407
+02:41:01,000 --> 02:41:04,000
+ Competition based on fitness.
+
+1408
+02:41:04,000 --> 02:41:16,000
+ And individuals act as seeds for generation of new individuals through recombination and mutation.
+
+1409
+02:41:16,000 --> 02:41:21,000
+ So through this information here, so when you search for a solution,
+
+1410
+02:41:21,000 --> 02:41:25,000
+ you are searching for different possibilities or different variations.
+
+1411
+02:41:25,000 --> 02:41:32,000
+ So likewise, we're going to use recombination and mutation to generate that kind of diversity.
+
+1412
+02:41:32,000 --> 02:41:39,000
+ So that is like exploring the different possibilities of the solution landscape.
+
+1413
+02:41:42,000 --> 02:41:49,000
+ So you can see that if you're able to put this into a program,
+
+1414
+02:41:49,000 --> 02:41:56,000
+ and you let the process run through this recombination and then mutation and regeneration and so on,
+
+1415
+02:41:56,000 --> 02:42:01,000
+ because you have selective selection pressure in there,
+
+1416
+02:42:01,000 --> 02:42:03,000
+ because you're going to select according to fitness.
+
+1417
+02:42:03,000 --> 02:42:11,000
+ Now if you do it over many, many iterations, what you foresee will happen to the overall fitness.
+
+1418
+02:42:13,000 --> 02:42:18,000
+ Very naturally, the fitness, the overall fitness would improve.
+
+1419
+02:42:19,000 --> 02:42:30,000
+ So therefore in your algorithm, you will keep on iterating it until the fitness level reaches a certain level that is acceptable to you.
+
+1420
+02:42:30,000 --> 02:42:37,000
+ That would mean that you have found a solution or it is a solution that is good enough.
+
+1421
+02:42:37,000 --> 02:42:44,000
+ That's the idea on how we solve it in algorithm.
+
+1422
+02:42:48,000 --> 02:42:55,000
+ So in EC, it's basically a generate and test.
+
+1423
+02:42:55,000 --> 02:43:00,000
+ A generate and test, unlike for example your branch and bound.
+
+1424
+02:43:00,000 --> 02:43:06,000
+ Your branch and bound you search, and then you know what is your current bound,
+
+1425
+02:43:06,000 --> 02:43:11,000
+ and then you search until you reach a state where you cannot improve any further,
+
+1426
+02:43:11,000 --> 02:43:16,000
+ and then you branch out to another path.
+
+1427
+02:43:16,000 --> 02:43:23,000
+ So that is more like a sequential search.
+
+1428
+02:43:23,000 --> 02:43:28,000
+ But here in EC, or evolutionary algorithm, it's generate and test.
+
+1429
+02:43:28,000 --> 02:43:35,000
+ Basically you just generate the different possibilities of solutions and then you test it.
+
+1430
+02:43:37,000 --> 02:43:40,000
+ And they are stochastic population base.
+
+1431
+02:43:42,000 --> 02:43:45,000
+ Stochastic means probabilistic.
+
+1432
+02:43:47,000 --> 02:43:56,000
+ You make decision based on some, for example, random or probabilistic approach.
+
+1433
+02:43:58,000 --> 02:44:06,000
+ Or another way to put it is that if you compare stochastic to deterministic in stochastic algorithm,
+
+1434
+02:44:06,000 --> 02:44:12,000
+ every time you run it, there's a possibility you will get a different answer.
+
+1435
+02:44:13,000 --> 02:44:17,000
+ Because you use a lot of random numbers. That's stochastic behavior.
+
+1436
+02:44:20,000 --> 02:44:26,000
+ And then in EC, we have our variation operators like your recombination and mutation.
+
+1437
+02:44:26,000 --> 02:44:29,000
+ That's to create a so-called diversity.
+
+1438
+02:44:30,000 --> 02:44:36,000
+ And selection reduces diversity and acts as a force pushing for quality.
+
+1439
+02:44:43,000 --> 02:44:49,000
+ So generally you see where we are coming from.
+
+1440
+02:44:49,000 --> 02:44:53,000
+ The motivation behind genetic algorithm or how it comes about.
+
+1441
+02:44:54,000 --> 02:45:02,000
+ So let's begin to look at the GA, or what is evolutionary algorithm.
+
+1442
+02:45:03,000 --> 02:45:14,000
+ So we're going to look at the scheme of an EA and the different components.
+
+1443
+02:45:14,000 --> 02:45:29,000
+ And look at some examples and then consider it from the point of global optimization and then the neighborhood search.
+
+1444
+02:45:33,000 --> 02:45:51,000
+ This is a very good figure that put very clearly or succinctly what the process involved in an evolutionary algorithm.
+
+1445
+02:45:52,000 --> 02:46:10,000
+ And if you can see or remember this figure here, that becomes a very important baseline for you to develop a holistic understanding of genetic algorithm.
+
+1446
+02:46:11,000 --> 02:46:21,000
+ Now there are three parts, the population and then the parents and the offspring.
+
+1447
+02:46:23,000 --> 02:46:31,000
+ So from an algorithm point of view, three parts. Population, parents and offspring.
+
+1448
+02:46:32,000 --> 02:46:41,000
+ So according to this diagram here, initially when you start, you initialize the population.
+
+1449
+02:46:42,000 --> 02:46:51,000
+ How do you initialize? Random? I don't know any better. Randomly generate a solution.
+
+1450
+02:46:52,000 --> 02:47:01,000
+ How many do you generate? Well you determine a population size.
+
+1451
+02:47:01,000 --> 02:47:09,000
+ If your population is 100, so you randomly generate 100 possible solutions.
+
+1452
+02:47:10,000 --> 02:47:22,000
+ So the population is like sampling. You have a whole solution space.
+
+1453
+02:47:22,000 --> 02:47:29,000
+ So if you have 100 individuals, you are basically sampling 100 different regions.
+
+1454
+02:47:30,000 --> 02:47:41,000
+ And population also gives you that so-called redundancy. It's like a strength in number. It's like a parallel search.
+
+1455
+02:47:43,000 --> 02:47:51,000
+ So in theory you have 100 parallel search tracks. Let's say your population is 100.
+
+1456
+02:47:52,000 --> 02:48:03,000
+ So you initialize your population. Then after that you select the parents.
+
+1457
+02:48:05,000 --> 02:48:14,000
+ You select the parents. So the word selection means that to choose, right?
+
+1458
+02:48:14,000 --> 02:48:24,000
+ To choose means you have a basis for choosing. How do you choose? According to the fitness.
+
+1459
+02:48:25,000 --> 02:48:32,000
+ According to the goodness of the solution. So you choose according to the fitness. How do you know the fitness?
+
+1460
+02:48:32,000 --> 02:48:48,000
+ You have an objective function. Which in GA normally we say the fitness function.
+
+1461
+02:48:50,000 --> 02:48:54,000
+ So you have your fitness function. Which is actually your objective function?
+
+1462
+02:48:55,000 --> 02:49:04,000
+ Like the traveling salesman problem, the fitness will be the length of the tour. So that will be the fitness.
+
+1463
+02:49:04,000 --> 02:49:14,000
+ So you choose the parents. So this pool of parents, you're going to create variation.
+
+1464
+02:49:15,000 --> 02:49:25,000
+ Remember diversity? You want to create variation. So how do you create variation? You use a recombination process.
+
+1465
+02:49:27,000 --> 02:49:36,000
+ Recombination involves one or more parents. Let's say you have two parents. You're going to do maybe a swapping.
+
+1466
+02:49:37,000 --> 02:49:44,000
+ You take one part from the first parent and then the second part from the second parent.
+
+1467
+02:49:45,000 --> 02:49:53,000
+ So the idea is that because you already selected, so the parents tend to be fitter. The good ones.
+
+1468
+02:49:54,000 --> 02:50:02,000
+ So what you have done is that you have chosen the fitter one. Give them higher chance of reproduction.
+
+1469
+02:50:03,000 --> 02:50:10,000
+ So essentially what you have done is that you're passing on good characteristics. Because you select, you recombine.
+
+1470
+02:50:11,000 --> 02:50:20,000
+ And your basis of your selection is based on fitness. So you have chosen it based on the fitness. So you're passing on good characteristics.
+
+1471
+02:50:21,000 --> 02:50:29,000
+ So that's recombination. And then you also introduce some kind of random perturbation. Mutation is random.
+
+1472
+02:50:30,000 --> 02:50:37,000
+ Why you want randomness? Well, again to create diversity.
+
+1473
+02:50:38,000 --> 02:50:47,000
+ So in GA, one of the clear things you must understand about GA is there are two main operations.
+
+1474
+02:50:48,000 --> 02:50:54,000
+ One is your recombination. The other is mutation. These are the two main.
+
+1475
+02:50:54,000 --> 02:51:10,000
+ And if you look at the so-called, the whole concept of GA, basically it involves these two mechanisms to create the variations in the individuals.
+
+1476
+02:51:11,000 --> 02:51:19,000
+ So after you create from the parents through this process, you create offspring.
+
+1477
+02:51:24,000 --> 02:51:29,000
+ So you create offspring. From the parents you have an offspring.
+
+1478
+02:51:30,000 --> 02:51:43,000
+ So this offspring, different. So now you have two pools. You have your parents and then you have a pool of offspring.
+
+1479
+02:51:44,000 --> 02:51:54,000
+ Based on the parents and the offspring, you're going to create a new population. That means that it's one generation.
+
+1480
+02:51:55,000 --> 02:51:58,000
+ So in one generation, you're going to create a new population.
+
+1481
+02:51:59,000 --> 02:52:07,000
+ Now if you think about this, through this thought process here, you can imagine if you do it iteratively many times,
+
+1482
+02:52:08,000 --> 02:52:15,000
+ over time the fitness of the pool of individuals would improve.
+
+1483
+02:52:16,000 --> 02:52:24,000
+ So quite clearly this process is very intuitive and logical.
+
+1484
+02:52:25,000 --> 02:52:33,000
+ So when you talk about GA, think of this figure, this picture.
+
+1485
+02:52:34,000 --> 02:52:43,000
+ And then from this figure here, we will use it to expand further of the different intricacies within each of the blocks.
+
+1486
+02:52:44,000 --> 02:52:50,000
+ So let me stop here and then we continue again next week.
+
+1487
+02:52:54,000 --> 02:52:59,000
+ Thank you.
+
+1488
+02:53:24,000 --> 02:53:29,000
+ Thank you.
+
+1489
+02:53:54,000 --> 02:53:59,000
+ Thank you.
+
+1490
+02:54:24,000 --> 02:54:29,000
+ Thank you.
+
+1491
+02:54:54,000 --> 02:54:59,000
+ Thank you.
+
+1492
+02:55:24,000 --> 02:55:29,000
+ Thank you.
+
+1493
+02:55:54,000 --> 02:55:59,000
+ Thank you.
+
+1494
+02:56:24,000 --> 02:56:29,000
+ Thank you.
+
+1495
+02:56:54,000 --> 02:56:59,000
+ Thank you.
+
+1496
+02:57:24,000 --> 02:57:29,000
+ Thank you.
+
+1497
+02:57:54,000 --> 02:57:59,000
+ Thank you.
+
+1498
+02:58:24,000 --> 02:58:29,000
+ Thank you.
+
+1499
+02:58:54,000 --> 02:58:59,000
+ Thank you.
+
+1500
+02:59:24,000 --> 02:59:29,000
+ Thank you.
+
+1501
+02:59:54,000 --> 02:59:59,000
+ Thank you.
+

@@ -1,0 +1,5524 @@
+1
+00:00:00,000 --> 00:00:10,000
+All right, so before I start the lecture today, I wish to draw your attention to these two
+
+2
+00:00:10,000 --> 00:00:14,920
+announcements, which was made earlier last week.
+
+3
+00:00:14,920 --> 00:00:20,120
+As I mentioned last week, right, we have two CAs, Continuous Assessment for this course.
+
+4
+00:00:20,120 --> 00:00:23,960
+One will be conducted by me, the other one will be conducted by Prof Lin in the second
+
+5
+00:00:23,960 --> 00:00:24,960
+part.
+
+6
+00:00:24,960 --> 00:00:26,040
+But the forms are different.
+
+7
+00:00:26,040 --> 00:00:29,840
+I don't know why there were some students still raise the question.
+
+8
+00:00:29,840 --> 00:00:34,560
+I think I made them clear last time, but please read the announcements, if you're not very
+
+9
+00:00:34,560 --> 00:00:36,800
+clear about the two CAs.
+
+10
+00:00:36,800 --> 00:00:44,240
+Basically, I will give you homework, so homework is not a quiz, you will do that at home.
+
+11
+00:00:44,240 --> 00:00:49,160
+So you don't have to come here, you will have like more than three weeks time.
+
+12
+00:00:49,160 --> 00:00:53,320
+So the homework will be made available to you in week three.
+
+13
+00:00:53,320 --> 00:00:57,320
+So this is actually, okay, this is already week three, so actually, did I say week three
+
+14
+00:00:57,320 --> 00:00:58,320
+or week four?
+
+15
+00:00:58,320 --> 00:00:59,800
+Sorry, week four.
+
+16
+00:00:59,800 --> 00:01:02,960
+So it will be made available to you next week, next Friday.
+
+17
+00:01:02,960 --> 00:01:07,200
+The reason is like you need the knowledge, which we are going to learn starting from
+
+18
+00:01:07,200 --> 00:01:08,880
+next week to do the homework.
+
+19
+00:01:08,880 --> 00:01:13,720
+So even if I announce now, it doesn't really help, all right, but don't worry, you have
+
+20
+00:01:13,720 --> 00:01:19,560
+enough time to do it because the due date will be the Friday of the recess week.
+
+21
+00:01:19,560 --> 00:01:25,120
+In other words, you should have how many weeks, five, six, seven, right?
+
+22
+00:01:25,120 --> 00:01:28,880
+So even if you count the recess week, there should be four weeks to do it.
+
+23
+00:01:28,880 --> 00:01:34,160
+So you should have enough time, so you can use your textbook, you can even search online
+
+24
+00:01:34,160 --> 00:01:35,160
+if you want, right?
+
+25
+00:01:35,160 --> 00:01:41,000
+So but mainly those questions for you to, you know, like a checkpoint for you to fully,
+
+26
+00:01:41,000 --> 00:01:45,400
+make sure you fully understand all of those concepts we cover in this, in my part, all
+
+27
+00:01:45,400 --> 00:01:46,400
+right?
+
+28
+00:01:46,400 --> 00:01:50,200
+And you will find the questions under the assignment, right?
+
+29
+00:01:50,200 --> 00:01:55,720
+So I don't know how many of you have checked the NTU Learner site, but if you go to the
+
+30
+00:01:55,720 --> 00:02:01,800
+NTU Learner page, for the content, right, this is where you can find the slides, lecture
+
+31
+00:02:01,800 --> 00:02:06,080
+slides, and later I'm going to create an item under here.
+
+32
+00:02:06,080 --> 00:02:09,640
+I mean, this was the old one, I think, but anyway, I'll update, but this was the old
+
+33
+00:02:09,640 --> 00:02:10,640
+one.
+
+34
+00:02:10,640 --> 00:02:12,720
+You will be able to find the assignment.
+
+35
+00:02:12,720 --> 00:02:18,160
+So you can download the question there, and then you can also submit your answer sheets
+
+36
+00:02:18,160 --> 00:02:19,160
+there.
+
+37
+00:02:19,160 --> 00:02:22,040
+Okay, in other words, you don't have to give me the hard copy.
+
+38
+00:02:22,040 --> 00:02:27,280
+You do it, you can either type set it, like you can use Latex to type it or Word, or you
+
+39
+00:02:27,280 --> 00:02:28,280
+can just write it.
+
+40
+00:02:28,280 --> 00:02:33,440
+I mean, you can do handwritten submission, but if you choose to write to your answers
+
+41
+00:02:33,440 --> 00:02:37,000
+by hand, make sure those answers can be read, okay?
+
+42
+00:02:37,000 --> 00:02:42,840
+Because if I cannot understand your handwriting, I cannot give you marks, it's very fair, right?
+
+43
+00:02:42,840 --> 00:02:48,000
+So it's your choice, you can choose to type set it, like use Word, or maybe Latex to
+
+44
+00:02:48,000 --> 00:02:52,720
+do it, which is completely safe, because I can definitely read those type sets, you
+
+45
+00:02:52,720 --> 00:02:53,720
+know, answer sheets.
+
+46
+00:02:53,720 --> 00:02:58,480
+But if you choose to write it down on papers, and then you can scan it, right, you can take
+
+47
+00:02:58,480 --> 00:03:03,680
+a photo, scan it, submit, make sure those answers can be read, because, you know, I'm
+
+48
+00:03:03,680 --> 00:03:08,240
+not sure about everybody's handwriting, but if your handwriting is, like, terrible, like,
+
+49
+00:03:08,240 --> 00:03:12,480
+you have to make it clear, because if I don't understand it, I cannot give you marks, okay?
+
+50
+00:03:12,480 --> 00:03:16,360
+So it's your job to make the handwriting clear, all right?
+
+51
+00:03:16,360 --> 00:03:22,080
+So this is my, for my part, okay, my part, the CA is not a quiz, okay, it's a homework,
+
+52
+00:03:22,080 --> 00:03:25,040
+okay, I hope I clarified this already, right?
+
+53
+00:03:25,040 --> 00:03:30,680
+But for Puffling, you know, as, you know, sorry, let's go to the announcement, all right?
+
+54
+00:03:30,680 --> 00:03:34,360
+So if you look at the announcement, right, Puffling also make another announcement for,
+
+55
+00:03:34,360 --> 00:03:38,680
+so for his part, he's going to give you a quiz, okay?
+
+56
+00:03:38,680 --> 00:03:43,280
+It's also 20%, but he's going to give you a quiz, in other words, for his part, it's
+
+57
+00:03:43,280 --> 00:03:48,960
+going to be a close book quiz, which is conducted in the lecture, I mean, I don't know whether
+
+58
+00:03:48,960 --> 00:03:52,760
+it's in the lecture, but it's going to conduct it, you know, physically here, right?
+
+59
+00:03:52,760 --> 00:03:58,160
+So he's going to tell you more details, but the form is different, for my part is homework,
+
+60
+00:03:58,160 --> 00:04:02,280
+for Puffling's part is a quiz, okay, don't confuse, you know, don't get it confused,
+
+61
+00:04:02,280 --> 00:04:05,720
+because I do have some, some people ask me, you know, how many homeworks do I have?
+
+62
+00:04:05,720 --> 00:04:09,960
+Only one homework, that's for me, the quiz is from Puffling, all right?
+
+63
+00:04:09,960 --> 00:04:14,440
+My part will only focus on part one, I will not touch the part two, okay?
+
+64
+00:04:14,440 --> 00:04:18,040
+Not speak for Puffling, but I think he's going to focus on part two, right?
+
+65
+00:04:18,040 --> 00:04:20,960
+Because this is actually how we separate the scope, okay?
+
+66
+00:04:20,960 --> 00:04:22,520
+Is it clear?
+
+67
+00:04:22,520 --> 00:04:26,600
+Because I do receive some emails, keep asking me this, but if you are not clear,
+
+68
+00:04:26,600 --> 00:04:29,640
+you have any question, please ask me no, all right?
+
+69
+00:04:29,640 --> 00:04:33,920
+Because if you email me, I could get delayed, because I cannot, I may not reply you on time,
+
+70
+00:04:33,920 --> 00:04:37,960
+so don't complain, if there's a better way to do it, just ask me no, all right?
+
+71
+00:04:37,960 --> 00:04:40,920
+I can clarify any question you have.
+
+72
+00:04:40,920 --> 00:04:42,920
+Yes?
+
+73
+00:04:42,920 --> 00:04:47,880
+What do you mean by one?
+
+74
+00:04:47,880 --> 00:04:52,200
+You can do multiple submissions, but I will only grade your last submission.
+
+75
+00:04:52,200 --> 00:04:55,640
+Okay, so here's the thing, he's asking, the gentleman is asking, how many times,
+
+76
+00:04:55,640 --> 00:04:57,960
+how many opportunities I can submit, all right?
+
+77
+00:04:57,960 --> 00:05:01,200
+You can submit any multiple time as many as you want, okay?
+
+78
+00:05:01,200 --> 00:05:05,960
+I'll make it unlimited, but I'm only going to grade your last submission.
+
+79
+00:05:05,960 --> 00:05:11,960
+In other words, if I make my second submission, that's going to replace the first submission,
+
+80
+00:05:11,960 --> 00:05:12,960
+okay?
+
+81
+00:05:12,960 --> 00:05:13,960
+Is it clear?
+
+82
+00:05:13,960 --> 00:05:14,960
+I'm not going to grade both, okay?
+
+83
+00:05:14,960 --> 00:05:15,960
+It doesn't make sense.
+
+84
+00:05:15,960 --> 00:05:20,160
+So if you find that your answer is wrong, or you want to fix anything, as long as it's
+
+85
+00:05:20,160 --> 00:05:24,800
+before that line, you can do it, okay?
+
+86
+00:05:24,800 --> 00:05:25,800
+Is it clear?
+
+87
+00:05:25,800 --> 00:05:26,800
+All right?
+
+88
+00:05:26,800 --> 00:05:27,800
+Answer your question?
+
+89
+00:05:27,800 --> 00:05:28,800
+Okay, good.
+
+90
+00:05:28,800 --> 00:05:29,800
+Any other questions?
+
+91
+00:05:29,800 --> 00:05:34,720
+Okay, so I assume it's clear now, right?
+
+92
+00:05:35,480 --> 00:05:40,600
+Prof. Ming asked me to mention this clearly, because both of us keep receiving emails,
+
+93
+00:05:40,600 --> 00:05:44,600
+so I just want to make sure this is clear for everyone, all right?
+
+94
+00:05:44,600 --> 00:05:45,600
+Okay, good.
+
+95
+00:05:45,600 --> 00:05:51,680
+Okay, so, okay, then let's go to our lecture today, right?
+
+96
+00:05:51,680 --> 00:05:57,320
+So this is my second lecture, so let me first do a recap of what we covered last week.
+
+97
+00:05:57,320 --> 00:06:00,280
+I hope you still remember what we talked about last week, right?
+
+98
+00:06:00,280 --> 00:06:06,720
+So last week, I will call it a review, because if you have taken any digital signal processing
+
+99
+00:06:06,720 --> 00:06:10,280
+course in your undergraduate, these are pretty much not new to you, right?
+
+100
+00:06:10,280 --> 00:06:14,360
+You probably have already learned them, but consider we have a very diverse background,
+
+101
+00:06:14,360 --> 00:06:18,720
+and the students come from very diverse backgrounds, so it's better to kind of review that first,
+
+102
+00:06:18,720 --> 00:06:23,800
+make sure everybody have the same kind of a, you know, baseline, right, unless you're
+
+103
+00:06:23,800 --> 00:06:25,200
+going to keep asking questions.
+
+104
+00:06:25,200 --> 00:06:31,120
+So what we covered last week is starting from this, you know, signal representation, right?
+
+105
+00:06:31,120 --> 00:06:36,160
+We learned that, well, you can represent signal both in time and in frequency domain, and
+
+106
+00:06:36,160 --> 00:06:42,000
+we talked about how we can generate so-called discrete signal, right, or digital signal.
+
+107
+00:06:42,000 --> 00:06:45,320
+We don't really differentiate the two, but I think one of you asked me the question,
+
+108
+00:06:45,320 --> 00:06:46,320
+what's the difference?
+
+109
+00:06:46,320 --> 00:06:51,520
+So for this course, we don't really differentiate the two, they are just discretized, sampled,
+
+110
+00:06:51,520 --> 00:06:57,840
+but we learned the theorem of sampling, how you can sample analog signal to generate digital,
+
+111
+00:06:57,840 --> 00:07:03,400
+right, and what could be wrong, what is the requirement of the sampling rate, right?
+
+112
+00:07:03,400 --> 00:07:08,200
+So we covered the, what is Nyquist condition, I hope you still remember, right?
+
+113
+00:07:08,200 --> 00:07:14,120
+Nyquist condition says you have to have a minimum sampling rate in order to avoid any
+
+114
+00:07:14,120 --> 00:07:17,440
+distortion, in other words, aliasing, right?
+
+115
+00:07:17,440 --> 00:07:24,480
+So I wish you could understand what is aliasing now, I mean, basically here, right, basically,
+
+116
+00:07:24,480 --> 00:07:30,020
+so basically aliasing is the distortion we are interested of, and we wish to avoid, right,
+
+117
+00:07:30,020 --> 00:07:34,200
+and this is what the Nyquist condition is talking about, right, is tell you what is
+
+118
+00:07:34,200 --> 00:07:40,080
+the minimum sampling rate that you need to avoid aliasing, right, specifically, and we
+
+119
+00:07:40,080 --> 00:07:46,720
+also learned how to do the DTFT and DFT specifically to represent the signals, right, we talked
+
+120
+00:07:46,720 --> 00:07:52,480
+about why we are interested in all of these, you know, varied version of Fourier transforms,
+
+121
+00:07:52,480 --> 00:07:58,360
+right, is because we believe that frequency representations sometimes are more useful
+
+122
+00:07:58,360 --> 00:08:02,520
+than time domain representation, right, we talk about frequency analysis, we talk about,
+
+123
+00:08:02,520 --> 00:08:05,960
+later we're going to talk about low pass filter, you know, high pass filter, I mean,
+
+124
+00:08:05,960 --> 00:08:10,760
+when we say low and high, we're referring to frequency, not time domain, right, so I
+
+125
+00:08:11,040 --> 00:08:18,160
+hope now everybody should be familiar with at least how to use DTFT, how to use DFT, so I
+
+126
+00:08:18,160 --> 00:08:23,000
+give you a summary about the three kind of most important transforms we talk about, so
+
+127
+00:08:23,000 --> 00:08:28,760
+CFT I didn't talk more because I believe this is covered, pretty much covered in your, even
+
+128
+00:08:28,760 --> 00:08:33,920
+before digital, like analog signal processing, right, very fundamental, so, but the difference
+
+129
+00:08:34,040 --> 00:08:40,800
+is that CFT, in other words, continuous time Fourier transform, dealing with analog signal,
+
+130
+00:08:40,800 --> 00:08:45,280
+right, which, that's why we are not focusing on this because we're focusing on digital
+
+131
+00:08:45,280 --> 00:08:51,800
+signal, and it's going to give you continuous function in both time and frequency domains,
+
+132
+00:08:51,800 --> 00:08:58,880
+right, input, output, both of them are continuous time, right, this is CFT or you call it CTFT,
+
+133
+00:08:59,680 --> 00:09:05,920
+then what we learned and what we started with last week is actually DTFT, right, because
+
+134
+00:09:05,920 --> 00:09:12,920
+DTFT are specifically for discrete time signal, right, it's for digital signal, and that's
+
+135
+00:09:12,920 --> 00:09:19,000
+what why it's called DT, right, DT stands for discrete time, and it's going to take
+
+136
+00:09:19,000 --> 00:09:26,000
+discrete signal in time domain, but it still gives you continuous function in the frequency
+
+137
+00:09:26,120 --> 00:09:33,120
+domain, right, this is DTFT, so DTFT output, the transform domain is going to steal continuous
+
+138
+00:09:33,440 --> 00:09:39,960
+time, right, that's why you will need to do integration when you want to do inverse transform,
+
+139
+00:09:39,960 --> 00:09:44,600
+right, so, but then definitely we don't want to store continuous number, right, as the
+
+140
+00:09:44,600 --> 00:09:49,640
+spectrum, because the computer cannot store continuous number, that's why what we really
+
+141
+00:09:49,720 --> 00:09:56,400
+use most frequently for digital device is DTFT, because DTFT is going to deal with the
+
+142
+00:09:56,400 --> 00:10:03,000
+discrete signal in both time domain and frequency domain, right, so you can see the change,
+
+143
+00:10:03,000 --> 00:10:09,500
+we are gradually moving from CT to DT, right, but you need to know what's the difference,
+
+144
+00:10:09,500 --> 00:10:16,000
+how one can gradually evolve coming from the original CTFT, originally or progressively
+
+145
+00:10:16,000 --> 00:10:22,560
+to the DTFT that we want to really use in practice, all right, so use this as a checkpoint
+
+146
+00:10:22,560 --> 00:10:27,440
+for you to organize all of the knowledge we learned, and basically you need to have this
+
+147
+00:10:27,440 --> 00:10:32,760
+understanding on the time frequency representation, right, of the signal, that's what we focused
+
+148
+00:10:32,760 --> 00:10:38,760
+on, right, DTFT, and actually the two things we are really using is DTFT and FFT in digital
+
+149
+00:10:38,760 --> 00:10:44,760
+device, right, so one last thing is that we talk about frequency, and there are two frequencies,
+
+150
+00:10:45,200 --> 00:10:50,720
+okay, so first you can represent frequency in terms of either hertz or radian, right,
+
+151
+00:10:50,720 --> 00:10:55,960
+that's why you use F and omega correspondingly, I mean you can also convert them to a multiplied
+
+152
+00:10:55,960 --> 00:11:02,360
+two pi, right, just the different units, and we also say that one can use your sampling
+
+153
+00:11:02,360 --> 00:11:07,960
+frequency to normalize them, right, so you can convert them in the period, I mean in
+
+154
+00:11:07,960 --> 00:11:12,840
+the duration of one, in other words you can normalize them so that they don't really vary
+
+155
+00:11:12,840 --> 00:11:17,240
+in terms of scale, right, so be very careful whether we're talking about normalized frequency
+
+156
+00:11:17,240 --> 00:11:24,240
+or unnormalized frequency, but the difference is just dividing a sampling frequency, right,
+
+157
+00:11:24,360 --> 00:11:28,000
+but in the question they can give you either, right, they can give you normalized, they
+
+158
+00:11:28,000 --> 00:11:32,440
+can also give you unnormalized version, all right, so these are basically the important
+
+159
+00:11:32,440 --> 00:11:38,520
+things we learned last week, so last week if you remember, right, we ended with the introduction
+
+160
+00:11:38,520 --> 00:11:43,960
+of DFT, right, discrete Fourier transform, so I give you a quick recap, right, basically
+
+161
+00:11:43,960 --> 00:11:49,080
+you need to know these two equations, one is the forward transform, right, going from
+
+162
+00:11:49,080 --> 00:11:55,640
+time domain to frequency domain, and sometimes we also call it an analysis transform because
+
+163
+00:11:55,640 --> 00:12:02,320
+we're analyzing the signal to get the frequency components, so you can consider the frequency
+
+164
+00:12:02,320 --> 00:12:07,960
+spectrum as an analysis of the time domain signal, right, you want to see whether this
+
+165
+00:12:08,000 --> 00:12:11,680
+is kind of very strong in low frequency or very strong in high frequency, it's an analysis,
+
+166
+00:12:11,680 --> 00:12:18,680
+okay, so, but pay attention to that, DFT always is dealing with some finite number of points,
+
+167
+00:12:20,520 --> 00:12:26,520
+okay, you cannot have infinitely, okay, you can in theory, but it's going to be periodic,
+
+168
+00:12:26,520 --> 00:12:32,520
+right, but most likely we're talking about endpoint DFT, remember we say that you can
+
+169
+00:12:32,520 --> 00:12:37,520
+actually use a matrix, square matrix to represent a DFT and the size of the matrix is the size
+
+170
+00:12:37,880 --> 00:12:42,400
+is determined by how many points you have, for end points DFT you have to have an m
+
+171
+00:12:42,400 --> 00:12:48,520
+by n matrix, alright, so it's always endpoint, and the number of time samples, in other words
+
+172
+00:12:48,520 --> 00:12:55,520
+the length of your time domain signal, it's always equal to the number of samples in frequency
+
+173
+00:12:55,520 --> 00:13:01,240
+domain, so no matter how you do this transform, right, inverse transform, forward transform,
+
+174
+00:13:01,240 --> 00:13:06,400
+it doesn't change the number of points you have, okay, so that's why you're, if you
+
+175
+00:13:06,440 --> 00:13:11,840
+remember, right, your DFT matrix is always a square matrix, because dimension is no change,
+
+176
+00:13:11,840 --> 00:13:18,840
+it's still n dimension, right, so this is the second point, and you know, you can also
+
+177
+00:13:19,320 --> 00:13:25,120
+do this m samples using DFT, but they have to be within a DFT window, in other words,
+
+178
+00:13:25,120 --> 00:13:29,120
+you can have a longer, you know, longer size of signal, but when you do the DFT you have
+
+179
+00:13:29,120 --> 00:13:34,240
+to do some kind of windowing or truncation to make them within, right, so this is a common
+
+180
+00:13:34,280 --> 00:13:39,280
+way people dealing with maybe a relatively longer signal, right, so when you do inverse
+
+181
+00:13:39,280 --> 00:13:44,720
+DFT, right, again it's going to be endpoint, right, but if you compare the form of the
+
+182
+00:13:44,720 --> 00:13:51,560
+forward and inverse, you realize that there are two difference, one is the base, right,
+
+183
+00:13:51,560 --> 00:13:56,240
+forward transform you have to do minus sign in the exponential, inverse transform there's
+
+184
+00:13:56,240 --> 00:14:02,120
+no minus sign, that's the, basically the base function is actually the opposite, right,
+
+185
+00:14:02,320 --> 00:14:08,640
+another thing is the scaling, so for our subject we use the version that you don't scale in
+
+186
+00:14:08,640 --> 00:14:15,080
+the forward transform and you scale it back by multiply of 1 over n to scale it to original,
+
+187
+00:14:15,080 --> 00:14:20,680
+right, so this scaling factor 1 over n is just to ensure that you can't get back to
+
+188
+00:14:20,680 --> 00:14:27,680
+the original signal without any scaling ambiguity, okay, but you may find the so-called DFT in
+
+189
+00:14:27,680 --> 00:14:33,960
+other contexts they do 1 over n square root, square root n here and also here 1 over square
+
+190
+00:14:33,960 --> 00:14:38,520
+root of n, which is totally fine, it's the definition of where you scale it, right, but
+
+191
+00:14:38,520 --> 00:14:43,640
+you have to scale this n by getting rid of the scale and ambiguity, so don't be surprised
+
+192
+00:14:43,640 --> 00:14:48,600
+if you see some other DFT which have different scaling factor, right, but the form is always
+
+193
+00:14:48,600 --> 00:14:54,600
+the same, right, the base is always the same, okay, so I think just give a recap before
+
+194
+00:14:54,600 --> 00:15:01,080
+introducing FFT, okay, but any question about DFT before I move on to FFT, you can ask me now.
+
+195
+00:15:01,080 --> 00:15:11,600
+Is it clear for everyone? Okay, good, now, okay, I give you another illustration, right, so I also
+
+196
+00:15:11,600 --> 00:15:16,840
+get some questions, says, okay, you have taught about DTFT, you also show a figure, right, if you
+
+197
+00:15:16,840 --> 00:15:23,160
+remember, there was a figure explaining like how you can go from CFT to DTFT to DFT, right,
+
+198
+00:15:24,120 --> 00:15:31,320
+so some of you are asking like how exactly are the DFT spectrum related to DTFT, right, you can
+
+199
+00:15:31,320 --> 00:15:38,040
+consider DTFT as a sampled version, I'm talking about spectrum, not time domain, right, but frequency
+
+200
+00:15:38,040 --> 00:15:44,520
+spectrum, you can consider DFT spectrum is a sampled version of DTFT spectrum, right, so here's one
+
+201
+00:15:44,520 --> 00:15:50,680
+example, consider this is your original digital signal, time domain, right, original digital
+
+202
+00:15:50,680 --> 00:15:57,720
+signal, if you do directly doing the DTFT, remember DTFT gives you a continuous spectrum, right,
+
+203
+00:15:57,720 --> 00:16:03,160
+not discrete, but continuous spectrum, so this will be your DTFT spectrum, right, continuous,
+
+204
+00:16:03,160 --> 00:16:09,000
+and also some of you may observe that this is actually a periodic function, in other words,
+
+205
+00:16:09,000 --> 00:16:15,720
+the function is going to repeat itself in the 2 pi period, okay, you can derive this because it's
+
+206
+00:16:15,720 --> 00:16:22,600
+actually a theorem says that if you have a finite length signal in time domain, you do DTFT,
+
+207
+00:16:22,600 --> 00:16:27,640
+the spectrum is always periodic, and this can be proved, right, you can try yourself, but it's
+
+208
+00:16:27,640 --> 00:16:34,440
+always like that, okay, and then if you compare to the DFT spectrum, right, this is your DFT spectrum,
+
+209
+00:16:35,160 --> 00:16:41,000
+you realize that, okay, in principle we should only have, you know, 8 samples, right, but you can
+
+210
+00:16:41,080 --> 00:16:47,880
+actually do a periodic expanding of the signal, and you find that the points you have in the DFT
+
+211
+00:16:47,880 --> 00:16:55,880
+spectrum will be the sampled version of your DTFT, okay, it only depends on how many samples you have,
+
+212
+00:16:55,880 --> 00:17:01,640
+right, but it's going to be a sampled version in a uniform spacing of your DTFT spectrum, right,
+
+213
+00:17:01,640 --> 00:17:06,840
+so if you draw an envelope of these functions, you are going to get the same spectrum as your DTFT,
+
+214
+00:17:07,560 --> 00:17:14,360
+right, and this DFT actually, you can also make it periodic, right, in other words you can actually
+
+215
+00:17:14,360 --> 00:17:20,920
+plus a 2 pi, but normally we're only interested of the coefficients in the first 8 points,
+
+216
+00:17:20,920 --> 00:17:25,480
+in other words in one period, right, but mathematically you can actually repeating,
+
+217
+00:17:25,480 --> 00:17:32,360
+right, by just adding another 2 pi, okay, so you can consider DFT as a sampled version of DTFT,
+
+218
+00:17:32,600 --> 00:17:38,280
+all right, so I hope this illustration helped you to clarify, and other things like, I also
+
+219
+00:17:38,280 --> 00:17:43,800
+get some email asking about this concept, I think I may have, I may not explain this very clearly,
+
+220
+00:17:43,800 --> 00:17:49,640
+that's why I want to repeat again, right, so resolution, remember we say that for DFT there's
+
+221
+00:17:49,640 --> 00:17:56,040
+one, you know, quantity we use to describe of the spectrum, we call it resolution of the DFT,
+
+222
+00:17:56,040 --> 00:18:03,080
+right, and we say that for the definition of the resolution is actually your sampling frequency
+
+223
+00:18:03,640 --> 00:18:10,520
+divided by the number of points of your DFT, all right, you remember that was what I explained
+
+224
+00:18:10,520 --> 00:18:17,400
+last time, right, but okay, and also one more thing is that this FS only depends on your sampling,
+
+225
+00:18:17,400 --> 00:18:21,880
+in other words how do you convert analog time domain signal to digital signal,
+
+226
+00:18:21,880 --> 00:18:27,240
+right, in time domain, nothing to do with your DFT, okay, nothing to do with DFT is just like
+
+227
+00:18:27,240 --> 00:18:35,080
+how you sample that, the N has nothing to do with your sampling, it only depends on what DFT you
+
+228
+00:18:35,080 --> 00:18:41,560
+are using, okay, so I hope this is clear, right, so that's where the two numbers come from, right,
+
+229
+00:18:41,560 --> 00:18:47,720
+one come from the sampling process, one come from what DFT you are using, okay, so this was
+
+230
+00:18:47,720 --> 00:18:51,640
+what we were talking about, but some people are asking okay how can I interpret this resolution
+
+231
+00:18:51,640 --> 00:18:56,760
+or another question is like is this number the larger the better or smaller the better,
+
+232
+00:18:57,640 --> 00:19:01,320
+all right, so I think that's a very good question, I probably didn't get there clearly last time,
+
+233
+00:19:02,040 --> 00:19:07,320
+to answer the question we have to talk about what is the meaning of this number, right,
+
+234
+00:19:07,320 --> 00:19:14,600
+when you divide the FS over N what does that mean in the spectrum, right, so in fact this number,
+
+235
+00:19:14,600 --> 00:19:21,240
+if you look at the quantity, right, it defines how are like two samples in the frequency domain
+
+236
+00:19:21,800 --> 00:19:28,520
+apart from each other, okay, so remember for DFT you will get some spikes, right, some kind of
+
+237
+00:19:28,520 --> 00:19:35,480
+measure, but they are discretized, so this number tells you how far away two bars are away from
+
+238
+00:19:35,480 --> 00:19:42,280
+each other, okay, not in the normalized domain but in the actual frequency domain, so if I give you
+
+239
+00:19:42,280 --> 00:19:46,920
+two bars, right, you have this spacing, how does this, what does this spacing represent,
+
+240
+00:19:48,200 --> 00:19:51,800
+so this number tells you what, just like think about the image, right, you have two pixels,
+
+241
+00:19:52,360 --> 00:19:56,440
+you're also interested, what does this two pixel represent, right, maybe the pixel,
+
+242
+00:19:56,440 --> 00:20:02,200
+one pixel represent one meter or maybe one pixel represent like I said maybe 10 centimeter, right,
+
+243
+00:20:02,200 --> 00:20:09,720
+so if you think about this as the digital image, right, normally a high resolution image means
+
+244
+00:20:09,800 --> 00:20:16,200
+a single pixel will present fewer, I mean smaller length, right, if I give you an image
+
+245
+00:20:16,200 --> 00:20:20,360
+that a single pixel will represent let's say one micrometer, that's probably some
+
+246
+00:20:20,360 --> 00:20:26,360
+microscopy images which is a very high resolution image, inversely if your image like a single
+
+247
+00:20:26,360 --> 00:20:31,160
+pixel will represent like 100 meters, right, we're talking about a very low resolution image,
+
+248
+00:20:32,040 --> 00:20:37,960
+so you can tell that the spacing actually is inversely proportional to resolution, in other
+
+249
+00:20:37,960 --> 00:20:44,280
+words the larger the spacing the lower the resolution, okay, I don't know whether this
+
+250
+00:20:44,280 --> 00:20:51,160
+makes sense to you, right, so similarly this number is also the smaller the better, right,
+
+251
+00:20:51,160 --> 00:20:57,720
+if you have a smaller FS divided by N that means you have a better resolution in your DFT spectrum,
+
+252
+00:20:58,920 --> 00:21:05,800
+okay, so this is basically representing the spacing, so like I said, you know having this
+
+253
+00:21:05,800 --> 00:21:13,480
+number, right, having this resolution can represent a digital frequency by simply doing a k times
+
+254
+00:21:13,480 --> 00:21:21,560
+FS divided by N, in other words k here means the kth bar or the kth spikes in your DFT spectrum,
+
+255
+00:21:21,560 --> 00:21:27,080
+right, basically if I'm talking about the fifth spikes that means five times this spacing,
+
+256
+00:21:27,080 --> 00:21:31,880
+that's what the spikes represent in the frequency domain, right, so if you know the spacing, if
+
+257
+00:21:31,880 --> 00:21:36,280
+you know how many bars you can you can calculate what is the frequency range we're talking about,
+
+258
+00:21:36,920 --> 00:21:44,600
+right, so this is basically what the FS divided by N represents, okay, I hope this clarifies some
+
+259
+00:21:44,600 --> 00:21:50,200
+questions we have last time, if you're still confused you can ask me, right, but this is
+
+260
+00:21:50,200 --> 00:21:55,400
+important, it could be some of the questions you see in the final exam, so make sure you understand
+
+261
+00:21:55,400 --> 00:22:01,720
+what this resolution represents, and if not you can ask me now, okay, yes,
+
+262
+00:22:10,200 --> 00:22:11,080
+so it's it again,
+
+263
+00:22:11,400 --> 00:22:16,280
+which regards to the sampling frequency and the frequency samples, right,
+
+264
+00:22:16,280 --> 00:22:19,960
+sampling frequency and frequency samples,
+
+265
+00:22:27,800 --> 00:22:32,440
+I see, I see, okay, so his question is that well, looks like this resolution depends on two things,
+
+266
+00:22:32,440 --> 00:22:38,920
+right, sampling frequency and okay, the A is not number of samples, the A is how many points you
+
+267
+00:22:38,920 --> 00:22:45,960
+have for your DFT, okay, so A is nothing to do with sampling, like I mentioned, right, FS is
+
+268
+00:22:45,960 --> 00:22:52,520
+determined fully by the sampling process, the N has nothing to do with your sampling process,
+
+269
+00:22:52,520 --> 00:22:58,600
+it depends on what is your size of the transform, how many points you have for your DFT, all right,
+
+270
+00:22:58,600 --> 00:23:05,000
+remember DFT you always have to define, it's 8 point DFT or maybe 10 point DFT, that is the N,
+
+271
+00:23:05,000 --> 00:23:08,120
+all right, so back to your question, you're saying that there are two numbers,
+
+272
+00:23:08,120 --> 00:23:15,000
+drawn to the depend, decide the resolution, so how can I, what number should I play to increase
+
+273
+00:23:15,000 --> 00:23:19,720
+the resolution, right, that's basically your question, so it depends on which one you can control,
+
+274
+00:23:19,720 --> 00:23:25,080
+okay, so I give you one example, right, so right now I give you a sum-hold signal,
+
+275
+00:23:25,800 --> 00:23:30,920
+I give you a discreet signal, already discreet, if you want to increase the resolution,
+
+276
+00:23:31,000 --> 00:23:33,320
+can you change the FS?
+
+277
+00:23:36,600 --> 00:23:44,280
+No, because FS is, like I mentioned FS is already determined and 100% determined by the sampling,
+
+278
+00:23:44,920 --> 00:23:50,600
+okay, what is sampling, sampling is the process converting analog signal to discreet signal,
+
+279
+00:23:50,600 --> 00:23:57,240
+all right, that's the sampling, so if I already give you a discreet signal, that means I already
+
+280
+00:23:57,240 --> 00:24:03,480
+sampled for you, the sampling is happened, it's done, right, the FS is fixed, you cannot touch it,
+
+281
+00:24:04,280 --> 00:24:09,800
+so if I give you a discreet signal and if you want to increase the resolution, the only thing you
+
+282
+00:24:09,800 --> 00:24:16,840
+can do is just by increasing, sorry, increasing the N, right, so this is like, you cannot control
+
+283
+00:24:16,840 --> 00:24:21,320
+the FS, so you have no choice, you can only do the DM, so you can only do the N, right,
+
+284
+00:24:21,320 --> 00:24:27,160
+but sometimes if I give you an analog signal, I say hey, do something and give me a DFT spectrum,
+
+285
+00:24:27,880 --> 00:24:31,800
+and now you have the choice, you can choose to, well, I want to spend more commutational
+
+286
+00:24:31,800 --> 00:24:36,600
+resource to do a more frequent sampling, in other words, I'm actually increasing my,
+
+287
+00:24:37,400 --> 00:24:46,360
+oh, sorry, I want to, oh, sorry, I want to, let me see, yeah, I want to decrease my FS,
+
+288
+00:24:46,360 --> 00:24:51,160
+oh, yeah, I want to decrease my FS, so now you can choose, right, you want to play with N or
+
+289
+00:24:51,160 --> 00:24:55,080
+you want to play with FS, right, so you have two choice, but what that means you have to look at
+
+290
+00:24:55,080 --> 00:25:00,440
+the question, why, if the question gives you something already fixed FS, now you have no choice,
+
+291
+00:25:00,440 --> 00:25:06,120
+you have to do N, right, but in principle you can play with two, so I think this is the answer,
+
+292
+00:25:06,680 --> 00:25:10,760
+right, so, but then another question, you know, if I were you, I would ask, it's like, say,
+
+293
+00:25:10,760 --> 00:25:16,680
+how can I play with N, right, so if I give you a discrete signal, how can I actually increase the
+
+294
+00:25:16,680 --> 00:25:23,240
+N, exactly zero padding, right, we learned this last time, zero padding, so you still use that
+
+295
+00:25:23,240 --> 00:25:29,640
+discrete signal, right, but what you can do is you can actually make the signal like literally
+
+296
+00:25:29,640 --> 00:25:35,080
+longer by adding zero, all right, if I add zero I didn't change the nature of the signal, but
+
+297
+00:25:35,080 --> 00:25:41,480
+I can increase my number points of my DFT, right, that's where the zero padding comes from, right,
+
+298
+00:25:41,560 --> 00:25:43,720
+yes,
+
+299
+00:26:00,680 --> 00:26:05,560
+oh, you're saying that, okay, so your question is like, if I give you a discrete signal, right,
+
+300
+00:26:05,560 --> 00:26:09,960
+so I do zero padding, let's say I double the number of N, right, so I do DFT,
+
+301
+00:26:10,680 --> 00:26:17,240
+then I do IDFT, I get it back, right, so what will I get, it's going to give you a zero
+
+302
+00:26:17,240 --> 00:26:34,200
+padding version of the signal, no, no, no, okay, yes, exactly, okay, so that's a very good point,
+
+303
+00:26:34,200 --> 00:26:38,520
+so you're saying that, okay, she's saying that, okay, you talk about increasing N, right,
+
+304
+00:26:38,520 --> 00:26:43,960
+but what if I decrease N, okay, now the question is like, how exactly do you want to decrease the
+
+305
+00:26:43,960 --> 00:26:49,000
+N, right, you have several choices, one choice is that I can do sub-sampling, right, I can,
+
+306
+00:26:49,000 --> 00:26:54,840
+let's say I pick one point from every two points, so now you are doing another sampling, right,
+
+307
+00:26:54,840 --> 00:26:57,640
+later we're going to learn, maybe not this week, maybe next week, we're going to learn
+
+308
+00:26:57,640 --> 00:27:04,040
+multirate processing, so this is exactly what we mean by multirate processing, you further sample
+
+309
+00:27:04,040 --> 00:27:10,120
+the signal such that I'm going to decrease the rate, so this process is going to lose information,
+
+310
+00:27:10,120 --> 00:27:15,640
+right, because you only keep half of the signal, so yes, you cannot get it back, but what I want
+
+311
+00:27:15,640 --> 00:27:23,640
+to say is that DFT itself, it's a lossless process, but sub-sampling, yes, it's a lossy process,
+
+312
+00:27:24,440 --> 00:27:29,240
+I hope you can differentiate it too, right, so if I give you a signal, you don't touch the signal,
+
+313
+00:27:29,240 --> 00:27:34,760
+you just do DFT, you won't lose anything, the DFT is just changing the domain, you won't get
+
+314
+00:27:34,760 --> 00:27:40,520
+anything lost, and you can always get it back, because any DFT followed by the IDFT, you always
+
+315
+00:27:40,520 --> 00:27:45,880
+can get back to the original signal, right, no loss, but if you do any kind of a, you know,
+
+316
+00:27:45,880 --> 00:27:52,840
+truncation, sub-sampling, which you are going to destroy the signal itself, that process
+
+317
+00:27:52,840 --> 00:27:57,320
+introduce distortion, okay, that will give you some lossy, but the lossy part, it doesn't come
+
+318
+00:27:57,320 --> 00:28:03,240
+from the DFT, all right, so I hope this explains, okay, good points, but one thing I can ensure you
+
+319
+00:28:03,240 --> 00:28:07,240
+is zero padding is always safe, where you do zero padding, you got nothing to lose, you only increase
+
+320
+00:28:07,240 --> 00:28:13,640
+the resolution, and you can always get it back, okay, all right, good question, any other question
+
+321
+00:28:13,640 --> 00:28:19,640
+you want to ask? So my advice is that when you look, I mean, for example, if you go to exam,
+
+322
+00:28:19,640 --> 00:28:23,320
+right, or maybe even homework, I have given some question about the resolution, right,
+
+323
+00:28:23,320 --> 00:28:27,480
+first understand how do you compute the resolution, what determine the resolution,
+
+324
+00:28:27,480 --> 00:28:30,920
+the other thing is if you want to change the resolution, what can you do, right,
+
+325
+00:28:31,640 --> 00:28:37,160
+it's not always totally free, there's always some restriction, but make sure you know what can be
+
+326
+00:28:37,160 --> 00:28:42,280
+changed, and what cannot, right, this is very important, and I already show you one example,
+
+327
+00:28:42,280 --> 00:28:46,760
+right, so discrete signal, nothing, pretty much nothing you can do on the sampling process,
+
+328
+00:28:46,760 --> 00:28:54,920
+it's already sampled, right, okay, any other questions before I move on? Okay, good, so this
+
+329
+00:28:54,920 --> 00:29:00,200
+is the resolution, so basically the conclusion is that the smaller the better, right, so you want
+
+330
+00:29:00,200 --> 00:29:05,800
+to decrease this number to get a better resolution, then of course the wider the spacing, the poorer
+
+331
+00:29:05,800 --> 00:29:10,120
+the resolution, in other words, when I say wider the spacing means I'm increasing this one, right,
+
+332
+00:29:10,120 --> 00:29:14,120
+I mean increasing this quantity, I will get better poor resolution, just like when you do discrete
+
+333
+00:29:14,120 --> 00:29:20,760
+images, it's the same thing, right, so okay, I also get another question that says, well you see
+
+334
+00:29:20,760 --> 00:29:26,600
+that you want to, you can increase the resolution, but what is the sufficient resolution I should
+
+335
+00:29:26,600 --> 00:29:32,040
+expect, right, in other words, you know, I can keep increasing this end, I can keep zero padding,
+
+336
+00:29:32,040 --> 00:29:36,440
+I can make it better and better, you know, you know, more, how should I say, higher resolution,
+
+337
+00:29:36,440 --> 00:29:41,880
+but how can I know this resolution is good enough, right, is there a number that,
+
+338
+00:29:41,880 --> 00:29:47,640
+something like a nitrous rate, right, is there a number I have to ensure to have sufficient
+
+339
+00:29:47,640 --> 00:29:52,680
+resolution, all right, I mean the simple answer to that is I don't have a clear answer, you know,
+
+340
+00:29:53,400 --> 00:29:58,440
+there's nothing like say, you know, sufficient resolution, right, but I can show you one example,
+
+341
+00:29:59,560 --> 00:30:06,360
+kind of talk about how the resolution makes a difference in the image, sorry, in the signal
+
+342
+00:30:06,360 --> 00:30:11,800
+representation, right, so you can consider this example, originally, right, if this is your,
+
+343
+00:30:11,800 --> 00:30:16,360
+okay, we started from analog signal, right, analog signal means it's before sampling,
+
+344
+00:30:16,360 --> 00:30:21,080
+so before sampling, we're talking about a bi-level signal, in other words, the signal will be
+
+345
+00:30:21,080 --> 00:30:27,080
+kind of oscillating between one and minus one, right, in the period of two seconds, so in other
+
+346
+00:30:27,080 --> 00:30:33,080
+words, the frequency itself is actually 0.5, right, I mean this is actually the maximum frequency of
+
+347
+00:30:33,080 --> 00:30:43,720
+the signal, so the spectrum, if you do a, let me see, so this is your original signal, right,
+
+348
+00:30:43,720 --> 00:30:51,720
+so the spectrum should clearly define the spectrum of spikes, right, so basically what I wish to get
+
+349
+00:30:52,760 --> 00:31:00,200
+is the spectrum that can clearly show the spikes, right, so I can, now I can choose to
+
+350
+00:31:00,200 --> 00:31:07,320
+represent this using a DFT, right, so but I can do the DFT in the low-resolutional way,
+
+351
+00:31:07,320 --> 00:31:11,560
+or I can do the DFT in the high-resolutional way, right, depends on how many, you know,
+
+352
+00:31:11,560 --> 00:31:17,640
+ends you are going to use, right, so now this is actually so called high-resolutional DFT,
+
+353
+00:31:17,640 --> 00:31:24,600
+and normally we wish to see this pattern because the spectrum like this can actually show,
+
+354
+00:31:25,560 --> 00:31:31,000
+wait, wait, sorry, so I think this is wrong, okay, wait, wait, DFT, oh, I think what they're talking
+
+355
+00:31:31,000 --> 00:31:36,520
+about is that they want to have sufficient DFT such that when they get it back, right, they show
+
+356
+00:31:36,520 --> 00:31:42,040
+clearly the spikes, so basically they want to see the spikes such that the frequency is very clear
+
+357
+00:31:42,040 --> 00:31:47,800
+that what are the so-called harmonics of the signal, right, because this is a square wave,
+
+358
+00:31:47,800 --> 00:31:51,480
+so some of you may know that for a square wave you won't have like something like a signal,
+
+359
+00:31:51,480 --> 00:31:56,280
+so it's only like two spikes, you have multiple spikes, and some of the spikes are just multiple
+
+360
+00:31:56,280 --> 00:32:01,480
+of the base harmonics, right, but this is something like we wish to see because every
+
+361
+00:32:01,480 --> 00:32:07,240
+spike at the frequency actually clearly indicates the frequency, but if you have like a low resolution
+
+362
+00:32:07,240 --> 00:32:11,880
+and then you want to get it back from the DFT to DFT, you will have something like
+
+363
+00:32:11,880 --> 00:32:18,120
+not very sharp spikes, right, like this, so this is a case that you cannot resolve what exactly is
+
+364
+00:32:18,120 --> 00:32:23,160
+the frequency of those spikes due to the fact that when you do DFT, you don't have sufficient
+
+365
+00:32:23,880 --> 00:32:29,000
+spacing, right, I mean you don't have like a sufficient small spacing to describe what exactly
+
+366
+00:32:29,000 --> 00:32:34,600
+is the spikes, so it's all always about when you store that and later when you restore that from
+
+367
+00:32:34,600 --> 00:32:39,800
+the digital domain back to the analog domain, can you still resolve those specific spikes?
+
+368
+00:32:40,360 --> 00:32:47,080
+If yes, that means your DFT has sufficient, you know, resolution, if you get something like this
+
+369
+00:32:47,720 --> 00:32:52,840
+means that you probably need to increase your resolution such that those spikes can be further
+
+370
+00:32:52,840 --> 00:32:57,800
+resolved, right, but what exactly is the frequency, right, is a really hard, the resolution is really
+
+371
+00:32:57,800 --> 00:33:03,160
+hard to tell, depends on the signals, it also depends on your, I mean the waveform of the signal,
+
+372
+00:33:03,160 --> 00:33:08,280
+right, but I can, I mean here's one example to see that if you don't have sufficient resolution
+
+373
+00:33:08,280 --> 00:33:13,400
+and when you get it back to the analog domain, what could be wrong, right, you will have something
+
+374
+00:33:13,400 --> 00:33:19,800
+like this, like, you know, not very sharp spikes but something smooth which you cannot tell exactly
+
+375
+00:33:19,800 --> 00:33:25,800
+where the harmonics are, so this is just one example to visualize, right, the consequence of having
+
+376
+00:33:25,800 --> 00:33:32,840
+low resolution, right, okay, so actually what we haven't talked about last time if you remember
+
+377
+00:33:32,840 --> 00:33:37,480
+towards the end of the lecture, I say well there's something important called fast Fourier transform,
+
+378
+00:33:37,480 --> 00:33:42,840
+right, it's one of the most important, one of the most important invention in the signal processing
+
+379
+00:33:42,840 --> 00:33:49,400
+community last century, it's because, well, DFT is, you know, theoretically simple, right,
+
+380
+00:33:49,400 --> 00:33:55,080
+remember we had just this one line equation to describe the DFT, right, but it's not really
+
+381
+00:33:55,080 --> 00:34:01,080
+efficient enough for computation, right, because if, I hope you still remember, like, when you do
+
+382
+00:34:01,080 --> 00:34:07,320
+DFT you are doing a matrix multiplied by a vector, right, so for those of you who know
+
+383
+00:34:07,320 --> 00:34:12,760
+a linear algebra, you know that if you have an n-by-n matrix multiplied by an n-less vector,
+
+384
+00:34:13,320 --> 00:34:19,320
+you have to do n-square, number of multiplications, you have to do a row multiplier column,
+
+385
+00:34:19,320 --> 00:34:23,960
+another row multiplier column, so in total you have to do n-square, right, so n-square is not
+
+386
+00:34:23,960 --> 00:34:31,000
+already a very good complexity, right, so what FFT is trying to do is that they give you the same
+
+387
+00:34:31,000 --> 00:34:38,040
+result as DFT, okay, no approximation, it's the same result, but it's going to save you some
+
+388
+00:34:38,040 --> 00:34:44,200
+computation from n-square to n-log n, right, so that this is why FFT is amazing, because you
+
+389
+00:34:44,200 --> 00:34:49,880
+got nothing loose, you don't lose anything, but you gain the computational advantage, right,
+
+390
+00:34:49,880 --> 00:34:55,960
+that's why for most of the device you can think about, which have to do DFT, they are always
+
+391
+00:34:55,960 --> 00:35:01,240
+doing FFT, because it's a free lunch, you save the computation, and there's no compromise,
+
+392
+00:35:01,240 --> 00:35:06,760
+it's the same result, okay, then of course there are many people proposing algorithms
+
+393
+00:35:07,560 --> 00:35:14,040
+to speed up the frequency, a Fourier transform, right, so there are many, we're going to learn
+
+394
+00:35:14,040 --> 00:35:19,880
+one of them, we don't have to learn all, but one of them which is, I would say relatively easier to
+
+395
+00:35:19,960 --> 00:35:26,760
+understand, and also I will try to explain where the advantage come from, right, why we can save
+
+396
+00:35:26,760 --> 00:35:33,400
+this computational resource, so it's actually called RADX2 decimation method, okay, so later
+
+397
+00:35:33,400 --> 00:35:37,240
+you can tell why there's a two, right, why it's actually RADX2 decimation, because it's always
+
+398
+00:35:37,880 --> 00:35:44,760
+divide into two and solve everyone, you know, separately and merge, but they keep dividing,
+
+399
+00:35:44,760 --> 00:35:50,200
+right, so basically all of these principles are, all of these methods follow the divide
+
+400
+00:35:50,200 --> 00:35:55,000
+and conquer principle, okay, so you have a complicated problem, you cannot solve that
+
+401
+00:35:55,000 --> 00:36:00,120
+directly, you divide it into multiple simpler problems, and you solve each of them, right,
+
+402
+00:36:00,120 --> 00:36:05,320
+this is basically what divide and conquer means, okay, so the fundamental, right, I can mention
+
+403
+00:36:06,760 --> 00:36:12,280
+is to divide the, let's say endpoints, where you have a signal of endpoints, I can directly do
+
+404
+00:36:12,280 --> 00:36:18,040
+endpoint DFT, but I don't want to do it, that's too expensive, so the idea here is to divide
+
+405
+00:36:18,040 --> 00:36:23,720
+the endpoint into two and keep dividing that, okay, until you have a single point, okay, why,
+
+406
+00:36:23,720 --> 00:36:28,200
+because single point, I don't know how many of you realize that, but a single point signal,
+
+407
+00:36:28,200 --> 00:36:35,080
+if you do DFT is going to be itself, I'm talking about a single point signal, if you do DFT is
+
+408
+00:36:35,080 --> 00:36:40,760
+going to be itself, no change, all right, so you, so basically the principle is to keep dividing
+
+409
+00:36:40,760 --> 00:36:46,920
+the signal into two, such that we're going to end up with a single point, so to do so we have to
+
+410
+00:36:46,920 --> 00:36:54,680
+assume that the signal will have the length equal to two to power of something, because only that
+
+411
+00:36:54,680 --> 00:37:00,040
+you can keep dividing by two, right, to reach the single point, some of you may ask me, hey,
+
+412
+00:37:00,040 --> 00:37:04,200
+there will happen if my a is not equal to two to power of something, you do zero padding,
+
+413
+00:37:04,840 --> 00:37:09,640
+you do zero padding to make it two to power of something, right, so this is actually the assumption,
+
+414
+00:37:09,800 --> 00:37:16,040
+we assume that we are dealing with a signal with the length equal to two to power of something,
+
+415
+00:37:16,040 --> 00:37:23,480
+like two, four, eight, 16, 32, 64, 128, right, these numbers, and then we want to keep dividing that
+
+416
+00:37:23,480 --> 00:37:28,840
+into from n to n divided by two to n divided by four and divided by eight, right, so imagine this
+
+417
+00:37:28,840 --> 00:37:33,720
+is the original signal, you want to divide that into two and then for every signal, every section
+
+418
+00:37:33,720 --> 00:37:38,600
+you also divide it by two and then divide it, right, so kind of dividing into every single pieces,
+
+419
+00:37:38,600 --> 00:37:44,920
+okay, so why we're going to do this is because we believe that by doing so the processing time
+
+420
+00:37:44,920 --> 00:37:50,680
+for every small piece of the signal will be very cheap, okay, so this is actually the fundamental
+
+421
+00:37:50,680 --> 00:37:56,680
+principle, so let me show you how, right, so consider you have a signal xn, okay, and this of
+
+422
+00:37:56,680 --> 00:38:02,360
+course this xn is in the time domain, right, every time I use the lower case, I'm always use the
+
+423
+00:38:02,360 --> 00:38:08,120
+lower case to represent time domain just for convention, right, so here all the lower case x
+
+424
+00:38:08,120 --> 00:38:14,360
+and y, these are talking about the time domain, all right, upper case, I normally refer to frequency
+
+425
+00:38:14,360 --> 00:38:18,760
+domain, all right, because right now both of them are discrete, but we have to somehow differentiate
+
+426
+00:38:18,760 --> 00:38:23,640
+that, so I use the lower case for time, upper case for frequency, all right, so I started the ways
+
+427
+00:38:23,640 --> 00:38:29,960
+endpoint time domain, discrete time signal, okay, so what I'm doing now is I'm going to divide it
+
+428
+00:38:30,920 --> 00:38:37,240
+into the even index and all the index, okay, I'm not doing like I say first half, second half,
+
+429
+00:38:37,240 --> 00:38:43,560
+I'm doing that say number zero, number two, number four, number six goes to the zero even index
+
+430
+00:38:43,560 --> 00:38:49,240
+sample, all right, and all of the, all the index sample number one, number three, number five,
+
+431
+00:38:49,240 --> 00:38:56,920
+number seven goes to the z, okay, so now I'm going to divide x which is n length into y and z,
+
+432
+00:38:57,800 --> 00:39:04,120
+so each of the y and z will have n divided by two length, n divided by two points, okay,
+
+433
+00:39:06,600 --> 00:39:10,280
+is it clear for everyone, like, you know how to divide a sequence into odd number,
+
+434
+00:39:10,840 --> 00:39:17,320
+odd sequence, even, sorry, odd index, even index, all right, so if I do this, right, I'm going to
+
+435
+00:39:17,320 --> 00:39:26,120
+end up with two subsequence, y and n, so y equal to x2n, okay, z and equal to x2n plus one,
+
+436
+00:39:27,480 --> 00:39:33,880
+all right, and the correspondingly, the dft of the x by definition will be this, right, I'm just
+
+437
+00:39:33,880 --> 00:39:42,600
+using the definition of dfs, okay, but here I can divide this guy, xn, into the two subsequence,
+
+438
+00:39:42,600 --> 00:39:49,240
+right, remember this is your y, this is your z, so I'm going to separate the two, right, so separate
+
+439
+00:39:49,240 --> 00:39:55,560
+this guy into here and here, okay, how can I separate that, well because this summation
+
+440
+00:39:56,120 --> 00:40:01,320
+cover all the n, all the choice of n, so summation is nothing but summing n terms together, right,
+
+441
+00:40:01,320 --> 00:40:06,760
+I just separate the summation into two summation, so all the, all term summation goes to the second
+
+442
+00:40:06,760 --> 00:40:13,240
+term, all of the even term summation goes to the first term, so I'm going to have two, like how
+
+443
+00:40:13,240 --> 00:40:20,840
+should I say, a varied version of dft, okay, and in fact these two will be the correspondingly,
+
+444
+00:40:20,840 --> 00:40:28,760
+the dft of y and dft of z multiplied by a phase shift, right, a factor here, but this factor is
+
+445
+00:40:28,760 --> 00:40:33,400
+nothing but just a phase shift, you just multiply by e to the power of something, it doesn't change
+
+446
+00:40:33,400 --> 00:40:40,680
+the magnitude, only change the phase, all right, so by doing so originally I have to do a dft for
+
+447
+00:40:40,680 --> 00:40:47,000
+my n point signal, now I can only, I can just need to do an n divided by two point dft for y
+
+448
+00:40:47,720 --> 00:40:55,000
+and n divided by t point of z, and just sum them together, right, and if you realize that if the
+
+449
+00:40:55,000 --> 00:41:03,320
+dft complex is n square, okay, I make it divided by two, so every side I will save one over four,
+
+450
+00:41:03,320 --> 00:41:08,520
+so I will get only one over four ratio of complex, right, I got one over four, one over four, sum
+
+451
+00:41:08,520 --> 00:41:15,000
+together, I got one over two, so I already saved half of the commutation, if the dft is actually n
+
+452
+00:41:15,000 --> 00:41:22,920
+square, okay, I hope this makes sense, so think about the dft, right, the dft as we explained last
+
+453
+00:41:22,920 --> 00:41:29,080
+week is nothing but a matrix multiplier vector, right, if you do a matrix multiplier vector,
+
+454
+00:41:29,080 --> 00:41:34,920
+the number of multiplication you need to do is n square, right, I suppose we have four points,
+
+455
+00:41:34,920 --> 00:41:39,480
+right, if it's four points I have to do four square number of multiplication, which is 16,
+
+456
+00:41:40,280 --> 00:41:45,640
+if I do directly the dft, now I divided the four point into two point and two point, okay,
+
+457
+00:41:46,520 --> 00:41:53,000
+two point dft only need four operations, so I got four plus four is eight,
+
+458
+00:41:53,000 --> 00:41:57,400
+so I'm reducing 16 to eight, this is how I can save commutation,
+
+459
+00:42:00,360 --> 00:42:04,840
+make sense, okay, so I'm not finished, I'm just saying that where the saving come from,
+
+460
+00:42:04,840 --> 00:42:11,400
+saving come from here, right, as you can see just by one stage of division I already saved
+
+461
+00:42:11,480 --> 00:42:19,000
+something, I saved half, okay, but let's complete, right, so right now I can divide the original
+
+462
+00:42:19,000 --> 00:42:26,920
+dft into two parts, right, so this is my first part in terms of x, right, so my x can, I can
+
+463
+00:42:26,920 --> 00:42:32,840
+look at my first n divided by two number of spectrum in my dft and then the second n divided
+
+464
+00:42:32,840 --> 00:42:39,880
+by two spectrum, so the first n divided by two spectrum can be written as this, which is the
+
+465
+00:42:39,880 --> 00:42:46,120
+form I just explained, right, in principle I can also represent the second half with the same number,
+
+466
+00:42:47,000 --> 00:42:54,040
+same form, but remember y and z only have n divided by two points, right, so basically I can only
+
+467
+00:42:54,040 --> 00:42:59,640
+assign value of k all the way until n divided by two minus one, so how can I represent the second
+
+468
+00:42:59,640 --> 00:43:06,200
+half of my dft spectrum, I can use the periodic property, right, I can do k plus n divided by two,
+
+469
+00:43:06,760 --> 00:43:13,320
+it's going to be periodic, right, so by adding this I can make the y and z into the second period,
+
+470
+00:43:13,320 --> 00:43:19,000
+so this is how I can represent the second half of my original spectrum, dft spectrum,
+
+471
+00:43:20,280 --> 00:43:27,960
+so once I have the y and z I have no problem representing my original xk and this is how you
+
+472
+00:43:27,960 --> 00:43:38,200
+can do it, all right, okay, think about it, right, so this equation explains to you how or why I can
+
+473
+00:43:38,200 --> 00:43:46,280
+represent x in terms of mathematics using, not directly using the xk, but indirectly using the
+
+474
+00:43:46,280 --> 00:43:53,640
+dft of the y and z, okay, this is how I derive it, okay, what I'm doing is just follow definition,
+
+475
+00:43:53,640 --> 00:44:00,040
+separate the summation to two terms and just naturally end it up here, right, but the issue
+
+476
+00:44:00,040 --> 00:44:06,840
+here is that y and z are both n divided by two term, sorry, n divided by two points, all right,
+
+477
+00:44:06,840 --> 00:44:15,800
+so my job is to represent the entire n point x, right, xk, so I will use the y and z original
+
+478
+00:44:15,800 --> 00:44:22,920
+period to represent the xk for up to n divided by two minus one, the first half of the spectrum,
+
+479
+00:44:23,400 --> 00:44:28,600
+the second half of the spectrum I can do periodic extension of y and z to cover that,
+
+480
+00:44:29,400 --> 00:44:36,600
+right, mathematically it's the same, but I just use the second period to do it, all right, and for
+
+481
+00:44:36,600 --> 00:44:43,560
+simplicity I can even represent this phase shift as the wn which is equal to e to the power of
+
+482
+00:44:43,560 --> 00:44:49,160
+minus j two pi divided by n, just for simplicity, I just use a dummy variable to replace that,
+
+483
+00:44:49,720 --> 00:44:55,720
+such that I can re-represent this guy in a cleaner way, right, in this way, so you realize
+
+484
+00:44:55,720 --> 00:45:04,280
+that when I represent xk, I just need to have yk and zk plus or minus some phase shift, right,
+
+485
+00:45:04,280 --> 00:45:09,160
+of course this term the k will change, right, the k depends on which index you are talking about,
+
+486
+00:45:09,160 --> 00:45:15,960
+right, but once I have the y and z and some kind of multiplier, I have no problem representing
+
+487
+00:45:15,960 --> 00:45:29,720
+the original x, okay, so does it make sense for everyone, yes, which one, top one or bottom one,
+
+488
+00:45:30,600 --> 00:45:45,720
+both of them, okay, yes, it's all information,
+
+489
+00:45:45,720 --> 00:45:50,440
+you're right, so I didn't do anything else, right, like you mentioned, right, y and z,
+
+490
+00:45:50,440 --> 00:45:55,720
+originally the time domain are nothing but sub-sub-sampling of the time of the x, right,
+
+491
+00:45:55,720 --> 00:45:59,960
+so the only thing I do is kind of I extract a sub-sequence from x to be y,
+
+492
+00:46:03,240 --> 00:46:10,680
+matrix, right, sounds like 18 to 8, 16 to 8, is something like some information between
+
+493
+00:46:11,640 --> 00:46:15,400
+oh you mean matrix, oh the matrix itself,
+
+494
+00:46:29,240 --> 00:46:34,440
+let me clarify, when you say information, if I talk about the signal, no information missing,
+
+495
+00:46:35,400 --> 00:46:39,000
+okay, we have the differentiate, are you talking about the transform or the signal,
+
+496
+00:46:39,560 --> 00:46:44,920
+right, if it's a signal, nothing missed, because what I'm doing here is I'm separating the old
+
+497
+00:46:44,920 --> 00:46:51,720
+sequence out there as the y, sorry, even as the y, all as the z, right, so all the original
+
+498
+00:46:51,720 --> 00:46:56,840
+signal would be covered by either y or z, so nothing lose, okay, if your question is asking,
+
+499
+00:46:56,840 --> 00:47:02,440
+okay, I'm reducing a 16 by 16 matrix to 8 by 8 matrix, am I losing something,
+
+500
+00:47:03,400 --> 00:47:09,000
+yes, because you're making a smaller matrix, but remember DFT contains no information on the
+
+501
+00:47:09,000 --> 00:47:15,880
+signal, right, the transform itself is a transform, it's a it's a rule, right, you specify hey this
+
+502
+00:47:15,880 --> 00:47:23,320
+guy called DFT, the DFT itself has nothing to do with the signal, the result of DFT depends on the
+
+503
+00:47:23,320 --> 00:47:39,080
+signal, yes, with signal, yes, WNK only to do with N and K, okay, so very good question, so
+
+504
+00:47:39,080 --> 00:47:45,240
+there's a misunderstanding when I say DFT, right, DFT itself just referred to the matrix,
+
+505
+00:47:45,800 --> 00:47:53,080
+so DFT is fully determined by the N, okay, we're talking about the matrix,
+
+506
+00:47:53,800 --> 00:47:59,720
+if I'm talking about 8-point DFT, that matrix is fixed, nothing to do with the signal,
+
+507
+00:48:01,000 --> 00:48:09,160
+but if we're talking about the DFT over signal, we are multiplying the matrix with the vector,
+
+508
+00:48:09,160 --> 00:48:15,320
+that result depends on the signal. So they may be, it's a different like a matrix, different size
+
+509
+00:48:15,320 --> 00:48:22,120
+of matrix, but after they complete the function, it should be the same function as signal, is that
+
+510
+00:48:22,120 --> 00:48:27,720
+complete the function should be, you mean, so when you write down the matrix with all the signal you
+
+511
+00:48:27,720 --> 00:48:33,880
+need, and you just like simplify the matrix or something, and you write the same function as
+
+512
+00:48:34,840 --> 00:48:41,400
+Yes, yes, yes, but I think you made a very good point, I want to maybe, I don't know how many of
+
+513
+00:48:41,400 --> 00:48:44,600
+you have the similar question, right, when I learned this I have this question to be honest,
+
+514
+00:48:44,600 --> 00:48:48,600
+right, I didn't really differentiate very clearly, but I think it's better to mention this, let's go
+
+515
+00:48:48,600 --> 00:48:53,240
+back to the slides I talked about last week, since you know you have this question, what I'm talking
+
+516
+00:48:53,240 --> 00:48:58,360
+about is the matrix, the matrix I'm talking about is this guy, I hope you still remember, right,
+
+517
+00:48:58,360 --> 00:49:03,400
+this guy, so we started by this equation, okay, we started by this equation,
+
+518
+00:49:05,800 --> 00:49:11,000
+okay, so this is the definition, right, this is called the forward Fourier transform,
+
+519
+00:49:11,000 --> 00:49:17,160
+where how you can convert a time domain to frequent domain, right, but we say that because both of
+
+520
+00:49:17,160 --> 00:49:24,040
+x and n are n points, right, so instead you can either choose to write let's say n equations,
+
+521
+00:49:24,920 --> 00:49:30,760
+I mean you can write a equation because k has to be equal to 0, 1, 2, all the way to n minus 1,
+
+522
+00:49:30,760 --> 00:49:37,240
+we're saying that if you want to represent all the xk in one shot, you can use this matrix
+
+523
+00:49:37,240 --> 00:49:42,840
+vector form, all right, why this is true, because by definition, right, if I multiply a matrix with
+
+524
+00:49:42,840 --> 00:49:48,600
+a vector, I'm doing nothing but multiplying the first row with this vector and get the first
+
+525
+00:49:48,600 --> 00:49:55,880
+coefficient, right, so this is exactly the x0, xk equal to 0 case, right, equal to the
+
+526
+00:49:55,880 --> 00:50:04,840
+all the Fourier DFT, right, and this is k equal to 1, x1 equal to the DFT, so when I'm saying
+
+527
+00:50:04,840 --> 00:50:13,720
+that 16 point DFT, I'm only talking about this matrix, okay, this matrix is literally called
+
+528
+00:50:13,720 --> 00:50:21,480
+the DFT, discrete Fourier transform, and in mathematics, when we say a transform,
+
+529
+00:50:21,480 --> 00:50:27,480
+it always a matrix, you can always represent a linear transform, let's make it straight, okay,
+
+530
+00:50:27,480 --> 00:50:34,040
+linear transform as a matrix, all right, Laplace transform, right, cosine transform,
+
+531
+00:50:34,040 --> 00:50:39,720
+they're always a matrix, so the transform itself, if it's a linear, should have nothing to do with
+
+532
+00:50:39,720 --> 00:50:45,160
+the signal, it's a fix, it's a fixed one, if you look at this form, right, the coefficients in this
+
+533
+00:50:45,160 --> 00:50:53,800
+w, do you see anything to do with the signal, no, because wn, right, this guy is fully determined
+
+534
+00:50:53,800 --> 00:51:00,280
+by the n and the coefficient, nothing, anything to do with my x, no, nothing to do with my x,
+
+535
+00:51:01,000 --> 00:51:06,520
+so you can construct any size of the transform, whatever you want, let's say 16 point, 8 point,
+
+536
+00:51:07,480 --> 00:51:14,520
+16 or 8 just change the n, right, so what I'm saying is that instead of doing a 16 by 16
+
+537
+00:51:14,520 --> 00:51:19,960
+DFT directly, what I just talk about is by reducing the transform into 8 by 8 transform,
+
+538
+00:51:22,360 --> 00:51:23,080
+does it make sense?
+
+539
+00:51:27,080 --> 00:51:30,040
+I changed the factor, yes, but I didn't change the signal, right, the signal is,
+
+540
+00:51:30,040 --> 00:51:32,760
+you still preserve the signal, I don't touch the signal,
+
+541
+00:51:33,480 --> 00:51:42,200
+no, I changed the points, I changed the n point, remember n is the denominator,
+
+542
+00:51:42,200 --> 00:51:47,320
+the n is not fs, right, fs is the sampling frequency, sampling frequency only determining
+
+543
+00:51:47,320 --> 00:51:52,600
+the conversion between analog to discrete, now here what I, what I think I talk about
+
+544
+00:51:52,600 --> 00:51:58,040
+nothing to do with the sampling, just the points, number of points I have for my DFT, right,
+
+545
+00:51:58,040 --> 00:52:05,640
+is it clear, I mean I just want to make it clear, when I say transform I'm talking about
+
+546
+00:52:05,640 --> 00:52:13,480
+this guy, all right, you can apply a transform to a signal, time domain signal to get its
+
+547
+00:52:13,480 --> 00:52:19,160
+spectrum, right, this is called spectrum, this is called the time domain signal, this is called DFT,
+
+548
+00:52:19,800 --> 00:52:22,840
+right, yes,
+
+549
+00:52:32,760 --> 00:52:37,320
+you are using a symmetric property to do the computational, to gain the advantage,
+
+550
+00:52:37,960 --> 00:52:44,040
+yes, exactly, so her question is that, okay, what we're doing, so basically maybe I translated it
+
+551
+00:52:44,040 --> 00:52:48,440
+in another way, right, so why we can gain this, right, the result, the gain cannot come from
+
+552
+00:52:48,440 --> 00:52:54,600
+nowhere, right, why exactly we can gain the computational advantage, indeed the reason
+
+553
+00:52:54,600 --> 00:52:59,480
+is that when I do this computation, remember, if I'm doing this exactly, I need to compute,
+
+554
+00:53:00,040 --> 00:53:04,840
+let's say the first row multiplied by the column, right, second row multiplied by the column,
+
+555
+00:53:04,840 --> 00:53:10,440
+I have to do exactly n squared number of multiplication, but why, because I don't do
+
+556
+00:53:10,440 --> 00:53:14,360
+anything, I don't lose anything, right, why exactly by doing this massage of the equation,
+
+557
+00:53:14,440 --> 00:53:18,920
+I can save something suddenly, you're right, exactly, there's some symmetric property,
+
+558
+00:53:18,920 --> 00:53:22,040
+I don't know if you can tell, right, this matrix is actually symmetric,
+
+559
+00:53:23,240 --> 00:53:29,000
+why is it symmetric, I mean, along this diagonal elements, right, all of these numbers are same,
+
+560
+00:53:29,000 --> 00:53:35,480
+right, here's W n square, this is also W n square, so when I apply this row and later when I apply
+
+561
+00:53:35,480 --> 00:53:42,200
+this row, I'm doing some redundant computation, I'm doing sometimes the same multiplication
+
+562
+00:53:42,200 --> 00:53:49,880
+multiple times, right, and basically why FFT works is giving you a smarter way to avoid
+
+563
+00:53:50,440 --> 00:53:57,160
+the repeating computation, so this is exactly where the saving comes from, right, it's due
+
+564
+00:53:57,160 --> 00:54:00,600
+to the fact that this matrix is not a random matrix, right, if I give you a random matrix,
+
+565
+00:54:00,600 --> 00:54:05,320
+then no hope you can save it, you have to do exactly all the things, but this matrix is a
+
+566
+00:54:05,320 --> 00:54:10,680
+highly structured, and this structure tells you something to save the computation smartly, right,
+
+567
+00:54:12,680 --> 00:54:18,680
+all right, but I want to make it clear, right, so when I say changing from, you know, n point to
+
+568
+00:54:18,680 --> 00:54:25,480
+n divided by two points, DFT, I'm talking about shrinking the size of the matrix, right, it doesn't
+
+569
+00:54:25,480 --> 00:54:31,400
+mean I lose anything because I'm going to still, let's say, separate the input elements, right,
+
+570
+00:54:31,400 --> 00:54:38,200
+into like these two guys goes to Y, here, here goes to Z, right, I'm still processing every
+
+571
+00:54:38,200 --> 00:54:46,520
+single number in my input signal, I didn't lose anything, right, okay, makes sense, all right,
+
+572
+00:54:46,520 --> 00:54:50,360
+if you have any question I can answer because, you know, I know some of you are very familiar with
+
+573
+00:54:50,360 --> 00:54:54,280
+this, if I say too much, you probably think I'm just, you know, wasting time, right, but
+
+574
+00:54:54,280 --> 00:54:59,720
+if you find something you feel uncomfortable, you want me to repeat, I'm perfectly fine to explain,
+
+575
+00:54:59,720 --> 00:55:05,080
+right, actually I would rather you ask me than we settle this before moving on, okay,
+
+576
+00:55:05,720 --> 00:55:12,920
+okay, everybody's clear, like, is it better? Good, good, okay, so let's go back to our business,
+
+577
+00:55:12,920 --> 00:55:19,320
+right, so we end up here, so we're saying that by using this dividing and the conquer strategy,
+
+578
+00:55:19,320 --> 00:55:26,440
+we can, let's say, dividing the original n point DFT, okay, let me use the pointer,
+
+579
+00:55:27,240 --> 00:55:32,360
+original n point DFT, if you want to directly use that big matrix, you have to do n point,
+
+580
+00:55:32,360 --> 00:55:40,280
+right, into a smarter way to compute y and z separately, right, y and z themselves, the length
+
+581
+00:55:40,280 --> 00:55:47,880
+or number points are only half, okay, because of that doing them is much easier than doing x directly,
+
+582
+00:55:48,920 --> 00:55:54,840
+okay, so you can do this but you may not stop there because you can do the exact same thing to
+
+583
+00:55:54,840 --> 00:56:01,640
+y and z, right, if I can save for x, now why should I do DFT for y and z, I can still do
+
+584
+00:56:01,640 --> 00:56:06,280
+doing a dividing for them as well, right, exactly the same thing, I can go from n divided by 2 to
+
+585
+00:56:06,280 --> 00:56:13,000
+n divided by 4, then keep dividing until I reach a single point, so this equation only shows you
+
+586
+00:56:13,000 --> 00:56:21,560
+the step from n to n divided by 2, but I can keep doing this, okay, so what you will have is, okay,
+
+587
+00:56:21,560 --> 00:56:26,760
+let's, this is actually the, okay, let's forget about keep doing, right, just look at this step,
+
+588
+00:56:26,760 --> 00:56:31,960
+so I can show you the mathematical equation of this step, okay, so mathematically this is,
+
+589
+00:56:31,960 --> 00:56:38,520
+this is what happened, I can also use a diagram to show you the exactly the same procedure,
+
+590
+00:56:38,520 --> 00:56:45,720
+so this diagram is exactly the same as this equation, okay, the only difference is that I'm
+
+591
+00:56:45,720 --> 00:56:54,280
+representing y and z as the input signal here, okay, so imagine this is my y0, my y1, blah blah
+
+592
+00:56:54,280 --> 00:57:00,760
+all the way to y and n divided by, sorry, n divided by 2 minus 1, right, so I'm input them into the
+
+593
+00:57:00,760 --> 00:57:07,560
+system, okay, so let's say if I want to get x0, right, if I want to get x0, I should get x0 equal
+
+594
+00:57:07,560 --> 00:57:16,360
+to y0 plus w to the power of 0 times z0, right, so in the graph you can find that this guy equal
+
+595
+00:57:16,360 --> 00:57:25,720
+to y0, right, the directly go here, sum up with the z0 multiplied by wn to the power of 0 sum
+
+596
+00:57:25,720 --> 00:57:31,960
+together, so this branch is corresponding to the equation, the first equation with k equal to 0,
+
+597
+00:57:33,080 --> 00:57:40,360
+all right, and then exactly the x1 here and here we're corresponding to the first equation
+
+598
+00:57:40,360 --> 00:57:49,080
+with k equal to 1, right, I'm just representing the mathematical equation using this so-called
+
+599
+00:57:49,080 --> 00:57:56,360
+diagram, okay, so later you will learn that this diagram is called block diagram, okay, why we love
+
+600
+00:57:56,360 --> 00:58:02,520
+it is because this is very good for design, right, because eventually mathematical form is for us to
+
+601
+00:58:02,520 --> 00:58:06,680
+understand, right, but later you want to understand something for manufacture, right, you cannot show
+
+602
+00:58:06,680 --> 00:58:11,160
+them the equation, you have to show them, okay, how exactly the signal is passed into from stage
+
+603
+00:58:11,160 --> 00:58:17,400
+to stage, right, so this diagram show you the signal going from stage one to stage two, right,
+
+604
+00:58:17,400 --> 00:58:22,280
+this is called block diagram, and normally the block diagram will have some fundamental components
+
+605
+00:58:22,280 --> 00:58:29,000
+like summation, you know, multiplications, and these are very easy to implement, right, in the
+
+606
+00:58:29,000 --> 00:58:33,960
+circuit design, right, circuit, you know, desired, you know, how should I say, future design or
+
+607
+00:58:33,960 --> 00:58:40,040
+circuit design, right, but this diagram is the same representation, sorry, equivalent to representation
+
+608
+00:58:40,040 --> 00:58:46,680
+as the mathematical form, okay, all right, so why we want to do this, I mean, why we want to use the
+
+609
+00:58:46,680 --> 00:58:52,440
+diagram to represent this stage, because I want to keep doing that, right, I want to go from
+
+610
+00:58:52,440 --> 00:59:00,920
+this stage into the other stage, right, for example, I already decompose my x into your y and the z,
+
+611
+00:59:00,920 --> 00:59:07,320
+right, I can do the same thing for y by further dividing the y into, let's say, y2 and z2,
+
+612
+00:59:08,600 --> 00:59:13,000
+same for z, right, but basically you have to do them in the corresponding way, and then, you know,
+
+613
+00:59:13,000 --> 00:59:19,080
+I can further divide my y2 into, you know, original signal, right, so you can keep dividing the
+
+614
+00:59:19,640 --> 00:59:26,360
+m point to m divided by 2 and divided by 4 until you have a single length signal, okay,
+
+615
+00:59:27,080 --> 00:59:30,280
+then you cannot divide anymore, right, it's only one point, nothing to divide,
+
+616
+00:59:30,840 --> 00:59:37,080
+but the good thing is, if you have a one point signal, the DFT of that is equal to itself,
+
+617
+00:59:37,080 --> 00:59:42,600
+so you can do nothing, you just leave it, that signal originally is the spectrum of itself,
+
+618
+00:59:43,800 --> 00:59:49,320
+right, so this is how you can, all the way starting from time domain, but you have to reshuffle that,
+
+619
+00:59:49,320 --> 00:59:55,480
+remember, the order is not 0, 1, 2, 3, it's actually 0, 4, 2, 6, okay, so this is something
+
+620
+00:59:55,480 --> 01:00:01,080
+people normally make a mistake, all right, this is not in the original order, but you can keep
+
+621
+01:00:01,080 --> 01:00:08,040
+doing this 2-point FFT three times to reach your 8-point output, because 2 to the power of 3
+
+622
+01:00:08,040 --> 01:00:16,200
+equal to 8, right, if you want to reach 16-point, you have to do four stages, all right, but the
+
+623
+01:00:16,200 --> 01:00:21,240
+principle is that you do not do the transform directly, but you divide and conquer until you
+
+624
+01:00:21,240 --> 01:00:26,440
+cannot divide anymore, right, so when you design this, you have to go from the output all the way
+
+625
+01:00:26,440 --> 01:00:31,960
+to input, but when you apply that, of course, you go from input to output, right, this is how the
+
+626
+01:00:31,960 --> 01:00:38,520
+so-called butterfly form come from, this is called butterfly form, by the way, so you can do this
+
+627
+01:00:38,520 --> 01:00:43,160
+in the 2-point division, sometimes people also do 3-point division, right, but for this class,
+
+628
+01:00:43,160 --> 01:00:49,160
+let's stick to 2-point, I don't want to complicate the story, right, but basically this is how you
+
+629
+01:00:49,160 --> 01:00:56,360
+can save computation and you can somehow, later I will show you, right, so you can actually go from
+
+630
+01:00:56,360 --> 01:01:04,600
+n-square to n-log n, okay, so, okay, so if you do DFT directly, you got n-square, right, and then
+
+631
+01:01:04,600 --> 01:01:12,520
+every stage, you should have n number of operation, all right, why, because every stage, you have to
+
+632
+01:01:12,520 --> 01:01:17,080
+do one multiplication, right, this is minus one, this is multiple, sorry, this is multiplied by
+
+633
+01:01:17,080 --> 01:01:23,400
+one, this is multiplied by w to n, w to power of zero, right, so for every stage, you have to do
+
+634
+01:01:23,400 --> 01:01:31,960
+exactly n number of multiplication, okay, how many stage actually is log n stage, all right, so
+
+635
+01:01:31,960 --> 01:01:37,880
+suppose n is 8, right, log n equal to 3, so this is where the n-log n come from, right, every stage
+
+636
+01:01:37,880 --> 01:01:44,680
+you need n number of operation, you have log n number of stages, right, this is where the come
+
+637
+01:01:44,680 --> 01:01:51,720
+from, but we'll get there, right, but I use this slide to show you the example of 8-point, right,
+
+638
+01:01:51,720 --> 01:01:57,800
+so you can read this, but they show you the step-by-step division from 8-point all the way to
+
+639
+01:01:57,800 --> 01:02:03,640
+the 2-point FFT, okay, but I won't repeat this, but you can use this example as a practice, right,
+
+640
+01:02:03,640 --> 01:02:09,400
+to see whether you do truly understand the divide and conquer strategy of this 2-point, sorry,
+
+641
+01:02:09,400 --> 01:02:15,720
+radix 2-point FFT process, all right, but it's the same principle, right, this is, I really
+
+642
+01:02:15,720 --> 01:02:20,760
+showed you the 8-point, but you can go through this mathematics process to understand how exactly you
+
+643
+01:02:20,760 --> 01:02:28,600
+can go from 8-point FFT to 4-point FFT to gradually reduce it, okay, yes,
+
+644
+01:02:28,600 --> 01:02:42,120
+sorry, tell me about what? Symmetric, okay,
+
+645
+01:02:47,000 --> 01:02:51,880
+we are totally ignoring the, what, negative frequency, or negative frequency,
+
+646
+01:02:52,840 --> 01:03:01,240
+for DFT, it doesn't really matter, for DFT, it's always fixed length, right, because, and also,
+
+647
+01:03:01,240 --> 01:03:06,280
+even if you are careful of negative frequency, it's symmetric, it's periodic, you can just do
+
+648
+01:03:06,280 --> 01:03:11,000
+another period to cover the negative frequency if you want, right, so it really doesn't matter,
+
+649
+01:03:11,000 --> 01:03:16,520
+we only care about that endpoints, right, this is the principle of DFT, you have endpoint input,
+
+650
+01:03:16,520 --> 01:03:21,960
+you only care about endpoint output, you can cover any frequency by simply repeating the same
+
+651
+01:03:21,960 --> 01:03:32,840
+pattern, yes, okay, good, any other questions? Okay, good, so this is the derivation of FFT,
+
+652
+01:03:32,840 --> 01:03:41,400
+right, and also, this is one example to show you numerically, right, if I give you a time domain
+
+653
+01:03:41,400 --> 01:03:50,680
+signal as 0, 1, 2, 3, 4, 5, 6, 7, right, 8-point, how I can use my, you know, butterfly diagram to
+
+654
+01:03:50,680 --> 01:03:56,520
+generate the output, okay, I mean, again, I won't go through this because you have to try this number
+
+655
+01:03:56,520 --> 01:04:02,200
+by number, but I will leave this as exercise for you, but it's a practice for you to experience,
+
+656
+01:04:02,200 --> 01:04:09,480
+right, how the numbers can gradually go from the input by doing every stage to reach the output,
+
+657
+01:04:09,480 --> 01:04:15,160
+okay, okay, I probably want to test you on those kind of tricky numbers in the exam, but
+
+658
+01:04:15,160 --> 01:04:19,240
+you need to know the principle, okay, even if I give you a question, the number will be
+
+659
+01:04:19,240 --> 01:04:23,640
+relatively simple, trust me, right, but you need to know the principle, right, how this division
+
+660
+01:04:23,640 --> 01:04:30,680
+is actually works, right, all right, so yeah, so you can complete this example by yourself,
+
+661
+01:04:30,680 --> 01:04:37,160
+by gradually going from, you know, original stage, stage 1, stage 2, and continuously with stage 4
+
+662
+01:04:37,160 --> 01:04:42,440
+to reach the final number, so number will be very ugly, but, you know, that's how the DFT
+
+663
+01:04:42,440 --> 01:04:49,560
+actually give you, right, the same result as the actual DFT numbers, okay, and also, right,
+
+664
+01:04:49,560 --> 01:04:54,760
+I also want to show you that if you look at the spectrum of this guy, right, in other words,
+
+665
+01:04:54,760 --> 01:05:01,400
+the plot of this guy, remember, these are not the real number, all right, if you, even if you have
+
+666
+01:05:01,400 --> 01:05:09,320
+a real input after DFT, very likely you will get a complex number, the reason is this DFT
+
+667
+01:05:09,320 --> 01:05:14,280
+measure itself is complex, okay, every time you see e2 part of something is very likely, it's a
+
+668
+01:05:14,280 --> 01:05:19,960
+complex number, right, so the result will also be a complex number, and normally if you want to
+
+669
+01:05:19,960 --> 01:05:26,040
+show the spectrum of a complex signal, complex spectrum, you have to show that in terms of
+
+670
+01:05:26,040 --> 01:05:31,000
+magnitude and phase, okay, there are only two ways to represent complex number, real plus
+
+671
+01:05:31,080 --> 01:05:37,320
+imaginary or magnitude versus phase, right, for signal processing, more likely we're doing
+
+672
+01:05:37,320 --> 01:05:42,760
+magnitude and phase plot, right, the reason is magnitude is more important than phase, right,
+
+673
+01:05:42,760 --> 01:05:47,960
+so we want to know the magnitude and the phase separately, so if you recall last time we said
+
+674
+01:05:47,960 --> 01:05:53,320
+that if I give you a real signal input, right, I cannot guarantee the output is real, it's very
+
+675
+01:05:53,320 --> 01:05:59,560
+likely unreal, complex, but one thing I can guarantee you is that the magnitude will be symmetric,
+
+676
+01:06:00,440 --> 01:06:06,200
+remember, that real signal, you get a DFT, you get a symmetric spectrum, right, so here's one
+
+677
+01:06:06,200 --> 01:06:12,040
+example, you will get a symmetric spectrum like this for magnitude, right, but for phase,
+
+678
+01:06:13,080 --> 01:06:18,920
+it will be very tricky, right, for phase, for example this one, right, in fact this is a linear
+
+679
+01:06:18,920 --> 01:06:25,960
+phase, but you will see that well the line goes up but suddenly comes down here, the reason is that
+
+680
+01:06:25,960 --> 01:06:32,200
+I already reached so-called some boundary, I have to do a truncation, sorry, a flip sign
+
+681
+01:06:32,200 --> 01:06:36,040
+to the negative one, right, but in fact this is actually a linear phase, so later we're going
+
+682
+01:06:36,040 --> 01:06:40,120
+to talk about linear phase, but I just want to show that linear phase may have this sudden jump
+
+683
+01:06:40,680 --> 01:06:46,600
+due to the the range stuff, right, later we're going to see this, all right, so okay, most
+
+684
+01:06:46,600 --> 01:06:52,440
+important thing I want you to, let's even memorize this, right, it's the actual advantage we have
+
+685
+01:06:52,440 --> 01:06:58,840
+in terms of computation, all right, but first of all how can we, okay, what can we use to describe
+
+686
+01:06:59,880 --> 01:07:05,480
+a computational complex of algorithm, okay, how many of you have learned this, I just
+
+687
+01:07:05,480 --> 01:07:12,200
+wondering, you know, how many of you can recognize what I'm writing here, okay, you know that,
+
+688
+01:07:12,200 --> 01:07:17,960
+right, how many others guys do you, have you learned this B.O. analysis in your undergraduate
+
+689
+01:07:17,960 --> 01:07:23,000
+study, okay, you have learned it, I see some people raising hand, okay, let me just explain,
+
+690
+01:07:23,000 --> 01:07:28,920
+since most of us do not know this, right, so we talk about like one algorithm, it's cheaper than the
+
+691
+01:07:28,920 --> 01:07:34,760
+other, or one algorithm is more expensive than other, right, we have to quantify the complexity,
+
+692
+01:07:34,760 --> 01:07:40,280
+okay, so there are many ways to come to quantify a complexity of an algorithm, the most commonly
+
+693
+01:07:40,280 --> 01:07:46,920
+used one is called B.O. analysis, all right, so let me define what is B.O. analysis, so let's
+
+694
+01:07:46,920 --> 01:07:53,000
+first start by defining the g function as the actual number of operation that I have to do
+
+695
+01:07:53,560 --> 01:07:58,840
+for this algorithm, right, so g n give you the exact number, for example, 10 times, 11 times,
+
+696
+01:07:58,840 --> 01:08:04,520
+that's the g n, right, but sometimes we don't care about the actual numbers, we care about
+
+697
+01:08:05,080 --> 01:08:10,760
+is this function upper bounded by something, or in other words, what's the worst case,
+
+698
+01:08:10,760 --> 01:08:15,960
+what's the worst case this function can be, right, because the actual number of operation
+
+699
+01:08:15,960 --> 01:08:20,200
+depends on the length of the signals, depends on your, maybe even the quantity of the signals,
+
+700
+01:08:20,200 --> 01:08:24,840
+right, but what we care about is that we want the algorithm don't be too bad, even if I have a
+
+701
+01:08:24,840 --> 01:08:31,880
+worst case, okay, so this is where the B.O. come from, the B.O. analysis provides you an upper bound
+
+702
+01:08:32,520 --> 01:08:41,160
+saying that the actual number of operations of my algorithm cannot be larger than another function
+
+703
+01:08:41,160 --> 01:08:47,640
+multiplied by a given constant, okay, if you can find another function f n
+
+704
+01:08:48,360 --> 01:08:51,960
+multiplied by some constant, the constant can up to you, right, just give a constant,
+
+705
+01:08:52,680 --> 01:08:57,240
+which can always surpass the worst case of my actual number of operations,
+
+706
+01:08:57,880 --> 01:09:05,720
+this f is called the B.O. f n, in other words, if I give you say, hey, I have an algorithm
+
+707
+01:09:05,720 --> 01:09:13,320
+that runs as a B.O. of f n, that means no matter how bad my algorithm runs,
+
+708
+01:09:14,040 --> 01:09:19,640
+the number of operations cannot exceed a fixed constant times f n function,
+
+709
+01:09:20,280 --> 01:09:27,960
+so I use this f n function to upper bound the worst case of my algorithm, okay, so
+
+710
+01:09:29,240 --> 01:09:33,080
+is it clear for everyone? So every time you see B.O., you're thinking about the worst case,
+
+711
+01:09:33,400 --> 01:09:39,640
+the worst case of my algorithm, it cannot be worse than that, right, so of course,
+
+712
+01:09:39,640 --> 01:09:44,760
+if my worst case is susceptible, that means my algorithm is susceptible, right, I want to make
+
+713
+01:09:44,760 --> 01:09:50,440
+sure my worst case upper bound is something reasonable or something controllable, okay,
+
+714
+01:09:50,440 --> 01:09:58,280
+that's why we always use this to describe an algorithm, okay, so let's analyze, for example,
+
+715
+01:09:58,280 --> 01:10:05,160
+DFT, right, so I remember I say that if I directly do DFT, okay, so I still have these slides here,
+
+716
+01:10:06,440 --> 01:10:11,880
+I directly do DFT, right, this is what I'm going to do, I'm going to multiply this matrix with my
+
+717
+01:10:11,880 --> 01:10:19,400
+vector, okay, so I have to do a certain number of multiplication and a certain number of addition,
+
+718
+01:10:19,400 --> 01:10:23,720
+right, these are something I have to do, for example, I have to multiply the first row with
+
+719
+01:10:23,720 --> 01:10:29,480
+the first column, so I have to do n number of multiplications and maybe n minus 1 number of
+
+720
+01:10:29,480 --> 01:10:36,200
+addition, right, so you can count exactly how many addition you have and how many
+
+721
+01:10:36,200 --> 01:10:41,720
+multiplication you have, right, in fact, this is the total amount of operation you need for
+
+722
+01:10:41,720 --> 01:10:51,800
+directly doing DFT, okay, so it's end up with 2n square minus n, okay, so this is actually my actual
+
+723
+01:10:51,880 --> 01:10:59,480
+amount of operations, but I probably only care about the worst case, remember, only the worst
+
+724
+01:10:59,480 --> 01:11:05,720
+case actually matters, right, so in fact, there are two terms, second order term, first order term,
+
+725
+01:11:05,720 --> 01:11:10,440
+the first order term will not affect my worst case, the worst case will be dominated by the highest
+
+726
+01:11:10,440 --> 01:11:17,960
+order in the GN, in other words, this kind of quality can be upper bounded by some constants
+
+727
+01:11:17,960 --> 01:11:23,720
+times the n square, because second order term grows much faster than the first order term,
+
+728
+01:11:23,720 --> 01:11:31,480
+right, so because of that, I can say that my DFT will have a big n square complexity,
+
+729
+01:11:32,920 --> 01:11:37,080
+so these terms matters, you want to have this function to be as slow as possible,
+
+730
+01:11:37,080 --> 01:11:43,560
+grows as slow as possible, so n square, that's upper bound for directly applying DFT, okay,
+
+731
+01:11:43,880 --> 01:11:51,880
+it's actually dominated by these two, right, these two multiply together, okay, then let's look at
+
+732
+01:11:51,880 --> 01:11:57,480
+FFT, right, so if I don't do the DFT directly, I do an indirect way to divide and conquer,
+
+733
+01:11:58,280 --> 01:12:03,640
+all right, so what I was doing just now, right, let's look at here, right, what I'm doing just now,
+
+734
+01:12:04,280 --> 01:12:10,520
+like this, is that I have to do, you know, a certain amount of stages, let's say k stages,
+
+735
+01:12:10,520 --> 01:12:16,360
+right, but every stage what I need to do, I need to do one, two, three, four, five,
+
+736
+01:12:16,360 --> 01:12:22,920
+exactly n number of addition, right, I have to do exactly n number of multiplication,
+
+737
+01:12:24,280 --> 01:12:29,000
+so that means every stage I need to have roughly two n number of operations,
+
+738
+01:12:29,800 --> 01:12:35,640
+right, then multiply by number of stages, this will be the total number of operation I need to do
+
+739
+01:12:35,640 --> 01:12:44,520
+for FFT, right, makes sense, okay, so for n point FFT, how many stages I have,
+
+740
+01:12:49,880 --> 01:12:55,080
+so imagine, let's say you have eight, right, I do one stage, I can break eight into four,
+
+741
+01:12:55,800 --> 01:13:00,840
+all right, I do another stage, I can break four into two, I do another stage, I can break two into
+
+742
+01:13:00,840 --> 01:13:08,280
+one, right, so what I'm doing here is I'm doing log n, so if say I have, let's say,
+
+743
+01:13:09,000 --> 01:13:17,480
+n point, eight points, right, I need two to power of three to get eight, right, so number of stages
+
+744
+01:13:17,480 --> 01:13:23,320
+exactly talking about how many division I have, right, I go from eight to four, that's one stage,
+
+745
+01:13:23,320 --> 01:13:27,400
+four to two, that's second stage, two to one is the third stage, so I need three stages,
+
+746
+01:13:27,400 --> 01:13:35,400
+so that number is equal to log n, makes sense, it's division, every time you just cut it by half,
+
+747
+01:13:35,400 --> 01:13:41,240
+right, half, half, half, rich one, you got log n, okay, so the number of stages will be log n,
+
+748
+01:13:41,240 --> 01:13:49,480
+right, so this is where, okay, this is where this term come from, so you need log n, of course,
+
+749
+01:13:49,480 --> 01:13:54,440
+we're talking about the base two, right, so log two n, this will be the number of stages, but every
+
+750
+01:13:54,440 --> 01:14:01,480
+stage I have n number of operations, so sum together I will get n times log n number of operations,
+
+751
+01:14:01,480 --> 01:14:09,080
+so this will be my upper bound, my big O analysis will be n times log n, okay, so tell me n square
+
+752
+01:14:09,080 --> 01:14:16,520
+and the log n, which is more expensive? Do you know how to, do you know, okay, first one,
+
+753
+01:14:16,520 --> 01:14:20,120
+do you know what is the log function, okay, log, how does the log function look like,
+
+754
+01:14:20,840 --> 01:14:25,960
+okay, so let me just, okay, my drawing is terrible, but I won't have to show you this, right, but,
+
+755
+01:14:25,960 --> 01:14:32,040
+you know, forgive me my, you know, my terrible drawing, but basically, no, no, no, what is this,
+
+756
+01:14:32,040 --> 01:14:39,480
+okay, so this is my, this is my axis, right, so, you know, x and y, okay, what is linear function,
+
+757
+01:14:39,480 --> 01:14:45,160
+what is n, okay, n will be a straight line, right, like this, so this will be my n, okay,
+
+758
+01:14:45,160 --> 01:14:51,000
+what is log function, right, log function will be something like this, right, but the key here
+
+759
+01:14:51,000 --> 01:14:56,840
+is that log function will grow slower and slower, you cannot surpass the linear function,
+
+760
+01:14:58,280 --> 01:15:05,080
+makes sense, everybody agree, you know, basic math, right, so if I ask you, right, n versus log n,
+
+761
+01:15:06,040 --> 01:15:13,720
+which one grows faster, n, right, n is more expensive than log n, okay, now how about n square
+
+762
+01:15:14,440 --> 01:15:20,760
+versus n, sorry, n times log n, n square, right, because I just make it fear I just multiply
+
+763
+01:15:20,760 --> 01:15:27,400
+by n both sides, right, but because n grows faster than log n, so log n square will be faster than
+
+764
+01:15:27,400 --> 01:15:37,880
+n log n, makes sense, because of that, right, now what, what the FFT shows is that it's successfully
+
+765
+01:15:37,880 --> 01:15:44,360
+reducing the n square operation to n times log n operation, so it makes it grow slower, in other
+
+766
+01:15:44,360 --> 01:15:52,440
+words, the worst case becomes better, right, if you do FFT, makes sense, because the function
+
+767
+01:15:52,440 --> 01:15:58,360
+upper bound that number becomes growing slower, so you are making the worst case better,
+
+768
+01:15:58,360 --> 01:16:04,200
+you save commutation even if it's a worst case, all right, because of that, right,
+
+769
+01:16:04,200 --> 01:16:10,840
+this is where the values come from, right, so, so this is kind of better than n square,
+
+770
+01:16:10,840 --> 01:16:17,320
+so if you visualize the computational complex as the function of n, you will see that n square
+
+771
+01:16:17,320 --> 01:16:22,440
+eventually, that initially doesn't make a difference, but when n is large, right, the gain is huge,
+
+772
+01:16:23,320 --> 01:16:28,760
+you save a huge amount of commutation, right, comparing DFT with FFT, that's why everybody
+
+773
+01:16:28,760 --> 01:16:35,080
+use FFT, right, because we're not talking about like only a five point signal, we're talking
+
+774
+01:16:35,080 --> 01:16:39,480
+about the hundreds of points of signal, right, maybe a million point of signal, then doing FFT
+
+775
+01:16:39,480 --> 01:16:47,400
+is terrible, right, nobody doing that, so this is why in practice everybody will do FFT, but
+
+776
+01:16:47,400 --> 01:16:52,840
+when we analyze the process, we do FFT, because DFT is easy to analyze, right, but anyway,
+
+777
+01:16:52,920 --> 01:16:56,840
+both of them give you the same result, it doesn't make a difference, okay,
+
+778
+01:16:59,000 --> 01:17:03,640
+all right, it's better, because last week I just mentioned the advantage, but I didn't explain
+
+779
+01:17:03,640 --> 01:17:07,560
+where the advantage comes from, right, so I hope this one gives you a better idea, right,
+
+780
+01:17:07,560 --> 01:17:14,040
+why we have this advantage by doing the smarter way of dividing and conquering, okay,
+
+781
+01:17:14,680 --> 01:17:17,800
+any questions before I move on?
+
+782
+01:17:21,640 --> 01:17:22,280
+Yes, yes,
+
+783
+01:17:28,440 --> 01:17:34,600
+okay, so, okay, so her question is this, I guess you are seeing that do we have to memorize,
+
+784
+01:17:34,600 --> 01:17:42,440
+right, how how this function are, so, so the lady was asking like, okay, do we have to memorize
+
+785
+01:17:42,440 --> 01:17:50,840
+how these numbers are arranged, right, in principle you can derive it, if you know,
+
+786
+01:17:50,840 --> 01:17:56,120
+if you know how, if you know how this one is derived, okay, in principle you can derive it,
+
+787
+01:17:56,120 --> 01:18:00,760
+right, but memorizing that is not a very difficult job, I would say, okay, why,
+
+788
+01:18:01,640 --> 01:18:06,680
+I can tell you how I memorize it, I actually memorize it to be honest, right, but it's very
+
+789
+01:18:06,680 --> 01:18:13,800
+easy, right, for example, this is an eight point, eight point DFT, right, so FFT, so if it's eight
+
+790
+01:18:13,800 --> 01:18:19,800
+point, I have to do, you know, let's look at the first half and the second half, right,
+
+791
+01:18:19,800 --> 01:18:27,400
+so the first half will be always even number, even index, remember, why, because here is already
+
+792
+01:18:27,400 --> 01:18:31,560
+divided into even and odd, right, so all the even goes here, all the all the goes here, right,
+
+793
+01:18:31,560 --> 01:18:37,880
+so all of these numbers in the top half, upper half will be even, if you see any odd number here,
+
+794
+01:18:37,880 --> 01:18:43,160
+that means you're wrong, okay, and all the bottom half here will be odd number, you cannot have
+
+795
+01:18:43,160 --> 01:18:48,520
+any even there, so you consider every stage is like a reshuffle of the numbers, right,
+
+796
+01:18:48,520 --> 01:18:54,840
+so the first stage shuffle them into even and odd, all right, okay, so then what they're doing is
+
+797
+01:18:54,920 --> 01:19:01,240
+keep shuffling, okay, so here you are talking about zero, one, two, three, sorry, you know,
+
+798
+01:19:01,240 --> 01:19:09,320
+zero, two, four, six, right, but if you go one step back, you are picking the even number of the
+
+799
+01:19:09,320 --> 01:19:14,840
+even number, right, in other words, you are picking not zero, how to say, not zero, two, four, six,
+
+800
+01:19:14,840 --> 01:19:20,840
+but you're picking zero and four, because zero and four are the even subsequence of the even sequence,
+
+801
+01:19:21,800 --> 01:19:26,680
+I don't know if that makes sense, right, so you are picking, you are keep picking the even index
+
+802
+01:19:26,680 --> 01:19:31,720
+from the original sequence, right, so here it gives you all the even numbers, so here they
+
+803
+01:19:31,720 --> 01:19:37,160
+will say, well these two have to be step of four, instead of step of two, right, so it should be zero
+
+804
+01:19:37,160 --> 01:19:43,080
+and four, and then you know four and six, so four and six are the odd subsequence of the even sequence,
+
+805
+01:19:44,920 --> 01:19:50,680
+this is how I remember that, right, it's not very hard, but if you want that's how I memorize it,
+
+806
+01:19:51,720 --> 01:19:55,320
+otherwise you can always speak to the formula, right, but if you have no choice, you have,
+
+807
+01:19:55,320 --> 01:19:59,640
+you can think about it, right, but if you want to memorize how these are shuffled,
+
+808
+01:19:59,640 --> 01:20:05,240
+if they are keep picking the even and odd subsequence from the previous stage, right,
+
+809
+01:20:05,240 --> 01:20:11,400
+this is how I memorize it, okay, okay good, any other questions before we move on?
+
+810
+01:20:11,560 --> 01:20:21,400
+Okay, so I guess, so where are we, okay, so we're gonna take a break, maybe
+
+811
+01:20:21,400 --> 01:20:28,680
+let's come back around eight, right, shorter so we can finish earlier, right, so let's come back at eight,
+
+812
+01:20:28,680 --> 01:20:35,960
+all right, okay, thank you.
+
+813
+01:20:58,680 --> 01:20:59,160
+you
+
+814
+01:21:28,680 --> 01:21:29,160
+you
+
+815
+01:21:58,680 --> 01:21:59,160
+you
+
+816
+01:22:28,680 --> 01:22:29,240
+you
+
+817
+01:22:58,680 --> 01:22:59,240
+you
+
+818
+01:23:28,680 --> 01:23:29,240
+you
+
+819
+01:23:58,680 --> 01:23:59,240
+you
+
+820
+01:24:28,680 --> 01:24:29,240
+you
+
+821
+01:24:58,680 --> 01:24:59,240
+you
+
+822
+01:25:28,680 --> 01:25:29,240
+you
+
+823
+01:25:58,680 --> 01:25:59,240
+you
+
+824
+01:26:28,680 --> 01:26:29,240
+you
+
+825
+01:26:58,680 --> 01:26:59,240
+you
+
+826
+01:27:28,680 --> 01:27:29,240
+you
+
+827
+01:27:58,680 --> 01:27:59,240
+you
+
+828
+01:28:28,680 --> 01:28:29,240
+you
+
+829
+01:28:58,680 --> 01:28:59,240
+you
+
+830
+01:29:28,680 --> 01:29:29,240
+you
+
+831
+01:29:58,680 --> 01:29:59,240
+you
+
+832
+01:30:28,680 --> 01:30:29,240
+you
+
+833
+01:30:58,680 --> 01:30:59,240
+you
+
+834
+01:31:29,000 --> 01:31:29,240
+you
+
+835
+01:31:39,160 --> 01:31:45,800
+all right, okay, we can start, so as a promise, right, so I probably won't finish all the slides today,
+
+836
+01:31:46,760 --> 01:31:52,280
+some of them I probably will move to next week and also I will try to remove some of the components
+
+837
+01:31:52,280 --> 01:31:57,560
+because I think it's too much, all right, I will promise we, I will try to finish by let's say
+
+838
+01:31:58,440 --> 01:32:03,560
+9, 10 or something so that you can catch the bus, right, so give me a signal if I overrun time,
+
+839
+01:32:03,560 --> 01:32:07,560
+right, if I run out of time, give me a signal, but anyway, we talked about FFT, right,
+
+840
+01:32:08,200 --> 01:32:12,680
+there was something pretty much I didn't mention there clearly last time but it's important,
+
+841
+01:32:12,680 --> 01:32:17,160
+so that's why I was gonna spend time there, so, but all of these we talked about, right, FFT,
+
+842
+01:32:17,240 --> 01:32:23,400
+DFT, DTFT, these are something to do with signal, we're trying to represent the signal
+
+843
+01:32:23,960 --> 01:32:27,880
+in the way that they give you some, you know, features, right, useful information,
+
+844
+01:32:28,440 --> 01:32:35,320
+but another important aspect is the system, right, so signal is pretty much the data you have,
+
+845
+01:32:35,320 --> 01:32:39,320
+right, you want to process the data such that, or you want to represent a signal such that they
+
+846
+01:32:39,320 --> 01:32:44,360
+can be better analyzed, but we haven't talked about the system yet, so the system is actually
+
+847
+01:32:45,320 --> 01:32:50,840
+how you want to process the signal, how you want to, let's say, manipulate the signal, process
+
+848
+01:32:50,840 --> 01:32:58,280
+the signal such that they somehow satisfy your need, right, so now from now on the focus will be
+
+849
+01:32:58,280 --> 01:33:04,200
+the system, all right, so now we're going from signal to system, all right, so how the system
+
+850
+01:33:04,200 --> 01:33:09,240
+look like for, at least for this subject, we mentioned a little bit last week saying that we
+
+851
+01:33:09,320 --> 01:33:17,240
+have to say something constrained on the system, for example, we want to talk about LTI system,
+
+852
+01:33:17,240 --> 01:33:22,120
+if you still remember what this means, it means the system must be linear, all right, and the
+
+853
+01:33:22,120 --> 01:33:27,560
+system must be time invariant, okay, so this is always the assumption we make for this class,
+
+854
+01:33:27,560 --> 01:33:36,600
+right, so LTI system, and also, right, we will have multiple ways to represent the system,
+
+855
+01:33:36,600 --> 01:33:40,120
+just like we have multiple ways to represent the signal, right, we say the signal can be
+
+856
+01:33:40,120 --> 01:33:47,400
+representing time, in frequency, they can be discreet, they can be analog, so for system we
+
+857
+01:33:47,400 --> 01:33:53,880
+are also going to learn a few ways to represent a system, all right, so which is a better way to
+
+858
+01:33:53,880 --> 01:33:59,400
+represent depends on your task, right, so one way we can represent a system is called a transfer
+
+859
+01:33:59,400 --> 01:34:04,680
+function, okay, so transfer function is something to do with the frequency representation, so later
+
+860
+01:34:04,680 --> 01:34:10,680
+we'll get there, but transfer function, you can consider this as a, like a spectrum of the system,
+
+861
+01:34:10,680 --> 01:34:15,160
+right, like a filter, right, we talk about, for some of you have learned filter, right,
+
+862
+01:34:15,160 --> 01:34:20,760
+we call the filter like low pass, high pass, this is talking about the spectrum of the filter,
+
+863
+01:34:20,760 --> 01:34:26,520
+right, so the transfer function is always the same, like similarly, describing the system from the
+
+864
+01:34:26,520 --> 01:34:33,720
+frequency perspective, right, but based on the type of transfer function, okay, the transfer
+
+865
+01:34:33,720 --> 01:34:38,440
+function may have different types, right, but based on the types of the transfer function,
+
+866
+01:34:38,440 --> 01:34:47,160
+we can categorize the system in the following two ways, okay, the first one is to look at
+
+867
+01:34:47,160 --> 01:34:53,160
+what is the impulse response of a system, okay, so what is the impulse response, I hope,
+
+868
+01:34:54,280 --> 01:34:58,360
+some of you, all of you should know, right, or maybe, okay, so impulse function means I give
+
+869
+01:34:58,440 --> 01:35:05,560
+you a system, I inject an input signal, which is an impulse signal, okay, what is the output I have,
+
+870
+01:35:05,560 --> 01:35:11,160
+so this will be the impulse response of a system, right, so if the impulse response
+
+871
+01:35:11,720 --> 01:35:18,520
+have finite number of impulse functions, sorry, impulse in the response, right, so this is called
+
+872
+01:35:18,520 --> 01:35:26,120
+FIR, which literally means finite impulse response transfer function, okay, so we're counting the
+
+873
+01:35:26,120 --> 01:35:31,880
+number of impulse I have in my impulse response, if it's a finite number of impulse, that means it's
+
+874
+01:35:31,880 --> 01:35:37,640
+FIR, right, so you'll keep hearing the term FIR many times, because I'm going to focus on FIR
+
+875
+01:35:37,640 --> 01:35:43,560
+for my part, the filter design later, right, but there's another type, we call it the opposite
+
+876
+01:35:43,560 --> 01:35:48,840
+type, right, so if you have an impulse response, but you know, unfortunately, you have infinitely
+
+877
+01:35:48,840 --> 01:35:56,200
+many impulse, your impulse response, it means this is an IR filter, right, IR transfer function,
+
+878
+01:35:56,200 --> 01:36:02,920
+okay, so later we're going to learn that why, sometimes we also call FIR as a non-recursive
+
+879
+01:36:03,800 --> 01:36:08,600
+you know, function, IR is a recursive function, it's because later when we talk about the
+
+880
+01:36:08,600 --> 01:36:14,360
+difference equation, you'll see that IR, normally the right-hand side will also involve Y, okay,
+
+881
+01:36:14,360 --> 01:36:19,960
+Y means the output, so you have to represent the current time output using the past time output,
+
+882
+01:36:19,960 --> 01:36:26,600
+right, this is what we call it recursive, you have to recursively fill it back into your system to
+
+883
+01:36:26,600 --> 01:36:34,120
+implement an IR, but FIR, you don't have to, so FIR, you can just write the output as a function of X,
+
+884
+01:36:34,760 --> 01:36:40,360
+okay, so it's also called non-recursive, but this is by counting, right, by looking at how many
+
+885
+01:36:40,360 --> 01:36:47,880
+terms you have in the impulse, in the impulse response, this is one way to categorize the system
+
+886
+01:36:47,880 --> 01:36:54,600
+into FIR and IR, all right, but that's not the only way, it's not the only way to categorize,
+
+887
+01:36:54,600 --> 01:37:02,120
+you can also looking at the, you know, how the transfer function selects the frequency, right,
+
+888
+01:37:02,120 --> 01:37:07,560
+so I hope, I assume that some of you may already know this, right, for example, you can actually
+
+889
+01:37:07,560 --> 01:37:14,440
+look at the magnitude function of the, you know, transfer function, right, and for example, you
+
+890
+01:37:14,440 --> 01:37:21,480
+can actually, you may encounter some kind of transfer function in the way that they only maybe
+
+891
+01:37:21,480 --> 01:37:27,320
+allow certain frequency band to survive, right, in other words, if you look at the transfer function,
+
+892
+01:37:27,320 --> 01:37:33,960
+there will be one within, let's say here, low frequency range, right, so this is, this type
+
+893
+01:37:33,960 --> 01:37:40,440
+we call the low pass filter, in other words, that kind of system will only let the low frequency
+
+894
+01:37:40,440 --> 01:37:46,600
+component survive in the processing period, right, high frequency components will be killed
+
+895
+01:37:46,600 --> 01:37:53,480
+in the system, okay, you can have the opposite, which we call the high pass filter, means that they
+
+896
+01:37:53,480 --> 01:37:58,600
+kill the low frequency and they survive the high frequency, right, so it's exactly the opposite,
+
+897
+01:37:59,160 --> 01:38:05,400
+so it depends on which frequency will be passing through the system, you can actually categorize
+
+898
+01:38:05,400 --> 01:38:11,720
+them in the way by looking at the transfer function, and normally we call the frequency
+
+899
+01:38:11,720 --> 01:38:17,800
+that can survive as the pass band, right, in other words, if this is my transfer function,
+
+900
+01:38:17,800 --> 01:38:23,720
+the pass band will be here, right, can you see that, okay, here, it will be, this will be my pass band,
+
+901
+01:38:24,360 --> 01:38:27,880
+right, for this transfer function, the pass band will be the opposite, will be the
+
+902
+01:38:27,880 --> 01:38:33,320
+high frequency components, right, and of course, there will also be stop band, stop band means
+
+903
+01:38:33,320 --> 01:38:39,160
+all of this response will be zero, right, so the stop band for low pass will be the high pass components,
+
+904
+01:38:39,160 --> 01:38:46,280
+right, so all of these are looking at how, how the transfer function selects the frequency
+
+905
+01:38:46,280 --> 01:38:52,440
+components when it's processing the signal, right, so depends on the frequency, I mean,
+
+906
+01:38:52,440 --> 01:38:56,280
+there's also others, for example, they may not only look at the low frequency, they may look at
+
+907
+01:38:56,280 --> 01:39:03,640
+a specific range of the frequency, right, so this is, you can specify as a say omega c2 and omega c1,
+
+908
+01:39:03,640 --> 01:39:09,000
+this is the range, if they're only selecting a certain range, not too low, not too high,
+
+909
+01:39:09,000 --> 01:39:13,400
+this is called, this is called band pass filter, right, you can also make a band stop filter,
+
+910
+01:39:13,400 --> 01:39:19,000
+means that only the selected range will be killed, right, but very likely these four will be the
+
+911
+01:39:19,000 --> 01:39:23,640
+general cases you will be encounter, right, if you want to view the system from the frequency
+
+912
+01:39:23,640 --> 01:39:28,280
+selection perspective, right, I believe some of you, most of you should learn this, right,
+
+913
+01:39:28,280 --> 01:39:35,560
+even if you do the analog signal processing, but the frequency response can be a criteria to
+
+914
+01:39:35,560 --> 01:39:41,240
+categorize the digital filters, and all of these are talking about the magnitude, right, not the
+
+915
+01:39:41,240 --> 01:39:45,480
+phase, so just now I mentioned that you can actually look at the magnitude, you can have the phase,
+
+916
+01:39:45,480 --> 01:39:53,160
+but what I'm talking about is only look at the magnitude, all right, okay, so, you know,
+
+917
+01:39:54,200 --> 01:40:01,320
+the DTFT, right, so, okay, so when we say a system, right, normally we use a function for
+
+918
+01:40:01,320 --> 01:40:07,960
+some h to represent a system, the transfer function is normally used uppercase h to
+
+919
+01:40:07,960 --> 01:40:12,760
+represent a transfer function, in other words the spectrum of the impulse response,
+
+920
+01:40:12,760 --> 01:40:18,040
+but you can also do a DTFT to get it back to the impulse response, so in other words,
+
+921
+01:40:18,040 --> 01:40:25,080
+the impulse response can be obtained by a inverse DTFT of the transfer function, right,
+
+922
+01:40:25,080 --> 01:40:31,240
+that's how you can convert between the two, right, but basically impulse response
+
+923
+01:40:31,240 --> 01:40:38,280
+representing in the lower case is actually a time domain function, all right, transfer function
+
+924
+01:40:38,280 --> 01:40:42,680
+representing the uppercase, that's a frequency domain function, right, this is something you
+
+925
+01:40:42,680 --> 01:40:49,880
+must be very clear, and just now we are saying that for specifying the frequency, remember,
+
+926
+01:40:49,880 --> 01:40:54,520
+here we need to specify the frequency, for example, here we have to specify omega c
+
+927
+01:40:55,160 --> 01:40:59,400
+indicating what is the low pass we're talking about, what is the frequency range we're talking
+
+928
+01:40:59,400 --> 01:41:06,280
+about, right, sometimes we need two numbers, omega c1, omega c2 to represent a certain specific
+
+929
+01:41:06,920 --> 01:41:13,320
+range of the frequency, so all of these numbers, right, omega c, omega c1, omega c2, we call that
+
+930
+01:41:13,320 --> 01:41:19,400
+cutoff frequency, means the frequency that I go from surviving to killing, or in other words,
+
+931
+01:41:19,400 --> 01:41:25,800
+from passing to stop, right, that kind of a threshold we call the cutoff frequency,
+
+932
+01:41:26,680 --> 01:41:32,120
+okay, so these are some terms we usually use to describe the frequency behavior, right,
+
+933
+01:41:32,120 --> 01:41:35,400
+so just now I think one of you asked me, I think that gentleman asked me, say, hey,
+
+934
+01:41:36,280 --> 01:41:39,640
+all of you talk about, all of the things you talked about before, right, like anti-aliasing
+
+935
+01:41:39,640 --> 01:41:46,360
+filters, reconstruction filters, you are assuming a very ideal case, in other words, all of these
+
+936
+01:41:46,360 --> 01:41:52,840
+transitions are very sharp, right, suddenly you go from passband to stopband, so yes, all of the
+
+937
+01:41:52,840 --> 01:41:58,680
+so-called low pass filter, high pass filter showing up here, we call it ideal filter,
+
+938
+01:41:59,560 --> 01:42:04,280
+when I say ideal, I mean, I don't assume any transition, they can do a sudden transition
+
+939
+01:42:04,280 --> 01:42:11,400
+from stopband to passband, so this ideal case will have the magnitude of response equal to one,
+
+940
+01:42:11,400 --> 01:42:19,000
+exact one, in the passband and exactly zero to the stopband, so that's what we want, but not,
+
+941
+01:42:19,000 --> 01:42:22,280
+unfortunately, not always can be implementable, right, so that's something we're going to talk
+
+942
+01:42:22,280 --> 01:42:28,440
+about later, right, filter design, but ideal case, we always assume that they have a zero
+
+943
+01:42:28,440 --> 01:42:33,080
+phase everywhere, means the zero response is always, sorry, the phase response is always zero,
+
+944
+01:42:34,040 --> 01:42:40,280
+ideal case, I'm talking about ideal case, right, but this is useful in theory, because they make
+
+945
+01:42:40,280 --> 01:42:46,360
+things simple, okay, but bear in mind that if you see such kind of filters, like sharp transition,
+
+946
+01:42:46,360 --> 01:42:52,520
+exactly zero, exactly one, zero phase, it's not something practical, right, it's only called
+
+947
+01:42:52,520 --> 01:42:59,800
+ideal, okay, so like I said, ideal filter just like a brick wall, right, the frequency is actually,
+
+948
+01:42:59,800 --> 01:43:06,680
+you know, very sharp and very likely they are not causal, right, we talked about the causality
+
+949
+01:43:06,680 --> 01:43:12,840
+last time, if you remember, current signal cannot depend on future input, right, this is the causality
+
+950
+01:43:12,840 --> 01:43:18,120
+we're talking about, unfortunately, those ideal filters, they are not causal, there's another
+
+951
+01:43:18,120 --> 01:43:24,600
+reason like we, they will be never realizable in the finite length LTI system, because, you know,
+
+952
+01:43:24,600 --> 01:43:28,920
+causality, this is something we must have, you cannot see the future value, right, that's a
+
+953
+01:43:28,920 --> 01:43:34,600
+fundamental rule, so this is just to explain that, although all of these are ideal filters,
+
+954
+01:43:35,800 --> 01:43:40,680
+but of course, you know, they will have some ideal characteristics, for example, you can always do
+
+955
+01:43:40,680 --> 01:43:47,400
+DTFT, IDTFT to convert between transfer function and the impulse response, right, and all of this
+
+956
+01:43:47,400 --> 01:43:52,680
+we have learned, right, DTFT things, and the ideal filter can be represented in this way,
+
+957
+01:43:52,680 --> 01:43:58,040
+the magnitude can be one or zero, depends on, they are within the color frequency or outside the color
+
+958
+01:43:58,040 --> 01:44:04,280
+frequency, right, I won't really repeat, but basically these are some, you know, mathematical
+
+959
+01:44:04,280 --> 01:44:10,120
+theory for ideal filters and assuming the phase to be zero, right, mathematical way, this is what
+
+960
+01:44:10,120 --> 01:44:16,120
+just now the previous slide means, right, mathematically, likewise, this is actually low
+
+961
+01:44:16,120 --> 01:44:20,840
+pass filter, all of this is low pass filter, you can also do the same thing for a high pass filter
+
+962
+01:44:20,840 --> 01:44:28,120
+if you want, I won't really repeat, but you can explain or describe the magnitude of the high pass,
+
+963
+01:44:29,480 --> 01:44:34,440
+sorry, band stop filter, right, this is band stop filter in this way, and correspondingly you can
+
+964
+01:44:34,440 --> 01:44:39,720
+also compute the impulse response by simply a inverse DTFT, right, to get it back to the
+
+965
+01:44:39,720 --> 01:44:45,960
+impulse response, okay, but here is a summary of all of this ideal filter, let's make it specific,
+
+966
+01:44:45,960 --> 01:44:52,680
+ideal filter, they can be represented in the following way, okay, low pass, high pass, okay,
+
+967
+01:44:52,680 --> 01:44:59,240
+I won't repeat, but you can use this table as a summary of all of the four popular ideal filters
+
+968
+01:44:59,240 --> 01:45:05,720
+we have, band pass and band stop, all right, but bear in mind that all of them are not practical,
+
+969
+01:45:05,720 --> 01:45:10,680
+you cannot have them in practice, right, but they are mathematically simple and beautiful,
+
+970
+01:45:10,680 --> 01:45:17,960
+this is something we like it, so now talking about, you know, practical implementation, right,
+
+971
+01:45:18,840 --> 01:45:24,600
+we always start from the ideal filters, so ideal filter is something we can design,
+
+972
+01:45:24,600 --> 01:45:29,880
+we can start in ways, but then when you want to eventually develop something
+
+973
+01:45:30,360 --> 01:45:37,320
+realizable or practical, right, how can we do this, so or what compromise we have to make,
+
+974
+01:45:38,040 --> 01:45:43,480
+all right, so basically, right, we can never have this like a very sharp transition,
+
+975
+01:45:43,480 --> 01:45:49,800
+once you move to the practical, you know, filters, you have to do some so-called relaxation
+
+976
+01:45:50,360 --> 01:45:56,840
+to include a transition band between the pass band and stop band, right, so the big difference is
+
+977
+01:45:56,840 --> 01:46:02,440
+that in practice, you will never see a sharp transition from 0 to 1, what you will see in
+
+978
+01:46:02,440 --> 01:46:08,040
+practice is that when I move from pass band to stop band or maybe the other way around,
+
+979
+01:46:08,040 --> 01:46:16,520
+you have to have a certain range of the frequency to accommodate the transition from 1 to 0,
+
+980
+01:46:16,520 --> 01:46:22,520
+and the length, the range here is called transition band, right, when the transition band is 0,
+
+981
+01:46:22,520 --> 01:46:27,000
+that means it's ideal, right, but in practice, transition band will never be 0, it will be
+
+982
+01:46:27,000 --> 01:46:33,080
+something, we want to minimize it, but you cannot get 0, right, so this approximation,
+
+983
+01:46:33,080 --> 01:46:39,080
+well, permits the magnitude response to decay slowly, right, here's decay slowly from the maximum
+
+984
+01:46:39,640 --> 01:46:47,240
+to the minimum to 0, in other words, from the pass band to the stop band, right, so and also,
+
+985
+01:46:47,240 --> 01:46:51,640
+this is one one compromise we have to make, another compromise we have to make is that
+
+986
+01:46:51,640 --> 01:46:59,240
+even within the pass band and the stop band, you will not have exactly 1 and 0, okay, remember,
+
+987
+01:46:59,880 --> 01:47:03,960
+if you look at all of the function, right, very very very ideal, right, all of these are 1,
+
+988
+01:47:03,960 --> 01:47:09,480
+all of the stop band are 0, in practice, this never happens, right, what you will have is some
+
+989
+01:47:09,480 --> 01:47:17,000
+smaller deviation, right, kind of fluctuations around the 1, but they will never be 1, they will
+
+990
+01:47:17,000 --> 01:47:21,560
+be like up and down, up and down, right, so this is something we normally call it like a ripple,
+
+991
+01:47:22,280 --> 01:47:29,400
+or smaller fluctuations, and also we want to design the filter such that this deviation is
+
+992
+01:47:29,400 --> 01:47:37,000
+minimized, but never be 0, right, so these are the two major phenomena you will observe if you go from
+
+993
+01:47:37,000 --> 01:47:43,400
+ideal filter to the practical filter, transition band and the ripples, okay, so bear in mind that
+
+994
+01:47:43,480 --> 01:47:48,680
+when later when we talk about filter design, these are the two factors you have to bear in mind that
+
+995
+01:47:48,680 --> 01:47:53,800
+you want to use the limited resource to minimize the transition band and also minimize the ripple,
+
+996
+01:47:54,440 --> 01:48:00,120
+okay, so these are the two major kind of phenomena, right, and again this is actually magnitude, not
+
+997
+01:48:00,120 --> 01:48:05,400
+phase, remember we have two things, magnitude and phase, here we are talking about the magnitude,
+
+998
+01:48:05,400 --> 01:48:10,520
+okay, phase we'll also talk about separately, all right, okay, so okay, now phase, right,
+
+999
+01:48:11,400 --> 01:48:17,480
+so ideally we say that ideal kind of filters you are going to zero phase anywhere, right, no phase
+
+1000
+01:48:17,480 --> 01:48:25,000
+change if you just apply that, they only preserve the signal phase, no change, but in practice again
+
+1001
+01:48:25,000 --> 01:48:32,600
+this is not kind of practical, right, so what will actually happen is that there will be a
+
+1002
+01:48:32,600 --> 01:48:39,640
+frequency shift property of the DTFT to impulse response of an ideal zero phase low pass filter,
+
+1003
+01:48:39,640 --> 01:48:44,760
+right, so what you will arrive at is the following, right, so this will be the actual
+
+1004
+01:48:45,640 --> 01:48:51,320
+impulse response, I mean if you directly do the inverse DTFT of this low pass filter,
+
+1005
+01:48:51,320 --> 01:48:55,000
+right, you will get some kind of zinc function, if you don't do anything, right, remember last
+
+1006
+01:48:55,000 --> 01:48:59,880
+week we also showed this zinc function, remember, like a kind of spread out from zero to infinity,
+
+1007
+01:48:59,880 --> 01:49:06,280
+right, but if you don't do anything, right, this zinc function will give you a non-causal behavior,
+
+1008
+01:49:06,280 --> 01:49:11,640
+in other words you'll get an impulse response from both paths and the filters, all right,
+
+1009
+01:49:11,640 --> 01:49:17,720
+and also they give you infinitely long kind of an impulse response, so both of them will be
+
+1010
+01:49:17,720 --> 01:49:24,600
+making the design to be unrealizable, so what you have to do is two things, you have the first
+
+1011
+01:49:24,600 --> 01:49:31,800
+truncating the impulse response from infinitely long to finite number of terms, right, and also
+
+1012
+01:49:31,800 --> 01:49:38,520
+you have to deal with the non-causality here by doing some shift, right, so the truncated
+
+1013
+01:49:38,520 --> 01:49:44,600
+approximation may or may not exhibit the linear phase, depends on the value n we choose, all right,
+
+1014
+01:49:44,600 --> 01:49:50,920
+so in practice even though we cannot make the phase to be zero, we wish the phase to be linear,
+
+1015
+01:49:50,920 --> 01:49:56,920
+all right, so later we'll see that there's some trick or some rule to select the n such that
+
+1016
+01:49:56,920 --> 01:50:01,800
+even if we make the compromise we can still land it at the linear phase filters, right,
+
+1017
+01:50:01,800 --> 01:50:06,200
+so this is something we wish to achieve, but okay, here I just give you some kind of preview,
+
+1018
+01:50:06,200 --> 01:50:12,600
+okay, we will have another lecture, I think maybe next week to talk about design, the actual design
+
+1019
+01:50:12,600 --> 01:50:17,000
+of the filters, but here I just give you some idea like how, what exactly we need to do,
+
+1020
+01:50:17,000 --> 01:50:24,760
+right, going from ideal phase, ideal filter to practical filters, okay, so I mean the principle
+
+1021
+01:50:24,760 --> 01:50:29,720
+is that if you want to pass the input signal to a certain frequency range, for example here is the
+
+1022
+01:50:29,720 --> 01:50:35,960
+low frequency range, you do not want to have a lot of distortion, right, basically you want
+
+1023
+01:50:35,960 --> 01:50:43,480
+the signal to be undistorted both in magnitude and phase, right, such that your transfer function
+
+1024
+01:50:43,480 --> 01:50:51,640
+should exhibit a unit magnitude response within the passband and also a linear phase response
+
+1025
+01:50:51,640 --> 01:50:56,120
+in the band of interest, right, so this is something we wish to have, like no distortion in the
+
+1026
+01:50:56,120 --> 01:51:03,240
+magnitude and only a linear phase in the band of interest, right, so to do so what we actually
+
+1027
+01:51:03,240 --> 01:51:10,680
+need to do is that we need to make sure the zinc function is going to be like this, right, so basically
+
+1028
+01:51:10,680 --> 01:51:17,320
+you kind of shift the major component to the past, this kind of will solve the non causality problem
+
+1029
+01:51:17,320 --> 01:51:24,120
+and also you want to do the truncation which make the impulse response finite only within the window,
+
+1030
+01:51:24,120 --> 01:51:30,120
+right, so these are two practical things we normally need to do to make an ideal low pass
+
+1031
+01:51:30,120 --> 01:51:36,600
+filter to a practical kind of, I mean low pass filter, right, so but actually these major,
+
+1032
+01:51:36,600 --> 01:51:41,400
+these two major steps also need to determine how much you have to shift and what is the
+
+1033
+01:51:41,400 --> 01:51:45,000
+windowing function you are going to use, right, so this is actually something to do with the
+
+1034
+01:51:45,000 --> 01:51:51,800
+filter design, but basically if you have a windowing function to truncate the approximation
+
+1035
+01:51:51,800 --> 01:51:58,440
+and also doing a proper shift to make the, you know, filter causal, right, you will have something
+
+1036
+01:51:58,440 --> 01:52:05,960
+like this, right, so for example this is a n, n equal to 13 point, you know, low pass zinc function,
+
+1037
+01:52:06,680 --> 01:52:12,840
+this is n equal to 14 zinc function, so both of them because of this, you know, time shift and
+
+1038
+01:52:12,840 --> 01:52:21,640
+also, you know, truncation they will become a linear phase FIR filter, remember what is FIR,
+
+1039
+01:52:21,640 --> 01:52:26,760
+right, FIR is counting the number of response, right, in the time domain, if I have finite
+
+1040
+01:52:26,760 --> 01:52:33,720
+number of response in the time domain that's FIR, so once I do truncation I can convert an IR into
+
+1041
+01:52:33,720 --> 01:52:39,400
+FIR filter, right, because within the window the number of impulse or number of spikes are finite,
+
+1042
+01:52:39,400 --> 01:52:46,520
+right, 13 or 14, this is FIR and also because all of these spikes are moved to the past,
+
+1043
+01:52:47,080 --> 01:52:54,520
+this filter becomes causal, right, so by doing the shifting and truncation I can make originally a
+
+1044
+01:52:54,520 --> 01:53:03,240
+non-causal, infinitely many kind of response into a causal and FIR filter, right, so this is what
+
+1045
+01:53:03,240 --> 01:53:08,920
+we need for the actual implementation, right, but this is one example to show you that the
+
+1046
+01:53:08,920 --> 01:53:15,480
+following doing this way will give you approximate transfer function which is not the same as the
+
+1047
+01:53:15,480 --> 01:53:22,680
+ideal but good enough as the approximate, right, so we'll get to the actual design later, maybe
+
+1048
+01:53:22,680 --> 01:53:28,440
+not today, right, maybe next week, but I just want to show you what's the gap between all of the
+
+1049
+01:53:28,440 --> 01:53:33,560
+things we covered before, like ideal filters to the actual things can be designed, but basically
+
+1050
+01:53:33,560 --> 01:53:39,400
+you have to get very in mind, you know, time shift and the truncation, these are two things you have
+
+1051
+01:53:39,400 --> 01:53:49,480
+to do to overcome the non-causality and also the IR nature of the filters, right, so I'll also show
+
+1052
+01:53:49,480 --> 01:53:55,960
+some simple filter examples, I mean not too much, so here's one example, right, I don't know if I
+
+1053
+01:53:55,960 --> 01:54:03,560
+want to skip this because, okay, let me see, maybe I will skip this to the next time, right,
+
+1054
+01:54:03,560 --> 01:54:07,480
+because next time I'm going to talk about design, so I will skip that, but I will get back to this
+
+1055
+01:54:07,480 --> 01:54:11,960
+when I talk about the filter design, right, because I think these are two details, we don't have time
+
+1056
+01:54:11,960 --> 01:54:16,680
+here, so I will skip here, but I will get back to this next week on the actual design, right,
+
+1057
+01:54:16,680 --> 01:54:23,000
+but I want to directly go to the implementation part, right, so we talk about that, you know,
+
+1058
+01:54:23,080 --> 01:54:30,920
+we want to implement the filters that can be realized in practice, what will be the actual
+
+1059
+01:54:30,920 --> 01:54:38,200
+structure of the digital filters, so we have to, normally with the way we represent feasible
+
+1060
+01:54:38,200 --> 01:54:43,960
+filters, we can use something we call it difference function, okay, like this, so what is the difference
+
+1061
+01:54:43,960 --> 01:54:51,560
+function, so the difference function will be represented in terms of the output, the y, as a
+
+1062
+01:54:51,560 --> 01:54:59,480
+function of both current time input or past time input plus possibly some past time output,
+
+1063
+01:55:00,520 --> 01:55:06,120
+okay, let me explain why do we need my past time, right, so first of all, y always used to denote
+
+1064
+01:55:06,120 --> 01:55:11,960
+the output, okay, for this course, I mean, for filter design, right, let's assume that y always
+
+1065
+01:55:11,960 --> 01:55:17,160
+talking about the output of the system, all right, x refer to the input of the system,
+
+1066
+01:55:18,040 --> 01:55:21,320
+okay, I use lowercase because both of them are in time domain,
+
+1067
+01:55:22,200 --> 01:55:30,440
+all right, so the index of the signal represent time step, all right, so this n can be something
+
+1068
+01:55:30,440 --> 01:55:37,560
+in the past or something in the future, right, so if, for example, if I'm care about the output of
+
+1069
+01:55:37,560 --> 01:55:44,200
+time n, right, all the index with n minus some positive number, this should be the past time,
+
+1070
+01:55:44,760 --> 01:55:50,680
+okay, makes sense, so I want to represent the output at the time step n,
+
+1071
+01:55:51,960 --> 01:55:58,600
+suppose n goes to equal to 0, all right, so all the time step that is kind of smaller than
+
+1072
+01:55:58,600 --> 01:56:04,680
+this time step will be the past time, okay, for example, if I'm care about my current time 0,
+
+1073
+01:56:05,240 --> 01:56:11,000
+my time minus 1, minus 2, minus 3 will be the past time signal, all right, because of that,
+
+1074
+01:56:11,000 --> 01:56:18,840
+I'm saying that here, even though this term involves some y, but all of this y are only the
+
+1075
+01:56:18,840 --> 01:56:25,320
+past time output, why, because if you look at index, right, it always equal to n minus k,
+
+1076
+01:56:26,120 --> 01:56:32,920
+and all the k here are positive number, so we are taking only the past value of the output,
+
+1077
+01:56:33,320 --> 01:56:41,240
+okay, this is where the first term represent, they represent some past time output, they can,
+
+1078
+01:56:41,240 --> 01:56:47,320
+we can use them to represent the current time output, okay, the first term, the second term x,
+
+1079
+01:56:47,320 --> 01:56:53,560
+x means the input, right, but input can also involve current time input or past time input,
+
+1080
+01:56:53,560 --> 01:56:58,440
+so how should I know, I should look at the index, right, so the index here also equal
+
+1081
+01:56:58,440 --> 01:57:05,320
+to n minus k, but remember, be careful, here the k can be 0, right, if my k equal to 0,
+
+1082
+01:57:05,320 --> 01:57:12,600
+it means I'm using exactly the current time input, so here the second term involves both the
+
+1083
+01:57:12,600 --> 01:57:18,600
+current time input and the past time input, in other words, a general representation of our
+
+1084
+01:57:18,600 --> 01:57:23,720
+futures, right, in terms of the difference function, difference equation will be representing the
+
+1085
+01:57:23,720 --> 01:57:30,360
+current time output using the past time output together with current and the past time input,
+
+1086
+01:57:30,360 --> 01:57:38,440
+this is a general expression for any kind of filters, okay, now what makes a difference for
+
+1087
+01:57:38,440 --> 01:57:44,600
+IIR and FIR, remember there are two kind of filters, right, if you view the filter in terms of how
+
+1088
+01:57:44,600 --> 01:57:51,560
+many spikes you have in the impulse response, IIR and FIR, these are two categories we're just saying,
+
+1089
+01:57:51,560 --> 01:58:01,240
+right, so if you are talking about an IIR, it means this term, this term can be non-zero,
+
+1090
+01:58:03,960 --> 01:58:10,200
+let me repeat, right, if you have a difference equation that do involve some contribution
+
+1091
+01:58:10,200 --> 01:58:18,840
+from the past time output, it means this is an IIR, okay, so if you don't see this term,
+
+1092
+01:58:19,400 --> 01:58:24,760
+for example here, right, if you see a difference function only representing the output using
+
+1093
+01:58:24,760 --> 01:58:34,360
+the past time input or current time input, this is an IIR, okay, this is, this is, why,
+
+1094
+01:58:34,360 --> 01:58:43,160
+how you can tell whether it's IIR from the difference equation, okay, all right, so this is
+
+1095
+01:58:43,160 --> 01:58:47,640
+one thing we can, oh sorry, oops, what happened, okay, this is one thing, okay, this is one thing
+
+1096
+01:58:47,720 --> 01:58:56,840
+you can use to tell, and also you can view the FIR as a special case of the IIR, why, because for
+
+1097
+01:58:56,840 --> 01:59:04,920
+IIR if you let the decay, which is the coefficients, to be all zero, you can reduce the IIR representation
+
+1098
+01:59:04,920 --> 01:59:12,360
+into an FIR, so in some way, in this perspective, you can actually view the FIR as a special case of
+
+1099
+01:59:12,360 --> 01:59:24,280
+the IIR, right, makes sense, so this is how you can view it, right, so the actual implementation,
+
+1100
+01:59:24,280 --> 01:59:29,560
+right, there will be correspondingly the design principle for FIR and the design principle for
+
+1101
+01:59:29,560 --> 01:59:35,960
+IIR, right, and actually implementation depends on, you know, kind of either in software or hardware
+
+1102
+01:59:35,960 --> 01:59:41,320
+form, right, depends on the applications, so now we have to talk about the structure, right,
+
+1103
+01:59:41,320 --> 01:59:51,480
+so what is the, you know, so how can we kind of design this digital filter structure using,
+
+1104
+01:59:51,480 --> 01:59:59,160
+for example, a certain principle to design, for example, FIR, right, so let's see what this
+
+1105
+01:59:59,160 --> 02:00:05,560
+slide's talking about is a practical interest, okay, using an interconnect in the basic building,
+
+1106
+02:00:05,560 --> 02:00:10,920
+so the first, okay, I don't even know what this talking about actually, but anyway,
+
+1107
+02:00:10,920 --> 02:00:15,240
+so what I want to say is that, okay, like I mentioned, right, just now I explained FFT,
+
+1108
+02:00:15,240 --> 02:00:19,880
+right, I'm saying that you can represent some filters in the mathematics form, right, if you
+
+1109
+02:00:19,880 --> 02:00:23,880
+remember I showed you the mathematics form of FFT in the first place, later I'll show you another
+
+1110
+02:00:23,880 --> 02:00:29,320
+block diagram, the butterfly diagram if you remember, right, to show equivalently what I
+
+1111
+02:00:29,320 --> 02:00:35,480
+explained the mathematics form, so why people are interested in that diagram, I mean, of course,
+
+1112
+02:00:35,480 --> 02:00:40,360
+sometimes it's simpler, right, for example, the FFT case, they keep showing how you can divide
+
+1113
+02:00:40,360 --> 02:00:46,120
+the eight points all the way to one point, but also people like it is because showing this
+
+1114
+02:00:46,120 --> 02:00:51,480
+diagram can also give you a straight forward way for filter design, because when you design the
+
+1115
+02:00:51,480 --> 02:00:57,000
+filter, you are doing nothing but assembly of those components together, right, so by showing
+
+1116
+02:00:57,000 --> 02:01:03,400
+the block diagram it's also the way to show how the filter is designed, right, so here's why we
+
+1117
+02:01:03,400 --> 02:01:09,720
+need to learn equivalently, right, how can we use this block diagram to represent, let's say,
+
+1118
+02:01:09,720 --> 02:01:15,320
+any filters in general, right, so we have already learned that you can represent a filter using
+
+1119
+02:01:15,320 --> 02:01:21,080
+a transfer function, using an impulse ratio, but these are mathematics form, right, theoretically
+
+1120
+02:01:21,080 --> 02:01:25,800
+they are good, but even if you know that it's not straightforward to design the filter,
+
+1121
+02:01:25,800 --> 02:01:30,520
+so here we have to learn that, okay, you can actually use a diagram or you call it a block
+
+1122
+02:01:30,520 --> 02:01:36,280
+diagram to represent the actual digital system that you want to design, okay, I think FFT is
+
+1123
+02:01:36,280 --> 02:01:42,120
+one example, really that's one example you can use the diagram to represent it, but here I wish to
+
+1124
+02:01:42,120 --> 02:01:48,760
+share with you the general way to represent the filter using the block, you know, block diagram,
+
+1125
+02:01:48,760 --> 02:01:55,720
+right, so to do so normally we need to use some building blocks of the diagram, right, some of
+
+1126
+02:01:55,720 --> 02:02:02,040
+them you have already saying in the FFT, for example this symbol means addition, you have two
+
+1127
+02:02:02,040 --> 02:02:08,120
+input, you want to sum them together, you will use this kind of addition, kind of a block to indicate
+
+1128
+02:02:08,120 --> 02:02:14,120
+you are doing adding two numbers, right, so normally the way is that if you write it like this, it
+
+1129
+02:02:14,120 --> 02:02:20,520
+means the output equal to x plus w, right, so adding or addition is one of the commonly used
+
+1130
+02:02:20,520 --> 02:02:26,680
+building blocks, another one is a multiplication, right, you want to multiply input with some number,
+
+1131
+02:02:27,240 --> 02:02:36,840
+you will just write a triangle to say that y equal to a times x, okay, remember this triangle,
+
+1132
+02:02:36,840 --> 02:02:42,200
+the direction matters, the input always go from the h and output go from the corner,
+
+1133
+02:02:42,200 --> 02:02:47,880
+right, this is how it means, actually the orientation matters for the multiplications,
+
+1134
+02:02:47,880 --> 02:02:53,480
+the last one may be a little bit new to you, right, you see this kind of block with z to
+
+1135
+02:02:53,480 --> 02:02:59,960
+power of minus one, so this is actually called the delay time delay operator, okay, how many of
+
+1136
+02:02:59,960 --> 02:03:05,160
+you have learned the z transform, I want to show you some of you learned z transform, right, so
+
+1137
+02:03:05,160 --> 02:03:13,160
+for those who do not know z transform, so z is nothing but e to power of minus j omega, sorry j
+
+1138
+02:03:13,160 --> 02:03:18,600
+omega, right, basically it's a simpler way to represent a Fourier transform basically, right,
+
+1139
+02:03:18,600 --> 02:03:24,600
+but because of that we learned that, right, if you have a phase shift in the frequency domain,
+
+1140
+02:03:24,600 --> 02:03:30,920
+it will be corresponding to a time delay in the time domain, remember we learned that, so
+
+1141
+02:03:30,920 --> 02:03:38,200
+when you want to implement a time delay in the time domain, it will be equivalent to impose a
+
+1142
+02:03:38,200 --> 02:03:43,240
+phase shift in the frequency domain, so that's why they will use a z to power of minus one to
+
+1143
+02:03:43,240 --> 02:03:48,760
+indicate that I'm multiplying a e to power of minus j omega in the frequency domain,
+
+1144
+02:03:48,760 --> 02:03:55,160
+which will be equivalently doing a delay of time by one in the time domain, okay, this is where the
+
+1145
+02:03:55,160 --> 02:04:00,440
+z minus one come from, all right, but basically if you see a block with z to power of minus one,
+
+1146
+02:04:00,440 --> 02:04:06,920
+it means all the signal will be delayed by one, right, it's very simple, so use these building
+
+1147
+02:04:06,920 --> 02:04:12,840
+blocks, you can use them to represent, I would say the commonly seen filters for this subject,
+
+1148
+02:04:12,840 --> 02:04:17,640
+and it's already good enough, right, like I mentioned, right, the advantage of using that is
+
+1149
+02:04:17,640 --> 02:04:21,560
+it's easy to write down a computational algorithm by just looking at the diagram,
+
+1150
+02:04:21,560 --> 02:04:27,080
+and also you can use this diagram to determine explicitly the relationship between the output
+
+1151
+02:04:27,080 --> 02:04:32,520
+and input, which is easy for design, all right, so let me show you some, and let me show you the
+
+1152
+02:04:32,520 --> 02:04:39,720
+principle of doing, I mean constructing the diagram, normally when you want to construct the diagram,
+
+1153
+02:04:39,720 --> 02:04:47,720
+you have to first write down the expression for the output signal of each adder as a sum of the
+
+1154
+02:04:47,720 --> 02:04:53,400
+input signal, right, so basically you have to develop a set of equations that relate
+
+1155
+02:04:53,400 --> 02:04:58,280
+the input and output signal in terms of all internal signals, and then eventually you want to
+
+1156
+02:04:58,280 --> 02:05:03,080
+eliminate the unwanted internal variable and obtain the expression, right, so these are basic
+
+1157
+02:05:03,080 --> 02:05:09,480
+steps, so you can start from the mathematical relationship of the original signal, and you
+
+1158
+02:05:09,480 --> 02:05:17,640
+break them down into multiple steps that can be represented using these modules, and eventually
+
+1159
+02:05:17,640 --> 02:05:22,200
+that's how you can write down the diagram, right, this is how you can design it, but another way
+
+1160
+02:05:22,200 --> 02:05:28,680
+you can, you can get for the question is that they can give you a diagram first, all right,
+
+1161
+02:05:28,680 --> 02:05:34,840
+and they want to analyze the diagram and write down what is the relationship between the x and y,
+
+1162
+02:05:34,840 --> 02:05:39,880
+okay, I would say this is the most common question you are seeing in an exam or in the homework or
+
+1163
+02:05:39,880 --> 02:05:44,920
+quiz, right, so I mean, and this is actually very important, we have to learn how to do this,
+
+1164
+02:05:44,920 --> 02:05:49,880
+all right, so let's look at this example, so as you can see this is a block diagram,
+
+1165
+02:05:50,600 --> 02:05:57,560
+where you can tell that there's an input x and there's output y, right, so the entire process
+
+1166
+02:05:57,560 --> 02:06:03,400
+here represents the system, basically the system processes the input and generate the output,
+
+1167
+02:06:03,400 --> 02:06:07,640
+but of course it's not very easy to tell, for example, the transfer function directly from
+
+1168
+02:06:07,640 --> 02:06:13,480
+this block diagram, because the block diagram only uses the fundamental building blocks, like
+
+1169
+02:06:13,480 --> 02:06:21,400
+addition, multiplications, or maybe delay, right, so our job is to derive, let's say the transfer
+
+1170
+02:06:21,400 --> 02:06:29,560
+function mathematically represent the filters from diagram here, okay, how to do it, so just
+
+1171
+02:06:29,560 --> 02:06:35,640
+now I'm saying that we're saying that if you want to write the block diagram from the equation,
+
+1172
+02:06:35,640 --> 02:06:42,600
+you have to divide the equation into multiple steps and make sure every step or every sub
+
+1173
+02:06:42,600 --> 02:06:48,520
+equation are representable using the building blocks, now we're doing the opposite, right,
+
+1174
+02:06:48,520 --> 02:06:56,600
+so we do have the block diagram, how can we get the equation, we have to first write down the simple
+
+1175
+02:06:56,600 --> 02:07:03,880
+relationship at a certain portion of the diagram, so for example, I can start from this part, right,
+
+1176
+02:07:03,880 --> 02:07:09,800
+I can tell that well this w1, even though this w1 is not the final input or final output, but
+
+1177
+02:07:09,800 --> 02:07:17,400
+that's the signal I get here, right, I can tell that this w1 will be obtained by adding, let's say x
+
+1178
+02:07:18,600 --> 02:07:25,400
+plus this branch, all right, remember this is a definition for summation, right, the addition operator
+
+1179
+02:07:25,400 --> 02:07:31,880
+says the output equal to the first branch plus the second branch, the first branch will be x,
+
+1180
+02:07:31,880 --> 02:07:38,360
+so I write x here, all right, the second branch you can tell that is equal to here, let's say this
+
+1181
+02:07:38,360 --> 02:07:44,280
+is s2, right, you give a name, right, this is anywhere intermediate kind of a signal, say if
+
+1182
+02:07:44,280 --> 02:07:53,560
+this is my s2, this branch equal to s2 multiplied by minus alpha, right, so the final w1 will be x
+
+1183
+02:07:53,560 --> 02:08:00,920
+minus alpha times s2, right, so I complete the simple equation only considering this junction,
+
+1184
+02:08:02,680 --> 02:08:10,200
+all right, so your step one is always write down the simple equation considering only let's say
+
+1185
+02:08:10,200 --> 02:08:17,800
+one junction using those intermediate signal or variables, okay, you can do the same thing for
+
+1186
+02:08:17,800 --> 02:08:25,000
+w2, right, w2 for example here equals to, so what is this, this is actually w1, right, w1 comes here,
+
+1187
+02:08:25,000 --> 02:08:32,280
+become the first branch, now second branch equal to s1 multiplied by minus you know sigma, right,
+
+1188
+02:08:32,280 --> 02:08:39,160
+so you can do them sum together, give you w2, all right, you do the same thing for this junction
+
+1189
+02:08:39,160 --> 02:08:47,080
+and for this junction, you got w3 and you got w1, right, w, sorry, y, you got y, y is here,
+
+1190
+02:08:47,080 --> 02:08:52,040
+this is coming from this junction, w3 coming from this junction, so you can use those key
+
+1191
+02:08:52,040 --> 02:08:59,080
+junctions to write multiple but simple equations by considering the fundamental building blocks,
+
+1192
+02:08:59,080 --> 02:09:03,880
+but make sure you cover all the building blocks, all right, if you don't cover all the building
+
+1193
+02:09:03,880 --> 02:09:09,240
+blocks, you may miss some information, okay, now what's next, now you have four equations,
+
+1194
+02:09:09,240 --> 02:09:15,000
+but of course none of this equation will tell you directly what is y over x, the transfer function,
+
+1195
+02:09:15,000 --> 02:09:21,240
+right, so the second thing you do is to simplify them, okay, let's see how many variables we have,
+
+1196
+02:09:21,240 --> 02:09:30,760
+we actually have w1, w2, w3, s1 and s2, right, so these are the so-called intermediate variables,
+
+1197
+02:09:30,760 --> 02:09:37,880
+so our job is to cancel all of them and to only leave x and y in one equations because
+
+1198
+02:09:37,880 --> 02:09:43,640
+that's how you can get the transfer function, so you can do some kind of simple trick, for example,
+
+1199
+02:09:43,640 --> 02:09:49,320
+here you can easily tell that s1 here, right, how can I get s1, s1 will be getting from the
+
+1200
+02:09:49,320 --> 02:09:58,120
+w2 multiplied by phase delay, right, so you can use the s1 equal to w1, w2 phase delay and also
+
+1201
+02:09:58,120 --> 02:10:05,080
+s2 here is equal to w3 by phase delay, so these two will help you to kill two intermediate variables,
+
+1202
+02:10:05,080 --> 02:10:14,440
+right, so eventually you are saved two and you will have w1, w2, w3, three intermediate variables
+
+1203
+02:10:14,440 --> 02:10:19,960
+plus two, you know, input output variables, so now you can perfectly solve, let's say,
+
+1204
+02:10:20,840 --> 02:10:25,320
+you know, how should I say, three unknowns with four equations which is definitely solvable,
+
+1205
+02:10:25,320 --> 02:10:29,240
+so you can do all of this kind of cancellation, for example, you can starting from the second
+
+1206
+02:10:29,240 --> 02:10:35,720
+equation to get rid of one of the, let's say, w3, right, also you can use the third equation to
+
+1207
+02:10:35,720 --> 02:10:41,080
+get rid of some of them, so to come combine them, right, I won't go into detail, but I believe all
+
+1208
+02:10:41,080 --> 02:10:45,960
+of you can know how to cancel variables, right, using multiple linear equations, but all of them,
+
+1209
+02:10:45,960 --> 02:10:52,120
+by doing all of them, right, your job is to cancel or to kill w1, w2, w3 because all of them are
+
+1210
+02:10:52,120 --> 02:10:57,240
+intermediate, you invented them, but you have to get rid of them, right, and only ways are there
+
+1211
+02:10:57,240 --> 02:11:03,800
+constant in your final expression, okay, so your final expression will still keep the y and x
+
+1212
+02:11:04,680 --> 02:11:10,600
+because they are the actual input and output, you can keep all of these very, the constant
+
+1213
+02:11:10,600 --> 02:11:17,240
+which are introduced by the multiplication, right, and divide x, sorry, divide y with x,
+
+1214
+02:11:17,960 --> 02:11:23,080
+so these will be your final transfer function, right, because transfer function is defined as
+
+1215
+02:11:23,080 --> 02:11:29,320
+the final output spectrum divided by the final input spectrum, using the z-transform, right,
+
+1216
+02:11:29,320 --> 02:11:36,840
+so these are, this is actually the overall transfer function, then you can derive from the equivalent
+
+1217
+02:11:36,840 --> 02:11:43,800
+block diagram, all right, so let me just repeat, right, or let me just summarize what we have done,
+
+1218
+02:11:44,760 --> 02:11:51,560
+so the question, what the question gave you is just a block diagram, right, the block diagram
+
+1219
+02:11:51,560 --> 02:11:56,920
+uniquely determining what is the system, what is the filter, all right, so your job is to derive
+
+1220
+02:11:56,920 --> 02:12:04,280
+the transfer function of the filter, so where do you start with, you start with the key conjunction
+
+1221
+02:12:05,160 --> 02:12:10,760
+within the plug diagram, so very likely you can use the addition sign as the key junction, right,
+
+1222
+02:12:10,760 --> 02:12:17,560
+so here we've got four addition signs, you can use them to formulate four simple equations
+
+1223
+02:12:17,560 --> 02:12:24,120
+describing the relationship in that junction, plus there are also some kind of relationship
+
+1224
+02:12:24,120 --> 02:12:31,960
+between, let's say, W2 and S1, W3 and S2, right, but here you actually have six equations with
+
+1225
+02:12:31,960 --> 02:12:38,920
+how many unknown, right, W1, W2, W3, S1 and S2, so you have five intermediate variables,
+
+1226
+02:12:38,920 --> 02:12:43,800
+you want to get rid of, you have six equations, you should be able to kill all of them, only leave
+
+1227
+02:12:43,800 --> 02:12:50,680
+Y and X survive, right, so your job is to use all of this equation, get rid of the intermediate
+
+1228
+02:12:50,680 --> 02:12:55,560
+variable, even though you can start with them, but you have to somehow remove them by cancellation,
+
+1229
+02:12:55,560 --> 02:13:01,480
+right, you can do all sorts of cancellations you like, all the way until you only have the
+
+1230
+02:13:01,480 --> 02:13:07,480
+constant or phase delay introduced by the block diagram to form your final transfer function,
+
+1231
+02:13:07,480 --> 02:13:14,760
+so your job is to find the kind of a single line equation representing Y divided by X,
+
+1232
+02:13:15,880 --> 02:13:19,640
+right, so this will be the final destination, so if you reach here you actually get the answer,
+
+1233
+02:13:19,640 --> 02:13:25,480
+right, this is actually the transfer function, so this is one example, I hope you give you
+
+1234
+02:13:25,480 --> 02:13:32,520
+how you can actually translate a block diagram to a mathematical expression of a transfer function,
+
+1235
+02:13:32,520 --> 02:13:38,120
+but both of them are representing the same system, just two different ways, but you have to know
+
+1236
+02:13:38,120 --> 02:13:47,240
+how you can go from one to the other, right, okay, so any question for this, I mean it's important
+
+1237
+02:13:47,240 --> 02:13:52,440
+and I wish you can know, at least know the principle, step one, step two, step three, right,
+
+1238
+02:13:53,480 --> 02:14:00,440
+so any question about this example, we're better clear now, all right, so okay one common question
+
+1239
+02:14:00,440 --> 02:14:05,720
+is that, you know, you somehow get a fewer equation than you need, right, for example,
+
+1240
+02:14:05,720 --> 02:14:11,160
+I only get the four, right, I find oh I have six, maybe five variables, intermediate variable,
+
+1241
+02:14:11,160 --> 02:14:18,440
+but only have four, then you must miss something, okay, you will always have, let's say you have
+
+1242
+02:14:18,440 --> 02:14:23,400
+n intermediate variable, you should always have n plus one equations, okay, if you somehow find
+
+1243
+02:14:23,400 --> 02:14:29,080
+you got fewer, you keep finding, you must be able to find some more, all right, so the principle is
+
+1244
+02:14:29,080 --> 02:14:35,640
+this, except for x and y, okay, all of these intermediate variables, let's say n, you have to
+
+1245
+02:14:35,640 --> 02:14:43,000
+got n plus one equation, that's how you can solve it, all right, so check until you have n plus
+
+1246
+02:14:43,000 --> 02:14:47,800
+one equation, then you can start to do this kind of elimination, cancellation of the intermediate
+
+1247
+02:14:47,800 --> 02:14:58,680
+variables, right, otherwise you cannot get rid of all of them, okay, good, okay, great, so I mean
+
+1248
+02:14:58,680 --> 02:15:03,880
+this is one of the important things I want to emphasize, of course, right, this is a general
+
+1249
+02:15:03,880 --> 02:15:10,040
+way, right, general way we show that how you can go from a block diagram to get the actual
+
+1250
+02:15:10,040 --> 02:15:16,680
+transfer function, well, there are some special type of block diagrams, so first of all, if I give
+
+1251
+02:15:16,680 --> 02:15:22,520
+you a transfer function, there are actually many many ways to design the block diagram, so this
+
+1252
+02:15:22,520 --> 02:15:28,440
+is not unique, block diagram is not unique, you can have multiple ways to design the block diagram
+
+1253
+02:15:28,520 --> 02:15:34,680
+to represent the same transfer function, all right, and because of that, we sometimes, we don't want
+
+1254
+02:15:34,680 --> 02:15:39,880
+to the structure of the block diagram to be arbitrary, to be random, we want the structure
+
+1255
+02:15:39,880 --> 02:15:46,600
+of the diagram to be something compact, right, we want to minimize the design, so this is why we
+
+1256
+02:15:46,600 --> 02:15:54,760
+need to ensure that the structure or the diagram is called, you know, canonical kind of structure,
+
+1257
+02:15:54,760 --> 02:15:59,320
+okay, so what does that mean? Well, if you say a structure is canonical,
+
+1258
+02:16:00,680 --> 02:16:07,640
+it means the number of delays in the block diagram will be exactly equal to the order
+
+1259
+02:16:07,640 --> 02:16:12,920
+of the transfer function, okay, so first of all, what is the order of the transfer function, right,
+
+1260
+02:16:12,920 --> 02:16:19,160
+here's one example, suppose this is my so-called difference equation, difference equation can be
+
+1261
+02:16:19,160 --> 02:16:23,880
+easily transferred to a transfer function, right, by the way, but you can analyze the order also
+
+1262
+02:16:23,880 --> 02:16:28,360
+from the difference equation, so this difference equation, remember difference equation, right
+
+1263
+02:16:28,360 --> 02:16:33,960
+hand side got two parts, right, one coming from pass time output, one coming from the input,
+
+1264
+02:16:33,960 --> 02:16:41,640
+right, you look at what's the highest order of each of the polynomial, okay, so this polynomial,
+
+1265
+02:16:41,640 --> 02:16:48,440
+what is the highest order? One, right, so and this polynomial is also one, so in other words, the
+
+1266
+02:16:49,400 --> 02:16:56,600
+order of this transfer function should be one, it's a first order transfer function, so the
+
+1267
+02:16:56,600 --> 02:17:04,760
+canonical structure should also have only one delay function or delay block module in the diagram,
+
+1268
+02:17:05,720 --> 02:17:11,960
+if you have a block diagram representing this transfer function with only one delay module,
+
+1269
+02:17:11,960 --> 02:17:17,640
+that means that structure is canonical, okay, apparently this one is not because this one
+
+1270
+02:17:17,640 --> 02:17:24,760
+you can find two delay module, right, that means this block diagram must be, what should I say,
+
+1271
+02:17:24,760 --> 02:17:29,240
+redundant, so there will be some redundant structure in this block diagram, it can be
+
+1272
+02:17:29,240 --> 02:17:35,160
+further simplified, right, so which means this structure is, we call the non-canonic, not kind
+
+1273
+02:17:35,160 --> 02:17:40,680
+of minimized or not compact, right, because it used two delay to realize a first order difference
+
+1274
+02:17:40,680 --> 02:17:46,680
+equation, right, so the reason we love canonical structures is because it gives you the minimum
+
+1275
+02:17:46,680 --> 02:17:52,680
+cost when you actually pass this block diagram for implementation, right, you definitely want to
+
+1276
+02:17:52,680 --> 02:17:58,440
+minimize the structure such that the implementation can lower the cost, right, this is the principle,
+
+1277
+02:18:00,760 --> 02:18:05,800
+so I mean this is just some example for you to, for you to check, right, so you can't get something
+
+1278
+02:18:05,800 --> 02:18:11,400
+like this, I mean, suppose this is your exam question, right, so say, hey, I kind of give you
+
+1279
+02:18:11,400 --> 02:18:17,400
+this block diagram, right, so they want you to first determine the transform function and
+
+1280
+02:18:17,400 --> 02:18:23,800
+want you to answer or to check, is this kind of block diagram canonical or not, all right,
+
+1281
+02:18:23,800 --> 02:18:28,840
+so you can have something like this in the exam, so how should you do this, well you have to think
+
+1282
+02:18:28,840 --> 02:18:35,160
+as yourself, right, how can I determine whether a block diagram is canonical or not, right,
+
+1283
+02:18:35,160 --> 02:18:41,000
+the principle is to check or count how many delay I have and compare to the order of my
+
+1284
+02:18:41,000 --> 02:18:46,040
+transform function, all right, is it hard to count the number of delays, it's not hard, right,
+
+1285
+02:18:46,040 --> 02:18:49,560
+you can just say well I have how many, one, two, three, four, I have four delays, right, in the
+
+1286
+02:18:49,560 --> 02:18:54,360
+blocks, the thing you do not know for sure is what's the order of the transfer function,
+
+1287
+02:18:55,320 --> 02:19:01,560
+so the key here is you should always first compute the transfer function and that's how
+
+1288
+02:19:01,560 --> 02:19:06,040
+you can compare, right, so how can we come compute the transfer function, we just learned this,
+
+1289
+02:19:06,040 --> 02:19:11,080
+you start from the some key conjunction, junction in the block diagram for example here,
+
+1290
+02:19:11,080 --> 02:19:16,600
+here and here can form the three junction maybe here as well, you can form a least of equation
+
+1291
+02:19:16,600 --> 02:19:23,240
+using this junctions, right, and somehow cancel all of these intermediate variables to learn it
+
+1292
+02:19:23,240 --> 02:19:29,480
+at a transfer function, okay, you have to get this first and this is how you can tell the order,
+
+1293
+02:19:29,480 --> 02:19:34,520
+right, how to tell the order, well you look at the numerator and the denominator, so apparently
+
+1294
+02:19:34,520 --> 02:19:39,400
+this for the both numerator and the denominator, these are second order, right, because the delay
+
+1295
+02:19:39,400 --> 02:19:45,800
+got two, right, you got second order, polynomial, that means this is a second order kind of transfer
+
+1296
+02:19:45,800 --> 02:19:51,240
+function, that means if this block got only two delays, that that's going to be a cononic,
+
+1297
+02:19:51,240 --> 02:19:57,640
+right, apparently these doubles, so this is not a cononic function, a cononic structure because
+
+1298
+02:19:57,640 --> 02:20:04,680
+it got more than needed in terms of number of delay blocks, okay, so always if you want to do
+
+1299
+02:20:04,680 --> 02:20:09,960
+something, you think about do I have all the condition I need to make a decision, right,
+
+1300
+02:20:09,960 --> 02:20:15,160
+to decide whether structure is cononic, I need to know two things, first one is how many delays
+
+1301
+02:20:15,160 --> 02:20:21,400
+I have in the block, the second thing is what's the order of my transfer function, okay, the first
+
+1302
+02:20:21,400 --> 02:20:25,720
+thing is easy to count, the second thing is you have to compute, right, so always compute the
+
+1303
+02:20:25,800 --> 02:20:31,400
+transfer function, count your number of delay, compare the two, if they are equal, that means
+
+1304
+02:20:31,400 --> 02:20:37,000
+it's cononic, if not equal, very likely you got more than needed in the block diagram,
+
+1305
+02:20:37,000 --> 02:20:42,840
+that means it's actually non-cononic, right, so this is a common pipeline when you do the question
+
+1306
+02:20:42,840 --> 02:20:48,520
+like this, okay, but of course you have to know how to compute the transfer function, right,
+
+1307
+02:20:48,520 --> 02:20:53,160
+if you do not know how to do this, I cannot help you, all right, so you have to go back to the
+
+1308
+02:20:53,160 --> 02:20:59,400
+process, right, example here, this example shows you how you can exactly compute the transfer
+
+1309
+02:20:59,400 --> 02:21:06,840
+function from a given block diagram, right, and then this example tells you how you can link the
+
+1310
+02:21:06,840 --> 02:21:13,240
+transfer function to the actual, you know, the property whether the block is, the block diagram
+
+1311
+02:21:13,240 --> 02:21:24,040
+is cononic or not, right, okay, clear everybody, is it, makes sense for everyone, all right,
+
+1312
+02:21:24,040 --> 02:21:29,320
+so make sure you can do this, okay, I say this twice means it's important and it could be
+
+1313
+02:21:30,040 --> 02:21:35,480
+somewhere in the exam or, you know, homework or quiz, right, I hope you, you know what I mean,
+
+1314
+02:21:35,480 --> 02:21:40,280
+right, so but you make sure you can do this and you know, make sure you know all of these definitions,
+
+1315
+02:21:40,280 --> 02:21:45,880
+right, okay, so one last thing I want to cover, I finish this, I can end the lecture today, so
+
+1316
+02:21:47,160 --> 02:21:53,080
+just now I say that, you know, if I give you a transfer function, let's say to represent a system,
+
+1317
+02:21:53,080 --> 02:21:59,080
+right, you can get more than one block diagram, in fact you can get many, infinitely many block
+
+1318
+02:21:59,080 --> 02:22:04,920
+diagrams if you want, right, but if I give you a block diagram, there should be a unique transfer
+
+1319
+02:22:04,920 --> 02:22:11,000
+function, so it's one too many, right, the relationship is one too many, okay, because of that,
+
+1320
+02:22:11,880 --> 02:22:17,240
+if I give you a block diagram, right, it's possible for you to find another block diagram,
+
+1321
+02:22:17,240 --> 02:22:22,360
+which represent the same transfer function, makes sense, right, because it's one too many, right,
+
+1322
+02:22:22,360 --> 02:22:29,640
+so these two block diagram, if they are representing the same transfer function, we call the two as
+
+1323
+02:22:29,640 --> 02:22:36,520
+the equivalent structure of the equivalent block diagram, so the equivalent means even though they
+
+1324
+02:22:36,520 --> 02:22:42,840
+look very different, but they are representing the same system or same filter, right, so that's why
+
+1325
+02:22:42,840 --> 02:22:48,120
+we say that we define two digital filter structure to be the equivalent if they have the same transfer
+
+1326
+02:22:48,120 --> 02:22:56,920
+function, right, so now the question is like, can I have a way to find an equivalent diagram if I
+
+1327
+02:22:56,920 --> 02:23:02,200
+have one, okay, well I want to do this because sometimes one version is hard to implement,
+
+1328
+02:23:02,200 --> 02:23:05,880
+I want to go for another version, right, maybe another version may be becomes easier, right,
+
+1329
+02:23:05,880 --> 02:23:13,640
+so there are many ways to generate the equivalent structure by giving a block diagram, but we're
+
+1330
+02:23:13,640 --> 02:23:18,600
+going to learn one, okay, not every method, but one method because it's simple, all right, so this
+
+1331
+02:23:18,600 --> 02:23:25,240
+method is called a transpose operation, okay, so what does the transpose means, because if I give you
+
+1332
+02:23:25,320 --> 02:23:31,880
+a filter like, sorry, a structure like this and I want to find let's say one specific equivalent
+
+1333
+02:23:31,880 --> 02:23:39,480
+structure, I can actually do the following step to find the transpose of this block diagram,
+
+1334
+02:23:39,480 --> 02:23:45,880
+so here's what I mean by transpose, right, so you have to first reverse all of the pass direction,
+
+1335
+02:23:45,880 --> 02:23:51,800
+okay, so what is pass direction, if you see a line here, right, every kind of a signal have a path
+
+1336
+02:23:52,440 --> 02:23:57,160
+and there's a direction indicating by this arrow, right, so this arrow means the signal goes down
+
+1337
+02:23:58,360 --> 02:24:05,160
+through the multiplication, right, so the step one you have to do is make the direction reversed
+
+1338
+02:24:05,160 --> 02:24:10,040
+for every path, okay, so if the original is like this, I have to go the other way around,
+
+1339
+02:24:11,000 --> 02:24:18,200
+all right, so step one reverse all the pass direction, step two replace the pick off nodes,
+
+1340
+02:24:18,200 --> 02:24:24,360
+so this is actually, this is actually a pick off node, means the signal will be branched into two
+
+1341
+02:24:24,360 --> 02:24:32,440
+from one, all right, so replace all of the pick off nodes with an adder, so if here this is a pick
+
+1342
+02:24:32,440 --> 02:24:39,000
+off node, make it an addition operator and vice versa, so if originally this is my addition,
+
+1343
+02:24:39,000 --> 02:24:47,160
+I make it a pick off, okay, so just swap the pick off nodes with the addition, this is step two,
+
+1344
+02:24:47,640 --> 02:24:52,840
+step three, interchange the input and output, so in other words this is going to be my y,
+
+1345
+02:24:52,840 --> 02:24:59,000
+this is going to be my x, all right, makes sense, very simple, change the order, change the direction
+
+1346
+02:24:59,000 --> 02:25:05,160
+of the path, replace pick off with addition, replace addition with pick off, swap the input
+
+1347
+02:25:05,160 --> 02:25:12,120
+and output, right, so you can easily find something to call the transpose diagram, right, so why
+
+1348
+02:25:12,120 --> 02:25:17,080
+we call the transpose, so I guess all of you know what is the transpose of a matrix, right,
+
+1349
+02:25:17,080 --> 02:25:21,560
+you can flip the matrix and make it a transpose, this is like when you flip the diagram, make the
+
+1350
+02:25:21,560 --> 02:25:28,600
+other diagram and by doing so, these two diagrams, even though they are different, they will be
+
+1351
+02:25:28,600 --> 02:25:37,080
+equivalent, so they will give you exactly the same transfer function, okay, but we have to do this
+
+1352
+02:25:37,080 --> 02:25:41,880
+in the correct way, right, so you have to exactly follow the three steps, if you miss anyone,
+
+1353
+02:25:41,880 --> 02:25:46,760
+you will be wrong, so the answer will be wrong, but if you follow exactly all the steps, you will
+
+1354
+02:25:46,760 --> 02:25:52,840
+get at least one equivalent representation and because of this is easy, so we just learned this,
+
+1355
+02:25:52,840 --> 02:25:58,280
+but it's very useful, right, because it's very easy to get some alternative version, hopefully it's
+
+1356
+02:25:58,280 --> 02:26:04,280
+going to be, how should I say, simpler, right, in the implementation, but I hope everybody knows,
+
+1357
+02:26:04,280 --> 02:26:13,560
+right, how I can get from here to here, any question, ask now, right, so it makes sense for
+
+1358
+02:26:13,560 --> 02:26:21,000
+everyone, like how I can go from the top, this is my original diagram, I want to find the equivalent,
+
+1359
+02:26:21,000 --> 02:26:26,200
+this is how I end up with, so how can I go from here to the bottom one, I'm doing the three steps,
+
+1360
+02:26:27,480 --> 02:26:31,320
+all right, so make sure you see the change, right, and make sure the change makes sense for you,
+
+1361
+02:26:32,120 --> 02:26:37,480
+okay, but it's a very simple change, I mean it shouldn't be hard to understand, but if you do
+
+1362
+02:26:37,480 --> 02:26:44,600
+this, you're well guaranteed to have an equivalent, I mean block diagram for any given one, all right,
+
+1363
+02:26:45,880 --> 02:26:53,000
+so by doing so, right, I mean there are other methods for for equivalent, but they are either
+
+1364
+02:26:53,000 --> 02:26:57,960
+very complicated or they may be based on some specific algorithm for structure, so we won't
+
+1365
+02:26:57,960 --> 02:27:05,480
+learn it, right, and in fact, if I give you a diagram, there should be, by theory, infinitely
+
+1366
+02:27:05,480 --> 02:27:11,560
+many number of equivalent structures, realizing the the same kind of transfer function, and you
+
+1367
+02:27:11,560 --> 02:27:18,120
+cannot, it's impossible to develop all the equivalent realization, so we will just focus on the
+
+1368
+02:27:18,120 --> 02:27:23,480
+common use structure for this course, so for any given kind of structure, you should be able to
+
+1369
+02:27:23,480 --> 02:27:27,720
+apply that method to get equivalent, so you don't need to worry about other methods, right,
+
+1370
+02:27:27,720 --> 02:27:32,360
+but there will be some special case which will be beyond the scope of this course, all right,
+
+1371
+02:27:33,480 --> 02:27:37,640
+okay, so I will just leave this for next time maybe, because it's already not as a promise,
+
+1372
+02:27:37,640 --> 02:27:43,880
+I'm going to end now, so there will be, you will see that there will be some slides removed from
+
+1373
+02:27:43,880 --> 02:27:47,640
+these lectures, I will move them to the next lecture, right, so there will be update of the
+
+1374
+02:27:47,640 --> 02:27:52,840
+slide, so don't be surprised if you see that, and I could have some updates for the next week,
+
+1375
+02:27:52,920 --> 02:27:58,840
+so do check updated version once I make a change, and if you see some slides, I remove them,
+
+1376
+02:27:58,840 --> 02:28:02,120
+means you don't need to worry about them, they won't be examined, they won't be taught,
+
+1377
+02:28:03,080 --> 02:28:07,560
+you only focus on the content I cover in the lecture, it should be enough, okay,
+
+1378
+02:28:08,520 --> 02:28:22,680
+okay, great, thank you, let's end today, I hope you can catch the bus, right, thank you, I'll see you next week.
+
+1379
+02:29:22,840 --> 02:29:30,680
+Thank you, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye, bye
+
+1380
+02:29:52,840 --> 02:29:53,740
+you
+
+1381
+02:30:22,840 --> 02:30:23,740
+you
+
