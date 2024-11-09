@@ -1,0 +1,3436 @@
+1
+00:00:00,000 --> 00:00:02,000
+.
+
+2
+00:00:30,000 --> 00:00:32,000
+.
+
+3
+00:01:00,000 --> 00:01:02,000
+.
+
+4
+00:01:30,000 --> 00:01:32,000
+.
+
+5
+00:02:00,000 --> 00:02:02,000
+.
+
+6
+00:02:30,000 --> 00:02:32,000
+.
+
+7
+00:03:00,000 --> 00:03:02,000
+.
+
+8
+00:03:30,000 --> 00:03:32,000
+.
+
+9
+00:04:00,000 --> 00:04:02,000
+.
+
+10
+00:04:30,000 --> 00:04:32,000
+.
+
+11
+00:05:00,000 --> 00:05:02,000
+.
+
+12
+00:05:30,000 --> 00:05:32,000
+.
+
+13
+00:06:00,000 --> 00:06:02,000
+.
+
+14
+00:06:30,000 --> 00:06:32,000
+.
+
+15
+00:07:00,000 --> 00:07:02,000
+.
+
+16
+00:07:30,000 --> 00:07:32,000
+.
+
+17
+00:08:00,000 --> 00:08:02,000
+.
+
+18
+00:08:30,000 --> 00:08:32,000
+.
+
+19
+00:09:00,000 --> 00:09:02,000
+.
+
+20
+00:09:30,000 --> 00:09:32,000
+.
+
+21
+00:10:00,000 --> 00:10:02,000
+.
+
+22
+00:10:30,000 --> 00:10:32,000
+.
+
+23
+00:11:00,000 --> 00:11:02,000
+.
+
+24
+00:11:30,000 --> 00:11:32,000
+.
+
+25
+00:12:00,000 --> 00:12:02,000
+.
+
+26
+00:12:30,000 --> 00:12:32,000
+.
+
+27
+00:13:00,000 --> 00:13:02,000
+.
+
+28
+00:13:30,000 --> 00:13:32,000
+.
+
+29
+00:14:00,000 --> 00:14:02,000
+.
+
+30
+00:14:30,000 --> 00:14:32,000
+.
+
+31
+00:15:00,000 --> 00:15:02,000
+.
+
+32
+00:15:30,000 --> 00:15:32,000
+.
+
+33
+00:16:00,000 --> 00:16:02,000
+.
+
+34
+00:16:30,000 --> 00:16:32,000
+.
+
+35
+00:17:00,000 --> 00:17:02,000
+.
+
+36
+00:17:30,000 --> 00:17:32,000
+.
+
+37
+00:18:00,000 --> 00:18:02,000
+.
+
+38
+00:18:30,000 --> 00:18:32,000
+.
+
+39
+00:19:00,000 --> 00:19:02,000
+.
+
+40
+00:19:30,000 --> 00:19:32,000
+.
+
+41
+00:20:00,000 --> 00:20:02,000
+.
+
+42
+00:20:30,000 --> 00:20:32,000
+.
+
+43
+00:21:00,000 --> 00:21:02,000
+.
+
+44
+00:21:30,000 --> 00:21:32,000
+.
+
+45
+00:22:00,000 --> 00:22:02,000
+.
+
+46
+00:22:30,000 --> 00:22:32,000
+.
+
+47
+00:23:00,000 --> 00:23:02,000
+.
+
+48
+00:23:30,000 --> 00:23:32,000
+.
+
+49
+00:24:00,000 --> 00:24:02,000
+.
+
+50
+00:24:30,000 --> 00:24:32,000
+.
+
+51
+00:25:00,000 --> 00:25:02,000
+.
+
+52
+00:25:30,000 --> 00:25:32,000
+.
+
+53
+00:26:00,000 --> 00:26:02,000
+.
+
+54
+00:26:30,000 --> 00:26:32,000
+.
+
+55
+00:27:00,000 --> 00:27:02,000
+.
+
+56
+00:27:30,000 --> 00:27:32,000
+.
+
+57
+00:28:00,000 --> 00:28:02,000
+.
+
+58
+00:28:30,000 --> 00:28:32,000
+.
+
+59
+00:29:00,000 --> 00:29:02,000
+.
+
+60
+00:29:30,000 --> 00:29:32,000
+.
+
+61
+00:30:00,000 --> 00:30:02,000
+.
+
+62
+00:30:30,000 --> 00:30:32,000
+.
+
+63
+00:31:00,000 --> 00:31:02,000
+.
+
+64
+00:31:30,000 --> 00:31:32,000
+.
+
+65
+00:32:00,000 --> 00:32:02,000
+.
+
+66
+00:32:30,000 --> 00:32:32,000
+.
+
+67
+00:33:00,000 --> 00:33:02,000
+.
+
+68
+00:33:30,000 --> 00:33:32,000
+.
+
+69
+00:34:00,000 --> 00:34:02,000
+.
+
+70
+00:34:30,000 --> 00:34:32,000
+.
+
+71
+00:35:00,000 --> 00:35:02,000
+.
+
+72
+00:35:30,000 --> 00:35:32,000
+.
+
+73
+00:36:00,000 --> 00:36:02,000
+.
+
+74
+00:36:30,000 --> 00:36:32,000
+.
+
+75
+00:37:00,000 --> 00:37:02,000
+.
+
+76
+00:37:30,000 --> 00:37:32,000
+.
+
+77
+00:38:00,000 --> 00:38:02,000
+.
+
+78
+00:38:30,000 --> 00:38:32,000
+.
+
+79
+00:39:00,000 --> 00:39:02,000
+.
+
+80
+00:39:30,000 --> 00:39:32,000
+.
+
+81
+00:40:00,000 --> 00:40:02,000
+.
+
+82
+00:40:30,000 --> 00:40:32,000
+.
+
+83
+00:41:00,000 --> 00:41:02,000
+.
+
+84
+00:41:30,000 --> 00:41:32,000
+.
+
+85
+00:42:00,000 --> 00:42:02,000
+.
+
+86
+00:42:30,000 --> 00:42:32,000
+.
+
+87
+00:43:00,000 --> 00:43:02,000
+.
+
+88
+00:43:30,000 --> 00:43:32,000
+.
+
+89
+00:44:00,000 --> 00:44:02,000
+.
+
+90
+00:44:30,000 --> 00:44:32,000
+.
+
+91
+00:45:00,000 --> 00:45:02,000
+.
+
+92
+00:45:30,000 --> 00:45:32,000
+.
+
+93
+00:46:00,000 --> 00:46:02,000
+.
+
+94
+00:46:30,000 --> 00:46:32,000
+.
+
+95
+00:47:00,000 --> 00:47:02,000
+.
+
+96
+00:47:30,000 --> 00:47:32,000
+.
+
+97
+00:48:00,000 --> 00:48:02,000
+.
+
+98
+00:48:30,000 --> 00:48:32,000
+.
+
+99
+00:49:00,000 --> 00:49:02,000
+.
+
+100
+00:49:30,000 --> 00:49:32,000
+.
+
+101
+00:50:00,000 --> 00:50:02,000
+.
+
+102
+00:50:30,000 --> 00:50:32,000
+.
+
+103
+00:51:00,000 --> 00:51:02,000
+.
+
+104
+00:51:30,000 --> 00:51:32,000
+.
+
+105
+00:52:00,000 --> 00:52:02,000
+.
+
+106
+00:52:30,000 --> 00:52:32,000
+.
+
+107
+00:53:00,000 --> 00:53:02,000
+.
+
+108
+00:53:30,000 --> 00:53:32,000
+.
+
+109
+00:54:00,000 --> 00:54:02,000
+.
+
+110
+00:54:30,000 --> 00:54:32,000
+.
+
+111
+00:55:00,000 --> 00:55:02,000
+.
+
+112
+00:55:30,000 --> 00:55:32,000
+.
+
+113
+00:56:00,000 --> 00:56:02,000
+.
+
+114
+00:56:30,000 --> 00:56:32,000
+.
+
+115
+00:57:00,000 --> 00:57:02,000
+.
+
+116
+00:57:30,000 --> 00:57:32,000
+.
+
+117
+00:58:00,000 --> 00:58:02,000
+.
+
+118
+00:58:30,000 --> 00:58:32,000
+.
+
+119
+00:59:00,000 --> 00:59:02,000
+.
+
+120
+00:59:30,000 --> 00:59:32,000
+.
+
+121
+01:00:00,000 --> 01:00:02,000
+.
+
+122
+01:00:30,000 --> 01:00:32,000
+.
+
+123
+01:01:00,000 --> 01:01:02,000
+.
+
+124
+01:01:30,000 --> 01:01:32,000
+.
+
+125
+01:02:00,000 --> 01:02:02,000
+.
+
+126
+01:02:30,000 --> 01:02:32,000
+.
+
+127
+01:03:00,000 --> 01:03:02,000
+.
+
+128
+01:03:30,000 --> 01:03:32,000
+.
+
+129
+01:04:00,000 --> 01:04:02,000
+.
+
+130
+01:04:30,000 --> 01:04:32,000
+.
+
+131
+01:05:00,000 --> 01:05:02,000
+.
+
+132
+01:05:30,000 --> 01:05:32,000
+.
+
+133
+01:06:00,000 --> 01:06:02,000
+.
+
+134
+01:06:30,000 --> 01:06:32,000
+.
+
+135
+01:07:00,000 --> 01:07:02,000
+.
+
+136
+01:07:30,000 --> 01:07:32,000
+.
+
+137
+01:08:00,000 --> 01:08:02,000
+.
+
+138
+01:08:30,000 --> 01:08:32,000
+.
+
+139
+01:09:00,000 --> 01:09:02,000
+.
+
+140
+01:09:30,000 --> 01:09:32,000
+.
+
+141
+01:10:00,000 --> 01:10:02,000
+.
+
+142
+01:10:30,000 --> 01:10:32,000
+.
+
+143
+01:11:00,000 --> 01:11:02,000
+.
+
+144
+01:11:30,000 --> 01:11:32,000
+.
+
+145
+01:12:00,000 --> 01:12:02,000
+.
+
+146
+01:12:30,000 --> 01:12:32,000
+.
+
+147
+01:13:00,000 --> 01:13:02,000
+.
+
+148
+01:13:30,000 --> 01:13:32,000
+.
+
+149
+01:14:00,000 --> 01:14:02,000
+.
+
+150
+01:14:30,000 --> 01:14:32,000
+.
+
+151
+01:15:00,000 --> 01:15:02,000
+.
+
+152
+01:15:30,000 --> 01:15:32,000
+.
+
+153
+01:16:00,000 --> 01:16:02,000
+.
+
+154
+01:16:30,000 --> 01:16:32,000
+.
+
+155
+01:17:00,000 --> 01:17:02,000
+.
+
+156
+01:17:30,000 --> 01:17:32,000
+.
+
+157
+01:18:00,000 --> 01:18:02,000
+.
+
+158
+01:18:30,000 --> 01:18:32,000
+.
+
+159
+01:19:00,000 --> 01:19:02,000
+.
+
+160
+01:19:30,000 --> 01:19:32,000
+.
+
+161
+01:20:00,000 --> 01:20:02,000
+.
+
+162
+01:20:30,000 --> 01:20:32,000
+.
+
+163
+01:21:00,000 --> 01:21:02,000
+.
+
+164
+01:21:30,000 --> 01:21:32,000
+.
+
+165
+01:22:00,000 --> 01:22:02,000
+.
+
+166
+01:22:30,000 --> 01:22:32,000
+.
+
+167
+01:23:00,000 --> 01:23:02,000
+.
+
+168
+01:23:30,000 --> 01:23:32,000
+.
+
+169
+01:24:00,000 --> 01:24:02,000
+.
+
+170
+01:24:30,000 --> 01:24:32,000
+.
+
+171
+01:25:00,000 --> 01:25:02,000
+.
+
+172
+01:25:30,000 --> 01:25:32,000
+.
+
+173
+01:26:00,000 --> 01:26:02,000
+.
+
+174
+01:26:30,000 --> 01:26:32,000
+.
+
+175
+01:27:00,000 --> 01:27:02,000
+.
+
+176
+01:27:30,000 --> 01:27:32,000
+.
+
+177
+01:28:00,000 --> 01:28:02,000
+.
+
+178
+01:28:30,000 --> 01:28:32,000
+.
+
+179
+01:29:00,000 --> 01:29:02,000
+.
+
+180
+01:29:30,000 --> 01:29:32,000
+.
+
+181
+01:30:00,000 --> 01:30:02,000
+.
+
+182
+01:30:30,000 --> 01:30:32,000
+.
+
+183
+01:31:00,000 --> 01:31:02,000
+.
+
+184
+01:31:30,000 --> 01:31:32,000
+.
+
+185
+01:32:00,000 --> 01:32:02,000
+.
+
+186
+01:32:30,000 --> 01:32:32,000
+.
+
+187
+01:33:00,000 --> 01:33:02,000
+.
+
+188
+01:33:30,000 --> 01:33:32,000
+.
+
+189
+01:34:00,000 --> 01:34:02,000
+.
+
+190
+01:34:30,000 --> 01:34:32,000
+.
+
+191
+01:35:00,000 --> 01:35:02,000
+.
+
+192
+01:35:30,000 --> 01:35:32,000
+Okay, so welcome back.
+
+193
+01:35:32,000 --> 01:35:44,000
+Right, so there are a few students who asked regarding the assignment, so I think, yeah, it's probably time for me to just go through the instruction one more time.
+
+194
+01:35:44,000 --> 01:35:50,000
+Right, I know when you get old, you tend to be very repetitive, but just to make sure that no one missed this information.
+
+195
+01:35:50,000 --> 01:35:58,000
+Right, okay, so number one for this assignment, in terms of submission, please only submit one soft copy PDF file.
+
+196
+01:35:58,000 --> 01:36:00,000
+Okay, so only one file.
+
+197
+01:36:00,000 --> 01:36:02,000
+Don't submit anything more than one.
+
+198
+01:36:02,000 --> 01:36:06,000
+So one way you can do it is, for example, for this assignment, there's two parts.
+
+199
+01:36:06,000 --> 01:36:08,000
+One is a calculation.
+
+200
+01:36:08,000 --> 01:36:10,000
+The other is more like a report writing.
+
+201
+01:36:10,000 --> 01:36:16,000
+So what you can do is that for part one, when solving the problem, you can write on a piece of paper.
+
+202
+01:36:16,000 --> 01:36:18,000
+You can take pictures or you can scan it.
+
+203
+01:36:18,000 --> 01:36:22,000
+Right, and afterwards, you paste this particular picture into the work document.
+
+204
+01:36:22,000 --> 01:36:24,000
+Yeah, for example, for question one.
+
+205
+01:36:24,000 --> 01:36:28,000
+And afterwards, you continue with question two to write your answer.
+
+206
+01:36:28,000 --> 01:36:31,000
+Yeah, and then from this work document, you convert it into PDF.
+
+207
+01:36:31,000 --> 01:36:33,000
+So this is one way.
+
+208
+01:36:33,000 --> 01:36:38,000
+Of course, the other way you do it, but the most important thing is please only submit one file.
+
+209
+01:36:38,000 --> 01:36:44,000
+Because when I download the file for marking, I'm going to download, you know, 500 something file.
+
+210
+01:36:44,000 --> 01:36:48,000
+And sometimes if you don't follow the instruction, some of the file may be missing.
+
+211
+01:36:48,000 --> 01:36:53,000
+Okay, so therefore very, very important to submit only one soft copy PDF file.
+
+212
+01:36:53,000 --> 01:36:57,000
+Okay, and the deadline is 4th of October.
+
+213
+01:36:57,000 --> 01:37:04,000
+And also submit your file using this structure, surname, underscore, given name, underscore, matriculation number.
+
+214
+01:37:04,000 --> 01:37:12,000
+So for example, if the student's name is Tan, surname, underscore, I-Ming is the given name, underscore, matriculation number.
+
+215
+01:37:12,000 --> 01:37:17,000
+Please stick to this very, you know, stick to this particular standard.
+
+216
+01:37:17,000 --> 01:37:19,000
+Don't change your name.
+
+217
+01:37:19,000 --> 01:37:21,000
+You know, some people like to only use their nickname and so on.
+
+218
+01:37:21,000 --> 01:37:23,000
+And I cannot find who this person is.
+
+219
+01:37:23,000 --> 01:37:26,000
+Yeah, so it's going to create lots of problems.
+
+220
+01:37:26,000 --> 01:37:30,000
+So please only follow this naming approach.
+
+221
+01:37:30,000 --> 01:37:36,000
+Right, so write your full name and matriculation number on the first page just to be sure, right, in case there's some ambiguity.
+
+222
+01:37:36,000 --> 01:37:38,000
+But in the past, they are students.
+
+223
+01:37:38,000 --> 01:37:44,000
+We actually, they don't follow this instruction and we find it very difficult to find out who this person is.
+
+224
+01:37:44,000 --> 01:37:46,000
+Yeah, and then we have to look at the first page.
+
+225
+01:37:46,000 --> 01:37:49,000
+Yeah, so don't, I mean, make life easier for me.
+
+226
+01:37:49,000 --> 01:37:53,000
+If you make me happier, I'll make you happy more linearly.
+
+227
+01:37:53,000 --> 01:38:00,000
+Okay, so late submission or non-compliance, if you don't follow these instructions here, you may be penalised, okay?
+
+228
+01:38:00,000 --> 01:38:03,000
+Right, so the next is regarding the assignment.
+
+229
+01:38:03,000 --> 01:38:06,000
+So it's quite clear, this instruction is the same as before.
+
+230
+01:38:06,000 --> 01:38:07,000
+You have two questions.
+
+231
+01:38:07,000 --> 01:38:11,000
+So the first question is compute manually using this two-stage decomposition.
+
+232
+01:38:12,000 --> 01:38:19,000
+So this, when I say two-stage decomposition, what I mean is that you have to make use of this formula.
+
+233
+01:38:19,000 --> 01:38:22,000
+Compose it row by row and then column by column, right?
+
+234
+01:38:22,000 --> 01:38:24,000
+Don't use the matrix multiplication, yeah?
+
+235
+01:38:24,000 --> 01:38:29,000
+Use a row by row and then column by column, two-stage decomposition.
+
+236
+01:38:29,000 --> 01:38:35,000
+And then for this particular question two, right, it's supposed to be an open-ended problem.
+
+237
+01:38:35,000 --> 01:38:39,000
+And you're only asked to write one page, yeah, one page.
+
+238
+01:38:39,000 --> 01:38:47,000
+Right, so you can see that because you're only asked to write one page, there's only limited space you can write, okay?
+
+239
+01:38:47,000 --> 01:38:52,000
+So therefore, I don't expect you to write all these things here, okay?
+
+240
+01:38:52,000 --> 01:38:58,000
+Right, no, your one-page write-up doesn't have to be covering all these things.
+
+241
+01:38:58,000 --> 01:39:05,000
+It doesn't have to cover objective, application, train, challenges, you know, it's not that, yeah?
+
+242
+01:39:05,000 --> 01:39:11,000
+You just have to, for example, you can see here, objective, yes, you probably have to talk about objective.
+
+243
+01:39:11,000 --> 01:39:20,000
+But after works, you can either choose application or train or challenges or if you want a combination of one or two.
+
+244
+01:39:20,000 --> 01:39:23,000
+So you can see the sign here is all.
+
+245
+01:39:23,000 --> 01:39:28,000
+So therefore, you just choose one topic that you really feel is something that's important, yeah?
+
+246
+01:39:28,000 --> 01:39:38,000
+It's not supposed to be a comprehensive report or summary, but rather choose one or two topics that you feel is really important, you want to highlight it.
+
+247
+01:39:38,000 --> 01:39:43,000
+Okay, so it's not supposed to be a comprehensive report to cover every single aspect.
+
+248
+01:39:43,000 --> 01:39:47,000
+Yeah, you can just focus on the challenge or just focus on the train, okay?
+
+249
+01:39:47,000 --> 01:39:55,000
+Or just focus on some very interesting application you have encountered recently and you feel that it has an immediate impact, right?
+
+250
+01:39:55,000 --> 01:40:02,000
+For example, the CHET GPT-01 recently, yeah, that could be something that's very interesting recently, right?
+
+251
+01:40:02,000 --> 01:40:05,000
+You can see, yeah, what it can do, yeah?
+
+252
+01:40:05,000 --> 01:40:14,000
+And actually, just recently, I also see that one of the professor, I'm not sure whether it's from Harvard, they are teaching the mathematics.
+
+253
+01:40:14,000 --> 01:40:23,000
+So this, I think, math professor, they actually asked the student to use the, to train some LLM model.
+
+254
+01:40:23,000 --> 01:40:30,000
+And afterwards, this train model will then represent them to sit for some maths, you know, test, yeah?
+
+255
+01:40:30,000 --> 01:40:37,000
+And their score will be based on how well they train this particular model, LLM model to do the score.
+
+256
+01:40:37,000 --> 01:40:39,000
+So that could be something very interesting, yeah?
+
+257
+01:40:39,000 --> 01:40:48,000
+Because nowadays, there are so many tools there, if you really can develop or train a model to help you to solve the problem, right, it could be quite interesting as well.
+
+258
+01:40:48,000 --> 01:40:50,000
+So any, therefore, it's open-ended, yeah?
+
+259
+01:40:50,000 --> 01:40:54,000
+Please choose any topics that you feel is interesting, right?
+
+260
+01:40:54,000 --> 01:40:58,000
+It can be application, train, challenges, yeah?
+
+261
+01:40:58,000 --> 01:40:59,000
+Okay.
+
+262
+01:40:59,000 --> 01:41:00,000
+Any questions?
+
+263
+01:41:00,000 --> 01:41:05,000
+Yeah, because there are some students asking this, so I just want to clarify this.
+
+264
+01:41:05,000 --> 01:41:06,000
+All right, okay.
+
+265
+01:41:06,000 --> 01:41:08,000
+So then this part is clear.
+
+266
+01:41:08,000 --> 01:41:14,000
+And the submission, as I mentioned before, you just come to the assignment, you just click it, yeah?
+
+267
+01:41:14,000 --> 01:41:20,000
+And afterwards, you can just upload the file, just upload one PDF file, that's it, yeah?
+
+268
+01:41:20,000 --> 01:41:21,000
+End of the story.
+
+269
+01:41:21,000 --> 01:41:31,000
+And you are only given, I think, two or three times to submit it, so make sure that before you submit, you check everything is correct.
+
+270
+01:41:31,000 --> 01:41:32,000
+All right, okay.
+
+271
+01:41:32,000 --> 01:41:45,000
+So with that, actually, I just happen to have, let me see.
+
+272
+01:41:45,000 --> 01:41:48,000
+Yeah, I'm not sure whether some of you have seen it before, right?
+
+273
+01:41:48,000 --> 01:41:51,000
+So it's actually a video, yeah, it's in Chinese.
+
+274
+01:41:51,000 --> 01:41:57,000
+I cannot find any, you know, subtitle in English, so that's why I have to play this video in Chinese.
+
+275
+01:41:58,000 --> 01:42:03,000
+But for those of you who don't understand Chinese, you can't guess what it's trying to talk about.
+
+276
+01:42:03,000 --> 01:42:04,000
+It's about homework.
+
+277
+01:42:04,000 --> 01:42:06,000
+So if you have watched it before, yeah, just bear with me.
+
+278
+01:42:06,000 --> 01:42:11,000
+So let me just play this video for you.
+
+279
+01:42:11,000 --> 01:42:13,000
+It's very loud.
+
+280
+01:42:13,000 --> 01:42:20,000
+Okay, let me just reduce the volume a bit.
+
+281
+01:42:20,000 --> 01:42:27,000
+Right, and there may be a few slightly vulgar words I understand from my students, so just don't get offended.
+
+282
+01:42:51,000 --> 01:42:56,000
+Okay, let me just reduce the volume a bit.
+
+283
+01:42:56,000 --> 01:43:05,000
+Okay, let me just reduce the volume a bit.
+
+284
+01:43:20,000 --> 01:43:31,000
+Okay, let me just reduce the volume a bit.
+
+285
+01:43:50,000 --> 01:44:01,000
+Okay, let me just reduce the volume a bit.
+
+286
+01:44:20,000 --> 01:44:31,000
+Okay, let me just reduce the volume a bit.
+
+287
+01:44:50,000 --> 01:45:01,000
+Okay, let me just reduce the volume a bit.
+
+288
+01:45:20,000 --> 01:45:44,000
+Okay, so let's hope it will not happen to you.
+
+289
+01:45:44,000 --> 01:46:06,000
+Okay, so let's continue on.
+
+290
+01:46:06,000 --> 01:46:10,000
+So the next topic we're going to look at is the integer transform.
+
+291
+01:46:10,000 --> 01:46:16,000
+So as we have explained earlier on, so for 2.6.5, we use integer transform instead of DCT.
+
+292
+01:46:16,000 --> 01:46:18,000
+So why do we do that?
+
+293
+01:46:18,000 --> 01:46:25,000
+Right, so the reason why we use integer transform is that traditionally, DCT may cause some prediction shift.
+
+294
+01:46:25,000 --> 01:46:31,000
+So what it means is that DCT, because it's actually a floating point number, right?
+
+295
+01:46:31,000 --> 01:46:38,000
+So therefore, you actually need to cap it within a certain digit of representation, and this will cause some error.
+
+296
+01:46:38,000 --> 01:46:45,000
+If you repeat the process many times, because we are doing video compression, you need to compute this DCT many times.
+
+297
+01:46:45,000 --> 01:46:47,000
+So the error will start to accumulate.
+
+298
+01:46:47,000 --> 01:46:49,000
+Okay, so that's not good.
+
+299
+01:46:49,000 --> 01:47:03,000
+So therefore, DCT will cause prediction shift because this floating point calculation and the rounding error will result in this accumulation of error during the transform and the inverse transform process.
+
+300
+01:47:03,000 --> 01:47:07,000
+And this error can be accumulated because you do the DCT many times.
+
+301
+01:47:07,000 --> 01:47:11,000
+So therefore, this may result in some larger error towards the end.
+
+302
+01:47:11,000 --> 01:47:26,000
+Okay, so therefore, for 2.6.4, we use integer transform to address this issue because for 2.6.4, we'll use integer transform, whereas the coefficient in your transform matrix is actually integer.
+
+303
+01:47:26,000 --> 01:47:28,000
+So therefore, you will not have these problems here.
+
+304
+01:47:28,000 --> 01:47:34,000
+And also, it's more efficient because they're using computation using integer.
+
+305
+01:47:35,000 --> 01:47:40,000
+Okay, and 2.6.4 will also make use of the quantisation scheme with some non-linear step size.
+
+306
+01:47:40,000 --> 01:47:46,000
+The step size is actually non-linear to help to control the rate value later.
+
+307
+01:47:46,000 --> 01:47:49,000
+So later on, we'll talk about this point.
+
+308
+01:47:49,000 --> 01:47:55,000
+Okay, so next, let's quickly look at how do we perform integer transform in 2.6.4.
+
+309
+01:47:55,000 --> 01:47:58,000
+All right, so just a quick recap.
+
+310
+01:47:58,000 --> 01:48:08,000
+So for 2D DCT that we have studied before, it can be done using multiplication, can be realised using consecutive 1D transform.
+
+311
+01:48:08,000 --> 01:48:14,000
+Or in other words, the 2D DCT can be implemented using these equations here.
+
+312
+01:48:14,000 --> 01:48:20,000
+So for example, F is your pixel block, in this case, for example, the four by four pixel block.
+
+313
+01:48:20,000 --> 01:48:28,000
+And if this T is a DCT matrix, therefore, in order to obtain the 2D DCT, we just simply need to apply this formula.
+
+314
+01:48:28,000 --> 01:48:34,000
+And you'll obtain the 2D DCT through the matrix multiplication approach.
+
+315
+01:48:34,000 --> 01:48:42,000
+Okay, so specifically, if you look at this particular DCT matrix here, this four by four DCT matrix,
+
+316
+01:48:42,000 --> 01:48:44,000
+it can be written in this form here.
+
+317
+01:48:44,000 --> 01:48:53,000
+Whereas this value A here is actually half, this value B here is this, and the value C here is given by this.
+
+318
+01:48:53,000 --> 01:49:03,000
+So therefore, given A, B and C, you can actually write down this particular four by four DCT matrix.
+
+319
+01:49:03,000 --> 01:49:10,000
+Right, okay, so early on, as I mentioned, for this DCT matrix, one of the issues is that it's a floating point number.
+
+320
+01:49:10,000 --> 01:49:19,000
+So therefore, in our case here, because we want to reduce these accumulations of the floating, you know, rounding error,
+
+321
+01:49:19,000 --> 01:49:25,000
+and also we want it to be more efficient, so therefore our aim is to take this four by four DCT matrix
+
+322
+01:49:25,000 --> 01:49:32,000
+and convert it or approximate it using some kind of integer matrix here.
+
+323
+01:49:32,000 --> 01:49:33,000
+So how do we do it?
+
+324
+01:49:33,000 --> 01:49:38,000
+So one way we can simply do it is that we take our four by four DCT matrix,
+
+325
+01:49:38,000 --> 01:49:45,000
+we multiply it with a particular scaling coefficient called alpha, and we round to the nearest integer.
+
+326
+01:49:45,000 --> 01:49:47,000
+Okay, then we'll get this particular matrix.
+
+327
+01:49:47,000 --> 01:49:53,000
+So this is your transform matrix that you use in the integer transform.
+
+328
+01:49:53,000 --> 01:50:01,000
+Okay, so for this integer transform, the value that we choose for alpha is 2.5.
+
+329
+01:50:01,000 --> 01:50:09,000
+Right, so if we use just now the DCT matrix shown in the previous slide, we multiply with the scaling coefficients of 2.5,
+
+330
+01:50:09,000 --> 01:50:17,000
+we round to the nearest integer, right, then you can go and check that this is how your matrix looks like.
+
+331
+01:50:17,000 --> 01:50:24,000
+Okay, so this is the matrix that is used in your integer transform.
+
+332
+01:50:24,000 --> 01:50:30,000
+So if you look at this particular matrix here, you can see for each of the row here, right,
+
+333
+01:50:30,000 --> 01:50:32,000
+they are actually orthogonal.
+
+334
+01:50:32,000 --> 01:50:40,000
+Right, so that means this vector, you take the dot product within this vector and any of the row vector is actually equal to zero.
+
+335
+01:50:40,000 --> 01:50:43,000
+So therefore, for different row, right, they are orthogonal.
+
+336
+01:50:43,000 --> 01:50:45,000
+Yeah, for different row, they are orthogonal.
+
+337
+01:50:45,000 --> 01:50:51,000
+But if you look at their row, their norm or the length of each of the row vector is different.
+
+338
+01:50:51,000 --> 01:50:54,000
+Okay, so therefore, right, this is one of the properties.
+
+339
+01:50:54,000 --> 01:51:01,000
+Between different row, they are orthogonal, but the unit length vector for each of the rows are different.
+
+340
+01:51:01,000 --> 01:51:09,000
+Okay, so this is something that needs to be taken into account later on when we do the quantization.
+
+341
+01:51:12,000 --> 01:51:14,000
+Okay, so this is what we mentioned here.
+
+342
+01:51:14,000 --> 01:51:17,000
+Right, so for each of the row, actually they are orthogonal.
+
+343
+01:51:17,000 --> 01:51:20,000
+However, each of the row no longer have the same norm.
+
+344
+01:51:20,000 --> 01:51:24,000
+Right, some of them is larger, some is smaller.
+
+345
+01:51:24,000 --> 01:51:33,000
+So therefore, later on, we need to somehow handle this, right, such that because each of this particular norm for each of row are different, so we need to handle this.
+
+346
+01:51:33,000 --> 01:51:38,000
+And how we handle it is we will do it during the quantization step later.
+
+347
+01:51:38,000 --> 01:51:48,000
+So later on, we'll see that the normalization step, right, to handle different norm for different row is managed by the quantization step that we'll show shortly.
+
+348
+01:51:49,000 --> 01:51:52,000
+Right, okay, so we have the full transform.
+
+349
+01:51:52,000 --> 01:51:56,000
+So for the inverse transform, this is the given inverse transform here.
+
+350
+01:51:58,000 --> 01:52:11,000
+Okay, so next, let's see how do we perform this integer transform, right, coupled with scaling and normalization, quantizations in H.264.
+
+351
+01:52:11,000 --> 01:52:20,000
+Right, so for H.264, suppose, right, if you remember, the block that we use to perform the processing, because the most basic block is a four by four blocks.
+
+352
+01:52:20,000 --> 01:52:27,000
+So we'll take F, for example, F is a four by four input matrix, or four by four pixel block.
+
+353
+01:52:27,000 --> 01:52:36,000
+Right, okay, and if we call this F cap to be the quantized transform output, okay, this transform now is the integer transform.
+
+354
+01:52:36,000 --> 01:52:41,000
+So therefore, the forward transform, how do we do it is that, first of all, we perform this particular process here.
+
+355
+01:52:41,000 --> 01:52:44,000
+So this is a four by four pixel block.
+
+356
+01:52:44,000 --> 01:52:47,000
+So you multiply with H and the H transpose.
+
+357
+01:52:47,000 --> 01:52:51,000
+So you can see these steps here is actually very similar to your DCT.
+
+358
+01:52:51,000 --> 01:53:01,000
+Except now, instead of the DCT matrix now, you are replacing it with this particular integer transform matrix now, okay, H.
+
+359
+01:53:01,000 --> 01:53:04,000
+Right, okay, and H has been given already.
+
+360
+01:53:04,000 --> 01:53:12,000
+So after you calculate this, right, so this you can kind of interpret is your transform integer transform output already, okay.
+
+361
+01:53:12,000 --> 01:53:24,000
+So for this integer transform output, the next thing is that, right, in the previous MPAC study, what you do next is that you divide by the quantization matrix Q.
+
+362
+01:53:24,000 --> 01:53:27,000
+Yeah, we divide by the quantization matrix Q.
+
+363
+01:53:27,000 --> 01:53:39,000
+But for H.264, it's common that we represent slightly differently by, you know, showing that you multiply with this matrix MF here, okay, and then you divide by this scaling coefficient.
+
+364
+01:53:39,000 --> 01:53:48,000
+So this is, you know, kind of a little bit, okay, in H.264, right, we call this MF the quantization matrix.
+
+365
+01:53:48,000 --> 01:53:54,000
+But it's actually a little bit different from the quantization matrix that we have in the MPAC.
+
+366
+01:53:54,000 --> 01:53:58,000
+Okay, so anyway, this part is to perform the integer transform.
+
+367
+01:53:58,000 --> 01:54:01,000
+This part is to perform the quantization.
+
+368
+01:54:01,000 --> 01:54:11,000
+And afterwards, if you remember after you performed the quantization, you ground it, okay, and then you get your quantized transform output.
+
+369
+01:54:11,000 --> 01:54:15,000
+Okay, so this operator here is the matrix multiplication.
+
+370
+01:54:15,000 --> 01:54:18,000
+This dot here is element by element multiplication.
+
+371
+01:54:18,000 --> 01:54:30,000
+Okay, and this MF here is actually a four by four quantization matrix that is, you know, derived from a smaller matrix called M and then quantization parameter QP.
+
+372
+01:54:30,000 --> 01:54:39,000
+So later on, we are going to see, right, how this matrix M can be constructed from this matrix M as well as this QP here.
+
+373
+01:54:39,000 --> 01:55:04,000
+Right, so, but before, I just want to very quickly draw the attention here, which is,
+
+374
+01:55:04,000 --> 01:55:19,000
+or maybe I just, right, okay, so if you refer to this particular equation just now we introduce regarding the integer transform coupled with the quantization scaling in 264.
+
+375
+01:55:19,000 --> 01:55:25,000
+So you can see this equation, right, it's nothing but you have a four by four pixel block, you take the integer transform, okay.
+
+376
+01:55:25,000 --> 01:55:28,000
+And afterwards, you multiply with this particular term here.
+
+377
+01:55:28,000 --> 01:55:40,000
+So this particular term here, this term here, you can interpret is almost like, you know, similar to whatever that you have divided by this quantization matrix, okay.
+
+378
+01:55:40,000 --> 01:55:51,000
+So if you remember the DCT, DCT pretty much is that you have output, okay, and then you divide by the quantization matrix, yeah.
+
+379
+01:55:51,000 --> 01:55:57,000
+But for this particular equation here, right, this is your transform output and you multiply with this.
+
+380
+01:55:57,000 --> 01:56:10,000
+So this term here, this particular M term here, you can kind of think about is the reciprocal of the quantization matrix that we have studied in JPEG as well as the early MPEG, yeah.
+
+381
+01:56:10,000 --> 01:56:21,000
+So, yeah, anyway, this is what the approach they introduced, but I just want to kind of relate, link you back to your previous understanding of what's happening, okay.
+
+382
+01:56:21,000 --> 01:56:30,000
+So because previously when we studied about JPEG as well as the early MPEG, we say after we perform the transform, we divide by the quantization matrix, okay.
+
+383
+01:56:30,000 --> 01:56:38,000
+I mean, this is the, no, I mean the each individual value we divide by the corresponding quantization step size, yeah, or the matrix.
+
+384
+01:56:38,000 --> 01:56:43,000
+But for this 264, we represent it in this way here, okay.
+
+385
+01:56:43,000 --> 01:56:47,000
+So therefore, the relationship now you can see is actually more like reciprocal.
+
+386
+01:56:47,000 --> 01:56:55,000
+If this M F is large, that means your Q is small, right, if it's Q, if M F is small, that means your Q is large.
+
+387
+01:56:55,000 --> 01:56:57,000
+So it's a reciprocal relationship.
+
+388
+01:56:57,000 --> 01:57:14,000
+So at this point, I just would like to highlight this so that it probably will be a bit easier for you to understand because you are more comfortable with, you know, the output of the quantization divide by some value, right, the quantization step size rather than multiplying with this, okay.
+
+389
+01:57:14,000 --> 01:57:22,000
+But now with this relationship, right, at least it's easier for you to follow.
+
+390
+01:57:22,000 --> 01:57:30,000
+Okay, so anyway, let's just continue.
+
+391
+01:57:30,000 --> 01:57:36,000
+Right, okay, so next, right, this particular matrix M F, how do we obtain this matrix M F?
+
+392
+01:57:36,000 --> 01:57:52,000
+So for this matrix M F, okay, if for this quantization parameters here, so this quantization parameter is used to control the bit rate, okay, of your scheme, yeah, if used to control the bit rate of your scheme.
+
+393
+01:57:52,000 --> 01:58:02,000
+So if the quantization value is large, that means your bit rate will be small, yeah, if the quantization value is small, that means the bit rate will be larger, okay.
+
+394
+01:58:03,000 --> 01:58:13,000
+So let's look at this particular, right, so anyway, this quantization parameter is a parameter to control, as I mentioned, to control the output generated bit rate, okay.
+
+395
+01:58:13,000 --> 01:58:23,000
+Right, so for the range of quantization parameter between 0 and 6, right, okay, for this matrix here, M F will be given by this table here.
+
+396
+01:58:23,000 --> 01:58:27,000
+Right, so for this table here, you can see that there are actually three possible entries.
+
+397
+01:58:27,000 --> 01:58:42,000
+One, okay, first of all is depending on, each of these values is depending on the quantization parameter Q P, okay, each of these entries here, right, depends on Q P, and it also depends on the second parameter 0, 1 or 2, right.
+
+398
+01:58:42,000 --> 01:58:55,000
+So therefore, for each of the entry, okay, in this particular matrix, M F will depend on what is the quantization parameter, and also what is this value 0, 1 or 2, okay.
+
+399
+01:58:55,000 --> 01:59:06,000
+So fortunately, for this particular value here, there's a lookup table, so you can refer to a lookup table to find out exactly what each of these values is, okay.
+
+400
+01:59:06,000 --> 01:59:09,000
+So this lookup table is given here, so this is the lookup table.
+
+401
+01:59:09,000 --> 01:59:24,000
+So this lookup table, you can see that Q P, all right, okay, the Q P value, first of all, for the value between 0 to 5, right, for the corresponding value 0 or 5, these are the corresponding values for these positions here.
+
+402
+01:59:24,000 --> 01:59:41,000
+So for example, right, when, let's take the first example, when Q P is equal to 0, okay, right, you can see the positions at 0, 0, 0, 2, 2, 0 and 2, 2, that means this four value, 1, 2, 3, 4, will be taking this value, okay.
+
+403
+01:59:41,000 --> 01:59:59,000
+When the value Q P is 0, right, okay, the position at this, no, 1, 1, 1, 1, okay, because the index starts from 0, so 1, 1, 1, 3, okay, 3, 1 and 3, 3 will be taking this value, okay.
+
+404
+01:59:59,000 --> 02:00:09,000
+And then the rest of them, which is indicated by 2, 2, 2, 2, 2, 2, 2, 2 will be taking this value here, okay.
+
+405
+02:00:09,000 --> 02:00:27,000
+So therefore, first you identify what is the Q P parameter you decide to choose, yeah, and afterwards, right, by using this lookup table, then you'll be able to fill in the value 0 using this, 1 using this and 2 using this value, okay.
+
+406
+02:00:27,000 --> 02:00:37,000
+And then using this lookup table, you'll be able to write down, for example, the quantization matrix that corresponds to Q P value of 0.
+
+407
+02:00:37,000 --> 02:00:49,000
+Okay, let's just take one more example. Suppose now, right, you decided to use a quantization parameter of 1, okay, suppose you decided to use 1 now, okay.
+
+408
+02:00:49,000 --> 02:00:59,000
+So for 1 now, right, so if you choose a value Q P of equal to 1, then this four value, 1, 2, 3, 4, you'll be taking this value, okay.
+
+409
+02:00:59,000 --> 02:01:07,000
+Those values that correspond to the second parameter of 1 will take this value, and those that correspond to a parameter of 2 will take this value.
+
+410
+02:01:07,000 --> 02:01:20,000
+So therefore, with that, using this lookup table, you'll be able to write down this particular matrix M F, okay, for the range from 0 to 5.
+
+411
+02:01:21,000 --> 02:01:34,000
+But what if your value Q P is greater than 5? So if your value Q P is greater than 5, then what you do is that you take each of these corresponding entries, you replace by these particular expressions here.
+
+412
+02:01:34,000 --> 02:01:49,000
+So these expressions here, these particular notations here is a modulo, right, that means you take the remainder, okay, so this modulo, you take the remainder, and this part here is you divide by 6 and you take the floor, the lower value, right.
+
+413
+02:01:49,000 --> 02:02:02,000
+So therefore, if the range is greater than 6, each of these values, once you have found it, you just perform this operation and you'll be able to still write down your matrix M F, okay.
+
+414
+02:02:02,000 --> 02:02:09,000
+So this is how we generate this M F here. Actually, this is a little bit more on the secondary detail.
+
+415
+02:02:09,000 --> 02:02:15,000
+I mean, if I really want to ask you, I would definitely provide this M F for you or provide this table for you.
+
+416
+02:02:15,000 --> 02:02:22,000
+Yeah, I would not expect you to memorize it because it's, yeah, just not possible to memorize.
+
+417
+02:02:22,000 --> 02:02:24,000
+Okay.
+
+418
+02:02:24,000 --> 02:02:39,000
+So next, so therefore, we have already explained, right, so in the 264, when you want to perform the quantized transform coefficient, this is how you do, you do the transformation.
+
+419
+02:02:39,000 --> 02:02:48,000
+You multiply with this particular matrix, okay, which is equivalent to, like, you divide by the Q matrix in the previous kind of understanding, right.
+
+420
+02:02:48,000 --> 02:02:54,000
+You draw it, okay, then your output now will be the quantized transform coefficient, okay.
+
+421
+02:02:54,000 --> 02:02:59,000
+So now, if you want to do the reverse, yeah, to do the reverse is actually very similar.
+
+422
+02:02:59,000 --> 02:03:05,000
+Okay, so now, suppose this is your quantized transform coefficient now.
+
+423
+02:03:05,000 --> 02:03:12,000
+Right, so first thing first, you need to de-quantize it by multiplying with VI, okay, so this is the de-quantization.
+
+424
+02:03:12,000 --> 02:03:31,000
+So after you're performing the de-quantization, then you multiply with the, you know, this particular inverse, okay, inverse matrix here, right, and then afterwards, you round to the nearest integer, right, and then you'll be able to obtain your reconstructed pixel block.
+
+425
+02:03:31,000 --> 02:03:38,000
+Okay, so this is processes, you know, just the reverse of just now the forward transform.
+
+426
+02:03:38,000 --> 02:03:49,000
+Okay, so how, now, for this equations here, right, we, just now the H inverse is already given in the equation, right, the previous slides.
+
+427
+02:03:49,000 --> 02:03:56,000
+So this VI here, the de-quantized matrix here, so how do we obtain this de-quantized matrix here?
+
+428
+02:03:56,000 --> 02:04:05,000
+So VI is a four by four de-quantization matrix, and it can be, again, obtained through a lookup table of this V and the quantization parameter.
+
+429
+02:04:05,000 --> 02:04:07,000
+Okay, so let's look at it.
+
+430
+02:04:07,000 --> 02:04:15,000
+Right, okay, so again, this VI here, similar to just now the MI, this VI here, right, you have four by four entries here.
+
+431
+02:04:16,000 --> 02:04:19,000
+So for each of this entry here, it depends on two parameters.
+
+432
+02:04:19,000 --> 02:04:26,000
+What is the quantization parameter QP, and what is the second index, whether it's zero, one, or two.
+
+433
+02:04:26,000 --> 02:04:35,000
+Okay, so for the range of QP between zero and six, you can refer to this lookup table here, right, so for example, let's just take one example here.
+
+434
+02:04:35,000 --> 02:04:44,000
+When you have a QP of zero, suppose in a particular compression scheme, right, to compress a certain video, you decide to choose a QP of zero.
+
+435
+02:04:44,000 --> 02:04:49,000
+Yeah, that means now, okay, we have decided QP is going to be equal to zero.
+
+436
+02:04:49,000 --> 02:04:56,000
+Okay, so this value that corresponds to zero, the position zero here, right, will take this value.
+
+437
+02:04:56,000 --> 02:05:00,000
+Okay, those correspond to one as the second index will take this value.
+
+438
+02:05:00,000 --> 02:05:04,000
+Those that correspond to two, right, will take this value here.
+
+439
+02:05:04,000 --> 02:05:11,000
+So therefore, once you decide what's the QP value, you'll be able to write down this particular de-quantization matrix.
+
+440
+02:05:12,000 --> 02:05:22,000
+Okay, so likewise, if you decide, for example, if the QP is equal to, say, four, right, therefore 16, 25, and 20 will be used to fill up this table here.
+
+441
+02:05:22,000 --> 02:05:30,000
+Right, so therefore, what it means is that for a QP value between zero to five, you can write down this de-quantization matrix.
+
+442
+02:05:30,000 --> 02:05:40,000
+If the value is greater than six here, then what you need to do is that, right, each of this entry that we have obtained earlier is going to be replaced by this.
+
+443
+02:05:40,000 --> 02:05:45,000
+Yeah, so replaced by this means that now your QP is taking modulo of six.
+
+444
+02:05:45,000 --> 02:05:49,000
+Okay, that means modulo means you take the, divide by six and you take the remainder.
+
+445
+02:05:49,000 --> 02:05:56,000
+Okay, right, and afterwards, this term is that QP, you divide it by six and you take the floor.
+
+446
+02:05:56,000 --> 02:06:03,000
+Right, okay, so with this equation, that means no matter what it is, once you decide what is the QP parameter,
+
+447
+02:06:03,000 --> 02:06:13,000
+that means you decide what is the bit rate you want for this particular compressed video, then you will be able to generate this de-quantization matrix.
+
+448
+02:06:13,000 --> 02:06:14,000
+Thank you.
+
+449
+02:06:16,000 --> 02:06:25,000
+So as I mentioned in the exam or in the quiz, I will not ask you to memorize all these values.
+
+450
+02:06:25,000 --> 02:06:32,000
+If there's anything I want to ask, I'll provide the values for you so that you can just compute it directly.
+
+451
+02:06:32,000 --> 02:06:42,000
+Okay.
+
+452
+02:06:42,000 --> 02:06:48,000
+Okay, so now let's take the examples here now.
+
+453
+02:06:48,000 --> 02:06:50,000
+Right, so the examples now, let's look at this.
+
+454
+02:06:50,000 --> 02:07:00,000
+For example, right, we start off with the QP parameter of zero and then later on we're going to see what is the effect when we change different QP parameters here.
+
+455
+02:07:00,000 --> 02:07:03,000
+So first we start with the QP parameter of zero.
+
+456
+02:07:03,000 --> 02:07:14,000
+Right, so now for the QP parameter of zero, once we decide the QP parameter, that means we can write down our quantization matrix MF.
+
+457
+02:07:14,000 --> 02:07:18,000
+Right, so we can write down this MF here from just now the lookup table.
+
+458
+02:07:18,000 --> 02:07:23,000
+Right, suppose the current block that we are considering is this particular four by four pixel block.
+
+459
+02:07:23,000 --> 02:07:29,000
+Right, you go through this particular quantization matrix in 264.
+
+460
+02:07:29,000 --> 02:07:33,000
+Okay, and afterwards we use this formula to do the calculation.
+
+461
+02:07:33,000 --> 02:07:38,000
+You will see that this is your quantized transform coefficient.
+
+462
+02:07:38,000 --> 02:07:44,000
+Okay, so afterwards during the inverse process, we use this equation to calculate.
+
+463
+02:07:44,000 --> 02:07:52,000
+Right, so again, given the QP parameter, that means we can write down this VI matrix just now from the lookup table.
+
+464
+02:07:52,000 --> 02:07:55,000
+Right, so afterwards we have this formula here.
+
+465
+02:07:55,000 --> 02:08:00,000
+Right, we have the quantized transform coefficient.
+
+466
+02:08:00,000 --> 02:08:02,000
+Right, we have this VI.
+
+467
+02:08:02,000 --> 02:08:07,000
+We can go through the calculation and we will then obtain your reconstructed pixel block.
+
+468
+02:08:07,000 --> 02:08:15,000
+So now if we compare our original pixel block and the reconstructed pixel block, you will see that the arrow in this case is zero.
+
+469
+02:08:15,000 --> 02:08:16,000
+They are all zero.
+
+470
+02:08:16,000 --> 02:08:18,000
+Okay, so this is what we have.
+
+471
+02:08:18,000 --> 02:08:26,000
+So we can see that when your quantization parameters is actually zero.
+
+472
+02:08:26,000 --> 02:08:30,000
+Right, so when your quantization parameter is zero, your arrow is small.
+
+473
+02:08:30,000 --> 02:08:36,000
+So, okay, we can just continue on with a few and afterwards we'll try to draw some conclusion.
+
+474
+02:08:36,000 --> 02:08:41,000
+Okay, so now suppose if we choose a quantization parameter of six.
+
+475
+02:08:41,000 --> 02:08:46,000
+Right, so if we choose a quantization parameter of six, that means we can write down this matrix.
+
+476
+02:08:46,000 --> 02:08:52,000
+Okay, MF and this inverse matrix VI.
+
+477
+02:08:52,000 --> 02:08:55,000
+Right, so suppose now same pixel block as before.
+
+478
+02:08:55,000 --> 02:09:00,000
+Right, going through just now the equation, we can obtain the quantized transform coefficient.
+
+479
+02:09:00,000 --> 02:09:08,000
+So given the quantized transform coefficient together with the quantization matrix, we can reconstruct our pixel block.
+
+480
+02:09:08,000 --> 02:09:20,000
+So now if we compare this to original pixel block and your reconstructed pixel block, you can see that now the arrow is becoming a bit bigger.
+
+481
+02:09:20,000 --> 02:09:26,000
+Okay, so you can see now when your quantization parameter is six, your arrow start to increase.
+
+482
+02:09:26,000 --> 02:09:28,000
+Okay, let's continue on.
+
+483
+02:09:28,000 --> 02:09:30,000
+One more before we try to draw the conclusion.
+
+484
+02:09:30,000 --> 02:09:32,000
+Now if our QP parameter is 30.
+
+485
+02:09:32,000 --> 02:09:36,000
+Right, if our QP parameter is 30 from just now the process we mentioned.
+
+486
+02:09:36,000 --> 02:09:46,000
+I know it's a bit kind of cumbersome for you to see now, but if you go through the motion, you can actually write down your MF matrix and the VI matrix here.
+
+487
+02:09:46,000 --> 02:09:47,000
+Okay.
+
+488
+02:09:47,000 --> 02:09:58,000
+Right, so now, okay, again, given this same pixel block, going through the same process, just now using the equation, we can calculate your quantized transform coefficient.
+
+489
+02:09:58,000 --> 02:10:03,000
+From this quantized transform coefficient, using the formula, we can calculate your reconstructed pixel block.
+
+490
+02:10:03,000 --> 02:10:06,000
+If you compare, you'll see that this is the error now.
+
+491
+02:10:06,000 --> 02:10:18,000
+Okay, so what do you notice as you increase the quantization parameter, what do you notice in terms of the error, the reconstructed error?
+
+492
+02:10:18,000 --> 02:10:33,000
+You see, quite obviously, as you increase this QP parameter here, the error will start to increase, right?
+
+493
+02:10:33,000 --> 02:10:47,000
+But why is it the case?
+
+494
+02:10:47,000 --> 02:11:11,000
+Okay, so you can see, earlier on we say that QP, QP is a parameter to control, you know, the bit rate of a generated video.
+
+495
+02:11:11,000 --> 02:11:13,000
+Right, so it's a parameter for us to control.
+
+496
+02:11:13,000 --> 02:11:29,000
+Okay, so now, another thing you notice is that as QP is becoming larger, say suppose if you go down this, as QP becomes larger, right, the values in this matrix here actually become smaller, correct?
+
+497
+02:11:29,000 --> 02:11:39,000
+As, you know, if you go down the row, as QP becomes larger from zero, one, two, three, the values in each of these entries here actually become smaller, right?
+
+498
+02:11:40,000 --> 02:11:46,000
+So that means as QP becomes larger, okay, the value in M becomes smaller.
+
+499
+02:11:46,000 --> 02:11:51,000
+If the value in M becomes smaller, that means the value in Q becomes larger.
+
+500
+02:11:51,000 --> 02:11:58,000
+This Q is the traditional quantization step size that you have studied like in JPEG, right?
+
+501
+02:11:58,000 --> 02:12:08,000
+So as you, as QP becomes larger, go down the table as it becomes larger from zero to five, the value in M becomes smaller.
+
+502
+02:12:08,000 --> 02:12:16,000
+If the value in M becomes smaller, that means your traditional quantization step size will become larger, right?
+
+503
+02:12:16,000 --> 02:12:27,000
+So, right, if you remember just last time when we studied in JPEG standard, if the quantization step size become larger, what will happen?
+
+504
+02:12:27,000 --> 02:12:38,000
+In a JPEG compression, if your quantization step size become larger, what will happen to the quality of your reconstructed video?
+
+505
+02:12:38,000 --> 02:12:46,000
+If your quantization step size become larger, that means your quantization error would be larger.
+
+506
+02:12:46,000 --> 02:12:53,000
+That means your, actually your reconstructed error would be larger as well, correct?
+
+507
+02:12:53,000 --> 02:13:02,000
+So that's why you can see just now as you, as your QP increase from zero to five, for example, your M value becomes smaller.
+
+508
+02:13:02,000 --> 02:13:04,000
+Going down this table, you can see it becomes smaller.
+
+509
+02:13:04,000 --> 02:13:09,000
+That means your quantized step size in Q become larger.
+
+510
+02:13:09,000 --> 02:13:17,000
+And the step size become larger, that means your reconstructed error would become larger, just like what you have studied in JPEG.
+
+511
+02:13:18,000 --> 02:13:28,000
+When this Q become larger, the quantization step size become larger, that means that error, reconstruction error will increase, correct?
+
+512
+02:13:28,000 --> 02:13:31,000
+But the bit rate would decrease, okay?
+
+513
+02:13:31,000 --> 02:13:41,000
+So this is, therefore, it's just in terms of this particular notation, right, because somehow in 264 they use this MF notation as compared to this Q notation.
+
+514
+02:13:41,000 --> 02:13:54,000
+So therefore, you can see by changing this particular value QP here, you can control, you can do a trade-off between the bit rate that you generate versus the error that you have, okay?
+
+515
+02:13:54,000 --> 02:14:04,000
+So when your QP increase, right, when your QP increase just now, you can see from this particular video, this particular results here.
+
+516
+02:14:04,000 --> 02:14:15,000
+When your QP increase from zero to six to 30, you can see that the corresponding error quantization, the error will start to increase.
+
+517
+02:14:15,000 --> 02:14:23,000
+But the advantage that you obtain is that the bit rate will start to reduce, so you have a smaller file size or your bit rate is lower, okay?
+
+518
+02:14:23,000 --> 02:14:32,000
+So therefore, this QP parameter is a parameter, user design parameter you can decide, right, for your application what is a suitable value you want to choose, okay,
+
+519
+02:14:32,000 --> 02:14:39,000
+to achieve your target bit rate, right, okay?
+
+520
+02:14:39,000 --> 02:14:42,000
+Right, okay, so let's continue.
+
+521
+02:14:42,000 --> 02:14:46,000
+Yeah, so the next thing we are going to look at is the intra-coding, right?
+
+522
+02:14:46,000 --> 02:14:50,000
+So we are going to look at the coding of the intra-frame here.
+
+523
+02:14:50,000 --> 02:15:01,000
+So for the intra-coding of 264, right, so the intra-coded macro block are predicted using some neighboring reconstructed pixel block.
+
+524
+02:15:01,000 --> 02:15:10,000
+So this one we are going to see how is it a little bit different from the previous like JPEG as well as the MPEG 1 and 2, right?
+
+525
+02:15:10,000 --> 02:15:15,000
+Because it uses neighboring pixels to help to do the prediction, right?
+
+526
+02:15:15,000 --> 02:15:17,000
+So later on we'll see, right?
+
+527
+02:15:17,000 --> 02:15:27,000
+And then also for the intra-coding under 264, right, it can use different prediction block, for example, 4x4, 16x16, right?
+
+528
+02:15:28,000 --> 02:15:37,000
+Okay, for 4x4 blocks here there's a 9 prediction mode and for 16x16 there's a 4 prediction mode, right?
+
+529
+02:15:37,000 --> 02:15:46,000
+So later on we'll see a little bit more about what's the basic idea behind this intra-coding of 264, right?
+
+530
+02:15:46,000 --> 02:15:54,000
+But let's try to, okay, let's try to go through some of this particular text information first
+
+531
+02:15:54,000 --> 02:16:01,000
+and then later on when we come to the slide, okay, the slide will be a lot easier, you know, to understand, okay?
+
+532
+02:16:01,000 --> 02:16:07,000
+So for each of the prediction mode, the predicted values and the actual values will be compared to produce the prediction error.
+
+533
+02:16:07,000 --> 02:16:16,000
+So we'll, if for example this is a current 4x4 blocks that we want to encode in iframe, we use the neighboring pixel to do the prediction, okay?
+
+534
+02:16:16,000 --> 02:16:19,000
+So we use the neighboring pixel to do the prediction, right?
+
+535
+02:16:19,000 --> 02:16:26,000
+So once you have done the prediction, then the predicted value and the actual value, that means the error or the prediction error,
+
+536
+02:16:26,000 --> 02:16:31,000
+you will be able to obtain the prediction error or the residue, okay?
+
+537
+02:16:31,000 --> 02:16:38,000
+So the mode that generates the smallest error or residue will be chosen as a prediction mode for this block, okay?
+
+538
+02:16:38,000 --> 02:16:47,000
+And afterwards this residue is then sent to the integer transform, okay, for the, you know, transformation.
+
+539
+02:16:47,000 --> 02:16:54,000
+Right, okay, yeah, from this particular write-up it may be a bit harder for you to understand,
+
+540
+02:16:54,000 --> 02:17:00,000
+but it's easiest if you try to look at some of this particular, yeah, with these slides here, okay,
+
+541
+02:17:00,000 --> 02:17:05,000
+it can make the understanding a little bit, a lot easier to understand.
+
+542
+02:17:05,000 --> 02:17:14,000
+Okay, so for example, right, in this 264, if you want to encode an iframe, okay, if you want to encode an iframe,
+
+543
+02:17:14,000 --> 02:17:18,000
+you can partition into, you know, many different kind of block structure,
+
+544
+02:17:18,000 --> 02:17:24,000
+but one of the most basic block structures that you have is the 4x4 block,
+
+545
+02:17:24,000 --> 02:17:30,000
+so we are going to use the 4x4 block as an example because there are a few different variation,
+
+546
+02:17:30,000 --> 02:17:34,000
+so we are going to use this 4x4 block as an example here.
+
+547
+02:17:34,000 --> 02:17:39,000
+Suppose if you want to encode this 4x4 blocks here, what do we do, okay?
+
+548
+02:17:39,000 --> 02:17:46,000
+So what we do is that we make use of some neighboring pixels, okay, for these 4x4 blocks here.
+
+549
+02:17:46,000 --> 02:17:53,000
+So these are some neighboring pixels here, okay, some neighboring pixels, okay, centered at these 4x4 blocks here.
+
+550
+02:17:53,000 --> 02:17:59,000
+And afterwards we'll use this different direction, right, as a prediction, okay,
+
+551
+02:17:59,000 --> 02:18:05,000
+to see what would be the predicted value for this 4x4 pixel block here.
+
+552
+02:18:05,000 --> 02:18:12,000
+So suppose if you use a mode of zero, that means, right, if you want to find out, okay, what are the values here,
+
+553
+02:18:12,000 --> 02:18:18,000
+we'll use this pixel A to predict all these values here, if you're using mode zero here.
+
+554
+02:18:18,000 --> 02:18:23,000
+So for mode zero, you can see our prediction is in these vertical directions here, okay?
+
+555
+02:18:23,000 --> 02:18:30,000
+So to predict all the values, these four values here, we use A to predict these four values, right, okay?
+
+556
+02:18:30,000 --> 02:18:36,000
+We use B to predict these four values, we use C to predict this, and D to predict this.
+
+557
+02:18:36,000 --> 02:18:45,000
+Yeah, and afterwards we take this actual pixel value minus the prediction, that will give you the prediction error for mode zero.
+
+558
+02:18:45,000 --> 02:18:49,000
+Okay, so later on we'll have some examples, right, it'll become a lot clearer.
+
+559
+02:18:49,000 --> 02:18:54,000
+So if we use mode one, mode one you can see is horizontal, that means we use this pixel value,
+
+560
+02:18:54,000 --> 02:19:00,000
+the neighbouring pixel value to predict the four pixel values, okay, in this block here.
+
+561
+02:19:00,000 --> 02:19:06,000
+So you use I to predict this, J to predict this, K to predict this, and L to predict this, okay?
+
+562
+02:19:06,000 --> 02:19:12,000
+So once you do the predict, you have the actual pixel value and you have the prediction, you take that difference,
+
+563
+02:19:12,000 --> 02:19:15,000
+then you can get the prediction value for mode one.
+
+564
+02:19:15,000 --> 02:19:19,000
+So you're going to go through all these different modes.
+
+565
+02:19:19,000 --> 02:19:24,000
+So for different modes, you're going to get different predicted value.
+
+566
+02:19:24,000 --> 02:19:29,000
+So for each of the predicted value, you are going to get the different prediction error,
+
+567
+02:19:29,000 --> 02:19:36,000
+and afterwards you're going to see which of these modes give the best prediction or the smallest prediction error.
+
+568
+02:19:36,000 --> 02:19:40,000
+Then you are going to say that, okay, the particular mode that gives us the smallest error,
+
+569
+02:19:40,000 --> 02:19:44,000
+that is the one we are going to use, right, as a prediction, right?
+
+570
+02:19:44,000 --> 02:19:51,000
+So therefore, you can see in this intra-coding, the basic idea is that instead of,
+
+571
+02:19:51,000 --> 02:19:58,000
+if you remember previously in JPEG, what we do is that we partition into numerous,
+
+572
+02:19:58,000 --> 02:20:04,000
+this eight by eight pixel block, and then we kind of more or less encode it independently, okay?
+
+573
+02:20:04,000 --> 02:20:13,000
+But in this particular case now for 264, we are using the neighbouring pixel to guess what this current pixel is first, yeah?
+
+574
+02:20:13,000 --> 02:20:20,000
+And then get the error, okay, the prediction error, and then only afterwards let it go through the transform, okay?
+
+575
+02:20:20,000 --> 02:20:22,000
+So this is the main idea.
+
+576
+02:20:22,000 --> 02:20:27,000
+That means we, you know, try to do the prediction first by using this direction
+
+577
+02:20:27,000 --> 02:20:30,000
+so you can see a different directional spatial prediction.
+
+578
+02:20:30,000 --> 02:20:32,000
+So that's why this is the name.
+
+579
+02:20:32,000 --> 02:20:35,000
+Direction, because you can see a different direction.
+
+580
+02:20:35,000 --> 02:20:38,000
+And spatial, because the prediction is in the space domain, right?
+
+581
+02:20:38,000 --> 02:20:43,000
+So it's a directional spatial prediction.
+
+582
+02:20:43,000 --> 02:20:48,000
+Right, okay, so more specifically, just now you can see we have these eight directions here, right?
+
+583
+02:20:48,000 --> 02:20:52,000
+Okay, actually the mode, there are altogether nine modes of them.
+
+584
+02:20:52,000 --> 02:20:59,000
+So there are nine intra four by four prediction mode for this H.264 intra-coding.
+
+585
+02:20:59,000 --> 02:21:03,000
+So early on, for example, if you look at mode zero, it's a vertical, okay?
+
+586
+02:21:03,000 --> 02:21:09,000
+That means we use, okay, this is the four by four block that we want to encode, okay?
+
+587
+02:21:09,000 --> 02:21:15,000
+We use a four pixel above it, A, B, C, D, to predict their value, okay?
+
+588
+02:21:15,000 --> 02:21:18,000
+And afterwards, we can then get the prediction error, okay?
+
+589
+02:21:18,000 --> 02:21:22,000
+So this is if you use mode zero, we call it vertical.
+
+590
+02:21:22,000 --> 02:21:27,000
+If we use mode one, horizontal, that means if this is the block we want to encode,
+
+591
+02:21:27,000 --> 02:21:36,000
+we take the four pixel value next to it, right, we predict the value for each of this row.
+
+592
+02:21:36,000 --> 02:21:41,000
+Afterwards, you'll be able to compute the prediction error using mode one, okay?
+
+593
+02:21:41,000 --> 02:21:48,000
+For mode two here, you're using this four eight pixel value, A, B, C, D, I, J, K, L, right?
+
+594
+02:21:48,000 --> 02:21:52,000
+You take the average of this eight pixel value.
+
+595
+02:21:52,000 --> 02:21:58,000
+So this average value will be the predictor for all this pixel value within here, okay?
+
+596
+02:21:58,000 --> 02:22:01,000
+And afterwards, you can then get the prediction error for this.
+
+597
+02:22:01,000 --> 02:22:06,000
+So therefore, you can actually go through all these different nine modes here, right,
+
+598
+02:22:06,000 --> 02:22:13,000
+and you'll be able to actually get the, you know, eight, you know, all these nine different prediction error,
+
+599
+02:22:13,000 --> 02:22:18,000
+and then the one that gives you the smallest prediction error, you're going to use the particular mode.
+
+600
+02:22:18,000 --> 02:22:24,000
+And afterwards, you're going to let it go through the integer transform to, you know,
+
+601
+02:22:24,000 --> 02:22:27,000
+transform this particular prediction error, okay?
+
+602
+02:22:27,000 --> 02:22:32,000
+So that is the high level message, right?
+
+603
+02:22:32,000 --> 02:22:37,000
+Okay, so again, right, by just looking at that, it may be a little bit unclear what exactly does it mean.
+
+604
+02:22:37,000 --> 02:22:40,000
+So the best way to understand is go through one example,
+
+605
+02:22:40,000 --> 02:22:42,000
+because once you have one example, if you can understand,
+
+606
+02:22:42,000 --> 02:22:46,000
+that means you actually understand what it's trying to say already.
+
+607
+02:22:46,000 --> 02:22:48,000
+Okay, so let's look at this particular exercise here.
+
+608
+02:22:48,000 --> 02:22:55,000
+So this exercise here says that let's consider a simplified H.264 4x4 intra-coding.
+
+609
+02:22:55,000 --> 02:23:01,000
+So the coding is for, the 4x4 block is for the intra-coding, for the intra-frame.
+
+610
+02:23:01,000 --> 02:23:06,000
+That use only mode zero, mode one, and mode two, yeah?
+
+611
+02:23:06,000 --> 02:23:12,000
+The original actually have nine, but to make this particular example simpler,
+
+612
+02:23:12,000 --> 02:23:17,000
+we'll only be focusing on this mode zero, one, and two, right, to make it easier, right?
+
+613
+02:23:17,000 --> 02:23:21,000
+So we'll only be focusing on these three modes here, okay?
+
+614
+02:23:21,000 --> 02:23:30,000
+And afterwards, it says that, okay, no, assume, let me see.
+
+615
+02:23:30,000 --> 02:23:35,000
+Right, okay, assume this, we have this particular 8x8 image here, right?
+
+616
+02:23:35,000 --> 02:23:41,000
+It asks you to find the smallest prediction error, okay, for the indicated 4x4 pixel block, okay?
+
+617
+02:23:42,000 --> 02:23:44,000
+So suppose now you have this particular image here, right?
+
+618
+02:23:44,000 --> 02:23:51,000
+This is the current 8x8, sorry, this is the current 4x4 pixel blocks we are focusing on, right?
+
+619
+02:23:51,000 --> 02:23:57,000
+So it asks you to find the smallest prediction error for this particular 4x4 pixel block
+
+620
+02:23:57,000 --> 02:24:01,000
+using these three different modes here, okay?
+
+621
+02:24:01,000 --> 02:24:04,000
+Let's give it a try, yeah?
+
+622
+02:24:04,000 --> 02:24:10,000
+Yeah, use these three different modes that I explained to you before, mode zero, one, and two,
+
+623
+02:24:10,000 --> 02:24:17,000
+and try to find, right, the smallest prediction error, okay, for this 4x4 pixel block.
+
+624
+02:24:40,000 --> 02:24:44,000
+Okay.
+
+625
+02:25:10,000 --> 02:25:13,000
+Okay.
+
+626
+02:25:40,000 --> 02:25:43,000
+Okay.
+
+627
+02:26:10,000 --> 02:26:13,000
+Okay.
+
+628
+02:26:40,000 --> 02:26:43,000
+Okay.
+
+629
+02:27:10,000 --> 02:27:13,000
+Okay.
+
+630
+02:27:40,000 --> 02:27:43,000
+Okay.
+
+631
+02:28:10,000 --> 02:28:13,000
+Okay.
+
+632
+02:28:16,000 --> 02:28:21,000
+Okay, so let's try to solve these problems together.
+
+633
+02:28:21,000 --> 02:28:28,000
+So again, the basic idea between under this intra-coding of 264, right,
+
+634
+02:28:28,000 --> 02:28:34,000
+is compared to the previous code standard like MPEG-1 and MPEG-2.
+
+635
+02:28:34,000 --> 02:28:39,000
+So if you remember MPEG-1 and MPEG-2, what it does is that for this iframe, right,
+
+636
+02:28:39,000 --> 02:28:45,000
+it partitions into numerous macro blocks, okay, 16x16 macro blocks,
+
+637
+02:28:45,000 --> 02:28:52,000
+and then each of the macro blocks, pretty much for the iframe, they just encode it independently, okay, independently.
+
+638
+02:28:52,000 --> 02:28:56,000
+So therefore what it means is that if this is a current macro block,
+
+639
+02:28:56,000 --> 02:29:00,000
+it does not really leverage on the information from the surrounding
+
+640
+02:29:00,000 --> 02:29:06,000
+to help it to encode this particular current macro block in the iframe.
+
+641
+02:29:06,000 --> 02:29:11,000
+So that's a key approach that MPEG-1 and 2, they use.
+
+642
+02:29:11,000 --> 02:29:17,000
+But for H.264, what it asks is that, okay, so now this particular block,
+
+643
+02:29:17,000 --> 02:29:23,000
+of course there's a few different variation, but if you consider the 4x4 pixel block option,
+
+644
+02:29:23,000 --> 02:29:30,000
+so for the 4x4 pixel block option, right, so this partition into numerous 4x4 pixel block,
+
+645
+02:29:30,000 --> 02:29:35,000
+so for each of this pixel block, instead of encode it independently, right,
+
+646
+02:29:35,000 --> 02:29:38,000
+you say this 4x4 pixel block, I encode it independently,
+
+647
+02:29:38,000 --> 02:29:41,000
+this 4x4 pixel block, I encode it independently,
+
+648
+02:29:41,000 --> 02:29:46,000
+since I know that, okay, their neighbouring pixel values, right,
+
+649
+02:29:46,000 --> 02:29:52,000
+on top and, you know, before, are likely going to be similar, right,
+
+650
+02:29:52,000 --> 02:29:55,000
+to this current blocks that you want to encode.
+
+651
+02:29:55,000 --> 02:29:58,000
+So what I'm trying to say is that, okay, since they are likely going to be,
+
+652
+02:29:58,000 --> 02:30:02,000
+the pixel value on top and on the left are similar,
+
+653
+02:30:02,000 --> 02:30:06,000
+why not let's try to make use of those pixel values
+
+654
+02:30:06,000 --> 02:30:10,000
+to predict the values for this current block, right?
+
+655
+02:30:10,000 --> 02:30:13,000
+So once you can predict it, then, again, is that you,
+
+656
+02:30:13,000 --> 02:30:18,000
+once you have done the prediction, right, you can then find out the prediction error.
+
+657
+02:30:18,000 --> 02:30:21,000
+And the prediction error likely is going to be small.
+
+658
+02:30:21,000 --> 02:30:25,000
+It's much easier for you to compress, you know, some error,
+
+659
+02:30:25,000 --> 02:30:29,000
+rather than, you know, encode the original value, okay?
+
+660
+02:30:29,000 --> 02:30:31,000
+So that is the high-level principle.
+
+661
+02:30:31,000 --> 02:30:36,000
+We are using the neighbouring pixel value on top and on the left
+
+662
+02:30:36,000 --> 02:30:42,000
+to try to predict the current 4x4 pixel block, right?
+
+663
+02:30:42,000 --> 02:30:44,000
+And then how do we do this prediction?
+
+664
+02:30:44,000 --> 02:30:49,000
+We have, you know, this different nine modes to do the prediction, right?
+
+665
+02:30:49,000 --> 02:30:52,000
+So, and afterwards, we're going to see which of these nine modes
+
+666
+02:30:52,000 --> 02:30:55,000
+give the best result or give the smallest error.
+
+667
+02:30:55,000 --> 02:30:59,000
+So therefore, we are going to use the one that gives you the smallest error,
+
+668
+02:30:59,000 --> 02:31:04,000
+and this smallest prediction error is the one we are going to afterwards
+
+669
+02:31:04,000 --> 02:31:08,000
+go through the integer transform, okay?
+
+670
+02:31:08,000 --> 02:31:12,000
+So that's the high-level principle why we want to do it this way
+
+671
+02:31:12,000 --> 02:31:18,000
+and how does it differ compared to the previous approach, right?
+
+672
+02:31:18,000 --> 02:31:20,000
+So let's look at this particular example now.
+
+673
+02:31:20,000 --> 02:31:22,000
+So therefore, you can see for this example,
+
+674
+02:31:22,000 --> 02:31:25,000
+if you want to encode this 4x4 pixel blocks here,
+
+675
+02:31:25,000 --> 02:31:28,000
+in mode one, it's actually using vertical.
+
+676
+02:31:28,000 --> 02:31:37,000
+So that means what are the pixel value you are going to use to predict this pixel block?
+
+677
+02:31:37,000 --> 02:31:41,000
+What are the pixel value?
+
+678
+02:31:41,000 --> 02:31:43,000
+Can some of you read it out?
+
+679
+02:31:43,000 --> 02:31:45,000
+What's the pixel value?
+
+680
+02:31:45,000 --> 02:31:49,000
+Vertical, right mode zero is vertical.
+
+681
+02:31:49,000 --> 02:31:55,000
+That means we are going to use, for example, this column here.
+
+682
+02:31:56,000 --> 02:32:00,000
+Which pixel value we are going to use to predict?
+
+683
+02:32:00,000 --> 02:32:01,000
+70, right?
+
+684
+02:32:01,000 --> 02:32:03,000
+So we are going to use 70 to predict this value
+
+685
+02:32:03,000 --> 02:32:07,000
+because in a sense, the pixel value next to it should be very similar, right?
+
+686
+02:32:07,000 --> 02:32:11,000
+Pixel value within a small neighborhood that should be similar.
+
+687
+02:32:11,000 --> 02:32:13,000
+So that means we are going to predict this value.
+
+688
+02:32:13,000 --> 02:32:15,000
+We'll be using 70 to predict this.
+
+689
+02:32:15,000 --> 02:32:17,000
+How about this 4 value?
+
+690
+02:32:17,000 --> 02:32:21,000
+We'll be using this value 70 to predict it.
+
+691
+02:32:21,000 --> 02:32:25,000
+How about this 4 value we'll be using?
+
+692
+02:32:25,000 --> 02:32:28,000
+Which pixel value to predict it?
+
+693
+02:32:28,000 --> 02:32:30,000
+This 90, huh?
+
+694
+02:32:30,000 --> 02:32:33,000
+And then this, therefore, we'll be using 90.
+
+695
+02:32:33,000 --> 02:32:37,000
+So that's how we predict using mode zero.
+
+696
+02:32:37,000 --> 02:32:39,000
+Okay, mode one I think is quite easy.
+
+697
+02:32:39,000 --> 02:32:42,000
+That means, for example, this row we use 60 to predict.
+
+698
+02:32:42,000 --> 02:32:44,000
+This row we use 80 to predict.
+
+699
+02:32:44,000 --> 02:32:47,000
+Next, mode two, DC value.
+
+700
+02:32:47,000 --> 02:32:51,000
+How do we obtain the prediction for this 4x4 block?
+
+701
+02:32:51,000 --> 02:32:58,000
+We'll be using the average of what pixel?
+
+702
+02:32:58,000 --> 02:33:04,000
+If you look at this, the average of this 4 pixel and this 4 pixel, right?
+
+703
+02:33:04,000 --> 02:33:09,000
+So therefore, that means we'll be using this 4 pixel plus this 4 pixel.
+
+704
+02:33:09,000 --> 02:33:12,000
+We'll take the average of this 8 pixel value.
+
+705
+02:33:12,000 --> 02:33:15,000
+That will form the prediction for this value.
+
+706
+02:33:15,000 --> 02:33:20,000
+Okay, so therefore, there's a basic idea of using different mode to do the prediction.
+
+707
+02:33:20,000 --> 02:33:23,000
+So, therefore.
+
+708
+02:33:46,000 --> 02:33:51,000
+So, therefore, if you look at these particular results here, huh?
+
+709
+02:33:51,000 --> 02:33:55,000
+So you can see, therefore, if you're using mode zero, the vertical predictions, right?
+
+710
+02:33:55,000 --> 02:34:00,000
+You can see the prediction now is the first column is all 70, right?
+
+711
+02:34:00,000 --> 02:34:03,000
+Second column is 70, 90, 90, right?
+
+712
+02:34:03,000 --> 02:34:05,000
+So that's a prediction.
+
+713
+02:34:05,000 --> 02:34:07,000
+And afterwards, what is the error?
+
+714
+02:34:07,000 --> 02:34:12,000
+So the error is that you simply take the original value minus your predicted value.
+
+715
+02:34:12,000 --> 02:34:16,000
+So, for example, 80 minus 70 will give you 10, okay?
+
+716
+02:34:16,000 --> 02:34:20,000
+90 minus 70 will give you 20.
+
+717
+02:34:20,000 --> 02:34:26,000
+So if you do that, you'll be able to get the prediction error using mode zero, right?
+
+718
+02:34:26,000 --> 02:34:29,000
+So for mode one, we are going to use now horizontal.
+
+719
+02:34:29,000 --> 02:34:32,000
+That means this row, we are going to predict using 60.
+
+720
+02:34:32,000 --> 02:34:34,000
+So the first row is all 60.
+
+721
+02:34:34,000 --> 02:34:36,000
+Second row is 60.
+
+722
+02:34:36,000 --> 02:34:38,000
+Third row is 80, okay?
+
+723
+02:34:38,000 --> 02:34:40,000
+Last row is 80.
+
+724
+02:34:40,000 --> 02:34:41,000
+So this is our prediction.
+
+725
+02:34:41,000 --> 02:34:47,000
+Afterwards, we take the actual block minus predicted block, we'll get our error, okay?
+
+726
+02:34:47,000 --> 02:34:49,000
+So that's mode two, that's mode one.
+
+727
+02:34:49,000 --> 02:34:51,000
+Mode two, we'll take the average, all right?
+
+728
+02:34:51,000 --> 02:34:54,000
+The average of this four plus this four, eight pixel value.
+
+729
+02:34:54,000 --> 02:34:57,000
+If you do the calculation, you'll see it's 75.
+
+730
+02:34:57,000 --> 02:35:02,000
+So therefore, our predictor or prediction is actually a block of 75.
+
+731
+02:35:02,000 --> 02:35:07,000
+If you want to calculate the error, you just take this block minus this block,
+
+732
+02:35:07,000 --> 02:35:09,000
+and you'll get the prediction error here.
+
+733
+02:35:09,000 --> 02:35:15,000
+So therefore, now for three different modes, you'll get three different predictions, right?
+
+734
+02:35:15,000 --> 02:35:19,000
+So this prediction is in the form of a matrix, okay?
+
+735
+02:35:19,000 --> 02:35:20,000
+A matrix like this.
+
+736
+02:35:20,000 --> 02:35:28,000
+Right, so the question actually asks next, right, find the least prediction error block, okay?
+
+737
+02:35:28,000 --> 02:35:30,000
+For this four by four pixel block.
+
+738
+02:35:30,000 --> 02:35:33,000
+That means in this simple example, we're only going to look at this three mode
+
+739
+02:35:33,000 --> 02:35:37,000
+and see which is the one that gives you the smallest error.
+
+740
+02:35:37,000 --> 02:35:40,000
+So in order to find which is the one that gives you the smallest error,
+
+741
+02:35:40,000 --> 02:35:44,000
+you need to define what is the matrix that you're using, right?
+
+742
+02:35:44,000 --> 02:35:51,000
+So the matrix to define this in our example here is we'll be using the sum of absolute error, okay?
+
+743
+02:35:51,000 --> 02:35:56,000
+That means each of these terms here, we take this absolute value, we sum it up, okay?
+
+744
+02:35:56,000 --> 02:36:00,000
+Take this absolute value, we sum up all this value, right?
+
+745
+02:36:00,000 --> 02:36:04,000
+So, okay, because all these numbers are positive, right, in the case, for example,
+
+746
+02:36:04,000 --> 02:36:07,000
+some of the number is negative, you just take the absolute first.
+
+747
+02:36:07,000 --> 02:36:12,000
+If it's negative five, take the absolute, it becomes five, and then you sum up all of them, right?
+
+748
+02:36:12,000 --> 02:36:17,000
+So if you do that, right, by doing that, you'll be able to see that, okay,
+
+749
+02:36:17,000 --> 02:36:20,000
+which is the one that gives you the smallest error.
+
+750
+02:36:20,000 --> 02:36:26,000
+So as I mentioned, sum of absolute error means that you take the absolute value of each of these terms
+
+751
+02:36:26,000 --> 02:36:28,000
+and afterwards you sum them up, right?
+
+752
+02:36:28,000 --> 02:36:33,000
+Then you'll get the sum of absolute error for mode zero, mode one, and for mode two.
+
+753
+02:36:34,000 --> 02:36:37,000
+So, right, if you go through the exercise for this,
+
+754
+02:36:37,000 --> 02:36:43,000
+you'll see that the one that gives you the smallest error is actually mode zero, okay?
+
+755
+02:36:43,000 --> 02:36:47,000
+So this is the one that gives you the smallest error, okay?
+
+756
+02:36:47,000 --> 02:36:53,000
+So therefore we answer the question, the smallest prediction error is actually this block here, okay?
+
+757
+02:36:53,000 --> 02:36:55,000
+This particular block here, right?
+
+758
+02:36:55,000 --> 02:37:01,000
+So in this case, a prediction error is actually a block or a matrix, okay?
+
+759
+02:37:01,000 --> 02:37:02,000
+So let's continue.
+
+760
+02:37:04,000 --> 02:37:09,000
+Okay, next it says that, right, we already found the prediction error just now, okay?
+
+761
+02:37:09,000 --> 02:37:15,000
+Right, it says that this prediction error is going to be passed through the integer transform, okay,
+
+762
+02:37:15,000 --> 02:37:19,000
+given by this particular matrix here, okay?
+
+763
+02:37:19,000 --> 02:37:24,000
+So it asks you to find the output of the integer transform, okay?
+
+764
+02:37:24,000 --> 02:37:26,000
+So output of the integer transform.
+
+765
+02:37:27,000 --> 02:37:30,000
+So you already obtained the prediction error.
+
+766
+02:37:30,000 --> 02:37:33,000
+Now you are supposed to let it go through the integer transform
+
+767
+02:37:33,000 --> 02:37:37,000
+to get transform output of this prediction error, right?
+
+768
+02:37:37,000 --> 02:37:42,000
+So let's give it a try, okay, to calculate this, to perform this transform.
+
+769
+02:37:45,000 --> 02:37:50,000
+Okay, I'll show you this intermediate result, because you need the intermediate result.
+
+770
+02:37:51,000 --> 02:37:55,000
+So the intermediate result, just now we already see that this is the smallest prediction error.
+
+771
+02:37:58,000 --> 02:38:00,000
+One is the one with the smallest prediction error.
+
+772
+02:38:20,000 --> 02:38:22,000
+Okay.
+
+773
+02:38:50,000 --> 02:39:02,000
+Okay.
+
+774
+02:39:02,000 --> 02:39:07,000
+So anyway, I think that part is just a matter of some finalization,
+
+775
+02:39:07,000 --> 02:39:10,000
+because I think the steps are quite straightforward.
+
+776
+02:39:10,000 --> 02:39:16,000
+So therefore, what you need to do is now that, okay, so for you to obtain the integer transform,
+
+777
+02:39:16,000 --> 02:39:18,000
+this is the formula we'll be using, okay,
+
+778
+02:39:18,000 --> 02:39:32,000
+to get similar to the DCT, except for this matrix H now is actually given by this particular integer kappa matrix here, okay?
+
+779
+02:39:32,000 --> 02:39:37,000
+Right, so next, right, so we just need to do the multiplication.
+
+780
+02:39:37,000 --> 02:39:42,000
+So for the solutions here, first of all, you multiply these two, okay,
+
+781
+02:39:42,000 --> 02:39:46,000
+this matrix H together with this to get the result, the intermediate result,
+
+782
+02:39:46,000 --> 02:39:50,000
+and then this intermediate result you multiply with this H transpose,
+
+783
+02:39:50,000 --> 02:39:56,000
+and if you go through the calculation, you'll see that this is the result that we have, okay?
+
+784
+02:39:56,000 --> 02:39:58,000
+So this is the result for this part here.
+
+785
+02:39:58,000 --> 02:40:02,000
+So that's pretty much the answer to this question.
+
+786
+02:40:02,000 --> 02:40:06,000
+So from this particular question, you already can see that, right,
+
+787
+02:40:06,000 --> 02:40:12,000
+the idea of using these three different modes.
+
+788
+02:40:12,000 --> 02:40:18,000
+Okay, I think the high-level idea I already mentioned is that for this 264, the intra-coding,
+
+789
+02:40:18,000 --> 02:40:25,000
+we make use of the neighbouring values because since they are there, we should try to leverage on the information.
+
+790
+02:40:25,000 --> 02:40:30,000
+And then by which way is the best, right, we have nine different schemes to come up with it, okay?
+
+791
+02:40:30,000 --> 02:40:36,000
+So what we'll do is that for each of these nine schemes, right, we'll try to see which one gives us the smallest prediction error,
+
+792
+02:40:36,000 --> 02:40:42,000
+and this smallest prediction error will then go through the integer transform.
+
+793
+02:40:42,000 --> 02:40:43,000
+So that's the basic idea.
+
+794
+02:40:43,000 --> 02:40:47,000
+And the exercise actually only focuses on these three different modes, yeah?
+
+795
+02:40:47,000 --> 02:40:55,000
+But in the rear H.264 for four-by-four mode, actually there are nine different modes like this.
+
+796
+02:40:55,000 --> 02:41:01,000
+Right, okay, so I think, yeah, okay, maybe I'll just quickly go through this particular question,
+
+797
+02:41:01,000 --> 02:41:03,000
+and then you can think about it at home, yeah?
+
+798
+02:41:03,000 --> 02:41:05,000
+We will not go through it today, the solution today.
+
+799
+02:41:05,000 --> 02:41:12,000
+So the next exercise is on the integer transform for P-frame coding, yeah?
+
+800
+02:41:12,000 --> 02:41:18,000
+So it says that for P-frame coding, right, in 264, right, you'll be using the integer transform.
+
+801
+02:41:18,000 --> 02:41:26,000
+So in this particular example here, right, we'll, okay, assume that using this simple operations here,
+
+802
+02:41:26,000 --> 02:41:34,000
+this transform operations here, right, and the matrix, the integer DCT matrix is given here, okay?
+
+803
+02:41:34,000 --> 02:41:41,000
+So it asks you to find out what is the two advantages of using integer transform as compared to DCT, yeah?
+
+804
+02:41:41,000 --> 02:41:49,000
+Right, and afterwards, okay, the next part is that they assume that, okay, so the target frame is a P,
+
+805
+02:41:49,000 --> 02:41:57,000
+assume the target frame below is a P-frame, okay, so this is part of the, okay, so this is the target frame,
+
+806
+02:41:57,000 --> 02:42:01,000
+and we are only focusing on this particular four-by-four mega block here.
+
+807
+02:42:01,000 --> 02:42:06,000
+So, okay, so this is our target frame, and this is a P-frame, okay, and then afterwards,
+
+808
+02:42:06,000 --> 02:42:11,000
+we assume that the micro block we are looking at is only this four-by-four block here, okay?
+
+809
+02:42:11,000 --> 02:42:18,000
+So they ask you to find out, okay, for this particular kind of micro block here, what is the motion vector, okay?
+
+810
+02:42:18,000 --> 02:42:22,000
+So this is the reference, this is the target frame, and this is the reference frame.
+
+811
+02:42:22,000 --> 02:42:25,000
+So you're supposed to find out what's the motion vector, right?
+
+812
+02:42:25,000 --> 02:42:31,000
+Right, so afterwards, you're supposed to find out, okay, what is the corresponding,
+
+813
+02:42:31,000 --> 02:42:36,000
+in this particular equation here, what is this corresponding item that it should correspond to?
+
+814
+02:42:36,000 --> 02:42:40,000
+Okay, and afterwards, what is the output of this particular transform?
+
+815
+02:42:40,000 --> 02:42:44,000
+Okay, so pretty much this question is for P-frame encoding, right?
+
+816
+02:42:44,000 --> 02:42:49,000
+So this current target frame, you are only looking at one particular four-by-four pixel block, right?
+
+817
+02:42:49,000 --> 02:42:54,000
+So you're supposed to do the motion estimation, right, to find out what is the motion vector.
+
+818
+02:42:54,000 --> 02:43:00,000
+Once you've found the motion vector, you're supposed to find out what is the predicted error, okay?
+
+819
+02:43:00,000 --> 02:43:03,000
+What's the prediction error, okay, or what's the difference?
+
+820
+02:43:03,000 --> 02:43:08,000
+And afterwards, once you've found the difference, you're supposed to actually do the integer transform.
+
+821
+02:43:08,000 --> 02:43:12,000
+Okay, so that's pretty much what this question is asking about.
+
+822
+02:43:12,000 --> 02:43:16,000
+Okay, I think we'll probably go through the answer next week, right?
+
+823
+02:43:16,000 --> 02:43:17,000
+All right, we'll call it a day.
+
+824
+02:43:17,000 --> 02:43:18,000
+I'll see you next week, okay?
+
+825
+02:43:18,000 --> 02:43:19,000
+Bye-bye.
+
+826
+02:43:19,000 --> 02:43:21,000
+Thank you.
+
+827
+02:43:49,000 --> 02:43:51,000
+Thank you.
+
+828
+02:44:19,000 --> 02:44:21,000
+Thank you.
+
+829
+02:44:49,000 --> 02:44:51,000
+Thank you.
+
+830
+02:45:19,000 --> 02:45:21,000
+Thank you.
+
+831
+02:45:49,000 --> 02:45:51,000
+Thank you.
+
+832
+02:46:19,000 --> 02:46:21,000
+Thank you.
+
+833
+02:46:49,000 --> 02:46:51,000
+Thank you.
+
+834
+02:47:19,000 --> 02:47:21,000
+Thank you.
+
+835
+02:47:49,000 --> 02:47:51,000
+Thank you.
+
+836
+02:48:19,000 --> 02:48:21,000
+Thank you.
+
+837
+02:48:49,000 --> 02:48:51,000
+Thank you.
+
+838
+02:49:19,000 --> 02:49:21,000
+Thank you.
+
+839
+02:49:49,000 --> 02:49:51,000
+Thank you.
+
+840
+02:50:19,000 --> 02:50:21,000
+Thank you.
+
+841
+02:50:49,000 --> 02:50:51,000
+Thank you.
+
+842
+02:51:19,000 --> 02:51:21,000
+Thank you.
+
+843
+02:51:49,000 --> 02:51:51,000
+Thank you.
+
+844
+02:52:19,000 --> 02:52:21,000
+Thank you.
+
+845
+02:52:49,000 --> 02:52:51,000
+Thank you.
+
+846
+02:53:19,000 --> 02:53:21,000
+Thank you.
+
+847
+02:53:49,000 --> 02:53:51,000
+Thank you.
+
+848
+02:54:19,000 --> 02:54:21,000
+Thank you.
+
+849
+02:54:49,000 --> 02:54:51,000
+Thank you.
+
+850
+02:55:19,000 --> 02:55:21,000
+Thank you.
+
+851
+02:55:49,000 --> 02:55:51,000
+Thank you.
+
+852
+02:56:19,000 --> 02:56:21,000
+Thank you.
+
+853
+02:56:49,000 --> 02:56:51,000
+Thank you.
+
+854
+02:57:19,000 --> 02:57:21,000
+Thank you.
+
+855
+02:57:49,000 --> 02:57:51,000
+Thank you.
+
+856
+02:58:19,000 --> 02:58:21,000
+Thank you.
+
+857
+02:58:49,000 --> 02:58:51,000
+Thank you.
+
+858
+02:59:19,000 --> 02:59:21,000
+Thank you.
+
+859
+02:59:49,000 --> 02:59:51,000
+Thank you.
+

@@ -1,0 +1,9208 @@
+1
+00:00:00,000 --> 00:00:24,000
+ Communication off-camera
+
+2
+00:00:54,000 --> 00:00:56,000
+ This is going to be fun.
+
+3
+00:01:24,000 --> 00:01:26,000
+ This is going to be fun.
+
+4
+00:01:54,000 --> 00:01:57,000
+ .
+
+5
+00:02:24,000 --> 00:02:26,000
+ .
+
+6
+00:02:44,000 --> 00:02:46,000
+ All right.
+
+7
+00:02:46,000 --> 00:02:48,000
+ Okay.
+
+8
+00:02:48,000 --> 00:02:50,000
+ Right, so good evening, class.
+
+9
+00:02:50,000 --> 00:02:52,000
+ Right.
+
+10
+00:02:52,000 --> 00:02:54,000
+ This is the first time I'm here in such a big LT
+
+11
+00:02:54,000 --> 00:02:56,000
+ and see many of our students here.
+
+12
+00:02:56,000 --> 00:02:58,000
+ So it's really a very big LT.
+
+13
+00:02:58,000 --> 00:03:00,000
+ Right, okay.
+
+14
+00:03:00,000 --> 00:03:02,000
+ So welcome to this course,
+
+15
+00:03:02,000 --> 00:03:04,000
+ E6427, Video Signal Processing.
+
+16
+00:03:04,000 --> 00:03:06,000
+ Right.
+
+17
+00:03:06,000 --> 00:03:08,000
+ So I'm actually Prof Yab.
+
+18
+00:03:08,000 --> 00:03:10,000
+ I'm going to be the instructor for this course.
+
+19
+00:03:10,000 --> 00:03:12,000
+ Right, so given here is my contact information.
+
+20
+00:03:12,000 --> 00:03:14,000
+ So should you have any question,
+
+21
+00:03:14,000 --> 00:03:16,000
+ you're welcome to drop me an email
+
+22
+00:03:16,000 --> 00:03:18,000
+ and then we can talk about that.
+
+23
+00:03:18,000 --> 00:03:20,000
+ Okay.
+
+24
+00:03:20,000 --> 00:03:22,000
+ Can you all hear?
+
+25
+00:03:22,000 --> 00:03:24,000
+ Oh, yeah, sorry.
+
+26
+00:03:30,000 --> 00:03:32,000
+ Okay, right.
+
+27
+00:03:32,000 --> 00:03:34,000
+ Let's probably do it one more time.
+
+28
+00:03:34,000 --> 00:03:36,000
+ So welcome to E6427, Video Signal Processing.
+
+29
+00:03:36,000 --> 00:03:38,000
+ So welcome to E6427, Video Signal Processing.
+
+30
+00:03:38,000 --> 00:03:40,000
+ Right, so I'm Prof Yab.
+
+31
+00:03:40,000 --> 00:03:42,000
+ I'm going to be the instructor for this course.
+
+32
+00:03:42,000 --> 00:03:44,000
+ So given here is my contact information.
+
+33
+00:03:44,000 --> 00:03:46,000
+ So should there be any question
+
+34
+00:03:46,000 --> 00:03:48,000
+ that you would like to ask regarding this course,
+
+35
+00:03:48,000 --> 00:03:50,000
+ you can drop me an email.
+
+36
+00:03:50,000 --> 00:03:52,000
+ For the past one week or so,
+
+37
+00:03:52,000 --> 00:03:54,000
+ there are many, many emails.
+
+38
+00:03:54,000 --> 00:03:56,000
+ I think I receive about six
+
+39
+00:03:56,000 --> 00:03:58,000
+ or seven hundred applications
+
+40
+00:03:58,000 --> 00:04:00,000
+ for the projects. So actually,
+
+41
+00:04:00,000 --> 00:04:02,000
+ I'm overwhelmed with the email for the past
+
+42
+00:04:02,000 --> 00:04:04,000
+ few weeks. So for those
+
+43
+00:04:04,000 --> 00:04:06,000
+ students, if you write in
+
+44
+00:04:06,000 --> 00:04:08,000
+ during this period and if I do not
+
+45
+00:04:08,000 --> 00:04:10,000
+ respond, please try to be understanding
+
+46
+00:04:10,000 --> 00:04:12,000
+ because there are just too many
+
+47
+00:04:12,000 --> 00:04:14,000
+ email applications for the
+
+48
+00:04:14,000 --> 00:04:16,000
+ projects for the past one week or so.
+
+49
+00:04:16,000 --> 00:04:18,000
+ Okay, but moving forward, yeah,
+
+50
+00:04:18,000 --> 00:04:20,000
+ when you write in, I'll definitely respond to you.
+
+51
+00:04:22,000 --> 00:04:24,000
+ Okay, so this is the
+
+52
+00:04:24,000 --> 00:04:26,000
+ course outline for
+
+53
+00:04:26,000 --> 00:04:28,000
+ this particular course. So it's divided
+
+54
+00:04:28,000 --> 00:04:30,000
+ into six parts. So
+
+55
+00:04:30,000 --> 00:04:32,000
+ first of all, the first thing we are going to look at
+
+56
+00:04:32,000 --> 00:04:34,000
+ is the introduction and basics.
+
+57
+00:04:34,000 --> 00:04:36,000
+ Before I continue, can I just check
+
+58
+00:04:36,000 --> 00:04:38,000
+ the students at the back? Can you all hear me?
+
+59
+00:04:38,000 --> 00:04:40,000
+ Okay, great.
+
+60
+00:04:40,000 --> 00:04:42,000
+ Okay, and then
+
+61
+00:04:42,000 --> 00:04:44,000
+ part two, we are going to look at image
+
+62
+00:04:44,000 --> 00:04:46,000
+ compression and JPEG standard.
+
+63
+00:04:46,000 --> 00:04:48,000
+ Okay, and then part three, we'll be looking
+
+64
+00:04:48,000 --> 00:04:50,000
+ at video compression and standards.
+
+65
+00:04:50,000 --> 00:04:52,000
+ And then afterwards, part four
+
+66
+00:04:52,000 --> 00:04:54,000
+ we'll be moving on to some AI
+
+67
+00:04:54,000 --> 00:04:56,000
+ models and architectures.
+
+68
+00:04:56,000 --> 00:04:58,000
+ Okay, and then part five, we'll be
+
+69
+00:04:58,000 --> 00:05:00,000
+ looking at some video analysis
+
+70
+00:05:00,000 --> 00:05:02,000
+ and understanding. And then finally,
+
+71
+00:05:02,000 --> 00:05:04,000
+ part six, we'll be looking at some emerging
+
+72
+00:05:04,000 --> 00:05:06,000
+ topics and image and video processing.
+
+73
+00:05:06,000 --> 00:05:08,000
+ So that's a general overview
+
+74
+00:05:08,000 --> 00:05:10,000
+ of the course.
+
+75
+00:05:10,000 --> 00:05:12,000
+ So you can see pretty much
+
+76
+00:05:12,000 --> 00:05:14,000
+ the earlier part tends to be
+
+77
+00:05:14,000 --> 00:05:16,000
+ more focusing on
+
+78
+00:05:16,000 --> 00:05:18,000
+ compression, so video
+
+79
+00:05:18,000 --> 00:05:20,000
+ compression. And the
+
+80
+00:05:20,000 --> 00:05:22,000
+ second half of the
+
+81
+00:05:22,000 --> 00:05:24,000
+ course tends to be more on
+
+82
+00:05:24,000 --> 00:05:26,000
+ AI and then the video analytics.
+
+83
+00:05:26,000 --> 00:05:28,000
+ So these are the two
+
+84
+00:05:28,000 --> 00:05:30,000
+ key focus for this particular
+
+85
+00:05:30,000 --> 00:05:32,000
+ course.
+
+86
+00:05:32,000 --> 00:05:34,000
+ Okay, so for this course, there are
+
+87
+00:05:34,000 --> 00:05:36,000
+ some references. Of course, nowadays
+
+88
+00:05:36,000 --> 00:05:38,000
+ you can make use of different
+
+89
+00:05:38,000 --> 00:05:40,000
+ tools to help you to do the learning.
+
+90
+00:05:40,000 --> 00:05:42,000
+ You should try to make use
+
+91
+00:05:42,000 --> 00:05:44,000
+ of all the tools, which include, for example,
+
+92
+00:05:44,000 --> 00:05:46,000
+ usual ones like Google's.
+
+93
+00:05:46,000 --> 00:05:48,000
+ You should also use the
+
+94
+00:05:48,000 --> 00:05:50,000
+ chat.gbt and other
+
+95
+00:05:50,000 --> 00:05:52,000
+ resources like Quora and
+
+96
+00:05:52,000 --> 00:05:54,000
+ also some traditional textbooks.
+
+97
+00:05:54,000 --> 00:05:56,000
+ So by all means, if you have any
+
+98
+00:05:56,000 --> 00:05:58,000
+ questions regarding the course,
+
+99
+00:05:58,000 --> 00:06:00,000
+ make use of all the resources out there
+
+100
+00:06:00,000 --> 00:06:02,000
+ to help you to do the learning.
+
+101
+00:06:02,000 --> 00:06:04,000
+ But of course, if you are using tools
+
+102
+00:06:04,000 --> 00:06:06,000
+ like chat.gbt, you have to be
+
+103
+00:06:06,000 --> 00:06:08,000
+ a little bit more careful because the content
+
+104
+00:06:08,000 --> 00:06:10,000
+ that's being presented may not
+
+105
+00:06:10,000 --> 00:06:12,000
+ be 100% accurate.
+
+106
+00:06:14,000 --> 00:06:16,000
+ Right, okay, so this slide is the
+
+107
+00:06:16,000 --> 00:06:18,000
+ standard slide that the school actually
+
+108
+00:06:18,000 --> 00:06:20,000
+ suggests us to include, which is just to
+
+109
+00:06:20,000 --> 00:06:22,000
+ remind you that the materials
+
+110
+00:06:22,000 --> 00:06:24,000
+ in the slides are copyrighted by
+
+111
+00:06:24,000 --> 00:06:26,000
+ respective publishers and authors.
+
+112
+00:06:26,000 --> 00:06:28,000
+ And the slides should only be
+
+113
+00:06:28,000 --> 00:06:30,000
+ used for your own personal studies.
+
+114
+00:06:30,000 --> 00:06:32,000
+ So no
+
+115
+00:06:32,000 --> 00:06:34,000
+ part of the slides should be recorded, reproduced
+
+116
+00:06:34,000 --> 00:06:36,000
+ or distributed without the
+
+117
+00:06:36,000 --> 00:06:38,000
+ permission of the author.
+
+118
+00:06:38,000 --> 00:06:40,000
+ So the reason why we have this is that
+
+119
+00:06:40,000 --> 00:06:42,000
+ I mean for some of you, probably you already
+
+120
+00:06:42,000 --> 00:06:44,000
+ know, right,
+
+121
+00:06:44,000 --> 00:06:46,000
+ there are some students who actually
+
+122
+00:06:46,000 --> 00:06:48,000
+ go and record
+
+123
+00:06:48,000 --> 00:06:50,000
+ the material and then afterwards sell
+
+124
+00:06:50,000 --> 00:06:52,000
+ it online. Right? There are some
+
+125
+00:06:52,000 --> 00:06:54,000
+ websites like Course Hero,
+
+126
+00:06:54,000 --> 00:06:56,000
+ actually you can find the lecture notes,
+
+127
+00:06:56,000 --> 00:06:58,000
+ the exercises, the
+
+128
+00:06:58,000 --> 00:07:00,000
+ assignment as well as the solution online.
+
+129
+00:07:00,000 --> 00:07:02,000
+ So therefore we do not encourage
+
+130
+00:07:02,000 --> 00:07:04,000
+ you all to record it.
+
+131
+00:07:04,000 --> 00:07:06,000
+ So it's to stop that.
+
+132
+00:07:06,000 --> 00:07:08,000
+ Okay.
+
+133
+00:07:10,000 --> 00:07:12,000
+ Right, so for many of you,
+
+134
+00:07:12,000 --> 00:07:14,000
+ this is probably one of the most
+
+135
+00:07:14,000 --> 00:07:16,000
+ important things you would like to look at for
+
+136
+00:07:16,000 --> 00:07:18,000
+ a course. So for this course, in terms
+
+137
+00:07:18,000 --> 00:07:20,000
+ of the assessment, it's pretty
+
+138
+00:07:20,000 --> 00:07:22,000
+ standard throughout for
+
+139
+00:07:22,000 --> 00:07:24,000
+ MSc courses. So the
+
+140
+00:07:24,000 --> 00:07:26,000
+ first component is examination.
+
+141
+00:07:26,000 --> 00:07:28,000
+ So examination will account for
+
+142
+00:07:28,000 --> 00:07:30,000
+ 60%.
+
+143
+00:07:30,000 --> 00:07:32,000
+ So it consists of
+
+144
+00:07:32,000 --> 00:07:34,000
+ four questions. So you have to answer
+
+145
+00:07:34,000 --> 00:07:36,000
+ all the four questions and
+
+146
+00:07:36,000 --> 00:07:38,000
+ it will be closed book. Okay? So it's a
+
+147
+00:07:38,000 --> 00:07:40,000
+ closed book examination at the end
+
+148
+00:07:40,000 --> 00:07:42,000
+ of the semester.
+
+149
+00:07:42,000 --> 00:07:44,000
+ In addition to that, there's also
+
+150
+00:07:44,000 --> 00:07:46,000
+ this continuous assessment.
+
+151
+00:07:46,000 --> 00:07:48,000
+ So continuous assessment is 40%.
+
+152
+00:07:48,000 --> 00:07:50,000
+ It will consist of
+
+153
+00:07:50,000 --> 00:07:52,000
+ two CA. So the first
+
+154
+00:07:52,000 --> 00:07:54,000
+ one is homework assignment.
+
+155
+00:07:54,000 --> 00:07:56,000
+ So this homework assignment, I plan to
+
+156
+00:07:56,000 --> 00:07:58,000
+ release it around week five
+
+157
+00:07:58,000 --> 00:08:00,000
+ or week six around that time.
+
+158
+00:08:00,000 --> 00:08:02,000
+ So it will be a homework assignment
+
+159
+00:08:02,000 --> 00:08:04,000
+ which is 20%.
+
+160
+00:08:04,000 --> 00:08:06,000
+ And the second component is
+
+161
+00:08:06,000 --> 00:08:08,000
+ quiz, which will account for
+
+162
+00:08:08,000 --> 00:08:10,000
+ another 20%. So this
+
+163
+00:08:10,000 --> 00:08:12,000
+ quiz will likely occur around
+
+164
+00:08:12,000 --> 00:08:14,000
+ week 11 or week 12.
+
+165
+00:08:14,000 --> 00:08:16,000
+ So once it's a little bit closer,
+
+166
+00:08:16,000 --> 00:08:18,000
+ I will inform you regarding the quiz
+
+167
+00:08:18,000 --> 00:08:20,000
+ arrangement.
+
+168
+00:08:20,000 --> 00:08:22,000
+ So far, are there any questions?
+
+169
+00:08:24,000 --> 00:08:26,000
+ Do you hear any echo?
+
+170
+00:08:26,000 --> 00:08:28,000
+ The sound quality is okay.
+
+171
+00:08:32,000 --> 00:08:34,000
+ Okay, so next
+
+172
+00:08:34,000 --> 00:08:36,000
+ we'll move on to part one on the
+
+173
+00:08:36,000 --> 00:08:38,000
+ introduction of this
+
+174
+00:08:38,000 --> 00:08:40,000
+ course here. So this, today's
+
+175
+00:08:40,000 --> 00:08:42,000
+ lecture is pretty much on introduction
+
+176
+00:08:42,000 --> 00:08:44,000
+ so you can more like sit back and relax.
+
+177
+00:08:44,000 --> 00:08:46,000
+ Yeah, and then after
+
+178
+00:08:46,000 --> 00:08:48,000
+ the introduction, then we'll formally move into
+
+179
+00:08:48,000 --> 00:08:50,000
+ the more technical part
+
+180
+00:08:50,000 --> 00:08:52,000
+ of the course. But the first part
+
+181
+00:08:52,000 --> 00:08:54,000
+ will be mainly on introduction
+
+182
+00:08:54,000 --> 00:08:56,000
+ and basics.
+
+183
+00:08:56,000 --> 00:08:58,000
+ Right, so in part one, these
+
+184
+00:08:58,000 --> 00:09:00,000
+ are the topics we are going to cover. So
+
+185
+00:09:00,000 --> 00:09:02,000
+ first of all, we are going to introduce
+
+186
+00:09:02,000 --> 00:09:04,000
+ the basic concept about image
+
+187
+00:09:04,000 --> 00:09:06,000
+ and video. So what are actually images
+
+188
+00:09:06,000 --> 00:09:08,000
+ and videos? And then we'll be looking
+
+189
+00:09:08,000 --> 00:09:10,000
+ at some selected different topics
+
+190
+00:09:10,000 --> 00:09:12,000
+ of video signal processing and application.
+
+191
+00:09:12,000 --> 00:09:14,000
+ Because if you think about
+
+192
+00:09:14,000 --> 00:09:16,000
+ video, right, video signal
+
+193
+00:09:16,000 --> 00:09:18,000
+ processing, actually the title itself is very
+
+194
+00:09:18,000 --> 00:09:20,000
+ broad. It can cover many,
+
+195
+00:09:20,000 --> 00:09:22,000
+ many different aspects of video signal
+
+196
+00:09:22,000 --> 00:09:24,000
+ processing. It's a very broad
+
+197
+00:09:24,000 --> 00:09:26,000
+ topic. But as I
+
+198
+00:09:26,000 --> 00:09:28,000
+ mentioned, for this particular course
+
+199
+00:09:28,000 --> 00:09:30,000
+ there will be two key focus that we'll be
+
+200
+00:09:30,000 --> 00:09:32,000
+ focusing on. One is the coding
+
+201
+00:09:32,000 --> 00:09:34,000
+ and compression, okay, and communication.
+
+202
+00:09:34,000 --> 00:09:36,000
+ The second one is on
+
+203
+00:09:36,000 --> 00:09:38,000
+ the analysis and analytics
+
+204
+00:09:38,000 --> 00:09:40,000
+ and understanding. So these are the
+
+205
+00:09:40,000 --> 00:09:42,000
+ two key focus for
+
+206
+00:09:42,000 --> 00:09:44,000
+ this particular course here.
+
+207
+00:09:44,000 --> 00:09:46,000
+ Okay, so in the first part,
+
+208
+00:09:46,000 --> 00:09:48,000
+ as I mentioned, the first
+
+209
+00:09:48,000 --> 00:09:50,000
+ important part will be on the
+
+210
+00:09:50,000 --> 00:09:52,000
+ image and video standard. So
+
+211
+00:09:52,000 --> 00:09:54,000
+ we'll be talking about different types
+
+212
+00:09:54,000 --> 00:09:56,000
+ of compression, such as
+
+213
+00:09:56,000 --> 00:09:58,000
+ we'll start off with image compression,
+
+214
+00:09:58,000 --> 00:10:00,000
+ and afterwards we'll move on to video
+
+215
+00:10:00,000 --> 00:10:02,000
+ compression. So in the process
+
+216
+00:10:02,000 --> 00:10:04,000
+ of introducing this compression
+
+217
+00:10:04,000 --> 00:10:06,000
+ techniques, we'll also introduce
+
+218
+00:10:06,000 --> 00:10:08,000
+ some standards that you
+
+219
+00:10:08,000 --> 00:10:10,000
+ probably have heard of, such as
+
+220
+00:10:10,000 --> 00:10:12,000
+ JPEG image compression,
+
+221
+00:10:12,000 --> 00:10:14,000
+ video compression, you probably heard about
+
+222
+00:10:14,000 --> 00:10:16,000
+ MPEG as well as H.26x
+
+223
+00:10:16,000 --> 00:10:18,000
+ series of compression.
+
+224
+00:10:18,000 --> 00:10:20,000
+ So those are the topics
+
+225
+00:10:20,000 --> 00:10:22,000
+ we're going to cover in the first
+
+226
+00:10:22,000 --> 00:10:24,000
+ part of the course.
+
+227
+00:10:24,000 --> 00:10:26,000
+ Afterwards we'll move on to the second part,
+
+228
+00:10:26,000 --> 00:10:28,000
+ where we'll be talking about video
+
+229
+00:10:28,000 --> 00:10:30,000
+ analysis and understanding.
+
+230
+00:10:30,000 --> 00:10:32,000
+ So in order to do that, we'll try to introduce
+
+231
+00:10:32,000 --> 00:10:34,000
+ some AI models.
+
+232
+00:10:34,000 --> 00:10:36,000
+ So we'll first of all try to cover
+
+233
+00:10:36,000 --> 00:10:38,000
+ concepts such as linear classifier,
+
+234
+00:10:38,000 --> 00:10:40,000
+ convolutional
+
+235
+00:10:40,000 --> 00:10:42,000
+ neural network, recurrent neural
+
+236
+00:10:42,000 --> 00:10:44,000
+ network, LSTM,
+
+237
+00:10:44,000 --> 00:10:46,000
+ and then transformer, and then probably
+
+238
+00:10:46,000 --> 00:10:48,000
+ some of the relevant concepts.
+
+239
+00:10:48,000 --> 00:10:50,000
+ So we'll try to introduce those basic
+
+240
+00:10:50,000 --> 00:10:52,000
+ AI models first, and afterwards we'll
+
+241
+00:10:52,000 --> 00:10:54,000
+ proceed to look at some sample video
+
+242
+00:10:54,000 --> 00:10:56,000
+ analytics application,
+
+243
+00:10:56,000 --> 00:10:58,000
+ such as object
+
+244
+00:10:58,000 --> 00:11:00,000
+ detection, multiple object
+
+245
+00:11:00,000 --> 00:11:02,000
+ tracking, post estimation,
+
+246
+00:11:02,000 --> 00:11:04,000
+ action recognition in
+
+247
+00:11:04,000 --> 00:11:06,000
+ videos. So those are the topics we'll cover.
+
+248
+00:11:06,000 --> 00:11:08,000
+ And then finally, under the
+
+249
+00:11:08,000 --> 00:11:10,000
+ emerging topics, we'll try
+
+250
+00:11:10,000 --> 00:11:12,000
+ to cover some recent trends.
+
+251
+00:11:12,000 --> 00:11:14,000
+ So specifically, we'll
+
+252
+00:11:14,000 --> 00:11:16,000
+ probably be talking about some large language
+
+253
+00:11:16,000 --> 00:11:18,000
+ model, and also some
+
+254
+00:11:18,000 --> 00:11:20,000
+ foundation models, in the
+
+255
+00:11:20,000 --> 00:11:22,000
+ context of video analytics.
+
+256
+00:11:22,000 --> 00:11:24,000
+ So that's a general overview
+
+257
+00:11:24,000 --> 00:11:26,000
+ of this particular course here.
+
+258
+00:11:30,000 --> 00:11:32,000
+ So first,
+
+259
+00:11:32,000 --> 00:11:34,000
+ let's look at the image and video
+
+260
+00:11:34,000 --> 00:11:36,000
+ basics.
+
+261
+00:11:36,000 --> 00:11:38,000
+ So what is an image? I think most of you
+
+262
+00:11:38,000 --> 00:11:40,000
+ should be familiar with image
+
+263
+00:11:40,000 --> 00:11:42,000
+ already. So an image is nothing
+
+264
+00:11:42,000 --> 00:11:44,000
+ but if you think about it, it's actually a two-dimensional
+
+265
+00:11:44,000 --> 00:11:46,000
+ array, or a matrix
+
+266
+00:11:46,000 --> 00:11:48,000
+ of pixel elements.
+
+267
+00:11:48,000 --> 00:11:50,000
+ So you have a two-dimensional array
+
+268
+00:11:50,000 --> 00:11:52,000
+ of small elements here.
+
+269
+00:11:52,000 --> 00:11:54,000
+ So each of the smallest elements is
+
+270
+00:11:54,000 --> 00:11:56,000
+ known as a pixel. So pixels stand
+
+271
+00:11:56,000 --> 00:11:58,000
+ for picture element.
+
+272
+00:11:58,000 --> 00:12:00,000
+ So image is an important media
+
+273
+00:12:00,000 --> 00:12:02,000
+ for us to convey the information.
+
+274
+00:12:02,000 --> 00:12:04,000
+ So we need to store it,
+
+275
+00:12:04,000 --> 00:12:06,000
+ we need to process, and we need to present
+
+276
+00:12:06,000 --> 00:12:08,000
+ it. So that's the basic
+
+277
+00:12:08,000 --> 00:12:10,000
+ understanding of what an image is.
+
+278
+00:12:10,000 --> 00:12:12,000
+ So it's represented by a two-dimensional
+
+279
+00:12:12,000 --> 00:12:14,000
+ matrix, or
+
+280
+00:12:14,000 --> 00:12:16,000
+ two-dimensional array of pixels here.
+
+281
+00:12:16,000 --> 00:12:18,000
+ So for example, you can see this is an
+
+282
+00:12:18,000 --> 00:12:20,000
+ image. So this image
+
+283
+00:12:20,000 --> 00:12:22,000
+ consists of different rows
+
+284
+00:12:22,000 --> 00:12:24,000
+ of pixels here.
+
+285
+00:12:24,000 --> 00:12:26,000
+ So each of the basic elements is a pixel.
+
+286
+00:12:26,000 --> 00:12:28,000
+ So there are many
+
+287
+00:12:28,000 --> 00:12:30,000
+ different popular image formats,
+
+288
+00:12:30,000 --> 00:12:32,000
+ such as JPEG,
+
+289
+00:12:32,000 --> 00:12:34,000
+ which stands for Joint Photographic Expert Group,
+
+290
+00:12:34,000 --> 00:12:36,000
+ and then
+
+291
+00:12:36,000 --> 00:12:38,000
+ TIFF, TAC, Image File Format,
+
+292
+00:12:38,000 --> 00:12:40,000
+ BMP, Bitmap Format, and so on.
+
+293
+00:12:40,000 --> 00:12:42,000
+ So for this course, we'll spend
+
+294
+00:12:42,000 --> 00:12:44,000
+ some time to talk about
+
+295
+00:12:44,000 --> 00:12:46,000
+ the techniques for image compression,
+
+296
+00:12:46,000 --> 00:12:48,000
+ as well as the underlying principle
+
+297
+00:12:48,000 --> 00:12:50,000
+ for JPEG image compression.
+
+298
+00:12:50,000 --> 00:12:52,000
+ So that's
+
+299
+00:12:52,000 --> 00:12:54,000
+ the basic
+
+300
+00:12:54,000 --> 00:12:56,000
+ parts regarding the image
+
+301
+00:12:56,000 --> 00:12:58,000
+ compression that we're going to study.
+
+302
+00:12:58,000 --> 00:13:00,000
+ And then before
+
+303
+00:13:00,000 --> 00:13:02,000
+ we continue, as I mentioned
+
+304
+00:13:02,000 --> 00:13:04,000
+ for this lecture, we are going to
+
+305
+00:13:04,000 --> 00:13:06,000
+ talk about some of the basics to
+
+306
+00:13:06,000 --> 00:13:08,000
+ make sure that everyone has a common understanding
+
+307
+00:13:08,000 --> 00:13:10,000
+ and is familiar with
+
+308
+00:13:10,000 --> 00:13:12,000
+ the terms that we are using.
+
+309
+00:13:12,000 --> 00:13:14,000
+ So first of all, we're going
+
+310
+00:13:14,000 --> 00:13:16,000
+ to introduce the concept of pixels and resolution.
+
+311
+00:13:16,000 --> 00:13:18,000
+ So I believe everyone
+
+312
+00:13:18,000 --> 00:13:20,000
+ should understand what a pixel is.
+
+313
+00:13:20,000 --> 00:13:22,000
+ So pixels
+
+314
+00:13:22,000 --> 00:13:24,000
+ represent picture elements.
+
+315
+00:13:24,000 --> 00:13:26,000
+ So it's the smallest element in
+
+316
+00:13:26,000 --> 00:13:28,000
+ a digital image. So if you look
+
+317
+00:13:28,000 --> 00:13:30,000
+ at this particular image here,
+
+318
+00:13:30,000 --> 00:13:32,000
+ it consists of a two-dimensional
+
+319
+00:13:32,000 --> 00:13:34,000
+ array or matrix of
+
+320
+00:13:34,000 --> 00:13:36,000
+ pixels.
+
+321
+00:13:36,000 --> 00:13:38,000
+ So if you zoom in
+
+322
+00:13:38,000 --> 00:13:40,000
+ these parts of the image, if you zoom in
+
+323
+00:13:40,000 --> 00:13:42,000
+ in, then you can see each of these
+
+324
+00:13:42,000 --> 00:13:44,000
+ pixels a lot more clearly.
+
+325
+00:13:44,000 --> 00:13:46,000
+ So each of these particular elements here
+
+326
+00:13:46,000 --> 00:13:48,000
+ is known as a pixel, which is
+
+327
+00:13:48,000 --> 00:13:50,000
+ the picture element.
+
+328
+00:13:50,000 --> 00:13:52,000
+ So another associated
+
+329
+00:13:52,000 --> 00:13:54,000
+ concept with image
+
+330
+00:13:54,000 --> 00:13:56,000
+ is resolution. So what is the meaning
+
+331
+00:13:56,000 --> 00:13:58,000
+ of resolution? Resolution means the number
+
+332
+00:13:58,000 --> 00:14:00,000
+ of pixels in the image. So there's
+
+333
+00:14:00,000 --> 00:14:02,000
+ a few different ways you can express
+
+334
+00:14:02,000 --> 00:14:04,000
+ the number of pixels in the image.
+
+335
+00:14:04,000 --> 00:14:06,000
+ You can simply express
+
+336
+00:14:06,000 --> 00:14:08,000
+ it in terms of the total pixel count.
+
+337
+00:14:08,000 --> 00:14:10,000
+ For example, you can say that this particular
+
+338
+00:14:10,000 --> 00:14:12,000
+ image is 10 megapixel.
+
+339
+00:14:12,000 --> 00:14:14,000
+ That means this image actually
+
+340
+00:14:14,000 --> 00:14:16,000
+ consists of 10 megapixels
+
+341
+00:14:16,000 --> 00:14:18,000
+ of pixels. Or it
+
+342
+00:14:18,000 --> 00:14:20,000
+ can be expressed as width times
+
+343
+00:14:20,000 --> 00:14:22,000
+ height. For example,
+
+344
+00:14:22,000 --> 00:14:24,000
+ for first
+
+345
+00:14:24,000 --> 00:14:26,000
+ total pixel count, for example, if you say an image
+
+346
+00:14:26,000 --> 00:14:28,000
+ can be 5 megapixels.
+
+347
+00:14:28,000 --> 00:14:30,000
+ In terms of, you can
+
+348
+00:14:30,000 --> 00:14:32,000
+ also express it as width times height.
+
+349
+00:14:32,000 --> 00:14:34,000
+ An example is 640 by
+
+350
+00:14:34,000 --> 00:14:36,000
+ 480. So what it means is that
+
+351
+00:14:36,000 --> 00:14:38,000
+ you have the number, the row
+
+352
+00:14:38,000 --> 00:14:40,000
+ is 640 and the height
+
+353
+00:14:40,000 --> 00:14:42,000
+ is 480.
+
+354
+00:14:42,000 --> 00:14:44,000
+ So this is the dimension of your image.
+
+355
+00:14:44,000 --> 00:14:46,000
+ Another way of
+
+356
+00:14:46,000 --> 00:14:48,000
+ expressing this resolution
+
+357
+00:14:48,000 --> 00:14:50,000
+ in the context of printing and
+
+358
+00:14:50,000 --> 00:14:52,000
+ scanning is this pixel
+
+359
+00:14:52,000 --> 00:14:54,000
+ per inch, or PPI.
+
+360
+00:14:54,000 --> 00:14:56,000
+ So for example, when you say that you are trying
+
+361
+00:14:56,000 --> 00:14:58,000
+ to print a certain document, you need
+
+362
+00:14:58,000 --> 00:15:00,000
+ to indicate how many pixels per inch.
+
+363
+00:15:00,000 --> 00:15:02,000
+ In one inch of space,
+
+364
+00:15:02,000 --> 00:15:04,000
+ how many pixels can you squeeze it?
+
+365
+00:15:04,000 --> 00:15:06,000
+ So these are different ways for you
+
+366
+00:15:06,000 --> 00:15:08,000
+ to express the resolution.
+
+367
+00:15:08,000 --> 00:15:10,000
+ So you can see this resolution
+
+368
+00:15:10,000 --> 00:15:12,000
+ pretty much is trying to reflect
+
+369
+00:15:12,000 --> 00:15:14,000
+ the ability for you
+
+370
+00:15:14,000 --> 00:15:16,000
+ to distinguish or
+
+371
+00:15:16,000 --> 00:15:18,000
+ differentiate fine details in an image.
+
+372
+00:15:18,000 --> 00:15:20,000
+ So if you look at this small image and you
+
+373
+00:15:20,000 --> 00:15:22,000
+ zoom it in, clearly, if
+
+374
+00:15:22,000 --> 00:15:24,000
+ you have a higher resolution, that means
+
+375
+00:15:24,000 --> 00:15:26,000
+ you can pack more information into it.
+
+376
+00:15:26,000 --> 00:15:28,000
+ That means you will be able to see a lot more details.
+
+377
+00:15:28,000 --> 00:15:30,000
+ So that is the
+
+378
+00:15:30,000 --> 00:15:32,000
+ basic idea of resolution.
+
+379
+00:15:34,000 --> 00:15:36,000
+ So the next term that we are going to introduce
+
+380
+00:15:36,000 --> 00:15:38,000
+ is bit depth or color depth.
+
+381
+00:15:38,000 --> 00:15:40,000
+ So what is bit depth and color depth?
+
+382
+00:15:40,000 --> 00:15:42,000
+ So bit depth or color depth is the number
+
+383
+00:15:42,000 --> 00:15:44,000
+ of bits used to represent
+
+384
+00:15:44,000 --> 00:15:46,000
+ each pixel.
+
+385
+00:15:46,000 --> 00:15:48,000
+ So if you look at these images
+
+386
+00:15:48,000 --> 00:15:50,000
+ here, there are three types of images
+
+387
+00:15:50,000 --> 00:15:52,000
+ here. So the first one is a binary
+
+388
+00:15:52,000 --> 00:15:54,000
+ image.
+
+389
+00:15:54,000 --> 00:15:56,000
+ So you can see binary image because it consists of
+
+390
+00:15:56,000 --> 00:15:58,000
+ either, you know, the color can
+
+391
+00:15:58,000 --> 00:16:00,000
+ only be either black or
+
+392
+00:16:00,000 --> 00:16:02,000
+ white. So if it's black or white,
+
+393
+00:16:02,000 --> 00:16:04,000
+ that means how many bits do you
+
+394
+00:16:04,000 --> 00:16:06,000
+ need to represent it?
+
+395
+00:16:08,000 --> 00:16:10,000
+ If it's for a binary
+
+396
+00:16:10,000 --> 00:16:12,000
+ image, it only can have
+
+397
+00:16:12,000 --> 00:16:14,000
+ two colors, which is either black or white.
+
+398
+00:16:14,000 --> 00:16:16,000
+ So if it's either black or white, how many
+
+399
+00:16:16,000 --> 00:16:18,000
+ bits do you need to represent each pixel?
+
+400
+00:16:18,000 --> 00:16:20,000
+ One,
+
+401
+00:16:20,000 --> 00:16:22,000
+ because it can only have two possible values.
+
+402
+00:16:22,000 --> 00:16:24,000
+ So therefore, for binary images
+
+403
+00:16:24,000 --> 00:16:26,000
+ like this, you only need to have one bit
+
+404
+00:16:26,000 --> 00:16:28,000
+ represented, okay? Because it's either
+
+405
+00:16:28,000 --> 00:16:30,000
+ black or white.
+
+406
+00:16:30,000 --> 00:16:32,000
+ So the next time is a grayscale images.
+
+407
+00:16:32,000 --> 00:16:34,000
+ So these are examples of grayscale
+
+408
+00:16:34,000 --> 00:16:36,000
+ images. So these are probably like
+
+409
+00:16:36,000 --> 00:16:38,000
+ your grandparents' generations of
+
+410
+00:16:38,000 --> 00:16:40,000
+ photos or my
+
+411
+00:16:40,000 --> 00:16:42,000
+ mother's generation of photos.
+
+412
+00:16:42,000 --> 00:16:44,000
+ So these are the grayscale images here.
+
+413
+00:16:44,000 --> 00:16:46,000
+ So very often, we use
+
+414
+00:16:46,000 --> 00:16:48,000
+ eight bits represented.
+
+415
+00:16:48,000 --> 00:16:50,000
+ So if we use eight bits to represent it,
+
+416
+00:16:50,000 --> 00:16:52,000
+ that means how many possible
+
+417
+00:16:52,000 --> 00:16:54,000
+ gray levels or tones can
+
+418
+00:16:54,000 --> 00:16:56,000
+ it show?
+
+419
+00:16:56,000 --> 00:16:58,000
+ For each pixel?
+
+420
+00:17:00,000 --> 00:17:02,000
+ Sorry?
+
+421
+00:17:02,000 --> 00:17:04,000
+ 256,
+
+422
+00:17:04,000 --> 00:17:06,000
+ so it's two to the power of eight
+
+423
+00:17:06,000 --> 00:17:08,000
+ because for each bit
+
+424
+00:17:08,000 --> 00:17:10,000
+ you can have two possible values. So two
+
+425
+00:17:10,000 --> 00:17:12,000
+ times two times two, you times it
+
+426
+00:17:12,000 --> 00:17:14,000
+ eight times, then it's two to the power of eight,
+
+427
+00:17:14,000 --> 00:17:16,000
+ which is 256
+
+428
+00:17:16,000 --> 00:17:18,000
+ possible gray
+
+429
+00:17:18,000 --> 00:17:20,000
+ level. So this is a
+
+430
+00:17:20,000 --> 00:17:22,000
+ this image here is an example
+
+431
+00:17:22,000 --> 00:17:24,000
+ of grayscale images here.
+
+432
+00:17:24,000 --> 00:17:26,000
+ And if you zoom in this more
+
+433
+00:17:26,000 --> 00:17:28,000
+ pixel blocks here,
+
+434
+00:17:28,000 --> 00:17:30,000
+ you can see this is the examples of grayscale
+
+435
+00:17:30,000 --> 00:17:32,000
+ images. For grayscale
+
+436
+00:17:32,000 --> 00:17:34,000
+ images and binary image, it
+
+437
+00:17:34,000 --> 00:17:36,000
+ only consists of one channel
+
+438
+00:17:36,000 --> 00:17:38,000
+ or one component.
+
+439
+00:17:38,000 --> 00:17:40,000
+ So for this binary
+
+440
+00:17:40,000 --> 00:17:42,000
+ or grayscale image, it only has
+
+441
+00:17:42,000 --> 00:17:44,000
+ one channel
+
+442
+00:17:44,000 --> 00:17:46,000
+ or one component.
+
+443
+00:17:46,000 --> 00:17:48,000
+ So and then for each component,
+
+444
+00:17:48,000 --> 00:17:50,000
+ if you zoom it in, just now
+
+445
+00:17:50,000 --> 00:17:52,000
+ we already know if we use eight bits
+
+446
+00:17:52,000 --> 00:17:54,000
+ to represent it, that means you can have
+
+447
+00:17:54,000 --> 00:17:56,000
+ 256 gray
+
+448
+00:17:56,000 --> 00:17:58,000
+ level. So this 256
+
+449
+00:17:58,000 --> 00:18:00,000
+ gray level typically we represent
+
+450
+00:18:00,000 --> 00:18:02,000
+ from zero to 255.
+
+451
+00:18:02,000 --> 00:18:04,000
+ So zero to 255.
+
+452
+00:18:04,000 --> 00:18:06,000
+ And if it's smaller, if the
+
+453
+00:18:06,000 --> 00:18:08,000
+ value is smaller, that means it's darker.
+
+454
+00:18:08,000 --> 00:18:10,000
+ If the value is larger, that means
+
+455
+00:18:10,000 --> 00:18:12,000
+ it's brighter. So you can see for example,
+
+456
+00:18:12,000 --> 00:18:14,000
+ for smaller value
+
+457
+00:18:14,000 --> 00:18:16,000
+ each byte 51 here is actually
+
+458
+00:18:16,000 --> 00:18:18,000
+ corresponds to darker pixel.
+
+459
+00:18:18,000 --> 00:18:20,000
+ And if the value is larger such as
+
+460
+00:18:20,000 --> 00:18:22,000
+ 177,
+
+461
+00:18:22,000 --> 00:18:24,000
+ it corresponds to brighter pixel.
+
+462
+00:18:24,000 --> 00:18:26,000
+ So that's the
+
+463
+00:18:26,000 --> 00:18:28,000
+ basic understanding.
+
+464
+00:18:28,000 --> 00:18:30,000
+ So the next types of image that we have
+
+465
+00:18:30,000 --> 00:18:32,000
+ is color images. So this color image
+
+466
+00:18:32,000 --> 00:18:34,000
+ is very common. That's what we see every
+
+467
+00:18:34,000 --> 00:18:36,000
+ day. So this is an example
+
+468
+00:18:36,000 --> 00:18:38,000
+ of the color image.
+
+469
+00:18:38,000 --> 00:18:40,000
+ So if you look at this particular
+
+470
+00:18:40,000 --> 00:18:42,000
+ color image, again it consists of
+
+471
+00:18:42,000 --> 00:18:44,000
+ different pixels here.
+
+472
+00:18:44,000 --> 00:18:46,000
+ Each of these is actually a
+
+473
+00:18:46,000 --> 00:18:48,000
+ pixel. And each of
+
+474
+00:18:48,000 --> 00:18:50,000
+ this pixel will consist of a triplet
+
+475
+00:18:50,000 --> 00:18:52,000
+ of value. That means it has three values
+
+476
+00:18:52,000 --> 00:18:54,000
+ here. Triplets of value. So each
+
+477
+00:18:54,000 --> 00:18:56,000
+ of these pixels here would have red,
+
+478
+00:18:56,000 --> 00:18:58,000
+ green and blue. So for example,
+
+479
+00:18:58,000 --> 00:19:00,000
+ these pixels here will consist of
+
+480
+00:19:00,000 --> 00:19:02,000
+ red, green and blue. So it has three
+
+481
+00:19:02,000 --> 00:19:04,000
+ channels. So red,
+
+482
+00:19:04,000 --> 00:19:06,000
+ green and blue are referred
+
+483
+00:19:06,000 --> 00:19:08,000
+ to as three channels or
+
+484
+00:19:08,000 --> 00:19:10,000
+ three components.
+
+485
+00:19:10,000 --> 00:19:12,000
+ So typically,
+
+486
+00:19:12,000 --> 00:19:14,000
+ because each of these
+
+487
+00:19:14,000 --> 00:19:16,000
+ channels or components,
+
+488
+00:19:16,000 --> 00:19:18,000
+ we use eight bits to represent it.
+
+489
+00:19:18,000 --> 00:19:20,000
+ So therefore, each pixel now
+
+490
+00:19:20,000 --> 00:19:22,000
+ can be represented as three times
+
+491
+00:19:22,000 --> 00:19:24,000
+ eight, which is 24 bits.
+
+492
+00:19:24,000 --> 00:19:26,000
+ So that is the
+
+493
+00:19:26,000 --> 00:19:28,000
+ basic visualizations
+
+494
+00:19:28,000 --> 00:19:30,000
+ of how we represent different
+
+495
+00:19:30,000 --> 00:19:32,000
+ types of images.
+
+496
+00:19:34,000 --> 00:19:36,000
+ So the next thing we are going to
+
+497
+00:19:36,000 --> 00:19:38,000
+ look at is some
+
+498
+00:19:38,000 --> 00:19:40,000
+ column color
+
+499
+00:19:40,000 --> 00:19:42,000
+ spaces. So what are color
+
+500
+00:19:42,000 --> 00:19:44,000
+ spaces? So just now, the color
+
+501
+00:19:44,000 --> 00:19:46,000
+ image that we've shown, we know that
+
+502
+00:19:46,000 --> 00:19:48,000
+ color image, again, consists
+
+503
+00:19:48,000 --> 00:19:50,000
+ of a two-dimensional array or
+
+504
+00:19:50,000 --> 00:19:52,000
+ matrix of pixels. And for each
+
+505
+00:19:52,000 --> 00:19:54,000
+ pixel, it can be shown
+
+506
+00:19:54,000 --> 00:19:56,000
+ as triplets of value.
+
+507
+00:19:56,000 --> 00:19:58,000
+ The example that was shown is red,
+
+508
+00:19:58,000 --> 00:20:00,000
+ green and blue. RGB.
+
+509
+00:20:00,000 --> 00:20:02,000
+ But this particular way of representing
+
+510
+00:20:02,000 --> 00:20:04,000
+ the color image is not
+
+511
+00:20:04,000 --> 00:20:06,000
+ the only way. So there are actually
+
+512
+00:20:06,000 --> 00:20:08,000
+ many different ways you can represent
+
+513
+00:20:08,000 --> 00:20:10,000
+ color images. So different
+
+514
+00:20:10,000 --> 00:20:12,000
+ ways of representing color images
+
+515
+00:20:12,000 --> 00:20:14,000
+ are known as color
+
+516
+00:20:14,000 --> 00:20:16,000
+ spaces or color model.
+
+517
+00:20:16,000 --> 00:20:18,000
+ So there's many different ways
+
+518
+00:20:18,000 --> 00:20:20,000
+ you can represent colors,
+
+519
+00:20:20,000 --> 00:20:22,000
+ images.
+
+520
+00:20:22,000 --> 00:20:24,000
+ And this is known as color spaces.
+
+521
+00:20:24,000 --> 00:20:26,000
+ So this particular figure
+
+522
+00:20:26,000 --> 00:20:28,000
+ shows some of the examples.
+
+523
+00:20:28,000 --> 00:20:30,000
+ For example, red, green, blue is one
+
+524
+00:20:30,000 --> 00:20:32,000
+ common color space.
+
+525
+00:20:32,000 --> 00:20:34,000
+ HSI hue saturation
+
+526
+00:20:34,000 --> 00:20:36,000
+ intensity is another common
+
+527
+00:20:36,000 --> 00:20:38,000
+ color space. And later on,
+
+528
+00:20:38,000 --> 00:20:40,000
+ you're going to see why CBCR
+
+529
+00:20:40,000 --> 00:20:42,000
+ is also another common color
+
+530
+00:20:42,000 --> 00:20:44,000
+ space. We are going to
+
+531
+00:20:44,000 --> 00:20:46,000
+ look at each of these color spaces
+
+532
+00:20:46,000 --> 00:20:48,000
+ and also talk about why,
+
+533
+00:20:48,000 --> 00:20:50,000
+ in some cases, we want to use this color
+
+534
+00:20:50,000 --> 00:20:52,000
+ space, and in some cases, we use
+
+535
+00:20:52,000 --> 00:20:54,000
+ another color space.
+
+536
+00:20:56,000 --> 00:20:58,000
+ So let's try to look at,
+
+537
+00:20:58,000 --> 00:21:00,000
+ first of all, color
+
+538
+00:21:00,000 --> 00:21:02,000
+ images again. So color images
+
+539
+00:21:02,000 --> 00:21:04,000
+ can be expressed in terms of different color
+
+540
+00:21:04,000 --> 00:21:06,000
+ spaces, as I mentioned. There's many different
+
+541
+00:21:06,000 --> 00:21:08,000
+ ways you can express the color.
+
+542
+00:21:08,000 --> 00:21:10,000
+ So some of the common color space
+
+543
+00:21:10,000 --> 00:21:12,000
+ is RGB. For example,
+
+544
+00:21:12,000 --> 00:21:14,000
+ the image that we have just now earlier on
+
+545
+00:21:14,000 --> 00:21:16,000
+ shown is RGB images.
+
+546
+00:21:16,000 --> 00:21:18,000
+ HSI is another popular
+
+547
+00:21:18,000 --> 00:21:20,000
+ one, and why CBCR
+
+548
+00:21:20,000 --> 00:21:22,000
+ is another popular one. So this
+
+549
+00:21:22,000 --> 00:21:24,000
+ why CBCR color space is
+
+550
+00:21:24,000 --> 00:21:26,000
+ commonly used in standards
+
+551
+00:21:26,000 --> 00:21:28,000
+ such as image and video
+
+552
+00:21:28,000 --> 00:21:30,000
+ compression and TV transmission.
+
+553
+00:21:30,000 --> 00:21:32,000
+ So these are the color space that's commonly
+
+554
+00:21:32,000 --> 00:21:34,000
+ used in those applications
+
+555
+00:21:34,000 --> 00:21:36,000
+ here. So if you look at RGB
+
+556
+00:21:36,000 --> 00:21:38,000
+ color space, you can see
+
+557
+00:21:38,000 --> 00:21:40,000
+ the color is represented by
+
+558
+00:21:40,000 --> 00:21:42,000
+ triplets. Now we say each pixel has three
+
+559
+00:21:42,000 --> 00:21:44,000
+ values. So these three values
+
+560
+00:21:44,000 --> 00:21:46,000
+ are triplets of value as
+
+561
+00:21:46,000 --> 00:21:48,000
+ red, green and blue, RGB.
+
+562
+00:21:48,000 --> 00:21:50,000
+ So if you look at
+
+563
+00:21:50,000 --> 00:21:52,000
+ this particular
+
+564
+00:21:52,000 --> 00:21:54,000
+ color model
+
+565
+00:21:54,000 --> 00:21:56,000
+ here, I think this is some color
+
+566
+00:21:56,000 --> 00:21:58,000
+ model that you probably, for most students,
+
+567
+00:21:58,000 --> 00:22:00,000
+ you study in secondary school.
+
+568
+00:22:00,000 --> 00:22:02,000
+ So you have the primary color,
+
+569
+00:22:02,000 --> 00:22:04,000
+ which is red,
+
+570
+00:22:04,000 --> 00:22:06,000
+ green and blue. So if you
+
+571
+00:22:06,000 --> 00:22:08,000
+ add red and green, you'll
+
+572
+00:22:08,000 --> 00:22:10,000
+ get yellow, red and blue you'll get
+
+573
+00:22:10,000 --> 00:22:12,000
+ magenta, and then green
+
+574
+00:22:12,000 --> 00:22:14,000
+ and blue you'll get cyan. And if
+
+575
+00:22:14,000 --> 00:22:16,000
+ you add these three colors, you'll get a white
+
+576
+00:22:16,000 --> 00:22:18,000
+ color. So this is the standard
+
+577
+00:22:18,000 --> 00:22:20,000
+ additive color model
+
+578
+00:22:20,000 --> 00:22:22,000
+ that you study in secondary school.
+
+579
+00:22:22,000 --> 00:22:24,000
+ So another
+
+580
+00:22:24,000 --> 00:22:26,000
+ visualizations of this particular primary
+
+581
+00:22:26,000 --> 00:22:28,000
+ color, we can also visualize it in terms
+
+582
+00:22:28,000 --> 00:22:30,000
+ of a color cube. So we visualize
+
+583
+00:22:30,000 --> 00:22:32,000
+ it in the color cube, then red,
+
+584
+00:22:32,000 --> 00:22:34,000
+ this axis is red,
+
+585
+00:22:34,000 --> 00:22:36,000
+ this axis is green, and
+
+586
+00:22:36,000 --> 00:22:38,000
+ this axis is blue here.
+
+587
+00:22:38,000 --> 00:22:40,000
+ So red will take the values of
+
+588
+00:22:40,000 --> 00:22:42,000
+ 1, 0, 0.
+
+589
+00:22:42,000 --> 00:22:44,000
+ Green is 0, 1, 0.
+
+590
+00:22:44,000 --> 00:22:46,000
+ And blue is 0, 0, 1.
+
+591
+00:22:46,000 --> 00:22:48,000
+ So it's like the unit values along
+
+592
+00:22:48,000 --> 00:22:50,000
+ this axis here.
+
+593
+00:22:50,000 --> 00:22:52,000
+ And then as we have seen,
+
+594
+00:22:52,000 --> 00:22:54,000
+ red plus green will give you yellow.
+
+595
+00:22:54,000 --> 00:22:56,000
+ So this corner will be yellow.
+
+596
+00:22:56,000 --> 00:22:58,000
+ Red and blue
+
+597
+00:22:58,000 --> 00:23:00,000
+ will be magenta. This corner will be
+
+598
+00:23:00,000 --> 00:23:02,000
+ magenta, and blue and green,
+
+599
+00:23:02,000 --> 00:23:04,000
+ this corner will be cyan.
+
+600
+00:23:04,000 --> 00:23:06,000
+ And if you add up these three colors, then this
+
+601
+00:23:06,000 --> 00:23:08,000
+ particular diagonal, the corner
+
+602
+00:23:08,000 --> 00:23:10,000
+ will be the white color. So
+
+603
+00:23:10,000 --> 00:23:12,000
+ this particular corner will be
+
+604
+00:23:12,000 --> 00:23:14,000
+ white color, and if the value is
+
+605
+00:23:14,000 --> 00:23:16,000
+ 0, 0, 0, then it's black color.
+
+606
+00:23:16,000 --> 00:23:18,000
+ So if you draw a line to connect
+
+607
+00:23:18,000 --> 00:23:20,000
+ the black to the white, this
+
+608
+00:23:20,000 --> 00:23:22,000
+ will correspond to the grayscale
+
+609
+00:23:22,000 --> 00:23:24,000
+ representation.
+
+610
+00:23:24,000 --> 00:23:26,000
+ So this is the representation
+
+611
+00:23:26,000 --> 00:23:28,000
+ of the RGB color cube.
+
+612
+00:23:30,000 --> 00:23:32,000
+ So a little bit more
+
+613
+00:23:32,000 --> 00:23:34,000
+ about the RGB
+
+614
+00:23:34,000 --> 00:23:36,000
+ images. So earlier on
+
+615
+00:23:36,000 --> 00:23:38,000
+ we mentioned, typically we represent
+
+616
+00:23:38,000 --> 00:23:40,000
+ as 24 bits color images.
+
+617
+00:23:40,000 --> 00:23:42,000
+ So if you look at this particular
+
+618
+00:23:42,000 --> 00:23:44,000
+ color image, you
+
+619
+00:23:44,000 --> 00:23:46,000
+ divide into three different channels.
+
+620
+00:23:46,000 --> 00:23:48,000
+ You have the red channel, green channel,
+
+621
+00:23:48,000 --> 00:23:50,000
+ and the blue channel. So an image,
+
+622
+00:23:50,000 --> 00:23:52,000
+ typically, a color image, if you
+
+623
+00:23:52,000 --> 00:23:54,000
+ represent in terms of RGB color,
+
+624
+00:23:54,000 --> 00:23:56,000
+ images, that means there's three
+
+625
+00:23:56,000 --> 00:23:58,000
+ channels, and then each of these channels you can
+
+626
+00:23:58,000 --> 00:24:00,000
+ actually separate them. Then
+
+627
+00:24:00,000 --> 00:24:02,000
+ this is what you're going to get, these three channels
+
+628
+00:24:02,000 --> 00:24:04,000
+ here. Okay, so you can
+
+629
+00:24:04,000 --> 00:24:06,000
+ see that each pixel has three
+
+630
+00:24:06,000 --> 00:24:08,000
+ components, red, green, and blue, you already know.
+
+631
+00:24:08,000 --> 00:24:10,000
+ And then for each component, for each
+
+632
+00:24:10,000 --> 00:24:12,000
+ pixel, we use eight bits to represent
+
+633
+00:24:12,000 --> 00:24:14,000
+ it. Right, so therefore
+
+634
+00:24:14,000 --> 00:24:16,000
+ for each channel, because we use
+
+635
+00:24:16,000 --> 00:24:18,000
+ eight bits, that means it has two
+
+636
+00:24:18,000 --> 00:24:20,000
+ 56 tones,
+
+637
+00:24:20,000 --> 00:24:22,000
+ and the value that it represents is
+
+638
+00:24:22,000 --> 00:24:24,000
+ from 0 to 255.
+
+639
+00:24:24,000 --> 00:24:26,000
+ And if the color is black,
+
+640
+00:24:26,000 --> 00:24:28,000
+ it's 000, and it's white,
+
+641
+00:24:28,000 --> 00:24:30,000
+ it's 255, 255,
+
+642
+00:24:30,000 --> 00:24:32,000
+ 255, in terms of the
+
+643
+00:24:32,000 --> 00:24:34,000
+ color representation.
+
+644
+00:24:34,000 --> 00:24:36,000
+ And also, if you look at this
+
+645
+00:24:36,000 --> 00:24:38,000
+ particular image, if you break it into the
+
+646
+00:24:38,000 --> 00:24:40,000
+ three channels, you can see
+
+647
+00:24:40,000 --> 00:24:42,000
+ for example this red channel here,
+
+648
+00:24:42,000 --> 00:24:44,000
+ this area that corresponds to
+
+649
+00:24:44,000 --> 00:24:46,000
+ the red color, when you
+
+650
+00:24:46,000 --> 00:24:48,000
+ look at the red channel here,
+
+651
+00:24:48,000 --> 00:24:50,000
+ the value is actually
+
+652
+00:24:50,000 --> 00:24:52,000
+ brighter or whiter.
+
+653
+00:24:52,000 --> 00:24:54,000
+ That's because how we represent this
+
+654
+00:24:54,000 --> 00:24:56,000
+ color is that, as we
+
+655
+00:24:56,000 --> 00:24:58,000
+ have mentioned before, if the value
+
+656
+00:24:58,000 --> 00:25:00,000
+ is larger, it's whiter
+
+657
+00:25:00,000 --> 00:25:02,000
+ or it's brighter. And if the value
+
+658
+00:25:02,000 --> 00:25:04,000
+ is smaller, it's darker
+
+659
+00:25:04,000 --> 00:25:06,000
+ or blacker. So therefore,
+
+660
+00:25:06,000 --> 00:25:08,000
+ if you look at the red channel, because the
+
+661
+00:25:08,000 --> 00:25:10,000
+ red channel actually reflects the red
+
+662
+00:25:10,000 --> 00:25:12,000
+ component, so this region
+
+663
+00:25:12,000 --> 00:25:14,000
+ corresponds to the red component
+
+664
+00:25:14,000 --> 00:25:16,000
+ here. So that's why their values
+
+665
+00:25:16,000 --> 00:25:18,000
+ are larger, and because
+
+666
+00:25:18,000 --> 00:25:20,000
+ their values are larger, they are indicated
+
+667
+00:25:20,000 --> 00:25:22,000
+ as brighter.
+
+668
+00:25:22,000 --> 00:25:24,000
+ Other regions that, for example,
+
+669
+00:25:24,000 --> 00:25:26,000
+ doesn't contain that much red color,
+
+670
+00:25:26,000 --> 00:25:28,000
+ it will be
+
+671
+00:25:28,000 --> 00:25:30,000
+ darker.
+
+672
+00:25:30,000 --> 00:25:32,000
+ So if you now look at the green channel,
+
+673
+00:25:32,000 --> 00:25:34,000
+ you can see these regions here contain the
+
+674
+00:25:34,000 --> 00:25:36,000
+ green channel, so that's why
+
+675
+00:25:36,000 --> 00:25:38,000
+ their value is larger and
+
+676
+00:25:38,000 --> 00:25:40,000
+ hence a little bit brighter.
+
+677
+00:25:40,000 --> 00:25:42,000
+ And then finally, for this particular
+
+678
+00:25:42,000 --> 00:25:44,000
+ image, you can see because there's hardly any
+
+679
+00:25:44,000 --> 00:25:46,000
+ blue component, so therefore
+
+680
+00:25:46,000 --> 00:25:48,000
+ if you look at the blue channel, most of them
+
+681
+00:25:48,000 --> 00:25:50,000
+ are dark, which indicate
+
+682
+00:25:50,000 --> 00:25:52,000
+ that their value is very small,
+
+683
+00:25:52,000 --> 00:25:54,000
+ that means not much blue component.
+
+684
+00:26:04,000 --> 00:26:06,000
+ Okay, so just now we have introduced
+
+685
+00:26:06,000 --> 00:26:08,000
+ one very common color space,
+
+686
+00:26:08,000 --> 00:26:10,000
+ which is RGB color space.
+
+687
+00:26:10,000 --> 00:26:12,000
+ So the next class of color
+
+688
+00:26:12,000 --> 00:26:14,000
+ space that we are going to
+
+689
+00:26:14,000 --> 00:26:16,000
+ show is the YUV,
+
+690
+00:26:16,000 --> 00:26:18,000
+ YIQ and YCBCR color space.
+
+691
+00:26:18,000 --> 00:26:20,000
+ So this
+
+692
+00:26:20,000 --> 00:26:22,000
+ color space is another scheme
+
+693
+00:26:22,000 --> 00:26:24,000
+ to represent color images.
+
+694
+00:26:24,000 --> 00:26:26,000
+ So for this particular color
+
+695
+00:26:26,000 --> 00:26:28,000
+ images, that means actually the images
+
+696
+00:26:28,000 --> 00:26:30,000
+ will be represented by three different
+
+697
+00:26:30,000 --> 00:26:32,000
+ channels again. But this
+
+698
+00:26:32,000 --> 00:26:34,000
+ three different channels now will be
+
+699
+00:26:34,000 --> 00:26:36,000
+ the Y channel, if you look
+
+700
+00:26:36,000 --> 00:26:38,000
+ at this YUV
+
+701
+00:26:38,000 --> 00:26:40,000
+ channel, that means this three channel will be
+
+702
+00:26:40,000 --> 00:26:42,000
+ represented by Y channel,
+
+703
+00:26:42,000 --> 00:26:44,000
+ U channel and V channel
+
+704
+00:26:44,000 --> 00:26:46,000
+ now. So this is another
+
+705
+00:26:46,000 --> 00:26:48,000
+ way of representing
+
+706
+00:26:48,000 --> 00:26:50,000
+ the color image.
+
+707
+00:26:50,000 --> 00:26:52,000
+ And YIQ and YCBCR
+
+708
+00:26:52,000 --> 00:26:54,000
+ are actually just a very
+
+709
+00:26:54,000 --> 00:26:56,000
+ similar to YUV,
+
+710
+00:26:56,000 --> 00:26:58,000
+ they are just a small variation, slightly
+
+711
+00:26:58,000 --> 00:27:00,000
+ different.
+
+712
+00:27:00,000 --> 00:27:02,000
+ So pretty much, as I've
+
+713
+00:27:02,000 --> 00:27:04,000
+ already explained, YIQ
+
+714
+00:27:04,000 --> 00:27:06,000
+ and YCBCR
+
+715
+00:27:06,000 --> 00:27:08,000
+ are small variations of
+
+716
+00:27:08,000 --> 00:27:10,000
+ YUV channel, color
+
+717
+00:27:10,000 --> 00:27:12,000
+ space. Therefore, typically we consider
+
+718
+00:27:12,000 --> 00:27:14,000
+ them as more or less the same.
+
+719
+00:27:14,000 --> 00:27:16,000
+ So among this color space,
+
+720
+00:27:16,000 --> 00:27:18,000
+ for example, if we use the YUV
+
+721
+00:27:18,000 --> 00:27:20,000
+ as the example here,
+
+722
+00:27:20,000 --> 00:27:22,000
+ this Y channel corresponds
+
+723
+00:27:22,000 --> 00:27:24,000
+ to luminance channel. So
+
+724
+00:27:24,000 --> 00:27:26,000
+ luminance means the brightness part,
+
+725
+00:27:26,000 --> 00:27:28,000
+ the black and white, the
+
+726
+00:27:28,000 --> 00:27:30,000
+ brightness part.
+
+727
+00:27:30,000 --> 00:27:32,000
+ So the luminance is actually
+
+728
+00:27:32,000 --> 00:27:34,000
+ the brightness part or the black and white
+
+729
+00:27:34,000 --> 00:27:36,000
+ parts of the image.
+
+730
+00:27:36,000 --> 00:27:38,000
+ And then the UV actually
+
+731
+00:27:38,000 --> 00:27:40,000
+ corresponds to the chrominance part.
+
+732
+00:27:40,000 --> 00:27:42,000
+ So this UV refers to the
+
+733
+00:27:42,000 --> 00:27:44,000
+ chrominance part. So chrominance
+
+734
+00:27:44,000 --> 00:27:46,000
+ means it's the color part of the image.
+
+735
+00:27:46,000 --> 00:27:48,000
+ Okay, color part of the
+
+736
+00:27:48,000 --> 00:27:50,000
+ image.
+
+737
+00:27:50,000 --> 00:27:52,000
+ So, this,
+
+738
+00:27:52,000 --> 00:27:54,000
+ why do we want to, in some cases,
+
+739
+00:27:54,000 --> 00:27:56,000
+ represent an image or
+
+740
+00:27:56,000 --> 00:27:58,000
+ video in terms of YUV,
+
+741
+00:27:58,000 --> 00:28:00,000
+ YIQ or YCBCR
+
+742
+00:28:00,000 --> 00:28:02,000
+ color space? For example,
+
+743
+00:28:02,000 --> 00:28:04,000
+ in video broadcasting,
+
+744
+00:28:04,000 --> 00:28:06,000
+ typically we use these types
+
+745
+00:28:06,000 --> 00:28:08,000
+ of color space, YUV,
+
+746
+00:28:08,000 --> 00:28:10,000
+ YIQ,
+
+747
+00:28:10,000 --> 00:28:12,000
+ and for JPEG and image,
+
+748
+00:28:12,000 --> 00:28:14,000
+ JPEG and
+
+749
+00:28:14,000 --> 00:28:16,000
+ MPEG compression, we use YCBCR.
+
+750
+00:28:16,000 --> 00:28:18,000
+ So why do we want
+
+751
+00:28:18,000 --> 00:28:20,000
+ to use this kind of color space
+
+752
+00:28:20,000 --> 00:28:22,000
+ in video broadcasting
+
+753
+00:28:22,000 --> 00:28:24,000
+ or
+
+754
+00:28:24,000 --> 00:28:26,000
+ compression? So here the
+
+755
+00:28:26,000 --> 00:28:28,000
+ answer is, it makes good
+
+756
+00:28:28,000 --> 00:28:30,000
+ use of the bandwidth. But what exactly
+
+757
+00:28:30,000 --> 00:28:32,000
+ does that mean?
+
+758
+00:28:32,000 --> 00:28:34,000
+ Okay.
+
+759
+00:28:34,000 --> 00:28:36,000
+ I mean, for example, in
+
+760
+00:28:36,000 --> 00:28:38,000
+ this
+
+761
+00:28:38,000 --> 00:28:40,000
+ video broadcasting,
+
+762
+00:28:40,000 --> 00:28:42,000
+ you can choose to represent
+
+763
+00:28:42,000 --> 00:28:44,000
+ your image and video as RGB.
+
+764
+00:28:44,000 --> 00:28:46,000
+ But if you do that,
+
+765
+00:28:46,000 --> 00:28:48,000
+ when you want to do the transmission,
+
+766
+00:28:48,000 --> 00:28:50,000
+ it's not so efficient.
+
+767
+00:28:50,000 --> 00:28:52,000
+ As compared to if you decided
+
+768
+00:28:52,000 --> 00:28:54,000
+ to change this color space
+
+769
+00:28:54,000 --> 00:28:56,000
+ from RGB to
+
+770
+00:28:56,000 --> 00:28:58,000
+ YCBCR or
+
+771
+00:28:58,000 --> 00:29:00,000
+ YUV color space.
+
+772
+00:29:00,000 --> 00:29:02,000
+ So when you represent the image and
+
+773
+00:29:02,000 --> 00:29:04,000
+ video using YUV
+
+774
+00:29:04,000 --> 00:29:06,000
+ color space, and then when you do
+
+775
+00:29:06,000 --> 00:29:08,000
+ the transmission,
+
+776
+00:29:08,000 --> 00:29:10,000
+ we can do it in a more efficient
+
+777
+00:29:10,000 --> 00:29:12,000
+ manner. So anyone
+
+778
+00:29:12,000 --> 00:29:14,000
+ has any idea why is that the case?
+
+779
+00:29:18,000 --> 00:29:20,000
+ Yes.
+
+780
+00:29:28,000 --> 00:29:30,000
+ Okay.
+
+781
+00:29:30,000 --> 00:29:32,000
+ So,
+
+782
+00:29:32,000 --> 00:29:34,000
+ yeah, what
+
+783
+00:29:34,000 --> 00:29:36,000
+ you're trying to explain is more
+
+784
+00:29:36,000 --> 00:29:38,000
+ like the temporal
+
+785
+00:29:38,000 --> 00:29:40,000
+ correlation.
+
+786
+00:29:40,000 --> 00:29:42,000
+ Okay, the similarity
+
+787
+00:29:42,000 --> 00:29:44,000
+ across different frames,
+
+788
+00:29:44,000 --> 00:29:46,000
+ yeah, when you're trying to
+
+789
+00:29:46,000 --> 00:29:48,000
+ do the transmission.
+
+790
+00:29:48,000 --> 00:29:50,000
+ Okay, so in the context of
+
+791
+00:29:50,000 --> 00:29:52,000
+ compression, because each
+
+792
+00:29:52,000 --> 00:29:54,000
+ frames, okay, consecutive frames
+
+793
+00:29:54,000 --> 00:29:56,000
+ are very similar, so you
+
+794
+00:29:56,000 --> 00:29:58,000
+ only need to encode the small difference.
+
+795
+00:29:58,000 --> 00:30:00,000
+ I believe that's what you are coming from.
+
+796
+00:30:00,000 --> 00:30:02,000
+ But still, it does not
+
+797
+00:30:02,000 --> 00:30:04,000
+ clearly explain what's the difference.
+
+798
+00:30:04,000 --> 00:30:06,000
+ Why? I mean, for,
+
+799
+00:30:06,000 --> 00:30:08,000
+ if you represent the image as RGB
+
+800
+00:30:08,000 --> 00:30:10,000
+ or YCBCR,
+
+801
+00:30:10,000 --> 00:30:12,000
+ okay, now I mean both of them,
+
+802
+00:30:12,000 --> 00:30:14,000
+ you can also
+
+803
+00:30:14,000 --> 00:30:16,000
+ leverage on the similarity
+
+804
+00:30:16,000 --> 00:30:18,000
+ or the inter-frame
+
+805
+00:30:18,000 --> 00:30:20,000
+ correlation for you to help to perform
+
+806
+00:30:20,000 --> 00:30:22,000
+ the compression. But it still
+
+807
+00:30:22,000 --> 00:30:24,000
+ doesn't really quite explain why
+
+808
+00:30:24,000 --> 00:30:26,000
+ one color space is better
+
+809
+00:30:26,000 --> 00:30:28,000
+ than the other color space.
+
+810
+00:30:30,000 --> 00:30:32,000
+ Any other
+
+811
+00:30:32,000 --> 00:30:34,000
+ thought?
+
+812
+00:30:38,000 --> 00:30:40,000
+ Okay, so one of the reasons why in
+
+813
+00:30:40,000 --> 00:30:42,000
+ the context of video transmission,
+
+814
+00:30:42,000 --> 00:30:44,000
+ okay, compression and then
+
+815
+00:30:44,000 --> 00:30:46,000
+ TV transmissions, why we
+
+816
+00:30:46,000 --> 00:30:48,000
+ want to represent the color in these
+
+817
+00:30:48,000 --> 00:30:50,000
+ types of YCBCR color spaces,
+
+818
+00:30:50,000 --> 00:30:52,000
+ is that once we convert
+
+819
+00:30:52,000 --> 00:30:54,000
+ the color space from RGB
+
+820
+00:30:54,000 --> 00:30:56,000
+ into this YCBCR,
+
+821
+00:30:56,000 --> 00:30:58,000
+ YUV color space,
+
+822
+00:30:58,000 --> 00:31:00,000
+ for example, this white part
+
+823
+00:31:00,000 --> 00:31:02,000
+ just now we mentioned, it corresponds to
+
+824
+00:31:02,000 --> 00:31:04,000
+ the luminance part,
+
+825
+00:31:04,000 --> 00:31:06,000
+ which is the brightness component.
+
+826
+00:31:06,000 --> 00:31:08,000
+ And this UV corresponds
+
+827
+00:31:08,000 --> 00:31:10,000
+ to the chrominance part, which is the
+
+828
+00:31:10,000 --> 00:31:12,000
+ color component. So the next
+
+829
+00:31:12,000 --> 00:31:14,000
+ thing that you need to know is the
+
+830
+00:31:14,000 --> 00:31:16,000
+ how human viscous system works.
+
+831
+00:31:16,000 --> 00:31:18,000
+ Our human viscous systems
+
+832
+00:31:18,000 --> 00:31:20,000
+ are, right in our eye, there's actually
+
+833
+00:31:20,000 --> 00:31:22,000
+ two types of cell, rot and cone.
+
+834
+00:31:22,000 --> 00:31:24,000
+ Probably if you
+
+835
+00:31:24,000 --> 00:31:26,000
+ can still remember what you
+
+836
+00:31:26,000 --> 00:31:28,000
+ study in the secondary school biology.
+
+837
+00:31:28,000 --> 00:31:30,000
+ You know our human eye,
+
+838
+00:31:30,000 --> 00:31:32,000
+ the retina, actually has
+
+839
+00:31:32,000 --> 00:31:34,000
+ two types of
+
+840
+00:31:34,000 --> 00:31:36,000
+ this light
+
+841
+00:31:36,000 --> 00:31:38,000
+ kind of sensitive cell that
+
+842
+00:31:38,000 --> 00:31:40,000
+ can perceive the light. One is a rot,
+
+843
+00:31:40,000 --> 00:31:42,000
+ the other is a cone.
+
+844
+00:31:42,000 --> 00:31:44,000
+ So one of them is sensitive to
+
+845
+00:31:44,000 --> 00:31:46,000
+ the color component,
+
+846
+00:31:46,000 --> 00:31:48,000
+ the other is sensitive to the brightness
+
+847
+00:31:48,000 --> 00:31:50,000
+ component. That's why
+
+848
+00:31:50,000 --> 00:31:52,000
+ in the
+
+849
+00:31:52,000 --> 00:31:54,000
+ middle of the night,
+
+850
+00:31:54,000 --> 00:31:56,000
+ if you wake up and when you go to the
+
+851
+00:31:56,000 --> 00:31:58,000
+ toilet, actually what you can see
+
+852
+00:31:58,000 --> 00:32:00,000
+ is a gray color. You cannot
+
+853
+00:32:00,000 --> 00:32:02,000
+ see the color, but you can see only the
+
+854
+00:32:02,000 --> 00:32:04,000
+ grayscale, the brightness.
+
+855
+00:32:04,000 --> 00:32:06,000
+ That's because our eyes are more sensitive
+
+856
+00:32:06,000 --> 00:32:08,000
+ to the luminance
+
+857
+00:32:08,000 --> 00:32:10,000
+ component. So all in all,
+
+858
+00:32:10,000 --> 00:32:12,000
+ what I'm trying to say is that for human
+
+859
+00:32:12,000 --> 00:32:14,000
+ viscous system, actually our eye is
+
+860
+00:32:14,000 --> 00:32:16,000
+ more sensitive to the luminance component
+
+861
+00:32:16,000 --> 00:32:18,000
+ as compared to the
+
+862
+00:32:18,000 --> 00:32:20,000
+ chrominance component, or the color
+
+863
+00:32:20,000 --> 00:32:22,000
+ component. So because our eyes
+
+864
+00:32:22,000 --> 00:32:24,000
+ are more sensitive
+
+865
+00:32:24,000 --> 00:32:26,000
+ to the luminance component
+
+866
+00:32:26,000 --> 00:32:28,000
+ and less sensitive to the chrominance
+
+867
+00:32:28,000 --> 00:32:30,000
+ component, that means
+
+868
+00:32:30,000 --> 00:32:32,000
+ we can afford to throw away
+
+869
+00:32:32,000 --> 00:32:34,000
+ some of the information
+
+870
+00:32:34,000 --> 00:32:36,000
+ in the chrominance component.
+
+871
+00:32:36,000 --> 00:32:38,000
+ Because it makes very little difference
+
+872
+00:32:38,000 --> 00:32:40,000
+ to us. So traditionally,
+
+873
+00:32:40,000 --> 00:32:42,000
+ because we know that, for example,
+
+874
+00:32:42,000 --> 00:32:44,000
+ for video transmission,
+
+875
+00:32:44,000 --> 00:32:46,000
+ it requires lots of bandwidth.
+
+876
+00:32:46,000 --> 00:32:48,000
+ So bandwidth is very expensive.
+
+877
+00:32:48,000 --> 00:32:50,000
+ So therefore, you want to reduce
+
+878
+00:32:50,000 --> 00:32:52,000
+ the number of bits that you want to
+
+879
+00:32:52,000 --> 00:32:54,000
+ transmit. Okay. And then
+
+880
+00:32:54,000 --> 00:32:56,000
+ it's very logical now,
+
+881
+00:32:56,000 --> 00:32:58,000
+ if our eyes are more sensitive to the
+
+882
+00:32:58,000 --> 00:33:00,000
+ white channel, or white
+
+883
+00:33:00,000 --> 00:33:02,000
+ component, then we should keep
+
+884
+00:33:02,000 --> 00:33:04,000
+ all the information in white. And
+
+885
+00:33:04,000 --> 00:33:06,000
+ if our eyes are less sensitive
+
+886
+00:33:06,000 --> 00:33:08,000
+ to the chrominance component,
+
+887
+00:33:08,000 --> 00:33:10,000
+ then we can afford to throw
+
+888
+00:33:10,000 --> 00:33:12,000
+ away some of the information, by
+
+889
+00:33:12,000 --> 00:33:14,000
+ dropping away some of the pixels.
+
+890
+00:33:14,000 --> 00:33:16,000
+ Okay. So therefore, in short,
+
+891
+00:33:16,000 --> 00:33:18,000
+ what I'm trying to say is that, now,
+
+892
+00:33:18,000 --> 00:33:20,000
+ if you represent your image and
+
+893
+00:33:20,000 --> 00:33:22,000
+ video into this kind of
+
+894
+00:33:22,000 --> 00:33:24,000
+ color space, there's a very
+
+895
+00:33:24,000 --> 00:33:26,000
+ simple strategy for you to
+
+896
+00:33:26,000 --> 00:33:28,000
+ reduce the number of
+
+897
+00:33:28,000 --> 00:33:30,000
+ bits that you need to transmit over
+
+898
+00:33:30,000 --> 00:33:32,000
+ the channel.
+
+899
+00:33:32,000 --> 00:33:34,000
+ For example, doing
+
+900
+00:33:34,000 --> 00:33:36,000
+ the TV transmission. What you need to do
+
+901
+00:33:36,000 --> 00:33:38,000
+ is keep all the white channel, drop
+
+902
+00:33:38,000 --> 00:33:40,000
+ some of, or sub-sample,
+
+903
+00:33:40,000 --> 00:33:42,000
+ or drop some of the information from your
+
+904
+00:33:42,000 --> 00:33:44,000
+ chrominance component. So that's
+
+905
+00:33:44,000 --> 00:33:46,000
+ why this particular color space
+
+906
+00:33:46,000 --> 00:33:48,000
+ is a lot easier for
+
+907
+00:33:48,000 --> 00:33:50,000
+ you to decide what to do, as opposed
+
+908
+00:33:50,000 --> 00:33:52,000
+ to RGB. So, for example,
+
+909
+00:33:52,000 --> 00:33:54,000
+ if your video is RGB,
+
+910
+00:33:54,000 --> 00:33:56,000
+ you cannot, no, there's no
+
+911
+00:33:56,000 --> 00:33:58,000
+ very clear strategy. Now, if you want
+
+912
+00:33:58,000 --> 00:34:00,000
+ to drop some pixel, what are the pixel
+
+913
+00:34:00,000 --> 00:34:02,000
+ you want to drop, or what are the channel you want
+
+914
+00:34:02,000 --> 00:34:04,000
+ to drop? It's not so clear cut.
+
+915
+00:34:04,000 --> 00:34:06,000
+ Okay. So that is the reason.
+
+916
+00:34:06,000 --> 00:34:08,000
+ So, because of that,
+
+917
+00:34:08,000 --> 00:34:10,000
+ this color space is commonly used in TV
+
+918
+00:34:10,000 --> 00:34:12,000
+ industry and video compression.
+
+919
+00:34:12,000 --> 00:34:14,000
+ So, for example, YUV
+
+920
+00:34:14,000 --> 00:34:16,000
+ is used in this PAL and
+
+921
+00:34:16,000 --> 00:34:18,000
+ CCAM TV standard.
+
+922
+00:34:18,000 --> 00:34:20,000
+ YQ is used
+
+923
+00:34:20,000 --> 00:34:22,000
+ in NTSC, and YCBCR
+
+924
+00:34:22,000 --> 00:34:24,000
+ is commonly used in JPEG and
+
+925
+00:34:24,000 --> 00:34:26,000
+ MPEG compression. So, later
+
+926
+00:34:26,000 --> 00:34:28,000
+ on, when we study about JPEG and
+
+927
+00:34:28,000 --> 00:34:30,000
+ MPEG compression, we'll be mainly dealing
+
+928
+00:34:30,000 --> 00:34:32,000
+ with this color space here.
+
+929
+00:34:32,000 --> 00:34:34,000
+ And then for
+
+930
+00:34:34,000 --> 00:34:36,000
+ different color space, RGB,
+
+931
+00:34:36,000 --> 00:34:38,000
+ and this, okay, in this particular
+
+932
+00:34:38,000 --> 00:34:40,000
+ table, it shows the conversion
+
+933
+00:34:40,000 --> 00:34:42,000
+ between RGB and YQ.
+
+934
+00:34:42,000 --> 00:34:44,000
+ So, you can actually just do a simple
+
+935
+00:34:44,000 --> 00:34:46,000
+ conversion by some matrix
+
+936
+00:34:46,000 --> 00:34:48,000
+ multiplication to convert from one
+
+937
+00:34:48,000 --> 00:34:50,000
+ color space to another color space.
+
+938
+00:34:52,000 --> 00:34:54,000
+ Okay. So,
+
+939
+00:34:54,000 --> 00:34:56,000
+ the next thing we want to very quickly
+
+940
+00:34:56,000 --> 00:34:58,000
+ touch on is CODAC.
+
+941
+00:34:58,000 --> 00:35:00,000
+ So, does
+
+942
+00:35:00,000 --> 00:35:02,000
+ any one of you know what this company
+
+943
+00:35:02,000 --> 00:35:04,000
+ is, CODAC?
+
+944
+00:35:04,000 --> 00:35:06,000
+ Anyone
+
+945
+00:35:06,000 --> 00:35:08,000
+ know CODAC?
+
+946
+00:35:08,000 --> 00:35:10,000
+ Camera.
+
+947
+00:35:10,000 --> 00:35:12,000
+ Okay, long time ago, right? What you heard is
+
+948
+00:35:12,000 --> 00:35:14,000
+ long time ago. Actually, I still remember
+
+949
+00:35:14,000 --> 00:35:16,000
+ when I was a young kid,
+
+950
+00:35:16,000 --> 00:35:18,000
+ my brother bought
+
+951
+00:35:18,000 --> 00:35:20,000
+ the first kind of camera.
+
+952
+00:35:20,000 --> 00:35:22,000
+ Yeah. So, at the time, I was very
+
+953
+00:35:22,000 --> 00:35:24,000
+ excited. You have to take this
+
+954
+00:35:24,000 --> 00:35:26,000
+ camera, and then you actually have to
+
+955
+00:35:26,000 --> 00:35:28,000
+ think very carefully exactly
+
+956
+00:35:28,000 --> 00:35:30,000
+ what is the photo you want to capture.
+
+957
+00:35:30,000 --> 00:35:32,000
+ Because every photo, once you click it,
+
+958
+00:35:32,000 --> 00:35:34,000
+ you capture it. It's already
+
+959
+00:35:34,000 --> 00:35:36,000
+ one film that's been
+
+960
+00:35:36,000 --> 00:35:38,000
+ taken already. So,
+
+961
+00:35:38,000 --> 00:35:40,000
+ it's very expensive, it's very precious.
+
+962
+00:35:40,000 --> 00:35:42,000
+ Unlike nowadays, when you have
+
+963
+00:35:42,000 --> 00:35:44,000
+ mobile phone, you can just keep taking photo.
+
+964
+00:35:44,000 --> 00:35:46,000
+ You don't like, you just delete. But in the past,
+
+965
+00:35:46,000 --> 00:35:48,000
+ the photos are actually
+
+966
+00:35:48,000 --> 00:35:50,000
+ using this kind of
+
+967
+00:35:50,000 --> 00:35:52,000
+ camera is using from
+
+968
+00:35:52,000 --> 00:35:54,000
+ this kind of
+
+969
+00:35:54,000 --> 00:35:56,000
+ analog film for you to take
+
+970
+00:35:56,000 --> 00:35:58,000
+ the photo. So, this company,
+
+971
+00:35:58,000 --> 00:36:00,000
+ CODAC, used to be a very big
+
+972
+00:36:00,000 --> 00:36:02,000
+ company, very, very important. When people talk about
+
+973
+00:36:02,000 --> 00:36:04,000
+ camera, they just think of CODAC.
+
+974
+00:36:04,000 --> 00:36:06,000
+ So, it's just a very big
+
+975
+00:36:06,000 --> 00:36:08,000
+ company. So, in
+
+976
+00:36:08,000 --> 00:36:10,000
+ the past, it's actually very dominant.
+
+977
+00:36:10,000 --> 00:36:12,000
+ But, later
+
+978
+00:36:12,000 --> 00:36:14,000
+ on, because they make
+
+979
+00:36:14,000 --> 00:36:16,000
+ lots of money from this firm,
+
+980
+00:36:16,000 --> 00:36:18,000
+ analog firm that you have. But
+
+981
+00:36:18,000 --> 00:36:20,000
+ later on, when time starts to change,
+
+982
+00:36:20,000 --> 00:36:22,000
+ this digital photography
+
+983
+00:36:22,000 --> 00:36:24,000
+ and digital camera
+
+984
+00:36:24,000 --> 00:36:26,000
+ and filming start to appear, actually
+
+985
+00:36:26,000 --> 00:36:28,000
+ CODAC is
+
+986
+00:36:28,000 --> 00:36:30,000
+ very resistant to
+
+987
+00:36:30,000 --> 00:36:32,000
+ changing.
+
+988
+00:36:32,000 --> 00:36:34,000
+ The reason is quite straightforward,
+
+989
+00:36:34,000 --> 00:36:36,000
+ because they are making so much money from making
+
+990
+00:36:36,000 --> 00:36:38,000
+ this firm. So, when there's a new
+
+991
+00:36:38,000 --> 00:36:40,000
+ technology appearing,
+
+992
+00:36:40,000 --> 00:36:42,000
+ digital camera, so they are very
+
+993
+00:36:42,000 --> 00:36:44,000
+ resistant to
+
+994
+00:36:44,000 --> 00:36:46,000
+ switch from analog camera to digital
+
+995
+00:36:46,000 --> 00:36:48,000
+ camera. Whereas,
+
+996
+00:36:48,000 --> 00:36:50,000
+ other companies such as
+
+997
+00:36:50,000 --> 00:36:52,000
+ Fuji, actually they manage
+
+998
+00:36:52,000 --> 00:36:54,000
+ to do the transition much
+
+999
+00:36:54,000 --> 00:36:56,000
+ more quicker. So, in short, this
+
+1000
+00:36:56,000 --> 00:36:58,000
+ particular slide is trying to show
+
+1001
+00:36:58,000 --> 00:37:00,000
+ that sometimes you have to
+
+1002
+00:37:00,000 --> 00:37:02,000
+ move on with technology.
+
+1003
+00:37:02,000 --> 00:37:04,000
+ When technology changes,
+
+1004
+00:37:04,000 --> 00:37:06,000
+ you just have to follow. Otherwise,
+
+1005
+00:37:06,000 --> 00:37:08,000
+ you'll become obsolete.
+
+1006
+00:37:08,000 --> 00:37:10,000
+ So, this particular
+
+1007
+00:37:10,000 --> 00:37:12,000
+ heading here, CODAC moment,
+
+1008
+00:37:12,000 --> 00:37:14,000
+ so in the past, there's a very well-known
+
+1009
+00:37:14,000 --> 00:37:16,000
+ advertisement. When you want to take a
+
+1010
+00:37:16,000 --> 00:37:18,000
+ photo, we call it a CODAC
+
+1011
+00:37:18,000 --> 00:37:20,000
+ moment. That means you are taking a photo.
+
+1012
+00:37:20,000 --> 00:37:22,000
+ So, that's why they call it a
+
+1013
+00:37:22,000 --> 00:37:24,000
+ CODAC moment. So, anyway,
+
+1014
+00:37:24,000 --> 00:37:26,000
+ CODAC kind of went bankrupt
+
+1015
+00:37:26,000 --> 00:37:28,000
+ around
+
+1016
+00:37:28,000 --> 00:37:30,000
+ 2012, which is about
+
+1017
+00:37:30,000 --> 00:37:32,000
+ 13 years ago.
+
+1018
+00:37:34,000 --> 00:37:36,000
+ Alright, so the next thing we are going to
+
+1019
+00:37:36,000 --> 00:37:38,000
+ quickly do is, we are going
+
+1020
+00:37:38,000 --> 00:37:40,000
+ to look at how do we capture
+
+1021
+00:37:40,000 --> 00:37:42,000
+ information,
+
+1022
+00:37:42,000 --> 00:37:44,000
+ this image and video information
+
+1023
+00:37:44,000 --> 00:37:46,000
+ from camera. So, we are going
+
+1024
+00:37:46,000 --> 00:37:48,000
+ to spend a bit of time to talk about
+
+1025
+00:37:48,000 --> 00:37:50,000
+ camera, how to perform
+
+1026
+00:37:50,000 --> 00:37:52,000
+ data acquisition.
+
+1027
+00:37:52,000 --> 00:37:54,000
+ Right, so in order to do that, I actually have
+
+1028
+00:37:54,000 --> 00:37:56,000
+ a very short video to explain
+
+1029
+00:37:56,000 --> 00:37:58,000
+ to you how a camera
+
+1030
+00:37:58,000 --> 00:38:00,000
+ works, how does it capture
+
+1031
+00:38:00,000 --> 00:38:02,000
+ lights from the
+
+1032
+00:38:02,000 --> 00:38:04,000
+ imaging source and convert it into
+
+1033
+00:38:04,000 --> 00:38:06,000
+ a digital image.
+
+1034
+00:38:06,000 --> 00:38:08,000
+ Right, okay. So, let
+
+1035
+00:38:08,000 --> 00:38:10,000
+ me just play this video for you.
+
+1036
+00:38:22,000 --> 00:38:42,000
+ Okay, let me just do some adjustment first. This echo is very strong here.
+
+1037
+00:38:52,000 --> 00:39:08,000
+ This program contains experiments which are performed by professionals. These tests are dangerous and may involve the use of hazardous materials. They should not be performed or imitated under any circumstances.
+
+1038
+00:39:08,000 --> 00:39:10,000
+ It's all about light.
+
+1039
+00:39:12,000 --> 00:39:14,000
+ The digital camera.
+
+1040
+00:39:14,000 --> 00:39:16,000
+ It's revolutionized photography
+
+1041
+00:39:16,000 --> 00:39:18,000
+ by transforming light into
+
+1042
+00:39:18,000 --> 00:39:20,000
+ electricity. Everything
+
+1043
+00:39:20,000 --> 00:39:22,000
+ is there to draw in light. From
+
+1044
+00:39:22,000 --> 00:39:24,000
+ the camera's buttons, controls
+
+1045
+00:39:24,000 --> 00:39:26,000
+ and dials down to the lenses.
+
+1046
+00:39:30,000 --> 00:39:32,000
+ What the digital camera
+
+1047
+00:39:32,000 --> 00:39:34,000
+ does with light is what makes it
+
+1048
+00:39:34,000 --> 00:39:36,000
+ so revolutionary.
+
+1049
+00:39:36,000 --> 00:39:38,000
+ It turns
+
+1050
+00:39:38,000 --> 00:39:40,000
+ light into electrical charges
+
+1051
+00:39:40,000 --> 00:39:42,000
+ that become the image captured on the screen.
+
+1052
+00:39:42,000 --> 00:39:44,000
+ Light particles or photons
+
+1053
+00:39:44,000 --> 00:39:46,000
+ leave the source, bounce
+
+1054
+00:39:46,000 --> 00:39:48,000
+ off the subject and
+
+1055
+00:39:48,000 --> 00:39:50,000
+ enter the camera through a series of
+
+1056
+00:39:50,000 --> 00:39:52,000
+ lenses.
+
+1057
+00:39:54,000 --> 00:39:56,000
+ The photons then follow a designated
+
+1058
+00:39:56,000 --> 00:39:58,000
+ path on their way from photon
+
+1059
+00:39:58,000 --> 00:40:00,000
+ to photo.
+
+1060
+00:40:00,000 --> 00:40:02,000
+ A series of lenses allows the
+
+1061
+00:40:02,000 --> 00:40:04,000
+ photographer to capture the clearest image
+
+1062
+00:40:04,000 --> 00:40:06,000
+ possible.
+
+1063
+00:40:06,000 --> 00:40:08,000
+ This lens diaphragm is what
+
+1064
+00:40:08,000 --> 00:40:10,000
+ controls the amount of light that the photographer
+
+1065
+00:40:10,000 --> 00:40:12,000
+ allows in through the camera's opening
+
+1066
+00:40:12,000 --> 00:40:14,000
+ or aperture.
+
+1067
+00:40:14,000 --> 00:40:16,000
+ After crossing
+
+1068
+00:40:16,000 --> 00:40:18,000
+ the diaphragm, the lenses
+
+1069
+00:40:18,000 --> 00:40:20,000
+ and entering the aperture,
+
+1070
+00:40:20,000 --> 00:40:22,000
+ the light bounces off a mirror and
+
+1071
+00:40:22,000 --> 00:40:24,000
+ heads for the viewfinder.
+
+1072
+00:40:24,000 --> 00:40:26,000
+ Before it gets there, the light is flipped
+
+1073
+00:40:26,000 --> 00:40:28,000
+ over as it passes through a prism.
+
+1074
+00:40:30,000 --> 00:40:32,000
+ That's so the image seen in the viewfinder is
+
+1075
+00:40:32,000 --> 00:40:34,000
+ right side up.
+
+1076
+00:40:34,000 --> 00:40:36,000
+ If the photographer likes the
+
+1077
+00:40:36,000 --> 00:40:38,000
+ image, time to press the shutter
+
+1078
+00:40:38,000 --> 00:40:40,000
+ button.
+
+1079
+00:40:40,000 --> 00:40:42,000
+ The mirror lifts and the light rushes in.
+
+1080
+00:40:42,000 --> 00:40:44,000
+ For a fraction of a second,
+
+1081
+00:40:44,000 --> 00:40:46,000
+ the light is not heading in the direction
+
+1082
+00:40:46,000 --> 00:40:48,000
+ of the viewfinder.
+
+1083
+00:40:48,000 --> 00:40:50,000
+ But for the very heart of the digital camera,
+
+1084
+00:40:50,000 --> 00:40:52,000
+ the image sensor.
+
+1085
+00:40:52,000 --> 00:40:54,000
+ The duration of this fraction
+
+1086
+00:40:54,000 --> 00:40:56,000
+ of a second depends on the shutter
+
+1087
+00:40:56,000 --> 00:40:58,000
+ that opens just long enough to
+
+1088
+00:40:58,000 --> 00:41:00,000
+ expose the sensor to light.
+
+1089
+00:41:00,000 --> 00:41:02,000
+ Now, to the real heart of this
+
+1090
+00:41:02,000 --> 00:41:04,000
+ digital revolution, the element
+
+1091
+00:41:04,000 --> 00:41:06,000
+ that captures the image,
+
+1092
+00:41:06,000 --> 00:41:08,000
+ the image sensor. A tightly
+
+1093
+00:41:08,000 --> 00:41:10,000
+ structured grid made up of
+
+1094
+00:41:10,000 --> 00:41:12,000
+ extremely tiny light sensors.
+
+1095
+00:41:12,000 --> 00:41:14,000
+ When the photons hit the light sensor,
+
+1096
+00:41:14,000 --> 00:41:16,000
+ they are absorbed by the semiconductor
+
+1097
+00:41:16,000 --> 00:41:18,000
+ material it's made of.
+
+1098
+00:41:18,000 --> 00:41:20,000
+ For each photon absorbed,
+
+1099
+00:41:20,000 --> 00:41:22,000
+ the light sensor emits an electric particle
+
+1100
+00:41:22,000 --> 00:41:24,000
+ called an electron.
+
+1101
+00:41:24,000 --> 00:41:26,000
+ The photon's
+
+1102
+00:41:26,000 --> 00:41:28,000
+ energy transfers to the electron.
+
+1103
+00:41:28,000 --> 00:41:30,000
+ That's the electrical charge.
+
+1104
+00:41:30,000 --> 00:41:32,000
+ The brighter the image,
+
+1105
+00:41:32,000 --> 00:41:34,000
+ the stronger the electrical charge is.
+
+1106
+00:41:34,000 --> 00:41:36,000
+ So each electrical charge
+
+1107
+00:41:36,000 --> 00:41:38,000
+ has a different intensity. A circuit
+
+1108
+00:41:38,000 --> 00:41:40,000
+ board then converts the different intensities
+
+1109
+00:41:40,000 --> 00:41:42,000
+ into computer language.
+
+1110
+00:41:42,000 --> 00:41:44,000
+ They represent millions of tiny colored
+
+1111
+00:41:44,000 --> 00:41:46,000
+ dots that make up a photo.
+
+1112
+00:41:46,000 --> 00:41:48,000
+ The pixels.
+
+1113
+00:41:48,000 --> 00:41:50,000
+ The more pixels
+
+1114
+00:41:50,000 --> 00:41:52,000
+ in a picture, the better the
+
+1115
+00:41:52,000 --> 00:41:54,000
+ resolution.
+
+1116
+00:42:08,000 --> 00:42:10,000
+ Okay.
+
+1117
+00:42:10,000 --> 00:42:12,000
+ So this is a new system.
+
+1118
+00:42:12,000 --> 00:42:14,000
+ I'm not too sure why the
+
+1119
+00:42:14,000 --> 00:42:16,000
+ echo is so strong.
+
+1120
+00:42:16,000 --> 00:42:18,000
+ Yeah. Okay. So we'll try to work with it.
+
+1121
+00:42:18,000 --> 00:42:20,000
+ Okay.
+
+1122
+00:42:20,000 --> 00:42:22,000
+ So let's see.
+
+1123
+00:42:22,000 --> 00:42:24,000
+ So this is a new system.
+
+1124
+00:42:24,000 --> 00:42:26,000
+ So let's see.
+
+1125
+00:42:26,000 --> 00:42:28,000
+ So let's see.
+
+1126
+00:42:28,000 --> 00:42:30,000
+ So let's see.
+
+1127
+00:42:30,000 --> 00:42:32,000
+ Okay.
+
+1128
+00:42:32,000 --> 00:42:34,000
+ So let's see.
+
+1129
+00:42:34,000 --> 00:42:36,000
+ So let's see.
+
+1130
+00:42:36,000 --> 00:42:38,000
+ Okay. So we'll try to work with it
+
+1131
+00:42:38,000 --> 00:42:40,000
+ for the time being.
+
+1132
+00:42:40,000 --> 00:42:42,000
+ So this particular video just shows you
+
+1133
+00:42:42,000 --> 00:42:44,000
+ how we can actually,
+
+1134
+00:42:44,000 --> 00:42:46,000
+ the lights from the imaging source
+
+1135
+00:42:46,000 --> 00:42:48,000
+ can be converted into a particular
+
+1136
+00:42:48,000 --> 00:42:50,000
+ image or video.
+
+1137
+00:42:50,000 --> 00:42:52,000
+ It's because you have a sensor.
+
+1138
+00:42:52,000 --> 00:42:54,000
+ And then for a particular sensor,
+
+1139
+00:42:54,000 --> 00:42:56,000
+ image sensor in the camera,
+
+1140
+00:42:56,000 --> 00:42:58,000
+ actually it consists of many different
+
+1141
+00:42:58,000 --> 00:43:00,000
+ elements. And these elements can actually
+
+1142
+00:43:00,000 --> 00:43:02,000
+ then convert the light or the photons
+
+1143
+00:43:02,000 --> 00:43:04,000
+ into electric charges.
+
+1144
+00:43:04,000 --> 00:43:06,000
+ And these electric charges can then be converted
+
+1145
+00:43:06,000 --> 00:43:08,000
+ into some binary representation,
+
+1146
+00:43:08,000 --> 00:43:10,000
+ which is the pixels.
+
+1147
+00:43:16,000 --> 00:43:18,000
+ Okay. So this particular slide shows
+
+1148
+00:43:18,000 --> 00:43:20,000
+ the signal flows of a digital camera.
+
+1149
+00:43:20,000 --> 00:43:22,000
+ So let's have a quick look at
+
+1150
+00:43:22,000 --> 00:43:24,000
+ how the signal flow looks like.
+
+1151
+00:43:24,000 --> 00:43:26,000
+ So first of all, you have some subjects.
+
+1152
+00:43:26,000 --> 00:43:28,000
+ So the light will be collected by this
+
+1153
+00:43:28,000 --> 00:43:30,000
+ lens here. So the lens will collect the light.
+
+1154
+00:43:30,000 --> 00:43:32,000
+ Okay. And then it will hit this particular
+
+1155
+00:43:32,000 --> 00:43:34,000
+ CCD. So this CCD is a
+
+1156
+00:43:34,000 --> 00:43:36,000
+ types of image sensor.
+
+1157
+00:43:36,000 --> 00:43:38,000
+ So there are a few common types of
+
+1158
+00:43:38,000 --> 00:43:40,000
+ image sensor. CCD
+
+1159
+00:43:40,000 --> 00:43:42,000
+ is one of them. Right. CMOS
+
+1160
+00:43:42,000 --> 00:43:44,000
+ is another one. Right. So this particular
+
+1161
+00:43:44,000 --> 00:43:46,000
+ CCD here, right,
+
+1162
+00:43:46,000 --> 00:43:48,000
+ from the video that you see just now, this CCD
+
+1163
+00:43:48,000 --> 00:43:50,000
+ actually has a very packed
+
+1164
+00:43:50,000 --> 00:43:52,000
+ array or matrix
+
+1165
+00:43:52,000 --> 00:43:54,000
+ of sensor, which will then
+
+1166
+00:43:54,000 --> 00:43:56,000
+ convert the light into
+
+1167
+00:43:56,000 --> 00:43:58,000
+ some electric charges.
+
+1168
+00:43:58,000 --> 00:44:00,000
+ Okay. So afterwards you have
+
+1169
+00:44:00,000 --> 00:44:02,000
+ an analog to digital converter
+
+1170
+00:44:02,000 --> 00:44:04,000
+ to convert all these electric
+
+1171
+00:44:04,000 --> 00:44:06,000
+ charges into the pixel value.
+
+1172
+00:44:06,000 --> 00:44:08,000
+ Right. So for this pixel value,
+
+1173
+00:44:08,000 --> 00:44:10,000
+ you can decide to, for example,
+
+1174
+00:44:10,000 --> 00:44:12,000
+ store as a raw image.
+
+1175
+00:44:12,000 --> 00:44:14,000
+ For those of you who play with
+
+1176
+00:44:14,000 --> 00:44:16,000
+ photography, sometimes you
+
+1177
+00:44:16,000 --> 00:44:18,000
+ may prefer to keep the image
+
+1178
+00:44:18,000 --> 00:44:20,000
+ in the raw format. Because
+
+1179
+00:44:20,000 --> 00:44:22,000
+ if you keep it in the raw format, then you can
+
+1180
+00:44:22,000 --> 00:44:24,000
+ have access to the original data
+
+1181
+00:44:24,000 --> 00:44:26,000
+ and you can do different types of
+
+1182
+00:44:26,000 --> 00:44:28,000
+ manipulation to
+
+1183
+00:44:28,000 --> 00:44:30,000
+ adjust the photo quality.
+
+1184
+00:44:30,000 --> 00:44:32,000
+ But for most people,
+
+1185
+00:44:32,000 --> 00:44:34,000
+ we'll let the
+
+1186
+00:44:34,000 --> 00:44:36,000
+ onboard processor in
+
+1187
+00:44:36,000 --> 00:44:38,000
+ the camera to do the processing.
+
+1188
+00:44:38,000 --> 00:44:40,000
+ So the processor, the image
+
+1189
+00:44:40,000 --> 00:44:42,000
+ processing engine on the camera
+
+1190
+00:44:42,000 --> 00:44:44,000
+ will typically do the following.
+
+1191
+00:44:44,000 --> 00:44:46,000
+ So first of all, you will do the
+
+1192
+00:44:46,000 --> 00:44:48,000
+ demossacking or the image reconstruction.
+
+1193
+00:44:48,000 --> 00:44:50,000
+ So you try to recover
+
+1194
+00:44:50,000 --> 00:44:52,000
+ three channels
+
+1195
+00:44:52,000 --> 00:44:54,000
+ of color images.
+
+1196
+00:44:54,000 --> 00:44:56,000
+ So this particular process is known as
+
+1197
+00:44:56,000 --> 00:44:58,000
+ reconstruction or demossacking.
+
+1198
+00:44:58,000 --> 00:45:00,000
+ And afterwards,
+
+1199
+00:45:00,000 --> 00:45:02,000
+ adjust the brightness, make sure that the
+
+1200
+00:45:02,000 --> 00:45:04,000
+ image looks bright,
+
+1201
+00:45:04,000 --> 00:45:06,000
+ and then doing the white balancing.
+
+1202
+00:45:06,000 --> 00:45:08,000
+ So white balancing is that you make sure that
+
+1203
+00:45:08,000 --> 00:45:10,000
+ white color, white
+
+1204
+00:45:10,000 --> 00:45:12,000
+ object will actually appear
+
+1205
+00:45:12,000 --> 00:45:14,000
+ as if it's white color. Because
+
+1206
+00:45:14,000 --> 00:45:16,000
+ white color is very sensitive to
+
+1207
+00:45:16,000 --> 00:45:18,000
+ the light sources. When you capture an
+
+1208
+00:45:18,000 --> 00:45:20,000
+ image, whether it will appear to be
+
+1209
+00:45:20,000 --> 00:45:22,000
+ white or not depends on what kind of
+
+1210
+00:45:22,000 --> 00:45:24,000
+ light sources you are getting.
+
+1211
+00:45:24,000 --> 00:45:26,000
+ So this white balancing step will
+
+1212
+00:45:26,000 --> 00:45:28,000
+ make sure that the white component
+
+1213
+00:45:28,000 --> 00:45:30,000
+ will appear to be white.
+
+1214
+00:45:30,000 --> 00:45:32,000
+ And afterwards, improve the sharpness,
+
+1215
+00:45:32,000 --> 00:45:34,000
+ you'll improve the contrast of the
+
+1216
+00:45:34,000 --> 00:45:36,000
+ image. So these are actually the
+
+1217
+00:45:36,000 --> 00:45:38,000
+ kind of processor,
+
+1218
+00:45:38,000 --> 00:45:40,000
+ the onboard processing
+
+1219
+00:45:40,000 --> 00:45:42,000
+ performed by the
+
+1220
+00:45:42,000 --> 00:45:44,000
+ camera. And afterwards,
+
+1221
+00:45:44,000 --> 00:45:46,000
+ next you can then proceed to do the compression.
+
+1222
+00:45:46,000 --> 00:45:48,000
+ Because typically the image, if you don't
+
+1223
+00:45:48,000 --> 00:45:50,000
+ compress it, it's latched. So you need
+
+1224
+00:45:50,000 --> 00:45:52,000
+ to perform the compression,
+
+1225
+00:45:52,000 --> 00:45:54,000
+ but some common compression technique that you
+
+1226
+00:45:54,000 --> 00:45:56,000
+ can use is, for example, the JPEG
+
+1227
+00:45:56,000 --> 00:45:58,000
+ compression. Then you can compress it
+
+1228
+00:45:58,000 --> 00:46:00,000
+ and store it into your memory
+
+1229
+00:46:00,000 --> 00:46:02,000
+ card. Or in some application,
+
+1230
+00:46:02,000 --> 00:46:04,000
+ for example, if you are trying to do
+
+1231
+00:46:04,000 --> 00:46:06,000
+ some publishing application, then
+
+1232
+00:46:06,000 --> 00:46:08,000
+ the quality of the image is very important.
+
+1233
+00:46:08,000 --> 00:46:10,000
+ Then you may store it uncompressed,
+
+1234
+00:46:10,000 --> 00:46:12,000
+ for example using the TIFF format
+
+1235
+00:46:12,000 --> 00:46:14,000
+ and store it into your memory card.
+
+1236
+00:46:14,000 --> 00:46:16,000
+ So this is the typical signal flow.
+
+1237
+00:46:16,000 --> 00:46:18,000
+ So when we want to talk
+
+1238
+00:46:18,000 --> 00:46:20,000
+ about a camera, what is the
+
+1239
+00:46:20,000 --> 00:46:22,000
+ important criteria to determine
+
+1240
+00:46:22,000 --> 00:46:24,000
+ whether the quality of
+
+1241
+00:46:24,000 --> 00:46:26,000
+ the camera, there's a few key factors.
+
+1242
+00:46:26,000 --> 00:46:28,000
+ So the first one is lens.
+
+1243
+00:46:28,000 --> 00:46:30,000
+ This lens here.
+
+1244
+00:46:30,000 --> 00:46:32,000
+ So when you buy
+
+1245
+00:46:32,000 --> 00:46:34,000
+ a camera, for those of you who are into
+
+1246
+00:46:34,000 --> 00:46:36,000
+ photography, you'll know
+
+1247
+00:46:36,000 --> 00:46:38,000
+ that lens is very important and
+
+1248
+00:46:38,000 --> 00:46:40,000
+ it's very expensive.
+
+1249
+00:46:40,000 --> 00:46:42,000
+ The role of the lens is that it's trying to
+
+1250
+00:46:42,000 --> 00:46:44,000
+ collect the light from the
+
+1251
+00:46:44,000 --> 00:46:46,000
+ imaging source. So therefore, whether a
+
+1252
+00:46:46,000 --> 00:46:48,000
+ camera is good or not, the quality
+
+1253
+00:46:48,000 --> 00:46:50,000
+ of the lens is a very important factor.
+
+1254
+00:46:50,000 --> 00:46:52,000
+ So the next one is CCD.
+
+1255
+00:46:52,000 --> 00:46:54,000
+ This particular part here, the sensor.
+
+1256
+00:46:54,000 --> 00:46:56,000
+ So this particular
+
+1257
+00:46:56,000 --> 00:46:58,000
+ sensor, typically, if
+
+1258
+00:46:58,000 --> 00:47:00,000
+ the sensor has a higher resolution,
+
+1259
+00:47:00,000 --> 00:47:02,000
+ we consider it to be better.
+
+1260
+00:47:02,000 --> 00:47:04,000
+ For example, 10 megapixel
+
+1261
+00:47:04,000 --> 00:47:06,000
+ sensor, usually we consider
+
+1262
+00:47:06,000 --> 00:47:08,000
+ it to be better than, for example, 3 megapixel
+
+1263
+00:47:08,000 --> 00:47:10,000
+ sensor. But more
+
+1264
+00:47:10,000 --> 00:47:12,000
+ importantly is whether this sensor
+
+1265
+00:47:12,000 --> 00:47:14,000
+ is very sensitive to noise or not.
+
+1266
+00:47:14,000 --> 00:47:16,000
+ When you take the photo, for example, in a
+
+1267
+00:47:16,000 --> 00:47:18,000
+ very dark environment,
+
+1268
+00:47:18,000 --> 00:47:20,000
+ whether the sensor is very sensitive to
+
+1269
+00:47:20,000 --> 00:47:22,000
+ noise. So the quality of
+
+1270
+00:47:22,000 --> 00:47:24,000
+ the sensor therefore is also an important factor.
+
+1271
+00:47:24,000 --> 00:47:26,000
+ And then finally
+
+1272
+00:47:26,000 --> 00:47:28,000
+ is this particular image processing engine
+
+1273
+00:47:28,000 --> 00:47:30,000
+ here. How well
+
+1274
+00:47:30,000 --> 00:47:32,000
+ the
+
+1275
+00:47:32,000 --> 00:47:34,000
+ camera performs all these tasks here.
+
+1276
+00:47:34,000 --> 00:47:36,000
+ So depending on different companies, for example,
+
+1277
+00:47:36,000 --> 00:47:38,000
+ whether you are
+
+1278
+00:47:38,000 --> 00:47:40,000
+ Canon or whether you are Nikson,
+
+1279
+00:47:40,000 --> 00:47:42,000
+ so different companies
+
+1280
+00:47:42,000 --> 00:47:44,000
+ have their own algorithm
+
+1281
+00:47:44,000 --> 00:47:46,000
+ to perform these tasks here. So
+
+1282
+00:47:46,000 --> 00:47:48,000
+ they are a little bit different. So that the
+
+1283
+00:47:48,000 --> 00:47:50,000
+ performance of this particular image
+
+1284
+00:47:50,000 --> 00:47:52,000
+ processing engine will also determine
+
+1285
+00:47:52,000 --> 00:47:54,000
+ the quality of your camera and
+
+1286
+00:47:54,000 --> 00:47:56,000
+ the captured images of video.
+
+1287
+00:47:56,000 --> 00:47:58,000
+ So therefore the digital image quality is
+
+1288
+00:47:58,000 --> 00:48:00,000
+ actually determined by these
+
+1289
+00:48:00,000 --> 00:48:02,000
+ three factors here, which is shown.
+
+1290
+00:48:02,000 --> 00:48:04,000
+ So it depends on the lens performance,
+
+1291
+00:48:04,000 --> 00:48:06,000
+ CCD, image sensor,
+
+1292
+00:48:06,000 --> 00:48:08,000
+ pixel count and performance, as
+
+1293
+00:48:08,000 --> 00:48:10,000
+ well as the image processing
+
+1294
+00:48:10,000 --> 00:48:12,000
+ engine performance. So these are
+
+1295
+00:48:12,000 --> 00:48:14,000
+ the factors that will determine
+
+1296
+00:48:14,000 --> 00:48:16,000
+ the quality of the image.
+
+1297
+00:48:16,000 --> 00:48:18,000
+ Right, so what are the
+
+1298
+00:48:18,000 --> 00:48:20,000
+ some common cameras?
+
+1299
+00:48:20,000 --> 00:48:22,000
+ So this particular slide
+
+1300
+00:48:22,000 --> 00:48:24,000
+ shows some of the common
+
+1301
+00:48:24,000 --> 00:48:26,000
+ cameras that are available out there.
+
+1302
+00:48:26,000 --> 00:48:28,000
+ So the one that we have seen just now is
+
+1303
+00:48:28,000 --> 00:48:30,000
+ the normal RGB kind of
+
+1304
+00:48:30,000 --> 00:48:32,000
+ cameras. But in addition to that,
+
+1305
+00:48:32,000 --> 00:48:34,000
+ there are many other different cameras that are
+
+1306
+00:48:34,000 --> 00:48:36,000
+ out there. For example, one of the
+
+1307
+00:48:36,000 --> 00:48:38,000
+ other common cameras
+
+1308
+00:48:38,000 --> 00:48:40,000
+ that we have is the RGBD.
+
+1309
+00:48:40,000 --> 00:48:42,000
+ So RGBD camera,
+
+1310
+00:48:42,000 --> 00:48:44,000
+ for example this Kinect camera.
+
+1311
+00:48:44,000 --> 00:48:46,000
+ So in addition to the RGB
+
+1312
+00:48:46,000 --> 00:48:48,000
+ information, it can also capture
+
+1313
+00:48:48,000 --> 00:48:50,000
+ the depth information.
+
+1314
+00:48:50,000 --> 00:48:52,000
+ It can also capture the depth information.
+
+1315
+00:48:52,000 --> 00:48:54,000
+ Another common
+
+1316
+00:48:54,000 --> 00:48:56,000
+ types of camera that we have is
+
+1317
+00:48:56,000 --> 00:48:58,000
+ the near-infrared.
+
+1318
+00:48:58,000 --> 00:49:00,000
+ This type of cameras here.
+
+1319
+00:49:00,000 --> 00:49:02,000
+ Another common one is
+
+1320
+00:49:02,000 --> 00:49:04,000
+ the thermal camera. For example,
+
+1321
+00:49:04,000 --> 00:49:06,000
+ when you, during the
+
+1322
+00:49:06,000 --> 00:49:08,000
+ many years ago,
+
+1323
+00:49:08,000 --> 00:49:10,000
+ during the SARS period, I'm not sure
+
+1324
+00:49:10,000 --> 00:49:12,000
+ whether you heard about SARS.
+
+1325
+00:49:12,000 --> 00:49:14,000
+ Do you know about SARS?
+
+1326
+00:49:14,000 --> 00:49:16,000
+ Okay, SARS, I think
+
+1327
+00:49:16,000 --> 00:49:18,000
+ occurred around
+
+1328
+00:49:18,000 --> 00:49:20,000
+ 2003, around that time.
+
+1329
+00:49:20,000 --> 00:49:22,000
+ And afterwards, the most recent one
+
+1330
+00:49:22,000 --> 00:49:24,000
+ of us is COVID. So for those
+
+1331
+00:49:24,000 --> 00:49:26,000
+ you can use, for example, this kind of
+
+1332
+00:49:26,000 --> 00:49:28,000
+ thermal camera to detect
+
+1333
+00:49:28,000 --> 00:49:30,000
+ the body temperature. So it's
+
+1334
+00:49:30,000 --> 00:49:32,000
+ types of camera as well.
+
+1335
+00:49:32,000 --> 00:49:34,000
+ And then another types of camera that we
+
+1336
+00:49:34,000 --> 00:49:36,000
+ have is event-based camera.
+
+1337
+00:49:36,000 --> 00:49:38,000
+ So event-based camera
+
+1338
+00:49:38,000 --> 00:49:40,000
+ means that only when there's a change
+
+1339
+00:49:40,000 --> 00:49:42,000
+ of the brightness,
+
+1340
+00:49:42,000 --> 00:49:44,000
+ okay, of
+
+1341
+00:49:44,000 --> 00:49:46,000
+ the imaging scene,
+
+1342
+00:49:46,000 --> 00:49:48,000
+ then it will be able, it will capture
+
+1343
+00:49:48,000 --> 00:49:50,000
+ the information. So most of the time
+
+1344
+00:49:50,000 --> 00:49:52,000
+ it will not capture the information.
+
+1345
+00:49:52,000 --> 00:49:54,000
+ But when there's change of brightness, then it will
+
+1346
+00:49:54,000 --> 00:49:56,000
+ capture. So the reason why
+
+1347
+00:49:56,000 --> 00:49:58,000
+ event-based camera is used in some
+
+1348
+00:49:58,000 --> 00:50:00,000
+ applications is because it's
+
+1349
+00:50:00,000 --> 00:50:02,000
+ very power
+
+1350
+00:50:02,000 --> 00:50:04,000
+ efficient. Yeah, it can save
+
+1351
+00:50:04,000 --> 00:50:06,000
+ lots of energy. So therefore you can see
+
+1352
+00:50:06,000 --> 00:50:08,000
+ there's many different types of camera
+
+1353
+00:50:08,000 --> 00:50:10,000
+ that can be used in different kind
+
+1354
+00:50:10,000 --> 00:50:12,000
+ of application.
+
+1355
+00:50:12,000 --> 00:50:14,000
+ Yeah.
+
+1356
+00:50:14,000 --> 00:50:16,000
+ Okay, so
+
+1357
+00:50:16,000 --> 00:50:18,000
+ we have very briefly explained
+
+1358
+00:50:18,000 --> 00:50:20,000
+ about image already. So next,
+
+1359
+00:50:20,000 --> 00:50:22,000
+ let's move on to video. So what's
+
+1360
+00:50:22,000 --> 00:50:24,000
+ video? Video is nothing but a sequence
+
+1361
+00:50:24,000 --> 00:50:26,000
+ of frame or images
+
+1362
+00:50:26,000 --> 00:50:28,000
+ or pictures with audio
+
+1363
+00:50:28,000 --> 00:50:30,000
+ signal. So essentially all of us
+
+1364
+00:50:30,000 --> 00:50:32,000
+ should know that video is nothing but a
+
+1365
+00:50:32,000 --> 00:50:34,000
+ sequence of frame.
+
+1366
+00:50:34,000 --> 00:50:36,000
+ Okay, and when you play this sequence
+
+1367
+00:50:36,000 --> 00:50:38,000
+ of frame very quickly, and
+
+1368
+00:50:38,000 --> 00:50:40,000
+ due to the human persistence
+
+1369
+00:50:40,000 --> 00:50:42,000
+ of vision, then you start to get the
+
+1370
+00:50:42,000 --> 00:50:44,000
+ impression of smooth movement.
+
+1371
+00:50:44,000 --> 00:50:46,000
+ So that's essentially what a video
+
+1372
+00:50:46,000 --> 00:50:48,000
+ is. Okay, and it also
+
+1373
+00:50:48,000 --> 00:50:50,000
+ has the audio component.
+
+1374
+00:50:50,000 --> 00:50:52,000
+ So the different frame that we have, sometimes
+
+1375
+00:50:52,000 --> 00:50:54,000
+ we call it frame, sometimes we call it
+
+1376
+00:50:54,000 --> 00:50:56,000
+ images, sometimes we call it pictures,
+
+1377
+00:50:56,000 --> 00:50:58,000
+ they refer to the same thing.
+
+1378
+00:50:58,000 --> 00:51:00,000
+ Right, so as mentioned earlier on, we
+
+1379
+00:51:00,000 --> 00:51:02,000
+ play this video at a very high speed
+
+1380
+00:51:02,000 --> 00:51:04,000
+ that gives the impression of the
+
+1381
+00:51:04,000 --> 00:51:06,000
+ movement, a very smooth movement.
+
+1382
+00:51:06,000 --> 00:51:08,000
+ Okay, due to the human persistence
+
+1383
+00:51:08,000 --> 00:51:10,000
+ of vision. So this is the characteristics
+
+1384
+00:51:10,000 --> 00:51:12,000
+ of the human vision system.
+
+1385
+00:51:12,000 --> 00:51:14,000
+ So some popular video format
+
+1386
+00:51:14,000 --> 00:51:16,000
+ include MPAC, Moving Picture
+
+1387
+00:51:16,000 --> 00:51:18,000
+ Expert Group,
+
+1388
+00:51:18,000 --> 00:51:20,000
+ AVI, which is Intel, and then
+
+1389
+00:51:20,000 --> 00:51:22,000
+ WMV, which is Microsoft.
+
+1390
+00:51:22,000 --> 00:51:24,000
+ So this is some of the
+
+1391
+00:51:24,000 --> 00:51:26,000
+ common video format.
+
+1392
+00:51:26,000 --> 00:51:28,000
+ So next I will play you
+
+1393
+00:51:28,000 --> 00:51:30,000
+ a short video so I couldn't resist
+
+1394
+00:51:30,000 --> 00:51:32,000
+ because we are talking about video. So I
+
+1395
+00:51:32,000 --> 00:51:34,000
+ will just play you a video of one of my
+
+1396
+00:51:34,000 --> 00:51:36,000
+ popular songs.
+
+1397
+00:51:36,000 --> 00:51:38,000
+ So
+
+1398
+00:51:38,000 --> 00:51:40,000
+ yeah, so bear with me.
+
+1399
+00:51:40,000 --> 00:51:42,000
+ So this particular song is actually
+
+1400
+00:51:42,000 --> 00:51:44,000
+ an example of a video.
+
+1401
+00:51:58,000 --> 00:52:00,000
+ So
+
+1402
+00:52:28,000 --> 00:52:30,000
+ So
+
+1403
+00:52:58,000 --> 00:53:00,000
+ So
+
+1404
+00:53:28,000 --> 00:53:30,000
+ So
+
+1405
+00:53:58,000 --> 00:54:00,000
+ So
+
+1406
+00:54:28,000 --> 00:54:30,000
+ So
+
+1407
+00:54:30,000 --> 00:54:32,000
+ So
+
+1408
+00:54:32,000 --> 00:54:34,000
+ So
+
+1409
+00:54:34,000 --> 00:54:36,000
+ So
+
+1410
+00:54:36,000 --> 00:54:38,000
+ So
+
+1411
+00:54:38,000 --> 00:54:40,000
+ So
+
+1412
+00:54:40,000 --> 00:54:42,000
+ So
+
+1413
+00:54:42,000 --> 00:54:44,000
+ So
+
+1414
+00:54:44,000 --> 00:54:46,000
+ So
+
+1415
+00:54:46,000 --> 00:54:48,000
+ So
+
+1416
+00:54:48,000 --> 00:54:50,000
+ So
+
+1417
+00:54:50,000 --> 00:54:52,000
+ So
+
+1418
+00:54:52,000 --> 00:54:54,000
+ So
+
+1419
+00:54:54,000 --> 00:54:56,000
+ So
+
+1420
+00:54:56,000 --> 00:54:58,000
+ So
+
+1421
+00:54:58,020 --> 00:55:00,020
+ So
+
+1422
+00:55:00,020 --> 00:55:02,020
+ So
+
+1423
+00:55:02,020 --> 00:55:04,020
+ So
+
+1424
+00:55:04,020 --> 00:55:06,020
+ So
+
+1425
+00:55:06,020 --> 00:55:08,020
+ So
+
+1426
+00:55:08,020 --> 00:55:10,020
+ So
+
+1427
+00:55:10,020 --> 00:55:12,020
+ So
+
+1428
+00:55:12,020 --> 00:55:14,020
+ So
+
+1429
+00:55:14,020 --> 00:55:16,020
+ So
+
+1430
+00:55:16,020 --> 00:55:18,020
+ So
+
+1431
+00:55:18,020 --> 00:55:20,020
+ So
+
+1432
+00:55:20,020 --> 00:55:22,020
+ So
+
+1433
+00:55:22,020 --> 00:55:24,020
+ So
+
+1434
+00:55:24,020 --> 00:55:36,020
+ Ah, someday, someone will take this road
+
+1435
+00:55:36,020 --> 00:55:47,020
+ I will go, with my face turned to blue
+
+1436
+00:55:47,020 --> 00:56:11,020
+ I will go, farewell, I will be closed
+
+1437
+00:56:17,020 --> 00:56:24,020
+ I will go, farewell, I will be closed
+
+1438
+00:56:47,020 --> 00:56:52,020
+ I will go, farewell, I will be closed
+
+1439
+00:56:52,020 --> 00:56:57,020
+ I will go, farewell, I will be closed
+
+1440
+00:56:57,020 --> 00:57:02,020
+ I will go, farewell, I will be closed
+
+1441
+00:57:02,020 --> 00:57:07,020
+ I will go, farewell, I will be closed
+
+1442
+00:57:07,020 --> 00:57:12,020
+ I will go, farewell, I will be closed
+
+1443
+00:57:12,020 --> 00:57:17,020
+ I will go, farewell, I will be closed
+
+1444
+00:57:42,020 --> 00:57:47,020
+ I will go, farewell, I will be closed
+
+1445
+00:58:12,020 --> 00:58:17,020
+ I will go, farewell, I will be closed
+
+1446
+00:58:42,020 --> 00:58:47,020
+ I will go, farewell, I will be closed
+
+1447
+00:59:12,020 --> 00:59:17,020
+ I will go, farewell, I will be closed
+
+1448
+00:59:42,020 --> 00:59:47,020
+ I will go, farewell, I will be closed
+
+1449
+01:00:12,020 --> 01:00:17,020
+ I will go, farewell, I will be closed
+
+1450
+01:00:42,020 --> 01:00:47,020
+ I will go, farewell, I will be closed
+
+1451
+01:01:12,020 --> 01:01:17,020
+ I will go, farewell, I will be closed
+
+1452
+01:01:42,020 --> 01:01:47,020
+ I will go, farewell, I will be closed
+
+1453
+01:02:12,020 --> 01:02:15,020
+ So these are known as 480i
+
+1454
+01:02:15,020 --> 01:02:18,020
+ And this particular i refers to interlace scanning
+
+1455
+01:02:18,020 --> 01:02:21,020
+ That we will explain a bit later here
+
+1456
+01:02:21,020 --> 01:02:25,020
+ And then for the PEL, for example, it says that it's 576i
+
+1457
+01:02:25,020 --> 01:02:30,020
+ That means the number of rows is 720
+
+1458
+01:02:30,020 --> 01:02:38,020
+ The width is 720 and the height of the number of rows is 576 here
+
+1459
+01:02:38,020 --> 01:02:41,020
+ So therefore this number actually indicates the resolution
+
+1460
+01:02:41,020 --> 01:02:44,020
+ So the standard resolution is used in very early years
+
+1461
+01:02:44,020 --> 01:02:48,020
+ That's why you can see the resolution actually is very small
+
+1462
+01:02:48,020 --> 01:02:52,020
+ And then afterwards we moved on to the high definition
+
+1463
+01:02:52,020 --> 01:02:55,020
+ High definition is called HD
+
+1464
+01:02:55,020 --> 01:02:58,020
+ So under HD there's a few different variations
+
+1465
+01:02:58,020 --> 01:03:00,020
+ The first one is 720p
+
+1466
+01:03:00,020 --> 01:03:05,020
+ So 720p refers to, this number here usually refers to the number of rows
+
+1467
+01:03:06,020 --> 01:03:13,020
+ So 720p means 1280 by 720
+
+1468
+01:03:13,020 --> 01:03:16,020
+ And this p here refers to progressive
+
+1469
+01:03:16,020 --> 01:03:21,020
+ Later on we'll see what's the difference between interlace and progressive
+
+1470
+01:03:21,020 --> 01:03:24,020
+ So the next one is 1080i
+
+1471
+01:03:24,020 --> 01:03:31,020
+ So 1080i refers to 1920 by 1080
+
+1472
+01:03:31,020 --> 01:03:33,020
+ And then i refers to interlace
+
+1473
+01:03:33,020 --> 01:03:37,020
+ And then finally 1080p is this resolution
+
+1474
+01:03:37,020 --> 01:03:39,020
+ And p is progressive
+
+1475
+01:03:39,020 --> 01:03:44,020
+ So when you have this 1080p it also has a very unique name known as a full HD
+
+1476
+01:03:44,020 --> 01:03:53,020
+ So maybe 10, 15 years ago when your parents go out and buy a TV from an electronic shop
+
+1477
+01:03:53,020 --> 01:03:58,020
+ And on the shop you see this full HD
+
+1478
+01:03:58,020 --> 01:04:02,020
+ Actually it refers to this particular resolution with this scanning
+
+1479
+01:04:03,020 --> 01:04:09,020
+ And of course in recent years nowadays the TV that we have is the ultra high definition or UHD here
+
+1480
+01:04:09,020 --> 01:04:13,020
+ So we typically see things like 4K or 8K
+
+1481
+01:04:13,020 --> 01:04:18,020
+ So 4K resolution is about four times the size of a full HD
+
+1482
+01:04:18,020 --> 01:04:22,020
+ And the 8K resolution is four times the resolution of 4K
+
+1483
+01:04:22,020 --> 01:04:28,020
+ So all this number if you look at it, you may not have a good intuition of how it looks like
+
+1484
+01:04:28,020 --> 01:04:32,020
+ So if you look at this particular image it gives you an impression
+
+1485
+01:04:32,020 --> 01:04:39,020
+ About how over time the number of pixels that you can squeeze into a single frame, how it has progressed
+
+1486
+01:04:39,020 --> 01:04:43,020
+ So we start off with this SD and afterwards HD
+
+1487
+01:04:43,020 --> 01:04:49,020
+ 4K, so most of our TV nowadays is using this 4K resolution
+
+1488
+01:04:49,020 --> 01:04:52,020
+ And then 8K resolution is about this big
+
+1489
+01:04:52,020 --> 01:05:03,020
+ So in the previous slide we introduced these terms about interlace scanning, I, and the progressive scanning, P
+
+1490
+01:05:03,020 --> 01:05:06,020
+ So what's the difference between these two types of scan type?
+
+1491
+01:05:06,020 --> 01:05:14,020
+ So interlace scanning refers to, given a particular, for example, image frame, if it's a video
+
+1492
+01:05:14,020 --> 01:05:20,020
+ So first of all we scan the odd line first and afterwards we scan the even line
+
+1493
+01:05:21,020 --> 01:05:25,020
+ So sometimes we also call it top or bottom field
+
+1494
+01:05:25,020 --> 01:05:28,020
+ So we scan the top field first, followed by the bottom field
+
+1495
+01:05:28,020 --> 01:05:34,020
+ So if you do that, then this kind of scanning is known as interlace scanning
+
+1496
+01:05:34,020 --> 01:05:40,020
+ So it consists of two fields, odd or even line, or sometimes it's known as top and bottom field
+
+1497
+01:05:40,020 --> 01:05:42,020
+ So it's scanned alternately
+
+1498
+01:05:44,020 --> 01:05:46,020
+ So this is an example of the interlace scanning
+
+1499
+01:05:46,020 --> 01:05:50,020
+ You can see it scans the odd line first, the blue line
+
+1500
+01:05:50,020 --> 01:05:54,020
+ And afterwards it scans the red line here
+
+1501
+01:05:54,020 --> 01:05:56,020
+ So this is the interlace scanning
+
+1502
+01:05:56,020 --> 01:06:00,020
+ So as opposed to that, you have the next one which is the progressive scanning
+
+1503
+01:06:00,020 --> 01:06:06,020
+ So the progressive scanning is all the lines are scanned in sequence, so you scan it line by line
+
+1504
+01:06:08,020 --> 01:06:14,020
+ So if you spare one moment to think about it, why do we want to do this interlace scan?
+
+1505
+01:06:15,020 --> 01:06:19,020
+ Why do we want to do interlace scanning? Especially in the early years
+
+1506
+01:06:19,020 --> 01:06:27,020
+ A lot of these standards were developed in the early years of video compression and transmission
+
+1507
+01:06:27,020 --> 01:06:32,020
+ So for example, interlace scanning was developed during the time
+
+1508
+01:06:32,020 --> 01:06:36,020
+ So why do you want to do interlace scanning?
+
+1509
+01:06:44,020 --> 01:06:46,020
+ Anyone?
+
+1510
+01:06:56,020 --> 01:07:00,020
+ So if you think about it, the reason why we want to do this interlace scanning
+
+1511
+01:07:00,020 --> 01:07:05,020
+ Is that each time when you're doing interlace scanning, we only scan half of the line
+
+1512
+01:07:05,020 --> 01:07:11,020
+ For example, we only scan the odd line for one frame, and afterwards we scan the even line
+
+1513
+01:07:11,020 --> 01:07:16,020
+ So therefore what it means is that when you only scan the odd line and you transmit it
+
+1514
+01:07:16,020 --> 01:07:19,020
+ The bandwidth that you use is only half
+
+1515
+01:07:20,020 --> 01:07:25,020
+ Because during the early days, bandwidth is very limited, it's very expensive
+
+1516
+01:07:25,020 --> 01:07:30,020
+ So if you can reduce the number of bits that can be transmitted, you try to do that
+
+1517
+01:07:30,020 --> 01:07:34,020
+ So therefore people think of one way is that you only scan the top line first
+
+1518
+01:07:34,020 --> 01:07:37,020
+ And you transmit this particular frame
+
+1519
+01:07:37,020 --> 01:07:39,020
+ So the bandwidth is reduced by half
+
+1520
+01:07:39,020 --> 01:07:42,020
+ But there's also problems that you have
+
+1521
+01:07:43,020 --> 01:07:47,020
+ So when you do that, as you can see, since you're only scanning half of the line
+
+1522
+01:07:47,020 --> 01:07:50,020
+ You're a little bit like cheating or cutting the corner
+
+1523
+01:07:50,020 --> 01:07:55,020
+ Because it's trying to trick our eye into trying to refresh
+
+1524
+01:07:55,020 --> 01:08:01,020
+ So even though there's some movement, it will trick your eye to interpret
+
+1525
+01:08:01,020 --> 01:08:04,020
+ This frame has been refreshed already, there's a certain movement
+
+1526
+01:08:04,020 --> 01:08:06,020
+ So that is actually the trick
+
+1527
+01:08:07,020 --> 01:08:11,020
+ The objective of interlace scanning is you reduce the number of lines
+
+1528
+01:08:11,020 --> 01:08:15,020
+ And hence you reduce the bandwidth that you need to retransmit
+
+1529
+01:08:15,020 --> 01:08:21,020
+ By trying to trick our brain into thinking that it's already updated some of the content
+
+1530
+01:08:21,020 --> 01:08:25,020
+ But the problem of this kind of interlace scanning is that for some images
+
+1531
+01:08:25,020 --> 01:08:31,020
+ Especially lines like this, when you have some imaging scene that has lots of edges and lines
+
+1532
+01:08:31,020 --> 01:08:35,020
+ Some parts of the line are updated, other lines are not updated
+
+1533
+01:08:35,020 --> 01:08:39,020
+ Then you are going to get this kind of jittering effect
+
+1534
+01:08:39,020 --> 01:08:41,020
+ So these are the jittering effects
+
+1535
+01:08:41,020 --> 01:08:46,020
+ So therefore, if you're using interlace scanning, the advantage is that you reduce the bandwidth
+
+1536
+01:08:46,020 --> 01:08:51,020
+ But the price you have to pay is that sometimes you'll get some content jittering
+
+1537
+01:08:51,020 --> 01:08:55,020
+ Like this, this is a very well-known example of jittering
+
+1538
+01:08:55,020 --> 01:08:59,020
+ So as opposed to that, you can use this progressive scanning
+
+1539
+01:08:59,020 --> 01:09:01,020
+ You scan all the lines
+
+1540
+01:09:01,020 --> 01:09:08,020
+ So the price you pay is that you transmit more bandwidth, but the quality is better
+
+1541
+01:09:08,020 --> 01:09:10,020
+ So that is during the early days
+
+1542
+01:09:10,020 --> 01:09:14,020
+ But nowadays because the bandwidth has actually increased a lot
+
+1543
+01:09:14,020 --> 01:09:16,020
+ And the compression technique has improved a lot
+
+1544
+01:09:16,020 --> 01:09:20,020
+ So therefore nowadays we hardly use this interlace scanning anymore
+
+1545
+01:09:20,020 --> 01:09:23,020
+ Most of them will be based on progressive scanning
+
+1546
+01:09:26,020 --> 01:09:29,020
+ So earlier on we also mentioned about frame rate
+
+1547
+01:09:29,020 --> 01:09:32,020
+ So frame rate is referred to how many frames is played per second
+
+1548
+01:09:32,020 --> 01:09:35,020
+ So it's given in terms of frames per second here
+
+1549
+01:09:35,020 --> 01:09:37,020
+ So depending on different countries and different standards
+
+1550
+01:09:37,020 --> 01:09:42,020
+ For example, in Singapore and Australia, we use the PALS system
+
+1551
+01:09:42,020 --> 01:09:46,020
+ Which is the video is played at 25 frames per second
+
+1552
+01:09:46,020 --> 01:09:51,020
+ And in the US and Japan, they use the NTSC standard
+
+1553
+01:09:51,020 --> 01:09:54,020
+ So the video is played at 30 frames per second
+
+1554
+01:09:55,020 --> 01:10:03,020
+ So next we are going to very quickly look at some video signal processing and application
+
+1555
+01:10:03,020 --> 01:10:06,020
+ So what is video signal processing?
+
+1556
+01:10:06,020 --> 01:10:08,020
+ So this is a very broad term as I mentioned
+
+1557
+01:10:08,020 --> 01:10:12,020
+ So video signal processing can deal with different aspects of video
+
+1558
+01:10:12,020 --> 01:10:14,020
+ So it can include things like representation
+
+1559
+01:10:14,020 --> 01:10:17,020
+ So how do you present the video?
+
+1560
+01:10:18,020 --> 01:10:25,020
+ Compression, how do you compress it into a small file size or low bit rate?
+
+1561
+01:10:25,020 --> 01:10:28,020
+ And afterwards, how do you store it?
+
+1562
+01:10:28,020 --> 01:10:30,020
+ How do you transmit it?
+
+1563
+01:10:30,020 --> 01:10:32,020
+ How do you process it?
+
+1564
+01:10:32,020 --> 01:10:35,020
+ Analyze the content and understand what the content is
+
+1565
+01:10:35,020 --> 01:10:38,020
+ So there's actually many different aspects of video
+
+1566
+01:10:38,020 --> 01:10:42,020
+ But for this particular course, we'll be focusing on these two topics
+
+1567
+01:10:42,020 --> 01:10:44,020
+ That I mentioned a few times already
+
+1568
+01:10:44,020 --> 01:10:46,020
+ So we'll be focusing on compression
+
+1569
+01:10:46,020 --> 01:10:50,020
+ And then we'll be focusing on analytics and understanding
+
+1570
+01:10:52,020 --> 01:10:56,020
+ So next let's look at some of the sample signal processing applications
+
+1571
+01:10:56,020 --> 01:11:00,020
+ So there are many, many different applications nowadays that are centered on video
+
+1572
+01:11:00,020 --> 01:11:05,020
+ So for example, we can have a business streaming e-commerce
+
+1573
+01:11:05,020 --> 01:11:08,020
+ This is particularly popular in China
+
+1574
+01:11:08,020 --> 01:11:10,020
+ Almost every year
+
+1575
+01:11:10,020 --> 01:11:12,020
+ Very, very popular in China
+
+1576
+01:11:12,020 --> 01:11:15,020
+ And then entertainment, for example, video streaming, video on demand
+
+1577
+01:11:15,020 --> 01:11:18,020
+ Some typical examples would be Netflix
+
+1578
+01:11:18,020 --> 01:11:23,020
+ Any movie that you want to watch, you can just stream it
+
+1579
+01:11:23,020 --> 01:11:27,020
+ Technology, technology enabled learning online lecture
+
+1580
+01:11:27,020 --> 01:11:30,020
+ So a few years back during COVID, it was quite serious
+
+1581
+01:11:30,020 --> 01:11:35,020
+ So we have to actually conduct most of our lectures online
+
+1582
+01:11:36,020 --> 01:11:41,020
+ So other things like, for example, in smart cities transportation
+
+1583
+01:11:41,020 --> 01:11:45,020
+ The autonomous vehicles that you have
+
+1584
+01:11:45,020 --> 01:11:47,020
+ The video analytics
+
+1585
+01:11:47,020 --> 01:11:50,020
+ So for example, the autonomous vehicles
+
+1586
+01:11:50,020 --> 01:11:54,020
+ I just read, I think a few weeks ago or last month in Wuhan
+
+1587
+01:11:54,020 --> 01:11:57,020
+ There's actually a new service, right?
+
+1588
+01:11:57,020 --> 01:12:00,020
+ It's a Luo Bo Kuai Pao
+
+1589
+01:12:00,020 --> 01:12:05,020
+ So for those applications, you need to be able to see the surroundings
+
+1590
+01:12:05,020 --> 01:12:10,020
+ And be able to perform tasks like segmentation, detection and so on
+
+1591
+01:12:13,020 --> 01:12:15,020
+ Okay, so next I'm just going to
+
+1592
+01:12:15,020 --> 01:12:18,020
+ I think for Chinese students definitely you know what this
+
+1593
+01:12:18,020 --> 01:12:20,020
+ 直播代货
+
+1594
+01:12:20,020 --> 01:12:23,020
+ So I'm just going to, I'm not going to do that here
+
+1595
+01:12:23,020 --> 01:12:26,020
+ Even though I'm tempted to show my QR code
+
+1596
+01:12:26,020 --> 01:12:28,020
+ And then you can also use some
+
+1597
+01:12:28,020 --> 01:12:30,020
+ 火箭,大炮 or whatever
+
+1598
+01:12:30,020 --> 01:12:32,020
+ But okay, I'm not doing here
+
+1599
+01:12:32,020 --> 01:12:39,020
+ I'm just trying to show you some of the possible applications of video processing
+
+1600
+01:12:39,020 --> 01:12:43,020
+ So this is live streaming in China
+
+1601
+01:12:43,020 --> 01:12:46,020
+ Okay, so I'll just play a short segment of it
+
+1602
+01:12:46,020 --> 01:12:49,020
+ Because the video is a bit long, so I'll just play a short segment
+
+1603
+01:12:56,020 --> 01:13:01,020
+ 直播代货
+
+1604
+01:13:01,020 --> 01:13:05,020
+ Sorry, because I don't pay for the Google subscription
+
+1605
+01:13:05,020 --> 01:13:07,020
+ So they always show me the advertisement
+
+1606
+01:13:12,020 --> 01:13:14,020
+ This is live stream shopping
+
+1607
+01:13:14,020 --> 01:13:17,020
+ One of the hottest trends in China
+
+1608
+01:13:17,020 --> 01:13:21,020
+ Every night, tens of millions of people watch live shows
+
+1609
+01:13:21,020 --> 01:13:25,020
+ Hosted by influencers like VIA and by the products they recommend
+
+1610
+01:13:25,020 --> 01:13:29,020
+ Or on e-commerce and social apps like Taobao and Douyin
+
+1611
+01:13:29,020 --> 01:13:31,020
+ The sister app of TikTok
+
+1612
+01:13:40,020 --> 01:13:43,020
+ It's not about only shopping
+
+1613
+01:13:43,020 --> 01:13:45,020
+ It's about the experience, it's about having fun
+
+1614
+01:13:45,020 --> 01:13:50,020
+ You got to see 3D, you got to see in some kind of action
+
+1615
+01:13:50,020 --> 01:13:52,020
+ It's almost like a theatre act
+
+1616
+01:13:52,020 --> 01:13:55,020
+ The internet craze has taken over China
+
+1617
+01:13:55,020 --> 01:14:01,020
+ By the end of 2020, the country had almost 400 million live stream shopping users
+
+1618
+01:14:01,020 --> 01:14:06,020
+ China's live stream e-commerce market has also grown dramatically
+
+1619
+01:14:06,020 --> 01:14:12,020
+ With an estimated value of 161 billion dollars in 2020
+
+1620
+01:14:12,020 --> 01:14:15,020
+ It's becoming popular outside China as well
+
+1621
+01:14:15,020 --> 01:14:19,020
+ So is live streaming the future of shopping?
+
+1622
+01:14:23,020 --> 01:14:26,020
+ Live streaming is not a new thing
+
+1623
+01:14:26,020 --> 01:14:31,020
+ In China, it started in 2015 with the rollout of 4G
+
+1624
+01:14:31,020 --> 01:14:35,020
+ And it was first used for entertainment and socializing
+
+1625
+01:14:35,020 --> 01:14:39,020
+ Many live streamers perform for their followers or chat it to them
+
+1626
+01:14:39,020 --> 01:14:43,020
+ Making money by receiving virtual currency and gifts
+
+1627
+01:14:43,020 --> 01:14:47,020
+ In the West, live streaming is mainly the doming of avid gamers
+
+1628
+01:14:47,020 --> 01:14:50,020
+ In China, it's broken into e-commerce
+
+1629
+01:14:51,020 --> 01:14:54,020
+ China actually has a very big e-commerce empire
+
+1630
+01:14:54,020 --> 01:14:57,020
+ So it uses these super apps, what we call
+
+1631
+01:14:57,020 --> 01:15:00,020
+ That you have payment, you have search of information
+
+1632
+01:15:00,020 --> 01:15:02,020
+ You have recommendation system
+
+1633
+01:15:02,020 --> 01:15:06,020
+ And you have huge amount of goods available on the platform
+
+1634
+01:15:06,020 --> 01:15:08,020
+ And as well as a lot of consumers
+
+1635
+01:15:08,020 --> 01:15:13,020
+ So with this advantage, they merge these features of live streaming
+
+1636
+01:15:13,020 --> 01:15:16,020
+ To make the influencers actually sell goods
+
+1637
+01:15:16,020 --> 01:15:17,020
+ Here is a perfect choice
+
+1638
+01:15:17,020 --> 01:15:20,020
+ Nice neutrals, beautiful prints, nothing overwhelming
+
+1639
+01:15:20,020 --> 01:15:22,020
+ And the warmth and comfort of flannel
+
+1640
+01:15:23,020 --> 01:15:26,020
+ Traditional TV shopping involves a one-way direction
+
+1641
+01:15:26,020 --> 01:15:30,020
+ Whereby a host introduces a product, demonstrates certain things
+
+1642
+01:15:30,020 --> 01:15:32,020
+ And say call this number or something
+
+1643
+01:15:32,020 --> 01:15:34,020
+ But live stream shopping is live
+
+1644
+01:15:34,020 --> 01:15:37,020
+ That in itself is a very, very big difference
+
+1645
+01:15:37,020 --> 01:15:39,020
+ That causes different psychology
+
+1646
+01:15:39,020 --> 01:15:44,020
+ And live stream shopping is a very entertaining way of engaging someone else
+
+1647
+01:15:44,020 --> 01:15:48,020
+ When you shop, actually this live streaming video will continue
+
+1648
+01:15:48,020 --> 01:15:50,020
+ It will minimize into a corner
+
+1649
+01:15:50,020 --> 01:15:54,020
+ And you can buy the items and pay all on the same app
+
+1650
+01:15:54,020 --> 01:15:58,020
+ After that, the live streaming screen will just enlarge by itself
+
+1651
+01:15:58,020 --> 01:16:01,020
+ And the promoter will come back to screen
+
+1652
+01:16:01,020 --> 01:16:04,020
+ So it's like very convenient
+
+1653
+01:16:06,020 --> 01:16:09,020
+ Taobao, one of China's biggest e-commerce platforms
+
+1654
+01:16:09,020 --> 01:16:12,020
+ Owned by tech giant Alibaba
+
+1655
+01:16:12,020 --> 01:16:15,020
+ Added a live streaming function in early 2016
+
+1656
+01:16:15,020 --> 01:16:19,020
+ In the following years, other e-commerce and social platforms
+
+1657
+01:16:19,020 --> 01:16:22,020
+ Like JD and Douyin also integrated this feature
+
+1658
+01:16:42,020 --> 01:16:45,020
+ But in the past few years, it's been difficult to make a breakthrough
+
+1659
+01:17:12,020 --> 01:17:16,020
+ People were in lockdown and many retailers were pushed online
+
+1660
+01:17:42,020 --> 01:18:05,020
+ OK, so it's a long video. So I'm not going to...
+
+1661
+01:18:05,020 --> 01:18:15,260
+ long video so I'm not going to yeah I'm not going to play the whole video but you can see now yeah
+
+1662
+01:18:15,260 --> 01:18:23,180
+ in the past this Alibaba Jingdong is very big but I heard nowadays actually people don't buy so much
+
+1663
+01:18:23,180 --> 01:18:30,060
+ from it anymore usually what people nowadays is using Pingdol right that's that's why I heard
+
+1664
+01:18:30,060 --> 01:18:37,820
+ from my wife yeah so nowadays people tend to buy very cheap stuff from Pingdol but recently I
+
+1665
+01:18:37,820 --> 01:18:44,780
+ think last year or a few months ago there's also this event ZhaDian right you are you aware of it
+
+1666
+01:18:46,220 --> 01:18:51,420
+ okay if you do not know you can go and find out later anyway yeah so okay so this is actually
+
+1667
+01:18:52,060 --> 01:18:57,500
+ therefore like video streaming right so one of the very important criteria is in order to support
+
+1668
+01:18:57,500 --> 01:19:03,260
+ applications such as video streaming you must have a very powerful video compression and
+
+1669
+01:19:03,260 --> 01:19:08,700
+ streaming technology to support it so that's what we are going to study later on for this course
+
+1670
+01:19:08,700 --> 01:19:15,100
+ which is how do we perform very efficient video compression and streaming and transmission
+
+1671
+01:19:15,420 --> 01:19:15,900
+ okay
+
+1672
+01:19:25,740 --> 01:19:33,740
+ okay another application just as video on demand so video on demand okay so this again is one of
+
+1673
+01:19:33,740 --> 01:19:40,140
+ my very favorite animation right so I'll also would like to share with you so that you can
+
+1674
+01:19:40,700 --> 01:19:43,180
+ relax a bit more
+
+1675
+01:19:59,020 --> 01:20:06,380
+ from master filmmaker Hayao Miyazaki the director of the academy award-winning
+
+1676
+01:20:06,380 --> 01:20:11,740
+ spirited away that is ancient sorcery quite powerful too
+
+1677
+01:20:14,700 --> 01:20:26,780
+ this summer experience the epic tale of a young woman transformed by a mysterious curse
+
+1678
+01:20:27,500 --> 01:20:36,139
+ oh that's really me isn't it an enchanted moving castle this is a magic house
+
+1679
+01:20:37,740 --> 01:20:46,460
+ and the one wizard powerful enough to set her free this charm will guarantee your safe return
+
+1680
+01:20:46,460 --> 01:20:53,340
+ Walt Disney Studios presents a studio jiggly production of a Hayao Miyazaki film
+
+1681
+01:20:54,780 --> 01:20:55,340
+ hold on
+
+1682
+01:20:58,380 --> 01:21:03,420
+ this June journey to amazing new worlds
+
+1683
+01:21:07,420 --> 01:21:09,740
+ aboard Howl's moving castle
+
+1684
+01:21:17,260 --> 01:21:21,740
+ okay so this animation is also my daughter's favorite
+
+1685
+01:21:28,380 --> 01:21:35,260
+ okay so the next short video that I'm going to show is about video analytics so right nowadays
+
+1686
+01:21:35,260 --> 01:21:41,340
+ you know that when together with AI and video you can do many tasks right so this particular
+
+1687
+01:21:41,340 --> 01:21:46,380
+ video is mainly going to be focusing from the surveillance and analytics perspective
+
+1688
+01:21:46,380 --> 01:21:49,980
+ so just to demonstrate some of the potential use cases
+
+1689
+01:23:41,340 --> 01:23:49,980
+ so
+
+1690
+01:23:50,700 --> 01:23:54,620
+ so
+
+1691
+01:24:09,179 --> 01:24:13,740
+ okay so just now from the particular video you can see that there's actually many kind of
+
+1692
+01:24:13,740 --> 01:24:19,660
+ tasks that can be achieved it turned out that actually currently I do have a project with an
+
+1693
+01:24:19,660 --> 01:24:24,860
+ industrial partner a lots of the tasks that's being described in the video actually we are also
+
+1694
+01:24:24,860 --> 01:24:29,660
+ doing it so we are quite familiar with some of those topics so pretty much for the particular
+
+1695
+01:24:29,660 --> 01:24:34,940
+ industrial project for example from the safety perspective we need to be able to detect smoke
+
+1696
+01:24:35,740 --> 01:24:42,139
+ fire know whether persons are wearing the know the mask especially during the covid
+
+1697
+01:24:42,139 --> 01:24:48,780
+ period whether they are wearing the protective here PPE personal protective equipment okay
+
+1698
+01:24:49,019 --> 01:24:53,820
+ also things like we try to you know track the movements of different objects
+
+1699
+01:24:53,820 --> 01:24:59,740
+ know count the person know perform action recognition human object interaction and so on
+
+1700
+01:24:59,740 --> 01:25:04,219
+ so these are some of the things that we can do to analyze the video application
+
+1701
+01:25:07,179 --> 01:25:10,300
+ okay let me see all right let me probably just quickly cover the next
+
+1702
+01:25:10,300 --> 01:25:15,420
+ uh two slides and then we'll you know take a short break so what are the current trends in
+
+1703
+01:25:15,900 --> 01:25:20,780
+ no video signal processing so right of course in recent years we see that there's new
+
+1704
+01:25:20,780 --> 01:25:26,620
+ ai and deep learning algorithm and models right okay so this is particularly used in the context
+
+1705
+01:25:26,620 --> 01:25:32,780
+ of video analytics and understanding okay and also progressively we have more and more
+
+1706
+01:25:32,780 --> 01:25:38,620
+ data that's being collected so therefore a new train will be the big data okay from the
+
+1707
+01:25:38,620 --> 01:25:45,340
+ processing perspective we have a better processor larger storage devices and also there's a new
+
+1708
+01:25:45,820 --> 01:25:51,260
+ emerging consumer behavior that supports some of the application for example the video that
+
+1709
+01:25:51,260 --> 01:25:56,780
+ just now we show about the you know the e-commerce live streaming e-commerce these are some of the
+
+1710
+01:25:56,780 --> 01:26:03,500
+ emerging or new consumer behaviors that require the underlying technology to support it okay and
+
+1711
+01:26:03,500 --> 01:26:08,700
+ of course over the years we have a better and better compression algorithm so this is what
+
+1712
+01:26:08,700 --> 01:26:14,460
+ we are going to study as our next topic and then we have a better video analytics uh techniques
+
+1713
+01:26:15,340 --> 01:26:19,500
+ so in terms of the technical challenges so for this particular course as i mentioned we are
+
+1714
+01:26:19,500 --> 01:26:25,500
+ be focusing on two things number one is the compression or coding yeah number two is on
+
+1715
+01:26:25,500 --> 01:26:30,860
+ the content analysis and understanding so from the perspective of compression and coding some of the
+
+1716
+01:26:30,860 --> 01:26:37,260
+ challenges is that we want our video always to have a better quality lower bit rate okay and also you
+
+1717
+01:26:37,260 --> 01:26:42,780
+ need to uh offer a certain quality of services for example just now in the live streaming we need to
+
+1718
+01:26:42,780 --> 01:26:49,179
+ make sure that you know the delay the latency the video is smooth and so on right so from the context
+
+1719
+01:26:49,179 --> 01:26:56,139
+ of uh no video content analysis and understanding so some of the challenges that we have is that
+
+1720
+01:26:56,139 --> 01:27:01,580
+ robust performance for example just now in the video that you see you do counting right you try
+
+1721
+01:27:01,580 --> 01:27:08,380
+ to detect uh no ppe right you try to detect for example uh post estimation you try to estimate
+
+1722
+01:27:09,020 --> 01:27:15,740
+ you try to analyze the whether when the worker is performing certain tasks whether it's uh no help
+
+1723
+01:27:15,740 --> 01:27:22,060
+ no kind of harmful to their uh posture and so on those we need to have a robust performance
+
+1724
+01:27:22,060 --> 01:27:27,340
+ so therefore robust performance is one of the key challenge so another common challenge that we have
+
+1725
+01:27:27,340 --> 01:27:34,140
+ is the domain gap or shift or generalization so for example if you train on this data set right
+
+1726
+01:27:34,220 --> 01:27:38,940
+ you train on this data set but later on when you want to deploy to a new environment
+
+1727
+01:27:38,940 --> 01:27:46,380
+ are you able to still achieve good performance right so this is the domain gap or shift or
+
+1728
+01:27:46,380 --> 01:27:54,620
+ generalization problem okay so other issues uh very well known in ai uh domain is no annotation
+
+1729
+01:27:54,620 --> 01:27:59,340
+ data collections and annotations are always expensive right so how do we address those
+
+1730
+01:27:59,340 --> 01:28:04,380
+ problems that's why you have things like no nowadays uh pre-trained model followed by
+
+1731
+01:28:04,380 --> 01:28:10,540
+ fine tuning or adaptation is becoming very uh popular it's because the data annotation is very
+
+1732
+01:28:10,540 --> 01:28:16,780
+ expensive but there's also other techniques like no training with a small number of data such as
+
+1733
+01:28:16,780 --> 01:28:21,900
+ few short learning and even training without no training data right which is for example known
+
+1734
+01:28:21,900 --> 01:28:28,140
+ as a zero short learning so these are some active research direction and challenge in this space here
+
+1735
+01:28:29,820 --> 01:28:36,220
+ right okay so with that i think we'll take a short break let's come back at say uh 8 15
+
+1736
+01:28:36,220 --> 01:28:44,780
+ let's come back 8 15
+
+1737
+01:28:59,340 --> 01:28:59,500
+ you
+
+1738
+01:29:29,340 --> 01:29:29,500
+ you
+
+1739
+01:29:59,340 --> 01:29:59,500
+ you
+
+1740
+01:30:29,340 --> 01:30:29,500
+ you
+
+1741
+01:30:59,340 --> 01:30:59,500
+ you
+
+1742
+01:31:29,340 --> 01:31:29,500
+ you
+
+1743
+01:31:59,340 --> 01:31:59,500
+ you
+
+1744
+01:32:29,340 --> 01:32:29,500
+ you
+
+1745
+01:32:59,340 --> 01:32:59,500
+ you
+
+1746
+01:33:29,340 --> 01:33:29,500
+ you
+
+1747
+01:33:59,340 --> 01:33:59,500
+ you
+
+1748
+01:34:29,340 --> 01:34:29,500
+ you
+
+1749
+01:34:59,340 --> 01:34:59,420
+ you
+
+1750
+01:35:29,340 --> 01:35:29,500
+ you
+
+1751
+01:35:59,340 --> 01:35:59,500
+ you
+
+1752
+01:36:29,340 --> 01:36:29,500
+ you
+
+1753
+01:36:59,340 --> 01:36:59,500
+ you
+
+1754
+01:37:29,340 --> 01:37:30,060
+ you
+
+1755
+01:37:59,340 --> 01:37:59,420
+ you
+
+1756
+01:38:29,340 --> 01:38:30,060
+ you
+
+1757
+01:38:59,340 --> 01:38:59,420
+ you
+
+1758
+01:39:29,340 --> 01:39:30,060
+ you
+
+1759
+01:39:59,340 --> 01:40:00,060
+ you
+
+1760
+01:40:29,340 --> 01:40:30,060
+ you
+
+1761
+01:40:59,340 --> 01:41:00,060
+ you
+
+1762
+01:41:29,340 --> 01:41:29,840
+ you
+
+1763
+01:41:59,340 --> 01:41:59,420
+ you
+
+1764
+01:42:29,340 --> 01:42:30,060
+ you
+
+1765
+01:42:59,340 --> 01:43:00,060
+ you
+
+1766
+01:43:29,340 --> 01:43:30,060
+ you
+
+1767
+01:43:59,340 --> 01:44:00,060
+ you
+
+1768
+01:44:29,340 --> 01:44:29,840
+ you
+
+1769
+01:44:59,340 --> 01:44:59,420
+ you
+
+1770
+01:45:29,340 --> 01:45:30,060
+ you
+
+1771
+01:45:59,340 --> 01:46:00,060
+ you
+
+1772
+01:46:29,340 --> 01:46:29,840
+ you
+
+1773
+01:46:59,340 --> 01:46:59,840
+ you
+
+1774
+01:47:29,340 --> 01:47:29,840
+ you
+
+1775
+01:47:59,340 --> 01:47:59,840
+ you
+
+1776
+01:48:29,340 --> 01:48:29,840
+ you
+
+1777
+01:48:59,340 --> 01:48:59,840
+ you
+
+1778
+01:49:29,340 --> 01:49:29,840
+ you
+
+1779
+01:49:59,340 --> 01:49:59,840
+ you
+
+1780
+01:50:29,340 --> 01:50:29,840
+ you
+
+1781
+01:50:59,340 --> 01:50:59,840
+ you
+
+1782
+01:51:29,340 --> 01:51:29,840
+ you
+
+1783
+01:51:59,340 --> 01:51:59,840
+ you
+
+1784
+01:52:29,340 --> 01:52:29,840
+ you
+
+1785
+01:52:59,340 --> 01:52:59,840
+ you
+
+1786
+01:53:29,340 --> 01:53:29,840
+ you
+
+1787
+01:53:59,340 --> 01:53:59,840
+ you
+
+1788
+01:54:29,340 --> 01:54:29,840
+ you
+
+1789
+01:54:59,340 --> 01:54:59,840
+ you
+
+1790
+01:55:29,340 --> 01:55:29,840
+ you
+
+1791
+01:55:59,340 --> 01:55:59,840
+ you
+
+1792
+01:55:59,840 --> 01:56:00,340
+ you
+
+1793
+01:56:00,340 --> 01:56:00,840
+ you
+
+1794
+01:56:00,840 --> 01:56:01,340
+ you
+
+1795
+01:56:01,340 --> 01:56:01,840
+ you
+
+1796
+01:56:01,840 --> 01:56:02,340
+ you
+
+1797
+01:56:02,340 --> 01:56:02,840
+ you
+
+1798
+01:56:02,840 --> 01:56:03,340
+ you
+
+1799
+01:56:03,340 --> 01:56:03,840
+ you
+
+1800
+01:56:03,840 --> 01:56:04,340
+ you
+
+1801
+01:56:04,340 --> 01:56:04,840
+ you
+
+1802
+01:56:04,840 --> 01:56:05,340
+ you
+
+1803
+01:56:05,340 --> 01:56:05,840
+ you
+
+1804
+01:56:05,840 --> 01:56:06,340
+ you
+
+1805
+01:56:06,340 --> 01:56:06,840
+ you
+
+1806
+01:56:06,840 --> 01:56:07,340
+ you
+
+1807
+01:56:07,340 --> 01:56:07,840
+ you
+
+1808
+01:56:07,840 --> 01:56:08,340
+ you
+
+1809
+01:56:08,340 --> 01:56:08,840
+ you
+
+1810
+01:56:08,840 --> 01:56:09,340
+ you
+
+1811
+01:56:09,340 --> 01:56:09,840
+ you
+
+1812
+01:56:09,840 --> 01:56:10,340
+ you
+
+1813
+01:56:10,340 --> 01:56:10,840
+ you
+
+1814
+01:56:10,840 --> 01:56:11,340
+ you
+
+1815
+01:56:11,340 --> 01:56:11,840
+ you
+
+1816
+01:56:11,840 --> 01:56:17,100
+ okay so let's continue so just now during the break there are some students asking some questions
+
+1817
+01:56:17,100 --> 01:56:23,100
+ regarding the exam so just now i just probably want to add on her which is uh this particular
+
+1818
+01:56:23,100 --> 01:56:31,100
+ course right so in the past actually there are two lecturers who are teaching so uh last for example okay
+
+1819
+01:56:31,100 --> 01:56:37,740
+ this course is offered in both semester semester one as well as semester two so the previous semester
+
+1820
+01:56:37,740 --> 01:56:44,540
+ there's actually a guest lecturer okay and then uh the semester before actually there's a second
+
+1821
+01:56:44,540 --> 01:56:51,580
+ lecture so therefore uh that means what what i'm trying to say is that no uh usually i would suggest
+
+1822
+01:56:51,900 --> 01:56:58,700
+ students can actually if they are not too sure about the exam question they can go to the uh library
+
+1823
+01:56:58,700 --> 01:57:04,220
+ and then download past year exam question for you know a few years like two years or so then roughly
+
+1824
+01:57:04,220 --> 01:57:10,140
+ you have a certain feel about what kind of questions you will come out already but it's just that for
+
+1825
+01:57:10,140 --> 01:57:16,540
+ this particular course because for the past semesters there's always a second lecture so therefore uh
+
+1826
+01:57:16,620 --> 01:57:23,100
+ what i'm trying to say is that i would still encourage you to know go to the library download
+
+1827
+01:57:23,100 --> 01:57:29,100
+ the past year exam question but only look at for example the first two questions yeah because the
+
+1828
+01:57:29,100 --> 01:57:36,220
+ first two questions are uh set by me the last two questions depending on which year sometimes is set
+
+1829
+01:57:36,220 --> 01:57:42,620
+ by another lecture so therefore with that then you have a better appreciation or feeling about how
+
+1830
+01:57:42,700 --> 01:57:48,460
+ the question will look like so that's one suggestion the second suggestion the second point is actually
+
+1831
+01:57:48,460 --> 01:57:54,300
+ for a lot of the uh past year exam question for my lecture notes i'll try to include them into the
+
+1832
+01:57:54,300 --> 01:57:59,660
+ lecture notes and then we'll go through those uh exercises and questions together so in even if
+
+1833
+01:57:59,660 --> 01:58:06,380
+ you do not go and download those uh exam past year exam question but you by going through the lecture
+
+1834
+01:58:06,380 --> 01:58:12,140
+ exercises you would still have a certain feeling or familiarity with what kind of question they'll
+
+1835
+01:58:12,140 --> 01:58:17,500
+ be asked okay so therefore you don't have to worry too much so it's up to you if you want to
+
+1836
+01:58:17,500 --> 01:58:23,020
+ download the question from the library okay just be a bit aware that some of the question is set by
+
+1837
+01:58:23,020 --> 01:58:29,260
+ the second lecture so it may not be relevant okay so yeah and second is that you can also refer to
+
+1838
+01:58:29,260 --> 01:58:35,820
+ our you know lecture exercise you know as far as possible i'll usually at least include some past
+
+1839
+01:58:35,820 --> 01:58:40,780
+ year exam question in the exercise okay in the lectures so that's the first point i just want to
+
+1840
+01:58:40,780 --> 01:58:48,059
+ clarify uh the second point actually early on i already mentioned early on so uh for this year
+
+1841
+01:58:48,059 --> 01:58:54,940
+ in terms of the dissertation right um yeah because we received really many many applications
+
+1842
+01:58:54,940 --> 01:59:01,420
+ so unfortunately we don't have time to be able to reply each individual email so that's why you know
+
+1843
+01:59:01,420 --> 01:59:08,139
+ we want to ask for know your understanding that we will not be able to reply every single email
+
+1844
+01:59:08,140 --> 01:59:14,380
+ because there are just too many of them and also when we or at least for myself usually because
+
+1845
+01:59:14,380 --> 01:59:19,420
+ there are so many applications so usually when i look at a student if i feel that he's a good
+
+1846
+01:59:19,420 --> 01:59:25,100
+ student i'll assign the projects to him or her already and then afterwards i'll finish the
+
+1847
+01:59:25,100 --> 01:59:32,380
+ assignment of all my projects but subsequently actually there are a lot other strong students
+
+1848
+01:59:33,020 --> 01:59:39,180
+ so therefore please don't feel that you know because i do not choose your you know choose you
+
+1849
+01:59:39,180 --> 01:59:44,620
+ is because you are not a good student it's just that there are too many and some of they are
+
+1850
+01:59:44,620 --> 01:59:51,020
+ actually some very strong students but somehow at the end i only uh kind of notice them later
+
+1851
+01:59:51,020 --> 01:59:56,380
+ okay sometimes it's a the area may not match so well but sometimes it's just the way you know we
+
+1852
+01:59:56,380 --> 02:00:01,980
+ just assign the projects so yeah i just want to clarify that so at least some of you have a
+
+1853
+02:00:01,980 --> 02:00:12,940
+ certain understanding why i did not reply to some of your email okay
+
+1854
+02:00:13,419 --> 02:00:15,500
+ so
+
+1855
+02:00:21,900 --> 02:00:27,419
+ all right okay so the next thing we are going to talk about is a few image and video standards
+
+1856
+02:00:27,419 --> 02:00:32,780
+ here right so this slides give a quick summary of some of the image and video standards right
+
+1857
+02:00:32,780 --> 02:00:38,219
+ so if you have a quick look there's a few different entities or organizations that develop
+
+1858
+02:00:38,220 --> 02:00:44,940
+ standards so in early years we have this organization known as itut so itut they develop
+
+1859
+02:00:44,940 --> 02:00:54,700
+ the standards they they develop is called h.26x series so you can see a 261 okay 262 263 264 so
+
+1860
+02:00:54,700 --> 02:00:59,980
+ these are the standards that's developed by itut okay and then there's another organization which
+
+1861
+02:00:59,980 --> 02:01:06,780
+ is impact also known as iso so for iso the standard that they develop they call impact series so you
+
+1862
+02:01:06,780 --> 02:01:12,540
+ have impact one impact two impact four all right and so on and so forth right they are also sometimes
+
+1863
+02:01:12,540 --> 02:01:19,259
+ when this itut and iso they try to develop the standard together right so some of the well-known
+
+1864
+02:01:19,259 --> 02:01:24,300
+ one is actually this impact two actually this impact two by right they should draw it here
+
+1865
+02:01:24,300 --> 02:01:31,500
+ because it's jointly developed by them okay h.264 is also jointly developed by them and then h.265
+
+1866
+02:01:31,500 --> 02:01:37,580
+ so some of the standards are jointly developed by them so on top of that you also have some other
+
+1867
+02:01:37,580 --> 02:01:44,460
+ organization for example this uh society of moving picture and television engineer they develop vc1
+
+1868
+02:01:44,460 --> 02:01:50,380
+ standard and google they also develop their own sets of standards as well so these are a few
+
+1869
+02:01:50,380 --> 02:01:55,820
+ different organizations that develop the video standard so when they talk about video standard
+
+1870
+02:01:55,820 --> 02:02:04,139
+ what it means is a video compression okay or coding standard so let's quickly go through some
+
+1871
+02:02:04,139 --> 02:02:10,299
+ of these well-known standards so the first standard that we have is the jpeg standard so jpeg i think
+
+1872
+02:02:10,299 --> 02:02:14,940
+ most some of you probably have heard about it before it's a very popular image compression
+
+1873
+02:02:14,940 --> 02:02:22,380
+ standard so it's used to compress image so jpeg is also known as iso iec international standard
+
+1874
+02:02:23,260 --> 02:02:30,380
+ 10918 or itut recommendation t.81 so of course you don't have to memorize this number
+
+1875
+02:02:30,380 --> 02:02:35,500
+ you know it's just kind of for your information right so officially jpeg is known as these two
+
+1876
+02:02:35,500 --> 02:02:40,620
+ standards so if any of you are interested you can go and download this particular
+
+1877
+02:02:41,500 --> 02:02:46,380
+ jpeg standard it's the size of a book right so there's no need to go and spend too much time
+
+1878
+02:02:46,380 --> 02:02:53,340
+ reading it up okay and it's developed by a particular body known as joint photographic
+
+1879
+02:02:53,340 --> 02:02:58,060
+ expert group or jpeg so that's why this particular image compression standard
+
+1880
+02:02:58,620 --> 02:03:03,420
+ afterwards you know take over the name of this body that developed the standard
+
+1881
+02:03:06,940 --> 02:03:13,580
+ right okay so next we are going to look at the families of mpeg standards here so mpeg standard
+
+1882
+02:03:13,580 --> 02:03:20,780
+ started in 92 right so the first standard that was developed is called mpeg one right so mpeg one
+
+1883
+02:03:20,780 --> 02:03:26,940
+ is a standard that contain video compression and it also perform audio compression right so at the
+
+1884
+02:03:26,940 --> 02:03:33,820
+ time is trying to target the application which is like you know for cd-rom okay for cd-rom right so
+
+1885
+02:03:33,820 --> 02:03:39,740
+ i'm not even too sure for your generation whether you know what cd-rom right so cd-rom is something
+
+1886
+02:03:39,740 --> 02:03:46,219
+ like this that is like the music cd that you listen to right so but it's for computer so that's
+
+1887
+02:03:46,219 --> 02:03:53,260
+ cd-rom so at the time is targeting for cd-rom and the bit rate is 1.5 megabits per second so that's
+
+1888
+02:03:53,260 --> 02:03:59,019
+ the target bit rate so arising from this particular mpeg one standard there's a particular commercial
+
+1889
+02:03:59,019 --> 02:04:05,740
+ product arising from it which is known as the vcd so any one of you have watched vcd before
+
+1890
+02:04:06,700 --> 02:04:12,540
+ right it's probably two you are still too young so at the time i still remember i was in i can
+
+1891
+02:04:12,540 --> 02:04:19,340
+ remember in in high school or in university if you want to watch a standard movie 60 minute
+
+1892
+02:04:19,340 --> 02:04:25,260
+ a movie you need two of this vcd this okay right so this is uh during the early years
+
+1893
+02:04:26,460 --> 02:04:31,420
+ right okay and afterwards uh things of course start to progress then we move on to mpeg two
+
+1894
+02:04:31,420 --> 02:04:38,300
+ standard so mpeg two standard is also known as the h.262 right so it was developed in 94 many
+
+1895
+02:04:38,300 --> 02:04:44,140
+ years ago so one of the key characteristics of this mpeg two standard is that it's a video and
+
+1896
+02:04:44,140 --> 02:04:50,780
+ audio coding with different profile okay so this different profile means that is trying to target
+
+1897
+02:04:50,780 --> 02:04:57,980
+ for different use cases in application right okay so in different applications sometimes there's a
+
+1898
+02:04:57,980 --> 02:05:04,139
+ different uh you know kind of image quality requirement some of them can be smaller some
+
+1899
+02:05:04,139 --> 02:05:11,980
+ of them the the size can be bigger and also their quality uh quality expectation is different okay
+
+1900
+02:05:11,980 --> 02:05:19,099
+ some is probably for lower end kind of use cases some is for some higher quality video so because
+
+1901
+02:05:19,099 --> 02:05:26,620
+ of that you have a wider range of the bit rate okay so for mpeg two it can cover a wider range
+
+1902
+02:05:26,620 --> 02:05:33,180
+ of bit rate from two to 80 megabits per second so the relevant products okay so the product arising
+
+1903
+02:05:33,180 --> 02:05:39,580
+ from this mpeg two is a dvd i think dvd very likely you probably heard about it if not at
+
+1904
+02:05:39,580 --> 02:05:45,740
+ least your parents you know should still have some uh dvds from the older days okay and then
+
+1905
+02:05:45,740 --> 02:05:52,140
+ things start to uh move on then we have the mpeg four so mpeg four is actually a content based video
+
+1906
+02:05:52,140 --> 02:05:57,660
+ coding that means you try to contain uh perform video compression by looking at the content of
+
+1907
+02:05:57,660 --> 02:06:04,380
+ the video right so some of the very unique features of mpeg four is that uh it provide
+
+1908
+02:06:04,380 --> 02:06:11,500
+ uh coding coding actually also means compression so coding or compressions of natural or synthetic
+
+1909
+02:06:11,500 --> 02:06:16,700
+ media objects so either the object is natural occurring or whether it's for example some
+
+1910
+02:06:16,700 --> 02:06:22,620
+ animation the kind of generated content or synthetic content so mpeg four is used to target
+
+1911
+02:06:22,620 --> 02:06:32,540
+ to compress those kinds of uh content right okay then afterwards we move on to the h.26x series of
+
+1912
+02:06:32,540 --> 02:06:38,139
+ the standards okay so this is another important family of the standards here so it started in
+
+1913
+02:06:38,139 --> 02:06:45,740
+ many years ago it started off with a h.261 so it's developed in uh 90s right by this particular
+
+1914
+02:06:45,740 --> 02:06:51,900
+ organization known as the ccitt so ccitt again the name you don't have to memorize it's just
+
+1915
+02:06:51,900 --> 02:07:00,139
+ for your information so ccitt stand for international telegraph and telephone consultative committee
+
+1916
+02:07:00,139 --> 02:07:08,219
+ right but this uh body later on was renamed as itut right if you look at the full name is international
+
+1917
+02:07:08,219 --> 02:07:13,500
+ telecom nation union international telecom nations standardization sector right so you don't have to
+
+1918
+02:07:14,300 --> 02:07:18,460
+ worry too much about it because it's quite a lot but probably what you need to know is that
+
+1919
+02:07:18,460 --> 02:07:27,900
+ right this standard was uh developed by itut okay so uh this particular standard is uh based on dct
+
+1920
+02:07:27,900 --> 02:07:35,180
+ based video compression uh scheme so dct is a discrete cosine transform so it's the types of
+
+1921
+02:07:35,180 --> 02:07:41,900
+ uh transform that we are going to study later on so therefore for this particular standard h.261
+
+1922
+02:07:41,900 --> 02:07:47,019
+ right is used to perform video compression and is using this particular dct transform
+
+1923
+02:07:47,019 --> 02:07:54,620
+ discrete cosine transform okay and it has many similarity with mpeg-1 okay its original target
+
+1924
+02:07:54,620 --> 02:08:01,580
+ application is for video conferencing so originally when uh no the body developed this h.261
+
+1925
+02:08:01,580 --> 02:08:08,219
+ is mainly for uh tele video or teleconferencing so that means no when i call you right you'll
+
+1926
+02:08:08,220 --> 02:08:15,820
+ be able to talk to me in uh real time so because it's used for video conferencing therefore their
+
+1927
+02:08:15,820 --> 02:08:20,940
+ bit rate requirement is very low yeah because it's for video conferencing that means you need to be
+
+1928
+02:08:20,940 --> 02:08:27,020
+ able to perform the compression very quickly yeah so you need to be fast you need to compress it
+
+1929
+02:08:27,020 --> 02:08:32,140
+ very quickly and you need to transmit this particular video right very quickly that means
+
+1930
+02:08:32,140 --> 02:08:39,500
+ the bit rate need to be very low so therefore for this h.261 their bit rate is a multiple of
+
+1931
+02:08:39,500 --> 02:08:47,020
+ 64 kilobits per second right so first 64 kilobits per second is very low okay so yeah whereas the p
+
+1932
+02:08:47,020 --> 02:08:53,660
+ can run from uh values of 1 to 30 so it's actually very low bit rate so therefore you can kind of
+
+1933
+02:08:53,660 --> 02:09:01,500
+ recognize in the early days right h.26 series of standard initially is mainly used for you know
+
+1934
+02:09:01,500 --> 02:09:06,860
+ video conferencing therefore the requirement is that it has to be low bit rate the compression
+
+1935
+02:09:06,860 --> 02:09:15,020
+ need to be fast yeah because you are using it for video conferencing okay and then afterwards uh no
+
+1936
+02:09:15,020 --> 02:09:21,740
+ the next major standard right there's actually a h.262 right okay if you see this one now there's
+
+1937
+02:09:21,820 --> 02:09:25,580
+ a h.263 already what happened to h.262
+
+1938
+02:09:36,860 --> 02:09:45,820
+ right you can see it's a h.261 usually 261 you expect 262 263 and so on right so what happened
+
+1939
+02:09:45,820 --> 02:09:48,380
+ there's a missing h.262
+
+1940
+02:09:53,099 --> 02:09:59,259
+ so it turned out that right if you remember this uh iso and itut sometimes they work together they
+
+1941
+02:09:59,259 --> 02:10:05,740
+ collaborate so it turned out that this h.262 is also known as impact 2 that we covered early on
+
+1942
+02:10:05,740 --> 02:10:14,620
+ so therefore h.262 is also uh impact 2 yeah so 262 is also known as impact 2 they are the same
+
+1943
+02:10:14,620 --> 02:10:20,380
+ right so it was uh because it was jointly developed by these two uh organizations okay so
+
+1944
+02:10:20,380 --> 02:10:25,660
+ because it's covered in impact 2 already so we will not touch it here so uh the objective of
+
+1945
+02:10:25,660 --> 02:10:30,620
+ today's lecture is more for uh overview or quick introduction so we are not going to go into the
+
+1946
+02:10:30,620 --> 02:10:40,059
+ detail in subsequent lecture we will learn more about it okay so this h.263 right is um okay
+
+1947
+02:10:40,060 --> 02:10:45,100
+ there's actually a few different versions of it so the first version v1 is developed in 95
+
+1948
+02:10:45,820 --> 02:10:52,060
+ okay so of course you expect the performance is better than the previous uh 261 okay so it's also
+
+1949
+02:10:52,060 --> 02:10:58,060
+ mainly for video conferencing therefore you expect it to be fast you expect the bit rate to be low
+
+1950
+02:10:58,060 --> 02:11:03,980
+ okay yeah and afterwards there's a new improvement version 2 and version 3 so for version 2 and version
+
+1951
+02:11:04,059 --> 02:11:11,339
+ 3 we call also called uh 263 plus and plus plus okay so these are different versions or improvement
+
+1952
+02:11:13,099 --> 02:11:21,019
+ right okay and then afterwards things uh continue on then we move on to h.264 so h.264 again there's
+
+1953
+02:11:21,019 --> 02:11:27,660
+ a few common name that's being used right we can call it h.264 sometimes we also call it advanced
+
+1954
+02:11:27,660 --> 02:11:34,540
+ video coding or avc okay sometimes they also call it mpeg for part 10 so all this refer to the same
+
+1955
+02:11:34,540 --> 02:11:43,180
+ thing okay so it was standardized in 2003 right uh of course you expect since it was a later standard
+
+1956
+02:11:43,180 --> 02:11:49,180
+ right it's going to perform better than uh the previous version h.263 all right so it has a
+
+1957
+02:11:49,180 --> 02:11:55,500
+ wide range of application like internet video computer no hd tv uh blu-ray and so on and so
+
+1958
+02:11:55,980 --> 02:12:02,540
+ so nowadays right if you go to the internet right and if you download a video very likely the standard
+
+1959
+02:12:02,540 --> 02:12:08,140
+ that you are going to get is the h.264 or mp4 right if all some of you have downloaded some
+
+1960
+02:12:08,140 --> 02:12:14,620
+ video nowadays right this is currently the most popular and dominant uh video standard at the
+
+1961
+02:12:14,620 --> 02:12:22,220
+ moment okay h.264 right okay and then afterwards things continue you know i mean the body continue
+
+1962
+02:12:22,220 --> 02:12:28,300
+ to improve the standard so the next one is the h.265 all right so it's also known as a high
+
+1963
+02:12:28,300 --> 02:12:37,660
+ evision video coding or gvc here so uh it's basic structure right in terms of the algorithm is very
+
+1964
+02:12:37,660 --> 02:12:45,820
+ similar to 264 okay but it has a few uh feature it can support higher resolution now 8k resolution
+
+1965
+02:12:45,820 --> 02:12:52,460
+ and up to 120 frame per second right okay and also uh it's more efficient in terms of a bit
+
+1966
+02:12:52,460 --> 02:12:59,259
+ rate quality trade-off right uh because typically right for a good video you want the bit rate to be
+
+1967
+02:12:59,259 --> 02:13:04,540
+ low and you want the quality to be high but usually if your bit rate is low your quality
+
+1968
+02:13:04,540 --> 02:13:11,820
+ will not be so good and vice versa so as a whole h.265 can actually achieve this trade-off better
+
+1969
+02:13:11,820 --> 02:13:12,860
+ than 264
+
+1970
+02:13:15,740 --> 02:13:23,660
+ right okay so the mpeg and the h.26x series are two dominant important video compression standards
+
+1971
+02:13:23,660 --> 02:13:30,700
+ but there are also some other standards uh out there so the first one is vc1 so vc1 is uh developed
+
+1972
+02:13:30,700 --> 02:13:37,900
+ by this uh society known as society of motion picture and tv television engineers right it was
+
+1973
+02:13:37,900 --> 02:13:45,259
+ supported by a microsoft uh window media video so these are more like no factual information
+
+1974
+02:13:45,259 --> 02:13:48,860
+ because if you are studying this course and people ask you know you are studying about
+
+1975
+02:13:48,860 --> 02:13:53,500
+ video compression can you at least tell us some of the standard at least you'll be aware you know
+
+1976
+02:13:53,500 --> 02:13:59,580
+ these are currently some of the you know standards that's out there okay so another uh recent popular
+
+1977
+02:13:59,580 --> 02:14:08,220
+ one is uh this vp8 so vp8 is target for a web video right the video that's embedded in the
+
+1978
+02:14:08,220 --> 02:14:14,860
+ internet right okay so it support this web video format and it can support up to 4k resolution
+
+1979
+02:14:15,660 --> 02:14:21,500
+ okay and vp9 is also developed by google right so it's an improvement to vp8 so you can see
+
+1980
+02:14:21,500 --> 02:14:26,860
+ its structure is actually similar to vp8 so it's an improvement but in terms of resolution now
+
+1981
+02:14:26,860 --> 02:14:32,700
+ it's better it can support up to 8k and 120 uh frame per second so yeah so these are some of the
+
+1982
+02:14:33,660 --> 02:14:41,660
+ popular and current major standards out there right okay so the next topic we want to very
+
+1983
+02:14:41,660 --> 02:14:47,179
+ quickly touch on is on the video analysis and understanding so uh early on as i mentioned for
+
+1984
+02:14:47,179 --> 02:14:52,620
+ this course right there's the compression there's a video analytics and actually uh there's also
+
+1985
+02:14:52,620 --> 02:14:58,300
+ going to be on the emerging direction but the part i have not finalized it so these are the a few key
+
+1986
+02:14:58,940 --> 02:15:04,220
+ expect for this particular course so under the video analysis and understanding so what we'll
+
+1987
+02:15:04,220 --> 02:15:10,860
+ do is that we'll try to you know uh for this course these are some of the tasks we'll be studying
+
+1988
+02:15:10,860 --> 02:15:16,460
+ because even for video content and analysis now there's many many many different topics that you
+
+1989
+02:15:16,460 --> 02:15:23,340
+ can uh talk about so that's why we are going to select some no use case right on an application
+
+1990
+02:15:23,340 --> 02:15:28,940
+ and try to you know explain them or cover in this lecture so in this lecture some of the important
+
+1991
+02:15:28,940 --> 02:15:35,260
+ tasks that we'll cover including uh object detections and tracking okay uh post estimation for
+
+1992
+02:15:35,260 --> 02:15:40,380
+ example how do you detect uh different poles of the human right just now you can also see from the
+
+1993
+02:15:40,380 --> 02:15:45,260
+ video that we have no for post estimation one very common things is that you can use to
+
+1994
+02:15:45,740 --> 02:15:51,660
+ you know study for example the ergonomics right you can use do uh jayshir recognition for example
+
+1995
+02:15:51,660 --> 02:15:57,660
+ recognize different hand jayshir you can use to uh once you estimate different poles on the body
+
+1996
+02:15:57,660 --> 02:16:02,860
+ you can also use it to perform action recognition trying to find out whether they are no drinking
+
+1997
+02:16:02,860 --> 02:16:09,980
+ water or walking or playing balls and things like that so those are the post estimation but okay we
+
+1998
+02:16:10,379 --> 02:16:16,459
+ also will be covering some action recognition so you'll try to analyze different actions in
+
+1999
+02:16:16,459 --> 02:16:22,540
+ the video human actions in the video so these are some of the selected uh topics we'll cover under
+
+2000
+02:16:22,540 --> 02:16:32,059
+ this video analysis right okay so next i'm going to play you a few short video to explain
+
+2001
+02:16:32,619 --> 02:16:35,820
+ right some of those tasks that object detection
+
+2002
+02:16:38,379 --> 02:16:42,699
+ yeah so next i'll try to play you a short a few short video to explain some of the
+
+2003
+02:16:42,699 --> 02:16:48,859
+ tasks that we have uh mentioned in case because i know that for your group your background is
+
+2004
+02:16:48,859 --> 02:16:54,699
+ very diverse you have some students which has a bit more experience in you know this AI computer
+
+2005
+02:16:54,699 --> 02:17:00,059
+ vision but there's also a large percentage of a student who doesn't have this background so i'll
+
+2006
+02:17:00,059 --> 02:17:04,939
+ play you a few short video just to give you some sense about some of the tasks that we are going
+
+2007
+02:17:04,939 --> 02:17:10,139
+ to cover in the later part of lecture so that you have a certain idea so the first task that we are
+
+2008
+02:17:10,139 --> 02:17:16,219
+ going to do is about object detection so i'll play you this video it's about two minutes plus
+
+2009
+02:17:16,219 --> 02:17:25,260
+ to explain what object detection is a pinnacle in artificial intelligence but it co-exists with us
+
+2010
+02:17:25,260 --> 02:17:31,260
+ in our lives hiding in plain sight we often fail to notice simple applications of object
+
+2011
+02:17:31,260 --> 02:17:38,860
+ detection around us have you ever wondered how a face unlock works on your smartphone or how a
+
+2012
+02:17:38,860 --> 02:17:46,540
+ self-driving car operates on its own the answer is object detection so what is object detection
+
+2013
+02:17:47,180 --> 02:17:53,020
+ technically object detection is a technology that includes computer vision and image processing
+
+2014
+02:17:53,020 --> 02:17:58,780
+ used to detect objects in images or videos sounds interesting let's break it down for you
+
+2015
+02:17:58,780 --> 02:18:04,780
+ using a simple example self-driving cars make use of the moving object detection technology
+
+2016
+02:18:04,780 --> 02:18:10,380
+ where computer vision and image processing are used to determine the distance between the car
+
+2017
+02:18:10,380 --> 02:18:16,380
+ and the moving objects to create alerts and guide the self-driving cars you must be wondering what
+
+2018
+02:18:16,380 --> 02:18:22,700
+ is the technology behind it well artificial intelligence is the basic principle that drives
+
+2019
+02:18:22,700 --> 02:18:29,500
+ object detection the idea is simple the data is collected through computer vision the data is then
+
+2020
+02:18:29,500 --> 02:18:35,100
+ fed into the model and using machine learning algorithms or deep learning algorithms inclusions
+
+2021
+02:18:35,100 --> 02:18:41,020
+ are made the camera collects the image from different angles and sends it to the image
+
+2022
+02:18:41,020 --> 02:18:48,380
+ processing unit now based on how the model was trained and what the training data was the results
+
+2023
+02:18:48,459 --> 02:18:54,779
+ are laid out to the system in the form of alerts or instructions like how far the object is if the
+
+2024
+02:18:54,779 --> 02:19:01,339
+ object is moving or if the object has stopped object detection has also been paving a glorious
+
+2025
+02:19:01,339 --> 02:19:08,139
+ path for the surveillance industry traffic tracking systems activity recognition even sentiment
+
+2026
+02:19:08,139 --> 02:19:14,699
+ analysis through object detection are all possible now surveillance has picked up a lot of pace with
+
+2027
+02:19:14,700 --> 02:19:20,540
+ object detection with increasing efficiency in object detection technology it is evident that
+
+2028
+02:19:20,540 --> 02:19:27,340
+ artificial intelligence is on the rise and it will eventually create a lot of job opportunities
+
+2029
+02:19:27,340 --> 02:19:33,420
+ in the coming years as well at eureka's postgraduate program in ai ml in collaboration
+
+2030
+02:19:33,420 --> 02:19:40,300
+ with nid varangal will help you in mastering such advanced ai concepts with the help of experience
+
+2031
+02:19:40,779 --> 02:19:47,340
+ okay so therefore you can see from this video the objective of object detection is to try to
+
+2032
+02:19:47,340 --> 02:19:52,779
+ detect different instances of objects in the scene so there's actually object detection even though
+
+2033
+02:19:52,779 --> 02:19:59,099
+ it's a more fundamental task but it actually also have various challenges for example you need to
+
+2034
+02:19:59,099 --> 02:20:05,019
+ be able to handle different imaging condition yeah different viewpoint now the size whether it's big
+
+2035
+02:20:05,100 --> 02:20:10,220
+ object or small object sometimes different lighting condition for example currently i have one
+
+2036
+02:20:10,220 --> 02:20:15,500
+ particular project with a company so for this particular project we are trying to put some
+
+2037
+02:20:15,500 --> 02:20:23,740
+ camera in the car cabin and try to you know analyze the you know the actions and the behaviors of the
+
+2038
+02:20:23,740 --> 02:20:29,100
+ drivers as well as the passengers as well as detect different objects in the car so this could be used
+
+2039
+02:20:29,100 --> 02:20:34,140
+ for example in application for example the one that we mentioned in wuhan the
+
+2040
+02:20:34,140 --> 02:20:38,860
+ low ball quite power right so if you go into the car you know if you try to scratch their car they
+
+2041
+02:20:38,860 --> 02:20:43,660
+ will see that you're doing something that you're not supposed to be or you live behind something
+
+2042
+02:20:43,660 --> 02:20:49,740
+ they will actually alert you so yeah for example in car environment one of the challenge that you
+
+2043
+02:20:49,740 --> 02:20:56,380
+ have is the lighting condition yeah sometimes no it can be a bit too dark in the car environment
+
+2044
+02:20:56,380 --> 02:20:59,980
+ so therefore you need to investigate different issues like using different
+
+2045
+02:21:00,939 --> 02:21:06,300
+ sensing modality for example just now the camera that we talked about using the rgb camera as well
+
+2046
+02:21:06,300 --> 02:21:12,300
+ as the no infrared okay near infrared capture this information and then try to fuse them
+
+2047
+02:21:12,300 --> 02:21:16,859
+ to help you to perform object detection as well as action recognition so therefore
+
+2048
+02:21:17,500 --> 02:21:23,339
+ there are actually still quite a lot of uh no challenges in problems such as object detection
+
+2049
+02:21:27,179 --> 02:21:33,179
+ okay so the next uh video that we are going to show is the object tracking so what's the meaning
+
+2050
+02:21:33,179 --> 02:21:39,259
+ of object tracking so we can yeah pretty much as the name suggests is that once you detect the object
+
+2051
+02:21:39,259 --> 02:21:44,699
+ you want to track the movement of the object okay you want to track the movement so there's many
+
+2052
+02:21:44,699 --> 02:21:51,580
+ uh cases why you may want to do that for example for separate security application and so on yeah
+
+2053
+02:21:51,580 --> 02:21:56,780
+ yeah so let me just play you this short video on object tracking
+
+2054
+02:22:51,580 --> 02:22:54,780
+ so
+
+2055
+02:23:05,260 --> 02:23:10,380
+ okay yeah so for example now you can see from the video quite clearly what's the objective of the
+
+2056
+02:23:10,380 --> 02:23:15,340
+ object tracking is that you want to track the movement of the person so what are some common
+
+2057
+02:23:15,340 --> 02:23:21,340
+ challenges in this object tracking one common one is the occlusion if you're for example the
+
+2058
+02:23:21,340 --> 02:23:27,260
+ person you are trying to track they go you know behind a particular structure okay say this
+
+2059
+02:23:27,260 --> 02:23:32,380
+ building so part of my body now is obscured so when i move out and reappear can you still track
+
+2060
+02:23:32,380 --> 02:23:36,940
+ that it's the same person so these are some challenge other things include for example if
+
+2061
+02:23:36,940 --> 02:23:41,660
+ you're a two person you know walking in opposite direction right and afterwards say suppose they
+
+2062
+02:23:41,660 --> 02:23:47,500
+ cross over would you somehow switch the id the track number you would think that is now different
+
+2063
+02:23:47,500 --> 02:23:52,860
+ person or if these two person they meet here and afterwards they move separate in a separate way
+
+2064
+02:23:52,860 --> 02:23:57,580
+ if you just follow the trajectory path you will thought that you know this person is becoming here
+
+2065
+02:23:57,580 --> 02:24:01,660
+ and this person is becoming here but actually sometimes they could just meet and then they're
+
+2066
+02:24:01,660 --> 02:24:07,820
+ separate so therefore id switch the switch of different id is also a challenge in this object
+
+2067
+02:24:07,820 --> 02:24:15,180
+ tracking right so let's continue to look at some of the other right okay so this video shows you
+
+2068
+02:24:16,060 --> 02:24:21,820
+ post estimation so post estimation pretty much means that you want to estimate the key point
+
+2069
+02:24:21,820 --> 02:24:28,220
+ or the key important joint of the body so it can be a full body post estimation or it can be for
+
+2070
+02:24:28,220 --> 02:24:33,260
+ example your facial post estimation some of the key point on your face or some of the key point on
+
+2071
+02:24:33,260 --> 02:24:38,860
+ your head so these are some a few different possible variations of the post estimation
+
+2072
+02:24:39,820 --> 02:24:44,540
+ so let me just play for you this short video
+
+2073
+02:24:45,340 --> 02:24:46,220
+ so
+
+2074
+02:25:06,380 --> 02:25:10,220
+ you can see it's trying to estimate all the important key points right
+
+2075
+02:25:10,699 --> 02:25:15,900
+ so once you estimate this important key point you can use to analyze the actions of the
+
+2076
+02:25:17,019 --> 02:25:23,820
+ you know the person actually in gyms is a very natural no use case of post estimation
+
+2077
+02:25:23,820 --> 02:25:31,260
+ I used to have one research staff right he he used to work in a project in uh Korea yeah and
+
+2078
+02:25:31,260 --> 02:25:37,260
+ they're actually doing exactly this which is using the post estimation to analyze the movement of the
+
+2079
+02:25:37,260 --> 02:25:42,300
+ of the person who do the workout in a gym yeah
+
+2080
+02:26:07,740 --> 02:26:10,300
+ so
+
+2081
+02:26:14,300 --> 02:26:24,300
+ they should bring a mattress then he can fold up a bit faster
+
+2082
+02:26:24,460 --> 02:26:27,340
+ oh
+
+2083
+02:26:34,779 --> 02:26:39,019
+ yeah so in the past I still remember there was a project which is they're using a post estimation
+
+2084
+02:26:39,019 --> 02:26:44,939
+ to do the uh Parkinson disease progression you know what's a Parkinson disease right
+
+2085
+02:26:44,939 --> 02:26:51,900
+ no Parkinson disease is characterized by no uh we start when you walk especially for old older
+
+2086
+02:26:51,900 --> 02:26:58,140
+ person when you walk actually your swing of the hand is asymmetric one hand swing normally the
+
+2087
+02:26:58,140 --> 02:27:02,940
+ other hand doesn't swing a lot actually I also notice sometimes when I walk that's how I walk
+
+2088
+02:27:02,940 --> 02:27:08,619
+ so actually it can be used to analyze for example whether your Parkinson disease has deteriorated
+
+2089
+02:27:08,619 --> 02:27:19,340
+ over time okay so the next one is actually on uh action recognition so action recognition for
+
+2090
+02:27:19,340 --> 02:27:25,340
+ this video is mainly focusing on sports video but it can be a lot more for example in the context of
+
+2091
+02:27:25,340 --> 02:27:32,060
+ a factory uh kind of assembly task you can analyze whether this particular worker is performing what
+
+2092
+02:27:32,060 --> 02:27:38,380
+ task whether it's tightening tightening a nuts no applying some screw and so on so currently we are
+
+2093
+02:27:38,380 --> 02:27:46,540
+ also uh no discussing with a uh a company right to know uh try to perform this action recognition
+
+2094
+02:27:46,540 --> 02:27:53,740
+ for worker who is trying to perform some assembly tasks yeah so uh but for this video is for a sports video
+
+2095
+02:28:09,740 --> 02:28:13,900
+ right so there are different action whether it's like you know dribbling the balls
+
+2096
+02:28:13,980 --> 02:28:19,820
+ no whether it's like no trying to block no and and so on so there's a different actions
+
+2097
+02:28:20,619 --> 02:28:25,740
+ for this particular sports video okay but in general case of course it can be a lot broader
+
+2098
+02:28:25,740 --> 02:28:30,619
+ okay like the one that I mentioned trying to analyze different actions in assembly tasks
+
+2099
+02:28:30,619 --> 02:28:35,580
+ or in a more generous setting to try out find out whether you are drinking water you're walking
+
+2100
+02:28:35,580 --> 02:28:38,380
+ no or you are smoking and so on
+
+2101
+02:28:42,220 --> 02:28:49,740
+ okay so the next uh video this one is called egocentric human object interactions so egocentric
+
+2102
+02:28:49,740 --> 02:28:55,100
+ means that is no the viewpoint is like the human viewpoint the first person perspective viewpoint
+
+2103
+02:28:55,100 --> 02:29:01,100
+ and human object interaction as the name suggests the interaction between human and objects so in
+
+2104
+02:29:01,100 --> 02:29:07,020
+ many of the tasks are when the worker is trying to learn something at the form certain tasks
+
+2105
+02:29:07,020 --> 02:29:12,860
+ you know we need to understand what the worker is doing right how does it manipulate the objects
+
+2106
+02:29:12,860 --> 02:29:20,220
+ and so on so this is also one topic which is known as an egocentric human object interaction
+
+2107
+02:29:21,099 --> 02:29:22,140
+ okay
+
+2108
+02:29:22,140 --> 02:29:25,019
+ it's from interactions between hands with objects
+
+2109
+02:29:30,779 --> 02:29:35,820
+ audio can be a prime discriminator for actions such as washing or frying
+
+2110
+02:29:40,619 --> 02:29:44,699
+ it can also differentiate between objects within actions such as
+
+2111
+02:29:44,699 --> 02:29:47,179
+ putting a plate versus putting a bag
+
+2112
+02:29:50,460 --> 02:29:56,779
+ okay audio captures sounds of actions out of the camera's field of view such as eating
+
+2113
+02:30:00,460 --> 02:30:03,099
+ but can also capture irrelevant background music
+
+2114
+02:30:09,820 --> 02:30:18,859
+ we propose mid-level fusion of three modalities rgb flow and audio for audio we extract the raw
+
+2115
+02:30:18,860 --> 02:30:24,140
+ waveform from the sound stream of the video which we transform into a spectrogram
+
+2116
+02:30:25,180 --> 02:30:30,140
+ convolutional features are pooled and mid-level fusion is learned through feature concatenation
+
+2117
+02:30:31,260 --> 02:30:37,820
+ we learn the action as multitask verb and noun classifiers importantly we train using
+
+2118
+02:30:37,820 --> 02:30:43,980
+ asynchronous fusion we fuse modalities with a range of temporal offsets within a temporal
+
+2119
+02:30:43,980 --> 02:30:49,260
+ binding window evidence in neuroscience points to the presence of such temporal
+
+2120
+02:30:49,260 --> 02:30:55,740
+ binding windows across sensory input in humans within each binding window modality samples are
+
+2121
+02:30:55,740 --> 02:31:01,900
+ randomly selected tbw's are sparsely sampled within the action and could be overlapping
+
+2122
+02:31:02,859 --> 02:31:08,859
+ predictions are temporally aggregated by averaging to obtain video level multimodal predictions
+
+2123
+02:31:09,820 --> 02:31:16,220
+ importantly we first bind and fuse modalities within windows before temporal aggregation of
+
+2124
+02:31:16,220 --> 02:31:23,500
+ different windows tbn is trained end to end where all modalities are trained simultaneously
+
+2125
+02:31:23,500 --> 02:31:29,900
+ and the weights are shared over time we next present qualitative results of tbn on the epic
+
+2126
+02:31:29,900 --> 02:31:38,940
+ kitchens data set
+
+2127
+02:31:59,900 --> 02:32:08,940
+ so
+
+2128
+02:32:29,980 --> 02:32:38,940
+ so
+
+2129
+02:32:40,619 --> 02:32:52,940
+ so
+
+2130
+02:32:59,980 --> 02:33:02,940
+ so
+
+2131
+02:33:16,699 --> 02:33:23,660
+ okay yeah so this is one of the earlier works that was done to perform human object interaction
+
+2132
+02:33:23,660 --> 02:33:28,699
+ actually this human object interaction is very difficult to do it's still very challenging
+
+2133
+02:33:28,700 --> 02:33:34,220
+ because there's a lot of challenges for example you need to perform action detection or temporal
+
+2134
+02:33:34,220 --> 02:33:40,300
+ video segmentation right from what you see that actually no a lot of the earlier for example action
+
+2135
+02:33:40,300 --> 02:33:46,220
+ recognitions are usually the video we chop it into small segments okay and then for each of the video
+
+2136
+02:33:46,220 --> 02:33:53,500
+ segment we try to you know classify what kind of action it is but for a continuous video like this
+
+2137
+02:33:53,980 --> 02:33:58,460
+ given a particular video you need to divide into different segments so that different
+
+2138
+02:33:58,460 --> 02:34:04,060
+ segments actually correspond to different action so that particular task is known as a temporal
+
+2139
+02:34:04,060 --> 02:34:10,940
+ video segmentation so that one even to do that to nicely cut it into different video segment
+
+2140
+02:34:10,940 --> 02:34:15,740
+ in itself is already a challenge and also from just now you can see the video when the person
+
+2141
+02:34:15,740 --> 02:34:20,860
+ is doing some tasks there's lots of noise sometimes he will just move around and then go and do
+
+2142
+02:34:20,860 --> 02:34:26,620
+ something else and we come back so how do we recognize those actions are not of interest to
+
+2143
+02:34:26,620 --> 02:34:32,220
+ us and they are noise yeah so there's also for example when you're dealing with this object in
+
+2144
+02:34:32,220 --> 02:34:38,300
+ real life there's lots of background clutters and you know different objects that is not interested
+
+2145
+02:34:38,860 --> 02:34:44,460
+ that you are not interested in so it's in short this is still a very difficult and challenging problem
+
+2146
+02:34:44,699 --> 02:34:51,099
+ okay so next I'll just very briefly talk about some of the emerging topics right so in
+
+2147
+02:34:51,099 --> 02:34:57,980
+ recent years of course generative AI is becoming very you know important so I think many of you
+
+2148
+02:34:57,980 --> 02:35:03,740
+ probably have seen like chat gbt whereas you can generate the new content it can become a chat box
+
+2149
+02:35:03,740 --> 02:35:08,779
+ it can become an assistant you can interact with them in a very natural way other things like
+
+2150
+02:35:08,780 --> 02:35:15,100
+ them in a very natural way other things like you know for example image generation so how many of
+
+2151
+02:35:15,100 --> 02:35:23,020
+ you have used some image generation tools like you know mid-journey or stable diffusion
+
+2152
+02:35:25,260 --> 02:35:30,940
+ yeah I can see a few person raising their hand so you can see no reason in recent year right if
+
+2153
+02:35:30,940 --> 02:35:38,460
+ you want to generate text generate image this is actually a very hot topic in uh in recent year
+
+2154
+02:35:38,460 --> 02:35:44,060
+ because in the past in the past for AI it tends to be discriminative right in other words for
+
+2155
+02:35:44,060 --> 02:35:50,539
+ example in the past AI tends to try to classify an image or video into this category or that
+
+2156
+02:35:50,539 --> 02:35:58,539
+ category so they cannot generate new content but in recent year right no uh this in I think year
+
+2157
+02:35:58,539 --> 02:36:03,980
+ 2018 forwards this generative AI is becoming very important because it can generate new content
+
+2158
+02:36:04,539 --> 02:36:10,300
+ so generative AI is a class of model that can generate new content such as a text image audio
+
+2159
+02:36:10,859 --> 02:36:16,300
+ okay and so on so if you are referring to for example text generation one very popular model is
+
+2160
+02:36:16,300 --> 02:36:23,900
+ the gbt generative pre-trained transformer okay so for this course we will also touch on this a
+
+2161
+02:36:23,900 --> 02:36:29,580
+ little bit later okay and then for image generation uh no a well-known technique is a stable diffusion
+
+2162
+02:36:30,380 --> 02:36:35,740
+ okay so it support various types of application like chat box you ask question they will answer
+
+2163
+02:36:35,740 --> 02:36:42,539
+ you okay content uh generation for example you can use the transformer to ask them to write a novel
+
+2164
+02:36:42,539 --> 02:36:49,980
+ write a story okay and virtual assistant for those of you who have watched uh this interaction the
+
+2165
+02:36:49,980 --> 02:36:56,460
+ recent uh chat gb this gbt 4o you will know that no you can actually interact with them in a very
+
+2166
+02:36:56,939 --> 02:37:04,380
+ natural way right so another kind of a very important emerging direction in recent year
+
+2167
+02:37:04,380 --> 02:37:09,980
+ is the idea of this foundation model so what's the foundation model so foundation model is a
+
+2168
+02:37:09,980 --> 02:37:16,859
+ class of model that are trained on large scale broad data that can be adapted or fine-tuned to
+
+2169
+02:37:16,859 --> 02:37:22,779
+ wide range of downstream tasks or application so in a more traditional way you know in the past
+
+2170
+02:37:22,780 --> 02:37:28,620
+ when people want to say suppose they want to solve a particular problem what they need to do
+
+2171
+02:37:28,620 --> 02:37:34,300
+ for example if you want to recognize different plants in singapore right so suppose if you join
+
+2172
+02:37:34,300 --> 02:37:40,620
+ a company and the company asks you to develop a mobile app that can recognize different plants
+
+2173
+02:37:40,620 --> 02:37:46,620
+ in singapore what do you have to do so if you think about it so what it means likely is that
+
+2174
+02:37:46,620 --> 02:37:52,620
+ you have to go and collect some you know images your plant images in singapore and then you have
+
+2175
+02:37:52,620 --> 02:38:00,060
+ to employ an expert to tell you what this different you know categories of plants it is and afterwards
+
+2176
+02:38:00,060 --> 02:38:04,460
+ you need to spend lots of money to do that collection annotation and afterwards you need
+
+2177
+02:38:04,460 --> 02:38:12,540
+ to train this model from the scratch to develop your uh plan recognition or classification algorithm
+
+2178
+02:38:12,540 --> 02:38:17,820
+ so that's in the past that means for each problems that you have you need to collect the data set
+
+2179
+02:38:17,820 --> 02:38:24,060
+ you need to train a AI model and then afterwards then you can deploy it so different use case you
+
+2180
+02:38:24,060 --> 02:38:29,660
+ need to collect different data set and you need to train a new model so this of course you can see
+
+2181
+02:38:29,660 --> 02:38:36,300
+ it's very expensive because data collection you know is very expensive and annotation is very
+
+2182
+02:38:36,300 --> 02:38:41,420
+ expensive so this foundation model is basically based on this idea is that you're going to train
+
+2183
+02:38:41,420 --> 02:38:48,460
+ on a very large scale data so this large scale data can be billions of images right it's broad
+
+2184
+02:38:48,460 --> 02:38:54,940
+ data that means you try to train over a wide range of different types of data okay and afterwards
+
+2185
+02:38:54,940 --> 02:39:00,940
+ once you have fully trained it you can then use it to adapt or do it some fine tuning so that you can
+
+2186
+02:39:00,940 --> 02:39:07,420
+ then use it to deploy for your specific application yeah so that's the high level idea so you can see
+
+2187
+02:39:07,420 --> 02:39:14,220
+ this is the high level idea you have lots of data right it's a large scale broad data you use it to
+
+2188
+02:39:14,220 --> 02:39:20,060
+ train a very big foundation model so this foundation model is very big you have seen many different
+
+2189
+02:39:20,060 --> 02:39:25,500
+ things already so afterwards once you have this foundation model depending on what is your
+
+2190
+02:39:25,500 --> 02:39:31,740
+ downstream application you can then use it to do some adaptation or simple fine tuning right
+
+2191
+02:39:32,460 --> 02:39:38,780
+ so that you can then use it to address some specific problem so therefore this foundation
+
+2192
+02:39:38,780 --> 02:39:44,860
+ model in recent years is actually past one or two years is becoming very important okay and many
+
+2193
+02:39:44,860 --> 02:39:51,420
+ people are trying to spend time to develop this different way for example to adapt your big
+
+2194
+02:39:51,420 --> 02:39:57,420
+ foundation model so some examples of foundation models are large language model for example gpt
+
+2195
+02:39:57,420 --> 02:40:02,700
+ that we have seen and vision language model model that combine the vision and the language
+
+2196
+02:40:02,700 --> 02:40:05,340
+ so a very well known example is the clip model
+
+2197
+02:40:08,860 --> 02:40:14,140
+ okay so next we have a short video actually the video is long but i'm not going to play the
+
+2198
+02:40:14,140 --> 02:40:19,820
+ whole video i just play a short segment right just to give you a feel know how is the current
+
+2199
+02:40:19,820 --> 02:40:25,100
+ train right as well as some background in generative ai and foundation model so let me just play this
+
+2200
+02:40:25,100 --> 02:40:34,460
+ particular video for you
+
+2201
+02:40:40,300 --> 02:40:45,180
+ ever since computers were invented they've really just been glorified calculators machines that
+
+2202
+02:40:45,180 --> 02:40:49,580
+ execute the exact instructions given to them by the programmers but something incredible is
+
+2203
+02:40:49,580 --> 02:40:54,860
+ happening now computers have started gaining the ability to learn and think and communicate
+
+2204
+02:40:54,860 --> 02:40:59,820
+ just like we do they can do creative intellectual work that previously only humans could do we call
+
+2205
+02:40:59,820 --> 02:41:04,620
+ this technology generative ai and you may have encountered it already through products like chat
+
+2206
+02:41:04,620 --> 02:41:13,260
+ gpt basically intelligence is now available as a service kind of like a giant
+
+2207
+02:41:25,020 --> 02:41:31,020
+ sky that anyone can talk to it's not perfect but it is surprisingly capable and it is improving
+
+2208
+02:41:31,020 --> 02:41:37,500
+ at an exponential rate this is a big deal it's going to affect just about every person and company
+
+2209
+02:41:37,500 --> 02:41:42,940
+ on the planet positively or negatively this video is here to help you understand what generative ai
+
+2210
+02:41:42,940 --> 02:41:48,460
+ is all about in practical terms beyond the hype the better you understand this technology as a
+
+2211
+02:41:48,460 --> 02:41:53,580
+ person team or company the better equipped you will be to survive and thrive in the age of ai
+
+2212
+02:41:54,539 --> 02:42:00,460
+ so here's the silly but useful mental model for this you have einstein in your basement in
+
+2213
+02:42:00,460 --> 02:42:06,460
+ fact everyone does and by einstein i really mean the combination of every smart person who ever
+
+2214
+02:42:06,460 --> 02:42:11,980
+ lived you can talk to einstein whenever you want he has instant access to the sum of all human
+
+2215
+02:42:11,980 --> 02:42:17,180
+ knowledge and will answer anything you want within seconds never running out of patience he can also
+
+2216
+02:42:17,180 --> 02:42:23,900
+ take on any role you want a comedian poet doctor coach and will be an expert within that field
+
+2217
+02:42:24,700 --> 02:42:30,060
+ he has some human-like limitations though he can make mistakes he can jump to conclusions he can
+
+2218
+02:42:30,060 --> 02:42:35,340
+ misunderstand you but the biggest limitation is actually your imagination and your ability to
+
+2219
+02:42:35,340 --> 02:42:41,820
+ communicate effectively with him this skill is known as prompt engineering and in the age of ai
+
+2220
+02:42:41,820 --> 02:42:48,220
+ this is as essential as reading and writing most people vastly underestimate what this einstein
+
+2221
+02:42:48,220 --> 02:42:53,580
+ in your basement can do it's like going to the real einstein and asking him to proofread a high
+
+2222
+02:42:53,580 --> 02:42:59,180
+ school report or hiring a world-class five-star chef and having him chop onions the more you
+
+2223
+02:42:59,180 --> 02:43:04,460
+ interact with einstein the more you will discover surprising and powerful ways for him to help you
+
+2224
+02:43:04,460 --> 02:43:11,260
+ or your company okay enough fluffy metaphors let's clarify some terms ai as you probably know stands
+
+2225
+02:43:11,260 --> 02:43:16,780
+ for artificial intelligence ai is not new feels like machine learning and computer vision have
+
+2226
+02:43:16,780 --> 02:43:22,220
+ been around for decades whenever you see a youtube recommendation or a web search result or whenever
+
+2227
+02:43:22,220 --> 02:43:28,700
+ you get a credit card transaction approved that's traditional ai in action generative ai is ai that
+
+2228
+02:43:28,700 --> 02:43:34,540
+ generates new original content rather than just finding or classifying existing content that's the
+
+2229
+02:43:34,540 --> 02:43:41,980
+ g and gpt for example large language models or lms are a type of generative ai that can communicate
+
+2230
+02:43:41,980 --> 02:43:49,260
+ using normal human language chat gpt is a product by the company open ai it started as an lm
+
+2231
+02:43:49,260 --> 02:43:53,980
+ essentially an advanced chat bot using a new architecture called the transformer architecture
+
+2232
+02:43:53,980 --> 02:44:00,220
+ which by the way is the t and gpt it is so fluent at human language that anyone can use it you don't
+
+2233
+02:44:00,220 --> 02:44:04,380
+ need to be an ai expert or programmer and that's kind of what triggered the whole revolution
+
+2234
+02:44:05,340 --> 02:44:11,980
+ so how does it actually work well a large language model is an artificial neural network basically a
+
+2235
+02:44:11,980 --> 02:44:17,019
+ bunch of numbers or parameters connected to each other similar to how our brain is a bunch of
+
+2236
+02:44:17,019 --> 02:44:21,900
+ neurons or brain cells connected to each other neural networks only deal with numbers you send
+
+2237
+02:44:21,900 --> 02:44:26,699
+ in numbers and depending on how the parameters are set all the numbers come out but any kind of
+
+2238
+02:44:26,700 --> 02:44:33,180
+ content such as text or images can be represented as numbers so let's say i write dogs are when i
+
+2239
+02:44:33,180 --> 02:44:37,820
+ send that to a large language model that gets converted to numbers processed by the neural
+
+2240
+02:44:37,820 --> 02:44:42,300
+ network and then the resulting numbers are converted back into text in this case the word
+
+2241
+02:44:42,300 --> 02:44:49,500
+ animals dogs are animals so yeah this is basically a guess the next word machine the interesting part
+
+2242
+02:44:49,500 --> 02:44:55,180
+ is if we take that output and combine it with input and send it through the model again then
+
+2243
+02:44:55,180 --> 02:44:59,260
+ it will continue adding new words that's what's going on behind the scenes when you type something
+
+2244
+02:44:59,260 --> 02:45:05,580
+ in chat gpt in this case for example it generated a whole story and i can continue this indefinitely
+
+2245
+02:45:05,580 --> 02:45:12,380
+ by adding more prompts a large language model may have billions or even trillions of parameters
+
+2246
+02:45:12,380 --> 02:45:17,660
+ that's why they're called large so how are all these numbers set well not through manual
+
+2247
+02:45:17,660 --> 02:45:23,900
+ programming that would be impossible but through training just like babies learning to speak a
+
+2248
+02:45:23,900 --> 02:45:29,340
+ baby isn't told how to speak she doesn't get an instruction manual instead she listens to people
+
+2249
+02:45:29,340 --> 02:45:34,060
+ speaking around her and when she's heard enough she starts seeing the pattern she speaks a few
+
+2250
+02:45:34,060 --> 02:45:40,619
+ words at first to the delight of her parents and then later on full sentences similarly during a
+
+2251
+02:45:40,619 --> 02:45:46,140
+ training period the language model is fed a mind-boggling amount of text to learn from mostly
+
+2252
+02:45:46,140 --> 02:45:51,820
+ from internet sources it then plays guess the next word with all of this over and over again
+
+2253
+02:45:51,820 --> 02:45:56,539
+ and the parameters are automatically tweaked until it starts getting really good at predicting the
+
+2254
+02:45:56,539 --> 02:46:02,300
+ next word this is called backpropagation which is a fancy term for oh i guessed wrong i better change
+
+2255
+02:46:02,300 --> 02:46:08,220
+ something however to become truly useful a model also needs to undergo human training this is called
+
+2256
+02:46:08,220 --> 02:46:14,300
+ reinforcement learning with human feedback and it involves thousands of hours of humans painstakingly
+
+2257
+02:46:14,300 --> 02:46:19,820
+ testing and evaluating output from the model and giving feedback kind of like training a dog with
+
+2258
+02:46:19,820 --> 02:46:25,580
+ a clicker to reinforce good behavior that's why a model like gpt won't tell you how to rob a bank
+
+2259
+02:46:25,580 --> 02:46:29,900
+ it knows very well how to rob a bank but through human training it has learned that it shouldn't
+
+2260
+02:46:29,900 --> 02:46:35,740
+ help people commit crimes when training is done the model is mostly frozen other than some fine
+
+2261
+02:46:35,740 --> 02:46:40,699
+ tuning that can happen later that's what the p stands for in gpt pre-trained although in the
+
+2262
+02:46:40,699 --> 02:46:45,100
+ future we will probably have models that can learn continuously rather than just during training and
+
+2263
+02:46:45,100 --> 02:46:52,140
+ fine tuning now although chat gpt kind of got the ball rolling gpt isn't the only model out there
+
+2264
+02:46:52,140 --> 02:46:58,540
+ in fact new models are sprouting like mushrooms they vary a lot in terms of speed capability and
+
+2265
+02:46:58,540 --> 02:47:04,460
+ cost some can be downloaded and run locally others are only online some are free or open source
+
+2266
+02:47:04,460 --> 02:47:09,580
+ others are commercial products some are super easy to use while others require complicated
+
+2267
+02:47:09,660 --> 02:47:16,060
+ technical setup some are specialized for certain use cases others are more general and can be used
+
+2268
+02:47:16,060 --> 02:47:22,220
+ for almost anything and some are baked into products in the form of co-pilots or chat windows
+
+2269
+02:47:22,940 --> 02:47:29,820
+ it's it's the wild west just keep in mind that you generally get what you pay for so with a free
+
+2270
+02:47:29,820 --> 02:47:35,500
+ model you may just be getting a smart high school student in your basement rather than einstein
+
+2271
+02:47:36,300 --> 02:47:43,820
+ the difference between for example gpt 3.5 and gpt 4 is massive note that there are different
+
+2272
+02:47:43,820 --> 02:47:48,700
+ types of generative ai models that generate different types of content text-to-text models
+
+2273
+02:47:48,700 --> 02:47:55,020
+ like gpt4 take text as input and generate text as output the text can be natural language but it can
+
+2274
+02:47:55,020 --> 02:48:01,020
+ also be structured information like code and json or html i use this a lot myself to generate
+
+2275
+02:48:01,020 --> 02:48:04,540
+ code when programming it saves an incredible amount of time and
+
+2276
+02:48:08,220 --> 02:48:13,340
+ yeah so yeah i guess i'll probably stop here because i can see some students starting to
+
+2277
+02:48:13,340 --> 02:48:19,260
+ prepare to leave right okay so anyway it's quite an interesting video right you can actually go
+
+2278
+02:48:19,260 --> 02:48:23,580
+ and i provide the link you have go and i've looked uh just give me a few more seconds i'm
+
+2279
+02:48:23,580 --> 02:48:30,300
+ trying to finish this okay so in this lecture we cover the following topic okay see you
+
+2280
+02:48:31,020 --> 02:48:40,300
+ next week
+
+2281
+02:49:01,020 --> 02:49:01,180
+ you
+
+2282
+02:49:31,020 --> 02:49:31,180
+ you
+
+2283
+02:50:01,020 --> 02:50:01,180
+ you
+
+2284
+02:50:31,020 --> 02:50:31,180
+ you
+
+2285
+02:51:01,020 --> 02:51:01,180
+ you
+
+2286
+02:51:31,020 --> 02:51:31,180
+ you
+
+2287
+02:52:01,020 --> 02:52:01,180
+ you
+
+2288
+02:52:31,020 --> 02:52:31,180
+ you
+
+2289
+02:53:01,020 --> 02:53:01,180
+ you
+
+2290
+02:53:31,020 --> 02:53:31,180
+ you
+
+2291
+02:54:01,020 --> 02:54:01,180
+ you
+
+2292
+02:54:31,020 --> 02:54:31,180
+ you
+
+2293
+02:55:01,020 --> 02:55:01,180
+ you
+
+2294
+02:55:31,020 --> 02:55:31,180
+ you
+
+2295
+02:56:01,020 --> 02:56:01,180
+ you
+
+2296
+02:56:31,020 --> 02:56:31,180
+ you
+
+2297
+02:57:01,020 --> 02:57:01,180
+ you
+
+2298
+02:57:31,020 --> 02:57:31,180
+ you
+
+2299
+02:58:01,020 --> 02:58:01,180
+ you
+
+2300
+02:58:31,020 --> 02:58:31,180
+ you
+
+2301
+02:59:01,020 --> 02:59:01,740
+ you
+
+2302
+02:59:31,020 --> 02:59:31,740
+ you
+

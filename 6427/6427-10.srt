@@ -1,0 +1,5544 @@
+1
+00:04:30,000 --> 00:04:48,240
+ Okay, so we'll come back to the lecture.
+
+2
+00:04:48,240 --> 00:04:51,400
+ So before we start, just a quick reminder.
+
+3
+00:04:51,400 --> 00:04:56,880
+ So for next Thursday, it's actually a public holiday in Singapore.
+
+4
+00:04:56,880 --> 00:04:58,040
+ It's a depart valley.
+
+5
+00:04:58,040 --> 00:05:01,680
+ So there's actually no lecture on next Thursday.
+
+6
+00:05:01,680 --> 00:05:05,600
+ So we'll arrange a make-up instead.
+
+7
+00:05:05,600 --> 00:05:17,160
+ So the make-up will be on November 9, 9am to 12 noon, right, using the provided Zoom
+
+8
+00:05:17,160 --> 00:05:18,160
+ link.
+
+9
+00:05:18,160 --> 00:05:22,560
+ Okay, so just to recap, next Thursday there's no lecture because of public holiday.
+
+10
+00:05:22,560 --> 00:05:29,520
+ So we'll do the make-up on 9th of November, 9am to 12 noon.
+
+11
+00:05:29,520 --> 00:05:32,360
+ So that's the first announcement.
+
+12
+00:05:32,360 --> 00:05:38,280
+ And then the second thing is all of you are aware that today we're going to have the quiz.
+
+13
+00:05:38,280 --> 00:05:45,440
+ So for the quiz, I just want to highlight one thing, which is the sitting arrangement.
+
+14
+00:05:45,440 --> 00:05:47,760
+ Because this class is actually very big.
+
+15
+00:05:47,760 --> 00:05:50,680
+ There's 517 students.
+
+16
+00:05:50,680 --> 00:05:57,160
+ So in order to later on facilitate our checking collections of the answer scripts and also
+
+17
+00:05:57,160 --> 00:06:04,520
+ to check the attendance, we have divided this LT into the following sector.
+
+18
+00:06:04,520 --> 00:06:09,840
+ So for students with serial number 1 to 100, I believe you should know what is your serial
+
+19
+00:06:09,840 --> 00:06:10,840
+ number.
+
+20
+00:06:10,840 --> 00:06:16,200
+ So the serial number is the one that's reflected in this class list.
+
+21
+00:06:16,200 --> 00:06:18,960
+ So just check your serial number.
+
+22
+00:06:18,960 --> 00:06:25,840
+ For those students seated from 1 to 100, please try to sit in these sections here, which is
+
+23
+00:06:25,840 --> 00:06:28,760
+ those three sections, 1, 2, 3.
+
+24
+00:06:28,760 --> 00:06:34,599
+ And then the student 101 to 200 is the central 3 section, 1, 2, 3.
+
+25
+00:06:34,599 --> 00:06:39,880
+ Okay, 201 to 300 is this 3 section, 1, 2, 3.
+
+26
+00:06:39,880 --> 00:06:45,400
+ Okay, 301 to 410 is this central, this 2 sector.
+
+27
+00:06:45,400 --> 00:06:49,280
+ And then 411 to 517 is sitting here.
+
+28
+00:06:49,280 --> 00:06:53,960
+ So later on, please try to sit according to this that will make our later on the attendance
+
+29
+00:06:53,960 --> 00:06:58,760
+ taking as well as the collection of the script much more efficient.
+
+30
+00:06:58,760 --> 00:07:03,799
+ Okay, because at the end, no, we have to collect out a script, make sure the number is agreed
+
+31
+00:07:03,799 --> 00:07:05,560
+ before I can let you go.
+
+32
+00:07:05,560 --> 00:07:09,520
+ So later on, please make sure that you sit according to this arrangement.
+
+33
+00:07:09,520 --> 00:07:15,320
+ So for today, we are going to have about one hour of lecture from 630 to around 730.
+
+34
+00:07:15,320 --> 00:07:21,320
+ And afterwards, I'll give you a break and then you can come back at around 750 to get
+
+35
+00:07:21,320 --> 00:07:25,040
+ seated and then we'll start to distribute the question paper and so on.
+
+36
+00:07:25,040 --> 00:07:27,840
+ And we'll start the CREZ 8 o'clock show.
+
+37
+00:07:27,840 --> 00:07:41,760
+ Right, okay, so that's the arrangement for today.
+
+38
+00:07:41,760 --> 00:07:44,520
+ So next, let's continue on with the lecture.
+
+39
+00:07:44,520 --> 00:07:49,880
+ So today we are going to start with a part five, which is on video analysis and understanding.
+
+40
+00:07:49,880 --> 00:07:52,039
+ So given here are some of the references.
+
+41
+00:07:52,039 --> 00:07:56,840
+ There are actually many references here are just some of the listed one, right?
+
+42
+00:07:56,840 --> 00:08:00,880
+ If you want to learn more about it, you're welcome to read these references.
+
+43
+00:08:00,880 --> 00:08:05,200
+ Okay, so for part five, pretty much these are the topics we are going to cover.
+
+44
+00:08:05,200 --> 00:08:09,080
+ So the main focus is on video analysis and understanding.
+
+45
+00:08:09,080 --> 00:08:12,520
+ So we want to understand what's happening in the video.
+
+46
+00:08:12,520 --> 00:08:14,359
+ So we have a few selected tasks.
+
+47
+00:08:14,359 --> 00:08:16,640
+ Video understanding is very broad.
+
+48
+00:08:16,640 --> 00:08:17,880
+ There's many, many things.
+
+49
+00:08:17,880 --> 00:08:22,919
+ So we are going to look at a few selected representative use case and application.
+
+50
+00:08:22,919 --> 00:08:24,840
+ So the first one is object detection tracking.
+
+51
+00:08:24,840 --> 00:08:29,039
+ So we want to detect the object and then we want to track the movement.
+
+52
+00:08:29,039 --> 00:08:30,599
+ Second one is the pose estimation.
+
+53
+00:08:30,599 --> 00:08:35,280
+ So you want to be able to detect the key points or the skeletons of a human.
+
+54
+00:08:35,280 --> 00:08:39,840
+ Okay, and afterwards, the third task that we'll be looking at is a video or human action
+
+55
+00:08:39,840 --> 00:08:40,840
+ recognition.
+
+56
+00:08:40,840 --> 00:08:43,680
+ So we want to understand the actions of the person.
+
+57
+00:08:43,680 --> 00:08:48,680
+ Right, so first, let's look at the first use case, which is on the object detection.
+
+58
+00:08:48,680 --> 00:08:53,160
+ Right, so under the object detection, we'll be looking at the following topics.
+
+59
+00:08:53,160 --> 00:08:57,440
+ So first of all, we'll give a quick introduction of what is the object detection.
+
+60
+00:08:57,440 --> 00:09:03,480
+ And afterwards, we'll look at some of the broad categories of object detection techniques,
+
+61
+00:09:03,480 --> 00:09:08,480
+ which include two stage detectors, one stage detector, lightweight detectors, as well as
+
+62
+00:09:08,480 --> 00:09:11,240
+ some new and emerging methods.
+
+63
+00:09:11,240 --> 00:09:16,240
+ Right, okay, so what is the objective of the object detection?
+
+64
+00:09:16,240 --> 00:09:17,880
+ From the name itself, you already know.
+
+65
+00:09:17,880 --> 00:09:22,160
+ Pretty much, is that suppose you're given a particular image and video, you want to
+
+66
+00:09:22,160 --> 00:09:25,880
+ detect various, you know, object of interest.
+
+67
+00:09:25,880 --> 00:09:29,920
+ So right, you want to detect, for example, in this image here, you want to detect all
+
+68
+00:09:29,920 --> 00:09:34,280
+ the vagus, for example, the cars, the persons and so on.
+
+69
+00:09:34,280 --> 00:09:37,480
+ So therefore, you need to actually find a bounding box.
+
+70
+00:09:37,480 --> 00:09:41,120
+ You want, you need to find the bounding box for each of these objects.
+
+71
+00:09:41,120 --> 00:09:43,400
+ And afterwards, you need to provide the label.
+
+72
+00:09:43,400 --> 00:09:45,680
+ That means you need to perform classification.
+
+73
+00:09:45,680 --> 00:09:48,160
+ What is this bounding box corresponding to?
+
+74
+00:09:48,160 --> 00:09:49,560
+ What category is this?
+
+75
+00:09:49,560 --> 00:09:53,880
+ Right, so therefore, the objective of object detection is you need to predict the object
+
+76
+00:09:53,880 --> 00:09:55,920
+ classes in the image and video.
+
+77
+00:09:55,920 --> 00:10:00,600
+ And then you need to localize them using some bounding boxes as being seen here.
+
+78
+00:10:00,600 --> 00:10:06,520
+ Right, so you need to detect as many as know they are in the image and video.
+
+79
+00:10:06,520 --> 00:10:09,800
+ So it's both a regression and classification task.
+
+80
+00:10:09,800 --> 00:10:13,160
+ Regression is because you need to find the location of the bounding box.
+
+81
+00:10:13,160 --> 00:10:19,079
+ So you need to regress a bounding box to find where this particular object of interest is.
+
+82
+00:10:19,079 --> 00:10:23,800
+ And then classification is that once you found a bounding box, you need to tell what category
+
+83
+00:10:23,800 --> 00:10:24,840
+ it belongs to.
+
+84
+00:10:24,840 --> 00:10:28,240
+ So therefore, it's also a classification task.
+
+85
+00:10:28,240 --> 00:10:33,199
+ Right, so what are, why is this object detection important?
+
+86
+00:10:33,200 --> 00:10:38,520
+ It's because it's a very important early kind of task for some downstream application.
+
+87
+00:10:38,520 --> 00:10:42,800
+ It's a very important upstream task to support downstream application.
+
+88
+00:10:42,800 --> 00:10:48,040
+ So for example, object tracking, if you want to track the object movement, you need to
+
+89
+00:10:48,040 --> 00:10:50,400
+ be able to detect the object first.
+
+90
+00:10:50,400 --> 00:10:55,440
+ Right, post estimation, for example, there are many persons in this particular video,
+
+91
+00:10:55,440 --> 00:10:59,920
+ you want to be able to detect the post for individual person, then you need to be able
+
+92
+00:10:59,920 --> 00:11:02,200
+ to detect all the persons first.
+
+93
+00:11:02,400 --> 00:11:04,240
+ Okay, action recognition, right?
+
+94
+00:11:04,240 --> 00:11:09,000
+ If you want to understand the actions of a person, you need to identify or detect where
+
+95
+00:11:09,000 --> 00:11:10,360
+ the person is.
+
+96
+00:11:10,360 --> 00:11:16,880
+ So these are some selected application that you can see is some closely coupled downstream
+
+97
+00:11:16,880 --> 00:11:18,560
+ application for object detection.
+
+98
+00:11:18,560 --> 00:11:22,120
+ Right, so object detection has many, many real world applications.
+
+99
+00:11:22,120 --> 00:11:25,920
+ Right, so early on we have since, for example, autonomous driving, you need to be able to
+
+100
+00:11:25,920 --> 00:11:31,880
+ detect all the vehicles, the track sign, the pedestrian and so on and so forth.
+
+101
+00:11:31,880 --> 00:11:36,199
+ Right, okay, another important one is the videos of lens and monitoring.
+
+102
+00:11:36,199 --> 00:11:41,560
+ You want to, for example, monitor in an airport whether someone is doing something suspicious.
+
+103
+00:11:41,560 --> 00:11:46,560
+ Right, so these are just some sample applications.
+
+104
+00:11:46,560 --> 00:11:54,400
+ Right, okay, so as indicated earlier, so autonomous driving is one kind of a very popular object
+
+105
+00:11:54,400 --> 00:11:59,760
+ detection application, where you need to be able to detect all the vehicles as well as
+
+106
+00:11:59,760 --> 00:12:02,520
+ traffic sign, traffic lights and so on.
+
+107
+00:12:02,520 --> 00:12:07,640
+ Okay, so let's have a quick look at the brief history and milestones of object detection.
+
+108
+00:12:07,640 --> 00:12:11,760
+ So in early years, right, you can see the turning point is this AlexNet.
+
+109
+00:12:11,760 --> 00:12:18,439
+ So when we study about CNN, if you remember, AlexNet appeared in 2012.
+
+110
+00:12:18,480 --> 00:12:24,560
+ So this is one of the networks that actually demonstrate that this deep neural network
+
+111
+00:12:24,560 --> 00:12:28,480
+ can actually outperform human handcrafted approach.
+
+112
+00:12:28,480 --> 00:12:31,120
+ So this is actually a turning point, AlexNet.
+
+113
+00:12:31,120 --> 00:12:35,560
+ Prior to this AlexNet, most of the methods is actually handcrafted methods.
+
+114
+00:12:35,560 --> 00:12:40,400
+ So in early years, for example, there's some very well-known object detection methods such
+
+115
+00:12:40,400 --> 00:12:47,640
+ as VLLJONS, which is trying to detect the face, deformable part models, okay, histogram
+
+116
+00:12:47,640 --> 00:12:48,840
+ of gradient.
+
+117
+00:12:48,840 --> 00:12:54,000
+ So these are all well-known handcrafted techniques to detect objects.
+
+118
+00:12:54,000 --> 00:12:59,360
+ But after AlexNet, right, then the emergence of deep learning methods appear.
+
+119
+00:12:59,360 --> 00:13:02,800
+ So but broadly speaking, it can be divided into two broad categories.
+
+120
+00:13:02,800 --> 00:13:05,680
+ The first one is two-stage detectors.
+
+121
+00:13:05,680 --> 00:13:10,680
+ Namely when you want to perform object detection, you divide into two steps or two stages.
+
+122
+00:13:10,680 --> 00:13:14,800
+ First you try to detect some possible kind of a region proposal.
+
+123
+00:13:14,800 --> 00:13:16,920
+ What is the likely region you have the object?
+
+124
+00:13:16,920 --> 00:13:19,280
+ And afterwards they perform the classification.
+
+125
+00:13:19,280 --> 00:13:24,079
+ So if you do that, that is known as two-stage detectors.
+
+126
+00:13:24,079 --> 00:13:30,760
+ So some of the well-known two-stage detectors include, for example, RCNN, FASLA RCNN, MAS
+
+127
+00:13:30,760 --> 00:13:31,760
+ RCNN.
+
+128
+00:13:31,760 --> 00:13:35,920
+ So these are some well-known two-stage detectors.
+
+129
+00:13:35,920 --> 00:13:38,920
+ As opposed to two-stage detector, you have one-stage detector.
+
+130
+00:13:38,920 --> 00:13:45,439
+ So one-stage detector means that you try to perform the regression and classification
+
+131
+00:13:45,439 --> 00:13:46,439
+ in one go.
+
+132
+00:13:46,440 --> 00:13:53,320
+ You do not need to propose what are the likely regions that the object may exist.
+
+133
+00:13:53,320 --> 00:13:56,640
+ So that's why it's known as one-stage detectors.
+
+134
+00:13:56,640 --> 00:14:03,960
+ So these are some of the well-known one-stage detectors, including, for example, YOLO SSD,
+
+135
+00:14:03,960 --> 00:14:07,320
+ single-shot detectors, RetinaNet, and so on.
+
+136
+00:14:07,320 --> 00:14:14,320
+ So today we're going to very briefly introduce some of these object detectors.
+
+137
+00:14:14,320 --> 00:14:17,000
+ So what are some of the challenges in object detection?
+
+138
+00:14:17,000 --> 00:14:20,920
+ So if you are new to this topic, you're taught that object detection should be relatively
+
+139
+00:14:20,920 --> 00:14:21,920
+ straightforward.
+
+140
+00:14:21,920 --> 00:14:26,760
+ But it turned out that object detection people still continue to perform research on it because
+
+141
+00:14:26,760 --> 00:14:28,600
+ there are some challenges.
+
+142
+00:14:28,600 --> 00:14:33,240
+ So some of the key challenges in object detection include different imaging conditions.
+
+143
+00:14:33,240 --> 00:14:38,320
+ So for example, the object that you have can be from different viewpoint.
+
+144
+00:14:38,320 --> 00:14:42,080
+ Same object, if you look at it from different viewpoint, you still need to detect it's the
+
+145
+00:14:42,080 --> 00:14:43,080
+ same object.
+
+146
+00:14:43,120 --> 00:14:48,360
+ Scale, whether it's small or big, lighting, whether it's bright or dark, whether there
+
+147
+00:14:48,360 --> 00:14:52,760
+ are some background clutter, whether part of the object is occluded.
+
+148
+00:14:52,760 --> 00:14:58,320
+ So these are all challenges in object detection algorithm.
+
+149
+00:14:58,320 --> 00:15:01,400
+ So another important consideration is computational efficiency.
+
+150
+00:15:01,400 --> 00:15:08,080
+ You want to be able to compute very efficiently with least amount of computation.
+
+151
+00:15:08,080 --> 00:15:12,840
+ So this is particularly important in some application, whereas they are energy constrained
+
+152
+00:15:12,840 --> 00:15:16,640
+ or memory constrained or power constrained.
+
+153
+00:15:16,640 --> 00:15:18,600
+ So therefore there's another challenge.
+
+154
+00:15:18,600 --> 00:15:23,120
+ The other popular topic is the close world versus open world problem.
+
+155
+00:15:23,120 --> 00:15:29,520
+ So close world problem is that if you have already predefined a certain categories of
+
+156
+00:15:29,520 --> 00:15:32,800
+ objects that you need to detect, then it's a close world problem.
+
+157
+00:15:32,800 --> 00:15:37,720
+ For example, in autonomous driving, you may probably have already predefined.
+
+158
+00:15:37,760 --> 00:15:43,840
+ You need to detect different types of vehicles, persons, traffic lights, traffic signs, and so on.
+
+159
+00:15:43,840 --> 00:15:49,200
+ So as opposed to that open world means that we know that in real life it's not possible
+
+160
+00:15:49,200 --> 00:15:52,760
+ for you to predefine all the possible objects.
+
+161
+00:15:52,760 --> 00:15:57,520
+ So therefore in real life there will be some objects that you do not know in advance.
+
+162
+00:15:57,520 --> 00:15:59,960
+ So how do we handle those problems?
+
+163
+00:15:59,960 --> 00:16:03,960
+ So those are known as open world problems object detection.
+
+164
+00:16:06,400 --> 00:16:07,400
+ Right?
+
+165
+00:16:07,400 --> 00:16:11,720
+ So in order to study this object detection, we need to leverage on some data set.
+
+166
+00:16:11,720 --> 00:16:16,319
+ As in any deep learning algorithm, you need the data set, you need the method.
+
+167
+00:16:16,319 --> 00:16:19,840
+ So therefore we need some data set to support object detection.
+
+168
+00:16:19,840 --> 00:16:24,240
+ So these are some common object data sets.
+
+169
+00:16:24,240 --> 00:16:28,439
+ So the first one is the MSCoco, it's stand for Microsoft Common Objects in Context.
+
+170
+00:16:28,439 --> 00:16:32,360
+ So this is the popular data set to support object detection.
+
+171
+00:16:32,360 --> 00:16:35,520
+ Next one is ImageNet, and afterwards a Google Open Images.
+
+172
+00:16:35,520 --> 00:16:41,439
+ So these are some popular data set that is used to train object detector as well as evaluate
+
+173
+00:16:41,439 --> 00:16:42,840
+ its performance.
+
+174
+00:16:42,840 --> 00:16:45,319
+ So this table here give a quick summary.
+
+175
+00:16:45,319 --> 00:16:48,240
+ So you have different types of object detector.
+
+176
+00:16:48,240 --> 00:16:54,000
+ The number of classes that it has in the data set range from 80 to 600.
+
+177
+00:16:54,000 --> 00:16:59,600
+ So the data is partitioned into training, validation, and testing data set here.
+
+178
+00:16:59,600 --> 00:17:04,440
+ So for the training data set you can see the partition.
+
+179
+00:17:04,480 --> 00:17:08,760
+ For different data set, you have a different number of images, total number of objects,
+
+180
+00:17:08,760 --> 00:17:12,200
+ and per image what is the average number of objects inside.
+
+181
+00:17:12,200 --> 00:17:19,000
+ So this table just give you a quick overview of this important data set.
+
+182
+00:17:19,000 --> 00:17:24,240
+ So if we go just slightly a bit more info on this MSCoco data set.
+
+183
+00:17:24,240 --> 00:17:29,040
+ So earlier we already mentioned it's an important benchmark data set for training and evaluation
+
+184
+00:17:29,040 --> 00:17:31,320
+ of object detection.
+
+185
+00:17:31,320 --> 00:17:37,360
+ So it has 80 categories and more than 200 cases of training images.
+
+186
+00:17:37,360 --> 00:17:43,040
+ So one thing that you notice is that if you try to plot the number of images versus the
+
+187
+00:17:43,040 --> 00:17:48,000
+ number of the classes that you have, you can see you have this particular well-known long
+
+188
+00:17:48,000 --> 00:17:49,000
+ tail problem.
+
+189
+00:17:49,000 --> 00:17:54,439
+ That means there are some categories you have lots of training data, but there are lots
+
+190
+00:17:54,439 --> 00:17:56,639
+ of categories you have very few training data.
+
+191
+00:17:56,639 --> 00:18:00,879
+ So this is a data imbalance problem or long tail problems here.
+
+192
+00:18:00,880 --> 00:18:05,600
+ So long tail problem is a practical problem that we need to solve when we want to perform
+
+193
+00:18:05,600 --> 00:18:06,840
+ object detection.
+
+194
+00:18:06,840 --> 00:18:13,640
+ Otherwise, our developed algorithm will tends to detect categories that are more commonly
+
+195
+00:18:13,640 --> 00:18:14,640
+ seen.
+
+196
+00:18:14,640 --> 00:18:20,680
+ So this is for example an illustration of the challenge that we need to address in object
+
+197
+00:18:20,680 --> 00:18:21,680
+ detection.
+
+198
+00:18:21,680 --> 00:18:24,360
+ Another one, ImageNet.
+
+199
+00:18:24,360 --> 00:18:26,960
+ So ImageNet we have looked at it before.
+
+200
+00:18:26,960 --> 00:18:30,000
+ It consists of 1000 image categories.
+
+201
+00:18:30,000 --> 00:18:39,240
+ But out of that 200 category is used for object detection with more than 500 cases of images.
+
+202
+00:18:39,240 --> 00:18:41,440
+ So this is the ImageNet.
+
+203
+00:18:41,440 --> 00:18:43,920
+ So next one is the Google Open Image.
+
+204
+00:18:43,920 --> 00:18:51,680
+ It has 1.9 million images, 16 million bounding blocks, and it consists of 600 categories.
+
+205
+00:18:51,680 --> 00:18:57,200
+ So again, all these are just some basic information to let you have a certain feeling.
+
+206
+00:18:57,200 --> 00:19:08,360
+ So the next thing is that before we go in and look at different types of object detection
+
+207
+00:19:08,360 --> 00:19:13,520
+ algorithm, we need to understand what are some common performance matrix.
+
+208
+00:19:13,520 --> 00:19:18,920
+ How do we measure whether an object detection is performing well or not?
+
+209
+00:19:18,920 --> 00:19:24,640
+ So one of the most common performance matrix is known as the mean average precision or
+
+210
+00:19:24,640 --> 00:19:26,000
+ MAP here.
+
+211
+00:19:26,000 --> 00:19:31,480
+ So MAP sometimes is also loosely called AP, average precision.
+
+212
+00:19:31,480 --> 00:19:35,240
+ So more accurately it should be called mean average precision.
+
+213
+00:19:35,240 --> 00:19:40,880
+ But sometimes some paper or some books, they just loosely called AP.
+
+214
+00:19:40,880 --> 00:19:43,840
+ But actually they are referring to the same thing.
+
+215
+00:19:43,840 --> 00:19:53,120
+ So this MAP is a matrix to evaluate the performance, the accuracy of your object detection algorithm.
+
+216
+00:19:53,120 --> 00:20:00,600
+ So in order to measure this particular performance, you need to define a particular parameter
+
+217
+00:20:00,600 --> 00:20:04,239
+ known as intersection over unit or IOU.
+
+218
+00:20:04,239 --> 00:20:06,320
+ So what is the meaning of this IOU?
+
+219
+00:20:06,320 --> 00:20:10,879
+ You can see from this particular figure, this is the meaning of the IOU.
+
+220
+00:20:10,879 --> 00:20:16,239
+ Suppose when you want to evaluate the performance of object detection algorithm, so you have
+
+221
+00:20:16,239 --> 00:20:17,479
+ some ground truth object.
+
+222
+00:20:17,479 --> 00:20:19,760
+ For example, I have a monitor in front.
+
+223
+00:20:19,760 --> 00:20:22,879
+ So the ground truth is this particular monitor.
+
+224
+00:20:22,880 --> 00:20:25,080
+ So we have the ground truth.
+
+225
+00:20:25,080 --> 00:20:31,200
+ And then if you run our object detection algorithm, then you will come out with a bounding box,
+
+226
+00:20:31,200 --> 00:20:32,400
+ detected bounding box.
+
+227
+00:20:32,400 --> 00:20:34,320
+ So now we have a ground truth.
+
+228
+00:20:34,320 --> 00:20:39,360
+ We have the ground truth, bounding box, and then we have a detected bounding box or predicted
+
+229
+00:20:39,360 --> 00:20:42,360
+ bounding box based on our algorithm.
+
+230
+00:20:42,360 --> 00:20:48,800
+ So obviously the closer they overlap, that means the better your detection algorithm is.
+
+231
+00:20:48,800 --> 00:20:50,080
+ But how do we measure it?
+
+232
+00:20:50,080 --> 00:20:52,260
+ So one way is using this IOU.
+
+233
+00:20:52,260 --> 00:20:55,100
+ So IOU is actually intersection over unit.
+
+234
+00:20:55,100 --> 00:20:57,379
+ So the name itself already tells you that.
+
+235
+00:20:57,379 --> 00:21:01,520
+ For example, you have this is the ground truth object.
+
+236
+00:21:01,520 --> 00:21:05,180
+ This is your detected or predicted bounding box here.
+
+237
+00:21:05,180 --> 00:21:10,140
+ So intersection means that the intersection of this area, union means that the union of
+
+238
+00:21:10,140 --> 00:21:11,140
+ this area.
+
+239
+00:21:11,140 --> 00:21:20,020
+ So the ratios of this area, intersection area over this union area is defined as the IOU.
+
+240
+00:21:20,020 --> 00:21:27,340
+ So this IOU, obviously the larger the IOU, that means the closer it would have to be
+
+241
+00:21:27,340 --> 00:21:28,580
+ together.
+
+242
+00:21:28,580 --> 00:21:36,540
+ So therefore typically when we want to decide whether a prediction is correct or not, our
+
+243
+00:21:36,540 --> 00:21:43,860
+ prediction is considered as true positive if the IOU is greater than a threshold.
+
+244
+00:21:43,860 --> 00:21:49,260
+ So true positive means that, for example, there's a ground truth here.
+
+245
+00:21:49,260 --> 00:21:50,860
+ There's a ground truth object.
+
+246
+00:21:50,860 --> 00:21:56,060
+ And then you predicted this bounding box.
+
+247
+00:21:56,060 --> 00:22:00,780
+ Actually the IOU between your ground truth and predicted bounding box, if it's greater
+
+248
+00:22:00,780 --> 00:22:05,500
+ than a chosen IOU, then we say that actually it's a true positive.
+
+249
+00:22:05,500 --> 00:22:08,500
+ That means because there's an object and we actually detect it.
+
+250
+00:22:08,500 --> 00:22:11,780
+ So it's a true positive.
+
+251
+00:22:11,780 --> 00:22:17,060
+ So we interpret a particular detection to be true positive if the IOU is greater than
+
+252
+00:22:17,060 --> 00:22:19,220
+ a chosen threshold.
+
+253
+00:22:19,380 --> 00:22:24,340
+ And then it's forced that negative if our IOU is less than a threshold.
+
+254
+00:22:24,340 --> 00:22:27,780
+ For example, if this is the bounding box, this is a ground truth.
+
+255
+00:22:27,780 --> 00:22:30,940
+ In our detected bounding box is very far away.
+
+256
+00:22:30,940 --> 00:22:34,620
+ That means our intersection over union is very small.
+
+257
+00:22:34,620 --> 00:22:41,740
+ So in those cases, when our IOU is less than a certain predefined threshold, then we say
+
+258
+00:22:41,740 --> 00:22:43,380
+ it's a false positive.
+
+259
+00:22:43,380 --> 00:22:47,300
+ Because even though we thought there's an object there, but it's too far away from the
+
+260
+00:22:47,300 --> 00:22:48,300
+ ground truth.
+
+261
+00:22:48,379 --> 00:22:50,180
+ It's a false positive.
+
+262
+00:22:50,180 --> 00:22:52,460
+ We think it's a positive, but it's actually false.
+
+263
+00:22:52,460 --> 00:22:53,460
+ Yeah.
+
+264
+00:22:53,460 --> 00:22:54,460
+ Okay.
+
+265
+00:22:54,460 --> 00:22:58,860
+ So now these particular issues of IOU, this threshold here is actually very tricky.
+
+266
+00:22:58,860 --> 00:23:01,659
+ So how exactly do you choose?
+
+267
+00:23:01,659 --> 00:23:04,020
+ What is the most representative IOU?
+
+268
+00:23:04,020 --> 00:23:06,899
+ Because you can choose many different values.
+
+269
+00:23:06,899 --> 00:23:11,139
+ So it turns out that there's some common choices of this threshold.
+
+270
+00:23:11,139 --> 00:23:15,700
+ So one of them is called AP50 or AP.5.
+
+271
+00:23:15,700 --> 00:23:20,260
+ So AP.5 means now we choose our threshold to be equal to 0.5.
+
+272
+00:23:20,260 --> 00:23:24,620
+ But if you just choose a single value of 0.5, it's still a little bit arbitrary.
+
+273
+00:23:24,620 --> 00:23:29,020
+ So therefore there are some people who argue that instead of using one single threshold
+
+274
+00:23:29,020 --> 00:23:33,940
+ value, why not we have a sequence of threshold values?
+
+275
+00:23:33,940 --> 00:23:36,060
+ So it'll be more meaningful.
+
+276
+00:23:36,060 --> 00:23:41,260
+ So that's why we have this particular MAP that's defined by a cocoa.
+
+277
+00:23:41,260 --> 00:23:42,860
+ So MAP cocoa here.
+
+278
+00:23:42,860 --> 00:23:50,899
+ So MAP cocoa is also defined as AP starting from 0.5 to 0.95 with a step size of 0.05
+
+279
+00:23:50,899 --> 00:23:51,899
+ here.
+
+280
+00:23:51,899 --> 00:23:59,820
+ So what it means is that you calculate the MAP at 0.5, at 0.55 and all the way to 0.95
+
+281
+00:23:59,820 --> 00:24:03,219
+ and then you take the average over these 10 terms here.
+
+282
+00:24:03,219 --> 00:24:09,300
+ So the advantage of using these kinds of the performance matrix is that it's less sensitive
+
+283
+00:24:09,300 --> 00:24:11,379
+ to the threshold value you choose.
+
+284
+00:24:11,380 --> 00:24:13,060
+ It's more representative.
+
+285
+00:24:13,060 --> 00:24:18,500
+ So therefore this is a common performance matrix.
+
+286
+00:24:18,500 --> 00:24:23,020
+ So next we are going to spend a little bit of time to explain how do we calculate the
+
+287
+00:24:23,020 --> 00:24:24,860
+ MAP here.
+
+288
+00:24:24,860 --> 00:24:27,340
+ So mean average position, how do we calculate?
+
+289
+00:24:27,340 --> 00:24:32,740
+ So MAP is calculated by finding the AP for each category and then take average over
+
+290
+00:24:32,740 --> 00:24:34,100
+ different classes.
+
+291
+00:24:34,100 --> 00:24:38,180
+ So suppose in this particular image you have a few different categories.
+
+292
+00:24:38,180 --> 00:24:41,080
+ You have person, you have cars and so on.
+
+293
+00:24:41,080 --> 00:24:46,280
+ So we try to find the average position for each different category.
+
+294
+00:24:46,280 --> 00:24:51,480
+ For example for person category, for car category and so on.
+
+295
+00:24:51,480 --> 00:24:56,159
+ And afterwards we take the average over this different category.
+
+296
+00:24:56,159 --> 00:25:01,080
+ So that's why we find the AP for each classes or each category and then we take the average
+
+297
+00:25:01,080 --> 00:25:03,760
+ over this different category here.
+
+298
+00:25:03,760 --> 00:25:11,040
+ So early on as I mentioned, some people actually loosely call this MAP as AP but more precisely
+
+299
+00:25:11,040 --> 00:25:12,879
+ it should be MAP.
+
+300
+00:25:12,879 --> 00:25:15,680
+ But some people actually just use it loosely.
+
+301
+00:25:15,680 --> 00:25:21,320
+ So the assume that from the discussion is clear because you are taking average over different
+
+302
+00:25:21,320 --> 00:25:22,440
+ category of objects.
+
+303
+00:25:22,440 --> 00:25:24,920
+ So therefore it should be MAP.
+
+304
+00:25:24,920 --> 00:25:27,080
+ So how do we calculate this MAP here?
+
+305
+00:25:27,080 --> 00:25:32,000
+ So in order to calculate the MAP, for example now you have an object detection algorithm.
+
+306
+00:25:32,000 --> 00:25:34,720
+ You want to find the MAP for your algorithm.
+
+307
+00:25:34,720 --> 00:25:36,000
+ So how do you do it?
+
+308
+00:25:36,000 --> 00:25:41,400
+ So first of all, you run your algorithm and then you try to predict or generate all these
+
+309
+00:25:41,400 --> 00:25:42,760
+ object bounding boxes.
+
+310
+00:25:42,760 --> 00:25:45,400
+ So suppose you have a particular image.
+
+311
+00:25:45,400 --> 00:25:50,360
+ You want to detect all the objects in this particular image.
+
+312
+00:25:50,360 --> 00:25:54,680
+ Suppose you have different cars, vans and vehicles or so on.
+
+313
+00:25:54,680 --> 00:26:00,560
+ So what you do is you run your algorithm and then you try to obtain all these bounding
+
+314
+00:26:00,560 --> 00:26:04,840
+ boxes for different categories here.
+
+315
+00:26:04,840 --> 00:26:09,320
+ So you predict the bounding boxes as well as the label, whether it's a car, whether
+
+316
+00:26:09,320 --> 00:26:12,639
+ it's a van, whether it's a person using a model here.
+
+317
+00:26:12,639 --> 00:26:18,199
+ And afterwards you need to calculate some of the matrix of values in what's known as
+
+318
+00:26:18,199 --> 00:26:20,879
+ the confusion matrix here.
+
+319
+00:26:20,879 --> 00:26:28,600
+ So in this confusion matrix, three of the popular matrix is a true positive, four positive
+
+320
+00:26:28,600 --> 00:26:30,040
+ and four negative.
+
+321
+00:26:30,040 --> 00:26:32,919
+ So what's the meaning of this true positive here?
+
+322
+00:26:32,920 --> 00:26:37,760
+ So true positive means that if your ground truth is there's an object and your algorithm
+
+323
+00:26:37,760 --> 00:26:42,880
+ managed to detect this object, such that its IOU is greater than the threshold, then we
+
+324
+00:26:42,880 --> 00:26:44,960
+ say that we managed to detect it.
+
+325
+00:26:44,960 --> 00:26:47,320
+ So we call it true positive.
+
+326
+00:26:47,320 --> 00:26:50,120
+ We do a positive prediction and it's correct.
+
+327
+00:26:50,120 --> 00:26:51,120
+ It's true.
+
+328
+00:26:51,120 --> 00:26:52,600
+ So it's true positive.
+
+329
+00:26:52,600 --> 00:26:59,040
+ Force negative is, for example, if you have this particular object here and your prediction
+
+330
+00:26:59,040 --> 00:27:02,000
+ is very far away, it's very far away.
+
+331
+00:27:02,000 --> 00:27:04,840
+ Either the overlapping is very little or it's very far away.
+
+332
+00:27:04,840 --> 00:27:07,560
+ So what it means is that you do a prediction here.
+
+333
+00:27:07,560 --> 00:27:08,960
+ You do a prediction here.
+
+334
+00:27:08,960 --> 00:27:14,120
+ But this prediction is actually not accurate because it's too far from the ground truth.
+
+335
+00:27:14,120 --> 00:27:16,680
+ So this is known as the force positive.
+
+336
+00:27:16,680 --> 00:27:19,000
+ So you can see we think it's positive.
+
+337
+00:27:19,000 --> 00:27:20,920
+ We think we detect by force.
+
+338
+00:27:20,920 --> 00:27:22,240
+ So force positive.
+
+339
+00:27:22,240 --> 00:27:24,520
+ The next one is the force negative.
+
+340
+00:27:24,520 --> 00:27:28,159
+ So force negative means that negative means that you do not think there's an object there,
+
+341
+00:27:28,280 --> 00:27:29,960
+ but actually there's an object there.
+
+342
+00:27:29,960 --> 00:27:34,920
+ So suppose if you have your ground truth, there's an object there, but you do not think
+
+343
+00:27:34,920 --> 00:27:35,920
+ there's an object.
+
+344
+00:27:35,920 --> 00:27:38,160
+ You do not do a prediction on this.
+
+345
+00:27:38,160 --> 00:27:40,840
+ Then it's called force negative.
+
+346
+00:27:40,840 --> 00:27:41,840
+ You think it's negative.
+
+347
+00:27:41,840 --> 00:27:44,480
+ You think there's no object there, but it's incorrect.
+
+348
+00:27:44,480 --> 00:27:47,240
+ So force negative here.
+
+349
+00:27:47,240 --> 00:27:52,920
+ So based on these three parameters, then we can calculate the precision versus the precision
+
+350
+00:27:52,920 --> 00:27:55,680
+ and recall matrix here.
+
+351
+00:27:55,680 --> 00:27:59,200
+ So what is precision and recall?
+
+352
+00:27:59,200 --> 00:28:01,280
+ So the precision, let's look at precision here.
+
+353
+00:28:01,280 --> 00:28:06,680
+ So the precision is defined as the number of true positive over the total number of
+
+354
+00:28:06,680 --> 00:28:07,680
+ prediction.
+
+355
+00:28:07,680 --> 00:28:11,000
+ So if you, for example, in this image, you make 10 prediction.
+
+356
+00:28:11,000 --> 00:28:12,000
+ Okay.
+
+357
+00:28:12,000 --> 00:28:15,320
+ Out of these 10 prediction, how many of them is true positive?
+
+358
+00:28:15,320 --> 00:28:18,120
+ Suppose there is six, then it's six over 10.
+
+359
+00:28:18,120 --> 00:28:21,560
+ Then your precision is six over 10.
+
+360
+00:28:21,560 --> 00:28:22,560
+ Okay.
+
+361
+00:28:22,560 --> 00:28:28,360
+ On the other hand, recall is defined as true positive over ground truth.
+
+362
+00:28:28,360 --> 00:28:34,560
+ So suppose in this particular image, again, there are 10, say suppose there are 20 objects.
+
+363
+00:28:34,560 --> 00:28:42,480
+ But for out of these 20 objects, you only manage to say, get six correct true positive.
+
+364
+00:28:42,480 --> 00:28:43,840
+ Then your recall is out.
+
+365
+00:28:43,840 --> 00:28:49,480
+ 20 ground truth, you only manage to retrieve or recall six.
+
+366
+00:28:49,480 --> 00:28:53,240
+ So therefore, this is the definitions of the recall.
+
+367
+00:28:53,240 --> 00:28:57,320
+ So true positive divided by ground truth.
+
+368
+00:28:57,320 --> 00:29:02,400
+ Ground truth is the true positive plus false negative, and prediction is true positive
+
+369
+00:29:02,400 --> 00:29:04,280
+ plus false positive.
+
+370
+00:29:04,280 --> 00:29:08,640
+ So this is the equation for you to calculate the recall and the precision.
+
+371
+00:29:08,640 --> 00:29:11,000
+ So therefore, you can calculate the recall and precision.
+
+372
+00:29:11,000 --> 00:29:15,440
+ And then finally, if you want to find the average precision for the current category,
+
+373
+00:29:15,440 --> 00:29:18,240
+ it's actually the area under the curve.
+
+374
+00:29:18,240 --> 00:29:25,040
+ So usually you'll be able to plot this graph, precision versus recall.
+
+375
+00:29:25,040 --> 00:29:33,360
+ So by changing this different threshold value, you'll be able to obtain this precision versus
+
+376
+00:29:33,360 --> 00:29:35,480
+ recall graph here.
+
+377
+00:29:35,480 --> 00:29:40,720
+ So the AP average precision is defined as area under the graph.
+
+378
+00:29:40,720 --> 00:29:47,080
+ So for a threshold of 0.5, this is how the graph would look like, 0.7 and 0.9.
+
+379
+00:29:47,080 --> 00:29:53,879
+ You can see, right, if you increase the threshold from 0.5 to 0.7, so 0.5 means that it can
+
+380
+00:29:53,879 --> 00:29:55,360
+ be a bit loose.
+
+381
+00:29:55,360 --> 00:30:00,480
+ Even though it's not exactly very close match, you still consider it to be correct.
+
+382
+00:30:00,480 --> 00:30:05,720
+ But if IOU is 0.9, or threshold chosen is 0.9, then it's very tight.
+
+383
+00:30:05,720 --> 00:30:10,600
+ Your prediction and the ground truth need to be almost the same before you can consider
+
+384
+00:30:10,600 --> 00:30:12,000
+ it to be correct.
+
+385
+00:30:12,000 --> 00:30:14,679
+ So that's why you can see that this graph will look something like this.
+
+386
+00:30:14,680 --> 00:30:17,240
+ The area under the graph is much smaller.
+
+387
+00:30:17,240 --> 00:30:25,240
+ So therefore, average precision AP is defined as the area under the graph for one category.
+
+388
+00:30:25,240 --> 00:30:29,520
+ So now for each category, you can repeat the exercise.
+
+389
+00:30:29,520 --> 00:30:35,320
+ Afterwards, then MAP is defined as the average precision over all the classes.
+
+390
+00:30:35,320 --> 00:30:39,320
+ So once you have, for example, this formula here, once you have found the AP for one category,
+
+391
+00:30:39,679 --> 00:30:44,000
+ you sum up over all the categories divided by the total number category, then this is
+
+392
+00:30:44,000 --> 00:30:47,000
+ your mean average precision MAP.
+
+393
+00:30:57,480 --> 00:31:04,520
+ So apart from MAP, another important performance matrix is a floating point operation.
+
+394
+00:31:05,400 --> 00:31:10,280
+ After your fully trained algorithm, if you give a sample, for example, an image, how
+
+395
+00:31:10,280 --> 00:31:15,520
+ much of the floating point operation you need to perform before you can arrive at your detection
+
+396
+00:31:15,520 --> 00:31:16,680
+ of prediction.
+
+397
+00:31:16,680 --> 00:31:23,120
+ So this floating point, the number of aromatic operation like summation, multiplication is
+
+398
+00:31:23,120 --> 00:31:26,080
+ known as the floating point operations here.
+
+399
+00:31:26,080 --> 00:31:30,160
+ So floating point operation is a matrix to evaluate the computational complexity.
+
+400
+00:31:30,280 --> 00:31:36,480
+ Obviously, you want it to be as, for good algorithm, you want it to be as small as possible.
+
+401
+00:31:36,480 --> 00:31:42,080
+ So it's how many operations is required to run a single instance for a model.
+
+402
+00:31:42,080 --> 00:31:47,600
+ So imagine the total number of floating point operation, which includes, for example, addition,
+
+403
+00:31:47,600 --> 00:31:52,720
+ subtraction, multiplication, division, and so on for a single forward pass.
+
+404
+00:31:52,720 --> 00:31:57,000
+ So this will reflect the detection time for different model.
+
+405
+00:31:57,000 --> 00:32:03,200
+ Obviously, the less flocks that you have, the faster you'll be able to do your inference.
+
+406
+00:32:03,200 --> 00:32:10,600
+ That means your model will be able to run much faster and ideally, we want it to be
+
+407
+00:32:10,600 --> 00:32:13,400
+ real time or close to real time.
+
+408
+00:32:13,400 --> 00:32:19,960
+ Okay, so next we are going to look at some object detector category.
+
+409
+00:32:19,960 --> 00:32:25,760
+ So the main object detector category can be divided into a few, one stage detector and
+
+410
+00:32:25,840 --> 00:32:28,520
+ two stage detector and the lightweight detector.
+
+411
+00:32:28,520 --> 00:32:32,640
+ So what's the idea of this one stage versus a two stage detector?
+
+412
+00:32:32,640 --> 00:32:38,720
+ So for example, if you look at this image here, so a two stage detector traditionally
+
+413
+00:32:38,720 --> 00:32:42,000
+ actually is started from this two stage detector.
+
+414
+00:32:42,000 --> 00:32:45,520
+ So the two stage detector means that you have this particular image.
+
+415
+00:32:45,520 --> 00:32:50,320
+ You let it go through, for example, a CNN network to extract the feature.
+
+416
+00:32:50,320 --> 00:32:53,800
+ So at this point here now, you will have some feature.
+
+417
+00:32:53,840 --> 00:33:00,000
+ Afterward, you let it go through a region proposal network or a proposal generator here.
+
+418
+00:33:00,000 --> 00:33:06,680
+ So the goal of this proposal generator is to try to predict some bounding boxes that likely
+
+419
+00:33:06,680 --> 00:33:11,159
+ the object may be inside.
+
+420
+00:33:11,159 --> 00:33:19,399
+ So you'll try to, from this particular feature here, you'll try to predict some likely boxes
+
+421
+00:33:19,399 --> 00:33:22,720
+ that contain the object and also what is the likelihood.
+
+422
+00:33:22,760 --> 00:33:27,160
+ So objectness classification, what's the likelihood that there's an object there.
+
+423
+00:33:27,160 --> 00:33:29,840
+ And afterwards, this information will be reflected here.
+
+424
+00:33:29,840 --> 00:33:36,160
+ You'll indicate, for example, this dotted line here, this is the likely region that some object exists.
+
+425
+00:33:36,160 --> 00:33:41,560
+ So afterwards, you crop up the corresponding region, you extract the feature, you let it
+
+426
+00:33:41,560 --> 00:33:46,840
+ go through a smaller network such as a CNN and then you try to classify which category
+
+427
+00:33:46,840 --> 00:33:48,560
+ it belongs to.
+
+428
+00:33:48,560 --> 00:33:52,760
+ And then you further refine the bounding box because your initial bounding box may not
+
+429
+00:33:52,760 --> 00:33:57,520
+ be so accurate, so you can further do some fine adjustment.
+
+430
+00:33:57,520 --> 00:34:00,800
+ So this is the idea of two-stage detector.
+
+431
+00:34:00,800 --> 00:34:06,879
+ Your stage one is to have a region proposal network to come out with the proposed region.
+
+432
+00:34:06,879 --> 00:34:10,040
+ And then your second stage is then to perform classification.
+
+433
+00:34:10,040 --> 00:34:12,759
+ So this is known as a two-stage detector.
+
+434
+00:34:12,759 --> 00:34:16,560
+ As opposed to that, for one-stage detector, it's quite straightforward.
+
+435
+00:34:16,560 --> 00:34:21,520
+ So you have a network, you have an image, go through a network.
+
+436
+00:34:21,520 --> 00:34:25,759
+ And afterwards, you'll go through two different head network here.
+
+437
+00:34:25,759 --> 00:34:32,360
+ One is to perform regression to find the region and then the second is to find out what category
+
+438
+00:34:32,360 --> 00:34:34,360
+ it belongs to for this region.
+
+439
+00:34:34,360 --> 00:34:39,960
+ So there's no need for you to introduce this proposed region.
+
+440
+00:34:39,960 --> 00:34:44,279
+ So that's why it's known as the one-stage detector.
+
+441
+00:34:44,280 --> 00:34:50,240
+ So we are going to look at, first of all, two-stage detectors.
+
+442
+00:34:50,240 --> 00:34:55,840
+ So as explained early on, for two-stage detector, we use techniques such as a region proposal
+
+443
+00:34:55,840 --> 00:35:00,080
+ network to propose possible object region.
+
+444
+00:35:00,080 --> 00:35:05,840
+ So we try to go through a network to detect some possible object regions here.
+
+445
+00:35:05,840 --> 00:35:11,040
+ So some of the popular methods include, for example, faster RCNN or mass RCNN.
+
+446
+00:35:11,040 --> 00:35:17,840
+ So until five, 10 years ago, these are relatively popular methods.
+
+447
+00:35:17,840 --> 00:35:22,360
+ Others you have this special spatial pyramid networks or feature pyramid.
+
+448
+00:35:22,360 --> 00:35:26,560
+ So all these fall under two-stage detector methods here.
+
+449
+00:35:26,560 --> 00:35:32,480
+ So compared to one-stage method, two-stage method in the past or older methods tends
+
+450
+00:35:32,480 --> 00:35:34,480
+ to be more accurate.
+
+451
+00:35:34,480 --> 00:35:36,840
+ But the shortcoming is that they tend to be slower.
+
+452
+00:35:36,840 --> 00:35:43,280
+ So traditionally, for two-stage method, it's more accurate, but it also requires more time
+
+453
+00:35:43,280 --> 00:35:46,520
+ and computation.
+
+454
+00:35:46,520 --> 00:35:53,600
+ So among the two-stage detector, region-based convolutional neural network or RCNN series
+
+455
+00:35:53,600 --> 00:35:59,240
+ of detector was quite well known in the early stage of object detection.
+
+456
+00:35:59,240 --> 00:36:05,560
+ So this series of object detector known as the RCNN, we have the RCNN, faster RCNN,
+
+457
+00:36:06,400 --> 00:36:07,560
+ and mass RCNN.
+
+458
+00:36:07,560 --> 00:36:10,040
+ So these are all closely related.
+
+459
+00:36:10,040 --> 00:36:16,400
+ And it was the earlier very representative two-stage object detection methods.
+
+460
+00:36:16,400 --> 00:36:23,720
+ So we are going to first of all look at the original region-based RCNN methods here.
+
+461
+00:36:23,720 --> 00:36:25,920
+ So this is the basic ideas of RCNN.
+
+462
+00:36:25,920 --> 00:36:27,960
+ So first you have an input image.
+
+463
+00:36:27,960 --> 00:36:32,480
+ So if you remember, for these types of methods, since it's a two-stage method, so you need
+
+464
+00:36:32,560 --> 00:36:36,560
+ to propose some region proposal.
+
+465
+00:36:36,560 --> 00:36:41,440
+ So you'll use some technique to propose different possible regions.
+
+466
+00:36:41,440 --> 00:36:48,160
+ So for this RCNN, they try to propose close to 2,000 region proposed region.
+
+467
+00:36:48,160 --> 00:36:52,280
+ So that's why you can see it's actually going to be very slow because you need to propose
+
+468
+00:36:52,280 --> 00:36:55,160
+ up to 2,000 possible candidates.
+
+469
+00:36:55,160 --> 00:36:57,600
+ So this obviously is very slow.
+
+470
+00:36:57,600 --> 00:37:02,400
+ But anyway, suppose you take one of these proposed regions, you warp it, you do a reshipping
+
+471
+00:37:02,520 --> 00:37:09,000
+ of this particular region, and afterwards you let it go through a RCNN network to extract
+
+472
+00:37:09,000 --> 00:37:10,560
+ some feature.
+
+473
+00:37:10,560 --> 00:37:14,000
+ So to extract some feature that is representative of this region.
+
+474
+00:37:14,000 --> 00:37:19,160
+ And then afterwards, during the earlier time, they used a support pattern machine to perform
+
+475
+00:37:19,160 --> 00:37:20,560
+ the classification.
+
+476
+00:37:20,560 --> 00:37:22,360
+ So that was an earlier method.
+
+477
+00:37:22,360 --> 00:37:30,240
+ So anyway, summary of this method is it generates a large number of regions, 2,000, around 2,000,
+
+478
+00:37:30,240 --> 00:37:32,680
+ and then extract feature from each region.
+
+479
+00:37:32,680 --> 00:37:37,000
+ So you can see for each region, we extract some feature using CNN.
+
+480
+00:37:37,000 --> 00:37:41,160
+ And then afterwards, with each region, it will classify using support factor machine,
+
+481
+00:37:41,160 --> 00:37:49,160
+ SPM, which was the older classifier method before deep learning become more popular.
+
+482
+00:37:51,160 --> 00:37:55,040
+ And then afterwards, it goes through a few different iterations, and then we have a more
+
+483
+00:37:55,040 --> 00:37:58,560
+ popular one, which is known as the faster RCNN.
+
+484
+00:37:58,560 --> 00:38:06,880
+ So the idea of faster RCNN actually is very similar to the original RCNN, but it just
+
+485
+00:38:06,880 --> 00:38:08,240
+ makes some improvement.
+
+486
+00:38:08,240 --> 00:38:10,160
+ So the basic principle is still the same.
+
+487
+00:38:10,160 --> 00:38:15,720
+ Given an image, you let it go through some convolutional layer to extract some feature.
+
+488
+00:38:15,720 --> 00:38:19,840
+ So from this feature map here, based on this feature map here, you'll come out with some
+
+489
+00:38:19,840 --> 00:38:25,279
+ using a region proposal network to propose some possible region, whereas the object map
+
+490
+00:38:25,279 --> 00:38:26,600
+ here.
+
+491
+00:38:26,640 --> 00:38:29,480
+ And then afterwards, you use the ROI pooling.
+
+492
+00:38:29,480 --> 00:38:34,400
+ That means you only pull out this region that correspond to the region of interest.
+
+493
+00:38:34,400 --> 00:38:39,319
+ And then for each of these regions of interest, you try to perform classification and regression
+
+494
+00:38:39,319 --> 00:38:41,920
+ to find out what the object is.
+
+495
+00:38:41,920 --> 00:38:49,160
+ So you just use a more efficient way of performing this region proposal.
+
+496
+00:38:49,160 --> 00:38:54,200
+ So this idea introduced a region proposal network known as the RPN.
+
+497
+00:38:54,200 --> 00:39:00,080
+ So this RPN makes use of the same features as compared to the detection branch.
+
+498
+00:39:00,080 --> 00:39:02,279
+ So you can see this is the initial network.
+
+499
+00:39:02,279 --> 00:39:03,919
+ You extract some feature.
+
+500
+00:39:03,919 --> 00:39:10,200
+ So your region proposal network is leveraging on these features here, which is used for
+
+501
+00:39:10,200 --> 00:39:11,319
+ the detection.
+
+502
+00:39:11,319 --> 00:39:15,080
+ So therefore, you do not need additional computation.
+
+503
+00:39:15,080 --> 00:39:17,960
+ You do not need a lot of additional computation.
+
+504
+00:39:17,960 --> 00:39:21,279
+ So it's shared the convolutional feature from the detection branch.
+
+505
+00:39:21,920 --> 00:39:24,360
+ It shares these common features here.
+
+506
+00:39:24,360 --> 00:39:28,920
+ So therefore, it would reduce the number of cores.
+
+507
+00:39:28,920 --> 00:39:35,840
+ So this RPN will predict the boundary, the bounding box, as well as no objectness score.
+
+508
+00:39:35,840 --> 00:39:41,760
+ That means how likely there's an object inside this proposed region.
+
+509
+00:39:41,760 --> 00:39:48,760
+ So this particular slide shows the performance of using a faster RCNM.
+
+510
+00:39:48,760 --> 00:39:55,240
+ So this is an earlier method, but it's actually still performing quite well for this faster RCNM.
+
+511
+00:39:55,240 --> 00:40:01,200
+ So if you do a quick comparison of different types of methods here, you can see your original
+
+512
+00:40:01,200 --> 00:40:07,840
+ RCNM is much slower because they need to detect up to 2,000 proposed regions.
+
+513
+00:40:07,840 --> 00:40:13,880
+ As compared to after a few iterations, the faster RCNM is already a lot more efficient
+
+514
+00:40:13,880 --> 00:40:16,480
+ and faster than the original RCNM.
+
+515
+00:40:16,480 --> 00:40:21,080
+ So we can see therefore, is there's a continuous improvement.
+
+516
+00:40:21,080 --> 00:40:26,440
+ So now we actually very clearly explained about the key principles of a two-stage detector.
+
+517
+00:40:26,440 --> 00:40:32,360
+ And also we go through some of the most representative two-stage detector, which is RCNM.
+
+518
+00:40:32,360 --> 00:40:37,160
+ Next, we are going to move on to the one-stage detectors.
+
+519
+00:40:37,160 --> 00:40:41,400
+ So one-stage detector, as I mentioned to you earlier, that means you try to predict
+
+520
+00:40:41,400 --> 00:40:44,800
+ the bounding box and the category directly.
+
+521
+00:40:44,800 --> 00:40:50,200
+ So one-stage detector try to regress, that means find the bounding box and then classify
+
+522
+00:40:50,200 --> 00:40:53,000
+ which category from the feature map directly.
+
+523
+00:40:53,000 --> 00:40:58,840
+ So among them, some of the most representative methods is YOLO, SSD, Centenet, Ephesian deck
+
+524
+00:40:58,840 --> 00:41:00,680
+ and so on and so forth.
+
+525
+00:41:00,680 --> 00:41:07,880
+ So compared to the two-stage detector, one-stage detector, it tends to be faster.
+
+526
+00:41:07,880 --> 00:41:15,200
+ And for older methods, actually the one-stage detector, the performance is not as good as
+
+527
+00:41:15,200 --> 00:41:21,280
+ two-stage, but in recent years, actually this one-stage detector, especially YOLO,
+
+528
+00:41:21,280 --> 00:41:23,360
+ is becoming more and more popular.
+
+529
+00:41:23,360 --> 00:41:30,600
+ So nowadays when people use this object detector, almost YOLO is their first choice, because
+
+530
+00:41:30,600 --> 00:41:34,880
+ it's fast and it's performing better and better now.
+
+531
+00:41:34,880 --> 00:41:40,440
+ So there was a trend that this one-stage detector, object detector is kind of dominated
+
+532
+00:41:40,440 --> 00:41:45,040
+ by this YOLO detector in recent years.
+
+533
+00:41:45,040 --> 00:41:48,440
+ So that's why we are going to spend a bit of time to look at this YOLO detector.
+
+534
+00:41:48,440 --> 00:41:51,920
+ So YOLO stands for You Only Look Once Detectors.
+
+535
+00:41:51,920 --> 00:41:57,600
+ So there's many iterations ready starting from YOLO V1, V2, V3 and so on and so forth.
+
+536
+00:41:57,600 --> 00:42:01,200
+ And this year, actually YOLO V10 came out already.
+
+537
+00:42:01,200 --> 00:42:05,480
+ So there's already 10 iterations of this YOLO.
+
+538
+00:42:05,480 --> 00:42:10,520
+ So each of these particular iterations of YOLO suggests some improvement.
+
+539
+00:42:10,520 --> 00:42:14,759
+ So that's why we are not going to go into the detail of each iteration, but rather look
+
+540
+00:42:14,759 --> 00:42:20,879
+ at some high-level features of the general architectures of YOLO.
+
+541
+00:42:20,879 --> 00:42:24,839
+ So the YOLO architecture, generally speaking, can be described by this.
+
+542
+00:42:24,839 --> 00:42:31,000
+ So first, if an input image, it will go through the backbone network to extract some features.
+
+543
+00:42:31,000 --> 00:42:35,960
+ So this can be, for example, your CNN network to extract different features.
+
+544
+00:42:35,960 --> 00:42:41,200
+ You can also see that, visualize that this particular feature actually is extracting
+
+545
+00:42:41,200 --> 00:42:45,000
+ kind of features in different scale, from bigger to smaller.
+
+546
+00:42:45,000 --> 00:42:50,920
+ So it's some convolutional network, for example, to extract features of different scale.
+
+547
+00:42:50,920 --> 00:42:57,920
+ So this is known as the backbone network is to perform the feature extractions for different
+
+548
+00:42:57,920 --> 00:43:02,640
+ scale because when you want to do object detection, sometimes the object is small, sometimes
+
+549
+00:43:02,640 --> 00:43:09,160
+ the object is big, so you need to be able to handle objects with different scale.
+
+550
+00:43:09,160 --> 00:43:11,600
+ And then afterwards, we have this head network here.
+
+551
+00:43:11,600 --> 00:43:14,960
+ So this head network now will perform the upscaling.
+
+552
+00:43:14,960 --> 00:43:16,520
+ So we'll make it bigger.
+
+553
+00:43:16,520 --> 00:43:20,000
+ So it's a little bit like a unit structure here.
+
+554
+00:43:20,000 --> 00:43:24,920
+ So initially, we extract features and become smaller and smaller scale.
+
+555
+00:43:24,920 --> 00:43:31,640
+ And afterwards, we up-sample it, taking some feature laterally to extract better and better
+
+556
+00:43:31,640 --> 00:43:34,400
+ features at different scale.
+
+557
+00:43:34,400 --> 00:43:40,120
+ And afterwards, this feature at different scale is put into a head network to perform
+
+558
+00:43:40,120 --> 00:43:47,520
+ the regression and classification, to predict these objects of potentially different scale,
+
+559
+00:43:47,520 --> 00:43:53,280
+ so that the head network is used to predict the classes as well as the bounding boxes.
+
+560
+00:43:53,280 --> 00:43:57,560
+ So this is a very crude high-level overview of YOLO series detectors.
+
+561
+00:43:57,560 --> 00:43:58,560
+ Right.
+
+562
+00:43:58,560 --> 00:44:03,800
+ OK, so YOLO detector currently is the state of the object detector, one of the best.
+
+563
+00:44:03,800 --> 00:44:04,800
+ Right.
+
+564
+00:44:04,800 --> 00:44:12,600
+ OK, so in recent year, you can see, for example, YOLO 7 is in 2022, YOLO 8 is 23, and this
+
+565
+00:44:12,600 --> 00:44:15,600
+ year alone, we have YOLO 9 and YOLO 10.
+
+566
+00:44:15,600 --> 00:44:16,600
+ Right.
+
+567
+00:44:16,600 --> 00:44:19,760
+ So it's progressing very quickly.
+
+568
+00:44:19,760 --> 00:44:23,240
+ So if you look at the performance matrix here, so we have already studied about this
+
+569
+00:44:23,240 --> 00:44:24,240
+ Cocoa AP.
+
+570
+00:44:24,240 --> 00:44:25,240
+ Right.
+
+571
+00:44:25,240 --> 00:44:27,919
+ So just now we mentioned about this Cocoa AP.
+
+572
+00:44:27,919 --> 00:44:33,160
+ So obviously, the larger the value is, the better your detection algorithm is.
+
+573
+00:44:33,160 --> 00:44:38,560
+ So therefore, for a good algorithm, you want the AP to be high, and we want the latency,
+
+574
+00:44:38,560 --> 00:44:41,919
+ right, the time for you to generate the result to be short.
+
+575
+00:44:41,919 --> 00:44:45,040
+ So therefore, a graph in this region will be good.
+
+576
+00:44:45,040 --> 00:44:50,000
+ So you can see this is YOLO V10 as compared to the earlier iterations of the YOLO.
+
+577
+00:44:50,000 --> 00:44:51,000
+ OK.
+
+578
+00:44:51,000 --> 00:44:54,520
+ So this graph is, progressively, is becoming better and better.
+
+579
+00:44:54,520 --> 00:45:00,160
+ So next, this graph shows the performance of the, again, AP, Cocoa AP versus the number
+
+580
+00:45:00,160 --> 00:45:02,880
+ of parameters, your network parameter.
+
+581
+00:45:02,880 --> 00:45:05,800
+ Obviously we want a smaller parameter is better.
+
+582
+00:45:05,800 --> 00:45:09,280
+ So therefore, right, you want it to be in this region again.
+
+583
+00:45:09,280 --> 00:45:12,480
+ Again, you can see YOLO V10 is getting better.
+
+584
+00:45:12,480 --> 00:45:13,600
+ Right.
+
+585
+00:45:13,600 --> 00:45:17,400
+ So this slide here shows comparison.
+
+586
+00:45:17,400 --> 00:45:20,840
+ Actually, frankly speaking, when I look at it, I can hardly tell any difference because
+
+587
+00:45:20,880 --> 00:45:23,360
+ all trees are performing quite well now.
+
+588
+00:45:23,360 --> 00:45:25,360
+ But anyway, just to give you a few.
+
+589
+00:45:25,360 --> 00:45:26,360
+ Yeah.
+
+590
+00:45:26,360 --> 00:45:49,360
+ So these are the three YOLO recent YOLO factors of the AP.
+
+591
+00:45:49,400 --> 00:45:50,400
+ OK.
+
+592
+00:45:50,400 --> 00:45:53,240
+ So the next types of detector we want to look at is a lightweight detector.
+
+593
+00:45:53,240 --> 00:45:54,920
+ So what is a lightweight detector?
+
+594
+00:45:54,920 --> 00:45:58,920
+ So lightweight detector is used for resource-limited devices.
+
+595
+00:45:58,920 --> 00:46:03,480
+ For example, you may want to have some camera that is powered by a battery and sitting at
+
+596
+00:46:03,480 --> 00:46:04,760
+ some remote corner.
+
+597
+00:46:04,760 --> 00:46:05,760
+ Right.
+
+598
+00:46:05,760 --> 00:46:06,760
+ OK.
+
+599
+00:46:06,760 --> 00:46:11,320
+ So therefore, for those kind of devices, you want it to be lightweight, you want it
+
+600
+00:46:11,320 --> 00:46:12,320
+ to be efficient.
+
+601
+00:46:12,320 --> 00:46:13,320
+ Right.
+
+602
+00:46:13,320 --> 00:46:14,320
+ OK.
+
+603
+00:46:14,320 --> 00:46:18,360
+ So lightweight detectors, generally speaking, is small, is fast, and is efficient.
+
+604
+00:46:18,600 --> 00:46:19,600
+ OK.
+
+605
+00:46:19,600 --> 00:46:25,840
+ So some of the representative methods, for example, include MobileNet V2-based SSD.
+
+606
+00:46:25,840 --> 00:46:26,840
+ Right.
+
+607
+00:46:26,840 --> 00:46:32,920
+ So MobileNet V2, and when we study CNN before, we know that actually it's one of those very
+
+608
+00:46:32,920 --> 00:46:34,920
+ compact networks.
+
+609
+00:46:34,920 --> 00:46:35,920
+ OK.
+
+610
+00:46:35,920 --> 00:46:41,880
+ And if you combine with this SSD single-shot detector, then it actually has a name called
+
+611
+00:46:41,880 --> 00:46:42,880
+ MediaPart.
+
+612
+00:46:42,880 --> 00:46:43,880
+ Right.
+
+613
+00:46:43,880 --> 00:46:44,880
+ OK.
+
+614
+00:46:44,880 --> 00:46:47,560
+ So this is the representative methods of a lightweight detector.
+
+615
+00:46:47,560 --> 00:46:51,120
+ Other methods include, for example, ShafferNet, SqueezeNet, and so on.
+
+616
+00:46:51,120 --> 00:46:55,560
+ So the advantage of this is they are very fast, they are very efficient, but the disadvantage
+
+617
+00:46:55,560 --> 00:46:59,720
+ is, as you can think, as you can see, it cannot be good all the time.
+
+618
+00:46:59,720 --> 00:47:02,400
+ So the disadvantage is it's not as accurate.
+
+619
+00:47:02,400 --> 00:47:03,400
+ Right.
+
+620
+00:47:03,400 --> 00:47:04,400
+ OK.
+
+621
+00:47:04,400 --> 00:47:10,440
+ So let's look at, take one of the examples, for example, MobileNet, to see how does it
+
+622
+00:47:10,440 --> 00:47:12,799
+ make it more efficient and lightweight.
+
+623
+00:47:12,800 --> 00:47:18,760
+ So MobileNet is a very representative method, right, that, you know, leverage on some, exploit
+
+624
+00:47:18,760 --> 00:47:22,200
+ some properties to perform convolution, to make it more efficient.
+
+625
+00:47:22,200 --> 00:47:26,480
+ So it makes use of a technique known as a depth-wise separable convolution, to reduce
+
+626
+00:47:26,480 --> 00:47:27,740
+ the computation.
+
+627
+00:47:27,740 --> 00:47:30,800
+ So what is a depth-wise separable convolution?
+
+628
+00:47:30,800 --> 00:47:38,160
+ So if you look at, for example, this particular case here, so typically in normal convolution,
+
+629
+00:47:38,160 --> 00:47:45,000
+ right, when you want to perform a convolution, so you will need a filter or kernel of dk
+
+630
+00:47:45,000 --> 00:47:49,480
+ by dk, for example, 3 by 3, yeah, 3 by 3 here.
+
+631
+00:47:49,480 --> 00:47:52,140
+ And then this m here is a number of the channel.
+
+632
+00:47:52,140 --> 00:47:58,960
+ So if you want to perform a convolution to generate one output channel, you need dk by
+
+633
+00:47:58,960 --> 00:48:05,200
+ dk, right, OK, for example, 3 by 3, and then you need to have this m, which is the depth
+
+634
+00:48:05,200 --> 00:48:07,200
+ of your input channel.
+
+635
+00:48:07,200 --> 00:48:12,399
+ So in order to generate one output channel, you need one of this filter, right, to apply
+
+636
+00:48:12,399 --> 00:48:16,919
+ across the whole, you know, image domain.
+
+637
+00:48:16,919 --> 00:48:21,919
+ So therefore, if you want to generate an output filter, then you need n of these numbers of
+
+638
+00:48:21,919 --> 00:48:23,439
+ filters here.
+
+639
+00:48:23,439 --> 00:48:29,560
+ So you can see these are the number of parameters as well as the corresponding computation that
+
+640
+00:48:29,560 --> 00:48:35,160
+ you need to perform, yeah, if you are using traditional CNN network.
+
+641
+00:48:35,160 --> 00:48:43,200
+ So as opposed to that, actually, right, for mobile net, it break it into two parts here.
+
+642
+00:48:43,200 --> 00:48:49,120
+ One is that depth-wise convolution filter, right, so this filter here actually corresponds
+
+643
+00:48:49,120 --> 00:48:56,080
+ to, you know, each of the small filter, each depth or each slices, OK, so this 1, 2, 3,
+
+644
+00:48:56,080 --> 00:49:00,080
+ 4, 5, actually you can kind of think about this one slices at each of these parts here,
+
+645
+00:49:00,080 --> 00:49:03,600
+ OK, and then afterwards you have a point-wise convolution.
+
+646
+00:49:03,600 --> 00:49:10,120
+ So you will then convolve it at each, you know, point, OK, so therefore, for mobile
+
+647
+00:49:10,120 --> 00:49:17,120
+ net, actually, it performed this depth-wise separable convolution, which is divided into
+
+648
+00:49:17,120 --> 00:49:20,400
+ depth-wise convolution and a point-wise convolution.
+
+649
+00:49:20,400 --> 00:49:25,799
+ So depth-wise convolution is to apply a single filter to each input channel, and point-wise
+
+650
+00:49:25,799 --> 00:49:29,319
+ convolution is then applied one by one convolution.
+
+651
+00:49:29,320 --> 00:49:33,720
+ So the easiest way to understand this is by looking at this particular diagram here.
+
+652
+00:49:33,720 --> 00:49:38,440
+ So suppose you have a particular input volume here, so this different color refers to different
+
+653
+00:49:38,440 --> 00:49:44,560
+ channel, right, so, right, if you want to perform this depth-wise separable convolution,
+
+654
+00:49:44,560 --> 00:49:47,720
+ first of all is we perform depth-wise convolution.
+
+655
+00:49:47,720 --> 00:49:51,720
+ So depth-wise convolution means that, for example, you take the first filter, right,
+
+656
+00:49:51,720 --> 00:49:57,720
+ this small filter here, right, you only, you apply this convolution only to this one channel,
+
+657
+00:49:58,120 --> 00:50:02,560
+ OK, you apply the convolution to one channel, and you generate the output.
+
+658
+00:50:02,560 --> 00:50:09,640
+ And afterwards you take the second filter, one slice of the, you know, this filter, and
+
+659
+00:50:09,640 --> 00:50:14,959
+ then you perform convolution, depth-wise convolution, on the second channel to generate the output.
+
+660
+00:50:14,959 --> 00:50:21,480
+ So you use all these different depth-wise filters, you perform convolution on each channel,
+
+661
+00:50:21,480 --> 00:50:24,439
+ right, then you generate the output here.
+
+662
+00:50:24,560 --> 00:50:30,040
+ So this output you arranged it as before, and then now at each position here you perform
+
+663
+00:50:30,040 --> 00:50:31,640
+ one by one convolution.
+
+664
+00:50:31,640 --> 00:50:37,040
+ So one by one means that actually it's just one value, thick, OK, one value, but don't
+
+665
+00:50:37,040 --> 00:50:42,160
+ forget there's actually a depth dimension, right, so therefore you just put this particular
+
+666
+00:50:42,160 --> 00:50:48,160
+ one by one at each position, you perform the convolution, then you generate one value here.
+
+667
+00:50:48,160 --> 00:50:53,320
+ So if you take this, you move it across the whole volume, then you are going to generate
+
+668
+00:50:53,320 --> 00:50:56,240
+ one channel, so this corresponds to one filter.
+
+669
+00:50:56,240 --> 00:51:03,400
+ So next, if you make use of the next point-wise filter, you repeat the same operation, then
+
+670
+00:51:03,400 --> 00:51:05,440
+ you generate the next channel.
+
+671
+00:51:05,440 --> 00:51:09,800
+ So you can see by doing that, by performing this depth-wise separable convolution, right,
+
+672
+00:51:09,800 --> 00:51:16,160
+ the number of parameters you can visualize quite easily, right, so this is original CNN,
+
+673
+00:51:16,160 --> 00:51:22,440
+ the number of parameters, and they are corresponding computation versus this depth-wise separable,
+
+674
+00:51:22,680 --> 00:51:26,680
+ right, so this is only one by one, OK, and this is only one slide.
+
+675
+00:51:26,680 --> 00:51:32,240
+ So the number of parameters that's required and computation that's required has been reduced
+
+676
+00:51:32,240 --> 00:51:33,240
+ significantly.
+
+677
+00:51:35,120 --> 00:51:38,680
+ OK, so that's one of the representative methods.
+
+678
+00:51:38,680 --> 00:51:42,240
+ So the next thing we are going to look at is some new and emerging techniques.
+
+679
+00:51:42,240 --> 00:51:46,240
+ So the new emerging techniques that we are going to look at is this Srin transformer
+
+680
+00:51:46,240 --> 00:51:47,240
+ here.
+
+681
+00:51:47,240 --> 00:51:50,440
+ So some of you have probably heard about this Srin transformer.
+
+682
+00:51:50,440 --> 00:51:52,240
+ So what is this Srin transformer?
+
+683
+00:51:52,240 --> 00:51:57,560
+ So Srin transformer is a popular recent image classification and object detection method,
+
+684
+00:51:57,560 --> 00:52:03,879
+ so it can be used to perform image classification or object detection or segmentation here.
+
+685
+00:52:03,879 --> 00:52:08,479
+ So it's served as a general purpose backbone for computer vision, so, right, just like
+
+686
+00:52:08,479 --> 00:52:14,080
+ the VIT that we have studied in the previous lecture, given the image, you partition it
+
+687
+00:52:14,080 --> 00:52:20,200
+ into different patches, and for each of the patches, by going through the transformer
+
+688
+00:52:20,200 --> 00:52:21,359
+ encoder,
+
+689
+00:52:21,360 --> 00:52:27,480
+ you can progressively extract better and better feature for each of the patches, right, by
+
+690
+00:52:27,480 --> 00:52:29,560
+ using the self-attention.
+
+691
+00:52:29,560 --> 00:52:34,880
+ You try to find, OK, for this kind of patch, what is the contributions of other patches
+
+692
+00:52:34,880 --> 00:52:42,000
+ to work sit so that you can get better and better context factor representation for the
+
+693
+00:52:42,000 --> 00:52:44,080
+ particular image patch?
+
+694
+00:52:44,080 --> 00:52:45,280
+ Those are VIT.
+
+695
+00:52:45,280 --> 00:52:49,760
+ So for Srin transformer is performing similar growth as well.
+
+696
+00:52:49,760 --> 00:52:54,640
+ It can serve as a general purpose backbone for computer vision, right, and it can also
+
+697
+00:52:54,640 --> 00:52:59,120
+ achieve this hierarchical feature map that we'll see later, right.
+
+698
+00:52:59,120 --> 00:53:04,160
+ So let's look at, first of all, what's the basic principles of this Srin transformer
+
+699
+00:53:04,160 --> 00:53:05,160
+ here?
+
+700
+00:53:05,160 --> 00:53:08,920
+ So the basic principles of Srin transformer is, right, in order to understand, first of
+
+701
+00:53:08,920 --> 00:53:12,520
+ all, let's look at this VIT, right.
+
+702
+00:53:12,520 --> 00:53:17,480
+ So VIT, if you remember, what we have is that even a particular image, we partition it
+
+703
+00:53:17,480 --> 00:53:21,400
+ into numerous, OK, image patches.
+
+704
+00:53:21,400 --> 00:53:26,880
+ So each of the image patches is 16 by 60, yeah, and afterwards, right, we convert each
+
+705
+00:53:26,880 --> 00:53:32,040
+ of these patches into a vector, and then afterwards we perform, we let go through a transformer
+
+706
+00:53:32,040 --> 00:53:33,560
+ encoder, right.
+
+707
+00:53:33,560 --> 00:53:41,240
+ So for each of these particular token or vector embeddings here, we try to look at the contributions
+
+708
+00:53:41,240 --> 00:53:47,520
+ of all the other patches to work so that you can generate better feature representation
+
+709
+00:53:47,520 --> 00:53:50,319
+ at the next encoder layer, OK.
+
+710
+00:53:50,319 --> 00:53:57,759
+ So you repeat this numerous time, right, such that after each of the encoder layer, your
+
+711
+00:53:57,759 --> 00:54:03,200
+ feature representation at each of the patches becoming better and better, become more and
+
+712
+00:54:03,200 --> 00:54:08,200
+ more representative because you are extracting information from the neighboring patches.
+
+713
+00:54:08,200 --> 00:54:11,560
+ So this is the key ideas of the VIT.
+
+714
+00:54:11,560 --> 00:54:15,359
+ But what is the price you have to pay?
+
+715
+00:54:15,359 --> 00:54:30,399
+ What is one of the key drawbacks of this VIT?
+
+716
+00:54:30,399 --> 00:54:36,779
+ What is the key drawbacks of VIT?
+
+717
+00:54:36,780 --> 00:54:39,980
+ So the key shortcomings of VIT is actually there are two.
+
+718
+00:54:39,980 --> 00:54:46,060
+ Number one is that when you are trying to, for example, find these particular feature
+
+719
+00:54:46,060 --> 00:54:51,860
+ vectors here through the self-attention, you need to find the relationship of all the patches,
+
+720
+00:54:51,860 --> 00:54:56,460
+ the contributions of all the patches, respect to this current patch here.
+
+721
+00:54:56,460 --> 00:55:01,420
+ So that means you need to look at the relationship between this, but the attention of all the
+
+722
+00:55:01,420 --> 00:55:04,780
+ patches with respect to this current patch, right.
+
+723
+00:55:04,780 --> 00:55:08,580
+ OK, and you can think about it, this is very time consuming.
+
+724
+00:55:08,580 --> 00:55:12,420
+ So therefore, number one is that if you use VIT, it's very time consuming.
+
+725
+00:55:12,420 --> 00:55:13,420
+ That's number one.
+
+726
+00:55:13,420 --> 00:55:17,580
+ Number two is that for VIT, they use the patch size of 16 by 16.
+
+727
+00:55:17,580 --> 00:55:20,220
+ And this 16 by 16 is a bit too big.
+
+728
+00:55:20,220 --> 00:55:21,740
+ The resolution is too low.
+
+729
+00:55:21,740 --> 00:55:26,780
+ So therefore, it may not be able to support some applications such as, for example, if
+
+730
+00:55:26,780 --> 00:55:32,300
+ you need to perform some dense task such as segmentation, it may not be able to do it
+
+731
+00:55:32,300 --> 00:55:33,300
+ up because it's too big.
+
+732
+00:55:33,300 --> 00:55:35,020
+ Each of the blocks is too big.
+
+733
+00:55:35,020 --> 00:55:39,780
+ Right, so to address that, people propose this string transformer here.
+
+734
+00:55:39,780 --> 00:55:45,020
+ So this string transformer here, what they do is that first of all, for each of these
+
+735
+00:55:45,020 --> 00:55:49,700
+ particular small regions of patches, it's actually 4 by 4.
+
+736
+00:55:49,700 --> 00:55:54,620
+ So they partition this particular patch of region into 4 by 4.
+
+737
+00:55:54,620 --> 00:55:56,860
+ So you have this 4 by 4 here.
+
+738
+00:55:56,860 --> 00:56:05,300
+ So afterwards, at the initial level, when you want to calculate the cell attention,
+
+739
+00:56:05,300 --> 00:56:10,700
+ you only calculate the cell attention between this window, this red region here, this is
+
+740
+00:56:10,700 --> 00:56:11,700
+ the window.
+
+741
+00:56:11,700 --> 00:56:15,980
+ Let me see, if we want to find the features for this particular current patch, you only
+
+742
+00:56:15,980 --> 00:56:20,060
+ find its self attention respect to this particular window here.
+
+743
+00:56:20,060 --> 00:56:23,500
+ Likewise for this, only with respect to this window.
+
+744
+00:56:23,500 --> 00:56:29,500
+ So therefore, by restricting the attention to a smaller region, you do not need to find
+
+745
+00:56:29,500 --> 00:56:33,380
+ the attention of those patches which are far away.
+
+746
+00:56:33,380 --> 00:56:37,740
+ So therefore, you reduce the number of attention that you need to compute.
+
+747
+00:56:37,740 --> 00:56:42,740
+ So by doing that, because you only calculate the attention between the particular region,
+
+748
+00:56:42,740 --> 00:56:44,660
+ therefore it's faster.
+
+749
+00:56:44,660 --> 00:56:45,900
+ So that's number one.
+
+750
+00:56:45,900 --> 00:56:50,820
+ Number two is that, you can see in the early layers, it's 4 by 4.
+
+751
+00:56:50,820 --> 00:56:51,940
+ The patch is 4 by 4.
+
+752
+00:56:51,940 --> 00:56:55,020
+ So actually, the resolution is much higher.
+
+753
+00:56:55,020 --> 00:56:57,860
+ It's a very high resolution.
+
+754
+00:56:57,860 --> 00:57:03,900
+ And afterwards, in the next layer, we'll take each 2 by 2 patch, we combine them.
+
+755
+00:57:03,900 --> 00:57:09,060
+ We combine them, we do a patch merging to become now 8 by 8.
+
+756
+00:57:09,060 --> 00:57:13,660
+ So now, for each of these, patch now is 8 by 8.
+
+757
+00:57:13,660 --> 00:57:17,620
+ You can see this 4 now is merged into 1.
+
+758
+00:57:17,620 --> 00:57:22,460
+ And afterwards, to find the better feature in this region, you perform the self-attention
+
+759
+00:57:22,460 --> 00:57:26,180
+ across all these patches here.
+
+760
+00:57:26,180 --> 00:57:30,380
+ So again, you only calculate the attention across this small window.
+
+761
+00:57:30,380 --> 00:57:35,620
+ So therefore, you can improve the computational efficiency.
+
+762
+00:57:35,620 --> 00:57:41,819
+ And then finally, if we continue, so for this 2 by 2 patch you combine, then you reach here.
+
+763
+00:57:41,819 --> 00:57:44,140
+ So therefore, there are two things that has been achieved.
+
+764
+00:57:44,140 --> 00:57:49,980
+ Number one is that by only looking at the attention within the particular window, you
+
+765
+00:57:49,980 --> 00:57:51,940
+ reduce the computation of time.
+
+766
+00:57:51,940 --> 00:57:56,580
+ Number two is that initially, we use a small patch, and afterwards, we progressively merge
+
+767
+00:57:56,580 --> 00:57:57,580
+ it.
+
+768
+00:57:57,580 --> 00:58:04,540
+ So you will have a feature with different hierarchical representation, different scheme.
+
+769
+00:58:04,540 --> 00:58:06,060
+ So that's the basic idea.
+
+770
+00:58:06,060 --> 00:58:11,620
+ So we can see that it says that the Swin transformer, a built hierarchical feature, you can see
+
+771
+00:58:11,620 --> 00:58:16,380
+ feature with different resolution by merging image patches.
+
+772
+00:58:16,380 --> 00:58:20,940
+ So each of these initially, every 2 by 2 block, when you go to a higher level, you merge
+
+773
+00:58:20,940 --> 00:58:21,940
+ them.
+
+774
+00:58:21,940 --> 00:58:26,220
+ Every 2 by 2 block, you merge it.
+
+775
+00:58:26,220 --> 00:58:33,660
+ And then in deeper layer, it has a linear computational complexity because it only consider the attention
+
+776
+00:58:33,660 --> 00:58:34,660
+ within this window.
+
+777
+00:58:34,819 --> 00:58:39,660
+ It doesn't need to consider the patches in all the other window.
+
+778
+00:58:39,660 --> 00:58:40,660
+ Okay.
+
+779
+00:58:42,660 --> 00:58:43,660
+ Right, okay.
+
+780
+00:58:43,660 --> 00:58:49,299
+ Because it only, yeah, it has linear computational complexity due to the computation of self-attention
+
+781
+00:58:49,299 --> 00:58:52,220
+ only within each local window.
+
+782
+00:58:52,220 --> 00:58:54,220
+ So each local window.
+
+783
+00:58:54,220 --> 00:58:59,379
+ Right, so it can serve as a general purpose backbone, as I mentioned to you before, and
+
+784
+00:58:59,379 --> 00:59:03,660
+ it can perform dense reclamation because some of the patches are very small, high resolution,
+
+785
+00:59:03,660 --> 00:59:07,060
+ so you can do very dense tasks such as object detection.
+
+786
+00:59:07,060 --> 00:59:11,580
+ Right, so as opposed this previous vision transformer that we explained in the previous
+
+787
+00:59:11,580 --> 00:59:19,460
+ lectures, right, okay, that only has single low resolution, 16 by 16, and it has quadratic
+
+788
+00:59:19,460 --> 00:59:24,620
+ computation, right, respect to input image because for each patch, you need to find
+
+789
+00:59:24,620 --> 00:59:27,339
+ the attention for all the patches in the image.
+
+790
+00:59:27,339 --> 00:59:32,660
+ So these are the key difference between scene transformer and vision transformer.
+
+791
+00:59:32,660 --> 00:59:36,660
+ Okay, so let me just go through one or two more slides quickly.
+
+792
+00:59:36,660 --> 00:59:43,660
+ Right, okay, so this is the basic architectures, right, so this diagram just now we have already
+
+793
+00:59:43,660 --> 00:59:44,660
+ explained.
+
+794
+00:59:44,660 --> 00:59:47,980
+ Right, so the basic idea architecture of the scene transformer is that it will split
+
+795
+00:59:47,980 --> 00:59:51,700
+ the input RGB image into non-overlapping 4 by 4 patch.
+
+796
+00:59:51,700 --> 00:59:57,779
+ So given a particular image, you partition it into, okay, numerous 4 by 4 patches like
+
+797
+00:59:57,779 --> 00:59:58,779
+ this.
+
+798
+00:59:58,779 --> 00:59:59,779
+ Okay.
+
+799
+01:00:00,060 --> 01:00:03,700
+ Right, and then afterwards you will have this a scene transformer block for learning.
+
+800
+01:00:03,700 --> 01:00:04,700
+ So how does it work?
+
+801
+01:00:04,700 --> 01:00:05,700
+ Let me see.
+
+802
+01:00:05,700 --> 01:00:10,460
+ Yeah, so maybe let me just simply use this diagram to explain the high level intuition
+
+803
+01:00:10,460 --> 01:00:16,820
+ before we come back to the complete architectures here.
+
+804
+01:00:16,820 --> 01:00:20,260
+ So the basic idea of this scene transformer block, right, so is this.
+
+805
+01:00:20,260 --> 01:00:22,420
+ So this is a scene transformer block here.
+
+806
+01:00:22,420 --> 01:00:27,540
+ So this scene transformer block can be further divided into this, okay, window-based multi-hate
+
+807
+01:00:27,540 --> 01:00:29,620
+ style attention, okay.
+
+808
+01:00:29,620 --> 01:00:34,859
+ And this shifted window-based multi-hate style attention.
+
+809
+01:00:34,859 --> 01:00:40,700
+ So this part here is actually the window-based multi-hate style attention, okay.
+
+810
+01:00:40,700 --> 01:00:45,380
+ And this part here is the shifted window-based multi-hate style attention.
+
+811
+01:00:45,380 --> 01:00:49,859
+ So this part here, if you look at this, you will see that this is something very similar
+
+812
+01:00:49,859 --> 01:00:51,859
+ to the VIT structure.
+
+813
+01:00:51,859 --> 01:00:57,140
+ Yeah, so it's just similar to the VIT structures that you have seen before, okay.
+
+814
+01:00:57,140 --> 01:00:59,259
+ However, they introduce this window.
+
+815
+01:00:59,260 --> 01:01:00,580
+ So this is what it means.
+
+816
+01:01:00,580 --> 01:01:02,780
+ They introduce this different window.
+
+817
+01:01:02,780 --> 01:01:07,140
+ So VIT, they will consider the whole thing as a single image.
+
+818
+01:01:07,140 --> 01:01:12,340
+ But for scene transformer, you will partition it into different window here, okay.
+
+819
+01:01:12,340 --> 01:01:16,260
+ So therefore we can see it's a window-based multi-hate style attention.
+
+820
+01:01:16,260 --> 01:01:22,020
+ In layer L, a regular window partition scheme is adopted.
+
+821
+01:01:22,020 --> 01:01:25,980
+ For example, in this illustration, we partition it into four different window.
+
+822
+01:01:25,980 --> 01:01:29,120
+ And the style attention is computed only within this window.
+
+823
+01:01:29,120 --> 01:01:34,040
+ So as opposed to the traditional VIT, traditional VIT you may need to, if you want to find the
+
+824
+01:01:34,040 --> 01:01:39,960
+ attention for this patch, you may need to look at the attention with respect to all
+
+825
+01:01:39,960 --> 01:01:42,520
+ the patches in the image.
+
+826
+01:01:42,520 --> 01:01:47,799
+ But scene transformer, we divide them into different window, yeah, so that we only need
+
+827
+01:01:47,799 --> 01:01:52,600
+ to look at the self-attentions of all the patches within this window, okay.
+
+828
+01:01:52,600 --> 01:01:54,200
+ So likewise for this.
+
+829
+01:01:54,200 --> 01:01:59,600
+ So this is what we do for this window-based style attention in order to calculate the next
+
+830
+01:01:59,600 --> 01:02:00,879
+ layer better feature.
+
+831
+01:02:00,879 --> 01:02:03,680
+ We only look at attention for this window here.
+
+832
+01:02:03,680 --> 01:02:07,919
+ But if you simply look at attention for this window here, there's a shot coming, which
+
+833
+01:02:07,919 --> 01:02:14,000
+ is some of the, for example, patches here may not be able to leverage on the information
+
+834
+01:02:14,000 --> 01:02:17,279
+ from patches from the other window, right.
+
+835
+01:02:17,279 --> 01:02:18,720
+ So therefore how do we do it?
+
+836
+01:02:18,720 --> 01:02:23,000
+ How we solve this problem is we introduce this shifted window-based style attention.
+
+837
+01:02:23,000 --> 01:02:27,480
+ So after this layer, in the next layer, our window partition is shifted.
+
+838
+01:02:27,480 --> 01:02:32,680
+ So instead of like this, now this window here, we move it to the middle, okay.
+
+839
+01:02:32,680 --> 01:02:35,600
+ We move it, this window here, we move it to the middle.
+
+840
+01:02:35,600 --> 01:02:38,720
+ And then this part here and this part is actually wrapped around, okay.
+
+841
+01:02:38,720 --> 01:02:40,000
+ It's wrapped around.
+
+842
+01:02:40,000 --> 01:02:44,440
+ So this and this is more like wrapped around, this and this is wrapped around, and this fall
+
+843
+01:02:44,440 --> 01:02:47,560
+ is actually kind of like tube, they are wrapped around.
+
+844
+01:02:47,560 --> 01:02:51,760
+ So therefore, now your window here, right, for example, this patch here you can find
+
+845
+01:02:51,760 --> 01:02:56,040
+ is attention respect to some patches in the other corner.
+
+846
+01:02:56,040 --> 01:03:01,800
+ So therefore you encourage information exchange across different window rather than just simply
+
+847
+01:03:01,800 --> 01:03:04,840
+ using a single window, okay.
+
+848
+01:03:04,840 --> 01:03:06,040
+ So that's the basic idea.
+
+849
+01:03:06,040 --> 01:03:09,960
+ So the basic idea of scene transformer is that given an image, we partition it into different
+
+850
+01:03:09,960 --> 01:03:14,560
+ window, right, and we only calculate the attention within the window.
+
+851
+01:03:14,560 --> 01:03:20,160
+ And then afterwards we use the shifted window to ensure that, you know, the attention can,
+
+852
+01:03:20,399 --> 01:03:25,240
+ can be exchanged across different window rather than a fixed window.
+
+853
+01:03:25,240 --> 01:03:30,640
+ Because if you use a fixed window, you know, we can never leverage on information of the
+
+854
+01:03:30,640 --> 01:03:34,160
+ other patches across different window.
+
+855
+01:03:34,160 --> 01:03:40,240
+ So once we have that understanding, now let's look at this particular diagram again.
+
+856
+01:03:40,240 --> 01:03:45,480
+ So this diagram just now, this is actually the scene transformer block that we mentioned,
+
+857
+01:03:45,480 --> 01:03:46,480
+ right.
+
+858
+01:03:46,480 --> 01:03:50,160
+ So therefore you look at the attention in one window, and then afterwards you look at
+
+859
+01:03:50,160 --> 01:03:53,160
+ the attention of the shifted window, right, okay.
+
+860
+01:03:53,160 --> 01:03:58,720
+ So this part here, and this particular part just now we have already explained in the
+
+861
+01:03:58,720 --> 01:04:00,000
+ previous slides here.
+
+862
+01:04:00,000 --> 01:04:03,520
+ So this is the architectures of the scene transformer block.
+
+863
+01:04:03,520 --> 01:04:08,280
+ So first of all, we have an image which is a H type times width times three, right, is
+
+864
+01:04:08,280 --> 01:04:09,600
+ a color image.
+
+865
+01:04:09,600 --> 01:04:13,160
+ So we partition it into numerous patches.
+
+866
+01:04:13,160 --> 01:04:16,640
+ So each patch is actually four by four by three.
+
+867
+01:04:16,640 --> 01:04:18,279
+ Dimension is four by four by three.
+
+868
+01:04:18,279 --> 01:04:23,279
+ So four by four by three, four times four times three is actually 48.
+
+869
+01:04:23,279 --> 01:04:28,520
+ So therefore after we perform this partition, right, okay, each of the patch now would
+
+870
+01:04:28,520 --> 01:04:31,879
+ have 48 dimension effectors.
+
+871
+01:04:31,879 --> 01:04:38,799
+ And then because we are using four by four patch, so the number of patches, okay, vertically,
+
+872
+01:04:38,800 --> 01:04:43,760
+ horizontally now is H divided by four times W divided by four.
+
+873
+01:04:43,760 --> 01:04:48,640
+ So this is the total number of patches after you perform the partitioning into four by
+
+874
+01:04:48,640 --> 01:04:51,560
+ four, okay, four by four, right, okay.
+
+875
+01:04:51,560 --> 01:04:54,520
+ And afterwards we will do the linear embedding.
+
+876
+01:04:54,520 --> 01:05:00,720
+ We will project, we use a matrix to project this 48 dimensional vector, each of them,
+
+877
+01:05:00,720 --> 01:05:04,520
+ 48 dimensional vector, into C dimensional vector.
+
+878
+01:05:04,520 --> 01:05:09,880
+ So this C value can be chosen, right, based on different types of model that you have,
+
+879
+01:05:09,880 --> 01:05:10,880
+ okay.
+
+880
+01:05:10,880 --> 01:05:12,160
+ So this is the linear embedding.
+
+881
+01:05:12,160 --> 01:05:15,600
+ And afterwards you let it go through this string transformer block, which is this part
+
+882
+01:05:15,600 --> 01:05:16,720
+ here.
+
+883
+01:05:16,720 --> 01:05:22,480
+ So which is you try to find the cell attention, no, within the window.
+
+884
+01:05:22,480 --> 01:05:27,480
+ And afterwards you try to find the attention across shifted window, right.
+
+885
+01:05:27,480 --> 01:05:29,840
+ So you repeat it a number of times.
+
+886
+01:05:29,840 --> 01:05:34,480
+ So once you have done that, so at the end of this is you have a better feature representation
+
+887
+01:05:34,480 --> 01:05:35,520
+ already.
+
+888
+01:05:35,520 --> 01:05:38,120
+ But next we want to move on to the next layer.
+
+889
+01:05:38,120 --> 01:05:40,600
+ So we do the patch emerging now.
+
+890
+01:05:40,600 --> 01:05:45,560
+ So this patch emerging means that now every two by two patches from here, we merge it
+
+891
+01:05:45,560 --> 01:05:47,400
+ into one, okay.
+
+892
+01:05:47,400 --> 01:05:51,400
+ So every two by two patches, we merge it into one, okay.
+
+893
+01:05:51,400 --> 01:05:56,640
+ So you merge it into one, you can see that now, right, the size now will be H divided
+
+894
+01:05:56,640 --> 01:05:59,520
+ by eight by W divided by eight.
+
+895
+01:05:59,520 --> 01:06:02,880
+ So it's H over eight times H over eight, right.
+
+896
+01:06:02,880 --> 01:06:07,440
+ So when you merge them, initially the dimension is C, but if you merge four of them, then
+
+897
+01:06:07,440 --> 01:06:08,440
+ it becomes 4C.
+
+898
+01:06:08,440 --> 01:06:13,520
+ But this 4C will let it go through a matrix to project it to 2C, right.
+
+899
+01:06:13,520 --> 01:06:15,560
+ So the vector now will be reduced, right.
+
+900
+01:06:15,560 --> 01:06:18,600
+ And afterwards, so now you have this number of patches.
+
+901
+01:06:18,600 --> 01:06:21,040
+ Each one is of dimension 2C.
+
+902
+01:06:21,040 --> 01:06:26,560
+ You let it go through this string transformer block to perform, you know, the feature extraction
+
+903
+01:06:26,560 --> 01:06:31,000
+ through the cell attention, window base and shifted window base, you'll get better feature,
+
+904
+01:06:31,000 --> 01:06:32,000
+ right.
+
+905
+01:06:32,000 --> 01:06:37,960
+ So you repeat this number of times until finally, right, you have no different patches.
+
+906
+01:06:37,960 --> 01:06:43,120
+ This number of patches now, right, the number of patches now you have is smaller, right.
+
+907
+01:06:43,120 --> 01:06:47,120
+ But each of this particular vector would have a better representation than the original
+
+908
+01:06:47,120 --> 01:06:48,120
+ vector.
+
+909
+01:06:48,120 --> 01:06:52,520
+ Then this particular output, then you can subsequently use it for either the purpose
+
+910
+01:06:52,520 --> 01:06:57,960
+ of classification, no segmentation or detection and so on.
+
+911
+01:06:57,960 --> 01:06:59,480
+ Right, okay.
+
+912
+01:06:59,480 --> 01:07:01,000
+ So this is the last slide I'm going to see.
+
+913
+01:07:01,000 --> 01:07:05,760
+ So if you use string transformer to perform segmentation, you can see these are the results.
+
+914
+01:07:05,760 --> 01:07:10,160
+ So string transformer is actually a very popular methods.
+
+915
+01:07:10,160 --> 01:07:11,280
+ All right.
+
+916
+01:07:11,280 --> 01:07:17,040
+ So okay, so I think, yeah, I'll probably just, okay, probably this slide's here.
+
+917
+01:07:17,040 --> 01:07:21,800
+ So yeah, so this particular site shows that, all right, the performance of the average
+
+918
+01:07:21,800 --> 01:07:24,600
+ precision over the number of year of release.
+
+919
+01:07:24,600 --> 01:07:30,040
+ So you can see of course, more recent years, yeah, the methods are actually becoming better
+
+920
+01:07:30,040 --> 01:07:31,040
+ and better.
+
+921
+01:07:31,040 --> 01:07:35,600
+ Right, so this diagram shows the AP versus the frame per second.
+
+922
+01:07:35,600 --> 01:07:40,759
+ So ideally, you want the frame per second to be as fast as possible and you want your
+
+923
+01:07:40,759 --> 01:07:42,400
+ AP to be as high as possible.
+
+924
+01:07:42,400 --> 01:07:44,840
+ So this is the good region to be in.
+
+925
+01:07:44,840 --> 01:07:50,040
+ So for two-stage method, sorry, frame per second, we want it to be large.
+
+926
+01:07:50,040 --> 01:07:51,440
+ Okay, AP wanted to be high.
+
+927
+01:07:51,440 --> 01:07:52,440
+ So this is the corner.
+
+928
+01:07:52,440 --> 01:07:54,200
+ Okay, this is the corner we wanted.
+
+929
+01:07:54,200 --> 01:07:58,400
+ So for two-stage method, they tend to be slow, right, so that's here.
+
+930
+01:07:58,400 --> 01:08:04,560
+ First-stage method, right, some of them here, some can be quite fast and lightweight methods.
+
+931
+01:08:04,560 --> 01:08:06,400
+ So this is one of the lightweight methods.
+
+932
+01:08:06,400 --> 01:08:07,560
+ It just give you a few.
+
+933
+01:08:07,560 --> 01:08:10,440
+ Right, okay, we'll stop today, right.
+
+934
+01:08:10,440 --> 01:08:12,080
+ So yeah, I'll give you a break.
+
+935
+01:08:12,080 --> 01:08:17,040
+ Please come back at maybe 7.55, right, so that we can start the piece at 8.
+
+936
+01:08:28,399 --> 01:08:29,399
+ Okay.
+
+937
+01:08:29,399 --> 01:08:30,399
+ Okay.
+
+938
+01:08:30,399 --> 01:08:31,399
+ Okay.
+
+939
+01:08:31,399 --> 01:08:32,399
+ Okay.
+
+940
+01:08:32,399 --> 01:08:33,399
+ Okay.
+
+941
+01:08:33,399 --> 01:08:34,399
+ Okay.
+
+942
+01:08:34,399 --> 01:08:35,399
+ Okay.
+
+943
+01:08:35,399 --> 01:08:36,399
+ Okay.
+
+944
+01:08:36,399 --> 01:08:37,399
+ Okay.
+
+945
+01:08:37,399 --> 01:08:38,399
+ Okay.
+
+946
+01:08:38,399 --> 01:08:39,399
+ Okay.
+
+947
+01:08:39,399 --> 01:08:40,399
+ Okay.
+
+948
+01:08:40,399 --> 01:08:41,399
+ Okay.
+
+949
+01:08:41,399 --> 01:08:42,399
+ Okay.
+
+950
+01:08:42,399 --> 01:08:43,399
+ Okay.
+
+951
+01:08:43,399 --> 01:08:44,399
+ Okay.
+
+952
+01:08:44,399 --> 01:08:45,399
+ Okay.
+
+953
+01:08:45,399 --> 01:08:46,399
+ Okay.
+
+954
+01:08:46,399 --> 01:08:47,399
+ Okay.
+
+955
+01:08:47,399 --> 01:08:48,399
+ Okay.
+
+956
+01:08:48,399 --> 01:08:49,399
+ Okay.
+
+957
+01:08:49,399 --> 01:08:50,399
+ Okay.
+
+958
+01:08:50,399 --> 01:08:51,399
+ Okay.
+
+959
+01:08:51,399 --> 01:08:52,399
+ Okay.
+
+960
+01:08:52,399 --> 01:08:53,399
+ Okay.
+
+961
+01:08:53,399 --> 01:08:54,399
+ Okay.
+
+962
+01:08:54,399 --> 01:08:55,399
+ Okay.
+
+963
+01:08:55,399 --> 01:08:56,399
+ Okay.
+
+964
+01:08:56,399 --> 01:08:57,399
+ Okay.
+
+965
+01:08:57,399 --> 01:08:58,399
+ Okay.
+
+966
+01:08:58,399 --> 01:08:59,399
+ Okay.
+
+967
+01:08:59,399 --> 01:09:00,399
+ Okay.
+
+968
+01:09:00,399 --> 01:09:01,399
+ Okay.
+
+969
+01:09:01,399 --> 01:09:02,399
+ Okay.
+
+970
+01:09:02,399 --> 01:09:03,399
+ Okay.
+
+971
+01:09:03,399 --> 01:09:04,399
+ Okay.
+
+972
+01:09:04,399 --> 01:09:05,399
+ Okay.
+
+973
+01:09:05,399 --> 01:09:06,399
+ Okay.
+
+974
+01:09:06,399 --> 01:09:07,399
+ Okay.
+
+975
+01:09:07,399 --> 01:09:08,399
+ Okay.
+
+976
+01:09:08,399 --> 01:09:09,399
+ Okay.
+
+977
+01:09:09,399 --> 01:09:10,399
+ Okay.
+
+978
+01:09:10,399 --> 01:09:11,399
+ Okay.
+
+979
+01:09:11,399 --> 01:09:12,399
+ Okay.
+
+980
+01:09:12,399 --> 01:09:13,399
+ Okay.
+
+981
+01:09:13,399 --> 01:09:14,399
+ Okay.
+
+982
+01:09:14,399 --> 01:09:15,399
+ Okay.
+
+983
+01:09:15,399 --> 01:09:16,399
+ Okay.
+
+984
+01:09:16,399 --> 01:09:17,399
+ Okay.
+
+985
+01:09:17,399 --> 01:09:18,399
+ Okay.
+
+986
+01:09:18,399 --> 01:09:19,399
+ Okay.
+
+987
+01:09:19,399 --> 01:09:20,399
+ Okay.
+
+988
+01:09:20,399 --> 01:09:21,399
+ Okay.
+
+989
+01:09:21,399 --> 01:09:22,399
+ Okay.
+
+990
+01:09:22,399 --> 01:09:23,399
+ Okay.
+
+991
+01:09:23,399 --> 01:09:24,399
+ Okay.
+
+992
+01:09:24,399 --> 01:09:25,399
+ Okay.
+
+993
+01:09:25,399 --> 01:09:26,399
+ Okay.
+
+994
+01:09:26,399 --> 01:09:27,399
+ Okay.
+
+995
+01:09:56,400 --> 01:09:57,400
+ Okay.
+
+996
+01:10:26,400 --> 01:10:27,400
+ Okay.
+
+997
+01:10:56,400 --> 01:10:57,400
+ Okay.
+
+998
+01:11:26,400 --> 01:11:27,400
+ Okay.
+
+999
+01:11:56,400 --> 01:11:57,400
+ Okay.
+
+1000
+01:12:26,400 --> 01:12:27,400
+ Okay.
+
+1001
+01:12:56,400 --> 01:12:57,400
+ Okay.
+
+1002
+01:13:26,400 --> 01:13:27,400
+ Okay.
+
+1003
+01:13:56,400 --> 01:13:57,400
+ Okay.
+
+1004
+01:14:26,400 --> 01:14:27,400
+ Okay.
+
+1005
+01:14:56,400 --> 01:14:57,400
+ Okay.
+
+1006
+01:15:26,400 --> 01:15:27,400
+ Okay.
+
+1007
+01:15:56,400 --> 01:15:57,400
+ Okay.
+
+1008
+01:16:26,400 --> 01:16:27,400
+ Okay.
+
+1009
+01:16:56,400 --> 01:16:57,400
+ Okay.
+
+1010
+01:17:26,400 --> 01:17:27,400
+ Okay.
+
+1011
+01:17:56,400 --> 01:17:57,400
+ Okay.
+
+1012
+01:18:26,400 --> 01:18:27,400
+ Okay.
+
+1013
+01:18:56,400 --> 01:18:57,400
+ Okay.
+
+1014
+01:19:26,400 --> 01:19:27,400
+ Okay.
+
+1015
+01:19:56,400 --> 01:19:57,400
+ Okay.
+
+1016
+01:20:26,400 --> 01:20:27,400
+ Okay.
+
+1017
+01:20:56,400 --> 01:20:58,400
+ Okay.
+
+1018
+01:20:58,400 --> 01:21:06,339
+ Student, as I mentioned a number again, make sure that you check your name, right, and see
+
+1019
+01:21:06,339 --> 01:21:07,120
+ what is the serial number.
+
+1020
+01:21:07,120 --> 01:21:08,120
+ Okay.
+
+1021
+01:21:08,120 --> 01:21:16,940
+ So later on, once you receive the questions ro Priorit, you must the first thing you
+
+1022
+01:21:16,940 --> 01:21:19,099
+ must do is write down the serial number.
+
+1023
+01:21:19,099 --> 01:21:20,099
+ Okay.
+
+1024
+01:21:20,099 --> 01:21:23,500
+ Your full name as far as the calculation number.
+
+1025
+01:21:23,500 --> 01:21:24,500
+ Okay.
+
+1026
+01:21:24,500 --> 01:21:25,500
+ Right.
+
+1027
+01:21:25,500 --> 01:21:30,420
+ do. This serial number is very important because later on we need to tell you. Okay, and then
+
+1028
+01:21:30,420 --> 01:21:35,180
+ there will be some questions with some spaces so you can write your answer in the given
+
+1029
+01:21:35,180 --> 01:21:40,140
+ spaces. Okay, and then at the bottom there are some reserved spaces for you to write
+
+1030
+01:21:40,140 --> 01:21:45,300
+ your answer. Please make sure that you write your answer here so that again is to make
+
+1031
+01:21:45,300 --> 01:21:50,220
+ the marking easier. If I see your answer is correct, usually I'll just put a tick and
+
+1032
+01:21:50,220 --> 01:21:53,580
+ you will get a full mark for that. But if I don't see the answer then I have to look
+
+1033
+01:21:53,580 --> 01:21:58,660
+ for it then you know I'm not going to be so happy already. So please make sure that make
+
+1034
+01:21:58,660 --> 01:22:03,580
+ it easier for you and also make it easier for me. There are some spaces at the bottom
+
+1035
+01:22:03,580 --> 01:22:08,960
+ that you're supposed to write down the answer. Please do that. So the paper actually consists
+
+1036
+01:22:08,960 --> 01:22:16,059
+ of two pieces, right? So two pieces, one, two, three, two pieces with four sides here. So
+
+1037
+01:22:16,059 --> 01:22:20,740
+ there are three questions, right? At the bottom of question three and at the end there are
+
+1038
+01:22:20,740 --> 01:22:25,460
+ still some empty spaces. So if you need a bit more space to do the calculation you can
+
+1039
+01:22:25,460 --> 01:22:29,900
+ use that. But the important thing is that there are some reserved spaces for each of
+
+1040
+01:22:29,900 --> 01:22:36,260
+ the part. Write your answer there. Okay, and also for this quiz there's no early dismissal.
+
+1041
+01:22:36,260 --> 01:22:43,300
+ There's only 40 minutes. So once it starts you can only leave once, no we dismiss you
+
+1042
+01:22:43,300 --> 01:22:48,139
+ after the quiz is over since it's a very short quiz. So therefore if any one of you
+
+1043
+01:22:48,140 --> 01:22:54,540
+ need to use a toilet now please do that. We have very limited main power and then we
+
+1044
+01:22:54,540 --> 01:23:00,420
+ need to take attendance very quickly so that we will not be able to entertain that you
+
+1045
+01:23:00,420 --> 01:23:06,820
+ want to go to the toilet or you want to leave early. No early dismissal. If you finish just
+
+1046
+01:23:06,820 --> 01:23:15,140
+ take a nap, right? 40 minutes very fast. Okay. And then the last thing is that please
+
+1047
+01:23:15,140 --> 01:23:21,740
+ sit according to this sitting arrangement. Again because your class is very big, right?
+
+1048
+01:23:21,740 --> 01:23:25,260
+ If you don't sit according to this attendance, later on it's going to make our attendance
+
+1049
+01:23:25,260 --> 01:23:35,420
+ taken, taking very cumbersome and it's also going to take a long time for us to know,
+
+1050
+01:23:35,420 --> 01:23:40,780
+ check that the number agreed. Okay, are you all seated according to this arrangement because
+
+1051
+01:23:40,780 --> 01:23:47,580
+ I don't know. Let me just have a show of head. One to 100 is a sit number one to 100. If
+
+1052
+01:23:47,580 --> 01:23:59,139
+ your sit serial number is one to 100 please raise your hand. Okay. Looks reasonable.
+
+1053
+01:23:59,140 --> 01:24:14,380
+ Please follow this. 101 to 200. Okay. Alright. Looks alright. Okay. 201 to 300. Okay. 301
+
+1054
+01:24:14,380 --> 01:24:27,620
+ to 410. Okay. Yeah. 411 to 517. Okay. Yeah. Thanks. So yeah. I think it looks reasonable.
+
+1055
+01:24:27,620 --> 01:24:31,180
+ Yeah. But there are some students who do that. So.
+
+1056
+01:27:57,620 --> 01:28:16,740
+ So.
+
+1057
+01:28:27,620 --> 01:28:29,620
+ Okay, so student, please.
+
+1058
+01:28:53,000 --> 01:28:54,700
+ Once you receive the question paper,
+
+1059
+01:28:54,700 --> 01:28:55,940
+ don't start answering yet,
+
+1060
+01:28:55,940 --> 01:28:57,460
+ you can write your name,
+
+1061
+01:28:57,460 --> 01:28:58,660
+ matriculation number,
+
+1062
+01:28:58,660 --> 01:29:00,419
+ and your serial number.
+
+1063
+01:29:00,419 --> 01:29:01,259
+ Right?
+
+1064
+01:29:01,259 --> 01:29:03,940
+ So in case if you forgot your serial number,
+
+1065
+01:29:03,940 --> 01:29:06,620
+ later on, there'll be some student assistant
+
+1066
+01:29:06,620 --> 01:29:08,860
+ who walk around to take attendance.
+
+1067
+01:29:08,860 --> 01:29:11,339
+ You can also check right from the list.
+
+1068
+01:29:11,339 --> 01:29:12,400
+ Yeah?
+
+1069
+01:29:12,400 --> 01:29:13,740
+ The list is here.
+
+1070
+01:29:13,740 --> 01:29:17,259
+ So the student assistant who hand out the question
+
+1071
+01:29:17,259 --> 01:29:18,099
+ also have the list.
+
+1072
+01:29:18,099 --> 01:29:20,580
+ You can also check your attendance there.
+
+1073
+01:29:20,580 --> 01:29:21,419
+ Right?
+
+1074
+01:29:21,419 --> 01:29:24,059
+ Okay, so make sure you write down
+
+1075
+01:29:25,020 --> 01:29:26,900
+ the serial number,
+
+1076
+01:29:26,900 --> 01:29:27,740
+ your name,
+
+1077
+01:29:27,740 --> 01:29:29,460
+ extra-esmetriculation number.
+
+1078
+01:29:32,620 --> 01:29:33,460
+ Right?
+
+1079
+01:29:33,460 --> 01:29:34,380
+ It's a closed book quiz,
+
+1080
+01:29:34,380 --> 01:29:36,940
+ so on your table,
+
+1081
+01:29:36,940 --> 01:29:40,780
+ you can only have the question booklet
+
+1082
+01:29:40,780 --> 01:29:44,140
+ or the answer booklet calculator writing material.
+
+1083
+01:29:44,140 --> 01:29:44,980
+ Right?
+
+1084
+01:29:44,980 --> 01:29:46,380
+ If you want some additional pieces of paper
+
+1085
+01:29:46,380 --> 01:29:47,960
+ for calculation, it's okay.
+
+1086
+01:29:47,960 --> 01:29:49,940
+ But no reading material.
+
+1087
+01:29:49,940 --> 01:29:52,220
+ Mobile phone, please switch off.
+
+1088
+01:29:52,220 --> 01:29:55,860
+ And also take out your student matriculation ID.
+
+1089
+01:29:59,300 --> 01:30:03,660
+ Okay, who doesn't have the question paper yet?
+
+1090
+01:30:03,660 --> 01:30:06,260
+ If you have not, please raise your hand.
+
+1091
+01:30:06,260 --> 01:30:08,900
+ Student, please speed up the part.
+
+1092
+01:30:22,220 --> 01:30:23,060
+ Okay.
+
+1093
+01:30:31,220 --> 01:30:34,220
+ Student assistant at the top corner, there's, right?
+
+1094
+01:30:34,220 --> 01:30:36,100
+ Okay, who has not have a copy of the paper,
+
+1095
+01:30:36,100 --> 01:30:37,620
+ please raise your hand.
+
+1096
+01:30:37,620 --> 01:30:39,460
+ Right, this section, there's a lot.
+
+1097
+01:30:39,460 --> 01:30:40,980
+ Please hand out.
+
+1098
+01:30:40,980 --> 01:30:41,820
+ Help.
+
+1099
+01:30:52,780 --> 01:30:57,060
+ Okay, sorry, which section, please sit according to this.
+
+1100
+01:30:59,860 --> 01:31:00,700
+ Yeah, one, oh.
+
+1101
+01:31:02,780 --> 01:31:04,660
+ Yeah, just sit according to this.
+
+1102
+01:31:04,660 --> 01:31:07,180
+ One, nine, nine is this, middle section.
+
+1103
+01:31:17,620 --> 01:31:18,780
+ Okay, who else?
+
+1104
+01:31:19,780 --> 01:31:21,780
+ Right, okay, this corner.
+
+1105
+01:31:31,780 --> 01:31:35,780
+ Okay, who else who has not have the question paper yet?
+
+1106
+01:31:44,259 --> 01:31:46,259
+ Right, so everyone have it already, huh?
+
+1107
+01:31:46,260 --> 01:31:47,100
+ Ready, huh?
+
+1108
+01:31:54,260 --> 01:31:57,060
+ Right, okay, so we started a little bit late,
+
+1109
+01:31:57,060 --> 01:31:59,700
+ so now the clock behind is 8.02.
+
+1110
+01:31:59,700 --> 01:32:03,100
+ So anyway, we'll finish, I'll give you a bit more time.
+
+1111
+01:32:03,100 --> 01:32:06,540
+ We'll finish at 8.45, all right, based on the clock behind.
+
+1112
+01:32:06,540 --> 01:32:08,380
+ So I'll give you extra three minutes.
+
+1113
+01:32:08,380 --> 01:32:12,460
+ Right, you can start now, we'll finish at 8.45,
+
+1114
+01:32:12,460 --> 01:32:14,660
+ based on the clock behind.
+
+1115
+01:32:14,660 --> 01:32:15,900
+ Okay, you can start now.
+
+1116
+01:32:29,980 --> 01:32:31,300
+ Blue pen?
+
+1117
+01:32:31,300 --> 01:32:32,139
+ Huh?
+
+1118
+01:32:32,139 --> 01:32:33,660
+ Can we use blue pen?
+
+1119
+01:32:33,660 --> 01:32:34,980
+ Blue pen for?
+
+1120
+01:32:34,980 --> 01:32:36,380
+ To answer the question.
+
+1121
+01:32:36,380 --> 01:32:37,460
+ Blue pen, yeah?
+
+1122
+01:32:37,460 --> 01:32:38,300
+ Yeah.
+
+1123
+01:32:38,300 --> 01:32:39,139
+ Blue pen.
+
+1124
+01:32:44,780 --> 01:32:47,340
+ You know we just forgot to mean for theask me, so,
+
+1125
+01:32:47,340 --> 01:32:49,720
+ yes, some 1939 sorry.
+
+1126
+01:33:09,160 --> 01:33:12,780
+ For new student, please sit according
+
+1127
+01:33:13,540 --> 01:33:14,540
+ Anybody else just picked up the
+
+1128
+01:33:14,540 --> 01:33:19,540
+ N추ong and said a
+
+1129
+01:33:42,780 --> 01:33:48,780
+ student assistant, right? You can start taking the attendance now.
+
+1130
+01:34:12,780 --> 01:34:14,780
+ you
+
+1131
+01:34:42,780 --> 01:35:02,780
+ you
+
+1132
+01:35:12,780 --> 01:35:14,780
+ you
+
+1133
+01:35:42,780 --> 01:35:44,780
+ you
+
+1134
+01:36:12,780 --> 01:36:14,780
+ you
+
+1135
+01:36:42,780 --> 01:36:51,780
+ you
+
+1136
+01:36:51,780 --> 01:37:05,780
+ student, can I just have your attention for one moment? For question 3, yeah, 3B, question 3B, right? Okay, there's a small typo here, right? The question is that a single
+
+1137
+01:37:05,780 --> 01:37:07,780
+ name, right?
+
+1138
+01:37:09,780 --> 01:37:13,780
+ it's not can, it's just a very minor thing.
+
+1139
+01:37:13,780 --> 01:37:15,780
+ it's more proper to be
+
+1140
+01:37:15,780 --> 01:37:17,780
+ okay?
+
+1141
+01:37:17,780 --> 01:37:23,780
+ so, yeah, just make sure that, take note that the order of the works are short.
+
+1142
+01:37:23,780 --> 01:37:25,780
+ okay?
+
+1143
+01:37:25,780 --> 01:37:27,780
+ yeah
+
+1144
+01:37:27,780 --> 01:37:29,780
+ okay?
+
+1145
+01:37:29,780 --> 01:37:31,780
+ okay?
+
+1146
+01:37:31,780 --> 01:37:33,780
+ okay?
+
+1147
+01:37:33,780 --> 01:37:35,780
+ okay?
+
+1148
+01:37:35,780 --> 01:37:37,780
+ okay?
+
+1149
+01:37:37,780 --> 01:37:39,780
+ okay?
+
+1150
+01:37:39,780 --> 01:37:41,780
+ okay?
+
+1151
+01:37:41,780 --> 01:37:43,780
+ okay?
+
+1152
+01:37:43,780 --> 01:37:45,780
+ okay?
+
+1153
+01:37:45,780 --> 01:37:47,780
+ okay?
+
+1154
+01:37:47,780 --> 01:37:49,780
+ okay?
+
+1155
+01:37:49,780 --> 01:37:51,780
+ okay?
+
+1156
+01:37:51,780 --> 01:37:53,780
+ okay?
+
+1157
+01:37:53,780 --> 01:37:55,780
+ okay?
+
+1158
+01:37:55,780 --> 01:37:57,780
+ okay?
+
+1159
+01:37:57,780 --> 01:37:59,780
+ okay?
+
+1160
+01:37:59,780 --> 01:38:01,780
+ okay?
+
+1161
+01:38:01,780 --> 01:38:03,780
+ okay?
+
+1162
+01:38:03,780 --> 01:38:05,780
+ okay?
+
+1163
+01:38:05,780 --> 01:38:07,780
+ okay,
+
+1164
+01:38:07,780 --> 01:38:09,780
+ ready?
+
+1165
+01:38:09,780 --> 01:38:11,780
+ ready?
+
+1166
+01:38:11,780 --> 01:38:13,780
+ ready?
+
+1167
+01:38:13,780 --> 01:38:15,780
+ ready?
+
+1168
+01:38:15,780 --> 01:38:17,780
+ ready?
+
+1169
+01:38:17,780 --> 01:38:19,780
+ ready?
+
+1170
+01:41:49,780 --> 01:42:05,780
+ Okay, class, just a quick reminder.
+
+1171
+01:42:05,780 --> 01:42:10,780
+ Yeah, very important, you must make sure you write down a serial number, name,
+
+1172
+01:42:10,780 --> 01:42:14,780
+ medication number. As I mentioned, there is some space for you to do the calculation.
+
+1173
+01:42:14,780 --> 01:42:20,780
+ Very important, you must write your final answer in the given spaces for each question.
+
+1174
+01:42:20,780 --> 01:42:27,780
+ Question one, okay, question two, please make sure you write your final answer in the allocated space.
+
+1175
+01:42:27,780 --> 01:42:31,780
+ Right, for question three, just write down your answer in the spaces given.
+
+1176
+01:42:31,780 --> 01:42:39,780
+ If you need some extra spaces to do your calculation, page three and page four is also okay.
+
+1177
+01:42:39,780 --> 01:42:45,780
+ But if you use those spaces, please clearly indicate that you are using page three or page four.
+
+1178
+01:42:45,780 --> 01:42:50,780
+ But most importantly, your final answer should be given in the given spaces.
+
+1179
+01:42:50,780 --> 01:42:51,780
+ Okay?
+
+1180
+01:43:09,780 --> 01:43:12,780
+ Thank you.
+
+1181
+01:43:39,780 --> 01:43:42,780
+ Thank you.
+
+1182
+01:44:09,780 --> 01:44:12,780
+ Thank you.
+
+1183
+01:44:39,780 --> 01:44:42,780
+ Thank you.
+
+1184
+01:45:09,780 --> 01:45:12,780
+ Thank you.
+
+1185
+01:45:39,780 --> 01:45:42,780
+ Thank you.
+
+1186
+01:46:09,780 --> 01:46:11,780
+ Thank you.
+
+1187
+01:46:39,780 --> 01:46:41,780
+ Thank you.
+
+1188
+01:47:09,780 --> 01:47:11,780
+ Thank you.
+
+1189
+01:47:39,780 --> 01:47:41,780
+ Thank you.
+
+1190
+01:48:09,780 --> 01:48:11,780
+ Thank you.
+
+1191
+01:48:39,780 --> 01:48:41,780
+ Thank you.
+
+1192
+01:49:09,780 --> 01:49:11,780
+ Thank you.
+
+1193
+01:49:39,780 --> 01:49:41,780
+ Thank you.
+
+1194
+01:50:09,780 --> 01:50:11,780
+ Thank you.
+
+1195
+01:50:39,780 --> 01:50:41,780
+ Thank you.
+
+1196
+01:51:09,780 --> 01:51:11,780
+ Thank you.
+
+1197
+01:51:39,780 --> 01:51:41,780
+ Thank you.
+
+1198
+01:52:09,780 --> 01:52:11,780
+ Thank you.
+
+1199
+01:52:39,780 --> 01:52:41,780
+ Thank you.
+
+1200
+01:53:09,780 --> 01:53:11,780
+ Thank you.
+
+1201
+01:53:39,780 --> 01:53:41,780
+ Thank you.
+
+1202
+01:54:09,780 --> 01:54:11,780
+ Thank you.
+
+1203
+01:54:39,780 --> 01:54:41,780
+ Is it done?
+
+1204
+01:54:41,780 --> 01:54:44,780
+ Still there, assistant three and four?
+
+1205
+01:54:44,780 --> 01:54:45,780
+ Are you done already?
+
+1206
+01:54:45,780 --> 01:54:49,780
+ Three and four.
+
+1207
+02:02:09,780 --> 02:02:39,740
+ Thank you.
+
+1208
+02:02:39,740 --> 02:02:44,740
+ Okay, student assistant number six, where are you?
+
+1209
+02:02:44,740 --> 02:02:50,740
+ Number six.
+
+1210
+02:02:50,740 --> 02:02:59,740
+ Have you given me the name list?
+
+1211
+02:02:59,740 --> 02:03:04,740
+ And also, student, you have not hali your number, right down the sub-total, right, for your case.
+
+1212
+02:03:04,740 --> 02:03:07,740
+ Those who have not written, please come to the front.
+
+1213
+02:03:34,740 --> 02:04:03,740
+ Thank you.
+
+1214
+02:04:03,740 --> 02:04:32,740
+ Thank you.
+
+1215
+02:04:33,740 --> 02:05:02,740
+ Thank you.
+
+1216
+02:05:03,740 --> 02:05:32,740
+ Thank you.
+
+1217
+02:05:33,740 --> 02:06:02,740
+ Thank you.
+
+1218
+02:06:03,740 --> 02:06:32,740
+ Thank you.
+
+1219
+02:06:33,740 --> 02:07:02,740
+ Thank you.
+
+1220
+02:07:03,740 --> 02:07:32,740
+ Thank you.
+
+1221
+02:07:33,740 --> 02:08:02,740
+ Thank you.
+
+1222
+02:08:03,740 --> 02:08:32,740
+ Thank you.
+
+1223
+02:08:33,740 --> 02:09:02,740
+ Thank you.
+
+1224
+02:09:03,740 --> 02:09:32,740
+ Thank you.
+
+1225
+02:09:33,740 --> 02:10:02,740
+ Thank you.
+
+1226
+02:10:03,740 --> 02:10:32,740
+ Thank you.
+
+1227
+02:10:33,740 --> 02:11:02,740
+ Thank you.
+
+1228
+02:11:03,740 --> 02:11:10,740
+ Thank you.
+
+1229
+02:11:10,740 --> 02:11:14,740
+ Where is student number nine, the mark list?
+
+1230
+02:11:14,740 --> 02:11:15,740
+ Student number nine.
+
+1231
+02:11:44,740 --> 02:12:03,740
+ Can all the student assistants please come to the front?
+
+1232
+02:12:14,740 --> 02:12:43,740
+ Thank you.
+
+1233
+02:12:44,740 --> 02:13:13,740
+ Thank you.
+
+1234
+02:13:14,740 --> 02:13:26,740
+ Thank you.
+
+1235
+02:13:26,740 --> 02:13:28,740
+ Thank you.
+
+1236
+02:13:28,740 --> 02:13:29,740
+ Thank you.
+
+1237
+02:13:29,740 --> 02:13:30,740
+ Thank you.
+
+1238
+02:13:30,740 --> 02:13:31,740
+ Thank you.
+
+1239
+02:13:31,740 --> 02:13:32,740
+ Thank you.
+
+1240
+02:13:32,740 --> 02:13:33,740
+ Thank you.
+
+1241
+02:13:33,740 --> 02:13:34,740
+ Thank you.
+
+1242
+02:13:34,740 --> 02:13:35,740
+ Thank you.
+
+1243
+02:13:35,740 --> 02:13:36,740
+ Thank you.
+
+1244
+02:13:36,740 --> 02:13:37,740
+ Thank you.
+
+1245
+02:13:37,740 --> 02:13:38,740
+ Thank you.
+
+1246
+02:13:38,740 --> 02:13:39,740
+ Thank you.
+
+1247
+02:13:39,740 --> 02:13:40,740
+ Thank you.
+
+1248
+02:13:40,740 --> 02:13:41,740
+ Thank you.
+
+1249
+02:13:41,740 --> 02:13:42,740
+ Thank you.
+
+1250
+02:13:42,740 --> 02:13:43,740
+ Thank you.
+
+1251
+02:13:43,740 --> 02:13:44,740
+ Thank you.
+
+1252
+02:13:44,740 --> 02:13:45,740
+ Thank you.
+
+1253
+02:13:45,740 --> 02:13:46,740
+ Thank you.
+
+1254
+02:13:46,740 --> 02:13:47,740
+ Thank you.
+
+1255
+02:13:47,740 --> 02:13:48,740
+ Thank you.
+
+1256
+02:13:48,740 --> 02:13:49,740
+ Thank you.
+
+1257
+02:13:49,740 --> 02:13:50,740
+ Thank you.
+
+1258
+02:13:50,740 --> 02:13:51,740
+ Thank you.
+
+1259
+02:13:51,740 --> 02:13:52,740
+ Thank you.
+
+1260
+02:13:52,740 --> 02:13:53,740
+ Thank you.
+
+1261
+02:13:53,740 --> 02:13:54,740
+ Thank you.
+
+1262
+02:13:54,740 --> 02:13:55,740
+ Thank you.
+
+1263
+02:13:55,740 --> 02:13:56,740
+ Thank you.
+
+1264
+02:13:56,740 --> 02:13:57,740
+ Thank you.
+
+1265
+02:13:57,740 --> 02:13:58,740
+ Thank you.
+
+1266
+02:13:58,740 --> 02:13:59,740
+ Thank you.
+
+1267
+02:13:59,740 --> 02:14:00,740
+ Thank you.
+
+1268
+02:14:00,740 --> 02:14:01,740
+ Thank you.
+
+1269
+02:14:01,740 --> 02:14:02,740
+ Thank you.
+
+1270
+02:14:02,740 --> 02:14:03,740
+ Thank you.
+
+1271
+02:14:03,740 --> 02:14:04,740
+ Thank you.
+
+1272
+02:14:04,740 --> 02:14:05,740
+ Thank you.
+
+1273
+02:14:05,740 --> 02:14:06,740
+ Thank you.
+
+1274
+02:14:06,740 --> 02:14:07,740
+ Thank you.
+
+1275
+02:14:07,740 --> 02:14:08,740
+ Thank you.
+
+1276
+02:14:08,740 --> 02:14:09,740
+ Thank you.
+
+1277
+02:14:09,740 --> 02:14:10,740
+ Thank you.
+
+1278
+02:14:10,740 --> 02:14:11,740
+ Thank you.
+
+1279
+02:14:11,740 --> 02:14:12,740
+ Thank you.
+
+1280
+02:14:12,740 --> 02:14:13,740
+ Thank you.
+
+1281
+02:14:13,740 --> 02:14:14,740
+ Thank you.
+
+1282
+02:14:14,740 --> 02:14:15,740
+ Thank you.
+
+1283
+02:14:15,740 --> 02:14:16,740
+ Thank you.
+
+1284
+02:14:16,740 --> 02:14:17,740
+ Thank you.
+
+1285
+02:14:17,740 --> 02:14:18,740
+ Thank you.
+
+1286
+02:14:18,740 --> 02:14:19,740
+ Thank you.
+
+1287
+02:14:19,740 --> 02:14:20,740
+ Thank you.
+
+1288
+02:14:20,740 --> 02:14:21,740
+ Thank you.
+
+1289
+02:14:21,740 --> 02:14:22,740
+ Thank you.
+
+1290
+02:14:22,740 --> 02:14:23,740
+ Thank you.
+
+1291
+02:14:23,740 --> 02:14:24,740
+ Thank you.
+
+1292
+02:14:24,740 --> 02:14:25,740
+ Thank you.
+
+1293
+02:14:54,740 --> 02:14:55,740
+ Thank you.
+
+1294
+02:15:24,740 --> 02:15:25,740
+ Thank you.
+
+1295
+02:15:54,740 --> 02:16:08,740
+ Thank you.
+
+1296
+02:16:08,740 --> 02:16:14,219
+ Please stop writing. Student assistant, please try to collect the answer strip under your
+
+1297
+02:16:14,219 --> 02:16:19,620
+ care and make sure that the number of answer strips you collect agree with the number on
+
+1298
+02:16:19,620 --> 02:16:26,059
+ your list. For the other students, please remain seated. Don't leave yet. We need to
+
+1299
+02:16:26,060 --> 02:16:33,060
+ tell you the answer strip before we let you go. So once it's made, please remain seated.
+
+1300
+02:16:56,059 --> 02:16:58,059
+ You
+
+1301
+02:17:26,059 --> 02:17:46,059
+ you
+
+1302
+02:17:56,059 --> 02:18:16,059
+ you
+
+1303
+02:18:26,059 --> 02:18:46,059
+ you
+
+1304
+02:18:46,059 --> 02:18:48,059
+ you
+
+1305
+02:19:16,059 --> 02:19:36,059
+ you
+
+1306
+02:19:36,059 --> 02:20:06,060
+
+
+1307
+02:20:06,060 --> 02:20:36,060
+
+
+1308
+02:20:36,060 --> 02:21:06,060
+
+
+1309
+02:21:06,060 --> 02:21:36,060
+
+
+1310
+02:21:36,060 --> 02:22:06,060
+
+
+1311
+02:22:06,060 --> 02:22:36,060
+
+
+1312
+02:22:36,060 --> 02:23:06,060
+
+
+1313
+02:23:06,060 --> 02:23:36,060
+
+
+1314
+02:23:36,060 --> 02:24:06,060
+
+
+1315
+02:24:06,060 --> 02:24:36,060
+
+
+1316
+02:24:36,060 --> 02:25:06,060
+
+
+1317
+02:25:06,060 --> 02:25:36,060
+
+
+1318
+02:25:36,060 --> 02:26:06,060
+
+
+1319
+02:26:06,060 --> 02:26:36,060
+
+
+1320
+02:26:36,060 --> 02:27:06,060
+
+
+1321
+02:27:06,060 --> 02:27:36,060
+
+
+1322
+02:27:36,060 --> 02:28:06,060
+
+
+1323
+02:28:06,060 --> 02:28:36,060
+
+
+1324
+02:28:36,060 --> 02:29:06,060
+
+
+1325
+02:29:06,060 --> 02:29:36,060
+
+
+1326
+02:29:36,060 --> 02:30:06,060
+
+
+1327
+02:30:06,060 --> 02:30:36,060
+
+
+1328
+02:30:36,060 --> 02:31:06,060
+
+
+1329
+02:31:06,060 --> 02:31:36,060
+
+
+1330
+02:31:36,060 --> 02:32:06,060
+
+
+1331
+02:32:06,060 --> 02:32:36,060
+
+
+1332
+02:32:36,060 --> 02:33:06,060
+
+
+1333
+02:33:06,060 --> 02:33:36,060
+
+
+1334
+02:33:36,060 --> 02:34:06,060
+
+
+1335
+02:34:06,060 --> 02:34:36,060
+
+
+1336
+02:34:36,060 --> 02:35:06,060
+
+
+1337
+02:35:06,060 --> 02:35:36,060
+
+
+1338
+02:35:36,060 --> 02:36:06,060
+
+
+1339
+02:36:06,060 --> 02:36:36,060
+
+
+1340
+02:36:36,060 --> 02:37:06,060
+
+
+1341
+02:37:06,060 --> 02:37:36,060
+
+
+1342
+02:37:36,060 --> 02:38:06,060
+
+
+1343
+02:38:06,060 --> 02:38:36,060
+
+
+1344
+02:38:36,060 --> 02:39:06,060
+
+
+1345
+02:39:06,060 --> 02:39:36,060
+
+
+1346
+02:39:36,060 --> 02:40:06,060
+
+
+1347
+02:40:06,060 --> 02:40:36,060
+
+
+1348
+02:40:36,060 --> 02:41:06,060
+
+
+1349
+02:41:06,060 --> 02:41:36,060
+
+
+1350
+02:41:36,060 --> 02:42:06,060
+
+
+1351
+02:42:06,060 --> 02:42:36,060
+
+
+1352
+02:42:36,060 --> 02:43:06,060
+
+
+1353
+02:43:06,060 --> 02:43:36,060
+
+
+1354
+02:43:36,060 --> 02:44:06,060
+
+
+1355
+02:44:06,060 --> 02:44:36,060
+
+
+1356
+02:44:36,060 --> 02:45:06,060
+
+
+1357
+02:45:06,060 --> 02:45:36,060
+
+
+1358
+02:45:36,060 --> 02:46:06,060
+
+
+1359
+02:46:06,060 --> 02:46:36,060
+
+
+1360
+02:46:36,060 --> 02:47:06,060
+
+
+1361
+02:47:06,060 --> 02:47:36,060
+
+
+1362
+02:47:36,060 --> 02:48:06,060
+
+
+1363
+02:48:06,060 --> 02:48:36,060
+
+
+1364
+02:48:36,060 --> 02:49:06,060
+
+
+1365
+02:49:06,060 --> 02:49:36,060
+
+
+1366
+02:49:36,060 --> 02:50:06,060
+
+
+1367
+02:50:06,060 --> 02:50:36,060
+
+
+1368
+02:50:36,060 --> 02:51:06,060
+
+
+1369
+02:51:06,060 --> 02:51:36,060
+
+
+1370
+02:51:36,060 --> 02:52:06,060
+
+
+1371
+02:52:06,060 --> 02:52:36,060
+
+
+1372
+02:52:36,060 --> 02:53:06,060
+
+
+1373
+02:53:06,060 --> 02:53:36,060
+
+
+1374
+02:53:36,060 --> 02:54:06,060
+
+
+1375
+02:54:06,060 --> 02:54:36,060
+
+
+1376
+02:54:36,060 --> 02:55:06,060
+
+
+1377
+02:55:06,060 --> 02:55:36,060
+
+
+1378
+02:55:36,060 --> 02:56:06,060
+
+
+1379
+02:56:06,060 --> 02:56:36,060
+
+
+1380
+02:56:36,060 --> 02:57:06,060
+
+
+1381
+02:57:06,060 --> 02:57:36,060
+
+
+1382
+02:57:36,060 --> 02:58:06,060
+
+
+1383
+02:58:06,060 --> 02:58:36,060
+
+
+1384
+02:58:36,060 --> 02:59:06,060
+
+
+1385
+02:59:06,060 --> 02:59:36,060
+
+
+1386
+02:59:36,060 --> 02:59:52,330
+
+
