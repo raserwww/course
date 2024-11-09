@@ -1,0 +1,7360 @@
+1
+00:00:00,000 --> 00:00:30,000
+ ________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+2
+00:00:30,000 --> 00:01:00,000
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+3
+00:01:00,000 --> 00:01:30,000
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+4
+00:01:30,000 --> 00:02:00,000
+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+5
+00:02:00,000 --> 00:02:17,240
+ meet
+
+6
+00:03:17,240 --> 00:03:26,880
+ .
+
+7
+00:03:26,880 --> 00:03:52,800
+ We are studying our topic 8 and tonight we will also study part of the topic 9.
+
+8
+00:03:52,800 --> 00:04:00,800
+ So next week we will just use one hour to complete the topic 9.
+
+9
+00:04:00,800 --> 00:04:04,160
+ So we will have the quiz next week.
+
+10
+00:04:04,160 --> 00:04:12,800
+ So the next week for the quiz in fact you don't need to specifically prepare for it.
+
+11
+00:04:12,800 --> 00:04:20,800
+ So if you understand the concept then you should be able to work out to solve the quiz
+
+12
+00:04:20,800 --> 00:04:21,800
+ things.
+
+13
+00:04:21,800 --> 00:04:28,080
+ So no need to take a lot of time to prepare your quiz.
+
+14
+00:04:28,080 --> 00:04:34,200
+ Just keep your normal study pace should be no problem.
+
+15
+00:04:34,200 --> 00:04:37,200
+ So don't worry about the quiz, right?
+
+16
+00:04:37,200 --> 00:04:41,400
+ Because we must have some assessment so we must have the quiz.
+
+17
+00:04:41,400 --> 00:04:45,920
+ The quiz is just two simple questions.
+
+18
+00:04:45,920 --> 00:04:55,800
+ I will give you one hard copy, one page, you write your answer in both sides of the page.
+
+19
+00:04:55,800 --> 00:04:59,480
+ One side for one quiz.
+
+20
+00:04:59,480 --> 00:05:02,280
+ No worry about the quiz.
+
+21
+00:05:02,280 --> 00:05:04,120
+ Mainly based on your understanding.
+
+22
+00:05:04,120 --> 00:05:12,120
+ If you understand the concept you should somehow work out what is the solution.
+
+23
+00:05:12,120 --> 00:05:18,520
+ So I haven't given the examples about the quiz thing or the final exam quiz or quiz
+
+24
+00:05:18,520 --> 00:05:19,720
+ quiz things.
+
+25
+00:05:19,720 --> 00:05:26,320
+ Because so anyway the quiz quiz or final exam quiz must be somehow different from what we
+
+26
+00:05:26,320 --> 00:05:29,160
+ have seen in the past year, right?
+
+27
+00:05:29,160 --> 00:05:36,520
+ So basically you should have based on your understanding and your knowledge to work out
+
+28
+00:05:36,520 --> 00:05:38,479
+ the solution of the quiz.
+
+29
+00:05:38,479 --> 00:05:44,400
+ Not just to memorize something to solve the quiz or the final exam quiz thing.
+
+30
+00:05:44,400 --> 00:05:50,680
+ So we are not testing your memory, mainly testing your understanding.
+
+31
+00:05:50,680 --> 00:05:57,560
+ So no need to take time to memorize a formula and many things.
+
+32
+00:05:57,560 --> 00:06:01,840
+ Just try to focus on your understanding of the concept.
+
+33
+00:06:02,840 --> 00:06:10,599
+ Okay, now this topic is about the handcraft feature generation and feature selection.
+
+34
+00:06:10,599 --> 00:06:19,840
+ So far for the image recognition for the computer vision problem we have studies of decision
+
+35
+00:06:19,840 --> 00:06:22,719
+ or prediction or classification, right?
+
+36
+00:06:22,719 --> 00:06:29,000
+ So this is based on the data then design a classifier to do the classification.
+
+37
+00:06:29,000 --> 00:06:35,000
+ But the input of the classifier may not be original image.
+
+38
+00:06:35,000 --> 00:06:39,800
+ If we take the original image directly go to the classification then it will cause the
+
+39
+00:06:39,800 --> 00:06:46,160
+ trouble because the original image has many pictures, it's high dimensional data.
+
+40
+00:06:46,160 --> 00:06:51,960
+ Okay, so many information is ear-read-mounted to the class membership.
+
+41
+00:06:51,960 --> 00:06:54,720
+ So we need pre-processing the image.
+
+42
+00:06:54,720 --> 00:07:02,080
+ Then after that goes through the classification, the final decision module, right?
+
+43
+00:07:02,080 --> 00:07:06,680
+ So the pre-processing also includes the so-called feature extraction.
+
+44
+00:07:06,680 --> 00:07:11,480
+ Okay, to do the feature extraction we can also separate the feature extraction into two
+
+45
+00:07:11,480 --> 00:07:12,680
+ steps.
+
+46
+00:07:12,680 --> 00:07:16,760
+ First is a feature generation and then the feature selection.
+
+47
+00:07:16,760 --> 00:07:19,800
+ This is one way to do the feature extraction.
+
+48
+00:07:19,800 --> 00:07:27,480
+ So this topic we will study how to generate the feature based on some of our intuitive
+
+49
+00:07:27,480 --> 00:07:33,040
+ knowledge to generate the feature and then to select the feature use the machine learning,
+
+50
+00:07:33,040 --> 00:07:37,040
+ use the training data to select the feature.
+
+51
+00:07:37,040 --> 00:07:44,120
+ So this is even important as classification, how to classify it.
+
+52
+00:07:44,120 --> 00:07:51,440
+ In fact now it could be more important because for example all this deep learning in fact
+
+53
+00:07:51,440 --> 00:07:53,760
+ is some kind of the feature extraction.
+
+54
+00:07:53,760 --> 00:07:59,600
+ Even the transformer is also to processing the data into different form.
+
+55
+00:07:59,600 --> 00:08:06,240
+ Now if we have very strong feature extraction or selection then after we process the feature
+
+56
+00:08:06,240 --> 00:08:14,040
+ into a very good shape then we can just use a very simple classifier to do the classification.
+
+57
+00:08:14,040 --> 00:08:21,560
+ For example now it is the big model or this transformer and the last classification is
+
+58
+00:08:21,560 --> 00:08:24,560
+ just a linear classification.
+
+59
+00:08:24,560 --> 00:08:30,400
+ Because before the classification we have go through many layers to process the data
+
+60
+00:08:30,400 --> 00:08:34,120
+ already create a very good feature.
+
+61
+00:08:34,120 --> 00:08:42,200
+ So this feature generation and selection or extraction is a very important component in
+
+62
+00:08:42,200 --> 00:08:45,520
+ the whole computation system.
+
+63
+00:08:45,520 --> 00:08:51,880
+ So this topic is about the handcraft feature generation and selection.
+
+64
+00:08:51,880 --> 00:08:57,480
+ So we first study why we need this feature generation and the selection.
+
+65
+00:08:57,480 --> 00:09:01,680
+ Here give an example of the face detection.
+
+66
+00:09:01,680 --> 00:09:08,520
+ So face detection is just one example of the visual object detection.
+
+67
+00:09:08,520 --> 00:09:17,680
+ So to detect the object from an image because the object is only a small part of the image.
+
+68
+00:09:17,680 --> 00:09:27,319
+ And then in one image we may have some multiple objects and the objects can have different
+
+69
+00:09:27,319 --> 00:09:30,199
+ position and different size.
+
+70
+00:09:30,199 --> 00:09:32,560
+ So then how to detect it?
+
+71
+00:09:32,560 --> 00:09:36,160
+ Then we need some kind of a sliding window.
+
+72
+00:09:36,280 --> 00:09:44,319
+ We just first use one window to detect the object around this size to move this window
+
+73
+00:09:44,319 --> 00:09:47,920
+ to all possible positions.
+
+74
+00:09:47,920 --> 00:09:55,280
+ And for each position try to classify the image within the window or image patch.
+
+75
+00:09:55,280 --> 00:09:58,280
+ It is a face or non-face.
+
+76
+00:09:58,280 --> 00:10:05,920
+ So basically here the step is show here we use a window of size for example m by n size.
+
+77
+00:10:05,920 --> 00:10:13,640
+ And then place this window at a different position so at the i and j position and then
+
+78
+00:10:13,640 --> 00:10:20,959
+ to capture one patch of the image then we do the classification because it is a detection,
+
+79
+00:10:20,959 --> 00:10:25,199
+ face detection then the classification is just a binary classification.
+
+80
+00:10:25,199 --> 00:10:30,520
+ This window is a face or non-face.
+
+81
+00:10:30,520 --> 00:10:42,120
+ But we to classify each this patch we need to move this window to all possible positions.
+
+82
+00:10:42,120 --> 00:10:50,360
+ For example here we will first take this position and then after that to oh sorry.
+
+83
+00:10:50,360 --> 00:10:52,160
+ So I think it is.
+
+84
+00:10:52,160 --> 00:11:00,160
+ I have one sense to show this process.
+
+85
+00:11:22,160 --> 00:11:37,760
+ Okay for example this window in this position we need to do a binary classification and
+
+86
+00:11:37,760 --> 00:11:43,520
+ then after that we need to move the window to different positions.
+
+87
+00:11:43,520 --> 00:11:49,120
+ So this window will move to all possible positions and for each position we need to do a binary
+
+88
+00:11:49,120 --> 00:11:50,120
+ classification.
+
+89
+00:11:50,120 --> 00:11:56,640
+ Now here we detect a face then further move the window into different position here we
+
+90
+00:11:56,640 --> 00:12:02,520
+ detect a face and then we need to scale all the remaining positions.
+
+91
+00:12:02,520 --> 00:12:10,240
+ Now after one round of this scaling we just detect the possible face of this size.
+
+92
+00:12:10,240 --> 00:12:15,960
+ Then we need to scale the image or scale the window into a larger size and then to do the
+
+93
+00:12:15,960 --> 00:12:21,720
+ scaling again and then somehow we can detect a larger face.
+
+94
+00:12:21,720 --> 00:12:30,520
+ Okay so this just illustrates that to do this detection in traditional way we need to do
+
+95
+00:12:30,520 --> 00:12:39,640
+ a lot of classification for each window we need to classify it is a face or non-face.
+
+96
+00:12:39,640 --> 00:12:46,400
+ So if we want to make this face detection work in the video then it must be able to
+
+97
+00:12:46,400 --> 00:12:51,400
+ detect a face at each frame before the next frame comes.
+
+98
+00:12:51,400 --> 00:12:59,880
+ So to achieve this speed we need somehow a fast classification then we need to generate
+
+99
+00:12:59,880 --> 00:13:05,480
+ the feature fast and select a small number of the features.
+
+100
+00:13:05,480 --> 00:13:11,600
+ So here we see that the detection needs numerous times of the binary classification.
+
+101
+00:13:11,600 --> 00:13:17,640
+ So then how to generate the feature then we have three challenges how to generate the
+
+102
+00:13:17,640 --> 00:13:18,800
+ feature.
+
+103
+00:13:18,800 --> 00:13:25,160
+ First generate the feature is to compute some value from the image.
+
+104
+00:13:25,160 --> 00:13:33,640
+ So how can we compute the feature quickly and how can we refine from the repeated computation
+
+105
+00:13:33,640 --> 00:13:37,160
+ from the image into the feature.
+
+106
+00:13:37,160 --> 00:13:42,160
+ Okay then how to we obtain a good representation of the features.
+
+107
+00:13:42,160 --> 00:13:49,560
+ Okay so this issue here we have studied one solution to solve these issues.
+
+108
+00:13:49,560 --> 00:13:55,439
+ This solution is called Adaboost use the Harleck features.
+
+109
+00:13:55,439 --> 00:14:02,760
+ This is a very famous method to firstly apply to the face detection invented by two researchers
+
+110
+00:14:03,640 --> 00:14:06,760
+ I think it's the same new researchers.
+
+111
+00:14:06,760 --> 00:14:16,120
+ So this is somehow before the deep learning or detection somehow utilize this method especially
+
+112
+00:14:16,120 --> 00:14:17,720
+ for the face detection.
+
+113
+00:14:17,720 --> 00:14:26,160
+ So we will take this example to see how we can generate the idea to solve these challenges.
+
+114
+00:14:26,160 --> 00:14:30,439
+ Okay so basically this is the so-called Weiner-Jones approach.
+
+115
+00:14:30,440 --> 00:14:36,200
+ This approach is called Weiner-Jones is the name of these two authors.
+
+116
+00:14:36,200 --> 00:14:44,280
+ Okay basically this approach utilize the so-called Harleck features extracted from the image
+
+117
+00:14:44,280 --> 00:14:52,120
+ and then use the Adaboost to connect the useful feature and remove the somehow not so good
+
+118
+00:14:52,120 --> 00:14:53,920
+ features.
+
+119
+00:14:53,920 --> 00:15:01,439
+ Okay so the Harleck feature is somehow the feature is just a difference between the sum
+
+120
+00:15:01,439 --> 00:15:04,520
+ of the pictures of two rectangles.
+
+121
+00:15:04,520 --> 00:15:08,839
+ Okay for example given this patch of the window of the image.
+
+122
+00:15:08,839 --> 00:15:15,599
+ Okay we can generate the feature use a rectangle and then to sum all pictures in this shaded
+
+123
+00:15:15,600 --> 00:15:24,240
+ area then minus or summation of all feature of another part.
+
+124
+00:15:24,240 --> 00:15:31,960
+ So it is a difference of the sum of all pictures within two rectangles.
+
+125
+00:15:31,960 --> 00:15:36,840
+ So this feature is called the rectangle feature.
+
+126
+00:15:36,840 --> 00:15:43,320
+ Now for the face detection we can see that this is a rectangle feature can capture some
+
+127
+00:15:43,320 --> 00:15:46,400
+ information about the human face.
+
+128
+00:15:46,400 --> 00:15:54,280
+ For example in the human eyes right so the difference includes the eye and not includes
+
+129
+00:15:54,280 --> 00:15:56,680
+ the eye the difference will be significant.
+
+130
+00:15:56,680 --> 00:16:00,880
+ Well for other parts the difference will be small.
+
+131
+00:16:00,880 --> 00:16:06,920
+ For this kind of the feature we can use the summation of all pixel value in the center
+
+132
+00:16:06,920 --> 00:16:11,920
+ minus the summation of the pixel value at this two part.
+
+133
+00:16:11,920 --> 00:16:18,120
+ And this two rectangle so if it goes through the nose position then it will produce a large
+
+134
+00:16:18,120 --> 00:16:20,400
+ response.
+
+135
+00:16:20,400 --> 00:16:24,680
+ So this is some kind of the rectangle feature.
+
+136
+00:16:24,680 --> 00:16:30,719
+ Now the rectangle feature can also be regarded as some output of the filter.
+
+137
+00:16:30,719 --> 00:16:33,839
+ Of course here we use a very simple filter right.
+
+138
+00:16:33,839 --> 00:16:41,240
+ So for example the difference of the summation can be say as the output of the filter the
+
+139
+00:16:41,240 --> 00:16:49,560
+ filter has the coefficient 1 all is 1 for this pictures of this rectangle and minus
+
+140
+00:16:49,560 --> 00:16:52,560
+ one of another rectangle.
+
+141
+00:16:52,560 --> 00:16:58,920
+ Then the filter output will be the summation of all this pixel minus the pixel in another
+
+142
+00:16:58,920 --> 00:16:59,920
+ rectangle.
+
+143
+00:16:59,920 --> 00:17:03,320
+ Right so this is also an output of the filter.
+
+144
+00:17:03,320 --> 00:17:10,040
+ And of course we see the CNN convolution layer is always used the filter to get the output
+
+145
+00:17:10,040 --> 00:17:14,359
+ as the input of the next layer always repeat this process.
+
+146
+00:17:14,359 --> 00:17:22,440
+ Of course in the CNN the filter coefficient is learned from the training data.
+
+147
+00:17:22,440 --> 00:17:30,360
+ But here we just use very simple filters which is 1 and minus 1 within this window and 0
+
+148
+00:17:30,360 --> 00:17:32,159
+ outside of this window.
+
+149
+00:17:32,159 --> 00:17:35,520
+ Okay to generate the feature.
+
+150
+00:17:35,520 --> 00:17:43,200
+ Now if we use this rectangle to difference of the two rectangle to generate the feature
+
+151
+00:17:43,200 --> 00:17:48,520
+ then we can compute the feature very fast.
+
+152
+00:17:48,520 --> 00:17:54,280
+ So this is why or a reason why we use this rectangle feature.
+
+153
+00:17:54,280 --> 00:18:02,280
+ Because the sum of all pixels within a rectangle can be computed very fast.
+
+154
+00:18:02,280 --> 00:18:05,680
+ Because we need to compute a lot of different rectangle features.
+
+155
+00:18:05,680 --> 00:18:12,440
+ For example we can design our this rectangle differently and place this two rectangle at
+
+156
+00:18:12,440 --> 00:18:18,560
+ a different position, different shape then we can produce a lot of different features.
+
+157
+00:18:18,560 --> 00:18:25,800
+ But we use this rectangle because we can compute this summation of the pixels within a rectangle
+
+158
+00:18:25,800 --> 00:18:26,800
+ very fast.
+
+159
+00:18:27,200 --> 00:18:33,800
+ Here give examples how to fastly compute this rectangle feature.
+
+160
+00:18:33,800 --> 00:18:40,560
+ To compute this rectangle feature we first to create an integral image.
+
+161
+00:18:40,560 --> 00:18:45,720
+ So given an image we can give an image Ixy.
+
+162
+00:18:45,720 --> 00:18:51,800
+ We can somehow create or generate an integral image Ixy.
+
+163
+00:18:51,800 --> 00:19:00,240
+ It is the integration of the Ixy from one corner to this position.
+
+164
+00:19:00,240 --> 00:19:06,399
+ Of course in terms of the discrete image we use the summation instead of the integration.
+
+165
+00:19:06,399 --> 00:19:12,240
+ So this formula can show what is the Ixy for example.
+
+166
+00:19:12,240 --> 00:19:19,000
+ Given this white rectangle is a whole image or a window of the image.
+
+167
+00:19:19,000 --> 00:19:27,920
+ The integral image value of the Iy at this Ixy position is the sum of the pixels of
+
+168
+00:19:27,920 --> 00:19:31,760
+ all this blue area.
+
+169
+00:19:31,760 --> 00:19:39,600
+ Then if this Ixy at a different position then the summation will be different.
+
+170
+00:19:39,600 --> 00:19:45,480
+ Anyway summation is from if we put the coordinate here it is 0, 0.
+
+171
+00:19:45,480 --> 00:19:52,080
+ Then it is the sum of all the rectangles up to the position x and y.
+
+172
+00:19:52,080 --> 00:19:59,120
+ So we know two positions were specified a rectangle.
+
+173
+00:19:59,120 --> 00:20:05,960
+ We use one position is the left upper corner another position is xy.
+
+174
+00:20:05,960 --> 00:20:08,640
+ These two positions were formed a rectangle.
+
+175
+00:20:08,640 --> 00:20:16,280
+ Then sum of all the pixels is the value of this Iy at the position xy.
+
+176
+00:20:16,280 --> 00:20:26,000
+ So mathematically for continuous images this Ixy is the integration of the Ixy from 0,
+
+177
+00:20:26,000 --> 00:20:30,240
+ 0 to the position x and y.
+
+178
+00:20:30,240 --> 00:20:34,680
+ So discretely we use the summation.
+
+179
+00:20:34,680 --> 00:20:42,120
+ Now in fact to compute this integral image we can also use another way to very fastly
+
+180
+00:20:42,120 --> 00:20:47,760
+ to compute it to avoid the repetition of the computation.
+
+181
+00:20:47,760 --> 00:21:02,360
+ This is very clear because if we directly use this formula to compute the integral image
+
+182
+00:21:03,240 --> 00:21:14,320
+ we have a lot of repeated computation.
+
+183
+00:21:14,320 --> 00:21:16,919
+ We have a lot of repeated computation for example.
+
+184
+00:21:16,919 --> 00:21:22,159
+ To compute the Ixy here we need sum of all these pixels.
+
+185
+00:21:22,159 --> 00:21:29,439
+ Then to compute the Ixy at the next position we need to repeat the sum of all these pixels.
+
+186
+00:21:29,440 --> 00:21:33,640
+ So many pixels are repeatedly used in the summation.
+
+187
+00:21:33,640 --> 00:21:41,960
+ So to avoid repeated computation we can use this so-called iterative method to compute
+
+188
+00:21:41,960 --> 00:21:45,480
+ the integral image Ixy.
+
+189
+00:21:45,480 --> 00:21:53,880
+ So the idea in fact is quite simple because it's iteratively computed the Ixy come from
+
+190
+00:21:53,880 --> 00:21:58,520
+ the previous pixel Ix minus 1y.
+
+191
+00:21:58,520 --> 00:22:08,480
+ Suppose we have already the Ix minus 1y then to produce this x and y it's just x increment
+
+192
+00:22:08,480 --> 00:22:10,000
+ 1 pixel.
+
+193
+00:22:10,000 --> 00:22:21,600
+ So we only need to use the previous result plus one column up to here pixels.
+
+194
+00:22:21,600 --> 00:22:25,000
+ Then get the x increase 1.
+
+195
+00:22:25,000 --> 00:22:33,360
+ Then x increment further 1 we just need to use the previous one plus another column,
+
+196
+00:22:33,360 --> 00:22:36,680
+ the sum of another column.
+
+197
+00:22:36,680 --> 00:22:46,880
+ Then this Ixy is the sum of one column from this one to all pixels from this position
+
+198
+00:22:46,880 --> 00:22:47,960
+ to here.
+
+199
+00:22:47,960 --> 00:22:53,520
+ And Ixy can also compute it from this iterative method.
+
+200
+00:22:53,520 --> 00:23:03,760
+ Suppose we have already x, x, xy minus 1 then to compute the y increment 1 is just some
+
+201
+00:23:03,760 --> 00:23:06,320
+ 1 pixel.
+
+202
+00:23:06,320 --> 00:23:16,800
+ So we can see from one iteration x and y we need only use one summation and here another
+
+203
+00:23:16,800 --> 00:23:19,720
+ summation two summations.
+
+204
+00:23:19,720 --> 00:23:27,840
+ Then we start from x and y from zero then apply this one to increase this xy from zero
+
+205
+00:23:27,840 --> 00:23:31,880
+ to this for example m by n position.
+
+206
+00:23:31,880 --> 00:23:41,040
+ Then each time we only use two summations at the end we can produce this Ixy.
+
+207
+00:23:41,040 --> 00:23:48,680
+ So this is pretty clear we use a small rectangle to generate the larger rectangle is just some
+
+208
+00:23:48,680 --> 00:23:52,840
+ of the additional pixels in the previous result.
+
+209
+00:23:52,840 --> 00:24:02,160
+ Okay so from here we already marginally speed up the computation of the integral image.
+
+210
+00:24:02,160 --> 00:24:09,400
+ Now this integral image only need compute 1's so given an image we can get an integral
+
+211
+00:24:09,400 --> 00:24:11,520
+ image only compute 1's.
+
+212
+00:24:11,520 --> 00:24:21,639
+ Then after that we can use this integral image to produce the summation of a pixel
+
+213
+00:24:21,639 --> 00:24:25,680
+ with an arbitrary rectangle very fast.
+
+214
+00:24:25,680 --> 00:24:27,200
+ Here give examples.
+
+215
+00:24:27,200 --> 00:24:35,160
+ For example if we want to get a summation of the pixels with this rectangle d.
+
+216
+00:24:35,160 --> 00:24:43,440
+ So obviously this summation within the d is a summation with this large rectangle it
+
+217
+00:24:43,440 --> 00:24:47,360
+ is ii4 at this position.
+
+218
+00:24:47,360 --> 00:24:53,000
+ The integral image at this position is a sum of all pixels in this large rectangle.
+
+219
+00:24:53,000 --> 00:24:58,000
+ Then minus the ii1, ii1, so minus ii2.
+
+220
+00:24:58,000 --> 00:25:06,480
+ For example this is a 2 the xy at here is represented by 2.
+
+221
+00:25:06,480 --> 00:25:12,840
+ Then the integral result is the area or the sum of pixels within this rectangle.
+
+222
+00:25:12,840 --> 00:25:20,360
+ So this rectangle minus this rectangle then minus this rectangle but this a is minus twice
+
+223
+00:25:20,360 --> 00:25:23,920
+ then plus this ii1 this rectangle.
+
+224
+00:25:23,920 --> 00:25:32,720
+ Then we get the area of this d or the sum of the pixels within this small rectangle d.
+
+225
+00:25:32,720 --> 00:25:40,160
+ So from here we can see to produce the sum of any rectangle we can just use the integral
+
+226
+00:25:40,160 --> 00:25:44,520
+ image use 3 summations.
+
+227
+00:25:44,520 --> 00:25:52,760
+ We just use 3 summations to produce or generate any rectangle feature.
+
+228
+00:25:52,760 --> 00:26:00,640
+ Then this rectangle feature minus another rectangle feature is this hard like features.
+
+229
+00:26:00,640 --> 00:26:06,200
+ So because we need to generate many rectangle features but the integral image we only need
+
+230
+00:26:06,200 --> 00:26:08,840
+ to compute once.
+
+231
+00:26:08,840 --> 00:26:11,879
+ Then use this integral feature iixy.
+
+232
+00:26:11,879 --> 00:26:20,760
+ We can generate arbitrary rectangle very fast just use 3 or 4 summations.
+
+233
+00:26:20,760 --> 00:26:29,280
+ So basically here I show that we can generate 2, 3 or 4 rectangle features just use 6, 8
+
+234
+00:26:29,280 --> 00:26:32,280
+ or 9 summations.
+
+235
+00:26:32,280 --> 00:26:40,560
+ Of course we need to reference the integral image to get the value from the integral image
+
+236
+00:26:40,560 --> 00:26:50,600
+ then just use 6, 8 or 9 summations we can compute 2, 3 or 4 rectangle features.
+
+237
+00:26:50,600 --> 00:27:01,240
+ So this is one way how to very fastly compute this rectangle feature.
+
+238
+00:27:01,240 --> 00:27:10,040
+ So here basically we first use integral image enable us to compute the features of all possible
+
+239
+00:27:10,040 --> 00:27:13,000
+ rectangle size and different shape.
+
+240
+00:27:13,000 --> 00:27:19,199
+ You can design the 2 rectangle or 3 rectangle in different size, different shape at a different
+
+241
+00:27:19,200 --> 00:27:23,960
+ position to compute all these different rectangle features.
+
+242
+00:27:23,960 --> 00:27:30,400
+ So we also don't need scaling the image smaller or larger because we can use different size
+
+243
+00:27:30,400 --> 00:27:36,800
+ of the rectangle to represent all different size of the features.
+
+244
+00:27:36,800 --> 00:27:40,880
+ Then after that we can produce a lot of the rectangle features.
+
+245
+00:27:40,880 --> 00:27:48,760
+ For example here given image detection window right we can this is just a few examples to
+
+246
+00:27:48,760 --> 00:27:55,440
+ see how to produce a feature means that this shaded area minus another area.
+
+247
+00:27:55,440 --> 00:28:00,760
+ We can also use this pattern to extract the rectangle features.
+
+248
+00:28:00,760 --> 00:28:06,520
+ But anyway all this rectangle features each of them is just a few summations we can get
+
+249
+00:28:06,520 --> 00:28:09,320
+ what is the result.
+
+250
+00:28:09,320 --> 00:28:18,200
+ So now if we design this so many different kind of the pattern to extract these features
+
+251
+00:28:18,200 --> 00:28:23,880
+ then we can produce numerous different features.
+
+252
+00:28:23,880 --> 00:28:32,120
+ For example here give examples show that even given a 24 by 24 pixel detection window the
+
+253
+00:28:32,120 --> 00:28:43,160
+ number of possible this rectangle feature could be almost 200,000 different features.
+
+254
+00:28:43,160 --> 00:28:49,520
+ Now in all these features some features could be very discriminated, discriminate the face
+
+255
+00:28:49,520 --> 00:28:51,280
+ and the non-face.
+
+256
+00:28:51,280 --> 00:28:58,560
+ Some features may be useful but we don't know it is very difficult to check which feature
+
+257
+00:28:58,560 --> 00:29:05,640
+ is useful, which feature is not useful among this 200,000 different kind of the pattern,
+
+258
+00:29:05,640 --> 00:29:08,120
+ different kind of the features.
+
+259
+00:29:08,120 --> 00:29:13,360
+ But we cannot utilize all these features to do the classification because we have too
+
+260
+00:29:13,360 --> 00:29:15,439
+ many features.
+
+261
+00:29:15,439 --> 00:29:27,080
+ We know most of them is year read run feature only some of them is useful for the face detection.
+
+262
+00:29:27,080 --> 00:29:34,760
+ Then how to select the useful feature and only after we select we can only use the useful
+
+263
+00:29:34,760 --> 00:29:39,400
+ feature and we don't need to compute the useless features.
+
+264
+00:29:39,400 --> 00:29:45,720
+ So to do this selection because our human knowledge is very difficult to apply to this
+
+265
+00:29:45,720 --> 00:29:53,160
+ selection then we can use the training data to select the feature.
+
+266
+00:29:53,160 --> 00:29:55,480
+ So we need the feature selection.
+
+267
+00:29:55,480 --> 00:30:00,720
+ So basically for feature selection we need to use the training data then this is some
+
+268
+00:30:00,720 --> 00:30:02,200
+ kind of the machine learning.
+
+269
+00:30:02,200 --> 00:30:06,720
+ We use the machine to learn the useful features.
+
+270
+00:30:06,720 --> 00:30:13,040
+ So this diagram shows the process of this feature selection.
+
+271
+00:30:13,040 --> 00:30:16,680
+ First we need to connect training data.
+
+272
+00:30:16,680 --> 00:30:22,320
+ So training data for all detection problem we have two class, one is a positive sample
+
+273
+00:30:22,320 --> 00:30:24,760
+ another is a negative sample.
+
+274
+00:30:24,760 --> 00:30:29,400
+ Positive sample means all this image is a face for the face detection.
+
+275
+00:30:29,400 --> 00:30:33,080
+ Of course negative sample is a non-face.
+
+276
+00:30:33,080 --> 00:30:38,480
+ We need to connect a huge number of this training data.
+
+277
+00:30:38,480 --> 00:30:45,680
+ Then we utilize this training data to train different classifier or different feature and
+
+278
+00:30:45,680 --> 00:30:53,880
+ then to select the good feature or good classifier.
+
+279
+00:30:53,880 --> 00:30:56,960
+ Then after that this is a training process.
+
+280
+00:30:56,960 --> 00:30:58,760
+ It's offline.
+
+281
+00:30:58,760 --> 00:31:05,480
+ So after we determine what feature is a good feature, what feature is a useless feature
+
+282
+00:31:05,480 --> 00:31:12,760
+ then in the real face detection process we only need compute this good feature selected
+
+283
+00:31:12,760 --> 00:31:14,800
+ in the training process.
+
+284
+00:31:14,800 --> 00:31:19,960
+ So in the classification real detection process it will be very fast.
+
+285
+00:31:19,960 --> 00:31:28,600
+ For example originally use this tank feature we produce 200,000 different features and
+
+286
+00:31:28,600 --> 00:31:34,399
+ go through this training process we can select just 200 features.
+
+287
+00:31:34,399 --> 00:31:40,600
+ Then after that we know which 200 features among 200,000 is a good feature.
+
+288
+00:31:40,600 --> 00:31:46,679
+ Then in the detection process we only need to compute 200 features and use it to do the
+
+289
+00:31:46,679 --> 00:31:49,679
+ classification.
+
+290
+00:31:49,680 --> 00:32:01,560
+ Now then here the learning process is to train a classifier and see how is the performance
+
+291
+00:32:01,560 --> 00:32:05,800
+ of the classifier to select the feature.
+
+292
+00:32:05,800 --> 00:32:08,920
+ So we can design a very simple classifier.
+
+293
+00:32:08,920 --> 00:32:13,080
+ Each classifier we just use one feature.
+
+294
+00:32:13,080 --> 00:32:19,040
+ So and then if the classifier use one feature the performance is good.
+
+295
+00:32:19,040 --> 00:32:21,840
+ Then this feature will be selected.
+
+296
+00:32:21,840 --> 00:32:30,240
+ So here if one classifier only use one feature a classifier and a feature is the same meaning
+
+297
+00:32:30,240 --> 00:32:31,240
+ right?
+
+298
+00:32:31,240 --> 00:32:35,680
+ We select this classifier means we select this feature.
+
+299
+00:32:35,680 --> 00:32:43,600
+ So if we use a classifier just use one features then it is a weak classifier and all this
+
+300
+00:32:43,600 --> 00:32:50,159
+ classifier will combine together to form a strong classifier.
+
+301
+00:32:50,159 --> 00:32:54,679
+ Now here I show an example for the feature selection in the training process we need
+
+302
+00:32:54,679 --> 00:32:58,120
+ first to connect training data right?
+
+303
+00:32:58,120 --> 00:33:04,080
+ It's not to connect the whole image we just connect a window a patch of the image it contains
+
+304
+00:33:04,080 --> 00:33:05,080
+ all face.
+
+305
+00:33:05,080 --> 00:33:16,679
+ Here is an example we connect the we crop the face image with many different expression
+
+306
+00:33:16,679 --> 00:33:19,199
+ different lighting different pose.
+
+307
+00:33:19,199 --> 00:33:20,199
+ Okay?
+
+308
+00:33:20,199 --> 00:33:22,879
+ All these are positive samples.
+
+309
+00:33:22,879 --> 00:33:26,399
+ One image face image is one sample.
+
+310
+00:33:26,400 --> 00:33:27,400
+ Okay?
+
+311
+00:33:27,400 --> 00:33:36,800
+ Here is just show we connect around 5000 face images as the training data and we can also
+
+312
+00:33:36,800 --> 00:33:39,640
+ connect meaning non-face image.
+
+313
+00:33:39,640 --> 00:33:42,800
+ Non-face image is very easy to connect it right?
+
+314
+00:33:42,800 --> 00:33:49,680
+ Any image we crop it without the face then is non-face image so we can connect a large
+
+315
+00:33:49,680 --> 00:33:52,640
+ number of the negative training samples.
+
+316
+00:33:52,760 --> 00:33:53,760
+ Okay?
+
+317
+00:33:53,760 --> 00:33:59,400
+ Here I show we connect 10,000 of the negative training samples.
+
+318
+00:33:59,400 --> 00:34:09,480
+ Now this work is more than 10 years ago in that year it is not very easy to compute the
+
+319
+00:34:09,480 --> 00:34:13,120
+ large volume of the training data.
+
+320
+00:34:13,120 --> 00:34:20,360
+ So this number of the training data in this currently deep learning is too small but in
+
+321
+00:34:20,400 --> 00:34:29,800
+ 10 years ago or 20 years ago this is already somehow relative good size of the training
+
+322
+00:34:29,800 --> 00:34:30,800
+ data.
+
+323
+00:34:30,800 --> 00:34:31,800
+ Okay?
+
+324
+00:34:31,800 --> 00:34:38,200
+ This is just to show an example we can connect a positive samples and also negative samples.
+
+325
+00:34:38,200 --> 00:34:46,320
+ Now after we have such a kind of the training data we can utilize it to train a classifier
+
+326
+00:34:46,320 --> 00:34:52,960
+ and each classifier use only one feature to find the good classifier that means to
+
+327
+00:34:52,960 --> 00:34:54,920
+ find the good features.
+
+328
+00:34:54,920 --> 00:34:58,960
+ So based on that to connect the different feature.
+
+329
+00:34:58,960 --> 00:34:59,960
+ Okay?
+
+330
+00:34:59,960 --> 00:35:04,920
+ Now the method in this learning is called boosting method.
+
+331
+00:35:04,920 --> 00:35:10,920
+ It is a machine learning with the meta-archism to perform supervised learning because the
+
+332
+00:35:10,920 --> 00:35:14,480
+ training data we know it is a face or non-face.
+
+333
+00:35:14,480 --> 00:35:15,480
+ Okay?
+
+334
+00:35:15,480 --> 00:35:21,120
+ To do this binary classification problem the two class membership we already know so it
+
+335
+00:35:21,120 --> 00:35:25,640
+ is some kind of supervised learning.
+
+336
+00:35:25,640 --> 00:35:33,720
+ So the boosting method basically utilize a weak classifier.
+
+337
+00:35:33,720 --> 00:35:41,800
+ We can first use numerous different weak classifier and to connect a good weak classifier.
+
+338
+00:35:41,800 --> 00:35:48,320
+ First we connect a number of the good weak classifier then we merge this classifier to
+
+339
+00:35:48,320 --> 00:35:50,720
+ build a strong classifier.
+
+340
+00:35:50,720 --> 00:35:51,720
+ Okay?
+
+341
+00:35:51,720 --> 00:35:58,000
+ Now for the feature selection each weak classifier we only use one feature.
+
+342
+00:35:58,000 --> 00:35:59,000
+ Okay?
+
+343
+00:35:59,000 --> 00:36:07,640
+ And use this one feature to classify the training sample into two different class.
+
+344
+00:36:07,640 --> 00:36:14,400
+ Then if the error rate is just smaller than 0.5 then it is a better than random guess.
+
+345
+00:36:14,400 --> 00:36:15,400
+ Right?
+
+346
+00:36:15,400 --> 00:36:21,359
+ If you for two class classification problem if you random guess it then the error is around
+
+347
+00:36:21,359 --> 00:36:24,120
+ 50% or 0.5.
+
+348
+00:36:24,120 --> 00:36:25,120
+ Okay?
+
+349
+00:36:25,120 --> 00:36:34,200
+ So we only require this classifier is smaller than the error rate is smaller than 0.5 then
+
+350
+00:36:34,200 --> 00:36:39,319
+ it can be a candidate for us to connect.
+
+351
+00:36:39,319 --> 00:36:40,319
+ Okay?
+
+352
+00:36:40,319 --> 00:36:46,879
+ So now here we keep this in your mind one classifier only use one feature.
+
+353
+00:36:46,879 --> 00:36:47,879
+ Okay?
+
+354
+00:36:47,879 --> 00:36:52,720
+ Because it is very easy just use one feature to do the classification because one feature
+
+355
+00:36:52,720 --> 00:36:56,960
+ is each training sample has only one value.
+
+356
+00:36:56,960 --> 00:37:03,759
+ Now if we sort this feature from smallest to largest of all training data then we can
+
+357
+00:37:03,760 --> 00:37:09,080
+ always find a trisor to separate all training data into two class.
+
+358
+00:37:09,080 --> 00:37:10,080
+ Right?
+
+359
+00:37:10,080 --> 00:37:15,640
+ This one feature single feature the value larger than trisor is the class one smaller
+
+360
+00:37:15,640 --> 00:37:18,120
+ than the trisor is the class two.
+
+361
+00:37:18,120 --> 00:37:23,480
+ The trisor is just one value we can always utilize many different trisor to see which
+
+362
+00:37:23,480 --> 00:37:29,120
+ trisor will get the highest accuracy or lowest error rate.
+
+363
+00:37:29,120 --> 00:37:30,120
+ Okay?
+
+364
+00:37:30,120 --> 00:37:32,799
+ This is very easy to implement it.
+
+365
+00:37:32,799 --> 00:37:33,799
+ Right?
+
+366
+00:37:33,799 --> 00:37:34,799
+ Okay.
+
+367
+00:37:34,799 --> 00:37:42,040
+ So this other boost we are aggressively used for the feature selection.
+
+368
+00:37:42,040 --> 00:37:43,040
+ Okay?
+
+369
+00:37:43,040 --> 00:37:48,480
+ So the training set have the positive sample and the negative samples.
+
+370
+00:37:48,480 --> 00:37:58,839
+ So we use a simple classifier use only a single feature to try to find a good classifier and
+
+371
+00:37:58,840 --> 00:38:05,600
+ then to select a good classifier is same meaning to select the feature because different classifier
+
+372
+00:38:05,600 --> 00:38:09,560
+ use different feature one classifier is just use one features.
+
+373
+00:38:09,560 --> 00:38:10,560
+ Right?
+
+374
+00:38:10,560 --> 00:38:11,560
+ Okay.
+
+375
+00:38:11,560 --> 00:38:18,240
+ Now basically this is idea of the classifier selection or feature selection.
+
+376
+00:38:18,240 --> 00:38:25,520
+ Now how to select the feature use this feature try to use just one feature to classify all
+
+377
+00:38:25,520 --> 00:38:27,160
+ training data.
+
+378
+00:38:27,160 --> 00:38:36,640
+ Of course we can always try each feature one by one and then find one feature it produces
+
+379
+00:38:36,640 --> 00:38:38,720
+ the lowest error rate.
+
+380
+00:38:38,720 --> 00:38:39,720
+ Right?
+
+381
+00:38:39,720 --> 00:38:40,720
+ Okay.
+
+382
+00:38:40,720 --> 00:38:51,839
+ But if we try every feature and find the feature that has the lowest error rate is just a little
+
+383
+00:38:51,839 --> 00:38:52,839
+ one feature.
+
+384
+00:38:52,839 --> 00:38:53,839
+ Right?
+
+385
+00:38:53,839 --> 00:38:56,440
+ Then what is the second feature?
+
+386
+00:38:56,440 --> 00:38:59,720
+ Second good best feature.
+
+387
+00:38:59,720 --> 00:39:08,600
+ If we just select the remaining feature to also get the best accuracy or the lowest error
+
+388
+00:39:08,600 --> 00:39:16,040
+ rate does not mean each individual or though it is the best has lowest error rate does
+
+389
+00:39:16,040 --> 00:39:25,040
+ not mean we put this two feature together we perform the best than any other two features.
+
+390
+00:39:25,040 --> 00:39:26,040
+ Right?
+
+391
+00:39:26,400 --> 00:39:32,920
+ Now suppose you have you because one select one feature is very simple right we just try
+
+392
+00:39:32,920 --> 00:39:37,480
+ every feature to find the feature that has the lowest error rate.
+
+393
+00:39:37,480 --> 00:39:44,040
+ But the second feature if you're if it's a signal lowest error rate but you put together
+
+394
+00:39:44,040 --> 00:39:47,400
+ may not improve the accuracy.
+
+395
+00:39:47,400 --> 00:39:54,040
+ Because for example if the first feature and the signal feature classify same samples correctly
+
+396
+00:39:54,040 --> 00:40:00,720
+ and same sample incorrectly then if we combine them to the classification accuracy are same
+
+397
+00:40:00,720 --> 00:40:02,040
+ no difference.
+
+398
+00:40:02,040 --> 00:40:03,040
+ Right?
+
+399
+00:40:03,040 --> 00:40:12,320
+ So this is why here to do the selection the variety is very important we should select
+
+400
+00:40:12,320 --> 00:40:21,040
+ the make the select feature has has larger variation so that the different feature can
+
+401
+00:40:21,040 --> 00:40:24,840
+ compensate each other can complement each other.
+
+402
+00:40:24,840 --> 00:40:25,840
+ Okay?
+
+403
+00:40:25,840 --> 00:40:32,240
+ Just now I mentioned that if one feature and the other feature two features the rule is
+
+404
+00:40:32,240 --> 00:40:38,680
+ are exactly same to classify the sample correct or incorrect exactly same then you combine
+
+405
+00:40:38,680 --> 00:40:43,400
+ these two features together does not improve the accuracy.
+
+406
+00:40:43,400 --> 00:40:44,400
+ Right?
+
+407
+00:40:44,400 --> 00:40:51,160
+ So the running classified feature sample if you use two still running classified.
+
+408
+00:40:51,160 --> 00:40:52,160
+ Okay?
+
+409
+00:40:52,160 --> 00:41:00,040
+ So this is why the selection is not just simply select the best feature the signal best feature
+
+410
+00:41:00,040 --> 00:41:08,000
+ then third best feature one by one this is not a proper way to do the feature selection.
+
+411
+00:41:08,000 --> 00:41:15,920
+ So how to solve this problem to really send that set of best feature this is the we la
+
+412
+00:41:15,920 --> 00:41:22,000
+ Jones approach utilize this so-called other boost to solve this problem.
+
+413
+00:41:22,000 --> 00:41:23,360
+ Okay?
+
+414
+00:41:23,360 --> 00:41:32,520
+ So the idea to solve this problem is try to wait the sample differently.
+
+415
+00:41:32,520 --> 00:41:39,600
+ Now for example if we want to send it the first best feature okay we just use this feature
+
+416
+00:41:39,600 --> 00:41:46,640
+ to one feature to classify all training data and then to find the lowest error rate.
+
+417
+00:41:46,640 --> 00:41:47,640
+ Okay?
+
+418
+00:41:47,640 --> 00:41:55,120
+ But to send it the second based feature we should make try to find the second feature
+
+419
+00:41:55,120 --> 00:42:01,120
+ can correctly classify the samples the first feature running classified.
+
+420
+00:42:01,120 --> 00:42:02,120
+ Okay?
+
+421
+00:42:02,120 --> 00:42:08,560
+ If the first feature already classified correct classified samples we don't need the second
+
+422
+00:42:08,560 --> 00:42:12,640
+ feature also correctly classified.
+
+423
+00:42:12,640 --> 00:42:20,759
+ We want the second best feature can classify some samples the first feature running classified.
+
+424
+00:42:20,759 --> 00:42:21,759
+ Right?
+
+425
+00:42:21,759 --> 00:42:28,680
+ So that means to select the second feature we should wait the samples running classified
+
+426
+00:42:28,680 --> 00:42:32,160
+ by the first one higher weightage.
+
+427
+00:42:32,160 --> 00:42:40,000
+ Well the samples classified the correct classified by first feature we are put a lower weightage.
+
+428
+00:42:40,000 --> 00:42:41,000
+ Okay?
+
+429
+00:42:41,000 --> 00:42:48,600
+ So this is idea of this selection process.
+
+430
+00:42:48,600 --> 00:42:54,759
+ Okay now here as I mentioned that we have a large pool of the different features for
+
+431
+00:42:54,759 --> 00:42:58,279
+ example to around 200,000 features.
+
+432
+00:42:58,280 --> 00:43:02,480
+ Now among all these features we need to send next them one by one.
+
+433
+00:43:02,480 --> 00:43:03,480
+ Okay?
+
+434
+00:43:03,480 --> 00:43:11,040
+ So for then we can design a filter or not filter a classifier a very simple classifier.
+
+435
+00:43:11,040 --> 00:43:16,200
+ This classifier just use one features X. Okay?
+
+436
+00:43:16,200 --> 00:43:24,560
+ Then we can we can design a classifier very easily to find a choice to classify all the
+
+437
+00:43:24,560 --> 00:43:26,040
+ training data.
+
+438
+00:43:26,040 --> 00:43:35,560
+ If this classifier the result of this feature is larger than this choice is one smaller than
+
+439
+00:43:35,560 --> 00:43:37,400
+ choice is minus one.
+
+440
+00:43:37,400 --> 00:43:44,020
+ So use this very simple classifier we can classify all training data into two different
+
+441
+00:43:44,020 --> 00:43:51,560
+ class one is one class minus one is the other class.
+
+442
+00:43:51,560 --> 00:44:03,480
+ So here this HG is a classifier utilize feature FG and the theta G is we try to find use this
+
+443
+00:44:03,480 --> 00:44:08,920
+ feature best classify all training data so we need to find an optimal choice.
+
+444
+00:44:08,920 --> 00:44:09,920
+ Okay?
+
+445
+00:44:09,920 --> 00:44:15,799
+ To use this optimal choice to classify this data with minimum error rate.
+
+446
+00:44:15,799 --> 00:44:16,799
+ Okay?
+
+447
+00:44:16,800 --> 00:44:25,720
+ So we have this very simple classifier utilize only a single features here.
+
+448
+00:44:25,720 --> 00:44:32,560
+ So then this is a selection process is show here.
+
+449
+00:44:32,560 --> 00:44:41,600
+ Suppose we have aim example image in our training data or we have aim training samples or training
+
+450
+00:44:41,600 --> 00:44:42,600
+ image.
+
+451
+00:44:42,600 --> 00:44:43,600
+ Okay?
+
+452
+00:44:43,600 --> 00:44:44,600
+ We have aim.
+
+453
+00:44:44,600 --> 00:44:45,600
+ Okay?
+
+454
+00:44:45,600 --> 00:44:51,960
+ So then image we have the feature X1.
+
+455
+00:44:51,960 --> 00:45:01,640
+ This is for each feature we have for image for sample one we have for X1 and it's label
+
+456
+00:45:01,640 --> 00:45:04,400
+ Y is either minus one or one.
+
+457
+00:45:04,400 --> 00:45:05,400
+ Right?
+
+458
+00:45:05,400 --> 00:45:10,279
+ Then this we have sample one, sample two, sample two, up to sample aim.
+
+459
+00:45:10,280 --> 00:45:16,400
+ This is cross all training sample training data for one features.
+
+460
+00:45:16,400 --> 00:45:17,400
+ Okay?
+
+461
+00:45:17,400 --> 00:45:23,120
+ So here we have the index here it's index all different training samples different training
+
+462
+00:45:23,120 --> 00:45:27,680
+ samples the class label will be different but we have only two possible class.
+
+463
+00:45:27,680 --> 00:45:33,840
+ So this Y is class label can be only two different value either minus one or one.
+
+464
+00:45:33,840 --> 00:45:40,840
+ Now for example if we have one sample is X1 minus one so this minus one means it's a
+
+465
+00:45:40,840 --> 00:45:42,640
+ negative training sample.
+
+466
+00:45:42,640 --> 00:45:43,640
+ Okay?
+
+467
+00:45:43,640 --> 00:45:46,160
+ This feature is X1.
+
+468
+00:45:46,160 --> 00:45:54,160
+ So we have another training sample is for the ninth training sample we have the feature
+
+469
+00:45:54,160 --> 00:46:00,840
+ value and it is label is one so this training sample is a positive training sample.
+
+470
+00:46:00,840 --> 00:46:01,840
+ Okay?
+
+471
+00:46:01,840 --> 00:46:08,760
+ And ninth image or ninth training sample is a face image or a positive training sample.
+
+472
+00:46:08,760 --> 00:46:10,160
+ This is just an example.
+
+473
+00:46:10,160 --> 00:46:19,600
+ So here show a training data set for one feature for example is X, value of X.
+
+474
+00:46:19,600 --> 00:46:27,320
+ Okay now if we only use one feature to do the classification we can very easily to try
+
+475
+00:46:27,320 --> 00:46:32,880
+ to classify all this training data into two different class.
+
+476
+00:46:32,880 --> 00:46:40,640
+ Now to do so we first initialize a so-called waiting function dI.
+
+477
+00:46:40,640 --> 00:46:44,760
+ I is for different training samples.
+
+478
+00:46:44,760 --> 00:46:51,680
+ We first make this waiting function is a constant one over aim.
+
+479
+00:46:51,680 --> 00:46:55,200
+ Aim is number of the training image or training samples.
+
+480
+00:46:55,200 --> 00:47:04,439
+ So it is one over aim means in fact it's a constant we suppose this waiting function
+
+481
+00:47:04,439 --> 00:47:09,560
+ is uniform distributed over all training samples.
+
+482
+00:47:09,560 --> 00:47:18,560
+ So this is the first initialize it and then we will need to try the feature one by one.
+
+483
+00:47:18,560 --> 00:47:25,680
+ So we will iterate this classification process from iteration one up to t if we store by
+
+484
+00:47:25,680 --> 00:47:29,759
+ to the t then we will select g features.
+
+485
+00:47:29,759 --> 00:47:33,520
+ So each iteration we try to select one feature.
+
+486
+00:47:33,520 --> 00:47:38,000
+ Okay so this t is the index of different features.
+
+487
+00:47:38,000 --> 00:47:43,480
+ So for each iteration in this process we select one features.
+
+488
+00:47:44,240 --> 00:47:51,440
+ Okay now given a feature for example given a feature then we find a class of a ht that
+
+489
+00:47:51,440 --> 00:47:54,320
+ minimize the error rate.
+
+490
+00:47:54,320 --> 00:48:00,720
+ Here we say the expect to the distribution d here this is the distribution d but at the
+
+491
+00:48:00,720 --> 00:48:04,160
+ beginning it is just a uniform distributed.
+
+492
+00:48:04,160 --> 00:48:07,280
+ All training samples have same weightage.
+
+493
+00:48:07,280 --> 00:48:10,880
+ The weights are same it's just one over aim.
+
+494
+00:48:10,880 --> 00:48:15,560
+ So here we find the class of ht.
+
+495
+00:48:15,560 --> 00:48:25,840
+ If we find the class of ht for example then we can use ht we find the class of ht to minimize
+
+496
+00:48:25,840 --> 00:48:34,440
+ the error rate because given a feature we still need to find what is the tri-show to minimize
+
+497
+00:48:34,440 --> 00:48:37,480
+ the classification error.
+
+498
+00:48:37,480 --> 00:48:55,080
+ So suppose different tri-show is indicated by hg this hg is for different tri-show for
+
+499
+00:48:55,080 --> 00:49:03,240
+ one tri-show of g then we can classify all training sample xi into two class into either
+
+500
+00:49:03,240 --> 00:49:06,400
+ one or minus one.
+
+501
+00:49:06,400 --> 00:49:15,800
+ I is index of different training samples because I is here from one to aim obviously I indicate
+
+502
+00:49:15,800 --> 00:49:21,880
+ different training sample where j indicates different class field use the same feature
+
+503
+00:49:21,880 --> 00:49:27,240
+ then the different class field means different tri-show because the class field is only depends
+
+504
+00:49:27,240 --> 00:49:34,560
+ on this tri-show because it is only use one feature right one value we just use one tri-show
+
+505
+00:49:34,560 --> 00:49:38,840
+ can separate all training data into two region.
+
+506
+00:49:38,840 --> 00:49:49,840
+ So here given one single feature we take it out then we can design our class field hg
+
+507
+00:49:49,840 --> 00:49:55,200
+ different hg is different class field because the tri-show will be different right then
+
+508
+00:49:55,200 --> 00:50:02,000
+ given a tri-show given of on this feature single feature we can have a class field then
+
+509
+00:50:02,000 --> 00:50:10,400
+ we can classify all training data xi i from one to aim all training data of the x training
+
+510
+00:50:10,400 --> 00:50:11,400
+ samples.
+
+511
+00:50:11,400 --> 00:50:18,960
+ Now this classification can be correct can be wrong right if the classification result
+
+512
+00:50:18,960 --> 00:50:27,640
+ is same as yi then it is correct if it is not equals to yi is incorrect because yi for
+
+513
+00:50:27,640 --> 00:50:35,600
+ sample i is either minus one or one for different training sample the label is either minus
+
+514
+00:50:35,600 --> 00:50:44,000
+ one or one where the classification result h is also either one or minus one okay because
+
+515
+00:50:44,000 --> 00:50:50,839
+ we can find a tri-show to find this feature smaller than tri-show is minus one larger
+
+516
+00:50:50,839 --> 00:50:54,040
+ than tri-show is one right okay.
+
+517
+00:50:54,040 --> 00:51:02,759
+ So here basically it's just given one feature we can design the class field this class field
+
+518
+00:51:02,759 --> 00:51:08,480
+ is just determined by the choice okay then use this class field to classify all training
+
+519
+00:51:08,480 --> 00:51:15,320
+ data it can be correct or incorrect okay if it's incorrect that means the classification
+
+520
+00:51:15,320 --> 00:51:22,840
+ result is not same as the class label the training data okay so this is not equal right
+
+521
+00:51:22,840 --> 00:51:33,000
+ now if it is not equal then it's di here at first all training sample are same value
+
+522
+00:51:33,000 --> 00:51:41,960
+ one over aim this di were summed together then this submission is the arrow rate and the
+
+523
+00:51:41,960 --> 00:51:51,000
+ tri-show g or this hg use the tri-show g or this class field hg so this is arrow rate
+
+524
+00:51:51,000 --> 00:51:59,000
+ why is arrow rate for example at the beginning all this di is one over aim right so aim is
+
+525
+00:51:59,000 --> 00:52:05,720
+ a total number of the training sample right here this is just one over aim where the submission
+
+526
+00:52:05,720 --> 00:52:13,520
+ is a sum of the training sample it is a it is a false classified so this is a non this
+
+527
+00:52:13,560 --> 00:52:20,759
+ submission web is a number of the training sample incorrect classified divided by the total
+
+528
+00:52:20,759 --> 00:52:27,080
+ number of the training sample right so of course it's an arrow rate right the number of the sample
+
+529
+00:52:27,080 --> 00:52:33,680
+ incorrect divided by the total number of the training sample so this is an arrow rate now this arrow
+
+530
+00:52:33,680 --> 00:52:42,120
+ rate is just arrow rate we try to use one tri-show okay so use different tri-show web produce different
+
+531
+00:52:42,319 --> 00:52:50,799
+ arrow rate then we can try we can test all different arrow tri-show to find a tri-show that were
+
+532
+00:52:50,799 --> 00:53:01,920
+ minimize this arrow rate then we find the ht ht is just one of this hg it is its arrow rate is
+
+533
+00:53:01,920 --> 00:53:11,480
+ minimized okay different hg is use different tri-show so anyway this process is because we
+
+534
+00:53:11,520 --> 00:53:17,600
+ just use one feature we can use try to use different tri-show to separate the training data into two
+
+535
+00:53:17,600 --> 00:53:25,280
+ cars then we find which tri-show is produce the minimum arrow rate that's all okay is the meaning of
+
+536
+00:53:25,280 --> 00:53:37,120
+ this this expression okay now here we understand that if the classification result under this
+
+537
+00:53:37,160 --> 00:53:45,040
+ tri-show is not equals to the ground truth neighbor then it is this this sample is running classified
+
+538
+00:53:45,040 --> 00:53:54,000
+ right then it will contribute to one to sum together over all 20 samples then divided by
+
+539
+00:53:54,000 --> 00:54:01,759
+ aim this d is one over a right now here we understand this is an arrow rate right because the number
+
+540
+00:54:01,760 --> 00:54:07,720
+ of the incorrect classified divided by the total number of the samples this is the arrow rate but
+
+541
+00:54:07,720 --> 00:54:16,440
+ in general this is the arrow rate just we treat all training sample equally okay all training
+
+542
+00:54:16,440 --> 00:54:24,200
+ sample correct in quite classified we are contribute one to this summation okay in general we can put
+
+543
+00:54:24,359 --> 00:54:34,000
+ this this d not equal to all training sample we can make this d different value for different i so
+
+544
+00:54:34,000 --> 00:54:41,839
+ this is why in general we can we can make this d is a function of the i for d i is the index of
+
+545
+00:54:41,839 --> 00:54:47,680
+ the training sample for different training sample we can put different weightage in compute this
+
+546
+00:54:47,879 --> 00:54:56,879
+ arrow rate right of course at the beginning to send next the first feature this all sample has the
+
+547
+00:54:56,879 --> 00:55:04,960
+ same weightage so it's a one over a okay now later we were we were we were changing this
+
+548
+00:55:05,280 --> 00:55:18,680
+ weight on the different the training samples so here show e this e j is a sum of this one for all
+
+549
+00:55:18,680 --> 00:55:26,480
+ mismatched x and h mismatches means miss class fear is run running classified because this one is not
+
+550
+00:55:26,480 --> 00:55:32,200
+ equals to this one so the sample the class key result and this training sample are mismatch it
+
+551
+00:55:32,640 --> 00:55:44,480
+ okay the for for a connected smallest this a rate we can fix the class fear for for one
+
+552
+00:55:44,480 --> 00:55:55,839
+ feature okay now after we find this class fear for these features we have the arrow rate right
+
+553
+00:55:56,440 --> 00:56:04,960
+ all the performance of this class fear then use this result we can update our weight in the
+
+554
+00:56:04,960 --> 00:56:14,320
+ on the training samples so we first put compute a weight of this class fear because for for different
+
+555
+00:56:14,320 --> 00:56:21,360
+ class fear or different feature because we utilize it for the feature selection right for different
+
+556
+00:56:21,400 --> 00:56:28,760
+ features this arrow rate this arrow rate may be different so for some feature the error it could be
+
+557
+00:56:28,760 --> 00:56:34,200
+ very small for some features the error it can be very large right so after we compute the arrow
+
+558
+00:56:34,200 --> 00:56:42,600
+ rate then we can utilize this error rate to compute a weight for small error rate the weight for this
+
+559
+00:56:42,640 --> 00:56:51,480
+ class fear will be higher for large error rate this alpha t will be smaller okay because we have 1
+
+560
+00:56:51,480 --> 00:56:59,319
+ minus e t over e t right if e is smaller this is larger this denominator is smaller the fraction is
+
+561
+00:56:59,319 --> 00:57:07,799
+ also larger so anyway we just convert small error rate to larger weight this weight is a weight for
+
+562
+00:57:07,840 --> 00:57:17,960
+ this class fear t or the feature t now why this is a t previously we have a e j right e j is all
+
+563
+00:57:17,960 --> 00:57:25,160
+ post a different trisor so we find the minimum error rate corresponding to the trisor is the
+
+564
+00:57:25,160 --> 00:57:32,400
+ class fear t or the feature t right we get the feature t then we can compute the weightage
+
+565
+00:57:33,000 --> 00:57:46,200
+ weight of the class fear t or feature t okay then after we have this feature t we can compute this
+
+566
+00:57:46,200 --> 00:57:56,960
+ weight on different training samples okay the weight is computed in this expression the weight for
+
+567
+00:57:56,960 --> 00:58:06,640
+ next feature is computed by the weight of the current feature after we either increase the weight
+
+568
+00:58:06,640 --> 00:58:15,360
+ of for some training sample or decrease the weight for some other training samples okay now if we for
+
+569
+00:58:15,360 --> 00:58:23,360
+ for feature t we have this weightage at the beginning of course is an evenly weighted right so after
+
+570
+00:58:23,360 --> 00:58:31,040
+ we have the classification result then we can use the classification result to weight it to have to
+
+571
+00:58:31,040 --> 00:58:40,680
+ update this weight on different training samples now this update will put the sample running
+
+572
+00:58:40,680 --> 00:58:48,520
+ classified a high weights where correct classified by this class fear the weight becomes too small
+
+573
+00:58:49,200 --> 00:58:58,000
+ so here we can see that the the change of the weight is the exposure function the exposure
+
+574
+00:58:58,000 --> 00:59:08,600
+ function is the index is a minus alpha t is always positive because if g is smaller than 0.5 we can
+
+575
+00:59:08,600 --> 00:59:15,400
+ see this is always positive right now multiplied by why I multiply by the classification result of
+
+576
+00:59:15,400 --> 00:59:26,800
+ the current feature so if the for sample I if the class fear is correct then why I equals to
+
+577
+00:59:26,800 --> 00:59:38,480
+ why I and the HT has same sign either both are one or both are minus one because it is a correct
+
+578
+00:59:38,600 --> 00:59:46,880
+ classified right so the if y is a one this is also one if y is minus one this classification
+
+579
+00:59:46,880 --> 00:59:53,440
+ result also minus one so it is a correct classified right so that this product will be positive
+
+580
+00:59:53,440 --> 01:00:00,360
+ because one matter by one so why minus one matter by minus one is also one right so it's a positive
+
+581
+01:00:00,560 --> 01:00:08,920
+ then we have e to power of negative index so this is a positive then is the index becomes
+
+582
+01:00:08,920 --> 01:00:21,000
+ to negative so e to power of negative value will be will be somehow smaller than one so this factor
+
+583
+01:00:21,040 --> 01:00:30,760
+ is a smaller okay now for the training sample x 20 sample x i if it is a running classified then
+
+584
+01:00:30,760 --> 01:00:38,640
+ the sign of this y and the H will be different so for whatever class because they are different
+
+585
+01:00:38,640 --> 01:00:45,000
+ this multiplication is a negative value so negative value this minus negative value becomes to a
+
+586
+01:00:45,000 --> 01:00:52,760
+ positive value so it how positive value the value will be larger so it will not just on one so it
+
+587
+01:00:52,760 --> 01:01:01,680
+ will increase this weight for this training samples okay now this that is just a normalization to make
+
+588
+01:01:01,680 --> 01:01:11,480
+ this D is the sum of this D overall 20 sample is one just normalize into the weight is always smaller
+
+589
+01:01:11,480 --> 01:01:18,600
+ than one the sum of all weight overall 20 sample is one okay this that is just a normalization factor
+
+590
+01:01:18,600 --> 01:01:30,400
+ okay so then somehow we update the weight of different 20 sample then we try to find the next
+
+591
+01:01:30,400 --> 01:01:37,480
+ feature so to find the next feature because the training sample of the previous feature
+
+592
+01:01:37,480 --> 01:01:46,560
+ running classified has higher weights then the next feature to get a small error rate we are
+
+593
+01:01:46,560 --> 01:01:54,760
+ trying to focus on the training sample it has higher weights so that the next feature we are
+
+594
+01:01:54,760 --> 01:02:03,120
+ trying to classify the training sample the previous feature running classified okay because
+
+595
+01:02:03,160 --> 01:02:11,440
+ otherwise this otherwise this value this this value will be larger because it is a the
+
+596
+01:02:11,440 --> 01:02:19,560
+ running classified is weighted by this value this value for running classified by previous feature is
+
+597
+01:02:19,560 --> 01:02:31,920
+ has higher weight okay so after this process it originally go from a T from one to this small
+
+598
+01:02:31,920 --> 01:02:39,160
+ T from one to T we can select the T features so after that we can combine all these features to
+
+599
+01:02:39,160 --> 01:02:46,160
+ form the strong classifier so before we further explain that we first further to understand this
+
+600
+01:02:46,160 --> 01:02:55,800
+ process use this graph to understand it now here suppose all training sample has only two
+
+601
+01:02:55,800 --> 01:03:03,360
+ three two dimensional training samples okay first each training sample has same weightage right
+
+602
+01:03:03,360 --> 01:03:11,400
+ same weightage 1 over m m is the number of the training samples okay now in in the first iteration
+
+603
+01:03:11,400 --> 01:03:19,200
+ we will try to find a feature it based classify just one feature based classify all this training
+
+604
+01:03:19,200 --> 01:03:27,240
+ sample with minimum error rate okay so suppose we find the feature is this feature then we use
+
+605
+01:03:27,240 --> 01:03:33,439
+ this feature to find a choice so then use this choice so to separate all training data into two
+
+606
+01:03:33,439 --> 01:03:41,759
+ class positive class and the negative class right okay just use one feature okay now this
+
+607
+01:03:41,800 --> 01:03:50,840
+ classification if we use this feature we can find that for some training sample this one two three
+
+608
+01:03:50,840 --> 01:03:59,400
+ four five are correct classified this three is also correct classified well this training sample
+
+609
+01:03:59,400 --> 01:04:05,080
+ this training sample because it's a negative training sample but classified as a positive one so this
+
+610
+01:04:05,120 --> 01:04:16,000
+ three is running classified right then we use this result to weight the training sample so that the
+
+611
+01:04:16,000 --> 01:04:23,799
+ correct classified training sample whereas we are decrease the weight whereas the running classified
+
+612
+01:04:23,799 --> 01:04:30,480
+ training sample will increase the rate so that the these three will increase the value so next
+
+613
+01:04:31,440 --> 01:04:39,800
+ for next iteration one training sample quality classified where for example reduced to half
+
+614
+01:04:39,800 --> 01:04:47,800
+ becomes only half of training sample two training sample together is just take a rule of one training
+
+615
+01:04:47,800 --> 01:04:53,520
+ sample where the running classified training sample increase to three that means once sample
+
+616
+01:04:53,720 --> 01:05:02,400
+ we are contributed to error rate as same as three training samples okay so the weight increase means
+
+617
+01:05:02,400 --> 01:05:07,759
+ this training sample we would the number of the Chinese equivalently it's a number of this
+
+618
+01:05:07,759 --> 01:05:18,120
+ training sample increase so then use this training samples we have tried to find another feature to
+
+619
+01:05:18,120 --> 01:05:26,440
+ correct it to minimize the error rate then we will try to call a friend of the feature that can
+
+620
+01:05:26,440 --> 01:05:33,000
+ correctly classify this three 20 samples because this three 20 sample has higher weightage because
+
+621
+01:05:33,000 --> 01:05:42,359
+ it is a running classified by the previous features right so the next one we we we repeat it then
+
+622
+01:05:42,360 --> 01:05:48,680
+ we are find this trisor to separate use this feature then the trisor will be here because it
+
+623
+01:05:48,680 --> 01:05:55,960
+ was separate this three training sample correcting into positive class and the negative class oh
+
+624
+01:05:55,960 --> 01:06:06,560
+ this two are correct classified this one is still incorrect classified but all this one is correct
+
+625
+01:06:06,560 --> 01:06:19,160
+ classified right okay now then after that we further update the weight okay then somehow in in the
+
+626
+01:06:19,160 --> 01:06:26,759
+ first two features this tool is correct classified but this year incorrect classified if we further
+
+627
+01:06:26,759 --> 01:06:34,920
+ update it then the weight we have become we increase this three and the others were decreased so the
+
+628
+01:06:34,920 --> 01:06:42,240
+ next one the feature become to this one is the largest okay so at the end we were found the feature it
+
+629
+01:06:42,240 --> 01:06:55,120
+ will correctly classify all training samples to form this decision boundary okay so this is a somehow
+
+630
+01:06:55,120 --> 01:07:02,480
+ the idea how to use the weight on the training sample to increase the weight of the running
+
+631
+01:07:02,480 --> 01:07:08,840
+ classified and decrease the weight of the for the correct classified to find samples so that we
+
+632
+01:07:08,840 --> 01:07:17,800
+ can find the the different feature together can form a strong class fear okay just now I
+
+633
+01:07:17,800 --> 01:07:27,800
+ indicated this increase the weight and decrease the weight basically come from from from this from
+
+634
+01:07:28,800 --> 01:07:36,720
+ from this formula right because the next weight of the training sample is from the previous weight
+
+635
+01:07:36,720 --> 01:07:42,880
+ weight of the training sample factor by this one this factor can be much than one smaller than
+
+636
+01:07:42,880 --> 01:07:50,560
+ one depends on for this training sample it is a correct classified or running classified okay
+
+637
+01:07:50,560 --> 01:08:03,040
+ now if we iterate this process t times then we can find the t features so joining these t
+
+638
+01:08:03,040 --> 01:08:10,360
+ features we are performed the best because we said next feature try to find this feature can work
+
+639
+01:08:10,360 --> 01:08:20,260
+ together to classify more training sample correct right okay so this is a basic ideas in this
+
+640
+01:08:20,300 --> 01:08:35,340
+ so-called other boost method okay now after we send next to the features then each feature is a
+
+641
+01:08:35,340 --> 01:08:45,740
+ class fear right so then we can combine all t class fear together to form a strong class fear so
+
+642
+01:08:45,779 --> 01:08:53,179
+ the formula given is still here okay if the the feature one feature two and the feature n the
+
+643
+01:08:53,179 --> 01:09:02,260
+ classification result result weighted by the way alpha then some together is much than this
+
+644
+01:09:02,260 --> 01:09:10,340
+ try so then is one otherwise is zero this is a strong class fear how to understand this one this
+
+645
+01:09:10,380 --> 01:09:19,540
+ one is in fact if you we move we move this sum of this all alpha to the left side we can see this is
+
+646
+01:09:19,540 --> 01:09:29,300
+ just a normalization of all alpha one to alpha n so that alpha one plus alpha n after divided by
+
+647
+01:09:29,340 --> 01:09:41,100
+ this one is one so all weight of the class fear the summation is one okay so this is just a weight I
+
+648
+01:09:41,100 --> 01:09:48,380
+ believe this class fear the result will not be one or minus one it is for each class fear fear
+
+649
+01:09:48,380 --> 01:09:55,660
+ after we send a feature for each single class fear the output should be one or zero right now
+
+650
+01:09:55,860 --> 01:10:03,540
+ for example if all class fear has same weight one okay now this is a some then is a n if you divide
+
+651
+01:10:03,540 --> 01:10:12,940
+ by n then all are is a sum of the n class fear result divide by n divide by n right so if for
+
+652
+01:10:12,940 --> 01:10:21,620
+ some they need to get a divided by n if each h value could be one or zero then this summation
+
+653
+01:10:21,900 --> 01:10:29,300
+ divided by n if larger than half then that means more than half of the class fear is the class
+
+654
+01:10:29,300 --> 01:10:37,380
+ king result is one then we the final result is one if each the next half class fear classify it
+
+655
+01:10:37,380 --> 01:10:45,980
+ as a one then the result will be zero right so here is just combine multiple class fear together
+
+656
+01:10:46,419 --> 01:10:56,179
+ to form a strong class fear okay so this is the idea of this other boost to select the feature
+
+657
+01:10:56,179 --> 01:11:04,459
+ now this selection of the feature after this training process we already know which t feature is
+
+658
+01:11:04,459 --> 01:11:14,419
+ important to do a classification so in the really detection process we only need to compute this t
+
+659
+01:11:14,460 --> 01:11:21,860
+ features we don't need to compute this 200,000 features we just compute this t number of the
+
+660
+01:11:21,860 --> 01:11:30,460
+ features in if we select t features okay we need to compute all features only in the training phase
+
+661
+01:11:30,460 --> 01:11:36,460
+ we need to compute a large number of feature and then to do the selection after selection in the
+
+662
+01:11:36,460 --> 01:11:44,340
+ training process in the really big detection process we only need to compute the t feature so it
+
+663
+01:11:44,380 --> 01:11:58,260
+ can be very fast right now from here we train a class fear of weak class fear to form a strong
+
+664
+01:11:58,260 --> 01:12:06,140
+ class fear so then we can design our strong class fear very accurate as accurate as possible even
+
+665
+01:12:06,140 --> 01:12:14,140
+ close to 100% correct or the error rate is zero because we can always increase the number of the
+
+666
+01:12:14,140 --> 01:12:20,740
+ class fear or increase number of the feature okay so on the training data we can always in this way
+
+667
+01:12:20,740 --> 01:12:27,940
+ increase the number of feature to classify all training data correct okay so that means the error
+
+668
+01:12:27,940 --> 01:12:38,580
+ rate is zero but it could be generate a large number of the feature to achieve the error zero of
+
+669
+01:12:38,620 --> 01:12:46,940
+ the error rate or 100% of the accuracy okay so this where although we increase the detection
+
+670
+01:12:46,940 --> 01:12:53,460
+ accuracy but we decrease the detection speed because it could be we need several thousand
+
+671
+01:12:53,460 --> 01:13:06,059
+ or hundred thousand of the features to get the error free classification okay but this we can
+
+672
+01:13:06,100 --> 01:13:12,300
+ increase the accuracy always increase accuracy by increase the number of the features in this
+
+673
+01:13:12,300 --> 01:13:19,500
+ training process we roughly understand that but the increased accuracy is the accuracy on your
+
+674
+01:13:19,500 --> 01:13:29,060
+ training data okay if we even we increase the number of the features a huge number of the features
+
+675
+01:13:29,100 --> 01:13:39,260
+ can 100% correct classify all training data does not mean it is 100% accurate for the test data so
+
+676
+01:13:39,260 --> 01:13:45,020
+ the increased number of the feature may not be always increase the accuracy for the test data
+
+677
+01:13:45,020 --> 01:13:54,540
+ right so we should not try to find the accuracy is 100% for the training data because it could be
+
+678
+01:13:54,580 --> 01:14:04,380
+ overfit your training data well for the test data the accuracy could be very low okay so but anyway
+
+679
+01:14:04,380 --> 01:14:13,140
+ from the experiment it shows that around this 200,000 features we can select just 200 features it is
+
+680
+01:14:13,140 --> 01:14:20,780
+ sufficient for a very good face detection okay this is go through some experiment we find that we
+
+681
+01:14:20,780 --> 01:14:30,780
+ can select only around 200 features from 200,000 features okay to get a very good result now if
+
+682
+01:14:30,780 --> 01:14:39,019
+ we utilize these 200 features to do the classification it is still take around 0.7 seconds to scan an
+
+683
+01:14:39,019 --> 01:14:50,099
+ image of this size pixels to complete the detection this 0.7 second is still larger than
+
+684
+01:14:51,060 --> 01:14:59,380
+ the time between two frame in the video so in the video it can it still cannot achieve the real-time
+
+685
+01:14:59,380 --> 01:15:07,700
+ face detection but of course this is more than 10 years could be 15 or 20 years ago the computer is
+
+686
+01:15:07,700 --> 01:15:18,860
+ not as fast as now much slower right but this is a result okay so here because our our class
+
+687
+01:15:18,900 --> 01:15:28,860
+ sphere is built up the strong class from each week class here okay although we utilize this 200
+
+688
+01:15:28,860 --> 01:15:38,139
+ features that means we use 200 the class fear to do the classification we need this 0.7 second it
+
+689
+01:15:38,140 --> 01:15:48,420
+ cannot be real-time but we can further speed up the detection because we use this feature or
+
+690
+01:15:48,420 --> 01:15:57,020
+ class fear one by one individually and then based on our knowledge in the face detection or object
+
+691
+01:15:57,020 --> 01:16:05,180
+ detection right in all scanning window only a few of this scanning window is a positive class the
+
+692
+01:16:05,780 --> 01:16:14,820
+ vast majority of the window is a negative class right okay so we can utilize this property to further
+
+693
+01:16:14,820 --> 01:16:23,300
+ speed up the detection process okay so we can build up the so-called attentional cascade class
+
+694
+01:16:23,300 --> 01:16:33,220
+ fear not use all the next feature to do the classification for each input okay because for
+
+695
+01:16:33,260 --> 01:16:41,060
+ 99% of the input is a negative only 1% of the input could be the positive right so we can
+
+696
+01:16:41,060 --> 01:16:52,980
+ use the feature to select the trisor to make the input sample go through each class fail one by
+
+697
+01:16:52,980 --> 01:17:01,500
+ one in cascade case well for each class fail we only use one feature okay we can take the trisor
+
+698
+01:17:01,940 --> 01:17:09,180
+ to make the classification into two class positive class or negative class we can make this trisor
+
+699
+01:17:09,180 --> 01:17:17,940
+ to make the positive class always correct cannot be wrong okay oh the negative class is always
+
+700
+01:17:17,940 --> 01:17:26,820
+ correct where the classification of the positive class could be correct or could be wrong okay in
+
+701
+01:17:26,860 --> 01:17:35,900
+ such a case for most negative class it will go through here we just use one feature very fast to
+
+702
+01:17:35,900 --> 01:17:44,420
+ get the result well for the one for some sample it is a positive one it will go to this one but we
+
+703
+01:17:44,420 --> 01:17:51,900
+ cannot make sure it is a positive then we refer we further use the second feature to check it if
+
+704
+01:17:51,940 --> 01:18:01,980
+ it's a negative then we stop it if it's a positive then we further check it because most input is
+
+705
+01:18:01,980 --> 01:18:11,620
+ negative so in most window it we can very fastly stop it complete it only a few of this window
+
+706
+01:18:11,620 --> 01:18:19,540
+ we are go through a non-process so overall in the whole image it will take a very small time because
+
+707
+01:18:19,580 --> 01:18:29,019
+ only a few window where go through a non-process to finally determine it is a positive class right
+
+708
+01:18:29,019 --> 01:18:37,100
+ so this is not difficult to understand it I believe I have one
+
+709
+01:18:42,780 --> 01:18:45,420
+ to show that no this one cannot
+
+710
+01:18:50,500 --> 01:19:03,900
+ because this is based on our knowledge right the almost all most the much portion of the input
+
+711
+01:19:03,900 --> 01:19:14,220
+ will be negative only small portion is a positive so that fear we can see that the input window
+
+712
+01:19:14,740 --> 01:19:21,980
+ okay if it's a face it will go to this or positive we further use the second feature further use the
+
+713
+01:19:21,980 --> 01:19:29,020
+ third feature at the end that if it conforms a positive then it must be positive right the most
+
+714
+01:19:29,020 --> 01:19:35,780
+ input is non-phase even it is the same not to face it just go through two feature it classify into
+
+715
+01:19:35,780 --> 01:19:45,179
+ the non-phase then the classification were complete at this stage for other non-phase even it is a
+
+716
+01:19:45,179 --> 01:19:53,660
+ very different from the face even from the first stage it will stop okay so in such a way we can
+
+717
+01:19:53,660 --> 01:20:01,980
+ further increase the detection speed okay so this is so-called a tensioner cascade class fear
+
+718
+01:20:01,980 --> 01:20:10,580
+ okay we utilize the feature one by one okay very fastly to fill it out the overall three non-phase
+
+719
+01:20:10,580 --> 01:20:22,139
+ well the for some image it can be face and can be non-phase we use more features to determine it is the
+
+720
+01:20:22,139 --> 01:20:31,179
+ face okay so this is detection structure where further speed up the detection process okay the
+
+721
+01:20:31,180 --> 01:20:38,820
+ whole process is called the Villa Jones approach it is a very famous approach widely used in the
+
+722
+01:20:38,820 --> 01:20:48,060
+ face detection before the deep learning area okay so because it's a very very famous approach
+
+723
+01:20:48,060 --> 01:20:58,740
+ achieve a good real-time result so in the in the end meaning company implement this this approach in
+
+724
+01:20:58,780 --> 01:21:09,700
+ real product okay so here the key point in this issue is the for many detection process it is
+
+725
+01:21:09,700 --> 01:21:21,620
+ general need a large amount of the classification we need to numeric numerous times of the classification
+
+726
+01:21:21,620 --> 01:21:28,219
+ so because of that we need to very fastly to generate the feature and the send it and they use a
+
+727
+01:21:28,460 --> 01:21:35,580
+ small number of the feature to do the classification okay to achieve the real-time detection process
+
+728
+01:21:35,580 --> 01:21:44,140
+ well this rectangle feature together with this other boost gave us a very good idea to very
+
+729
+01:21:44,140 --> 01:21:50,780
+ efficiently come generate the feature and the select the feature and only use a small number of the
+
+730
+01:21:50,780 --> 01:21:57,700
+ feature to do the detection where this the cascade connection further speed up the detection process
+
+731
+01:21:58,580 --> 01:22:06,980
+ okay so here I show examples this Villa Jones approach implement by by inter and then this is
+
+732
+01:22:06,980 --> 01:22:14,940
+ demonstrated in the inter given an image it can very fastly to detect all face this is an
+
+733
+01:22:14,940 --> 01:22:25,940
+ actually output of one implementation of Villa Jones approach by the inter okay now here we
+
+734
+01:22:25,980 --> 01:22:34,219
+ complete how to select the feature right but this action is based on we use the handcraft
+
+735
+01:22:34,219 --> 01:22:42,219
+ to measure to generate the rectangle feature so we don't know it is a good feature or not good
+
+736
+01:22:42,219 --> 01:22:48,580
+ feature so we can generate a huge amount of the features then we try to use this other boost
+
+737
+01:22:49,220 --> 01:22:57,540
+ makes the use the machine learning to learn good feature from the training data okay so next topic
+
+738
+01:22:57,540 --> 01:23:04,340
+ we will study a lot of way to to reduce the number of the features to use the dimension only to
+
+739
+01:23:04,340 --> 01:23:10,940
+ reduction to reduce the dimension of the features so because all feature together will form a high
+
+740
+01:23:10,940 --> 01:23:17,420
+ dimensional data right so we can use the dimension only to reduction further reduce the dimension
+
+741
+01:23:17,420 --> 01:23:28,140
+ of the features so this is another way to use the data to to reduce the dimension of the feature to
+
+742
+01:23:28,140 --> 01:23:35,860
+ have efficient classification so after the break we were studying another topic is dimension only
+
+743
+01:23:35,860 --> 01:23:44,820
+ reduction for feature extraction so this is also a topic of our assignment okay so after you understand
+
+744
+01:23:44,820 --> 01:23:52,500
+ this approach then you can use this PCA or ARDA to navigate a program to reduce a high dimensional
+
+745
+01:23:52,500 --> 01:23:58,420
+ data into no dimension and then to do the classification and try to use a program to get
+
+746
+01:23:58,420 --> 01:24:03,740
+ what is the classification accuracy we can use this method to reduce the data into different
+
+747
+01:24:03,740 --> 01:24:09,460
+ amount of the dimension and so how is the classification accuracy you can also compile the
+
+748
+01:24:09,460 --> 01:24:17,700
+ PCA and ARDA which one will perform better than the other or combine them together okay so now we
+
+749
+01:24:17,700 --> 01:24:22,260
+ have a break after that we will study part of the next topic okay
+
+750
+01:24:39,460 --> 01:24:40,460
+ you
+
+751
+01:24:56,820 --> 01:24:57,820
+ you
+
+752
+01:24:57,820 --> 01:24:58,820
+ you
+
+753
+01:24:58,820 --> 01:24:59,820
+ you
+
+754
+01:24:59,820 --> 01:25:00,820
+ you
+
+755
+01:25:00,820 --> 01:25:01,820
+ you
+
+756
+01:25:01,820 --> 01:25:02,820
+ you
+
+757
+01:25:02,820 --> 01:25:03,820
+ you
+
+758
+01:25:03,820 --> 01:25:04,820
+ you
+
+759
+01:25:04,820 --> 01:25:05,820
+ you
+
+760
+01:25:05,820 --> 01:25:06,820
+ you
+
+761
+01:25:06,820 --> 01:25:07,820
+ you
+
+762
+01:25:08,179 --> 01:25:09,179
+ you
+
+763
+01:25:09,179 --> 01:25:10,179
+ you
+
+764
+01:25:10,179 --> 01:25:11,179
+ you
+
+765
+01:25:16,780 --> 01:25:18,420
+ you
+
+766
+01:25:18,420 --> 01:25:19,980
+ you
+
+767
+01:25:19,980 --> 01:25:21,580
+ you
+
+768
+01:25:21,580 --> 01:25:22,780
+ you
+
+769
+01:25:22,780 --> 01:25:23,780
+ you
+
+770
+01:25:23,780 --> 01:25:24,780
+ you
+
+771
+01:25:24,780 --> 01:25:25,780
+ you
+
+772
+01:25:25,780 --> 01:25:27,780
+ you
+
+773
+01:25:27,780 --> 01:25:28,780
+ you
+
+774
+01:25:28,780 --> 01:25:29,780
+ you
+
+775
+01:25:29,780 --> 01:25:30,780
+ you
+
+776
+01:25:30,780 --> 01:25:31,780
+ you
+
+777
+01:25:31,780 --> 01:25:32,780
+ you
+
+778
+01:25:32,780 --> 01:25:33,780
+ you
+
+779
+01:25:33,780 --> 01:25:34,780
+ you
+
+780
+01:25:34,780 --> 01:25:35,780
+ you
+
+781
+01:25:35,780 --> 01:25:36,780
+ money
+
+782
+01:25:36,780 --> 01:25:40,780
+ What is the actual meaning of this D?
+
+783
+01:25:41,780 --> 01:25:43,780
+ Okay, at the beginning,
+
+784
+01:25:43,780 --> 01:25:45,780
+ this D is not 1 over m.
+
+785
+01:25:45,780 --> 01:25:48,780
+ If every one is 1 over m,
+
+786
+01:25:48,780 --> 01:25:56,780
+ then this D is equal to 1 over m.
+
+787
+01:25:56,780 --> 01:26:01,780
+ So the meaning is that every running class,
+
+788
+01:26:01,780 --> 01:26:05,780
+ the class 5 sample is either 1 or 0, sum together.
+
+789
+01:26:05,780 --> 01:26:09,780
+ Now this summation is the number of the sample incorrect.
+
+790
+01:26:09,780 --> 01:26:13,780
+ The number of the sample incorrect divided by m,
+
+791
+01:26:13,780 --> 01:26:15,780
+ m is the total number of the sample.
+
+792
+01:26:15,780 --> 01:26:19,780
+ Then this is a percentage, this is the error rate.
+
+793
+01:26:19,780 --> 01:26:21,780
+ This is like a average.
+
+794
+01:26:21,780 --> 01:26:27,780
+ Yes, if we have 100 training samples,
+
+795
+01:26:27,780 --> 01:26:31,780
+ then this is not equal to the running class,
+
+796
+01:26:31,780 --> 01:26:32,780
+ this is 20.
+
+797
+01:26:32,780 --> 01:26:35,780
+ If this is not equal to the running class,
+
+798
+01:26:35,780 --> 01:26:36,780
+ then this is 1.
+
+799
+01:26:36,780 --> 01:26:38,780
+ Now this sum together is 20.
+
+800
+01:26:38,780 --> 01:26:40,780
+ 20 is equal to m,
+
+801
+01:26:40,780 --> 01:26:41,780
+ 20 is equal to 100,
+
+802
+01:26:41,780 --> 01:26:43,780
+ that is 20% of the error rate.
+
+803
+01:26:43,780 --> 01:26:49,780
+ Okay, 20% of the error rate is divided by the total number of the training sample.
+
+804
+01:26:49,780 --> 01:26:51,780
+ If you come inside of this 1,
+
+805
+01:26:51,780 --> 01:26:56,780
+ that means every training sample is multiplied by 1 over 100.
+
+806
+01:26:56,780 --> 01:27:02,780
+ If you have x1 plus x100 divided by 100,
+
+807
+01:27:02,780 --> 01:27:06,780
+ that means every value is divided by 100.
+
+808
+01:27:06,780 --> 01:27:09,780
+ So this is what we can generate.
+
+809
+01:27:09,780 --> 01:27:13,780
+ Every sample is divided by this number of training samples.
+
+810
+01:27:13,780 --> 01:27:17,780
+ In general, different samples can be put in different weights.
+
+811
+01:27:17,780 --> 01:27:22,780
+ We can make this 1 over 100 larger or smaller.
+
+812
+01:27:22,780 --> 01:27:26,780
+ Okay.
+
+813
+01:27:26,780 --> 01:27:33,780
+ How does this part make the error rate smaller?
+
+814
+01:27:33,780 --> 01:27:38,780
+ This alpha is a positive value.
+
+815
+01:27:38,780 --> 01:27:45,780
+ If the classification is correct,
+
+816
+01:27:45,780 --> 01:27:46,780
+ then it is 1.
+
+817
+01:27:46,780 --> 01:27:49,780
+ If it is incorrect, it is minus 1.
+
+818
+01:27:49,780 --> 01:27:51,780
+ If it is minus 1,
+
+819
+01:27:51,780 --> 01:27:56,780
+ then it becomes a positive value.
+
+820
+01:27:56,780 --> 01:27:59,780
+ If it is positive value,
+
+821
+01:27:59,780 --> 01:28:02,780
+ then it is larger.
+
+822
+01:28:02,780 --> 01:28:06,780
+ But if it is correct,
+
+823
+01:28:06,780 --> 01:28:11,780
+ then this is a negative.
+
+824
+01:28:11,780 --> 01:28:13,780
+ If it is negative value,
+
+825
+01:28:13,780 --> 01:28:15,780
+ then it becomes a little bit smaller.
+
+826
+01:28:15,780 --> 01:28:18,780
+ Isn't this yi a positive value?
+
+827
+01:28:18,780 --> 01:28:23,780
+ Yes, this yi is either 1 or minus 1.
+
+828
+01:28:23,780 --> 01:28:26,780
+ If it is correct,
+
+829
+01:28:26,780 --> 01:28:31,780
+ then these two are either 1 or minus 1.
+
+830
+01:28:31,780 --> 01:28:32,780
+ They are the same.
+
+831
+01:28:32,780 --> 01:28:35,780
+ Then their multiplication is a positive.
+
+832
+01:28:35,780 --> 01:28:37,780
+ I just said that the positive and negative are the same.
+
+833
+01:28:37,780 --> 01:28:42,780
+ This multiplication of these two is positive or negative.
+
+834
+01:28:42,780 --> 01:28:44,780
+ This yi?
+
+835
+01:28:44,780 --> 01:28:48,780
+ Isn't yi either minus 1 or yi?
+
+836
+01:28:48,780 --> 01:28:52,780
+ Is yi the correct foundation?
+
+837
+01:28:52,780 --> 01:28:53,780
+ No.
+
+838
+01:28:53,780 --> 01:28:56,780
+ yi is the sample i.
+
+839
+01:28:56,780 --> 01:29:00,780
+ It is a negative class or positive class.
+
+840
+01:29:00,780 --> 01:29:01,780
+ If it is negative,
+
+841
+01:29:01,780 --> 01:29:02,780
+ if it is a negative,
+
+842
+01:29:02,780 --> 01:29:03,780
+ then it is 1.
+
+843
+01:29:03,780 --> 01:29:04,780
+ If it is a negative,
+
+844
+01:29:04,780 --> 01:29:06,780
+ then it is minus 1.
+
+845
+01:29:06,780 --> 01:29:07,780
+ Okay.
+
+846
+01:29:07,780 --> 01:29:09,780
+ This is a Chinese sample.
+
+847
+01:29:09,780 --> 01:29:12,780
+ Do you know that every Chinese sample is a negative?
+
+848
+01:29:12,780 --> 01:29:14,780
+ It is a negative or a negative.
+
+849
+01:29:14,780 --> 01:29:15,780
+ If it is a negative,
+
+850
+01:29:15,780 --> 01:29:17,780
+ then I will put yi.
+
+851
+01:29:17,780 --> 01:29:18,780
+ If it is a negative,
+
+852
+01:29:18,780 --> 01:29:21,780
+ then I will put yi minus 1.
+
+853
+01:29:21,780 --> 01:29:26,780
+ Isn't this h also 1 or minus 1?
+
+854
+01:29:26,780 --> 01:29:27,780
+ Yes, it is after the division.
+
+855
+01:29:27,780 --> 01:29:29,780
+ Yes, if the division is correct,
+
+856
+01:29:29,780 --> 01:29:31,780
+ then they are the same.
+
+857
+01:29:31,780 --> 01:29:33,780
+ The same thing is a positive.
+
+858
+01:29:33,780 --> 01:29:34,780
+ If the division is wrong,
+
+859
+01:29:34,780 --> 01:29:36,780
+ then these two are different.
+
+860
+01:29:36,780 --> 01:29:38,780
+ Then it is a negative.
+
+861
+01:29:38,780 --> 01:29:39,780
+ Yes, I understand.
+
+862
+01:29:39,780 --> 01:29:41,780
+ What does this part mean?
+
+863
+01:29:41,780 --> 01:29:42,780
+ This is x.
+
+864
+01:29:42,780 --> 01:29:43,780
+ x is the value of this.
+
+865
+01:29:43,780 --> 01:29:44,780
+ Okay.
+
+866
+01:29:45,780 --> 01:29:49,780
+ Let's first understand this.
+
+867
+01:29:49,780 --> 01:29:52,780
+ Let's first make this position equal to the same value.
+
+868
+01:29:52,780 --> 01:29:54,780
+ It is 1.
+
+869
+01:29:54,780 --> 01:29:56,780
+ If this is 1,
+
+870
+01:29:56,780 --> 01:29:57,780
+ what is this sum?
+
+871
+01:29:57,780 --> 01:29:59,780
+ It is t, right?
+
+872
+01:29:59,780 --> 01:30:00,780
+ Yes.
+
+873
+01:30:00,780 --> 01:30:01,780
+ If this is 1,
+
+874
+01:30:01,780 --> 01:30:02,780
+ then this is t,
+
+875
+01:30:02,780 --> 01:30:04,780
+ the classification result.
+
+876
+01:30:04,780 --> 01:30:05,780
+ If I add this,
+
+877
+01:30:05,780 --> 01:30:07,780
+ then it is t, right?
+
+878
+01:30:07,780 --> 01:30:08,780
+ Yes.
+
+879
+01:30:08,780 --> 01:30:10,780
+ What does it mean?
+
+880
+01:30:10,780 --> 01:30:12,780
+ If this is 1,
+
+881
+01:30:12,780 --> 01:30:14,780
+ then this is t, right?
+
+882
+01:30:14,780 --> 01:30:15,780
+ Yes.
+
+883
+01:30:15,780 --> 01:30:16,780
+ If every one is 1,
+
+884
+01:30:16,780 --> 01:30:17,780
+ then this is t, right?
+
+885
+01:30:17,780 --> 01:30:20,780
+ This is t, right?
+
+886
+01:30:20,780 --> 01:30:21,780
+ If this is t,
+
+887
+01:30:21,780 --> 01:30:23,780
+ then it is t, right?
+
+888
+01:30:23,780 --> 01:30:24,780
+ Yes.
+
+889
+01:30:24,780 --> 01:30:25,780
+ Then I will put t,
+
+890
+01:30:25,780 --> 01:30:28,780
+ then I will put t, right?
+
+891
+01:30:28,780 --> 01:30:29,780
+ Yes.
+
+892
+01:30:29,780 --> 01:30:31,780
+ If every one of the cosfals
+
+893
+01:30:31,780 --> 01:30:32,780
+ is right,
+
+894
+01:30:32,780 --> 01:30:33,780
+ then it is 1.
+
+895
+01:30:33,780 --> 01:30:36,780
+ Then the sum of this is t,
+
+896
+01:30:36,780 --> 01:30:37,780
+ t is 1.
+
+897
+01:30:37,780 --> 01:30:40,780
+ 1 is not 1 over 2.
+
+898
+01:30:40,780 --> 01:30:41,780
+ It should be 1.
+
+899
+01:30:41,780 --> 01:30:45,780
+ Because every cosfal is 1, right?
+
+900
+01:30:45,780 --> 01:30:49,780
+ If half of the cosfals is 1,
+
+901
+01:30:49,780 --> 01:30:51,780
+ half of the cosfals is 0,
+
+902
+01:30:51,780 --> 01:30:53,780
+ then this sum is 0.5.
+
+903
+01:30:53,780 --> 01:30:55,780
+ So at this time,
+
+904
+01:30:55,780 --> 01:30:58,780
+ it is just 0.
+
+905
+01:30:59,780 --> 01:31:03,780
+ If half of the cosfals is 1,
+
+906
+01:31:03,780 --> 01:31:05,780
+ then this cosfals is 1.
+
+907
+01:31:05,780 --> 01:31:08,780
+ If half of the cosfals is 1,
+
+908
+01:31:08,780 --> 01:31:11,780
+ then this is 0, right?
+
+909
+01:31:11,780 --> 01:31:14,780
+ This is in the same weight situation.
+
+910
+01:31:14,780 --> 01:31:16,780
+ The same weight situation is like this.
+
+911
+01:31:16,780 --> 01:31:20,780
+ But I can make this alpha not equal to you.
+
+912
+01:31:20,780 --> 01:31:21,780
+ It is not the same.
+
+913
+01:31:21,780 --> 01:31:22,780
+ For different cosfals,
+
+914
+01:31:22,780 --> 01:31:25,780
+ I can put different weights.
+
+915
+01:31:26,780 --> 01:31:28,780
+ I still don't understand.
+
+916
+01:31:28,780 --> 01:31:31,780
+ Half of the cosfals is 1 over 1.
+
+917
+01:31:31,780 --> 01:31:36,780
+ Is this division just divided into...
+
+918
+01:31:36,780 --> 01:31:41,780
+ The result of this division is 1 over 0.
+
+919
+01:31:41,780 --> 01:31:45,780
+ Every cosfal is 1 over 0, right?
+
+920
+01:31:45,780 --> 01:31:48,780
+ Then we have 7 cosfals.
+
+921
+01:31:48,780 --> 01:31:54,780
+ If the cosfals are 1,
+
+922
+01:31:54,780 --> 01:31:57,780
+ then this division is T, right?
+
+923
+01:31:57,780 --> 01:32:00,780
+ Then the second T should be bigger.
+
+924
+01:32:00,780 --> 01:32:02,780
+ If this T is bigger,
+
+925
+01:32:02,780 --> 01:32:06,780
+ then every cosfals is 1.
+
+926
+01:32:06,780 --> 01:32:09,780
+ If every cosfals is 0,
+
+927
+01:32:09,780 --> 01:32:14,780
+ then this cosfals is 0.
+
+928
+01:32:14,780 --> 01:32:16,780
+ If half of the cosfals is 1,
+
+929
+01:32:16,780 --> 01:32:18,780
+ and half of the cosfals is 0,
+
+930
+01:32:18,780 --> 01:32:21,780
+ then this cosfals is 0.5.
+
+931
+01:32:21,780 --> 01:32:22,780
+ I understand.
+
+932
+01:32:22,780 --> 01:32:25,780
+ But how did this become the strong cosfals?
+
+933
+01:32:25,780 --> 01:32:28,780
+ Because the last one is 1 or 0
+
+934
+01:32:28,780 --> 01:32:32,780
+ is based on the majority of the cosfals.
+
+935
+01:32:32,780 --> 01:32:35,780
+ If half of the cosfals is 1,
+
+936
+01:32:35,780 --> 01:32:37,780
+ then the result is 1.
+
+937
+01:32:37,780 --> 01:32:39,780
+ If half of the cosfals is 1,
+
+938
+01:32:39,780 --> 01:32:41,780
+ then it is 0.
+
+939
+01:32:41,780 --> 01:32:43,780
+ If half of the cosfals is 1,
+
+940
+01:32:43,780 --> 01:32:45,780
+ then it is 0.
+
+941
+01:32:45,780 --> 01:32:48,780
+ This division is a majority vote.
+
+942
+01:32:48,780 --> 01:32:51,780
+ I have 100 cosfals.
+
+943
+01:32:51,780 --> 01:32:54,780
+ Based on the 100 cosfals,
+
+944
+01:32:54,780 --> 01:32:58,780
+ I take the majority of the cosfals.
+
+945
+01:32:58,780 --> 01:33:01,780
+ The majority of the cosfals is 1,
+
+946
+01:33:01,780 --> 01:33:04,780
+ and the majority of the cosfals is 1.
+
+947
+01:33:04,780 --> 01:33:06,780
+ If the majority of the cosfals is 1,
+
+948
+01:33:06,780 --> 01:33:09,780
+ then the majority of the cosfals is 0.
+
+949
+01:33:09,780 --> 01:33:11,780
+ H is...
+
+950
+01:33:11,780 --> 01:33:14,780
+ Result is either 1 or 0.
+
+951
+01:33:14,780 --> 01:33:15,780
+ I know.
+
+952
+01:33:15,780 --> 01:33:19,780
+ This is the same as the other one.
+
+953
+01:33:19,780 --> 01:33:20,780
+ Which one?
+
+954
+01:33:20,780 --> 01:33:21,780
+ This one.
+
+955
+01:33:21,780 --> 01:33:23,780
+ Which one is the same?
+
+956
+01:33:23,780 --> 01:33:25,780
+ Yes, these two are the same.
+
+957
+01:33:25,780 --> 01:33:28,780
+ This is the same as this one.
+
+958
+01:33:28,780 --> 01:33:30,780
+ This is the same as this one.
+
+959
+01:33:30,780 --> 01:33:34,780
+ This is used during the selection process.
+
+960
+01:33:34,780 --> 01:33:37,780
+ The line in the picture just now,
+
+961
+01:33:37,780 --> 01:33:39,780
+ what does it mean?
+
+962
+01:33:39,780 --> 01:33:41,780
+ It's just a demonstration.
+
+963
+01:33:41,780 --> 01:33:44,780
+ If we connect all the cards,
+
+964
+01:33:44,780 --> 01:33:48,780
+ then we can put all the samples together.
+
+965
+01:33:48,780 --> 01:33:51,780
+ This is the concept of the cosfals.
+
+966
+01:33:51,780 --> 01:33:53,780
+ Yes, this is the concept.
+
+967
+01:33:53,780 --> 01:33:55,780
+ You can see the whole thing in real life.
+
+968
+01:33:55,780 --> 01:33:58,780
+ Yes, this is the concept.
+
+969
+01:33:58,780 --> 01:34:00,780
+ Thank you.
+
+970
+01:34:02,780 --> 01:34:05,780
+ We are the top of the class.
+
+971
+01:34:05,780 --> 01:34:07,780
+ What?
+
+972
+01:34:07,780 --> 01:34:09,780
+ Our class is the...
+
+973
+01:34:09,780 --> 01:34:13,780
+ No, it's just the top of the class.
+
+974
+01:34:13,780 --> 01:34:15,780
+ The top of the class?
+
+975
+01:34:15,780 --> 01:34:16,780
+ Yes, yes.
+
+976
+01:34:16,780 --> 01:34:19,780
+ It's the top of the class.
+
+977
+01:34:19,780 --> 01:34:20,780
+ The top of the class?
+
+978
+01:34:20,780 --> 01:34:21,780
+ Yes, the top of the class.
+
+979
+01:34:21,780 --> 01:34:22,780
+ Thank you.
+
+980
+01:34:24,780 --> 01:34:26,780
+ We just talked about the wrong answer.
+
+981
+01:34:26,780 --> 01:34:28,780
+ If the negative is 1,
+
+982
+01:34:28,780 --> 01:34:30,780
+ then we think the answer is wrong.
+
+983
+01:34:30,780 --> 01:34:31,780
+ No, no, no.
+
+984
+01:34:31,780 --> 01:34:33,780
+ If the negative is 1,
+
+985
+01:34:33,780 --> 01:34:35,780
+ then the negative class is 2.
+
+986
+01:34:35,780 --> 01:34:37,780
+ If the negative is 1,
+
+987
+01:34:37,780 --> 01:34:38,780
+ then it is 1 class,
+
+988
+01:34:38,780 --> 01:34:40,780
+ which is the top of the class.
+
+989
+01:34:42,780 --> 01:34:45,780
+ It doesn't represent the result of the prediction, right?
+
+990
+01:34:45,780 --> 01:34:47,780
+ It is the result of the prediction.
+
+991
+01:34:47,780 --> 01:34:50,780
+ The result of the prediction is that the prediction is 1 or 0.
+
+992
+01:34:50,780 --> 01:34:52,780
+ Is it 1 or 0?
+
+993
+01:34:52,780 --> 01:34:56,780
+ Then we are talking about the positive and the negative.
+
+994
+01:34:56,780 --> 01:34:58,780
+ Yes, it is 1 class,
+
+995
+01:34:58,780 --> 01:35:00,780
+ another class is minus 1.
+
+996
+01:35:00,780 --> 01:35:02,780
+ It's just divided into two.
+
+997
+01:35:02,780 --> 01:35:03,780
+ Yes.
+
+998
+01:35:03,780 --> 01:35:06,780
+ What does zt mean?
+
+999
+01:35:06,780 --> 01:35:08,780
+ zt is a norm.
+
+1000
+01:35:08,780 --> 01:35:13,780
+ zt is sum of all y.
+
+1001
+01:35:13,780 --> 01:35:15,780
+ So, in this case,
+
+1002
+01:35:15,780 --> 01:35:18,780
+ we can change the rule.
+
+1003
+01:35:18,780 --> 01:35:20,780
+ The normalization is the rule.
+
+1004
+01:35:20,780 --> 01:35:22,780
+ So, we can change all the i's?
+
+1005
+01:35:22,780 --> 01:35:23,780
+ No, no, no.
+
+1006
+01:35:23,780 --> 01:35:25,780
+ All the i's.
+
+1007
+01:35:25,780 --> 01:35:27,780
+ All the i's.
+
+1008
+01:35:27,780 --> 01:35:29,780
+ After we get rid of this,
+
+1009
+01:35:29,780 --> 01:35:34,780
+ we can make all the i's sum together equal to y.
+
+1010
+01:35:35,780 --> 01:35:38,780
+ So, all the i's sum is equal to y.
+
+1011
+01:35:38,780 --> 01:35:42,780
+ So, this sum is not equal to y.
+
+1012
+01:35:42,780 --> 01:35:46,780
+ I will get rid of some of the i's sum.
+
+1013
+01:35:46,780 --> 01:35:48,780
+ Now, I will get rid of all the i's sum,
+
+1014
+01:35:48,780 --> 01:35:50,780
+ and this is the sum.
+
+1015
+01:35:50,780 --> 01:35:51,780
+ Yes, yes.
+
+1016
+01:35:51,780 --> 01:35:52,780
+ Thank you.
+
+1017
+01:35:52,780 --> 01:35:53,780
+ Mr. Wang.
+
+1018
+01:35:53,780 --> 01:35:55,780
+ I think this is something that...
+
+1019
+01:35:55,780 --> 01:35:57,780
+ Mr. Wang, you are not...
+
+1020
+01:35:57,780 --> 01:35:59,780
+ This is not...
+
+1021
+01:35:59,780 --> 01:36:00,780
+ This is not...
+
+1022
+01:36:00,780 --> 01:36:02,780
+ This is not...
+
+1023
+01:36:02,780 --> 01:36:03,780
+ This is a concept.
+
+1024
+01:36:03,780 --> 01:36:04,780
+ I don't know what it is.
+
+1025
+01:36:04,780 --> 01:36:05,780
+ But it is a concept.
+
+1026
+01:36:05,780 --> 01:36:08,780
+ Because we are waiting for our English pronunciation.
+
+1027
+01:36:08,780 --> 01:36:10,780
+ If you want to understand your concept,
+
+1028
+01:36:10,780 --> 01:36:12,780
+ you need to use the word,
+
+1029
+01:36:12,780 --> 01:36:14,780
+ not writing.
+
+1030
+01:36:14,780 --> 01:36:15,780
+ Not writing.
+
+1031
+01:36:15,780 --> 01:36:18,780
+ This is not saying that you don't need to memorize.
+
+1032
+01:36:18,780 --> 01:36:20,780
+ You don't need to memorize.
+
+1033
+01:36:20,780 --> 01:36:21,780
+ Yes, you don't need to memorize.
+
+1034
+01:36:21,780 --> 01:36:23,780
+ So, this thing is...
+
+1035
+01:36:23,780 --> 01:36:24,780
+ It is almost necessary to remember.
+
+1036
+01:36:24,780 --> 01:36:25,780
+ It won't be tested.
+
+1037
+01:36:25,780 --> 01:36:26,780
+ I won't be tested.
+
+1038
+01:36:26,780 --> 01:36:28,780
+ I will remember this thing.
+
+1039
+01:36:28,780 --> 01:36:31,780
+ It is a concept.
+
+1040
+01:36:31,780 --> 01:36:33,780
+ So, I won't be tested if I remember this thing.
+
+1041
+01:36:33,780 --> 01:36:35,780
+ It won't be tested.
+
+1042
+01:36:35,780 --> 01:36:37,780
+ For example, this is a concept.
+
+1043
+01:36:37,780 --> 01:36:38,780
+ Yes, yes.
+
+1044
+01:36:38,780 --> 01:36:39,780
+ I won't let you explain it.
+
+1045
+01:36:39,780 --> 01:36:41,780
+ Because this is something to be remembered.
+
+1046
+01:36:41,780 --> 01:36:42,780
+ OK.
+
+1047
+01:36:42,780 --> 01:36:45,780
+ The real concept is the most basic concept.
+
+1048
+01:36:45,780 --> 01:36:48,780
+ And then it can be pushed out from the math.
+
+1049
+01:36:48,780 --> 01:36:49,780
+ OK.
+
+1050
+01:36:49,780 --> 01:36:51,780
+ The push of this math is something you can push out
+
+1051
+01:36:51,780 --> 01:36:53,780
+ after you understand it.
+
+1052
+01:36:53,780 --> 01:36:55,780
+ OK.
+
+1053
+01:36:55,780 --> 01:36:57,780
+ Mr. Wang, you wrote down the history.
+
+1054
+01:36:57,780 --> 01:36:58,780
+ And then we will remember it.
+
+1055
+01:36:58,780 --> 01:36:59,780
+ OK.
+
+1056
+01:36:59,780 --> 01:37:02,780
+ This is not it.
+
+1057
+01:37:02,780 --> 01:37:03,780
+ It is not it.
+
+1058
+01:37:03,780 --> 01:37:08,780
+ For example, I want you to design a decision rule.
+
+1059
+01:37:08,780 --> 01:37:10,780
+ It will minimize the error rate.
+
+1060
+01:37:10,780 --> 01:37:11,780
+ OK.
+
+1061
+01:37:11,780 --> 01:37:14,780
+ Then you should understand that I want to minimize error rate.
+
+1062
+01:37:14,780 --> 01:37:22,780
+ Just like I maximize the probability of the class.
+
+1063
+01:37:22,780 --> 01:37:23,780
+ You can...
+
+1064
+01:37:23,780 --> 01:37:25,780
+ You can push out your decision
+
+1065
+01:37:25,780 --> 01:37:29,780
+ by the way you want to do it.
+
+1066
+01:37:29,780 --> 01:37:31,780
+ Just like you said,
+
+1067
+01:37:31,780 --> 01:37:33,780
+ the last name is...
+
+1068
+01:37:33,780 --> 01:37:35,780
+ No, it's not it.
+
+1069
+01:37:35,780 --> 01:37:37,780
+ I said this concept won't be tested.
+
+1070
+01:37:37,780 --> 01:37:40,780
+ This concept is not a very strict concept.
+
+1071
+01:37:40,780 --> 01:37:43,780
+ This is just something to be remembered.
+
+1072
+01:37:43,780 --> 01:37:45,780
+ This concept won't be tested.
+
+1073
+01:37:45,780 --> 01:37:46,780
+ OK.
+
+1074
+01:37:46,780 --> 01:37:48,780
+ This concept won't be tested.
+
+1075
+01:37:48,780 --> 01:37:49,780
+ OK.
+
+1076
+01:37:49,780 --> 01:37:51,780
+ This concept won't be tested.
+
+1077
+01:37:51,780 --> 01:37:52,780
+ OK.
+
+1078
+01:37:52,780 --> 01:37:53,780
+ OK.
+
+1079
+01:37:53,780 --> 01:37:56,780
+ The last one is...
+
+1080
+01:37:56,780 --> 01:37:59,780
+ For example, in this place,
+
+1081
+01:37:59,780 --> 01:38:03,780
+ I will write down every t is an i to t.
+
+1082
+01:38:03,780 --> 01:38:04,780
+ Every t?
+
+1083
+01:38:04,780 --> 01:38:05,780
+ Yes.
+
+1084
+01:38:05,780 --> 01:38:07,780
+ Every t is an i to t.
+
+1085
+01:38:07,780 --> 01:38:08,780
+ Every t is an i to t.
+
+1086
+01:38:08,780 --> 01:38:10,780
+ There is a branch, it is a value.
+
+1087
+01:38:10,780 --> 01:38:12,780
+ It is i to i to x i.
+
+1088
+01:38:12,780 --> 01:38:15,780
+ This 2 is a t to t, right?
+
+1089
+01:38:15,780 --> 01:38:16,780
+ Yes.
+
+1090
+01:38:16,780 --> 01:38:18,780
+ It will have a result.
+
+1091
+01:38:18,780 --> 01:38:19,780
+ Yes.
+
+1092
+01:38:19,780 --> 01:38:24,780
+ I will use different numbers to get a result.
+
+1093
+01:38:24,780 --> 01:38:25,780
+ Yes.
+
+1094
+01:38:25,780 --> 01:38:26,780
+ Yes.
+
+1095
+01:38:49,780 --> 01:38:50,780
+ OK.
+
+1096
+01:39:19,780 --> 01:39:20,780
+ OK.
+
+1097
+01:39:49,780 --> 01:39:54,780
+ OK.
+
+1098
+01:39:54,780 --> 01:40:00,780
+ So now we can resume our lecture to the Topic 9.
+
+1099
+01:40:00,780 --> 01:40:01,780
+ OK.
+
+1100
+01:40:01,780 --> 01:40:05,780
+ So Topic 8, we are not including the final exam or quiz.
+
+1101
+01:40:05,780 --> 01:40:06,780
+ OK.
+
+1102
+01:40:06,780 --> 01:40:09,780
+ So don't worry about it because although Topic 8,
+
+1103
+01:40:09,780 --> 01:40:13,780
+ this other boost and the Villa Jones approach is very effective
+
+1104
+01:40:13,780 --> 01:40:15,780
+ before the deep learning.
+
+1105
+01:40:15,780 --> 01:40:19,780
+ But basically this approach is a very bright idea.
+
+1106
+01:40:19,780 --> 01:40:23,780
+ It is a very good idea, a skill to do that.
+
+1107
+01:40:23,780 --> 01:40:26,780
+ There is no theoretical mathematical support,
+
+1108
+01:40:26,780 --> 01:40:29,780
+ strongly support or prove it, right?
+
+1109
+01:40:29,780 --> 01:40:34,780
+ So basically the Topic 8 is a very bright idea
+
+1110
+01:40:34,780 --> 01:40:37,780
+ of Villa Jones to solve the problem.
+
+1111
+01:40:37,780 --> 01:40:42,780
+ So this topic we are not including the final exam or the quiz.
+
+1112
+01:40:42,780 --> 01:40:43,780
+ OK.
+
+1113
+01:40:43,780 --> 01:40:48,780
+ So now compared to Topic 8 is more intuitive
+
+1114
+01:40:48,780 --> 01:40:53,780
+ or somehow a very good idea or skill to solve the problem.
+
+1115
+01:40:53,780 --> 01:40:58,780
+ Compared to that, this Topic 9, we have very rigorous
+
+1116
+01:40:58,780 --> 01:41:02,780
+ mathematical support, very strong mathematical support to that,
+
+1117
+01:41:02,780 --> 01:41:04,780
+ especially PCA and ARDA.
+
+1118
+01:41:04,780 --> 01:41:07,780
+ So this is more important.
+
+1119
+01:41:07,780 --> 01:41:08,780
+ OK.
+
+1120
+01:41:09,780 --> 01:41:14,780
+ Now the Topic 9, we need to study the so-called dimensionality reduction.
+
+1121
+01:41:14,780 --> 01:41:19,780
+ So because in many applications such as the visual object detection,
+
+1122
+01:41:19,780 --> 01:41:23,780
+ recognition, some bioinformatics and data mailing,
+
+1123
+01:41:23,780 --> 01:41:27,780
+ we have a very high dimension of the data.
+
+1124
+01:41:27,780 --> 01:41:30,780
+ Given an image, every pixel is one dimension
+
+1125
+01:41:30,780 --> 01:41:35,780
+ because if we convert the image into all data utilized for the classification,
+
+1126
+01:41:35,780 --> 01:41:42,780
+ then if the image is 1,000 by 1,000, then we have one million pixels.
+
+1127
+01:41:42,780 --> 01:41:46,780
+ Each pixel is one dimension because for different image,
+
+1128
+01:41:46,780 --> 01:41:49,780
+ every pixel, the value will be different, right?
+
+1129
+01:41:49,780 --> 01:41:57,780
+ So in most application, we will face the problem of very high dimension of the data.
+
+1130
+01:41:58,780 --> 01:42:03,780
+ So the high dimension of the data will cause the problem
+
+1131
+01:42:03,780 --> 01:42:10,780
+ or generate some burdens on the robust and accurate recognition or classification.
+
+1132
+01:42:10,780 --> 01:42:11,780
+ OK.
+
+1133
+01:42:11,780 --> 01:42:13,780
+ So it will cause a big problem.
+
+1134
+01:42:13,780 --> 01:42:18,780
+ So because of that, the feature extraction and dimensionality reduction
+
+1135
+01:42:18,780 --> 01:42:25,780
+ becomes to a very critical module in the whole computation problem
+
+1136
+01:42:25,780 --> 01:42:28,780
+ or the pattern recognition problem.
+
+1137
+01:42:28,780 --> 01:42:35,780
+ So in the feature extraction, we always try to find a reliable feature
+
+1138
+01:42:35,780 --> 01:42:39,780
+ and a discriminative feature to utilize in the system
+
+1139
+01:42:39,780 --> 01:42:44,780
+ to differentiate the object into different class.
+
+1140
+01:42:44,780 --> 01:42:48,780
+ Now this feature extraction is most very critical one.
+
+1141
+01:42:48,780 --> 01:42:52,780
+ It also comes from the, we can see this from the deep learning.
+
+1142
+01:42:52,780 --> 01:42:57,780
+ All deep learning, all modules are some kind of the feature extraction
+
+1143
+01:42:57,780 --> 01:43:01,780
+ or feature generation extraction.
+
+1144
+01:43:01,780 --> 01:43:05,780
+ So owning the last layer is to do the classification.
+
+1145
+01:43:05,780 --> 01:43:06,780
+ OK.
+
+1146
+01:43:06,780 --> 01:43:13,780
+ Where the last layer is very simple, we can just use a very simple linear classifier.
+
+1147
+01:43:13,780 --> 01:43:14,780
+ OK.
+
+1148
+01:43:14,780 --> 01:43:20,780
+ Because we already generate or extract a very reliable features,
+
+1149
+01:43:20,780 --> 01:43:22,780
+ then the classification is very simple.
+
+1150
+01:43:22,780 --> 01:43:26,780
+ So later, if we study the CIN and the transformer,
+
+1151
+01:43:26,780 --> 01:43:30,780
+ we will know that, for example, in this transformer,
+
+1152
+01:43:30,780 --> 01:43:34,780
+ the last layer is owning a very simple linear classifier.
+
+1153
+01:43:34,780 --> 01:43:38,780
+ But before that, we have very complicated steps,
+
+1154
+01:43:38,780 --> 01:43:42,780
+ try to convert the feature into different form,
+
+1155
+01:43:42,780 --> 01:43:45,780
+ try to extract good features.
+
+1156
+01:43:45,780 --> 01:43:46,780
+ OK.
+
+1157
+01:43:47,780 --> 01:43:55,780
+ Now the feature extraction basically can be done by many different approaches,
+
+1158
+01:43:55,780 --> 01:44:00,780
+ such as use human knowledge to identify what is a good feature.
+
+1159
+01:44:00,780 --> 01:44:03,780
+ For example, for the fingerprint recognition,
+
+1160
+01:44:03,780 --> 01:44:09,780
+ we can use the point of the ridge and all ridge bifurcation as a point.
+
+1161
+01:44:09,780 --> 01:44:13,780
+ Then a distribution of this point can serve as a feature.
+
+1162
+01:44:13,780 --> 01:44:14,780
+ Right.
+
+1163
+01:44:14,780 --> 01:44:21,780
+ We can also use some kind of the corner of the image as a feature,
+
+1164
+01:44:21,780 --> 01:44:25,780
+ because different objects in the corner will be at different positions.
+
+1165
+01:44:25,780 --> 01:44:26,780
+ Right.
+
+1166
+01:44:26,780 --> 01:44:29,780
+ But given a green level image, what is the corner?
+
+1167
+01:44:29,780 --> 01:44:31,780
+ It is unclear.
+
+1168
+01:44:31,780 --> 01:44:35,780
+ If it's a binary image, of course, it is very clear where is the corner of the object.
+
+1169
+01:44:35,780 --> 01:44:36,780
+ Right.
+
+1170
+01:44:36,780 --> 01:44:39,780
+ If it's a green level image, even within the object,
+
+1171
+01:44:39,780 --> 01:44:42,780
+ it may also form some kind of the corner.
+
+1172
+01:44:42,780 --> 01:44:43,780
+ Right.
+
+1173
+01:44:43,780 --> 01:44:48,780
+ But basically, the local structure can use some local property,
+
+1174
+01:44:48,780 --> 01:44:51,780
+ such as a corner or blob of the image,
+
+1175
+01:44:51,780 --> 01:45:00,780
+ to take the position as a feature to do the classification.
+
+1176
+01:45:00,780 --> 01:45:06,780
+ We can also use some global structure of the image, such as transform,
+
+1177
+01:45:06,780 --> 01:45:10,780
+ for example, the Fourier transform and other transforms.
+
+1178
+01:45:10,780 --> 01:45:13,780
+ After this transform, for example, after the Fourier transform,
+
+1179
+01:45:13,780 --> 01:45:18,780
+ the magnitude of the Fourier transform is the translation invariant.
+
+1180
+01:45:18,780 --> 01:45:20,780
+ Then we can take it as a feature.
+
+1181
+01:45:20,780 --> 01:45:22,780
+ This is just an example.
+
+1182
+01:45:22,780 --> 01:45:27,780
+ But now here, we will study using machine learning to learn the feature,
+
+1183
+01:45:27,780 --> 01:45:32,780
+ use the training data set to determine what is the good features
+
+1184
+01:45:32,780 --> 01:45:37,780
+ or to reduce the dimension of the feature.
+
+1185
+01:45:37,780 --> 01:45:41,780
+ So in this topic, we'll give a wide examples.
+
+1186
+01:45:41,780 --> 01:45:44,780
+ For example, for the face recognition,
+
+1187
+01:45:44,780 --> 01:45:50,780
+ before deep learning, the subspace approach or dimensionality reduction approach
+
+1188
+01:45:50,780 --> 01:45:54,780
+ is the most famous approach to do the face recognition.
+
+1189
+01:45:54,780 --> 01:45:57,780
+ Later, it goes to a sparse coding.
+
+1190
+01:45:57,780 --> 01:46:02,780
+ But in that year, the so-called dimensionality reduction
+
+1191
+01:46:02,780 --> 01:46:07,780
+ is one of the very good approaches to do the face recognition.
+
+1192
+01:46:07,780 --> 01:46:11,780
+ Now, in this dimension reduction, what is the feature extraction?
+
+1193
+01:46:11,780 --> 01:46:13,780
+ We give an image.
+
+1194
+01:46:13,780 --> 01:46:15,780
+ Image is a matrix, right?
+
+1195
+01:46:15,780 --> 01:46:17,780
+ It's a two-dimensional one.
+
+1196
+01:46:17,780 --> 01:46:21,780
+ For example, this image is 300 by 200.
+
+1197
+01:46:21,780 --> 01:46:25,780
+ Then all together, we have 60,000 pixels.
+
+1198
+01:46:25,780 --> 01:46:31,780
+ Then all these pixels, we will arrange it into very long vectors.
+
+1199
+01:46:31,780 --> 01:46:35,780
+ Each element in this vector is one pixel.
+
+1200
+01:46:35,780 --> 01:46:44,780
+ So all together, one image will form a 60,000 dimensional column vector.
+
+1201
+01:46:44,780 --> 01:46:47,780
+ This is a very high-dimensional vector.
+
+1202
+01:46:47,780 --> 01:46:55,780
+ Now, then we try to reduce the dimension of this non-vector into, for example, just 60.
+
+1203
+01:46:55,780 --> 01:47:00,780
+ Then the feature vector is just the sixth dimension.
+
+1204
+01:47:00,780 --> 01:47:12,780
+ So from x to f, it starts from 60,000 dimensional vector becomes to a 60 vector.
+
+1205
+01:47:12,780 --> 01:47:20,780
+ Then this one can be complete by the x-multiply matrix.
+
+1206
+01:47:20,780 --> 01:47:30,780
+ For example, if this matrix is 60,000 by 60, then it's transposed
+
+1207
+01:47:30,780 --> 01:47:37,780
+ multiplied by this 60,000 vectors becomes to only 60 dimensional vector.
+
+1208
+01:47:37,780 --> 01:47:42,780
+ Okay, so this is one example.
+
+1209
+01:47:42,780 --> 01:47:48,780
+ We can reduce the high-dimensional vector x into no-dimensional x.
+
+1210
+01:47:48,780 --> 01:47:56,780
+ Now, of course, if we do such kind of dimension reduction, this transform is a linear transform
+
+1211
+01:47:56,780 --> 01:48:02,780
+ because the vector x, high-dimensional vector x, is just multiplied by a matrix
+
+1212
+01:48:02,780 --> 01:48:06,780
+ to generate a no-dimensional vector f.
+
+1213
+01:48:06,780 --> 01:48:08,780
+ So this is a linear transform.
+
+1214
+01:48:08,780 --> 01:48:14,780
+ But don't underestimate the role of the linear transform.
+
+1215
+01:48:14,780 --> 01:48:19,780
+ It is a very important role.
+
+1216
+01:48:19,780 --> 01:48:21,780
+ Just give an example.
+
+1217
+01:48:21,780 --> 01:48:25,780
+ All Fourier transform is some kind of a linear transform.
+
+1218
+01:48:25,780 --> 01:48:34,780
+ For discrete single or image, all Fourier transform is some kind of vector multiplied by a matrix.
+
+1219
+01:48:34,780 --> 01:48:40,780
+ Whereas the element of this matrix is just e to the power of j minus omega and so on.
+
+1220
+01:48:40,780 --> 01:48:42,780
+ Okay, so it's a matrix.
+
+1221
+01:48:42,780 --> 01:48:46,780
+ It's just one specific matrix.
+
+1222
+01:48:46,780 --> 01:48:55,780
+ And in the neural network, a multi-linear perceptron, it is also some kind of a multiply by a matrix.
+
+1223
+01:48:55,780 --> 01:49:02,780
+ Only the neural network is input multiply by a matrix, then goes through a nonlinear function.
+
+1224
+01:49:02,780 --> 01:49:05,780
+ But the nonlinear function is not a non-nullable.
+
+1225
+01:49:05,780 --> 01:49:12,780
+ So the non-nullable parameter for all neural networks is some kind of a linear operation.
+
+1226
+01:49:12,780 --> 01:49:17,780
+ And convolution is also some kind of a matrix multiplication.
+
+1227
+01:49:17,780 --> 01:49:21,780
+ Later, I will further show that after this week.
+
+1228
+01:49:21,780 --> 01:49:33,780
+ And the transformer also utilizes this matrix multiplication to generate many multiple copies from one copy of the input.
+
+1229
+01:49:33,780 --> 01:49:36,780
+ And it's also utilized in the transformer.
+
+1230
+01:49:36,780 --> 01:49:42,780
+ So this is a very important transform, although it's a linear.
+
+1231
+01:49:42,780 --> 01:49:50,780
+ Then from this kind of a matrix multiplication, what we can understand is the role of this matrix multiplication.
+
+1232
+01:49:50,780 --> 01:49:53,780
+ First, it will take a feature scaling.
+
+1233
+01:49:53,780 --> 01:49:59,780
+ Because the original feature x in this x1 to x60,000, right?
+
+1234
+01:49:59,780 --> 01:50:08,780
+ Multiply by a matrix, that means a different feature will multiply by different weight in this matrix.
+
+1235
+01:50:08,780 --> 01:50:11,780
+ So we have the feature scaling.
+
+1236
+01:50:11,780 --> 01:50:23,780
+ We can use this value of this matrix to put important feature element in this x, higher value, where unimportant is very low value.
+
+1237
+01:50:23,780 --> 01:50:26,780
+ So it will form a feature scaling.
+
+1238
+01:50:26,780 --> 01:50:32,780
+ Now, if this matrix is not a square matrix, for example, it is a 60,000 by 60,
+
+1239
+01:50:32,780 --> 01:50:38,780
+ then this multiplication of the matrix will perform the dimension and true reduction.
+
+1240
+01:50:38,780 --> 01:50:41,780
+ It is some kind of a feature extraction.
+
+1241
+01:50:41,780 --> 01:50:47,780
+ So this is the role of this matrix multiply by a vector, right?
+
+1242
+01:50:47,780 --> 01:50:55,780
+ Okay, now, as I mentioned that all Fourier transform is just a specific matrix.
+
+1243
+01:50:55,780 --> 01:51:05,780
+ But here, to determine the matrix, to do this transform, we use our training data to learn or to estimate or to compute.
+
+1244
+01:51:05,780 --> 01:51:07,780
+ Use the training data to compute.
+
+1245
+01:51:07,780 --> 01:51:10,780
+ What is the optimal matrix here?
+
+1246
+01:51:10,780 --> 01:51:16,780
+ To perform this linear transform.
+
+1247
+01:51:16,780 --> 01:51:18,780
+ Okay.
+
+1248
+01:51:18,780 --> 01:51:24,780
+ Now, we will introduce the very famous PCA algorithm.
+
+1249
+01:51:24,780 --> 01:51:28,780
+ This algorithm is called principle component analysis.
+
+1250
+01:51:28,780 --> 01:51:37,780
+ Okay, this is the most important method in all data analysis, high dimensional data analysis.
+
+1251
+01:51:37,780 --> 01:51:39,780
+ Okay.
+
+1252
+01:51:39,780 --> 01:51:48,780
+ Not only used in computation or classification or recognition, also utilized in many other areas.
+
+1253
+01:51:48,780 --> 01:51:58,780
+ So I hope you should really understand the principle and the physical meaning of this principle component analysis.
+
+1254
+01:51:58,780 --> 01:52:00,780
+ Because it is very useful.
+
+1255
+01:52:00,780 --> 01:52:03,780
+ It is widely used in many areas.
+
+1256
+01:52:03,780 --> 01:52:06,780
+ Include this recognition.
+
+1257
+01:52:06,780 --> 01:52:07,780
+ Okay.
+
+1258
+01:52:07,780 --> 01:52:11,780
+ So what is a principle component analysis?
+
+1259
+01:52:11,780 --> 01:52:19,780
+ Principle component analysis is to determine this transform matrix, fine, based on the training data.
+
+1260
+01:52:19,780 --> 01:52:23,780
+ Okay, so suppose we have a set of the training data.
+
+1261
+01:52:23,780 --> 01:52:25,780
+ We have Q samples.
+
+1262
+01:52:25,780 --> 01:52:28,780
+ Okay, so X1, X2 are up to XQ.
+
+1263
+01:52:28,780 --> 01:52:32,780
+ Each XI has n dimensional vector.
+
+1264
+01:52:32,780 --> 01:52:36,780
+ All vector by default is a column vector.
+
+1265
+01:52:36,780 --> 01:52:43,780
+ Okay, so we have this represent a set of the data in the training set.
+
+1266
+01:52:43,780 --> 01:52:45,780
+ Okay.
+
+1267
+01:52:45,780 --> 01:52:49,780
+ Now, here each 20 sample is n dimensional vector.
+
+1268
+01:52:49,780 --> 01:52:54,780
+ So it is a point in n dimensional space.
+
+1269
+01:52:54,780 --> 01:52:55,780
+ Right?
+
+1270
+01:52:55,780 --> 01:52:59,780
+ For example, two dimensional vector is a point in a plane.
+
+1271
+01:52:59,780 --> 01:53:00,780
+ Right?
+
+1272
+01:53:00,780 --> 01:53:03,780
+ Three dimensional vector is a point of the three dimensional space.
+
+1273
+01:53:03,780 --> 01:53:04,780
+ Okay.
+
+1274
+01:53:04,780 --> 01:53:11,780
+ So here high dimensional vector is also a point in a high dimensional space.
+
+1275
+01:53:11,780 --> 01:53:26,780
+ Now, first we will study how given a training samples, Q training samples, how to use just one point, one samples to best represent all training data.
+
+1276
+01:53:26,780 --> 01:53:27,780
+ Okay.
+
+1277
+01:53:27,780 --> 01:53:30,780
+ So in fact, this is very simple, very clear.
+
+1278
+01:53:30,780 --> 01:53:36,780
+ We should know the average of all training samples should be this one.
+
+1279
+01:53:36,780 --> 01:53:39,780
+ But mathematically, we can prove it.
+
+1280
+01:53:39,780 --> 01:53:40,780
+ Okay.
+
+1281
+01:53:40,780 --> 01:53:43,780
+ Suppose we have XI, I from one to Q.
+
+1282
+01:53:43,780 --> 01:53:53,780
+ We have Q different samples, but we want to use just one sample, one vector to represent all this one.
+
+1283
+01:53:53,780 --> 01:53:56,780
+ Then we, how to find this one?
+
+1284
+01:53:56,780 --> 01:54:07,780
+ We need to find this one to make the difference of this one to all training samples, the sum of this distance smallest.
+
+1285
+01:54:07,780 --> 01:54:11,780
+ Or this arrow, we can say that this difference is arrow.
+
+1286
+01:54:11,780 --> 01:54:22,780
+ The arrow between this vector to all training samples, this difference, the sum of this difference will be minimized.
+
+1287
+01:54:22,780 --> 01:54:23,780
+ Okay.
+
+1288
+01:54:23,780 --> 01:54:25,780
+ Now, this is a vector difference.
+
+1289
+01:54:25,780 --> 01:54:26,780
+ Okay.
+
+1290
+01:54:26,780 --> 01:54:31,780
+ Then to convert this into one single value, we use the arrow to norm.
+
+1291
+01:54:31,780 --> 01:54:38,780
+ So arrow to norm is just this vector transpose, multiply by this vector.
+
+1292
+01:54:38,780 --> 01:54:40,780
+ So produce one value.
+
+1293
+01:54:40,780 --> 01:54:42,780
+ So this is arrow to norm.
+
+1294
+01:54:42,780 --> 01:54:47,780
+ So we have minimized this expression to find the X0.
+
+1295
+01:54:47,780 --> 01:54:58,780
+ Now, to find this X0, it's very easy if we take the differentiation of this E square against the X0 to make this differentiation equals to zero.
+
+1296
+01:54:58,780 --> 01:55:07,780
+ We can very easily to get the solution of this X0 is the average of all training samples.
+
+1297
+01:55:07,780 --> 01:55:18,780
+ So the mean vector of all 20, of all vectors is the best single vector to represent all training samples.
+
+1298
+01:55:18,780 --> 01:55:28,780
+ Because the distance between each of all training sample to this vector, the sum of the distance square is minimized.
+
+1299
+01:55:28,780 --> 01:55:33,780
+ This is also definition of average or mean, right?
+
+1300
+01:55:33,780 --> 01:55:38,780
+ So we minimize this arrow.
+
+1301
+01:55:38,780 --> 01:55:49,780
+ Now, after we have this mean to compute the average of all training samples, we can subtract all training samples by its mean.
+
+1302
+01:55:49,780 --> 01:55:50,780
+ Okay.
+
+1303
+01:55:50,780 --> 01:55:56,780
+ To produce this training sample, this training sample is called centralized training sample.
+
+1304
+01:55:56,780 --> 01:56:01,780
+ Because all this X curve, it's mean will be zero, right?
+
+1305
+01:56:01,780 --> 01:56:04,780
+ Because it is original X i minus it's mean.
+
+1306
+01:56:04,780 --> 01:56:08,780
+ So all this X curve is centralized.
+
+1307
+01:56:08,780 --> 01:56:13,780
+ Now, the centralized vector is also a vector.
+
+1308
+01:56:13,780 --> 01:56:19,780
+ If we put all this training sample together, then we have a matrix.
+
+1309
+01:56:19,780 --> 01:56:20,780
+ Okay.
+
+1310
+01:56:20,780 --> 01:56:25,780
+ This we will utilize this matrix to simplify our computation.
+
+1311
+01:56:25,780 --> 01:56:26,780
+ Okay.
+
+1312
+01:56:26,780 --> 01:56:31,780
+ So here, because as I mentioned that all vector by before is a quantum vector, right?
+
+1313
+01:56:31,780 --> 01:56:34,780
+ One sample, one image is a quantum vector.
+
+1314
+01:56:34,780 --> 01:56:37,780
+ Then we put all training image together.
+
+1315
+01:56:37,780 --> 01:56:40,780
+ Then it will form a matrix.
+
+1316
+01:56:40,780 --> 01:56:42,780
+ This is big X, right?
+
+1317
+01:56:42,780 --> 01:56:45,780
+ This is all training samples.
+
+1318
+01:56:45,780 --> 01:56:49,780
+ Now, we utilize this centralized training sample.
+
+1319
+01:56:49,780 --> 01:57:03,780
+ Now, next one, we will try to find one dimension to use one dimension to reduce the high dimensional data into just one dimension.
+
+1320
+01:57:03,780 --> 01:57:08,780
+ So to determine one dimension is just to determine a direction.
+
+1321
+01:57:08,780 --> 01:57:14,780
+ Along this direction, we can project all high dimensional data into this axis, into this vector.
+
+1322
+01:57:14,780 --> 01:57:18,780
+ So it becomes to one dimension, right?
+
+1323
+01:57:18,780 --> 01:57:23,780
+ So basically, we need to find a vector phi.
+
+1324
+01:57:23,780 --> 01:57:26,780
+ The length of this vector is a unit.
+
+1325
+01:57:26,780 --> 01:57:29,780
+ So we have unit length of the vector phi.
+
+1326
+01:57:29,780 --> 01:57:30,780
+ Okay.
+
+1327
+01:57:30,780 --> 01:57:44,780
+ So if we try to use this phi to best represent all training sample, then if we can use this phi to produce one dimensional data.
+
+1328
+01:57:44,780 --> 01:57:45,780
+ Okay.
+
+1329
+01:57:45,780 --> 01:57:50,780
+ So that means this high dimensional data multiplied by this vector,
+
+1330
+01:57:50,780 --> 01:57:55,780
+ all this vector transpose multiplied by this data, then produce just one value.
+
+1331
+01:57:55,780 --> 01:58:03,780
+ This value is the value project this undimensional data on this vector, right?
+
+1332
+01:58:03,780 --> 01:58:06,780
+ This is a projection.
+
+1333
+01:58:06,780 --> 01:58:07,780
+ Okay.
+
+1334
+01:58:07,780 --> 01:58:12,780
+ So we need to find one dimension X.
+
+1335
+01:58:12,780 --> 01:58:13,780
+ Okay.
+
+1336
+01:58:13,780 --> 01:58:20,780
+ If we project all data onto this dimension, then produce just one dimensional data, AI.
+
+1337
+01:58:20,780 --> 01:58:25,780
+ Now, we know an undimensional vector transpose multiplied by another undimensional vector,
+
+1338
+01:58:25,780 --> 01:58:28,780
+ a common vector, the result is just one value, right?
+
+1339
+01:58:28,780 --> 01:58:33,780
+ This value, physical meaning is project this vector to this vector.
+
+1340
+01:58:33,780 --> 01:58:36,780
+ Well, this vector is one training sample.
+
+1341
+01:58:36,780 --> 01:58:40,780
+ All training samples project to the same vectors.
+
+1342
+01:58:40,780 --> 01:58:44,780
+ So different training sample, we have different single value, different value.
+
+1343
+01:58:44,780 --> 01:58:48,780
+ This is just one dimensional value, right?
+
+1344
+01:58:48,780 --> 01:58:49,780
+ Okay.
+
+1345
+01:58:49,780 --> 01:58:57,780
+ Now, if we see this dimension, one dimension, one vector best represent all training sample,
+
+1346
+01:58:57,780 --> 01:59:04,780
+ that means this, we use this vector to project a high dimensional data into just one dimension.
+
+1347
+01:59:04,780 --> 01:59:14,780
+ Then this one dimensional data AI, I from one to Q, we are best represent AXI, high dimensional.
+
+1348
+01:59:14,780 --> 01:59:15,780
+ This is the undimensional.
+
+1349
+01:59:15,780 --> 01:59:16,780
+ Okay.
+
+1350
+01:59:16,780 --> 01:59:18,780
+ This is just one dimension, right?
+
+1351
+01:59:18,780 --> 01:59:23,780
+ This one dimensional data AI best represent all AXI.
+
+1352
+01:59:23,780 --> 01:59:29,780
+ How to say it is the best represent AXI.
+
+1353
+01:59:29,780 --> 01:59:30,780
+ Okay.
+
+1354
+01:59:30,780 --> 01:59:32,780
+ AI is just one dimension, right?
+
+1355
+01:59:32,780 --> 01:59:36,780
+ But this one dimension is the value along this vector, right?
+
+1356
+01:59:36,780 --> 01:59:43,780
+ So if this AI multiplied by this vector, then becomes to undimensional vector.
+
+1357
+01:59:43,780 --> 01:59:51,780
+ So this one is, we use just one value to construct an undimensional data,
+
+1358
+01:59:51,780 --> 01:59:57,780
+ because AI multiplied by undimensional vector becomes to undimensional vector.
+
+1359
+01:59:57,780 --> 02:00:03,780
+ So this is use one dimension to reconstruct the undimensional.
+
+1360
+02:00:03,780 --> 02:00:10,780
+ So we use just one dimension to get an undimensional data, make this difference minimum,
+
+1361
+02:00:10,780 --> 02:00:20,780
+ to make this one dimensional data reconstruct to undimensional close to the original data, right?
+
+1362
+02:00:20,780 --> 02:00:23,780
+ So to make this difference minimum.
+
+1363
+02:00:23,780 --> 02:00:27,780
+ Of course, this difference is the difference then take the error to long.
+
+1364
+02:00:27,780 --> 02:00:34,780
+ Then it should be minimum overall training data, then sum overall training data, right?
+
+1365
+02:00:34,780 --> 02:00:42,780
+ So we need minimize this one to compute what is the best five, best vector.
+
+1366
+02:00:42,780 --> 02:00:46,780
+ It can minimize this reconstruction error.
+
+1367
+02:00:46,780 --> 02:00:47,780
+ Okay.
+
+1368
+02:00:47,780 --> 02:00:50,780
+ So we understand this is a reconstruction error,
+
+1369
+02:00:50,780 --> 02:00:54,780
+ because we use one dimension to construct the undimensional,
+
+1370
+02:00:54,780 --> 02:01:01,780
+ and then make this undimensional data close to all training data to make this difference minimized.
+
+1371
+02:01:01,780 --> 02:01:03,780
+ Okay.
+
+1372
+02:01:03,780 --> 02:01:09,780
+ So this is a square is a reconstruction error square, right?
+
+1373
+02:01:09,780 --> 02:01:15,780
+ Use one dimension to reconstruct the undimensional to minimize this error.
+
+1374
+02:01:15,780 --> 02:01:23,780
+ So we need to find what is this five to make this error minimize minimum value.
+
+1375
+02:01:23,780 --> 02:01:24,780
+ Okay.
+
+1376
+02:01:24,780 --> 02:01:30,780
+ Then to compute it, this mathematical direction is very straightforward.
+
+1377
+02:01:30,780 --> 02:01:31,780
+ Okay.
+
+1378
+02:01:31,780 --> 02:01:38,780
+ First, this error to norm is just this vector transpose times itself, right?
+
+1379
+02:01:38,780 --> 02:01:39,780
+ This is very clear.
+
+1380
+02:01:39,780 --> 02:01:40,780
+ Okay.
+
+1381
+02:01:40,780 --> 02:01:49,780
+ So this, the error to square is just the vector transpose multiplied by itself.
+
+1382
+02:01:49,780 --> 02:01:51,780
+ So get one value, right?
+
+1383
+02:01:51,780 --> 02:01:54,780
+ Then sum overall training data to get one value.
+
+1384
+02:01:54,780 --> 02:01:57,780
+ So we need to minimize this one, right?
+
+1385
+02:01:57,780 --> 02:02:05,780
+ Now to minimize this one, if we do the cross multiplication, then you will generate the four items.
+
+1386
+02:02:05,780 --> 02:02:15,780
+ Now in these four items, we can check out, for example, this one multiplied by this one is just a i square,
+
+1387
+02:02:15,780 --> 02:02:27,780
+ because this item multiplied by this a i phi x curve, where phi transpose x curve by dilation is just one dimension of the a i, right?
+
+1388
+02:02:27,780 --> 02:02:30,780
+ So this multiplication is just a i square.
+
+1389
+02:02:30,780 --> 02:02:36,780
+ This one multiplied by this one is also a i square.
+
+1390
+02:02:36,780 --> 02:02:43,780
+ We can very easily say that, show that, because phi transpose times phi is one, which is a unit length.
+
+1391
+02:02:43,780 --> 02:02:46,780
+ The length of this vector is one, right?
+
+1392
+02:02:46,780 --> 02:02:50,780
+ So from here, we can very easily to get the result.
+
+1393
+02:02:50,780 --> 02:02:51,780
+ Okay.
+
+1394
+02:02:51,780 --> 02:02:53,780
+ Because this one multiplied by this one is a square.
+
+1395
+02:02:53,780 --> 02:02:56,780
+ This one multiplied by this one is also a square.
+
+1396
+02:02:56,780 --> 02:02:59,780
+ This one multiplied by this one is also a square.
+
+1397
+02:02:59,780 --> 02:03:04,780
+ So we get only the first one multiplied by the first item is here.
+
+1398
+02:03:04,780 --> 02:03:07,780
+ So we have the difference of these two.
+
+1399
+02:03:07,780 --> 02:03:10,780
+ This is very good for just to multiply them together.
+
+1400
+02:03:10,780 --> 02:03:13,780
+ We get this expression, right?
+
+1401
+02:03:13,780 --> 02:03:17,780
+ Now from this expression, what is the a i square?
+
+1402
+02:03:17,780 --> 02:03:19,780
+ A i is just one value, right?
+
+1403
+02:03:19,780 --> 02:03:20,780
+ A i square.
+
+1404
+02:03:20,780 --> 02:03:22,780
+ A i is here.
+
+1405
+02:03:22,780 --> 02:03:27,780
+ If we replace this a i by this expression,
+
+1406
+02:03:28,780 --> 02:03:36,780
+ we replace a i by what it comes from, then we get this expression, right?
+
+1407
+02:03:36,780 --> 02:03:43,780
+ So a i is this one, so the transpose, this a i multiplied by a i,
+
+1408
+02:03:43,780 --> 02:03:48,780
+ then we can put this transpose because the a i is just one value,
+
+1409
+02:03:48,780 --> 02:03:51,780
+ the transpose is itself.
+
+1410
+02:03:51,780 --> 02:03:54,780
+ So anyway, we can get this expression, right?
+
+1411
+02:03:54,780 --> 02:03:57,780
+ It's this one, a i square.
+
+1412
+02:03:57,780 --> 02:04:03,780
+ Now this expression, if we put this file outside of this summation,
+
+1413
+02:04:03,780 --> 02:04:06,780
+ then we get this one, right?
+
+1414
+02:04:06,780 --> 02:04:11,780
+ Now from this one, we see what is the value,
+
+1415
+02:04:11,780 --> 02:04:16,780
+ what is this amount within this bracket?
+
+1416
+02:04:16,780 --> 02:04:20,780
+ We have a column vector multiplied by a row vectors.
+
+1417
+02:04:20,780 --> 02:04:26,780
+ This is a training data, minus its mean because it's x-curve, right?
+
+1418
+02:04:26,780 --> 02:04:29,780
+ Then sum over all training data.
+
+1419
+02:04:29,780 --> 02:04:33,780
+ This one is a covariance matrix, right?
+
+1420
+02:04:33,780 --> 02:04:36,780
+ By definition, it's a covariance matrix.
+
+1421
+02:04:36,780 --> 02:04:44,780
+ So here, we can very easily show that this multiplication is a covariance matrix.
+
+1422
+02:04:44,780 --> 02:04:49,780
+ Of course, we need to divide by this constant, but this is not very important.
+
+1423
+02:04:49,780 --> 02:04:58,780
+ So anyway, then the second term is just a q multiplied by this phi transpose times ST.
+
+1424
+02:04:58,780 --> 02:05:02,780
+ ST is this covariance matrix.
+
+1425
+02:05:02,780 --> 02:05:07,780
+ So because the x-curve is x-minus its mean, right?
+
+1426
+02:05:07,780 --> 02:05:11,780
+ So we get this expression.
+
+1427
+02:05:11,780 --> 02:05:16,780
+ Now this is a data covariance matrix or total scatter matrix, right?
+
+1428
+02:05:16,780 --> 02:05:21,780
+ We already mentioned that in the previous lectures.
+
+1429
+02:05:21,780 --> 02:05:26,780
+ So to minimize this one, it's just to maximize this one
+
+1430
+02:05:26,780 --> 02:05:33,780
+ because the first term, the value is fixed for whatever value of the phi
+
+1431
+02:05:33,780 --> 02:05:38,780
+ because it is nothing, the value of the first term is nothing to do with the phi, okay?
+
+1432
+02:05:38,780 --> 02:05:44,780
+ So to maximize this, it's just to minimize the second term.
+
+1433
+02:05:44,780 --> 02:05:50,780
+ So, sorry, minimize this e square is just to maximize this one.
+
+1434
+02:05:50,780 --> 02:05:57,780
+ So this minimization becomes to maximize this term
+
+1435
+02:05:57,780 --> 02:06:03,780
+ and the condition that phi should be unit length, okay?
+
+1436
+02:06:03,780 --> 02:06:08,780
+ Phi should be a unit length vector.
+
+1437
+02:06:08,780 --> 02:06:18,780
+ So if we don't have this constraint, then the length of this phi larger than this value will be larger, right?
+
+1438
+02:06:18,780 --> 02:06:28,780
+ So we cannot find an optimal result because anyway, if we always take the phi, the length is very long.
+
+1439
+02:06:28,780 --> 02:06:34,780
+ All this is, if we not constraint this is a unit length.
+
+1440
+02:06:34,780 --> 02:06:41,780
+ So we, from here, we have to minimize the reconstruction error is to maximize this term
+
+1441
+02:06:41,780 --> 02:06:47,780
+ and the condition of this unit length of the phi.
+
+1442
+02:06:47,780 --> 02:06:52,780
+ So we have the so-called conditional optimization.
+
+1443
+02:06:52,780 --> 02:06:59,780
+ Well, for this conditional optimization in the mathematics, we have a very common method.
+
+1444
+02:06:59,780 --> 02:07:13,780
+ We can convert the conditional optimization into unconditional optimization by using this term minus this phi transpose phi minus 1,
+
+1445
+02:07:13,780 --> 02:07:19,780
+ use lambda minus these terms to maximize this one.
+
+1446
+02:07:19,780 --> 02:07:23,780
+ This is so-called Nagaranger optimization method.
+
+1447
+02:07:23,780 --> 02:07:33,780
+ We can convert conditional optimization into unconditional optimization.
+
+1448
+02:07:33,780 --> 02:07:36,780
+ Now, I will not go through this mathematics.
+
+1449
+02:07:36,780 --> 02:07:40,780
+ You just accept this so-called Nagaranger optimization.
+
+1450
+02:07:40,780 --> 02:07:44,780
+ This is also very fundamental in mathematical books, right?
+
+1451
+02:07:44,780 --> 02:07:52,780
+ But I will not go through the directly derivation how we get this unconditional optimization from this conditional optimization,
+
+1452
+02:07:52,780 --> 02:07:56,780
+ but conceptually, we should be able to understand that.
+
+1453
+02:07:56,780 --> 02:08:00,780
+ For example, what we need is maximize this one, right?
+
+1454
+02:08:00,780 --> 02:08:03,780
+ Maximize this one, but under this condition.
+
+1455
+02:08:03,780 --> 02:08:10,780
+ Now, this condition is the same as phi transpose times phi minus 1 equals to 0.
+
+1456
+02:08:10,780 --> 02:08:14,780
+ If we move this one into the left side, then the right side is 0.
+
+1457
+02:08:14,780 --> 02:08:17,780
+ So is this 1 equals to 0?
+
+1458
+02:08:17,780 --> 02:08:28,780
+ Now, if we need to constraint this one equals to 0, but we can convert this one into optimization to minimize this one.
+
+1459
+02:08:28,780 --> 02:08:33,780
+ So to minimize this one, it will close to 0.
+
+1460
+02:08:33,780 --> 02:08:43,780
+ So we maximize the original one and minimize this one is make the solution close to this condition.
+
+1461
+02:08:43,780 --> 02:08:53,780
+ Because if we maximize the whole sense, it will maximize the first term and minimize the second term, because the second term is minus.
+
+1462
+02:08:53,780 --> 02:09:01,780
+ So we understand this term equals to 0 is the condition.
+
+1463
+02:09:01,780 --> 02:09:07,780
+ Well, we not take this one equals to 0 to minimize this term.
+
+1464
+02:09:07,780 --> 02:09:10,780
+ So it is somehow equivalent.
+
+1465
+02:09:10,780 --> 02:09:23,780
+ So from here, we just try to concept it to understand the reason why it is possible we can convert a conditional optimization into unconditional optimization.
+
+1466
+02:09:23,780 --> 02:09:37,780
+ Because this unconditional optimization already tried to achieve this condition to make this one close to 1 or to minimize this difference.
+
+1467
+02:09:37,780 --> 02:09:52,780
+ Now, after that, we should be able to accept anyway, this is strictly rigorous mathematics, a Nagaranger optimization method to convert conditional optimization into unconditional optimization.
+
+1468
+02:09:52,780 --> 02:10:01,780
+ So if we accept that, then this optimization is very standard for solution, right?
+
+1469
+02:10:01,780 --> 02:10:13,780
+ So to get the solution, we just take the differentiation of this function against the file we want to have, then let this differentiation equals to 0.
+
+1470
+02:10:13,780 --> 02:10:26,780
+ Then the solution of this equation is the file that maximizes this term or maximizes this reconstruction error.
+
+1471
+02:10:26,780 --> 02:10:32,780
+ No, maximize this term, then it's a minimize this reconstruction error.
+
+1472
+02:10:32,780 --> 02:10:39,780
+ Okay, so to solve this equation, we can very easily to find this equation is this form.
+
+1473
+02:10:39,780 --> 02:10:47,780
+ This two cancels because x to the 0, move this one to the right side, then we have this formula.
+
+1474
+02:10:47,780 --> 02:10:55,780
+ So what we need is to find a vector phi, satisfy this equation.
+
+1475
+02:10:55,780 --> 02:10:59,780
+ Now, this is very familiar, we're very familiar to this one, right?
+
+1476
+02:10:59,780 --> 02:11:03,780
+ So what is this equation and what is the solution?
+
+1477
+02:11:03,780 --> 02:11:19,780
+ So this is a very standard problem in the linear algebra that the vector phi satisfies this equation is called eigenvector of the matrix ST, right?
+
+1478
+02:11:19,780 --> 02:11:32,780
+ So this is the very standard linear algebra problem, okay?
+
+1479
+02:11:32,780 --> 02:11:43,780
+ So here we understand that given training data, we can compute the covariance matrix or total scatter matrix, okay?
+
+1480
+02:11:43,780 --> 02:12:01,780
+ Then in this matrix, we find the eigenvector and the eigenvalue, then this eigenvector is the vector that will produce the minimum reconstruction error, okay?
+
+1481
+02:12:01,780 --> 02:12:19,780
+ Now, then we convert our problem to the problem to solve the eigenvalue and the eigenvector because this is a very common problem in the linear algebra.
+
+1482
+02:12:19,780 --> 02:12:30,780
+ Okay, so we see that if phi, this vector, is an eigenvector of the covariance matrix, then this one will be maximized.
+
+1483
+02:12:30,780 --> 02:12:36,780
+ This one will be maximized, so the reconstruction error will be minimized, right?
+
+1484
+02:12:36,780 --> 02:12:47,780
+ If it's an eigenvector, then this one will be maximized, this term and reconstruction error will be minimized.
+
+1485
+02:12:47,780 --> 02:12:52,780
+ Now, what is this term? Okay, what is the value of this term?
+
+1486
+02:12:52,780 --> 02:13:00,780
+ This is just a single value, right? Because a row vector multiplies matrix and then a multiply by a common vector is just one value.
+
+1487
+02:13:00,780 --> 02:13:11,780
+ So this one will be maximized if phi is an eigenvector. Then what is this one? We can very easily see what is this one.
+
+1488
+02:13:11,780 --> 02:13:28,780
+ Okay, so this term, in fact, if we replace this s-key back into its definition, okay, is the training data multiplied by its transpose, right?
+
+1489
+02:13:28,780 --> 02:13:35,780
+ If we make this phi inside of this summation, then we have this expression, very straightforward.
+
+1490
+02:13:35,780 --> 02:13:46,780
+ Now, from this expression, we can see this term and this term are same, okay? This vector multiplied by this vector.
+
+1491
+02:13:46,780 --> 02:13:54,780
+ But what is this one? This is project the centralized training data onto this phi.
+
+1492
+02:13:54,780 --> 02:14:05,780
+ So this one is the AI. This is AI. So this multiplication is AI square.
+
+1493
+02:14:05,780 --> 02:14:10,780
+ So AI square sum over all training data, what is this?
+
+1494
+02:14:10,780 --> 02:14:16,780
+ AI is the project of the data, high-dimension data into one dimension phi.
+
+1495
+02:14:16,780 --> 02:14:24,780
+ And then minus its mean, then square sum average over all training data. What is it?
+
+1496
+02:14:24,780 --> 02:14:34,780
+ It is a variance of this one-dimensional data AI, right?
+
+1497
+02:14:34,780 --> 02:14:42,780
+ Okay, so that means it will maximize the variance of this one-dimensional data.
+
+1498
+02:14:42,780 --> 02:14:52,780
+ Whereas this one-dimensional data is project the original high-dimension into this phi or onto this vector phi, become to one-dimensional data.
+
+1499
+02:14:52,780 --> 02:15:01,780
+ Then this one-dimensional data, overall training data, the variation will be the maximum value.
+
+1500
+02:15:01,780 --> 02:15:07,780
+ It is pretty clear because the eigenvector maximizes this one, right?
+
+1501
+02:15:07,780 --> 02:15:14,780
+ Now here we understand the physical meaning of the eigenvector.
+
+1502
+02:15:14,780 --> 02:15:24,780
+ Given a high-dimensional data, if we find a vector to project high-dimension data into this vector, it becomes to one-dimensional data.
+
+1503
+02:15:24,780 --> 02:15:27,780
+ Then this one-dimensional data, we can compute the variance.
+
+1504
+02:15:27,780 --> 02:15:32,780
+ Variance indicates the variation of the data, right?
+
+1505
+02:15:32,780 --> 02:15:39,780
+ Then eigenvector will make the variance on this dimension maximum value.
+
+1506
+02:15:39,780 --> 02:15:43,780
+ It will larger than other phi value.
+
+1507
+02:15:43,780 --> 02:15:52,780
+ If phi is eigenvector, the variance along this eigenvector will be larger than other vectors or other vectors.
+
+1508
+02:15:52,780 --> 02:16:04,780
+ So the eigenvector will produce the data in this one-dimension has largest variance because this is the largest produced by the eigenvector phi.
+
+1509
+02:16:04,780 --> 02:16:08,780
+ Okay, so here this is the definition of variance, right?
+
+1510
+02:16:08,780 --> 02:16:13,780
+ Because AI is already minus its mean, the one-dimensional data minus its mean.
+
+1511
+02:16:13,780 --> 02:16:18,780
+ Okay, so this is the definition of the variance.
+
+1512
+02:16:18,780 --> 02:16:22,780
+ Now we understand the physical meaning of the eigenvector.
+
+1513
+02:16:22,780 --> 02:16:26,780
+ Now what is the meaning of the eigenvalue?
+
+1514
+02:16:26,780 --> 02:16:32,779
+ Okay, now in the linear algebra, this is a common definition.
+
+1515
+02:16:32,779 --> 02:16:35,779
+ What is the eigenvector and eigenvalue, right?
+
+1516
+02:16:35,779 --> 02:16:40,779
+ Given any matrix, okay, here is a covariance matrix.
+
+1517
+02:16:40,779 --> 02:16:45,779
+ If satisfy this equation phi is eigenvector, lambda is eigenvalue.
+
+1518
+02:16:45,780 --> 02:16:54,780
+ Now from here, if we multiply phi, I suppose, at the both sides, we can very easily get this one.
+
+1519
+02:16:54,780 --> 02:16:58,780
+ This one equals to this one, multiplied by phi, right?
+
+1520
+02:16:58,780 --> 02:17:03,780
+ Then this one, because phi is a unit length, then it is a lambda.
+
+1521
+02:17:03,780 --> 02:17:09,780
+ So we can see this amount is the eigenvalue.
+
+1522
+02:17:09,780 --> 02:17:14,780
+ So here we understand the physical meaning of the eigenvalue.
+
+1523
+02:17:14,780 --> 02:17:23,780
+ The eigenvalue is the data, oh no, the eigenvalue of the covariance matrix of the data
+
+1524
+02:17:23,780 --> 02:17:31,780
+ is the variance of the high-dimensional data projected to the corresponding eigenvector.
+
+1525
+02:17:31,780 --> 02:17:40,780
+ So the eigenvalue is this variance of the data along the eigenvector.
+
+1526
+02:17:40,780 --> 02:17:51,780
+ Well, this variance will be maximum value compared to other non-eigenvectors.
+
+1527
+02:17:51,780 --> 02:18:00,780
+ Okay, so these two findings, we find the meaning of the eigenvector and eigenvalue,
+
+1528
+02:18:00,780 --> 02:18:11,780
+ is very important because the variance is useful for the classification, right?
+
+1529
+02:18:11,780 --> 02:18:22,780
+ Okay, so now, because we try to find this phi to maximize this one, then this one is the eigenvalue.
+
+1530
+02:18:22,780 --> 02:18:25,780
+ So we need to find the maximum eigenvalue, right?
+
+1531
+02:18:25,780 --> 02:18:37,780
+ So because of that, we have the PCA, the principal component analysis, is to try to reduce the n-dimensional data into m-dimension.
+
+1532
+02:18:37,780 --> 02:18:46,780
+ Then we need to find, you use the m eigenvectors corresponding to m, not just the eigenvalue.
+
+1533
+02:18:46,780 --> 02:18:52,780
+ Because eigenvalue is the variance, okay?
+
+1534
+02:18:52,780 --> 02:18:55,780
+ So eigenvalue is the value of this one.
+
+1535
+02:18:55,780 --> 02:19:00,780
+ So to minimize the reconstruction error, we need to maximize this one.
+
+1536
+02:19:00,780 --> 02:19:09,780
+ So we need to maximize the eigenvalue so that we need to find the eigenvector corresponding to the largest eigenvalue, right?
+
+1537
+02:19:09,780 --> 02:19:12,780
+ eigenvalue is a variation, variance.
+
+1538
+02:19:12,780 --> 02:19:24,780
+ So if the eigenvector is the vector project high-dimension data into this dimension, then the variance of the data in this dimension is the eigenvalue.
+
+1539
+02:19:24,780 --> 02:19:41,780
+ So to minimize the reconstruction error from high-dimensional and reduce to no-dimensional m, we need to find m eigenvector corresponding to m, not just the eigenvalue.
+
+1540
+02:19:41,780 --> 02:19:50,780
+ Okay, now one eigenvector is n-dimensional vector, column vector for n-dimensional data x, right?
+
+1541
+02:19:50,780 --> 02:19:59,780
+ If we put a m column vector, eigenvector together to form a matrix, then this matrix is m by m.
+
+1542
+02:19:59,780 --> 02:20:07,780
+ Now this m by m matrix transpose multiplied by n-dimensional vector becomes to n-a-m dimension.
+
+1543
+02:20:07,780 --> 02:20:17,780
+ So the n-dimension will reduce to a-m dimension by this multiplication, by this matrix.
+
+1544
+02:20:17,780 --> 02:20:29,780
+ So we reduce the n-dimensional data into a-m dimension if we choose a-m eigenvectors to form this matrix, okay?
+
+1545
+02:20:29,780 --> 02:20:35,780
+ And this dimension reduction will minimize the reconstruction error, okay?
+
+1546
+02:20:35,780 --> 02:20:43,780
+ So this is pretty clear, right?
+
+1547
+02:20:43,780 --> 02:20:48,780
+ Now, again, what is the reconstruction error?
+
+1548
+02:20:48,780 --> 02:20:57,780
+ Now, given n-dimensional data x, use this m eigenvector to reduce the n-dimensional data into a-m dimension.
+
+1549
+02:20:57,780 --> 02:20:59,780
+ Then what is the reconstruction error?
+
+1550
+02:20:59,780 --> 02:21:05,780
+ That means we use this a-m dimension of y to reconstruct the n-dimensional x.
+
+1551
+02:21:05,780 --> 02:21:12,780
+ So this reconstruction is the phi multiplied by yi.
+
+1552
+02:21:12,780 --> 02:21:17,780
+ yi is a-m dimension multiplied by n by a-m dimension.
+
+1553
+02:21:17,780 --> 02:21:21,780
+ Then this multiplication will produce n-dimensional vector.
+
+1554
+02:21:21,780 --> 02:21:31,780
+ This n-dimensional vector, of course, plus the mean, because we discussed this one already minus its mean y, plus this mean vector.
+
+1555
+02:21:31,780 --> 02:21:38,780
+ Then this one is the reconstructed x, n-dimensional x, x hat.
+
+1556
+02:21:38,780 --> 02:21:44,780
+ Use the no-dimensional data to reconstruct the high-dimensional data, okay?
+
+1557
+02:21:44,780 --> 02:21:57,780
+ Then this high-dimensional data, compared with the original high-dimensional data, this error will be minimized, okay?
+
+1558
+02:21:57,780 --> 02:22:05,780
+ So this is the famous principle component analysis, okay?
+
+1559
+02:22:05,780 --> 02:22:09,780
+ So this is why we have principle components, right?
+
+1560
+02:22:09,780 --> 02:22:24,780
+ So the principle component 1, component 2, component 8 is a principle component because it uses each each way best to represent the high-dimensional data x, okay?
+
+1561
+02:22:24,780 --> 02:22:27,780
+ So we choose the principle component.
+
+1562
+02:22:27,780 --> 02:22:35,780
+ Each dimension is one component. It's called one component.
+
+1563
+02:22:35,780 --> 02:22:47,780
+ So the famous principle component is just find the eigenvector corresponding to largest eigenvalue to form a matrix.
+
+1564
+02:22:47,780 --> 02:22:57,780
+ Then these matrix will be used to reduce the high-dimensional data, n-dimensional data, into no-a-m dimension.
+
+1565
+02:22:57,780 --> 02:23:08,780
+ Then the reconstruction error, of course, we can reconstruct this x by y, this x hat, is just this phi multiplied by y, it becomes n-dimension, right?
+
+1566
+02:23:08,780 --> 02:23:10,780
+ This is reconstruction error.
+
+1567
+02:23:10,780 --> 02:23:26,780
+ Now this reconstruction error, we can very easily prove that it is a sum of the eigenvalue not used in this eigenvector, okay?
+
+1568
+02:23:26,780 --> 02:23:41,780
+ If we only use m eigenvector, then we have remaining eigenvector not used, then not used eigenvalue corresponding to this not used eigenvector sum together is this reconstruction error, okay?
+
+1569
+02:23:41,780 --> 02:23:55,780
+ So from here, we can also see we should choose the eigenvector corresponding to largest eigenvalue so that the eigenvalue not used, the summation will be minimized, okay?
+
+1570
+02:23:55,780 --> 02:24:01,780
+ Right? This is reconstruction error.
+
+1571
+02:24:01,780 --> 02:24:06,780
+ So this is a pretty clear, right? This principle component analysis.
+
+1572
+02:24:06,780 --> 02:24:16,780
+ From here, we can see this mathematical derivation in fact is not complicated. In fact, it is pretty clear, very straightforward.
+
+1573
+02:24:16,780 --> 02:24:27,780
+ Now here, as I mentioned that this, we need to find the eigenvector and eigenvalue of the so-called covariance matrix or the total scatter matrix.
+
+1574
+02:24:27,780 --> 02:24:30,780
+ The definition of the covariance matrix show here.
+
+1575
+02:24:30,780 --> 02:24:44,780
+ Now if we put all training data, centralize the training data into a matrix, we can very easily to show the covariance matrix is just the multiplication of these two data matrix, right?
+
+1576
+02:24:44,780 --> 02:24:50,780
+ Because we utilize it to simplify our derivation.
+
+1577
+02:24:50,780 --> 02:24:55,780
+ We can utilize this one to simplify our derivation.
+
+1578
+02:24:55,780 --> 02:25:01,780
+ Now from this matrix, we know a matrix can have the rank.
+
+1579
+02:25:01,780 --> 02:25:10,780
+ For m by m matrix, the rank of the matrix can be n or less than n or smaller than n, okay?
+
+1580
+02:25:10,780 --> 02:25:16,780
+ So a matrix may not be always full-ranked matrix, right?
+
+1581
+02:25:16,780 --> 02:25:20,780
+ This is also from the linear algebra, okay?
+
+1582
+02:25:20,780 --> 02:25:26,780
+ Now of course for m by m matrix, the largest rank is n, right?
+
+1583
+02:25:26,780 --> 02:25:34,780
+ But it can be smaller than n if all column, all element is not independent, then it can be smaller than n.
+
+1584
+02:25:34,780 --> 02:25:53,780
+ Now because the covariance matrix is computed by the training data, so if we have the q training data, if q minus 1 is smaller than n, then this matrix, the rank is only q minus 1.
+
+1585
+02:25:53,780 --> 02:26:00,780
+ Because we have only q independent sample to compute this matrix, okay?
+
+1586
+02:26:00,780 --> 02:26:06,780
+ So we can very clearly see that why it's q minus 1?
+
+1587
+02:26:06,780 --> 02:26:11,780
+ Because the 1 is utilized to compute the mean, okay?
+
+1588
+02:26:11,780 --> 02:26:22,780
+ Because all vector minus is mean, so the rank will reduce 1, so it's q minus 1, okay?
+
+1589
+02:26:22,780 --> 02:26:29,780
+ So how to understand this rank is q minus 1 can be less than n.
+
+1590
+02:26:29,780 --> 02:26:46,780
+ Now we understand that the rank somehow related to the variance because the eigenvector...
+
+1591
+02:26:46,780 --> 02:26:55,780
+ or moment here with all the...
+
+1592
+02:26:55,780 --> 02:27:15,780
+ If the rank, the matrix has the rank is k, then this matrix will only have k.
+
+1593
+02:27:15,780 --> 02:27:20,780
+ So we can see nonzero eigenvalues, okay?
+
+1594
+02:27:20,780 --> 02:27:25,780
+ Because the number of the nonzero values is equals to the rank of this matrix, okay?
+
+1595
+02:27:25,780 --> 02:27:31,780
+ This is also come from the linear algebra, but we can understand that why?
+
+1596
+02:27:31,780 --> 02:27:36,780
+ Because the eigenvalue is the variance, right?
+
+1597
+02:27:36,780 --> 02:27:47,780
+ Now if the data, the variation is 0, then it will cause the rank will reduce.
+
+1598
+02:27:47,780 --> 02:28:01,780
+ For example, I just use one example to try to explain why this high dimensional data, the rank, could be very small.
+
+1599
+02:28:01,780 --> 02:28:10,780
+ Now for example, we have very high dimensional data, but this high dimensional data, we have only two samples.
+
+1600
+02:28:10,780 --> 02:28:19,780
+ If we have two samples, then we can always find a line to link these two samples together, okay?
+
+1601
+02:28:19,780 --> 02:28:23,780
+ Then what is the variation of this high dimensional data?
+
+1602
+02:28:23,780 --> 02:28:30,780
+ This high dimensional data has only nonzero variance and nonzero this line.
+
+1603
+02:28:30,780 --> 02:28:39,780
+ All other directions also go to the line, link these two samples, the variation is 0.
+
+1604
+02:28:39,780 --> 02:28:42,780
+ So the rank is only 1, right?
+
+1605
+02:28:42,780 --> 02:28:46,780
+ Only a non-1 dimension, it is nonzero variation.
+
+1606
+02:28:46,780 --> 02:28:54,780
+ All other dimensions also go to this one, the variation is 0, okay?
+
+1607
+02:28:54,780 --> 02:29:05,780
+ That means, for example, if we have multiple training data, if all this training data is high dimension, but all this training data is a non-straight line.
+
+1608
+02:29:05,780 --> 02:29:13,780
+ So all this training data, in fact, is just one dimensional data, because it's only a non-1 dimension, it has difference.
+
+1609
+02:29:13,780 --> 02:29:18,780
+ All other dimensions also go to this one dimension, the difference is 0.
+
+1610
+02:29:18,780 --> 02:29:23,780
+ All other dimensions, all training data are exactly same value.
+
+1611
+02:29:23,780 --> 02:29:26,780
+ In other dimensions also go to this line.
+
+1612
+02:29:26,780 --> 02:29:31,780
+ If all this point in high dimensional space is a non-align, right?
+
+1613
+02:29:31,780 --> 02:29:33,780
+ So here we understand that.
+
+1614
+02:29:33,780 --> 02:29:39,780
+ Anyway, roughly understand this concept of the rank.
+
+1615
+02:29:39,780 --> 02:29:45,780
+ Now, basically for the PCA, if the number of the training data is smaller than the dimension,
+
+1616
+02:29:45,780 --> 02:29:59,780
+ if we have only the q minus 1 dimension, it's smaller than n, then we can reduce the dimension of x to y into this q minus 1.
+
+1617
+02:29:59,780 --> 02:30:11,780
+ Then the reconstruction error will be 0, because the remaining, all remaining eigenvalues is 0, so the reconstruction could be 0.
+
+1618
+02:30:11,780 --> 02:30:13,780
+ Right?
+
+1619
+02:30:13,780 --> 02:30:21,780
+ So this is shown here, because the reconstruction error is a sum of the eigenvalue not used.
+
+1620
+02:30:21,780 --> 02:30:29,780
+ If we utilize all non-zero eigenvalues in this dimension reduction, then not used eigenvalues all are 0, then summation is 0.
+
+1621
+02:30:29,780 --> 02:30:35,780
+ So the reconstruction could be 0.
+
+1622
+02:30:35,780 --> 02:30:44,780
+ Now, the scatter matrix based on the definition of the scatter matrix or covariance matrix or Boyer's, it is a symmetry matrix, right?
+
+1623
+02:30:44,780 --> 02:30:47,780
+ The transpose is itself.
+
+1624
+02:30:47,780 --> 02:30:50,780
+ Okay, this is pretty clear based on this one.
+
+1625
+02:30:50,780 --> 02:30:55,780
+ You do the transpose, then it will be identical to without the transpose, right?
+
+1626
+02:30:55,780 --> 02:30:57,780
+ So the transpose is itself.
+
+1627
+02:30:57,780 --> 02:30:59,780
+ It is a symmetry matrix.
+
+1628
+02:30:59,780 --> 02:31:15,780
+ So for the symmetry matrix, we can vary, of the covariance matrix, we can very easily to show that the eigenvector corresponding to different eigenvalues are also going on.
+
+1629
+02:31:15,780 --> 02:31:21,780
+ Also going on means the different eigenvalues, the modification is 0.
+
+1630
+02:31:21,780 --> 02:31:29,780
+ The same eigenvalue, if i equals to j, the same eigenvalue, it is a unit length, then the modification this is 1.
+
+1631
+02:31:29,780 --> 02:31:32,780
+ So this is called also normal.
+
+1632
+02:31:32,780 --> 02:31:35,780
+ All eigenvectors is also going on.
+
+1633
+02:31:35,780 --> 02:31:39,780
+ If the eigenvector will take the unit length, then it is also normal.
+
+1634
+02:31:39,780 --> 02:31:47,780
+ It's a unit length vector, and the different vector is the product, modification is 0.
+
+1635
+02:31:47,780 --> 02:31:50,780
+ So they are also going on.
+
+1636
+02:31:50,780 --> 02:32:01,780
+ Now we know this also going on is very important because we know axis, if we represent a data, all axis there must be also going on, right?
+
+1637
+02:32:01,780 --> 02:32:05,780
+ X and Y, there must be also going on.
+
+1638
+02:32:05,780 --> 02:32:13,780
+ So here, this is a proof how the different eigenvector corresponding to different eigenvalues are also going on.
+
+1639
+02:32:13,780 --> 02:32:15,780
+ This I will skip that.
+
+1640
+02:32:15,780 --> 02:32:19,780
+ If you are interested, you can see that it is not difficult.
+
+1641
+02:32:19,780 --> 02:32:29,780
+ Okay, this is purely mathematical proof, also not difficult.
+
+1642
+02:32:29,780 --> 02:32:40,780
+ Now, we, from the linear algebra, the definition of the eigenvector and eigenvalue is shown here, right?
+
+1643
+02:32:40,780 --> 02:32:46,780
+ But this definition is only for one eigenvector and one eigenvalue.
+
+1644
+02:32:46,780 --> 02:32:53,780
+ Of course, it is held for each of the eigenvector and eigenvalue, right?
+
+1645
+02:32:53,780 --> 02:33:02,780
+ To simplify this definition, we can have a definition to contain all eigenvector and eigenvalue.
+
+1646
+02:33:02,780 --> 02:33:13,780
+ By doing so, we can put all eigenvector, quantum vector into a matrix so that we have an eigenvector matrix.
+
+1647
+02:33:13,780 --> 02:33:23,780
+ Okay, now for full-ranked matrix, we have n eigenvectors for n-dimensional, for n-by-n matrix, right?
+
+1648
+02:33:23,780 --> 02:33:28,780
+ We can find n eigenvectors corresponding to n non-zero eigenvalue, right?
+
+1649
+02:33:28,780 --> 02:33:32,780
+ So we have a matrix, this five contains all eigenvectors.
+
+1650
+02:33:32,780 --> 02:33:37,780
+ This is an eigenvector matrix. It's also an n-by-n matrix.
+
+1651
+02:33:37,780 --> 02:33:41,780
+ Okay, now, because all different eigenvectors are also going on.
+
+1652
+02:33:41,780 --> 02:33:52,780
+ So, also going on means the transpose multiplied by them is an identity matrix.
+
+1653
+02:33:52,780 --> 02:33:59,780
+ So that means for such an also-gonnawn matrix, the transpose is inverse.
+
+1654
+02:33:59,780 --> 02:34:06,780
+ We can very easily to compute what is the inverse. We just transpose this one, this matrix, then we get the inverse.
+
+1655
+02:34:06,780 --> 02:34:13,780
+ Or phi transpose phi is i. Also phi times phi transpose is also i.
+
+1656
+02:34:13,780 --> 02:34:21,780
+ Okay, this is pretty clear from the property different eigenvector is also going on, right?
+
+1657
+02:34:21,780 --> 02:34:29,780
+ Now, from here, if we put all eigenvalues into a matrix as a diagonal matrix,
+
+1658
+02:34:29,780 --> 02:34:35,780
+ where the diagonal element is the eigenvalue, all of the diagonal elements are zero.
+
+1659
+02:34:35,780 --> 02:34:41,780
+ Then we have an eigenvalue matrix, also n-by-n eigenvalue matrix.
+
+1660
+02:34:41,780 --> 02:34:51,780
+ Then we can simplify the definition for each of the eigenvector eigenvalue into a matrix format.
+
+1661
+02:34:51,780 --> 02:34:59,780
+ We put all eigenvector into a matrix and put all eigenvalue into a matrix, but it's a diagonal matrix.
+
+1662
+02:34:59,780 --> 02:35:09,780
+ Then we have the definition of here for eigenvalue vector and eigenvalue matrix and eigenvector matrix.
+
+1663
+02:35:09,780 --> 02:35:16,780
+ This is very directly come from the definition of the eigenvalue and the eigenvector for each of them.
+
+1664
+02:35:16,780 --> 02:35:20,780
+ Then we can put them together to have this definition.
+
+1665
+02:35:20,780 --> 02:35:30,780
+ We need to use this one to put all eigenvector and eigenvector into one formula to do our mathematical derivation.
+
+1666
+02:35:30,780 --> 02:35:34,780
+ These two are equivalent, right?
+
+1667
+02:35:34,780 --> 02:35:46,780
+ Now, from this one, if we multiply phi transpose at both sides, we can very easily get another more useful definition.
+
+1668
+02:35:46,780 --> 02:35:48,780
+ It's a sigma.
+
+1669
+02:35:48,780 --> 02:35:57,780
+ This covariance matrix is equal to eigenvector matrix multiplied by this diagonal matrix.
+
+1670
+02:35:57,780 --> 02:36:10,780
+ Or the given any covariance matrix, if we multiply by eigenvector matrix, we produce a diagonal matrix.
+
+1671
+02:36:10,780 --> 02:36:15,780
+ Okay, by the definition of the eigenvector and the eigenvalue.
+
+1672
+02:36:15,780 --> 02:36:22,780
+ Now, this is very useful because somehow the diagonal matrix, the inverse is very easy, right?
+
+1673
+02:36:22,780 --> 02:36:25,780
+ Just inverse each diagonal element.
+
+1674
+02:36:25,780 --> 02:36:28,780
+ Then we get the inverse of this diagonal matrix, right?
+
+1675
+02:36:28,780 --> 02:36:34,780
+ So from the definition of the eigenvalue, eigenvector, we have this formula, right?
+
+1676
+02:36:34,780 --> 02:36:36,780
+ Later, we will utilize this one.
+
+1677
+02:36:36,780 --> 02:36:51,780
+ But before that, we will try to summarize this result to visualize the result to see what is the meaning of the covariance matrix.
+
+1678
+02:36:51,780 --> 02:36:56,780
+ The covariance matrix, what is the meaning of eigenvector and eigenvalue?
+
+1679
+02:36:56,780 --> 02:36:59,780
+ The physical meanings.
+
+1680
+02:36:59,780 --> 02:37:02,780
+ Now, suppose we have a two-dimensional data.
+
+1681
+02:37:02,780 --> 02:37:04,780
+ We can visualize it.
+
+1682
+02:37:04,780 --> 02:37:08,780
+ Each training sample is just one point, right?
+
+1683
+02:37:08,780 --> 02:37:13,780
+ The training sample of two-dimensional data has two components, X1 and X2.
+
+1684
+02:37:13,780 --> 02:37:23,780
+ So each point is X coordinate, X1 coordinate and X2 coordinate is the two components of a two-dimensional vector.
+
+1685
+02:37:23,780 --> 02:37:24,780
+ Okay?
+
+1686
+02:37:24,780 --> 02:37:26,780
+ One vector is one point.
+
+1687
+02:37:26,780 --> 02:37:31,780
+ This meaning, this point is all of this training data.
+
+1688
+02:37:31,780 --> 02:37:40,780
+ Suppose this training data is distributed in this shape because all point is one training sample, right?
+
+1689
+02:37:40,780 --> 02:37:51,780
+ Now, if this training data, we utilize this training data to compute this covariance matrix, sigma, then it is a two-by-two matrix, right?
+
+1690
+02:37:51,780 --> 02:37:55,780
+ Because it's a two-dimensional data.
+
+1691
+02:37:55,780 --> 02:38:01,780
+ Then what is the meaning of this element in this two-by-two matrix?
+
+1692
+02:38:01,780 --> 02:38:05,780
+ We have v11, v12, v21 and v22.
+
+1693
+02:38:05,780 --> 02:38:10,780
+ Of course, v12 and v21 they are same because it's a symmetry, right?
+
+1694
+02:38:10,780 --> 02:38:14,780
+ So what is the meaning of v11 and v22?
+
+1695
+02:38:14,780 --> 02:38:17,780
+ In fact, it is pretty clear.
+
+1696
+02:38:17,780 --> 02:38:22,780
+ v11 is the variance of the data of the first component, right?
+
+1697
+02:38:22,780 --> 02:38:25,780
+ From the definition, it is pretty clear.
+
+1698
+02:38:25,780 --> 02:38:30,780
+ So v11 is the variance of all this data, the X1 value.
+
+1699
+02:38:30,780 --> 02:38:35,780
+ What is the variance of this data along this horizontal axis?
+
+1700
+02:38:35,780 --> 02:38:36,780
+ Right?
+
+1701
+02:38:36,780 --> 02:38:37,780
+ This is v11.
+
+1702
+02:38:37,780 --> 02:38:43,780
+ Where v22 is the variance of this two-dimensional data, it's second component.
+
+1703
+02:38:43,780 --> 02:38:46,780
+ What is the variation along this axis?
+
+1704
+02:38:46,780 --> 02:38:51,780
+ So these variants indicate the first component.
+
+1705
+02:38:51,780 --> 02:38:54,780
+ How much is the variation?
+
+1706
+02:38:54,780 --> 02:38:55,780
+ It is v11.
+
+1707
+02:38:55,780 --> 02:39:00,780
+ v22 is the variance along this axis, right?
+
+1708
+02:39:00,780 --> 02:39:05,780
+ Now, of course, then v12 and v21 is a covariance matrix.
+
+1709
+02:39:05,780 --> 02:39:08,780
+ What is the role of this covariance matrix?
+
+1710
+02:39:08,780 --> 02:39:10,780
+ It will determine this shape.
+
+1711
+02:39:10,780 --> 02:39:21,780
+ Now, later I will further explain that if we do the eigen decomposition to compute the two-icon vector and two-icon values,
+
+1712
+02:39:21,780 --> 02:39:31,780
+ then we can get this covariance matrix is this phi multiplied by this eigenvalue matrix multiplied by phi transpose.
+
+1713
+02:39:31,780 --> 02:39:36,780
+ So anyway, you have this one, this expression, right?
+
+1714
+02:39:36,780 --> 02:39:46,780
+ Now, from this expression, or we can also make this covariance matrix multiplied by these two eigenvector matrix,
+
+1715
+02:39:46,780 --> 02:39:54,780
+ this covariance matrix then produce the eigenvalue matrix because previous slides clearly show this two formula, right?
+
+1716
+02:39:54,780 --> 02:39:59,780
+ This just directly comes from the definition of the eigenvector and eigenvalue.
+
+1717
+02:39:59,780 --> 02:40:07,780
+ Now, from this one, we can see what is the meaning of the eigenvalue and eigenvector because here,
+
+1718
+02:40:07,780 --> 02:40:11,780
+ the covariance matrix is x multiplied by its transpose.
+
+1719
+02:40:11,780 --> 02:40:16,780
+ This x is a data matrix, contains all training data, right?
+
+1720
+02:40:16,780 --> 02:40:21,780
+ Okay, now, from here we can see it is this one multiplied by this one.
+
+1721
+02:40:21,780 --> 02:40:25,780
+ So, here, what is this one?
+
+1722
+02:40:25,780 --> 02:40:32,780
+ This one is the project the original data into two eigenvectors, okay?
+
+1723
+02:40:32,780 --> 02:40:37,780
+ If we define it as y, then this one is the same as this one.
+
+1724
+02:40:37,780 --> 02:40:40,780
+ So, we have y times y transpose.
+
+1725
+02:40:40,780 --> 02:40:48,780
+ So, by definition, this is also a covariance matrix of the y, right?
+
+1726
+02:40:48,780 --> 02:40:50,780
+ The covariance matrix of the y.
+
+1727
+02:40:50,780 --> 02:40:57,780
+ Well, this covariance matrix of the y is a diagonal matrix, right?
+
+1728
+02:40:57,780 --> 02:41:07,780
+ So, that we see if we project the two dimensional data into the two eigenvectors,
+
+1729
+02:41:07,780 --> 02:41:12,780
+ then we have transformed the two dimensional data into another two dimension.
+
+1730
+02:41:12,780 --> 02:41:21,780
+ Then, in this new dimension, this y is covariance matrix, will be a diagonal matrix.
+
+1731
+02:41:21,780 --> 02:41:23,780
+ What means a diagonal matrix?
+
+1732
+02:41:23,780 --> 02:41:31,780
+ So, diagonal matrix means the two components of this y are uncorrelated.
+
+1733
+02:41:31,780 --> 02:41:35,780
+ Okay, so because this correlation is zero.
+
+1734
+02:41:35,780 --> 02:41:42,780
+ And this lambda one and lambda two is the variance of the two components of the y.
+
+1735
+02:41:42,780 --> 02:41:43,780
+ Right?
+
+1736
+02:41:43,780 --> 02:41:50,780
+ We already show that the eigenvalue is the variance of the data along the eigenvector, right?
+
+1737
+02:41:50,780 --> 02:41:56,780
+ Okay, so, here, the two eigenvectors is also gone.
+
+1738
+02:41:56,780 --> 02:42:02,780
+ Then, given such a visualized example, what is the two eigenvector?
+
+1739
+02:42:02,780 --> 02:42:05,780
+ What is the two eigenvalue?
+
+1740
+02:42:05,780 --> 02:42:17,780
+ It is a pretty clear if we say this shape of the data distribution, then this must be the two eigenvector,
+
+1741
+02:42:17,780 --> 02:42:24,780
+ because along this direction, the data has largest variation, right?
+
+1742
+02:42:24,780 --> 02:42:28,780
+ Okay, and along this direction, it is a minimum of variation.
+
+1743
+02:42:28,780 --> 02:42:33,780
+ So, this is the two eigenvector.
+
+1744
+02:42:33,780 --> 02:42:37,780
+ And then the two eigenvalues is two variants.
+
+1745
+02:42:37,780 --> 02:42:48,780
+ One is another eigenvector one, and the other lambda two is the variance of the data along the eigenvector two.
+
+1746
+02:42:48,780 --> 02:42:59,780
+ Well, this two dimension is uncorrelated because from the value of the one axis,
+
+1747
+02:42:59,780 --> 02:43:05,780
+ we cannot say it is related to the value of the other axis.
+
+1748
+02:43:05,780 --> 02:43:08,780
+ Okay, it's different from x1 and x2.
+
+1749
+02:43:08,780 --> 02:43:10,780
+ For example, from x1 and x2, right?
+
+1750
+02:43:10,780 --> 02:43:17,780
+ If we know that x1 has a larger value, most likely the x2 was also larger.
+
+1751
+02:43:17,780 --> 02:43:25,780
+ But in terms of phi1 and phi2, for all different phi1 values, the phi2 is independent.
+
+1752
+02:43:25,780 --> 02:43:29,780
+ We cannot predict what is possible phi2.
+
+1753
+02:43:29,780 --> 02:43:36,780
+ So here, we understand the geometric meaning of eigenvector and eigenvalue
+
+1754
+02:43:36,780 --> 02:43:40,780
+ and corresponding to this mathematical expression.
+
+1755
+02:43:40,780 --> 02:43:47,780
+ So, the eigenvector, along that, the data has the extremely variation.
+
+1756
+02:43:47,780 --> 02:43:50,780
+ And the different eigenvectors are also going on.
+
+1757
+02:43:50,780 --> 02:43:58,780
+ So, if we project the data x into data y, it's just we rotate the axis.
+
+1758
+02:43:58,780 --> 02:44:02,780
+ The data structure has no change.
+
+1759
+02:44:02,780 --> 02:44:03,780
+ Exactly same.
+
+1760
+02:44:03,780 --> 02:44:10,780
+ If we made all training data use x1 and x2, or made all training data use phi1 and phi2,
+
+1761
+02:44:10,780 --> 02:44:12,780
+ there's no difference.
+
+1762
+02:44:12,780 --> 02:44:15,780
+ The data structure has no change.
+
+1763
+02:44:15,780 --> 02:44:20,780
+ But if we use phi1 and phi2, we have nice property.
+
+1764
+02:44:20,780 --> 02:44:23,780
+ The covariance matrix is a diagonal matrix.
+
+1765
+02:44:23,780 --> 02:44:26,780
+ Each component is uncorrelated.
+
+1766
+02:44:26,780 --> 02:44:31,780
+ And the covariance matrix, we have extremely extreme variance,
+
+1767
+02:44:31,780 --> 02:44:35,780
+ either maximum variance or minimum variance.
+
+1768
+02:44:35,780 --> 02:44:40,780
+ So, this is a nice property of eigenvector and eigenvalue.
+
+1769
+02:44:40,780 --> 02:44:45,780
+ So, we have a nice property of eigenvector and eigenvalue.
+
+1770
+02:44:45,780 --> 02:44:52,780
+ So, this is a nice property of eigenvector and eigenvalue.
+
+1771
+02:44:52,780 --> 02:44:56,780
+ Okay, so I believe I will stop here.
+
+1772
+02:44:56,780 --> 02:45:02,780
+ So, in the remaining part, we will complete next week before the quiz.
+
+1773
+02:45:02,780 --> 02:45:05,780
+ Okay, thank you for your attention.
+
+1774
+02:45:15,780 --> 02:45:17,780
+ Okay.
+
+1775
+02:45:45,780 --> 02:46:11,780
+ This one, this one, this one.
+
+1776
+02:46:12,780 --> 02:46:15,780
+ They come from martyacht Monний.
+
+1777
+02:46:15,780 --> 02:46:27,780
+ So, this one has been errors, partners former!
+
+1778
+02:46:27,780 --> 02:46:29,780
+ This one is...isn't it here?
+
+1779
+02:46:29,780 --> 02:46:30,780
+ Is it here?
+
+1780
+02:46:30,780 --> 02:46:32,780
+ Is it this one?
+
+1781
+02:46:32,780 --> 02:46:34,780
+ It's this one.
+
+1782
+02:46:34,780 --> 02:46:36,780
+ There are four of them, right?
+
+1783
+02:46:36,780 --> 02:46:40,780
+ We have the first one, the second one, and the other two are under the box.
+
+1784
+02:46:40,780 --> 02:46:43,780
+ There are two boxes under the box, right?
+
+1785
+02:46:43,780 --> 02:46:44,780
+ The box is not this one.
+
+1786
+02:46:44,780 --> 02:46:46,780
+ What's the box?
+
+1787
+02:46:46,780 --> 02:46:49,780
+ This is the A1 and the A3.
+
+1788
+02:46:49,780 --> 02:46:51,780
+ This is the A1 and the A3.
+
+1789
+02:46:51,780 --> 02:46:55,780
+ Because this time-stake is not the BIDET thing, it's the AI.
+
+1790
+02:46:55,780 --> 02:46:57,780
+ It's not this one.
+
+1791
+02:46:57,780 --> 02:46:59,780
+ It's this one.
+
+1792
+02:46:59,780 --> 02:47:01,780
+ It's the AI.
+
+1793
+02:47:01,780 --> 02:47:03,780
+ These two turns are the same thing.
+
+1794
+02:47:03,780 --> 02:47:05,780
+ Because...
+
+1795
+02:47:05,780 --> 02:47:07,780
+ Isn't this the turn?
+
+1796
+02:47:07,780 --> 02:47:10,780
+ This is the ETCL, because this is one-vane.
+
+1797
+02:47:10,780 --> 02:47:13,780
+ This...this is the ETCL.
+
+1798
+02:47:13,780 --> 02:47:15,780
+ Oh, because it's an X.
+
+1799
+02:47:15,780 --> 02:47:17,780
+ Yes, one-vane.
+
+1800
+02:47:17,780 --> 02:47:19,780
+ Teacher, is it...
+
+1801
+02:47:19,780 --> 02:47:22,780
+ For example, after I calculate this,
+
+1802
+02:47:22,780 --> 02:47:25,780
+ how do I calculate these two values?
+
+1803
+02:47:25,780 --> 02:47:26,780
+ This value is...
+
+1804
+02:47:26,780 --> 02:47:28,780
+ In the linear number,
+
+1805
+02:47:28,780 --> 02:47:30,780
+ how to calculate a matrix,
+
+1806
+02:47:30,780 --> 02:47:32,780
+ its eigenvector and eigenvalue.
+
+1807
+02:47:32,780 --> 02:47:35,780
+ This is purely a mathematics problem.
+
+1808
+02:47:35,780 --> 02:47:37,780
+ You can solve it in two ways,
+
+1809
+02:47:37,780 --> 02:47:40,780
+ depending on the linear algebra.
+
+1810
+02:47:40,780 --> 02:47:42,780
+ I'm happy to see that.
+
+1811
+02:47:42,780 --> 02:47:45,780
+ Actually, this is the most basic thing in the linear number.
+
+1812
+02:47:45,780 --> 02:47:48,780
+ If you know the definition of eigenvector and eigenvalue,
+
+1813
+02:47:48,780 --> 02:47:51,780
+ then there must be a way to calculate eigenvector and eigenvalue.
+
+1814
+02:47:51,780 --> 02:47:52,780
+ Right?
+
+1815
+02:47:52,780 --> 02:47:53,780
+ Yes.
+
+1816
+02:47:53,780 --> 02:47:54,780
+ Go ahead.
+
+1817
+02:48:21,780 --> 02:48:22,780
+ Okay.
+
+1818
+02:48:51,780 --> 02:48:52,780
+ Okay.
+
+1819
+02:49:21,780 --> 02:49:22,780
+ Okay.
+
+1820
+02:49:51,780 --> 02:49:52,780
+ Okay.
+
+1821
+02:50:21,780 --> 02:50:23,780
+ Okay.
+
+1822
+02:50:51,780 --> 02:50:53,780
+ Okay.
+
+1823
+02:51:21,780 --> 02:51:24,780
+ Okay.
+
+1824
+02:51:51,780 --> 02:51:53,780
+ Okay.
+
+1825
+02:52:21,780 --> 02:52:23,780
+ Okay.
+
+1826
+02:52:51,780 --> 02:52:53,780
+ Okay.
+
+1827
+02:53:21,780 --> 02:53:23,780
+ Okay.
+
+1828
+02:53:51,780 --> 02:53:53,780
+ Okay.
+
+1829
+02:54:21,780 --> 02:54:23,780
+ Okay.
+
+1830
+02:54:51,780 --> 02:54:53,780
+ Okay.
+
+1831
+02:55:21,780 --> 02:55:23,780
+ Okay.
+
+1832
+02:55:51,780 --> 02:55:53,780
+ Okay.
+
+1833
+02:56:21,780 --> 02:56:23,780
+ Okay.
+
+1834
+02:56:51,780 --> 02:56:53,780
+ Okay.
+
+1835
+02:57:21,780 --> 02:57:23,780
+ Okay.
+
+1836
+02:57:51,780 --> 02:57:53,780
+ Okay.
+
+1837
+02:58:21,780 --> 02:58:23,780
+ Okay.
+
+1838
+02:58:51,780 --> 02:58:53,780
+ Okay.
+
+1839
+02:59:21,780 --> 02:59:23,780
+ Okay.
+
+1840
+02:59:51,780 --> 02:59:53,780
+ Okay.
+

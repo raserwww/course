@@ -1,0 +1,4328 @@
+1
+00:03:30,000 --> 00:03:49,520
+ Okay, good evening everyone. Okay, so last week we have studied the dimensionality reduction
+
+2
+00:03:49,520 --> 00:03:57,160
+ by PCA, principal component analysis. And then we have studied what is the physical meaning
+
+3
+00:03:57,160 --> 00:04:04,600
+ of the eigenvector and eigenvanuals, right? So although we know this eigenvector and eigenvector
+
+4
+00:04:04,600 --> 00:04:10,840
+ in the course of the linear algebra, but for the purely mathematics we have no idea what
+
+5
+00:04:10,840 --> 00:04:19,120
+ is it, right? So here we can clearly show what is the meaning of the eigenvalue and the eigenvectors.
+
+6
+00:04:19,120 --> 00:04:26,880
+ So here we will summarize the PCA. So for the dimensionality reduction given a high dimensional
+
+7
+00:04:26,880 --> 00:04:33,880
+ data x, okay? If this x is n dimensional, we want a no dimensional, for example, a m
+
+8
+00:04:33,880 --> 00:04:46,159
+ dimension. We just multiply this n dimensional vector by m by m matrix phi. Then n dimension
+
+9
+00:04:46,159 --> 00:04:53,000
+ becomes to m dimension, no dimension, right? Now if we choose this phi as the eigenvector
+
+10
+00:04:53,000 --> 00:05:01,080
+ of the covariance matrix or the total scatter matrix of all training data of the x, then
+
+11
+00:05:01,080 --> 00:05:09,840
+ this one is the choice of the data in the no dimension. It's the total variation of the
+
+12
+00:05:09,840 --> 00:05:17,760
+ data. So if we choose the eigenvector of the covariance matrix or total scatter matrix
+
+13
+00:05:17,760 --> 00:05:25,240
+ of the x, then this will be maximized. All the choice of this matrix will be maximized.
+
+14
+00:05:25,240 --> 00:05:31,560
+ Choice we know in the linear algebra, what is a choice? Choice is a sum of the diagonal
+
+15
+00:05:31,560 --> 00:05:39,039
+ line of a matrix, right? It is a sum of variation of all dimension together, right? So it is
+
+16
+00:05:39,040 --> 00:05:48,720
+ also same as sum of the eigen, m largest eigenvalues, okay? Eigenvalues is variance,
+
+17
+00:05:48,720 --> 00:05:56,720
+ right? So if we choose this m eigenvectors corresponding to largest, m largest eigenvalue,
+
+18
+00:05:56,720 --> 00:06:04,040
+ then this choice will be maximized. So that means the variation of the no dimension, m
+
+19
+00:06:04,040 --> 00:06:11,160
+ dimension or y will be maximized. Then the reconstruction arrow from y to the x will
+
+20
+00:06:11,160 --> 00:06:19,720
+ be minimized, okay? So here you should understand, given a data set, the variation of the data
+
+21
+00:06:19,720 --> 00:06:27,640
+ set carries the information, okay? All information carried by a data set is the variation of the
+
+22
+00:06:27,640 --> 00:06:33,280
+ data within the data set. Now for example, if we have two dimensional data, but these
+
+23
+00:06:33,320 --> 00:06:39,960
+ two dimensional data, all sample, all data sample is along a line, then the information
+
+24
+00:06:39,960 --> 00:06:45,760
+ we represent by this training data is only along the line. Along other line also go
+
+25
+00:06:45,760 --> 00:06:52,039
+ not to this line, all data are exactly same when you, then it does not carry any information,
+
+26
+00:06:52,039 --> 00:06:58,960
+ right? If all data is exactly same, this data set will not carry information. So we understand
+
+27
+00:06:59,039 --> 00:07:06,039
+ that the variation of the data in fact is carry the information of the data represented
+
+28
+00:07:06,039 --> 00:07:13,640
+ by this data set, okay? So here we understand the variation. In fact, the entropy we know
+
+29
+00:07:13,640 --> 00:07:20,080
+ from the information theory, right? The entropy is the measure of the amount of the information.
+
+30
+00:07:20,080 --> 00:07:25,719
+ The entropy in fact come from the, is very, very similar to the variation, okay? Although
+
+31
+00:07:25,800 --> 00:07:32,400
+ the definition are different, but entropy is caused by the uncertainty, right? It's defined
+
+32
+00:07:32,400 --> 00:07:39,960
+ by the probability, I believe it's a log of the inverse of the probability. So it depends
+
+33
+00:07:39,960 --> 00:07:47,000
+ on the uncertainty of the data. So uncertainty of the data in the Gaussian distribution is
+
+34
+00:07:47,000 --> 00:07:53,800
+ caused by the variance or the variation. So here just roughly you should be not surprised
+
+35
+00:07:53,800 --> 00:07:59,600
+ that the variation of the data is represented the information carried by this data set,
+
+36
+00:07:59,600 --> 00:08:07,600
+ okay? So the PCA will maximize the variation in the node dimensional space. So it will
+
+37
+00:08:07,600 --> 00:08:13,800
+ minimize the reconstruction error to the high dimensional space. Okay, so basically this
+
+38
+00:08:13,800 --> 00:08:20,960
+ is the concept of the PCA and the elaboration of the phase communion of the eigenvalue and
+
+39
+00:08:20,960 --> 00:08:31,120
+ eigenvectors, right? Okay, now PCA will reduce the high dimensional data x into node dimensional
+
+40
+00:08:31,120 --> 00:08:39,559
+ y, okay? Then we can, if we use the PCA it will minimize the reconstruction error or minimize
+
+41
+00:08:39,559 --> 00:08:48,280
+ the information nodes in the node dimensional data, right? But information nodes may, may
+
+42
+00:08:48,880 --> 00:09:00,640
+ reduce the accuracy of the subsequent process, okay? Because if we, the subsequent process
+
+43
+00:09:00,640 --> 00:09:07,360
+ use less amount of the information or where is, where not as good as use more information,
+
+44
+00:09:07,360 --> 00:09:15,319
+ right? In the next processing. And also the nodes of the information by the PCA, although
+
+45
+00:09:15,480 --> 00:09:22,520
+ it is a minimum but it is the information of the whole data set, the whole information of
+
+46
+00:09:22,520 --> 00:09:30,200
+ the data set, okay? It's a reconstruction error or representative error, representation error.
+
+47
+00:09:30,200 --> 00:09:41,280
+ Given a data set for some specific recondition task, we only use a very, very small amount
+
+48
+00:09:41,280 --> 00:09:48,040
+ of information in the, in the data set where some most information is, could be ear real
+
+49
+00:09:48,040 --> 00:09:54,640
+ one to your classification, to your specific classification. Now for example, just we use
+
+50
+00:09:54,640 --> 00:10:01,680
+ an example of phase image data set, right? The phase image is already very narrow scope,
+
+51
+00:10:01,680 --> 00:10:09,800
+ a very narrow scope of the data image data set. But even the data set contains all phase image,
+
+52
+00:10:10,160 --> 00:10:18,520
+ it contains a rich information. Now for different recondition tasks, we only use different very
+
+53
+00:10:18,520 --> 00:10:24,520
+ small amount of information carried in your training data set. We are more given a phase
+
+54
+00:10:24,520 --> 00:10:32,800
+ data set. We can use it to, to do the phase identity, a person's identity recondition. We
+
+55
+00:10:32,800 --> 00:10:41,880
+ can use it as somehow kind of the person's emotion recondition or some kind of the expression
+
+56
+00:10:41,880 --> 00:10:50,680
+ recondition. We can also use this data set to, to do the, such as the, the age estimation or gender
+
+57
+00:10:50,680 --> 00:10:56,319
+ classification or somehow post estimation. What is your phase, what is the direction your phase,
+
+58
+00:10:57,280 --> 00:11:05,440
+ phase two, right? So we can, we can do many different tasks. Or, or obviously for each
+
+59
+00:11:05,440 --> 00:11:12,920
+ specific task, they use the information for this task will be different. It is just a small portion
+
+60
+00:11:12,920 --> 00:11:22,920
+ of the whole information. Okay, now the PCA minimizes the north of the information, but it is just
+
+61
+00:11:22,959 --> 00:11:30,079
+ a minimized the north, north of the whole information. Right? That does not mean it, this
+
+62
+00:11:30,079 --> 00:11:38,280
+ information, the north information could be somehow critical for specific recognition or to
+
+63
+00:11:38,280 --> 00:11:47,199
+ discriminate specific class membership. Right? So these two information are not, are not the same.
+
+64
+00:11:47,920 --> 00:11:54,800
+ So here give an example. In this two dimensional data, okay, we have only x1 and x2, right? To
+
+65
+00:11:54,800 --> 00:12:01,520
+ visualize it, we can only use very simple examples. Where the black dot and the black cross are the
+
+66
+00:12:01,520 --> 00:12:08,880
+ training data or the data, okay? And they have the two class. The dot is one class, the cross is
+
+67
+00:12:09,120 --> 00:12:17,840
+ other class. Okay, if our task is to classify the data into two class, one is the dot, one is the
+
+68
+00:12:17,840 --> 00:12:24,200
+ cross, then before the classification, we want to reduce these two dimensions of data into one
+
+69
+00:12:24,200 --> 00:12:35,880
+ dimension. Okay, now if we use the PCA, then the PCA will offend this vector as the projection
+
+70
+00:12:36,320 --> 00:12:44,320
+ vector to project the two dimensional data into this vector. Because all this black data along
+
+71
+00:12:44,320 --> 00:12:55,200
+ this line has maximum variation, right? It clearly shows the variation of the data along this red
+
+72
+00:12:55,200 --> 00:13:04,800
+ line is maximized, is larger than other direction. So the PCA will reduce this black data into this
+
+73
+00:13:05,479 --> 00:13:15,199
+ red point, okay? But if we only use this one dimension along the PCA principle component to do the
+
+74
+00:13:15,199 --> 00:13:23,479
+ classification of the cross and the dot to separate this one, it is impossible. They are fully
+
+75
+00:13:23,479 --> 00:13:31,199
+ overlapped. The classification error will be maximum 50%, all your accuracy can only be 50%.
+
+76
+00:13:31,920 --> 00:13:41,720
+ So this shows the problem of the PCA. But of course, the PCA in this one dimension where it has the
+
+77
+00:13:41,720 --> 00:13:50,440
+ maximum information of this black dot in one dimension because along this dimension, the variation
+
+78
+00:13:50,440 --> 00:13:58,280
+ is the largest, right? Okay, so we can, from this visual example, we can very easily see if we project
+
+79
+00:13:58,400 --> 00:14:07,280
+ the data along this green direction, green vector, we can see these two class are fully separated.
+
+80
+00:14:07,280 --> 00:14:14,520
+ Then if we do the classification, just use one dimension of this green direction, we can very
+
+81
+00:14:14,520 --> 00:14:25,240
+ easily separate the data into correct two class with 100% of the accuracy. Okay, so here show some
+
+82
+00:14:26,200 --> 00:14:40,320
+ possible problem of the PCA. So this is why almost all people, okay, think about, almost all people
+
+83
+00:14:40,320 --> 00:14:48,520
+ believe that the desired property to determine the project vector, to project the data from
+
+84
+00:14:48,600 --> 00:14:56,640
+ high dimension to no dimension should maximize the separation between the class and minimize the
+
+85
+00:14:56,640 --> 00:15:05,400
+ variance of the data within the class. Now, for example, in the previous slides here, in this
+
+86
+00:15:05,400 --> 00:15:12,840
+ direction, the two different class, the separation is maximized along this direction, where the
+
+87
+00:15:12,840 --> 00:15:20,520
+ variation of the data within each of the class is minimized. So this is a good
+
+88
+00:15:20,520 --> 00:15:29,400
+ criterion to project the high dimension into no dimension. So almost all people think about that.
+
+89
+00:15:29,400 --> 00:15:37,400
+ So this is why people think about we should project the data x into the y, this phi,
+
+90
+00:15:37,480 --> 00:15:45,160
+ this matrix should not use the eigenvector of the total scatter matrix. We should try to
+
+91
+00:15:45,160 --> 00:15:53,400
+ find this phi to maximize the separation between the class, but should minimize the variation
+
+92
+00:15:53,400 --> 00:16:02,319
+ within the class. Okay, so how to do that? It is also not difficult to understand that, but this
+
+93
+00:16:02,440 --> 00:16:10,040
+ one will be a supervised method because we need to know the data class neighbor. So we know how to
+
+94
+00:16:10,040 --> 00:16:16,480
+ compute the variation of the data within the class and the variation of the data between the class.
+
+95
+00:16:16,480 --> 00:16:23,720
+ We must know what is the class membership of the data, right? So this is a supervised method. So
+
+96
+00:16:24,160 --> 00:16:33,200
+ based on that, based on that we know the class neighbor of the training data, then we can compute
+
+97
+00:16:33,200 --> 00:16:41,880
+ different scatter matrix or covariance matrix, for example, for each class, we can use the training
+
+98
+00:16:41,880 --> 00:16:50,280
+ data of this class to compute its covariance matrix. Okay, the formula exactly same as before,
+
+99
+00:16:50,360 --> 00:16:59,439
+ just the data we used it here, only belong to one specific class. Okay, so we have class conditional
+
+100
+00:16:59,439 --> 00:17:05,359
+ covariance matrix. Of course, the mean vector is also class conditional mean vector, right? And
+
+101
+00:17:05,359 --> 00:17:14,839
+ then we can average all the covariance matrix of all different class together into a matrix. This
+
+102
+00:17:15,040 --> 00:17:21,639
+ matrix is called within class scatter matrix or pooled class conditional covariance matrix. We already
+
+103
+00:17:21,639 --> 00:17:30,760
+ mentioned that before, right? So you should be familiar with that. Then how to measure the
+
+104
+00:17:30,760 --> 00:17:38,320
+ variation of the data between different class? Okay, here we have one definition to compute a
+
+105
+00:17:38,320 --> 00:17:46,760
+ so-called between class covariance matrix or between class scatter matrix. We just take the mean of
+
+106
+00:17:46,760 --> 00:17:54,000
+ each class as a sample to compute its covariance matrix. Okay, so this mean is a global mean,
+
+107
+00:17:54,000 --> 00:18:02,760
+ is the mean of all training sample, where mu j is the mean of class j. Okay, the class we have 1, 2,
+
+108
+00:18:02,800 --> 00:18:11,040
+ 3, 4, 5, right? So then all class together we can also compute one covariance matrix. Okay, so we
+
+109
+00:18:11,040 --> 00:18:24,280
+ have this SW and SB, right? Now SW will measure how the data change or how is the data variation
+
+110
+00:18:24,320 --> 00:18:33,160
+ within the class because it's average the class conditional covariance matrix, right? SB will
+
+111
+00:18:33,160 --> 00:18:43,800
+ measure how the data variation between different class. So to achieve our objective to maximize
+
+112
+00:18:43,800 --> 00:18:51,160
+ the between class variation and minimize the within class variation, then we can use, not use the
+
+113
+00:18:51,160 --> 00:18:58,680
+ PCA but use the so-called ALDA, it's called, it is a short form of the linear discriminant
+
+114
+00:18:58,680 --> 00:19:08,240
+ analysis. Okay, so this ALDA will try to minimize the trace of the within class scatter matrix at the
+
+115
+00:19:08,240 --> 00:19:16,960
+ same time maximize the trace of the between class scatter matrix in the no dimension, in the projected
+
+116
+00:19:17,000 --> 00:19:26,560
+ dimension. Okay, now if we want to maximize one and minimize the other, then we can maximize the
+
+117
+00:19:26,560 --> 00:19:36,600
+ trace of the SW inverse times SB, okay? Because if we maximize the inverse of the SW, of course,
+
+118
+00:19:36,600 --> 00:19:44,400
+ it will minimize the SW, right? Because we use the inverse, so we can, we can try to find this
+
+119
+00:19:44,560 --> 00:19:57,040
+ phi that will maximize the trace of the inverse of the SW multiplied by SB. Okay, then how to find
+
+120
+00:19:57,040 --> 00:20:04,560
+ the phi? Because given a matrix, right? How to find the phi that will maximize this one, same as
+
+121
+00:20:04,560 --> 00:20:14,080
+ the PCA. The solution is the eigenvector and eigenvalue, but the eigenvector of the matrix SW
+
+122
+00:20:14,320 --> 00:20:24,800
+ inverse times SB, okay? Then we have the ALDA. So you can see this ALDA almost same as the PCA,
+
+123
+00:20:24,800 --> 00:20:33,000
+ right? Just use different matrix. Just we compute the scatter matrix differently. Then after that,
+
+124
+00:20:33,000 --> 00:20:38,199
+ compute the scatter matrix is very simple, right? For the, in the previous slides you can see it's
+
+125
+00:20:38,320 --> 00:20:45,200
+ very straightforward, okay? Then after we compute this scatter matrix, we just do the eigen decomposition,
+
+126
+00:20:45,200 --> 00:20:54,080
+ find the eigenvector and eigenvalue, okay? There's no difference, right? Okay, now, of course,
+
+127
+00:20:54,080 --> 00:21:03,960
+ we want to minimize the, we then classify, it is SW, represented by SW. This one, it is quite easy
+
+128
+00:21:04,080 --> 00:21:12,320
+ to understand, right? But we want to maximize the data variation between the class. Why it is just
+
+129
+00:21:12,320 --> 00:21:22,040
+ use the SB? Because SB is just the, the variation of the class mean. It's the, it's just the, the
+
+130
+00:21:22,040 --> 00:21:29,120
+ difference of the class mean where we present the variation of the data between the class. Now,
+
+131
+00:21:29,239 --> 00:21:39,159
+ it is true because mathematically we can prove ST is equal to SW plus SB. Now, it is not difficult to,
+
+132
+00:21:39,159 --> 00:21:46,439
+ to, to mathematically prove it just after a few steps, okay? Of course, I will skip this purely
+
+133
+00:21:46,439 --> 00:21:54,080
+ mathematical proof, right? So anyway, we can have this one. So we understand that ST is the, the data,
+
+134
+00:21:54,679 --> 00:22:00,040
+ total variation of the data, right? Because all sample are used to compute what is the
+
+135
+00:22:00,040 --> 00:22:07,600
+ variation, right? And SW will also understand it will utilize all sample of each class to
+
+136
+00:22:07,600 --> 00:22:15,399
+ compute the variation. Then ST, the total variation minus the within class of variation, of course,
+
+137
+00:22:15,399 --> 00:22:22,720
+ is a between class variation, right? So it is just the SB. It's just the variation of the class mean,
+
+138
+00:22:23,560 --> 00:22:31,200
+ okay? So from here we understand no problem SB or, or so we only utilize the mean vector of each
+
+139
+00:22:31,200 --> 00:22:43,440
+ class, it already represents the variation of the different, between different class, okay? Now, so here,
+
+140
+00:22:44,400 --> 00:22:55,280
+ as a pattern recognition, it's not to represent the original data, okay? It's to, to discriminate the
+
+141
+00:22:55,280 --> 00:23:04,280
+ class membership of the data. So because of that, LDA or Buassoli will extract the more discriminant
+
+142
+00:23:04,280 --> 00:23:12,840
+ information than the PCA. Because PCA is trying to keep the most information overall, right? But
+
+143
+00:23:13,040 --> 00:23:23,439
+ LDA were specific to keep the most information for discriminate different class, right? Okay. So this
+
+144
+00:23:23,439 --> 00:23:31,040
+ one seems very obvious, right? It appears to be very obvious. So because of that, the vast majority
+
+145
+00:23:31,040 --> 00:23:37,840
+ of the researchers before the deep learning area study this subspace approach of each
+
+146
+00:23:37,959 --> 00:23:45,639
+ extraction automation and reduction approach always focus on the LDA. Always use, utilize the LDA,
+
+147
+00:23:45,639 --> 00:23:59,639
+ use this one to find the project metrics, projection metrics, okay? But most people going such a way
+
+148
+00:23:59,639 --> 00:24:07,000
+ does not necessarily means it is definitely correct, okay? It is definitely correct. So here,
+
+149
+00:24:07,120 --> 00:24:15,040
+ because we will see why we have so many people working in this area always focus on the LDA. Because
+
+150
+00:24:15,040 --> 00:24:24,720
+ LDA has some problem, need us to solve because LDA need find the eigenvector and eigenvalue of
+
+151
+00:24:24,720 --> 00:24:34,200
+ the, this metrics, this metrics to compute this metrics, we need to compute the SW inverse. So if
+
+152
+00:24:34,200 --> 00:24:42,960
+ the SW is not full rank, then its inverse does not exist. So how to compute it, right? So before
+
+153
+00:24:42,960 --> 00:24:50,320
+ the deep learning area 10 years ago or 20 years ago, in that time, we can only have a small number
+
+154
+00:24:50,320 --> 00:24:56,360
+ of the training data. We cannot have a huge number of the training data, okay? So in many
+
+155
+00:24:56,439 --> 00:25:06,159
+ applications, because of the number of the training data is limited, so that SW is not a full rank
+
+156
+00:25:06,159 --> 00:25:14,919
+ metrics because the rank of SW depends on the number of the training data C, Q. C is the number
+
+157
+00:25:14,919 --> 00:25:22,360
+ of the class, okay? It's Q minus C. So in many applications, Q minus C could be much smaller
+
+158
+00:25:22,439 --> 00:25:32,840
+ than N. The N is the dimension of the original data, right? Okay, so in such a case, this SW is not
+
+159
+00:25:32,840 --> 00:25:42,120
+ full rank, it's singular, then we cannot get what is inverse, then how to make LDA workable to solve
+
+160
+00:25:42,360 --> 00:25:53,760
+ this problem. So numerous researchers working in this area propose, I believe, thousands of the
+
+161
+00:25:53,760 --> 00:26:03,399
+ papers to try to solve the problem, use different variants of the LDA, okay? I just give one simple
+
+162
+00:26:03,399 --> 00:26:11,840
+ example. We can use the PCA plus LDA. So now, although this SW in N dimension is not full rank,
+
+163
+00:26:12,040 --> 00:26:19,959
+ right? But we can still, we still can apply PCA because PCA, we don't need the inverse of the
+
+164
+00:26:19,959 --> 00:26:31,480
+ metrics, okay? We can first apply the PCA to reduce N dimensional data into a dimension, for
+
+165
+00:26:31,480 --> 00:26:41,080
+ example, Q minus C dimension. Then in this dimension, it is full rank. And the dimension removed is
+
+166
+00:26:41,159 --> 00:26:51,159
+ egg menu or zero. So I already mentioned that if we use a PCA to reduce the dimension, all non-zero
+
+167
+00:26:51,159 --> 00:26:59,280
+ egg menu are utilized, then it will not lose any information, right? Because the information is
+
+168
+00:26:59,280 --> 00:27:06,280
+ carried by the data variation. If what we removed the dimension, the data in this dimension are
+
+169
+00:27:06,360 --> 00:27:13,360
+ exactly same, then there's no information in this sub space in dimensions if the data are exactly
+
+170
+00:27:13,360 --> 00:27:23,240
+ same in this dimensions. That means that the egg menu are zero. So we can use PCA, no problem to
+
+171
+00:27:23,240 --> 00:27:30,639
+ reduce the high dimensional data into no dimension. It is a full rank and we don't lose any
+
+172
+00:27:30,680 --> 00:27:38,760
+ information. And then because it is a full rank in the PCA space, sub space, then we can use the
+
+173
+00:27:38,760 --> 00:27:47,240
+ ARDA, right? Okay, so this is just a very simple solution to solve it. But anyway, I just use it to
+
+174
+00:27:47,240 --> 00:27:57,720
+ mention that. Okay, thousands of research papers proposed some kind of the ARDA variants try to
+
+175
+00:27:57,760 --> 00:28:04,240
+ solve this problem. And then try to solve the problem, I believe more than hundreds of the PhD
+
+176
+00:28:04,240 --> 00:28:13,800
+ graduates based on the research work working in this area. Okay, how to solve this problem? Okay, now,
+
+177
+00:28:13,800 --> 00:28:26,360
+ but there's somehow, in fact, after I get into this area, I find some kind of the problems, okay. And
+
+178
+00:28:27,320 --> 00:28:34,600
+ then find that most people going such a way may not be necessary, it is correct. In fact, this
+
+179
+00:28:34,600 --> 00:28:42,399
+ factor is very simple, it's very easy to understand. Now, for example, any dimensionary reduction,
+
+180
+00:28:42,399 --> 00:28:51,439
+ anyway, we'll lose some information. Okay, if what you removed in from dimension is not as
+
+181
+00:28:52,160 --> 00:28:58,160
+ ideal, I'm not to the zero, right? So extract the most discriminating you mean, although,
+
+182
+00:28:58,160 --> 00:29:05,720
+ ARDA, it sounds very good, a very nice name, right? Because ARDA is extracted the most
+
+183
+00:29:05,720 --> 00:29:12,000
+ discrimnative discrimnative information, but extract the most discrimnative information just
+
+184
+00:29:12,000 --> 00:29:18,640
+ to mean you lose least amount of the information, you still lose some information, you just just
+
+185
+00:29:18,720 --> 00:29:26,760
+ try to minimize your loss, right, minimize your loss, but you still lose some information, right?
+
+186
+00:29:26,760 --> 00:29:36,880
+ Then if we, in fact, the original data should have the most information, because any information
+
+187
+00:29:36,880 --> 00:29:42,760
+ processing system cannot artificially increase the amount of the information carried in the data,
+
+188
+00:29:43,120 --> 00:29:51,360
+ it can only reduce the amount of the information, right? Okay, now if you accept this one, this
+
+189
+00:29:51,360 --> 00:30:01,879
+ factor, right? So then we have some problem, we have some troubles here. Now, suppose we want to
+
+190
+00:30:01,879 --> 00:30:09,520
+ discriminate different class, we want to do the classification, right? But before the classification,
+
+191
+00:30:09,760 --> 00:30:15,480
+ we try to reduce the high dimensional data into no dimension and then do the classification,
+
+192
+00:30:15,480 --> 00:30:23,000
+ try to make this classification better, okay? Then if, but from high dimension to no dimension,
+
+193
+00:30:23,000 --> 00:30:30,720
+ it will reduce some information, it will lose some information. That means the classifier can
+
+194
+00:30:30,720 --> 00:30:37,800
+ achieve higher accuracy, use less amount of the discriminative information, right? Because you
+
+195
+00:30:37,919 --> 00:30:43,760
+ reduce the data always dimension, or that always reduce some information or lose some information.
+
+196
+00:30:43,760 --> 00:30:51,680
+ Now, if your purpose of this reduce the dimension is to make your classifier achieve higher accuracy,
+
+197
+00:30:51,680 --> 00:30:59,280
+ then that means you have a hypothesis that the higher accuracy can be achieved by nice amount of
+
+198
+00:30:59,280 --> 00:31:06,040
+ the information by your dimension and its reduction, right? So that we need this dimensional reduction
+
+199
+00:31:06,040 --> 00:31:13,320
+ before the classification, we want to achieve higher accuracy, okay? Now, if you have such
+
+200
+00:31:13,320 --> 00:31:22,320
+ assumption, then why your curriculum to get the dimension reduction is extract the most discriminative
+
+201
+00:31:22,320 --> 00:31:28,280
+ information? Because your purpose is to reduce amount of the information so that your classifier
+
+202
+00:31:28,280 --> 00:31:36,600
+ can work better, but how to reduce the dimension, you try to get the most amount of the discriminative
+
+203
+00:31:36,600 --> 00:31:48,720
+ information. So you will see this somehow is contradictory, right? Now, if you see more
+
+204
+00:31:48,720 --> 00:31:56,480
+ discriminative information should need to have higher accuracy, so the LDA try to extract the
+
+205
+00:31:56,520 --> 00:32:02,480
+ most amount of the information, discriminative information, right? LDA extract the most
+
+206
+00:32:02,480 --> 00:32:08,880
+ discriminative information, then why we need the dimension and its reduction? Why we don't do the
+
+207
+00:32:08,880 --> 00:32:14,920
+ classification directly in the original data? Why we need to this dimension and its reduction
+
+208
+00:32:14,920 --> 00:32:25,000
+ before the classification? Okay, so such a simple sense or those thousands of the research
+
+209
+00:32:25,040 --> 00:32:31,360
+ working this area never thought about that. Just the following somehow appears to be very
+
+210
+00:32:31,360 --> 00:32:39,080
+ very logic, right? PSAA is not target at the discriminative information, so we should use
+
+211
+00:32:39,080 --> 00:32:47,880
+ the LDA. LDA maximize the separation of the data between the class and minimize the variation
+
+212
+00:32:47,880 --> 00:32:53,720
+ of the data within the class. It sounds to be very good. Then just the following this one to work,
+
+213
+00:32:54,600 --> 00:33:05,360
+ but this simple contradictory somehow raise some questions, right? So this is why I will say if
+
+214
+00:33:05,360 --> 00:33:15,240
+ you just sufficiently study something or sufficiently understand something it can call
+
+215
+00:33:15,240 --> 00:33:22,720
+ some misunderstanding of the real concept, this could meet some travel research or even false
+
+216
+00:33:22,960 --> 00:33:32,200
+ research, not a correct research result. So this one in our assignment one, so I encourage you to
+
+217
+00:33:32,200 --> 00:33:40,400
+ compile the PCA and the LDA for the classification. You try to do the classification after the PCA
+
+218
+00:33:40,400 --> 00:33:49,360
+ and after the LDA and try to compute what is accuracy for different dimensionality, for different
+
+219
+00:33:49,520 --> 00:33:54,760
+ amount of the dimension. What is the classification accuracy? You will see what is the result and
+
+220
+00:33:54,760 --> 00:34:02,600
+ try to find your result. You can somehow generate some conclusions about these issues.
+
+221
+00:34:02,600 --> 00:34:15,120
+ Now here I further illustrate these issues show here. Now suppose we want to test what is the
+
+222
+00:34:15,120 --> 00:34:24,000
+ classification accuracy against the dimensionality of the data. So we can plot the accuracy against
+
+223
+00:34:24,000 --> 00:34:34,040
+ the dimensionality. So dimensionality here is n. Suppose its original data has n dimension. Reduce
+
+224
+00:34:34,040 --> 00:34:41,679
+ the data then it will come lower and lower then the dimension will become lower. Now if we plot
+
+225
+00:34:42,319 --> 00:34:48,799
+ your classification accuracy against this dimension, if you just randomly remove some feature,
+
+226
+00:34:48,799 --> 00:34:55,520
+ remove some component of the data or somehow randomly to do the dimensionality reduction,
+
+227
+00:34:55,520 --> 00:35:05,480
+ you must get this curve. The accuracy is always decreased if you remove some data or some
+
+228
+00:35:05,480 --> 00:35:12,080
+ component of the data. That means reduce the dimension. Or if you randomly do that,
+
+229
+00:35:12,080 --> 00:35:21,480
+ the accuracy must be dropped along the amount of your reduced dimension. This is not difficult to
+
+230
+00:35:21,480 --> 00:35:27,320
+ understand because if you reduce the dimension, then you lose some information. You just use
+
+231
+00:35:28,160 --> 00:35:34,320
+ part of the information for the classification. Then the accuracy must be dropped, right? Decrease.
+
+232
+00:35:34,320 --> 00:35:42,680
+ This is because you just try to randomly reduce the dimension. Reduce the dimension means remove
+
+233
+00:35:42,680 --> 00:35:56,280
+ some information, right? So this is some bad feature extraction. Now this but the information as
+
+234
+00:35:56,360 --> 00:36:05,000
+ I mentioned is that not all information in your training data is read one to specific classification
+
+235
+00:36:05,000 --> 00:36:12,640
+ problem, right? So given a specific classification problem, the whole information in your training
+
+236
+00:36:12,640 --> 00:36:22,440
+ data is always two parts. One is the information read one to this task, this discriminative
+
+237
+00:36:22,440 --> 00:36:28,640
+ information for this classification task. Well, other information is redundant for this
+
+238
+00:36:28,640 --> 00:36:38,000
+ specific task, right? Okay, because now if the information, in fact, in all information of the
+
+239
+00:36:38,000 --> 00:36:43,320
+ training data, this discriminative information for particular classification task is only a very
+
+240
+00:36:43,360 --> 00:36:54,400
+ small amount. Okay, the vast majority of the information of the data carrying the training
+
+241
+00:36:54,400 --> 00:37:02,680
+ data is redundant. It's irrelevant to your specific classification task. Now because of that,
+
+242
+00:37:02,680 --> 00:37:12,240
+ it is possible we try to reduce the dimension, just remove the redundant dimension where keep
+
+243
+00:37:12,600 --> 00:37:19,520
+ this information and remove the dimension that only has this redundant information. Then of course,
+
+244
+00:37:19,520 --> 00:37:27,000
+ in such if we use this creature, it is possible we can remove, we can reduce the dimension from
+
+245
+00:37:27,000 --> 00:37:34,439
+ high dimension to very small dimension. It can still have the same accuracy because the information
+
+246
+00:37:34,439 --> 00:37:41,799
+ utilized for this particular classification task could be exactly same. What we removed
+
+247
+00:37:42,000 --> 00:37:51,440
+ dimension, the carrying information is not really relevant to this classification result. Okay,
+
+248
+00:37:51,440 --> 00:38:03,960
+ so of course this blue curve is possible. For example, if we minimize the north of the
+
+249
+00:38:04,480 --> 00:38:12,720
+ discriminative information, such as the ARDA and some variants of the ARDA, because the ARDA
+
+250
+00:38:12,720 --> 00:38:25,160
+ try to extract or keep most amount of the discriminative information. But you just heard this
+
+251
+00:38:25,160 --> 00:38:33,800
+ name extract the most discriminating information. It seems very nice, right? But extract the most
+
+252
+00:38:34,160 --> 00:38:42,040
+ discriminative information just means you remove least amount of the information. So the most,
+
+253
+00:38:42,040 --> 00:38:51,320
+ the minimize the information north does not mean we can get any gain. You can gain more information.
+
+254
+00:38:51,320 --> 00:39:02,080
+ Right? So we cannot somehow assume use this creature, minimize the north of the information.
+
+255
+00:39:02,080 --> 00:39:12,080
+ Then after that, the accuracy can go up. After we lose some information, although we minimize it,
+
+256
+00:39:12,080 --> 00:39:18,640
+ minimize this north, somehow after that, the classification can achieve even much higher
+
+257
+00:39:18,839 --> 00:39:26,560
+ accuracy. How can I assume that? Right? Of course, in fact, it can also achieve some
+
+258
+00:39:26,560 --> 00:39:32,480
+ accuracy gain, but this is some other issue. It just happened to be that I will not address this issue.
+
+259
+00:39:32,480 --> 00:39:46,480
+ Okay, so if we accept this one, accept this, then why classification has a problem to handle the
+
+260
+00:39:46,480 --> 00:39:52,400
+ high dimensional data? Okay, given the high dimensional data, why before the classification,
+
+261
+00:39:52,400 --> 00:40:00,040
+ we need feature extraction, we need dimensionality reduction? Why? Okay, so here we should,
+
+262
+00:40:00,040 --> 00:40:09,120
+ another way to understand this problem is the information carried by or carried in your training
+
+263
+00:40:09,120 --> 00:40:18,759
+ data set could be reliable information, need us to correctly classify the data. It could also
+
+264
+00:40:18,759 --> 00:40:26,080
+ contain some misneed information. Okay, some information in your training data could misneed
+
+265
+00:40:26,080 --> 00:40:33,240
+ your class field to do wrong decision. Okay, you just think about it, it is not difficult to
+
+266
+00:40:33,279 --> 00:40:43,720
+ understand that. Some information could be misneed. Okay, so if this misneed information in your data set
+
+267
+00:40:43,720 --> 00:40:52,680
+ is harmful for your classification, then if we reduce the data dimension target at,
+
+268
+00:40:52,680 --> 00:41:00,240
+ remove this misneed information, then it is not difficult to understand that if we remove some
+
+269
+00:41:00,240 --> 00:41:06,680
+ misneed information, only use the reliable information to do the classification, then the accuracy
+
+270
+00:41:06,680 --> 00:41:15,839
+ will be much better, accuracy will be much higher. Right, so this is possible, right, because we remove
+
+271
+00:41:15,839 --> 00:41:24,839
+ the misneed information. Okay, only use the reliable information. Now, of course, what is the
+
+272
+00:41:24,840 --> 00:41:31,360
+ reliable information, what is the misneed information, this is very difficult, it's not obvious, very
+
+273
+00:41:31,360 --> 00:41:40,200
+ difficult to identify them. Okay, much, much difficult to them to identify what means, what
+
+274
+00:41:40,200 --> 00:41:48,480
+ information is discriminative, what information is redundant. Because we have the training data,
+
+275
+00:41:48,480 --> 00:41:53,840
+ we have the class label, right, we can very easily see the information can differentiate
+
+276
+00:41:53,880 --> 00:41:59,400
+ different class of your training data is discriminative information that make your
+
+277
+00:41:59,400 --> 00:42:05,240
+ training data of the different class exactly same, then it is redundant. We can very easily
+
+278
+00:42:05,240 --> 00:42:12,400
+ to understand, to identify them, right, but to identify what is the misneed information,
+
+279
+00:42:12,800 --> 00:42:26,120
+ it is almost impossible. Okay, all very, very difficult. Okay, but another thing is the misneed
+
+280
+00:42:26,120 --> 00:42:35,480
+ information must be also must be discriminative information. Okay, now some information carrying
+
+281
+00:42:35,480 --> 00:42:41,040
+ your training data, it can misneed your class fear, right, then it must be discriminative,
+
+282
+00:42:41,240 --> 00:42:48,440
+ otherwise it cannot misneed your class fear. So it is very difficult to differentiate the
+
+283
+00:42:48,440 --> 00:42:57,600
+ information is discriminative or misneed your class fear. So if we use this approach to reduce
+
+284
+00:42:57,600 --> 00:43:06,440
+ the data to a very low dimension, then it could be this method will remove a lot of the real
+
+285
+00:43:06,560 --> 00:43:14,760
+ discriminative information so that in a very small dimensional space, the classification
+
+286
+00:43:14,760 --> 00:43:25,360
+ accuracy will be lower than the ARDA, right, because you remove meaning a lot of the discriminative
+
+287
+00:43:25,360 --> 00:43:31,560
+ information. Although you are talking about to remove the misneed information, as I mentioned,
+
+288
+00:43:31,680 --> 00:43:36,840
+ misneed information is also discriminative information. So it is very difficult to differentiate
+
+289
+00:43:36,840 --> 00:43:50,160
+ them so that it can produce a very low accuracy in very small dimension. Okay, then in that time,
+
+290
+00:43:50,160 --> 00:43:56,520
+ many researchers just compile the classification accuracy of the high dimensional data, use
+
+291
+00:43:56,800 --> 00:44:04,320
+ different approach to reduce to a low dimension, for example, in this kind of the dimension. Then
+
+292
+00:44:04,320 --> 00:44:11,360
+ to conclude, yes, it is true, the experiment clearly shows that the ARDA to extract most
+
+293
+00:44:11,360 --> 00:44:19,440
+ discriminative information is much better than this one. Okay, it's much better than this one.
+
+294
+00:44:19,640 --> 00:44:33,680
+ Then to conclude this, to get this conclusion. Now this conclusion is one. Okay, now if in some
+
+295
+00:44:33,680 --> 00:44:41,400
+ application the original data is a very high dimension, now if we really need to do the
+
+296
+00:44:41,400 --> 00:44:48,520
+ classification use just a very few dimension to do the classification, okay, but we want to get a
+
+297
+00:44:48,960 --> 00:44:56,880
+ high accuracy. We can somehow first use this read kind approach to get a very good accuracy and
+
+298
+00:44:56,880 --> 00:45:06,880
+ then after that we want to use even smaller dimension but keeps accuracy drop, not drop,
+
+299
+00:45:06,880 --> 00:45:14,280
+ then we can combine these two approach together. Then after we use this read approach, then we can
+
+300
+00:45:14,280 --> 00:45:22,720
+ use the ARDA to try to minimize the north of the discriminative information, then we can get a very
+
+301
+00:45:22,720 --> 00:45:31,360
+ high accuracy in this very small dimension, get this accuracy, right. This one is also not difficult
+
+302
+00:45:31,360 --> 00:45:42,720
+ to understand, right. Now some researchers happen to, happen to get this result. Okay, but don't
+
+303
+00:45:42,759 --> 00:45:50,520
+ understand the real role of which technique contribute to this high accuracy in a very
+
+304
+00:45:50,520 --> 00:45:57,919
+ low dimension. So many researchers just think about because here we use the ARDA, right, then
+
+305
+00:45:57,919 --> 00:46:05,200
+ think about the ARDA is very good to increase the accuracy even higher than the original one,
+
+306
+00:46:05,680 --> 00:46:13,799
+ original data, you utilize the original data. But this accuracy higher than this one is because of
+
+307
+00:46:13,799 --> 00:46:23,600
+ the ARDA or not. It's totally not because of the ARDA, right. Okay, so I just read some some
+
+308
+00:46:23,600 --> 00:46:31,120
+ questions here. So we were not further discussed this one because this approach is somehow I already
+
+309
+00:46:31,319 --> 00:46:40,359
+ record some some of this research in this three research papers and it is go to this this this
+
+310
+00:46:40,359 --> 00:46:48,120
+ area in another course I will address these issues further. So this course we the time is
+
+311
+00:46:48,120 --> 00:46:55,839
+ limited for my part so I will not further go to address these issues. Okay, but for your for
+
+312
+00:46:55,880 --> 00:47:02,560
+ your assignment one if you are interested you can you can refer to this research papers. Okay,
+
+313
+00:47:02,560 --> 00:47:10,480
+ of course if you don't want to spend much time in the assignment one you just try to use ARDA
+
+314
+00:47:10,480 --> 00:47:22,040
+ PCA to get the accuracy to compare the accuracy that's all no problem. Okay. So now we will summarize
+
+315
+00:47:22,680 --> 00:47:29,600
+ after we use the dimensional reduction then we apply the classification what is this process right.
+
+316
+00:47:29,600 --> 00:47:37,600
+ So basically if we have the high dimensional data x we want to reduce the high dimensional data into
+
+317
+00:47:37,600 --> 00:47:44,160
+ aim dimension no dimension basically we need to find a projection matrix from n dimension to aim
+
+318
+00:47:44,319 --> 00:47:52,240
+ dimension we just need to find the the matrix is n by aim right then we can just multiply this
+
+319
+00:47:52,240 --> 00:47:59,440
+ matrix we can get a no dimensional data we call this is a feature this is a data for example this
+
+320
+00:47:59,440 --> 00:48:08,520
+ is just put a name right so if we utilize this projection matrix is n by aim then we can reduce
+
+321
+00:48:08,640 --> 00:48:17,520
+ the dimension so then the classification we are carried in the no dimensional space if not in the
+
+322
+00:48:17,520 --> 00:48:26,040
+ eggs right so that for example in the face recognition originally every pixel is one dimension so we
+
+323
+00:48:26,040 --> 00:48:32,880
+ have 60,000 of the damage dimensional data but if we utilize a projection matrix we can reduce
+
+324
+00:48:33,120 --> 00:48:40,520
+ this high dimension into just the 60 dimension so if it's just 60 by one matrix where original x is
+
+325
+00:48:40,520 --> 00:48:47,720
+ a 60,000 by one matrix right so this is totally possible of course you can use different methods
+
+326
+00:48:47,720 --> 00:48:55,240
+ to to compute or to determine what is this projection matrix five right but after you use your
+
+327
+00:48:55,240 --> 00:49:00,880
+ training data to determine this one you can always convert a high dimensional vector into a no
+
+328
+00:49:00,920 --> 00:49:09,480
+ dimensional vector now then after that you can you can apply the classification on this if not on
+
+329
+00:49:09,480 --> 00:49:20,400
+ this x so after that we can use a classifier for example I gave one example if we use the minimum
+
+330
+00:49:20,400 --> 00:49:28,240
+ Mahanurabhidhiq classifier then we can compute the distance of the input data to the class name
+
+331
+00:49:28,439 --> 00:49:37,000
+ of each class right and then normalized by the covariance matrix but all of them is in the feature
+
+332
+00:49:37,000 --> 00:49:44,759
+ space in the no dimensional space right because we use the if we already convert x into the if so
+
+333
+00:49:44,759 --> 00:49:54,479
+ the input is if then the mean is also the mean of the if the mean of the training data for if not
+
+334
+00:49:54,600 --> 00:50:02,000
+ the x right all this come from the no dimensional data right the match the covariance matrix is just
+
+335
+00:50:02,000 --> 00:50:09,720
+ aim by aim not n by n because we do this classification in the no dimensional space
+
+336
+00:50:09,720 --> 00:50:19,240
+ okay so after we compute the Mahanurabhidhiq we can do the classification to classify the if into
+
+337
+00:50:19,240 --> 00:50:27,080
+ the class that has produced the minimum Mahanurabhidhiq distance okay so again you should always keep
+
+338
+00:50:27,080 --> 00:50:35,279
+ in moment all this computation should in the space of the if not the space of the x right so this
+
+339
+00:50:35,279 --> 00:50:46,680
+ this why we use mu if sigma if okay it is for mean and the covariance matrix of the if okay now
+
+340
+00:50:46,720 --> 00:50:57,879
+ although given data x we can always project after we get we we we we we get this matrix five we can
+
+341
+00:50:57,879 --> 00:51:05,640
+ always convert if x into if right then we can always use the training if of every training data
+
+342
+00:51:05,640 --> 00:51:13,440
+ of all training data to compute what is a mu if what is a sigma if right but in fact it is not
+
+343
+00:51:13,560 --> 00:51:25,200
+ necessary because anyway to get this five we we already compute the mu of the x and the sigma of
+
+344
+00:51:25,200 --> 00:51:33,520
+ the x then we to get this five right then we can use the the mu and the sigma in the original space
+
+345
+00:51:33,520 --> 00:51:44,080
+ x to project to the by this matrix to get them the mu and the sigma in the eighth space okay
+
+346
+00:51:50,560 --> 00:51:59,680
+ now but how to apply this Mahanurabhidhiq distance for different problem it it could be different
+
+347
+00:52:00,359 --> 00:52:07,240
+ because for some classification problem we may have only a few class each class we have huge number
+
+348
+00:52:07,240 --> 00:52:14,000
+ of the training data right then we can use the previous one you for each class we use this
+
+349
+00:52:14,000 --> 00:52:22,359
+ class specific covariance matrix right no problem but for some classification problem it could be
+
+350
+00:52:22,359 --> 00:52:28,919
+ we have numerous class we have much number of the class but each class we have only a few number of
+
+351
+00:52:28,920 --> 00:52:37,520
+ the training sample now for such a problem if for each class you you utilize the class specific
+
+352
+00:52:37,520 --> 00:52:44,960
+ covariance matrix your class teaching accuracy will have been very bad very no because you are you
+
+353
+00:52:44,960 --> 00:52:52,320
+ only use a few sample to compute the covariance matrix this covariance matrix is is very unreliable
+
+354
+00:52:52,600 --> 00:53:01,520
+ okay so to solve this problem we can somehow use the pooled covariance matrix for each class we can
+
+355
+00:53:01,520 --> 00:53:08,680
+ compute its covariance matrix then we average all different covariance matrix into a pooled pooled
+
+356
+00:53:08,680 --> 00:53:15,960
+ covariance matrix similar to what similar to the within class characteristics right and then we
+
+357
+00:53:15,960 --> 00:53:23,560
+ compute the Mahlerby distance use the common covariance matrix so for all class we use the
+
+358
+00:53:23,560 --> 00:53:31,240
+ same covariance matrix now the Mahlerby distance of the input f to different class is only the mean
+
+359
+00:53:31,240 --> 00:53:39,400
+ vector are different is class specific right the covariance matrix are common are same for all
+
+360
+00:53:39,440 --> 00:53:50,320
+ class okay to solve this problem but this one son is also I mentioned that although this this
+
+361
+00:53:50,320 --> 00:54:01,440
+ matrix is the same for all class does not mean this wire has no lower for the classification okay
+
+362
+00:54:01,640 --> 00:54:12,520
+ this you are I also don't know why even such as a very obvious sense here show that right even we
+
+363
+00:54:12,520 --> 00:54:20,400
+ assume all class has same covariance matrix but the classification result still depends on this
+
+364
+00:54:20,400 --> 00:54:27,720
+ covariance matrix but even some famous professor in in famous university for example university
+
+365
+00:54:27,759 --> 00:54:35,120
+ Toronto somehow gets the first result think about under such assumption then this course
+
+366
+00:54:35,120 --> 00:54:45,919
+ matrix is is a use nice then don't use it to to do that classification okay but it is still useful
+
+367
+00:54:45,919 --> 00:54:56,200
+ it is still it is it was still to specify the data into different class it is still useful here
+
+368
+00:54:56,399 --> 00:55:05,799
+ okay although it is a same for all class okay okay then after we use utilize the common covariance
+
+369
+00:55:05,799 --> 00:55:12,439
+ matrix then we compute the Mahlerby distance right for although the distance to deep of the input
+
+370
+00:55:12,439 --> 00:55:18,879
+ of the input to different class only to different class mean this one is a same constant but it
+
+371
+00:55:18,920 --> 00:55:25,880
+ will need to different this distance then after that we can use that to to find the minimum
+
+372
+00:55:25,880 --> 00:55:34,480
+ distance to the class to carry out of our classification class okay here just mentioned
+
+373
+00:55:34,480 --> 00:55:41,080
+ that how to utilize the covariance matrix to use a class specific covariance matrix or use the
+
+374
+00:55:41,080 --> 00:55:48,240
+ pool to all average covariance matrix common to all class depends on the problem okay different
+
+375
+00:55:48,240 --> 00:55:58,120
+ problem depends on your how is the structure of your training data now another thing I want to
+
+376
+00:55:58,120 --> 00:56:05,560
+ mention that is here we talk about the dimensionally reduction and then the classification right in our
+
+377
+00:56:05,600 --> 00:56:13,080
+ assignment one you need somehow simulate this process to get the result right but if you get
+
+378
+00:56:13,080 --> 00:56:20,840
+ some data from the internet or some public data you as for many case you cannot directly use the
+
+379
+00:56:20,840 --> 00:56:27,480
+ raw data to do the dimensionally reduction by PCA or ALDA and then to do the classification because
+
+380
+00:56:27,480 --> 00:56:35,440
+ before that we still need some kind of the normalization okay if you don't do the normalization
+
+381
+00:56:35,480 --> 00:56:42,600
+ somehow you directly use the dimension reduction then classification the result could be very very
+
+382
+00:56:42,600 --> 00:56:51,440
+ poor now for example given if your data is a face image right if in this face data set some
+
+383
+00:56:51,440 --> 00:56:58,760
+ face are very small some face are very light if you don't pre-processing it to normalize the
+
+384
+00:56:59,480 --> 00:57:09,320
+ face of different image into about the same size then your classification will perform very poorly
+
+385
+00:57:09,320 --> 00:57:17,920
+ okay or even simply given a image a large image your face image is only a portion of that for
+
+386
+00:57:17,920 --> 00:57:22,800
+ different training sample or different test sample the image as a face image at a different
+
+387
+00:57:22,800 --> 00:57:31,520
+ position then you somehow need to normalize the image into crop the face image so that the face is
+
+388
+00:57:31,520 --> 00:57:39,520
+ at the somehow same position in the in your image and the same scaling right and also some kind of
+
+389
+00:57:39,520 --> 00:57:47,160
+ the illumination you also need to do some normalization okay so this just gives you a reminder
+
+390
+00:57:47,200 --> 00:57:55,720
+ to do the assignment not just use the raw data directly to do that right so as I make in the
+
+391
+00:57:55,720 --> 00:58:01,759
+ beginning I already mentioned that in the pattern recognition or classification in fact all effort
+
+392
+00:58:01,759 --> 00:58:12,480
+ we make is try to do some kind of the normalization to normalize the data so that all different
+
+393
+00:58:12,520 --> 00:58:21,440
+ sample of the same class if I to the end can be normalized into a same same same same same
+
+394
+00:58:21,440 --> 00:58:28,760
+ venue then your classification is perfectly achieved right for example the Mahanurvi distance is also
+
+395
+00:58:28,760 --> 00:58:35,880
+ kind of the normalization right I already mentioned that before okay this is also some kind of the
+
+396
+00:58:35,880 --> 00:58:42,600
+ normalization it's a normal normalized by the covariance matrix but this normalization is
+
+397
+00:58:42,600 --> 00:58:52,200
+ normalized the variation between different training sample now each training sample has
+
+398
+00:58:52,200 --> 00:58:59,760
+ a variation illumination so we for each training sample you can also do some kind of the normalization
+
+399
+00:58:59,760 --> 00:59:13,680
+ right okay okay I think that's about all for this topic right so after recess week I still have two
+
+400
+00:59:13,680 --> 00:59:21,600
+ weeks time then next two weeks we will study the neural networks and the deep learning so the first
+
+401
+00:59:21,600 --> 00:59:28,440
+ week after recess we will study the traditional neural network and see what is the problem of
+
+402
+00:59:29,160 --> 00:59:36,720
+ the traditional neural network so that why we need to the CNN why CNN greatly improve the
+
+403
+00:59:36,720 --> 00:59:43,440
+ performance of the traditional neural network so this is a big jump of the performance which in
+
+404
+00:59:43,440 --> 00:59:52,560
+ fact is some kind of the revolution of the of the of the in the pattern recognition okay so this is a
+
+405
+00:59:52,560 --> 00:59:58,440
+ first week then the second week we will further study what is the limitation or problem of the
+
+406
+00:59:58,440 --> 01:00:07,400
+ CNN so that we further develop from the CNN to transformer okay this is the content of the
+
+407
+01:00:07,400 --> 01:00:18,400
+ two weeks after the recess week okay so I think that's about all for this next also
+
+408
+01:00:18,400 --> 01:00:27,360
+ you just then after then we can have the break then after the break we have the quiz okay so we
+
+409
+01:00:27,360 --> 01:00:38,720
+ have a non-break right more than 45 minutes you have none time to have a rest then we can we go to the quiz
+
+410
+01:00:48,400 --> 01:01:08,520
+ now because our class is somehow you said a very crowded right so because of that the school
+
+411
+01:01:08,520 --> 01:01:27,160
+ arranged 15 in which later so make sure you do your own work okay green line is the first use
+
+412
+01:01:27,160 --> 01:01:34,200
+ this approach okay and then after that we reduce the dimension from here to this one but use this
+
+413
+01:01:34,839 --> 01:01:43,480
+ we use the air da so we use this approach from here to reduce the emission from this one and then use
+
+414
+01:01:43,480 --> 01:01:50,560
+ air to reduce the dimension from here to further so it's like the combination of the
+
+415
+01:01:51,520 --> 01:01:57,000
+ yeah yeah yeah if this read approach is a PCA then it's a combination of PCA
+
+416
+01:01:57,000 --> 01:02:05,240
+ so how to determine this point yeah this is there's no definite answer yeah so we need to like to
+
+417
+01:02:05,240 --> 01:02:22,839
+ practice or to experiment yeah this number oh you don't know which one
+
+418
+01:03:06,240 --> 01:03:07,299
+ you
+
+419
+01:03:14,359 --> 01:03:19,080
+ Oh
+
+420
+01:03:19,080 --> 01:03:22,080
+ You can't put it out there.
+
+421
+01:03:22,080 --> 01:03:24,080
+ But if you understand the use of this,
+
+422
+01:03:24,080 --> 01:03:27,080
+ understand the fact that you are a company owner,
+
+423
+01:03:27,080 --> 01:03:32,080
+ you understand how to use this.
+
+424
+01:03:32,080 --> 01:03:35,080
+ If you understand this company,
+
+425
+01:03:35,080 --> 01:03:41,080
+ you can see it very directly.
+
+426
+01:03:41,080 --> 01:03:48,080
+ But the original use is the same as the company.
+
+427
+01:03:48,080 --> 01:03:53,080
+ You can see it very directly.
+
+428
+01:03:53,080 --> 01:03:58,080
+ You can see it very directly.
+
+429
+01:03:58,080 --> 01:04:03,080
+ You can see it very directly.
+
+430
+01:04:03,080 --> 01:04:08,080
+ You can see it very directly.
+
+431
+01:04:08,080 --> 01:04:13,080
+ But the original use is the same as the company.
+
+432
+01:04:13,080 --> 01:04:18,080
+ You can see it very directly.
+
+433
+01:04:18,080 --> 01:04:23,080
+ You can see it very directly.
+
+434
+01:04:23,080 --> 01:04:26,080
+ If you understand the status wild,
+
+435
+01:04:26,080 --> 01:04:34,080
+ you can see it very directly.
+
+436
+01:04:34,080 --> 01:04:39,080
+ You can see it very directly.
+
+437
+01:04:39,080 --> 01:04:42,080
+ But you can see it very directly.
+
+438
+01:04:42,080 --> 01:04:44,080
+ I like it.
+
+439
+01:04:44,080 --> 01:04:46,080
+ But it's not the same.
+
+440
+01:04:46,080 --> 01:04:48,080
+ It's not the same.
+
+441
+01:04:48,080 --> 01:04:50,080
+ It's not the same.
+
+442
+01:04:50,080 --> 01:04:52,080
+ It's not the same.
+
+443
+01:04:52,080 --> 01:04:54,080
+ It's not the same.
+
+444
+01:04:54,080 --> 01:04:56,080
+ It's not the same.
+
+445
+01:04:56,080 --> 01:04:58,080
+ It's not the same.
+
+446
+01:04:58,080 --> 01:05:00,080
+ It's not the same.
+
+447
+01:05:00,080 --> 01:05:02,080
+ It's not the same.
+
+448
+01:05:02,080 --> 01:05:04,080
+ It's not the same.
+
+449
+01:05:04,080 --> 01:05:06,080
+ It's not the same.
+
+450
+01:05:06,080 --> 01:05:08,080
+ It's not the same.
+
+451
+01:05:08,080 --> 01:05:10,080
+ It's not the same.
+
+452
+01:05:10,080 --> 01:05:12,080
+ It's not the same.
+
+453
+01:05:12,080 --> 01:05:14,080
+ It's not the same.
+
+454
+01:05:14,080 --> 01:05:16,080
+ It's not the same.
+
+455
+01:05:16,080 --> 01:05:18,080
+ It's not the same.
+
+456
+01:05:18,080 --> 01:05:20,080
+ It's not the same.
+
+457
+01:05:20,080 --> 01:05:22,080
+ It's not the same.
+
+458
+01:05:22,080 --> 01:05:24,080
+ It's not the same.
+
+459
+01:05:24,080 --> 01:05:26,080
+ It's not the same.
+
+460
+01:05:26,080 --> 01:05:28,080
+ It's not the same.
+
+461
+01:05:28,080 --> 01:05:30,080
+ It's not the same.
+
+462
+01:05:30,080 --> 01:05:32,080
+ It's not the same.
+
+463
+01:05:32,080 --> 01:05:34,080
+ It's not the same.
+
+464
+01:05:34,080 --> 01:05:36,080
+ It's not the same.
+
+465
+01:05:36,080 --> 01:05:38,080
+ It's not the same.
+
+466
+01:05:38,080 --> 01:05:40,080
+ It's not the same.
+
+467
+01:05:40,080 --> 01:05:42,080
+ It's not the same.
+
+468
+01:05:42,080 --> 01:05:44,080
+ It's not the same.
+
+469
+01:05:44,080 --> 01:05:46,080
+ It's not the same.
+
+470
+01:05:46,080 --> 01:05:48,080
+ It's not the same.
+
+471
+01:05:48,080 --> 01:05:50,080
+ It's not the same.
+
+472
+01:05:50,080 --> 01:05:52,080
+ It's not the same.
+
+473
+01:05:52,080 --> 01:05:54,080
+ It's not the same.
+
+474
+01:05:54,080 --> 01:05:56,080
+ It's not.
+
+475
+01:05:56,080 --> 01:05:58,080
+ It's not the same.
+
+476
+01:05:58,080 --> 01:06:00,080
+ It's not the same.
+
+477
+01:06:00,080 --> 01:06:02,080
+ It's not the same.
+
+478
+01:06:02,080 --> 01:06:04,080
+ It's not the same.
+
+479
+01:06:04,080 --> 01:06:06,080
+ It's not the same.
+
+480
+01:06:06,080 --> 01:06:36,080
+ Yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah
+
+481
+01:06:36,080 --> 01:06:38,240
+ Yeah.
+
+482
+01:06:50,240 --> 01:06:53,100
+ What
+
+483
+01:07:06,080 --> 01:07:08,080
+ What is the question?
+
+484
+01:07:08,080 --> 01:07:12,080
+ This question is to give you this task.
+
+485
+01:07:12,080 --> 01:07:17,080
+ And then you have to ask what kind of platform
+
+486
+01:07:17,080 --> 01:07:21,080
+ it can reach the highest level.
+
+487
+01:07:21,080 --> 01:07:24,080
+ Then you have to ask the final question.
+
+488
+01:07:24,080 --> 01:07:27,080
+ What is the three-dimensional mechanism?
+
+489
+01:07:27,080 --> 01:07:32,080
+ What is the platform that it can reach?
+
+490
+01:07:32,080 --> 01:07:36,080
+ You have to ask the final question.
+
+491
+01:07:36,080 --> 01:07:40,080
+ You have to ask the final question.
+
+492
+01:07:40,080 --> 01:07:42,080
+ Sometimes the final question is,
+
+493
+01:07:42,080 --> 01:07:46,080
+ what is the platform for the platform?
+
+494
+01:07:46,080 --> 01:07:49,080
+ Then you have to ask the final question.
+
+495
+01:08:02,080 --> 01:08:07,080
+ I have talked a lot about it in the last video.
+
+496
+01:08:07,080 --> 01:08:10,080
+ I have emphasized that the second mechanism is useless.
+
+497
+01:08:10,080 --> 01:08:15,080
+ It is nothing to do with the first one.
+
+498
+01:08:15,080 --> 01:08:23,080
+ This is to prevent the chain from being connected to the second mechanism.
+
+499
+01:08:23,080 --> 01:08:26,080
+ It is just a simple mechanism.
+
+500
+01:08:26,080 --> 01:08:29,080
+ The second mechanism is the brain-based mechanism.
+
+501
+01:08:29,080 --> 01:08:34,080
+ You can add this mechanism to any other mechanism.
+
+502
+01:08:34,080 --> 01:08:48,080
+ It has nothing to do with the
+
+503
+01:08:48,080 --> 01:08:54,080
+ stronger than the kind of synchronization function.
+
+504
+01:08:54,080 --> 01:09:05,080
+ Why do you require wrong turns?
+
+505
+01:09:05,080 --> 01:09:17,080
+ I just talk about the mechanism and施 frustration.
+
+506
+01:09:47,080 --> 01:09:49,080
+ This lecture is useful for our students.
+
+507
+01:09:49,080 --> 01:09:51,080
+ I'm just going to say that you can do it.
+
+508
+01:09:51,080 --> 01:09:52,080
+ What?
+
+509
+01:09:52,080 --> 01:09:53,080
+ I'll say that.
+
+510
+01:09:53,080 --> 01:09:54,080
+ This lecture is useful for our students.
+
+511
+01:09:54,080 --> 01:09:55,080
+ This lecture is useful for our students.
+
+512
+01:09:55,080 --> 01:09:56,080
+ This lecture is useful for our students.
+
+513
+01:09:56,080 --> 01:09:57,080
+ This lecture is useful for our students.
+
+514
+01:09:57,080 --> 01:09:58,080
+ This lecture is useful for our students.
+
+515
+01:09:58,080 --> 01:09:59,080
+ This lecture is useful for our students.
+
+516
+01:09:59,080 --> 01:10:00,080
+ This lecture is useful for our students.
+
+517
+01:10:00,080 --> 01:10:01,080
+ This lecture is useful for our students.
+
+518
+01:10:01,080 --> 01:10:02,080
+ This lecture is useful for our students.
+
+519
+01:10:02,080 --> 01:10:03,080
+ This lecture is useful for our students.
+
+520
+01:10:03,080 --> 01:10:04,080
+ This lecture is useful for our students.
+
+521
+01:10:04,080 --> 01:10:05,080
+ This lecture is useful for our students.
+
+522
+01:10:05,080 --> 01:10:06,080
+ This lecture is useful for our students.
+
+523
+01:10:06,080 --> 01:10:07,080
+ This lecture is useful for our students.
+
+524
+01:10:07,080 --> 01:10:08,080
+ This lecture is useful for our students.
+
+525
+01:10:08,080 --> 01:10:09,080
+ This lecture is useful for our students.
+
+526
+01:10:09,080 --> 01:10:10,080
+ This lecture is useful for our students.
+
+527
+01:10:10,080 --> 01:10:11,080
+ This lecture is useful for our students.
+
+528
+01:10:11,080 --> 01:10:19,300
+ This lecture is useful for our students
+
+529
+01:10:19,300 --> 01:10:25,080
+ This lecture is useful for our students
+
+530
+01:10:25,080 --> 01:10:38,400
+ This topic is useful to our students.
+
+531
+01:10:38,400 --> 01:10:40,400
+ I'm not sure what this is.
+
+532
+01:10:40,400 --> 01:10:42,400
+ Oh, yeah.
+
+533
+01:10:42,400 --> 01:10:44,400
+ This one?
+
+534
+01:10:44,400 --> 01:10:46,400
+ Yeah, this one.
+
+535
+01:10:50,400 --> 01:10:52,400
+ This is not an easy question.
+
+536
+01:10:52,400 --> 01:10:54,400
+ This is what this machine needs to do.
+
+537
+01:10:54,400 --> 01:10:56,400
+ Yeah, yeah, yeah.
+
+538
+01:10:56,400 --> 01:10:58,400
+ But this is the one that needs to be done.
+
+539
+01:10:58,400 --> 01:11:00,400
+ Oh, yeah.
+
+540
+01:11:00,400 --> 01:11:02,400
+ But the one that needs to be done is the one that needs to be done.
+
+541
+01:11:02,400 --> 01:11:04,400
+ I forgot.
+
+542
+01:11:04,400 --> 01:11:06,400
+ I don't understand.
+
+543
+01:11:06,400 --> 01:11:08,400
+ This is the one that needs to be done.
+
+544
+01:11:08,400 --> 01:11:10,400
+ This is the one that needs to be done.
+
+545
+01:11:10,400 --> 01:11:12,400
+ Yeah, yeah.
+
+546
+01:11:12,400 --> 01:11:14,400
+ Yeah, yeah.
+
+547
+01:11:14,400 --> 01:11:16,400
+ Yeah, yeah.
+
+548
+01:11:16,400 --> 01:11:18,400
+ But you can't do anything.
+
+549
+01:11:18,400 --> 01:11:20,400
+ Why?
+
+550
+01:11:20,400 --> 01:11:22,400
+ You can't do anything.
+
+551
+01:11:22,400 --> 01:11:24,400
+ So you just say...
+
+552
+01:11:24,400 --> 01:11:26,400
+ This is not right.
+
+553
+01:11:26,400 --> 01:11:28,400
+ But this is not right.
+
+554
+01:11:28,400 --> 01:11:30,400
+ I just...
+
+555
+01:11:30,400 --> 01:11:32,400
+ I just...
+
+556
+01:11:32,400 --> 01:11:34,400
+ I told you that there are two machines in the machine.
+
+557
+01:11:35,400 --> 01:11:37,400
+ I just...
+
+558
+01:11:37,400 --> 01:11:40,400
+ I still can't understand.
+
+559
+01:11:40,400 --> 01:11:42,400
+ But there is alreadyOrg outside.
+
+560
+01:11:42,400 --> 01:11:44,400
+ Yeah?
+
+561
+01:11:44,400 --> 01:11:45,400
+ Yeah, yeah.
+
+562
+01:11:59,400 --> 01:12:02,400
+ I don't understand.
+
+563
+01:12:32,400 --> 01:12:34,400
+ I see one.
+
+564
+01:12:34,400 --> 01:12:36,400
+ I see one.
+
+565
+01:12:36,400 --> 01:12:38,400
+ I see one.
+
+566
+01:12:38,400 --> 01:12:40,400
+ I see one.
+
+567
+01:12:40,400 --> 01:12:42,400
+ I see one.
+
+568
+01:12:42,400 --> 01:12:44,400
+ I see one.
+
+569
+01:12:44,400 --> 01:12:46,400
+ I see one.
+
+570
+01:12:46,400 --> 01:12:48,400
+ I see one.
+
+571
+01:12:48,400 --> 01:12:50,400
+ I see one.
+
+572
+01:12:50,400 --> 01:12:52,400
+ I see one.
+
+573
+01:12:52,400 --> 01:12:54,400
+ I see one.
+
+574
+01:12:54,400 --> 01:12:56,400
+ I see one.
+
+575
+01:12:56,400 --> 01:12:58,400
+ I see one.
+
+576
+01:12:58,400 --> 01:13:00,400
+ I see one.
+
+577
+01:13:00,400 --> 01:13:02,400
+ I see one.
+
+578
+01:13:02,400 --> 01:13:04,400
+ I see one.
+
+579
+01:13:04,400 --> 01:13:06,400
+ I see one.
+
+580
+01:13:06,400 --> 01:13:11,040
+ This is a very clear question.
+
+581
+01:14:11,040 --> 01:14:15,040
+ What is the relationship between the Chinese and the Chinese?
+
+582
+01:14:15,040 --> 01:14:17,040
+ It's a very clear question.
+
+583
+01:14:17,040 --> 01:14:19,040
+ What is the relationship between the Chinese and the Chinese?
+
+584
+01:14:19,040 --> 01:14:21,040
+ It's a very clear question.
+
+585
+01:14:21,040 --> 01:14:23,040
+ What is the relationship between the Chinese and the Chinese?
+
+586
+01:14:23,040 --> 01:14:25,040
+ It's a very clear question.
+
+587
+01:14:25,040 --> 01:14:27,040
+ What is the relationship between the Chinese and the Chinese?
+
+588
+01:14:27,040 --> 01:14:29,040
+ It's a very clear question.
+
+589
+01:14:29,040 --> 01:14:31,040
+ What is the relationship between the Chinese and the Chinese?
+
+590
+01:14:31,040 --> 01:14:33,040
+ It's a very clear question.
+
+591
+01:14:33,040 --> 01:14:35,040
+ What is the relationship between the Chinese and the Chinese?
+
+592
+01:14:35,040 --> 01:14:37,040
+ It's a very clear question.
+
+593
+01:14:37,040 --> 01:14:39,040
+ What is the relationship between the Chinese and the Chinese?
+
+594
+01:14:39,040 --> 01:14:41,040
+ It's the relationship between the Chinese and Chinese.
+
+595
+01:14:41,040 --> 01:14:43,040
+ It's not a business or a job or a customer or a Match.
+
+596
+01:14:43,040 --> 01:14:45,040
+ It's also the relationship between the Chinese and the Chinese.
+
+597
+01:14:45,040 --> 01:14:48,040
+ Bronze and Stiemannia tee socks is also a drug you wear.
+
+598
+01:14:48,040 --> 01:14:50,040
+ Bronze and Stiemannia tee socks is also a drug you wear.
+
+599
+01:14:50,040 --> 01:14:52,040
+ It's an acupoint.
+
+600
+01:14:52,040 --> 01:14:54,040
+ Acupoint is also a drug you wear.
+
+601
+01:14:54,040 --> 01:14:56,040
+ Very clear Question.
+
+602
+01:14:56,040 --> 01:14:58,040
+ Yeah
+
+603
+01:17:28,040 --> 01:17:42,440
+ Oh, it's still have time. I thought I would be early but I thought I would be early.
+
+604
+01:17:42,440 --> 01:17:53,640
+ Oh, oh, yeah. Anyway, we can distribute the paper only around five minutes before this time.
+
+605
+01:17:54,140 --> 01:18:00,340
+ OK. But mainly, so it's a 80. si
+
+606
+01:18:08,240 --> 01:18:21,900
+ S�� bil Va bum ol
+
+607
+01:18:21,900 --> 01:18:23,900
+ What is the company?
+
+608
+01:18:23,900 --> 01:18:25,900
+ This is...
+
+609
+01:18:25,900 --> 01:18:27,900
+ This is...
+
+610
+01:18:27,900 --> 01:18:29,900
+ This is...
+
+611
+01:18:29,900 --> 01:18:31,900
+ If I bring it in,
+
+612
+01:18:31,900 --> 01:18:33,900
+ This is...
+
+613
+01:18:33,900 --> 01:18:37,900
+ X and Y are the same, but the U and the Y are the same.
+
+614
+01:18:37,900 --> 01:18:39,900
+ Then I need to bring it in.
+
+615
+01:18:39,900 --> 01:18:41,900
+ What is it called?
+
+616
+01:18:41,900 --> 01:18:43,900
+ Bring it in.
+
+617
+01:18:43,900 --> 01:18:45,900
+ H, X, Y is the same.
+
+618
+01:18:45,900 --> 01:18:47,900
+ H, X, Y is the same.
+
+619
+01:18:47,900 --> 01:18:49,900
+ Then I need to bring it in.
+
+620
+01:18:49,900 --> 01:18:51,900
+ You need to bring it in.
+
+621
+01:18:51,900 --> 01:18:53,900
+ That's not a black circle.
+
+622
+01:18:53,900 --> 01:18:55,900
+ How can you bring in Mn?
+
+623
+01:18:55,900 --> 01:18:57,900
+ You can bring in F and Mn.
+
+624
+01:18:57,900 --> 01:18:59,900
+ I mean...
+
+625
+01:18:59,900 --> 01:19:01,900
+ If you bring in Mn,
+
+626
+01:19:01,900 --> 01:19:05,900
+ the U and the Y are the same.
+
+627
+01:19:05,900 --> 01:19:07,900
+ This is the same.
+
+628
+01:19:07,900 --> 01:19:09,900
+ If you don't bring in Mn,
+
+629
+01:19:09,900 --> 01:19:11,900
+ the U and the Y are the same.
+
+630
+01:19:11,900 --> 01:19:13,900
+ I don't need to bring in Mn.
+
+631
+01:19:13,900 --> 01:19:15,900
+ If the U and the N are the same,
+
+632
+01:19:15,900 --> 01:19:17,900
+ you don't need to bring in Mn.
+
+633
+01:19:17,900 --> 01:19:19,900
+ If the N is not the same,
+
+634
+01:19:19,900 --> 01:19:21,900
+ there's nothing to do with it.
+
+635
+01:19:21,900 --> 01:19:23,900
+ The U and the Y are the same.
+
+636
+01:19:23,900 --> 01:19:25,900
+ The line is 0 to 1.
+
+637
+01:19:25,900 --> 01:19:27,900
+ The line between the U and the N are 0 to M
+
+638
+01:19:27,900 --> 01:19:29,900
+ and 0 to N is 0 to N.
+
+639
+01:19:29,900 --> 01:19:31,900
+ If...
+
+640
+01:19:31,900 --> 01:19:33,900
+ If it's 0 to M,
+
+641
+01:19:33,900 --> 01:19:35,900
+ then the line from the X to the N
+
+642
+01:19:35,900 --> 01:19:37,900
+ becomes 0 to 1.
+
+643
+01:19:37,900 --> 01:19:39,900
+ Is that right?
+
+644
+01:19:39,900 --> 01:19:41,900
+ Yes.
+
+645
+01:19:41,900 --> 01:19:43,900
+ OK.
+
+646
+01:19:43,900 --> 01:19:45,900
+ I want to ask
+
+647
+01:19:45,900 --> 01:19:47,900
+ the question applied by the TVLitz.
+
+648
+01:19:47,900 --> 01:19:51,900
+ C is an angle-ไ
+
+649
+01:19:51,900 --> 01:19:53,900
+ and it represents the velocity,
+
+650
+01:19:53,900 --> 01:19:55,900
+ what is god's number N?
+
+651
+01:19:55,900 --> 01:19:57,900
+ N is the curve.
+
+652
+01:19:57,900 --> 01:20:01,900
+ That's right ук will be C dl or F dc.
+
+653
+01:20:01,900 --> 01:20:03,900
+ That's correct.
+
+654
+01:20:03,900 --> 01:20:05,900
+ So, I would like to ask
+
+655
+01:20:05,900 --> 01:20:07,900
+ the question with A then.
+
+656
+01:20:07,900 --> 01:20:09,900
+ Is ​​she the angle-?
+
+657
+01:20:09,900 --> 01:20:12,900
+ The angle-
+
+658
+01:20:42,900 --> 01:20:46,500
+ If you want to return it back to the name 255,
+
+659
+01:20:46,500 --> 01:20:49,099
+ then this is the value of 255.
+
+660
+01:20:49,099 --> 01:20:50,900
+ You use this term.
+
+661
+01:20:50,900 --> 01:20:52,900
+ This is calculated as the return value.
+
+662
+01:20:52,900 --> 01:20:53,900
+ Yes, the return value.
+
+663
+01:20:53,900 --> 01:20:56,900
+ This C is also the return value.
+
+664
+01:20:56,900 --> 01:20:59,900
+ C is actually the value.
+
+665
+01:20:59,900 --> 01:21:02,900
+ This is the return value after the return value.
+
+666
+01:21:02,900 --> 01:21:04,900
+ Yes, the return value after the return value.
+
+667
+01:21:04,900 --> 01:21:07,900
+ Yes, because the return value is 1 when it is reached.
+
+668
+01:21:07,900 --> 01:21:11,900
+ So the return value is directly equal to its probability.
+
+669
+01:21:11,900 --> 01:21:13,900
+ Yes, yes.
+
+670
+01:21:15,900 --> 01:21:19,900
+ I think this term is the return value of the C.
+
+671
+01:21:19,900 --> 01:21:27,900
+ Then it is this term, this term is 1.
+
+672
+01:21:27,900 --> 01:21:31,900
+ Then the next term is the return value of the C.
+
+673
+01:21:31,900 --> 01:21:33,900
+ And then these two terms are the returns.
+
+674
+01:21:33,900 --> 01:21:35,900
+ Yes, the return value.
+
+675
+01:21:35,900 --> 01:21:37,900
+ Yes, the return value.
+
+676
+01:21:37,900 --> 01:21:40,900
+ Yes.
+
+677
+01:21:40,900 --> 01:21:48,900
+ I think some of the online companies are doing military operations.
+
+678
+01:21:48,900 --> 01:21:50,900
+ They haven't found a way to solve the problem.
+
+679
+01:21:50,900 --> 01:21:51,900
+ Okay.
+
+680
+01:21:51,900 --> 01:21:54,900
+ Let's say we are in the middle of the problem.
+
+681
+01:21:54,900 --> 01:21:56,900
+ We are doing this.
+
+682
+01:21:56,900 --> 01:21:59,900
+ You should solve the problem.
+
+683
+01:21:59,900 --> 01:22:01,900
+ Of course you should solve the problem.
+
+684
+01:22:01,900 --> 01:22:02,900
+ Why not?
+
+685
+01:22:02,900 --> 01:22:04,900
+ If you don't solve the problem,
+
+686
+01:22:04,900 --> 01:22:07,900
+ then why do you have to pay 1.1 for the operation?
+
+687
+01:22:07,900 --> 01:22:12,900
+ I have saved 1.1 for PC which is same extension here.
+
+688
+01:22:12,900 --> 01:22:15,900
+ did you save this program again?
+
+689
+01:22:15,900 --> 01:22:16,900
+ yeah, i did.
+
+690
+01:22:16,900 --> 01:22:19,900
+ So we are elasticity and same min.
+
+691
+01:22:19,900 --> 01:22:20,900
+ Okay..
+
+692
+01:22:23,900 --> 01:22:28,900
+ Kia, for��osaurus is to add and destroy the plane that will be in your OpenScene.
+
+693
+01:22:28,900 --> 01:22:29,900
+ Thanks!
+
+694
+01:22:29,900 --> 01:22:31,900
+ Canung is the one that will animalalize the plane.
+
+695
+01:22:31,900 --> 01:22:32,900
+ We have a pen.
+
+696
+01:22:32,900 --> 01:22:33,900
+ We have a pen.
+
+697
+01:22:33,900 --> 01:22:34,900
+ We have a pen.
+
+698
+01:22:34,900 --> 01:22:35,900
+ We have a pen.
+
+699
+01:22:35,900 --> 01:22:36,900
+ We have a pen.
+
+700
+01:22:36,900 --> 01:22:37,900
+ We have a pen.
+
+701
+01:22:37,900 --> 01:22:38,900
+ We have a pen.
+
+702
+01:22:38,900 --> 01:22:39,900
+ We have a pen.
+
+703
+01:22:39,900 --> 01:22:40,900
+ We have a pen.
+
+704
+01:22:40,900 --> 01:22:41,900
+ We have a pen.
+
+705
+01:22:41,900 --> 01:22:42,900
+ We have a pen.
+
+706
+01:22:42,900 --> 01:22:43,900
+ We have a pen.
+
+707
+01:22:43,900 --> 01:22:44,900
+ We have a pen.
+
+708
+01:22:44,900 --> 01:22:45,900
+ We have a pen.
+
+709
+01:22:45,900 --> 01:22:46,900
+ We have a pen.
+
+710
+01:22:46,900 --> 01:22:47,900
+ We have a pen.
+
+711
+01:22:47,900 --> 01:22:48,900
+ We have a pen.
+
+712
+01:22:48,900 --> 01:22:49,900
+ We have a pen.
+
+713
+01:22:49,900 --> 01:22:50,900
+ We have a pen.
+
+714
+01:22:50,900 --> 01:22:51,900
+ We have a pen.
+
+715
+01:22:51,900 --> 01:22:52,900
+ We have a pen.
+
+716
+01:22:52,900 --> 01:22:53,900
+ We have a pen.
+
+717
+01:22:53,900 --> 01:22:54,900
+ We have a pen.
+
+718
+01:22:54,900 --> 01:22:55,900
+ We have a pen.
+
+719
+01:22:55,900 --> 01:22:56,900
+ We have a pen.
+
+720
+01:22:56,900 --> 01:22:57,900
+ We have a pen.
+
+721
+01:22:57,900 --> 01:22:58,900
+ We have a pen.
+
+722
+01:22:58,900 --> 01:22:59,900
+ We have a pen.
+
+723
+01:22:59,900 --> 01:23:00,900
+ We have a pen.
+
+724
+01:23:00,900 --> 01:23:01,900
+ We have a pen.
+
+725
+01:23:01,900 --> 01:23:02,900
+ We have a pen.
+
+726
+01:23:02,900 --> 01:23:03,900
+ We have a pen.
+
+727
+01:23:03,900 --> 01:23:04,900
+ We have a pen.
+
+728
+01:23:04,900 --> 01:23:05,900
+ We have a pen.
+
+729
+01:23:05,900 --> 01:23:06,900
+ We have a pen.
+
+730
+01:23:06,900 --> 01:23:07,900
+ We have a pen.
+
+731
+01:23:07,900 --> 01:23:08,900
+ We have a pen.
+
+732
+01:23:08,900 --> 01:23:09,900
+ We have a pen.
+
+733
+01:23:09,900 --> 01:23:10,900
+ We have a pen.
+
+734
+01:23:10,900 --> 01:23:14,900
+ And there are other cardets up here like our pen.
+
+735
+01:23:14,900 --> 01:23:20,900
+ And you could have one pen and both of them have another.
+
+736
+01:23:20,900 --> 01:23:25,900
+ And many of you said another letter to be put up on your coffee table.
+
+737
+01:23:25,900 --> 01:23:28,900
+ You have another letter as well.
+
+738
+01:23:28,900 --> 01:23:29,900
+ You could have two commentary cards.
+
+739
+01:25:29,900 --> 01:25:31,900
+ You're going to use the switch.
+
+740
+01:25:31,900 --> 01:25:33,900
+ You're going to use that switch.
+
+741
+01:25:33,900 --> 01:25:35,900
+ Move it away on the set.
+
+742
+01:25:35,900 --> 01:25:37,900
+ You're going to come up.
+
+743
+01:25:37,900 --> 01:25:39,900
+ Then we'll practice it.
+
+744
+01:25:39,900 --> 01:25:41,900
+ Yes, thank you.
+
+745
+01:25:41,900 --> 01:25:43,900
+ So make a wall.
+
+746
+01:25:43,900 --> 01:25:45,900
+ We're going to make a style.
+
+747
+01:25:45,900 --> 01:25:47,900
+ What we're going to start with is
+
+748
+01:25:47,900 --> 01:25:49,900
+ trying to make it a speaker.
+
+749
+01:25:49,900 --> 01:25:51,900
+ Make a wall.
+
+750
+01:25:51,900 --> 01:25:53,900
+ Make a wall.
+
+751
+01:25:53,900 --> 01:25:55,900
+ Make a wall.
+
+752
+01:25:55,900 --> 01:25:57,900
+ Make a wall.
+
+753
+01:25:57,900 --> 01:26:00,900
+ Make a wall.
+
+754
+01:26:00,900 --> 01:26:03,900
+ Make a wall.
+
+755
+01:26:03,900 --> 01:26:06,900
+ Make a wall.
+
+756
+01:26:06,900 --> 01:26:09,900
+ Make a wall.
+
+757
+01:26:09,900 --> 01:26:12,900
+ Make a wall.
+
+758
+01:26:12,900 --> 01:26:16,900
+MEGANNY'S THE reflecting TV show.
+
+759
+01:26:16,900 --> 01:26:18,900
+ Seorsa WHY?
+
+760
+01:26:18,900 --> 01:26:20,900
+ Why've you seen him?
+
+761
+01:26:20,900 --> 01:26:22,900
+ Y?
+
+762
+01:26:22,900 --> 01:26:24,900
+ My only difference was on the floor.
+
+763
+01:26:24,900 --> 01:26:26,900
+ You get through the ass.
+
+764
+01:27:26,900 --> 01:27:55,139
+ I think that's okay because even in the copy you gave us it has the maximum
+
+765
+01:27:55,140 --> 01:28:05,140
+ ah yeah yeah yeah but the students don't know. They don't know what we're trying to do.
+
+766
+01:28:55,140 --> 01:29:25,140
+ Because here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here, here,
+
+767
+01:29:25,140 --> 01:29:46,280
+ in Spanish.
+
+768
+01:29:46,280 --> 01:29:52,280
+ But if you think that this is a good fight, you should be surprised.
+
+769
+01:29:52,280 --> 01:29:57,280
+ Otherwise, the fight, this is a good fight.
+
+770
+01:29:57,280 --> 01:29:59,280
+ This is a good fight.
+
+771
+01:29:59,280 --> 01:30:02,280
+ Because you have to say that this is a good fight, this is a good fight.
+
+772
+01:30:02,280 --> 01:30:04,280
+ This is a good fight.
+
+773
+01:30:04,280 --> 01:30:07,280
+ But if you think that this is a good fight, you should be surprised.
+
+774
+01:30:07,280 --> 01:30:09,280
+ This is a good fight.
+
+775
+01:30:09,280 --> 01:30:12,280
+ Because you have to say that this is a good fight, this is a good fight.
+
+776
+01:30:12,280 --> 01:30:14,280
+ This is a good fight.
+
+777
+01:30:14,280 --> 01:30:16,280
+ This is a good fight.
+
+778
+01:30:16,280 --> 01:30:18,280
+ This is a good fight.
+
+779
+01:30:18,280 --> 01:30:20,280
+ This is a good fight.
+
+780
+01:30:20,280 --> 01:30:22,280
+ This is a good fight.
+
+781
+01:30:22,280 --> 01:30:24,280
+ This is a good fight.
+
+782
+01:30:24,280 --> 01:30:26,280
+ This is a good fight.
+
+783
+01:30:26,280 --> 01:30:28,280
+ This is a good fight.
+
+784
+01:30:28,280 --> 01:30:30,280
+ This is a good fight.
+
+785
+01:30:30,280 --> 01:30:32,280
+ This is a good fight.
+
+786
+01:30:32,280 --> 01:30:34,280
+ This is a good fight.
+
+787
+01:30:34,280 --> 01:30:36,280
+ This is a good fight.
+
+788
+01:30:36,280 --> 01:30:38,280
+ This is a good fight.
+
+789
+01:30:38,280 --> 01:30:40,280
+ This is a good fight.
+
+790
+01:30:40,280 --> 01:30:42,280
+ This is a good fight.
+
+791
+01:30:42,280 --> 01:30:44,280
+ This is a good fight.
+
+792
+01:30:44,280 --> 01:30:46,280
+ This is a good fight.
+
+793
+01:30:46,280 --> 01:30:48,280
+ This is a good fight.
+
+794
+01:30:48,280 --> 01:30:50,280
+ This is a good fight.
+
+795
+01:30:50,280 --> 01:30:52,280
+ This is a good fight.
+
+796
+01:30:52,280 --> 01:30:54,280
+ This is a good fight.
+
+797
+01:30:54,280 --> 01:30:56,280
+ This is a good fight.
+
+798
+01:30:56,280 --> 01:30:58,280
+ This is a good fight.
+
+799
+01:30:58,280 --> 01:31:00,280
+ This is a good fight.
+
+800
+01:31:00,280 --> 01:31:02,280
+ This is a good fight.
+
+801
+01:31:02,280 --> 01:31:04,280
+ This is a good fight.
+
+802
+01:31:04,280 --> 01:31:06,280
+ This is a good fight.
+
+803
+01:31:06,280 --> 01:31:08,280
+ This is a good fight.
+
+804
+01:31:08,280 --> 01:31:10,280
+ This is a good fight.
+
+805
+01:31:10,280 --> 01:31:12,280
+ This is a good fight.
+
+806
+01:31:12,280 --> 01:31:14,280
+ This is a good fight.
+
+807
+01:31:14,280 --> 01:31:16,280
+ This is a good fight.
+
+808
+01:31:16,280 --> 01:31:18,280
+ This is a good fight.
+
+809
+01:31:18,280 --> 01:31:20,280
+ This is a good fight.
+
+810
+01:31:20,280 --> 01:31:22,280
+ This is a good fight.
+
+811
+01:31:22,280 --> 01:31:24,280
+ This is a good fight.
+
+812
+01:31:24,280 --> 01:31:26,280
+ This is a good fight.
+
+813
+01:31:26,280 --> 01:31:28,280
+ This is a good fight.
+
+814
+01:31:28,280 --> 01:31:30,280
+ This is a good fight.
+
+815
+01:31:30,280 --> 01:31:32,280
+ This is a good fight.
+
+816
+01:31:32,280 --> 01:31:34,280
+ This is a good fight.
+
+817
+01:31:34,280 --> 01:31:36,280
+ This is a good fight.
+
+818
+01:31:36,280 --> 01:31:38,280
+ This is a good fight.
+
+819
+01:31:38,280 --> 01:31:40,280
+ This is a good fight.
+
+820
+01:31:40,280 --> 01:31:42,280
+ This is a good fight.
+
+821
+01:31:42,280 --> 01:31:44,280
+ This is a good fight.
+
+822
+01:31:44,280 --> 01:31:46,280
+ This is a good fight.
+
+823
+01:31:46,280 --> 01:31:48,280
+ This is a good fight.
+
+824
+01:31:48,280 --> 01:31:50,280
+ This is a good fight.
+
+825
+01:31:50,280 --> 01:31:52,280
+ This is a good fight.
+
+826
+01:31:52,280 --> 01:31:54,280
+ This is a good fight.
+
+827
+01:31:54,280 --> 01:31:56,280
+ This is a good fight.
+
+828
+01:31:56,280 --> 01:31:58,280
+ This is a good fight.
+
+829
+01:31:58,280 --> 01:32:00,280
+ This is a good fight.
+
+830
+01:32:00,280 --> 01:32:10,280
+ So then I have four kids.
+
+831
+01:32:10,280 --> 01:32:13,280
+ I try to make the students study,
+
+832
+01:32:13,280 --> 01:32:21,280
+ but somehow how to make the students study?
+
+833
+01:32:21,280 --> 01:32:36,280
+ I can't see the sign.
+
+834
+01:32:36,280 --> 01:32:40,280
+ Otherwise you can't see the sign.
+
+835
+01:32:40,280 --> 01:32:42,280
+ Later I will take the picture.
+
+836
+01:32:42,280 --> 01:32:50,280
+ So just make sure the sign is just to make sure some of the students study.
+
+837
+01:32:50,280 --> 01:32:53,280
+ I can't come. I can't make it clear why I'm here.
+
+838
+01:32:53,280 --> 01:32:57,280
+ I can't, but somehow you will not see my paper.
+
+839
+01:32:57,280 --> 01:33:00,280
+ It's just to avoid this one.
+
+840
+01:33:00,280 --> 01:33:08,280
+ So don't need to sign.
+
+841
+01:33:08,280 --> 01:33:13,280
+ Because after that I assume the sign will be very much like that.
+
+842
+01:33:13,280 --> 01:33:16,280
+ Also the paper is not the civilian paper.
+
+843
+01:33:16,280 --> 01:33:23,280
+ So I can't see the sign.
+
+844
+01:33:23,280 --> 01:33:28,280
+ Because all students have right to the serious number for that.
+
+845
+01:33:28,280 --> 01:33:31,280
+ So if the student put the book in the corner,
+
+846
+01:33:31,280 --> 01:33:34,280
+ the number is right to the left.
+
+847
+01:33:34,280 --> 01:33:37,280
+ You remember the range of the number.
+
+848
+01:33:37,280 --> 01:33:43,280
+ You memorize what is the serious number of people in the range of the number.
+
+849
+01:33:43,280 --> 01:33:46,280
+ So you can't see the number.
+
+850
+01:34:13,280 --> 01:34:41,280
+ Okay, so now currently all of you students are in school.
+
+851
+01:34:41,280 --> 01:34:43,280
+ So I don't know which one is right.
+
+852
+01:34:43,280 --> 01:34:45,280
+ Otherwise I can't read the sign.
+
+853
+01:34:45,280 --> 01:34:49,280
+ But if later this one, another one comes.
+
+854
+01:34:49,280 --> 01:34:51,280
+ So I don't know which one is right.
+
+855
+01:34:51,280 --> 01:34:53,280
+ Otherwise I can't read the sign.
+
+856
+01:34:53,280 --> 01:34:56,280
+ But if later this one, another one comes.
+
+857
+01:34:56,280 --> 01:34:58,280
+ So I don't know which one is right.
+
+858
+01:34:58,280 --> 01:35:00,280
+ Otherwise I can't read the sign.
+
+859
+01:35:00,280 --> 01:35:02,280
+ But if later this one, another one comes.
+
+860
+01:35:02,280 --> 01:35:04,280
+ So I don't know which one is right.
+
+861
+01:35:04,280 --> 01:35:06,280
+ So I don't know which one is right.
+
+862
+01:35:06,280 --> 01:35:08,280
+ So I don't know which one is right.
+
+863
+01:35:08,280 --> 01:35:10,280
+ So I don't know which one is right.
+
+864
+01:35:10,280 --> 01:35:12,280
+ So I don't know which one is right.
+
+865
+01:35:12,280 --> 01:35:14,280
+ So I don't know which one is right.
+
+866
+01:35:14,280 --> 01:35:16,280
+ So I don't know which one is right.
+
+867
+01:35:16,280 --> 01:35:18,280
+ So I don't know which one is right.
+
+868
+01:35:18,280 --> 01:35:20,280
+ So I don't know which one is right.
+
+869
+01:35:20,280 --> 01:35:22,280
+ So I don't know which one is right.
+
+870
+01:35:22,280 --> 01:35:24,280
+ So I don't know which one is right.
+
+871
+01:35:24,280 --> 01:35:26,280
+ So I don't know which one is right.
+
+872
+01:35:26,280 --> 01:35:28,280
+ So I don't know which one is right.
+
+873
+01:35:28,280 --> 01:35:30,280
+ So I don't know which one is right.
+
+874
+01:35:30,280 --> 01:35:32,280
+ Yeah.
+
+875
+01:35:32,280 --> 01:35:34,280
+ How many I signed?
+
+876
+01:35:34,280 --> 01:35:36,280
+ There are 4 call-ins.
+
+877
+01:35:36,280 --> 01:35:38,280
+ 4 call-ins with the....
+
+878
+01:35:38,280 --> 01:35:40,280
+ But anyway this one is no problem if you were.
+
+879
+01:35:40,280 --> 01:35:42,280
+ No problem.
+
+880
+01:35:42,280 --> 01:35:48,280
+ If you find somebody if they are, you just do another one.
+
+881
+01:36:00,280 --> 01:36:02,280
+ I don't think I love you.
+
+882
+01:36:02,280 --> 01:36:04,280
+ I don't think I love you.
+
+883
+01:36:04,280 --> 01:36:06,280
+ I don't think I love you.
+
+884
+01:36:06,280 --> 01:36:08,280
+ I don't think I love you.
+
+885
+01:36:08,280 --> 01:36:10,280
+ I don't think I love you.
+
+886
+01:36:10,280 --> 01:36:12,280
+ I don't think I love you.
+
+887
+01:36:12,280 --> 01:36:14,280
+ I don't think I love you.
+
+888
+01:36:14,280 --> 01:36:16,280
+ I don't think I love you.
+
+889
+01:36:16,280 --> 01:36:18,280
+ I don't think I love you.
+
+890
+01:36:18,280 --> 01:36:20,280
+ I don't think I love you.
+
+891
+01:36:20,280 --> 01:36:22,280
+ I don't think I love you.
+
+892
+01:36:22,280 --> 01:36:24,280
+ I don't think I love you.
+
+893
+01:36:24,280 --> 01:36:26,280
+ I don't think I love you.
+
+894
+01:36:26,280 --> 01:36:28,280
+ I don't think I love you.
+
+895
+01:36:28,280 --> 01:36:30,280
+ I don't think I love you.
+
+896
+01:36:30,280 --> 01:36:32,280
+ I don't think I love you.
+
+897
+01:36:32,280 --> 01:36:34,280
+ I don't think I love you.
+
+898
+01:36:34,280 --> 01:36:36,280
+ I don't think I love you.
+
+899
+01:36:36,280 --> 01:36:38,280
+ I don't think I love you.
+
+900
+01:36:38,280 --> 01:36:40,280
+ I don't think I love you.
+
+901
+01:36:40,280 --> 01:36:42,280
+ I don't think I love you.
+
+902
+01:36:42,280 --> 01:36:44,280
+ I don't think I love you.
+
+903
+01:36:44,280 --> 01:36:46,280
+ I don't think I love you.
+
+904
+01:36:46,280 --> 01:36:48,280
+ I don't think I love you.
+
+905
+01:36:48,280 --> 01:36:50,280
+ I don't think I love you.
+
+906
+01:36:50,280 --> 01:36:52,280
+ I don't think I love you.
+
+907
+01:36:52,280 --> 01:36:54,280
+ I don't think I love you.
+
+908
+01:36:54,280 --> 01:36:56,280
+ I don't think I love you.
+
+909
+01:36:56,280 --> 01:36:58,280
+ I don't think I love you.
+
+910
+01:36:58,280 --> 01:37:00,280
+ I don't think I love you.
+
+911
+01:37:00,280 --> 01:37:02,280
+ I don't think I love you.
+
+912
+01:37:06,280 --> 01:37:08,280
+ I don't think I love you.
+
+913
+01:37:08,280 --> 01:37:10,280
+ I don't think I love you.
+
+914
+01:37:10,280 --> 01:37:12,280
+ I don't think I love you.
+
+915
+01:37:12,280 --> 01:37:14,280
+ I don't think I love you.
+
+916
+01:37:14,280 --> 01:37:16,280
+ I don't think I love you.
+
+917
+01:37:16,280 --> 01:37:18,280
+ I don't think I love you.
+
+918
+01:37:18,280 --> 01:37:20,280
+ I don't think I love you more.
+
+919
+01:37:20,280 --> 01:37:22,280
+ I don't think I love you.
+
+920
+01:37:22,280 --> 01:37:24,280
+ I don't think I love you.
+
+921
+01:39:54,280 --> 01:40:05,940
+ Okay, please keep quiet. So, in which letters start to distribute the
+
+922
+01:40:05,940 --> 01:40:26,940
+ paper to the students. Now you can start to distribute now. So, if somehow you get the paper
+
+923
+01:40:26,940 --> 01:40:43,940
+ later than others, no worry. You can first say what is the question here. Keep quiet, keep quiet, keep quiet.
+
+924
+01:40:56,940 --> 01:41:13,940
+ Oh, okay, okay. Never mind. You just find some place to do that in the international, because all paper already given to others.
+
+925
+01:41:26,940 --> 01:41:31,940
+ Okay.
+
+926
+01:41:56,940 --> 01:41:59,940
+ Okay.
+
+927
+01:42:26,940 --> 01:42:29,940
+ Okay.
+
+928
+01:42:56,940 --> 01:43:17,940
+ Okay.
+
+929
+01:43:26,940 --> 01:43:50,940
+ Okay.
+
+930
+01:43:56,940 --> 01:44:21,940
+ Okay.
+
+931
+01:44:21,940 --> 01:44:44,940
+ Okay.
+
+932
+01:44:51,940 --> 01:45:20,940
+ Okay.
+
+933
+01:45:21,940 --> 01:45:50,940
+ Okay.
+
+934
+01:45:51,940 --> 01:46:18,940
+ Okay.
+
+935
+01:46:18,940 --> 01:46:47,940
+ Okay.
+
+936
+01:46:48,940 --> 01:47:17,940
+ Okay.
+
+937
+01:47:18,940 --> 01:47:47,940
+ Okay.
+
+938
+01:47:48,940 --> 01:48:17,940
+ Okay.
+
+939
+01:48:18,940 --> 01:48:47,940
+ Okay.
+
+940
+01:48:48,940 --> 01:49:17,940
+ Okay.
+
+941
+01:49:18,940 --> 01:49:47,940
+ Okay.
+
+942
+01:49:48,940 --> 01:50:17,940
+ Okay.
+
+943
+01:50:18,940 --> 01:50:47,940
+ Okay.
+
+944
+01:50:48,940 --> 01:51:17,940
+ Okay.
+
+945
+01:51:18,940 --> 01:51:47,940
+ Okay.
+
+946
+01:51:48,940 --> 01:52:17,940
+ Okay.
+
+947
+01:52:18,940 --> 01:52:47,940
+ Okay.
+
+948
+01:52:48,940 --> 01:53:17,940
+ Okay.
+
+949
+01:53:18,940 --> 01:53:47,940
+ Okay.
+
+950
+01:53:48,940 --> 01:54:17,940
+ Okay.
+
+951
+01:54:18,940 --> 01:54:45,940
+ Okay.
+
+952
+01:54:45,940 --> 01:55:14,940
+ Okay.
+
+953
+01:55:15,940 --> 01:55:44,940
+ Okay.
+
+954
+01:55:45,940 --> 01:56:14,940
+ Okay.
+
+955
+01:56:15,940 --> 01:56:44,940
+ Okay.
+
+956
+01:56:45,940 --> 01:57:14,940
+ Okay.
+
+957
+01:57:15,940 --> 01:57:44,940
+ Okay.
+
+958
+01:57:45,940 --> 01:58:14,940
+ Okay.
+
+959
+01:58:15,940 --> 01:58:44,940
+ Okay.
+
+960
+01:58:45,940 --> 01:59:14,940
+ Okay.
+
+961
+01:59:15,940 --> 01:59:44,940
+ Okay.
+
+962
+01:59:45,940 --> 02:00:14,940
+ Okay.
+
+963
+02:00:15,940 --> 02:00:44,940
+ Okay.
+
+964
+02:00:45,940 --> 02:01:14,940
+ Okay.
+
+965
+02:01:15,940 --> 02:01:44,940
+ Okay.
+
+966
+02:01:45,940 --> 02:02:14,940
+ Okay.
+
+967
+02:02:15,940 --> 02:02:44,940
+ Okay.
+
+968
+02:02:45,940 --> 02:03:14,940
+ Okay.
+
+969
+02:03:15,940 --> 02:03:44,940
+ Okay.
+
+970
+02:03:45,940 --> 02:04:14,940
+ Okay.
+
+971
+02:04:15,940 --> 02:04:44,940
+ Okay.
+
+972
+02:04:45,940 --> 02:05:14,940
+ Okay.
+
+973
+02:05:15,940 --> 02:05:44,940
+ Okay.
+
+974
+02:05:45,940 --> 02:06:14,940
+ Okay.
+
+975
+02:06:15,940 --> 02:06:44,940
+ Okay.
+
+976
+02:06:45,940 --> 02:07:14,940
+ Okay.
+
+977
+02:07:15,940 --> 02:07:44,940
+ Okay.
+
+978
+02:07:45,940 --> 02:08:14,940
+ Okay.
+
+979
+02:08:15,940 --> 02:08:44,940
+ Okay.
+
+980
+02:08:45,940 --> 02:09:14,940
+ Okay.
+
+981
+02:09:15,940 --> 02:09:44,940
+ Okay.
+
+982
+02:09:45,940 --> 02:10:14,940
+ Okay.
+
+983
+02:10:15,940 --> 02:10:44,940
+ Okay.
+
+984
+02:10:45,940 --> 02:11:14,940
+ Okay.
+
+985
+02:11:15,940 --> 02:11:44,940
+ Okay.
+
+986
+02:11:45,940 --> 02:12:14,940
+ Okay.
+
+987
+02:12:15,940 --> 02:12:44,940
+ Okay.
+
+988
+02:12:45,940 --> 02:13:14,940
+ Okay.
+
+989
+02:13:15,940 --> 02:13:44,940
+ Okay.
+
+990
+02:13:45,940 --> 02:14:14,940
+ Okay.
+
+991
+02:14:15,940 --> 02:14:44,940
+ Okay.
+
+992
+02:14:45,940 --> 02:15:14,940
+ Okay.
+
+993
+02:15:15,940 --> 02:15:44,940
+ Okay.
+
+994
+02:15:45,940 --> 02:16:14,940
+ Okay.
+
+995
+02:16:15,940 --> 02:16:44,939
+ Okay.
+
+996
+02:16:45,940 --> 02:17:14,940
+ Okay.
+
+997
+02:17:15,940 --> 02:17:44,940
+ Okay.
+
+998
+02:17:45,940 --> 02:18:14,940
+ Okay.
+
+999
+02:18:15,940 --> 02:18:44,940
+ Okay.
+
+1000
+02:18:45,940 --> 02:19:14,940
+ Okay.
+
+1001
+02:19:15,940 --> 02:19:44,940
+ Okay.
+
+1002
+02:19:45,940 --> 02:20:14,940
+ Okay.
+
+1003
+02:20:15,940 --> 02:20:44,940
+ Okay.
+
+1004
+02:20:45,940 --> 02:21:14,940
+ Okay.
+
+1005
+02:21:15,940 --> 02:21:44,940
+ Okay.
+
+1006
+02:21:45,940 --> 02:22:14,940
+ Okay.
+
+1007
+02:22:15,940 --> 02:22:44,940
+ Okay.
+
+1008
+02:22:45,940 --> 02:23:14,940
+ Okay.
+
+1009
+02:23:15,940 --> 02:23:44,940
+ Okay.
+
+1010
+02:23:45,940 --> 02:24:14,940
+ Okay.
+
+1011
+02:24:15,940 --> 02:24:44,940
+ Okay.
+
+1012
+02:24:45,940 --> 02:25:06,940
+ Okay.
+
+1013
+02:25:06,940 --> 02:25:35,940
+ Okay.
+
+1014
+02:25:36,940 --> 02:26:05,940
+ Okay.
+
+1015
+02:26:06,940 --> 02:26:35,940
+ Okay.
+
+1016
+02:26:36,940 --> 02:27:05,940
+ Okay.
+
+1017
+02:27:06,940 --> 02:27:35,940
+ Okay.
+
+1018
+02:27:36,940 --> 02:28:05,940
+ Okay.
+
+1019
+02:28:06,940 --> 02:28:35,940
+ Okay.
+
+1020
+02:28:36,940 --> 02:29:05,940
+ Okay.
+
+1021
+02:29:06,940 --> 02:29:35,940
+ Okay.
+
+1022
+02:29:36,940 --> 02:30:05,940
+ Okay.
+
+1023
+02:30:05,940 --> 02:30:34,940
+ Okay.
+
+1024
+02:30:35,940 --> 02:31:04,940
+ Okay.
+
+1025
+02:31:05,940 --> 02:31:34,940
+ Okay.
+
+1026
+02:31:35,940 --> 02:32:04,940
+ Okay.
+
+1027
+02:32:05,940 --> 02:32:34,940
+ Okay.
+
+1028
+02:32:35,940 --> 02:33:04,940
+ Okay.
+
+1029
+02:33:05,940 --> 02:33:34,940
+ Okay.
+
+1030
+02:33:35,940 --> 02:34:04,940
+ Okay.
+
+1031
+02:34:05,940 --> 02:34:34,940
+ Okay.
+
+1032
+02:34:35,940 --> 02:35:04,940
+ Okay.
+
+1033
+02:35:05,940 --> 02:35:34,940
+ Okay.
+
+1034
+02:35:35,940 --> 02:36:04,940
+ Okay.
+
+1035
+02:36:05,940 --> 02:36:34,940
+ Okay.
+
+1036
+02:36:35,940 --> 02:37:04,940
+ Okay.
+
+1037
+02:37:05,940 --> 02:37:34,940
+ Okay.
+
+1038
+02:37:35,940 --> 02:38:04,940
+ Okay.
+
+1039
+02:38:05,940 --> 02:38:34,940
+ Okay.
+
+1040
+02:38:35,940 --> 02:39:04,940
+ Okay.
+
+1041
+02:39:05,940 --> 02:39:34,940
+ Okay.
+
+1042
+02:39:35,940 --> 02:40:04,940
+ Okay.
+
+1043
+02:40:05,940 --> 02:40:34,940
+ Okay.
+
+1044
+02:40:35,940 --> 02:41:04,940
+ Okay.
+
+1045
+02:41:05,940 --> 02:41:34,940
+ Okay.
+
+1046
+02:41:35,940 --> 02:42:04,940
+ Okay.
+
+1047
+02:42:05,940 --> 02:42:32,940
+ Okay.
+
+1048
+02:42:32,940 --> 02:43:01,940
+ Okay.
+
+1049
+02:43:02,940 --> 02:43:31,940
+ Okay.
+
+1050
+02:43:32,940 --> 02:44:01,940
+ Okay.
+
+1051
+02:44:02,940 --> 02:44:31,940
+ Okay.
+
+1052
+02:44:32,940 --> 02:45:01,940
+ Okay.
+
+1053
+02:45:02,940 --> 02:45:31,940
+ Okay.
+
+1054
+02:45:32,940 --> 02:46:01,940
+ Okay.
+
+1055
+02:46:02,940 --> 02:46:31,940
+ Okay.
+
+1056
+02:46:32,940 --> 02:47:01,940
+ Okay.
+
+1057
+02:47:02,940 --> 02:47:31,940
+ Okay.
+
+1058
+02:47:32,940 --> 02:48:01,940
+ Okay.
+
+1059
+02:48:02,940 --> 02:48:31,940
+ Okay.
+
+1060
+02:48:32,940 --> 02:49:01,940
+ Okay.
+
+1061
+02:49:02,940 --> 02:49:31,940
+ Okay.
+
+1062
+02:49:32,940 --> 02:50:01,940
+ Okay.
+
+1063
+02:50:02,940 --> 02:50:31,940
+ Okay.
+
+1064
+02:50:32,940 --> 02:51:01,940
+ Okay.
+
+1065
+02:51:02,940 --> 02:51:31,940
+ Okay.
+
+1066
+02:51:32,940 --> 02:52:01,940
+ Okay.
+
+1067
+02:52:02,940 --> 02:52:31,940
+ Okay.
+
+1068
+02:52:32,940 --> 02:53:01,940
+ Okay.
+
+1069
+02:53:02,940 --> 02:53:31,940
+ Okay.
+
+1070
+02:53:32,940 --> 02:54:01,940
+ Okay.
+
+1071
+02:54:02,940 --> 02:54:31,940
+ Okay.
+
+1072
+02:54:32,940 --> 02:55:01,940
+ Okay.
+
+1073
+02:55:02,940 --> 02:55:31,940
+ Okay.
+
+1074
+02:55:32,940 --> 02:56:01,940
+ Okay.
+
+1075
+02:56:02,940 --> 02:56:31,940
+ Okay.
+
+1076
+02:56:32,940 --> 02:57:01,940
+ Okay.
+
+1077
+02:57:02,940 --> 02:57:31,940
+ Okay.
+
+1078
+02:57:32,940 --> 02:58:01,940
+ Okay.
+
+1079
+02:58:02,940 --> 02:58:31,940
+ Okay.
+
+1080
+02:58:32,940 --> 02:59:01,940
+ Okay.
+
+1081
+02:59:02,940 --> 02:59:31,940
+ Okay.
+
+1082
+02:59:32,940 --> 02:59:58,940
+ Okay.
+
