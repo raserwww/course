@@ -1,0 +1,11360 @@
+1
+00:00:00,000 --> 00:00:02,000
+.
+
+2
+00:00:30,000 --> 00:00:32,000
+.
+
+3
+00:01:00,000 --> 00:01:02,000
+.
+
+4
+00:01:30,000 --> 00:01:37,000
+I believe you started container design based on status-based model.
+
+5
+00:01:37,000 --> 00:01:44,000
+Now we will consider container design based on transfer functions.
+
+6
+00:01:44,000 --> 00:01:50,000
+So we have three approaches.
+
+7
+00:01:50,000 --> 00:02:12,000
+Basically, in this chapter, we will study how to design digital containers for this system.
+
+8
+00:02:12,000 --> 00:02:24,000
+We have a few approaches.
+
+9
+00:02:24,000 --> 00:02:30,000
+Before I show you the approaches, let's consider the block diagram shown here.
+
+10
+00:02:30,000 --> 00:02:36,000
+In this block diagram, we have a plan to be controlled.
+
+11
+00:02:36,000 --> 00:02:39,000
+This plan is given to you.
+
+12
+00:02:39,000 --> 00:02:43,000
+For example, you want to control DC motor.
+
+13
+00:02:43,000 --> 00:02:45,000
+This plan is DC motor.
+
+14
+00:02:45,000 --> 00:02:52,000
+If you are going to control a car, the motion of the car, then this is the car.
+
+15
+00:02:52,000 --> 00:02:54,000
+So that should be given.
+
+16
+00:02:54,000 --> 00:02:57,000
+So this is the system to be controlled.
+
+17
+00:02:57,000 --> 00:03:12,000
+Then when we implement digital control, we should have sampling and the zero-order hood, as we discussed during the third chapter.
+
+18
+00:03:12,000 --> 00:03:17,000
+So this is a block diagram of the control system.
+
+19
+00:03:17,000 --> 00:03:33,000
+Basically, we are going to design a digital controller for this plant, such that this output follows the required trajectory.
+
+20
+00:03:33,000 --> 00:03:37,000
+To do the design, we have to model the system.
+
+21
+00:03:37,000 --> 00:03:51,000
+So in our third chapter, we studied how to find the model or the transfer function for the plant together with the zero-order hood.
+
+22
+00:03:51,000 --> 00:03:57,000
+So this transfer function is represented as GZAS.
+
+23
+00:03:57,000 --> 00:03:59,000
+Z means zero-order hood.
+
+24
+00:03:59,000 --> 00:04:02,000
+AS means analog system.
+
+25
+00:04:02,000 --> 00:04:03,000
+That is the plant.
+
+26
+00:04:03,000 --> 00:04:06,000
+So we have GZAS Z.
+
+27
+00:04:06,000 --> 00:04:11,000
+That's the transfer function of these two blocks.
+
+28
+00:04:11,000 --> 00:04:19,000
+Okay, for the controller, we have this transfer function CZ.
+
+29
+00:04:19,000 --> 00:04:24,000
+So in the design, this is given.
+
+30
+00:04:24,000 --> 00:04:33,000
+Of course, you must make sure the system meets some requirements.
+
+31
+00:04:33,000 --> 00:04:37,000
+For example, stability.
+
+32
+00:04:37,000 --> 00:04:40,000
+That's the essential requirement.
+
+33
+00:04:40,000 --> 00:04:55,000
+Also, you have to ensure the overall system to meet the given specifications, which include the transient performance and the steady-state performance.
+
+34
+00:04:55,000 --> 00:05:05,000
+So based on such requirements under the transfer function, GZAS Z, you have to find CZ.
+
+35
+00:05:05,000 --> 00:05:09,000
+So our purpose is to find the CZ.
+
+36
+00:05:09,000 --> 00:05:12,000
+That is the controller design.
+
+37
+00:05:12,000 --> 00:05:22,000
+So we are going to consider how to find the CZ with the following three approaches.
+
+38
+00:05:22,000 --> 00:05:28,000
+First, we design our analog controller for the system.
+
+39
+00:05:28,000 --> 00:05:38,000
+And then we approximate the analog controller by a digital transfer function.
+
+40
+00:05:38,000 --> 00:05:41,000
+So this is the first approach.
+
+41
+00:05:41,000 --> 00:05:52,000
+Second approach is called direct Z-domain digital controller design based on frequency response approach.
+
+42
+00:05:52,000 --> 00:05:59,000
+So you have to use the results in the classical control.
+
+43
+00:05:59,000 --> 00:06:11,000
+In classical control, you know how to design a compensator based on the continuous transfer function in the frequency domain.
+
+44
+00:06:11,000 --> 00:06:14,000
+So this is the second approach.
+
+45
+00:06:14,000 --> 00:06:21,000
+Third approach is called direct control design based on pulse transfer function.
+
+46
+00:06:21,000 --> 00:06:28,000
+We have three approaches to find this CZ.
+
+47
+00:06:28,000 --> 00:06:31,000
+Let's consider the first approach.
+
+48
+00:06:31,000 --> 00:06:39,000
+That is digital implementation of analog controller design.
+
+49
+00:06:39,000 --> 00:06:44,000
+This is actually indirect approach.
+
+50
+00:06:44,000 --> 00:06:46,000
+Why is it indirect?
+
+51
+00:06:46,000 --> 00:06:53,000
+Because you design continuous controller based on the given transfer function of the plant.
+
+52
+00:06:53,000 --> 00:07:00,000
+Then you convert the continuous controller to a digital controller.
+
+53
+00:07:00,000 --> 00:07:02,000
+So that's the idea.
+
+54
+00:07:02,000 --> 00:07:10,000
+So the approach is based on design analog controller for the analog plant.
+
+55
+00:07:10,000 --> 00:07:20,000
+And then you obtain an equivalent digital controller and use it to do the implementation.
+
+56
+00:07:20,000 --> 00:07:22,000
+So that's the idea.
+
+57
+00:07:22,000 --> 00:07:24,000
+We have two steps.
+
+58
+00:07:24,000 --> 00:07:31,000
+For the first step, you just design a controller CS.
+
+59
+00:07:31,000 --> 00:07:36,000
+CS means continuous controller for the analog subsystem.
+
+60
+00:07:36,000 --> 00:07:40,000
+To meet the desired design specification.
+
+61
+00:07:40,000 --> 00:07:44,000
+As mentioned, our plant is given.
+
+62
+00:07:44,000 --> 00:07:47,000
+So you know the model of this plant.
+
+63
+00:07:47,000 --> 00:07:52,000
+Of course, that's the transfer function in continuous time domain.
+
+64
+00:07:52,000 --> 00:07:57,000
+And also the desired specifications are given.
+
+65
+00:07:57,000 --> 00:08:04,000
+So based on those given information, you have to find a continuous controller.
+
+66
+00:08:05,000 --> 00:08:12,000
+Use your method studied in the classical control course.
+
+67
+00:08:12,000 --> 00:08:18,000
+There are a number of approaches to find out CS.
+
+68
+00:08:18,000 --> 00:08:21,000
+So I don't have to repeat it here.
+
+69
+00:08:21,000 --> 00:08:27,000
+I assume you know the classical methods to design continuous time control.
+
+70
+00:08:27,000 --> 00:08:37,000
+Actually, later on, when we consider the second approach, which is based on frequency domain,
+
+71
+00:08:37,000 --> 00:08:49,000
+we will review how to design continuous controller from the frequency domain.
+
+72
+00:08:49,000 --> 00:08:52,000
+Okay, once you have done this, that means CS has been found.
+
+73
+00:08:52,000 --> 00:08:59,000
+You just map the analog controller CS to the digital controller GD.
+
+74
+00:08:59,000 --> 00:09:01,000
+That is to find this.
+
+75
+00:09:01,000 --> 00:09:05,000
+Or that is the CZ in this figure.
+
+76
+00:09:05,000 --> 00:09:14,000
+So that is you have to convert this CS to CZ using a suitable transformation.
+
+77
+00:09:14,000 --> 00:09:23,000
+Later on, we will study a few approaches or a few transformations to do this conversion.
+
+78
+00:09:23,000 --> 00:09:27,000
+Once you have this done, that means you get the CZ.
+
+79
+00:09:27,000 --> 00:09:33,000
+Then you have to check the response of your digital control system.
+
+80
+00:09:33,000 --> 00:09:38,000
+That means you have this GZ-AS available.
+
+81
+00:09:38,000 --> 00:09:41,000
+You have found this CZ.
+
+82
+00:09:41,000 --> 00:09:51,000
+So you can use your computational tool, such as MATLAB, to find out the response of the closed-loop system
+
+83
+00:09:51,000 --> 00:09:59,000
+based on some test input signals, such as step input, ramp input, and so on.
+
+84
+00:10:00,000 --> 00:10:11,000
+So you have to check the time response of the system after you get your CZ.
+
+85
+00:10:11,000 --> 00:10:18,000
+If your time response satisfies the given specification, then you can stop.
+
+86
+00:10:18,000 --> 00:10:24,000
+Then you just use this CZ for implementation.
+
+87
+00:10:24,000 --> 00:10:30,000
+Otherwise, you have to repeat the procedure in one or two.
+
+88
+00:10:30,000 --> 00:10:36,000
+That means you may have to do some modification in your design to meet the requirement.
+
+89
+00:10:36,000 --> 00:10:49,000
+So this is a kind of iterative trial and error process to find our CZ.
+
+90
+00:10:50,000 --> 00:10:55,000
+So that's the procedure.
+
+91
+00:10:55,000 --> 00:11:04,000
+We have three steps to design our CZ based on the continuous controller CS.
+
+92
+00:11:07,000 --> 00:11:12,000
+This is a block diagram showing how this is done.
+
+93
+00:11:12,000 --> 00:11:16,000
+So this is GS. That's given.
+
+94
+00:11:16,000 --> 00:11:19,000
+Yeah, that's the transformation of the plant.
+
+95
+00:11:19,000 --> 00:11:29,000
+So you just use the continuous approach to find CS, as I just mentioned.
+
+96
+00:11:29,000 --> 00:11:38,000
+You have a number of approaches to find CS to meet the requirement.
+
+97
+00:11:38,000 --> 00:11:48,000
+After you have found CS, you convert this to CZ with a suitable transformation.
+
+98
+00:11:48,000 --> 00:11:50,000
+Yeah, that is the conversion.
+
+99
+00:11:50,000 --> 00:11:57,000
+But when you do the implementation, you have to have a sampling and a zero-order hood.
+
+100
+00:11:57,000 --> 00:11:59,000
+That is like here.
+
+101
+00:11:59,000 --> 00:12:04,000
+You have a sampler, that's this, and you have a zero-order hood.
+
+102
+00:12:04,000 --> 00:12:09,000
+Yeah, this is the plant GS.
+
+103
+00:12:09,000 --> 00:12:19,000
+Okay, this approach works very well if the sampling period T is sufficiently small.
+
+104
+00:12:19,000 --> 00:12:29,000
+That means when you do this approximation using CZ to replace CS, this T cannot be very big.
+
+105
+00:12:29,000 --> 00:12:34,000
+If it's very big, you have a big approximation error.
+
+106
+00:12:34,000 --> 00:12:43,000
+Okay, so this is a graphic illustration of our design approach.
+
+107
+00:12:43,000 --> 00:12:49,000
+Okay, how we obtain CS from GS, as I said, I don't have to repeat it here.
+
+108
+00:12:49,000 --> 00:12:54,000
+Then we just consider the second step.
+
+109
+00:12:54,000 --> 00:13:03,000
+That is to, yeah, our focus here is the second step.
+
+110
+00:13:03,000 --> 00:13:10,000
+That is how we find CZ to approximate CS.
+
+111
+00:13:10,000 --> 00:13:21,000
+Okay, so that's the focus of today's lecture.
+
+112
+00:13:21,000 --> 00:13:29,000
+Yeah, for this step, we need to have the following requirements.
+
+113
+00:13:29,000 --> 00:13:33,000
+A stable analog filter.
+
+114
+00:13:33,000 --> 00:13:36,000
+Actually, our consumer is just a filter.
+
+115
+00:13:36,000 --> 00:13:39,000
+Okay, so that is our stable controller.
+
+116
+00:13:39,000 --> 00:13:46,000
+Must be transformed to a stable controller also in the digital version.
+
+117
+00:13:46,000 --> 00:13:51,000
+Stable means if we have poles in the left half plane for your CS,
+
+118
+00:13:51,000 --> 00:14:00,000
+then the poles in the digital controller should be within the unit circle.
+
+119
+00:14:00,000 --> 00:14:08,000
+The frequency response of the digital controller must closely resemble
+
+120
+00:14:08,000 --> 00:14:19,000
+the frequency response of the analog controller in the range from zero to half omega S hertz,
+
+121
+00:14:19,000 --> 00:14:23,000
+where omega S is the sampling frequency.
+
+122
+00:14:23,000 --> 00:14:40,000
+Yeah, we require our omega S to satisfy some conditions to avoid the anti-annoying effect.
+
+123
+00:14:40,000 --> 00:14:46,000
+That is, we have to follow the Nyquist sampling theorem.
+
+124
+00:14:46,000 --> 00:14:52,000
+Over this range, we need the frequency response of the digital controller
+
+125
+00:14:52,000 --> 00:15:01,000
+to be closely following the frequency response of the original analog filter.
+
+126
+00:15:01,000 --> 00:15:09,000
+In fact, in our chapter four, when we talk about the mapping between S plane and Z plane,
+
+127
+00:15:09,000 --> 00:15:12,000
+we have a primary strip.
+
+128
+00:15:12,000 --> 00:15:19,000
+So this from zero to half omega S is the primary strip of the S plane.
+
+129
+00:15:19,000 --> 00:15:25,000
+So this will be considered in the frequency response.
+
+130
+00:15:25,000 --> 00:15:30,000
+So we have these two requirements when you do the mapping.
+
+131
+00:15:30,000 --> 00:15:41,000
+Okay, now let's consider some methods which transform our CS to CZ.
+
+132
+00:15:41,000 --> 00:15:48,000
+Maybe hair rotation is GS to GDZ. The idea is the same.
+
+133
+00:15:48,000 --> 00:15:56,000
+So to show the approach, we consider this simple first order controller.
+
+134
+00:15:56,000 --> 00:16:04,000
+First order means the relationship between the input and output is modeled
+
+135
+00:16:04,000 --> 00:16:11,000
+by this first order differential equation here.
+
+136
+00:16:11,000 --> 00:16:18,000
+So this is equivalent to this, dy dt equals this.
+
+137
+00:16:18,000 --> 00:16:24,000
+And this transfer function for this is given as YS over XS.
+
+138
+00:16:24,000 --> 00:16:28,000
+Yeah, because X is the input, Y is the output.
+
+139
+00:16:28,000 --> 00:16:37,000
+So from that, you can see this transfer function will be A divided by S plus A.
+
+140
+00:16:37,000 --> 00:16:44,000
+Yeah, I believe you can find this transfer function easily based on this differential equation.
+
+141
+00:16:44,000 --> 00:16:52,000
+You just take a non-prol transform on both sides, then find this ratio. You get this answer.
+
+142
+00:16:52,000 --> 00:17:00,000
+Okay, so now we consider this equation.
+
+143
+00:17:00,000 --> 00:17:06,000
+Yeah, because we are going to convert this transfer function to discrete time transfer function.
+
+144
+00:17:06,000 --> 00:17:18,000
+So we consider the integration of this equation on both sides from K minus one T to KT.
+
+145
+00:17:18,000 --> 00:17:24,000
+Yeah, we have this result. You integrate both sides.
+
+146
+00:17:24,000 --> 00:17:28,000
+Okay, now we are going to...
+
+147
+00:17:28,000 --> 00:17:35,000
+Yeah, for this integral it's easy. What's the result? It's Y.
+
+148
+00:17:35,000 --> 00:17:40,000
+The integral of the derivative of Y is just Y.
+
+149
+00:17:40,000 --> 00:17:43,000
+Of course, this is a definite integral.
+
+150
+00:17:43,000 --> 00:17:52,000
+So you have to compute the different integral with Y, with lower limit K minus one T, upper limit KT.
+
+151
+00:17:52,000 --> 00:17:56,000
+For the right side, we will do approximation.
+
+152
+00:17:56,000 --> 00:18:00,000
+Yeah, because we are going to approximate this transfer function.
+
+153
+00:18:00,000 --> 00:18:07,000
+That is, we are going to find what is S to be changed to.
+
+154
+00:18:07,000 --> 00:18:14,000
+So we consider the approximation of the integral on this right side.
+
+155
+00:18:14,000 --> 00:18:26,000
+So we have three approaches to do the approximation.
+
+156
+00:18:26,000 --> 00:18:36,000
+Okay, I put this here. So we are going to consider the approximation of this term and this term.
+
+157
+00:18:36,000 --> 00:18:42,000
+So first is backward difference of approximation method.
+
+158
+00:18:42,000 --> 00:18:48,000
+So basically, for example, for this Y.
+
+159
+00:18:48,000 --> 00:18:59,000
+Suppose your Y is something like this. Yeah, this is your Y.
+
+160
+00:18:59,000 --> 00:19:11,000
+That's T. So the integral is taken from K minus one T to KT, like this.
+
+161
+00:19:11,000 --> 00:19:17,000
+So exactly the integral is the area below this, correct?
+
+162
+00:19:17,000 --> 00:19:22,000
+Yeah, below this curve, from this point to this point.
+
+163
+00:19:22,000 --> 00:19:35,000
+Now, we just approximate this area by the area of this triangle.
+
+164
+00:19:35,000 --> 00:19:42,000
+So you have a rectangle like this.
+
+165
+00:19:42,000 --> 00:19:55,000
+The length of one side will be this, Y KT.
+
+166
+00:19:55,000 --> 00:20:03,000
+And the length of the other side is just the sampling period T. That's this.
+
+167
+00:20:03,000 --> 00:20:12,000
+So this area will be Y KT times T.
+
+168
+00:20:12,000 --> 00:20:20,000
+So this integral, that means this term, can be approximated by this.
+
+169
+00:20:20,000 --> 00:20:32,000
+And in the same way, the second term, this term, can be approximated by X KT times T with the same idea.
+
+170
+00:20:32,000 --> 00:20:40,000
+Therefore, our equation, 5.3 here, can be changed to this.
+
+171
+00:20:40,000 --> 00:20:45,000
+Yeah, this is the integral on the left side.
+
+172
+00:20:45,000 --> 00:20:50,000
+As I said, this integral is just YT, so you compute the definite integral.
+
+173
+00:20:50,000 --> 00:20:54,000
+It will be Y KT minus YK minus one T.
+
+174
+00:20:54,000 --> 00:20:58,000
+On the right side, we have these two approximations.
+
+175
+00:20:58,000 --> 00:21:06,000
+This term here is changed to negative A times this area.
+
+176
+00:21:06,000 --> 00:21:14,000
+And this second term, it will be A times this area.
+
+177
+00:21:14,000 --> 00:21:17,000
+OK, this is a difference equation.
+
+178
+00:21:17,000 --> 00:21:21,000
+So you take a Z transform on both sides.
+
+179
+00:21:21,000 --> 00:21:24,000
+Of course, you move this term to the left.
+
+180
+00:21:25,000 --> 00:21:30,000
+So move this term to the right.
+
+181
+00:21:30,000 --> 00:21:34,000
+So the left side will be YZ.
+
+182
+00:21:34,000 --> 00:21:37,000
+Yeah, the Z transform of Y KT will be YZ.
+
+183
+00:21:37,000 --> 00:21:41,000
+For this term, you apply the shifting value theorem.
+
+184
+00:21:41,000 --> 00:21:45,000
+It will be Z inverse because this is delayed by one sample.
+
+185
+00:21:45,000 --> 00:21:47,000
+So Z inverse YZ.
+
+186
+00:21:47,000 --> 00:21:53,000
+For this, you have a common factor, A times capital T.
+
+187
+00:21:53,000 --> 00:21:59,000
+So that's YZ minus this XZ.
+
+188
+00:21:59,000 --> 00:22:10,000
+Therefore, from this, our discrete time transfer function will be equal to...
+
+189
+00:22:13,000 --> 00:22:15,000
+Yeah, you just use this.
+
+190
+00:22:16,000 --> 00:22:23,000
+So from this, you find the ratio, YZ divided by XZ.
+
+191
+00:22:23,000 --> 00:22:25,000
+It will be this.
+
+192
+00:22:25,000 --> 00:22:32,000
+OK, so that's the Z transfer function.
+
+193
+00:22:32,000 --> 00:22:46,000
+So this first order transfer function in 5.2 is converted to this Z transfer function.
+
+194
+00:22:46,000 --> 00:22:51,000
+Yeah, from this, you can note your S.
+
+195
+00:22:51,000 --> 00:22:58,000
+Yeah, this S is changed to one under Z inverse divided by T.
+
+196
+00:22:58,000 --> 00:23:01,000
+Yeah, you just replace this S by that.
+
+197
+00:23:07,000 --> 00:23:16,000
+For stable digital transfer function here, we should have this to be less than zero also.
+
+198
+00:23:16,000 --> 00:23:27,000
+OK, so this is called forward method.
+
+199
+00:23:27,000 --> 00:23:32,000
+Oh, sorry, backward difference method.
+
+200
+00:23:32,000 --> 00:23:45,000
+So we just replace our S by this one under Z inverse divided by T or Z minus one divided by TZ.
+
+201
+00:23:46,000 --> 00:23:52,000
+OK, so that's the first approach.
+
+202
+00:23:52,000 --> 00:24:02,000
+Now, for the second approach, just now, we have backward difference method.
+
+203
+00:24:02,000 --> 00:24:05,000
+So next is forward difference method.
+
+204
+00:24:05,000 --> 00:24:07,000
+Why here is backward?
+
+205
+00:24:07,000 --> 00:24:13,000
+Because we approximate this line by this horizontal line.
+
+206
+00:24:14,000 --> 00:24:18,000
+Yeah, this is backward because this is YK minus one.
+
+207
+00:24:18,000 --> 00:24:20,000
+So you backward one step here.
+
+208
+00:24:20,000 --> 00:24:22,000
+Now forward.
+
+209
+00:24:22,000 --> 00:24:30,000
+Forward, you are going to use this value to obtain a rectangle.
+
+210
+00:24:30,000 --> 00:24:42,000
+So here, the area below this curve is approximated by this rectangle, the area of this rectangle.
+
+211
+00:24:42,000 --> 00:24:44,000
+Yeah, this part.
+
+212
+00:24:44,000 --> 00:24:49,000
+So that's called forward difference method.
+
+213
+00:24:49,000 --> 00:25:02,000
+So in this case, our integral, the area below this curve is approximated by this area, which is YK minus one T.
+
+214
+00:25:02,000 --> 00:25:14,000
+Because at this point, the function value is YK minus one T.
+
+215
+00:25:14,000 --> 00:25:24,000
+OK, so you are using this as the length of one side, then times T.
+
+216
+00:25:24,000 --> 00:25:31,000
+T is the length of the rectangle of the other side.
+
+217
+00:25:31,000 --> 00:25:39,000
+OK, so similarly, the second term can also be approximated by this.
+
+218
+00:25:40,000 --> 00:25:56,000
+Then this equation, yeah, this equation here, 503.
+
+219
+00:25:56,000 --> 00:25:59,000
+We'll change to this.
+
+220
+00:25:59,000 --> 00:26:01,000
+Yeah, left side has no approximation.
+
+221
+00:26:01,000 --> 00:26:07,000
+And the right side, yeah, this left side is exactly equal to this.
+
+222
+00:26:07,000 --> 00:26:13,000
+For the right side here, you have these two approximations.
+
+223
+00:26:13,000 --> 00:26:15,000
+Then you take Z transform.
+
+224
+00:26:15,000 --> 00:26:20,000
+You have this equation.
+
+225
+00:26:20,000 --> 00:26:25,000
+Then you find the ratio of YZ over XZ.
+
+226
+00:26:25,000 --> 00:26:27,000
+So you get this answer.
+
+227
+00:26:27,000 --> 00:26:34,000
+Therefore, you change your S to this.
+
+228
+00:26:34,000 --> 00:26:39,000
+You get the Z transfer function.
+
+229
+00:26:39,000 --> 00:26:42,000
+Yeah, you get this Z transfer function.
+
+230
+00:26:42,000 --> 00:26:48,000
+OK, so that's the second approximation method.
+
+231
+00:26:48,000 --> 00:26:50,000
+Now we have the third one.
+
+232
+00:26:50,000 --> 00:26:55,000
+Third one, we don't consider rectangle.
+
+233
+00:26:55,000 --> 00:26:58,000
+We will consider a trapezium.
+
+234
+00:26:58,000 --> 00:27:00,000
+So you have this base.
+
+235
+00:27:00,000 --> 00:27:02,000
+This is another base.
+
+236
+00:27:02,000 --> 00:27:08,000
+So this trapezium is this.
+
+237
+00:27:08,000 --> 00:27:15,000
+So what's the area of this trapezium?
+
+238
+00:27:15,000 --> 00:27:23,000
+It will be equal to half times this length plus this length,
+
+239
+00:27:23,000 --> 00:27:27,000
+then multiplied by this height.
+
+240
+00:27:27,000 --> 00:27:34,000
+So that's the third method called the bilinear transformation method.
+
+241
+00:27:34,000 --> 00:27:37,000
+Basically, we have this approximation.
+
+242
+00:27:37,000 --> 00:27:49,000
+So it will be this length plus this length divided by 2.
+
+243
+00:27:49,000 --> 00:27:54,000
+That's this times T.
+
+244
+00:27:54,000 --> 00:28:00,000
+So that's the area of the trapezium here.
+
+245
+00:28:00,000 --> 00:28:05,000
+Similarly, for the second term, you have this approximation.
+
+246
+00:28:05,000 --> 00:28:12,000
+So in this case, our equation here, 5.3, will be changed to this.
+
+247
+00:28:12,000 --> 00:28:18,000
+The left side is YKT minus YK minus 1T.
+
+248
+00:28:18,000 --> 00:28:22,000
+On the right side, we have these two approximations.
+
+249
+00:28:22,000 --> 00:28:26,000
+So you have this difference equation.
+
+250
+00:28:26,000 --> 00:28:29,000
+Then you take a Z-transform on both sides,
+
+251
+00:28:29,000 --> 00:28:34,000
+and then to some simplification, you have this result.
+
+252
+00:28:34,000 --> 00:28:36,000
+Yeah, this is YZ.
+
+253
+00:28:36,000 --> 00:28:41,000
+This move to the right, you have Z inverse YZ.
+
+254
+00:28:41,000 --> 00:28:49,000
+For this term, it will be YZ plus Z inverse YZ times AT divided by 2.
+
+255
+00:28:49,000 --> 00:28:54,000
+Yeah, for this, you also have the same as this.
+
+256
+00:28:54,000 --> 00:28:57,000
+Okay, you take the ratio.
+
+257
+00:28:57,000 --> 00:29:02,000
+Basically, you have to find the ratio of YZ over XZ.
+
+258
+00:29:02,000 --> 00:29:07,000
+So you get this discrete time transfer function.
+
+259
+00:29:07,000 --> 00:29:13,000
+Okay, compare this transfer function with our Laplace transfer function here.
+
+260
+00:29:13,000 --> 00:29:20,000
+We can see that S is replaced by this term.
+
+261
+00:29:20,000 --> 00:29:25,000
+2 over T, 1 minus Z inverse divided by 1 plus Z inverse.
+
+262
+00:29:25,000 --> 00:29:31,000
+Or equivalently, you have this approximation.
+
+263
+00:29:31,000 --> 00:29:35,000
+Okay, so this is the third transformation method
+
+264
+00:29:35,000 --> 00:29:38,000
+called bilinear transformation method.
+
+265
+00:29:38,000 --> 00:29:41,000
+Yeah, this method is frequently used
+
+266
+00:29:41,000 --> 00:29:46,000
+because you can see the approximation error is smaller
+
+267
+00:29:46,000 --> 00:29:53,000
+than the other two methods.
+
+268
+00:29:53,000 --> 00:30:00,000
+Okay, this is to approximate the integral.
+
+269
+00:30:00,000 --> 00:30:05,000
+Now we have another approximation method
+
+270
+00:30:05,000 --> 00:30:09,000
+called the pole-zero matching.
+
+271
+00:30:09,000 --> 00:30:14,000
+Yeah, so you can see based on the title here,
+
+272
+00:30:14,000 --> 00:30:18,000
+pole-zero means you are going to consider the pole and the zero
+
+273
+00:30:18,000 --> 00:30:22,000
+of your transfer function.
+
+274
+00:30:22,000 --> 00:30:33,000
+Yeah, so this is the transfer function of the analog controller.
+
+275
+00:30:33,000 --> 00:30:38,000
+Yeah, that is the controller we obtained.
+
+276
+00:30:38,000 --> 00:30:41,000
+Here, I use the notation GAS.
+
+277
+00:30:41,000 --> 00:30:46,000
+Actually, at the beginning, it's the CS.
+
+278
+00:30:46,000 --> 00:30:55,000
+So this is represented in pole-zero form.
+
+279
+00:30:55,000 --> 00:30:59,000
+Yeah, that means you have to factorize your numerator
+
+280
+00:30:59,000 --> 00:31:05,000
+and the denominator into a number of factors.
+
+281
+00:31:05,000 --> 00:31:08,000
+Of course, in front, we have again, K.
+
+282
+00:31:08,000 --> 00:31:14,000
+So that's the transfer function we obtained in the first step.
+
+283
+00:31:14,000 --> 00:31:20,000
+That is, you obtain your CS from the analog design method.
+
+284
+00:31:20,000 --> 00:31:30,000
+Okay, so we are going to convert this to a digital controller.
+
+285
+00:31:30,000 --> 00:31:33,000
+So based on pole-zero matching.
+
+286
+00:31:33,000 --> 00:31:38,000
+Yeah, the idea is this.
+
+287
+00:31:38,000 --> 00:31:42,000
+We use this relationship, z equals e to the power st,
+
+288
+00:31:42,000 --> 00:31:44,000
+to do the matching.
+
+289
+00:31:44,000 --> 00:31:52,000
+So based on this, all the poles for the analog transfer function
+
+290
+00:31:52,000 --> 00:31:54,000
+in the poles are bi.
+
+291
+00:31:54,000 --> 00:31:59,000
+So bi is converted to e to the power bit
+
+292
+00:31:59,000 --> 00:32:02,000
+based on this relationship.
+
+293
+00:32:02,000 --> 00:32:08,000
+If you have m poles, all the m poles are converted in this form.
+
+294
+00:32:08,000 --> 00:32:13,000
+So it's the product of z minus e to the power bit.
+
+295
+00:32:13,000 --> 00:32:16,000
+Okay, that's the mapping of poles.
+
+296
+00:32:16,000 --> 00:32:19,000
+Now, we have zeros.
+
+297
+00:32:19,000 --> 00:32:22,000
+In this case, we have m zeros.
+
+298
+00:32:22,000 --> 00:32:29,000
+Yeah, so each zero ai is mapped to this e ai t.
+
+299
+00:32:29,000 --> 00:32:34,000
+So you have m zero here.
+
+300
+00:32:34,000 --> 00:32:39,000
+Okay, when we consider pole-zero matching, that's not enough.
+
+301
+00:32:39,000 --> 00:32:43,000
+Because based on this transfer function,
+
+302
+00:32:43,000 --> 00:32:49,000
+we have order difference, which is m minus m.
+
+303
+00:32:49,000 --> 00:32:51,000
+Okay, m minus m.
+
+304
+00:32:51,000 --> 00:32:54,000
+You have m poles, m zeros.
+
+305
+00:32:55,000 --> 00:32:57,000
+This actually means
+
+306
+00:33:01,000 --> 00:33:05,000
+there are m minus m zeros at infinity
+
+307
+00:33:05,000 --> 00:33:08,000
+for this transfer function.
+
+308
+00:33:08,000 --> 00:33:12,000
+So those zeros should be considered
+
+309
+00:33:12,000 --> 00:33:17,000
+when you do the pole-zero matching.
+
+310
+00:33:17,000 --> 00:33:22,000
+So you have to add either m minus m
+
+311
+00:33:22,000 --> 00:33:26,000
+or m minus m minus one zeros
+
+312
+00:33:28,000 --> 00:33:31,000
+in the transfer function gz.
+
+313
+00:33:32,000 --> 00:33:35,000
+These zeros are at negative one.
+
+314
+00:33:37,000 --> 00:33:41,000
+Yeah, that is the zeros at infinity
+
+315
+00:33:41,000 --> 00:33:46,000
+is corresponding to negative one in the z domain.
+
+316
+00:33:50,000 --> 00:33:54,000
+Basically, we are going to set this,
+
+317
+00:33:54,000 --> 00:33:59,000
+yeah, this omega t should be equal to pi
+
+318
+00:34:01,000 --> 00:34:06,000
+because we have to have an upper bound
+
+319
+00:34:07,000 --> 00:34:12,000
+for the mapping from the continuous frequency
+
+320
+00:34:13,000 --> 00:34:16,000
+to the digital frequency.
+
+321
+00:34:17,000 --> 00:34:22,000
+Yeah, this is to follow the Nyquist sampling theorem.
+
+322
+00:34:24,000 --> 00:34:28,000
+So basically, the frequency at the infinity
+
+323
+00:34:28,000 --> 00:34:31,000
+is corresponding to half omega s.
+
+324
+00:34:32,000 --> 00:34:36,000
+So if you substitute the half omega s to here,
+
+325
+00:34:36,000 --> 00:34:40,000
+yeah, that is when omega equals to half omega s,
+
+326
+00:34:40,000 --> 00:34:43,000
+then omega t is pi.
+
+327
+00:34:43,000 --> 00:34:47,000
+Yeah, because half omega s times t,
+
+328
+00:34:49,000 --> 00:34:53,000
+yeah, you do a calculation, half omega s times t.
+
+329
+00:34:53,000 --> 00:34:58,000
+That is equal to, what is omega s times t?
+
+330
+00:35:06,000 --> 00:35:07,000
+It's two pi, right?
+
+331
+00:35:08,000 --> 00:35:11,000
+Then this divided by two, so it's pi.
+
+332
+00:35:11,000 --> 00:35:13,000
+Yeah, omega, you have to note,
+
+333
+00:35:15,000 --> 00:35:18,000
+basically, our t is,
+
+334
+00:35:18,000 --> 00:35:22,000
+yeah, this t is just the one over f, correct?
+
+335
+00:35:23,000 --> 00:35:26,000
+But omega s is two pi f.
+
+336
+00:35:26,000 --> 00:35:31,000
+So that's why omega s times t will be two pi.
+
+337
+00:35:31,000 --> 00:35:33,000
+So two pi divided by two is pi.
+
+338
+00:35:34,000 --> 00:35:37,000
+So that's why at this frequency,
+
+339
+00:35:37,000 --> 00:35:42,000
+the corresponding location in the z domain is negative one.
+
+340
+00:35:44,000 --> 00:35:45,000
+Okay?
+
+341
+00:35:46,000 --> 00:35:51,000
+So the continuous time in the s domain,
+
+342
+00:35:52,000 --> 00:35:55,000
+the frequency at the infinity,
+
+343
+00:35:57,000 --> 00:35:59,000
+the zero at the infinity corresponding
+
+344
+00:35:59,000 --> 00:36:03,000
+to our frequency in the infinity in the s domain,
+
+345
+00:36:03,000 --> 00:36:06,000
+this should be corresponding to the boundary
+
+346
+00:36:08,000 --> 00:36:12,000
+of half omega s when you do the matching
+
+347
+00:36:13,000 --> 00:36:17,000
+by following the Nyquist sampling theorem.
+
+348
+00:36:17,000 --> 00:36:22,000
+So all those zeros should be mapped to negative one.
+
+349
+00:36:22,000 --> 00:36:27,000
+That's why we either have z plus one,
+
+350
+00:36:27,000 --> 00:36:29,000
+two power of m minus m,
+
+351
+00:36:29,000 --> 00:36:33,000
+or z plus one, two power of m minus one.
+
+352
+00:36:33,000 --> 00:36:35,000
+This will be sufficient.
+
+353
+00:36:35,000 --> 00:36:38,000
+So these are the pole-zero matching.
+
+354
+00:36:40,000 --> 00:36:42,000
+Now, how about the gain?
+
+355
+00:36:43,000 --> 00:36:46,000
+So we have to consider the gain also.
+
+356
+00:36:46,000 --> 00:36:50,000
+So here, we don't know this alpha.
+
+357
+00:36:50,000 --> 00:36:53,000
+So we don't know the gain in gz.
+
+358
+00:36:53,000 --> 00:36:55,000
+We just put the alpha.
+
+359
+00:36:55,000 --> 00:37:00,000
+So we have to select our frequency to find our alpha.
+
+360
+00:37:05,000 --> 00:37:08,000
+So this frequency maybe is a critical frequency
+
+361
+00:37:08,000 --> 00:37:10,000
+to be considered.
+
+362
+00:37:10,000 --> 00:37:12,000
+For example, for no-pulse filter,
+
+363
+00:37:12,000 --> 00:37:17,000
+alpha is selected to match the dc gain.
+
+364
+00:37:18,000 --> 00:37:21,000
+At dc gain, for this case,
+
+365
+00:37:22,000 --> 00:37:26,000
+in the s domain, dc gain means ga zero.
+
+366
+00:37:28,000 --> 00:37:32,000
+In the z domain, dc gain means g one.
+
+367
+00:37:33,000 --> 00:37:37,000
+So based on this condition, you can find your alpha.
+
+368
+00:37:37,000 --> 00:37:38,000
+Okay?
+
+369
+00:37:43,000 --> 00:37:48,000
+So that's the method of using pole-zero approach
+
+370
+00:37:48,000 --> 00:37:52,000
+to convert gas to gz.
+
+371
+00:37:53,000 --> 00:37:58,000
+So basically, we have four steps.
+
+372
+00:37:58,000 --> 00:38:02,000
+First, you convert all the poles, bi,
+
+373
+00:38:02,000 --> 00:38:06,000
+to e to the power of bit,
+
+374
+00:38:06,000 --> 00:38:08,000
+where t is the sampling period.
+
+375
+00:38:09,000 --> 00:38:17,000
+Second step, you convert zero ai to e to the power of ait.
+
+376
+00:38:19,000 --> 00:38:20,000
+You have m zeros.
+
+377
+00:38:20,000 --> 00:38:22,000
+You have to do this m times.
+
+378
+00:38:23,000 --> 00:38:30,000
+And the third step, you have to consider the zero at infinity.
+
+379
+00:38:30,000 --> 00:38:35,000
+Yeah, either you added this z plus one to the power of m
+
+380
+00:38:35,000 --> 00:38:38,000
+plus m, or m minus m,
+
+381
+00:38:38,000 --> 00:38:42,000
+or z plus one to the power of m minus m minus one.
+
+382
+00:38:42,000 --> 00:38:44,000
+Both are okay.
+
+383
+00:38:45,000 --> 00:38:49,000
+And finally, the fourth step is to find a constant alpha
+
+384
+00:38:49,000 --> 00:38:56,000
+to match the gain of gas and gz at a critical frequency.
+
+385
+00:38:57,000 --> 00:38:58,000
+Yeah.
+
+386
+00:38:58,000 --> 00:39:03,000
+As I said, normally, it's at the zero frequency.
+
+387
+00:39:05,000 --> 00:39:07,000
+dc gain is zero frequency.
+
+388
+00:39:07,000 --> 00:39:13,000
+Zero frequency in s domain, that means it changes s to zero.
+
+389
+00:39:13,000 --> 00:39:15,000
+In z domain, you change z to one.
+
+390
+00:39:16,000 --> 00:39:21,000
+Yeah, because when s is zero, if you use this, z will be one.
+
+391
+00:39:21,000 --> 00:39:22,000
+Okay?
+
+392
+00:39:23,000 --> 00:39:25,000
+So we have four steps to do this.
+
+393
+00:39:26,000 --> 00:39:37,000
+Yeah, that is this relationship here to find alpha.
+
+394
+00:39:37,000 --> 00:39:39,000
+Okay, let's look at the example.
+
+395
+00:39:40,000 --> 00:39:45,000
+Suppose we have found a transfer function, gas.
+
+396
+00:39:47,000 --> 00:39:51,000
+We need to use a pole-zero matching method
+
+397
+00:39:51,000 --> 00:39:59,000
+to find the corresponding discrete time transfer function.
+
+398
+00:40:00,000 --> 00:40:04,000
+Okay, so for this transfer function,
+
+399
+00:40:04,000 --> 00:40:07,000
+we have the following data given.
+
+400
+00:40:07,000 --> 00:40:10,000
+The damping ratio is equal to 0.5.
+
+401
+00:40:10,000 --> 00:40:12,000
+Yeah, that is this zeta.
+
+402
+00:40:13,000 --> 00:40:15,000
+This zeta is our damping ratio.
+
+403
+00:40:15,000 --> 00:40:17,000
+That's 0.5.
+
+404
+00:40:17,000 --> 00:40:22,000
+So I maybe write this here.
+
+405
+00:40:23,000 --> 00:40:26,000
+So this is our zeta.
+
+406
+00:40:28,000 --> 00:40:32,000
+Under the undamped natural frequency, that is omega n.
+
+407
+00:40:32,000 --> 00:40:39,000
+Yeah, this omega n is five radians per second.
+
+408
+00:40:41,000 --> 00:40:46,000
+If the sampling period, t, is 0.1 second,
+
+409
+00:40:46,000 --> 00:40:51,000
+you have to find the corresponding
+
+410
+00:40:54,000 --> 00:40:58,000
+digital controller transfer function.
+
+411
+00:40:59,000 --> 00:41:02,000
+Then you can use the frequency response
+
+412
+00:41:03,000 --> 00:41:05,000
+of the obtained digital filter
+
+413
+00:41:08,000 --> 00:41:13,000
+to check the accuracy of your approximation.
+
+414
+00:41:16,000 --> 00:41:20,000
+Okay, so based on these three data
+
+415
+00:41:20,000 --> 00:41:22,000
+and also the transfer function,
+
+416
+00:41:22,000 --> 00:41:28,000
+you can use the pole-zero approximation to find the gz.
+
+417
+00:41:28,000 --> 00:41:33,000
+So here, for the given transfer function here,
+
+418
+00:41:33,000 --> 00:41:37,000
+our n is two, m is zero, correct?
+
+419
+00:41:37,000 --> 00:41:42,000
+Yeah, so this n should be two, this m is zero.
+
+420
+00:41:43,000 --> 00:41:45,000
+So we have two poles.
+
+421
+00:41:47,000 --> 00:41:51,000
+And you can find these two poles at negative zeta omega n
+
+422
+00:41:51,000 --> 00:41:56,000
+plus minus j omega d, where omega d is equal to that.
+
+423
+00:41:56,000 --> 00:41:57,000
+Okay, how do we get this?
+
+424
+00:41:57,000 --> 00:42:02,000
+You just solve the equation by making the denominator zero.
+
+425
+00:42:02,000 --> 00:42:07,000
+You can find these two solutions.
+
+426
+00:42:07,000 --> 00:42:09,000
+Two solutions.
+
+427
+00:42:12,000 --> 00:42:16,000
+Okay, now gz, yeah, based on this result,
+
+428
+00:42:17,000 --> 00:42:22,000
+for the first step, you have to map the two poles
+
+429
+00:42:24,000 --> 00:42:28,000
+to the product of these two factors.
+
+430
+00:42:29,000 --> 00:42:33,000
+Yeah, one is e to the power of negative zeta omega n
+
+431
+00:42:33,000 --> 00:42:35,000
+plus j omega d.
+
+432
+00:42:35,000 --> 00:42:39,000
+The other is, yeah, and the map of the other one
+
+433
+00:42:39,000 --> 00:42:44,000
+is e to the power of negative zeta omega n minus j omega d.
+
+434
+00:42:46,000 --> 00:42:51,000
+Actually, if you do some simple calculation of this product,
+
+435
+00:42:54,000 --> 00:42:56,000
+yeah, you have two factors here.
+
+436
+00:42:56,000 --> 00:42:58,000
+If you multiply the two factors,
+
+437
+00:42:58,000 --> 00:43:02,000
+you get this answer in the denominator.
+
+438
+00:43:02,000 --> 00:43:07,000
+Yeah, you can see that the multiplication will be this.
+
+439
+00:43:09,000 --> 00:43:12,000
+You just have, yeah, for the denominator,
+
+440
+00:43:12,000 --> 00:43:17,000
+one pole is this, another pole is this, s2, s1, s2, okay?
+
+441
+00:43:17,000 --> 00:43:22,000
+So if you do multiplication, this will be z squared for,
+
+442
+00:43:22,000 --> 00:43:25,000
+yeah, this z times z is z squared for this.
+
+443
+00:43:25,000 --> 00:43:29,000
+The coefficient of this z, it will be negative
+
+444
+00:43:29,000 --> 00:43:34,000
+this times one plus this times one,
+
+445
+00:43:35,000 --> 00:43:38,000
+so it's this summation times z.
+
+446
+00:43:38,000 --> 00:43:42,000
+Then for the constant term, this one times this,
+
+447
+00:43:42,000 --> 00:43:43,000
+you get this.
+
+448
+00:43:43,000 --> 00:43:45,000
+Okay, when you do this addition,
+
+449
+00:43:46,000 --> 00:43:49,000
+yeah, consider this addition, it will be this.
+
+450
+00:43:50,000 --> 00:43:54,000
+Yeah, the s1 is negative zeta omega nt
+
+451
+00:43:55,000 --> 00:43:58,000
+plus j omega dt, as you can see,
+
+452
+00:43:59,000 --> 00:44:00,000
+from there.
+
+453
+00:44:00,000 --> 00:44:02,000
+So when you do this exponential,
+
+454
+00:44:02,000 --> 00:44:07,000
+it will be separate into the product of these two terms.
+
+455
+00:44:07,000 --> 00:44:10,000
+For the second term, it will be this.
+
+456
+00:44:10,000 --> 00:44:13,000
+Then you can factorize this out.
+
+457
+00:44:14,000 --> 00:44:17,000
+Yeah, you get the zeta omega nt,
+
+458
+00:44:17,000 --> 00:44:20,000
+then you have this left in the first term,
+
+459
+00:44:20,000 --> 00:44:23,000
+you have this left in the second term.
+
+460
+00:44:23,000 --> 00:44:28,000
+Okay, this plus this is two times cosine omega nt.
+
+461
+00:44:29,000 --> 00:44:31,000
+Dt, right?
+
+462
+00:44:31,000 --> 00:44:36,000
+Yeah, this plus this will be twice of cosine omega dt
+
+463
+00:44:37,000 --> 00:44:39,000
+based on the OE norm formula.
+
+464
+00:44:40,000 --> 00:44:44,000
+Okay, so that's why we have this.
+
+465
+00:44:44,000 --> 00:44:48,000
+Negative two times e to our negative zeta omega nt
+
+466
+00:44:48,000 --> 00:44:50,000
+times this times z.
+
+467
+00:44:50,000 --> 00:44:55,000
+Yeah, that's the coefficient of z.
+
+468
+00:44:56,000 --> 00:44:59,000
+Now for this product, yeah,
+
+469
+00:44:59,000 --> 00:45:02,000
+you can also do multiplication,
+
+470
+00:45:02,000 --> 00:45:07,000
+e to our s1t times e to our s2t will be equal to this.
+
+471
+00:45:08,000 --> 00:45:13,000
+And s1 plus s2, the imaginary part will be cancel out.
+
+472
+00:45:14,000 --> 00:45:19,000
+The real part is just negative twice zeta omega nt.
+
+473
+00:45:20,000 --> 00:45:21,000
+Okay?
+
+474
+00:45:22,000 --> 00:45:23,000
+As you can see here.
+
+475
+00:45:23,000 --> 00:45:28,000
+So, the constant term will be just equal to this here.
+
+476
+00:45:31,000 --> 00:45:34,000
+Okay, so that's the denominator.
+
+477
+00:45:36,000 --> 00:45:39,000
+Yeah, based on this mapping,
+
+478
+00:45:39,000 --> 00:45:42,000
+our denominator is equal to this.
+
+479
+00:45:42,000 --> 00:45:46,000
+For the numerator, because we don't have zero,
+
+480
+00:45:46,000 --> 00:45:48,000
+so we don't have this part,
+
+481
+00:45:49,000 --> 00:45:54,000
+we only have to consider one zero at negative one.
+
+482
+00:45:57,000 --> 00:46:02,000
+So we have z plus one, two power of two minus one minus one,
+
+483
+00:46:02,000 --> 00:46:04,000
+which is one here.
+
+484
+00:46:04,000 --> 00:46:07,000
+Okay, in front, we have a constant alpha.
+
+485
+00:46:07,000 --> 00:46:09,000
+So you have to determine this alpha
+
+486
+00:46:09,000 --> 00:46:14,000
+from our given transfer function here.
+
+487
+00:46:15,000 --> 00:46:19,000
+Yeah, from this given gas.
+
+488
+00:46:20,000 --> 00:46:23,000
+Okay, so you have to do some calculation.
+
+489
+00:46:27,000 --> 00:46:32,000
+Yeah, here, you have to compute this omega d.
+
+490
+00:46:32,000 --> 00:46:35,000
+Yeah, omega d is given here,
+
+491
+00:46:35,000 --> 00:46:39,000
+omega n times square root one minus zeta square.
+
+492
+00:46:40,000 --> 00:46:45,000
+This omega n is five, and this zeta is zero point five.
+
+493
+00:46:45,000 --> 00:46:48,000
+So your calculation is this.
+
+494
+00:46:48,000 --> 00:46:53,000
+So you get omega d, then later you have to time zero point one
+
+495
+00:46:54,000 --> 00:46:56,000
+to get this omega dt.
+
+496
+00:46:58,000 --> 00:47:02,000
+So, you get this answer here.
+
+497
+00:47:04,000 --> 00:47:05,000
+Yeah.
+
+498
+00:47:06,000 --> 00:47:08,000
+You have to calculate this also,
+
+499
+00:47:08,000 --> 00:47:12,000
+zeta omega nt, that's zero point five,
+
+500
+00:47:13,000 --> 00:47:16,000
+and this is five, then times zero point one,
+
+501
+00:47:16,000 --> 00:47:20,000
+then take the exponential of g to the power of negative time,
+
+502
+00:47:20,000 --> 00:47:22,000
+and you get this.
+
+503
+00:47:24,000 --> 00:47:29,000
+Okay, so now, to get alpha, how do we get alpha?
+
+504
+00:47:31,000 --> 00:47:33,000
+Yeah, you choose...
+
+505
+00:47:35,000 --> 00:47:40,000
+When s is zero, then this is one, right?
+
+506
+00:47:41,000 --> 00:47:45,000
+So gas, when s is zero, that's one.
+
+507
+00:47:45,000 --> 00:47:50,000
+So here, you also use the condition.
+
+508
+00:47:51,000 --> 00:47:53,000
+Yeah, that is, when z...
+
+509
+00:47:55,000 --> 00:47:57,000
+Yeah, you have to get this alpha.
+
+510
+00:47:57,000 --> 00:48:02,000
+When z equals one, yeah, when z equals one,
+
+511
+00:48:02,000 --> 00:48:04,000
+then you have two alpha here,
+
+512
+00:48:04,000 --> 00:48:06,000
+then you have to compute the,
+
+513
+00:48:06,000 --> 00:48:09,000
+you have to compute the denominator also.
+
+514
+00:48:09,000 --> 00:48:12,000
+Yeah, we have to get these values,
+
+515
+00:48:12,000 --> 00:48:17,000
+then from that, you get this value for the alpha.
+
+516
+00:48:19,000 --> 00:48:24,000
+So that's the gz in the discrete time domain.
+
+517
+00:48:30,000 --> 00:48:33,000
+And we also can plot the frequency response
+
+518
+00:48:34,000 --> 00:48:39,000
+of our gas, yeah, that is this transfer function,
+
+519
+00:48:42,000 --> 00:48:45,000
+and also the obtained gz here.
+
+520
+00:48:48,000 --> 00:48:52,000
+So you can plot this, the frequency response
+
+521
+00:48:52,000 --> 00:48:55,000
+of these two transfer functions.
+
+522
+00:48:55,000 --> 00:49:00,000
+So this is the magnitude of gz,
+
+523
+00:49:01,000 --> 00:49:04,000
+and this is the magnitude of gs.
+
+524
+00:49:04,000 --> 00:49:05,000
+This is the phase.
+
+525
+00:49:06,000 --> 00:49:11,000
+You can see that for the frequency range
+
+526
+00:49:12,000 --> 00:49:15,000
+from up to this,
+
+527
+00:49:19,000 --> 00:49:24,000
+this is 10, 20, 30, here.
+
+528
+00:49:27,000 --> 00:49:29,000
+You have good approximation.
+
+529
+00:49:30,000 --> 00:49:31,000
+Okay?
+
+530
+00:49:33,000 --> 00:49:37,000
+Yeah, let's have, let's consider another example.
+
+531
+00:49:37,000 --> 00:49:40,000
+Yeah, this time, we have this transfer function,
+
+532
+00:49:41,000 --> 00:49:46,000
+and the damping ratio is 0.88.
+
+533
+00:49:46,000 --> 00:49:49,000
+Omega n is 1.15.
+
+534
+00:49:53,000 --> 00:49:55,000
+Actually similar to this.
+
+535
+00:49:55,000 --> 00:50:00,000
+So if you choose sampling period as 0.02 second,
+
+536
+00:50:02,000 --> 00:50:06,000
+you follow the approach same as we did earlier.
+
+537
+00:50:06,000 --> 00:50:11,000
+We have this transfer function to approximate this here.
+
+538
+00:50:14,000 --> 00:50:17,000
+Yeah, by using the pole-zero matching.
+
+539
+00:50:19,000 --> 00:50:22,000
+Now let's consider a design example.
+
+540
+00:50:23,000 --> 00:50:25,000
+In this example,
+
+541
+00:50:28,000 --> 00:50:30,000
+we consider the,
+
+542
+00:50:33,000 --> 00:50:34,000
+a car.
+
+543
+00:50:35,000 --> 00:50:37,000
+Yeah, we are going to control this car.
+
+544
+00:50:38,000 --> 00:50:43,000
+The weight of this car is 1000 kilogram.
+
+545
+00:50:45,000 --> 00:50:50,000
+Assume the average friction coefficient B is 100.
+
+546
+00:50:51,000 --> 00:50:54,000
+We have to design a cruise control system
+
+547
+00:50:54,000 --> 00:50:59,000
+such that the car can reach this speed,
+
+548
+00:50:59,000 --> 00:51:04,000
+which is 100 kilometer per hour from stationary
+
+549
+00:51:04,000 --> 00:51:09,000
+in eight seconds, with overshoot less than 20%.
+
+550
+00:51:12,000 --> 00:51:17,000
+Okay, so based on the approach I just mentioned,
+
+551
+00:51:18,000 --> 00:51:21,000
+first, we have to design a controller
+
+552
+00:51:23,000 --> 00:51:25,000
+for the continuous system.
+
+553
+00:51:26,000 --> 00:51:29,000
+Yeah, this is a continuous plant.
+
+554
+00:51:29,000 --> 00:51:34,000
+The plant is a car, okay?
+
+555
+00:51:34,000 --> 00:51:36,000
+So this is the plant.
+
+556
+00:51:36,000 --> 00:51:38,000
+That's the car here.
+
+557
+00:51:42,000 --> 00:51:45,000
+So we have to design our CS.
+
+558
+00:51:45,000 --> 00:51:47,000
+Yeah, based on the,
+
+559
+00:51:50,000 --> 00:51:52,000
+based on this idea here,
+
+560
+00:51:54,000 --> 00:51:58,000
+we have to find the transfer function for this also.
+
+561
+00:51:58,000 --> 00:52:03,000
+Yeah, later on, we need to find this transfer function
+
+562
+00:52:03,000 --> 00:52:04,000
+for this system.
+
+563
+00:52:04,000 --> 00:52:08,000
+Yeah, to find the transfer function, what's the input?
+
+564
+00:52:10,000 --> 00:52:12,000
+What's the output?
+
+565
+00:52:12,000 --> 00:52:14,000
+Yeah, the output is easy.
+
+566
+00:52:14,000 --> 00:52:18,000
+It's speed, right?
+
+567
+00:52:18,000 --> 00:52:19,000
+The output of the car.
+
+568
+00:52:19,000 --> 00:52:21,000
+Yeah, maybe for this example,
+
+569
+00:52:27,000 --> 00:52:28,000
+this is the car.
+
+570
+00:52:30,000 --> 00:52:33,000
+So the output is a speed, V.
+
+571
+00:52:34,000 --> 00:52:36,000
+What's the input?
+
+572
+00:52:36,000 --> 00:52:40,000
+Input is the force, okay?
+
+573
+00:52:40,000 --> 00:52:44,000
+Yeah, you can find the force to drive the car.
+
+574
+00:52:44,000 --> 00:52:48,000
+So this U here, actually this U here is the force.
+
+575
+00:52:51,000 --> 00:52:56,000
+How do we find this model for the car?
+
+576
+00:52:56,000 --> 00:52:59,000
+In other words, how do we find this GS?
+
+577
+00:53:00,000 --> 00:53:03,000
+Yeah, you can use Newton's second law.
+
+578
+00:53:03,000 --> 00:53:06,000
+So what's the total force applied to the car?
+
+579
+00:53:06,000 --> 00:53:08,000
+This is the driving force.
+
+580
+00:53:08,000 --> 00:53:12,000
+So it's U, then minus the friction.
+
+581
+00:53:12,000 --> 00:53:14,000
+Yeah, what's the friction?
+
+582
+00:53:14,000 --> 00:53:17,000
+You have a friction coefficient 100.
+
+583
+00:53:18,000 --> 00:53:23,000
+Yeah, this friction force is proportional to the speed, BV.
+
+584
+00:53:25,000 --> 00:53:30,000
+So this should be equal to M, which is the mass,
+
+585
+00:53:32,000 --> 00:53:34,000
+times acceleration.
+
+586
+00:53:35,000 --> 00:53:37,000
+The acceleration is V dot here.
+
+587
+00:53:38,000 --> 00:53:45,000
+Okay, so that's how you find this equation for the car.
+
+588
+00:53:45,000 --> 00:53:48,000
+Then we are looking for GS.
+
+589
+00:53:48,000 --> 00:53:52,000
+So you move this B to the right side.
+
+590
+00:53:52,000 --> 00:53:55,000
+You have MV dot plus BV.
+
+591
+00:53:58,000 --> 00:54:02,000
+Then take a Laplace transform on both sides.
+
+592
+00:54:02,000 --> 00:54:05,000
+You have US on the left.
+
+593
+00:54:05,000 --> 00:54:07,000
+Then this, yeah, what's a Laplace transform?
+
+594
+00:54:07,000 --> 00:54:12,000
+A Laplace transform of V dot is S times VS, okay?
+
+595
+00:54:12,000 --> 00:54:15,000
+So this is M times SVS.
+
+596
+00:54:16,000 --> 00:54:19,000
+Yeah, that's the property of a Laplace transform.
+
+597
+00:54:19,000 --> 00:54:21,000
+Yeah, this is the derivative.
+
+598
+00:54:22,000 --> 00:54:25,000
+Then plus BVS.
+
+599
+00:54:26,000 --> 00:54:32,000
+So our transfer function GS for this car will be
+
+600
+00:54:38,000 --> 00:54:45,000
+output, yeah, our output is VS divided by input US.
+
+601
+00:54:45,000 --> 00:54:51,000
+That will be one over MS plus B.
+
+602
+00:54:52,000 --> 00:54:57,000
+Okay, so that's the transfer function for this car.
+
+603
+00:54:57,000 --> 00:55:01,000
+So we are going to design this U
+
+604
+00:55:02,000 --> 00:55:06,000
+to achieve the requirement here.
+
+605
+00:55:07,000 --> 00:55:10,000
+The specification has,
+
+606
+00:55:12,000 --> 00:55:15,000
+yeah, this is a transient requirement,
+
+607
+00:55:15,000 --> 00:55:17,000
+transient response requirement.
+
+608
+00:55:17,000 --> 00:55:21,000
+The overshoot should be less than 20%.
+
+609
+00:55:21,000 --> 00:55:26,000
+And the set, yeah, this is like settling time.
+
+610
+00:55:26,000 --> 00:55:29,000
+So from zero to a second.
+
+611
+00:55:30,000 --> 00:55:34,000
+You're set to, from zero to this speed
+
+612
+00:55:34,000 --> 00:55:37,000
+is like settling time.
+
+613
+00:55:37,000 --> 00:55:38,000
+Yeah, actually here should be,
+
+614
+00:55:38,000 --> 00:55:43,000
+the input should be 100 kilometer per hour.
+
+615
+00:55:43,000 --> 00:55:45,000
+Yeah, it's no unit step.
+
+616
+00:55:45,000 --> 00:55:48,000
+It's 100 kilometer per hour.
+
+617
+00:55:48,000 --> 00:55:51,000
+And the hours,
+
+618
+00:55:54,000 --> 00:55:58,000
+so this performance can be converted
+
+619
+00:55:58,000 --> 00:56:00,000
+to this transfer function.
+
+620
+00:56:00,000 --> 00:56:03,000
+Yeah, that's the closed loop transfer function.
+
+621
+00:56:03,000 --> 00:56:07,000
+In other words, this overwork system,
+
+622
+00:56:07,000 --> 00:56:09,000
+this overwork closed loop system
+
+623
+00:56:09,000 --> 00:56:14,000
+should have this transfer function.
+
+624
+00:56:15,000 --> 00:56:17,000
+Okay, in this case,
+
+625
+00:56:17,000 --> 00:56:20,000
+based on the given specification,
+
+626
+00:56:20,000 --> 00:56:23,000
+we can find omega N and zeta.
+
+627
+00:56:23,000 --> 00:56:26,000
+Now for this overshoot 20%,
+
+628
+00:56:26,000 --> 00:56:29,000
+yeah, less than 20% requirement,
+
+629
+00:56:29,000 --> 00:56:31,000
+our damping ratio should be bigger than
+
+630
+00:56:31,000 --> 00:56:34,000
+or equal to 0.46.
+
+631
+00:56:34,000 --> 00:56:37,000
+Yeah, for second order system,
+
+632
+00:56:37,000 --> 00:56:40,000
+there is a relationship between overshoot
+
+633
+00:56:40,000 --> 00:56:42,000
+and the damping ratio.
+
+634
+00:56:42,000 --> 00:56:47,000
+Yeah, that was covered in the classical control design.
+
+635
+00:56:47,000 --> 00:56:52,000
+Yeah, you have a formula to compute overshoot
+
+636
+00:56:52,000 --> 00:56:55,000
+for a given damping ratio.
+
+637
+00:56:55,000 --> 00:56:59,000
+So from that, you can find your damping ratio zeta
+
+638
+00:57:00,000 --> 00:57:01,000
+based on this information.
+
+639
+00:57:01,000 --> 00:57:04,000
+So we choose zeta as 0.7.
+
+640
+00:57:07,000 --> 00:57:11,000
+And we also note our settling time.
+
+641
+00:57:11,000 --> 00:57:16,000
+Yeah, I think we studied settling time in chapter four.
+
+642
+00:57:16,000 --> 00:57:19,000
+We have a few definitions.
+
+643
+00:57:19,000 --> 00:57:24,000
+You have 2% settling time,
+
+644
+00:57:24,000 --> 00:57:26,000
+5% settling time,
+
+645
+00:57:26,000 --> 00:57:29,000
+and here we have 1%.
+
+646
+00:57:29,000 --> 00:57:34,000
+So if you still remember for 5% settling time,
+
+647
+00:57:34,000 --> 00:57:36,000
+Ts,
+
+648
+00:57:38,000 --> 00:57:41,000
+yeah, this settling time will be
+
+649
+00:57:43,000 --> 00:57:47,000
+three divided by zeta omega N.
+
+650
+00:57:47,000 --> 00:57:49,000
+Right?
+
+651
+00:57:49,000 --> 00:57:51,000
+And the 2%
+
+652
+00:57:52,000 --> 00:57:57,000
+is, this settling time is four over zeta omega N.
+
+653
+00:57:57,000 --> 00:58:00,000
+Yeah, you take a longer time
+
+654
+00:58:00,000 --> 00:58:03,000
+because you require more accurate
+
+655
+00:58:05,000 --> 00:58:07,000
+tracking error.
+
+656
+00:58:07,000 --> 00:58:11,000
+So now, if we consider 1%,
+
+657
+00:58:11,000 --> 00:58:17,000
+your settling time is 4.6 divided by zeta omega N.
+
+658
+00:58:18,000 --> 00:58:23,000
+Okay, so now our settling time is choosing as 8 seconds.
+
+659
+00:58:24,000 --> 00:58:30,000
+So 8 equals 4.6 divided by 0.7 times omega N.
+
+660
+00:58:30,000 --> 00:58:33,000
+So from this, you can get your omega N.
+
+661
+00:58:35,000 --> 00:58:36,000
+Okay?
+
+662
+00:58:36,000 --> 00:58:39,000
+So basically, we can convert
+
+663
+00:58:39,000 --> 00:58:44,000
+this specification of overshoot
+
+664
+00:58:44,000 --> 00:58:47,000
+and the settling time to this
+
+665
+00:58:48,000 --> 00:58:50,000
+closed loop transfer function.
+
+666
+00:58:50,000 --> 00:58:53,000
+And this closed loop transfer function
+
+667
+00:58:53,000 --> 00:58:56,000
+has a gain of one in DC.
+
+668
+00:58:56,000 --> 00:58:58,000
+Yeah, DC gain is one.
+
+669
+00:58:58,000 --> 00:59:02,000
+Yeah, you can see that when S is zero, this is one.
+
+670
+00:59:02,000 --> 00:59:06,000
+That's why we put omega N squared is the numerator
+
+671
+00:59:06,000 --> 00:59:09,000
+so that this divided by this is one.
+
+672
+00:59:09,000 --> 00:59:10,000
+Okay?
+
+673
+00:59:10,000 --> 00:59:15,000
+Yeah, you want this output to follow the reference input.
+
+674
+00:59:15,000 --> 00:59:19,000
+So this DC gain should be one.
+
+675
+00:59:19,000 --> 00:59:24,000
+Okay, so that's the conversion of specification
+
+676
+00:59:24,000 --> 00:59:26,000
+to a closed loop transfer function.
+
+677
+00:59:26,000 --> 00:59:29,000
+That means this closed loop system
+
+678
+00:59:30,000 --> 00:59:34,000
+should have this transfer function.
+
+679
+00:59:34,000 --> 00:59:37,000
+Now, we have found this Gs.
+
+680
+00:59:37,000 --> 00:59:39,000
+We can compute Cs.
+
+681
+00:59:40,000 --> 00:59:44,000
+To obtain this closed loop transfer function.
+
+682
+00:59:44,000 --> 00:59:45,000
+Okay?
+
+683
+00:59:48,000 --> 00:59:52,000
+Yeah, this is the desired closed loop transfer function.
+
+684
+00:59:52,000 --> 00:59:55,000
+Just now, I will issue that our Gs.
+
+685
+00:59:55,000 --> 01:00:00,000
+Yeah, this Gs equals this transfer function.
+
+686
+01:00:00,000 --> 01:00:05,000
+So we are going to find the Cs to beat our requirement.
+
+687
+01:00:07,000 --> 01:00:09,000
+So the input is 100.
+
+688
+01:00:09,000 --> 01:00:14,000
+We want the speed of the car to follow this reference.
+
+689
+01:00:17,000 --> 01:00:22,000
+And it should reach this reference input in eight seconds.
+
+690
+01:00:24,000 --> 01:00:27,000
+Okay, there are many possible controllers
+
+691
+01:00:27,000 --> 01:00:30,000
+to achieve this purpose.
+
+692
+01:00:30,000 --> 01:00:34,000
+Here, we just try a PI controller.
+
+693
+01:00:34,000 --> 01:00:37,000
+Yeah, I believe you know what is a PI controller.
+
+694
+01:00:37,000 --> 01:00:41,000
+You have two terms, Kp and Ki.
+
+695
+01:00:41,000 --> 01:00:46,000
+So to find the Cs, you just need to find the Kp and Ki.
+
+696
+01:00:47,000 --> 01:00:51,000
+Once Kp, Ki are found, then get your Cs.
+
+697
+01:00:52,000 --> 01:00:56,000
+Okay, so with this Cs,
+
+698
+01:00:56,000 --> 01:01:00,000
+you can compute the closed loop transfer function,
+
+699
+01:01:00,000 --> 01:01:06,000
+which is Gc divided by one plus Gc.
+
+700
+01:01:06,000 --> 01:01:12,000
+So you substitute our given values of M and B
+
+701
+01:01:12,000 --> 01:01:15,000
+and also this transfer function.
+
+702
+01:01:15,000 --> 01:01:17,000
+You get this result.
+
+703
+01:01:17,000 --> 01:01:20,000
+Yeah, our M and C are given.
+
+704
+01:01:20,000 --> 01:01:26,000
+So you get this answer as the closed loop transfer function.
+
+705
+01:01:27,000 --> 01:01:32,000
+Then we have to equate
+
+706
+01:01:33,000 --> 01:01:38,000
+this denominator to this, okay?
+
+707
+01:01:43,000 --> 01:01:48,000
+So you do a comparison of the two denominators.
+
+708
+01:01:56,000 --> 01:02:01,000
+So this should be same as this.
+
+709
+01:02:05,000 --> 01:02:10,000
+That means zero point one plus zero point zero one Kp
+
+710
+01:02:10,000 --> 01:02:14,000
+should be one point one five, should be equal to that.
+
+711
+01:02:14,000 --> 01:02:19,000
+Zero point zero zero one Ki should be zero point six seven.
+
+712
+01:02:20,000 --> 01:02:24,000
+Then you can find out your Kp and Ki
+
+713
+01:02:24,000 --> 01:02:26,000
+from these two equations.
+
+714
+01:02:26,000 --> 01:02:30,000
+So we have designed the Pi container.
+
+715
+01:02:30,000 --> 01:02:33,000
+Okay, so that means this Cs has been formed.
+
+716
+01:02:33,000 --> 01:02:39,000
+That is the first step in our design procedure.
+
+717
+01:02:39,000 --> 01:02:45,000
+That is, from the given transfer function
+
+718
+01:02:45,000 --> 01:02:51,000
+and also the specification, we can find out Pi container.
+
+719
+01:02:52,000 --> 01:02:57,000
+Okay, now we have to convert this Pi container
+
+720
+01:02:57,000 --> 01:03:01,000
+to discrete time container.
+
+721
+01:03:02,000 --> 01:03:05,000
+So that's our second step.
+
+722
+01:03:05,000 --> 01:03:09,000
+To do the conversion, you have to choose a sampling period.
+
+723
+01:03:09,000 --> 01:03:12,000
+Okay, how do we choose a sampling period?
+
+724
+01:03:12,000 --> 01:03:16,000
+One way is to consider the bandwidth
+
+725
+01:03:16,000 --> 01:03:19,000
+of this closed loop system.
+
+726
+01:03:20,000 --> 01:03:28,000
+Yeah, so you consider the closed loop transfer function.
+
+727
+01:03:30,000 --> 01:03:33,000
+That is this transfer function.
+
+728
+01:03:33,000 --> 01:03:39,000
+And the plot, because now our Kp and Ki have been formed.
+
+729
+01:03:39,000 --> 01:03:42,000
+So we can plot the frequency response
+
+730
+01:03:42,000 --> 01:03:45,000
+of this transfer function using MATLAB.
+
+731
+01:03:45,000 --> 01:03:48,000
+This is the magnitude response.
+
+732
+01:03:48,000 --> 01:03:53,000
+So based on this, you can see the bandwidth
+
+733
+01:03:53,000 --> 01:03:57,000
+is about zero point three hertz.
+
+734
+01:03:57,000 --> 01:04:01,000
+Yeah, because this is the DC gain.
+
+735
+01:04:03,000 --> 01:04:06,000
+This part is DC gain, which is zero dB, that's one.
+
+736
+01:04:06,000 --> 01:04:13,000
+Then this frequency is one, that's two, that's three.
+
+737
+01:04:13,000 --> 01:04:16,000
+Okay?
+
+738
+01:04:23,000 --> 01:04:28,000
+Okay, actually our bandwidth should be around here.
+
+739
+01:04:31,000 --> 01:04:33,000
+Zero point three.
+
+740
+01:04:33,000 --> 01:04:35,000
+Yeah, which was this?
+
+741
+01:04:36,000 --> 01:04:41,000
+And this is equivalent to one point eight.
+
+742
+01:04:41,000 --> 01:04:43,000
+Sorry.
+
+743
+01:04:43,000 --> 01:04:45,000
+It's one point eight.
+
+744
+01:04:45,000 --> 01:04:47,000
+Actually, this is true.
+
+745
+01:04:47,000 --> 01:04:49,000
+So one point here is around here.
+
+746
+01:04:49,000 --> 01:04:52,000
+So that's the one point eight radians per second.
+
+747
+01:04:52,000 --> 01:04:55,000
+Yeah, that is negative three dB.
+
+748
+01:04:55,000 --> 01:04:59,000
+Yeah, I believe you know how to define the bandwidth.
+
+749
+01:04:59,000 --> 01:05:02,000
+The bandwidth is negative.
+
+750
+01:05:02,000 --> 01:05:06,000
+Yeah, because the DC gain here is zero dB.
+
+751
+01:05:06,000 --> 01:05:11,000
+So you look at the negative three dB position.
+
+752
+01:05:11,000 --> 01:05:13,000
+Yeah, this is about negative three dB.
+
+753
+01:05:13,000 --> 01:05:17,000
+So because here is negative five.
+
+754
+01:05:17,000 --> 01:05:20,000
+So negative three, the corresponding frequency
+
+755
+01:05:20,000 --> 01:05:23,000
+is about one point eight radians per second.
+
+756
+01:05:23,000 --> 01:05:27,000
+This is equivalent to zero point three hertz.
+
+757
+01:05:27,000 --> 01:05:32,000
+So that's the bandwidth of this closed loop system.
+
+758
+01:05:32,000 --> 01:05:35,000
+Okay, from this bandwidth you can choose
+
+759
+01:05:35,000 --> 01:05:37,000
+your sampling frequency.
+
+760
+01:05:37,000 --> 01:05:43,000
+Yeah, normally you can choose at least ten times
+
+761
+01:05:43,000 --> 01:05:47,000
+of the bandwidth as your frequency.
+
+762
+01:05:47,000 --> 01:05:49,000
+The minimum is two times.
+
+763
+01:05:49,000 --> 01:05:52,000
+Yeah, but two times is not good enough.
+
+764
+01:05:52,000 --> 01:05:57,000
+So in the solution here, we choose 30 times.
+
+765
+01:05:57,000 --> 01:06:01,000
+So with this 30 times of the bandwidth,
+
+766
+01:06:01,000 --> 01:06:06,000
+then the sampling period is one over this.
+
+767
+01:06:06,000 --> 01:06:11,000
+Yeah, that is the sampling frequency.
+
+768
+01:06:11,000 --> 01:06:19,000
+The sampling frequency is 30 times of the bandwidth.
+
+769
+01:06:19,000 --> 01:06:23,000
+Yeah, the sampling frequency should be at least twice.
+
+770
+01:06:23,000 --> 01:06:26,000
+But as I said, this is not good enough.
+
+771
+01:06:26,000 --> 01:06:29,000
+So we choose 30 times.
+
+772
+01:06:29,000 --> 01:06:31,000
+Then from this sampling frequency,
+
+773
+01:06:31,000 --> 01:06:33,000
+you get the sampling period.
+
+774
+01:06:33,000 --> 01:06:36,000
+Okay, using this sampling period,
+
+775
+01:06:36,000 --> 01:06:40,000
+you can convert this PI controller
+
+776
+01:06:40,000 --> 01:06:44,000
+to digital transfer function, CZ,
+
+777
+01:06:44,000 --> 01:06:47,000
+with this bilinear transformation.
+
+778
+01:06:47,000 --> 01:06:51,000
+Yeah, earlier we have discussed
+
+779
+01:06:51,000 --> 01:06:54,000
+the bilinear transformation with two over T
+
+780
+01:06:54,000 --> 01:06:57,000
+times Z minus one over Z plus one.
+
+781
+01:06:57,000 --> 01:07:00,000
+So this T is zero point one.
+
+782
+01:07:00,000 --> 01:07:02,000
+Then you can do a calculation.
+
+783
+01:07:02,000 --> 01:07:07,000
+You get this digital controller.
+
+784
+01:07:07,000 --> 01:07:09,000
+So that's the second step,
+
+785
+01:07:09,000 --> 01:07:18,000
+which is to find the discrete time transfer function.
+
+786
+01:07:29,000 --> 01:07:32,000
+Okay, so how about next step?
+
+787
+01:07:32,000 --> 01:07:36,000
+Next step is to do verification.
+
+788
+01:07:36,000 --> 01:07:44,000
+Yeah, so the third step is to verify
+
+789
+01:07:44,000 --> 01:07:47,000
+whether our digital controller
+
+790
+01:07:47,000 --> 01:07:51,000
+can achieve the required performance or not.
+
+791
+01:07:51,000 --> 01:07:53,000
+That's the plan.
+
+792
+01:07:53,000 --> 01:07:56,000
+Yeah, just now I already mentioned
+
+793
+01:07:56,000 --> 01:08:14,000
+the transfer function of the plant is obtained here.
+
+794
+01:08:14,000 --> 01:08:21,000
+Our mass is 1,000 kg and the B is 100.
+
+795
+01:08:21,000 --> 01:08:25,000
+So we have this transfer function.
+
+796
+01:08:25,000 --> 01:08:28,000
+When you consider digital controller,
+
+797
+01:08:28,000 --> 01:08:32,000
+you must have a zero order hold.
+
+798
+01:08:32,000 --> 01:08:35,000
+So we put a zero order hold here.
+
+799
+01:08:35,000 --> 01:08:41,000
+And this sampling period is also chosen by us.
+
+800
+01:08:41,000 --> 01:08:45,000
+And this is the digital controller obtained from CES.
+
+801
+01:08:45,000 --> 01:08:50,000
+So you do a simulation for this closed loop system.
+
+802
+01:08:50,000 --> 01:08:54,000
+Yeah, that's the input and this should be the output.
+
+803
+01:08:54,000 --> 01:08:58,000
+So the red curve shows the output.
+
+804
+01:08:58,000 --> 01:09:04,000
+And you can see that in about eight seconds,
+
+805
+01:09:04,000 --> 01:09:12,000
+the output reaches 100 km per hour,
+
+806
+01:09:12,000 --> 01:09:18,000
+reaches the speed, and the overshoot is less than 20%.
+
+807
+01:09:18,000 --> 01:09:23,000
+So the performance is satisfied.
+
+808
+01:09:23,000 --> 01:09:28,000
+Okay, so this is the first approach
+
+809
+01:09:28,000 --> 01:09:32,000
+we used to design our controller.
+
+810
+01:09:32,000 --> 01:09:37,000
+Yeah, this diagram shows, summarizes the approaches.
+
+811
+01:09:37,000 --> 01:09:40,000
+So we have this example.
+
+812
+01:09:40,000 --> 01:09:43,000
+Illustrating this approach.
+
+813
+01:09:43,000 --> 01:09:49,000
+So you have to find the GS from the given information.
+
+814
+01:09:49,000 --> 01:09:57,000
+And you have to find the CS to beat the required performance.
+
+815
+01:09:57,000 --> 01:10:01,000
+Yeah, there is more than one approach to find the CS.
+
+816
+01:10:01,000 --> 01:10:04,000
+Just now, based on our example,
+
+817
+01:10:04,000 --> 01:10:08,000
+we used this closed loop transfer function
+
+818
+01:10:08,000 --> 01:10:13,000
+and this PI controller to get the result.
+
+819
+01:10:13,000 --> 01:10:16,000
+And after you get this CS,
+
+820
+01:10:17,000 --> 01:10:21,000
+you have to convert to CZ.
+
+821
+01:10:21,000 --> 01:10:30,000
+Then in implementation, you should have zero order hold included here.
+
+822
+01:10:30,000 --> 01:10:34,000
+For the third step, you have to do verification.
+
+823
+01:10:34,000 --> 01:10:40,000
+Okay, so we have a break of 20 minutes.
+
+824
+01:10:46,000 --> 01:10:49,000
+Thank you.
+
+825
+01:11:16,000 --> 01:11:18,000
+Thank you.
+
+826
+01:11:46,000 --> 01:11:48,000
+Thank you.
+
+827
+01:12:16,000 --> 01:12:18,000
+Thank you.
+
+828
+01:12:46,000 --> 01:12:48,000
+Thank you.
+
+829
+01:13:16,000 --> 01:13:18,000
+Thank you.
+
+830
+01:13:46,000 --> 01:13:48,000
+Thank you.
+
+831
+01:14:16,000 --> 01:14:18,000
+Thank you.
+
+832
+01:14:46,000 --> 01:14:48,000
+Thank you.
+
+833
+01:15:16,000 --> 01:15:18,000
+Thank you.
+
+834
+01:15:46,000 --> 01:15:48,000
+Thank you.
+
+835
+01:16:16,000 --> 01:16:18,000
+Thank you.
+
+836
+01:16:46,000 --> 01:16:48,000
+Thank you.
+
+837
+01:17:16,000 --> 01:17:18,000
+Thank you.
+
+838
+01:17:46,000 --> 01:17:48,000
+Thank you.
+
+839
+01:18:16,000 --> 01:18:18,000
+Thank you.
+
+840
+01:18:46,000 --> 01:18:48,000
+Thank you.
+
+841
+01:19:16,000 --> 01:19:18,000
+Thank you.
+
+842
+01:19:46,000 --> 01:19:48,000
+Thank you.
+
+843
+01:20:16,000 --> 01:20:18,000
+Thank you.
+
+844
+01:20:46,000 --> 01:20:48,000
+Thank you.
+
+845
+01:21:16,000 --> 01:21:18,000
+Thank you.
+
+846
+01:21:46,000 --> 01:21:48,000
+Thank you.
+
+847
+01:22:16,000 --> 01:22:18,000
+Thank you.
+
+848
+01:22:46,000 --> 01:22:48,000
+Thank you.
+
+849
+01:23:16,000 --> 01:23:18,000
+Thank you.
+
+850
+01:23:46,000 --> 01:23:48,000
+Thank you.
+
+851
+01:24:16,000 --> 01:24:18,000
+Thank you.
+
+852
+01:24:46,000 --> 01:24:48,000
+Thank you.
+
+853
+01:25:16,000 --> 01:25:18,000
+Thank you.
+
+854
+01:25:46,000 --> 01:25:48,000
+Thank you.
+
+855
+01:26:16,000 --> 01:26:18,000
+Thank you.
+
+856
+01:26:46,000 --> 01:26:48,000
+Thank you.
+
+857
+01:27:16,000 --> 01:27:18,000
+Thank you.
+
+858
+01:27:46,000 --> 01:27:48,000
+Thank you.
+
+859
+01:28:16,000 --> 01:28:18,000
+Thank you.
+
+860
+01:28:46,000 --> 01:28:48,000
+Thank you.
+
+861
+01:29:16,000 --> 01:29:18,000
+Thank you.
+
+862
+01:29:46,000 --> 01:29:48,000
+Thank you.
+
+863
+01:30:16,000 --> 01:30:18,000
+Thank you.
+
+864
+01:30:46,000 --> 01:30:48,000
+Thank you.
+
+865
+01:31:16,000 --> 01:31:18,000
+Thank you.
+
+866
+01:31:46,000 --> 01:31:48,000
+Thank you.
+
+867
+01:32:16,000 --> 01:32:18,000
+Thank you.
+
+868
+01:32:46,000 --> 01:32:48,000
+Thank you.
+
+869
+01:33:16,000 --> 01:33:18,000
+Thank you.
+
+870
+01:33:46,000 --> 01:33:48,000
+Thank you.
+
+871
+01:34:16,000 --> 01:34:18,000
+Thank you.
+
+872
+01:34:46,000 --> 01:34:48,000
+Thank you.
+
+873
+01:35:16,000 --> 01:35:18,000
+The second approach.
+
+874
+01:35:18,000 --> 01:35:20,000
+You are also given a plant.
+
+875
+01:35:20,000 --> 01:35:22,000
+But
+
+876
+01:35:22,000 --> 01:35:24,000
+you need to obtain
+
+877
+01:35:24,000 --> 01:35:26,000
+the transfer function for
+
+878
+01:35:26,000 --> 01:35:28,000
+both the plant and the zero
+
+879
+01:35:28,000 --> 01:35:30,000
+of the hole.
+
+880
+01:35:30,000 --> 01:35:32,000
+To get this.
+
+881
+01:35:32,000 --> 01:35:34,000
+So from this
+
+882
+01:35:34,000 --> 01:35:36,000
+and the desired frequency
+
+883
+01:35:36,000 --> 01:35:38,000
+we are going to find
+
+884
+01:35:38,000 --> 01:35:40,000
+CZ.
+
+885
+01:35:40,000 --> 01:35:42,000
+So that, yeah direct
+
+886
+01:35:42,000 --> 01:35:44,000
+domain means we directly use this
+
+887
+01:35:44,000 --> 01:35:46,000
+to find CZ.
+
+888
+01:35:46,000 --> 01:35:48,000
+But this is
+
+889
+01:35:48,000 --> 01:35:50,000
+from the frequency response
+
+890
+01:35:52,000 --> 01:35:54,000
+approach.
+
+891
+01:35:54,000 --> 01:35:56,000
+Okay.
+
+892
+01:35:56,000 --> 01:35:58,000
+Yeah, just now the first approach
+
+893
+01:35:58,000 --> 01:36:00,000
+involves
+
+894
+01:36:00,000 --> 01:36:02,000
+approximation.
+
+895
+01:36:02,000 --> 01:36:04,000
+That is you find
+
+896
+01:36:04,000 --> 01:36:06,000
+your CZ by
+
+897
+01:36:06,000 --> 01:36:08,000
+approximating CS.
+
+898
+01:36:08,000 --> 01:36:10,000
+So
+
+899
+01:36:10,000 --> 01:36:12,000
+if the sampling period is
+
+900
+01:36:12,000 --> 01:36:14,000
+big then
+
+901
+01:36:14,000 --> 01:36:16,000
+there is a
+
+902
+01:36:16,000 --> 01:36:18,000
+significant
+
+903
+01:36:18,000 --> 01:36:20,000
+error.
+
+904
+01:36:20,000 --> 01:36:22,000
+Yeah, approximation
+
+905
+01:36:22,000 --> 01:36:24,000
+error if the sampling period is big.
+
+906
+01:36:24,000 --> 01:36:26,000
+So now the
+
+907
+01:36:26,000 --> 01:36:28,000
+method may not work well
+
+908
+01:36:28,000 --> 01:36:30,000
+when the sampling period
+
+909
+01:36:30,000 --> 01:36:32,000
+is big.
+
+910
+01:36:32,000 --> 01:36:34,000
+Okay, so
+
+911
+01:36:34,000 --> 01:36:36,000
+now let's look at the frequency approach.
+
+912
+01:36:36,000 --> 01:36:38,000
+Again, this
+
+913
+01:36:38,000 --> 01:36:40,000
+is also iterative trying the
+
+914
+01:36:40,000 --> 01:36:42,000
+error method.
+
+915
+01:36:44,000 --> 01:36:46,000
+And we are going to
+
+916
+01:36:46,000 --> 01:36:48,000
+use Bode plots.
+
+917
+01:36:48,000 --> 01:36:50,000
+Yeah, I believe you know what is Bode plots.
+
+918
+01:36:50,000 --> 01:36:52,000
+We have two plots.
+
+919
+01:36:52,000 --> 01:36:54,000
+One is the magnitude
+
+920
+01:36:54,000 --> 01:36:56,000
+and the other is the phase.
+
+921
+01:36:56,000 --> 01:36:58,000
+Okay,
+
+922
+01:36:58,000 --> 01:37:00,000
+two Bode plots
+
+923
+01:37:00,000 --> 01:37:02,000
+of discrete time transfer function.
+
+924
+01:37:02,000 --> 01:37:04,000
+Yeah, this is given.
+
+925
+01:37:04,000 --> 01:37:06,000
+So you have to change
+
+926
+01:37:06,000 --> 01:37:08,000
+this Z
+
+927
+01:37:08,000 --> 01:37:10,000
+to e to the power
+
+928
+01:37:10,000 --> 01:37:12,000
+j omega t.
+
+929
+01:37:12,000 --> 01:37:14,000
+So that's the frequency
+
+930
+01:37:14,000 --> 01:37:16,000
+response of the
+
+931
+01:37:16,000 --> 01:37:18,000
+given
+
+932
+01:37:18,000 --> 01:37:20,000
+transfer function.
+
+933
+01:37:20,000 --> 01:37:22,000
+As you can see here
+
+934
+01:37:22,000 --> 01:37:24,000
+this
+
+935
+01:37:24,000 --> 01:37:26,000
+is a function of
+
+936
+01:37:26,000 --> 01:37:28,000
+e to the power j omega t.
+
+937
+01:37:28,000 --> 01:37:30,000
+So it is not a
+
+938
+01:37:30,000 --> 01:37:32,000
+rational function of j omega.
+
+939
+01:37:32,000 --> 01:37:34,000
+It's a rational function of
+
+940
+01:37:34,000 --> 01:37:36,000
+this e to the power j omega t.
+
+941
+01:37:36,000 --> 01:37:38,000
+So it's not
+
+942
+01:37:38,000 --> 01:37:40,000
+a rational function of j omega.
+
+943
+01:37:40,000 --> 01:37:42,000
+Yeah, in
+
+944
+01:37:42,000 --> 01:37:44,000
+classical controller design
+
+945
+01:37:44,000 --> 01:37:46,000
+based on Bode plots
+
+946
+01:37:46,000 --> 01:37:48,000
+you just change
+
+947
+01:37:48,000 --> 01:37:50,000
+your S to j omega.
+
+948
+01:37:50,000 --> 01:37:52,000
+Then you have a rational function
+
+949
+01:37:52,000 --> 01:37:54,000
+of j omega.
+
+950
+01:37:54,000 --> 01:37:56,000
+So you can plot
+
+951
+01:37:56,000 --> 01:37:58,000
+the Bode plot easily.
+
+952
+01:37:58,000 --> 01:38:00,000
+Here, because it's a function
+
+953
+01:38:00,000 --> 01:38:02,000
+of e to the power j omega t
+
+954
+01:38:02,000 --> 01:38:04,000
+so
+
+955
+01:38:04,000 --> 01:38:06,000
+to plot the Bode plots
+
+956
+01:38:06,000 --> 01:38:08,000
+is very hard.
+
+957
+01:38:08,000 --> 01:38:10,000
+Okay, so we also
+
+958
+01:38:10,000 --> 01:38:12,000
+consider binomial
+
+959
+01:38:12,000 --> 01:38:14,000
+transformation in this case
+
+960
+01:38:14,000 --> 01:38:16,000
+to solve the problem.
+
+961
+01:38:20,000 --> 01:38:22,000
+The binomial transformation
+
+962
+01:38:22,000 --> 01:38:24,000
+is to convert
+
+963
+01:38:24,000 --> 01:38:26,000
+our GZAS
+
+964
+01:38:26,000 --> 01:38:28,000
+Z
+
+965
+01:38:28,000 --> 01:38:30,000
+to a W
+
+966
+01:38:30,000 --> 01:38:32,000
+plane.
+
+967
+01:38:32,000 --> 01:38:34,000
+Yeah, Z plane changes to W plane.
+
+968
+01:38:34,000 --> 01:38:36,000
+W plane is similar to the
+
+969
+01:38:36,000 --> 01:38:38,000
+S plane.
+
+970
+01:38:38,000 --> 01:38:40,000
+So
+
+971
+01:38:40,000 --> 01:38:42,000
+we apply the W
+
+972
+01:38:42,000 --> 01:38:44,000
+transformation
+
+973
+01:38:44,000 --> 01:38:46,000
+which is this
+
+974
+01:38:46,000 --> 01:38:48,000
+to change
+
+975
+01:38:48,000 --> 01:38:50,000
+this transfer function
+
+976
+01:38:50,000 --> 01:38:52,000
+to a function of W.
+
+977
+01:38:52,000 --> 01:38:54,000
+And this t
+
+978
+01:38:54,000 --> 01:38:56,000
+is the sampling period.
+
+979
+01:38:56,000 --> 01:38:58,000
+Of course, W
+
+980
+01:38:58,000 --> 01:39:00,000
+is a complex number.
+
+981
+01:39:00,000 --> 01:39:02,000
+Okay, if you
+
+982
+01:39:02,000 --> 01:39:04,000
+walk out, this W
+
+983
+01:39:04,000 --> 01:39:06,000
+is
+
+984
+01:39:06,000 --> 01:39:08,000
+from this transformation
+
+985
+01:39:08,000 --> 01:39:10,000
+you can find your W
+
+986
+01:39:10,000 --> 01:39:12,000
+which is equal to two over t
+
+987
+01:39:12,000 --> 01:39:14,000
+z minus one, z plus one.
+
+988
+01:39:14,000 --> 01:39:16,000
+So that's the binomial transformation
+
+989
+01:39:16,000 --> 01:39:18,000
+we used earlier.
+
+990
+01:39:22,000 --> 01:39:24,000
+Yeah, this one
+
+991
+01:39:24,000 --> 01:39:26,000
+this mapping
+
+992
+01:39:26,000 --> 01:39:28,000
+will map the inside
+
+993
+01:39:28,000 --> 01:39:30,000
+of unit circle in the Z plane
+
+994
+01:39:30,000 --> 01:39:32,000
+into the entire left
+
+995
+01:39:32,000 --> 01:39:34,000
+half plane in the W plane.
+
+996
+01:39:34,000 --> 01:39:36,000
+So we have two planes.
+
+997
+01:39:36,000 --> 01:39:38,000
+One is Z plane
+
+998
+01:39:38,000 --> 01:39:40,000
+which is
+
+999
+01:39:40,000 --> 01:39:42,000
+to consider
+
+1000
+01:39:42,000 --> 01:39:44,000
+the Z transfer function.
+
+1001
+01:39:44,000 --> 01:39:46,000
+Now if we convert
+
+1002
+01:39:46,000 --> 01:39:48,000
+your
+
+1003
+01:39:48,000 --> 01:39:50,000
+Z transfer function
+
+1004
+01:39:50,000 --> 01:39:52,000
+to a function of
+
+1005
+01:39:52,000 --> 01:39:54,000
+W, then
+
+1006
+01:39:54,000 --> 01:39:56,000
+you have a W plane.
+
+1007
+01:39:58,000 --> 01:40:00,000
+Okay,
+
+1008
+01:40:00,000 --> 01:40:02,000
+why do we do this? Because
+
+1009
+01:40:02,000 --> 01:40:04,000
+with this W
+
+1010
+01:40:04,000 --> 01:40:06,000
+plane, you can
+
+1011
+01:40:06,000 --> 01:40:08,000
+find out
+
+1012
+01:40:08,000 --> 01:40:10,000
+the frequency response.
+
+1013
+01:40:10,000 --> 01:40:12,000
+Yeah.
+
+1014
+01:40:16,000 --> 01:40:18,000
+Because the imaginary part
+
+1015
+01:40:18,000 --> 01:40:20,000
+of W is negative j omega
+
+1016
+01:40:20,000 --> 01:40:22,000
+xe, so that's the
+
+1017
+01:40:22,000 --> 01:40:24,000
+frequency response.
+
+1018
+01:40:24,000 --> 01:40:26,000
+So now, I'll show
+
+1019
+01:40:26,000 --> 01:40:28,000
+our gz, yeah, this
+
+1020
+01:40:28,000 --> 01:40:30,000
+transfer function has been
+
+1021
+01:40:30,000 --> 01:40:32,000
+converted to gw
+
+1022
+01:40:32,000 --> 01:40:34,000
+through
+
+1023
+01:40:34,000 --> 01:40:36,000
+the transformation
+
+1024
+01:40:36,000 --> 01:40:38,000
+that is
+
+1025
+01:40:38,000 --> 01:40:40,000
+this transformation,
+
+1026
+01:40:40,000 --> 01:40:42,000
+5.9.
+
+1027
+01:40:42,000 --> 01:40:44,000
+Then, you have a transfer function
+
+1028
+01:40:44,000 --> 01:40:46,000
+in terms of
+
+1029
+01:40:46,000 --> 01:40:48,000
+W.
+
+1030
+01:40:48,000 --> 01:40:50,000
+Then you change W to jv.
+
+1031
+01:40:52,000 --> 01:40:54,000
+You have, yeah, this v is
+
+1032
+01:40:54,000 --> 01:40:56,000
+the
+
+1033
+01:40:56,000 --> 01:40:58,000
+fictitious
+
+1034
+01:40:58,000 --> 01:41:00,000
+frequency in the W plane.
+
+1035
+01:41:00,000 --> 01:41:02,000
+Yeah,
+
+1036
+01:41:02,000 --> 01:41:04,000
+fictitious frequency here.
+
+1037
+01:41:04,000 --> 01:41:06,000
+And you have a magnitude,
+
+1038
+01:41:06,000 --> 01:41:08,000
+you have the phase.
+
+1039
+01:41:08,000 --> 01:41:10,000
+Then you have the body plots
+
+1040
+01:41:10,000 --> 01:41:12,000
+for this gw.
+
+1041
+01:41:14,000 --> 01:41:16,000
+Yeah, maybe this look at an example.
+
+1042
+01:41:16,000 --> 01:41:18,000
+Suppose,
+
+1043
+01:41:18,000 --> 01:41:20,000
+yeah, just now we
+
+1044
+01:41:20,000 --> 01:41:22,000
+considered the cruise control system.
+
+1045
+01:41:22,000 --> 01:41:24,000
+Yeah, of course,
+
+1046
+01:41:24,000 --> 01:41:26,000
+in our transfer
+
+1047
+01:41:26,000 --> 01:41:28,000
+function earlier, we have
+
+1048
+01:41:28,000 --> 01:41:30,000
+different parameters in front,
+
+1049
+01:41:30,000 --> 01:41:32,000
+the mass and the
+
+1050
+01:41:32,000 --> 01:41:34,000
+friction. Yeah, here
+
+1051
+01:41:34,000 --> 01:41:36,000
+is a simple
+
+1052
+01:41:36,000 --> 01:41:38,000
+first order transfer function,
+
+1053
+01:41:38,000 --> 01:41:40,000
+1 over s plus 1.
+
+1054
+01:41:42,000 --> 01:41:44,000
+So you can
+
+1055
+01:41:44,000 --> 01:41:46,000
+obtain the,
+
+1056
+01:41:46,000 --> 01:41:48,000
+yeah, that means
+
+1057
+01:41:48,000 --> 01:41:50,000
+if you look at the block diagram,
+
+1058
+01:41:50,000 --> 01:41:52,000
+nothing means this
+
+1059
+01:41:52,000 --> 01:41:54,000
+plant here
+
+1060
+01:41:54,000 --> 01:41:56,000
+has this transfer function.
+
+1061
+01:41:56,000 --> 01:41:58,000
+So we need to
+
+1062
+01:41:58,000 --> 01:42:00,000
+obtain the
+
+1063
+01:42:00,000 --> 01:42:02,000
+pulse transfer
+
+1064
+01:42:02,000 --> 01:42:04,000
+function for both
+
+1065
+01:42:04,000 --> 01:42:06,000
+the zero order hold and the
+
+1066
+01:42:06,000 --> 01:42:08,000
+plant. So how do we do that?
+
+1067
+01:42:10,000 --> 01:42:12,000
+We can
+
+1068
+01:42:12,000 --> 01:42:14,000
+use
+
+1069
+01:42:14,000 --> 01:42:16,000
+the
+
+1070
+01:42:16,000 --> 01:42:18,000
+formula
+
+1071
+01:42:20,000 --> 01:42:22,000
+studied before.
+
+1072
+01:42:22,000 --> 01:42:24,000
+Yeah, maybe I
+
+1073
+01:42:24,000 --> 01:42:26,000
+write the formula here for you.
+
+1074
+01:42:36,000 --> 01:42:38,000
+Yeah, for the zero
+
+1075
+01:42:38,000 --> 01:42:40,000
+order hold
+
+1076
+01:42:40,000 --> 01:42:42,000
+together, yeah, you have
+
+1077
+01:42:42,000 --> 01:42:44,000
+zero order hold.
+
+1078
+01:42:44,000 --> 01:42:46,000
+The transfer
+
+1079
+01:42:46,000 --> 01:42:48,000
+function is
+
+1080
+01:42:48,000 --> 01:42:50,000
+1 minus
+
+1081
+01:42:50,000 --> 01:42:52,000
+u2 prime negative
+
+1082
+01:42:52,000 --> 01:42:54,000
+ts over
+
+1083
+01:42:54,000 --> 01:42:56,000
+s, correct?
+
+1084
+01:42:56,000 --> 01:42:58,000
+So
+
+1085
+01:42:58,000 --> 01:43:00,000
+together with gs
+
+1086
+01:43:00,000 --> 01:43:02,000
+and this
+
+1087
+01:43:02,000 --> 01:43:04,000
+zero order hold, you have
+
+1088
+01:43:04,000 --> 01:43:06,000
+this transfer function,
+
+1089
+01:43:06,000 --> 01:43:08,000
+which is this
+
+1090
+01:43:08,000 --> 01:43:10,000
+gzas.
+
+1091
+01:43:10,000 --> 01:43:12,000
+That is
+
+1092
+01:43:12,000 --> 01:43:14,000
+obtained as
+
+1093
+01:43:14,000 --> 01:43:16,000
+1 minus z inverse
+
+1094
+01:43:16,000 --> 01:43:18,000
+times the
+
+1095
+01:43:18,000 --> 01:43:20,000
+z transform
+
+1096
+01:43:20,000 --> 01:43:22,000
+corresponding to
+
+1097
+01:43:22,000 --> 01:43:24,000
+gs over s,
+
+1098
+01:43:24,000 --> 01:43:26,000
+okay?
+
+1099
+01:43:26,000 --> 01:43:28,000
+Yeah, I believe you still remember
+
+1100
+01:43:28,000 --> 01:43:30,000
+this formula.
+
+1101
+01:43:30,000 --> 01:43:32,000
+So based on this formula,
+
+1102
+01:43:32,000 --> 01:43:34,000
+you just
+
+1103
+01:43:34,000 --> 01:43:36,000
+substitute this transfer function here,
+
+1104
+01:43:36,000 --> 01:43:38,000
+you get 1 over s
+
+1105
+01:43:38,000 --> 01:43:40,000
+plus 1 divided by s.
+
+1106
+01:43:40,000 --> 01:43:42,000
+Then
+
+1107
+01:43:42,000 --> 01:43:44,000
+you get a z transfer function,
+
+1108
+01:43:44,000 --> 01:43:46,000
+the z transform
+
+1109
+01:43:46,000 --> 01:43:48,000
+corresponding to this part, then multiply
+
+1110
+01:43:48,000 --> 01:43:50,000
+with that.
+
+1111
+01:43:50,000 --> 01:43:52,000
+And you have
+
+1112
+01:43:52,000 --> 01:43:54,000
+this answer.
+
+1113
+01:43:54,000 --> 01:43:56,000
+When the sampling period is
+
+1114
+01:43:56,000 --> 01:43:58,000
+0.1 secant.
+
+1115
+01:43:58,000 --> 01:44:00,000
+Okay?
+
+1116
+01:44:00,000 --> 01:44:02,000
+You can verify this
+
+1117
+01:44:02,000 --> 01:44:04,000
+by doing some
+
+1118
+01:44:04,000 --> 01:44:06,000
+calculation. Yeah, calculate
+
+1119
+01:44:06,000 --> 01:44:08,000
+this.
+
+1120
+01:44:14,000 --> 01:44:16,000
+Then you can apply
+
+1121
+01:44:16,000 --> 01:44:18,000
+our
+
+1122
+01:44:18,000 --> 01:44:20,000
+transformation
+
+1123
+01:44:20,000 --> 01:44:22,000
+5.9.
+
+1124
+01:44:22,000 --> 01:44:24,000
+Yeah, that is this transformation.
+
+1125
+01:44:24,000 --> 01:44:26,000
+5.9 here.
+
+1126
+01:44:26,000 --> 01:44:28,000
+You can have
+
+1127
+01:44:28,000 --> 01:44:30,000
+this
+
+1128
+01:44:30,000 --> 01:44:32,000
+transfer function
+
+1129
+01:44:32,000 --> 01:44:34,000
+in term of w.
+
+1130
+01:44:34,000 --> 01:44:36,000
+Yeah, basically
+
+1131
+01:44:36,000 --> 01:44:38,000
+with this t,
+
+1132
+01:44:38,000 --> 01:44:40,000
+which is 0.1
+
+1133
+01:44:40,000 --> 01:44:42,000
+secant,
+
+1134
+01:44:42,000 --> 01:44:44,000
+you just replace this z
+
+1135
+01:44:44,000 --> 01:44:46,000
+by this.
+
+1136
+01:44:46,000 --> 01:44:48,000
+After simplification,
+
+1137
+01:44:48,000 --> 01:44:50,000
+you get this.
+
+1138
+01:44:50,000 --> 01:44:52,000
+Now if t is 0.01
+
+1139
+01:44:52,000 --> 01:44:54,000
+secant, yeah, you have
+
+1140
+01:44:54,000 --> 01:44:56,000
+another case,
+
+1141
+01:44:56,000 --> 01:44:58,000
+0.01
+
+1142
+01:44:58,000 --> 01:45:00,000
+secant.
+
+1143
+01:45:00,000 --> 01:45:02,000
+We have this
+
+1144
+01:45:02,000 --> 01:45:04,000
+pulse
+
+1145
+01:45:04,000 --> 01:45:06,000
+transfer function
+
+1146
+01:45:06,000 --> 01:45:08,000
+with this
+
+1147
+01:45:08,000 --> 01:45:10,000
+formula.
+
+1148
+01:45:10,000 --> 01:45:12,000
+And you change this z
+
+1149
+01:45:12,000 --> 01:45:14,000
+to this
+
+1150
+01:45:14,000 --> 01:45:16,000
+with t as
+
+1151
+01:45:16,000 --> 01:45:18,000
+0.01 secant,
+
+1152
+01:45:18,000 --> 01:45:20,000
+you have this result.
+
+1153
+01:45:20,000 --> 01:45:22,000
+So that's the
+
+1154
+01:45:22,000 --> 01:45:24,000
+g1w, g2w
+
+1155
+01:45:24,000 --> 01:45:26,000
+to
+
+1156
+01:45:26,000 --> 01:45:28,000
+convert
+
+1157
+01:45:28,000 --> 01:45:30,000
+our pulse
+
+1158
+01:45:30,000 --> 01:45:32,000
+transfer function.
+
+1159
+01:45:34,000 --> 01:45:36,000
+Clearly, both g1w
+
+1160
+01:45:36,000 --> 01:45:38,000
+and g2w
+
+1161
+01:45:38,000 --> 01:45:40,000
+and also the original
+
+1162
+01:45:40,000 --> 01:45:42,000
+gs
+
+1163
+01:45:42,000 --> 01:45:44,000
+have the same pole
+
+1164
+01:45:44,000 --> 01:45:46,000
+as the negative one
+
+1165
+01:45:46,000 --> 01:45:48,000
+you can see here.
+
+1166
+01:45:48,000 --> 01:45:50,000
+But for g1w,
+
+1167
+01:45:50,000 --> 01:45:52,000
+g2w, you have 0
+
+1168
+01:45:52,000 --> 01:45:54,000
+involved.
+
+1169
+01:45:54,000 --> 01:45:56,000
+Okay?
+
+1170
+01:45:56,000 --> 01:45:58,000
+The original gs
+
+1171
+01:45:58,000 --> 01:46:00,000
+does not have 0.
+
+1172
+01:46:00,000 --> 01:46:02,000
+So
+
+1173
+01:46:02,000 --> 01:46:04,000
+when we do this
+
+1174
+01:46:04,000 --> 01:46:06,000
+mapping,
+
+1175
+01:46:06,000 --> 01:46:08,000
+gs will convert
+
+1176
+01:46:08,000 --> 01:46:10,000
+to this.
+
+1177
+01:46:10,000 --> 01:46:12,000
+Then you have 0
+
+1178
+01:46:12,000 --> 01:46:14,000
+introduced.
+
+1179
+01:46:14,000 --> 01:46:16,000
+And you can also
+
+1180
+01:46:16,000 --> 01:46:18,000
+plot the
+
+1181
+01:46:18,000 --> 01:46:20,000
+frequency response
+
+1182
+01:46:20,000 --> 01:46:22,000
+to see the effect
+
+1183
+01:46:22,000 --> 01:46:24,000
+of the 0 here.
+
+1184
+01:46:24,000 --> 01:46:26,000
+Yeah, this is the
+
+1185
+01:46:26,000 --> 01:46:28,000
+frequency response.
+
+1186
+01:46:28,000 --> 01:46:30,000
+You can see that
+
+1187
+01:46:30,000 --> 01:46:32,000
+this is
+
+1188
+01:46:32,000 --> 01:46:34,000
+the original gs
+
+1189
+01:46:34,000 --> 01:46:36,000
+this is the
+
+1190
+01:46:36,000 --> 01:46:38,000
+phase.
+
+1191
+01:46:38,000 --> 01:46:40,000
+And this is g1w
+
+1192
+01:46:40,000 --> 01:46:42,000
+this is g2w
+
+1193
+01:46:42,000 --> 01:46:44,000
+that's the phase
+
+1194
+01:46:44,000 --> 01:46:46,000
+of g1w
+
+1195
+01:46:46,000 --> 01:46:48,000
+phase of g2w.
+
+1196
+01:46:50,000 --> 01:46:52,000
+Yeah, g1w
+
+1197
+01:46:52,000 --> 01:46:54,000
+has
+
+1198
+01:46:56,000 --> 01:46:58,000
+based on this response
+
+1199
+01:46:58,000 --> 01:47:00,000
+you can tell
+
+1200
+01:47:00,000 --> 01:47:02,000
+our
+
+1201
+01:47:04,000 --> 01:47:08,000
+influence
+
+1202
+01:47:08,000 --> 01:47:10,000
+of 0 and the system dynamics.
+
+1203
+01:47:10,000 --> 01:47:12,000
+So if we have
+
+1204
+01:47:12,000 --> 01:47:14,000
+a larger sampling period
+
+1205
+01:47:14,000 --> 01:47:16,000
+which is the first case
+
+1206
+01:47:16,000 --> 01:47:18,000
+0.1 sec
+
+1207
+01:47:18,000 --> 01:47:20,000
+then this
+
+1208
+01:47:20,000 --> 01:47:22,000
+0 has more
+
+1209
+01:47:22,000 --> 01:47:24,000
+significant effect.
+
+1210
+01:47:26,000 --> 01:47:28,000
+Okay?
+
+1211
+01:47:28,000 --> 01:47:30,000
+If you see the
+
+1212
+01:47:30,000 --> 01:47:32,000
+result here.
+
+1213
+01:47:34,000 --> 01:47:36,000
+Yeah,
+
+1214
+01:47:36,000 --> 01:47:38,000
+g2w is
+
+1215
+01:47:38,000 --> 01:47:40,000
+closer to gs here.
+
+1216
+01:47:40,000 --> 01:47:42,000
+Okay,
+
+1217
+01:47:42,000 --> 01:47:44,000
+now let's come back to our
+
+1218
+01:47:44,000 --> 01:47:46,000
+design procedure.
+
+1219
+01:47:46,000 --> 01:47:48,000
+First,
+
+1220
+01:47:48,000 --> 01:47:50,000
+you have to
+
+1221
+01:47:50,000 --> 01:47:52,000
+choose a
+
+1222
+01:47:52,000 --> 01:47:54,000
+sampling period
+
+1223
+01:47:54,000 --> 01:47:56,000
+and obtain a transfer function
+
+1224
+01:47:56,000 --> 01:47:58,000
+gzas.
+
+1225
+01:47:58,000 --> 01:48:00,000
+Yeah, that is
+
+1226
+01:48:00,000 --> 01:48:02,000
+based on the
+
+1227
+01:48:02,000 --> 01:48:04,000
+same plant
+
+1228
+01:48:04,000 --> 01:48:06,000
+you need to
+
+1229
+01:48:06,000 --> 01:48:08,000
+find gzas
+
+1230
+01:48:08,000 --> 01:48:10,000
+for
+
+1231
+01:48:10,000 --> 01:48:12,000
+which is the pulse transfer function
+
+1232
+01:48:12,000 --> 01:48:14,000
+for both 0 order hold
+
+1233
+01:48:14,000 --> 01:48:16,000
+under the plant.
+
+1234
+01:48:16,000 --> 01:48:18,000
+So that's the first step.
+
+1235
+01:48:20,000 --> 01:48:22,000
+Then you have to
+
+1236
+01:48:22,000 --> 01:48:24,000
+convert gzas
+
+1237
+01:48:24,000 --> 01:48:26,000
+into gw
+
+1238
+01:48:26,000 --> 01:48:28,000
+using our
+
+1239
+01:48:28,000 --> 01:48:30,000
+5.9 here.
+
+1240
+01:48:32,000 --> 01:48:34,000
+Yeah, this
+
+1241
+01:48:34,000 --> 01:48:36,000
+conversion
+
+1242
+01:48:36,000 --> 01:48:38,000
+yeah, that is you need to
+
+1243
+01:48:38,000 --> 01:48:40,000
+consider this
+
+1244
+01:48:40,000 --> 01:48:42,000
+yeah, we have obtained this transfer function
+
+1245
+01:48:42,000 --> 01:48:44,000
+and you replace
+
+1246
+01:48:44,000 --> 01:48:46,000
+the
+
+1247
+01:48:46,000 --> 01:48:48,000
+z variable in this transfer
+
+1248
+01:48:48,000 --> 01:48:50,000
+function with this
+
+1249
+01:48:50,000 --> 01:48:52,000
+expression
+
+1250
+01:48:52,000 --> 01:48:54,000
+here.
+
+1251
+01:48:54,000 --> 01:48:56,000
+Then you get this
+
+1252
+01:48:56,000 --> 01:48:58,000
+gw.
+
+1253
+01:48:58,000 --> 01:49:00,000
+Okay,
+
+1254
+01:49:00,000 --> 01:49:02,000
+third step,
+
+1255
+01:49:02,000 --> 01:49:04,000
+you have to draw the body plots
+
+1256
+01:49:04,000 --> 01:49:06,000
+of
+
+1257
+01:49:06,000 --> 01:49:08,000
+this gw.
+
+1258
+01:49:08,000 --> 01:49:10,000
+That is you change
+
+1259
+01:49:10,000 --> 01:49:12,000
+w to jv.
+
+1260
+01:49:12,000 --> 01:49:14,000
+That is the frequency response
+
+1261
+01:49:14,000 --> 01:49:16,000
+of gw.
+
+1262
+01:49:16,000 --> 01:49:18,000
+And they use the
+
+1263
+01:49:18,000 --> 01:49:20,000
+analog frequency response methods
+
+1264
+01:49:20,000 --> 01:49:22,000
+to design a controller
+
+1265
+01:49:22,000 --> 01:49:24,000
+cw
+
+1266
+01:49:24,000 --> 01:49:26,000
+or gdw
+
+1267
+01:49:26,000 --> 01:49:28,000
+here.
+
+1268
+01:49:28,000 --> 01:49:30,000
+This is
+
+1269
+01:49:30,000 --> 01:49:32,000
+if you use cz, then we have
+
+1270
+01:49:32,000 --> 01:49:34,000
+cw here.
+
+1271
+01:49:34,000 --> 01:49:36,000
+Or digital controller, sometimes you use
+
+1272
+01:49:36,000 --> 01:49:38,000
+gdw.
+
+1273
+01:49:38,000 --> 01:49:40,000
+So you design this cw
+
+1274
+01:49:40,000 --> 01:49:42,000
+that satisfies the
+
+1275
+01:49:42,000 --> 01:49:44,000
+required frequency
+
+1276
+01:49:44,000 --> 01:49:46,000
+domain specifications.
+
+1277
+01:49:46,000 --> 01:49:48,000
+Yeah, these specifications
+
+1278
+01:49:48,000 --> 01:49:50,000
+are given to you.
+
+1279
+01:49:52,000 --> 01:49:54,000
+So we have
+
+1280
+01:49:54,000 --> 01:49:56,000
+cw, you have to
+
+1281
+01:49:56,000 --> 01:49:58,000
+transform the controller back
+
+1282
+01:49:58,000 --> 01:50:00,000
+to the z plane
+
+1283
+01:50:00,000 --> 01:50:02,000
+by using
+
+1284
+01:50:02,000 --> 01:50:04,000
+5.10, which is this.
+
+1285
+01:50:06,000 --> 01:50:08,000
+Yeah, because here
+
+1286
+01:50:08,000 --> 01:50:10,000
+you get this
+
+1287
+01:50:10,000 --> 01:50:12,000
+cw, so you just replace
+
+1288
+01:50:12,000 --> 01:50:14,000
+this w by this
+
+1289
+01:50:14,000 --> 01:50:16,000
+transfer, 2 over t
+
+1290
+01:50:16,000 --> 01:50:18,000
+times z minus 1 over
+
+1291
+01:50:18,000 --> 01:50:20,000
+z plus 1. Then you get
+
+1292
+01:50:20,000 --> 01:50:22,000
+this transfer
+
+1293
+01:50:22,000 --> 01:50:24,000
+function, cz.
+
+1294
+01:50:24,000 --> 01:50:26,000
+Yeah, so that's how
+
+1295
+01:50:26,000 --> 01:50:28,000
+we get the cz
+
+1296
+01:50:28,000 --> 01:50:30,000
+using frequency domain
+
+1297
+01:50:30,000 --> 01:50:32,000
+method. So you get this
+
+1298
+01:50:32,000 --> 01:50:34,000
+cz.
+
+1299
+01:50:36,000 --> 01:50:38,000
+Yeah, after you get the cz
+
+1300
+01:50:38,000 --> 01:50:40,000
+you have to verify
+
+1301
+01:50:40,000 --> 01:50:42,000
+the performance.
+
+1302
+01:50:42,000 --> 01:50:44,000
+And check if the
+
+1303
+01:50:44,000 --> 01:50:46,000
+performance is satisfied or not.
+
+1304
+01:50:46,000 --> 01:50:48,000
+If not, you have to do
+
+1305
+01:50:48,000 --> 01:50:50,000
+redesign.
+
+1306
+01:50:50,000 --> 01:50:52,000
+So that's why it's an iterative
+
+1307
+01:50:52,000 --> 01:50:54,000
+try and error method.
+
+1308
+01:50:56,000 --> 01:50:58,000
+So we have these four
+
+1309
+01:50:58,000 --> 01:51:00,000
+steps.
+
+1310
+01:51:00,000 --> 01:51:02,000
+Okay, here
+
+1311
+01:51:04,000 --> 01:51:06,000
+for the first two steps
+
+1312
+01:51:06,000 --> 01:51:08,000
+they are quite
+
+1313
+01:51:08,000 --> 01:51:10,000
+standard. Yeah, you know
+
+1314
+01:51:10,000 --> 01:51:12,000
+how to find
+
+1315
+01:51:12,000 --> 01:51:14,000
+gzas and you know how
+
+1316
+01:51:14,000 --> 01:51:16,000
+to convert this
+
+1317
+01:51:16,000 --> 01:51:18,000
+gzas to gw.
+
+1318
+01:51:18,000 --> 01:51:20,000
+You just use 5.9.
+
+1319
+01:51:22,000 --> 01:51:24,000
+Our focus here
+
+1320
+01:51:24,000 --> 01:51:26,000
+is step 3
+
+1321
+01:51:26,000 --> 01:51:28,000
+to
+
+1322
+01:51:28,000 --> 01:51:30,000
+find cw
+
+1323
+01:51:30,000 --> 01:51:32,000
+based on frequency response.
+
+1324
+01:51:34,000 --> 01:51:36,000
+Okay, so we will consider
+
+1325
+01:51:36,000 --> 01:51:38,000
+this in our design.
+
+1326
+01:51:38,000 --> 01:51:40,000
+So to consider this
+
+1327
+01:51:40,000 --> 01:51:42,000
+we need to make some revisions
+
+1328
+01:51:42,000 --> 01:51:44,000
+about
+
+1329
+01:51:44,000 --> 01:51:46,000
+compensators.
+
+1330
+01:51:48,000 --> 01:51:50,000
+Yeah, we have phase lead
+
+1331
+01:51:50,000 --> 01:51:52,000
+compensator.
+
+1332
+01:51:52,000 --> 01:51:54,000
+I hope you still
+
+1333
+01:51:54,000 --> 01:51:56,000
+remember this
+
+1334
+01:51:56,000 --> 01:51:58,000
+phase lead compensator.
+
+1335
+01:51:58,000 --> 01:52:00,000
+You can include
+
+1336
+01:52:00,000 --> 01:52:02,000
+PD controller as
+
+1337
+01:52:02,000 --> 01:52:04,000
+a special case.
+
+1338
+01:52:04,000 --> 01:52:06,000
+For such compensator
+
+1339
+01:52:06,000 --> 01:52:08,000
+it can improve
+
+1340
+01:52:08,000 --> 01:52:10,000
+stability margin. That is
+
+1341
+01:52:10,000 --> 01:52:12,000
+make your closed
+
+1342
+01:52:12,000 --> 01:52:14,000
+loop system more stable.
+
+1343
+01:52:14,000 --> 01:52:16,000
+You can
+
+1344
+01:52:16,000 --> 01:52:18,000
+also increase system
+
+1345
+01:52:18,000 --> 01:52:20,000
+bandwidth. Therefore
+
+1346
+01:52:20,000 --> 01:52:22,000
+you have a faster
+
+1347
+01:52:22,000 --> 01:52:24,000
+response.
+
+1348
+01:52:24,000 --> 01:52:26,000
+Of course there
+
+1349
+01:52:26,000 --> 01:52:28,000
+is an issue. That is
+
+1350
+01:52:28,000 --> 01:52:30,000
+such a
+
+1351
+01:52:30,000 --> 01:52:32,000
+system is sensitive to
+
+1352
+01:52:32,000 --> 01:52:34,000
+noise because
+
+1353
+01:52:34,000 --> 01:52:36,000
+the bandwidth of the system
+
+1354
+01:52:36,000 --> 01:52:38,000
+is increased. Your noise
+
+1355
+01:52:38,000 --> 01:52:40,000
+is normally high frequency
+
+1356
+01:52:40,000 --> 01:52:42,000
+noise. So
+
+1357
+01:52:42,000 --> 01:52:44,000
+in this case the high
+
+1358
+01:52:44,000 --> 01:52:46,000
+frequency noise will be
+
+1359
+01:52:46,000 --> 01:52:48,000
+taking
+
+1360
+01:52:48,000 --> 01:52:50,000
+effect if you have
+
+1361
+01:52:50,000 --> 01:52:52,000
+your system has a higher
+
+1362
+01:52:52,000 --> 01:52:54,000
+bandwidth.
+
+1363
+01:52:54,000 --> 01:52:56,000
+Okay, so to overcome
+
+1364
+01:52:56,000 --> 01:52:58,000
+this drawback
+
+1365
+01:52:58,000 --> 01:53:00,000
+we have phase lead compensator.
+
+1366
+01:53:00,000 --> 01:53:02,000
+In this case
+
+1367
+01:53:02,000 --> 01:53:04,000
+PI controller can
+
+1368
+01:53:04,000 --> 01:53:06,000
+be considered as a special case.
+
+1369
+01:53:08,000 --> 01:53:10,000
+Yeah, basically it reduces
+
+1370
+01:53:10,000 --> 01:53:12,000
+system gain
+
+1371
+01:53:12,000 --> 01:53:14,000
+at high frequency.
+
+1372
+01:53:14,000 --> 01:53:16,000
+Yeah, that is
+
+1373
+01:53:16,000 --> 01:53:18,000
+to overcome this
+
+1374
+01:53:18,000 --> 01:53:20,000
+issue
+
+1375
+01:53:20,000 --> 01:53:22,000
+of high frequency
+
+1376
+01:53:22,000 --> 01:53:24,000
+noise here.
+
+1377
+01:53:24,000 --> 01:53:26,000
+Yeah, if you
+
+1378
+01:53:26,000 --> 01:53:28,000
+reduce high frequency gain
+
+1379
+01:53:28,000 --> 01:53:30,000
+then the noise is not
+
+1380
+01:53:30,000 --> 01:53:32,000
+so sensitive because
+
+1381
+01:53:32,000 --> 01:53:34,000
+noise is high frequency
+
+1382
+01:53:34,000 --> 01:53:36,000
+components.
+
+1383
+01:53:36,000 --> 01:53:38,000
+So you reduce system
+
+1384
+01:53:38,000 --> 01:53:40,000
+bandwidth in this case. Of course
+
+1385
+01:53:40,000 --> 01:53:42,000
+that will reduce your
+
+1386
+01:53:42,000 --> 01:53:44,000
+system response which
+
+1387
+01:53:44,000 --> 01:53:46,000
+means you have larger
+
+1388
+01:53:46,000 --> 01:53:48,000
+rise time
+
+1389
+01:53:48,000 --> 01:53:50,000
+in this case.
+
+1390
+01:53:50,000 --> 01:53:52,000
+Of course
+
+1391
+01:53:52,000 --> 01:53:54,000
+you can
+
+1392
+01:53:54,000 --> 01:53:56,000
+improve
+
+1393
+01:53:56,000 --> 01:53:58,000
+speed state accuracy
+
+1394
+01:53:58,000 --> 01:54:00,000
+because low frequency
+
+1395
+01:54:00,000 --> 01:54:02,000
+gain
+
+1396
+01:54:02,000 --> 01:54:04,000
+increased
+
+1397
+01:54:04,000 --> 01:54:06,000
+especially for the special case.
+
+1398
+01:54:06,000 --> 01:54:08,000
+At low frequency
+
+1399
+01:54:08,000 --> 01:54:10,000
+for PI controller
+
+1400
+01:54:10,000 --> 01:54:12,000
+at zero frequency
+
+1401
+01:54:12,000 --> 01:54:14,000
+the gain is infinity.
+
+1402
+01:54:14,000 --> 01:54:16,000
+Yeah.
+
+1403
+01:54:16,000 --> 01:54:18,000
+So for
+
+1404
+01:54:18,000 --> 01:54:20,000
+PI controller you have two terms
+
+1405
+01:54:20,000 --> 01:54:22,000
+KP plus KI over
+
+1406
+01:54:22,000 --> 01:54:24,000
+S. If
+
+1407
+01:54:24,000 --> 01:54:26,000
+S tends to zero
+
+1408
+01:54:26,000 --> 01:54:28,000
+this gain
+
+1409
+01:54:28,000 --> 01:54:30,000
+tends to infinity. So that's why
+
+1410
+01:54:30,000 --> 01:54:32,000
+you have
+
+1411
+01:54:32,000 --> 01:54:34,000
+very high frequency gain
+
+1412
+01:54:34,000 --> 01:54:36,000
+at a low frequency.
+
+1413
+01:54:38,000 --> 01:54:40,000
+Okay, so
+
+1414
+01:54:40,000 --> 01:54:42,000
+phase lead, phase lag
+
+1415
+01:54:42,000 --> 01:54:44,000
+compensators have
+
+1416
+01:54:44,000 --> 01:54:46,000
+their own advantage
+
+1417
+01:54:46,000 --> 01:54:48,000
+or disadvantage.
+
+1418
+01:54:48,000 --> 01:54:50,000
+You can combine these two together
+
+1419
+01:54:50,000 --> 01:54:52,000
+to get phase lag lead
+
+1420
+01:54:52,000 --> 01:54:54,000
+compensator.
+
+1421
+01:54:54,000 --> 01:54:56,000
+In this case PID controller
+
+1422
+01:54:56,000 --> 01:54:58,000
+is a special case.
+
+1423
+01:54:58,000 --> 01:55:00,000
+So for such controllers
+
+1424
+01:55:00,000 --> 01:55:02,000
+it increase low frequency
+
+1425
+01:55:02,000 --> 01:55:04,000
+gain and also
+
+1426
+01:55:04,000 --> 01:55:06,000
+increase bandwidth
+
+1427
+01:55:06,000 --> 01:55:08,000
+and stability margin.
+
+1428
+01:55:10,000 --> 01:55:12,000
+Okay,
+
+1429
+01:55:12,000 --> 01:55:14,000
+since we are going to
+
+1430
+01:55:14,000 --> 01:55:16,000
+consider frequency design
+
+1431
+01:55:16,000 --> 01:55:18,000
+so I make a revision
+
+1432
+01:55:18,000 --> 01:55:20,000
+about
+
+1433
+01:55:20,000 --> 01:55:22,000
+such design approach.
+
+1434
+01:55:24,000 --> 01:55:26,000
+If you have not studied
+
+1435
+01:55:26,000 --> 01:55:28,000
+frequency design
+
+1436
+01:55:28,000 --> 01:55:30,000
+compensator design
+
+1437
+01:55:30,000 --> 01:55:32,000
+before I
+
+1438
+01:55:32,000 --> 01:55:34,000
+just go through this part.
+
+1439
+01:55:34,000 --> 01:55:36,000
+Yeah, in fact
+
+1440
+01:55:36,000 --> 01:55:38,000
+this can also be used
+
+1441
+01:55:38,000 --> 01:55:40,000
+to get our CS
+
+1442
+01:55:40,000 --> 01:55:42,000
+in the first approach.
+
+1443
+01:55:42,000 --> 01:55:44,000
+Yeah.
+
+1444
+01:55:44,000 --> 01:55:46,000
+Okay, so you are given
+
+1445
+01:55:46,000 --> 01:55:48,000
+GS. Yeah, this is a continuous system
+
+1446
+01:55:48,000 --> 01:55:50,000
+different from here now.
+
+1447
+01:55:50,000 --> 01:55:52,000
+So I just make a revision
+
+1448
+01:55:52,000 --> 01:55:54,000
+so this is not
+
+1449
+01:55:54,000 --> 01:55:56,000
+discrete time system.
+
+1450
+01:55:56,000 --> 01:55:58,000
+It's just GS
+
+1451
+01:55:58,000 --> 01:56:00,000
+yeah, you are given GS
+
+1452
+01:56:00,000 --> 01:56:02,000
+we are looking for CS.
+
+1453
+01:56:02,000 --> 01:56:04,000
+So our
+
+1454
+01:56:04,000 --> 01:56:06,000
+objectives to design CS
+
+1455
+01:56:06,000 --> 01:56:08,000
+such that the closed
+
+1456
+01:56:08,000 --> 01:56:10,000
+loop system has
+
+1457
+01:56:10,000 --> 01:56:12,000
+the desired performance.
+
+1458
+01:56:14,000 --> 01:56:16,000
+Okay, in frequency domain
+
+1459
+01:56:16,000 --> 01:56:18,000
+and the time domain
+
+1460
+01:56:18,000 --> 01:56:20,000
+you have
+
+1461
+01:56:20,000 --> 01:56:22,000
+some
+
+1462
+01:56:22,000 --> 01:56:24,000
+different specifications.
+
+1463
+01:56:24,000 --> 01:56:26,000
+For example
+
+1464
+01:56:26,000 --> 01:56:28,000
+in time domain
+
+1465
+01:56:28,000 --> 01:56:30,000
+we have
+
+1466
+01:56:30,000 --> 01:56:32,000
+price time, settling time
+
+1467
+01:56:32,000 --> 01:56:34,000
+maximum overshoot
+
+1468
+01:56:34,000 --> 01:56:36,000
+yeah, these are
+
+1469
+01:56:36,000 --> 01:56:38,000
+transcendent responses.
+
+1470
+01:56:38,000 --> 01:56:40,000
+Transcendent response
+
+1471
+01:56:40,000 --> 01:56:42,000
+specifications. We also have
+
+1472
+01:56:42,000 --> 01:56:44,000
+steady state errors.
+
+1473
+01:56:44,000 --> 01:56:46,000
+So
+
+1474
+01:56:46,000 --> 01:56:48,000
+these are time domain specifications.
+
+1475
+01:56:48,000 --> 01:56:50,000
+Now for frequency domain
+
+1476
+01:56:50,000 --> 01:56:52,000
+specification
+
+1477
+01:56:52,000 --> 01:56:54,000
+they are
+
+1478
+01:56:54,000 --> 01:56:56,000
+given as bandwidth
+
+1479
+01:56:56,000 --> 01:56:58,000
+yeah, sometimes
+
+1480
+01:56:58,000 --> 01:57:00,000
+you are given the bandwidth of the system
+
+1481
+01:57:00,000 --> 01:57:02,000
+you have to design your controller
+
+1482
+01:57:02,000 --> 01:57:04,000
+to achieve this bandwidth.
+
+1483
+01:57:04,000 --> 01:57:06,000
+Or gain crossover frequency
+
+1484
+01:57:06,000 --> 01:57:08,000
+yeah, both bandwidth and
+
+1485
+01:57:08,000 --> 01:57:10,000
+gain crossover frequency
+
+1486
+01:57:10,000 --> 01:57:12,000
+will be an indication
+
+1487
+01:57:12,000 --> 01:57:14,000
+of speed of response.
+
+1488
+01:57:14,000 --> 01:57:16,000
+If you have larger bandwidth
+
+1489
+01:57:16,000 --> 01:57:18,000
+or higher gain
+
+1490
+01:57:18,000 --> 01:57:20,000
+crossover frequency, you have
+
+1491
+01:57:20,000 --> 01:57:22,000
+faster response.
+
+1492
+01:57:22,000 --> 01:57:24,000
+You have phase margin,
+
+1493
+01:57:24,000 --> 01:57:26,000
+gain margin
+
+1494
+01:57:26,000 --> 01:57:28,000
+yeah, this rough estimate
+
+1495
+01:57:28,000 --> 01:57:30,000
+of the damping ratio
+
+1496
+01:57:30,000 --> 01:57:32,000
+just now we have a
+
+1497
+01:57:32,000 --> 01:57:34,000
+second order transfer function
+
+1498
+01:57:34,000 --> 01:57:36,000
+I mentioned the damping ratio
+
+1499
+01:57:36,000 --> 01:57:38,000
+so this is an indication
+
+1500
+01:57:38,000 --> 01:57:40,000
+of the overshoot
+
+1501
+01:57:40,000 --> 01:57:42,000
+for the damping ratio.
+
+1502
+01:57:42,000 --> 01:57:44,000
+So if you have larger
+
+1503
+01:57:44,000 --> 01:57:46,000
+phase margin or gain margin
+
+1504
+01:57:46,000 --> 01:57:48,000
+that means your system is more
+
+1505
+01:57:48,000 --> 01:57:50,000
+stable.
+
+1506
+01:57:50,000 --> 01:57:52,000
+So you have less overshoot.
+
+1507
+01:57:52,000 --> 01:57:54,000
+And
+
+1508
+01:57:54,000 --> 01:57:56,000
+of course you have a steady state error also.
+
+1509
+01:58:00,000 --> 01:58:02,000
+Yeah, I just mentioned
+
+1510
+01:58:02,000 --> 01:58:04,000
+phase margin is close
+
+1511
+01:58:04,000 --> 01:58:06,000
+related to damping ratio
+
+1512
+01:58:06,000 --> 01:58:08,000
+and the gain crossover frequency
+
+1513
+01:58:08,000 --> 01:58:10,000
+or bandwidth is related
+
+1514
+01:58:10,000 --> 01:58:12,000
+to rise time
+
+1515
+01:58:12,000 --> 01:58:14,000
+steady state error can be
+
+1516
+01:58:14,000 --> 01:58:16,000
+determined by the low frequency gain.
+
+1517
+01:58:16,000 --> 01:58:18,000
+So this
+
+1518
+01:58:18,000 --> 01:58:20,000
+started
+
+1519
+01:58:20,000 --> 01:58:22,000
+in classical
+
+1520
+01:58:22,000 --> 01:58:24,000
+control design course.
+
+1521
+01:58:28,000 --> 01:58:30,000
+Okay, for frequency
+
+1522
+01:58:30,000 --> 01:58:32,000
+domain design
+
+1523
+01:58:32,000 --> 01:58:34,000
+it is basically
+
+1524
+01:58:34,000 --> 01:58:36,000
+reshape the frequency response.
+
+1525
+01:58:36,000 --> 01:58:38,000
+When we
+
+1526
+01:58:38,000 --> 01:58:40,000
+talk about the frequency response
+
+1527
+01:58:40,000 --> 01:58:42,000
+we normally consider the
+
+1528
+01:58:42,000 --> 01:58:44,000
+Bode plot
+
+1529
+01:58:44,000 --> 01:58:46,000
+which has two plots
+
+1530
+01:58:46,000 --> 01:58:48,000
+magnitude plot
+
+1531
+01:58:48,000 --> 01:58:50,000
+and phase plots.
+
+1532
+01:58:50,000 --> 01:58:52,000
+Nothing means
+
+1533
+01:58:52,000 --> 01:58:54,000
+this
+
+1534
+01:59:02,000 --> 01:59:04,000
+yeah, if you just have this
+
+1535
+01:59:04,000 --> 01:59:06,000
+Gs here
+
+1536
+01:59:06,000 --> 01:59:08,000
+the frequency response
+
+1537
+01:59:08,000 --> 01:59:10,000
+may not meet the requirement.
+
+1538
+01:59:10,000 --> 01:59:12,000
+So you have to add
+
+1539
+01:59:12,000 --> 01:59:14,000
+Cs
+
+1540
+01:59:14,000 --> 01:59:16,000
+then Cs together with the Gs
+
+1541
+01:59:16,000 --> 01:59:18,000
+you will reshape
+
+1542
+01:59:18,000 --> 01:59:20,000
+the overall frequency response
+
+1543
+01:59:20,000 --> 01:59:22,000
+to meet
+
+1544
+01:59:22,000 --> 01:59:24,000
+the required frequency
+
+1545
+01:59:24,000 --> 01:59:26,000
+domain specifications.
+
+1546
+01:59:26,000 --> 01:59:28,000
+Okay, when we plot the
+
+1547
+01:59:28,000 --> 01:59:30,000
+frequency Bode plots
+
+1548
+01:59:30,000 --> 01:59:32,000
+here
+
+1549
+01:59:32,000 --> 01:59:34,000
+we plot the open loop
+
+1550
+01:59:34,000 --> 01:59:36,000
+transfer function Bode plots
+
+1551
+01:59:36,000 --> 01:59:38,000
+not the closed loop.
+
+1552
+01:59:38,000 --> 01:59:40,000
+So we will consider
+
+1553
+01:59:40,000 --> 01:59:42,000
+the product
+
+1554
+01:59:42,000 --> 01:59:44,000
+G times C
+
+1555
+01:59:44,000 --> 01:59:46,000
+that's the open loop.
+
+1556
+01:59:46,000 --> 01:59:48,000
+So before we design C
+
+1557
+01:59:48,000 --> 01:59:50,000
+we just plot the G.
+
+1558
+01:59:50,000 --> 01:59:52,000
+So this G
+
+1559
+01:59:54,000 --> 01:59:56,000
+may not meet this requirement
+
+1560
+01:59:56,000 --> 01:59:58,000
+so that's why you have to use
+
+1561
+01:59:58,000 --> 02:00:00,000
+C to reshape
+
+1562
+02:00:00,000 --> 02:00:02,000
+the frequency response.
+
+1563
+02:00:04,000 --> 02:00:06,000
+Okay, we have some definitions
+
+1564
+02:00:10,000 --> 02:00:12,000
+here
+
+1565
+02:00:12,000 --> 02:00:14,000
+for the
+
+1566
+02:00:14,000 --> 02:00:16,000
+open loop transfer function
+
+1567
+02:00:16,000 --> 02:00:18,000
+if we don't have C we just have
+
+1568
+02:00:18,000 --> 02:00:20,000
+G. Yeah, H is one here.
+
+1569
+02:00:20,000 --> 02:00:22,000
+H is normally
+
+1570
+02:00:22,000 --> 02:00:24,000
+the feedback
+
+1571
+02:00:24,000 --> 02:00:26,000
+transfer function.
+
+1572
+02:00:26,000 --> 02:00:28,000
+So
+
+1573
+02:00:28,000 --> 02:00:30,000
+if we want to find the gain margin
+
+1574
+02:00:30,000 --> 02:00:32,000
+without C
+
+1575
+02:00:32,000 --> 02:00:34,000
+you just plot
+
+1576
+02:00:34,000 --> 02:00:36,000
+Bode plots of G
+
+1577
+02:00:36,000 --> 02:00:38,000
+here.
+
+1578
+02:00:38,000 --> 02:00:40,000
+Yeah, later on if you
+
+1579
+02:00:40,000 --> 02:00:42,000
+finish your design of the controller
+
+1580
+02:00:42,000 --> 02:00:44,000
+you have to plot
+
+1581
+02:00:44,000 --> 02:00:46,000
+the Bode plots
+
+1582
+02:00:46,000 --> 02:00:48,000
+of G times C.
+
+1583
+02:00:48,000 --> 02:00:50,000
+But for both cases we have
+
+1584
+02:00:50,000 --> 02:00:52,000
+such definitions.
+
+1585
+02:00:52,000 --> 02:00:54,000
+We have the definition of
+
+1586
+02:00:54,000 --> 02:00:56,000
+gain cross over frequency.
+
+1587
+02:00:58,000 --> 02:01:00,000
+So you look at the Bode plots
+
+1588
+02:01:00,000 --> 02:01:02,000
+yeah
+
+1589
+02:01:02,000 --> 02:01:04,000
+that is the magnitude plot.
+
+1590
+02:01:04,000 --> 02:01:06,000
+So for this
+
+1591
+02:01:06,000 --> 02:01:08,000
+red curve
+
+1592
+02:01:08,000 --> 02:01:10,000
+because
+
+1593
+02:01:10,000 --> 02:01:12,000
+this is in terms
+
+1594
+02:01:12,000 --> 02:01:14,000
+of dB. You know dB is defined
+
+1595
+02:01:14,000 --> 02:01:16,000
+as 20 N
+
+1596
+02:01:16,000 --> 02:01:18,000
+times the magnitude of the
+
+1597
+02:01:18,000 --> 02:01:20,000
+transfer function. Of course
+
+1598
+02:01:20,000 --> 02:01:22,000
+for the frequency X
+
+1599
+02:01:22,000 --> 02:01:24,000
+is similar to paper
+
+1600
+02:01:24,000 --> 02:01:26,000
+here. So
+
+1601
+02:01:26,000 --> 02:01:28,000
+this frequency
+
+1602
+02:01:28,000 --> 02:01:30,000
+is the frequency
+
+1603
+02:01:30,000 --> 02:01:32,000
+when the magnitude
+
+1604
+02:01:32,000 --> 02:01:34,000
+cross the
+
+1605
+02:01:34,000 --> 02:01:36,000
+frequency X.
+
+1606
+02:01:36,000 --> 02:01:38,000
+So that's 0 dB.
+
+1607
+02:01:38,000 --> 02:01:40,000
+At the 0 dB
+
+1608
+02:01:40,000 --> 02:01:42,000
+the corresponding frequency is
+
+1609
+02:01:42,000 --> 02:01:44,000
+called gain cross over frequency.
+
+1610
+02:01:44,000 --> 02:01:46,000
+At this frequency
+
+1611
+02:01:46,000 --> 02:01:48,000
+you look at the phase
+
+1612
+02:01:48,000 --> 02:01:50,000
+value.
+
+1613
+02:01:50,000 --> 02:01:52,000
+So this is the phase.
+
+1614
+02:01:54,000 --> 02:01:56,000
+Then phase margin
+
+1615
+02:01:56,000 --> 02:01:58,000
+is just equal
+
+1616
+02:01:58,000 --> 02:02:00,000
+the phase angle
+
+1617
+02:02:00,000 --> 02:02:02,000
+which is this
+
+1618
+02:02:02,000 --> 02:02:04,000
+value
+
+1619
+02:02:04,000 --> 02:02:06,000
+minus
+
+1620
+02:02:06,000 --> 02:02:08,000
+negative 180 degree.
+
+1621
+02:02:08,000 --> 02:02:10,000
+This line is negative 180 degree.
+
+1622
+02:02:10,000 --> 02:02:12,000
+So this is the difference.
+
+1623
+02:02:12,000 --> 02:02:14,000
+So this is our
+
+1624
+02:02:14,000 --> 02:02:16,000
+phase margin.
+
+1625
+02:02:16,000 --> 02:02:18,000
+If this phase margin is bigger
+
+1626
+02:02:18,000 --> 02:02:20,000
+than 0 then
+
+1627
+02:02:28,000 --> 02:02:30,000
+the system is
+
+1628
+02:02:30,000 --> 02:02:32,000
+stable.
+
+1629
+02:02:34,000 --> 02:02:36,000
+Yeah.
+
+1630
+02:02:50,000 --> 02:02:52,000
+This is 1
+
+1631
+02:02:52,000 --> 02:02:54,000
+here. Then
+
+1632
+02:02:54,000 --> 02:02:56,000
+H is 1. So
+
+1633
+02:02:56,000 --> 02:02:58,000
+with this G then
+
+1634
+02:02:58,000 --> 02:03:00,000
+the system will be stable
+
+1635
+02:03:00,000 --> 02:03:02,000
+if this phase margin is bigger
+
+1636
+02:03:02,000 --> 02:03:04,000
+than 0.
+
+1637
+02:03:04,000 --> 02:03:06,000
+Later on when we
+
+1638
+02:03:06,000 --> 02:03:08,000
+plot the transfer function
+
+1639
+02:03:08,000 --> 02:03:10,000
+G times C
+
+1640
+02:03:10,000 --> 02:03:12,000
+if you have positive phase margin
+
+1641
+02:03:12,000 --> 02:03:14,000
+that means this feedback
+
+1642
+02:03:14,000 --> 02:03:16,000
+system will be stable.
+
+1643
+02:03:16,000 --> 02:03:18,000
+So when you plot the
+
+1644
+02:03:18,000 --> 02:03:20,000
+both the plots you just use
+
+1645
+02:03:20,000 --> 02:03:22,000
+open loop transfer function.
+
+1646
+02:03:22,000 --> 02:03:24,000
+Now we also have the
+
+1647
+02:03:24,000 --> 02:03:26,000
+definition of gain margin.
+
+1648
+02:03:26,000 --> 02:03:28,000
+For the gain margin you have to consider the phase
+
+1649
+02:03:28,000 --> 02:03:30,000
+cross over frequency.
+
+1650
+02:03:30,000 --> 02:03:32,000
+Here you look at the phase curve.
+
+1651
+02:03:32,000 --> 02:03:34,000
+And
+
+1652
+02:03:34,000 --> 02:03:36,000
+the phase cross over frequency
+
+1653
+02:03:36,000 --> 02:03:38,000
+is the frequency that
+
+1654
+02:03:38,000 --> 02:03:40,000
+the phase
+
+1655
+02:03:40,000 --> 02:03:42,000
+cross negative
+
+1656
+02:03:42,000 --> 02:03:44,000
+180 degree line.
+
+1657
+02:03:44,000 --> 02:03:46,000
+So at this frequency
+
+1658
+02:03:46,000 --> 02:03:48,000
+you look at the magnitude.
+
+1659
+02:03:50,000 --> 02:03:52,000
+This amount of the
+
+1660
+02:03:52,000 --> 02:03:54,000
+gain is called the gain margin.
+
+1661
+02:03:54,000 --> 02:03:56,000
+So actually is the
+
+1662
+02:03:56,000 --> 02:03:58,000
+difference between 0 dB
+
+1663
+02:03:58,000 --> 02:04:00,000
+9
+
+1664
+02:04:00,000 --> 02:04:02,000
+and the gain
+
+1665
+02:04:02,000 --> 02:04:04,000
+of the
+
+1666
+02:04:04,000 --> 02:04:06,000
+transfer function.
+
+1667
+02:04:06,000 --> 02:04:08,000
+So it's 0
+
+1668
+02:04:08,000 --> 02:04:10,000
+minus this
+
+1669
+02:04:10,000 --> 02:04:12,000
+20
+
+1670
+02:04:12,000 --> 02:04:14,000
+log magnitude
+
+1671
+02:04:14,000 --> 02:04:16,000
+of GH omega
+
+1672
+02:04:16,000 --> 02:04:18,000
+5. So 0 minus that
+
+1673
+02:04:18,000 --> 02:04:20,000
+will be negative 20. If this
+
+1674
+02:04:20,000 --> 02:04:22,000
+answer is positive then you have
+
+1675
+02:04:22,000 --> 02:04:24,000
+positive gain margin.
+
+1676
+02:04:24,000 --> 02:04:26,000
+Then your system will be
+
+1677
+02:04:26,000 --> 02:04:28,000
+stable.
+
+1678
+02:04:28,000 --> 02:04:30,000
+So that's the definition of
+
+1679
+02:04:30,000 --> 02:04:32,000
+gain margin and phase margin.
+
+1680
+02:04:32,000 --> 02:04:34,000
+And this is
+
+1681
+02:04:34,000 --> 02:04:36,000
+one of the
+
+1682
+02:04:36,000 --> 02:04:38,000
+one or two of the
+
+1683
+02:04:38,000 --> 02:04:40,000
+specifications of the
+
+1684
+02:04:40,000 --> 02:04:42,000
+system.
+
+1685
+02:04:42,000 --> 02:04:44,000
+Now let's consider the
+
+1686
+02:04:44,000 --> 02:04:46,000
+design of
+
+1687
+02:04:46,000 --> 02:04:48,000
+lead compensator.
+
+1688
+02:04:48,000 --> 02:04:50,000
+Just now I mentioned
+
+1689
+02:04:50,000 --> 02:04:52,000
+lead compensator are used
+
+1690
+02:04:52,000 --> 02:04:54,000
+to improve transit performance.
+
+1691
+02:04:54,000 --> 02:04:56,000
+So this C
+
+1692
+02:04:56,000 --> 02:04:58,000
+will be our lead compensator.
+
+1693
+02:05:00,000 --> 02:05:02,000
+The idea is
+
+1694
+02:05:02,000 --> 02:05:04,000
+to increase the
+
+1695
+02:05:04,000 --> 02:05:06,000
+phase margin of the system
+
+1696
+02:05:06,000 --> 02:05:08,000
+without changing
+
+1697
+02:05:08,000 --> 02:05:10,000
+much the steady state accuracy.
+
+1698
+02:05:10,000 --> 02:05:12,000
+So that means the
+
+1699
+02:05:12,000 --> 02:05:14,000
+frequency response
+
+1700
+02:05:14,000 --> 02:05:16,000
+will be modified at the
+
+1701
+02:05:16,000 --> 02:05:18,000
+high frequency part.
+
+1702
+02:05:18,000 --> 02:05:20,000
+At the low frequency part
+
+1703
+02:05:20,000 --> 02:05:22,000
+there is
+
+1704
+02:05:22,000 --> 02:05:24,000
+there is no much change.
+
+1705
+02:05:24,000 --> 02:05:26,000
+Okay
+
+1706
+02:05:26,000 --> 02:05:28,000
+what is the transfer function of lead
+
+1707
+02:05:28,000 --> 02:05:30,000
+compensator? It is
+
+1708
+02:05:30,000 --> 02:05:32,000
+in this form.
+
+1709
+02:05:32,000 --> 02:05:34,000
+So you have
+
+1710
+02:05:34,000 --> 02:05:36,000
+constant K
+
+1711
+02:05:36,000 --> 02:05:38,000
+yeah that's the gain
+
+1712
+02:05:38,000 --> 02:05:40,000
+of the lead
+
+1713
+02:05:40,000 --> 02:05:42,000
+compensator. C0
+
+1714
+02:05:42,000 --> 02:05:44,000
+should have this form
+
+1715
+02:05:44,000 --> 02:05:46,000
+TS plus one
+
+1716
+02:05:46,000 --> 02:05:48,000
+divided by alpha TS plus one.
+
+1717
+02:05:48,000 --> 02:05:50,000
+Where alpha
+
+1718
+02:05:50,000 --> 02:05:52,000
+is positive constant
+
+1719
+02:05:52,000 --> 02:05:54,000
+less than one.
+
+1720
+02:05:54,000 --> 02:05:56,000
+So
+
+1721
+02:05:56,000 --> 02:05:58,000
+to find this CS
+
+1722
+02:05:58,000 --> 02:06:00,000
+you just need to find K
+
+1723
+02:06:00,000 --> 02:06:02,000
+T and alpha.
+
+1724
+02:06:02,000 --> 02:06:04,000
+If you find these three values
+
+1725
+02:06:04,000 --> 02:06:06,000
+your design is finished.
+
+1726
+02:06:08,000 --> 02:06:10,000
+Okay
+
+1727
+02:06:10,000 --> 02:06:12,000
+now because our design
+
+1728
+02:06:12,000 --> 02:06:14,000
+is based on frequency domain
+
+1729
+02:06:14,000 --> 02:06:16,000
+we need to plot the
+
+1730
+02:06:16,000 --> 02:06:18,000
+frequency
+
+1731
+02:06:18,000 --> 02:06:20,000
+response
+
+1732
+02:06:20,000 --> 02:06:22,000
+of CS.
+
+1733
+02:06:22,000 --> 02:06:24,000
+So you can see from this
+
+1734
+02:06:24,000 --> 02:06:26,000
+transfer function we have two
+
+1735
+02:06:26,000 --> 02:06:28,000
+basic factors.
+
+1736
+02:06:28,000 --> 02:06:30,000
+This is a term used
+
+1737
+02:06:30,000 --> 02:06:32,000
+in classical control.
+
+1738
+02:06:32,000 --> 02:06:34,000
+So for the zero this is
+
+1739
+02:06:34,000 --> 02:06:36,000
+a basic factor TS plus one.
+
+1740
+02:06:36,000 --> 02:06:38,000
+Yeah basic factor means
+
+1741
+02:06:38,000 --> 02:06:40,000
+your gain should be one.
+
+1742
+02:06:40,000 --> 02:06:42,000
+Okay
+
+1743
+02:06:42,000 --> 02:06:44,000
+so you see here is one
+
+1744
+02:06:44,000 --> 02:06:46,000
+for the denominator
+
+1745
+02:06:46,000 --> 02:06:48,000
+this is also one.
+
+1746
+02:06:48,000 --> 02:06:50,000
+The coefficient of
+
+1747
+02:06:50,000 --> 02:06:52,000
+S may not be one.
+
+1748
+02:06:52,000 --> 02:06:54,000
+So here we have
+
+1749
+02:06:54,000 --> 02:06:56,000
+two basic factors for
+
+1750
+02:06:56,000 --> 02:06:58,000
+this compensator TS
+
+1751
+02:06:58,000 --> 02:07:00,000
+plus one that's the zero
+
+1752
+02:07:00,000 --> 02:07:02,000
+and alpha TS plus
+
+1753
+02:07:02,000 --> 02:07:04,000
+one that's the pole
+
+1754
+02:07:04,000 --> 02:07:06,000
+of this transfer function.
+
+1755
+02:07:06,000 --> 02:07:08,000
+For the zero
+
+1756
+02:07:08,000 --> 02:07:10,000
+you have a corner
+
+1757
+02:07:10,000 --> 02:07:12,000
+frequency which is one
+
+1758
+02:07:12,000 --> 02:07:14,000
+divided by T. Yeah T is here.
+
+1759
+02:07:14,000 --> 02:07:16,000
+For the pole
+
+1760
+02:07:16,000 --> 02:07:18,000
+the corner frequency is one
+
+1761
+02:07:18,000 --> 02:07:20,000
+over alpha T.
+
+1762
+02:07:20,000 --> 02:07:22,000
+Because alpha is
+
+1763
+02:07:22,000 --> 02:07:24,000
+less than one
+
+1764
+02:07:24,000 --> 02:07:26,000
+so this value one over alpha T
+
+1765
+02:07:26,000 --> 02:07:28,000
+will be bigger than
+
+1766
+02:07:28,000 --> 02:07:30,000
+one over T.
+
+1767
+02:07:30,000 --> 02:07:32,000
+Okay
+
+1768
+02:07:32,000 --> 02:07:34,000
+so that is the corner frequency
+
+1769
+02:07:34,000 --> 02:07:36,000
+for the pole is bigger than
+
+1770
+02:07:36,000 --> 02:07:38,000
+that of the zero.
+
+1771
+02:07:38,000 --> 02:07:40,000
+Okay
+
+1772
+02:07:40,000 --> 02:07:42,000
+now let's look at the
+
+1773
+02:07:42,000 --> 02:07:44,000
+frequency response
+
+1774
+02:07:44,000 --> 02:07:46,000
+of this part.
+
+1775
+02:07:46,000 --> 02:07:48,000
+Yeah because this K is a
+
+1776
+02:07:48,000 --> 02:07:50,000
+constant it will be determined
+
+1777
+02:07:50,000 --> 02:07:52,000
+based on this error
+
+1778
+02:07:52,000 --> 02:07:54,000
+requirement.
+
+1779
+02:07:54,000 --> 02:07:56,000
+So for the frequency
+
+1780
+02:07:56,000 --> 02:07:58,000
+specifications
+
+1781
+02:07:58,000 --> 02:08:00,000
+we consider this portion.
+
+1782
+02:08:00,000 --> 02:08:02,000
+Actually for this portion
+
+1783
+02:08:02,000 --> 02:08:04,000
+the DC gain is one.
+
+1784
+02:08:04,000 --> 02:08:06,000
+Because when S is zero
+
+1785
+02:08:06,000 --> 02:08:08,000
+then this gain is one.
+
+1786
+02:08:08,000 --> 02:08:10,000
+Okay the corresponding
+
+1787
+02:08:10,000 --> 02:08:12,000
+frequency response for this part
+
+1788
+02:08:12,000 --> 02:08:14,000
+is obtained
+
+1789
+02:08:14,000 --> 02:08:16,000
+by changing your S
+
+1790
+02:08:16,000 --> 02:08:18,000
+to J omega.
+
+1791
+02:08:18,000 --> 02:08:20,000
+Yeah you get this.
+
+1792
+02:08:20,000 --> 02:08:22,000
+So you can get this
+
+1793
+02:08:26,000 --> 02:08:28,000
+yeah you plot the
+
+1794
+02:08:28,000 --> 02:08:30,000
+frequency response of this
+
+1795
+02:08:30,000 --> 02:08:32,000
+you get this plot here.
+
+1796
+02:08:38,000 --> 02:08:40,000
+For the, yeah I said
+
+1797
+02:08:40,000 --> 02:08:42,000
+you have two parts. You have a
+
+1798
+02:08:42,000 --> 02:08:44,000
+magnitude and the
+
+1799
+02:08:44,000 --> 02:08:46,000
+phase. This is the magnitude.
+
+1800
+02:08:46,000 --> 02:08:48,000
+Yeah that is the
+
+1801
+02:08:48,000 --> 02:08:50,000
+magnitude of this. You can
+
+1802
+02:08:50,000 --> 02:08:52,000
+see when omega
+
+1803
+02:08:52,000 --> 02:08:54,000
+is very small. Yeah that is
+
+1804
+02:08:54,000 --> 02:08:56,000
+when omega tends to zero that's one.
+
+1805
+02:08:56,000 --> 02:08:58,000
+Right?
+
+1806
+02:08:58,000 --> 02:09:00,000
+One is zero dB.
+
+1807
+02:09:00,000 --> 02:09:02,000
+So that's why at the beginning
+
+1808
+02:09:02,000 --> 02:09:04,000
+the magnitude
+
+1809
+02:09:04,000 --> 02:09:06,000
+is almost
+
+1810
+02:09:06,000 --> 02:09:08,000
+zero dB. Now when
+
+1811
+02:09:08,000 --> 02:09:10,000
+the omega is
+
+1812
+02:09:10,000 --> 02:09:12,000
+almost one
+
+1813
+02:09:12,000 --> 02:09:14,000
+over T. Yeah it's close
+
+1814
+02:09:14,000 --> 02:09:16,000
+to one over T.
+
+1815
+02:09:16,000 --> 02:09:18,000
+Then
+
+1816
+02:09:18,000 --> 02:09:20,000
+actually when omega equals one
+
+1817
+02:09:20,000 --> 02:09:22,000
+over T this is one. The numerator
+
+1818
+02:09:22,000 --> 02:09:24,000
+is one. So it's J
+
+1819
+02:09:24,000 --> 02:09:26,000
+one plus one.
+
+1820
+02:09:28,000 --> 02:09:30,000
+And the denominator
+
+1821
+02:09:30,000 --> 02:09:32,000
+because alpha is smaller
+
+1822
+02:09:32,000 --> 02:09:34,000
+than one so you can still
+
+1823
+02:09:34,000 --> 02:09:36,000
+ignore this term. So the
+
+1824
+02:09:36,000 --> 02:09:38,000
+denominator is still one
+
+1825
+02:09:38,000 --> 02:09:40,000
+here. So you plot this
+
+1826
+02:09:40,000 --> 02:09:42,000
+zero and you have
+
+1827
+02:09:42,000 --> 02:09:44,000
+this corner frequency called
+
+1828
+02:09:44,000 --> 02:09:46,000
+one over T. Yeah that's why
+
+1829
+02:09:46,000 --> 02:09:48,000
+we have this one over
+
+1830
+02:09:48,000 --> 02:09:50,000
+T here. So that's the corner
+
+1831
+02:09:50,000 --> 02:09:52,000
+frequency. That will change
+
+1832
+02:09:52,000 --> 02:09:54,000
+the slope of this straight line.
+
+1833
+02:09:54,000 --> 02:09:56,000
+So
+
+1834
+02:09:56,000 --> 02:09:58,000
+the slope will be
+
+1835
+02:09:58,000 --> 02:10:00,000
+20 dB
+
+1836
+02:10:00,000 --> 02:10:02,000
+per decade.
+
+1837
+02:10:02,000 --> 02:10:04,000
+Yeah.
+
+1838
+02:10:04,000 --> 02:10:06,000
+So
+
+1839
+02:10:06,000 --> 02:10:08,000
+you get this red curve
+
+1840
+02:10:08,000 --> 02:10:10,000
+when
+
+1841
+02:10:10,000 --> 02:10:12,000
+omega is
+
+1842
+02:10:12,000 --> 02:10:14,000
+bigger than one over T
+
+1843
+02:10:14,000 --> 02:10:16,000
+you get this. Then
+
+1844
+02:10:16,000 --> 02:10:18,000
+when omega is approached
+
+1845
+02:10:18,000 --> 02:10:20,000
+to one
+
+1846
+02:10:20,000 --> 02:10:22,000
+over alpha T so you have the
+
+1847
+02:10:22,000 --> 02:10:24,000
+corner frequency of
+
+1848
+02:10:24,000 --> 02:10:26,000
+the pole.
+
+1849
+02:10:26,000 --> 02:10:28,000
+Then this will take effect.
+
+1850
+02:10:28,000 --> 02:10:32,000
+When this
+
+1851
+02:10:32,000 --> 02:10:34,000
+pole is in
+
+1852
+02:10:34,000 --> 02:10:36,000
+effect the slope will
+
+1853
+02:10:36,000 --> 02:10:38,000
+be changed
+
+1854
+02:10:38,000 --> 02:10:40,000
+from positive 20 dB
+
+1855
+02:10:40,000 --> 02:10:42,000
+to zero
+
+1856
+02:10:42,000 --> 02:10:44,000
+zero dB per decade.
+
+1857
+02:10:44,000 --> 02:10:46,000
+That means
+
+1858
+02:10:46,000 --> 02:10:48,000
+this
+
+1859
+02:10:48,000 --> 02:10:50,000
+is positive 20 then
+
+1860
+02:10:50,000 --> 02:10:52,000
+minus 20 dB per decade
+
+1861
+02:10:52,000 --> 02:10:54,000
+it will be zero.
+
+1862
+02:10:54,000 --> 02:10:56,000
+Okay I
+
+1863
+02:10:56,000 --> 02:10:58,000
+believe you should know how to
+
+1864
+02:10:58,000 --> 02:11:00,000
+plot such
+
+1865
+02:11:00,000 --> 02:11:02,000
+body diagrams.
+
+1866
+02:11:02,000 --> 02:11:04,000
+Okay so that's the
+
+1867
+02:11:04,000 --> 02:11:06,000
+amplitude
+
+1868
+02:11:06,000 --> 02:11:08,000
+of this transfer
+
+1869
+02:11:08,000 --> 02:11:10,000
+function. Yeah.
+
+1870
+02:11:10,000 --> 02:11:12,000
+Now for phase.
+
+1871
+02:11:12,000 --> 02:11:14,000
+Phase angle
+
+1872
+02:11:14,000 --> 02:11:16,000
+it is computed
+
+1873
+02:11:16,000 --> 02:11:18,000
+by this formula. So it's the
+
+1874
+02:11:18,000 --> 02:11:20,000
+phase of the numerator
+
+1875
+02:11:20,000 --> 02:11:22,000
+minus the phase angle
+
+1876
+02:11:22,000 --> 02:11:24,000
+of the denominator.
+
+1877
+02:11:24,000 --> 02:11:26,000
+The phase angle of the numerator is
+
+1878
+02:11:26,000 --> 02:11:28,000
+inverse tangent
+
+1879
+02:11:28,000 --> 02:11:30,000
+omega T divided by one.
+
+1880
+02:11:30,000 --> 02:11:32,000
+That's the first term.
+
+1881
+02:11:32,000 --> 02:11:34,000
+The
+
+1882
+02:11:34,000 --> 02:11:36,000
+phase angle of the denominator is
+
+1883
+02:11:36,000 --> 02:11:38,000
+inverse tangent alpha T omega
+
+1884
+02:11:38,000 --> 02:11:40,000
+over one.
+
+1885
+02:11:40,000 --> 02:11:42,000
+So it's this.
+
+1886
+02:11:42,000 --> 02:11:44,000
+And
+
+1887
+02:11:44,000 --> 02:11:46,000
+this is always positive.
+
+1888
+02:11:46,000 --> 02:11:48,000
+In fact for this
+
+1889
+02:11:48,000 --> 02:11:50,000
+function
+
+1890
+02:11:50,000 --> 02:11:52,000
+if you take derivative with respect
+
+1891
+02:11:52,000 --> 02:11:54,000
+omega and make it zero
+
+1892
+02:11:54,000 --> 02:11:56,000
+you can find the maximum value.
+
+1893
+02:11:56,000 --> 02:11:58,000
+So that's the phase
+
+1894
+02:11:58,000 --> 02:12:00,000
+curve.
+
+1895
+02:12:00,000 --> 02:12:02,000
+That's the angle of this.
+
+1896
+02:12:02,000 --> 02:12:04,000
+And this angle is always positive
+
+1897
+02:12:04,000 --> 02:12:06,000
+for this 90 degree.
+
+1898
+02:12:06,000 --> 02:12:08,000
+Okay
+
+1899
+02:12:08,000 --> 02:12:10,000
+so this maximum
+
+1900
+02:12:10,000 --> 02:12:12,000
+occurs at
+
+1901
+02:12:12,000 --> 02:12:14,000
+this frequency.
+
+1902
+02:12:14,000 --> 02:12:16,000
+You just
+
+1903
+02:12:16,000 --> 02:12:18,000
+solve this equation you can get omega
+
+1904
+02:12:18,000 --> 02:12:20,000
+n.
+
+1905
+02:12:20,000 --> 02:12:22,000
+Okay.
+
+1906
+02:12:22,000 --> 02:12:24,000
+Okay so now
+
+1907
+02:12:24,000 --> 02:12:26,000
+for this compensator
+
+1908
+02:12:26,000 --> 02:12:28,000
+we will use this
+
+1909
+02:12:28,000 --> 02:12:30,000
+maximum
+
+1910
+02:12:30,000 --> 02:12:32,000
+phase
+
+1911
+02:12:32,000 --> 02:12:34,000
+to increase our phase margin
+
+1912
+02:12:34,000 --> 02:12:36,000
+of the
+
+1913
+02:12:36,000 --> 02:12:38,000
+feedback control system.
+
+1914
+02:12:38,000 --> 02:12:40,000
+So
+
+1915
+02:12:40,000 --> 02:12:42,000
+as
+
+1916
+02:12:42,000 --> 02:12:44,000
+just now defined
+
+1917
+02:12:44,000 --> 02:12:46,000
+phase margin is
+
+1918
+02:12:46,000 --> 02:12:48,000
+defined at the
+
+1919
+02:12:48,000 --> 02:12:50,000
+gain crossover frequency.
+
+1920
+02:12:50,000 --> 02:12:52,000
+So we will choose
+
+1921
+02:12:52,000 --> 02:12:54,000
+this omega m
+
+1922
+02:12:54,000 --> 02:12:56,000
+as the
+
+1923
+02:12:56,000 --> 02:12:58,000
+new gain crossover
+
+1924
+02:12:58,000 --> 02:13:00,000
+frequency.
+
+1925
+02:13:00,000 --> 02:13:02,000
+Later on we will consider
+
+1926
+02:13:02,000 --> 02:13:04,000
+that.
+
+1927
+02:13:04,000 --> 02:13:06,000
+And this phase
+
+1928
+02:13:06,000 --> 02:13:08,000
+phi
+
+1929
+02:13:08,000 --> 02:13:10,000
+can be computed
+
+1930
+02:13:10,000 --> 02:13:12,000
+as this maximum
+
+1931
+02:13:12,000 --> 02:13:14,000
+phase.
+
+1932
+02:13:14,000 --> 02:13:16,000
+This is the frequency that gives you the maximum
+
+1933
+02:13:16,000 --> 02:13:18,000
+phase and this maximum
+
+1934
+02:13:18,000 --> 02:13:20,000
+can be computed also
+
+1935
+02:13:20,000 --> 02:13:22,000
+by using this formula.
+
+1936
+02:13:22,000 --> 02:13:24,000
+You just substitute this omega m
+
+1937
+02:13:24,000 --> 02:13:26,000
+to here to the calculation.
+
+1938
+02:13:26,000 --> 02:13:28,000
+It will be equal to
+
+1939
+02:13:28,000 --> 02:13:30,000
+inverse sine one minus
+
+1940
+02:13:30,000 --> 02:13:32,000
+alpha over one plus alpha.
+
+1941
+02:13:32,000 --> 02:13:34,000
+Which means sine phi equals this.
+
+1942
+02:13:36,000 --> 02:13:38,000
+Okay from this equation
+
+1943
+02:13:38,000 --> 02:13:40,000
+you can get your alpha.
+
+1944
+02:13:40,000 --> 02:13:42,000
+So that's how you design your
+
+1945
+02:13:42,000 --> 02:13:44,000
+alpha.
+
+1946
+02:13:44,000 --> 02:13:46,000
+So this formula
+
+1947
+02:13:46,000 --> 02:13:48,000
+is used to calculate
+
+1948
+02:13:48,000 --> 02:13:50,000
+our alpha. Of course
+
+1949
+02:13:50,000 --> 02:13:52,000
+you have to decide
+
+1950
+02:13:52,000 --> 02:13:54,000
+what's the value of phi.
+
+1951
+02:13:54,000 --> 02:13:56,000
+Yeah phi
+
+1952
+02:13:56,000 --> 02:13:58,000
+will be dependent on the
+
+1953
+02:13:58,000 --> 02:14:00,000
+specification. Which is
+
+1954
+02:14:00,000 --> 02:14:02,000
+phase margin. Later on
+
+1955
+02:14:02,000 --> 02:14:04,000
+I will show you how to get
+
+1956
+02:14:04,000 --> 02:14:06,000
+the phi.
+
+1957
+02:14:06,000 --> 02:14:08,000
+Okay so once
+
+1958
+02:14:08,000 --> 02:14:10,000
+you get this phi you can compute alpha.
+
+1959
+02:14:10,000 --> 02:14:12,000
+Then
+
+1960
+02:14:12,000 --> 02:14:14,000
+we want
+
+1961
+02:14:14,000 --> 02:14:16,000
+this frequency to be
+
+1962
+02:14:16,000 --> 02:14:18,000
+the new gain crossover
+
+1963
+02:14:18,000 --> 02:14:20,000
+frequency. So
+
+1964
+02:14:20,000 --> 02:14:22,000
+we should have this
+
+1965
+02:14:22,000 --> 02:14:24,000
+amplitude computed.
+
+1966
+02:14:24,000 --> 02:14:26,000
+Yeah
+
+1967
+02:14:26,000 --> 02:14:28,000
+You just substitute
+
+1968
+02:14:28,000 --> 02:14:30,000
+this value
+
+1969
+02:14:30,000 --> 02:14:32,000
+of omega
+
+1970
+02:14:32,000 --> 02:14:34,000
+to the magnitude.
+
+1971
+02:14:34,000 --> 02:14:36,000
+Yeah you compute this magnitude.
+
+1972
+02:14:36,000 --> 02:14:38,000
+You find that
+
+1973
+02:14:38,000 --> 02:14:40,000
+it is negative ten
+
+1974
+02:14:40,000 --> 02:14:42,000
+over alpha. Yeah that is this
+
+1975
+02:14:42,000 --> 02:14:44,000
+amount here.
+
+1976
+02:14:44,000 --> 02:14:46,000
+Okay this is
+
+1977
+02:14:46,000 --> 02:14:48,000
+from the
+
+1978
+02:14:48,000 --> 02:14:50,000
+compensator C.
+
+1979
+02:14:50,000 --> 02:14:52,000
+C zero.
+
+1980
+02:15:00,000 --> 02:15:02,000
+Okay so this is
+
+1981
+02:15:04,000 --> 02:15:06,000
+C zero
+
+1982
+02:15:06,000 --> 02:15:08,000
+J omega.
+
+1983
+02:15:08,000 --> 02:15:10,000
+So at this
+
+1984
+02:15:10,000 --> 02:15:12,000
+frequency you have this magnitude.
+
+1985
+02:15:18,000 --> 02:15:20,000
+Okay
+
+1986
+02:15:20,000 --> 02:15:22,000
+so
+
+1987
+02:15:22,000 --> 02:15:24,000
+after we
+
+1988
+02:15:24,000 --> 02:15:26,000
+review this concept
+
+1989
+02:15:26,000 --> 02:15:28,000
+this is just about
+
+1990
+02:15:28,000 --> 02:15:30,000
+the
+
+1991
+02:15:30,000 --> 02:15:32,000
+compensator body plots.
+
+1992
+02:15:32,000 --> 02:15:34,000
+Now let's consider our design
+
+1993
+02:15:34,000 --> 02:15:36,000
+of phase need
+
+1994
+02:15:36,000 --> 02:15:38,000
+compensator. So first
+
+1995
+02:15:38,000 --> 02:15:40,000
+step you have to determine
+
+1996
+02:15:40,000 --> 02:15:42,000
+this K value. Yeah
+
+1997
+02:15:42,000 --> 02:15:44,000
+we have
+
+1998
+02:15:44,000 --> 02:15:46,000
+as I said we have this K
+
+1999
+02:15:46,000 --> 02:15:48,000
+here
+
+2000
+02:15:48,000 --> 02:15:50,000
+in the need compensator. We have to
+
+2001
+02:15:50,000 --> 02:15:52,000
+design this K first.
+
+2002
+02:15:52,000 --> 02:15:54,000
+How do we design K?
+
+2003
+02:15:54,000 --> 02:15:56,000
+You just use the
+
+2004
+02:15:56,000 --> 02:15:58,000
+steady state error requirement.
+
+2005
+02:15:58,000 --> 02:16:00,000
+For example
+
+2006
+02:16:00,000 --> 02:16:02,000
+the
+
+2007
+02:16:02,000 --> 02:16:04,000
+steady state error is one
+
+2008
+02:16:04,000 --> 02:16:06,000
+over one plus KP
+
+2009
+02:16:06,000 --> 02:16:08,000
+where KP is the
+
+2010
+02:16:08,000 --> 02:16:10,000
+position error constant.
+
+2011
+02:16:10,000 --> 02:16:12,000
+If this is given
+
+2012
+02:16:12,000 --> 02:16:14,000
+this
+
+2013
+02:16:14,000 --> 02:16:16,000
+can be computed
+
+2014
+02:16:16,000 --> 02:16:18,000
+based on the
+
+2015
+02:16:18,000 --> 02:16:20,000
+open loop transfer function
+
+2016
+02:16:20,000 --> 02:16:22,000
+KC zero times the G.
+
+2017
+02:16:22,000 --> 02:16:24,000
+Yeah this K times G.
+
+2018
+02:16:24,000 --> 02:16:26,000
+You can compute this.
+
+2019
+02:16:26,000 --> 02:16:28,000
+Yeah because when S go to zero
+
+2020
+02:16:28,000 --> 02:16:30,000
+this is one. So the open loop
+
+2021
+02:16:30,000 --> 02:16:32,000
+transfer function
+
+2022
+02:16:32,000 --> 02:16:34,000
+which is
+
+2023
+02:16:34,000 --> 02:16:36,000
+C times G
+
+2024
+02:16:36,000 --> 02:16:38,000
+when you take this limit
+
+2025
+02:16:38,000 --> 02:16:40,000
+it's just K times
+
+2026
+02:16:40,000 --> 02:16:42,000
+G
+
+2027
+02:16:42,000 --> 02:16:44,000
+when S tends to zero. So
+
+2028
+02:16:44,000 --> 02:16:46,000
+from this and this
+
+2029
+02:16:46,000 --> 02:16:48,000
+requirement you can find your
+
+2030
+02:16:48,000 --> 02:16:50,000
+KP. From this KP
+
+2031
+02:16:50,000 --> 02:16:52,000
+you can get your K.
+
+2032
+02:16:52,000 --> 02:16:54,000
+Okay anyway
+
+2033
+02:16:54,000 --> 02:16:56,000
+later on we have an example
+
+2034
+02:16:56,000 --> 02:16:58,000
+to compute such
+
+2035
+02:16:58,000 --> 02:17:00,000
+a value.
+
+2036
+02:17:00,000 --> 02:17:02,000
+Okay so you are using
+
+2037
+02:17:02,000 --> 02:17:04,000
+the steady state error requirement
+
+2038
+02:17:04,000 --> 02:17:06,000
+to find this K.
+
+2039
+02:17:06,000 --> 02:17:08,000
+Once you get this K
+
+2040
+02:17:08,000 --> 02:17:10,000
+you can solve the body plot
+
+2041
+02:17:10,000 --> 02:17:12,000
+of KGS. Because
+
+2042
+02:17:12,000 --> 02:17:14,000
+GS is given
+
+2043
+02:17:14,000 --> 02:17:16,000
+so you can
+
+2044
+02:17:16,000 --> 02:17:18,000
+plot KGS now if K
+
+2045
+02:17:18,000 --> 02:17:20,000
+is determined.
+
+2046
+02:17:28,000 --> 02:17:30,000
+Okay so for example
+
+2047
+02:17:30,000 --> 02:17:32,000
+we have this
+
+2048
+02:17:36,000 --> 02:17:38,000
+yeah I put this diagram
+
+2049
+02:17:38,000 --> 02:17:40,000
+here for
+
+2050
+02:17:40,000 --> 02:17:42,000
+reference. Yeah this is
+
+2051
+02:17:42,000 --> 02:17:44,000
+the slice.
+
+2052
+02:17:44,000 --> 02:17:46,000
+Now I go to the diagram.
+
+2053
+02:17:46,000 --> 02:17:48,000
+Yeah this
+
+2054
+02:17:48,000 --> 02:17:50,000
+is the diagram.
+
+2055
+02:17:52,000 --> 02:17:54,000
+We have plot
+
+2056
+02:17:54,000 --> 02:17:56,000
+this KGS
+
+2057
+02:17:56,000 --> 02:17:58,000
+which is this blue curve
+
+2058
+02:17:58,000 --> 02:18:00,000
+ah blue line.
+
+2059
+02:18:00,000 --> 02:18:02,000
+This is KGS
+
+2060
+02:18:02,000 --> 02:18:04,000
+that's the magnitude. Yeah
+
+2061
+02:18:04,000 --> 02:18:06,000
+this is just an example
+
+2062
+02:18:06,000 --> 02:18:08,000
+KGS and this is the angle
+
+2063
+02:18:08,000 --> 02:18:10,000
+K of KGS.
+
+2064
+02:18:10,000 --> 02:18:12,000
+Yeah because K is a constant
+
+2065
+02:18:12,000 --> 02:18:14,000
+so the angle of KG
+
+2066
+02:18:14,000 --> 02:18:16,000
+is same as the angle of G.
+
+2067
+02:18:16,000 --> 02:18:18,000
+Okay.
+
+2068
+02:18:18,000 --> 02:18:20,000
+So this is the
+
+2069
+02:18:22,000 --> 02:18:24,000
+yeah that is the
+
+2070
+02:18:24,000 --> 02:18:26,000
+body plot of KGS.
+
+2071
+02:18:26,000 --> 02:18:28,000
+The blue
+
+2072
+02:18:28,000 --> 02:18:30,000
+blue line here.
+
+2073
+02:18:30,000 --> 02:18:32,000
+Now based on this blue line
+
+2074
+02:18:32,000 --> 02:18:34,000
+you can find the gain cross over frequency
+
+2075
+02:18:34,000 --> 02:18:36,000
+omega G.
+
+2076
+02:18:36,000 --> 02:18:38,000
+Yeah that is the gain cross over
+
+2077
+02:18:38,000 --> 02:18:40,000
+frequency without C0.
+
+2078
+02:18:40,000 --> 02:18:42,000
+Yeah later
+
+2079
+02:18:42,000 --> 02:18:44,000
+we are going to find the C0. So this
+
+2080
+02:18:44,000 --> 02:18:46,000
+is the gain cross
+
+2081
+02:18:46,000 --> 02:18:48,000
+over frequency without C0.
+
+2082
+02:18:48,000 --> 02:18:50,000
+From this
+
+2083
+02:18:50,000 --> 02:18:52,000
+you can find this current
+
+2084
+02:18:52,000 --> 02:18:54,000
+phase margin phi 0.
+
+2085
+02:18:54,000 --> 02:18:56,000
+This phi 0 means
+
+2086
+02:18:56,000 --> 02:18:58,000
+if you don't have C0
+
+2087
+02:18:58,000 --> 02:19:00,000
+then you have this amount of phase
+
+2088
+02:19:00,000 --> 02:19:02,000
+margin.
+
+2089
+02:19:02,000 --> 02:19:04,000
+Okay. That's the
+
+2090
+02:19:04,000 --> 02:19:06,000
+existing phase margin
+
+2091
+02:19:06,000 --> 02:19:08,000
+without our C0.
+
+2092
+02:19:08,000 --> 02:19:10,000
+Without this part.
+
+2093
+02:19:10,000 --> 02:19:12,000
+So we just have
+
+2094
+02:19:12,000 --> 02:19:14,000
+K times G plotted here.
+
+2095
+02:19:14,000 --> 02:19:16,000
+Okay so
+
+2096
+02:19:16,000 --> 02:19:18,000
+that's phi 0.
+
+2097
+02:19:18,000 --> 02:19:20,000
+Now
+
+2098
+02:19:20,000 --> 02:19:22,000
+you have to decide
+
+2099
+02:19:22,000 --> 02:19:24,000
+your phi.
+
+2100
+02:19:24,000 --> 02:19:26,000
+How do we decide the phi?
+
+2101
+02:19:26,000 --> 02:19:28,000
+This is the
+
+2102
+02:19:28,000 --> 02:19:30,000
+idea.
+
+2103
+02:19:30,000 --> 02:19:32,000
+So we have
+
+2104
+02:19:32,000 --> 02:19:34,000
+found the phi 0 just now.
+
+2105
+02:19:34,000 --> 02:19:36,000
+And this phase margin is
+
+2106
+02:19:36,000 --> 02:19:38,000
+given specification.
+
+2107
+02:19:38,000 --> 02:19:40,000
+So you are required
+
+2108
+02:19:40,000 --> 02:19:42,000
+to
+
+2109
+02:19:42,000 --> 02:19:44,000
+design your controller
+
+2110
+02:19:44,000 --> 02:19:46,000
+to achieve this phase margin.
+
+2111
+02:19:46,000 --> 02:19:48,000
+So that's given, that's
+
+2112
+02:19:48,000 --> 02:19:50,000
+specification. And this is the
+
+2113
+02:19:50,000 --> 02:19:52,000
+current phase margin.
+
+2114
+02:19:52,000 --> 02:19:54,000
+So this
+
+2115
+02:19:54,000 --> 02:19:56,000
+required one
+
+2116
+02:19:56,000 --> 02:19:58,000
+minus the current one.
+
+2117
+02:19:58,000 --> 02:20:00,000
+And
+
+2118
+02:20:00,000 --> 02:20:02,000
+you have to plus
+
+2119
+02:20:02,000 --> 02:20:04,000
+some additional degree.
+
+2120
+02:20:06,000 --> 02:20:08,000
+Then you get
+
+2121
+02:20:08,000 --> 02:20:10,000
+this phi. Why do we
+
+2122
+02:20:10,000 --> 02:20:12,000
+add this additional degree?
+
+2123
+02:20:12,000 --> 02:20:14,000
+5 to 10 degree? It's because
+
+2124
+02:20:14,000 --> 02:20:16,000
+currently
+
+2125
+02:20:16,000 --> 02:20:18,000
+our phase margin
+
+2126
+02:20:18,000 --> 02:20:20,000
+our gain cross over frequencies
+
+2127
+02:20:20,000 --> 02:20:22,000
+are here. But later on
+
+2128
+02:20:22,000 --> 02:20:24,000
+we have to
+
+2129
+02:20:24,000 --> 02:20:26,000
+move this gain cross over
+
+2130
+02:20:26,000 --> 02:20:28,000
+over frequency to a higher
+
+2131
+02:20:28,000 --> 02:20:30,000
+frequency. Yeah because
+
+2132
+02:20:30,000 --> 02:20:32,000
+you have to include
+
+2133
+02:20:32,000 --> 02:20:34,000
+the C0 magnitude
+
+2134
+02:20:34,000 --> 02:20:36,000
+response and this should be the
+
+2135
+02:20:36,000 --> 02:20:38,000
+new gain cross over frequency.
+
+2136
+02:20:38,000 --> 02:20:40,000
+And this frequency is higher
+
+2137
+02:20:40,000 --> 02:20:42,000
+than omega G.
+
+2138
+02:20:42,000 --> 02:20:44,000
+At this frequency
+
+2139
+02:20:44,000 --> 02:20:46,000
+the angle
+
+2140
+02:20:46,000 --> 02:20:48,000
+of G
+
+2141
+02:20:48,000 --> 02:20:50,000
+is reduced
+
+2142
+02:20:50,000 --> 02:20:52,000
+a bit.
+
+2143
+02:20:52,000 --> 02:20:54,000
+So this
+
+2144
+02:20:54,000 --> 02:20:56,000
+if you consider
+
+2145
+02:20:56,000 --> 02:20:58,000
+this increasing of the gain cross over
+
+2146
+02:20:58,000 --> 02:21:00,000
+frequency there is a few degree
+
+2147
+02:21:00,000 --> 02:21:02,000
+difference. So this
+
+2148
+02:21:02,000 --> 02:21:04,000
+phi 0
+
+2149
+02:21:04,000 --> 02:21:06,000
+prime is maybe 5 to
+
+2150
+02:21:06,000 --> 02:21:08,000
+10 degree less than the red one.
+
+2151
+02:21:08,000 --> 02:21:10,000
+So that's why we add
+
+2152
+02:21:10,000 --> 02:21:12,000
+this 5 to 10 degrees
+
+2153
+02:21:12,000 --> 02:21:14,000
+to compensate
+
+2154
+02:21:14,000 --> 02:21:16,000
+this difference.
+
+2155
+02:21:16,000 --> 02:21:18,000
+So this is how
+
+2156
+02:21:18,000 --> 02:21:20,000
+we get this phi.
+
+2157
+02:21:20,000 --> 02:21:22,000
+Once we get this phi we can
+
+2158
+02:21:22,000 --> 02:21:24,000
+compute our alpha.
+
+2159
+02:21:24,000 --> 02:21:26,000
+Just now we have this formula
+
+2160
+02:21:26,000 --> 02:21:28,000
+to compute alpha which is
+
+2161
+02:21:28,000 --> 02:21:30,000
+1 minus sine phi divided by
+
+2162
+02:21:30,000 --> 02:21:32,000
+1 plus sine phi.
+
+2163
+02:21:32,000 --> 02:21:34,000
+So that's how we
+
+2164
+02:21:34,000 --> 02:21:36,000
+get our alpha.
+
+2165
+02:21:36,000 --> 02:21:38,000
+This alpha has been found.
+
+2166
+02:21:38,000 --> 02:21:40,000
+So k has been found earlier
+
+2167
+02:21:40,000 --> 02:21:42,000
+alpha is found. Now let's
+
+2168
+02:21:42,000 --> 02:21:44,000
+find the t.
+
+2169
+02:21:44,000 --> 02:21:46,000
+How do we find the t?
+
+2170
+02:21:46,000 --> 02:21:48,000
+As I said
+
+2171
+02:21:48,000 --> 02:21:50,000
+our new gain
+
+2172
+02:21:50,000 --> 02:21:52,000
+cross over frequency will be here.
+
+2173
+02:21:52,000 --> 02:21:54,000
+So we have to
+
+2174
+02:21:54,000 --> 02:21:56,000
+use this to find our t.
+
+2175
+02:21:56,000 --> 02:21:58,000
+So for this to be our new
+
+2176
+02:21:58,000 --> 02:22:00,000
+gain cross over frequency
+
+2177
+02:22:00,000 --> 02:22:02,000
+this green
+
+2178
+02:22:02,000 --> 02:22:04,000
+magnitude should be
+
+2179
+02:22:04,000 --> 02:22:06,000
+same as
+
+2180
+02:22:06,000 --> 02:22:08,000
+this magnitude.
+
+2181
+02:22:08,000 --> 02:22:10,000
+This blue one
+
+2182
+02:22:10,000 --> 02:22:12,000
+at this
+
+2183
+02:22:12,000 --> 02:22:14,000
+frequency has this
+
+2184
+02:22:14,000 --> 02:22:16,000
+amount of
+
+2185
+02:22:16,000 --> 02:22:18,000
+gain margin. But later on
+
+2186
+02:22:18,000 --> 02:22:20,000
+due to this C0
+
+2187
+02:22:20,000 --> 02:22:22,000
+you have an increase
+
+2188
+02:22:22,000 --> 02:22:24,000
+of magnitude.
+
+2189
+02:22:24,000 --> 02:22:26,000
+So this increase plus
+
+2190
+02:22:26,000 --> 02:22:28,000
+this amount
+
+2191
+02:22:28,000 --> 02:22:30,000
+should be zero.
+
+2192
+02:22:30,000 --> 02:22:32,000
+So that this is
+
+2193
+02:22:32,000 --> 02:22:34,000
+a new gain cross over
+
+2194
+02:22:34,000 --> 02:22:36,000
+frequency.
+
+2195
+02:22:36,000 --> 02:22:38,000
+So that's the idea
+
+2196
+02:22:38,000 --> 02:22:40,000
+of doing this.
+
+2197
+02:22:40,000 --> 02:22:42,000
+So we have
+
+2198
+02:22:42,000 --> 02:22:44,000
+this alpha then you can compute
+
+2199
+02:22:44,000 --> 02:22:46,000
+negative 10 over alpha.
+
+2200
+02:22:46,000 --> 02:22:48,000
+Once you have this
+
+2201
+02:22:48,000 --> 02:22:50,000
+negative 10 over alpha
+
+2202
+02:22:50,000 --> 02:22:52,000
+computed then
+
+2203
+02:22:52,000 --> 02:22:54,000
+you look at this
+
+2204
+02:22:54,000 --> 02:22:56,000
+magnitude
+
+2205
+02:22:56,000 --> 02:22:58,000
+and find out the value
+
+2206
+02:22:58,000 --> 02:23:00,000
+of 10 over alpha.
+
+2207
+02:23:02,000 --> 02:23:04,000
+The
+
+2208
+02:23:04,000 --> 02:23:06,000
+corresponding frequency will be your
+
+2209
+02:23:06,000 --> 02:23:08,000
+new gain cross over frequency.
+
+2210
+02:23:08,000 --> 02:23:10,000
+So that's how you
+
+2211
+02:23:10,000 --> 02:23:12,000
+find the new gain cross over
+
+2212
+02:23:12,000 --> 02:23:14,000
+frequency omega m.
+
+2213
+02:23:14,000 --> 02:23:16,000
+So omega
+
+2214
+02:23:16,000 --> 02:23:18,000
+m should be this.
+
+2215
+02:23:18,000 --> 02:23:20,000
+Now
+
+2216
+02:23:20,000 --> 02:23:22,000
+you rate
+
+2217
+02:23:22,000 --> 02:23:24,000
+yeah this is
+
+2218
+02:23:24,000 --> 02:23:26,000
+10 over alpha we have found this
+
+2219
+02:23:26,000 --> 02:23:28,000
+so you rate your curve
+
+2220
+02:23:28,000 --> 02:23:30,000
+20
+
+2221
+02:23:30,000 --> 02:23:32,000
+k g j omega prime
+
+2222
+02:23:32,000 --> 02:23:34,000
+that this omega
+
+2223
+02:23:34,000 --> 02:23:36,000
+g prime should satisfy
+
+2224
+02:23:36,000 --> 02:23:38,000
+this equation you solve this
+
+2225
+02:23:38,000 --> 02:23:40,000
+equation you get this.
+
+2226
+02:23:40,000 --> 02:23:42,000
+Okay.
+
+2227
+02:23:42,000 --> 02:23:44,000
+So
+
+2228
+02:23:44,000 --> 02:23:46,000
+you get the omega g prime.
+
+2229
+02:23:46,000 --> 02:23:48,000
+Then omega g prime
+
+2230
+02:23:48,000 --> 02:23:50,000
+is same as this omega m
+
+2231
+02:23:50,000 --> 02:23:52,000
+so from this you get your t.
+
+2232
+02:23:52,000 --> 02:23:54,000
+So that's how you get t.
+
+2233
+02:23:54,000 --> 02:23:56,000
+Yeah.
+
+2234
+02:23:56,000 --> 02:23:58,000
+In
+
+2235
+02:23:58,000 --> 02:24:00,000
+summary
+
+2236
+02:24:00,000 --> 02:24:02,000
+this step you get alpha.
+
+2237
+02:24:02,000 --> 02:24:04,000
+So from this
+
+2238
+02:24:04,000 --> 02:24:06,000
+you can compute
+
+2239
+02:24:06,000 --> 02:24:08,000
+negative
+
+2240
+02:24:08,000 --> 02:24:10,000
+10 over alpha.
+
+2241
+02:24:10,000 --> 02:24:12,000
+So this is
+
+2242
+02:24:12,000 --> 02:24:14,000
+negative 10
+
+2243
+02:24:14,000 --> 02:24:16,000
+over alpha.
+
+2244
+02:24:16,000 --> 02:24:18,000
+Then from
+
+2245
+02:24:18,000 --> 02:24:20,000
+the given
+
+2246
+02:24:20,000 --> 02:24:22,000
+transfer function g and
+
+2247
+02:24:22,000 --> 02:24:24,000
+obtain the k
+
+2248
+02:24:24,000 --> 02:24:26,000
+you have this equation
+
+2249
+02:24:26,000 --> 02:24:28,000
+20 log magnitude
+
+2250
+02:24:28,000 --> 02:24:30,000
+k g j omega prime
+
+2251
+02:24:30,000 --> 02:24:32,000
+equals this 10
+
+2252
+02:24:32,000 --> 02:24:34,000
+because this plus that
+
+2253
+02:24:34,000 --> 02:24:36,000
+should be zero so that's why
+
+2254
+02:24:36,000 --> 02:24:38,000
+your
+
+2255
+02:24:38,000 --> 02:24:40,000
+original
+
+2256
+02:24:40,000 --> 02:24:42,000
+magnitude curve
+
+2257
+02:24:42,000 --> 02:24:44,000
+should
+
+2258
+02:24:44,000 --> 02:24:46,000
+have the same magnitude as
+
+2259
+02:24:46,000 --> 02:24:48,000
+this by opposite sign here.
+
+2260
+02:24:48,000 --> 02:24:50,000
+So you solve this equation
+
+2261
+02:24:50,000 --> 02:24:52,000
+you get omega g prime.
+
+2262
+02:24:52,000 --> 02:24:54,000
+And this omega g prime
+
+2263
+02:24:54,000 --> 02:24:56,000
+is the same
+
+2264
+02:24:56,000 --> 02:24:58,000
+as our omega m.
+
+2265
+02:24:58,000 --> 02:25:00,000
+So you have this equation
+
+2266
+02:25:00,000 --> 02:25:02,000
+then you solve this equation
+
+2267
+02:25:02,000 --> 02:25:04,000
+you get t.
+
+2268
+02:25:04,000 --> 02:25:06,000
+Once
+
+2269
+02:25:06,000 --> 02:25:08,000
+you get t then you have this compensator.
+
+2270
+02:25:08,000 --> 02:25:10,000
+Okay.
+
+2271
+02:25:10,000 --> 02:25:12,000
+After you get this
+
+2272
+02:25:12,000 --> 02:25:14,000
+you have to do verification.
+
+2273
+02:25:16,000 --> 02:25:18,000
+Yeah.
+
+2274
+02:25:18,000 --> 02:25:20,000
+So the verification
+
+2275
+02:25:20,000 --> 02:25:22,000
+is
+
+2276
+02:25:22,000 --> 02:25:24,000
+to
+
+2277
+02:25:24,000 --> 02:25:26,000
+plot this curve again.
+
+2278
+02:25:26,000 --> 02:25:28,000
+Yeah, you just
+
+2279
+02:25:28,000 --> 02:25:30,000
+plot.
+
+2280
+02:25:32,000 --> 02:25:34,000
+Yeah, you just
+
+2281
+02:25:34,000 --> 02:25:36,000
+plot
+
+2282
+02:25:36,000 --> 02:25:38,000
+this.
+
+2283
+02:25:38,000 --> 02:25:40,000
+Yeah, this is g times
+
+2284
+02:25:40,000 --> 02:25:42,000
+c. It will be like
+
+2285
+02:25:42,000 --> 02:25:44,000
+this.
+
+2286
+02:25:44,000 --> 02:25:46,000
+And this is the angle.
+
+2287
+02:25:46,000 --> 02:25:48,000
+So now that's the new
+
+2288
+02:25:48,000 --> 02:25:50,000
+gain cross over frequency
+
+2289
+02:25:50,000 --> 02:25:52,000
+which is ensured
+
+2290
+02:25:52,000 --> 02:25:54,000
+by our design.
+
+2291
+02:25:54,000 --> 02:25:56,000
+And from this
+
+2292
+02:25:56,000 --> 02:25:58,000
+you can calculate
+
+2293
+02:25:58,000 --> 02:26:00,000
+you can find the fixed margin here.
+
+2294
+02:26:00,000 --> 02:26:02,000
+Yeah, that's the fixed margin.
+
+2295
+02:26:02,000 --> 02:26:04,000
+You have to verify if this fixed
+
+2296
+02:26:04,000 --> 02:26:06,000
+margin meet our requirement
+
+2297
+02:26:06,000 --> 02:26:08,000
+or not.
+
+2298
+02:26:08,000 --> 02:26:10,000
+Okay, so that's the
+
+2299
+02:26:10,000 --> 02:26:12,000
+design.
+
+2300
+02:26:16,000 --> 02:26:18,000
+Yeah, I already mentioned
+
+2301
+02:26:18,000 --> 02:26:20,000
+this. Need compensator
+
+2302
+02:26:20,000 --> 02:26:22,000
+can improve the fixed margin
+
+2303
+02:26:22,000 --> 02:26:24,000
+and therefore
+
+2304
+02:26:24,000 --> 02:26:26,000
+turn in the performance.
+
+2305
+02:26:26,000 --> 02:26:28,000
+The gain cross over frequency is increased
+
+2306
+02:26:28,000 --> 02:26:30,000
+as you can see from
+
+2307
+02:26:30,000 --> 02:26:32,000
+the plot.
+
+2308
+02:26:32,000 --> 02:26:34,000
+Yeah, that's the new
+
+2309
+02:26:34,000 --> 02:26:36,000
+gain cross over frequency.
+
+2310
+02:26:36,000 --> 02:26:38,000
+So
+
+2311
+02:26:38,000 --> 02:26:40,000
+that is bigger than
+
+2312
+02:26:40,000 --> 02:26:42,000
+the
+
+2313
+02:26:42,000 --> 02:26:44,000
+one without
+
+2314
+02:26:44,000 --> 02:26:46,000
+c zero. So this
+
+2315
+02:26:46,000 --> 02:26:48,000
+is increased.
+
+2316
+02:26:48,000 --> 02:26:50,000
+You have larger bandwidth
+
+2317
+02:26:50,000 --> 02:26:52,000
+so the speed of the
+
+2318
+02:26:52,000 --> 02:26:54,000
+response will be improved.
+
+2319
+02:26:54,000 --> 02:26:56,000
+Yeah,
+
+2320
+02:26:56,000 --> 02:26:58,000
+as I said, for such
+
+2321
+02:26:58,000 --> 02:27:00,000
+system
+
+2322
+02:27:00,000 --> 02:27:02,000
+such a design system is
+
+2323
+02:27:02,000 --> 02:27:04,000
+more sensitive to high frequency
+
+2324
+02:27:04,000 --> 02:27:06,000
+noise.
+
+2325
+02:27:06,000 --> 02:27:08,000
+Because you have
+
+2326
+02:27:08,000 --> 02:27:10,000
+larger
+
+2327
+02:27:10,000 --> 02:27:12,000
+gain cross over frequency.
+
+2328
+02:27:12,000 --> 02:27:14,000
+Yeah, that's the amplitude response.
+
+2329
+02:27:14,000 --> 02:27:16,000
+Okay, so this is
+
+2330
+02:27:16,000 --> 02:27:18,000
+a revision of
+
+2331
+02:27:20,000 --> 02:27:22,000
+compensator design.
+
+2332
+02:27:22,000 --> 02:27:24,000
+Now, let's look
+
+2333
+02:27:24,000 --> 02:27:26,000
+at the example in our
+
+2334
+02:27:26,000 --> 02:27:28,000
+second
+
+2335
+02:27:28,000 --> 02:27:30,000
+approach. So here
+
+2336
+02:27:32,000 --> 02:27:34,000
+we are going to control this
+
+2337
+02:27:34,000 --> 02:27:36,000
+plant. Yeah, this
+
+2338
+02:27:36,000 --> 02:27:38,000
+is the plant
+
+2339
+02:27:38,000 --> 02:27:40,000
+transfer function. We have
+
+2340
+02:27:40,000 --> 02:27:42,000
+zero order hold. And
+
+2341
+02:27:42,000 --> 02:27:44,000
+this is the controller to be designed.
+
+2342
+02:27:44,000 --> 02:27:46,000
+Okay, we have to design
+
+2343
+02:27:46,000 --> 02:27:48,000
+this controller
+
+2344
+02:27:48,000 --> 02:27:50,000
+such that the overall
+
+2345
+02:27:50,000 --> 02:27:52,000
+system has
+
+2346
+02:27:52,000 --> 02:27:54,000
+phase margin
+
+2347
+02:27:54,000 --> 02:27:56,000
+of 50 degrees.
+
+2348
+02:27:56,000 --> 02:27:58,000
+So this is a given
+
+2349
+02:27:58,000 --> 02:28:00,000
+specification.
+
+2350
+02:28:00,000 --> 02:28:02,000
+And also the gain margin
+
+2351
+02:28:02,000 --> 02:28:04,000
+is at least 10 dB.
+
+2352
+02:28:04,000 --> 02:28:06,000
+10 dB.
+
+2353
+02:28:06,000 --> 02:28:08,000
+The static
+
+2354
+02:28:08,000 --> 02:28:10,000
+velocity error constant
+
+2355
+02:28:10,000 --> 02:28:12,000
+kV is 2 sec
+
+2356
+02:28:12,000 --> 02:28:14,000
+per sec.
+
+2357
+02:28:14,000 --> 02:28:16,000
+2 per sec.
+
+2358
+02:28:16,000 --> 02:28:18,000
+And the sampling period
+
+2359
+02:28:18,000 --> 02:28:20,000
+is 0.2 sec.
+
+2360
+02:28:20,000 --> 02:28:22,000
+Okay, here
+
+2361
+02:28:22,000 --> 02:28:24,000
+we have to design
+
+2362
+02:28:24,000 --> 02:28:26,000
+lead compensator
+
+2363
+02:28:26,000 --> 02:28:28,000
+to achieve this.
+
+2364
+02:28:28,000 --> 02:28:30,000
+This k
+
+2365
+02:28:30,000 --> 02:28:32,000
+actually
+
+2366
+02:28:32,000 --> 02:28:34,000
+for this k, it should be our
+
+2367
+02:28:34,000 --> 02:28:36,000
+k here. So in
+
+2368
+02:28:36,000 --> 02:28:38,000
+the example, they put the k in
+
+2369
+02:28:38,000 --> 02:28:40,000
+the plant.
+
+2370
+02:28:40,000 --> 02:28:42,000
+In fact, we are going to determine
+
+2371
+02:28:42,000 --> 02:28:44,000
+this k in
+
+2372
+02:28:44,000 --> 02:28:46,000
+our first step.
+
+2373
+02:28:46,000 --> 02:28:48,000
+So in this
+
+2374
+02:28:48,000 --> 02:28:50,000
+case, for our lead
+
+2375
+02:28:50,000 --> 02:28:52,000
+compensator
+
+2376
+02:28:52,000 --> 02:28:54,000
+in the design, we have
+
+2377
+02:28:54,000 --> 02:28:56,000
+unit
+
+2378
+02:28:56,000 --> 02:28:58,000
+DC gain because
+
+2379
+02:28:58,000 --> 02:29:00,000
+k has been moved through here.
+
+2380
+02:29:00,000 --> 02:29:02,000
+We have this
+
+2381
+02:29:02,000 --> 02:29:04,000
+requirement. We will use
+
+2382
+02:29:04,000 --> 02:29:06,000
+this requirement to find the k.
+
+2383
+02:29:06,000 --> 02:29:08,000
+Okay.
+
+2384
+02:29:08,000 --> 02:29:10,000
+Okay.
+
+2385
+02:29:10,000 --> 02:29:12,000
+So
+
+2386
+02:29:12,000 --> 02:29:14,000
+let's see the solution.
+
+2387
+02:29:14,000 --> 02:29:16,000
+We follow the design procedure.
+
+2388
+02:29:16,000 --> 02:29:18,000
+As I said, we have
+
+2389
+02:29:18,000 --> 02:29:20,000
+four steps.
+
+2390
+02:29:20,000 --> 02:29:22,000
+Yeah, here are the
+
+2391
+02:29:22,000 --> 02:29:24,000
+four steps.
+
+2392
+02:29:24,000 --> 02:29:26,000
+Yeah, first step, you have
+
+2393
+02:29:26,000 --> 02:29:28,000
+to, yeah, in this case,
+
+2394
+02:29:28,000 --> 02:29:30,000
+we have sampling period given
+
+2395
+02:29:30,000 --> 02:29:32,000
+and you have to obtain
+
+2396
+02:29:32,000 --> 02:29:34,000
+a transfer function.
+
+2397
+02:29:34,000 --> 02:29:36,000
+For the plant
+
+2398
+02:29:36,000 --> 02:29:38,000
+here. So this is how you
+
+2399
+02:29:38,000 --> 02:29:40,000
+obtain the transfer function
+
+2400
+02:29:40,000 --> 02:29:42,000
+of the plant.
+
+2401
+02:29:52,000 --> 02:29:54,000
+Because our
+
+2402
+02:29:54,000 --> 02:29:56,000
+plant
+
+2403
+02:29:56,000 --> 02:29:58,000
+has this transfer function,
+
+2404
+02:29:58,000 --> 02:30:00,000
+that's zero, the hole.
+
+2405
+02:30:00,000 --> 02:30:02,000
+So you just use
+
+2406
+02:30:02,000 --> 02:30:04,000
+the formula,
+
+2407
+02:30:04,000 --> 02:30:06,000
+you can find this
+
+2408
+02:30:08,000 --> 02:30:10,000
+pulse transfer function.
+
+2409
+02:30:10,000 --> 02:30:12,000
+Okay.
+
+2410
+02:30:12,000 --> 02:30:14,000
+Yeah.
+
+2411
+02:30:14,000 --> 02:30:16,000
+It's one minus z inverse times
+
+2412
+02:30:16,000 --> 02:30:18,000
+the z transform of this
+
+2413
+02:30:18,000 --> 02:30:20,000
+Laplace transform.
+
+2414
+02:30:20,000 --> 02:30:22,000
+Actually, you can find this
+
+2415
+02:30:22,000 --> 02:30:24,000
+z transform
+
+2416
+02:30:24,000 --> 02:30:26,000
+directly from the table.
+
+2417
+02:30:26,000 --> 02:30:28,000
+Yeah, you see in the table
+
+2418
+02:30:28,000 --> 02:30:30,000
+here,
+
+2419
+02:30:30,000 --> 02:30:32,000
+you have
+
+2420
+02:30:32,000 --> 02:30:34,000
+this term and
+
+2421
+02:30:34,000 --> 02:30:36,000
+this Laplace transform function.
+
+2422
+02:30:36,000 --> 02:30:38,000
+Our k is
+
+2423
+02:30:38,000 --> 02:30:40,000
+a constant, so
+
+2424
+02:30:40,000 --> 02:30:42,000
+you just move this k out,
+
+2425
+02:30:42,000 --> 02:30:44,000
+then you have one over s squared
+
+2426
+02:30:44,000 --> 02:30:46,000
+times s plus one.
+
+2427
+02:30:46,000 --> 02:30:48,000
+So this a is one, in fact.
+
+2428
+02:30:48,000 --> 02:30:50,000
+Then you have this transfer function.
+
+2429
+02:30:50,000 --> 02:30:52,000
+T is given, then you do a calculation.
+
+2430
+02:30:52,000 --> 02:30:54,000
+It's this.
+
+2431
+02:30:54,000 --> 02:30:56,000
+Yeah, after you multiply that,
+
+2432
+02:30:56,000 --> 02:30:58,000
+you get this.
+
+2433
+02:30:58,000 --> 02:31:00,000
+So that's how we get
+
+2434
+02:31:00,000 --> 02:31:02,000
+this.
+
+2435
+02:31:02,000 --> 02:31:04,000
+Okay, so that's
+
+2436
+02:31:04,000 --> 02:31:06,000
+the first step.
+
+2437
+02:31:06,000 --> 02:31:08,000
+Yeah, step one.
+
+2438
+02:31:08,000 --> 02:31:10,000
+You select
+
+2439
+02:31:10,000 --> 02:31:12,000
+you have
+
+2440
+02:31:12,000 --> 02:31:14,000
+to find this gzas.
+
+2441
+02:31:14,000 --> 02:31:16,000
+Now,
+
+2442
+02:31:16,000 --> 02:31:18,000
+second step, you have to transform
+
+2443
+02:31:18,000 --> 02:31:20,000
+this transfer function
+
+2444
+02:31:20,000 --> 02:31:22,000
+to gw
+
+2445
+02:31:22,000 --> 02:31:24,000
+using our
+
+2446
+02:31:24,000 --> 02:31:26,000
+bininear transformation,
+
+2447
+02:31:26,000 --> 02:31:28,000
+which is this.
+
+2448
+02:31:28,000 --> 02:31:30,000
+So z equals
+
+2449
+02:31:30,000 --> 02:31:32,000
+one plus wt
+
+2450
+02:31:32,000 --> 02:31:34,000
+divided by two over one minus
+
+2451
+02:31:34,000 --> 02:31:36,000
+wt divided by two.
+
+2452
+02:31:36,000 --> 02:31:38,000
+So t is given
+
+2453
+02:31:38,000 --> 02:31:40,000
+to be zero point
+
+2454
+02:31:40,000 --> 02:31:42,000
+two secant,
+
+2455
+02:31:42,000 --> 02:31:44,000
+as you can see here.
+
+2456
+02:31:44,000 --> 02:31:46,000
+That's zero point two.
+
+2457
+02:31:46,000 --> 02:31:48,000
+So you substitute this
+
+2458
+02:31:48,000 --> 02:31:50,000
+into
+
+2459
+02:31:50,000 --> 02:31:52,000
+this transformation.
+
+2460
+02:31:52,000 --> 02:31:54,000
+You will have this
+
+2461
+02:31:54,000 --> 02:31:56,000
+z. So you substitute
+
+2462
+02:31:56,000 --> 02:31:58,000
+this z into here.
+
+2463
+02:31:58,000 --> 02:32:00,000
+Yeah, you have three z
+
+2464
+02:32:00,000 --> 02:32:02,000
+in the result. So you have
+
+2465
+02:32:02,000 --> 02:32:04,000
+two calculations.
+
+2466
+02:32:04,000 --> 02:32:06,000
+You get this.
+
+2467
+02:32:06,000 --> 02:32:08,000
+Okay, so
+
+2468
+02:32:08,000 --> 02:32:10,000
+that's gzas.
+
+2469
+02:32:10,000 --> 02:32:12,000
+Yeah, which is about that.
+
+2470
+02:32:14,000 --> 02:32:16,000
+So that's the second step.
+
+2471
+02:32:18,000 --> 02:32:20,000
+Transform this
+
+2472
+02:32:20,000 --> 02:32:22,000
+into gw.
+
+2473
+02:32:22,000 --> 02:32:24,000
+G
+
+2474
+02:32:24,000 --> 02:32:26,000
+w here.
+
+2475
+02:32:26,000 --> 02:32:28,000
+Okay?
+
+2476
+02:32:28,000 --> 02:32:30,000
+Okay, next step.
+
+2477
+02:32:30,000 --> 02:32:32,000
+That's the key part.
+
+2478
+02:32:32,000 --> 02:32:34,000
+So you have to draw the body
+
+2479
+02:32:34,000 --> 02:32:36,000
+diagram of this transfer function.
+
+2480
+02:32:40,000 --> 02:32:42,000
+Yeah.
+
+2481
+02:32:42,000 --> 02:32:44,000
+Before we saw that, we also
+
+2482
+02:32:44,000 --> 02:32:46,000
+considered
+
+2483
+02:32:46,000 --> 02:32:48,000
+the lead compensator.
+
+2484
+02:32:48,000 --> 02:32:50,000
+As I just mentioned,
+
+2485
+02:32:50,000 --> 02:32:52,000
+we should have
+
+2486
+02:32:52,000 --> 02:32:54,000
+a constant
+
+2487
+02:32:54,000 --> 02:32:56,000
+in the compensator here.
+
+2488
+02:32:56,000 --> 02:32:58,000
+But
+
+2489
+02:32:58,000 --> 02:33:00,000
+in our example,
+
+2490
+02:33:00,000 --> 02:33:02,000
+that constant is moved
+
+2491
+02:33:02,000 --> 02:33:04,000
+through here.
+
+2492
+02:33:04,000 --> 02:33:06,000
+So in this case, our
+
+2493
+02:33:06,000 --> 02:33:08,000
+lead compensator has a
+
+2494
+02:33:08,000 --> 02:33:10,000
+unit gain
+
+2495
+02:33:10,000 --> 02:33:12,000
+here.
+
+2496
+02:33:12,000 --> 02:33:14,000
+So this k
+
+2497
+02:33:14,000 --> 02:33:16,000
+has been moved to the plant.
+
+2498
+02:33:16,000 --> 02:33:18,000
+Okay, we are going to determine
+
+2499
+02:33:18,000 --> 02:33:20,000
+this k also. So basically,
+
+2500
+02:33:20,000 --> 02:33:22,000
+we are going to
+
+2501
+02:33:22,000 --> 02:33:24,000
+determine alpha t
+
+2502
+02:33:24,000 --> 02:33:26,000
+to get gd.
+
+2503
+02:33:26,000 --> 02:33:28,000
+And we also have to find the k.
+
+2504
+02:33:30,000 --> 02:33:32,000
+Okay, to find the k,
+
+2505
+02:33:32,000 --> 02:33:34,000
+you have to use the position
+
+2506
+02:33:34,000 --> 02:33:36,000
+error constant. That's given here.
+
+2507
+02:33:38,000 --> 02:33:40,000
+So you have
+
+2508
+02:33:40,000 --> 02:33:42,000
+to know the definition
+
+2509
+02:33:42,000 --> 02:33:44,000
+of a position error constant.
+
+2510
+02:33:44,000 --> 02:33:46,000
+That's the
+
+2511
+02:33:46,000 --> 02:33:48,000
+Yeah, you find the open loop transfer function,
+
+2512
+02:33:48,000 --> 02:33:50,000
+which is gd
+
+2513
+02:33:50,000 --> 02:33:52,000
+w times
+
+2514
+02:33:52,000 --> 02:33:54,000
+this transfer function.
+
+2515
+02:33:54,000 --> 02:33:56,000
+Then you take a limit
+
+2516
+02:33:58,000 --> 02:34:00,000
+of w
+
+2517
+02:34:00,000 --> 02:34:02,000
+times this transfer function
+
+2518
+02:34:02,000 --> 02:34:04,000
+when w turns to zero.
+
+2519
+02:34:04,000 --> 02:34:06,000
+Yeah, if you
+
+2520
+02:34:06,000 --> 02:34:08,000
+do a calculation
+
+2521
+02:34:08,000 --> 02:34:10,000
+of this limit,
+
+2522
+02:34:10,000 --> 02:34:12,000
+yeah, this
+
+2523
+02:34:12,000 --> 02:34:14,000
+is the gdw
+
+2524
+02:34:14,000 --> 02:34:16,000
+times gz s w. That's this
+
+2525
+02:34:16,000 --> 02:34:18,000
+part. Then multiply w.
+
+2526
+02:34:20,000 --> 02:34:22,000
+This w is cancelled out.
+
+2527
+02:34:24,000 --> 02:34:26,000
+Then you take a limit,
+
+2528
+02:34:26,000 --> 02:34:28,000
+w turns to zero.
+
+2529
+02:34:28,000 --> 02:34:30,000
+Then this will
+
+2530
+02:34:30,000 --> 02:34:32,000
+be one. This is k.
+
+2531
+02:34:32,000 --> 02:34:34,000
+So this is also
+
+2532
+02:34:34,000 --> 02:34:36,000
+one. That's also one.
+
+2533
+02:34:36,000 --> 02:34:38,000
+Yeah, this w has been cancelled out
+
+2534
+02:34:38,000 --> 02:34:40,000
+by this w here.
+
+2535
+02:34:40,000 --> 02:34:42,000
+So
+
+2536
+02:34:42,000 --> 02:34:44,000
+our
+
+2537
+02:34:44,000 --> 02:34:46,000
+velocity error constant will be k.
+
+2538
+02:34:46,000 --> 02:34:48,000
+And this
+
+2539
+02:34:48,000 --> 02:34:50,000
+k should be equal to two
+
+2540
+02:34:50,000 --> 02:34:52,000
+because your kv
+
+2541
+02:34:52,000 --> 02:34:54,000
+is required
+
+2542
+02:34:54,000 --> 02:34:56,000
+to be two.
+
+2543
+02:34:56,000 --> 02:34:58,000
+Yeah, that's the
+
+2544
+02:34:58,000 --> 02:35:00,000
+specification of
+
+2545
+02:35:00,000 --> 02:35:02,000
+the
+
+2546
+02:35:02,000 --> 02:35:04,000
+design.
+
+2547
+02:35:04,000 --> 02:35:06,000
+So this kv
+
+2548
+02:35:06,000 --> 02:35:08,000
+is two.
+
+2549
+02:35:08,000 --> 02:35:10,000
+And we're using our
+
+2550
+02:35:10,000 --> 02:35:12,000
+open loop transfer function.
+
+2551
+02:35:12,000 --> 02:35:14,000
+We found kv is equal to k.
+
+2552
+02:35:14,000 --> 02:35:16,000
+So this k should be two.
+
+2553
+02:35:16,000 --> 02:35:18,000
+So we have found this k.
+
+2554
+02:35:20,000 --> 02:35:22,000
+Okay, now let's plot
+
+2555
+02:35:22,000 --> 02:35:24,000
+the
+
+2556
+02:35:24,000 --> 02:35:26,000
+body
+
+2557
+02:35:26,000 --> 02:35:28,000
+plots of two. Yeah, because
+
+2558
+02:35:28,000 --> 02:35:30,000
+k has been found. Two times
+
+2559
+02:35:30,000 --> 02:35:32,000
+gz as.
+
+2560
+02:35:32,000 --> 02:35:34,000
+Yeah, earlier we have this
+
+2561
+02:35:34,000 --> 02:35:36,000
+gz as found.
+
+2562
+02:35:36,000 --> 02:35:38,000
+Yeah, this has been
+
+2563
+02:35:38,000 --> 02:35:40,000
+found
+
+2564
+02:35:40,000 --> 02:35:42,000
+in the second step. So here
+
+2565
+02:35:42,000 --> 02:35:44,000
+is two now.
+
+2566
+02:35:44,000 --> 02:35:46,000
+So you have that.
+
+2567
+02:35:46,000 --> 02:35:48,000
+Then you plot this body diagram.
+
+2568
+02:35:48,000 --> 02:35:50,000
+Yeah,
+
+2569
+02:35:50,000 --> 02:35:52,000
+this body diagram
+
+2570
+02:35:52,000 --> 02:35:54,000
+is showing here.
+
+2571
+02:36:00,000 --> 02:36:02,000
+Okay, this is the body diagram.
+
+2572
+02:36:02,000 --> 02:36:04,000
+Yeah,
+
+2573
+02:36:04,000 --> 02:36:06,000
+that's the
+
+2574
+02:36:06,000 --> 02:36:08,000
+dash nine here
+
+2575
+02:36:08,000 --> 02:36:10,000
+for the magnitude
+
+2576
+02:36:10,000 --> 02:36:12,000
+response.
+
+2577
+02:36:12,000 --> 02:36:14,000
+So you can see this will
+
+2578
+02:36:14,000 --> 02:36:16,000
+be the present
+
+2579
+02:36:16,000 --> 02:36:18,000
+gain
+
+2580
+02:36:18,000 --> 02:36:20,000
+crossover frequency.
+
+2581
+02:36:20,000 --> 02:36:22,000
+Yeah, that's cross
+
+2582
+02:36:22,000 --> 02:36:24,000
+the zero db here.
+
+2583
+02:36:26,000 --> 02:36:28,000
+And you find
+
+2584
+02:36:28,000 --> 02:36:30,000
+the corresponding
+
+2585
+02:36:30,000 --> 02:36:32,000
+phase margin.
+
+2586
+02:36:32,000 --> 02:36:34,000
+Yeah, this
+
+2587
+02:36:34,000 --> 02:36:36,000
+is the
+
+2588
+02:36:36,000 --> 02:36:38,000
+current phase margin, which is
+
+2589
+02:36:38,000 --> 02:36:40,000
+30 degrees.
+
+2590
+02:36:40,000 --> 02:36:42,000
+Yeah, you just look at the
+
+2591
+02:36:42,000 --> 02:36:44,000
+graph.
+
+2592
+02:36:44,000 --> 02:36:46,000
+Yeah, that's the
+
+2593
+02:36:46,000 --> 02:36:48,000
+okay.
+
+2594
+02:36:52,000 --> 02:36:54,000
+So this is the
+
+2595
+02:36:54,000 --> 02:36:56,000
+magnitude
+
+2596
+02:36:56,000 --> 02:36:58,000
+and this dash nine is the
+
+2597
+02:36:58,000 --> 02:37:00,000
+of
+
+2598
+02:37:00,000 --> 02:37:02,000
+this transfer function.
+
+2599
+02:37:02,000 --> 02:37:04,000
+Okay, so
+
+2600
+02:37:04,000 --> 02:37:06,000
+from this, the phase
+
+2601
+02:37:06,000 --> 02:37:08,000
+margin is 30 degrees, as
+
+2602
+02:37:08,000 --> 02:37:10,000
+I just mentioned here.
+
+2603
+02:37:10,000 --> 02:37:12,000
+This is the phase margin.
+
+2604
+02:37:12,000 --> 02:37:14,000
+And
+
+2605
+02:37:14,000 --> 02:37:16,000
+our desired phase margin
+
+2606
+02:37:16,000 --> 02:37:18,000
+is 50 degrees.
+
+2607
+02:37:18,000 --> 02:37:20,000
+Okay,
+
+2608
+02:37:20,000 --> 02:37:22,000
+so we need
+
+2609
+02:37:22,000 --> 02:37:24,000
+20 more degrees
+
+2610
+02:37:24,000 --> 02:37:26,000
+from the compensator.
+
+2611
+02:37:26,000 --> 02:37:28,000
+And also
+
+2612
+02:37:28,000 --> 02:37:30,000
+by considering the
+
+2613
+02:37:30,000 --> 02:37:32,000
+effect of
+
+2614
+02:37:32,000 --> 02:37:34,000
+increasing gain
+
+2615
+02:37:34,000 --> 02:37:36,000
+crossover frequency, we
+
+2616
+02:37:36,000 --> 02:37:38,000
+add 8 more degrees.
+
+2617
+02:37:38,000 --> 02:37:40,000
+So totally we need
+
+2618
+02:37:40,000 --> 02:37:42,000
+28 degrees from the
+
+2619
+02:37:42,000 --> 02:37:44,000
+phase
+
+2620
+02:37:44,000 --> 02:37:46,000
+lead compensator.
+
+2621
+02:37:46,000 --> 02:37:48,000
+Yeah, you see why we need this
+
+2622
+02:37:48,000 --> 02:37:50,000
+extra because later on
+
+2623
+02:37:50,000 --> 02:37:52,000
+you have the new gain
+
+2624
+02:37:52,000 --> 02:37:54,000
+crossover frequency here
+
+2625
+02:37:54,000 --> 02:37:56,000
+at the higher position. So
+
+2626
+02:37:56,000 --> 02:37:58,000
+this
+
+2627
+02:37:58,000 --> 02:38:00,000
+at this
+
+2628
+02:38:00,000 --> 02:38:02,000
+frequency, the
+
+2629
+02:38:02,000 --> 02:38:04,000
+phase margin
+
+2630
+02:38:04,000 --> 02:38:06,000
+or the phase is here.
+
+2631
+02:38:06,000 --> 02:38:08,000
+So you have a decrease. This
+
+2632
+02:38:08,000 --> 02:38:10,000
+decreasing is about 8 degrees.
+
+2633
+02:38:10,000 --> 02:38:12,000
+Yeah, this amount.
+
+2634
+02:38:12,000 --> 02:38:14,000
+You just draw a horizontal
+
+2635
+02:38:14,000 --> 02:38:16,000
+line from here.
+
+2636
+02:38:16,000 --> 02:38:18,000
+You can see you have this decreasing.
+
+2637
+02:38:18,000 --> 02:38:20,000
+So you have to add this
+
+2638
+02:38:20,000 --> 02:38:22,000
+reduction, which is about 8 degrees.
+
+2639
+02:38:22,000 --> 02:38:24,000
+So you have 28 degrees.
+
+2640
+02:38:24,000 --> 02:38:26,000
+So that's how you get your phi.
+
+2641
+02:38:26,000 --> 02:38:28,000
+From this phi,
+
+2642
+02:38:28,000 --> 02:38:30,000
+you can compute alpha.
+
+2643
+02:38:30,000 --> 02:38:32,000
+Yeah, the formula has been derived
+
+2644
+02:38:32,000 --> 02:38:34,000
+earlier. So you just
+
+2645
+02:38:34,000 --> 02:38:36,000
+use this formula, you get this
+
+2646
+02:38:36,000 --> 02:38:38,000
+alpha. So we have found
+
+2647
+02:38:38,000 --> 02:38:40,000
+alpha.
+
+2648
+02:38:40,000 --> 02:38:42,000
+After we find alpha,
+
+2649
+02:38:42,000 --> 02:38:44,000
+we have to find t.
+
+2650
+02:38:44,000 --> 02:38:46,000
+Yeah, because
+
+2651
+02:38:46,000 --> 02:38:48,000
+because our
+
+2652
+02:38:48,000 --> 02:38:50,000
+phase
+
+2653
+02:38:50,000 --> 02:38:52,000
+lead compensator
+
+2654
+02:38:52,000 --> 02:38:54,000
+is this. So alpha has been found
+
+2655
+02:38:54,000 --> 02:38:56,000
+from the
+
+2656
+02:38:58,000 --> 02:39:00,000
+additional phase you did
+
+2657
+02:39:00,000 --> 02:39:02,000
+here.
+
+2658
+02:39:02,000 --> 02:39:04,000
+Okay, so we have to find t.
+
+2659
+02:39:04,000 --> 02:39:06,000
+How do we find t?
+
+2660
+02:39:06,000 --> 02:39:08,000
+Yeah, you look at the gain crossover frequency.
+
+2661
+02:39:10,000 --> 02:39:12,000
+So currently,
+
+2662
+02:39:12,000 --> 02:39:14,000
+with
+
+2663
+02:39:14,000 --> 02:39:16,000
+this 10
+
+2664
+02:39:16,000 --> 02:39:18,000
+log alpha, you have this alpha
+
+2665
+02:39:18,000 --> 02:39:20,000
+found just now,
+
+2666
+02:39:20,000 --> 02:39:22,000
+which is
+
+2667
+02:39:22,000 --> 02:39:24,000
+this value.
+
+2668
+02:39:24,000 --> 02:39:26,000
+So you substitute this alpha
+
+2669
+02:39:26,000 --> 02:39:28,000
+to compute
+
+2670
+02:39:28,000 --> 02:39:30,000
+10 log alpha.
+
+2671
+02:39:30,000 --> 02:39:32,000
+And this 10 log alpha
+
+2672
+02:39:32,000 --> 02:39:34,000
+is negative 4.425
+
+2673
+02:39:34,000 --> 02:39:36,000
+dB. So that
+
+2674
+02:39:36,000 --> 02:39:38,000
+means you look at
+
+2675
+02:39:38,000 --> 02:39:40,000
+the
+
+2676
+02:39:40,000 --> 02:39:42,000
+magnitude or you can compute
+
+2677
+02:39:42,000 --> 02:39:44,000
+your
+
+2678
+02:39:44,000 --> 02:39:46,000
+dual gain
+
+2679
+02:39:46,000 --> 02:39:48,000
+crossover frequency, omega g prime.
+
+2680
+02:39:48,000 --> 02:39:50,000
+You have two ways
+
+2681
+02:39:50,000 --> 02:39:52,000
+to find this Vg prime.
+
+2682
+02:39:52,000 --> 02:39:54,000
+One is by
+
+2683
+02:39:54,000 --> 02:39:56,000
+checking
+
+2684
+02:39:56,000 --> 02:39:58,000
+the
+
+2685
+02:39:58,000 --> 02:40:00,000
+diagram.
+
+2686
+02:40:00,000 --> 02:40:02,000
+So you have this
+
+2687
+02:40:02,000 --> 02:40:04,000
+magnitude curve.
+
+2688
+02:40:04,000 --> 02:40:06,000
+You just look at this curve
+
+2689
+02:40:06,000 --> 02:40:08,000
+and find out
+
+2690
+02:40:08,000 --> 02:40:10,000
+negative 4.425 dB.
+
+2691
+02:40:10,000 --> 02:40:12,000
+Yes,
+
+2692
+02:40:12,000 --> 02:40:14,000
+maybe it's here.
+
+2693
+02:40:14,000 --> 02:40:16,000
+So you find this amount
+
+2694
+02:40:16,000 --> 02:40:18,000
+is negative
+
+2695
+02:40:18,000 --> 02:40:20,000
+4.425 dB.
+
+2696
+02:40:20,000 --> 02:40:22,000
+Then this corresponding
+
+2697
+02:40:22,000 --> 02:40:24,000
+frequency
+
+2698
+02:40:24,000 --> 02:40:26,000
+is our
+
+2699
+02:40:26,000 --> 02:40:28,000
+dual gain
+
+2700
+02:40:28,000 --> 02:40:30,000
+crossover frequency here.
+
+2701
+02:40:30,000 --> 02:40:32,000
+You can also do computation.
+
+2702
+02:40:32,000 --> 02:40:34,000
+Basically, you can solve the equation.
+
+2703
+02:40:36,000 --> 02:40:38,000
+Yeah, because
+
+2704
+02:40:38,000 --> 02:40:40,000
+because
+
+2705
+02:40:40,000 --> 02:40:42,000
+this
+
+2706
+02:40:42,000 --> 02:40:44,000
+is known.
+
+2707
+02:40:44,000 --> 02:40:46,000
+So
+
+2708
+02:40:46,000 --> 02:40:48,000
+you've taken
+
+2709
+02:40:48,000 --> 02:40:50,000
+20 log of this.
+
+2710
+02:40:50,000 --> 02:40:52,000
+The answer should be
+
+2711
+02:40:54,000 --> 02:40:56,000
+the
+
+2712
+02:40:56,000 --> 02:40:58,000
+10 log alpha.
+
+2713
+02:40:58,000 --> 02:41:00,000
+Yeah, so
+
+2714
+02:41:00,000 --> 02:41:02,000
+that means
+
+2715
+02:41:02,000 --> 02:41:04,000
+you
+
+2716
+02:41:04,000 --> 02:41:06,000
+have 20 log of this
+
+2717
+02:41:06,000 --> 02:41:08,000
+equals negative 4
+
+2718
+02:41:12,000 --> 02:41:14,000
+.425.
+
+2719
+02:41:14,000 --> 02:41:16,000
+Then you solve that
+
+2720
+02:41:16,000 --> 02:41:18,000
+equation. You can get this
+
+2721
+02:41:18,000 --> 02:41:20,000
+on Vg prime.
+
+2722
+02:41:20,000 --> 02:41:22,000
+So you have two ways
+
+2723
+02:41:22,000 --> 02:41:24,000
+to obtain this
+
+2724
+02:41:24,000 --> 02:41:26,000
+value.
+
+2725
+02:41:26,000 --> 02:41:28,000
+One is by using the graph.
+
+2726
+02:41:28,000 --> 02:41:30,000
+The other is by calculation.
+
+2727
+02:41:30,000 --> 02:41:32,000
+Okay.
+
+2728
+02:41:32,000 --> 02:41:34,000
+So once you get this
+
+2729
+02:41:34,000 --> 02:41:36,000
+you can
+
+2730
+02:41:36,000 --> 02:41:38,000
+use this formula because this
+
+2731
+02:41:38,000 --> 02:41:40,000
+omega g prime should be
+
+2732
+02:41:40,000 --> 02:41:42,000
+same as our omega m.
+
+2733
+02:41:42,000 --> 02:41:44,000
+Omega m is one over square
+
+2734
+02:41:44,000 --> 02:41:46,000
+alpha t.
+
+2735
+02:41:46,000 --> 02:41:48,000
+So this is 1.7
+
+2736
+02:41:48,000 --> 02:41:50,000
+then
+
+2737
+02:41:50,000 --> 02:41:52,000
+from this equation you get a t.
+
+2738
+02:41:54,000 --> 02:41:56,000
+Once you get t, you get the compensator.
+
+2739
+02:41:56,000 --> 02:41:58,000
+So
+
+2740
+02:41:58,000 --> 02:42:00,000
+you just substitute this t
+
+2741
+02:42:00,000 --> 02:42:02,000
+to here and also alpha
+
+2742
+02:42:02,000 --> 02:42:04,000
+t you get this. So that's
+
+2743
+02:42:04,000 --> 02:42:06,000
+how we obtain gd.
+
+2744
+02:42:06,000 --> 02:42:08,000
+Okay, now you have
+
+2745
+02:42:08,000 --> 02:42:10,000
+to do verification.
+
+2746
+02:42:10,000 --> 02:42:12,000
+Yeah, you plot
+
+2747
+02:42:12,000 --> 02:42:14,000
+gd, g
+
+2748
+02:42:14,000 --> 02:42:16,000
+yeah, this gd times g.
+
+2749
+02:42:18,000 --> 02:42:20,000
+That's the solid curve.
+
+2750
+02:42:22,000 --> 02:42:24,000
+Yeah, that's this part for the
+
+2751
+02:42:24,000 --> 02:42:26,000
+magnitude.
+
+2752
+02:42:26,000 --> 02:42:28,000
+That's the phase.
+
+2753
+02:42:28,000 --> 02:42:30,000
+Yeah, this is gd times g.
+
+2754
+02:42:32,000 --> 02:42:36,000
+Times g.
+
+2755
+02:42:36,000 --> 02:42:38,000
+So based on this
+
+2756
+02:42:38,000 --> 02:42:40,000
+you can see the
+
+2757
+02:42:40,000 --> 02:42:42,000
+new
+
+2758
+02:42:42,000 --> 02:42:44,000
+gain margin here.
+
+2759
+02:42:44,000 --> 02:42:46,000
+Phase margin.
+
+2760
+02:42:46,000 --> 02:42:48,000
+This is the gain crossover frequency.
+
+2761
+02:42:48,000 --> 02:42:50,000
+So that's about 50 degrees.
+
+2762
+02:42:50,000 --> 02:42:52,000
+Yeah, that's the phase.
+
+2763
+02:42:52,000 --> 02:42:54,000
+So this is 50 degrees.
+
+2764
+02:42:54,000 --> 02:42:56,000
+This is the requirement.
+
+2765
+02:42:56,000 --> 02:42:58,000
+You can also check the gain crossover frequency.
+
+2766
+02:42:58,000 --> 02:43:00,000
+Yeah, that's this.
+
+2767
+02:43:00,000 --> 02:43:02,000
+This is the phase crossover frequency.
+
+2768
+02:43:02,000 --> 02:43:04,000
+Then look at the gain.
+
+2769
+02:43:04,000 --> 02:43:06,000
+So that's about 14 dV.
+
+2770
+02:43:06,000 --> 02:43:08,000
+So this
+
+2771
+02:43:08,000 --> 02:43:10,000
+meets the requirement.
+
+2772
+02:43:10,000 --> 02:43:12,000
+Yeah,
+
+2773
+02:43:12,000 --> 02:43:14,000
+we have to get this gd w
+
+2774
+02:43:14,000 --> 02:43:16,000
+you have to convert this
+
+2775
+02:43:16,000 --> 02:43:18,000
+gd w to z.
+
+2776
+02:43:18,000 --> 02:43:20,000
+Transfer function.
+
+2777
+02:43:22,000 --> 02:43:24,000
+So now
+
+2778
+02:43:24,000 --> 02:43:26,000
+you go to the fourth
+
+2779
+02:43:26,000 --> 02:43:28,000
+step.
+
+2780
+02:43:30,000 --> 02:43:32,000
+Yeah, so
+
+2781
+02:43:32,000 --> 02:43:34,000
+you do this conversion
+
+2782
+02:43:34,000 --> 02:43:36,000
+you get gd.
+
+2783
+02:43:36,000 --> 02:43:38,000
+So this is w
+
+2784
+02:43:38,000 --> 02:43:40,000
+change to 2 over
+
+2785
+02:43:40,000 --> 02:43:42,000
+t, z minus 1, z plus 1.
+
+2786
+02:43:42,000 --> 02:43:44,000
+Then you do this calculation
+
+2787
+02:43:44,000 --> 02:43:46,000
+you get this answer.
+
+2788
+02:43:46,000 --> 02:43:48,000
+So that's the final controller.
+
+2789
+02:43:50,000 --> 02:43:52,000
+Okay.
+
+2790
+02:43:52,000 --> 02:43:54,000
+And you can also do
+
+2791
+02:43:54,000 --> 02:43:56,000
+verification about the
+
+2792
+02:43:56,000 --> 02:43:58,000
+step response.
+
+2793
+02:43:58,000 --> 02:44:00,000
+So you have
+
+2794
+02:44:00,000 --> 02:44:02,000
+this unit
+
+2795
+02:44:02,000 --> 02:44:04,000
+step response
+
+2796
+02:44:04,000 --> 02:44:06,000
+obtained by using MATLAB
+
+2797
+02:44:06,000 --> 02:44:08,000
+simulation.
+
+2798
+02:44:08,000 --> 02:44:10,000
+The input is unit step
+
+2799
+02:44:10,000 --> 02:44:12,000
+for the closed loop system.
+
+2800
+02:44:12,000 --> 02:44:14,000
+Okay,
+
+2801
+02:44:14,000 --> 02:44:16,000
+so this is the design
+
+2802
+02:44:16,000 --> 02:44:18,000
+procedure.
+
+2803
+02:44:18,000 --> 02:44:20,000
+And we have used
+
+2804
+02:44:20,000 --> 02:44:22,000
+our example to
+
+2805
+02:44:22,000 --> 02:44:24,000
+illustrate this five step
+
+2806
+02:44:24,000 --> 02:44:26,000
+procedure. Okay, so
+
+2807
+02:44:26,000 --> 02:44:28,000
+that's the lecture today.
+
+2808
+02:44:28,000 --> 02:44:30,000
+We come back next week.
+
+2809
+02:44:30,000 --> 02:44:32,000
+Yeah.
+
+2810
+02:44:56,000 --> 02:44:58,000
+Okay.
+
+2811
+02:45:26,000 --> 02:45:28,000
+Okay.
+
+2812
+02:45:56,000 --> 02:45:58,000
+Okay.
+
+2813
+02:46:26,000 --> 02:46:28,000
+Okay.
+
+2814
+02:46:56,000 --> 02:46:58,000
+Okay.
+
+2815
+02:47:26,000 --> 02:47:28,000
+Okay.
+
+2816
+02:47:56,000 --> 02:47:58,000
+Okay.
+
+2817
+02:48:26,000 --> 02:48:28,000
+Okay.
+
+2818
+02:48:56,000 --> 02:48:58,000
+Okay.
+
+2819
+02:49:26,000 --> 02:49:28,000
+Okay.
+
+2820
+02:49:56,000 --> 02:49:58,000
+Okay.
+
+2821
+02:50:26,000 --> 02:50:28,000
+Okay.
+
+2822
+02:50:56,000 --> 02:50:58,000
+Okay.
+
+2823
+02:51:26,000 --> 02:51:28,000
+Okay.
+
+2824
+02:51:56,000 --> 02:51:58,000
+Okay.
+
+2825
+02:52:26,000 --> 02:52:28,000
+Okay.
+
+2826
+02:52:56,000 --> 02:52:58,000
+Okay.
+
+2827
+02:53:26,000 --> 02:53:28,000
+Okay.
+
+2828
+02:53:56,000 --> 02:53:58,000
+Okay.
+
+2829
+02:54:26,000 --> 02:54:28,000
+Okay.
+
+2830
+02:54:56,000 --> 02:54:58,000
+Okay.
+
+2831
+02:55:26,000 --> 02:55:28,000
+Okay.
+
+2832
+02:55:56,000 --> 02:55:58,000
+Okay.
+
+2833
+02:56:26,000 --> 02:56:28,000
+Okay.
+
+2834
+02:56:56,000 --> 02:56:58,000
+Okay.
+
+2835
+02:57:26,000 --> 02:57:28,000
+Okay.
+
+2836
+02:57:56,000 --> 02:57:58,000
+Okay.
+
+2837
+02:58:26,000 --> 02:58:28,000
+Okay.
+
+2838
+02:58:56,000 --> 02:58:58,000
+Okay.
+
+2839
+02:59:26,000 --> 02:59:28,000
+Okay.
+
+2840
+02:59:56,000 --> 02:59:58,000
+Okay.
+

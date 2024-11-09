@@ -1,0 +1,4268 @@
+1
+00:00:30,000 --> 00:00:58,360
+Okay, let's start, yeah first I would like to make this announcement, yeah it's about
+
+2
+00:00:58,360 --> 00:01:11,500
+the third quiz for this course, yeah it will be conducted on the 11th November, so that's
+
+3
+00:01:11,500 --> 00:01:23,160
+two weeks to go, okay, yeah we will start the quiz at 7.30 and finish at 8.15, so you
+
+4
+00:01:23,160 --> 00:01:33,920
+need to come here to be seated by 7.25, so that we can start our quiz on time and finish
+
+5
+00:01:33,920 --> 00:01:35,960
+on time.
+
+6
+00:01:35,960 --> 00:01:47,320
+Okay for this quiz we have two AOTs, one is here, AOT26, the other is the next door, so
+
+7
+00:01:47,320 --> 00:01:58,960
+is more convenient than quiz one, so it's AOT27, yeah our quiz will be 45 minutes, same
+
+8
+00:01:58,960 --> 00:02:13,040
+as the first two quizzes, third quiz also no MCQ type, so you have to show your workings
+
+9
+00:02:13,040 --> 00:02:18,920
+in detail and clearly.
+
+10
+00:02:18,920 --> 00:02:29,000
+Also the quiz is a closed book quiz, so you cannot bring any unauthorised material, yeah
+
+11
+00:02:29,000 --> 00:02:37,200
+you can use your calculator, but you cannot use your mobile phone and other unauthorised
+
+12
+00:02:37,200 --> 00:02:39,920
+materials.
+
+13
+00:02:39,920 --> 00:02:50,400
+If you are caught, it will be a serious issue, so yeah we have actually eight student helpers
+
+14
+00:02:50,400 --> 00:03:02,520
+to invigorate the quiz, so there will be a round to oversee you, so you should be careful,
+
+15
+00:03:02,520 --> 00:03:16,520
+so just do the quiz without using your mobile phone and also unauthorised materials.
+
+16
+00:03:16,520 --> 00:03:25,080
+Okay the topic involved will be lectures in week 4, week 10, yeah actually this is week
+
+17
+00:03:25,080 --> 00:03:40,360
+11 and week 12, yeah week 4 means the week in the last lecture I delivered, including
+
+18
+00:03:40,360 --> 00:03:54,520
+the stability using jury's test, yeah that chapter, week 11, yeah week 10 is last week's
+
+19
+00:03:54,520 --> 00:04:01,120
+lecture, week 11 today's, yeah we have one more next week.
+
+20
+00:04:01,120 --> 00:04:13,440
+Okay this quiz will be 15% of the course, for the grouping it's the same as quiz one
+
+21
+00:04:13,440 --> 00:04:23,760
+and also quiz two, so you can find out the grouping in the information folder, yeah in
+
+22
+00:04:23,760 --> 00:04:27,440
+the information folder of the course.
+
+23
+00:04:27,440 --> 00:04:35,440
+Okay for group one to group four, you will be here in this L.T. with the same seating
+
+24
+00:04:35,440 --> 00:04:43,520
+arrangement as we did for quiz one and quiz two, but for groups five and six, it will
+
+25
+00:04:43,520 --> 00:04:52,800
+be just next door in L.T. 27, yeah you can check the grouping showing in the information
+
+26
+00:04:52,840 --> 00:05:04,720
+folder.
+
+27
+00:05:04,720 --> 00:05:16,760
+So when you arrive at the assigned AOT, you just sit in the respective group area assigned
+
+28
+00:05:16,760 --> 00:05:28,000
+to you, so that attendance can be taken by the student helpers and also in the end they
+
+29
+00:05:28,000 --> 00:05:39,640
+will collect your answer sheet and then take attendance when you submit your answer sheet
+
+30
+00:05:39,640 --> 00:05:45,240
+as we did in the first quiz.
+
+31
+00:05:45,240 --> 00:05:54,680
+Okay as I said you can bring your own calculator, we will provide necessary transform tables,
+
+32
+00:05:54,680 --> 00:06:04,880
+yeah necessary transform pairs and you cannot use mobile phone as I just mentioned, yeah
+
+33
+00:06:04,920 --> 00:06:17,760
+to take attendance you have to show this student helper your matriculation card, yeah.
+
+34
+00:06:17,760 --> 00:06:26,840
+If your student is absent from the quiz without a valid reason, such as without showing the
+
+35
+00:06:26,840 --> 00:06:34,760
+NC then zero mark will be given, however if you have a valid reason you should email me
+
+36
+00:06:34,760 --> 00:06:48,920
+after the quiz, yeah I mean by 5 p.m. 11th 2024, that is, oh sorry 12th, no 11th, okay,
+
+37
+00:06:48,920 --> 00:06:59,960
+yeah 12th, yeah the next day after the quiz, the quiz is on the 11th, so there are two
+
+38
+00:07:00,000 --> 00:07:11,000
+corrections here, yeah, yeah this one and this one here, okay so that's the announcement.
+
+39
+00:07:11,000 --> 00:07:23,480
+Now let's consider our design of controllers, yeah as we said when we design our controller
+
+40
+00:07:23,520 --> 00:07:33,320
+the plant is given and in my part the plant together with the zero order hold can be represented
+
+41
+00:07:33,320 --> 00:07:40,720
+by this transfer function, okay so this is given, if it's not given you sometimes have
+
+42
+00:07:40,720 --> 00:07:49,240
+to find out by yourself, for example you have to model the plant like what we did last week
+
+43
+00:07:49,240 --> 00:07:55,800
+for the controlling of the car, so you have to find the model or transfer function for
+
+44
+00:07:55,800 --> 00:08:04,680
+the plant then you have to find this transfer function and also the overall specification
+
+45
+00:08:04,680 --> 00:08:10,640
+for your control system should be given, so based on such given information you have to
+
+46
+00:08:10,640 --> 00:08:18,940
+find this controller, yeah that's what we try to do in this chapter, yeah as mentioned
+
+47
+00:08:18,940 --> 00:08:26,660
+we have three approaches, one is digital implementation of analog controller design
+
+48
+00:08:26,660 --> 00:08:36,940
+and make a summary on this procedure, so we have three steps in this case, first you have
+
+49
+00:08:36,940 --> 00:08:48,580
+to design a controller CS for the analog subsystem to meet the required specification, so you
+
+50
+00:08:48,620 --> 00:08:58,020
+can use whatever method you have studied to design this CS, once you design this CS you
+
+51
+00:08:58,020 --> 00:09:12,380
+can map this CS to the digital domain to obtain CZ based on shootable transformation, we started
+
+52
+00:09:12,380 --> 00:09:23,460
+a few approach transformations, for example binomial transformation and also pole zero
+
+53
+00:09:23,460 --> 00:09:32,180
+matching, yeah these two methods are important to do the transformation and the third step
+
+54
+00:09:32,180 --> 00:09:37,980
+is to check the sample time response of the digital control system, yeah you have obtained
+
+55
+00:09:37,980 --> 00:09:50,460
+this CZ and also you have the given transfer function GZS here, so you can find out the
+
+56
+00:09:50,460 --> 00:09:58,460
+response of this overall system by using some computational tool such as Matlab to check
+
+57
+00:09:58,460 --> 00:10:07,960
+the performance, if the performance is satisfied then the design CZ is acceptable otherwise
+
+58
+00:10:08,820 --> 00:10:20,020
+you may have to do design again, so that's the first method which is digital implementation
+
+59
+00:10:20,020 --> 00:10:29,320
+of analog controller design, the second method is direct Z domain digital controller design
+
+60
+00:10:29,360 --> 00:10:39,360
+by using frequency response approach, yeah we also have procedure for this approach,
+
+61
+00:10:43,360 --> 00:10:54,240
+yeah in this approach we have five steps here, first step is to obtain the transfer function
+
+62
+00:10:54,240 --> 00:11:05,240
+GZAS of the discretized process, yeah this means you are given the plant, yeah you are
+
+63
+00:11:05,240 --> 00:11:14,880
+given the plant then you find this, yeah that's the same, that was just mentioned also, now
+
+64
+00:11:14,880 --> 00:11:23,680
+for this transfer function you have to do transformation to obtain GW, yeah basically
+
+65
+00:11:24,560 --> 00:11:32,360
+you can use the binary transformation to get this, then based on this GW you put the body
+
+66
+00:11:32,360 --> 00:11:43,840
+plot of G JV, then based on the body plot and the required frequency domain specifications
+
+67
+00:11:44,600 --> 00:11:58,240
+you can design controller CW, once you get this CW you can convert back to CZ by using
+
+68
+00:11:58,240 --> 00:12:06,120
+the binary transformation again, of course you also need to verify the performance obtained
+
+69
+00:12:06,120 --> 00:12:16,800
+based on the obtained CZ and also this, yeah this last step is the same as we did for the
+
+70
+00:12:16,800 --> 00:12:24,420
+first approach, okay now today we will consider the third approach which is direct control design
+
+71
+00:12:24,420 --> 00:12:48,180
+approach, yeah in this approach we have to obtain the closed loop transfer function based
+
+72
+00:12:48,220 --> 00:12:59,940
+on the given specifications, yeah just now for our control system we have this Z domain
+
+73
+00:12:59,940 --> 00:13:12,140
+representation, so this is obtained, now you can obtain the closed loop transfer function based
+
+74
+00:13:12,340 --> 00:13:28,420
+on the required specification, okay, then we can find CZ from the closed loop transfer function
+
+75
+00:13:28,420 --> 00:13:39,980
+and also this GZAS, so that's the approach or that's the idea, of course when you use this
+
+76
+00:13:40,020 --> 00:13:53,500
+method you have to ensure the obtained controller CZ is realizable, that means your CZ should
+
+77
+00:13:53,500 --> 00:14:10,420
+satisfy some conditions, okay so now let's look at the detail, yeah this diagram is same as this,
+
+78
+00:14:10,420 --> 00:14:19,500
+so as I just mentioned the closed loop transfer function for this system can be obtained as this,
+
+79
+00:14:19,500 --> 00:14:25,300
+I believe you know how to obtain this transfer function, right that's quite standard,
+
+80
+00:14:25,300 --> 00:14:41,980
+so in this case GZ is obtained, that is known or is given from the specifications and the GZAS is
+
+81
+00:14:42,060 --> 00:14:50,020
+also obtained, therefore we just want to find CZ, then solve this equation, you get this solution
+
+82
+00:14:50,020 --> 00:15:00,780
+for CZ, so that's the controller we obtain, so it's very easy, okay so the issue here is how to
+
+83
+00:15:00,780 --> 00:15:11,940
+obtain the closed loop transfer function from the given specification and also to meet the condition
+
+84
+00:15:11,940 --> 00:15:22,380
+that the controller is realizable, so this is important here, so you have to ensure they obtain
+
+85
+00:15:22,380 --> 00:15:35,940
+CZ to be realizable, yeah you can compute your CZ here, but whether this is realizable that
+
+86
+00:15:35,980 --> 00:15:44,140
+will depend on how you choose your GZ here, so now let's look at some conditions for the choice
+
+87
+00:15:44,140 --> 00:15:54,580
+of this closed loop transfer function, yeah basically for the controller to be realizable
+
+88
+00:15:54,580 --> 00:16:03,820
+it must be causal, so that's the realizable condition and also when you implement the
+
+89
+00:16:03,820 --> 00:16:11,900
+controller you have to ensure the asymptotic stability of the closed loop control system,
+
+90
+00:16:11,900 --> 00:16:23,820
+yeah here our control system is this, for you to ensure the closed loop asymptotic stability
+
+91
+00:16:23,820 --> 00:16:32,860
+is not only the transfer function from the input to the output, you also have to consider some
+
+92
+00:16:32,900 --> 00:16:44,900
+internal signals in the system, for example this U, yeah you have to also ensure this U is not
+
+93
+00:16:44,900 --> 00:16:51,300
+divergent, yeah based on the closed loop transfer function you get the relationship between the
+
+94
+00:16:51,300 --> 00:16:58,220
+input and output, in certain case if you have poor zero cancellation between the controller
+
+95
+00:16:58,220 --> 00:17:07,620
+and the GZAS, if this cancellation is unstable poor zero cancellation maybe the internal signal
+
+96
+00:17:07,620 --> 00:17:16,740
+is unbounded, so we have to consider this case, yeah not only just this overall transfer function
+
+97
+00:17:16,740 --> 00:17:25,780
+but also some internal signals should be considered, just like in state space you have some
+
+98
+00:17:25,820 --> 00:17:33,860
+state variables, you also have to ensure the state variables to be bounded, that is without
+
+99
+00:17:33,860 --> 00:17:46,300
+divergence, now how do we ensure our controller is causal with the given formula here, yeah we
+
+100
+00:17:46,300 --> 00:17:52,700
+are going to use, later on we will use this formula to find this CZ, so with this formula
+
+101
+00:17:52,820 --> 00:18:03,420
+how can we ensure this CZ is causal, so that depends on your choice of the GCA,
+
+102
+00:18:03,420 --> 00:18:13,940
+this GCA that is the closed loop transfer function, what's the meaning of causal,
+
+103
+00:18:13,940 --> 00:18:22,460
+causal means if you have a controller CZ here, yeah in the end you get a rational function,
+
+104
+00:18:22,940 --> 00:18:33,220
+so you have a numerator and a denominator, so maybe in the end you get for example NCZ and the
+
+105
+00:18:33,220 --> 00:18:47,700
+DCZ here, causal means the order of the numerator should be less than or equal to the order of the
+
+106
+00:18:47,740 --> 00:18:59,580
+denominator, okay and in other words there is no time advance, okay we have this condition,
+
+107
+00:18:59,580 --> 00:19:06,700
+yeah if the order of the denominator is higher than the order of the numerator or equal to the
+
+108
+00:19:06,700 --> 00:19:17,100
+order of the numerator that implies the number of poles of the transfer function of this CZ is not
+
+109
+00:19:17,100 --> 00:19:25,900
+less than the zeroes, or less than the number of zeroes, yeah maybe to be more precise I think
+
+110
+00:19:25,900 --> 00:19:42,740
+you actually have to put the number of poles, not less than the number of zeroes, okay, also there
+
+111
+00:19:42,740 --> 00:19:52,740
+should be no time advance, that means the output of the system does not depend on the future of
+
+112
+00:19:52,740 --> 00:20:09,700
+your input, okay to ensure this, to ensure this CZ to be causal, to ensure this CZ to be causal,
+
+113
+00:20:09,700 --> 00:20:24,060
+the relative degree of GCAO must not be less than the relative degree of the planned transfer
+
+114
+00:20:24,060 --> 00:20:35,860
+function, maybe I have to explain what's the meaning of relative degree, yeah I also give
+
+115
+00:20:35,860 --> 00:20:47,860
+a proof of this condition, so this is actually a condition for you to choose your GCAO, okay,
+
+116
+00:20:47,860 --> 00:20:58,340
+so this is a condition we need to consider when you choose your GCAO, yeah this is given,
+
+117
+00:20:59,060 --> 00:21:06,420
+you cannot choose this, but this is chosen by us, so you have a freedom to choose this GCAO,
+
+118
+00:21:06,420 --> 00:21:15,700
+this one is not possible to be, so what is the relative degree, yeah I said this,
+
+119
+00:21:15,700 --> 00:21:27,700
+yeah I do a calculation, first I have to define relative degree, for example for this given GZS,
+
+120
+00:21:28,020 --> 00:21:39,620
+transfer function, it is a rational transfer function, maybe I can write this as BZ over AZ,
+
+121
+00:21:39,620 --> 00:21:53,020
+so for physical system the order of the numerator should be less than or equal to the order of the
+
+122
+00:21:53,020 --> 00:22:03,860
+denominator, and the relative degree is defined as this, yeah maybe I use R to denote the relative
+
+123
+00:22:03,860 --> 00:22:17,780
+degree, so this relative degree is the degree of denominator, which is A in this case, minus the
+
+124
+00:22:17,780 --> 00:22:34,460
+degree of B, yeah or B here, okay, so that's the definition of relative degree, so now how do we
+
+125
+00:22:34,460 --> 00:22:43,460
+show this condition should be satisfied, yeah this condition here, okay so now I will use the
+
+126
+00:22:43,460 --> 00:22:54,700
+formula here, yeah this formula is important, yeah you have to remember this formula in fact,
+
+127
+00:22:54,700 --> 00:23:09,340
+in order to compute this CZ, okay so we also denote this GCAO as a rational function,
+
+128
+00:23:09,340 --> 00:23:27,180
+maybe just N, yeah numerator CL divided by DCL, so in this case we compute C, yeah this is C,
+
+129
+00:23:27,180 --> 00:23:35,980
+yeah you just substitute this GZS and the GCL to this formula, you can compute the C,
+
+130
+00:23:35,980 --> 00:23:43,860
+that will be one over that, one over this is just the inverse of this, so it's A divided by B,
+
+131
+00:23:43,860 --> 00:24:01,060
+right when you do this inverse, that's this part, then GCAO is NCAO divided by DCL, then this is a
+
+132
+00:24:01,100 --> 00:24:11,580
+one minus NCAO divided by DCL, okay, so that's how we compute this C based on this formula here,
+
+133
+00:24:11,580 --> 00:24:22,020
+okay now let's do a simplification, now there will be A divided by B times, yeah you multiply
+
+134
+00:24:22,020 --> 00:24:32,540
+DCAO in both numerator and denominator, this will be NCAO, this is DCAO minus NCAO, correct,
+
+135
+00:24:32,540 --> 00:24:42,860
+yeah, okay now let's compute the relative degree of C, yeah, relative degree of C,
+
+136
+00:24:42,860 --> 00:24:51,460
+based on this calculation, it will be the degree of the denominator minus the degree
+
+137
+00:24:51,460 --> 00:25:06,660
+of the numerator, so that is the degree of B times this part, yeah actually this is,
+
+138
+00:25:06,660 --> 00:25:17,380
+when you consider the degree of the denominator is just a degree of B plus the degree of DCAO,
+
+139
+00:25:17,540 --> 00:25:27,660
+okay, because for this part the order of DCAO should be larger than or equal to NCAO,
+
+140
+00:25:27,660 --> 00:25:35,380
+so this degree is the degree of NCAO, okay that's the denominator, then minus the degree
+
+141
+00:25:35,380 --> 00:25:57,820
+of numerator, that's degree of A, yeah that's this, also minus degree of NCAO, correct, okay
+
+142
+00:25:57,860 --> 00:26:06,060
+you can see that when you do this calculation, this minus this, that's the relative degree of
+
+143
+00:26:06,060 --> 00:26:20,740
+GCAO, correct, then this minus this, that's the negative of the relative degree of the given
+
+144
+00:26:20,740 --> 00:26:38,260
+transfer function, so minus R GAAS, okay, so we have this, okay so that's the relative degree of
+
+145
+00:26:38,260 --> 00:26:46,180
+the controller, now for your controller to be causal, this should be bigger than equal to 0,
+
+146
+00:26:46,180 --> 00:26:53,700
+yeah that is a relative degree should be bigger than equal to 0, which means the order of the
+
+147
+00:26:53,700 --> 00:27:04,300
+denominator should be bigger than or equal to the order of the numerator, so we have R GCAO
+
+148
+00:27:04,300 --> 00:27:18,780
+bigger than or equal to R GAAS, okay, yeah that's this here, the relative degree of GCAO must not
+
+149
+00:27:18,780 --> 00:27:32,500
+be less than that of GCAAS, which means this, okay, so that is the choice of the relative degree
+
+150
+00:27:32,540 --> 00:27:47,380
+for your closed loop transfer function, so that's the causal condition, next we consider the second
+
+151
+00:27:47,380 --> 00:27:54,780
+condition here, we have to ensure the overall closed loop control system is asymptotically
+
+152
+00:27:54,780 --> 00:28:03,980
+stable, so to ensure this, you should avoid unstable port zero cancellation, otherwise,
+
+153
+00:28:03,980 --> 00:28:15,020
+even if your system is input output stable, but not asymptotically stable, because you have some
+
+154
+00:28:15,020 --> 00:28:28,700
+internal signals involved, okay, so this is to ensure this asymptotically stability, which is
+
+155
+00:28:28,700 --> 00:28:35,340
+equivalent to this, you should avoid unstable port zero cancellation, okay, how do we choose,
+
+156
+00:28:35,740 --> 00:28:45,820
+how do we ensure this, okay, the set of zeros of GCAO must include all the zeros of GCAAS that are
+
+157
+00:28:45,820 --> 00:28:55,260
+outside the unit circle, what does this mean, this means if your GCAAS, yeah, this is R GCAAS,
+
+158
+00:28:56,220 --> 00:29:03,420
+maybe you have some unstable zeros, yeah maybe I put this as B stable zeros,
+
+159
+00:29:04,380 --> 00:29:16,140
+and you have some unstable zeros, yeah, then maybe for the pole you can also put that A stable
+
+160
+00:29:16,140 --> 00:29:26,460
+and A unstable, so this means this B unstable here, this factor should be part
+
+161
+00:29:26,460 --> 00:29:40,620
+of the numerator of GCAO, yeah, that is your GCAO should include BU inside, when you choose your GCAO,
+
+162
+00:29:40,620 --> 00:29:47,940
+of course, if you don't have unstable zeros, then you don't worry about this condition,
+
+163
+00:29:47,940 --> 00:30:02,900
+how is this condition valid, you also use this formula to do the proof, okay,
+
+164
+00:30:02,900 --> 00:30:14,100
+so now I also use the same calculation, yeah, actually we have this computation for the
+
+165
+00:30:14,100 --> 00:30:26,820
+controller, as I said, I will separate or factorize the numerator as BS BU, so this means
+
+166
+00:30:26,820 --> 00:30:38,180
+you have BS BU here, yeah, at this stage for the A, I don't, I just use this because A does not
+
+167
+00:30:38,740 --> 00:30:50,340
+give any condition on the zeros of GCAO, so this should be true, and this is also BS BU, okay,
+
+168
+00:30:55,220 --> 00:31:06,100
+yeah, of course, this NCAO is our numerator of the closed loop transfer function,
+
+169
+00:31:06,980 --> 00:31:21,460
+if your NCAO has BU as a factor, yeah, that means NCAO can be written as BU times maybe NCAO,
+
+170
+00:31:21,460 --> 00:31:32,340
+the remaining part, put NCAO here, then with this, you can cancel out this BU, right,
+
+171
+00:31:32,340 --> 00:31:39,380
+therefore, in your controller C, yeah, this is the controller C you obtain,
+
+172
+00:31:39,380 --> 00:31:47,220
+you don't have BU involved, because when you do this calculation, this BU has been cancelled out,
+
+173
+00:31:47,220 --> 00:31:55,940
+therefore, when you look at the control system, yeah, this is the control system,
+
+174
+00:31:55,940 --> 00:32:12,180
+yeah, as I said, this GZAS has stable zero and the unstable zero factor, then this is A,
+
+175
+00:32:12,900 --> 00:32:21,620
+so in this case, if your C, yeah, this C does not have BU, then you don't have port
+
+176
+00:32:21,620 --> 00:32:29,380
+zero cancellation for the BU part, that means the unstable BU has no cancellation
+
+177
+00:32:31,780 --> 00:32:35,860
+involved, because in your C, you don't have this BU,
+
+178
+00:32:37,940 --> 00:32:49,780
+so we have avoid unstable port zero cancellation in this case, if your BU is included in your NCAO,
+
+179
+00:32:49,780 --> 00:33:02,180
+otherwise, if your NCAO does not include BU, that means maybe just the NCAO without BU here,
+
+180
+00:33:02,180 --> 00:33:11,300
+so in this case, your BU will be part of the denominator in your C, so if you substitute here,
+
+181
+00:33:11,300 --> 00:33:17,620
+you have BU in the denominator, that will cancel out with this BU, then you have unstable
+
+182
+00:33:20,660 --> 00:33:28,740
+port zero cancellation with this BU and this BU in your controller, okay,
+
+183
+00:33:31,460 --> 00:33:38,900
+so if you include your unstable zero
+
+184
+00:33:38,900 --> 00:33:51,940
+inside your NCAO, this is, this port zero, unstable port zero cancellation is avoided,
+
+185
+00:33:53,780 --> 00:33:57,540
+yeah, if you have stable zero, then it's okay for cancellation,
+
+186
+00:33:58,900 --> 00:34:06,340
+but you cannot cancel out unstable ones, okay, so that's the first condition,
+
+187
+00:34:09,300 --> 00:34:12,660
+for the second condition of asymptotic stability,
+
+188
+00:34:15,140 --> 00:34:20,020
+your zeros of this transfer function, which is one minor GCU,
+
+189
+00:34:20,980 --> 00:34:28,100
+should include all the unstable ports of the plant, yeah, that means in this case,
+
+190
+00:34:28,100 --> 00:34:43,140
+you have unstable ports in your GZAS, so that's, this should be included as the zeros of
+
+191
+00:34:44,660 --> 00:34:53,620
+one minor GCAOZ, you can also do the same calculation, yeah, you see,
+
+192
+00:34:54,340 --> 00:35:02,820
+yeah, here, for example, we just consider this A is written as
+
+193
+00:35:06,020 --> 00:35:16,260
+our A S AU, so stable one and the unstable one, so if this part, yeah, actually this part here
+
+194
+00:35:16,900 --> 00:35:27,540
+is one minor GCU, correct, yeah, if you look at the formula, the denominator here is one minor GCU,
+
+195
+00:35:28,820 --> 00:35:41,300
+so if this denominator contains AU as the zero, that means the numerator of this
+
+196
+00:35:42,180 --> 00:35:49,380
+has AU, so the, yeah, this actually is a rational function also, so the numerator
+
+197
+00:35:49,380 --> 00:35:57,140
+has AU, that means here in the denominator of this part, you have AU, then this is cancel out,
+
+198
+00:35:58,420 --> 00:36:08,900
+therefore in your controller C, you don't have AU here, then when you consider the
+
+199
+00:36:09,780 --> 00:36:18,020
+original block diagram, if this A is A S and AU, now you don't have this AU here, so this AU,
+
+200
+00:36:21,380 --> 00:36:26,980
+yeah, this AU cannot be cancel out because there is no AU in your controller, otherwise
+
+201
+00:36:28,180 --> 00:36:35,300
+if this AU is not cancel out, if this AU is not cancel out, then you have this factor
+
+202
+00:36:36,180 --> 00:36:42,820
+in the controller, then that means this AU in the controller numerator will be cancel out
+
+203
+00:36:43,380 --> 00:36:51,620
+with this AU, so in this case, you also have pole zero cancelation, yeah, you can use this approach
+
+204
+00:36:52,500 --> 00:37:04,500
+to verify this is required to avoid AU as part of the numerator of your C,
+
+205
+00:37:06,260 --> 00:37:14,020
+okay, yeah, there is another possible way to show this condition,
+
+206
+00:37:16,420 --> 00:37:27,460
+suppose the process has a zero outside the unit circle, yeah, this is not zero,
+
+207
+00:37:27,460 --> 00:37:32,340
+has an unstable pole at the Z bar with a magnitude of Z bar bigger than one,
+
+208
+00:37:33,140 --> 00:37:41,620
+so we can factorise this Z minus Z bar out from this overall transfer function to get this form,
+
+209
+00:37:42,500 --> 00:37:49,140
+that is you can write GZ ES as G1 divided by this, so this is an unstable pole,
+
+210
+00:37:50,580 --> 00:37:57,860
+then you can compute this, yeah, this form, one minus GZU actually is equal to this,
+
+211
+00:37:58,660 --> 00:38:06,180
+is one divided by one plus C times this, yeah, this can be from here, you can see this
+
+212
+00:38:06,740 --> 00:38:13,700
+GCO is that, so if you just calculate one minus this, then you get this result,
+
+213
+00:38:17,540 --> 00:38:24,020
+okay, then you do some manipulation with this, so this is zero of that
+
+214
+00:38:24,020 --> 00:38:36,180
+one minus GCO, yeah, this is zero, if your C does not have Z minus Z bar as a factor,
+
+215
+00:38:36,180 --> 00:38:44,420
+if your Z has a factor Z minus Z bar, then that will be taken out, then this will be cancelled
+
+216
+00:38:44,420 --> 00:38:51,620
+out, anyway, I think it is better to understand from this calculation here, because if you don't
+
+217
+00:38:51,620 --> 00:39:05,780
+have this unstable AU in the denominator here, then AU in the controller is not cancelled out,
+
+218
+00:39:06,420 --> 00:39:14,500
+then when you do the implementation, this AU will be cancelled out with this AU in the plant,
+
+219
+00:39:14,820 --> 00:39:20,900
+so in that case, you have unstable pole zero cancellation, okay?
+
+220
+00:39:24,980 --> 00:39:33,860
+Okay, so that's the requirement on asymptotic stability, now in many cases,
+
+221
+00:39:35,620 --> 00:39:41,220
+you also need zero status error due to a unit step input,
+
+222
+00:39:44,580 --> 00:39:51,860
+yeah, how do we meet this requirement from your GCO? Yeah, you have to choose your GCO,
+
+223
+00:39:52,580 --> 00:39:59,540
+so how do we meet this requirement? Yeah, you can also see from this diagram, yeah, in this case,
+
+224
+00:40:00,660 --> 00:40:11,940
+RZ is a step input, so once the Z transform, it will be one over one minus Z inverse,
+
+225
+00:40:11,940 --> 00:40:27,380
+yeah, RZ, when the input is a unit step, so our output YZ will be GCO Z times RZ, correct?
+
+226
+00:40:28,900 --> 00:40:38,180
+Yeah, this is the general case, now, when the input is this unit step, it will be GCO Z times
+
+227
+00:40:38,180 --> 00:40:49,860
+one over one minus Z inverse, yeah, because the overall system is ensured to be stable,
+
+228
+00:40:49,860 --> 00:40:56,340
+so we can apply the final value theorem, so how do we apply the final value theorem to get the limit,
+
+229
+00:40:57,300 --> 00:41:10,900
+so that means limit K tends to infinity YKT will be equal to limit Z tends to one,
+
+230
+00:41:12,100 --> 00:41:18,660
+one minus Z inverse times YZ, correct? So this is the final value theorem,
+
+231
+00:41:19,300 --> 00:41:25,540
+then when you substitute this YZ to here, you can see this is cancel out, then you have GCO lift,
+
+232
+00:41:26,580 --> 00:41:41,860
+so that is same as a limit GCO Z when Z tends to one, so this is just the GCO one,
+
+233
+00:41:41,860 --> 00:41:57,220
+so this should be equal to one, because you want the output to be the same as the input,
+
+234
+00:41:59,060 --> 00:42:03,700
+when time tends to infinity, yeah, you see this input is always one unit step,
+
+235
+00:42:03,700 --> 00:42:12,100
+so we have this condition here, GCO one should be one in this case,
+
+236
+00:42:14,660 --> 00:42:22,500
+right? Yeah, because when K tends to infinity, the output should be one, same as the input,
+
+237
+00:42:22,500 --> 00:42:34,500
+so this is the steady state error requirement. Okay, in summary, we have the following
+
+238
+00:42:35,300 --> 00:42:44,820
+considerations when we choose our GCO. First, the relative degree of GCO must
+
+239
+00:42:44,820 --> 00:42:54,660
+satisfy the condition just derived, that is the relative degree of GCO should be bigger than or
+
+240
+00:42:54,660 --> 00:43:03,060
+equal to the relative degree of GZAS, yeah, this is given, so you know the relative degree,
+
+241
+00:43:03,060 --> 00:43:09,700
+so when you choose the transfer function, the difference between the degree of the numerator
+
+242
+00:43:09,700 --> 00:43:18,340
+and denominator should satisfy this condition, and this GCO should contain all the unstable zeros
+
+243
+00:43:18,900 --> 00:43:28,980
+of the given system, and also the zeros of one manner GCO should include all the unstable poles
+
+244
+00:43:29,860 --> 00:43:38,420
+of this GZAS, so these two conditions are to ensure stability, this condition is to ensure
+
+245
+00:43:39,300 --> 00:43:49,060
+realizability of the controller, and the final condition is to ensure zero steady state error,
+
+246
+00:43:49,060 --> 00:43:55,780
+which was just derived, so we have four conditions, four necessary conditions
+
+247
+00:43:56,660 --> 00:44:05,460
+when you choose your GCO, but necessary means not sufficient, so to make your GCO sufficient,
+
+248
+00:44:05,860 --> 00:44:15,620
+you have to consider the given specifications. Okay, so we have suggested a procedure
+
+249
+00:44:16,260 --> 00:44:27,140
+for the choice of GCO, so you have to select the desired settling time and other specifications,
+
+250
+00:44:27,940 --> 00:44:37,300
+such as desired maximum overshoot, actually these are given by the user, the user wants to design
+
+251
+00:44:37,300 --> 00:44:50,260
+a system to meet some requirement, okay, so these are given, settling time, and also overshoot,
+
+252
+00:44:50,260 --> 00:45:04,180
+for example, in our last example, like this, yeah, you see here, we have this requirement of overshoot
+
+253
+00:45:06,820 --> 00:45:17,060
+and also the settling time, yeah, that is, you have to ensure the speed of the car
+
+254
+00:45:17,620 --> 00:45:28,340
+reach 100 km per hour from 0 km per hour in 8 seconds, so these are given, then based on this,
+
+255
+00:45:30,100 --> 00:45:37,620
+you select a suitable continuous time closed loop, first order or second order closed system
+
+256
+00:45:38,420 --> 00:45:45,860
+with unit gains, for example, this one, yeah, you use these two conditions to find out
+
+257
+00:45:45,860 --> 00:45:52,660
+a closed loop transfer function, okay, then
+
+258
+00:45:55,860 --> 00:46:02,660
+this is the continuous closed loop transfer function, either first order or second order, now
+
+259
+00:46:04,100 --> 00:46:13,940
+you can convert this continuous transfer function like this to GCO by using,
+
+260
+00:46:14,180 --> 00:46:22,580
+for example, Poiseuille matching or some other transformation method, like a binary transformation,
+
+261
+00:46:24,420 --> 00:46:31,300
+so this is to consider the specification to get the GCO, but this GCO may not satisfy the
+
+262
+00:46:31,300 --> 00:46:38,660
+requirement, so you have to verify if the GCO meet the four conditions, yeah, I just mentioned
+
+263
+00:46:38,740 --> 00:46:48,020
+the four conditions, yeah, these four conditions,
+
+264
+00:46:54,420 --> 00:47:03,940
+if this satisfied, then you just use this GCO, then once you get this GCO, you can compute
+
+265
+00:47:04,420 --> 00:47:18,260
+your consumer using 511 to obtain C, so that's how we obtain our C, if this GCO does not meet
+
+266
+00:47:18,260 --> 00:47:26,340
+the four conditions, you have to modify GCO to meet the four conditions,
+
+267
+00:47:26,420 --> 00:47:41,380
+okay, now let's consider some design example, okay, assume we have DC motors
+
+268
+00:47:43,380 --> 00:47:49,540
+to be considered, to be considered, yeah, that is our continuous plant,
+
+269
+00:47:50,340 --> 00:47:54,740
+yeah, this is a continuous plant, it's a DC motor,
+
+270
+00:47:57,380 --> 00:48:02,180
+and the output of the DC motor here is a speed, okay,
+
+271
+00:48:03,860 --> 00:48:06,660
+and of course you have a zero order hold in front,
+
+272
+00:48:09,780 --> 00:48:19,300
+the transfer function for this DC motor is given by this, the output is speed, the input
+
+273
+00:48:20,500 --> 00:48:22,900
+can be considered as a voltage,
+
+274
+00:48:30,020 --> 00:48:37,460
+now we are going to design controller to obtain zero steady state error
+
+275
+00:48:37,460 --> 00:48:42,900
+due to a unit step input, yeah, that is this is a unit step input,
+
+276
+00:48:43,220 --> 00:48:52,820
+and we also have a requirement of settling time of about four seconds,
+
+277
+00:48:53,460 --> 00:49:03,140
+the sampling time period is choosing as 0.02 seconds, so this is the given design program,
+
+278
+00:49:04,100 --> 00:49:11,060
+now we have to find this digital controller, that is we need to find this CZ here,
+
+279
+00:49:11,860 --> 00:49:22,260
+to meet these two requirements for this DC motor control program, okay, now let's
+
+280
+00:49:26,100 --> 00:49:32,820
+solve the problem, first we have to find this transfer function, yeah, I believe you know how
+
+281
+00:49:32,820 --> 00:49:37,620
+to find this transfer function, yeah, basically we have formula for this transfer function
+
+282
+00:49:38,260 --> 00:49:46,740
+of zero order hold together with the plant, which is 1 minus Z inverse times the Z transform
+
+283
+00:49:46,740 --> 00:49:57,540
+of GS divided by S, okay, so yeah, I don't have to do the calculation, you just substitute the
+
+284
+00:50:00,340 --> 00:50:06,500
+transfer function, yeah, this is the transfer function here to the formula,
+
+285
+00:50:07,620 --> 00:50:12,580
+and of course, so in this case you have to find the Z transform
+
+286
+00:50:12,580 --> 00:50:16,820
+corresponding to 1 divided by S times these two factors,
+
+287
+00:50:20,900 --> 00:50:30,660
+after calculation you get this result, so that's the GZAS we obtain with this sampling period,
+
+288
+00:50:31,460 --> 00:50:39,700
+okay, so we have obtained this here, okay, next
+
+289
+00:50:42,260 --> 00:50:49,300
+you do an inspection on the transfer function here, you can see for this GZAS we don't have
+
+290
+00:50:50,020 --> 00:50:56,500
+unstable zero, we don't have unstable pole, so you don't worry about the
+
+291
+00:50:56,500 --> 00:51:06,420
+two necessary conditions for stability, yeah, because you have no such zero,
+
+292
+00:51:06,420 --> 00:51:14,500
+no such pole outside the unit circle, okay, now we are going to check how we find our GC AOS,
+
+293
+00:51:17,220 --> 00:51:25,540
+and based on the specification, our desired continuous closed loop transfer function
+
+294
+00:51:25,540 --> 00:51:35,060
+with damping ratio 0.88 and the nature frequency 1.15 can be chosen, that is we have this
+
+295
+00:51:37,380 --> 00:51:40,580
+closed loop transfer function, yeah, that's our first step,
+
+296
+00:51:44,100 --> 00:51:48,420
+yeah, how do we find this, actually we have two requirements,
+
+297
+00:51:48,420 --> 00:52:00,980
+remember our settling time, yeah, this Ts is 4 sec, then based on this,
+
+298
+00:52:05,540 --> 00:52:12,580
+this, you should have 4 divided by Zeta Omega N
+
+299
+00:52:12,900 --> 00:52:27,060
+should be equal to 4 here, okay, yeah, we started this in week 4, when we consider the mapping
+
+300
+00:52:27,060 --> 00:52:35,780
+between S-plane and Z-plane, yeah, we have an example showing how the settling time is computed,
+
+301
+00:52:36,740 --> 00:52:46,340
+okay, so based on this our Zeta Omega N is equal to 1 here, so that's why
+
+302
+00:52:48,820 --> 00:52:58,340
+we have Zeta Omega N equals 1, so with this condition you can choose a damping ratio of 0.88,
+
+303
+00:52:58,340 --> 00:53:04,340
+if this is chosen as 0.88, then Omega N is chosen to be this,
+
+304
+00:53:05,860 --> 00:53:11,700
+yeah, of course there are many other choices for the damping ratio and Omega N, so this is one of
+
+305
+00:53:11,700 --> 00:53:23,700
+the combinations, as long as this is satisfied, then it's okay, okay, so that's the Zeta and
+
+306
+00:53:23,700 --> 00:53:34,900
+Omega N, and you have to ensure 0 is 0 here, so the DC gain for this is also 1,
+
+307
+00:53:35,540 --> 00:53:43,620
+yeah, for continuous case DC gain is computed when S is 0, so from that the numerator should
+
+308
+00:53:43,620 --> 00:53:56,900
+be equal to this, okay, so now this we desired closed loop transfer function can be converted
+
+309
+00:53:57,540 --> 00:54:06,100
+to GCL in a discrete time domain by using pole-zero matching, in fact we did this earlier,
+
+310
+00:54:06,100 --> 00:54:20,180
+if you remember in our example here we have this conversion, so this is the continuous
+
+311
+00:54:21,860 --> 00:54:27,620
+closed loop transfer function obtained from the specification, now with this
+
+312
+00:54:27,620 --> 00:54:44,180
+sampling period it can be converted to this, okay, yeah, that is this here, okay, so now
+
+313
+00:54:45,860 --> 00:54:51,780
+that's how we get GCL, now we have to verify if this GCL meet our requirements,
+
+314
+00:54:51,780 --> 00:54:59,140
+first the relative degree, what's the relative degree of this?
+
+315
+00:55:00,660 --> 00:55:07,380
+It is 1, correct, yeah, this denominator is second order, numerator is first order,
+
+316
+00:55:07,380 --> 00:55:16,900
+so relative degree here is 1, but for our GZAS the relative degree is also 1, so the equal,
+
+317
+00:55:17,140 --> 00:55:26,340
+therefore the first condition is satisfied, yeah, as I said we don't have unstable zero and
+
+318
+00:55:26,900 --> 00:55:32,100
+also no unstable pole, therefore we don't worry about the second and the third condition,
+
+319
+00:55:33,700 --> 00:55:38,100
+yeah, so we don't worry about this condition two and the condition
+
+320
+00:55:38,100 --> 00:55:47,380
+three, no this one, yeah, just now we have the four necessary conditions here,
+
+321
+00:55:48,020 --> 00:55:53,540
+yeah, we don't worry about this second one and the third one, and the fourth one is already
+
+322
+00:55:53,540 --> 00:56:02,180
+satisfied when we choose GCL, yeah, you can compute this is also equal to 1, when Z equals 1
+
+323
+00:56:02,180 --> 00:56:12,340
+that's 1, so this GCL is acceptable, now with this GCL you can apply the formula
+
+324
+00:56:13,060 --> 00:56:21,460
+to obtain our controller, yeah, this is the formula used to do the calculation,
+
+325
+00:56:22,260 --> 00:56:30,100
+so you have this CZ, yeah, that is the designed controller, now we have to do verification
+
+326
+00:56:33,060 --> 00:56:40,820
+yeah, you just compute, yeah, you use MATLAB, you just substitute this CZ here,
+
+327
+00:56:41,940 --> 00:56:51,300
+yeah, that's CZ to this block and also our GZAS to here, with this unit step input
+
+328
+00:56:51,940 --> 00:56:59,860
+you can compute, you can use MATLAB to find the output which is this, so that's the output
+
+329
+00:56:59,860 --> 00:57:09,700
+and we can see that the settling time is 3.71 seconds, which is less than 4 seconds,
+
+330
+00:57:10,580 --> 00:57:21,780
+and in the end the error, the tracking error will approach to zero, so our design is successful,
+
+331
+00:57:21,780 --> 00:57:29,460
+okay, so that's our example, now let's consider another example,
+
+332
+00:57:31,220 --> 00:57:40,500
+suppose we have this transfer function in S domain, yeah, that is our plant given here,
+
+333
+00:57:40,500 --> 00:57:45,700
+this plant
+
+334
+00:57:51,940 --> 00:57:57,940
+has this transfer function, it's the first order together with a time delay,
+
+335
+00:57:58,980 --> 00:58:03,380
+yeah, this is e to the power 5 S, S is a non-plus transform variable,
+
+336
+00:58:03,380 --> 00:58:14,900
+so this e to the power 5 S is the time delay term, so the, yeah, this plant is described by
+
+337
+00:58:14,900 --> 00:58:23,940
+this, now we have to obtain a controller, yeah, this CZ to meet this two requirements,
+
+338
+00:58:24,820 --> 00:58:31,780
+zero is the error due to a unit step input, that means this is a unit step input,
+
+339
+00:58:31,780 --> 00:58:35,220
+you should have zero status error.
+
+340
+00:58:35,220 --> 00:58:42,340
+And the settling time is about 10 seconds,
+
+341
+00:58:42,340 --> 00:58:45,980
+with 5% error tolerance.
+
+342
+00:58:45,980 --> 00:58:50,460
+And there is no overshoot for this system.
+
+343
+00:58:50,460 --> 00:58:56,740
+The sampling period is choosing as one second.
+
+344
+00:58:56,740 --> 00:59:00,500
+OK, how do we do the design?
+
+345
+00:59:00,540 --> 00:59:04,980
+First step, we have to obtain this gzas.
+
+346
+00:59:04,980 --> 00:59:07,580
+Yeah, in fact, this is a delay.
+
+347
+00:59:07,580 --> 00:59:09,980
+e to the power of negative 5s means
+
+348
+00:59:09,980 --> 00:59:13,100
+you have a delay of five seconds.
+
+349
+00:59:13,100 --> 00:59:18,580
+So when you do the sampling with one second,
+
+350
+00:59:18,580 --> 00:59:22,780
+this e to the power of 5s can be converted to z
+
+351
+00:59:22,780 --> 00:59:26,440
+to the power of negative 5.
+
+352
+00:59:26,440 --> 00:59:35,120
+So this is the z domain representation of the term
+
+353
+00:59:35,120 --> 00:59:39,560
+e to the power of negative 5s.
+
+354
+00:59:39,560 --> 00:59:45,880
+Now for this part, you can use the zero order hold together
+
+355
+00:59:45,880 --> 00:59:49,840
+with a planned transfer function to get the answer.
+
+356
+00:59:49,840 --> 00:59:56,200
+So this gs is this here, and then divide by s.
+
+357
+00:59:56,200 --> 01:00:00,320
+You find the corresponding z transform, that will be this.
+
+358
+01:00:00,320 --> 01:00:02,280
+So that's the gzas.
+
+359
+01:00:07,280 --> 01:00:13,240
+Now, to meet the causality requirements,
+
+360
+01:00:13,240 --> 01:00:15,960
+a delay of five sampling periods must
+
+361
+01:00:15,960 --> 01:00:18,680
+be included in the closed loop transfer function.
+
+362
+01:00:18,720 --> 01:00:26,640
+Yeah, in fact, you can see that you
+
+363
+01:00:26,640 --> 01:00:28,720
+have z to the power of negative 5 here.
+
+364
+01:00:28,720 --> 01:00:32,240
+So that should be included in the closed loop transfer
+
+365
+01:00:32,240 --> 01:00:34,160
+function.
+
+366
+01:00:34,160 --> 01:00:39,800
+And also, your settling time is 10 seconds.
+
+367
+01:00:39,800 --> 01:00:46,200
+But among the 10 seconds, five seconds will be in the delay.
+
+368
+01:00:46,560 --> 01:00:49,640
+Because of the delay, you cannot do anything.
+
+369
+01:00:49,640 --> 01:00:53,460
+The delay is inherent from the plant.
+
+370
+01:00:53,460 --> 01:00:56,640
+So when you design your controller,
+
+371
+01:00:56,640 --> 01:01:03,360
+you should have five seconds to be considered.
+
+372
+01:01:03,360 --> 01:01:07,200
+Yeah, 10 minus 5, so you have five seconds left.
+
+373
+01:01:10,200 --> 01:01:14,560
+So to do this, you can choose this closed loop transfer
+
+374
+01:01:14,560 --> 01:01:16,880
+function as this.
+
+375
+01:01:16,880 --> 01:01:18,800
+Because you have no overshoot, we
+
+376
+01:01:18,800 --> 01:01:21,560
+can consider first-order transfer function.
+
+377
+01:01:31,720 --> 01:01:37,960
+Because you shouldn't have overshoot,
+
+378
+01:01:37,960 --> 01:01:41,880
+so we use first-order.
+
+379
+01:01:41,880 --> 01:01:44,680
+Maybe you choose gcAO first.
+
+380
+01:01:44,680 --> 01:01:46,560
+That should be a first-order.
+
+381
+01:01:46,560 --> 01:01:58,160
+And you have to choose this s plus sigma.
+
+382
+01:01:58,160 --> 01:02:04,240
+For zeros, this should have a sigma here.
+
+383
+01:02:04,240 --> 01:02:06,320
+So now, how do we choose this sigma?
+
+384
+01:02:06,320 --> 01:02:13,360
+Sigma depend on the settling time.
+
+385
+01:02:13,360 --> 01:02:22,040
+For 5%, the settling time is zeta omega.
+
+386
+01:02:22,040 --> 01:02:23,540
+For first-order, we don't have zeta.
+
+387
+01:02:23,540 --> 01:02:25,040
+It's just sigma.
+
+388
+01:02:25,040 --> 01:02:32,520
+So in this case, you should have Ts equals,
+
+389
+01:02:32,520 --> 01:02:42,360
+settling time is 3 over sigma.
+
+390
+01:02:42,360 --> 01:02:46,280
+5% is 3 in the numerator.
+
+391
+01:02:46,280 --> 01:02:49,760
+2% is 4 in the numerator.
+
+392
+01:02:49,760 --> 01:02:58,240
+So this should be equal to 5, because all together,
+
+393
+01:02:58,240 --> 01:03:02,400
+you get 10 seconds as the settling time.
+
+394
+01:03:02,400 --> 01:03:09,000
+But among them, 5 seconds is occupied by the delay.
+
+395
+01:03:09,000 --> 01:03:10,760
+So you have 5 seconds left.
+
+396
+01:03:10,760 --> 01:03:12,120
+That's why it's 5.
+
+397
+01:03:12,120 --> 01:03:18,720
+So from this, our sigma is 0.6.
+
+398
+01:03:18,720 --> 01:03:21,120
+Yeah, this is the boundary.
+
+399
+01:03:21,120 --> 01:03:23,440
+Yeah, I said this is the boundary, sorry.
+
+400
+01:03:23,440 --> 01:03:24,760
+The boundary is 5 seconds.
+
+401
+01:03:24,760 --> 01:03:28,200
+OK?
+
+402
+01:03:28,200 --> 01:03:33,320
+So now, the boundary means this.
+
+403
+01:03:33,320 --> 01:03:34,960
+That's negative 0.6.
+
+404
+01:03:34,960 --> 01:03:36,520
+That's the boundary.
+
+405
+01:03:36,520 --> 01:03:44,640
+So you can choose a pole on the left of the boundary.
+
+406
+01:03:44,640 --> 01:03:50,600
+So in our solution, we choose negative 0.7
+
+407
+01:03:50,600 --> 01:03:52,080
+to get some margin.
+
+408
+01:03:52,080 --> 01:03:55,560
+That is, you don't choose the boundary settling time.
+
+409
+01:03:55,560 --> 01:04:03,240
+So this negative 0.7, our transfer function
+
+410
+01:04:03,240 --> 01:04:09,560
+is choosing as, for the continuous case,
+
+411
+01:04:09,560 --> 01:04:16,520
+is 0.7 divided by s plus 0.7.
+
+412
+01:04:16,520 --> 01:04:24,560
+So this negative 0.7 pole is mapped to the z domain.
+
+413
+01:04:24,560 --> 01:04:30,600
+You have negative 0.5.
+
+414
+01:04:30,600 --> 01:04:36,920
+Yeah, that is how we beat the settling time requirement.
+
+415
+01:04:36,920 --> 01:04:44,280
+OK, for the zero status error, in the continuous is this.
+
+416
+01:04:44,280 --> 01:04:50,520
+But you can also do computation directly from the z domain.
+
+417
+01:04:50,520 --> 01:04:52,480
+So we use this condition.
+
+418
+01:04:52,480 --> 01:04:58,120
+You can find that k is also 0.5.
+
+419
+01:04:58,120 --> 01:05:04,600
+Now you are applying the formula 5.11.
+
+420
+01:05:04,600 --> 01:05:09,320
+That is this formula here.
+
+421
+01:05:09,320 --> 01:05:10,520
+You can get the controller.
+
+422
+01:05:14,880 --> 01:05:16,600
+So this is the controller.
+
+423
+01:05:16,600 --> 01:05:25,360
+And then you can see that the relative degree here
+
+424
+01:05:25,360 --> 01:05:32,600
+beat the requirement for this relative degree.
+
+425
+01:05:32,600 --> 01:05:37,520
+In fact, you can see that the relative degree is,
+
+426
+01:05:37,520 --> 01:05:40,480
+if you include this z to the power negative 5,
+
+427
+01:05:40,480 --> 01:05:42,440
+it will be 6.
+
+428
+01:05:42,440 --> 01:05:44,760
+You put this as a 1 over z5.
+
+429
+01:05:44,760 --> 01:05:47,160
+So the relative degree is 6.
+
+430
+01:05:47,160 --> 01:05:55,960
+And our gzas obtained here is also 6 here.
+
+431
+01:05:55,960 --> 01:05:57,240
+So they are the same.
+
+432
+01:06:00,240 --> 01:06:03,680
+So this is how we obtain the controller.
+
+433
+01:06:03,680 --> 01:06:06,040
+Now you do verification.
+
+434
+01:06:06,040 --> 01:06:06,960
+You have this response.
+
+435
+01:06:06,960 --> 01:06:17,320
+Yeah, that is you have a delay.
+
+436
+01:06:17,320 --> 01:06:24,560
+And then you eventually approach to 1 in about 10 seconds.
+
+437
+01:06:24,560 --> 01:06:25,480
+So that's the response.
+
+438
+01:06:28,520 --> 01:06:35,160
+OK, so this is how we designed this CZ based
+
+439
+01:06:35,160 --> 01:06:41,280
+on the third approach, which is based on closed loop transfer
+
+440
+01:06:41,280 --> 01:06:44,200
+function.
+
+441
+01:06:44,200 --> 01:06:51,200
+And also, of course, the given transfer function, gzas.
+
+442
+01:06:51,200 --> 01:06:57,080
+Now we have some special case under this approach,
+
+443
+01:06:57,080 --> 01:07:02,200
+like the finite settling time design.
+
+444
+01:07:02,200 --> 01:07:06,680
+Yeah, maybe we have a break for 20 minutes.
+
+445
+01:07:06,680 --> 01:07:12,600
+Then we continue with the topic of finite settling time design.
+
+446
+01:07:32,200 --> 01:07:32,700
+OK.
+
+447
+01:08:02,200 --> 01:08:02,700
+OK.
+
+448
+01:08:32,200 --> 01:08:32,700
+OK.
+
+449
+01:09:02,200 --> 01:09:02,700
+OK.
+
+450
+01:09:32,200 --> 01:09:32,700
+OK.
+
+451
+01:10:02,200 --> 01:10:02,700
+OK.
+
+452
+01:10:32,200 --> 01:10:32,700
+OK.
+
+453
+01:11:02,200 --> 01:11:02,700
+OK.
+
+454
+01:11:32,200 --> 01:11:32,700
+OK.
+
+455
+01:12:02,200 --> 01:12:02,700
+OK.
+
+456
+01:12:32,200 --> 01:12:32,700
+OK.
+
+457
+01:13:02,200 --> 01:13:02,700
+OK.
+
+458
+01:13:32,200 --> 01:13:32,700
+OK.
+
+459
+01:14:02,200 --> 01:14:02,700
+OK.
+
+460
+01:14:32,200 --> 01:14:32,700
+OK.
+
+461
+01:15:02,200 --> 01:15:02,700
+OK.
+
+462
+01:15:32,200 --> 01:15:32,700
+OK.
+
+463
+01:16:02,200 --> 01:16:02,700
+OK.
+
+464
+01:16:32,200 --> 01:16:32,700
+OK.
+
+465
+01:17:02,200 --> 01:17:02,700
+OK.
+
+466
+01:17:32,200 --> 01:17:32,700
+OK.
+
+467
+01:18:02,200 --> 01:18:02,700
+OK.
+
+468
+01:18:32,200 --> 01:18:32,700
+OK.
+
+469
+01:19:02,200 --> 01:19:02,700
+OK.
+
+470
+01:19:32,200 --> 01:19:32,700
+OK.
+
+471
+01:20:02,200 --> 01:20:02,700
+OK.
+
+472
+01:20:32,200 --> 01:20:32,700
+OK.
+
+473
+01:21:02,200 --> 01:21:02,700
+OK.
+
+474
+01:21:32,200 --> 01:21:32,700
+OK.
+
+475
+01:22:02,200 --> 01:22:02,700
+OK.
+
+476
+01:22:32,200 --> 01:22:32,700
+OK.
+
+477
+01:23:02,200 --> 01:23:02,700
+OK.
+
+478
+01:23:32,200 --> 01:23:32,700
+OK.
+
+479
+01:24:02,200 --> 01:24:02,700
+OK.
+
+480
+01:24:32,200 --> 01:24:32,700
+OK.
+
+481
+01:25:02,200 --> 01:25:02,700
+OK.
+
+482
+01:25:32,200 --> 01:25:32,700
+OK.
+
+483
+01:26:02,200 --> 01:26:02,700
+OK.
+
+484
+01:26:32,200 --> 01:26:32,700
+OK.
+
+485
+01:27:02,200 --> 01:27:02,700
+OK.
+
+486
+01:27:32,200 --> 01:27:32,700
+OK.
+
+487
+01:28:02,200 --> 01:28:02,700
+OK.
+
+488
+01:28:32,200 --> 01:28:32,700
+OK.
+
+489
+01:29:02,200 --> 01:29:02,700
+OK.
+
+490
+01:29:32,200 --> 01:29:32,700
+OK.
+
+491
+01:30:02,200 --> 01:30:02,700
+OK.
+
+492
+01:30:32,200 --> 01:30:32,700
+OK.
+
+493
+01:31:02,200 --> 01:31:02,700
+OK.
+
+494
+01:31:32,200 --> 01:31:32,700
+OK.
+
+495
+01:31:38,580 --> 01:31:39,360
+OK.
+
+496
+01:31:39,360 --> 01:31:39,980
+Let's continue.
+
+497
+01:31:42,980 --> 01:31:47,560
+Yeah, now we consider some special cases.
+
+498
+01:31:47,560 --> 01:31:52,280
+The first special case is finite time, finite settling time
+
+499
+01:31:52,280 --> 01:31:52,780
+design.
+
+500
+01:31:55,580 --> 01:32:00,140
+Yeah, as we know for continuous systems,
+
+501
+01:32:00,140 --> 01:32:08,320
+the output of the system can track the reference input
+
+502
+01:32:08,320 --> 01:32:11,380
+any one time go to infinity.
+
+503
+01:32:11,380 --> 01:32:20,880
+But for discrete time system, the output of the system
+
+504
+01:32:20,880 --> 01:32:27,560
+can approach the desired reference output
+
+505
+01:32:27,560 --> 01:32:29,560
+after a finite time.
+
+506
+01:32:29,560 --> 01:32:36,340
+And it will follow it exactly after that finite time.
+
+507
+01:32:41,220 --> 01:32:46,620
+So if we consider a special type of plant,
+
+508
+01:32:46,620 --> 01:32:52,980
+that is all the poles and the zeros of the plant or process
+
+509
+01:32:52,980 --> 01:32:58,260
+are inside the unit circle, you can choose the closed loop
+
+510
+01:32:58,300 --> 01:33:03,620
+transfer function, GcAoZ as z to the power of x to k,
+
+511
+01:33:03,620 --> 01:33:08,520
+where k is bigger than or equal to the intrinsic delay,
+
+512
+01:33:08,520 --> 01:33:13,560
+for example, the five second for the previous example,
+
+513
+01:33:13,560 --> 01:33:17,800
+plus the relative degree of the discretized process.
+
+514
+01:33:21,440 --> 01:33:25,480
+So with this choice, that means the closed loop transfer
+
+515
+01:33:25,480 --> 01:33:36,500
+function is just z to the power of x to k, OK?
+
+516
+01:33:36,500 --> 01:33:40,780
+Yeah, that's the GcAo, that is this.
+
+517
+01:33:40,780 --> 01:33:47,920
+So your yz, in this case, will be z to the power of x to k
+
+518
+01:33:47,920 --> 01:33:54,220
+times Rz, right?
+
+519
+01:33:54,240 --> 01:33:57,040
+Then you take an inverse z transform.
+
+520
+01:33:57,040 --> 01:33:58,600
+What do you have?
+
+521
+01:33:58,600 --> 01:34:02,840
+This will be ykT.
+
+522
+01:34:02,840 --> 01:34:10,360
+Yeah, you'll apply the shifting theorem.
+
+523
+01:34:10,360 --> 01:34:14,760
+This will be Rt minus k.
+
+524
+01:34:18,200 --> 01:34:23,260
+Maybe this k is not the same as this k.
+
+525
+01:34:23,280 --> 01:34:32,400
+Maybe I put this as a bigger k to denote the time.
+
+526
+01:34:32,400 --> 01:34:39,320
+So this one will be bigger k minus this small k.
+
+527
+01:34:39,320 --> 01:34:49,400
+Yeah, this k is this delay, T, like this, correct?
+
+528
+01:34:49,420 --> 01:34:55,140
+It's delayed by small kT sampling period.
+
+529
+01:34:55,140 --> 01:34:59,700
+So in other words, our output, y,
+
+530
+01:34:59,700 --> 01:35:07,100
+will be the same as R in k steps, k sampling period.
+
+531
+01:35:07,100 --> 01:35:12,780
+And it will stay there afterwards, exactly.
+
+532
+01:35:12,780 --> 01:35:14,980
+OK, so that's the meaning here.
+
+533
+01:35:20,340 --> 01:35:23,180
+Yeah.
+
+534
+01:35:23,180 --> 01:35:26,580
+Actually, it's not just a necessary unit step.
+
+535
+01:35:26,580 --> 01:35:30,700
+For any input, you have this result.
+
+536
+01:35:30,700 --> 01:35:40,660
+That is, the reference input is tracked perfectly
+
+537
+01:35:40,660 --> 01:35:45,920
+after k's sampling period.
+
+538
+01:35:45,920 --> 01:35:49,260
+Now we also have the concept of deadbeat control.
+
+539
+01:35:49,260 --> 01:35:52,880
+I think in state space design, you also
+
+540
+01:35:52,880 --> 01:35:56,040
+consider this deadbeat control.
+
+541
+01:35:56,040 --> 01:36:00,160
+This means the controller will bring the output
+
+542
+01:36:00,160 --> 01:36:06,120
+to the steady state in the smallest number of time steps.
+
+543
+01:36:06,120 --> 01:36:11,640
+Yeah, here, this k is bigger than equal to this.
+
+544
+01:36:11,640 --> 01:36:14,400
+So the smallest time is equal.
+
+545
+01:36:14,400 --> 01:36:18,440
+So the smallest time for the output
+
+546
+01:36:18,460 --> 01:36:24,180
+to follow this reference input will be the intrinsic delay
+
+547
+01:36:24,180 --> 01:36:28,740
+plus the relative degree of the discretized process.
+
+548
+01:36:28,740 --> 01:36:32,020
+If there is no intrinsic delay, it's
+
+549
+01:36:32,020 --> 01:36:37,660
+just a relative degree of the discretized process.
+
+550
+01:36:37,660 --> 01:36:44,060
+Yeah, that's the minimum or smallest number of time steps.
+
+551
+01:36:44,080 --> 01:36:49,240
+This time step is sampling period.
+
+552
+01:36:49,240 --> 01:36:53,640
+Yeah, smallest number of sampling period.
+
+553
+01:36:53,640 --> 01:37:00,380
+OK, so that's the response.
+
+554
+01:37:00,380 --> 01:37:05,640
+Now, with this closed loop transfer function,
+
+555
+01:37:05,640 --> 01:37:10,320
+we can find our Cz using this formula.
+
+556
+01:37:10,340 --> 01:37:17,780
+You just substitute z from x to k into this formula.
+
+557
+01:37:17,780 --> 01:37:22,500
+You get this answer, Cz.
+
+558
+01:37:22,500 --> 01:37:26,900
+So as you can see, for such a design,
+
+559
+01:37:26,900 --> 01:37:32,500
+any parameter to be considered is the sampling period.
+
+560
+01:37:32,500 --> 01:37:33,380
+Why?
+
+561
+01:37:33,380 --> 01:37:36,780
+Because for different sampling period,
+
+562
+01:37:36,800 --> 01:37:40,680
+you have different transfer function here.
+
+563
+01:37:40,680 --> 01:37:45,440
+So that's any design parameter.
+
+564
+01:37:45,440 --> 01:37:47,200
+So this design is very simple.
+
+565
+01:37:52,440 --> 01:37:56,040
+OK, let's look at an example.
+
+566
+01:37:56,040 --> 01:38:00,620
+If GzAs is given to be this transfer function,
+
+567
+01:38:00,640 --> 01:38:07,080
+you have to design a deadbeat controller for this system.
+
+568
+01:38:07,080 --> 01:38:10,280
+Yeah, actually, equivalently, this system
+
+569
+01:38:10,280 --> 01:38:12,760
+has this transfer function.
+
+570
+01:38:12,760 --> 01:38:15,360
+You multiply z squared in post-numerator
+
+571
+01:38:15,360 --> 01:38:17,400
+and denominator, you have this.
+
+572
+01:38:17,400 --> 01:38:19,480
+So the relative degree here is true.
+
+573
+01:38:22,360 --> 01:38:24,760
+Yeah, when you consider relative degree,
+
+574
+01:38:24,760 --> 01:38:29,200
+you have to use the positive powers for the numerator
+
+575
+01:38:29,200 --> 01:38:31,460
+and denominator.
+
+576
+01:38:31,460 --> 01:38:34,460
+So this, you have to convert this to that form.
+
+577
+01:38:34,460 --> 01:38:38,780
+So this relative degree is 2.
+
+578
+01:38:38,780 --> 01:38:42,060
+And we don't have 0 outside, as you can see here.
+
+579
+01:38:42,060 --> 01:38:45,060
+We don't have 0 for this transfer.
+
+580
+01:38:45,060 --> 01:38:48,260
+But you have a pole at z equals 1.
+
+581
+01:38:48,260 --> 01:38:55,020
+So this is the boundary of the unit circle.
+
+582
+01:38:55,020 --> 01:38:58,380
+According to earlier requirement,
+
+583
+01:38:58,380 --> 01:39:06,160
+this pole should be included as the 0 of 1 minus GcAoz,
+
+584
+01:39:06,160 --> 01:39:08,520
+because that's not strictly inside.
+
+585
+01:39:08,520 --> 01:39:13,560
+So we also need to include this boundary pole inside
+
+586
+01:39:13,560 --> 01:39:15,600
+as the 0 of this.
+
+587
+01:39:15,600 --> 01:39:20,400
+Yeah, this is one of the conditions mentioned earlier.
+
+588
+01:39:20,400 --> 01:39:28,200
+So we can set our closed loop transfer function as this.
+
+589
+01:39:28,580 --> 01:39:34,820
+Because with this choice, you can see it will have a 0.
+
+590
+01:39:34,820 --> 01:39:37,100
+Yeah, you can consider this.
+
+591
+01:39:37,100 --> 01:39:38,580
+What is 1 minus GcAoz?
+
+592
+01:39:46,300 --> 01:39:51,580
+Yeah, with this GcAoz, R1 minus GcAoz
+
+593
+01:39:51,580 --> 01:39:55,980
+is equal to 1 minus z to probability 2,
+
+594
+01:39:56,000 --> 01:40:01,000
+which is z squared in the denominator,
+
+595
+01:40:01,000 --> 01:40:04,320
+then z squared minus 1.
+
+596
+01:40:04,320 --> 01:40:05,920
+OK?
+
+597
+01:40:05,920 --> 01:40:12,020
+So this is z plus 1, z minus 1.
+
+598
+01:40:12,020 --> 01:40:16,080
+So it has a 0 at this position.
+
+599
+01:40:16,080 --> 01:40:18,120
+OK?
+
+600
+01:40:18,120 --> 01:40:21,260
+Yeah, that meet the requirement here.
+
+601
+01:40:21,260 --> 01:40:25,480
+So we can choose our GcAoz to be this.
+
+602
+01:40:25,500 --> 01:40:36,260
+OK, now you can compute the controller using our 511.
+
+603
+01:40:36,260 --> 01:40:38,800
+Yeah, that is this formula here.
+
+604
+01:40:38,800 --> 01:40:40,300
+So this formula is quite important.
+
+605
+01:40:43,980 --> 01:40:50,660
+You do a calculation by substituting this into here,
+
+606
+01:40:50,660 --> 01:40:55,460
+you have this result. And that's the equivalent to this.
+
+607
+01:40:55,460 --> 01:40:58,760
+After you simplify this.
+
+608
+01:40:58,760 --> 01:41:01,040
+OK, so that's the controller we obtained.
+
+609
+01:41:06,400 --> 01:41:12,720
+Another example, design a deadbeat controller
+
+610
+01:41:12,720 --> 01:41:19,360
+with its output to a zero order hold for DC motor speed.
+
+611
+01:41:19,360 --> 01:41:23,320
+Control system with analog transfer function given here.
+
+612
+01:41:23,340 --> 01:41:26,740
+Yeah, this one was considered earlier.
+
+613
+01:41:29,660 --> 01:41:36,580
+And the sampling period is 0.02 second.
+
+614
+01:41:36,580 --> 01:41:41,060
+And later on, you have to do another design
+
+615
+01:41:41,060 --> 01:41:46,980
+with the sampling period of 0.1 second.
+
+616
+01:41:46,980 --> 01:41:53,100
+Yeah, now you can find the transfer function, GcAs,
+
+617
+01:41:53,120 --> 01:41:57,800
+by using the formula 1 minus z inverse times the z transform
+
+618
+01:41:57,800 --> 01:42:01,240
+of Gs over s, which is this.
+
+619
+01:42:01,240 --> 01:42:04,720
+Yeah, we did this earlier.
+
+620
+01:42:04,720 --> 01:42:08,480
+Yeah, of course, that's with this sampling period.
+
+621
+01:42:08,480 --> 01:42:14,760
+You can see there is no pole, no zero outside the unit circle,
+
+622
+01:42:14,760 --> 01:42:17,560
+as I mentioned there before.
+
+623
+01:42:17,560 --> 01:42:22,680
+And this relative degree is 1.
+
+624
+01:42:22,740 --> 01:42:26,540
+So we can choose the closed loop transfer function as this.
+
+625
+01:42:26,540 --> 01:42:32,260
+Yeah, remember our G closed loop transfer function.
+
+626
+01:42:32,260 --> 01:42:44,900
+We have the requirement and the k value.
+
+627
+01:42:44,900 --> 01:42:50,260
+Yeah, this k should be bigger than or equal to the intrinsic delay.
+
+628
+01:42:50,320 --> 01:42:54,240
+Yeah, for this, we don't have any delay.
+
+629
+01:42:54,240 --> 01:42:56,520
+I mean the intrinsic delay.
+
+630
+01:42:56,520 --> 01:42:59,720
+But the relative degree here is 1.
+
+631
+01:42:59,720 --> 01:43:03,320
+So k should be bigger than or equal to 1.
+
+632
+01:43:03,320 --> 01:43:05,520
+Then we just choose 1.
+
+633
+01:43:05,520 --> 01:43:11,600
+So that's why we have this closed loop transfer function.
+
+634
+01:43:11,600 --> 01:43:15,320
+With this choice of a closed loop transfer function,
+
+635
+01:43:15,380 --> 01:43:25,380
+the consumer design can bring the output to the desired reference in one step.
+
+636
+01:43:25,380 --> 01:43:26,380
+Yeah.
+
+637
+01:43:28,380 --> 01:43:41,900
+So, yeah, actually, you just use this 5.12, yeah, using this.
+
+638
+01:43:41,960 --> 01:43:47,760
+You can find your controller will be this.
+
+639
+01:43:47,760 --> 01:43:53,240
+Yeah, you just substitute the obtained gz s.
+
+640
+01:43:53,240 --> 01:43:57,200
+And this is z inverse divided by 1 minus z inverse.
+
+641
+01:43:57,200 --> 01:43:58,720
+You get this answer.
+
+642
+01:43:58,720 --> 01:44:01,560
+So that's the controller.
+
+643
+01:44:04,560 --> 01:44:11,120
+Now we can find the response of the closed loop system.
+
+644
+01:44:11,140 --> 01:44:18,300
+Yeah, I just show you the response in this diagram.
+
+645
+01:44:18,300 --> 01:44:20,540
+Yeah, here.
+
+646
+01:44:20,540 --> 01:44:29,300
+You can see the output behaves like this.
+
+647
+01:44:29,300 --> 01:44:34,700
+If you look at the sampling instance, yeah, it's starting from here, 0.
+
+648
+01:44:34,700 --> 01:44:47,680
+Yeah, then at the first sampling instant, it is equal to 1 already.
+
+649
+01:44:47,680 --> 01:44:59,960
+Then after this, at all the sampling instance, the output are 1.
+
+650
+01:44:59,960 --> 01:45:02,120
+Yeah, at the sampling instance.
+
+651
+01:45:03,060 --> 01:45:13,020
+Of course, you can see between the sampling instance, you have some overshoot or undershoot.
+
+652
+01:45:13,020 --> 01:45:21,580
+But at the sampling instance, the values of the output are all 1.
+
+653
+01:45:21,580 --> 01:45:26,340
+Yeah, this is the statement.
+
+654
+01:45:26,340 --> 01:45:36,480
+The sampled process output attains the value after just one sample, not the 0.02 second.
+
+655
+01:45:36,480 --> 01:45:45,640
+So yeah, but between the samples, the output oscillates wildly, as you can see.
+
+656
+01:45:45,640 --> 01:45:50,680
+Actually the control variable, yeah, this is the output.
+
+657
+01:45:50,900 --> 01:46:01,220
+We also consider the intermediate or internal signals, such as the control signal.
+
+658
+01:46:01,220 --> 01:46:03,940
+Yeah, this is the control variable.
+
+659
+01:46:03,940 --> 01:46:07,700
+It is like this.
+
+660
+01:46:07,700 --> 01:46:10,760
+You see the magnitude is very big.
+
+661
+01:46:10,760 --> 01:46:13,780
+Yeah, this is 10 to the power 4.
+
+662
+01:46:13,780 --> 01:46:23,440
+Yeah, over each sampling period, it is a hold as a constant because of the zero order hold.
+
+663
+01:46:23,440 --> 01:46:25,980
+Okay, so this is the output.
+
+664
+01:46:25,980 --> 01:46:33,560
+So you have very high magnitude.
+
+665
+01:46:33,560 --> 01:46:41,640
+Yeah, as you can see, the oscillatory behavior of the control variable,
+
+666
+01:46:41,640 --> 01:46:49,380
+yeah, this control variable causes unacceptable inter-sample oscillation.
+
+667
+01:46:49,380 --> 01:46:54,960
+The reason is this.
+
+668
+01:46:54,960 --> 01:46:58,180
+Yeah, this is the observation.
+
+669
+01:46:58,180 --> 01:47:05,500
+You have finite settling time, which is, for this example, just one sampling period.
+
+670
+01:47:05,500 --> 01:47:17,360
+Such designs may exhibit undesirable inter-sample oscillations because the control is unchanged
+
+671
+01:47:17,360 --> 01:47:22,380
+between two consecutive sampling points, as you can see here.
+
+672
+01:47:22,380 --> 01:47:24,560
+It is a hold as a constant.
+
+673
+01:47:24,560 --> 01:47:34,500
+So this control is just a constant.
+
+674
+01:47:34,500 --> 01:47:41,020
+So that may not give you good response.
+
+675
+01:47:41,020 --> 01:47:50,460
+That is cause the inter-sample, yeah, large inter-sample behavior.
+
+676
+01:47:50,460 --> 01:47:55,740
+And also this control variable has very big magnitude.
+
+677
+01:47:55,740 --> 01:48:00,820
+In practice, you have saturation in the implementation.
+
+678
+01:48:00,820 --> 01:48:11,540
+So it may result in unacceptable system behavior in this case.
+
+679
+01:48:11,540 --> 01:48:14,340
+Yeah.
+
+680
+01:48:14,340 --> 01:48:22,200
+Therefore, after you finish your design, you do a simulation study like this.
+
+681
+01:48:22,200 --> 01:48:30,960
+If the performance is not good enough, then you cannot implement the controller.
+
+682
+01:48:30,960 --> 01:48:40,480
+For example, this case, this controller may damage your control system because of the large magnitude.
+
+683
+01:48:40,480 --> 01:48:44,240
+Therefore, you have to redesign the controller.
+
+684
+01:48:44,240 --> 01:48:51,800
+Yeah, in this case, we consider a larger sampling period.
+
+685
+01:48:51,800 --> 01:49:01,760
+So with a larger sampling period, the transfer function will change to this.
+
+686
+01:49:01,760 --> 01:49:19,840
+Yeah, just now, for smaller sampling period, this transfer function is this, OK?
+
+687
+01:49:19,840 --> 01:49:26,840
+We have the same GCL, and you can compute the controller to be this.
+
+688
+01:49:26,840 --> 01:49:35,880
+Then you do a simulation study, and this time, the performance is much better.
+
+689
+01:49:35,880 --> 01:49:46,920
+Yeah, because you have a large sampling period, so the response will have this output.
+
+690
+01:49:46,920 --> 01:50:03,880
+So you can see also at the sampling instance, the output are one.
+
+691
+01:50:03,880 --> 01:50:09,360
+After the first sampling period, it remains one.
+
+692
+01:50:09,360 --> 01:50:16,560
+It reaches the reference input in one sampling period.
+
+693
+01:50:16,560 --> 01:50:19,600
+After that, remains as one.
+
+694
+01:50:19,600 --> 01:50:28,760
+Yeah, the magnitude of the control variable also reduced significantly.
+
+695
+01:50:28,760 --> 01:50:37,280
+So when you consider such controller design, any parameter you can change is the sampling period.
+
+696
+01:50:37,280 --> 01:50:45,560
+So you have to adjust the sampling period to check the performance, OK?
+
+697
+01:50:45,560 --> 01:50:57,440
+For both cases, the output will approach to one in one sample in period,
+
+698
+01:50:57,440 --> 01:51:04,600
+and remains at one for the remaining sampling instance.
+
+699
+01:51:04,600 --> 01:51:11,200
+OK, that's the finite time, finite settling time controller design.
+
+700
+01:51:11,200 --> 01:51:22,440
+So in summary, for this case, you just choose your closed loop transfer function as z to the power of negative k.
+
+701
+01:51:22,440 --> 01:51:29,760
+For example, for this case, we just choose z to the power of negative one.
+
+702
+01:51:29,760 --> 01:51:36,960
+OK, this design has disadvantage, as I just mentioned.
+
+703
+01:51:36,960 --> 01:51:41,840
+Even for this case, you still have a large overshoot.
+
+704
+01:51:41,840 --> 01:51:51,040
+So maybe we can consider a new design approach called repo-free controller.
+
+705
+01:51:51,040 --> 01:52:01,200
+Yeah, that means we don't want this inter-sampling behavior.
+
+706
+01:52:01,200 --> 01:52:05,440
+Yeah, here we have this inter-sampling behavior.
+
+707
+01:52:05,440 --> 01:52:13,600
+So is it possible to remove this inter-sampling behavior in our design?
+
+708
+01:52:13,600 --> 01:52:16,800
+Yeah, that's the topic here.
+
+709
+01:52:16,800 --> 01:52:28,240
+So to avoid inter-sample oscillations, we can maintain the control variable and output constants after n samples,
+
+710
+01:52:28,240 --> 01:52:35,360
+where n is the degree of the denominator of the discretized process.
+
+711
+01:52:35,360 --> 01:52:42,080
+Yeah, this is also a special situation.
+
+712
+01:52:42,080 --> 01:52:54,080
+That is, we will consider the reference input as a unit step function.
+
+713
+01:52:54,080 --> 01:53:20,960
+OK, let's consider our...
+
+714
+01:53:20,960 --> 01:53:29,520
+Yeah, this block diagram here, 5.2.
+
+715
+01:53:29,520 --> 01:53:42,640
+So based on this diagram, you can see that our control u, yeah, this is the u, is equal to y divided by this.
+
+716
+01:53:42,640 --> 01:53:49,360
+Because y equals gz s times u, so u will be equal to y divided by this.
+
+717
+01:53:49,360 --> 01:53:54,960
+OK, so that's just simple mathematical calculation.
+
+718
+01:53:54,960 --> 01:54:02,000
+And now, here, u times r and divided by r.
+
+719
+01:54:02,000 --> 01:54:04,000
+So this is same as this.
+
+720
+01:54:04,000 --> 01:54:13,920
+And our yz divided by rz, as you can see, yz divided by this rz is the closed loop transfer function.
+
+721
+01:54:13,920 --> 01:54:20,240
+So this uz is changed, is found to be this.
+
+722
+01:54:20,240 --> 01:54:34,080
+OK, now we are going to obtain a suitable GCL based on this uz or ez.
+
+723
+01:54:34,080 --> 01:54:36,080
+Yeah, sometimes we have to use ez.
+
+724
+01:54:36,080 --> 01:54:41,840
+Yeah, I will show you an example when we use this uz and when we use this ez.
+
+725
+01:54:41,840 --> 01:54:50,240
+So from this, we can obtain GCL and also, so based on the constraint here,
+
+726
+01:54:50,240 --> 01:55:00,560
+yeah, the constraint is that the output and also the control u should be constant after n samples.
+
+727
+01:55:00,560 --> 01:55:07,600
+We are in the order of this transfer function.
+
+728
+01:55:07,600 --> 01:55:15,680
+Yeah, because we want to have zero status error, so this should be considered when you choose this GCL.
+
+729
+01:55:15,680 --> 01:55:26,560
+Yeah, once you have this GCL obtained, then you can use our earlier formula to obtain our C.
+
+730
+01:55:26,560 --> 01:55:31,760
+Yeah, this earlier formula is 5.11.
+
+731
+01:55:31,760 --> 01:55:44,480
+I believe, yeah, it worked.
+
+732
+01:55:44,480 --> 01:55:54,160
+Yeah, I just used that page many times, which is the formula to compute our C.
+
+733
+01:55:54,160 --> 01:56:02,400
+Yeah, so once you have a GCL, you just use this, you can calculate your C.
+
+734
+01:56:02,400 --> 01:56:12,800
+OK, so now, yeah, maybe I just use this diagram because this is the same as 5.2.
+
+735
+01:56:12,800 --> 01:56:22,560
+OK, let's illustrate the design of, yeah, the critical part is to find the GCL.
+
+736
+01:56:22,560 --> 01:56:31,760
+And our reference input here is a special reference input, which is unit step input to the system.
+
+737
+01:56:31,760 --> 01:56:38,400
+So now, let's look at an example to show how we find our GCL.
+
+738
+01:56:38,400 --> 01:56:44,640
+Yeah, we want to design a ripple-free data bit controller with zero order hold
+
+739
+01:56:44,640 --> 01:56:54,320
+for type 1 vehicle positioning system with this transfer function.
+
+740
+01:56:54,320 --> 01:57:00,960
+Yeah, so this is the transfer function for this type 1 vehicle positioning system.
+
+741
+01:57:00,960 --> 01:57:07,600
+Now, the sampling period is choosing as 0.1 secant.
+
+742
+01:57:07,600 --> 01:57:20,720
+So, from this, you can find the transfer function GZAS, yeah, by using the formula
+
+743
+01:57:20,720 --> 01:57:24,960
+for the plant to geyser with the zero order hold.
+
+744
+01:57:24,960 --> 01:57:31,200
+So that's the transfer function, GZAS.
+
+745
+01:57:31,200 --> 01:57:34,720
+And as I said, this is also a special case.
+
+746
+01:57:34,720 --> 01:57:38,560
+The reference input is a unit step.
+
+747
+01:57:38,560 --> 01:58:01,120
+And we are going to design, yeah, we are going to design the controller C such that our output, Y,
+
+748
+01:58:01,120 --> 01:58:21,440
+yeah, our output Y will follow this input in two steps in this case.
+
+749
+01:58:21,440 --> 01:58:28,000
+And after that, the output remains as 1.
+
+750
+01:58:28,000 --> 01:58:33,200
+Not only at the sampling instance, but all other times.
+
+751
+01:58:33,200 --> 01:58:35,200
+Why two secant?
+
+752
+01:58:35,200 --> 01:58:43,200
+Because our denominator here is 2.
+
+753
+01:58:43,200 --> 01:58:46,240
+So that's the order, you see.
+
+754
+01:58:46,240 --> 01:58:51,040
+The requirement is n samples.
+
+755
+01:58:51,040 --> 01:58:54,480
+Where n is the degree of the denominator.
+
+756
+01:58:54,480 --> 01:58:55,520
+Okay?
+
+757
+01:58:55,520 --> 01:59:00,400
+So that's the requirements.
+
+758
+01:59:00,400 --> 01:59:20,160
+Okay, from the, this formula, 5.13, you can compute your U as this.
+
+759
+01:59:20,160 --> 01:59:30,560
+So this is GZL to be determined, R is this, and the GZS has been found just now.
+
+760
+01:59:30,560 --> 01:59:37,920
+So you substitute your GZS and R and you do a calculation, you get this.
+
+761
+01:59:37,920 --> 01:59:41,760
+So that should be your U.
+
+762
+01:59:41,760 --> 01:59:44,800
+Now how do we choose this GZL?
+
+763
+01:59:44,800 --> 01:59:50,880
+Yeah, we obtain this GZL based on this U, based on this U.
+
+764
+01:59:50,880 --> 01:59:59,680
+And we said this U should be a constant after two samples.
+
+765
+01:59:59,680 --> 02:00:04,000
+Yeah, because that's the requirement here.
+
+766
+02:00:04,000 --> 02:00:07,120
+Yeah.
+
+767
+02:00:07,120 --> 02:00:09,840
+Yeah, you see, after two samples.
+
+768
+02:00:09,840 --> 02:00:13,440
+This, because our n here is 2 in the example.
+
+769
+02:00:13,440 --> 02:00:15,600
+Secant order.
+
+770
+02:00:15,600 --> 02:00:30,880
+So for this to be possible, our U should be this, correct?
+
+771
+02:00:30,880 --> 02:00:45,760
+Yeah, there is a case for this U, because this is a type one.
+
+772
+02:00:45,760 --> 02:00:50,320
+Yeah, because our integrator in the plant.
+
+773
+02:00:50,320 --> 02:00:53,360
+Yeah, just write, use this diagram here.
+
+774
+02:00:53,360 --> 02:00:57,520
+So this transfer function, GZS.
+
+775
+02:00:57,520 --> 02:01:04,720
+In our example, you can see there is an integrator here.
+
+776
+02:01:04,720 --> 02:01:05,600
+OK?
+
+777
+02:01:05,600 --> 02:01:06,560
+From this.
+
+778
+02:01:06,560 --> 02:01:10,800
+You have an integrator in the continuous plant, you also have this integrator.
+
+779
+02:01:10,800 --> 02:01:13,680
+So that's why it's called a type one.
+
+780
+02:01:13,680 --> 02:01:25,520
+So if you have an integrator here, and your U here is a constant after two samples.
+
+781
+02:01:28,240 --> 02:01:29,840
+What this constant should be?
+
+782
+02:01:31,040 --> 02:01:32,560
+This constant should be zero.
+
+783
+02:01:34,560 --> 02:01:47,120
+Because if it's not zero, it will be integrated by the integrator in this transfer function.
+
+784
+02:01:47,120 --> 02:01:49,760
+Then the output will continue to increase.
+
+785
+02:01:52,000 --> 02:01:52,800
+OK?
+
+786
+02:01:52,800 --> 02:01:54,160
+So what is the constant?
+
+787
+02:01:54,160 --> 02:01:55,520
+This constant should be zero.
+
+788
+02:01:58,240 --> 02:02:08,960
+In other words, after two samples, your U should be zero.
+
+789
+02:02:09,840 --> 02:02:26,880
+Yeah, so generally, our U should be, based on this transform,
+
+790
+02:02:27,600 --> 02:02:37,280
+based on Z transform, our U should be equal to A0 plus A1 Z inverse plus A2 Z inverse
+
+791
+02:02:37,280 --> 02:02:38,880
+squared and so on, right?
+
+792
+02:02:40,000 --> 02:02:46,080
+Now, this A2 is actually, that's U2.
+
+793
+02:02:47,360 --> 02:02:54,240
+Yeah, here is actually U1, that's U0, based on the definition of Z transform.
+
+794
+02:02:55,120 --> 02:03:04,480
+So as I just mentioned, because of the integrator inside this, after two samples,
+
+795
+02:03:05,600 --> 02:03:06,480
+this should be zero.
+
+796
+02:03:07,280 --> 02:03:10,240
+Yeah, because after two samples, this should be a constant.
+
+797
+02:03:11,120 --> 02:03:16,000
+If this is a non-zero constant, it will be integrated to infinity.
+
+798
+02:03:16,880 --> 02:03:25,920
+Therefore, this constant should be zero, so that the integration of this zero
+
+799
+02:03:28,880 --> 02:03:30,480
+remains as a constant.
+
+800
+02:03:31,040 --> 02:03:35,280
+Yeah, that is just dependent on the initial values of this.
+
+801
+02:03:35,920 --> 02:03:39,920
+So that's why this U2, U3, and so on.
+
+802
+02:03:40,160 --> 02:03:48,320
+Yeah, in other words, UKT, yeah, maybe we put a sampling.
+
+803
+02:03:48,320 --> 02:03:52,880
+It's UT, U2T, UKT, and so on.
+
+804
+02:03:52,880 --> 02:03:56,400
+This UKT should be zero for K bigger than or equal to two.
+
+805
+02:03:58,400 --> 02:04:01,120
+So with this, our UZ should be equal to that.
+
+806
+02:04:01,120 --> 02:04:03,600
+Okay.
+
+807
+02:04:08,480 --> 02:04:13,280
+The reason is just because of the integrator inside here.
+
+808
+02:04:13,280 --> 02:04:17,680
+If that's not zero constant, it will increase to infinity.
+
+809
+02:04:19,280 --> 02:04:27,200
+If it's zero, the integrator, yeah, actually the integration here is just, for example,
+
+810
+02:04:27,200 --> 02:04:39,040
+is UKT, DT, yeah.
+
+811
+02:04:39,760 --> 02:04:51,280
+For example, that's from 2T, yeah, because after 2T is a constant,
+
+812
+02:04:51,280 --> 02:04:55,040
+this should be a constant, C, to any value.
+
+813
+02:04:55,360 --> 02:04:58,160
+Any, for example, to infinity.
+
+814
+02:04:59,200 --> 02:05:05,280
+Then this should be equal to, yeah, because this is a constant C, for example, or just a U.
+
+815
+02:05:05,280 --> 02:05:14,480
+So the integration will be U times T, okay.
+
+816
+02:05:14,480 --> 02:05:16,640
+This U is the constant that we consider.
+
+817
+02:05:17,360 --> 02:05:20,880
+So this T is from 2T to infinity.
+
+818
+02:05:20,880 --> 02:05:26,960
+If this U is not zero, then that will go to infinity.
+
+819
+02:05:31,280 --> 02:05:38,080
+Okay, so we just have two terms in our UZ.
+
+820
+02:05:42,000 --> 02:05:45,520
+Yeah, there's two terms, A0 plus A1Z inverse.
+
+821
+02:05:45,520 --> 02:05:52,480
+In other words, U0 may not be non-zero, UT may not be zero.
+
+822
+02:05:52,480 --> 02:05:53,920
+So you have these two values.
+
+823
+02:05:53,920 --> 02:05:55,440
+After that, this should be zero.
+
+824
+02:05:56,800 --> 02:06:05,120
+Okay, for this to be possible, your GCL should cancel out this denominator.
+
+825
+02:06:07,040 --> 02:06:14,000
+Therefore, our GCL should be equal to K times this denominator.
+
+826
+02:06:14,960 --> 02:06:19,680
+Because with this cancellation, you have two terms in the numerator.
+
+827
+02:06:20,880 --> 02:06:23,360
+So that's how we choose GCL.
+
+828
+02:06:25,440 --> 02:06:30,400
+Okay, yeah, after you choose GCL, this GCL will cancel out the denominator.
+
+829
+02:06:31,040 --> 02:06:34,560
+Then you have this two terms.
+
+830
+02:06:35,600 --> 02:06:37,280
+Of course, you have to determine this K.
+
+831
+02:06:37,920 --> 02:06:39,280
+How do we determine this K?
+
+832
+02:06:39,280 --> 02:06:43,520
+You use the steady state error requirement.
+
+833
+02:06:45,120 --> 02:06:51,760
+Yeah, just now at the beginning, I said when we design GCL,
+
+834
+02:06:51,760 --> 02:06:53,520
+you have to use this condition also.
+
+835
+02:06:58,640 --> 02:07:06,000
+Okay, so now when Z equals one, this term should be equal to one.
+
+836
+02:07:06,000 --> 02:07:08,960
+From that, you get the K.
+
+837
+02:07:13,520 --> 02:07:16,320
+Okay, so this K is 0.5083.
+
+838
+02:07:17,280 --> 02:07:18,720
+So we have this GCL.
+
+839
+02:07:19,440 --> 02:07:24,480
+Yeah, you just substitute to that K value here, you get this GCL.
+
+840
+02:07:24,480 --> 02:07:33,600
+Once we have this GCL, you can compute your control C using this formula.
+
+841
+02:07:33,600 --> 02:07:41,120
+So you substitute that GCL to 511, you get this C.
+
+842
+02:07:42,320 --> 02:07:44,640
+So that's the controller we obtain.
+
+843
+02:07:46,320 --> 02:07:49,360
+Okay, now once you get this controller, you can do verification.
+
+844
+02:07:50,240 --> 02:07:56,400
+So you just substitute this C to here.
+
+845
+02:07:57,280 --> 02:08:01,280
+And of course, we have our GZ earlier.
+
+846
+02:08:03,920 --> 02:08:05,600
+And this is a step input.
+
+847
+02:08:06,480 --> 02:08:13,840
+Then you can find the output by using computational tool like Matlab.
+
+848
+02:08:14,640 --> 02:08:16,000
+So you have this response.
+
+849
+02:08:18,400 --> 02:08:20,080
+Yeah, this is the response.
+
+850
+02:08:20,080 --> 02:08:22,080
+And this is the control variable.
+
+851
+02:08:22,720 --> 02:08:26,880
+You can see the control variable has two non-zero values.
+
+852
+02:08:27,760 --> 02:08:29,440
+This value and this value.
+
+853
+02:08:30,000 --> 02:08:33,600
+Then after two samples, it remains as zero.
+
+854
+02:08:36,080 --> 02:08:42,320
+And our output also reaches one in two samples.
+
+855
+02:08:43,520 --> 02:08:48,320
+After two samples, it remains as one.
+
+856
+02:08:48,320 --> 02:08:52,560
+Even during the inter-sampling period.
+
+857
+02:08:53,280 --> 02:08:55,760
+Yeah, so you have no inter-sampling behavior.
+
+858
+02:08:56,880 --> 02:09:04,080
+Yeah, this is a very nice response with our controller here.
+
+859
+02:09:05,840 --> 02:09:07,760
+Okay, so that's the first example.
+
+860
+02:09:08,560 --> 02:09:12,400
+When our GZs contains integrator.
+
+861
+02:09:12,400 --> 02:09:20,320
+Now, in some case, our system has no integrator.
+
+862
+02:09:20,960 --> 02:09:26,000
+For example, for this system, this transfer function is
+
+863
+02:09:28,560 --> 02:09:32,160
+one over S plus one times S plus ten.
+
+864
+02:09:33,440 --> 02:09:38,640
+So we are going to design a repo-free data-based controller for this system.
+
+865
+02:09:39,600 --> 02:09:42,560
+And of course, we have zero order hold involved.
+
+866
+02:09:43,200 --> 02:09:46,720
+The sampling period is choosing as 0.1 sec.
+
+867
+02:09:49,360 --> 02:09:52,960
+With this sampling period, you can find the corresponding
+
+868
+02:09:54,800 --> 02:09:59,680
+Z transfer function or pulse transfer function for the zero order hold
+
+869
+02:09:59,680 --> 02:10:03,280
+together with this DC motor speed control system.
+
+870
+02:10:04,000 --> 02:10:05,920
+So you have this GZs.
+
+871
+02:10:05,920 --> 02:10:06,480
+That's this.
+
+872
+02:10:07,200 --> 02:10:13,360
+In this case, we don't have integrator in the plant.
+
+873
+02:10:14,560 --> 02:10:18,880
+So we have no integrator here, so this cannot be zero.
+
+874
+02:10:20,800 --> 02:10:23,680
+If this is zero, the output will be zero.
+
+875
+02:10:25,040 --> 02:10:34,400
+Because you have no integrator, this is just a non-integral action
+
+876
+02:10:35,200 --> 02:10:36,400
+on this input.
+
+877
+02:10:36,960 --> 02:10:41,920
+So if this is a pure constant applied to this, then that will be
+
+878
+02:10:44,720 --> 02:10:45,520
+a constant.
+
+879
+02:10:45,520 --> 02:10:49,040
+But if this is zero, the output will be zero.
+
+880
+02:10:50,720 --> 02:10:51,220
+Okay?
+
+881
+02:10:52,080 --> 02:10:54,400
+And we don't want the output to be zero.
+
+882
+02:10:55,600 --> 02:10:58,400
+We want the output to be same as the input.
+
+883
+02:10:59,920 --> 02:11:00,960
+So how do we do this?
+
+884
+02:11:00,960 --> 02:11:08,720
+This time, we need to have an integrator in the controller, C.
+
+885
+02:11:11,920 --> 02:11:16,000
+Okay, so we are going to consider the arrow in this case.
+
+886
+02:11:18,560 --> 02:11:20,960
+Okay, so let's look at how we do that.
+
+887
+02:11:22,480 --> 02:11:23,760
+This is the step input.
+
+888
+02:11:23,760 --> 02:11:34,400
+Again, we also consider the control input, U, by using our equation here.
+
+889
+02:11:36,560 --> 02:11:38,560
+Yeah, you just do a calculation.
+
+890
+02:11:39,760 --> 02:11:41,520
+GCL is to be determined.
+
+891
+02:11:42,080 --> 02:11:43,360
+RZ is that.
+
+892
+02:11:43,360 --> 02:11:45,440
+GZs has been found.
+
+893
+02:11:45,440 --> 02:11:47,200
+So you do a substitution.
+
+894
+02:11:47,200 --> 02:11:50,560
+You get this times GCL, Z.
+
+895
+02:11:50,560 --> 02:11:57,760
+Okay, as I said, in this case, your UK shouldn't be zero.
+
+896
+02:11:58,480 --> 02:12:04,080
+But it should be a non-zero constant for KB line equal to N.
+
+897
+02:12:04,080 --> 02:12:07,040
+Of course, our N was true.
+
+898
+02:12:08,160 --> 02:12:11,600
+Because this GZs is second order.
+
+899
+02:12:12,880 --> 02:12:19,920
+So after two sampling periods, your UK should be a non-zero constant.
+
+900
+02:12:20,640 --> 02:12:21,920
+As required here.
+
+901
+02:12:22,880 --> 02:12:29,520
+Yeah, should be a constant after two seconds.
+
+902
+02:12:33,120 --> 02:12:38,560
+Okay, now we just consider our arrow.
+
+903
+02:12:39,440 --> 02:12:45,200
+This arrow should be zero after two samples.
+
+904
+02:12:45,200 --> 02:12:52,000
+Actually, for both cases, your arrow should be zero.
+
+905
+02:12:52,960 --> 02:12:54,880
+Yeah, even for the previous example.
+
+906
+02:12:55,920 --> 02:12:59,680
+Because this arrow is the input minus the output.
+
+907
+02:13:00,960 --> 02:13:04,960
+So after two samples, this output should follow the input.
+
+908
+02:13:05,680 --> 02:13:08,320
+So after two samples, this arrow will be zero.
+
+909
+02:13:09,200 --> 02:13:09,760
+Okay.
+
+910
+02:13:12,960 --> 02:13:17,840
+Therefore, our Z-transform for the arrow will have two terms.
+
+911
+02:13:18,960 --> 02:13:23,200
+In the same way as I did for the previous example.
+
+912
+02:13:24,400 --> 02:13:28,640
+So we have EK equals E0 plus E1, Z inverse.
+
+913
+02:13:29,280 --> 02:13:30,400
+Now how do we use this?
+
+914
+02:13:31,360 --> 02:13:38,640
+Now to use this, we find our G in terms of U.
+
+915
+02:13:39,680 --> 02:13:46,400
+So based on this, our G is one over C times U.
+
+916
+02:13:46,400 --> 02:13:49,120
+Yeah, that is, this U divided by C is G.
+
+917
+02:13:50,720 --> 02:13:51,760
+So E equals that.
+
+918
+02:13:52,720 --> 02:13:55,680
+Then you just substitute the U we just obtained.
+
+919
+02:13:55,680 --> 02:13:58,320
+Yeah, this part is GCAO.
+
+920
+02:14:00,800 --> 02:14:09,920
+Yeah, you just do a substitution.
+
+921
+02:14:22,000 --> 02:14:24,800
+Yeah, this is our U obtained earlier.
+
+922
+02:14:25,520 --> 02:14:28,720
+So this divided by C, you get this.
+
+923
+02:14:30,240 --> 02:14:35,840
+You just put the C in the denominator of this result.
+
+924
+02:14:36,640 --> 02:14:41,440
+Okay, so now let's look at the result here.
+
+925
+02:14:43,920 --> 02:14:49,600
+Your CZ must have an integrator to cancel out this one under Z inverse.
+
+926
+02:14:49,600 --> 02:14:54,720
+Yeah, where is this one under Z inverse from?
+
+927
+02:14:54,720 --> 02:14:56,240
+That's from this here.
+
+928
+02:14:57,120 --> 02:15:02,960
+So you cannot use GCAO to cancel out this because that's a boundary.
+
+929
+02:15:03,760 --> 02:15:05,840
+So CZ should cancel out this.
+
+930
+02:15:06,720 --> 02:15:14,240
+So for CZ to cancel out this, that means the denominator of C should contain this factor.
+
+931
+02:15:14,240 --> 02:15:17,200
+Therefore, C must have an integrator to do this.
+
+932
+02:15:18,160 --> 02:15:23,920
+Then our GCAO should cancel out the remaining part in the denominator.
+
+933
+02:15:23,920 --> 02:15:28,000
+That is, GCAO should cancel out Z inverse times this.
+
+934
+02:15:28,640 --> 02:15:33,760
+Yeah, this factor is cancelled out by this CZ.
+
+935
+02:15:37,440 --> 02:15:39,680
+So this is how we choose GCAO.
+
+936
+02:15:40,320 --> 02:15:44,160
+That is a constant times Z inverse times this.
+
+937
+02:15:44,160 --> 02:15:52,720
+Actually, with such choice of GCAO, later on when you compute this CZ,
+
+938
+02:15:54,800 --> 02:15:58,160
+the numerator of CZ will cancel out this two factor also.
+
+939
+02:15:59,680 --> 02:16:07,440
+With the cancellation, our EZ will have two terms.
+
+940
+02:16:08,160 --> 02:16:12,160
+Yeah, actually CZ just cancel out one of the terms here.
+
+941
+02:16:13,040 --> 02:16:25,920
+So this is the choice of GCAO, which is basically cancelling Z inverse and this factor.
+
+942
+02:16:27,920 --> 02:16:34,080
+Now we have to find the value of K by using the state error requirement.
+
+943
+02:16:34,800 --> 02:16:36,720
+That is, GCAO should be equal to one.
+
+944
+02:16:37,680 --> 02:16:40,080
+From this, we can compute our K.
+
+945
+02:16:40,880 --> 02:16:44,880
+So this K is 0.5901.
+
+946
+02:16:45,840 --> 02:16:54,880
+Then you apply this formula again by substituting the obtained GCAO.
+
+947
+02:16:54,880 --> 02:17:05,680
+Yeah, our GCAO is...
+
+948
+02:17:11,920 --> 02:17:13,360
+Yeah, this is our GCAO.
+
+949
+02:17:14,160 --> 02:17:22,640
+So you just use this GCAO and the formula here.
+
+950
+02:17:25,840 --> 02:17:27,760
+You can get this C.
+
+951
+02:17:28,800 --> 02:17:35,760
+Yeah, of course, this K should be substituted here before you do the calculation.
+
+952
+02:17:42,560 --> 02:17:43,060
+Okay.
+
+953
+02:17:43,920 --> 02:17:48,640
+Actually, as I just mentioned, this C we computed.
+
+954
+02:17:52,240 --> 02:17:54,240
+Yeah, this C we computed here.
+
+955
+02:17:55,200 --> 02:18:04,720
+We have two zeros and they will cancel out these two factors here.
+
+956
+02:18:07,600 --> 02:18:15,040
+Yeah, you see, we have this two zero.
+
+957
+02:18:16,320 --> 02:18:18,080
+They will cancel out these two factors.
+
+958
+02:18:18,640 --> 02:18:26,400
+Then in the end, your EZ, just the GCAO times this and also this.
+
+959
+02:18:26,400 --> 02:18:28,320
+Yeah, you can do a calculation.
+
+960
+02:18:28,320 --> 02:18:39,200
+In the end, your EZ will be in this form, just two terms.
+
+961
+02:18:48,080 --> 02:18:55,840
+Yeah, these two terms.
+
+962
+02:18:58,400 --> 02:19:03,280
+So that's how we obtain the ripple-free control of CZ.
+
+963
+02:19:04,240 --> 02:19:12,800
+And you can also do a simulation to find out the output and also the control variable.
+
+964
+02:19:13,520 --> 02:19:23,840
+Yeah, you can see the control variable will maintain as a constant 50 after two sampling periods.
+
+965
+02:19:25,760 --> 02:19:34,880
+Yeah, it's not zero because our CZ is this and our plant has no integrator.
+
+966
+02:19:34,880 --> 02:19:39,600
+Our output will be this.
+
+967
+02:19:39,600 --> 02:19:47,840
+So it will be maintained as constant after two sampling periods.
+
+968
+02:19:49,600 --> 02:19:56,080
+Okay, so that's the design of ripple-free control.
+
+969
+02:19:56,080 --> 02:19:57,280
+We have two situations.
+
+970
+02:19:57,840 --> 02:20:06,000
+One is the plant involves an integrator and the other has no integrator.
+
+971
+02:20:06,960 --> 02:20:09,520
+But in this case, your C has an integrator.
+
+972
+02:20:11,440 --> 02:20:18,400
+Okay, so that's the third approach of designing controller.
+
+973
+02:20:18,400 --> 02:20:24,960
+But this controller design is just for such a block diagram.
+
+974
+02:20:24,960 --> 02:20:31,120
+As you can see, this block diagram has a unit feedback here.
+
+975
+02:20:31,120 --> 02:20:39,440
+Actually, this type of design is just one degree of freedom feedback controller.
+
+976
+02:20:40,320 --> 02:20:44,080
+I'll show you why this is one degree of freedom.
+
+977
+02:20:46,400 --> 02:20:50,960
+Okay, so this can be written as this form.
+
+978
+02:20:51,920 --> 02:20:55,920
+Yeah, this is the plant.
+
+979
+02:20:55,920 --> 02:20:59,920
+I just say it can be written as B divided by A.
+
+980
+02:20:59,920 --> 02:21:01,200
+That's the transfer function.
+
+981
+02:21:02,000 --> 02:21:08,640
+And this is the controller, which has a numerator SC and RC.
+
+982
+02:21:11,520 --> 02:21:18,080
+Yeah, this time here, we have no disturbance considered.
+
+983
+02:21:18,080 --> 02:21:21,520
+So here, if we have this disturbance considered,
+
+984
+02:21:22,080 --> 02:21:25,440
+we will have this computation for the output.
+
+985
+02:21:26,160 --> 02:21:29,440
+Yeah, you can obtain the output by superposition.
+
+986
+02:21:31,680 --> 02:21:36,320
+Here is a little bit misusing of notation.
+
+987
+02:21:37,200 --> 02:21:43,200
+Yeah, this N is in some times, in some textbook,
+
+988
+02:21:43,920 --> 02:21:51,840
+they use N as a time domain variable, just like our K earlier.
+
+989
+02:21:53,200 --> 02:21:56,720
+So this output has two terms.
+
+990
+02:21:56,720 --> 02:22:00,320
+One term is due to the reference input.
+
+991
+02:22:00,320 --> 02:22:07,040
+So it's the transfer function of the unit feedback system times the reference input.
+
+992
+02:22:07,040 --> 02:22:14,160
+And the other term is due to the disturbance.
+
+993
+02:22:16,000 --> 02:22:21,040
+So you can find the transfer function from V to Y, it will be this.
+
+994
+02:22:22,160 --> 02:22:26,240
+Yeah, we also mentioned this during week four.
+
+995
+02:22:27,120 --> 02:22:28,480
+So we have these two terms.
+
+996
+02:22:30,640 --> 02:22:36,000
+So the output will be, yeah, we just deluged this transfer function as a TZ
+
+997
+02:22:36,560 --> 02:22:38,640
+and this as SZ.
+
+998
+02:22:41,120 --> 02:22:42,240
+Yeah, that's a notation.
+
+999
+02:22:48,480 --> 02:22:53,920
+OK, in the design, we may have two requirements.
+
+1000
+02:22:56,240 --> 02:23:03,040
+We want the output Y to follow the reference input as close as possible.
+
+1001
+02:23:03,920 --> 02:23:08,480
+Right, because this is the desired output.
+
+1002
+02:23:08,480 --> 02:23:14,240
+So you should have this Y to approach this R.
+
+1003
+02:23:14,960 --> 02:23:23,200
+So this, we have to ensure or make YN follow R and your acceptable manner.
+
+1004
+02:23:24,160 --> 02:23:33,040
+And on the other hand, this Y should be independent of V.
+
+1005
+02:23:34,000 --> 02:23:37,760
+Or you have to eliminate the effect of V.
+
+1006
+02:23:39,280 --> 02:23:42,800
+OK, so we have to remove the effect of V and Y,
+
+1007
+02:23:43,440 --> 02:23:47,360
+so that the disturbance effect can be reduced.
+
+1008
+02:23:48,000 --> 02:23:49,840
+So we have these two requirements.
+
+1009
+02:23:49,840 --> 02:24:00,160
+To achieve this, we should be able to modify our S and T independently.
+
+1010
+02:24:01,520 --> 02:24:03,120
+Yeah, we have two terms.
+
+1011
+02:24:03,120 --> 02:24:05,200
+This is S, that's T.
+
+1012
+02:24:05,760 --> 02:24:18,000
+So we should be able to achieve these two requirements simultaneously.
+
+1013
+02:24:18,960 --> 02:24:25,280
+You have to modify S and T independently.
+
+1014
+02:24:25,840 --> 02:24:26,640
+Can we do this?
+
+1015
+02:24:29,760 --> 02:24:37,520
+Actually, we cannot, because if you add T with S, you get one.
+
+1016
+02:24:37,520 --> 02:24:48,800
+OK, so once you specify your S, you can find the T from this equation.
+
+1017
+02:24:49,440 --> 02:24:54,720
+So T and S are mutually dependent in this case.
+
+1018
+02:24:57,040 --> 02:25:01,600
+Therefore, you only have one freedom, even though you have two requirements.
+
+1019
+02:25:02,240 --> 02:25:07,280
+So you cannot choose your S and T independently.
+
+1020
+02:25:07,520 --> 02:25:18,480
+OK, so this type of controller is just one freedom, one degree of freedom feedback controller.
+
+1021
+02:25:18,480 --> 02:25:23,360
+So, so far in this chapter, the system,
+
+1022
+02:25:23,360 --> 02:25:28,080
+or the controller design here is just one degree of freedom.
+
+1023
+02:25:30,960 --> 02:25:36,640
+So to achieve this, we must have two degrees of freedom of feedback controller.
+
+1024
+02:25:37,520 --> 02:25:39,120
+Yeah.
+
+1025
+02:25:43,120 --> 02:25:53,840
+I think we come back next week to further study two degrees of freedom feedback controller.
+
+1026
+02:25:55,120 --> 02:25:59,040
+Yeah, which is in this form.
+
+1027
+02:25:59,840 --> 02:26:00,960
+So we stop here today.
+
+1028
+02:26:02,960 --> 02:26:04,320
+Yeah, thank you.
+
+1029
+02:40:37,520 --> 02:40:38,660
+Thank you.
+
+1030
+02:41:07,520 --> 02:41:08,660
+Thank you.
+
+1031
+02:41:37,520 --> 02:41:38,020
+Thank you.
+
+1032
+02:42:07,520 --> 02:42:08,020
+Thank you.
+
+1033
+02:42:37,520 --> 02:42:38,020
+Thank you.
+
+1034
+02:43:07,520 --> 02:43:08,020
+Thank you.
+
+1035
+02:43:37,520 --> 02:43:38,020
+Thank you.
+
+1036
+02:44:07,520 --> 02:44:08,020
+Thank you.
+
+1037
+02:44:37,520 --> 02:44:38,020
+Thank you.
+
+1038
+02:45:07,520 --> 02:45:08,020
+Thank you.
+
+1039
+02:45:37,520 --> 02:45:38,020
+Thank you.
+
+1040
+02:46:07,520 --> 02:46:08,020
+Thank you.
+
+1041
+02:46:37,520 --> 02:46:38,020
+Thank you.
+
+1042
+02:47:07,520 --> 02:47:08,020
+Thank you.
+
+1043
+02:47:37,520 --> 02:47:38,020
+Thank you.
+
+1044
+02:48:07,520 --> 02:48:08,020
+Thank you.
+
+1045
+02:48:37,520 --> 02:48:38,020
+Thank you.
+
+1046
+02:49:07,520 --> 02:49:08,020
+Thank you.
+
+1047
+02:49:37,520 --> 02:49:38,020
+Thank you.
+
+1048
+02:50:07,520 --> 02:50:08,020
+Thank you.
+
+1049
+02:50:37,520 --> 02:50:38,020
+Thank you.
+
+1050
+02:51:07,520 --> 02:51:08,020
+Thank you.
+
+1051
+02:51:37,520 --> 02:51:38,020
+Thank you.
+
+1052
+02:52:07,520 --> 02:52:08,020
+Thank you.
+
+1053
+02:52:37,520 --> 02:52:38,020
+Thank you.
+
+1054
+02:53:07,520 --> 02:53:08,020
+Thank you.
+
+1055
+02:53:37,520 --> 02:53:38,020
+Thank you.
+
+1056
+02:54:07,520 --> 02:54:08,020
+Thank you.
+
+1057
+02:54:37,520 --> 02:54:38,020
+Thank you.
+
+1058
+02:55:07,520 --> 02:55:08,020
+Thank you.
+
+1059
+02:55:37,520 --> 02:55:38,020
+Thank you.
+
+1060
+02:56:07,520 --> 02:56:08,020
+Thank you.
+
+1061
+02:56:37,520 --> 02:56:38,020
+Thank you.
+
+1062
+02:57:07,520 --> 02:57:08,020
+Thank you.
+
+1063
+02:57:37,520 --> 02:57:38,020
+Thank you.
+
+1064
+02:58:07,520 --> 02:58:08,020
+Thank you.
+
+1065
+02:58:37,520 --> 02:58:38,020
+Thank you.
+
+1066
+02:59:07,520 --> 02:59:08,020
+Thank you.
+
+1067
+02:59:37,520 --> 02:59:38,020
+Thank you.
+
