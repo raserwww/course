@@ -1,0 +1,5576 @@
+1
+00:02:00,000 --> 00:02:02,000
+ .
+
+2
+00:05:30,000 --> 00:05:43,200
+ Okay, going around one. So the last week, actually, we have studied the Fisher's linear
+
+3
+00:05:43,200 --> 00:05:53,600
+ Dismantlet analysis. And actually, the problem we address actually is a two-class classification
+
+4
+00:05:53,600 --> 00:06:00,280
+ problem, right? So we have two classes, and we find one actually, a Dismantlet function,
+
+5
+00:06:00,280 --> 00:06:09,200
+ and which is contained two parameters. One is W, and another is the bi-term W0 or B. And
+
+6
+00:06:09,200 --> 00:06:14,920
+ actually, the W determines the linear classifier, actually, is a street line in the 2D space,
+
+7
+00:06:14,920 --> 00:06:23,400
+ and all is a hyperplane. Okay. And so the orientation or direction of this in the hyperplane is determined
+
+8
+00:06:23,400 --> 00:06:33,080
+ by the W. And the location of this hyperplane is determined by the bi-term W0. Okay. And
+
+9
+00:06:33,080 --> 00:06:39,599
+ so, naturally, we will try to extend this Fisher's linear Dismantlet analysis from two
+
+10
+00:06:39,599 --> 00:06:51,719
+ classes to multiple class problems. Okay. And so, quite often, the class problem contains
+
+11
+00:06:52,160 --> 00:06:58,280
+ more than two classes. Okay. And assume the number of classes is C. Okay. And then we
+
+12
+00:06:58,280 --> 00:07:05,080
+ need to actually solve a C-class classification problem. And then in a C-class classification
+
+13
+00:07:05,080 --> 00:07:12,440
+ problem, and we need to have C minus 1 Dismantlet function. Okay. C minus 1, C is the number
+
+14
+00:07:12,440 --> 00:07:18,720
+ of classes. Okay. And then in the 2-class classification problem, C equals 2, right?
+
+15
+00:07:18,720 --> 00:07:26,240
+ C minus 1 is just 1. So we actually design one Dismantlet function, GX, which contains
+
+16
+00:07:26,240 --> 00:07:32,000
+ one with vector and one bi-term. Okay. And in the C-class classification problem, we
+
+17
+00:07:32,000 --> 00:07:38,600
+ need to find that C minus 1 are the Dismantlet functions. Okay. And for each of these Dismantlet
+
+18
+00:07:38,600 --> 00:07:48,280
+ function, we have one, no, W. And also, we have one bi-term, W0. Okay. And actually,
+
+19
+00:07:48,280 --> 00:07:55,960
+ in some sense, actually, the multiple Dismantlet analysis can be considered as a deminotent
+
+20
+00:07:55,960 --> 00:08:03,560
+ reduction technique. Because originally, the data in the D deminotent space, right, D could
+
+21
+00:08:03,560 --> 00:08:11,560
+ be very high. Okay. So after a project to a new space, okay, which has a deminotent
+
+22
+00:08:11,560 --> 00:08:20,040
+ of C minus 1. Okay. Because for each of the, in each of the dimension of the C minus 1
+
+23
+00:08:20,040 --> 00:08:27,480
+ space, actually, we have one projection, right? That is W. And also the bi-term W0. Okay.
+
+24
+00:08:27,480 --> 00:08:33,880
+ So totally, we have C minus 1 projection and all we have C minus 1 Dismantlet functions.
+
+25
+00:08:33,880 --> 00:08:41,000
+ Okay. So the data, actually, is projected from a D deminotent space to a C minus 1 deminotent
+
+26
+00:08:41,000 --> 00:08:46,600
+ space. Okay. This D deminotent of the data could be very high in practice. Although,
+
+27
+00:08:46,600 --> 00:08:54,520
+ you know, in the examples, demonstration examples, we often use the 2D, right, for illustration
+
+28
+00:08:54,600 --> 00:09:00,680
+ purpose. But in practice, the D could be very high. In our assignment, right, the D is like
+
+29
+00:09:00,680 --> 00:09:10,520
+ 30, 32, 33 dimensions. Okay. And you see just like two or three classes, right, three classes.
+
+30
+00:09:10,520 --> 00:09:19,319
+ Then you project the data from a high-dimensional, like, 30 dimension to a 3D or to a 2D space.
+
+31
+00:09:19,320 --> 00:09:30,120
+ So, you know, obviously, the deminotent reduction is very significant, right, from 30 to 2. Okay.
+
+32
+00:09:30,120 --> 00:09:36,760
+ And actually, no, previously, I probably, I think you already know one commonly used deminotent
+
+33
+00:09:36,760 --> 00:09:43,560
+ reduction technique that is the principle of Kaupung analysis, PCA, right? And actually, PCA
+
+34
+00:09:43,560 --> 00:09:49,240
+ is kind of unsupervised deminotent reduction technique because we don't need to use a label
+
+35
+00:09:49,320 --> 00:09:54,920
+ information. But in the multiple digital analysis, now, we need to know the label information about
+
+36
+00:09:54,920 --> 00:10:02,760
+ data, right? We know the data belong to one class and the data belong to another class. We need
+
+37
+00:10:02,760 --> 00:10:12,120
+ the label information. So, it's kind of a supervised deminotent reduction. Okay. Okay. So, actually,
+
+38
+00:10:12,200 --> 00:10:20,600
+ in the two class collection problems, actually, you know, in order to find the projection W,
+
+39
+00:10:20,600 --> 00:10:28,120
+ and actually, we need to have the two metrics, right? One metric is called, actually, the within
+
+40
+00:10:28,120 --> 00:10:34,280
+ class scatter metrics. Okay. Another is between class scatter metrics. Okay. Within class scatter
+
+41
+00:10:34,280 --> 00:10:40,280
+ metrics, actually, for each class, you know, we have the samples. And actually, we can find the mean
+
+42
+00:10:41,000 --> 00:10:47,720
+ vector of the samples. We need the same class. And then, based on the dismean, we can find the
+
+43
+00:10:47,720 --> 00:10:55,400
+ scatter metrics for each individual class. Okay. For example, for class i, then we use all the
+
+44
+00:10:55,400 --> 00:11:01,079
+ data in this class i. And based on the mean vector for class i, we can find the scatter
+
+45
+00:11:01,080 --> 00:11:10,920
+ metrics for class i. Okay. And then the summation of the C classes, because we have C classes,
+
+46
+00:11:10,920 --> 00:11:17,080
+ right? So, each class has a scatter, within class scatter metrics. So, the summation will get
+
+47
+00:11:17,960 --> 00:11:25,720
+ SW. Okay. This is the total within class scatter metrics. Just a similar summation of the
+
+48
+00:11:25,720 --> 00:11:32,120
+ C scatter metrics. Okay. And then, that's actually, we need to have, actually, you know,
+
+49
+00:11:33,480 --> 00:11:38,200
+ another metric, right? That is the between class scatter metrics. So, here, this is an
+
+50
+00:11:38,200 --> 00:11:42,360
+ within class scatter metrics. Okay. So, that's actually, we look at this, actually,
+
+51
+00:11:44,120 --> 00:11:49,880
+ between class scatter metrics. Okay. And so, here, we first define the total mean. The total mean
+
+52
+00:11:49,880 --> 00:11:56,920
+ here, actually, is the mean for all samples, regardless of the class levels. Okay. So, we
+
+53
+00:11:56,920 --> 00:12:03,080
+ consider all samples belonging to one class. And then, we can have, actually, a mean vector. So,
+
+54
+00:12:03,080 --> 00:12:08,760
+ this mean vector is called total mean vector. Okay. So, based on this total mean vector, actually,
+
+55
+00:12:08,760 --> 00:12:14,360
+ we can find, actually, the total, actually, no scatter metrics. Total scatter metrics, right?
+
+56
+00:12:15,320 --> 00:12:23,400
+ Actually, the total scatter metrics is all samples. So, now, for all samples, we don't think about,
+
+57
+00:12:23,400 --> 00:12:29,080
+ we don't think about the class label. Okay. We just think they belong to the same class.
+
+58
+00:12:29,640 --> 00:12:36,120
+ Okay. And then, we have a total mean vector. So, based on the total mean vector, we can look at
+
+59
+00:12:36,120 --> 00:12:41,720
+ the difference from each sample in the trineal dataset, right, and to the total mean. Okay.
+
+60
+00:12:41,720 --> 00:12:50,600
+ Then, we can calculate this ST. This ST is called total scatter metrics. Okay. And, actually,
+
+61
+00:12:50,600 --> 00:12:59,080
+ you know, here, now, we can do some simple manipulation. For example, now, we can actually
+
+62
+00:13:00,600 --> 00:13:08,280
+ minus MI, then plus MI, right? So, this, actually, then, then we know the still X minus M. Okay.
+
+63
+00:13:08,760 --> 00:13:14,920
+ And then, similarly, you know, for this part, X minus MI plus MI minus M. Okay. And then,
+
+64
+00:13:14,920 --> 00:13:20,120
+ we can separate these into two parts. Okay. So, finally, through some manipulation,
+
+65
+00:13:20,120 --> 00:13:25,319
+ and, actually, we can find, actually, the first part is simply, actually, the within class scatter
+
+66
+00:13:25,319 --> 00:13:32,360
+ metrics. So, the total scatter metrics include SW. Okay. And then, there is one additional part
+
+67
+00:13:32,520 --> 00:13:39,560
+ here, right? And this part, actually, is defined as the between class scatter metrics. Okay. So,
+
+68
+00:13:39,560 --> 00:13:44,600
+ the total scatter metrics is a summation of the within class scatter metrics and the between
+
+69
+00:13:44,600 --> 00:13:53,880
+ class scatter metrics. So, this part, actually, so, for each class, we have a mean vector. And,
+
+70
+00:13:53,880 --> 00:13:59,560
+ we look at the distance or the difference between the mean vector of an individual class
+
+71
+00:14:00,040 --> 00:14:05,560
+ to the total mean vector. Okay. And then, we can calculate, actually, the
+
+72
+00:14:07,560 --> 00:14:12,439
+ between class scatter metrics. So, this between class scatter metrics. Okay.
+
+73
+00:14:14,920 --> 00:14:20,520
+ And so, now, we have these two metrics. One is within class scatter metrics. Another is
+
+74
+00:14:20,520 --> 00:14:28,359
+ between class scatter metrics. So, our next objective is to find, actually, the C1,
+
+75
+00:14:28,520 --> 00:14:34,680
+ dismal functions. In other words, we need to first find the C minus 1 projections,
+
+76
+00:14:34,680 --> 00:14:41,640
+ W1, W2, and your WC minus 1. So, after that, we also need to find the vice term, right,
+
+77
+00:14:41,640 --> 00:14:47,080
+ for each of these C minus 1 dismal functions. Okay.
+
+78
+00:14:50,120 --> 00:14:53,800
+ And here, actually, we define, actually, no, this is actually
+
+79
+00:14:54,040 --> 00:15:01,479
+ a dismal function. And, actually, no, for each, for each, here, we see we have a C minus 1
+
+80
+00:15:01,479 --> 00:15:06,839
+ dismal function, right? Okay. So, we can put a C minus 1 dismal function into one, actually,
+
+81
+00:15:07,880 --> 00:15:17,240
+ vector, right vector. So, we define the G. Here, I use a bone phase, right, a G to denote a vector.
+
+82
+00:15:17,240 --> 00:15:24,440
+ So, this G is, this is actually G, actually, is a scalar, right? But this G, G1, G2, and your
+
+83
+00:15:24,440 --> 00:15:30,440
+ GC minus 1, actually, is a scalar. But here, we put them into a vector. So, this is a dismal function
+
+84
+00:15:30,440 --> 00:15:38,200
+ vector. Okay. And also, we put all the, you know, weight vectors, W1, WC minus 1, right,
+
+85
+00:15:38,200 --> 00:15:44,520
+ because we have a C minus 1 projections, and into one matrix. So, this weight becomes a weight
+
+86
+00:15:44,520 --> 00:15:54,600
+ matrix. Okay. So, here, actually, we include all the C minus 1 dismal functions into one
+
+87
+00:15:54,600 --> 00:16:01,880
+ vector function. Okay. And we include all the C minus 1 weight vectors into a weight matrix.
+
+88
+00:16:02,680 --> 00:16:12,520
+ Okay. So, then, we have these definitions. And then, we have this Gx equals W transpose x.
+
+89
+00:16:13,480 --> 00:16:19,560
+ Okay. And actually, from here, actually, we can see that this is kind of projection, right?
+
+90
+00:16:19,560 --> 00:16:27,480
+ Originally, for each data, x, and its representation is a d-dimensional vector, right? It's a d-dimensional
+
+91
+00:16:27,480 --> 00:16:35,560
+ vector. Okay. But after projection, and we can have a new vector, right? The projection is
+
+92
+00:16:36,280 --> 00:16:43,479
+ through this weight matrix. Okay. And we come to a new vector, a new representation. For each x,
+
+93
+00:16:43,479 --> 00:16:49,800
+ we have a new representation. That is just a Gx. Okay. So, part often, the number of classes
+
+94
+00:16:49,800 --> 00:16:57,640
+ is less than the number of deminality, right? So, this is indeed a deminality reduction. So,
+
+95
+00:16:57,640 --> 00:17:08,280
+ from an original D space to a C minus 1 space. Okay. Through this projection, W. Okay. That's
+
+96
+00:17:08,280 --> 00:17:18,440
+ the reason why we see the multiple, actually, the digital analysis is often used as a technique
+
+97
+00:17:18,440 --> 00:17:23,960
+ for deminality reduction. Of course, this is superactually deminality reduction, right?
+
+98
+00:17:23,960 --> 00:17:33,320
+ Because we use class label. Okay. So, now, actually, after projection, after projection,
+
+99
+00:17:33,320 --> 00:17:41,880
+ even the data is represented in a new space with a lower deminality. And in this space,
+
+100
+00:17:42,600 --> 00:17:51,000
+ and again, we can have a new, actually, the mean vector, right? We have a new mean vector.
+
+101
+00:17:51,000 --> 00:17:59,160
+ This is just another representation of the original data. So, from x to Gx, from D to C minus 1.
+
+102
+00:17:59,880 --> 00:18:09,640
+ So, in this C minus 1 space, each x is represented by G1x, G2x, Gc minus 1x. Okay. So, it's just
+
+103
+00:18:09,640 --> 00:18:14,760
+ kind of transformation, right? It's a new representation. And in this C minus 1 deminality
+
+104
+00:18:14,760 --> 00:18:21,960
+ space, and again, for all the samples within the same class, we can calculate the mean vector.
+
+105
+00:18:23,000 --> 00:18:30,920
+ We use this m-tied i to denote the mean vector of all samples of class i in the new space
+
+106
+00:18:31,960 --> 00:18:42,280
+ with a deminality of C minus 1. Okay. So, this, okay. And again, we can have a total mean, right?
+
+107
+00:18:42,280 --> 00:18:52,680
+ We can have a total mean, this m-tied. This is a total mean vector. Okay. In the two class
+
+108
+00:18:52,680 --> 00:18:59,720
+ kind of problem, so after projection, by this, this function Gx, and we obtain, actually, a scalar
+
+109
+00:18:59,720 --> 00:19:06,280
+ representation for each x, okay, then of course, actually, for each class, then we can have a mean
+
+110
+00:19:06,280 --> 00:19:14,040
+ value. Okay. But now, the projection, actually, is to a C minus 1 space. We cannot have a mean
+
+111
+00:19:14,040 --> 00:19:22,280
+ value, but we can have a mean vector for samples in each class. Okay. So, m-i-tied, and also,
+
+112
+00:19:22,280 --> 00:19:32,920
+ we can have a total mean, m-tied. Okay. And even, of course, in this new space, again, we can,
+
+113
+00:19:32,920 --> 00:19:40,680
+ based on the mean vector of each middle class, then we can calculate the within class scatter
+
+114
+00:19:40,680 --> 00:19:47,240
+ matrix in this C minus 1 deminality space, the new space, right? And also, we know we can calculate,
+
+115
+00:19:47,240 --> 00:19:53,240
+ actually, the total within class scatter matrix, right? Total within class matrix. That is just a
+
+116
+00:19:53,240 --> 00:20:03,800
+ summation of the C, actually, the individual within class scatter matrix. Okay. And also,
+
+117
+00:20:03,800 --> 00:20:11,080
+ we can also have a SB-type, which is a between class scatter matrix in this new space,
+
+118
+00:20:11,080 --> 00:20:18,600
+ with a deminality of C minus 1. Okay. Now, previously, in the C class kind of problem,
+
+119
+00:20:18,600 --> 00:20:24,120
+ we have no, actually, the within class scatter. Within class scatter matrix, we use a standard
+
+120
+00:20:24,120 --> 00:20:30,760
+ agent, or we use a variance to represent, right? Because it's a scalar, okay? Because the projection
+
+121
+00:20:30,760 --> 00:20:36,760
+ is from a deminality space to a 1D space. Okay. So, the recognition, actually, is a scalar,
+
+122
+00:20:36,760 --> 00:20:42,439
+ is a 1D. Okay. Then we can have a, you know, the scatter, actually, just an automaton, right? You
+
+123
+00:20:42,520 --> 00:20:48,760
+ just actually, actually, in the new space, actually, just an standard agent, or the
+
+124
+00:20:48,760 --> 00:20:57,960
+ variance can be used as a scatter. Okay. And so, this is a B, right, between class. Previously,
+
+125
+00:20:57,960 --> 00:21:04,600
+ we can use a difference between two mean vectors, right? In the two classes, as a
+
+126
+00:21:04,840 --> 00:21:14,040
+ measure for the between class scatter. But now, it's a scatter matrix SB between class. Okay.
+
+127
+00:21:14,679 --> 00:21:19,240
+ And in this calculation of the between class scatter matrix, we don't do the calculation of
+
+128
+00:21:19,240 --> 00:21:29,000
+ between M1, M2, M1, M3, M1, M4, and then M2, M3, M2, M4. We don't do this kind of,
+
+129
+00:21:29,960 --> 00:21:39,320
+ you know, pairwise, actually, you know, kind of scatter measurement, right? Instead, we look at,
+
+130
+00:21:39,880 --> 00:21:46,920
+ we first find a total mean vector. And then, based on the total mean vector, we calculate, actually,
+
+131
+00:21:46,920 --> 00:21:56,280
+ the, the, the between class scatter matrix SB type. Okay. So, type, SW type means, actually, the
+
+132
+00:21:57,160 --> 00:22:01,960
+ scatter matrix, you know, within class scatter matrix, or between class scatter matrix,
+
+133
+00:22:01,960 --> 00:22:10,520
+ in the new space. The new space, actually, it has a denominator of C minus 1. Okay.
+
+134
+00:22:14,120 --> 00:22:21,720
+ Okay. And, actually, what's the relationship between the new, actually, the scatter matrix,
+
+135
+00:22:22,440 --> 00:22:26,920
+ within class scatter matrix, and the between class scatter matrix with the original,
+
+136
+00:22:27,480 --> 00:22:32,760
+ within class scatter matrix, and the between class scatter matrix. Okay. Actually, this is the relationship.
+
+137
+00:22:35,240 --> 00:22:43,320
+ And, actually, the new, within class scatter matrix, the new space equals W. W, actually,
+
+138
+00:22:43,560 --> 00:22:52,120
+ with matrix. Okay. Times the SW. SW here is the, within class scatter matrix in the original space,
+
+139
+00:22:53,399 --> 00:23:00,439
+ the D, the denominator of D, right? Or no feature space. Okay. And so, for the,
+
+140
+00:23:00,439 --> 00:23:06,919
+ between class scatter matrix in the new space, also equals W transpose SB. So, this SB is the
+
+141
+00:23:06,919 --> 00:23:12,280
+ between class scatter matrix in the original space. Okay. So, these, actually, two equations,
+
+142
+00:23:12,760 --> 00:23:19,160
+ gives the relationship, right, between the new, you know, with the scatter matrix with the old,
+
+143
+00:23:20,040 --> 00:23:28,360
+ with the original, you know, scatter matrix. Okay. And, actually, you know, the main idea,
+
+144
+00:23:28,360 --> 00:23:33,720
+ you know, in the, in the Fisher's linear student analysis, you know, in the C class,
+
+145
+00:23:33,720 --> 00:23:40,040
+ and we know our objective is to find the projection W. And so that, actually, the
+
+146
+00:23:40,040 --> 00:23:46,840
+ between class difference or between class scatter could be maximized. And the within class scatter
+
+147
+00:23:46,840 --> 00:23:52,200
+ or within class difference could be minimized. So, this is the main idea of the Fisher's linear
+
+148
+00:23:52,200 --> 00:23:57,000
+ student analysis, right? So, this is a very good idea, right? Between class should be different.
+
+149
+00:23:57,560 --> 00:24:03,240
+ Within class should be small. Okay. So, we try to maximize the between class difference
+
+150
+00:24:03,240 --> 00:24:09,960
+ or scatter. Okay. Or, and minimize the within class difference or scatter. Okay. But,
+
+151
+00:24:09,960 --> 00:24:14,680
+ finally, actually, we try to find a W that could maximize the ratio of the two, right?
+
+152
+00:24:14,680 --> 00:24:21,320
+ The ratio of between class, actually, difference of scatter and to the within class scatter.
+
+153
+00:24:21,320 --> 00:24:26,840
+ And, actually, the scatter, you know, is just, actually, a scalar value, right? Just a scalar value.
+
+154
+00:24:26,840 --> 00:24:32,520
+ Okay. So, now, in the multiple Fisher's linear student analysis, we also want to find a W.
+
+155
+00:24:34,200 --> 00:24:40,120
+ Here is no, no, no, one, actually, the Witt vector. It's a Witt matrix. We want to find such a Witt
+
+156
+00:24:40,120 --> 00:24:49,320
+ matrix. And so that the within class scatter matrix, within class scatter could be minimized.
+
+157
+00:24:49,960 --> 00:24:56,120
+ Between class scatter could be maximized. Of course, actually, ideally, actually, we should try to,
+
+158
+00:24:56,199 --> 00:25:02,919
+ actually, maximize the ratio of the between class scatter to the within class scatter.
+
+159
+00:25:03,879 --> 00:25:08,280
+ Okay. But, here, you know, we just have a scatter matrix, right? We have a scatter matrix.
+
+160
+00:25:09,159 --> 00:25:13,959
+ Actually, when we look at the ratio, actually, the ratio should be the ratio of two scalars,
+
+161
+00:25:13,959 --> 00:25:20,199
+ right? But, here, we have two, two matrix. One is within class scatter matrix. Another is
+
+162
+00:25:20,200 --> 00:25:26,040
+ between class scatter matrix. So, how we can get a scalar, then try to, actually, you know,
+
+163
+00:25:27,160 --> 00:25:36,760
+ to maximize the ratio of the two scalars. Okay. And, actually, for the scatter, right, for the
+
+164
+00:25:36,760 --> 00:25:44,440
+ scatter, between class scatter, and, actually, we can use the, actually, between class scatter,
+
+165
+00:25:44,440 --> 00:25:48,840
+ or within class scatter, actually, we can use the determinant of the scatter matrix.
+
+166
+00:25:50,200 --> 00:25:56,360
+ Okay. So, here, actually, a simple measure of the scatter is the determinant of the scatter
+
+167
+00:25:56,360 --> 00:26:02,680
+ matrix, the determinant. We cannot get the ratio of the two matrix, right? We don't have such an
+
+168
+00:26:02,680 --> 00:26:10,200
+ operation, the ratio of two matrix. Okay. So, so, how to, you know, maximize, actually, the
+
+169
+00:26:10,760 --> 00:26:17,160
+ between class scatter and the minima, the within class scatter. In other words, so, what measure
+
+170
+00:26:17,160 --> 00:26:28,280
+ could be used for the scatter, given a scatter matrix? Actually, we can use the determinant
+
+171
+00:26:28,280 --> 00:26:35,160
+ of the matrix, right, as a scatter measure. Okay. And, actually, you know, this is not the only
+
+172
+00:26:35,160 --> 00:26:42,680
+ measure that we can use, you know, for the scatter of a scatter matrix. And, some, actually, you know,
+
+173
+00:26:42,680 --> 00:26:49,480
+ research work actually employs the trees of a matrix, the trees of a matrix. We will talk about
+
+174
+00:26:49,480 --> 00:26:54,680
+ this, you know, again, when we, in the later weeks, when we talk about the official selection.
+
+175
+00:26:55,800 --> 00:27:00,680
+ During that part, we will look at these, you know, measures again. Okay. So, we will use the
+
+176
+00:27:01,240 --> 00:27:09,480
+ determinant of the matrix as a measure for the scatter. Okay. And then, actually, our objective
+
+177
+00:27:09,480 --> 00:27:17,960
+ here is to maximize, actually, the ratio of the scatter between class and to the, actually,
+
+178
+00:27:18,680 --> 00:27:24,120
+ within class scatter. So, the determinant of the matrix is a measure of the scatter.
+
+179
+00:27:24,600 --> 00:27:35,879
+ Okay. And so, just now, we already know, find the relationship, right, and between the new
+
+180
+00:27:35,879 --> 00:27:43,080
+ scatter matrix and the scatter matrix in the original space. So, that is just, okay. So,
+
+181
+00:27:43,080 --> 00:27:48,840
+ now, indeed, this called function J is a function of the width matrix W, right, the matrix W.
+
+182
+00:27:48,840 --> 00:27:56,280
+ Then, actually, our net objective is to solve this homo-azision problem. We want to find the
+
+183
+00:27:56,280 --> 00:28:05,879
+ width matrix W, and so that this JW is maximized. Okay. So, through our analysis,
+
+184
+00:28:06,439 --> 00:28:11,399
+ through our understanding, and through our expectation of a good, actually,
+
+185
+00:28:12,200 --> 00:28:18,440
+ projection, right, and we have the ideas of between class scatter and within class scatter.
+
+186
+00:28:18,440 --> 00:28:22,840
+ Okay. So, through these analyses, finally, actually, the machine learning program is
+
+187
+00:28:22,840 --> 00:28:29,000
+ formulated as an homo-azision problem, right, homo-azision. Okay. Of course, actually,
+
+188
+00:28:29,000 --> 00:28:33,320
+ if you just have the homo-azision technique knowledge, you don't have machine learning
+
+189
+00:28:33,320 --> 00:28:38,520
+ knowledge, you cannot formulate such a problem. Okay. But if you have a knowledge of machine
+
+190
+00:28:38,520 --> 00:28:46,280
+ learning, and we know, actually, what is an ideal distribution, right, of the samples in the new
+
+191
+00:28:46,280 --> 00:28:53,000
+ feature space, we have some ideas, right, that the between class scatter is maximized, and within
+
+192
+00:28:53,000 --> 00:28:59,639
+ class scatter, scatter should be minimized. We have these ideas, and then, actually, we can formulate,
+
+193
+00:28:59,640 --> 00:29:05,800
+ at least, the machine learning problem into such an homo-azision problem.
+
+194
+00:29:08,200 --> 00:29:12,280
+ Okay. So, later today, when we finish this part, we are looking to the support-widen
+
+195
+00:29:12,280 --> 00:29:18,120
+ machines. And, again, actually, first, actually, we start from machine learning concept, and what is
+
+196
+00:29:18,120 --> 00:29:24,760
+ known, we expect from a good pattern classifier. Okay. And then, we have some conditions. So,
+
+197
+00:29:24,760 --> 00:29:29,640
+ finally, we also formulate, actually, a machine learning problem, not a support-widen machine,
+
+198
+00:29:29,640 --> 00:29:36,280
+ into an homo-azision problem. Okay. I think this is the standard procedure for machine learning.
+
+199
+00:29:36,280 --> 00:29:40,840
+ You want to do machine learning research, right? You also need to have a very solid foundation
+
+200
+00:29:40,840 --> 00:29:45,080
+ machine learning. You need to understand, right, machine learning. You need to understand what is
+
+201
+00:29:45,080 --> 00:29:50,680
+ pattern classification. So, what, actually, distribution of the data could result in a
+
+202
+00:29:50,680 --> 00:29:57,240
+ good performance. You first need to have such ideas, okay, and then you formulate the problem into a
+
+203
+00:29:57,240 --> 00:30:03,240
+ homo-azision problem. Then, you solve it, and then you can get a new solution, right? Maybe
+
+204
+00:30:04,600 --> 00:30:12,280
+ with good, actually, or better, or improved performance. Okay. So, now, actually, we try to
+
+205
+00:30:12,280 --> 00:30:16,680
+ solve this problem. Of course, actually, I think for us, it is not an easy problem, right? And,
+
+206
+00:30:16,920 --> 00:30:25,960
+ fortunately, and, actually, the mathematicians already have found a solution for such, actually,
+
+207
+00:30:25,960 --> 00:30:37,640
+ a homo-azision problem. And, actually, they found, actually, the solution, right, actually,
+
+208
+00:30:37,640 --> 00:30:46,040
+ for this homo-azision problem, actually, can be found through solving, and this, actually,
+
+209
+00:30:46,040 --> 00:30:52,840
+ and generalized eigenvalue problem. Remember, you know, in the last week, when we talked about,
+
+210
+00:30:52,840 --> 00:30:58,680
+ you know, two class kind of problems, so there are two ways to find the projection, right? So,
+
+211
+00:30:58,680 --> 00:31:04,280
+ one way is to solve the generalized eigenvalue problem or the regular, the normal generalized
+
+212
+00:31:05,240 --> 00:31:10,040
+ eigenvalue problem. And then, another matter, we use a formula to calculate directly, right? So,
+
+213
+00:31:10,040 --> 00:31:18,360
+ there are two ways, okay? So, here, again, we can solve, actually, this problem, and by using the,
+
+214
+00:31:19,800 --> 00:31:28,920
+ by finding them, or by solving these general eigenvalue problems. Okay. So, Sb is the
+
+215
+00:31:28,920 --> 00:31:36,840
+ between-class kinematic, right? And in the homo-space, wi is a width vector, okay? And,
+
+216
+00:31:37,720 --> 00:31:46,120
+ lambda i, here, lambda i is called an eigenvalue, okay? And wi is a corresponding eigenvector,
+
+217
+00:31:47,560 --> 00:31:54,440
+ okay? So, as I said, I demonstrated in the last week, right? And in many, actually,
+
+218
+00:31:54,680 --> 00:32:03,400
+ like, the machine learning tools, and we have functions to solve this generalized eigenvalue
+
+219
+00:32:03,400 --> 00:32:11,560
+ problem. Okay. Or the normal eigenvalue problem, if the, within-class kinematic, Sw is non-singular.
+
+220
+00:32:11,560 --> 00:32:17,560
+ In non-singular, then, we can multiply the, actually, the inverse matrix to the two sides,
+
+221
+00:32:17,639 --> 00:32:27,080
+ right? And then, this becomes the, the U-roll, or the regular singular value decomposition problem.
+
+222
+00:32:27,639 --> 00:32:34,919
+ Okay. Okay. But this is not necessary, actually, in all the tools, actually, the,
+
+223
+00:32:35,639 --> 00:32:41,240
+ have functions to solve the general eigenvalue problem, or just the normal eigenvalue problem.
+
+224
+00:32:41,320 --> 00:32:50,680
+ Okay. Okay. So, based on the SB, based on the Sw, and we can solve the generalized eigenvalue
+
+225
+00:32:50,680 --> 00:32:59,640
+ problem to find, actually, the width vector, W1, W2, until Wc minus 1. Okay. So, these are the
+
+226
+00:32:59,640 --> 00:33:08,440
+ projections for the C minus 1, you know, the Dismount functions. Okay. So, this is for the multiple,
+
+227
+00:33:11,480 --> 00:33:15,640
+ Dismount analysis. Okay. Multiple, I mean, for multiple class.
+
+228
+00:33:19,560 --> 00:33:28,600
+ So, that's actually, I showed you one example. And in this example, and then, we have three classes.
+
+229
+00:33:28,679 --> 00:33:36,360
+ You can see the data, right? A label with black, blue, and red. So, these are the samples,
+
+230
+00:33:36,360 --> 00:33:43,399
+ actually, in three classes. And each class has 100 samples. Okay. So, here, you know, we need to
+
+231
+00:33:43,399 --> 00:33:49,560
+ design a pattern classifier, right? And to classify the sample in the three classes.
+
+232
+00:33:50,439 --> 00:33:56,600
+ Okay. So, in this problem, the C equals 3, right? This is a C class class, and the problem C equals 3.
+
+233
+00:33:56,600 --> 00:34:07,240
+ And then, we need to find, actually, two, right? We need to find two width vectors, W1, W2. And we
+
+234
+00:34:07,240 --> 00:34:15,239
+ need to find, actually, the two Dismount functions, because we can only find the C minus 1, right?
+
+235
+00:34:15,239 --> 00:34:21,719
+ Dismount functions. Okay. So, that's actually, you know, we try to find, actually, these are
+
+236
+00:34:22,679 --> 00:34:31,080
+ the two width vectors, okay? By solving the eigenvalue problem, or the general eigenvalue problem.
+
+237
+00:34:32,199 --> 00:34:38,199
+ Okay. And, of course, before then, we need to calculate, you know, the between class
+
+238
+00:34:38,199 --> 00:34:44,919
+ scatter matrix and the within class scatter matrix, right? Okay. So, to calculate the
+
+239
+00:34:45,000 --> 00:34:49,000
+ individual, the, you know, the within class scatter matrix for each individual class,
+
+240
+00:34:49,000 --> 00:34:53,480
+ now, firstly, we need to calculate the mean vectors. So, based on the sample, we can easily
+
+241
+00:34:53,480 --> 00:35:00,280
+ find the mean vector for the three classes. M1, the mean vector for class 1, M2 for class 2,
+
+242
+00:35:00,280 --> 00:35:05,080
+ M3 for class 3. So, based on the sample, we just get average, right? So, this is just the mean
+
+243
+00:35:05,080 --> 00:35:11,000
+ vectors. Okay. And, of course, actually, based on the mean vector for each of the class, we can use
+
+244
+00:35:11,000 --> 00:35:18,760
+ all the 100 samples in each class to calculate, actually, the within class scatter matrix for
+
+245
+00:35:18,760 --> 00:35:27,000
+ class 1, S1, class 2, S2, class 3. Okay. So, these are the within class scatter matrix. Okay. And,
+
+246
+00:35:27,640 --> 00:35:34,120
+ so, the summation of the three is just the within class scatter matrix, okay. So, here, actually,
+
+247
+00:35:34,200 --> 00:35:41,799
+ you can see the number, right? It's very big, right? 12,000. 7,000 something, right? Very big
+
+248
+00:35:41,799 --> 00:35:47,560
+ values, okay. So, actually, you know, in the calculation of CROF, we try to award big values,
+
+249
+00:35:47,560 --> 00:35:53,080
+ right? So, actually, we can do something like a scaling. You can just, you know, you see the
+
+250
+00:35:53,080 --> 00:36:00,920
+ value too big, right? I can just divide it by all the value by 101,000. Okay. And, so, that, you know,
+
+251
+00:36:00,920 --> 00:36:06,760
+ we can have a small, you know, all the values are established to be small. And, actually, in this
+
+252
+00:36:06,760 --> 00:36:14,600
+ course, actually, the formula adopted from one textbook, these are, you know, it's all the summation,
+
+253
+00:36:14,600 --> 00:36:19,400
+ right? All the data. But in some books, when they calculate the within class scatter matrix,
+
+254
+00:36:19,400 --> 00:36:25,640
+ actually, they also actually divided by the number of samples in the class. Okay. But there are some,
+
+255
+00:36:25,720 --> 00:36:31,400
+ just a different tree, you know, some different wiring, right? For this Fisher linear different
+
+256
+00:36:31,400 --> 00:36:37,080
+ analysis technique. Okay. So, we can have different ways. We can do some scaling, right?
+
+257
+00:36:37,080 --> 00:36:45,640
+ To, for the within class scatter matrix. Okay. So, we get this. Okay. So, this is the within
+
+258
+00:36:45,640 --> 00:36:49,879
+ class scatter matrix. So, necessary, we need to calculate the between class scatter matrix,
+
+259
+00:36:49,879 --> 00:36:55,240
+ right? Before that, we also need to calculate the total mean vector, right? The total mean vector.
+
+260
+00:36:55,319 --> 00:37:00,600
+ Okay. And, based on the total mean vector, and also the mean vector of each individual class,
+
+261
+00:37:00,600 --> 00:37:07,080
+ and why M2, M3, right? And then we calculate the between class scatter matrix, SW, SB. So,
+
+262
+00:37:07,080 --> 00:37:13,479
+ this is the SB, the between class scatter matrix. Okay. And then we can solve this, you know,
+
+263
+00:37:13,479 --> 00:37:24,200
+ generalized eigenvalue problem. SBW equals lambda SW, SW. Okay. So, actually, here, actually,
+
+264
+00:37:24,200 --> 00:37:30,200
+ maybe I use my lab to as a demonstration lab. My lab, okay. My lab, you know, we can use it,
+
+265
+00:37:31,160 --> 00:37:40,520
+ A and E, I, G eigenvalue, right? And then, so, this, this is in the, so, this SB and A, B,
+
+266
+00:37:40,520 --> 00:37:48,359
+ right? So, SB, SW, you just give, need to know, input these two matrix, right? One is the left
+
+267
+00:37:48,440 --> 00:37:56,440
+ hand side, SB, right? Another is the right hand side, SW. Okay. So, here, output have two matrix,
+
+268
+00:37:57,240 --> 00:38:06,840
+ one lambda, another is W, okay? And, so, lambda here is a two by two matrix, actually. So,
+
+269
+00:38:06,840 --> 00:38:12,280
+ this is a matrix, actually, has a normality of C minus one. It's a square matrix, C minus one.
+
+270
+00:38:13,080 --> 00:38:20,040
+ Okay. And, so, actually, so, actually, this is no lambda, matrix lambda, actually, the diagonal
+
+271
+00:38:22,040 --> 00:38:32,040
+ matrix. We only have nonzero values on the diagonal. Okay. So, actually, these values are called
+
+272
+00:38:32,040 --> 00:38:40,040
+ the eigenvalues, eigenvalues. Okay. So, one eigenvalue is 1.41, another is 2.9 something.
+
+273
+00:38:40,120 --> 00:38:47,240
+ So, these are two eigenvalues. And then, the W are the eigenvectors. Okay. The first column
+
+274
+00:38:47,240 --> 00:38:52,279
+ corresponds to the first eigenvalue. The second column corresponds to the second column,
+
+275
+00:38:52,840 --> 00:38:59,640
+ eigenvalue. So, this is 1.4155. It's just the lambda here. Okay. Then, the corresponding W,
+
+276
+00:39:00,200 --> 00:39:07,640
+ the, with vector, could certify this equation is the first, is the first one. Okay. The first
+
+277
+00:39:07,640 --> 00:39:17,640
+ vector. Okay. And then, the second, 2.91, actually, is a, this is a lambda. And then, the corresponding
+
+278
+00:39:17,640 --> 00:39:26,200
+ W should be the second column, minus 0.012, 0.0585. So, this is the second column. Okay. So,
+
+279
+00:39:26,200 --> 00:39:32,520
+ the two columns, actually, are the corresponding eigenvectors. Okay. And, actually, these two
+
+280
+00:39:32,600 --> 00:39:41,000
+ vectors, two columns, are just the W1, W2. Okay. The projection we are looking for.
+
+281
+00:39:43,800 --> 00:39:49,240
+ Okay. So, this is W. Of course, no, these are special cases. Right. These, no, the W is here.
+
+282
+00:39:49,240 --> 00:39:55,080
+ Actually, the, the, the, the, the, the number of column in W equals C minus 1. But the number
+
+283
+00:39:55,080 --> 00:40:01,480
+ of rules depend on the monality, right, of the data. In this, no, example, we have a 2D data,
+
+284
+00:40:01,480 --> 00:40:06,600
+ right. So, there are only two rules, actually. So, this is the 2 by 2. These are very special
+
+285
+00:40:06,600 --> 00:40:14,920
+ cases, right. But if you, the data has the monality of 30, then this matrix is 30 times 2. Okay.
+
+286
+00:40:14,920 --> 00:40:21,960
+ Two columns, because we only have two nonzero, no, eigenvectors. We only have two eigenvalues.
+
+287
+00:40:22,600 --> 00:40:29,400
+ We have two non-2D, we have two nonzero eigenvalues. Okay. Then, we have two eigenvectors. Then,
+
+288
+00:40:29,480 --> 00:40:35,800
+ we have two columns. But the monality of these two, the convex vector, depends on the monality of
+
+289
+00:40:35,800 --> 00:40:42,360
+ the data, right. So, the data here is 2D. Right. Then, we have two rules. But if 30,
+
+290
+00:40:42,360 --> 00:40:50,600
+ and then we should have 30 rules, then the matrix is 30 times 2. Okay. Okay. So, these are eigenvectors.
+
+291
+00:40:50,600 --> 00:40:56,200
+ Then, that's actually, we can use the two eigenvectors to construct, actually, the two
+
+292
+00:40:56,200 --> 00:41:04,919
+ dismal functions. Okay. And, actually, the first one, and we normally, we start from the one
+
+293
+00:41:04,919 --> 00:41:11,640
+ corresponding to the larger, or the largest eigenvalue. The largest eigenvalue here is 2.91,
+
+294
+00:41:11,640 --> 00:41:20,520
+ right. So, we use, actually, the second column as the w1. Okay. So, we, w1, which is the second
+
+295
+00:41:20,520 --> 00:41:27,800
+ column in this w1, it's the w1. Okay. And then, we, we put the data to the new dimension, right,
+
+296
+00:41:27,800 --> 00:41:36,840
+ to a new dimension, g1x. Okay. So, w transpose, w1 transpose times x. For each x, we can perform
+
+297
+00:41:36,840 --> 00:41:46,680
+ such a projection. Okay. So, this is the data of the 300 data, and the projected value. The
+
+298
+00:41:46,759 --> 00:41:52,440
+ horizontal axis shows the index of the data, right. So, from 1 to 100, so, this, you know,
+
+299
+00:41:52,440 --> 00:41:59,000
+ the red one is just the samples of class 1, and then from 101 to 200, the sampling class 2,
+
+300
+00:41:59,720 --> 00:42:06,200
+ and then from 201 to 300, the sample of class 3. So, this is the joint index. The vertical value,
+
+301
+00:42:06,200 --> 00:42:13,879
+ the vertical axis shows the projected value, projected value. Okay. So, for blues, no sample,
+
+302
+00:42:13,960 --> 00:42:19,800
+ for sampling class 2, and the projected value normally are in the range, right. Most of them,
+
+303
+00:42:19,800 --> 00:42:28,280
+ actually, actually, is around 0.1, right. Some could be as high as 0.2, some could be as low as
+
+304
+00:42:28,280 --> 00:42:35,640
+ negative. Okay. So, these are the projected samples, and in the values, or in the, in this,
+
+305
+00:42:35,640 --> 00:42:44,200
+ by this, you know, different function g1x, or by this projection vector w1. Okay.
+
+306
+00:42:46,200 --> 00:42:54,359
+ And, actually, of course, actually, we can look at the m11, right. We can look at the mean vector,
+
+307
+00:42:54,359 --> 00:43:00,920
+ mean values, because of the projection, by this, you know, w1x, we get scalar values, right. The
+
+308
+00:43:01,000 --> 00:43:06,520
+ projected value, actually, for each sample is a scalar. Okay. And then we can calculate the mean
+
+309
+00:43:06,520 --> 00:43:16,280
+ value. The mean value for all sampling class 1 equals minus 0.0051. For all sampling class 2,
+
+310
+00:43:17,000 --> 00:43:22,360
+ actually, of the projection, right, by this w1, now we can calculate the mean value. So, that is
+
+311
+00:43:22,360 --> 00:43:30,840
+ 0.1470. For all sampling class 3, actually, you know, the mean value of the projection is minus 0.09
+
+312
+00:43:30,840 --> 00:43:39,320
+ 13. And from here, actually, we can see m12 is positive, then other is negative, right. And,
+
+313
+00:43:39,320 --> 00:43:49,800
+ actually, the m12 is a bit, actually, away from the sample in class 1 and class 3 of the projection.
+
+314
+00:43:50,520 --> 00:44:00,120
+ Okay. So, in this, actually, w1, our objective is to separate, to separate, okay, class 2 from
+
+315
+00:44:00,120 --> 00:44:07,800
+ other two classes. So, here, we use w1 to separate one class from others. So, one versus the rest.
+
+316
+00:44:09,160 --> 00:44:17,560
+ Okay. So, class 2 versus the rest, actually, is class 1 and class 3. Okay. So, as the objective
+
+317
+00:44:17,640 --> 00:44:27,799
+ of w1 is to separate class 2 from other two classes. So, this is the w1. Okay. And, of course,
+
+318
+00:44:27,799 --> 00:44:33,799
+ actually, we just have w1 and we don't have a bias term, right. Then we look at the projections.
+
+319
+00:44:33,799 --> 00:44:39,320
+ Actually, we can know that many of the values, right, here, actually,
+
+320
+00:44:39,400 --> 00:44:49,320
+ for class 2, 1, actually, is positive, positive, right. And many of the values for class 3 could
+
+321
+00:44:49,320 --> 00:44:56,440
+ also be positive above 0. So, this is 0, right. So, for class 2, for class 2, right,
+
+322
+00:44:56,440 --> 00:45:02,040
+ for class 1, some of the projection value could be positive. Actually, no, we need to find the
+
+323
+00:45:02,040 --> 00:45:11,720
+ w01, the bias term. Okay. And so, that, actually, the projected value, the g1x, right, g1x,
+
+324
+00:45:11,720 --> 00:45:17,080
+ for some of the class 2, or 2, should be positive. Then, for some of the other two classes, it should
+
+325
+00:45:17,080 --> 00:45:24,759
+ be negative. Okay. So, necessarily, we try to find such a w01, right, the w0, okay, for
+
+326
+00:45:25,320 --> 00:45:33,880
+ corresponding to w1x, w1. So, that the blue sample, right, actually, the values could be positive.
+
+327
+00:45:34,680 --> 00:45:39,320
+ And then, the sample in other two classes, the projected values could be negative.
+
+328
+00:45:41,000 --> 00:45:49,320
+ Okay. And in the last class, actually, we have a basic idea principle to follow to obtain the
+
+329
+00:45:49,320 --> 00:45:55,640
+ w0, right. Actually, we see for the 2-clark-climbing problem, we hope the middle point of the 2-mini
+
+330
+00:45:55,640 --> 00:46:04,200
+ vectors is on the, you know, the hyperplane, right, is on the descent boundary. That means that the
+
+331
+00:46:04,200 --> 00:46:10,440
+ digital function equals 0. Okay. And actually, here, we can also use this principle to determine
+
+332
+00:46:10,440 --> 00:46:17,640
+ w0. Actually, when we use this principle, actually, our basic idea is that, actually, the spread of
+
+333
+00:46:17,640 --> 00:46:23,879
+ the, the spread or the scatter of the two classes should be similar, should be similar, right.
+
+334
+00:46:23,879 --> 00:46:30,680
+ Even they are not similar. Then, this value formed by this w is not a good value. Okay. Then,
+
+335
+00:46:30,680 --> 00:46:37,080
+ in the last, we are really suggesting, you know, give some suggestion, right. And we can,
+
+336
+00:46:37,080 --> 00:46:45,080
+ in practice, we can first find this value and then we, we, we, we, we, we, we, we, we try other
+
+337
+00:46:45,080 --> 00:46:51,080
+ values around this value, right. Then, to find the one that performs the best on the validation data.
+
+338
+00:46:51,080 --> 00:46:57,000
+ Okay. So, here, the principle that, actually, the, the spread of the two classes should be similar.
+
+339
+00:46:57,640 --> 00:47:04,200
+ Okay. But now, actually, when we determine the classes, right, so one is class two. Another
+
+340
+00:47:04,200 --> 00:47:10,759
+ class is class one or class three. Okay. Suddenly, class one, class three, all sample from two
+
+341
+00:47:10,760 --> 00:47:17,160
+ classes, right. So, certainly, the spread of the data should be very big. Okay. So, if we use such a
+
+342
+00:47:17,160 --> 00:47:22,440
+ way to determine the, you know, the w zero, certainly, I think we cannot find a good w zero.
+
+343
+00:47:23,080 --> 00:47:28,440
+ Because the spread of class two could be much smaller than the spread of class one, class three,
+
+344
+00:47:28,440 --> 00:47:35,320
+ together. Okay. And then, how to determine such a value? Actually, you know, in practice, we
+
+345
+00:47:35,320 --> 00:47:42,200
+ cannot determine value based on, you know, we say one class. Class one, class three, right.
+
+346
+00:47:42,200 --> 00:47:50,680
+ Look at which class is closer to class two. We use the sample in that class to determine the w zero.
+
+347
+00:47:50,680 --> 00:47:56,600
+ Rather than use all the sample in the remaining classes, class one and class three. Okay. So,
+
+348
+00:47:56,600 --> 00:48:00,680
+ here, actually, from the main vector, actually, here, with the main values, we find, actually,
+
+349
+00:48:01,640 --> 00:48:09,240
+ m one, one, actually, here, actually, is closer to this m one, two, right. Closer to this one,
+
+350
+00:48:09,240 --> 00:48:17,720
+ two. So, that means class one is closer to class two. Okay. And after projection, by this w one.
+
+351
+00:48:17,720 --> 00:48:26,520
+ Okay. So, in such a scenario, we use, actually, class two, right, with the class two sample,
+
+352
+00:48:26,600 --> 00:48:32,520
+ right. And to determine, actually, class one, class two, to determine the w zero.
+
+353
+00:48:34,120 --> 00:48:36,200
+ Okay. So, this is the w zero.
+
+354
+00:48:40,840 --> 00:48:46,040
+ W zero is based on class one and class two. Because class two is closer,
+
+355
+00:48:46,040 --> 00:48:51,880
+ we're class one closer to class two. We don't use the mean of class one and class three, right.
+
+356
+00:48:52,440 --> 00:48:57,640
+ And together, right. We don't use that because the spread of class one, class two,
+
+357
+00:48:57,640 --> 00:49:03,720
+ three together could be very big. Okay. So, okay. So, this is the w zero one.
+
+358
+00:49:04,520 --> 00:49:12,200
+ And so, now, we can combine w one and w zero one to construct the different function g one x, right.
+
+359
+00:49:12,200 --> 00:49:23,640
+ Okay. So, this is the, okay. So, I think this is the, let me see. So, this is the g one x.
+
+360
+00:49:24,359 --> 00:49:30,839
+ G one x. Actually, I don't know the adjustment by this w zero. And we can see most of the data
+
+361
+00:49:30,839 --> 00:49:36,680
+ of class two, right. Class one is below zero. More data, actually. Previously, before we used
+
+362
+00:49:37,480 --> 00:49:43,000
+ the w zero, the bias term. Actually, we see many samples, you know, have
+
+363
+00:49:45,080 --> 00:49:52,120
+ positive values, not represented by w one, right. But now, the adjustment by w zero,
+
+364
+00:49:52,120 --> 00:49:58,600
+ w zero, right. And then most of the values of class one are below zero. And also here,
+
+365
+00:49:58,600 --> 00:50:04,040
+ also below zero. Of course, not all of them are actually below zero. And also for class two,
+
+366
+00:50:04,279 --> 00:50:10,279
+ all of them actually are above zero. Okay. So, this is because, actually, you know, the data,
+
+367
+00:50:10,279 --> 00:50:16,600
+ actually, we cannot achieve 100% accuracy. Okay. And some of the samples have been misclassified.
+
+368
+00:50:19,000 --> 00:50:25,320
+ Okay. And then the lesson we look at the w two, right. So, w two is the first column,
+
+369
+00:50:25,320 --> 00:50:32,360
+ corresponding to the smaller, actually, the eigenvalue. Okay. And so, this is the projection
+
+370
+00:50:32,440 --> 00:50:39,560
+ samples on w two. And actually, from w two, we can see, after projection, w two and w three are
+
+371
+00:50:39,560 --> 00:50:46,920
+ almost, all the values are in this range, right, from, actually, minus zero point two five to
+
+372
+00:50:46,920 --> 00:50:52,680
+ minus zero point zero five on this range, right. So, but actually, for class one, it seems that the
+
+373
+00:50:52,680 --> 00:51:00,040
+ value is five away from the projection value of other two classes. Okay. So, w two will be used
+
+374
+00:51:00,120 --> 00:51:07,240
+ to separate class one from other two classes. Okay. Because upper projection, actually,
+
+375
+00:51:07,240 --> 00:51:12,920
+ w two and w three are always mixed. They are mixed. Because why we say mixed? Because you look at the
+
+376
+00:51:12,920 --> 00:51:21,240
+ vertical value, right. They're almost the same. Okay. But w one, the red one is very different
+
+377
+00:51:21,240 --> 00:51:29,720
+ from other two classes. Okay. So, we use w two to construct the g two x to separate class one
+
+378
+00:51:29,720 --> 00:51:37,720
+ from other two classes, common class one, class three. Okay. So, and again, actually, we can know
+
+379
+00:51:37,720 --> 00:51:42,839
+ for w two, we need to find the corresponding w zero, the bias term, right. So, we show you that
+
+380
+00:51:42,839 --> 00:51:48,600
+ with the one that the closest to w class one. So, actually, here, actually, the class three line is
+
+381
+00:51:48,600 --> 00:51:56,120
+ class two is closer to class one, right. So, the class two to calculate, actually, the bias term
+
+382
+00:51:56,120 --> 00:52:05,160
+ for w two. Okay. So, based on the w one, the corresponding w zero one, w two and the corresponding
+
+383
+00:52:05,160 --> 00:52:12,279
+ w zero two, and we have actually obtained these two different final tracks. For each x, for each x,
+
+384
+00:52:12,360 --> 00:52:21,160
+ right. For each x, and we can substitute into g one x to get a value, right. And also, we can
+
+385
+00:52:21,160 --> 00:52:27,560
+ substitute to g two x, we can get a value. Okay. And then, how to make the decision based on g
+
+386
+00:52:27,560 --> 00:52:34,520
+ one x, based on g two x. Of course, ideally, we see when g x, g one x is positive, then the sample
+
+387
+00:52:34,520 --> 00:52:42,040
+ should be classified to class two. Because g one, actually, should be able to separate the class
+
+388
+00:52:42,040 --> 00:52:48,040
+ two from others, right. If g one x is positive, then it should be classified to class one. Okay.
+
+389
+00:52:48,040 --> 00:52:53,960
+ And if g two x is positive, and then if g one x is negative, then, of course, actually, we should
+
+390
+00:52:53,960 --> 00:53:01,160
+ classify them into class one. Okay. So, this is the decision rules, based on one, one, and the
+
+391
+00:53:02,120 --> 00:53:08,359
+ and the class two. Okay. So, this is the decision rule. If g one x greater than zero, and g two
+
+392
+00:53:08,359 --> 00:53:15,799
+ x negative, so then, we will classify them into class two. Okay. And if g one, g two x is positive,
+
+393
+00:53:15,799 --> 00:53:21,000
+ and g one x is negative, and then, the sample should be class, class one. Because g x, g two x
+
+394
+00:53:21,000 --> 00:53:26,920
+ try to separate class one from other two classes, right. And g one x try to separate class two from
+
+395
+00:53:26,920 --> 00:53:33,160
+ other two classes. Okay. So, this is the g one x greater than zero, g two x negative. Okay. And
+
+396
+00:53:33,160 --> 00:53:42,360
+ then, the message is, how about both negative? If g one x negative, g one x negative, this should
+
+397
+00:53:42,360 --> 00:53:51,720
+ not belong to class two, right. And if g two x negative, this should not belong to class one.
+
+398
+00:53:51,720 --> 00:54:00,359
+ Okay. Then, we should actually, assign this sample to class three. Okay. And then, there is one
+
+399
+00:54:00,359 --> 00:54:08,200
+ additional scenario. How about g x is positive, and g two is positive? There are some possibilities,
+
+400
+00:54:08,200 --> 00:54:15,879
+ right. Some possibilities. g one is positive, and g two is positive. g one x, or this is class one,
+
+401
+00:54:15,880 --> 00:54:23,320
+ and g two x, g two, g one x positive, oh, we see this probably is, is class two. And g one x is
+
+402
+00:54:23,320 --> 00:54:29,160
+ positive, and probably is class one. And then, how to classify, okay. And then, actually, in such a
+
+403
+00:54:29,160 --> 00:54:35,240
+ scenario, we, based on which one is bigger, right. If g one x is greater, then we classify the sample
+
+404
+00:54:35,240 --> 00:54:43,240
+ to class two. If g two is greater, we classify sample to class one. Okay. So, this is the
+
+405
+00:54:43,240 --> 00:54:54,520
+ decision boundary, based on the, about decision rules. Okay. So, the samples in the two, three
+
+406
+00:54:54,520 --> 00:55:01,240
+ classes, and then, I created, actually, like a 10,000 data set, data point, in this region,
+
+407
+00:55:01,879 --> 00:55:07,720
+ in this range, right. And then, we classify each of the samples, based on these classification rules.
+
+408
+00:55:07,720 --> 00:55:13,080
+ And then, finally, we find a region for each of the three classes. So, the yellow region,
+
+409
+00:55:13,080 --> 00:55:23,400
+ for class, actually, the, for class two, right. Yeah. Okay. And then, the green region, and for
+
+410
+00:55:23,400 --> 00:55:33,640
+ class one, and then, the blue region for, actually, class three. Okay. So, we, finally, you know,
+
+411
+00:55:33,640 --> 00:55:40,440
+ we separate, or we divide, or we partition the whole space into three parts, into three regions.
+
+412
+00:55:40,520 --> 00:55:46,840
+ And each region corresponds to one class. So, that is just classification. So, what is classification?
+
+413
+00:55:46,840 --> 00:55:53,000
+ Classification is just the partitioning of the feature space. Okay. Into different regions.
+
+414
+00:55:53,000 --> 00:55:58,280
+ And each region corresponds to one class. So, this is called classification, right. So,
+
+415
+00:55:58,840 --> 00:56:03,880
+ so, indeed, actually, through this, actually, decision rules, and we have divided the whole
+
+416
+00:56:03,880 --> 00:56:13,320
+ space into three parts. And each part corresponds to one class. Okay. So, this is a, you know,
+
+417
+00:56:13,320 --> 00:56:20,680
+ a multiple, you know, analysis. Okay. And so, I think both, actually, you know, two class
+
+418
+00:56:20,680 --> 00:56:27,400
+ two analysis, or multiple class two analysis. The main idea is that we try to find the W's,
+
+419
+00:56:27,960 --> 00:56:35,480
+ okay, the weight vectors, or weight matrix, so that the, within class scatter could be minimized,
+
+420
+00:56:35,480 --> 00:56:40,280
+ between class scatter could be maximized. So, this is actually a very basic idea.
+
+421
+00:56:41,160 --> 00:56:45,960
+ If you answer this idea, I think, in future, in your research or in your, you know,
+
+422
+00:56:45,960 --> 00:56:52,040
+ exploration of any machine learning project, right, actually, you can benefit, actually,
+
+423
+00:56:52,040 --> 00:56:56,440
+ sometimes, based on this idea, you can divide your own ideas. Okay. I think this is a very
+
+424
+00:56:56,440 --> 00:57:03,240
+ important idea in both classification, classifier design, and also the future selection. And in
+
+425
+00:57:03,240 --> 00:57:09,400
+ future selection, we also hope to find the attributes that could actually possess these properties.
+
+426
+00:57:10,200 --> 00:57:15,480
+ Within class, they are very similar. Between class, they are very different. Okay. So, this is actually
+
+427
+00:57:16,120 --> 00:57:22,680
+ the very basic principle in the future, the linear different analysis, maximize, maximization of the
+
+428
+00:57:22,680 --> 00:57:28,040
+ between class difference, the scatter or minimized, within class scatter or difference.
+
+429
+00:57:29,240 --> 00:57:35,560
+ Okay. So, that's an afternoon break with a top of a small machine, which will have a
+
+430
+00:57:36,600 --> 00:57:43,720
+ double different principle to find the projections. Okay. So, that's actually, we have a 10-minute break.
+
+431
+01:06:22,680 --> 01:06:25,720
+ Okay.
+
+432
+01:06:52,680 --> 01:06:55,720
+ Okay.
+
+433
+01:07:22,680 --> 01:07:33,720
+ Okay.
+
+434
+01:07:52,919 --> 01:08:06,839
+ Okay. So, necessarily, we look at another classifier, subordinate machines.
+
+435
+01:08:06,839 --> 01:08:12,759
+ And the subordinate machines can be linear or nonlinear. Okay. So, nonlinear subordinate
+
+436
+01:08:12,759 --> 01:08:18,040
+ machines also called kernel subordinate machines. But in this course, we will talk about the linear
+
+437
+01:08:18,040 --> 01:08:31,319
+ subordinate machines only. Okay. And so, actually, this linear, right, so linear, so linear again,
+
+438
+01:08:31,319 --> 01:08:36,920
+ of course, actually, now in the space, actually, naturally, now the decision boundary of a linear
+
+439
+01:08:36,920 --> 01:08:41,720
+ classifier, actually, is just a straight line, right? So, here, again, we look at the two class
+
+440
+01:08:42,040 --> 01:08:50,040
+ classroom problem. And so, our objective, of course, to find a certain boundary, right?
+
+441
+01:08:50,040 --> 01:08:55,240
+ A certain boundary, so that the sampling of the two classes could be separated by this
+
+442
+01:08:55,240 --> 01:08:59,640
+ decision boundary. In other words, this decision boundary will divide the whole space,
+
+443
+01:08:59,640 --> 01:09:04,600
+ the whole feature space in the two parts, right? One part belongs to class one, and another
+
+444
+01:09:04,600 --> 01:09:11,240
+ class belongs to class two. Okay. So, the objective of a linear classifier is just to
+
+445
+01:09:11,240 --> 01:09:16,280
+ find this straight line, right? And, of course, this hyperplane, or this hyperplane, you know,
+
+446
+01:09:16,280 --> 01:09:22,280
+ linear decision boundary is determined by two parts. One is W, another is a bias term, W, zero.
+
+447
+01:09:22,280 --> 01:09:31,480
+ Okay. And so, of course, the key issue in the, again, in the linear classifier, in this linear
+
+448
+01:09:31,479 --> 01:09:39,160
+ classifier is to find a W and W, zero, so that we can separate the samples correctly. Okay. But,
+
+449
+01:09:39,160 --> 01:09:45,879
+ actually, we're not just known for this objective. We have other objectives. Not just
+
+450
+01:09:45,879 --> 01:09:54,599
+ classifying correctly. We also try to reclassify the sample competently. Okay. So, here, actually,
+
+451
+01:09:54,600 --> 01:10:02,600
+ we have known, like, three examples, three testing data, data point A and the sample B and the sample
+
+452
+01:10:02,600 --> 01:10:13,080
+ C, right? And so, actually, of course, actually, both, all the three samples are located on the positive
+
+453
+01:10:13,080 --> 01:10:17,960
+ side of the decision boundary, right? So, they are located on the side of the class one. So,
+
+454
+01:10:17,960 --> 01:10:24,600
+ the three samples will be classified into class one. Okay. And, but when we classify three samples,
+
+455
+01:10:24,600 --> 01:10:31,240
+ actually, into class one, then we have a different confidence for the three samples, right? And the
+
+456
+01:10:31,240 --> 01:10:38,120
+ class, the sample A, you know, is very far from the decision boundary, right? So, actually, when we
+
+457
+01:10:38,760 --> 01:10:43,640
+ perform this classification to class one, you know, we have very high, we are very confident.
+
+458
+01:10:44,280 --> 01:10:50,360
+ We have high confidence, right? But for sample C, actually, we see it's very close to the decision
+
+459
+01:10:50,360 --> 01:10:55,800
+ boundary, right? Although, no, we're classifying to class three, but actually, it's class one. But
+
+460
+01:10:55,800 --> 01:11:02,120
+ it's marginal, right? It's marginal. Okay. And, actually, in the last week, we already analyzed,
+
+461
+01:11:02,120 --> 01:11:08,520
+ actually, actually, the distance, right? And to the decision boundary. And actually, can be measured
+
+462
+01:11:08,520 --> 01:11:15,560
+ from the GX, right? From the GX. And then, as in the last week, we already know GX divided by the
+
+463
+01:11:15,560 --> 01:11:21,720
+ norm of W, actually, it's just the distance from the data point to the decision boundary, right?
+
+464
+01:11:21,720 --> 01:11:30,120
+ If G, if, if this GX is very small, and then, although it's positive, but just know like,
+
+465
+01:11:30,840 --> 01:11:38,760
+ 0.1 or 0.2 or very small value, right? So, although they are positive, but they are not
+
+466
+01:11:38,760 --> 01:11:46,040
+ positive enough, okay? So, we can already, you know, have a low confidence to classify them into
+
+467
+01:11:46,040 --> 01:11:54,120
+ class one. Okay. And, actually, this confidence, confidence, right, actually, is a, is a, is a
+
+468
+01:11:54,120 --> 01:12:01,160
+ distance from the data point to, on to the decision boundary, to the decision boundary. And,
+
+469
+01:12:01,160 --> 01:12:07,480
+ actually, you know, for, for, for, for a given data set like this, and, actually, we could have many,
+
+470
+01:12:07,480 --> 01:12:14,200
+ actually, actually, linear classifier to separate the sample into two classes. Okay. But, actually,
+
+471
+01:12:14,200 --> 01:12:19,559
+ the data point to the difference, the decision boundary would be very different. Okay. And,
+
+472
+01:12:19,560 --> 01:12:29,080
+ maybe, necessarily, I'll show you one example. This, right? So, these are the data, the data
+
+473
+01:12:29,080 --> 01:12:34,920
+ distribution here, the same. Okay. And, we have two, actually, decision boundaries. We have two
+
+474
+01:12:35,720 --> 01:12:42,360
+ different linear classifiers. One on the left-hand side, another on the right-hand side. And, for
+
+475
+01:12:42,360 --> 01:12:48,040
+ the, on the left-hand side, actually, we can see, for this is our point, right? It's very close to
+
+476
+01:12:48,120 --> 01:12:53,800
+ the decision boundary. Okay. Although, actually, when we classify them, as you, we know, or this
+
+477
+01:12:53,800 --> 01:13:00,200
+ point is looking at the right-hand side, in the positive side of this, of this, actually, decision
+
+478
+01:13:00,200 --> 01:13:08,120
+ boundary, we will classify this sample to the positive class. But, actually, this classification
+
+479
+01:13:08,120 --> 01:13:15,160
+ has a very low confidence, low confidence, right? And, if there is a big change, if some sample,
+
+480
+01:13:15,160 --> 01:13:20,599
+ like, this X, right, this X, if there is a small change, for example, there could be a noise,
+
+481
+01:13:21,240 --> 01:13:29,639
+ measurement noise. And, then, this sample could be located in the negative side of the decision
+
+482
+01:13:29,639 --> 01:13:37,480
+ boundary. Then, the sample could be classified wrongly. Okay. And, similarly, and for other samples
+
+483
+01:13:37,480 --> 01:13:41,960
+ in the negative class, like this one, right, is also close to the decision boundary. Although,
+
+484
+01:13:42,040 --> 01:13:46,600
+ we classify them into class, negative class, but this classification has a low confidence.
+
+485
+01:13:47,880 --> 01:13:54,680
+ Okay. But, this one is very different. Okay. So, this is another decision boundary,
+
+486
+01:13:54,680 --> 01:13:59,240
+ another classifier. Okay. And, we can see, actually, the distance,
+
+487
+01:14:01,720 --> 01:14:04,200
+ the distance, right, to the decision boundary
+
+488
+01:14:04,200 --> 01:14:12,679
+ is very big, is bigger, right, compared with this scenario. Okay. And, then, in this scenario,
+
+489
+01:14:12,679 --> 01:14:20,040
+ not only we can classify the samples correctly, but we can also classify the samples confidently,
+
+490
+01:14:20,760 --> 01:14:26,200
+ confidently. Okay. So, certainly, you know, the classifying the right-hand side, actually,
+
+491
+01:14:26,519 --> 01:14:34,760
+ it's preferred. It's preferred. Okay. So, we want to find such a classifier,
+
+492
+01:14:35,480 --> 01:14:43,400
+ and that the sample classified correctly and also confidently. So, that's, you know, some
+
+493
+01:14:44,200 --> 01:14:49,400
+ observation from the data, right, actually some analysis. We know the classification,
+
+494
+01:14:49,400 --> 01:14:55,320
+ not just for classify them correctly. They know the only goal, right. Another goal is that we should
+
+495
+01:14:55,320 --> 01:15:03,960
+ classify them confidently. So, this is, you know, the objective, classify the sample correctly,
+
+496
+01:15:03,960 --> 01:15:10,200
+ and also classify the sample confidently. That means, actually, we should find such a decision
+
+497
+01:15:10,200 --> 01:15:19,000
+ boundary that all the samples are far away from the decision boundaries. So, this is our objective.
+
+498
+01:15:19,960 --> 01:15:26,520
+ Okay. So, from here, you can see that this analysis, right, is from a different angle,
+
+499
+01:15:26,520 --> 01:15:31,160
+ right. This is different from the feature linear digital analysis. Okay. In the feature
+
+500
+01:15:31,160 --> 01:15:37,400
+ digital analysis, we try to look at the, you know, within class spread and between class spread.
+
+501
+01:15:37,400 --> 01:15:44,280
+ But in this concept, actually, not used in the spoil and the machines, because here we are only
+
+502
+01:15:44,280 --> 01:15:49,960
+ concerned with the points close to the decision boundary. We don't care whether someone in the
+
+503
+01:15:49,960 --> 01:15:56,280
+ three-seem class actually are within the same class, right. The scatter is minimized or not. We
+
+504
+01:15:56,280 --> 01:16:02,360
+ don't care about this. Instead, we just care about the data points on the decision boundary.
+
+505
+01:16:02,360 --> 01:16:06,679
+ Actually, these points are normally the most difficult, actually, to classify.
+
+506
+01:16:08,200 --> 01:16:13,320
+ Samples close to the decision boundary are normally those samples that are difficult to
+
+507
+01:16:13,320 --> 01:16:20,200
+ classify. Okay. So, we only concern about this part of the samples, the data. So, that's the
+
+508
+01:16:20,200 --> 01:16:31,320
+ best idea. I think the motivation of the support machine. Okay. Okay. So, let's actually talk about
+
+509
+01:16:31,320 --> 01:16:38,040
+ the formulation, the fundamental formulation of the problem. And so, actually, the linear
+
+510
+01:16:38,040 --> 01:16:44,519
+ classifier, and we have two parts, right. One is the projection of W, another is the bias term.
+
+511
+01:16:44,519 --> 01:16:49,320
+ Okay. So, here, actually, for the convention, it's for when machine, we use the B to do the
+
+512
+01:16:49,320 --> 01:16:54,200
+ bias term. Okay. So, this is just the W zero, right. In the previous, the feature linear
+
+513
+01:16:54,200 --> 01:17:03,240
+ analysis, this is the bias term, constant. Okay. The W is the projection. Okay. So, and so, the
+
+514
+01:17:03,240 --> 01:17:08,760
+ W transpose X plus B equals zero is just the equation for the decision boundary. Okay.
+
+515
+01:17:13,320 --> 01:17:21,880
+ And in one side, and then the data points actually will achieve a positive decision
+
+516
+01:17:21,880 --> 01:17:27,800
+ function. That means the W transpose X plus B is greater than zero. So, these are the samples
+
+517
+01:17:27,800 --> 01:17:34,360
+ for class Y. Okay. And then, if this is negative, then this sample actually class minus Y. Okay.
+
+518
+01:17:34,360 --> 01:17:38,360
+ In support of the machine, it's actually the class label. Normally, we don't use the class
+
+519
+01:17:38,360 --> 01:17:44,920
+ one, class two. We use the class one to denote one class, the label minus one to denote class,
+
+520
+01:17:44,920 --> 01:17:52,920
+ actually, class two or any class, right. So, we use the minus one or one to denote
+
+521
+01:17:53,000 --> 01:18:01,480
+ actually the two different classes. Okay. And, okay. So, this is the, so, the classification,
+
+522
+01:18:01,480 --> 01:18:05,720
+ right, the decision boundary. This is the same as the feature linear denomination. For any linear
+
+523
+01:18:05,720 --> 01:18:13,960
+ classifier, so, we have this equation. Any linear classifier. Okay. We have this, okay. We have
+
+524
+01:18:13,960 --> 01:18:20,200
+ a W, we have a B. But just the different methods have different ways to find these W and the B.
+
+525
+01:18:21,160 --> 01:18:29,559
+ Okay. And now, actually, we need to introduce a concept which is called a margin of separation.
+
+526
+01:18:30,519 --> 01:18:36,679
+ Okay. And so, here, actually, we have a, this is a decision boundary. This is a decision
+
+527
+01:18:36,679 --> 01:18:42,599
+ boundary. The solid line here is a decision boundary. And actually, here, we also have two,
+
+528
+01:18:42,599 --> 01:18:48,040
+ actually, dashed lines. So, these two dashed lines are parallel to this, actually, the
+
+529
+01:18:49,000 --> 01:18:57,080
+ solid line which is the decision boundary. And these two dashed lines pass through the samples
+
+530
+01:18:57,080 --> 01:19:04,200
+ that are closest to the decision boundary. Okay. You see, these are the samples, these two samples,
+
+531
+01:19:05,000 --> 01:19:11,400
+ actually, so, this is the, this is the hyperplane, this is the line, actually, pass through this
+
+532
+01:19:11,480 --> 01:19:18,280
+ sample. Actually, this sample, two samples are the closest to the decision boundary. And on another
+
+533
+01:19:18,280 --> 01:19:23,879
+ side of this, this is the sample in another class, and we have one sample here which is
+
+534
+01:19:23,879 --> 01:19:29,080
+ closest to the decision boundary. And then, we have a parallel, actually, you know, three line here,
+
+535
+01:19:29,080 --> 01:19:35,960
+ right, dashed line. And actually, the distance between these two dashed lines is called margin
+
+536
+01:19:36,040 --> 01:19:43,000
+ separation, margin separation. Okay. So, the separation between the hyperplane and the
+
+537
+01:19:43,000 --> 01:19:54,440
+ closest data points is called the margin separation. Okay. And actually, the objective of support
+
+538
+01:19:54,440 --> 01:20:01,560
+ weather measurements is to find such W and B, and so that this margin separation is maximized.
+
+539
+01:20:02,360 --> 01:20:07,800
+ So, this is the best-posed idea. Margin separation is maximized. So, this is very different from the
+
+540
+01:20:08,520 --> 01:20:13,880
+ feature linear German analysis, right? So, we try to maximize the margin separation. But this
+
+541
+01:20:13,880 --> 01:20:21,160
+ margin separation, of course, determined by two factors. One is the location and the orientation
+
+542
+01:20:21,160 --> 01:20:26,440
+ of the decision boundary, right? And another, actually, is the sample closest to the decision
+
+543
+01:20:26,440 --> 01:20:35,080
+ boundaries. Okay. So, this is a good support weather measurement to find such a hyperplane,
+
+544
+01:20:35,080 --> 01:20:42,120
+ a particular hyperplane, the decision boundary, as for which the margin of separation is maximized.
+
+545
+01:20:43,160 --> 01:20:50,919
+ We want to find this. And just now, we know, we know, we analyze the scenario, right? We have
+
+546
+01:20:50,920 --> 01:20:58,360
+ three samples, A, B, C, right? We see, oh, the sample C is very close to the decision boundary,
+
+547
+01:20:58,360 --> 01:21:06,040
+ so we have a low confidence. But now, if margin of separation maximizes, that means the distance,
+
+548
+01:21:06,040 --> 01:21:10,840
+ even the closest distance, right, to the decision boundary could have a higher confidence
+
+549
+01:21:10,840 --> 01:21:16,840
+ to be classified into one of the two classes. Okay. So, here, we see maximizing the margin of
+
+550
+01:21:16,840 --> 01:21:22,520
+ separation. Actually, also, the maximization of the confidence to perform the classification
+
+551
+01:21:23,480 --> 01:21:28,360
+ of the sample in the two classes, right? Even for the samples, they are closest to the decision
+
+552
+01:21:28,360 --> 01:21:34,200
+ boundary. And this margin is maximized. And we have the highest confidence to separate them,
+
+553
+01:21:34,200 --> 01:21:42,440
+ to classify them. Okay. And under this condition, the decision
+
+554
+01:21:42,440 --> 01:21:47,879
+ boundary or decision boundary is called the optimal hyperplane, the optimal decision boundary.
+
+555
+01:21:48,599 --> 01:21:53,559
+ Okay. The decision boundary that has the maximum margin of separation, actually,
+
+556
+01:21:53,559 --> 01:22:01,320
+ is called the optimal hyperplane, the optimal decision boundary. Okay. Of course, the goal
+
+557
+01:22:01,320 --> 01:22:07,400
+ of support animation is to find the optimal hyperplane that could separate the samples
+
+558
+01:22:07,400 --> 01:22:14,280
+ in the two classes correctly and also confidently. Okay.
+
+559
+01:22:18,920 --> 01:22:25,480
+ Okay. So, I think in the last week, you already know, Anna did, right? So, for any data points,
+
+560
+01:22:25,480 --> 01:22:33,160
+ actually, X, right? X. And actually, now, we can have a tree projection of this X on this
+
+561
+01:22:33,160 --> 01:22:40,200
+ decision boundary. And we can do the projection here, just Xp, right? Xp. And actually, this
+
+562
+01:22:40,200 --> 01:22:48,040
+ decision boundary is perpendicular to the W. Okay. And this W, if we normalize W by dividing
+
+563
+01:22:48,040 --> 01:22:55,400
+ W by the normal W, right? Then we can get a directional vector. This directional vector,
+
+564
+01:22:55,400 --> 01:23:02,280
+ actually, is not given the direction of W. But the length, the norm is just 1. Okay. And
+
+565
+01:23:03,320 --> 01:23:09,480
+ so, actually, for such a scenario tree, we also analyze a tree for any arbitrary point X.
+
+566
+01:23:10,599 --> 01:23:16,920
+ It can be represented by the Xp plus R times, R is the distance from this X to the decision
+
+567
+01:23:16,920 --> 01:23:25,720
+ boundary, right? And times the direction W times W norm. Okay. And this W should point to the direction,
+
+568
+01:23:26,360 --> 01:23:33,400
+ to the positive side of the decision boundary, point to the positive class. Okay. And also,
+
+569
+01:23:33,400 --> 01:23:39,240
+ we know in the last week, we analyzed this already, right? And actually, we substitute this X, actually,
+
+570
+01:23:39,240 --> 01:23:46,760
+ and we know this, you know, the gx divided by the norm is just a distance between the data points
+
+571
+01:23:46,760 --> 01:23:51,400
+ and to the decision boundary, right? Data points to the decision boundary. We need to
+
+572
+01:23:51,480 --> 01:23:55,799
+ use these results because the model of separation, right, actually, just the points
+
+573
+01:23:56,360 --> 01:24:01,240
+ actually to the decision boundary, the distance to the point, to the decision boundary. We should
+
+574
+01:24:01,240 --> 01:24:06,120
+ maximize the model of separation, right? So, this certainly is relevant to the distance measure,
+
+575
+01:24:06,120 --> 01:24:16,599
+ right? For gx and then divided by the normal W, just R. Okay. Okay. So, now, for this tree,
+
+576
+01:24:17,000 --> 01:24:21,880
+ just now, we see, you know, when we perform classification, we see for positive class,
+
+577
+01:24:21,880 --> 01:24:27,560
+ the W transpose X should be positive greater than zero. For net two samples, W transpose X
+
+578
+01:24:27,560 --> 01:24:33,800
+ actually plus B should be negative, less than zero. Okay. And actually, we can always scale
+
+579
+01:24:33,800 --> 01:24:40,600
+ a W and a B and so that we can satisfy this condition. W transpose X plus B greater than one.
+
+580
+01:24:41,320 --> 01:24:46,360
+ For example, if our W transpose plus B is greater than, it's just known that the
+
+581
+01:24:46,360 --> 01:24:50,920
+ smallest value is zero to one. Then you times ten, ten, right? Then you can get actually,
+
+582
+01:24:50,920 --> 01:24:57,960
+ it will be greater than ten, than one. Okay. So, we can always scale the W and the B and so that
+
+583
+01:24:57,960 --> 01:25:03,720
+ this condition could be satisfied. W transpose X plus B greater than or equals one for all the
+
+584
+01:25:03,800 --> 01:25:10,920
+ sample in class one. For all sample in class minus one, the W transpose X plus B should be
+
+585
+01:25:10,920 --> 01:25:19,640
+ less than or equals minus one. Okay. We can always scale W and B and so that
+
+586
+01:25:21,480 --> 01:25:27,720
+ these two conditions are satisfied. Okay. And let's actually have a look of the,
+
+587
+01:25:28,680 --> 01:25:35,720
+ oh, look at this. Okay. So, this is the W transpose X plus B equals zero, right? So,
+
+588
+01:25:35,720 --> 01:25:40,200
+ even if you scale W and B, then this is still that zero, right? Even if that means scale,
+
+589
+01:25:40,200 --> 01:25:44,280
+ that means you times the constant to the two sides, it's still zero, right? But actually,
+
+590
+01:25:44,280 --> 01:25:50,840
+ we can push the value, right? W transpose X plus B for arbitrary positive value. Okay. Other scale
+
+591
+01:25:50,920 --> 01:25:58,440
+ to, to greater than or equals one, than equals one. And then here we have two lines here and all the
+
+592
+01:25:58,440 --> 01:26:05,480
+ points on this dash line actually certify this condition. W transpose X plus B equals positive
+
+593
+01:26:05,480 --> 01:26:11,960
+ one. Okay. And all actually, another side actually, we also have a line that is both parallel to this
+
+594
+01:26:11,960 --> 01:26:19,960
+ hyperplane and all the points on this hyperplane certify this condition. W transpose X plus B
+
+595
+01:26:20,040 --> 01:26:27,480
+ equals minus one. Okay. And actually, all the points that you certify this condition,
+
+596
+01:26:29,800 --> 01:26:36,920
+ one or minus one are called support vectors. So, this is no method called support vector machine,
+
+597
+01:26:36,920 --> 01:26:43,560
+ right? So, what are support vectors? So, these are the support vectors. All the points, right? All the
+
+598
+01:26:43,560 --> 01:26:52,280
+ points that certify this condition are called support vectors. Okay. So, here they have this
+
+599
+01:26:52,280 --> 01:26:59,400
+ two-sign boundary, right? Yeah. Okay. The particular data points for which the above
+
+600
+01:27:02,200 --> 01:27:07,080
+ is certified with equality, right? Because greater than equals, right? So, certify the equality
+
+601
+01:27:07,080 --> 01:27:13,880
+ condition. And then, so this number are called support vectors. Okay. And later, we will see
+
+602
+01:27:13,880 --> 01:27:20,120
+ this half, optimal hyperplane are determined by this optimal, by this support vectors only.
+
+603
+01:27:21,320 --> 01:27:27,400
+ So, here in the, in this diagram, we just have three support vectors. Okay. So, these are the,
+
+604
+01:27:27,400 --> 01:27:33,320
+ in other words, this dissonant boundary is determined by these three support vectors only.
+
+605
+01:27:34,120 --> 01:27:40,200
+ So, this is also the reason why this classification argument is called support vector machines.
+
+606
+01:27:40,200 --> 01:27:46,440
+ Because this dissonant boundary, this classifier, is determined by these three support vectors only.
+
+607
+01:27:47,160 --> 01:27:55,000
+ Okay. So, so this is not the support vector machine, right? So, those samples certify this
+
+608
+01:27:55,000 --> 01:28:03,560
+ equality condition, actually, are called support vectors. Okay. So, necessarily, now we look at
+
+609
+01:28:03,560 --> 01:28:11,400
+ this. Okay. And so, we, we submit that the support vectors, right, into the dissonant boundary,
+
+610
+01:28:11,400 --> 01:28:20,040
+ into the, into the decimal function. And the GX, GX is W transpose plus B, right, equals one.
+
+611
+01:28:20,040 --> 01:28:26,920
+ This is for positive class. Okay. And then the, the GX, the decimal function, W transpose X plus B,
+
+612
+01:28:26,920 --> 01:28:33,240
+ right, actually equals minus one. Okay. And then the distance to the dissonant boundary for the
+
+613
+01:28:33,240 --> 01:28:38,120
+ support vectors, right, for positive support vectors, the distance to the dissonant boundary is
+
+614
+01:28:38,120 --> 01:28:45,800
+ one to the GX, right, divided by the norm of W. And then the distance for negative support vectors
+
+615
+01:28:45,800 --> 01:28:52,600
+ to the dissonant boundary is minus one divided by the norm of W. Okay. So, this is the distance
+
+616
+01:28:54,280 --> 01:29:01,000
+ from these positive, positive support vectors to the dissonant boundary. And the minus one divided
+
+617
+01:29:01,000 --> 01:29:08,120
+ by norm is the distance from this negative support vector to the dissonant boundary. Okay. And then
+
+618
+01:29:08,120 --> 01:29:16,360
+ the margin of separation actually is just actually twice of this, right. One divided by norm,
+
+619
+01:29:16,360 --> 01:29:21,640
+ right. Another is the minus one divided by norm actually. So, the distance here actually is two
+
+620
+01:29:21,640 --> 01:29:29,400
+ divided by the norm. So, this is the margin of separation. Okay. So, we want to find such a W
+
+621
+01:29:29,400 --> 01:29:36,040
+ and so that this rule is maximized. Of course, if you just look at this condition,
+
+622
+01:29:36,040 --> 01:29:41,000
+ they're not sufficient, right. Because actually W, if you see the norm is zero, then this is
+
+623
+01:29:41,000 --> 01:29:47,000
+ infinity, right. But here actually, we just actually, this norm is maximized because we want to
+
+624
+01:29:47,880 --> 01:29:52,840
+ maximize the confidence. But there is another condition, the sample needs to be classified
+
+625
+01:29:53,560 --> 01:29:59,320
+ correctly. Okay. So, we need to combine the two. Okay. So, necessarily, we formulate support
+
+626
+01:29:59,400 --> 01:30:10,040
+ vectors. We try to maximize this rule. Okay. And then actually, we maximize this rule, right.
+
+627
+01:30:10,040 --> 01:30:15,639
+ Then the margin of separation. Actually, maximization of rule actually is equivalent to
+
+628
+01:30:15,639 --> 01:30:22,759
+ minimization of the norm of W. Okay. Or actually, in practice, we don't actually minimize the norm
+
+629
+01:30:22,840 --> 01:30:36,600
+ of the L1 norm of W. Instead, we try to minimize the square norm, the L2 norm. Okay. So, that's actually,
+
+630
+01:30:36,600 --> 01:30:43,880
+ you know, this is the alternative. And the condition, the samples are classified correctly.
+
+631
+01:30:43,880 --> 01:30:50,760
+ And this condition will maximize the margin of separation. Okay. And then actually,
+
+632
+01:30:50,760 --> 01:30:55,720
+ based on this analysis, actually, we know the support vector machine, actually,
+
+633
+01:30:55,720 --> 01:31:01,080
+ actually, it can be a tree formulated as such a constant or malization problem.
+
+634
+01:31:02,120 --> 01:31:08,840
+ Constant or malization, right. So, given the training samples, SDI, so these are no training
+
+635
+01:31:08,840 --> 01:31:13,240
+ sample pairs, right. We have the data, the representation of the sample, and also the class
+
+636
+01:31:13,240 --> 01:31:21,960
+ label DI. Okay. The DI is either positive one or negative one. Okay. And the optimal value of the
+
+637
+01:31:21,960 --> 01:31:28,920
+ width vector W and the bus B, we want to find these values, optimal values, B, W and B. And such that
+
+638
+01:31:28,920 --> 01:31:34,280
+ they set further constraint. This constraint is just a tree. All the samples need to be
+
+639
+01:31:34,280 --> 01:31:40,200
+ classified correctly. We know for positive samples, W transpose X plus Y should be greater than equals
+
+640
+01:31:40,200 --> 01:31:46,519
+ one. Okay. For negative samples, W transpose X plus B should be less than or equal to minus one.
+
+641
+01:31:47,000 --> 01:31:52,760
+ Okay. But we can combine the two conditions into one, right. So, that is just DI, the class label,
+
+642
+01:31:52,760 --> 01:31:58,599
+ times this is greater than equals one. When DI is positive, we have no problem. This is just W
+
+643
+01:31:58,599 --> 01:32:04,679
+ transpose X plus one, right. When DI negative, so these are less than minus one. So, the same.
+
+644
+01:32:04,760 --> 01:32:13,880
+ Okay. So, we combine the two into one condition. Okay. Under this condition, we maximize, we minimize
+
+645
+01:32:13,880 --> 01:32:20,200
+ the square norm of W because the rule, right, equal to two divided by norm of W, right.
+
+646
+01:32:20,200 --> 01:32:27,560
+ Maximization of rule is equal to minimization of the normal W. But in practice, the
+
+647
+01:32:28,280 --> 01:32:36,280
+ minimization of the normal W is a bit challenging. We minimize the square of the normal W. Okay.
+
+648
+01:32:36,280 --> 01:32:42,280
+ So, when we have half a tree, normally we put a half because later we see when we look at the
+
+649
+01:32:42,280 --> 01:32:46,360
+ derivative, this half will be canceled, right. So, quite often you also will see a cross-fond
+
+650
+01:32:46,360 --> 01:32:52,520
+ line, something like a half of that. Because later, this half could be canceled. Okay. So,
+
+651
+01:32:52,600 --> 01:32:58,120
+ this does not matter, right. Even if you don't have a half, it's also okay. So, we try to minimize
+
+652
+01:32:58,120 --> 01:33:05,960
+ this cross-fond shape. Subject to these conditions. These conditions just for each of the training
+
+653
+01:33:05,960 --> 01:33:13,880
+ sample, they should be classified correctly. So, correctly under this condition, we maximize the
+
+654
+01:33:13,880 --> 01:33:20,280
+ confidence. So, this is a basic idea of the support and measures. So, you can see this is a different
+
+655
+01:33:20,840 --> 01:33:28,120
+ from the Fisher's linear treatment analysis. Very different ideas. Okay. And actually,
+
+656
+01:33:28,120 --> 01:33:33,320
+ before machine learning, before deep learning, right, different networks and the for natural
+
+657
+01:33:33,320 --> 01:33:38,840
+ angular procession, for the image procession, that's as much as data. Actually, the subordinate
+
+658
+01:33:38,840 --> 01:33:43,960
+ machine is the most popular, you know, research field in the machine, in machine learning.
+
+659
+01:33:44,920 --> 01:33:48,120
+ So, because of the very good performance of the support and measures.
+
+660
+01:33:49,480 --> 01:33:54,920
+ So, now, actually through analysis, right. Finally, the support and measures summarize
+
+661
+01:33:54,920 --> 01:34:00,440
+ as a constant or malation problem. Again, you know, this formulation is a,
+
+662
+01:34:00,440 --> 01:34:05,480
+ is a malation problem. But here is a bit different. It's a constant malation problem.
+
+663
+01:34:06,200 --> 01:34:13,160
+ The constant here is, the constant here are from all the training sample. For each of the
+
+664
+01:34:13,160 --> 01:34:18,040
+ training sample, we have one constant, right. The training sample need to be classified correctly.
+
+665
+01:34:18,040 --> 01:34:24,120
+ For each training sample, we have one constant. So, the, with here, we have a total, we have n
+
+666
+01:34:24,120 --> 01:34:33,400
+ constant. n here is the number of training samples. Okay. i from 1 to n. Okay. For each of the
+
+667
+01:34:33,400 --> 01:34:39,080
+ sample, we have one constant. This constant, just that, this sample should be classified correctly.
+
+668
+01:34:39,080 --> 01:34:46,760
+ Okay. This sample, W transpose X plus B should be greater than 1 or equal to 1 or less than or
+
+669
+01:34:46,760 --> 01:34:54,760
+ equal to minus 1. Okay. So, this is the constant or malation problem, right. So, necessary,
+
+670
+01:34:55,400 --> 01:35:01,000
+ to find the W, we should try to, our best, right, to solve this constant or malation problem.
+
+671
+01:35:02,440 --> 01:35:06,360
+ I think for constant or malation problem, I think you already started that, right, before
+
+672
+01:35:07,080 --> 01:35:11,320
+ and where you started in year one or year two, right. When we started calculus, actually,
+
+673
+01:35:11,320 --> 01:35:17,320
+ we started constant or malation, right. And when we started the derivative, I think you remember,
+
+674
+01:35:17,320 --> 01:35:23,480
+ right, calculus, actually, we learned, we have the knowledge of constant or malation. Okay. And
+
+675
+01:35:23,480 --> 01:35:31,160
+ actually, in the NTULAN website, actually, I upload one supplementary material for the constant
+
+676
+01:35:31,240 --> 01:35:39,320
+ or malation problem. Okay. You can have a look at that. Okay. And so, now, based on this constant
+
+677
+01:35:39,320 --> 01:35:44,599
+ and this or malation criteria, right, and so how to solve the constant or malation problem.
+
+678
+01:35:45,639 --> 01:35:50,599
+ And then we can use the so-called Lagrange multiplier method, right. Okay. So,
+
+679
+01:35:52,920 --> 01:35:57,720
+ okay. And the constant or malation problem has a falling characteristic. The cost function,
+
+680
+01:35:57,720 --> 01:36:03,320
+ Jw is a convex, convex, just like a bow here, right, a bow, actually, we can find the optimal
+
+681
+01:36:03,320 --> 01:36:10,920
+ solution, global optimal solution. Okay. And actually, then the constant are linear in W.
+
+682
+01:36:12,520 --> 01:36:18,920
+ So, for this kind of linear W, actually, we can use the so-called Lagrange multiplier method
+
+683
+01:36:18,920 --> 01:36:29,080
+ to solve. Okay. And, okay. So, actually, we can introduce this, actually, the Lagrange,
+
+684
+01:36:29,640 --> 01:36:36,040
+ Lagrange function, which contains two parts. The first part is just the cost function we try to
+
+685
+01:36:36,040 --> 01:36:43,080
+ minimize, the half of the square norm of W. Then the second half, actually, the second part here,
+
+686
+01:36:43,080 --> 01:36:51,080
+ comes from the constant. Okay. And if you look at the textbook or even you recall the constant
+
+687
+01:36:51,080 --> 01:36:56,519
+ or malation method, so normally, we have a cost function and we have constant. Normally,
+
+688
+01:36:56,519 --> 01:37:03,880
+ the constant should be something like the constant, see the Gx or Hx is less than or equal to zero,
+
+689
+01:37:03,880 --> 01:37:08,840
+ right. Normally, we have this kind of constant. Okay. But here, our constant is here, that tree,
+
+690
+01:37:09,800 --> 01:37:15,800
+ d times greater than or equal to minus one, greater than one, right. Of course, here, we should
+
+691
+01:37:15,800 --> 01:37:21,960
+ formulate, we should move the one to the left-hand side. So, greater than zero. But this is different
+
+692
+01:37:21,960 --> 01:37:26,200
+ from the constant in the conventional, you know, that the constant should be less than or equal to
+
+693
+01:37:26,200 --> 01:37:35,080
+ zero, right. So, if we put a minus sign before that, so minus di times W transpose Xi plus b
+
+694
+01:37:35,080 --> 01:37:43,559
+ minus one, less than or equal to zero. Okay. And then, we introduce a multiplier. Okay. So,
+
+695
+01:37:43,559 --> 01:37:49,720
+ for each constant, we introduce one multiplier. In your previous, you know, we say, when you solve
+
+696
+01:37:49,720 --> 01:37:55,960
+ the constant or malation problem, use the Lagrange multiplier method. Normally, we just have one
+
+697
+01:37:55,960 --> 01:38:02,920
+ constant. But here, we have an n constant. Because for each sample, we have one constant.
+
+698
+01:38:03,640 --> 01:38:13,160
+ Okay. So, here, we introduce n multipliers. Alpha one, alpha two, and alpha n. For each alpha,
+
+699
+01:38:13,160 --> 01:38:20,520
+ correspond to one constant. Okay. So, we can have a one, minus alpha one times the constant.
+
+700
+01:38:20,520 --> 01:38:25,640
+ Minus alpha two times the constant, right. So, finally, we summarize that together,
+
+701
+01:38:25,720 --> 01:38:32,680
+ actually, the totally n constant into one, which is i from one to n, summation of all the constant,
+
+702
+01:38:34,120 --> 01:38:45,480
+ times the Lagrange multiplier, alpha i. Okay. So, we should find such W, b, and alpha,
+
+703
+01:38:45,480 --> 01:38:54,600
+ so that this L is minimized. So, this is our next objective, right. We should find such W
+
+704
+01:38:55,880 --> 01:39:04,040
+ b and alpha as that, this L function, Lagrange function, right, is minimized.
+
+705
+01:39:06,680 --> 01:39:13,720
+ Okay. So, now, of course, we have a basic condition, right, to minimize a function. Certainly,
+
+706
+01:39:13,720 --> 01:39:20,360
+ the first orderity of this function will respect the coefficient, will respect the W, b,
+
+707
+01:39:20,360 --> 01:39:27,080
+ alpha, should be zero, right. So, this is a condition. Okay. So, that's actually, we look
+
+708
+01:39:27,080 --> 01:39:33,559
+ at these conditions. Okay. Of course, this alpha i actually should be non-negative, non-negative.
+
+709
+01:39:35,080 --> 01:39:44,280
+ Okay. And, later, you will find that among all the n samples, very few alphas will be non-zeroes.
+
+710
+01:39:44,759 --> 01:39:53,240
+ Most of the alphas will be zeroes. Okay. Only those superwaters have non-zero alphas.
+
+711
+01:39:53,800 --> 01:39:59,719
+ All others have zero alphas. Okay. But, at the beginning, we don't know, now, in the hard
+
+712
+01:39:59,719 --> 01:40:04,200
+ domain of space, you cannot see the data, right. You don't know which sample is a supervector.
+
+713
+01:40:04,759 --> 01:40:10,599
+ We don't know. Okay. So, we can't, we don't know which alpha is zero, right. But, finally,
+
+714
+01:40:11,080 --> 01:40:18,760
+ we can find, actually, the alpha values for all the samples, alpha 1, alpha n. Then, you will
+
+715
+01:40:18,760 --> 01:40:24,680
+ find, actually, based on whether alpha is zero or non-zero, we will determine whether it is a
+
+716
+01:40:24,680 --> 01:40:32,920
+ supervector or non-supervector. Okay. So, next, actually, we try to solve this problem. And,
+
+717
+01:40:32,920 --> 01:40:39,320
+ first, look at the first orderity of L with respect to W. This should be zero. And, first,
+
+718
+01:40:39,400 --> 01:40:47,240
+ all the derivative of L with respect to B should also be zero. Right? Okay. So, we differentiate L
+
+719
+01:40:47,240 --> 01:40:55,240
+ with respect to W and B. So, the first orderity of L with respect to W should be zero. Right? This
+
+720
+01:40:55,240 --> 01:41:03,240
+ is a condition, right? Condition. Okay. And, then, we first look at the form of condition 1.
+
+721
+01:41:04,040 --> 01:41:11,400
+ First orderity with respect to W. This part is a function of W, right? W times W. Actually,
+
+722
+01:41:11,400 --> 01:41:16,840
+ the first orderity of L is 2W. Then, this half could be cancelled. And, for this part,
+
+723
+01:41:16,840 --> 01:41:26,440
+ R for i, d i, W transpose xi. So, the first orderity with respect to W will be R for i, d i, xi.
+
+724
+01:41:27,080 --> 01:41:32,599
+ Okay. Then, the other part, actually, is a closed rate to B, right? We don't need to care. Okay.
+
+725
+01:41:32,599 --> 01:41:39,240
+ So, from the condition 1, actually, we know the first orderity, right? Okay. W transpose W,
+
+726
+01:41:39,879 --> 01:41:46,280
+ first orderity, actually, is 2W. Okay. And, then, actually, the second part, right, is R for i,
+
+727
+01:41:46,360 --> 01:42:00,759
+ d i, xi. Okay. And, then, actually, now, okay. i from 1, actually, to n. Okay. And, so, this
+
+728
+01:42:00,759 --> 01:42:06,519
+ should be zero. Should be zero. So, for this part, actually, then, from this, actually, we can obtain
+
+729
+01:42:06,519 --> 01:42:13,240
+ result W equals R for i, d i, xi. So, this, actually, looks a bit strange, right? A bit strange.
+
+730
+01:42:14,200 --> 01:42:20,040
+ Okay. Actually, the W, actually, is a linear summation. It's a W-summation of the training
+
+731
+01:42:20,040 --> 01:42:27,960
+ samples. This is the support rate, right? The weight. Weight, no, it's the summation of the input xi.
+
+732
+01:42:29,480 --> 01:42:36,120
+ But each of the sample xi has a corresponding weightage. The weight is just the R for i,
+
+733
+01:42:36,120 --> 01:42:41,480
+ the corresponding multiplier. And, multiply the class label, d i.
+
+734
+01:42:43,400 --> 01:42:49,880
+ Right? d i. The W, okay. I just mentioned, later, you will see, most of the alpha will be zeros.
+
+735
+01:42:51,000 --> 01:42:56,840
+ Only a few alpha will be non-zero. So, that means, only those small number of sub-vectors
+
+736
+01:42:56,840 --> 01:43:04,519
+ will determine the W. The linear summation, the weight-summ of the sub-vectors, is just
+
+737
+01:43:05,480 --> 01:43:12,599
+ the weight vector W. Right? From here, no, it seems that this W is very easy to find, right?
+
+738
+01:43:12,600 --> 01:43:19,880
+ As long as we know the alpha values, and then, we can easily calculate the W, because d i is the
+
+739
+01:43:19,880 --> 01:43:24,600
+ class label, which is known. xi is a training sample, representation, of course, it is known.
+
+740
+01:43:25,320 --> 01:43:33,400
+ The summation of them is just the W. Okay. So, from the first known condition, we obtain these results.
+
+741
+01:43:34,920 --> 01:43:40,600
+ So, let's say, no, we look at another condition. Part of derivative. Actually, if we look at this
+
+742
+01:43:40,600 --> 01:43:46,440
+ set function, right? So, the first part is not related to B, right? Only the second part,
+
+743
+01:43:46,440 --> 01:43:53,480
+ alpha i, d i, times B. Okay. Then, the derivative, no, the B will be kind of, will be alpha i,
+
+744
+01:43:53,480 --> 01:44:01,880
+ d i, i from 1 to n, right? So, from here, from the second condition, derivative will be zero.
+
+745
+01:44:01,880 --> 01:44:11,000
+ Okay. And this will be, that means that alpha i, d i equals zero. Submission of all of them equals zero.
+
+746
+01:44:13,240 --> 01:44:19,480
+ And actually, the d i, d i, you know, could be positive, right? Or could be negative.
+
+747
+01:44:20,200 --> 01:44:29,240
+ But finally, actually, alpha i is positive. Or at least, it's non-negative. Okay. And actually,
+
+748
+01:44:29,240 --> 01:44:35,400
+ we know some of the alpha will be zero, right? So, when we do the summation, it has no contribution.
+
+749
+01:44:36,280 --> 01:44:43,880
+ Only the support vector, which have a non-zero alpha, right? And then, alpha i, d i, that means
+
+750
+01:44:43,880 --> 01:44:49,400
+ the summation of the alpha of the positive support vectors should be equal to the summation of the
+
+751
+01:44:49,400 --> 01:44:56,040
+ alpha of the negative support vectors. So, this is also a very interesting result, right? We
+
+752
+01:44:56,040 --> 01:45:02,360
+ catered alphas for all the support vectors, for all the samples. But most of the samples, we have
+
+753
+01:45:02,360 --> 01:45:07,560
+ zero alpha. On the support vectors, we have non-zero alpha. But the support vectors of the positive
+
+754
+01:45:07,560 --> 01:45:12,280
+ alpha, the positive support vectors, the summation alpha of the positive support vector, should be
+
+755
+01:45:12,280 --> 01:45:20,600
+ equal to the summation of the alphas of the negative support vectors. So, this is from condition B.
+
+756
+01:45:20,680 --> 01:45:23,400
+ Then, we obtain these results. Okay.
+
+757
+01:45:28,120 --> 01:45:33,000
+ Okay. So, actually, beside this condition, we have some other conditions. So, actually,
+
+758
+01:45:33,000 --> 01:45:39,800
+ for the constant omission, actually, we can have this KKT, actually, the omission theory. And they
+
+759
+01:45:39,800 --> 01:45:46,600
+ have another condition. That is, for the constant, right? The constant should be zero. The constant.
+
+760
+01:45:47,560 --> 01:45:54,360
+ R for i times the constant, right? This should be zero. The R for i is greater than equal to zero.
+
+761
+01:45:56,040 --> 01:45:59,800
+ R for i, that's a multiplier. The rock part should be greater than or equal to zero, right?
+
+762
+01:45:59,800 --> 01:46:05,720
+ And then, the R for i times this, I know the constant. It should be zero.
+
+763
+01:46:08,360 --> 01:46:16,200
+ Okay. And actually, if you look at this, right? And we know now for the W transpose x plus B
+
+764
+01:46:16,200 --> 01:46:23,000
+ minus y, minus y. Okay. So, W transpose x plus B should be greater than equals to y, right?
+
+765
+01:46:23,000 --> 01:46:26,920
+ Normally, greater than or equals to y, right? We have this, right? Greater than or equals to y.
+
+766
+01:46:27,559 --> 01:46:33,559
+ Okay. And, or less than or equal to minus y, right? We have these results. Okay. And actually,
+
+767
+01:46:34,120 --> 01:46:44,519
+ we'll, W R for i will be nine zero only for power point or sample, certify the equality in the
+
+768
+01:46:44,520 --> 01:46:56,040
+ constant. If R, this actually, this is nine zero. Then, if this is nine zero, this means they are,
+
+769
+01:46:56,040 --> 01:47:02,200
+ they are not on these two parallel, no? And on the dash, no, the three lines, right? So, then,
+
+770
+01:47:02,200 --> 01:47:09,160
+ they are not sample vectors. And then, this R for i will be zero, right? Because the multiplication
+
+771
+01:47:09,160 --> 01:47:16,120
+ should be zero, right? And only for those on the decision boundary should be zero. Should be zero,
+
+772
+01:47:16,120 --> 01:47:21,240
+ right? And not on the decision boundary, on the parallel, right? The closest sample, actually,
+
+773
+01:47:21,240 --> 01:47:26,599
+ yeah. That's the samples that certify the equality condition, right? Equality condition.
+
+774
+01:47:27,160 --> 01:47:33,720
+ W transpose x i plus B equals minus y or equals y. Okay. So, for this part,
+
+775
+01:47:34,680 --> 01:47:42,840
+ okay, R for i is nine zero. For others, because this part will be greater than one,
+
+776
+01:47:42,840 --> 01:47:48,600
+ than zero, then R for i must be zero because we have these two smart applications should be zero.
+
+777
+01:47:49,400 --> 01:47:55,240
+ Okay. So, just to see, actually, the small vectors correspond to nine zero R for i. For all other
+
+778
+01:47:55,320 --> 01:48:06,200
+ samples, the R for i, the multiplier, actually, are zeros. Okay. So, these are the conditions, right?
+
+779
+01:48:08,440 --> 01:48:12,840
+ So, this is actually an illustration, right? So, those are the samples, certify the equality
+
+780
+01:48:12,840 --> 01:48:18,679
+ condition, right? W transpose x plus B equals one or equals minus one. Then, for those parts,
+
+781
+01:48:18,680 --> 01:48:24,120
+ they have nine zero R for us. Nine zero R. Therefore, all other points, these points,
+
+782
+01:48:24,120 --> 01:48:29,880
+ these points, right? These points, these points, they have zero R for us. And just now we see,
+
+783
+01:48:29,880 --> 01:48:37,720
+ you know, the W is a contribution, right? Of all the training samples, R for i, D i, x i. If R for i
+
+784
+01:48:37,720 --> 01:48:43,800
+ is zero, right? Certainly, have no contribution. In other words, all other samples here, right?
+
+785
+01:48:43,880 --> 01:48:53,400
+ These samples, these samples have no contribution to the W. Okay. The W, actually, is calculated
+
+786
+01:48:53,400 --> 01:49:00,520
+ based on the sub-varietars only, based on those three samples in this example. One, two, three.
+
+787
+01:49:02,600 --> 01:49:09,080
+ And actually, in this, actually, the R, here, we have two sub-varietars, right? We have one alpha
+
+788
+01:49:09,080 --> 01:49:14,040
+ value for this, well, we have another alpha value for these sub-varietars. The summation of the two
+
+789
+01:49:14,040 --> 01:49:22,360
+ alpha values should be equal to the alpha value of this sample. Because in this side, we only have
+
+790
+01:49:22,360 --> 01:49:29,240
+ one sub-varietar, right? And then we have one alpha for this sub-varietar. And these alpha values
+
+791
+01:49:29,240 --> 01:49:34,760
+ should be equal to the summation of the two alpha values corresponding to these two sub-varietars.
+
+792
+01:49:35,400 --> 01:49:41,400
+ This is because of this condition, right? This condition. Sorry, this condition.
+
+793
+01:49:44,680 --> 01:49:47,480
+ Okay. R for i, D i, summation, zero.
+
+794
+01:49:55,240 --> 01:49:55,560
+ Okay.
+
+795
+01:49:56,280 --> 01:50:05,000
+ Okay. So, next, actually, we will, we expand this at W. Just now, we see the W, you know,
+
+796
+01:50:05,000 --> 01:50:09,800
+ first part, actually, is a norm, right? The square norm of W. The second part is a,
+
+797
+01:50:09,800 --> 01:50:14,840
+ is a constant termed alpha, right? For the constant, actually, we have two parts, right?
+
+798
+01:50:14,840 --> 01:50:23,080
+ One, actually, the W, right? Another is a little b, right? And also, that part is a y, minus y,
+
+799
+01:50:23,080 --> 01:50:30,280
+ okay? So, we expand this, we expand the L, and then we have one, two, three, four parts. Okay.
+
+800
+01:50:30,840 --> 01:50:41,400
+ And, okay. Just now, no, based on the condition two, we have found actually the z term, summation
+
+801
+01:50:41,400 --> 01:50:48,760
+ of alpha i, D i should be zero, based on the condition two, right? So, this part is a, a,
+
+802
+01:50:48,760 --> 01:50:54,120
+ a, a, remove. Okay. Then, in the L, we just have three parts. The first part, which is the square
+
+803
+01:50:54,120 --> 01:51:00,840
+ norm of W, and then this part. And then the last part is the summation of alpha.
+
+804
+01:51:02,920 --> 01:51:08,600
+ Okay. So, next, actually, for the three parts, right? Actually, we expand the second part.
+
+805
+01:51:08,600 --> 01:51:13,720
+ We perform expansion. Okay. How do we perform expansion? The second part here, right?
+
+806
+01:51:14,360 --> 01:51:22,360
+ And, actually, we substitute the W. W is the summation for alpha i, D i, x, x i, right? So,
+
+807
+01:51:22,360 --> 01:51:31,960
+ we replace W using the, to W transpose, right? Just actually alpha i, D i, x i, then transpose,
+
+808
+01:51:31,960 --> 01:51:38,680
+ x, x transpose. Okay. So, here, we already have i. We use the j, right? j from 1 to n.
+
+809
+01:51:39,160 --> 01:51:47,160
+ So, this part is just the W, right? W transpose. Okay. So, alpha i, D i, W transpose,
+
+810
+01:51:48,520 --> 01:51:55,560
+ then x i. Okay. So, we just do some manipulation. Okay. And then, actually,
+
+811
+01:51:55,560 --> 01:52:02,520
+ we can move alpha i, D i into this side. Okay. So, this, so this is the expansion of this.
+
+812
+01:52:03,080 --> 01:52:09,240
+ Okay. And, let's actually look at another part, the first part, W transpose, W. And, actually,
+
+813
+01:52:09,240 --> 01:52:16,200
+ here, we replace this W and also, actually, using the summation of alpha i, D i, x i, right?
+
+814
+01:52:16,840 --> 01:52:24,040
+ i from 1 to n. Okay. So, here, the j, right? Okay. J from 1 to n, the W alpha i, D i, D j, alpha j,
+
+815
+01:52:24,040 --> 01:52:31,080
+ D j, x j. So, this part, actually, is just the W, right? Okay. So, we do this, you know.
+
+816
+01:52:32,600 --> 01:52:39,480
+ What? W transpose. W transpose is also alpha i, D i, x transpose, right? Okay. And so, finally,
+
+817
+01:52:39,480 --> 01:52:44,760
+ you know, we can see, move in, right? So, this is the form. Actually, just now, we rederub this,
+
+818
+01:52:44,760 --> 01:52:49,320
+ right? It has this form. And, for the first term. And, for the second first term,
+
+819
+01:52:49,480 --> 01:52:55,480
+ it also has this form. Actually, so, the two parts, actually, can become one, right? Can become one.
+
+820
+01:52:55,880 --> 01:53:02,280
+ Okay. And, actually, the first part is a half, right? Actually, so, actually, we can cancel,
+
+821
+01:53:02,280 --> 01:53:08,599
+ cancel half. Then, actually, the L becomes this. So, this is the last term, summation of alpha.
+
+822
+01:53:08,599 --> 01:53:14,200
+ Then, minus half alpha, one half alpha. Because, the first W transpose, W is half, right? Then,
+
+823
+01:53:14,920 --> 01:53:21,480
+ this part is canceled. Okay. So, finally, we have this function. And, if you look at this function,
+
+824
+01:53:22,599 --> 01:53:31,240
+ we find that G, the L contains alpha only. We no longer have W. We no longer have B. We only have
+
+825
+01:53:31,240 --> 01:53:39,480
+ alpha. Okay. So, through many mathematical manipulations, right? Actually, from a function,
+
+826
+01:53:39,480 --> 01:53:48,519
+ L, which contains two parts, right? One is the, you know, the function we want to minimize.
+
+827
+01:53:48,519 --> 01:53:54,919
+ Another is the constraint. Okay. So, we have many unknown parameters, W, the B, like very
+
+828
+01:53:54,919 --> 01:54:00,759
+ much applied, alpha. But, through many, you know, many manipulations, many manipulations. Finally,
+
+829
+01:54:00,760 --> 01:54:15,000
+ we find another equivalent L. This L contains alpha only. B and W do not appear. Okay. So,
+
+830
+01:54:16,520 --> 01:54:21,960
+ so, this is actually, you know, the S, I, S, J, like, actually, the training sample,
+
+831
+01:54:21,960 --> 01:54:27,720
+ like, these are already known. Okay. So, here, actually, this is W, right? So, now,
+
+832
+01:54:27,720 --> 01:54:34,760
+ that's actually, we try to minimize the L. Actually, we try to find alpha so that the L could be
+
+833
+01:54:34,760 --> 01:54:42,280
+ minimized. And, actually, this problem is called a dual problem. The original problem is called a
+
+834
+01:54:42,280 --> 01:54:50,360
+ primal problem. The primal problem, you know, the L, right, contains the, you know, W contains B,
+
+835
+01:54:50,360 --> 01:54:57,480
+ right, contains alpha. But, if there's a dual problem, we only have this alpha.
+
+836
+01:54:59,880 --> 01:55:06,839
+ Okay. So, this problem is called the dual problem. The original problem is called a primal problem.
+
+837
+01:55:09,080 --> 01:55:14,599
+ Okay. So, the dual problem contains alpha only. Actually, as long as we can find alpha,
+
+838
+01:55:14,600 --> 01:55:21,560
+ then we can find W, right? Because W is just a summation of alpha, I, DR, X, I, right? So,
+
+839
+01:55:22,120 --> 01:55:28,520
+ and so, the B, actually, after we find alpha, then later we can find B. Okay. After we find W.
+
+840
+01:55:28,520 --> 01:55:33,640
+ Okay. So, the most critical part of the tree is alpha. So, here, we just try to solve this
+
+841
+01:55:33,640 --> 01:55:41,960
+ homogenous problem to find the value of alpha, I. After that, find B. Okay. But, how to find alpha?
+
+842
+01:55:42,920 --> 01:55:47,720
+ Of course, actually, this is not an easy task. Actually, this kind of problem, actually,
+
+843
+01:55:48,760 --> 01:55:52,360
+ of course, here is the condition, sublet this condition, right? Alpha, I,
+
+844
+01:55:52,360 --> 01:55:57,480
+ D, I should be equal to zero. Okay. So, this is not from condition B2, right? The partial
+
+845
+01:55:57,480 --> 01:56:03,400
+ dual L with respect to B, right? We get this condition. And also, alpha, I should be zero.
+
+846
+01:56:03,400 --> 01:56:11,480
+ Okay. So, next, we solve this constant homogenous problem. And so, the Q could be
+
+847
+01:56:11,480 --> 01:56:21,160
+ minimized. Okay. And how to solve this problem? And actually, this is a quadratic programming
+
+848
+01:56:21,160 --> 01:56:25,879
+ problem. Actually, we can use, you know, quadratic programming software to solve this problem.
+
+849
+01:56:26,919 --> 01:56:32,759
+ And actually, part of it, you know, in the conversional, you know, quadratic programming
+
+850
+01:56:32,759 --> 01:56:39,160
+ problem, we just have a few parameters, right? A few parameters. For example, in your provisional
+
+851
+01:56:39,160 --> 01:56:44,680
+ work, actually, you just have one parameter, right? If you have one constant, one constant,
+
+852
+01:56:44,680 --> 01:56:52,840
+ two constant, you just have two alphas, right? But now, the number of alphas is just a number
+
+853
+01:56:52,840 --> 01:56:58,120
+ of training samples. In practice, the training samples could be huge, right? Or a few thousand,
+
+854
+01:56:58,120 --> 01:57:03,000
+ tens of thousands. Okay. So, in practice, actually, the solution for this problem,
+
+855
+01:57:03,000 --> 01:57:08,760
+ or no, we do all these, like, solve problem, kind of solve one, the quadratic programming,
+
+856
+01:57:08,760 --> 01:57:14,200
+ you know, the software, right? But actually, not so easy, you know, in practice. Not so
+
+857
+01:57:14,200 --> 01:57:19,720
+ straightforward. If you use a QP and an algorithm, you know, the terminal software to solve this
+
+858
+01:57:19,720 --> 01:57:25,480
+ problem is a very time-consuming. Okay. And actually, when this actually, a support-wide
+
+859
+01:57:25,480 --> 01:57:32,519
+ machine just, you know, developed, of course, we all see the very good properties, the ideas,
+
+860
+01:57:32,519 --> 01:57:39,400
+ but it's very difficult to use because actually, it's very time-consuming and to find, to solve
+
+861
+01:57:39,400 --> 01:57:49,320
+ this problem. Okay. And until later, they have found some, you know, sequential method or approximation,
+
+862
+01:57:50,040 --> 01:57:56,120
+ actually, sequential method to solve this, you know, quadratic programming problem,
+
+863
+01:57:56,120 --> 01:58:00,920
+ which can solve the problem very efficiently. And then, a support-wide machine becomes very popular.
+
+864
+01:58:02,360 --> 01:58:08,679
+ Okay. And remember, at that time, actually, when professor in the Taiwan University,
+
+865
+01:58:08,679 --> 01:58:13,480
+ you know, they run the coding in C, and then to solve this problem. At that time,
+
+866
+01:58:13,879 --> 01:58:19,080
+ and all the people in the world actually use this, that software. Okay. So later, they have
+
+867
+01:58:19,080 --> 01:58:24,200
+ developed a new algorithm, the sequential omission method to solve this QP problem,
+
+868
+01:58:24,839 --> 01:58:35,559
+ and then become popular. Okay. So, okay. Okay. So, okay. And that's actually, we have a break,
+
+869
+01:58:35,560 --> 01:58:47,640
+ time-inspirited. Okay.
+
+870
+01:59:05,560 --> 01:59:15,640
+ Okay.
+
+871
+01:59:35,560 --> 01:59:45,640
+ Okay.
+
+872
+02:00:05,560 --> 02:00:15,640
+ Okay.
+
+873
+02:00:35,560 --> 02:00:45,640
+ Okay.
+
+874
+02:01:05,560 --> 02:01:15,640
+ Okay.
+
+875
+02:01:35,560 --> 02:01:45,640
+ Okay.
+
+876
+02:02:05,560 --> 02:02:15,640
+ Okay.
+
+877
+02:02:35,560 --> 02:02:45,640
+ Okay.
+
+878
+02:03:05,560 --> 02:03:15,640
+ Okay.
+
+879
+02:03:35,560 --> 02:03:45,640
+ Okay.
+
+880
+02:04:05,560 --> 02:04:15,640
+ Okay.
+
+881
+02:04:35,560 --> 02:04:45,640
+ Okay.
+
+882
+02:05:05,560 --> 02:05:15,640
+ Okay.
+
+883
+02:05:35,560 --> 02:05:45,640
+ Okay.
+
+884
+02:06:05,560 --> 02:06:15,640
+ Okay.
+
+885
+02:06:35,560 --> 02:06:45,640
+ Okay.
+
+886
+02:07:05,560 --> 02:07:15,640
+ Okay.
+
+887
+02:07:35,560 --> 02:07:45,640
+ Okay.
+
+888
+02:08:05,560 --> 02:08:15,640
+ Okay.
+
+889
+02:08:35,640 --> 02:08:56,360
+ Okay. So, now, actually, we can use some software to, like, keep you software to solve this,
+
+890
+02:08:58,280 --> 02:09:04,360
+ quadratic programming problem, and to find the alpha values, right? So, once alpha values are
+
+891
+02:09:04,360 --> 02:09:09,880
+ found, and then we can use actually, you know, the formula to calculate the w directly, right?
+
+892
+02:09:09,880 --> 02:09:17,960
+ Actually, the w, the width vector is simply the width summation of all the samples. Okay. And actually,
+
+893
+02:09:18,759 --> 02:09:25,080
+ we also answer, most of the samples, we have actually zero alpha, right? So, we only use the
+
+894
+02:09:25,080 --> 02:09:32,360
+ non-zero alpha. Those samples actually correspond to non-zero alpha to calculate the w. And those
+
+895
+02:09:32,440 --> 02:09:40,120
+ samples actually are called sub-vectors. Okay. So, alpha, r, d, r, x, i. Submission of the,
+
+896
+02:09:40,120 --> 02:09:46,200
+ you know, this is a very interesting result, right? Submission of the input is a width vector.
+
+897
+02:09:47,160 --> 02:09:54,679
+ Okay. But it's a width summation, right? So, I think, as always, alpha, r, d, i, it's a width. Okay.
+
+898
+02:09:54,680 --> 02:10:06,200
+ d, i is a class label, right? Okay. And then once we find the alpha, right, we found w,
+
+899
+02:10:06,200 --> 02:10:12,280
+ and then, unless we need to find the biotherm b. Okay. And actually, we can use the width
+
+900
+02:10:12,280 --> 02:10:19,240
+ sub-vectors, any sub-vector to find this biotherm b, right? Actually, we know, you know, based on the,
+
+901
+02:10:19,639 --> 02:10:24,599
+ you know, the sub-vectors, which are on the boundary, which satisfy the equality condition,
+
+902
+02:10:24,599 --> 02:10:32,360
+ right? W transpose x plus b equals 1 or minus 1, right? Or we will type di, the class label,
+
+903
+02:10:32,360 --> 02:10:38,440
+ then it's equal to e equals 1. Okay. So, from here, actually, we can see, you know, the b,
+
+904
+02:10:38,440 --> 02:10:46,280
+ actually equals 1 divided by r d, i minus w transpose x, i. W transpose here, w, you know,
+
+905
+02:10:46,280 --> 02:10:52,840
+ is found here in the previous step, right? Then we can find this b, okay? 1 over di, di could be
+
+906
+02:10:52,840 --> 02:11:02,440
+ 1 or minus 1, right? So, 1 over di is just di, not the same, okay? Minus w transpose x. Okay. So,
+
+907
+02:11:03,000 --> 02:11:10,120
+ you know, this is the biotherm. It's just the target value, right? Minus, actually, the value from the,
+
+908
+02:11:11,080 --> 02:11:21,640
+ the projection, right? W transpose x. Okay. So, this is the way to find the biotherm. So,
+
+909
+02:11:21,640 --> 02:11:26,680
+ this is also different from the way, you know, to find the biotherm in the Fisher-Linus
+
+910
+02:11:26,680 --> 02:11:31,960
+ Dismunaleses, right? Very different. Okay. So, actually, you know, once we found the,
+
+911
+02:11:31,960 --> 02:11:38,840
+ the, the, the, the r of i, actually, the correlation of w and actually the biotherm is very simple.
+
+912
+02:11:39,800 --> 02:11:45,080
+ Okay. Of course, in practice, actually, and actually, when we use a tree, because the
+
+913
+02:11:45,080 --> 02:11:53,320
+ calculation area, and when we use a different subalvector, we may find a slightly different
+
+914
+02:11:53,320 --> 02:12:00,360
+ b, the bi stuff, okay? So, in practice, quite often, we use each of the subalvector to find a b,
+
+915
+02:12:00,360 --> 02:12:06,360
+ and then we take the average of all the b's, okay? So, use all the subalvector to find a b,
+
+916
+02:12:06,360 --> 02:12:12,920
+ right? So, totally, we have ns subalvectors. Then, we find ns b's, then take the average.
+
+917
+02:12:13,719 --> 02:12:22,120
+ Okay. So, di minus the subalvector, right? And then, yeah, divide by the number of subalvectors.
+
+918
+02:12:22,120 --> 02:12:25,960
+ We take the average. For each subalvector, we find the corresponding, actually,
+
+919
+02:12:28,360 --> 02:12:32,120
+ b. Why we can use subalvector to find the b? Because, actually, subalvectors
+
+920
+02:12:32,200 --> 02:12:37,480
+ satisfy the equality condition. W transpose x plus b equals 1, or equals d, right?
+
+921
+02:12:38,360 --> 02:12:43,160
+ Equal d. Okay. So, in a tree, we can actually use this actually,
+
+922
+02:12:46,519 --> 02:12:50,920
+ you know, this subalvector to find the value for the bi stuff.
+
+923
+02:12:52,599 --> 02:12:58,840
+ Okay. So, in that tree, maybe I should show one example to show some properties, right? Okay. And
+
+924
+02:12:59,080 --> 02:13:07,640
+ so, okay, yeah. Already stated. So, here, we have this example, right? And the data from
+
+925
+02:13:07,640 --> 02:13:14,360
+ two classes. And so, certainly, the data are well separated, right? And, actually, we can use
+
+926
+02:13:14,360 --> 02:13:21,800
+ different ways to find the classifier, right? To find the decision boundary. Okay. So, this is the
+
+927
+02:13:21,800 --> 02:13:27,960
+ decision boundary found using the subalvector machine method. Okay. So, here, we just have a,
+
+928
+02:13:28,040 --> 02:13:35,000
+ here, we have two subalvectors. One subalvector from the positive class, and another subalvector
+
+929
+02:13:35,000 --> 02:13:45,960
+ from negative class. So, now, here, we have a totally 200 tree samples. Actually, 198 samples
+
+930
+02:13:46,520 --> 02:13:53,480
+ have zero alpha values. Only two samples have nonzero alpha values. So, these two samples are
+
+931
+02:13:53,559 --> 02:14:00,679
+ the subalvectors. So, one subalvector is here, another subalvector is here. Okay. And this
+
+932
+02:14:00,679 --> 02:14:09,000
+ W is calculated based on these two subalvectors only. And also, the B, right, the bias term is also
+
+933
+02:14:09,000 --> 02:14:16,519
+ based on these two subalvectors. Okay. So, subalvectors determine the W, determine the B. Okay. So,
+
+934
+02:14:16,519 --> 02:14:21,879
+ these are also the reason why these cost subalvector machines, right? So, only, actually, those samples
+
+935
+02:14:21,960 --> 02:14:30,040
+ are not used. Only these two samples, those two subalvectors are used in the determination of
+
+936
+02:14:30,040 --> 02:14:36,440
+ this decision boundary, including the B, the bias term, and the projection W.
+
+937
+02:14:40,120 --> 02:14:45,640
+ Okay. So, next, actually, we can see that's the case. Okay. So, this case is that, actually, we
+
+938
+02:14:45,640 --> 02:14:52,120
+ have samples, right? And actually, the red sample, actually, one red sample is here. Very close to
+
+939
+02:14:52,120 --> 02:14:57,800
+ these black samples, that's some way in other class. Okay. So, here, we have two decision
+
+940
+02:14:57,800 --> 02:15:05,880
+ boundaries. One decision boundary is this. Well, this is a one decision boundary, right? So,
+
+941
+02:15:05,880 --> 02:15:10,520
+ these decision boundaries set up by the condition that all train of sample are classified correctly.
+
+942
+02:15:10,520 --> 02:15:16,920
+ So, we have zero train of error, train of error, for train of data, we have zero error. So, then,
+
+943
+02:15:16,920 --> 02:15:22,600
+ we have this decision boundary. Okay. And then, another scenario, we have this decision boundary.
+
+944
+02:15:24,200 --> 02:15:31,160
+ We have an error. Now, this is probably located here. And then, this sample will be classified
+
+945
+02:15:31,160 --> 02:15:38,440
+ wrongly. This sample. We have one error for train of data. Do you think which one, which one you
+
+946
+02:15:38,440 --> 02:15:46,280
+ prefer? Well, the two classified. We prefer this one, right? Although one sample is misclassified.
+
+947
+02:15:46,280 --> 02:15:54,040
+ And, but actually, we have a tree, actually, for our other samples, we have higher confidence.
+
+948
+02:15:55,240 --> 02:16:03,719
+ Okay. And we have a larger margin of separation. Okay. So, but if this is for this one, actually,
+
+949
+02:16:03,720 --> 02:16:08,440
+ then we cannot use the condition, right? All train of sample are classified correctly.
+
+950
+02:16:08,440 --> 02:16:13,720
+ Some of the train of sample, we are not satisfied with this condition. Okay. So, this is just the
+
+951
+02:16:13,720 --> 02:16:19,560
+ part that tree is an optimal hyperplane for nonseparable samples. So, when we illustrate, you
+
+952
+02:16:19,560 --> 02:16:25,320
+ know, the principle of the support-widen machine, we assume all the sample can be classified correctly,
+
+953
+02:16:25,320 --> 02:16:32,040
+ 100% accuracy. But in practice, almost no such a scenario. Okay. In practice, sometimes,
+
+954
+02:16:32,120 --> 02:16:38,280
+ 70% is the best performance. Sometimes, of course, maybe the problem could be 99, right? 98,
+
+955
+02:16:38,280 --> 02:16:44,200
+ 97. This is a different application. But in no scenario, we can have 100% accuracy.
+
+956
+02:16:44,200 --> 02:16:50,920
+ No such application. Okay. Then, actually, in most of the scenarios, the so-called nonseparable
+
+957
+02:16:50,920 --> 02:16:57,000
+ samples, actually, for the two classes or multiple classes, they had a region where the samples
+
+958
+02:16:57,000 --> 02:17:05,559
+ overlap. Okay. And, actually, we know the data could be known, the following normal distribution,
+
+959
+02:17:05,559 --> 02:17:11,320
+ for example, right? Normal. The model samples are close to the mean vector. But some samples
+
+960
+02:17:11,320 --> 02:17:17,719
+ could be far away from the mean vector, right? So, if the two classes are very similar, then,
+
+961
+02:17:17,719 --> 02:17:25,320
+ certainly, there is a region where the samples are mixed. So, this is the nonseparable scenario.
+
+962
+02:17:25,959 --> 02:17:30,360
+ Nonseparable. This is a more practical scenario. Okay. In this practical scenario,
+
+963
+02:17:30,360 --> 02:17:36,760
+ if the data are mixed, we cannot 100% actually classify them correctly. Then, actually,
+
+964
+02:17:38,360 --> 02:17:43,799
+ actually, then such a scenario, we cannot use that condition, right? Classify that correctly.
+
+965
+02:17:44,360 --> 02:17:50,119
+ All of them certify the condition, right? Greater than or equals one, right? We cannot actually
+
+966
+02:17:50,120 --> 02:17:58,840
+ use this condition. Okay. And so, in order to address this scenario, the nonseparable
+
+967
+02:18:00,840 --> 02:18:08,280
+ samples and, actually, they introduce, actually, the so-called, actually, select variable. Okay.
+
+968
+02:18:09,720 --> 02:18:15,400
+ The select variable. Okay. They want to, actually, so we introduce a select variable because they
+
+969
+02:18:15,400 --> 02:18:22,520
+ cannot certify greater than or equals one, right? And so, we actually subtract a positive value.
+
+970
+02:18:23,240 --> 02:18:28,119
+ And then, this value, after we introduce such a value, then the condition could be satisfied.
+
+971
+02:18:28,920 --> 02:18:33,080
+ If this sample is classified wrongly, right? So, it should be greater than or equals one. Then,
+
+972
+02:18:33,080 --> 02:18:39,000
+ actually, we show that minus, actually, very negative, very big value. This become, actually,
+
+973
+02:18:39,080 --> 02:18:47,240
+ very negative. Okay. So, if we introduce a variable, we can still introduce such a constant.
+
+974
+02:18:47,959 --> 02:18:53,799
+ We can still actually follow the previous scenario. We formulate the small animation
+
+975
+02:18:53,799 --> 02:18:59,799
+ into a constant or a decision problem. But we need to change the constant. Change the constant.
+
+976
+02:18:59,799 --> 02:19:06,360
+ Okay. By introducing a so-called, actually, select variable. Okay. And for this select variable,
+
+977
+02:19:06,920 --> 02:19:14,360
+ we have two, you know, cases. Okay. The first case is that we can look at the data points, right?
+
+978
+02:19:14,360 --> 02:19:21,720
+ So, for some of the points, so this is the W transpose X plus B equals one, equals minus one.
+
+979
+02:19:21,720 --> 02:19:27,240
+ And for this sample, this sample, actually, should be in another side, right? But now, actually,
+
+980
+02:19:27,240 --> 02:19:34,360
+ it's in this side. So, this sample will be classified wrongly, wrongly, right? For some of the samples,
+
+981
+02:19:35,320 --> 02:19:40,440
+ like this sample, right? It does not satisfy the condition. It does not satisfy the condition.
+
+982
+02:19:40,440 --> 02:19:45,880
+ Greater than equals one, right? Actually, it is greater than zero, but less than one. It is in the
+
+983
+02:19:45,880 --> 02:19:51,400
+ region of separation. But it will be classified correctly. So, there are two scenarios. One
+
+984
+02:19:51,400 --> 02:19:55,080
+ scenario with that, actually, they don't satisfy the condition, right? You know, they,
+
+985
+02:19:55,960 --> 02:20:01,640
+ greater than or equals one, or less than, or equals minus one. They don't satisfy this condition.
+
+986
+02:20:02,199 --> 02:20:07,720
+ But under this, for this scenario, we have two cases. Why is that the sample could be
+
+987
+02:20:07,720 --> 02:20:11,960
+ classified correctly? They are on the correct side of the decision boundary,
+
+988
+02:20:11,960 --> 02:20:18,680
+ but just they don't satisfy that condition. Okay. Another, they are located on the wrong side,
+
+989
+02:20:19,240 --> 02:20:27,960
+ wrong side. Okay. Wrong side, right? So, actually, we can actually, we should introduce, actually,
+
+990
+02:20:27,960 --> 02:20:34,839
+ to solve this problem, we can introduce, actually, select variable, the zeta i. For each training
+
+991
+02:20:34,839 --> 02:20:40,519
+ sample, we introduce zeta i. Of course, for some of the samples, if they satisfy the original
+
+992
+02:20:40,519 --> 02:20:47,000
+ condition, then this zeta i is just zero. But for those who cannot satisfy the original condition,
+
+993
+02:20:47,000 --> 02:20:52,519
+ right? Then, you know, the zeta i will not be zero. Okay. And actually, just now, we have analyzed,
+
+994
+02:20:52,519 --> 02:20:57,240
+ there are two cases. One is that the samples do not satisfy the condition, but they are on the
+
+995
+02:20:57,240 --> 02:21:02,600
+ correct side of the decision boundary. They will be classified correctly. Another case is that
+
+996
+02:21:02,600 --> 02:21:07,640
+ the sample is on the wrong side of the decision boundary. They will be classified wrongly.
+
+997
+02:21:08,680 --> 02:21:16,280
+ Okay. So, actually, these are two scenarios, okay. One case is that the zeta i, actually,
+
+998
+02:21:16,280 --> 02:21:22,440
+ if they are on the correct side, then the zeta i is between zero and one. Between zero and one.
+
+999
+02:21:22,760 --> 02:21:29,960
+ Okay. But if the data is on the wrong side, right, on the wrong side, then this zeta i,
+
+1000
+02:21:29,960 --> 02:21:35,480
+ the select variable, would be greater than one. Orally, it should be greater than one, right?
+
+1001
+02:21:35,480 --> 02:21:40,360
+ So, now, at least, it should be greater than zero. But they are not greater than zero, right? Because
+
+1002
+02:21:40,360 --> 02:21:49,080
+ we subtract a value that is greater than one. So, certainly, they will satisfy. Okay. And this zeta i,
+
+1003
+02:21:49,800 --> 02:21:57,400
+ the value, actually, is sample dependent. For each sample, we have corresponding zeta i.
+
+1004
+02:21:58,200 --> 02:22:03,800
+ So, for each of the training samples, we introduce a zeta i. Of course, for some of them,
+
+1005
+02:22:03,800 --> 02:22:11,320
+ the zeta i could be zero. For some of them, the zeta i is a ring from zero to one. For some of the i
+
+1006
+02:22:11,320 --> 02:22:24,119
+ and the samples, the zeta i is greater than one. Okay. So, necessarily, we look at the new formulation,
+
+1007
+02:22:24,119 --> 02:22:33,560
+ right, of the primal problem, the sub-animation, for not separate cases. So, here, again, we introduce
+
+1008
+02:22:33,560 --> 02:22:39,800
+ a tree. We need to minimize the square norm, right, of the value. So, this is because of the
+
+1009
+02:22:39,800 --> 02:22:45,720
+ model separation. Okay. Then we introduce a y-axis term. Y-axis term, this is the summation
+
+1010
+02:22:45,720 --> 02:22:53,000
+ of the zeta, the slack variable. Totally, we have n-slack variable, the summation. And the c here is
+
+1011
+02:22:53,880 --> 02:23:00,039
+ is a weight. It's a hyper parameter. In practice, you need to assign the values. Okay. This is a
+
+1012
+02:23:00,039 --> 02:23:06,119
+ hyper parameter, right? Before you run the program, you give a value. Okay. So, this is a c. Okay.
+
+1013
+02:23:06,280 --> 02:23:11,960
+ And then we minimize this code function, j, subject to this condition.
+
+1014
+02:23:13,080 --> 02:23:18,360
+ d i times this is greater than one, right? Now, not no longer than one. Minus zeta i.
+
+1015
+02:23:19,640 --> 02:23:26,600
+ zeta i could be zero, right? Could be zero, if the sample is set by the condition. Okay. And then
+
+1016
+02:23:26,600 --> 02:23:32,440
+ the zeta i here also should be greater than or equal to zero. Okay. So, now, again, for this now,
+
+1017
+02:23:32,440 --> 02:23:36,040
+ So in several cases, after the introduction of the select
+
+1018
+02:23:36,040 --> 02:23:39,960
+ variable, so the problem is still a constant optimization
+
+1019
+02:23:39,960 --> 02:23:41,080
+ problem.
+
+1020
+02:23:41,080 --> 02:23:44,280
+ So now the objective function have two parts.
+
+1021
+02:23:44,280 --> 02:23:47,240
+ One is the normal of w, right?
+
+1022
+02:23:47,240 --> 02:23:48,240
+ The square normal of w.
+
+1023
+02:23:48,240 --> 02:23:50,360
+ Another is the summation of the same variables.
+
+1024
+02:23:54,160 --> 02:23:57,820
+ So here, again, we can use the Lagrange multiplier
+
+1025
+02:23:57,820 --> 02:24:01,440
+ method to solve this constant optimization problem.
+
+1026
+02:24:02,400 --> 02:24:06,760
+ So here, and we introduce extra, right?
+
+1027
+02:24:06,760 --> 02:24:10,760
+ For this first condition, we introduce,
+
+1028
+02:24:10,760 --> 02:24:17,000
+ for this condition, right, we introduce a select multiplier.
+
+1029
+02:24:17,000 --> 02:24:21,120
+ For this i equals 1, r, for sample i,
+
+1030
+02:24:21,120 --> 02:24:24,480
+ we introduce a multiplier of r.
+
+1031
+02:24:24,480 --> 02:24:28,320
+ For this zeta i, we also introduce a multiplier,
+
+1032
+02:24:28,320 --> 02:24:30,760
+ because there's also a condition.
+
+1033
+02:24:30,760 --> 02:24:34,800
+ So we can use a multiplier like beta i.
+
+1034
+02:24:34,800 --> 02:24:39,040
+ So now we have the new, actually the two
+
+1035
+02:24:39,040 --> 02:24:40,120
+ that we have to multiply.
+
+1036
+02:24:40,120 --> 02:24:42,160
+ When the r of i, right, Christmastime
+
+1037
+02:24:42,160 --> 02:24:43,640
+ do the first condition.
+
+1038
+02:24:43,640 --> 02:24:46,400
+ And the second condition, the zeta i should be greater than
+
+1039
+02:24:46,400 --> 02:24:47,640
+ or equal to 0, right?
+
+1040
+02:24:47,640 --> 02:24:52,400
+ Then we have the new multiplier that is beta i.
+
+1041
+02:24:52,400 --> 02:24:54,360
+ So now we look at the function, right?
+
+1042
+02:24:54,360 --> 02:24:56,040
+ So there are two.
+
+1043
+02:24:56,040 --> 02:24:58,000
+ Actually now there are three parts, right?
+
+1044
+02:24:58,000 --> 02:25:01,200
+ The original part, these are four parts.
+
+1045
+02:25:01,200 --> 02:25:03,480
+ The original part, right now, a part that
+
+1046
+02:25:03,480 --> 02:25:06,440
+ relates to the zeta i's layer variable.
+
+1047
+02:25:06,440 --> 02:25:09,760
+ And these are, read to the second condition, right?
+
+1048
+02:25:09,760 --> 02:25:10,720
+ Constraint.
+
+1049
+02:25:10,720 --> 02:25:13,640
+ And read to the first constraint.
+
+1050
+02:25:13,640 --> 02:25:14,320
+ OK.
+
+1051
+02:25:14,320 --> 02:25:17,400
+ So we have r of i, we have beta i.
+
+1052
+02:25:17,400 --> 02:25:21,840
+ And we have a w, and we have a b.
+
+1053
+02:25:21,840 --> 02:25:24,480
+ So these are the four, actually,
+
+1054
+02:25:24,480 --> 02:25:29,160
+ the two parts of parameters in this function l.
+
+1055
+02:25:29,160 --> 02:25:33,560
+ And actually, we can actually solve this problem.
+
+1056
+02:25:33,560 --> 02:25:40,039
+ And so this is a KKT condition, or a machine condition.
+
+1057
+02:25:40,039 --> 02:25:43,760
+ So certainly the multiplier should be positive or 0, right?
+
+1058
+02:25:43,760 --> 02:25:45,439
+ Should be non-negative.
+
+1059
+02:25:45,439 --> 02:25:49,800
+ And so this is the beta i, and zeta i should be the condition.
+
+1060
+02:25:49,800 --> 02:25:52,600
+ The multiplier times the condition should be 0.
+
+1061
+02:25:52,760 --> 02:26:00,120
+ So this is the KKT optimization theory.
+
+1062
+02:26:00,120 --> 02:26:03,520
+ And so the dual problem, actually,
+
+1063
+02:26:03,520 --> 02:26:06,960
+ based on the same no matter, do some mathematical manipulation.
+
+1064
+02:26:06,960 --> 02:26:10,440
+ Finally, actually, we can also have this dual problem
+
+1065
+02:26:10,440 --> 02:26:11,960
+ for not separate cases.
+
+1066
+02:26:11,960 --> 02:26:17,040
+ And we only have this r of i.
+
+1067
+02:26:17,560 --> 02:26:20,440
+ And we have alpha i.
+
+1068
+02:26:20,440 --> 02:26:25,720
+ And actually, even beta is no longer here.
+
+1069
+02:26:25,720 --> 02:26:30,760
+ But we may actually do a c in the cost function c.
+
+1070
+02:26:30,760 --> 02:26:32,280
+ Actually, the c is here.
+
+1071
+02:26:32,280 --> 02:26:37,320
+ The alpha should be in the range from 0 to c.
+
+1072
+02:26:37,320 --> 02:26:39,920
+ So this is the condition.
+
+1073
+02:26:39,920 --> 02:26:41,400
+ Alpha i, d i, 0.
+
+1074
+02:26:41,400 --> 02:26:45,040
+ So this is a partial, l partial b, the same condition.
+
+1075
+02:26:45,040 --> 02:26:46,400
+ Normally, we have this.
+
+1076
+02:26:47,160 --> 02:26:53,720
+ So we can use a QP software to solve this dual problem
+
+1077
+02:26:53,720 --> 02:26:55,840
+ to find alpha values.
+
+1078
+02:27:00,119 --> 02:27:05,199
+ So once we find alpha values, then we can find this w.
+
+1079
+02:27:05,199 --> 02:27:06,680
+ So that's the same, right?
+
+1080
+02:27:06,680 --> 02:27:09,480
+ Just a linear summation of all the support vectors,
+
+1081
+02:27:09,480 --> 02:27:11,800
+ weight summation.
+
+1082
+02:27:11,800 --> 02:27:14,920
+ The weight, just alpha i, d i.
+
+1083
+02:27:14,920 --> 02:27:19,120
+ So we can really use the support vectors to determine the w.
+
+1084
+02:27:19,120 --> 02:27:23,800
+ I think this is actually the same as the separate case.
+
+1085
+02:27:23,800 --> 02:27:25,840
+ Then what is the b?
+
+1086
+02:27:25,840 --> 02:27:31,960
+ Previously, we use the w transpose plus b equals 1,
+
+1087
+02:27:31,960 --> 02:27:40,040
+ equals 1 to determine the b, to determine b.
+
+1088
+02:27:40,040 --> 02:27:42,680
+ But now, because the support vectors
+
+1089
+02:27:43,440 --> 02:27:45,400
+ are in the same condition, right?
+
+1090
+02:27:45,400 --> 02:27:50,760
+ Actually, in this method, the support vectors
+
+1091
+02:27:50,760 --> 02:27:54,560
+ include those in the certified equality condition, right?
+
+1092
+02:27:54,560 --> 02:27:58,560
+ Also include those in the region of separation.
+
+1093
+02:27:58,560 --> 02:28:00,600
+ Maybe I'll show you first.
+
+1094
+02:28:04,600 --> 02:28:08,600
+ So these are all the support vectors.
+
+1095
+02:28:09,480 --> 02:28:16,480
+ Alpha i, zeta i, alpha i is actually non-zero.
+
+1096
+02:28:16,480 --> 02:28:18,920
+ Not just those in the very few samples,
+
+1097
+02:28:18,920 --> 02:28:22,840
+ the certified equality condition is zero.
+
+1098
+02:28:22,840 --> 02:28:25,360
+ But now, with the condition changes, right?
+
+1099
+02:28:25,360 --> 02:28:29,080
+ Because the changes are y minus zeta i.
+
+1100
+02:28:29,080 --> 02:28:33,440
+ So we cannot use this method to determine the b.
+
+1101
+02:28:33,440 --> 02:28:35,760
+ We need to use a different way to determine the b.
+
+1102
+02:28:35,760 --> 02:28:38,800
+ Now we have so many support vectors.
+
+1103
+02:28:38,800 --> 02:28:40,480
+ No support vectors in the certified condition.
+
+1104
+02:28:40,480 --> 02:28:44,520
+ W transpose x plus b equals 1, or di.
+
+1105
+02:28:44,520 --> 02:28:45,440
+ Then how to determine?
+
+1106
+02:28:49,480 --> 02:28:51,040
+ Now we look at this.
+
+1107
+02:28:51,040 --> 02:28:53,000
+ So to find the b, right?
+
+1108
+02:28:53,000 --> 02:28:56,800
+ And we look at beta.
+
+1109
+02:28:56,800 --> 02:28:59,760
+ Part of the region of l, with respect to the zeta i,
+
+1110
+02:28:59,760 --> 02:29:02,360
+ the select variable, equal to c minus,
+
+1111
+02:29:02,360 --> 02:29:03,720
+ this should be zero.
+
+1112
+02:29:03,720 --> 02:29:04,920
+ Should be zero, right?
+
+1113
+02:29:04,920 --> 02:29:09,280
+ And because the loss function with respect to any coefficient
+
+1114
+02:29:09,280 --> 02:29:10,680
+ should be zero, right?
+
+1115
+02:29:10,680 --> 02:29:13,400
+ This is a condition for optimal solution.
+
+1116
+02:29:13,400 --> 02:29:15,720
+ So based on this zero, we can find that bi
+
+1117
+02:29:15,720 --> 02:29:19,840
+ equal to c minus alpha i.
+
+1118
+02:29:19,840 --> 02:29:25,720
+ So this is beta i equal to c equals alpha i, c minus alpha i.
+
+1119
+02:29:29,400 --> 02:29:31,800
+ So then according to the KKT condition,
+
+1120
+02:29:31,800 --> 02:29:33,240
+ we just elicit that, right?
+
+1121
+02:29:33,240 --> 02:29:38,560
+ The beta i times the condition, the zeta i equals zero.
+
+1122
+02:29:38,560 --> 02:29:40,360
+ So this is a condition, KKT, right?
+
+1123
+02:29:40,360 --> 02:29:43,880
+ So normally the multiplier times the condition should be zero.
+
+1124
+02:29:43,880 --> 02:29:45,800
+ So this is another KKT of addition
+
+1125
+02:29:45,800 --> 02:29:48,240
+ to the area with this condition, right?
+
+1126
+02:29:48,240 --> 02:29:50,920
+ OK, so the beta i, just found here, right?
+
+1127
+02:29:50,920 --> 02:29:56,360
+ C minus alpha i times, actually, the zeta i equals zero.
+
+1128
+02:29:56,360 --> 02:29:59,320
+ So now we analyze these results.
+
+1129
+02:29:59,320 --> 02:30:05,199
+ C minus alpha i times zeta i should be zero.
+
+1130
+02:30:05,199 --> 02:30:11,920
+ So here, if zeta i is greater than zero,
+
+1131
+02:30:11,920 --> 02:30:14,560
+ then the beta i must be zero.
+
+1132
+02:30:14,560 --> 02:30:17,640
+ Otherwise, the multiplication, the product of these two parts
+
+1133
+02:30:17,640 --> 02:30:19,400
+ cannot be zero.
+
+1134
+02:30:19,400 --> 02:30:24,600
+ So if zeta i is greater than zero, then c minus alpha i
+
+1135
+02:30:24,600 --> 02:30:28,279
+ must be zero, because the product of the zeta i
+
+1136
+02:30:28,320 --> 02:30:32,040
+ and this beta i should be zero.
+
+1137
+02:30:32,040 --> 02:30:37,440
+ Then actually, in such a scenario, the alpha i equals zero.
+
+1138
+02:30:37,440 --> 02:30:39,640
+ So zeta i greater than zero, right?
+
+1139
+02:30:39,640 --> 02:30:43,520
+ Those greater than zero are not those on this half, two,
+
+1140
+02:30:43,520 --> 02:30:45,040
+ no half plane, right?
+
+1141
+02:30:45,040 --> 02:30:46,120
+ Two half plane.
+
+1142
+02:30:46,120 --> 02:30:50,200
+ Only two half plane should be those double transpose plus b
+
+1143
+02:30:50,200 --> 02:30:52,640
+ equals 1 or minus 1.
+
+1144
+02:30:52,640 --> 02:30:55,320
+ In such a scenario, the zeta i equals zero.
+
+1145
+02:30:55,320 --> 02:30:59,520
+ OK, so here, if zeta i is greater than zero, right?
+
+1146
+02:30:59,520 --> 02:31:04,520
+ And then, in such a scenario, the alpha i equals c.
+
+1147
+02:31:04,520 --> 02:31:06,680
+ And just now we have analyzed that problem.
+
+1148
+02:31:06,680 --> 02:31:09,039
+ We solved the dual problem.
+
+1149
+02:31:09,039 --> 02:31:11,199
+ We can find the alpha i, right?
+
+1150
+02:31:11,199 --> 02:31:12,520
+ Then we look at alpha i.
+
+1151
+02:31:12,520 --> 02:31:14,320
+ Where the alpha i equals c?
+
+1152
+02:31:14,320 --> 02:31:19,400
+ If alpha i equals c, then the boundary, right?
+
+1153
+02:31:19,400 --> 02:31:22,640
+ Then the non-equality condition is not satisfied.
+
+1154
+02:31:22,640 --> 02:31:28,359
+ Then we need to introduce a non-zero slag variable.
+
+1155
+02:31:28,359 --> 02:31:34,519
+ So from this condition, we get a first case, right?
+
+1156
+02:31:34,519 --> 02:31:37,880
+ So this alpha i equals zero.
+
+1157
+02:31:37,880 --> 02:31:39,199
+ So how about for others?
+
+1158
+02:31:42,119 --> 02:31:47,080
+ If you see alpha i not zero, if this part not zero,
+
+1159
+02:31:47,080 --> 02:31:50,080
+ then the zeta i is zero.
+
+1160
+02:31:50,120 --> 02:31:52,160
+ So this part, zeta i is zero, those just
+
+1161
+02:31:52,160 --> 02:31:53,720
+ put on a set of other conditions, right?
+
+1162
+02:31:53,720 --> 02:31:58,039
+ I'm trying to put x plus b equals 1 or minus 1.
+
+1163
+02:31:58,039 --> 02:32:02,640
+ So these are those, I treat the zeta i equals zero.
+
+1164
+02:32:02,640 --> 02:32:09,880
+ So for those support vectors, the alpha is less than c.
+
+1165
+02:32:09,880 --> 02:32:13,560
+ The alpha is less than c.
+
+1166
+02:32:13,560 --> 02:32:16,039
+ So those alpha are less than c.
+
+1167
+02:32:16,040 --> 02:32:20,440
+ So in order to find the b, we can use those support vectors
+
+1168
+02:32:20,440 --> 02:32:24,160
+ whose alpha values are less than c.
+
+1169
+02:32:24,160 --> 02:32:30,920
+ We cannot use those samples whose alpha equals c.
+
+1170
+02:32:30,920 --> 02:32:32,800
+ Should be less than c.
+
+1171
+02:32:38,640 --> 02:32:42,200
+ And for those part of alpha, for those part of support vectors
+
+1172
+02:32:42,200 --> 02:32:46,880
+ on the margin whose alpha value is in this range, less than c.
+
+1173
+02:32:46,880 --> 02:32:48,600
+ Alpha must be positive, right?
+
+1174
+02:32:48,600 --> 02:32:50,360
+ Otherwise, not support vector, right?
+
+1175
+02:32:50,360 --> 02:32:52,920
+ So actually, less than c.
+
+1176
+02:32:52,920 --> 02:32:55,080
+ Then we can use those part of the support
+
+1177
+02:32:55,080 --> 02:32:59,880
+ vector to determine the b value.
+
+1178
+02:32:59,880 --> 02:33:03,160
+ Because those part of the support vector are on the margin.
+
+1179
+02:33:03,160 --> 02:33:06,200
+ You remember the two parallel three lines,
+
+1180
+02:33:06,200 --> 02:33:08,640
+ parallel to the decision boundary.
+
+1181
+02:33:08,640 --> 02:33:10,280
+ So only use those parts of support vector
+
+1182
+02:33:10,280 --> 02:33:13,040
+ to determine the b.
+
+1183
+02:33:13,040 --> 02:33:17,240
+ So how we can find those part of support vectors?
+
+1184
+02:33:17,240 --> 02:33:21,240
+ Those part of the support vectors correspond to the alpha values less
+
+1185
+02:33:21,240 --> 02:33:21,740
+ than c.
+
+1186
+02:33:26,280 --> 02:33:31,560
+ And then we can use those part of the b.
+
+1187
+02:33:31,560 --> 02:33:35,200
+ Again, we can use all those kind of support vectors,
+
+1188
+02:33:35,200 --> 02:33:37,000
+ because the calculation area we take,
+
+1189
+02:33:37,000 --> 02:33:38,280
+ for each of those support vectors,
+
+1190
+02:33:38,280 --> 02:33:40,440
+ this kind of support, we find the 1b, right?
+
+1191
+02:33:40,440 --> 02:33:41,520
+ Then we take the average.
+
+1192
+02:33:44,080 --> 02:33:49,440
+ So that is just the b.
+
+1193
+02:33:49,440 --> 02:33:52,000
+ And then we have a look of this example.
+
+1194
+02:33:52,000 --> 02:33:54,960
+ So this is an example, not several case.
+
+1195
+02:33:54,960 --> 02:33:59,640
+ I just actually used this in my lab as one example.
+
+1196
+02:33:59,640 --> 02:34:01,800
+ But you are not actually required to use it in my lab.
+
+1197
+02:34:01,800 --> 02:34:03,240
+ You can use any package.
+
+1198
+02:34:03,240 --> 02:34:06,040
+ You should use the Python, which is more popular.
+
+1199
+02:34:06,080 --> 02:34:09,440
+ But for me, it's not easy to find a new language.
+
+1200
+02:34:09,440 --> 02:34:11,560
+ So I just use these as demonstration.
+
+1201
+02:34:11,560 --> 02:34:16,480
+ So I just see what we can get from the function.
+
+1202
+02:34:16,480 --> 02:34:18,880
+ And actually, if we have the data in my lab,
+
+1203
+02:34:18,880 --> 02:34:21,640
+ actually, we can just fit SVM.
+
+1204
+02:34:21,640 --> 02:34:24,320
+ This c means classified classification.
+
+1205
+02:34:24,320 --> 02:34:26,320
+ Actually, we can use SVM for regression.
+
+1206
+02:34:26,320 --> 02:34:28,880
+ So this is fit c classification.
+
+1207
+02:34:28,880 --> 02:34:30,960
+ This is SVM classified.
+
+1208
+02:34:30,960 --> 02:34:33,400
+ And then we have a tool on the output of the model.
+
+1209
+02:34:33,400 --> 02:34:35,440
+ The model has many parameters here.
+
+1210
+02:34:35,440 --> 02:34:39,480
+ And like the bias term, the b, or the given value.
+
+1211
+02:34:39,480 --> 02:34:42,320
+ Or whether it's a sub-vector or not.
+
+1212
+02:34:42,320 --> 02:34:43,760
+ So for each of the training samples,
+
+1213
+02:34:43,760 --> 02:34:45,120
+ they will tell you yes or no.
+
+1214
+02:34:45,120 --> 02:34:47,360
+ One, yes, it is sub-vector.
+
+1215
+02:34:47,360 --> 02:34:49,080
+ If zero is no sub-vector, right?
+
+1216
+02:34:49,080 --> 02:34:49,680
+ Zero.
+
+1217
+02:34:49,680 --> 02:34:50,800
+ So easy.
+
+1218
+02:34:50,800 --> 02:34:55,240
+ And also, give the alpha values.
+
+1219
+02:34:55,240 --> 02:34:57,080
+ For each of the samples, give alpha values.
+
+1220
+02:34:57,680 --> 02:34:58,180
+ OK.
+
+1221
+02:35:02,560 --> 02:35:03,060
+ No, no.
+
+1222
+02:35:03,060 --> 02:35:07,760
+ Just for sub-vectors, give the alpha values.
+
+1223
+02:35:07,760 --> 02:35:10,039
+ So that's actually a plot of alpha.
+
+1224
+02:35:10,039 --> 02:35:13,400
+ So these actually are first and not plot alpha values.
+
+1225
+02:35:13,400 --> 02:35:16,280
+ So these are the alpha values.
+
+1226
+02:35:16,280 --> 02:35:18,760
+ Actually, we see alpha of code, actually,
+
+1227
+02:35:18,760 --> 02:35:22,720
+ for a natural vector, no, the alpha is zero.
+
+1228
+02:35:22,720 --> 02:35:25,680
+ For sub-vectors, some of the alpha
+
+1229
+02:35:25,680 --> 02:35:28,280
+ will be equal to the value of c.
+
+1230
+02:35:28,280 --> 02:35:30,960
+ In this example, I said c equals 1.
+
+1231
+02:35:30,960 --> 02:35:34,000
+ If you set to c, then this should be another value.
+
+1232
+02:35:34,000 --> 02:35:36,200
+ The default value is c1.
+
+1233
+02:35:36,200 --> 02:35:39,480
+ Then we find that most of the sub-vectors
+
+1234
+02:35:39,480 --> 02:35:46,680
+ have alpha value of c or 1.
+
+1235
+02:35:46,680 --> 02:35:48,720
+ So those part of the sample sub-vector
+
+1236
+02:35:48,720 --> 02:35:51,680
+ could not be used to calculate the b.
+
+1237
+02:35:51,680 --> 02:35:55,480
+ But only a few examples whose alpha values are less than c.
+
+1238
+02:35:55,480 --> 02:35:56,560
+ Less than 1 here.
+
+1239
+02:35:56,560 --> 02:35:58,720
+ Only this 1, 2, 3.
+
+1240
+02:35:58,720 --> 02:36:03,480
+ So we use the three samples to calculate the values of b.
+
+1241
+02:36:03,480 --> 02:36:07,439
+ These three samples are on these margins, right?
+
+1242
+02:36:07,439 --> 02:36:11,600
+ On these margins, the two parallel lines, right?
+
+1243
+02:36:11,600 --> 02:36:14,680
+ The two lines parallel to the dissonant boundary.
+
+1244
+02:36:14,680 --> 02:36:16,920
+ Setify the equality condition.
+
+1245
+02:36:16,920 --> 02:36:21,640
+ W transpose x plus b equals 1 or minus 1.
+
+1246
+02:36:21,640 --> 02:36:23,119
+ OK, you can see this, right?
+
+1247
+02:36:23,120 --> 02:36:28,360
+ The c less than c, the alpha less than c.
+
+1248
+02:36:28,360 --> 02:36:32,640
+ And most of them actually are alpha, actually, equal c.
+
+1249
+02:36:36,040 --> 02:36:39,120
+ And yeah.
+
+1250
+02:36:39,120 --> 02:36:40,920
+ So is the support vector or not?
+
+1251
+02:36:40,920 --> 02:36:41,680
+ Is the support?
+
+1252
+02:36:41,680 --> 02:36:44,120
+ So whether or not tell us, this training sample
+
+1253
+02:36:44,120 --> 02:36:46,280
+ is a sub-vector or not sub-vector, right?
+
+1254
+02:36:46,280 --> 02:36:47,960
+ So like give a 1.
+
+1255
+02:36:47,960 --> 02:36:49,680
+ So totally we have 200 samples, right?
+
+1256
+02:36:49,680 --> 02:36:51,440
+ For each sample, they give a value.
+
+1257
+02:36:51,440 --> 02:36:55,040
+ If not a sub-vector, then alpha 0, OK?
+
+1258
+02:36:55,040 --> 02:36:58,560
+ And then only for those sub-vectors,
+
+1259
+02:36:58,560 --> 02:36:59,880
+ they give a value of 1.
+
+1260
+02:36:59,880 --> 02:37:01,320
+ So it is a sub-vector.
+
+1261
+02:37:04,440 --> 02:37:06,520
+ OK.
+
+1262
+02:37:06,520 --> 02:37:09,160
+ And then another thing I want to point out is this, actually.
+
+1263
+02:37:11,720 --> 02:37:15,640
+ Yeah, so the oldest, this is known part.
+
+1264
+02:37:15,640 --> 02:37:19,080
+ All those actually are sub-vectors.
+
+1265
+02:37:19,080 --> 02:37:25,640
+ Most of them have an alpha value of c, 1.
+
+1266
+02:37:25,640 --> 02:37:30,120
+ Only three have an alpha value less than 1,
+
+1267
+02:37:30,120 --> 02:37:32,560
+ of course, greater than 0.
+
+1268
+02:37:32,560 --> 02:37:35,680
+ And then, actually, it's on the margins.
+
+1269
+02:37:35,680 --> 02:37:39,200
+ Then, actually, we use them to determine the value of b.
+
+1270
+02:37:45,480 --> 02:37:47,920
+ So I think this is a very interesting result, right?
+
+1271
+02:37:48,880 --> 02:37:53,280
+ The alpha value could just equal to the c, OK?
+
+1272
+02:37:53,280 --> 02:37:57,480
+ And only those less than c are those on the margin
+
+1273
+02:37:57,480 --> 02:38:03,320
+ should be used to determine the value of b.
+
+1274
+02:38:03,320 --> 02:38:05,040
+ So actually, from this study, actually,
+
+1275
+02:38:05,040 --> 02:38:08,160
+ we see the sub-vector machine is really
+
+1276
+02:38:08,160 --> 02:38:10,760
+ a kind of interesting result, right?
+
+1277
+02:38:10,760 --> 02:38:12,520
+ But a lot of interesting results.
+
+1278
+02:38:12,520 --> 02:38:15,720
+ First, actually, the width is just
+
+1279
+02:38:15,920 --> 02:38:18,160
+ a linear summation of the train samples,
+
+1280
+02:38:18,160 --> 02:38:20,480
+ which is summation, right?
+
+1281
+02:38:20,480 --> 02:38:22,599
+ And also, we just need to use the full samples
+
+1282
+02:38:22,599 --> 02:38:26,760
+ to determine this w and then the b, OK?
+
+1283
+02:38:26,760 --> 02:38:30,199
+ And for the non-sebral case, when we calculate the alpha,
+
+1284
+02:38:30,199 --> 02:38:30,840
+ right?
+
+1285
+02:38:30,840 --> 02:38:31,599
+ We calculate alpha.
+
+1286
+02:38:31,599 --> 02:38:32,920
+ And most of the alpha, actually,
+
+1287
+02:38:32,920 --> 02:38:35,519
+ is just equal to the value of c.
+
+1288
+02:38:35,519 --> 02:38:37,679
+ Only a few actually is less than c.
+
+1289
+02:38:37,679 --> 02:38:40,679
+ And those are on the margins, which
+
+1290
+02:38:40,679 --> 02:38:44,560
+ should be used to determine the value of b, OK?
+
+1291
+02:38:46,599 --> 02:38:47,599
+ OK.
+
+1292
+02:38:47,599 --> 02:38:49,599
+ So these are the descent boundary, OK?
+
+1293
+02:38:49,599 --> 02:38:52,080
+ So based on the two, three samples, right?
+
+1294
+02:38:52,080 --> 02:38:53,080
+ We calculate that.
+
+1295
+02:38:53,080 --> 02:38:55,480
+ Actually, the b determination of the w
+
+1296
+02:38:55,480 --> 02:38:58,400
+ based on all the samples, based on all the sub-vectors.
+
+1297
+02:38:58,400 --> 02:39:03,240
+ Just the b determination, it based on the very few sub-vectors,
+
+1298
+02:39:03,240 --> 02:39:05,039
+ part of the sub-vectors.
+
+1299
+02:39:05,039 --> 02:39:07,760
+ The w is based on all the sub-vectors.
+
+1300
+02:39:11,679 --> 02:39:12,920
+ OK.
+
+1301
+02:39:12,920 --> 02:39:15,560
+ And actually, that's what we look at in one scenario, right?
+
+1302
+02:39:15,720 --> 02:39:18,960
+ So this is also a typical class opinion problem, right?
+
+1303
+02:39:18,960 --> 02:39:20,960
+ We have one sample here.
+
+1304
+02:39:20,960 --> 02:39:23,519
+ We have one sample in another class here.
+
+1305
+02:39:23,519 --> 02:39:25,160
+ So certainly, we cannot use one string
+
+1306
+02:39:25,160 --> 02:39:27,680
+ line to separate the sample in the two classes, right?
+
+1307
+02:39:27,680 --> 02:39:32,080
+ So the sample is linearly inseparable.
+
+1308
+02:39:32,080 --> 02:39:35,400
+ We cannot use the linear classifier to separate the sample
+
+1309
+02:39:35,400 --> 02:39:36,160
+ in the two classes.
+
+1310
+02:39:36,160 --> 02:39:40,960
+ We need to use a nonlinear classifier, right?
+
+1311
+02:39:40,960 --> 02:39:43,519
+ A nonlinear classifier like this.
+
+1312
+02:39:43,520 --> 02:39:45,160
+ A nonlinear classifier is a curl, right?
+
+1313
+02:39:45,160 --> 02:39:47,640
+ It's a curl, not string line.
+
+1314
+02:39:47,640 --> 02:39:52,800
+ It's a Harper surface like this.
+
+1315
+02:39:52,800 --> 02:39:56,400
+ And so for sub-vectors, we can also
+
+1316
+02:39:56,400 --> 02:40:02,120
+ extend this idea to the nonlinear classifier.
+
+1317
+02:40:02,120 --> 02:40:06,640
+ And so that is kernel support-wide dimensions.
+
+1318
+02:40:06,640 --> 02:40:09,680
+ So in this course, actually, we don't
+
+1319
+02:40:09,680 --> 02:40:12,240
+ cover the kernel support-wide dimensions.
+
+1320
+02:40:12,240 --> 02:40:15,960
+ And actually, in this course, in the next semester,
+
+1321
+02:40:15,960 --> 02:40:18,000
+ a neural network and a deep learning
+
+1322
+02:40:18,000 --> 02:40:20,520
+ will cover the kernel support-wide dimensions.
+
+1323
+02:40:20,520 --> 02:40:21,680
+ A kernel support-wide dimensions is
+
+1324
+02:40:21,680 --> 02:40:24,400
+ very similar to one kind of neural network,
+
+1325
+02:40:24,400 --> 02:40:27,840
+ which is called radio-based function neural network.
+
+1326
+02:40:27,840 --> 02:40:28,840
+ Very similar.
+
+1327
+02:40:28,840 --> 02:40:34,520
+ So we will actually cover the kernel support-wide dimensions
+
+1328
+02:40:34,520 --> 02:40:37,360
+ in this course in semester two.
+
+1329
+02:40:37,360 --> 02:40:40,000
+ So in this machine learning course,
+
+1330
+02:40:40,040 --> 02:40:43,800
+ we just cover the linear support-wide dimensions.
+
+1331
+02:40:43,800 --> 02:40:45,800
+ OK.
+
+1332
+02:40:45,800 --> 02:40:47,080
+ OK.
+
+1333
+02:40:47,080 --> 02:40:48,640
+ Yeah, I think that's all for today.
+
+1334
+02:40:48,640 --> 02:40:49,280
+ Yeah.
+
+1335
+02:40:49,280 --> 02:40:51,480
+ Thank you.
+
+1336
+02:40:51,480 --> 02:40:51,960
+ Thank you.
+
+1337
+02:40:54,960 --> 02:41:02,000
+ So our quiz actually is a face on the week 12
+
+1338
+02:41:02,000 --> 02:41:06,840
+ on Saturday morning.
+
+1339
+02:41:07,800 --> 02:41:14,360
+ Actually, I think for this course, we have a 680 student,
+
+1340
+02:41:14,360 --> 02:41:16,560
+ 84, 84 students.
+
+1341
+02:41:16,560 --> 02:41:19,960
+ And I need to find three big lecture theaters.
+
+1342
+02:41:19,960 --> 02:41:23,080
+ And actually, at the evening time, actually,
+
+1343
+02:41:23,080 --> 02:41:26,200
+ I hope we can find the lecture theater
+
+1344
+02:41:26,200 --> 02:41:28,160
+ on Tuesday night, right?
+
+1345
+02:41:28,160 --> 02:41:32,760
+ But all the lecture theaters are reserved by others.
+
+1346
+02:41:32,760 --> 02:41:34,560
+ I used maybe for courses.
+
+1347
+02:41:34,560 --> 02:41:40,519
+ So I can only reserve the classroom on Saturday morning.
+
+1348
+02:41:40,519 --> 02:41:43,400
+ It's on the, yeah, not the last week,
+
+1349
+02:41:43,400 --> 02:41:45,359
+ I think one week before the last, right?
+
+1350
+02:41:45,359 --> 02:41:48,359
+ So week 12, I think Saturday morning.
+
+1351
+02:41:48,359 --> 02:41:48,600
+ OK.
+
+1352
+02:41:48,600 --> 02:41:54,519
+ So I will announce this in our course website.
+
+1353
+02:41:54,519 --> 02:41:57,080
+ And also, I tell you the location,
+
+1354
+02:41:57,080 --> 02:42:00,840
+ and assign each of you to one lecture theater
+
+1355
+02:42:00,840 --> 02:42:02,600
+ to take the assignment.
+
+1356
+02:42:02,640 --> 02:42:06,560
+ So I will let you know the detail later.
+
+1357
+02:42:06,560 --> 02:42:07,400
+ OK?
+
+1358
+02:42:07,400 --> 02:42:07,800
+ Yeah.
+
+1359
+02:42:07,800 --> 02:42:08,300
+ Thank you.
+
+1360
+02:42:32,600 --> 02:42:33,600
+ Thank you.
+
+1361
+02:43:02,600 --> 02:43:03,600
+ Thank you.
+
+1362
+02:43:32,600 --> 02:43:33,600
+ Thank you.
+
+1363
+02:44:02,600 --> 02:44:03,600
+ Thank you.
+
+1364
+02:44:32,600 --> 02:44:33,600
+ Thank you.
+
+1365
+02:45:02,600 --> 02:45:03,600
+ Thank you.
+
+1366
+02:45:32,600 --> 02:45:33,600
+ Thank you.
+
+1367
+02:46:02,600 --> 02:46:03,600
+ Thank you.
+
+1368
+02:46:32,600 --> 02:46:33,600
+ Thank you.
+
+1369
+02:47:02,600 --> 02:47:03,600
+ Thank you.
+
+1370
+02:47:32,600 --> 02:47:33,600
+ Thank you.
+
+1371
+02:48:02,600 --> 02:48:04,600
+ Thank you.
+
+1372
+02:48:32,600 --> 02:48:34,600
+ Thank you.
+
+1373
+02:49:02,600 --> 02:49:04,600
+ Thank you.
+
+1374
+02:49:32,600 --> 02:49:34,600
+ Thank you.
+
+1375
+02:50:02,600 --> 02:50:04,600
+ Thank you.
+
+1376
+02:50:32,600 --> 02:50:34,600
+ Thank you.
+
+1377
+02:51:02,600 --> 02:51:04,600
+ Thank you.
+
+1378
+02:51:32,600 --> 02:51:34,600
+ Thank you.
+
+1379
+02:52:02,600 --> 02:52:04,600
+ Thank you.
+
+1380
+02:52:32,600 --> 02:52:34,600
+ Thank you.
+
+1381
+02:53:02,600 --> 02:53:04,600
+ Thank you.
+
+1382
+02:53:32,600 --> 02:53:34,600
+ Thank you.
+
+1383
+02:54:02,600 --> 02:54:04,600
+ Thank you.
+
+1384
+02:54:32,600 --> 02:54:34,600
+ Thank you.
+
+1385
+02:55:02,600 --> 02:55:04,600
+ Thank you.
+
+1386
+02:55:32,600 --> 02:55:34,600
+ Thank you.
+
+1387
+02:56:02,600 --> 02:56:04,600
+ Thank you.
+
+1388
+02:56:32,600 --> 02:56:34,600
+ Thank you.
+
+1389
+02:57:02,600 --> 02:57:04,600
+ Thank you.
+
+1390
+02:57:32,600 --> 02:57:34,600
+ Thank you.
+
+1391
+02:58:02,600 --> 02:58:04,600
+ Thank you.
+
+1392
+02:58:32,600 --> 02:58:34,600
+ Thank you.
+
+1393
+02:59:02,600 --> 02:59:04,600
+ Thank you.
+
+1394
+02:59:32,600 --> 02:59:34,600
+ Thank you.
+

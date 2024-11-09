@@ -1,0 +1,8005 @@
+1
+00:08:30,000 --> 00:08:38,000
+ Okay, I made it. So can you hear me from the back? I understand that sometimes the voice
+好吧，我做到了。那么你能从后面听到我的声音吗？我明白有时声音
+
+2
+00:08:38,000 --> 00:08:48,000
+ is still a little bit too soft. Can I just do a check? Is this volume alright? Is it okay?
+还是有点太软了。我可以只检查一下吗？这个音量可以吗？可以吗？
+
+3
+00:08:48,000 --> 00:08:56,000
+ You can hear right? But if at any time you find that the volume somehow gets softer and you can't hear,
+你能听到吗？但如果任何时候您发现音量不知何故变小而您听不见，
+
+4
+00:08:56,000 --> 00:09:04,000
+ you just raise your hand, you know, and then as a signal to me, okay, then we'll adjust the microphone
+你只需举起手，你知道，然后作为向我发出的信号，好吧，然后我们将调整麦克风
+
+5
+00:09:04,000 --> 00:09:20,000
+ accordingly. Let me just mix it out a little bit. Okay, hopefully that is better. Okay, that should do.
+因此。让我稍微混合一下。好吧，希望这样会更好。好吧，应该可以了。
+
+6
+00:09:20,000 --> 00:09:31,000
+ Okay, see a blank screen because I would like to do a recap of what we have done last week.
+好的，看到一个空白屏幕，因为我想回顾一下我们上周所做的事情。
+
+7
+00:09:31,000 --> 00:09:41,000
+ Right? So this is the second week of our lecture. So next week we have one more week. So next week we will do the quiz at 8.30.
+正确的？这是我们讲座的第二周。所以下周我们还有一周。所以下周我们将在 8.30 进行测验。
+
+8
+00:09:41,000 --> 00:09:52,000
+ Alright? So the quiz will be somewhere in the north spine. I have specially reserved three big LT to handle the quiz all at one go.
+好吧？所以测验将在北脊柱的某个地方。我特地预留了三个大LT来一次性处理测验。
+
+9
+00:09:52,000 --> 00:10:02,000
+ Alright? So by next week, halfway through, you know, we will stop and then you go for the quiz because it will take some time to walk.
+好吧？所以到下周，中间，你知道，我们会停下来，然后你去参加测验，因为步行需要一些时间。
+
+10
+00:10:02,000 --> 00:10:12,000
+ So I'll remind you again, we've met to give you an indication roughly where it is. Alright? So next week, 8.30 quiz.
+所以我会再次提醒您，我们会面是为了向您提供大致的指示。好吧？那么下周，8.30 测验。
+
+11
+00:10:12,000 --> 00:10:26,000
+ Alright? By 8 o'clock we should be done. Alright? So the question as to what is covered in the quiz, mainly on what we have done on lecture one and lecture two.
+好吧？到八点钟我们应该就完成了。好吧？那么关于测验内容的问题，主要是我们在第一课和第二课中所做的事情。
+
+12
+00:10:26,000 --> 00:10:43,000
+ Alright? Hooray, right? Okay? One and two only. Okay? So we will still carry on lecture three because it has some substantial material where you'll be responsible also for the exam.
+好吧？万岁，对吧？好的？只有一和二。好的？所以我们仍然会继续第三讲，因为它有一些实质性的材料，你也将负责考试。
+
+13
+00:10:43,000 --> 00:10:53,000
+ Alright? The final exam. Remember the final exam you say 25 marks there. Okay? But for the quiz, let's not get too complicated.
+好吧？期末考试。记得期末考试你说25分。好的？但对于测验，我们不要太复杂。
+
+14
+00:10:53,000 --> 00:11:03,000
+ We'll just do one and two. Alright? Whatever we covered on one and two. Also another note I want to make is that you can see that I gave you quite a bit of materials.
+我们只做一和二。好吧？无论我们在第一和第二方面讨论过什么。我还想指出的另一点是，您可以看到我给了您相当多的材料。
+
+15
+00:11:03,000 --> 00:11:13,000
+ Alright? In terms of the lecture slides. And I think you get the idea or you get the drift that, you know, is quite impossible for me to complete all the slides.
+好吧？就讲座幻灯片而言。我想你已经明白了，或者你明白了，你知道，我不可能完成所有的幻灯片。
+
+16
+00:11:13,000 --> 00:11:23,000
+ But nevertheless the slides are there. So if you are interested enough in the subjects you want to know a little bit more, you can use the slides and look through it.
+但无论如何，幻灯片都在那里。因此，如果您对想要了解更多的主题足够感兴趣，您可以使用幻灯片并浏览它。
+
+17
+00:11:23,000 --> 00:11:35,000
+ Right? Because I would like to think that at least I've got you started in the topic. So you know on a broad picture in a bigger framework what the method is all about.
+正确的？因为我想至少我已经让你开始讨论这个话题了。因此，您可以在更大的框架中了解该方法的全部内容。
+
+18
+00:11:35,000 --> 00:11:47,000
+ Alright? I think a lot of time is like that. You know, once you get, you understand at the top level what the general idea is all about.
+好吧？我想很多时候都是这样。你知道，一旦你明白了，你就会从顶层理解总体想法是什么。
+
+19
+00:11:47,000 --> 00:11:56,000
+ Then I think the rest of it is just to enhance your understanding in the deeper manner and then to get a little bit more details.
+那么我觉得剩下的就是为了加深大家的理解，然后再了解一点细节。
+
+20
+00:11:56,000 --> 00:12:14,000
+ Alright? So whatever I covered in lecture you'll be tested. If you ask me what is testable in the exam, whatever we stop, if I stop at slide 95, that is all there is to it. Up to slide 95.
+好吧？因此，无论我在讲座中讲授什么内容，您都将受到测试。如果你问我考试中可以测试什么，无论我们停止什么，如果我停在幻灯片 95 上，那就是全部了。直到幻灯片 95。
+
+21
+00:12:14,000 --> 00:12:26,000
+ That I'm quite certain. Is that clear? Okay. So that's for your exam. But for your quiz is what we've done on lecture one and lecture two.
+我非常确定。清楚了吗？好的。这就是你的考试。但是对于您的测验，我们在第一课和第二课中所做的就是这样。
+
+22
+00:12:26,000 --> 00:12:34,000
+ Alright? Fifty minutes could be multiple choice or short question, short answer.
+好吧？五十分钟可以是多项选择题，也可以是短问、短答。
+
+23
+00:12:35,000 --> 00:12:47,000
+ So let's go back to our agenda of what we want to do today. So today let's take a quick recap on what we covered last week.
+那么让我们回到我们今天要做的事情的议程。今天让我们快速回顾一下上周的内容。
+
+24
+00:12:47,000 --> 00:12:58,000
+ Alright? I think in the beginning we kind of espal on the fact that you know what we want to learn is about GA genetic algorithm.
+好吧？我认为一开始我们就知道我们想要学习的是 GA 遗传算法。
+
+25
+00:12:59,000 --> 00:13:06,000
+ And as I said earlier it is all about problem solving. Isn't it? You want to solve a problem.
+正如我之前所说，一切都是为了解决问题。不是吗？你想解决一个问题。
+
+26
+00:13:06,000 --> 00:13:13,000
+ Now when you want to solve a problem, okay one method available is method heuristic.
+现在，当您想解决问题时，一种可用的方法是启发式方法。
+
+27
+00:13:13,000 --> 00:13:21,000
+ And today I hope to show you that you know, don't think that this is the best method for optimization. There's no such thing.
+今天我希望向您展示，您知道，不要认为这是最好的优化方法。没有这样的事。
+
+28
+00:13:21,000 --> 00:13:29,000
+ So today hopefully by the end of it you will see on a very top level perspective, right?
+所以今天希望到最后你会看到一个非常顶层的视角，对吧？
+
+29
+00:13:29,000 --> 00:13:39,000
+ Where you must look at algorithms in a very broad sense, right? In order to decide whether it's good, it's bad and so on.
+你必须从非常广泛的意义上看待算法，对吧？以此来决定它是好还是坏等等。
+
+30
+00:13:39,000 --> 00:13:46,000
+ Alright? So it's a method heuristic, right? Heuristic you know what it is. Heuristic is precise.
+好吧？所以这是一种方法启发式，对吗？启发式你知道它是什么。启发式是精确的。
+
+31
+00:13:46,000 --> 00:13:55,000
+ Now what we are dealing with GA is like some kind of heuristic, right? But it's not the heuristic per se as what the human perceive as heuristic.
+现在我们处理的遗传算法就像某种启发式的，对吧？但这并不是人类所认为的启发式方法本身。
+
+32
+00:13:55,000 --> 00:14:07,000
+ It's a heuristic that is based on nature, right? Nature has a certain rules of how the process for example in this case evolution, you know, adaptation and so on.
+这是一种基于自然的启发式方法，对吧？大自然的过程有一定的规则，例如在这种情况下的进化、适应等等。
+
+33
+00:14:07,000 --> 00:14:13,000
+ So that's what we talked about, method heuristic and GA is one of the method heuristic.
+这就是我们所说的启发式方法，而遗传算法是启发式方法之一。
+
+34
+00:14:13,000 --> 00:14:23,000
+ So we want to solve a problem. So it kind of makes sense that we understand the nature of the problems.
+所以我们想解决一个问题。因此，我们了解问题的本质是有道理的。
+
+35
+00:14:23,000 --> 00:14:35,000
+ So last week we categorized or characterized the problems. So this is by no means the absolute way of categorizing.
+因此，上周我们对问题进行了分类或描述。所以这绝不是绝对的分类方式。
+
+36
+00:14:35,000 --> 00:14:41,000
+ But certainly this is one way to look at the kind of problems that we are dealing with.
+但毫无疑问，这是看待我们正在处理的问题的一种方式。
+
+37
+00:14:41,000 --> 00:14:48,000
+ So kind of brought you to the understanding of what is black box, right?
+这让您了解了什么是黑匣子，对吗？
+
+38
+00:14:48,000 --> 00:14:56,000
+ From the perspective of black box, how you see problems, right? Basically there are three entities input, output and model.
+从黑匣子的角度来看，你是如何看待问题的，对吗？基本上有输入、输出和模型三个实体。
+
+39
+00:14:56,000 --> 00:15:02,000
+ So from there you can do a categorization of the kind of problems that you're trying to solve.
+因此，您可以从那里对您要解决的问题类型进行分类。
+
+40
+00:15:02,000 --> 00:15:10,000
+ And we look at search space, understand the search space, you know, the size, it will give you an idea of the complexity.
+我们观察搜索空间，了解搜索空间，你知道，它的大小，它会让你了解其复杂性。
+
+41
+00:15:10,000 --> 00:15:19,000
+ So from the perspective of the solution landscape, for example, and optimization and constraint satisfaction.
+因此，从解决方案景观的角度来看，例如优化和约束满足。
+
+42
+00:15:19,000 --> 00:15:28,000
+ We did a bit of practice and I hope you have a clear understanding of what it means by constraint satisfaction and optimization.
+我们做了一些练习，希望您能够清楚地理解约束满足和优化的含义。
+
+43
+00:15:28,000 --> 00:15:35,000
+ And I think basically we talk about so-called constraints and then objective function.
+我认为基本上我们讨论所谓的约束，然后是目标函数。
+
+44
+00:15:35,000 --> 00:15:43,000
+ So from that little table there, that should give you a clear indication on how to categorize or classify them.
+因此，从那个小表中，应该可以清楚地指示您如何对它们进行分类或分类。
+
+45
+00:15:43,000 --> 00:15:50,000
+ So what is also important from the perspective of problem is the hardness of the complexity.
+所以从问题的角度来看，同样重要的是复杂性的硬度。
+
+46
+00:15:51,000 --> 00:15:56,000
+ So the idea is, you know, it's no point telling somebody, oh, it's very complex.
+所以这个想法是，你知道，告诉别人没有意义，哦，这非常复杂。
+
+47
+00:15:56,000 --> 00:16:03,000
+ Oh, how is this problem? It's always very complex. That doesn't mean anything.
+哦，这个问题怎么办？它总是非常复杂。那没有任何意义。
+
+48
+00:16:03,000 --> 00:16:15,000
+ What is more meaningful is for you to be able to so-called characterize it in such a way that there is indication in terms of problem solving.
+更有意义的是你能够所谓的表征它，在解决问题方面有指示。
+
+49
+00:16:15,000 --> 00:16:23,000
+ That is MP hardness. So understand what is P, NP, NP-hard, NP-complete.
+即 MP 硬度。所以理解什么是P、NP、NP-hard、NP-complete。
+
+50
+00:16:23,000 --> 00:16:33,000
+ And motivation and inspiration. GA is inspired.
+还有动力和灵感。 GA受到启发。
+
+51
+00:16:33,000 --> 00:16:39,000
+ It's an inspired methodology based on evolution and genetics.
+这是一种基于进化和遗传学的受启发的方法论。
+
+52
+00:16:40,000 --> 00:16:47,000
+ So I've come across many students or PhD students. They say, oh, they use GA.
+所以我遇到过很多学生或博士生。他们说，哦，他们使用 GA。
+
+53
+00:16:47,000 --> 00:16:52,000
+ I say, oh, can you explain? This is especially in the qualifying exam.
+我说哦，你能解释一下吗？尤其是在资格考试中。
+
+54
+00:16:52,000 --> 00:16:57,000
+ I say, can you explain the inspiration or motivation of GA?
+我说你能解释一下GA的灵感或者动机吗？
+
+55
+00:16:57,000 --> 00:17:03,000
+ After a bit of questioning, they kind of admit or they didn't think about it.
+经过一番询问后，他们要么承认了，要么没有考虑过。
+
+56
+00:17:03,000 --> 00:17:07,000
+ They just know how to use it, which is all right, I suppose.
+他们只是知道如何使用它，我想这没关系。
+
+57
+00:17:07,000 --> 00:17:17,000
+ You know, you use it to solve a problem. I think it will be more meaningful and engaging if you know where it came from or how it came about.
+你知道，你用它来解决问题。我认为如果你知道它从何而来或如何产生，将会更有意义、更有吸引力。
+
+58
+00:17:17,000 --> 00:17:20,000
+ All right? So that's what we're trying to do.
+好的？这就是我们正在努力做的事情。
+
+59
+00:17:20,000 --> 00:17:26,000
+ And I showed you that there are actually two aspects in the natural metaphor.
+我向你们展示了自然隐喻实际上有两个方面。
+
+60
+00:17:26,000 --> 00:17:34,000
+ One is evolution, Darwinian evolution, survival of the fittest, adaptation.
+一是进化论，达尔文进化论，适者生存，适应。
+
+61
+00:17:34,000 --> 00:17:39,000
+ Why? Because of limited resources. So therefore there is this competition.
+为什么？因为资源有限。所以就有了这个竞争。
+
+62
+00:17:39,000 --> 00:17:42,000
+ All right? There's natural evolution.
+好的？有自然进化。
+
+63
+00:17:42,000 --> 00:17:49,000
+ So there is somewhat so-called inspire the process of our problem solving.
+所以我们解决问题的过程中有一些所谓的启发。
+
+64
+00:17:49,000 --> 00:17:53,000
+ Now, then we're going to think, OK, how do we put together this information?
+现在，我们要思考，好吧，我们如何将这些信息组合在一起？
+
+65
+00:17:53,000 --> 00:17:57,000
+ How do we transfer and encode the information?
+我们如何传输和编码信息？
+
+66
+00:17:57,000 --> 00:17:59,000
+ Remember, we're talking about problem solving.
+请记住，我们正在谈论解决问题。
+
+67
+00:18:00,000 --> 00:18:08,000
+ So how do we actually encapsulate or capture the so-called the problem?
+那么我们如何真正封装或捕获所谓的问题呢？
+
+68
+00:18:08,000 --> 00:18:13,000
+ And that's where we go to genetics.
+这就是我们研究遗传学的地方。
+
+69
+00:18:13,000 --> 00:18:20,000
+ Chromosomes. All the information about us is in our DNA, the 23 pairs.
+染色体。关于我们的所有信息都在我们的 DNA 中，即 23 对。
+
+70
+00:18:20,000 --> 00:18:23,000
+ It's a signature of who we are.
+这是我们的签名。
+
+71
+00:18:23,000 --> 00:18:28,000
+ The expression, the phenotype, whether we look at phenotype.
+表达，表型，我们是否看表型。
+
+72
+00:18:29,000 --> 00:18:34,000
+ So the inspiration, evolution, and genetics.
+所以灵感、进化和遗传学。
+
+73
+00:18:34,000 --> 00:18:40,000
+ And of course, at the end of it, we want to know, OK, how? What?
+当然，最后我们想知道，好吧，怎么样？什么？
+
+74
+00:18:40,000 --> 00:18:43,000
+ How do you put together a GA?
+如何组合 GA？
+
+75
+00:18:43,000 --> 00:18:46,000
+ That's what we aim to do.
+这就是我们的目标。
+
+76
+00:18:46,000 --> 00:18:51,000
+ So to do that, of course, I think first of all, let's take a look at...
+当然，要做到这一点，我想首先让我们看一下......
+
+77
+00:18:59,000 --> 00:19:01,000
+ So that's kind of where we left off.
+这就是我们离开的地方。
+
+78
+00:19:01,000 --> 00:19:06,000
+ So let's pick it up from there for last week.
+让我们从上周的情况开始吧。
+
+79
+00:19:06,000 --> 00:19:09,000
+ So first, we'll look at the scheme of a GA.
+首先，我们来看看 GA 的方案。
+
+80
+00:19:09,000 --> 00:19:16,000
+ It's good to have a big picture or a blueprint of what the GA or EA is all about.
+最好对 GA 或 EA 的内容有一个总体了解或蓝图。
+
+81
+00:19:16,000 --> 00:19:19,000
+ So we look at the scheme of the EA.
+所以我们看一下 EA 的方案。
+
+82
+00:19:19,000 --> 00:19:24,000
+ And the main components of it, the three things that are listed there.
+以及它的主要组成部分，即列出的三件事。
+
+83
+00:19:24,000 --> 00:19:27,000
+ How do we represent it? How do we evaluate it?
+我们如何表示它？我们如何评价它？
+
+84
+00:19:27,000 --> 00:19:30,000
+ You know, the population and so on.
+你知道，人口等等。
+
+85
+00:19:30,000 --> 00:19:33,000
+ So that's the second thing we'll look at.
+这是我们要关注的第二件事。
+
+86
+00:19:33,000 --> 00:19:37,000
+ And then we will delve into the Aqueen's problem.
+然后我们将深入研究 Aqueen 的问题。
+
+87
+00:19:37,000 --> 00:19:40,000
+ Let's think a little bit more details.
+让我们考虑更多细节。
+
+88
+00:19:40,000 --> 00:19:48,000
+ So that should illustrate how we do the capturing or the encoding of the information or the problem.
+因此，这应该说明我们如何捕获或编码信息或问题。
+
+89
+00:19:48,000 --> 00:19:51,000
+ Typical EA behavior.
+典型的 EA 行为。
+
+90
+00:19:51,000 --> 00:19:58,000
+ Understand where EA stands in terms of optimization.
+了解 EA 在优化方面的立场。
+
+91
+00:19:58,000 --> 00:20:01,000
+ And I think it's going to change our perspective.
+我认为这将改变我们的观点。
+
+92
+00:20:01,000 --> 00:20:04,000
+ If you understand, say the behavior.
+如果你明白，请说出行为。
+
+93
+00:20:04,000 --> 00:20:07,000
+ So today we'll look at that.
+所以今天我们来看看。
+
+94
+00:20:07,000 --> 00:20:13,000
+ And EA is in global optimization and neighborhood.
+而EA处于全局优化和邻域优化。
+
+95
+00:20:13,000 --> 00:20:16,000
+ Global neighborhood.
+全球邻里。
+
+96
+00:20:16,000 --> 00:20:22,000
+ The name implied global means a complete search space.
+顾名思义，全局意味着一个完整的搜索空间。
+
+97
+00:20:22,000 --> 00:20:28,000
+ Neighborhood means, you know what's neighbor, search nearby.
+邻居意味着，你知道邻居是什么，就在附近搜索。
+
+98
+00:20:28,000 --> 00:20:32,000
+ So let's have some understanding on this.
+那么我们对此有一些了解。
+
+99
+00:20:32,000 --> 00:20:42,000
+ So we follow along this outline and then develop our understanding on what a GA is.
+所以我们沿着这个大纲，然后加深对 GA 是什么的理解。
+
+100
+00:20:42,000 --> 00:20:46,000
+ So we look at this slide here.
+我们在这里看一下这张幻灯片。
+
+101
+00:20:46,000 --> 00:20:49,000
+ Always remember these slides.
+永远记住这些幻灯片。
+
+102
+00:20:49,000 --> 00:20:52,000
+ Not difficult. It's intentionally simple.
+不难。这是故意简单的。
+
+103
+00:20:52,000 --> 00:20:56,000
+ Here are three entities. Population, parents, and offspring.
+这是三个实体。人口、父母和后代。
+
+104
+00:20:56,000 --> 00:21:00,000
+ From population, you go to parents.
+从人口，你到父母。
+
+105
+00:21:00,000 --> 00:21:09,000
+ So remember all the processes that are in nature on evolution as a process of selection.
+因此，请记住自然界中进化的所有过程都是一个选择过程。
+
+106
+00:21:09,000 --> 00:21:14,000
+ And also survival of the fittest.
+还有适者生存。
+
+107
+00:21:14,000 --> 00:21:26,000
+ So all this here must be captured or should be captured in our problem solving methodology.
+因此，这里的所有这些都必须被捕获，或者应该在我们的问题解决方法中被捕获。
+
+108
+00:21:26,000 --> 00:21:30,000
+ So three entities, population, parents, and offspring.
+所以三个实体：人口、父母和后代。
+
+109
+00:21:30,000 --> 00:21:33,000
+ So parent selection.
+所以家长选择。
+
+110
+00:21:33,000 --> 00:21:39,000
+ So from population to parents, we select according to fitness.
+所以从人口到父母，我们根据适应度来选择。
+
+111
+00:21:39,000 --> 00:21:43,000
+ When there's a selection, there must be a basis for selection.
+既然有选择，就必须有选择的依据。
+
+112
+00:21:43,000 --> 00:21:46,000
+ That means that you must have a fitness.
+这意味着你必须有健身能力。
+
+113
+00:21:46,000 --> 00:21:53,000
+ When you have a fitness, there must be a way for you to measure or evaluate.
+当你有健身的时候，一定有一个方法可以让你衡量或者评估。
+
+114
+00:21:53,000 --> 00:21:58,000
+ So there must be an evaluation function.
+所以必须有一个评价函数。
+
+115
+00:21:58,000 --> 00:22:08,000
+ And then from parents to offspring, there are operators in your GA.
+然后从父母到后代，你的遗传算法中有算子。
+
+116
+00:22:08,000 --> 00:22:13,000
+ Just like in arithmetic, you have 3 plus 4 and the plus is your operator.
+就像算术一样，你有 3 加 4，加号是你的运算符。
+
+117
+00:22:13,000 --> 00:22:16,000
+ In GA, you have your operators.
+在 GA 中，您有自己的操作员。
+
+118
+00:22:16,000 --> 00:22:20,000
+ We have what we call the recombination operators.
+我们有所谓的重组算子。
+
+119
+00:22:20,000 --> 00:22:25,000
+ The word recombine means that it involves two or more.
+重组这个词意味着它涉及两个或多个。
+
+120
+00:22:25,000 --> 00:22:28,000
+ So you recombine.
+所以你们重新组合。
+
+121
+00:22:28,000 --> 00:22:34,000
+ One famous or most commonly used recombination is crossover.
+一种著名或最常用的重组是交叉。
+
+122
+00:22:34,000 --> 00:22:38,000
+ So you hear the usage of the term crossover quite often.
+所以你经常听到交叉这个词的使用。
+
+123
+00:22:38,000 --> 00:22:44,000
+ To cross over means you have two parents and then you just swap information between the so-called,
+跨界意味着你有两个父母，然后你只需在所谓的之间交换信息，
+
+124
+00:22:44,000 --> 00:22:52,000
+ you take part of the information from parent one and parent two to produce another variation of it.
+您从父级一和父级二获取部分信息以产生它的另一种变体。
+
+125
+00:22:52,000 --> 00:22:56,000
+ So you have recombination, random.
+所以你有重组，随机的。
+
+126
+00:22:56,000 --> 00:23:00,000
+ So from, this is where the power of GA is.
+所以说，这就是GA的威力所在。
+
+127
+00:23:00,000 --> 00:23:07,000
+ So in many problems, many algorithms get stuck in local optimum.
+所以在很多问题中，很多算法都会陷入局部最优。
+
+128
+00:23:07,000 --> 00:23:13,000
+ So when you get stuck, sometimes basically it is a stalemate.
+所以当你陷入困境时，有时基本上就是一个僵局。
+
+129
+00:23:13,000 --> 00:23:16,000
+ You cannot get any better.
+你不可能变得更好了。
+
+130
+00:23:16,000 --> 00:23:19,000
+ So usually you need a mechanism to shake it.
+所以通常你需要一个机制来摇动它。
+
+131
+00:23:20,000 --> 00:23:23,000
+ A mutation is something like that.
+突变就是这样的事情。
+
+132
+00:23:23,000 --> 00:23:30,000
+ So from parents, you have your offspring and then you have your, from offspring,
+所以从父母那里，你有你的后代，然后你从后代那里，
+
+133
+00:23:30,000 --> 00:23:35,000
+ survivor selection, create a new gen, so-called a new population.
+幸存者选择，创造新的一代，即所谓的新种群。
+
+134
+00:23:35,000 --> 00:23:38,000
+ So that becomes one generation.
+这样就成为一代人。
+
+135
+00:23:38,000 --> 00:23:45,000
+ So you see the so-called, the mechanisms or the forces at work.
+所以你看到了所谓的、起作用的机制或力量。
+
+136
+00:23:45,000 --> 00:23:53,000
+ There's some kind of bias towards the, the solution that are good is going to survive over the generations.
+人们对好的解决方案存在某种偏见，认为好的解决方案将会世代相传。
+
+137
+00:23:53,000 --> 00:24:01,000
+ So you do these many iterations and in time, all right, the overall fitness should improve.
+所以你做了很多次迭代，随着时间的推移，整体健康状况应该会得到改善。
+
+138
+00:24:01,000 --> 00:24:08,000
+ And then if any luck, you may hit the best solution, what we call the global optimum.
+然后，如果幸运的话，您可能会找到最佳解决方案，即我们所说的全局最优解。
+
+139
+00:24:08,000 --> 00:24:12,000
+ So just a general picture I want you to be very clear about.
+所以我只是希望您能非常清楚地了解一个总体情况。
+
+140
+00:24:12,000 --> 00:24:23,000
+ If you remember this picture, I think you pretty much have a reasonable high level understanding of GA.
+如果你还记得这张图，我想你对遗传算法已经有了相当高水平的理解。
+
+141
+00:24:23,000 --> 00:24:30,000
+ So you understand that, not difficult to put it in quotes.
+所以你明白了，把它放在引号里并不难。
+
+142
+00:24:30,000 --> 00:24:35,000
+ Okay, even if you don't have background in computer science, I'm sure you can see.
+好吧，即使你没有计算机科学背景，我相信你也能明白。
+
+143
+00:24:35,000 --> 00:24:50,000
+ If I put the picture below, this figure below, right, of what is GA, you can quite quickly, quite quickly, right,
+如果我把下面这个图,下面这张图,对,什么是GA,你可以很快,很快,对,
+
+144
+00:24:50,000 --> 00:24:56,000
+ see how you can transform this block diagram into pseudo code.
+看看如何将此框图转换为伪代码。
+
+145
+00:24:56,000 --> 00:25:01,000
+ So the whole process entails initialization.
+所以整个过程都需要初始化。
+
+146
+00:25:01,000 --> 00:25:12,000
+ So you, you initialize according to this year, initialize the first set of populations.
+那么你呢,你按照今年来初始化,初始化第一组人口。
+
+147
+00:25:12,000 --> 00:25:14,000
+ So at the beginning, you don't know any better.
+所以一开始，你不知道更好。
+
+148
+00:25:14,000 --> 00:25:16,000
+ So you do a random initialization.
+所以你进行随机初始化。
+
+149
+00:25:16,000 --> 00:25:19,000
+ That's quite common.
+这很常见。
+
+150
+00:25:19,000 --> 00:25:27,000
+ Now, because there's a selection process involved, so you need to evaluate to determine the fitness.
+现在，因为涉及到一个选择过程，所以您需要进行评估以确定适合度。
+
+151
+00:25:27,000 --> 00:25:36,000
+ So once you have that, you have this loop here that will each loop constitute one generation.
+所以一旦你有了这个，你就有了这个循环，每个循环将构成一代。
+
+152
+00:25:36,000 --> 00:25:38,000
+ So you repeat this loop.
+所以你重复这个循环。
+
+153
+00:25:38,000 --> 00:25:43,000
+ You have selection, recombine, mutate.
+你需要选择、重组、变异。
+
+154
+00:25:43,000 --> 00:25:52,000
+ So after you select, you have the parents, and then you recombine, and then you mutate.
+所以当你选择之后，你就有了父母，然后你重组，然后你变异。
+
+155
+00:25:52,000 --> 00:25:56,000
+ And then you have your offspring.
+然后你就有了你的后代。
+
+156
+00:25:56,000 --> 00:26:03,000
+ From your offspring, you decide who is going to survive to the new generation.
+从你的后代中，你决定谁将生存到新一代。
+
+157
+00:26:03,000 --> 00:26:07,000
+ That's called survival selection.
+这就是所谓的生存选择。
+
+158
+00:26:07,000 --> 00:26:11,000
+ And of course that involves fitness measures as well.
+当然，这也涉及健身措施。
+
+159
+00:26:11,000 --> 00:26:12,000
+ So that's it.
+就是这样。
+
+160
+00:26:12,000 --> 00:26:14,000
+ That's the whole process.
+这就是整个过程。
+
+161
+00:26:14,000 --> 00:26:20,000
+ See how easy it is, you know, how elegant the whole GA process is.
+看看它是多么容易，你就知道，整个 GA 过程是多么优雅。
+
+162
+00:26:27,000 --> 00:26:37,000
+ So what you've seen is that evolutionary processes involves populations of individuals.
+所以你所看到的是，进化过程涉及个体群体。
+
+163
+00:26:37,000 --> 00:26:41,000
+ These individuals, we understand by individual.
+这些个人，我们按个人来理解。
+
+164
+00:26:41,000 --> 00:26:50,000
+ Individuals are sampling, sampling of the solution space.
+个人在采样，对解空间进行采样。
+
+165
+00:26:51,000 --> 00:27:00,000
+ Many sequential methods, conventional optimization methods, they are sequential.
+很多顺序方法，传统的优化方法，它们是顺序的。
+
+166
+00:27:00,000 --> 00:27:04,000
+ They work on one sampling or one solution.
+他们研究一种样品或一种解决方案。
+
+167
+00:27:04,000 --> 00:27:06,000
+ GA is different.
+GA则不同。
+
+168
+00:27:06,000 --> 00:27:09,000
+ Works on a population.
+对人群起作用。
+
+169
+00:27:09,000 --> 00:27:14,000
+ For example, you have a population of 100.
+例如，您的人口为 100。
+
+170
+00:27:14,000 --> 00:27:25,000
+ Then essentially what you are doing is that you are sampling 100 different spaces in parallel, simultaneously.
+那么本质上你所做的就是并行、同时地对 100 个不同的空间进行采样。
+
+171
+00:27:25,000 --> 00:27:28,000
+ But of course your simulation is still sequential.
+但当然你的模拟仍然是连续的。
+
+172
+00:27:28,000 --> 00:27:35,000
+ But the whole idea is that the population represents like a sampling of different regions of your solution space.
+但整个想法是，总体代表了解决方案空间的不同区域的样本。
+
+173
+00:27:35,000 --> 00:27:38,000
+ And that is the power of GA.
+这就是 GA 的力量。
+
+174
+00:27:39,000 --> 00:27:48,000
+ And each, this population of individuals, each of them have a fitness, right?
+每个人，这个群体的个体，每个人都有一个适应度，对吗？
+
+175
+00:27:48,000 --> 00:27:50,000
+ Measure the fitness.
+测量体能。
+
+176
+00:27:50,000 --> 00:27:52,000
+ How do you measure the fitness?
+如何衡量健身效果？
+
+177
+00:27:52,000 --> 00:27:55,000
+ That's according to the problem that you're trying to solve.
+这取决于您要解决的问题。
+
+178
+00:27:55,000 --> 00:28:00,000
+ For example, you're traveling salesman problem is the minimum distance.
+例如，你的旅行推销员问题是最小距离。
+
+179
+00:28:00,000 --> 00:28:06,000
+ So your fitness is a connection to the real world, the problem that you are trying to solve.
+因此，您的健身是与现实世界的联系，也是您试图解决的问题。
+
+180
+00:28:07,000 --> 00:28:11,000
+ And then you have a variation operators, which is crossover and mutation.
+然后是变异算子，即交叉和变异。
+
+181
+00:28:11,000 --> 00:28:17,000
+ And selection, survival of the fitness and mating of the fitness.
+还有适者的选择、生存和适者的交配。
+
+182
+00:28:17,000 --> 00:28:25,000
+ So that's what you see in the whole evolutionary process that we're going to transcribe into an algorithm.
+这就是你在整个进化过程中看到的，我们将把它转录成算法。
+
+183
+00:28:28,000 --> 00:28:31,000
+ So you have essentially, right?
+所以你基本上已经有了，对吧？
+
+184
+00:28:31,000 --> 00:28:37,000
+ All these backgrounds, what you have essentially done is that you have a new form of Darwinism.
+所有这些背景，你本质上所做的就是你拥有了一种新形式的达尔文主义。
+
+185
+00:28:37,000 --> 00:28:39,000
+ A new Darwinism.
+新达尔文主义。
+
+186
+00:28:39,000 --> 00:28:52,000
+ So what you've done is that going from the real world metaphor, evolutionary progress towards higher life forms in nature, evolution is the evolution process.
+所以你所做的就是从现实世界的隐喻，进化到自然界中更高的生命形式，进化就是进化的过程。
+
+187
+00:28:52,000 --> 00:28:53,000
+ Okay?
+好的？
+
+188
+00:28:53,000 --> 00:28:58,000
+ Brings a species, so living things to a higher life form.
+带来一个物种，使生物达到更高的生命形式。
+
+189
+00:28:58,000 --> 00:29:07,000
+ Well, in your optimization role, you are optimizing according to some fitness criteria.
+好吧，在您的优化角色中，您正在根据一些健身标准进行优化。
+
+190
+00:29:07,000 --> 00:29:09,000
+ That is the parallel.
+这就是平行线。
+
+191
+00:29:09,000 --> 00:29:17,000
+ You see, in your Darwinism, so your evolution drives the species.
+你看，在你的达尔文主义中，你的进化驱动着物种。
+
+192
+00:29:17,000 --> 00:29:23,000
+ The evolution drives the species to make it more competitive.
+进化促使物种变得更具竞争力。
+
+193
+00:29:23,000 --> 00:29:27,000
+ And then the reward is that of course survival of the species.
+那么奖励当然就是物种的生存。
+
+194
+00:29:27,000 --> 00:29:31,000
+ What's the manifestation of a survival to be able to reproduce?
+能够繁衍生息的生存表现是什么？
+
+195
+00:29:31,000 --> 00:29:34,000
+ Okay, that is Darwinism.
+好吧，这就是达尔文主义。
+
+196
+00:29:34,000 --> 00:29:51,000
+ But what we do in optimization is that our so-called, instead of reward in terms of reproduction, we have transformed it into or transcribed it into a fitness-based kind of evolution.
+但我们在优化中所做的是，我们所谓的，不是繁殖方面的奖励，而是将其转化为或转录为基于适应性的进化。
+
+197
+00:29:52,000 --> 00:29:57,000
+ So that is quite clearly what is happening.
+所以这就是很明显正在发生的事情。
+
+198
+00:29:57,000 --> 00:30:03,000
+ So let's take a look at the process involved in terms of diversity.
+那么让我们看一下多样性所涉及的过程。
+
+199
+00:30:03,000 --> 00:30:08,000
+ Now what do you understand by diversity?
+现在你对多样性的理解是什么？
+
+200
+00:30:08,000 --> 00:30:13,000
+ When you say diverse, what does it mean?
+当你说多样化时，它是什么意思？
+
+201
+00:30:13,000 --> 00:30:15,000
+ It's different.
+这是不同的。
+
+202
+00:30:15,000 --> 00:30:17,000
+ So you all come from diverse background.
+所以你们都来自不同的背景。
+
+203
+00:30:17,000 --> 00:30:20,000
+ Diversity.
+多样性。
+
+204
+00:30:20,000 --> 00:30:25,000
+ Do you prefer diversity?
+你喜欢多样性吗？
+
+205
+00:30:25,000 --> 00:30:28,000
+ I think in general the answer tends to be yes.
+我认为一般来说答案是肯定的。
+
+206
+00:30:28,000 --> 00:30:36,000
+ But let's take a look from the optimization point of view, see what is more desirable.
+但让我们从优化的角度来看一下，看看什么是更理想的。
+
+207
+00:30:36,000 --> 00:30:48,000
+ So actually, in the process of optimization through evolution, there are two opposing or competing forces.
+所以实际上，在进化优化的过程中，存在着两种对立或竞争的力量。
+
+208
+00:30:48,000 --> 00:30:55,000
+ One of the fours tends to increase the diversity.
+四者之一往往会增加多样性。
+
+209
+00:30:55,000 --> 00:31:01,000
+ The other decreases the diversity.
+另一个降低了多样性。
+
+210
+00:31:01,000 --> 00:31:07,000
+ Now think about the variation operators like your mutation and recombination.
+现在考虑变异运算符，例如突变和重组。
+
+211
+00:31:07,000 --> 00:31:14,000
+ Well, from a diversity point of view, what you're doing is that you're increasing the diversity.
+嗯，从多样性的角度来看，你所做的就是增加多样性。
+
+212
+00:31:14,000 --> 00:31:16,000
+ You want to increase the diversity.
+您想增加多样性。
+
+213
+00:31:16,000 --> 00:31:21,000
+ Remember we said in general diversity is good.
+请记住，我们说过，总的来说，多样性是好的。
+
+214
+00:31:21,000 --> 00:31:26,000
+ But on the other end of it, we want to look for that special thing.
+但另一方面，我们想要寻找那种特别的东西。
+
+215
+00:31:26,000 --> 00:31:29,000
+ This is optimization, that special thing.
+这就是优化，那个特别的事情。
+
+216
+00:31:29,000 --> 00:31:35,000
+ So therefore we must somehow narrow down to so-called what we want.
+因此，我们必须以某种方式缩小我们想要的范围。
+
+217
+00:31:35,000 --> 00:31:43,000
+ To narrow down, that means that decreasing diversity.
+缩小范围，意味着多样性的减少。
+
+218
+00:31:43,000 --> 00:31:51,000
+ Where's the process that happens in evolution that brings it to decreasing diversity?
+进化过程中发生的导致多样性减少的过程在哪里？
+
+219
+00:31:51,000 --> 00:31:53,000
+ There you go.
+就这样吧。
+
+220
+00:31:53,000 --> 00:31:55,000
+ It's a selection process.
+这是一个选择过程。
+
+221
+00:31:55,000 --> 00:31:59,000
+ When you select, you're very biased.
+当你选择的时候，你是非常有偏见的。
+
+222
+00:31:59,000 --> 00:32:02,000
+ You select according to the fitness.
+根据身体素质来选择。
+
+223
+00:32:02,000 --> 00:32:08,000
+ So you can see quite clearly these two, they are opposing.
+所以你可以很清楚地看到这两者，他们是对立的。
+
+224
+00:32:08,000 --> 00:32:20,000
+ In GA or EA, there are processes that increase the diversity and there are processes that decrease the diversity.
+在 GA 或 EA 中，有增加多样性的过程，也有减少多样性的过程。
+
+225
+00:32:20,000 --> 00:32:26,000
+ So what it means is that push towards novelty, increasing diversity means that,
+所以这意味着推动新颖性、增加多样性意味着，
+
+226
+00:32:26,000 --> 00:32:30,000
+ wow, there are many noble or different solutions.
+哇，有很多高贵或不同的解决方案。
+
+227
+00:32:30,000 --> 00:32:37,000
+ The other end of it is the quality, specialization.
+它的另一端是质量、专业化。
+
+228
+00:32:37,000 --> 00:32:39,000
+ So here's a question.
+所以这里有一个问题。
+
+229
+00:32:39,000 --> 00:32:48,000
+ In your GA, which one is better?
+在你的 GA 中，哪一个更好？
+
+230
+00:32:48,000 --> 00:32:56,000
+ If you have to pick which one is better?
+如果一定要选的话，哪个更好呢？
+
+231
+00:32:56,000 --> 00:32:59,000
+ Equal?
+平等的？
+
+232
+00:32:59,000 --> 00:33:01,000
+ Both.
+两个都。
+
+233
+00:33:01,000 --> 00:33:03,000
+ Quality is better.
+质量更好。
+
+234
+00:33:03,000 --> 00:33:05,000
+ That's your objective.
+这就是你的目标。
+
+235
+00:33:05,000 --> 00:33:13,000
+ But to get to your objective, you have to increase diversity.
+但为了实现你的目标，你必须增加多样性。
+
+236
+00:33:13,000 --> 00:33:21,000
+ Both are important?
+两者都很重要吗？
+
+237
+00:33:21,000 --> 00:33:24,000
+ Increase diversity.
+增加多样性。
+
+238
+00:33:24,000 --> 00:33:27,000
+ Cut.
+切。
+
+239
+00:33:27,000 --> 00:33:28,000
+ Then converge.
+然后收敛。
+
+240
+00:33:28,000 --> 00:33:30,000
+ Increase diversity and then converge.
+增加多样性，然后趋同。
+
+241
+00:33:30,000 --> 00:33:34,000
+ Okay, which one is more important?
+好吧，哪一个更重要？
+
+242
+00:33:34,000 --> 00:33:40,000
+ Clearly you describe both, which is more important?
+显然你描述了两者，哪个更重要？
+
+243
+00:33:40,000 --> 00:33:43,000
+ Both important?
+两者都重要吗？
+
+244
+00:33:43,000 --> 00:33:45,000
+ You are right, both are important.
+你说得对，两者都很重要。
+
+245
+00:33:45,000 --> 00:33:47,000
+ Both are necessary.
+两者都是必要的。
+
+246
+00:33:47,000 --> 00:33:50,000
+ Both are absolutely necessary.
+两者都是绝对必要的。
+
+247
+00:33:50,000 --> 00:33:58,000
+ Therefore, the key idea behind optimization is to have a good balance between increasing and decreasing.
+因此，优化背后的关键思想是在增加和减少之间取得良好的平衡。
+
+248
+00:33:58,000 --> 00:34:01,000
+ That is what optimization is all about.
+这就是优化的意义所在。
+
+249
+00:34:01,000 --> 00:34:08,000
+ To have a good balance in Chinese, the yin and yang, they must be balanced.
+要想在汉语中保持良好的平衡，阴和阳就必须平衡。
+
+250
+00:34:08,000 --> 00:34:15,000
+ So same thing here in our algorithm, they must be that balance.
+因此，在我们的算法中，同样的事情，它们一定是那种平衡。
+
+251
+00:34:15,000 --> 00:34:20,000
+ So it kind of makes sense also when you think about it, because problems are very difficult.
+所以当你思考这个问题时，这也是有道理的，因为问题是非常困难的。
+
+252
+00:34:20,000 --> 00:34:22,000
+ Don't think about simple problems.
+不要想简单的问题。
+
+253
+00:34:22,000 --> 00:34:27,000
+ We are thinking of problems that are intractable, not solvable.
+我们思考的问题是棘手的、无法解决的。
+
+254
+00:34:27,000 --> 00:34:33,000
+ In order to solve it to the extent where we are able to achieve good solutions,
+为了解决它到我们能够达到好的解决方案的程度，
+
+255
+00:34:33,000 --> 00:34:40,000
+ we must have a process that has a good balance between increasing and decreasing diversity.
+我们必须有一个在增加和减少多样性之间取得良好平衡的过程。
+
+256
+00:34:40,000 --> 00:34:43,000
+ And later on, I'm going to throw you a couple of terms as well.
+稍后，我还将向您提出几个术语。
+
+257
+00:34:43,000 --> 00:34:47,000
+ What we call the exploration and then the exploitation.
+我们称之为探索，然后是利用。
+
+258
+00:34:47,000 --> 00:34:51,000
+ You must be able to explore and then you must be able to exploit.
+你必须能够探索，然后你必须能够利用。
+
+259
+00:34:51,000 --> 00:34:54,000
+ Again, the same idea persists.
+同样的想法再次存在。
+
+260
+00:34:54,000 --> 00:34:57,000
+ Which is more important?
+哪个更重要？
+
+261
+00:34:57,000 --> 00:34:58,000
+ Both.
+两个都。
+
+262
+00:34:58,000 --> 00:35:02,000
+ Both are important.
+两者都很重要。
+
+263
+00:35:02,000 --> 00:35:07,000
+ So you see that.
+所以你看到了。
+
+264
+00:35:07,000 --> 00:35:15,000
+ Once you see this, I think you come to a realization, wow, this is indeed a high level understanding
+当你看到这个的时候，我想你会意识到，哇，这确实是一个高层次的理解
+
+265
+00:35:15,000 --> 00:35:23,000
+ where you can understand the process of what optimization is all about.
+在这里您可以了解优化的全部流程。
+
+266
+00:35:25,000 --> 00:35:37,000
+ So the first thing, to be able to solve a problem, we need to understand that there need to be a representation of the problem.
+因此，为了能够解决问题，我们首先需要了解问题需要有一个表示形式。
+
+267
+00:35:37,000 --> 00:35:45,000
+ So quite often we have a problem that comes in different requirements of complexity.
+因此，我们经常遇到具有不同复杂性要求的问题。
+
+268
+00:35:45,000 --> 00:35:47,000
+ That's the real world.
+这就是真实的世界。
+
+269
+00:35:47,000 --> 00:35:51,000
+ The real world presents you with a problem to solve.
+现实世界向您提出了一个需要解决的问题。
+
+270
+00:35:51,000 --> 00:35:55,000
+ Here you are, you are a system marketer, algorithm designer.
+在这里，你是系统营销人员、算法设计师。
+
+271
+00:35:55,000 --> 00:35:58,000
+ Your job is to solve it.
+你的工作就是解决它。
+
+272
+00:35:58,000 --> 00:36:01,000
+ I'll come up with methods to solve it.
+我会想出一些方法来解决它。
+
+273
+00:36:01,000 --> 00:36:07,000
+ So in order to come up with the methods to solve it, you must be able to represent it.
+因此，为了想出解决它的方法，你必须能够表示它。
+
+274
+00:36:07,000 --> 00:36:14,000
+ You must capture the requirements, specifications, and then to represent it.
+您必须捕获需求、规格，然后将其表示出来。
+
+275
+00:36:15,000 --> 00:36:19,000
+ Go back and think of the so-called many problem solving that you have done.
+回去想想自己做过的所谓很多问题的解决。
+
+276
+00:36:19,000 --> 00:36:21,000
+ It's all the same idea.
+都是同一个想法。
+
+277
+00:36:21,000 --> 00:36:24,000
+ You must be able to represent and then formulate it.
+你必须能够表达并阐述它。
+
+278
+00:36:24,000 --> 00:36:27,000
+ So GA is no different.
+所以GA也不例外。
+
+279
+00:36:27,000 --> 00:36:41,000
+ So representation means that provides code, like a binary code, integer code, or symbolic code.
+因此，表示意味着提供代码，例如二进制代码、整数代码或符号代码。
+
+280
+00:36:41,000 --> 00:36:48,000
+ Provides code for candidate solutions that can be manipulated by the variation operators.
+提供可由变体运算符操作的候选解决方案的代码。
+
+281
+00:36:48,000 --> 00:36:51,000
+ It means the coding.
+就是编码的意思。
+
+282
+00:36:51,000 --> 00:36:54,000
+ So two levels of existence.
+所以存在两个层次。
+
+283
+00:36:54,000 --> 00:36:57,000
+ One is the phenotype.
+一是表型。
+
+284
+00:36:57,000 --> 00:37:02,000
+ Phenotype is the physical part.
+表型是物理部分。
+
+285
+00:37:02,000 --> 00:37:06,000
+ It's the object in original problem context.
+它是原始问题上下文中的对象。
+
+286
+00:37:06,000 --> 00:37:08,000
+ That's the outside.
+那是外面。
+
+287
+00:37:08,000 --> 00:37:11,000
+ That's the phenotype.
+这就是表型。
+
+288
+00:37:11,000 --> 00:37:13,000
+ And then the genotype.
+然后是基因型。
+
+289
+00:37:13,000 --> 00:37:17,000
+ Code to denote that object, the inside.
+表示该对象内部的代码。
+
+290
+00:37:17,000 --> 00:37:19,000
+ There's a chromosome.
+有一条染色体。
+
+291
+00:37:19,000 --> 00:37:21,000
+ There's a genotype.
+有一个基因型。
+
+292
+00:37:21,000 --> 00:37:29,000
+ So which means to say that there must be some kind of mapping process going on.
+这意味着必须有某种映射过程正在进行。
+
+293
+00:37:29,000 --> 00:37:31,000
+ So there are two types of mapping.
+所以有两种类型的映射。
+
+294
+00:37:31,000 --> 00:37:33,000
+ One is to encode.
+一是编码。
+
+295
+00:37:33,000 --> 00:37:37,000
+ Encode means to go from the real world to the genotype.
+编码意味着从现实世界到基因型。
+
+296
+00:37:37,000 --> 00:37:41,000
+ And then there's the phenotype to the genotype.
+然后是表型和基因型。
+
+297
+00:37:41,000 --> 00:37:45,000
+ And the other type is the decoding.
+另一种是解码。
+
+298
+00:37:45,000 --> 00:37:54,000
+ After you solve the problem or you want to evaluate it, you need to do decoding.
+当你解决了问题或者想要评估它之后，你需要进行解码。
+
+299
+00:37:54,000 --> 00:38:02,000
+ So for example, your code means a certain specification of a design.
+例如，您的代码意味着设计的特定规范。
+
+300
+00:38:02,000 --> 00:38:07,000
+ Because maybe it's similar design to know.
+因为也许是类似的设计才知道。
+
+301
+00:38:07,000 --> 00:38:18,000
+ Meaning you've got to go to the phenotype space in order to know how good your solution is.
+这意味着您必须进入表型空间才能知道您的解决方案有多好。
+
+302
+00:38:18,000 --> 00:38:20,000
+ I'm wanting to know this.
+我想知道这个。
+
+303
+00:38:20,000 --> 00:38:24,000
+ Phenotype to genotype.
+表型到基因型。
+
+304
+00:38:24,000 --> 00:38:28,000
+ Not necessarily one-to-one.
+不一定是一对一的。
+
+305
+00:38:28,000 --> 00:38:31,000
+ So this means you have a problem.
+所以这意味着你有问题。
+
+306
+00:38:31,000 --> 00:38:33,000
+ You need to code it.
+你需要编码它。
+
+307
+00:38:33,000 --> 00:38:37,000
+ There's no such thing as only one way to code it.
+不存在只有一种编码方式的事情。
+
+308
+00:38:37,000 --> 00:38:39,000
+ You can use binary coding.
+您可以使用二进制编码。
+
+309
+00:38:39,000 --> 00:38:43,000
+ You can use integer coding, floating point.
+您可以使用整数编码、浮点数。
+
+310
+00:38:43,000 --> 00:38:47,000
+ Or you may even code it differently.
+或者你甚至可以用不同的方式编码。
+
+311
+00:38:47,000 --> 00:38:49,000
+ So it's not a one-to-one.
+所以这不是一对一的。
+
+312
+00:38:49,000 --> 00:38:57,000
+ But your decoding must be one-to-one.
+但你的解码必须是一对一的。
+
+313
+00:38:57,000 --> 00:39:02,000
+ Any code should only be converted.
+任何代码都应该只进行转换。
+
+314
+00:39:02,000 --> 00:39:13,000
+ Or there's only one unique phenotypic expression.
+或者只有一种独特的表型表达。
+
+315
+00:39:13,000 --> 00:39:20,000
+ So the coding of it is your chromosome.
+所以它的编码就是你的染色体。
+
+316
+00:39:20,000 --> 00:39:26,000
+ To bring the physical world to our programming or computing world.
+将物理世界带入我们的编程或计算世界。
+
+317
+00:39:26,000 --> 00:39:28,000
+ We need to code it.
+我们需要对其进行编码。
+
+318
+00:39:28,000 --> 00:39:32,000
+ So in GA, we call them the chromosomes.
+所以在 GA 中，我们称它们为染色体。
+
+319
+00:39:32,000 --> 00:39:36,000
+ Chromosomes are made up of genes.
+染色体由基因组成。
+
+320
+00:39:36,000 --> 00:39:43,000
+ Genes, which are usually fixed positions called the low side.
+基因，通常是固定位置，称为低侧。
+
+321
+00:39:43,000 --> 00:39:45,000
+ Singular is locus.
+单数是轨迹。
+
+322
+00:39:45,000 --> 00:39:47,000
+ L-O-C-U-S.
+轨迹。
+
+323
+00:39:47,000 --> 00:39:52,000
+ And have a value of a lew.
+并且有一个 lew 值。
+
+324
+00:39:52,000 --> 00:39:54,000
+ A-L-L-E-L-E.
+A-L-L-E-L-E。
+
+325
+00:39:54,000 --> 00:39:57,000
+ That's a value.
+这是一个价值。
+
+326
+00:39:57,000 --> 00:40:02,000
+ For example, you have a string.
+例如，你有一个字符串。
+
+327
+00:40:02,000 --> 00:40:05,000
+ 10 characters.
+10 个字符。
+
+328
+00:40:05,000 --> 00:40:07,000
+ So 10 characters.
+所以10个字符。
+
+329
+00:40:07,000 --> 00:40:12,000
+ That's your chromosome of length 10.
+这就是你的长度为 10 的染色体。
+
+330
+00:40:12,000 --> 00:40:14,000
+ You want to say the gene.
+你想说的是基因。
+
+331
+00:40:14,000 --> 00:40:16,000
+ Then you say, OK, the third gene.
+然后你说，好吧，第三个基因。
+
+332
+00:40:16,000 --> 00:40:19,000
+ Then that's the third character.
+然后就是第三个角色了。
+
+333
+00:40:19,000 --> 00:40:21,000
+ Let me write this down.
+让我把这个写下来。
+
+334
+00:40:24,000 --> 00:40:50,000
+ OK.
+好的。
+
+335
+00:40:50,000 --> 00:40:51,000
+ OK.
+好的。
+
+336
+00:40:51,000 --> 00:40:58,000
+ This is your chromosome.
+这是你的染色体。
+
+337
+00:40:58,000 --> 00:41:01,000
+ So what's the length of this chromosome?
+那么这条染色体的长度是多少呢？
+
+338
+00:41:01,000 --> 00:41:03,000
+ 9.
+9.
+
+339
+00:41:03,000 --> 00:41:05,000
+ Where are the genes?
+基因在哪里？
+
+340
+00:41:05,000 --> 00:41:06,000
+ OK.
+好的。
+
+341
+00:41:06,000 --> 00:41:08,000
+ Gene number 1.
+基因号1。
+
+342
+00:41:08,000 --> 00:41:10,000
+ Gene number 2.
+基因号2。
+
+343
+00:41:10,000 --> 00:41:11,000
+ Gene number 3.
+基因号3。
+
+344
+00:41:11,000 --> 00:41:12,000
+ Gene number 4.
+基因号4。
+
+345
+00:41:12,000 --> 00:41:15,000
+ And so on.
+等等。
+
+346
+00:41:15,000 --> 00:41:19,000
+ What's the value of gene number 4?
+4号基因有什么价值？
+
+347
+00:41:19,000 --> 00:41:25,000
+ The value of gene number 4 is 1.
+4号基因的值为1。
+
+348
+00:41:25,000 --> 00:41:29,000
+ The value of gene number 4 is 1.
+4号基因的值为1。
+
+349
+00:41:29,000 --> 00:41:36,000
+ The gene is the position, the locus.
+基因就是位置、基因座。
+
+350
+00:41:36,000 --> 00:41:45,000
+ So that is how we're going to do our coding in terms of representation as chromosomes.
+这就是我们如何根据染色体的表示进行编码。
+
+351
+00:41:45,000 --> 00:42:01,000
+ So to evolve a population, you're actually evolving a population of strings or chromosomes.
+因此，为了进化一个种群，你实际上是在进化一个字符串或染色体的种群。
+
+352
+00:42:01,000 --> 00:42:10,000
+ So to put it in picture.
+所以把它放在图片中。
+
+353
+00:42:10,000 --> 00:42:19,000
+ So for example, in this case here, you can see in our phenotype space, that's the value 18, 2, 9, and so on.
+例如，在本例中，您可以在我们的表型空间中看到值 18、2、9 等。
+
+354
+00:42:19,000 --> 00:42:30,000
+ If you do binary GA, then you will represent each of so-called the value as a binary in your genotype space.
+如果您进行二进制 GA，那么您将在基因型空间中将每个所谓的值表示为二进制。
+
+355
+00:42:30,000 --> 00:42:33,000
+ So 18 will be 1, 0, 0, 1, 0.
+所以 18 将是 1, 0, 0, 1, 0。
+
+356
+00:42:33,000 --> 00:42:36,000
+ 2 will be 1, 0, and so on.
+2 将是 1、0，依此类推。
+
+357
+00:42:36,000 --> 00:42:42,000
+ So this is going from the phenotype space to the genotype space.
+所以这是从表型空间到基因型空间。
+
+358
+00:42:42,000 --> 00:42:51,000
+ So in order to find a global optimum, every possible solution must be represented in the genotype space.
+因此，为了找到全局最优解，每个可能的解决方案都必须在基因型空间中表示。
+
+359
+00:42:51,000 --> 00:42:54,000
+ I think this is quite logical.
+我认为这是非常合乎逻辑的。
+
+360
+00:42:54,000 --> 00:43:04,000
+ Your representation must be sufficient to cover the entire space.
+您的代表必须足以覆盖整个空间。
+
+361
+00:43:05,000 --> 00:43:12,000
+ Quite intuitively logical.
+非常直观逻辑。
+
+362
+00:43:12,000 --> 00:43:15,000
+ Alright, fitness functions.
+好吧，健身功能。
+
+363
+00:43:15,000 --> 00:43:23,000
+ So fitness function is also what we call our objective function.
+所以适应度函数也就是我们所说的目标函数。
+
+364
+00:43:23,000 --> 00:43:27,000
+ We have said quite often the word objective function.
+我们经常提到目标函数这个词。
+
+365
+00:43:27,000 --> 00:43:33,000
+ Basically in GA, we transcribe it as a fitness function.
+基本上在遗传算法中，我们将其转录为适应度函数。
+
+366
+00:43:33,000 --> 00:43:43,000
+ So we use the word fitness, this is in accordance to so-called natural evolution metaphor, where we say the fittest survive.
+所以我们用适应这个词，这是根据所谓的自然进化的隐喻，我们说适者生存。
+
+367
+00:43:43,000 --> 00:43:51,000
+ So in next period in our genetic algorithm, we also have user term fitness function.
+因此，在我们的遗传算法的下一个阶段，我们还有用户项适应度函数。
+
+368
+00:43:51,000 --> 00:43:59,000
+ But essentially it is the objective function of the problem or the cost function.
+但本质上它是问题的目标函数或成本函数。
+
+369
+00:44:00,000 --> 00:44:14,000
+ So basically in your fitness function, basically you just want to assign a single value to the phenotype.
+所以基本上在你的适应度函数中，基本上你只想为表型分配一个值。
+
+370
+00:44:14,000 --> 00:44:21,000
+ So that will give you an indication of how good it is.
+这样您就可以知道它有多好。
+
+371
+00:44:21,000 --> 00:44:24,000
+ It's like a fitness of goodness measure.
+这就像一个善良衡量标准。
+
+372
+00:44:24,000 --> 00:44:31,000
+ Now what you need to know or understand is that GA is powerful.
+现在你需要知道或理解的是 GA 的强大。
+
+373
+00:44:31,000 --> 00:44:34,000
+ This is another reason why GA is powerful.
+这也是GA强大的另一个原因。
+
+374
+00:44:34,000 --> 00:44:38,000
+ Or a good method, maybe I shouldn't say powerful.
+或者说是一个好方法，也许不应该说强大。
+
+375
+00:44:38,000 --> 00:44:43,000
+ GA is a good method because it's easy.
+GA 是一种很好的方法，因为它很简单。
+
+376
+00:44:43,000 --> 00:44:45,000
+ Why is it easy?
+为什么容易呢？
+
+377
+00:44:45,000 --> 00:44:48,000
+ Well, your problems are complex.
+嗯，你的问题很复杂。
+
+378
+00:44:48,000 --> 00:44:55,000
+ The problems that you are trying to solve comes in all shapes, different requirements and so on.
+您试图解决的问题有各种各样的形式、不同的要求等等。
+
+379
+00:44:55,000 --> 00:45:03,000
+ So it can be very complex, be it a design problem or traveling salesman problem or whatever problem it may be.
+因此，它可能非常复杂，无论是设计问题还是旅行商问题或任何问题。
+
+380
+00:45:03,000 --> 00:45:10,000
+ Now in your GA realm, all you need to do is you must have a way to find a fitness.
+现在在你的 GA 领域，你所需要做的就是必须有办法找到适合度。
+
+381
+00:45:10,000 --> 00:45:15,000
+ It's like the GA saying, I don't really care how complex your problem is.
+就像 GA 说的，我并不关心你的问题有多复杂。
+
+382
+00:45:16,000 --> 00:45:26,000
+ As long as you give me a metric to know how fit each solution is.
+只要你给我一个指标来了解每个解决方案的适合程度。
+
+383
+00:45:26,000 --> 00:45:34,000
+ So in that sense, GA doesn't really care about your problem, the complexity of the problem.
+所以从这个意义上说，遗传算法并不真正关心你的问题，问题的复杂性。
+
+384
+00:45:34,000 --> 00:45:37,000
+ You can have thousand and one requirements and so on.
+你可以有一千零一个要求等等。
+
+385
+00:45:37,000 --> 00:45:44,000
+ But as long as the GA is concerned, all it wants is that to be able to measure the fitness.
+但对于 GA 来说，它想要的只是能够测量适应度。
+
+386
+00:45:44,000 --> 00:45:47,000
+ And that is through the fitness function.
+那是通过适应度函数。
+
+387
+00:45:47,000 --> 00:45:54,000
+ And that is another reason why because the GA has a very flexible, easy to use.
+这也是因为GA具有非常灵活、易于使用的另一个原因。
+
+388
+00:45:54,000 --> 00:45:56,000
+ And it is indeed very easy.
+这确实很容易。
+
+389
+00:45:56,000 --> 00:46:00,000
+ It's robust enough to solve many different types of problems.
+它足够强大，可以解决许多不同类型的问题。
+
+390
+00:46:00,000 --> 00:46:04,000
+ Because it's easy, so it becomes very popular.
+因为简单，所以很受欢迎。
+
+391
+00:46:04,000 --> 00:46:13,000
+ That's why people, when it was first introduced, it was perceived as very elegant and easy to use.
+这就是为什么当它第一次推出时，人们认为它非常优雅且易于使用。
+
+392
+00:46:13,000 --> 00:46:16,000
+ And it's easy to apply.
+而且很容易申请。
+
+393
+00:46:18,000 --> 00:46:23,000
+ So typically when we talk about fitness, we want it to be maximized.
+因此，通常当我们谈论健身时，我们希望它能够最大化。
+
+394
+00:46:23,000 --> 00:46:27,000
+ Because to be fit, it means that it's a maximum fitness.
+因为健身，就意味着是最大限度的健身。
+
+395
+00:46:27,000 --> 00:46:31,000
+ But many problems are minimization problems.
+但许多问题都是最小化问题。
+
+396
+00:46:31,000 --> 00:46:33,000
+ But there's no issue.
+但没有问题。
+
+397
+00:46:33,000 --> 00:46:35,000
+ You can always convert it.
+您随时可以转换它。
+
+398
+00:46:35,000 --> 00:46:41,000
+ For example, a plus can be converted to a minus.
+例如，可以将加号转换为减号。
+
+399
+00:46:41,000 --> 00:46:46,000
+ Or you can use a big constant just to modify the effect and so on.
+或者你可以使用一个大的常量来修改效果等等。
+
+400
+00:46:46,000 --> 00:46:51,000
+ So not an issue, whether it be maximization or minimization.
+因此，无论是最大化还是最小化，都不是问题。
+
+401
+00:46:57,000 --> 00:46:58,000
+ All right.
+好的。
+
+402
+00:46:58,000 --> 00:47:05,000
+ So we look at population.
+所以我们看人口。
+
+403
+00:47:05,000 --> 00:47:15,000
+ So population basically candidate solutions of the problem as individuals, which are the genotype.
+因此，群体基本上是作为个体的问题解决方案的候选者，这就是基因型。
+
+404
+00:47:15,000 --> 00:47:18,000
+ So we work with our population.
+因此，我们与我们的人民一起工作。
+
+405
+00:47:18,000 --> 00:47:28,000
+ So out of the model that I showed you, you have population, parents, and then the offspring.
+因此，在我向您展示的模型中，您有人口、父母，然后是后代。
+
+406
+00:47:28,000 --> 00:47:32,000
+ So normally in RGA, we are a fixed population.
+所以通常在 RGA 中，我们是固定的群体。
+
+407
+00:47:32,000 --> 00:47:35,000
+ Let's say 50, population of 50.
+假设有 50 个，人口为 50。
+
+408
+00:47:35,000 --> 00:47:40,000
+ Then you have a 50 of each.
+然后你各有 50 个。
+
+409
+00:47:40,000 --> 00:47:43,000
+ So it's a multi-set of individuals.
+所以它是多个个体的集合。
+
+410
+00:47:43,000 --> 00:47:48,000
+ Repetitions are also possible.
+重复也是可能的。
+
+411
+00:47:48,000 --> 00:47:54,000
+ So when we evolve, we are evolving the population.
+因此，当我们进化时，我们也在进化人口。
+
+412
+00:47:54,000 --> 00:47:57,000
+ But from the population, we select individuals.
+但我们从总体中选择个体。
+
+413
+00:47:57,000 --> 00:48:05,000
+ So the selective process is on the individuals.
+因此，选择过程取决于个人。
+
+414
+00:48:05,000 --> 00:48:10,000
+ So and then the variation operators.
+然后是变分算子。
+
+415
+00:48:10,000 --> 00:48:15,000
+ The selection is from the population set.
+选择是从人口集中进行的。
+
+416
+00:48:15,000 --> 00:48:21,000
+ But the variation operators are on the individuals.
+但变异算子是针对个人的。
+
+417
+00:48:21,000 --> 00:48:30,000
+ So the variation like your recombination and the mutation they are on the individuals.
+所以像你的重组和突变这样的变异是在个体身上发生的。
+
+418
+00:48:30,000 --> 00:48:36,000
+ So population are usually constant.
+所以人口通常是恒定的。
+
+419
+00:48:36,000 --> 00:48:45,000
+ There are some sophisticated EAs that exert a spatial structure on the population.
+有一些复杂的环境区对人口施加空间结构。
+
+420
+00:48:45,000 --> 00:48:48,000
+ You understand the word spatial?
+你理解空间这个词吗？
+
+421
+00:48:48,000 --> 00:48:52,000
+ Space.
+空间。
+
+422
+00:48:52,000 --> 00:49:10,000
+ So for example, on a grid, there are some GA's that is based on so-called the grid spatial distribution of the population on a grid structure.
+例如，在网格上，有一些基于网格结构上人口的网格空间分布的遗传算法。
+
+423
+00:49:10,000 --> 00:49:15,000
+ So selection usually takes the whole population into account.
+因此，选择通常会考虑整个人群。
+
+424
+00:49:15,000 --> 00:49:23,000
+ So reproductive probabilities are relative to the current generation.
+因此，繁殖概率是相对于当前一代而言的。
+
+425
+00:49:23,000 --> 00:49:29,000
+ So let's go back to diversity.
+那么让我们回到多样性。
+
+426
+00:49:29,000 --> 00:49:33,000
+ I think in general you understand what diversity means.
+我认为总的来说，您了解多样性的含义。
+
+427
+00:49:33,000 --> 00:49:36,000
+ Different.
+不同的。
+
+428
+00:49:36,000 --> 00:49:44,000
+ But from a GA perspective, what could it mean?
+但从 GA 的角度来看，这意味着什么？
+
+429
+00:49:44,000 --> 00:49:50,000
+ Diversity could mean fitness.
+多样性可能意味着健康。
+
+430
+00:49:50,000 --> 00:49:58,000
+ Fitness meaning like for example, fitness 0.7, 0.6, 0.1 and so on.
+适合度的含义例如适合度 0.7、0.6、0.1 等。
+
+431
+00:49:58,000 --> 00:50:05,000
+ So if it's diverse, then the population is different fitness.
+因此，如果它是多样化的，那么人口的适应度就不同。
+
+432
+00:50:05,000 --> 00:50:15,000
+ Diversity could also be in the context of the phenotype, the expression of it.
+多样性也可能存在于表型及其表达的背景下。
+
+433
+00:50:15,000 --> 00:50:28,000
+ The chromosomes may be a little bit different, but then the expression of it could be very different.
+染色体可能有点不同，但它的表达可能会非常不同。
+
+434
+00:50:28,000 --> 00:50:36,000
+ Although the chromosome is different or fitness is very small, but then the phenotype expression of it is very different.
+虽然染色体不同或适应度很小，但其表型表达却有很大不同。
+
+435
+00:50:36,000 --> 00:50:45,000
+ For example, maybe one gene different, instead of black, you have white and so on.
+例如，也许有一个基因不同，而不是黑色，你有白色等等。
+
+436
+00:50:45,000 --> 00:50:48,000
+ So the point is very simple.
+所以要点很简单。
+
+437
+00:50:48,000 --> 00:50:57,000
+ When you think in terms of diversity, it's just not in the context of the fitness value.
+当你考虑多样性时，它并不是在健身价值的背景下。
+
+438
+00:50:57,000 --> 00:51:05,000
+ So fitness is a way for us to tell which chromosome is better or fitter and so on.
+因此，适应性是我们判断哪条染色体更好或更适合等等的一种方法。
+
+439
+00:51:05,000 --> 00:51:10,000
+ So keep that in mind.
+所以请记住这一点。
+
+440
+00:51:10,000 --> 00:51:15,000
+ So another mechanism is your selection.
+所以另一种机制是你的选择。
+
+441
+00:51:15,000 --> 00:51:23,000
+ You can see earlier on there are two areas where selections happen.
+您之前可以看到，有两个区域会发生选择。
+
+442
+00:51:23,000 --> 00:51:33,000
+ One is selection of the parents and the other is a selection for survival to make up the new generation.
+一是父母的选择，二是生存的选择，组成新一代。
+
+443
+00:51:33,000 --> 00:51:37,000
+ So both are driven mainly by fitness.
+所以两者主要都是由健身驱动的。
+
+444
+00:51:37,000 --> 00:51:46,000
+ As long as they are selection, basically there's a fitness mechanism that is used.
+只要是选择，基本上都有一个适应机制在使用。
+
+445
+00:51:46,000 --> 00:51:54,000
+ So selection pushes population towards higher fitness.
+因此，选择会推动种群走向更高的适应度。
+
+446
+00:51:54,000 --> 00:51:59,000
+ So generally in the selection, good quality should be rewarded.
+所以一般在选材上，应该奖励品质好的。
+
+447
+00:51:59,000 --> 00:52:07,000
+ Higher fitness should be rewarded either in terms of survival or reproduction.
+更高的适应性应该在生存或繁殖方面得到奖励。
+
+448
+00:52:07,000 --> 00:52:14,000
+ So how do you make this selection?
+那么你如何做出这个选择呢？
+
+449
+00:52:14,000 --> 00:52:17,000
+ It's called probabilistic.
+这就是所谓的概率。
+
+450
+00:52:17,000 --> 00:52:20,000
+ So it is probabilistic.
+所以这是概率性的。
+
+451
+00:52:20,000 --> 00:52:25,000
+ Now what does it mean in terms of problem solving?
+现在就解决问题而言意味着什么？
+
+452
+00:52:25,000 --> 00:52:33,000
+ Well, it means that because it's probabilistic, so it's all based on probability.
+嗯，这意味着因为它是概率性的，所以一切都基于概率。
+
+453
+00:52:33,000 --> 00:52:41,000
+ If two individuals, one has a fitness of 0.9, the other has a fitness of 0.2.
+如果有两个个体，其中一个的适应度为 0.9，另一个的适应度为 0.2。
+
+454
+00:52:41,000 --> 00:52:47,000
+ So obviously the 0.9 has a higher probability of selection.
+所以显然0.9被选中的概率更高。
+
+455
+00:52:47,000 --> 00:52:58,000
+ But what is important to note is that even if the fitness is very low, it still has that chance to be selected.
+但需要注意的是，即使适应度很低，它仍然有被选中的机会。
+
+456
+00:52:58,000 --> 00:53:03,000
+ It's just that the chances of selection is lower.
+只是选择的机会比较低而已。
+
+457
+00:53:03,000 --> 00:53:12,000
+ So in an optimization context, this stochastic nature is not deterministic for sure.
+因此，在优化环境中，这种随机性质肯定不是确定性的。
+
+458
+00:53:12,000 --> 00:53:21,000
+ So this stochastic nature is what gives it the ability to get out on local optimum.
+因此，这种随机性使其能够摆脱局部最优。
+
+459
+00:53:21,000 --> 00:53:38,000
+ So what is the so-called the power or the advantage?
+那么所谓的力量或者优势是什么呢？
+
+460
+00:53:38,000 --> 00:53:44,000
+ So on selection.
+所以在选择上。
+
+461
+00:53:44,000 --> 00:53:49,000
+ So how do you do the selection?
+那么如何进行选择呢？
+
+462
+00:53:49,000 --> 00:53:54,000
+ There are many, many different ways to do the selection.
+有很多很多不同的方法来进行选择。
+
+463
+00:53:54,000 --> 00:54:03,000
+ Now when we do selection, we want selection that favors the fitter ones.
+现在，当我们进行选择时，我们希望选择有利于更适合的人。
+
+464
+00:54:03,000 --> 00:54:12,000
+ So one very common way is to some kind of what we call the roulette view selection.
+因此，一种非常常见的方法是某种我们所说的轮盘视图选择。
+
+465
+00:54:12,000 --> 00:54:23,000
+ So if you have three individuals, A, B, and C, so the fitness of A is three, fitness of B is one, fitness of C is two.
+因此，如果有 A、B 和 C 三个个体，则 A 的适应度为 3，B 的适应度为 1，C 的适应度为 2。
+
+466
+00:54:23,000 --> 00:54:36,000
+ So if you put it as a roulette view according to the fitness, then what results is that you have unequal slots for the roulette view.
+因此，如果您根据适应度将其作为轮盘视图，那么结果是轮盘视图的插槽不相等。
+
+467
+00:54:36,000 --> 00:54:41,000
+ So what we call this a bias roulette view.
+所以我们称之为偏见轮盘赌观点。
+
+468
+00:54:41,000 --> 00:54:48,000
+ It's bias according to the fitness, the fitter, the individual, the higher the slot it is.
+这是根据健身情况而定的，越适合个人，槽位就越高。
+
+469
+00:54:48,000 --> 00:54:59,000
+ The higher the slot it has, the higher the chance it is selected, either as parents or survival.
+它的位置越高，它被选择作为父母或生存的机会就越高。
+
+470
+00:54:59,000 --> 00:55:04,000
+ So this is one of the most common ways to do selection.
+所以这是最常见的选择方法之一。
+
+471
+00:55:04,000 --> 00:55:10,000
+ But as I said, this is one of the many, many different ways to do selection.
+但正如我所说，这是众多不同的选择方式之一。
+
+472
+00:55:10,000 --> 00:55:22,000
+ If you go deeper into GAA, you will realize that there are many selection methods that has been used in many different applications.
+如果您深入研究GAA，您会发现有许多选择方法已用于许多不同的应用程序中。
+
+473
+00:55:22,000 --> 00:55:40,000
+ But I hope you see the principle of what constitutes an effective solution is one that implements some form of selective treasure according to the so-called fitness.
+但我希望你明白构成有效解决方案的原则是根据所谓的适应度实施某种形式的选择性宝藏。
+
+474
+00:55:40,000 --> 00:55:53,000
+ So there's another type of selection.
+所以还有另一种类型的选择。
+
+475
+00:55:53,000 --> 00:56:01,000
+ Your three modules, remember, you have your population, you have your parents, and then you have your offspring.
+你的三个模块，记住，你有你的人口，你有你的父母，然后你有你的后代。
+
+476
+00:56:02,000 --> 00:56:10,000
+ Selection for the parents we know, according to the fitness, we want to select potential parents.
+对于父母的选择我们知道，根据适合度，我们要选择潜在的父母。
+
+477
+00:56:10,000 --> 00:56:22,000
+ So the parents are selected based on fitness, which means to say that individuals that are fit will have a higher chance to be selected as parents.
+所以父母是根据适应度来选择的，这意味着适合的个体将有更高的机会被选为父母。
+
+478
+00:56:22,000 --> 00:56:27,000
+ The other entity is your offspring.
+另一个实体是你的后代。
+
+479
+00:56:27,000 --> 00:56:34,000
+ Now you need to select the new generation.
+现在您需要选择新一代。
+
+480
+00:56:34,000 --> 00:56:42,000
+ So basically what you have, this is your survival selection.
+所以基本上你所拥有的，这就是你的生存选择。
+
+481
+00:56:42,000 --> 00:56:44,000
+ So what's the purpose of survival?
+那么生存的目的是什么呢？
+
+482
+00:56:44,000 --> 00:56:57,000
+ Survival selection to select individuals to make up the new population, replacement of the old population for the new generation.
+生存选择就是选择个体组成新的种群，用新生代替换旧的种群。
+
+483
+00:56:57,000 --> 00:57:02,000
+ So after one generation, you have a new population.
+因此，一代人之后，就会有新的人口。
+
+484
+00:57:02,000 --> 00:57:07,000
+ So most EAs use fixed population size.
+因此，大多数 EA 使用固定的人口规模。
+
+485
+00:57:07,000 --> 00:57:10,000
+ So we can assume population is fixed.
+所以我们可以假设人口是固定的。
+
+486
+00:57:10,000 --> 00:57:15,000
+ If it is 50, it shall be 50.
+如果是50，那就是50。
+
+487
+00:57:15,000 --> 00:57:27,000
+ Although they are GA that use populations that changes or variable population size.
+尽管它们是使用变化的种群或可变的种群规模的遗传算法。
+
+488
+00:57:27,000 --> 00:57:31,000
+ So most EAs use fixed population size.
+因此，大多数 EA 使用固定的人口规模。
+
+489
+00:57:31,000 --> 00:57:41,000
+ So basically what we need is a way to get the new population from the parents and the offspring.
+所以基本上我们需要的是一种从父母和后代那里获取新种群的方法。
+
+490
+00:57:41,000 --> 00:57:54,000
+ So in saying that, what this means is that we have to have a mechanism to decide who survives and go into the population, new population.
+所以说，这意味着我们必须有一个机制来决定谁能幸存并进入人口，新的人口。
+
+491
+00:57:54,000 --> 00:58:07,000
+ Earlier on I didn't include the parents, but the real GA has this option to select from the pool of parents and then from the offspring.
+早些时候我没有包括父母，但真正的 GA 有这个选项可以从父母池中选择，然后从后代中选择。
+
+492
+00:58:07,000 --> 00:58:22,000
+ For example, if I have a population size of 100, so in the survival selection, I have 200 candidates to select from.
+例如，如果我的人口规模为 100，那么在生存选择中，我有 200 个候选者可供选择。
+
+493
+00:58:22,000 --> 00:58:28,000
+ 100 from the parents and then 100 from the offspring.
+100 个来自父母，100 个来自后代。
+
+494
+00:58:28,000 --> 00:58:33,000
+ So how do we do this selection?
+那么我们如何进行这个选择呢？
+
+495
+00:58:33,000 --> 00:58:37,000
+ So in general, there are two ways to do this selection.
+所以一般来说，有两种方法可以进行这个选择。
+
+496
+00:58:37,000 --> 00:58:49,000
+ That is the fitness base that is according to the rank of the parents plus the offspring.
+那就是根据父母的等级加上后代的等级来确定的健身基础。
+
+497
+00:58:49,000 --> 00:58:54,000
+ Pick the best.
+选择最好的。
+
+498
+00:58:54,000 --> 00:58:59,000
+ Or it could be age based.
+或者它可能是基于年龄的。
+
+499
+00:58:59,000 --> 00:59:04,000
+ Make as many offspring as parents and delete all parents.
+产生与父母一样多的后代，并删除所有父母。
+
+500
+00:59:04,000 --> 00:59:09,000
+ Total renewal.
+全面更新。
+
+501
+00:59:09,000 --> 00:59:14,000
+ So both can be used.
+所以两者都可以使用。
+
+502
+00:59:14,000 --> 00:59:23,000
+ Sometimes a combination of stochastic and deterministic is used, which is quite common.
+有时会结合使用随机性和确定性，这很常见。
+
+503
+00:59:23,000 --> 00:59:31,000
+ When we incorporate the deterministic part, we call it elitism.
+当我们纳入决定论部分时，我们称之为精英主义。
+
+504
+00:59:31,000 --> 00:59:36,000
+ Elites, you know the meaning of elites.
+精英，你知道精英的含义。
+
+505
+00:59:36,000 --> 00:59:39,000
+ It's special treatment.
+这是特殊待遇。
+
+506
+00:59:39,000 --> 00:59:43,000
+ It will survive regardless.
+无论如何它都会生存下来。
+
+507
+00:59:43,000 --> 00:59:56,000
+ So sometimes we use both stochastic selection for survival or we could use deterministic which is elitism.
+因此，有时我们既使用随机选择来生存，也可以使用确定性（即精英主义）。
+
+508
+00:59:56,000 --> 01:00:01,000
+ For example, I make the top tree.
+例如，我制作顶树。
+
+509
+01:00:01,000 --> 01:00:08,000
+ I give it special treatment, it will survive regardless because they are the best tree.
+我给它特殊的待遇，无论如何它都会生存，因为它们是最好的树。
+
+510
+01:00:08,000 --> 01:00:13,000
+ So I will fix it such that they will survive.
+所以我会修复它，以便他们能够生存。
+
+511
+01:00:13,000 --> 01:00:17,000
+ What's the benefit of it?
+它有什么好处呢？
+
+512
+01:00:17,000 --> 01:00:20,000
+ You keep the best solution, you don't lose it.
+你保留了最好的解决方案，你不会失去它。
+
+513
+01:00:20,000 --> 01:00:26,000
+ Isn't it? It's an elite, it's the best one, so it's survive.
+不是吗？它是精英，它是最好的，所以它才能生存。
+
+514
+01:00:26,000 --> 01:00:34,000
+ Is there any potential danger or disadvantage?
+是否有任何潜在的危险或不利之处？
+
+515
+01:00:34,000 --> 01:00:41,000
+ What could be the potential disadvantage?
+潜在的缺点是什么？
+
+516
+01:00:41,000 --> 01:00:46,000
+ Just imagine this. You understand what is elite.
+想象一下吧。你明白什么是精英。
+
+517
+01:00:46,000 --> 01:00:52,000
+ It's a good one, so it survives regardless.
+这是一件好事，所以无论如何它都能生存下来。
+
+518
+01:00:52,000 --> 01:00:55,000
+ And so on, it will survive.
+依此类推，它将生存下来。
+
+519
+01:00:55,000 --> 01:01:02,000
+ What happens with time?
+随着时间的推移会发生什么？
+
+520
+01:01:02,000 --> 01:01:12,000
+ Let's say there's elitism, so after 5,000 generations, what happens?
+假设存在精英主义，那么经过 5000 代之后，会发生什么？
+
+521
+01:01:12,000 --> 01:01:15,000
+ All the same.
+都一样。
+
+522
+01:01:15,000 --> 01:01:23,000
+ Because the fittest one will dominate, suddenly everybody looks the same.
+因为适者生存，突然间每个人看起来都一样了。
+
+523
+01:01:23,000 --> 01:01:25,000
+ Not very good.
+不太好。
+
+524
+01:01:25,000 --> 01:01:27,000
+ So that's a danger.
+所以这是一个危险。
+
+525
+01:01:27,000 --> 01:01:31,000
+ Because does that mean you don't use elitism?
+因为这是否意味着你不使用精英主义？
+
+526
+01:01:31,000 --> 01:01:37,000
+ Well, you could still use. There are different methods to actually force the diversity.
+嗯，还是可以用的。有不同的方法可以实际强制实现多样性。
+
+527
+01:01:37,000 --> 01:01:42,000
+ For example, people use fitness sharing or scaling.
+例如，人们使用健身分享或缩放。
+
+528
+01:01:42,000 --> 01:01:52,000
+ Or other mechanisms just to forcefully inject diversity.
+或者其他机制只是为了强行注入多样性。
+
+529
+01:01:52,000 --> 01:02:05,000
+ What is done in a true experimentation?
+真正的实验是做什么的？
+
+530
+01:02:05,000 --> 01:02:21,000
+ So variation operators from this diagram here, these are your variation operators.
+因此，此图中的变体运算符就是您的变体运算符。
+
+531
+01:02:21,000 --> 01:02:26,000
+ So the word variation means to cause variations.
+所以变异这个词的意思是引起变异。
+
+532
+01:02:26,000 --> 01:02:33,000
+ To cause variations to the populations or the individuals.
+造成群体或个体的变异。
+
+533
+01:02:33,000 --> 01:02:40,000
+ So let's ask ourselves from the viewpoint of diversity.
+因此，让我们从多样性的角度问自己。
+
+534
+01:02:40,000 --> 01:02:49,000
+ When you go from population to parents, does your diversity go up, down?
+当你从人口到父母时，你的多样性会上升还是下降？
+
+535
+01:02:49,000 --> 01:02:59,000
+ From population to parents, diversity up, down, down.
+从人口到父母，多样性不断上升、下降、下降。
+
+536
+01:02:59,000 --> 01:03:02,000
+ Because of the selection.
+因为选择。
+
+537
+01:03:02,000 --> 01:03:09,000
+ From parents to offspring, up.
+从父母到子女，向上。
+
+538
+01:03:09,000 --> 01:03:15,000
+ That's what the variation does. It causes that kind of variation in the individuals.
+这就是变体的作用。它导致了个体的这种差异。
+
+539
+01:03:15,000 --> 01:03:25,000
+ So from parents to offspring, the diversity increases again.
+所以从父母到后代，多样性再次增加。
+
+540
+01:03:25,000 --> 01:03:30,000
+ So how do we increase this diversity through two different processes?
+那么我们如何通过两个不同的过程来增加这种多样性呢？
+
+541
+01:03:30,000 --> 01:03:37,000
+ One is recombination and then the other is mutation.
+一是重组，二是突变。
+
+542
+01:03:38,000 --> 01:03:45,000
+ So your mutation is what we call an arity one kind of operations.
+所以你的变异就是我们所说的一种操作。
+
+543
+01:03:45,000 --> 01:03:51,000
+ Where it takes only one individual and then produce another individual.
+它只需要一个个体，然后产生另一个个体。
+
+544
+01:03:51,000 --> 01:03:58,000
+ It takes only one input, one individual. So it's arity of one.
+它只需要一个人的输入。所以它是一的。
+
+545
+01:03:58,000 --> 01:04:09,000
+ So recombination usually is a process that has an arity of two, greater than one.
+因此，重组通常是一个数量为 2（大于 1）的过程。
+
+546
+01:04:09,000 --> 01:04:12,000
+ Can be two or more.
+可以是两个或更多。
+
+547
+01:04:12,000 --> 01:04:20,000
+ For example, your crossover is an operation that is an arity of two.
+例如，您的交叉是一个参数为 2 的操作。
+
+548
+01:04:20,000 --> 01:04:22,000
+ Equal to two.
+等于二。
+
+549
+01:04:22,000 --> 01:04:27,000
+ So crossover is a type of recombination or reproduction process.
+因此，交叉是一种重组或繁殖过程。
+
+550
+01:04:27,000 --> 01:04:32,000
+ So arity greater than two is also possible.
+因此数量大于二也是可能的。
+
+551
+01:04:32,000 --> 01:04:38,000
+ It's also possible. It's not used often.
+这也是有可能的。它不经常使用。
+
+552
+01:04:38,000 --> 01:04:42,000
+ But it is definitely possible.
+但这绝对是可能的。
+
+553
+01:04:42,000 --> 01:04:46,000
+ For example, when you have chromosomes on very long strings.
+例如，当染色体位于很长的绳子上时。
+
+554
+01:04:47,000 --> 01:04:57,000
+ So sometimes it makes sense to use operations that has arity of greater than two.
+因此，有时使用数量大于 2 的操作是有意义的。
+
+555
+01:04:57,000 --> 01:05:06,000
+ So there has been much debate about relative importance of recombination and mutation.
+因此，关于重组和突变的相对重要性存在很多争论。
+
+556
+01:05:06,000 --> 01:05:14,000
+ So again, are both necessary?
+那么话又说回来，两者都有必要吗？
+
+557
+01:05:14,000 --> 01:05:20,000
+ Well, we found out from experience that it is good to have both.
+嗯，我们从经验中发现两者兼得是好的。
+
+558
+01:05:20,000 --> 01:05:25,000
+ But however, if you only have a choice of one.
+但是，如果您只能选择其中之一。
+
+559
+01:05:25,000 --> 01:05:34,000
+ Then between recombination assuming you have only a choice of using either recombination or mutation.
+然后在重组之间假设您只能选择使用重组或突变。
+
+560
+01:05:34,000 --> 01:05:37,000
+ What would be your choice?
+你会选择什么？
+
+561
+01:05:37,000 --> 01:05:46,000
+ You would use mutation as shown by the earlier evolutionary algorithm approaches.
+您将使用早期进化算法方法所示的突变。
+
+562
+01:05:46,000 --> 01:05:54,000
+ Many of the earlier versions of it are based on mutation type of operation.
+它的许多早期版本都是基于突变类型的操作。
+
+563
+01:05:54,000 --> 01:05:58,000
+ Or intuitively you can think of it.
+或者直觉上你也可以想到。
+
+564
+01:05:58,000 --> 01:06:00,000
+ Mutation is a bit random.
+突变有点随机。
+
+565
+01:06:00,000 --> 01:06:15,000
+ But if you do it often enough, there's a good chance or reasonable chance it will hit the solution.
+但如果你经常这样做，就有很大的机会或合理的机会找到解决方案。
+
+566
+01:06:15,000 --> 01:06:19,000
+ Mutation.
+突变。
+
+567
+01:06:19,000 --> 01:06:27,000
+ So the main thing about mutation is you must remember it is a random mechanism.
+所以关于突变的主要事情是你必须记住它是一种随机机制。
+
+568
+01:06:27,000 --> 01:06:36,000
+ The idea behind mutation is just a small random disturbance or variation.
+突变背后的想法只是一个小的随机干扰或变化。
+
+569
+01:06:36,000 --> 01:06:38,000
+ That is what mutation.
+这就是突变。
+
+570
+01:06:38,000 --> 01:06:42,000
+ It must be random.
+它必须是随机的。
+
+571
+01:06:42,000 --> 01:06:49,000
+ As compared to your recombination, it is based on the fitness of parents that are selected.
+与你的重组相比，它是基于所选择的父母的适合度。
+
+572
+01:06:49,000 --> 01:07:00,000
+ Hopefully the offspring will inherit properties from both the parents.
+希望后代能够继承父母双方的财产。
+
+573
+01:07:00,000 --> 01:07:04,000
+ For example, mutation.
+例如，突变。
+
+574
+01:07:04,000 --> 01:07:09,000
+ We say, for example, before mutation.
+例如，我们说在突变之前。
+
+575
+01:07:09,000 --> 01:07:11,000
+ This is a binary coding.
+这是二进制编码。
+
+576
+01:07:11,000 --> 01:07:14,000
+ The valuation set is only 0 or 1.
+估值集只有0或1。
+
+577
+01:07:14,000 --> 01:07:16,000
+ So it's either 0 or 1.
+所以要么是 0，要么是 1。
+
+578
+01:07:16,000 --> 01:07:29,000
+ So when you mutate the fourth gene, which has a little 1, when you mutate it flips to 0.
+因此，当你突变第四个基因时，它有一个小 1，当你突变时，它会翻转为 0。
+
+579
+01:07:29,000 --> 01:07:34,000
+ So notice when I say gene, it's a fourth gene.
+所以请注意，当我说基因时，它是第四个基因。
+
+580
+01:07:34,000 --> 01:07:37,000
+ I don't say gene with value 1.
+我不是说值为 1 的基因。
+
+581
+01:07:37,000 --> 01:07:40,000
+ Everyone has a value 1.
+每个人都有自己的价值观1。
+
+582
+01:07:40,000 --> 01:07:45,000
+ So we say gene, the fourth gene, the position of it.
+所以我们说基因，第四个基因，它的位置。
+
+583
+01:07:45,000 --> 01:07:47,000
+ And it mutates to 0.
+并且它变异为0。
+
+584
+01:07:47,000 --> 01:07:53,000
+ It flips to 0.
+它翻转到0。
+
+585
+01:07:53,000 --> 01:07:58,000
+ So recombination merges information from parents into offspring.
+因此重组将父母的信息合并到后代中。
+
+586
+01:07:58,000 --> 01:08:03,000
+ Choice of what information to merge is stochastic.
+选择合并哪些信息是随机的。
+
+587
+01:08:03,000 --> 01:08:08,000
+ All this is a stochastic process, meaning that it's driven probabilistically.
+所有这一切都是一个随机过程，这意味着它是由概率驱动的。
+
+588
+01:08:08,000 --> 01:08:13,000
+ So later on I'll use an example to illustrate the process.
+所以稍后我会用一个例子来说明这个过程。
+
+589
+01:08:14,000 --> 01:08:20,000
+ Through some form of simple hand simulation of a problem.
+通过某种形式的简单手工模拟问题。
+
+590
+01:08:20,000 --> 01:08:27,000
+ Modes of spring may be worse or the same as parents.
+春天的模式可能更糟或与父母相同。
+
+591
+01:08:27,000 --> 01:08:42,000
+ So in recombination, essentially what you are doing is that you are causing the transmission of information from parents to the offspring.
+因此，在重组中，本质上你所做的就是将信息从父母传递给后代。
+
+592
+01:08:42,000 --> 01:08:46,000
+ Let's use a simple illustration to see how it works.
+让我们用一个简单的例子来看看它是如何工作的。
+
+593
+01:08:46,000 --> 01:08:57,000
+ So in this example of two chromosomes, one with value of 1, 1, 1, 1, 1, and the other with a value of 0, 0, 0, 0.
+因此，在这个有两条染色体的示例中，一条染色体的值为 1, 1, 1, 1, 1，另一条染色体的值为 0, 0, 0, 0。
+
+594
+01:08:57,000 --> 01:09:07,000
+ So in recombination or crossover, normally we specify a crossover side opposition.
+因此，在重组或交叉时，通常我们会指定交叉方对立。
+
+595
+01:09:07,000 --> 01:09:10,000
+ How do we decide the crossover side?
+我们如何决定交叉边？
+
+596
+01:09:11,000 --> 01:09:13,000
+ Random.
+随机的。
+
+597
+01:09:13,000 --> 01:09:20,000
+ So in this case, crossover could happen anywhere within the chromosome.
+所以在这种情况下，交叉可能发生在染色体内的任何地方。
+
+598
+01:09:20,000 --> 01:09:39,000
+ So the result of the crossover is that, for example, the two offspring generated, what you will see is that it inherits properties from parent 1 and parent 2.
+所以交叉的结果是，比如生成了两个后代，你会看到它继承了父代1和父代2的属性。
+
+599
+01:09:41,000 --> 01:09:43,000
+ Now that's very important to note.
+现在需要注意这一点非常重要。
+
+600
+01:09:43,000 --> 01:09:47,000
+ The purpose of this is the inheritance of the problem.
+这样做的目的就是为了问题的继承。
+
+601
+01:09:47,000 --> 01:09:53,000
+ So meaning that because your selection is ready, you select according to the fitness.
+这意味着，因为您的选择已准备就绪，所以您可以根据适合度进行选择。
+
+602
+01:09:53,000 --> 01:09:57,000
+ So chances are the parents are fit.
+所以父母很可能是合适的。
+
+603
+01:09:57,000 --> 01:10:09,000
+ So when you do recombination, what is likely is that some of the good features from the parents will be passed on to the offspring.
+因此，当你进行重组时，父母的一些良好特征很可能会遗传给后代。
+
+604
+01:10:09,000 --> 01:10:11,000
+ So that's the purpose.
+这就是目的。
+
+605
+01:10:11,000 --> 01:10:13,000
+ So there's a form of inheritance.
+所以有一种继承形式。
+
+606
+01:10:13,000 --> 01:10:17,000
+ Now in the context of machine learning, that's learning.
+现在在机器学习的背景下，这就是学习。
+
+607
+01:10:17,000 --> 01:10:23,000
+ Learning from whatever was before and then from there to improve on it.
+从以前的经验中学习，然后从那里改进。
+
+608
+01:10:23,000 --> 01:10:27,000
+ So that is the learning part of your GA.
+这就是 GA 的学习部分。
+
+609
+01:10:30,000 --> 01:10:33,000
+ So initialization and termination.
+所以初始化和终止。
+
+610
+01:10:34,000 --> 01:10:36,000
+ So your algorithm will run.
+这样你的算法就会运行。
+
+611
+01:10:36,000 --> 01:10:39,000
+ Initially, you generate a population.
+最初，你产生了一个种群。
+
+612
+01:10:39,000 --> 01:10:44,000
+ So your population, one good way is just to randomly generate it.
+所以你的人口，一种好方法就是随机生成它。
+
+613
+01:10:46,000 --> 01:10:56,000
+ So basically in our population, usually it's done at random to ensure even spread and make sure of possible allele values.
+所以基本上在我们的人群中，通常是随机进行的，以确保均匀传播并确保可能的等位基因值。
+
+614
+01:10:58,000 --> 01:11:00,000
+ Not necessarily you must do it randomly.
+不一定你必须随机地做。
+
+615
+01:11:00,000 --> 01:11:11,000
+ In some problems, we use some kind of problem specific heuristics to seed the population to start the initial population.
+在某些问题中，我们使用某种特定于问题的启发法来播种种群以启动初始种群。
+
+616
+01:11:11,000 --> 01:11:20,000
+ For example, you may know you may have some kind of existing heuristics that produce a reasonably good solution.
+例如，您可能知道您可能有某种现有的启发式方法可以产生相当好的解决方案。
+
+617
+01:11:20,000 --> 01:11:24,000
+ Not the best, but a good solution.
+不是最好的，但却是一个好的解决方案。
+
+618
+01:11:25,000 --> 01:11:37,000
+ So the hope is that if you seed the populations using heuristics, the hope is that you don't have to run so long because the starting point is really quite good.
+因此，希望如果您使用启发式方法对群体进行播种，则希望您不必运行那么长时间，因为起点确实非常好。
+
+619
+01:11:37,000 --> 01:11:42,000
+ And then you run it, hopefully not too long, you get even better solutions.
+然后你运行它，希望不会太长，你会得到更好的解决方案。
+
+620
+01:11:42,000 --> 01:11:47,000
+ That is the whole motivation of seeding it using heuristics.
+这就是使用启发式播种的全部动机。
+
+621
+01:11:49,000 --> 01:11:53,000
+ So termination, condition, check every generation.
+所以终止、条件、检查每一代。
+
+622
+01:11:53,000 --> 01:12:10,000
+ So when you reach some hope, some fitness, you quit or reach some maximum allowed number of generations, then you quit or some minimum level of diversity, meaning convergence.
+因此，当你达到某种希望、某种适应度时，你就会退出或达到某个允许的最大代数，然后你就会退出或达到某种最低水平的多样性，这意味着趋同。
+
+623
+01:12:10,000 --> 01:12:18,000
+ So when you converge up to a certain level, you terminate.
+所以当你收敛到一定程度时，你就会终止。
+
+624
+01:12:19,000 --> 01:12:26,000
+ Reaching some specified number of generations without fitness improvement is basically a technique.
+在不提高适应度的情况下达到某些指定的代数基本上是一种技术。
+
+625
+01:12:26,000 --> 01:12:30,000
+ Now, what is the best termination to use?
+现在，最好使用什么终端？
+
+626
+01:12:30,000 --> 01:12:35,000
+ In practice, it really depends on your problem or your requirements.
+实际上，这实际上取决于您的问题或您的要求。
+
+627
+01:12:35,000 --> 01:12:46,000
+ So if you are solving a control problem where you know it's a feedback, you probably only have like within 1 millisecond.
+因此，如果您正在解决一个知道它是反馈的控制问题，那么您可能只需要 1 毫秒之内的时间。
+
+628
+01:12:47,000 --> 01:12:50,000
+ You got to adjust, make adjustment.
+你必须调整，做出调整。
+
+629
+01:12:50,000 --> 01:13:05,000
+ Then probably you got to, your algorithm got to reach a point where within 1 millisecond, it gives you so-called the solution to make the adjustment.
+然后可能你必须，你的算法必须达到一个点，在 1 毫秒内，它给你所谓的解决方案来进行调整。
+
+630
+01:13:05,000 --> 01:13:09,000
+ As compared to, for example, you are solving a logistic problem.
+例如，相比之下，您正在解决物流问题。
+
+631
+01:13:09,000 --> 01:13:17,000
+ For example, every day you plan the logistic, maybe the last mile logistic of your deliveryman.
+例如，您每天都在计划物流，也许是送货员的最后一英里物流。
+
+632
+01:13:17,000 --> 01:13:21,000
+ So you probably have solving it in 5 minutes, that is not an issue.
+所以你可能会在 5 分钟内解决它，这不是问题。
+
+633
+01:13:21,000 --> 01:13:26,000
+ So you can let it run for 5 minutes and then determine the solutions.
+所以你可以让它运行5分钟，然后确定解决方案。
+
+634
+01:13:26,000 --> 01:13:37,000
+ Alright, so you've seen the different flavors of EA.
+好了，您已经了解了 EA 的不同风格。
+
+635
+01:13:37,000 --> 01:13:49,000
+ So the one that has been popular is what we call the genetic algorithms.
+所以现在流行的一种算法就是我们所说的遗传算法。
+
+636
+01:13:49,000 --> 01:13:58,000
+ In 1975, now you know evolutionary algorithms has been around for many number of years.
+1975 年，现在您知道进化算法已经存在很多年了。
+
+637
+01:13:58,000 --> 01:14:05,000
+ It was not until 1975 when genetic algorithm was first proposed or came up.
+直到1975年，遗传算法才被首次提出或出现。
+
+638
+01:14:05,000 --> 01:14:11,000
+ What was the main innovation of your genetic algorithm?
+你们的遗传算法的主要创新是什么？
+
+639
+01:14:11,000 --> 01:14:15,000
+ It's the crossover.
+这是交叉点。
+
+640
+01:14:15,000 --> 01:14:22,000
+ So in the 60s and all, they are evolutionary algorithms.
+所以在 20 世纪 60 年代，它们都是进化算法。
+
+641
+01:14:22,000 --> 01:14:27,000
+ It has been in existence but not used often enough.
+它已经存在，但使用得不够频繁。
+
+642
+01:14:27,000 --> 01:14:39,000
+ Until in 1975, genetic algorithm came about and it turns out that the main innovation was the crossing over operation.
+直到1975年，遗传算法出现，事实证明，主要的创新是交叉操作。
+
+643
+01:14:40,000 --> 01:14:49,000
+ And some day we are in a situation where even representation as binary strings, just with evolution and crossing over process,
+有一天，我们会遇到这样一种情况，即使表示为二进制字符串，只是通过进化和交叉过程，
+
+644
+01:14:49,000 --> 01:14:54,000
+ we have a reasonably robust problem solving method.
+我们有一个相当稳健的问题解决方法。
+
+645
+01:14:54,000 --> 01:15:00,000
+ And then from then on, 1980s and so on, GA has become very, very popular.
+从那时起，到 20 世纪 80 年代等，GA 变得非常非常流行。
+
+646
+01:15:00,000 --> 01:15:05,000
+ So suddenly everything is about GA.
+突然之间，一切都与 GA 有关。
+
+647
+01:15:05,000 --> 01:15:10,000
+ So although there are different types of evolutionary algorithms,
+因此，尽管有不同类型的进化算法，
+
+648
+01:15:10,000 --> 01:15:19,000
+ your genetic algorithms, evolutionary strategies, evolutionary programming or genetic programming,
+你的遗传算法、进化策略、进化编程或遗传编程，
+
+649
+01:15:19,000 --> 01:15:23,000
+ let's not get too preoccupied with it.
+我们不要太关注它。
+
+650
+01:15:23,000 --> 01:15:28,000
+ So these differences are not so relevant.
+所以这些差异并不那么重要。
+
+651
+01:15:28,000 --> 01:15:35,000
+ So basically, when you talk about GA, you are talking about approach,
+所以基本上，当你谈论 GA 时，你谈论的是方法，
+
+652
+01:15:35,000 --> 01:15:44,000
+ the evolutionary process, a population-based algorithm to solve your problems.
+进化过程，一种基于群体的算法来解决您的问题。
+
+653
+01:15:44,000 --> 01:15:54,000
+ So I also mentioned about the selection, selection operators, selection and fitness.
+所以我也提到了选择、选择算子、选择和适应度。
+
+654
+01:15:54,000 --> 01:16:01,000
+ Selection relies on fitness and are independent of your representation.
+选择取决于适应性，并且与您的代表无关。
+
+655
+01:16:01,000 --> 01:16:05,000
+ So the fitness is the connection to your real world.
+所以健身是与现实世界的联系。
+
+656
+01:16:05,000 --> 01:16:13,000
+ It's not about the representation, it's the connection, it's the what your real world problem is all about.
+这不是关于表示，而是关于连接，这就是你现实世界的问题的全部内容。
+
+657
+01:16:13,000 --> 01:16:22,000
+ Let's take a look at this Aqueen's problem before we take a break.
+休息之前我们先来看看这个 Aqueen 的问题。
+
+658
+01:16:23,000 --> 01:16:28,000
+ So specification for the Aqueen's is very simple.
+所以 Aqueen 的规格非常简单。
+
+659
+01:16:28,000 --> 01:16:31,000
+ We saw this earlier on.
+我们之前就看到过这一点。
+
+660
+01:16:31,000 --> 01:16:43,000
+ Basically it's to place Aqueen's on an 8x8 chessboard such that no two queens are attacking each other.
+基本上是将 Aqueen 放在 8x8 的棋盘上，这样就不会有两个皇后互相攻击。
+
+661
+01:16:43,000 --> 01:16:46,000
+ That's the specifications of the Aqueen's.
+这就是 Aqueen 的规格。
+
+662
+01:16:46,000 --> 01:16:54,000
+ So we first propose to demonstrate what we call the backtracking algorithm.
+因此，我们首先建议演示我们所说的回溯算法。
+
+663
+01:16:54,000 --> 01:17:02,000
+ So it's quite a well-known computer science problem.
+所以这是一个众所周知的计算机科学问题。
+
+664
+01:17:02,000 --> 01:17:08,000
+ So when we talk about representation,
+所以当我们谈论代表性时
+
+665
+01:17:08,000 --> 01:17:15,000
+ the phenotype of it will be the board configuration and the placement of the queens.
+它的表型将是棋盘配置和皇后的位置。
+
+666
+01:17:15,000 --> 01:17:17,000
+ So it is an 8 queen.
+所以这是一个8皇后。
+
+667
+01:17:17,000 --> 01:17:22,000
+ So it will be the phenotype.
+所以这将是表型。
+
+668
+01:17:22,000 --> 01:17:29,000
+ When you decode it, the phenotype expression of it will be the actual configuration.
+当你解码它时，它的表型表达将是实际的配置。
+
+669
+01:17:29,000 --> 01:17:35,000
+ What about the genotype?
+基因型又如何呢？
+
+670
+01:17:35,000 --> 01:17:42,000
+ Permedation of the numbers 1 to 8, that's one way to do it.
+数字 1 到 8 的排列是一种方法。
+
+671
+01:17:42,000 --> 01:17:52,000
+ For example, here, I have a chromosome of a string of 8.
+例如，在这里，我有一条 8 串染色体。
+
+672
+01:17:52,000 --> 01:17:56,000
+ And the way it encodes is this.
+它的编码方式是这样的。
+
+673
+01:17:56,000 --> 01:18:00,000
+ The first queen is in row number 1.
+第一个皇后位于第 1 行。
+
+674
+01:18:00,000 --> 01:18:03,000
+ So I put here 1.
+所以我在这里放1。
+
+675
+01:18:03,000 --> 01:18:09,000
+ The second queen is on row number 3.
+第二个皇后位于第 3 行。
+
+676
+01:18:09,000 --> 01:18:13,000
+ So it is 3.
+所以是 3。
+
+677
+01:18:13,000 --> 01:18:17,000
+ And then the third queen is row number 5.
+第三个皇后是第 5 行。
+
+678
+01:18:17,000 --> 01:18:20,000
+ Row number 5, so the value is 5.
+行号为 5，因此值为 5。
+
+679
+01:18:20,000 --> 01:18:22,000
+ So the allele is 5.
+所以等位基因是5。
+
+680
+01:18:22,000 --> 01:18:28,000
+ Gen number 3, the allele is 5.
+第 3 代，等位基因为 5。
+
+681
+01:18:28,000 --> 01:18:32,000
+ Is this the only way to represent?
+这是唯一的代表方式吗？
+
+682
+01:18:32,000 --> 01:18:34,000
+ Absolutely not.
+绝对不是。
+
+683
+01:18:34,000 --> 01:18:38,000
+ I'm sure you can think of different ways to represent.
+我相信你可以想出不同的表示方式。
+
+684
+01:18:38,000 --> 01:18:42,000
+ Notice about these numbers.
+注意这些数字。
+
+685
+01:18:42,000 --> 01:18:47,000
+ 1, 2, 3, 4, 5, 6, they are all different.
+1、2、3、4、5、6，它们都是不同的。
+
+686
+01:18:47,000 --> 01:18:50,000
+ They are all different.
+他们都是不同的。
+
+687
+01:18:50,000 --> 01:18:52,000
+ These numbers are all different.
+这些数字都是不同的。
+
+688
+01:18:52,000 --> 01:18:56,000
+ We call them the permutation string.
+我们称它们为排列串。
+
+689
+01:18:56,000 --> 01:18:58,000
+ It's a permutation string.
+这是一个排列字符串。
+
+690
+01:18:58,000 --> 01:19:00,000
+ They are all different.
+他们都是不同的。
+
+691
+01:19:00,000 --> 01:19:07,000
+ But more importantly, I would like you to know.
+但更重要的是，我想让你知道。
+
+692
+01:19:07,000 --> 01:19:19,000
+ When you have permutation string, what are you actually doing in terms of the constraints?
+当你有排列字符串时，你实际上在约束方面做了什么？
+
+693
+01:19:19,000 --> 01:19:20,000
+ They are all different.
+他们都是不同的。
+
+694
+01:19:20,000 --> 01:19:25,000
+ So you guarantee when you have different values in the strings,
+所以你保证当字符串中有不同的值时，
+
+695
+01:19:25,000 --> 01:19:27,000
+ what are you guaranteeing?
+你保证什么？
+
+696
+01:19:27,000 --> 01:19:34,000
+ Or what part of the constraints are you satisfying?
+或者说你满足哪一部分约束？
+
+697
+01:19:35,000 --> 01:19:40,000
+ Same row or column.
+同一行或同一列。
+
+698
+01:19:40,000 --> 01:19:47,000
+ So how do you satisfy the same so-called, in this representation here?
+那么，在此表示中，如何满足相同的所谓要求呢？
+
+699
+01:19:47,000 --> 01:19:49,000
+ Let's get a little bit deeper.
+让我们更深入一点。
+
+700
+01:19:49,000 --> 01:20:00,000
+ How do you satisfy and make sure that each one is only one row?
+如何满足并确保每一项都只是一行？
+
+701
+01:20:00,000 --> 01:20:10,000
+ How do you make sure that each one is only one column?
+如何确保每一列都只是一列？
+
+702
+01:20:10,000 --> 01:20:15,000
+ So the row part is one.
+所以行部分是一个。
+
+703
+01:20:15,000 --> 01:20:18,000
+ Do you see it's a permutation?
+你看出来这是一个排列吗？
+
+704
+01:20:18,000 --> 01:20:20,000
+ Because they are different rows.
+因为它们是不同的行。
+
+705
+01:20:20,000 --> 01:20:22,000
+ So the values are all different.
+所以价值观都是不一样的。
+
+706
+01:20:22,000 --> 01:20:25,000
+ So they are all different rows.
+所以它们都是不同的行。
+
+707
+01:20:25,000 --> 01:20:29,000
+ What about column?
+专栏呢？
+
+708
+01:20:29,000 --> 01:20:33,000
+ They only eight positions.
+他们只有八个位置。
+
+709
+01:20:33,000 --> 01:20:38,000
+ So you have satisfied two sets of constraints.
+所以你已经满足了两组约束。
+
+710
+01:20:38,000 --> 01:20:42,000
+ Then diagonal.
+然后是对角线。
+
+711
+01:20:42,000 --> 01:20:44,000
+ That's what you solve for.
+这就是你解决的问题。
+
+712
+01:20:44,000 --> 01:20:58,000
+ So when you solve, you'll be looking for a permutation string that satisfies the so-called diagonal attacking requirements or constraints.
+因此，当您求解时，您将寻找满足所谓的对角攻击要求或约束的排列字符串。
+
+713
+01:20:59,000 --> 01:21:06,000
+ So again, the node is this is one way or coding it.
+再说一次，节点是这是一种方式或对其进行编码。
+
+714
+01:21:06,000 --> 01:21:08,000
+ I can also use binary string.
+我还可以使用二进制字符串。
+
+715
+01:21:08,000 --> 01:21:10,000
+ Can I know?
+我可以知道吗？
+
+716
+01:21:10,000 --> 01:21:11,000
+ You think about it.
+你想想吧。
+
+717
+01:21:11,000 --> 01:21:16,000
+ My representation could also be binary string.
+我的表示也可以是二进制字符串。
+
+718
+01:21:21,000 --> 01:21:26,000
+ So if that's the case, we got to think about the fitness function.
+所以如果是这样的话，我们就必须考虑适应度函数。
+
+719
+01:21:26,000 --> 01:21:30,000
+ How do we measure the fitness?
+我们如何衡量身体素质？
+
+720
+01:21:30,000 --> 01:21:33,000
+ Again, there are different ways to do it.
+同样，有不同的方法可以做到这一点。
+
+721
+01:21:33,000 --> 01:21:40,000
+ Early on in our first lecture, we talked about so-called the number of queens that are not attacking.
+在我们第一堂课的早期，我们谈到了所谓的不攻击的皇后数量。
+
+722
+01:21:40,000 --> 01:21:43,000
+ That's one way to do it.
+这是一种方法。
+
+723
+01:21:43,000 --> 01:21:48,000
+ Another way to do it is based on penalty.
+另一种方法是基于惩罚。
+
+724
+01:21:48,000 --> 01:21:51,000
+ Penalty of one queen, the number of queens she can check.
+一位皇后的惩罚，她可以检查的皇后数量。
+
+725
+01:21:52,000 --> 01:21:57,000
+ So if there's an attacking, you give it a penalty.
+所以如果有进攻，你就判罚球。
+
+726
+01:21:57,000 --> 01:22:02,000
+ So the penalty of a configuration will be the sum of the penalties of all the queens.
+所以一个配置的惩罚将是所有皇后惩罚的总和。
+
+727
+01:22:02,000 --> 01:22:12,000
+ So to measure the fitness of the whole configuration, you take the sum of the penalties of all the queens.
+因此，为了衡量整个配置的适合度，您可以将所有皇后的惩罚相加。
+
+728
+01:22:12,000 --> 01:22:15,000
+ Now we talk about fitness.
+现在我们来谈谈健身。
+
+729
+01:22:15,000 --> 01:22:19,000
+ Fitness means the bigger the value, the better.
+健身意味着数值越大越好。
+
+730
+01:22:19,000 --> 01:22:23,000
+ You say, oh, this is more fit than this.
+你说，哦，这个比这个更合适。
+
+731
+01:22:23,000 --> 01:22:26,000
+ So meaning the fitness value is higher.
+所以意味着健身值更高。
+
+732
+01:22:26,000 --> 01:22:32,000
+ The context of the meaning of the word fitness, usually that's what it means.
+健身这个词的上下文含义，通常就是这个意思。
+
+733
+01:22:32,000 --> 01:22:35,000
+ But penalty is to be minimized.
+但惩罚要最小化。
+
+734
+01:22:35,000 --> 01:22:40,000
+ So we want to minimize penalty, but fitness we want to maximize.
+所以我们希望最小化惩罚，但我们希望最大化健身。
+
+735
+01:22:40,000 --> 01:22:44,000
+ Based on the meaning of what fitness means.
+基于健身的含义。
+
+736
+01:22:44,000 --> 01:22:50,000
+ Therefore the fitness of a configuration could be the inverse penalty to be maximized.
+因此，配置的适应性可能是要最大化的逆惩罚。
+
+737
+01:22:50,000 --> 01:22:52,000
+ So you can actually change.
+所以你实际上可以改变。
+
+738
+01:22:52,000 --> 01:22:54,000
+ That's definitely not an issue.
+这绝对不是问题。
+
+739
+01:22:54,000 --> 01:22:56,000
+ You can convert.
+你可以转换。
+
+740
+01:22:56,000 --> 01:23:05,000
+ If something is maximum, you can convert to minimum.
+如果某物是最大值，您可以转换为最小值。
+
+741
+01:23:05,000 --> 01:23:10,000
+ So how would our mutation look like?
+那么我们的突变会是什么样子呢？
+
+742
+01:23:10,000 --> 01:23:15,000
+ Again, one way to do it is only one way.
+再说一次，一种方法只是一种方法。
+
+743
+01:23:15,000 --> 01:23:21,000
+ You can, you mutate a gene, right?
+你可以，你突变一个基因，对吧？
+
+744
+01:23:21,000 --> 01:23:23,000
+ So you pick a gene to mutate.
+所以你选择一个基因来突变。
+
+745
+01:23:23,000 --> 01:23:28,000
+ For example, I pick gene number three to mutate.
+例如，我选择第三个基因进行突变。
+
+746
+01:23:28,000 --> 01:23:30,000
+ Randomly.
+随机地。
+
+747
+01:23:30,000 --> 01:23:34,000
+ Randomly it occurs like gene number three.
+它像三号基因一样随机出现。
+
+748
+01:23:34,000 --> 01:23:38,000
+ Then what will be the new value?
+那么新的值会是什么呢？
+
+749
+01:23:38,000 --> 01:23:39,000
+ Again, random.
+再次，随机。
+
+750
+01:23:39,000 --> 01:23:42,000
+ Let's say seven comes out.
+假设有七个出来了。
+
+751
+01:23:42,000 --> 01:23:46,000
+ Out of the possibility of one to eight, seven comes out.
+从一比八的可能性中，得出了七。
+
+752
+01:23:46,000 --> 01:23:49,000
+ So meaning that seven takes the place of five.
+这意味着七取代了五。
+
+753
+01:23:49,000 --> 01:23:51,000
+ So you have seven.
+所以你有七个。
+
+754
+01:23:51,000 --> 01:24:00,000
+ But because when you replace five with seven, it conflicts or you violate that requirement of seven.
+但是因为当你用七替换五时，它会发生冲突或者违反了七的要求。
+
+755
+01:24:00,000 --> 01:24:06,000
+ So you got to look for the corresponding seven and then flip it back to five.
+所以你必须寻找相应的七，然后将其翻转回五。
+
+756
+01:24:06,000 --> 01:24:13,000
+ That's the idea of the thoughts so-called flipping, the values during mutation.
+这就是所谓的思想翻转、变异过程中的价值观。
+
+757
+01:24:13,000 --> 01:24:23,000
+ But essentially you can see that the result is basically the exchanging of these two values.
+但本质上你可以看到结果基本上是这两个值的交换。
+
+758
+01:24:23,000 --> 01:24:29,000
+ Okay, what about recombination?
+好吧，那么重组呢？
+
+759
+01:24:29,000 --> 01:24:34,000
+ Recombination involves two parents.
+重组涉及两个父母。
+
+760
+01:24:34,000 --> 01:24:40,000
+ So you choose two parents, choose two permutation strings.
+所以你选择两个父母，选择两个排列字符串。
+
+761
+01:24:40,000 --> 01:24:45,000
+ So some kind of probabilistic random process.
+所以某种概率随机过程。
+
+762
+01:24:45,000 --> 01:24:50,000
+ And then we choose a random crossover point.
+然后我们选择一个随机交叉点。
+
+763
+01:24:50,000 --> 01:24:54,000
+ So what would we mean by random crossover point?
+那么随机交叉点是什么意思呢？
+
+764
+01:24:54,000 --> 01:25:00,000
+ Well, let's say for example we choose crossover point number three.
+好吧，假设我们选择三号交叉点。
+
+765
+01:25:00,000 --> 01:25:03,000
+ Or crossover position or site number three.
+或交叉位置或站点三号。
+
+766
+01:25:03,000 --> 01:25:07,000
+ So this is one, two, three.
+所以这是一、二、三。
+
+767
+01:25:07,000 --> 01:25:13,000
+ So this is a crossover position.
+所以这是一个交叉位置。
+
+768
+01:25:13,000 --> 01:25:25,000
+ So in crossing over, which involves two parents, we take part of parent one and then part of parent two to generate the offspring.
+因此，在涉及两个亲本的交叉中，我们先取出亲本一的一部分，然后取出亲本二的一部分来产生后代。
+
+769
+01:25:25,000 --> 01:25:27,000
+ So here's how it works.
+这就是它的工作原理。
+
+770
+01:25:27,000 --> 01:25:35,000
+ So for example to generate the first offspring, I take part of parent one, one, three, five.
+例如，为了生成第一个后代，我将父代一、一、三、五作为一部分。
+
+771
+01:25:35,000 --> 01:25:37,000
+ One, three, five.
+一、三、五。
+
+772
+01:25:37,000 --> 01:25:44,000
+ Let me change this to point.
+让我将其更改为指向。
+
+773
+01:25:44,000 --> 01:25:47,000
+ So this is one, three, five.
+所以这是一、三、五。
+
+774
+01:25:47,000 --> 01:25:50,000
+ So it gets copied here.
+所以它被复制到这里。
+
+775
+01:25:50,000 --> 01:25:53,000
+ So that's one parent one.
+所以这是一位家长。
+
+776
+01:25:53,000 --> 01:25:58,000
+ And then I generate the other half from parent two.
+然后我从父级两个生成另一半。
+
+777
+01:25:58,000 --> 01:26:06,000
+ So from parent two, one, three, five already there.
+所以父母二、一、三、五已经在那里了。
+
+778
+01:26:06,000 --> 01:26:09,000
+ So I can knock it off.
+所以我可以把它关掉。
+
+779
+01:26:09,000 --> 01:26:17,000
+ I knock off one, three, five.
+我击倒一、三、五。
+
+780
+01:26:17,000 --> 01:26:20,000
+ Because it's already here, one, three, five.
+因为它已经在这里了，一，三，五。
+
+781
+01:26:20,000 --> 01:26:27,000
+ And then the remaining of it, I construct it based on parent two.
+然后剩下的部分，我根据父级两个构建它。
+
+782
+01:26:27,000 --> 01:26:33,000
+ So from parent two, you can see four, the first one is four.
+所以从父二开始，你可以看到四，第一个是四。
+
+783
+01:26:33,000 --> 01:26:40,000
+ So four goes to the first position.
+因此，四个进入第一个位置。
+
+784
+01:26:40,000 --> 01:26:46,000
+ And then after that, two goes to the second position.
+然后，两个人进入第二个位置。
+
+785
+01:26:46,000 --> 01:26:54,000
+ And then the remaining, then you go back to the beginning, round, one round, and then eight, seven, six.
+然后剩下的，然后你回到开始，一轮，一轮，然后八，七，六。
+
+786
+01:26:54,000 --> 01:26:57,000
+ Quite easy to see.
+很容易看到。
+
+787
+01:26:57,000 --> 01:27:04,000
+ But the philosophy is what you should, or behind this is what you should recognize.
+但其中的哲学是你应该的，或者说这背后是你应该认识到的。
+
+788
+01:27:04,000 --> 01:27:06,000
+ So this is a recombination.
+所以这是一次重组。
+
+789
+01:27:06,000 --> 01:27:08,000
+ It involves two parents.
+这涉及到两个父母。
+
+790
+01:27:08,000 --> 01:27:12,000
+ So what you have seen is a simple process of just exchanging strings.
+所以你所看到的只是交换字符串的简单过程。
+
+791
+01:27:12,000 --> 01:27:22,000
+ But what is important for you to note is that the offspring inherits property from both the parent one and parent two.
+但您需要注意的是，后代继承了父母一和父母二的财产。
+
+792
+01:27:22,000 --> 01:27:30,000
+ And that's the kind of mechanisms in your GA.
+这就是 GA 中的机制。
+
+793
+01:27:30,000 --> 01:27:45,000
+ And also to note that whatever operators that you implement has to conform or adhere to the constraints requirement of the permutation strings.
+还要注意，您实现的任何运算符都必须符合或遵守排列字符串的约束要求。
+
+794
+01:27:45,000 --> 01:27:49,000
+ So go back and try to implement these days.
+所以这几天回去尝试落实一下。
+
+795
+01:27:49,000 --> 01:27:50,000
+ It's very easy.
+这很容易。
+
+796
+01:27:50,000 --> 01:27:59,000
+ You can implement all this in Python.
+您可以用 Python 实现这一切。
+
+797
+01:27:59,000 --> 01:28:03,000
+ So let's talk about the selection.
+那么我们来谈谈选择吧。
+
+798
+01:28:03,000 --> 01:28:07,000
+ As always, we said there are two areas of selection.
+一如既往，我们说有两个选择领域。
+
+799
+01:28:07,000 --> 01:28:10,000
+ One is the parent selection.
+一是家长的选择。
+
+800
+01:28:10,000 --> 01:28:17,000
+ So to select the parents to form the parent pool.
+所以要选择父母组成父母池。
+
+801
+01:28:17,000 --> 01:28:37,000
+ So one way to select is randomly pick five parents.
+因此，一种选择方法是随机选择五个父母。
+
+802
+01:28:37,000 --> 01:28:39,000
+ Just random.
+只是随机的。
+
+803
+01:28:39,000 --> 01:28:43,000
+ And take the best two to undergo crossover.
+并取最好的两个进行交叉。
+
+804
+01:28:43,000 --> 01:28:46,000
+ Out of the five, you do some kind of competition.
+在这五个人中，你们进行某种竞争。
+
+805
+01:28:46,000 --> 01:28:51,000
+ Z out of the five, which is the best two.
+五个中的Z，这是最好的两个。
+
+806
+01:28:51,000 --> 01:28:53,000
+ Now there's the parent selection.
+现在是家长选择。
+
+807
+01:28:53,000 --> 01:29:00,000
+ So let's say in this eight-quins problem, this is one way you can do the parent selection.
+假设在这个八金问题中，这是进行父代选择的一种方法。
+
+808
+01:29:00,000 --> 01:29:03,000
+ And then the other one, the survivor selection.
+然后是另一项，幸存者选择。
+
+809
+01:29:03,000 --> 01:29:06,000
+ How do we do the replacement?
+我们如何进行更换呢？
+
+810
+01:29:06,000 --> 01:29:11,000
+ Well, in this example here, we can do something like that.
+好吧，在这个例子中，我们可以做类似的事情。
+
+811
+01:29:11,000 --> 01:29:13,000
+ Use these rules.
+使用这些规则。
+
+812
+01:29:13,000 --> 01:29:19,000
+ It says when inserting a new child into a population, choose an existing member to replace by it.
+它说，当将一个新孩子插入群体时，选择一个现有成员来替换它。
+
+813
+01:29:19,000 --> 01:29:23,000
+ So first of all, you decide which member to replace.
+因此，首先，您决定要替换哪位成员。
+
+814
+01:29:23,000 --> 01:29:27,000
+ Sort the whole population according to fitness.
+根据适应度对整个群体进行排序。
+
+815
+01:29:27,000 --> 01:29:32,000
+ And then enumerate this list from high to low.
+然后从高到低枚举这个列表。
+
+816
+01:29:32,000 --> 01:29:36,000
+ And then choose the first one with fitness lower than the given child.
+然后选择第一个适应度低于给定孩子的孩子。
+
+817
+01:29:36,000 --> 01:29:46,000
+ So you just do replacement until your whole population is replaced.
+所以你只需进行替换，直到整个种群被替换为止。
+
+818
+01:29:46,000 --> 01:29:52,000
+ So all in all, typically in your GA, you have all these parameters or mechanisms.
+总而言之，通常在您的 GA 中，您拥有所有这些参数或机制。
+
+819
+01:29:52,000 --> 01:30:03,000
+ So I can create a tableau to show you what is in this so-called eight-quins problem solver.
+所以我可以创建一个表格来向您展示这个所谓的八奎因问题解决器中的内容。
+
+820
+01:30:03,000 --> 01:30:08,000
+ So the representation is a permutation string as what is shown.
+因此，表示形式是一个排列字符串，如图所示。
+
+821
+01:30:08,000 --> 01:30:17,000
+ And then the recombination, which involves two parents, we call it a cut and cross-fill crossover.
+然后是涉及两个父母的重组，我们称之为剪切和交叉填充交叉。
+
+822
+01:30:17,000 --> 01:30:25,000
+ Choose a cutting point and then cross-fill across with both parents.
+选择一个切入点，然后与父母双方交叉填充。
+
+823
+01:30:25,000 --> 01:30:28,000
+ Recombination probability.
+重组概率。
+
+824
+01:30:28,000 --> 01:30:34,000
+ Usually you have a probability like crossover is 60%, crossover or 50%.
+通常你的交叉概率是 60%，交叉概率是 50%。
+
+825
+01:30:34,000 --> 01:30:38,000
+ Here, let's say we implement 100%.
+在这里，假设我们 100% 实施。
+
+826
+01:30:38,000 --> 01:30:45,000
+ Meaning so-called crossover recombination will always occur.
+这意味着所谓的交叉重组总会发生。
+
+827
+01:30:45,000 --> 01:30:49,000
+ Mutation, we do a simple swap.
+突变，我们做一个简单的交换。
+
+828
+01:30:49,000 --> 01:30:54,000
+ Mutation probability, 80%.
+突变概率，80%。
+
+829
+01:30:54,000 --> 01:31:02,000
+ In the earlier GA, typically the mutation probability about 0.01, very small.
+在早期的GA中，通常突变概率约为0.01，非常小。
+
+830
+01:31:02,000 --> 01:31:07,000
+ So that doesn't mean that we must conform to that.
+因此，这并不意味着我们必须遵守这一点。
+
+831
+01:31:07,000 --> 01:31:09,000
+ It all depends on problems.
+这一切都取决于问题。
+
+832
+01:31:09,000 --> 01:31:13,000
+ So here, our mutation probability, 80%.
+所以在这里，我们的突变概率是 80%。
+
+833
+01:31:13,000 --> 01:31:17,000
+ And then the parent selection, two out of random five.
+然后是家长选择，随机五个中的两个。
+
+834
+01:31:18,000 --> 01:31:22,000
+ Selection, survival selection, replace worst.
+选择，生存选择，取代最差的。
+
+835
+01:31:22,000 --> 01:31:25,000
+ Population size, 100.
+人口规模，100。
+
+836
+01:31:25,000 --> 01:31:27,000
+ Number of offspring, two.
+后代数量，两个。
+
+837
+01:31:27,000 --> 01:31:29,000
+ Initialization random.
+初始化随机。
+
+838
+01:31:29,000 --> 01:31:36,000
+ And then termination condition, 10,000 fitness evaluations.
+然后是终止条件，10,000次适应度评估。
+
+839
+01:31:36,000 --> 01:31:38,000
+ One of the possible way.
+可能的方法之一。
+
+840
+01:31:38,000 --> 01:31:46,000
+ So what I'm trying to tell you is in a GA, this is typically the kind of parameters you will set or you will tune.
+所以我想告诉你的是，在 GA 中，这通常是你要设置或调整的参数。
+
+841
+01:31:47,000 --> 01:31:52,000
+ This is an example to illustrate.
+这是一个例子来说明。
+
+842
+01:31:56,000 --> 01:32:05,000
+ And so typically in a EGA.
+通常在 EGA 中也是如此。
+
+843
+01:32:06,000 --> 01:32:18,000
+ So what you will see is that in the early stage, because the fitness of the population tend to be poor.
+所以你会看到的是，在早期阶段，因为人群的身体素质往往较差。
+
+844
+01:32:18,000 --> 01:32:25,000
+ So on the fitness landscape, you will see that the points are all over the place.
+所以在健身景观上，你会看到点遍布各处。
+
+845
+01:32:25,000 --> 01:32:29,000
+ Overall, the fitness is still relatively low.
+总体来说，健身水平还是比较低的。
+
+846
+01:32:30,000 --> 01:32:40,000
+ Then as you evolve, the population, the fitness tends to improve.
+然后，随着你的进化，人口、健康状况往往会改善。
+
+847
+01:32:40,000 --> 01:32:53,000
+ From a fitness landscape point of view, the points seems to move towards, converge towards the peak or the optimum.
+从适应度景观的角度来看，这些点似乎朝着峰值或最佳值移动、汇聚。
+
+848
+01:32:53,000 --> 01:32:58,000
+ And then towards the later part, it converges to the close to the optimum.
+然后到后期，收敛到接近最优值。
+
+849
+01:32:58,000 --> 01:33:01,000
+ May not be the optimum, but close to the optimum.
+可能不是最优的，但接近最优。
+
+850
+01:33:01,000 --> 01:33:09,000
+ That is typically what the evolutionary process causes the fitness to change.
+这通常是进化过程导致适应性改变的原因。
+
+851
+01:33:09,000 --> 01:33:16,000
+ So I think this is a good example to think about all this process here.
+所以我认为这是一个很好的例子来思考所有这个过程。
+
+852
+01:33:16,000 --> 01:33:21,000
+ So later on, we do a hand simulation on another problem just to illustrate further.
+所以后来我们对另一个问题进行了手工模拟，只是为了进一步说明。
+
+853
+01:33:21,000 --> 01:33:28,000
+ Let's take a break and then we meet again in 8.25.
+我们先休息一下，8.25再相见。
+
+854
+01:33:51,000 --> 01:33:57,000
+ Thank you.
+谢谢。
+
+855
+01:34:21,000 --> 01:34:26,000
+ Thank you.
+谢谢。
+
+856
+01:34:51,000 --> 01:34:56,000
+ Thank you.
+谢谢。
+
+857
+01:35:21,000 --> 01:35:26,000
+ Thank you.
+谢谢。
+
+858
+01:35:51,000 --> 01:35:56,000
+ Thank you.
+谢谢。
+
+859
+01:36:21,000 --> 01:36:26,000
+ Thank you.
+谢谢。
+
+860
+01:36:51,000 --> 01:36:56,000
+ Thank you.
+谢谢。
+
+861
+01:37:21,000 --> 01:37:26,000
+ Thank you.
+谢谢。
+
+862
+01:37:51,000 --> 01:37:56,000
+ Thank you.
+谢谢。
+
+863
+01:38:21,000 --> 01:38:26,000
+ Thank you.
+谢谢。
+
+864
+01:38:51,000 --> 01:38:56,000
+ Thank you.
+谢谢。
+
+865
+01:39:21,000 --> 01:39:26,000
+ Thank you.
+谢谢。
+
+866
+01:39:51,000 --> 01:39:56,000
+ Thank you.
+谢谢。
+
+867
+01:40:21,000 --> 01:40:26,000
+ Thank you.
+谢谢。
+
+868
+01:40:51,000 --> 01:40:56,000
+ Thank you.
+谢谢。
+
+869
+01:41:21,000 --> 01:41:26,000
+ Thank you.
+谢谢。
+
+870
+01:41:51,000 --> 01:41:56,000
+ Thank you.
+谢谢。
+
+871
+01:42:21,000 --> 01:42:26,000
+ Thank you.
+谢谢。
+
+872
+01:42:51,000 --> 01:42:56,000
+ Thank you.
+谢谢。
+
+873
+01:43:21,000 --> 01:43:26,000
+ Thank you.
+谢谢。
+
+874
+01:43:51,000 --> 01:43:56,000
+ Thank you.
+谢谢。
+
+875
+01:44:21,000 --> 01:44:26,000
+ Thank you.
+谢谢。
+
+876
+01:44:51,000 --> 01:44:56,000
+ Thank you.
+谢谢。
+
+877
+01:45:21,000 --> 01:45:26,000
+ Thank you.
+谢谢。
+
+878
+01:45:51,000 --> 01:45:56,000
+ Thank you.
+谢谢。
+
+879
+01:46:21,000 --> 01:46:26,000
+ Thank you.
+谢谢。
+
+880
+01:46:51,000 --> 01:46:56,000
+ Thank you.
+谢谢。
+
+881
+01:47:21,000 --> 01:47:26,000
+ Thank you.
+谢谢。
+
+882
+01:47:51,000 --> 01:47:56,000
+ Thank you.
+谢谢。
+
+883
+01:48:21,000 --> 01:48:26,000
+ Thank you.
+谢谢。
+
+884
+01:48:51,000 --> 01:48:56,000
+ Thank you.
+谢谢。
+
+885
+01:49:21,000 --> 01:49:26,000
+ Thank you.
+谢谢。
+
+886
+01:49:51,000 --> 01:49:56,000
+ Thank you.
+谢谢。
+
+887
+01:50:21,000 --> 01:50:26,000
+ Thank you.
+谢谢。
+
+888
+01:50:51,000 --> 01:50:56,000
+ Thank you.
+谢谢。
+
+889
+01:51:21,000 --> 01:51:26,000
+ Thank you.
+谢谢。
+
+890
+01:51:51,000 --> 01:51:56,000
+ Thank you.
+谢谢。
+
+891
+01:52:21,000 --> 01:52:26,000
+ Thank you.
+谢谢。
+
+892
+01:52:51,000 --> 01:52:56,000
+ Thank you.
+谢谢。
+
+893
+01:53:21,000 --> 01:53:26,000
+ Thank you.
+谢谢。
+
+894
+01:53:51,000 --> 01:53:56,000
+ Thank you.
+谢谢。
+
+895
+01:54:21,000 --> 01:54:26,000
+ Thank you.
+谢谢。
+
+896
+01:54:51,000 --> 01:55:10,000
+ Thank you.
+谢谢。
+
+897
+01:55:10,000 --> 01:55:15,000
+ Okay, we are back.
+好的，我们回来了。
+
+898
+01:55:15,000 --> 01:55:21,000
+ So, we have looked at the Aqueen's problem quite clearly.
+所以，我们已经很清楚地看到了 Aqueen 的问题。
+
+899
+01:55:21,000 --> 01:55:25,000
+ I think this is a kind of discrete problem.
+我认为这是一种离散问题。
+
+900
+01:55:25,000 --> 01:55:27,000
+ Okay, discrete problem.
+好吧，离散问题。
+
+901
+01:55:27,000 --> 01:55:39,000
+ So, I showed you, typically in a GA, these are the kind of parameters that are involved in a GA.
+所以，我向您展示了，通常在 GA 中，这些是 GA 中涉及的参数类型。
+
+902
+01:55:39,000 --> 01:55:49,000
+ For example, in the Aqueen's problem, we talked about this template of all the parameters, the different methods.
+例如，在Aqueen的问题中，我们谈到了这个模板的所有参数，不同的方法。
+
+903
+01:55:49,000 --> 01:55:52,000
+ So, the GA you implement may be different.
+因此，您实施的 GA 可能会有所不同。
+
+904
+01:55:52,000 --> 01:55:54,000
+ They have a different set of parameters.
+他们有一组不同的参数。
+
+905
+01:55:54,000 --> 01:55:58,000
+ Now, you must remember these are all stochastic algorithms.
+现在，您必须记住这些都是随机算法。
+
+906
+01:55:58,000 --> 01:56:09,000
+ So, some of these parameters, there's no hard and fast or absolute rule to say what the values should be.
+因此，对于其中一些参数，没有硬性且快速或绝对的规则来说明其值应该是什么。
+
+907
+01:56:09,000 --> 01:56:15,000
+ But that doesn't mean that you totally have no knowledge on what should be the appropriate value.
+但这并不意味着您完全不知道什么是合适的值。
+
+908
+01:56:15,000 --> 01:56:20,000
+ They are usually what we call the rule of thumb that we follow.
+它们通常就是我们所遵循的经验法则。
+
+909
+01:56:20,000 --> 01:56:22,000
+ Okay.
+好的。
+
+910
+01:56:23,000 --> 01:56:33,000
+ For example, if you know in your Aqueen's, say somebody could decide maybe I use binary coding.
+例如，如果您知道 Aqueen 的情况，那么有人可以决定我是否使用二进制编码。
+
+911
+01:56:33,000 --> 01:56:44,000
+ Not to say it won't work, but then the question to ask would be, you know, is it the most effective way or efficient way to code the problem?
+并不是说它不起作用，但接下来要问的问题是，你知道，这是解决问题的最有效的方法或最有效的方法吗？
+
+912
+01:56:44,000 --> 01:56:50,000
+ So, that's the kind of thing that one would have to consider and so on.
+所以，这是人们必须考虑的一件事，等等。
+
+913
+01:56:51,000 --> 01:57:03,000
+ So, all these parameters here, if you have implemented your GA, or if you look at so-called some codes that some implementations of GA,
+所以，这里的所有这些参数，如果你已经实现了你的 GA，或者如果你看一下所谓的一些 GA 实现的代码，
+
+914
+01:57:03,000 --> 01:57:10,000
+ you find all these parameters of the evolutionary algorithm that has been implemented.
+您会发现已实现的进化算法的所有这些参数。
+
+915
+01:57:10,000 --> 01:57:19,000
+ So, the representation, how it's represented, depending on the problem and so on, the recombination method, mutation rate and so on.
+所以，表示，如何表示，取决于问题等等，重组方法，突变率等等。
+
+916
+01:57:19,000 --> 01:57:21,000
+ So, this is quite typical.
+所以，这是非常典型的。
+
+917
+01:57:21,000 --> 01:57:35,000
+ So, not to worry if you don't have very solid graphs on this, but after you see a couple of examples, you will develop that intuitive view for what GA is all about.
+因此，如果您没有非常可靠的图表，请不要担心，但是在看到几个示例后，您将对 GA 的含义形成直观的认识。
+
+918
+01:57:35,000 --> 01:57:43,000
+ So, I want to go through another example which is quite different from the Aqueen's.
+所以，我想看另一个与 Aqueen 完全不同的例子。
+
+919
+01:57:44,000 --> 01:57:50,000
+ So, quite often we implement, we optimize a function.
+因此，我们经常实现、优化一个函数。
+
+920
+01:57:50,000 --> 01:57:54,000
+ So, henceforth, it's called a function optimization.
+所以，从今往后，它被称为函数优化。
+
+921
+01:57:54,000 --> 01:58:06,000
+ So, in typical mathematical optimization, we optimize a function to find the maximum or the minimum.
+因此，在典型的数学优化中，我们优化函数以找到最大值或最小值。
+
+922
+01:58:06,000 --> 01:58:17,000
+ So, in many real world applications, the model of the behavior, the dynamics, the physics of it, usually can be modeled.
+因此，在许多现实世界的应用中，通常可以对行为、动力学、物理模型进行建模。
+
+923
+01:58:17,000 --> 01:58:25,000
+ And usually, that model would involve certain kind of complex functions that needs to be optimized.
+通常，该模型会涉及某些需要优化的复杂功能。
+
+924
+01:58:26,000 --> 01:58:29,000
+ So, I'm just going to use a simple example.
+因此，我将仅使用一个简单的示例。
+
+925
+01:58:29,000 --> 01:58:37,000
+ So, this example is more for illustration on the mechanisms at work in GA.
+所以，这个例子更多地是为了说明遗传算法的工作机制。
+
+926
+01:58:37,000 --> 01:58:44,000
+ Now, say for example, you have a function fx equal to x square.
+现在，举例来说，您有一个等于 x 平方的函数 fx。
+
+927
+01:58:44,000 --> 01:58:48,000
+ So, this is a function with one variable.
+因此，这是一个只有一个变量的函数。
+
+928
+01:58:48,000 --> 01:58:53,000
+ So, needless to say, it is an extremely simple problem.
+所以，不用说，这是一个非常简单的问题。
+
+929
+01:58:53,000 --> 01:59:02,000
+ Now, a typical problem that you will want to solve in your GA, it could involve hundreds or even thousands of variables with many constraints.
+现在，您想要在 GA 中解决一个典型问题，它可能涉及数百甚至数千个带有许多约束的变量。
+
+930
+01:59:02,000 --> 01:59:05,000
+ Definitely not doable by hand.
+用手绝对是做不到的。
+
+931
+01:59:05,000 --> 01:59:12,000
+ But of course, for the sake of illustration, let's just look at this simple problem on optimizing a function.
+当然，为了便于说明，我们只看这个优化函数的简单问题。
+
+932
+01:59:12,000 --> 01:59:21,000
+ So, you are trying to maximize fx equal to x square.
+所以，你试图最大化 fx 等于 x 的平方。
+
+933
+01:59:21,000 --> 01:59:30,000
+ And subject to a limit of, let's say, x from certain minimum up to a maximum.
+并且受到 x 的限制，从某个最小值到最大值。
+
+934
+01:59:30,000 --> 01:59:36,000
+ So, therefore, you are trying to find x, you are trying to solve for x.
+因此，你正在尝试找到 x，你正在尝试解决 x。
+
+935
+01:59:36,000 --> 01:59:42,000
+ So, x is the phenotype, the expression of the value.
+所以，x是表型，是值的表达。
+
+936
+01:59:42,000 --> 01:59:47,000
+ To bring it to GA, you've got to code it.
+要将其引入 GA，您必须对其进行编码。
+
+937
+01:59:47,000 --> 01:59:54,000
+ So, you have to code it, then you have to think about a representation.
+所以，你必须对其进行编码，然后你必须考虑一种表示形式。
+
+938
+01:59:54,000 --> 01:59:58,000
+ So, you have different options for representation.
+因此，您有不同的代表选择。
+
+939
+01:59:58,000 --> 02:00:02,000
+ One option will be binary.
+一种选择是二元的。
+
+940
+02:00:02,000 --> 02:00:07,000
+ The other option will be real value, for example.
+例如，另一个选项是实际值。
+
+941
+02:00:07,000 --> 02:00:11,000
+ But let's say we choose binary representation.
+但假设我们选择二进制表示。
+
+942
+02:00:11,000 --> 02:00:17,000
+ So, let's say we choose our chromosome to be 5 bits.
+所以，假设我们选择染色体为 5 位。
+
+943
+02:00:17,000 --> 02:00:22,000
+ So, 5 bits meaning 2 to the power of 5, so 32.
+因此，5 位表示 2 的 5 次方，即 32。
+
+944
+02:00:22,000 --> 02:00:33,000
+ So, the range of value in your phenotypic space is from 0 to 31.
+因此，表型空间中的值范围是从 0 到 31。
+
+945
+02:00:33,000 --> 02:00:41,000
+ So, there are different steps involved in the genetic algorithm.
+因此，遗传算法涉及不同的步骤。
+
+946
+02:00:41,000 --> 02:00:44,000
+ So, for example, you generate the initial population.
+例如，您生成了初始种群。
+
+947
+02:00:44,000 --> 02:00:53,000
+ So, since it is 5 bits chromosome, you randomly generate a population of 5-bit individuals.
+因此，由于它是 5 位染色体，因此您可以随机生成 5 位个体的群体。
+
+948
+02:00:53,000 --> 02:00:55,000
+ Randomly.
+随机地。
+
+949
+02:00:55,000 --> 02:00:57,000
+ How you generate?
+你如何生成？
+
+950
+02:00:57,000 --> 02:01:06,000
+ So, each bit you flip a coin, 0 or 1, and then for each chromosome, you do it 5 times and so on.
+所以，你抛一枚硬币的每一位，0 或 1，然后对于每条染色体，你重复 5 次，依此类推。
+
+951
+02:01:06,000 --> 02:01:12,000
+ And then, there are...
+然后，还有……
+
+952
+02:01:12,000 --> 02:01:15,000
+ Then after that, you go, you compute the fitness.
+然后，你就开始计算适应度。
+
+953
+02:01:15,000 --> 02:01:18,000
+ How do you compute the fitness?
+你如何计算适应度？
+
+954
+02:01:18,000 --> 02:01:22,000
+ According to the function you're trying to optimize.
+根据您要优化的功能。
+
+955
+02:01:22,000 --> 02:01:23,000
+ So, you're trying to maximize.
+所以，你正在努力最大化。
+
+956
+02:01:23,000 --> 02:01:26,000
+ So, how do you know how fit the individuals are?
+那么，您如何知道个人的适合程度呢？
+
+957
+02:01:26,000 --> 02:01:29,000
+ You use the function to evaluate.
+您使用该函数进行评估。
+
+958
+02:01:29,000 --> 02:01:32,000
+ And then after that, you decide on reproduction.
+然后，您决定繁殖。
+
+959
+02:01:32,000 --> 02:01:38,000
+ So, reproduction means you got to select according to the fitness.
+所以，繁殖意味着你必须根据适应性来选择。
+
+960
+02:01:38,000 --> 02:01:43,000
+ So, we're going to create a mating pool.
+所以，我们要创建一个交配池。
+
+961
+02:01:43,000 --> 02:01:46,000
+ And then, crossover.
+然后，交叉。
+
+962
+02:01:46,000 --> 02:01:51,000
+ So, there are some written details here, but later on, we go straight to the table,
+所以，这里有一些书面细节，但稍后，我们直接进入表格，
+
+963
+02:01:51,000 --> 02:01:56,000
+ and then it's easier to illustrate from the table.
+然后从表格中说明就更容易了。
+
+964
+02:01:56,000 --> 02:01:58,000
+ And mutation.
+还有突变。
+
+965
+02:01:58,000 --> 02:02:00,000
+ Let's assume there's no mutation.
+我们假设没有突变。
+
+966
+02:02:00,000 --> 02:02:06,000
+ Or theoretically, there's a mutation, but let's assume mutation is very, very small.
+或者从理论上讲，存在突变，但我们假设突变非常非常小。
+
+967
+02:02:06,000 --> 02:02:11,000
+ Such that in our small sample size, it doesn't happen.
+因此，在我们的小样本量中，这种情况不会发生。
+
+968
+02:02:11,000 --> 02:02:13,000
+ Just assume.
+只是假设。
+
+969
+02:02:13,000 --> 02:02:18,000
+ So, mutation, let's assume mutation probability is 0.001.
+所以，突变，我们假设突变概率是 0.001。
+
+970
+02:02:18,000 --> 02:02:23,000
+ For each bit, there's a mutation probability of 0.001.
+对于每一位，突变概率为 0.001。
+
+971
+02:02:23,000 --> 02:02:35,000
+ Now, if we have 20 bits in our population, then the chances of mutation occurring is only 0.02.
+现在，如果我们的种群中有 20 位，那么发生突变的几率仅为 0.02。
+
+972
+02:02:35,000 --> 02:02:39,000
+ So, that means that it is very, very small.
+所以，这意味着它非常非常小。
+
+973
+02:02:39,000 --> 02:02:47,000
+ So, in our example, we just assume there's zero mutation or it didn't happen.
+因此，在我们的示例中，我们只是假设突变为零或没有发生。
+
+974
+02:02:47,000 --> 02:03:04,000
+ So, we do the calculation and go to the table and see how the evolution process progress.
+因此，我们进行计算并查看表格，看看进化过程如何进展。
+
+975
+02:03:04,000 --> 02:03:11,000
+ So, assume we have a population of four individuals.
+因此，假设我们有四个人。
+
+976
+02:03:11,000 --> 02:03:13,000
+ So, we create four strings.
+因此，我们创建四个字符串。
+
+977
+02:03:13,000 --> 02:03:19,000
+ Remember, our coding is five bits, five binary bits.
+请记住，我们的编码是五位，五个二进制位。
+
+978
+02:03:19,000 --> 02:03:25,000
+ So, string number one, we randomly generate.
+因此，我们随机生成第一个字符串。
+
+979
+02:03:25,000 --> 02:03:33,000
+ So, we generate our first string, 0.1.1.0.1, number two, 1.1.0.0, and so forth.
+因此，我们生成第一个字符串 0.1.1.0.1，第二个字符串 1.1.0.0，依此类推。
+
+980
+02:03:33,000 --> 02:03:38,000
+ So, we have four individuals.
+所以，我们有四个人。
+
+981
+02:03:39,000 --> 02:03:43,000
+ So, now you go back to the figure I showed you earlier on.
+那么，现在您回到我之前向您展示的图形。
+
+982
+02:03:43,000 --> 02:03:50,000
+ After you have the initial population, what must happen?
+有了初始人口后，必须发生什么？
+
+983
+02:03:50,000 --> 02:03:54,000
+ You're going to do the selection, remember, to get the parents.
+记住，你要进行选择，才能找到父母。
+
+984
+02:03:54,000 --> 02:03:58,000
+ In order to do the selection, you must know the fitness.
+为了进行选择，您必须了解适合度。
+
+985
+02:03:58,000 --> 02:04:01,000
+ So, how do you evaluate the fitness?
+那么，如何评价健身效果呢？
+
+986
+02:04:01,000 --> 02:04:04,000
+ Well, according to your function.
+嗯，根据你的功能。
+
+987
+02:04:04,000 --> 02:04:08,000
+ The function is x squared.
+该函数是 x 的平方。
+
+988
+02:04:08,000 --> 02:04:15,000
+ So, the expression of 0.1.1.0.1 is 13.
+因此，0.1.1.0.1 的表达式为 13。
+
+989
+02:04:15,000 --> 02:04:16,000
+ This is the coding.
+这就是编码。
+
+990
+02:04:16,000 --> 02:04:21,000
+ The coding is 0.1.1.0.1, the chromosome.
+编码是0.1.1.0.1，染色体。
+
+991
+02:04:21,000 --> 02:04:26,000
+ But in the phenotypic space, it is actually 13.
+但在表型空间中，它实际上是13。
+
+992
+02:04:26,000 --> 02:04:32,000
+ Then, to evaluate the fitness, you use your fitness function, x squared.
+然后，为了评估适应度，您可以使用适应度函数 x 平方。
+
+993
+02:04:32,000 --> 02:04:37,000
+ So, you have 13 squared, you have 169.
+所以，你有 13 的平方，你有 169。
+
+994
+02:04:37,000 --> 02:04:44,000
+ So, same thing for 1.1.0.0.0, which is 24.
+因此，1.1.0.0.0 也是如此，即 24。
+
+995
+02:04:44,000 --> 02:04:47,000
+ So, 24 squared is 576.
+所以，24 的平方是 576。
+
+996
+02:04:47,000 --> 02:04:56,000
+ So, the whole column four is calculated according to the fitness function.
+所以，整个第四列就是根据适应度函数计算出来的。
+
+997
+02:04:56,000 --> 02:05:01,000
+ So, you sum up the total fitness.
+因此，您总结了总适应度。
+
+998
+02:05:01,000 --> 02:05:04,000
+ You have 1170.
+你有1170。
+
+999
+02:05:04,000 --> 02:05:09,000
+ The sum of all this, the column four is 1170.
+所有这些的总和，第四列是 1170。
+
+1000
+02:05:09,000 --> 02:05:16,000
+ You take 1170 divided by four, the average fitness is 293.
+将 1170 除以 4，平均适合度为 293。
+
+1001
+02:05:16,000 --> 02:05:19,000
+ So, keep in mind we want to maximize.
+所以，请记住我们想要最大化。
+
+1002
+02:05:19,000 --> 02:05:24,000
+ To optimize in this case means to maximize the function value.
+在这种情况下，优化意味着最大化函数值。
+
+1003
+02:05:24,000 --> 02:05:29,000
+ Find x such that fx is maximum.
+找到 x 使得 fx 最大。
+
+1004
+02:05:30,000 --> 02:05:34,000
+ So, let's take a look at the percentage.
+那么，我们来看看百分比。
+
+1005
+02:05:34,000 --> 02:05:40,000
+ So, in terms of percentage, the relative fitness of the individual.
+因此，就百分比而言，个人的相对适合度。
+
+1006
+02:05:40,000 --> 02:05:45,000
+ 169 over 1170, 14.4.
+169 超过 1170，14.4。
+
+1007
+02:05:45,000 --> 02:05:50,000
+ 576 over 1170, 49.2.
+576 超过 1170，49.2。
+
+1008
+02:05:50,000 --> 02:05:54,000
+ Alright, 64 is 55, 5.5.
+好吧，64 就是 55，5.5。
+
+1009
+02:05:54,000 --> 02:05:59,000
+ 361 over 1170 is 30.9.
+361除以1170是30.9。
+
+1010
+02:05:59,000 --> 02:06:04,000
+ Alright, so we're going to use the roulette view.
+好的，我们将使用轮盘视图。
+
+1011
+02:06:04,000 --> 02:06:07,000
+ But of course sample size is a bit small.
+但当然样本量有点小。
+
+1012
+02:06:07,000 --> 02:06:15,000
+ So, I will guide your thoughts in another way on how the selection works.
+因此，我将以另一种方式引导您思考选择的运作方式。
+
+1013
+02:06:15,000 --> 02:06:23,000
+ So, naturally because of the different fitness, you will see that two is going to be selected.
+所以，很自然地，由于不同的适应度，你会看到两个将被选择。
+
+1014
+02:06:24,000 --> 02:06:28,000
+ Most favored, right, because of higher fitness.
+最受青睐，对吧，因为适应性更高。
+
+1015
+02:06:28,000 --> 02:06:36,000
+ So, the first step you do out of this four, right, if it is equal slot,
+所以，这四个步骤中你要做的第一步，对吧，如果它是相等的槽，
+
+1016
+02:06:36,000 --> 02:06:41,000
+ what is the percentage for each individual?
+每个人的百分比是多少？
+
+1017
+02:06:41,000 --> 02:06:43,000
+ 25%.
+25%。
+
+1018
+02:06:43,000 --> 02:06:47,000
+ If it is equal size slot, 25%.
+如果是同等大小的槽，则为25%。
+
+1019
+02:06:48,000 --> 02:06:54,000
+ So, according to here, 49.2 is the highest.
+所以，根据这里，49.2是最高的。
+
+1020
+02:06:54,000 --> 02:06:58,000
+ So, string number two get one copy.
+因此，第二个字符串得到一份副本。
+
+1021
+02:06:58,000 --> 02:07:01,000
+ Here, 11000.
+在这里，11000。
+
+1022
+02:07:01,000 --> 02:07:04,000
+ 49.2 is the highest.
+49.2是最高的。
+
+1023
+02:07:04,000 --> 02:07:09,000
+ So, I minus 25 from 49.2.
+所以，我从 49.2 减去 25。
+
+1024
+02:07:09,000 --> 02:07:12,000
+ I am left with 24.2.
+我剩下24.2。
+
+1025
+02:07:12,000 --> 02:07:16,000
+ Because I have already given 1, 11000.
+因为我已经给了1、11000了。
+
+1026
+02:07:16,000 --> 02:07:20,000
+ So, I am left with 24.2.
+所以，我剩下24.2。
+
+1027
+02:07:20,000 --> 02:07:24,000
+ So, there is one individual, 11000.
+所以，有一个人，11000。
+
+1028
+02:07:24,000 --> 02:07:28,000
+ Alright, string number two in the mating pool.
+好吧，交配池中的第二号绳子。
+
+1029
+02:07:28,000 --> 02:07:33,000
+ Now, string number two, I compare again.
+现在，我再次比较第二个字符串。
+
+1030
+02:07:33,000 --> 02:07:40,000
+ 14.4, 24.2, 5.5, 30.9.
+14.4、24.2、5.5、30.9。
+
+1031
+02:07:40,000 --> 02:07:42,000
+ Which is the highest?
+哪个最高？
+
+1032
+02:07:42,000 --> 02:07:45,000
+ 30.9.
+30.9。
+
+1033
+02:07:45,000 --> 02:07:53,000
+ So, I put 100, string number four, 10011 into the mating pool.
+因此，我将 100（第四串）10011 放入交配池中。
+
+1034
+02:07:53,000 --> 02:07:56,000
+ Which is 10011.
+这是10011。
+
+1035
+02:07:56,000 --> 02:07:58,000
+ So, I have two copies.
+所以，我有两本。
+
+1036
+02:07:58,000 --> 02:08:01,000
+ So, this 30.9, I already given one.
+所以，这个30.9，我已经给了一个。
+
+1037
+02:08:01,000 --> 02:08:05,000
+ So, I minus 25 is 5.9.
+所以，我减去 25 就是 5.9。
+
+1038
+02:08:05,000 --> 02:08:12,000
+ Alright, now I have two strings, 1100 and 1001.
+好吧，现在我有两个字符串，1100 和 1001。
+
+1039
+02:08:12,000 --> 02:08:23,000
+ Now, the third string, I am left with 14.4, 24.2, 5.5, 5.9.
+现在，第三根弦，我剩下 14.4、24.2、5.5、5.9。
+
+1040
+02:08:23,000 --> 02:08:26,000
+ Alright, 24.2 wins.
+好吧，24.2 获胜。
+
+1041
+02:08:26,000 --> 02:08:30,000
+ So, I give string number two another copy.
+所以，我给了第二个字符串另一个副本。
+
+1042
+02:08:30,000 --> 02:08:33,000
+ 11000.
+11000。
+
+1043
+02:08:33,000 --> 02:08:34,000
+ Alright.
+好吧。
+
+1044
+02:08:34,000 --> 02:08:42,000
+ So, because of its fitness, string number two gets two times in the mating pool.
+因此，由于其适应性，二号绳子在交配池中获得两次机会。
+
+1045
+02:08:42,000 --> 02:08:45,000
+ So, now I have three strings.
+所以，现在我有三个字符串。
+
+1046
+02:08:45,000 --> 02:08:51,000
+ Alright, this, this and this.
+好吧，这个，这个，还有这个。
+
+1047
+02:08:51,000 --> 02:08:59,000
+ So, now the fourth string, 14.4, this one is zero because it's two times.
+所以，现在第四个字符串，14.4，这个是零，因为它是两倍。
+
+1048
+02:08:59,000 --> 02:09:04,000
+ Alright, then this is 5.5 and then this is 5.9.
+好的，那么这是 5.5，然后是 5.9。
+
+1049
+02:09:04,000 --> 02:09:06,000
+ 14.4 wins.
+14.4胜。
+
+1050
+02:09:06,000 --> 02:09:10,000
+ So, I put 011, 01.
+所以，我输入了 011, 01。
+
+1051
+02:09:10,000 --> 02:09:13,000
+ That's the first string.
+这是第一根弦。
+
+1052
+02:09:13,000 --> 02:09:20,000
+ So, as a result of the selection, my mating pool is this.
+所以，作为选择的结果，我的交配池是这样的。
+
+1053
+02:09:20,000 --> 02:09:25,000
+ Alright, so the second string seems to fit us almost two times relative to the other.
+好吧，所以第二根弦似乎比另一根弦更适合我们。
+
+1054
+02:09:25,000 --> 02:09:28,000
+ So, it gets two copies in the mating pool.
+因此，它在交配池中获得了两个副本。
+
+1055
+02:09:28,000 --> 02:09:38,000
+ Alright, it has two copies, chances of it chosen for recombination is higher.
+好吧，它有两份，被选中重组的几率就更高了。
+
+1056
+02:09:38,000 --> 02:09:44,000
+ So, now we decide on the mating.
+所以，现在我们决定交配。
+
+1057
+02:09:44,000 --> 02:09:50,000
+ So, for example, string one, we decide, okay, random, random, okay.
+因此，例如，字符串一，我们决定，好吧，随机，随机，好吧。
+
+1058
+02:09:50,000 --> 02:09:53,000
+ Randomly, generally, it's like two comes up.
+通常，随机出现两个。
+
+1059
+02:09:53,000 --> 02:10:01,000
+ The first string, alright, the parent two will come from 1100.
+第一个字符串，好吧，父字符串来自 1100。
+
+1060
+02:10:01,000 --> 02:10:13,000
+ Okay, so you take these two strings, less.
+好的，那么你就少拿这两个字符串。
+
+1061
+02:10:13,000 --> 02:10:18,000
+ Alright, so this is number two.
+好吧，这是第二个。
+
+1062
+02:10:18,000 --> 02:10:31,000
+ So, meaning, I will take this and this, number two.
+所以，意思是，我会选择这个和这个，第二。
+
+1063
+02:10:31,000 --> 02:10:39,000
+ Alright, cross over side the position, randomly, randomly generate a number.
+好吧，跨过这个位置，随机，随机产生一个数字。
+
+1064
+02:10:39,000 --> 02:10:44,000
+ So, you generate four.
+所以，你生成了四个。
+
+1065
+02:10:44,000 --> 02:10:51,000
+ So, which means to say, you go to the cross over side, let's say, gene number four.
+所以，这意味着，你进入了交叉侧，比如说，第四号基因。
+
+1066
+02:10:51,000 --> 02:10:54,000
+ So, one, two, three, four.
+所以，一、二、三、四。
+
+1067
+02:10:54,000 --> 02:10:59,000
+ So, this is the cross over side.
+所以，这是交叉的一面。
+
+1068
+02:10:59,000 --> 02:11:05,000
+ Here.
+这里。
+
+1069
+02:11:05,000 --> 02:11:11,000
+ Alright, so recombination of these two parents.
+好吧，这两个父母的重组。
+
+1070
+02:11:11,000 --> 02:11:21,000
+ So, the new offspring comes from first one, first part comes from here.
+所以，新的后代来自第一个，第一部分来自这里。
+
+1071
+02:11:21,000 --> 02:11:28,000
+ Alright, the first four bits come from here.
+好吧，前四位来自这里。
+
+1072
+02:11:28,000 --> 02:11:36,000
+ And then the second part, zero, comes from parent two, which is here.
+然后第二部分，零，来自父二，在这里。
+
+1073
+02:11:36,000 --> 02:11:41,000
+ So, that is your first offspring.
+所以，那是你的第一个后代。
+
+1074
+02:11:41,000 --> 02:11:51,000
+ And then you repeat for offspring number two, which involves, right, the second one, two, right,
+然后你重复第二个后代，其中涉及，对，第二个，两个，对，
+
+1075
+02:11:51,000 --> 02:11:55,000
+ and then you make with one, so parent one.
+然后你用一个做，所以父代一个。
+
+1076
+02:11:55,000 --> 02:12:05,000
+ So, from this, you generate the new so-called the offspring.
+因此，由此产生了新的所谓的后代。
+
+1077
+02:12:05,000 --> 02:12:17,000
+ So, from this offspring, according to our diagram, right, so the offspring we also need to evaluate the fitness.
+所以，从这个后代开始，根据我们的图，对了，所以我们还需要评估后代的适应度。
+
+1078
+02:12:17,000 --> 02:12:26,000
+ Okay, in order to evaluate the fitness, we take zero, one, one, zero, zero, the phenotypic equivalent of it is 12.
+好吧，为了评估适应度，我们取零，一，一，零，零，它的表型等价物是12。
+
+1079
+02:12:26,000 --> 02:12:29,000
+ So, 12 squared is 144.
+所以，12 的平方是 144。
+
+1080
+02:12:29,000 --> 02:12:32,000
+ And then, one, one, zero, one is 25.
+然后，一、一、零、一就是 25。
+
+1081
+02:12:32,000 --> 02:12:35,000
+ So, 25 squared is 625.
+所以，25 的平方是 625。
+
+1082
+02:12:35,000 --> 02:12:40,000
+ And then the third one, one, one, zero, one, one, 27.
+然后是第三个，一，一，零，一，一，27。
+
+1083
+02:12:40,000 --> 02:12:43,000
+ 27 squared is 729.
+27 的平方是 729。
+
+1084
+02:12:43,000 --> 02:12:47,000
+ Alright, and finally, 16 is 256.
+好吧，最后，16 就是 256。
+
+1085
+02:12:47,000 --> 02:12:49,000
+ So, there you have it.
+所以，你就知道了。
+
+1086
+02:12:49,000 --> 02:12:51,000
+ We just done one generation.
+我们只做了一代人。
+
+1087
+02:12:51,000 --> 02:12:53,000
+ Alright, of course, you need not stop.
+好吧，当然，你不必停下来。
+
+1088
+02:12:53,000 --> 02:12:55,000
+ You carry on.
+你继续。
+
+1089
+02:12:55,000 --> 02:13:01,000
+ So, we sum, sum up all.
+所以，我们总结，总结一切。
+
+1090
+02:13:01,000 --> 02:13:14,000
+ So, it's one, seven, five, four, and then compared to the earlier generation, it is one, one, seven, zero.
+所以，它是一、七、五、四，然后与上一代相比，它是一、一、七、零。
+
+1091
+02:13:14,000 --> 02:13:29,000
+ So, what is clear is that through that one generation, through the selective pressure, and then the recombination, you have seen the overall population improve, right, significantly.
+所以，很明显的是，通过这一代，通过选择压力，然后重组，你已经看到总体人口改善了，对吧，显着改善。
+
+1092
+02:13:29,000 --> 02:13:33,000
+ Okay, so of course, in the beginning, it's going to improve quite significantly.
+好的，当然，在一开始，它会得到相当显着的改善。
+
+1093
+02:13:33,000 --> 02:13:41,000
+ But towards the end, the tail end of it, you're going to see that the improvement is going to be very marginal or gradual.
+但到了最后，你会发现改进将是非常有限的或渐进的。
+
+1094
+02:13:41,000 --> 02:13:47,000
+ So, that's how simple GA, so you hear the term simple GA.
+所以，这就是简单的 GA，所以你会听到“简单 GA”这个术语。
+
+1095
+02:13:47,000 --> 02:13:50,000
+ Simple GA is like a plain vanilla kind of GA.
+简单遗传算法就像普通的遗传算法。
+
+1096
+02:13:50,000 --> 02:13:56,000
+ It's a very, the basic mechanism is just crossover and then mutation.
+这是一个非常基本的机制，就是交叉然后变异。
+
+1097
+02:13:56,000 --> 02:14:07,000
+ And of course, these days GA can be a little bit more complicated or more complex with different mechanisms to enhance the search.
+当然，现在 GA 可能会稍微复杂一点，或者使用不同的机制来增强搜索。
+
+1098
+02:14:11,000 --> 02:14:24,000
+ So, this is what, right, so I hope you see the process of simulation through that example of a hand simulation.
+那么，就是这样，对吧，所以我希望大家通过那个手部模拟的例子，看到模拟的过程。
+
+1099
+02:14:24,000 --> 02:14:28,000
+ So, typically, this is your GA behavior.
+因此，这通常是您的 GA 行为。
+
+1100
+02:14:28,000 --> 02:14:39,000
+ So, if I do a plot of the, with time, the value, right, the best value in a population.
+所以，如果我随着时间的推移绘制一个值，对吧，总体中的最佳值。
+
+1101
+02:14:39,000 --> 02:14:45,000
+ So, I think it's not difficult to see, right, how this performance curve come about.
+所以，我认为不难看出，对吧，这个性能曲线是如何产生的。
+
+1102
+02:14:45,000 --> 02:14:54,000
+ With time, as time goes on, the performance or the goodness, the overall fitness of it will increase.
+随着时间的推移，随着时间的推移，它的表现或者是善良，它的整体适应度将会提高。
+
+1103
+02:14:54,000 --> 02:14:58,000
+ Initially, the increment will be quite good or quite significant.
+最初，增量将相当好或相当显着。
+
+1104
+02:14:58,000 --> 02:15:08,000
+ Then towards the tail end of it, it's going to stagnate.
+然后到了它的尾端，它就会停滞不前。
+
+1105
+02:15:08,000 --> 02:15:16,000
+ So, then the next question is this, you know, of course, you like to run it until you find the best solution.
+那么，接下来的问题就是这个，你知道，当然，你喜欢运行它，直到找到最佳解决方案。
+
+1106
+02:15:16,000 --> 02:15:26,000
+ But, I also like to think that sometimes the best solution is not known or you have no knowledge of what the best solution is.
+但是，我也认为有时最好的解决方案是未知的，或者您不知道最佳解决方案是什么。
+
+1107
+02:15:26,000 --> 02:15:32,000
+ So, therefore, what you do is that you run it until you cannot improve any better.
+因此，你要做的就是不断地运行它，直到你无法改进为止。
+
+1108
+02:15:32,000 --> 02:15:35,000
+ So, you run it until you cannot improve any better.
+所以，你要坚持下去，直到你无法再进步为止。
+
+1109
+02:15:35,000 --> 02:15:38,000
+ Meaning, you just let it run, carry on, right?
+意思是，你就让它运行，继续，对吧？
+
+1110
+02:15:38,000 --> 02:15:44,000
+ But does that mean that if you leave it theoretically, it should find the answer?
+但这是否意味着如果你把它留在理论上，它应该找到答案？
+
+1111
+02:15:44,000 --> 02:15:47,000
+ Well, not necessary, right?
+嗯，没必要吧？
+
+1112
+02:15:47,000 --> 02:15:48,000
+ Okay?
+好的？
+
+1113
+02:15:48,000 --> 02:15:50,000
+ So, quite often you don't.
+所以，很多时候你不这样做。
+
+1114
+02:15:50,000 --> 02:15:54,000
+ Because basically, many of the algorithm will get stuck at a certain point.
+因为基本上，许多算法都会卡在某个点上。
+
+1115
+02:15:54,000 --> 02:15:58,000
+ It just cannot improve, simply because of the complexity.
+它只是因为复杂性而无法改进。
+
+1116
+02:15:59,000 --> 02:16:04,000
+ So, our long runs are beneficial, well, not necessary.
+所以，我们的长跑是有益的，但不是必要的。
+
+1117
+02:16:04,000 --> 02:16:10,000
+ Well, it all depends on how much time you can afford or the problem that you have.
+好吧，这完全取决于您能负担多少时间或您遇到的问题。
+
+1118
+02:16:10,000 --> 02:16:13,000
+ Or it all depends on your requirement also.
+或者这也完全取决于您的要求。
+
+1119
+02:16:13,000 --> 02:16:18,000
+ So, sometimes it may be better just to restart it and run again.
+因此，有时重新启动并再次运行可能会更好。
+
+1120
+02:16:18,000 --> 02:16:20,000
+ Because this is a stochastic algorithm.
+因为这是一个随机算法。
+
+1121
+02:16:20,000 --> 02:16:26,000
+ Stochastic means that every time you run it, you may get a different answer.
+随机意味着每次运行它时，你可能会得到不同的答案。
+
+1122
+02:16:27,000 --> 02:16:33,000
+ So, theoretically or in principle, basically, whenever you restart it, you are sampling.
+所以，从理论上或原则上来说，基本上，每当你重新启动它时，你就在采样。
+
+1123
+02:16:33,000 --> 02:16:35,000
+ Your sampling is quite different.
+你的采样完全不同。
+
+1124
+02:16:35,000 --> 02:16:41,000
+ And the solution that you evolve into may also turn out to be different.
+而且你进化出的解决方案也可能会有所不同。
+
+1125
+02:16:45,000 --> 02:16:54,000
+ So, the other question would be, you generate the initial population randomly.
+所以，另一个问题是，你随机生成初始群体。
+
+1126
+02:16:55,000 --> 02:16:56,000
+ Correct?
+正确的？
+
+1127
+02:16:56,000 --> 02:16:57,000
+ Random.
+随机的。
+
+1128
+02:16:57,000 --> 02:17:00,000
+ No a priori knowledge.
+没有先验知识。
+
+1129
+02:17:00,000 --> 02:17:01,000
+ It's just a random.
+这只是一个随机的。
+
+1130
+02:17:01,000 --> 02:17:07,000
+ So, if it's random, chances are that the fitness is going to be very, very low.
+因此，如果它是随机的，那么适应度很可能会非常非常低。
+
+1131
+02:17:07,000 --> 02:17:09,000
+ No good.
+不好。
+
+1132
+02:17:09,000 --> 02:17:15,000
+ So, you can assume that most of your GA would start at...
+所以，你可以假设你的大部分 GA 会从...开始
+
+1133
+02:17:17,000 --> 02:17:20,000
+ So, most of your GA would start at this point here.
+所以，你的大部分 GA 都会从这里开始。
+
+1134
+02:17:21,000 --> 02:17:24,000
+ Because it's random.
+因为它是随机的。
+
+1135
+02:17:24,000 --> 02:17:26,000
+ Very low fitness.
+体能极低。
+
+1136
+02:17:26,000 --> 02:17:33,000
+ So, therefore, it begs the question, okay, would it help if I start off with better population?
+因此，这就引出了一个问题，好吧，如果我从更好的人口开始会有帮助吗？
+
+1137
+02:17:35,000 --> 02:17:37,000
+ Would it help?
+有帮助吗？
+
+1138
+02:17:38,000 --> 02:17:40,000
+ Well, again, the answer is maybe.
+好吧，再说一次，答案是也许。
+
+1139
+02:17:41,000 --> 02:17:42,000
+ Not necessary.
+没有必要。
+
+1140
+02:17:42,000 --> 02:17:47,000
+ See, logic will tell you that if I start off with good ones, I should get better ones.
+看，逻辑会告诉你，如果我从好的开始，我应该得到更好的。
+
+1141
+02:17:47,000 --> 02:17:48,000
+ Right?
+正确的？
+
+1142
+02:17:48,000 --> 02:17:51,000
+ Well, the answer is not necessary.
+好吧，答案是没有必要的。
+
+1143
+02:17:51,000 --> 02:17:52,000
+ Right?
+正确的？
+
+1144
+02:17:52,000 --> 02:17:58,000
+ So, which means to say, sometimes you have heuristics.
+所以，这意味着，有时你有启发法。
+
+1145
+02:17:58,000 --> 02:18:02,000
+ For example, in your travelling salesman problem, you have the greedy approach on the dystra.
+例如，在旅行推销员问题中，您对 Dystra 采用贪婪方法。
+
+1146
+02:18:02,000 --> 02:18:04,000
+ So, that's very quick.
+所以，这非常快。
+
+1147
+02:18:04,000 --> 02:18:07,000
+ You can find a good solution quite quick.
+您可以很快找到一个好的解决方案。
+
+1148
+02:18:07,000 --> 02:18:13,000
+ So, if you have that approach, you could use that to start off the initial population.
+因此，如果您有这种方法，您可以使用它来启动初始种群。
+
+1149
+02:18:13,000 --> 02:18:14,000
+ Right?
+正确的？
+
+1150
+02:18:15,000 --> 02:18:19,000
+ So, the logic is that you start off on good ones.
+所以，逻辑是你从好的开始。
+
+1151
+02:18:19,000 --> 02:18:23,000
+ So, therefore, you take a shorter time to find the best solution.
+因此，您可以花费更短的时间找到最佳解决方案。
+
+1152
+02:18:23,000 --> 02:18:25,000
+ Sounds very logical, right?
+听起来很合乎逻辑，对吧？
+
+1153
+02:18:27,000 --> 02:18:28,000
+ Okay?
+好的？
+
+1154
+02:18:28,000 --> 02:18:29,000
+ Perhaps there's a lot of truth.
+也许有很多道理。
+
+1155
+02:18:29,000 --> 02:18:30,000
+ It's possible.
+这是有可能的。
+
+1156
+02:18:30,000 --> 02:18:31,000
+ Right?
+正确的？
+
+1157
+02:18:31,000 --> 02:18:34,000
+ But also, sometimes we don't really know.
+但有时我们并不真正知道。
+
+1158
+02:18:34,000 --> 02:18:36,000
+ Sometimes it depends on the problem.
+有时这取决于问题。
+
+1159
+02:18:36,000 --> 02:18:37,000
+ Right?
+正确的？
+
+1160
+02:18:37,000 --> 02:18:40,000
+ So, when you think about it conceptually, right?
+那么，当您从概念上考虑时，对吧？
+
+1161
+02:18:40,000 --> 02:18:45,000
+ Your whole algorithm is a global search algorithm.
+你的整个算法是一个全局搜索算法。
+
+1162
+02:18:45,000 --> 02:18:46,000
+ Okay?
+好的？
+
+1163
+02:18:46,000 --> 02:18:49,000
+ So, in other words, your population is a sampling.
+所以，换句话说，你的总体是一个样本。
+
+1164
+02:18:49,000 --> 02:18:56,000
+ So, if you use heuristic, chances are you're confining your algorithm to a certain region.
+因此，如果您使用启发式方法，您很可能会将算法限制在某个区域。
+
+1165
+02:18:56,000 --> 02:18:57,000
+ Right?
+正确的？
+
+1166
+02:18:57,000 --> 02:19:06,000
+ So, if you confine it to a certain region, the global reach of it may not be as what you
+所以，如果你把它限制在某个地区，它的全球影响力可能不会像你想象的那样。
+
+1167
+02:19:06,000 --> 02:19:07,000
+ expect it to be.
+期望它是。
+
+1168
+02:19:07,000 --> 02:19:08,000
+ Right?
+正确的？
+
+1169
+02:19:08,000 --> 02:19:15,000
+ So, index sense from a conceptual or theoretical point may not necessarily be better.
+所以，指数意义从概念或理论角度不一定更好。
+
+1170
+02:19:15,000 --> 02:19:16,000
+ Okay?
+好的？
+
+1171
+02:19:16,000 --> 02:19:22,000
+ So, but many problems are solved using smart initialization.
+所以，但是很多问题都可以通过智能初始化来解决。
+
+1172
+02:19:22,000 --> 02:19:23,000
+ Right?
+正确的？
+
+1173
+02:19:23,000 --> 02:19:29,000
+ In many of the design problems, quite often it's in order to circumvent the time that
+在许多设计问题中，很多时候都是为了规避时间
+
+1174
+02:19:29,000 --> 02:19:31,000
+ it takes to solve the problem.
+需要解决问题。
+
+1175
+02:19:31,000 --> 02:19:32,000
+ Right?
+正确的？
+
+1176
+02:19:32,000 --> 02:19:41,000
+ Many times, quite often we use method to create favorable or advantageous solutions to begin
+很多时候，我们经常使用方法来创建有利的或有利的解决方案来开始
+
+1177
+02:19:41,000 --> 02:19:44,000
+ with and then from there we evolve.
+然后我们就从那里进化。
+
+1178
+02:19:44,000 --> 02:19:45,000
+ Okay?
+好的？
+
+1179
+02:19:45,000 --> 02:19:52,000
+ So, your whole machine learning paradigm is also can be viewed in that sense.
+所以，你的整个机器学习范式也可以从这个意义上来看待。
+
+1180
+02:19:52,000 --> 02:19:57,000
+ So, nowadays you do a lot of incremental or transfer learning.
+所以，现在你进行了大量的增量学习或迁移学习。
+
+1181
+02:19:57,000 --> 02:19:58,000
+ Correct?
+正确的？
+
+1182
+02:19:58,000 --> 02:20:03,000
+ So, for example, if you have a neural network, you train from scratch.
+因此，举例来说，如果你有一个神经网络，你就从头开始训练。
+
+1183
+02:20:03,000 --> 02:20:05,000
+ Of course, you can train from scratch.
+当然，您可以从头开始训练。
+
+1184
+02:20:05,000 --> 02:20:08,000
+ Just start everything from ground zero.
+一切从零开始。
+
+1185
+02:20:08,000 --> 02:20:09,000
+ Right?
+正确的？
+
+1186
+02:20:09,000 --> 02:20:14,000
+ What surprise you may have, you may take a long time especially if the training set is
+你可能会感到惊讶的是，你可能需要很长时间，特别是如果训练集是
+
+1187
+02:20:14,000 --> 02:20:15,000
+ very large.
+非常大。
+
+1188
+02:20:15,000 --> 02:20:16,000
+ Right?
+正确的？
+
+1189
+02:20:16,000 --> 02:20:21,000
+ So, instead of doing that, why don't you adopt an existing model?
+那么，与其这样做，为什么不采用现有的模型呢？
+
+1190
+02:20:21,000 --> 02:20:22,000
+ Right?
+正确的？
+
+1191
+02:20:22,000 --> 02:20:28,000
+ And then take it from that strain, because that will be like your initial point.
+然后从那个应变中取出它，因为这就像你的初始点。
+
+1192
+02:20:28,000 --> 02:20:29,000
+ Right?
+正确的？
+
+1193
+02:20:29,000 --> 02:20:33,000
+ So, in a way you have transferred a model to this and then you train it.
+因此，在某种程度上，您已将模型转移到此，然后对其进行训练。
+
+1194
+02:20:33,000 --> 02:20:34,000
+ Right?
+正确的？
+
+1195
+02:20:34,000 --> 02:20:40,000
+ So, the concept is also quite similar in this sense.
+所以，从这个意义上来说，这个概念也很相似。
+
+1196
+02:20:40,000 --> 02:20:41,000
+ Okay?
+好的？
+
+1197
+02:20:41,000 --> 02:20:47,000
+ So, the general conclusion is that possibly good.
+所以，总体结论是，这可能是好的。
+
+1198
+02:20:47,000 --> 02:20:48,000
+ Right?
+正确的？
+
+1199
+02:20:48,000 --> 02:20:54,560
+ So, there are good heuristic or solution methods exist, but we need to be careful and that's
+因此，存在良好的启发式或解决方法，但我们需要小心，那就是
+
+1200
+02:20:54,560 --> 02:21:06,160
+ why in many sophisticated GA, there's a concept of hybridization or using different methods
+为什么在许多复杂的遗传算法中，有一个杂交的概念或使用不同的方法
+
+1201
+02:21:06,160 --> 02:21:07,160
+ to work together.
+一起工作。
+
+1202
+02:21:07,160 --> 02:21:08,160
+ Okay?
+好的？
+
+1203
+02:21:08,160 --> 02:21:16,000
+ So, my area of research on genetic algorithm is more on the hybridization aspect of it.
+所以，我对遗传算法的研究领域更多的是它的杂交方面。
+
+1204
+02:21:16,000 --> 02:21:17,000
+ Okay?
+好的？
+
+1205
+02:21:17,000 --> 02:21:29,000
+ Let's take a look at how we can perceive EA in the context of optimization.
+让我们看看如何在优化的背景下看待 EA。
+
+1206
+02:21:29,000 --> 02:21:30,000
+ Okay?
+好的？
+
+1207
+02:21:30,000 --> 02:21:37,000
+ So, there are actually many views on GA and over time it has changed.
+所以，实际上对于遗传算法有很多看法，并且随着时间的推移它已经发生了变化。
+
+1208
+02:21:37,000 --> 02:21:42,000
+ Over the years, the research on GA.
+多年来，关于GA的研究。
+
+1209
+02:21:42,000 --> 02:21:49,000
+ So, what we want is basically our goal is very simple.
+所以，我们想要的基本上是我们的目标很简单。
+
+1210
+02:21:49,000 --> 02:21:52,000
+ We want a good robust method.
+我们需要一个良好稳健的方法。
+
+1211
+02:21:52,000 --> 02:21:53,000
+ Right?
+正确的？
+
+1212
+02:21:53,000 --> 02:21:56,000
+ So, what does it mean good robust method?
+那么，好的鲁棒方法是什么意思呢？
+
+1213
+02:21:56,000 --> 02:22:02,000
+ It means you can work well over a big, huge set of problem.
+这意味着你可以很好地解决一大堆问题。
+
+1214
+02:22:02,000 --> 02:22:03,000
+ Right?
+正确的？
+
+1215
+02:22:03,000 --> 02:22:04,000
+ The problem set.
+问题定了。
+
+1216
+02:22:04,000 --> 02:22:06,000
+ Over a range of problems and instances.
+涵盖一系列问题和实例。
+
+1217
+02:22:06,000 --> 02:22:07,000
+ Okay?
+好的？
+
+1218
+02:22:07,000 --> 02:22:12,000
+ So, to put it another way, we want an algorithm that's good for all.
+所以，换句话说，我们想要一种对所有人都有好处的算法。
+
+1219
+02:22:12,000 --> 02:22:13,000
+ Right?
+正确的？
+
+1220
+02:22:13,000 --> 02:22:14,000
+ One size fits all.
+一种尺寸适合所有人。
+
+1221
+02:22:14,000 --> 02:22:15,000
+ Right?
+正确的？
+
+1222
+02:22:15,000 --> 02:22:18,000
+ Sounds logical, sounds reasonable.
+听起来合乎逻辑，听起来很有道理。
+
+1223
+02:22:18,000 --> 02:22:19,000
+ Right?
+正确的？
+
+1224
+02:22:19,000 --> 02:22:20,000
+ That's all we want.
+这就是我们想要的。
+
+1225
+02:22:20,000 --> 02:22:21,000
+ Okay?
+好的？
+
+1226
+02:22:21,000 --> 02:22:29,000
+ So, let's see what, let's explore a little bit and see whether we can rethink this ideology
+那么，让我们看看，让我们探索一下，看看我们是否可以重新思考这种意识形态
+
+1227
+02:22:29,000 --> 02:22:34,000
+ of looking for the blue sky or best algorithm.
+寻找蓝天或最佳算法。
+
+1228
+02:22:35,000 --> 02:22:41,000
+ So, the book by Goldberg is very commonly referred to text.
+因此，戈德堡的书通常被称为文本。
+
+1229
+02:22:41,000 --> 02:22:42,000
+ Right?
+正确的？
+
+1230
+02:22:42,000 --> 02:22:51,000
+ So, according to Goldberg, the typical behavior of your algorithms.
+所以，根据戈德堡的说法，你的算法的典型行为。
+
+1231
+02:22:51,000 --> 02:22:52,000
+ Right?
+正确的？
+
+1232
+02:22:52,000 --> 02:22:54,000
+ You can look at it this way.
+你可以这样看。
+
+1233
+02:22:54,000 --> 02:22:56,000
+ This is your random search.
+这是您的随机搜索。
+
+1234
+02:22:56,000 --> 02:22:57,000
+ Right?
+正确的？
+
+1235
+02:22:57,000 --> 02:22:59,000
+ Your random search.
+你的随机搜索。
+
+1236
+02:22:59,000 --> 02:23:05,000
+ Compared to a special custom method.
+与特殊的自定义方法相比。
+
+1237
+02:23:05,000 --> 02:23:06,000
+ Right?
+正确的？
+
+1238
+02:23:06,000 --> 02:23:15,000
+ So, what this means is your random search is generally weak.
+所以，这意味着你的随机搜索通常很弱。
+
+1239
+02:23:15,000 --> 02:23:19,000
+ It can work, but performance is generally weak.
+它可以工作，但性能普遍较弱。
+
+1240
+02:23:19,000 --> 02:23:26,000
+ So, when you customize your algorithm, it's going to work well, but because it's customized,
+所以，当你定制你的算法时，它会很好地工作，但是因为它是定制的，
+
+1241
+02:23:26,000 --> 02:23:30,000
+ it's going to work very well for a class of problems.
+它对于解决一类问题非常有效。
+
+1242
+02:23:30,000 --> 02:23:36,000
+ So, notice in my plot here, you see the scale of all the problems.
+所以，请注意，在我的图中，您可以看到所有问题的规模。
+
+1243
+02:23:36,000 --> 02:23:39,000
+ And then on the vertical scale, there's a performance.
+然后在垂直尺度上，有表演。
+
+1244
+02:23:39,000 --> 02:23:40,000
+ Right?
+正确的？
+
+1245
+02:23:40,000 --> 02:23:49,000
+ So, your random search compared to your custom or tailor-made method.
+因此，您的随机搜索与您的定制或量身定制的方法相比。
+
+1246
+02:23:49,000 --> 02:23:50,000
+ Right?
+正确的？
+
+1247
+02:23:50,000 --> 02:24:02,000
+ Generally, the tailor-made method performs well on a small set of class of problems.
+一般来说，定制的方法在一小部分问题上表现良好。
+
+1248
+02:24:02,000 --> 02:24:05,000
+ What about GA?
+那么GA呢？
+
+1249
+02:24:05,000 --> 02:24:06,000
+ Right?
+正确的？
+
+1250
+02:24:06,000 --> 02:24:09,000
+ GA is known to be robust.
+众所周知，GA 是稳健的。
+
+1251
+02:24:09,000 --> 02:24:10,000
+ Right?
+正确的？
+
+1252
+02:24:10,000 --> 02:24:17,000
+ So, robust means that it works reasonably well across all the problems.
+因此，稳健意味着它可以很好地解决所有问题。
+
+1253
+02:24:18,000 --> 02:24:20,000
+ So, it works reasonably well.
+所以，它工作得相当好。
+
+1254
+02:24:20,000 --> 02:24:26,000
+ So, without saying, you know, it's quite obvious that it is much better than your random search.
+所以，不用说，你知道，很明显它比你的随机搜索要好得多。
+
+1255
+02:24:26,000 --> 02:24:27,000
+ Right?
+正确的？
+
+1256
+02:24:27,000 --> 02:24:31,000
+ So, that is how your EA is perceived.
+所以，这就是您的 EA 的看法。
+
+1257
+02:24:31,000 --> 02:24:41,000
+ So, that is back in 1989, you know, in the book by Goldberg.
+那是 1989 年，你知道，在戈德堡的书中。
+
+1258
+02:24:42,000 --> 02:24:43,000
+ Okay.
+好的。
+
+1259
+02:24:43,000 --> 02:24:50,000
+ Let's take a, explore a different path towards EA.
+让我们探索一条通往 EA 的不同道路。
+
+1260
+02:24:50,000 --> 02:24:51,000
+ Right?
+正确的？
+
+1261
+02:24:51,000 --> 02:24:55,000
+ What about if you know something about the problem?
+如果您对问题有所了解怎么办？
+
+1262
+02:24:55,000 --> 02:24:56,000
+ Right?
+正确的？
+
+1263
+02:24:56,000 --> 02:25:00,000
+ If you know something about the problem, meaning you have domain knowledge about the problem.
+如果您对问题有所了解，则意味着您拥有有关该问题的领域知识。
+
+1264
+02:25:00,000 --> 02:25:01,000
+ Right?
+正确的？
+
+1265
+02:25:01,000 --> 02:25:04,000
+ Or you have special a priori knowledge about the problem.
+或者你对这个问题有特殊的先验知识。
+
+1266
+02:25:04,000 --> 02:25:05,000
+ Okay?
+好的？
+
+1267
+02:25:05,000 --> 02:25:10,000
+ So, we look into EA's and domain knowledge.
+因此，我们研究 EA 和领域知识。
+
+1268
+02:25:10,000 --> 02:25:22,000
+ So, the recent trend in the 90s, we have begun to, as GA advanced on more and more people
+所以，最近90年代的趋势，我们已经开始，随着GA的进步，越来越多的人
+
+1269
+02:25:22,000 --> 02:25:27,000
+ find that GA is useful in solving many different types of problems.
+发现 GA 在解决许多不同类型的问题时很有用。
+
+1270
+02:25:27,000 --> 02:25:37,000
+ So, we begin to explore a class of evolutionary algorithm or approaches that incorporate knowledge
+因此，我们开始探索一类融合知识的进化算法或方法
+
+1271
+02:25:37,000 --> 02:25:40,000
+ into it.
+进入其中。
+
+1272
+02:25:40,000 --> 02:25:45,000
+ So, another term for it is to incorporate what we call the mimatic.
+因此，它的另一个术语是包含我们所说的 mimatic。
+
+1273
+02:25:45,000 --> 02:25:46,000
+ Right?
+正确的？
+
+1274
+02:25:46,000 --> 02:25:52,000
+ If you do a search on mimatic, then you will find the explanation of it has to do with
+如果你搜索 mimatic，那么你会发现它的解释与
+
+1275
+02:25:52,000 --> 02:25:53,000
+ knowledge.
+知识。
+
+1276
+02:25:53,000 --> 02:25:54,000
+ Okay?
+好的？
+
+1277
+02:25:54,000 --> 02:26:03,000
+ So, we add problem specific knowledge to EA's like the special variation operators
+因此，我们向 EA 添加特定于问题的知识，例如特殊变化运算符
+
+1278
+02:26:03,000 --> 02:26:05,000
+ or repair and so on.
+或者修理等等。
+
+1279
+02:26:05,000 --> 02:26:06,000
+ Okay?
+好的？
+
+1280
+02:26:06,000 --> 02:26:13,000
+ Now, because we add this information, so the GA is enhanced the performance of it.
+现在，因为我们添加了这些信息，所以GA的性能得到了增强。
+
+1281
+02:26:13,000 --> 02:26:19,000
+ So, therefore, we have, if you look in terms of the curve, we have what we call the curve
+因此，如果你从曲线的角度来看，我们就有所谓的曲线
+
+1282
+02:26:19,000 --> 02:26:20,000
+ deformation.
+形变。
+
+1283
+02:26:20,000 --> 02:26:25,000
+ So, the curve is going to be different from our typical EA.
+因此，该曲线将与我们典型的 EA 不同。
+
+1284
+02:26:25,000 --> 02:26:28,000
+ Remember, I showed you the previous, right?
+还记得吗，我给你看过之前的，对吧？
+
+1285
+02:26:28,000 --> 02:26:32,000
+ So, your EA like that.
+所以，你的 EA 就是这样。
+
+1286
+02:26:32,000 --> 02:26:33,000
+ Okay?
+好的？
+
+1287
+02:26:33,000 --> 02:26:36,000
+ So, remember, our EA is going to incorporate domain.
+因此，请记住，我们的 EA 将合并域。
+
+1288
+02:26:36,000 --> 02:26:37,000
+ Right?
+正确的？
+
+1289
+02:26:37,000 --> 02:26:38,000
+ It's going to be customized, you know?
+它将被定制，你知道吗？
+
+1290
+02:26:38,000 --> 02:26:40,000
+ There's going to be domain knowledge.
+将会有领域知识。
+
+1291
+02:26:40,000 --> 02:26:46,000
+ So, it should be able to solve problems in a more efficient way.
+因此，它应该能够以更有效的方式解决问题。
+
+1292
+02:26:46,000 --> 02:26:47,000
+ Right?
+正确的？
+
+1293
+02:26:47,000 --> 02:26:51,000
+ So, it's going to deform the curve.
+所以，它会使曲线变形。
+
+1294
+02:26:51,000 --> 02:26:52,000
+ Okay?
+好的？
+
+1295
+02:26:52,000 --> 02:26:58,000
+ So, quite obviously, when you have this kind of knowledge incorporated, it's going to
+所以，很明显，当你吸收了这类知识后，就会
+
+1296
+02:26:58,000 --> 02:27:00,000
+ solve that class of problems better.
+更好地解决此类问题。
+
+1297
+02:27:00,000 --> 02:27:01,000
+ Right?
+正确的？
+
+1298
+02:27:01,000 --> 02:27:03,000
+ So, this is what we designed it for.
+所以，这就是我们设计它的目的。
+
+1299
+02:27:03,000 --> 02:27:04,000
+ Okay?
+好的？
+
+1300
+02:27:04,000 --> 02:27:07,000
+ So, this curve deformation here, right?
+那么，这条曲线在这里变形了，对吗？
+
+1301
+02:27:07,000 --> 02:27:16,000
+ What it's going to suggest is that you're going to come to the realization that if you're
+它意味着你将会意识到，如果你
+
+1302
+02:27:16,000 --> 02:27:22,000
+ looking for the all-purpose algorithm, right, you'll be very disappointed, right, according
+寻找万能算法，对，你会很失望，对，根据
+
+1303
+02:27:22,000 --> 02:27:23,000
+ to theory.
+到理论。
+
+1304
+02:27:23,000 --> 02:27:24,000
+ Okay?
+好的？
+
+1305
+02:27:24,000 --> 02:27:31,000
+ So, let me explain what I mean by that.
+那么，让我解释一下我的意思。
+
+1306
+02:27:31,000 --> 02:27:40,000
+ So, in our typical GA, right, a simple GA, we've seen the performance quite good.
+所以，在我们典型的 GA（正确的，简单的 GA）中，我们已经看到性能相当不错。
+
+1307
+02:27:40,000 --> 02:27:48,000
+ Well, EA2, as we incorporate a little bit of information or knowledge to it, well, the
+嗯，EA2，当我们在其中融入一点信息或知识时，嗯，
+
+1308
+02:27:48,000 --> 02:27:50,000
+ curve deform, right?
+曲线变形，对吗？
+
+1309
+02:27:50,000 --> 02:28:00,000
+ It seems to be like it's better than for a small class of problems.
+看起来这比解决一小部分问题要好。
+
+1310
+02:28:00,000 --> 02:28:02,000
+ Right?
+正确的？
+
+1311
+02:28:02,000 --> 02:28:17,000
+ I wonder, that's a laser.
+我想知道，那是激光。
+
+1312
+02:28:17,000 --> 02:28:18,000
+ Okay.
+好的。
+
+1313
+02:28:18,000 --> 02:28:19,000
+ So, EA2.
+所以，EA2。
+
+1314
+02:28:19,000 --> 02:28:26,000
+ So, you can see the hum there.
+所以，你可以看到那里的嗡嗡声。
+
+1315
+02:28:26,000 --> 02:28:32,000
+ It means that it does well for a certain smaller class of problems or certain class of problems.
+这意味着它对于某一小类问题或某类问题表现良好。
+
+1316
+02:28:32,000 --> 02:28:33,000
+ Right?
+正确的？
+
+1317
+02:28:33,000 --> 02:28:43,000
+ Now, as you go more, right, let's say EA3, you incorporate even more domain knowledge,
+现在，随着你走得更多，对吧，比如说 EA3，你会融入更多的领域知识，
+
+1318
+02:28:43,000 --> 02:28:46,000
+ so you're going to deform it even more, right?
+所以你会让它变形得更多，对吗？
+
+1319
+02:28:46,000 --> 02:28:51,000
+ It does better for that class of problems.
+对于这类问题它做得更好。
+
+1320
+02:28:51,000 --> 02:28:56,000
+ And you can go on and then EA4, right?
+然后你就可以继续玩EA4了，对吧？
+
+1321
+02:28:56,000 --> 02:29:04,000
+ Now, I want you to take a look at this set of curves in a very visually intuitive way,
+现在，我想让你以非常直观的方式看一下这组曲线，
+
+1322
+02:29:04,000 --> 02:29:05,000
+ right?
+正确的？
+
+1323
+02:29:05,000 --> 02:29:13,000
+ If I say, imagine, this is a set of all problems, all.
+如果我说，想象一下，这是所有问题的集合。
+
+1324
+02:29:14,000 --> 02:29:16,000
+ Can you take note of the word, all?
+你能记下这个词吗？
+
+1325
+02:29:16,000 --> 02:29:18,000
+ All problems, right?
+所有的问题，对吧？
+
+1326
+02:29:18,000 --> 02:29:19,000
+ All.
+全部。
+
+1327
+02:29:19,000 --> 02:29:20,000
+ Okay?
+好的？
+
+1328
+02:29:20,000 --> 02:29:29,000
+ So, if you take the area and the curve, right, do you think that it looks like they could
+所以，如果你计算面积和曲线，对吧，你认为它们看起来可以吗？
+
+1329
+02:29:29,000 --> 02:29:31,000
+ be the same?
+是一样的吗？
+
+1330
+02:29:31,000 --> 02:29:35,000
+ All problems, okay?
+所有的问题，好吗？
+
+1331
+02:29:35,000 --> 02:29:41,000
+ So, for all the problems, according to the curve, the way we draw it, you know, it looks
+所以，对于所有的问题，根据曲线，我们绘制它的方式，你知道，它看起来
+
+1332
+02:29:41,000 --> 02:29:46,000
+ like if you look at the area, you know, visually intuitive way, it seems to be everything is
+就像如果你看看这个区域，你知道，以视觉直观的方式，似乎一切都是
+
+1333
+02:29:46,000 --> 02:29:50,000
+ the same, you know, the area, you know, if you plot it big enough, right?
+同样的，你知道，面积，你知道，如果你把它画得足够大，对吗？
+
+1334
+02:29:50,000 --> 02:29:59,000
+ So, that means that, does that mean that all algorithms are the same?
+那么，这是否意味着所有算法都是相同的？
+
+1335
+02:29:59,000 --> 02:30:04,000
+ The answer is yes, all right?
+答案是肯定的，好吗？
+
+1336
+02:30:04,000 --> 02:30:11,000
+ In 1997, Wolberg and McCreedy published a paper, what they called the No Free Lunch
+1997 年，沃尔伯格和麦克里迪发表了一篇论文，他们称之为“没有免费的午餐”
+
+1337
+02:30:11,000 --> 02:30:12,000
+ Theorem.
+定理。
+
+1338
+02:30:12,000 --> 02:30:13,000
+ No Free Lunch.
+没有免费的午餐。
+
+1339
+02:30:13,000 --> 02:30:18,000
+ I don't have to explain what No Free Lunch means, right?
+我不需要解释“没有免费的午餐”是什么意思，对吧？
+
+1340
+02:30:18,000 --> 02:30:21,000
+ It's true in our real world, okay?
+在我们的现实世界中也是如此，好吗？
+
+1341
+02:30:21,000 --> 02:30:23,000
+ So, No Free Lunch, right?
+那么，天下没有免费的午餐，对吗？
+
+1342
+02:30:23,000 --> 02:30:31,000
+ What it simply means is that if you take the average across all the problems, all the algorithms
+它的简单意思是，如果你对所有问题取平均值，那么所有算法
+
+1343
+02:30:31,000 --> 02:30:32,000
+ are the same.
+是一样的。
+
+1344
+02:30:33,000 --> 02:30:41,000
+ Again, I know all the problems, all the algorithms are the same, okay?
+再说一次，我知道所有的问题，所有的算法都是一样的，好吗？
+
+1345
+02:30:41,000 --> 02:30:45,000
+ Which goes back to my earlier assertion of what I said.
+这又回到了我之前所说的。
+
+1346
+02:30:45,000 --> 02:30:53,000
+ If you want to search, or you're looking for all purpose algorithm, doesn't exist, all
+如果你想搜索，或者你正在寻找通用算法，不存在，全部
+
+1347
+02:30:53,000 --> 02:30:59,000
+ algorithms exist, all algorithms are the same, right?
+算法是存在的，所有算法都是一样的，对吧？
+
+1348
+02:30:59,000 --> 02:31:05,000
+ And another enlightenment that comes out of this is that you want to solve a particular
+由此产生的另一个启示是，你想要解决一个特定的问题
+
+1349
+02:31:05,000 --> 02:31:07,000
+ class of problems, right?
+一类问题，对吗？
+
+1350
+02:31:07,000 --> 02:31:13,000
+ So, it means that you must give that special advantage to it, right?
+那么，这意味着你必须赋予它这种特殊的优势，对吗？
+
+1351
+02:31:13,000 --> 02:31:17,000
+ So, in other words, you understand the problem, right?
+那么，换句话说，你明白这个问题了，对吗？
+
+1352
+02:31:17,000 --> 02:31:22,000
+ Incorporate, give it a special boost in terms of the knowledge about the problem.
+合并，在有关问题的知识方面给予它特别的推动。
+
+1353
+02:31:22,000 --> 02:31:25,000
+ So, that's what the theory tells us, right?
+那么，这就是理论告诉我们的，对吗？
+
+1354
+02:31:25,000 --> 02:31:30,000
+ So, we call that the No Free Lunch in optimization, right?
+所以，我们称之为优化中的“没有免费的午餐”，对吗？
+
+1355
+02:31:30,000 --> 02:31:32,000
+ It's a well-known theory, okay?
+这是一个众所周知的理论，好吗？
+
+1356
+02:31:32,000 --> 02:31:38,000
+ If you talk to people who do optimization, they know what it means, okay?
+如果你和做优化的人交谈，他们知道这意味着什么，好吗？
+
+1357
+02:31:40,000 --> 02:31:47,000
+ Or another way, you say, ah, your boss said, give me the algorithm that works for all, right?
+或者换个方式，你说，啊，你的老板说，给我一个适用于所有人的算法，对吧？
+
+1358
+02:31:47,000 --> 02:31:51,000
+ Then you can take out this, show him the No Free Lunch, right?
+那你就可以拿出这个，给他看看天下没有免费的午餐，对吧？
+
+1359
+02:31:51,000 --> 02:31:54,000
+ No Free Lunch, all right?
+没有免费的午餐，好吗？
+
+1360
+02:32:01,000 --> 02:32:02,000
+ Okay.
+好的。
+
+1361
+02:32:03,000 --> 02:32:10,000
+ So, you understand what is global optimization, right?
+那么，你明白什么是全局优化了吧？
+
+1362
+02:32:10,000 --> 02:32:15,000
+ So, there are many methods that are not doing global search.
+所以，有很多方法并不进行全局搜索。
+
+1363
+02:32:16,000 --> 02:32:20,000
+ Many heuristic approach are what we call local search, right?
+很多启发式的方法就是我们所说的本地搜索吧？
+
+1364
+02:32:20,000 --> 02:32:23,000
+ You know, you understand?
+你知道吗，你明白吗？
+
+1365
+02:32:23,000 --> 02:32:26,000
+ Global search means to search, right?
+全局搜索就是搜索，对吧？
+
+1366
+02:32:26,000 --> 02:32:34,000
+ So, some problems are so complex, you know, just the thought of global search may not be practical, okay?
+所以，有些问题这么复杂，你知道，仅仅全局搜索的思想可能不切实际，好吗？
+
+1367
+02:32:35,000 --> 02:32:44,000
+ So, global optimization search for finding the best solution, X out of some finite set,
+因此，全局优化搜索寻找最佳解决方案，X 从某个有限集中，
+
+1368
+02:32:44,000 --> 02:32:50,000
+ S in your solution set, landscape is finite, right?
+在你的解决方案集中，景观是有限的，对吗？
+
+1369
+02:32:50,000 --> 02:32:54,000
+ For example, the combinatorial optimization problem, right?
+例如，组合优化问题，对吧？
+
+1370
+02:32:54,000 --> 02:33:02,000
+ In your 1000-city traveling sales room problem, it is finite, but it's very huge, right?
+在你的1000个城市的旅游售货室问题中，它是有限的，但它非常巨大，对吗？
+
+1371
+02:33:02,000 --> 02:33:05,000
+ The possible solutions.
+可能的解决方案。
+
+1372
+02:33:06,000 --> 02:33:11,000
+ So, you have two requests.
+所以，你有两个请求。
+
+1373
+02:33:11,000 --> 02:33:23,000
+ One is deterministic approach or your classical optimization approach.
+一种是确定性方法或经典优化方法。
+
+1374
+02:33:23,000 --> 02:33:28,000
+ And the one you guarantee to find a solution is mainly a sequential search, right?
+而你保证找到解决方案的主要是顺序搜索，对吧？
+
+1375
+02:33:28,000 --> 02:33:34,000
+ So, you search, you follow, you guarantee the solution, okay?
+所以，你搜索，你跟踪，你保证找到解决方案，好吗？
+
+1376
+02:33:34,000 --> 02:33:37,000
+ Now, the other is more like a heuristic approach, right?
+现在，另一种方法更像是一种启发式方法，对吗？
+
+1377
+02:33:37,000 --> 02:33:45,000
+ Heuristic, and these days, of course, we have our method heuristics like a genetic algorithm, okay?
+启发式，当然，现在我们有了类似遗传算法的启发式方法，好吗？
+
+1378
+02:33:45,000 --> 02:33:49,000
+ So, heuristic approach belongs to what we call the generate and test, right?
+那么，启发式方法属于我们所说的生成和测试，对吗？
+
+1379
+02:33:49,000 --> 02:33:56,000
+ You generate, you test it, see how good it is, and then based on that, you decide your next move and so on, right?
+你生成，你测试它，看看它有多好，然后基于此，你决定你的下一步行动等等，对吧？
+
+1380
+02:33:56,000 --> 02:34:00,000
+ Heuristic approach, okay?
+启发式方法，好吗？
+
+1381
+02:34:00,000 --> 02:34:02,000
+ No guarantee.
+没有保证。
+
+1382
+02:34:02,000 --> 02:34:08,000
+ No guarantee that best solutions found are globally optimal, right?
+不能保证找到的最佳解决方案是全局最优的，对吧？
+
+1383
+02:34:08,000 --> 02:34:11,000
+ Okay?
+好的？
+
+1384
+02:34:11,000 --> 02:34:14,000
+ In your deterministic, right?
+在你的确定性中，对吗？
+
+1385
+02:34:14,000 --> 02:34:18,000
+ In theory, you can, but practically, you will never, it can never happen,
+理论上，你可以，但实际上，你永远不会，它永远不会发生，
+
+1386
+02:34:18,000 --> 02:34:22,000
+ especially the problem is complex enough, right?
+尤其是问题够复杂了吧？
+
+1387
+02:34:22,000 --> 02:34:25,000
+ So, what does that mean?
+那么，这意味着什么呢？
+
+1388
+02:34:25,000 --> 02:34:31,000
+ You will take the view of comparison between the deterministic approach and the heuristic approach.
+您将比较确定性方法和启发式方法。
+
+1389
+02:34:31,000 --> 02:34:38,000
+ Basically, your attitude towards problem solving goes like this, right?
+基本上，你解决问题的态度是这样的，对吧？
+
+1390
+02:34:38,000 --> 02:34:45,000
+ The deterministic approach, basically, what you're saying is that, okay, I don't really care if it works.
+基本上，确定性方法，你所说的是，好吧，我并不关心它是否有效。
+
+1391
+02:34:45,000 --> 02:34:48,000
+ As long as it converges, right?
+只要收敛就可以了，对吗？
+
+1392
+02:34:48,000 --> 02:34:51,000
+ It's guaranteed, right?
+有保证吧？
+
+1393
+02:34:51,000 --> 02:34:59,000
+ You follow the exercent path, sequential search, put, it's guaranteed, right?
+你按照练习的路径，顺序查找，放入，就保证了，对吧？
+
+1394
+02:34:59,000 --> 02:35:04,000
+ As compared to like your heuristic, like your GA, right?
+与像你的启发式、像你的 GA 相比，对吗？
+
+1395
+02:35:04,000 --> 02:35:11,000
+ So, you must understand, basically, your attitude is like this, I don't care if it converges, right?
+所以，你必须明白，基本上，你的态度就是这样，我不在乎它是否收敛，对吗？
+
+1396
+02:35:11,000 --> 02:35:16,000
+ As long as it works, that's the attitude you're adopting, right?
+只要有效，这就是你所采取的态度，对吗？
+
+1397
+02:35:16,000 --> 02:35:21,000
+ That is what GA means, okay?
+这就是GA的意思，好吗？
+
+1398
+02:35:21,000 --> 02:35:26,000
+ So, I used to do consulting for some defense organizations, right?
+那么，我曾经为一些国防组织做过咨询，对吧？
+
+1399
+02:35:26,000 --> 02:35:33,000
+ So, quite often when I talk to them, they would ask me, can I guarantee, you know,
+所以，当我和他们交谈时，他们经常会问我，我可以保证，你知道，
+
+1400
+02:35:33,000 --> 02:35:36,000
+ because I do work in this area, right?
+因为我确实在这方面工作，对吗？
+
+1401
+02:35:36,000 --> 02:35:43,000
+ So, a lot of time, my methods will be more of an evolutionary kind of methods or algorithm.
+所以，很多时候，我的方法将更多地是一种进化的方法或算法。
+
+1402
+02:35:43,000 --> 02:35:50,000
+ So, the question always, because it's defense-related, so they say, can you guarantee, right?
+所以，这个问题始终存在，因为它与防御相关，所以他们说，你能保证吗？
+
+1403
+02:35:50,000 --> 02:35:59,000
+ Can you guarantee the run time and also, like, within certain level of performance?
+您能否保证运行时间以及一定的性能水平？
+
+1404
+02:35:59,000 --> 02:36:04,000
+ And the answer is, no, I cannot 100% guarantee, right?
+答案是，不，我不能100%保证，对吧？
+
+1405
+02:36:04,000 --> 02:36:09,000
+ But maybe, 99.9%.
+但也许，99.9%。
+
+1406
+02:36:09,000 --> 02:36:14,000
+ Now, because there are defense people, they say, wow, in your mind, right?
+现在，因为有防守人员，他们说，哇，在你看来，对吧？
+
+1407
+02:36:14,000 --> 02:36:23,000
+ There's still that possibility of not being able to find a solution, right?
+仍然有可能找不到解决方案，对吗？
+
+1408
+02:36:23,000 --> 02:36:28,000
+ So, what I want to say is that, you know, that is when you do GA, right?
+所以，我想说的是，你知道，那就是你做 GA 的时候，对吧？
+
+1409
+02:36:28,000 --> 02:36:31,000
+ This is basically what it means, okay?
+基本上就是这个意思，好吗？
+
+1410
+02:36:31,000 --> 02:36:34,000
+ So, you know that it works, right?
+那么，您知道它有效，对吧？
+
+1411
+02:36:34,000 --> 02:36:37,000
+ You've done it time and time again, you know it works.
+你已经做了一次又一次，你知道它有效。
+
+1412
+02:36:37,000 --> 02:36:45,000
+ But in theory, you know that you cannot prove, absolutely, like, you know, it will converge, right?
+但从理论上讲，你知道你不能绝对地证明，就像，你知道，它会收敛，对吧？
+
+1413
+02:36:45,000 --> 02:36:57,000
+ Okay, that is a whole so-called scenario or situation.
+好吧，这就是整个所谓的场景或情况。
+
+1414
+02:36:57,000 --> 02:37:04,000
+ Okay, let's try and see what it means by neighborhood.
+好吧，让我们尝试看看邻里意味着什么。
+
+1415
+02:37:04,000 --> 02:37:11,000
+ So, many heuristics impose a neighborhood structure on S, okay?
+所以，许多启发式方法在 S 上强加了邻域结构，好吗？
+
+1416
+02:37:11,000 --> 02:37:14,000
+ So, there are many heuristics that you know about.
+因此，您知道很多启发式方法。
+
+1417
+02:37:14,000 --> 02:37:20,000
+ Many of it are hill climbing type of heuristics.
+其中许多都是爬山式的启发法。
+
+1418
+02:37:20,000 --> 02:37:25,000
+ So, basically, when you do hill climbing, you're looking for your neighbor, right?
+所以，基本上，当你爬山时，你是在寻找你的邻居，对吧？
+
+1419
+02:37:25,000 --> 02:37:30,000
+ That has better, something that's close to you.
+那有更好的，离你很近的东西。
+
+1420
+02:37:30,000 --> 02:37:43,000
+ And as compared to your other methods, EAs are used population.
+与其他方法相比，EA 是使用群体。
+
+1421
+02:37:43,000 --> 02:37:47,000
+ So, you use multiple stochastic search, right?
+那么，您使用多个随机搜索，对吧？
+
+1422
+02:37:47,000 --> 02:37:54,000
+ And then variation operators with RIT greater than one and stochastic selection.
+然后是 RIT 大于 1 的变异算子和随机选择。
+
+1423
+02:37:54,000 --> 02:38:02,000
+ So, what you can see is that the ideology between EA and heuristics is quite different, right?
+所以，你可以看到 EA 和启发式之间的意识形态有很大不同，对吗？
+
+1424
+02:38:02,000 --> 02:38:14,000
+ In heuristics, it is very sequential, local search methodology, okay?
+在启发式中，它是非常连续的本地搜索方法，好吗？
+
+1425
+02:38:14,000 --> 02:38:19,000
+ Now, when you say neighborhood, right?
+现在，当你说邻居时，对吗？
+
+1426
+02:38:19,000 --> 02:38:25,000
+ What do you understand by neighbor?
+你理解的邻居是什么？
+
+1427
+02:38:25,000 --> 02:38:28,000
+ So, it's close to each other, correct?
+那么，它们彼此很接近，对吗？
+
+1428
+02:38:28,000 --> 02:38:30,000
+ Neighborhood, right?
+邻居，对吗？
+
+1429
+02:38:30,000 --> 02:38:44,000
+ Now, if you think in the context of GA, what are the possibilities of your definition of what neighbor means?
+现在，如果您在遗传算法的背景下思考，您对邻居含义的定义有哪些可能性？
+
+1430
+02:38:44,000 --> 02:38:47,000
+ Now, here's what I'm leading to, you know?
+现在，这就是我要讲的，你知道吗？
+
+1431
+02:38:47,000 --> 02:38:53,000
+ Is that concept of neighborhood, does it mean the fitness?
+这是邻里的概念吗？这是否意味着健身？
+
+1432
+02:38:53,000 --> 02:38:55,000
+ I think you see it not necessary, right?
+我想你认为没有必要，对吧？
+
+1433
+02:38:55,000 --> 02:39:01,000
+ There's just one possibility or one dimension of what you mean by neighbor.
+你所说的邻居只有一种可能性或一个维度。
+
+1434
+02:39:01,000 --> 02:39:10,000
+ For example, fitness of 0.71 and 0.711, you can say there's a neighbor based on the fitness, right?
+例如，适应度为0.71和0.711，你可以说根据适应度有一个邻居，对吧？
+
+1435
+02:39:10,000 --> 02:39:13,000
+ But is it always the case, you know?
+但情况总是如此，你知道吗？
+
+1436
+02:39:13,000 --> 02:39:22,000
+ It could be that when you convert it to the phenotypic space, it shows a very drastic difference, right?
+可能当你将它转换到表型空间时，它会显示出非常巨大的差异，对吗？
+
+1437
+02:39:22,000 --> 02:39:27,000
+ It could be in terms of the performance of the system that you are trying to design, okay?
+可能是根据您尝试设计的系统的性能，好吗？
+
+1438
+02:39:27,000 --> 02:39:31,000
+ So, what I want to say is this, you know?
+那么，我想说的是这个，你知道吗？
+
+1439
+02:39:31,000 --> 02:39:35,000
+ The concept of neighborhood, right?
+邻居的概念吧？
+
+1440
+02:39:35,000 --> 02:39:42,000
+ In GA, you should not take it in a very narrow perspective, right?
+在GA中，你不应该以非常狭隘的视角来看待它，对吧？
+
+1441
+02:39:42,000 --> 02:39:45,000
+ Another example, if you look at two strings, all right?
+另一个例子，如果你看两个字符串，好吗？
+
+1442
+02:39:45,000 --> 02:39:49,000
+ So, two strings, does that mean that one bit is different?
+那么，两个字符串，是否意味着有一位不同？
+
+1443
+02:39:49,000 --> 02:39:54,000
+ They are neighbor or based on some hamming distance?
+它们是邻居还是基于某种汉明距离？
+
+1444
+02:39:54,000 --> 02:39:58,000
+ I think quite logically, you will see that, of course, not necessarily the case, right?
+我觉得按逻辑来说，你会看到，当然，情况不一定如此，对吗？
+
+1445
+02:39:58,000 --> 02:40:02,000
+ It all depends on the so-called problem, okay?
+这一切都取决于所谓的问题，好吗？
+
+1446
+02:40:02,000 --> 02:40:11,000
+ So, when you incorporate neighborhood search in your GA, you must do it with an understanding of what constituted neighborhood search.
+因此，当您将邻域搜索合并到 GA 中时，您必须了解邻域搜索的构成。
+
+1447
+02:40:12,000 --> 02:40:20,000
+ In the context of the problem that you are trying to solve, okay?
+在你试图解决的问题的背景下，好吗？
+
+1448
+02:40:20,000 --> 02:40:21,000
+ All right?
+好的？
+
+1449
+02:40:21,000 --> 02:40:26,000
+ So, the next thing we want to cover is on the representation, right?
+那么，我们接下来要讨论的是表示，对吧？
+
+1450
+02:40:26,000 --> 02:40:35,000
+ So, this part, I think probably will be quite straightforward, most parts of it.
+所以，我认为这部分的大部分内容可能会非常简单。
+
+1451
+02:40:35,000 --> 02:40:39,000
+ We won't go too very deep into it.
+我们不会深入探讨它。
+
+1452
+02:40:39,000 --> 02:40:42,000
+ But let's just start on the first one.
+但让我们从第一个开始。
+
+1453
+02:40:42,000 --> 02:40:46,000
+ And then after that, you can go back and rest, okay?
+然后你就可以回去休息了，好吗？
+
+1454
+02:40:46,000 --> 02:40:51,000
+ So, go back to the so-called general scheme of EA again, all right?
+那么，再次回到所谓的EA的总体方案，好吗？
+
+1455
+02:40:51,000 --> 02:40:59,000
+ So, we are talking about representation, so, mutation and recombination.
+所以，我们谈论的是表征，也就是突变和重组。
+
+1456
+02:40:59,000 --> 02:41:04,000
+ So, let's talk about representation, all right?
+那么，我们来谈谈代表性，好吗？
+
+1457
+02:41:04,000 --> 02:41:10,000
+ So, the role of representation and variation operators.
+所以，表示和变异算子的作用。
+
+1458
+02:41:10,000 --> 02:41:19,000
+ So, the common type of representation, your binary, I have quite often used binary as example.
+因此，常见的表示类型，即二进制，我经常使用二进制作为示例。
+
+1459
+02:41:19,000 --> 02:41:25,000
+ Integer, real value of loading point, and then permutation.
+整数，加载点的实值，然后排列。
+
+1460
+02:41:25,000 --> 02:41:27,000
+ We also talk about permutation.
+我们还讨论排列。
+
+1461
+02:41:27,000 --> 02:41:30,000
+ And finally, the tree, all right?
+最后，树，好吗？
+
+1462
+02:41:31,000 --> 02:41:40,000
+ So, representation is the first step of your GA.
+因此，代表性是 GA 的第一步。
+
+1463
+02:41:40,000 --> 02:41:42,000
+ You have a problem to solve.
+你有一个问题需要解决。
+
+1464
+02:41:42,000 --> 02:41:52,000
+ The first thing you need to talk about is how to represent or code the solution.
+您需要讨论的第一件事是如何表示或编码解决方案。
+
+1465
+02:41:52,000 --> 02:41:53,000
+ All right?
+好的？
+
+1466
+02:41:53,000 --> 02:42:01,000
+ So, this is the first stage of building an EA, and can be the most difficult one, all right?
+所以，这是构建 EA 的第一阶段，并且可能是最困难的阶段，好吗？
+
+1467
+02:42:01,000 --> 02:42:07,000
+ So, therefore, we have to choose the right representation for the problem.
+因此，我们必须为问题选择正确的表示。
+
+1468
+02:42:07,000 --> 02:42:12,000
+ And also, we need to think about the variation operators.
+而且，我们还需要考虑变分算子。
+
+1469
+02:42:12,000 --> 02:42:21,000
+ Depending on the representation, we also have to choose or incorporate suitable variation operators.
+根据表示形式，我们还必须选择或合并合适的变异运算符。
+
+1470
+02:42:21,000 --> 02:42:22,000
+ Okay?
+好的？
+
+1471
+02:42:22,000 --> 02:42:26,000
+ So, it all depends on the type of representation.
+因此，这完全取决于表示的类型。
+
+1472
+02:42:26,000 --> 02:42:32,000
+ So, you can just think about the TSP problem.
+所以，你可以考虑一下TSP问题。
+
+1473
+02:42:32,000 --> 02:42:39,000
+ So, if the TSP problem, if you understand what a TSP problem is, there's a traveling salesman problem.
+所以，如果是 TSP 问题，如果你了解什么是 TSP 问题，那就是旅行商问题。
+
+1474
+02:42:39,000 --> 02:42:48,000
+ What would make a good representation for the TSP?
+什么可以成为 TSP 的良好代表？
+
+1475
+02:42:48,000 --> 02:42:56,000
+ I think most of you would have in your mind, oh, the permutation string seems like a good choice, all right?
+我想你们大多数人都会想，哦，排列字符串似乎是一个不错的选择，好吗？
+
+1476
+02:42:56,000 --> 02:43:01,000
+ Because the requirement says that it is to visit each and every city once and only once.
+因为要求说的是每个城市都要去一次且仅限一次。
+
+1477
+02:43:01,000 --> 02:43:03,000
+ So, you have 10 cities, right?
+那么，你们有 10 个城市，对吗？
+
+1478
+02:43:03,000 --> 02:43:08,000
+ Each of the cities should occur only once.
+每个城市应该只出现一次。
+
+1479
+02:43:08,000 --> 02:43:12,000
+ So, that could be like a permutation string, all right?
+那么，这可能就像一个排列字符串，好吗？
+
+1480
+02:43:12,000 --> 02:43:15,000
+ But does that mean that that is the only way?
+但这是否意味着这是唯一的方法？
+
+1481
+02:43:15,000 --> 02:43:17,000
+ Obviously not, all right?
+显然不是，好吗？
+
+1482
+02:43:17,000 --> 02:43:19,000
+ But let's think about it the other ways.
+但让我们从其他方面考虑一下。
+
+1483
+02:43:19,000 --> 02:43:23,000
+ Well, first the question is, which is better, all right?
+好吧，首先的问题是，哪个更好，好吗？
+
+1484
+02:43:23,000 --> 02:43:27,000
+ Okay?
+好的？
+
+1485
+02:43:27,000 --> 02:43:30,000
+ And binary representation, all right?
+还有二进制表示，好吗？
+
+1486
+02:43:30,000 --> 02:43:35,000
+ To go from phenotype space to your genotype space, all right?
+从表型空间转到基因型空间，好吗？
+
+1487
+02:43:35,000 --> 02:43:44,000
+ So, from phenotype space to genotype, it is your, it is the encoding, all right?
+所以，从表型空间到基因型，它是你的，它是编码，好吗？
+
+1488
+02:43:44,000 --> 02:43:50,000
+ And then from the genotype to your phenotype space, there's the decoding.
+然后从基因型到表型空间，进行解码。
+
+1489
+02:43:50,000 --> 02:44:05,000
+ So, in the encoding part, because it's binary, basically the value set of the allele, the value set, all right, is either 0 or 1, is binary, all right?
+所以，在编码部分，因为它是二进制的，基本上是等位基因的值集，值集，好吧，是0或1，是二进制的，好吗？
+
+1490
+02:44:05,000 --> 02:44:08,000
+ The value set of it is from 0 to 1.
+它的值集是从0到1。
+
+1491
+02:44:08,000 --> 02:44:13,000
+ So, this L corresponds to the length, all right?
+那么，这个L对应的是长度，好吗？
+
+1492
+02:44:13,000 --> 02:44:18,000
+ It's a value set over, you could say, like the L dimension.
+您可以说，它是一个设定值，就像 L 尺寸一样。
+
+1493
+02:44:22,000 --> 02:44:23,000
+ Okay?
+好的？
+
+1494
+02:44:23,000 --> 02:44:29,000
+ And then mutation, we alter each gene independently with a probability Pm, all right?
+然后突变，我们以 Pm 的概率独立改变每个基因，好吗？
+
+1495
+02:44:29,000 --> 02:44:32,000
+ Pm is the mutation rate.
+Pm 是突变率。
+
+1496
+02:44:32,000 --> 02:44:51,000
+ So, a good guideline is the probability of mutation rate is between 1 over your population size and 1, the range of 1 over your population size and 1 over the chromosome length, all right?
+所以，一个好的指导原则是突变率的概率在人口规模的 1 到 1 之间，即人口规模的 1 和染色体长度的 1 的范围，好吗？
+
+1497
+02:44:51,000 --> 02:44:56,000
+ So, the way you apply mutation goes like this, all right?
+那么，你应用突变的方式就像这样，好吗？
+
+1498
+02:44:56,000 --> 02:45:00,000
+ So, this is your parent.
+所以，这是你的父母。
+
+1499
+02:45:00,000 --> 02:45:08,000
+ So, I go to each gene, I flip the mutation coin.
+所以，我针对每个基因，翻转突变硬币。
+
+1500
+02:45:08,000 --> 02:45:11,000
+ Mutation coin say, yes, mutate, then I change.
+变异币说，对，变异，那我就变。
+
+1501
+02:45:11,000 --> 02:45:15,000
+ Mutation coin say, no, I don't change, all right?
+变异币说，不，我不变，好吗？
+
+1502
+02:45:15,000 --> 02:45:20,000
+ So, this probability, of course, is specified here depending on the mutation rate.
+因此，这个概率当然是根据突变率在这里指定的。
+
+1503
+02:45:20,000 --> 02:45:23,000
+ So, I go according to each gene, all right?
+所以，我根据每个基因来，好吗？
+
+1504
+02:45:23,000 --> 02:45:36,000
+ So, if they are 20 here, 20 times I flip the mutation gene, mutation coin to decide whether to mutate or not.
+所以，如果这里有20个，我翻转突变基因、突变硬币20次来决定是否突变。
+
+1505
+02:45:36,000 --> 02:45:40,000
+ So, mutation can cause wearable effect, all right?
+那么，突变可以产生可穿戴效果，好吗？
+
+1506
+02:45:40,000 --> 02:45:44,000
+ So, we can consider using gray coding, all right?
+那么，我们可以考虑使用格雷编码，好吗？
+
+1507
+02:45:44,000 --> 02:45:49,000
+ So, maybe let's go back here.
+那么，也许让我们回到这里。
+
+1508
+02:45:50,000 --> 02:45:55,000
+ So, when you have a binary string like that, right?
+那么，当你有这样的二进制字符串时，对吧？
+
+1509
+02:45:55,000 --> 02:46:02,000
+ Let's say your binary string, your binary string.
+假设你的二进制字符串，你的二进制字符串。
+
+1510
+02:46:02,000 --> 02:46:04,000
+ So, this is one string.
+所以，这是一根弦。
+
+1511
+02:46:04,000 --> 02:46:11,000
+ So, let's say your binary string converts to, in your phenotype, is an integer value.
+因此，假设您的二进制字符串在您的表型中转换为整数值。
+
+1512
+02:46:11,000 --> 02:46:13,000
+ You understand?
+你明白吗？
+
+1513
+02:46:13,000 --> 02:46:23,000
+ Now, my question to you is, if I flip the first bit as compared to the last bit, this is a mutation, right?
+现在，我问你的问题是，如果我翻转第一位与最后一位相比，这就是一个突变，对吗？
+
+1514
+02:46:23,000 --> 02:46:26,000
+ Mutation means to flip the bit.
+突变意味着翻转位。
+
+1515
+02:46:26,000 --> 02:46:38,000
+ So, if I flip the first bit, the first bit here, compared to the last bit, which one do you think has more effect?
+那么，如果我翻转第一个位，这里的第一个位，和最后一个位相比，你认为哪个效果更好呢？
+
+1516
+02:46:38,000 --> 02:46:41,000
+ Obviously, the first one, all right?
+显然是第一个，好吗？
+
+1517
+02:46:41,000 --> 02:46:43,000
+ Because it converts to integer, all right?
+因为它会转换为整数，好吗？
+
+1518
+02:46:43,000 --> 02:46:45,000
+ So, the first one has more effect.
+所以，第一个效果更好。
+
+1519
+02:46:45,000 --> 02:46:53,000
+ So, what does that go in terms of what our philosophy of what mutation is?
+那么，从我们关于突变的哲学来看，这意味着什么呢？
+
+1520
+02:46:53,000 --> 02:46:55,000
+ Small variable change, all right?
+小的变量改变，好吗？
+
+1521
+02:46:55,000 --> 02:46:57,000
+ Small variable change.
+小变量变化。
+
+1522
+02:46:57,000 --> 02:47:01,000
+ So, in that sense, it has that bias, all right?
+所以，从这个意义上说，它有这种偏见，好吗？
+
+1523
+02:47:01,000 --> 02:47:07,000
+ This mutation has a bias, you understand?
+这个突变有偏差，你明白吗？
+
+1524
+02:47:07,000 --> 02:47:15,000
+ So, again, this binary string converts to integer, right?
+那么，这个二进制字符串又会转换为整数，对吗？
+
+1525
+02:47:15,000 --> 02:47:17,000
+ Converts to integer.
+转换为整数。
+
+1526
+02:47:17,000 --> 02:47:20,000
+ So, the first bit is the most significant bit.
+因此，第一位是最高有效位。
+
+1527
+02:47:20,000 --> 02:47:26,000
+ Now, in my mutation, I say, each bit, you flip the mutation coin, right?
+现在，在我的突变中，我说，每一位，你都会翻转突变硬币，对吗？
+
+1528
+02:47:26,000 --> 02:47:30,000
+ So, if mutation coin say yes, you flip from 1 to 0.
+所以，如果变异币说“是”，你就会从 1 翻转到 0。
+
+1529
+02:47:30,000 --> 02:47:36,000
+ So, if I take the first bit and the last bit here,
+所以，如果我在这里取第一位和最后一位，
+
+1530
+02:47:36,000 --> 02:47:43,000
+ then there's more effect, the first one, all right?
+然后还有更多的效果，第一个，好吗？
+
+1531
+02:47:43,000 --> 02:47:54,000
+ So, the point is that in your mutation also, sometimes, I know if some of you have implemented GA, it works.
+所以，关键是，在你的突变中，有时，我知道如果你们中的一些人已经实现了 GA，它是有效的。
+
+1532
+02:47:54,000 --> 02:48:03,000
+ But you may not realize that your mutation may not be the so-called mutation, the ideal mutation that you want.
+但你可能没有意识到，你的突变可能不是所谓的突变，不是你想要的理想突变。
+
+1533
+02:48:03,000 --> 02:48:06,000
+ But your algorithm still works, all right?
+但你的算法仍然有效，好吗？
+
+1534
+02:48:06,000 --> 02:48:22,000
+ But perhaps it is better if your mutation does take into account that possibility of so-called causing too much variation.
+但如果你的突变确实考虑到所谓导致太多变异的可能性，也许会更好。
+
+1535
+02:48:22,000 --> 02:48:23,000
+ All right?
+好的？
+
+1536
+02:48:23,000 --> 02:48:26,000
+ Cross-over can be very simple, all right?
+跨界可以很简单，好吗？
+
+1537
+02:48:26,000 --> 02:48:33,000
+ So, in the earlier versions of GA, it usually occurred with probability in the old days, it's quite common.
+所以，在GA的早期版本中，在过去，它通常是概率发生的，这是很常见的。
+
+1538
+02:48:33,000 --> 02:48:37,000
+ Or in the earlier versions of GA, seems quite common.
+或者在 GA 的早期版本中，似乎很常见。
+
+1539
+02:48:37,000 --> 02:48:42,000
+ It is 60% or 90%, you know?
+是60%还是90%，你知道吗？
+
+1540
+02:48:42,000 --> 02:48:43,000
+ Okay?
+好的？
+
+1541
+02:48:43,000 --> 02:48:47,000
+ So, you can see how it works through this illustration here, all right?
+那么，您可以通过这里的插图了解它是如何工作的，好吗？
+
+1542
+02:48:47,000 --> 02:48:54,000
+ Very simple process.
+非常简单的过程。
+
+1543
+02:48:54,000 --> 02:48:55,000
+ Okay?
+好的？
+
+1544
+02:48:55,000 --> 02:49:02,000
+ So, cross-over also, there are many possibilities of cross-over, okay?
+所以说，跨界也是，跨界有很多种可能，好吗？
+
+1545
+02:49:02,000 --> 02:49:14,000
+ Also, take note, the design of a cross-over operation is a possibility of what we call the positional bias or so, all right?
+另外，请注意，交叉操作的设计可能存在我们所说的位置偏差等，好吗？
+
+1546
+02:49:14,000 --> 02:49:19,000
+ Depending on positional bias, for example, your whole string.
+例如，取决于位置偏差，整个字符串。
+
+1547
+02:49:19,000 --> 02:49:25,000
+ Because your cross-over is such that you decide on the side where you cut, all right?
+因为你的交叉是由你决定你剪切的一侧，好吗？
+
+1548
+02:49:25,000 --> 02:49:28,000
+ So, you cut at a certain point.
+所以，你在某个点切掉了。
+
+1549
+02:49:28,000 --> 02:49:35,000
+ So, what happens is that no matter how you cut, the first and the last one, those tending towards the end, all right?
+那么，无论你怎么剪，第一个和最后一个，那些趋于结束的，好吗？
+
+1550
+02:49:35,000 --> 02:49:37,000
+ Will never be affected.
+永远不会受到影响。
+
+1551
+02:49:37,000 --> 02:49:41,000
+ So, there's no way to actually alter, all right?
+所以，没有办法真正改变，好吗？
+
+1552
+02:49:41,000 --> 02:49:46,000
+ So, in your crossing over, because you're trying to create variation, you understand?
+所以，在你的跨越中，因为你试图创造变化，你明白吗？
+
+1553
+02:49:46,000 --> 02:49:50,000
+ So, remember your cross-over recombination, you're trying to create a variation.
+所以，记住你的交叉重组，你正在尝试创造一种变异。
+
+1554
+02:49:50,000 --> 02:50:04,000
+ But yet, because of positional bias, certain variations cannot be affected or cannot happen, okay?
+但是，由于位置偏差，某些变化不会受到影响或不会发生，好吗？
+
+1555
+02:50:04,000 --> 02:50:05,000
+ All right?
+好的？
+
+1556
+02:50:05,000 --> 02:50:08,000
+ You can also explore endpoint crossover, okay?
+您还可以探索端点交叉，好吗？
+
+1557
+02:50:08,000 --> 02:50:12,000
+ I think this figure should illustrate what it means, okay?
+我想这个图应该能说明什么意思吧？
+
+1558
+02:50:13,000 --> 02:50:18,000
+ So, uniform crossover.
+所以，统一交叉。
+
+1559
+02:50:18,000 --> 02:50:25,000
+ And so, let's do one more slide here.
+那么，让我们再放一张幻灯片。
+
+1560
+02:50:25,000 --> 02:50:31,000
+ So, you have cross-over and mutation.
+所以，你有交叉和突变。
+
+1561
+02:50:31,000 --> 02:50:34,000
+ There's a long debate which one is better, all right?
+争论了很长时间，哪一个更好，好吗？
+
+1562
+02:50:34,000 --> 02:50:37,000
+ Is it necessary?
+有必要吗？
+
+1563
+02:50:37,000 --> 02:50:44,000
+ So, go back to the GA when it was introduced, all right?
+那么，回到 GA 推出时的情况，好吗？
+
+1564
+02:50:44,000 --> 02:50:49,000
+ The main innovation was the crossing over, all right?
+主要的创新是交叉，好吗？
+
+1565
+02:50:49,000 --> 02:50:52,000
+ So, obviously, it has done a lot of good, all right?
+所以，显然，它做了很多好事，好吗？
+
+1566
+02:50:52,000 --> 02:50:57,000
+ Because I think from then on, GA became very popular, all right?
+因为我想从那时起，GA就变得非常流行，好吗？
+
+1567
+02:50:57,000 --> 02:51:01,000
+ So, which one is more important?
+那么，哪一个更重要呢？
+
+1568
+02:51:01,000 --> 02:51:04,000
+ Well, it really depends, all right?
+嗯，这确实取决于情况，好吗？
+
+1569
+02:51:04,000 --> 02:51:06,000
+ It really depends, see?
+这确实取决于情况，明白吗？
+
+1570
+02:51:06,000 --> 02:51:08,000
+ In my view, all right?
+在我看来，可以吗？
+
+1571
+02:51:08,000 --> 02:51:11,000
+ In my view, the end-quins problem, all right?
+在我看来，最后的问题，好吗？
+
+1572
+02:51:11,000 --> 02:51:16,000
+ This is from experience because I do a lot of end-quins problem, up to a thousand queens and so on.
+这是根据经验得出的，因为我做了很多末端奎因问题，最多一千个皇后等等。
+
+1573
+02:51:16,000 --> 02:51:23,000
+ Mutation kind of variation seems to give good results, right?
+突变之类的变异似乎能带来不错的结果，对吧？
+
+1574
+02:51:23,000 --> 02:51:24,000
+ High mutation.
+高突变。
+
+1575
+02:51:24,000 --> 02:51:32,000
+ So, in that sense, I would say mutation seems to be a little bit more important, or seems to be more important than crossover, okay?
+所以，从这个意义上说，我想说突变似乎更重要一点，或者似乎比交叉更重要，好吗？
+
+1576
+02:51:32,000 --> 02:51:35,000
+ But the general consensus is that it really depends, all right?
+但普遍的共识是，这确实取决于情况，好吗？
+
+1577
+02:51:35,000 --> 02:51:41,000
+ We should not put ourselves in a position, oh, definitely crossover is better or mutation is better, all right?
+我们不应该把自己置于一个位置，哦，肯定是交叉更好或者变异更好，好吗？
+
+1578
+02:51:41,000 --> 02:51:44,000
+ So, both has its role, okay?
+所以，两者都有其作用，好吗？
+
+1579
+02:51:44,000 --> 02:51:49,000
+ But having said that, I think if you only have one, all right?
+不过话说回来，我想如果你只有一个，可以吗？
+
+1580
+02:51:49,000 --> 02:51:57,000
+ If you only have one mutation, would be the one, okay?
+如果你只有一种突变，那就是那个，好吗？
+
+1581
+02:51:57,000 --> 02:52:02,000
+ Recombination alone will not work.
+仅靠重组是行不通的。
+
+1582
+02:52:02,000 --> 02:52:10,000
+ You can prove to yourself just with mutationary kind of operation in your end-quins, it should work, all right?
+你可以向自己证明，只要在你的最终模型中进行突变操作，它应该有效，好吗？
+
+1583
+02:52:10,000 --> 02:52:19,000
+ But with recombination, just selection and then recombination, it won't work, all right?
+但是重组的话，只是选择然后重组，是不行的，对吧？
+
+1584
+02:52:19,000 --> 02:52:20,000
+ Okay?
+好的？
+
+1585
+02:52:20,000 --> 02:52:29,000
+ So, I'm dragging a little bit, but anyway, let's call this, let's make it a night, and then we can go back and rest, all right?
+所以，我有点拖沓了，但无论如何，我们就这样吧，让我们住一晚，然后我们就可以回去休息了，好吗？
+
+1586
+02:52:29,000 --> 02:52:31,000
+ See you next week.
+下周见。
+
+1587
+02:52:32,000 --> 02:52:34,000
+ Thank you.
+谢谢。
+
+1588
+02:53:02,000 --> 02:53:05,000
+ Thank you.
+谢谢。
+
+1589
+02:53:32,000 --> 02:53:35,000
+ Thank you.
+谢谢。
+
+1590
+02:54:02,000 --> 02:54:05,000
+ Thank you.
+谢谢。
+
+1591
+02:54:32,000 --> 02:54:35,000
+ Thank you.
+谢谢。
+
+1592
+02:55:02,000 --> 02:55:05,000
+ Thank you.
+谢谢。
+
+1593
+02:55:32,000 --> 02:55:35,000
+ Thank you.
+谢谢。
+
+1594
+02:56:02,000 --> 02:56:05,000
+ Thank you.
+谢谢。
+
+1595
+02:56:32,000 --> 02:56:35,000
+ Thank you.
+谢谢。
+
+1596
+02:57:02,000 --> 02:57:04,000
+ Thank you.
+谢谢。
+
+1597
+02:57:32,000 --> 02:57:34,000
+ Thank you.
+谢谢。
+
+1598
+02:58:02,000 --> 02:58:04,000
+ Thank you.
+谢谢。
+
+1599
+02:58:32,000 --> 02:58:34,000
+ Thank you.
+谢谢。
+
+1600
+02:59:02,000 --> 02:59:04,000
+ Thank you.
+谢谢。
+
+1601
+02:59:32,000 --> 02:59:34,000
+ Thank you.
+谢谢。
+

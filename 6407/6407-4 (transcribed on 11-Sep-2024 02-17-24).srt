@@ -1,0 +1,5216 @@
+1
+00:01:00,000 --> 00:01:22,480
+ Okay, good evening everyone. So we start class. Okay, so from this week, week four,
+
+2
+00:01:22,480 --> 00:01:31,600
+ we are going to start the machine learning part. And as you know, your final result actually
+
+3
+00:01:31,600 --> 00:01:37,560
+ consists of two parts. One is of course a final exam. And then another part is a continued
+
+4
+00:01:37,560 --> 00:01:46,320
+ assessment. And as the other MSC courses, the continued assessment account for 14 percent.
+
+5
+00:01:46,320 --> 00:01:53,320
+ So amount is 40 percent and 30 percent is the machine learning part. And actually this
+
+6
+00:01:53,320 --> 00:02:03,119
+ 30 percent actually contains three components. Actually one is the quiz. And the quiz should
+
+7
+00:02:03,119 --> 00:02:09,639
+ be in the last week. So actually in the past normally I arranged the quiz in the last week.
+
+8
+00:02:09,639 --> 00:02:16,240
+ I just steal the class time. But because of the very big cohort of this year, actually
+
+9
+00:02:16,240 --> 00:02:23,120
+ I cannot book actually three big lecture theaters for us to take the quiz. So I can only book
+
+10
+00:02:23,120 --> 00:02:27,640
+ the lecture theaters, big lecture theaters, not this side. Because actually when you take
+
+11
+00:02:27,640 --> 00:02:31,920
+ the quiz, at least we should have one seat between two students. So this is the rule
+
+12
+00:02:31,920 --> 00:02:39,520
+ of NTU. So I can only book very big ones like LT1, AIT2A. So actually these rooms are only
+
+13
+00:02:39,520 --> 00:02:48,160
+ available on a weekend. Okay, so most likely we will take the quiz on the Saturday, not
+
+14
+00:02:48,160 --> 00:02:58,160
+ open November. Okay, so this is the weekend of the week 12, not the last week. And so I
+
+15
+00:02:58,160 --> 00:03:04,600
+ booked the room, the lecture theater, but actually it's a pending approval. So once
+
+16
+00:03:04,680 --> 00:03:11,320
+ the time, I think normally I think it should be in the morning from maybe like 11 to 12
+
+17
+00:03:11,320 --> 00:03:19,680
+ in the morning. And so once the venue and also the time is confirmed, actually I will
+
+18
+00:03:19,680 --> 00:03:27,680
+ inform you. So besides this quiz 10 percent and we also have two assignments. Okay, so
+
+19
+00:03:27,680 --> 00:03:33,359
+ these two assignments, each of them are countable 10 percent. And in this assignment actually
+
+20
+00:03:33,360 --> 00:03:46,520
+ I'll give you some data sets, maybe one or two data sets. And then you try different
+
+21
+00:03:46,520 --> 00:03:53,440
+ machine learning methods on this data set and then present the results in the submitted
+
+22
+00:03:53,440 --> 00:04:00,200
+ report. And actually I will release actually the question for the assignment number one
+
+23
+00:04:00,920 --> 00:04:07,480
+ week six. Okay, so after week seven, there is one recess week, so you have time to work
+
+24
+00:04:07,480 --> 00:04:14,160
+ on this assignment. And but actually we need to submit the two assignments actually together
+
+25
+00:04:14,160 --> 00:04:22,680
+ and actually by week 10. Okay, so these are the two assignments. So two assignments together
+
+26
+00:04:22,680 --> 00:04:31,000
+ with the quiz, so 30 percent. And in the exam normally we have four questions. So one question
+
+27
+00:04:31,000 --> 00:04:36,520
+ from the genetic algorithm part and then three questions from the machine learning part. Okay,
+
+28
+00:04:36,520 --> 00:04:48,840
+ so these are the assignments. Okay, so before actually we look at the content we're going
+
+29
+00:04:48,840 --> 00:04:56,239
+ to study. So probably we first have a look of some very popular concept in machine learning
+
+30
+00:04:56,239 --> 00:05:02,799
+ or AI. Okay, so this AI machine learning neural networks deep learning actually are very popular
+
+31
+00:05:02,799 --> 00:05:09,640
+ words, right? So many people actually use these words exchangeably. Okay, some probably thought
+
+32
+00:05:09,640 --> 00:05:16,440
+ AI is machine learning machine AI, AI is deep learning neural networks AI. So they use these
+
+33
+00:05:16,480 --> 00:05:24,360
+ words exchangeably. And actually each of these four words, four terms has its own actually
+
+34
+00:05:24,360 --> 00:05:30,760
+ school. Okay, so before we look at the content we're going to study, we first have a clear
+
+35
+00:05:30,760 --> 00:05:40,320
+ actually understanding about the school of each of these four concepts. Okay, first we look at the
+
+36
+00:05:40,680 --> 00:05:47,640
+ AI and machine learning. What is AI? AI actually is a very broad term, very broad. Okay, any
+
+37
+00:05:47,640 --> 00:05:54,159
+ techniques that mimic human behavior can be considered AI techniques. Okay, you can think
+
+38
+00:05:54,159 --> 00:06:01,719
+ about your behavior, right? Your behavior, your actions in doing or in completing a certain task.
+
+39
+00:06:01,719 --> 00:06:09,320
+ Okay, then you simulate this process and then develop a computer program to implement this
+
+40
+00:06:09,440 --> 00:06:16,719
+ process. Then this technique actually is AI technique. Okay, so any technique that mimics human
+
+41
+00:06:16,719 --> 00:06:23,880
+ behavior can be considered as AI technique. So these are very broad, right? Any technique. Of
+
+42
+00:06:23,880 --> 00:06:35,480
+ course, we kind of mimic different organs of the human, right? And we kind of mimic humans
+
+43
+00:06:35,520 --> 00:06:43,200
+ with a system. Okay, and then we can develop the so-called computer vision, right? And also we
+
+44
+00:06:43,200 --> 00:06:50,920
+ have mimics human behavior in the language perception, natural language perception. So this
+
+45
+00:06:50,920 --> 00:06:57,440
+ is the amount of the field and natural language perception. And we can also simulate mimics human
+
+46
+00:06:57,440 --> 00:07:05,440
+ movement. And then we have developed the so-called autonomous vehicles, robotics. It's just
+
+47
+00:07:05,480 --> 00:07:11,440
+ to give some examples of AI techniques. Okay, so it's very broad. Okay, any technique. Okay,
+
+48
+00:07:11,440 --> 00:07:18,400
+ then what is a machine learning? And actually machine learning is a subfield of AI, subfield.
+
+49
+00:07:18,400 --> 00:07:25,920
+ Okay, actually from this diagram, we can also see machine, AI, the big pie, right? So actually
+
+50
+00:07:25,920 --> 00:07:32,280
+ machine learning is just a part of this pie. Okay, and so actually machine learning is a
+
+51
+00:07:32,320 --> 00:07:42,000
+ subset of AI which enables machine to learn from experience. Actually this experience means data. In
+
+52
+00:07:42,000 --> 00:07:48,559
+ other words, machine learning, of course, is AI technique, but it is a data-driven technique,
+
+53
+00:07:48,559 --> 00:07:56,599
+ it's data-driven. So machine learning is a data-driven AI technique. Okay, so we learn from
+
+54
+00:07:56,680 --> 00:08:08,680
+ data. If you look at the development of AI techniques from 1950s to 1970s, 1980s, actually
+
+55
+00:08:09,040 --> 00:08:16,520
+ the dominant technique in the artificial intelligence is the rule-based system, okay, or express
+
+56
+00:08:16,520 --> 00:08:25,080
+ system, or knowledge-driven system. Okay, so the AI techniques, or the AI systems are driven by
+
+57
+00:08:25,200 --> 00:08:33,400
+ knowledge. Okay, so in the past, there is one occupation which is called knowledge engineer. Okay,
+
+58
+00:08:33,400 --> 00:08:42,280
+ so knowledge engineer is responsible for acquiring knowledge from a dummy expert. Okay, so then
+
+59
+00:08:42,280 --> 00:08:50,640
+ the summary of the knowledge from the dummy expert into rules, if they're rules. Okay, if this
+
+60
+00:08:50,680 --> 00:08:56,480
+ certified condition, condition one is certified, and the condition two is certified, and then we have
+
+61
+00:08:56,480 --> 00:09:02,280
+ this action. Okay, if condition three is certified, condition four is certified, then we have another
+
+62
+00:09:02,280 --> 00:09:08,480
+ action. So it's a rule-based system, and this rule, actually the summarization of the knowledge
+
+63
+00:09:08,480 --> 00:09:18,360
+ acquired from the dummy experts. Okay, but now actually from 1950s, 1980s until now, machine
+
+64
+00:09:18,400 --> 00:09:26,040
+ learning is a dominant technique. Okay, machine learning is a data-driven. Okay, data-driven, of
+
+65
+00:09:26,040 --> 00:09:30,360
+ course, actually we need data, right, in the past probably the data is small, but nowadays, you
+
+66
+00:09:30,360 --> 00:09:38,000
+ know, we have big data, right, and also we have the, you know, CPU, GPU to process, you know, this
+
+67
+00:09:38,000 --> 00:09:45,920
+ big data. Okay, so nowadays, actually, data-driven technique is a dominant AI technique. Okay, so
+
+68
+00:09:45,959 --> 00:09:50,640
+ machine learning, okay, data-driven. And then data-driven, of course, actually, when we talk about
+
+69
+00:09:50,640 --> 00:09:58,240
+ data, right, we think about the statistics, okay, so the statistical algorithm actually plays an
+
+70
+00:09:58,240 --> 00:10:08,479
+ important role in the machine learning. Okay, and actually machine learning actually aims to not
+
+71
+00:10:08,479 --> 00:10:15,880
+ develop algorithm, right, but this algorithm actually should be able to enable the machine to
+
+72
+00:10:15,920 --> 00:10:22,720
+ learn from the data, from the data. Okay, so this is a machine learning technique, actually, so the
+
+73
+00:10:22,720 --> 00:10:27,360
+ data-driven, right, previously we have a knowledge-driven. Of course, nowadays, actually, many
+
+74
+00:10:27,360 --> 00:10:36,120
+ systems are hybrid systems. That means they both, they use both knowledge and the data. Okay, a
+
+75
+00:10:36,120 --> 00:10:41,160
+ knowledge, actually, what is knowledge? Knowledge is a summarization, right, summarization of the
+
+76
+00:10:41,160 --> 00:10:46,520
+ data. Now, we can have a lot of observations. Then, from the observations, the human can summarize
+
+77
+00:10:46,520 --> 00:10:52,880
+ the knowledge. Okay, so in a sense, actually, the knowledge is a kind of condensed data, condensed
+
+78
+00:10:52,880 --> 00:11:01,199
+ data, right? So in some applications, maybe the data you have is very limited and it's very hard to
+
+79
+00:11:01,319 --> 00:11:08,560
+ acquire extra data. And then, of course, just based on the limited data and machine learning
+
+80
+00:11:09,439 --> 00:11:17,479
+ performance could be bad, okay, could be unsatisfactory. Okay, so in such a scenario, actually,
+
+81
+00:11:17,680 --> 00:11:23,560
+ if we have ways to acquire knowledge from the expert, and then we integrate the knowledge and
+
+82
+00:11:23,560 --> 00:11:29,959
+ data in the system, okay, and then the performance, actually, could be better, right? At least the
+
+83
+00:11:30,000 --> 00:11:39,400
+ system could perform, outperform the data treatments only. Okay, so many systems are hybrid systems
+
+84
+00:11:39,400 --> 00:11:46,280
+ that integrate the knowledge and the data. Okay, so now that we look at machine learning,
+
+85
+00:11:46,280 --> 00:11:53,600
+ neural network and deep learning. And so, machine learning, so what is machine learning, actually?
+
+86
+00:11:53,840 --> 00:12:01,600
+ Later, we will see, actually, the central task of machine learning is to derive a model from the data.
+
+87
+00:12:02,000 --> 00:12:10,000
+ This model could be like a mathematical equation. Okay, so my equation, what I'm
+
+88
+00:12:10,000 --> 00:12:15,320
+ about equation, this equation could be linear equation, right? For example, we have a y equals
+
+89
+00:12:15,680 --> 00:12:22,840
+ a1 x1 plus a2 x2 plus a0. So this is a linear equation, right? s1, s2 are the features.
+
+90
+00:12:23,240 --> 00:12:30,920
+ Where is the target variable? We want to predict your salary, right? After your MSc study, your
+
+91
+00:12:30,920 --> 00:12:40,920
+ first job salary, okay, depends on many factors, right? Could be your CGPA in this MSc program,
+
+92
+00:12:41,400 --> 00:12:49,800
+ certainly, to influence your salary. Your undergraduate CGPA, certainly, could have an
+
+93
+00:12:49,800 --> 00:12:59,400
+ impact on your salary. So, certainly, y is just a salary, right? x1 is just your MSc,
+
+94
+00:12:59,400 --> 00:13:10,760
+ actually, CGPA. And then x2 is just your undergraduate CGPA. Okay, so we can fit such a model, right?
+
+95
+00:13:10,760 --> 00:13:15,959
+ So this is a linear model. But in many applications, actually, we need to use a tree, nonlinear models.
+
+96
+00:13:16,760 --> 00:13:24,280
+ Okay, nonlinear model, for example, y equals a1 x1 squared, okay? Because we have a squared term,
+
+97
+00:13:24,280 --> 00:13:30,920
+ right? Then the model becomes nonlinear, plus a2 square root of x2. Square root is certainly
+
+98
+00:13:30,920 --> 00:13:36,840
+ a nonlinear, okay? So these are nonlinear models, mathematical equation. And of course, for nonlinear
+
+99
+00:13:38,360 --> 00:13:45,480
+ models, we can also adopt the so-called neural network, neural network, okay? And
+
+100
+00:13:45,560 --> 00:13:53,880
+ neural network is kind of a model inspired by the principle or the function of the human
+
+101
+00:13:53,880 --> 00:14:03,000
+ neural system, okay? And so it's a nonlinear model, okay? And in the past, the neural network normally
+
+102
+00:14:04,680 --> 00:14:10,680
+ is a shallow structure. That means it just has a few layers. Normally, we have an input layer,
+
+103
+00:14:10,680 --> 00:14:16,839
+ we have a hidden layer, we have one or two layers, just two layers, okay? And it has been
+
+104
+00:14:16,839 --> 00:14:22,439
+ proved that two-layer neural network actually can transmit actually any nonlinear function, okay?
+
+105
+00:14:22,439 --> 00:14:29,479
+ So this neural network actually is one technique, one nonlinear model, okay? So neural network is a
+
+106
+00:14:29,479 --> 00:14:36,760
+ subfield of machine learning, right? So neural network is a subfield of machine learning.
+
+107
+00:14:36,760 --> 00:14:41,800
+ Machine learning can have different models, linear, nonlinear, but neural network is just a subset
+
+108
+00:14:41,800 --> 00:14:49,240
+ of nonlinear models, okay? So certainly, neural network is a subfield of machine learning, okay?
+
+109
+00:14:49,240 --> 00:14:55,560
+ But nowadays, actually, when we are dealing with unstructured data, such as image,
+
+110
+00:14:55,560 --> 00:15:03,880
+ videos, time series, natural language, okay? And we normally use the so-called deep neural networks.
+
+111
+00:15:04,680 --> 00:15:11,000
+ We need to have many layers in the neural network, okay? So that is a deep neural network. And of
+
+112
+00:15:11,000 --> 00:15:16,680
+ course, the learning of a deep neural network is just a deep learning, okay? So in other words,
+
+113
+00:15:16,680 --> 00:15:22,040
+ actually, deep neural network is a subset of the neural network. Neural networks can be shallow,
+
+114
+00:15:22,040 --> 00:15:27,480
+ can be deep, okay? But deep learning of a deep neural network is just one type of neural network,
+
+115
+00:15:27,480 --> 00:15:36,600
+ right? So it's a subfield of neural network, okay? So this is not true the relationship between
+
+116
+00:15:36,600 --> 00:15:43,640
+ machine learning and neural networks and deep learning, right? So, yeah, this relationship is
+
+117
+00:15:43,640 --> 00:15:51,880
+ clearly illustrated in this diagram, okay? You can see the big pie, right? It's the AI,
+
+118
+00:15:51,880 --> 00:15:58,120
+ and then a subfield of machine learning, and then a subfield of neural network,
+
+119
+00:15:58,120 --> 00:16:03,960
+ and then we have a deep neural network and a deep learning, okay?
+
+120
+00:16:07,720 --> 00:16:13,160
+ And then in this course, actually, we're not actually talking about the neural networks,
+
+121
+00:16:13,160 --> 00:16:19,560
+ including shallow or deep neural networks, okay? We will talk about other models in the
+
+122
+00:16:19,560 --> 00:16:25,640
+ machine learning, other issues in machine learning, okay? And actually, these issues actually
+
+123
+00:16:25,640 --> 00:16:29,959
+ can help you understand, actually, they are fundamentals. So nowadays, actually, I notice
+
+124
+00:16:29,959 --> 00:16:33,560
+ some students actually, they learn deep neural networks. Normally, deep neural networks are
+
+125
+00:16:33,560 --> 00:16:39,560
+ very complex, right? Normally, you just call the function, use the lab words. Some students
+
+126
+00:16:39,560 --> 00:16:46,920
+ even don't understand what is inside the neural network. And under such a scenario,
+
+127
+00:16:46,920 --> 00:16:53,000
+ you can use it even in your deep neural networks, but you don't really understand them, okay? You
+
+128
+00:16:53,000 --> 00:16:57,319
+ don't really understand machine learning, okay? I think machine learning is still the fundamentals,
+
+129
+00:16:57,319 --> 00:17:03,319
+ okay? Actually, when we, in a traditional machine learning system, and we normally have two main
+
+130
+00:17:03,319 --> 00:17:08,839
+ parts, okay? One is called feature extraction, okay? So, this part is also called a feature
+
+131
+00:17:08,839 --> 00:17:13,480
+ engineering, right? So, based on our knowledge and based on some mathematical manipulation,
+
+132
+00:17:13,480 --> 00:17:19,400
+ we extract features which are the characteristics of the input data, okay? And then the second part,
+
+133
+00:17:19,400 --> 00:17:25,800
+ actually, is the, is the pattern classification, okay? Pattern classifier, okay? But in the deep
+
+134
+00:17:25,800 --> 00:17:31,240
+ neural networks, so the two parts actually are combined together into one single model, okay?
+
+135
+00:17:31,240 --> 00:17:36,280
+ So, certainly, if you actually understand, actually, if you have a, actually, a solid foundation
+
+136
+00:17:36,280 --> 00:17:40,040
+ in machine learning, actually, when you look at the architecture of the deep neural networks,
+
+137
+00:17:40,120 --> 00:17:45,879
+ actually, it's nothing, right? It's just a combination of the, of the feature extraction part
+
+138
+00:17:45,879 --> 00:17:52,920
+ and the pattern classification part into one single model, right? It's not so mysterious, okay? So,
+
+139
+00:17:52,920 --> 00:17:57,480
+ I still think the fundamentals of machine learning are the most important things, all right? If you
+
+140
+00:17:57,480 --> 00:18:02,600
+ have this fundamental knowledge, actually, this actually will, you know, help you understand
+
+141
+00:18:03,159 --> 00:18:09,719
+ the more advanced, actually, techniques like deep neural networks, okay? So, in this course,
+
+142
+00:18:09,719 --> 00:18:17,480
+ actually, we will focus on other, actually, areas of machine learning, okay, rather than neural
+
+143
+00:18:17,480 --> 00:18:22,679
+ networks and deep learning. So, neural networks and deep learning, actually, of course, actually,
+
+144
+00:18:22,679 --> 00:18:28,439
+ are introduced in some other courses, right? And also, actually, in the next semester, actually,
+
+145
+00:18:28,520 --> 00:18:33,480
+ I have actually a seven-series, you know, seven-dontary series course for,
+
+146
+00:18:33,480 --> 00:18:37,800
+ which is neural network and deep learning. So, we will systematically introduce neural
+
+147
+00:18:37,800 --> 00:18:42,200
+ networks, shallow neural networks, and also the deep neural networks, okay? In the,
+
+148
+00:18:43,000 --> 00:18:53,080
+ 7207 is normally offered in semester two, okay? Okay, so, after now, we have a basic understanding
+
+149
+00:18:53,159 --> 00:18:58,840
+ about the main concept, AIM, machine learning, deep neural networks, and neural networks, right?
+
+150
+00:18:58,840 --> 00:19:05,159
+ And also, the scope of this course, and different of this concept. So, now, we look at the contents
+
+151
+00:19:05,159 --> 00:19:12,280
+ of the course. Okay, so, first, I think it's about introduction to machine learning. So,
+
+152
+00:19:12,280 --> 00:19:17,480
+ that is the task of today. Okay, so, I have an introduction to machine learning, starting from
+
+153
+00:19:17,480 --> 00:19:22,760
+ the human learning. And then, next week, actually, I talked about the data preparation for machine
+
+154
+00:19:22,760 --> 00:19:27,160
+ learning. So, later, you will see, in machine learning system, there are three main parts,
+
+155
+00:19:27,960 --> 00:19:33,240
+ data. Then, the second part is actually called abstraction. Okay, then the last part, actually,
+
+156
+00:19:33,240 --> 00:19:42,520
+ is generalization. Okay, so, data, of course, is a very important part. Okay, so, how to prepare the
+
+157
+00:19:42,520 --> 00:19:48,840
+ data for effective machine learning? Actually, we will be, actually, it's plowed in next week.
+
+158
+00:19:49,960 --> 00:19:54,680
+ After we have this basic understanding, then we will look at the super-hard learning.
+
+159
+00:19:56,440 --> 00:20:02,680
+ Okay, and so, later, we will look at this again, actually. Now, the machine learning can be, actually,
+
+160
+00:20:03,240 --> 00:20:09,000
+ categorizing into three or two or three main categories. If two categories, then it's just
+
+161
+00:20:09,000 --> 00:20:14,440
+ super-hard learning and unsuper-hard learning. So, now, the category is reinforcement learning.
+
+162
+00:20:14,440 --> 00:20:20,680
+ Okay, so, this course, actually, we will focus on the super-hard learning and unsuper-hard learning.
+
+163
+00:20:21,240 --> 00:20:27,320
+ In super-hard learning, we will study different techniques for pattern classification. Okay,
+
+164
+00:20:27,320 --> 00:20:34,520
+ and the basic decision rule, actually, is a kind of a statistical-based approach for machine learning.
+
+165
+00:20:34,520 --> 00:20:40,600
+ So, we make decisions based on probabilities. Okay, so, the central issue is how to estimate
+
+166
+00:20:40,600 --> 00:20:47,879
+ the probabilities. The probability of one object belonging to a certain clock. You take a picture,
+
+167
+00:20:47,879 --> 00:20:55,560
+ okay, then you estimate the probability that the picture belongs to a projector. Okay, and you
+
+168
+00:20:55,560 --> 00:21:05,240
+ take the picture, you estimate the probability that the picture belongs to a computer. Okay, so,
+
+169
+00:21:05,240 --> 00:21:12,840
+ we actually perform classification. We perform decision-making, actually, based on the probabilities.
+
+170
+00:21:13,399 --> 00:21:19,480
+ Okay, so, this is the basic decision rule, and after that, we will look at linear
+
+171
+00:21:19,480 --> 00:21:25,240
+ digital analysis. So, this is probably the most fundamental, actually, most classical,
+
+172
+00:21:25,240 --> 00:21:30,440
+ actually, pattern classifier. Okay, it's still effective. It's still widely used nowadays,
+
+173
+00:21:31,880 --> 00:21:37,080
+ linear digital analysis. Okay, very beautiful ideas, actually, in this, actually, in a method.
+
+174
+00:21:37,080 --> 00:21:42,680
+ Okay, all these methods, actually, are carefully selected. Okay, and then another, actually,
+
+175
+00:21:42,680 --> 00:21:49,160
+ one important, actually, method is called support-wide machines. And, actually, before deep
+
+176
+00:21:49,160 --> 00:21:55,240
+ learning, actually, support-wide machine was the most popular recent field in the artificial
+
+177
+00:21:55,240 --> 00:22:04,120
+ intelligence. Okay, so, of course, it was popular. Certainly, it has some merits. Okay, so, we actually
+
+178
+00:22:04,120 --> 00:22:11,960
+ introduced these support-wide machines. And then, a decision-trade, decision-trade. A decision-trade
+
+179
+00:22:11,960 --> 00:22:20,920
+ is kind of a classifier with a hierarchical tree structure. Okay, and it can be considered as a
+
+180
+00:22:21,560 --> 00:22:29,640
+ summarization of the rules into a tree. Okay, and after that, we will look at the
+
+181
+00:22:29,640 --> 00:22:35,000
+ denominator reduction and feature selection. Okay, and the other course is probably you also
+
+182
+00:22:35,000 --> 00:22:40,600
+ look at the dimension reduction. But that denominator reduction, most likely, is the so-called
+
+183
+00:22:40,600 --> 00:22:47,399
+ feature extraction. Okay, you produce some features, but these features have lost the
+
+184
+00:22:47,399 --> 00:22:53,719
+ original meanings. Okay, but the feature selection, we will select a subset of the original variables.
+
+185
+00:22:53,719 --> 00:22:58,760
+ Okay, so in this course, we will introduce feature selection rather than feature extraction
+
+186
+00:22:58,760 --> 00:23:06,360
+ as a method for the denominator reduction. Okay, and then, now, it's an evaluation classification.
+
+187
+00:23:06,360 --> 00:23:13,320
+ So, we can learn different classifiers based on the game and data. So, how about performance?
+
+188
+00:23:15,639 --> 00:23:20,199
+ When we talk about performance, how to evaluate? Okay, so that's the evaluation
+
+189
+00:23:20,199 --> 00:23:26,439
+ of classification. We will introduce different evaluation procedures and also different evaluation
+
+190
+00:23:26,439 --> 00:23:36,280
+ metrics. And then, it's regression. And super-adventure, there are two main topics.
+
+191
+00:23:36,360 --> 00:23:41,720
+ One is classification, another is regression. Okay, but the main topic is classification.
+
+192
+00:23:42,520 --> 00:23:49,960
+ Okay, so we also will spend probably two or three hours on the regression issue and the
+
+193
+00:23:49,960 --> 00:23:56,440
+ unsupervised learning. Okay, so after that, we will look at the unsupervised learning.
+
+194
+00:23:57,320 --> 00:24:02,040
+ Actually, unsupervised learning also two main issues, actually. One is classification.
+
+195
+00:24:02,040 --> 00:24:07,480
+ Classroom is a grouping of the data, another is association analysis. But we focus on
+
+196
+00:24:07,480 --> 00:24:13,560
+ classification, the grouping of the data. And we will introduce actually a full, typical
+
+197
+00:24:14,280 --> 00:24:19,399
+ classification method, central-based method, hierarchical-based method, and density-based
+
+198
+00:24:19,399 --> 00:24:25,159
+ method, distribution-based method for grouping of the data. And after you have done the grouping,
+
+199
+00:24:25,720 --> 00:24:32,200
+ so how about the results? How about the performance? So finally, it's the evaluation of the classification.
+
+200
+00:24:33,880 --> 00:24:40,520
+ Okay, so these are the main contents, all fundamental issues in the machine learning.
+
+201
+00:24:41,400 --> 00:24:49,160
+ And so now, actually, we talk about deep neural networks, deep learning. And some probably,
+
+202
+00:24:49,880 --> 00:24:56,200
+ misunderstandings, deep learning, deep neural networks. Actually, the deep neural networks are
+
+203
+00:24:56,200 --> 00:25:04,600
+ developed to address the classification of unstructured data, like image, like, you know,
+
+204
+00:25:04,600 --> 00:25:10,600
+ videos, like natural language. Okay, if you are working at different domain, you are not handling
+
+205
+00:25:10,600 --> 00:25:15,480
+ actually, you know, image, you are not handling actually, you know, the natural language. You just
+
+206
+00:25:16,200 --> 00:25:22,200
+ handle actually the data, conventional data, storing the database. This actually,
+
+207
+00:25:22,200 --> 00:25:28,520
+ conventional machine learning, actually, matter is sufficient. No need to adopt actually the so-called
+
+208
+00:25:28,520 --> 00:25:36,120
+ deep neural networks or deep learning. Okay, not because they are popular, and then I will use that,
+
+209
+00:25:36,120 --> 00:25:42,840
+ not for that reason, right? Actually, for a real neural problem, actually, normally we try our best
+
+210
+00:25:42,840 --> 00:25:52,439
+ to find a simple solution that could solve the problem. Okay, so I think this actually is still
+
+211
+00:25:52,439 --> 00:26:02,439
+ useful. Okay, this actually, like, I'll take some reference books. So nowadays, actually, we learn
+
+212
+00:26:02,439 --> 00:26:09,159
+ knowledge, or we learn a skill, a technique, not bit from the test book. Instead, we look for material
+
+213
+00:26:09,160 --> 00:26:15,320
+ from the web, right? So I think there's a lot of material on the Internet about machine learning,
+
+214
+00:26:15,320 --> 00:26:21,880
+ right? So you can always, you know, if you can understand the lecture, right? So probably,
+
+215
+00:26:21,880 --> 00:26:27,640
+ the way I introduce this concept is not good to you, right? You can read actually,
+
+216
+00:26:30,040 --> 00:26:37,000
+ knows all material written by others, then probably, you know, that you feel easier to follow, right?
+
+217
+00:26:37,000 --> 00:26:42,680
+ So if you have an issue with the lecture notes or lecture, right, you're always encouraged to
+
+218
+00:26:42,680 --> 00:26:55,480
+ read material written by others on the Internet. Okay. Okay, so that's actually, today, right,
+
+219
+00:26:55,480 --> 00:26:59,960
+ I focus on introduction to machine learning. But actually, before that, we first look at the human
+
+220
+00:26:59,960 --> 00:27:08,760
+ learning. So what is human learning? Okay. Learning, right? We see machine learning or AI actually,
+
+221
+00:27:08,760 --> 00:27:13,240
+ know, maybe human behavior, right? Machine learning, we use a machine computer to learn
+
+222
+00:27:13,240 --> 00:27:19,080
+ from the data, right? So certainly, we should mimic humans' way of learning. Okay. So before that,
+
+223
+00:27:19,080 --> 00:27:24,840
+ of course, actually, we should understand how human conduct learning, that is human learning, right?
+
+224
+00:27:25,000 --> 00:27:35,720
+ So in cognitive science, learning is typically referred to as the process of gaining knowledge
+
+225
+00:27:36,760 --> 00:27:44,120
+ from observations, gain knowledge from the observations. Okay. So this is learning,
+
+226
+00:27:44,679 --> 00:27:48,840
+ this learning. And then many of you actually are international students, right? Singapore is
+
+227
+00:27:48,840 --> 00:27:55,159
+ new to you, NTU is new to you. I believe actually, the first day, right, when you came to NTU campus,
+
+228
+00:27:55,879 --> 00:28:03,560
+ you probably felt lost, right? And you cannot locate the lecture data. Okay. And
+
+229
+00:28:04,520 --> 00:28:12,360
+ but actually, by observing the surroundings, right, by observing actually, you know, the NTU,
+
+230
+00:28:12,360 --> 00:28:17,480
+ you know, the distribution, the location of different lecture data, observing the, actually,
+
+231
+00:28:17,480 --> 00:28:23,160
+ the maps. And then you can find this, actually, finally, you can locate the lecture data. Okay.
+
+232
+00:28:23,160 --> 00:28:29,480
+ Actually, we learn, we gain knowledge through observations, right, for our feelings, right?
+
+233
+00:28:29,480 --> 00:28:33,960
+ When you just came to Singapore, look at the campus, or NTU campus, they're very clean, right? Very
+
+234
+00:28:33,960 --> 00:28:41,000
+ beautiful. So gain knowledge about, through observation, you gain the knowledge about NTU campus.
+
+235
+00:28:41,000 --> 00:28:47,560
+ Okay. So this is the difference in learning. And also another component of the learning,
+
+236
+00:28:47,560 --> 00:28:53,800
+ then, with more learning, tasks can be performed more efficiently. The first time, I believe,
+
+237
+00:28:53,800 --> 00:28:59,320
+ the first time in the first week, right, on Tuesday, I believe at that time, you are not,
+
+238
+00:28:59,320 --> 00:29:04,440
+ we're not very familiar with NTU, right? And then probably you spend some time
+
+239
+00:29:04,440 --> 00:29:10,840
+ and to find this lecture data, FT27. Okay. But actually, from the second week, and then the
+
+240
+00:29:10,840 --> 00:29:17,560
+ week, fourth week, I think you have no issue, right, to locate this lecture data. This is because,
+
+241
+00:29:17,560 --> 00:29:23,560
+ actually, you have learned, you have learned through the past year from the first week, okay.
+
+242
+00:29:23,560 --> 00:29:30,520
+ And then you can solve this problem more efficiently. This problem just to locate the lecture data
+
+243
+00:29:30,600 --> 00:29:37,160
+ FT27. This is just one example, right? Through learning, then we can solve problem more efficiently.
+
+244
+00:29:38,360 --> 00:29:46,040
+ So this defines the learning. Okay. So gain knowledge from observations, okay. Through practice,
+
+245
+00:29:46,760 --> 00:29:56,440
+ through experience, our performance improves. So this is defined as a learning. Okay. And actually,
+
+246
+00:29:56,440 --> 00:30:03,880
+ the human learning can be categorized, graded into three types. Okay. So the first type of learning
+
+247
+00:30:03,880 --> 00:30:12,600
+ is called learning directly and expert guidance. So this is, expert here is a very general concept.
+
+248
+00:30:13,880 --> 00:30:23,400
+ Appearance, teachers, even your peers, actually, could be the expert, right? So learning directly
+
+249
+00:30:23,400 --> 00:30:29,800
+ under the guidance of experts. So these are first types of learning. The second type is learning
+
+250
+00:30:29,800 --> 00:30:39,560
+ guarded by knowledge, directly guarded by experts, guarded by knowledge, okay, learned from experts.
+
+251
+00:30:40,440 --> 00:30:47,560
+ Okay. So this is a, in my high level learning, right, high level, okay. So this is the second
+
+252
+00:30:47,560 --> 00:30:55,800
+ type. And then the third type is called actually a self-learning, learning by self or self-learning.
+
+253
+00:30:55,800 --> 00:31:02,200
+ Okay. So that's actually, we're looking into each of these three types of learning, okay. Learning
+
+254
+00:31:02,200 --> 00:31:09,960
+ and expert guidance. We all have the experience, right? Actually, when we were very young, we were a
+
+255
+00:31:09,960 --> 00:31:16,280
+ baby, right? We learned from our parents, right? Actually, our parents actually, you know, told us,
+
+256
+00:31:16,280 --> 00:31:21,480
+ right? This is an apple, right? This is your father, this is your mother, right? This is your uncle.
+
+257
+00:31:22,120 --> 00:31:28,600
+ This is something else, right? So actually, we learned this directly from the parents, our parents
+
+258
+00:31:28,600 --> 00:31:36,120
+ actually are the experts. Okay. So this is when we were very young, right? Actually, and then after
+
+259
+00:31:36,679 --> 00:31:41,560
+ these, actually, then you go to primary school, right? Then we learn from our teachers, okay. So
+
+260
+00:31:41,560 --> 00:31:49,560
+ our learning is directly guarded by our teachers, okay. Our teacher taught us actually, you know,
+
+261
+00:31:50,120 --> 00:31:56,280
+ the words, right? Told us mathematics, okay. So we learned directly from them. Actually, now,
+
+262
+00:31:56,280 --> 00:32:01,399
+ even though in the university, right, we learn, even in the MSc program, right, or PhD student in
+
+263
+00:32:01,400 --> 00:32:08,520
+ this class, actually, you learn directly guarded by the expert. So I'm the expert in the machine
+
+264
+00:32:08,520 --> 00:32:16,280
+ learning. I guide you to learn this course, okay. So you learn directly guarded by me, okay. So this
+
+265
+00:32:16,280 --> 00:32:25,560
+ also belongs to this category, directly guarded by the expert. Actually, you may know when you are
+
+266
+00:32:25,879 --> 00:32:33,080
+ well after graduation, you get a good job, right? You are in the company. So normally, you are assigned
+
+267
+00:32:33,080 --> 00:32:40,120
+ a mentor, okay. And then the mentor will guide you, right? Tell you about cultures, tell you the
+
+268
+00:32:40,120 --> 00:32:46,120
+ skills of communication, tell you the skills of them, and some technical things, technical skills,
+
+269
+00:32:46,120 --> 00:32:51,159
+ okay. You again learn directly and the guidance, actually, of the expert,
+
+270
+00:32:52,120 --> 00:32:58,760
+ okay. And actually, throughout our whole life, okay, we adopt this method. We learn
+
+271
+00:32:58,760 --> 00:33:05,880
+ and the guidance of experts. You can imagine some old people, right, old people, very old,
+
+272
+00:33:05,880 --> 00:33:11,720
+ 80 years old, 90 years old, okay. So now, actually, you start from very young, right, you use a
+
+273
+00:33:11,720 --> 00:33:18,120
+ smartphone, right, smartphone, actually. But for some old people, actually, they don't know how to
+
+274
+00:33:18,120 --> 00:33:27,000
+ use that, right. They learn from their grandchildren. The grandchildren is a demi-expert, is their mentor,
+
+275
+00:33:27,000 --> 00:33:33,959
+ right. So even we, the people are very old, we still learn under the guidance of demi-experts.
+
+276
+00:33:36,919 --> 00:33:43,000
+ Okay. So this is the, I think the first, actually, top of the learning, okay. So at the different
+
+277
+00:33:43,080 --> 00:33:54,120
+ stage, actually, we have, yeah, okay. Okay. Then the second type of learning is a gain,
+
+278
+00:33:54,120 --> 00:34:03,320
+ actually, guided by knowledge, actually, gain from expert, by knowledge, okay. So this knowledge,
+
+279
+00:34:03,320 --> 00:34:08,920
+ so actually indirectly guided by the expert, right, indirectly guided by the expert,
+
+280
+00:34:08,920 --> 00:34:13,800
+ but directly guided by the knowledge. But the knowledge is gained from demi-experts.
+
+281
+00:34:15,960 --> 00:34:23,000
+ Okay. Some, here I also list some examples, right, examples. And I think the thing here is very
+
+282
+00:34:23,000 --> 00:34:28,680
+ important that the knowledge has been imparted by teacher or mentor. At some point of time,
+
+283
+00:34:28,680 --> 00:34:34,600
+ in some other context, they don't directly tell you something. They don't directly tell something,
+
+284
+00:34:34,600 --> 00:34:41,159
+ right. Actually, they, actually, you know, they just, but you have the knowledge, you have the
+
+285
+00:34:41,159 --> 00:34:49,400
+ knowledge. Okay. So here there is one example. So, so there are some objects in different colors,
+
+286
+00:34:49,400 --> 00:34:55,799
+ right. If the children, one child is given, actually, these are objects, objects, right.
+
+287
+00:34:55,799 --> 00:35:04,040
+ Now some red objects, strawberry and apple, actually, the cup, right, red. And then also some
+
+288
+00:35:04,120 --> 00:35:14,360
+ green objects like tree, watermelon, crocodile, and the frog, right. And actually, the child,
+
+289
+00:35:14,360 --> 00:35:19,240
+ actually, can put them into two different groups. Although their parents have never
+
+290
+00:35:19,960 --> 00:35:29,560
+ taught them this specific problem. But with the knowledge, okay, gain from their parents,
+
+291
+00:35:29,560 --> 00:35:33,560
+ and the God by the knowledge. So what is this knowledge? Actually, certainly,
+
+292
+00:35:34,520 --> 00:35:43,000
+ at some other time point, actually, the parent of the child, actually, told him about the color.
+
+293
+00:35:43,000 --> 00:35:49,320
+ He told him about the red color, you know, orange color, yellow color, purple color,
+
+294
+00:35:49,320 --> 00:35:54,200
+ blue, green, different colors, right. Certainly, he has this knowledge. He now,
+
+295
+00:35:54,839 --> 00:36:01,480
+ he, the child, actually, performs this task, put the things into two different groups with
+
+296
+00:36:01,480 --> 00:36:09,160
+ different colors, right. God is by the knowledge, by the knowledge of the color. So this specific
+
+297
+00:36:09,160 --> 00:36:16,839
+ problem has never taught, actually, by the parents, okay. But he taught something else,
+
+298
+00:36:16,839 --> 00:36:22,040
+ by the knowledge of the colors, okay. So certainly, here, this is a higher level
+
+299
+00:36:22,040 --> 00:36:29,480
+ learning, right. High level learning. Okay. And you learn the knowledge, right. You learn knowledge
+
+300
+00:36:29,480 --> 00:36:33,640
+ in this course, learn machine learning. And then you future, actually. So in this course,
+
+301
+00:36:33,640 --> 00:36:40,120
+ actually, normally, I don't talk too much about applications, okay. And actually, if you have
+
+302
+00:36:40,120 --> 00:36:46,200
+ a good understanding of this machine learning, then after graduation, or even during your
+
+303
+00:36:46,200 --> 00:36:50,759
+ project dissertation, right, your application, you apply the knowledge to solve a specific
+
+304
+00:36:50,759 --> 00:36:57,640
+ problem, okay. So this kind of learning is just the second type, right. I don't directly tell you
+
+305
+00:36:57,640 --> 00:37:04,839
+ how to solve a specific problem. Instead, I give you the general knowledge, okay. But based on the
+
+306
+00:37:04,839 --> 00:37:11,960
+ understanding of this knowledge, actually, you can solve a problem that has not been taught before.
+
+307
+00:37:12,920 --> 00:37:18,360
+ Okay. So this belongs to the second type of learning, guided by the knowledge. So certainly,
+
+308
+00:37:19,640 --> 00:37:25,400
+ you know, this is a higher level learning, right, than the first type.
+
+309
+00:37:28,440 --> 00:37:33,880
+ Okay. So this is something like you apply the knowledge, right. And actually,
+
+310
+00:37:34,840 --> 00:37:44,040
+ learning including, actually, learning including applying, right, application, or applying the
+
+311
+00:37:44,040 --> 00:37:50,280
+ knowledge, okay. I think this is easy to understand. Right here, you're leading to the lecture,
+
+312
+00:37:50,280 --> 00:37:54,520
+ my lecture, right. I give you an assignment, and then you give you an assignment, you work on the
+
+313
+00:37:54,520 --> 00:38:03,000
+ assignment. That is process is also actually a process of applying knowledge of machine learning
+
+314
+00:38:03,000 --> 00:38:10,120
+ to solve a specific panocletal problem. Okay. So this is also a learning process.
+
+315
+00:38:11,560 --> 00:38:17,160
+ Okay. So actually, this is actually a type of learning is basically is that is to apply the
+
+316
+00:38:17,160 --> 00:38:23,720
+ knowledge. Apply the knowledge is a part of the learning. Okay.
+
+317
+00:38:23,879 --> 00:38:24,359
+ Okay.
+
+318
+00:38:27,480 --> 00:38:31,319
+ And this is another example. Okay. And then actually,
+
+319
+00:38:33,720 --> 00:38:41,160
+ know the, know the children, right, have this knowledge, maybe from the teachers
+
+320
+00:38:41,799 --> 00:38:48,279
+ about the different norms. Okay. Like present norm, present norm, things norm, ideal, ideal, right.
+
+321
+00:38:48,280 --> 00:38:55,240
+ And also some verbs, some words. She has this knowledge. Okay. Learn. Okay. And now, actually,
+
+322
+00:38:55,240 --> 00:39:02,280
+ if the child is given some words like hospital, car, mother, right. And then actually, the child
+
+323
+00:39:02,280 --> 00:39:07,960
+ can separate the run from other words. Because he has the knowledge, a run is a verb. The other
+
+324
+00:39:07,960 --> 00:39:15,240
+ words like hospital, mother, and car, actually are norms. Okay. Although the parents have never
+
+325
+00:39:15,240 --> 00:39:22,120
+ taught the, or the teacher has never taught the child to separate the run from other three words.
+
+326
+00:39:23,160 --> 00:39:28,759
+ But with the knowledge taught before, actually, he can address this problem.
+
+327
+00:39:30,040 --> 00:39:34,919
+ So this is another example. So, you know, the, of the second time learning. Okay.
+
+328
+00:39:34,920 --> 00:39:43,560
+ Guarded by the knowledge, or applied the knowledge. Again, actually, at some point, right, before.
+
+329
+00:39:48,040 --> 00:39:52,840
+ Okay. So this is, you know, I think the second time, right, the second time.
+
+330
+00:39:59,000 --> 00:40:02,440
+ So that's actually look at the learning about ourselves, right. Actually, you know,
+
+331
+00:40:02,440 --> 00:40:08,840
+ self-learning is also actually an important way of learning, right. And of course, actually, you know,
+
+332
+00:40:08,840 --> 00:40:14,600
+ we learn, you know, from the, sometimes we see with self-learning, right. We learn, we read the
+
+333
+00:40:14,600 --> 00:40:19,160
+ textbooks. I think, in essence, they not called self-learning. Because, actually, you learn,
+
+334
+00:40:19,160 --> 00:40:24,680
+ as you guard by the expert, the expert is just a textbook. Okay. So self-learning here
+
+335
+00:40:24,680 --> 00:40:30,440
+ means actually other type of learning, right. This is the kind of learning, like when we are,
+
+336
+00:40:30,920 --> 00:40:37,000
+ very young, right. When we are baby, we learn to walk. Learn to walk, right. Of course, actually,
+
+337
+00:40:37,000 --> 00:40:43,160
+ maybe the parents or teachers could give some knowledge to us, right. How to stand up and then
+
+338
+00:40:43,160 --> 00:40:51,320
+ how to move forward, right. You know, to walk. We have some knowledge. Okay. But the child finally,
+
+339
+00:40:51,320 --> 00:40:58,440
+ actually, through the self-learning, right. And then finally, he can walk. And this self-learning
+
+340
+00:40:58,440 --> 00:41:05,800
+ also involves, you know, like success and failures. Okay. So this kind of learning is called
+
+341
+00:41:05,800 --> 00:41:11,400
+ self-learning. We all have these experience, right. If you have, forgot this, right, because
+
+342
+00:41:11,400 --> 00:41:15,960
+ at that time you were very young, right. Certainly, you will remember another example, right. For
+
+343
+00:41:15,960 --> 00:41:22,200
+ example, if you learn to ride a bicycle, right. Actually, that, actually, not maybe, yeah. So,
+
+344
+00:41:22,200 --> 00:41:28,040
+ maybe just 10 years ago, 15 years ago, you still remember this, right. And also, you know,
+
+345
+00:41:28,040 --> 00:41:37,240
+ basically, parents or peers, right. Friends, okay. And maybe give us some knowledge. But finally,
+
+346
+00:41:37,240 --> 00:41:47,160
+ through our own child, right. Try many tries, fail, and success. Give many tries. Finally,
+
+347
+00:41:47,240 --> 00:41:54,040
+ we learn, we know how to ride a bicycle. This is also kind of, actually, self-learning. Okay.
+
+348
+00:41:58,839 --> 00:42:03,319
+ So, not all things are taught by others, right. Others are like experts, right.
+
+349
+00:42:03,319 --> 00:42:11,240
+ Test book is an expert. Okay. So, a lot of things need to learn only from mistakes made in the past.
+
+350
+00:42:11,879 --> 00:42:16,759
+ Okay. So, this is a self-learning. And now, this, actually, this self-learning is also, I think,
+
+351
+00:42:16,759 --> 00:42:23,080
+ the popular. And actually, this is, I think, the idea is similar to the, you know, reinforcement
+
+352
+00:42:23,080 --> 00:42:30,200
+ learning. Reinforcement learning also, actually, through many tries. Okay. And then, you finally get
+
+353
+00:42:30,200 --> 00:42:39,799
+ the, actually, optimal solution. Okay. So, okay. This is a self-learning. Okay. So, next, actually,
+
+354
+00:42:39,880 --> 00:42:45,080
+ we look at what is machine learning. Okay. So, after, we have an understanding of human learning,
+
+355
+00:42:45,080 --> 00:42:52,200
+ right. And then, we look at the machine learning. Machine learning from human, right. Because,
+
+356
+00:42:52,200 --> 00:42:57,240
+ actually, machine learning or AI technique is a technique that mimics human behavior, right.
+
+357
+00:42:57,240 --> 00:43:03,160
+ You can, you can have different behaviors, right. You can also have a behavior of learning. So,
+
+358
+00:43:03,160 --> 00:43:09,960
+ machine learning actually learns the human's way of learning. Okay. So, sometimes, actually, when
+
+359
+00:43:09,960 --> 00:43:19,960
+ you have a project or you have an assignment, right, you have a certain task to perform. And you
+
+360
+00:43:19,960 --> 00:43:25,640
+ have no ideas how to solve that, right. And, at least, actually, you have no ideas how to develop
+
+361
+00:43:25,720 --> 00:43:32,680
+ a machine learning system to implement. And then, actually, you can always, actually,
+
+362
+00:43:32,680 --> 00:43:39,400
+ you know, think about how human are solved that problem. Okay. Sometimes, actually,
+
+363
+00:43:40,440 --> 00:43:45,799
+ based on your intuition, right. And, I just, I, even you don't think about that. Okay. You don't
+
+364
+00:43:45,799 --> 00:43:52,040
+ need to think about the whole process, but you can complete the process. You can complete the task,
+
+365
+00:43:52,120 --> 00:43:58,759
+ okay. Very, very efficiently. But you need to think about, you need to decompose the whole process
+
+366
+00:43:58,759 --> 00:44:05,480
+ in too many steps. You need to think about, so, at each step, actually, what specific task I have
+
+367
+00:44:05,480 --> 00:44:11,000
+ conducted. Okay. And then, from this, you know, decomposition of the whole process,
+
+368
+00:44:12,040 --> 00:44:17,800
+ now, we can learn the process, right. We can learn the details of how human solve this problem.
+
+369
+00:44:17,800 --> 00:44:24,520
+ So, at least, I think this can give us inspiration to develop a machine learning algorithm,
+
+370
+00:44:25,160 --> 00:44:31,480
+ right, to learn. Okay. So, machine learning, indeed, need to be inspired by the human learning.
+
+371
+00:44:32,440 --> 00:44:40,360
+ Okay. And so, let's look at the machine learning. So, do machine learning learn,
+
+372
+00:44:41,320 --> 00:44:49,560
+ so how do they learn? Okay. And, actually, this is a statement from a very famous professor in
+
+373
+00:44:49,560 --> 00:44:56,920
+ machine learning from CMU. And, so, a computer program machine, right. Normally, I think we
+
+374
+00:44:56,920 --> 00:45:02,280
+ see machine learning machine in the computer. And, my computer program is set to learn from its peers
+
+375
+00:45:02,920 --> 00:45:14,120
+ if its performance improves with the NPRS. Okay. So, here, we see this, actually,
+
+376
+00:45:15,000 --> 00:45:22,440
+ computer program aims to solve, actually, to perform certain tasks. This task is T,
+
+377
+00:45:23,000 --> 00:45:30,600
+ with a certain performance measure P. Okay. So, if this performance measure P improves,
+
+378
+00:45:31,560 --> 00:45:37,799
+ okay. And, with experience. And then, we can see, you know, this computer program lens.
+
+379
+00:45:39,160 --> 00:45:44,279
+ So, basically, this gives a definition, right, of machine learning. So, what is machine learning?
+
+380
+00:45:44,920 --> 00:45:51,240
+ A machine is set to learn. Okay. If its performance improves with the experience.
+
+381
+00:45:52,040 --> 00:45:57,160
+ This is the same as, you know, the definition of human learning, right. Human learning, you know,
+
+382
+00:45:57,560 --> 00:46:02,680
+ just now, actually, in one slide, actually, we have, you know, from the cognitive sense,
+
+383
+00:46:02,680 --> 00:46:07,640
+ what is learning, right. And, we have one characteristic of human learning. That is,
+
+384
+00:46:08,359 --> 00:46:17,319
+ our performance improves with more experience. So, here, for machine learning, also, actually,
+
+385
+00:46:17,319 --> 00:46:23,879
+ the machine performance improves with more experience. But, of course, the experience here
+
+386
+00:46:23,880 --> 00:46:30,360
+ means the data. So, where data is planted. With more data, with data, the performance improves.
+
+387
+00:46:32,440 --> 00:46:40,200
+ Okay. If the machine can improve the performance by having more data, and then, we see the machine
+
+388
+00:46:40,200 --> 00:46:48,680
+ lens from the data. Okay. So, this basically defines the machine learning, right.
+
+389
+00:46:53,960 --> 00:47:03,799
+ Okay. So, this, so, here, the machine can be, can it be able to gain, get the experience,
+
+390
+00:47:03,800 --> 00:47:08,920
+ get the experience, right. The experience here normally means data. The machine can get the data,
+
+391
+00:47:09,480 --> 00:47:22,120
+ right. And, then, the performance improves in doing the similar tasks in the future, right.
+
+392
+00:47:22,680 --> 00:47:32,120
+ And, actually, you know, the first time you come to this lecture theater, right,
+
+393
+00:47:32,200 --> 00:47:37,880
+ at 2027 for the machine learning course, right, on week one, right. On week one, Tuesday,
+
+394
+00:47:38,440 --> 00:47:44,680
+ and, certainly, actually, some probably have difficulty to find this room, this lecture
+
+395
+00:47:44,680 --> 00:47:51,480
+ theater, right. But, with more experience, right, in the future. So, today, compared with the week
+
+396
+00:47:51,480 --> 00:47:58,680
+ one, right, in the future, you can locate this room. The same task, locate the LT27,
+
+397
+00:47:59,640 --> 00:48:05,480
+ the same type. But, now, you can actually address this task, right, or conduct this task
+
+398
+00:48:06,279 --> 00:48:11,799
+ much more efficiently. This is because you have the experience, right. So, this is not
+
+399
+00:48:11,799 --> 00:48:17,640
+ machine learning, this definition is, so, basically, the same as the definition for the human learning.
+
+400
+00:48:20,839 --> 00:48:25,399
+ Okay. But, just, you know, the experience for human normally, you know, our own personal
+
+401
+00:48:25,400 --> 00:48:29,640
+ experience normally. Of course, it can be experienced from others, right. But, machine
+
+402
+00:48:29,640 --> 00:48:44,600
+ learning, this experience means data. Okay. So, the passive experience normally is the data,
+
+403
+00:48:45,400 --> 00:48:55,320
+ okay. And, so, for example, you learn to play checkers, this is the experience of playing
+
+404
+00:48:55,320 --> 00:49:02,760
+ checkers. So, no other experience, right. So, solve this problem, our data, or our experience,
+
+405
+00:49:02,760 --> 00:49:10,280
+ of solving the same problem. Okay. To locate the lecture theater of 27. Okay. In the first week,
+
+406
+00:49:10,920 --> 00:49:18,600
+ now, in the week four, the same task to locate the lecture theater of 27. Okay. And, you have
+
+407
+00:49:18,600 --> 00:49:26,120
+ the experience in the last three weeks. All right. So, certainly, today, you can conduct this task
+
+408
+00:49:26,759 --> 00:49:35,240
+ more efficiently because of the passive experience in the past three weeks. Okay. And, in image
+
+409
+00:49:35,240 --> 00:49:40,680
+ classification, this could be a task, right. The experience is represented in the past data
+
+410
+00:49:40,680 --> 00:49:49,799
+ with images, having labels. Okay. If you are required to, you know, if the machine is asked to
+
+411
+00:49:49,799 --> 00:49:55,160
+ perform a certain task, like image classification, it takes a lot of pictures, right. Then, based on
+
+412
+00:49:55,160 --> 00:50:02,600
+ the picture and the features and the language of the picture, we want to perform classification
+
+413
+00:50:03,160 --> 00:50:10,520
+ to see, oh, this object, I did learn to, like a projector. And, this picture is about
+
+414
+00:50:10,520 --> 00:50:17,080
+ chair. This picture is about person. Okay. So, this passive experience means the data.
+
+415
+00:50:18,040 --> 00:50:23,800
+ Of course, the data can be acquired by you or by someone else. Okay. So, the experience can be
+
+416
+00:50:23,800 --> 00:50:29,800
+ your own experience, can also learn from others' experience, right. Can also learn from the data
+
+417
+00:50:29,800 --> 00:50:37,160
+ collected by others. Okay. So, basically, you know, these are the machine learning, right. Actually,
+
+418
+00:50:37,160 --> 00:50:42,120
+ from the machine learning, so, where the machine learns, actually, from here, we have machine
+
+419
+00:50:42,120 --> 00:50:47,799
+ learns, we have this definition, right. Performing improves if we have more data. Then, we see the
+
+420
+00:50:47,799 --> 00:50:56,359
+ machine learns. This is the same as the human learning. Okay. And, of course, actually, you know,
+
+421
+00:50:56,359 --> 00:51:03,000
+ in this experience, in machine learning, means the data. Okay. So, data, that's also, you know,
+
+422
+00:51:03,400 --> 00:51:07,880
+ in the beginning of the class, we review the different concepts, right. Machine learning
+
+423
+00:51:07,880 --> 00:51:13,000
+ is a data driven, right. So, here, machine learning is an experimental driven, right.
+
+424
+00:51:13,000 --> 00:51:22,680
+ A data driven, right. We need to use data. Okay. So, I think now, it's 720. So, we have a short break.
+
+425
+00:51:22,680 --> 00:51:34,359
+ 10 minutes break.
+
+426
+00:52:22,680 --> 00:52:32,359
+ Okay.
+
+427
+00:52:52,680 --> 00:53:02,359
+ Okay.
+
+428
+00:53:22,680 --> 00:53:32,359
+ Okay.
+
+429
+00:53:52,680 --> 00:54:02,359
+ Okay.
+
+430
+00:54:22,680 --> 00:54:32,359
+ Okay.
+
+431
+00:54:52,680 --> 00:55:02,359
+ Okay.
+
+432
+00:55:22,680 --> 00:55:32,359
+ Okay.
+
+433
+00:55:52,680 --> 00:56:02,359
+ Okay.
+
+434
+00:56:22,680 --> 00:56:32,359
+ Okay.
+
+435
+00:56:52,680 --> 00:57:02,359
+ Okay.
+
+436
+00:57:22,680 --> 00:57:32,359
+ Okay.
+
+437
+00:57:52,680 --> 00:58:02,359
+ Okay.
+
+438
+00:58:22,680 --> 00:58:32,359
+ Okay.
+
+439
+00:58:52,680 --> 00:59:02,359
+ Okay.
+
+440
+00:59:22,680 --> 00:59:32,359
+ Okay.
+
+441
+00:59:52,680 --> 01:00:02,359
+ Okay.
+
+442
+01:00:22,680 --> 01:00:32,359
+ Okay.
+
+443
+01:00:52,680 --> 01:01:04,359
+ Okay.
+
+444
+01:01:04,359 --> 01:01:12,359
+ Okay.
+
+445
+01:01:12,360 --> 01:01:24,040
+ Okay.
+
+446
+01:01:24,040 --> 01:01:34,040
+ Okay.
+
+447
+01:01:34,040 --> 01:01:49,720
+ Okay.
+
+448
+01:01:49,720 --> 01:01:57,960
+ Okay. Actually, the basic machine learning process can be divided into three parts. Okay. And,
+
+449
+01:01:58,040 --> 01:02:03,640
+ the first part is the input data. Okay. Actually, we know machine learning is a data driven,
+
+450
+01:02:03,640 --> 01:02:09,000
+ right. So, certainly, you know, data is a very important part of the machine learning. Okay.
+
+451
+01:02:13,000 --> 01:02:19,480
+ So, this data could suggest a past data, right. And, of course, this data now could be later,
+
+452
+01:02:19,480 --> 01:02:24,520
+ we will see, could be labeled or could be unlabeled. And then, based on the data, the label,
+
+453
+01:02:24,600 --> 01:02:30,200
+ unlabeled data, we can perform different kind of learning. Okay. So, this is the input data.
+
+454
+01:02:30,200 --> 01:02:37,800
+ And, the first part of the machine learning process. And, then the second part is the abstraction.
+
+455
+01:02:39,240 --> 01:02:45,640
+ So, abstraction, the input data is represented in a broader way through the underlying algorithm.
+
+456
+01:02:45,640 --> 01:02:51,480
+ So, this is called abstraction. Okay. And then, the last one is the generalization.
+
+457
+01:02:51,480 --> 01:02:56,680
+ Generalization basically is to apply. Okay. You have applied, you have get them, you have
+
+458
+01:02:56,680 --> 01:03:02,440
+ a lane, right. The knowledge in the abstraction part. And then, in the generalization part,
+
+459
+01:03:03,000 --> 01:03:09,240
+ you apply the knowledge, okay, for future data. Okay. So, this is the generalization.
+
+460
+01:03:10,280 --> 01:03:17,560
+ And, actually, the data is a very important part. And, in the past, normally, this data is very
+
+461
+01:03:17,560 --> 01:03:24,200
+ specific, right. It's not specific. Now, we are, we are asked to solve a problem. And then,
+
+462
+01:03:24,200 --> 01:03:29,160
+ now, this, for that particular problem, specific problem, we need to collect data.
+
+463
+01:03:30,440 --> 01:03:37,880
+ Okay. And, we need to collect the data. And, we also need to label the data. Okay. For example,
+
+464
+01:03:38,440 --> 01:03:45,560
+ if you want to build a computer system, right, to classify anything in NTU campus,
+
+465
+01:03:45,799 --> 01:03:52,920
+ right. So, this is our task. And then, for this task, and then, we need to collect data. And,
+
+466
+01:03:52,920 --> 01:04:00,120
+ we need to take pictures of all objects, right, different objects in NTU campus, right. And,
+
+467
+01:04:00,120 --> 01:04:06,440
+ then, after taking pictures, we also need to label the picture. Oh, this picture shows a classroom.
+
+468
+01:04:06,520 --> 01:04:12,040
+ This picture shows a canteen. This picture shows, actually, you know, the,
+
+469
+01:04:14,600 --> 01:04:21,080
+ the student hall. Okay. So, we show, you know, we take pictures of different objects. And,
+
+470
+01:04:21,080 --> 01:04:26,360
+ also, we label this object. Okay. So, basically, I think this is normally for a specific,
+
+471
+01:04:26,360 --> 01:04:32,040
+ task-specific problem. And, always, if you have a specific problem, data collection normally is
+
+472
+01:04:32,920 --> 01:04:39,400
+ is a, is a, well, straightforward process. Okay. So, nowadays, actually, if you are on some
+
+473
+01:04:40,279 --> 01:04:46,520
+ big problem, like, large-language models, which, you know, is very popular in recent years, right.
+
+474
+01:04:46,520 --> 01:04:55,080
+ And, GBT, you know, GBT, 4.0, and also other large-language models. Okay. And, if you, actually,
+
+475
+01:04:55,080 --> 01:05:00,279
+ you know, want to train such a model, and treat the data collection, actually, is a, is a very big
+
+476
+01:05:00,280 --> 01:05:07,800
+ challenge. Big challenge. Okay. So, this, actually, is the, the, the, the dependent
+
+477
+01:05:07,800 --> 01:05:14,920
+ complexity of the problem. And, so, nowadays, if you, you know, want to propose a solution, right,
+
+478
+01:05:14,920 --> 01:05:23,960
+ for a problem. And, then, actually, one important part is the, the design, right, or the data
+
+479
+01:05:23,960 --> 01:05:29,560
+ collection. So, how to collect the data. Okay. For example, I have a certain project, actually,
+
+480
+01:05:29,560 --> 01:05:37,800
+ then, then we are, I locate $100,000, and just for data collection. Okay. So, this, actually,
+
+481
+01:05:37,800 --> 01:05:42,360
+ data collection, nowadays, actually, actually, is a, is a, is a, is a, is a, is a, is a, is a, is a,
+
+482
+01:05:42,360 --> 01:05:48,360
+ receive more and more, actually, attention. And, this, because, actually, the linear results
+
+483
+01:05:48,440 --> 01:05:55,960
+ normally directly determined by the quality and the quantities of the input data. Okay. So,
+
+484
+01:05:57,080 --> 01:06:02,760
+ we need to emphasize this point. And, sometimes, actually, we are, now, given a task, the data is
+
+485
+01:06:02,760 --> 01:06:07,480
+ provided, most likely, right. You do research, you get the data from the web, right, and the
+
+486
+01:06:07,480 --> 01:06:11,560
+ public will have the data. The data is collected by others. Okay. You have no choice. You just,
+
+487
+01:06:11,560 --> 01:06:17,080
+ based on this data, then, you design a machine learning algorithm to learn the model that could
+
+488
+01:06:17,160 --> 01:06:22,840
+ perform the best. But, if you are given a task, you have no data, right, you need to collect data.
+
+489
+01:06:22,840 --> 01:06:28,040
+ And, then, you need to carefully design, actually, the data collection process. So, you need to
+
+490
+01:06:28,040 --> 01:06:34,279
+ think about what data should collect. Okay. In order to produce a model that could have a very
+
+491
+01:06:34,279 --> 01:06:40,840
+ good performance. Okay. So, I want to emphasize the importance of data collection. Okay. So, nowadays,
+
+492
+01:06:40,840 --> 01:06:47,480
+ most likely, you just use other data. You cannot appreciate the importance of the data collection.
+
+493
+01:06:48,360 --> 01:06:53,080
+ But, actually, this is the very important part, right. Just like you cook a meal, right. Actually,
+
+494
+01:06:53,080 --> 01:06:57,560
+ cook a meal. Actually, the important thing, actually, most important thing probably the
+
+495
+01:06:58,440 --> 01:07:05,560
+ ingredient, right, the fresh materials. Okay. And, then, through some cooking skill, right,
+
+496
+01:07:05,560 --> 01:07:13,240
+ then you can make a good meal. Okay. So, this is, you know, fresh food, the quality, right. Just
+
+497
+01:07:13,240 --> 01:07:20,120
+ like the quality of the data. Very important. Okay. So, now, actually, we first look at the
+
+498
+01:07:20,120 --> 01:07:25,640
+ abstraction. So, what is abstraction? Abstraction aims to derive a conceptual map.
+
+499
+01:07:26,600 --> 01:07:34,680
+ A conceptual map. And, this is a conceptual map, actually, you know, it's just a model. Okay. So,
+
+500
+01:07:35,319 --> 01:07:44,759
+ abstraction aims to derive a model from the input data. So, this is the object of the abstraction.
+
+501
+01:07:46,040 --> 01:07:51,799
+ And, so, of course, actually, this abstraction, or derive model, should be based on certain
+
+502
+01:07:52,520 --> 01:08:00,440
+ learning algorithm, right, learning algorithm. Okay. So, this is a model, and it could be
+
+503
+01:08:00,440 --> 01:08:07,720
+ in different forms. Okay. And, so, it could be the computation blocks, like if else rules,
+
+504
+01:08:08,760 --> 01:08:15,720
+ if then rules, or if else rules, right. So, this could be a model, right. Actually, abstraction.
+
+505
+01:08:15,720 --> 01:08:25,560
+ Okay. We, just from the given data, we extract this. Okay. We extract, actually, a model. This
+
+506
+01:08:25,560 --> 01:08:32,440
+ model is also a conceptual map. It is a kind of summarized knowledge representation of the raw
+
+507
+01:08:32,440 --> 01:08:39,720
+ data. It's a, the model, actually, is kind of a condensed or summarized knowledge representation
+
+508
+01:08:40,360 --> 01:08:46,760
+ underlying, you know, the knowledge is underlying the data. Okay. So, model is a kind of condensed or
+
+509
+01:08:46,760 --> 01:08:54,280
+ summarized representation of the knowledge underlying the data. Okay. So, this actually could
+
+510
+01:08:54,359 --> 01:08:58,120
+ have different forms. First, it could be the if then rules.
+
+511
+01:09:01,160 --> 01:09:06,359
+ Right. Okay. And then, actually, the other model could be mathematical equations. Now,
+
+512
+01:09:06,359 --> 01:09:13,000
+ I introduced, right, and we could have many linear equations, like y equals to a1 x1 plus a2 x2,
+
+513
+01:09:13,000 --> 01:09:19,160
+ right, plus a0. So, these are very simple linear equations. Right. So, this is a linear model,
+
+514
+01:09:19,160 --> 01:09:24,760
+ mathematical equation. And we could have a more complex equation, like a nonlinear function,
+
+515
+01:09:24,760 --> 01:09:31,880
+ nonlinear equation. We could have a very complex, deep neural networks. Okay. So, these are all the
+
+516
+01:09:31,880 --> 01:09:41,399
+ mathematical equation, model form. And we could also have, actually, a model with a tree structure,
+
+517
+01:09:41,399 --> 01:09:48,519
+ a graph, a graph neural network, or decision trees, actually, are popular, you know, model
+
+518
+01:09:48,519 --> 01:09:57,879
+ representations. Okay. And, okay. So, this is a model form. And actually, this is a non-model or
+
+519
+01:09:57,879 --> 01:10:05,799
+ conceptual map. Could it be a grouping of similar observations? The grouping of the observations
+
+520
+01:10:05,800 --> 01:10:13,720
+ is also kind of a model. It's also a model, a length, actually, from the data. You are given a lot
+
+521
+01:10:13,720 --> 01:10:18,840
+ of things based on the color, based on the shape, or based on the other characteristics. You put
+
+522
+01:10:18,840 --> 01:10:25,240
+ similar objects into one group. So, actually, this is the last part, actually, it's just the
+
+523
+01:10:25,880 --> 01:10:33,800
+ classroom problem. So, this is the answer for the linear. Okay. So, we can have different, you
+
+524
+01:10:34,040 --> 01:10:39,000
+ know, models. So, abstraction, the second component, second part of the machine-linear
+
+525
+01:10:39,000 --> 01:10:45,000
+ abstraction aims to derive a model. This model, of course, can be a mathematical model,
+
+526
+01:10:45,000 --> 01:10:50,680
+ can be if-then-rules, can be a classification tree, right, can be a tree, can be a grouping of the
+
+527
+01:10:50,680 --> 01:11:00,440
+ data, different forms. Okay. So, this is abstraction. But, of course, which model form to adopt
+
+528
+01:11:00,440 --> 01:11:04,599
+ actually depends on application. Okay. So, the type of problem to be solved
+
+529
+01:11:05,799 --> 01:11:15,160
+ determines actually, you know, actually, the model form. And so, this is the
+
+530
+01:11:17,719 --> 01:11:24,120
+ type of problem, the nature of the input data. Actually, in the next week, when we look at the
+
+531
+01:11:24,120 --> 01:11:30,519
+ data preparation for machine-learning, we will know the data could have different types.
+
+532
+01:11:31,080 --> 01:11:38,599
+ Some data are categorical data. Like, you know, for example, top of the gender sex, right, male or
+
+533
+01:11:38,599 --> 01:11:45,720
+ female. Okay. So, this is a categorical variable, right. And even under this category, you know,
+
+534
+01:11:45,720 --> 01:11:54,680
+ some could be ordinal, have an order, but some don't have an order. Okay. So, different,
+
+535
+01:11:54,680 --> 01:12:01,800
+ these are different data. Some data could be continuous, real data, we think about the temperature
+
+536
+01:12:01,800 --> 01:12:07,800
+ of the room, right. Actually, you know, temperature, there is specific real value, okay, numerical
+
+537
+01:12:07,800 --> 01:12:14,520
+ data. Okay. So, depending on the nature of the data, we could determine what type of model to use.
+
+538
+01:12:15,080 --> 01:12:20,680
+ And this is because for some data, for some models, they will not often assume the data
+
+539
+01:12:20,680 --> 01:12:24,680
+ for a certain distribution, like Gaussian distribution or whatever, right. So, normally,
+
+540
+01:12:24,680 --> 01:12:31,640
+ these assumptions assume the data is continuous. It's a numerical value, right. It's a real value
+
+541
+01:12:31,640 --> 01:12:37,640
+ variable. But either variable is categorical. Certainly, it will not follow, it will not follow
+
+542
+01:12:37,640 --> 01:12:43,720
+ the Gaussian distribution. Certainly, we should not use this type of model. Okay. So, the nature
+
+543
+01:12:43,720 --> 01:12:49,560
+ of the data, the type of the data also determine what model we should use. In such a scenario,
+
+544
+01:12:49,560 --> 01:12:53,880
+ if the data is mixed, right, all the data, you know, has a categorical. Quite often,
+
+545
+01:12:53,880 --> 01:13:00,040
+ we use the super if then rules, we use a tree. Tree, you know, is a kind of a decision tree,
+
+546
+01:13:00,040 --> 01:13:09,560
+ kind of a hierarchical or emulation of the trees, of the decision, of the rules. Okay. So,
+
+547
+01:13:09,640 --> 01:13:14,920
+ this is the model, right. If the model is real values, then we can use other type of models.
+
+548
+01:13:14,920 --> 01:13:19,800
+ So, it's kind of nature, the nature of the data. And also, some of this depends on the nature of the
+
+549
+01:13:19,800 --> 01:13:28,120
+ domain or the problem. And in some scenarios, I think that we hope the model could produce the
+
+550
+01:13:28,120 --> 01:13:37,080
+ best performance. Even the model predicts a wrong result. We are not actually, you know,
+
+551
+01:13:37,960 --> 01:13:44,840
+ result in a disaster. Right. For example, we can use a tree like a web page, right.
+
+552
+01:13:45,800 --> 01:13:54,680
+ We can look at what web pages you have seen in the past day. So, from this web page,
+
+553
+01:13:54,680 --> 01:14:02,280
+ you have seen, you have read, and then we can predict your interest. Or your interest in news,
+
+554
+01:14:02,360 --> 01:14:10,360
+ or your interest in sports, your interest in education news, or your interest in like food.
+
+555
+01:14:11,160 --> 01:14:15,480
+ Okay. Even though this prediction is wrong, actually, you are trying to look for
+
+556
+01:14:17,719 --> 01:14:22,440
+ material on the web on machine learning, right. But they recommend something about chemistry.
+
+557
+01:14:23,559 --> 01:14:28,599
+ But then there will not be a disaster to you, right. You just say, oh, this is not irrelevant to me.
+
+558
+01:14:28,600 --> 01:14:34,520
+ This web page is irrelevant to me. I just skip. I look at others. So, this is just some application,
+
+559
+01:14:34,520 --> 01:14:40,440
+ right. It's not that critical. But for some applications, actually, the decision is very
+
+560
+01:14:40,440 --> 01:14:50,440
+ critical. Okay. And then we have a CT. We have an MRI image. And we input this image,
+
+561
+01:14:50,440 --> 01:14:57,240
+ the input data to an abstraction path, right. Then we will develop a model. And then the model,
+
+562
+01:14:57,240 --> 01:15:03,719
+ we are now performing diagnosis of the disease. Oh, the person has cancer. This person does not
+
+563
+01:15:03,719 --> 01:15:10,760
+ have cancer. So, this decision is very critical, right. Very critical. So, in such a scenario,
+
+564
+01:15:10,760 --> 01:15:18,280
+ we hope that the model could be explainable. Okay. We don't only want to know the prediction result.
+
+565
+01:15:18,840 --> 01:15:25,160
+ We also want to know how this result is obtained. We want to look at the decision process. We hope
+
+566
+01:15:25,160 --> 01:15:32,120
+ the model is explainable. Okay. So, again, based on this requirement, based on this nature of the
+
+567
+01:15:33,160 --> 01:15:38,840
+ problem, right. And we need to use certain types of models, like a decision tree. Okay.
+
+568
+01:15:38,840 --> 01:15:45,800
+ Decision tree, if the data is mixed, have categorical variables. And it has actually like a real
+
+569
+01:15:45,800 --> 01:15:53,400
+ value of variables. And also, we hope actually the decision could be explainable. Then we can use
+
+570
+01:15:53,480 --> 01:15:59,879
+ actually the decision tree. Okay. If there is no need to know that this decision process,
+
+571
+01:15:59,879 --> 01:16:03,960
+ I just want to know the result. Then a black box model, like a neural networks, we will do.
+
+572
+01:16:05,240 --> 01:16:09,799
+ Right. So, this is a dependent application. Okay. So, we decide the model form.
+
+573
+01:16:12,759 --> 01:16:18,839
+ Okay. So, let's say we look at, so, abstraction, right, to let a model, to derive a model.
+
+574
+01:16:18,840 --> 01:16:24,760
+ Okay. And so, once the model is chosen, you decide what model form to use. Right. We want to use
+
+575
+01:16:24,760 --> 01:16:31,320
+ a linear model. We want to use this nonlinear model. We want to use a tree structure model.
+
+576
+01:16:31,320 --> 01:16:37,640
+ Once you have decided this, and then we need to, the next step is to fit a model based on the input
+
+577
+01:16:37,640 --> 01:16:47,800
+ data. Model fitting to fit a model. So, what is, what is fitting a model? Actually, fitting a model
+
+578
+01:16:47,800 --> 01:16:55,320
+ is just a process to determine the values of the parameters in the model. This just shows a very
+
+579
+01:16:55,320 --> 01:17:03,000
+ simple example. Y equals to X, Y, X plus C2. X is a feature. Y is a target variable. Target
+
+580
+01:17:03,000 --> 01:17:11,160
+ can kind of could be a class. Okay. X could be your CGPA. Y, whether you could be admitted to
+
+581
+01:17:11,160 --> 01:17:17,639
+ this CCPA program, or to this signal processing machine learning program, MSC program. Y is just
+
+582
+01:17:17,639 --> 01:17:24,920
+ such a decision. Okay. So, this is known. And the tree, of course, the tree, this Y and X feature
+
+583
+01:17:24,920 --> 01:17:33,480
+ under the target variable is linked, connected by the coefficient C1 and also C2. Okay. So, fitting
+
+584
+01:17:33,559 --> 01:17:41,719
+ a model is just a process to determine the values for the two parameters C1 and C2 based on the data.
+
+585
+01:17:44,280 --> 01:17:49,240
+ Okay. Of course, actually, how to determine the value of C1 and C2. So, we have different methods
+
+586
+01:17:49,240 --> 01:17:55,719
+ to determine C1 and C2. Actually, so later now, from week, from week six, right, from week six,
+
+587
+01:17:55,719 --> 01:18:01,799
+ we will just study different methods to determine the values of C1 and C2. So, this is called fitting
+
+588
+01:18:01,800 --> 01:18:07,960
+ a model. And actually, under the machine learning context or domain, fitting a model is often,
+
+589
+01:18:07,960 --> 01:18:14,920
+ is more often, right, more frequently called learning. Okay.
+
+590
+01:18:21,160 --> 01:18:25,480
+ So, the process of fitting a model based on the data, it also called training or learning,
+
+591
+01:18:26,120 --> 01:18:30,919
+ machine learning, machine training, right. Actually, in statistics, statistics, right,
+
+592
+01:18:30,919 --> 01:18:35,719
+ actually, you know, this is just called fitting a model fitting or sometimes called parameter
+
+593
+01:18:35,719 --> 01:18:42,200
+ estimation. So, this is in statistics, in many, many, we call this as a parameter estimation
+
+594
+01:18:42,200 --> 01:18:47,320
+ or model fitting. But in machine learning, we often call this as a machine learning,
+
+595
+01:18:47,960 --> 01:18:55,240
+ a model learning or model training. Okay. So, because actually, we link the machine
+
+596
+01:18:55,240 --> 01:18:59,960
+ learning to human learning, right. So, it's a learning. So, we're training learning. We use this
+
+597
+01:18:59,960 --> 01:19:05,559
+ the worst. Okay. But actually, it's just to find the value of unknown parameters. It's just a
+
+598
+01:19:05,559 --> 01:19:15,320
+ parameter estimation for the model. Okay. And the data used to fit the model, the data used to
+
+599
+01:19:15,320 --> 01:19:21,320
+ estimate the parameters of the coefficient, right. Actually, I call training data.
+
+600
+01:19:23,559 --> 01:19:29,160
+ Okay. The training data. So, now, actually, for machine learning problem, we have input data,
+
+601
+01:19:29,160 --> 01:19:36,599
+ right. And actually, this data, of course, actually, you know, in the model evaluation part, we will
+
+602
+01:19:37,719 --> 01:19:42,360
+ talk about the model evaluation. Quite often, we have the input data, right. We divide them into
+
+603
+01:19:42,360 --> 01:19:48,440
+ two parts, or three parts. One part is used as a training data. Another part is used as a testing
+
+604
+01:19:48,440 --> 01:19:54,280
+ data. Or one additional part is used as a validation data. Okay. So, not all the data, actually, you
+
+605
+01:19:54,280 --> 01:20:00,519
+ have will be used to train the model, to learn the values for the parameters in the model.
+
+606
+01:20:01,480 --> 01:20:08,040
+ Part of that will be used to train the model, right, to learn the parameter values. So, this part
+
+607
+01:20:08,040 --> 01:20:21,160
+ of data is called training data, or learning data. Okay. Okay. So, this is a learning, right, learning
+
+608
+01:20:21,160 --> 01:20:27,000
+ to derive a model. Okay. Of course, the first we need to determine the model form. And then we
+
+609
+01:20:27,000 --> 01:20:33,160
+ determine the value of the parameters in the model. So, this is the abstraction part. Okay. So, once
+
+610
+01:20:33,240 --> 01:20:38,680
+ we have obtained a model, right, and we need to apply the model, actually, of course, why you
+
+611
+01:20:38,680 --> 01:20:46,200
+ develop a model, right, the ultimate goal is to apply the model for future data. Actually, this is
+
+612
+01:20:46,200 --> 01:20:58,280
+ called generalization. Generalization. Okay. And so, quite often, when we think about machine
+
+613
+01:20:58,280 --> 01:21:03,400
+ learning, right, within abstraction part, we learn the parameter model, value for parameters,
+
+614
+01:21:03,400 --> 01:21:07,880
+ actually, this is just a part of the machine learning, right. Data collection is also part of
+
+615
+01:21:07,880 --> 01:21:14,280
+ the machine learning. Then the parameters of your model based on the data is the second part.
+
+616
+01:21:14,280 --> 01:21:20,840
+ The last part, generalization, is also is a learning process. You apply the knowledge, right. You
+
+617
+01:21:20,840 --> 01:21:27,160
+ apply the knowledge. And then in the progress, you will know when you apply this knowledge,
+
+618
+01:21:27,240 --> 01:21:31,960
+ and you have a prediction. And the prediction sometimes could be wrong, right. From the wrong
+
+619
+01:21:31,960 --> 01:21:39,240
+ result, you also learn. Okay. So, you just remember, apply the knowledge is also a part of the learning
+
+620
+01:21:39,240 --> 01:21:49,880
+ process. Okay. So, apply the knowledge is just the generalization. Okay. So, the other part is to,
+
+621
+01:21:50,840 --> 01:21:58,840
+ to, okay, use to make future decisions. Future decisions. Okay. And so, yeah.
+
+622
+01:22:01,880 --> 01:22:07,240
+ So, this actually, we will apply the knowledge for future data. So, these future data, actually,
+
+623
+01:22:07,240 --> 01:22:15,640
+ are often called testing data or test data. Okay. So, quite often, I mentioned, when we have some
+
+624
+01:22:15,640 --> 01:22:22,520
+ data, we collect some data, right. We divide the data into at least two parts, right. One is used
+
+625
+01:22:22,520 --> 01:22:29,400
+ to train the model. Another use will be used to test the data, test the model. Okay. So, this is the
+
+626
+01:22:29,400 --> 01:22:36,360
+ process. Right. So, the second part, apply the model to the test data is called generalization.
+
+627
+01:22:36,360 --> 01:22:45,160
+ Okay. And actually, the model performance, the generalization performance, right, actually,
+
+628
+01:22:46,200 --> 01:22:53,400
+ depends on many factors, of course, right. Many factors. Okay. And of course, actually, when we,
+
+629
+01:22:53,400 --> 01:23:01,000
+ when we actually apply this to future, right, actually, we assume, we assume, actually, the
+
+630
+01:23:01,720 --> 01:23:07,720
+ testing data, actually, are similar to the training data. Right. You have the knowledge,
+
+631
+01:23:07,720 --> 01:23:13,320
+ right, of the location of the LT27, right. So, you land this in the first few times,
+
+632
+01:23:13,320 --> 01:23:19,160
+ then you know, from your, from a canteen B or from your home, what is the shortest path
+
+633
+01:23:19,160 --> 01:23:25,080
+ to this electric data, right. So, for the first few weeks, you have landed, right. But now,
+
+634
+01:23:25,160 --> 01:23:37,880
+ if you have a task, the location, not LT27, the LT, like 1A, LT1, why is it, right. So,
+
+635
+01:23:37,880 --> 01:23:42,440
+ your knowledge about the location of this, actually, now you are given a new task to
+
+636
+01:23:42,440 --> 01:23:49,720
+ locate the LT1. Why is it? But actually, the testing data is very different from the,
+
+637
+01:23:50,360 --> 01:23:56,360
+ training data. And then the performance could be bad. Okay. So, when we,
+
+638
+01:23:57,480 --> 01:24:02,920
+ generate this model, land from the training data, actually, we assume the testing data
+
+639
+01:24:03,480 --> 01:24:10,760
+ is similar to the training data. Okay. And when we, during this generalization process,
+
+640
+01:24:10,760 --> 01:24:16,920
+ quite often, we could encounter two problems. Okay. So, the first problem is that the training,
+
+641
+01:24:16,920 --> 01:24:25,240
+ the training model is aligned with the training data too much, too well. And this is often called,
+
+642
+01:24:25,240 --> 01:24:34,360
+ actually, the overfitting. So, here I show a diagram. Okay. So, actually, you know, we have
+
+643
+01:24:34,920 --> 01:24:42,120
+ each dot, actually, is a one sample. So, X is a feature, X, horizontal X is a feature. The vertical
+
+644
+01:24:42,200 --> 01:24:49,240
+ X is just the output, the response variable. Okay. And so, in the first tree, roughly,
+
+645
+01:24:49,240 --> 01:24:56,280
+ now we can see, actually, X and Y has a linear relationship. Okay. So, in the first, in the
+
+646
+01:24:56,280 --> 01:25:01,960
+ diagram, actually, we can see the line, the three lines, it captures the train and the train,
+
+647
+01:25:01,960 --> 01:25:08,280
+ and the line, the two variables. It's a linear relationship. But in the second tree scenario,
+
+648
+01:25:08,840 --> 01:25:15,160
+ actually, we see, actually, we have a nonlinear curve, right, that passes through every data point.
+
+649
+01:25:15,880 --> 01:25:22,840
+ So, the second scenario is overfitting. That means, actually, the model is aligned with the
+
+650
+01:25:23,400 --> 01:25:30,840
+ training data too well. Okay. And why too well is bad? And this is because the data normally
+
+651
+01:25:30,840 --> 01:25:37,240
+ has noise, right? The data has noise. You, then, actually, our model tries to capture the noise,
+
+652
+01:25:37,800 --> 01:25:42,200
+ but we know the noise is not random, right? So, in this sample, the noise is this value.
+
+653
+01:25:42,200 --> 01:25:47,400
+ Then, another sample, the noise could be a different value. Okay. But you assume that the
+
+654
+01:25:47,400 --> 01:25:52,519
+ future data has the same value as the random noise, right? Could have the same value as the
+
+655
+01:25:52,519 --> 01:26:02,920
+ train data noise. That's not impractical, right? That's not true. Okay. So, in overfitting, most
+
+656
+01:26:02,920 --> 01:26:10,600
+ likely, we overfit the data. We fit, actually, the noise underlying the data. Okay. We feel to
+
+657
+01:26:10,600 --> 01:26:18,840
+ capture the main train underlying the data, just like this example shows. Okay. So, in such a scenario,
+
+658
+01:26:18,840 --> 01:26:24,840
+ when we perform generalization, the performance could be very bad. Although the performance on the
+
+659
+01:26:24,840 --> 01:26:31,560
+ training data is perfect or very well, but the performance on the testing data could be very
+
+660
+01:26:31,560 --> 01:26:42,200
+ bad. So, this is the more important issue overfitting. Okay. And then, another tree could be that tree,
+
+661
+01:26:42,200 --> 01:26:49,400
+ the test data possesses certain characteristics apparently unknown to the train data. This
+
+662
+01:26:49,400 --> 01:26:58,600
+ issue is often overlooked. Okay. So, I show what is this issue. Okay. And so, this diagram shows
+
+663
+01:26:58,680 --> 01:27:09,080
+ some train data like the blue dot shows the train data. The black data shows the testing data. Okay.
+
+664
+01:27:09,800 --> 01:27:16,360
+ And if you just use the train data to fit a model, right? So, roughly, probably, we know in this
+
+665
+01:27:16,360 --> 01:27:22,120
+ range, actually, the y and the x has a linear relationship. Okay. Indeed, actually, the true
+
+666
+01:27:22,120 --> 01:27:28,200
+ relationship may be like a sine wave or something like this, nonlinear. But in this part, in this
+
+667
+01:27:28,200 --> 01:27:38,519
+ range, the input and output has a linear relationship. Okay. If we just use this part of data to fit a
+
+668
+01:27:38,519 --> 01:27:44,519
+ model, and then, certainly, we just get a linear model. And then, if we use a linear model to
+
+669
+01:27:44,519 --> 01:27:50,679
+ generalize, this linear model is generalized to the testing data, like losing the part of the
+
+670
+01:27:50,680 --> 01:27:57,080
+ black data. The performance is very bad. And this is because, actually, the test data has some
+
+671
+01:27:57,080 --> 01:28:05,720
+ characteristics that is unknown to the train data. Okay. So, here, actually, the one very important
+
+672
+01:28:05,720 --> 01:28:13,160
+ issue that when you are given a task and the data collection is part of the process, okay.
+
+673
+01:28:13,880 --> 01:28:17,000
+ When you collect the data, actually, the data, the train data should
+
+674
+01:28:17,240 --> 01:28:23,400
+ cover the whole range of the data. You need to think about the range of the data in the future,
+
+675
+01:28:24,200 --> 01:28:28,920
+ the whole range of the data. Okay. Then, actually, the model performance could be good.
+
+676
+01:28:30,760 --> 01:28:36,920
+ Okay. And I know that, from what you understand, the two concepts in mathematics, like one is called
+
+677
+01:28:37,560 --> 01:28:43,720
+ interpolation. Another is extrapolation. Interpolation is in between, right? So, normally,
+
+678
+01:28:43,800 --> 01:28:50,600
+ the performance is good. But extrapolation, that means it's something out of the distribution,
+
+679
+01:28:50,600 --> 01:28:57,560
+ out of the range, right? The performance normally is bad, particularly if the model is a nonlinear
+
+680
+01:28:57,560 --> 01:29:04,760
+ model. Okay. So, here, actually, if during the data collection stage, you collect the data,
+
+681
+01:29:05,160 --> 01:29:11,640
+ the car will cover the whole range, the whole range. Okay. And then, for the testing data,
+
+682
+01:29:13,080 --> 01:29:21,080
+ actually, this is something like interpolation, because the data is in the range. Okay. So,
+
+683
+01:29:21,080 --> 01:29:28,120
+ the performance normally is good. But if the data out of the range, then it becomes an extra
+
+684
+01:29:28,440 --> 01:29:34,519
+ problem. Then the performance could be bad. Okay. So, I think, quite often, actually,
+
+685
+01:29:35,320 --> 01:29:40,519
+ in machine learning, in the course study, in the assignment, even in your research papers,
+
+686
+01:29:40,519 --> 01:29:46,680
+ you use some data collected by others, right? You are not understanding the issue. You are not
+
+687
+01:29:46,680 --> 01:29:53,240
+ appreciative, actually, the challenge, you know, or the seriousness of this issue.
+
+688
+01:29:54,200 --> 01:29:59,559
+ But if you really are not solving a problem, starting from scratch, from data collection,
+
+689
+01:30:00,200 --> 01:30:05,320
+ okay, and you will understand this point. Okay. I think this is very, very important.
+
+690
+01:30:05,320 --> 01:30:09,800
+ And this issue is often overlooked, overlooked, because you don't have the experience. You use
+
+691
+01:30:09,800 --> 01:30:17,800
+ the data collected by others. Okay. So, I think, yeah, so you have a chance to solve a problem,
+
+692
+01:30:17,880 --> 01:30:24,760
+ starting from data collection. You need to keep this in mind. Okay. The data cover the whole range.
+
+693
+01:30:25,640 --> 01:30:30,920
+ And I just mentioned that data quality, right? Quality normally, when you think about the quality
+
+694
+01:30:32,440 --> 01:30:39,000
+ frequently, quite often, you will think, oh, the data has no noise, no noise free, or small noise.
+
+695
+01:30:39,720 --> 01:30:43,880
+ But actually, the data quality, not just actually about the cleanliness of the data, right? What I
+
+696
+01:30:43,880 --> 01:30:51,800
+ think is clean, actually about the range, whether this data of the training data cover the true
+
+697
+01:30:51,800 --> 01:30:58,600
+ distribution, true distribution, right? Cover. It's a cover range. Okay. So, the quantity,
+
+698
+01:30:58,600 --> 01:31:03,160
+ sometimes with the quality, quantity, the more the better. But the more I treat the better. That
+
+699
+01:31:03,160 --> 01:31:11,240
+ not mean the data just in a small range, but you have a lot of data. The more the quality, right?
+
+700
+01:31:11,240 --> 01:31:15,639
+ That means, actually, the data cover the whole range. Okay. Sometimes,
+
+701
+01:31:15,639 --> 01:31:20,440
+ in all the number of Hohman data points you have, it is the range of the data.
+
+702
+01:31:22,040 --> 01:31:28,599
+ Okay. So, this is the, I think, the two issues that we may encounter. I think it's important.
+
+703
+01:31:29,160 --> 01:31:34,760
+ Okay. Okay. So, let's actually look at the top of a machine learning.
+
+704
+01:31:34,920 --> 01:31:35,480
+ Okay.
+
+705
+01:31:39,720 --> 01:31:44,280
+ So, so actually, just now, actually, we see the determinant parameters, right? The abstraction.
+
+706
+01:31:44,280 --> 01:31:49,480
+ So, our focus actually, you know, from week six, we will be the, actually, the,
+
+707
+01:31:49,480 --> 01:31:54,520
+ just the, you know, how to determine the parameters. Okay. So, here, I think it's still some
+
+708
+01:31:54,520 --> 01:31:59,480
+ introduction of some basic concept. But I think this concept is important to you. Okay.
+
+709
+01:32:05,560 --> 01:32:10,680
+ And the machine learning can be classified into three categories. And the first one is
+
+710
+01:32:10,680 --> 01:32:16,680
+ supervised learning. Supervised. Okay. And supervised learning is also called predictive
+
+711
+01:32:16,680 --> 01:32:25,640
+ learning. So, machine learning is a class of unknown objects based on the prior class
+
+712
+01:32:25,640 --> 01:32:30,360
+ related information of similar objects. Okay. So, this is supervised learning. Okay. This is one
+
+713
+01:32:30,360 --> 01:32:41,080
+ type. Okay. And another type is unsupervised. Okay. Supervised, unsupervised. So, based on what,
+
+714
+01:32:41,080 --> 01:32:46,200
+ actually, we differentiate the two types of learning. So, a little bit about that. And then,
+
+715
+01:32:46,200 --> 01:32:53,480
+ the last type is called actually reinforcement learning. A machine learns to act on its own,
+
+716
+01:32:53,480 --> 01:32:59,320
+ right? Learn on its own, self-learning. Right? So, I mean, in the beginning, we see the three types
+
+717
+01:32:59,400 --> 01:33:04,679
+ of learning, right? So, last type is self-learning. So, here, this is self-learning. So, a machine
+
+718
+01:33:04,679 --> 01:33:13,639
+ learns to act on its own. Not guided, right? By expert. Act on its own. By trial, by failures,
+
+719
+01:33:13,639 --> 01:33:21,480
+ failures, and success, right? So, through this process, machine learns. So, this is a reinforcement
+
+720
+01:33:21,799 --> 01:33:28,919
+ learning. Okay. Then, as we look at the details about the supervised learning. Okay. So, this
+
+721
+01:33:28,919 --> 01:33:34,120
+ diagram actually clearly shows actually, you know, the different categories. Machine learning
+
+722
+01:33:34,120 --> 01:33:39,879
+ broadly actually divided into three categories. Supervised learning, unsupervised learning,
+
+723
+01:33:39,879 --> 01:33:46,200
+ reinforcement learning. And supervised learning, this category, right? And we have two tasks.
+
+724
+01:33:46,280 --> 01:33:51,720
+ One is regression. Another is classification. So, later, we will talk about the difference between
+
+725
+01:33:51,720 --> 01:33:57,400
+ the two. Classification regression. But actually, in machine learning, the classification is the
+
+726
+01:33:57,400 --> 01:34:06,599
+ main topic. Okay. So, in statistics, so normally, they handle the issue of regression. In statistics,
+
+727
+01:34:06,599 --> 01:34:11,160
+ right? They use a model to predict. Normally, you know, this is a kind of regression problem.
+
+728
+01:34:11,160 --> 01:34:15,880
+ But in machine learning, actually, we focus on the classification problem. But in this category,
+
+729
+01:34:15,880 --> 01:34:24,280
+ we cover both regression and classification. And for another unsupervised learning, we have two
+
+730
+01:34:24,280 --> 01:34:31,639
+ topics. And one is the association analysis. So, this is just a small topic. And some actually,
+
+731
+01:34:31,639 --> 01:34:36,840
+ you know, machine learning, actually, you know, papers or books. You know, just sometimes, you
+
+732
+01:34:37,000 --> 01:34:43,080
+ know, this is actually, you know, association analysis. But this is one kind of learning.
+
+733
+01:34:43,080 --> 01:34:52,200
+ And this could be put under this category. Then, of course, the main topic, the main issue is called
+
+734
+01:34:52,200 --> 01:34:57,320
+ clustering, classification of data, grouping. Put the data into different groups based on the
+
+735
+01:34:57,320 --> 01:35:05,000
+ similarity of the data. So, this is a classification, right? Okay. So, so, next, actually, we look at
+
+736
+01:35:05,080 --> 01:35:13,400
+ the supervised learning. So, the supervised learning, of course, is to learn from the past data, right?
+
+737
+01:35:13,400 --> 01:35:17,240
+ Actually, no matter supervised or unsupervised, we all need to learn from the data, right? So,
+
+738
+01:35:17,800 --> 01:35:23,720
+ and based on some past information, what past information? Okay, this depends on,
+
+739
+01:35:23,720 --> 01:35:27,800
+ this determines whether we could show you the supervised learning or unsupervised learning.
+
+740
+01:35:28,440 --> 01:35:31,560
+ Past information, okay, based on the information.
+
+741
+01:35:34,040 --> 01:35:39,000
+ In the context of machine learning, this past information is also the experience of data,
+
+742
+01:35:39,000 --> 01:35:46,760
+ right? Okay. And so, for example, here, give an example, the task is to separate,
+
+743
+01:35:46,760 --> 01:35:52,040
+ segregate or separate the images by other shape or color of the objects.
+
+744
+01:35:52,200 --> 01:35:58,360
+ Okay. So, you buy shape, then the objects can be classified, the image, run object,
+
+745
+01:35:58,920 --> 01:36:03,800
+ square shape or object, or irregular shape objects can be put into different categories,
+
+746
+01:36:03,800 --> 01:36:09,880
+ right? Okay. And so, if you perform such a task, so what kind of data we should have?
+
+747
+01:36:11,320 --> 01:36:15,480
+ What kind of information we should provide? Of course, we should provide an image, right?
+
+748
+01:36:15,480 --> 01:36:19,640
+ Because we are going to perform image classification. We are going to perform
+
+749
+01:36:20,280 --> 01:36:25,080
+ object classification based on the withdrawal information. So, take pictures, okay? So,
+
+750
+01:36:25,080 --> 01:36:31,720
+ certainly, this picture is the data, input to the abstraction step, right? Abstraction.
+
+751
+01:36:32,920 --> 01:36:37,800
+ So, certainly, actually, we should not have this image, right? So, this is the basic information.
+
+752
+01:36:38,760 --> 01:36:46,120
+ And, okay, another, actually, the color, right? Objects into different categories, green,
+
+753
+01:36:46,120 --> 01:36:52,040
+ color, objects, red, objects, and a blue object, yellow objects, okay? Based on the color,
+
+754
+01:36:52,040 --> 01:36:59,640
+ we put the objects into different categories, right? And so, this is, of course, the basic
+
+755
+01:36:59,640 --> 01:37:05,000
+ information, again, is a color image, right? The picture, the color picture, color image.
+
+756
+01:37:05,000 --> 01:37:10,519
+ This is the basic input, basic information. Okay. But besides this information, we need
+
+757
+01:37:10,520 --> 01:37:15,320
+ additional information. How the machine can know, or this is wrong, this is blue, this is
+
+758
+01:37:17,000 --> 01:37:23,160
+ square shape, this is irregular shape. How the machine can know this, okay? We will perform
+
+759
+01:37:23,160 --> 01:37:28,520
+ class field based on the color, right? How the machine can know, or this object is a blue color,
+
+760
+01:37:28,520 --> 01:37:34,520
+ this object is a red color, this object is a green color. How the machine can know this,
+
+761
+01:37:35,160 --> 01:37:42,760
+ okay? And, actually, this is a part of additional information, right? Additional information,
+
+762
+01:37:42,760 --> 01:37:48,600
+ not the basic information. The basic information is just the picture, okay? The image. Now,
+
+763
+01:37:48,600 --> 01:37:57,320
+ besides this image, we need to have additional information, okay? So, this additional information
+
+764
+01:37:58,280 --> 01:38:07,799
+ is just color, okay? This object, together with the color, okay? This color, this color is just
+
+765
+01:38:07,799 --> 01:38:16,519
+ a tag, right? This image with a tag of shape. This is a wrong shape. This is a square shape.
+
+766
+01:38:17,080 --> 01:38:27,000
+ This is irregular shape. And this tag is also called label, label, right? So, the basic input
+
+767
+01:38:27,080 --> 01:38:33,320
+ is just the image, right? Besides this, we also need to have the tag, this tag information, right?
+
+768
+01:38:33,320 --> 01:38:37,560
+ But if we do the classification based on the color, then we should have color information
+
+769
+01:38:37,560 --> 01:38:45,320
+ of the object, right? So, this actually is called tag, right? This is a tag. This tag is also called
+
+770
+01:38:45,880 --> 01:38:55,240
+ label, label, okay? If an image, together with a tag or label, and then this data image is called
+
+771
+01:38:55,240 --> 01:39:01,719
+ label data, okay? So, super hard learning is based on the label of the training data.
+
+772
+01:39:03,080 --> 01:39:09,559
+ You take a picture, right? You want to build a system to recognize anything in NTU campus, right?
+
+773
+01:39:09,559 --> 01:39:14,040
+ So, you take a lot of pictures. Take a picture of this building, take a picture of another building,
+
+774
+01:39:14,040 --> 01:39:20,040
+ take a picture of a table, take a picture of a computer, take a picture of a chair, okay? Besides
+
+775
+01:39:20,040 --> 01:39:26,519
+ this, you need to do, for each picture in the training data, you need to give a label or this
+
+776
+01:39:27,480 --> 01:39:33,720
+ chair. And this is the computer. So, this is a laptop, right? This is a projector,
+
+777
+01:39:34,280 --> 01:39:40,440
+ and this is a building, and this is a room, this is a canteen, right? So, you give a tag. So,
+
+778
+01:39:40,440 --> 01:39:48,519
+ this tag is a class label, class label, okay? If a data with a tag, with a label, then this data is
+
+779
+01:39:49,080 --> 01:39:55,560
+ labeled training data, okay? Super hard learning is based on the label training data.
+
+780
+01:39:57,560 --> 01:40:00,680
+ Okay, now you see the super hard learning, right? Learning always, of course,
+
+781
+01:40:00,680 --> 01:40:05,480
+ the machine learning is based on the data, right? The data could be just the basic information,
+
+782
+01:40:05,480 --> 01:40:12,200
+ like image, okay? But besides this, we need to have a label, this label, right? Define the class,
+
+783
+01:40:12,840 --> 01:40:17,480
+ okay? So, then the data becomes a label training data, okay? If we learn
+
+784
+01:40:19,480 --> 01:40:26,120
+ using the basic information and also the label information, and then this learning is super hard
+
+785
+01:40:26,120 --> 01:40:32,360
+ learning, okay? So, now actually we come to the concept of super hard learning, right? Actually,
+
+786
+01:40:32,360 --> 01:40:40,040
+ this is linked to the label training data. In another application, for example, like a
+
+787
+01:40:40,040 --> 01:40:45,960
+ sentiment analysis, sentiment means the person's emotion, attitude towards something,
+
+788
+01:40:45,960 --> 01:40:52,680
+ towards a product, towards a lecture, towards a food, towards a service, and this is a sentiment.
+
+789
+01:40:53,320 --> 01:41:02,040
+ Normally, sentiment analysis actually tries to classify the sentiment attitude into one of the
+
+790
+01:41:02,040 --> 01:41:10,280
+ three categories, positive attitude, or you feel, oh, delicious, right? Very good, okay? And then, oh,
+
+791
+01:41:10,920 --> 01:41:19,240
+ awful food, right? Terrible. Bad attitude, right? This means actually the negative sentiment,
+
+792
+01:41:19,240 --> 01:41:26,200
+ neutral, right? I have a lunch in Canine Bay that I'm not sure whether you like the food in Canine Bay
+
+793
+01:41:26,200 --> 01:41:30,280
+ or you don't like the food in Canine Bay, right? So, it's neutral. So, these are positive,
+
+794
+01:41:30,759 --> 01:41:35,080
+ neutral, right? You want to build a model to perform this kind of classification,
+
+795
+01:41:36,200 --> 01:41:43,000
+ okay? So, we need to collect a lot of data, some comments, okay? NTU, students have a lot of comments
+
+796
+01:41:43,000 --> 01:41:50,519
+ on social media, right? About the triple E, about NTU, about lectures, okay? So, some of these comments,
+
+797
+01:41:50,519 --> 01:41:55,960
+ and also, you need to read the comments. These are just a test, and then we also need to give a tag,
+
+798
+01:41:55,960 --> 01:42:02,440
+ right? Oh, the human need to evaluate this, right? Then, oh, this student has shown a negative attitude,
+
+799
+01:42:03,560 --> 01:42:09,720
+ okay? Then, negative. Then, we have another comment, right? Another, this comment could be just one
+
+800
+01:42:09,720 --> 01:42:15,800
+ sentence, just could be just a few words, and then, and allowing this actually words, we could have a
+
+801
+01:42:15,800 --> 01:42:21,400
+ negative positive attitude. So, then we have a label, positive. Then, another one, so nothing, right?
+
+802
+01:42:21,480 --> 01:42:27,400
+ Then, it's neutral. We need to collect out such data, a lot of tests, a lot of tests, writing your
+
+803
+01:42:27,400 --> 01:42:36,280
+ comments, and then, the corresponding label about sentiment. So, this is the label data. So, we want
+
+804
+01:42:36,280 --> 01:42:42,519
+ to build a model to classify the sentiment, and we need to first collect some data, and then, we label
+
+805
+01:42:42,519 --> 01:42:48,040
+ the data, and then, we input this labeled training data to the machine learning algorithm, right?
+
+806
+01:42:48,040 --> 01:42:56,200
+ To the abstraction part, okay? Then, we can perform super learning to get a model, okay? So, this is
+
+807
+01:42:56,200 --> 01:43:02,280
+ just actually the label training data, and also some examples, right? What is a label? Okay? The label
+
+808
+01:43:02,280 --> 01:43:13,720
+ normally means a class, class label. Okay. Okay. So, this is just, that shows the flow, the flow,
+
+809
+01:43:13,720 --> 01:43:17,960
+ and we have label training data, right? Because super learning, we have label training data,
+
+810
+01:43:17,960 --> 01:43:22,760
+ then, goes to the abstraction part, right? So, through the super learning, we get a model.
+
+811
+01:43:23,720 --> 01:43:30,600
+ So, this is just the training data, the input data abstraction, then, the last step to apply
+
+812
+01:43:30,600 --> 01:43:37,000
+ the model, right? To predict the result of the test data. So, this is the generalization, okay?
+
+813
+01:43:37,000 --> 01:43:43,160
+ Then, we can have a predicted result for the testing data. So, this shows the flow of the
+
+814
+01:43:43,160 --> 01:43:49,880
+ super learning, right? Essentially, the data, the training data, the label. For each data, we have
+
+815
+01:43:49,880 --> 01:44:00,680
+ a label. We have a class label. Normally, this label means class label. Okay? So, this label
+
+816
+01:44:00,680 --> 01:44:04,840
+ actually depends on the problem, right? You do the sentimentality, we have a label, right? Do the
+
+817
+01:44:04,840 --> 01:44:16,840
+ emotion recognition, happy, anger, you know, actually, you know, dislike, right? Or joy,
+
+818
+01:44:17,560 --> 01:44:23,000
+ embarrassment. These are the emotions. Okay. So, these are the class. Okay. So, we need to
+
+819
+01:44:23,000 --> 01:44:27,560
+ collect a lot of data. For each of the data, we put them, we think about what is the emotion.
+
+820
+01:44:27,560 --> 01:44:32,920
+ Then, we have a corresponding label. Okay. So, this is called a labeling of the data. Okay.
+
+821
+01:44:35,400 --> 01:44:45,240
+ So, this is the super learning. And some example of super learning is the prediction
+
+822
+01:44:46,040 --> 01:45:00,200
+ of results of a game. When lose a draw. Okay. And then, predicting whether a tumor is malignant
+
+823
+01:45:00,280 --> 01:45:07,400
+ or benign. A tumor, right? Malignant, then, I mean a cancer. Okay. So, benign and malignant. So,
+
+824
+01:45:07,400 --> 01:45:14,280
+ these are the prediction, actually. And then, predicting the price of a real estate. And also,
+
+825
+01:45:15,080 --> 01:45:21,960
+ predicting the price of a stock. Price. Okay. And then, the last one, you know, classify the test.
+
+826
+01:45:22,440 --> 01:45:29,240
+ So, these are the classifications, right? Classified test. And actually, all these are the
+
+827
+01:45:29,240 --> 01:45:36,120
+ examples of super learning. But actually, these examples also, we know, they are based on the
+
+828
+01:45:36,120 --> 01:45:42,120
+ super, the label train data, right? But actually, they also have difference. They also have
+
+829
+01:45:42,120 --> 01:45:48,520
+ difference, right? And they are not the same. They are not the same. They are not the same.
+
+830
+01:45:49,080 --> 01:45:54,760
+ They also have difference, right? And they are not the same. Okay. And here, we give an example,
+
+831
+01:45:54,760 --> 01:46:02,120
+ like, whether a tumor is malignant or benign. And then, predicting the price of real estate.
+
+832
+01:46:02,120 --> 01:46:10,840
+ Actually, the two are different. Okay. And actually, the first problem, the outcome is very limited.
+
+833
+01:46:10,840 --> 01:46:18,600
+ Just, actually, tumor or malignant benign. Just two possible results, right? Just two possible
+
+834
+01:46:18,600 --> 01:46:23,480
+ results. And then, the next problem, predicting the price of real estate.
+
+835
+01:46:25,640 --> 01:46:32,760
+ This value could be any value in a range, right? Could be any value in a range. Actually, the value,
+
+836
+01:46:32,760 --> 01:46:40,200
+ and the possible values is numerous. Actually, so, actually, these two
+
+837
+01:46:40,200 --> 01:46:45,240
+ problems, although they both are super hard learning problems, but they belong to different
+
+838
+01:46:45,240 --> 01:46:54,200
+ categories. The classification, or whether a tumor, predict, whether a tumor is malignant or
+
+839
+01:46:54,200 --> 01:47:00,920
+ benign, actually, is a patent classification problem. Predicting the price of an estate
+
+840
+01:47:00,920 --> 01:47:09,160
+ is a regression problem. Okay. So, they all super hard learning, but actually, they belong to different
+
+841
+01:47:09,160 --> 01:47:17,800
+ types. Okay. The case one is a predictor category. This category, this category, the category, right?
+
+842
+01:47:18,440 --> 01:47:28,680
+ Benign, malignant, predict, win, lose, draw, predict, right? Get offer, don't get offer.
+
+843
+01:47:29,320 --> 01:47:33,720
+ Actually, this is a category. Okay. So, this kind of problem is called classification.
+
+844
+01:47:34,440 --> 01:47:39,240
+ Then, another predict a real value, another class. So, in the first case, actually,
+
+845
+01:47:39,240 --> 01:47:47,160
+ the prediction result is limited. Normally, it's limited, right? Limited. Okay. And, of course,
+
+846
+01:47:47,160 --> 01:47:52,120
+ sometimes, this is known, this is limited, and we see limited. We can have many possible values,
+
+847
+01:47:52,120 --> 01:47:59,480
+ right? For example, face recognition, right? And, you know, each person could be a one class,
+
+848
+01:47:59,480 --> 01:48:05,960
+ right? Could be a one class, one category, right? We look at the face, then we put the face into
+
+849
+01:48:05,960 --> 01:48:13,160
+ different categories. Okay. So, this is, you know, this is limited, but how many values is
+
+850
+01:48:13,160 --> 01:48:19,080
+ considered limited? How many values are considered, actually, numerous? Actually, this is hard to say,
+
+851
+01:48:19,800 --> 01:48:24,519
+ but actually, sometimes, this limited value, just two possible results. But, sometimes, this could be
+
+852
+01:48:25,160 --> 01:48:30,680
+ huge number, right? During COVID-19, I know in China, the campus, actually, you know, they all,
+
+853
+01:48:30,680 --> 01:48:37,559
+ you know, put, actually, some face recognition device there, right? Recognize whether you are
+
+854
+01:48:37,559 --> 01:48:44,280
+ a student belonging to this university, right? Or whether you are a staff of this university.
+
+855
+01:48:44,280 --> 01:48:50,040
+ You are not, then you are not allowed to go into the campus. Okay. So, here we use face recognition.
+
+856
+01:48:50,040 --> 01:48:56,280
+ Of course, the university, you know, could have, you know, like a $50,000, $60,000 student. So,
+
+857
+01:48:56,280 --> 01:49:02,599
+ this category, like $60,000, could be a huge number, but this is still a, it's a limited number,
+
+858
+01:49:02,599 --> 01:49:09,480
+ right? It's still a classification problem, face recognition. Okay. So, this is a free limited,
+
+859
+01:49:09,480 --> 01:49:13,240
+ you know, sometimes, this number could be just two, right? Sometimes, this number could be huge.
+
+860
+01:49:14,360 --> 01:49:18,120
+ Okay. So, classification.
+
+861
+01:49:23,880 --> 01:49:28,519
+ Classification, normally, the output is limited. It's a category. The output is a category.
+
+862
+01:49:29,400 --> 01:49:36,840
+ It's a category. Okay. So, these are the examples. Image classification, right? And we can take
+
+863
+01:49:36,840 --> 01:49:43,400
+ pictures. I think, based on the picture, we can actually classify the object, right? This is a
+
+864
+01:49:43,400 --> 01:49:48,679
+ desk. This is a table. This is a projector. This is a laptop. This is a chair, right? This is a person.
+
+865
+01:49:49,639 --> 01:49:54,120
+ Different categories. Image classification. And the prediction of disease.
+
+866
+01:49:56,839 --> 01:50:02,200
+ You have diseases. You don't have the disease, right? You're healthy, not healthy. Two different
+
+867
+01:50:02,200 --> 01:50:08,120
+ categories, right? And then malignant, be none. So, these are the, you know, the
+
+868
+01:50:08,680 --> 01:50:17,240
+ prediction of categories. And then, when those predictions, prediction of natural calamities,
+
+869
+01:50:17,240 --> 01:50:24,760
+ natural disasters, right? Based on the, you know, in some of my projects, we, we, we, we
+
+870
+01:50:24,760 --> 01:50:30,519
+ detect all, we detect an event from the, from the social media or news. Okay. Because actually,
+
+871
+01:50:30,519 --> 01:50:35,240
+ sometimes, actually, you know, this is actually, you know, some, some person, you know, see the
+
+872
+01:50:35,240 --> 01:50:40,840
+ happening of the event. He will publish this on the social media, right? So, we can detect the
+
+873
+01:50:40,840 --> 01:50:46,040
+ happening of the events on the social media, right? So, basically, based on the test, okay?
+
+874
+01:50:46,040 --> 01:50:52,440
+ So, this is a classification. Natural disasters happen. As quick happens. A flooding happens.
+
+875
+01:50:54,040 --> 01:51:01,000
+ Typhoon happens, right? These are the events, okay? So, the natural disaster classification.
+
+876
+01:51:01,720 --> 01:51:07,240
+ Recognition of handwritten, handwritten writings. You write something, right? English alphabet,
+
+877
+01:51:07,240 --> 01:51:16,200
+ 26, right? The digits, 0, 1, 2, 3, 4, 5, 6, 9, right? Dijit. These are all recognition,
+
+878
+01:51:17,240 --> 01:51:23,480
+ recognition, right? This is a class-future problem. Okay. Because, you know, you recognize this
+
+879
+01:51:23,480 --> 01:51:29,960
+ writing, right? This, other is a digit, right? 0, 1, 2, 3, and 10, right? So, it's a 10, 10.
+
+880
+01:51:30,040 --> 01:51:37,400
+ And then, if I use a letter, right? 26. So, the category only, like, 36. Okay. So,
+
+881
+01:51:37,400 --> 01:51:44,040
+ this is a limited category. It's a classification problem. And then, physical recognition. And
+
+882
+01:51:44,040 --> 01:51:51,080
+ then, many applications, actually, is a classification problem. And so, I think these are
+
+883
+01:51:51,080 --> 01:51:55,720
+ no super hard learning. Certainly, actually, no, we, we, we, I think, follow the super hard learning
+
+884
+01:51:56,360 --> 01:52:04,360
+ flu, right? Framework. Okay. And so, here, you know, we have, yeah, okay. Again, we use input
+
+885
+01:52:04,360 --> 01:52:10,120
+ label training data. And then, we treat the trend classifier. And then, we use the classifier
+
+886
+01:52:10,120 --> 01:52:16,040
+ to classify, predict the label, class label, or the category of user testing data, right?
+
+887
+01:52:16,840 --> 01:52:23,400
+ Okay. Okay. So, that's a tree. I think we are, yeah. At 20, we have a break. 10 minutes. Okay.
+
+888
+02:00:25,720 --> 02:00:51,160
+ Okay. So, just now, we have talked about the super hard learning. And under this super hard learning,
+
+889
+02:00:51,880 --> 02:00:57,080
+ one main type of learning is the problem, is the classification problem, right? So, we predict
+
+890
+02:00:57,080 --> 02:01:03,320
+ that category. So, the response variable is a category, right? Good, bad, right? And
+
+891
+02:01:04,440 --> 02:01:09,880
+ malignant, B9, right? And so, this is a category. Okay. So, this is a classification problem.
+
+892
+02:01:09,880 --> 02:01:18,120
+ And this category is also called class. Okay. So, this is a classification problem. And this is a
+
+893
+02:01:18,120 --> 02:01:25,720
+ super hard learning paradigm. And we have another problem that is regression. Regression, right?
+
+894
+02:01:25,720 --> 02:01:34,360
+ And in the regression, the target variable is a numerical variable. It's a real, actually,
+
+895
+02:01:34,360 --> 02:01:41,480
+ value variable. It's not categorical. Okay. It's not categorical. It's a real value.
+
+896
+02:01:42,360 --> 02:01:49,400
+ And actually, in the classification problem, right? So, for example, we have a category, right?
+
+897
+02:01:49,400 --> 02:01:54,360
+ But of course, we know the computer normally can't really handle numerical values, right?
+
+898
+02:01:54,360 --> 02:02:02,679
+ So, this category normally needs to be encoded into numerical values. Okay. And so, part of
+
+899
+02:02:02,679 --> 02:02:09,480
+ actually, we use the so-called one-hot encoding. One-hot encoding. For example, we have two class.
+
+900
+02:02:09,559 --> 02:02:15,400
+ It's a two-class classification problem. Just a malignant B9 for a tumor, for example, right? And
+
+901
+02:02:15,400 --> 02:02:21,240
+ then, actually, we can use a vector. We can use a vector to denote, actually, you know, the class
+
+902
+02:02:21,240 --> 02:02:30,440
+ label. For example, for the B9, we can use a 01 to denote. And for, you know, malignant, we can
+
+903
+02:02:30,440 --> 02:02:36,679
+ use a 10. Okay. So, for a two-class classification problem, we can use a two-dimensional vector
+
+904
+02:02:36,680 --> 02:02:46,760
+ to denote, actually, the class label. Okay. And for a three-class, for example, we
+
+905
+02:02:46,760 --> 02:02:55,560
+ classify the object into a round-shaped object, a square-shaped object, irregular-shaped object,
+
+906
+02:02:55,560 --> 02:03:05,880
+ three-classes, right? Then, we can encode like a round shape into 100. And the square shape is
+
+907
+02:03:06,440 --> 02:03:20,360
+ 011. And then, the irregular shape is 100. Okay. So, 001, 010, 100 for the three-class.
+
+908
+02:03:21,000 --> 02:03:27,800
+ So, we can use this vector. So, we use a one-hot encoding. But if it's a prediction class,
+
+909
+02:03:28,440 --> 02:03:36,200
+ prediction problem, normally, this is just one scalar, a scalar. Okay. So, this scalar,
+
+910
+02:03:36,200 --> 02:03:42,680
+ no target variable, could just be 2.3 or 5.2. Okay. It's kind of real value,
+
+911
+02:03:43,560 --> 02:03:49,640
+ the real value or numerical value. Okay. So, we can see the difference, right? The target variable,
+
+912
+02:03:50,600 --> 02:03:55,560
+ categories. We normally use a vector to encode this. This is called one-hot encoding
+
+913
+02:03:56,360 --> 02:04:01,640
+ to categories. Okay. But for the target variable, if you want regression problem,
+
+914
+02:04:01,640 --> 02:04:07,560
+ the target variable is just a scalar, scalar. And the value could be any numerical values,
+
+915
+02:04:08,280 --> 02:04:17,640
+ real values. Okay. So, this regression problem and like a store price, temperature, right?
+
+916
+02:04:17,640 --> 02:04:26,600
+ Temperature of the room is a real value, 27.5 degree. This is a real value. So, this is a
+
+917
+02:04:26,600 --> 02:04:34,120
+ prediction, just a scalar by the temperature. Okay. And so, this is like one problem. We
+
+918
+02:04:34,120 --> 02:04:43,960
+ use a petal length to predict the sample length. Okay. And so, regression problem. So, the length,
+
+919
+02:04:44,440 --> 02:04:53,320
+ could be any real values. 2.3, 5.5, no, 1.0, some real values. Right? So, this is a regression problem.
+
+920
+02:04:56,440 --> 02:05:04,040
+ Some example, demand for caution in details, demand for caution. Okay. Although, for example,
+
+921
+02:05:04,040 --> 02:05:10,440
+ if you want to predict the whole many, you know, how many hand phones, right, in this certain
+
+922
+02:05:10,599 --> 02:05:20,519
+ shop, right? So, what is the demand for the next one week for a specific model of hand phone?
+
+923
+02:05:21,240 --> 02:05:30,200
+ It can predict like 2,000, 1,500, 1,400. So, although these integers, right, but these are
+
+924
+02:05:30,200 --> 02:05:37,559
+ just real values. Okay. So, this value, just one real value, the scalar. We don't use actually like
+
+925
+02:05:38,520 --> 02:05:45,560
+ like a vector to include this, right? It's just a scalar. This kind of demand, right,
+
+926
+02:05:45,560 --> 02:05:52,600
+ obviously tell prediction for caution. And then, self-prediction for managers,
+
+927
+02:05:52,600 --> 02:05:58,040
+ price prediction. What is the price? Okay. And good prediction in economics,
+
+928
+02:05:58,760 --> 02:06:09,800
+ the GPT group in this year is 3.5. Okay. Last year, 2.7. The year before last year, 5.7.
+
+929
+02:06:10,440 --> 02:06:18,040
+ This is a real value, right? Actually, it's just a scalar. Okay. In rule number,
+
+930
+02:06:18,040 --> 02:06:23,640
+ student number, prediction in education, in rule number, right? So, every year, you know,
+
+931
+02:06:23,640 --> 02:06:31,560
+ offer a lot of, give a lot of offers, right? But who will finally actually magically in
+
+932
+02:06:31,560 --> 02:06:38,760
+ this program? Okay. We have prediction number. Normally, 70%, 40%. No, we have a, we have a
+
+933
+02:06:38,760 --> 02:06:45,560
+ specific number, right? Specific number. Okay. So, these are usually regression problems.
+
+934
+02:06:46,760 --> 02:06:51,480
+ You remember the prediction normally is just a real number, right? Although sometimes these are
+
+935
+02:06:51,480 --> 02:06:57,400
+ integer, right? Number, right? Specific student number is an integer. But it's not a category.
+
+936
+02:06:58,519 --> 02:07:05,240
+ This number can be just represented by a scalar. Okay. Not like, you know, like in the
+
+937
+02:07:05,240 --> 02:07:10,599
+ Wang-Hong-Ying, the category needs to be represented by a vector. Okay.
+
+938
+02:07:14,040 --> 02:07:16,839
+ Okay. So, this is the super high-level learning and also the two
+
+939
+02:07:17,720 --> 02:07:22,360
+ types of learning, right? A problem, actually regression and classification. So,
+
+940
+02:07:22,360 --> 02:07:25,960
+ next we look at unsupervised learning. Supervised learning based on the super
+
+941
+02:07:25,960 --> 02:07:31,080
+ label change on data, right? But in some scenarios, we have data, but we don't have the label.
+
+942
+02:07:32,120 --> 02:07:37,240
+ We don't have the label. And actually, sometimes, like, you know, like test classification, we
+
+943
+02:07:37,240 --> 02:07:43,720
+ could have a lot of tests, right? On the web, a lot of tests on the web. But we don't have the time,
+
+944
+02:07:43,720 --> 02:07:52,200
+ we don't have the energy to annotate. Okay. So, we label them. So, this data unlabeled.
+
+945
+02:07:54,440 --> 02:08:01,320
+ So, actually, you know, even the data is unlabeled, we can still learn from them. Okay. So, here,
+
+946
+02:08:01,320 --> 02:08:05,800
+ actually, the learning based on unlabeled data is called unsupervised learning.
+
+947
+02:08:06,360 --> 02:08:13,160
+ Unsupervised. Okay. And so, actually, within this unsupervised learning, the main objective,
+
+948
+02:08:13,160 --> 02:08:19,400
+ actually, is to put the data into the natural groups. Natural groups. Actually, when we talk about
+
+949
+02:08:19,400 --> 02:08:25,080
+ the classification in wiki level 12, actually, we will talk more about the natural grouping.
+
+950
+02:08:25,880 --> 02:08:30,440
+ Natural grouping, that means, actually, the data within the same group are very similar to each
+
+951
+02:08:30,519 --> 02:08:36,360
+ other. Okay. The data between different groups are very different. So, this is called natural grouping.
+
+952
+02:08:38,280 --> 02:08:44,120
+ Okay. And this is different from classification. Sometimes, in the classification, right, and we
+
+953
+02:08:44,120 --> 02:08:48,679
+ use, actually, you know, classifier to separate them. But sometimes, the sample in the same class,
+
+954
+02:08:48,679 --> 02:08:53,160
+ actually, are very different. But sample in different class could be similar.
+
+955
+02:08:54,599 --> 02:08:58,759
+ This classification. But this is not natural grouping. Natural grouping, that means, within the
+
+956
+02:08:58,760 --> 02:09:07,080
+ same group, the data are very similar. Between groups, the data are very different. Okay.
+
+957
+02:09:07,080 --> 02:09:12,360
+ So, this is the so-called natural grouping. So, unsupervised learning is also called, actually,
+
+958
+02:09:12,360 --> 02:09:19,480
+ the descriptive learning. Okay. The unsupervised learning is called predictive, right? Predict,
+
+959
+02:09:19,480 --> 02:09:25,480
+ predict the label, predict the target value, the real value. So, prediction, right? We do the
+
+960
+02:09:26,200 --> 02:09:32,360
+ so, predict the learning. So, here, unsupervised learning, we don't do prediction. Okay. So,
+
+961
+02:09:32,360 --> 02:09:43,080
+ it's a descriptive learning. And unsupervised learning is also referred to the patent discovery
+
+962
+02:09:43,080 --> 02:09:50,280
+ or knowledge discovery. Okay. So, classification is a main, actually, a top of unsupervised learning.
+
+963
+02:09:50,280 --> 02:09:54,920
+ Classifier. I just mean, I really mentioned, actually, classification is just the grouping of the
+
+964
+02:09:54,920 --> 02:10:07,559
+ data, based on the similarity of the data. Okay. And, okay. So, object within the same,
+
+965
+02:10:07,559 --> 02:10:12,599
+ within the same, this diagram shows the classification, right? Actually, the similarity,
+
+966
+02:10:12,599 --> 02:10:19,240
+ we see the object of the data, similar data are put into one group, right? So, actually,
+
+967
+02:10:19,480 --> 02:10:25,480
+ each data normally has a few features, right? And each feature has a value. So,
+
+968
+02:10:25,480 --> 02:10:31,559
+ these values could be used as a coordinate. Then, actually, we can have a feature space,
+
+969
+02:10:31,559 --> 02:10:36,280
+ right? We can have a feature space. And then, each sample, actually, based on the coordinate,
+
+970
+02:10:36,280 --> 02:10:44,599
+ it is just one data point. Okay. So, actually, in the geometric layer, each sample is a vector.
+
+971
+02:10:44,600 --> 02:10:50,760
+ And this vector is just a data point in the feature space. Okay. And then, how to evaluate
+
+972
+02:10:50,760 --> 02:10:56,440
+ the similarity? Normally, the most commonly used similarity measure is the distance in the space.
+
+973
+02:10:57,080 --> 02:11:02,920
+ If the distance between two samples is very small, the extreme case, the distance zero,
+
+974
+02:11:02,920 --> 02:11:08,520
+ that means the two samples are identical, the same. Okay. So, this distance is a measure of
+
+975
+02:11:08,520 --> 02:11:13,960
+ similarity. The smaller the distance, the larger the similarity, right? So, just now we see,
+
+976
+02:11:14,040 --> 02:11:20,680
+ or the object, similar object are put into one group. That means the objects in the feature space
+
+977
+02:11:21,320 --> 02:11:28,280
+ are close to each other, small distance are put into one group. Okay. So, here, this just shows,
+
+978
+02:11:28,280 --> 02:11:33,320
+ okay. So, these are data, right? And, actually, we can keep the distance. And then, these data are
+
+979
+02:11:33,320 --> 02:11:38,680
+ put in one group, these data into one group. So, class one, class two, right? Class three,
+
+980
+02:11:39,480 --> 02:11:44,760
+ so these are grouping. Within one of the same group, they are quite similar. The distance between
+
+981
+02:11:44,760 --> 02:11:51,400
+ them is very small. So, this is called similarity, right? Based on the similarity. And between groups,
+
+982
+02:11:51,400 --> 02:11:55,960
+ you can see that there is a gap, right? So, this gap means there is a big difference between the
+
+983
+02:11:55,960 --> 02:12:01,560
+ data in the two groups. So, this is called the natural grouping. So, this is the so-called
+
+984
+02:12:01,640 --> 02:12:09,400
+ classroom. Okay. So, this is the main topic, main problem of answer-wide learning.
+
+985
+02:12:13,240 --> 02:12:18,760
+ And another, actually, answer-wide learning is so-called, actually, association analysis.
+
+986
+02:12:19,480 --> 02:12:24,920
+ Okay. This is not a main research field, not a main research topic in machine learning.
+
+987
+02:12:25,560 --> 02:12:30,520
+ But this also, actually, I think some are working on this because this technique can be used,
+
+988
+02:12:30,600 --> 02:12:38,680
+ like in data mining, in the market of data, in the mining, right? So, actually, this is just
+
+989
+02:12:38,680 --> 02:12:47,560
+ one example, a transaction ID, means a customer ID. Class number one, bought two items. One is
+
+990
+02:12:47,560 --> 02:12:55,880
+ butter, another is bread. And then, class number two, bought diaper, bread, milk, beers. Number
+
+991
+02:12:55,880 --> 02:13:03,720
+ three, bought milk, chicken, beer, and diaper, right? They all bought different items. But,
+
+992
+02:13:03,720 --> 02:13:09,160
+ actually, we find, actually, when one buy the diaper, quite often you buy the beers. You can
+
+993
+02:13:09,160 --> 02:13:16,520
+ see, you know, the second customer, right? Diper, beer, together, right? Then the customer, beer,
+
+994
+02:13:16,520 --> 02:13:23,160
+ diaper, right? Four beer, right? This means, actually, these are the two items associated.
+
+995
+02:13:23,960 --> 02:13:30,599
+ So, this is association analysis. That means when one customer buys this item, most likely he will
+
+996
+02:13:30,599 --> 02:13:41,000
+ also buy another item. So, this is the association analysis. But this also is very useful, right?
+
+997
+02:13:41,000 --> 02:13:47,400
+ In the market, actually, for example, supermarket, you put a tree, you even know these two items are
+
+998
+02:13:47,400 --> 02:13:53,400
+ associated, right? Quite often, you have association. Of course, not every time they associate, right?
+
+999
+02:13:54,440 --> 02:14:01,160
+ This is a perfect example. But in some scenarios, actually, they don't buy an item, don't really
+
+1000
+02:14:01,160 --> 02:14:07,639
+ necessarily buy another item. But frequently, they have high frequency. But one item, they will also
+
+1001
+02:14:07,639 --> 02:14:13,960
+ buy another item. Okay. So, that means, in the supermarket, you can put a tree, like, an item
+
+1002
+02:14:14,040 --> 02:14:21,240
+ in this side, right? Then another item just beside. So, then when the guy sees this item, most likely
+
+1003
+02:14:21,240 --> 02:14:29,160
+ he will buy another item. If this item is not beside, so probably he will not buy. Okay. So,
+
+1004
+02:14:29,160 --> 02:14:38,760
+ this actually will, I think, promote the sale of one item, right? And based on another item.
+
+1005
+02:14:39,720 --> 02:14:46,440
+ Okay. So, this is association analysis. And this is not a main topic. So, we are not
+
+1006
+02:14:46,440 --> 02:14:51,320
+ starting this, actually, we are not. In this course, we just briefly understand this concept.
+
+1007
+02:14:51,320 --> 02:14:56,680
+ We are not starting this technique, association analysis. But if you have interest, of course,
+
+1008
+02:14:56,680 --> 02:15:03,080
+ you can always find the material on the web. Okay. So, we have introduced the super-adrenaline
+
+1009
+02:15:03,080 --> 02:15:08,040
+ and super-adrenaline. Then we come to the last type, that's reinforcement learning. Reinforcement
+
+1010
+02:15:08,040 --> 02:15:16,440
+ learning, self-learning, right? Self-learning through many tries. Of course, the amount of the
+
+1011
+02:15:16,440 --> 02:15:24,360
+ many tries, some of the tries are successful. Some of the tries actually are failed. Okay.
+
+1012
+02:15:25,320 --> 02:15:35,320
+ And so, this is actually like, you know, self-learning, right? Self-learning and no teachers. Actually,
+
+1013
+02:15:35,400 --> 02:15:41,160
+ the super-adrenaline, why we call it super-adrenaline? Because the target variable, just like a teacher,
+
+1014
+02:15:41,160 --> 02:15:46,040
+ just like a teacher. So, we call it super-adrenaline. Okay. So, here, we don't have a teacher here.
+
+1015
+02:15:46,040 --> 02:15:52,360
+ We don't have a teacher. Okay. We need to learn about ourselves. Okay. So, this is self-learning.
+
+1016
+02:15:52,360 --> 02:15:57,880
+ Actually, self-learning, now you say, in this machine, it's called reinforcement learning.
+
+1017
+02:15:58,520 --> 02:16:06,280
+ Okay. And so, I think some examples are like, walk, right? We learn how to walk. We learn how to
+
+1018
+02:16:06,280 --> 02:16:18,600
+ ride bicycle. Okay. So, and actually, in this machine learning, right? I think reinforcement
+
+1019
+02:16:18,600 --> 02:16:27,080
+ learning, this is diagram. And we have input raw data. And so, here, now, this is the component
+
+1020
+02:16:27,080 --> 02:16:32,920
+ of reinforcement learning. We have an environment, right? We have an environment. And we have agents.
+
+1021
+02:16:33,639 --> 02:16:39,320
+ Normally, agents is the one that perform the environment, normally, the program, right? The
+
+1022
+02:16:39,320 --> 02:16:47,559
+ contest. Okay. And one important part is the reward. Reward. Just like, you know, when the student,
+
+1023
+02:16:47,559 --> 02:16:53,400
+ the child, right, learn how to walk, right? Sometimes, he failed. Sometimes, he failed, right?
+
+1024
+02:16:53,480 --> 02:17:00,039
+ But the parent could give an encouragement to him. And then, like, give him a chocolate, right?
+
+1025
+02:17:00,039 --> 02:17:08,680
+ And then, oh, give him a reward, right, if he succeeds. And then, encourage him to learn, right?
+
+1026
+02:17:08,680 --> 02:17:12,359
+ And then, encourage him to learn. So, this is a very important concept, is the reward.
+
+1027
+02:17:14,199 --> 02:17:21,799
+ And the reinforced millennium, I think, is often used in robotics. Okay. And because,
+
+1028
+02:17:21,879 --> 02:17:27,879
+ for example, we have a robot in a certain environment, right? And we want the robot to
+
+1029
+02:17:27,879 --> 02:17:35,160
+ go through all obstacles through the shortest path, just like you are located in, you know,
+
+1030
+02:17:35,160 --> 02:17:41,080
+ in a certain seat, in this classroom, right? You want to leave the room as soon as possible.
+
+1031
+02:17:41,080 --> 02:17:46,920
+ You want to find the shortest path, right? For machine, right? Nobody tells him where to go,
+
+1032
+02:17:47,400 --> 02:17:52,520
+ right? Nobody tells him what is the specific path he should follow. But the machine should
+
+1033
+02:17:52,520 --> 02:17:57,960
+ try many times, right? In this room, you try a lot of times, just like doing simulation, right?
+
+1034
+02:17:57,960 --> 02:18:03,240
+ I go this way, go this way, go if I go that way, then you block, right? And then, I need to bypass
+
+1035
+02:18:03,240 --> 02:18:09,559
+ this obstacle, and then find a goal, take quite some time. Okay. So, through this kind of,
+
+1036
+02:18:09,559 --> 02:18:14,280
+ through many trials, just like a simulation, right? You know, you don't necessarily really need to go,
+
+1037
+02:18:14,440 --> 02:18:20,440
+ right? To simulation. Go that way, go that way, then how many, you know, the distance I need to
+
+1038
+02:18:21,480 --> 02:18:27,560
+ go through, right? You want to leave the room, okay? You can do a lot of trials, okay? Finally,
+
+1039
+02:18:27,560 --> 02:18:33,000
+ you can find the shortest path. This is a self-learning, reinforcement learning, okay? And
+
+1040
+02:18:33,000 --> 02:18:38,040
+ so that we have a score, right? A score, okay? And actually, the reinforcement learning,
+
+1041
+02:18:38,040 --> 02:18:42,120
+ it recently is also, you know, I just mentioned in robotics, which is a popular area nowadays,
+
+1042
+02:18:42,120 --> 02:18:48,120
+ right? And also, it's widely used in the training of the large language models, LL,
+
+1043
+02:18:48,760 --> 02:18:54,760
+ large language models. And actually, a large language model normally is trained by a few steps.
+
+1044
+02:18:54,760 --> 02:18:59,000
+ And the first step is so called actually language model, right? What is the language model? The
+
+1045
+02:18:59,000 --> 02:19:07,160
+ language model is used to predict the next word. I have a very good, the next one, time, for example,
+
+1046
+02:19:07,160 --> 02:19:13,559
+ right? We use the previous word to predict the next word. So this part is called self-learning,
+
+1047
+02:19:13,559 --> 02:19:20,760
+ it's a super-learning class. It's a self-super-learning, we call it self-super-learning, okay? So we train
+
+1048
+02:19:20,760 --> 02:19:25,559
+ a model that could predict the next word, okay? And then after that, we need to have the so-called
+
+1049
+02:19:25,559 --> 02:19:30,920
+ instruction learning. Instruction learning, we have an answer, right? We have a question,
+
+1050
+02:19:30,920 --> 02:19:34,840
+ then we have answers. But the answer could be very different, right? If I ask you,
+
+1051
+02:19:34,840 --> 02:19:40,920
+ how about Singapore? You see, Singapore is in the Southeast Asia. Yes, you are correct, but this
+
+1052
+02:19:40,920 --> 02:19:47,240
+ is not a very good answer. Another better answer is that Singapore is not in Southeast Asia, right?
+
+1053
+02:19:47,240 --> 02:19:53,800
+ And then, you know, what is the, you talk about the population, you talk about the size of the
+
+1054
+02:19:53,800 --> 02:20:00,280
+ territory, you talk about the two famous universities, NETU, right? NUS. You know, you talk about more,
+
+1055
+02:20:00,280 --> 02:20:05,080
+ right? Then suddenly, this is a good answer, right? This is a better answer. And then you
+
+1056
+02:20:05,080 --> 02:20:12,600
+ even talk about more about the new groups, right? Chinese, Indian, Malays, and others, right? So
+
+1057
+02:20:12,600 --> 02:20:19,000
+ talk about more. The more, the longer the answer, right? Of course, I mean, every information is
+
+1058
+02:20:19,000 --> 02:20:26,280
+ correct, right? Then you give a high score, give a reward. So this kind of learning, so to encourage,
+
+1059
+02:20:26,360 --> 02:20:32,280
+ that's why when you ask GPT, right? Try GPT, they give you normally a long answer, right? If I
+
+1060
+02:20:32,280 --> 02:20:39,000
+ ask a GPT now, they actually say, you may see Singapore is a very long answer. Okay, so they
+
+1061
+02:20:39,000 --> 02:20:43,960
+ encourage you to try a long answer. Why a long answer? Actually, the first case is also correct,
+
+1062
+02:20:43,960 --> 02:20:50,760
+ right? Singapore is in the Southeast Asia, right? It's correct, but not a very good answer, right?
+
+1063
+02:20:50,760 --> 02:20:57,960
+ Too short. So they also use this, you know, in reinforcement learning, a mechanism, right? Give
+
+1064
+02:20:57,960 --> 02:21:05,960
+ a score, give a reward to higher, longer answers, right? They encourage the longer answers to the
+
+1065
+02:21:05,960 --> 02:21:13,720
+ question, right? So this is reinforcement learning. And then you have, it's like self-driving cars,
+
+1066
+02:21:13,800 --> 02:21:21,160
+ or I think now in robotics, so reinforcement learning. But in this course, actually, we focus on
+
+1067
+02:21:21,160 --> 02:21:24,119
+ the super-hard learning and the anti-hard learning, right? Reinforcement learning is not
+
+1068
+02:21:24,920 --> 02:21:31,800
+ covered in this course. But if you have interest, or if you need this reinforcement learning in your
+
+1069
+02:21:31,800 --> 02:21:37,960
+ dissertation, your project, then certainly you are encouraged to look for material from the website.
+
+1070
+02:21:38,919 --> 02:21:45,320
+ Okay. So next I'll talk about the applications of machine learning, right? So of course, machine
+
+1071
+02:21:45,320 --> 02:21:51,800
+ learning is widely used, right? And almost all areas, right? And then you can think about, actually,
+
+1072
+02:21:52,359 --> 02:21:56,279
+ the use of machine learning. But of course, actually, in some scenarios, actually,
+
+1073
+02:21:56,279 --> 02:22:02,599
+ we use the more advanced machine learning, like a deep learning, right? If the data is a test,
+
+1074
+02:22:02,600 --> 02:22:09,400
+ or natural language, or time-server, this kind of thing, right? But actually, in many scenarios,
+
+1075
+02:22:09,400 --> 02:22:13,160
+ the data is just a tree. You know, the data, you just use data in the database,
+
+1076
+02:22:13,160 --> 02:22:19,960
+ relational database, structured, okay? So in such a scenario, and we just use a commercial
+
+1077
+02:22:19,960 --> 02:22:25,000
+ machine learning, okay? Like the data in the banking, in the banks, right? In the banking and
+
+1078
+02:22:25,000 --> 02:22:32,520
+ the finance industry, we have a database, right? So all the information you have. And so like
+
+1079
+02:22:32,520 --> 02:22:39,640
+ some typical example, a fraud transaction detection. Actually, you know, some students actually are
+
+1080
+02:22:39,640 --> 02:22:45,640
+ working on a project like to, based on the transaction, you can predict whether, you know,
+
+1081
+02:22:45,640 --> 02:22:53,960
+ there's a possibility of money laundering, right? So this is actually, you know, prediction, okay?
+
+1082
+02:22:53,960 --> 02:23:01,480
+ In finance. Customer-churn prediction. Whether this customer-churn will select service,
+
+1083
+02:23:02,359 --> 02:23:06,920
+ leave this company, or go service to another company, right? Select a service of other companies.
+
+1084
+02:23:08,760 --> 02:23:16,439
+ So this also can have a prediction, okay? So this is a finance, banking, many, all the insurance,
+
+1085
+02:23:17,080 --> 02:23:25,800
+ and, you know, you have to care, you know. And the part often, to know, you know, a problem,
+
+1086
+02:23:25,800 --> 02:23:30,119
+ we don't just use one type of a learning. So now we talk about super-hard learning,
+
+1087
+02:23:30,120 --> 02:23:37,400
+ unsupervised learning, right? And actually, in practice, and part often, you know, for one problem,
+
+1088
+02:23:37,400 --> 02:23:42,200
+ and we need to integrate, you know, both super-hard and unsupervised learning.
+
+1089
+02:23:43,240 --> 02:23:48,280
+ Okay. So I just give you one example, right? This is a very typical example, actually.
+
+1090
+02:23:48,520 --> 02:23:59,640
+ Like, for example, a bank, you know, have a new scheme for fixed deposit.
+
+1091
+02:24:00,840 --> 02:24:06,040
+ Fixed deposit, like you save the money in the bank for one year, and then what is the interest rate,
+
+1092
+02:24:06,040 --> 02:24:12,440
+ right? So now if they have, you know, the interest rate, probably, actually, we are done, right?
+
+1093
+02:24:12,520 --> 02:24:17,960
+ We'll be done, actually, in the next few months, okay? So now, actually, the one bank, like,
+
+1094
+02:24:17,960 --> 02:24:25,080
+ launch a new scheme program. If you save, actually, like, a certain 50K, no, 50,000,
+
+1095
+02:24:25,800 --> 02:24:32,120
+ Singapore dollar for one year, and then the fixed deposit rate, right, interest rate is
+
+1096
+02:24:33,720 --> 02:24:39,240
+ 4%. For example, this is actually very high, right? 4%. Okay? They have a new scheme. Of course,
+
+1097
+02:24:39,480 --> 02:24:46,280
+ actually, they can inform every customer of the bank, right? You can imagine, even in Singapore,
+
+1098
+02:24:46,280 --> 02:24:52,840
+ a small country, and a bank can easily have, like, 1 million customers in China, right?
+
+1099
+02:24:52,840 --> 02:24:58,520
+ Huge population. A bank could have 1 billion customers. Of course, you can send a message,
+
+1100
+02:24:58,520 --> 02:25:04,440
+ you can write letters, you can call them, actually, to tell them, you know, this new scheme, right?
+
+1101
+02:25:04,440 --> 02:25:10,200
+ And then you ask them whether you are interested or not, right? But you need to send billions of
+
+1102
+02:25:10,200 --> 02:25:17,480
+ messages, you need to send billions of letters, you need to send, actually, a billion phone calls,
+
+1103
+02:25:17,480 --> 02:25:24,120
+ right? So that is not practical, okay? Then how to address this problem, actually, normally,
+
+1104
+02:25:24,120 --> 02:25:29,960
+ we can use the machine learning technique, okay? So first, actually, you can select a few,
+
+1105
+02:25:30,279 --> 02:25:37,320
+ a small number of customers. For example, like 2,000 customers, okay? And for these 2,000 customers,
+
+1106
+02:25:37,320 --> 02:25:41,560
+ of course, you can call them, you can write letters to them, you can message them to see,
+
+1107
+02:25:41,560 --> 02:25:48,279
+ oh, we have a new face deposit interest rate, right? 4.0, very attractive. So whether you have
+
+1108
+02:25:48,279 --> 02:25:56,119
+ interest or not, right? Then, of course, actually, normally, we can receive three types of response.
+
+1109
+02:25:56,920 --> 02:26:01,720
+ First, the customer could see, oh, yes, I have interest. Please send more information to me,
+
+1110
+02:26:01,720 --> 02:26:06,360
+ I have interest, right? They have interest. Some say I don't have money or I don't, I have a better
+
+1111
+02:26:06,360 --> 02:26:15,000
+ way to invest my savings, right? I don't want to actually put this into a fixed deposit scheme.
+
+1112
+02:26:15,000 --> 02:26:19,560
+ So I have no interest in this. So this is a second response. And then that response, actually,
+
+1113
+02:26:19,640 --> 02:26:27,480
+ simply don't reply, okay? Call them, they don't reply, okay? Three responses, okay? So actually,
+
+1114
+02:26:27,480 --> 02:26:33,400
+ now, based on these responses, different type of response, three types, right? Of the 2,000
+
+1115
+02:26:33,400 --> 02:26:42,680
+ customers, we can build a model and to predict the customer's response based on his personal data.
+
+1116
+02:26:42,680 --> 02:26:48,600
+ Actually, the bank normally have our data, right? And normally, our age, our gender,
+
+1117
+02:26:49,160 --> 02:26:55,480
+ nationality, if you work, right, then what is your salary? What is your family size? So what kind of
+
+1118
+02:26:55,480 --> 02:27:02,120
+ apartment home you stay? Whether you have a car, what car it is, how much is it? I have a lot of
+
+1119
+02:27:02,120 --> 02:27:08,760
+ information, all recorded in the bank, in the database, okay? So based on these input features,
+
+1120
+02:27:08,840 --> 02:27:15,000
+ we can predict whether the person could have a positive response, could have a negative response,
+
+1121
+02:27:15,000 --> 02:27:20,760
+ or could have no response, no reply, right? We can predict, at least based on the 2,000
+
+1122
+02:27:20,760 --> 02:27:27,000
+ customers, we can build such a model, okay? And then we can use this model to predict the remaining
+
+1123
+02:27:27,000 --> 02:27:34,760
+ customers around billion, okay? Then we can only select those with a high probability
+
+1124
+02:27:34,760 --> 02:27:39,960
+ that could give a positive response. Then we just inform them, right? There's no need to,
+
+1125
+02:27:39,960 --> 02:27:46,440
+ with your effort, right, to call billion customers, to send billion messages, right? There's no need
+
+1126
+02:27:46,440 --> 02:27:52,680
+ to do that. So this is a smarter way, right, of marketing, right? Okay. So this basically, you know,
+
+1127
+02:27:52,680 --> 02:27:57,560
+ is a class-gaming problem, right? It's a super-high-learning problem. You collect the data of
+
+1128
+02:27:57,560 --> 02:28:04,040
+ 2,000 customers based on this label data because you have the response. The response is just a label.
+
+1129
+02:28:04,040 --> 02:28:09,640
+ You can build a model. So this is a, build a patent classification model. So this is a super-high-learning
+
+1130
+02:28:09,640 --> 02:28:15,560
+ problem, okay? Then the question comes, how do we select these 2,000 customers?
+
+1131
+02:28:17,800 --> 02:28:23,240
+ This cost, or 2,000 customers should not be randomly selected from the probe, okay? These
+
+1132
+02:28:23,240 --> 02:28:29,000
+ 2,000 customers should be representative, should represent those rich, you know, middle income,
+
+1133
+02:28:29,000 --> 02:28:36,760
+ right? Poor people, okay? Because I have a big family side, very big saving or less saving,
+
+1134
+02:28:36,760 --> 02:28:42,360
+ right? Because it should be representative of the billions or millions of customers, okay? But how
+
+1135
+02:28:42,360 --> 02:28:51,640
+ to, but how to select these 2,000 representative customers? How to select? Actually, we can use
+
+1136
+02:28:51,640 --> 02:28:59,880
+ the so-called answer-high-learning, the classroom algorithm. Actually, you can use the classroom
+
+1137
+02:28:59,880 --> 02:29:09,400
+ algorithm to put the data into 2,000 groups or clusters. And then from each cluster, you select
+
+1138
+02:29:09,400 --> 02:29:15,240
+ one, the representative one, okay? Then finally, through this answer-high-learning, you select
+
+1139
+02:29:15,240 --> 02:29:20,039
+ 2,000 customers, right? Then for these 2,000 customers, you call them, you get the responses,
+
+1140
+02:29:20,120 --> 02:29:26,200
+ you label them, then to build a model. So in the whole process, you can see we use
+
+1141
+02:29:27,000 --> 02:29:32,120
+ more types of learning, unsupervised learning first, then followed by the supervised learning,
+
+1142
+02:29:32,920 --> 02:29:38,760
+ right? Okay, so we know different type of learning, but actually based on the nature of the problem,
+
+1143
+02:29:38,760 --> 02:29:45,400
+ and sometimes we need to integrate different techniques. Just like in the beginning, I see
+
+1144
+02:29:45,400 --> 02:29:50,039
+ the first generation of the AI is knowledge driven, right? It's a rule based on knowledge,
+
+1145
+02:29:50,039 --> 02:29:55,880
+ but rules, okay? Second generation, and then it's machine learning or data driven. But not
+
+1146
+02:29:55,880 --> 02:30:04,039
+ necessarily we need to use either knowledge driven or data driven. We can use both, we can integrate
+
+1147
+02:30:04,039 --> 02:30:10,039
+ both, right? See how they're similar? We can integrate different types of learning, right?
+
+1148
+02:30:10,840 --> 02:30:19,080
+ Supervised and supervised into one system. Okay, so this is the different applications of
+
+1149
+02:30:20,280 --> 02:30:26,600
+ machine learning. And then of course, actually machine learning, we need to machine learning,
+
+1150
+02:30:26,600 --> 02:30:32,200
+ right? Machine learning to use machine, to instruct machine. Instruct machine here means computer.
+
+1151
+02:30:32,200 --> 02:30:37,480
+ You instruct computer how to learn from the data. So certainly we need to know programming.
+
+1152
+02:30:38,199 --> 02:30:45,240
+ And remember last year, actually I gave an assignment, actually the student actually email
+
+1153
+02:30:45,240 --> 02:30:50,119
+ complaints, see? You don't tell me, you know, in the beginning, you see, you know, machine learning
+
+1154
+02:30:50,119 --> 02:30:55,720
+ needs computer programming. But if machine learning is the machine, computer learning,
+
+1155
+02:30:55,720 --> 02:31:00,439
+ if you don't know how to program, right? Don't program how to learn, how to instruct computer
+
+1156
+02:31:00,520 --> 02:31:06,120
+ to learn from the data. So we must know programming, right? Of course, actually,
+
+1157
+02:31:07,800 --> 02:31:15,160
+ we cannot use like a low level, like you can use C, Java, or you can use either more high level
+
+1158
+02:31:15,160 --> 02:31:22,520
+ language, but we need to do programming. Okay, so this is a necessary skill actually for machine
+
+1159
+02:31:22,520 --> 02:31:27,720
+ learning. Become machine, here computer, computer learning, computer, you don't know, you must
+
+1160
+02:31:27,720 --> 02:31:36,760
+ know how to program, right? Okay, so here for machine learning, I think there are three popular
+
+1161
+02:31:36,760 --> 02:31:42,599
+ language, right, common language on the pattern. Okay, these are no open source, right? No need to
+
+1162
+02:31:42,599 --> 02:31:49,240
+ pay, right? Of course, for some particular package, probably need to pay, but basically,
+
+1163
+02:31:49,240 --> 02:31:54,199
+ you don't need to pay. Okay, and also based on the pattern, we have some tools for machine learning.
+
+1164
+02:31:54,200 --> 02:31:59,880
+ So this is actually a Sanskrit language, right? So these are very popular machine learning
+
+1165
+02:31:59,880 --> 02:32:04,680
+ libraries, okay? There are a lot of functions there. All the methods we learn in this course
+
+1166
+02:32:05,880 --> 02:32:12,040
+ actually have a function in the library. Okay, so you can use actually, you know,
+
+1167
+02:32:12,760 --> 02:32:19,480
+ pattern language, and you can use these two both. So this is one popular technique pattern, right?
+
+1168
+02:32:20,439 --> 02:32:28,199
+ Okay, another actually is R. R is an even higher level language, right? And for those,
+
+1169
+02:32:28,840 --> 02:32:33,480
+ like in the business area, not familiar with computing, we are all from, many of you are from
+
+1170
+02:32:33,480 --> 02:32:38,119
+ computers, you know, background, from the engineering background at least, right? Control,
+
+1171
+02:32:38,680 --> 02:32:44,359
+ or communication, or similar area, right? Certainly, you know programming, right? So,
+
+1172
+02:32:44,360 --> 02:32:49,320
+ but for many, like in business, in banking, just now we talk about application in banks, right?
+
+1173
+02:32:49,320 --> 02:32:55,880
+ In finance industry, their background is business management, but they can also use
+
+1174
+02:32:56,680 --> 02:33:05,240
+ machine learning, so they can use R, it's like a, it's a very high level, okay? R, and then my lab,
+
+1175
+02:33:05,960 --> 02:33:13,480
+ my lab, actually, I'm familiar with my lab, but not R or Python. I started to use machine,
+
+1176
+02:33:13,480 --> 02:33:21,320
+ my lab in 1989. So actually now, how many years? When I did my master's degree in 1989, I used
+
+1177
+02:33:21,320 --> 02:33:28,039
+ a tree, my lab. So I have 30 years, right? My lab, I don't know Python, but you are encouraged to use
+
+1178
+02:33:28,039 --> 02:33:35,640
+ the, the Python to, you know, to work our assignment, okay? But of course, you can still use my lab.
+
+1179
+02:33:35,960 --> 02:33:46,439
+ Okay. So, okay, so these are my lab, the three, you know, computer language are popular, I mean,
+
+1180
+02:33:46,439 --> 02:33:51,640
+ for machine learning. Machine learning and my lab also know tour balls, even for deep learning, right?
+
+1181
+02:33:51,640 --> 02:33:57,480
+ And also for neural networks, and for statistics, he's studied it, we all have, for control, right?
+
+1182
+02:33:57,480 --> 02:34:04,279
+ We all have the tour balls, he's a professional, okay? And so you can use N.A., right? So actually in the,
+
+1183
+02:34:04,840 --> 02:34:10,440
+ you know, our assignment, actually, you are encouraged to use the Python, but any language is fine,
+
+1184
+02:34:10,440 --> 02:34:15,720
+ okay? You can use any language, actually, I give you the data, right? You, you, based on data,
+
+1185
+02:34:15,720 --> 02:34:23,800
+ you build models, then use the model to predict the result of the testing data. You can use any language,
+
+1186
+02:34:24,520 --> 02:34:31,000
+ okay? And, okay, so this is, I think, yeah, so when, when, week six, when I give you the assignment,
+
+1187
+02:34:31,080 --> 02:34:35,960
+ I'll talk about more details, okay? But at least in the past, actually, I hope the student can start
+
+1188
+02:34:35,960 --> 02:34:41,000
+ and then can, from scratch, can write some code, okay? But actually, I find nowadays,
+
+1189
+02:34:41,000 --> 02:34:45,160
+ students can use the, you know, try GPT, right? To get a code, and copy it to the assignment,
+
+1190
+02:34:45,160 --> 02:34:50,440
+ to get a high mark. So from this year, just look at your results, okay? Don't look at the code,
+
+1191
+02:34:50,440 --> 02:34:56,600
+ you can copy the code, right? You can use a machine, try GPT to generate the code, okay? So I just,
+
+1192
+02:34:56,600 --> 02:35:04,280
+ we'll look at the results, okay? Okay, that's actually like the issues in machine learning,
+
+1193
+02:35:04,280 --> 02:35:09,560
+ okay? Machine learning is widely used, right? In countries, like, in, in China, right? Now,
+
+1194
+02:35:09,560 --> 02:35:16,600
+ it's pioneering in the application of machine learning, okay? And also, you observe in Singapore,
+
+1195
+02:35:16,600 --> 02:35:21,480
+ machine learning is used, AI, you look at a lot of apps, right? But maybe it's less used,
+
+1196
+02:35:21,560 --> 02:35:29,480
+ and not come than China. But if you are other countries, I think even, I think less used,
+
+1197
+02:35:29,480 --> 02:35:35,400
+ right? So actually, these are, I think the, because actually, many, many factors, right?
+
+1198
+02:35:35,400 --> 02:35:40,680
+ It doesn't mean they don't have the technique, okay? And there are some other issues, okay? There
+
+1199
+02:35:40,680 --> 02:35:48,359
+ are some issues, right, to the law, regulation, the cultures, okay? And so there are other equal
+
+1200
+02:35:48,360 --> 02:35:57,080
+ issues, okay? About the use of machine learning, use AI techniques, okay? And some important
+
+1201
+02:35:57,080 --> 02:36:05,000
+ issue here is the, is the privacy, privacy. I think you all have the experience. I think a few
+
+1202
+02:36:05,000 --> 02:36:11,080
+ years, I do, but a few years, you know, actually, I see, you know, many people, they all appreciate
+
+1203
+02:36:11,080 --> 02:36:21,640
+ the covenants, right? Brought by the AI technique. Just appreciate the covenants. But nowadays,
+
+1204
+02:36:21,640 --> 02:36:27,960
+ more and more people talk about the privacy issues, right? Privacy. Probably you also have this,
+
+1205
+02:36:27,960 --> 02:36:35,640
+ actually, this is a nice chair, right? You have this chair, okay? So privacy, okay? And so this is
+
+1206
+02:36:35,720 --> 02:36:41,720
+ actually, you know, when we use the data, right? Actually, sometimes actually, from our machine
+
+1207
+02:36:41,720 --> 02:36:48,119
+ learning point of view, we should use any possible information. Normally for learning,
+
+1208
+02:36:48,119 --> 02:36:53,320
+ the more information we have, normally the better the performance, right? So we should
+
+1209
+02:36:53,320 --> 02:37:00,279
+ try our best to get, to collect as much as possible of the information. This could be
+
+1210
+02:37:00,360 --> 02:37:05,960
+ the personal information, right? But actually, you know, some, but in practical scenarios,
+
+1211
+02:37:05,960 --> 02:37:12,280
+ sometimes, actually, because of the law and the regulations, we cannot use some of these
+
+1212
+02:37:12,280 --> 02:37:20,120
+ information, even these information is available to us. For example, actually, like, you know,
+
+1213
+02:37:20,120 --> 02:37:27,240
+ in a bank, you know, the per day, the risk, whether there will be a default or not, the
+
+1214
+02:37:27,240 --> 02:37:33,480
+ person will not, you know, you borrow them, you lend the money to them, right? They will not pay you
+
+1215
+02:37:33,480 --> 02:37:38,199
+ back later, right? There is a risk, okay? And of course, actually, maybe there is a,
+
+1216
+02:37:39,080 --> 02:37:46,760
+ the gender make a difference, male or female. But you cannot use this information in the model.
+
+1217
+02:37:46,760 --> 02:37:52,440
+ Actually, some have these regulations, because these will create a result that against a certain,
+
+1218
+02:37:52,440 --> 02:37:59,080
+ we have a bias against a certain gender, right? So, so these are, you see, from machine learning
+
+1219
+02:37:59,080 --> 02:38:03,560
+ point of view, we try to do that, that from other point of view, from social science,
+
+1220
+02:38:03,560 --> 02:38:11,080
+ from a non, from non humanity, no, they have other considerations, okay? So, I think, so
+
+1221
+02:38:11,080 --> 02:38:15,240
+ there's no application of machine learning, the issues we need to take into account.
+
+1222
+02:38:16,520 --> 02:38:21,480
+ Okay, not just from our point of view, right? We engineers, right? Or we try to get the best
+
+1223
+02:38:21,480 --> 02:38:28,439
+ performance by the tree, we need to take other issues, editing issues, social issues, actually,
+
+1224
+02:38:28,439 --> 02:38:35,400
+ cultural issues, and into consideration, okay? So, this is, I think, one thing we need to note
+
+1225
+02:38:35,400 --> 02:38:43,480
+ to take into account, the privacy. Okay, another is that actually, even there is no breach of
+
+1226
+02:38:43,480 --> 02:38:48,920
+ privacy, there may be situations where actions were taken based on machine learning, or may create
+
+1227
+02:38:49,240 --> 02:38:55,240
+ adverse reaction, okay? And this actually, we also need to realize this. So, machine learning,
+
+1228
+02:38:55,240 --> 02:39:01,000
+ we see, or machine learning from data, some even believe machine learning outperforms human.
+
+1229
+02:39:01,000 --> 02:39:05,320
+ Indeed, in some tasks, right, in computing, for example, you might calculate, can calculate,
+
+1230
+02:39:05,320 --> 02:39:11,320
+ can outperform human, right? Yeah, certainly, machine learning can outperform human, some tasks,
+
+1231
+02:39:11,320 --> 02:39:18,520
+ right? And then, actually, they tend to believe the result of the machine learning. But we need to
+
+1232
+02:39:18,520 --> 02:39:24,440
+ keep this in mind, actually, the learning result also, actually, is affected by many factors.
+
+1233
+02:39:25,080 --> 02:39:29,000
+ First, the quality of the data, right? The quality of data, then the learning algorithm,
+
+1234
+02:39:29,960 --> 02:39:33,240
+ and the quality of the data also has many considerations,
+
+1235
+02:39:34,120 --> 02:39:42,920
+ quality of data, right? And, for example, actually, you get the data, but this data actually
+
+1236
+02:39:42,920 --> 02:39:48,920
+ just cover, you know, part of the information, part of the customer, not representative.
+
+1237
+02:39:48,920 --> 02:39:53,800
+ Just as in the previous example, I see you select 2,000 customers, these 2,000 customers should be
+
+1238
+02:39:53,800 --> 02:39:59,640
+ representative, okay? But if you happen to select 2,000 customers, even 3,000 customers,
+
+1239
+02:39:59,640 --> 02:40:05,400
+ by these three, all time, just represent a small group, a small group, right? And then,
+
+1240
+02:40:05,400 --> 02:40:13,160
+ based on the small group data, small group, not all the customers, right? Not representative,
+
+1241
+02:40:13,160 --> 02:40:19,640
+ just like very rich people or very proud people, just middle class data, okay? Don't cover the whole
+
+1242
+02:40:19,640 --> 02:40:27,800
+ range, right? Then you build a model on this, you predict the data outside, now, beyond that range.
+
+1243
+02:40:28,439 --> 02:40:35,320
+ I certainly know the prediction could not be accurate, could not be, right? So that could,
+
+1244
+02:40:35,320 --> 02:40:44,039
+ you know, create adverse reactions, okay? Adverse effect or impact, okay? So we should actually,
+
+1245
+02:40:44,039 --> 02:40:50,039
+ so it's very ethnic issues, and we should use machine learning technique, but we should not always
+
+1246
+02:40:50,039 --> 02:40:56,119
+ trust this, right? Machine learning results, the prediction from the model, because actually,
+
+1247
+02:40:56,120 --> 02:41:02,360
+ the model actually basically lend the information from the data. If the data is not representative,
+
+1248
+02:41:03,240 --> 02:41:09,800
+ and then the model certainly not can only capture that part of the information. And when it's
+
+1249
+02:41:09,800 --> 02:41:16,200
+ generalized to other part of the data, actually, certainly, actually, that could be, actually,
+
+1250
+02:41:16,200 --> 02:41:24,200
+ you know, a very big area, okay? So I think we also need to take this into account, okay? Try to
+
+1251
+02:41:24,280 --> 02:41:29,560
+ use machine learning, right? Try to use AI. Don't always try them. They are 100%, right? Don't
+
+1252
+02:41:29,560 --> 02:41:35,800
+ try them. Trust them, okay? We need to always to have the so-called human judgment, right?
+
+1253
+02:41:35,800 --> 02:41:42,120
+ Ultimately, we are smarter than machines, right? We need to have our own judgment,
+
+1254
+02:41:42,840 --> 02:41:47,800
+ okay? So these are the, so probably human judgment actually should be exercise.
+
+1255
+02:41:48,199 --> 02:41:55,640
+ So this is the order of the consideration that we need to take into account, okay? And when we use
+
+1256
+02:41:55,640 --> 02:42:08,599
+ machine learning, okay? So this is a brief summary about today's lecture, right? So today, first
+
+1257
+02:42:08,599 --> 02:42:14,119
+ about the basic learning process, right? Three parts, input data. The data is always important,
+
+1258
+02:42:15,080 --> 02:42:24,680
+ right? The raw material. Without good material, you cannot make good food, right? So the data,
+
+1259
+02:42:25,240 --> 02:42:30,520
+ the abstraction, and also the generalization. So the three parts of a machine learning system.
+
+1260
+02:42:30,520 --> 02:42:36,920
+ So then learning, data, the client data is all part of the learning, right? Apply the model to
+
+1261
+02:42:36,920 --> 02:42:43,560
+ the future data is also part of the learning. And the different learning, actually, you know,
+
+1262
+02:42:43,560 --> 02:42:48,040
+ categories, the supervised learning, unsupervised learning, reinforcement learning, right? So the
+
+1263
+02:42:48,040 --> 02:42:54,680
+ difference based on the data, right? The label training data. If we use the label information,
+
+1264
+02:42:54,680 --> 02:42:59,400
+ then it's supervised. But even the data is labeled, but if you don't use the label information,
+
+1265
+02:43:00,040 --> 02:43:05,640
+ but then the learning is still unsupervised, right? It's unsupervised because you don't use that part
+
+1266
+02:43:05,640 --> 02:43:11,320
+ of information. Then the learning is unsupervised. Although the data is labeled. Okay.
+
+1267
+02:43:14,760 --> 02:43:21,720
+ Okay. And then the popular, you know, the platforms or computer language, right? For machine learning.
+
+1268
+02:43:21,720 --> 02:43:30,680
+ Python, R, my lab. And so ethical issues. Very important. I'm going to consider this
+
+1269
+02:43:30,680 --> 02:43:37,000
+ when we adopt machine learning techniques. Okay. I think, yeah, basically this is all for today.
+
+1270
+02:43:37,000 --> 02:43:41,480
+ This is our first lecture about machine learning. So I just introduced some basic concept.
+
+1271
+02:43:41,480 --> 02:43:47,320
+ No technical details. But actually, indeed, actually, I think these issues are important.
+
+1272
+02:43:47,320 --> 02:43:53,400
+ We need to have a good understanding about these basic concepts. Okay. So that's all. Thank you very much.
+
+1273
+02:43:53,400 --> 02:44:04,119
+ Okay. Thank you.
+
+1274
+02:44:53,400 --> 02:45:04,119
+ Thank you.
+
+1275
+02:45:23,400 --> 02:45:34,119
+ Thank you.
+
+1276
+02:45:53,400 --> 02:46:04,119
+ Thank you.
+
+1277
+02:46:23,400 --> 02:46:34,119
+ Thank you.
+
+1278
+02:46:53,400 --> 02:47:04,119
+ Thank you.
+
+1279
+02:47:23,400 --> 02:47:34,119
+ Thank you.
+
+1280
+02:47:53,400 --> 02:48:04,119
+ Thank you.
+
+1281
+02:48:23,400 --> 02:48:34,119
+ Thank you.
+
+1282
+02:48:53,400 --> 02:49:04,119
+ Thank you.
+
+1283
+02:49:23,400 --> 02:49:34,119
+ Thank you.
+
+1284
+02:49:53,400 --> 02:50:04,119
+ Thank you.
+
+1285
+02:50:23,400 --> 02:50:34,119
+ Thank you.
+
+1286
+02:50:53,400 --> 02:51:04,119
+ Thank you.
+
+1287
+02:51:23,400 --> 02:51:34,119
+ Thank you.
+
+1288
+02:51:53,400 --> 02:52:04,119
+ Thank you.
+
+1289
+02:52:23,400 --> 02:52:34,119
+ Thank you.
+
+1290
+02:52:53,400 --> 02:53:04,119
+ Thank you.
+
+1291
+02:53:23,400 --> 02:53:34,119
+ Thank you.
+
+1292
+02:53:53,400 --> 02:54:04,119
+ Thank you.
+
+1293
+02:54:23,400 --> 02:54:34,119
+ Thank you.
+
+1294
+02:54:53,400 --> 02:55:04,119
+ Thank you.
+
+1295
+02:55:23,400 --> 02:55:34,119
+ Thank you.
+
+1296
+02:55:53,400 --> 02:56:04,119
+ Thank you.
+
+1297
+02:56:23,400 --> 02:56:34,119
+ Thank you.
+
+1298
+02:56:53,400 --> 02:57:04,119
+ Thank you.
+
+1299
+02:57:23,400 --> 02:57:34,119
+ Thank you.
+
+1300
+02:57:53,400 --> 02:58:04,119
+ Thank you.
+
+1301
+02:58:23,400 --> 02:58:34,119
+ Thank you.
+
+1302
+02:58:53,400 --> 02:59:04,119
+ Thank you.
+
+1303
+02:59:23,400 --> 02:59:34,119
+ Thank you.
+
+1304
+02:59:53,400 --> 03:00:00,119
+ Thank you.
+

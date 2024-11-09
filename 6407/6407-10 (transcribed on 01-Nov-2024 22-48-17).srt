@@ -1,0 +1,4964 @@
+1
+00:01:30,000 --> 00:01:45,840
+ Okay.
+
+2
+00:01:45,840 --> 00:01:56,039
+ In the previous weeks, actually we have started a few, actually a pending classification design
+
+3
+00:01:56,040 --> 00:02:05,280
+ method, right? And the first method is the basic decision rule. We try to actually predict
+
+4
+00:02:05,280 --> 00:02:13,920
+ the class label based on the posterior probability. And of course the central issue is how to
+
+5
+00:02:13,920 --> 00:02:19,680
+ model the class kind of probability density function, right? So this is the first one we
+
+6
+00:02:19,680 --> 00:02:27,000
+ have studied. Then the second one actually is the naive base, okay? And actually naive
+
+7
+00:02:27,000 --> 00:02:36,400
+ base is just the same as Gaussian function base, right? Probability density function estimation.
+
+8
+00:02:36,400 --> 00:02:42,560
+ But actually we assume the features are in 30 pendants, okay? And then the second type
+
+9
+00:02:42,560 --> 00:02:48,520
+ actually classified and then we have studied is the feature linear digital analysis. And
+
+10
+00:02:48,520 --> 00:02:52,760
+ then the third type is the linear support random machine. And then the fourth type is
+
+11
+00:02:52,760 --> 00:02:58,920
+ the pending classification tree, okay? So given some training data, not always we can
+
+12
+00:02:58,920 --> 00:03:04,040
+ learn a model, right? Actually we can learn all the four types of models, even five types,
+
+13
+00:03:04,040 --> 00:03:10,960
+ including the naive base, right? We can actually build four models or five models based on
+
+14
+00:03:10,960 --> 00:03:16,920
+ the given training data, okay? And the whole model performance of the model, okay? I think
+
+15
+00:03:16,920 --> 00:03:21,519
+ that's a very important issue, right? And actually I mentioned before there is no free
+
+16
+00:03:21,519 --> 00:03:27,239
+ launch theorem, okay? There is no single algorithm performed the best for all applications,
+
+17
+00:03:27,239 --> 00:03:33,079
+ okay? So that means actually for each application and we need to build a few models, a few types
+
+18
+00:03:33,079 --> 00:03:38,720
+ of models, then we try to find which one will perform the best, okay? Then we will adopt
+
+19
+00:03:38,720 --> 00:03:46,440
+ that model for that specific dataset, okay? So perform the best. This is about the evaluation
+
+20
+00:03:47,079 --> 00:03:52,680
+ of a model, okay? So today actually we are talking about actually a few model evaluation
+
+21
+00:03:52,680 --> 00:04:01,960
+ procedure and also the model evaluation metrics, okay? The first evaluation metric is called
+
+22
+00:04:01,960 --> 00:04:10,400
+ the evaluation procedure called holdout method. So in this tree holdout method, so part of
+
+23
+00:04:10,400 --> 00:04:19,320
+ the data, part of the data, right? We will be used as testing data. We will be head
+
+24
+00:04:19,320 --> 00:04:24,760
+ off and we will be used as testing data. Then the remaining part of the data will be used
+
+25
+00:04:24,760 --> 00:04:33,080
+ as a training data, okay? So this is the holdout method. This diagram just shows this actually
+
+26
+00:04:33,080 --> 00:04:39,400
+ in a process, a procedure, okay? So given a dataset, yeah, we have a full dataset, right?
+
+27
+00:04:39,400 --> 00:04:44,919
+ And we divide the dataset into two, actually, you know, subsets, okay? One subset is called
+
+28
+00:04:44,919 --> 00:04:50,159
+ a training data, okay? And then another subset, the remaining subset is the testing data,
+
+29
+00:04:50,159 --> 00:04:55,120
+ right? In the holdout method, then we see the holdout, right? That means this testing
+
+30
+00:04:55,120 --> 00:05:02,320
+ data is head off and will not be used for the model training, okay? And then based on
+
+31
+00:05:02,320 --> 00:05:08,479
+ the training data and based on the learning algorithm, right? And we can build actually
+
+32
+00:05:08,520 --> 00:05:15,400
+ a model for the classification that is just a pen and classifier, okay? So we get a model.
+
+33
+00:05:15,400 --> 00:05:20,520
+ And then, of course, we can use this model to predict the class labels of the testing
+
+34
+00:05:20,520 --> 00:05:28,640
+ data, okay? And then we can compare, you know, actually the prediction of the testing data
+
+35
+00:05:28,640 --> 00:05:34,400
+ and also the true, you know, label of the testing data. So based on this comparison,
+
+36
+00:05:34,440 --> 00:05:39,400
+ we can give some evaluations. So that is an evaluation, actually, you know, matrix. So
+
+37
+00:05:39,400 --> 00:05:44,599
+ later we will talk about that, okay? So the procedure is that, is talking about how to
+
+38
+00:05:44,599 --> 00:05:52,799
+ divide the data, right? So here we divide data into two types, okay? Normally, actually,
+
+39
+00:05:52,799 --> 00:06:02,080
+ like 70 to 80 percent of the data will be used as a training, then 20 to 30 percent of the data
+
+40
+00:06:02,080 --> 00:06:11,080
+ will be used as a testing, okay? In other words, given a data set, okay, we randomly select 70
+
+41
+00:06:11,080 --> 00:06:15,640
+ percent to 80 percent of the data, okay? And this part of the data will be used as a training
+
+42
+00:06:15,640 --> 00:06:20,799
+ data to build a model, okay? Then the remaining part, right? The remaining part, actually,
+
+43
+00:06:20,799 --> 00:06:26,360
+ will be used as testing data, okay? So the training data and also the testing data, actually,
+
+44
+00:06:26,680 --> 00:06:36,800
+ are randomly selected, right? Randomly, actually, selected from the given data set, okay? So this
+
+45
+00:06:36,800 --> 00:06:42,320
+ is, it is actually a whole other method and we just see, this is, now we just see that data is
+
+46
+00:06:42,320 --> 00:06:47,840
+ divided into two parts, right? But frequently, actually, we divide the data into three parts,
+
+47
+00:06:48,799 --> 00:06:56,599
+ okay? Training data, validation data, then testing data, okay? And then, of course,
+
+48
+00:06:56,599 --> 00:07:04,640
+ actually, no, the training data will be the majority of the data, right? Training data,
+
+49
+00:07:04,640 --> 00:07:09,039
+ okay? And then, actually, we will have this, actually, the validation data is used to
+
+50
+00:07:09,039 --> 00:07:15,200
+ measure the model performance during training stage, okay? So I will elaborate this further,
+
+51
+00:07:15,400 --> 00:07:21,880
+ okay? And then, actually, the second data, the test data is used after training, okay? So actually,
+
+52
+00:07:21,880 --> 00:07:26,800
+ the validation data can be considered as a part of the training data, okay? For example,
+
+53
+00:07:26,800 --> 00:07:31,560
+ in the assignment, right? I give you the training data, actually, you can use part of the training
+
+54
+00:07:31,560 --> 00:07:41,760
+ data as a validation data, okay? And so why, how this validation data is used, okay? And actually,
+
+55
+00:07:41,800 --> 00:07:48,640
+ this validation data is often used to determine the hyperparameters, hyperparameters of the model,
+
+56
+00:07:48,640 --> 00:07:57,080
+ of the learning algorithm, okay? And for example, right, in the last, I think, just last week,
+
+57
+00:07:57,080 --> 00:08:04,280
+ we started the classification tree, right? And actually, the size of the model is a very important
+
+58
+00:08:04,280 --> 00:08:08,840
+ issue, right? We need to determine the size of the model. And normally, with no, no, either
+
+59
+00:08:12,119 --> 00:08:16,599
+ pentacletic tree, now, we have two processes, right? Two phases. The first phase is the
+
+60
+00:08:16,599 --> 00:08:22,440
+ construction, growing of the tree. And then the second stage, or second phase is actually the
+
+61
+00:08:22,440 --> 00:08:27,400
+ perium of the tree, the custom of the branch, right? So that actually, we can keep the model small,
+
+62
+00:08:28,120 --> 00:08:37,039
+ okay? And so, actually, I think one important parameter in the growing stage is that, so when
+
+63
+00:08:37,039 --> 00:08:44,920
+ we should stop the growing process, right? We have some criteria. That is, when a node has less
+
+64
+00:08:44,920 --> 00:08:51,560
+ than 10 data sets, for example, less than 10 data samples, and then we can stop, okay? All we know,
+
+65
+00:08:51,640 --> 00:08:59,319
+ if the node just contains actually, no, less than five samples, then we can stop, okay? And
+
+66
+00:08:59,319 --> 00:09:06,040
+ actually, these five, and these 10, actually, are called hyperparameters. Before, you train the model,
+
+67
+00:09:06,040 --> 00:09:12,599
+ before you grow the tree, you need to preset these values. These kind of parameters are called
+
+68
+00:09:12,599 --> 00:09:19,640
+ hyperparameters. And these parameters could be determined by the so-called validation data,
+
+69
+00:09:20,600 --> 00:09:26,760
+ okay? You first use the training data to grow the tree, right? And then you determine when to stop
+
+70
+00:09:26,760 --> 00:09:34,360
+ by based on the performance, actually, on the validation data. And another example of that,
+
+71
+00:09:34,360 --> 00:09:43,640
+ is linear support by the machine, right? You remember. And actually, no, for in several scenarios,
+
+72
+00:09:43,640 --> 00:09:49,319
+ and actually, we introduce a select variable, right? Then in the loss function, cost function,
+
+73
+00:09:49,319 --> 00:09:54,520
+ and we have two parts. The first part, actually, is the square of the norm of the W, okay? Because
+
+74
+00:09:54,520 --> 00:09:59,400
+ this part is inversely proportioned to the margin of separation, right? If we want to
+
+75
+00:09:59,400 --> 00:10:05,080
+ maximize the margin of separation in the small one machine, and then we should keep, actually,
+
+76
+00:10:05,080 --> 00:10:12,760
+ the norm of the W, or square norm of the W as small as possible, okay? Then we have the second
+
+77
+00:10:12,760 --> 00:10:18,120
+ part in the loss function, if you remember, right? I see times the summation of all the select
+
+78
+00:10:18,120 --> 00:10:25,000
+ variables. Actually, this is the hyperparameter. When you train the tree, I mentioned before training,
+
+79
+00:10:25,720 --> 00:10:31,000
+ you need to set these values, preset these values. This is also actually called hyperparameter, okay?
+
+80
+00:10:31,000 --> 00:10:36,360
+ How to determine a suitable value? We have no idea. Normally, the default value is one, but one,
+
+81
+00:10:36,360 --> 00:10:41,560
+ the default value, one does not mean the one is the best, right? So that is just when you don't
+
+82
+00:10:41,560 --> 00:10:47,479
+ know how to select, you can use these values, see as one. But we normally want to actually select
+
+83
+00:10:47,479 --> 00:10:53,560
+ a suitable value of C, right? How to select? Normally, we want to set C to different values,
+
+84
+00:10:53,560 --> 00:10:58,439
+ right? Then we can get a few, you know, small-watt machine models, right? Then we test the
+
+85
+00:10:58,439 --> 00:11:03,479
+ performance on the validation data. Then we see our corresponding to which C the performance
+
+86
+00:11:03,560 --> 00:11:10,760
+ is the best on the validation data. Then we will use the model on that C, right? Based on that C.
+
+87
+00:11:11,800 --> 00:11:17,880
+ Okay, so this is the training, right? And also, actually, I think when we talk about the
+
+88
+00:11:21,240 --> 00:11:27,960
+ base decision rule, and actually, sometimes we know that data is not from one single Gaussian
+
+89
+00:11:27,960 --> 00:11:32,440
+ function, right? We need to use a few Gaussian functions to build the class-continental probability
+
+90
+00:11:32,680 --> 00:11:38,920
+ function. And if you remember, we assume m, right? m is a number of Gaussian components in the class
+
+91
+00:11:38,920 --> 00:11:45,080
+ kind of density function. Okay, so how many we should use? Actually, this is a hyperparameter.
+
+92
+00:11:45,080 --> 00:11:51,800
+ Actually, before training, right, you need to give the value of m. So this is a hyperparameter.
+
+93
+00:11:53,720 --> 00:11:59,080
+ So this hyperparameter should be determined based on the, actually, the validation performance on
+
+94
+00:11:59,080 --> 00:12:05,320
+ the validation data. Okay, if you know, some of you know neural networks, right? And neural
+
+95
+00:12:05,320 --> 00:12:09,400
+ networks, actually, normally, it's based on the differential linear, right? Sequential linear,
+
+96
+00:12:09,400 --> 00:12:14,600
+ the length step by step, actually. And normally, the neural networks, like the deep neural networks,
+
+97
+00:12:15,720 --> 00:12:21,560
+ is oversized. Okay, oversized, that means, actually, there are two successive number of
+
+98
+00:12:22,440 --> 00:12:27,320
+ neurons or parameters in the model. And in other words, the model could easily overfit the training
+
+99
+00:12:27,320 --> 00:12:33,640
+ data. Okay, so how to actually avoid this problem? Actually, normally, we can use the so-called
+
+100
+00:12:33,640 --> 00:12:43,080
+ early stopping of the training process. Okay, and I want to stop. So, actually, normally, we should
+
+101
+00:12:43,080 --> 00:12:50,040
+ determine, actually, when to stop based on the performance on the validation data. Okay, so
+
+102
+00:12:50,040 --> 00:12:57,080
+ normally, this validation data is very important. In practice, we need to divide the data into three
+
+103
+00:12:57,080 --> 00:13:04,360
+ parts, right? And then the proportion for the three parts, normally, you know, 70% or 60%,
+
+104
+00:13:04,360 --> 00:13:13,880
+ 70% for training, 15% to 20% for validation, which is validation, actually, which means, actually,
+
+105
+00:13:13,880 --> 00:13:21,480
+ we use this part of the data to determine the values for the hyperparameters. Okay, and then
+
+106
+00:13:21,480 --> 00:13:30,840
+ we use the remaining 15% to 20% esthetic data. Okay, so this is the whole automaton. And this
+
+107
+00:13:30,840 --> 00:13:36,440
+ diagram just shows this process, right? So, first, actually, we train the model, right? We train the
+
+108
+00:13:36,440 --> 00:13:43,000
+ model based on the training data. Okay, and then we evaluate the model performance based on the
+
+109
+00:13:43,000 --> 00:13:49,480
+ validation data, right? And if the data, validation data, the performance is not very good. And then
+
+110
+00:13:49,480 --> 00:13:55,400
+ probably, now, we take the model according to, actually, you know, results on validation data.
+
+111
+00:13:55,400 --> 00:13:59,480
+ You take the model, that means, actually, you train the parameter of the model a bit. How do
+
+112
+00:13:59,480 --> 00:14:04,760
+ you get that? That is just you change the hyperparameters. Okay, you change the model size,
+
+113
+00:14:04,760 --> 00:14:09,960
+ and then you can get a different result, right? You change the value of C, you get a different set
+
+114
+00:14:09,960 --> 00:14:15,240
+ of parameters for the linear support animation, and then you can get the performance. In other
+
+115
+00:14:15,240 --> 00:14:23,320
+ words, actually, we need to actually go through a few iterations. Okay, and you want to get a good
+
+116
+00:14:23,320 --> 00:14:29,480
+ value of C, right? For linear support animation, or get a good value of the model size in the
+
+117
+00:14:29,480 --> 00:14:36,760
+ classification tree. Okay, all these, actually, are determined based on the performance of the model
+
+118
+00:14:36,760 --> 00:14:43,000
+ on the validation data. Okay, so once, actually, the both-space model is selected based on the
+
+119
+00:14:43,000 --> 00:14:50,440
+ performance on the validation data, and then, actually, we can just actually use this model
+
+120
+00:14:50,440 --> 00:15:00,280
+ to predict the levels of the testing data. Okay, so this is the use of the validation data, right?
+
+121
+00:15:00,280 --> 00:15:11,080
+ And then, the model training and validation. Okay, so this is the first method and the whole
+
+122
+00:15:11,160 --> 00:15:17,400
+ automata. And in the whole automata, I just mentioned, the data actually collected randomly, right?
+
+123
+00:15:17,400 --> 00:15:26,680
+ Randomly, okay, 70% or 280% or 70% or 60% to 70% for training, randomly selected. The random
+
+124
+00:15:26,680 --> 00:15:33,640
+ selection remaining, actually, or part of the data is the validation, then part of the data is the
+
+125
+00:15:33,640 --> 00:15:39,880
+ testing. Okay, and that could be an issue. That could be an issue, right? And the one issue that,
+
+126
+00:15:39,880 --> 00:15:48,760
+ actually, in some applications, actually, some class, actually, the so-called small class,
+
+127
+00:15:48,760 --> 00:15:56,360
+ small class, that means the number of samples is very limited for that small class. Okay, and
+
+128
+00:15:58,360 --> 00:16:04,680
+ so if we still use the random selection, right, random selection, there is a possibility that,
+
+129
+00:16:04,760 --> 00:16:13,959
+ actually, the proportion, right, of training data for different classes, okay, this proportion
+
+130
+00:16:13,959 --> 00:16:20,120
+ is different from, actually, the proportion of the data in the overall data, the proportion of
+
+131
+00:16:20,120 --> 00:16:27,880
+ the different classes in the overall data. Okay, for example, if, actually, in the full data set,
+
+132
+00:16:28,439 --> 00:16:34,840
+ one small class, only accounts for 10% of the data. If the data is small, 10%, for example,
+
+133
+00:16:34,840 --> 00:16:42,200
+ just like 20 data set, 20 data samples, 10%, right? And if you randomly select samples,
+
+134
+00:16:42,200 --> 00:16:48,200
+ maybe there's a possibility, okay, only a very few, like five samples are selected from that small
+
+135
+00:16:48,200 --> 00:16:56,520
+ class. Okay, so that means the proportion in the training testing of the small class, right,
+
+136
+00:16:56,680 --> 00:17:04,599
+ is very different from the proportion of that class in the overall data set. Okay, and so in order
+
+137
+00:17:04,599 --> 00:17:12,200
+ to address this problem, and we can use, actually, the so-called, actually, a stratified random
+
+138
+00:17:12,200 --> 00:17:18,440
+ sampling, stratified random sampling, okay. So in this method, actually, the data divided into
+
+139
+00:17:18,440 --> 00:17:22,760
+ different groups, of course, here, the data actually already divided into different groups,
+
+140
+00:17:22,760 --> 00:17:29,720
+ right, based on the class label. For class one, class two, class three. Okay, so we want to see,
+
+141
+00:17:29,720 --> 00:17:34,840
+ I want to see 60% of the data as a trained data, right? Then, okay, from class one,
+
+142
+00:17:34,840 --> 00:17:42,280
+ we randomly select 60% of the data. For class two, we randomly select 60%. And then for class,
+
+143
+00:17:43,000 --> 00:17:48,200
+ the small class, class three, for example, right, actually, we still select 60% of the data.
+
+144
+00:17:48,920 --> 00:17:55,880
+ Okay, and then for validation, then for testing, the same. So by this stratified random sampling,
+
+145
+00:17:55,880 --> 00:18:01,080
+ so we make sure, actually, the proportion of different classes in the training validation
+
+146
+00:18:01,080 --> 00:18:06,520
+ testing data, actually, the same as the proportion of the data in the overall data set.
+
+147
+00:18:08,520 --> 00:18:15,400
+ Okay, so this is called stratified random sampling. Actually, the sampling, actually,
+
+148
+00:18:15,400 --> 00:18:20,280
+ the very important technique. And actually, you know, in the statistics, actually, there are a lot
+
+149
+00:18:20,280 --> 00:18:27,640
+ of studies because statistics, actually, and one of the researchers, the area is like a sampling,
+
+150
+00:18:27,640 --> 00:18:32,840
+ how to perform sampling, right? So one of the sampling methods is just called stratified,
+
+151
+00:18:32,840 --> 00:18:37,960
+ actually, the random sampling. Sampling, I just mentioned, is important, right? Sometimes,
+
+152
+00:18:37,960 --> 00:18:43,880
+ you watch the news, right, TV, the news, and particularly the news about the election in the
+
+153
+00:18:43,960 --> 00:18:50,920
+ certain countries, right? And actually, before the election or during the process of the election,
+
+154
+00:18:50,920 --> 00:18:59,560
+ right, they do some survey, and then they can get some prediction of the election results, right?
+
+155
+00:18:59,560 --> 00:19:04,440
+ And actually, sometimes we see that actually, this result is very accurate. Why not these results
+
+156
+00:19:04,440 --> 00:19:09,880
+ to be very accurate? Before election, we have to do a survey, right? After the election, we have a
+
+157
+00:19:09,880 --> 00:19:15,640
+ result. So this result, actually, could be very close. This means, actually, the survey, this
+
+158
+00:19:15,640 --> 00:19:21,560
+ process is very important. How to select the samples based on these representative samples
+
+159
+00:19:21,560 --> 00:19:28,760
+ and to predict the result. I think this is very important, right? Sampling, actually,
+
+160
+00:19:28,760 --> 00:19:34,760
+ need to select representative samples, okay? And actually, so that means, actually,
+
+161
+00:19:35,720 --> 00:19:42,200
+ when we actually select samples for training, right, for training of a model, and the samples
+
+162
+00:19:42,200 --> 00:19:49,800
+ should also be representative. Okay. And if samples are very different from the,
+
+163
+00:19:49,800 --> 00:19:54,840
+ the training data is very different from the testing data, and then the performance could be
+
+164
+00:19:54,840 --> 00:20:02,200
+ very bad. There's something like that, okay? So we started these, right? And then in the exam,
+
+165
+00:20:02,200 --> 00:20:06,920
+ actually, I tested you in your network, the deep learning, right? So training, learning,
+
+166
+00:20:06,920 --> 00:20:12,120
+ very different from the final exam, right? So certainly, you cannot get a very good result
+
+167
+00:20:12,120 --> 00:20:17,720
+ in the final exam because actually, they are different, okay? So, so this means that training,
+
+168
+00:20:17,720 --> 00:20:21,800
+ right, the testing should be similar, should be similar. It's very different. That means,
+
+169
+00:20:21,800 --> 00:20:27,480
+ actually, the data is out of the mean, out of the mean, okay? Normally, the performance is very
+
+170
+00:20:27,560 --> 00:20:33,800
+ bad, actually. Okay. So we should try our best, actually, to select the representative samples
+
+171
+00:20:33,800 --> 00:20:40,040
+ as a training data, okay? And then the performance, the generalization performance on the testing
+
+172
+00:20:40,040 --> 00:20:50,280
+ data could be good. Okay. So this is the first method. And then, actually, another issue with
+
+173
+00:20:51,240 --> 00:20:56,600
+ whole the automatic is that the random selection, right, random sampling, 70%
+
+174
+00:20:57,160 --> 00:21:01,960
+ cc panel training, then what are the different testing, right? So every time, actually, when you
+
+175
+00:21:03,399 --> 00:21:07,720
+ do the sampling for training, what are the different testing, actually, the result will be
+
+176
+00:21:07,720 --> 00:21:14,440
+ different. Result will be different. Okay. In particular, if the training data size is not
+
+177
+00:21:15,000 --> 00:21:21,640
+ very big, if the data is not very big, you will randomly select. And then, actually, the model,
+
+178
+00:21:21,640 --> 00:21:27,880
+ actually, you will get a different model. Okay. And then, which model performance should we use?
+
+179
+00:21:29,800 --> 00:21:35,560
+ Okay. So which performance should we use to see, as an evaluation for this training model?
+
+180
+00:21:37,560 --> 00:21:42,120
+ And, actually, we should use the so-called repeated whole the automatic. And, actually,
+
+181
+00:21:42,120 --> 00:21:47,080
+ we should repeat this experiment many times. Then, we take the average.
+
+182
+00:21:49,320 --> 00:21:54,199
+ I think these are actually easy to understand, right? And many of you will take the exam,
+
+183
+00:21:54,919 --> 00:22:01,080
+ that TOEFL, right? And, I see some of you take a few times. Okay. Then, you know, sometimes,
+
+184
+00:22:01,080 --> 00:22:05,879
+ actually, you're very lucky, right? The question you have seen in the test, actually,
+
+185
+00:22:05,879 --> 00:22:10,600
+ very similar to the one you have practiced. Okay. Then, you can get good results. But,
+
+186
+00:22:10,600 --> 00:22:17,000
+ sometimes, actually, you are unlucky, you get a bad result. So, which result could reflect, actually,
+
+187
+00:22:17,000 --> 00:22:26,679
+ your capability? Actually, I think the average, right? So, I think the idea is similar. Okay.
+
+188
+00:22:26,679 --> 00:22:35,399
+ We should actually perform the so-called repeated whole the automatic. Okay. And, so, we will repeat
+
+189
+00:22:35,960 --> 00:22:42,840
+ this kind of experiment. Random select 70% or 60% of the training, the 25 validation,
+
+190
+00:22:42,840 --> 00:22:47,960
+ and the 25 testing. Then, we look at the performance testing, right? And, then, we will repeat this
+
+191
+00:22:47,960 --> 00:22:55,480
+ experiment. And, when you, in the second experiment, when you select random samples, right, from the
+
+192
+00:22:55,480 --> 00:23:01,640
+ given, from the overall data, certainly, the data you obtain will be different from the first
+
+193
+00:23:01,720 --> 00:23:07,000
+ experiment. And, also, the model you build will be different. Okay. Then, the performance on
+
+194
+00:23:07,000 --> 00:23:13,720
+ testing data will also be different. Because, the model is changed. The data also changed. Okay.
+
+195
+00:23:13,720 --> 00:23:21,880
+ So, finally, we should take the average of all performance. So, that will give a justified or
+
+196
+00:23:21,880 --> 00:23:32,840
+ fair evaluation of the learning performance. Okay. And, actually, sometimes, actually,
+
+197
+00:23:32,840 --> 00:23:38,760
+ we can see, like, you know, the public paper, even paper public, right? And, mainly, maybe,
+
+198
+00:23:38,760 --> 00:23:43,720
+ right experiment for many times. And, then, they just shoot the best results. But, actually, this
+
+199
+00:23:43,720 --> 00:23:49,080
+ is, actually, kind of cheating, right? This is not right. This is wrong. Okay. In order to give a
+
+200
+00:23:49,080 --> 00:23:55,399
+ justified fair evaluation, we need to repeat this experiment for many times. Okay. And, then,
+
+201
+00:23:55,399 --> 00:24:03,480
+ we take the average. Okay. So, this is just a, you know, repeated holdout method. Repeated holdout.
+
+202
+00:24:05,399 --> 00:24:14,199
+ Okay. Okay. So, the next, actually, the evaluation method is the so-called
+
+203
+00:24:14,200 --> 00:24:22,360
+ care food cross validation. Care food cross validation. Okay. So, this, actually, is also,
+
+204
+00:24:22,360 --> 00:24:30,440
+ actually, I think, is a more commonly used validation method or performance evaluation method. Okay.
+
+205
+00:24:30,440 --> 00:24:38,040
+ And, in this care food cross validation, the data is divided into care food, care or care path.
+
+206
+00:24:38,040 --> 00:24:43,320
+ This is one food, just part of it. Right? Care food. And, normally, each of the food, actually,
+
+207
+00:24:43,320 --> 00:24:51,800
+ have the same or similar number of samples. Similar because, for example, you have 100,
+
+208
+00:24:51,800 --> 00:24:59,639
+ like, zero-nose samples, right? And, then, you view the care food cross validation. You divide
+
+209
+00:24:59,639 --> 00:25:07,159
+ the data into 10, 10 food, right? Or 10 parts. And, some of the part, some part of the data will
+
+210
+00:25:07,160 --> 00:25:13,960
+ have 10 samples. But, some of them will have 11 samples. Okay. So, basically, you know, the number
+
+211
+00:25:13,960 --> 00:25:22,600
+ of samples in each order should be the same or similar. Okay. So, divide them into many foods.
+
+212
+00:25:22,600 --> 00:25:27,560
+ So, this is care food. In many, care can take different values, right? Can take, you know,
+
+213
+00:25:27,560 --> 00:25:33,400
+ five or 10, right? You can also take other integer values. But, commonly used, and then, value for
+
+214
+00:25:33,480 --> 00:25:42,200
+ care, five or 10. Okay. And, then, actually, we will repeat the experiment for care times.
+
+215
+00:25:43,080 --> 00:25:47,880
+ This is something like the repeated hood out method, right? In the repeated hood out, we repeat the
+
+216
+00:25:47,880 --> 00:25:52,680
+ experiment for many times. But, here, in the care food cross validation, we repeat the experiment
+
+217
+00:25:52,680 --> 00:25:59,640
+ for care times, for care times. Okay. And, every time, we use one of the food, actually,
+
+218
+00:26:00,600 --> 00:26:06,440
+ actually, testing data. Then, the remaining care minus one food is the training data.
+
+219
+00:26:07,240 --> 00:26:13,560
+ Okay. So, the experiment number one, actually, we can actually use the data in food one as the
+
+220
+00:26:13,560 --> 00:26:19,640
+ testing data. Then, data in food number two, three, four, five, actually, as the training data.
+
+221
+00:26:20,280 --> 00:26:25,400
+ Then, in the second experiment, we use the data in food number two as the testing data. Then,
+
+222
+00:26:25,480 --> 00:26:31,320
+ the data in number one, number three, number four, number five will be as the training data. Okay.
+
+223
+00:26:31,320 --> 00:26:36,280
+ So, repeat the experiment, actually, care times. Okay. And, then, we take the average,
+
+224
+00:26:37,400 --> 00:26:45,720
+ we take the average of the care experiments. So, this average, actually, result will be reported,
+
+225
+00:26:45,720 --> 00:26:54,360
+ actually. Okay. So, as the final result, okay. So, this is, actually, the care food cross validation.
+
+226
+00:26:54,360 --> 00:27:00,919
+ It's a repeated experiment, right? And, repeat care times. And, each time, we use different food
+
+227
+00:27:00,919 --> 00:27:04,840
+ as the testing data. Then, the remaining data will be used as the training data.
+
+228
+00:27:07,080 --> 00:27:16,120
+ So, if we can actually compare this, actually, with, actually, the care and the whole automated,
+
+229
+00:27:16,120 --> 00:27:20,679
+ either whole, repeat the whole automated, actually, each time, actually, you have a
+
+230
+00:27:20,840 --> 00:27:27,560
+ part of the data as the testing data, right? But, before, between different experiments,
+
+231
+00:27:27,560 --> 00:27:33,480
+ actually, we could have some overlaps. Okay. Because the sample are randomly selected, right?
+
+232
+00:27:33,480 --> 00:27:40,920
+ And, some of the testing samples will be used a few times as the testing data. But, in the
+
+233
+00:27:40,920 --> 00:27:48,520
+ care food cross validation, the one data, one sample is used only once as the testing data.
+
+234
+00:27:49,480 --> 00:28:00,120
+ Only once. Okay. So, this is care food cross validation. And, so, here, I'll give one example,
+
+235
+00:28:00,120 --> 00:28:09,320
+ like five food, five food, right? So, and so, the, either, is prime number one or,
+
+236
+00:28:09,320 --> 00:28:15,480
+ et cetera, et cetera number one, we use this food number five as a testing, right? One, two, four,
+
+237
+00:28:15,480 --> 00:28:22,440
+ as a training. And, after that, actually, we can have an error. We can have evaluation, right?
+
+238
+00:28:22,440 --> 00:28:27,000
+ Of the error rate, for example. How many errors, how many samples are misclassified?
+
+239
+00:28:28,920 --> 00:28:34,840
+ This error could be an error rate, percentage of the errors, or the number of samples that are
+
+240
+00:28:34,840 --> 00:28:41,320
+ misclassified. So, this is the error, right? Then, similarly, the iteration number two or the
+
+241
+00:28:41,320 --> 00:28:46,439
+ experiment number two, and the food number four is used as testing data. Then, we can also get a
+
+242
+00:28:46,439 --> 00:28:54,120
+ result. Okay. So, that is error number two, error two. Okay. So, we get, finally, after repeats of
+
+243
+00:28:54,120 --> 00:29:00,360
+ five, the five times, right? Then, we can get a five result, five errors. Then, we take the average.
+
+244
+00:29:01,560 --> 00:29:08,360
+ Okay. So, it's, you know, it has some similarity with repeated care food, repeated care food.
+
+245
+00:29:08,360 --> 00:29:12,199
+ But also, actually, it's a bit different, right? Because here, in the care food,
+
+246
+00:29:12,199 --> 00:29:18,199
+ cross validation, actually, in each repeat of the experiments, and we use a different set of data as
+
+247
+00:29:19,000 --> 00:29:27,399
+ testing data. Okay. No sample is used twice. None of them will be used more than once, right?
+
+248
+00:29:27,399 --> 00:29:34,679
+ As a testing data. Okay. And, this is the care food cross validation.
+
+249
+00:29:39,320 --> 00:29:46,840
+ And, that's actually, we will look at this, you know, the, the, the, the, the, the, the, the, the
+
+250
+00:29:46,840 --> 00:29:53,159
+ cross validation is a, a special case of the care food cross validation. And, in this, the, the,
+
+251
+00:29:53,159 --> 00:30:02,199
+ the, the, the care is a care food cross validation. The care equals, actually, the number of samples.
+
+252
+00:30:02,920 --> 00:30:08,600
+ If you have 100 samples, that means we divide the data into 100, you know, food. Each food contains
+
+253
+00:30:08,600 --> 00:30:14,600
+ only one sample. So, this method is actually called, the one out cross validation. So, it's a
+
+254
+00:30:14,600 --> 00:30:21,800
+ special case of the care food cross validation, where care equals to the number of samples.
+
+255
+00:30:22,280 --> 00:30:32,120
+ Okay. So, this is a new one out. New one out. That means this one is used as testing. Then,
+
+256
+00:30:32,120 --> 00:30:38,280
+ the remaining will be the training, right? So, we repeat this experiment n times. If then,
+
+257
+00:30:38,280 --> 00:30:43,480
+ total number of samples is n, total number of training samples, right? n, then we repeat this
+
+258
+00:30:43,560 --> 00:30:54,520
+ for n times. Okay. So, this is a new one out. Okay. And, I think the, the, the, the good thing is
+
+259
+00:30:54,520 --> 00:31:00,200
+ this, actually, you know, if the data set is small, right? If data set is small, and actually,
+
+260
+00:31:01,000 --> 00:31:06,040
+ we only use a part of the data as a training data, training data. Something like, you know,
+
+261
+00:31:06,040 --> 00:31:13,160
+ some resources has to be wasted. Although, you know, the willow was resources are very limited.
+
+262
+00:31:13,160 --> 00:31:19,320
+ The number of samples. Okay. In the leave out one out method, we use a, only one sample is a testing.
+
+263
+00:31:19,880 --> 00:31:27,240
+ All the remaining, right? We'll be used as training. So, this is a good thing. Okay. And, of course,
+
+264
+00:31:27,240 --> 00:31:32,120
+ this method normally is, this is practical. Only when the number of samples is small,
+
+265
+00:31:33,720 --> 00:31:39,800
+ and maybe like a few hundred samples, it's small, right? Then, you can repeat 100,
+
+266
+00:31:39,800 --> 00:31:46,840
+ a few hundred times. Okay. And, so maybe, you know, nowadays, actually, if the data is very big,
+
+267
+00:31:46,840 --> 00:31:54,120
+ right? It's very big. And, you need to train a very big, you know, deep neural model. And then,
+
+268
+00:31:55,159 --> 00:32:02,919
+ this method could be time, very time consuming. Time consuming. Because a training of one
+
+269
+00:32:03,720 --> 00:32:09,399
+ deep learning model could take, you know, some time. If you repeat this for, you know, many times,
+
+270
+00:32:09,400 --> 00:32:14,520
+ right? If the data is big, and then, I think this method is not practical. But the data is
+
+271
+00:32:14,520 --> 00:32:19,800
+ so small, actually, I mean, we should use this method. We can use this method. Okay. Although,
+
+272
+00:32:19,800 --> 00:32:24,360
+ nowadays, we talk about big data, right? Of course, if the data is from the Internet,
+
+273
+00:32:24,360 --> 00:32:28,360
+ from the open source, I think there are no problems for us to collect the data. But actually,
+
+274
+00:32:28,360 --> 00:32:35,720
+ in many applications, actually, the data is very limited. Very limited. Okay. And, for example,
+
+275
+00:32:35,800 --> 00:32:41,320
+ in medicine, right? If you want to study a certain kind of disease, okay. First, actually,
+
+276
+00:32:41,320 --> 00:32:48,840
+ sometimes, the number of patients is very limited. Okay. And, you don't have that number, right?
+
+277
+00:32:48,840 --> 00:32:53,400
+ You don't have the big data. You don't have a limited number of patients. Second, actually, even
+
+278
+00:32:53,400 --> 00:32:58,600
+ you have the number, you know, a relative, you know, big number of patients. But the collection of
+
+279
+00:32:58,600 --> 00:33:05,639
+ the data is also costly. Very costly. Okay. And also, actually, also probably because of the
+
+280
+00:33:05,639 --> 00:33:11,719
+ privacy issue. And some patients don't want to relate their personal data, their data to you,
+
+281
+00:33:11,719 --> 00:33:17,399
+ right? So, finally, you only get a limited number of samples. Actually, even if I find that, actually,
+
+282
+00:33:17,399 --> 00:33:23,800
+ this could also be the number of samples is very limited. Very limited. Okay. So, small data,
+
+283
+00:33:23,879 --> 00:33:29,639
+ it's a very practical problem. Although nowadays, we all talk about big data, right? But actually,
+
+284
+00:33:30,200 --> 00:33:36,360
+ many, many applications scenarios, we still have very limited data. So, we can still use this kind
+
+285
+00:33:36,360 --> 00:33:47,320
+ of lay one out and cross validation. Okay. So, another is called a care food, repeated care food.
+
+286
+00:33:47,320 --> 00:33:51,159
+ So, food automated, and then we have the repeated, actually, you know,
+
+287
+00:33:53,240 --> 00:33:59,480
+ food automated for care food cross validation. And also, we have the repeated care food cross
+
+288
+00:33:59,480 --> 00:34:05,560
+ validation. So, why we need to repeat this? And actually, we see, just now we see
+
+289
+00:34:07,560 --> 00:34:12,440
+ all the samples, right? Compared with the food automated, actually, each of the samples is only
+
+290
+00:34:12,440 --> 00:34:20,840
+ used once as a testing data. Okay. But actually, all the, because some of the data, but the data in
+
+291
+00:34:20,840 --> 00:34:28,520
+ one food will be always, will always be used as a training or testing together. Sometimes,
+
+292
+00:34:28,520 --> 00:34:34,520
+ this set of data in one food will be used as training. Okay. And sometimes, they will be used as a
+
+293
+00:34:34,520 --> 00:34:40,120
+ testing. They're always together, right? Always together. Okay. And actually, if you,
+
+294
+00:34:41,080 --> 00:34:47,159
+ actually, normally, you know, the division of the food, the data, based on the sequence,
+
+295
+00:34:47,159 --> 00:34:51,480
+ from sequence number, sequence number one, number two, right? Okay. So, this is the first,
+
+296
+00:34:51,480 --> 00:34:57,400
+ you know, care, you know, like 10 percent, if you care food cross validation, then the next 10 percent,
+
+297
+00:34:57,400 --> 00:35:02,440
+ then the next 10 percent. So, the division of the food will be followed, will follow this way.
+
+298
+00:35:02,840 --> 00:35:10,600
+ Okay. But if the data, actually, sequence is different, and then the, actually,
+
+299
+00:35:10,600 --> 00:35:16,040
+ this kind of division of the data will be different. Actually, you will find that the result will be
+
+300
+00:35:16,040 --> 00:35:21,880
+ very different. Okay. So, this, actually, in other words, actually, the testing performance depends
+
+301
+00:35:21,880 --> 00:35:28,520
+ on how you arrange the data. Actually, something is not justified, right? It's not justified.
+
+302
+00:35:29,080 --> 00:35:33,480
+ So, how to avoid this problem? Actually, we can use the so-called repeated care food cross
+
+303
+00:35:33,480 --> 00:35:38,440
+ validation. Okay. So, maybe at the beginning, we just based on the given sequence of the data,
+
+304
+00:35:38,440 --> 00:35:43,080
+ right? To divide them into, like, care food, and then we perform, you know, this,
+
+305
+00:35:43,080 --> 00:35:48,600
+ you know, care food cross validation. Okay. And then, you know, we can repeat the experiment,
+
+306
+00:35:48,600 --> 00:35:55,800
+ this care food cross validation, by reshuffling the data. After one care food cross validation,
+
+307
+00:35:55,800 --> 00:36:00,040
+ we reshuffle the data, change the sequence of the data. Then again, from number one,
+
+308
+00:36:00,040 --> 00:36:06,120
+ until, you know, 10% training, first food, and then the next, you know, 10%, 10% second food,
+
+309
+00:36:06,840 --> 00:36:13,560
+ right? So, every time we reshuffle the data. Okay. By this way, some of the data, you know,
+
+310
+00:36:13,560 --> 00:36:18,360
+ this problem, we mentioned before, always will be used as a training or testing, right? This
+
+311
+00:36:18,360 --> 00:36:24,120
+ problem will be solved. Okay. And actually, if you, actually, you know, I have the experiment,
+
+312
+00:36:24,120 --> 00:36:30,440
+ actually, I run this experiment, actually, sometimes the performance difference could be huge.
+
+313
+00:36:31,800 --> 00:36:37,800
+ Okay. In one or ten, the care food cross validation, although we repeat care times, right? We call
+
+314
+00:36:37,800 --> 00:36:42,680
+ this actually one care food cross validation. The result, maybe, like, the good performance is 70%.
+
+315
+00:36:43,240 --> 00:36:48,200
+ And then in some scenario, the extreme case, actually, in another round of the experiment,
+
+316
+00:36:48,200 --> 00:36:52,839
+ right, if I reshuffle the data, the performance maybe only, like, you know, 80%.
+
+317
+00:36:54,440 --> 00:37:00,680
+ That is a very significant difference, 70% accuracy, 80% accuracy. This is,
+
+318
+00:37:00,680 --> 00:37:07,240
+ really, not 10% is significant. Okay. You know, in machine learning classification, right? And
+
+319
+00:37:07,319 --> 00:37:15,560
+ actually, if a performance, actually, the difference is like over 0.5%, this can be considered as a
+
+320
+00:37:15,560 --> 00:37:23,160
+ significant. I remember when a few students asked me questions, or I turned this, actually,
+
+321
+00:37:23,160 --> 00:37:30,120
+ this won't affect the performance. So, I say, you see, won't affect the performance. So, what's
+
+322
+00:37:30,120 --> 00:37:36,120
+ the difference? Or see a difference, like, 3% or 2%? Actually, that's a very significant difference.
+
+323
+00:37:36,920 --> 00:37:41,080
+ Okay. Now, this, you probably saw paper, right? You see my performance, actually,
+
+324
+00:37:42,040 --> 00:37:49,799
+ is better than the state of art by 0.5%. So, 0.5% is considered a significant improvement,
+
+325
+00:37:51,000 --> 00:37:54,440
+ right? But now, actually, because you use the data differently, right, you get a
+
+326
+00:37:54,440 --> 00:38:00,600
+ performance difference of 10%. That's a huge difference. Okay. So, to address this
+
+327
+00:38:00,600 --> 00:38:07,480
+ problem, actually, we can wish we repeat this problem for many times. Okay. Then, actually,
+
+328
+00:38:07,480 --> 00:38:16,839
+ we get the average. Okay. And sometimes, actually, when you read, you know, we said papers,
+
+329
+00:38:16,839 --> 00:38:24,600
+ you see, for example, we see, for example, right, we see the performance, you know,
+
+330
+00:38:25,400 --> 00:38:32,920
+ some like, you know, if the model, you know, if the increase the complexity of the model,
+
+331
+00:38:33,480 --> 00:38:38,279
+ and then we, at the beginning of the model performance, improve. Okay. After a certain,
+
+332
+00:38:38,279 --> 00:38:44,440
+ actually, you know, point, if you continue to increase the model complexity, that means the
+
+333
+00:38:44,440 --> 00:38:48,440
+ model becomes larger and larger, right? Then the performance, actually, we are deteriorates.
+
+334
+00:38:49,240 --> 00:38:53,160
+ We are deteriorates, right? So, that means we have better performance, right? But the
+
+335
+00:38:53,160 --> 00:39:00,440
+ impractical, if you just run one, actually, kind of cross validation, right, you will never see
+
+336
+00:39:00,440 --> 00:39:06,440
+ this phenomenon. You will see the data, actually, every time that the performance increase, and then
+
+337
+00:39:06,440 --> 00:39:10,839
+ if you change the model, maybe decrease, then increase, decrease, you know, something through this.
+
+338
+00:39:11,480 --> 00:39:16,520
+ I see an increase, the complexity of the model, at the beginning, the model performance, actually,
+
+339
+00:39:17,480 --> 00:39:22,040
+ improves. Then after a certain point, decrease. But if you run the, you know,
+
+340
+00:39:22,040 --> 00:39:28,040
+ repeat the careful combination of one time, then you can observe this. This is because every
+
+341
+00:39:28,040 --> 00:39:34,840
+ is permanent. Actually, only one is permanent. The result is a random, result random. Because the
+
+342
+00:39:34,840 --> 00:39:41,480
+ data sequence, right, randomly. Okay. So, the result will be, actually, this result is a random
+
+343
+00:39:41,560 --> 00:39:48,760
+ value. Okay. And so, random, this is a random value, have a big, actually, virus. Big virus,
+
+344
+00:39:48,760 --> 00:39:53,240
+ that means, actually, the data could be, the result could be changing in a, in a range, right, in a
+
+345
+00:39:53,240 --> 00:40:00,440
+ range, very big range. But if you repeat this experiment many times, and then the range of the
+
+346
+00:40:00,440 --> 00:40:07,560
+ change will be small. Okay. Then you can see a smooth curve after you, actually, get the average of
+
+347
+00:40:07,560 --> 00:40:14,520
+ many, actually, repeats of the careful square validation. Okay. So, actually, my experiment,
+
+348
+00:40:14,520 --> 00:40:22,440
+ that if you run the experiment, like careful, like 50 times, 50 repeats of careful square
+
+349
+00:40:22,440 --> 00:40:30,680
+ validation, like 10-foot square validation, then you can see the result. Okay. And the model
+
+350
+00:40:30,680 --> 00:40:37,720
+ performance improved, actually, at the beginning, with the increasing complexity, then decreased
+
+351
+00:40:37,720 --> 00:40:44,359
+ after a certain point. If you continue to increase the complexity of the model. Okay. In other words,
+
+352
+00:40:44,359 --> 00:40:50,600
+ actually, careful, like 10-foot, you already repeat the experiment 10 times. Then repeat the
+
+353
+00:40:50,600 --> 00:40:57,799
+ careful 50 times. That means that you repeat the experiment 500 times. Okay. Then you can get a
+
+354
+00:40:57,800 --> 00:41:05,720
+ reliable result, reliable evaluation. Okay. So, this is a repeated, actually, careful square
+
+355
+00:41:05,720 --> 00:41:10,760
+ validation. And so, this is just, actually, the procedure of these repeated careful square
+
+356
+00:41:10,760 --> 00:41:15,480
+ validation. So, the first, we set the repeat equals one, then we perform careful square
+
+357
+00:41:15,480 --> 00:41:22,360
+ validation. So, in this part, we repeat this, we actually repeat this experiment care times,
+
+358
+00:41:22,360 --> 00:41:28,840
+ right? 10 times. And then we let the repeat, and then resharp the data. These are very important
+
+359
+00:41:28,840 --> 00:41:34,440
+ points. Resharp the data. You change the sequence of data. And then, again, the first part, 10%
+
+360
+00:41:35,240 --> 00:41:43,000
+ first food, then that's 10% the second food, that's 10% actually, like that food. Okay. So,
+
+361
+00:41:43,000 --> 00:41:51,640
+ every time to resharp the data, and then, okay. And you actually, a preset of values, like 50,
+
+362
+00:41:52,840 --> 00:41:59,320
+ say, 50 repeats of careful square validation. And then finally, we take the average of all the
+
+363
+00:41:59,320 --> 00:42:08,280
+ repeats, and then we repeat, you know, the, actually, this average of the repeats. Okay. So, this is
+
+364
+00:42:08,840 --> 00:42:15,480
+ the, careful square validation, and the repeated careful validation. So, given my data set, so, how
+
+365
+00:42:15,480 --> 00:42:21,320
+ we divide the data, right? And how we use the repeated experiment. So, this is the validation
+
+366
+00:42:21,320 --> 00:42:26,360
+ procedure, right? Performing the evaluation, and the procedure. Actually, here we can use a different
+
+367
+00:42:26,360 --> 00:42:33,560
+ method. Hold on, very simple, right? But the result is not reliable. Normally, we need to repeat the
+
+368
+00:42:33,560 --> 00:42:40,920
+ experiment for many times. So, actually, like, repeat the careful. And then we have a repeat
+
+369
+00:42:40,920 --> 00:42:46,600
+ holdout. Then we have a careful square validation. Repeat the careful square validation. And a
+
+370
+00:42:46,600 --> 00:42:56,120
+ special case of the careful square validation is the lay one out. Okay. And then we know,
+
+371
+00:42:56,120 --> 00:43:00,279
+ you know, repeat the lay one out, right? Because lay one, every time you just have one sample, right?
+
+372
+00:43:00,360 --> 00:43:05,720
+ Actually, this is, we are not affected, actually, not affected by the sequence of the data. Okay. So,
+
+373
+00:43:07,640 --> 00:43:13,080
+ there are no, no repeated lay one out. Okay. But they repeated careful square validation.
+
+374
+00:43:14,600 --> 00:43:20,280
+ Okay. So, these are known, the model performance evaluation procedure. And that's actually, we look
+
+375
+00:43:20,280 --> 00:43:25,480
+ at the performance evaluation metrics. Metrics, that means, actually, we need to give a number,
+
+376
+00:43:25,480 --> 00:43:33,160
+ right? Give a number as an indication of the model performance. Okay. And so, these numbers are
+
+377
+00:43:33,160 --> 00:43:39,880
+ all defined based on the four, actually, you know, results. The first is called a true positive.
+
+378
+00:43:40,680 --> 00:43:45,240
+ True positive. So, here, actually, we have positive and negative, right? So, normally, you know,
+
+379
+00:43:46,920 --> 00:43:51,320
+ I think in medical checkup, you know, quite often, you know, see, oh, something, you know,
+
+380
+00:43:51,400 --> 00:43:58,920
+ some item of the testing is true. You are positive, positive, right? Normally positive, actually,
+
+381
+00:43:58,920 --> 00:44:05,560
+ is something of concern, is something of our interest. Okay. So, this class normally is defined
+
+382
+00:44:05,560 --> 00:44:11,720
+ as a positive class. Okay. Then, unimportant class is defined as actually, you know, a negative class.
+
+383
+00:44:12,280 --> 00:44:15,960
+ Okay. So, we assume these are two class, kind of a problem. We have positive class, we have
+
+384
+00:44:15,960 --> 00:44:20,680
+ negative class. Positive class normally is a class. And then, we have a strong interest in that.
+
+385
+00:44:21,640 --> 00:44:25,160
+ Okay. And so, here, actually, we have defined four, actually,
+
+386
+00:44:29,080 --> 00:44:35,800
+ results. Okay. First, here, we have a so-called true positive. Okay. These are positive,
+
+387
+00:44:35,800 --> 00:44:42,200
+ okay. It means that the predation is positive. True positive. That means that ground truth is also
+
+388
+00:44:42,200 --> 00:44:47,320
+ positive. Right. So, the predation is positive, the ground truth is positive. So, this means that
+
+389
+00:44:47,880 --> 00:44:53,560
+ true positive. Okay. Positive. And then, the next, actually, is a false positive.
+
+390
+00:44:54,520 --> 00:45:01,160
+ This is a positive, means that predation is positive. But, it is false. It is false, actually.
+
+391
+00:45:01,160 --> 00:45:03,960
+ That means this is wrong, right? This means that the ground truth is negative.
+
+392
+00:45:04,840 --> 00:45:09,880
+ So, this is called false positive. And similarly, for negative class, we can have a true negative.
+
+393
+00:45:09,880 --> 00:45:14,920
+ That somehow is a negative sample. And the predation is negative. And then, this is a true negative.
+
+394
+00:45:15,800 --> 00:45:23,480
+ Okay. And then, we have the false negative. The sample is a negative sample. But, you predict
+
+395
+00:45:24,360 --> 00:45:31,160
+ this. It's a sample. Predation is a negative. But, the true label is a positive. So, this is called
+
+396
+00:45:31,160 --> 00:45:38,360
+ false negative. Okay. So, actually, these are the four results. Based on these four,
+
+397
+00:45:38,680 --> 00:45:45,160
+ as you know, minors, and then, we can first, I have the so-called confuring matrix.
+
+398
+00:45:46,760 --> 00:45:54,120
+ Confuring matrix, actually, just list these now for minors. Okay. And so, here, actually,
+
+399
+00:45:54,120 --> 00:46:02,040
+ you can look at the top. Okay. So, this means that the actual value, the ground truth. Okay.
+
+400
+00:46:02,040 --> 00:46:05,720
+ So, ground truth could be positive, could be negative, right? Because we have a sample from
+
+401
+00:46:05,799 --> 00:46:11,640
+ these two classes. And then, this left hand side here, this is this part that you show that you,
+
+402
+00:46:11,640 --> 00:46:20,200
+ this is the prediction. Prediction. So, prediction is positive. Prediction is negative. Okay. If the
+
+403
+00:46:20,200 --> 00:46:26,359
+ prediction is positive, and also the actual value, the ground truth is positive, then this is called
+
+404
+00:46:26,359 --> 00:46:33,319
+ true positive. Okay. If the prediction is negative, here, right, prediction negative,
+
+405
+00:46:33,320 --> 00:46:37,480
+ and the ground truth is negative. So, this means that this negative is true, right? It's a true
+
+406
+00:46:37,480 --> 00:46:44,040
+ negative. Okay. And then, we have this, actually. So, these are true positive, true negative. That
+
+407
+00:46:44,040 --> 00:46:50,680
+ means that the samples are predicted correctly. The prediction is correct, right? The prediction is
+
+408
+00:46:50,680 --> 00:46:57,800
+ correct. Okay. But if these two scenarios, like false negative, false positive, the prediction
+
+409
+00:46:57,880 --> 00:47:05,560
+ is positive. But the actual value is negative. Okay. So, this is called false positive. And then,
+
+410
+00:47:05,560 --> 00:47:12,680
+ this is the false negative, right? The prediction is negative, but the ground truth is positive.
+
+411
+00:47:12,680 --> 00:47:18,760
+ So, then, this is the false negative. So, this is actually the, on the diagonal, the diagonal
+
+412
+00:47:18,760 --> 00:47:24,680
+ means that we are classified correctly. The number of samples correctly classified. Off-dark
+
+413
+00:47:24,680 --> 00:47:31,240
+ angle, the number, means that the number, they are misclassified. So, this is called confluent
+
+414
+00:47:31,240 --> 00:47:37,799
+ matrix. And actually, some of those, some of them, research paper, actually, in the top,
+
+415
+00:47:37,799 --> 00:47:45,240
+ they give the predicted value. And then, this part is a true ground truth. But that does not
+
+416
+00:47:45,240 --> 00:47:51,640
+ matter, right? As long as you correctly label this, these are actual, and these are the predictions.
+
+417
+00:47:52,120 --> 00:48:00,279
+ Okay. Okay. So, this is the confluent matrix. Confluent matrix clearly shows, actually,
+
+418
+00:48:01,879 --> 00:48:07,400
+ the samples, the number of samples that are correctly classified, right? Or wrongly classified.
+
+419
+00:48:08,120 --> 00:48:14,680
+ Okay. So, these are things, I think, from this confluent matrix, we can get a lot of information,
+
+420
+00:48:14,680 --> 00:48:23,080
+ right? Okay. So, these are just one example, right? And so, these are actual, positive,
+
+421
+00:48:23,080 --> 00:48:30,520
+ actual negative. And these are predicted positive. So, 85 positive samples are correctly classified.
+
+422
+00:48:31,240 --> 00:48:36,600
+ And the non-sample, negative samples are correctly classified. Okay. Then, we have
+
+423
+00:48:37,560 --> 00:48:43,880
+ six samples, two plus six, four, right? That are misclassified or wrongly classified.
+
+424
+00:48:45,080 --> 00:48:51,640
+ Okay. So, this is the confluent matrix. So, based on this, you know, the four measures,
+
+425
+00:48:51,640 --> 00:48:57,640
+ true positive, actually, you know, false positive, true negative, false negative. And then, we can
+
+426
+00:48:57,640 --> 00:49:04,759
+ define the following matrix as a performance, actually, evaluation matrix. Okay. And then,
+
+427
+00:49:04,760 --> 00:49:10,280
+ the first one is called accuracy. Accuracy shows how percentage of samples that are correctly
+
+428
+00:49:10,280 --> 00:49:16,840
+ classified. Okay. So, first, we need to calculate how many samples are correctly classified.
+
+429
+00:49:17,720 --> 00:49:23,480
+ So, these include the true positive and true negative. And then, you want to give the total
+
+430
+00:49:23,480 --> 00:49:30,120
+ number of samples. So, this is the percentage, right? This is the ratio. It's just called accuracy,
+
+431
+00:49:30,759 --> 00:49:38,200
+ accuracy. Accuracy is the proportion of correctly classified samples. So, the numerator part is
+
+432
+00:49:38,200 --> 00:49:42,520
+ the total number of samples that are correctly classified, right? True positive, true negative.
+
+433
+00:49:43,080 --> 00:49:47,720
+ And then, you want to give the total number of samples, all the data in the number of data,
+
+434
+00:49:47,720 --> 00:49:55,240
+ you know, in the confluent matrix. Okay. So, this is, okay. So, in this example,
+
+435
+00:49:55,799 --> 00:50:03,799
+ and the correctly classified sample, actually, number, you call it 85 plus 9, right? So, 94.
+
+436
+00:50:04,359 --> 00:50:10,279
+ And the total number of samples, actually, is 100. So, it's accuracy is 94 percent.
+
+437
+00:50:11,560 --> 00:50:18,040
+ Okay. So, this is one measure. And another measure is called error rate. The percentage of the
+
+438
+00:50:18,040 --> 00:50:25,000
+ sample data are misclassified. Okay. And so, here, first, we need to find out what is the total
+
+439
+00:50:25,000 --> 00:50:30,440
+ number of misclassed samples. Okay. And then, we look at the percentage, right? Divided by the
+
+440
+00:50:30,440 --> 00:50:37,000
+ total number of samples. Okay. So, in this example, the two, the misclassed samples, actually, are
+
+441
+00:50:37,000 --> 00:50:43,960
+ those off-diagonal, right? One is four, another is two. So, the summation is six. So, among these
+
+442
+00:50:44,040 --> 00:50:51,240
+ 100 samples, six are misclassified. And then, the error rate is 6 percent. So, you know,
+
+443
+00:50:51,240 --> 00:50:57,960
+ accuracy plus error rate is just 100 percent. Okay. So, but sometimes, you know, we use error
+
+444
+00:50:57,960 --> 00:51:02,600
+ rate. Sometimes, actually, we use accuracy. But if you know accuracy, you immediately know error
+
+445
+00:51:02,600 --> 00:51:11,320
+ rate, right? Because this is just, actually, the summation is 100 percent. Okay. And so,
+
+446
+00:51:11,400 --> 00:51:19,560
+ this is the one measure. Another type of a measure, actually, are the sensitivity and the specificity.
+
+447
+00:51:19,560 --> 00:51:27,400
+ Specificity. Okay. So, these are the, another two measures. Okay. What is sensitivity? And actually,
+
+448
+00:51:27,960 --> 00:51:35,480
+ selectivity, sensitivity, actually, is something that measure, actually, for positive samples.
+
+449
+00:51:35,480 --> 00:51:43,320
+ Okay. Sensitivity class measure is a measure of the proportion of positive samples that have been
+
+450
+00:51:43,320 --> 00:51:51,560
+ correctly classified. Okay. In other words, among all the positive samples, how many are correctly
+
+451
+00:51:51,560 --> 00:51:57,480
+ classified as positive? So, this is sensitivity, right? This is sensitivity.
+
+452
+00:51:58,440 --> 00:52:04,600
+ So, so this means that true positive, correctly classified positive samples,
+
+453
+00:52:05,160 --> 00:52:10,360
+ over the total number of positive samples. Total number of positive samples, including,
+
+454
+00:52:10,360 --> 00:52:15,800
+ includes those classified positive, right? And also includes those, actually, you know,
+
+455
+00:52:15,800 --> 00:52:22,760
+ classified negative. Okay. So, it's a false negative plus the true positive. I treat the denominator
+
+456
+00:52:22,760 --> 00:52:29,240
+ here, it's just a total number of positive samples. Sensitivity, right? So, I think it's easy to
+
+457
+00:52:29,240 --> 00:52:35,400
+ understand this sensitivity. For example, we have one kind of detection technology for a certain
+
+458
+00:52:35,400 --> 00:52:40,440
+ concept, for example, right? And sensitivity, that means that whether this is a machine,
+
+459
+00:52:40,440 --> 00:52:47,800
+ this is an equipment, this device, or this measure can identify the conception. Okay. So, that means,
+
+460
+00:52:48,360 --> 00:52:52,040
+ among all the positive kinds of patients, all the positive kinds of patients,
+
+461
+00:52:52,040 --> 00:52:59,400
+ the percentage that are correctly detected. So, that is sensitivity, right? So, the true
+
+462
+00:52:59,400 --> 00:53:05,240
+ positive divided by total number of positive samples. So, this is called sensitivity.
+
+463
+00:53:07,240 --> 00:53:15,400
+ Then another measure, you know, is here is called specificity, specificity. Okay. So,
+
+464
+00:53:15,400 --> 00:53:19,560
+ this actually is talking about the negative class. So, sensitivity about positive, right?
+
+465
+00:53:19,560 --> 00:53:25,400
+ This is about negative class. Okay. So, among all the negative classes, the samples,
+
+466
+00:53:25,400 --> 00:53:31,960
+ how many actually are correctly classified negative? So, this should be equal to the
+
+467
+00:53:31,960 --> 00:53:36,520
+ true negative, right? That means that negative samples are correctly classified divided by
+
+468
+00:53:36,520 --> 00:53:42,440
+ total number of negative samples. Okay. These numbers include two parts. One is a true negative,
+
+469
+00:53:42,440 --> 00:53:47,480
+ another is a false positive. False positive, that means the prudential positive, but this is wrong.
+
+470
+00:53:47,480 --> 00:53:53,480
+ Actually, the true label is negative. Okay. So, these contain these two parts, right?
+
+471
+00:53:53,480 --> 00:53:58,840
+ False positive and also the true negative. So, this actually, the denominator here
+
+472
+00:53:58,840 --> 00:54:03,560
+ is the total number of negative samples. And then the numerator here is the
+
+473
+00:54:03,560 --> 00:54:06,840
+ number of negative samples that are correctly classified as negative.
+
+474
+00:54:07,800 --> 00:54:15,160
+ So, this is a real show, right? So, in the, this example, as you can see, for a negative class,
+
+475
+00:54:15,160 --> 00:54:22,520
+ right? So, this is a true negative. So, together, we have 13 samples, 13 samples, right? This is
+
+476
+00:54:22,520 --> 00:54:29,640
+ actual negative, the ground truth negative, 4 plus 9, 13. But among the 13th negative samples,
+
+477
+00:54:29,720 --> 00:54:38,359
+ only 9 of them are correctly classified. So, the specificity is a 9 over 4 plus 9, right?
+
+478
+00:54:38,359 --> 00:54:48,120
+ So, this is the specificity. Okay. Okay, next, actually, we will have a 10-minute break.
+
+479
+00:54:48,120 --> 00:54:58,600
+ So, at the break, we talk about the other measures. Okay.
+
+480
+00:55:18,120 --> 00:55:20,600
+ So,
+
+481
+01:06:18,600 --> 01:06:24,359
+ measures. And so, these are called, actually, precision recall. Okay. And then,
+
+482
+01:06:24,359 --> 01:06:30,520
+ free precision recall are more commonly used under the selectivity, sensitivity and specificity.
+
+483
+01:06:30,520 --> 01:06:38,359
+ Okay. And precision gives the proportion of positive prediction, which are truly positive.
+
+484
+01:06:39,720 --> 01:06:45,240
+ You give a look at all the positive predictions, right? Look at all the positive predictions.
+
+485
+01:06:45,319 --> 01:06:49,879
+ And then, you check, actually, whether the ground truth, actually, is positive.
+
+486
+01:06:51,160 --> 01:06:59,080
+ So, this is the precision. Okay. So, the true positive divided by the total number of positive
+
+487
+01:06:59,080 --> 01:07:06,040
+ predictions. Okay. So, positive predictions are like a true positive or false positive.
+
+488
+01:07:06,279 --> 01:07:14,040
+ Okay. So, among all the positive predictions, among all the positive predictions,
+
+489
+01:07:14,759 --> 01:07:20,920
+ how many samples, or the percentage of samples that are truly positive. So, that is the precision.
+
+490
+01:07:22,200 --> 01:07:31,960
+ Okay. Okay. So, above example, right, we look at all the positive predictions, among all the
+
+491
+01:07:32,040 --> 01:07:36,200
+ positive predictions. So, the prediction positive, actually, here, we have 85.
+
+492
+01:07:37,800 --> 01:07:42,280
+ And also, we have actually the four, right? So, these are 89 samples, actually,
+
+493
+01:07:43,640 --> 01:07:48,760
+ predicted as a positive. Okay. So, among all these, actually,
+
+494
+01:07:52,200 --> 01:07:59,960
+ 89 predictions as a positive. So, how many are truly positive? Only 85. So, then, the
+
+495
+01:07:59,960 --> 01:08:07,240
+ precision is 85 divided by the total number of positive predictions. So, 89. Okay. So,
+
+496
+01:08:07,240 --> 01:08:12,120
+ this is called a precision. So, among all the positive predictions,
+
+497
+01:08:13,960 --> 01:08:24,120
+ so, the percentage of truly positive, actually, samples. Okay. So, this is a precision. Okay.
+
+498
+01:08:24,120 --> 01:08:30,279
+ And another measure is called recall. Okay. Recall is, you know, measure the
+
+499
+01:08:31,160 --> 01:08:35,399
+ proportion of a correctly prediction of positive samples to the total number of positive.
+
+500
+01:08:36,760 --> 01:08:42,279
+ Among all the true positive samples, among all of them, so, how many are correctly detected?
+
+501
+01:08:42,840 --> 01:08:47,399
+ That means how many of them, actually, or the percentage of them that are correctly predicted
+
+502
+01:08:47,399 --> 01:08:54,279
+ or detected? Okay. So, this is true positive. This is the number of
+
+503
+01:08:54,920 --> 01:08:59,399
+ prediction, correct, as a positive. Right. Then, you are doing the total number of positive samples.
+
+504
+01:09:01,319 --> 01:09:08,519
+ And, actually, this is recall, actually, is the same as the sensitivity. Okay. So, among all the
+
+505
+01:09:08,519 --> 01:09:15,479
+ true positive samples, how many are actually correctly classified? Or percentage that are
+
+506
+01:09:15,479 --> 01:09:22,120
+ correctly classified? So, this, actually, recall, actually, is the same as the sensitivity.
+
+507
+01:09:24,359 --> 01:09:36,120
+ Right. Sorry. It's the same as the, yes, the sensitivity. Okay. So, this is the recall. Okay.
+
+508
+01:09:36,120 --> 01:09:41,799
+ And it's about the positive class. So, here, recall is about positive class. Right. And,
+
+509
+01:09:41,800 --> 01:09:47,640
+ actually, the precision is also the positive class. Okay. But, actually, the precision is,
+
+510
+01:09:47,640 --> 01:09:53,000
+ among all the predictions as a positive, the percentage of samples that are truly positive.
+
+511
+01:09:53,720 --> 01:10:01,320
+ So, this is the precision. Recall. Among all the positive samples, the percentage that are truly
+
+512
+01:10:01,320 --> 01:10:08,200
+ positive. Okay. So, these are the recalls. So, these are the two different concepts. Okay. And,
+
+513
+01:10:08,200 --> 01:10:15,080
+ that's actually, actually, I use one extra example to explain this concept. Okay. So,
+
+514
+01:10:15,080 --> 01:10:21,639
+ these are multiple choice problems. And, actually, we have four answers. Actually, our task is to
+
+515
+01:10:21,639 --> 01:10:28,040
+ pick all the, actually, you know, the positive, correct answers from these four answers, right,
+
+516
+01:10:28,040 --> 01:10:34,760
+ four statements. Okay. And so, the first one has a male-female student. So, certainly, these are,
+
+517
+01:10:34,840 --> 01:10:39,320
+ I think, the correct answer. Right. These are correct statements. Okay. And then, the second,
+
+518
+01:10:39,880 --> 01:10:45,160
+ class, the complex student from multiple countries, I think, that's also a correct statement.
+
+519
+01:10:45,160 --> 01:10:51,080
+ Right. And, we have students from multiple countries. And, all students, our PhD students,
+
+520
+01:10:51,080 --> 01:10:56,840
+ certainly, these are wrong statements. And, then, the last one, the two-seater lecturers
+
+521
+01:10:56,840 --> 01:11:02,360
+ in this lecture theater. Right. These are also correct. Okay. So, we have four statements,
+
+522
+01:11:02,360 --> 01:11:09,559
+ but three are correct. Right. So, now, our task is to pick all the correct statements from the four.
+
+523
+01:11:09,559 --> 01:11:14,679
+ Okay. So, then, we look at what is, you know, under different scenarios, what is the precision,
+
+524
+01:11:14,679 --> 01:11:22,040
+ what is the recall. Okay. The first case, the, so, if you pick only one answer, right, and this
+
+525
+01:11:22,040 --> 01:11:31,080
+ answer is A, you just get A. A is my answer, right. A, or B, or D, right. You only collect
+
+526
+01:11:31,480 --> 01:11:38,600
+ one answer. This answer is correct. Okay. Then, based on the, actually, the, based on the,
+
+527
+01:11:38,600 --> 01:11:43,800
+ you know, the definition of the precision, right, precision, but for all the, you know,
+
+528
+01:11:43,800 --> 01:11:49,400
+ the positive predictions, so, here, for all the, you know, picked correct answers, correct
+
+529
+01:11:49,400 --> 01:11:57,480
+ statement. So, how many are truly correct? Okay. So, you pick one, and this one is correct. So,
+
+530
+01:11:58,200 --> 01:12:07,080
+ the precision, actually, the precision here is 100%. Pick only one, right. The precision,
+
+531
+01:12:07,080 --> 01:12:13,879
+ actually, is 100%. Because the prediction is one, and it is truly one, right. The prediction is
+
+532
+01:12:13,879 --> 01:12:20,759
+ correct. And then, then, this answer, indeed, is correct. Okay. So, actually, your precision is 100%.
+
+533
+01:12:21,000 --> 01:12:27,800
+ But recall, here, that, actually, among all the positive sample, among all the correct answers,
+
+534
+01:12:28,520 --> 01:12:37,080
+ how many are correctly picked up? Only one. Then, the recall is one, that. Okay. So, if you just,
+
+535
+01:12:37,080 --> 01:12:42,440
+ like, one correct answer, then the recall is very low. Then, the precision is very high.
+
+536
+01:12:43,400 --> 01:12:48,920
+ Okay. And really, the recall, truly, is something like, to matter, actually, how much you have
+
+537
+01:12:49,000 --> 01:12:54,520
+ missed, right. How much you have missed. The percentage of the answers, actually, have missed.
+
+538
+01:12:55,640 --> 01:13:02,200
+ Okay. And then, actually, if you collect, actually, all the four answers, I see all the four, no, four
+
+539
+01:13:02,200 --> 01:13:09,960
+ seem are correct. Okay. So, among these four, all positive predictions, so, how many, actually, are
+
+540
+01:13:09,960 --> 01:13:16,040
+ correct, are correct, all right. So, then, in such a scenario, actually, the recall is very high.
+
+541
+01:13:17,000 --> 01:13:23,320
+ Among all the positive predictions, right, and among all the previous predictions,
+
+542
+01:13:23,320 --> 01:13:33,000
+ how much are truly, actually, positive. So, here, recall 100%. But the precision is low.
+
+543
+01:13:34,280 --> 01:13:42,280
+ It's 375%. Okay. So, when you are, just correct, one answer, but you missed something, right.
+
+544
+01:13:42,360 --> 01:13:47,639
+ Then, the precision is high, but the recall is low. Okay. If you pick all the answers, right,
+
+545
+01:13:47,639 --> 01:13:52,920
+ certainly, continue all the correct answers. In such a scenario, the precision is low, but
+
+546
+01:13:52,920 --> 01:13:58,280
+ recall is high. Okay. So, this may actually, one measure, does not see anything, right.
+
+547
+01:13:58,280 --> 01:14:03,880
+ And one measure is not sufficient, actually, to give a fair evaluation of the performance of the
+
+548
+01:14:03,880 --> 01:14:09,480
+ model. So, maybe we should combine the two together. Or, at least, we should look at the two, right.
+
+549
+01:14:09,480 --> 01:14:15,799
+ Not just based on one precision, or recall. Okay. But, of course, actually, in some applications,
+
+550
+01:14:15,799 --> 01:14:21,959
+ actually, we can emphasize one measure or another one. Sometimes, actually, we show the tree,
+
+551
+01:14:21,959 --> 01:14:27,959
+ you know, just to get one answer. The answer is correct, right. Then, that's enough. Okay.
+
+552
+01:14:27,959 --> 01:14:32,679
+ And, for example, you know, when one, some event happens, right, we have a lot of news
+
+553
+01:14:32,679 --> 01:14:37,400
+ published on the website, right. Actually, maybe, if you just get one news, right,
+
+554
+01:14:37,799 --> 01:14:45,719
+ that is about that event, that is sufficient. Okay. You just get one. That is correct. Okay.
+
+555
+01:14:45,719 --> 01:14:50,839
+ But, in some scenarios, we don't want to miss anything, right. Then, we should actually,
+
+556
+01:14:51,879 --> 01:15:00,679
+ you know, put more emphasis on the recall. We should not miss the information. Okay. So,
+
+557
+01:15:00,679 --> 01:15:05,000
+ this is, but, actually, normally, the two should be used, actually. Both of them should be used.
+
+558
+01:15:05,880 --> 01:15:13,240
+ And then, actually, if you pick, actually, ABD, all the three answer are picked, right. Then,
+
+559
+01:15:13,240 --> 01:15:20,360
+ the precision is 100 percent. And, also, the recall is 100 percent. Okay. So, this is the best,
+
+560
+01:15:20,360 --> 01:15:27,400
+ no. This is not the best result, right. The best result. The 100 percent for recall, 100 percent
+
+561
+01:15:27,400 --> 01:15:33,400
+ for precision. Okay. So, normally, no, I just mentioned, we need to combine the two, right.
+
+562
+01:15:33,480 --> 01:15:39,799
+ So, that is just the so-called, actually, F score or F1 score. Okay. We combine the two. Okay.
+
+563
+01:15:39,799 --> 01:15:46,200
+ And, so, precision times recall. And then, divide by precision plus recall. We don't emphasize one
+
+564
+01:15:46,200 --> 01:15:50,759
+ or another one, right. Actually, they consider them equally for the two measures, because we look at
+
+565
+01:15:51,400 --> 01:15:57,160
+ the multiplication. Okay. One high, one low, right. Then, the multiplication, the multiplication,
+
+566
+01:15:57,160 --> 01:16:05,080
+ per die is low. Okay. And, so, with times two, y times two. And, because of my precision, one,
+
+567
+01:16:05,080 --> 01:16:10,360
+ recall the one, and then, divide by one times one, right. Then, you get the 0.5. But, if you
+
+568
+01:16:10,360 --> 01:16:16,599
+ time two, then, the value will be, actually, very high, right. But, be one. Okay. So, the F score,
+
+569
+01:16:16,599 --> 01:16:23,160
+ normally, should be in a range, maybe, from zero to one, to, if one of them, the precision recall,
+
+570
+01:16:23,480 --> 01:16:28,120
+ one of them is wrong, right. The zero. Then, you can get a zero. So, the value should be in the
+
+571
+01:16:28,120 --> 01:16:33,960
+ range from zero to one. The one is the best. The larger the F, the better the performance.
+
+572
+01:16:34,680 --> 01:16:41,160
+ Okay. So, we take the two measures into one, actually, you know, matrix. Okay. So, that is F score.
+
+573
+01:16:42,200 --> 01:16:47,559
+ Okay. So, now, you probably wish that paper, right. So, normally, we provide the result of F score.
+
+574
+01:16:48,520 --> 01:16:53,640
+ Okay. All you provide, that both, all the three measures, right. The precision,
+
+575
+01:16:53,640 --> 01:16:59,640
+ as you recall, and also, the F score. Also, if you just need to provide one, right, then, that is F score.
+
+576
+01:17:01,880 --> 01:17:06,760
+ Okay. Because F score combines the two measures, right. Two matrices into one single, actually,
+
+577
+01:17:06,760 --> 01:17:16,120
+ matrix. Okay. So, this is the F score. These are the, okay. And so, in the, in the above example,
+
+578
+01:17:16,120 --> 01:17:21,240
+ right, just now, we have an example in case one, actually, you know, we know precision one, right,
+
+579
+01:17:21,240 --> 01:17:28,840
+ about the, the recall, you know, one dot. Okay. Then, we have the, to the F score, zero point five,
+
+580
+01:17:28,840 --> 01:17:34,920
+ is a low value, right. Then, the second scenario, actually, that recall is, is, is, is, is, is,
+
+581
+01:17:35,880 --> 01:17:43,080
+ recall is high, by the precision is low, right. So, then, the result is upon eight. And then,
+
+582
+01:17:43,080 --> 01:17:50,120
+ the, the case, actually, 100 percent for recall, 100 percent for precision, then, the F score equals
+
+583
+01:17:50,120 --> 01:17:55,640
+ one. Okay. So, this is the largest value, actually, the larger the, actually, this F, normally, the
+
+584
+01:17:55,640 --> 01:18:04,280
+ better the performance. Okay. The best result is F equals one. Okay. So, this is the precision,
+
+585
+01:18:04,280 --> 01:18:09,559
+ and the recall, actually, which are commonly used, including the, actually, F score, a commonly used.
+
+586
+01:18:11,559 --> 01:18:17,240
+ Okay. The next, actually, is called, actually, we have, we call the receiver operating characteristic,
+
+587
+01:18:17,800 --> 01:18:23,639
+ actually, curve, ROC curve. And then, we have a matrix, that's so-called, actually, area and the
+
+588
+01:18:23,639 --> 01:18:30,840
+ curve. They're not frequently used, but sometimes, actually, we, we, we use this. Okay. And so,
+
+589
+01:18:31,640 --> 01:18:37,480
+ conventionally, when we make decisions, right, for example, in the basic decision rule, and we
+
+590
+01:18:37,480 --> 01:18:41,560
+ basically put a posterior probability to make decisions, right. So, actually, we assume, actually,
+
+591
+01:18:41,560 --> 01:18:47,480
+ we assume, actually, 50 percent as a threshold value. Okay. If one probability is higher than
+
+592
+01:18:47,480 --> 01:18:54,040
+ 0.5, right, 0.5 is a threshold value, right. And then, actually, another one will be less than 0.5,
+
+593
+01:18:54,680 --> 01:19:01,960
+ okay, or 50 percent, right. So, so, actually, 0.5, actually, is used, actually, as a threshold,
+
+594
+01:19:01,960 --> 01:19:09,880
+ okay, actually, so, implicitly, okay. Again, our mind, actually, we use this, okay. And then,
+
+595
+01:19:09,880 --> 01:19:15,000
+ either, support one machine, for example, right, actually, we use zero as a threshold value. Okay.
+
+596
+01:19:15,000 --> 01:19:19,960
+ If this, the logistic function value is greater than zero, then belong to class five, right.
+
+597
+01:19:20,040 --> 01:19:25,720
+ The negative, less than zero, then belong to class two, or minus one, okay. So, with zero,
+
+598
+01:19:25,720 --> 01:19:31,240
+ the threshold values, okay. But, actually, sometimes, actually, zero, or zero.5, you know,
+
+599
+01:19:31,240 --> 01:19:36,040
+ there's a one in the middle, right, in the middle point, is not actually, maybe not be the best,
+
+600
+01:19:36,040 --> 01:19:42,920
+ actually, the threshold value. Okay. Sometimes, actually, for example, you have a, like, a detention
+
+601
+01:19:42,920 --> 01:19:47,960
+ of a cancer, right. For example, I need a screening of the cancer, right. And, actually,
+
+602
+01:19:47,960 --> 01:19:55,400
+ as long as maybe you have a 40% of the probability that person may have a cancer, right, not 50%,
+
+603
+01:19:56,120 --> 01:20:02,920
+ maybe 40%. And then, maybe, we will suggest that this person should go for further,
+
+604
+01:20:07,000 --> 01:20:14,360
+ further examination, right. Right, now, we don't use zero.5, actually, instead, we use zero.4,
+
+605
+01:20:14,360 --> 01:20:20,280
+ right. Okay. So, this, actually, then, so, not, actually, we should not always use, actually,
+
+606
+01:20:20,280 --> 01:20:28,200
+ like, zero, or zero.5, as the threshold values. So, the receiver operating characteristic curve,
+
+607
+01:20:28,200 --> 01:20:32,679
+ it just, actually, something, they show the performance, actually, when the threshold value
+
+608
+01:20:33,320 --> 01:20:38,200
+ is, threshold is set to different values. For example, only the, you know, the, the, the
+
+609
+01:20:38,200 --> 01:20:45,160
+ different function value is greater than 0.5. Then, you see the positive class. Okay. And,
+
+610
+01:20:45,160 --> 01:20:50,840
+ even less than, actually, 0.5, actually, we are not considered as a positive example. Although,
+
+611
+01:20:50,840 --> 01:20:55,480
+ implicitly, we assume, as long as the discrete function is greater than zero, and then it's
+
+612
+01:20:55,480 --> 01:21:00,840
+ class one. Okay. So, if you use, actually, of course, different threshold values, right,
+
+613
+01:21:00,840 --> 01:21:05,559
+ and then, actually, you can have different performance. Okay. And, actually, you can draw this,
+
+614
+01:21:05,560 --> 01:21:14,280
+ actually, performance against, actually, performance, right, and, and the different, you know,
+
+615
+01:21:14,280 --> 01:21:24,120
+ these are special values into, into such a diagram. And then, you can get a so-called ROC curve,
+
+616
+01:21:24,120 --> 01:21:32,120
+ ROC curve. Okay. And, so, ROC curve, we first look at this. Okay. So, you have a tree horizontal here
+
+617
+01:21:32,200 --> 01:21:38,519
+ is a false positive rate. And, the vertical here is a true positive rate. Okay. And, we have a E,
+
+618
+01:21:39,320 --> 01:21:45,960
+ A, B, C, D, E, right. So, every value here corresponds to one threshold value. Okay. So,
+
+619
+01:21:45,960 --> 01:21:51,640
+ threshold value A is set to one value, right. Then, we can have a performance of the
+
+620
+01:21:53,160 --> 01:21:58,760
+ false positive rate. And, then, we can have a true positive rate. And, then, we, based on the two
+
+621
+01:21:58,840 --> 01:22:03,560
+ on in it, as a coordinate, we can find one point, right. That's A. And, then, you set the threshold
+
+622
+01:22:03,560 --> 01:22:08,040
+ value to another, threshold to another value, right. Then, maybe, you get a B. And, then,
+
+623
+01:22:08,040 --> 01:22:12,920
+ you get a D, you get a C, D, right. So, these, finally, these are curve. These are called ROC curve.
+
+624
+01:22:14,120 --> 01:22:19,320
+ Okay. So, these are true false positive rate, right, false negative rate. Okay. So, what are
+
+625
+01:22:19,320 --> 01:22:24,840
+ the false positive, true positive rate? True positive rate, actually, is just a sensitivity,
+
+626
+01:22:24,920 --> 01:22:32,520
+ is a recall. Okay. So, sensitivity recall. And, then, these are true positive rate.
+
+627
+01:22:33,960 --> 01:22:40,680
+ True positive divided by the, all the positive. This is sensitivity. Okay. Also, actually, equal
+
+628
+01:22:40,680 --> 01:22:47,640
+ to the recall. This value. Okay. And, then, the false positive rate, false positive divided by
+
+629
+01:22:47,640 --> 01:22:53,320
+ total number of positive. Okay. So, these are true equal to one month specificity. Okay. So,
+
+630
+01:22:53,320 --> 01:22:58,759
+ based on these, actually, two values, right. For every threshold value, now, we can have a
+
+631
+01:22:58,759 --> 01:23:06,440
+ corresponding point, right. Then, we link the point. So, this point is just ROC curve. ROC
+
+632
+01:23:06,440 --> 01:23:13,480
+ curve. Okay. And, after we sketch this ROC curve, and then, we can use the area and the curve,
+
+633
+01:23:13,480 --> 01:23:21,960
+ AUC, as a measure, and for the performance evaluation. Area and the curve. Okay. And,
+
+634
+01:23:23,400 --> 01:23:33,799
+ so, here, actually, an example, right. AUC equals one. Equals one. Right. Equals one.
+
+635
+01:23:36,280 --> 01:23:41,080
+ Actually, even look at this, this rate, right. True false positive rate. So, here,
+
+636
+01:23:41,080 --> 01:23:45,400
+ as most, actually, the value could be one, right. And, then, true positive rate, as this is the value
+
+637
+01:23:45,400 --> 01:23:49,480
+ of one. And, then, actually, this is a square, right. The square. Then, the area of the square,
+
+638
+01:23:49,480 --> 01:23:55,799
+ at most, actually, is one, right. At most, is one. Okay. So, one. Okay. And, then, if the AUC curve is
+
+639
+01:23:55,799 --> 01:24:07,799
+ one, that means, actually, all the classifier able to provide, actually, able to classify the samples,
+
+640
+01:24:07,799 --> 01:24:13,959
+ right. Correctly, no matter, actually, what actually, no threshold value you use. Okay. This is a
+
+641
+01:24:13,960 --> 01:24:20,520
+ very special scenario. Okay. And, then, we have an AUC curve zero. The classifier will predict
+
+642
+01:24:20,520 --> 01:24:25,640
+ all the samples, negative as a positive, and all the samples as a negative. This means,
+
+643
+01:24:25,640 --> 01:24:30,840
+ you classify all the samples wrongly. Then, the AUC curve, actually, is zero.
+
+644
+01:24:32,920 --> 01:24:38,680
+ Zero. Okay. And, then, actually, we normally have this, I know, like, zero point five. Zero point
+
+645
+01:24:38,760 --> 01:24:46,040
+ five, actually, here, is through the tree. A random, a random, a random classifier, and a wood,
+
+646
+01:24:46,040 --> 01:24:52,520
+ actually, you know, have this performance, zero point five, AUC curve. Okay. So, this is just the part.
+
+647
+01:24:54,840 --> 01:25:01,720
+ This part, this curve, this line, this line here, this line here, right. You see this line, right.
+
+648
+01:25:01,720 --> 01:25:06,760
+ This is a tree that corresponds to a random tree classifier. Okay. Then, you get a performance,
+
+649
+01:25:06,920 --> 01:25:13,400
+ AUC curve zero point five. Okay. And, so, actually, the larger the, you know, the AUC,
+
+650
+01:25:14,520 --> 01:25:20,040
+ the area under the curve, the better the performance, right. So, how can we get a larger AUC?
+
+651
+01:25:20,680 --> 01:25:26,040
+ And, that means, actually, this AUC curve is far from the diagonal, you know, the three line, right,
+
+652
+01:25:26,040 --> 01:25:32,120
+ far from that. Okay. So, this is something like that. So, this is a random classifier, you know,
+
+653
+01:25:32,200 --> 01:25:38,120
+ this three line. Okay. Then, the further away from these three lines, the better the performance,
+
+654
+01:25:38,120 --> 01:25:44,120
+ because the area under the curve would be greater, right, would be greater. If it's a line, for example,
+
+655
+01:25:44,120 --> 01:25:50,760
+ the blue line here, right, is far away from these, you know, these three lines. So, the performance
+
+656
+01:25:50,760 --> 01:25:58,040
+ are best here. Okay. Then, we have this green line, better, right. Okay. So, this is the, actually,
+
+657
+01:25:58,120 --> 01:26:08,040
+ the ROC curve, right. ROC curve, yeah. Okay. And, so, also, area under curve. But, this is actually
+
+658
+01:26:08,040 --> 01:26:15,320
+ better, not, these two, you know, ROC curve and also the, you know, the area under the curve, AUC,
+
+659
+01:26:15,320 --> 01:26:22,440
+ actually, are not frequently used. But, sometimes, they, you know, they use, okay. And, sometimes,
+
+660
+01:26:22,519 --> 01:26:26,759
+ when you write a paper, right, sometimes, actually, they ask you, actually, you know,
+
+661
+01:26:26,759 --> 01:26:35,000
+ to look at this, you know, matrix and as a measure for your performance of your model. Okay. But,
+
+662
+01:26:35,000 --> 01:26:43,000
+ the precision recall, I think, the most commonly used. Okay. Okay. So, these are the matrices we
+
+663
+01:26:43,000 --> 01:26:52,760
+ can use to evaluate the performance, right, for the trained model. Okay. So, this is actually
+
+664
+01:26:55,320 --> 01:27:00,280
+ first session and also until now, actually, we have talked about the evaluation of
+
+665
+01:27:01,240 --> 01:27:08,040
+ Penn and Classified, right. And, so, this includes two parts. One is the evaluation of procedure,
+
+666
+01:27:08,600 --> 01:27:14,120
+ how to divide the data, how to repeat the experiment, right. And, then, there's a second part about
+
+667
+01:27:14,120 --> 01:27:23,000
+ the matrix that we can use, you know, to measure the performance of the model. Okay. So, necessary,
+
+668
+01:27:24,040 --> 01:27:37,400
+ we will look at different topic. That is regression. Okay.
+
+669
+01:27:38,920 --> 01:27:44,440
+ You remember, actually, you know, I think in the first class, we talked about the linear, right,
+
+670
+01:27:44,440 --> 01:27:50,360
+ there are three categories. One is, you know, surprise, another is unsurprise, another thing,
+
+671
+01:27:50,360 --> 01:27:55,800
+ that one is reinforcement linear, right. So, under the surprise linear, there are two that remain
+
+672
+01:27:57,000 --> 01:28:04,920
+ some areas. One is called, actually, classification. And, then, another one called regression. Okay. So,
+
+673
+01:28:05,640 --> 01:28:10,200
+ necessary, we will talk about regression. Of course, actually, in the area of machine learning,
+
+674
+01:28:10,200 --> 01:28:16,440
+ the classification is a dominant topic. A regression is more studied, I think, in statistics,
+
+675
+01:28:17,240 --> 01:28:21,400
+ statistics, right. Now, we see machine learning is an interdisciplinary, right.
+
+676
+01:28:21,400 --> 01:28:29,880
+ It's a disciplinary. And, so, actually, many research can be considered as a work related to
+
+677
+01:28:29,880 --> 01:28:34,040
+ the machine learning. So, regression is more studied in the statistics. Okay.
+
+678
+01:28:36,520 --> 01:28:42,840
+ Regression is also, actually, also try to build a model and then build based on the model to predict
+
+679
+01:28:43,880 --> 01:28:50,680
+ the values. Okay. And, classification is also the prediction, right, the prediction of class labels.
+
+680
+01:28:50,680 --> 01:28:54,360
+ Okay. But, in classification, remember, in the class, we already talked about the difference
+
+681
+01:28:54,360 --> 01:28:59,799
+ between classification and regression, right. In the classification, actually, the target variable
+
+682
+01:29:00,759 --> 01:29:06,200
+ is just class label, right. The target variable class label only have limited values. For two
+
+683
+01:29:06,200 --> 01:29:12,839
+ class class, we have two values, right. For class label, we have one opposite minus one, right.
+
+684
+01:29:12,839 --> 01:29:19,240
+ We have these two values. Okay. And, all one are zero. Okay. So, just two. But, anyways,
+
+685
+01:29:19,320 --> 01:29:26,280
+ these values are very limited. Okay. So, the class label or target variable is a discrete,
+
+686
+01:29:26,920 --> 01:29:33,719
+ discrete. Okay. And, but in the regression, although it's again, it's a prediction, right,
+
+687
+01:29:33,719 --> 01:29:40,040
+ prediction. But, actually, the target variable, actually, is a continuous variable. It's a
+
+688
+01:29:40,040 --> 01:29:48,120
+ numerical variable that has many, many possible values. Okay. And, for example, we talked about the
+
+689
+01:29:48,120 --> 01:29:52,360
+ score, right. Your score could be, actually, you know, it can be considered as a continuous
+
+690
+01:29:52,360 --> 01:29:58,440
+ variable. Okay. And, then, the gender, right, the gender is just a two possible value, right.
+
+691
+01:29:58,440 --> 01:30:04,440
+ Male or female. Okay. If we want to predict the gender, right, then this is a classification
+
+692
+01:30:04,440 --> 01:30:10,040
+ problem. If you want to predict the score, the score, for example, the examination result,
+
+693
+01:30:10,040 --> 01:30:15,559
+ the exam result, actually, the marks, this can be considered a continuous numerical. Then,
+
+694
+01:30:15,640 --> 01:30:21,160
+ this can be considered as a regression problem. Okay. So, this is a difference, right. This is
+
+695
+01:30:21,160 --> 01:30:27,880
+ a difference. The variables, the, you know, like, stop price, right. The price, you know,
+
+696
+01:30:27,880 --> 01:30:33,880
+ is a continuous variable. Or, you see the numerical variable. Okay. So, if we want to predict this
+
+697
+01:30:33,880 --> 01:30:38,440
+ kind of variable, then it's a regression problem. You want to, you know, predict, then it's a
+
+698
+01:30:39,160 --> 01:30:43,559
+ Gorka variable, which has a limited number of values, right. Then, it's a classification problem.
+
+699
+01:30:45,799 --> 01:30:53,320
+ Okay. So, previously, in the previous week, we have learned different methods of classification,
+
+700
+01:30:53,320 --> 01:31:02,519
+ right. So, today, the next, actually, we are talking about regression. Okay. The first,
+
+701
+01:31:02,600 --> 01:31:07,960
+ actually, we consider, okay, maybe I first go through this slide. Okay. So, regression, okay. We
+
+702
+01:31:07,960 --> 01:31:13,320
+ have one, we have predict, right. Actually, in the classification, normally, we see we have many
+
+703
+01:31:13,320 --> 01:31:18,280
+ samples, right. Then, in the space, we try to find a discerned boundary, right, to separate the
+
+704
+01:31:18,280 --> 01:31:23,560
+ sampling of the two classes. What about the discerned boundary? Then, we see, oh, this sample
+
+705
+01:31:23,560 --> 01:31:30,360
+ belongs to class one, or class two, right. Then, in the sample below this discerned boundary,
+
+706
+01:31:30,440 --> 01:31:37,080
+ is a sample of another class. So, classification is a partition of the space into different part,
+
+707
+01:31:37,080 --> 01:31:42,519
+ in different regions. Each part or each region corresponds to one class. Okay. So, this is
+
+708
+01:31:42,519 --> 01:31:48,120
+ the classification. But, actually, regression is different. Regression is something like that. Okay.
+
+709
+01:31:48,120 --> 01:31:54,120
+ We have one variable X, and we want to predict this way. Okay. And then, this prediction should be
+
+710
+01:31:54,120 --> 01:32:00,920
+ very close to the true values, to the true values. So, normally, we see, we use this like a
+
+711
+01:32:01,559 --> 01:32:07,320
+ diagram to illustrate the regression. Based on all the samples, we find a curve, or we find
+
+712
+01:32:07,320 --> 01:32:12,920
+ a straight line, a linear regression, we find a straight line. And then, actually, all the points
+
+713
+01:32:12,920 --> 01:32:18,519
+ actually are close to this straight line. So, this is regression. So, you can think about the
+
+714
+01:32:18,519 --> 01:32:23,080
+ difference between classification, right, the geometric interpretation of the classification
+
+715
+01:32:23,080 --> 01:32:28,600
+ and the regression. You find a straight line to separate the sample. That's classification, right.
+
+716
+01:32:28,600 --> 01:32:34,040
+ So, here, you want to, based on a sample, find a line that passes through the samples, right.
+
+717
+01:32:34,040 --> 01:32:43,240
+ That means that all the samples are very close to this line. This is regression. Okay. And the
+
+718
+01:32:43,240 --> 01:32:52,200
+ regression tree, here, we can, can be linear or nonlinear. In this course, actually, we first
+
+719
+01:32:52,280 --> 01:32:56,760
+ talk about the linear regression problem. Okay. Then, we will attach a bit of the nonlinear
+
+720
+01:32:56,760 --> 01:33:01,559
+ regression problem. Okay. So, linear regression problem, that means, actually, we build a linear
+
+721
+01:33:01,559 --> 01:33:07,240
+ model. So, linear model should be, this model is similar to the regression, to the classification
+
+722
+01:33:07,240 --> 01:33:15,720
+ problem. We have y equals w transpose x plus, you know, w zero. Okay. So, this is regression.
+
+723
+01:33:15,720 --> 01:33:20,920
+ If you look at the form, right, actually, I know that the linear equation always have the same form,
+
+724
+01:33:20,920 --> 01:33:27,000
+ right. This is a linear equation. Okay. And, just to show you how to, you know, find the parameters,
+
+725
+01:33:27,000 --> 01:33:33,080
+ right. Based on different problems, we have different ways to find the value for these linear
+
+726
+01:33:33,080 --> 01:33:42,600
+ equations. Okay. And, okay. So, actually, in the regression, in the regression problem,
+
+727
+01:33:42,600 --> 01:33:47,880
+ so normally, we have two type of variables. One type of variable called predictor variables.
+
+728
+01:33:47,880 --> 01:33:52,440
+ So, this is just like in machine learning, these are called features or attributes. Okay. In this,
+
+729
+01:33:52,440 --> 01:34:00,280
+ actually, regression, they are called predictor variables. All the time, they call independent
+
+730
+01:34:00,280 --> 01:34:06,600
+ variables. Okay. Then, the target variable is called, actually, dependent variable, because
+
+731
+01:34:06,600 --> 01:34:11,560
+ these variables depend on the independent variables. Okay. All these are called, these target variables,
+
+732
+01:34:11,560 --> 01:34:17,240
+ or independent variable. So, these are the terms used in the regression, because these are
+
+733
+01:34:17,240 --> 01:34:23,240
+ not regression, normally, studied in statistics. Okay. So, you know, the term, knowledge, I think,
+
+734
+01:34:23,240 --> 01:34:29,320
+ here is different from those in machine learning. Okay. And, in the simple regression, linear regression,
+
+735
+01:34:29,320 --> 01:34:36,200
+ we assume that there is only one variable, one predictor variable, x. Okay. And then, we use,
+
+736
+01:34:37,160 --> 01:34:44,360
+ this is actually x to predict the y, which is a dependent variable. Okay. So, y equal to theta
+
+737
+01:34:44,360 --> 01:34:52,280
+ zero plus theta one x plus epsilon. Okay. This theta one, just like w one, right, x plus w zero in the
+
+738
+01:34:52,840 --> 01:34:59,559
+ classification, right. But, they use a different, actually, no, letter to denote. Okay. So, here,
+
+739
+01:34:59,640 --> 01:35:07,160
+ we use theta zero, theta one. Okay. And, y is a target variable, or dependent variable, x is a
+
+740
+01:35:07,160 --> 01:35:13,080
+ predictor variable, or independent variable. Okay. So, theta zero, theta one are the parameters of
+
+741
+01:35:13,080 --> 01:35:21,080
+ this simple linear regression model. Okay. And, this epsilon here is residual, maybe the noise.
+
+742
+01:35:22,040 --> 01:35:30,360
+ Okay. So, this is a simple linear regression. And, here, give an example, right. For example,
+
+743
+01:35:31,000 --> 01:35:37,400
+ peasants, actually, the salary, right, could be related to the number of years of experience.
+
+744
+01:35:37,400 --> 01:35:44,600
+ We assume there is a linear relationship, right. So, actually, we kind of, how to find this relationship,
+
+745
+01:35:45,560 --> 01:35:50,120
+ how to find the value of theta zero, theta one, right. And, we need to get some samples.
+
+746
+01:35:50,680 --> 01:35:54,760
+ Now, we can ask a few people, right. So, how many years have I worked in this area, right. So,
+
+747
+01:35:54,760 --> 01:36:00,200
+ what is your salary? So, here, we can get one, two, three, four, right. And, seven samples.
+
+748
+01:36:00,760 --> 01:36:04,360
+ Of course, just for illustration, normally, we need to get a hundred samples, right.
+
+749
+01:36:04,360 --> 01:36:13,640
+ Based on the hundred samples, actually, we fit a line or linear equation. Okay. So, this is,
+
+750
+01:36:13,720 --> 01:36:21,080
+ actually, the regression problem is also based on the super, is also a super linear,
+
+751
+01:36:21,080 --> 01:36:26,680
+ because we also need to have the target value. In regression, we have no this kind of target
+
+752
+01:36:26,680 --> 01:36:31,880
+ value, right, here, the salary. In classification, so, this is a class label.
+
+753
+01:36:34,040 --> 01:36:38,040
+ A boot can be considered as a label data, right. So, it's a super linear.
+
+754
+01:36:38,280 --> 01:36:45,080
+ Okay. Okay. So, this is actually a simple linear regression. And, of course,
+
+755
+01:36:45,080 --> 01:36:50,360
+ if you know, in practice, normally, we need to use more than one per data variable, right.
+
+756
+01:36:50,360 --> 01:36:55,320
+ Just like in classification, we need to use more than one feature. And, this feature could be,
+
+757
+01:36:56,360 --> 01:37:02,840
+ number could be huge, right, in some applications. Okay. So, you, then, this is a linear,
+
+758
+01:37:02,840 --> 01:37:06,680
+ multiple linear regression. That means we use a multiple per data variables.
+
+759
+01:37:06,680 --> 01:37:11,640
+ And then, the model form, like this, y equals theta zero. There's zero, just like w zero in
+
+760
+01:37:11,640 --> 01:37:19,320
+ the classification, right. Then, plus w y x1 plus w n2, w m xm. So, here, we use a theta to denote
+
+761
+01:37:19,320 --> 01:37:25,160
+ the parameters. Okay. So, that's zero, theta one, and then, theta n. Okay. So, this is a multiple
+
+762
+01:37:25,160 --> 01:37:31,480
+ regression, linear, because this is a linear equation. And, so, of course, that's just like
+
+763
+01:37:31,559 --> 01:37:37,400
+ in classification. The central issue, the central issue is how to find the values for the parameters,
+
+764
+01:37:37,400 --> 01:37:44,919
+ right, in the model, based on the training samples. For regression, the same. The central issue is
+
+765
+01:37:44,919 --> 01:37:49,719
+ how to find the values for theta zero, theta one, theta m, based on the training samples.
+
+766
+01:37:51,639 --> 01:37:58,440
+ Okay. So, in that situation, we will look at the way to find the value for these parameters,
+
+767
+01:37:58,519 --> 01:38:06,040
+ theta zero, and theta m. Okay. And, actually, we, so, this is a method called the ordinary
+
+768
+01:38:06,040 --> 01:38:13,960
+ least square estimation method. Okay. So, here, we assume we have n training samples, n, capital
+
+769
+01:38:13,960 --> 01:38:21,400
+ n, right. And, so, this is actually, we have n pairs, right. So, each sample, we have the input,
+
+770
+01:38:21,400 --> 01:38:26,679
+ we also have the target value. So, this is the, the same as, or similar to the normal
+
+771
+01:38:26,680 --> 01:38:31,400
+ classification program, right. We have the feature vectors, and then we have the class label. So,
+
+772
+01:38:31,400 --> 01:38:36,360
+ here, we also have the input vector, and then we have the, actually, or we see the predictor
+
+773
+01:38:36,360 --> 01:38:42,200
+ variable vector, right. And, also, we have the target value. So, we have n pairs. Okay. So, the
+
+774
+01:38:42,200 --> 01:38:47,240
+ input, of course, can be, you know, a vector, right. We assume, actually, the input, you know,
+
+775
+01:38:47,240 --> 01:38:54,600
+ contains one to m variables. So, we have m predictor variables, right. Okay. So, this is xi for
+
+776
+01:38:54,600 --> 01:39:04,120
+ sample number i. Then, the label is yi. Okay. And, then, we can write, you know, the yi in such a form
+
+777
+01:39:04,120 --> 01:39:12,680
+ for sample number i, for sample number i. And, then, we can write this, actually, this formula.
+
+778
+01:39:12,680 --> 01:39:20,520
+ This is a linear combination of all the variables, right, into the inner product of the two
+
+779
+01:39:20,520 --> 01:39:25,640
+ vectors. So, this is the, you know, the parameter vector, right, theta 0, theta 1, and theta m.
+
+780
+01:39:25,640 --> 01:39:31,480
+ So, these are the input vector. But, here, we put a 1, because theta 0 can be considered as a,
+
+781
+01:39:31,480 --> 01:39:38,440
+ the input is a constant 1. You can consider x0 times theta 0, but x0 is just a constant 1.
+
+782
+01:39:39,640 --> 01:39:44,200
+ Okay. Then, we have this representation, right. 1 always a 1, the first, because this corresponds
+
+783
+01:39:44,440 --> 01:39:54,440
+ to 0. x0. Input x0, here, is a, it is 1. Okay. And, then, we have x1 and xm for the sample number i.
+
+784
+01:39:55,800 --> 01:40:01,559
+ Okay. So, each sample, as we can be known, is in the inner product of these two vectors.
+
+785
+01:40:02,760 --> 01:40:07,000
+ And, of course, this is theta 0, theta 1, theta m, common, right, for all the
+
+786
+01:40:07,000 --> 01:40:13,800
+ samples. But, for different samples, we have a different input vector. Okay. So,
+
+787
+01:40:13,880 --> 01:40:19,800
+ actually, we can summarize all these, you know, n samples into such a matrix equation,
+
+788
+01:40:20,600 --> 01:40:26,200
+ matrix equation, right. So, this matrix equation, you can see this is, this part is still the
+
+789
+01:40:26,200 --> 01:40:31,560
+ parameter vector, right, theta 0, theta 1, theta m. And, then, the first rule, it just corresponds
+
+790
+01:40:31,560 --> 01:40:37,720
+ to the first samples. The input of the first sample, the input vector, right. And, of course,
+
+791
+01:40:37,720 --> 01:40:44,040
+ we have a 1 extra 1, yeah. And, then, the second rule is the input vector for sample number 2.
+
+792
+01:40:44,600 --> 01:40:51,320
+ Totally, we have n samples, right. So, with the nth rule, nth rule is the input vector for
+
+793
+01:40:51,320 --> 01:40:59,320
+ sample number m, n. Okay. So, these vectors summarize all the input, the target variable,
+
+794
+01:40:59,320 --> 01:41:06,360
+ right. So, the target variable vector. And, this is the matrix, input matrix. And, then, this is
+
+795
+01:41:06,440 --> 01:41:13,559
+ the parameter vector. Okay. So, if we define this, you know, this actually is a y as a vector,
+
+796
+01:41:13,559 --> 01:41:19,960
+ right. This is a matrix, phi. This is a theta. Okay. And, then, this actually, you know,
+
+797
+01:41:19,960 --> 01:41:28,040
+ matrix equation can be expressed as this. y equal to phi times theta, actually, plus actually,
+
+798
+01:41:29,080 --> 01:41:34,440
+ epsilon. Epsilon is also a vector. For different samples, now we have a different residual or error.
+
+799
+01:41:36,360 --> 01:41:40,040
+ Okay. So, now, actually, we have, you know, have this expression, right. So,
+
+800
+01:41:40,040 --> 01:41:47,559
+ necessarily, we need to find the values for this theta. Okay. And, actually, given the
+
+801
+01:41:47,559 --> 01:41:51,799
+ training sample, the phi is known, right. The phi is known, actually, the y is known,
+
+802
+01:41:51,799 --> 01:41:58,040
+ because, actually, these are the target values for the training sample, right. And, the phi is known,
+
+803
+01:41:58,040 --> 01:42:04,679
+ and the theta is known. The phi is known, y is known. Theta is unknown. Okay. Our objective,
+
+804
+01:42:04,680 --> 01:42:11,080
+ next, is to estimate the theta. How to estimate? Okay. First, we need to have some basic ideas,
+
+805
+01:42:11,080 --> 01:42:17,800
+ right. Then, we can summarize this idea, actually, into an equation, right. This equation could be
+
+806
+01:42:17,800 --> 01:42:23,400
+ used as a loss function for optimization. You will remember in the classification problem,
+
+807
+01:42:23,400 --> 01:42:28,360
+ right. So, first, actually, we analyze the classification. So, what is, you know, is
+
+808
+01:42:28,360 --> 01:42:35,400
+ expected for a good classifier. For example, in the support machine, and we show some analysis,
+
+809
+01:42:35,400 --> 01:42:40,440
+ we show, actually, we found such a decision boundary so that the model of separation makes
+
+810
+01:42:40,440 --> 01:42:47,000
+ a mark. Okay. Then, the classification problem is converting into an optimization problem.
+
+811
+01:42:47,000 --> 01:42:53,559
+ We try to optimize, actually, the model of separation. Or we try to minimize the square of the
+
+812
+01:42:53,880 --> 01:43:00,680
+ model of separation, the square of the norm, square norm of the w. Okay. Then, subject to some
+
+813
+01:43:00,680 --> 01:43:05,320
+ constant. Okay. So, classification problem is summarizing into an optimization problem.
+
+814
+01:43:06,920 --> 01:43:12,360
+ In Fisher linear adjustment analysis, I did the same, right. We see, oh, we want to find such a
+
+815
+01:43:12,360 --> 01:43:18,600
+ w and so that the sample could be, have a small, actually, within class scatter, and
+
+816
+01:43:18,600 --> 01:43:24,280
+ we're big, between class scatter. So, based on this concept, idea, then we summarize, actually,
+
+817
+01:43:25,960 --> 01:43:31,160
+ a criterion, right. And then we try to find the parameter that could minimize, or maximize,
+
+818
+01:43:31,160 --> 01:43:37,320
+ this criterion. Okay. So, this is a, this idea of solving this kind of question, right. For regression,
+
+819
+01:43:37,320 --> 01:43:43,240
+ the same. So, what are the, our target? And we want to find such theta because we want to make
+
+820
+01:43:43,320 --> 01:43:48,920
+ prediction, right. And we want to find such theta so that the prediction of the way is
+
+821
+01:43:49,880 --> 01:43:57,639
+ very close to the true way, to the true way, right. And how close, how to measure they are
+
+822
+01:43:57,639 --> 01:44:03,400
+ close. Actually, we can use the difference. In other words, actually, we hope that the, the, the
+
+823
+01:44:03,400 --> 01:44:10,200
+ difference between the prediction and the, the true values of way could be minimized,
+
+824
+01:44:11,160 --> 01:44:15,880
+ could be minimized. Okay. So, how to measure the difference? Of course, actually, we can use
+
+825
+01:44:15,880 --> 01:44:23,639
+ the, the square of the difference, right. This is the difference. Actually, y is a true value,
+
+826
+01:44:23,639 --> 01:44:28,440
+ right. Other way, we have theta, we, theta is a prediction. So, this is the difference.
+
+827
+01:44:29,639 --> 01:44:35,000
+ Difference, just actually the sigma i, right. We use square. For every sample, there is a
+
+828
+01:44:35,000 --> 01:44:40,680
+ prediction error. The error is just the, the epsilon, epsilon, right. Epsilon i is for
+
+829
+01:44:40,680 --> 01:44:46,520
+ sample number i. We hope this error could be as small as possible. Could be as small as, could
+
+830
+01:44:46,520 --> 01:44:51,240
+ be close to zero. Close to zero, that means it could be, actually, we don't care whether it's a
+
+831
+01:44:51,240 --> 01:44:57,000
+ positive, it's greater than zero or negative, it's a small than zero, right. As long as it's
+
+832
+01:44:57,000 --> 01:45:04,680
+ close to zero. So, we use square. We use square, right. We try to minimize the square of the error.
+
+833
+01:45:05,560 --> 01:45:12,760
+ The residual. Okay. And actually, this can be just like y minus phi theta, right.
+
+834
+01:45:12,760 --> 01:45:20,360
+ Transpose. So, this is the vector of the, the error. The residual. So, finally, you know,
+
+835
+01:45:20,360 --> 01:45:25,800
+ through the analysis, we want to find such a phi, a sub-theta, so that this function j is
+
+836
+01:45:25,800 --> 01:45:31,160
+ minimized. That means that the prediction is very close to a true value of the y.
+
+837
+01:45:32,120 --> 01:45:38,120
+ So, this is the main idea, right. Prediction is very close to the true value. So, based on this
+
+838
+01:45:38,120 --> 01:45:43,720
+ idea, we summarize this regression problem, right. And the parameter estimation problem
+
+839
+01:45:43,720 --> 01:45:51,639
+ into such, actually, the minimization problem. Okay. So, next, actually, we will try to solve
+
+840
+01:45:51,639 --> 01:45:56,920
+ this minimization problem to find the theta, right. So, theta should be the one that could
+
+841
+01:45:56,920 --> 01:46:05,960
+ minimize this j function, j. Because this is the error function. Okay. So, we should minimize this.
+
+842
+01:46:06,920 --> 01:46:15,480
+ Okay. Okay. So, theta phi, we should minimize this. And how to, okay, minimize this. I think these
+
+843
+01:46:15,480 --> 01:46:21,960
+ are very, very classic, you know, omniscient problem, right. Very classic. Okay. And then,
+
+844
+01:46:22,040 --> 01:46:28,200
+ we all know how to solve, right. And actually, that is, you know, the derivative of this j
+
+845
+01:46:28,200 --> 01:46:35,480
+ with respect to the theta should be zero. Right. Okay. So, we first look at the partial derivative
+
+846
+01:46:35,480 --> 01:46:43,000
+ of a j with respect to theta. Right. So, this is the first derivative. And then, you know,
+
+847
+01:46:43,000 --> 01:46:49,400
+ if the theta is optimal, then this is, you know, the partial j theta, partial theta. This is the
+
+848
+01:46:49,400 --> 01:46:55,799
+ first derivative of j with respect to theta, must be zero. Right. So, if we solve this, you know,
+
+849
+01:46:55,799 --> 01:47:03,480
+ equal zero, we can obtain this theta cap. That means estimate equal to phi transpose phi,
+
+850
+01:47:03,480 --> 01:47:11,559
+ the inverse matrix, then phi transpose phi. Phi is not the input matrix, right. Phi is not the
+
+851
+01:47:12,200 --> 01:47:19,400
+ vector of the packet variable that's found truth. Okay. So, from this, actually, you know, equation,
+
+852
+01:47:19,400 --> 01:47:26,120
+ now we can estimate the parameters. And these parameters, estimation will minimize the squared
+
+853
+01:47:26,120 --> 01:47:34,040
+ area. Okay. So, this is theta is called, actually, the least squared estimate, ordinary least squared
+
+854
+01:47:34,120 --> 01:47:41,000
+ estimate. This, let me, smallest squared, yeah, squared area. Okay. This means that this theta
+
+855
+01:47:41,000 --> 01:47:48,680
+ will result in a smallest squared area. So, this estimate is called ordinary least squared,
+
+856
+01:47:48,680 --> 01:47:57,560
+ actually, you know, estimation. Okay. So, this, actually, this solution here, you know, is an
+
+857
+01:47:57,560 --> 01:48:03,400
+ analytical solution, right. It is an exact solution. Okay. We don't need to use the numerical method,
+
+858
+01:48:03,480 --> 01:48:07,639
+ like training of neural networks, right. We need to do iteration, iteratively, right,
+
+859
+01:48:07,639 --> 01:48:11,879
+ to find the parameter of the models. But here, you can just use this one step,
+
+860
+01:48:11,879 --> 01:48:18,839
+ use this formula to calculate, actually, the estimate of the parameters. So, this is actually,
+
+861
+01:48:18,839 --> 01:48:26,040
+ I think, very easy to implement, right. As long as you get the training samples, you put all the
+
+862
+01:48:26,040 --> 01:48:32,040
+ input vector into a matrix, okay. You put all the target values, you know, ground truth values
+
+863
+01:48:32,040 --> 01:48:36,200
+ into vector of y. And then you just substitute this formula to calculate theta.
+
+864
+01:48:39,000 --> 01:48:46,440
+ Okay. And so, here, maybe I'll just show an example. And so, here, we have yx,
+
+865
+01:48:47,080 --> 01:48:53,880
+ like, by the red color, right. And also, we have a y, is a y. And then, we want to,
+
+866
+01:48:53,880 --> 01:49:00,280
+ there is a linear relationship between x and y. Okay. So, we are, so, this is the diagram shows,
+
+867
+01:49:00,360 --> 01:49:07,400
+ actually, we have a 200 data point, okay. So, this is, I know that x is a coordinate, right.
+
+868
+01:49:07,400 --> 01:49:12,920
+ Horizontal y is a vertical. Based on x and y, we have a data point. So, these are all the data
+
+869
+01:49:12,920 --> 01:49:20,120
+ points. And from these, actually, the points, we can roughly see, there is a linear relationship
+
+870
+01:49:20,120 --> 01:49:27,000
+ between y and x. That means, actually, we can use y equal to theta 0 plus theta 1 x, right.
+
+871
+01:49:27,080 --> 01:49:33,560
+ A simple regression, right, to estimate the theta, right. We can solve this, you know,
+
+872
+01:49:34,360 --> 01:49:38,680
+ a linear simple regression problem. And also, we can just use, actually,
+
+873
+01:49:39,480 --> 01:49:45,400
+ this formula, right, on a least square estimation method to estimate the parameter of
+
+874
+01:49:45,400 --> 01:49:52,280
+ 0 theta 1. Okay. And, actually, this is a model. Because from here, we can see,
+
+875
+01:49:52,360 --> 01:49:56,040
+ we roughly have a linear relationship. We assume we have a linear relationship.
+
+876
+01:49:56,599 --> 01:50:04,759
+ And then, actually, we, this is a way, right, y, y, y to 200. This is a fact. And because
+
+877
+01:50:04,759 --> 01:50:10,360
+ of this example, we just have one sample, right. Okay. One, one, one, one, predict variable. So,
+
+878
+01:50:10,920 --> 01:50:17,800
+ from x, y, x, right. Okay. And then, we use this formula, substitute, we can calculate.
+
+879
+01:50:17,800 --> 01:50:23,240
+ So, these are the values of theta. The estimation. This is the estimation of theta.
+
+880
+01:50:24,680 --> 01:50:30,200
+ Okay. But how accurate is this theta? How accurate is this theta? And then, this depends on the,
+
+881
+01:50:31,000 --> 01:50:38,280
+ the, the, the, the quality of the data. Okay. And if the data contain noise, and then, this is
+
+882
+01:50:38,280 --> 01:50:46,600
+ fair, the theta estimate. And it could be very different, actually, from the true value of theta.
+
+883
+01:50:46,680 --> 01:50:52,200
+ But if the noise is very small, then this estimate will be very close, you know, to the true value
+
+884
+01:50:52,200 --> 01:50:59,320
+ of theta. Okay. So, this estimate, actually, is largely, actually, affected by the level of noise.
+
+885
+01:51:00,680 --> 01:51:07,320
+ Okay. That's actually, I show you. And this, too, okay. So, this is the, okay. So, this is the
+
+886
+01:51:07,320 --> 01:51:11,640
+ prediction result. Based on this, actually, we can get this straight line. Okay. This is a straight
+
+887
+01:51:11,640 --> 01:51:17,640
+ line. And so, this is the value for theta, zero theta, one, estimated based on the 200, you know,
+
+888
+01:51:18,360 --> 01:51:26,840
+ samples. Okay. And, okay. So, necessary, I will show you the influence of the noise
+
+889
+01:51:27,400 --> 01:51:32,920
+ on the parameter estimation. Okay. And actually, I generate the data based on this
+
+890
+01:51:34,040 --> 01:51:41,480
+ equation, where equal to 0.5 plus 2x plus a noise. This noise is random noise, Gaussian random noise.
+
+891
+01:51:42,600 --> 01:51:51,320
+ Okay. And, actually, I said this noise level, I said the noise to different levels, right? Okay.
+
+892
+01:51:51,320 --> 01:51:58,680
+ And so, I said the standard variation of the noise, you know, this Gaussian noise to 0.5,
+
+893
+01:51:59,320 --> 01:52:04,920
+ then I generate the 200 data. Okay. Then, based on this 200 data, find the estimated parameters
+
+894
+01:52:04,920 --> 01:52:09,880
+ of theta, zero, theta, one, right. And then, actually, I said the noise level, the standard
+
+895
+01:52:09,880 --> 01:52:16,760
+ variation of the noise to 0.5, which is smaller, right. Then, again, generate 200 samples,
+
+896
+01:52:16,760 --> 01:52:23,080
+ and then I estimate the parameters. And lastly, I said the noise, zero, no noise.
+
+897
+01:52:23,960 --> 01:52:30,600
+ And then, based on the 200 sample, I say another set of parameters. Okay. So, these are the values
+
+898
+01:52:30,600 --> 01:52:37,640
+ you can find, actually. This is the estimation when the standard variation of the noise is 0.5.
+
+899
+01:52:38,280 --> 01:52:44,760
+ The true value is 0.5, but this estimation is 0.47. Okay. Then, the true value is here is 2,
+
+900
+01:52:44,760 --> 01:52:52,600
+ but the estimation is 2.73. This is the case when the noise level, the standard variation is 0.5.
+
+901
+01:52:53,240 --> 01:53:01,800
+ Then, this is 0.1. 0.1, you can see the estimation of the parameters. 0.4943. Very close to 0.5.
+
+902
+01:53:01,880 --> 01:53:08,840
+ So, this is 2.0073. Very close to 2.2, right. Okay. So, this is the case,
+
+903
+01:53:08,840 --> 01:53:15,960
+ noise free, no noise. Then, the parameter estimation is 0.5, too. Okay. So, from here,
+
+904
+01:53:15,960 --> 01:53:24,040
+ you can see the noise, actually, affect the parameter estimation, right. Effect the parameter
+
+905
+01:53:24,040 --> 01:53:31,560
+ estimation. Okay. And, of course, actually, in the application, we should always try to, actually,
+
+906
+01:53:32,519 --> 01:53:41,080
+ to get the data clean, right, use the clean data, actually, to estimate the parameters of the model.
+
+907
+01:53:41,880 --> 01:53:48,200
+ Because, actually, we see here, the accuracy of the parameter estimation is affected by the,
+
+908
+01:53:48,280 --> 01:53:50,360
+ or influenced by the level of noise.
+
+909
+01:53:53,559 --> 01:53:59,800
+ Okay. So, that's actually, we have a break. Okay. So, I'll break, we'll look at another
+
+910
+01:53:59,800 --> 01:54:12,360
+ regression, which is called ridge regression. Okay.
+
+911
+01:54:18,200 --> 01:54:20,360
+ So,
+
+912
+02:01:48,200 --> 02:01:50,360
+ okay.
+
+913
+02:02:18,200 --> 02:02:20,360
+ Okay.
+
+914
+02:02:48,200 --> 02:02:50,360
+ Okay.
+
+915
+02:03:18,200 --> 02:03:20,360
+ Okay.
+
+916
+02:03:48,200 --> 02:03:50,200
+ Okay.
+
+917
+02:04:09,639 --> 02:04:12,360
+ Okay. So, next, we look at the ridge regression.
+
+918
+02:04:13,240 --> 02:04:20,839
+ Okay. So, actually, if we use the on a least square estimation, we could encounter some
+
+919
+02:04:20,839 --> 02:04:28,599
+ issues. Okay. And, this year, we listed three issues. And, the first issue that actually,
+
+920
+02:04:28,599 --> 02:04:34,599
+ in some scenarios, actually, the number of per data, actually, could be, could greatly,
+
+921
+02:04:35,240 --> 02:04:40,839
+ you see the number of prediction, per data variable, could be greater, actually, you see the
+
+922
+02:04:40,840 --> 02:04:46,920
+ number of observation samples. Okay. In some applications, for example, the number of training
+
+923
+02:04:46,920 --> 02:04:53,160
+ data is very limited. Maybe just like, you know, in medicine, for example, right, just have 100
+
+924
+02:04:53,160 --> 02:05:00,600
+ samples, 200 samples. But, the per data variable could be huge, could be huge. Okay. And, that
+
+925
+02:05:00,600 --> 02:05:06,040
+ means, actually, it could be, you know, more than 200, 100, 200. In other words, the number of per
+
+926
+02:05:06,040 --> 02:05:13,320
+ data, actually, is greater than the number of samples. Okay. In such a scenario, actually,
+
+927
+02:05:14,360 --> 02:05:22,760
+ we don't have a unique solution, unique solution. For example, we have an equation,
+
+928
+02:05:22,760 --> 02:05:29,800
+ an equation, right? This equation is just like, I just want to have one equation, right? For example,
+
+929
+02:05:30,600 --> 02:05:39,880
+ theta zero plus two theta one equals one. We have one sample, right? One sample normally
+
+930
+02:05:39,880 --> 02:05:46,520
+ can only release one equation, right? But, in this equation, we have two parameters. So, this is a
+
+931
+02:05:46,520 --> 02:05:51,240
+ case, a special case, right? Where the number of samples is less than the number of per data.
+
+932
+02:05:52,200 --> 02:05:56,440
+ Actually, per data, of course, it's similar, one per data. But, actually, we have more than,
+
+933
+02:05:56,519 --> 02:06:01,879
+ actually, one unknown parameter. We have two. We have two unknown parameters, but we have one
+
+934
+02:06:01,879 --> 02:06:08,440
+ equation. Actually, we have numerous solutions, right? Theta zero plus theta, two theta one equals
+
+935
+02:06:08,440 --> 02:06:14,200
+ one. Actually, we have numerous solutions. Okay. That means, actually, the solution is not unique
+
+936
+02:06:14,200 --> 02:06:21,879
+ if we don't actually penalize, actually, the value of the theta, the parameters. This is one
+
+937
+02:06:21,960 --> 02:06:28,920
+ issue that we could encounter when we apply this only to estimate, estimation method to estimate
+
+938
+02:06:28,920 --> 02:06:33,400
+ the parameter of the model, right? So, this is a case where the number of samples is less than the
+
+939
+02:06:33,400 --> 02:06:39,160
+ number of predictors. In other words, the number of unknown parameters is more than the number of
+
+940
+02:06:39,160 --> 02:06:45,080
+ equations, the number of equations are called the number of samples. Okay. And then, now,
+
+941
+02:06:45,080 --> 02:06:50,760
+ that's not really that, actually, the phase, your condition, okay? That means, a phase transpose
+
+942
+02:06:50,760 --> 02:06:57,000
+ phase in words, or these matrices, right, is singular. Singular. Singular, that means, you know,
+
+943
+02:06:57,000 --> 02:07:04,760
+ in words, start not exist. And then, we cannot use this method to calculate the parameter
+
+944
+02:07:04,760 --> 02:07:12,600
+ estimation, right? So, this is a one case. Okay. Actually, when we talk about the, you know,
+
+945
+02:07:13,560 --> 02:07:20,040
+ the feature linear human analysis, actually, we have one method to find the W, right? You remember
+
+946
+02:07:20,920 --> 02:07:28,120
+ equals to the, in words of the, within class kinematics, that times M1 minus M2, right? If you
+
+947
+02:07:28,120 --> 02:07:34,120
+ remember that. And actually, I mentioned, if they, in some scenario, the SW, the within class
+
+948
+02:07:34,120 --> 02:07:41,000
+ kinematics, it could be actually singular. And then, how to address that problem? I remember, actually,
+
+949
+02:07:41,000 --> 02:07:46,519
+ we use, actually, we add one real small real number, a positive real number to all the
+
+950
+02:07:46,680 --> 02:07:53,320
+ diagonal elements. Then, we can actually solve this singular problem. Okay. So, here, you know,
+
+951
+02:07:53,320 --> 02:07:59,400
+ we can also meet this singularity problem. Okay. And then, the words are not exist.
+
+952
+02:08:02,920 --> 02:08:10,520
+ And then, another, that the OLS estimate may provide a good fit to the training data, but it may not
+
+953
+02:08:10,920 --> 02:08:15,160
+ and generally, we are to the testing data. So, this is the case, actually, we see,
+
+954
+02:08:15,960 --> 02:08:22,360
+ you know, the overfitting. The overfitting. Okay. And then, overfitting, I think,
+
+955
+02:08:22,360 --> 02:08:27,480
+ all that happens, right? When the number of samples, maybe greater than the number predicted,
+
+956
+02:08:27,480 --> 02:08:34,120
+ but this ratio is not big. Okay. Maybe, for example, we can have, you know, like a, you know, 200
+
+957
+02:08:34,200 --> 02:08:40,440
+ samples, but we have 100, actually, parameters. Okay. In such a case, actually, although,
+
+958
+02:08:40,440 --> 02:08:44,200
+ actually, the number of samples is still greater than the number of predicted, right? But this
+
+959
+02:08:44,200 --> 02:08:49,080
+ number of, the ratio of the number of samples to the number of predicted is not big, only two.
+
+960
+02:08:49,080 --> 02:08:54,200
+ Okay. In such a scenario, actually, we can have a high possibility to overfit the training data.
+
+961
+02:08:54,760 --> 02:08:59,880
+ And then, the performance of the testing data could be bad. Okay. So, how to address these
+
+962
+02:08:59,880 --> 02:09:07,560
+ problems? Actually, we can use a so-called rich regression. Okay. The basic idea of the rich
+
+963
+02:09:07,560 --> 02:09:16,120
+ regression is that, actually, besides, actually, the consideration of the prediction area, we also
+
+964
+02:09:16,120 --> 02:09:23,080
+ put a penalty on the side of the parameters. It was found, right? When, actually, the, you know,
+
+965
+02:09:24,040 --> 02:09:32,280
+ the fair transport is singular, for example. And then, all very close to singular. Okay. Then,
+
+966
+02:09:32,280 --> 02:09:37,800
+ actually, the parameter estimation is very big. Quite often, we hold a model, just have a small
+
+967
+02:09:37,800 --> 02:09:42,519
+ value, like a one point something, zero point something, or two point something. Normally,
+
+968
+02:09:42,519 --> 02:09:48,280
+ the small range of all the parameter values. But if the singularity happens, okay, and then the
+
+969
+02:09:48,360 --> 02:09:56,040
+ parameter, all very close to singular, right? We can still have the inverse matrix, but the
+
+970
+02:09:56,040 --> 02:10:02,280
+ parameter estimation would be very, very large value, like 100 something. If it has one, 200
+
+971
+02:10:02,280 --> 02:10:07,719
+ something, if it has two, 500 something, it could be something like that. Okay. So, actually, from
+
+972
+02:10:07,719 --> 02:10:14,280
+ that observation, I think it's very intuitive, right, to actually put a penalty on the side of
+
+973
+02:10:14,280 --> 02:10:20,599
+ the parameters. Okay. So, in the loss function, so, besides this, you know, area should be
+
+974
+02:10:20,599 --> 02:10:28,759
+ minimized. We also hope the parameter size could be not very big, could be close to zero, right?
+
+975
+02:10:28,759 --> 02:10:34,040
+ Could be close to zero. So, we use a theta i squared, right, for every parameter in the model,
+
+976
+02:10:34,040 --> 02:10:42,200
+ and the squared norm, right? Square norm of the theta vector. Okay. So, of course, actually,
+
+977
+02:10:42,599 --> 02:10:51,559
+ we ought to balance the two considerations. We should put a weight here. So, lambda is a weight.
+
+978
+02:10:52,360 --> 02:10:57,800
+ Okay. So, again, we can express this, you know, cost function, loss function into such a form,
+
+979
+02:10:57,800 --> 02:11:03,320
+ right? So, this is the squared area, right? So, it's a kind of, where a matter of theta is just
+
+980
+02:11:03,320 --> 02:11:09,480
+ an area, right? The area is trying to put the area. These are squared areas, this part, okay? And then,
+
+981
+02:11:09,480 --> 02:11:15,400
+ this actually can be expressed as a lambda theta transpose theta. Okay. So, this is the
+
+982
+02:11:16,040 --> 02:11:22,519
+ squared norm, right, of the theta vector. So, this is a new loss function. Okay. And then,
+
+983
+02:11:22,519 --> 02:11:27,639
+ we can actually, again, use a similar, right, partial derivative of j with respect to theta,
+
+984
+02:11:28,200 --> 02:11:32,440
+ first of all, derivative, right? Let this be zero. Then, we can solve to find the fact. And,
+
+985
+02:11:32,440 --> 02:11:37,959
+ actually, to find the theta. Actually, this is the theta, I say. Actually, although, you know,
+
+986
+02:11:37,960 --> 02:11:43,640
+ we have this condition, but we find that this result is so simple, right? Actually, we're just
+
+987
+02:11:43,640 --> 02:11:50,760
+ going to add diagonal elements. Diagonal elements, right? And, for all diagonal elements, we add
+
+988
+02:11:50,760 --> 02:11:57,240
+ one small constant real positive number, that is lambda. So, actually, even if we don't use a
+
+989
+02:11:57,240 --> 02:12:02,760
+ regression, if we don't know the regression, we quite often, we use this technique, right, to,
+
+990
+02:12:02,760 --> 02:12:09,400
+ actually, you know, address the singularity problem. But, actually, this is a regression,
+
+991
+02:12:10,120 --> 02:12:17,480
+ a real regression. Okay. Actually, this is the effect of this, put a lambda on all the
+
+992
+02:12:17,480 --> 02:12:22,360
+ diagonal elements, right, and this small real positive number to all the diagonal elements,
+
+993
+02:12:22,360 --> 02:12:29,000
+ right, in the fair transpose of fair. It's the equivalent to put a penalization term in the
+
+994
+02:12:29,000 --> 02:12:35,480
+ loss function. Okay. So, this is called real regression. And, actually, this technique is
+
+995
+02:12:35,480 --> 02:12:41,640
+ called regularization in machine learning. This is called regularization, right? Regularization
+
+996
+02:12:41,640 --> 02:12:48,680
+ is a technique to address, actually, to, you know, the overfitting problem. Okay. Quite often, actually.
+
+997
+02:12:48,680 --> 02:12:54,600
+ So, this is called regularization. So, by the instead, it is, this is called real regression.
+
+998
+02:12:55,560 --> 02:13:04,920
+ Okay. And so, from the regression, the consideration is to penalize the size of the parameter,
+
+999
+02:13:04,920 --> 02:13:12,840
+ right? And, finally, this can be achieved by just adding a small positive real number
+
+1000
+02:13:12,840 --> 02:13:18,280
+ to all the diagonal elements. This adds identity matrix, right? Identity matrix. This means,
+
+1001
+02:13:18,280 --> 02:13:24,360
+ actually, we only add a small real point of lambda to the diagonal elements in this fair
+
+1002
+02:13:24,360 --> 02:13:33,240
+ transpose of fair. Okay. So, this is the regular regression. And, of course, this theta value,
+
+1003
+02:13:34,200 --> 02:13:38,120
+ this theta is a hyper parameter, right? Because if you want to use this formula,
+
+1004
+02:13:38,120 --> 02:13:44,040
+ you must preset the value of theta. But what is the suitable number of theta? Actually, again,
+
+1005
+02:13:44,040 --> 02:13:49,080
+ actually, you can actually use the so-called, actually, no, validation data, right, to find the,
+
+1006
+02:13:49,800 --> 02:13:55,960
+ know the suitable value of lambda. So, later, we will talk about the, you know, the
+
+1007
+02:13:56,840 --> 02:14:02,200
+ evaluation matrix for regression. Okay. So, we can set the lambda to different values,
+
+1008
+02:14:02,200 --> 02:14:07,400
+ and then we will estimate the parameters. Okay. And then we look at the predictions on the,
+
+1009
+02:14:08,040 --> 02:14:12,920
+ on the validation data. Okay. Then, based on this validation data performance,
+
+1010
+02:14:13,000 --> 02:14:20,520
+ then we can actually find the suitable value for this lambda. Okay. So, lambda is a hyper parameter.
+
+1011
+02:14:23,480 --> 02:14:29,480
+ So, this is a regular regression. Okay. And, also, can be considered as a regularization technique
+
+1012
+02:14:30,440 --> 02:14:42,760
+ to improve the regularization capabilities of the model. Okay.
+
+1013
+02:14:43,480 --> 02:14:49,800
+ So, this is a regularization technique in machine learning. Okay. And, so, regularization aims to
+
+1014
+02:14:49,800 --> 02:14:56,440
+ avoid overfitting. Okay. So, to improve the performance of the model on the testing data.
+
+1015
+02:14:58,440 --> 02:15:02,760
+ Okay. So, regression.
+
+1016
+02:15:03,240 --> 02:15:17,080
+ So, next, actually, we can see another regression. This is called a lasso regression. Okay. And,
+
+1017
+02:15:17,080 --> 02:15:22,120
+ actually, in the, just now, actually, in the regression, so, as you know, in the loss function,
+
+1018
+02:15:22,120 --> 02:15:27,960
+ we have two parts, right. The first part is about the, the square area, the square area,
+
+1019
+02:15:28,040 --> 02:15:33,720
+ the prediction area, right. The square area. And, then the second part is the square, actually,
+
+1020
+02:15:34,600 --> 02:15:42,440
+ norm of the parameter vector theta. Okay. Square norm. Okay. And square norm is also called L2 norm.
+
+1021
+02:15:43,240 --> 02:15:49,560
+ L2 norm. Okay. So, in other words, in the regression, we use the square norm, L2 norm,
+
+1022
+02:15:50,280 --> 02:15:59,480
+ of the, of the, of the parameter vector theta. Okay. And in the lasso, they don't use this L2 norm.
+
+1023
+02:15:59,480 --> 02:16:06,120
+ Instead, they use the so-called L1 norm. L1 norm. What is the L1 norm? L1 norm is just,
+
+1024
+02:16:06,120 --> 02:16:12,520
+ actually, the summation of all the, actually, the theta value. We don't have squares. The summation
+
+1025
+02:16:12,520 --> 02:16:16,280
+ of, of course, the value can be, the point can be negative, right. So, the absolute value
+
+1026
+02:16:16,360 --> 02:16:22,920
+ of all the parameters. So, this is the L1 norm. Given a vector, what is the L1 norm?
+
+1027
+02:16:25,559 --> 02:16:33,400
+ Right. Just, actually, the summation of all these, the, the individual element in this vector.
+
+1028
+02:16:35,160 --> 02:16:40,680
+ So, this is the, actually, then, again, we have this, you know, we need to balance the two part,
+
+1029
+02:16:40,760 --> 02:16:46,760
+ right. Balance the two part. On one hand, we want to, and hope this prediction area could be as small
+
+1030
+02:16:46,760 --> 02:16:52,040
+ as possible. On the other hand, actually, we want to know, overcome, or a reading problem,
+
+1031
+02:16:52,040 --> 02:17:00,200
+ by penalizing the value, the size of the parameters. Okay. And then, to balance the two,
+
+1032
+02:17:00,200 --> 02:17:07,480
+ we put a, a weightage lambda here. Okay. And as in the regression, lambda is a hyper parameter.
+
+1033
+02:17:07,799 --> 02:17:14,760
+ Okay. And we need to know, use validation data to determine the super value of this lambda.
+
+1034
+02:17:17,719 --> 02:17:27,080
+ Okay. So, so, actually, if we compare, actually, you know, the Lasso regression and the reg regression,
+
+1035
+02:17:27,080 --> 02:17:32,760
+ the difference is very subtle, right. It's very subtle. Here, we actually use the L1 norm of the
+
+1036
+02:17:32,760 --> 02:17:38,520
+ theta. And then the regression with the L2 norm, the square norm. So, this is the only difference.
+
+1037
+02:17:39,240 --> 02:17:43,080
+ But this is a subtle difference, actually. I have a very big, actually, you know,
+
+1038
+02:17:43,080 --> 02:17:49,480
+ difference in the final, in the result. Okay. And actually, in the previously, right, if you have a
+
+1039
+02:17:49,480 --> 02:17:56,280
+ tree, you know, this, this, actually, L2 norm, right, L2 norm, theta i squared, theta i is the parameter.
+
+1040
+02:17:56,280 --> 02:18:02,600
+ Okay. And actually, we, we minimized the theta i squared, right, the i squared. Okay. If theta is
+
+1041
+02:18:02,600 --> 02:18:10,680
+ small, less than 1, right, theta i squared will be even less than theta, right, than theta. For example,
+
+1042
+02:18:10,680 --> 02:18:19,160
+ if the theta value is 0.2, then, you know, the theta i squared will be 0.04, right, 0.04. So,
+
+1043
+02:18:19,240 --> 02:18:24,200
+ these are tree values, these are penalization could push, actually, the theta, you know,
+
+1044
+02:18:24,200 --> 02:18:32,039
+ close to 0, close to 0. But actually, it's not as effective as this L1 norm. Because L1 norm,
+
+1045
+02:18:32,039 --> 02:18:39,240
+ actually, the theta will really be 0, right. Because theta i is 0.2, then the square norm is 0.04.
+
+1046
+02:18:39,959 --> 02:18:45,719
+ Okay. But if you, actually, the value, you know, the parameter is 0.2, right. But actually, if you
+
+1047
+02:18:45,719 --> 02:18:55,400
+ use a tree, this L1 norm, L1 norm, this L1 norm, right, only a tree, when the tree, the theta is
+
+1048
+02:18:56,119 --> 02:19:03,719
+ close to 0, 0.04, then we have the c. Then this is a penalization part, 0.04. But originally,
+
+1049
+02:19:03,719 --> 02:19:10,359
+ the theta 0.2, then the consequence, in the loss function, 0.04. But now, if you use this form,
+
+1050
+02:19:10,360 --> 02:19:18,680
+ then the theta i must be 0.04, really close to 0. Okay. So, these L1, you know, this last regression
+
+1051
+02:19:18,680 --> 02:19:27,320
+ tree, actually, we will have a, I think, I think we will have a strong, actually, you know, shrinkage
+
+1052
+02:19:28,040 --> 02:19:35,800
+ on the parameter values of theta. Okay. Theta i squared also shrink the value towards 0. But
+
+1053
+02:19:35,879 --> 02:19:42,920
+ actually, this L1 norm has a stronger shrinkage of these parameters. Okay. Then what is the
+
+1054
+02:19:42,920 --> 02:19:51,960
+ consequence? Okay. If we use this L last regression, finally, many of the parameters will be close to
+
+1055
+02:19:51,960 --> 02:19:59,640
+ 0, really close to 0. Okay. Close to 0, what does this mean? This means, in the final model,
+
+1056
+02:19:59,720 --> 02:20:07,080
+ this tree, the corresponding predictor variables actually have almost no contribution or very
+
+1057
+02:20:07,080 --> 02:20:13,000
+ little contribution to the prediction of the y. In other words, these variables can be removed,
+
+1058
+02:20:13,960 --> 02:20:22,599
+ can be removed from the model. Okay. So, this actually also plays the rule of select variables.
+
+1059
+02:20:23,160 --> 02:20:29,000
+ Okay. So, this is the full name of last rule. This absolute shrinkage, this absolute,
+
+1060
+02:20:29,000 --> 02:20:35,400
+ this absolute, right? Absolute, I mean the absolute of the parameter value shrinkage towards 0.
+
+1061
+02:20:36,120 --> 02:20:44,280
+ And the select, select an operator, this select, they can push many of the, actually, the theta
+
+1062
+02:20:44,280 --> 02:20:51,720
+ close to 0. And then we can remove these variables from the model. Actually, this plays the rule of
+
+1063
+02:20:52,600 --> 02:20:59,560
+ selecting actually the variables. Actually, this is the power of the last rule, actually,
+
+1064
+02:20:59,560 --> 02:21:05,160
+ regression. Not only to fit a model, but also actually select the variables.
+
+1065
+02:21:06,760 --> 02:21:14,760
+ Previous models, we don't have this, you know, this capability. Okay. But here we have this
+
+1066
+02:21:14,760 --> 02:21:21,720
+ capability. So, last rule regression, I think is often used as a feature selection algorithm.
+
+1067
+02:21:23,080 --> 02:21:29,960
+ Feature selection. Because actually, during the design stage, actually normally we don't know,
+
+1068
+02:21:29,960 --> 02:21:36,200
+ actually which variables are useful. Okay. And some of the variables could be useless.
+
+1069
+02:21:36,200 --> 02:21:42,680
+ Some of the variables could be useful, but redundant, redundant. Okay. So, through this,
+
+1070
+02:21:42,680 --> 02:21:50,120
+ you know, variable selection or feature selection, we can remove features or variables that are
+
+1071
+02:21:50,120 --> 02:21:58,200
+ redundant or insignificant. Then we can get a small model, right? Small model, actually,
+
+1072
+02:21:58,200 --> 02:22:03,080
+ normally, you know, is less likely overfit the training data.
+
+1073
+02:22:04,520 --> 02:22:09,160
+ Less likely overfit the training data. And then the generalization could be better.
+
+1074
+02:22:10,600 --> 02:22:16,520
+ Okay. So, this is actually the last rule, actually, regression. Okay. So, it has this function,
+
+1075
+02:22:17,320 --> 02:22:24,440
+ selection of the variables. But actually, because of this L1 norm, actually the solution
+
+1076
+02:22:25,240 --> 02:22:32,360
+ is not easy to find. Not easy to find. Okay. And we don't have an analytical solution. If you look
+
+1077
+02:22:32,360 --> 02:22:37,240
+ at the owner regression and also the regression, right, we have the exact solution. We have known
+
+1078
+02:22:37,240 --> 02:22:42,600
+ the formula to calculate the solution. We have the formula to calculate this analytical solution.
+
+1079
+02:22:42,600 --> 02:22:46,680
+ But for this, we don't have way to use the numerical method to solve this.
+
+1080
+02:22:47,640 --> 02:22:52,120
+ Okay. So, of course, actually, for this kind of problem, actually, you don't have a formula,
+
+1081
+02:22:52,120 --> 02:22:58,520
+ right? And we need to use some like a software, a turbo to solve this last rule. I think normally,
+
+1082
+02:22:58,520 --> 02:23:04,840
+ in the, you know, the machine learning turbo, they have the function that we can call to solve this.
+
+1083
+02:23:04,840 --> 02:23:10,680
+ Okay. Like in my lab, they have this function to solve, actually, you know, this last regression
+
+1084
+02:23:10,760 --> 02:23:21,400
+ problem. Okay. So, this is the regression. So, the choice of the non-regulation parameter is crucial,
+
+1085
+02:23:21,400 --> 02:23:30,600
+ right? And we can actually, a larger lambda value doesn't mean that put a more emphasis on the
+
+1086
+02:23:31,400 --> 02:23:38,600
+ parameter of the value of the parameter of theta, right? If a larger theta lambda will actually
+
+1087
+02:23:39,560 --> 02:23:49,400
+ lead to a larger number of zero values or close to zero values for the theta. Okay. In other words,
+
+1088
+02:23:50,120 --> 02:23:57,000
+ a larger lambda will select a small number of variables to include in the regression model.
+
+1089
+02:23:58,200 --> 02:24:04,040
+ And actually, a smaller lambda actually will actually select more variables to include in
+
+1090
+02:24:04,120 --> 02:24:08,360
+ the final model. If lambda zero, right, this is just a conventional, all variables will be selected.
+
+1091
+02:24:09,240 --> 02:24:14,440
+ Okay. So, we also always know balance the two. If lambda is too big, right, just a small number of
+
+1092
+02:24:14,440 --> 02:24:22,040
+ samples actually are included in the, in the model. And then we have a possibility that the model,
+
+1093
+02:24:22,920 --> 02:24:29,240
+ the data is underfitted. That means the model cannot capture the true relationship between
+
+1094
+02:24:30,199 --> 02:24:38,360
+ the, the predictors and the, the target variables. Okay. So, this is underfitting. Underfitting of
+
+1095
+02:24:38,360 --> 02:24:44,680
+ course actually kind of, you know, lead to the very bad performance on the train data and also on
+
+1096
+02:24:44,680 --> 02:24:51,560
+ the testing data. Okay. But if the lambda is small, we include more. And if the number of,
+
+1097
+02:24:52,519 --> 02:24:59,480
+ of initial number of predictor variables is huge, right. And then if we use a smaller lambda,
+
+1098
+02:24:59,480 --> 02:25:05,800
+ then actually the final way we will have a large number of predictor variables in the final model.
+
+1099
+02:25:05,800 --> 02:25:12,199
+ Then we have a chance to overfit the train data. Okay. So, of course, actually we should have a
+
+1100
+02:25:12,199 --> 02:25:18,199
+ balance, right. We should select a suitable value of lambda. How to select? We can look at the
+
+1101
+02:25:18,280 --> 02:25:24,920
+ performance on the validation data. Okay. So, in the regression that we can also divide the data
+
+1102
+02:25:24,920 --> 02:25:35,560
+ into training, validation, and also the testing. Okay. And then the model evaluation, we look
+
+1103
+02:25:35,560 --> 02:25:40,600
+ about the metrics. Actually the, the procedure can be similar as that, you know, the class
+
+1104
+02:25:40,600 --> 02:25:45,720
+ failure problem, right. Actually we can divide the data into training, then you use the train
+
+1105
+02:25:45,720 --> 02:25:50,519
+ data to estimate the parameters. Then we look at the performance on the testing, the validation data,
+
+1106
+02:25:50,519 --> 02:25:57,080
+ right, to select a suitable value for the hyperparameters. So, here is the lambda. Okay. And then,
+
+1107
+02:25:58,279 --> 02:26:04,840
+ we, we get the best performing model, right, on the validation data. Then we apply the model on
+
+1108
+02:26:04,840 --> 02:26:13,080
+ the testing data. Okay. Then the what metrics we can use. Actually in the regression, and normally
+
+1109
+02:26:13,080 --> 02:26:20,440
+ we use actually, this is the first, actually, the mean squared error. Actually, our goal in the
+
+1110
+02:26:20,440 --> 02:26:26,200
+ regression, right, trying to minimize the squared error, the squared error. So, certainly we can
+
+1111
+02:26:26,200 --> 02:26:32,039
+ use the squared error as a metric to evaluate the performance on the model, right. So, here we use
+
+1112
+02:26:32,039 --> 02:26:37,400
+ no average, right, because this is not the number of samples, even more, right. You can have a bigger
+
+1113
+02:26:38,199 --> 02:26:44,520
+ mean squared error. So, here we use actually the mean, the mean squared error. So, for each of the
+
+1114
+02:26:45,000 --> 02:26:49,480
+ sample, we have a squared error, right, summation, then divide them into a number of samples. So,
+
+1115
+02:26:49,480 --> 02:26:57,960
+ this is the average of the squared error, or mean squared error, MSE mean. Okay. So, this is the first
+
+1116
+02:26:57,960 --> 02:27:03,480
+ measure of metrics we can use to evaluate the model performance, or to compare the performance
+
+1117
+02:27:04,039 --> 02:27:08,840
+ between different models. Okay. And then the second one is the root mean squared error, root
+
+1118
+02:27:08,840 --> 02:27:14,680
+ mean squared error. So, mean squared error, root mean squared, the square root of the mean squared
+
+1119
+02:27:14,680 --> 02:27:21,960
+ error, is just the mean root mean squared error. So, this can be actually used as a metric for the
+
+1120
+02:27:21,960 --> 02:27:28,920
+ performance evaluation. Okay. Then another one is the absolute, the mean absolute error. We don't
+
+1121
+02:27:29,000 --> 02:27:33,480
+ use a square, right. We don't use a square, right. And we just look at the absolute value
+
+1122
+02:27:36,040 --> 02:27:45,080
+ of the error, right. So, why model AI absolute value? Why absolute? Because actually we don't care
+
+1123
+02:27:45,080 --> 02:27:51,560
+ whether why a prediction is greater than why or why is less than why. The prediction is less than
+
+1124
+02:27:51,560 --> 02:27:56,920
+ why, right. It's not as they are closed from any direction. Positive error or negative error,
+
+1125
+02:27:56,920 --> 02:28:01,960
+ we don't care. We just care they are very close to each other. Okay. So, we use absolute value,
+
+1126
+02:28:01,960 --> 02:28:08,040
+ right. Okay. Then we use the mean. So, this is the mean absolute error. So, this is another
+
+1127
+02:28:08,760 --> 02:28:19,800
+ metric we can use for the model performance evaluation. Okay. Then that's why the R squared,
+
+1128
+02:28:20,679 --> 02:28:23,320
+ R squared. This is also a commonly used actually
+
+1129
+02:28:25,400 --> 02:28:32,599
+ metrics for model evaluation. Commonly used. Okay. And actually R squared actually
+
+1130
+02:28:33,800 --> 02:28:41,240
+ it defines as the fraction by which the variance of the error is less than the variance of the
+
+1131
+02:28:41,240 --> 02:28:52,199
+ dependent variables. Okay. So, R squared defines as 1 minus RSS TSS. What's RSS? What's TSS? RSS here is the
+
+1132
+02:28:53,240 --> 02:29:03,320
+ sum of the square of the residuals. Sum of the square of the residuals. RSS. And TSS here is a
+
+1133
+02:29:03,400 --> 02:29:08,760
+ total of the sum of squares. Okay. So, RSS actually here.
+
+1134
+02:29:14,279 --> 02:29:19,400
+ Sum of square. Right. It's like in the mean and the square error, right. We divide by n. Here,
+
+1135
+02:29:19,400 --> 02:29:25,240
+ but we don't divide by n. Okay. So, this is just the sum of the square of the residuals of the
+
+1136
+02:29:25,240 --> 02:29:35,640
+ errors. Then TSS. So, here is the y bar. This y bar means the mean value of y. We have the
+
+1137
+02:29:36,520 --> 02:29:42,760
+ all the samples, right. The target value. We take the average. This is the average. Okay. The mean.
+
+1138
+02:29:42,760 --> 02:29:50,039
+ Okay. Then actually, so, so this actually when the bar minus the y i, right, this shows actually
+
+1139
+02:29:50,120 --> 02:29:57,160
+ the difference of the usual sample from the mean, from the average of the, of the, of the
+
+1140
+02:29:58,120 --> 02:30:05,000
+ target variables. Okay. Then squares summation. So, this is a total of sum of squares.
+
+1141
+02:30:06,600 --> 02:30:13,240
+ Okay. And so, this is the y bar is the mean, right. The mean for y i, the average. So, this is the
+
+1142
+02:30:14,039 --> 02:30:21,720
+ R square. R square. It's commonly used actually in the regression model at evaluation. Okay.
+
+1143
+02:30:26,440 --> 02:30:31,800
+ And this is actually, you know, we have a data, right. Where noise is data. We have x and we have
+
+1144
+02:30:31,800 --> 02:30:36,760
+ a y, right. Then we have this actually based on the, you know, the x and the y. Actually, we can have
+
+1145
+02:30:36,760 --> 02:30:41,720
+ this estimate, parameter estimate. Okay. And then, you know, this parameter estimate actually determine
+
+1146
+02:30:41,800 --> 02:30:46,519
+ a street line, right. So, from here we can see that the samples are all very far from the street
+
+1147
+02:30:46,519 --> 02:30:53,160
+ lines. But this is the best, the best estimate. This is the best actually street line we can,
+
+1148
+02:30:53,960 --> 02:30:59,160
+ we can have, right. In other words, this street line that leads to the minimum, actually,
+
+1149
+02:30:59,160 --> 02:31:05,880
+ you know, square area, minimum square area. Okay. But actually, this is because the data is very
+
+1150
+02:31:05,880 --> 02:31:13,640
+ noisy, right. And then actually we can see the model, the R square is 0.2071. So, okay. So,
+
+1151
+02:31:14,599 --> 02:31:19,720
+ this is actually the model, the data is very noisy, right. So, data noise is normally the
+
+1152
+02:31:19,720 --> 02:31:27,400
+ quality of the estimation or the accuracy of the estimation not high. Okay. Then the R square value
+
+1153
+02:31:27,400 --> 02:31:34,599
+ is very low. And then this scenario shows actually, actually we have a, you know, the noise level is
+
+1154
+02:31:34,600 --> 02:31:42,280
+ reduced, right, compared with the previous one, right. And then we can see the R square, 0.55
+
+1155
+02:31:43,720 --> 02:31:52,040
+ R square. Okay. So, the larger the better, right. This is a case, we can see the noise level is very
+
+1156
+02:31:52,040 --> 02:31:59,560
+ low, right, noise level. And then actually the R square, actually, is a high, very high value,
+
+1157
+02:32:00,279 --> 02:32:05,560
+ as you're probably not 719. Okay. So, from here, actually, we can see this R square,
+
+1158
+02:32:05,560 --> 02:32:11,960
+ you know, can indeed can be used actually as a, as a, as a metric, right, for the evaluation of the
+
+1159
+02:32:11,960 --> 02:32:23,640
+ model quality. Okay. And so, this is actually, you know, the, this is the, you know, R square,
+
+1160
+02:32:23,800 --> 02:32:30,519
+ right. We can see the different levels of the noise. And then actually we can have very different
+
+1161
+02:32:30,519 --> 02:32:37,560
+ three values for the R square. Okay. A different level of noise actually also see that the different
+
+1162
+02:32:37,560 --> 02:32:44,039
+ quality of the model, right. Okay. So, finally, actually, we have a good model and under these
+
+1163
+02:32:44,039 --> 02:32:50,920
+ low noise, then we can have a large R square value. Okay. So, from here, you can see R square
+
+1164
+02:32:50,920 --> 02:32:58,120
+ value can indeed can be used as an indication of the model performance as an evaluation matrix.
+
+1165
+02:32:58,120 --> 02:33:07,880
+ Okay. So, this is the R square. So, R square should be in a range, right, from zero to one.
+
+1166
+02:33:07,880 --> 02:33:19,080
+ The one is the best, zero is the worst. Okay. And so, how high does R square need to be? So, how big
+
+1167
+02:33:21,480 --> 02:33:30,360
+ of R square is considered as a good R square. Okay. So, these are the problem dependent, right.
+
+1168
+02:33:30,360 --> 02:33:38,120
+ And actually this is a human that we have to predict. How to predict the tree. That means
+
+1169
+02:33:38,120 --> 02:33:42,680
+ that you can still use some variables, right. For example, you can predict the salary based
+
+1170
+02:33:42,680 --> 02:33:49,000
+ on the number of years. But number of years certainly not the only, is not sufficient, right.
+
+1171
+02:33:49,080 --> 02:33:56,520
+ There's two, you know, peasants and people have the same number of years, right. The salary could
+
+1172
+02:33:56,520 --> 02:34:03,000
+ be different, right. One, you know, maybe auto-perform others, right. Then the salary could be higher.
+
+1173
+02:34:03,960 --> 02:34:08,920
+ Okay. So, these are the means, you know, if you just use one variable, then it's very hard to predict.
+
+1174
+02:34:08,920 --> 02:34:13,400
+ Okay. Of course, for human behavior, sometimes we don't know which variable we show you to
+
+1175
+02:34:13,400 --> 02:34:18,040
+ predict the human behavior. Okay. So, the example scenario, that means actually the noise,
+
+1176
+02:34:18,600 --> 02:34:22,440
+ because we don't use some of the variables, right, then the noise is considered very high.
+
+1177
+02:34:22,440 --> 02:34:28,440
+ Okay. Then the R square could be very low. Okay. So, for human behavior prediction,
+
+1178
+02:34:28,440 --> 02:34:36,600
+ actually the value of R square could be rarely actually higher than 0.5. This means actually
+
+1179
+02:34:36,600 --> 02:34:41,880
+ this model could not be an accurate model. We don't believe a model could be,
+
+1180
+02:34:42,519 --> 02:34:47,560
+ we could have a very, very good accurate model to predict the human behaviors.
+
+1181
+02:34:48,920 --> 02:34:54,920
+ Okay. So, this is the thing that's just, but in some, you know, the engineering problem,
+
+1182
+02:34:55,640 --> 02:35:02,439
+ actually this is actually the R square and could be closed over at the 0.9. Could be close to 1,
+
+1183
+02:35:03,480 --> 02:35:08,439
+ because the noise level is low, right. So, normally we are sure, okay. So, these variables,
+
+1184
+02:35:08,440 --> 02:35:14,200
+ tag variable is affected by these independent variables. Okay. Then we can use all these
+
+1185
+02:35:14,200 --> 02:35:20,280
+ independent variables to predict the tag variable. But in the social sense, right,
+
+1186
+02:35:20,280 --> 02:35:26,280
+ you will predict the human behavior. Actually, we don't know. So, what factors actually affect
+
+1187
+02:35:26,280 --> 02:35:31,080
+ the human behavior? Of course, you can name a few, right, but you certainly will miss some of them.
+
+1188
+02:35:31,800 --> 02:35:37,240
+ Okay. This means, this is equivalent to add a very big, actually, noise. Actually,
+
+1189
+02:35:37,880 --> 02:35:45,000
+ you have a big noise, actually. The noise level is high. Then the model quality could not be high.
+
+1190
+02:35:45,000 --> 02:35:50,760
+ Then the R square is low. Okay. So, this is the R square.
+
+1191
+02:35:50,760 --> 02:36:04,520
+ Okay. So, you can see the R square matrix actually also has some limitation. It's not perfect. Okay.
+
+1192
+02:36:04,520 --> 02:36:14,440
+ And so, here, this is the field. R square, we are increased with the increase of a number of
+
+1193
+02:36:15,080 --> 02:36:20,600
+ predicted variables in the model. Okay. So, actually, as you see, we have mentioned,
+
+1194
+02:36:20,600 --> 02:36:26,680
+ I explained this before, right. Actually, you know, sometimes, actually, some variables are
+
+1195
+02:36:26,680 --> 02:36:33,320
+ usually, some are redundant, right. And we should normally, should actually remove those variables
+
+1196
+02:36:33,320 --> 02:36:39,560
+ from the model. Okay. Then we can get a simple model and to avoid the graffiti problem. Okay.
+
+1197
+02:36:39,560 --> 02:36:47,480
+ But if you use the R square matrix as a measure, and if the more variables we include in the model,
+
+1198
+02:36:47,480 --> 02:36:53,960
+ then the better the performance, the better the R square values. Okay. So, this actually,
+
+1199
+02:36:53,960 --> 02:37:00,279
+ as an disadvantage, this actually is the weakness of the R square matrix. Okay. Because this R square
+
+1200
+02:37:00,279 --> 02:37:09,480
+ matrix, fewer, a larger model. Okay. Then to address this problem, and we have the so-called
+
+1201
+02:37:10,039 --> 02:37:15,880
+ address the R square at the drive state. Okay. And address the R square at this,
+
+1202
+02:37:17,640 --> 02:37:24,600
+ into account, the number of parameters or the number of variables in the model. Okay. So,
+
+1203
+02:37:24,600 --> 02:37:32,279
+ they do the adjustment. So, in other words, they penalize the number of variables in the model.
+
+1204
+02:37:32,680 --> 02:37:41,000
+ Okay. So, this is the address the R square. So, first, actually, we calculate the R square,
+
+1205
+02:37:41,000 --> 02:37:46,120
+ right. R square. Then, we substitute the R square into this formula. We can get the address the R
+
+1206
+02:37:46,120 --> 02:37:53,560
+ square. And here, a number of samples. M is the number of per data variables in the model.
+
+1207
+02:37:54,519 --> 02:38:04,600
+ X1, X2, and your XM. Right. So, these are the, so we penalize this. Okay. And so, this actually is
+
+1208
+02:38:04,600 --> 02:38:12,760
+ the address R square. And so, these are the all the matrix, actually. We can use to evaluate the
+
+1209
+02:38:13,400 --> 02:38:19,560
+ performance of a model. Right. So, we have the mean square error, we have the root mean square
+
+1210
+02:38:19,560 --> 02:38:28,680
+ error, we have the mean absolute error. Right. And we also actually have the R square or the regular,
+
+1211
+02:38:29,720 --> 02:38:37,000
+ the address R square. Actually, all that these are, these matrix I use, okay. For example, actually,
+
+1212
+02:38:37,000 --> 02:38:43,240
+ yeah, one of our research project to predict the depth of the object. Actually, we all use,
+
+1213
+02:38:43,320 --> 02:38:48,920
+ it's a regression problem. We all use these, these are known, these matrix to evaluate the
+
+1214
+02:38:48,920 --> 02:38:56,360
+ performance of the predictions of the depth of the objects. Okay. So, these are then the,
+
+1215
+02:38:57,320 --> 02:39:05,880
+ the matrix that we can use to evaluate the performance of a regression model. Okay. And then, okay.
+
+1216
+02:39:06,119 --> 02:39:13,640
+ So, this address actually penalize the inclusion of unnecessary variables. Okay. So,
+
+1217
+02:39:15,640 --> 02:39:21,080
+ okay. So, this is the summary of the evaluation matrix, the mean square error.
+
+1218
+02:39:23,720 --> 02:39:29,080
+ Actually, the root mean square error is more widely used than mean square error. Okay. So,
+
+1219
+02:39:29,080 --> 02:39:34,600
+ this is actually the root mean square error. And then absolute mean square error is also commonly used.
+
+1220
+02:39:35,240 --> 02:39:51,000
+ Okay. Then we have R square, just R squares. So, these are the evaluation matrix. And the,
+
+1221
+02:39:51,000 --> 02:39:55,560
+ the next entry is the model validation. Model validation, I think I will, yeah, talk about this
+
+1222
+02:39:55,640 --> 02:40:02,359
+ in the next week. Okay. So, given a model actually, of course, we can look at the non-evaluation,
+
+1223
+02:40:04,119 --> 02:40:09,640
+ performing the evaluation matrix, right. We can look at that. And we can also have other methods
+
+1224
+02:40:09,640 --> 02:40:16,039
+ actually to validate the model. So, that is the model validation. Okay. So, normally, we look at
+
+1225
+02:40:16,039 --> 02:40:22,680
+ the performance, look at the characteristics of the areas, the prediction areas. Okay. And
+
+1226
+02:40:23,640 --> 02:40:30,360
+ based on the analysis of the prediction areas, actually, we can validate the model. Okay. So,
+
+1227
+02:40:30,360 --> 02:40:34,760
+ we will talk about this actually in the next week. So, today, actually, we just stop here. Okay.
+
+1228
+02:40:35,320 --> 02:40:52,520
+ And, okay. So, I think that's all for today. Yeah. Thank you. Okay. Thank you. Thank you.
+
+1229
+02:48:52,680 --> 02:49:02,520
+ Okay.
+
+1230
+02:49:05,160 --> 02:49:05,720
+ Hello.
+
+1231
+02:49:16,280 --> 02:49:16,760
+ Yes.
+
+1232
+02:49:21,240 --> 02:49:21,640
+ Hello.
+
+1233
+02:49:23,640 --> 02:49:26,680
+ Can you hear? Hello.
+
+1234
+02:49:28,680 --> 02:49:29,080
+ Can you hear?
+
+1235
+02:49:31,080 --> 02:49:32,280
+ I was trying to. I was trying to. Okay.
+
+1236
+02:49:38,760 --> 02:49:45,480
+ Test. Test. Can you hear? Okay. Can you hear? You tried to say something? Hello. I think you're
+
+1237
+02:49:45,480 --> 02:49:53,160
+ listening higher. Hello. Can you hear me? Hello. Hello. Hello. Hello.
+
+1238
+02:49:58,119 --> 02:50:06,760
+ Test. Test. Test. Test. Test. Test. Testing. Test. Testing. I'm not sure what it is. My voice
+
+1239
+02:50:06,760 --> 02:50:15,080
+ or the microphone? Maybe. Testing. Testing. This is fine. Can you hear? Okay. Yeah. Okay. It needs
+
+1240
+02:50:15,080 --> 02:50:26,040
+ to be this level. Your chest. Chest level.
+
+1241
+02:50:36,760 --> 02:50:42,360
+ Testing. Testing. Hello.
+

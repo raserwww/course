@@ -1,0 +1,8544 @@
+1
+00:00:00,000 --> 00:00:02,000
+.
+
+2
+00:00:30,000 --> 00:00:32,000
+.
+
+3
+00:01:00,000 --> 00:01:02,000
+.
+
+4
+00:01:30,000 --> 00:01:35,000
+The first part is the data, right, the data collection.
+
+5
+00:01:35,000 --> 00:01:38,000
+And the second part is the abstraction.
+
+6
+00:01:38,000 --> 00:01:42,000
+So the objective of abstraction is to build a model, right,
+
+7
+00:01:42,000 --> 00:01:46,000
+build a model from the given data, okay.
+
+8
+00:01:46,000 --> 00:01:49,000
+And then the last component, that component is the
+
+9
+00:01:49,000 --> 00:01:51,000
+generalization.
+
+10
+00:01:51,000 --> 00:01:55,000
+The generalization is just to apply the model in the
+
+11
+00:01:55,000 --> 00:01:57,000
+abstraction step.
+
+12
+00:01:57,000 --> 00:02:00,000
+The model lands in the abstraction step and to the
+
+13
+00:02:00,000 --> 00:02:02,000
+future data, okay.
+
+14
+00:02:02,000 --> 00:02:05,000
+So application of the learning algorithm, application of
+
+15
+00:02:05,000 --> 00:02:09,000
+the model is also considered as a part of the machine
+
+16
+00:02:09,000 --> 00:02:12,000
+learning, okay.
+
+17
+00:02:12,000 --> 00:02:15,000
+So today I will look at the data preparation for
+
+18
+00:02:15,000 --> 00:02:17,000
+machine learning.
+
+19
+00:02:17,000 --> 00:02:21,000
+Data is very important, okay.
+
+20
+00:02:21,000 --> 00:02:24,000
+In machine learning there is one thing that is garbage
+
+21
+00:02:24,000 --> 00:02:26,000
+in, garbage out.
+
+22
+00:02:26,000 --> 00:02:30,000
+We, the data is garbage, the rubbish, very bad data,
+
+23
+00:02:30,000 --> 00:02:32,000
+right, very noisy data.
+
+24
+00:02:32,000 --> 00:02:37,000
+And then the model obtained or learned from this data
+
+25
+00:02:37,000 --> 00:02:39,000
+could be very bad, okay.
+
+26
+00:02:39,000 --> 00:02:42,000
+Of course actually the prediction based on the learned
+
+27
+00:02:42,000 --> 00:02:44,000
+model could be bad.
+
+28
+00:02:44,000 --> 00:02:46,000
+Bad, that means the performance is bad, right.
+
+29
+00:02:46,000 --> 00:02:49,000
+Then there is low accuracy, okay.
+
+30
+00:02:49,000 --> 00:02:56,000
+So this actually seeing is pressed the importance of
+
+31
+00:02:56,000 --> 00:03:00,000
+data and data quality in machine learning, okay.
+
+32
+00:03:00,000 --> 00:03:06,000
+So we first look at the machine learning activities,
+
+33
+00:03:06,000 --> 00:03:08,000
+right, okay.
+
+34
+00:03:08,000 --> 00:03:12,000
+I just mentioned machine learning actually start from
+
+35
+00:03:12,000 --> 00:03:15,000
+a data collection, right, because this is the first
+
+36
+00:03:15,000 --> 00:03:19,000
+component in the three actually component of the
+
+37
+00:03:19,000 --> 00:03:21,000
+machine learning system.
+
+38
+00:03:21,000 --> 00:03:24,000
+So machine learning actually activity start from data,
+
+39
+00:03:24,000 --> 00:03:25,000
+okay.
+
+40
+00:03:25,000 --> 00:03:28,000
+And actually in the last week actually when we talk
+
+41
+00:03:28,000 --> 00:03:32,000
+about learning and also we see there are three basic
+
+42
+00:03:32,000 --> 00:03:34,000
+types of learning.
+
+43
+00:03:34,000 --> 00:03:36,000
+The first type is called supervised learning,
+
+44
+00:03:36,000 --> 00:03:38,000
+supervised learning, right.
+
+45
+00:03:38,000 --> 00:03:41,000
+So in supervised learning when we collect the data
+
+46
+00:03:41,000 --> 00:03:45,000
+and then we also need to label the data, okay.
+
+47
+00:03:45,000 --> 00:03:48,000
+So labeling on the data actually of course depends
+
+48
+00:03:48,000 --> 00:03:49,000
+on the problem, right.
+
+49
+00:03:49,000 --> 00:03:52,000
+So for example we want to recognize the objects in
+
+50
+00:03:52,000 --> 00:03:55,000
+this classroom and then of course we kind of take
+
+51
+00:03:55,000 --> 00:03:58,000
+pictures of all objects in this classroom and then we
+
+52
+00:03:58,000 --> 00:04:01,000
+give a name to each picture, give a tag.
+
+53
+00:04:01,000 --> 00:04:04,000
+This tag is also called class label, right.
+
+54
+00:04:04,000 --> 00:04:07,000
+You take picture of this screen and then you just
+
+55
+00:04:07,000 --> 00:04:09,000
+know this is a screen, okay.
+
+56
+00:04:09,000 --> 00:04:12,000
+You take picture of this computer then you give a
+
+57
+00:04:12,000 --> 00:04:15,000
+tag or label of a computer, okay.
+
+58
+00:04:15,000 --> 00:04:16,000
+So this is called labeling.
+
+59
+00:04:16,000 --> 00:04:19,000
+So in supervised learning we should provide the label
+
+60
+00:04:19,000 --> 00:04:21,000
+training data, okay.
+
+61
+00:04:21,000 --> 00:04:24,000
+And another type of learning is called unsupervised
+
+62
+00:04:24,000 --> 00:04:25,000
+learning, right.
+
+63
+00:04:25,000 --> 00:04:28,000
+So in unsupervised learning we just collect the data
+
+64
+00:04:28,000 --> 00:04:32,000
+and we don't label the data so the data in unsupervised
+
+65
+00:04:32,000 --> 00:04:35,000
+learning is unlabeled, okay.
+
+66
+00:04:36,000 --> 00:04:39,000
+And then what objective of unsupervised learning,
+
+67
+00:04:39,000 --> 00:04:43,000
+actually we want to discover the patterns underlying
+
+68
+00:04:43,000 --> 00:04:45,000
+the data, okay.
+
+69
+00:04:45,000 --> 00:04:49,000
+Actually one important learning task in unsupervised
+
+70
+00:04:49,000 --> 00:04:53,000
+learning is the grouping of the data called classroom,
+
+71
+00:04:53,000 --> 00:04:54,000
+okay.
+
+72
+00:04:54,000 --> 00:04:58,000
+We try to put actually samples with a great
+
+73
+00:04:58,000 --> 00:05:02,000
+similarity into one group and samples with different
+
+74
+00:05:02,000 --> 00:05:03,000
+similarities.
+
+75
+00:05:03,000 --> 00:05:06,000
+Actually in another group, okay.
+
+76
+00:05:06,000 --> 00:05:10,000
+So this is a classroom or pattern discovery, okay.
+
+77
+00:05:10,000 --> 00:05:13,000
+Of course actually we have, we know actually there is
+
+78
+00:05:13,000 --> 00:05:17,000
+that type of learning that is a reinforcement learning
+
+79
+00:05:17,000 --> 00:05:19,000
+but that is not covered in this course.
+
+80
+00:05:19,000 --> 00:05:23,000
+So this course we only cover the supervised learning
+
+81
+00:05:23,000 --> 00:05:24,000
+and the unsupervised learning.
+
+82
+00:05:24,000 --> 00:05:27,000
+For supervised learning we collect the data and also
+
+83
+00:05:27,000 --> 00:05:29,000
+we label the data, okay.
+
+84
+00:05:29,000 --> 00:05:32,000
+And in unsupervised learning we just collect the data
+
+85
+00:05:32,000 --> 00:05:36,000
+with every new need to do the labeling of the data.
+
+86
+00:05:38,000 --> 00:05:39,000
+Okay.
+
+87
+00:05:39,000 --> 00:05:44,000
+So after we have collected data and also label the data
+
+88
+00:05:44,000 --> 00:05:47,000
+for supervised learning and then actually we should
+
+89
+00:05:47,000 --> 00:05:49,000
+perform the following activities.
+
+90
+00:05:49,000 --> 00:05:52,000
+The first, we need to understand the type of the
+
+91
+00:05:52,000 --> 00:05:54,000
+data in a given input data set.
+
+92
+00:05:54,000 --> 00:05:57,000
+Okay, later we will see actually the data can be
+
+93
+00:05:57,000 --> 00:06:00,000
+categorized into different types.
+
+94
+00:06:00,000 --> 00:06:04,000
+Okay, some data like a categorical variable data,
+
+95
+00:06:04,000 --> 00:06:06,000
+like gender, right.
+
+96
+00:06:06,000 --> 00:06:10,000
+So every student in the classroom can have a value
+
+97
+00:06:10,000 --> 00:06:12,000
+of male or female, right.
+
+98
+00:06:12,000 --> 00:06:17,000
+So this value, for this gender only two values, right,
+
+99
+00:06:17,000 --> 00:06:18,000
+two possible values.
+
+100
+00:06:18,000 --> 00:06:21,000
+So this kind of variable is called categorical variables.
+
+101
+00:06:21,000 --> 00:06:22,000
+Okay.
+
+102
+00:06:22,000 --> 00:06:25,000
+And for some variables, and this actually variable
+
+103
+00:06:25,000 --> 00:06:29,000
+could be continuous, this feature or attribute could
+
+104
+00:06:29,000 --> 00:06:30,000
+be continuous.
+
+105
+00:06:30,000 --> 00:06:34,000
+For example, and your height, okay, and you could be
+
+106
+00:06:34,000 --> 00:06:40,000
+like 175 cm, 162 cm.
+
+107
+00:06:40,000 --> 00:06:44,000
+Actually, so this actually number actually can be any
+
+108
+00:06:44,000 --> 00:06:46,000
+number in a certain range.
+
+109
+00:06:46,000 --> 00:06:50,000
+Okay, so this kind of feature is called continuous feature.
+
+110
+00:06:50,000 --> 00:06:52,000
+So we are looking at this type of feature later.
+
+111
+00:06:52,000 --> 00:06:56,000
+And actually the data type directly determines what
+
+112
+00:06:56,000 --> 00:06:59,000
+model or what actually learning algorithm we should
+
+113
+00:06:59,000 --> 00:07:01,000
+actually adopt.
+
+114
+00:07:01,000 --> 00:07:03,000
+Okay, so at the beginning we should actually look at the
+
+115
+00:07:03,000 --> 00:07:08,000
+nature of the data, look at the time of the data.
+
+116
+00:07:08,000 --> 00:07:10,000
+Okay.
+
+117
+00:07:10,000 --> 00:07:14,000
+And then we went to explore the quality and understand
+
+118
+00:07:14,000 --> 00:07:17,000
+the nature and also understand the quality of the data.
+
+119
+00:07:17,000 --> 00:07:21,000
+I just mentioned, right, and there is the same
+
+120
+00:07:21,000 --> 00:07:22,000
+garbage in, garbage out.
+
+121
+00:07:22,000 --> 00:07:24,000
+So this actually the data quality certainly is
+
+122
+00:07:24,000 --> 00:07:25,000
+very important.
+
+123
+00:07:25,000 --> 00:07:26,000
+Okay.
+
+124
+00:07:26,000 --> 00:07:29,000
+And if the data is noisy, and then we should take
+
+125
+00:07:29,000 --> 00:07:33,000
+measures actually to address these issues.
+
+126
+00:07:33,000 --> 00:07:37,000
+Later we will see actually some quality issues include
+
+127
+00:07:37,000 --> 00:07:43,000
+like outliers and some values are extremely high or
+
+128
+00:07:43,000 --> 00:07:46,000
+extremely low, and these probably are noise.
+
+129
+00:07:46,000 --> 00:07:47,000
+Okay.
+
+130
+00:07:47,000 --> 00:07:49,000
+And some data have missing values even.
+
+131
+00:07:49,000 --> 00:07:50,000
+We don't have a value.
+
+132
+00:07:50,000 --> 00:07:51,000
+Okay.
+
+133
+00:07:52,000 --> 00:07:55,000
+So actually, so this kind of data actually, you know,
+
+134
+00:07:55,000 --> 00:07:57,000
+these are issues in the data.
+
+135
+00:07:57,000 --> 00:07:59,000
+We should now take some measures actually to address
+
+136
+00:07:59,000 --> 00:08:03,000
+these issues before we can use the data or can input
+
+137
+00:08:03,000 --> 00:08:06,000
+the data to a machine learning algorithm and to
+
+138
+00:08:06,000 --> 00:08:09,000
+obtain or to learn a model.
+
+139
+00:08:09,000 --> 00:08:10,000
+Okay.
+
+140
+00:08:10,000 --> 00:08:14,000
+So these are also the activities, right.
+
+141
+00:08:14,000 --> 00:08:19,000
+And also the explore relationship actually among
+
+142
+00:08:19,000 --> 00:08:21,000
+the data elements.
+
+143
+00:08:21,000 --> 00:08:24,000
+So this data element normally means actually the
+
+144
+00:08:24,000 --> 00:08:25,000
+attributes.
+
+145
+00:08:25,000 --> 00:08:27,000
+So later we will look at this issue, attributes or
+
+146
+00:08:27,000 --> 00:08:29,000
+features or variables.
+
+147
+00:08:29,000 --> 00:08:30,000
+Okay.
+
+148
+00:08:30,000 --> 00:08:32,000
+And actually some, when you collect the data, you
+
+149
+00:08:32,000 --> 00:08:36,000
+probably not very sure which data or which attribute,
+
+150
+00:08:36,000 --> 00:08:38,000
+which variable is important.
+
+151
+00:08:38,000 --> 00:08:41,000
+For example, we want to predict actually a person's
+
+152
+00:08:41,000 --> 00:08:45,000
+salary, right, a person's salary after your first job
+
+153
+00:08:45,000 --> 00:08:49,000
+salary, right, after the graduation of your MSE.
+
+154
+00:08:49,000 --> 00:08:52,000
+So of course actually at the beginning we have no
+
+155
+00:08:52,000 --> 00:08:54,000
+ideas what are related to the salary.
+
+156
+00:08:54,000 --> 00:08:58,000
+Maybe we will actually collect a large amount of
+
+157
+00:08:58,000 --> 00:09:02,000
+data, right, your height, your gender, your weight,
+
+158
+00:09:02,000 --> 00:09:10,000
+right, your GPA, and your undergraduate GPA or
+
+159
+00:09:10,000 --> 00:09:11,000
+postgraduate GPA.
+
+160
+00:09:11,000 --> 00:09:13,000
+You collect a lot of data, right.
+
+161
+00:09:13,000 --> 00:09:16,000
+So but actually some of the data may be actually
+
+162
+00:09:16,000 --> 00:09:18,000
+irrelevant, right.
+
+163
+00:09:18,000 --> 00:09:21,000
+So your height, your body weight, your gender is not
+
+164
+00:09:21,000 --> 00:09:25,000
+relevant to your salary, but actually your CTP may be
+
+165
+00:09:25,000 --> 00:09:26,000
+relevant.
+
+166
+00:09:26,000 --> 00:09:27,000
+Okay.
+
+167
+00:09:27,000 --> 00:09:29,000
+So during this data collection stage actually we
+
+168
+00:09:29,000 --> 00:09:31,000
+have no idea about this.
+
+169
+00:09:31,000 --> 00:09:32,000
+Okay.
+
+170
+00:09:32,000 --> 00:09:34,000
+So we can look at the later tree.
+
+171
+00:09:34,000 --> 00:09:36,000
+We can look at the correlation, the relationship
+
+172
+00:09:36,000 --> 00:09:39,000
+between the class label and also each of the attributes
+
+173
+00:09:39,000 --> 00:09:40,000
+you have collected.
+
+174
+00:09:40,000 --> 00:09:41,000
+Okay.
+
+175
+00:09:41,000 --> 00:09:44,000
+If some of them are irrelevant, that means that
+
+176
+00:09:44,000 --> 00:09:48,000
+the correlation between the class label and the, for
+
+177
+00:09:48,000 --> 00:09:51,000
+example, the body weight, your height, actually
+
+178
+00:09:51,000 --> 00:09:54,000
+correlation is very low, right, close to zero.
+
+179
+00:09:54,000 --> 00:09:58,000
+This means that this feature is irrelevant and then
+
+180
+00:09:58,000 --> 00:09:59,000
+we should remove this.
+
+181
+00:09:59,000 --> 00:10:00,000
+Okay.
+
+182
+00:10:00,000 --> 00:10:03,000
+And sometimes the tree, the data you collected, right,
+
+183
+00:10:03,000 --> 00:10:05,000
+are quite correlated.
+
+184
+00:10:05,000 --> 00:10:06,000
+Okay.
+
+185
+00:10:06,000 --> 00:10:09,000
+In other words, the tree, when you collect one
+
+186
+00:10:10,000 --> 00:10:13,000
+feature and then another feature will provide very
+
+187
+00:10:13,000 --> 00:10:15,000
+little extra information.
+
+188
+00:10:15,000 --> 00:10:18,000
+So this kind of feature is redundant.
+
+189
+00:10:18,000 --> 00:10:19,000
+Okay.
+
+190
+00:10:19,000 --> 00:10:22,000
+So we should also try our best to remove the
+
+191
+00:10:22,000 --> 00:10:24,000
+redundancy underlying the data.
+
+192
+00:10:24,000 --> 00:10:25,000
+Okay.
+
+193
+00:10:25,000 --> 00:10:28,000
+And also we should remove the significant features
+
+194
+00:10:28,000 --> 00:10:30,000
+from the data.
+
+195
+00:10:30,000 --> 00:10:31,000
+Okay.
+
+196
+00:10:31,000 --> 00:10:34,000
+So these are the, through the exploration of the data
+
+197
+00:10:34,000 --> 00:10:35,000
+relationship.
+
+198
+00:10:35,000 --> 00:10:37,000
+So later we will see, so what actually and the
+
+199
+00:10:37,000 --> 00:10:40,000
+data we can use to explore the relationship between
+
+200
+00:10:40,000 --> 00:10:41,000
+variables.
+
+201
+00:10:41,000 --> 00:10:42,000
+Okay.
+
+202
+00:10:42,000 --> 00:10:45,000
+Then actually now we can try our best actually to
+
+203
+00:10:45,000 --> 00:10:47,000
+eliminate these variables.
+
+204
+00:10:47,000 --> 00:10:48,000
+Okay.
+
+205
+00:10:48,000 --> 00:10:52,000
+And so actually find the potential issues in the
+
+206
+00:10:52,000 --> 00:10:53,000
+data.
+
+207
+00:10:53,000 --> 00:10:55,000
+I actually already just mentioned the issue, right,
+
+208
+00:10:55,000 --> 00:10:57,000
+these are related to the quality.
+
+209
+00:10:57,000 --> 00:11:01,000
+Like actually some data could have missing values.
+
+210
+00:11:01,000 --> 00:11:02,000
+Okay.
+
+211
+00:11:02,000 --> 00:11:05,000
+And some of the missing values, that means that
+
+212
+00:11:05,000 --> 00:11:09,000
+for this data and for a specific feature or attribute
+
+213
+00:11:09,000 --> 00:11:11,000
+there will be no value.
+
+214
+00:11:11,000 --> 00:11:12,000
+Okay.
+
+215
+00:11:12,000 --> 00:11:13,000
+So missing value.
+
+216
+00:11:13,000 --> 00:11:15,000
+And some actually could be outliers.
+
+217
+00:11:15,000 --> 00:11:16,000
+Okay.
+
+218
+00:11:16,000 --> 00:11:18,000
+Maybe during the recording of this data, right,
+
+219
+00:11:18,000 --> 00:11:21,000
+and you, there's some errors, right,
+
+220
+00:11:21,000 --> 00:11:24,000
+you record down the data wrongly, right.
+
+221
+00:11:24,000 --> 00:11:29,000
+And the percentage, you use a CM, a 175 CM.
+
+222
+00:11:29,000 --> 00:11:31,000
+And later you write down wrongly, right,
+
+223
+00:11:31,000 --> 00:11:35,000
+like a 75.5, right.
+
+224
+00:11:35,000 --> 00:11:37,000
+So this could be an error, right.
+
+225
+00:11:37,000 --> 00:11:42,000
+So actually, so we can also try our best to actually
+
+226
+00:11:42,000 --> 00:11:45,000
+address these issues and before we can, you know,
+
+227
+00:11:45,000 --> 00:11:50,000
+input the data to the learning algorithm.
+
+228
+00:11:50,000 --> 00:11:53,000
+And then of course after we have identified the issues,
+
+229
+00:11:53,000 --> 00:11:56,000
+the noise, right, the noise in the data,
+
+230
+00:11:56,000 --> 00:12:00,000
+the correlations, and also actually the redundancies
+
+231
+00:12:00,000 --> 00:12:04,000
+and also the insignificant features, for example, right.
+
+232
+00:12:04,000 --> 00:12:08,000
+And then we can actually take some measures
+
+233
+00:12:08,000 --> 00:12:10,000
+to address these issues.
+
+234
+00:12:10,000 --> 00:12:13,000
+Okay.
+
+235
+00:12:13,000 --> 00:12:17,000
+And then after that we will perform a pre-processing.
+
+236
+00:12:17,000 --> 00:12:20,000
+So this pre-processing means actually the scaling,
+
+237
+00:12:20,000 --> 00:12:21,000
+the scaling.
+
+238
+00:12:21,000 --> 00:12:22,000
+So later we will see this.
+
+239
+00:12:22,000 --> 00:12:27,000
+We should perform normalization or a standardization of the data
+
+240
+00:12:27,000 --> 00:12:30,000
+and so that the data could be in the same range.
+
+241
+00:12:30,000 --> 00:12:31,000
+Okay.
+
+242
+00:12:31,000 --> 00:12:36,000
+So here, for example, you record your GPA of 4.4.
+
+243
+00:12:36,000 --> 00:12:39,000
+NTU is actually known as the system five, right,
+
+244
+00:12:39,000 --> 00:12:42,000
+five in most actually, not four, okay.
+
+245
+00:12:42,000 --> 00:12:44,000
+So your GPA is 4.5.
+
+246
+00:12:44,000 --> 00:12:46,000
+Then you record down your height.
+
+247
+00:12:46,000 --> 00:12:51,000
+It's 170 something, right, your body weight is 60 something,
+
+248
+00:12:51,000 --> 00:12:53,000
+70 something kg.
+
+249
+00:12:53,000 --> 00:12:55,000
+Actually the data is in very different range, right.
+
+250
+00:12:55,000 --> 00:12:58,000
+So actually we could have some issues actually
+
+251
+00:12:58,000 --> 00:13:01,000
+with the data in very different range.
+
+252
+00:13:01,000 --> 00:13:03,000
+So we should perform some pre-processing.
+
+253
+00:13:03,000 --> 00:13:04,000
+Okay.
+
+254
+00:13:04,000 --> 00:13:06,000
+So later we will talk about this again,
+
+255
+00:13:06,000 --> 00:13:11,000
+looking at the details, how to actually perform this scaling
+
+256
+00:13:11,000 --> 00:13:15,000
+so that the features could be in a similar range.
+
+257
+00:13:15,000 --> 00:13:17,000
+Okay.
+
+258
+00:13:17,000 --> 00:13:19,000
+And then after the data is obtained,
+
+259
+00:13:19,000 --> 00:13:22,000
+then we can start the linear, right.
+
+260
+00:13:22,000 --> 00:13:26,000
+So the linear normally, you know, the data.
+
+261
+00:13:26,000 --> 00:13:29,000
+If you have the data, you collect the data, right,
+
+262
+00:13:29,000 --> 00:13:32,000
+and you also perform labeling of the data, right.
+
+263
+00:13:32,000 --> 00:13:35,000
+And you know, this data will be divided into two main parts.
+
+264
+00:13:35,000 --> 00:13:38,000
+One part is used as a training data.
+
+265
+00:13:38,000 --> 00:13:40,000
+Another part is used as testing data.
+
+266
+00:13:40,000 --> 00:13:44,000
+So in the last week we have already talked about this concept, right,
+
+267
+00:13:44,000 --> 00:13:46,000
+like training data, testing data.
+
+268
+00:13:47,000 --> 00:13:49,000
+The training data actually aims to,
+
+269
+00:13:49,000 --> 00:13:53,000
+or training data are used to estimate the values,
+
+270
+00:13:53,000 --> 00:13:56,000
+the parameter values in the model, right.
+
+271
+00:13:56,000 --> 00:14:00,000
+Normally in a model we could have many parameters,
+
+272
+00:14:00,000 --> 00:14:03,000
+in particular in deep neural networks.
+
+273
+00:14:03,000 --> 00:14:07,000
+We should have a large number of parameters.
+
+274
+00:14:07,000 --> 00:14:13,000
+In some models the parameters could be 100 billion,
+
+275
+00:14:13,000 --> 00:14:16,000
+you know, so big models.
+
+276
+00:14:16,000 --> 00:14:17,000
+Okay.
+
+277
+00:14:17,000 --> 00:14:21,000
+So we should actually estimate the parameters.
+
+278
+00:14:21,000 --> 00:14:23,000
+But actually normally the data should be divided into two parts,
+
+279
+00:14:23,000 --> 00:14:25,000
+training and testing.
+
+280
+00:14:25,000 --> 00:14:31,000
+And testing is just actually used actually to evaluate the quality
+
+281
+00:14:31,000 --> 00:14:33,000
+of the model length.
+
+282
+00:14:33,000 --> 00:14:34,000
+Okay.
+
+283
+00:14:34,000 --> 00:14:36,000
+So these are actually divided into two parts.
+
+284
+00:14:36,000 --> 00:14:39,000
+And quite often we have one extra part,
+
+285
+00:14:39,000 --> 00:14:41,000
+which is called a validation data.
+
+286
+00:14:42,000 --> 00:14:46,000
+And the validation data normally is used to determine the hyperparameters.
+
+287
+00:14:46,000 --> 00:14:52,000
+Normally the hyperparameters actually is not learned directly from the data.
+
+288
+00:14:52,000 --> 00:14:53,000
+Okay.
+
+289
+00:14:53,000 --> 00:14:57,000
+And so we have some parameters that we need to determine.
+
+290
+00:14:57,000 --> 00:14:58,000
+Okay.
+
+291
+00:14:58,000 --> 00:15:03,000
+So these actually, validation data will be used to determine the hyperparameters.
+
+292
+00:15:03,000 --> 00:15:04,000
+Okay.
+
+293
+00:15:06,000 --> 00:15:10,000
+So in such a scenario the data will be divided into three parts,
+
+294
+00:15:10,000 --> 00:15:14,000
+training data and the validation data and the testing data.
+
+295
+00:15:14,000 --> 00:15:15,000
+Okay.
+
+296
+00:15:15,000 --> 00:15:19,000
+And normally 70 percent of the data will be used as training data,
+
+297
+00:15:19,000 --> 00:15:22,000
+15 percent for validation,
+
+298
+00:15:22,000 --> 00:15:27,000
+and the remaining 15 percent of the data will be used for testing.
+
+299
+00:15:27,000 --> 00:15:30,000
+Or sometimes it's 60 percent for training,
+
+300
+00:15:30,000 --> 00:15:32,000
+20 percent for validation,
+
+301
+00:15:32,000 --> 00:15:37,000
+and then the remaining 20 percent for actually testing.
+
+302
+00:15:37,000 --> 00:15:38,000
+Okay.
+
+303
+00:15:38,000 --> 00:15:43,000
+So this is the, of course, this is for super-ideal learning.
+
+304
+00:15:43,000 --> 00:15:46,000
+And for anti-parade learning actually we don't have,
+
+305
+00:15:46,000 --> 00:15:50,000
+we don't have label, right, and also we don't divide them into two parts.
+
+306
+00:15:50,000 --> 00:15:51,000
+Okay.
+
+307
+00:15:53,000 --> 00:15:58,000
+And then we should consider different models or learning algorithms for selection.
+
+308
+00:15:58,000 --> 00:15:59,000
+Okay.
+
+309
+00:15:59,000 --> 00:16:02,000
+And so for each learning task,
+
+310
+00:16:02,000 --> 00:16:05,000
+either super-ideal learning or anti-parade learning,
+
+311
+00:16:05,000 --> 00:16:06,000
+there are many methods.
+
+312
+00:16:06,000 --> 00:16:07,000
+Okay.
+
+313
+00:16:07,000 --> 00:16:15,000
+And so actually in the organization there is one theorem,
+
+314
+00:16:15,000 --> 00:16:18,000
+which is called No Free Launch Theorem.
+
+315
+00:16:18,000 --> 00:16:19,000
+No Free Launch.
+
+316
+00:16:19,000 --> 00:16:20,000
+Okay.
+
+317
+00:16:20,000 --> 00:16:22,000
+So what does it mean?
+
+318
+00:16:22,000 --> 00:16:31,000
+It means that there are no single algorithms that perform the best for all scenarios.
+
+319
+00:16:31,000 --> 00:16:35,000
+So these are actually the organization.
+
+320
+00:16:35,000 --> 00:16:41,000
+Of course, we knew machine learning also is a kind of organization problem.
+
+321
+00:16:41,000 --> 00:16:48,000
+So this No Free Launch Theorem also applicable to machine learning problem.
+
+322
+00:16:48,000 --> 00:16:51,000
+In other words, there are no single algorithm,
+
+323
+00:16:51,000 --> 00:16:55,000
+there are no single model that perform the best for all applications.
+
+324
+00:16:55,000 --> 00:16:56,000
+Okay.
+
+325
+00:16:56,000 --> 00:17:01,000
+So in real application we always need to try different learning algorithms
+
+326
+00:17:01,000 --> 00:17:04,000
+and then look to find the best performing one.
+
+327
+00:17:04,000 --> 00:17:05,000
+Okay.
+
+328
+00:17:05,000 --> 00:17:07,000
+Of course, when you do the data selection
+
+329
+00:17:07,000 --> 00:17:10,000
+and we need to have a good understanding about the data,
+
+330
+00:17:10,000 --> 00:17:13,000
+the type of the data and normally the data is mixed.
+
+331
+00:17:13,000 --> 00:17:19,000
+It contains continuous features and then the categorical features,
+
+332
+00:17:19,000 --> 00:17:20,000
+okay, or discrete features.
+
+333
+00:17:20,000 --> 00:17:21,000
+Okay.
+
+334
+00:17:21,000 --> 00:17:25,000
+And so we need to think about in this learning algorithm,
+
+335
+00:17:25,000 --> 00:17:28,000
+so in this model, what are the other assumptions?
+
+336
+00:17:28,000 --> 00:17:29,000
+Okay.
+
+337
+00:17:29,000 --> 00:17:31,000
+Whether the data is setting by this assumption.
+
+338
+00:17:31,000 --> 00:17:32,000
+Right.
+
+339
+00:17:32,000 --> 00:17:36,000
+If the assumptions are not satisfied in the data set,
+
+340
+00:17:36,000 --> 00:17:41,000
+then of course probably this model or this learning algorithm
+
+341
+00:17:41,000 --> 00:17:42,000
+could produce a performance.
+
+342
+00:17:42,000 --> 00:17:47,000
+Sometimes the problem is good, but it could not be the optimal results.
+
+343
+00:17:47,000 --> 00:17:48,000
+Okay.
+
+344
+00:17:48,000 --> 00:17:52,000
+And then we should understand the nature of the data.
+
+345
+00:17:52,000 --> 00:17:56,000
+We should also understand the details of the learning algorithm
+
+346
+00:17:56,000 --> 00:17:59,000
+and understand the assumptions that we have made
+
+347
+00:17:59,000 --> 00:18:03,000
+actually when we develop this model or this learning algorithm.
+
+348
+00:18:03,000 --> 00:18:04,000
+Okay.
+
+349
+00:18:04,000 --> 00:18:14,000
+So there is a need to consider actually different learning algorithms or models.
+
+350
+00:18:14,000 --> 00:18:15,000
+Okay.
+
+351
+00:18:15,000 --> 00:18:19,000
+And finally, you know, after we have learned the model, right,
+
+352
+00:18:19,000 --> 00:18:22,000
+and we should actually evaluate the performance.
+
+353
+00:18:22,000 --> 00:18:24,000
+This is just like, you know, you learn this code, right.
+
+354
+00:18:24,000 --> 00:18:29,000
+Finally, you will actually, you know, sit for the exam.
+
+355
+00:18:29,000 --> 00:18:32,000
+You will see the exam, right, in the Latin.
+
+356
+00:18:32,000 --> 00:18:36,000
+So this actually the exam will test your learning outcome.
+
+357
+00:18:36,000 --> 00:18:37,000
+Okay.
+
+358
+00:18:37,000 --> 00:18:38,000
+So this is the evaluation.
+
+359
+00:18:38,000 --> 00:18:40,000
+And actually in this course, of course,
+
+360
+00:18:40,000 --> 00:18:45,000
+we will cover actually different learning evaluation procedures,
+
+361
+00:18:45,000 --> 00:18:49,000
+and also we will introduce actually different metrics
+
+362
+00:18:49,000 --> 00:18:52,000
+for the performance evaluation.
+
+363
+00:18:52,000 --> 00:18:53,000
+Okay.
+
+364
+00:18:53,000 --> 00:18:56,000
+Okay.
+
+365
+00:18:56,000 --> 00:18:57,000
+Okay.
+
+366
+00:18:57,000 --> 00:19:00,000
+So this diagram is just a summary of the process, right.
+
+367
+00:19:00,000 --> 00:19:02,000
+So we have the input data.
+
+368
+00:19:02,000 --> 00:19:10,000
+And then in step one, actually we prepare the preparation well, right,
+
+369
+00:19:10,000 --> 00:19:12,000
+for the modeling.
+
+370
+00:19:12,000 --> 00:19:16,000
+So this is just today's focus, preparation for the data.
+
+371
+00:19:16,000 --> 00:19:20,000
+And then after that actually we will perform a linear,
+
+372
+00:19:20,000 --> 00:19:24,000
+the objective of linear is to find the mathematical model, right,
+
+373
+00:19:24,000 --> 00:19:26,000
+and to find the model.
+
+374
+00:19:26,000 --> 00:19:30,000
+And then we can apply the model and to the technical data
+
+375
+00:19:30,000 --> 00:19:34,000
+and to evaluate the performance of this model.
+
+376
+00:19:34,000 --> 00:19:38,000
+And sometimes actually the performance is not satisfactory.
+
+377
+00:19:38,000 --> 00:19:42,000
+For example, in applications actually we hope actually,
+
+378
+00:19:42,000 --> 00:19:46,000
+you know, the accuracy should be greater than 99 percent.
+
+379
+00:19:46,000 --> 00:19:48,000
+Of course, this is a very ideal scenario, right.
+
+380
+00:19:48,000 --> 00:19:52,000
+Indeed, in some applications actually this accuracy should be very high.
+
+381
+00:19:52,000 --> 00:19:53,000
+Right.
+
+382
+00:19:53,000 --> 00:19:56,000
+For example, if you use your fingerprint, you use iris,
+
+383
+00:19:56,000 --> 00:20:00,000
+you know, you use actually many biometrics, right,
+
+384
+00:20:00,000 --> 00:20:04,000
+as a password for example to your bank account.
+
+385
+00:20:04,000 --> 00:20:07,000
+So this accuracy must be very high.
+
+386
+00:20:07,000 --> 00:20:08,000
+Okay.
+
+387
+00:20:08,000 --> 00:20:12,000
+So in some applications actually maybe the accuracy is low, right.
+
+388
+00:20:12,000 --> 00:20:17,000
+So the model produces actually anti-satisfactory performance.
+
+389
+00:20:17,000 --> 00:20:18,000
+Okay.
+
+390
+00:20:18,000 --> 00:20:21,000
+Then we need to think about, okay, so maybe, you know,
+
+391
+00:20:21,000 --> 00:20:26,000
+the issues could arise from the data and could also arise from the model.
+
+392
+00:20:26,000 --> 00:20:27,000
+Okay.
+
+393
+00:20:27,000 --> 00:20:31,000
+If it's from the data and then suddenly actually we should actually take some
+
+394
+00:20:31,000 --> 00:20:33,000
+measures to address these issues.
+
+395
+00:20:33,000 --> 00:20:35,000
+For example, there are outliers.
+
+396
+00:20:35,000 --> 00:20:36,000
+Okay.
+
+397
+00:20:36,000 --> 00:20:43,000
+So outliers, that means some of the data has extreme high values or low values.
+
+398
+00:20:43,000 --> 00:20:44,000
+Okay.
+
+399
+00:20:44,000 --> 00:20:46,000
+So how we should handle this?
+
+400
+00:20:46,000 --> 00:20:47,000
+Okay.
+
+401
+00:20:47,000 --> 00:20:51,000
+And then we should actually take some measures to address all of these issues
+
+402
+00:20:51,000 --> 00:20:57,000
+and then to get the so-called data, the refined data, right,
+
+403
+00:20:57,000 --> 00:21:03,000
+then use the refined data to analyze another model with the improved performance.
+
+404
+00:21:03,000 --> 00:21:04,000
+Okay.
+
+405
+00:21:04,000 --> 00:21:07,000
+And really it's not actually just actually these are four steps.
+
+406
+00:21:07,000 --> 00:21:11,000
+Normally these four steps are going to, you know,
+
+407
+00:21:11,000 --> 00:21:13,000
+you know, iterations.
+
+408
+00:21:13,000 --> 00:21:17,000
+So we need to go through a few rounds, you know, to produce a model,
+
+409
+00:21:17,000 --> 00:21:18,000
+a good model.
+
+410
+00:21:18,000 --> 00:21:19,000
+Okay.
+
+411
+00:21:19,000 --> 00:21:21,000
+And sometimes you probably think, you know,
+
+412
+00:21:21,000 --> 00:21:24,000
+we just introduced in the last week, you know,
+
+413
+00:21:24,000 --> 00:21:27,000
+there are some platforms like computer language,
+
+414
+00:21:27,000 --> 00:21:32,000
+Python, MATLAB, R or even other, you know, computer languages or platforms,
+
+415
+00:21:32,000 --> 00:21:38,000
+and where the machine learning algorithms actually are built in the platform.
+
+416
+00:21:38,000 --> 00:21:41,000
+We can simply call the function and then learn.
+
+417
+00:21:41,000 --> 00:21:44,000
+Maybe you already have some experience on machine learning, right?
+
+418
+00:21:44,000 --> 00:21:48,000
+You get the data, put the data, call the function, and then get a result.
+
+419
+00:21:48,000 --> 00:21:49,000
+Okay.
+
+420
+00:21:49,000 --> 00:21:51,000
+Your learning task is complete in one second, right?
+
+421
+00:21:51,000 --> 00:21:52,000
+So fast.
+
+422
+00:21:52,000 --> 00:21:54,000
+Machine learning is not so simple.
+
+423
+00:21:54,000 --> 00:21:57,000
+A project could last one year, right?
+
+424
+00:21:57,000 --> 00:21:58,000
+Could last one year.
+
+425
+00:21:58,000 --> 00:22:03,000
+Actually one day, one week, one month, even a few months time.
+
+426
+00:22:03,000 --> 00:22:07,000
+I think you have so many long time actually to produce a good model.
+
+427
+00:22:07,000 --> 00:22:08,000
+Okay.
+
+428
+00:22:08,000 --> 00:22:12,000
+So it's not a task of just actually put the data in the function.
+
+429
+00:22:12,000 --> 00:22:14,000
+Not so simple, right?
+
+430
+00:22:14,000 --> 00:22:17,000
+You need to actually explore the data,
+
+431
+00:22:17,000 --> 00:22:20,000
+and you need to explore different learning algorithms.
+
+432
+00:22:20,000 --> 00:22:27,000
+And finally, actually you will find actually one that actually suits your application the most.
+
+433
+00:22:27,000 --> 00:22:34,000
+If all the existing machine learning algorithms actually do not suit your application very well,
+
+434
+00:22:34,000 --> 00:22:39,000
+then you should actually develop your own learning algorithm or learn your own model
+
+435
+00:22:39,000 --> 00:22:45,000
+in order to produce the best performance or optimal performance for these specific applications.
+
+436
+00:22:45,000 --> 00:22:46,000
+Okay.
+
+437
+00:22:46,000 --> 00:22:51,000
+So these are actually learning the three steps that normally go through a few rounds.
+
+438
+00:22:51,000 --> 00:22:57,000
+In order to produce actually ideal performance for a given task.
+
+439
+00:22:57,000 --> 00:23:01,000
+Okay.
+
+440
+00:23:01,000 --> 00:23:05,000
+So let's look at the basic types of data in machine learning.
+
+441
+00:23:05,000 --> 00:23:14,000
+And so a dataset is a collection of related information or records.
+
+442
+00:23:14,000 --> 00:23:16,000
+So this is a dataset, right?
+
+443
+00:23:16,000 --> 00:23:21,000
+And the information may be on some entity or some subject.
+
+444
+00:23:21,000 --> 00:23:24,000
+So here maybe we look at one example.
+
+445
+00:23:24,000 --> 00:23:27,000
+So this is a student dataset.
+
+446
+00:23:27,000 --> 00:23:28,000
+Okay.
+
+447
+00:23:28,000 --> 00:23:30,000
+So it's a collection of records.
+
+448
+00:23:30,000 --> 00:23:36,000
+So a dataset is a collection of records which contain related or relevant information.
+
+449
+00:23:36,000 --> 00:23:37,000
+Okay.
+
+450
+00:23:37,000 --> 00:23:39,000
+So these are student dataset.
+
+451
+00:23:39,000 --> 00:23:50,000
+So these are the dataset records actually on the information of many students on different entity or subject, right?
+
+452
+00:23:50,000 --> 00:24:01,000
+So like we call the rule number, matriculation number, and the name, and the agenda, and also the age.
+
+453
+00:24:01,000 --> 00:24:03,000
+So we call all this information.
+
+454
+00:24:03,000 --> 00:24:05,000
+This is a student dataset.
+
+455
+00:24:05,000 --> 00:24:06,000
+Okay.
+
+456
+00:24:06,000 --> 00:24:08,000
+So a dataset is a collection, right?
+
+457
+00:24:08,000 --> 00:24:10,000
+Not just one sample.
+
+458
+00:24:10,000 --> 00:24:12,000
+Not just one, right?
+
+459
+00:24:12,000 --> 00:24:14,000
+We have a lot of records.
+
+460
+00:24:14,000 --> 00:24:17,000
+So this is a dataset.
+
+461
+00:24:17,000 --> 00:24:22,000
+And this is another dataset, the student performance dataset.
+
+462
+00:24:22,000 --> 00:24:33,000
+So we have the rule number, the matriculation number, and then the result, the score for math, the score for science, and the percentile or percentage.
+
+463
+00:24:33,000 --> 00:24:34,000
+Okay.
+
+464
+00:24:34,000 --> 00:24:36,000
+So this is another dataset.
+
+465
+00:24:36,000 --> 00:24:40,000
+And in this table, we have a lot of rules, right?
+
+466
+00:24:40,000 --> 00:24:54,000
+So normally the rule normally is that each rule is one sample.
+
+467
+00:24:54,000 --> 00:24:55,000
+Okay.
+
+468
+00:24:55,000 --> 00:25:00,000
+So each rule of a dataset is called a sample.
+
+469
+00:25:00,000 --> 00:25:01,000
+A sample, right?
+
+470
+00:25:01,000 --> 00:25:02,000
+So a sample.
+
+471
+00:25:02,000 --> 00:25:09,000
+So actually the rule one, actually the matriculation number, and also the math, and the science result, and also percentage.
+
+472
+00:25:09,000 --> 00:25:14,000
+So one rule will correspond to one sample.
+
+473
+00:25:14,000 --> 00:25:15,000
+Okay.
+
+474
+00:25:15,000 --> 00:25:20,000
+So that means a dataset normally contains a large number of samples, right?
+
+475
+00:25:20,000 --> 00:25:21,000
+Not just one sample.
+
+476
+00:25:21,000 --> 00:25:23,000
+One sample is not called a dataset.
+
+477
+00:25:23,000 --> 00:25:24,000
+It's a collection.
+
+478
+00:25:24,000 --> 00:25:25,000
+Okay.
+
+479
+00:25:25,000 --> 00:25:29,000
+So we must have multiple samples.
+
+480
+00:25:29,000 --> 00:25:30,000
+Okay.
+
+481
+00:25:30,000 --> 00:25:36,000
+And also each data actually has multiple attributes.
+
+482
+00:25:36,000 --> 00:25:46,000
+So in this dataset, so the rule number actually, so then each attribute corresponds to one column in the table in the dataset.
+
+483
+00:25:46,000 --> 00:25:47,000
+Okay.
+
+484
+00:25:47,000 --> 00:25:53,000
+So we have the record number, rule number, and we have the math, and then we have the science, and then we have the percentage.
+
+485
+00:25:53,000 --> 00:25:56,000
+So these are the four attributes.
+
+486
+00:25:56,000 --> 00:26:08,000
+So each rule is one sample, and each column is one attribute.
+
+487
+00:26:08,000 --> 00:26:13,000
+And this attribute is also called feature, or actually variables.
+
+488
+00:26:13,000 --> 00:26:14,000
+Okay.
+
+489
+00:26:14,000 --> 00:26:22,000
+In statistics, actually, you know, model fitting, normally they call actually like variables.
+
+490
+00:26:22,000 --> 00:26:27,000
+In machine learning, these are quite often called actually attributes or feature.
+
+491
+00:26:27,000 --> 00:26:28,000
+Okay.
+
+492
+00:26:28,000 --> 00:26:32,000
+So in this example, actually, you know, we have, you know, four features, right?
+
+493
+00:26:32,000 --> 00:26:39,000
+Rule number, the science result, the math result, and also the percentage.
+
+494
+00:26:39,000 --> 00:26:42,000
+There are four actually features.
+
+495
+00:26:42,000 --> 00:26:44,000
+Okay.
+
+496
+00:26:44,000 --> 00:26:47,000
+So how many features in a dataset?
+
+497
+00:26:47,000 --> 00:26:49,000
+This depends on application.
+
+498
+00:26:49,000 --> 00:26:50,000
+Okay.
+
+499
+00:26:50,000 --> 00:26:58,000
+So in the past, actually, you know, I used to actually handle some, like, GMAC query data.
+
+500
+00:26:58,000 --> 00:27:06,000
+Actually, the terminology could be 40,000, but the sample could be just a few, like a few hundred.
+
+501
+00:27:06,000 --> 00:27:10,000
+But the columns could be 40,000.
+
+502
+00:27:10,000 --> 00:27:11,000
+Okay.
+
+503
+00:27:11,000 --> 00:27:15,000
+So these are really dependent application, how many features, right?
+
+504
+00:27:15,000 --> 00:27:24,000
+And to use, in particular, at the beginning, initially, how many features you use in the data collection stage, right?
+
+505
+00:27:24,000 --> 00:27:25,000
+Okay.
+
+506
+00:27:25,000 --> 00:27:29,000
+So these are now the sample and attribute of features.
+
+507
+00:27:29,000 --> 00:27:30,000
+Okay.
+
+508
+00:27:30,000 --> 00:27:32,000
+So these are about the data, right?
+
+509
+00:27:32,000 --> 00:27:35,000
+And let's look at the data type.
+
+510
+00:27:35,000 --> 00:27:40,000
+So data can be broadly divided into two types.
+
+511
+00:27:40,000 --> 00:27:44,000
+One is qualitative data, qualitative data.
+
+512
+00:27:44,000 --> 00:27:46,000
+Another is quantitative data.
+
+513
+00:27:46,000 --> 00:27:47,000
+Okay.
+
+514
+00:27:47,000 --> 00:27:49,000
+So what is qualitative data?
+
+515
+00:27:49,000 --> 00:27:52,000
+It's about quality.
+
+516
+00:27:52,000 --> 00:27:57,000
+Qualitative data is about the information quality, quality.
+
+517
+00:27:57,000 --> 00:28:03,000
+And so this quality normally cannot be measured, cannot be measured.
+
+518
+00:28:03,000 --> 00:28:04,000
+Okay.
+
+519
+00:28:04,000 --> 00:28:07,000
+So this is qualitative data.
+
+520
+00:28:07,000 --> 00:28:11,000
+And here are some examples.
+
+521
+00:28:11,000 --> 00:28:12,000
+Okay.
+
+522
+00:28:12,000 --> 00:28:15,000
+For example, about the performance, right?
+
+523
+00:28:15,000 --> 00:28:21,000
+And we can use actually, like, you know, good average or per or very good, excellent.
+
+524
+00:28:21,000 --> 00:28:23,000
+All these actually can be used.
+
+525
+00:28:23,000 --> 00:28:29,000
+So normally, actually, the qualitative data, the values are named values, named values.
+
+526
+00:28:29,000 --> 00:28:30,000
+Not numerical value, right?
+
+527
+00:28:30,000 --> 00:28:31,000
+Not a number.
+
+528
+00:28:31,000 --> 00:28:35,000
+But given actually, you know, this is called named value.
+
+529
+00:28:35,000 --> 00:28:36,000
+Named value.
+
+530
+00:28:36,000 --> 00:28:37,000
+Okay.
+
+531
+00:28:37,000 --> 00:28:38,000
+So good, very good.
+
+532
+00:28:38,000 --> 00:28:39,000
+Okay.
+
+533
+00:28:39,000 --> 00:28:40,000
+About gender, right?
+
+534
+00:28:40,000 --> 00:28:42,000
+Male or female, right?
+
+535
+00:28:42,000 --> 00:28:44,000
+So these are named values.
+
+536
+00:28:44,000 --> 00:28:45,000
+Okay.
+
+537
+00:28:45,000 --> 00:28:49,000
+And talk about the university, right?
+
+538
+00:28:49,000 --> 00:28:53,000
+So NTU, NUS, SMU, SUTD in Singapore.
+
+539
+00:28:53,000 --> 00:28:56,000
+So these are the named values.
+
+540
+00:28:56,000 --> 00:28:57,000
+Okay.
+
+541
+00:28:57,000 --> 00:29:00,000
+So these named values are qualitative.
+
+542
+00:29:00,000 --> 00:29:01,000
+Okay.
+
+543
+00:29:01,000 --> 00:29:02,000
+Okay.
+
+544
+00:29:02,000 --> 00:29:10,000
+So qualitative data is also called categorical.
+
+545
+00:29:10,000 --> 00:29:11,000
+Categorical.
+
+546
+00:29:11,000 --> 00:29:12,000
+Okay.
+
+547
+00:29:12,000 --> 00:29:16,000
+And actually even qualitative data, just now I mentioned, right?
+
+548
+00:29:16,000 --> 00:29:18,000
+Actually, we give some example.
+
+549
+00:29:18,000 --> 00:29:21,000
+Actually, it can be further divided into two types.
+
+550
+00:29:21,000 --> 00:29:22,000
+Okay.
+
+551
+00:29:22,000 --> 00:29:24,000
+One type is called nominal data.
+
+552
+00:29:24,000 --> 00:29:27,000
+Another type is called ordinal.
+
+553
+00:29:27,000 --> 00:29:28,000
+Okay.
+
+554
+00:29:28,000 --> 00:29:30,000
+So the difference is between the two.
+
+555
+00:29:30,000 --> 00:29:31,000
+Okay.
+
+556
+00:29:31,000 --> 00:29:38,000
+So what is nominal data?
+
+557
+00:29:38,000 --> 00:29:43,000
+So nominal data is one which have no numerical value, but a named value.
+
+558
+00:29:43,000 --> 00:29:45,000
+Named value, right?
+
+559
+00:29:45,000 --> 00:29:47,000
+Just now, that's very good.
+
+560
+00:29:47,000 --> 00:29:49,000
+Actually, these are all named value, right?
+
+561
+00:29:49,000 --> 00:29:51,000
+Certainly, it's named value.
+
+562
+00:29:51,000 --> 00:29:52,000
+This is one.
+
+563
+00:29:52,000 --> 00:29:53,000
+Okay.
+
+564
+00:29:53,000 --> 00:29:54,000
+Named value.
+
+565
+00:29:54,000 --> 00:29:55,000
+Okay.
+
+566
+00:29:55,000 --> 00:29:59,000
+So for example, for black group A, black type, right?
+
+567
+00:29:59,000 --> 00:30:03,000
+Black type A, type B, type O, type AB, right?
+
+568
+00:30:03,000 --> 00:30:06,000
+So these are actually the named value, nominal.
+
+569
+00:30:06,000 --> 00:30:12,000
+And also called by the nationality, Chinese, Singaporean, Indian, American.
+
+570
+00:30:12,000 --> 00:30:14,000
+So all these actually are named values.
+
+571
+00:30:14,000 --> 00:30:16,000
+So they're nominal data.
+
+572
+00:30:16,000 --> 00:30:17,000
+Okay.
+
+573
+00:30:17,000 --> 00:30:21,000
+And another example, yeah, these are gender, right?
+
+574
+00:30:21,000 --> 00:30:22,000
+Male, female.
+
+575
+00:30:22,000 --> 00:30:23,000
+Okay.
+
+576
+00:30:23,000 --> 00:30:27,000
+So these are important, actually, characteristic for the nominal data.
+
+577
+00:30:27,000 --> 00:30:33,000
+So nominal data, for nominal data, we cannot perform these mathematical operations like
+
+578
+00:30:33,000 --> 00:30:37,000
+addition, subtraction, multiplication.
+
+579
+00:30:37,000 --> 00:30:38,000
+Okay.
+
+580
+00:30:38,000 --> 00:30:42,000
+And of course, actually, then we cannot have the mean value.
+
+581
+00:30:42,000 --> 00:30:48,000
+For example, in this class, actually, many students have no black type of A. Some have
+
+582
+00:30:48,000 --> 00:30:52,000
+black type B. Some have type C. No, C, sorry.
+
+583
+00:30:52,000 --> 00:30:53,000
+Some have AB, right?
+
+584
+00:30:53,000 --> 00:30:55,000
+Then we talk about, is there a value?
+
+585
+00:30:55,000 --> 00:31:00,000
+What is the average black type of this class, of the student class group?
+
+586
+00:31:00,000 --> 00:31:01,000
+We don't have these, right?
+
+587
+00:31:01,000 --> 00:31:04,000
+We don't have average black type.
+
+588
+00:31:04,000 --> 00:31:11,000
+So this is because actually we cannot perform the summations, actually the addition.
+
+589
+00:31:11,000 --> 00:31:12,000
+Okay.
+
+590
+00:31:12,000 --> 00:31:14,000
+So then we cannot have the mean value.
+
+591
+00:31:14,000 --> 00:31:17,000
+Of course, we cannot have the standard variance.
+
+592
+00:31:17,000 --> 00:31:20,000
+We cannot have the average.
+
+593
+00:31:20,000 --> 00:31:21,000
+Okay.
+
+594
+00:31:21,000 --> 00:31:26,000
+So these are characteristic of the, actually, the nominal data.
+
+595
+00:31:26,000 --> 00:31:30,000
+We cannot perform these kind of operations, right, mathematical operations.
+
+596
+00:31:30,000 --> 00:31:31,000
+Okay.
+
+597
+00:31:31,000 --> 00:31:37,000
+So the nationality, some are Chinese, some are Indian in this classroom, some Singaporeans.
+
+598
+00:31:37,000 --> 00:31:39,000
+So what is the average nationality?
+
+599
+00:31:39,000 --> 00:31:41,000
+There are no such thing, right?
+
+600
+00:31:41,000 --> 00:31:43,000
+No nationality.
+
+601
+00:31:43,000 --> 00:31:46,000
+You can see the average result, right?
+
+602
+00:31:47,000 --> 00:31:52,000
+Average GPA, but we don't have average nationality, right?
+
+603
+00:31:52,000 --> 00:31:54,000
+We don't have this number.
+
+604
+00:31:54,000 --> 00:31:55,000
+Okay.
+
+605
+00:31:55,000 --> 00:31:56,000
+But we can use others.
+
+606
+00:31:56,000 --> 00:32:01,000
+Later we will see that we can use the so-called mode actually for this kind of data.
+
+607
+00:32:01,000 --> 00:32:02,000
+Okay.
+
+608
+00:32:02,000 --> 00:32:04,000
+But we cannot have the average.
+
+609
+00:32:04,000 --> 00:32:06,000
+We cannot have the mean, right?
+
+610
+00:32:06,000 --> 00:32:07,000
+Okay.
+
+611
+00:32:07,000 --> 00:32:11,000
+So these are the nominal data.
+
+612
+00:32:11,000 --> 00:32:12,000
+Okay.
+
+613
+00:32:12,000 --> 00:32:14,000
+See the nominal.
+
+614
+00:32:14,000 --> 00:32:17,000
+And then another type is called ordinal.
+
+615
+00:32:17,000 --> 00:32:18,000
+Ordinal.
+
+616
+00:32:18,000 --> 00:32:26,000
+And ordinal is also kind of similar to the nominal data, but actually the data can be
+
+617
+00:32:26,000 --> 00:32:27,000
+ordered.
+
+618
+00:32:27,000 --> 00:32:29,000
+The data can be ordered.
+
+619
+00:32:29,000 --> 00:32:35,000
+So ordinal data actually also assign name the value to attribute name the value, but
+
+620
+00:32:35,000 --> 00:32:41,000
+actually this name the value can be actually arranged in a sequence.
+
+621
+00:32:42,000 --> 00:32:45,000
+In ascending order or descending order.
+
+622
+00:32:45,000 --> 00:32:48,000
+Increasing or decreasing.
+
+623
+00:32:48,000 --> 00:32:49,000
+Okay.
+
+624
+00:32:49,000 --> 00:32:54,000
+So we can also see one value is greater or better than another value.
+
+625
+00:32:54,000 --> 00:32:59,000
+So this kind of data actually are called ordinal.
+
+626
+00:32:59,000 --> 00:33:00,000
+Okay.
+
+627
+00:33:00,000 --> 00:33:03,000
+So here are some examples.
+
+628
+00:33:03,000 --> 00:33:05,000
+And we talk about the result.
+
+629
+00:33:05,000 --> 00:33:08,000
+Happy, unhappy, or very happy.
+
+630
+00:33:08,000 --> 00:33:11,000
+Happy, very happy, happy, unhappy.
+
+631
+00:33:11,000 --> 00:33:12,000
+Okay.
+
+632
+00:33:12,000 --> 00:33:15,000
+Or when we talk about the, like, you know, the grid.
+
+633
+00:33:15,000 --> 00:33:19,000
+We talk about get A, you get B or get C, right?
+
+634
+00:33:19,000 --> 00:33:23,000
+And we know A is better than B than C. Better B is better than C.
+
+635
+00:33:23,000 --> 00:33:24,000
+There is a sequence.
+
+636
+00:33:24,000 --> 00:33:28,000
+Although they are named the value, but there could be a sequence.
+
+637
+00:33:28,000 --> 00:33:29,000
+Right?
+
+638
+00:33:29,000 --> 00:33:32,000
+One value could be better or greater than another value.
+
+639
+00:33:32,000 --> 00:33:34,000
+So this is called ordinal.
+
+640
+00:33:34,000 --> 00:33:35,000
+Okay.
+
+641
+00:33:35,000 --> 00:33:38,000
+And actually this is probably similar to numerical values.
+
+642
+00:33:38,000 --> 00:33:41,000
+To the actually quantitative data.
+
+643
+00:33:41,000 --> 00:33:43,000
+And that could be an order.
+
+644
+00:33:43,000 --> 00:33:44,000
+Okay.
+
+645
+00:33:44,000 --> 00:33:47,000
+When we talk about the height of a person, right?
+
+646
+00:33:47,000 --> 00:33:52,000
+So later we will see 175, 160, 60.
+
+647
+00:33:52,000 --> 00:33:59,000
+And we can have actually arranged in a sequence of increasing or decreasing order.
+
+648
+00:33:59,000 --> 00:34:00,000
+Okay.
+
+649
+00:34:00,000 --> 00:34:03,000
+And this is actually quantitative data.
+
+650
+00:34:03,000 --> 00:34:04,000
+Quantitative data.
+
+651
+00:34:04,000 --> 00:34:05,000
+Okay.
+
+652
+00:34:05,000 --> 00:34:10,000
+So this ordinal in this aspect is very similar to the quantitative data.
+
+653
+00:34:10,000 --> 00:34:11,000
+Okay.
+
+654
+00:34:11,000 --> 00:34:16,000
+So the hardness of metal are very hard, hard to solve.
+
+655
+00:34:16,000 --> 00:34:17,000
+Right?
+
+656
+00:34:17,000 --> 00:34:19,000
+So we can put them into a sequence.
+
+657
+00:34:19,000 --> 00:34:20,000
+Okay.
+
+658
+00:34:20,000 --> 00:34:28,000
+And for this ordinal data, okay, and we cannot find the mean.
+
+659
+00:34:28,000 --> 00:34:32,000
+But we can find the median because we can put them into sequence.
+
+660
+00:34:32,000 --> 00:34:33,000
+Right?
+
+661
+00:34:33,000 --> 00:34:34,000
+Into a sequence.
+
+662
+00:34:34,000 --> 00:34:36,000
+And then actually we can put the median.
+
+663
+00:34:36,000 --> 00:34:38,000
+We can get a median value.
+
+664
+00:34:38,000 --> 00:34:40,000
+So what is the median value in the middle?
+
+665
+00:34:40,000 --> 00:34:41,000
+Okay.
+
+666
+00:34:41,000 --> 00:34:43,000
+So these are ordinals.
+
+667
+00:34:43,000 --> 00:34:44,000
+Okay.
+
+668
+00:34:44,000 --> 00:34:46,000
+So we can look at these properties.
+
+669
+00:34:46,000 --> 00:34:47,000
+Right?
+
+670
+00:34:47,000 --> 00:34:51,000
+So these probably are the, you have seen these kind of variables, but probably have never
+
+671
+00:34:51,000 --> 00:34:55,000
+thought about whether we can perform operations on them.
+
+672
+00:34:55,000 --> 00:34:56,000
+Okay.
+
+673
+00:34:56,000 --> 00:35:02,000
+So this also, this property determines the linear algorithm or the model we should use.
+
+674
+00:35:02,000 --> 00:35:07,000
+Actually, in some model, we assume that it's all continuous.
+
+675
+00:35:07,000 --> 00:35:08,000
+Okay.
+
+676
+00:35:08,000 --> 00:35:10,000
+And the quantitative data.
+
+677
+00:35:10,000 --> 00:35:11,000
+Okay.
+
+678
+00:35:11,000 --> 00:35:15,000
+And then we assume the following normal distribution, for example.
+
+679
+00:35:15,000 --> 00:35:16,000
+Okay.
+
+680
+00:35:16,000 --> 00:35:19,000
+And so if the data is mixed, contains something like this.
+
+681
+00:35:19,000 --> 00:35:20,000
+Right?
+
+682
+00:35:20,000 --> 00:35:23,000
+Then we should not actually assume the following normal distribution.
+
+683
+00:35:23,000 --> 00:35:24,000
+Right?
+
+684
+00:35:24,000 --> 00:35:29,000
+Because we cannot use actually the distance calculations.
+
+685
+00:35:29,000 --> 00:35:30,000
+Okay.
+
+686
+00:35:30,000 --> 00:35:34,000
+So this is the, yeah, ordinal.
+
+687
+00:35:34,000 --> 00:35:38,000
+And then the first timer, qualitative data.
+
+688
+00:35:38,000 --> 00:35:41,000
+Then the next one is quantitative data.
+
+689
+00:35:41,000 --> 00:35:47,000
+Quantitative data, we know the information about quantity.
+
+690
+00:35:47,000 --> 00:35:48,000
+Quantity.
+
+691
+00:35:48,000 --> 00:35:50,000
+And it can be measured.
+
+692
+00:35:50,000 --> 00:35:52,000
+It can be measured.
+
+693
+00:35:52,000 --> 00:35:53,000
+Okay.
+
+694
+00:35:53,000 --> 00:35:57,000
+And the quantitative data is also termed numerical data.
+
+695
+00:35:57,000 --> 00:35:58,000
+Okay.
+
+696
+00:35:58,000 --> 00:36:01,000
+So categorical and not the numerical.
+
+697
+00:36:01,000 --> 00:36:02,000
+Okay.
+
+698
+00:36:02,000 --> 00:36:06,000
+Categorical, that means actually the data values are the categories.
+
+699
+00:36:06,000 --> 00:36:07,000
+Good, very good.
+
+700
+00:36:07,000 --> 00:36:08,000
+Actually, no.
+
+701
+00:36:08,000 --> 00:36:09,000
+Average.
+
+702
+00:36:09,000 --> 00:36:10,000
+Right?
+
+703
+00:36:10,000 --> 00:36:11,000
+Or per.
+
+704
+00:36:11,000 --> 00:36:13,000
+So these are category.
+
+705
+00:36:13,000 --> 00:36:14,000
+Okay.
+
+706
+00:36:14,000 --> 00:36:16,000
+And the black type.
+
+707
+00:36:16,000 --> 00:36:17,000
+Right?
+
+708
+00:36:17,000 --> 00:36:20,000
+Category A, category B, categories O, category AB.
+
+709
+00:36:20,000 --> 00:36:22,000
+So these are categorical.
+
+710
+00:36:22,000 --> 00:36:23,000
+Okay.
+
+711
+00:36:23,000 --> 00:36:29,000
+And then for the quantitative data, they are also called the numerical.
+
+712
+00:36:29,000 --> 00:36:32,000
+Numerical, numbers, right?
+
+713
+00:36:32,000 --> 00:36:33,000
+Numbers.
+
+714
+00:36:33,000 --> 00:36:34,000
+Okay.
+
+715
+00:36:34,000 --> 00:36:35,000
+Okay.
+
+716
+00:36:35,000 --> 00:36:41,000
+So for this quantitative data, and we can further divide them into two types.
+
+717
+00:36:41,000 --> 00:36:43,000
+One type is called interval data.
+
+718
+00:36:43,000 --> 00:36:46,000
+Another type is called ratio data.
+
+719
+00:36:46,000 --> 00:36:47,000
+Interval.
+
+720
+00:36:47,000 --> 00:36:48,000
+Okay.
+
+721
+00:36:49,000 --> 00:36:54,000
+A Buddha tree, of course, data tree and numerical data.
+
+722
+00:36:54,000 --> 00:37:01,000
+And interval data, numerical data, not only the order is known, but the difference between
+
+723
+00:37:01,000 --> 00:37:02,000
+them is also known.
+
+724
+00:37:02,000 --> 00:37:03,000
+The difference.
+
+725
+00:37:03,000 --> 00:37:04,000
+Okay.
+
+726
+00:37:04,000 --> 00:37:06,000
+For example, we talk about the temperature, right?
+
+727
+00:37:06,000 --> 00:37:08,000
+Now it's 25 degree.
+
+728
+00:37:08,000 --> 00:37:15,000
+And then if there is a 10 degree, there's a difference of 15 degree, right?
+
+729
+00:37:15,000 --> 00:37:21,000
+So this 15 degree, you can understand that this is exactly the meaning of this 15 degrees
+
+730
+00:37:21,000 --> 00:37:22,000
+difference.
+
+731
+00:37:22,000 --> 00:37:23,000
+Okay.
+
+732
+00:37:23,000 --> 00:37:28,000
+So this is interval data.
+
+733
+00:37:28,000 --> 00:37:32,000
+Okay.
+
+734
+00:37:32,000 --> 00:37:34,000
+So for interval data, I did not quantitative data.
+
+735
+00:37:34,000 --> 00:37:42,000
+Normally this operation like addition, subtraction possible could be conducted or performed.
+
+736
+00:37:43,000 --> 00:37:46,000
+And also a tree, the central tendency, the mean.
+
+737
+00:37:46,000 --> 00:37:48,000
+Later we will look at this further.
+
+738
+00:37:48,000 --> 00:37:54,000
+Central tendency or the mean of the data could be calculated.
+
+739
+00:37:54,000 --> 00:37:55,000
+Okay.
+
+740
+00:37:55,000 --> 00:37:56,000
+Because we can use the summation, right?
+
+741
+00:37:56,000 --> 00:37:58,000
+This is the numerical data tree.
+
+742
+00:37:58,000 --> 00:38:01,000
+We can look at the mean, which is the central tendency.
+
+743
+00:38:01,000 --> 00:38:04,000
+And also a tree, we can look at the standard deviations.
+
+744
+00:38:04,000 --> 00:38:05,000
+Okay.
+
+745
+00:38:05,000 --> 00:38:06,000
+The variance.
+
+746
+00:38:06,000 --> 00:38:07,000
+Okay.
+
+747
+00:38:08,000 --> 00:38:09,000
+Okay.
+
+748
+00:38:09,000 --> 00:38:14,000
+So this is a tree, the interval data, ratio data.
+
+749
+00:38:14,000 --> 00:38:21,000
+And ratio data actually represent the numerical data for which the exact value can be measured.
+
+750
+00:38:21,000 --> 00:38:24,000
+So this similar to the interval data.
+
+751
+00:38:24,000 --> 00:38:29,000
+And the tree in the interval data, no absolute zero.
+
+752
+00:38:29,000 --> 00:38:33,000
+But in the ratio data, there is absolute zero.
+
+753
+00:38:33,000 --> 00:38:34,000
+Okay.
+
+754
+00:38:34,000 --> 00:38:37,000
+So this is the definition of the ratio data.
+
+755
+00:38:37,000 --> 00:38:44,000
+And also the data can perform addition, subtraction, the multiplication operation.
+
+756
+00:38:44,000 --> 00:38:45,000
+Okay.
+
+757
+00:38:45,000 --> 00:38:49,000
+So central tendency can be calculated.
+
+758
+00:38:49,000 --> 00:38:53,000
+And the tree in practice, the tree, although this data can be put into different categories.
+
+759
+00:38:53,000 --> 00:39:03,000
+So quite often we don't try to differentiate the two types of the quantitative data.
+
+760
+00:39:03,000 --> 00:39:04,000
+The numerical data.
+
+761
+00:39:04,000 --> 00:39:05,000
+Okay.
+
+762
+00:39:05,000 --> 00:39:09,000
+There's a big difference between the two, but actually not much.
+
+763
+00:39:09,000 --> 00:39:10,000
+Okay.
+
+764
+00:39:10,000 --> 00:39:17,000
+So in practice, we normally don't actually try to differentiate whether this data is
+
+765
+00:39:17,000 --> 00:39:20,000
+an interval data or whether this data is a ratio data.
+
+766
+00:39:20,000 --> 00:39:23,000
+We just consider them numerical data.
+
+767
+00:39:23,000 --> 00:39:31,000
+But for the two categorical type of data, nominal and ordinal, actually sometimes need
+
+768
+00:39:31,000 --> 00:39:34,000
+to be differentiated.
+
+769
+00:39:34,000 --> 00:39:35,000
+Okay.
+
+770
+00:39:35,000 --> 00:39:43,000
+And for example, actually even a tree in the literature, I think in some way we all study
+
+771
+00:39:43,000 --> 00:39:45,000
+a decision tree.
+
+772
+00:39:45,000 --> 00:39:50,000
+Sometimes the tree, one, the data decision tree, the tree structure and the classifier.
+
+773
+00:39:50,000 --> 00:39:56,000
+And in one node, we need to put the data into two categories, right, into two parts normally
+
+774
+00:39:56,000 --> 00:39:58,000
+based on a certain rule.
+
+775
+00:39:58,000 --> 00:40:04,000
+And if the data is an ordinal, and then we can use something like if this feature is
+
+776
+00:40:04,000 --> 00:40:06,000
+greater than some value.
+
+777
+00:40:06,000 --> 00:40:07,000
+Okay.
+
+778
+00:40:07,000 --> 00:40:11,000
+If the result is greater than good, that means even very good, right?
+
+779
+00:40:11,000 --> 00:40:13,000
+And then we can divide them.
+
+780
+00:40:13,000 --> 00:40:14,000
+Because ordinal.
+
+781
+00:40:14,000 --> 00:40:15,000
+Okay.
+
+782
+00:40:15,000 --> 00:40:19,000
+We can see which value is bigger than or greater than another value, right?
+
+783
+00:40:19,000 --> 00:40:24,000
+If this is nominal, we cannot see, you know, use greater than something, right, or less
+
+784
+00:40:24,000 --> 00:40:25,000
+than something.
+
+785
+00:40:25,000 --> 00:40:31,000
+But we can use actually if a value equals something, and then we divide them in, then
+
+786
+00:40:31,000 --> 00:40:35,000
+equal, and then equal, right, divide the data into two sets.
+
+787
+00:40:35,000 --> 00:40:36,000
+Okay.
+
+788
+00:40:36,000 --> 00:40:38,000
+So we should differentiate the nominal and ordinal.
+
+789
+00:40:38,000 --> 00:40:42,000
+When you sum classifies, we should differentiate the two types of data.
+
+790
+00:40:42,000 --> 00:40:50,000
+But for the numerical data, whether the quality is interval or ratio, normally we don't try
+
+791
+00:40:50,000 --> 00:40:54,000
+to differentiate the two types of data.
+
+792
+00:40:55,000 --> 00:41:01,000
+So this diagram just shows the categorization of the data.
+
+793
+00:41:01,000 --> 00:41:08,000
+So attributes, then we have quality or categorical data, then we have quantitative data or numerical
+
+794
+00:41:08,000 --> 00:41:09,000
+data.
+
+795
+00:41:09,000 --> 00:41:15,000
+So for each of them, we can divide them into two types, nominal, ordinal, interval, or
+
+796
+00:41:15,000 --> 00:41:16,000
+ratio.
+
+797
+00:41:16,000 --> 00:41:17,000
+Okay.
+
+798
+00:41:17,000 --> 00:41:23,000
+So we need to understand the nature of the data, the type of the data.
+
+799
+00:41:23,000 --> 00:41:27,000
+And this actually, you know, I just mentioned, right, if you know the type, whether it's
+
+800
+00:41:27,000 --> 00:41:32,000
+ordinal, and then if ordinal, we can use greater than something, right, in a value.
+
+801
+00:41:32,000 --> 00:41:33,000
+Okay.
+
+802
+00:41:33,000 --> 00:41:39,000
+And what is greater, actually, in the computer part of this actually, very good or good or
+
+803
+00:41:39,000 --> 00:41:43,000
+bad, actually, powerful is denoted by numerical value law.
+
+804
+00:41:43,000 --> 00:41:44,000
+Okay.
+
+805
+00:41:44,000 --> 00:41:51,000
+For example, good, okay, good, you know, we started from bad, very good.
+
+806
+00:41:51,000 --> 00:41:54,000
+For example, it's four, okay.
+
+807
+00:41:54,000 --> 00:42:01,000
+And then good is three, and then actually, you know, the average is two, and then per
+
+808
+00:42:01,000 --> 00:42:02,000
+is one.
+
+809
+00:42:02,000 --> 00:42:03,000
+Okay.
+
+810
+00:42:03,000 --> 00:42:05,000
+So something that we can use greater than something, right.
+
+811
+00:42:05,000 --> 00:42:10,000
+If this actually is like a performance, it's greater than two.
+
+812
+00:42:10,000 --> 00:42:11,000
+Okay.
+
+813
+00:42:11,000 --> 00:42:13,000
+Because this is not ordinal, we can use this, right.
+
+814
+00:42:13,000 --> 00:42:19,000
+So if this is nominal, then we can reuse whether this value is equal to this blood type.
+
+815
+00:42:19,000 --> 00:42:22,000
+We cannot see our blood type is greater than something.
+
+816
+00:42:22,000 --> 00:42:28,000
+We cannot see that.
+
+817
+00:42:28,000 --> 00:42:30,000
+Okay.
+
+818
+00:42:30,000 --> 00:42:32,000
+Okay.
+
+819
+00:42:32,000 --> 00:42:36,000
+So this is another kind of categorization for the data.
+
+820
+00:42:36,000 --> 00:42:40,000
+So in this data, they seem to consider that discrete or continuous.
+
+821
+00:42:40,000 --> 00:42:41,000
+Okay.
+
+822
+00:42:41,000 --> 00:42:49,000
+The data, whether this feature or this data is discrete or this data is continuous.
+
+823
+00:42:49,000 --> 00:42:55,000
+So we use this actually, the data is simply putting these two groups or two categories.
+
+824
+00:42:55,000 --> 00:42:56,000
+Okay.
+
+825
+00:42:56,000 --> 00:43:06,000
+For the discrete, that means that this feature or this attribute, we have limited possible
+
+826
+00:43:06,000 --> 00:43:07,000
+values.
+
+827
+00:43:07,000 --> 00:43:10,000
+Just now, we use a gender, right, the gender.
+
+828
+00:43:10,000 --> 00:43:14,000
+Male, female, just two possible values, right.
+
+829
+00:43:14,000 --> 00:43:15,000
+The blood types.
+
+830
+00:43:15,000 --> 00:43:16,000
+Okay.
+
+831
+00:43:16,000 --> 00:43:18,000
+A, B, A, B, O.
+
+832
+00:43:18,000 --> 00:43:20,000
+Only has four types.
+
+833
+00:43:20,000 --> 00:43:23,000
+So these possible values, they were limited.
+
+834
+00:43:23,000 --> 00:43:25,000
+Two and four, right.
+
+835
+00:43:25,000 --> 00:43:32,000
+And just now in the result, okay, good average per three categories, three possible results.
+
+836
+00:43:32,000 --> 00:43:33,000
+Okay.
+
+837
+00:43:33,000 --> 00:43:36,000
+So this is the kind of data actually is a discrete.
+
+838
+00:43:36,000 --> 00:43:37,000
+Okay.
+
+839
+00:43:37,000 --> 00:43:38,000
+So we still have a finite.
+
+840
+00:43:38,000 --> 00:43:39,000
+Okay.
+
+841
+00:43:39,000 --> 00:43:40,000
+Okay.
+
+842
+00:43:40,000 --> 00:43:41,000
+Okay.
+
+843
+00:43:41,000 --> 00:43:45,000
+So actually our count of countably infinite.
+
+844
+00:43:45,000 --> 00:43:50,000
+They mean this number could be very large, huge.
+
+845
+00:43:50,000 --> 00:43:51,000
+Okay.
+
+846
+00:43:51,000 --> 00:43:54,000
+But there is a correspondence shape with a natural number.
+
+847
+00:43:54,000 --> 00:43:58,000
+Although the number is bigger, right, then this one, actually this number could correspond
+
+848
+00:43:58,000 --> 00:43:59,000
+to a one.
+
+849
+00:43:59,000 --> 00:44:02,000
+This number could correspond to, this number could correspond to one billion.
+
+850
+00:44:02,000 --> 00:44:03,000
+Right.
+
+851
+00:44:03,000 --> 00:44:07,000
+Actually there is a one to one correspondence shape with the natural number.
+
+852
+00:44:07,000 --> 00:44:09,000
+Although the number is huge.
+
+853
+00:44:09,000 --> 00:44:13,000
+So this, it is still considered as a discrete.
+
+854
+00:44:13,000 --> 00:44:14,000
+Okay.
+
+855
+00:44:14,000 --> 00:44:16,000
+So quite often we think about a discrete.
+
+856
+00:44:16,000 --> 00:44:19,000
+We think about the only limited value, right, limited.
+
+857
+00:44:19,000 --> 00:44:23,000
+But this value could be huge, countable, infinite.
+
+858
+00:44:23,000 --> 00:44:24,000
+Okay.
+
+859
+00:44:24,000 --> 00:44:29,000
+So that means actually as long as there is a one to one correspondence shape with actually
+
+860
+00:44:29,000 --> 00:44:30,000
+a natural number.
+
+861
+00:44:30,000 --> 00:44:33,000
+Natural number could be a very big number, right.
+
+862
+00:44:33,000 --> 00:44:36,000
+So as long as there is such a correspondence shape.
+
+863
+00:44:36,000 --> 00:44:43,000
+And then actually, you know, it will be considered as a discrete data.
+
+864
+00:44:43,000 --> 00:44:52,000
+And so nominal data certainly not, only not, right, nominal, all actually the, you know,
+
+865
+00:44:52,000 --> 00:44:56,000
+it's a, okay.
+
+866
+00:44:56,000 --> 00:45:01,000
+If this actually discrete, only two values are male or female, right.
+
+867
+00:45:01,000 --> 00:45:03,000
+So, or female or past.
+
+868
+00:45:03,000 --> 00:45:06,000
+So this kind of value they call binary attributes.
+
+869
+00:45:06,000 --> 00:45:07,000
+Okay.
+
+870
+00:45:07,000 --> 00:45:10,000
+So these are special kind of discrete attribute.
+
+871
+00:45:10,000 --> 00:45:13,000
+Only two possible values.
+
+872
+00:45:13,000 --> 00:45:14,000
+Okay.
+
+873
+00:45:14,000 --> 00:45:21,000
+So the next actually is a continuous, continuous attributes can take many values, right.
+
+874
+00:45:21,000 --> 00:45:26,000
+Can take actually any possible values in a range.
+
+875
+00:45:26,000 --> 00:45:27,000
+Okay.
+
+876
+00:45:27,000 --> 00:45:31,000
+And actually, so we're just actually, your body weight, right.
+
+877
+00:45:31,000 --> 00:45:33,000
+These are all temperature of the room.
+
+878
+00:45:33,000 --> 00:45:35,000
+They compare the temperature, right.
+
+879
+00:45:35,000 --> 00:45:43,000
+And the 25 or .5, maybe at the beginning, later change to 26.5, and later, you know,
+
+880
+00:45:43,000 --> 00:45:45,000
+change to 26.3.
+
+881
+00:45:45,000 --> 00:45:47,000
+So any possible values.
+
+882
+00:45:47,000 --> 00:45:48,000
+Okay.
+
+883
+00:45:48,000 --> 00:45:50,000
+Yeah, I said the range, right.
+
+884
+00:45:50,000 --> 00:45:53,000
+So these are just continuous, continuous.
+
+885
+00:45:53,000 --> 00:45:54,000
+Okay.
+
+886
+00:45:54,000 --> 00:46:01,000
+So sometimes actually you differentiate actually, you know, ordinal, nominal, interval, ratio.
+
+887
+00:46:01,000 --> 00:46:08,000
+But sometimes you simply put this into two categories, discrete and continuous.
+
+888
+00:46:08,000 --> 00:46:14,000
+Okay.
+
+889
+00:46:14,000 --> 00:46:19,000
+So in general, nominal and ordinal attributes are discrete, right, because they just have
+
+890
+00:46:19,000 --> 00:46:20,000
+a limiting value.
+
+891
+00:46:20,000 --> 00:46:22,000
+They are called categorical, right.
+
+892
+00:46:22,000 --> 00:46:23,000
+Categorical.
+
+893
+00:46:23,000 --> 00:46:24,000
+Okay.
+
+894
+00:46:24,000 --> 00:46:34,000
+And interval ratio tree, they are quantitative data, so they are continuous.
+
+895
+00:46:34,000 --> 00:46:37,000
+Or they are also numeric data.
+
+896
+00:46:37,000 --> 00:46:38,000
+Okay.
+
+897
+00:46:38,000 --> 00:46:42,000
+So these are just the data types, right, the data types.
+
+898
+00:46:42,000 --> 00:46:43,000
+Okay.
+
+899
+00:46:43,000 --> 00:46:50,000
+So next actually we look at the exploration of the structure of the data.
+
+900
+00:46:50,000 --> 00:46:51,000
+Okay.
+
+901
+00:46:51,000 --> 00:46:59,000
+So when you give a data, right, when I give a data, so or when you collect the data, actually
+
+902
+00:46:59,000 --> 00:47:06,000
+quite often, actually, you know, get the data, for example, from the website, right, and
+
+903
+00:47:06,000 --> 00:47:13,000
+actually quite often actually the data is also attached with the so-called data dictionary,
+
+904
+00:47:13,000 --> 00:47:14,000
+dictionary.
+
+905
+00:47:14,000 --> 00:47:15,000
+Okay.
+
+906
+00:47:16,000 --> 00:47:24,000
+And actually this data dictionary actually presents the information of this dataset,
+
+907
+00:47:24,000 --> 00:47:25,000
+the information.
+
+908
+00:47:25,000 --> 00:47:26,000
+Okay.
+
+909
+00:47:26,000 --> 00:47:32,000
+In particular, the information about the features, the attributes, the types of attributes.
+
+910
+00:47:32,000 --> 00:47:33,000
+Okay.
+
+911
+00:47:33,000 --> 00:47:36,000
+So these are the data dictionary.
+
+912
+00:47:36,000 --> 00:47:44,000
+But if you collect data, right, you collect data, and you also want to keep the data for
+
+913
+00:47:44,000 --> 00:47:46,000
+us to use in the future.
+
+914
+00:47:46,000 --> 00:47:47,000
+Okay.
+
+915
+00:47:47,000 --> 00:47:53,000
+So probably you also need to actually now make such a data dictionary attached to a
+
+916
+00:47:53,000 --> 00:47:54,000
+certain dataset.
+
+917
+00:47:54,000 --> 00:47:55,000
+Okay.
+
+918
+00:47:55,000 --> 00:48:00,000
+So data dictionary actually introduce all its present information about the dataset,
+
+919
+00:48:00,000 --> 00:48:05,000
+in particular, about the property or natures of the features.
+
+920
+00:48:05,000 --> 00:48:06,000
+Okay.
+
+921
+00:48:06,000 --> 00:48:10,000
+Including the name of the feature, the time of the feature.
+
+922
+00:48:10,000 --> 00:48:11,000
+Okay.
+
+923
+00:48:12,000 --> 00:48:15,000
+The detail information of each of the attributes.
+
+924
+00:48:15,000 --> 00:48:16,000
+Okay.
+
+925
+00:48:16,000 --> 00:48:19,000
+So this is the data dictionary and the data type.
+
+926
+00:48:19,000 --> 00:48:20,000
+Okay.
+
+927
+00:48:20,000 --> 00:48:21,000
+Some random details.
+
+928
+00:48:21,000 --> 00:48:23,000
+Actually, sometimes you just give a feature, right?
+
+929
+00:48:23,000 --> 00:48:28,000
+You must give the, sometimes actually you need to introduce how this feature is obtained.
+
+930
+00:48:28,000 --> 00:48:29,000
+Okay.
+
+931
+00:48:29,000 --> 00:48:31,000
+And remember there is some dataset.
+
+932
+00:48:31,000 --> 00:48:32,000
+Okay.
+
+933
+00:48:32,000 --> 00:48:36,000
+So the dataset actually, it is not very raw data.
+
+934
+00:48:36,000 --> 00:48:39,000
+This data actually is derived from the image.
+
+935
+00:48:39,000 --> 00:48:40,000
+Okay.
+
+936
+00:48:41,000 --> 00:48:49,000
+This feature is the top on which property is extracted from the image feature.
+
+937
+00:48:49,000 --> 00:48:50,000
+Image.
+
+938
+00:48:50,000 --> 00:48:51,000
+Okay.
+
+939
+00:48:51,000 --> 00:48:58,000
+And this feature, second feature, is what feature, which property of the image.
+
+940
+00:48:58,000 --> 00:48:59,000
+Okay.
+
+941
+00:48:59,000 --> 00:49:00,000
+We introduce this.
+
+942
+00:49:00,000 --> 00:49:01,000
+Also give the name.
+
+943
+00:49:01,000 --> 00:49:05,000
+This feature is about the blood pressure of the patient.
+
+944
+00:49:05,000 --> 00:49:09,000
+And this is a feature about the temperature, body temperature of this patient.
+
+945
+00:49:09,000 --> 00:49:10,000
+Okay.
+
+946
+00:49:10,000 --> 00:49:13,000
+They talk about, they give, not only just give the value, right?
+
+947
+00:49:13,000 --> 00:49:17,000
+In this dictionary, they also talk about on this feature is the name of the feature.
+
+948
+00:49:17,000 --> 00:49:20,000
+How this feature actually obtained.
+
+949
+00:49:20,000 --> 00:49:21,000
+Okay.
+
+950
+00:49:21,000 --> 00:49:22,000
+Extra information about the feature.
+
+951
+00:49:22,000 --> 00:49:23,000
+Okay.
+
+952
+00:49:23,000 --> 00:49:29,000
+So of course the tree, sometimes maybe actually the detail, the dictionary is not actually
+
+953
+00:49:29,000 --> 00:49:30,000
+available.
+
+954
+00:49:30,000 --> 00:49:38,000
+And then tree, we should use some like functions in the toolbox to discover the type of the
+
+955
+00:49:38,000 --> 00:49:41,000
+features, the nature of the features.
+
+956
+00:49:41,000 --> 00:49:42,000
+Okay.
+
+957
+00:49:42,000 --> 00:49:43,000
+So these are the dictionary.
+
+958
+00:49:43,000 --> 00:49:47,000
+So here actually I just show one data dictionary.
+
+959
+00:49:47,000 --> 00:49:53,000
+Actually just actually the, if you send the machine learning, I think basically we should
+
+960
+00:49:53,000 --> 00:49:56,000
+know machine learning or data repository.
+
+961
+00:49:56,000 --> 00:49:57,000
+Okay.
+
+962
+00:49:57,000 --> 00:50:00,000
+This is the UCI, University of California at Evering.
+
+963
+00:50:00,000 --> 00:50:04,000
+Actually UCI, machine learning or data repository.
+
+964
+00:50:04,000 --> 00:50:05,000
+Okay.
+
+965
+00:50:06,000 --> 00:50:09,000
+And there are a lot of data set.
+
+966
+00:50:09,000 --> 00:50:10,000
+Okay.
+
+967
+00:50:10,000 --> 00:50:15,000
+For each data set, for example, tree for the author in the car, right?
+
+968
+00:50:15,000 --> 00:50:17,000
+Author, the MPG data set.
+
+969
+00:50:17,000 --> 00:50:19,000
+And they give this information, right?
+
+970
+00:50:19,000 --> 00:50:23,000
+The number of samples, the feature types, right?
+
+971
+00:50:23,000 --> 00:50:27,000
+And whether there are missing values, right?
+
+972
+00:50:27,000 --> 00:50:34,000
+So here then for the wearables, as we are talking about, the wearable name, like a displacement.
+
+973
+00:50:34,000 --> 00:50:39,000
+And then, so the type of the data are continuous.
+
+974
+00:50:39,000 --> 00:50:40,000
+Okay.
+
+975
+00:50:40,000 --> 00:50:46,000
+And the cylinder and all the integer types, okay, whether there are missing values or
+
+976
+00:50:46,000 --> 00:50:48,000
+not, they all give this kind of information.
+
+977
+00:50:48,000 --> 00:50:49,000
+So these are data dictionary.
+
+978
+00:50:49,000 --> 00:50:54,000
+I think it's very useful for us, right, to understand the nature of the data, the data
+
+979
+00:50:54,000 --> 00:50:55,000
+types.
+
+980
+00:50:55,000 --> 00:50:56,000
+Okay.
+
+981
+00:50:56,000 --> 00:50:59,000
+At the beginning, I see the data type is important.
+
+982
+00:50:59,000 --> 00:51:06,000
+And when we actually look for or select or choose a suitable learning algorithm or suitable
+
+983
+00:51:06,000 --> 00:51:12,000
+models, actually, we need to have a good understanding about the data type and also
+
+984
+00:51:12,000 --> 00:51:14,000
+have a good understanding about the model.
+
+985
+00:51:14,000 --> 00:51:22,000
+So this model, whether it can be applied to nominal data or ordinal data, right?
+
+986
+00:51:22,000 --> 00:51:24,000
+So we should have this understanding.
+
+987
+00:51:24,000 --> 00:51:25,000
+Okay.
+
+988
+00:51:25,000 --> 00:51:27,000
+So where to get the information about the type of the feature?
+
+989
+00:51:27,000 --> 00:51:31,000
+Actually, we can get it from the data dictionary.
+
+990
+00:51:31,000 --> 00:51:32,000
+Okay.
+
+991
+00:51:32,000 --> 00:51:37,000
+I just imagine you're not available, and then we maybe need to use some software, right,
+
+992
+00:51:37,000 --> 00:51:47,000
+to discover that we can use my plot, the data, right, to decide whether this data is continuous
+
+993
+00:51:47,000 --> 00:51:48,000
+or discrete.
+
+994
+00:51:48,000 --> 00:51:49,000
+Okay.
+
+995
+00:51:49,000 --> 00:51:55,000
+If we know the nature, right, the nature, this should perform good or very good.
+
+996
+00:51:55,000 --> 00:51:59,000
+And then, oh, we know this is ordinal, right?
+
+997
+00:51:59,000 --> 00:52:04,000
+So through this exploration, we can understand the data.
+
+998
+00:52:04,000 --> 00:52:05,000
+Okay.
+
+999
+00:52:05,000 --> 00:52:06,000
+So, okay.
+
+1000
+00:52:06,000 --> 00:52:10,000
+So now, actually, we have a 10-minute break.
+
+1001
+00:52:10,000 --> 00:52:11,000
+Okay.
+
+1002
+00:52:11,000 --> 00:52:17,000
+After break, then we will look further into the exploration of the data structure.
+
+1003
+00:52:17,000 --> 00:52:19,000
+Okay.
+
+1004
+00:52:19,000 --> 00:52:43,000
+Thank you.
+
+1005
+00:52:43,000 --> 00:53:12,000
+Thank you.
+
+1006
+00:53:12,000 --> 00:53:41,000
+Thank you.
+
+1007
+00:53:41,000 --> 00:54:10,000
+Thank you.
+
+1008
+00:54:10,000 --> 00:54:39,000
+Thank you.
+
+1009
+00:54:39,000 --> 00:55:08,000
+Thank you.
+
+1010
+00:55:08,000 --> 00:55:37,000
+Thank you.
+
+1011
+00:55:37,000 --> 00:56:06,000
+Thank you.
+
+1012
+00:56:06,000 --> 00:56:35,000
+Thank you.
+
+1013
+00:56:35,000 --> 00:57:04,000
+Thank you.
+
+1014
+00:57:04,000 --> 00:57:33,000
+Thank you.
+
+1015
+00:57:33,000 --> 00:58:02,000
+Thank you.
+
+1016
+00:58:02,000 --> 00:58:31,000
+Thank you.
+
+1017
+00:58:31,000 --> 00:59:00,000
+Thank you.
+
+1018
+00:59:00,000 --> 00:59:29,000
+Thank you.
+
+1019
+00:59:29,000 --> 00:59:58,000
+Thank you.
+
+1020
+00:59:58,000 --> 01:00:27,000
+Thank you.
+
+1021
+01:00:27,000 --> 01:00:56,000
+Thank you.
+
+1022
+01:00:56,000 --> 01:01:25,000
+Thank you.
+
+1023
+01:01:25,000 --> 01:01:54,000
+Thank you.
+
+1024
+01:01:54,000 --> 01:02:06,000
+Thank you.
+
+1025
+01:02:06,000 --> 01:02:10,000
+Okay.
+
+1026
+01:02:10,000 --> 01:02:11,000
+Okay.
+
+1027
+01:02:11,000 --> 01:02:18,000
+So here, actually, I copy, you know, part of the outer MPG dataset, okay, to show this.
+
+1028
+01:02:18,000 --> 01:02:21,000
+And this dataset, I have a few features, right?
+
+1029
+01:02:21,000 --> 01:02:33,000
+MPG, cylinder, displacement, horsepower, weight, and all the acceleration, model year, origin.
+
+1030
+01:02:33,000 --> 01:02:34,000
+Okay.
+
+1031
+01:02:34,000 --> 01:02:39,000
+So these actually all actually do the features, right?
+
+1032
+01:02:39,000 --> 01:02:42,000
+One, two, three, four, five, six, seven, eight.
+
+1033
+01:02:42,000 --> 01:02:43,000
+Okay.
+
+1034
+01:02:43,000 --> 01:02:45,000
+And then the last one is the car name.
+
+1035
+01:02:45,000 --> 01:02:46,000
+Car name.
+
+1036
+01:02:46,000 --> 01:02:47,000
+Okay.
+
+1037
+01:02:48,000 --> 01:02:53,000
+And actually here, some of the variables are already given all the numerical, right?
+
+1038
+01:02:53,000 --> 01:02:54,000
+Origin.
+
+1039
+01:02:54,000 --> 01:02:59,000
+And actually these origins, normally, these are actually categorical variables.
+
+1040
+01:02:59,000 --> 01:03:02,000
+Although they are numerical here, they are not named by any, right?
+
+1041
+01:03:02,000 --> 01:03:04,000
+But they are categorical.
+
+1042
+01:03:04,000 --> 01:03:05,000
+Okay.
+
+1043
+01:03:05,000 --> 01:03:14,000
+So because for the origin, which is the origin of the car, like one is USA, two is Japan,
+
+1044
+01:03:14,000 --> 01:03:16,000
+and number three, maybe Germany.
+
+1045
+01:03:16,000 --> 01:03:17,000
+Okay.
+
+1046
+01:03:17,000 --> 01:03:19,000
+So this origin of the cars.
+
+1047
+01:03:19,000 --> 01:03:20,000
+Okay.
+
+1048
+01:03:20,000 --> 01:03:22,000
+So just a limited value, right?
+
+1049
+01:03:22,000 --> 01:03:25,000
+And also the car name, also limited.
+
+1050
+01:03:25,000 --> 01:03:28,000
+These are the actually nominal values, right?
+
+1051
+01:03:28,000 --> 01:03:29,000
+Nominal.
+
+1052
+01:03:29,000 --> 01:03:32,000
+You cannot see one country is bigger than another, right?
+
+1053
+01:03:32,000 --> 01:03:34,000
+The value is bigger than another one, right?
+
+1054
+01:03:34,000 --> 01:03:38,000
+So the origin and also the car name.
+
+1055
+01:03:38,000 --> 01:03:41,000
+So these are the nominal data, right?
+
+1056
+01:03:41,000 --> 01:03:44,000
+So the categorical are nominal.
+
+1057
+01:03:44,000 --> 01:03:45,000
+Okay.
+
+1058
+01:03:45,000 --> 01:03:52,000
+But for some of the variables, actually, you can see, like, cylinder, right?
+
+1059
+01:03:52,000 --> 01:03:58,000
+Cylinder actually is in here, they just show like four, six, eight.
+
+1060
+01:03:58,000 --> 01:03:59,000
+Okay.
+
+1061
+01:03:59,000 --> 01:04:01,000
+And actually this shows one is bigger than another one.
+
+1062
+01:04:01,000 --> 01:04:06,000
+Actually cylinder actually is categorical, but it is ordinal.
+
+1063
+01:04:06,000 --> 01:04:07,000
+Okay.
+
+1064
+01:04:07,000 --> 01:04:08,000
+It's ordinal.
+
+1065
+01:04:08,000 --> 01:04:09,000
+Okay.
+
+1066
+01:04:09,000 --> 01:04:14,000
+And then we have some other like horsepower and also the displacement.
+
+1067
+01:04:14,000 --> 01:04:16,000
+So these are the continuous.
+
+1068
+01:04:16,000 --> 01:04:21,000
+These are the quantitative data or numerical data.
+
+1069
+01:04:21,000 --> 01:04:22,000
+Okay.
+
+1070
+01:04:22,000 --> 01:04:23,000
+Or continuous.
+
+1071
+01:04:23,000 --> 01:04:25,000
+So some of them are discrete.
+
+1072
+01:04:25,000 --> 01:04:29,000
+Some of them actually are continuous, right?
+
+1073
+01:04:29,000 --> 01:04:37,000
+So for the discrete, some of them actually are nominal and some of them are ordinal.
+
+1074
+01:04:37,000 --> 01:04:38,000
+Okay.
+
+1075
+01:04:38,000 --> 01:04:40,000
+So these are just already analyzed, right?
+
+1076
+01:04:40,000 --> 01:04:42,000
+Origin means the country.
+
+1077
+01:04:42,000 --> 01:04:48,000
+So although each country here is denoted by one numerical value, it is still numerical.
+
+1078
+01:04:48,000 --> 01:04:50,000
+So these are categorical.
+
+1079
+01:04:50,000 --> 01:04:53,000
+Actually, this actually is nominal.
+
+1080
+01:04:53,000 --> 01:04:57,000
+The car name here, they are given the name and name the value, right?
+
+1081
+01:04:57,000 --> 01:05:01,000
+But actually it's nominal, right?
+
+1082
+01:05:01,000 --> 01:05:04,000
+We cannot see one name is bigger than another name.
+
+1083
+01:05:04,000 --> 01:05:06,000
+Normally we don't see this.
+
+1084
+01:05:06,000 --> 01:05:07,000
+Okay.
+
+1085
+01:05:07,000 --> 01:05:11,000
+So this data normally is called mixed.
+
+1086
+01:05:11,000 --> 01:05:12,000
+Mixed.
+
+1087
+01:05:12,000 --> 01:05:13,000
+Okay.
+
+1088
+01:05:13,000 --> 01:05:19,000
+If a data set contains actually more than one type of data, then this data actually
+
+1089
+01:05:19,000 --> 01:05:21,000
+set is called mixed data.
+
+1090
+01:05:21,000 --> 01:05:25,000
+And the data is mixed.
+
+1091
+01:05:25,000 --> 01:05:26,000
+Okay.
+
+1092
+01:05:26,000 --> 01:05:31,000
+We have different types of data.
+
+1093
+01:05:31,000 --> 01:05:34,000
+Okay.
+
+1094
+01:05:34,000 --> 01:05:42,000
+And for the nominal data, actually, I think the ordinal is denoted by the number here,
+
+1095
+01:05:42,000 --> 01:05:43,000
+right?
+
+1096
+01:05:43,000 --> 01:05:46,000
+And actually I think this point, I want to emphasize, right?
+
+1097
+01:05:46,000 --> 01:05:48,000
+I talked about this a few times actually.
+
+1098
+01:05:48,000 --> 01:05:49,000
+I want to emphasize this.
+
+1099
+01:05:49,000 --> 01:05:54,000
+Although here they are given numerical values, but normally we cannot see one value is greater
+
+1100
+01:05:54,000 --> 01:05:55,000
+than another value.
+
+1101
+01:05:55,000 --> 01:05:57,000
+We cannot see that.
+
+1102
+01:05:57,000 --> 01:06:00,000
+They are denoted by different numbers.
+
+1103
+01:06:00,000 --> 01:06:03,000
+These different numbers only show they are different.
+
+1104
+01:06:03,000 --> 01:06:09,000
+This country, two, is different from another country, one, is different from country three.
+
+1105
+01:06:09,000 --> 01:06:12,000
+So this value only shows the difference.
+
+1106
+01:06:12,000 --> 01:06:16,000
+We don't have a sense that one value is greater than another value.
+
+1107
+01:06:16,000 --> 01:06:17,000
+Okay.
+
+1108
+01:06:17,000 --> 01:06:20,000
+So I think these are very important properties.
+
+1109
+01:06:20,000 --> 01:06:27,000
+So when we build a model, sometimes we need to analyze this nature and then we decide
+
+1110
+01:06:27,000 --> 01:06:36,000
+actually what kind of model we should use actually in the learning.
+
+1111
+01:06:36,000 --> 01:06:37,000
+Okay.
+
+1112
+01:06:37,000 --> 01:06:40,000
+So these are some analysis, right?
+
+1113
+01:06:40,000 --> 01:06:41,000
+Okay.
+
+1114
+01:06:41,000 --> 01:06:43,000
+Real numbers.
+
+1115
+01:06:43,000 --> 01:06:46,000
+Okay.
+
+1116
+01:06:46,000 --> 01:06:51,000
+And actually the cylinder here and the origin, they are given numerical values actually.
+
+1117
+01:06:51,000 --> 01:06:54,000
+Although they are numerical, they are denoted by numerical value.
+
+1118
+01:06:54,000 --> 01:06:59,000
+But actually in practicality, we should consider them actually like as categorical.
+
+1119
+01:06:59,000 --> 01:07:00,000
+Categorical.
+
+1120
+01:07:00,000 --> 01:07:01,000
+Okay.
+
+1121
+01:07:01,000 --> 01:07:02,000
+Okay.
+
+1122
+01:07:02,000 --> 01:07:09,000
+So next actually we explore the numerical data.
+
+1123
+01:07:09,000 --> 01:07:15,000
+Now we know that data can be categorized into categorical or numerical, right?
+
+1124
+01:07:15,000 --> 01:07:23,000
+So next actually we first look at how to explore the numerical data.
+
+1125
+01:07:23,000 --> 01:07:28,000
+And the first exploration is to understand the central tendency.
+
+1126
+01:07:28,000 --> 01:07:30,000
+The central tendency.
+
+1127
+01:07:30,000 --> 01:07:31,000
+Okay.
+
+1128
+01:07:31,000 --> 01:07:35,000
+The central tendency, how to measure the central tendency.
+
+1129
+01:07:35,000 --> 01:07:39,000
+I think the most commonly used measure is just the mean.
+
+1130
+01:07:39,000 --> 01:07:40,000
+Okay.
+
+1131
+01:07:40,000 --> 01:07:47,000
+Mean actually the most frequently used metric and for the measure of the central tendency.
+
+1132
+01:07:47,000 --> 01:07:48,000
+Okay.
+
+1133
+01:07:48,000 --> 01:07:50,000
+So the mean value.
+
+1134
+01:07:50,000 --> 01:07:51,000
+The mean.
+
+1135
+01:07:51,000 --> 01:07:52,000
+Okay.
+
+1136
+01:07:52,000 --> 01:07:53,000
+The mean.
+
+1137
+01:07:53,000 --> 01:07:54,000
+Mean just average, right?
+
+1138
+01:07:54,000 --> 01:07:55,000
+Instead it takes.
+
+1139
+01:07:55,000 --> 01:07:56,000
+So this is called expectation.
+
+1140
+01:07:56,000 --> 01:07:57,000
+Expectation.
+
+1141
+01:07:57,000 --> 01:08:01,000
+Given a random variable, so what is expectation?
+
+1142
+01:08:01,000 --> 01:08:02,000
+Okay.
+
+1143
+01:08:02,000 --> 01:08:06,000
+So it depends how to calculate expectation, right?
+
+1144
+01:08:06,000 --> 01:08:08,000
+And we have formula to calculate.
+
+1145
+01:08:08,000 --> 01:08:09,000
+Okay.
+
+1146
+01:08:09,000 --> 01:08:15,000
+But actually, you know, this actually, I think the mean, expectation or mean is just average.
+
+1147
+01:08:15,000 --> 01:08:16,000
+Average.
+
+1148
+01:08:16,000 --> 01:08:17,000
+Right?
+
+1149
+01:08:17,000 --> 01:08:22,000
+So here we can put the summation first and then divide it by the total number of numbers.
+
+1150
+01:08:22,000 --> 01:08:25,000
+Then actually it's just got average.
+
+1151
+01:08:25,000 --> 01:08:26,000
+Okay.
+
+1152
+01:08:26,000 --> 01:08:29,000
+So from here for the mean we first get a summation addition, right?
+
+1153
+01:08:29,000 --> 01:08:30,000
+So addition.
+
+1154
+01:08:30,000 --> 01:08:36,000
+So certainly, you know, this addition should not be performed actually on the categorical
+
+1155
+01:08:36,000 --> 01:08:37,000
+data, right?
+
+1156
+01:08:37,000 --> 01:08:38,000
+Categorical data.
+
+1157
+01:08:38,000 --> 01:08:40,000
+We cannot actually get the average.
+
+1158
+01:08:40,000 --> 01:08:41,000
+Okay.
+
+1159
+01:08:41,000 --> 01:08:44,000
+Because we cannot get the summation, right?
+
+1160
+01:08:44,000 --> 01:08:48,000
+So we don't have the mean for categorical variables.
+
+1161
+01:08:48,000 --> 01:08:49,000
+Okay.
+
+1162
+01:08:49,000 --> 01:08:52,000
+So this is for continuous, right?
+
+1163
+01:08:52,000 --> 01:08:55,000
+For numerical values, number four continuous.
+
+1164
+01:08:55,000 --> 01:08:57,000
+For quantitative data.
+
+1165
+01:08:57,000 --> 01:09:01,000
+Quantitative, the continuous is in numerical, right?
+
+1166
+01:09:01,000 --> 01:09:04,000
+So for numerical data we can calculate the mean.
+
+1167
+01:09:04,000 --> 01:09:09,000
+So mean is the most frequently used measure for the central tendency of the data.
+
+1168
+01:09:09,000 --> 01:09:10,000
+Okay.
+
+1169
+01:09:11,000 --> 01:09:13,000
+And then another measure is called median.
+
+1170
+01:09:13,000 --> 01:09:14,000
+Median value, right?
+
+1171
+01:09:14,000 --> 01:09:15,000
+So no median.
+
+1172
+01:09:15,000 --> 01:09:19,000
+Normally we need to actually arrange the data in a sequence.
+
+1173
+01:09:19,000 --> 01:09:20,000
+Yeah.
+
+1174
+01:09:20,000 --> 01:09:22,000
+Increasing order or decreasing order.
+
+1175
+01:09:22,000 --> 01:09:26,000
+And then the median is just the value in the middle, right?
+
+1176
+01:09:26,000 --> 01:09:27,000
+In the middle.
+
+1177
+01:09:27,000 --> 01:09:33,000
+So here we have five numbers and then we arrange the data in an increasing order, right?
+
+1178
+01:09:33,000 --> 01:09:37,000
+Then the 67 actually is in the middle number, right?
+
+1179
+01:09:37,000 --> 01:09:40,000
+So this is just the median.
+
+1180
+01:09:40,000 --> 01:09:41,000
+Okay.
+
+1181
+01:09:41,000 --> 01:09:45,000
+So these are the median.
+
+1182
+01:09:45,000 --> 01:09:54,000
+So mean is impacted if too many data elements are having values close to the far end of
+
+1183
+01:09:54,000 --> 01:09:55,000
+the range.
+
+1184
+01:09:55,000 --> 01:09:56,000
+Okay.
+
+1185
+01:09:56,000 --> 01:10:01,000
+In other words, even in a data set there are many extreme values.
+
+1186
+01:10:01,000 --> 01:10:03,000
+Many extreme values.
+
+1187
+01:10:03,000 --> 01:10:04,000
+Okay.
+
+1188
+01:10:04,000 --> 01:10:05,000
+And not just one.
+
+1189
+01:10:05,000 --> 01:10:06,000
+Okay.
+
+1190
+01:10:06,000 --> 01:10:08,000
+So there are a few extreme values.
+
+1191
+01:10:08,000 --> 01:10:11,000
+Extremely high values or extreme low values.
+
+1192
+01:10:11,000 --> 01:10:12,000
+Okay.
+
+1193
+01:10:12,000 --> 01:10:17,000
+So this extreme low or extreme high value could be caused by error.
+
+1194
+01:10:17,000 --> 01:10:18,000
+Error, right?
+
+1195
+01:10:18,000 --> 01:10:24,000
+So if we use, you know, we take the average to find the mean, right?
+
+1196
+01:10:24,000 --> 01:10:26,000
+So certainly these are not small number.
+
+1197
+01:10:26,000 --> 01:10:29,000
+Not many number of big value, small value.
+
+1198
+01:10:29,000 --> 01:10:34,000
+Certainly will have a big impact on this mean value, right?
+
+1199
+01:10:34,000 --> 01:10:39,000
+So mean value is easier to be affected by noisy data.
+
+1200
+01:10:39,000 --> 01:10:41,000
+The mean value.
+
+1201
+01:10:41,000 --> 01:10:42,000
+Okay.
+
+1202
+01:10:42,000 --> 01:10:47,000
+In particular, if the data has some outliers, right?
+
+1203
+01:10:47,000 --> 01:10:54,000
+We want to cover the average wealth of the people in this classroom together with the
+
+1204
+01:10:54,000 --> 01:10:56,000
+and Bill Gates.
+
+1205
+01:10:56,000 --> 01:10:57,000
+Right?
+
+1206
+01:10:57,000 --> 01:10:59,000
+So there are increase.
+
+1207
+01:10:59,000 --> 01:11:04,000
+Actually, certainly this is not actually a good measure for the central tendency of
+
+1208
+01:11:04,000 --> 01:11:07,000
+the wealth of the people in this classroom.
+
+1209
+01:11:07,000 --> 01:11:08,000
+Right?
+
+1210
+01:11:08,000 --> 01:11:10,000
+Because there's outliers.
+
+1211
+01:11:10,000 --> 01:11:11,000
+Okay.
+
+1212
+01:11:11,000 --> 01:11:18,000
+So in such a scenario, actually, we should use actually the median value, right?
+
+1213
+01:11:18,000 --> 01:11:20,000
+You arrange them, right?
+
+1214
+01:11:20,000 --> 01:11:27,000
+Arrange all the wealth of average people in this classroom together with the Bill Gates.
+
+1215
+01:11:27,000 --> 01:11:35,000
+We still find that this median value is less affected by those extreme values of outliers.
+
+1216
+01:11:35,000 --> 01:11:36,000
+Okay.
+
+1217
+01:11:36,000 --> 01:11:39,000
+So this is actually the median, right?
+
+1218
+01:11:39,000 --> 01:11:40,000
+Median.
+
+1219
+01:11:40,000 --> 01:11:47,000
+And actually in practice, actually we compare actually the difference between the median
+
+1220
+01:11:47,000 --> 01:11:49,000
+value and the mean values.
+
+1221
+01:11:49,000 --> 01:11:54,000
+So normally, you know, the median values and the mean values should be close to each other.
+
+1222
+01:11:54,000 --> 01:11:56,000
+Although they are not the same value, right?
+
+1223
+01:11:56,000 --> 01:12:00,000
+Actually, but normally there should be no big difference between the two.
+
+1224
+01:12:00,000 --> 01:12:01,000
+Okay.
+
+1225
+01:12:01,000 --> 01:12:03,000
+So we should use plot deviation between the two.
+
+1226
+01:12:03,000 --> 01:12:07,000
+If the deviation between the two, the difference between the two is big.
+
+1227
+01:12:07,000 --> 01:12:11,000
+And then actually we can look further into the data.
+
+1228
+01:12:11,000 --> 01:12:12,000
+Okay.
+
+1229
+01:12:12,000 --> 01:12:13,000
+For example, right?
+
+1230
+01:12:13,000 --> 01:12:19,000
+And if there is a big difference between the mean and the median.
+
+1231
+01:12:19,000 --> 01:12:23,000
+So most likely there are some outliers in the data.
+
+1232
+01:12:23,000 --> 01:12:26,000
+There are some extreme high values or extreme low values.
+
+1233
+01:12:26,000 --> 01:12:31,000
+So both types of values, right, will affect the mean value.
+
+1234
+01:12:31,000 --> 01:12:32,000
+Okay.
+
+1235
+01:12:32,000 --> 01:12:35,000
+So you can observe the difference between the median and the mean, right?
+
+1236
+01:12:35,000 --> 01:12:43,000
+From here we can, you know, deduce probably the data contains some outliers.
+
+1237
+01:12:43,000 --> 01:12:44,000
+Okay.
+
+1238
+01:12:44,000 --> 01:12:50,000
+Then we should try to find these outliers and then take some measures to impute these
+
+1239
+01:12:50,000 --> 01:12:51,000
+outliers.
+
+1240
+01:12:51,000 --> 01:12:52,000
+Okay.
+
+1241
+01:12:52,000 --> 01:12:56,000
+So this is, I think, the use of plot deviation, right?
+
+1242
+01:12:56,000 --> 01:12:58,000
+Look at the tendency, the tendency.
+
+1243
+01:12:58,000 --> 01:12:59,000
+Look at the mean.
+
+1244
+01:12:59,000 --> 01:13:00,000
+Look at that.
+
+1245
+01:13:00,000 --> 01:13:02,000
+And then we can look at the median.
+
+1246
+01:13:02,000 --> 01:13:08,000
+Then we can discover some potential issues underlying the data.
+
+1247
+01:13:08,000 --> 01:13:11,000
+Okay.
+
+1248
+01:13:11,000 --> 01:13:16,000
+Another common use of a tree measure is called mood.
+
+1249
+01:13:16,000 --> 01:13:21,000
+Mood actually is more frequently used actually for others, right?
+
+1250
+01:13:21,000 --> 01:13:26,000
+We see for the nominal or for the ordinal.
+
+1251
+01:13:26,000 --> 01:13:31,000
+And so we cannot get the summation, right?
+
+1252
+01:13:31,000 --> 01:13:32,000
+We cannot get a summation.
+
+1253
+01:13:32,000 --> 01:13:34,000
+And we cannot get the average.
+
+1254
+01:13:34,000 --> 01:13:36,000
+Certainly we cannot take the mean, right?
+
+1255
+01:13:36,000 --> 01:13:37,000
+We cannot take the mean.
+
+1256
+01:13:37,000 --> 01:13:38,000
+Okay.
+
+1257
+01:13:38,000 --> 01:13:40,000
+But actually we can take the median.
+
+1258
+01:13:40,000 --> 01:13:41,000
+Okay.
+
+1259
+01:13:41,000 --> 01:13:44,000
+And also actually we can take the so-called mood.
+
+1260
+01:13:44,000 --> 01:13:45,000
+Mood.
+
+1261
+01:13:45,000 --> 01:13:46,000
+Okay.
+
+1262
+01:13:46,000 --> 01:13:50,000
+Mood actually is the most frequent value in the data.
+
+1263
+01:13:50,000 --> 01:13:51,000
+Okay.
+
+1264
+01:13:51,000 --> 01:13:58,000
+And for example, in the class, right, actually we can test the blood type of each student.
+
+1265
+01:13:58,000 --> 01:13:59,000
+Okay.
+
+1266
+01:13:59,000 --> 01:14:04,000
+And we have blood type A, we have blood type B, A, B, and O, right?
+
+1267
+01:14:04,000 --> 01:14:09,000
+Actually, of course, actually we know and probably the result is that actually we cannot
+
+1268
+01:14:09,000 --> 01:14:10,000
+take the average.
+
+1269
+01:14:10,000 --> 01:14:13,000
+I see every blood type of the student in this classroom.
+
+1270
+01:14:13,000 --> 01:14:14,000
+We cannot have these value.
+
+1271
+01:14:14,000 --> 01:14:17,000
+But we can see the most frequent, right?
+
+1272
+01:14:17,000 --> 01:14:22,000
+Probably the blood B has the largest number, largest proportion.
+
+1273
+01:14:22,000 --> 01:14:23,000
+Okay.
+
+1274
+01:14:23,000 --> 01:14:30,000
+So the mood, the mood, right, actually is the most frequent number, most frequent number
+
+1275
+01:14:30,000 --> 01:14:31,000
+here.
+
+1276
+01:14:31,000 --> 01:14:32,000
+Okay.
+
+1277
+01:14:32,000 --> 01:14:42,000
+We can take this as a central tendency for actually the categorical, right, for the categorical
+
+1278
+01:14:42,000 --> 01:14:43,000
+values.
+
+1279
+01:14:43,000 --> 01:14:44,000
+Okay.
+
+1280
+01:14:44,000 --> 01:14:46,000
+Of course, for continuous we can still look at that, right?
+
+1281
+01:14:46,000 --> 01:14:51,000
+But for continuous and probably mean and median actually are better measures for the central
+
+1282
+01:14:51,000 --> 01:14:52,000
+tendencies.
+
+1283
+01:14:52,000 --> 01:14:53,000
+Okay.
+
+1284
+01:14:53,000 --> 01:15:02,000
+So these are the three measures, mean, median, mean, and mood for the central tendency.
+
+1285
+01:15:02,000 --> 01:15:03,760
+Okay.
+
+1286
+01:15:03,760 --> 01:15:12,200
+And this diagram shows us, you know, the mean value and also the median value for all the
+
+1287
+01:15:12,200 --> 01:15:14,040
+features, right?
+
+1288
+01:15:14,040 --> 01:15:20,280
+And as you can see also we can find the deviation, the difference, the difference.
+
+1289
+01:15:20,280 --> 01:15:25,440
+And for the MPG, the difference is only 2.17 percent.
+
+1290
+01:15:25,440 --> 01:15:29,200
+So this actually is a low number, right, the low, this actually difference is low.
+
+1291
+01:15:29,200 --> 01:15:38,040
+But for some values, right, for some features or attributes like displacement, the median
+
+1292
+01:15:38,040 --> 01:15:43,880
+is 148.5 and the mean value is 193.4.
+
+1293
+01:15:43,880 --> 01:15:48,720
+So there is a very big difference, actually the difference is 23.22 percent.
+
+1294
+01:15:48,720 --> 01:15:50,600
+So this is very high.
+
+1295
+01:15:50,600 --> 01:15:51,600
+Okay.
+
+1296
+01:15:51,600 --> 01:15:58,260
+So by looking at this summary of the mean and the median, then we check the difference
+
+1297
+01:15:58,260 --> 01:16:05,880
+and then we can know actually which feature has a high difference between the mean and
+
+1298
+01:16:05,880 --> 01:16:07,080
+the median, right?
+
+1299
+01:16:07,120 --> 01:16:11,840
+And then we can look further into the data to see whether there are some issues in the
+
+1300
+01:16:11,840 --> 01:16:17,880
+data, okay, for that particular attribute.
+
+1301
+01:16:17,880 --> 01:16:24,560
+And also in this table we show the horsepower, there is no value for the median, there is
+
+1302
+01:16:24,560 --> 01:16:26,560
+no value for the mean.
+
+1303
+01:16:26,560 --> 01:16:27,560
+Okay.
+
+1304
+01:16:27,560 --> 01:16:35,000
+Certainly, actually, we have a RAM program, the program cannot calculate, is unable to
+
+1305
+01:16:35,000 --> 01:16:37,520
+calculate the mean value and the median value.
+
+1306
+01:16:37,520 --> 01:16:38,520
+Okay.
+
+1307
+01:16:38,520 --> 01:16:42,640
+Then we should look further, right, look into the data to check.
+
+1308
+01:16:42,640 --> 01:16:44,240
+So what are the issues?
+
+1309
+01:16:44,240 --> 01:16:49,040
+And then we should try our best and to address these issues, right?
+
+1310
+01:16:49,040 --> 01:16:50,040
+Okay.
+
+1311
+01:16:50,040 --> 01:16:55,640
+So for this actually we can look at the tree like why we have these actually, you know,
+
+1312
+01:16:55,640 --> 01:16:56,640
+question mark there, right?
+
+1313
+01:16:56,640 --> 01:17:01,840
+So this is because actually we look further into the data and we find actually for the
+
+1314
+01:17:01,840 --> 01:17:14,720
+horsepower, there are six samples whose horsepower have no values, so six samples have no value
+
+1315
+01:17:14,720 --> 01:17:17,840
+for the horsepower for this attribute.
+
+1316
+01:17:17,840 --> 01:17:24,700
+So if no value, actually this is the so-called mission value problem, mission value.
+
+1317
+01:17:24,700 --> 01:17:27,680
+So later we will actually talk about this further actually.
+
+1318
+01:17:27,680 --> 01:17:36,160
+So if there are mission values in the feature, so how we should address this issue?
+
+1319
+01:17:36,160 --> 01:17:37,160
+Mission values, right?
+
+1320
+01:17:37,160 --> 01:17:41,760
+If there are mission values, don't believe, you know, the question mark, right, or just
+
+1321
+01:17:41,760 --> 01:17:50,720
+empty, right, for that cell, for that element in a matrix, then the program has no problem
+
+1322
+01:17:50,720 --> 01:17:52,720
+to calculate the mean.
+
+1323
+01:17:52,720 --> 01:17:55,880
+That's the reason why we see the question mark there.
+
+1324
+01:17:55,880 --> 01:17:57,000
+Okay.
+
+1325
+01:17:57,000 --> 01:18:02,680
+So by just now do a bit of exploration, right, actually we have a very good understanding
+
+1326
+01:18:02,680 --> 01:18:04,720
+about the data, right?
+
+1327
+01:18:04,720 --> 01:18:10,000
+Look at the data dictionary and then we can understand the data types, right?
+
+1328
+01:18:10,000 --> 01:18:16,080
+Nominal, ordinal, you know, all actually we see the numerical, right, or we see the continuous.
+
+1329
+01:18:16,080 --> 01:18:18,200
+We can look at this, right?
+
+1330
+01:18:18,200 --> 01:18:22,360
+And by looking at the mean, the central tendency, look at the difference between the mean and
+
+1331
+01:18:22,360 --> 01:18:28,480
+the median, right, and we can have further understanding, you know, about the data.
+
+1332
+01:18:28,480 --> 01:18:36,200
+So potentially, about potential issues, right, like, you know, autolies in the data, okay?
+
+1333
+01:18:36,200 --> 01:18:41,080
+And also in this example shows that we probably, you know, the data could have the mission
+
+1334
+01:18:41,080 --> 01:18:43,080
+value problem.
+
+1335
+01:18:43,080 --> 01:18:44,640
+Okay.
+
+1336
+01:18:44,640 --> 01:18:49,760
+For some features, we don't have actually the mean, we don't have the median, right?
+
+1337
+01:18:49,760 --> 01:18:54,680
+And this because the program, the code cannot actually, you know, calculate this value because
+
+1338
+01:18:54,680 --> 01:18:59,040
+of the mission values in this feature.
+
+1339
+01:18:59,040 --> 01:19:00,640
+Okay.
+
+1340
+01:19:00,640 --> 01:19:01,640
+So this is collaboration, right?
+
+1341
+01:19:01,640 --> 01:19:10,280
+Just give a data set, just at the beginning, just give this, right, give it to you, right?
+
+1342
+01:19:10,280 --> 01:19:13,520
+I think this data, right?
+
+1343
+01:19:13,520 --> 01:19:15,520
+We just knew the value there, right?
+
+1344
+01:19:15,520 --> 01:19:20,200
+And after, you know, through many steps, right, look at the feature, the natures, and
+
+1345
+01:19:20,200 --> 01:19:25,120
+then by looking at the median and mean values, certainly now we have better understanding
+
+1346
+01:19:25,120 --> 01:19:30,880
+about the data set, right, better understanding, okay?
+
+1347
+01:19:30,880 --> 01:19:36,160
+So that is actually, you know, before actually, you know, certainly we should, you know, understand
+
+1348
+01:19:36,160 --> 01:19:37,160
+our data, right?
+
+1349
+01:19:37,160 --> 01:19:42,280
+We cannot just call a function and then put the data in and then get a model based on
+
+1350
+01:19:42,280 --> 01:19:44,880
+the model to make prediction.
+
+1351
+01:19:44,880 --> 01:19:52,280
+Our task is to get a good model to make accurate prediction and not just, okay, get a model,
+
+1352
+01:19:52,280 --> 01:19:53,920
+get a prediction.
+
+1353
+01:19:53,920 --> 01:19:57,400
+Your work, job here is not just to learn this code.
+
+1354
+01:19:57,400 --> 01:20:02,360
+Your job is to get a good result, to graduate with a high GPA, right?
+
+1355
+01:20:02,360 --> 01:20:04,560
+So that's the same thing, right?
+
+1356
+01:20:04,560 --> 01:20:11,280
+So we show that we use the data in order to actually produce the best model and the best
+
+1357
+01:20:11,280 --> 01:20:15,520
+prediction from the model.
+
+1358
+01:20:15,520 --> 01:20:18,400
+Okay.
+
+1359
+01:20:18,400 --> 01:20:25,160
+So through, and here now actually we look into the central tendency, check the difference
+
+1360
+01:20:25,160 --> 01:20:29,120
+between mean and the median value, and then we can have better understanding, right?
+
+1361
+01:20:29,120 --> 01:20:34,640
+And also we have discovered one issue in the data, so the mission values.
+
+1362
+01:20:34,640 --> 01:20:37,400
+Potential issue outliers.
+
+1363
+01:20:37,400 --> 01:20:40,240
+Okay.
+
+1364
+01:20:40,240 --> 01:20:50,100
+So next issue we answer the data spread, the dispersion or the spread, actually the variation
+
+1365
+01:20:50,100 --> 01:20:54,280
+of the data, the range of the data.
+
+1366
+01:20:54,280 --> 01:20:57,220
+So that is the data spread.
+
+1367
+01:20:57,220 --> 01:21:04,000
+So beside the central tendency, we also need to look at the range of the data, look at
+
+1368
+01:21:04,000 --> 01:21:10,720
+the dispersion of the data, and also the position of the different data values.
+
+1369
+01:21:10,720 --> 01:21:19,880
+So this is actually another aspect, another characteristic of the data, the spread, okay?
+
+1370
+01:21:19,880 --> 01:21:28,040
+So for the dispersion, actually the measure, so normally we use the standard vision.
+
+1371
+01:21:28,040 --> 01:21:35,040
+So here actually we can see why we need to have this measure, or have this understanding
+
+1372
+01:21:35,040 --> 01:21:36,640
+of the data spread.
+
+1373
+01:21:36,640 --> 01:21:47,400
+So here we have given five values, right, five values, and for feature one or attribute
+
+1374
+01:21:47,400 --> 01:21:58,160
+two, and actually both values, both attributes actually have a mean value of 46.
+
+1375
+01:21:58,160 --> 01:22:02,080
+Actually the two have the same mean value, right?
+
+1376
+01:22:02,080 --> 01:22:10,080
+But if we look at attribute one, the value is 44, 46, 48, 45, 47, the mean is 46.
+
+1377
+01:22:10,080 --> 01:22:14,920
+That means all the values are around the mean value, right?
+
+1378
+01:22:14,920 --> 01:22:15,920
+Spread is small.
+
+1379
+01:22:15,920 --> 01:22:16,920
+Okay.
+
+1380
+01:22:17,440 --> 01:22:22,920
+And actually the range of the data is close to actually the mean value.
+
+1381
+01:22:22,920 --> 01:22:30,680
+But if we look at the second attribute, so 34 is very far from the mean value 46, right?
+
+1382
+01:22:30,680 --> 01:22:35,120
+And also the 52, or 59, very far away from 66.
+
+1383
+01:22:35,120 --> 01:22:43,200
+That means the spread, dispersion is very high, variation of the data is very high,
+
+1384
+01:22:43,200 --> 01:22:50,360
+variation for this attribute, attribute number two, okay?
+
+1385
+01:22:50,360 --> 01:23:00,840
+And so to measure this spread, and quite often we use the so-called variance, okay?
+
+1386
+01:23:00,840 --> 01:23:03,620
+So in practice how to calculate the variance?
+
+1387
+01:23:03,620 --> 01:23:12,760
+So assume a tree for the variable X, or feature X, and so we have N values, N values, right?
+
+1388
+01:23:12,760 --> 01:23:17,800
+So this is the average of X squared, average of X squared, right?
+
+1389
+01:23:17,800 --> 01:23:21,180
+For every value for this feature, right?
+
+1390
+01:23:21,180 --> 01:23:24,300
+So we take the square, get summation, then get the average.
+
+1391
+01:23:24,300 --> 01:23:26,600
+So this is the mean of X squared.
+
+1392
+01:23:26,600 --> 01:23:30,600
+And then the second part of the tree, so you look at the tree, the one in the bracket,
+
+1393
+01:23:30,600 --> 01:23:36,380
+inside the bracket, so this is simply the mean of XK, the mean of X, okay?
+
+1394
+01:23:36,380 --> 01:23:40,800
+So this is the part of the tree, the square of the mean, right?
+
+1395
+01:23:40,800 --> 01:23:46,920
+So these are two of the variance equals the mean of X squared, right?
+
+1396
+01:23:46,920 --> 01:23:51,680
+A minus the square of the mean of X, okay?
+
+1397
+01:23:51,680 --> 01:23:54,040
+So this is the variance, okay?
+
+1398
+01:23:54,040 --> 01:24:04,160
+And actually certainly we can have actually almost an equivalent measure, which is just
+
+1399
+01:24:04,160 --> 01:24:06,540
+the square roots of the variance.
+
+1400
+01:24:06,540 --> 01:24:12,820
+So this actually is defined as the standard deviation, standard deviation of sigma actually
+
+1401
+01:24:12,820 --> 01:24:17,860
+equals the square roots of the variance of X, okay?
+
+1402
+01:24:17,860 --> 01:24:24,300
+So for spread, for data dispersion, we use these two measures, okay?
+
+1403
+01:24:24,300 --> 01:24:26,340
+These two actually are identical, right?
+
+1404
+01:24:26,340 --> 01:24:30,580
+So one is standard deviation, another is the variance.
+
+1405
+01:24:30,580 --> 01:24:33,860
+So why this is very important, why this measure, right?
+
+1406
+01:24:33,860 --> 01:24:39,900
+So the general tendency and also the spread, the variance of the standard deviation measures
+
+1407
+01:24:39,900 --> 01:24:42,300
+are important.
+
+1408
+01:24:42,300 --> 01:24:49,700
+So later, I think not today, I think week five, week six, week seven probably, I think
+
+1409
+01:24:49,700 --> 01:24:59,460
+we will study one type of pattern classification, which is called the linear discriminant analysis.
+
+1410
+01:24:59,460 --> 01:25:04,500
+And actually you understand actually independent classification, so what features normally
+
+1411
+01:25:04,500 --> 01:25:06,240
+we prefer.
+
+1412
+01:25:06,240 --> 01:25:12,260
+So normally we hope the data in classification, so what could be considered is an easy task
+
+1413
+01:25:12,260 --> 01:25:18,620
+if, okay, the two classes are very different.
+
+1414
+01:25:18,620 --> 01:25:22,300
+And for all the samples within the same class, they are similar.
+
+1415
+01:25:22,300 --> 01:25:26,920
+Then it's easy to differentiate, right, easy to differentiate, okay?
+
+1416
+01:25:27,920 --> 01:25:32,240
+So within class, within class difference is small.
+
+1417
+01:25:32,240 --> 01:25:37,520
+Within the same class, the samples should be very similar.
+
+1418
+01:25:37,520 --> 01:25:43,200
+Between class, the samples could be very different, okay?
+
+1419
+01:25:43,200 --> 01:25:50,640
+So how to measure actually within class similarity, how to measure this, oh, within class, all
+
+1420
+01:25:50,640 --> 01:25:52,640
+the samples are similar.
+
+1421
+01:25:53,360 --> 01:25:57,760
+Actually this is the spread of the data around the mean vector, normally it's not just a
+
+1422
+01:25:57,760 --> 01:25:58,760
+mean value, right?
+
+1423
+01:25:58,760 --> 01:26:02,500
+So normally we use multiple features, so it's a mean vector.
+
+1424
+01:26:02,500 --> 01:26:08,160
+So around the mean vector, the spread is small.
+
+1425
+01:26:08,160 --> 01:26:14,120
+Then that means within class, similarity is high or the difference is small.
+
+1426
+01:26:14,120 --> 01:26:19,120
+Then the classifier, the classification task is easier, okay?
+
+1427
+01:26:19,120 --> 01:26:25,440
+Then between class, the difference is big, that means it's easy to differentiate the
+
+1428
+01:26:25,440 --> 01:26:26,440
+two types, right?
+
+1429
+01:26:26,440 --> 01:26:30,000
+Because the difference is big, but how to measure the difference between the two?
+
+1430
+01:26:30,000 --> 01:26:36,360
+Actually we use the distance between the two mean vectors of the sample in the two classes.
+
+1431
+01:26:36,360 --> 01:26:42,880
+Okay, so from here you can see the importance of the mean, right, the mean of sampling within
+
+1432
+01:26:42,880 --> 01:26:50,400
+the same class and the spread of the sample within the same class, right?
+
+1433
+01:26:50,400 --> 01:26:55,680
+We try to find the tree, even though the features or projections, so that sample within the
+
+1434
+01:26:55,680 --> 01:27:01,000
+same class could have a small spread, okay?
+
+1435
+01:27:01,000 --> 01:27:05,440
+Between class, we could have a very big difference, okay?
+
+1436
+01:27:05,440 --> 01:27:10,840
+So that is the reason why we need to look at the central tendency, the mean vectors
+
+1437
+01:27:10,840 --> 01:27:19,960
+and also the variance, okay, and covariate metrics, okay, if we had high domino space.
+
+1438
+01:27:19,960 --> 01:27:23,380
+Okay, so these are the two measures, right?
+
+1439
+01:27:23,380 --> 01:27:29,280
+So through this plot, this data tree, we can understand that tree, oh, this problem probably
+
+1440
+01:27:29,280 --> 01:27:30,280
+is an easy task.
+
+1441
+01:27:30,280 --> 01:27:33,080
+This problem could be very challenging, right?
+
+1442
+01:27:33,080 --> 01:27:37,440
+Even in a feature, right, all the data are mixed, right?
+
+1443
+01:27:38,040 --> 01:27:44,560
+If we use the CGPA to differentiate the male and female student, are you able to do that?
+
+1444
+01:27:44,560 --> 01:27:47,960
+All the CGPA on male and female also moves overlap, right?
+
+1445
+01:27:47,960 --> 01:27:52,680
+You cannot differentiate, you cannot differentiate, right?
+
+1446
+01:27:52,680 --> 01:27:58,160
+So that's the reason why we don't see the tree, because the tree, the mean of the two
+
+1447
+01:27:58,160 --> 01:28:06,600
+tree, the difference between the classes, actually, it's small, right?
+
+1448
+01:28:07,000 --> 01:28:11,880
+The difference is small, okay, so it's very hard, actually, it's a very hard task, okay?
+
+1449
+01:28:11,880 --> 01:28:18,160
+So through exploration of the spread and also the central tendency of the data tree, certainly
+
+1450
+01:28:18,160 --> 01:28:26,920
+we can understand whether this is a task or this is a very challenging task, okay?
+
+1451
+01:28:26,920 --> 01:28:31,640
+So you can also see the reason why we need to do this exploration, right?
+
+1452
+01:28:31,680 --> 01:28:37,160
+Even before we perform learning, right, we need to perform such exploration of the data
+
+1453
+01:28:37,160 --> 01:28:42,320
+to understand the challenges of the given task, okay?
+
+1454
+01:28:50,320 --> 01:28:56,040
+Okay, so next tree is called the data value position, and just now we see for the spread
+
+1455
+01:28:56,040 --> 01:29:00,800
+of the data, look at the dispersion, look at the various or standard measures, right?
+
+1456
+01:29:01,040 --> 01:29:08,320
+Here we also look at the position of the data, so the position of some values, so here the
+
+1457
+01:29:08,320 --> 01:29:12,080
+mean of five values, the position of five values, okay?
+
+1458
+01:29:12,080 --> 01:29:18,040
+So this position of five values also describe the characteristic of the data.
+
+1459
+01:29:18,040 --> 01:29:23,920
+By analyzing these five values, we can also have a better understanding about the data
+
+1460
+01:29:23,920 --> 01:29:26,920
+distribution, okay?
+
+1461
+01:29:26,920 --> 01:29:32,800
+So which of the five values, right, actually just now we talk about the median, right?
+
+1462
+01:29:32,800 --> 01:29:37,880
+If you put the data in a sequence, sending all the, or descending all the, we can find
+
+1463
+01:29:37,880 --> 01:29:42,200
+the middle, right, the middle point, so that middle value is just the median, okay?
+
+1464
+01:29:42,200 --> 01:29:48,280
+Then actually the median value divide the whole data in the data sequence actually into
+
+1465
+01:29:48,280 --> 01:29:52,480
+two half, right, the first half, the second half, okay?
+
+1466
+01:29:52,480 --> 01:29:56,640
+So for the first half, we can also find the middle value, right, the middle value, median
+
+1467
+01:29:56,640 --> 01:29:58,360
+value, okay?
+
+1468
+01:29:58,360 --> 01:30:03,880
+And actually the first half, the median value of the first half of the data is called the
+
+1469
+01:30:03,880 --> 01:30:07,160
+first quantile, or Q1.
+
+1470
+01:30:07,160 --> 01:30:09,560
+So we define this way, these are value, right?
+
+1471
+01:30:09,560 --> 01:30:15,000
+These are actually first quantile, these are 25 percent, you rank the data, right?
+
+1472
+01:30:15,000 --> 01:30:21,720
+So these are 25 percent, what is this mean, this is Q1, the first quantile.
+
+1473
+01:30:22,160 --> 01:30:28,760
+Okay, and then for the second half, certainly you can find the middle value, right?
+
+1474
+01:30:28,760 --> 01:30:32,000
+So this middle value actually is 75 percent.
+
+1475
+01:30:32,000 --> 01:30:38,000
+So this is called the third quantile, Q3.
+
+1476
+01:30:38,000 --> 01:30:44,360
+I think Q2 is just the median, the overall median of the data, so the 50 percent.
+
+1477
+01:30:44,360 --> 01:30:49,720
+So Q1 is 25 percent, right, Q2 is 50 percent, the one in the middle, right?
+
+1478
+01:30:49,720 --> 01:30:56,040
+Q3 actually is 75 percent, okay?
+
+1479
+01:30:56,040 --> 01:31:04,000
+So normally this is called percent tau, right, 25 percent tau, actually 50 percent tau, and
+
+1480
+01:31:04,000 --> 01:31:07,080
+75 percent tau, okay?
+
+1481
+01:31:07,080 --> 01:31:12,120
+So these are Q1, Q2, Q3, okay?
+
+1482
+01:31:12,120 --> 01:31:17,840
+And besides these three values, and we also have another two values, that is called minimum
+
+1483
+01:31:17,840 --> 01:31:20,160
+value and the maximum value.
+
+1484
+01:31:20,160 --> 01:31:25,200
+So remember, this minimum value is not the smallest value in the sequence, it's not the
+
+1485
+01:31:25,200 --> 01:31:26,840
+maximum value in the sequence.
+
+1486
+01:31:26,840 --> 01:31:32,600
+So later we will see how to find this minimum value and maximum value, okay?
+
+1487
+01:31:32,600 --> 01:31:39,400
+So these are the five values, okay?
+
+1488
+01:31:39,400 --> 01:31:44,760
+So for example, actually, you know, either auto MPG data set, right?
+
+1489
+01:31:44,760 --> 01:31:54,400
+And we have actually this data, and also we have found actually the Q1, Q2, Q2 is just
+
+1490
+01:31:54,400 --> 01:32:01,000
+the median, overall median is just the Q2 and Q3, and also the minimum and the maximum,
+
+1491
+01:32:01,000 --> 01:32:02,000
+okay?
+
+1492
+01:32:02,000 --> 01:32:06,600
+And actually for displacement, you can also find the value.
+
+1493
+01:32:06,600 --> 01:32:10,080
+For origin, you can also find the values, okay?
+
+1494
+01:32:10,080 --> 01:32:13,240
+So these are the, yeah.
+
+1495
+01:32:13,240 --> 01:32:22,080
+So these are just to summarize, actually, these five values, Q1, Q2, Q3, 25 percent
+
+1496
+01:32:22,080 --> 01:32:33,740
+tau, 50 percent tau, 75 percent tau, okay, minimum, maximum, these five values, okay?
+
+1497
+01:32:33,940 --> 01:32:41,380
+And actually through it, we analyze this Q1, Q2, Q3, and we can also discover some issues
+
+1498
+01:32:41,380 --> 01:32:43,860
+of the data, okay?
+
+1499
+01:32:43,860 --> 01:32:53,220
+And for example, actually, we look at the difference between Q1 for the displacement,
+
+1500
+01:32:53,220 --> 01:33:01,420
+right, the displacement, which continues, and actually the Q1, so here actually the
+
+1501
+01:33:01,420 --> 01:33:21,100
+calculated actually the Q1, 38, 68, right?
+
+1502
+01:33:21,100 --> 01:33:29,380
+And then actually the, sorry, 104, 104, these are Q1, right?
+
+1503
+01:33:29,380 --> 01:33:36,620
+And then actually we see the minimum distance between the minimum and the Q1 is 36.2, right?
+
+1504
+01:33:36,620 --> 01:33:42,100
+And the difference between Q1 and the median is 44.3, okay?
+
+1505
+01:33:42,100 --> 01:33:46,940
+And okay, but actually this is for the first half, right?
+
+1506
+01:33:46,940 --> 01:33:59,140
+Then we look at the second half, and the Q3 is 11.5, and okay, so I think Q3 is, okay,
+
+1507
+01:33:59,140 --> 01:34:10,500
+is 262, right, it's 262, and the difference between actually the median and Q3 is 113.5,
+
+1508
+01:34:10,500 --> 01:34:14,020
+and the Q3, our maximum value difference is 193, okay?
+
+1509
+01:34:14,020 --> 01:34:18,220
+You can see actually in the first half, actually the difference between the minimum and the
+
+1510
+01:34:18,220 --> 01:34:22,380
+Q1, the difference between Q1 and Q2, this value is small, right?
+
+1511
+01:34:22,380 --> 01:34:28,140
+But actually for the second half of data, that means actually from Q2, Q3, and the maximum,
+
+1512
+01:34:28,140 --> 01:34:33,700
+right, then the difference is 100 something, much bigger than the previous part, right?
+
+1513
+01:34:33,700 --> 01:34:38,440
+So actually from this difference, we can actually see some problems, okay?
+
+1514
+01:34:38,440 --> 01:34:46,860
+So that means that the data, the larger values are more spread out in the, okay, in the larger
+
+1515
+01:34:46,860 --> 01:34:51,940
+values spread out, okay, than actually the small values, okay?
+
+1516
+01:34:51,940 --> 01:34:54,460
+So actually through this, you can also imagine the data, right?
+
+1517
+01:34:54,460 --> 01:34:57,820
+Even previously, you had this experience of handling data, right?
+
+1518
+01:34:57,820 --> 01:35:02,100
+So you can imagine, oh, in the low data, in the low part, they are concentrating in that
+
+1519
+01:35:02,100 --> 01:35:07,580
+part, but for the high values, they spread out, so you can have some imagination, right?
+
+1520
+01:35:07,580 --> 01:35:10,060
+You can imagine the data distribution.
+
+1521
+01:35:10,060 --> 01:35:14,860
+This kind of data normally is called skewed, skewed, okay?
+
+1522
+01:35:14,860 --> 01:35:21,100
+Skewness of the data also present challenges to machine learning, to modeling, okay?
+
+1523
+01:35:21,100 --> 01:35:24,860
+So through this analysis, you know, we can discover issues with the data, right?
+
+1524
+01:35:24,860 --> 01:35:30,300
+And then we can actually, you know, adopt necessary actions or measures to address all
+
+1525
+01:35:30,300 --> 01:35:31,300
+these issues.
+
+1526
+01:35:31,300 --> 01:35:36,300
+But if you don't do this kind of exploration, you cannot find the issue, okay?
+
+1527
+01:35:36,300 --> 01:35:39,620
+You just, oh, this is a number, right?
+
+1528
+01:35:39,620 --> 01:35:44,380
+So you cannot just look at the number to discover the issues.
+
+1529
+01:35:44,380 --> 01:35:47,060
+You need to do exploration, right?
+
+1530
+01:35:47,060 --> 01:35:50,140
+Look at the central mean, the central tendency.
+
+1531
+01:35:50,140 --> 01:35:51,840
+Look at the spread of the data.
+
+1532
+01:35:51,840 --> 01:36:00,540
+Look at, you know, the farm numbers, okay?
+
+1533
+01:36:00,540 --> 01:36:06,140
+And the next tree, I think, is for illustration of the farm numbers, and a tree, we can use
+
+1534
+01:36:06,140 --> 01:36:10,580
+a so-called a tree, a box plot, give the numbers, right?
+
+1535
+01:36:10,580 --> 01:36:15,620
+But maybe, you know, if we can visualize the distribution, probably we can understand this
+
+1536
+01:36:15,620 --> 01:36:17,260
+problem even better, right?
+
+1537
+01:36:17,260 --> 01:36:19,620
+Okay, so this is the box plot.
+
+1538
+01:36:19,620 --> 01:36:24,500
+And this diagram, actually, box plot is just a visualization of the farm numbers, right?
+
+1539
+01:36:24,500 --> 01:36:27,140
+The position of the farm numbers, okay?
+
+1540
+01:36:27,140 --> 01:36:31,900
+The mean, the M1, Q1, Q2, Q3, right?
+
+1541
+01:36:31,900 --> 01:36:35,360
+A tree in the box plot, so in the middle, there is a box.
+
+1542
+01:36:35,360 --> 01:36:37,500
+So this is one of the reasons why I call box plot, right?
+
+1543
+01:36:37,500 --> 01:36:38,500
+There is a box.
+
+1544
+01:36:38,500 --> 01:36:42,980
+And this, actually, this is a boundary, the edge here is a Q3.
+
+1545
+01:36:42,980 --> 01:36:47,060
+And the low boundary edge here is Q1.
+
+1546
+01:36:47,060 --> 01:36:54,660
+And in the middle, there is a big tree line, right, a big line, and this is just the median,
+
+1547
+01:36:54,660 --> 01:36:55,660
+Q2.
+
+1548
+01:36:55,660 --> 01:37:00,780
+Okay, so we have Q1, Q2, Q3, Q1, Q2, Q3.
+
+1549
+01:37:00,780 --> 01:37:02,580
+So these are three numbers, right?
+
+1550
+01:37:02,580 --> 01:37:07,700
+And then we also need to find the tree, the minimum and maximum.
+
+1551
+01:37:07,700 --> 01:37:12,960
+And treating minimum and maximum are not necessarily the minimum and maximum of the data, okay?
+
+1552
+01:37:12,960 --> 01:37:19,100
+So in this tree, we look at the tree, how these minimum and maximum values are found.
+
+1553
+01:37:19,100 --> 01:37:27,360
+So here we define a so-called inter quantile range, which is the difference between Q3
+
+1554
+01:37:27,360 --> 01:37:28,360
+and Q1.
+
+1555
+01:37:28,360 --> 01:37:30,680
+We have Q1, Q2, Q3, right?
+
+1556
+01:37:30,680 --> 01:37:38,280
+So the difference between Q3 and Q1 is called inter quantile range, AQR.
+
+1557
+01:37:38,280 --> 01:37:44,200
+So based on AQR, we can find the minimum value and the maximum value.
+
+1558
+01:37:44,200 --> 01:37:56,080
+So from the diagram here, we can extend this tree further to Q1 minus 1.5 AQR to get the
+
+1559
+01:37:56,080 --> 01:38:03,640
+minimum.
+
+1560
+01:38:03,640 --> 01:38:06,920
+From the bottom of both, Q1.
+
+1561
+01:38:06,920 --> 01:38:08,180
+Then we can get that tree.
+
+1562
+01:38:08,180 --> 01:38:11,640
+So this gets a minimum.
+
+1563
+01:38:11,640 --> 01:38:15,720
+So get a 1.5 times of the AQR.
+
+1564
+01:38:15,720 --> 01:38:19,200
+So in this question, Q1 is 73, just so we see that.
+
+1565
+01:38:19,200 --> 01:38:23,240
+And then Q3 is 79.
+
+1566
+01:38:23,240 --> 01:38:28,400
+Then the AQR inter quantile range is Q3 minus Q1, right?
+
+1567
+01:38:28,400 --> 01:38:34,120
+In the example, so it's 79 minus 73 is 6.
+
+1568
+01:38:34,120 --> 01:38:44,360
+And then we should from the bottom, the bottom Q1, Q3, and then from here we minus 1.5 times
+
+1569
+01:38:44,360 --> 01:38:45,360
+6.
+
+1570
+01:38:45,360 --> 01:38:47,680
+1.5 times AQR, right?
+
+1571
+01:38:47,680 --> 01:39:00,720
+So we should actually from 73 minus AQR minus actually 1.5 times of the AQR, then get 64.
+
+1572
+01:39:00,720 --> 01:39:03,040
+But this 64 is not really the minimum.
+
+1573
+01:39:04,040 --> 01:39:07,560
+The minimum should be found from the data.
+
+1574
+01:39:07,560 --> 01:39:13,340
+So we show that we look at all the data that is around 64.
+
+1575
+01:39:13,340 --> 01:39:16,800
+We should find a one that is above 64.
+
+1576
+01:39:16,800 --> 01:39:25,000
+For example, in the real data there, actually the data around 64 is 63, 70, and 60.
+
+1577
+01:39:25,000 --> 01:39:31,180
+We should use the value that is above 64 as the minimum value.
+
+1578
+01:39:31,320 --> 01:39:35,740
+So here, this actually is 70, right?
+
+1579
+01:39:35,740 --> 01:39:42,260
+So we can use the minimum value, the 70 and the minimum value.
+
+1580
+01:39:42,260 --> 01:39:50,900
+And then if our value is below this 70, it will be considered as outliers, extreme values.
+
+1581
+01:39:50,900 --> 01:39:53,340
+So this is the minimum value.
+
+1582
+01:39:53,380 --> 01:40:04,900
+And for the maximum value, we should start from Q3, Q3 plus 1.5 AQR.
+
+1583
+01:40:04,900 --> 01:40:11,000
+So for the upper whisker, it's 10 to 1.5 in this question, right?
+
+1584
+01:40:11,000 --> 01:40:14,740
+So like Q3 plus 1.5 AQR.
+
+1585
+01:40:14,740 --> 01:40:17,500
+Q3, we already found the node value, right?
+
+1586
+01:40:17,500 --> 01:40:22,860
+Q3 is 70 now, and then times, then plus actually now.
+
+1587
+01:40:22,860 --> 01:40:26,540
+So this should be like 88, right?
+
+1588
+01:40:26,540 --> 01:40:30,020
+So 88, 88, okay.
+
+1589
+01:40:30,020 --> 01:40:36,580
+But whether this 88 should be used as actually the maximum value, no, actually we need to
+
+1590
+01:40:36,580 --> 01:40:38,300
+look at the data, right?
+
+1591
+01:40:38,300 --> 01:40:44,500
+We should find one that is slightly below this 88 from the data sequence given.
+
+1592
+01:40:44,500 --> 01:40:51,900
+So from the data sequence, from the data we find actually 82, 84, 89, close to 88, right?
+
+1593
+01:40:51,940 --> 01:40:58,020
+So the one that is below this, immediately below this 88 should be the one as the maximum value.
+
+1594
+01:41:08,220 --> 01:41:12,460
+Okay, so we use actually 84 as the maximum value.
+
+1595
+01:41:12,460 --> 01:41:19,020
+Then the value above 84 will be considered as extreme values, outliers.
+
+1596
+01:41:19,020 --> 01:41:25,100
+So if you look back to this diagram, this box plot, I know this plot has some values
+
+1597
+01:41:25,100 --> 01:41:31,100
+like, you know, the box plot like Q1, Q2, Q3, the minimum value, maximum value, then
+
+1598
+01:41:31,100 --> 01:41:40,140
+above here, you can see there's the outliers, extreme low or extreme high values, okay?
+
+1599
+01:41:40,140 --> 01:41:47,460
+And these extreme low or extreme high values could be called by many reasons, right?
+
+1600
+01:41:47,460 --> 01:41:50,780
+Some could be called by errors, okay?
+
+1601
+01:41:50,780 --> 01:41:54,100
+And sometimes these actually outliers are natural, right?
+
+1602
+01:41:54,100 --> 01:41:58,780
+Just actually example, look at the data, original wealth, right?
+
+1603
+01:41:58,780 --> 01:42:05,740
+The wealth of every person here you have, and also the wealth by the, you know, Bill
+
+1604
+01:42:05,740 --> 01:42:06,740
+Gates.
+
+1605
+01:42:06,740 --> 01:42:11,220
+So these, they are the value outliers, but certainly these outliers are natural, right?
+
+1606
+01:42:11,220 --> 01:42:13,340
+And not noise, okay?
+
+1607
+01:42:13,340 --> 01:42:18,900
+By some scenario, this actually could be, you know, an error when you record on a number,
+
+1608
+01:42:18,900 --> 01:42:19,900
+called by error.
+
+1609
+01:42:19,900 --> 01:42:25,060
+Okay, so, you know, if we're different, we have different reasons, then probably we need
+
+1610
+01:42:25,060 --> 01:42:32,020
+to use a different actually, you know, actions or measures to address these outliers issue.
+
+1611
+01:42:32,020 --> 01:42:33,340
+Okay.
+
+1612
+01:42:33,340 --> 01:42:45,300
+So these are the data, right, the box plot, actually all the function on my lab, they
+
+1613
+01:42:45,300 --> 01:42:49,820
+provide this function, give the data, then automatically, you know, help us to plot this
+
+1614
+01:42:49,820 --> 01:42:50,820
+box plot, okay?
+
+1615
+01:42:50,820 --> 01:42:56,620
+Just use the box plot, this function, then I plot this, okay?
+
+1616
+01:42:56,620 --> 01:43:02,020
+This actually in diagram shows the box plot of a different, you know, attributes.
+
+1617
+01:43:02,020 --> 01:43:07,460
+The box plot, you know, for cylinder, you can see the shape is quite different, right?
+
+1618
+01:43:07,460 --> 01:43:12,700
+So these show the data, you know, characteristics, you know, are very different from one feature
+
+1619
+01:43:12,700 --> 01:43:18,820
+to another feature, okay, because if the box plot, you know, looks similar, right, and
+
+1620
+01:43:18,820 --> 01:43:25,860
+then actually maybe the data distribution will be similar, but here then you look at
+
+1621
+01:43:25,860 --> 01:43:31,200
+that, they are very different, right, they are very different, okay?
+
+1622
+01:43:31,200 --> 01:43:38,240
+So this box plot is a good visualization tool, which can give us, you know, a good
+
+1623
+01:43:38,240 --> 01:43:56,640
+understanding about the data distribution, right, okay?
+
+1624
+01:43:56,640 --> 01:44:00,960
+Just now we see, you know, for the displacement, actually we find that there are big difference,
+
+1625
+01:44:00,960 --> 01:44:06,560
+right, between the median and the mean value, right, and in the, between Q3, the difference
+
+1626
+01:44:06,560 --> 01:44:13,360
+between Q3 and the median, right, and also between the difference between Q2, right,
+
+1627
+01:44:13,360 --> 01:44:18,040
+and also the difference between maximum value and the Q3.
+
+1628
+01:44:18,040 --> 01:44:21,720
+So we have looked at that value, and also we have looked into the, this value normally
+
+1629
+01:44:21,720 --> 01:44:26,480
+not big, right, like 100, but for the first half of the data, the difference between the
+
+1630
+01:44:26,480 --> 01:44:31,200
+mean value and the Q1, actually, you know, is small, the difference between Q2 and Q1
+
+1631
+01:44:31,200 --> 01:44:33,440
+is small, 30 something, right?
+
+1632
+01:44:33,440 --> 01:44:39,200
+So we see all the data is probably, you know, is spread out for larger values, okay?
+
+1633
+01:44:39,200 --> 01:44:44,440
+So this diagram just shows the, you know, the box plot of the displacement, actually
+
+1634
+01:44:44,440 --> 01:44:49,320
+you can see the data, right, in data, this is the median, right, so then for the larger
+
+1635
+01:44:49,320 --> 01:44:54,360
+range, right, this is actually indeed spread out for the larger values, right, for the
+
+1636
+01:44:54,360 --> 01:44:55,920
+larger values.
+
+1637
+01:44:55,920 --> 01:45:00,000
+For small values, they're more concentrated.
+
+1638
+01:45:00,000 --> 01:45:06,360
+For this part, a big difference, right, between the maximum value and the median and the Q3,
+
+1639
+01:45:06,360 --> 01:45:10,240
+and also the difference between Q3 and the mean.
+
+1640
+01:45:10,240 --> 01:45:16,360
+So this is actually the very effective visualization tool, right, box plot is very efficient visualization
+
+1641
+01:45:16,400 --> 01:45:24,680
+tool, which can help us to have a good understanding about the data distributions, okay?
+
+1642
+01:45:24,680 --> 01:45:30,920
+The understanding of the good, the distribution of the data could help us decide, you know,
+
+1643
+01:45:30,920 --> 01:45:38,360
+what measures we should use to address these issues, okay?
+
+1644
+01:45:38,360 --> 01:45:43,560
+For example, you know, if the data, big value data, right, probably for the data you can
+
+1645
+01:45:43,560 --> 01:45:49,920
+take some measurement operation, like you can take a logarithm operation, right, then
+
+1646
+01:45:49,920 --> 01:45:56,160
+to actually reduce, actually to make the data less skewed.
+
+1647
+01:45:56,160 --> 01:46:01,520
+Now it's all in the high part, right, if you take a logarithm operation, right, and then
+
+1648
+01:46:01,520 --> 01:46:07,760
+the data will be actually more evenly or uniformly distributed, okay?
+
+1649
+01:46:07,760 --> 01:46:12,720
+So through this exploration, you can find the issues, and then you can take measures
+
+1650
+01:46:12,720 --> 01:46:15,400
+to address the issues, okay?
+
+1651
+01:46:15,400 --> 01:46:22,400
+And then finally you can get a better model, which can produce a more accurate predictions.
+
+1652
+01:46:22,400 --> 01:46:31,480
+Okay, so from here, today until now, and I hope that you understand, fitting a model
+
+1653
+01:46:31,480 --> 01:46:37,080
+is not just a core function, put the data in, right, actually it's very necessary to
+
+1654
+01:46:37,080 --> 01:46:45,360
+do this kind of exploration, to answer the data, and to find the issues also, and take
+
+1655
+01:46:45,360 --> 01:46:52,360
+some measures to address the issues, and before we apply, input the data to the learning algorithm
+
+1656
+01:46:52,360 --> 01:47:04,280
+to fit a model, okay?
+
+1657
+01:47:04,280 --> 01:47:10,480
+The next visualization tool is called a histogram, histogram, because now we just see the five
+
+1658
+01:47:10,480 --> 01:47:16,640
+value position, right, Q1, Q2, Q3, minimum, maximum, right, then we have both plots, they
+
+1659
+01:47:16,640 --> 01:47:23,520
+give us an understanding, right, and actually a histogram is another effective visualization
+
+1660
+01:47:23,520 --> 01:47:26,960
+tool, right, to analyze the data distribution, okay?
+
+1661
+01:47:26,960 --> 01:47:34,040
+In this histogram, normally we divide the data into many bins, for example the data
+
+1662
+01:47:34,040 --> 01:47:41,720
+is from the values from 1 to 10, for example, right, you can divide the whole range into
+
+1663
+01:47:41,720 --> 01:47:53,320
+10 bins, okay, from 0, from 1 to 10, right, from 11 to 20, okay, from 21 to 30, okay,
+
+1664
+01:47:53,320 --> 01:47:59,280
+you have different range, and this is called bins, and then you are checked, so how many
+
+1665
+01:47:59,280 --> 01:48:04,440
+data points actually fall into this range?
+
+1666
+01:48:04,440 --> 01:48:09,440
+Then you count the number, okay, then you can explore this, so this is called actually
+
+1667
+01:48:09,440 --> 01:48:14,840
+the histogram, so the horizontal shows the values, okay, so here you can see this, right,
+
+1668
+01:48:14,840 --> 01:48:21,360
+so this is a bin, from here to this value, right, from here to here, actually the whole
+
+1669
+01:48:21,360 --> 01:48:26,280
+range is divided into many bins, of course in the functions, part of it, the default
+
+1670
+01:48:26,280 --> 01:48:32,720
+value is set to 10, but you can decide the bin number, you can also decide the tree,
+
+1671
+01:48:32,720 --> 01:48:39,440
+the bin size, the range of the bin, from which, you know, from which, starting from which
+
+1672
+01:48:39,440 --> 01:48:46,280
+value to what value, right, decide the range of the bin, you can define normally, okay,
+
+1673
+01:48:46,280 --> 01:48:51,320
+then actually we count the number, count the number, so this diagram shows the distribution
+
+1674
+01:48:51,320 --> 01:48:56,240
+of the data, right, so here the first one, symmetric, uniform, you can see, you know,
+
+1675
+01:48:56,240 --> 01:49:01,200
+all the bins, right, the number, actually the horizontal shows the number, the cost,
+
+1676
+01:49:01,200 --> 01:49:07,320
+how many data points, how many values, okay, how many values are in this range, okay, so
+
+1677
+01:49:07,320 --> 01:49:11,960
+here they are all similar, right, similar, doesn't mean the data distribution is quite
+
+1678
+01:49:11,960 --> 01:49:19,160
+even, right, uniform, uniform, uniform, they're quite uniform, the first one, right, then
+
+1679
+01:49:19,160 --> 01:49:27,640
+the second one, as you can see, this is symmetric, like, you know, this is symmetric, right,
+
+1680
+01:49:27,640 --> 01:49:33,880
+a uni model, uni model, uni means no single, right, uni model, just the one peak, so this
+
+1681
+01:49:33,880 --> 01:49:38,600
+is quite like, you know, Gaussian distribution, right, Gaussian distribution, so from here,
+
+1682
+01:49:38,600 --> 01:49:43,400
+oh, this sample, this data point, this is no feature, and probably the data follow normal
+
+1683
+01:49:43,400 --> 01:49:44,400
+distribution.
+
+1684
+01:49:44,400 --> 01:49:50,120
+You can look at this, this shape is quite similar to a normal distribution, right, and
+
+1685
+01:49:50,120 --> 01:49:57,000
+then look at another data, this actually skewed, skewed, this is called a left skewed, okay,
+
+1686
+01:49:57,000 --> 01:50:02,680
+and then this is quite, actually these are right skewed, skewed, okay, and then from
+
+1687
+01:50:02,680 --> 01:50:08,680
+here these are treated like a bimodal, because here we can see like two peaks, right, from
+
+1688
+01:50:08,680 --> 01:50:14,120
+here to here, then from here to here, so probably actually the feature shows two normal
+
+1689
+01:50:14,120 --> 01:50:15,120
+distributions.
+
+1690
+01:50:15,120 --> 01:50:19,840
+If you want to build a model for this kind of distribution, and then we can use a so-called
+
+1691
+01:50:19,840 --> 01:50:24,560
+Gaussian mixture model, so in the next week, when we study actually one approach which
+
+1692
+01:50:24,560 --> 01:50:31,720
+is the statistical approach for finite classification, and actually one important part of this algorithm
+
+1693
+01:50:31,720 --> 01:50:36,920
+is to estimate the probability distribution function, probability density function, okay,
+
+1694
+01:50:36,920 --> 01:50:41,400
+plus conditional probability density function, and the part of that we assume actually the
+
+1695
+01:50:41,400 --> 01:50:46,560
+following normal distribution, and then we need to find the parameter of model distribution
+
+1696
+01:50:46,560 --> 01:50:52,360
+to fit the data, right, but sometimes the data maybe cannot be modeled by one single
+
+1697
+01:50:52,360 --> 01:50:58,800
+actually normal distribution function, it will be modeled by multiple normal distribution
+
+1698
+01:50:58,800 --> 01:51:05,520
+functions, so that is a Gaussian mixture model, right, so through this analysis, this histogram
+
+1699
+01:51:05,520 --> 01:51:09,600
+actually we can discover the data, right, or there are two peaks, something like that,
+
+1700
+01:51:09,600 --> 01:51:16,960
+probably there are two, we can use the two normal Gaussian functions to actually model
+
+1701
+01:51:16,960 --> 01:51:23,720
+this data distribution, right, so if you don't actually plot this histogram, actually we
+
+1702
+01:51:23,720 --> 01:51:28,680
+cannot have this outstanding, right, then probably you just use one, then you fit the
+
+1703
+01:51:28,680 --> 01:51:34,120
+model, it's fine, oh the performance, no satisfactory, you don't know the reason why, right, but
+
+1704
+01:51:34,120 --> 01:51:39,680
+actually through this analysis of the data, through this histogram, we can understand
+
+1705
+01:51:39,680 --> 01:51:44,720
+actually indeed actually the data from normal distribution, but we need to use more than
+
+1706
+01:51:44,720 --> 01:51:52,320
+one normal distribution function, more than one Gaussian functions to fit the data, right,
+
+1707
+01:51:52,320 --> 01:51:59,120
+so we can discover the root cause of the problem, right, then you can take measures, right,
+
+1708
+01:51:59,120 --> 01:52:05,740
+use two Gaussian functions actually to model the distribution, okay, so here probably there
+
+1709
+01:52:05,740 --> 01:52:10,460
+are multiple, right, so there is one Gaussian function here, another Gaussian function,
+
+1710
+01:52:10,460 --> 01:52:15,320
+so here we need to use more than two in the multiple Gaussian function, Gaussian mixture
+
+1711
+01:52:15,320 --> 01:52:22,640
+model actually to fit the data, okay, you can see now, right, sometimes you fit the
+
+1712
+01:52:22,640 --> 01:52:27,200
+data, get a color function, performance, no satisfactory, you don't know the reason,
+
+1713
+01:52:27,200 --> 01:52:33,680
+right, but through exploration of the data, we can find actually the issues, right, so
+
+1714
+01:52:33,680 --> 01:52:39,680
+these issues, these phenomena, this distribution information can guide us to design the super
+
+1715
+01:52:39,680 --> 01:52:46,800
+models actually for these specific tasks, okay, and then actually you can get a better
+
+1716
+01:52:46,800 --> 01:52:54,600
+model to make more accurate predictions.
+
+1717
+01:52:54,600 --> 01:53:01,600
+Okay, so we have a ten minute break.
+
+1718
+01:53:24,600 --> 01:53:31,600
+Thank you very much.
+
+1719
+01:53:54,600 --> 01:54:01,600
+Thank you.
+
+1720
+01:54:24,600 --> 01:54:31,600
+Thank you.
+
+1721
+01:54:54,600 --> 01:55:04,600
+Thank you.
+
+1722
+01:55:24,600 --> 01:55:44,600
+Thank you.
+
+1723
+01:55:44,600 --> 01:56:07,600
+Thank you.
+
+1724
+01:56:07,600 --> 01:56:30,600
+Thank you.
+
+1725
+01:56:30,600 --> 01:56:53,600
+Thank you.
+
+1726
+01:56:53,600 --> 01:57:16,600
+Thank you.
+
+1727
+01:57:16,600 --> 01:57:39,600
+Thank you.
+
+1728
+01:57:39,600 --> 01:58:08,600
+Thank you.
+
+1729
+01:58:08,600 --> 01:58:37,600
+Thank you.
+
+1730
+01:58:37,600 --> 01:59:06,600
+Thank you.
+
+1731
+01:59:06,600 --> 01:59:35,600
+Thank you.
+
+1732
+01:59:35,600 --> 02:00:04,600
+Thank you.
+
+1733
+02:00:04,600 --> 02:00:33,600
+Thank you.
+
+1734
+02:00:33,600 --> 02:01:02,600
+Thank you.
+
+1735
+02:01:02,600 --> 02:01:16,600
+Okay, so both plot and the histogram are provided with effective tools and for visualization
+
+1736
+02:01:16,600 --> 02:01:25,600
+of the data distribution, okay.
+
+1737
+02:01:25,600 --> 02:01:30,600
+And actually here we can have a look of the distribution and all the histogram of the
+
+1738
+02:01:30,600 --> 02:01:37,600
+different features, different attributes in the auto MPG data set, right, and then we
+
+1739
+02:01:37,600 --> 02:01:43,600
+can see actually the distribution, right, are very different, right, for some data set,
+
+1740
+02:01:43,600 --> 02:01:52,600
+right, for MPG and for all other like model years it's quite uniform, right, quite uniform,
+
+1741
+02:01:52,600 --> 02:01:58,600
+but for some of them like for this acceleration, right, it follows like a normal distribution,
+
+1742
+02:01:58,600 --> 02:01:59,600
+normal distribution.
+
+1743
+02:01:59,600 --> 02:02:05,600
+So you can see the different characteristics of the different attributes in the data set,
+
+1744
+02:02:05,600 --> 02:02:06,600
+okay.
+
+1745
+02:02:06,600 --> 02:02:11,600
+Certainly through exploration of the data, right, particular visualization of the data
+
+1746
+02:02:11,600 --> 02:02:18,600
+distribution by the histogram or the both plot, we can have a better understanding about
+
+1747
+02:02:18,600 --> 02:02:19,600
+the data, right.
+
+1748
+02:02:19,600 --> 02:02:26,600
+So certainly these help us to decide on the suitable models and also the learning algorithm
+
+1749
+02:02:26,600 --> 02:02:30,600
+for this data set, okay.
+
+1750
+02:02:30,600 --> 02:02:37,600
+So next we know these are just the information for the numerical data, right, quantitative
+
+1751
+02:02:37,600 --> 02:02:47,600
+data or the continuous data, continuous quantitative of the numerical, right, or sometimes actually
+
+1752
+02:02:47,600 --> 02:02:53,600
+we use them misly, right, exchangeably, okay, so they are basically so we can measure the
+
+1753
+02:02:53,600 --> 02:02:59,600
+mean, we can measure the median, okay, so that's the measure of the central tendency.
+
+1754
+02:02:59,600 --> 02:03:06,600
+We can also look at the dispersion, the spread of the data, okay, and also plot through the
+
+1755
+02:03:06,600 --> 02:03:12,600
+workforce plot and also the histogram to look at the data distributions, okay.
+
+1756
+02:03:12,600 --> 02:03:21,600
+And for categorical features like gender, right, like the gender, right, so like so
+
+1757
+02:03:21,600 --> 02:03:27,600
+we cannot actually use this, actually, you know, we cannot carry the mean value, so what
+
+1758
+02:03:27,600 --> 02:03:33,600
+the average of the gender of this class, right, we don't have the average of gender, right,
+
+1759
+02:03:33,600 --> 02:03:38,600
+so we don't have average, we cannot, we don't have the central tendency, okay.
+
+1760
+02:03:38,600 --> 02:03:47,600
+So then actually how to actually visualize the data and actually we can actually use
+
+1761
+02:03:47,600 --> 02:03:58,600
+a table, use a table, okay, so here actually this table, no, one table is for the car name,
+
+1762
+02:03:58,600 --> 02:04:07,600
+car name, actually we can recount the number of samples that taking each of the values,
+
+1763
+02:04:07,600 --> 02:04:16,600
+right, for acceleration, for this actually, these are for, I think this here is for car
+
+1764
+02:04:16,600 --> 02:04:22,600
+name, right, for car name, so among all the cars, all the samples, so how many cars actually
+
+1765
+02:04:22,600 --> 02:04:27,600
+have this name, how many cars have this name, how many cars have been named, okay, and for
+
+1766
+02:04:27,600 --> 02:04:33,600
+the cylinder, right, so how many cars have actually three, that's four, right, how many
+
+1767
+02:04:33,600 --> 02:04:42,600
+cars have four cylinders, so these are four cars, right, so this table also can give an
+
+1768
+02:04:42,600 --> 02:04:47,600
+understanding about the distribution, the value distributions, okay, so like for this
+
+1769
+02:04:47,600 --> 02:04:53,600
+actually, the second part, right, for the cylinder, we know most of the cars have actually
+
+1770
+02:04:53,600 --> 02:05:00,600
+four cylinders because there are two, four, 200, and the four cars have four cylinders,
+
+1771
+02:05:00,600 --> 02:05:07,600
+right, and actually one or three cars have eight cylinders, okay, so very few cars have
+
+1772
+02:05:07,600 --> 02:05:13,600
+three cylinders or five cylinders, okay, so this table can also give us an understanding
+
+1773
+02:05:13,600 --> 02:05:20,600
+about the data, the value distribution, okay, so we cannot actually have this actually the
+
+1774
+02:05:20,600 --> 02:05:26,600
+histogram and also the box plot and for the categorical data, but we can only have this
+
+1775
+02:05:26,600 --> 02:05:36,600
+kind of table, okay, so next actually is for the relationship between the variables,
+
+1776
+02:05:36,600 --> 02:05:45,600
+between the attributes or features, okay, and at the beginning of this class actually
+
+1777
+02:05:45,600 --> 02:05:52,600
+I told about the relationship between the features, right, and through this actually
+
+1778
+02:05:52,600 --> 02:05:58,600
+relationship actually we can explore the interdependence of the data or sometimes we
+
+1779
+02:05:58,600 --> 02:06:05,600
+call the redundancy between the data, okay, so for this actually the relationship exploration
+
+1780
+02:06:05,600 --> 02:06:14,600
+we can use actually the so-called scatter plot, actually we can use one actually attribute
+
+1781
+02:06:14,600 --> 02:06:22,600
+as x axis, right, horizontal axis, we can use another attribute as the vertical axis,
+
+1782
+02:06:22,600 --> 02:06:28,600
+right, so for each sample actually we have an attribute one value, we have attribute
+
+1783
+02:06:28,600 --> 02:06:34,600
+two value, right, so the x1, x2 as a coordinate we can find a location in this actually in
+
+1784
+02:06:34,600 --> 02:06:41,600
+a plane, right, so this box plot is just actually one actually sample versus another sample,
+
+1785
+02:06:41,600 --> 02:06:50,600
+okay, so this is like a displacement, it's horizontal, okay, and then vertical actually
+
+1786
+02:06:50,600 --> 02:06:58,600
+is the mpg, so each data point, each point here, circle here represent one sample, for
+
+1787
+02:06:58,600 --> 02:07:05,600
+this sample and the value of displacement is this and the value mpg another value, right,
+
+1788
+02:07:05,600 --> 02:07:13,600
+we use this two value as the coordinate and then we can plot this position, no, coordinates
+
+1789
+02:07:13,600 --> 02:07:18,600
+are the position, right, we can actually plot the data on this plane, okay, so this order
+
+1790
+02:07:18,600 --> 02:07:24,600
+and through this actually scatter plot actually we can find the relationship between the data
+
+1791
+02:07:24,600 --> 02:07:32,600
+points, okay, if one extreme case you can imagine, one extreme case, okay, the two attributes
+
+1792
+02:07:32,600 --> 02:07:38,600
+actually are identical, the same, okay, then all the coordinate the same, the coordinate
+
+1793
+02:07:38,600 --> 02:07:44,600
+the same, right, and then actually you can imagine actually then actually all the points
+
+1794
+02:07:44,600 --> 02:07:51,600
+actually are on a straight line, on a straight line, so these are extreme cases, this data
+
+1795
+02:07:51,600 --> 02:07:58,600
+actually has severely correlated because the data with itself, right, the one attribute,
+
+1796
+02:07:58,600 --> 02:08:04,600
+the correlation between one attribute and itself, of course is what, the maximum, right,
+
+1797
+02:08:04,600 --> 02:08:10,600
+so the data point is just on a straight line, on a straight line, so this is the case, when
+
+1798
+02:08:10,600 --> 02:08:17,600
+the samples are, when the two actually variable are severely correlated, that means the redundancy,
+
+1799
+02:08:17,600 --> 02:08:24,600
+there are redundancies, okay, and then the two attributes, and then actually the spread
+
+1800
+02:08:24,600 --> 02:08:32,600
+is quite narrow, along a line, okay, but if the two variable are independent, totally
+
+1801
+02:08:32,600 --> 02:08:38,600
+random, if you actually draw them, right, you can see the data like a ball, this is
+
+1802
+02:08:38,600 --> 02:08:45,600
+really like a ball, x1, x2, or sphere shape, something like that, okay, so this is true,
+
+1803
+02:08:45,600 --> 02:08:51,600
+they are strongly independent, okay, so these are the two extreme cases, right, where actually
+
+1804
+02:08:51,600 --> 02:08:56,600
+all the data points on one straight line, you can imagine, right, so all the data points
+
+1805
+02:08:56,600 --> 02:09:01,600
+on one straight line, because the two attributes are the same, all the points on a straight
+
+1806
+02:09:01,600 --> 02:09:07,600
+line, so very narrow, right, very narrow, another very spread, spread very much like
+
+1807
+02:09:07,600 --> 02:09:14,600
+a ball data point, this is the case when the two features are independent.
+
+1808
+02:09:14,600 --> 02:09:20,600
+Okay, so through these two extreme cases, and also we look at the true scenario, right,
+
+1809
+02:09:20,600 --> 02:09:26,600
+for a specific feature, and another feature, right, against another feature, then we can
+
+1810
+02:09:26,600 --> 02:09:33,600
+understand the correlation between the two, whether they are strong, strong redundancy,
+
+1811
+02:09:33,600 --> 02:09:41,600
+or strong correlation between them, or the two variables are independent, right, so through
+
+1812
+02:09:41,600 --> 02:09:47,600
+actually, this scatter plot, through analyzing this scatter plot, actually, we can have a
+
+1813
+02:09:47,600 --> 02:09:54,600
+basic understanding about the relationship between the variables, okay, sometimes the
+
+1814
+02:09:54,600 --> 02:09:59,600
+one variable, another variable has a proportion relationship, okay, so again, they are on
+
+1815
+02:09:59,600 --> 02:10:05,600
+a straight line, they are not along a straight line, not exactly on the straight line, but
+
+1816
+02:10:05,600 --> 02:10:11,600
+narrowly along the straight line, so this means the two features are actually severely
+
+1817
+02:10:11,600 --> 02:10:16,600
+correlated, okay, so this is a scatter plot, I think it's another visualization tool, okay,
+
+1818
+02:10:17,600 --> 02:10:27,600
+to understand the relationship between two variables, okay, so this, of course, this
+
+1819
+02:10:27,600 --> 02:10:36,600
+plot is for continuous attributes or features or variables, for discrete, or categorical,
+
+1820
+02:10:37,600 --> 02:10:45,600
+or actually the sort of qualitative data, now we can use the so-called two-way cross
+
+1821
+02:10:45,600 --> 02:10:54,600
+tabulation, two-way, okay, so this actually just shows such a table, actually like one
+
+1822
+02:10:54,600 --> 02:11:02,600
+origin, another model here, origin is a vertical, one, you know, USA, two, you know, Japan,
+
+1823
+02:11:02,600 --> 02:11:09,600
+three, you know, like Germany, all the carmaker countries, so actually, so in the middle year,
+
+1824
+02:11:09,600 --> 02:11:19,600
+model year, 1970, 1971, okay, until 1982, right, so this shows the number, okay, so
+
+1825
+02:11:19,600 --> 02:11:27,600
+for example, for the car made in USA, right, so the model years, so for the number of the
+
+1826
+02:11:27,600 --> 02:11:35,600
+cars in 17, 22, okay, so these are, show these values, okay, so these are the cross
+
+1827
+02:11:35,600 --> 02:11:41,600
+table, two-way cross table, actually also give us an understanding about the relationship
+
+1828
+02:11:41,600 --> 02:11:55,600
+between actually the two categorical variables, okay, so next actually we talk about the data
+
+1829
+02:11:55,600 --> 02:12:04,600
+quality, and actually remediation, so at the beginning I already talked about the importance
+
+1830
+02:12:04,600 --> 02:12:11,600
+actually of data quality, right, so actually these are very important, the success of machine
+
+1831
+02:12:11,600 --> 02:12:23,600
+learning depends, largely depends on the quality of the data, okay, and so, but in practice
+
+1832
+02:12:23,600 --> 02:12:28,600
+problem, we could encounter some issues, right, actually the data quality is not perfect,
+
+1833
+02:12:28,600 --> 02:12:35,600
+okay, so we could encounter some issues, and so there are two kind of problem, one is the
+
+1834
+02:12:35,600 --> 02:12:42,600
+mission values problem, mission value, actually at the beginning, when we talk about the mean,
+
+1835
+02:12:42,600 --> 02:12:48,600
+right, the central tendency, they used to illustrate the mission value problem, for
+
+1836
+02:12:48,600 --> 02:12:56,600
+some of the features, for some of the samples, and some features, the value are missing,
+
+1837
+02:12:56,600 --> 02:13:03,600
+okay, so actually the mission value could cause by different reason, right, and for
+
+1838
+02:13:03,600 --> 02:13:11,600
+example, if you ask you to do an interview, right, like an interview of a student in NTU,
+
+1839
+02:13:11,600 --> 02:13:19,600
+and you can ask your opinion on different policies or regulation about NTU, you can
+
+1840
+02:13:19,600 --> 02:13:26,600
+actually share your idea, right, and then of course actually we can record down your
+
+1841
+02:13:26,600 --> 02:13:32,600
+view on each of the regulation, right, you think what is your thinking, what is your
+
+1842
+02:13:32,600 --> 02:13:37,600
+thought on this, right, I also give you a score as an evaluation of this policy, right,
+
+1843
+02:13:37,600 --> 02:13:42,600
+your satisfactory score on this, but sometimes actually you ask this, but you don't want
+
+1844
+02:13:42,600 --> 02:13:48,600
+to comment on that, right, then of course in that scenario, they just don't have a record
+
+1845
+02:13:48,600 --> 02:13:54,600
+of your score about a certain policy, okay, so this could be called, this could cause
+
+1846
+02:13:54,600 --> 02:14:01,600
+a mission value, right, for that particular sample, for that particular attribute, sometimes
+
+1847
+02:14:01,600 --> 02:14:07,600
+maybe you give the answer, but the recorder forgot to record down, write down this value,
+
+1848
+02:14:07,600 --> 02:14:18,600
+okay, so there are many reasons that causes mission value problem, okay, and so the data,
+
+1849
+02:14:18,600 --> 02:14:25,600
+sometimes the data elements, normally the attributes have values surprisingly different
+
+1850
+02:14:25,600 --> 02:14:32,600
+from the other elements, so extremely low values or extremely high values, so these
+
+1851
+02:14:32,600 --> 02:14:39,600
+are the outliers, they are very different from other values, just like an example, talk
+
+1852
+02:14:39,600 --> 02:14:45,600
+about the income, right, talk about the wealth we have, and then suddenly some are being
+
+1853
+02:14:45,600 --> 02:14:51,600
+in there, right, they are outliers, outliers also could be caused by many reasons, right,
+
+1854
+02:14:51,600 --> 02:14:58,600
+and why not, they are naturally outliers, okay, and maybe in such a scenario, maybe
+
+1855
+02:14:58,600 --> 02:15:06,600
+we take the wrong data, right, you just look at the average or the normal, like Singaporean
+
+1856
+02:15:06,600 --> 02:15:12,600
+or Chinese, you know, household income, right, but actually you're just normal, common, right,
+
+1857
+02:15:12,600 --> 02:15:19,600
+people, but you include some billionaires, so this actually could be caused by an incorrect
+
+1858
+02:15:19,600 --> 02:15:26,600
+sample set selection, maybe you use some of the data, right, so you should not use the
+
+1859
+02:15:26,600 --> 02:15:33,600
+data billionaires to calculate the average income of the ordinary people, right, but
+
+1860
+02:15:33,600 --> 02:15:39,600
+actually you use that, so these are the outliers, it could be, it's caused by the incorrect
+
+1861
+02:15:39,600 --> 02:15:46,600
+use of the sample set, okay, and also could be caused by errors, you write down, when
+
+1862
+02:15:46,600 --> 02:15:54,600
+you record down this value, you record it wrongly, okay, so this wrong value could be
+
+1863
+02:15:54,600 --> 02:16:04,600
+an outlier, okay, so these are the two main issues actually, or two frequently encountered
+
+1864
+02:16:04,600 --> 02:16:12,600
+issues in the data, so if we have these issues, then we must actually eliminate these problems,
+
+1865
+02:16:12,600 --> 02:16:18,600
+must address these problems, and before actually we apply this data to the linear algorithm,
+
+1866
+02:16:18,600 --> 02:16:28,600
+okay, so next we look at data remediation, remediation, how to handle these problems,
+
+1867
+02:16:28,600 --> 02:16:39,600
+if we have missing values, if we have outliers, okay, first we look at the handling of the
+
+1868
+02:16:39,600 --> 02:16:48,600
+outliers, okay, so we already understand actually what is an outlier, right, extreme low or
+
+1869
+02:16:48,600 --> 02:16:54,600
+extreme high values, you know, very different from other values, so these values considered
+
+1870
+02:16:54,600 --> 02:17:03,600
+as an outlier, okay, and so one simple way is to remove the outliers, if one sample has
+
+1871
+02:17:04,600 --> 02:17:11,600
+one specific feature, the value is extreme high, extreme low, so I think the easiest
+
+1872
+02:17:11,600 --> 02:17:19,600
+way to handle this outlier problem is just to remove the host, that sample, to remove
+
+1873
+02:17:19,600 --> 02:17:28,600
+that sample, okay, so we can remove the outliers, okay, so for every sample, if there is one
+
+1874
+02:17:28,600 --> 02:17:35,600
+attribute contain outlier value, right, extreme low, extreme high values, we can just remove
+
+1875
+02:17:35,600 --> 02:17:42,600
+this sample, okay, so of course this is the easiest way to do that, right, just remove
+
+1876
+02:17:42,600 --> 02:17:50,600
+that by checking the sample, so this is also a way to improve the data quality and also
+
+1877
+02:17:50,600 --> 02:17:56,600
+the quality of the model, right, so this is the reason why we say we need to explore the
+
+1878
+02:17:56,600 --> 02:18:01,600
+model, we need to look at the quality, right, if there are missing values, there are outliers,
+
+1879
+02:18:01,600 --> 02:18:09,600
+we must address these outliers and the missing value problems, okay, so remove the outliers,
+
+1880
+02:18:09,600 --> 02:18:18,600
+then we can improve the quality of the data, and another is the imputation, okay, so we,
+
+1881
+02:18:18,600 --> 02:18:22,600
+you know, if the outliers, right, extreme high, extreme low, maybe we see, oh, this
+
+1882
+02:18:22,600 --> 02:18:29,600
+could be caused by, you know, the errors, okay, then we should correct this error, correct
+
+1883
+02:18:29,600 --> 02:18:34,600
+this error, correct it, but how to correct this error, so what value we should use to
+
+1884
+02:18:34,600 --> 02:18:41,600
+replace these extreme low or extreme high values, actually we can use the average, we
+
+1885
+02:18:41,600 --> 02:18:49,600
+can use the average, right, actually we can use the mean, media, or mode to replace these
+
+1886
+02:18:49,600 --> 02:18:56,600
+extreme low or extreme high values, we just, if we believe they are caused by errors, but
+
+1887
+02:18:56,600 --> 02:19:02,600
+now we want to use a value to replace that, but what value to use, actually then we can,
+
+1888
+02:19:02,600 --> 02:19:11,600
+then naturally we can think about the media or mean, right, or the mode, we can replace
+
+1889
+02:19:11,600 --> 02:19:20,600
+the outliers, right, using these values, okay, so we don't remove the outliers, actually
+
+1890
+02:19:20,600 --> 02:19:27,600
+instead we keep the sample with the extreme low or high values, but we change the values,
+
+1891
+02:19:27,600 --> 02:19:36,600
+right, replace the extreme low or high values using the mean, media, or mode, okay, another
+
+1892
+02:19:36,600 --> 02:19:42,600
+is keeping, okay, so this is extremely low, extremely high, right, so just now actually
+
+1893
+02:19:42,600 --> 02:19:49,600
+when we have the box plot, we have the five number summary, right, Q1, Q2, Q3, the minimum,
+
+1894
+02:19:49,600 --> 02:19:54,600
+maximum, okay, these minimum, maximum are not necessarily really the minimum value or
+
+1895
+02:19:54,600 --> 02:19:58,600
+maximum value in the data, right, actually we have ways to calculate minimum and maximum,
+
+1896
+02:19:58,600 --> 02:20:05,600
+based on Q1, and then we subtracted to 1.5, actually, you know, accurate into quantile
+
+1897
+02:20:05,600 --> 02:20:14,600
+range, okay, and for Q, for maximum from Q3, we have plus 1.5, you know, accurate, right,
+
+1898
+02:20:14,600 --> 02:20:19,600
+so, so we have this value, right, we have minimum and maximum, right, so if the value
+
+1899
+02:20:19,600 --> 02:20:27,600
+is extremely low, we know this area, right, so we just, you know, replace the value using
+
+1900
+02:20:27,600 --> 02:20:34,600
+the minimum value to replace, if the value is extremely high, we use the maximum value
+
+1901
+02:20:34,600 --> 02:20:42,600
+to, to replace, okay, so this method is called camping, okay, camping, and here actually
+
+1902
+02:20:42,600 --> 02:20:49,600
+you can also treat, now use a different like, you can use the file percentile, file percentile,
+
+1903
+02:20:49,600 --> 02:20:56,600
+95 percentile, Q1 is 25 percentile, right, you can use the file percentile, you don't
+
+1904
+02:20:56,600 --> 02:21:01,600
+use really the minimum, right, we can use the value, that is the file percentile, the
+
+1905
+02:21:01,600 --> 02:21:08,600
+maximum value, we don't use the maximum value, we can use the 95 percentile, okay, so this
+
+1906
+02:21:08,600 --> 02:21:20,600
+is the, okay, this is the, you know, the camping method, okay, so this is another scenario
+
+1907
+02:21:20,600 --> 02:21:27,600
+that if there is extreme significant number of outliers, extreme number of outliers, then
+
+1908
+02:21:27,600 --> 02:21:34,600
+they should be treated differently, separately, okay, we know among the 200 samples, or like,
+
+1909
+02:21:34,600 --> 02:21:42,600
+you know, 50 samples, or 25%, right, have extreme value of outliers, and maybe these
+
+1910
+02:21:42,600 --> 02:21:47,600
+outliers are natural outliers, right, they are not caused by error, okay, so here is
+
+1911
+02:21:47,600 --> 02:21:53,600
+such a scenario, actually we should treat them, you know, the data, normal data, as
+
+1912
+02:21:53,600 --> 02:21:59,600
+one group, and then the data with the stream values, right, outliers into another group,
+
+1913
+02:21:59,600 --> 02:22:07,600
+okay, then we can build a model separately for the two groups, okay, and, okay, then
+
+1914
+02:22:07,600 --> 02:22:12,600
+if we make prediction, right, make prediction, then we can just look at the data, right,
+
+1915
+02:22:13,600 --> 02:22:18,600
+normal data or an outlier, then we can decide, actually, which model to use, okay, this is
+
+1916
+02:22:18,600 --> 02:22:25,600
+another way to handle the outlier problem, okay, so for one single problem, actually
+
+1917
+02:22:25,600 --> 02:22:31,600
+we have multiple solutions, but actually, of course, each of the solution is a purpose
+
+1918
+02:22:31,600 --> 02:22:41,600
+within certain context, okay, so you always need to analyze the given task, analyze the
+
+1919
+02:22:41,600 --> 02:22:48,600
+task specific data, right, to find the issues, and also to take the corresponding measures,
+
+1920
+02:22:48,600 --> 02:22:54,600
+right, the best measure to address the issues, okay, we always need to do the analysis, right,
+
+1921
+02:22:54,600 --> 02:23:08,600
+do the analysis, so here these are just actually one scenario, significant number, okay, so
+
+1922
+02:23:08,600 --> 02:23:16,600
+if the outliers are natural, right, actually, you know, they're natural, okay, so we should
+
+1923
+02:23:16,600 --> 02:23:21,600
+not amend them, so they're not caused by error, they're natural, okay, so in such a
+
+1924
+02:23:21,600 --> 02:23:29,600
+scenario, maybe we just put them into two groups, that's a good solution, okay, so another
+
+1925
+02:23:29,600 --> 02:23:34,600
+tree, we see the mission value problem, right, mission values, there are some mission values,
+
+1926
+02:23:34,600 --> 02:23:38,600
+but then, of course, the tree, we can, the simple way to eliminate the sample with mission
+
+1927
+02:23:38,600 --> 02:23:44,600
+value, right, so this is the simplest way is to eliminate records or sample having a
+
+1928
+02:23:44,600 --> 02:23:49,600
+mission value, because we have a market, right, we cannot decide the value, and we simply
+
+1929
+02:23:49,600 --> 02:23:55,600
+remove this value, remove this sample, and this sample has a mission value, and we can
+
+1930
+02:23:55,600 --> 02:24:00,600
+remove that, and this sample have, you know, extremely low or high value outliers, then
+
+1931
+02:24:00,600 --> 02:24:04,600
+we have to remove that, so at least this is one way to address the problem, but not
+
+1932
+02:24:04,600 --> 02:24:10,600
+necessarily the best way, it is a way to address the entire problem, to address the mission
+
+1933
+02:24:10,600 --> 02:24:16,600
+value problem, but not necessarily the best way, okay, so the eliminate records or sample
+
+1934
+02:24:16,600 --> 02:24:28,600
+having a mission value, okay, so this anomaly is applicable when the number of, you know,
+
+1935
+02:24:28,600 --> 02:24:34,600
+a sample with mission value is limited, a small proportion, okay, you have like, you
+
+1936
+02:24:34,600 --> 02:24:41,600
+know, only 10% or 5% of the data are mission values, right, 5%, and if you have a large
+
+1937
+02:24:41,600 --> 02:24:47,600
+number of samples, then removal of this 5% of the data will not affect our learning result
+
+1938
+02:24:47,600 --> 02:24:53,600
+much, okay, then we can just remove, right, so this anomaly is applicable, can be adopted
+
+1939
+02:24:53,600 --> 02:25:00,600
+under such a scenario, the removal of these samples will not affect actually the learning
+
+1940
+02:25:00,600 --> 02:25:08,600
+result much, okay, so we can remove them, okay, just actually in this example here,
+
+1941
+02:25:08,600 --> 02:25:16,600
+I gave, originally the data has 392 samples, and actually you find the six sample mission
+
+1942
+02:25:16,600 --> 02:25:21,600
+value, right, because now we see the six sample, you know, question mark mission value, you
+
+1943
+02:25:21,600 --> 02:25:30,600
+remove these six samples, we still have 388, 86 samples, right, so just actually, like
+
+1944
+02:25:30,600 --> 02:25:38,600
+you know, six, how many percent, 2%, yeah, less than 2% of data, right, have mission
+
+1945
+02:25:38,600 --> 02:25:45,600
+value, you know, remove all this percentage, right, of the data will not affect the learning
+
+1946
+02:25:45,600 --> 02:25:57,600
+result much, okay, then we can take this simple way to remove them, okay.
+
+1947
+02:25:57,600 --> 02:26:03,600
+So this will not be possible actually if, you know, many data points have mission values,
+
+1948
+02:26:03,600 --> 02:26:11,600
+a tiny percent, you know, 392 sample, right, or 100 sample mission values, if you remove
+
+1949
+02:26:11,600 --> 02:26:17,600
+these 100 samples, then actually this will affect the learning result very much, okay,
+
+1950
+02:26:17,600 --> 02:26:23,600
+so then in such a scenario we should not remove, okay, through this process you can see that
+
+1951
+02:26:23,600 --> 02:26:28,600
+we all need to analyse this problem, right, analyse, we look at the scenario, so under
+
+1952
+02:26:28,600 --> 02:26:36,600
+different scenarios we have different solutions, okay.
+
+1953
+02:26:36,600 --> 02:26:41,600
+And then of course the next actually is the imputing the mission values, okay, we don't
+
+1954
+02:26:41,600 --> 02:26:47,600
+try to remove actually the sample because of just one mission value, right, because
+
+1955
+02:26:47,600 --> 02:26:53,600
+actually in so many scenarios the data collection is not easy, in particular in biomedical research,
+
+1956
+02:26:53,600 --> 02:26:58,600
+right, and actually you, or just now as an example you interviewed a student about a
+
+1957
+02:26:58,600 --> 02:27:03,600
+policy, right, the interview can take maybe like 10 minutes, okay, just because of one
+
+1958
+02:27:03,600 --> 02:27:10,600
+value actually in mission, then you remove the sample, then this 10 minutes effort is
+
+1959
+02:27:10,600 --> 02:27:16,600
+wasted, right, so these are actually some scenarios, many scenarios, the data collection
+
+1960
+02:27:16,600 --> 02:27:21,600
+is very expensive and you will just have a limited number of samples, we should not remove
+
+1961
+02:27:21,600 --> 02:27:27,600
+actually the sample, instead we should take some other measures, right, actually to actually
+
+1962
+02:27:27,600 --> 02:27:31,600
+compensate the mission value, to address the mission value problem.
+
+1963
+02:27:31,600 --> 02:27:36,600
+So here is the imputing the mission values, we should just like outline it, right, we
+
+1964
+02:27:36,600 --> 02:27:43,600
+should replace, we should give a value, right, for this mission value, actually what value
+
+1965
+02:27:43,600 --> 02:27:48,600
+to give, actually we can of course like improve actually for the outline, we can use the median,
+
+1966
+02:27:48,600 --> 02:27:56,600
+we can use the mean and we can use the mode, right, to replace, to assign to this mission
+
+1967
+02:27:56,600 --> 02:28:03,600
+value, okay, so this is the mission value and actually we cannot, another issue, right,
+
+1968
+02:28:03,600 --> 02:28:14,600
+and in particular I think for the sample, right, actually sometimes actually we don't
+
+1969
+02:28:14,600 --> 02:28:21,600
+use the overall mean or overall media, but even in classification problem we know this
+
+1970
+02:28:21,600 --> 02:28:28,600
+sample belongs to class one, okay, and then actually we should not use the overall mean
+
+1971
+02:28:28,600 --> 02:28:35,600
+or median to compensate, actually to assign the overall mean or median to the mission
+
+1972
+02:28:35,600 --> 02:28:41,600
+value, right, we should not use the overall, instead we should now look at this sample
+
+1973
+02:28:41,600 --> 02:28:47,600
+belongs to class one, right, so it's more similar to sample of class one, then we should
+
+1974
+02:28:47,600 --> 02:28:53,600
+use the median or mean value of sample of class one to replace this question mark, right,
+
+1975
+02:28:53,600 --> 02:28:58,600
+this actually certainly will improve the accuracy, right, so this is the one method, okay, another
+
+1976
+02:28:58,600 --> 02:29:05,600
+method is that actually even within the same class, some samples actually are more similar
+
+1977
+02:29:05,600 --> 02:29:11,600
+than to other samples, right, even within the same class, right, because within the
+
+1978
+02:29:11,600 --> 02:29:17,600
+same class they also have dispersion, right, spread, okay, although the spread may be small,
+
+1979
+02:29:17,600 --> 02:29:23,600
+but for some sample actually if we look at other features with no missing value, okay,
+
+1980
+02:29:23,600 --> 02:29:29,600
+then we find actually the most similar samples, so based on other features we find which sample
+
+1981
+02:29:29,600 --> 02:29:34,600
+is most similar to this, to the sample with the mission value, okay, then we look at the
+
+1982
+02:29:34,600 --> 02:29:42,600
+feature, we look at the value of that sample, right, then we just use that value to replace
+
+1983
+02:29:42,600 --> 02:29:49,600
+the question mark, this is probably another way, right, so we analyze the problem, although
+
+1984
+02:29:49,600 --> 02:29:57,600
+we also impute the mission value, but we could have different ways, okay, so this is the,
+
+1985
+02:29:57,600 --> 02:30:08,600
+yeah, okay, and here for another example, right, for the horsepower and so they also
+
+1986
+02:30:08,600 --> 02:30:13,600
+based on the relationship, right, actually previously we see, you know, we can explore
+
+1987
+02:30:13,600 --> 02:30:18,600
+the relationship between the variables, right, between the variables, if you know the horsepower
+
+1988
+02:30:18,600 --> 02:30:27,600
+is probably, is more similar, is correlated with the cylinder, with the cylinder, right,
+
+1989
+02:30:27,600 --> 02:30:33,600
+so actually, oh, then we can look at, you know, if this sample actually have cylinder
+
+1990
+02:30:33,600 --> 02:30:38,600
+like eight, right, like eight, okay, so because these two variables are correlated, and then
+
+1991
+02:30:38,600 --> 02:30:45,600
+we can look at the, you know, all the data with eight, cylinder eight, okay, and then
+
+1992
+02:30:45,600 --> 02:30:52,600
+we can look at this sample, you know, along the horizontal, along the feature now, so
+
+1993
+02:30:52,600 --> 02:30:58,600
+what are the values, okay, then we take the average of this sample with eight cylinders,
+
+1994
+02:30:58,600 --> 02:31:05,600
+okay, then we use this value to replace the mission values, right, we use the most relevant
+
+1995
+02:31:05,600 --> 02:31:13,600
+samples based on the relationship between the features, okay, then we kind of, so this
+
+1996
+02:31:13,600 --> 02:31:19,600
+again, the exploration of the relationship between the features or attributes is important,
+
+1997
+02:31:19,600 --> 02:31:27,600
+right, this can help us to improve actually the solution and for the mission value problem.
+
+1998
+02:31:27,600 --> 02:31:32,600
+So here, you know, it's all we need to analyze, right, not just give a problem, actually just
+
+1999
+02:31:32,600 --> 02:31:37,600
+adopt that, put in the function, not so easy, we all need to analyze, okay, look at the
+
+2000
+02:31:37,600 --> 02:31:43,600
+specific problem, look at the characteristics of the data, okay, then apply or adopt or
+
+2001
+02:31:43,600 --> 02:31:59,600
+develop proposed new solutions, okay, so these are, okay, I think these are the estimating
+
+2002
+02:31:59,600 --> 02:32:06,600
+mission values and actually, you know, this estimation is that actually the features run
+
+2003
+02:32:06,600 --> 02:32:10,600
+a number correlating, just now already see two feature correlating, right, actually the
+
+2004
+02:32:10,600 --> 02:32:15,600
+feature can also, you know, correlate with many variables, we can always use actually
+
+2005
+02:32:15,600 --> 02:32:22,600
+other variables to fit another variable, to fit, okay, so we can use, you know, the mission
+
+2006
+02:32:22,600 --> 02:32:28,600
+value, right, for this feature, we can use actually build a model, another model, okay,
+
+2007
+02:32:28,600 --> 02:32:35,600
+to use other features to predict these features with mission values, okay, so that is estimating
+
+2008
+02:32:35,600 --> 02:32:42,600
+mission values, okay, so there are many, many solutions to the mission value problem, okay,
+
+2009
+02:32:42,600 --> 02:32:52,600
+so, okay, so these are like the solution to the two main problem, right, the mission value
+
+2010
+02:32:52,600 --> 02:32:57,600
+problem and the autolayer problems, okay, so let's actually look at the data preparation,
+
+2011
+02:32:57,600 --> 02:33:02,600
+so you still remember to have this preparation, actually the last step in the preparation,
+
+2012
+02:33:02,600 --> 02:33:09,600
+actually preparation here means the scaling of the features, okay, so here for scaling
+
+2013
+02:33:09,600 --> 02:33:14,600
+actually we talk about two main methods, one is called normalization, another is called
+
+2014
+02:33:14,600 --> 02:33:20,600
+actually standardization of the data, okay, so scaling is, I think, is very important
+
+2015
+02:33:20,600 --> 02:33:26,600
+and therefore in machine learning, so what is feature scaling, you know, the feature
+
+2016
+02:33:26,600 --> 02:33:33,600
+scaling is the data preparation technique to transform the values of features of a different
+
+2017
+02:33:33,600 --> 02:33:39,600
+range, right, to a similar range, so this is called actually the feature scaling, okay,
+
+2018
+02:33:39,600 --> 02:33:46,600
+and so this purpose is to ensure that all features
+
+2019
+02:33:46,600 --> 02:33:51,600
+contribute equally, right, to the model and to award the domination of features with big
+
+2020
+02:33:51,600 --> 02:33:59,600
+values, okay, so later through one example we can see why the big, you know, values,
+
+2021
+02:33:59,600 --> 02:34:12,600
+you know, dominate, okay, we should try to avoid this problem, okay, and this actually
+
+2022
+02:34:12,600 --> 02:34:17,600
+you know, normally in machine learning how often we need to calculate the distance between
+
+2023
+02:34:17,600 --> 02:34:24,600
+the samples, the distance, okay, the distance is used as a similarity measure, distance,
+
+2024
+02:34:24,600 --> 02:34:29,600
+okay, and how to calculate the distance between two features, right, normally we look at the
+
+2025
+02:34:29,600 --> 02:34:34,600
+difference between each attribute, right, you know, between the two samples along each
+
+2026
+02:34:34,600 --> 02:34:40,600
+attribute, then square, then summarize them together, right, so for example, GPA, you
+
+2027
+02:34:40,600 --> 02:34:47,600
+know, and most of 5, right, 4.5 and 5, the difference is only 0.5, then square is 0.25,
+
+2028
+02:34:47,600 --> 02:34:52,600
+but if you look at the body weight, something like 50, something like 100 kg, right, then
+
+2029
+02:34:52,600 --> 02:35:01,600
+the difference, 50 squared, 200, 2500, right, so it's a known thing that the body weight
+
+2030
+02:35:01,600 --> 02:35:07,600
+actually will dominate in the calculation of the similarities between the samples, because
+
+2031
+02:35:07,600 --> 02:35:14,600
+this feature takes big values, okay, we should try to avoid this problem, okay, so this is
+
+2032
+02:35:14,600 --> 02:35:18,600
+because in many machine learning algorithms we need to calculate the distance between
+
+2033
+02:35:18,600 --> 02:35:25,600
+the samples, okay, one of the examples is the, I think the nearest neighbor, distance
+
+2034
+02:35:25,600 --> 02:35:31,600
+based learning algorithm, and then, you know, for actual learning, the K means the classroom,
+
+2035
+02:35:31,600 --> 02:35:37,600
+also based on the distance to determine the similarity of the samples, okay, and that's
+
+2036
+02:35:37,600 --> 02:35:43,600
+the whole way of the machine, the same, they all use the distance, okay, I think most of
+
+2037
+02:35:43,600 --> 02:35:49,600
+the, almost all, not all, most actually, you know, machine learning algorithm use the distance
+
+2038
+02:35:49,600 --> 02:35:58,600
+between the samples, okay, so we should try to avoid the dominance of one feature of others,
+
+2039
+02:35:58,600 --> 02:36:05,600
+right, okay, and so this is just to give one example, I think, so initially, you know,
+
+2040
+02:36:05,600 --> 02:36:11,600
+the salary, you know, in this range, right, all big values, the CGPA, all small values,
+
+2041
+02:36:11,600 --> 02:36:17,600
+okay, so after scaling by a certain method, so later we'll talk about two methods, and
+
+2042
+02:36:17,600 --> 02:36:25,600
+all in a similar range, right, all in a similar range, so none of them will be dominant, okay,
+
+2043
+02:36:25,600 --> 02:36:30,600
+so we should actually, you know, use feature scaling to avoid the dominance of one feature
+
+2044
+02:36:30,600 --> 02:36:37,600
+or others, okay, so just not show the example, we're not good for example, another actually
+
+2045
+02:36:37,600 --> 02:36:42,600
+is that actually many algorithm actually based on the so-called gradient descent method,
+
+2046
+02:36:42,600 --> 02:36:47,600
+like neural network training, back propagation algorithm, okay, or deep neural network, of
+
+2047
+02:36:47,600 --> 02:36:52,600
+course, actually, so many linear algorithm actually, the training of the model is based
+
+2048
+02:36:52,600 --> 02:36:58,600
+on the so-called gradient descent method, okay, so here actually the gradient descent
+
+2049
+02:36:58,600 --> 02:37:04,600
+is a kind of incremental linear or sequential linear, so every time we give one sample,
+
+2050
+02:37:04,600 --> 02:37:09,600
+then we update the weight, okay, so these are the weight in the step K, and these are
+
+2051
+02:37:09,600 --> 02:37:15,600
+the weight in the next step, so the second term here is update, the weight update contains
+
+2052
+02:37:15,600 --> 02:37:21,600
+three parts, one is the eta, the linear rate, another part is the gradient, the gradient
+
+2053
+02:37:21,600 --> 02:37:26,600
+of the first order derivative of the loss function with respect to the parameter, then
+
+2054
+02:37:26,600 --> 02:37:34,600
+another is the feature, X feature, right, the feature is very different, and then the
+
+2055
+02:37:34,600 --> 02:37:42,600
+weight update will be very different, right, because the X I, one is only four point something,
+
+2056
+02:37:42,600 --> 02:37:49,600
+right, you input data, then you can have update, another is 100 value, right, you update, then
+
+2057
+02:37:49,600 --> 02:37:55,600
+the one with a larger value will have a large update, right, okay, actually the very big
+
+2058
+02:37:55,600 --> 02:38:02,600
+large update could also actually cause actually instability of the linear, okay, so in the
+
+2059
+02:38:02,600 --> 02:38:07,600
+gradient descent method actually we also should try to avoid big values, right, we
+
+2060
+02:38:07,600 --> 02:38:14,600
+should normalize them to small values in the similar range, okay, so these are the reasons
+
+2061
+02:38:14,600 --> 02:38:21,600
+why we need to actually perform the feature scaling, and before we, this is the last step,
+
+2062
+02:38:21,600 --> 02:38:29,600
+okay, as the preposition, and these are two ways for feature scaling, one is called normalization,
+
+2063
+02:38:29,600 --> 02:38:39,600
+normalization here will actually transform the data to the range from zero to one, okay,
+
+2064
+02:38:39,600 --> 02:38:43,600
+so this is the formula which we use, this is the graphical illustration, right, horizontally
+
+2065
+02:38:43,600 --> 02:38:49,600
+the raw data X, okay, then we can find the minimum, we can find the maximum, and then
+
+2066
+02:38:49,600 --> 02:38:56,600
+we can perform this transformation, right, from X to X prime, and then after this transformation
+
+2067
+02:38:56,600 --> 02:39:01,600
+all the data will be in the range, right, so actually the X minus minimum, make minimum
+
+2068
+02:39:01,600 --> 02:39:06,600
+value, right, you start substitute, actually the numerator will become zero, so the minimum
+
+2069
+02:39:06,600 --> 02:39:12,600
+will map to zero, to zero, the maximum will map to one, because if some maximum, right,
+
+2070
+02:39:12,600 --> 02:39:16,600
+maximum, then the numerator cannot be the same, right, cancel, become one, okay, so
+
+2071
+02:39:16,600 --> 02:39:22,600
+the data will, all data, no matter the original region, range, after normalization, they will
+
+2072
+02:39:22,600 --> 02:39:29,600
+all in the range from zero to one, similar range, all the same range actually, okay,
+
+2073
+02:39:29,600 --> 02:39:38,600
+and then another method is called standardization, standardization is to actually, to, you know,
+
+2074
+02:39:38,600 --> 02:39:44,600
+to transform the data, and so that the mean is zero, and zero, right, and now we talk
+
+2075
+02:39:44,600 --> 02:39:50,600
+about the central tendency, right, the mean, the mean will be zero, after normalization,
+
+2076
+02:39:50,600 --> 02:39:56,600
+okay, and standardization, the spread of the data will be one, so this is called standardization,
+
+2077
+02:39:56,600 --> 02:40:01,600
+so why it's called standardization, this is because the tree, now for the normal distribution,
+
+2078
+02:40:01,600 --> 02:40:05,600
+if the mean is zero, standardization is one, this is called standard normal distribution,
+
+2079
+02:40:05,600 --> 02:40:10,600
+right, standard normal distribution, so this is probably the reason I call it standardization,
+
+2080
+02:40:10,600 --> 02:40:15,600
+but quite often we don't differentiate the two, they're all called normalization, okay,
+
+2081
+02:40:15,600 --> 02:40:22,600
+so, the data preparation step, normalization, okay, normalized to zero one, or normalized
+
+2082
+02:40:22,600 --> 02:40:29,600
+to zero mean, standard deviation of one, okay, and the tree, previously the tree, I think
+
+2083
+02:40:29,600 --> 02:40:34,600
+here because you use the mean, right, and the sigma, and then as, they're less likely,
+
+2084
+02:40:34,600 --> 02:40:41,600
+less actually affected by the, okay, but previously, with the mean, I think it's easier to, yeah,
+
+2085
+02:40:41,600 --> 02:40:46,600
+okay, so these are the advantage, data advantage, so these are comparison of the two methods,
+
+2086
+02:40:46,600 --> 02:40:52,600
+right, that normalization and standardization, but actually sometimes if we use different
+
+2087
+02:40:52,600 --> 02:40:58,600
+techniques, we will obtain different results, okay, and sometimes the difference is significant,
+
+2088
+02:40:58,600 --> 02:41:06,600
+so always actually we should try both, okay, then we find the better performing one, okay,
+
+2089
+02:41:06,600 --> 02:41:13,600
+so I think there is no single method perform the best for all applications, always we should
+
+2090
+02:41:13,600 --> 02:41:20,600
+try different method, we should finally use the best performing one, okay, so here actually
+
+2091
+02:41:20,600 --> 02:41:28,600
+we also need to, yeah, try the two, yeah, the choice of them, normalization or standardization,
+
+2092
+02:41:28,600 --> 02:41:37,600
+so depending on the problem, and always try the two, okay, so that's the reason in machine
+
+2093
+02:41:37,600 --> 02:41:41,600
+learning we need to solve so many methods, right, because actually we don't know which
+
+2094
+02:41:41,600 --> 02:41:47,600
+solution will be the best solution for the given task, we all need to try many of them,
+
+2095
+02:41:47,600 --> 02:41:51,600
+but of course you cannot try all of them, you should analyze the data, you should have
+
+2096
+02:41:51,600 --> 02:41:56,600
+a good understanding about assumptions for each of the learning, for each of the model,
+
+2097
+02:41:56,600 --> 02:42:05,600
+right, then you try those that could potentially suit this specific application, okay, so that's
+
+2098
+02:42:05,600 --> 02:42:12,600
+the reason why we need to do this exploration of the data, right, prepare the data, and
+
+2099
+02:42:12,600 --> 02:42:22,600
+before the data could be input to the learning algorithm to fit the model, okay, I think
+
+2100
+02:42:22,600 --> 02:42:29,600
+probably many of you actually want to rush for the bus, right, bus, okay, so now if you
+
+2101
+02:42:29,600 --> 02:42:34,600
+actually, you want to stay here for some time, and then you can just stay, and then I can
+
+2102
+02:42:34,600 --> 02:42:39,600
+answer your question, if you don't want to stay you can just go, okay.
+
+2103
+02:43:04,600 --> 02:43:06,600
+Thank you.
+
+2104
+02:43:34,600 --> 02:43:36,600
+.
+
+2105
+02:44:04,600 --> 02:44:06,600
+.
+
+2106
+02:44:34,600 --> 02:44:36,600
+.
+
+2107
+02:45:04,600 --> 02:45:06,600
+.
+
+2108
+02:45:34,600 --> 02:45:36,600
+.
+
+2109
+02:46:04,600 --> 02:46:06,600
+.
+
+2110
+02:46:34,600 --> 02:46:36,600
+.
+
+2111
+02:47:04,600 --> 02:47:06,600
+.
+
+2112
+02:47:34,600 --> 02:47:36,600
+.
+
+2113
+02:48:04,600 --> 02:48:06,600
+.
+
+2114
+02:48:34,600 --> 02:48:36,600
+.
+
+2115
+02:49:04,600 --> 02:49:06,600
+.
+
+2116
+02:49:34,600 --> 02:49:36,600
+.
+
+2117
+02:50:04,600 --> 02:50:06,600
+.
+
+2118
+02:50:34,600 --> 02:50:36,600
+.
+
+2119
+02:51:04,600 --> 02:51:06,600
+.
+
+2120
+02:51:34,600 --> 02:51:36,600
+.
+
+2121
+02:52:04,600 --> 02:52:06,600
+.
+
+2122
+02:52:34,600 --> 02:52:36,600
+.
+
+2123
+02:53:04,600 --> 02:53:06,600
+.
+
+2124
+02:53:34,600 --> 02:53:36,600
+.
+
+2125
+02:54:04,600 --> 02:54:06,600
+.
+
+2126
+02:54:34,600 --> 02:54:36,600
+.
+
+2127
+02:55:04,600 --> 02:55:06,600
+.
+
+2128
+02:55:34,600 --> 02:55:36,600
+.
+
+2129
+02:56:04,600 --> 02:56:06,600
+.
+
+2130
+02:56:34,600 --> 02:56:36,600
+.
+
+2131
+02:57:04,600 --> 02:57:06,600
+.
+
+2132
+02:57:34,600 --> 02:57:36,600
+.
+
+2133
+02:58:04,600 --> 02:58:06,600
+.
+
+2134
+02:58:34,600 --> 02:58:36,600
+.
+
+2135
+02:59:04,600 --> 02:59:06,600
+.
+
+2136
+02:59:34,600 --> 02:59:36,600
+.
+

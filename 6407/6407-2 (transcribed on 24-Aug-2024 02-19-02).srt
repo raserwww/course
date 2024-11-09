@@ -1,0 +1,6404 @@
+1
+00:08:30,000 --> 00:08:38,000
+ Okay, I made it. So can you hear me from the back? I understand that sometimes the voice
+
+2
+00:08:38,000 --> 00:08:48,000
+ is still a little bit too soft. Can I just do a check? Is this volume alright? Is it okay?
+
+3
+00:08:48,000 --> 00:08:56,000
+ You can hear right? But if at any time you find that the volume somehow gets softer and you can't hear,
+
+4
+00:08:56,000 --> 00:09:04,000
+ you just raise your hand, you know, and then as a signal to me, okay, then we'll adjust the microphone
+
+5
+00:09:04,000 --> 00:09:20,000
+ accordingly. Let me just mix it out a little bit. Okay, hopefully that is better. Okay, that should do.
+
+6
+00:09:20,000 --> 00:09:31,000
+ Okay, see a blank screen because I would like to do a recap of what we have done last week.
+
+7
+00:09:31,000 --> 00:09:41,000
+ Right? So this is the second week of our lecture. So next week we have one more week. So next week we will do the quiz at 8.30.
+
+8
+00:09:41,000 --> 00:09:52,000
+ Alright? So the quiz will be somewhere in the north spine. I have specially reserved three big LT to handle the quiz all at one go.
+
+9
+00:09:52,000 --> 00:10:02,000
+ Alright? So by next week, halfway through, you know, we will stop and then you go for the quiz because it will take some time to walk.
+
+10
+00:10:02,000 --> 00:10:12,000
+ So I'll remind you again, we've met to give you an indication roughly where it is. Alright? So next week, 8.30 quiz.
+
+11
+00:10:12,000 --> 00:10:26,000
+ Alright? By 8 o'clock we should be done. Alright? So the question as to what is covered in the quiz, mainly on what we have done on lecture one and lecture two.
+
+12
+00:10:26,000 --> 00:10:43,000
+ Alright? Hooray, right? Okay? One and two only. Okay? So we will still carry on lecture three because it has some substantial material where you'll be responsible also for the exam.
+
+13
+00:10:43,000 --> 00:10:53,000
+ Alright? The final exam. Remember the final exam you say 25 marks there. Okay? But for the quiz, let's not get too complicated.
+
+14
+00:10:53,000 --> 00:11:03,000
+ We'll just do one and two. Alright? Whatever we covered on one and two. Also another note I want to make is that you can see that I gave you quite a bit of materials.
+
+15
+00:11:03,000 --> 00:11:13,000
+ Alright? In terms of the lecture slides. And I think you get the idea or you get the drift that, you know, is quite impossible for me to complete all the slides.
+
+16
+00:11:13,000 --> 00:11:23,000
+ But nevertheless the slides are there. So if you are interested enough in the subjects you want to know a little bit more, you can use the slides and look through it.
+
+17
+00:11:23,000 --> 00:11:35,000
+ Right? Because I would like to think that at least I've got you started in the topic. So you know on a broad picture in a bigger framework what the method is all about.
+
+18
+00:11:35,000 --> 00:11:47,000
+ Alright? I think a lot of time is like that. You know, once you get, you understand at the top level what the general idea is all about.
+
+19
+00:11:47,000 --> 00:11:56,000
+ Then I think the rest of it is just to enhance your understanding in the deeper manner and then to get a little bit more details.
+
+20
+00:11:56,000 --> 00:12:14,000
+ Alright? So whatever I covered in lecture you'll be tested. If you ask me what is testable in the exam, whatever we stop, if I stop at slide 95, that is all there is to it. Up to slide 95.
+
+21
+00:12:14,000 --> 00:12:26,000
+ That I'm quite certain. Is that clear? Okay. So that's for your exam. But for your quiz is what we've done on lecture one and lecture two.
+
+22
+00:12:26,000 --> 00:12:34,000
+ Alright? Fifty minutes could be multiple choice or short question, short answer.
+
+23
+00:12:35,000 --> 00:12:47,000
+ So let's go back to our agenda of what we want to do today. So today let's take a quick recap on what we covered last week.
+
+24
+00:12:47,000 --> 00:12:58,000
+ Alright? I think in the beginning we kind of espal on the fact that you know what we want to learn is about GA genetic algorithm.
+
+25
+00:12:59,000 --> 00:13:06,000
+ And as I said earlier it is all about problem solving. Isn't it? You want to solve a problem.
+
+26
+00:13:06,000 --> 00:13:13,000
+ Now when you want to solve a problem, okay one method available is method heuristic.
+
+27
+00:13:13,000 --> 00:13:21,000
+ And today I hope to show you that you know, don't think that this is the best method for optimization. There's no such thing.
+
+28
+00:13:21,000 --> 00:13:29,000
+ So today hopefully by the end of it you will see on a very top level perspective, right?
+
+29
+00:13:29,000 --> 00:13:39,000
+ Where you must look at algorithms in a very broad sense, right? In order to decide whether it's good, it's bad and so on.
+
+30
+00:13:39,000 --> 00:13:46,000
+ Alright? So it's a method heuristic, right? Heuristic you know what it is. Heuristic is precise.
+
+31
+00:13:46,000 --> 00:13:55,000
+ Now what we are dealing with GA is like some kind of heuristic, right? But it's not the heuristic per se as what the human perceive as heuristic.
+
+32
+00:13:55,000 --> 00:14:07,000
+ It's a heuristic that is based on nature, right? Nature has a certain rules of how the process for example in this case evolution, you know, adaptation and so on.
+
+33
+00:14:07,000 --> 00:14:13,000
+ So that's what we talked about, method heuristic and GA is one of the method heuristic.
+
+34
+00:14:13,000 --> 00:14:23,000
+ So we want to solve a problem. So it kind of makes sense that we understand the nature of the problems.
+
+35
+00:14:23,000 --> 00:14:35,000
+ So last week we categorized or characterized the problems. So this is by no means the absolute way of categorizing.
+
+36
+00:14:35,000 --> 00:14:41,000
+ But certainly this is one way to look at the kind of problems that we are dealing with.
+
+37
+00:14:41,000 --> 00:14:48,000
+ So kind of brought you to the understanding of what is black box, right?
+
+38
+00:14:48,000 --> 00:14:56,000
+ From the perspective of black box, how you see problems, right? Basically there are three entities input, output and model.
+
+39
+00:14:56,000 --> 00:15:02,000
+ So from there you can do a categorization of the kind of problems that you're trying to solve.
+
+40
+00:15:02,000 --> 00:15:10,000
+ And we look at search space, understand the search space, you know, the size, it will give you an idea of the complexity.
+
+41
+00:15:10,000 --> 00:15:19,000
+ So from the perspective of the solution landscape, for example, and optimization and constraint satisfaction.
+
+42
+00:15:19,000 --> 00:15:28,000
+ We did a bit of practice and I hope you have a clear understanding of what it means by constraint satisfaction and optimization.
+
+43
+00:15:28,000 --> 00:15:35,000
+ And I think basically we talk about so-called constraints and then objective function.
+
+44
+00:15:35,000 --> 00:15:43,000
+ So from that little table there, that should give you a clear indication on how to categorize or classify them.
+
+45
+00:15:43,000 --> 00:15:50,000
+ So what is also important from the perspective of problem is the hardness of the complexity.
+
+46
+00:15:51,000 --> 00:15:56,000
+ So the idea is, you know, it's no point telling somebody, oh, it's very complex.
+
+47
+00:15:56,000 --> 00:16:03,000
+ Oh, how is this problem? It's always very complex. That doesn't mean anything.
+
+48
+00:16:03,000 --> 00:16:15,000
+ What is more meaningful is for you to be able to so-called characterize it in such a way that there is indication in terms of problem solving.
+
+49
+00:16:15,000 --> 00:16:23,000
+ That is MP hardness. So understand what is P, NP, NP-hard, NP-complete.
+
+50
+00:16:23,000 --> 00:16:33,000
+ And motivation and inspiration. GA is inspired.
+
+51
+00:16:33,000 --> 00:16:39,000
+ It's an inspired methodology based on evolution and genetics.
+
+52
+00:16:40,000 --> 00:16:47,000
+ So I've come across many students or PhD students. They say, oh, they use GA.
+
+53
+00:16:47,000 --> 00:16:52,000
+ I say, oh, can you explain? This is especially in the qualifying exam.
+
+54
+00:16:52,000 --> 00:16:57,000
+ I say, can you explain the inspiration or motivation of GA?
+
+55
+00:16:57,000 --> 00:17:03,000
+ After a bit of questioning, they kind of admit or they didn't think about it.
+
+56
+00:17:03,000 --> 00:17:07,000
+ They just know how to use it, which is all right, I suppose.
+
+57
+00:17:07,000 --> 00:17:17,000
+ You know, you use it to solve a problem. I think it will be more meaningful and engaging if you know where it came from or how it came about.
+
+58
+00:17:17,000 --> 00:17:20,000
+ All right? So that's what we're trying to do.
+
+59
+00:17:20,000 --> 00:17:26,000
+ And I showed you that there are actually two aspects in the natural metaphor.
+
+60
+00:17:26,000 --> 00:17:34,000
+ One is evolution, Darwinian evolution, survival of the fittest, adaptation.
+
+61
+00:17:34,000 --> 00:17:39,000
+ Why? Because of limited resources. So therefore there is this competition.
+
+62
+00:17:39,000 --> 00:17:42,000
+ All right? There's natural evolution.
+
+63
+00:17:42,000 --> 00:17:49,000
+ So there is somewhat so-called inspire the process of our problem solving.
+
+64
+00:17:49,000 --> 00:17:53,000
+ Now, then we're going to think, OK, how do we put together this information?
+
+65
+00:17:53,000 --> 00:17:57,000
+ How do we transfer and encode the information?
+
+66
+00:17:57,000 --> 00:17:59,000
+ Remember, we're talking about problem solving.
+
+67
+00:18:00,000 --> 00:18:08,000
+ So how do we actually encapsulate or capture the so-called the problem?
+
+68
+00:18:08,000 --> 00:18:13,000
+ And that's where we go to genetics.
+
+69
+00:18:13,000 --> 00:18:20,000
+ Chromosomes. All the information about us is in our DNA, the 23 pairs.
+
+70
+00:18:20,000 --> 00:18:23,000
+ It's a signature of who we are.
+
+71
+00:18:23,000 --> 00:18:28,000
+ The expression, the phenotype, whether we look at phenotype.
+
+72
+00:18:29,000 --> 00:18:34,000
+ So the inspiration, evolution, and genetics.
+
+73
+00:18:34,000 --> 00:18:40,000
+ And of course, at the end of it, we want to know, OK, how? What?
+
+74
+00:18:40,000 --> 00:18:43,000
+ How do you put together a GA?
+
+75
+00:18:43,000 --> 00:18:46,000
+ That's what we aim to do.
+
+76
+00:18:46,000 --> 00:18:51,000
+ So to do that, of course, I think first of all, let's take a look at...
+
+77
+00:18:59,000 --> 00:19:01,000
+ So that's kind of where we left off.
+
+78
+00:19:01,000 --> 00:19:06,000
+ So let's pick it up from there for last week.
+
+79
+00:19:06,000 --> 00:19:09,000
+ So first, we'll look at the scheme of a GA.
+
+80
+00:19:09,000 --> 00:19:16,000
+ It's good to have a big picture or a blueprint of what the GA or EA is all about.
+
+81
+00:19:16,000 --> 00:19:19,000
+ So we look at the scheme of the EA.
+
+82
+00:19:19,000 --> 00:19:24,000
+ And the main components of it, the three things that are listed there.
+
+83
+00:19:24,000 --> 00:19:27,000
+ How do we represent it? How do we evaluate it?
+
+84
+00:19:27,000 --> 00:19:30,000
+ You know, the population and so on.
+
+85
+00:19:30,000 --> 00:19:33,000
+ So that's the second thing we'll look at.
+
+86
+00:19:33,000 --> 00:19:37,000
+ And then we will delve into the Aqueen's problem.
+
+87
+00:19:37,000 --> 00:19:40,000
+ Let's think a little bit more details.
+
+88
+00:19:40,000 --> 00:19:48,000
+ So that should illustrate how we do the capturing or the encoding of the information or the problem.
+
+89
+00:19:48,000 --> 00:19:51,000
+ Typical EA behavior.
+
+90
+00:19:51,000 --> 00:19:58,000
+ Understand where EA stands in terms of optimization.
+
+91
+00:19:58,000 --> 00:20:01,000
+ And I think it's going to change our perspective.
+
+92
+00:20:01,000 --> 00:20:04,000
+ If you understand, say the behavior.
+
+93
+00:20:04,000 --> 00:20:07,000
+ So today we'll look at that.
+
+94
+00:20:07,000 --> 00:20:13,000
+ And EA is in global optimization and neighborhood.
+
+95
+00:20:13,000 --> 00:20:16,000
+ Global neighborhood.
+
+96
+00:20:16,000 --> 00:20:22,000
+ The name implied global means a complete search space.
+
+97
+00:20:22,000 --> 00:20:28,000
+ Neighborhood means, you know what's neighbor, search nearby.
+
+98
+00:20:28,000 --> 00:20:32,000
+ So let's have some understanding on this.
+
+99
+00:20:32,000 --> 00:20:42,000
+ So we follow along this outline and then develop our understanding on what a GA is.
+
+100
+00:20:42,000 --> 00:20:46,000
+ So we look at this slide here.
+
+101
+00:20:46,000 --> 00:20:49,000
+ Always remember these slides.
+
+102
+00:20:49,000 --> 00:20:52,000
+ Not difficult. It's intentionally simple.
+
+103
+00:20:52,000 --> 00:20:56,000
+ Here are three entities. Population, parents, and offspring.
+
+104
+00:20:56,000 --> 00:21:00,000
+ From population, you go to parents.
+
+105
+00:21:00,000 --> 00:21:09,000
+ So remember all the processes that are in nature on evolution as a process of selection.
+
+106
+00:21:09,000 --> 00:21:14,000
+ And also survival of the fittest.
+
+107
+00:21:14,000 --> 00:21:26,000
+ So all this here must be captured or should be captured in our problem solving methodology.
+
+108
+00:21:26,000 --> 00:21:30,000
+ So three entities, population, parents, and offspring.
+
+109
+00:21:30,000 --> 00:21:33,000
+ So parent selection.
+
+110
+00:21:33,000 --> 00:21:39,000
+ So from population to parents, we select according to fitness.
+
+111
+00:21:39,000 --> 00:21:43,000
+ When there's a selection, there must be a basis for selection.
+
+112
+00:21:43,000 --> 00:21:46,000
+ That means that you must have a fitness.
+
+113
+00:21:46,000 --> 00:21:53,000
+ When you have a fitness, there must be a way for you to measure or evaluate.
+
+114
+00:21:53,000 --> 00:21:58,000
+ So there must be an evaluation function.
+
+115
+00:21:58,000 --> 00:22:08,000
+ And then from parents to offspring, there are operators in your GA.
+
+116
+00:22:08,000 --> 00:22:13,000
+ Just like in arithmetic, you have 3 plus 4 and the plus is your operator.
+
+117
+00:22:13,000 --> 00:22:16,000
+ In GA, you have your operators.
+
+118
+00:22:16,000 --> 00:22:20,000
+ We have what we call the recombination operators.
+
+119
+00:22:20,000 --> 00:22:25,000
+ The word recombine means that it involves two or more.
+
+120
+00:22:25,000 --> 00:22:28,000
+ So you recombine.
+
+121
+00:22:28,000 --> 00:22:34,000
+ One famous or most commonly used recombination is crossover.
+
+122
+00:22:34,000 --> 00:22:38,000
+ So you hear the usage of the term crossover quite often.
+
+123
+00:22:38,000 --> 00:22:44,000
+ To cross over means you have two parents and then you just swap information between the so-called,
+
+124
+00:22:44,000 --> 00:22:52,000
+ you take part of the information from parent one and parent two to produce another variation of it.
+
+125
+00:22:52,000 --> 00:22:56,000
+ So you have recombination, random.
+
+126
+00:22:56,000 --> 00:23:00,000
+ So from, this is where the power of GA is.
+
+127
+00:23:00,000 --> 00:23:07,000
+ So in many problems, many algorithms get stuck in local optimum.
+
+128
+00:23:07,000 --> 00:23:13,000
+ So when you get stuck, sometimes basically it is a stalemate.
+
+129
+00:23:13,000 --> 00:23:16,000
+ You cannot get any better.
+
+130
+00:23:16,000 --> 00:23:19,000
+ So usually you need a mechanism to shake it.
+
+131
+00:23:20,000 --> 00:23:23,000
+ A mutation is something like that.
+
+132
+00:23:23,000 --> 00:23:30,000
+ So from parents, you have your offspring and then you have your, from offspring,
+
+133
+00:23:30,000 --> 00:23:35,000
+ survivor selection, create a new gen, so-called a new population.
+
+134
+00:23:35,000 --> 00:23:38,000
+ So that becomes one generation.
+
+135
+00:23:38,000 --> 00:23:45,000
+ So you see the so-called, the mechanisms or the forces at work.
+
+136
+00:23:45,000 --> 00:23:53,000
+ There's some kind of bias towards the, the solution that are good is going to survive over the generations.
+
+137
+00:23:53,000 --> 00:24:01,000
+ So you do these many iterations and in time, all right, the overall fitness should improve.
+
+138
+00:24:01,000 --> 00:24:08,000
+ And then if any luck, you may hit the best solution, what we call the global optimum.
+
+139
+00:24:08,000 --> 00:24:12,000
+ So just a general picture I want you to be very clear about.
+
+140
+00:24:12,000 --> 00:24:23,000
+ If you remember this picture, I think you pretty much have a reasonable high level understanding of GA.
+
+141
+00:24:23,000 --> 00:24:30,000
+ So you understand that, not difficult to put it in quotes.
+
+142
+00:24:30,000 --> 00:24:35,000
+ Okay, even if you don't have background in computer science, I'm sure you can see.
+
+143
+00:24:35,000 --> 00:24:50,000
+ If I put the picture below, this figure below, right, of what is GA, you can quite quickly, quite quickly, right,
+
+144
+00:24:50,000 --> 00:24:56,000
+ see how you can transform this block diagram into pseudo code.
+
+145
+00:24:56,000 --> 00:25:01,000
+ So the whole process entails initialization.
+
+146
+00:25:01,000 --> 00:25:12,000
+ So you, you initialize according to this year, initialize the first set of populations.
+
+147
+00:25:12,000 --> 00:25:14,000
+ So at the beginning, you don't know any better.
+
+148
+00:25:14,000 --> 00:25:16,000
+ So you do a random initialization.
+
+149
+00:25:16,000 --> 00:25:19,000
+ That's quite common.
+
+150
+00:25:19,000 --> 00:25:27,000
+ Now, because there's a selection process involved, so you need to evaluate to determine the fitness.
+
+151
+00:25:27,000 --> 00:25:36,000
+ So once you have that, you have this loop here that will each loop constitute one generation.
+
+152
+00:25:36,000 --> 00:25:38,000
+ So you repeat this loop.
+
+153
+00:25:38,000 --> 00:25:43,000
+ You have selection, recombine, mutate.
+
+154
+00:25:43,000 --> 00:25:52,000
+ So after you select, you have the parents, and then you recombine, and then you mutate.
+
+155
+00:25:52,000 --> 00:25:56,000
+ And then you have your offspring.
+
+156
+00:25:56,000 --> 00:26:03,000
+ From your offspring, you decide who is going to survive to the new generation.
+
+157
+00:26:03,000 --> 00:26:07,000
+ That's called survival selection.
+
+158
+00:26:07,000 --> 00:26:11,000
+ And of course that involves fitness measures as well.
+
+159
+00:26:11,000 --> 00:26:12,000
+ So that's it.
+
+160
+00:26:12,000 --> 00:26:14,000
+ That's the whole process.
+
+161
+00:26:14,000 --> 00:26:20,000
+ See how easy it is, you know, how elegant the whole GA process is.
+
+162
+00:26:27,000 --> 00:26:37,000
+ So what you've seen is that evolutionary processes involves populations of individuals.
+
+163
+00:26:37,000 --> 00:26:41,000
+ These individuals, we understand by individual.
+
+164
+00:26:41,000 --> 00:26:50,000
+ Individuals are sampling, sampling of the solution space.
+
+165
+00:26:51,000 --> 00:27:00,000
+ Many sequential methods, conventional optimization methods, they are sequential.
+
+166
+00:27:00,000 --> 00:27:04,000
+ They work on one sampling or one solution.
+
+167
+00:27:04,000 --> 00:27:06,000
+ GA is different.
+
+168
+00:27:06,000 --> 00:27:09,000
+ Works on a population.
+
+169
+00:27:09,000 --> 00:27:14,000
+ For example, you have a population of 100.
+
+170
+00:27:14,000 --> 00:27:25,000
+ Then essentially what you are doing is that you are sampling 100 different spaces in parallel, simultaneously.
+
+171
+00:27:25,000 --> 00:27:28,000
+ But of course your simulation is still sequential.
+
+172
+00:27:28,000 --> 00:27:35,000
+ But the whole idea is that the population represents like a sampling of different regions of your solution space.
+
+173
+00:27:35,000 --> 00:27:38,000
+ And that is the power of GA.
+
+174
+00:27:39,000 --> 00:27:48,000
+ And each, this population of individuals, each of them have a fitness, right?
+
+175
+00:27:48,000 --> 00:27:50,000
+ Measure the fitness.
+
+176
+00:27:50,000 --> 00:27:52,000
+ How do you measure the fitness?
+
+177
+00:27:52,000 --> 00:27:55,000
+ That's according to the problem that you're trying to solve.
+
+178
+00:27:55,000 --> 00:28:00,000
+ For example, you're traveling salesman problem is the minimum distance.
+
+179
+00:28:00,000 --> 00:28:06,000
+ So your fitness is a connection to the real world, the problem that you are trying to solve.
+
+180
+00:28:07,000 --> 00:28:11,000
+ And then you have a variation operators, which is crossover and mutation.
+
+181
+00:28:11,000 --> 00:28:17,000
+ And selection, survival of the fitness and mating of the fitness.
+
+182
+00:28:17,000 --> 00:28:25,000
+ So that's what you see in the whole evolutionary process that we're going to transcribe into an algorithm.
+
+183
+00:28:28,000 --> 00:28:31,000
+ So you have essentially, right?
+
+184
+00:28:31,000 --> 00:28:37,000
+ All these backgrounds, what you have essentially done is that you have a new form of Darwinism.
+
+185
+00:28:37,000 --> 00:28:39,000
+ A new Darwinism.
+
+186
+00:28:39,000 --> 00:28:52,000
+ So what you've done is that going from the real world metaphor, evolutionary progress towards higher life forms in nature, evolution is the evolution process.
+
+187
+00:28:52,000 --> 00:28:53,000
+ Okay?
+
+188
+00:28:53,000 --> 00:28:58,000
+ Brings a species, so living things to a higher life form.
+
+189
+00:28:58,000 --> 00:29:07,000
+ Well, in your optimization role, you are optimizing according to some fitness criteria.
+
+190
+00:29:07,000 --> 00:29:09,000
+ That is the parallel.
+
+191
+00:29:09,000 --> 00:29:17,000
+ You see, in your Darwinism, so your evolution drives the species.
+
+192
+00:29:17,000 --> 00:29:23,000
+ The evolution drives the species to make it more competitive.
+
+193
+00:29:23,000 --> 00:29:27,000
+ And then the reward is that of course survival of the species.
+
+194
+00:29:27,000 --> 00:29:31,000
+ What's the manifestation of a survival to be able to reproduce?
+
+195
+00:29:31,000 --> 00:29:34,000
+ Okay, that is Darwinism.
+
+196
+00:29:34,000 --> 00:29:51,000
+ But what we do in optimization is that our so-called, instead of reward in terms of reproduction, we have transformed it into or transcribed it into a fitness-based kind of evolution.
+
+197
+00:29:52,000 --> 00:29:57,000
+ So that is quite clearly what is happening.
+
+198
+00:29:57,000 --> 00:30:03,000
+ So let's take a look at the process involved in terms of diversity.
+
+199
+00:30:03,000 --> 00:30:08,000
+ Now what do you understand by diversity?
+
+200
+00:30:08,000 --> 00:30:13,000
+ When you say diverse, what does it mean?
+
+201
+00:30:13,000 --> 00:30:15,000
+ It's different.
+
+202
+00:30:15,000 --> 00:30:17,000
+ So you all come from diverse background.
+
+203
+00:30:17,000 --> 00:30:20,000
+ Diversity.
+
+204
+00:30:20,000 --> 00:30:25,000
+ Do you prefer diversity?
+
+205
+00:30:25,000 --> 00:30:28,000
+ I think in general the answer tends to be yes.
+
+206
+00:30:28,000 --> 00:30:36,000
+ But let's take a look from the optimization point of view, see what is more desirable.
+
+207
+00:30:36,000 --> 00:30:48,000
+ So actually, in the process of optimization through evolution, there are two opposing or competing forces.
+
+208
+00:30:48,000 --> 00:30:55,000
+ One of the fours tends to increase the diversity.
+
+209
+00:30:55,000 --> 00:31:01,000
+ The other decreases the diversity.
+
+210
+00:31:01,000 --> 00:31:07,000
+ Now think about the variation operators like your mutation and recombination.
+
+211
+00:31:07,000 --> 00:31:14,000
+ Well, from a diversity point of view, what you're doing is that you're increasing the diversity.
+
+212
+00:31:14,000 --> 00:31:16,000
+ You want to increase the diversity.
+
+213
+00:31:16,000 --> 00:31:21,000
+ Remember we said in general diversity is good.
+
+214
+00:31:21,000 --> 00:31:26,000
+ But on the other end of it, we want to look for that special thing.
+
+215
+00:31:26,000 --> 00:31:29,000
+ This is optimization, that special thing.
+
+216
+00:31:29,000 --> 00:31:35,000
+ So therefore we must somehow narrow down to so-called what we want.
+
+217
+00:31:35,000 --> 00:31:43,000
+ To narrow down, that means that decreasing diversity.
+
+218
+00:31:43,000 --> 00:31:51,000
+ Where's the process that happens in evolution that brings it to decreasing diversity?
+
+219
+00:31:51,000 --> 00:31:53,000
+ There you go.
+
+220
+00:31:53,000 --> 00:31:55,000
+ It's a selection process.
+
+221
+00:31:55,000 --> 00:31:59,000
+ When you select, you're very biased.
+
+222
+00:31:59,000 --> 00:32:02,000
+ You select according to the fitness.
+
+223
+00:32:02,000 --> 00:32:08,000
+ So you can see quite clearly these two, they are opposing.
+
+224
+00:32:08,000 --> 00:32:20,000
+ In GA or EA, there are processes that increase the diversity and there are processes that decrease the diversity.
+
+225
+00:32:20,000 --> 00:32:26,000
+ So what it means is that push towards novelty, increasing diversity means that,
+
+226
+00:32:26,000 --> 00:32:30,000
+ wow, there are many noble or different solutions.
+
+227
+00:32:30,000 --> 00:32:37,000
+ The other end of it is the quality, specialization.
+
+228
+00:32:37,000 --> 00:32:39,000
+ So here's a question.
+
+229
+00:32:39,000 --> 00:32:48,000
+ In your GA, which one is better?
+
+230
+00:32:48,000 --> 00:32:56,000
+ If you have to pick which one is better?
+
+231
+00:32:56,000 --> 00:32:59,000
+ Equal?
+
+232
+00:32:59,000 --> 00:33:01,000
+ Both.
+
+233
+00:33:01,000 --> 00:33:03,000
+ Quality is better.
+
+234
+00:33:03,000 --> 00:33:05,000
+ That's your objective.
+
+235
+00:33:05,000 --> 00:33:13,000
+ But to get to your objective, you have to increase diversity.
+
+236
+00:33:13,000 --> 00:33:21,000
+ Both are important?
+
+237
+00:33:21,000 --> 00:33:24,000
+ Increase diversity.
+
+238
+00:33:24,000 --> 00:33:27,000
+ Cut.
+
+239
+00:33:27,000 --> 00:33:28,000
+ Then converge.
+
+240
+00:33:28,000 --> 00:33:30,000
+ Increase diversity and then converge.
+
+241
+00:33:30,000 --> 00:33:34,000
+ Okay, which one is more important?
+
+242
+00:33:34,000 --> 00:33:40,000
+ Clearly you describe both, which is more important?
+
+243
+00:33:40,000 --> 00:33:43,000
+ Both important?
+
+244
+00:33:43,000 --> 00:33:45,000
+ You are right, both are important.
+
+245
+00:33:45,000 --> 00:33:47,000
+ Both are necessary.
+
+246
+00:33:47,000 --> 00:33:50,000
+ Both are absolutely necessary.
+
+247
+00:33:50,000 --> 00:33:58,000
+ Therefore, the key idea behind optimization is to have a good balance between increasing and decreasing.
+
+248
+00:33:58,000 --> 00:34:01,000
+ That is what optimization is all about.
+
+249
+00:34:01,000 --> 00:34:08,000
+ To have a good balance in Chinese, the yin and yang, they must be balanced.
+
+250
+00:34:08,000 --> 00:34:15,000
+ So same thing here in our algorithm, they must be that balance.
+
+251
+00:34:15,000 --> 00:34:20,000
+ So it kind of makes sense also when you think about it, because problems are very difficult.
+
+252
+00:34:20,000 --> 00:34:22,000
+ Don't think about simple problems.
+
+253
+00:34:22,000 --> 00:34:27,000
+ We are thinking of problems that are intractable, not solvable.
+
+254
+00:34:27,000 --> 00:34:33,000
+ In order to solve it to the extent where we are able to achieve good solutions,
+
+255
+00:34:33,000 --> 00:34:40,000
+ we must have a process that has a good balance between increasing and decreasing diversity.
+
+256
+00:34:40,000 --> 00:34:43,000
+ And later on, I'm going to throw you a couple of terms as well.
+
+257
+00:34:43,000 --> 00:34:47,000
+ What we call the exploration and then the exploitation.
+
+258
+00:34:47,000 --> 00:34:51,000
+ You must be able to explore and then you must be able to exploit.
+
+259
+00:34:51,000 --> 00:34:54,000
+ Again, the same idea persists.
+
+260
+00:34:54,000 --> 00:34:57,000
+ Which is more important?
+
+261
+00:34:57,000 --> 00:34:58,000
+ Both.
+
+262
+00:34:58,000 --> 00:35:02,000
+ Both are important.
+
+263
+00:35:02,000 --> 00:35:07,000
+ So you see that.
+
+264
+00:35:07,000 --> 00:35:15,000
+ Once you see this, I think you come to a realization, wow, this is indeed a high level understanding
+
+265
+00:35:15,000 --> 00:35:23,000
+ where you can understand the process of what optimization is all about.
+
+266
+00:35:25,000 --> 00:35:37,000
+ So the first thing, to be able to solve a problem, we need to understand that there need to be a representation of the problem.
+
+267
+00:35:37,000 --> 00:35:45,000
+ So quite often we have a problem that comes in different requirements of complexity.
+
+268
+00:35:45,000 --> 00:35:47,000
+ That's the real world.
+
+269
+00:35:47,000 --> 00:35:51,000
+ The real world presents you with a problem to solve.
+
+270
+00:35:51,000 --> 00:35:55,000
+ Here you are, you are a system marketer, algorithm designer.
+
+271
+00:35:55,000 --> 00:35:58,000
+ Your job is to solve it.
+
+272
+00:35:58,000 --> 00:36:01,000
+ I'll come up with methods to solve it.
+
+273
+00:36:01,000 --> 00:36:07,000
+ So in order to come up with the methods to solve it, you must be able to represent it.
+
+274
+00:36:07,000 --> 00:36:14,000
+ You must capture the requirements, specifications, and then to represent it.
+
+275
+00:36:15,000 --> 00:36:19,000
+ Go back and think of the so-called many problem solving that you have done.
+
+276
+00:36:19,000 --> 00:36:21,000
+ It's all the same idea.
+
+277
+00:36:21,000 --> 00:36:24,000
+ You must be able to represent and then formulate it.
+
+278
+00:36:24,000 --> 00:36:27,000
+ So GA is no different.
+
+279
+00:36:27,000 --> 00:36:41,000
+ So representation means that provides code, like a binary code, integer code, or symbolic code.
+
+280
+00:36:41,000 --> 00:36:48,000
+ Provides code for candidate solutions that can be manipulated by the variation operators.
+
+281
+00:36:48,000 --> 00:36:51,000
+ It means the coding.
+
+282
+00:36:51,000 --> 00:36:54,000
+ So two levels of existence.
+
+283
+00:36:54,000 --> 00:36:57,000
+ One is the phenotype.
+
+284
+00:36:57,000 --> 00:37:02,000
+ Phenotype is the physical part.
+
+285
+00:37:02,000 --> 00:37:06,000
+ It's the object in original problem context.
+
+286
+00:37:06,000 --> 00:37:08,000
+ That's the outside.
+
+287
+00:37:08,000 --> 00:37:11,000
+ That's the phenotype.
+
+288
+00:37:11,000 --> 00:37:13,000
+ And then the genotype.
+
+289
+00:37:13,000 --> 00:37:17,000
+ Code to denote that object, the inside.
+
+290
+00:37:17,000 --> 00:37:19,000
+ There's a chromosome.
+
+291
+00:37:19,000 --> 00:37:21,000
+ There's a genotype.
+
+292
+00:37:21,000 --> 00:37:29,000
+ So which means to say that there must be some kind of mapping process going on.
+
+293
+00:37:29,000 --> 00:37:31,000
+ So there are two types of mapping.
+
+294
+00:37:31,000 --> 00:37:33,000
+ One is to encode.
+
+295
+00:37:33,000 --> 00:37:37,000
+ Encode means to go from the real world to the genotype.
+
+296
+00:37:37,000 --> 00:37:41,000
+ And then there's the phenotype to the genotype.
+
+297
+00:37:41,000 --> 00:37:45,000
+ And the other type is the decoding.
+
+298
+00:37:45,000 --> 00:37:54,000
+ After you solve the problem or you want to evaluate it, you need to do decoding.
+
+299
+00:37:54,000 --> 00:38:02,000
+ So for example, your code means a certain specification of a design.
+
+300
+00:38:02,000 --> 00:38:07,000
+ Because maybe it's similar design to know.
+
+301
+00:38:07,000 --> 00:38:18,000
+ Meaning you've got to go to the phenotype space in order to know how good your solution is.
+
+302
+00:38:18,000 --> 00:38:20,000
+ I'm wanting to know this.
+
+303
+00:38:20,000 --> 00:38:24,000
+ Phenotype to genotype.
+
+304
+00:38:24,000 --> 00:38:28,000
+ Not necessarily one-to-one.
+
+305
+00:38:28,000 --> 00:38:31,000
+ So this means you have a problem.
+
+306
+00:38:31,000 --> 00:38:33,000
+ You need to code it.
+
+307
+00:38:33,000 --> 00:38:37,000
+ There's no such thing as only one way to code it.
+
+308
+00:38:37,000 --> 00:38:39,000
+ You can use binary coding.
+
+309
+00:38:39,000 --> 00:38:43,000
+ You can use integer coding, floating point.
+
+310
+00:38:43,000 --> 00:38:47,000
+ Or you may even code it differently.
+
+311
+00:38:47,000 --> 00:38:49,000
+ So it's not a one-to-one.
+
+312
+00:38:49,000 --> 00:38:57,000
+ But your decoding must be one-to-one.
+
+313
+00:38:57,000 --> 00:39:02,000
+ Any code should only be converted.
+
+314
+00:39:02,000 --> 00:39:13,000
+ Or there's only one unique phenotypic expression.
+
+315
+00:39:13,000 --> 00:39:20,000
+ So the coding of it is your chromosome.
+
+316
+00:39:20,000 --> 00:39:26,000
+ To bring the physical world to our programming or computing world.
+
+317
+00:39:26,000 --> 00:39:28,000
+ We need to code it.
+
+318
+00:39:28,000 --> 00:39:32,000
+ So in GA, we call them the chromosomes.
+
+319
+00:39:32,000 --> 00:39:36,000
+ Chromosomes are made up of genes.
+
+320
+00:39:36,000 --> 00:39:43,000
+ Genes, which are usually fixed positions called the low side.
+
+321
+00:39:43,000 --> 00:39:45,000
+ Singular is locus.
+
+322
+00:39:45,000 --> 00:39:47,000
+ L-O-C-U-S.
+
+323
+00:39:47,000 --> 00:39:52,000
+ And have a value of a lew.
+
+324
+00:39:52,000 --> 00:39:54,000
+ A-L-L-E-L-E.
+
+325
+00:39:54,000 --> 00:39:57,000
+ That's a value.
+
+326
+00:39:57,000 --> 00:40:02,000
+ For example, you have a string.
+
+327
+00:40:02,000 --> 00:40:05,000
+ 10 characters.
+
+328
+00:40:05,000 --> 00:40:07,000
+ So 10 characters.
+
+329
+00:40:07,000 --> 00:40:12,000
+ That's your chromosome of length 10.
+
+330
+00:40:12,000 --> 00:40:14,000
+ You want to say the gene.
+
+331
+00:40:14,000 --> 00:40:16,000
+ Then you say, OK, the third gene.
+
+332
+00:40:16,000 --> 00:40:19,000
+ Then that's the third character.
+
+333
+00:40:19,000 --> 00:40:21,000
+ Let me write this down.
+
+334
+00:40:24,000 --> 00:40:50,000
+ OK.
+
+335
+00:40:50,000 --> 00:40:51,000
+ OK.
+
+336
+00:40:51,000 --> 00:40:58,000
+ This is your chromosome.
+
+337
+00:40:58,000 --> 00:41:01,000
+ So what's the length of this chromosome?
+
+338
+00:41:01,000 --> 00:41:03,000
+ 9.
+
+339
+00:41:03,000 --> 00:41:05,000
+ Where are the genes?
+
+340
+00:41:05,000 --> 00:41:06,000
+ OK.
+
+341
+00:41:06,000 --> 00:41:08,000
+ Gene number 1.
+
+342
+00:41:08,000 --> 00:41:10,000
+ Gene number 2.
+
+343
+00:41:10,000 --> 00:41:11,000
+ Gene number 3.
+
+344
+00:41:11,000 --> 00:41:12,000
+ Gene number 4.
+
+345
+00:41:12,000 --> 00:41:15,000
+ And so on.
+
+346
+00:41:15,000 --> 00:41:19,000
+ What's the value of gene number 4?
+
+347
+00:41:19,000 --> 00:41:25,000
+ The value of gene number 4 is 1.
+
+348
+00:41:25,000 --> 00:41:29,000
+ The value of gene number 4 is 1.
+
+349
+00:41:29,000 --> 00:41:36,000
+ The gene is the position, the locus.
+
+350
+00:41:36,000 --> 00:41:45,000
+ So that is how we're going to do our coding in terms of representation as chromosomes.
+
+351
+00:41:45,000 --> 00:42:01,000
+ So to evolve a population, you're actually evolving a population of strings or chromosomes.
+
+352
+00:42:01,000 --> 00:42:10,000
+ So to put it in picture.
+
+353
+00:42:10,000 --> 00:42:19,000
+ So for example, in this case here, you can see in our phenotype space, that's the value 18, 2, 9, and so on.
+
+354
+00:42:19,000 --> 00:42:30,000
+ If you do binary GA, then you will represent each of so-called the value as a binary in your genotype space.
+
+355
+00:42:30,000 --> 00:42:33,000
+ So 18 will be 1, 0, 0, 1, 0.
+
+356
+00:42:33,000 --> 00:42:36,000
+ 2 will be 1, 0, and so on.
+
+357
+00:42:36,000 --> 00:42:42,000
+ So this is going from the phenotype space to the genotype space.
+
+358
+00:42:42,000 --> 00:42:51,000
+ So in order to find a global optimum, every possible solution must be represented in the genotype space.
+
+359
+00:42:51,000 --> 00:42:54,000
+ I think this is quite logical.
+
+360
+00:42:54,000 --> 00:43:04,000
+ Your representation must be sufficient to cover the entire space.
+
+361
+00:43:05,000 --> 00:43:12,000
+ Quite intuitively logical.
+
+362
+00:43:12,000 --> 00:43:15,000
+ Alright, fitness functions.
+
+363
+00:43:15,000 --> 00:43:23,000
+ So fitness function is also what we call our objective function.
+
+364
+00:43:23,000 --> 00:43:27,000
+ We have said quite often the word objective function.
+
+365
+00:43:27,000 --> 00:43:33,000
+ Basically in GA, we transcribe it as a fitness function.
+
+366
+00:43:33,000 --> 00:43:43,000
+ So we use the word fitness, this is in accordance to so-called natural evolution metaphor, where we say the fittest survive.
+
+367
+00:43:43,000 --> 00:43:51,000
+ So in next period in our genetic algorithm, we also have user term fitness function.
+
+368
+00:43:51,000 --> 00:43:59,000
+ But essentially it is the objective function of the problem or the cost function.
+
+369
+00:44:00,000 --> 00:44:14,000
+ So basically in your fitness function, basically you just want to assign a single value to the phenotype.
+
+370
+00:44:14,000 --> 00:44:21,000
+ So that will give you an indication of how good it is.
+
+371
+00:44:21,000 --> 00:44:24,000
+ It's like a fitness of goodness measure.
+
+372
+00:44:24,000 --> 00:44:31,000
+ Now what you need to know or understand is that GA is powerful.
+
+373
+00:44:31,000 --> 00:44:34,000
+ This is another reason why GA is powerful.
+
+374
+00:44:34,000 --> 00:44:38,000
+ Or a good method, maybe I shouldn't say powerful.
+
+375
+00:44:38,000 --> 00:44:43,000
+ GA is a good method because it's easy.
+
+376
+00:44:43,000 --> 00:44:45,000
+ Why is it easy?
+
+377
+00:44:45,000 --> 00:44:48,000
+ Well, your problems are complex.
+
+378
+00:44:48,000 --> 00:44:55,000
+ The problems that you are trying to solve comes in all shapes, different requirements and so on.
+
+379
+00:44:55,000 --> 00:45:03,000
+ So it can be very complex, be it a design problem or traveling salesman problem or whatever problem it may be.
+
+380
+00:45:03,000 --> 00:45:10,000
+ Now in your GA realm, all you need to do is you must have a way to find a fitness.
+
+381
+00:45:10,000 --> 00:45:15,000
+ It's like the GA saying, I don't really care how complex your problem is.
+
+382
+00:45:16,000 --> 00:45:26,000
+ As long as you give me a metric to know how fit each solution is.
+
+383
+00:45:26,000 --> 00:45:34,000
+ So in that sense, GA doesn't really care about your problem, the complexity of the problem.
+
+384
+00:45:34,000 --> 00:45:37,000
+ You can have thousand and one requirements and so on.
+
+385
+00:45:37,000 --> 00:45:44,000
+ But as long as the GA is concerned, all it wants is that to be able to measure the fitness.
+
+386
+00:45:44,000 --> 00:45:47,000
+ And that is through the fitness function.
+
+387
+00:45:47,000 --> 00:45:54,000
+ And that is another reason why because the GA has a very flexible, easy to use.
+
+388
+00:45:54,000 --> 00:45:56,000
+ And it is indeed very easy.
+
+389
+00:45:56,000 --> 00:46:00,000
+ It's robust enough to solve many different types of problems.
+
+390
+00:46:00,000 --> 00:46:04,000
+ Because it's easy, so it becomes very popular.
+
+391
+00:46:04,000 --> 00:46:13,000
+ That's why people, when it was first introduced, it was perceived as very elegant and easy to use.
+
+392
+00:46:13,000 --> 00:46:16,000
+ And it's easy to apply.
+
+393
+00:46:18,000 --> 00:46:23,000
+ So typically when we talk about fitness, we want it to be maximized.
+
+394
+00:46:23,000 --> 00:46:27,000
+ Because to be fit, it means that it's a maximum fitness.
+
+395
+00:46:27,000 --> 00:46:31,000
+ But many problems are minimization problems.
+
+396
+00:46:31,000 --> 00:46:33,000
+ But there's no issue.
+
+397
+00:46:33,000 --> 00:46:35,000
+ You can always convert it.
+
+398
+00:46:35,000 --> 00:46:41,000
+ For example, a plus can be converted to a minus.
+
+399
+00:46:41,000 --> 00:46:46,000
+ Or you can use a big constant just to modify the effect and so on.
+
+400
+00:46:46,000 --> 00:46:51,000
+ So not an issue, whether it be maximization or minimization.
+
+401
+00:46:57,000 --> 00:46:58,000
+ All right.
+
+402
+00:46:58,000 --> 00:47:05,000
+ So we look at population.
+
+403
+00:47:05,000 --> 00:47:15,000
+ So population basically candidate solutions of the problem as individuals, which are the genotype.
+
+404
+00:47:15,000 --> 00:47:18,000
+ So we work with our population.
+
+405
+00:47:18,000 --> 00:47:28,000
+ So out of the model that I showed you, you have population, parents, and then the offspring.
+
+406
+00:47:28,000 --> 00:47:32,000
+ So normally in RGA, we are a fixed population.
+
+407
+00:47:32,000 --> 00:47:35,000
+ Let's say 50, population of 50.
+
+408
+00:47:35,000 --> 00:47:40,000
+ Then you have a 50 of each.
+
+409
+00:47:40,000 --> 00:47:43,000
+ So it's a multi-set of individuals.
+
+410
+00:47:43,000 --> 00:47:48,000
+ Repetitions are also possible.
+
+411
+00:47:48,000 --> 00:47:54,000
+ So when we evolve, we are evolving the population.
+
+412
+00:47:54,000 --> 00:47:57,000
+ But from the population, we select individuals.
+
+413
+00:47:57,000 --> 00:48:05,000
+ So the selective process is on the individuals.
+
+414
+00:48:05,000 --> 00:48:10,000
+ So and then the variation operators.
+
+415
+00:48:10,000 --> 00:48:15,000
+ The selection is from the population set.
+
+416
+00:48:15,000 --> 00:48:21,000
+ But the variation operators are on the individuals.
+
+417
+00:48:21,000 --> 00:48:30,000
+ So the variation like your recombination and the mutation they are on the individuals.
+
+418
+00:48:30,000 --> 00:48:36,000
+ So population are usually constant.
+
+419
+00:48:36,000 --> 00:48:45,000
+ There are some sophisticated EAs that exert a spatial structure on the population.
+
+420
+00:48:45,000 --> 00:48:48,000
+ You understand the word spatial?
+
+421
+00:48:48,000 --> 00:48:52,000
+ Space.
+
+422
+00:48:52,000 --> 00:49:10,000
+ So for example, on a grid, there are some GA's that is based on so-called the grid spatial distribution of the population on a grid structure.
+
+423
+00:49:10,000 --> 00:49:15,000
+ So selection usually takes the whole population into account.
+
+424
+00:49:15,000 --> 00:49:23,000
+ So reproductive probabilities are relative to the current generation.
+
+425
+00:49:23,000 --> 00:49:29,000
+ So let's go back to diversity.
+
+426
+00:49:29,000 --> 00:49:33,000
+ I think in general you understand what diversity means.
+
+427
+00:49:33,000 --> 00:49:36,000
+ Different.
+
+428
+00:49:36,000 --> 00:49:44,000
+ But from a GA perspective, what could it mean?
+
+429
+00:49:44,000 --> 00:49:50,000
+ Diversity could mean fitness.
+
+430
+00:49:50,000 --> 00:49:58,000
+ Fitness meaning like for example, fitness 0.7, 0.6, 0.1 and so on.
+
+431
+00:49:58,000 --> 00:50:05,000
+ So if it's diverse, then the population is different fitness.
+
+432
+00:50:05,000 --> 00:50:15,000
+ Diversity could also be in the context of the phenotype, the expression of it.
+
+433
+00:50:15,000 --> 00:50:28,000
+ The chromosomes may be a little bit different, but then the expression of it could be very different.
+
+434
+00:50:28,000 --> 00:50:36,000
+ Although the chromosome is different or fitness is very small, but then the phenotype expression of it is very different.
+
+435
+00:50:36,000 --> 00:50:45,000
+ For example, maybe one gene different, instead of black, you have white and so on.
+
+436
+00:50:45,000 --> 00:50:48,000
+ So the point is very simple.
+
+437
+00:50:48,000 --> 00:50:57,000
+ When you think in terms of diversity, it's just not in the context of the fitness value.
+
+438
+00:50:57,000 --> 00:51:05,000
+ So fitness is a way for us to tell which chromosome is better or fitter and so on.
+
+439
+00:51:05,000 --> 00:51:10,000
+ So keep that in mind.
+
+440
+00:51:10,000 --> 00:51:15,000
+ So another mechanism is your selection.
+
+441
+00:51:15,000 --> 00:51:23,000
+ You can see earlier on there are two areas where selections happen.
+
+442
+00:51:23,000 --> 00:51:33,000
+ One is selection of the parents and the other is a selection for survival to make up the new generation.
+
+443
+00:51:33,000 --> 00:51:37,000
+ So both are driven mainly by fitness.
+
+444
+00:51:37,000 --> 00:51:46,000
+ As long as they are selection, basically there's a fitness mechanism that is used.
+
+445
+00:51:46,000 --> 00:51:54,000
+ So selection pushes population towards higher fitness.
+
+446
+00:51:54,000 --> 00:51:59,000
+ So generally in the selection, good quality should be rewarded.
+
+447
+00:51:59,000 --> 00:52:07,000
+ Higher fitness should be rewarded either in terms of survival or reproduction.
+
+448
+00:52:07,000 --> 00:52:14,000
+ So how do you make this selection?
+
+449
+00:52:14,000 --> 00:52:17,000
+ It's called probabilistic.
+
+450
+00:52:17,000 --> 00:52:20,000
+ So it is probabilistic.
+
+451
+00:52:20,000 --> 00:52:25,000
+ Now what does it mean in terms of problem solving?
+
+452
+00:52:25,000 --> 00:52:33,000
+ Well, it means that because it's probabilistic, so it's all based on probability.
+
+453
+00:52:33,000 --> 00:52:41,000
+ If two individuals, one has a fitness of 0.9, the other has a fitness of 0.2.
+
+454
+00:52:41,000 --> 00:52:47,000
+ So obviously the 0.9 has a higher probability of selection.
+
+455
+00:52:47,000 --> 00:52:58,000
+ But what is important to note is that even if the fitness is very low, it still has that chance to be selected.
+
+456
+00:52:58,000 --> 00:53:03,000
+ It's just that the chances of selection is lower.
+
+457
+00:53:03,000 --> 00:53:12,000
+ So in an optimization context, this stochastic nature is not deterministic for sure.
+
+458
+00:53:12,000 --> 00:53:21,000
+ So this stochastic nature is what gives it the ability to get out on local optimum.
+
+459
+00:53:21,000 --> 00:53:38,000
+ So what is the so-called the power or the advantage?
+
+460
+00:53:38,000 --> 00:53:44,000
+ So on selection.
+
+461
+00:53:44,000 --> 00:53:49,000
+ So how do you do the selection?
+
+462
+00:53:49,000 --> 00:53:54,000
+ There are many, many different ways to do the selection.
+
+463
+00:53:54,000 --> 00:54:03,000
+ Now when we do selection, we want selection that favors the fitter ones.
+
+464
+00:54:03,000 --> 00:54:12,000
+ So one very common way is to some kind of what we call the roulette view selection.
+
+465
+00:54:12,000 --> 00:54:23,000
+ So if you have three individuals, A, B, and C, so the fitness of A is three, fitness of B is one, fitness of C is two.
+
+466
+00:54:23,000 --> 00:54:36,000
+ So if you put it as a roulette view according to the fitness, then what results is that you have unequal slots for the roulette view.
+
+467
+00:54:36,000 --> 00:54:41,000
+ So what we call this a bias roulette view.
+
+468
+00:54:41,000 --> 00:54:48,000
+ It's bias according to the fitness, the fitter, the individual, the higher the slot it is.
+
+469
+00:54:48,000 --> 00:54:59,000
+ The higher the slot it has, the higher the chance it is selected, either as parents or survival.
+
+470
+00:54:59,000 --> 00:55:04,000
+ So this is one of the most common ways to do selection.
+
+471
+00:55:04,000 --> 00:55:10,000
+ But as I said, this is one of the many, many different ways to do selection.
+
+472
+00:55:10,000 --> 00:55:22,000
+ If you go deeper into GAA, you will realize that there are many selection methods that has been used in many different applications.
+
+473
+00:55:22,000 --> 00:55:40,000
+ But I hope you see the principle of what constitutes an effective solution is one that implements some form of selective treasure according to the so-called fitness.
+
+474
+00:55:40,000 --> 00:55:53,000
+ So there's another type of selection.
+
+475
+00:55:53,000 --> 00:56:01,000
+ Your three modules, remember, you have your population, you have your parents, and then you have your offspring.
+
+476
+00:56:02,000 --> 00:56:10,000
+ Selection for the parents we know, according to the fitness, we want to select potential parents.
+
+477
+00:56:10,000 --> 00:56:22,000
+ So the parents are selected based on fitness, which means to say that individuals that are fit will have a higher chance to be selected as parents.
+
+478
+00:56:22,000 --> 00:56:27,000
+ The other entity is your offspring.
+
+479
+00:56:27,000 --> 00:56:34,000
+ Now you need to select the new generation.
+
+480
+00:56:34,000 --> 00:56:42,000
+ So basically what you have, this is your survival selection.
+
+481
+00:56:42,000 --> 00:56:44,000
+ So what's the purpose of survival?
+
+482
+00:56:44,000 --> 00:56:57,000
+ Survival selection to select individuals to make up the new population, replacement of the old population for the new generation.
+
+483
+00:56:57,000 --> 00:57:02,000
+ So after one generation, you have a new population.
+
+484
+00:57:02,000 --> 00:57:07,000
+ So most EAs use fixed population size.
+
+485
+00:57:07,000 --> 00:57:10,000
+ So we can assume population is fixed.
+
+486
+00:57:10,000 --> 00:57:15,000
+ If it is 50, it shall be 50.
+
+487
+00:57:15,000 --> 00:57:27,000
+ Although they are GA that use populations that changes or variable population size.
+
+488
+00:57:27,000 --> 00:57:31,000
+ So most EAs use fixed population size.
+
+489
+00:57:31,000 --> 00:57:41,000
+ So basically what we need is a way to get the new population from the parents and the offspring.
+
+490
+00:57:41,000 --> 00:57:54,000
+ So in saying that, what this means is that we have to have a mechanism to decide who survives and go into the population, new population.
+
+491
+00:57:54,000 --> 00:58:07,000
+ Earlier on I didn't include the parents, but the real GA has this option to select from the pool of parents and then from the offspring.
+
+492
+00:58:07,000 --> 00:58:22,000
+ For example, if I have a population size of 100, so in the survival selection, I have 200 candidates to select from.
+
+493
+00:58:22,000 --> 00:58:28,000
+ 100 from the parents and then 100 from the offspring.
+
+494
+00:58:28,000 --> 00:58:33,000
+ So how do we do this selection?
+
+495
+00:58:33,000 --> 00:58:37,000
+ So in general, there are two ways to do this selection.
+
+496
+00:58:37,000 --> 00:58:49,000
+ That is the fitness base that is according to the rank of the parents plus the offspring.
+
+497
+00:58:49,000 --> 00:58:54,000
+ Pick the best.
+
+498
+00:58:54,000 --> 00:58:59,000
+ Or it could be age based.
+
+499
+00:58:59,000 --> 00:59:04,000
+ Make as many offspring as parents and delete all parents.
+
+500
+00:59:04,000 --> 00:59:09,000
+ Total renewal.
+
+501
+00:59:09,000 --> 00:59:14,000
+ So both can be used.
+
+502
+00:59:14,000 --> 00:59:23,000
+ Sometimes a combination of stochastic and deterministic is used, which is quite common.
+
+503
+00:59:23,000 --> 00:59:31,000
+ When we incorporate the deterministic part, we call it elitism.
+
+504
+00:59:31,000 --> 00:59:36,000
+ Elites, you know the meaning of elites.
+
+505
+00:59:36,000 --> 00:59:39,000
+ It's special treatment.
+
+506
+00:59:39,000 --> 00:59:43,000
+ It will survive regardless.
+
+507
+00:59:43,000 --> 00:59:56,000
+ So sometimes we use both stochastic selection for survival or we could use deterministic which is elitism.
+
+508
+00:59:56,000 --> 01:00:01,000
+ For example, I make the top tree.
+
+509
+01:00:01,000 --> 01:00:08,000
+ I give it special treatment, it will survive regardless because they are the best tree.
+
+510
+01:00:08,000 --> 01:00:13,000
+ So I will fix it such that they will survive.
+
+511
+01:00:13,000 --> 01:00:17,000
+ What's the benefit of it?
+
+512
+01:00:17,000 --> 01:00:20,000
+ You keep the best solution, you don't lose it.
+
+513
+01:00:20,000 --> 01:00:26,000
+ Isn't it? It's an elite, it's the best one, so it's survive.
+
+514
+01:00:26,000 --> 01:00:34,000
+ Is there any potential danger or disadvantage?
+
+515
+01:00:34,000 --> 01:00:41,000
+ What could be the potential disadvantage?
+
+516
+01:00:41,000 --> 01:00:46,000
+ Just imagine this. You understand what is elite.
+
+517
+01:00:46,000 --> 01:00:52,000
+ It's a good one, so it survives regardless.
+
+518
+01:00:52,000 --> 01:00:55,000
+ And so on, it will survive.
+
+519
+01:00:55,000 --> 01:01:02,000
+ What happens with time?
+
+520
+01:01:02,000 --> 01:01:12,000
+ Let's say there's elitism, so after 5,000 generations, what happens?
+
+521
+01:01:12,000 --> 01:01:15,000
+ All the same.
+
+522
+01:01:15,000 --> 01:01:23,000
+ Because the fittest one will dominate, suddenly everybody looks the same.
+
+523
+01:01:23,000 --> 01:01:25,000
+ Not very good.
+
+524
+01:01:25,000 --> 01:01:27,000
+ So that's a danger.
+
+525
+01:01:27,000 --> 01:01:31,000
+ Because does that mean you don't use elitism?
+
+526
+01:01:31,000 --> 01:01:37,000
+ Well, you could still use. There are different methods to actually force the diversity.
+
+527
+01:01:37,000 --> 01:01:42,000
+ For example, people use fitness sharing or scaling.
+
+528
+01:01:42,000 --> 01:01:52,000
+ Or other mechanisms just to forcefully inject diversity.
+
+529
+01:01:52,000 --> 01:02:05,000
+ What is done in a true experimentation?
+
+530
+01:02:05,000 --> 01:02:21,000
+ So variation operators from this diagram here, these are your variation operators.
+
+531
+01:02:21,000 --> 01:02:26,000
+ So the word variation means to cause variations.
+
+532
+01:02:26,000 --> 01:02:33,000
+ To cause variations to the populations or the individuals.
+
+533
+01:02:33,000 --> 01:02:40,000
+ So let's ask ourselves from the viewpoint of diversity.
+
+534
+01:02:40,000 --> 01:02:49,000
+ When you go from population to parents, does your diversity go up, down?
+
+535
+01:02:49,000 --> 01:02:59,000
+ From population to parents, diversity up, down, down.
+
+536
+01:02:59,000 --> 01:03:02,000
+ Because of the selection.
+
+537
+01:03:02,000 --> 01:03:09,000
+ From parents to offspring, up.
+
+538
+01:03:09,000 --> 01:03:15,000
+ That's what the variation does. It causes that kind of variation in the individuals.
+
+539
+01:03:15,000 --> 01:03:25,000
+ So from parents to offspring, the diversity increases again.
+
+540
+01:03:25,000 --> 01:03:30,000
+ So how do we increase this diversity through two different processes?
+
+541
+01:03:30,000 --> 01:03:37,000
+ One is recombination and then the other is mutation.
+
+542
+01:03:38,000 --> 01:03:45,000
+ So your mutation is what we call an arity one kind of operations.
+
+543
+01:03:45,000 --> 01:03:51,000
+ Where it takes only one individual and then produce another individual.
+
+544
+01:03:51,000 --> 01:03:58,000
+ It takes only one input, one individual. So it's arity of one.
+
+545
+01:03:58,000 --> 01:04:09,000
+ So recombination usually is a process that has an arity of two, greater than one.
+
+546
+01:04:09,000 --> 01:04:12,000
+ Can be two or more.
+
+547
+01:04:12,000 --> 01:04:20,000
+ For example, your crossover is an operation that is an arity of two.
+
+548
+01:04:20,000 --> 01:04:22,000
+ Equal to two.
+
+549
+01:04:22,000 --> 01:04:27,000
+ So crossover is a type of recombination or reproduction process.
+
+550
+01:04:27,000 --> 01:04:32,000
+ So arity greater than two is also possible.
+
+551
+01:04:32,000 --> 01:04:38,000
+ It's also possible. It's not used often.
+
+552
+01:04:38,000 --> 01:04:42,000
+ But it is definitely possible.
+
+553
+01:04:42,000 --> 01:04:46,000
+ For example, when you have chromosomes on very long strings.
+
+554
+01:04:47,000 --> 01:04:57,000
+ So sometimes it makes sense to use operations that has arity of greater than two.
+
+555
+01:04:57,000 --> 01:05:06,000
+ So there has been much debate about relative importance of recombination and mutation.
+
+556
+01:05:06,000 --> 01:05:14,000
+ So again, are both necessary?
+
+557
+01:05:14,000 --> 01:05:20,000
+ Well, we found out from experience that it is good to have both.
+
+558
+01:05:20,000 --> 01:05:25,000
+ But however, if you only have a choice of one.
+
+559
+01:05:25,000 --> 01:05:34,000
+ Then between recombination assuming you have only a choice of using either recombination or mutation.
+
+560
+01:05:34,000 --> 01:05:37,000
+ What would be your choice?
+
+561
+01:05:37,000 --> 01:05:46,000
+ You would use mutation as shown by the earlier evolutionary algorithm approaches.
+
+562
+01:05:46,000 --> 01:05:54,000
+ Many of the earlier versions of it are based on mutation type of operation.
+
+563
+01:05:54,000 --> 01:05:58,000
+ Or intuitively you can think of it.
+
+564
+01:05:58,000 --> 01:06:00,000
+ Mutation is a bit random.
+
+565
+01:06:00,000 --> 01:06:15,000
+ But if you do it often enough, there's a good chance or reasonable chance it will hit the solution.
+
+566
+01:06:15,000 --> 01:06:19,000
+ Mutation.
+
+567
+01:06:19,000 --> 01:06:27,000
+ So the main thing about mutation is you must remember it is a random mechanism.
+
+568
+01:06:27,000 --> 01:06:36,000
+ The idea behind mutation is just a small random disturbance or variation.
+
+569
+01:06:36,000 --> 01:06:38,000
+ That is what mutation.
+
+570
+01:06:38,000 --> 01:06:42,000
+ It must be random.
+
+571
+01:06:42,000 --> 01:06:49,000
+ As compared to your recombination, it is based on the fitness of parents that are selected.
+
+572
+01:06:49,000 --> 01:07:00,000
+ Hopefully the offspring will inherit properties from both the parents.
+
+573
+01:07:00,000 --> 01:07:04,000
+ For example, mutation.
+
+574
+01:07:04,000 --> 01:07:09,000
+ We say, for example, before mutation.
+
+575
+01:07:09,000 --> 01:07:11,000
+ This is a binary coding.
+
+576
+01:07:11,000 --> 01:07:14,000
+ The valuation set is only 0 or 1.
+
+577
+01:07:14,000 --> 01:07:16,000
+ So it's either 0 or 1.
+
+578
+01:07:16,000 --> 01:07:29,000
+ So when you mutate the fourth gene, which has a little 1, when you mutate it flips to 0.
+
+579
+01:07:29,000 --> 01:07:34,000
+ So notice when I say gene, it's a fourth gene.
+
+580
+01:07:34,000 --> 01:07:37,000
+ I don't say gene with value 1.
+
+581
+01:07:37,000 --> 01:07:40,000
+ Everyone has a value 1.
+
+582
+01:07:40,000 --> 01:07:45,000
+ So we say gene, the fourth gene, the position of it.
+
+583
+01:07:45,000 --> 01:07:47,000
+ And it mutates to 0.
+
+584
+01:07:47,000 --> 01:07:53,000
+ It flips to 0.
+
+585
+01:07:53,000 --> 01:07:58,000
+ So recombination merges information from parents into offspring.
+
+586
+01:07:58,000 --> 01:08:03,000
+ Choice of what information to merge is stochastic.
+
+587
+01:08:03,000 --> 01:08:08,000
+ All this is a stochastic process, meaning that it's driven probabilistically.
+
+588
+01:08:08,000 --> 01:08:13,000
+ So later on I'll use an example to illustrate the process.
+
+589
+01:08:14,000 --> 01:08:20,000
+ Through some form of simple hand simulation of a problem.
+
+590
+01:08:20,000 --> 01:08:27,000
+ Modes of spring may be worse or the same as parents.
+
+591
+01:08:27,000 --> 01:08:42,000
+ So in recombination, essentially what you are doing is that you are causing the transmission of information from parents to the offspring.
+
+592
+01:08:42,000 --> 01:08:46,000
+ Let's use a simple illustration to see how it works.
+
+593
+01:08:46,000 --> 01:08:57,000
+ So in this example of two chromosomes, one with value of 1, 1, 1, 1, 1, and the other with a value of 0, 0, 0, 0.
+
+594
+01:08:57,000 --> 01:09:07,000
+ So in recombination or crossover, normally we specify a crossover side opposition.
+
+595
+01:09:07,000 --> 01:09:10,000
+ How do we decide the crossover side?
+
+596
+01:09:11,000 --> 01:09:13,000
+ Random.
+
+597
+01:09:13,000 --> 01:09:20,000
+ So in this case, crossover could happen anywhere within the chromosome.
+
+598
+01:09:20,000 --> 01:09:39,000
+ So the result of the crossover is that, for example, the two offspring generated, what you will see is that it inherits properties from parent 1 and parent 2.
+
+599
+01:09:41,000 --> 01:09:43,000
+ Now that's very important to note.
+
+600
+01:09:43,000 --> 01:09:47,000
+ The purpose of this is the inheritance of the problem.
+
+601
+01:09:47,000 --> 01:09:53,000
+ So meaning that because your selection is ready, you select according to the fitness.
+
+602
+01:09:53,000 --> 01:09:57,000
+ So chances are the parents are fit.
+
+603
+01:09:57,000 --> 01:10:09,000
+ So when you do recombination, what is likely is that some of the good features from the parents will be passed on to the offspring.
+
+604
+01:10:09,000 --> 01:10:11,000
+ So that's the purpose.
+
+605
+01:10:11,000 --> 01:10:13,000
+ So there's a form of inheritance.
+
+606
+01:10:13,000 --> 01:10:17,000
+ Now in the context of machine learning, that's learning.
+
+607
+01:10:17,000 --> 01:10:23,000
+ Learning from whatever was before and then from there to improve on it.
+
+608
+01:10:23,000 --> 01:10:27,000
+ So that is the learning part of your GA.
+
+609
+01:10:30,000 --> 01:10:33,000
+ So initialization and termination.
+
+610
+01:10:34,000 --> 01:10:36,000
+ So your algorithm will run.
+
+611
+01:10:36,000 --> 01:10:39,000
+ Initially, you generate a population.
+
+612
+01:10:39,000 --> 01:10:44,000
+ So your population, one good way is just to randomly generate it.
+
+613
+01:10:46,000 --> 01:10:56,000
+ So basically in our population, usually it's done at random to ensure even spread and make sure of possible allele values.
+
+614
+01:10:58,000 --> 01:11:00,000
+ Not necessarily you must do it randomly.
+
+615
+01:11:00,000 --> 01:11:11,000
+ In some problems, we use some kind of problem specific heuristics to seed the population to start the initial population.
+
+616
+01:11:11,000 --> 01:11:20,000
+ For example, you may know you may have some kind of existing heuristics that produce a reasonably good solution.
+
+617
+01:11:20,000 --> 01:11:24,000
+ Not the best, but a good solution.
+
+618
+01:11:25,000 --> 01:11:37,000
+ So the hope is that if you seed the populations using heuristics, the hope is that you don't have to run so long because the starting point is really quite good.
+
+619
+01:11:37,000 --> 01:11:42,000
+ And then you run it, hopefully not too long, you get even better solutions.
+
+620
+01:11:42,000 --> 01:11:47,000
+ That is the whole motivation of seeding it using heuristics.
+
+621
+01:11:49,000 --> 01:11:53,000
+ So termination, condition, check every generation.
+
+622
+01:11:53,000 --> 01:12:10,000
+ So when you reach some hope, some fitness, you quit or reach some maximum allowed number of generations, then you quit or some minimum level of diversity, meaning convergence.
+
+623
+01:12:10,000 --> 01:12:18,000
+ So when you converge up to a certain level, you terminate.
+
+624
+01:12:19,000 --> 01:12:26,000
+ Reaching some specified number of generations without fitness improvement is basically a technique.
+
+625
+01:12:26,000 --> 01:12:30,000
+ Now, what is the best termination to use?
+
+626
+01:12:30,000 --> 01:12:35,000
+ In practice, it really depends on your problem or your requirements.
+
+627
+01:12:35,000 --> 01:12:46,000
+ So if you are solving a control problem where you know it's a feedback, you probably only have like within 1 millisecond.
+
+628
+01:12:47,000 --> 01:12:50,000
+ You got to adjust, make adjustment.
+
+629
+01:12:50,000 --> 01:13:05,000
+ Then probably you got to, your algorithm got to reach a point where within 1 millisecond, it gives you so-called the solution to make the adjustment.
+
+630
+01:13:05,000 --> 01:13:09,000
+ As compared to, for example, you are solving a logistic problem.
+
+631
+01:13:09,000 --> 01:13:17,000
+ For example, every day you plan the logistic, maybe the last mile logistic of your deliveryman.
+
+632
+01:13:17,000 --> 01:13:21,000
+ So you probably have solving it in 5 minutes, that is not an issue.
+
+633
+01:13:21,000 --> 01:13:26,000
+ So you can let it run for 5 minutes and then determine the solutions.
+
+634
+01:13:26,000 --> 01:13:37,000
+ Alright, so you've seen the different flavors of EA.
+
+635
+01:13:37,000 --> 01:13:49,000
+ So the one that has been popular is what we call the genetic algorithms.
+
+636
+01:13:49,000 --> 01:13:58,000
+ In 1975, now you know evolutionary algorithms has been around for many number of years.
+
+637
+01:13:58,000 --> 01:14:05,000
+ It was not until 1975 when genetic algorithm was first proposed or came up.
+
+638
+01:14:05,000 --> 01:14:11,000
+ What was the main innovation of your genetic algorithm?
+
+639
+01:14:11,000 --> 01:14:15,000
+ It's the crossover.
+
+640
+01:14:15,000 --> 01:14:22,000
+ So in the 60s and all, they are evolutionary algorithms.
+
+641
+01:14:22,000 --> 01:14:27,000
+ It has been in existence but not used often enough.
+
+642
+01:14:27,000 --> 01:14:39,000
+ Until in 1975, genetic algorithm came about and it turns out that the main innovation was the crossing over operation.
+
+643
+01:14:40,000 --> 01:14:49,000
+ And some day we are in a situation where even representation as binary strings, just with evolution and crossing over process,
+
+644
+01:14:49,000 --> 01:14:54,000
+ we have a reasonably robust problem solving method.
+
+645
+01:14:54,000 --> 01:15:00,000
+ And then from then on, 1980s and so on, GA has become very, very popular.
+
+646
+01:15:00,000 --> 01:15:05,000
+ So suddenly everything is about GA.
+
+647
+01:15:05,000 --> 01:15:10,000
+ So although there are different types of evolutionary algorithms,
+
+648
+01:15:10,000 --> 01:15:19,000
+ your genetic algorithms, evolutionary strategies, evolutionary programming or genetic programming,
+
+649
+01:15:19,000 --> 01:15:23,000
+ let's not get too preoccupied with it.
+
+650
+01:15:23,000 --> 01:15:28,000
+ So these differences are not so relevant.
+
+651
+01:15:28,000 --> 01:15:35,000
+ So basically, when you talk about GA, you are talking about approach,
+
+652
+01:15:35,000 --> 01:15:44,000
+ the evolutionary process, a population-based algorithm to solve your problems.
+
+653
+01:15:44,000 --> 01:15:54,000
+ So I also mentioned about the selection, selection operators, selection and fitness.
+
+654
+01:15:54,000 --> 01:16:01,000
+ Selection relies on fitness and are independent of your representation.
+
+655
+01:16:01,000 --> 01:16:05,000
+ So the fitness is the connection to your real world.
+
+656
+01:16:05,000 --> 01:16:13,000
+ It's not about the representation, it's the connection, it's the what your real world problem is all about.
+
+657
+01:16:13,000 --> 01:16:22,000
+ Let's take a look at this Aqueen's problem before we take a break.
+
+658
+01:16:23,000 --> 01:16:28,000
+ So specification for the Aqueen's is very simple.
+
+659
+01:16:28,000 --> 01:16:31,000
+ We saw this earlier on.
+
+660
+01:16:31,000 --> 01:16:43,000
+ Basically it's to place Aqueen's on an 8x8 chessboard such that no two queens are attacking each other.
+
+661
+01:16:43,000 --> 01:16:46,000
+ That's the specifications of the Aqueen's.
+
+662
+01:16:46,000 --> 01:16:54,000
+ So we first propose to demonstrate what we call the backtracking algorithm.
+
+663
+01:16:54,000 --> 01:17:02,000
+ So it's quite a well-known computer science problem.
+
+664
+01:17:02,000 --> 01:17:08,000
+ So when we talk about representation,
+
+665
+01:17:08,000 --> 01:17:15,000
+ the phenotype of it will be the board configuration and the placement of the queens.
+
+666
+01:17:15,000 --> 01:17:17,000
+ So it is an 8 queen.
+
+667
+01:17:17,000 --> 01:17:22,000
+ So it will be the phenotype.
+
+668
+01:17:22,000 --> 01:17:29,000
+ When you decode it, the phenotype expression of it will be the actual configuration.
+
+669
+01:17:29,000 --> 01:17:35,000
+ What about the genotype?
+
+670
+01:17:35,000 --> 01:17:42,000
+ Permedation of the numbers 1 to 8, that's one way to do it.
+
+671
+01:17:42,000 --> 01:17:52,000
+ For example, here, I have a chromosome of a string of 8.
+
+672
+01:17:52,000 --> 01:17:56,000
+ And the way it encodes is this.
+
+673
+01:17:56,000 --> 01:18:00,000
+ The first queen is in row number 1.
+
+674
+01:18:00,000 --> 01:18:03,000
+ So I put here 1.
+
+675
+01:18:03,000 --> 01:18:09,000
+ The second queen is on row number 3.
+
+676
+01:18:09,000 --> 01:18:13,000
+ So it is 3.
+
+677
+01:18:13,000 --> 01:18:17,000
+ And then the third queen is row number 5.
+
+678
+01:18:17,000 --> 01:18:20,000
+ Row number 5, so the value is 5.
+
+679
+01:18:20,000 --> 01:18:22,000
+ So the allele is 5.
+
+680
+01:18:22,000 --> 01:18:28,000
+ Gen number 3, the allele is 5.
+
+681
+01:18:28,000 --> 01:18:32,000
+ Is this the only way to represent?
+
+682
+01:18:32,000 --> 01:18:34,000
+ Absolutely not.
+
+683
+01:18:34,000 --> 01:18:38,000
+ I'm sure you can think of different ways to represent.
+
+684
+01:18:38,000 --> 01:18:42,000
+ Notice about these numbers.
+
+685
+01:18:42,000 --> 01:18:47,000
+ 1, 2, 3, 4, 5, 6, they are all different.
+
+686
+01:18:47,000 --> 01:18:50,000
+ They are all different.
+
+687
+01:18:50,000 --> 01:18:52,000
+ These numbers are all different.
+
+688
+01:18:52,000 --> 01:18:56,000
+ We call them the permutation string.
+
+689
+01:18:56,000 --> 01:18:58,000
+ It's a permutation string.
+
+690
+01:18:58,000 --> 01:19:00,000
+ They are all different.
+
+691
+01:19:00,000 --> 01:19:07,000
+ But more importantly, I would like you to know.
+
+692
+01:19:07,000 --> 01:19:19,000
+ When you have permutation string, what are you actually doing in terms of the constraints?
+
+693
+01:19:19,000 --> 01:19:20,000
+ They are all different.
+
+694
+01:19:20,000 --> 01:19:25,000
+ So you guarantee when you have different values in the strings,
+
+695
+01:19:25,000 --> 01:19:27,000
+ what are you guaranteeing?
+
+696
+01:19:27,000 --> 01:19:34,000
+ Or what part of the constraints are you satisfying?
+
+697
+01:19:35,000 --> 01:19:40,000
+ Same row or column.
+
+698
+01:19:40,000 --> 01:19:47,000
+ So how do you satisfy the same so-called, in this representation here?
+
+699
+01:19:47,000 --> 01:19:49,000
+ Let's get a little bit deeper.
+
+700
+01:19:49,000 --> 01:20:00,000
+ How do you satisfy and make sure that each one is only one row?
+
+701
+01:20:00,000 --> 01:20:10,000
+ How do you make sure that each one is only one column?
+
+702
+01:20:10,000 --> 01:20:15,000
+ So the row part is one.
+
+703
+01:20:15,000 --> 01:20:18,000
+ Do you see it's a permutation?
+
+704
+01:20:18,000 --> 01:20:20,000
+ Because they are different rows.
+
+705
+01:20:20,000 --> 01:20:22,000
+ So the values are all different.
+
+706
+01:20:22,000 --> 01:20:25,000
+ So they are all different rows.
+
+707
+01:20:25,000 --> 01:20:29,000
+ What about column?
+
+708
+01:20:29,000 --> 01:20:33,000
+ They only eight positions.
+
+709
+01:20:33,000 --> 01:20:38,000
+ So you have satisfied two sets of constraints.
+
+710
+01:20:38,000 --> 01:20:42,000
+ Then diagonal.
+
+711
+01:20:42,000 --> 01:20:44,000
+ That's what you solve for.
+
+712
+01:20:44,000 --> 01:20:58,000
+ So when you solve, you'll be looking for a permutation string that satisfies the so-called diagonal attacking requirements or constraints.
+
+713
+01:20:59,000 --> 01:21:06,000
+ So again, the node is this is one way or coding it.
+
+714
+01:21:06,000 --> 01:21:08,000
+ I can also use binary string.
+
+715
+01:21:08,000 --> 01:21:10,000
+ Can I know?
+
+716
+01:21:10,000 --> 01:21:11,000
+ You think about it.
+
+717
+01:21:11,000 --> 01:21:16,000
+ My representation could also be binary string.
+
+718
+01:21:21,000 --> 01:21:26,000
+ So if that's the case, we got to think about the fitness function.
+
+719
+01:21:26,000 --> 01:21:30,000
+ How do we measure the fitness?
+
+720
+01:21:30,000 --> 01:21:33,000
+ Again, there are different ways to do it.
+
+721
+01:21:33,000 --> 01:21:40,000
+ Early on in our first lecture, we talked about so-called the number of queens that are not attacking.
+
+722
+01:21:40,000 --> 01:21:43,000
+ That's one way to do it.
+
+723
+01:21:43,000 --> 01:21:48,000
+ Another way to do it is based on penalty.
+
+724
+01:21:48,000 --> 01:21:51,000
+ Penalty of one queen, the number of queens she can check.
+
+725
+01:21:52,000 --> 01:21:57,000
+ So if there's an attacking, you give it a penalty.
+
+726
+01:21:57,000 --> 01:22:02,000
+ So the penalty of a configuration will be the sum of the penalties of all the queens.
+
+727
+01:22:02,000 --> 01:22:12,000
+ So to measure the fitness of the whole configuration, you take the sum of the penalties of all the queens.
+
+728
+01:22:12,000 --> 01:22:15,000
+ Now we talk about fitness.
+
+729
+01:22:15,000 --> 01:22:19,000
+ Fitness means the bigger the value, the better.
+
+730
+01:22:19,000 --> 01:22:23,000
+ You say, oh, this is more fit than this.
+
+731
+01:22:23,000 --> 01:22:26,000
+ So meaning the fitness value is higher.
+
+732
+01:22:26,000 --> 01:22:32,000
+ The context of the meaning of the word fitness, usually that's what it means.
+
+733
+01:22:32,000 --> 01:22:35,000
+ But penalty is to be minimized.
+
+734
+01:22:35,000 --> 01:22:40,000
+ So we want to minimize penalty, but fitness we want to maximize.
+
+735
+01:22:40,000 --> 01:22:44,000
+ Based on the meaning of what fitness means.
+
+736
+01:22:44,000 --> 01:22:50,000
+ Therefore the fitness of a configuration could be the inverse penalty to be maximized.
+
+737
+01:22:50,000 --> 01:22:52,000
+ So you can actually change.
+
+738
+01:22:52,000 --> 01:22:54,000
+ That's definitely not an issue.
+
+739
+01:22:54,000 --> 01:22:56,000
+ You can convert.
+
+740
+01:22:56,000 --> 01:23:05,000
+ If something is maximum, you can convert to minimum.
+
+741
+01:23:05,000 --> 01:23:10,000
+ So how would our mutation look like?
+
+742
+01:23:10,000 --> 01:23:15,000
+ Again, one way to do it is only one way.
+
+743
+01:23:15,000 --> 01:23:21,000
+ You can, you mutate a gene, right?
+
+744
+01:23:21,000 --> 01:23:23,000
+ So you pick a gene to mutate.
+
+745
+01:23:23,000 --> 01:23:28,000
+ For example, I pick gene number three to mutate.
+
+746
+01:23:28,000 --> 01:23:30,000
+ Randomly.
+
+747
+01:23:30,000 --> 01:23:34,000
+ Randomly it occurs like gene number three.
+
+748
+01:23:34,000 --> 01:23:38,000
+ Then what will be the new value?
+
+749
+01:23:38,000 --> 01:23:39,000
+ Again, random.
+
+750
+01:23:39,000 --> 01:23:42,000
+ Let's say seven comes out.
+
+751
+01:23:42,000 --> 01:23:46,000
+ Out of the possibility of one to eight, seven comes out.
+
+752
+01:23:46,000 --> 01:23:49,000
+ So meaning that seven takes the place of five.
+
+753
+01:23:49,000 --> 01:23:51,000
+ So you have seven.
+
+754
+01:23:51,000 --> 01:24:00,000
+ But because when you replace five with seven, it conflicts or you violate that requirement of seven.
+
+755
+01:24:00,000 --> 01:24:06,000
+ So you got to look for the corresponding seven and then flip it back to five.
+
+756
+01:24:06,000 --> 01:24:13,000
+ That's the idea of the thoughts so-called flipping, the values during mutation.
+
+757
+01:24:13,000 --> 01:24:23,000
+ But essentially you can see that the result is basically the exchanging of these two values.
+
+758
+01:24:23,000 --> 01:24:29,000
+ Okay, what about recombination?
+
+759
+01:24:29,000 --> 01:24:34,000
+ Recombination involves two parents.
+
+760
+01:24:34,000 --> 01:24:40,000
+ So you choose two parents, choose two permutation strings.
+
+761
+01:24:40,000 --> 01:24:45,000
+ So some kind of probabilistic random process.
+
+762
+01:24:45,000 --> 01:24:50,000
+ And then we choose a random crossover point.
+
+763
+01:24:50,000 --> 01:24:54,000
+ So what would we mean by random crossover point?
+
+764
+01:24:54,000 --> 01:25:00,000
+ Well, let's say for example we choose crossover point number three.
+
+765
+01:25:00,000 --> 01:25:03,000
+ Or crossover position or site number three.
+
+766
+01:25:03,000 --> 01:25:07,000
+ So this is one, two, three.
+
+767
+01:25:07,000 --> 01:25:13,000
+ So this is a crossover position.
+
+768
+01:25:13,000 --> 01:25:25,000
+ So in crossing over, which involves two parents, we take part of parent one and then part of parent two to generate the offspring.
+
+769
+01:25:25,000 --> 01:25:27,000
+ So here's how it works.
+
+770
+01:25:27,000 --> 01:25:35,000
+ So for example to generate the first offspring, I take part of parent one, one, three, five.
+
+771
+01:25:35,000 --> 01:25:37,000
+ One, three, five.
+
+772
+01:25:37,000 --> 01:25:44,000
+ Let me change this to point.
+
+773
+01:25:44,000 --> 01:25:47,000
+ So this is one, three, five.
+
+774
+01:25:47,000 --> 01:25:50,000
+ So it gets copied here.
+
+775
+01:25:50,000 --> 01:25:53,000
+ So that's one parent one.
+
+776
+01:25:53,000 --> 01:25:58,000
+ And then I generate the other half from parent two.
+
+777
+01:25:58,000 --> 01:26:06,000
+ So from parent two, one, three, five already there.
+
+778
+01:26:06,000 --> 01:26:09,000
+ So I can knock it off.
+
+779
+01:26:09,000 --> 01:26:17,000
+ I knock off one, three, five.
+
+780
+01:26:17,000 --> 01:26:20,000
+ Because it's already here, one, three, five.
+
+781
+01:26:20,000 --> 01:26:27,000
+ And then the remaining of it, I construct it based on parent two.
+
+782
+01:26:27,000 --> 01:26:33,000
+ So from parent two, you can see four, the first one is four.
+
+783
+01:26:33,000 --> 01:26:40,000
+ So four goes to the first position.
+
+784
+01:26:40,000 --> 01:26:46,000
+ And then after that, two goes to the second position.
+
+785
+01:26:46,000 --> 01:26:54,000
+ And then the remaining, then you go back to the beginning, round, one round, and then eight, seven, six.
+
+786
+01:26:54,000 --> 01:26:57,000
+ Quite easy to see.
+
+787
+01:26:57,000 --> 01:27:04,000
+ But the philosophy is what you should, or behind this is what you should recognize.
+
+788
+01:27:04,000 --> 01:27:06,000
+ So this is a recombination.
+
+789
+01:27:06,000 --> 01:27:08,000
+ It involves two parents.
+
+790
+01:27:08,000 --> 01:27:12,000
+ So what you have seen is a simple process of just exchanging strings.
+
+791
+01:27:12,000 --> 01:27:22,000
+ But what is important for you to note is that the offspring inherits property from both the parent one and parent two.
+
+792
+01:27:22,000 --> 01:27:30,000
+ And that's the kind of mechanisms in your GA.
+
+793
+01:27:30,000 --> 01:27:45,000
+ And also to note that whatever operators that you implement has to conform or adhere to the constraints requirement of the permutation strings.
+
+794
+01:27:45,000 --> 01:27:49,000
+ So go back and try to implement these days.
+
+795
+01:27:49,000 --> 01:27:50,000
+ It's very easy.
+
+796
+01:27:50,000 --> 01:27:59,000
+ You can implement all this in Python.
+
+797
+01:27:59,000 --> 01:28:03,000
+ So let's talk about the selection.
+
+798
+01:28:03,000 --> 01:28:07,000
+ As always, we said there are two areas of selection.
+
+799
+01:28:07,000 --> 01:28:10,000
+ One is the parent selection.
+
+800
+01:28:10,000 --> 01:28:17,000
+ So to select the parents to form the parent pool.
+
+801
+01:28:17,000 --> 01:28:37,000
+ So one way to select is randomly pick five parents.
+
+802
+01:28:37,000 --> 01:28:39,000
+ Just random.
+
+803
+01:28:39,000 --> 01:28:43,000
+ And take the best two to undergo crossover.
+
+804
+01:28:43,000 --> 01:28:46,000
+ Out of the five, you do some kind of competition.
+
+805
+01:28:46,000 --> 01:28:51,000
+ Z out of the five, which is the best two.
+
+806
+01:28:51,000 --> 01:28:53,000
+ Now there's the parent selection.
+
+807
+01:28:53,000 --> 01:29:00,000
+ So let's say in this eight-quins problem, this is one way you can do the parent selection.
+
+808
+01:29:00,000 --> 01:29:03,000
+ And then the other one, the survivor selection.
+
+809
+01:29:03,000 --> 01:29:06,000
+ How do we do the replacement?
+
+810
+01:29:06,000 --> 01:29:11,000
+ Well, in this example here, we can do something like that.
+
+811
+01:29:11,000 --> 01:29:13,000
+ Use these rules.
+
+812
+01:29:13,000 --> 01:29:19,000
+ It says when inserting a new child into a population, choose an existing member to replace by it.
+
+813
+01:29:19,000 --> 01:29:23,000
+ So first of all, you decide which member to replace.
+
+814
+01:29:23,000 --> 01:29:27,000
+ Sort the whole population according to fitness.
+
+815
+01:29:27,000 --> 01:29:32,000
+ And then enumerate this list from high to low.
+
+816
+01:29:32,000 --> 01:29:36,000
+ And then choose the first one with fitness lower than the given child.
+
+817
+01:29:36,000 --> 01:29:46,000
+ So you just do replacement until your whole population is replaced.
+
+818
+01:29:46,000 --> 01:29:52,000
+ So all in all, typically in your GA, you have all these parameters or mechanisms.
+
+819
+01:29:52,000 --> 01:30:03,000
+ So I can create a tableau to show you what is in this so-called eight-quins problem solver.
+
+820
+01:30:03,000 --> 01:30:08,000
+ So the representation is a permutation string as what is shown.
+
+821
+01:30:08,000 --> 01:30:17,000
+ And then the recombination, which involves two parents, we call it a cut and cross-fill crossover.
+
+822
+01:30:17,000 --> 01:30:25,000
+ Choose a cutting point and then cross-fill across with both parents.
+
+823
+01:30:25,000 --> 01:30:28,000
+ Recombination probability.
+
+824
+01:30:28,000 --> 01:30:34,000
+ Usually you have a probability like crossover is 60%, crossover or 50%.
+
+825
+01:30:34,000 --> 01:30:38,000
+ Here, let's say we implement 100%.
+
+826
+01:30:38,000 --> 01:30:45,000
+ Meaning so-called crossover recombination will always occur.
+
+827
+01:30:45,000 --> 01:30:49,000
+ Mutation, we do a simple swap.
+
+828
+01:30:49,000 --> 01:30:54,000
+ Mutation probability, 80%.
+
+829
+01:30:54,000 --> 01:31:02,000
+ In the earlier GA, typically the mutation probability about 0.01, very small.
+
+830
+01:31:02,000 --> 01:31:07,000
+ So that doesn't mean that we must conform to that.
+
+831
+01:31:07,000 --> 01:31:09,000
+ It all depends on problems.
+
+832
+01:31:09,000 --> 01:31:13,000
+ So here, our mutation probability, 80%.
+
+833
+01:31:13,000 --> 01:31:17,000
+ And then the parent selection, two out of random five.
+
+834
+01:31:18,000 --> 01:31:22,000
+ Selection, survival selection, replace worst.
+
+835
+01:31:22,000 --> 01:31:25,000
+ Population size, 100.
+
+836
+01:31:25,000 --> 01:31:27,000
+ Number of offspring, two.
+
+837
+01:31:27,000 --> 01:31:29,000
+ Initialization random.
+
+838
+01:31:29,000 --> 01:31:36,000
+ And then termination condition, 10,000 fitness evaluations.
+
+839
+01:31:36,000 --> 01:31:38,000
+ One of the possible way.
+
+840
+01:31:38,000 --> 01:31:46,000
+ So what I'm trying to tell you is in a GA, this is typically the kind of parameters you will set or you will tune.
+
+841
+01:31:47,000 --> 01:31:52,000
+ This is an example to illustrate.
+
+842
+01:31:56,000 --> 01:32:05,000
+ And so typically in a EGA.
+
+843
+01:32:06,000 --> 01:32:18,000
+ So what you will see is that in the early stage, because the fitness of the population tend to be poor.
+
+844
+01:32:18,000 --> 01:32:25,000
+ So on the fitness landscape, you will see that the points are all over the place.
+
+845
+01:32:25,000 --> 01:32:29,000
+ Overall, the fitness is still relatively low.
+
+846
+01:32:30,000 --> 01:32:40,000
+ Then as you evolve, the population, the fitness tends to improve.
+
+847
+01:32:40,000 --> 01:32:53,000
+ From a fitness landscape point of view, the points seems to move towards, converge towards the peak or the optimum.
+
+848
+01:32:53,000 --> 01:32:58,000
+ And then towards the later part, it converges to the close to the optimum.
+
+849
+01:32:58,000 --> 01:33:01,000
+ May not be the optimum, but close to the optimum.
+
+850
+01:33:01,000 --> 01:33:09,000
+ That is typically what the evolutionary process causes the fitness to change.
+
+851
+01:33:09,000 --> 01:33:16,000
+ So I think this is a good example to think about all this process here.
+
+852
+01:33:16,000 --> 01:33:21,000
+ So later on, we do a hand simulation on another problem just to illustrate further.
+
+853
+01:33:21,000 --> 01:33:28,000
+ Let's take a break and then we meet again in 8.25.
+
+854
+01:33:51,000 --> 01:33:57,000
+ Thank you.
+
+855
+01:34:21,000 --> 01:34:26,000
+ Thank you.
+
+856
+01:34:51,000 --> 01:34:56,000
+ Thank you.
+
+857
+01:35:21,000 --> 01:35:26,000
+ Thank you.
+
+858
+01:35:51,000 --> 01:35:56,000
+ Thank you.
+
+859
+01:36:21,000 --> 01:36:26,000
+ Thank you.
+
+860
+01:36:51,000 --> 01:36:56,000
+ Thank you.
+
+861
+01:37:21,000 --> 01:37:26,000
+ Thank you.
+
+862
+01:37:51,000 --> 01:37:56,000
+ Thank you.
+
+863
+01:38:21,000 --> 01:38:26,000
+ Thank you.
+
+864
+01:38:51,000 --> 01:38:56,000
+ Thank you.
+
+865
+01:39:21,000 --> 01:39:26,000
+ Thank you.
+
+866
+01:39:51,000 --> 01:39:56,000
+ Thank you.
+
+867
+01:40:21,000 --> 01:40:26,000
+ Thank you.
+
+868
+01:40:51,000 --> 01:40:56,000
+ Thank you.
+
+869
+01:41:21,000 --> 01:41:26,000
+ Thank you.
+
+870
+01:41:51,000 --> 01:41:56,000
+ Thank you.
+
+871
+01:42:21,000 --> 01:42:26,000
+ Thank you.
+
+872
+01:42:51,000 --> 01:42:56,000
+ Thank you.
+
+873
+01:43:21,000 --> 01:43:26,000
+ Thank you.
+
+874
+01:43:51,000 --> 01:43:56,000
+ Thank you.
+
+875
+01:44:21,000 --> 01:44:26,000
+ Thank you.
+
+876
+01:44:51,000 --> 01:44:56,000
+ Thank you.
+
+877
+01:45:21,000 --> 01:45:26,000
+ Thank you.
+
+878
+01:45:51,000 --> 01:45:56,000
+ Thank you.
+
+879
+01:46:21,000 --> 01:46:26,000
+ Thank you.
+
+880
+01:46:51,000 --> 01:46:56,000
+ Thank you.
+
+881
+01:47:21,000 --> 01:47:26,000
+ Thank you.
+
+882
+01:47:51,000 --> 01:47:56,000
+ Thank you.
+
+883
+01:48:21,000 --> 01:48:26,000
+ Thank you.
+
+884
+01:48:51,000 --> 01:48:56,000
+ Thank you.
+
+885
+01:49:21,000 --> 01:49:26,000
+ Thank you.
+
+886
+01:49:51,000 --> 01:49:56,000
+ Thank you.
+
+887
+01:50:21,000 --> 01:50:26,000
+ Thank you.
+
+888
+01:50:51,000 --> 01:50:56,000
+ Thank you.
+
+889
+01:51:21,000 --> 01:51:26,000
+ Thank you.
+
+890
+01:51:51,000 --> 01:51:56,000
+ Thank you.
+
+891
+01:52:21,000 --> 01:52:26,000
+ Thank you.
+
+892
+01:52:51,000 --> 01:52:56,000
+ Thank you.
+
+893
+01:53:21,000 --> 01:53:26,000
+ Thank you.
+
+894
+01:53:51,000 --> 01:53:56,000
+ Thank you.
+
+895
+01:54:21,000 --> 01:54:26,000
+ Thank you.
+
+896
+01:54:51,000 --> 01:55:10,000
+ Thank you.
+
+897
+01:55:10,000 --> 01:55:15,000
+ Okay, we are back.
+
+898
+01:55:15,000 --> 01:55:21,000
+ So, we have looked at the Aqueen's problem quite clearly.
+
+899
+01:55:21,000 --> 01:55:25,000
+ I think this is a kind of discrete problem.
+
+900
+01:55:25,000 --> 01:55:27,000
+ Okay, discrete problem.
+
+901
+01:55:27,000 --> 01:55:39,000
+ So, I showed you, typically in a GA, these are the kind of parameters that are involved in a GA.
+
+902
+01:55:39,000 --> 01:55:49,000
+ For example, in the Aqueen's problem, we talked about this template of all the parameters, the different methods.
+
+903
+01:55:49,000 --> 01:55:52,000
+ So, the GA you implement may be different.
+
+904
+01:55:52,000 --> 01:55:54,000
+ They have a different set of parameters.
+
+905
+01:55:54,000 --> 01:55:58,000
+ Now, you must remember these are all stochastic algorithms.
+
+906
+01:55:58,000 --> 01:56:09,000
+ So, some of these parameters, there's no hard and fast or absolute rule to say what the values should be.
+
+907
+01:56:09,000 --> 01:56:15,000
+ But that doesn't mean that you totally have no knowledge on what should be the appropriate value.
+
+908
+01:56:15,000 --> 01:56:20,000
+ They are usually what we call the rule of thumb that we follow.
+
+909
+01:56:20,000 --> 01:56:22,000
+ Okay.
+
+910
+01:56:23,000 --> 01:56:33,000
+ For example, if you know in your Aqueen's, say somebody could decide maybe I use binary coding.
+
+911
+01:56:33,000 --> 01:56:44,000
+ Not to say it won't work, but then the question to ask would be, you know, is it the most effective way or efficient way to code the problem?
+
+912
+01:56:44,000 --> 01:56:50,000
+ So, that's the kind of thing that one would have to consider and so on.
+
+913
+01:56:51,000 --> 01:57:03,000
+ So, all these parameters here, if you have implemented your GA, or if you look at so-called some codes that some implementations of GA,
+
+914
+01:57:03,000 --> 01:57:10,000
+ you find all these parameters of the evolutionary algorithm that has been implemented.
+
+915
+01:57:10,000 --> 01:57:19,000
+ So, the representation, how it's represented, depending on the problem and so on, the recombination method, mutation rate and so on.
+
+916
+01:57:19,000 --> 01:57:21,000
+ So, this is quite typical.
+
+917
+01:57:21,000 --> 01:57:35,000
+ So, not to worry if you don't have very solid graphs on this, but after you see a couple of examples, you will develop that intuitive view for what GA is all about.
+
+918
+01:57:35,000 --> 01:57:43,000
+ So, I want to go through another example which is quite different from the Aqueen's.
+
+919
+01:57:44,000 --> 01:57:50,000
+ So, quite often we implement, we optimize a function.
+
+920
+01:57:50,000 --> 01:57:54,000
+ So, henceforth, it's called a function optimization.
+
+921
+01:57:54,000 --> 01:58:06,000
+ So, in typical mathematical optimization, we optimize a function to find the maximum or the minimum.
+
+922
+01:58:06,000 --> 01:58:17,000
+ So, in many real world applications, the model of the behavior, the dynamics, the physics of it, usually can be modeled.
+
+923
+01:58:17,000 --> 01:58:25,000
+ And usually, that model would involve certain kind of complex functions that needs to be optimized.
+
+924
+01:58:26,000 --> 01:58:29,000
+ So, I'm just going to use a simple example.
+
+925
+01:58:29,000 --> 01:58:37,000
+ So, this example is more for illustration on the mechanisms at work in GA.
+
+926
+01:58:37,000 --> 01:58:44,000
+ Now, say for example, you have a function fx equal to x square.
+
+927
+01:58:44,000 --> 01:58:48,000
+ So, this is a function with one variable.
+
+928
+01:58:48,000 --> 01:58:53,000
+ So, needless to say, it is an extremely simple problem.
+
+929
+01:58:53,000 --> 01:59:02,000
+ Now, a typical problem that you will want to solve in your GA, it could involve hundreds or even thousands of variables with many constraints.
+
+930
+01:59:02,000 --> 01:59:05,000
+ Definitely not doable by hand.
+
+931
+01:59:05,000 --> 01:59:12,000
+ But of course, for the sake of illustration, let's just look at this simple problem on optimizing a function.
+
+932
+01:59:12,000 --> 01:59:21,000
+ So, you are trying to maximize fx equal to x square.
+
+933
+01:59:21,000 --> 01:59:30,000
+ And subject to a limit of, let's say, x from certain minimum up to a maximum.
+
+934
+01:59:30,000 --> 01:59:36,000
+ So, therefore, you are trying to find x, you are trying to solve for x.
+
+935
+01:59:36,000 --> 01:59:42,000
+ So, x is the phenotype, the expression of the value.
+
+936
+01:59:42,000 --> 01:59:47,000
+ To bring it to GA, you've got to code it.
+
+937
+01:59:47,000 --> 01:59:54,000
+ So, you have to code it, then you have to think about a representation.
+
+938
+01:59:54,000 --> 01:59:58,000
+ So, you have different options for representation.
+
+939
+01:59:58,000 --> 02:00:02,000
+ One option will be binary.
+
+940
+02:00:02,000 --> 02:00:07,000
+ The other option will be real value, for example.
+
+941
+02:00:07,000 --> 02:00:11,000
+ But let's say we choose binary representation.
+
+942
+02:00:11,000 --> 02:00:17,000
+ So, let's say we choose our chromosome to be 5 bits.
+
+943
+02:00:17,000 --> 02:00:22,000
+ So, 5 bits meaning 2 to the power of 5, so 32.
+
+944
+02:00:22,000 --> 02:00:33,000
+ So, the range of value in your phenotypic space is from 0 to 31.
+
+945
+02:00:33,000 --> 02:00:41,000
+ So, there are different steps involved in the genetic algorithm.
+
+946
+02:00:41,000 --> 02:00:44,000
+ So, for example, you generate the initial population.
+
+947
+02:00:44,000 --> 02:00:53,000
+ So, since it is 5 bits chromosome, you randomly generate a population of 5-bit individuals.
+
+948
+02:00:53,000 --> 02:00:55,000
+ Randomly.
+
+949
+02:00:55,000 --> 02:00:57,000
+ How you generate?
+
+950
+02:00:57,000 --> 02:01:06,000
+ So, each bit you flip a coin, 0 or 1, and then for each chromosome, you do it 5 times and so on.
+
+951
+02:01:06,000 --> 02:01:12,000
+ And then, there are...
+
+952
+02:01:12,000 --> 02:01:15,000
+ Then after that, you go, you compute the fitness.
+
+953
+02:01:15,000 --> 02:01:18,000
+ How do you compute the fitness?
+
+954
+02:01:18,000 --> 02:01:22,000
+ According to the function you're trying to optimize.
+
+955
+02:01:22,000 --> 02:01:23,000
+ So, you're trying to maximize.
+
+956
+02:01:23,000 --> 02:01:26,000
+ So, how do you know how fit the individuals are?
+
+957
+02:01:26,000 --> 02:01:29,000
+ You use the function to evaluate.
+
+958
+02:01:29,000 --> 02:01:32,000
+ And then after that, you decide on reproduction.
+
+959
+02:01:32,000 --> 02:01:38,000
+ So, reproduction means you got to select according to the fitness.
+
+960
+02:01:38,000 --> 02:01:43,000
+ So, we're going to create a mating pool.
+
+961
+02:01:43,000 --> 02:01:46,000
+ And then, crossover.
+
+962
+02:01:46,000 --> 02:01:51,000
+ So, there are some written details here, but later on, we go straight to the table,
+
+963
+02:01:51,000 --> 02:01:56,000
+ and then it's easier to illustrate from the table.
+
+964
+02:01:56,000 --> 02:01:58,000
+ And mutation.
+
+965
+02:01:58,000 --> 02:02:00,000
+ Let's assume there's no mutation.
+
+966
+02:02:00,000 --> 02:02:06,000
+ Or theoretically, there's a mutation, but let's assume mutation is very, very small.
+
+967
+02:02:06,000 --> 02:02:11,000
+ Such that in our small sample size, it doesn't happen.
+
+968
+02:02:11,000 --> 02:02:13,000
+ Just assume.
+
+969
+02:02:13,000 --> 02:02:18,000
+ So, mutation, let's assume mutation probability is 0.001.
+
+970
+02:02:18,000 --> 02:02:23,000
+ For each bit, there's a mutation probability of 0.001.
+
+971
+02:02:23,000 --> 02:02:35,000
+ Now, if we have 20 bits in our population, then the chances of mutation occurring is only 0.02.
+
+972
+02:02:35,000 --> 02:02:39,000
+ So, that means that it is very, very small.
+
+973
+02:02:39,000 --> 02:02:47,000
+ So, in our example, we just assume there's zero mutation or it didn't happen.
+
+974
+02:02:47,000 --> 02:03:04,000
+ So, we do the calculation and go to the table and see how the evolution process progress.
+
+975
+02:03:04,000 --> 02:03:11,000
+ So, assume we have a population of four individuals.
+
+976
+02:03:11,000 --> 02:03:13,000
+ So, we create four strings.
+
+977
+02:03:13,000 --> 02:03:19,000
+ Remember, our coding is five bits, five binary bits.
+
+978
+02:03:19,000 --> 02:03:25,000
+ So, string number one, we randomly generate.
+
+979
+02:03:25,000 --> 02:03:33,000
+ So, we generate our first string, 0.1.1.0.1, number two, 1.1.0.0, and so forth.
+
+980
+02:03:33,000 --> 02:03:38,000
+ So, we have four individuals.
+
+981
+02:03:39,000 --> 02:03:43,000
+ So, now you go back to the figure I showed you earlier on.
+
+982
+02:03:43,000 --> 02:03:50,000
+ After you have the initial population, what must happen?
+
+983
+02:03:50,000 --> 02:03:54,000
+ You're going to do the selection, remember, to get the parents.
+
+984
+02:03:54,000 --> 02:03:58,000
+ In order to do the selection, you must know the fitness.
+
+985
+02:03:58,000 --> 02:04:01,000
+ So, how do you evaluate the fitness?
+
+986
+02:04:01,000 --> 02:04:04,000
+ Well, according to your function.
+
+987
+02:04:04,000 --> 02:04:08,000
+ The function is x squared.
+
+988
+02:04:08,000 --> 02:04:15,000
+ So, the expression of 0.1.1.0.1 is 13.
+
+989
+02:04:15,000 --> 02:04:16,000
+ This is the coding.
+
+990
+02:04:16,000 --> 02:04:21,000
+ The coding is 0.1.1.0.1, the chromosome.
+
+991
+02:04:21,000 --> 02:04:26,000
+ But in the phenotypic space, it is actually 13.
+
+992
+02:04:26,000 --> 02:04:32,000
+ Then, to evaluate the fitness, you use your fitness function, x squared.
+
+993
+02:04:32,000 --> 02:04:37,000
+ So, you have 13 squared, you have 169.
+
+994
+02:04:37,000 --> 02:04:44,000
+ So, same thing for 1.1.0.0.0, which is 24.
+
+995
+02:04:44,000 --> 02:04:47,000
+ So, 24 squared is 576.
+
+996
+02:04:47,000 --> 02:04:56,000
+ So, the whole column four is calculated according to the fitness function.
+
+997
+02:04:56,000 --> 02:05:01,000
+ So, you sum up the total fitness.
+
+998
+02:05:01,000 --> 02:05:04,000
+ You have 1170.
+
+999
+02:05:04,000 --> 02:05:09,000
+ The sum of all this, the column four is 1170.
+
+1000
+02:05:09,000 --> 02:05:16,000
+ You take 1170 divided by four, the average fitness is 293.
+
+1001
+02:05:16,000 --> 02:05:19,000
+ So, keep in mind we want to maximize.
+
+1002
+02:05:19,000 --> 02:05:24,000
+ To optimize in this case means to maximize the function value.
+
+1003
+02:05:24,000 --> 02:05:29,000
+ Find x such that fx is maximum.
+
+1004
+02:05:30,000 --> 02:05:34,000
+ So, let's take a look at the percentage.
+
+1005
+02:05:34,000 --> 02:05:40,000
+ So, in terms of percentage, the relative fitness of the individual.
+
+1006
+02:05:40,000 --> 02:05:45,000
+ 169 over 1170, 14.4.
+
+1007
+02:05:45,000 --> 02:05:50,000
+ 576 over 1170, 49.2.
+
+1008
+02:05:50,000 --> 02:05:54,000
+ Alright, 64 is 55, 5.5.
+
+1009
+02:05:54,000 --> 02:05:59,000
+ 361 over 1170 is 30.9.
+
+1010
+02:05:59,000 --> 02:06:04,000
+ Alright, so we're going to use the roulette view.
+
+1011
+02:06:04,000 --> 02:06:07,000
+ But of course sample size is a bit small.
+
+1012
+02:06:07,000 --> 02:06:15,000
+ So, I will guide your thoughts in another way on how the selection works.
+
+1013
+02:06:15,000 --> 02:06:23,000
+ So, naturally because of the different fitness, you will see that two is going to be selected.
+
+1014
+02:06:24,000 --> 02:06:28,000
+ Most favored, right, because of higher fitness.
+
+1015
+02:06:28,000 --> 02:06:36,000
+ So, the first step you do out of this four, right, if it is equal slot,
+
+1016
+02:06:36,000 --> 02:06:41,000
+ what is the percentage for each individual?
+
+1017
+02:06:41,000 --> 02:06:43,000
+ 25%.
+
+1018
+02:06:43,000 --> 02:06:47,000
+ If it is equal size slot, 25%.
+
+1019
+02:06:48,000 --> 02:06:54,000
+ So, according to here, 49.2 is the highest.
+
+1020
+02:06:54,000 --> 02:06:58,000
+ So, string number two get one copy.
+
+1021
+02:06:58,000 --> 02:07:01,000
+ Here, 11000.
+
+1022
+02:07:01,000 --> 02:07:04,000
+ 49.2 is the highest.
+
+1023
+02:07:04,000 --> 02:07:09,000
+ So, I minus 25 from 49.2.
+
+1024
+02:07:09,000 --> 02:07:12,000
+ I am left with 24.2.
+
+1025
+02:07:12,000 --> 02:07:16,000
+ Because I have already given 1, 11000.
+
+1026
+02:07:16,000 --> 02:07:20,000
+ So, I am left with 24.2.
+
+1027
+02:07:20,000 --> 02:07:24,000
+ So, there is one individual, 11000.
+
+1028
+02:07:24,000 --> 02:07:28,000
+ Alright, string number two in the mating pool.
+
+1029
+02:07:28,000 --> 02:07:33,000
+ Now, string number two, I compare again.
+
+1030
+02:07:33,000 --> 02:07:40,000
+ 14.4, 24.2, 5.5, 30.9.
+
+1031
+02:07:40,000 --> 02:07:42,000
+ Which is the highest?
+
+1032
+02:07:42,000 --> 02:07:45,000
+ 30.9.
+
+1033
+02:07:45,000 --> 02:07:53,000
+ So, I put 100, string number four, 10011 into the mating pool.
+
+1034
+02:07:53,000 --> 02:07:56,000
+ Which is 10011.
+
+1035
+02:07:56,000 --> 02:07:58,000
+ So, I have two copies.
+
+1036
+02:07:58,000 --> 02:08:01,000
+ So, this 30.9, I already given one.
+
+1037
+02:08:01,000 --> 02:08:05,000
+ So, I minus 25 is 5.9.
+
+1038
+02:08:05,000 --> 02:08:12,000
+ Alright, now I have two strings, 1100 and 1001.
+
+1039
+02:08:12,000 --> 02:08:23,000
+ Now, the third string, I am left with 14.4, 24.2, 5.5, 5.9.
+
+1040
+02:08:23,000 --> 02:08:26,000
+ Alright, 24.2 wins.
+
+1041
+02:08:26,000 --> 02:08:30,000
+ So, I give string number two another copy.
+
+1042
+02:08:30,000 --> 02:08:33,000
+ 11000.
+
+1043
+02:08:33,000 --> 02:08:34,000
+ Alright.
+
+1044
+02:08:34,000 --> 02:08:42,000
+ So, because of its fitness, string number two gets two times in the mating pool.
+
+1045
+02:08:42,000 --> 02:08:45,000
+ So, now I have three strings.
+
+1046
+02:08:45,000 --> 02:08:51,000
+ Alright, this, this and this.
+
+1047
+02:08:51,000 --> 02:08:59,000
+ So, now the fourth string, 14.4, this one is zero because it's two times.
+
+1048
+02:08:59,000 --> 02:09:04,000
+ Alright, then this is 5.5 and then this is 5.9.
+
+1049
+02:09:04,000 --> 02:09:06,000
+ 14.4 wins.
+
+1050
+02:09:06,000 --> 02:09:10,000
+ So, I put 011, 01.
+
+1051
+02:09:10,000 --> 02:09:13,000
+ That's the first string.
+
+1052
+02:09:13,000 --> 02:09:20,000
+ So, as a result of the selection, my mating pool is this.
+
+1053
+02:09:20,000 --> 02:09:25,000
+ Alright, so the second string seems to fit us almost two times relative to the other.
+
+1054
+02:09:25,000 --> 02:09:28,000
+ So, it gets two copies in the mating pool.
+
+1055
+02:09:28,000 --> 02:09:38,000
+ Alright, it has two copies, chances of it chosen for recombination is higher.
+
+1056
+02:09:38,000 --> 02:09:44,000
+ So, now we decide on the mating.
+
+1057
+02:09:44,000 --> 02:09:50,000
+ So, for example, string one, we decide, okay, random, random, okay.
+
+1058
+02:09:50,000 --> 02:09:53,000
+ Randomly, generally, it's like two comes up.
+
+1059
+02:09:53,000 --> 02:10:01,000
+ The first string, alright, the parent two will come from 1100.
+
+1060
+02:10:01,000 --> 02:10:13,000
+ Okay, so you take these two strings, less.
+
+1061
+02:10:13,000 --> 02:10:18,000
+ Alright, so this is number two.
+
+1062
+02:10:18,000 --> 02:10:31,000
+ So, meaning, I will take this and this, number two.
+
+1063
+02:10:31,000 --> 02:10:39,000
+ Alright, cross over side the position, randomly, randomly generate a number.
+
+1064
+02:10:39,000 --> 02:10:44,000
+ So, you generate four.
+
+1065
+02:10:44,000 --> 02:10:51,000
+ So, which means to say, you go to the cross over side, let's say, gene number four.
+
+1066
+02:10:51,000 --> 02:10:54,000
+ So, one, two, three, four.
+
+1067
+02:10:54,000 --> 02:10:59,000
+ So, this is the cross over side.
+
+1068
+02:10:59,000 --> 02:11:05,000
+ Here.
+
+1069
+02:11:05,000 --> 02:11:11,000
+ Alright, so recombination of these two parents.
+
+1070
+02:11:11,000 --> 02:11:21,000
+ So, the new offspring comes from first one, first part comes from here.
+
+1071
+02:11:21,000 --> 02:11:28,000
+ Alright, the first four bits come from here.
+
+1072
+02:11:28,000 --> 02:11:36,000
+ And then the second part, zero, comes from parent two, which is here.
+
+1073
+02:11:36,000 --> 02:11:41,000
+ So, that is your first offspring.
+
+1074
+02:11:41,000 --> 02:11:51,000
+ And then you repeat for offspring number two, which involves, right, the second one, two, right,
+
+1075
+02:11:51,000 --> 02:11:55,000
+ and then you make with one, so parent one.
+
+1076
+02:11:55,000 --> 02:12:05,000
+ So, from this, you generate the new so-called the offspring.
+
+1077
+02:12:05,000 --> 02:12:17,000
+ So, from this offspring, according to our diagram, right, so the offspring we also need to evaluate the fitness.
+
+1078
+02:12:17,000 --> 02:12:26,000
+ Okay, in order to evaluate the fitness, we take zero, one, one, zero, zero, the phenotypic equivalent of it is 12.
+
+1079
+02:12:26,000 --> 02:12:29,000
+ So, 12 squared is 144.
+
+1080
+02:12:29,000 --> 02:12:32,000
+ And then, one, one, zero, one is 25.
+
+1081
+02:12:32,000 --> 02:12:35,000
+ So, 25 squared is 625.
+
+1082
+02:12:35,000 --> 02:12:40,000
+ And then the third one, one, one, zero, one, one, 27.
+
+1083
+02:12:40,000 --> 02:12:43,000
+ 27 squared is 729.
+
+1084
+02:12:43,000 --> 02:12:47,000
+ Alright, and finally, 16 is 256.
+
+1085
+02:12:47,000 --> 02:12:49,000
+ So, there you have it.
+
+1086
+02:12:49,000 --> 02:12:51,000
+ We just done one generation.
+
+1087
+02:12:51,000 --> 02:12:53,000
+ Alright, of course, you need not stop.
+
+1088
+02:12:53,000 --> 02:12:55,000
+ You carry on.
+
+1089
+02:12:55,000 --> 02:13:01,000
+ So, we sum, sum up all.
+
+1090
+02:13:01,000 --> 02:13:14,000
+ So, it's one, seven, five, four, and then compared to the earlier generation, it is one, one, seven, zero.
+
+1091
+02:13:14,000 --> 02:13:29,000
+ So, what is clear is that through that one generation, through the selective pressure, and then the recombination, you have seen the overall population improve, right, significantly.
+
+1092
+02:13:29,000 --> 02:13:33,000
+ Okay, so of course, in the beginning, it's going to improve quite significantly.
+
+1093
+02:13:33,000 --> 02:13:41,000
+ But towards the end, the tail end of it, you're going to see that the improvement is going to be very marginal or gradual.
+
+1094
+02:13:41,000 --> 02:13:47,000
+ So, that's how simple GA, so you hear the term simple GA.
+
+1095
+02:13:47,000 --> 02:13:50,000
+ Simple GA is like a plain vanilla kind of GA.
+
+1096
+02:13:50,000 --> 02:13:56,000
+ It's a very, the basic mechanism is just crossover and then mutation.
+
+1097
+02:13:56,000 --> 02:14:07,000
+ And of course, these days GA can be a little bit more complicated or more complex with different mechanisms to enhance the search.
+
+1098
+02:14:11,000 --> 02:14:24,000
+ So, this is what, right, so I hope you see the process of simulation through that example of a hand simulation.
+
+1099
+02:14:24,000 --> 02:14:28,000
+ So, typically, this is your GA behavior.
+
+1100
+02:14:28,000 --> 02:14:39,000
+ So, if I do a plot of the, with time, the value, right, the best value in a population.
+
+1101
+02:14:39,000 --> 02:14:45,000
+ So, I think it's not difficult to see, right, how this performance curve come about.
+
+1102
+02:14:45,000 --> 02:14:54,000
+ With time, as time goes on, the performance or the goodness, the overall fitness of it will increase.
+
+1103
+02:14:54,000 --> 02:14:58,000
+ Initially, the increment will be quite good or quite significant.
+
+1104
+02:14:58,000 --> 02:15:08,000
+ Then towards the tail end of it, it's going to stagnate.
+
+1105
+02:15:08,000 --> 02:15:16,000
+ So, then the next question is this, you know, of course, you like to run it until you find the best solution.
+
+1106
+02:15:16,000 --> 02:15:26,000
+ But, I also like to think that sometimes the best solution is not known or you have no knowledge of what the best solution is.
+
+1107
+02:15:26,000 --> 02:15:32,000
+ So, therefore, what you do is that you run it until you cannot improve any better.
+
+1108
+02:15:32,000 --> 02:15:35,000
+ So, you run it until you cannot improve any better.
+
+1109
+02:15:35,000 --> 02:15:38,000
+ Meaning, you just let it run, carry on, right?
+
+1110
+02:15:38,000 --> 02:15:44,000
+ But does that mean that if you leave it theoretically, it should find the answer?
+
+1111
+02:15:44,000 --> 02:15:47,000
+ Well, not necessary, right?
+
+1112
+02:15:47,000 --> 02:15:48,000
+ Okay?
+
+1113
+02:15:48,000 --> 02:15:50,000
+ So, quite often you don't.
+
+1114
+02:15:50,000 --> 02:15:54,000
+ Because basically, many of the algorithm will get stuck at a certain point.
+
+1115
+02:15:54,000 --> 02:15:58,000
+ It just cannot improve, simply because of the complexity.
+
+1116
+02:15:59,000 --> 02:16:04,000
+ So, our long runs are beneficial, well, not necessary.
+
+1117
+02:16:04,000 --> 02:16:10,000
+ Well, it all depends on how much time you can afford or the problem that you have.
+
+1118
+02:16:10,000 --> 02:16:13,000
+ Or it all depends on your requirement also.
+
+1119
+02:16:13,000 --> 02:16:18,000
+ So, sometimes it may be better just to restart it and run again.
+
+1120
+02:16:18,000 --> 02:16:20,000
+ Because this is a stochastic algorithm.
+
+1121
+02:16:20,000 --> 02:16:26,000
+ Stochastic means that every time you run it, you may get a different answer.
+
+1122
+02:16:27,000 --> 02:16:33,000
+ So, theoretically or in principle, basically, whenever you restart it, you are sampling.
+
+1123
+02:16:33,000 --> 02:16:35,000
+ Your sampling is quite different.
+
+1124
+02:16:35,000 --> 02:16:41,000
+ And the solution that you evolve into may also turn out to be different.
+
+1125
+02:16:45,000 --> 02:16:54,000
+ So, the other question would be, you generate the initial population randomly.
+
+1126
+02:16:55,000 --> 02:16:56,000
+ Correct?
+
+1127
+02:16:56,000 --> 02:16:57,000
+ Random.
+
+1128
+02:16:57,000 --> 02:17:00,000
+ No a priori knowledge.
+
+1129
+02:17:00,000 --> 02:17:01,000
+ It's just a random.
+
+1130
+02:17:01,000 --> 02:17:07,000
+ So, if it's random, chances are that the fitness is going to be very, very low.
+
+1131
+02:17:07,000 --> 02:17:09,000
+ No good.
+
+1132
+02:17:09,000 --> 02:17:15,000
+ So, you can assume that most of your GA would start at...
+
+1133
+02:17:17,000 --> 02:17:20,000
+ So, most of your GA would start at this point here.
+
+1134
+02:17:21,000 --> 02:17:24,000
+ Because it's random.
+
+1135
+02:17:24,000 --> 02:17:26,000
+ Very low fitness.
+
+1136
+02:17:26,000 --> 02:17:33,000
+ So, therefore, it begs the question, okay, would it help if I start off with better population?
+
+1137
+02:17:35,000 --> 02:17:37,000
+ Would it help?
+
+1138
+02:17:38,000 --> 02:17:40,000
+ Well, again, the answer is maybe.
+
+1139
+02:17:41,000 --> 02:17:42,000
+ Not necessary.
+
+1140
+02:17:42,000 --> 02:17:47,000
+ See, logic will tell you that if I start off with good ones, I should get better ones.
+
+1141
+02:17:47,000 --> 02:17:48,000
+ Right?
+
+1142
+02:17:48,000 --> 02:17:51,000
+ Well, the answer is not necessary.
+
+1143
+02:17:51,000 --> 02:17:52,000
+ Right?
+
+1144
+02:17:52,000 --> 02:17:58,000
+ So, which means to say, sometimes you have heuristics.
+
+1145
+02:17:58,000 --> 02:18:02,000
+ For example, in your travelling salesman problem, you have the greedy approach on the dystra.
+
+1146
+02:18:02,000 --> 02:18:04,000
+ So, that's very quick.
+
+1147
+02:18:04,000 --> 02:18:07,000
+ You can find a good solution quite quick.
+
+1148
+02:18:07,000 --> 02:18:13,000
+ So, if you have that approach, you could use that to start off the initial population.
+
+1149
+02:18:13,000 --> 02:18:14,000
+ Right?
+
+1150
+02:18:15,000 --> 02:18:19,000
+ So, the logic is that you start off on good ones.
+
+1151
+02:18:19,000 --> 02:18:23,000
+ So, therefore, you take a shorter time to find the best solution.
+
+1152
+02:18:23,000 --> 02:18:25,000
+ Sounds very logical, right?
+
+1153
+02:18:27,000 --> 02:18:28,000
+ Okay?
+
+1154
+02:18:28,000 --> 02:18:29,000
+ Perhaps there's a lot of truth.
+
+1155
+02:18:29,000 --> 02:18:30,000
+ It's possible.
+
+1156
+02:18:30,000 --> 02:18:31,000
+ Right?
+
+1157
+02:18:31,000 --> 02:18:34,000
+ But also, sometimes we don't really know.
+
+1158
+02:18:34,000 --> 02:18:36,000
+ Sometimes it depends on the problem.
+
+1159
+02:18:36,000 --> 02:18:37,000
+ Right?
+
+1160
+02:18:37,000 --> 02:18:40,000
+ So, when you think about it conceptually, right?
+
+1161
+02:18:40,000 --> 02:18:45,000
+ Your whole algorithm is a global search algorithm.
+
+1162
+02:18:45,000 --> 02:18:46,000
+ Okay?
+
+1163
+02:18:46,000 --> 02:18:49,000
+ So, in other words, your population is a sampling.
+
+1164
+02:18:49,000 --> 02:18:56,000
+ So, if you use heuristic, chances are you're confining your algorithm to a certain region.
+
+1165
+02:18:56,000 --> 02:18:57,000
+ Right?
+
+1166
+02:18:57,000 --> 02:19:06,000
+ So, if you confine it to a certain region, the global reach of it may not be as what you
+
+1167
+02:19:06,000 --> 02:19:07,000
+ expect it to be.
+
+1168
+02:19:07,000 --> 02:19:08,000
+ Right?
+
+1169
+02:19:08,000 --> 02:19:15,000
+ So, index sense from a conceptual or theoretical point may not necessarily be better.
+
+1170
+02:19:15,000 --> 02:19:16,000
+ Okay?
+
+1171
+02:19:16,000 --> 02:19:22,000
+ So, but many problems are solved using smart initialization.
+
+1172
+02:19:22,000 --> 02:19:23,000
+ Right?
+
+1173
+02:19:23,000 --> 02:19:29,000
+ In many of the design problems, quite often it's in order to circumvent the time that
+
+1174
+02:19:29,000 --> 02:19:31,000
+ it takes to solve the problem.
+
+1175
+02:19:31,000 --> 02:19:32,000
+ Right?
+
+1176
+02:19:32,000 --> 02:19:41,000
+ Many times, quite often we use method to create favorable or advantageous solutions to begin
+
+1177
+02:19:41,000 --> 02:19:44,000
+ with and then from there we evolve.
+
+1178
+02:19:44,000 --> 02:19:45,000
+ Okay?
+
+1179
+02:19:45,000 --> 02:19:52,000
+ So, your whole machine learning paradigm is also can be viewed in that sense.
+
+1180
+02:19:52,000 --> 02:19:57,000
+ So, nowadays you do a lot of incremental or transfer learning.
+
+1181
+02:19:57,000 --> 02:19:58,000
+ Correct?
+
+1182
+02:19:58,000 --> 02:20:03,000
+ So, for example, if you have a neural network, you train from scratch.
+
+1183
+02:20:03,000 --> 02:20:05,000
+ Of course, you can train from scratch.
+
+1184
+02:20:05,000 --> 02:20:08,000
+ Just start everything from ground zero.
+
+1185
+02:20:08,000 --> 02:20:09,000
+ Right?
+
+1186
+02:20:09,000 --> 02:20:14,000
+ What surprise you may have, you may take a long time especially if the training set is
+
+1187
+02:20:14,000 --> 02:20:15,000
+ very large.
+
+1188
+02:20:15,000 --> 02:20:16,000
+ Right?
+
+1189
+02:20:16,000 --> 02:20:21,000
+ So, instead of doing that, why don't you adopt an existing model?
+
+1190
+02:20:21,000 --> 02:20:22,000
+ Right?
+
+1191
+02:20:22,000 --> 02:20:28,000
+ And then take it from that strain, because that will be like your initial point.
+
+1192
+02:20:28,000 --> 02:20:29,000
+ Right?
+
+1193
+02:20:29,000 --> 02:20:33,000
+ So, in a way you have transferred a model to this and then you train it.
+
+1194
+02:20:33,000 --> 02:20:34,000
+ Right?
+
+1195
+02:20:34,000 --> 02:20:40,000
+ So, the concept is also quite similar in this sense.
+
+1196
+02:20:40,000 --> 02:20:41,000
+ Okay?
+
+1197
+02:20:41,000 --> 02:20:47,000
+ So, the general conclusion is that possibly good.
+
+1198
+02:20:47,000 --> 02:20:48,000
+ Right?
+
+1199
+02:20:48,000 --> 02:20:54,560
+ So, there are good heuristic or solution methods exist, but we need to be careful and that's
+
+1200
+02:20:54,560 --> 02:21:06,160
+ why in many sophisticated GA, there's a concept of hybridization or using different methods
+
+1201
+02:21:06,160 --> 02:21:07,160
+ to work together.
+
+1202
+02:21:07,160 --> 02:21:08,160
+ Okay?
+
+1203
+02:21:08,160 --> 02:21:16,000
+ So, my area of research on genetic algorithm is more on the hybridization aspect of it.
+
+1204
+02:21:16,000 --> 02:21:17,000
+ Okay?
+
+1205
+02:21:17,000 --> 02:21:29,000
+ Let's take a look at how we can perceive EA in the context of optimization.
+
+1206
+02:21:29,000 --> 02:21:30,000
+ Okay?
+
+1207
+02:21:30,000 --> 02:21:37,000
+ So, there are actually many views on GA and over time it has changed.
+
+1208
+02:21:37,000 --> 02:21:42,000
+ Over the years, the research on GA.
+
+1209
+02:21:42,000 --> 02:21:49,000
+ So, what we want is basically our goal is very simple.
+
+1210
+02:21:49,000 --> 02:21:52,000
+ We want a good robust method.
+
+1211
+02:21:52,000 --> 02:21:53,000
+ Right?
+
+1212
+02:21:53,000 --> 02:21:56,000
+ So, what does it mean good robust method?
+
+1213
+02:21:56,000 --> 02:22:02,000
+ It means you can work well over a big, huge set of problem.
+
+1214
+02:22:02,000 --> 02:22:03,000
+ Right?
+
+1215
+02:22:03,000 --> 02:22:04,000
+ The problem set.
+
+1216
+02:22:04,000 --> 02:22:06,000
+ Over a range of problems and instances.
+
+1217
+02:22:06,000 --> 02:22:07,000
+ Okay?
+
+1218
+02:22:07,000 --> 02:22:12,000
+ So, to put it another way, we want an algorithm that's good for all.
+
+1219
+02:22:12,000 --> 02:22:13,000
+ Right?
+
+1220
+02:22:13,000 --> 02:22:14,000
+ One size fits all.
+
+1221
+02:22:14,000 --> 02:22:15,000
+ Right?
+
+1222
+02:22:15,000 --> 02:22:18,000
+ Sounds logical, sounds reasonable.
+
+1223
+02:22:18,000 --> 02:22:19,000
+ Right?
+
+1224
+02:22:19,000 --> 02:22:20,000
+ That's all we want.
+
+1225
+02:22:20,000 --> 02:22:21,000
+ Okay?
+
+1226
+02:22:21,000 --> 02:22:29,000
+ So, let's see what, let's explore a little bit and see whether we can rethink this ideology
+
+1227
+02:22:29,000 --> 02:22:34,000
+ of looking for the blue sky or best algorithm.
+
+1228
+02:22:35,000 --> 02:22:41,000
+ So, the book by Goldberg is very commonly referred to text.
+
+1229
+02:22:41,000 --> 02:22:42,000
+ Right?
+
+1230
+02:22:42,000 --> 02:22:51,000
+ So, according to Goldberg, the typical behavior of your algorithms.
+
+1231
+02:22:51,000 --> 02:22:52,000
+ Right?
+
+1232
+02:22:52,000 --> 02:22:54,000
+ You can look at it this way.
+
+1233
+02:22:54,000 --> 02:22:56,000
+ This is your random search.
+
+1234
+02:22:56,000 --> 02:22:57,000
+ Right?
+
+1235
+02:22:57,000 --> 02:22:59,000
+ Your random search.
+
+1236
+02:22:59,000 --> 02:23:05,000
+ Compared to a special custom method.
+
+1237
+02:23:05,000 --> 02:23:06,000
+ Right?
+
+1238
+02:23:06,000 --> 02:23:15,000
+ So, what this means is your random search is generally weak.
+
+1239
+02:23:15,000 --> 02:23:19,000
+ It can work, but performance is generally weak.
+
+1240
+02:23:19,000 --> 02:23:26,000
+ So, when you customize your algorithm, it's going to work well, but because it's customized,
+
+1241
+02:23:26,000 --> 02:23:30,000
+ it's going to work very well for a class of problems.
+
+1242
+02:23:30,000 --> 02:23:36,000
+ So, notice in my plot here, you see the scale of all the problems.
+
+1243
+02:23:36,000 --> 02:23:39,000
+ And then on the vertical scale, there's a performance.
+
+1244
+02:23:39,000 --> 02:23:40,000
+ Right?
+
+1245
+02:23:40,000 --> 02:23:49,000
+ So, your random search compared to your custom or tailor-made method.
+
+1246
+02:23:49,000 --> 02:23:50,000
+ Right?
+
+1247
+02:23:50,000 --> 02:24:02,000
+ Generally, the tailor-made method performs well on a small set of class of problems.
+
+1248
+02:24:02,000 --> 02:24:05,000
+ What about GA?
+
+1249
+02:24:05,000 --> 02:24:06,000
+ Right?
+
+1250
+02:24:06,000 --> 02:24:09,000
+ GA is known to be robust.
+
+1251
+02:24:09,000 --> 02:24:10,000
+ Right?
+
+1252
+02:24:10,000 --> 02:24:17,000
+ So, robust means that it works reasonably well across all the problems.
+
+1253
+02:24:18,000 --> 02:24:20,000
+ So, it works reasonably well.
+
+1254
+02:24:20,000 --> 02:24:26,000
+ So, without saying, you know, it's quite obvious that it is much better than your random search.
+
+1255
+02:24:26,000 --> 02:24:27,000
+ Right?
+
+1256
+02:24:27,000 --> 02:24:31,000
+ So, that is how your EA is perceived.
+
+1257
+02:24:31,000 --> 02:24:41,000
+ So, that is back in 1989, you know, in the book by Goldberg.
+
+1258
+02:24:42,000 --> 02:24:43,000
+ Okay.
+
+1259
+02:24:43,000 --> 02:24:50,000
+ Let's take a, explore a different path towards EA.
+
+1260
+02:24:50,000 --> 02:24:51,000
+ Right?
+
+1261
+02:24:51,000 --> 02:24:55,000
+ What about if you know something about the problem?
+
+1262
+02:24:55,000 --> 02:24:56,000
+ Right?
+
+1263
+02:24:56,000 --> 02:25:00,000
+ If you know something about the problem, meaning you have domain knowledge about the problem.
+
+1264
+02:25:00,000 --> 02:25:01,000
+ Right?
+
+1265
+02:25:01,000 --> 02:25:04,000
+ Or you have special a priori knowledge about the problem.
+
+1266
+02:25:04,000 --> 02:25:05,000
+ Okay?
+
+1267
+02:25:05,000 --> 02:25:10,000
+ So, we look into EA's and domain knowledge.
+
+1268
+02:25:10,000 --> 02:25:22,000
+ So, the recent trend in the 90s, we have begun to, as GA advanced on more and more people
+
+1269
+02:25:22,000 --> 02:25:27,000
+ find that GA is useful in solving many different types of problems.
+
+1270
+02:25:27,000 --> 02:25:37,000
+ So, we begin to explore a class of evolutionary algorithm or approaches that incorporate knowledge
+
+1271
+02:25:37,000 --> 02:25:40,000
+ into it.
+
+1272
+02:25:40,000 --> 02:25:45,000
+ So, another term for it is to incorporate what we call the mimatic.
+
+1273
+02:25:45,000 --> 02:25:46,000
+ Right?
+
+1274
+02:25:46,000 --> 02:25:52,000
+ If you do a search on mimatic, then you will find the explanation of it has to do with
+
+1275
+02:25:52,000 --> 02:25:53,000
+ knowledge.
+
+1276
+02:25:53,000 --> 02:25:54,000
+ Okay?
+
+1277
+02:25:54,000 --> 02:26:03,000
+ So, we add problem specific knowledge to EA's like the special variation operators
+
+1278
+02:26:03,000 --> 02:26:05,000
+ or repair and so on.
+
+1279
+02:26:05,000 --> 02:26:06,000
+ Okay?
+
+1280
+02:26:06,000 --> 02:26:13,000
+ Now, because we add this information, so the GA is enhanced the performance of it.
+
+1281
+02:26:13,000 --> 02:26:19,000
+ So, therefore, we have, if you look in terms of the curve, we have what we call the curve
+
+1282
+02:26:19,000 --> 02:26:20,000
+ deformation.
+
+1283
+02:26:20,000 --> 02:26:25,000
+ So, the curve is going to be different from our typical EA.
+
+1284
+02:26:25,000 --> 02:26:28,000
+ Remember, I showed you the previous, right?
+
+1285
+02:26:28,000 --> 02:26:32,000
+ So, your EA like that.
+
+1286
+02:26:32,000 --> 02:26:33,000
+ Okay?
+
+1287
+02:26:33,000 --> 02:26:36,000
+ So, remember, our EA is going to incorporate domain.
+
+1288
+02:26:36,000 --> 02:26:37,000
+ Right?
+
+1289
+02:26:37,000 --> 02:26:38,000
+ It's going to be customized, you know?
+
+1290
+02:26:38,000 --> 02:26:40,000
+ There's going to be domain knowledge.
+
+1291
+02:26:40,000 --> 02:26:46,000
+ So, it should be able to solve problems in a more efficient way.
+
+1292
+02:26:46,000 --> 02:26:47,000
+ Right?
+
+1293
+02:26:47,000 --> 02:26:51,000
+ So, it's going to deform the curve.
+
+1294
+02:26:51,000 --> 02:26:52,000
+ Okay?
+
+1295
+02:26:52,000 --> 02:26:58,000
+ So, quite obviously, when you have this kind of knowledge incorporated, it's going to
+
+1296
+02:26:58,000 --> 02:27:00,000
+ solve that class of problems better.
+
+1297
+02:27:00,000 --> 02:27:01,000
+ Right?
+
+1298
+02:27:01,000 --> 02:27:03,000
+ So, this is what we designed it for.
+
+1299
+02:27:03,000 --> 02:27:04,000
+ Okay?
+
+1300
+02:27:04,000 --> 02:27:07,000
+ So, this curve deformation here, right?
+
+1301
+02:27:07,000 --> 02:27:16,000
+ What it's going to suggest is that you're going to come to the realization that if you're
+
+1302
+02:27:16,000 --> 02:27:22,000
+ looking for the all-purpose algorithm, right, you'll be very disappointed, right, according
+
+1303
+02:27:22,000 --> 02:27:23,000
+ to theory.
+
+1304
+02:27:23,000 --> 02:27:24,000
+ Okay?
+
+1305
+02:27:24,000 --> 02:27:31,000
+ So, let me explain what I mean by that.
+
+1306
+02:27:31,000 --> 02:27:40,000
+ So, in our typical GA, right, a simple GA, we've seen the performance quite good.
+
+1307
+02:27:40,000 --> 02:27:48,000
+ Well, EA2, as we incorporate a little bit of information or knowledge to it, well, the
+
+1308
+02:27:48,000 --> 02:27:50,000
+ curve deform, right?
+
+1309
+02:27:50,000 --> 02:28:00,000
+ It seems to be like it's better than for a small class of problems.
+
+1310
+02:28:00,000 --> 02:28:02,000
+ Right?
+
+1311
+02:28:02,000 --> 02:28:17,000
+ I wonder, that's a laser.
+
+1312
+02:28:17,000 --> 02:28:18,000
+ Okay.
+
+1313
+02:28:18,000 --> 02:28:19,000
+ So, EA2.
+
+1314
+02:28:19,000 --> 02:28:26,000
+ So, you can see the hum there.
+
+1315
+02:28:26,000 --> 02:28:32,000
+ It means that it does well for a certain smaller class of problems or certain class of problems.
+
+1316
+02:28:32,000 --> 02:28:33,000
+ Right?
+
+1317
+02:28:33,000 --> 02:28:43,000
+ Now, as you go more, right, let's say EA3, you incorporate even more domain knowledge,
+
+1318
+02:28:43,000 --> 02:28:46,000
+ so you're going to deform it even more, right?
+
+1319
+02:28:46,000 --> 02:28:51,000
+ It does better for that class of problems.
+
+1320
+02:28:51,000 --> 02:28:56,000
+ And you can go on and then EA4, right?
+
+1321
+02:28:56,000 --> 02:29:04,000
+ Now, I want you to take a look at this set of curves in a very visually intuitive way,
+
+1322
+02:29:04,000 --> 02:29:05,000
+ right?
+
+1323
+02:29:05,000 --> 02:29:13,000
+ If I say, imagine, this is a set of all problems, all.
+
+1324
+02:29:14,000 --> 02:29:16,000
+ Can you take note of the word, all?
+
+1325
+02:29:16,000 --> 02:29:18,000
+ All problems, right?
+
+1326
+02:29:18,000 --> 02:29:19,000
+ All.
+
+1327
+02:29:19,000 --> 02:29:20,000
+ Okay?
+
+1328
+02:29:20,000 --> 02:29:29,000
+ So, if you take the area and the curve, right, do you think that it looks like they could
+
+1329
+02:29:29,000 --> 02:29:31,000
+ be the same?
+
+1330
+02:29:31,000 --> 02:29:35,000
+ All problems, okay?
+
+1331
+02:29:35,000 --> 02:29:41,000
+ So, for all the problems, according to the curve, the way we draw it, you know, it looks
+
+1332
+02:29:41,000 --> 02:29:46,000
+ like if you look at the area, you know, visually intuitive way, it seems to be everything is
+
+1333
+02:29:46,000 --> 02:29:50,000
+ the same, you know, the area, you know, if you plot it big enough, right?
+
+1334
+02:29:50,000 --> 02:29:59,000
+ So, that means that, does that mean that all algorithms are the same?
+
+1335
+02:29:59,000 --> 02:30:04,000
+ The answer is yes, all right?
+
+1336
+02:30:04,000 --> 02:30:11,000
+ In 1997, Wolberg and McCreedy published a paper, what they called the No Free Lunch
+
+1337
+02:30:11,000 --> 02:30:12,000
+ Theorem.
+
+1338
+02:30:12,000 --> 02:30:13,000
+ No Free Lunch.
+
+1339
+02:30:13,000 --> 02:30:18,000
+ I don't have to explain what No Free Lunch means, right?
+
+1340
+02:30:18,000 --> 02:30:21,000
+ It's true in our real world, okay?
+
+1341
+02:30:21,000 --> 02:30:23,000
+ So, No Free Lunch, right?
+
+1342
+02:30:23,000 --> 02:30:31,000
+ What it simply means is that if you take the average across all the problems, all the algorithms
+
+1343
+02:30:31,000 --> 02:30:32,000
+ are the same.
+
+1344
+02:30:33,000 --> 02:30:41,000
+ Again, I know all the problems, all the algorithms are the same, okay?
+
+1345
+02:30:41,000 --> 02:30:45,000
+ Which goes back to my earlier assertion of what I said.
+
+1346
+02:30:45,000 --> 02:30:53,000
+ If you want to search, or you're looking for all purpose algorithm, doesn't exist, all
+
+1347
+02:30:53,000 --> 02:30:59,000
+ algorithms exist, all algorithms are the same, right?
+
+1348
+02:30:59,000 --> 02:31:05,000
+ And another enlightenment that comes out of this is that you want to solve a particular
+
+1349
+02:31:05,000 --> 02:31:07,000
+ class of problems, right?
+
+1350
+02:31:07,000 --> 02:31:13,000
+ So, it means that you must give that special advantage to it, right?
+
+1351
+02:31:13,000 --> 02:31:17,000
+ So, in other words, you understand the problem, right?
+
+1352
+02:31:17,000 --> 02:31:22,000
+ Incorporate, give it a special boost in terms of the knowledge about the problem.
+
+1353
+02:31:22,000 --> 02:31:25,000
+ So, that's what the theory tells us, right?
+
+1354
+02:31:25,000 --> 02:31:30,000
+ So, we call that the No Free Lunch in optimization, right?
+
+1355
+02:31:30,000 --> 02:31:32,000
+ It's a well-known theory, okay?
+
+1356
+02:31:32,000 --> 02:31:38,000
+ If you talk to people who do optimization, they know what it means, okay?
+
+1357
+02:31:40,000 --> 02:31:47,000
+ Or another way, you say, ah, your boss said, give me the algorithm that works for all, right?
+
+1358
+02:31:47,000 --> 02:31:51,000
+ Then you can take out this, show him the No Free Lunch, right?
+
+1359
+02:31:51,000 --> 02:31:54,000
+ No Free Lunch, all right?
+
+1360
+02:32:01,000 --> 02:32:02,000
+ Okay.
+
+1361
+02:32:03,000 --> 02:32:10,000
+ So, you understand what is global optimization, right?
+
+1362
+02:32:10,000 --> 02:32:15,000
+ So, there are many methods that are not doing global search.
+
+1363
+02:32:16,000 --> 02:32:20,000
+ Many heuristic approach are what we call local search, right?
+
+1364
+02:32:20,000 --> 02:32:23,000
+ You know, you understand?
+
+1365
+02:32:23,000 --> 02:32:26,000
+ Global search means to search, right?
+
+1366
+02:32:26,000 --> 02:32:34,000
+ So, some problems are so complex, you know, just the thought of global search may not be practical, okay?
+
+1367
+02:32:35,000 --> 02:32:44,000
+ So, global optimization search for finding the best solution, X out of some finite set,
+
+1368
+02:32:44,000 --> 02:32:50,000
+ S in your solution set, landscape is finite, right?
+
+1369
+02:32:50,000 --> 02:32:54,000
+ For example, the combinatorial optimization problem, right?
+
+1370
+02:32:54,000 --> 02:33:02,000
+ In your 1000-city traveling sales room problem, it is finite, but it's very huge, right?
+
+1371
+02:33:02,000 --> 02:33:05,000
+ The possible solutions.
+
+1372
+02:33:06,000 --> 02:33:11,000
+ So, you have two requests.
+
+1373
+02:33:11,000 --> 02:33:23,000
+ One is deterministic approach or your classical optimization approach.
+
+1374
+02:33:23,000 --> 02:33:28,000
+ And the one you guarantee to find a solution is mainly a sequential search, right?
+
+1375
+02:33:28,000 --> 02:33:34,000
+ So, you search, you follow, you guarantee the solution, okay?
+
+1376
+02:33:34,000 --> 02:33:37,000
+ Now, the other is more like a heuristic approach, right?
+
+1377
+02:33:37,000 --> 02:33:45,000
+ Heuristic, and these days, of course, we have our method heuristics like a genetic algorithm, okay?
+
+1378
+02:33:45,000 --> 02:33:49,000
+ So, heuristic approach belongs to what we call the generate and test, right?
+
+1379
+02:33:49,000 --> 02:33:56,000
+ You generate, you test it, see how good it is, and then based on that, you decide your next move and so on, right?
+
+1380
+02:33:56,000 --> 02:34:00,000
+ Heuristic approach, okay?
+
+1381
+02:34:00,000 --> 02:34:02,000
+ No guarantee.
+
+1382
+02:34:02,000 --> 02:34:08,000
+ No guarantee that best solutions found are globally optimal, right?
+
+1383
+02:34:08,000 --> 02:34:11,000
+ Okay?
+
+1384
+02:34:11,000 --> 02:34:14,000
+ In your deterministic, right?
+
+1385
+02:34:14,000 --> 02:34:18,000
+ In theory, you can, but practically, you will never, it can never happen,
+
+1386
+02:34:18,000 --> 02:34:22,000
+ especially the problem is complex enough, right?
+
+1387
+02:34:22,000 --> 02:34:25,000
+ So, what does that mean?
+
+1388
+02:34:25,000 --> 02:34:31,000
+ You will take the view of comparison between the deterministic approach and the heuristic approach.
+
+1389
+02:34:31,000 --> 02:34:38,000
+ Basically, your attitude towards problem solving goes like this, right?
+
+1390
+02:34:38,000 --> 02:34:45,000
+ The deterministic approach, basically, what you're saying is that, okay, I don't really care if it works.
+
+1391
+02:34:45,000 --> 02:34:48,000
+ As long as it converges, right?
+
+1392
+02:34:48,000 --> 02:34:51,000
+ It's guaranteed, right?
+
+1393
+02:34:51,000 --> 02:34:59,000
+ You follow the exercent path, sequential search, put, it's guaranteed, right?
+
+1394
+02:34:59,000 --> 02:35:04,000
+ As compared to like your heuristic, like your GA, right?
+
+1395
+02:35:04,000 --> 02:35:11,000
+ So, you must understand, basically, your attitude is like this, I don't care if it converges, right?
+
+1396
+02:35:11,000 --> 02:35:16,000
+ As long as it works, that's the attitude you're adopting, right?
+
+1397
+02:35:16,000 --> 02:35:21,000
+ That is what GA means, okay?
+
+1398
+02:35:21,000 --> 02:35:26,000
+ So, I used to do consulting for some defense organizations, right?
+
+1399
+02:35:26,000 --> 02:35:33,000
+ So, quite often when I talk to them, they would ask me, can I guarantee, you know,
+
+1400
+02:35:33,000 --> 02:35:36,000
+ because I do work in this area, right?
+
+1401
+02:35:36,000 --> 02:35:43,000
+ So, a lot of time, my methods will be more of an evolutionary kind of methods or algorithm.
+
+1402
+02:35:43,000 --> 02:35:50,000
+ So, the question always, because it's defense-related, so they say, can you guarantee, right?
+
+1403
+02:35:50,000 --> 02:35:59,000
+ Can you guarantee the run time and also, like, within certain level of performance?
+
+1404
+02:35:59,000 --> 02:36:04,000
+ And the answer is, no, I cannot 100% guarantee, right?
+
+1405
+02:36:04,000 --> 02:36:09,000
+ But maybe, 99.9%.
+
+1406
+02:36:09,000 --> 02:36:14,000
+ Now, because there are defense people, they say, wow, in your mind, right?
+
+1407
+02:36:14,000 --> 02:36:23,000
+ There's still that possibility of not being able to find a solution, right?
+
+1408
+02:36:23,000 --> 02:36:28,000
+ So, what I want to say is that, you know, that is when you do GA, right?
+
+1409
+02:36:28,000 --> 02:36:31,000
+ This is basically what it means, okay?
+
+1410
+02:36:31,000 --> 02:36:34,000
+ So, you know that it works, right?
+
+1411
+02:36:34,000 --> 02:36:37,000
+ You've done it time and time again, you know it works.
+
+1412
+02:36:37,000 --> 02:36:45,000
+ But in theory, you know that you cannot prove, absolutely, like, you know, it will converge, right?
+
+1413
+02:36:45,000 --> 02:36:57,000
+ Okay, that is a whole so-called scenario or situation.
+
+1414
+02:36:57,000 --> 02:37:04,000
+ Okay, let's try and see what it means by neighborhood.
+
+1415
+02:37:04,000 --> 02:37:11,000
+ So, many heuristics impose a neighborhood structure on S, okay?
+
+1416
+02:37:11,000 --> 02:37:14,000
+ So, there are many heuristics that you know about.
+
+1417
+02:37:14,000 --> 02:37:20,000
+ Many of it are hill climbing type of heuristics.
+
+1418
+02:37:20,000 --> 02:37:25,000
+ So, basically, when you do hill climbing, you're looking for your neighbor, right?
+
+1419
+02:37:25,000 --> 02:37:30,000
+ That has better, something that's close to you.
+
+1420
+02:37:30,000 --> 02:37:43,000
+ And as compared to your other methods, EAs are used population.
+
+1421
+02:37:43,000 --> 02:37:47,000
+ So, you use multiple stochastic search, right?
+
+1422
+02:37:47,000 --> 02:37:54,000
+ And then variation operators with RIT greater than one and stochastic selection.
+
+1423
+02:37:54,000 --> 02:38:02,000
+ So, what you can see is that the ideology between EA and heuristics is quite different, right?
+
+1424
+02:38:02,000 --> 02:38:14,000
+ In heuristics, it is very sequential, local search methodology, okay?
+
+1425
+02:38:14,000 --> 02:38:19,000
+ Now, when you say neighborhood, right?
+
+1426
+02:38:19,000 --> 02:38:25,000
+ What do you understand by neighbor?
+
+1427
+02:38:25,000 --> 02:38:28,000
+ So, it's close to each other, correct?
+
+1428
+02:38:28,000 --> 02:38:30,000
+ Neighborhood, right?
+
+1429
+02:38:30,000 --> 02:38:44,000
+ Now, if you think in the context of GA, what are the possibilities of your definition of what neighbor means?
+
+1430
+02:38:44,000 --> 02:38:47,000
+ Now, here's what I'm leading to, you know?
+
+1431
+02:38:47,000 --> 02:38:53,000
+ Is that concept of neighborhood, does it mean the fitness?
+
+1432
+02:38:53,000 --> 02:38:55,000
+ I think you see it not necessary, right?
+
+1433
+02:38:55,000 --> 02:39:01,000
+ There's just one possibility or one dimension of what you mean by neighbor.
+
+1434
+02:39:01,000 --> 02:39:10,000
+ For example, fitness of 0.71 and 0.711, you can say there's a neighbor based on the fitness, right?
+
+1435
+02:39:10,000 --> 02:39:13,000
+ But is it always the case, you know?
+
+1436
+02:39:13,000 --> 02:39:22,000
+ It could be that when you convert it to the phenotypic space, it shows a very drastic difference, right?
+
+1437
+02:39:22,000 --> 02:39:27,000
+ It could be in terms of the performance of the system that you are trying to design, okay?
+
+1438
+02:39:27,000 --> 02:39:31,000
+ So, what I want to say is this, you know?
+
+1439
+02:39:31,000 --> 02:39:35,000
+ The concept of neighborhood, right?
+
+1440
+02:39:35,000 --> 02:39:42,000
+ In GA, you should not take it in a very narrow perspective, right?
+
+1441
+02:39:42,000 --> 02:39:45,000
+ Another example, if you look at two strings, all right?
+
+1442
+02:39:45,000 --> 02:39:49,000
+ So, two strings, does that mean that one bit is different?
+
+1443
+02:39:49,000 --> 02:39:54,000
+ They are neighbor or based on some hamming distance?
+
+1444
+02:39:54,000 --> 02:39:58,000
+ I think quite logically, you will see that, of course, not necessarily the case, right?
+
+1445
+02:39:58,000 --> 02:40:02,000
+ It all depends on the so-called problem, okay?
+
+1446
+02:40:02,000 --> 02:40:11,000
+ So, when you incorporate neighborhood search in your GA, you must do it with an understanding of what constituted neighborhood search.
+
+1447
+02:40:12,000 --> 02:40:20,000
+ In the context of the problem that you are trying to solve, okay?
+
+1448
+02:40:20,000 --> 02:40:21,000
+ All right?
+
+1449
+02:40:21,000 --> 02:40:26,000
+ So, the next thing we want to cover is on the representation, right?
+
+1450
+02:40:26,000 --> 02:40:35,000
+ So, this part, I think probably will be quite straightforward, most parts of it.
+
+1451
+02:40:35,000 --> 02:40:39,000
+ We won't go too very deep into it.
+
+1452
+02:40:39,000 --> 02:40:42,000
+ But let's just start on the first one.
+
+1453
+02:40:42,000 --> 02:40:46,000
+ And then after that, you can go back and rest, okay?
+
+1454
+02:40:46,000 --> 02:40:51,000
+ So, go back to the so-called general scheme of EA again, all right?
+
+1455
+02:40:51,000 --> 02:40:59,000
+ So, we are talking about representation, so, mutation and recombination.
+
+1456
+02:40:59,000 --> 02:41:04,000
+ So, let's talk about representation, all right?
+
+1457
+02:41:04,000 --> 02:41:10,000
+ So, the role of representation and variation operators.
+
+1458
+02:41:10,000 --> 02:41:19,000
+ So, the common type of representation, your binary, I have quite often used binary as example.
+
+1459
+02:41:19,000 --> 02:41:25,000
+ Integer, real value of loading point, and then permutation.
+
+1460
+02:41:25,000 --> 02:41:27,000
+ We also talk about permutation.
+
+1461
+02:41:27,000 --> 02:41:30,000
+ And finally, the tree, all right?
+
+1462
+02:41:31,000 --> 02:41:40,000
+ So, representation is the first step of your GA.
+
+1463
+02:41:40,000 --> 02:41:42,000
+ You have a problem to solve.
+
+1464
+02:41:42,000 --> 02:41:52,000
+ The first thing you need to talk about is how to represent or code the solution.
+
+1465
+02:41:52,000 --> 02:41:53,000
+ All right?
+
+1466
+02:41:53,000 --> 02:42:01,000
+ So, this is the first stage of building an EA, and can be the most difficult one, all right?
+
+1467
+02:42:01,000 --> 02:42:07,000
+ So, therefore, we have to choose the right representation for the problem.
+
+1468
+02:42:07,000 --> 02:42:12,000
+ And also, we need to think about the variation operators.
+
+1469
+02:42:12,000 --> 02:42:21,000
+ Depending on the representation, we also have to choose or incorporate suitable variation operators.
+
+1470
+02:42:21,000 --> 02:42:22,000
+ Okay?
+
+1471
+02:42:22,000 --> 02:42:26,000
+ So, it all depends on the type of representation.
+
+1472
+02:42:26,000 --> 02:42:32,000
+ So, you can just think about the TSP problem.
+
+1473
+02:42:32,000 --> 02:42:39,000
+ So, if the TSP problem, if you understand what a TSP problem is, there's a traveling salesman problem.
+
+1474
+02:42:39,000 --> 02:42:48,000
+ What would make a good representation for the TSP?
+
+1475
+02:42:48,000 --> 02:42:56,000
+ I think most of you would have in your mind, oh, the permutation string seems like a good choice, all right?
+
+1476
+02:42:56,000 --> 02:43:01,000
+ Because the requirement says that it is to visit each and every city once and only once.
+
+1477
+02:43:01,000 --> 02:43:03,000
+ So, you have 10 cities, right?
+
+1478
+02:43:03,000 --> 02:43:08,000
+ Each of the cities should occur only once.
+
+1479
+02:43:08,000 --> 02:43:12,000
+ So, that could be like a permutation string, all right?
+
+1480
+02:43:12,000 --> 02:43:15,000
+ But does that mean that that is the only way?
+
+1481
+02:43:15,000 --> 02:43:17,000
+ Obviously not, all right?
+
+1482
+02:43:17,000 --> 02:43:19,000
+ But let's think about it the other ways.
+
+1483
+02:43:19,000 --> 02:43:23,000
+ Well, first the question is, which is better, all right?
+
+1484
+02:43:23,000 --> 02:43:27,000
+ Okay?
+
+1485
+02:43:27,000 --> 02:43:30,000
+ And binary representation, all right?
+
+1486
+02:43:30,000 --> 02:43:35,000
+ To go from phenotype space to your genotype space, all right?
+
+1487
+02:43:35,000 --> 02:43:44,000
+ So, from phenotype space to genotype, it is your, it is the encoding, all right?
+
+1488
+02:43:44,000 --> 02:43:50,000
+ And then from the genotype to your phenotype space, there's the decoding.
+
+1489
+02:43:50,000 --> 02:44:05,000
+ So, in the encoding part, because it's binary, basically the value set of the allele, the value set, all right, is either 0 or 1, is binary, all right?
+
+1490
+02:44:05,000 --> 02:44:08,000
+ The value set of it is from 0 to 1.
+
+1491
+02:44:08,000 --> 02:44:13,000
+ So, this L corresponds to the length, all right?
+
+1492
+02:44:13,000 --> 02:44:18,000
+ It's a value set over, you could say, like the L dimension.
+
+1493
+02:44:22,000 --> 02:44:23,000
+ Okay?
+
+1494
+02:44:23,000 --> 02:44:29,000
+ And then mutation, we alter each gene independently with a probability Pm, all right?
+
+1495
+02:44:29,000 --> 02:44:32,000
+ Pm is the mutation rate.
+
+1496
+02:44:32,000 --> 02:44:51,000
+ So, a good guideline is the probability of mutation rate is between 1 over your population size and 1, the range of 1 over your population size and 1 over the chromosome length, all right?
+
+1497
+02:44:51,000 --> 02:44:56,000
+ So, the way you apply mutation goes like this, all right?
+
+1498
+02:44:56,000 --> 02:45:00,000
+ So, this is your parent.
+
+1499
+02:45:00,000 --> 02:45:08,000
+ So, I go to each gene, I flip the mutation coin.
+
+1500
+02:45:08,000 --> 02:45:11,000
+ Mutation coin say, yes, mutate, then I change.
+
+1501
+02:45:11,000 --> 02:45:15,000
+ Mutation coin say, no, I don't change, all right?
+
+1502
+02:45:15,000 --> 02:45:20,000
+ So, this probability, of course, is specified here depending on the mutation rate.
+
+1503
+02:45:20,000 --> 02:45:23,000
+ So, I go according to each gene, all right?
+
+1504
+02:45:23,000 --> 02:45:36,000
+ So, if they are 20 here, 20 times I flip the mutation gene, mutation coin to decide whether to mutate or not.
+
+1505
+02:45:36,000 --> 02:45:40,000
+ So, mutation can cause wearable effect, all right?
+
+1506
+02:45:40,000 --> 02:45:44,000
+ So, we can consider using gray coding, all right?
+
+1507
+02:45:44,000 --> 02:45:49,000
+ So, maybe let's go back here.
+
+1508
+02:45:50,000 --> 02:45:55,000
+ So, when you have a binary string like that, right?
+
+1509
+02:45:55,000 --> 02:46:02,000
+ Let's say your binary string, your binary string.
+
+1510
+02:46:02,000 --> 02:46:04,000
+ So, this is one string.
+
+1511
+02:46:04,000 --> 02:46:11,000
+ So, let's say your binary string converts to, in your phenotype, is an integer value.
+
+1512
+02:46:11,000 --> 02:46:13,000
+ You understand?
+
+1513
+02:46:13,000 --> 02:46:23,000
+ Now, my question to you is, if I flip the first bit as compared to the last bit, this is a mutation, right?
+
+1514
+02:46:23,000 --> 02:46:26,000
+ Mutation means to flip the bit.
+
+1515
+02:46:26,000 --> 02:46:38,000
+ So, if I flip the first bit, the first bit here, compared to the last bit, which one do you think has more effect?
+
+1516
+02:46:38,000 --> 02:46:41,000
+ Obviously, the first one, all right?
+
+1517
+02:46:41,000 --> 02:46:43,000
+ Because it converts to integer, all right?
+
+1518
+02:46:43,000 --> 02:46:45,000
+ So, the first one has more effect.
+
+1519
+02:46:45,000 --> 02:46:53,000
+ So, what does that go in terms of what our philosophy of what mutation is?
+
+1520
+02:46:53,000 --> 02:46:55,000
+ Small variable change, all right?
+
+1521
+02:46:55,000 --> 02:46:57,000
+ Small variable change.
+
+1522
+02:46:57,000 --> 02:47:01,000
+ So, in that sense, it has that bias, all right?
+
+1523
+02:47:01,000 --> 02:47:07,000
+ This mutation has a bias, you understand?
+
+1524
+02:47:07,000 --> 02:47:15,000
+ So, again, this binary string converts to integer, right?
+
+1525
+02:47:15,000 --> 02:47:17,000
+ Converts to integer.
+
+1526
+02:47:17,000 --> 02:47:20,000
+ So, the first bit is the most significant bit.
+
+1527
+02:47:20,000 --> 02:47:26,000
+ Now, in my mutation, I say, each bit, you flip the mutation coin, right?
+
+1528
+02:47:26,000 --> 02:47:30,000
+ So, if mutation coin say yes, you flip from 1 to 0.
+
+1529
+02:47:30,000 --> 02:47:36,000
+ So, if I take the first bit and the last bit here,
+
+1530
+02:47:36,000 --> 02:47:43,000
+ then there's more effect, the first one, all right?
+
+1531
+02:47:43,000 --> 02:47:54,000
+ So, the point is that in your mutation also, sometimes, I know if some of you have implemented GA, it works.
+
+1532
+02:47:54,000 --> 02:48:03,000
+ But you may not realize that your mutation may not be the so-called mutation, the ideal mutation that you want.
+
+1533
+02:48:03,000 --> 02:48:06,000
+ But your algorithm still works, all right?
+
+1534
+02:48:06,000 --> 02:48:22,000
+ But perhaps it is better if your mutation does take into account that possibility of so-called causing too much variation.
+
+1535
+02:48:22,000 --> 02:48:23,000
+ All right?
+
+1536
+02:48:23,000 --> 02:48:26,000
+ Cross-over can be very simple, all right?
+
+1537
+02:48:26,000 --> 02:48:33,000
+ So, in the earlier versions of GA, it usually occurred with probability in the old days, it's quite common.
+
+1538
+02:48:33,000 --> 02:48:37,000
+ Or in the earlier versions of GA, seems quite common.
+
+1539
+02:48:37,000 --> 02:48:42,000
+ It is 60% or 90%, you know?
+
+1540
+02:48:42,000 --> 02:48:43,000
+ Okay?
+
+1541
+02:48:43,000 --> 02:48:47,000
+ So, you can see how it works through this illustration here, all right?
+
+1542
+02:48:47,000 --> 02:48:54,000
+ Very simple process.
+
+1543
+02:48:54,000 --> 02:48:55,000
+ Okay?
+
+1544
+02:48:55,000 --> 02:49:02,000
+ So, cross-over also, there are many possibilities of cross-over, okay?
+
+1545
+02:49:02,000 --> 02:49:14,000
+ Also, take note, the design of a cross-over operation is a possibility of what we call the positional bias or so, all right?
+
+1546
+02:49:14,000 --> 02:49:19,000
+ Depending on positional bias, for example, your whole string.
+
+1547
+02:49:19,000 --> 02:49:25,000
+ Because your cross-over is such that you decide on the side where you cut, all right?
+
+1548
+02:49:25,000 --> 02:49:28,000
+ So, you cut at a certain point.
+
+1549
+02:49:28,000 --> 02:49:35,000
+ So, what happens is that no matter how you cut, the first and the last one, those tending towards the end, all right?
+
+1550
+02:49:35,000 --> 02:49:37,000
+ Will never be affected.
+
+1551
+02:49:37,000 --> 02:49:41,000
+ So, there's no way to actually alter, all right?
+
+1552
+02:49:41,000 --> 02:49:46,000
+ So, in your crossing over, because you're trying to create variation, you understand?
+
+1553
+02:49:46,000 --> 02:49:50,000
+ So, remember your cross-over recombination, you're trying to create a variation.
+
+1554
+02:49:50,000 --> 02:50:04,000
+ But yet, because of positional bias, certain variations cannot be affected or cannot happen, okay?
+
+1555
+02:50:04,000 --> 02:50:05,000
+ All right?
+
+1556
+02:50:05,000 --> 02:50:08,000
+ You can also explore endpoint crossover, okay?
+
+1557
+02:50:08,000 --> 02:50:12,000
+ I think this figure should illustrate what it means, okay?
+
+1558
+02:50:13,000 --> 02:50:18,000
+ So, uniform crossover.
+
+1559
+02:50:18,000 --> 02:50:25,000
+ And so, let's do one more slide here.
+
+1560
+02:50:25,000 --> 02:50:31,000
+ So, you have cross-over and mutation.
+
+1561
+02:50:31,000 --> 02:50:34,000
+ There's a long debate which one is better, all right?
+
+1562
+02:50:34,000 --> 02:50:37,000
+ Is it necessary?
+
+1563
+02:50:37,000 --> 02:50:44,000
+ So, go back to the GA when it was introduced, all right?
+
+1564
+02:50:44,000 --> 02:50:49,000
+ The main innovation was the crossing over, all right?
+
+1565
+02:50:49,000 --> 02:50:52,000
+ So, obviously, it has done a lot of good, all right?
+
+1566
+02:50:52,000 --> 02:50:57,000
+ Because I think from then on, GA became very popular, all right?
+
+1567
+02:50:57,000 --> 02:51:01,000
+ So, which one is more important?
+
+1568
+02:51:01,000 --> 02:51:04,000
+ Well, it really depends, all right?
+
+1569
+02:51:04,000 --> 02:51:06,000
+ It really depends, see?
+
+1570
+02:51:06,000 --> 02:51:08,000
+ In my view, all right?
+
+1571
+02:51:08,000 --> 02:51:11,000
+ In my view, the end-quins problem, all right?
+
+1572
+02:51:11,000 --> 02:51:16,000
+ This is from experience because I do a lot of end-quins problem, up to a thousand queens and so on.
+
+1573
+02:51:16,000 --> 02:51:23,000
+ Mutation kind of variation seems to give good results, right?
+
+1574
+02:51:23,000 --> 02:51:24,000
+ High mutation.
+
+1575
+02:51:24,000 --> 02:51:32,000
+ So, in that sense, I would say mutation seems to be a little bit more important, or seems to be more important than crossover, okay?
+
+1576
+02:51:32,000 --> 02:51:35,000
+ But the general consensus is that it really depends, all right?
+
+1577
+02:51:35,000 --> 02:51:41,000
+ We should not put ourselves in a position, oh, definitely crossover is better or mutation is better, all right?
+
+1578
+02:51:41,000 --> 02:51:44,000
+ So, both has its role, okay?
+
+1579
+02:51:44,000 --> 02:51:49,000
+ But having said that, I think if you only have one, all right?
+
+1580
+02:51:49,000 --> 02:51:57,000
+ If you only have one mutation, would be the one, okay?
+
+1581
+02:51:57,000 --> 02:52:02,000
+ Recombination alone will not work.
+
+1582
+02:52:02,000 --> 02:52:10,000
+ You can prove to yourself just with mutationary kind of operation in your end-quins, it should work, all right?
+
+1583
+02:52:10,000 --> 02:52:19,000
+ But with recombination, just selection and then recombination, it won't work, all right?
+
+1584
+02:52:19,000 --> 02:52:20,000
+ Okay?
+
+1585
+02:52:20,000 --> 02:52:29,000
+ So, I'm dragging a little bit, but anyway, let's call this, let's make it a night, and then we can go back and rest, all right?
+
+1586
+02:52:29,000 --> 02:52:31,000
+ See you next week.
+
+1587
+02:52:32,000 --> 02:52:34,000
+ Thank you.
+
+1588
+02:53:02,000 --> 02:53:05,000
+ Thank you.
+
+1589
+02:53:32,000 --> 02:53:35,000
+ Thank you.
+
+1590
+02:54:02,000 --> 02:54:05,000
+ Thank you.
+
+1591
+02:54:32,000 --> 02:54:35,000
+ Thank you.
+
+1592
+02:55:02,000 --> 02:55:05,000
+ Thank you.
+
+1593
+02:55:32,000 --> 02:55:35,000
+ Thank you.
+
+1594
+02:56:02,000 --> 02:56:05,000
+ Thank you.
+
+1595
+02:56:32,000 --> 02:56:35,000
+ Thank you.
+
+1596
+02:57:02,000 --> 02:57:04,000
+ Thank you.
+
+1597
+02:57:32,000 --> 02:57:34,000
+ Thank you.
+
+1598
+02:58:02,000 --> 02:58:04,000
+ Thank you.
+
+1599
+02:58:32,000 --> 02:58:34,000
+ Thank you.
+
+1600
+02:59:02,000 --> 02:59:04,000
+ Thank you.
+
+1601
+02:59:32,000 --> 02:59:34,000
+ Thank you.
+

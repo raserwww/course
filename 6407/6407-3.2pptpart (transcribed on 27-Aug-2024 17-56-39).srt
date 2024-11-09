@@ -1,0 +1,2244 @@
+1
+00:00:00,000 --> 00:00:02,000
+ you
+
+2
+00:00:30,000 --> 00:00:32,000
+ you
+
+3
+00:01:00,000 --> 00:01:02,000
+ you
+
+4
+00:01:30,000 --> 00:01:32,000
+ you
+
+5
+00:02:00,000 --> 00:02:02,000
+ you
+
+6
+00:02:30,000 --> 00:02:32,000
+ you
+
+7
+00:03:00,000 --> 00:03:02,000
+ you
+
+8
+00:03:30,000 --> 00:03:32,000
+ you
+
+9
+00:04:00,000 --> 00:04:02,000
+ you
+
+10
+00:04:30,000 --> 00:04:32,000
+ you
+
+11
+00:04:40,000 --> 00:04:44,000
+ okay good morning
+
+12
+00:04:44,000 --> 00:04:52,000
+ so we all said it's the third lecture and the last lecture on my part
+
+13
+00:04:52,000 --> 00:04:58,000
+ so tomorrow you have a quiz so tomorrow evening
+
+14
+00:04:58,000 --> 00:05:06,000
+ right so all the information is already put up on and you learn
+
+15
+00:05:06,000 --> 00:05:27,000
+ so got a few emails asking about what type of questions you know so just to be clear everybody on the same footing right I don't answer individually but just to make it clear it includes multiple choice or I won't exactly say multiple choice you know
+
+16
+00:05:27,000 --> 00:05:43,000
+ it could be multiple choice or true and false right and also a little bit of calculations where there's writing and I also posted on until you learn that you need a calculator
+
+17
+00:05:43,000 --> 00:05:49,000
+ that kind of tell you that there will be some calculations involved isn't it?
+
+18
+00:05:49,000 --> 00:06:07,000
+ alright so you have to bring your own calculator and short answer kind of questions right a little bit of description not too much right so that will be the kind of format or one you expect
+
+19
+00:06:07,000 --> 00:06:21,000
+ I think more importantly is that you can be assured that whatever is asked is very related or closely related to what they have covered on lecture one and lecture two
+
+20
+00:06:21,000 --> 00:06:36,000
+ alright so if you have understood what we did on one and two I think you should I mean really understand it alright so then I think you should be alright okay
+
+21
+00:06:36,000 --> 00:06:56,000
+ and so today we carry on and I probably as I mentioned earlier on I definitely will not cover everything that I've given to you in terms of the materials or lecture materials right
+
+22
+00:06:56,000 --> 00:07:20,000
+ so wherever I stop that is what you are accountable for in terms of exam okay so today I have a very specific agenda I want to do up to the representation of GA right the rest of it I think we will just put a site for your own reference
+
+23
+00:07:21,000 --> 00:07:27,000
+ so I'd like to start off by doing a recap again
+
+24
+00:07:31,000 --> 00:07:42,000
+ so this was what we did on the first one and then on the second lecture I think you look at the
+
+25
+00:07:50,000 --> 00:07:52,000
+ it's not connected
+
+26
+00:08:02,000 --> 00:08:04,000
+ could they have a check list you know
+
+27
+00:08:04,000 --> 00:08:06,000
+ what to come
+
+28
+00:08:17,000 --> 00:08:29,000
+ okay let's do a quick recap on what we did in the last week alright so we began to look we went in the so-called what is GA, GA framework you know
+
+29
+00:08:29,000 --> 00:08:40,000
+ and as I said it so many times you know I think one of the things you got to appreciate is that okay that's the framework that's the model that you will see of what the GA is all about
+
+30
+00:08:40,000 --> 00:08:49,000
+ and there are three blocks there you know and specifically what you're looking at is a picture like this
+
+31
+00:08:50,000 --> 00:09:07,000
+ so between those three blocks there you have your population your parents and so-called your offspring you know you see the interlink between the three right that's what you need to be able to see in terms of what the GA framework is all about
+
+32
+00:09:08,000 --> 00:09:19,000
+ then you begin to understand the flow right I'm pretty sure if you see this picture it is not very difficult to see the logical flow of what GA is trying to do
+
+33
+00:09:19,000 --> 00:09:39,000
+ and just to give you an idea of how the whole GA process is all about what kind of parameters or what kind of operations is involved we look at the N-quinn from representation to implementation
+
+34
+00:09:39,000 --> 00:09:54,000
+ okay today our focus is more on representation alright today this lecture it won't be the full lecture just to be just to equalize if another group which is in the evening will only have half a class
+
+35
+00:09:55,000 --> 00:10:03,000
+ so we look at the N-quinn right and I as I mentioned before N-quinn is a very simple problem everybody can understand
+
+36
+00:10:03,000 --> 00:10:10,000
+ and I'm very sure if you explain to somebody what the N-quinn is I think in one minute you can explain what it's all about
+
+37
+00:10:11,000 --> 00:10:22,000
+ okay but in any case N-quinn is a very famous problem that was proposed to demonstrate what we call the backtracking process
+
+38
+00:10:22,000 --> 00:10:40,000
+ okay we understand that to map from the real world to the programming or the coding of the GA the first thing we need to address is how to represent the problem
+
+39
+00:10:41,000 --> 00:10:50,000
+ and on that note I think you see very clearly between the phenotype and the genotype how to go from the phenotype to the genotype
+
+40
+00:10:50,000 --> 00:10:59,000
+ alright by the same token if you can go from phenotype to the genotype you should be able to go from the genotype to the phenotype
+
+41
+00:10:59,000 --> 00:11:09,000
+ so on that note we say it's encoding right phenotype to genotype and then decoding
+
+42
+00:11:09,000 --> 00:11:19,000
+ alright so from phenotype to genotype many to one there are many different ways you can encode it there's no one only one absolute way
+
+43
+00:11:19,000 --> 00:11:35,000
+ but from the phenotype to the phenotype it must be to one right it's a one to one mapping okay what is genotype when you decode it it must mean specifically
+
+44
+00:11:35,000 --> 00:11:48,000
+ the genotype the expression of what the chromosome or representation is so you got to do it such that it suits the problem
+
+45
+00:11:48,000 --> 00:12:06,000
+ so not only that once you've decided on the representation of it you got to contend with the operations and we have said it so many times there are only two types of operations in GA
+
+46
+00:12:06,000 --> 00:12:12,000
+ one is of the mutation type and one is the other is a recombination type
+
+47
+00:12:12,000 --> 00:12:26,000
+ so mutation is generally an operation which has an errority of one meaning that it just take one representation or one chromosome and then do a little bit of variation to it
+
+48
+00:12:26,000 --> 00:12:41,000
+ so it causes a small change or variation right to the input and recombination usually involve two or more parents right
+
+49
+00:12:41,000 --> 00:12:54,000
+ errority greater than or equal to two the very common will be the crossover operations
+
+50
+00:12:54,000 --> 00:13:06,000
+ and we did a hand simulation function optimization remember the F equal to X square and that's the kind of thing we'll also expect you to be able to do also
+
+51
+00:13:06,000 --> 00:13:27,000
+ and that should be very easy for you given a simple function for you to demonstrate somebody could describe to you what the GA operations or evolution is all about but it will only make sense if you do it my hand and show that actually it does what it's supposed to do
+
+52
+00:13:27,000 --> 00:13:37,000
+ that's evolution, selection, adaptation and so on right so be able to or comfortable in doing that
+
+53
+00:13:37,000 --> 00:13:59,000
+ so NFL right refers to the no free lunch so I explain to you right from the perspective of optimization in recent years with the advance of optimization the theorem of no free lunch has generally been accepted
+
+54
+00:13:59,000 --> 00:14:18,000
+ now the question is what does it mean by the NFL no free lunch so the no free lunch is very intuitive I think many of us can relate when you say no free lunch right there's nothing that's free
+
+55
+00:14:18,000 --> 00:14:45,000
+ so by the same token is the same in optimization right so the implications is this when you look at the scale of all the problems right ALL capital ALL right all the problems is the same right for example and solve difficult problems right if you throw in a simple obvious problem sometimes you may fail
+
+56
+00:14:45,000 --> 00:15:01,000
+ it may be so called DC in that sense so if you take the scale of all the problems and average it out it is the same according to the theorem and that's what we call the no free lunch theorem
+
+57
+00:15:01,000 --> 00:15:23,000
+ what's the other implication of it of course we want an algorithm that is good right solving all types of problems isn't it right that would be our desire to find an algorithm that is good what I call the ALL inclusive or super algorithm
+
+58
+00:15:23,000 --> 00:15:40,000
+ but according to the NFL forget it it doesn't exist right you could if you're good in solving one problem probably your performance would be good only for that set of problems right there will be other problems that you probably won't fail too well
+
+59
+00:15:41,000 --> 00:15:44,000
+ so that's pretty much we covered
+
+60
+00:15:48,000 --> 00:15:50,000
+ so today
+
+61
+00:15:50,000 --> 00:16:07,000
+ so today we look at the representation
+
+62
+00:16:20,000 --> 00:16:45,000
+ okay up to lecture 2 what is very clear to you is that you see from a big perspective what GA is all about you understand the flow and everything and you understand the concept you know about representation you know what kind of operations takes place
+
+63
+00:16:46,000 --> 00:17:10,000
+ right so now in this lecture and if the course is longer right it will be about the details very so called in depth details of some of the operations and so and the representation so today we focus on the representation and have an understanding of what kind of operations can entail
+
+64
+00:17:10,000 --> 00:17:30,000
+ or in depending on the representation so we look at the role and represent role of representation and the variation operators so the variation operators in particular the two type there's a recombination and a mutation
+
+65
+00:17:31,000 --> 00:17:51,000
+ and in the literature of GA or what you've seen or GA these are the five common types of representation you have your binary you have your integer real value permutation and the tree
+
+66
+00:17:52,000 --> 00:18:12,000
+ binary and permutation you kind of have seen it right for example the permutation is in the traveling salesman problem and then the binary representation we have in the last lecture we look at the function optimization right
+
+67
+00:18:12,000 --> 00:18:37,000
+ but nevertheless let's go through it methodically and understand what the different representations mean so we first so this is the picture that you see right so we want to that tree entities here at the end of the day it worked with individuals
+
+68
+00:18:37,000 --> 00:18:43,000
+ so these individuals are representation of the problem that you are trying to solve
+
+69
+00:18:43,000 --> 00:19:08,000
+ alright so representation is a first stage of building an EA and it is by far the most difficult one it's like transcribing what the real world says or the real world requirements or specifications into a representation and that can be processed by the GA
+
+70
+00:19:09,000 --> 00:19:26,000
+ so simple problems we know like DSP and all okay right it's quite straightforward but I'm sure in a general perspective given any problems be it at work or research right you got to think of the representation of the problem
+
+71
+00:19:26,000 --> 00:19:44,000
+ for example if you're doing a sequencing right gene sequencing how would you do the representation and so on so these are the so-called the thing to think about and along the way also the variations kind of mutation or crossover or other types of
+
+72
+00:19:45,000 --> 00:20:07,000
+ recombinations right so the variation operators of course would depend on the chosen representation now typically practical GA in your problem solving alright so I like to assume that in your research your problem will be unique to a certain extent
+
+73
+00:20:08,000 --> 00:20:33,000
+ alright if it is so-called a roof research with certain level of novelty I would like to think that you know so in order to transform or transcribe your problem to a representation that would probably be one of the novelty of your work or your research
+
+74
+00:20:34,000 --> 00:20:54,000
+ and just to think for example TSB what are the possible representations I recently a permutation string that's very natural probably there's one of the so-called the elegant or most efficient way we can think of
+
+75
+00:20:54,000 --> 00:21:10,000
+ alright but that doesn't preclude other possibilities like binary representation is possible alright it will still work doesn't mean that it's most efficient and best work best representation but it will still work
+
+76
+00:21:11,000 --> 00:21:23,000
+ but doesn't mean that in the TSB problem you know you binary problem absolutely has no place for TSB
+
+77
+00:21:24,000 --> 00:21:45,000
+ well what if you want to implement GA in a hardware alright your hardware your electronics this is 1 and 0 so in that context maybe the binary representation maybe more appropriate alright for your TSB
+
+78
+00:21:46,000 --> 00:22:12,000
+ okay let's take a look at the binary representation one of the earliest representations alright when GA came about in the 70s you know it was binary representation alright and I think that was what makes it very attractive or so simple you know you could just call the problem in binary strings
+
+79
+00:22:13,000 --> 00:22:24,000
+ and then use the process of evolution and then evolve it until we find the solution alright that's how it became very popular you know 70s and 80s and so on
+
+80
+00:22:25,000 --> 00:22:46,000
+ so in binary representation is about mapping the so-called from the phenotype space to the genotype space alright so the genotype space because it's binary the valuation of the alphabet you see the bracket 0 and 1 the value can only take in 0 and 1
+
+81
+00:22:47,000 --> 00:23:14,000
+ right L you can look at it as a length of the string or the dimension alright so to go from phenotype to genotype you have the encoding that's your representation and then to go from your genotype to the phenotype space you have the decoding so it is the reverse of your representation
+
+82
+00:23:15,000 --> 00:23:18,000
+ not difficult to understand or see what is happening here
+
+83
+00:23:23,000 --> 00:23:35,000
+ so if it is binary right what kind of operation is suitable of course we need mutation and recombination alright so let's take first take a look at mutation
+
+84
+00:23:36,000 --> 00:23:58,000
+ so in mutation generally the accepted norm in GA implementation is that you take each gene and then you flip a mutation coin you know I like to call it a mutation coin you know so a mutation coin is basically a coin that says yes or no
+
+85
+00:23:59,000 --> 00:24:18,000
+ so a yes means that the probability according to the probability it is a yes so what's the chance of doing mutation is it typically between 1 over pop size and 1 over chromosome length alright so your population size maybe 100
+
+86
+00:24:18,000 --> 00:24:38,000
+ and then your chromosome length could be strings of 32 or 1024 right so you can see the variation it kind of says that you know if your chromosome size is length is very long right then so called chances are in order to have a
+
+87
+00:24:48,000 --> 00:25:13,000
+ more significant mutation effect that will be close the probability will be dictated by the bound of the population size alright and if your population size is small then you and your chromosome length then you will be more like dictated by the chromosome length
+
+88
+00:25:13,000 --> 00:25:26,000
+ but in any case usually mutation not too big alright but then again having said that also we have seen some algorithm where the mutation is actually applied quite frequently with a high probability
+
+89
+00:25:26,000 --> 00:25:54,000
+ so mutation on binary representation is very straightforward alright so again just to emphasize I think some of you asked the way we know mutation is we take each gene and then we flip the mutation coin and then it says yes we just flip the bit
+
+90
+00:25:56,000 --> 00:26:16,000
+ so there's a statement that says mutation can cause variable effect so variable effect means that remember the function optimization we did let's say we did 8 bit alright if you have 8 bit if you mutate you flip one bit
+
+91
+00:26:17,000 --> 00:26:44,000
+ now remember that binary string is a representation of integer if you flip the first bit what does it correspond to in phenotype space because the first bit is the most significant alright so the effect is going to be many many times more as compared to when you flip the least significant bit alright that is what we call the
+
+92
+00:26:45,000 --> 00:27:10,000
+ the different effect of the mutation now remember the principle of mutation is that you want only small variation alright so it's kind of an exploitery right it exploits the solution so it exploits means that you got to have what you want to do is only small variation you know just to kind of fine tune it you know right because I'm using what is really good I want to make small changes along the way
+
+93
+00:27:10,000 --> 00:27:33,000
+ so simple mutation like what we said there's this variable effect bias alright so one way to overcome well you can use gray coding alright so you can have a scheme to gray code the populations
+
+94
+00:27:40,000 --> 00:28:09,000
+ okay crossover so a simple crossover alright which is quite common or especially in the early days of GA you just choose what we call a random point and I also use the term crossover side alright S-I-T-E side or position so you choose like 1 2 3 4 5 position 5 so that will be the point where you break the chromosomes into two parts
+
+95
+00:28:10,000 --> 00:28:37,000
+ and then once you have chosen the side and this is also random alright so you randomly generate a position well of course the parents would have been selected according to some selective pressure but then the decision as a way to crossover that's random so you pick a crossover side and then you just swap the string simple crossover
+
+96
+00:28:40,000 --> 00:29:04,000
+ alright and then the so-called what about the crossover right how frequently how frequently you apply remember we say this is a stochastic algorithm alright so method heuristics are basically stochastic
+
+97
+00:29:04,000 --> 00:29:31,000
+ so when we decide to cross over we use a probability coin so that probability coin is typically in a range of 0.6, 0.9, 2.9 alright that means that it has if it is 0.6 the PC is going to 0.6 probability coin is 0.6 then when you flip it it has a 60% chance of doing crossover
+
+98
+00:29:31,000 --> 00:30:00,000
+ or it may not right okay 40% chance of not doing a crossover so you begin to see how the so-called stochastic behavior alright or the probabilistic decision making is applied in an algorithm alright so mutation also we have a so-called mutation coin so probability we have a so-called
+
+99
+00:30:00,000 --> 00:30:29,000
+ this is my term right the term that I created is it probability coin you know coin that you flip to decide whether to do crossover or not so very common you we apply one point crossover because it's very simple alright and quite often it works
+
+100
+00:30:29,000 --> 00:30:56,000
+ it works alright but that doesn't if you think about it you know that doesn't mean that it is the only way or the best way alright so you can see that I think there's this kind of what we call the positional bias positional bias okay you see the you have a string the beginning and the end somehow you can never bring them together isn't it
+
+101
+00:30:56,000 --> 00:31:17,000
+ because no matter where you cut you know they will always be separated okay we call that the positional bias now if there's an issue that you suspect is causing your algorithm to not converge to that so-called optimum that you want then probably you have to look at a different form of crossing over operations
+
+102
+00:31:17,000 --> 00:31:38,000
+ so in order to do that well in order to so-called exploit this kind of knowledge usually we already know about the so-called the characteristic of the problem right knowledge about the problem that we are trying to solve
+
+103
+00:31:38,000 --> 00:32:04,000
+ so just to throw in some examples right you can have multiple instead of one point you have any random point crossover alright so you take multiples break it up into multiple segments and then just sort accordingly so this is useful imagine your
+
+104
+00:32:04,000 --> 00:32:32,000
+ representation has let's say 2000 2000 points 2000 bits alright so obviously one point you can use one point crossover but then you can see the effect may not be may not give you that kind of variation effects alright that you expect
+
+105
+00:32:32,000 --> 00:32:56,000
+ and we can have a so-called uniform crossover very simple mechanism you just take you know these are more like a generalization of our previous multiple point so in this case you just take each one and then kind of flip alright based on the probability the probability
+
+106
+00:32:56,000 --> 00:33:22,000
+ of the point and then you just flip if it was crossover you just swap you just flop the flip the value of the bit alright so this issue was talked about especially for the early part of GA research when we mainly were kind of like
+
+107
+00:33:22,000 --> 00:33:47,000
+ occupied or focus on binary strings or binary representation alright so we had this issue that you know the GA works right now there are only two operators you know which one is more important because as a researcher you always want to you have a tendency to ask such kind of questions you know alright
+
+108
+00:33:47,000 --> 00:34:13,000
+ so of course if they're understanding you hope to improve on algorithm right so this is a this has been a debate alright so and I think I emphasize to you you know right boba important or boba necessary usually alright but sometimes you can see in some algorithms alright the crossover doesn't
+
+109
+00:34:14,000 --> 00:34:26,000
+ or put it another way right you can take away the crossover and then the mutation alone will kind of drive the algorithm towards the solution
+
+110
+00:34:26,000 --> 00:34:42,000
+ so such a thing is possible but it is unlikely the other way around right it's unlikely that if you take away the mutation alright then the crossover kind of drives you towards the optimum solution
+
+111
+00:34:42,000 --> 00:35:03,000
+ okay so so that means that you know okay as a consensus we say both are important right both are necessary okay because they have different role alright one is to create to explore the other is to exploit
+
+112
+00:35:04,000 --> 00:35:17,000
+ alright mutation is more like exploiting crossover is more like exploring it causes that kind of variations to allow you to search for different variations of the solution
+
+113
+00:35:17,000 --> 00:35:38,000
+ so both are important it's a matter of how you tune it such that both works well together so mutation only is possible right crossover only may not work okay so there's kind of a general understanding we have
+
+114
+00:35:39,000 --> 00:35:55,000
+ so which means to say we look at exploration and exploitation so these are two forces at work alright and has to do with the concept of diversity that we talked about earlier on
+
+115
+00:35:56,000 --> 00:36:05,000
+ so exploration to discover promising areas in the search space gaining information on the problem
+
+116
+00:36:06,000 --> 00:36:17,000
+ well exploitation is to optimize with a promising area that is using the information alright so to explore means you gain more
+
+117
+00:36:18,000 --> 00:36:43,000
+ gain information to exploit means you take advantage of the information you use the information alright so in the GA the whole metaphor of GA or the whole metaphor of optimization it is always about exploring and exploiting
+
+118
+00:36:44,000 --> 00:37:01,000
+ classical optimization focuses more on exploiting it's like a hill climbing you know you just keep on searching using whatever greedy and so on
+
+119
+00:37:01,000 --> 00:37:18,000
+ but in a metaphoristic like a GA it is all about balancing the force of exploration and then exploitation right so how do you know well we don't really know until you actually create the algorithm
+
+120
+00:37:18,000 --> 00:37:27,000
+ alright and observe the effects or the behavior on the problem solving okay so when you're tuning the algorithm you're actually tuning this effect here
+
+121
+00:37:28,000 --> 00:37:34,000
+ alright the exploring or exploiting too much exploiting what happens
+
+122
+00:37:38,000 --> 00:37:45,000
+ boom it converges local optimum alright so there's too much exploitation
+
+123
+00:37:45,000 --> 00:37:55,000
+ too much exploration like a random search alright you never narrow down to so-called the final solution that you want
+
+124
+00:37:56,000 --> 00:38:09,000
+ okay so too much of one obviously is no good so at the end of the day we say it's about so-called trying to have a good balance for what we call a good algorithm
+
+125
+00:38:09,000 --> 00:38:27,000
+ alright so crossover is explorative and mutation is exploitative alright explorative causing bigger variations exploitative smaller variations small variations
+
+126
+00:38:27,000 --> 00:38:30,000
+ alright and that's what mutation does
+
+127
+00:38:34,000 --> 00:38:45,000
+ okay so I think it's very interesting right if somebody asks you is it hey can you describe to me what the process of optimization is all about
+
+128
+00:38:46,000 --> 00:38:58,000
+ well here you can see it from a very big picture right it's almost somewhat philosophical also so exploring and exploiting
+
+129
+00:38:59,000 --> 00:39:05,000
+ alright so you could actually explain it from that manner and the more you think about it it actually makes sense
+
+130
+00:39:05,000 --> 00:39:26,000
+ okay so that is the so-called how we should understand it alright so binary represented crossover or mutation right only crossover can combine information from two parents
+
+131
+00:39:26,000 --> 00:39:35,000
+ alright because this has a rt of two or greater and mutation can introduce a new information there is a lew
+
+132
+00:39:38,000 --> 00:39:47,000
+ okay the third statement says crossover does not change the lew frequencies of the population alright so this is a thought experiment alright
+
+133
+00:39:48,000 --> 00:40:07,000
+ 50% of zeros on first bit in a population so how many percent after performing let's say 10,000 crossover should be the same alright this is because it is binary representation
+
+134
+00:40:08,000 --> 00:40:22,000
+ alright binary representation okay so crossover doesn't change in it okay so to hit the optimum you often need a lucky mutation right because mutation is a random nature
+
+135
+00:40:22,000 --> 00:40:31,000
+ you can flip to any value right if you are lucky enough that's the solution
+
+136
+00:40:36,000 --> 00:40:49,000
+ okay so binary representation is quite straightforward alright and it is also very common and useful and of course one of the big advantages are easy to manipulate
+
+137
+00:40:53,000 --> 00:41:15,000
+ other types of problem for example other types of representation the next one will be your integer representation alright so of course as I said earlier on integer sorry binary representation was utilized a lot
+
+138
+00:41:15,000 --> 00:41:37,000
+ you see the early GA's most of the research of our literature talk about binary representation so it was only in the so called maybe 5 years or 10 years later after the initial popularity of GA then people begin to look at other form of representations alright
+
+139
+00:41:37,000 --> 00:41:53,000
+ so the other type of representation is the integer representation okay then you ask okay did we not just look at the travelling salesman problem aren't those integers as well
+
+140
+00:41:54,000 --> 00:42:14,000
+ well they are integers but they are special class of integer right and in the travelling salesman problem we call it a permutation alright it's integer but it's a permutation representation and permutation as I explained or you understood it is a range of numbers
+
+141
+00:42:15,000 --> 00:42:25,000
+ unique numbers across the whole string and we have a category later on permutation representation
+
+142
+00:42:26,000 --> 00:42:51,000
+ now the best way to explain integer representation is with couple examples alright for example in certain problems there are so called specific classes for example you want to do classification right let's say you have 1000 items
+
+143
+00:42:51,000 --> 00:43:09,000
+ and so your string representation is 1000 alright so your string representation is 1000 so maybe let me just use this
+
+144
+00:43:22,000 --> 00:43:29,000
+ alright so let's just say for example hypothetically we have this 1000 items here
+
+145
+00:43:32,000 --> 00:43:48,000
+ so this is a chromosome alright so now my task to you is that can you so called classify each of the items alright can you classify each of the items such that the cost is the minimum
+
+146
+00:43:48,000 --> 00:43:55,000
+ alright the cost according to some criteria is minimum so you have this
+
+147
+00:43:58,000 --> 00:44:14,000
+ so for example I said do a classification into two groups then your string representation will be maybe this is one two one one two and so on
+
+148
+00:44:14,000 --> 00:44:32,000
+ so which means that this item should go into class two right this item so called group one alright or if you have four items four classes or four groups then your representation will be
+
+149
+00:44:33,000 --> 00:44:44,000
+ for example this is one this is four this is one this is two this is three and so on so four groups alright a good example will be your nepsae
+
+150
+00:44:44,000 --> 00:45:05,000
+ so in the nepsae problem right let's say you have four seq how do you place the items into different bags such that you maximize the cost
+
+151
+00:45:05,000 --> 00:45:14,000
+ for example you have a list of items and each item has a certain cost associated to it alright and of course each seq has a certain capacity
+
+152
+00:45:16,000 --> 00:45:34,000
+ then you will put the items you'll find a combination of items to be put in one two three four alright so this is a nepsae so there obviously one good way to so called represent
+
+153
+00:45:35,000 --> 00:45:44,000
+ your problem will be integers alright one two three four okay so there's your integer representation
+
+154
+00:45:44,000 --> 00:46:13,000
+ and so then we have binary right we have integer there are many problems which the representation is in terms of real value of floating point alright we have a
+
+155
+00:46:14,000 --> 00:46:34,000
+ problem which is often really came out with examples to talk about real value representation because it's a little bit more tedious to calculate that's why in a function optimization for example f equal to x squared alright I use binary representation
+
+156
+00:46:35,000 --> 00:46:49,000
+ very easy isn't it I think when you think about it well you know that may not be too useful right for example if you want accuracy high level of accuracy
+
+157
+00:46:49,000 --> 00:47:18,000
+ because the virtue of it being a binary representation it is actually a representation of discrete values alright over a continuum of possible real values alright so as such many of the problem in GA real value of floating point representation is another options
+
+158
+00:47:19,000 --> 00:47:48,000
+ so basically in continuous parameter optimization we are talking about let's say a function alright this is over the real space of n hyper plane or hyperspace if you may n dimension alright for example if you are too variable alright
+
+159
+00:47:49,000 --> 00:48:17,000
+ so you have n value of 2 will be equal to 2 alright or you have 1000 variable alright and this is not an exaggeration many problems we do actually try and solve it alright to thousands of parameters alright and that can only be solved through for example using evolutionary approach or evolutionary approach is one good way to solve it
+
+160
+00:48:19,000 --> 00:48:47,000
+ and n hyperspace or dimension to R alright so for example alright in the easy or evolutionary computation community there are many of these benchmarks that are created so some of it are practical based on practical applications
+
+161
+00:48:47,000 --> 00:49:06,000
+ but many of it are synthetic they are just created just to test algorithm so it has no practical significance but they are created just to test your algorithm so we call it so called the benchmarks right function optimization benchmark problems
+
+162
+00:49:06,000 --> 00:49:27,000
+ so you just have to search on the internet you will find like hundreds of all these possibilities of benchmarks so we use an example here alright in this this is called the Eccles function so the Eccles function is as given in this equation here
+
+163
+00:49:27,000 --> 00:49:56,000
+ and when n equal to 2 n equal to 2 meaning 2 variables alright x1 x2 you plot it out this is what it looks like so it's a function of 2 variables alright so you can see it in 3 dimensional plot like this is a plot alright
+
+164
+00:49:56,000 --> 00:50:22,000
+ so x1 x2 and the value of f so this function the landscape of it looks like this so we have one minimum alright so when you try to solve it of course you want to find this minimum what are the values of x1 and x2 that will give you this minimum
+
+165
+00:50:23,000 --> 00:50:42,000
+ now because this is a benchmark so it's already known you know 00 would give you the so called a minimum but assuming you don't so you just have to start randomly and then search for the value of x1 and x2 so this function says right this complicated function here
+
+166
+00:50:42,000 --> 00:51:07,000
+ so xi are the 2 variables if n equal to 5 then you have right n equal to 5 then you go from x1 x2 x3 x4 x5 alright so it's kind of a scalable function it could go to 100 for example alright in that case n will be 100
+
+167
+00:51:07,000 --> 00:51:33,000
+ so that is so called what the meaning of this function so you can formulate an excel spreadsheet to test out different values right so I actually have an excel spreadsheet right but I think if you want to do it as an exercise this function you can actually put into excel and then to work it out alright
+
+168
+00:51:34,000 --> 00:51:53,000
+ so basically the point is that function optimization is very common right in GA in fact it is used quite often to illustrate the capability or the power of GA and also to compare between performance of different algorithms
+
+169
+00:51:54,000 --> 00:52:13,000
+ and how do you represent this value for example how do you represent x1 and x2 you could do binary representation right it is possible alright or you could do real value
+
+170
+00:52:14,000 --> 00:52:39,000
+ so you could do real value let's say we still insist we must do it in binary alright so the function optimization can also be solved as a binary problem alright so if you have to solve it as a binary problem then you got to think about representation in terms of binary bits
+
+171
+00:52:40,000 --> 00:52:46,000
+ so if you see the first line
+
+172
+00:52:46,000 --> 00:53:15,000
+ so z is that symbol the member in the x to y so that is the real space from value x in the range of from x to y
+
+173
+00:53:16,000 --> 00:53:30,000
+ the square bracket there is a range right x value x to y which is so called in which is the real number you know the R that is the real number
+
+174
+00:53:30,000 --> 00:53:44,000
+ so if you want to represent it by a binary string of string length L so you have a1 all the way to al right in the so called a valuation space of 01
+
+175
+00:53:45,000 --> 00:53:53,000
+ so meaning a1 can either be 0 or 1 or a2 is 0 and 1 and so on
+
+176
+00:53:57,000 --> 00:54:04,000
+ so in order for this to be doable
+
+177
+00:54:04,000 --> 00:54:13,000
+ so the representation must be invertible right one phenotype per genotype
+
+178
+00:54:13,000 --> 00:54:30,000
+ one phenotype per genotype so the gamma the gamma right over the valuation set of 01 of dimension L will map into xy
+
+179
+00:54:30,000 --> 00:54:37,000
+ the range xy so that is the representation we are talking about
+
+180
+00:54:37,000 --> 00:54:49,000
+ so in order to do a binary representation we got basically to put it very simply mathematically we need to convert real to binary and binary to real
+
+181
+00:54:49,000 --> 00:55:02,000
+ so the general equation to compute is this let's say between x to y right for example x is 1 to 10 let's say we want to map it into a range of 1 to 10
+
+182
+00:55:02,000 --> 00:55:12,000
+ so the general equation will be like x plus the range divided by 2 to the L minus 1 that will be the resolution
+
+183
+00:55:13,000 --> 00:55:31,000
+ and then we do a summation of the bits right so this al minus j is either 0 or 1 and then you multiply depending on which bit so each bit has you can say a weightage of the value
+
+184
+00:55:31,000 --> 00:55:34,000
+ so that's how we do the conversion
+
+185
+00:55:35,000 --> 00:55:54,000
+ so essentially we have discrete value right 2 to the L values out of infinite number of possibilities because this is a real space right but then we discretize it into a binary space
+
+186
+00:55:54,000 --> 00:56:07,000
+ so therefore it's only 2 to the power of L values so L will determine the possible maximum precision of the solution because it's binary
+
+187
+00:56:07,000 --> 00:56:17,000
+ so of course if you require high precision that means that you need a very long chromosomes
+
+188
+00:56:18,000 --> 00:56:36,000
+ if you want the algorithm to solve it like to 20 decimal places for example right then of course the representation of the chromosome will be very long and that means that it may take a little bit of time to compute it
+
+189
+00:56:36,000 --> 00:56:49,000
+ so the bottom line is that any real problem can be coded as also can be solved as a binary string problem or so
+
+190
+00:56:49,000 --> 00:57:13,000
+ now but of course it means that this type of problem right this type of problem usually the chromosomes are real value in order to solve this problem
+
+191
+00:57:13,000 --> 00:57:33,000
+ so for example if I have n equal to 10 meaning is a 10 variable then my chromosome will consist of 10 values of x that's my chromosome and each value is a real value right it's more natural to solve it as a real value problem
+
+192
+00:57:34,000 --> 00:57:49,000
+ so the general scheme would be for doing your mutation right so again you have mutation and then we have crossover or recombination
+
+193
+00:57:50,000 --> 00:58:05,000
+ so mutation involves one chromosome so basically you want to when you mutate right you cause small variation to the chromosome
+
+194
+00:58:06,000 --> 00:58:16,000
+ and usually this is a mutation so in a real value representation we specify a lower bound and upper bound of the variation
+
+195
+00:58:18,000 --> 00:58:28,000
+ so remember this is mutation right mutation means small variation so that variation we say we specify a lower bound and upper bound right
+
+196
+00:58:29,000 --> 00:58:48,000
+ so one way to do is the mutated value is drawn randomly in a uniform manner from the lower bound between the lower bound range and the upper bound range
+
+197
+00:58:49,000 --> 00:59:01,000
+ so again xi depends on the number of variables so for example 10 variables there will be x1, x2, x3 all the way to x10
+
+198
+00:59:01,000 --> 00:59:08,000
+ so for each of the values you just draw randomly right between lower bound and upper bound
+
+199
+00:59:09,000 --> 00:59:16,000
+ so this is like bit flipping in binary or random resetting of integers
+
+200
+00:59:16,000 --> 00:59:27,000
+ so we are looking at real value right so we still need to apply mutation how we apply mutation we give the range the lower bound and upper bound
+
+201
+00:59:28,000 --> 00:59:36,000
+ so when you think about it is also the same in binary we are actually flipping the bit also but here we are flipping
+
+202
+00:59:36,000 --> 00:59:41,000
+ we do it in a controlled manner in flipping the so called real value
+
+203
+00:59:41,000 --> 01:00:00,000
+ so you can also have other forms of mutation right so there are many possibilities for real value or floating point representation
+
+204
+01:00:00,000 --> 01:00:26,000
+ so another would be where you have non-uniform mutations so it could vary with time right the mutation but then one of the most common method to add that random variation is to use a so called sampling over a range of normal distribution
+
+205
+01:00:26,000 --> 01:00:47,000
+ so you have x1 to x10 then you find out the sigma and then your variation your mutation would entails you taking the original value and then add it to a random value that is from this normal distribution
+
+206
+01:00:56,000 --> 01:01:19,000
+ so we can also do self-adaptive mutation so the mutation will adapt accordingly so step sizes are included in the genome and undergo variation and selection themselves
+
+207
+01:01:19,000 --> 01:01:30,000
+ so in this self-adaptive mutation the sigma is actually encoded in the representation itself
+
+208
+01:01:30,000 --> 01:01:49,000
+ it is part of the chromosome the sigma and mutation step size is not set by user but co-evolves with the solution so as evolution takes place the sigma would adjust accordingly
+
+209
+01:01:49,000 --> 01:02:04,000
+ so this means that the different mutation strategies would evolve accordingly at different stages of the evolutions
+
+210
+01:02:04,000 --> 01:02:11,000
+ so let's take a look at one example
+
+211
+01:02:11,000 --> 01:02:19,000
+ alright so this is on self-adaptive mutation
+
+212
+01:02:19,000 --> 01:02:33,000
+ so in this self-adaptive mutation remember you have two parameters when you mutate right you mutate the gene the allele will change
+
+213
+01:02:33,000 --> 01:02:41,000
+ now because of this here in your self-adaptive mutation next step size sigma is part of the chromosome
+
+214
+01:02:41,000 --> 01:02:56,000
+ so the mutation in this context would entails changing two parameters as the x or mutating two parameters the x and the sigma
+
+215
+01:02:56,000 --> 01:03:07,000
+ so from x sigma the mutated value will be x prime and then sigma prime
+
+216
+01:03:07,000 --> 01:03:21,000
+ so basically right here we need to be careful because when we mutate we mutate the sigma first then only we mutate the x
+
+217
+01:03:21,000 --> 01:03:38,000
+ so from sigma from sigma you go to sigma prime right so well if you do it the other way when you mutate x first you know basically you will do a x that is based on the old sigma
+
+218
+01:03:38,000 --> 01:03:57,000
+ so in this form of mutation what we do is that we mutate the sigma first then only we mutate x that is based on the mutated sigma
+
+219
+01:03:57,000 --> 01:04:14,000
+ right there is a sigma prime right there is a scheme so if you use this approach where the step size co-evolve then the way you do it would have to be in this order so you would mutate the sigma first
+
+220
+01:04:15,000 --> 01:04:27,000
+ so reversing the mutation order would not work right and the rationale is as given here so x prime is good if x prime is good
+
+221
+01:04:27,000 --> 01:04:52,000
+ so the secondary parameter there is a notion that sigma prime is good if the x prime is created is good so meaning if sigma prime is good all the x1 to x10 will be good
+
+222
+01:04:52,000 --> 01:05:03,000
+ but the other way is not true you know x prime if x prime is good doesn't mean that your sigma prime will be good
+
+223
+01:05:03,000 --> 01:05:30,000
+ ok crossover we have a bit of variations here so basically in crossover we have seen how it works in discrete we just take a point and then we sort the discrete values or we manipulate the discrete values
+
+224
+01:05:30,000 --> 01:05:49,000
+ now the idea of crossover is always to exchange information between two parents so you have two parents you want to exchange information so in principle for example if one of the parent is here at this point and then the other parent is here
+
+225
+01:05:49,000 --> 01:06:04,000
+ crossover has an effect of trying to find somewhere in between you know between two so it exploits the idea of children between parents
+
+226
+01:06:04,000 --> 01:06:26,000
+ ok so if x is the real value right if it is a real value representation right let's say you have two chromosomes x two values x and y from two chromosomes right so we can use some kind of simple operations arithmetic operations
+
+227
+01:06:27,000 --> 01:06:48,000
+ alpha xi plus one minus alpha right this is a simple arithmetic operations so alpha is like similar to your crossover side right in your discrete so called value representation right we have that variation
+
+228
+01:06:48,000 --> 01:07:13,000
+ so here we use the alpha to decide you know where it should be between the x and the y right so of course this also gives us flexibility of being able to do a uniform one or a variable one
+
+229
+01:07:13,000 --> 01:07:37,000
+ so in real point or real value representation we can do a we can have a single point crossover so in this case you have let's say x one to x n that's your chromosome
+
+230
+01:07:37,000 --> 01:08:01,000
+ so we pick a single gene so in this case gene k and if alpha is 0.5 then basically you take 0.8 and 0.2 right so 0.8 and 0.2 and then you just flip this value accordingly
+
+231
+01:08:01,000 --> 01:08:26,000
+ so this value is alpha which is 0.5 times y which is 0.2 right 0.5 times 0.2 which is here plus one minus alpha one minus alpha is 0.5 times xk which is 0.8
+
+232
+01:08:26,000 --> 01:08:49,000
+ so 0.5 times 0.8 equal to 0.4 and then plus alpha times yk which is 0.1 so you get a 0.5 right so from 0.2 to 0.8 this single point crossover right the result is 0.5 0.5
+
+233
+01:08:57,000 --> 01:09:18,000
+ we can also do something like so-called multi gene kind of crossover something similar to what we did in our binary or even integer representation so we choose a so-called crossover site for example our crossover site here
+
+234
+01:09:19,000 --> 01:09:39,000
+ so meaning the values from this point onward right 0.7 0.8 0.9 and 0.3 0.2 0.3 0.2 0.3 right so those who will be the value that will be affected by the crossing over
+
+235
+01:09:39,000 --> 01:10:07,000
+ so the way we produce a child will be like this so the child one the first child x1 to xk so this is x1 x2 all the way to xk so in the child we copy from x1 to xk
+
+236
+01:10:07,000 --> 01:10:36,000
+ and then subsequently the rest of the value right the rest of the value we just apply right alpha times y right for example this value this is y is 0.3 0.3 and then 1 minus alpha times x so 0.3 times 0.5 is 0.15
+
+237
+01:10:37,000 --> 01:10:50,000
+ and then 0.7 times 0.5 is 0.35 so you get 0.5 and so on so basically is to recreate new values from the point where you decide to do crossover
+
+238
+01:10:50,000 --> 01:11:14,000
+ and we can also just now it was just a single point can be also we can choose part of the chromosome right or we can do a whole arithmetic crossover meaning apply across the whole chromosome
+
+239
+01:11:14,000 --> 01:11:41,000
+ so the method of calculating the values is similar to what we have done in the earlier two approach and we can do a blend crossover right we can do a blending crossover
+
+240
+01:11:41,000 --> 01:12:10,000
+ so here the way we decide is we determine the distance between the two of the two chromosomes x and y so the distance goes like this assuming say y is greater than x so di is some positive value
+
+241
+01:12:10,000 --> 01:12:35,000
+ okay assume xi is less than yi so the distance will be some positive value which is according to the difference between the two yi minus xi so the parents are xi x1 to xn and then parent 2 is y1 to yn
+
+242
+01:12:35,000 --> 01:13:01,000
+ so the result of the crossover is very simple right we choose z that's the resultant of spring between the range of this value xi minus alpha d okay and xi plus alpha di
+
+243
+01:13:01,000 --> 01:13:24,000
+ remember d is a distance according to the difference right so this is like a lower bound and the upper bound right remember this this is the range right this square symbol is a range so we just decide on the new value right according to this here
+
+244
+01:13:24,000 --> 01:13:50,000
+ okay this is between the range right x minus alpha di plus xi plus alpha di right so you do the same thing for the y also the second offspring right so in this case yeah right alpha is a parameter you can control
+
+245
+01:13:51,000 --> 01:14:03,000
+ so quite often alpha is 0.5 but you can also experiment with alpha 0.4 or 0.3 you know right using unequal contributions from both the parents
+
+246
+01:14:03,000 --> 01:14:32,000
+ so let's put it on a graph visualization to see the effect of the different mutations so if it is a single aromatic mutation so if you have your x right so the single aromatic mutations
+
+247
+01:14:33,000 --> 01:14:53,000
+ okay so this is your x this is your y right assuming your two parents x and y single aromatic mutation single aromatic mutation gives you four possibilities s1 s2 s3 s4 right this is single
+
+248
+01:14:54,000 --> 01:15:18,000
+ simple or the whole aromatic right so gives you a range of possibilities dictated by the inner box this small box here right single aromatic or whole aromatic
+
+249
+01:15:18,000 --> 01:15:45,000
+ whereas the blend gives you a possibility as dictated by this middle box okay so that is a so-called how we would deal with crossover in a real value representation GA
+
+250
+01:15:49,000 --> 01:16:10,000
+ so the possibilities of having other types of recombination of crossover is possible alright so far we have looked at generally n equal to 2 which is two parents right but certainly other types are multi parent type of crossover is also possible
+
+251
+01:16:10,000 --> 01:16:39,000
+ alright so simple illustration you can see in the multi point crossover so you break it up into segments alright and then if this is a three parent so you can create offspring that are that will inherit effects of characteristics of the three parents
+
+252
+01:16:40,000 --> 01:17:04,000
+ alright so this is the idea behind a multi parent recombination alright so you create offspring that are average the behavior of it tend to give you the averaging of the so-called the parents that are involved in the crossover
+
+253
+01:17:04,000 --> 01:17:19,000
+ so the next one is on permutation right so we take maybe up to 10 o'clock or 10 0 5 right then we come back take a short break toilet break
+
+254
+01:17:34,000 --> 01:17:36,000
+ you
+
+255
+01:18:04,000 --> 01:18:06,000
+ you
+
+256
+01:18:34,000 --> 01:18:36,000
+ you
+
+257
+01:19:04,000 --> 01:19:06,000
+ you
+
+258
+01:19:34,000 --> 01:19:36,000
+ you
+
+259
+01:20:04,000 --> 01:20:06,000
+ you
+
+260
+01:20:34,000 --> 01:20:36,000
+ you
+
+261
+01:21:04,000 --> 01:21:06,000
+ you
+
+262
+01:21:34,000 --> 01:21:36,000
+ you
+
+263
+01:22:04,000 --> 01:22:06,000
+ you
+
+264
+01:22:34,000 --> 01:22:36,000
+ you
+
+265
+01:23:04,000 --> 01:23:06,000
+ you
+
+266
+01:23:34,000 --> 01:23:36,000
+ you
+
+267
+01:24:04,000 --> 01:24:06,000
+ you
+
+268
+01:24:34,000 --> 01:24:36,000
+ you
+
+269
+01:25:04,000 --> 01:25:06,000
+ you
+
+270
+01:25:34,000 --> 01:25:36,000
+ you
+
+271
+01:26:04,000 --> 01:26:06,000
+ you
+
+272
+01:26:34,000 --> 01:26:36,000
+ you
+
+273
+01:27:04,000 --> 01:27:06,000
+ you
+
+274
+01:27:34,000 --> 01:27:36,000
+ you
+
+275
+01:28:04,000 --> 01:28:06,000
+ you
+
+276
+01:28:34,000 --> 01:28:36,000
+ you
+
+277
+01:29:04,000 --> 01:29:06,000
+ you
+
+278
+01:29:34,000 --> 01:29:36,000
+ you
+
+279
+01:30:04,000 --> 01:30:06,000
+ you
+
+280
+01:30:34,000 --> 01:30:36,000
+ you
+
+281
+01:31:04,000 --> 01:31:06,000
+ you
+
+282
+01:31:34,000 --> 01:31:36,000
+ you
+
+283
+01:32:04,000 --> 01:32:06,000
+ you
+
+284
+01:32:34,000 --> 01:32:36,000
+ you
+
+285
+01:33:04,000 --> 01:33:06,000
+ you
+
+286
+01:33:34,000 --> 01:33:36,000
+ you
+
+287
+01:34:04,000 --> 01:34:06,000
+ you
+
+288
+01:34:34,000 --> 01:34:36,000
+ you
+
+289
+01:35:04,000 --> 01:35:06,000
+ you
+
+290
+01:35:34,000 --> 01:35:36,000
+ you
+
+291
+01:35:44,000 --> 01:36:02,000
+ okay so so let's carry on right we have a few more and then I think we'll call it a day for this lecture so so we have looked at so-called binary integer and then the floating point or real value representation
+
+292
+01:36:02,000 --> 01:36:20,000
+ right so you can see that from the previous few slides you've seen that how in real value representation it offers more possibilities on how we can handle the chromosomes in terms of mutation and crossover
+
+293
+01:36:20,000 --> 01:36:40,000
+ and they are not difficult to understand or for you to see you know why it is done that way right if you understand the general principle of what it means when we talk about crossover or mutation so the next thing that is very natural for us will be to do it in a permutation
+
+294
+01:36:40,000 --> 01:37:06,000
+ and we came across all we have looked at a couple of examples earlier on which is the end queens and the traveling salesman problem right so in permutation generally it is applicable when you have situations where the ordering of the so-called inner problem right
+
+295
+01:37:06,000 --> 01:37:26,000
+ the order of the genes is important or the sequencing of the genes is important right for some of your traveling salesman problem is a very classic example right if you found a good solution it means that the order the current order of that solution is actually good
+
+296
+01:37:26,000 --> 01:37:52,000
+ so therefore as much as possible subsequently you want to be near that you know you don't want to deviate too much right so permutation is precisely good for this kind of problem or another type of problem the job-shop scheduling that is one of the problem that can be solved in using evolutionary algorithm
+
+297
+01:37:52,000 --> 01:38:19,000
+ so those will be the type of problem where the ordering of the genes is very important right so that is why you see permutation strings representation is used quite a lot so we are looking at a class of problem where it is a discrete combinatorial optimization kind of problem
+
+298
+01:38:19,000 --> 01:38:48,000
+ combinatorial you are dealing with the number of possible combinations finite number of combinations which is usually very large for example you know in your 30 city is 10 to the power of 30 for your TSP as compared to the real value representation we are talking about continuous
+
+299
+01:38:49,000 --> 01:39:18,000
+ variable optimization right continuous so here it is discrete like a binary is discrete right but here permutation are most specifically it is discrete combinatorial optimization right so the way we encode the so called the chromosome right
+
+300
+01:39:19,000 --> 01:39:29,000
+ is through permutation right so what do we mean by permutation
+
+301
+01:39:29,000 --> 01:39:44,000
+ so the classic example of your traveling salesman problem right so your given entities you find a complete tour with the minimal length so that is the most basic one
+
+302
+01:39:44,000 --> 01:39:55,000
+ so other variations of it you can incorporate more stringent or more other requirements right or constraints if you may
+
+303
+01:39:56,000 --> 01:40:15,000
+ so therefore the encoding of it basically you need to encode all the cities right so if n equal to 30 you would encode the 30 cities right so of course assuming you don't know anything about this problem or you are beginning to solve this problem
+
+304
+01:40:15,000 --> 01:40:37,000
+ so you will be thinking to yourself how do I represent it as a chromosome right and what does the value of the gene means what does it mean or what does the order of the genes mean right and there is no need to dwell too much but you have seen that in the traveling salesman problem
+
+305
+01:40:37,000 --> 01:41:05,000
+ so the order of the genes tells you the sequence of which city to visit next right that's what the order of the genes right and then the value of the genes a little of it tells you which city is the identity of the city right so in your mind set there is what you will see when you met the real problem into the so called the chromosome
+
+306
+01:41:05,000 --> 01:41:34,000
+ so the search space right typically let's say if you have 30 cities you have they are 30 why I put 32 I don't know 10 to 30 right ok so 30 cities 30 factorial right approximately 30 times oh maybe indeed it is maybe I actually calculated
+
+307
+01:41:35,000 --> 01:42:04,000
+ I have to check again yeah ok so mutation right you kind of expect because it is permutation remember the meaning or your understanding of permutation is arrangement arrangement of numbers that are unique for all the genes right so as such when you mutate
+
+308
+01:42:05,000 --> 01:42:31,000
+ you are not disturbed take permutation right the result of your of your mutation ok the offspring right must be such that it conforms to the permutation structure on nature of the chromosome right and other concepts and ideas is same as what we have in our earlier slides
+
+309
+01:42:36,000 --> 01:42:55,000
+ so when you mutate again this is a permutation you can pick one point right to mutate so pick two alleles at random and then swap their positions that's a form of mutation
+
+310
+01:42:56,000 --> 01:43:08,000
+ so unlike in your binary string you just take one and then you just flip from 0 to 1 or 1 to 0 because there is no such permutation constraint or requirement in those kind of structure
+
+311
+01:43:08,000 --> 01:43:36,000
+ we can do insert mutation right very simple pick two pick two alleles and then join them together right two and five ok join them together ok so early on I think I think somebody raised the question of positional bias and so on sometimes crossover regardless of the
+
+312
+01:43:38,000 --> 01:44:01,000
+ parameters you know it will just keep certain sequence from happening right so your only records will be your mutation right so with mutation it is possible to gain that so called unique arrangement that will result in an optimum solution for example
+
+313
+01:44:02,000 --> 01:44:05,000
+ alright so this is an insert mutation
+
+314
+01:44:08,000 --> 01:44:10,000
+ we can do scramble mutation
+
+315
+01:44:13,000 --> 01:44:15,000
+ pick a subset of genes
+
+316
+01:44:16,000 --> 01:44:18,000
+ alright scramble randomly
+
+317
+01:44:22,000 --> 01:44:23,000
+ and
+
+318
+01:44:25,000 --> 01:44:26,000
+ inversion
+
+319
+01:44:27,000 --> 01:44:28,000
+ we can do inversion
+
+320
+01:44:29,000 --> 01:44:30,000
+ again pick
+
+321
+01:44:32,000 --> 01:44:33,000
+ pick two
+
+322
+01:44:34,000 --> 01:44:44,000
+ so pick two alleles at random and then invert the substring between them so you can see inversion means just to reverse the order
+
+323
+01:44:45,000 --> 01:44:54,000
+ so this is also very commonly used in many of the GAs especially those publications in the early years like the 90s
+
+324
+01:44:55,000 --> 01:44:59,000
+ so two three four five becomes five four three two
+
+325
+01:45:06,000 --> 01:45:18,000
+ so crossover is a little bit more complicated but not too bad if you understand the mechanisms or the ideas behind crossover
+
+326
+01:45:19,000 --> 01:45:28,000
+ so your normal crossover that you have seen where you take make a cut and then you just swap the string
+
+327
+01:45:29,000 --> 01:45:36,000
+ but then again remember that we are talking about permutation the permutation nature of this problem here
+
+328
+01:45:37,000 --> 01:45:41,000
+ so a swap simple swap like that probably will not work
+
+329
+01:45:42,000 --> 01:45:48,000
+ because in your normal crossover you take a substring and then you just exchange
+
+330
+01:45:50,000 --> 01:45:58,000
+ but here in permutation because of the requirement the permutation nature of it when you do a swap you will disturb that permutation
+
+331
+01:45:59,000 --> 01:46:04,000
+ so logic or intuition will tell you that you got to do it a little bit differently
+
+332
+01:46:05,000 --> 01:46:10,000
+ so we offer a couple of possibilities here in this crossing over operation
+
+333
+01:46:16,000 --> 01:46:21,000
+ so crossover is to preserve relative order that elements occur
+
+334
+01:46:23,000 --> 01:46:27,000
+ so let's take a look at the order one crossover
+
+335
+01:46:28,000 --> 01:46:32,000
+ so the order one crossover basically just a single point crossover
+
+336
+01:46:34,000 --> 01:46:39,000
+ so something similar to the other types of representation
+
+337
+01:46:40,000 --> 01:46:47,000
+ so the steps are here but easier to just take a look at an example
+
+338
+01:46:56,000 --> 01:46:59,000
+ so let's do an order one crossover
+
+339
+01:46:59,000 --> 01:47:06,000
+ so basically you take two parents
+
+340
+01:47:15,000 --> 01:47:18,000
+ so you take two parents parent one and then parent two
+
+341
+01:47:19,000 --> 01:47:24,000
+ so if it is crossover then the offspring hopefully will be
+
+342
+01:47:25,000 --> 01:47:29,000
+ will inherit characteristic of both the parents
+
+343
+01:47:30,000 --> 01:47:35,000
+ so the first one we say four five six seven comes from the first parent and then the second one
+
+344
+01:47:36,000 --> 01:47:45,000
+ subsequently we construct the remaining part based on the order of the genes in the second parent
+
+345
+01:47:46,000 --> 01:47:50,000
+ so we have four five six seven right
+
+346
+01:47:51,000 --> 01:47:56,000
+ so from the second parent you according to the order
+
+347
+01:47:57,000 --> 01:48:06,000
+ so again I would add that normally you start you start construction after the so-called the substring
+
+348
+01:48:07,000 --> 01:48:15,000
+ not from the beginning so in most work literature work it is by default that we assume
+
+349
+01:48:16,000 --> 01:48:25,000
+ we start construction from right after the substring that you have chosen
+
+350
+01:48:26,000 --> 01:48:32,000
+ so we start one right from the second parent so one goes here
+
+351
+01:48:33,000 --> 01:48:37,000
+ and then four four already here in the substring
+
+352
+01:48:38,000 --> 01:48:42,000
+ so then we wrap it around goes to the beginning is there the next one is nine
+
+353
+01:48:43,000 --> 01:48:53,000
+ and then we have nine and then so we fill up on the right then we go to the beginning here
+
+354
+01:48:54,000 --> 01:49:03,000
+ so after that is three right three and then seven is already there
+
+355
+01:49:03,000 --> 01:49:10,000
+ so the next one will be eight in the substring
+
+356
+01:49:11,000 --> 01:49:15,000
+ so eight goes here and then finally two
+
+357
+01:49:16,000 --> 01:49:23,000
+ so that's how we construct the offspring from a one point crossover order one crossover
+
+358
+01:49:23,000 --> 01:49:39,000
+ so another type of crop crossover is what we call the partially mapped crossover or BMX
+
+359
+01:49:40,000 --> 01:49:52,000
+ so this is by far one of the most popular or commonly used crossover in genetic algorithm involving permutation strings
+
+360
+01:49:53,000 --> 01:49:58,000
+ so if you hear the term BMX that's what it means the partially mapped crossover
+
+361
+01:49:59,000 --> 01:50:04,000
+ so it involves two parents parent one and parent two
+
+362
+01:50:05,000 --> 01:50:16,000
+ so the idea is you choose a randomly random segment that you want to do a crossover
+
+363
+01:50:17,000 --> 01:50:20,000
+ right you choose a random segment for crossing over
+
+364
+01:50:20,000 --> 01:50:28,000
+ so as the term implies I won't go through point by point here but later we look at the example I think hopefully it will become clear
+
+365
+01:50:29,000 --> 01:50:35,000
+ so basically we choose a segment and then we determine between those segments
+
+366
+01:50:36,000 --> 01:50:43,000
+ which of the genes are have already matched and then from there we decide we know which one has already matched
+
+367
+01:50:43,000 --> 01:50:48,000
+ and then we pick the remaining one that are not matched and then we map its position
+
+368
+01:50:49,000 --> 01:50:54,000
+ alright we map a corresponding position in the new offspring
+
+369
+01:50:55,000 --> 01:50:59,000
+ so easier to just illustrate using this example here
+
+370
+01:50:59,000 --> 01:51:10,000
+ alright so this is a PMX crossover involving two parents
+
+371
+01:51:11,000 --> 01:51:16,000
+ one two three four five six all the way to nine
+
+372
+01:51:17,000 --> 01:51:23,000
+ and then nine three seven eight two six five and one four
+
+373
+01:51:24,000 --> 01:51:35,000
+ alright so let's say we choose this substring of four genes to crossover
+
+374
+01:51:36,000 --> 01:51:42,000
+ alright so our offspring would have four five six seven
+
+375
+01:51:43,000 --> 01:51:48,000
+ so it's kind of like saying that okay the offspring is going to inherit from parent one four five six seven
+
+376
+01:51:48,000 --> 01:52:01,000
+ and then the remaining of it right we first must analyze the substring and see where's the matching substring
+
+377
+01:52:02,000 --> 01:52:07,000
+ alright so if you look in this next figure the step two here
+
+378
+01:52:07,000 --> 01:52:18,000
+ so four five six seven and then in the substring corresponding substring in parent two
+
+379
+01:52:19,000 --> 01:52:27,000
+ alright six and five already in the substring alright the six and the five already in the substring
+
+380
+01:52:28,000 --> 01:52:34,000
+ four five six seven alright however eight and two are not in the substring yet
+
+381
+01:52:34,000 --> 01:52:41,000
+ so we do a partially map partial mapping it's partial only because there's not the whole solution
+
+382
+01:52:42,000 --> 01:52:50,000
+ alright so we take eight and then eight according to the substring map to four
+
+383
+01:52:51,000 --> 01:52:59,000
+ alright okay and four you bring it up to bring it to
+
+384
+01:52:59,000 --> 01:53:08,000
+ in parent two four is in the last position alright so that means like that's where your eight should go
+
+385
+01:53:09,000 --> 01:53:16,000
+ okay eight starting from here it goes here and then here so we have our eight
+
+386
+01:53:17,000 --> 01:53:28,000
+ alright so eight maps into four but where's four in parent two is here alright so we bring eight
+
+387
+01:53:29,000 --> 01:53:46,000
+ to here and then the other one is two alright two goes to five alright five in parent two is here
+
+388
+01:53:47,000 --> 01:53:53,000
+ but five is already taken care of four five six seven so we carry on you know and then five goes to seven
+
+389
+01:53:53,000 --> 01:54:06,000
+ and then seven in parent two is in this position so that means that for two you keep going until we find the corresponding position where it can go
+
+390
+01:54:07,000 --> 01:54:21,000
+ so it goes to goes to here so we already have part of the string alright so there's a partial mapping aspect of it
+
+391
+01:54:21,000 --> 01:54:31,000
+ then after that we construct we construct the remaining according to the order so this is still missing
+
+392
+01:54:32,000 --> 01:54:39,000
+ of course this is a very small example alright but if it's regardless how long that's how you will do it
+
+393
+01:54:39,000 --> 01:54:56,000
+ so you go according this is missing here so from parent two alright one okay so you go whatever from the substring the next one is one
+
+394
+01:54:56,000 --> 01:55:12,000
+ so one goes here and after that you go to the beginning alright you want to fill up this position then four is taken care of so you wrap back to nine
+
+395
+01:55:13,000 --> 01:55:19,000
+ and then nine occupies this position and then the next one is three
+
+396
+01:55:19,000 --> 01:55:30,000
+ so on the surface initially it looks kind of daunting or difficult but actually when you look at it you know is it kind of makes sense right
+
+397
+01:55:31,000 --> 01:55:38,000
+ so it do a partial mapping of the substring and then after that we fill up according to the remaining order of the genes
+
+398
+01:55:38,000 --> 01:55:45,000
+ so it takes both parents right so aspects are characteristics of both parents
+
+399
+01:55:49,000 --> 01:56:01,000
+ so there's one offspring alright so maybe you try try see how you would do the second offspring right just a method of practice here
+
+400
+01:56:02,000 --> 01:56:09,000
+ so the second offspring we start off with eight to six five
+
+401
+01:56:10,000 --> 01:56:12,000
+ so now you construct the rest
+
+402
+01:56:22,000 --> 01:56:25,000
+ alright take two minutes construct the remaining
+
+403
+01:56:31,000 --> 01:56:33,000
+ okay
+
+404
+01:57:01,000 --> 01:57:03,000
+ okay
+
+405
+01:57:31,000 --> 01:57:33,000
+ okay
+
+406
+01:58:01,000 --> 01:58:03,000
+ okay
+
+407
+01:58:15,000 --> 01:58:18,000
+ okay so you got it
+
+408
+01:58:31,000 --> 01:58:33,000
+ okay
+
+409
+01:58:47,000 --> 01:59:00,000
+ so from parent one parent two we can produce two offspring alright so the first parent the first offspring we've seen it this is the sequence that we have generated
+
+410
+01:59:01,000 --> 01:59:12,000
+ so we call it offspring one so offspring two would just be the reverse so inherit right eight to six five from parent two
+
+411
+01:59:14,000 --> 01:59:27,000
+ as what we have done before right this substring here we'll look at the first parent right the first parent and see which one has matches right
+
+412
+01:59:28,000 --> 01:59:45,000
+ so according to what you have already put in the offspring eight to six five six five and six in the first parent already dead
+
+413
+01:59:46,000 --> 01:59:53,000
+ alright so what remains in the substring is four and seven
+
+414
+01:59:53,000 --> 02:00:07,000
+ alright so now you want to know alright this four and seven where should I place them alright where should I place them so you take care of four first four goes to eight and then eight goes here
+
+415
+02:00:08,000 --> 02:00:19,000
+ alright after that you take care of you take care of seven alright where the seven goes
+
+416
+02:00:19,000 --> 02:00:30,000
+ so seven goes here here five two and then here so therefore what you see
+
+417
+02:00:36,000 --> 02:00:41,000
+ alright so this is from the partial matching of the substring
+
+418
+02:00:41,000 --> 02:01:03,000
+ then after that you construct the remaining from one or two one right because of the eight to six five come from parent two so the remaining of it you construct from parent one
+
+419
+02:01:03,000 --> 02:01:17,000
+ so then accordingly you have parent one so then you have nine follows here and then the remaining goes like that
+
+420
+02:01:18,000 --> 02:01:23,000
+ so there's your PMX right very common okay
+
+421
+02:01:23,000 --> 02:01:41,000
+ okay so the next interesting crossover operation we want to understand is something that is the what we call the cycle crossover
+
+422
+02:01:41,000 --> 02:02:02,000
+ so take two parents and then analyze the two parents and identify the cycles alright a cycle is basically so-called the mapping or matching between the parents
+
+423
+02:02:02,000 --> 02:02:15,000
+ right where you start from one position and then when you map over you draw the points that it goes until you come back to the original position
+
+424
+02:02:16,000 --> 02:02:26,000
+ alright that's how you form a cycle and then after you identify the cycles then you swap according to the cycle right you swap according to the cycles
+
+425
+02:02:27,000 --> 02:02:32,000
+ so take a look at this example
+
+426
+02:02:38,000 --> 02:02:55,000
+ so if you look at this the cycle goes like this starting from one right one goes to nine and then nine goes to here
+
+427
+02:02:56,000 --> 02:03:13,000
+ from parent one and then nine goes to four and then four goes to here and then eight goes to here and then eight points to one parent one here
+
+428
+02:03:14,000 --> 02:03:30,000
+ and then eight goes to one in parent two and then finally it goes back to one in parent one that's our starting point
+
+429
+02:03:31,000 --> 02:03:39,000
+ alright so that is a cycle alright that's a cycle involving four pairs of genes
+
+430
+02:03:40,000 --> 02:03:52,000
+ so again right our starting point identify our starting point okay one goes to nine nine goes to here
+
+431
+02:03:52,000 --> 02:04:08,000
+ alright so I hope you see my laser pointer here and then nine to four four goes to here and then four to eight and then eight goes to p1 parent one
+
+432
+02:04:09,000 --> 02:04:15,000
+ and then eight to one and finally we goes back to our original starting point so that's your cycle alright
+
+433
+02:04:16,000 --> 02:04:27,000
+ then you will continue to form the remaining cycles alright the remaining cycles you work with those that are that were not in the first cycle
+
+434
+02:04:28,000 --> 02:04:37,000
+ so those in white are the remaining ones so then you go to two alright so you go to two so where's the cycle
+
+435
+02:04:37,000 --> 02:04:54,000
+ two to three and then three to here follow the pointer right two to three and then three to seven alright
+
+436
+02:04:54,000 --> 02:05:05,000
+ and then seven goes to here and then seven to five and then five to here and then two and then back to two that's another cycle
+
+437
+02:05:08,000 --> 02:05:19,000
+ alright so that also that involves also four pairs of genes then the next cycle is here alright
+
+438
+02:05:19,000 --> 02:05:32,000
+ so starting from six because after this what remains is six so six forms on cycle this is the shortest cycle alright
+
+439
+02:05:34,000 --> 02:05:45,000
+ so in cycle crossover very straightforward you just exchange according to the cycle alright so you alternate you alternate
+
+440
+02:05:46,000 --> 02:05:56,000
+ so you alternate so let's say for example we take the first cycle remains and then we take the second cycle and then we just swap according to the cycle
+
+441
+02:05:57,000 --> 02:06:07,000
+ so whatever in the white the second cycle two three six seven we swap accordingly so there's your cycle crossover
+
+442
+02:06:07,000 --> 02:06:24,000
+ now the other type of crossing over is what we call the H recombination alright so still talking about permutation string
+
+443
+02:06:25,000 --> 02:06:32,000
+ alright so this is what permutation string allows you that kind of variations in terms of the type of operations
+
+444
+02:06:32,000 --> 02:06:43,000
+ so it goes according to the principle of what we mentioned earlier on that we design operators that are suitable for their representations
+
+445
+02:06:44,000 --> 02:06:53,000
+ alright so of course what you've seen is that this is like a blueprint you know this is what has been tried out before so if you implement your GA
+
+446
+02:06:53,000 --> 02:07:00,000
+ if yours is a permutation string this is one possibility of your so-called your crossover
+
+447
+02:07:02,000 --> 02:07:14,000
+ okay let's take a look at the H recombination alright the H recombination so ages you have all these points right you have all these points
+
+448
+02:07:14,000 --> 02:07:23,000
+ like your traveling salesman problem you have all the notes and then the lines connecting them those will be the ages
+
+449
+02:07:24,000 --> 02:07:37,000
+ alright the ages so for example if you have one two three right so one and two there's an H and then two and three there's an H and so on
+
+450
+02:07:37,000 --> 02:07:55,000
+ so in your H recombination alright first of all first we construct the H table the H table alright so ages are defined in the sequence
+
+451
+02:07:56,000 --> 02:08:15,000
+ in a permutation string sequence for example note number one the H is it has an H with two alright and nine assuming is a closed circuit traveling salesman problem
+
+452
+02:08:15,000 --> 02:08:32,000
+ so it goes from city one to two three all the way to nine and then back to one so there's an H from nine to one so in your table alright in your table element one
+
+453
+02:08:32,000 --> 02:08:56,000
+ right element one has ages with two and nine alright that is from the first string and then from the second string element one has four and five
+
+454
+02:08:56,000 --> 02:09:25,000
+ so you have four and five here so the ages to one is two five four nine alright based on the two parents and then two element two is one here three here and then eight and six alright
+
+455
+02:09:26,000 --> 02:09:52,000
+ so in this table for two here one three six eight okay now let's take a look at five okay element five five from parent one you have four and six four and six alright
+
+456
+02:09:52,000 --> 02:10:16,000
+ so you put four and six and then from parent two five is one and six alright one and six so six occurs in both the parents so here in our table we put a plus sign
+
+457
+02:10:17,000 --> 02:10:32,000
+ a plus sign is a duplicate in the two parents so in short this is how we create the table is not a very difficult process alright but on the
+
+458
+02:10:32,000 --> 02:10:49,000
+ graph of visualization when you what you mean by age are you just identifying those ages applicable to a particular note and after that we carry out our crossover or recombination
+
+459
+02:10:49,000 --> 02:11:18,000
+ so the age crossover or recombination is a constructive process right in other words in order to generate the offspring you construct it one by one according to the ages and some random process okay according to some random process
+
+460
+02:11:19,000 --> 02:11:36,000
+ and also some defined rules if I make alright so let's see what that means you know in actual example
+
+461
+02:11:36,000 --> 02:11:58,000
+ so in in our example of two parents alright you have all together nine ages one two three four five six seven eight nine so this is our age table alright so initially we are nothing so we're going to construct we're going to construct the first one
+
+462
+02:11:59,000 --> 02:12:23,000
+ so maybe we pick randomly right let's say maybe for a bit of simplicity let's start off with one let's call it some random process we just pick element one right so element one element one connected to two five four and nine
+
+463
+02:12:23,000 --> 02:12:50,000
+ two five four and nine then you will go to first let's check out two so we check out two this is two two is connected to one three six eight now one has already been chosen so we can not one or right because one because from one right we're going to choose one okay so from one
+
+464
+02:12:53,000 --> 02:13:22,000
+ from one we go to two right two is one three six eight so one and two they are mutual right they are connected to each other so so this is two and then you have five the second one is five so you go to five one four six plus right and then four this is four one three five nine and then nine one three four eight
+
+465
+02:13:23,000 --> 02:13:35,000
+ so we decide based on those four those possibilities of two five four nine which one to pick
+
+466
+02:13:35,000 --> 02:14:02,000
+ so if you look at this four possibilities two two four five nine right it seems like five is the shortest right so we pick five so we pick five okay so our partial result now is one and five right so we have constructed a partial sequence of one and two
+
+467
+02:14:05,000 --> 02:14:27,000
+ and five so you're going to cancel off those that has already one and five right you cancel off one and five that has already been used because this is a permutation string you understand right permutation string so after you construct it is already in the list you can knock it off from the edge table you don't have to consider anymore
+
+468
+02:14:28,000 --> 02:14:53,000
+ so then from from five right from five one is taken care of so you have four and six so you look at four and then you look at six right so you pick you pick six so six has a common H
+
+469
+02:14:53,000 --> 02:15:22,000
+ right so then you pick six then your partial solution list is one five six so so you can see where this is leading right so you keep on so called constructing right the solution or the offspring one by one according to the H table
+
+470
+02:15:22,000 --> 02:15:48,000
+ so different types of recombination you have seen right in the permutation but what is clear is that because of the need to preserve the permutation of the string right you have a little bit more variations on the possibilities of how you do the recombination
+
+471
+02:15:52,000 --> 02:16:21,000
+ okay so very quickly the last one right this will be the last part I want to talk about and just in a very brief manner so besides evolving strings that translate to so called let's say chromosomes that translate to like sequence of twirls and so on
+
+472
+02:16:22,000 --> 02:16:49,000
+ specific or absolute solution right there's no reason why we cannot code a chromosome right such that it represents a program or a procedure and that's what essentially what genetic programming tries to do so in other words what you're doing is that you're evolving the program or the procedure
+
+473
+02:16:52,000 --> 02:17:16,000
+ right so therefore in this context here to be able to represent as a tree right the tree structure as a chromosome that becomes important right so just to give you an idea of how this can be applied right so let's say you have a formula arithmetic formula
+
+474
+02:17:16,000 --> 02:17:45,000
+ so so 2 pi plus x plus 3 and so on so these are arithmetic formula right or you could have a logical formula right which is as given such okay x or y or z right implies x and y
+
+475
+02:17:46,000 --> 02:18:08,000
+ and so on it can also be codes program codes right these are program codes okay be it your python codes or your sea codes so how do we see it as a tree
+
+476
+02:18:08,000 --> 02:18:32,000
+ so this is the equation right this is the equation of the formula that we want to represent as a so called as a chromosome right in order to see the representation of it we got to see it as a tree
+
+477
+02:18:32,000 --> 02:18:58,000
+ so this equation or this formula put as a tree structure right so one thing that becomes very clear is that the terminals of the tree right the terminals end of the trees those are values or operands that's the terminal right anything that's above that or those are the operands
+
+478
+02:18:58,000 --> 02:19:26,000
+ so from this here according to the structure of this formula here so you have a big bracket here and then the plus so this become the root the plus of it so when you evaluate starting from the terminal values and then you go all the way up and that is the how you would decode right the tree right
+
+479
+02:19:29,000 --> 02:19:53,000
+ so in this here for example this is a logical formula so again same thing the terminal they are all the so called the entities the variables right or the value itself
+
+480
+02:19:53,000 --> 02:20:19,000
+ and the program so right so clearly what you can see is that there's no limitations of what you can encode the chromosome right the different types of representation we talked about earlier on right now you see even a program or a finite state machine for example can also be encoded
+
+481
+02:20:20,000 --> 02:20:47,000
+ and so the next question to ask is how do we do mutation how do we do crossover and I think not difficult to see right in your mutation your crossover the rule of the tree representation has to be conformed all we have to follow
+
+482
+02:20:47,000 --> 02:21:16,000
+ so those are symbolic representations so the value of it you have a terminal set and then you have a function set right so the terminal set are the values or the variables okay so just kind of a food for thought for you right to see the possibilities on how the GA can take a form of evaluating stress
+
+483
+02:21:17,000 --> 02:21:45,000
+ structure of a program for example or finite state machines you know or any other tree structures right so for example if you see it as a tree for mutation could just be a single point mutation at the so called node of a tree and so on right
+
+484
+02:21:45,000 --> 02:22:14,000
+ so I leave all this for you to look at right and recombination taking a sub tree and then exchanging between two chromosomes and right and I think that should cover the parts I want to cover which are examinable right although I still have some time yet but I think my evening class I only have half the time
+
+485
+02:22:15,000 --> 02:22:42,000
+ so in order to equalize it I like to stop at this point right rather than introduce more other topics pertaining to the algorithm right okay so you know what to expect in your quiz and I think the value of it maybe I should post a map one until you learn as well
+
+486
+02:22:42,000 --> 02:23:08,000
+ just in case some of you may miss it so the venue is actually on the north spine there are three venues and I think you already know where you're supposed to go so it will take a good ten minutes walk to go from here to the venue right but it probably won't affect you so much but for the evening one if they are lost I think they will not make it in time you know
+
+487
+02:23:09,000 --> 02:23:14,000
+ okay I think we end the lecture here and I see you tomorrow evening
+
+488
+02:23:15,000 --> 02:23:21,000
+ okay thank you very much it's been a pleasure
+
+489
+02:23:38,000 --> 02:23:40,000
+ you
+
+490
+02:24:08,000 --> 02:24:10,000
+ you
+
+491
+02:24:38,000 --> 02:24:40,000
+ you
+
+492
+02:25:08,000 --> 02:25:10,000
+ you
+
+493
+02:25:38,000 --> 02:25:40,000
+ you
+
+494
+02:26:08,000 --> 02:26:10,000
+ you
+
+495
+02:26:38,000 --> 02:26:40,000
+ you
+
+496
+02:27:08,000 --> 02:27:10,000
+ you
+
+497
+02:27:38,000 --> 02:27:40,000
+ you
+
+498
+02:28:08,000 --> 02:28:10,000
+ you
+
+499
+02:28:38,000 --> 02:28:40,000
+ you
+
+500
+02:29:08,000 --> 02:29:10,000
+ you
+
+501
+02:29:38,000 --> 02:29:40,000
+ you
+
+502
+02:30:08,000 --> 02:30:10,000
+ you
+
+503
+02:30:38,000 --> 02:30:40,000
+ you
+
+504
+02:31:08,000 --> 02:31:10,000
+ you
+
+505
+02:31:38,000 --> 02:31:40,000
+ you
+
+506
+02:32:08,000 --> 02:32:10,000
+ you
+
+507
+02:32:38,000 --> 02:32:40,000
+ you
+
+508
+02:33:08,000 --> 02:33:10,000
+ you
+
+509
+02:33:38,000 --> 02:33:40,000
+ you
+
+510
+02:34:08,000 --> 02:34:10,000
+ you
+
+511
+02:34:38,000 --> 02:34:40,000
+ you
+
+512
+02:35:08,000 --> 02:35:10,000
+ you
+
+513
+02:35:38,000 --> 02:35:40,000
+ you
+
+514
+02:36:08,000 --> 02:36:10,000
+ you
+
+515
+02:36:38,000 --> 02:36:40,000
+ you
+
+516
+02:37:08,000 --> 02:37:10,000
+ you
+
+517
+02:37:38,000 --> 02:37:40,000
+ you
+
+518
+02:38:08,000 --> 02:38:10,000
+ you
+
+519
+02:38:38,000 --> 02:38:40,000
+ you
+
+520
+02:39:08,000 --> 02:39:10,000
+ you
+
+521
+02:39:38,000 --> 02:39:40,000
+ you
+
+522
+02:40:08,000 --> 02:40:10,000
+ you
+
+523
+02:40:38,000 --> 02:40:40,000
+ you
+
+524
+02:41:08,000 --> 02:41:10,000
+ you
+
+525
+02:41:38,000 --> 02:41:40,000
+ you
+
+526
+02:42:08,000 --> 02:42:10,000
+ you
+
+527
+02:42:38,000 --> 02:42:40,000
+ you
+
+528
+02:43:08,000 --> 02:43:10,000
+ you
+
+529
+02:43:38,000 --> 02:43:40,000
+ you
+
+530
+02:44:08,000 --> 02:44:10,000
+ you
+
+531
+02:44:38,000 --> 02:44:40,000
+ you
+
+532
+02:45:08,000 --> 02:45:10,000
+ you
+
+533
+02:45:38,000 --> 02:45:40,000
+ you
+
+534
+02:46:08,000 --> 02:46:10,000
+ you
+
+535
+02:46:38,000 --> 02:46:40,000
+ you
+
+536
+02:47:08,000 --> 02:47:10,000
+ you
+
+537
+02:47:38,000 --> 02:47:40,000
+ you
+
+538
+02:48:08,000 --> 02:48:10,000
+ you
+
+539
+02:48:38,000 --> 02:48:40,000
+ you
+
+540
+02:49:08,000 --> 02:49:10,000
+ you
+
+541
+02:49:38,000 --> 02:49:40,000
+ you
+
+542
+02:50:08,000 --> 02:50:10,000
+ you
+
+543
+02:50:38,000 --> 02:50:40,000
+ you
+
+544
+02:51:08,000 --> 02:51:10,000
+ you
+
+545
+02:51:38,000 --> 02:51:40,000
+ you
+
+546
+02:52:08,000 --> 02:52:10,000
+ you
+
+547
+02:52:38,000 --> 02:52:40,000
+ you
+
+548
+02:53:08,000 --> 02:53:10,000
+ you
+
+549
+02:53:38,000 --> 02:53:40,000
+ you
+
+550
+02:54:08,000 --> 02:54:10,000
+ you
+
+551
+02:54:38,000 --> 02:54:40,000
+ you
+
+552
+02:55:08,000 --> 02:55:10,000
+ you
+
+553
+02:55:38,000 --> 02:55:40,000
+ you
+
+554
+02:56:08,000 --> 02:56:10,000
+ you
+
+555
+02:56:38,000 --> 02:56:40,000
+ you
+
+556
+02:57:08,000 --> 02:57:10,000
+ you
+
+557
+02:57:38,000 --> 02:57:40,000
+ you
+
+558
+02:58:08,000 --> 02:58:10,000
+ you
+
+559
+02:58:38,000 --> 02:58:40,000
+ you
+
+560
+02:59:08,000 --> 02:59:10,000
+ you
+
+561
+02:59:38,000 --> 02:59:40,000
+ you
+
