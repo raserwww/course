@@ -1,0 +1,3688 @@
+1
+00:00:00,000 --> 00:00:02,000
+ you
+
+2
+00:00:30,000 --> 00:00:32,000
+ you
+
+3
+00:01:00,000 --> 00:01:02,000
+ you
+
+4
+00:01:30,000 --> 00:01:32,000
+ you
+
+5
+00:02:00,000 --> 00:02:02,000
+ you
+
+6
+00:02:30,000 --> 00:02:32,000
+ you
+
+7
+00:03:00,000 --> 00:03:02,000
+ you
+
+8
+00:03:30,000 --> 00:03:32,000
+ you
+
+9
+00:04:00,000 --> 00:04:02,000
+ you
+
+10
+00:04:30,000 --> 00:04:32,000
+ you
+
+11
+00:05:00,000 --> 00:05:02,000
+ you
+
+12
+00:05:30,000 --> 00:05:32,000
+ you
+
+13
+00:06:00,000 --> 00:06:02,000
+ you
+
+14
+00:06:30,000 --> 00:06:32,000
+ you
+
+15
+00:07:00,000 --> 00:07:10,000
+ you
+
+16
+00:07:30,000 --> 00:07:32,000
+ you
+
+17
+00:08:00,000 --> 00:08:02,000
+ you
+
+18
+00:08:30,000 --> 00:08:42,000
+ you
+
+19
+00:09:00,000 --> 00:09:16,000
+ you
+
+20
+00:09:30,000 --> 00:09:46,000
+ you
+
+21
+00:10:00,000 --> 00:10:16,000
+ you
+
+22
+00:10:30,000 --> 00:10:46,000
+ you
+
+23
+00:11:00,000 --> 00:11:26,000
+ you
+
+24
+00:11:26,000 --> 00:11:38,000
+ you
+
+25
+00:11:38,000 --> 00:11:40,000
+ you
+
+26
+00:11:56,000 --> 00:12:12,000
+ you
+
+27
+00:12:26,000 --> 00:12:42,000
+ you
+
+28
+00:12:56,000 --> 00:13:12,000
+ you
+
+29
+00:13:12,000 --> 00:13:14,000
+ you
+
+30
+00:13:26,000 --> 00:13:34,000
+ you
+
+31
+00:13:34,000 --> 00:13:54,000
+ okay, this assignment is more like a review or a survey. So you have the option to choose our topics that you are interested in. So here I list quite a few topics.
+
+32
+00:13:54,000 --> 00:14:08,000
+ They are for different types of robots. So review the state of the art of one type of robots or autonomous systems.
+
+33
+00:14:08,000 --> 00:14:28,000
+ So we have a lot of robots that can be used in hospitals, elderly care rooms, or in surgeries.
+
+34
+00:14:28,000 --> 00:14:46,000
+ So we have manufacturing robots, many used in factories. Our logistics robots, many used in warehouses, or in the airport, the seaport, autonomous cars.
+
+35
+00:14:46,000 --> 00:15:06,000
+ So let's say autonomous taxis. Airman aircraft vehicles, UAVs. So you can review small UAVs or even bigger UAVs, like flying taxis. So it's up to you.
+
+36
+00:15:06,000 --> 00:15:16,000
+ Cleaning robots for indoor usages or outdoor usages. These ones are fine.
+
+37
+00:15:16,000 --> 00:15:32,000
+ Robot manipulators or robot arms. They can be used in factories, in warehouses, and also in many other different environments.
+
+38
+00:15:32,000 --> 00:15:43,000
+ Robot grippers, they can also create robot hands. It's more like the anti-effector of robot manipulators.
+
+39
+00:15:43,000 --> 00:15:57,000
+ This year, this humanoid robot is quite popular. So you can also review humanoid robots, robot dogs, or traditional mobile ground robots.
+
+40
+00:15:58,000 --> 00:16:10,000
+ So you can also choose another type of robots. For each type of robots, the technical scope can be very broad. You don't have to cover everything.
+
+41
+00:16:10,000 --> 00:16:18,000
+ You can choose something that you have interest to discuss in your assignment work.
+
+42
+00:16:18,000 --> 00:16:32,000
+ Let's say, for example, usually when people handle robots, people can consider sensing and perception, control, robot learning, many different topics.
+
+43
+00:16:32,000 --> 00:16:39,000
+ So you can cover all of them, or just one of them. It's up to you to decide.
+
+44
+00:16:39,000 --> 00:16:52,000
+ All right. So what needs to be covered in this assignment? So here we have five points.
+
+45
+00:16:52,000 --> 00:17:06,000
+ Number one, you review and compare the existing research and the development on this topic.
+
+46
+00:17:07,000 --> 00:17:20,000
+ You can discuss research works, demos, user cases, products, and even projects in industry or in academia.
+
+47
+00:17:20,000 --> 00:17:31,000
+ So through this kind of review and comparison, the purpose is to find out the best solution from your point of view.
+
+48
+00:17:31,000 --> 00:17:42,000
+ Let's say, for example, there are many different humanoid robots developing in USA, in Europe, in China, et cetera.
+
+49
+00:17:42,000 --> 00:17:57,000
+ So they have different features. So comparing them, then you can share your opinion. Which one is the best from your point of view?
+
+50
+00:17:58,000 --> 00:18:15,000
+ Number two, so after you choose the best solution that you think, then you can describe that best solution and explain in some detail why you think it is the best.
+
+51
+00:18:16,000 --> 00:18:27,000
+ This is the second point. And then the third point, discuss the challenges to improve the type of robots.
+
+52
+00:18:27,000 --> 00:18:36,000
+ You don't have to figure it out by yourself. You can just find out from the literature.
+
+53
+00:18:36,000 --> 00:18:43,000
+ Next, what are the challenges already identified by researchers all around the world?
+
+54
+00:18:43,000 --> 00:18:49,000
+ Number four, discuss what you learned from this review.
+
+55
+00:18:49,000 --> 00:19:05,000
+ And then finally, comment on whether this review increases your interest to study further robotics or pursue a future career in robotics or intelligence systems.
+
+56
+00:19:06,000 --> 00:19:13,000
+ Robots or robotics is becoming more and more popular.
+
+57
+00:19:17,000 --> 00:19:25,000
+ So this is an individual assignment. So each of you submit your work through NTU-LEN.
+
+58
+00:19:25,000 --> 00:19:31,000
+ So after you log into NTU-LEN, you go to the folder assignment, then you can submit over there.
+
+59
+00:19:32,000 --> 00:19:38,000
+ Before the deadline, you can submit as many times as you can.
+
+60
+00:19:38,000 --> 00:19:42,000
+ So we will agree based on your last submission.
+
+61
+00:19:42,000 --> 00:19:49,000
+ But if possible, please remove the submissions that you don't want.
+
+62
+00:19:49,000 --> 00:19:53,000
+ Otherwise, there are too many files there and I may get confused.
+
+63
+00:19:54,000 --> 00:20:05,000
+ If your student just meets a PDF, please don't use Word or any other format.
+
+64
+00:20:05,000 --> 00:20:11,000
+ The deadline is 8th November. It's Friday.
+
+65
+00:20:11,000 --> 00:20:18,000
+ Please note that copying is not allowed in NTU.
+
+66
+00:20:18,000 --> 00:20:24,000
+ So in this assignment, the same. So please don't copy from somewhere.
+
+67
+00:20:24,000 --> 00:20:30,000
+ From sources even in a different language.
+
+68
+00:20:35,000 --> 00:20:37,000
+ Okay, so that's for the assignment.
+
+69
+00:20:37,000 --> 00:20:44,000
+ Next, if you have any questions regarding the assignment, you can talk to me during the break or after the class.
+
+70
+00:20:48,000 --> 00:21:00,000
+ Okay, so for today's class, because we don't have a lot of mathematics,
+
+71
+00:21:00,000 --> 00:21:04,000
+ so I will just use a slides to teach this class.
+
+72
+00:21:04,000 --> 00:21:09,000
+ In future, several weeks, we'll have mathematics.
+
+73
+00:21:09,000 --> 00:21:13,000
+ I will write on the paper and show you the derivations.
+
+74
+00:21:13,000 --> 00:21:22,000
+ They will make a kind of switch between the projector and also this camera system.
+
+75
+00:21:24,000 --> 00:21:31,000
+ Okay, this is the first lecture of part two, Introduction and Sensors.
+
+76
+00:21:31,000 --> 00:21:33,000
+ All right, the same. We'll talk about sensors.
+
+77
+00:21:33,000 --> 00:21:38,000
+ I'll first show you several samples from my lab.
+
+78
+00:21:38,000 --> 00:21:43,000
+ I will pass them through the class so you can take a look at them.
+
+79
+00:21:43,000 --> 00:21:50,000
+ So first we'll have two camera sensors made by Intel.
+
+80
+00:21:50,000 --> 00:21:54,000
+ They are called real-sense cameras.
+
+81
+00:21:57,000 --> 00:22:00,000
+ So you can take a look at them and pass it to other students.
+
+82
+00:22:08,000 --> 00:22:17,000
+ Okay, so these are two UDB receivers for UDB sensors.
+
+83
+00:22:25,000 --> 00:22:29,000
+ Okay, I'll take a look at you and pass it to other students at the back.
+
+84
+00:22:39,000 --> 00:22:46,000
+ Okay, so these are two small sensors, some MUs.
+
+85
+00:22:58,000 --> 00:23:03,000
+ We also have two laser range sensors.
+
+86
+00:23:03,000 --> 00:23:09,000
+ Some people call them LiDAR.
+
+87
+00:23:34,000 --> 00:23:39,000
+ Okay, so these are two MUs.
+
+88
+00:23:39,000 --> 00:23:44,000
+ These are two MUs.
+
+89
+00:23:44,000 --> 00:23:49,000
+ These are two MUs.
+
+90
+00:23:49,000 --> 00:23:54,000
+ These are two MUs.
+
+91
+00:23:54,000 --> 00:23:59,000
+ These are two MUs.
+
+92
+00:24:00,000 --> 00:24:09,000
+ Okay, this is the outline of today's class.
+
+93
+00:24:09,000 --> 00:24:17,000
+ Introduction and then we'll talk about different types of sensors.
+
+94
+00:24:17,000 --> 00:24:20,000
+ Sensor classification.
+
+95
+00:24:29,000 --> 00:24:38,000
+ So next we'll talk about several features or characteristics of various sensors.
+
+96
+00:24:38,000 --> 00:24:43,000
+ Then we'll talk about multi-encoders,
+
+97
+00:24:43,000 --> 00:24:49,000
+ heading orientation sensors, ground-based beacons,
+
+98
+00:24:49,000 --> 00:24:56,000
+ also active range sensors and speed sensors, vision sensors, et cetera.
+
+99
+00:24:56,000 --> 00:25:02,000
+ So in short, we will talk about multiple types of sensors.
+
+100
+00:25:08,000 --> 00:25:15,000
+ Robo sensors can mainly be put into two different classes,
+
+101
+00:25:15,000 --> 00:25:21,000
+ internal state sensors and external state sensors.
+
+102
+00:25:22,000 --> 00:25:32,000
+ Internal sensors are used to measure the internal states of a machine,
+
+103
+00:25:32,000 --> 00:25:37,000
+ for example, a robot or an autonomous vehicle.
+
+104
+00:25:37,000 --> 00:25:48,000
+ And those internal states include, like I say, position, orientation, speed, acceleration, et cetera.
+
+105
+00:25:48,000 --> 00:25:51,000
+ Why do we need internal states?
+
+106
+00:25:51,000 --> 00:25:56,000
+ Because we want to control the machines, we want to control the robots.
+
+107
+00:25:56,000 --> 00:26:02,000
+ So for example, for robot arms, we want to control robot arms to do grasping,
+
+108
+00:26:02,000 --> 00:26:07,000
+ to do manipulation, these kind of tasks.
+
+109
+00:26:10,000 --> 00:26:17,000
+ External sensors are needed for the robot machine
+
+110
+00:26:17,000 --> 00:26:27,000
+ to react and also interact with its environments or surroundings.
+
+111
+00:26:27,000 --> 00:26:37,000
+ Okay. Next, for example, if we want to use a robot to take care of an elderly people,
+
+112
+00:26:37,000 --> 00:26:43,000
+ so there should be some kind of interaction between the robot and the human.
+
+113
+00:26:43,000 --> 00:26:50,000
+ So how to make sure that this robot does not hate the human?
+
+114
+00:26:50,000 --> 00:26:58,000
+ So how to make sure that they can pass some tools or objects between them?
+
+115
+00:26:58,000 --> 00:27:08,000
+ So to do this, we need some external sensors, for example, cameras or ultrasonic sensors.
+
+116
+00:27:09,000 --> 00:27:19,000
+ So here we have a list of sensors, sonar, infrared, haptic feedback sensors,
+
+117
+00:27:19,000 --> 00:27:26,000
+ tactile sensors, range of motion sensors, vision sensors, et cetera.
+
+118
+00:27:26,000 --> 00:27:34,000
+ So next, I'm going to show you several videos.
+
+119
+00:27:40,000 --> 00:27:44,000
+ Okay, so let me find the videos first, then I will switch back.
+
+120
+00:27:56,000 --> 00:27:58,000
+ Okay.
+
+121
+00:28:26,000 --> 00:28:29,000
+ Okay.
+
+122
+00:28:56,000 --> 00:28:59,000
+ Okay.
+
+123
+00:29:26,000 --> 00:29:29,000
+ Okay.
+
+124
+00:29:56,000 --> 00:29:58,000
+ Okay.
+
+125
+00:30:15,000 --> 00:30:19,000
+ Okay, so we are starting with this video on robotic dog.
+
+126
+00:30:19,000 --> 00:30:21,000
+ So you guys can take a look first.
+
+127
+00:30:27,000 --> 00:30:39,000
+ So when you are watching the video, you can think about what kind of sensors are used in this robot
+
+128
+00:30:39,000 --> 00:30:42,000
+ and what can be the functions of the sensors.
+
+129
+00:30:56,000 --> 00:30:59,000
+ Okay.
+
+130
+00:31:26,000 --> 00:31:29,000
+ Okay.
+
+131
+00:31:56,000 --> 00:31:59,000
+ Okay.
+
+132
+00:32:26,000 --> 00:32:28,000
+ Okay.
+
+133
+00:32:28,000 --> 00:32:30,000
+ Okay.
+
+134
+00:32:52,000 --> 00:32:53,000
+ Okay.
+
+135
+00:32:53,000 --> 00:32:56,000
+ This video is a very old one.
+
+136
+00:32:56,000 --> 00:33:00,000
+ It was recorded about 16 years ago.
+
+137
+00:33:00,000 --> 00:33:06,000
+ And why do I choose this one as a first video to show to you guys?
+
+138
+00:33:06,000 --> 00:33:17,000
+ Because from 2005 to 2008, there was a lot of development of autonomous robots,
+
+139
+00:33:17,000 --> 00:33:24,000
+ especially this kind of robot dogs and also autonomous cars.
+
+140
+00:33:24,000 --> 00:33:31,000
+ So these two topics were very popular in those several years.
+
+141
+00:33:31,000 --> 00:33:40,000
+ So nowadays, we can buy much better robot dogs with a much cheaper price.
+
+142
+00:33:40,000 --> 00:33:51,000
+ So and also nowadays, robotic dogs got a lot of applications in both CVN applications
+
+143
+00:33:51,000 --> 00:33:55,000
+ and also military applications.
+
+144
+00:33:55,000 --> 00:34:02,000
+ This video shows us the early stage development of robotic dogs.
+
+145
+00:34:02,000 --> 00:34:08,000
+ So next, I'm also going to show you an early stage development of autonomous cars.
+
+146
+00:34:08,000 --> 00:34:12,000
+ Then we'll see how advanced the robots are nowadays.
+
+147
+00:34:21,000 --> 00:34:31,000
+ This is an early version of Google car.
+
+148
+00:34:52,000 --> 00:34:56,000
+ Look, no hands.
+
+149
+00:34:56,000 --> 00:34:58,000
+ No hands anywhere.
+
+150
+00:34:58,000 --> 00:34:59,000
+ No hands.
+
+151
+00:34:59,000 --> 00:35:00,000
+ No hands.
+
+152
+00:35:00,000 --> 00:35:01,000
+ No hands.
+
+153
+00:35:01,000 --> 00:35:02,000
+ No feet.
+
+154
+00:35:02,000 --> 00:35:03,000
+ No nothing.
+
+155
+00:35:03,000 --> 00:35:04,000
+ I love it.
+
+156
+00:35:06,000 --> 00:35:08,000
+ So we're here at the stop sign.
+
+157
+00:35:08,000 --> 00:35:14,000
+ The car's using the radars and laser to check and make sure there's nothing coming either way.
+
+158
+00:35:14,000 --> 00:35:16,000
+ I'm going to fly myself.
+
+159
+00:35:16,000 --> 00:35:18,000
+ Old habits die hard, man.
+
+160
+00:35:18,000 --> 00:35:19,000
+ They don't die.
+
+161
+00:35:19,000 --> 00:35:20,000
+ Hey, anybody up for a taco?
+
+162
+00:35:20,000 --> 00:35:21,000
+ Yeah, yeah.
+
+163
+00:35:21,000 --> 00:35:23,000
+ What do you want to do today, Steve?
+
+164
+00:35:23,000 --> 00:35:25,000
+ I'm all for tacos, myself.
+
+165
+00:35:25,000 --> 00:35:28,000
+ All right, well, go get a taco at the drive-through.
+
+166
+00:35:31,000 --> 00:35:34,000
+ And we're turning into the parking lot.
+
+167
+00:35:34,000 --> 00:35:36,000
+ There we go.
+
+168
+00:35:36,000 --> 00:35:37,000
+ There we go.
+
+169
+00:35:37,000 --> 00:35:38,000
+ Kind of creep along here.
+
+170
+00:35:38,000 --> 00:35:40,000
+ Does anybody have any money?
+
+171
+00:35:40,000 --> 00:35:41,000
+ I've got money.
+
+172
+00:35:41,000 --> 00:35:42,000
+ No, I've got my lawn right here.
+
+173
+00:35:42,000 --> 00:35:44,000
+ You can roll down your window and order a burrito.
+
+174
+00:35:44,000 --> 00:35:45,000
+ Yeah, push that.
+
+175
+00:35:45,000 --> 00:35:47,000
+ I'm doing very well.
+
+176
+00:35:47,000 --> 00:35:48,000
+ How are you today?
+
+177
+00:35:48,000 --> 00:35:50,000
+ I'm doing great today.
+
+178
+00:35:53,000 --> 00:35:56,000
+ This is some of the best driving I've ever done.
+
+179
+00:36:13,000 --> 00:36:17,000
+ 95% of my vision is gone.
+
+180
+00:36:17,000 --> 00:36:19,000
+ I'm well past my own blind.
+
+181
+00:36:23,000 --> 00:36:25,000
+ You lose your timing in life.
+
+182
+00:36:25,000 --> 00:36:27,000
+ Everything takes you much longer.
+
+183
+00:36:27,000 --> 00:36:29,000
+ There are some places that you cannot go.
+
+184
+00:36:29,000 --> 00:36:32,000
+ There are some things that you really cannot do.
+
+185
+00:36:37,000 --> 00:36:41,000
+ Where this would change my life is to give me the independence
+
+186
+00:36:41,000 --> 00:36:46,000
+ and the flexibility to go the places I both want to go
+
+187
+00:36:46,000 --> 00:36:48,000
+ and need to go.
+
+188
+00:36:48,000 --> 00:36:51,000
+ Well, I need to do those things.
+
+189
+00:37:05,000 --> 00:37:07,000
+ To do those things.
+
+190
+00:37:07,000 --> 00:37:12,000
+ Okay, so this is an earlier version of Autonomous Cars.
+
+191
+00:37:13,000 --> 00:37:18,000
+ So now this we can find many different types of Autonomous Cars.
+
+192
+00:37:20,000 --> 00:37:22,000
+ Just want to share with you that tomorrow,
+
+193
+00:37:22,000 --> 00:37:25,000
+ actually tomorrow Tesla is going to really
+
+194
+00:37:25,000 --> 00:37:29,000
+ launch its robot taxi.
+
+195
+00:37:29,000 --> 00:37:34,000
+ So let's see how good it is.
+
+196
+00:37:36,000 --> 00:37:38,000
+ A couple of months ago,
+
+197
+00:37:38,000 --> 00:37:41,000
+ in a city in China,
+
+198
+00:37:41,000 --> 00:37:47,000
+ there was deployment of many autonomous taxis.
+
+199
+00:37:47,000 --> 00:37:50,000
+ I think it's in Wuhan, China.
+
+200
+00:37:52,000 --> 00:37:54,000
+ They call it a robot.
+
+201
+00:37:54,000 --> 00:38:00,000
+ It's how they call it the autonomous taxi.
+
+202
+00:38:00,000 --> 00:38:02,000
+ It's actually not fully autonomous.
+
+203
+00:38:02,000 --> 00:38:05,000
+ It's more like semi-autonomous.
+
+204
+00:38:05,000 --> 00:38:11,000
+ So for most of the time, the taxis run by themselves.
+
+205
+00:38:11,000 --> 00:38:14,000
+ But under very harsh environments,
+
+206
+00:38:14,000 --> 00:38:19,000
+ or under very complicated environments,
+
+207
+00:38:19,000 --> 00:38:22,000
+ human drivers take over remotely.
+
+208
+00:38:22,000 --> 00:38:25,000
+ So I will call it like a semi-autonomous.
+
+209
+00:38:35,000 --> 00:38:40,000
+ Okay, so since last year,
+
+210
+00:38:40,000 --> 00:38:46,000
+ these humanoid robots become very popular.
+
+211
+00:38:46,000 --> 00:38:52,000
+ So you can find many different types of humanoid robots online.
+
+212
+00:38:52,000 --> 00:38:56,000
+ So here I just list three of them.
+
+213
+00:38:56,000 --> 00:39:04,000
+ And these pictures were found about more than, I would say,
+
+214
+00:39:04,000 --> 00:39:07,000
+ more than three or four months ago.
+
+215
+00:39:07,000 --> 00:39:11,000
+ So they are not the latest version.
+
+216
+00:39:11,000 --> 00:39:15,000
+ The first robot is called Atlas,
+
+217
+00:39:15,000 --> 00:39:18,000
+ made by Boston Dynamics.
+
+218
+00:39:21,000 --> 00:39:25,000
+ The second one is called Optimus,
+
+219
+00:39:25,000 --> 00:39:28,000
+ made by Tesla.
+
+220
+00:39:28,000 --> 00:39:33,000
+ So for this one, people may be able to buy in 2025.
+
+221
+00:39:36,000 --> 00:39:39,000
+ The third one is called a figure.
+
+222
+00:39:39,000 --> 00:39:42,000
+ So this version is called a figure 01.
+
+223
+00:39:42,000 --> 00:39:49,000
+ So there may be a newer version released already.
+
+224
+00:39:49,000 --> 00:39:55,000
+ So this is made by the company figure and also OpenAI.
+
+225
+00:39:55,000 --> 00:40:02,000
+ So this one has potential to become quite intelligent.
+
+226
+00:40:10,000 --> 00:40:12,000
+ I'm not afraid to show my bare skin.
+
+227
+00:40:12,000 --> 00:40:15,000
+ Ever since I started using Fatera essence,
+
+228
+00:40:15,000 --> 00:40:18,000
+ my skin feels more radiant, smooth, and deeply hydrated.
+
+229
+00:40:18,000 --> 00:40:22,000
+ So I have to wait until this finishes the way.
+
+230
+00:40:22,000 --> 00:40:24,000
+ I'm confident in my best bare skin.
+
+231
+00:40:24,000 --> 00:40:26,000
+ If I can, you can too.
+
+232
+00:40:26,000 --> 00:40:30,000
+ Boston Dynamics, the company behind the famous Atlas humanoid robot,
+
+233
+00:40:30,000 --> 00:40:33,000
+ has just released a new video showing Atlas picking
+
+234
+00:40:33,000 --> 00:40:36,000
+ and placing automotive struts in a warehouse.
+
+235
+00:40:36,000 --> 00:40:39,000
+ This is a remarkable demonstration of Atlas's abilities
+
+236
+00:40:39,000 --> 00:40:42,000
+ and a challenge to other humanoid robots in the market.
+
+237
+00:40:42,000 --> 00:40:44,000
+ Let's take a look at the video
+
+238
+00:40:44,000 --> 00:40:47,000
+ and see what it means for the future of robotics.
+
+239
+00:40:47,000 --> 00:40:50,000
+ Atlas is able to perform all of the object recognition
+
+240
+00:40:50,000 --> 00:40:52,000
+ using its onboard sensors.
+
+241
+00:40:52,000 --> 00:40:56,000
+ It can locate the automotive struts in a vertical storage unit,
+
+242
+00:40:56,000 --> 00:40:58,000
+ grasp them with its grippers,
+
+243
+00:40:58,000 --> 00:41:00,000
+ and place them horizontally onto a flow cart.
+
+244
+00:41:00,000 --> 00:41:03,000
+ It can also avoid obstacles and balance itself
+
+245
+00:41:03,000 --> 00:41:05,000
+ while carrying heavy loads.
+
+246
+00:41:05,000 --> 00:41:08,000
+ This is not an easy task for a humanoid robot,
+
+247
+00:41:08,000 --> 00:41:12,000
+ as it requires a lot of coordination, precision, and stability.
+
+248
+00:41:12,000 --> 00:41:16,000
+ But why did Boston Dynamics decide to show this video now?
+
+249
+00:41:16,000 --> 00:41:19,000
+ Well, I think it has something to do with the competition
+
+250
+00:41:19,000 --> 00:41:21,000
+ in the humanoid robot market.
+
+251
+00:41:21,000 --> 00:41:24,000
+ As you may know, there are many other companies
+
+252
+00:41:24,000 --> 00:41:27,000
+ that are developing humanoid robots for various applications,
+
+253
+00:41:27,000 --> 00:41:32,000
+ such as logistics, manufacturing, healthcare, and entertainment.
+
+254
+00:41:32,000 --> 00:41:35,000
+ Some of the most notable ones are Agility Robotics,
+
+255
+00:41:35,000 --> 00:41:38,000
+ Aptronic, Figure, and Softbank Robotics.
+
+256
+00:41:38,000 --> 00:41:41,000
+ These companies have been releasing videos of their robots
+
+257
+00:41:41,000 --> 00:41:44,000
+ as they evolve and become more capable.
+
+258
+00:41:44,000 --> 00:41:47,000
+ For example, Agility's Digit is being tested by Amazon
+
+259
+00:41:47,000 --> 00:41:51,000
+ and GXO Logistics for delivering packages and sorting boxes.
+
+260
+00:41:51,000 --> 00:41:54,000
+ Figure recently signed a deal with BMW
+
+261
+00:41:54,000 --> 00:41:56,000
+ to explore what humanids can do
+
+262
+00:41:56,000 --> 00:42:00,000
+ at the automakers manufacturing facility in South Carolina.
+
+263
+00:42:00,000 --> 00:42:03,000
+ And Softbank's Pepper is a popular service robot
+
+264
+00:42:03,000 --> 00:42:06,000
+ that can interact with customers and read emotions.
+
+265
+00:42:06,000 --> 00:42:10,000
+ So, how does Atlas compare to these other humanids?
+
+266
+00:42:10,000 --> 00:42:14,000
+ Well, Atlas has some advantages and disadvantages.
+
+267
+00:42:14,000 --> 00:42:17,000
+ On the one hand, Atlas is one of the most advanced
+
+268
+00:42:17,000 --> 00:42:20,000
+ and agile humanoid robots in the world.
+
+269
+00:42:20,000 --> 00:42:25,000
+ It can perform dynamic parkour feats, such as jumping, flipping, and running.
+
+270
+00:42:25,000 --> 00:42:28,000
+ It can also work in challenging environments,
+
+271
+00:42:28,000 --> 00:42:31,000
+ such as a mock construction site.
+
+272
+00:42:31,000 --> 00:42:33,000
+ It has a high degree of autonomy and intelligence,
+
+273
+00:42:33,000 --> 00:42:36,000
+ thanks to its AI and machine learning technologies.
+
+274
+00:42:36,000 --> 00:42:39,000
+ On the other hand, Atlas is still a development platform
+
+275
+00:42:39,000 --> 00:42:42,000
+ and not a commercial product.
+
+276
+00:42:42,000 --> 00:42:45,000
+ It is not ready to go to work in the real world just yet.
+
+277
+00:42:45,000 --> 00:42:49,000
+ One of the reasons is that Atlas uses hydraulic actuators,
+
+278
+00:42:49,000 --> 00:42:53,000
+ which are powerful but noisy, bulky, and expensive.
+
+279
+00:42:56,000 --> 00:43:00,000
+ Hydraulic actuators also require a lot of maintenance and cooling,
+
+280
+00:43:00,000 --> 00:43:03,000
+ which limits the robot's battery life and mobility.
+
+281
+00:43:03,000 --> 00:43:07,000
+ Atlas also lacks some of the human-like features and social skills
+
+282
+00:43:07,000 --> 00:43:10,000
+ that other humanids have, such as facial expressions, speech,
+
+283
+00:43:10,000 --> 00:43:12,000
+ and emotion recognition.
+
+284
+00:43:12,000 --> 00:43:17,000
+ So, what does this mean for the future of Atlas and humanoid robots in general?
+
+285
+00:43:17,000 --> 00:43:22,000
+ Well, I think that Boston Dynamics is trying to show that Atlas is still a leader in the field,
+
+286
+00:43:22,000 --> 00:43:26,000
+ and that it can perform tasks that other humanids cannot.
+
+287
+00:43:26,000 --> 00:43:32,000
+ However, I also think that Boston Dynamics will have to adapt to the changing market and customer needs.
+
+288
+00:43:32,000 --> 00:43:37,000
+ They will have to find a way to make Atlas more affordable, efficient, and user-friendly.
+
+289
+00:43:38,000 --> 00:43:41,000
+ They will also have to collaborate with other companies and industries
+
+290
+00:43:41,000 --> 00:43:44,000
+ to find the best use cases for Atlas.
+
+291
+00:43:44,000 --> 00:43:49,000
+ And they will have to keep innovating and improving Atlas's capabilities and performance.
+
+292
+00:43:49,000 --> 00:43:53,000
+ Click here to watch my latest video on the Aptira Electric Solar Car,
+
+293
+00:43:53,000 --> 00:43:56,000
+ which is said to be the world's most efficient electric car.
+
+294
+00:43:56,000 --> 00:44:01,000
+ It has a design that resembles that of an aeroplane and is said to be mass-produced, beginning this year.
+
+295
+00:44:07,000 --> 00:44:11,000
+ It's a big deal and feels like a big deal, exclusively for Prime members.
+
+296
+00:44:16,000 --> 00:44:19,000
+ Okay, so just now for this version that you saw,
+
+297
+00:44:19,000 --> 00:44:24,000
+ I think Boston Dynamics already discontinued this version,
+
+298
+00:44:24,000 --> 00:44:31,000
+ because this is driven by a hydraulic actuator, so that it looks quite big.
+
+299
+00:44:31,000 --> 00:44:38,000
+ The new version uses motors as actuators.
+
+300
+00:44:38,000 --> 00:44:44,000
+ So for the new version, you can find it in YouTube and watch it yourself.
+
+301
+00:44:48,000 --> 00:44:53,000
+ The second one is Optimus, made by Tesla. Let's take a look.
+
+302
+00:46:01,000 --> 00:46:04,000
+ Let's take a look.
+
+303
+00:46:31,000 --> 00:46:44,000
+ Okay, so next we'll talk about internal state sensors.
+
+304
+00:46:44,000 --> 00:46:49,000
+ There are many two different categories, internal and external.
+
+305
+00:46:49,000 --> 00:47:00,000
+ For internal state sensors, they consist of devices used to measure position.
+
+306
+00:47:01,000 --> 00:47:11,000
+ Velocity, or acceleration of robot joints, and all the anti-effectors.
+
+307
+00:47:11,000 --> 00:47:14,000
+ So this is the meaning for robot arms.
+
+308
+00:47:14,000 --> 00:47:23,000
+ Let's see, for the other type of robots, for example, flying UAVs,
+
+309
+00:47:23,000 --> 00:47:27,000
+ so the measurements can be different.
+
+310
+00:47:28,000 --> 00:47:36,000
+ So here we have several examples of internal sensors.
+
+311
+00:47:36,000 --> 00:47:45,000
+ Potential meters, they measure voltages or electrical potentials.
+
+312
+00:47:45,000 --> 00:47:52,000
+ Encoders, so they are motion sensing devices.
+
+313
+00:47:52,000 --> 00:48:00,000
+ There are many different types of encoders, such as optical encoders.
+
+314
+00:48:00,000 --> 00:48:08,000
+ These kind of sensors are usually very cheap, but the accuracy may not be good.
+
+315
+00:48:08,000 --> 00:48:21,000
+ Tecometers, they measure the rotation speed of a shaft or disk.
+
+316
+00:48:21,000 --> 00:48:32,000
+ If we want to have good control of robots, we need to have very accurate measurements of the internal states.
+
+317
+00:48:32,000 --> 00:48:41,000
+ So these kind of sensors are necessary to have good control of robots.
+
+318
+00:48:41,000 --> 00:48:57,000
+ When people measure internal states, they mainly measure position, velocity and acceleration.
+
+319
+00:48:57,000 --> 00:49:04,000
+ For these internal sensors, they should be accurate.
+
+320
+00:49:04,000 --> 00:49:11,000
+ They also should be not expensive or cost-effective.
+
+321
+00:49:11,000 --> 00:49:18,000
+ This is because for one robot, quite often we need to use a lot of internal sensors.
+
+322
+00:49:18,000 --> 00:49:25,000
+ For example, for one robotic arm, which you started in part one of the class,
+
+323
+00:49:25,000 --> 00:49:30,000
+ there can be many different joints, like six joints, seven joints.
+
+324
+00:49:30,000 --> 00:49:35,000
+ So you need sensors for each joint.
+
+325
+00:49:35,000 --> 00:49:40,000
+ This will increase the number of sensors required for robots.
+
+326
+00:49:40,000 --> 00:49:49,000
+ When we consider sensors for robots, what are the factors we should take into consideration?
+
+327
+00:49:49,000 --> 00:49:55,000
+ Here we have listed five factors.
+
+328
+00:49:55,000 --> 00:50:03,000
+ The first one is the budget and overall sensor cost.
+
+329
+00:50:03,000 --> 00:50:14,000
+ Let's say if you make a humanoid robot, you can use expensive sensors because the budget is usually quite big.
+
+330
+00:50:14,000 --> 00:50:23,000
+ But if you are just making a toy, like a toy robot, the sensor should be very cheap.
+
+331
+00:50:23,000 --> 00:50:30,000
+ Number two, power needs for a particular joint.
+
+332
+00:50:30,000 --> 00:50:37,000
+ For UAVs, quite often the flying cannot last very long, like 20-30 minutes.
+
+333
+00:50:37,000 --> 00:50:45,000
+ This is because the UAVs cannot carry very heavy batteries.
+
+334
+00:50:45,000 --> 00:50:51,000
+ So for robots, no matter if UAVs or ground robots or robot arms,
+
+335
+00:50:51,000 --> 00:50:55,000
+ we should consider the power consumption.
+
+336
+00:50:55,000 --> 00:51:03,000
+ Number three, maximum permissible size of the actuator.
+
+337
+00:51:03,000 --> 00:51:09,000
+ So just now when we watched a video on this humanoid robot,
+
+338
+00:51:09,000 --> 00:51:20,000
+ Aipylus made by Boston Dynamics, we noticed that hydraulic actuators were used in that robot.
+
+339
+00:51:20,000 --> 00:51:24,000
+ That actuator is actually quite big.
+
+340
+00:51:24,000 --> 00:51:28,000
+ For sensors, we should also consider the sizes.
+
+341
+00:51:28,000 --> 00:51:32,000
+ Next, for small UAVs, we cannot use very big cameras.
+
+342
+00:51:32,000 --> 00:51:35,000
+ We should use very small cameras.
+
+343
+00:51:35,000 --> 00:51:44,000
+ Number four, sensor resolution, because this will decide the accuracy of the measurements.
+
+344
+00:51:44,000 --> 00:51:51,000
+ Usually the higher the resolution, the more expensive the sensor is.
+
+345
+00:51:51,000 --> 00:52:03,000
+ Number five, the need to monitor directly the actions of the joint.
+
+346
+00:52:03,000 --> 00:52:11,000
+ The second class of sensors is called external data sensors.
+
+347
+00:52:11,000 --> 00:52:23,000
+ So they are used for the robots to sense the environment and also to interact with the environment.
+
+348
+00:52:23,000 --> 00:52:34,000
+ For external sensors, we should also consider the factors that we just mentioned,
+
+349
+00:52:34,000 --> 00:52:50,000
+ such as size, energy consumption, accuracy, resolution, these kind of factors.
+
+350
+00:52:50,000 --> 00:53:04,000
+ Based on the functions or usages of external data sensors, we can list their main functions here.
+
+351
+00:53:04,000 --> 00:53:10,000
+ Vision, touch, hearing, movement.
+
+352
+00:53:10,000 --> 00:53:15,000
+ So these are similar to functions that human has.
+
+353
+00:53:15,000 --> 00:53:24,000
+ Vision sensors mean referred to cameras, normal cameras and infrared cameras.
+
+354
+00:53:24,000 --> 00:53:32,000
+ So humans will have eyes, which serve as vision sensors.
+
+355
+00:53:32,000 --> 00:53:42,000
+ These sensors help robots to identify the surrounding environment and take appropriate actions.
+
+356
+00:53:42,000 --> 00:53:50,000
+ In robots, ground robots, robot arms, UAVs and also autonomous cars,
+
+357
+00:53:50,000 --> 00:53:56,000
+ vision sensors, cameras are very widely used.
+
+358
+00:53:56,000 --> 00:54:04,000
+ Number two, touch or contact.
+
+359
+00:54:04,000 --> 00:54:13,000
+ So touch sensors enable robots to interpret human emotions, human forces,
+
+360
+00:54:13,000 --> 00:54:18,000
+ for human-robots collaboration or human-robots interaction.
+
+361
+00:54:18,000 --> 00:54:30,000
+ Robots use touch signals to map the profile of a surface in hostile environments, such as a water path.
+
+362
+00:54:30,000 --> 00:54:37,000
+ This touch sensor is not a very hot research topic.
+
+363
+00:54:37,000 --> 00:54:40,000
+ It's not just about applications.
+
+364
+00:54:40,000 --> 00:54:49,000
+ Actually, many researchers are developing new touch sensors.
+
+365
+00:54:49,000 --> 00:54:51,000
+ Hearing.
+
+366
+00:54:51,000 --> 00:55:02,000
+ These kind of sensors are not that commonly used in robots in comparison to vision sensors and touch sensors.
+
+367
+00:55:02,000 --> 00:55:12,000
+ But they can still be useful for robots, especially for robots that need to interact with humans.
+
+368
+00:55:12,000 --> 00:55:15,000
+ Number four, movement.
+
+369
+00:55:15,000 --> 00:55:31,000
+ So it provides a guiding system for an automated robot to determine the ideal path to perform its task.
+
+370
+00:55:31,000 --> 00:55:42,000
+ So here are several examples of these several types of sensors.
+
+371
+00:55:42,000 --> 00:55:46,000
+ For vision sensors, we mainly have cameras.
+
+372
+00:55:46,000 --> 00:55:57,000
+ Here we mean normal cameras or infrared cameras that do not need light to work.
+
+373
+00:55:57,000 --> 00:56:03,000
+ Laser range sensors, RFID sensors.
+
+374
+00:56:03,000 --> 00:56:09,000
+ When people talk about vision sensors, they mean referred to cameras and infrared sensors.
+
+375
+00:56:09,000 --> 00:56:22,000
+ Vision sensors can be used for object recognition or land market recognition, 3D, thin recovery, thin understanding, etc.
+
+376
+00:56:22,000 --> 00:56:24,000
+ Many different tasks.
+
+377
+00:56:24,000 --> 00:56:41,000
+ So vision sensors, I would say, are the most commonly used sensors in robotics and autonomous vehicles.
+
+378
+00:56:41,000 --> 00:56:48,000
+ Touch-touch sensors, range of finders, GPS, and dormitory.
+
+379
+00:56:48,000 --> 00:57:00,000
+ So these are several other examples.
+
+380
+00:57:00,000 --> 00:57:08,000
+ For range of finders, so here we mainly, in this class,
+
+381
+00:57:08,000 --> 00:57:13,000
+ we will mainly cover lasers and ultrasonic sensors.
+
+382
+00:57:13,000 --> 00:57:17,000
+ They cannot just be used for obstacle avoidance.
+
+383
+00:57:17,000 --> 00:57:26,000
+ They can also be used in localization and navigation, these kind of tasks.
+
+384
+00:57:26,000 --> 00:57:30,000
+ GPS, global positioning system.
+
+385
+00:57:30,000 --> 00:57:39,000
+ So in the past, GPS refers to the solution developed by the United States.
+
+386
+00:57:39,000 --> 00:57:52,000
+ Nowadays, there are quite a few solutions developed by USA, by China, by Russia, by European Union.
+
+387
+00:57:52,000 --> 00:57:55,000
+ So there are multiple solutions.
+
+388
+00:57:55,000 --> 00:58:02,000
+ And also, in recent years, Tesla developed this star link.
+
+389
+00:58:02,000 --> 00:58:13,000
+ So this is actually a solution that has very good commercial applications.
+
+390
+00:58:13,000 --> 00:58:27,000
+ So in the future, people may use this new solution in navigation and localization.
+
+391
+00:58:27,000 --> 00:58:37,000
+ So this can be done using encoders, gyroscopes, etc.
+
+392
+00:58:37,000 --> 00:58:42,000
+ Okay, so next we're going to take a break.
+
+393
+00:58:42,000 --> 00:58:47,000
+ So about 15 minutes, then we'll continue.
+
+394
+01:04:37,000 --> 01:04:42,000
+ Thank you.
+
+395
+01:05:07,000 --> 01:05:12,000
+ Thank you.
+
+396
+01:05:37,000 --> 01:05:42,000
+ Thank you.
+
+397
+01:06:07,000 --> 01:06:12,000
+ Thank you.
+
+398
+01:06:37,000 --> 01:06:42,000
+ Thank you.
+
+399
+01:07:07,000 --> 01:07:12,000
+ Thank you.
+
+400
+01:07:37,000 --> 01:07:42,000
+ Thank you.
+
+401
+01:08:07,000 --> 01:08:12,000
+ Thank you.
+
+402
+01:08:37,000 --> 01:08:42,000
+ Thank you.
+
+403
+01:09:07,000 --> 01:09:12,000
+ Thank you.
+
+404
+01:09:37,000 --> 01:09:42,000
+ Thank you.
+
+405
+01:10:07,000 --> 01:10:12,000
+ Thank you.
+
+406
+01:10:37,000 --> 01:10:42,000
+ Thank you.
+
+407
+01:11:07,000 --> 01:11:12,000
+ Thank you.
+
+408
+01:11:37,000 --> 01:11:42,000
+ Thank you.
+
+409
+01:12:07,000 --> 01:12:12,000
+ Thank you.
+
+410
+01:12:37,000 --> 01:12:42,000
+ Thank you.
+
+411
+01:13:07,000 --> 01:13:17,000
+ Thank you.
+
+412
+01:13:17,000 --> 01:13:22,000
+ Thank you.
+
+413
+01:13:22,000 --> 01:13:27,000
+ Thank you.
+
+414
+01:13:27,000 --> 01:13:32,000
+ Thank you.
+
+415
+01:13:32,000 --> 01:13:36,000
+ Thank you.
+
+416
+01:13:36,000 --> 01:13:41,000
+ Okay, let's continue the class.
+
+417
+01:13:41,000 --> 01:13:52,000
+ In week four, we'll talk about common filtering and also multi-sensor fusion.
+
+418
+01:13:52,000 --> 01:13:54,000
+ So why do we want to use multiple sensors?
+
+419
+01:13:54,000 --> 01:14:04,000
+ Because it provides some benefits.
+
+420
+01:14:04,000 --> 01:14:10,000
+ We can summarize the benefits here.
+
+421
+01:14:10,000 --> 01:14:19,000
+ Redendency, complete metarity, timeliness, and cost.
+
+422
+01:14:19,000 --> 01:14:25,000
+ Other than this, there's also improved reliability, etc.
+
+423
+01:14:25,000 --> 01:14:35,000
+ For usage of multiple sensors.
+
+424
+01:14:35,000 --> 01:14:39,000
+ Next, we'll talk about these benefits one by one.
+
+425
+01:14:39,000 --> 01:14:45,000
+ Number one, redundant information.
+
+426
+01:14:45,000 --> 01:14:48,000
+ Next, if you have just one sensor.
+
+427
+01:14:48,000 --> 01:14:52,000
+ So this sensor may have...
+
+428
+01:14:52,000 --> 01:14:56,000
+ There may be something that this sensor cannot measure.
+
+429
+01:14:56,000 --> 01:15:00,000
+ And if something goes wrong with this sensor,
+
+430
+01:15:00,000 --> 01:15:04,000
+ then we don't have any measurement.
+
+431
+01:15:04,000 --> 01:15:07,000
+ So if you have multiple sensors,
+
+432
+01:15:07,000 --> 01:15:12,000
+ if one of them fails, we still have some measurements.
+
+433
+01:15:12,000 --> 01:15:19,000
+ Number two, we can take measurements from different perspectives.
+
+434
+01:15:19,000 --> 01:15:24,000
+ If we have multiple sensors.
+
+435
+01:15:24,000 --> 01:15:32,000
+ The second point is that the integration or fusion of redundant information
+
+436
+01:15:32,000 --> 01:15:38,000
+ can reduce overall uncertainty.
+
+437
+01:15:38,000 --> 01:15:43,000
+ Multiple sensors can also increase reliability
+
+438
+01:15:43,000 --> 01:15:51,000
+ in case of sensor error or failure.
+
+439
+01:15:51,000 --> 01:15:54,000
+ Complimentary information.
+
+440
+01:15:54,000 --> 01:15:57,000
+ So if you have multiple sensors,
+
+441
+01:15:57,000 --> 01:16:03,000
+ they allow features in the environment to be perceived.
+
+442
+01:16:03,000 --> 01:16:14,000
+ They are not impossible to perceive using just an individual sensor.
+
+443
+01:16:14,000 --> 01:16:19,000
+ More timely information measurement.
+
+444
+01:16:19,000 --> 01:16:22,000
+ So if you have multiple sensors,
+
+445
+01:16:22,000 --> 01:16:31,000
+ you can actually have parallel measurements.
+
+446
+01:16:31,000 --> 01:16:34,000
+ Okay.
+
+447
+01:16:34,000 --> 01:16:38,000
+ This one is about cost.
+
+448
+01:16:38,000 --> 01:16:41,000
+ So when people use multiple sensors,
+
+449
+01:16:41,000 --> 01:16:47,000
+ it is possible to even lower down the cost.
+
+450
+01:16:47,000 --> 01:16:54,000
+ So if we use just one sensor to achieve accuracy and high reliability,
+
+451
+01:16:54,000 --> 01:16:57,000
+ the sensors usually are of very good quality.
+
+452
+01:16:57,000 --> 01:17:03,000
+ And quite often, also quite expensive.
+
+453
+01:17:03,000 --> 01:17:08,000
+ If we use multiple sensors or more than one sensor,
+
+454
+01:17:08,000 --> 01:17:26,000
+ we can use those sensors that may have lower accuracy and lower cost.
+
+455
+01:17:26,000 --> 01:17:29,000
+ For this multi-sensor fusion techniques,
+
+456
+01:17:29,000 --> 01:17:32,000
+ we will talk about it in week 4.
+
+457
+01:17:32,000 --> 01:17:40,000
+ We will cover the mathematics to do multi-sensor fusion and estimation.
+
+458
+01:17:40,000 --> 01:17:48,000
+ So just now we will talk about the internal state sensors and external state sensors.
+
+459
+01:17:48,000 --> 01:17:56,000
+ This is another way of classifying sensors.
+
+460
+01:17:56,000 --> 01:17:59,000
+ They are based on functions.
+
+461
+01:17:59,000 --> 01:18:06,000
+ The first step is called perceptive sensors.
+
+462
+01:18:06,000 --> 01:18:14,000
+ These sensors measure the internal state of the system,
+
+463
+01:18:14,000 --> 01:18:18,000
+ the robot or the machine.
+
+464
+01:18:18,000 --> 01:18:26,000
+ So for example, angular position of motors.
+
+465
+01:18:26,000 --> 01:18:34,000
+ Examples for this type of sensors include GPS, INS,
+
+466
+01:18:34,000 --> 01:18:45,000
+ initial acting system, encoders, compass, etc.
+
+467
+01:18:45,000 --> 01:18:51,000
+ The second type is called extraceptive sensors.
+
+468
+01:18:51,000 --> 01:19:00,000
+ So they determine the measurements of objects relative to a robot's frame of reference.
+
+469
+01:19:00,000 --> 01:19:05,000
+ So usually when we control, when we handle a robot,
+
+470
+01:19:05,000 --> 01:19:15,000
+ we need to define a frame of reference so that we can find the coordinates of the robot itself
+
+471
+01:19:15,000 --> 01:19:22,000
+ and also the objects around the robot.
+
+472
+01:19:22,000 --> 01:19:30,000
+ These sensors can measure distance from the robot to another object
+
+473
+01:19:30,000 --> 01:19:37,000
+ so that we can do collision avoidance, also avoidance, etc.
+
+474
+01:19:37,000 --> 01:19:46,000
+ They can keep a robot from colliding with other robots or other objects.
+
+475
+01:19:46,000 --> 01:19:56,000
+ Contact sensors, range sensors, vision sensors fall into this category.
+
+476
+01:19:56,000 --> 01:20:03,000
+ The third type is extra perceptive sensors.
+
+477
+01:20:03,000 --> 01:20:14,000
+ So there are many directional sensors.
+
+478
+01:20:14,000 --> 01:20:26,000
+ Based on where energy comes from, we can have active sensors and passive sensors.
+
+479
+01:20:26,000 --> 01:20:33,000
+ Active sensors emit their own energy and measure the reaction.
+
+480
+01:20:33,000 --> 01:20:41,000
+ So usually they have better performance, but they have some influence on the environment
+
+481
+01:20:41,000 --> 01:20:45,000
+ and generally consumes more energy.
+
+482
+01:20:45,000 --> 01:20:53,000
+ So here we have several examples, laser, ortho-sonic, and IR sensors.
+
+483
+01:20:53,000 --> 01:21:04,000
+ Those radars, especially those used for military applications, they may consume a lot of energy.
+
+484
+01:21:04,000 --> 01:21:10,000
+ You even need to have a power plant to provide energy to those radars
+
+485
+01:21:10,000 --> 01:21:12,000
+ because they are active sensors.
+
+486
+01:21:12,000 --> 01:21:20,000
+ They need to emit a lot of energy and to measure the reaction.
+
+487
+01:21:20,000 --> 01:21:31,000
+ Passive sensors receive energy already in the environment, so they consume less energy
+
+488
+01:21:31,000 --> 01:21:36,000
+ but they have some signal and noise problems.
+
+489
+01:21:36,000 --> 01:21:40,000
+ So for example, cameras are passive sensors.
+
+490
+01:21:40,000 --> 01:21:50,000
+ Camera sensors just measure the illumination in the environment.
+
+491
+01:21:50,000 --> 01:21:53,000
+ So here we have a table.
+
+492
+01:21:53,000 --> 01:21:58,000
+ In this table we will see several types of sensors.
+
+493
+01:21:58,000 --> 01:22:04,000
+ We start with tactile sensors or contact sensors.
+
+494
+01:22:04,000 --> 01:22:12,000
+ They are used for detection of physical contact or closeness.
+
+495
+01:22:12,000 --> 01:22:15,000
+ So these are several examples.
+
+496
+01:22:15,000 --> 01:22:26,000
+ Contact switches, bumpers, optical barriers, and non-contact proximity sensors.
+
+497
+01:22:26,000 --> 01:22:31,000
+ They are usually external sensors, you see.
+
+498
+01:22:31,000 --> 01:22:36,000
+ They can be passive or active.
+
+499
+01:22:36,000 --> 01:22:42,000
+ The second type, wheel motor sensors.
+
+500
+01:22:42,000 --> 01:22:49,000
+ They can measure the speed and the position of the motors or wheels.
+
+501
+01:22:49,000 --> 01:22:54,000
+ They are mostly encoders.
+
+502
+01:22:54,000 --> 01:22:59,000
+ As I mentioned earlier, there are many types of encoders.
+
+503
+01:22:59,000 --> 01:23:06,000
+ They are usually quite cheap but not accurate.
+
+504
+01:23:06,000 --> 01:23:10,000
+ Optical encoders are quite commonly used.
+
+505
+01:23:10,000 --> 01:23:16,000
+ There are also some other encoders.
+
+506
+01:23:16,000 --> 01:23:19,000
+ Encoders are internal sensors.
+
+507
+01:23:19,000 --> 01:23:23,000
+ They can be passive or they can be active.
+
+508
+01:23:23,000 --> 01:23:28,000
+ Most of them are active.
+
+509
+01:23:28,000 --> 01:23:36,000
+ Heading sensors measure orientation or angles of the robot
+
+510
+01:23:36,000 --> 01:23:40,000
+ in relation to a fixed reference frame.
+
+511
+01:23:40,000 --> 01:23:44,000
+ Here are three examples.
+
+512
+01:23:44,000 --> 01:23:47,000
+ Campers, which we know very well.
+
+513
+01:23:47,000 --> 01:23:54,000
+ Geryscopes, including the meters.
+
+514
+01:23:54,000 --> 01:24:03,000
+ They can be either passive or active, either internal or external.
+
+515
+01:24:03,000 --> 01:24:12,000
+ Ground-based beacons are usually used for localization.
+
+516
+01:24:12,000 --> 01:24:15,000
+ GPS is an example for these types of sensors.
+
+517
+01:24:15,000 --> 01:24:20,000
+ They are external and they are active sensors.
+
+518
+01:24:20,000 --> 01:24:23,000
+ Active ranging.
+
+519
+01:24:23,000 --> 01:24:27,000
+ For example, laser range finder, orthosonic sensor.
+
+520
+01:24:27,000 --> 01:24:30,000
+ They fall into this category.
+
+521
+01:24:30,000 --> 01:24:34,000
+ They are external and also active.
+
+522
+01:24:34,000 --> 01:24:40,000
+ Laser and orthosonic sensors are very commonly used in robots.
+
+523
+01:24:40,000 --> 01:24:43,000
+ As for the sensors I showed to the class,
+
+524
+01:24:43,000 --> 01:24:48,000
+ we have two laser range finders.
+
+525
+01:24:48,000 --> 01:24:51,000
+ They are called Hokuyo.
+
+526
+01:24:51,000 --> 01:24:57,000
+ These are range finders.
+
+527
+01:24:57,000 --> 01:25:05,000
+ Motion speed sensors.
+
+528
+01:25:05,000 --> 01:25:13,000
+ They measure speed relative to fixed or moving objects.
+
+529
+01:25:13,000 --> 01:25:18,000
+ These kinds of sensors are commonly used in robotics.
+
+530
+01:25:18,000 --> 01:25:21,000
+ Doppler radar, Doppler sound.
+
+531
+01:25:21,000 --> 01:25:25,000
+ They are external sensors and active sensors.
+
+532
+01:25:25,000 --> 01:25:29,000
+ Vision-based sensors or vision sensors.
+
+533
+01:25:29,000 --> 01:25:36,000
+ These sensors are also very commonly used in robotics.
+
+534
+01:25:36,000 --> 01:25:42,000
+ For cameras, there are many two different sensing technologies.
+
+535
+01:25:42,000 --> 01:25:47,000
+ CCD, CMOS.
+
+536
+01:25:47,000 --> 01:25:54,000
+ They are for external measurements and their passive sensors.
+
+537
+01:25:54,000 --> 01:25:58,000
+ For this first class, we want to talk about some concepts
+
+538
+01:25:58,000 --> 01:26:01,000
+ and also introductory stuff.
+
+539
+01:26:01,000 --> 01:26:05,000
+ We will not have the details.
+
+540
+01:26:05,000 --> 01:26:11,000
+ We will not talk about the mathematics for the sensors.
+
+541
+01:26:11,000 --> 01:26:17,000
+ When we choose sensors for certain tasks,
+
+542
+01:26:17,000 --> 01:26:23,000
+ these are the factors that we can consider.
+
+543
+01:26:23,000 --> 01:26:30,000
+ Sensors size, how big it is, it depends on our application environment
+
+544
+01:26:30,000 --> 01:26:35,000
+ and also the size of the robot.
+
+545
+01:26:35,000 --> 01:26:43,000
+ For UAVs, for flying vehicles, weight is quite important.
+
+546
+01:26:43,000 --> 01:26:51,000
+ Power consumption, voltage interface.
+
+547
+01:26:51,000 --> 01:26:57,000
+ We have to consider the voltages of the batteries
+
+548
+01:26:57,000 --> 01:27:01,000
+ and also the motors, actuators.
+
+549
+01:27:01,000 --> 01:27:04,000
+ Field of view.
+
+550
+01:27:04,000 --> 01:27:18,000
+ This is about in what range of angles the sensor can sense objects.
+
+551
+01:27:18,000 --> 01:27:23,000
+ For cameras and laser-reviewed finders,
+
+552
+01:27:23,000 --> 01:27:29,000
+ field of view is a very important feature.
+
+553
+01:27:29,000 --> 01:27:34,000
+ Range. You all know range. How far?
+
+554
+01:27:34,000 --> 01:27:40,000
+ It has low and upper limits.
+
+555
+01:27:40,000 --> 01:27:47,000
+ Dynamic range, for example, camera pixels.
+
+556
+01:27:48,000 --> 01:27:51,000
+ Resolution.
+
+557
+01:27:51,000 --> 01:27:56,000
+ It is about the smallest input change that can be detected.
+
+558
+01:27:56,000 --> 01:28:05,000
+ For cameras, we have 1 million pixels, 2 million pixels.
+
+559
+01:28:05,000 --> 01:28:10,000
+ This kind of method to measure the resolution.
+
+560
+01:28:10,000 --> 01:28:17,000
+ Inevitability. This is a good property desirable for all the sensors.
+
+561
+01:28:18,000 --> 01:28:29,000
+ We want the measurements to be proportional to the actual values.
+
+562
+01:28:29,000 --> 01:28:39,000
+ His research is about the past dependency for sensors.
+
+563
+01:28:39,000 --> 01:28:44,000
+ When we increase the measurements and decrease the measurements,
+
+564
+01:28:44,000 --> 01:28:46,000
+ they can be two different paths.
+
+565
+01:28:46,000 --> 01:28:52,000
+ This can be modeled by these hysteresis.
+
+566
+01:28:52,000 --> 01:28:59,000
+ Bander waves of frequency, sensitivity, and cross sensitivity.
+
+567
+01:28:59,000 --> 01:29:06,000
+ These are also features for some sensors.
+
+568
+01:29:14,000 --> 01:29:18,000
+ When we choose sensors, this is probably the most important thing.
+
+569
+01:29:18,000 --> 01:29:20,000
+ Accuracy.
+
+570
+01:29:20,000 --> 01:29:25,000
+ What kind of accuracy do we need for the sensor?
+
+571
+01:29:25,000 --> 01:29:35,000
+ This depends on the requirement of the application and also the budget.
+
+572
+01:29:35,000 --> 01:29:37,000
+ Let me show you one example.
+
+573
+01:29:37,000 --> 01:29:41,000
+ For this M use, it can be quite cheap.
+
+574
+01:29:41,000 --> 01:29:49,000
+ It costs 50,000 US dollars.
+
+575
+01:29:49,000 --> 01:29:52,000
+ The difference can be huge.
+
+576
+01:29:52,000 --> 01:29:59,000
+ If you want higher accuracy, then the cost will be much higher.
+
+577
+01:29:59,000 --> 01:30:01,000
+ Precision.
+
+578
+01:30:01,000 --> 01:30:04,000
+ These two concepts can be confusing.
+
+579
+01:30:04,000 --> 01:30:07,000
+ Sometimes people think that they are the same thing.
+
+580
+01:30:07,000 --> 01:30:09,000
+ Actually, they are different.
+
+581
+01:30:09,000 --> 01:30:16,000
+ Accuracy is about the difference from the real value.
+
+582
+01:30:16,000 --> 01:30:22,000
+ If the real value is 1 meter, and if the measurement is 0.8 meter,
+
+583
+01:30:22,000 --> 01:30:27,000
+ the area is about 0.2 meter, so this is about accuracy.
+
+584
+01:30:27,000 --> 01:30:31,000
+ Precision is more about repeatability.
+
+585
+01:30:31,000 --> 01:30:40,000
+ If you use one sensor, the real value is 1 meter.
+
+586
+01:30:40,000 --> 01:30:45,000
+ For the measurements that you have, it is very close to 1 meter.
+
+587
+01:30:45,000 --> 01:30:52,000
+ 0.99, 0.98, 1.01, always like that.
+
+588
+01:30:52,000 --> 01:30:59,000
+ This has quite good repeatability or precision.
+
+589
+01:30:59,000 --> 01:31:01,000
+ The measurements are very different.
+
+590
+01:31:01,000 --> 01:31:09,000
+ Sometimes 1.5 meters, sometimes 1.1 meters, sometimes 0.8 meters.
+
+591
+01:31:09,000 --> 01:31:13,000
+ The precision is not good.
+
+592
+01:31:13,000 --> 01:31:19,000
+ The measurements are quite different.
+
+593
+01:31:30,000 --> 01:31:38,000
+ For errors, we can have deterministic errors,
+
+594
+01:31:38,000 --> 01:31:42,000
+ and we can also have random errors.
+
+595
+01:31:42,000 --> 01:31:48,000
+ For deterministic errors, we can do something to make corrections,
+
+596
+01:31:48,000 --> 01:31:56,000
+ even if we know how this error is caused.
+
+597
+01:31:56,000 --> 01:32:03,000
+ For random errors, it is quite hard to predict.
+
+598
+01:32:03,000 --> 01:32:13,000
+ Have to do some algorithms to take care of them.
+
+599
+01:32:13,000 --> 01:32:21,000
+ Next, we will go through several types of sensors.
+
+600
+01:32:21,000 --> 01:32:28,000
+ For these sensors, you do not have to remember the working principle of the sensors.
+
+601
+01:32:28,000 --> 01:32:43,000
+ In this class, you just need to know what the sensor can achieve, what it can do.
+
+602
+01:32:43,000 --> 01:32:48,000
+ Wheel motor encoders.
+
+603
+01:32:48,000 --> 01:32:54,000
+ Just now, in one of the tables, we noticed that there are about 10 types,
+
+604
+01:32:54,000 --> 01:33:00,000
+ or even more than 10 types of encoders.
+
+605
+01:33:00,000 --> 01:33:10,000
+ They measure the position or speed of the wheels or the steering.
+
+606
+01:33:10,000 --> 01:33:19,000
+ Usually, for these ground robots, encoders can be installed in the wheels.
+
+607
+01:33:19,000 --> 01:33:26,000
+ They integrate wheel movements to get an estimate of the position.
+
+608
+01:33:26,000 --> 01:33:30,000
+ We call this process odometry.
+
+609
+01:33:30,000 --> 01:33:34,000
+ You can use encoders to do odometry.
+
+610
+01:33:34,000 --> 01:33:37,000
+ This is usually a low-cost solution.
+
+611
+01:33:37,000 --> 01:33:42,000
+ You can also use cameras to do odometry.
+
+612
+01:33:42,000 --> 01:33:46,000
+ People can call it, like, visu odometry.
+
+613
+01:33:46,000 --> 01:33:52,000
+ It is a different method.
+
+614
+01:33:52,000 --> 01:33:56,000
+ Optical encoders are very commonly used.
+
+615
+01:33:56,000 --> 01:34:06,000
+ They are proprioceptive sensors and measure the position.
+
+616
+01:34:06,000 --> 01:34:15,000
+ They are in a fixed frame of reference.
+
+617
+01:34:15,000 --> 01:34:21,000
+ For encoders, the typical resolutions are like this.
+
+618
+01:34:21,000 --> 01:34:27,000
+ This was information that gave in some time ago.
+
+619
+01:34:27,000 --> 01:34:30,000
+ If you want to buy encoders for your project,
+
+620
+01:34:30,000 --> 01:34:43,000
+ you should check the nature of the products and see what are the resolutions provided.
+
+621
+01:34:43,000 --> 01:34:51,000
+ The second type of sensors is magnetic compass.
+
+622
+01:34:51,000 --> 01:34:57,000
+ These kind of sensors are usually not very accurate.
+
+623
+01:34:57,000 --> 01:35:02,000
+ They use magnetic fields on earth.
+
+624
+01:35:02,000 --> 01:35:12,000
+ There is a lot of noise that can affect the accuracy of these kinds of sensors.
+
+625
+01:35:12,000 --> 01:35:17,000
+ Here we have three major drawbacks for these types of sensors.
+
+626
+01:35:17,000 --> 01:35:21,000
+ Number one is the weakness of the earth's magnetic field.
+
+627
+01:35:21,000 --> 01:35:31,000
+ Number two is that it can be disturbed by magnetic objects or other sources.
+
+628
+01:35:31,000 --> 01:35:40,000
+ Number three is not working in indoor environments.
+
+629
+01:35:40,000 --> 01:35:45,000
+ This doesn't mean that they are not useful.
+
+630
+01:35:45,000 --> 01:35:47,000
+ Let me show you one example.
+
+631
+01:35:47,000 --> 01:35:52,000
+ Nowadays, this vision-based localization is very popular.
+
+632
+01:35:52,000 --> 01:36:02,000
+ People use cameras to do localization for robots and ground vehicles.
+
+633
+01:36:02,000 --> 01:36:16,000
+ One drawback for this kind of vision-based localization is that if the lighting condition is very bad,
+
+634
+01:36:16,000 --> 01:36:19,000
+ it is very dark in the environment.
+
+635
+01:36:19,000 --> 01:36:22,000
+ It is very bright in the environment.
+
+636
+01:36:22,000 --> 01:36:26,000
+ Cameras don't work very well.
+
+637
+01:36:26,000 --> 01:36:30,000
+ People need to find alternative solutions.
+
+638
+01:36:30,000 --> 01:36:42,000
+ This can be an alternative solution if cameras don't work well in certain environments.
+
+639
+01:36:42,000 --> 01:36:45,000
+ Often people don't use just one type of sensors.
+
+640
+01:36:45,000 --> 01:36:57,000
+ For robots, people may use multiple sensors at the same time, including cameras, laser-ray definitors,
+
+641
+01:36:57,000 --> 01:37:05,000
+ M-U's, and even this campus sensor in outdoor environments.
+
+642
+01:37:05,000 --> 01:37:16,000
+ By using them, we can have a more reliable and more accurate solution.
+
+643
+01:37:16,000 --> 01:37:19,000
+ General scopes.
+
+644
+01:37:19,000 --> 01:37:27,000
+ This kind of sensor measures changes in vehicle-wide robot orientation
+
+645
+01:37:27,000 --> 01:37:40,000
+ by taking advantage of physical loss that produce predictable effects under rotation.
+
+646
+01:37:40,000 --> 01:37:48,000
+ General scopes can be used in robots.
+
+647
+01:37:48,000 --> 01:38:01,000
+ The expensive ones are used in military areas, for example, in missiles.
+
+648
+01:38:01,000 --> 01:38:09,000
+ There are three functional principles for general scopes, mechanical, optical,
+
+649
+01:38:09,000 --> 01:38:16,000
+ and these micro-electromechanical systems based, MEMS based.
+
+650
+01:38:16,000 --> 01:38:26,000
+ Initially, people use mechanical general scopes, and nowadays these MEMS based general scopes are quite commonly used
+
+651
+01:38:26,000 --> 01:38:33,000
+ because of the good performance and also lower cost.
+
+652
+01:38:33,000 --> 01:38:38,000
+ Good general scopes can be quite expensive.
+
+653
+01:38:38,000 --> 01:38:43,000
+ There are two categories.
+
+654
+01:38:43,000 --> 01:38:52,000
+ Orientation. This kind of sensors direct-measure de-orientation angles.
+
+655
+01:38:52,000 --> 01:39:04,000
+ Rate geros. They don't measure orientation or angular positions.
+
+656
+01:39:04,000 --> 01:39:11,000
+ Instead, they measure angular velocity or rotation velocity.
+
+657
+01:39:11,000 --> 01:39:17,000
+ Then we do integration of velocity to get position.
+
+658
+01:39:17,000 --> 01:39:20,000
+ For general scopes, there is one drawback.
+
+659
+01:39:20,000 --> 01:39:33,000
+ The error drift. Initially, you can have very accurate measurements, but after a while, it becomes less accurate.
+
+660
+01:39:33,000 --> 01:39:40,000
+ If this happens, we need to have a correction to the measurements.
+
+661
+01:39:40,000 --> 01:39:50,000
+ Usually, we use another sensor to do the correction.
+
+662
+01:39:50,000 --> 01:40:10,000
+ Accelerometers. An accelerometer is a device that measures the proper acceleration of the device with a robot or a vehicle.
+
+663
+01:40:10,000 --> 01:40:27,000
+ Similar to geros scopes, these MEMS based accelerometers are commonly used as solutions.
+
+664
+01:40:27,000 --> 01:40:37,000
+ This can be a little bit boring because we're just talking about this kind of concept.
+
+665
+01:40:37,000 --> 01:40:44,000
+ In the class, I'll talk about the main points of these sensors.
+
+666
+01:40:44,000 --> 01:40:48,000
+ How can you do something from these concepts?
+
+667
+01:40:48,000 --> 01:40:56,000
+ For each sensor, you just pay attention to the function of the sensor.
+
+668
+01:40:56,000 --> 01:41:01,000
+ What kind of measurements can this sensor provide?
+
+669
+01:41:01,000 --> 01:41:16,000
+ In the future, if you get a real project, you will know what are your options, what kind of sensors you may be able to choose.
+
+670
+01:41:16,000 --> 01:41:31,000
+ Then you get the details of the sensors and you compare their accuracy, resolution, cost, power consumption, size, etc.
+
+671
+01:41:31,000 --> 01:41:38,000
+ Then pick the correct sensors for your project.
+
+672
+01:41:38,000 --> 01:41:47,000
+ Inertial measurement units or inertial navigation system, M use or N as.
+
+673
+01:41:47,000 --> 01:42:16,000
+ This kind of sensor refers to a device that utilizes sensors or sensing components such as geros scopes and accelerometers to estimate the relative position, velocity, and acceleration of a vehicle or robot in the process.
+
+674
+01:42:17,000 --> 01:42:33,000
+ This is a complete M and UIS maintains 6 degrees of freedom estimate of the vehicle pose.
+
+675
+01:42:33,000 --> 01:42:47,000
+ The 6 DLF, 3 of them are for position and another 3 are for angles or orientation.
+
+676
+01:42:47,000 --> 01:43:02,000
+ For airplanes, we call them raw pitch-row. The position is x, y, z, 3-dimensional.
+
+677
+01:43:02,000 --> 01:43:18,000
+ This block diagram shows how we can get a position from geros scopes and accelerometers.
+
+678
+01:43:18,000 --> 01:43:28,000
+ From geros scopes, we start with rich geros. We don't use those geros that provide a position directly.
+
+679
+01:43:28,000 --> 01:43:47,000
+ From rich geros, we can have orientation. From accelerometers, we can figure out the acceleration.
+
+680
+01:43:47,000 --> 01:44:02,000
+ Then we do integration. We can have velocity. Then we integrate again. We can have position.
+
+681
+01:44:02,000 --> 01:44:14,000
+ M use and N as are very sensitive to measurement errors.
+
+682
+01:44:14,000 --> 01:44:28,000
+ This is quite similar to this error drift. Quite often, we should also have another extra sensor that can provide correction from time to time.
+
+683
+01:44:28,000 --> 01:44:38,000
+ Here we have a website. Through this link, you can find a list of M U and S products.
+
+684
+01:44:38,000 --> 01:44:53,000
+ M use can be under control. That is, even if you want to buy, you cannot buy them because they can be used in military applications.
+
+685
+01:44:53,000 --> 01:44:59,000
+ For cheaper ones, there should be no problem. You can buy whatever you want.
+
+686
+01:44:59,000 --> 01:45:09,000
+ For those good ones, you cannot get what you want.
+
+687
+01:45:09,000 --> 01:45:19,000
+ B can be based on positioning systems. For this kind of system, we need to deploy several B cans first.
+
+688
+01:45:19,000 --> 01:45:29,000
+ B cans are signaling devices with a precisely low position.
+
+689
+01:45:29,000 --> 01:45:43,000
+ Basically, based on low positions, we take multiple measurements and we decide the position of the robot or the vehicle.
+
+690
+01:45:43,000 --> 01:45:56,000
+ B can be based on navigation and localization is used since humans started to travel.
+
+691
+01:45:56,000 --> 01:46:09,000
+ There can be natural beacons such as stars and there can be artificial beacons like houses.
+
+692
+01:46:09,000 --> 01:46:17,000
+ GPS global positioning system is a beacon-based navigation technology.
+
+693
+01:46:17,000 --> 01:46:24,000
+ It was first invented in the United States for military applications.
+
+694
+01:46:24,000 --> 01:46:43,000
+ In the NITO-AN, it was provided for civilian applications, for navigation to the vehicles, cars, trucks, etc.
+
+695
+01:46:43,000 --> 01:46:51,000
+ GPS is an outdoor solution for localization.
+
+696
+01:46:51,000 --> 01:47:02,000
+ For indoor environments, if we want to localize or navigate our robots, we should use other solutions.
+
+697
+01:47:02,000 --> 01:47:15,000
+ For example, SLAM. This is a very popular or very commonly used solution for indoor navigation and localization.
+
+698
+01:47:15,000 --> 01:47:31,000
+ The major drawback with the use of beacon-based solutions is that this kind of solution has limited flexibility and adaptability to changing environments.
+
+699
+01:47:32,000 --> 01:47:50,000
+ Because when there is change, you have to change the beacon. This can be quite troublesome and sometimes even costly.
+
+700
+01:47:50,000 --> 01:48:05,000
+ Active ultrasonic beacons. This means the beacons are based on ultrasonic technologies.
+
+701
+01:48:05,000 --> 01:48:18,000
+ The robots must load the emitter locations. For example, here we have two emitters, so we have to load their locations.
+
+702
+01:48:18,000 --> 01:48:30,000
+ This solution uses time-over-flight TOF to find out the position of the robot.
+
+703
+01:48:30,000 --> 01:48:40,000
+ Before we calculate the position of the robot, we should first achieve time synchronization.
+
+704
+01:48:49,000 --> 01:48:58,000
+ Some details for this GPS system, Global Positioning System.
+
+705
+01:48:58,000 --> 01:49:07,000
+ Here are several facts. First, it was developed for military use by the United States.
+
+706
+01:49:07,000 --> 01:49:11,000
+ It is called Navistar.
+
+707
+01:49:11,000 --> 01:49:25,000
+ Initially, there were 24 satellites for that GPS system.
+
+708
+01:49:25,000 --> 01:49:37,000
+ Nowadays, for many countries, they launch a lot of satellites to provide GPS positioning services.
+
+709
+01:49:42,000 --> 01:49:51,000
+ To have positioning using satellites, we need at least four satellites.
+
+710
+01:49:51,000 --> 01:50:01,000
+ You may wonder why not three? Because based on geometry, if you have three satellites, we can decide the position.
+
+711
+01:50:01,000 --> 01:50:07,000
+ Think about why we need four satellites.
+
+712
+01:50:07,000 --> 01:50:25,000
+ There are some technical challenges for this GPS system, but nowadays, most of them have been very well solved.
+
+713
+01:50:25,000 --> 01:50:29,000
+ For the GPS system, we need at least four satellites.
+
+714
+01:50:29,000 --> 01:50:38,000
+ This is because we first need to achieve time synchronization, and then we can find out the position of an object.
+
+715
+01:50:38,000 --> 01:50:46,000
+ That's why we need four different satellites.
+
+716
+01:50:46,000 --> 01:51:08,000
+ To have range sensors, these kind of sensors can be used for obstacle avoidance, collision avoidance, localization, and environment modeling.
+
+717
+01:51:08,000 --> 01:51:24,000
+ Autosonic sensors as well as laser range sensors make use of speed of sound or electromagnetic waves.
+
+718
+01:51:24,000 --> 01:51:29,000
+ The distance is speed times time off flight.
+
+719
+01:51:29,000 --> 01:51:37,000
+ These kind of sensors measure the time off flight and then derive distance.
+
+720
+01:51:37,000 --> 01:51:42,000
+ That's the working principle for time off flight range sensors.
+
+721
+01:51:42,000 --> 01:51:55,000
+ These kind of sensors are very commonly used in robots and autonomous vehicles.
+
+722
+01:51:55,000 --> 01:52:14,000
+ If you have an interest in autonomous vehicles and if you do some study on their sensors, you may notice that almost all of them use time off flight sensors, except for Tesla.
+
+723
+01:52:14,000 --> 01:52:34,000
+ Tesla tried to remove all the ultrasonic sensors and use cameras only. I think that's a very ambitious goal.
+
+724
+01:52:34,000 --> 01:52:50,000
+ For our robotics projects, we usually use laser range sensors and all ultrasonic sensors.
+
+725
+01:52:50,000 --> 01:52:59,000
+ The quality of time off flight range sensors depends on the following six factors.
+
+726
+01:52:59,000 --> 01:53:07,000
+ Number one, uncertainties about the exact time of arrival of the reflected signal.
+
+727
+01:53:07,000 --> 01:53:15,000
+ And number two, inaccuracies in the time off flight measurement.
+
+728
+01:53:15,000 --> 01:53:29,000
+ For the other factors, they are the speed of the mobile robot or the target and the variation of propagation speed, for example, sound.
+
+729
+01:53:29,000 --> 01:53:36,000
+ For applications in this kind of normal environments, this may not be that critical.
+
+730
+01:53:36,000 --> 01:53:45,000
+ But for underwater applications, this is very important.
+
+731
+01:53:45,000 --> 01:53:50,000
+ In the action ways, target, for example, the surface.
+
+732
+01:53:50,000 --> 01:54:00,000
+ Similarly, for underwater applications, this is quite critical.
+
+733
+01:54:00,000 --> 01:54:08,000
+ Opening angle of the transmitted beam also matters.
+
+734
+01:54:08,000 --> 01:54:20,000
+ Ultrasonic sensors transmit a packet of ultrasonic pressure waves.
+
+735
+01:54:20,000 --> 01:54:31,000
+ The typical frequency is from 40 Hz to 180 kHz.
+
+736
+01:54:31,000 --> 01:54:39,000
+ And the opening angle is usually around 20 to 70 degrees.
+
+737
+01:54:39,000 --> 01:54:53,000
+ This kind of sensor is usually quite cheap for robots in the labs or for normal usage.
+
+738
+01:54:53,000 --> 01:54:58,000
+ But underwater usage, so they can be quite expensive.
+
+739
+01:54:58,000 --> 01:55:02,000
+ Laser range finders.
+
+740
+01:55:02,000 --> 01:55:07,000
+ So just now you actually saw two of them.
+
+741
+01:55:07,000 --> 01:55:11,000
+ So these are kind of Hokuyo laser range finders.
+
+742
+01:55:11,000 --> 01:55:16,000
+ They came with a lot of applications for laser range finders.
+
+743
+01:55:16,000 --> 01:55:20,000
+ And also very easy to use.
+
+744
+01:55:20,000 --> 01:55:26,000
+ Five years ago, it can be quite difficult to use a laser range finder.
+
+745
+01:55:26,000 --> 01:55:30,000
+ But now this is because of ROS, ROS1, ROS2.
+
+746
+01:55:30,000 --> 01:55:39,000
+ So you can config usage of laser range finders very easily in the ROS environment.
+
+747
+01:55:39,000 --> 01:55:46,000
+ And also there are many different APIs for you to use.
+
+748
+01:55:46,000 --> 01:55:55,000
+ Laser range finders are also known as laser radar or LIDAR.
+
+749
+01:55:55,000 --> 01:55:59,000
+ LIDAR detection and ranging.
+
+750
+01:55:59,000 --> 01:56:03,000
+ So there are two laser range finders.
+
+751
+01:56:03,000 --> 01:56:12,000
+ There also are 3D LIDAR, which can be used in autonomous cars.
+
+752
+01:56:12,000 --> 01:56:15,000
+ They transmit and receive beams.
+
+753
+01:56:15,000 --> 01:56:20,000
+ The transmitted and received beams are coaxial.
+
+754
+01:56:20,000 --> 01:56:30,000
+ The transmitter illuminates a target with a collimated beam or laser.
+
+755
+01:56:30,000 --> 01:56:36,000
+ The receiver detects the time needed for round trip.
+
+756
+01:56:36,000 --> 01:56:44,000
+ This is one kind of time of flight sensor.
+
+757
+01:56:44,000 --> 01:56:49,000
+ There are many two different types of laser range finders.
+
+758
+01:56:49,000 --> 01:56:58,000
+ So maybe like 10 years ago, this sick laser range finder was very commonly used.
+
+759
+01:56:58,000 --> 01:57:08,000
+ And nowadays, this kind of lasers, for example, Hokuyo, it's quite commonly used.
+
+760
+01:57:08,000 --> 01:57:17,000
+ The time of flight measurement is generally achieved using one of the following two measures.
+
+761
+01:57:17,000 --> 01:57:23,000
+ First laser or face shift measurement.
+
+762
+01:57:23,000 --> 01:57:30,000
+ So in this class, we just use laser range finders.
+
+763
+01:57:30,000 --> 01:57:39,000
+ And just for your information, in triple E, we have many professors working on laser technologies.
+
+764
+01:57:39,000 --> 01:57:55,000
+ So they work on different laser solutions and also photonics, meaning in physics.
+
+765
+01:57:55,000 --> 01:58:06,000
+ First part of the laser, for example, SSCK laser, made in Germany.
+
+766
+01:58:06,000 --> 01:58:14,000
+ This kind of sensor uses direct measurements of time of flight.
+
+767
+01:58:14,000 --> 01:58:22,000
+ And it requires resolving picoseconds.
+
+768
+01:58:22,000 --> 01:58:31,000
+ For the second type of laser sensors, face shift measurement based laser sensors.
+
+769
+01:58:31,000 --> 01:58:48,000
+ Sensor transmits wide-percent amplitude of modulated light at a low frequency and measures the face shift between the transmitted and reflected signals.
+
+770
+01:58:48,000 --> 01:58:54,000
+ Technically, the second method is easier than the first method.
+
+771
+01:58:54,000 --> 01:58:58,000
+ So this kind of sensors becomes quite popular.
+
+772
+01:58:58,000 --> 01:59:08,000
+ And also the cost has also been reduced a lot.
+
+773
+01:59:08,000 --> 01:59:14,000
+ All right, so this is the topic that we just covered in this week one.
+
+774
+01:59:14,000 --> 01:59:21,000
+ Sensor classification, sensor features, or sensor characterization.
+
+775
+01:59:21,000 --> 01:59:35,000
+ Specifically, we mentioned briefly motion encoders, heading orientation sensors, ground based beacons, active ranging, speed sensors, and vision sensors, et cetera.
+
+776
+01:59:35,000 --> 01:59:45,000
+ So in the future, we will focus mainly on the vision sensors, cameras.
+
+777
+01:59:45,000 --> 02:00:01,000
+ So in robotics, the two commonly used sensors are cameras and the laser range finders.
+
+778
+02:00:01,000 --> 02:00:15,000
+ In week two, we will talk about, like the camera calibration, like the multi-view geometry for cameras.
+
+779
+02:00:15,000 --> 02:00:22,000
+ In week three, we'll talk about the structure from motion for cameras.
+
+780
+02:00:22,000 --> 02:00:31,000
+ How can we figure out, how can we do structure and pose estimation using multi-view geometry?
+
+781
+02:00:31,000 --> 02:00:41,000
+ So what are homographies, these kind of concepts, and what are the algorithms to find the homographies?
+
+782
+02:00:41,000 --> 02:00:44,000
+ So this will be covered in week three.
+
+783
+02:00:44,000 --> 02:00:50,000
+ And in week four, we'll talk about common filter design.
+
+784
+02:00:50,000 --> 02:00:55,000
+ So how do we design a common filter that converges?
+
+785
+02:00:55,000 --> 02:01:06,000
+ And how can we use common filter measures to fuse multiple sensors for sensor integration?
+
+786
+02:01:06,000 --> 02:01:16,000
+ And then in week five, we'll talk about vision-based control, mainly two different measures.
+
+787
+02:01:16,000 --> 02:01:28,000
+ Position-based control and image-based control for this vision-based control measure.
+
+788
+02:01:28,000 --> 02:01:35,000
+ And also in the last class, we also have a quiz, as mentioned earlier.
+
+789
+02:01:35,000 --> 02:01:39,000
+ So in the quiz, we'll make many tests.
+
+790
+02:01:39,000 --> 02:01:50,000
+ The concepts covered in this class are also maybe, like say, some small calculations that involve some mathematics.
+
+791
+02:01:51,000 --> 02:01:56,000
+ Okay, next I will have a brief survey in this class.
+
+792
+02:01:56,000 --> 02:02:20,000
+ So this is the way, it's mainly about your knowledge in robotics and the sensors.
+
+793
+02:02:20,000 --> 02:02:28,000
+ And also your expectation in this topic.
+
+794
+02:02:28,000 --> 02:02:31,000
+ So basically there are two questions.
+
+795
+02:02:31,000 --> 02:02:39,000
+ What do you think have heard about robotics and intelligent sensors?
+
+796
+02:02:39,000 --> 02:02:44,000
+ Number two, what do you think you need to learn?
+
+797
+02:02:44,000 --> 02:02:53,000
+ Not just in this course, but overall, maybe like from other courses, maybe even in the future.
+
+798
+02:02:53,000 --> 02:03:02,000
+ If you plan to work on robotics or intelligent systems in the future.
+
+799
+02:03:02,000 --> 02:03:12,000
+ After all, this is an emerging topic with very good career potential.
+
+800
+02:03:13,000 --> 02:03:18,000
+ Okay, so you guys can discuss among yourself.
+
+801
+02:03:18,000 --> 02:03:26,000
+ So like say, you can discuss with your friends and then provide some short answers to these questions.
+
+802
+02:03:26,000 --> 02:03:28,000
+ You don't have to write down your name.
+
+803
+02:03:28,000 --> 02:03:32,000
+ I just want to understand the class a bit.
+
+804
+02:03:32,000 --> 02:03:36,000
+ Okay, so after you finish, then the class is over.
+
+805
+02:03:42,000 --> 02:03:47,000
+ Okay, so you can discuss among yourself and then you pass me your answers.
+
+806
+02:03:47,000 --> 02:03:51,000
+ Then we have to leave, or you can stay here to ask me questions.
+
+807
+02:03:51,000 --> 02:03:54,000
+ So I will still be here to answer your questions if you have any.
+
+808
+02:04:13,000 --> 02:04:18,000
+ By the way, this is not required.
+
+809
+02:04:18,000 --> 02:04:20,000
+ So this is optional.
+
+810
+02:04:20,000 --> 02:04:24,000
+ Let's say if you don't want to provide input, it's also fine.
+
+811
+02:04:24,000 --> 02:04:26,000
+ It's not mandatory.
+
+812
+02:04:42,000 --> 02:04:44,000
+ Okay.
+
+813
+02:05:12,000 --> 02:05:14,000
+ Okay.
+
+814
+02:05:42,000 --> 02:05:44,000
+ Okay.
+
+815
+02:06:12,000 --> 02:06:14,000
+ Okay.
+
+816
+02:06:42,000 --> 02:06:44,000
+ Okay.
+
+817
+02:07:12,000 --> 02:07:14,000
+ Okay.
+
+818
+02:07:42,000 --> 02:07:44,000
+ Okay.
+
+819
+02:08:12,000 --> 02:08:14,000
+ Okay.
+
+820
+02:08:42,000 --> 02:08:44,000
+ Okay.
+
+821
+02:09:12,000 --> 02:09:14,000
+ Okay.
+
+822
+02:09:42,000 --> 02:09:44,000
+ Okay.
+
+823
+02:10:12,000 --> 02:10:14,000
+ Okay.
+
+824
+02:10:42,000 --> 02:10:44,000
+ Okay.
+
+825
+02:11:12,000 --> 02:11:14,000
+ Okay.
+
+826
+02:11:42,000 --> 02:11:44,000
+ Okay.
+
+827
+02:12:12,000 --> 02:12:14,000
+ Okay.
+
+828
+02:12:42,000 --> 02:12:44,000
+ Okay.
+
+829
+02:13:12,000 --> 02:13:14,000
+ Okay.
+
+830
+02:13:42,000 --> 02:13:44,000
+ Okay.
+
+831
+02:14:12,000 --> 02:14:14,000
+ Okay.
+
+832
+02:14:42,000 --> 02:14:44,000
+ Okay.
+
+833
+02:15:12,000 --> 02:15:14,000
+ Okay.
+
+834
+02:15:42,000 --> 02:15:44,000
+ Okay.
+
+835
+02:16:12,000 --> 02:16:14,000
+ Okay.
+
+836
+02:16:42,000 --> 02:16:44,000
+ Okay.
+
+837
+02:17:12,000 --> 02:17:14,000
+ Okay.
+
+838
+02:17:42,000 --> 02:17:44,000
+ Okay.
+
+839
+02:18:12,000 --> 02:18:14,000
+ Okay.
+
+840
+02:18:42,000 --> 02:18:44,000
+ Okay.
+
+841
+02:19:12,000 --> 02:19:14,000
+ Okay.
+
+842
+02:19:42,000 --> 02:19:44,000
+ Okay.
+
+843
+02:20:12,000 --> 02:20:14,000
+ Okay.
+
+844
+02:20:42,000 --> 02:20:44,000
+ Okay.
+
+845
+02:21:12,000 --> 02:21:14,000
+ Okay.
+
+846
+02:21:42,000 --> 02:21:44,000
+ Okay.
+
+847
+02:22:12,000 --> 02:22:14,000
+ Okay.
+
+848
+02:22:42,000 --> 02:22:44,000
+ Okay.
+
+849
+02:23:12,000 --> 02:23:14,000
+ Okay.
+
+850
+02:23:42,000 --> 02:23:44,000
+ Okay.
+
+851
+02:24:12,000 --> 02:24:14,000
+ Okay.
+
+852
+02:24:42,000 --> 02:24:44,000
+ Okay.
+
+853
+02:25:12,000 --> 02:25:14,000
+ Okay.
+
+854
+02:25:42,000 --> 02:25:44,000
+ Okay.
+
+855
+02:26:12,000 --> 02:26:14,000
+ Okay.
+
+856
+02:26:42,000 --> 02:26:44,000
+ Okay.
+
+857
+02:27:12,000 --> 02:27:14,000
+ Okay.
+
+858
+02:27:42,000 --> 02:27:44,000
+ Okay.
+
+859
+02:28:12,000 --> 02:28:14,000
+ Okay.
+
+860
+02:28:42,000 --> 02:28:44,000
+ Okay.
+
+861
+02:29:12,000 --> 02:29:14,000
+ Okay.
+
+862
+02:29:42,000 --> 02:29:44,000
+ Okay.
+
+863
+02:30:12,000 --> 02:30:14,000
+ Okay.
+
+864
+02:30:42,000 --> 02:30:44,000
+ Okay.
+
+865
+02:31:12,000 --> 02:31:14,000
+ Okay.
+
+866
+02:31:42,000 --> 02:31:44,000
+ Okay.
+
+867
+02:32:12,000 --> 02:32:14,000
+ Okay.
+
+868
+02:32:42,000 --> 02:32:44,000
+ Okay.
+
+869
+02:33:12,000 --> 02:33:14,000
+ Okay.
+
+870
+02:33:42,000 --> 02:33:44,000
+ Okay.
+
+871
+02:34:12,000 --> 02:34:14,000
+ Okay.
+
+872
+02:34:42,000 --> 02:34:44,000
+ Okay.
+
+873
+02:35:12,000 --> 02:35:14,000
+ Okay.
+
+874
+02:35:42,000 --> 02:35:44,000
+ Okay.
+
+875
+02:36:12,000 --> 02:36:14,000
+ Okay.
+
+876
+02:36:42,000 --> 02:36:44,000
+ Okay.
+
+877
+02:37:12,000 --> 02:37:14,000
+ Okay.
+
+878
+02:37:42,000 --> 02:37:44,000
+ Okay.
+
+879
+02:38:12,000 --> 02:38:14,000
+ Okay.
+
+880
+02:38:42,000 --> 02:38:44,000
+ Okay.
+
+881
+02:39:12,000 --> 02:39:14,000
+ Okay.
+
+882
+02:39:42,000 --> 02:39:44,000
+ Okay.
+
+883
+02:40:12,000 --> 02:40:14,000
+ Okay.
+
+884
+02:40:42,000 --> 02:40:44,000
+ Okay.
+
+885
+02:41:12,000 --> 02:41:14,000
+ Okay.
+
+886
+02:41:42,000 --> 02:41:44,000
+ Okay.
+
+887
+02:42:12,000 --> 02:42:14,000
+ Okay.
+
+888
+02:42:42,000 --> 02:42:44,000
+ Okay.
+
+889
+02:43:12,000 --> 02:43:14,000
+ Okay.
+
+890
+02:43:42,000 --> 02:43:44,000
+ Okay.
+
+891
+02:44:12,000 --> 02:44:14,000
+ Okay.
+
+892
+02:44:42,000 --> 02:44:44,000
+ Okay.
+
+893
+02:45:12,000 --> 02:45:14,000
+ Okay.
+
+894
+02:45:42,000 --> 02:45:44,000
+ Okay.
+
+895
+02:46:12,000 --> 02:46:14,000
+ Okay.
+
+896
+02:46:42,000 --> 02:46:44,000
+ Okay.
+
+897
+02:47:12,000 --> 02:47:14,000
+ Okay.
+
+898
+02:47:42,000 --> 02:47:44,000
+ Okay.
+
+899
+02:48:12,000 --> 02:48:14,000
+ Okay.
+
+900
+02:48:42,000 --> 02:48:44,000
+ Okay.
+
+901
+02:49:12,000 --> 02:49:14,000
+ Okay.
+
+902
+02:49:42,000 --> 02:49:44,000
+ Okay.
+
+903
+02:50:12,000 --> 02:50:14,000
+ Okay.
+
+904
+02:50:42,000 --> 02:50:44,000
+ Okay.
+
+905
+02:51:12,000 --> 02:51:14,000
+ Okay.
+
+906
+02:51:42,000 --> 02:51:44,000
+ Okay.
+
+907
+02:52:12,000 --> 02:52:14,000
+ Okay.
+
+908
+02:52:42,000 --> 02:52:44,000
+ Okay.
+
+909
+02:53:12,000 --> 02:53:14,000
+ Okay.
+
+910
+02:53:42,000 --> 02:53:44,000
+ Okay.
+
+911
+02:54:12,000 --> 02:54:14,000
+ Okay.
+
+912
+02:54:42,000 --> 02:54:44,000
+ Okay.
+
+913
+02:55:12,000 --> 02:55:14,000
+ Okay.
+
+914
+02:55:42,000 --> 02:55:44,000
+ Okay.
+
+915
+02:56:12,000 --> 02:56:14,000
+ Okay.
+
+916
+02:56:42,000 --> 02:56:44,000
+ Okay.
+
+917
+02:57:12,000 --> 02:57:14,000
+ Okay.
+
+918
+02:57:42,000 --> 02:57:44,000
+ Okay.
+
+919
+02:58:12,000 --> 02:58:14,000
+ Okay.
+
+920
+02:58:42,000 --> 02:58:44,000
+ Okay.
+
+921
+02:59:12,000 --> 02:59:14,000
+ Okay.
+
+922
+02:59:42,000 --> 02:59:44,000
+ Okay.
+

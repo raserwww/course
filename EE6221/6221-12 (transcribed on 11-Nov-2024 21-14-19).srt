@@ -1,0 +1,3840 @@
+1
+00:00:00,000 --> 00:00:08,000
+ Okay, hands up. Okay, hand in your paper and sign the pen deshita.
+
+2
+00:00:08,000 --> 00:00:16,000
+ It's alphabetically ordered. Everybody, sign your paper.
+
+3
+00:00:22,000 --> 00:00:28,000
+ Now quickly, because the student is waiting outside for the next class.
+
+4
+00:00:30,000 --> 00:00:36,000
+ Quickly, quickly.
+
+5
+00:00:36,000 --> 00:00:40,000
+ Thank you.
+
+6
+00:00:40,000 --> 00:00:44,000
+ Okay.
+
+7
+00:00:44,000 --> 00:00:50,000
+ Okay, quickly.
+
+8
+00:00:50,000 --> 00:00:56,000
+ Okay, quickly.
+
+9
+00:01:00,000 --> 00:01:06,000
+ The language is alphabetically ordered.
+
+10
+00:01:20,000 --> 00:01:30,000
+ Okay.
+
+11
+00:01:30,000 --> 00:01:40,000
+ Okay.
+
+12
+00:01:40,000 --> 00:01:50,000
+ And then quickly.
+
+13
+00:01:50,000 --> 00:02:00,000
+ Alphabetically ordered.
+
+14
+00:02:20,000 --> 00:02:30,000
+ Okay.
+
+15
+00:02:30,000 --> 00:02:40,000
+ Okay.
+
+16
+00:02:40,000 --> 00:02:50,000
+ Okay.
+
+17
+00:02:50,000 --> 00:03:00,000
+ Okay.
+
+18
+00:03:00,000 --> 00:03:30,000
+
+
+19
+00:03:30,000 --> 00:04:00,000
+
+
+20
+00:04:00,000 --> 00:04:30,000
+
+
+21
+00:04:30,000 --> 00:05:00,000
+
+
+22
+00:05:00,000 --> 00:05:30,000
+
+
+23
+00:05:30,000 --> 00:06:00,000
+
+
+24
+00:06:00,000 --> 00:06:30,000
+
+
+25
+00:06:30,000 --> 00:07:00,000
+
+
+26
+00:07:00,000 --> 00:07:30,000
+
+
+27
+00:07:30,000 --> 00:08:00,000
+
+
+28
+00:08:00,000 --> 00:08:30,000
+
+
+29
+00:08:30,000 --> 00:08:58,000
+ Okay.
+
+30
+00:08:58,000 --> 00:09:28,000
+
+
+31
+00:09:28,000 --> 00:09:34,000
+ Okay.
+
+32
+00:09:34,000 --> 00:09:36,000
+ Okay.
+
+33
+00:09:36,000 --> 00:09:46,000
+ So before we go through today's lecture, I would like to remind you that we have a quiz next week at about the same time.
+
+34
+00:09:46,000 --> 00:09:50,000
+ So we're going to start at about 6.30.
+
+35
+00:09:50,000 --> 00:10:02,000
+ Next class in this classroom.
+
+36
+00:10:02,000 --> 00:10:04,000
+ This is today's outline.
+
+37
+00:10:04,000 --> 00:10:14,000
+ So we will cover this vision-based control. Some people also call it visual server control.
+
+38
+00:10:14,000 --> 00:10:26,000
+ So there can be several different names for the same technology.
+
+39
+00:10:26,000 --> 00:10:40,000
+ For people in Europe, they use visual server.
+
+40
+00:10:40,000 --> 00:10:58,000
+ It's also called vision-based control or image-guided control.
+
+41
+00:10:58,000 --> 00:11:04,000
+ We can just call it visual server control. They mean the same thing.
+
+42
+00:11:04,000 --> 00:11:12,000
+ We'll talk about two masters.
+
+43
+00:11:12,000 --> 00:11:20,000
+ PBVS and IBVS.
+
+44
+00:11:20,000 --> 00:11:40,000
+ Position-based visual server control and image-based visual server control.
+
+45
+00:11:40,000 --> 00:11:50,000
+ Next, we will cover a lot of things called homography-based visual server control.
+
+46
+00:11:50,000 --> 00:11:56,000
+ Or 2.5D.
+
+47
+00:11:56,000 --> 00:11:58,000
+ This one is still an ongoing research topic.
+
+48
+00:11:58,000 --> 00:12:10,000
+ So in this class, we'll cover mostly mature technologies for visual server control.
+
+49
+00:12:10,000 --> 00:12:22,000
+ So again, let's review this framework for vision-based control and state estimation.
+
+50
+00:12:22,000 --> 00:12:30,000
+ So for the control object, it can be a robot, a UV, etc.
+
+51
+00:12:30,000 --> 00:12:34,000
+ What can be the control objectives?
+
+52
+00:12:34,000 --> 00:12:48,000
+ There can be trajectory planning.
+
+53
+00:12:48,000 --> 00:13:16,000
+ Avoidance, path planning, etc.
+
+54
+00:13:16,000 --> 00:13:22,000
+ So we'll talk about the systems of control measures and the techniques.
+
+55
+00:13:22,000 --> 00:13:44,000
+ So actually we can use PID or linear control, linear control, etc.
+
+56
+00:13:44,000 --> 00:14:06,000
+ Or adaptive control, if we have a parameter uncertainty or optimal control.
+
+57
+00:14:06,000 --> 00:14:26,000
+ So these objectives and measures are for the control part.
+
+58
+00:14:26,000 --> 00:14:40,000
+ The estimation part is also a quite big component of this framework.
+
+59
+00:14:40,000 --> 00:14:48,000
+ So all these blocks are about estimation.
+
+60
+00:14:48,000 --> 00:15:06,000
+ The objective is to get some useful state variables and then to facilitate the subsequent control objectives.
+
+61
+00:15:06,000 --> 00:15:18,000
+ So before we do state estimation, we also need to process the images.
+
+62
+00:15:18,000 --> 00:15:26,000
+ Like I said, image processing, multiple geometry, they fall into this topic.
+
+63
+00:15:26,000 --> 00:15:40,000
+ Another framework is camera. Other than cameras, we can also use encoders.
+
+64
+00:15:40,000 --> 00:15:50,000
+ Or I am using IIS or LiDAR or GPS, etc.
+
+65
+00:15:50,000 --> 00:16:06,000
+ So all these sensors can go to this block.
+
+66
+00:16:06,000 --> 00:16:14,000
+ I will give you a little bit of introduction for this visual serving.
+
+67
+00:16:14,000 --> 00:16:18,000
+ Visual server control, some other people also call it visual serving.
+
+68
+00:16:18,000 --> 00:16:30,000
+ It is the use of vision or image data.
+
+69
+00:16:30,000 --> 00:16:36,000
+ In feedback control, it is a mechanical system.
+
+70
+00:16:36,000 --> 00:17:02,000
+ For example, this mechanical system can be a mobile robot or a robot manipulator or a UAV, etc.
+
+71
+00:17:06,000 --> 00:17:16,000
+ Typically, when people started visual serving 30 or 40 years ago, they considered robot manipulators.
+
+72
+00:17:16,000 --> 00:17:35,000
+ So nowadays, when people use visual serving, they are mainly handling autonomous vehicles, humanoid robots, or UAVs, these kind of machines that have proactive applications in real life.
+
+73
+00:17:35,000 --> 00:17:50,000
+ There are two broad categories for visual serving.
+
+74
+00:17:50,000 --> 00:17:57,000
+ PBVS and IBVS, position-based visual serving and image-based visual serving.
+
+75
+00:17:57,000 --> 00:18:13,000
+ This position-based visual serving uses pose reconstruction methods to estimate a pose first and then use the pose in control.
+
+76
+00:18:13,000 --> 00:18:29,000
+ Pose refers to position-plus orientation.
+
+77
+00:18:29,000 --> 00:18:33,000
+ So currently, you can treat the camera as a sensor.
+
+78
+00:18:33,000 --> 00:18:40,000
+ This sensor measures the pose first and then you use the pose in this visual server control.
+
+79
+00:18:41,000 --> 00:18:44,000
+ IBVS is a little bit different.
+
+80
+00:18:44,000 --> 00:18:56,000
+ IBVS image-based visual serving regulates an error between the current image and a lone-go image.
+
+81
+00:18:56,000 --> 00:19:00,000
+ And this error is used to achieve control.
+
+82
+00:19:00,000 --> 00:19:06,000
+ So you can see for IBVS, the control is down by comparing two images.
+
+83
+00:19:06,000 --> 00:19:13,000
+ So we don't have to reconstruct three deep pose first and then do control.
+
+84
+00:19:13,000 --> 00:19:15,000
+ So we just use the images directly.
+
+85
+00:19:15,000 --> 00:19:22,000
+ So that's a key difference between these two methods.
+
+86
+00:19:22,000 --> 00:19:28,000
+ These two methods have their strengths and weaknesses.
+
+87
+00:19:28,000 --> 00:19:30,000
+ Which we'll talk about in a bit later.
+
+88
+00:19:30,000 --> 00:19:41,000
+ We'll also show you several small videos to see their strengths and weaknesses.
+
+89
+00:19:41,000 --> 00:19:47,000
+ IBVS and PBVS are considered as classic visual server control methods.
+
+90
+00:19:47,000 --> 00:19:57,000
+ There are also several approaches that are built upon classic IBVS and PBVS methods.
+
+91
+00:19:57,000 --> 00:20:00,000
+ So which we'll mention very briefly in this class.
+
+92
+00:20:00,000 --> 00:20:08,000
+ If you have interest in this topic, you can actually take a look at the most recently developed methods.
+
+93
+00:20:17,000 --> 00:20:32,000
+ In order to combine the strengths of IBVS and PBVS,
+
+94
+00:20:32,000 --> 00:20:40,000
+ some researchers invented a hybrid method called 2.5D visual serving.
+
+95
+00:20:41,000 --> 00:20:49,000
+ So this method can help to avoid some common job acts of these two methods.
+
+96
+00:20:49,000 --> 00:20:54,000
+ But in this class, we're not covered this 2.5D method.
+
+97
+00:20:54,000 --> 00:20:59,000
+ The mathematics is too complicated and we don't have the time to cover that.
+
+98
+00:20:59,000 --> 00:21:05,000
+ So in this class, we'll talk about the general setting of visual server control
+
+99
+00:21:05,000 --> 00:21:12,000
+ and also the classic control and the analysis and methods.
+
+100
+00:21:17,000 --> 00:21:24,000
+ In this class for PBVS and IBVS, we assume that we have a camera.
+
+101
+00:21:24,000 --> 00:21:37,000
+ This camera is mounted on a fully actuated 6-degree freedom manipulator.
+
+102
+00:21:37,000 --> 00:21:43,000
+ So we call this an eye-in-hand scenario.
+
+103
+00:21:43,000 --> 00:21:48,000
+ People also call it camera-in-hand.
+
+104
+00:21:55,000 --> 00:22:06,000
+ The camera is attached to the global arm.
+
+105
+00:22:06,000 --> 00:22:08,000
+ This is called camera-in-hand.
+
+106
+00:22:08,000 --> 00:22:11,000
+ There's another setting called camera-to-hand.
+
+107
+00:22:11,000 --> 00:22:25,000
+ So for this configuration, the camera is fixed.
+
+108
+00:22:25,000 --> 00:22:30,000
+ The camera does not move together with robots.
+
+109
+00:22:30,000 --> 00:22:38,000
+ Let's say for example, if we install a camera in this room, put it on the ceiling.
+
+110
+00:22:39,000 --> 00:22:44,000
+ So this camera is fixed and this will be a camera-to-hand configuration.
+
+111
+00:22:44,000 --> 00:22:49,000
+ This camera does not move when the robots move in this classroom.
+
+112
+00:22:49,000 --> 00:22:50,000
+ So it will be different.
+
+113
+00:22:50,000 --> 00:22:56,000
+ But for eye-in-hand or camera-in-hand, the camera moves together with the robots.
+
+114
+00:22:56,000 --> 00:23:03,000
+ So for autonomous cars, there are all these eye-in-hand or camera-in-hand configurations.
+
+115
+00:23:09,000 --> 00:23:15,000
+ We also assume that the goal is a constant pose.
+
+116
+00:23:15,000 --> 00:23:21,000
+ So that is we just want to control the robot to go from one position to another position.
+
+117
+00:23:21,000 --> 00:23:22,000
+ Then that's it.
+
+118
+00:23:22,000 --> 00:23:26,000
+ We don't consider a more complicated time-varying pose.
+
+119
+00:23:27,000 --> 00:23:40,000
+ And we assume that facial points can be extracted and tracked via facial detection and tracking methods.
+
+120
+00:23:40,000 --> 00:23:46,000
+ So these are 12 standard assumptions for teaching in this class.
+
+121
+00:23:47,000 --> 00:24:05,000
+ And this is a list of software resources for visual-serving implementation.
+
+122
+00:24:05,000 --> 00:24:09,000
+ So the first one is for OpenCV.
+
+123
+00:24:09,000 --> 00:24:13,000
+ It is in C, WordCVIR Plus.
+
+124
+00:24:14,000 --> 00:24:21,000
+ Other than OpenCV, now this will also use ROS, ROS1 and also ROS2.
+
+125
+00:24:26,000 --> 00:24:34,000
+ In addition to C++, we can also use Python for programming.
+
+126
+00:24:35,000 --> 00:24:42,000
+ So here for these resources, some of them are method lab based.
+
+127
+00:24:42,000 --> 00:24:46,000
+ So method lab nowadays is also becoming more powerful.
+
+128
+00:24:46,000 --> 00:24:51,000
+ In the past, the functions in method lab can be quite limited,
+
+129
+00:24:51,000 --> 00:24:56,000
+ but nowadays there are so many toolboxes developed for method lab.
+
+130
+00:24:56,000 --> 00:25:03,000
+ First of all, visual-server control.
+
+131
+00:25:03,000 --> 00:25:11,000
+ To implement it when many need to box it from two different areas.
+
+132
+00:25:11,000 --> 00:25:16,000
+ The first one is computer vision.
+
+133
+00:25:16,000 --> 00:25:21,000
+ That is we should know how to deal with the images.
+
+134
+00:25:22,000 --> 00:25:28,000
+ The second topic is control.
+
+135
+00:25:28,000 --> 00:25:37,000
+ So we need to understand the concepts of control and the main methods in control.
+
+136
+00:25:37,000 --> 00:25:43,000
+ We can integrate these two topics together and implement visual-server control.
+
+137
+00:25:43,000 --> 00:25:48,000
+ If you want to know more about this topic, visual-serving,
+
+138
+00:25:48,000 --> 00:25:55,000
+ so here is a list of tutorial papers.
+
+139
+00:25:57,000 --> 00:26:01,000
+ Tutorial paper is different from survey paper.
+
+140
+00:26:01,000 --> 00:26:05,000
+ So in the tutorial paper, you will find more technical details.
+
+141
+00:26:05,000 --> 00:26:10,000
+ It is similar to a textbook, but maybe only one chapter.
+
+142
+00:26:11,000 --> 00:26:20,000
+ We will show some concepts and mathematical details for the control methods.
+
+143
+00:26:22,000 --> 00:26:25,000
+ The first paper is called a tutorial on visual-server control.
+
+144
+00:26:25,000 --> 00:26:32,000
+ And then the second one is called visual-server control, part one, basic approaches.
+
+145
+00:26:33,000 --> 00:26:44,000
+ And then paper three is visual-server control, part two, advanced approaches.
+
+146
+00:26:44,000 --> 00:26:52,000
+ So you will find the more methods other than PBBS and ADBS in these papers.
+
+147
+00:27:03,000 --> 00:27:13,000
+ A little bit of history for this visual-serving.
+
+148
+00:27:13,000 --> 00:27:24,000
+ This method can be traced back to the late 70s.
+
+149
+00:27:24,000 --> 00:27:34,000
+ So that is actually more than 40 years ago, about 50 years ago.
+
+150
+00:27:34,000 --> 00:27:46,000
+ So in the 1970s, people first started PBBS, position-based visual-serving.
+
+151
+00:27:55,000 --> 00:28:02,000
+ This means they kind of treat cameras as a sensor to measure the pose.
+
+152
+00:28:06,000 --> 00:28:12,000
+ So these are the early papers on this topic.
+
+153
+00:28:12,000 --> 00:28:22,000
+ In these papers, they require reconstruction of pose.
+
+154
+00:28:22,000 --> 00:28:41,000
+ I'll be there as started in the late 80s, about 10 years later.
+
+155
+00:28:41,000 --> 00:28:52,000
+ So here we have three representative papers for this topic, PBBS.
+
+156
+00:28:52,000 --> 00:28:59,000
+ But techniques in these papers, they compare images directly.
+
+157
+00:28:59,000 --> 00:29:24,000
+ So these are kind of different ways to apply images.
+
+158
+00:29:29,000 --> 00:29:52,000
+ Okay, I'll be there as and PBBS are classic measures.
+
+159
+00:29:52,000 --> 00:30:12,000
+ Then in the late 90s, people started to study hybrid measures, or 2.5D measures.
+
+160
+00:30:12,000 --> 00:30:22,000
+ The first paper is called 2.5D visual-serving, or 2.5 visual-serving.
+
+161
+00:30:22,000 --> 00:30:38,000
+ It's basically PBBS plus IBBS, 3D plus 2D measures.
+
+162
+00:30:38,000 --> 00:30:46,000
+ The second paper is a partitioned approach for visual-serving control.
+
+163
+00:30:46,000 --> 00:31:00,000
+ And then in the 2000s, about 10 years later, some researchers started this adaptive homography-based visual-serving control.
+
+164
+00:31:17,000 --> 00:31:24,000
+ And then these researchers started un-calibrated visual-serving control measures.
+
+165
+00:31:24,000 --> 00:31:34,000
+ So that is, when there are calibration uncertainties, how can we still design control measures to handle the control of machines?
+
+166
+00:31:34,000 --> 00:31:45,000
+ So this was mainly in the late 2000s, between 2000 and 2010.
+
+167
+00:31:45,000 --> 00:32:07,000
+ So why would a researcher mainly study the last two topics?
+
+168
+00:32:07,000 --> 00:32:17,000
+ Okay, so next we're going to study some basics to prepare us for IBBS and PBBS.
+
+169
+00:32:17,000 --> 00:32:28,000
+ To build visual-serving control, we first need to define coordinates, because all the mathematics are derived based on the coordinates.
+
+170
+00:32:28,000 --> 00:32:32,000
+ So here we can start from this image.
+
+171
+00:32:32,000 --> 00:32:35,000
+ We take a look at one feature point.
+
+172
+00:32:35,000 --> 00:32:39,000
+ See here, this red dot.
+
+173
+00:32:39,000 --> 00:32:52,000
+ This is one feature point.
+
+174
+00:32:52,000 --> 00:33:13,000
+ Okay, so for this feature point, we can first define the Euclidean coordinate, which is a three-dimensional coordinate in a 3D space.
+
+175
+00:33:13,000 --> 00:33:31,000
+ So we use m bar equal to x, y, z transpose to represent it.
+
+176
+00:33:31,000 --> 00:33:49,000
+ Here on this m bar, we can define m, the normalized coordinate.
+
+177
+00:33:49,000 --> 00:33:56,000
+ So for this m, it's defined as x over z, y over z, and 1.
+
+178
+00:33:56,000 --> 00:34:04,000
+ So we call it normalized coordinate. It's the second type of coordinate.
+
+179
+00:34:04,000 --> 00:34:09,000
+ To find normalized coordinates, we need images.
+
+180
+00:34:09,000 --> 00:34:16,000
+ From images, we can measure a pixel coordinate.
+
+181
+00:34:16,000 --> 00:34:26,000
+ So this is the third type of coordinate.
+
+182
+00:34:26,000 --> 00:34:32,000
+ These coordinates are what we can measure directly.
+
+183
+00:34:32,000 --> 00:34:38,000
+ So that's the measurements from images.
+
+184
+00:34:38,000 --> 00:34:59,000
+ So this can be easily obtained using images.
+
+185
+00:34:59,000 --> 00:35:04,000
+ Mathematically, we have this m equal to a inverse times p.
+
+186
+00:35:04,000 --> 00:35:19,000
+ This measures a is called the camera calibration matrix.
+
+187
+00:35:19,000 --> 00:35:30,000
+ So from this p, and the p where we define it is the third type of coordinate, pixel coordinate.
+
+188
+00:35:30,000 --> 00:35:33,000
+ So from images, we can measure this p.
+
+189
+00:35:33,000 --> 00:35:50,000
+ And from p, we can figure out what m is. m is the inverse times p, normalized coordinate.
+
+190
+00:35:50,000 --> 00:36:02,000
+ So now we assume that we want to control the motion of a camera to move from one place to another place.
+
+191
+00:36:02,000 --> 00:36:10,000
+ So we can now move between two different poses, fc and fc star.
+
+192
+00:36:10,000 --> 00:36:18,000
+ The camera will take a look at several feature points on this plane.
+
+193
+00:36:18,000 --> 00:36:24,000
+ So here we assume that we have plane pi and there are four feature points on the plane.
+
+194
+00:36:24,000 --> 00:36:30,000
+ And one, two, three, four, four feature points.
+
+195
+00:36:30,000 --> 00:36:33,000
+ They are the same plane.
+
+196
+00:36:33,000 --> 00:36:48,000
+ And here we consider the J's feature point.
+
+197
+00:36:48,000 --> 00:36:59,000
+ So that means we pick one feature point from a group of points and then use it to derive the mathematics.
+
+198
+00:36:59,000 --> 00:37:12,000
+ For this J's feature point, its Euclidean coordinate is mj bar equal to this, xj, yj and zj transpose.
+
+199
+00:37:12,000 --> 00:37:30,000
+ This is the Euclidean coordinate in f.
+
+200
+00:37:30,000 --> 00:37:41,000
+ For the same feature point, it also has Euclidean coordinate in the corner frame f star or fc star.
+
+201
+00:37:41,000 --> 00:37:51,000
+ It is represented by mj bar star, defined as xj star, yj star and zj star in transpose.
+
+202
+00:37:51,000 --> 00:37:54,000
+ So now we have two Euclidean coordinates.
+
+203
+00:37:54,000 --> 00:38:03,000
+ So next we can normalize these two coordinates by zj and zj star.
+
+204
+00:38:03,000 --> 00:38:16,000
+ And to get the normalized coordinates, based on mj bar divided by zj, we can get this normalized coordinates, mj.
+
+205
+00:38:16,000 --> 00:38:34,000
+ Similarly, based on mj star divided by zj star, we can get this mj star to normalize the coordinates.
+
+206
+00:38:34,000 --> 00:38:41,000
+ So what's the main difference between this slide number 10 and slide number 11 and number 10?
+
+207
+00:38:41,000 --> 00:38:51,000
+ Because now we have two different coordinate frames, fc and fc star.
+
+208
+00:38:51,000 --> 00:39:00,000
+ For the normalized coordinates, mj star, we have pj star equal to 8 mj star.
+
+209
+00:39:00,000 --> 00:39:09,000
+ So this is about the pixel coordinate from images and normalized coordinates.
+
+210
+00:39:10,000 --> 00:39:17,000
+ From the equation p equal to 8 times m, we can figure out the normalized coordinates.
+
+211
+00:39:17,000 --> 00:39:31,000
+ m is equal to the inverse of 8 times p.
+
+212
+00:39:31,000 --> 00:39:39,000
+ So if we want to control the motion of the camera to move between these two locations, f star and fc,
+
+213
+00:39:39,000 --> 00:39:41,000
+ so what do we do with that?
+
+214
+00:39:41,000 --> 00:39:47,000
+ We need to connect these two normalized coordinates, mj and mj star.
+
+215
+00:39:47,000 --> 00:39:51,000
+ So to connect them, we can use this.
+
+216
+00:39:51,000 --> 00:39:55,000
+ We can use an equation that we used in the past.
+
+217
+00:39:55,000 --> 00:40:04,000
+ mj bar is equal to r times mj star plus x.
+
+218
+00:40:04,000 --> 00:40:08,000
+ This is just about the coordinate transformation.
+
+219
+00:40:08,000 --> 00:40:17,000
+ And then starting from this, we can rewrite mj bar as zj times mj.
+
+220
+00:40:25,000 --> 00:40:37,000
+ Similarly, we can rewrite this mj bar star as zj star times mj star.
+
+221
+00:40:37,000 --> 00:40:46,000
+ So now we get an equation in terms of the two normalized coordinates.
+
+222
+00:40:46,000 --> 00:40:47,000
+ Why do we do this?
+
+223
+00:40:47,000 --> 00:40:56,000
+ This is because we can measure mj and mj star from images indirectly.
+
+224
+00:40:56,000 --> 00:41:03,000
+ So we measure p first and then we get f.
+
+225
+00:41:03,000 --> 00:41:26,000
+ Okay, so here on this slide, we have the geometry roughly unconstructed.
+
+226
+00:41:26,000 --> 00:41:32,000
+ How to get this rotation and the translation?
+
+227
+00:41:32,000 --> 00:41:40,000
+ We can use what we studied in class number three or in week three of part two.
+
+228
+00:41:40,000 --> 00:41:44,000
+ It's about structure from motion.
+
+229
+00:41:44,000 --> 00:41:51,000
+ In that class, we'll talk about two measures.
+
+230
+00:41:51,000 --> 00:42:02,000
+ Method one and the method two.
+
+231
+00:42:02,000 --> 00:42:09,000
+ Method one is about the essential matrix,
+
+232
+00:42:09,000 --> 00:42:14,000
+ which is represented by this e.
+
+233
+00:42:14,000 --> 00:42:17,000
+ So that's the definition of this e.
+
+234
+00:42:17,000 --> 00:42:22,000
+ This x cross matrix times r.
+
+235
+00:42:22,000 --> 00:42:29,000
+ So that's how we define the essential matrix.
+
+236
+00:42:29,000 --> 00:42:36,000
+ So here this x cross is a super symmetric matrix.
+
+237
+00:42:36,000 --> 00:42:40,000
+ So let's just write it down again to refresh our memory.
+
+238
+00:42:40,000 --> 00:42:51,000
+ If x is a vector, then this x cross is a matrix.
+
+239
+00:43:06,000 --> 00:43:30,000
+ It's a three by three matrix.
+
+240
+00:43:30,000 --> 00:43:34,000
+ In this method number two, we have homography.
+
+241
+00:43:34,000 --> 00:43:47,000
+ And four point algorithm.
+
+242
+00:43:47,000 --> 00:43:51,000
+ Homography is defined by this equation.
+
+243
+00:43:51,000 --> 00:43:58,000
+ mj is equal to alpha j times h times mj star.
+
+244
+00:43:58,000 --> 00:44:01,000
+ This h is called homography.
+
+245
+00:44:01,000 --> 00:44:14,000
+ And mathematically it is equal to r plus x over d star times n star transpose.
+
+246
+00:44:14,000 --> 00:44:19,000
+ So that's how homography is defined.
+
+247
+00:44:19,000 --> 00:44:29,000
+ To find the essential matrix, we have eight point algorithm.
+
+248
+00:44:29,000 --> 00:44:32,000
+ And to find homography, we have the four point algorithm.
+
+249
+00:44:32,000 --> 00:44:37,000
+ But these two measures do not apply to any systems.
+
+250
+00:44:37,000 --> 00:44:45,000
+ They need some conditions.
+
+251
+00:44:45,000 --> 00:44:48,000
+ So let's talk about the conditions.
+
+252
+00:44:48,000 --> 00:44:58,000
+ For homography, it requires a co-planar and non-colonial feature points.
+
+253
+00:45:18,000 --> 00:45:32,000
+ On the plane, so here we have four feature points.
+
+254
+00:45:32,000 --> 00:45:36,000
+ We use one, two, three, four to represent them.
+
+255
+00:45:36,000 --> 00:45:39,000
+ For these four feature points, they should be on the same plane.
+
+256
+00:45:39,000 --> 00:45:42,000
+ But they cannot all be on the same line.
+
+257
+00:45:42,000 --> 00:45:53,000
+ So that's the requirement to use homography.
+
+258
+00:45:53,000 --> 00:45:59,000
+ Okay, so just now we'll talk about the setting to use homography
+
+259
+00:45:59,000 --> 00:46:02,000
+ and to prepare for the service we're serving.
+
+260
+00:46:02,000 --> 00:46:12,000
+ So next we take a look at the camera background, the camera kinematics.
+
+261
+00:46:12,000 --> 00:46:19,000
+ We assume that the camera is fully actuated.
+
+262
+00:46:19,000 --> 00:46:33,000
+ So that is it has six degrees of freedom.
+
+263
+00:46:33,000 --> 00:46:40,000
+ Which means the camera can move along any direction and can rotate along any direction.
+
+264
+00:46:40,000 --> 00:47:05,000
+ So for the six degrees of freedom, three of them are for translation, three of them are for rotation.
+
+265
+00:47:05,000 --> 00:47:11,000
+ We can use this R to represent rotation matrices.
+
+266
+00:47:11,000 --> 00:47:19,000
+ So R is basically a three by three matrix.
+
+267
+00:47:19,000 --> 00:47:30,000
+ So it has nine elements to present a rotation.
+
+268
+00:47:30,000 --> 00:47:50,000
+ Other than the rotation matrix, we also have several other ways to represent rotation.
+
+269
+00:47:50,000 --> 00:48:02,000
+ For example, all the angles, raw pitch is your angles, angle axis, theta and u.
+
+270
+00:48:02,000 --> 00:48:10,000
+ So here theta is the angle and u is axis.
+
+271
+00:48:10,000 --> 00:48:18,000
+ And also you need a quotient.
+
+272
+00:48:18,000 --> 00:48:22,000
+ Quotient is basically a vector with four different elements.
+
+273
+00:48:22,000 --> 00:48:31,000
+ So we can, for example, write it as q0 and qv.
+
+274
+00:48:31,000 --> 00:48:36,000
+ q0 is just one dimensional, qv is three dimensional.
+
+275
+00:48:36,000 --> 00:48:51,000
+ So in total it's a six dimensional vector.
+
+276
+00:48:51,000 --> 00:49:20,000
+ People mainly use our quotient to avoid the singularity for satellite or spacecraft control.
+
+277
+00:49:21,000 --> 00:49:30,000
+ In this class, when many use angle axis, this is theta u, this method.
+
+278
+00:49:30,000 --> 00:49:49,000
+ So let me just draw it through the axis and also the angle.
+
+279
+00:49:49,000 --> 00:50:15,000
+ So we have a three dimensional vector for the axis and the rotation angle.
+
+280
+00:50:15,000 --> 00:50:28,000
+ Given a rotation matrix, we can find the axis angle and also given the x angle, we also find the rotation matrix.
+
+281
+00:50:28,000 --> 00:50:35,000
+ Let's take a look at how to convert from one to the other one.
+
+282
+00:50:35,000 --> 00:50:42,000
+ So here we assume that r is the rotation matrix with nine elements.
+
+283
+00:50:42,000 --> 00:50:50,000
+ r11, r12 and q, r13.
+
+284
+00:50:50,000 --> 00:51:00,000
+ In total three rows.
+
+285
+00:51:00,000 --> 00:51:05,000
+ So this is the rotation matrix r.
+
+286
+00:51:05,000 --> 00:51:10,000
+ Given r, we can find the axis and also the angle.
+
+287
+00:51:10,000 --> 00:51:24,000
+ This u is a three dimensional vector for axis and theta is the angle.
+
+288
+00:51:24,000 --> 00:51:34,000
+ The axis u is equal to one over two times sine theta.
+
+289
+00:51:34,000 --> 00:51:42,000
+ Times this vector.
+
+290
+00:51:42,000 --> 00:51:52,000
+ r32 minus r23, r13 minus r31 and r21 minus r12.
+
+291
+00:51:52,000 --> 00:52:03,000
+ Theta is cosine of one half times the trace of r minus one.
+
+292
+00:52:03,000 --> 00:52:09,000
+ Trace of the matrix r is equal to the sum of the elements along the diagonal.
+
+293
+00:52:09,000 --> 00:52:21,000
+ r11 plus r12 plus r22 and r33.
+
+294
+00:52:21,000 --> 00:52:29,000
+ This is how we can define the angle theta.
+
+295
+00:52:29,000 --> 00:52:35,000
+ r cosine is just equal to cosine inverse.
+
+296
+00:52:35,000 --> 00:52:46,000
+ So that's how we can figure out angle and axis from a rotation matrix r.
+
+297
+00:52:46,000 --> 00:52:53,000
+ So by giving axis and angle, we can also find the rotation matrix.
+
+298
+00:52:53,000 --> 00:53:05,000
+ This r is equal to that matrix plus u cross times sine theta plus u cross squared times one half cosine theta.
+
+299
+00:53:05,000 --> 00:53:14,000
+ So this u cross is just this cross symmetric matrix which we talked about a bit earlier.
+
+300
+00:53:14,000 --> 00:53:21,000
+ u cross is just this cross symmetric matrix.
+
+301
+00:53:21,000 --> 00:53:31,000
+ So this is how we can find rotation angle and axis from r.
+
+302
+00:53:44,000 --> 00:54:03,000
+ We'll talk about this PBVS. We need to use the camera pose.
+
+303
+00:54:04,000 --> 00:54:25,000
+ The camera pose is the 3D camera position plus the 3D camera orientation.
+
+304
+00:54:25,000 --> 00:54:31,000
+ The orientation is also on rotation.
+
+305
+00:54:31,000 --> 00:54:34,000
+ So here we can use this EP to represent it.
+
+306
+00:54:34,000 --> 00:54:38,000
+ EP is a six dimensional vector.
+
+307
+00:54:38,000 --> 00:54:43,000
+ It is x transpose and u transpose times theta.
+
+308
+00:54:43,000 --> 00:54:49,000
+ So 3 for translation and 3 for rotation.
+
+309
+00:54:49,000 --> 00:54:58,000
+ We can use it as x1, x2, x3.
+
+310
+00:54:58,000 --> 00:55:02,000
+ So this is for translation.
+
+311
+00:55:02,000 --> 00:55:08,000
+ u1 theta, u2 theta and u3 theta.
+
+312
+00:55:08,000 --> 00:55:15,000
+ This is for rotation.
+
+313
+00:55:15,000 --> 00:55:25,000
+ This is x. This is u theta for rotation.
+
+314
+00:55:25,000 --> 00:55:33,000
+ So that's how we can represent the 3 dimensional pose.
+
+315
+00:55:33,000 --> 00:55:39,000
+ For the camera input, it is also a six dimensional vector.
+
+316
+00:55:39,000 --> 00:55:55,000
+ We call it camera velocity input.
+
+317
+00:55:55,000 --> 00:56:04,000
+ So it is v transpose and omega transpose.
+
+318
+00:56:04,000 --> 00:56:13,000
+ v transpose is linear velocity for translation.
+
+319
+00:56:13,000 --> 00:56:20,000
+ And omega velocity is angular velocity for rotation.
+
+320
+00:56:43,000 --> 00:56:58,000
+ For this visual server control, after we design the controller,
+
+321
+00:56:58,000 --> 00:57:02,000
+ we need to show that the whole system is stable.
+
+322
+00:57:02,000 --> 00:57:07,000
+ There will be a bit of system stability theory.
+
+323
+00:57:07,000 --> 00:57:13,000
+ So first, I will give a very brief definition of being stable.
+
+324
+00:57:13,000 --> 00:57:21,000
+ So from the controller's perspective, what's the meaning of being stable?
+
+325
+00:57:21,000 --> 00:57:24,000
+ So this is a very simple definition.
+
+326
+00:57:24,000 --> 00:57:45,000
+ Giving bounded input output is also bounded.
+
+327
+00:57:45,000 --> 00:57:48,000
+ But usually this one is quite hard to use.
+
+328
+00:57:48,000 --> 00:57:51,000
+ So we use this definition to define stability.
+
+329
+00:57:51,000 --> 00:57:54,000
+ But we don't use it to analyze control systems directly.
+
+330
+00:57:54,000 --> 00:58:08,000
+ What do I do here is that we are going to use the approach method to do the analysis.
+
+331
+00:58:08,000 --> 00:58:16,000
+ So this method can be used in a lot of research topics under control and optimization,
+
+332
+00:58:16,000 --> 00:58:20,000
+ even under game theory.
+
+333
+00:58:20,000 --> 00:58:23,000
+ So let's take a look at this method.
+
+334
+00:58:23,000 --> 00:58:27,000
+ We consider a system with a state vector x.
+
+335
+00:58:27,000 --> 00:58:29,000
+ This is very general.
+
+336
+00:58:29,000 --> 00:58:33,000
+ It's a six dimensional state vector with, that means we have six.
+
+337
+00:58:33,000 --> 00:58:39,000
+ We have n state variables.
+
+338
+00:58:39,000 --> 00:58:47,000
+ x dot is the derivative of this state x.
+
+339
+00:58:47,000 --> 00:58:55,000
+ To use this approach method, we will first assume that there exists a function vx.
+
+340
+00:58:55,000 --> 00:59:12,000
+ This one is usually called a neapro function.
+
+341
+00:59:12,000 --> 00:59:17,000
+ For a neapro function, it usually satisfies a condition.
+
+342
+00:59:17,000 --> 00:59:33,000
+ That is this vx is a positive definite.
+
+343
+00:59:33,000 --> 00:59:35,000
+ So there are two conditions.
+
+344
+00:59:35,000 --> 00:59:43,000
+ Number one is that this vx is visually positive.
+
+345
+00:59:43,000 --> 00:59:50,000
+ So number two, this v0 is equal to 0.
+
+346
+00:59:50,000 --> 00:59:54,000
+ Only at the position 0.
+
+347
+00:59:54,000 --> 01:00:01,000
+ It's about positive and positive definite.
+
+348
+01:00:01,000 --> 01:00:05,000
+ That's one condition for this vx.
+
+349
+01:00:05,000 --> 01:00:21,000
+ Another condition is that this vx dot is negative definite.
+
+350
+01:00:21,000 --> 01:00:27,000
+ So that is v dot is less than 0.
+
+351
+01:00:27,000 --> 01:00:44,000
+ If x is not equal to 0, and v dot is equal to 0, if x is 0, this is called the negative definite.
+
+352
+01:00:44,000 --> 01:00:49,000
+ So we are using these two conditions only and without respect to it.
+
+353
+01:00:49,000 --> 01:00:58,000
+ We are trying to analyze the speed of the state x.
+
+354
+01:00:58,000 --> 01:01:02,000
+ The system is stable.
+
+355
+01:01:02,000 --> 01:01:12,000
+ If v dot is less than 0, the system is called a symbolically stable.
+
+356
+01:01:12,000 --> 01:01:15,000
+ So that is the state x where we bounded.
+
+357
+01:01:15,000 --> 01:01:18,000
+ So v goes to 0 as t goes to infinity.
+
+358
+01:01:18,000 --> 01:01:35,000
+ So this is how we can use this neapro method.
+
+359
+01:01:35,000 --> 01:01:50,000
+ If the neighborhood is the whole space, rm, then the system is called globally a symbolically stable.
+
+360
+01:01:50,000 --> 01:01:56,000
+ So first method, in this class we will talk about it very briefly.
+
+361
+01:01:56,000 --> 01:02:02,000
+ Actually, if you have taken some other control class, especially for nonlinear control,
+
+362
+01:02:02,000 --> 01:02:07,000
+ usually it will take several classes to teach the proper method.
+
+363
+01:02:07,000 --> 01:02:11,000
+ But in this class, we just use the main conclusion.
+
+364
+01:02:11,000 --> 01:02:15,000
+ We don't study different variations for this method.
+
+365
+01:02:15,000 --> 01:02:18,000
+ Okay, now it's about 7.30.
+
+366
+01:02:18,000 --> 01:02:23,000
+ Let's take a short break, about 10 minutes, then we continue.
+
+367
+01:02:48,000 --> 01:02:52,000
+ Okay.
+
+368
+01:03:18,000 --> 01:03:22,000
+ Okay.
+
+369
+01:03:48,000 --> 01:03:52,000
+ Okay.
+
+370
+01:04:18,000 --> 01:04:21,000
+ Okay.
+
+371
+01:04:48,000 --> 01:04:51,000
+ Okay.
+
+372
+01:05:18,000 --> 01:05:21,000
+ Okay.
+
+373
+01:05:48,000 --> 01:05:51,000
+ Okay.
+
+374
+01:06:18,000 --> 01:06:21,000
+ Okay.
+
+375
+01:06:48,000 --> 01:06:51,000
+ Okay.
+
+376
+01:07:18,000 --> 01:07:20,000
+ Okay.
+
+377
+01:07:48,000 --> 01:07:50,000
+ Okay.
+
+378
+01:08:18,000 --> 01:08:20,000
+ Okay.
+
+379
+01:08:48,000 --> 01:08:50,000
+ Okay.
+
+380
+01:09:18,000 --> 01:09:20,000
+ Okay.
+
+381
+01:09:48,000 --> 01:09:51,000
+ Okay.
+
+382
+01:10:18,000 --> 01:10:20,000
+ Okay.
+
+383
+01:10:48,000 --> 01:10:51,000
+ Okay.
+
+384
+01:11:18,000 --> 01:11:21,000
+ Okay.
+
+385
+01:11:48,000 --> 01:11:50,000
+ Okay.
+
+386
+01:12:18,000 --> 01:12:20,000
+ Okay.
+
+387
+01:12:48,000 --> 01:12:50,000
+ Okay.
+
+388
+01:13:18,000 --> 01:13:20,000
+ Okay.
+
+389
+01:13:49,000 --> 01:13:51,000
+ Okay.
+
+390
+01:13:51,000 --> 01:13:53,000
+ Okay.
+
+391
+01:13:53,000 --> 01:13:55,000
+ Let's continue the class.
+
+392
+01:13:55,000 --> 01:13:57,000
+ Okay.
+
+393
+01:13:57,000 --> 01:14:03,000
+ So just now we'll talk about this neapro method for control analysis.
+
+394
+01:14:03,000 --> 01:14:10,000
+ So for this method, we first need to take a look at this neapro function vx.
+
+395
+01:14:10,000 --> 01:14:13,000
+ And I see why the ak is a positive definite.
+
+396
+01:14:14,000 --> 01:14:17,000
+ Then we'll take a look at its derivative.
+
+397
+01:14:17,000 --> 01:14:21,000
+ We thought I'd say why the ak is a negative definite.
+
+398
+01:14:21,000 --> 01:14:23,000
+ All right.
+
+399
+01:14:23,000 --> 01:14:25,000
+ So if both conditions are satisfied,
+
+400
+01:14:25,000 --> 01:14:30,000
+ then we can claim that the system is asymptotically stable.
+
+401
+01:14:43,000 --> 01:14:51,000
+ So next let's take a look at one which is several control program.
+
+402
+01:14:51,000 --> 01:14:57,000
+ A camera is mounted on a control object.
+
+403
+01:14:57,000 --> 01:15:04,000
+ So for example, a robot manipulator or a VE vehicle.
+
+404
+01:15:04,000 --> 01:15:08,000
+ The camera can have two different poses.
+
+405
+01:15:08,000 --> 01:15:27,000
+ The current pose attached to FC or a go pose attached to FC star.
+
+406
+01:15:27,000 --> 01:15:34,000
+ FC star is for the go pose and FC is for the current pose.
+
+407
+01:15:34,000 --> 01:15:44,000
+ The task of this visual survey is to move the camera from FC to FC star.
+
+408
+01:15:44,000 --> 01:15:47,000
+ So you can have to move it from one position to another position.
+
+409
+01:16:05,000 --> 01:16:12,000
+ And we'll take a look at this video a bit later.
+
+410
+01:16:12,000 --> 01:16:15,000
+ So now please on this problem.
+
+411
+01:16:15,000 --> 01:16:20,000
+ We'll first talk about the PBVS position based visual survey.
+
+412
+01:16:35,000 --> 01:16:41,000
+ For this position based visual survey,
+
+413
+01:16:41,000 --> 01:16:49,000
+ PBVS we first need to define the error for the control.
+
+414
+01:16:49,000 --> 01:17:03,000
+ In PBVS, the error is defined as a pose in the three dimensional euclidean space.
+
+415
+01:17:04,000 --> 01:17:14,000
+ So in this case, camera is more like a 3D sensor or a Cartesian sensor to estimate the pose error.
+
+416
+01:17:21,000 --> 01:17:24,000
+ We can define the pose error as this.
+
+417
+01:17:24,000 --> 01:17:28,000
+ This EP is the pose error.
+
+418
+01:17:28,000 --> 01:17:36,000
+ EP equal to X transpose plus U transpose theta.
+
+419
+01:17:36,000 --> 01:17:42,000
+ X is for translation.
+
+420
+01:17:42,000 --> 01:17:45,000
+ It's three dimensional.
+
+421
+01:17:45,000 --> 01:17:51,000
+ Uclidean is for rotation.
+
+422
+01:17:51,000 --> 01:17:54,000
+ It's also three dimensional.
+
+423
+01:18:01,000 --> 01:18:11,000
+ The open loop error dynamics can be written as EP dot equal to LP times this is theta.
+
+424
+01:18:11,000 --> 01:18:16,000
+ LP here is called the Jacobian matrix.
+
+425
+01:18:24,000 --> 01:18:29,000
+ And this data is the camera velocity input.
+
+426
+01:18:41,000 --> 01:19:01,000
+ How to get this error dynamics?
+
+427
+01:19:01,000 --> 01:19:07,000
+ You can check one of the textbooks used or just check one of the papers.
+
+428
+01:19:07,000 --> 01:19:12,000
+ In this class, we don't have to know exactly what is LP.
+
+429
+01:19:12,000 --> 01:19:16,000
+ Actually, the mathematics can be a little bit complicated.
+
+430
+01:19:16,000 --> 01:19:20,000
+ This is how LP is defined.
+
+431
+01:19:22,000 --> 01:19:26,000
+ This is for reference only in this class.
+
+432
+01:19:31,000 --> 01:19:36,000
+ That means you don't have to fully understand what is in this LP.
+
+433
+01:19:36,000 --> 01:19:41,000
+ If you want to use it in the future, you can just check one of the papers.
+
+434
+01:19:44,000 --> 01:19:47,000
+ The derivation is quite complicated for this.
+
+435
+01:19:47,000 --> 01:19:50,000
+ There can be several pages to derive this mathematics.
+
+436
+01:19:50,000 --> 01:19:54,000
+ But in this class, we just need to know this.
+
+437
+01:19:54,000 --> 01:20:01,000
+ We just need to understand that for the open loop error dynamics,
+
+438
+01:20:01,000 --> 01:20:06,000
+ we have EP dot equal to our matrix times input.
+
+439
+01:20:06,000 --> 01:20:09,000
+ And this matrix is called the Jacobian matrix.
+
+440
+01:20:09,000 --> 01:20:14,000
+ We don't have to know what is in LP exactly.
+
+441
+01:20:19,000 --> 01:20:25,000
+ Under this kind of dynamics, how can we design the input of theta
+
+442
+01:20:25,000 --> 01:20:29,000
+ so that we can control the motion of the camera?
+
+443
+01:20:29,000 --> 01:20:35,000
+ So here, I start from this error dynamics.
+
+444
+01:20:35,000 --> 01:20:42,000
+ EP dot is equal to LP times the input of theta.
+
+445
+01:20:44,000 --> 01:20:47,000
+ So we can design the country input like this.
+
+446
+01:20:48,000 --> 01:20:54,000
+ We design it as negative Kp times LP inverse times EP.
+
+447
+01:20:54,000 --> 01:20:59,000
+ LP inverse also has quite a complicated mathematics.
+
+448
+01:21:02,000 --> 01:21:04,000
+ But this will be a full reference only.
+
+449
+01:21:04,000 --> 01:21:09,000
+ So you don't have to be too careful.
+
+450
+01:21:09,000 --> 01:21:14,000
+ So LP inverse is given by these three equations.
+
+451
+01:21:40,000 --> 01:21:47,000
+ So based on this control design, now we want to do some analysis
+
+452
+01:21:47,000 --> 01:21:52,000
+ and see whether it can make the system stable or not.
+
+453
+01:21:52,000 --> 01:22:00,000
+ So next, we're going to combine the open loop error system and the decontroller.
+
+454
+01:22:10,000 --> 01:22:14,000
+ EP dot equal to LP times theta.
+
+455
+01:22:14,000 --> 01:22:29,000
+ And the controller is theta equal to negative Kp, LP inverse times EP.
+
+456
+01:22:30,000 --> 01:22:38,000
+ If we combine them together, then we will have this EP dot equal to LP times theta.
+
+457
+01:22:38,000 --> 01:22:41,000
+ The open loop error dynamics.
+
+458
+01:22:41,000 --> 01:22:44,000
+ And then we can plug in the controller.
+
+459
+01:22:44,000 --> 01:22:47,000
+ That's the controller.
+
+460
+01:22:50,000 --> 01:22:55,000
+ Then we can cancel this LP and LP inverse.
+
+461
+01:22:55,000 --> 01:22:58,000
+ So they will cancel each other.
+
+462
+01:22:58,000 --> 01:23:02,000
+ And we will end up with negative Kp times EP.
+
+463
+01:23:02,000 --> 01:23:06,000
+ So this is a closed loop error dynamics.
+
+464
+01:23:08,000 --> 01:23:14,000
+ EP dot equal to negative Kp times EP.
+
+465
+01:23:14,000 --> 01:23:19,000
+ So then next, let's show the result first.
+
+466
+01:23:19,000 --> 01:23:20,000
+ Show the conclusion first.
+
+467
+01:23:20,000 --> 01:23:22,000
+ Then we'll do the analysis.
+
+468
+01:23:25,000 --> 01:23:31,000
+ The claim is that this system or this control system,
+
+469
+01:23:32,000 --> 01:23:45,000
+ EP dot equal to negative Kp times EP with Kp positive is always stable.
+
+470
+01:23:45,000 --> 01:24:02,000
+ So this means that for this camera velocity control system,
+
+471
+01:24:02,000 --> 01:24:09,000
+ with this kind of dynamics for EP dot equal to LP times theta,
+
+472
+01:24:09,000 --> 01:24:16,000
+ if we design the controller in this way, negative Kp times LP inverse times EP,
+
+473
+01:24:16,000 --> 01:24:19,000
+ then the system is always stable.
+
+474
+01:24:23,000 --> 01:24:28,000
+ So next, we're going to show that why it is always stable.
+
+475
+01:24:28,000 --> 01:24:39,000
+ So here, to prove stability, we will use the near-proof measure.
+
+476
+01:24:39,000 --> 01:24:42,000
+ We first define the near-proof function.
+
+477
+01:24:42,000 --> 01:24:48,000
+ EP is equal to one-half EP transpose times EP.
+
+478
+01:24:48,000 --> 01:24:52,000
+ So this is the same as one-half EP squared.
+
+479
+01:24:53,000 --> 01:24:58,000
+ So next, we're going to show that this EP is always positive definite.
+
+480
+01:25:07,000 --> 01:25:11,000
+ To show this, we need to check two conditions.
+
+481
+01:25:11,000 --> 01:25:14,000
+ The first one is as EP.
+
+482
+01:25:14,000 --> 01:25:17,000
+ This is the approach function.
+
+483
+01:25:18,000 --> 01:25:21,000
+ EP is defined like this.
+
+484
+01:25:21,000 --> 01:25:23,000
+ It's the square of a term.
+
+485
+01:25:23,000 --> 01:25:29,000
+ So it is always bigger than or equal to zero, always true.
+
+486
+01:25:29,000 --> 01:25:42,000
+ And also, this EP is equal to zero only at EP equal to zero.
+
+487
+01:25:48,000 --> 01:25:51,000
+ Why we have this?
+
+488
+01:25:51,000 --> 01:25:55,000
+ This is because this EP is a quadratic form.
+
+489
+01:25:55,000 --> 01:25:57,000
+ It's a square term.
+
+490
+01:25:57,000 --> 01:26:01,000
+ So it is equal to zero only if EP is zero.
+
+491
+01:26:01,000 --> 01:26:09,000
+ So because of these two conditions, we can claim that this EP is always positive definite.
+
+492
+01:26:09,000 --> 01:26:16,000
+ Next, we will check the derivative of this near-proof function, EP.
+
+493
+01:26:16,000 --> 01:26:22,000
+ So starting from here, the definition of EP.
+
+494
+01:26:22,000 --> 01:26:24,000
+ So we can take this derivative.
+
+495
+01:26:24,000 --> 01:26:31,000
+ EP. is equal to EP transpose times EP.
+
+496
+01:26:31,000 --> 01:26:36,000
+ Then we can form slide 22.
+
+497
+01:26:37,000 --> 01:26:51,000
+ We can have EP. equal to negative EP times EP.
+
+498
+01:26:51,000 --> 01:26:54,000
+ So we plug in this.
+
+499
+01:26:57,000 --> 01:27:03,000
+ Then we got EP. equal to EP transpose times negative EP.
+
+500
+01:27:03,000 --> 01:27:12,000
+ This is further equal to negative EP transpose times EP.
+
+501
+01:27:12,000 --> 01:27:15,000
+ This is negative EP squared.
+
+502
+01:27:20,000 --> 01:27:26,000
+ So from this, we can note that EP. is negative definite.
+
+503
+01:27:34,000 --> 01:27:37,000
+ Why? Because we have these two conditions satisfied.
+
+504
+01:27:37,000 --> 01:27:44,000
+ The first one is that EP. is always less than or equal to zero.
+
+505
+01:27:44,000 --> 01:27:51,000
+ Because EP. is negative EP times a square term.
+
+506
+01:27:51,000 --> 01:28:02,000
+ And also this EP. is equal to zero only at one point.
+
+507
+01:28:03,000 --> 01:28:07,000
+ Only at EP. equal to zero.
+
+508
+01:28:07,000 --> 01:28:14,000
+ So because of these two conditions, we can claim that EP. is negative definite.
+
+509
+01:28:21,000 --> 01:28:25,000
+ EP. is positive definite and EP. is negative definite.
+
+510
+01:28:25,000 --> 01:28:32,000
+ So by combining them together, we can use this near-proof theory to show that
+
+511
+01:28:32,000 --> 01:28:36,000
+ this control system is asymptotically stable.
+
+512
+01:28:36,000 --> 01:28:42,000
+ So that means mathematically, EP. goes to zero as it goes to infinity.
+
+513
+01:28:42,000 --> 01:28:46,000
+ This proves the stability condition.
+
+514
+01:28:52,000 --> 01:28:59,000
+ So next, I'm going to stop here for about two minutes.
+
+515
+01:28:59,000 --> 01:29:04,000
+ So to let you guys take a look at this analysis.
+
+516
+01:29:04,000 --> 01:29:10,000
+ So for those, for a very familiar with control, this may look not difficult.
+
+517
+01:29:10,000 --> 01:29:16,000
+ But for those who don't have a control background, this may need a little bit of time to digest.
+
+518
+01:29:16,000 --> 01:29:20,000
+ So I'll leave you guys about two minutes to go through this.
+
+519
+01:29:20,000 --> 01:29:25,000
+ You can also discuss with your friends if you have questions on this analysis.
+
+520
+01:29:25,000 --> 01:29:31,000
+ So after two minutes, then we continue with this EP. and also EP.
+
+521
+01:29:55,000 --> 01:30:00,000
+ Okay.
+
+522
+01:30:25,000 --> 01:30:31,000
+ Okay.
+
+523
+01:30:55,000 --> 01:31:00,000
+ Okay.
+
+524
+01:31:25,000 --> 01:31:30,000
+ Okay.
+
+525
+01:31:55,000 --> 01:32:00,000
+ Okay.
+
+526
+01:32:14,000 --> 01:32:19,000
+ Let's continue.
+
+527
+01:32:19,000 --> 01:32:24,000
+ Okay.
+
+528
+01:32:49,000 --> 01:33:00,000
+ So these two papers, so published, like I said, twenty-five or more years ago.
+
+529
+01:33:00,000 --> 01:33:09,000
+ So people use some model-based measures to estimate the post-error.
+
+530
+01:33:09,000 --> 01:33:16,000
+ To find the post-error, CAD model information is required.
+
+531
+01:33:16,000 --> 01:33:23,000
+ So this is an early year measure.
+
+532
+01:33:23,000 --> 01:33:26,000
+ So we just mentioned this briefly in this class.
+
+533
+01:33:26,000 --> 01:33:31,000
+ We're going to go through all these details.
+
+534
+01:33:34,000 --> 01:33:39,000
+ So these are the years of these two papers.
+
+535
+01:33:39,000 --> 01:33:44,000
+ And this measure is for reference.
+
+536
+01:33:52,000 --> 01:33:53,000
+ Okay.
+
+537
+01:33:53,000 --> 01:33:58,000
+ So this is the one way to find the post-error if you have the CAD model information.
+
+538
+01:33:58,000 --> 01:34:08,000
+ So in this class, we want to focus more on homography and essential matrix measure.
+
+539
+01:34:09,000 --> 01:34:14,000
+ Okay.
+
+540
+01:34:20,000 --> 01:34:24,000
+ Which are reflected in these two equations.
+
+541
+01:34:24,000 --> 01:34:28,000
+ So that's what we want to focus on in this class.
+
+542
+01:34:28,000 --> 01:34:34,000
+ We want to focus on epipodem measures and homography measures.
+
+543
+01:34:40,000 --> 01:34:44,000
+ Okay.
+
+544
+01:34:44,000 --> 01:34:59,000
+ So in these two measures, epipodem, constraint or essential matrix is defined as X cross M R.
+
+545
+01:35:00,000 --> 01:35:15,000
+ And in the second measure, homography is defined as R plus a term depending on X.
+
+546
+01:35:15,000 --> 01:35:31,000
+ So these two measures, what do we want to focus on?
+
+547
+01:35:31,000 --> 01:35:36,000
+ We don't want to use the CAD model to find the post.
+
+548
+01:35:46,000 --> 01:35:58,000
+ Then based on the essential matrix and also the homography, we can decompose them respectively and eventually get the rotation and scale translation.
+
+549
+01:36:02,000 --> 01:36:09,000
+ So even though in terms of mathematics, they look a little bit different, but the idea is the same.
+
+550
+01:36:09,000 --> 01:36:15,000
+ Eventually we will get the rotation and scale translation.
+
+551
+01:36:17,000 --> 01:36:34,000
+ And for all these remarks, we leave it for reference.
+
+552
+01:36:40,000 --> 01:36:45,000
+ Okay.
+
+553
+01:36:48,000 --> 01:36:51,000
+ So just now we'll talk about this PBS.
+
+554
+01:36:51,000 --> 01:37:00,000
+ We'll talk about how we define the error and how we design the controller, how we analyze the stability.
+
+555
+01:37:00,000 --> 01:37:03,000
+ So these three points are required.
+
+556
+01:37:04,000 --> 01:37:16,000
+ So in addition, we also need to understand the main drawback and the main strengths of this PBS.
+
+557
+01:37:23,000 --> 01:37:24,000
+ Okay.
+
+558
+01:37:24,000 --> 01:37:26,000
+ So maybe I can show you one simulation first.
+
+559
+01:37:26,000 --> 01:37:31,000
+ We'll talk about the strengths and weaknesses of this measure.
+
+560
+01:37:33,000 --> 01:37:58,000
+ Okay.
+
+561
+01:37:58,000 --> 01:38:00,000
+ So kind of in this simulation.
+
+562
+01:38:01,000 --> 01:38:08,000
+ So there are two halves in the simulation.
+
+563
+01:38:08,000 --> 01:38:11,000
+ The left half will show you the image space.
+
+564
+01:38:11,000 --> 01:38:16,000
+ It shows us how the facial points move on the images, to the images.
+
+565
+01:38:16,000 --> 01:38:20,000
+ And the right half shows the 3D space.
+
+566
+01:38:20,000 --> 01:38:22,000
+ How the camera moves.
+
+567
+01:38:22,000 --> 01:38:27,000
+ This one means the camera and here we have four facial points.
+
+568
+01:38:27,000 --> 01:38:31,000
+ So let's take a look at the destination first.
+
+569
+01:38:57,000 --> 01:39:24,000
+ Okay.
+
+570
+01:39:24,000 --> 01:39:26,000
+ Let's take a look at it.
+
+571
+01:39:26,000 --> 01:39:28,000
+ One more time.
+
+572
+01:39:54,000 --> 01:40:04,000
+ Okay.
+
+573
+01:40:24,000 --> 01:40:33,000
+ For PBS, the drawback is that facial points may move outside the field of view of the camera.
+
+574
+01:40:54,000 --> 01:41:21,000
+ And the strengths or the good point for PBS is that in the 3D space, the camera has quite a good 3D trajectory.
+
+575
+01:41:24,000 --> 01:41:34,000
+ Okay.
+
+576
+01:41:54,000 --> 01:42:04,000
+ Okay.
+
+577
+01:42:24,000 --> 01:42:33,000
+ Okay.
+
+578
+01:42:33,000 --> 01:42:44,000
+ So kind of here we have the main drawback of PBS and also the main advantage or strengths of this PBS.
+
+579
+01:42:54,000 --> 01:43:05,000
+ Okay.
+
+580
+01:43:05,000 --> 01:43:07,000
+ All right.
+
+581
+01:43:07,000 --> 01:43:16,000
+ So after we know the strengths and the drawback of this measure, let's take a look at the simulation one more time.
+
+582
+01:43:24,000 --> 01:43:39,000
+ Okay.
+
+583
+01:43:39,000 --> 01:44:04,000
+ So in the 3D space, the camera has a quite a straight trajectory in the 3D space.
+
+584
+01:44:04,000 --> 01:44:05,000
+ Okay.
+
+585
+01:44:05,000 --> 01:44:19,000
+ So now we stop the simulation.
+
+586
+01:44:19,000 --> 01:44:36,000
+ Next we'll take a look at this PBS, this image based WISU survey.
+
+587
+01:44:36,000 --> 01:44:50,000
+ For this method, PBS, the error is defined in the image space.
+
+588
+01:44:50,000 --> 01:44:53,000
+ So here we'll have three images.
+
+589
+01:44:53,000 --> 01:44:56,000
+ Let's take a look at the two smaller images.
+
+590
+01:44:56,000 --> 01:45:09,000
+ So you can see in these two images, our object has different pose.
+
+591
+01:45:09,000 --> 01:45:13,000
+ The rotation is a little bit different.
+
+592
+01:45:13,000 --> 01:45:30,000
+ PBS measures the difference between the coordinates of several features in the current image and in a go image.
+
+593
+01:45:30,000 --> 01:45:41,000
+ So even though we have two images, but actually we'll define the errors for PBS, we just use several feature points.
+
+594
+01:45:41,000 --> 01:45:49,000
+ The camera is moved so that the features move towards their go coordinates.
+
+595
+01:45:49,000 --> 01:46:10,000
+ And on the bigger image, so kind of these arrows show how the features move, the directions, but they just move.
+
+596
+01:46:10,000 --> 01:46:24,000
+ To define controllers for PBS, we have started with these differential equations for PBS.
+
+597
+01:46:24,000 --> 01:46:32,000
+ We consider a station or a point viewed by a moving camera.
+
+598
+01:46:32,000 --> 01:46:44,000
+ The points as coordinates M bar given by XYZ transpose in the camera frame FC.
+
+599
+01:46:44,000 --> 01:46:53,000
+ So for this, for this, PBS kinematics, it is just a given to us.
+
+600
+01:46:53,000 --> 01:47:00,000
+ So you don't need to derive these three equations.
+
+601
+01:47:00,000 --> 01:47:13,000
+ We don't have to remember that.
+
+602
+01:47:13,000 --> 01:47:20,000
+ So these are the dynamic equations that we start to design the controller.
+
+603
+01:47:20,000 --> 01:47:30,000
+ So for this XYZ, when x dot equal to this equation, y dot z dot equal to these three equations respectively.
+
+604
+01:47:30,000 --> 01:47:49,000
+ And we can reorganize these three equations a little bit to get this x dot y dot z dot equal to functions of the velocity of the camera.
+
+605
+01:47:50,000 --> 01:47:58,000
+ Here for the three terms, omega x, omega z, y and omega z.
+
+606
+01:47:58,000 --> 01:48:18,000
+ So this is the angular velocity of the camera.
+
+607
+01:48:18,000 --> 01:48:30,000
+ And for vx, vy and vz, they are for the translational velocity of the camera.
+
+608
+01:48:48,000 --> 01:49:13,000
+ We can normalize the Euclidean coordinate and get x dot and m y dot.
+
+609
+01:49:13,000 --> 01:49:31,000
+ m is defined as x over z, y over z, and a 1 equal to mx, myy, and 1.
+
+610
+01:49:31,000 --> 01:49:37,000
+ So then from the first rule of equations, we can get mx dot and y dot.
+
+611
+01:49:37,000 --> 01:49:43,000
+ So this is where we gave the dynamics to design the control inputs.
+
+612
+01:49:43,000 --> 01:49:51,000
+ But on this slide, it's just to show you roughly what kind of equations that this coordinate satisfies.
+
+613
+01:49:51,000 --> 01:50:11,000
+ But you don't have to remember these equations.
+
+614
+01:50:11,000 --> 01:50:30,000
+ So next, for one feature point, we can get the dynamic equations.
+
+615
+01:50:30,000 --> 01:50:32,000
+ I'm x dot, I'm y dot.
+
+616
+01:50:32,000 --> 01:50:42,000
+ So from these three equations, is this matrix times a six-dimensional velocity control input vector?
+
+617
+01:51:00,000 --> 01:51:08,000
+ The three is for translational velocity and three variables are for rotational velocity.
+
+618
+01:51:08,000 --> 01:51:16,000
+ This matrix, we name it as LIJ.
+
+619
+01:51:16,000 --> 01:51:21,000
+ J is the J's feature point.
+
+620
+01:51:21,000 --> 01:51:40,000
+ This LIJ has a name, it's called Image-Jocopin, or Interaction Matrix for FACET point J.
+
+621
+01:51:40,000 --> 01:51:47,000
+ So similarly here, you don't have to remember the detailed mathematical equation for this LIJ.
+
+622
+01:51:47,000 --> 01:51:56,000
+ But you need to understand here that if we want to control p, p, v, s, what are we controlling?
+
+623
+01:51:56,000 --> 01:51:59,000
+ We're controlling this velocity input.
+
+624
+01:51:59,000 --> 01:52:04,000
+ This is the dimension vector, so you understand this.
+
+625
+01:52:04,000 --> 01:52:11,000
+ And also you should know that roughly this mj dot is equal to a matrix times the input.
+
+626
+01:52:11,000 --> 01:52:15,000
+ I understand this basic concept.
+
+627
+01:52:15,000 --> 01:52:19,000
+ But what is in LIJ, you don't have to remember.
+
+628
+01:52:19,000 --> 01:52:34,000
+ So you can need it in project, you can still check the mathematics.
+
+629
+01:52:34,000 --> 01:52:43,000
+ Now based on this dynamics, how can we design the camera velocity input so that we can achieve heavy vs?
+
+630
+01:52:43,000 --> 01:52:45,000
+ So this part is required.
+
+631
+01:52:45,000 --> 01:52:56,000
+ How to design control once we have the dynamics?
+
+632
+01:52:56,000 --> 01:53:10,000
+ From one feature point, we have mj dot equal to LIJ times the camera input zeta.
+
+633
+01:53:10,000 --> 01:53:18,000
+ And now you will have n feature points that will get n different dynamic equations.
+
+634
+01:53:18,000 --> 01:53:27,000
+ m1 dot equal to LI1 times input, and mn dot equal to LIn times input.
+
+635
+01:53:27,000 --> 01:53:35,000
+ So we can combine them together and get a matrix LI with a i2 represented.
+
+636
+01:53:35,000 --> 01:53:44,000
+ i2 means image, ibv as image-based basic solving.
+
+637
+01:53:44,000 --> 01:53:48,000
+ Our freedom is the camera velocity input.
+
+638
+01:53:48,000 --> 01:53:56,000
+ That's what we can design.
+
+639
+01:53:56,000 --> 01:54:10,000
+ If n is 3, this LI is a 6 by 6 matrix.
+
+640
+01:54:10,000 --> 01:54:21,000
+ If n is bigger than 3, this LI is a 2m by 6 matrix.
+
+641
+01:54:21,000 --> 01:54:25,000
+ Then we can take the pseudo-universe if needed.
+
+642
+01:54:25,000 --> 01:54:35,000
+ Sudo-universe ii plus is defined as li transpose times li inverse times li transpose.
+
+643
+01:54:35,000 --> 01:54:44,000
+ So making it easier for you, usually we just use square matrix and use the normal inverse.
+
+644
+01:54:44,000 --> 01:54:50,000
+ But if it is not a square matrix, then you can still use pseudo-universe.
+
+645
+01:54:55,000 --> 01:55:10,000
+ For ibv, the error is defined in the image space.
+
+646
+01:55:10,000 --> 01:55:18,000
+ It is the difference between the current feature and the goal feature locations.
+
+647
+01:55:18,000 --> 01:55:27,000
+ Mathematically, this area ei is this vector m1, m2, mn.
+
+648
+01:55:27,000 --> 01:55:34,000
+ The minus this vector m1 star mn, 2 star, 2mn star.
+
+649
+01:55:34,000 --> 01:55:44,000
+ The second column, this is a constant vector.
+
+650
+01:55:44,000 --> 01:55:50,000
+ The goal feature locations is a constant.
+
+651
+01:55:50,000 --> 01:55:55,000
+ The first column is called current feature locations.
+
+652
+01:55:55,000 --> 01:56:01,000
+ It is time-varying. It changes along with time t.
+
+653
+01:56:01,000 --> 01:56:08,000
+ This is the image space error ei.
+
+654
+01:56:08,000 --> 01:56:16,000
+ For this ei, the open loop error dynamics is ei dot equal to li times zeta.
+
+655
+01:56:16,000 --> 01:56:22,000
+ What is in li? You do not have to remember this.
+
+656
+01:56:22,000 --> 01:56:33,000
+ But the mathematics can be found from slide 4 to slide 5.
+
+657
+01:56:33,000 --> 01:56:39,000
+ The control objective here is to design zeta to make this error ei go through zero.
+
+658
+01:57:03,000 --> 01:57:10,000
+ That is the objective.
+
+659
+01:57:10,000 --> 01:57:15,000
+ How to design this error and how to make sure that it goes through zero?
+
+660
+01:57:15,000 --> 01:57:22,000
+ This part is required.
+
+661
+01:57:22,000 --> 01:57:28,000
+ The control design is on the next slide.
+
+662
+01:57:28,000 --> 01:57:38,000
+ Based on this open loop error dynamics, we can design a stabilizing proportional feedback controller
+
+663
+01:57:38,000 --> 01:57:47,000
+ with zeta equal to negative ki times li inverse times ei.
+
+664
+01:57:47,000 --> 01:58:06,000
+ This ki is a positive skin again. It is just a positive control parameter.
+
+665
+01:58:06,000 --> 01:58:14,000
+ Next, we are going to show why this one works.
+
+666
+01:58:14,000 --> 01:58:24,000
+ From the error dynamics, ei dot equal to li times the input zeta.
+
+667
+01:58:24,000 --> 01:58:37,000
+ Also from the controller that we just designed, zeta is equal to negative ki li inverse times ei.
+
+668
+01:58:37,000 --> 01:58:45,000
+ We can combine them and figure out the closer loop error dynamics.
+
+669
+01:58:45,000 --> 01:58:50,000
+ This ei dot is equal to...
+
+670
+01:58:50,000 --> 01:58:56,000
+ This is a typo. We do not have an active ki yet.
+
+671
+01:58:56,000 --> 01:59:11,000
+ This is equal to li times the input. We plug in the input.
+
+672
+01:59:11,000 --> 01:59:26,000
+ Next, we can take out this control parameter ki and we can combine li and li inverse.
+
+673
+01:59:26,000 --> 01:59:34,000
+ The case which are there and gives us an identity matrix, then the rest is just equal to negative ki times ei.
+
+674
+01:59:34,000 --> 01:59:37,000
+ This is a closer error dynamics.
+
+675
+01:59:37,000 --> 01:59:44,000
+ ei dot equal to negative ki times ei.
+
+676
+01:59:44,000 --> 01:59:48,000
+ For this, we can claim that this is a stable system.
+
+677
+01:59:48,000 --> 01:59:58,000
+ How to show that it is a stable system? Then we can use this neoprofit method to do it.
+
+678
+01:59:58,000 --> 02:00:03,000
+ Here, we first define a neopropath function.
+
+679
+02:00:03,000 --> 02:00:09,000
+ vi t is equal to one-half ei transpose times ei.
+
+680
+02:00:09,000 --> 02:00:12,000
+ This is equal to one-half ei squared.
+
+681
+02:00:12,000 --> 02:00:21,000
+ This is always a positive definite neopropath function.
+
+682
+02:00:21,000 --> 02:00:23,000
+ Why it is positive definite?
+
+683
+02:00:23,000 --> 02:00:35,000
+ Because vi ei's function is always either positive or equal to zero.
+
+684
+02:00:35,000 --> 02:00:42,000
+ Because it is a quadratic term. It can never be negative.
+
+685
+02:00:42,000 --> 02:00:49,000
+ In addition, this vi ei is not always equal to zero at any point.
+
+686
+02:00:49,000 --> 02:00:57,000
+ It is equal to zero only at one position.
+
+687
+02:00:57,000 --> 02:01:00,000
+ Only at ei equal to zero.
+
+688
+02:01:00,000 --> 02:01:04,000
+ Because of this, then this is a positive definite.
+
+689
+02:01:04,000 --> 02:01:07,000
+ This is a positive definite function.
+
+690
+02:01:07,000 --> 02:01:12,000
+ Next, we take a look at the derivative of this neoprofit function.
+
+691
+02:01:12,000 --> 02:01:17,000
+ vi dot is equal to
+
+692
+02:01:18,000 --> 02:01:27,000
+ From this definition, here, this is equal to ei transpose times ei dot.
+
+693
+02:01:27,000 --> 02:01:32,000
+ So you take this derivative.
+
+694
+02:01:32,000 --> 02:01:38,000
+ So based on what we derived in the previous slide,
+
+695
+02:01:38,000 --> 02:01:43,000
+ this ei dot is equal to
+
+696
+02:01:43,000 --> 02:01:47,000
+ negative ki times ei.
+
+697
+02:01:47,000 --> 02:01:49,000
+ This is a closed loop aerodynamics.
+
+698
+02:01:49,000 --> 02:01:57,000
+ So we can plug this in and we can figure out that this vi dot is ei transpose
+
+699
+02:01:57,000 --> 02:02:00,000
+ times negative ki ei.
+
+700
+02:02:00,000 --> 02:02:04,000
+ This is from the closed loop aerodynamics.
+
+701
+02:02:09,000 --> 02:02:21,000
+ And then we can figure out that this is equal to negative ki times ei squared.
+
+702
+02:02:21,000 --> 02:02:26,000
+ We can prove that this vi dot is negative definite because
+
+703
+02:02:26,000 --> 02:02:31,000
+ vi dot is a quadratic form.
+
+704
+02:02:31,000 --> 02:02:36,000
+ So it is always less than or equal to zero.
+
+705
+02:02:36,000 --> 02:02:41,000
+ And the second, this equal sign is valid only at one position.
+
+706
+02:02:48,000 --> 02:02:53,000
+ Only at ei is zero.
+
+707
+02:02:53,000 --> 02:02:59,000
+ So this shows that this vi dot is negative definite.
+
+708
+02:02:59,000 --> 02:03:01,000
+ So we can combine them together.
+
+709
+02:03:01,000 --> 02:03:05,000
+ Where is possible definite and where is negative definite.
+
+710
+02:03:05,000 --> 02:03:11,000
+ We combine them together and we can claim that this system is always
+
+711
+02:03:11,000 --> 02:03:14,000
+ asymptotically stable.
+
+712
+02:03:14,000 --> 02:03:20,000
+ But it is only a local result, not globally.
+
+713
+02:03:20,000 --> 02:03:31,000
+ This is different from PBVS.
+
+714
+02:03:50,000 --> 02:04:07,000
+ Okay, so why is this only locally asymptotically stable but not globally
+
+715
+02:04:07,000 --> 02:04:09,000
+ as unstable?
+
+716
+02:04:09,000 --> 02:04:16,000
+ This is because of this matrix Li, which we will show on the next slide.
+
+717
+02:04:16,000 --> 02:04:25,000
+ Because this Jacobian matrix or interaction matrix Li can become singular.
+
+718
+02:04:25,000 --> 02:04:27,000
+ So it's inverse.
+
+719
+02:04:27,000 --> 02:04:32,000
+ It's not always defined.
+
+720
+02:04:32,000 --> 02:04:35,000
+ It actually depends on the feature points.
+
+721
+02:04:35,000 --> 02:04:41,000
+ So for some feature points Li can become singular and then results
+
+722
+02:04:41,000 --> 02:04:46,000
+ just locally asymptotically stable.
+
+723
+02:04:46,000 --> 02:04:54,000
+ If li is not singular and the goal mt equal to m star.
+
+724
+02:04:54,000 --> 02:04:59,000
+ So then it will be not singular in a very small neighborhood
+
+725
+02:04:59,000 --> 02:05:05,000
+ around this goal position m star.
+
+726
+02:05:05,000 --> 02:05:10,000
+ But there is no way to guarantee that it's always not singular.
+
+727
+02:05:10,000 --> 02:05:14,000
+ And also we cannot decide how big the label for this.
+
+728
+02:05:14,000 --> 02:05:20,000
+ So that's why we only claim that the result is locally asymptotically stable.
+
+729
+02:05:20,000 --> 02:05:27,000
+ So this is also a drawback of PBVS in comparison to PBVS.
+
+730
+02:05:41,000 --> 02:05:48,000
+ So just now we have used the square matrix Li and we use n equal to 3.
+
+731
+02:05:48,000 --> 02:05:53,000
+ So if n is bigger than 3, then we don't have a square matrix.
+
+732
+02:05:53,000 --> 02:05:57,000
+ The matrix becomes 2n times 6.
+
+733
+02:05:57,000 --> 02:06:09,000
+ So for this case, we can use the pseudo-inverse of Li.
+
+734
+02:06:09,000 --> 02:06:12,000
+ Li plus.
+
+735
+02:06:12,000 --> 02:06:25,000
+ So then the controller can be changed to negative Ki times Li to the inverse times Yi.
+
+736
+02:06:25,000 --> 02:06:31,000
+ The analysis will also be a little bit different.
+
+737
+02:06:31,000 --> 02:06:35,000
+ The difference is mainly with this.
+
+738
+02:06:35,000 --> 02:06:42,000
+ So we don't have Li plus not just an added matrix anymore.
+
+739
+02:06:42,000 --> 02:06:53,000
+ So let's take a look at the simulation and see what is the stress and the drawback of this PBVS message.
+
+740
+02:07:05,000 --> 02:07:19,000
+ Okay, so here we also have two halves on the simulation plane.
+
+741
+02:07:19,000 --> 02:07:26,000
+ The left half is for the image space and the right half is for the straight Euclidean space.
+
+742
+02:07:26,000 --> 02:07:32,000
+ So now we can see that on the image space, the result looks very good.
+
+743
+02:07:33,000 --> 02:07:38,000
+ The feature points are always inside the field of view of the camera.
+
+744
+02:07:38,000 --> 02:07:43,000
+ So this is the good thing.
+
+745
+02:07:43,000 --> 02:07:49,000
+ So that means the camera will not lose sight of the feature points.
+
+746
+02:07:49,000 --> 02:07:53,000
+ But the drawback is actually in the straight Euclidean space.
+
+747
+02:07:53,000 --> 02:07:57,000
+ So now in the straight Euclidean space, you can see that for this trajectory,
+
+748
+02:07:57,000 --> 02:08:03,000
+ the motion trajectory of the camera, it can be very long and looks very weird.
+
+749
+02:08:03,000 --> 02:08:06,000
+ It's not that straight.
+
+750
+02:08:06,000 --> 02:08:13,000
+ The camera actually goes for a large round and then comes back.
+
+751
+02:08:16,000 --> 02:08:23,000
+ So this is the big drawback of the PBVS image-based visual server control method.
+
+752
+02:08:23,000 --> 02:08:28,000
+ So on the images, the trajectory looks very nice.
+
+753
+02:08:28,000 --> 02:08:38,000
+ But in the real 3D space, the camera motion based on the PBVS can look very weird.
+
+754
+02:08:38,000 --> 02:08:43,000
+ It's sometimes not even reasonable.
+
+755
+02:08:47,000 --> 02:08:49,000
+ It is like, let me show you one example.
+
+756
+02:08:49,000 --> 02:08:54,000
+ It is like we want to go to Canon B, but actually we go to Canon A first,
+
+757
+02:08:54,000 --> 02:08:56,000
+ then come back to Canon B.
+
+758
+02:08:56,000 --> 02:09:01,000
+ So this is a kind of similar idea for PBVS.
+
+759
+02:09:01,000 --> 02:09:03,000
+ So that's the drawback.
+
+760
+02:09:19,000 --> 02:09:32,000
+ The drawback is that the actual trajectory of the camera may be very long.
+
+761
+02:09:49,000 --> 02:10:04,000
+ Alright, so that's the drawback.
+
+762
+02:10:04,000 --> 02:10:33,000
+ And the strength of the good thing is that the feature points are always inside the field of view of the camera.
+
+763
+02:10:34,000 --> 02:10:53,000
+ So these are two classic measures for visual serving.
+
+764
+02:10:53,000 --> 02:10:59,000
+ Position-based visual serving and image-based visual serving, PBVS and IBVS.
+
+765
+02:10:59,000 --> 02:11:12,000
+ So in order to avoid the drawbacks of these two measures, researchers in the past 20 years have done a lot of research
+
+766
+02:11:12,000 --> 02:11:28,000
+ combining these two measures, hybrid measure, switching measures, or 2.5B homography-based measures.
+
+767
+02:11:28,000 --> 02:11:41,000
+ So all kinds of measures to combine the strengths and to avoid the drawbacks.
+
+768
+02:11:41,000 --> 02:11:50,000
+ Okay, so let's have a quick comparison of these two measures, IBVS and PBVS.
+
+769
+02:11:50,000 --> 02:12:04,000
+ PBVS position-based visual serving is globally asymptotic stable.
+
+770
+02:12:04,000 --> 02:12:11,000
+ But IBVS is only locally asymptotic stable.
+
+771
+02:12:11,000 --> 02:12:19,000
+ So this is because the image of a Corbin, this LI, may be singular for some feature points.
+
+772
+02:12:19,000 --> 02:12:23,000
+ There's no guarantee that this LI is always full rank.
+
+773
+02:12:23,000 --> 02:12:32,000
+ So that's where this drawback comes from.
+
+774
+02:12:32,000 --> 02:12:46,000
+ So PBVS, the position error strictly decreases in the 3D space, and as I said, the robot follows least distance path to the goal.
+
+775
+02:12:46,000 --> 02:12:53,000
+ So in the 3D space, the camera or robot will have quite nice trajectory for PBVS.
+
+776
+02:12:53,000 --> 02:12:59,000
+ But for IBVS, this cannot be guaranteed.
+
+777
+02:12:59,000 --> 02:13:08,000
+ The 3D trajectory may look very long for IBVS.
+
+778
+02:13:08,000 --> 02:13:16,000
+ For IBVS, the stress is that image error strictly decreases.
+
+779
+02:13:16,000 --> 02:13:25,000
+ The feature follows least distance path to their goal coordinates in the image space or in the image plane.
+
+780
+02:13:25,000 --> 02:13:33,000
+ So on the image plane, the trajectory for IBVS looks quite good.
+
+781
+02:13:33,000 --> 02:13:37,000
+ And the feature points will always be inside the field of view.
+
+782
+02:13:47,000 --> 02:14:04,000
+ So we can use these two images to summarize the drawbacks and the stress of PBVS and IBVS.
+
+783
+02:14:04,000 --> 02:14:25,000
+ So for PBVS, the drawback is mainly in the image space.
+
+784
+02:14:25,000 --> 02:14:29,000
+ Now this EI square means the image space error.
+
+785
+02:14:29,000 --> 02:14:41,000
+ It may increase and then decreases so that on the images, PBVS may have very weird, very strange trajectory on the image space.
+
+786
+02:14:41,000 --> 02:14:55,000
+ But for the error in the EI space, for this EP, this error decreases very well.
+
+787
+02:14:55,000 --> 02:15:04,000
+ So in the 3D, in the Canadian space, PBVS will have very nice motion trajectory physically.
+
+788
+02:15:04,000 --> 02:15:07,000
+ So that's the stress.
+
+789
+02:15:11,000 --> 02:15:17,000
+ For IBVS, it's actually different on the image space.
+
+790
+02:15:17,000 --> 02:15:24,000
+ For this image space error, EI, this error decreases
+
+791
+02:15:24,000 --> 02:15:26,000
+ very quickly.
+
+792
+02:15:26,000 --> 02:15:34,000
+ So in the image space, IBVS can generate quite good trajectory on the 2D space.
+
+793
+02:15:34,000 --> 02:15:38,000
+ But the drawback is with the 3D EI space.
+
+794
+02:15:38,000 --> 02:15:57,000
+ In this 3D space, the camera may have very long trajectory.
+
+795
+02:16:08,000 --> 02:16:23,000
+ So that's the summary and also for this class.
+
+796
+02:16:23,000 --> 02:16:36,000
+ So if you have any questions regarding this class, you can still come here and talk to me after the class.
+
+797
+02:16:36,000 --> 02:16:43,000
+ And also again, so next week, we are going to have the quiz.
+
+798
+02:16:43,000 --> 02:16:48,000
+ The quiz may cover topics from week number 8 to week number 12.
+
+799
+02:16:48,000 --> 02:16:50,000
+ That's this class.
+
+800
+02:16:54,000 --> 02:17:00,000
+ Okay, so for the time that we still have, so I'll be here just to answer questions that in each of you have individually.
+
+801
+02:17:06,000 --> 02:17:08,000
+ Okay.
+
+802
+02:17:37,000 --> 02:17:43,000
+ What kind of practical questions?
+
+803
+02:17:43,000 --> 02:17:46,000
+ What are the examples, please?
+
+804
+02:17:49,000 --> 02:17:52,000
+ Okay, I'm afraid that it would not help.
+
+805
+02:17:57,000 --> 02:18:01,000
+ You can just use the next notes, which are called for for the quiz.
+
+806
+02:18:06,000 --> 02:18:08,000
+ Okay.
+
+807
+02:18:13,000 --> 02:18:17,000
+ So the ways to use the quiz are different.
+
+808
+02:18:17,000 --> 02:18:24,000
+ Next, let's have IBVS with the same hair as the image from this graph.
+
+809
+02:18:24,000 --> 02:18:30,000
+ We get the same hair, this next, low-mass coordinates.
+
+810
+02:18:30,000 --> 02:18:31,000
+ Yes.
+
+811
+02:18:31,000 --> 02:18:44,000
+ So for IBVS, we actually use the rotation and translation.
+
+812
+02:18:44,000 --> 02:18:47,000
+ Oh, and it's just for the photos.
+
+813
+02:18:47,000 --> 02:18:48,000
+ Yes.
+
+814
+02:18:48,000 --> 02:18:50,000
+ Is it for camera rotation?
+
+815
+02:18:50,000 --> 02:18:52,000
+ Right, right, right. Camera rotation and camera translation.
+
+816
+02:18:52,000 --> 02:18:54,000
+ So you can see.
+
+817
+02:18:54,000 --> 02:18:57,000
+ So one of the questions is why does the quiz have a full hand here?
+
+818
+02:18:57,000 --> 02:18:59,000
+ It's just a jacobian matrix.
+
+819
+02:18:59,000 --> 02:19:01,000
+ Oh, okay.
+
+820
+02:19:01,000 --> 02:19:07,000
+ Okay, even though they all called it jacobian, but the meaning is a little bit different.
+
+821
+02:19:07,000 --> 02:19:12,000
+ So the quiz is just developed based on the differential equation.
+
+822
+02:19:12,000 --> 02:19:15,000
+ So that's the equation.
+
+823
+02:19:15,000 --> 02:19:20,000
+ No, no, no, it's different.
+
+824
+02:19:20,000 --> 02:19:23,000
+ I was curious.
+
+825
+02:19:23,000 --> 02:19:38,000
+ The controller is actually designed to give us this kind of structure.
+
+826
+02:19:38,000 --> 02:19:39,000
+ Okay.
+
+827
+02:19:39,000 --> 02:19:42,000
+ So how to get the object from there?
+
+828
+02:19:42,000 --> 02:19:47,000
+ This actually is designed based on the actual method.
+
+829
+02:19:47,000 --> 02:19:51,000
+ So usually for this, the approach is the design.
+
+830
+02:19:51,000 --> 02:19:55,000
+ So the approach function first.
+
+831
+02:19:55,000 --> 02:19:59,000
+ The approach function first.
+
+832
+02:19:59,000 --> 02:20:06,000
+ And then we design the controller to meet the certain...
+
+833
+02:20:06,000 --> 02:20:07,000
+ ...comment.
+
+834
+02:20:07,000 --> 02:20:08,000
+ ...stability.
+
+835
+02:20:08,000 --> 02:20:10,000
+ Right, right, right.
+
+836
+02:20:10,000 --> 02:20:16,000
+ And to design the controller to meet the stability of the solution.
+
+837
+02:20:16,000 --> 02:20:18,000
+ So just...
+
+838
+02:20:18,000 --> 02:20:21,000
+ Okay, just no detail.
+
+839
+02:20:21,000 --> 02:20:23,000
+ It's just very...
+
+840
+02:20:23,000 --> 02:20:27,000
+ Okay, so this is already the detail.
+
+841
+02:20:27,000 --> 02:20:34,000
+ So let's say for controller design, of course it takes some kind of practice and also experience.
+
+842
+02:20:34,000 --> 02:20:37,000
+ So let's say why we're designing in this way?
+
+843
+02:20:37,000 --> 02:20:38,000
+ Yeah, yes, yes.
+
+844
+02:20:38,000 --> 02:20:43,000
+ Yeah, this is because eventually one of these aerodynamics to be like this.
+
+845
+02:20:43,000 --> 02:20:45,000
+ E.P.Buy in the negative, E.P.
+
+846
+02:20:45,000 --> 02:20:46,000
+ Yes, yes.
+
+847
+02:20:46,000 --> 02:20:51,000
+ Yeah, so because for this kind of form, we know very well that it's going to be stable.
+
+848
+02:20:51,000 --> 02:20:55,000
+ So we just make the controller to that, it equals to...
+
+849
+02:20:55,000 --> 02:20:57,000
+ Right, right, right, right.
+
+850
+02:20:57,000 --> 02:20:58,000
+ Oh, okay.
+
+851
+02:20:58,000 --> 02:21:00,000
+ Okay, same thing.
+
+852
+02:21:05,000 --> 02:21:06,000
+ Yes.
+
+853
+02:21:06,000 --> 02:21:07,000
+ Yes, pro.
+
+854
+02:21:07,000 --> 02:21:11,000
+ When this pose, I would say it doesn't...
+
+855
+02:21:11,000 --> 02:21:13,000
+ ...desired...
+
+856
+02:21:14,000 --> 02:21:16,000
+ Oh, okay.
+
+857
+02:21:16,000 --> 02:21:17,000
+ It can also be...
+
+858
+02:21:17,000 --> 02:21:24,000
+ Yeah, so for this one, this E.P. and E.I. are different.
+
+859
+02:21:24,000 --> 02:21:27,000
+ Next, say for E.I., you have the current pose of...
+
+860
+02:21:27,000 --> 02:21:28,000
+ Sorry, current image and...
+
+861
+02:21:28,000 --> 02:21:30,000
+ ...did that image, right?
+
+862
+02:21:30,000 --> 02:21:32,000
+ Yeah, and minus time stop.
+
+863
+02:21:32,000 --> 02:21:33,000
+ But this one is...
+
+864
+02:21:33,000 --> 02:21:35,000
+ This is just the translation.
+
+865
+02:21:35,000 --> 02:21:36,000
+ This is the position.
+
+866
+02:21:36,000 --> 02:21:38,000
+ This is difference.
+
+867
+02:21:38,000 --> 02:21:42,000
+ Next example, if I want to move from here to here,
+
+868
+02:21:42,000 --> 02:21:45,000
+ if I go from this place to this place,
+
+869
+02:21:45,000 --> 02:21:49,000
+ this axis is already the difference between them.
+
+870
+02:21:49,000 --> 02:21:51,000
+ So there's no axis stop.
+
+871
+02:21:53,000 --> 02:21:56,000
+ But is it also a function of time?
+
+872
+02:21:56,000 --> 02:21:58,000
+ Yeah, it's a function of time, yes.
+
+873
+02:21:58,000 --> 02:22:01,000
+ Because one of them can move.
+
+874
+02:22:01,000 --> 02:22:03,000
+ The other one is fixed.
+
+875
+02:22:03,000 --> 02:22:05,000
+ So it's already different.
+
+876
+02:22:05,000 --> 02:22:07,000
+ And how about...
+
+877
+02:22:10,000 --> 02:22:15,000
+ What is the meaning of reference and what is examable?
+
+878
+02:22:15,000 --> 02:22:22,000
+ Okay, for reference, we're not hasty in the presentation.
+
+879
+02:22:22,000 --> 02:22:31,000
+ But in the exam, we should remember something like this velocity open.
+
+880
+02:22:31,000 --> 02:22:36,000
+ Yeah, you just remember it's roughly the dynamics of the dynamics to the light.
+
+881
+02:22:36,000 --> 02:22:39,000
+ You can tell the input of a matrix M input.
+
+882
+02:22:39,000 --> 02:22:42,000
+ But you don't have to know that what it's...
+
+883
+02:22:42,000 --> 02:22:44,000
+ ...now, P.
+
+884
+02:22:44,000 --> 02:22:48,000
+ Because this is where we have our party to remember.
+
+885
+02:22:48,000 --> 02:22:51,000
+ Yeah, so don't need to remember it.
+
+886
+02:22:53,000 --> 02:22:54,000
+ Thank you.
+
+887
+02:22:54,000 --> 02:22:55,000
+ Yeah.
+
+888
+02:23:01,000 --> 02:23:02,000
+ Okay.
+
+889
+02:24:01,000 --> 02:24:03,000
+ Okay.
+
+890
+02:24:31,000 --> 02:24:33,000
+ Okay.
+
+891
+02:25:01,000 --> 02:25:02,000
+ Okay.
+
+892
+02:25:31,000 --> 02:25:33,000
+ Okay.
+
+893
+02:26:01,000 --> 02:26:02,000
+ Okay.
+
+894
+02:26:31,000 --> 02:26:32,000
+ Okay.
+
+895
+02:27:01,000 --> 02:27:02,000
+ Okay.
+
+896
+02:27:31,000 --> 02:27:32,000
+ Okay.
+
+897
+02:28:01,000 --> 02:28:02,000
+ Okay.
+
+898
+02:28:31,000 --> 02:28:32,000
+ Okay.
+
+899
+02:29:01,000 --> 02:29:03,000
+ Okay.
+
+900
+02:29:31,000 --> 02:29:33,000
+ Okay.
+
+901
+02:30:01,000 --> 02:30:03,000
+ Okay.
+
+902
+02:30:31,000 --> 02:30:33,000
+ Okay.
+
+903
+02:31:01,000 --> 02:31:03,000
+ Okay.
+
+904
+02:31:31,000 --> 02:31:34,000
+ Okay.
+
+905
+02:32:01,000 --> 02:32:03,000
+ Okay.
+
+906
+02:32:31,000 --> 02:32:33,000
+ Okay.
+
+907
+02:33:01,000 --> 02:33:03,000
+ Okay.
+
+908
+02:33:31,000 --> 02:33:33,000
+ Okay.
+
+909
+02:34:01,000 --> 02:34:03,000
+ Okay.
+
+910
+02:34:31,000 --> 02:34:33,000
+ Okay.
+
+911
+02:35:01,000 --> 02:35:03,000
+ Okay.
+
+912
+02:35:31,000 --> 02:35:33,000
+ Okay.
+
+913
+02:36:01,000 --> 02:36:03,000
+ Okay.
+
+914
+02:36:31,000 --> 02:36:33,000
+ Okay.
+
+915
+02:37:01,000 --> 02:37:03,000
+ Okay.
+
+916
+02:37:31,000 --> 02:37:33,000
+ Okay.
+
+917
+02:38:01,000 --> 02:38:03,000
+ Okay.
+
+918
+02:38:31,000 --> 02:38:33,000
+ Okay.
+
+919
+02:39:01,000 --> 02:39:03,000
+ Okay.
+
+920
+02:39:31,000 --> 02:39:33,000
+ Okay.
+
+921
+02:40:01,000 --> 02:40:03,000
+ Okay.
+
+922
+02:40:31,000 --> 02:40:33,000
+ Okay.
+
+923
+02:41:01,000 --> 02:41:03,000
+ Okay.
+
+924
+02:41:31,000 --> 02:41:33,000
+ Okay.
+
+925
+02:42:01,000 --> 02:42:03,000
+ Okay.
+
+926
+02:42:31,000 --> 02:42:33,000
+ Okay.
+
+927
+02:43:01,000 --> 02:43:03,000
+ Okay.
+
+928
+02:43:31,000 --> 02:43:33,000
+ Okay.
+
+929
+02:44:01,000 --> 02:44:03,000
+ Okay.
+
+930
+02:44:31,000 --> 02:44:33,000
+ Okay.
+
+931
+02:45:01,000 --> 02:45:03,000
+ Okay.
+
+932
+02:45:31,000 --> 02:45:33,000
+ Okay.
+
+933
+02:46:01,000 --> 02:46:03,000
+ Okay.
+
+934
+02:46:31,000 --> 02:46:33,000
+ Okay.
+
+935
+02:47:01,000 --> 02:47:03,000
+ Okay.
+
+936
+02:47:31,000 --> 02:47:33,000
+ Okay.
+
+937
+02:48:01,000 --> 02:48:03,000
+ Okay.
+
+938
+02:48:31,000 --> 02:48:33,000
+ Okay.
+
+939
+02:49:01,000 --> 02:49:03,000
+ Okay.
+
+940
+02:49:31,000 --> 02:49:33,000
+ Okay.
+
+941
+02:50:01,000 --> 02:50:03,000
+ Okay.
+
+942
+02:50:31,000 --> 02:50:33,000
+ Okay.
+
+943
+02:51:01,000 --> 02:51:03,000
+ Okay.
+
+944
+02:51:31,000 --> 02:51:33,000
+ Okay.
+
+945
+02:52:01,000 --> 02:52:03,000
+ Okay.
+
+946
+02:52:31,000 --> 02:52:33,000
+ Okay.
+
+947
+02:53:01,000 --> 02:53:03,000
+ Okay.
+
+948
+02:53:31,000 --> 02:53:33,000
+ Okay.
+
+949
+02:54:01,000 --> 02:54:03,000
+ Okay.
+
+950
+02:54:31,000 --> 02:54:33,000
+ Okay.
+
+951
+02:55:01,000 --> 02:55:03,000
+ Okay.
+
+952
+02:55:31,000 --> 02:55:33,000
+ Okay.
+
+953
+02:56:01,000 --> 02:56:03,000
+ Okay.
+
+954
+02:56:31,000 --> 02:56:33,000
+ Okay.
+
+955
+02:57:01,000 --> 02:57:03,000
+ Okay.
+
+956
+02:57:31,000 --> 02:57:33,000
+ Okay.
+
+957
+02:58:01,000 --> 02:58:03,000
+ Okay.
+
+958
+02:58:31,000 --> 02:58:33,000
+ Okay.
+
+959
+02:59:01,000 --> 02:59:03,000
+ Okay.
+
+960
+02:59:31,000 --> 02:59:33,000
+ Okay.
+
