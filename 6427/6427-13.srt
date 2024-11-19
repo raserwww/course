@@ -1,0 +1,7336 @@
+1
+00:02:30,000 --> 00:02:32,000
+ you
+
+2
+00:03:00,000 --> 00:03:02,000
+ you
+
+3
+00:03:30,000 --> 00:03:32,000
+ you
+
+4
+00:04:00,000 --> 00:04:02,000
+ you
+
+5
+00:04:07,000 --> 00:04:09,000
+ .
+
+6
+00:04:11,000 --> 00:04:14,000
+ So, welcome back. Let's continue with today's lecture. So,
+
+7
+00:04:14,000 --> 00:04:17,000
+ today, if we can move a bit faster, probably we'll skip the
+
+8
+00:04:17,000 --> 00:04:20,000
+ break in between so that we can finish the class a little bit
+
+9
+00:04:20,000 --> 00:04:23,000
+ earlier. Okay. So, the next topic that we are going to talk
+
+10
+00:04:23,000 --> 00:04:27,000
+ about is how do we adapt and fine tune the foundation model.
+
+11
+00:04:28,000 --> 00:04:30,000
+ So, we are going to talk about the foundation model.
+
+12
+00:04:32,000 --> 00:04:34,000
+ We are going to talk about the foundation model.
+
+13
+00:04:36,000 --> 00:04:38,000
+ Foundation model, usually we train with a diverse large-scale
+
+14
+00:04:38,000 --> 00:04:40,000
+ data to train it so that it will
+
+15
+00:04:41,000 --> 00:04:44,000
+ acquire some cover general capability. But very often, when
+
+16
+00:04:44,000 --> 00:04:47,000
+ you want to subsequently adapt it for some downstream
+
+17
+00:04:47,000 --> 00:04:50,000
+ application, you will need to do the fine tuning. So, if you
+
+18
+00:04:50,000 --> 00:04:53,000
+ are downstream application, you may be have a small data set
+
+19
+00:04:53,000 --> 00:04:55,000
+ . So, this particular process is then known as the fine tuning
+
+20
+00:04:55,000 --> 00:04:59,000
+ or adaptation. So, you can see this is the high-level idea.
+
+21
+00:04:59,000 --> 00:05:03,000
+ So, if you take the example of an LLM, large-language model, it's
+
+22
+00:05:03,000 --> 00:05:07,000
+ a type of foundation model. So, we'll start with, for example,
+
+23
+00:05:07,000 --> 00:05:11,000
+ a large-scale diverse data. We will use it to train our LLM.
+
+24
+00:05:11,000 --> 00:05:15,000
+ So, this LLM, because it's trained using diverse large-scale
+
+25
+00:05:15,000 --> 00:05:18,000
+ data, so it usually has strong capability. But we want to
+
+26
+00:05:18,000 --> 00:05:22,000
+ further customize it for our downstream application. So, what
+
+27
+00:05:22,000 --> 00:05:25,000
+ we can use then will be, for example, a customized
+
+28
+00:05:25,000 --> 00:05:29,000
+ knowledge data set to do the fine tuning, to fine-tune our
+
+29
+00:05:29,000 --> 00:05:33,000
+ network so that it can be customized for our use case. So,
+
+30
+00:05:33,000 --> 00:05:37,000
+ that's a general idea. So, fine-tuning is a process of
+
+31
+00:05:37,000 --> 00:05:41,000
+ updating some parameters in our pre-trained model, such as
+
+32
+00:05:41,000 --> 00:05:46,000
+ the foundation model, for some downstream application. For
+
+33
+00:05:46,000 --> 00:05:50,000
+ example, you could have an LLM, which is a large-scale kind of
+
+34
+00:05:51,000 --> 00:05:55,000
+ general application, such as a LLMA. But you may have a use
+
+35
+00:05:55,000 --> 00:05:59,000
+ case in your certain company or your factory. You want to be
+
+36
+00:05:59,000 --> 00:06:02,000
+ able to ask some questions regarding to the manual for
+
+37
+00:06:02,000 --> 00:06:05,000
+ your factory. So, it's customized for this particular
+
+38
+00:06:05,000 --> 00:06:08,000
+ factory. So, therefore, in those kind of cases, then you can
+
+39
+00:06:08,000 --> 00:06:13,000
+ use your factory manual to fine-tune your pre-trained LLM,
+
+40
+00:06:13,000 --> 00:06:17,000
+ or foundation model, for your conversation or
+
+41
+00:06:18,000 --> 00:06:23,000
+ querying in for your factory application. So, the pre-trained
+
+42
+00:06:23,000 --> 00:06:26,000
+ model, as mentioned, it contains vast and diverse
+
+43
+00:06:26,000 --> 00:06:30,000
+ knowledge because it's trained using a large-scale data. But it
+
+44
+00:06:30,000 --> 00:06:33,000
+ may lack certain specialization. For example, the case we
+
+45
+00:06:33,000 --> 00:06:36,000
+ mentioned, for the case of a certain factory, you may want to
+
+46
+00:06:36,000 --> 00:06:41,000
+ be able to handle those specific use cases for your factory.
+
+47
+00:06:41,000 --> 00:06:45,000
+ So, fine-tuning will address this particular gap by adapting
+
+48
+00:06:45,000 --> 00:06:50,000
+ your large foundation model to learn from your domain-specific
+
+49
+00:06:50,000 --> 00:06:54,000
+ data, such as, like I mentioned, the Q&A or the manual for
+
+50
+00:06:54,000 --> 00:06:57,000
+ your factory setting, so that it can handle the target
+
+51
+00:06:57,000 --> 00:07:01,000
+ application more effectively. Right, okay. So, what are the
+
+52
+00:07:01,000 --> 00:07:07,000
+ process of performing a fine-tuning? Right, okay. So, the
+
+53
+00:07:07,000 --> 00:07:10,000
+ first thing is that you need to do some data preparation. Just
+
+54
+00:07:11,000 --> 00:07:15,000
+ make sure that the data that you have is properly clean, is
+
+55
+00:07:15,000 --> 00:07:19,000
+ formatted based on the standard format, and then, if
+
+56
+00:07:19,000 --> 00:07:22,000
+ necessary, you may want to do some data augmentation. Right, so
+
+57
+00:07:22,000 --> 00:07:25,000
+ this is the first stage. You do the data preparation. And
+
+58
+00:07:25,000 --> 00:07:27,000
+ afterwards, you need to choose
+
+59
+00:07:41,000 --> 00:07:43,000
+ a suitable
+
+60
+00:07:46,000 --> 00:07:48,000
+ model.
+
+61
+00:07:49,000 --> 00:07:51,000
+ So, you may want to choose a suitable
+
+62
+00:07:51,000 --> 00:07:54,000
+ model. Right, so currently, there's lots of models out
+
+63
+00:07:54,000 --> 00:07:57,000
+ there. Some are closed models, some are open models. Right, so
+
+64
+00:07:57,000 --> 00:08:00,000
+ you may want to choose a suitable model that matches your
+
+65
+00:08:00,000 --> 00:08:03,000
+ needs. So, this could include things like
+
+66
+00:08:03,000 --> 00:08:06,000
+ what's the size of the model, what kind of data it has been
+
+67
+00:08:06,000 --> 00:08:09,000
+ used for pre-training, and also the performance. So, these
+
+68
+00:08:09,000 --> 00:08:11,000
+ are some of the considerations that you need to consider,
+
+69
+00:08:11,000 --> 00:08:15,000
+ right, what type of pre-trained model you're going to use. Okay,
+
+70
+00:08:15,000 --> 00:08:18,000
+ and afterwards, you need to choose a suitable method to do
+
+71
+00:08:18,000 --> 00:08:21,000
+ the fine-tuning. So, in the next few slides, we'll spend a
+
+72
+00:08:21,000 --> 00:08:24,000
+ little bit of time to look at what are some common ways to
+
+73
+00:08:24,000 --> 00:08:26,000
+ do the fine-tuning.
+
+74
+00:08:27,000 --> 00:08:30,000
+ So, in the next few slides, we'll spend a little bit of time
+
+75
+00:08:30,000 --> 00:08:34,000
+ to look at what are some common ways of fine-tuning a
+
+76
+00:08:34,000 --> 00:08:38,000
+ foundation model. Right, okay, so once you have done that,
+
+77
+00:08:38,000 --> 00:08:40,000
+ then you need to do the validation. Right, so after the
+
+78
+00:08:40,000 --> 00:08:43,000
+ fine-tuning, you want to test it on your validation data set
+
+79
+00:08:43,000 --> 00:08:46,000
+ to see the performance. So, this is the set, the
+
+80
+00:08:46,000 --> 00:08:50,000
+ validation, so you need to evaluate your fine-tune model
+
+81
+00:08:50,000 --> 00:08:53,000
+ on the validation data set to see its performance. Right, and
+
+82
+00:08:53,000 --> 00:08:56,000
+ if you notice that the performance is not good, then you
+
+83
+00:08:56,000 --> 00:08:59,000
+ may need to go through this process again to do the
+
+84
+00:09:00,000 --> 00:09:03,000
+ model iteration. Right, you need to do it a few times until
+
+85
+00:09:03,000 --> 00:09:06,000
+ you get satisfactory performance. So, once that, then
+
+86
+00:09:06,000 --> 00:09:09,000
+ you're ready to deploy it. Right, so you can deploy your
+
+87
+00:09:09,000 --> 00:09:12,000
+ fine-tune model to the real-world application. So, this is
+
+88
+00:09:12,000 --> 00:09:16,000
+ the kind of standard pipeline, right, on the fine-tuning of
+
+89
+00:09:16,000 --> 00:09:19,000
+ a foundation model and their deployment.
+
+90
+00:09:20,000 --> 00:09:24,000
+ Okay, so next, we are going to spend some time to very
+
+91
+00:09:24,000 --> 00:09:28,000
+ quickly talk about some common fine-tuning or adaptation
+
+92
+00:09:28,000 --> 00:09:31,000
+ techniques. So, the type of fine-tuning or adaptation
+
+93
+00:09:31,000 --> 00:09:34,000
+ technique we're going to look at will be the adapter
+
+94
+00:09:34,000 --> 00:09:39,000
+ tuning, okay, a low-rank adaptation, and then quantized
+
+95
+00:09:39,000 --> 00:09:43,000
+ low-rank adaptation. So, this is improved versions of the
+
+96
+00:09:43,000 --> 00:09:47,000
+ low-rank. Okay, and then the prefix tuning, and then
+
+97
+00:09:47,000 --> 00:09:50,000
+ finally the prompt tuning. Right, so these are a few
+
+98
+00:09:50,000 --> 00:09:54,000
+ broad categories of tuning or adaptation techniques that
+
+99
+00:09:54,000 --> 00:09:56,000
+ we are going to look at.
+
+100
+00:09:58,000 --> 00:10:00,000
+ Okay.
+
+101
+00:10:20,000 --> 00:10:25,000
+ Right, okay, so the first approach we are going to use is
+
+102
+00:10:25,000 --> 00:10:28,000
+ the adapter tuning. So, adapter tuning actually refers to
+
+103
+00:10:28,000 --> 00:10:32,000
+ broadcast technique, right, which you are, that is used to
+
+104
+00:10:32,000 --> 00:10:35,000
+ fine-tune your large pre-tuned foundation model. So,
+
+105
+00:10:35,000 --> 00:10:38,000
+ typically, you will try to introduce some small network
+
+106
+00:10:38,000 --> 00:10:42,000
+ in your original foundation model. So, instead of, you
+
+107
+00:10:42,000 --> 00:10:45,000
+ know, fine-tuning all the parameters in your foundation
+
+108
+00:10:45,000 --> 00:10:48,000
+ model, you are going to propose a small network, and then
+
+109
+00:10:48,000 --> 00:10:51,000
+ you are only going to train and update, right, this
+
+110
+00:10:51,000 --> 00:10:54,000
+ particular small network, which is known as the adapter.
+
+111
+00:10:54,000 --> 00:10:57,000
+ Because if you think about it, right, foundation model
+
+112
+00:10:57,000 --> 00:11:01,000
+ actually is very large. There are lots of parameters.
+
+113
+00:11:01,000 --> 00:11:04,000
+ And if you want to train a large foundation model, number
+
+114
+00:11:04,000 --> 00:11:08,000
+ one is very expensive computationally, and also you
+
+115
+00:11:08,000 --> 00:11:11,000
+ require lots of data. So, therefore, right, for many of
+
+116
+00:11:11,000 --> 00:11:15,000
+ us, we don't have the capacity, right, or the money to do
+
+117
+00:11:15,000 --> 00:11:18,000
+ the fine-tuning of the whole foundation model. So,
+
+118
+00:11:18,000 --> 00:11:21,000
+ therefore, typically what we do is that we introduce some
+
+119
+00:11:21,000 --> 00:11:25,000
+ small network, and we will only try to train this small
+
+120
+00:11:25,000 --> 00:11:28,000
+ network, right, that work jointly together with the large
+
+121
+00:11:28,000 --> 00:11:31,000
+ foundation model. So, that's the high-level principle.
+
+122
+00:11:31,000 --> 00:11:35,000
+ So, we'll introduce adapter. So, adapter is just a small
+
+123
+00:11:35,000 --> 00:11:38,000
+ network, and there's different strategy for us to
+
+124
+00:11:38,000 --> 00:11:41,000
+ introduce this adapter network, and then only train this
+
+125
+00:11:41,000 --> 00:11:45,000
+ adapter network here. Okay, so the key objective is, you
+
+126
+00:11:45,000 --> 00:11:49,000
+ know, you will reduce the computational resources, right,
+
+127
+00:11:49,000 --> 00:11:53,000
+ and also it's useful for cases when for your downstream
+
+128
+00:11:53,000 --> 00:11:57,000
+ cases you only have limited data, right. So, those are the
+
+129
+00:11:57,000 --> 00:12:01,000
+ cases. For adapted tuning, it's useful for limited
+
+130
+00:12:01,000 --> 00:12:04,000
+ computational resources and labelled data, right, which is
+
+131
+00:12:04,000 --> 00:12:09,000
+ for most of us, right. Okay, so what are the some key steps
+
+132
+00:12:09,000 --> 00:12:12,000
+ and adapter tuning? So, first of all, the key steps is that
+
+133
+00:12:12,000 --> 00:12:16,000
+ you need to introduce some small network. So, this small
+
+134
+00:12:16,000 --> 00:12:20,000
+ network is also known as the adapter. So, we need to introduce
+
+135
+00:12:20,000 --> 00:12:24,000
+ some small network or known as the adapter, right, that work
+
+136
+00:12:24,000 --> 00:12:28,000
+ jointly with our foundation model. So, in the next few slides,
+
+137
+00:12:28,000 --> 00:12:31,000
+ we are going to see, right, what are some common strategies for
+
+138
+00:12:31,000 --> 00:12:35,000
+ us to introduce this small network here. Alright, and then
+
+139
+00:12:35,000 --> 00:12:38,000
+ afterwards, as mentioned earlier on, during the fine-tuning
+
+140
+00:12:38,000 --> 00:12:43,000
+ steps, only this adapter or small network would be trained.
+
+141
+00:12:43,000 --> 00:12:46,000
+ So, you don't have to train the whole foundation model, but you
+
+142
+00:12:46,000 --> 00:12:50,000
+ only train this small adapter networks here, right. So, by
+
+143
+00:12:50,000 --> 00:12:53,000
+ doing that, you can reduce the number of parameters that need
+
+144
+00:12:53,000 --> 00:12:57,000
+ to be updated because your adapter is small, right. So, you only
+
+145
+00:12:57,000 --> 00:12:59,000
+ need to train adapter, that means you only need to update
+
+146
+00:12:59,000 --> 00:13:02,000
+ small number of parameters, and then for the obvious reason,
+
+147
+00:13:02,000 --> 00:13:06,000
+ this will reduce the computational time as well as storage
+
+148
+00:13:06,000 --> 00:13:12,000
+ and also the required data. So, this slide here shows some
+
+149
+00:13:12,000 --> 00:13:15,000
+ of the possible way how do we introduce the adapter and then
+
+150
+00:13:15,000 --> 00:13:21,000
+ train our adapter network together with the foundation model.
+
+151
+00:13:21,000 --> 00:13:24,000
+ Right, so there's a few common strategies, right. So, the first
+
+152
+00:13:24,000 --> 00:13:28,000
+ strategy is known as the prefix tuning. So, for these
+
+153
+00:13:28,000 --> 00:13:32,000
+ illustrations here, we are assuming that the foundation model
+
+154
+00:13:32,000 --> 00:13:35,000
+ that we are using is a transformer-based model, right. So,
+
+155
+00:13:35,000 --> 00:13:40,000
+ when you see this diagram, you can see this transformer, okay,
+
+156
+00:13:40,000 --> 00:13:44,000
+ which is shown in blue color is frozen. That means during our
+
+157
+00:13:44,000 --> 00:13:50,000
+ subsequent downstream fine tuning or adaptation of the model,
+
+158
+00:13:50,000 --> 00:13:54,000
+ right, this foundation model is frozen. That means we do not
+
+159
+00:13:54,000 --> 00:13:59,000
+ update the parameter, okay. And the small network that we have
+
+160
+00:13:59,000 --> 00:14:02,000
+ here, for example, this prefix here, these are the parameter
+
+161
+00:14:02,000 --> 00:14:05,000
+ or network that we will train, okay. So, the first approach is
+
+162
+00:14:05,000 --> 00:14:09,000
+ known as a prefix tuning. So, the prefix tuning, as the name
+
+163
+00:14:09,000 --> 00:14:13,000
+ suggests, is that you introduce a prefix, right, prefix before
+
+164
+00:14:13,000 --> 00:14:17,000
+ the particular foundation model, which is in the form of a
+
+165
+00:14:17,000 --> 00:14:21,000
+ transformer. So, we introduce a prefix and then we only train
+
+166
+00:14:21,000 --> 00:14:26,000
+ this prefix here, okay. So, this prefix you can also
+
+167
+00:14:26,000 --> 00:14:29,000
+ broadly interpret as like a prompt that you use in language,
+
+168
+00:14:29,000 --> 00:14:33,000
+ LLM. You know, in LLM, very often you need to introduce
+
+169
+00:14:33,000 --> 00:14:37,000
+ some prompt to your LLM to generate the output. But this
+
+170
+00:14:37,000 --> 00:14:41,000
+ particular prompt or prefix in this context is something that
+
+171
+00:14:41,000 --> 00:14:44,000
+ we can train, right. So, that, you know, when we train this
+
+172
+00:14:44,000 --> 00:14:48,000
+ particular prefix, we can use it to target our desired output
+
+173
+00:14:48,000 --> 00:14:52,000
+ for our target application. So, this is the first approach
+
+174
+00:14:52,000 --> 00:14:55,000
+ which is known as a prefix tuning. So, the next approach is
+
+175
+00:14:55,000 --> 00:14:58,000
+ known as a LORRA. Okay, so anyway, we are going to spend,
+
+176
+00:14:58,000 --> 00:15:01,000
+ you know, a few slides talking about each of these methods a
+
+177
+00:15:01,000 --> 00:15:04,000
+ bit more in detail. So, the next one is a LORRA. So, LORRA,
+
+178
+00:15:04,000 --> 00:15:08,000
+ what it does is that you have first of all a large
+
+179
+00:15:08,000 --> 00:15:11,000
+ pretrained model. So, this is a large pretrained model. So, what
+
+180
+00:15:11,000 --> 00:15:15,000
+ we propose to do is that we introduce two small
+
+181
+00:15:15,000 --> 00:15:20,000
+ matrices, A and B, all right. And then we'll use,
+
+182
+00:15:20,000 --> 00:15:24,000
+ when we do this fine tuning, we'll only train this small
+
+183
+00:15:24,000 --> 00:15:28,000
+ network here, A and B to update the parameter. And this branch is
+
+184
+00:15:28,000 --> 00:15:32,000
+ in parallel. So, in other words, right, when we are doing the fine tuning, we are only
+
+185
+00:15:32,000 --> 00:15:36,000
+ training this small network. Okay, so this small network will
+
+186
+00:15:36,000 --> 00:15:40,000
+ provide the delta update so that it can fine-tune your knowledge
+
+187
+00:15:40,000 --> 00:15:44,000
+ in your foundation model. Okay, so this is LORRA. Okay, so the
+
+188
+00:15:44,000 --> 00:15:48,000
+ next one is a series adapter. So, as the name suggests series,
+
+189
+00:15:48,000 --> 00:15:51,000
+ you can see that means we try to put our adapter in series
+
+190
+00:15:51,000 --> 00:15:55,000
+ configuration with our foundation model. For example, this is our
+
+191
+00:15:55,000 --> 00:15:59,000
+ transformer here. In this case here, we can potentially introduce
+
+192
+00:15:59,000 --> 00:16:03,000
+ an adapter here. Okay, we can introduce an adapter here which is in series.
+
+193
+00:16:03,000 --> 00:16:07,000
+ Right in this structure you can see in series here. And this adapter
+
+194
+00:16:07,000 --> 00:16:11,000
+ is a small network. It could be, for example, in the form of
+
+195
+00:16:11,000 --> 00:16:15,000
+ two linear layers and with a non-linearity
+
+196
+00:16:15,000 --> 00:16:19,000
+ in between. So, an example of this adapter could be a
+
+197
+00:16:19,000 --> 00:16:23,000
+ small network like this. Okay, so this is known as a series adapter. So,
+
+198
+00:16:23,000 --> 00:16:27,000
+ you introduce some adapter in series with your
+
+199
+00:16:27,000 --> 00:16:31,000
+ conventional transformer network. Okay, but more
+
+200
+00:16:31,000 --> 00:16:35,000
+ commonly what you have is a parallel adapter. So, what you have is your
+
+201
+00:16:35,000 --> 00:16:39,000
+ this foundation model which is a transformer. And then you introduce some small
+
+202
+00:16:39,000 --> 00:16:43,000
+ network adapter which is in parallel. So, you can see
+
+203
+00:16:43,000 --> 00:16:47,000
+ this structure here actually is also kind of similar to the LORRA. So, LORRA
+
+204
+00:16:47,000 --> 00:16:51,000
+ is actually a form of a parallel adapter which
+
+205
+00:16:51,000 --> 00:16:55,000
+ is similar to this. Right, so as I mentioned, adapter is
+
+206
+00:16:55,000 --> 00:16:59,000
+ just a small network. So, a sample adapter could be, for example, just consists
+
+207
+00:16:59,000 --> 00:17:03,000
+ of two FC layers with a non-linearity in between. Just like this.
+
+208
+00:17:03,000 --> 00:17:07,000
+ Okay, so these are a few broad categories of the adapter.
+
+209
+00:17:07,000 --> 00:17:11,000
+ Right, and then later on we are going to look at
+
+210
+00:17:11,000 --> 00:17:15,000
+ each of these approach a little bit more in detail.
+
+211
+00:17:15,000 --> 00:17:19,000
+ Right, okay, so the first approach we are going to look at is the LORRA.
+
+212
+00:17:19,000 --> 00:17:23,000
+ Right, so LORRA stands for low-rank adaptation.
+
+213
+00:17:23,000 --> 00:17:27,000
+ Okay, you can see this is a low-rank adaptation here.
+
+214
+00:17:27,000 --> 00:17:31,000
+ So, later on you are going to see why it's called a low-rank adaptation here.
+
+215
+00:17:31,000 --> 00:17:35,000
+ But first of all, we are going to look at some basic idea and then after a week, so look at
+
+216
+00:17:35,000 --> 00:17:39,000
+ the diagram to have a better understanding. So, LORRA is
+
+217
+00:17:39,000 --> 00:17:43,000
+ an efficient fine-tuning approach. So, you can do the fine-tuning quite
+
+218
+00:17:43,000 --> 00:17:47,000
+ effectively. Okay, so it's an efficient fine-tuning method
+
+219
+00:17:47,000 --> 00:17:51,000
+ for foundation model such as LLM. Okay, so
+
+220
+00:17:51,000 --> 00:17:55,000
+ some of the advantages, it has low computational
+
+221
+00:17:55,000 --> 00:17:59,000
+ overhead as well as a parameter update. So, later on you will see why that's the case.
+
+222
+00:17:59,000 --> 00:18:03,000
+ So, an example is that, for example, if you have a chat GPTT,
+
+223
+00:18:03,000 --> 00:18:07,000
+ this is a GPT3. Initially,
+
+224
+00:18:07,000 --> 00:18:11,000
+ GPT3 has 175 billion of parameter.
+
+225
+00:18:11,000 --> 00:18:15,000
+ If you want to fine-tune using Adam Automizer for the whole
+
+226
+00:18:15,000 --> 00:18:19,000
+ parameter in this LLM, so this
+
+227
+00:18:19,000 --> 00:18:23,000
+ is very expensive. Now, instead of doing that, if you decide to use LORRA
+
+228
+00:18:23,000 --> 00:18:27,000
+ approach to do the fine-tuning, you'll see that
+
+229
+00:18:27,000 --> 00:18:31,000
+ in terms of GPU memory requirement, it will be reduced
+
+230
+00:18:31,000 --> 00:18:35,000
+ by three times and in terms of trainable parameter, it will be reduced
+
+231
+00:18:35,000 --> 00:18:39,000
+ by 10,000 times. So, in short,
+
+232
+00:18:39,000 --> 00:18:43,000
+ it will reduce the number of parameters that need to be trained very significantly.
+
+233
+00:18:43,000 --> 00:18:47,000
+ So, how does it do that?
+
+234
+00:18:47,000 --> 00:18:51,000
+ So, in order to do that, okay, so these are the steps of the LORRA,
+
+235
+00:18:51,000 --> 00:18:55,000
+ but before that, maybe we can look at the diagram first to get
+
+236
+00:18:55,000 --> 00:18:59,000
+ a certain sense of how this LORRA work before we come back to look at
+
+237
+00:18:59,000 --> 00:19:03,000
+ the steps of LORRA.
+
+238
+00:19:03,000 --> 00:19:07,000
+ So, this diagram here shows the key steps involved in
+
+239
+00:19:07,000 --> 00:19:11,000
+ fine-tuning of a foundation model using LORRA here.
+
+240
+00:19:11,000 --> 00:19:15,000
+ Okay, so for example, you can see this part here is actually
+
+241
+00:19:15,000 --> 00:19:19,000
+ for a transformer which serves as, for example, your foundation model.
+
+242
+00:19:19,000 --> 00:19:23,000
+ Okay, so what we can do is that, for example, we can introduce
+
+243
+00:19:23,000 --> 00:19:27,000
+ a particular parallel adapter called LORRA here.
+
+244
+00:19:27,000 --> 00:19:31,000
+ So, this is the LORRA here. So, this LORRA here would be
+
+245
+00:19:31,000 --> 00:19:35,000
+ something that we want to fine-tune for our downstream target application.
+
+246
+00:19:35,000 --> 00:19:39,000
+ Right, okay, so let's zoom into these particular
+
+247
+00:19:39,000 --> 00:19:43,000
+ steps here a little bit more in detail here. So, if you look into here,
+
+248
+00:19:43,000 --> 00:19:47,000
+ so what you have is that first of all, suppose your input to this particular
+
+249
+00:19:47,000 --> 00:19:51,000
+ network here, okay, we call it a vector of dimension
+
+250
+00:19:51,000 --> 00:19:55,000
+ x, yeah, a vector of dimension x, sorry, a vector x of
+
+251
+00:19:55,000 --> 00:19:59,000
+ dimension d, right, a vector x of dimension d. So,
+
+252
+00:19:59,000 --> 00:20:03,000
+ if we go through the standard kind of foundation model
+
+253
+00:20:03,000 --> 00:20:07,000
+ right, then what you'll do is that you'll go through this pre-trained parameter and then you
+
+254
+00:20:07,000 --> 00:20:11,000
+ will generate the output here, right, so this is your pre-trained
+
+255
+00:20:11,000 --> 00:20:15,000
+ model, okay, the foundation model. So, what we'll do is that for LORRA
+
+256
+00:20:15,000 --> 00:20:19,000
+ we are going to introduce two smaller matrices, okay,
+
+257
+00:20:19,000 --> 00:20:23,000
+ right, here it's called WA and WB, but it
+
+258
+00:20:23,000 --> 00:20:27,000
+ can also be A and B here. So, these are the two
+
+259
+00:20:27,000 --> 00:20:31,000
+ matrices that we are going to introduce. So, later on what we are going to do
+
+260
+00:20:31,000 --> 00:20:35,000
+ is that we are only going to train this small network here, right, this
+
+261
+00:20:35,000 --> 00:20:39,000
+ small networks, these two matrices, okay, these two matrices
+
+262
+00:20:39,000 --> 00:20:43,000
+ are two matrices with low
+
+263
+00:20:43,000 --> 00:20:47,000
+ dimension, okay, so, or low
+
+264
+00:20:47,000 --> 00:20:51,000
+ rank here. So, these are the two networks that we are going, or matrix that we are going to train,
+
+265
+00:20:51,000 --> 00:20:55,000
+ and then the output of this network will go through
+
+266
+00:20:55,000 --> 00:20:59,000
+ this particular network that we train and then you will generate the output
+
+267
+00:20:59,000 --> 00:21:03,000
+ and then the output from this part which is from the
+
+268
+00:21:03,000 --> 00:21:07,000
+ pre-trained model as well as from your fine-tune model
+
+269
+00:21:07,000 --> 00:21:11,000
+ that wouldn't be added, okay, to generate the output. So, this output
+
+270
+00:21:11,000 --> 00:21:15,000
+ you will then compare with your target output for your target
+
+271
+00:21:15,000 --> 00:21:19,000
+ kind of downstream application and then whatever error that you have would then be
+
+272
+00:21:19,000 --> 00:21:23,000
+ back propagate to only update this parameter only,
+
+273
+00:21:23,000 --> 00:21:27,000
+ okay, so this is the only network, so this LORRA adapter
+
+274
+00:21:27,000 --> 00:21:31,000
+ here is the only network that need to be trained and this part here
+
+275
+00:21:31,000 --> 00:21:35,000
+ is consists of the products of two matrices
+
+276
+00:21:35,000 --> 00:21:39,000
+ that has a lower rank or dimension, okay, that's why it's called
+
+277
+00:21:39,000 --> 00:21:43,000
+ low rank decomposition here. So, next
+
+278
+00:21:43,000 --> 00:21:47,000
+ if we look into this a little bit more in detail, so if we zoom in
+
+279
+00:21:47,000 --> 00:21:51,000
+ this part, okay, of the network here, you'll see this is how it looks like,
+
+280
+00:21:51,000 --> 00:21:55,000
+ okay, so this is your foundation
+
+281
+00:21:55,000 --> 00:21:59,000
+ model, okay, right, it's a very big matrix W here,
+
+282
+00:21:59,000 --> 00:22:03,000
+ right, suppose if you have an input vector, okay, X of dimension D,
+
+283
+00:22:03,000 --> 00:22:07,000
+ right, so after you multiply with this particular matrix, then your output
+
+284
+00:22:07,000 --> 00:22:11,000
+ is actually a vector of dimension K, right, so what we
+
+285
+00:22:11,000 --> 00:22:15,000
+ do now is that if you think about it, if you want to do the fine-tuning
+
+286
+00:22:15,000 --> 00:22:19,000
+ by brute force, that means you have to fine-tune all
+
+287
+00:22:19,000 --> 00:22:23,000
+ the parameter in this particular network here, but if you want to fine-tune
+
+288
+00:22:23,000 --> 00:22:27,000
+ all the parameter in this particular matrix W
+
+289
+00:22:27,000 --> 00:22:31,000
+ is very expensive because the size is very, very big,
+
+290
+00:22:31,000 --> 00:22:35,000
+ so therefore as opposed to using the brute force to train all the
+
+291
+00:22:35,000 --> 00:22:39,000
+ parameter here, right, we propose this as a smaller network here,
+
+292
+00:22:39,000 --> 00:22:43,000
+ so this particular smaller network consists of two matrixes
+
+293
+00:22:43,000 --> 00:22:47,000
+ A and B here, the notation sometimes
+
+294
+00:22:47,000 --> 00:22:51,000
+ is sometimes they call it W, A, W, B, sometimes they call it simply A or B,
+
+295
+00:22:51,000 --> 00:22:55,000
+ but they refer to the same thing, okay, so you have
+
+296
+00:22:55,000 --> 00:22:59,000
+ so this is the adapter under Laura here, so you have this matrix
+
+297
+00:22:59,000 --> 00:23:03,000
+ A and this matrix B here, so you can see this matrix A here, the dimension
+
+298
+00:23:03,000 --> 00:23:07,000
+ is actually D by R, so this R is the rank of the
+
+299
+00:23:07,000 --> 00:23:11,000
+ matrix and typically this values of R is very small, okay, it's
+
+300
+00:23:11,000 --> 00:23:15,000
+ very small, okay, so likewise the second matrix B
+
+301
+00:23:15,000 --> 00:23:19,000
+ is K by R, again this R here is very small
+
+302
+00:23:19,000 --> 00:23:23,000
+ value, so therefore you can kind of think about it, if your value R is very small,
+
+303
+00:23:23,000 --> 00:23:27,000
+ that means now these two matrixes is actually very thin matrix,
+
+304
+00:23:27,000 --> 00:23:31,000
+ so therefore the number of parameters that is required
+
+305
+00:23:31,000 --> 00:23:35,000
+ to train these two matrixes is much smaller, right, but in terms of storage
+
+306
+00:23:35,000 --> 00:23:39,000
+ as well as the training, as well as the data required to train this,
+
+307
+00:23:39,000 --> 00:23:43,000
+ so by doing that, right, therefore you can reduce the
+
+308
+00:23:43,000 --> 00:23:47,000
+ number of parameters that need to be trained, okay, and then whatever
+
+309
+00:23:47,000 --> 00:23:51,000
+ your downstream application, the target
+
+310
+00:23:51,000 --> 00:23:55,000
+ that you want to achieve or fine tune can be updated by
+
+311
+00:23:55,000 --> 00:23:59,000
+ training this matrix but keep this big matrix frozen,
+
+312
+00:23:59,000 --> 00:24:03,000
+ okay, so that's the high level ideas of Laura,
+
+313
+00:24:03,000 --> 00:24:07,000
+ okay, so next let's go back to
+
+314
+00:24:07,000 --> 00:24:11,000
+ these are the key steps and ideas of Laura, right, so
+
+315
+00:24:11,000 --> 00:24:15,000
+ Laura is, so the key steps are using Laura to
+
+316
+00:24:15,000 --> 00:24:19,000
+ train our foundation model, first is that again we need to choose a suitable
+
+317
+00:24:19,000 --> 00:24:23,000
+ pre-trained foundation model, right, and then afterwards we need to
+
+318
+00:24:23,000 --> 00:24:27,000
+ choose a suitable layer for us to do the adaptation, so the adaptation that you
+
+319
+00:24:27,000 --> 00:24:31,000
+ can do can be for example in the self-attention layer or in the
+
+320
+00:24:31,000 --> 00:24:35,000
+ FC layer, right, so it could be a few places that you want to do the
+
+321
+00:24:35,000 --> 00:24:39,000
+ adaptation, right, so some common layer could be the attention
+
+322
+00:24:39,000 --> 00:24:43,000
+ layer in the transformer or the FC layer, okay, afterwards
+
+323
+00:24:43,000 --> 00:24:47,000
+ we will introduce two low-rank matrices, okay,
+
+324
+00:24:47,000 --> 00:24:51,000
+ for low-rank decompositions here, right, so for each of the layer
+
+325
+00:24:51,000 --> 00:24:55,000
+ that you decided to do the fine tuning, you will introduce two low-rank
+
+326
+00:24:55,000 --> 00:24:59,000
+ matrices A and B, right, okay, that will approximate the
+
+327
+00:24:59,000 --> 00:25:03,000
+ update of the changes that you need to make to the original matrix that be,
+
+328
+00:25:03,000 --> 00:25:07,000
+ so you can see this, the view here is the original matrix from your foundation
+
+329
+00:25:07,000 --> 00:25:11,000
+ model and this small network is actually the products
+
+330
+00:25:11,000 --> 00:25:15,000
+ of two low-rank matrix A and B, okay, right, so initially
+
+331
+00:25:15,000 --> 00:25:19,000
+ it's supposed to be one big matrix but a matrix but you decompose it into
+
+332
+00:25:19,000 --> 00:25:23,000
+ two products of two low-rank matrixes
+
+333
+00:25:23,000 --> 00:25:27,000
+ A and B here, so that's why it's known as a low-rank decomposition,
+
+334
+00:25:27,000 --> 00:25:31,000
+ a matrix is decomposed into the products of two
+
+335
+00:25:31,000 --> 00:25:35,000
+ low-rank matrices and then therefore when you do
+
+336
+00:25:35,000 --> 00:25:39,000
+ the fine tuning for your target application, right, so this
+
+337
+00:25:39,000 --> 00:25:43,000
+ the view is frozen, we only update these two small matrices,
+
+338
+00:25:43,000 --> 00:25:47,000
+ okay, A and B, right, so the output now
+
+339
+00:25:47,000 --> 00:25:51,000
+ is actually coming from your foundation model as well as
+
+340
+00:25:51,000 --> 00:25:55,000
+ these two, the products of these two matrices, okay,
+
+341
+00:25:55,000 --> 00:25:59,000
+ so this is your new output now, okay, and afterwards you can then
+
+342
+00:25:59,000 --> 00:26:03,000
+ introduce these two low-rank matrices and afterwards
+
+343
+00:26:03,000 --> 00:26:07,000
+ you can fine tune the model, right, so fine tune the model means that
+
+344
+00:26:07,000 --> 00:26:11,000
+ you freeze this foundation, the original weight matrix, you
+
+345
+00:26:11,000 --> 00:26:15,000
+ only update these two matrices, right, okay, so just like
+
+346
+00:26:15,000 --> 00:26:19,000
+ what is being shown here, so during your fine tuning
+
+347
+00:26:19,000 --> 00:26:23,000
+ for your target Douser application, you present some, your new data
+
+348
+00:26:23,000 --> 00:26:27,000
+ you have your desired output, okay, Y cap, you compare them
+
+349
+00:26:27,000 --> 00:26:31,000
+ and then you get the error and then you back propagate to update
+
+350
+00:26:31,000 --> 00:26:35,000
+ these two matrices, okay, A and B only
+
+351
+00:26:35,000 --> 00:26:39,000
+ right, okay, and afterwards
+
+352
+00:26:39,000 --> 00:26:43,000
+ once it's fully trained, right, then afterwards you can
+
+353
+00:26:43,000 --> 00:26:47,000
+ evaluate the performance of your adapted model, okay, and afterwards if necessary
+
+354
+00:26:47,000 --> 00:26:51,000
+ you can do some optimization, right, which involve
+
+355
+00:26:51,000 --> 00:26:55,000
+ for example hyper parameter tuning, so this hyper parameter
+
+356
+00:26:55,000 --> 00:26:59,000
+ tuning could be, for example, you may want to change the value of this R
+
+357
+00:26:59,000 --> 00:27:03,000
+ right, to see what kind of value is a suitable value for you
+
+358
+00:27:03,000 --> 00:27:07,000
+ to achieve the goal, yeah, among other things,
+
+359
+00:27:07,000 --> 00:27:11,000
+ okay, and afterwards you evaluate your model, right, once your model
+
+360
+00:27:11,000 --> 00:27:15,000
+ is performance satisfactory, then you proceed to deploy and monitor
+
+361
+00:27:15,000 --> 00:27:19,000
+ its performance, so that's a basic idea of Lora,
+
+362
+00:27:19,000 --> 00:27:23,000
+ so this is the key equation that defines the Lora, okay,
+
+363
+00:27:29,000 --> 00:27:33,000
+ okay, so next we'll move on to Quantize Lora
+
+364
+00:27:33,000 --> 00:27:37,000
+ or QLora
+
+365
+00:27:41,000 --> 00:27:45,000
+ okay, for some of you if you have
+
+366
+00:27:45,000 --> 00:27:49,000
+ look at this before, you are probably familiar or you have encountered this
+
+367
+00:27:49,000 --> 00:27:53,000
+ QLora before, so QLora is just a more efficient way
+
+368
+00:27:53,000 --> 00:27:57,000
+ of performing Lora, okay, so it's a more efficient way
+
+369
+00:27:57,000 --> 00:28:01,000
+ of finding a tuning of foundation more than Lora
+
+370
+00:28:01,000 --> 00:28:05,000
+ so it use a few different tricks, right, so that as the name suggests number one
+
+371
+00:28:05,000 --> 00:28:09,000
+ use the quantization and then also it use other things
+
+372
+00:28:09,000 --> 00:28:13,000
+ like trying to perform the double quantization, right,
+
+373
+00:28:13,000 --> 00:28:17,000
+ also use some digital, more intelligent ways of representing
+
+374
+00:28:17,000 --> 00:28:21,000
+ the information using the integer for representation
+
+375
+00:28:21,000 --> 00:28:25,000
+ and some memory swap operation that we'll see later, right,
+
+376
+00:28:25,000 --> 00:28:29,000
+ so QLora actually combined Lora, the one that we have seen
+
+377
+00:28:29,000 --> 00:28:33,000
+ before with the quantization, right, to
+
+378
+00:28:33,000 --> 00:28:37,000
+ optimize the performance, okay, so QLora
+
+379
+00:28:37,000 --> 00:28:41,000
+ as I mentioned is using Lora as a baseline method to improve
+
+380
+00:28:41,000 --> 00:28:45,000
+ and this Lora is a parameter if you see a fine tuning method
+
+381
+00:28:45,000 --> 00:28:49,000
+ as mentioned earlier on, right, so you add a small
+
+382
+00:28:49,000 --> 00:28:53,000
+ trainable network that has a small number of parameters
+
+383
+00:28:53,000 --> 00:28:57,000
+ while keeping the original weight of the foundation
+
+384
+00:28:57,000 --> 00:29:01,000
+ model frozen, okay, so this slide here
+
+385
+00:29:01,000 --> 00:29:05,000
+ shows some of the key difference
+
+386
+00:29:05,000 --> 00:29:09,000
+ between the original fine tuning
+
+387
+00:29:09,000 --> 00:29:13,000
+ the Lora as well as the QLora here, right, so this figure here shows
+
+388
+00:29:13,000 --> 00:29:17,000
+ that, okay, so this full fine tuning means that assuming that if you do not
+
+389
+00:29:17,000 --> 00:29:21,000
+ use any adapter at all, you have a foundation model and you decide
+
+390
+00:29:21,000 --> 00:29:25,000
+ to fine tune all the weights in your foundation model directly
+
+391
+00:29:25,000 --> 00:29:29,000
+ by brute force, so this is this visualizations here
+
+392
+00:29:29,000 --> 00:29:33,000
+ so in that case, for example, your foundation model, your base model
+
+393
+00:29:33,000 --> 00:29:37,000
+ typically you use 16 bits representant and currently foundation
+
+394
+00:29:37,000 --> 00:29:41,000
+ this transformer is one of the most popular
+
+395
+00:29:41,000 --> 00:29:45,000
+ model use in FM, okay, so right, typically
+
+396
+00:29:45,000 --> 00:29:49,000
+ if you want to train this particular base model or foundation
+
+397
+00:29:49,000 --> 00:29:53,000
+ model, your optimizer, right, need to have a larger, more
+
+398
+00:29:53,000 --> 00:29:57,000
+ precise representation, so for foundation model usually we use
+
+399
+00:29:57,000 --> 00:30:01,000
+ 16 bits but for your optimizer usually we use 32 bits
+
+400
+00:30:01,000 --> 00:30:05,000
+ to store the more accurate information to do the training, right, so
+
+401
+00:30:05,000 --> 00:30:09,000
+ therefore if you use a brute force, you can see that, right, the number of parameters
+
+402
+00:30:09,000 --> 00:30:13,000
+ that you need to train is quite a lot, right, and then
+
+403
+00:30:13,000 --> 00:30:17,000
+ this, you know, the storage, the kind of
+
+404
+00:30:17,000 --> 00:30:21,000
+ weight, right, the parameter that you need to store to train your foundation
+
+405
+00:30:21,000 --> 00:30:25,000
+ model is also quite big, you can see it as illustrated by this
+
+406
+00:30:25,000 --> 00:30:29,000
+ big box which means there are lots of parameters that need to be stored
+
+407
+00:30:29,000 --> 00:30:33,000
+ to do the training, so as opposed to that for
+
+408
+00:30:33,000 --> 00:30:37,000
+ Laura, just now we say that, okay, so what we need to do is we only
+
+409
+00:30:37,000 --> 00:30:41,000
+ need to introduce those small networks, A times B, alright, okay, so
+
+410
+00:30:41,000 --> 00:30:45,000
+ those two small matrices, A times B, the storage
+
+411
+00:30:45,000 --> 00:30:49,000
+ that's required is much smaller, okay, so therefore it's much smaller
+
+412
+00:30:49,000 --> 00:30:53,000
+ the number of parameters that need to be trained is much smaller here,
+
+413
+00:30:53,000 --> 00:30:57,000
+ okay, so when we want to fine tune this particular
+
+414
+00:30:57,000 --> 00:31:01,000
+ foundation model here, so what we do is we don't train this foundation model
+
+415
+00:31:01,000 --> 00:31:05,000
+ directly, the foundation model is frozen, but we only train this
+
+416
+00:31:05,000 --> 00:31:09,000
+ small adapter, so this is a small adapter that needs to be trained, and because
+
+417
+00:31:09,000 --> 00:31:13,000
+ an adapter is much smaller, that means the storage that you need to do
+
+418
+00:31:13,000 --> 00:31:17,000
+ for your optimizer is also smaller here, okay, so this is
+
+419
+00:31:17,000 --> 00:31:21,000
+ the ideas of Laura, for Qlora it actually
+
+420
+00:31:21,000 --> 00:31:25,000
+ improved upon this Laura, so what it does is that first of all
+
+421
+00:31:25,000 --> 00:31:29,000
+ it introduced a four-bit representation, so as opposed
+
+422
+00:31:29,000 --> 00:31:33,000
+ to six-bit, now it used the four-bit representation, so that's the first
+
+423
+00:31:33,000 --> 00:31:39,000
+ improvement with respect to Laura, okay, so the second one is that
+
+424
+00:31:39,000 --> 00:31:43,000
+ in the process of performing these steps here, perform what is known as
+
+425
+00:31:43,000 --> 00:31:47,000
+ double quantization to further reduce the number of parameters,
+
+426
+00:31:47,000 --> 00:31:51,000
+ alright, so shortly we'll see, and then finally, they also
+
+427
+00:31:51,000 --> 00:31:55,000
+ have this memory management scheme that they find, for example
+
+428
+00:31:55,000 --> 00:31:59,000
+ if this particular memory in this GPU is going to
+
+429
+00:31:59,000 --> 00:32:03,000
+ overflow, then we'll swap some of the memory into the CPU from
+
+430
+00:32:03,000 --> 00:32:07,000
+ the operation perspective, right, so this is the basic difference
+
+431
+00:32:07,000 --> 00:32:11,000
+ between Qlora and Laura, okay, so let's look at the key
+
+432
+00:32:11,000 --> 00:32:15,000
+ ideas of this Qlora, so as mentioned Qlora
+
+433
+00:32:15,000 --> 00:32:19,000
+ actually works, it's based on Laura, okay, but it just suggests
+
+434
+00:32:19,000 --> 00:32:23,000
+ a few further improvements, so the first improvement is the
+
+435
+00:32:23,000 --> 00:32:27,000
+ four-bit normal float representation, known as the MF4,
+
+436
+00:32:27,000 --> 00:32:31,000
+ okay, so we'll see later on, so this is a new data
+
+437
+00:32:31,000 --> 00:32:35,000
+ structure that make it more suitable for data which is
+
+438
+00:32:35,000 --> 00:32:39,000
+ following certain distribution, for example the data that you have
+
+439
+00:32:39,000 --> 00:32:43,000
+ what it may be following certain normal distribution, that means
+
+440
+00:32:43,000 --> 00:32:47,000
+ certain kind of central value occur more often than the others, so
+
+441
+00:32:47,000 --> 00:32:51,000
+ it leverage on this particular property to design a new
+
+442
+00:32:51,000 --> 00:32:55,000
+ data type which is known as the MF4,
+
+443
+00:32:55,000 --> 00:32:59,000
+ right, okay, second is that it also make use of a double quantization,
+
+444
+00:32:59,000 --> 00:33:03,000
+ so right, when you use this Qlora,
+
+445
+00:33:03,000 --> 00:33:07,000
+ first of all you will be using some quantization constant
+
+446
+00:33:07,000 --> 00:33:11,000
+ to quantize Qlora, and then for this quantization constant
+
+447
+00:33:11,000 --> 00:33:15,000
+ you further perform quantization on it, alright, so it's a more
+
+448
+00:33:15,000 --> 00:33:19,000
+ intelligent way of performing the quantization known as
+
+449
+00:33:19,000 --> 00:33:23,000
+ the double quantization, so this will allow it to reduce the
+
+450
+00:33:23,000 --> 00:33:27,000
+ memory footprint, okay, and then third
+
+451
+00:33:27,000 --> 00:33:31,000
+ is that it have this page optimizer that allow
+
+452
+00:33:31,000 --> 00:33:35,000
+ the memory swap between the GPU and the CPU
+
+453
+00:33:35,000 --> 00:33:39,000
+ more effectively, okay, so these are the four, three key
+
+454
+00:33:39,000 --> 00:33:43,000
+ properties of Qlora, okay, so
+
+455
+00:33:43,000 --> 00:33:47,000
+ let's look at the first one, the four-bit normal float representations
+
+456
+00:33:47,000 --> 00:33:51,000
+ here, right, so you can see that for most of the parameters
+
+457
+00:33:51,000 --> 00:33:55,000
+ that you are trying to find Qlora update, typically it doesn't
+
+458
+00:33:55,000 --> 00:33:59,000
+ occur uniformly, right, it's not uniformly distributed,
+
+459
+00:33:59,000 --> 00:34:03,000
+ but rather the more the parameter distribution is actually
+
+460
+00:34:03,000 --> 00:34:07,000
+ Gaussian distribution or normal distribution that looks like this,
+
+461
+00:34:07,000 --> 00:34:11,000
+ okay, so therefore as opposed to the traditional way
+
+462
+00:34:11,000 --> 00:34:15,000
+ of performing the quantization or representations
+
+463
+00:34:15,000 --> 00:34:19,000
+ of the four-bit numbers, right, so traditionally
+
+464
+00:34:19,000 --> 00:34:23,000
+ if you want to represent a certain number
+
+465
+00:34:23,000 --> 00:34:27,000
+ using a four-bit number, what you'll do is that you'll divide this particular
+
+466
+00:34:27,000 --> 00:34:31,000
+ bin equally or evenly like this, okay,
+
+467
+00:34:31,000 --> 00:34:35,000
+ but you can see that this particular approach is probably not
+
+468
+00:34:35,000 --> 00:34:39,000
+ so suitable for data, right, that has
+
+469
+00:34:39,000 --> 00:34:43,000
+ Gaussian or normal distribution, because we know that for normal distribution
+
+470
+00:34:43,000 --> 00:34:47,000
+ most of the data is going to be occurring near this range here,
+
+471
+00:34:47,000 --> 00:34:51,000
+ okay, near this range here, so if we use that evenly
+
+472
+00:34:51,000 --> 00:34:55,000
+ spaced kind of bucket of bin, right, then you'll see that, right,
+
+473
+00:34:55,000 --> 00:34:59,000
+ so these bins here are going to be underutilized, yeah,
+
+474
+00:34:59,000 --> 00:35:03,000
+ but whereas the bins here actually is just too big, so you cannot provide
+
+475
+00:35:03,000 --> 00:35:07,000
+ sufficient detail, so therefore instead of that, right,
+
+476
+00:35:07,000 --> 00:35:11,000
+ for this particular case here, what they do is that they try to change
+
+477
+00:35:11,000 --> 00:35:15,000
+ the size of the bucket based on the probability, okay, so we can
+
+478
+00:35:15,000 --> 00:35:19,000
+ see now the bucket size here is that for this range of
+
+479
+00:35:19,000 --> 00:35:23,000
+ the value which the probability occurrence is much smaller,
+
+480
+00:35:23,000 --> 00:35:27,000
+ it decided to use a larger bin, right, for this range of the
+
+481
+00:35:27,000 --> 00:35:31,000
+ value where as you can see the probability is much larger, it decided to use a smaller
+
+482
+00:35:31,000 --> 00:35:35,000
+ bin so that you can provide more resolution, right,
+
+483
+00:35:35,000 --> 00:35:39,000
+ for those range of value, but that is
+
+484
+00:35:39,000 --> 00:35:43,000
+ going to happen more often, so that's a basic idea, right,
+
+485
+00:35:43,000 --> 00:35:47,000
+ so they adjust the size of the bin based on the probability
+
+486
+00:35:47,000 --> 00:35:51,000
+ whereas this data is going to occur, which is normally near
+
+487
+00:35:51,000 --> 00:35:55,000
+ the central of your normal distribution, okay, so
+
+488
+00:35:55,000 --> 00:35:59,000
+ this four bin normal float data type representation,
+
+489
+00:35:59,000 --> 00:36:03,000
+ right, the high level idea is going to encode number only for bits,
+
+490
+00:36:03,000 --> 00:36:07,000
+ okay, so it's an optimal quantization technique like what
+
+491
+00:36:07,000 --> 00:36:11,000
+ I mentioned before to represent those normally
+
+492
+00:36:11,000 --> 00:36:15,000
+ distributed data, right, and it will supposedly give better
+
+493
+00:36:15,000 --> 00:36:19,000
+ results than the typical evenly spaced
+
+494
+00:36:19,000 --> 00:36:23,000
+ four bits representation, right, so that's the first
+
+495
+00:36:23,000 --> 00:36:27,000
+ improvement of this Q-Lorah, right, the second
+
+496
+00:36:27,000 --> 00:36:31,000
+ one is that it uses a technique known as a double quantization, right, so
+
+497
+00:36:31,000 --> 00:36:35,000
+ when we try to, because in order to reduce the number of parameter that need to
+
+498
+00:36:35,000 --> 00:36:39,000
+ be stored, right, so this Q-Lorah, they perform quantization, so
+
+499
+00:36:39,000 --> 00:36:43,000
+ they use some quantization parameter to quantize this KPC, right, this
+
+500
+00:36:43,000 --> 00:36:47,000
+ value, it has divided by the quantization parameter, so
+
+501
+00:36:47,000 --> 00:36:51,000
+ this quantization parameter or constant
+
+502
+00:36:51,000 --> 00:36:55,000
+ is further quantized again, right, so it's quantized twice,
+
+503
+00:36:55,000 --> 00:36:59,000
+ so this is a technique to further reduce the parameter,
+
+504
+00:36:59,000 --> 00:37:03,000
+ okay, so double quantization treats the quantization constant
+
+505
+00:37:03,000 --> 00:37:07,000
+ of the first quantization as input to the second quantization,
+
+506
+00:37:07,000 --> 00:37:11,000
+ in other words, it just performs quantization twice, so by doing that
+
+507
+00:37:11,000 --> 00:37:15,000
+ it can reduce the number of parameter storage further,
+
+508
+00:37:15,000 --> 00:37:19,000
+ okay, right, so there are some detail which also
+
+509
+00:37:19,000 --> 00:37:23,000
+ involve partition the model parameter into smaller blocks
+
+510
+00:37:23,000 --> 00:37:27,000
+ for further quantization, but I think there's no need for us to go into
+
+511
+00:37:27,000 --> 00:37:31,000
+ too much details here, for those of you interested, you
+
+512
+00:37:31,000 --> 00:37:35,000
+ can go into that a bit more, right, okay, so the
+
+513
+00:37:35,000 --> 00:37:39,000
+ third improvement is the page optimizer that I mentioned, so sometimes
+
+514
+00:37:39,000 --> 00:37:43,000
+ when your GPU is kind of memory is almost full, then
+
+515
+00:37:43,000 --> 00:37:47,000
+ you will sort some of the memory with the CPU, so
+
+516
+00:37:47,000 --> 00:37:51,000
+ you perform the automatic page-to-page transfer between the CPU and the
+
+517
+00:37:51,000 --> 00:37:55,000
+ GPU, when your GPU is kind of, the memory is
+
+518
+00:37:55,000 --> 00:37:59,000
+ full and almost running out of memory, okay, so it's a management
+
+519
+00:37:59,000 --> 00:38:03,000
+ kind of a process, okay, so
+
+520
+00:38:03,000 --> 00:38:07,000
+ right, so far we have actually introduced about the
+
+521
+00:38:07,000 --> 00:38:11,000
+ general ideas of adapter, okay, right, so we have also introduced
+
+522
+00:38:11,000 --> 00:38:15,000
+ about Lora and Qura, so the next thing we are going to look at it
+
+523
+00:38:15,000 --> 00:38:19,000
+ is the prefix tuning, so as mentioned
+
+524
+00:38:19,000 --> 00:38:23,000
+ earlier on, the idea of prefix tuning is quite simple, that means prefix
+
+525
+00:38:23,000 --> 00:38:27,000
+ tuning means that you are going to introduce some
+
+526
+00:38:27,000 --> 00:38:31,000
+ learnable tokens or embeddings in front of your foundation model, so this
+
+527
+00:38:31,000 --> 00:38:35,000
+ is a foundation model, you are going to introduce some learnable
+
+528
+00:38:35,000 --> 00:38:39,000
+ embedding or tokens, right, known as a prefix before your network, so
+
+529
+00:38:39,000 --> 00:38:43,000
+ you are going to use this way to help to provide
+
+530
+00:38:43,000 --> 00:38:47,000
+ some information, right, to your network, because you know your foundation
+
+531
+00:38:47,000 --> 00:38:51,000
+ model is actually very large and you do want to touch it
+
+532
+00:38:51,000 --> 00:38:55,000
+ because it's too expensive, so many different ways are thinking of different
+
+533
+00:38:55,000 --> 00:38:59,000
+ ways to introduce a small network
+
+534
+00:38:59,000 --> 00:39:03,000
+ to achieve the goal of only training this small network,
+
+535
+00:39:03,000 --> 00:39:07,000
+ so earlier on we already see this foundation model, there are people who try to
+
+536
+00:39:07,000 --> 00:39:11,000
+ put some adapter in series, okay, known as a series adapter,
+
+537
+00:39:11,000 --> 00:39:15,000
+ there are also, this is a foundation model, there are also method which is trying to put
+
+538
+00:39:15,000 --> 00:39:19,000
+ some small network in parallel, okay, this is called a parallel
+
+539
+00:39:19,000 --> 00:39:23,000
+ adapter, so among them, for example, Lora and Qura
+
+540
+00:39:23,000 --> 00:39:27,000
+ actually is based on this idea that you put
+
+541
+00:39:27,000 --> 00:39:33,000
+ parallel adapter, so there are also some other people who think that, okay, this is a foundation model, if I cannot
+
+542
+00:39:33,000 --> 00:39:37,000
+ change this foundation model, maybe one way that I can do is that I can
+
+543
+00:39:37,000 --> 00:39:41,000
+ modify or train the prefix that we put
+
+544
+00:39:41,000 --> 00:39:45,000
+ into this particular foundation model, so this is the idea that's coming from,
+
+545
+00:39:45,000 --> 00:39:49,000
+ yeah, so probably by putting in some prefix and
+
+546
+00:39:49,000 --> 00:39:53,000
+ train the prefix, such that this prefix can then
+
+547
+00:39:53,000 --> 00:39:57,000
+ modify your target output for your downstream application, this is one way
+
+548
+00:39:57,000 --> 00:40:01,000
+ that we can achieve the fine tuning, so that's a basic high level
+
+549
+00:40:01,000 --> 00:40:05,000
+ idea, okay, so prefix tuning is a technique to train
+
+550
+00:40:05,000 --> 00:40:09,000
+ FM, right, by
+
+551
+00:40:09,000 --> 00:40:13,000
+ prepending, that means we add in some information in front, okay, by
+
+552
+00:40:13,000 --> 00:40:17,000
+ prepending a sequence of learnable vectors, so this learnable
+
+553
+00:40:17,000 --> 00:40:21,000
+ vectors is also known as embedding or prefix
+
+554
+00:40:21,000 --> 00:40:25,000
+ to the model, okay, so therefore by doing that we can
+
+555
+00:40:25,000 --> 00:40:29,000
+ modify the input representation,
+
+556
+00:40:29,000 --> 00:40:33,000
+ right, okay, so we modify the input representation
+
+557
+00:40:33,000 --> 00:40:37,000
+ because now this prefix is interpreted as an input to
+
+558
+00:40:37,000 --> 00:40:41,000
+ your foundation model, right, so we train this particular small
+
+559
+00:40:41,000 --> 00:40:45,000
+ prefix, all right, without touching the foundation model, so
+
+560
+00:40:45,000 --> 00:40:49,000
+ we modify this input representation, prefix is part of the input
+
+561
+00:40:49,000 --> 00:40:53,000
+ rather than modify the internal representation
+
+562
+00:40:53,000 --> 00:40:57,000
+ of the foundation model, okay, so this will make it into a lightweight
+
+563
+00:40:57,000 --> 00:41:01,000
+ and efficient technique, okay, so before that maybe
+
+564
+00:41:01,000 --> 00:41:05,000
+ again is what we can do is that we can use this figure to very quickly visualize
+
+565
+00:41:05,000 --> 00:41:09,000
+ what is the basic principles of prefix tuning
+
+566
+00:41:09,000 --> 00:41:13,000
+ and afterwards we'll go back to the slides to look at the steps.
+
+567
+00:41:23,000 --> 00:41:27,000
+ Okay, so this particular diagram is showing that, right, suppose if you want to
+
+568
+00:41:27,000 --> 00:41:31,000
+ we have a foundation model and suppose now
+
+569
+00:41:31,000 --> 00:41:35,000
+ we have three downstream applications, one is to do the
+
+570
+00:41:35,000 --> 00:41:39,000
+ table text, the other is summarization and the other
+
+571
+00:41:39,000 --> 00:41:43,000
+ is the kind of a translation, suppose if you're a foundation model
+
+572
+00:41:43,000 --> 00:41:47,000
+ and you have these three downstream applications, if you use the
+
+573
+00:41:47,000 --> 00:41:51,000
+ brute force approach to retrain your foundation model
+
+574
+00:41:51,000 --> 00:41:55,000
+ fully, that is very cumbersome, so
+
+575
+00:41:55,000 --> 00:41:59,000
+ this is the illustration I was trying to say, suppose if you take this particular
+
+576
+00:41:59,000 --> 00:42:03,000
+ foundation model and you try to find it fully
+
+577
+00:42:03,000 --> 00:42:07,000
+ for three different target downstream applications, then you need
+
+578
+00:42:07,000 --> 00:42:11,000
+ to have three different copies of the fine-tuned
+
+579
+00:42:11,000 --> 00:42:15,000
+ or adapted foundation model for three different applications,
+
+580
+00:42:15,000 --> 00:42:19,000
+ right, so this is not very, you know, kind of efficient
+
+581
+00:42:19,000 --> 00:42:23,000
+ because fine-tuning of the foundation model is already very
+
+582
+00:42:23,000 --> 00:42:27,000
+ expensive and you need to keep a few different copies of
+
+583
+00:42:27,000 --> 00:42:31,000
+ your fine-tuned foundation model for different downstream applications,
+
+584
+00:42:31,000 --> 00:42:35,000
+ so not very efficient, so how do we do that using the prefix tuning
+
+585
+00:42:35,000 --> 00:42:39,000
+ so what we do in the prefix tuning is that we have this particular
+
+586
+00:42:39,000 --> 00:42:43,000
+ foundation model, we do not touch, the structure we do not touch, what we do
+
+587
+00:42:43,000 --> 00:42:47,000
+ is that now for different downstream application, right
+
+588
+00:42:47,000 --> 00:42:51,000
+ table to text summarization or translation, similar to this
+
+589
+00:42:51,000 --> 00:42:55,000
+ we just train this prefix here, so this prefix are actually
+
+590
+00:42:55,000 --> 00:42:59,000
+ some vectors or some embedding that you can train,
+
+591
+00:42:59,000 --> 00:43:03,000
+ together with the small network connections here, so
+
+592
+00:43:03,000 --> 00:43:07,000
+ these are small embedding
+
+593
+00:43:07,000 --> 00:43:11,000
+ of vectors together with the network that you can train for each downstream
+
+594
+00:43:11,000 --> 00:43:15,000
+ application, so therefore for this downstream application, table to text, you only
+
+595
+00:43:15,000 --> 00:43:19,000
+ need to train this prefix, okay, for the second application
+
+596
+00:43:19,000 --> 00:43:23,000
+ you only need to train this prefix and the third application you only need to train
+
+597
+00:43:23,000 --> 00:43:27,000
+ the other prefix, so therefore by doing that you'll be able to
+
+598
+00:43:27,000 --> 00:43:31,000
+ reduce the amount of training as well as storage
+
+599
+00:43:31,000 --> 00:43:35,000
+ because most of this particular small network that you are training, the prefix
+
+600
+00:43:35,000 --> 00:43:39,000
+ is going to be used jointly with a single
+
+601
+00:43:39,000 --> 00:43:43,000
+ foundation model that's frozen, okay, so that's a basic advantage
+
+602
+00:43:43,000 --> 00:43:47,000
+ as well as the idea, right, in prefix tuning, you
+
+603
+00:43:47,000 --> 00:43:51,000
+ can see also this prefix now is serving as part of the input representation,
+
+604
+00:43:51,000 --> 00:43:55,000
+ so it's training of this input representation rather than
+
+605
+00:43:55,000 --> 00:43:59,000
+ the parameters in this foundation model,
+
+606
+00:43:59,000 --> 00:44:03,000
+ okay, so with that basic understanding, let's look at the key steps in the prefix
+
+607
+00:44:03,000 --> 00:44:07,000
+ tuning, so first of all you're going to introduce the sequence of learnable vectors of
+
+608
+00:44:07,000 --> 00:44:11,000
+ prefix, like just now the one that we've shown, right, so this prefix are
+
+609
+00:44:11,000 --> 00:44:15,000
+ additional tokens, okay, you can call it token, vectors,
+
+610
+00:44:15,000 --> 00:44:19,000
+ embeddings, right, okay, that is added to
+
+611
+00:44:19,000 --> 00:44:23,000
+ the original input tokens, right, so now this particular input
+
+612
+00:44:23,000 --> 00:44:27,000
+ sequence now will include this new prefix that we've introduced
+
+613
+00:44:27,000 --> 00:44:31,000
+ in addition to the original, right, tokens that you use to train
+
+614
+00:44:31,000 --> 00:44:35,000
+ your network, okay, right, so this will allow
+
+615
+00:44:35,000 --> 00:44:39,000
+ the prefix, right, the information in front that is used to
+
+616
+00:44:39,000 --> 00:44:43,000
+ inference the model internal representation to generate the output, so that
+
+617
+00:44:43,000 --> 00:44:47,000
+ this output now can compare with the output of your downstream
+
+618
+00:44:47,000 --> 00:44:51,000
+ application, right, to get the error and this error can then be back-brokered
+
+619
+00:44:51,000 --> 00:44:55,000
+ to train your prefix, okay, so during
+
+620
+00:44:55,000 --> 00:44:59,000
+ training, right, during the fine tuning, only the prefix embedding is
+
+621
+00:44:59,000 --> 00:45:03,000
+ trained, the rest of the model parameter in the foundation model is frozen,
+
+622
+00:45:03,000 --> 00:45:07,000
+ right, so this prefix can learn task-specific feature that help
+
+623
+00:45:07,000 --> 00:45:11,000
+ the model to adapt, like what's being shown here, right, so depending on
+
+624
+00:45:11,000 --> 00:45:15,000
+ different application, this prefix here, right, can be fine-tuned
+
+625
+00:45:15,000 --> 00:45:19,000
+ to customize for specific downstream application.
+
+626
+00:45:19,000 --> 00:45:23,000
+ Okay, so next, after we have introduced
+
+627
+00:45:23,000 --> 00:45:27,000
+ the prefix tuning, so this prompt tuning is actually very similar
+
+628
+00:45:27,000 --> 00:45:31,000
+ to prefix tuning, right, so prompt, I mean for many of you
+
+629
+00:45:31,000 --> 00:45:35,000
+ you have learned LLM before, you know that when you want to use that LLM
+
+630
+00:45:35,000 --> 00:45:39,000
+ you usually need to provide a prompt or a question
+
+631
+00:45:39,000 --> 00:45:43,000
+ to prompt this particular LLM to respond, so this
+
+632
+00:45:43,000 --> 00:45:47,000
+ prompt tuning therefore, idea-wise is actually very similar to the prefix tuning,
+
+633
+00:45:47,000 --> 00:45:51,000
+ except for this prompt tuning is a little bit more flexible, this prompt
+
+634
+00:45:51,000 --> 00:45:55,000
+ tuning can be either in the form of some language text or it can
+
+635
+00:45:55,000 --> 00:45:59,000
+ be also be in the form of LLM, you know,
+
+636
+00:45:59,000 --> 00:46:03,000
+ embedding similar to the prefix tuning, but idea-wise is very similar.
+
+637
+00:46:03,000 --> 00:46:07,000
+ Yeah, so this idea
+
+638
+00:46:07,000 --> 00:46:11,000
+ of prompt tuning actually is very similar to prefix tuning, right, so
+
+639
+00:46:11,000 --> 00:46:15,000
+ okay, so this figure on the left is just trying to show that, right,
+
+640
+00:46:15,000 --> 00:46:19,000
+ if you use a brute force and you try to train your
+
+641
+00:46:19,000 --> 00:46:23,000
+ LLM, you know, I mean you try to fine-tune
+
+642
+00:46:23,000 --> 00:46:27,000
+ your whole LLM, right, so this is very expensive, okay, and this
+
+643
+00:46:27,000 --> 00:46:31,000
+ is actually not the way we usually do it in our
+
+644
+00:46:31,000 --> 00:46:35,000
+ kind of downstream application, but rather
+
+645
+00:46:35,000 --> 00:46:39,000
+ for prompt tuning, we keep this pre-trained foundation model frozen,
+
+646
+00:46:39,000 --> 00:46:43,000
+ this LLM is a language model, which is a type of foundation model,
+
+647
+00:46:43,000 --> 00:46:47,000
+ but we only introduce this prompt here, and then we only fine-tune
+
+648
+00:46:47,000 --> 00:46:51,000
+ these prompts here, right, so this prompt is actually a sequence of
+
+649
+00:46:51,000 --> 00:46:55,000
+ embedding or token or vectors similar to prefix tuning,
+
+650
+00:46:55,000 --> 00:46:59,000
+ yeah, except it can be a bit more flexible, right, so you can see the idea
+
+651
+00:46:59,000 --> 00:47:03,000
+ is very similar to the prefix tuning,
+
+652
+00:47:03,000 --> 00:47:07,000
+ right, so okay, with that visualization, next we can look at the
+
+653
+00:47:07,000 --> 00:47:11,000
+ information here, it's a technique used to use prompt to
+
+654
+00:47:11,000 --> 00:47:15,000
+ guide the model's behavior, so this is the prompt here, so this prompt
+
+655
+00:47:15,000 --> 00:47:19,000
+ here is actually a sequence of vectors or a sequence of
+
+656
+00:47:19,000 --> 00:47:25,000
+ embedding or, you know, a sequence of prompts, right, so whichever way
+
+657
+00:47:25,000 --> 00:47:29,000
+ you prefer to use it term, okay, so this prompt
+
+658
+00:47:29,000 --> 00:47:33,000
+ can either be some static, which is some fixed text,
+
+659
+00:47:33,000 --> 00:47:37,000
+ all right, or it can be dynamic, which is some learnable embedding,
+
+660
+00:47:37,000 --> 00:47:41,000
+ so if it's a learnable embedding, that is just like the prefix learning
+
+661
+00:47:41,000 --> 00:47:45,000
+ that I've introduced to you before, right, so do you fine-tuning
+
+662
+00:47:45,000 --> 00:47:49,000
+ these prompt embedding are trained similar to prefix tuning, right,
+
+663
+00:47:49,000 --> 00:47:53,000
+ whereas the parameter in your foundation model is frozen, okay,
+
+664
+00:47:53,000 --> 00:47:57,000
+ so yeah, we also again, we only modify
+
+665
+00:47:57,000 --> 00:48:01,000
+ the model's input to guide its response without changing
+
+666
+00:48:01,000 --> 00:48:05,000
+ the foundation model internal parameter, right, so the
+
+667
+00:48:05,000 --> 00:48:09,000
+ difference compared to the prefix tuning is that, prefix tuning
+
+668
+00:48:09,000 --> 00:48:13,000
+ right, we assume that
+
+669
+00:48:13,000 --> 00:48:17,000
+ we only use the learnable vectors or embedding, but for
+
+670
+00:48:17,000 --> 00:48:21,000
+ prompt, it can either be text prompt or learnable
+
+671
+00:48:21,000 --> 00:48:25,000
+ embedding, so actually, right, in short, this prefix tuning and prompt
+
+672
+00:48:25,000 --> 00:48:29,000
+ tuning, conceptually, they are just almost the same, yeah, it's just that
+
+673
+00:48:29,000 --> 00:48:33,000
+ prompt tuning is a little bit more broader, it can include
+
+674
+00:48:33,000 --> 00:48:37,000
+ either text or it can be including some
+
+675
+00:48:37,000 --> 00:48:41,000
+ learnable vectors or embeddings, yeah,
+
+676
+00:48:41,000 --> 00:48:45,000
+ right, okay, so yeah, so
+
+677
+00:48:45,000 --> 00:48:49,000
+ basically just now, we have introduced a few broad categories of how do we fine-tune
+
+678
+00:48:49,000 --> 00:48:53,000
+ a foundation model, right, such as LLM, so in section one
+
+679
+00:48:53,000 --> 00:48:57,000
+ we covered the following, okay, we covered the current state of the art
+
+680
+00:48:57,000 --> 00:49:01,000
+ based on a foundation model and how do we adapt or fine-tune a foundation
+
+681
+00:49:01,000 --> 00:49:05,000
+ model, okay, so next we're going to move on to
+
+682
+00:49:05,000 --> 00:49:09,000
+ section two, which is on LLM
+
+683
+00:49:19,000 --> 00:49:23,000
+ okay, so under this, we are going to cover the following, first a quick introduction
+
+684
+00:49:23,000 --> 00:49:27,000
+ of LLM, right, and then afterwards we introduce what is BERC, okay, what is
+
+685
+00:49:27,000 --> 00:49:31,000
+ GPT, some well-known LLM as well as some recent emerging
+
+686
+00:49:31,000 --> 00:49:35,000
+ training, right, so what is LLM, I think all of
+
+687
+00:49:35,000 --> 00:49:39,000
+ you know that, what is LLM, so LLM is a type of foundation model, but specifically
+
+688
+00:49:39,000 --> 00:49:43,000
+ it's an AI model that handle, you know,
+
+689
+00:49:43,000 --> 00:49:47,000
+ human language, so it's an AI model that can understand, generate
+
+690
+00:49:47,000 --> 00:49:51,000
+ and manipulate human language, right, okay,
+
+691
+00:49:51,000 --> 00:49:55,000
+ so what are some of the key features of LLM, right, so we know that for
+
+692
+00:49:55,000 --> 00:49:59,000
+ LLM is a large scale, a massive scale
+
+693
+00:49:59,000 --> 00:50:03,000
+ that means you train with a large number of data and also this information
+
+694
+00:50:03,000 --> 00:50:07,000
+ is captured in a large model, right, that has billions
+
+695
+00:50:07,000 --> 00:50:11,000
+ of parameters, okay, so therefore it's actually massive scale
+
+696
+00:50:11,000 --> 00:50:15,000
+ right, that has a large parameter and also
+
+697
+00:50:15,000 --> 00:50:19,000
+ train with a large number of data so that it can acquire
+
+698
+00:50:19,000 --> 00:50:23,000
+ a good understanding of various linguistic
+
+699
+00:50:23,000 --> 00:50:27,000
+ tasks, okay, so the training, by now you should know, training is
+
+700
+00:50:27,000 --> 00:50:31,000
+ trained using a large number of data, right, okay,
+
+701
+00:50:31,000 --> 00:50:35,000
+ so once it's fully trained,
+
+702
+00:50:35,000 --> 00:50:39,000
+ it has many capabilities as some of you already know, since you have been
+
+703
+00:50:39,000 --> 00:50:43,000
+ dealing with this LLM before, so it has strong capability, it can
+
+704
+00:50:43,000 --> 00:50:47,000
+ handle various tasks such as translation, summarization,
+
+705
+00:50:47,000 --> 00:50:51,000
+ no, sentiment analysis and so on and so forth, so it has very strong capability
+
+706
+00:50:51,000 --> 00:50:55,000
+ and because of this capability, it's used in many different applications
+
+707
+00:50:55,000 --> 00:50:59,000
+ right, so many applications that you have seen before, chat box,
+
+708
+00:50:59,000 --> 00:51:03,000
+ conversation, so on and so forth, but it also
+
+709
+00:51:03,000 --> 00:51:07,000
+ has some challenges like what we mentioned before, for example bias,
+
+710
+00:51:07,000 --> 00:51:11,000
+ so it will be bias based on what kind of data it's being trained on, if the data
+
+711
+00:51:11,000 --> 00:51:15,000
+ is for example trained on Western kind of language, then it will be
+
+712
+00:51:15,000 --> 00:51:19,000
+ bias to work stuff, okay, misuse, sometimes
+
+713
+00:51:19,000 --> 00:51:23,000
+ it can be useful, no,
+
+714
+00:51:23,000 --> 00:51:27,000
+ purpose which is not suitable and also the impact, right, nowadays for example,
+
+715
+00:51:27,000 --> 00:51:31,000
+ this LLM can be extended to coding, right, so that it can affect
+
+716
+00:51:31,000 --> 00:51:35,000
+ potentially the life of the programmer, so I think
+
+717
+00:51:35,000 --> 00:51:39,000
+ a few weeks ago actually I heard
+
+718
+00:51:39,000 --> 00:51:43,000
+ an interview by the NVIDIA CEO, I think Janice Nguong,
+
+719
+00:51:43,000 --> 00:51:47,000
+ so actually he mentioned that, right, actually one of the interviewer
+
+720
+00:51:47,000 --> 00:51:51,000
+ should be now, nowadays
+
+721
+00:51:51,000 --> 00:51:55,000
+ trained people to be the programmer, actually the CEO
+
+722
+00:51:55,000 --> 00:51:59,000
+ NVIDIA CEO, his answer is not to train anyone
+
+723
+00:51:59,000 --> 00:52:03,000
+ learning programming any further in the future, because in the future
+
+724
+00:52:03,000 --> 00:52:07,000
+ programming is going to be a tool that everyone can do,
+
+725
+00:52:07,000 --> 00:52:11,000
+ so you just indicate what you want to achieve and then
+
+726
+00:52:11,000 --> 00:52:15,000
+ with these LLM types of tools, it can generate the code automatically,
+
+727
+00:52:15,000 --> 00:52:19,000
+ it's just like I remember when I was in early years
+
+728
+00:52:19,000 --> 00:52:23,000
+ when I just do my bachelor's degree, we have to learn how to
+
+729
+00:52:23,000 --> 00:52:27,000
+ write the codes for the web page, I remember one of my internship is with
+
+730
+00:52:27,000 --> 00:52:31,000
+ Sintel, and we have to write all those codes, how to generate
+
+731
+00:52:31,000 --> 00:52:35,000
+ password and so on, but nowadays a lot of those things you actually don't have to do it anymore,
+
+732
+00:52:35,000 --> 00:52:39,000
+ you just have to tell them what you want to achieve, the code will be generated in the background,
+
+733
+00:52:39,000 --> 00:52:43,000
+ so anyway we don't know, so this are
+
+734
+00:52:43,000 --> 00:52:47,000
+ lots of potential societal impact on this, for example LLM
+
+735
+00:52:47,000 --> 00:52:51,000
+ and more generally speaking for foundation model.
+
+736
+00:52:51,000 --> 00:52:55,000
+ This slide shows some of the popular timelines
+
+737
+00:52:55,000 --> 00:52:59,000
+ of LLM, you can just browse through yourself to see
+
+738
+00:52:59,000 --> 00:53:03,000
+ are there anyone that you are not familiar with.
+
+739
+00:53:03,000 --> 00:53:07,000
+ But for this course we are going to introduce a few important
+
+740
+00:53:07,000 --> 00:53:11,000
+ ones, so first of all we are going to learn this bulk, so this
+
+741
+00:53:11,000 --> 00:53:15,000
+ bulk stands for bi-directional encoder
+
+742
+00:53:15,000 --> 00:53:19,000
+ representation from transformer, so this particular bulk
+
+743
+00:53:19,000 --> 00:53:23,000
+ is actually dealing with the representation of the
+
+744
+00:53:23,000 --> 00:53:27,000
+ text, so given some works that you have,
+
+745
+00:53:27,000 --> 00:53:31,000
+ can you come up with some vector representation that can
+
+746
+00:53:31,000 --> 00:53:35,000
+ describe this works very well, by taking into consideration
+
+747
+00:53:35,000 --> 00:53:39,000
+ for example the relationship between other works,
+
+748
+00:53:39,000 --> 00:53:43,000
+ their contribution towards this work. So pretty much this part
+
+749
+00:53:43,000 --> 00:53:47,000
+ of the model is even the input token
+
+750
+00:53:47,000 --> 00:53:51,000
+ or works, we want to generate some
+
+751
+00:53:51,000 --> 00:53:55,000
+ factors that is a good representation of all this input
+
+752
+00:53:55,000 --> 00:53:59,000
+ work or token.
+
+753
+00:53:59,000 --> 00:54:03,000
+ So bulk is actually an NLP model
+
+754
+00:54:03,000 --> 00:54:07,000
+ developed by some facts information first, so it's an NLP
+
+755
+00:54:07,000 --> 00:54:11,000
+ model developed by Google around 2018.
+
+756
+00:54:11,000 --> 00:54:15,000
+ So it's actually the transformer encoder, if you remember
+
+757
+00:54:15,000 --> 00:54:19,000
+ transformer we have the encoder and we have the decoder part.
+
+758
+00:54:19,000 --> 00:54:23,000
+ So bulk is actually corresponding to the encoder part of
+
+759
+00:54:23,000 --> 00:54:27,000
+ the transformer. And then it also has the
+
+760
+00:54:27,000 --> 00:54:31,000
+ bi-directional self-attention, that means when you look at this particular
+
+761
+00:54:31,000 --> 00:54:35,000
+ works here, it's actually getting the information from the works
+
+762
+00:54:35,000 --> 00:54:39,000
+ in the past as well as works in the future, so therefore
+
+763
+00:54:39,000 --> 00:54:43,000
+ it's bi-directional. So it has the bi-directional self-attention.
+
+764
+00:54:43,000 --> 00:54:47,000
+ So from what we know from the
+
+765
+00:54:47,000 --> 00:54:51,000
+ transformer already, because of that it can understand or it can
+
+766
+00:54:51,000 --> 00:54:55,000
+ obtain the context information, it can get the information of
+
+767
+00:54:55,000 --> 00:54:59,000
+ all the other works that contribute to this kind of work.
+
+768
+00:54:59,000 --> 00:55:03,000
+ It can then generalise some contextualised work embedding
+
+769
+00:55:03,000 --> 00:55:07,000
+ that is given some work after you go through this transformer encoder
+
+770
+00:55:07,000 --> 00:55:11,000
+ a few times, you'll be able to get a vector that is a good representation
+
+771
+00:55:11,000 --> 00:55:15,000
+ that contains the context. So this context means that meaning
+
+772
+00:55:15,000 --> 00:55:19,000
+ of the other works. So it can
+
+773
+00:55:19,000 --> 00:55:23,000
+ generate a contextualised work embeddings of vectors.
+
+774
+00:55:23,000 --> 00:55:27,000
+ So there's a few different versions, so two important
+
+775
+00:55:27,000 --> 00:55:31,000
+ versions is the base version as well as the large version, with this
+
+776
+00:55:31,000 --> 00:55:35,000
+ number of parameters. And then subsequently there's further improvement, so sometimes
+
+777
+00:55:35,000 --> 00:55:39,000
+ you'll see various types of bulk. So these are some further
+
+778
+00:55:39,000 --> 00:55:43,000
+ improvements that build upon the original bulk.
+
+779
+00:55:43,000 --> 00:55:47,000
+ Right, so let's look at the bulk and GBT, because these
+
+780
+00:55:47,000 --> 00:55:51,000
+ are the two very early AI models that were developed
+
+781
+00:55:51,000 --> 00:55:55,000
+ after the transformer came up. So if you can recall
+
+782
+00:55:55,000 --> 00:55:59,000
+ this is our transformer. So this part here
+
+783
+00:55:59,000 --> 00:56:03,000
+ corresponds to the bulk. The encoder of the
+
+784
+00:56:03,000 --> 00:56:07,000
+ transformer corresponds to the bulk and the decoder of
+
+785
+00:56:07,000 --> 00:56:11,000
+ the transformer corresponds to the GBT series of data.
+
+786
+00:56:11,000 --> 00:56:15,000
+ So bulk is for representation, that means given some
+
+787
+00:56:15,000 --> 00:56:19,000
+ input tokens of works you want to generate vectors that can represent it
+
+788
+00:56:19,000 --> 00:56:23,000
+ representation. And GBT is mainly focused on
+
+789
+00:56:23,000 --> 00:56:27,000
+ generation. So given for example a work can you generate
+
+790
+00:56:27,000 --> 00:56:31,000
+ the next work and generate the next work and so on and so forth. So its focus is on
+
+791
+00:56:31,000 --> 00:56:35,000
+ generation. So next we are going to
+
+792
+00:56:35,000 --> 00:56:39,000
+ look at this bulk training very quickly.
+
+793
+00:56:49,000 --> 00:56:53,000
+ Right, okay, so the training of the bulk actually
+
+794
+00:56:53,000 --> 00:56:57,000
+ involves two stages. The first stage is that you want to
+
+795
+00:56:57,000 --> 00:57:01,000
+ pre-train this bulk so that it can understand the language.
+
+796
+00:57:01,000 --> 00:57:05,000
+ So once you have understood the language structure or reasoning
+
+797
+00:57:05,000 --> 00:57:09,000
+ then in your stage two you will then use your pre-train model
+
+798
+00:57:09,000 --> 00:57:13,000
+ you'll do some fine tuning for some downstream application.
+
+799
+00:57:13,000 --> 00:57:17,000
+ So that's what we have seen for many different use cases. So stage
+
+800
+00:57:17,000 --> 00:57:21,000
+ one is to do the training. Stage two is to fine tune your
+
+801
+00:57:21,000 --> 00:57:25,000
+ pre-train model for some downstream application.
+
+802
+00:57:25,000 --> 00:57:29,000
+ So this is the pre-training stage.
+
+803
+00:57:29,000 --> 00:57:33,000
+ So later on we will explain this particular
+
+804
+00:57:33,000 --> 00:57:37,000
+ pre-training as well as the fine tuning a little bit more in detail.
+
+805
+00:57:37,000 --> 00:57:41,000
+ But pretty much it's a two stage process. Stage one
+
+806
+00:57:41,000 --> 00:57:45,000
+ is we do the pre-training. So this particular pre-training
+
+807
+00:57:45,000 --> 00:57:49,000
+ is that we will provide some input tokens
+
+808
+00:57:49,000 --> 00:57:53,000
+ and then we'll have some output target
+
+809
+00:57:53,000 --> 00:57:57,000
+ and we'll train it such that at the end of this training here
+
+810
+00:57:57,000 --> 00:58:01,000
+ right, you're given this particular input here, you will have
+
+811
+00:58:01,000 --> 00:58:05,000
+ some good vector representation. So this is the
+
+812
+00:58:05,000 --> 00:58:09,000
+ objective of the stage one which is the pre-train
+
+813
+00:58:09,000 --> 00:58:13,000
+ your bulk. So once you have already pre-trained your bulk
+
+814
+00:58:13,000 --> 00:58:17,000
+ here, that means this network in between here would have learned a good
+
+815
+00:58:17,000 --> 00:58:21,000
+ understanding of the human language. And after
+
+816
+00:58:21,000 --> 00:58:25,000
+ works, the next step is for the fine tuning then we take this pre-train
+
+817
+00:58:25,000 --> 00:58:29,000
+ model here. So depending on what kind of application that we
+
+818
+00:58:29,000 --> 00:58:33,000
+ have, whether it's like some question answering,
+
+819
+00:58:33,000 --> 00:58:37,000
+ trying to file a sentiment analysis or whether these
+
+820
+00:58:37,000 --> 00:58:41,000
+ two sentences has some relationship, we can
+
+821
+00:58:41,000 --> 00:58:45,000
+ then use it to fine tune the network for some subsequent
+
+822
+00:58:45,000 --> 00:58:49,000
+ downstream application. So these are two key steps.
+
+823
+00:58:49,000 --> 00:58:53,000
+ Let's probably
+
+824
+00:58:53,000 --> 00:58:57,000
+ see.
+
+825
+00:58:57,000 --> 00:59:01,000
+ So let's look at the first step here.
+
+826
+00:59:01,000 --> 00:59:05,000
+ How do we do this pre-training here? So how do we do this pre-training here?
+
+827
+00:59:05,000 --> 00:59:09,000
+ There's actually two tasks involved in doing the pre-training of the bulk.
+
+828
+00:59:09,000 --> 00:59:13,000
+ Number one is that you can see that for this pre-training
+
+829
+00:59:13,000 --> 00:59:17,000
+ here, the input is unlabeled sentences of
+
+830
+00:59:17,000 --> 00:59:21,000
+ sentence A and B.
+
+831
+00:59:21,000 --> 00:59:25,000
+ That means actually from the general text that you have, because you're going to take the
+
+832
+00:59:25,000 --> 00:59:29,000
+ training from the general corpus, you're going to get
+
+833
+00:59:29,000 --> 00:59:33,000
+ sometimes some sentences which are actually together
+
+834
+00:59:33,000 --> 00:59:37,000
+ or sentences which are not together. That means it's two consecutive
+
+835
+00:59:37,000 --> 00:59:41,000
+ sentences or not consecutive sentences. So you have
+
+836
+00:59:41,000 --> 00:59:45,000
+ this particular sentence A and B. If these sentences A and B
+
+837
+00:59:45,000 --> 00:59:49,000
+ are next to each other, then we have this particular
+
+838
+00:59:49,000 --> 00:59:53,000
+ next sentence prediction and SP is the next
+
+839
+00:59:53,000 --> 00:59:57,000
+ sentence prediction. So depending on right from the corpus that
+
+840
+00:59:57,000 --> 01:00:01,000
+ you obtain, whether these two sentences are together or not together, then
+
+841
+01:00:01,000 --> 01:00:05,000
+ you can train this next sentence prediction to be either 0 or 1.
+
+842
+01:00:05,000 --> 01:00:09,000
+ So this is one way you can train so that you can
+
+843
+01:00:09,000 --> 01:00:13,000
+ let this particular network learns the
+
+844
+01:00:13,000 --> 01:00:17,000
+ linguistic understanding about how the human language looks
+
+845
+01:00:17,000 --> 01:00:21,000
+ like. So that's one thing. The second thing is that you also have this particular
+
+846
+01:00:21,000 --> 01:00:25,000
+ masking here. Masking here means that some of this particular
+
+847
+01:00:25,000 --> 01:00:29,000
+ works here actually will mask it.
+
+848
+01:00:29,000 --> 01:00:33,000
+ Our goal is that we want to predict this mask length
+
+849
+01:00:33,000 --> 01:00:37,000
+ this particular mask
+
+850
+01:00:37,000 --> 01:00:41,000
+ here. So for example, we hide one of this work. We
+
+851
+01:00:41,000 --> 01:00:45,000
+ want to train our network so that it can predict what is this
+
+852
+01:00:45,000 --> 01:00:49,000
+ missing work. This is called the masking. So therefore there's these two
+
+853
+01:00:49,000 --> 01:00:53,000
+ tasks that we train at the same time. First is this
+
+854
+01:00:53,000 --> 01:00:57,000
+ mask language model, which is this part here. When there
+
+855
+01:00:57,000 --> 01:01:01,000
+ are some work that we purposely hide, can we predict this work?
+
+856
+01:01:01,000 --> 01:01:05,000
+ Mask language model. The second task it do is
+
+857
+01:01:05,000 --> 01:01:09,000
+ that when two sentences are together, we want to train this
+
+858
+01:01:09,000 --> 01:01:13,000
+ network so that it can predict whether two sentences are together
+
+859
+01:01:13,000 --> 01:01:17,000
+ or not. So by doing that, actually it will train your
+
+860
+01:01:17,000 --> 01:01:21,000
+ network, your bug model to learn to
+
+861
+01:01:21,000 --> 01:01:25,000
+ get better vector representation as compared to your original token.
+
+862
+01:01:25,000 --> 01:01:29,000
+ So when you get better vector representation, it also means that at the same
+
+863
+01:01:29,000 --> 01:01:33,000
+ time you also train this underlying network
+
+864
+01:01:33,000 --> 01:01:37,000
+ model in this model here, which is our transformer. So this is the
+
+865
+01:01:37,000 --> 01:01:41,000
+ training steps here. So next, right
+
+866
+01:01:41,000 --> 01:01:45,000
+ with that quick introduction, let's look at
+
+867
+01:01:45,000 --> 01:01:49,000
+ what do we do in the pre-training. First we'll be using
+
+868
+01:01:49,000 --> 01:01:53,000
+ unsupervised or self-supervised learning. Self-supervised or unsupervised learning
+
+869
+01:01:53,000 --> 01:01:57,000
+ in this case, it means that you don't have any person to go
+
+870
+01:01:57,000 --> 01:02:01,000
+ and provide the annotation. But rather this information, this
+
+871
+01:02:01,000 --> 01:02:05,000
+ data is taken from some generous sources and corpus
+
+872
+01:02:05,000 --> 01:02:09,000
+ and then just by looking at it, because in a lot of text you already
+
+873
+01:02:09,000 --> 01:02:13,000
+ have all the works as well as the sentences. So
+
+874
+01:02:13,000 --> 01:02:17,000
+ you can just simply take this information without external
+
+875
+01:02:17,000 --> 01:02:21,000
+ annotator to provide the annotation, you can start to do the training already. So this
+
+876
+01:02:21,000 --> 01:02:25,000
+ particular steps is known as a self-supervised. Okay, right
+
+877
+01:02:25,000 --> 01:02:29,000
+ because you do not need external annotator to provide the annotation.
+
+878
+01:02:29,000 --> 01:02:33,000
+ From the text instead you obtain,
+
+879
+01:02:33,000 --> 01:02:37,000
+ you already have this supervisory signal.
+
+880
+01:02:37,000 --> 01:02:41,000
+ So the goal is to learn language structure and context. So early
+
+881
+01:02:41,000 --> 01:02:45,000
+ on I mentioned there are two tasks. The first one is known as the mass language
+
+882
+01:02:45,000 --> 01:02:49,000
+ model, MLM here. So the mass language model, the goal is
+
+883
+01:02:49,000 --> 01:02:53,000
+ that we'll hide some of the works in our input and we
+
+884
+01:02:53,000 --> 01:02:57,000
+ want to train this network to use its surrounding context
+
+885
+01:02:57,000 --> 01:03:01,000
+ to predict this mass work. So by using the surrounding
+
+886
+01:03:01,000 --> 01:03:05,000
+ context to predict what is this mass work, that means you
+
+887
+01:03:05,000 --> 01:03:09,000
+ force the model to learn the context or the relationship between the works.
+
+888
+01:03:09,000 --> 01:03:13,000
+ Okay, right so you'll try to predict the mass work from the
+
+889
+01:03:13,000 --> 01:03:17,000
+ surrounding works. Okay, so therefore you achieve some context learning.
+
+890
+01:03:17,000 --> 01:03:21,000
+ Okay, so the second task is a next sentence prediction, NSP.
+
+891
+01:03:21,000 --> 01:03:25,000
+ So you'll try to predict whether a sentence follows another in a text pair.
+
+892
+01:03:25,000 --> 01:03:29,000
+ Alright, okay, so again by doing that you'll force this
+
+893
+01:03:29,000 --> 01:03:33,000
+ particular bulk to learn the
+
+894
+01:03:33,000 --> 01:03:37,000
+ language structure, to learn the logical context between sentences.
+
+895
+01:03:37,000 --> 01:03:41,000
+ So bulk training could be leveraging on Wikipedia
+
+896
+01:03:41,000 --> 01:03:45,000
+ or some book, Coppers, which is a large number of data
+
+897
+01:03:45,000 --> 01:03:49,000
+ in the early model of training. Okay, so
+
+898
+01:03:49,000 --> 01:03:53,000
+ next let's spend a bit more time to talk a little bit more about this
+
+899
+01:03:53,000 --> 01:03:57,000
+ bulk input representations here. So for this bulk input
+
+900
+01:03:57,000 --> 01:04:01,000
+ representations here, so first of all you have this particular
+
+901
+01:04:01,000 --> 01:04:05,000
+ okay, so the input here actually consists of a few things. Number one
+
+902
+01:04:05,000 --> 01:04:09,000
+ is that you have this bulk token
+
+903
+01:04:09,000 --> 01:04:13,000
+ embedding here, okay, this part here. Alright, so
+
+904
+01:04:13,000 --> 01:04:17,000
+ this token embedding is just like what we have studied before for the
+
+905
+01:04:17,000 --> 01:04:21,000
+ transformer, which is given some token
+
+906
+01:04:21,000 --> 01:04:25,000
+ embedding, you'll use a vector to represent it. Okay, so this is the part
+
+907
+01:04:25,000 --> 01:04:29,000
+ and more specifically the token embedding scheme that they use is known
+
+908
+01:04:29,000 --> 01:04:33,000
+ as a work piece, which consists of a 30,000
+
+909
+01:04:33,000 --> 01:04:37,000
+ vocabulary. So therefore given some works that you have,
+
+910
+01:04:37,000 --> 01:04:41,000
+ you'll use the vector to represent them. So after
+
+911
+01:04:41,000 --> 01:04:45,000
+ work, right, you know that just like what we have studied before for the
+
+912
+01:04:45,000 --> 01:04:49,000
+ transformer, the position is also important. So you also
+
+913
+01:04:49,000 --> 01:04:53,000
+ need to include the position embedding, which is in the form of
+
+914
+01:04:53,000 --> 01:04:57,000
+ vector. So you, therefore the positions of each of these works
+
+915
+01:04:57,000 --> 01:05:01,000
+ right in the sentences is important. So we have this particular
+
+916
+01:05:01,000 --> 01:05:05,000
+ position embedding which is indicated, which are actually vectors
+
+917
+01:05:05,000 --> 01:05:09,000
+ right that indicate the positions of each works in this right
+
+918
+01:05:09,000 --> 01:05:13,000
+ up. Okay, and then finally we also have an extra part which is known as
+
+919
+01:05:13,000 --> 01:05:17,000
+ a segment embedding. So this segment embedding is just simply to
+
+920
+01:05:17,000 --> 01:05:21,000
+ indicate whether it's sentence one, sentence two, sentence three, and so on and so
+
+921
+01:05:21,000 --> 01:05:25,000
+ forth. Okay, so these are the three pieces of information. Right, so for
+
+922
+01:05:25,000 --> 01:05:29,000
+ the input, therefore you need to have this token embedding, you need to have a vector
+
+923
+01:05:29,000 --> 01:05:33,000
+ to represent this token of works. Right, you have
+
+924
+01:05:33,000 --> 01:05:37,000
+ a segment embedding, which is a sentence numbering, whether it's for example
+
+925
+01:05:37,000 --> 01:05:41,000
+ this part here is sentence A, this part is a sentence B,
+
+926
+01:05:41,000 --> 01:05:45,000
+ you need to indicate which sentence it is. And then finally you also
+
+927
+01:05:45,000 --> 01:05:49,000
+ need to indicate the positions of each of the works. Yeah, so this
+
+928
+01:05:49,000 --> 01:05:53,000
+ is the position embedding. So therefore for your input representation
+
+929
+01:05:53,000 --> 01:05:57,000
+ it consists of these three parts.
+
+930
+01:05:57,000 --> 01:06:01,000
+ Right, okay, so yeah,
+
+931
+01:06:01,000 --> 01:06:05,000
+ this is still a bit more detailed about the pre-training. So during
+
+932
+01:06:05,000 --> 01:06:09,000
+ the, this the, okay, the next sentence prediction we already
+
+933
+01:06:09,000 --> 01:06:13,000
+ mentioned to you, right, so if the two sentences are together
+
+934
+01:06:13,000 --> 01:06:17,000
+ then, no, for example, you should predicate as one. If the two sentences are not
+
+935
+01:06:17,000 --> 01:06:21,000
+ together, you should predicate as zero. So we know that based on that
+
+936
+01:06:21,000 --> 01:06:25,000
+ we can actually calculate the error between the prediction and our
+
+937
+01:06:25,000 --> 01:06:29,000
+ ground truth. We can use this particular error to go and do the
+
+938
+01:06:29,000 --> 01:06:33,000
+ propagation to train it. Right, so this particular part of the diagram is to show
+
+939
+01:06:33,000 --> 01:06:37,000
+ how do you do the prediction or training for this
+
+940
+01:06:37,000 --> 01:06:41,000
+ mass language model. Right, which is one of the work we must do, but we want
+
+941
+01:06:41,000 --> 01:06:45,000
+ to use the context to predicate. Okay, so what we have is that
+
+942
+01:06:45,000 --> 01:06:49,000
+ right, during the training, right, suppose at one stage here you have some
+
+943
+01:06:49,000 --> 01:06:53,000
+ vectors here and afterwards, right, you let it go through
+
+944
+01:06:53,000 --> 01:06:57,000
+ a linear layer to project it to 30
+
+945
+01:06:57,000 --> 01:07:01,000
+ dimensional vectors. Alright, okay, and then you let it go through a
+
+946
+01:07:01,000 --> 01:07:05,000
+ softmax to become the probability. And then this probability
+
+947
+01:07:05,000 --> 01:07:09,000
+ would then compare to your ground truth because when you take
+
+948
+01:07:09,000 --> 01:07:13,000
+ the sentence, you already know what should be the work
+
+949
+01:07:13,000 --> 01:07:17,000
+ basis. So therefore, you have this ground truth here. So this
+
+950
+01:07:17,000 --> 01:07:21,000
+ ground truth is the one hot vector. Suppose if it's no m, then
+
+951
+01:07:21,000 --> 01:07:25,000
+ all the values here is zero, zero, zero. m is one, the rest are all zero.
+
+952
+01:07:25,000 --> 01:07:29,000
+ So you can compare your ground truth with your prediction to get the
+
+953
+01:07:29,000 --> 01:07:33,000
+ error. And afterwards, this error can then be backpropagate to train
+
+954
+01:07:33,000 --> 01:07:37,000
+ your model as well. Okay, so this is the training involved is the
+
+955
+01:07:37,000 --> 01:07:41,000
+ mass language model. Okay, so by doing that
+
+956
+01:07:41,000 --> 01:07:45,000
+ right, by doing that, then we can train
+
+957
+01:07:45,000 --> 01:07:49,000
+ our bulk model. So once it's fully trained, then next we want to use it
+
+958
+01:07:49,000 --> 01:07:53,000
+ for the downstream applications already. So once fully trained,
+
+959
+01:07:53,000 --> 01:07:57,000
+ we'll take this particular back network here, right, and then we'll
+
+960
+01:07:57,000 --> 01:08:01,000
+ use it for the fine tuning of the downstream
+
+961
+01:08:01,000 --> 01:08:05,000
+ application. Right, so let's look at, you know, the fine tuning for some specific
+
+962
+01:08:05,000 --> 01:08:09,000
+ downstream tasks. Right, so again, we'll use a supervised
+
+963
+01:08:09,000 --> 01:08:13,000
+ okay, we'll use a supervised learning. Right, so that means
+
+964
+01:08:13,000 --> 01:08:17,000
+ it will add a task specific module after the last encoder layer so that it can
+
+965
+01:08:17,000 --> 01:08:21,000
+ map, right, to the target output here. So for example,
+
+966
+01:08:21,000 --> 01:08:25,000
+ this downstream task that you have now, right, in the bulk initially
+
+967
+01:08:25,000 --> 01:08:29,000
+ they have some specific tasks. Some of them could be, for example,
+
+968
+01:08:29,000 --> 01:08:33,000
+ right, you have a question, for example, this squad here. So this squad
+
+969
+01:08:33,000 --> 01:08:37,000
+ is actually a data set coming from Stanford. So what it does is that
+
+970
+01:08:37,000 --> 01:08:41,000
+ right, it asks a question, okay, and then this answer is
+
+971
+01:08:41,000 --> 01:08:45,000
+ actually lying inside a paragraph. Okay, it asks the question, and
+
+972
+01:08:45,000 --> 01:08:49,000
+ the answer is actually in a paragraph here. So you can actually indicate where
+
+973
+01:08:49,000 --> 01:08:53,000
+ is the starting point and the ending point of this answer in this
+
+974
+01:08:53,000 --> 01:08:57,000
+ paragraph here. So that's the problem statements here. So for example,
+
+975
+01:08:57,000 --> 01:09:01,000
+ if you want to, you know, take this pre-trained model
+
+976
+01:09:01,000 --> 01:09:05,000
+ and then update or fine-tune it for your downstream
+
+977
+01:09:05,000 --> 01:09:09,000
+ squad kind of a problem statement, which is you give it a question.
+
+978
+01:09:09,000 --> 01:09:13,000
+ The answer is actually lying within the paragraph and you just
+
+979
+01:09:13,000 --> 01:09:17,000
+ indicate where is the starting position and the ending
+
+980
+01:09:17,000 --> 01:09:21,000
+ positions in this paragraph that contain the answer. Okay,
+
+981
+01:09:21,000 --> 01:09:25,000
+ so if you want to do that, so what you need to do is that
+
+982
+01:09:25,000 --> 01:09:29,000
+ in this particular fine-tuning task, you take this model here,
+
+983
+01:09:29,000 --> 01:09:33,000
+ you just introduce a small network here, okay, which could
+
+984
+01:09:33,000 --> 01:09:37,000
+ be for example a few layers of MLP here,
+
+985
+01:09:37,000 --> 01:09:41,000
+ right, okay, to predict the starting point and the ending point.
+
+986
+01:09:41,000 --> 01:09:45,000
+ So therefore you can see internally is the same, but we just introduce a small network here.
+
+987
+01:09:45,000 --> 01:09:49,000
+ Right, okay, so doing the fine-tuning
+
+988
+01:09:49,000 --> 01:09:53,000
+ would present it with for example question one, paragraph one, and then
+
+989
+01:09:53,000 --> 01:09:57,000
+ the start and end for
+
+990
+01:09:57,000 --> 01:10:01,000
+ this first training data, okay, and then you get the
+
+991
+01:10:01,000 --> 01:10:05,000
+ loss and then you're used to train this network here. And afterwards you present
+
+992
+01:10:05,000 --> 01:10:09,000
+ the second question, second paragraph, and then
+
+993
+01:10:09,000 --> 01:10:13,000
+ the desire output for the start and
+
+994
+01:10:13,000 --> 01:10:17,000
+ end. And afterwards you can get the error, you can then train this small network here.
+
+995
+01:10:17,000 --> 01:10:21,000
+ Okay, so that's a basic idea, right, so you can use
+
+996
+01:10:21,000 --> 01:10:25,000
+ supervised learning, you add a task-specific module which is
+
+997
+01:10:25,000 --> 01:10:29,000
+ here, okay, after the last encoded layer, so you can see this
+
+998
+01:10:29,000 --> 01:10:33,000
+ the last encoded layer, so after the last encoded layer, so that you can learn,
+
+999
+01:10:33,000 --> 01:10:37,000
+ okay, you can train this small network here. Okay, so the
+
+1000
+01:10:37,000 --> 01:10:41,000
+ example here is the question-answer task, right, which is this
+
+1001
+01:10:41,000 --> 01:10:45,000
+ squat here, right, so you will train two extra vectors here, right, so you want to
+
+1002
+01:10:45,000 --> 01:10:49,000
+ train this start and end vectors here. To mask the beginning
+
+1003
+01:10:49,000 --> 01:10:53,000
+ and end of the answer from this paragraph, okay, you have a question here
+
+1004
+01:10:53,000 --> 01:10:57,000
+ that and the answer is lying inside this paragraph as I mentioned,
+
+1005
+01:10:57,000 --> 01:11:01,000
+ right, so you want to indicate where's the starting point and the ending point in this paragraph
+
+1006
+01:11:01,000 --> 01:11:05,000
+ that contain the answer, yeah. Okay, so
+
+1007
+01:11:05,000 --> 01:11:09,000
+ yeah, this idea can then be extended to many different
+
+1008
+01:11:09,000 --> 01:11:13,000
+ language kind of tasks, for example, sentiment analysis, text summarization, and so on and so forth,
+
+1009
+01:11:13,000 --> 01:11:17,000
+ but we will not go into the detail.
+
+1010
+01:11:17,000 --> 01:11:21,000
+ Right, okay, so in terms of performance evaluation, therefore your pre-trained
+
+1011
+01:11:21,000 --> 01:11:25,000
+ model, you can then use it for many subsequent tasks, so
+
+1012
+01:11:25,000 --> 01:11:29,000
+ a lot of this task has to do with the human language understanding,
+
+1013
+01:11:29,000 --> 01:11:33,000
+ right, okay, that either is involving image
+
+1014
+01:11:33,000 --> 01:11:37,000
+ pair, right, or a single sentence, right, so I think
+
+1015
+01:11:37,000 --> 01:11:41,000
+ this is a little bit more in detail, probably we don't have to go into the details
+
+1016
+01:11:41,000 --> 01:11:45,000
+ up. Suffice to say that once you have this
+
+1017
+01:11:45,000 --> 01:11:49,000
+ book, you have trained it, right, you take this pre-trained model, you can
+
+1018
+01:11:49,000 --> 01:11:53,000
+ then do the fine-tuning for the downstream task, and the downstream task
+
+1019
+01:11:53,000 --> 01:11:57,000
+ typically involves designing a small network at the
+
+1020
+01:11:57,000 --> 01:12:01,000
+ last layer to do the training of the small network.
+
+1021
+01:12:01,000 --> 01:12:05,000
+ Okay, right, so this
+
+1022
+01:12:05,000 --> 01:12:09,000
+ general language understanding task as well as the
+
+1023
+01:12:09,000 --> 01:12:13,000
+ standard question answering data set, so these are some data set that you can
+
+1024
+01:12:13,000 --> 01:12:17,000
+ use to train the performance of your trained
+
+1025
+01:12:17,000 --> 01:12:21,000
+ book model, okay, right, so we will not go into some of these details, so
+
+1026
+01:12:21,000 --> 01:12:25,000
+ each of these diagram here is just showing some of the
+
+1027
+01:12:25,000 --> 01:12:29,000
+ downstream tasks, how you define it, okay, probably
+
+1028
+01:12:29,000 --> 01:12:33,000
+ I'll just take one more, for example, one of these is a sentiment analysis, so if you
+
+1029
+01:12:33,000 --> 01:12:37,000
+ present an input sentence, right, your output here, see
+
+1030
+01:12:37,000 --> 01:12:41,000
+ here, you train a network to classify whether, what kind of sentiment
+
+1031
+01:12:41,000 --> 01:12:45,000
+ this sentence is, is it positive, negative, or neutral,
+
+1032
+01:12:45,000 --> 01:12:49,000
+ right, so you just train a small network here to do the prediction, okay,
+
+1033
+01:12:49,000 --> 01:12:53,000
+ so others I will probably would not go into it.
+
+1034
+01:13:01,000 --> 01:13:05,000
+ All right, okay, so it's a piece to say that, you know, at the
+
+1035
+01:13:05,000 --> 01:13:09,000
+ time when it was proposed, actually this book that will actually outperform
+
+1036
+01:13:09,000 --> 01:13:13,000
+ many other different networks at the time, right,
+
+1037
+01:13:13,000 --> 01:13:17,000
+ okay, so we have actually looked at the,
+
+1038
+01:13:17,000 --> 01:13:21,000
+ just now the book, next we are going to look at GPT, so
+
+1039
+01:13:21,000 --> 01:13:25,000
+ generative between transformer, right, so this is the, in the, like, the early
+
+1040
+01:13:25,000 --> 01:13:29,000
+ stage of GPT, of us we know that GPT have gone through many different iterations,
+
+1041
+01:13:29,000 --> 01:13:33,000
+ right, okay, so this diagram again, so
+
+1042
+01:13:33,000 --> 01:13:37,000
+ earlier we have already looked at book, so this is focusing on representation,
+
+1043
+01:13:37,000 --> 01:13:41,000
+ so next we'll look at the GPT, which is focusing on the generation,
+
+1044
+01:13:41,000 --> 01:13:45,000
+ right, so the basic idea of GPT, actually we
+
+1045
+01:13:45,000 --> 01:13:49,000
+ have already studied before, which is, you know, during the training, right, you just
+
+1046
+01:13:49,000 --> 01:13:53,000
+ want to use, you know, okay, so when you take the text for the
+
+1047
+01:13:53,000 --> 01:13:57,000
+ scopers, you already have structures of different works, yeah, you have different works here,
+
+1048
+01:13:57,000 --> 01:14:01,000
+ so the GPT idea is very simple, you just use the current
+
+1049
+01:14:01,000 --> 01:14:05,000
+ works that have been generated, okay, for example you have a few generated works, you
+
+1050
+01:14:05,000 --> 01:14:09,000
+ put into your decoder and then you try to predict what is the
+
+1051
+01:14:09,000 --> 01:14:13,000
+ next work that is going to come out, okay, so that's the basic
+
+1052
+01:14:13,000 --> 01:14:17,000
+ ideas of the GPT, yeah, so GPT is an AI
+
+1053
+01:14:17,000 --> 01:14:21,000
+ model, right, okay, it's trained on a vast amount of
+
+1054
+01:14:21,000 --> 01:14:25,000
+ text, right, okay, so elaboration, self-supervised
+
+1055
+01:14:25,000 --> 01:14:29,000
+ learning, just like what I mentioned before, because the information that
+
+1056
+01:14:29,000 --> 01:14:33,000
+ you obtain already contain this superficially information, because you already
+
+1057
+01:14:33,000 --> 01:14:37,000
+ have, you know, the structure of the works, so you can use, you know,
+
+1058
+01:14:37,000 --> 01:14:41,000
+ the works that you obtain from the scopers, any
+
+1059
+01:14:41,000 --> 01:14:45,000
+ coppers to do the training without any external annotator here,
+
+1060
+01:14:45,000 --> 01:14:49,000
+ right, so you leverage self-supervised learning to train large amount,
+
+1061
+01:14:49,000 --> 01:14:53,000
+ to use large amount unlabeled data to train
+
+1062
+01:14:53,000 --> 01:14:57,000
+ your large language model, right, so it can be used for many tasks like generation,
+
+1063
+01:14:57,000 --> 01:15:01,000
+ translation and so on, right, it's focusing on the
+
+1064
+01:15:01,000 --> 01:15:05,000
+ transformed decoder expects here, right, so the coppers that used to do
+
+1065
+01:15:05,000 --> 01:15:09,000
+ the training, for example Wikipedia coppers, right, so
+
+1066
+01:15:09,000 --> 01:15:13,000
+ the pre-training is quite simple, right, it's pretty much as I
+
+1067
+01:15:13,000 --> 01:15:17,000
+ mentioned during the transformer, which is you try, even some
+
+1068
+01:15:17,000 --> 01:15:21,000
+ works that you have already predicted, use it to predict the next work,
+
+1069
+01:15:21,000 --> 01:15:25,000
+ right, so once you predict the next work, right, and then use the following to predict the flowing
+
+1070
+01:15:25,000 --> 01:15:29,000
+ works, yeah, so this is what we mentioned before, a few times
+
+1071
+01:15:29,000 --> 01:15:33,000
+ we explained about the transformer, so you try to predict the next
+
+1072
+01:15:33,000 --> 01:15:37,000
+ token or works from the previous sequence of tokens that you have predicted
+
+1073
+01:15:37,000 --> 01:15:41,000
+ so far, okay, right, so this is the general
+
+1074
+01:15:41,000 --> 01:15:45,000
+ pre-training, so for the fine-tuning stage, once you have actually
+
+1075
+01:15:45,000 --> 01:15:49,000
+ you know, have a pre-trained GPT
+
+1076
+01:15:49,000 --> 01:15:53,000
+ model, you can then actually use it to do the fine-tuning,
+
+1077
+01:15:53,000 --> 01:15:57,000
+ so for the fine-tuning what you can do is that you can come up with some task-specific
+
+1078
+01:15:57,000 --> 01:16:01,000
+ prompts, okay, for the model to learn, yeah, so once you have for example a trained
+
+1079
+01:16:01,000 --> 01:16:05,000
+ GPT here, you can ask it some questions, for example
+
+1080
+01:16:05,000 --> 01:16:09,000
+ the case that we mentioned before is the factory
+
+1081
+01:16:09,000 --> 01:16:13,000
+ suppose you have a GPT which is initially trained for a
+
+1082
+01:16:13,000 --> 01:16:17,000
+ broad-based kind of application, but now you have a company which says that
+
+1083
+01:16:17,000 --> 01:16:21,000
+ I don't really care so much about the general GPT, I want you to be able to
+
+1084
+01:16:21,000 --> 01:16:25,000
+ develop a model that can answer the questions for the operations of
+
+1085
+01:16:25,000 --> 01:16:29,000
+ my factory, yeah, so what you can do then is that you can take this pre-trained
+
+1086
+01:16:29,000 --> 01:16:33,000
+ model, right, okay, so you can, during the fine-tuning
+
+1087
+01:16:33,000 --> 01:16:37,000
+ what you can do is that you can ask some specific questions for your
+
+1088
+01:16:37,000 --> 01:16:41,000
+ operations of factory, for example how do I fix this machine A,
+
+1089
+01:16:41,000 --> 01:16:45,000
+ so how do I fix this machine A, you can then put in as a prompt
+
+1090
+01:16:45,000 --> 01:16:49,000
+ and then your output here would be your target answer
+
+1091
+01:16:49,000 --> 01:16:53,000
+ from your manual, for example in your company or in your factory you have
+
+1092
+01:16:53,000 --> 01:16:57,000
+ some, you know with this question you have a standard answer, right, so you can
+
+1093
+01:16:57,000 --> 01:17:01,000
+ then present the standard answer and then you can then fine-tune your network
+
+1094
+01:17:01,000 --> 01:17:05,000
+ here, right, your pre-trained model already, yeah, you can
+
+1095
+01:17:05,000 --> 01:17:09,000
+ either, you know, you can either fine-tune the whole model or you
+
+1096
+01:17:09,000 --> 01:17:13,000
+ can use techniques such as we have mentioned before like the adapter to only
+
+1097
+01:17:13,000 --> 01:17:17,000
+ train a small network to do the fine-tuning, okay, but the general
+
+1098
+01:17:17,000 --> 01:17:21,000
+ idea is this, yeah, so during the fine-tuning you can use some
+
+1099
+01:17:21,000 --> 01:17:25,000
+ task-specific prompt, right, depending on your use case, right, you
+
+1100
+01:17:25,000 --> 01:17:29,000
+ can use your target output and then you can train your network by, for example, introducing
+
+1101
+01:17:29,000 --> 01:17:33,000
+ some adapter to do that, okay,
+
+1102
+01:17:33,000 --> 01:17:37,000
+ so right, therefore, right, so this part here summarized what we have
+
+1103
+01:17:37,000 --> 01:17:41,000
+ mentioned before, right, so in terms of the recent developments of the
+
+1104
+01:17:41,000 --> 01:17:45,000
+ LLM, so first we have the BERT-based series which is a
+
+1105
+01:17:45,000 --> 01:17:49,000
+ representation and some variation arising of it, we also
+
+1106
+01:17:49,000 --> 01:17:53,000
+ have those models that focus on the generation, especially GPT series,
+
+1107
+01:17:53,000 --> 01:17:57,000
+ okay, and then there's also some model which is
+
+1108
+01:17:57,000 --> 01:18:01,000
+ actually training jointly between the transformer and
+
+1109
+01:18:01,000 --> 01:18:05,000
+ decoder, okay, for example, T5, so you have three broad categories
+
+1110
+01:18:05,000 --> 01:18:09,000
+ of the LLM architecture, one is focusing on the encoder
+
+1111
+01:18:09,000 --> 01:18:13,000
+ only, such as BERT, alright, okay, so
+
+1112
+01:18:13,000 --> 01:18:17,000
+ just now, for example, BERT we already covered, for the pre-training the focus on
+
+1113
+01:18:17,000 --> 01:18:21,000
+ mass language modeling or next sentence prediction, so
+
+1114
+01:18:21,000 --> 01:18:25,000
+ it is good for classification types of application, so the second
+
+1115
+01:18:25,000 --> 01:18:29,000
+ class of the AI model focusing on the decoder side of the
+
+1116
+01:18:29,000 --> 01:18:33,000
+ transformer only, which is for generation, such as GPT, so
+
+1117
+01:18:33,000 --> 01:18:37,000
+ they are training, pre-training mainly focus on the next work or token
+
+1118
+01:18:37,000 --> 01:18:41,000
+ prediction, right, so it's good for generalization tasks
+
+1119
+01:18:41,000 --> 01:18:45,000
+ okay, and generally speaking for this GPT actually
+
+1120
+01:18:45,000 --> 01:18:49,000
+ it can achieve better generalization after the pre-train
+
+1121
+01:18:49,000 --> 01:18:53,000
+ okay, there are also some AI models that look at both
+
+1122
+01:18:53,000 --> 01:18:57,000
+ the encoder and transformer training of them together, right, such as
+
+1123
+01:18:57,000 --> 01:19:01,000
+ T5, T5 refers to text to text transfer transformer
+
+1124
+01:19:01,000 --> 01:19:05,000
+ okay, right, so the pre-training is that you provide some
+
+1125
+01:19:05,000 --> 01:19:09,000
+ input as a text and then you use some output as a text as well, for example
+
+1126
+01:19:09,000 --> 01:19:13,000
+ the most common one is language translation, your English, your input
+
+1127
+01:19:13,000 --> 01:19:17,000
+ could be French and your output is English, so this, no, for
+
+1128
+01:19:17,000 --> 01:19:21,000
+ this model you'll be training your transformer as your encoder
+
+1129
+01:19:21,000 --> 01:19:25,000
+ and the decoder at the same time, so therefore it can also
+
+1130
+01:19:25,000 --> 01:19:29,000
+ be involving the encoder and decoder training together
+
+1131
+01:19:29,000 --> 01:19:33,000
+ as well, so this type of task is suitable for applications such as
+
+1132
+01:19:33,000 --> 01:19:37,000
+ machine translation
+
+1133
+01:19:37,000 --> 01:19:41,000
+ okay, so with that, next let's move on to some well-known LLM here
+
+1134
+01:19:41,000 --> 01:19:45,000
+ right, okay, so there are quite a number of well-known LLM
+
+1135
+01:19:45,000 --> 01:19:51,000
+ probably the most famous one is GPT, so GPT4O is one of the recent one but
+
+1136
+01:19:51,000 --> 01:19:55,000
+ not the newest one because it gets come out so quickly, so
+
+1137
+01:19:55,000 --> 01:20:01,000
+ GPT4O right, is one of the well-known LLM models, so it's right, so we'll just
+
+1138
+01:20:01,000 --> 01:20:05,000
+ go through the facture information quickly, so it's developed by OpenAI
+
+1139
+01:20:05,000 --> 01:20:11,000
+ so you can see the number of parameters, more than 175 billion, so it's a very big model
+
+1140
+01:20:11,000 --> 01:20:15,000
+ right, you can access it through API call, so you call this
+
+1141
+01:20:15,000 --> 01:20:19,000
+ your batch processor data, you call the API and then you return the result
+
+1142
+01:20:19,000 --> 01:20:23,000
+ if you want to run it for your experiment, okay, it released in May 24th
+
+1143
+01:20:23,000 --> 01:20:27,000
+ right, so there's a previous iterations of the GPT,
+
+1144
+01:20:27,000 --> 01:20:31,000
+ alright, okay, so it has stronger multimodal capability now
+
+1145
+01:20:31,000 --> 01:20:35,000
+ okay, and it can also respond in real time, I mean for those
+
+1146
+01:20:35,000 --> 01:20:39,000
+ of you who have seen the video before, you can see it's quite, it responds very quickly
+
+1147
+01:20:39,000 --> 01:20:45,000
+ right, okay, so another popular M that we have is LLMA, LLMA3
+
+1148
+01:20:45,000 --> 01:20:50,000
+ right, it's actually a more recent version as well, so it's developed by Meta
+
+1149
+01:20:50,000 --> 01:20:55,000
+ alright, which is the company by Facebook and Instagram, so the parameter again
+
+1150
+01:20:55,000 --> 01:21:00,000
+ you can see is very big, okay, there's a few different version, right, with large number of parameters
+
+1151
+01:21:00,000 --> 01:21:04,000
+ right, so one good thing about LLMA is open access, that means you can actually download it
+
+1152
+01:21:04,000 --> 01:21:09,000
+ and you can try out for your own experiment, okay, released in April 24th
+
+1153
+01:21:09,000 --> 01:21:14,000
+ right, so there's a previous iteration, so the performance is probably as good
+
+1154
+01:21:14,000 --> 01:21:20,000
+ as GPT for, but it's at a lower cost, right, so you can install it on your local system
+
+1155
+01:21:20,000 --> 01:21:25,000
+ right, yeah, so which is good, and also it partially
+
+1156
+01:21:25,000 --> 01:21:31,000
+ address the privacy concern because you can download the model, you can actually do the training
+
+1157
+01:21:31,000 --> 01:21:36,000
+ in your local machine, so you don't always have to upload your data through the cloud
+
+1158
+01:21:36,000 --> 01:21:41,000
+ right, because there are some privacy concerns, okay, so it's actually ideal for AI researcher
+
+1159
+01:21:41,000 --> 01:21:46,000
+ to do this performance, right, you can adapt it right, as well as open source
+
+1160
+01:21:46,000 --> 01:21:51,000
+ right, so therefore LLMA is actually quite popular open source LLMA model
+
+1161
+01:21:51,000 --> 01:21:57,000
+ right, the other one is a Germany which is by Google, right, so I think these are some
+
+1162
+01:21:57,000 --> 01:22:03,000
+ factual information, there's a few different variations, right, okay, released in April 24th
+
+1163
+01:22:03,000 --> 01:22:08,000
+ right, previously it's known as BAC, right, but they rename it into this Germany
+
+1164
+01:22:08,000 --> 01:22:15,000
+ right, okay, so there's a few different models for different use cases, right, it can handle various things
+
+1165
+01:22:15,000 --> 01:22:22,000
+ like image, audio, voice and so on, right, okay, so next we'll just look at chat GPT a little bit more
+
+1166
+01:22:22,000 --> 01:22:29,000
+ right, so this chat GPT 4.0 right, is for a more natural human computer interaction
+
+1167
+01:22:29,000 --> 01:22:36,000
+ right, so your input can now be not just voice, it can be text, it can be image, it can be video and so on
+
+1168
+01:22:36,000 --> 01:22:44,000
+ right, likewise the output can also be that, not just simply no text, it can be text, it can be image, it can be so on
+
+1169
+01:22:44,000 --> 01:22:51,000
+ right, okay, so it's a single end-to-end model that handle different modality, you can see that the response time is quite fast
+
+1170
+01:22:51,000 --> 01:22:57,000
+ that's why for those of you who have seen the demo before, it's as if you're talking to another person
+
+1171
+01:22:57,000 --> 01:23:08,000
+ right, actually I've seen some video on Xiao Hongsu before, they put two models of the GPT and then they're talking to each other
+
+1172
+01:23:08,000 --> 01:23:16,000
+ which is actually, I think probably some of you have seen before, which is quite interesting, it's like two person talking nonsense
+
+1173
+01:23:16,000 --> 01:23:19,000
+ but actually it makes sense as well, they're talking to each other
+
+1174
+01:23:19,000 --> 01:23:25,000
+ right, okay, so it improves on other non-English language, that means you can handle other languages as well
+
+1175
+01:23:25,000 --> 01:23:32,000
+ okay, so it's quite good, right, achieve good vision and audio understanding
+
+1176
+01:23:32,000 --> 01:23:42,000
+ right, okay, so for those of you who have not seen some of this, the capability of GPT 4.0, here I'll just play you a few short video clips
+
+1177
+01:23:42,000 --> 01:23:51,000
+ to let you be impressed by currently what GPT can do, right, or overall this LLM and foundation model can do
+
+1178
+01:23:51,000 --> 01:23:54,000
+ so let me just play the video
+
+1179
+01:23:54,000 --> 01:24:01,000
+ hey, so guess what, I've got a huge interview coming up and I really would love your help preparing for it
+
+1180
+01:24:01,000 --> 01:24:09,000
+ that's fantastic news, I'd be thrilled to help you get ready, what's the interview for and how can we start preparing?
+
+1181
+01:24:09,000 --> 01:24:16,000
+ it's a software engineering role and I was thinking you could do kind of a rapid-fire mock interview
+
+1182
+01:24:16,000 --> 01:24:21,000
+ okay, maybe let me just input the cat fit
+
+1183
+01:24:21,000 --> 01:24:26,000
+ maybe ask me three questions and at the end you can give me some feedback
+
+1184
+01:24:26,000 --> 01:24:36,000
+ great idea, let's dive straight in, first question, can you tell me about a challenging technical problem you solved in your previous projects and how you approached it?
+
+1185
+01:24:36,000 --> 01:24:42,000
+ yeah, well at my previous company we were developing an app, originally it was on one platform
+
+1186
+01:24:42,000 --> 01:24:49,000
+ but then when we supported another platform we had to find a way to synchronize the data across both platforms
+
+1187
+01:24:49,000 --> 01:25:01,000
+ so we had to build a synchronization engine to handle that and we ended up open sourcing it and it was useful for a lot of other projects
+
+1188
+01:25:01,000 --> 01:25:07,000
+ that sounds like a really impactful project, especially since it went open sourcing benefited others
+
+1189
+01:25:07,000 --> 01:25:14,000
+ now for the second question, how do you typically approach learning a new programming language or technology?
+
+1190
+01:25:14,000 --> 01:25:21,000
+ yeah, it's a great question, I think the best way to learn any new technology is to just start using it
+
+1191
+01:25:21,000 --> 01:25:29,000
+ starting with small projects and building up from there, I think I've learned a lot that way
+
+1192
+01:25:29,000 --> 01:25:35,000
+ hands-on experience is definitely a solid approach, now for the third and final
+
+1193
+01:25:35,000 --> 01:25:37,000
+ go on
+
+1194
+01:25:37,000 --> 01:25:43,000
+ sure thing, how do you handle tight deadlines or pressure when working on a project?
+
+1195
+01:25:43,000 --> 01:25:54,000
+ I think the key there is prioritization, you know I think taking the time up front to be really clear about what's important and what can wait will make a big difference
+
+1196
+01:25:54,000 --> 01:26:01,000
+ absolutely, prioritizing tasks effectively can make a huge difference under tight deadlines, great answers
+
+1197
+01:26:01,000 --> 01:26:06,000
+ your responses show a solid mix of technical skill and thoughtful approach
+
+1198
+01:26:06,000 --> 01:26:12,000
+ for feedback, I'd say you did an excellent job concisely explaining your experiences and approach
+
+1199
+01:26:12,000 --> 01:26:17,000
+ just remember to keep your examples as relevant as possible to the job you're applying for
+
+1200
+01:26:17,000 --> 01:26:20,000
+ anything else you'd like to practice or go over?
+
+1201
+01:26:21,000 --> 01:26:28,000
+ no, I think that's it but any other constructive feedback, I want to really make sure I'm ready here
+
+1202
+01:26:28,000 --> 01:26:35,000
+ you've got a strong foundation and I can see your thoughtful and your responses, just a couple of things to find too
+
+1203
+01:26:35,000 --> 01:26:41,000
+ first, in your answers, try to weave in specific examples that highlight your skills and achievements
+
+1204
+01:26:41,000 --> 01:26:48,000
+ especially those relevant to the job you're applying for, this will make your responses more memorable and impactful
+
+1205
+01:26:48,000 --> 01:26:58,000
+ second, be concise but thorough, it's a balancing act but the goal is to give enough detail to be informative without overloading the interviewer with information
+
+1206
+01:26:58,000 --> 01:27:05,000
+ I see, I see, anything about my body language, was my delivery okay?
+
+1207
+01:27:05,000 --> 01:27:13,000
+ your body language was generally positive and engaging, you maintained good eye contact and seemed attentive which is great
+
+1208
+01:27:13,000 --> 01:27:20,000
+ one note though, try to avoid touching your face too much, it can be distracting and might give off signs of nervousness
+
+1209
+01:27:20,000 --> 01:27:25,000
+ overall, you came across as thoughtful and focused which is exactly what you want
+
+1210
+01:27:25,000 --> 01:27:28,000
+ okay, I think I'm ready, thank you
+
+1211
+01:27:28,000 --> 01:27:31,000
+ hey, I'm writing a story, I'm gonna...
+
+1212
+01:27:31,000 --> 01:27:38,000
+ okay, so you can see currently you can use as a tool to really help you to rehearse for interview
+
+1213
+01:27:38,000 --> 01:27:46,000
+ you can also have this particular vision, kind of thing to see whether you're facial expressions, whether you appear to be confident and so on
+
+1214
+01:27:46,000 --> 01:27:54,000
+ so it's actually quite good nowadays, I think as most of you probably already know
+
+1215
+01:27:54,000 --> 01:27:56,000
+ and I want you to see something like...
+
+1216
+01:27:56,000 --> 01:28:03,000
+ okay, so the next one is actually, you can also use GPT to solve some maths problem
+
+1217
+01:28:03,000 --> 01:28:09,000
+ right, so probably this one I also played, but the rest probably I'll just let you...
+
+1218
+01:28:09,000 --> 01:28:14,000
+ hey, I invited myself and my son Imran here to try out some of their new technology
+
+1219
+01:28:14,000 --> 01:28:20,000
+ so we're curious about how good it might be at tutoring someone in math on Khan Academy
+
+1220
+01:28:20,000 --> 01:28:25,000
+ so let's get it started, it's loading up
+
+1221
+01:28:25,000 --> 01:28:28,000
+ alright, we sure can see our screen
+
+1222
+01:28:28,000 --> 01:28:31,000
+ actually, in this form...
+
+1223
+01:28:31,000 --> 01:28:38,000
+ hello there, I'm here with my son and I'd love you to tutor him on this math problem
+
+1224
+01:28:38,000 --> 01:28:42,000
+ but don't give him the answer, you can ask questions and nudge him in the right direction
+
+1225
+01:28:42,000 --> 01:28:45,000
+ but I really want to make sure he understands it himself
+
+1226
+01:28:45,000 --> 01:28:48,000
+ and he's here in the room so you can talk to him directly
+
+1227
+01:28:48,000 --> 01:28:51,000
+ of course, I'd be happy to help
+
+1228
+01:28:51,000 --> 01:28:54,000
+ let's look at the problems together
+
+1229
+01:28:54,000 --> 01:29:05,000
+ can you first identify which sides of the triangle are the opposite adjacent antipotenuse relative to angle alpha?
+
+1230
+01:29:05,000 --> 01:29:10,000
+ alright, so I'm pretty sure this is the angle alpha right here, right?
+
+1231
+01:29:10,000 --> 01:29:12,000
+ ficked, current's cracked
+
+1232
+01:29:12,000 --> 01:29:17,000
+ now, looking at the triangle, which side do you think is the hypotenuse?
+
+1233
+01:29:17,000 --> 01:29:19,000
+ um...
+
+1234
+01:29:19,000 --> 01:29:21,000
+ remember the hypotenuse?
+
+1235
+01:29:21,000 --> 01:29:28,000
+ I'm not totally sure, I think it might be this one but I really am not sure, this side AC
+
+1236
+01:29:28,000 --> 01:29:35,000
+ you're close, actually side AC is called the adjacent side to the angle alpha
+
+1237
+01:29:35,000 --> 01:29:42,000
+ the hypotenuse is the longest side of a right triangle and is directly opposite the right angle
+
+1238
+01:29:42,000 --> 01:29:44,000
+ can you find which one is the hypotenuse?
+
+1239
+01:29:44,000 --> 01:29:51,000
+ oh, okay, I see, so I think the hypotenuse is this really long side from A to B
+
+1240
+01:29:51,000 --> 01:29:52,000
+ would that be correct?
+
+1241
+01:29:52,000 --> 01:29:55,000
+ exactly, well done
+
+1242
+01:29:55,000 --> 01:30:02,000
+ now that you've identified the hypotenuse, can you identify which side is the opposite side to angle alpha?
+
+1243
+01:30:02,000 --> 01:30:06,000
+ okay, well, I mean you told me earlier that this was the adjacent side
+
+1244
+01:30:06,000 --> 01:30:12,000
+ and I know that's the hypotenuse so I'm guessing that this side BC is the opposite side
+
+1245
+01:30:13,000 --> 01:30:16,000
+ great, the dexon, that's absolutely correct
+
+1246
+01:30:16,000 --> 01:30:19,000
+ now that you've identified all the sides, relative...
+
+1247
+01:30:19,000 --> 01:30:25,000
+ okay, so I guess from the short video clip you already can sense that nowadays they are really good
+
+1248
+01:30:25,000 --> 01:30:33,000
+ they can handle, no, this not just language, they can handle vision, they can handle codes and many different aspects
+
+1249
+01:30:33,000 --> 01:30:35,000
+ right?
+
+1250
+01:30:36,000 --> 01:30:38,000
+ angle alpha
+
+1251
+01:30:43,000 --> 01:30:46,000
+ alright, okay, so the next video is about coding
+
+1252
+01:30:46,000 --> 01:30:56,000
+ so again, I'll just play a short segment of the clip and then just give a few about what it can do as a coding assistant
+
+1253
+01:30:56,000 --> 01:31:00,000
+ so let me take out a computer for this
+
+1254
+01:31:04,000 --> 01:31:09,000
+ okay, so I'm gonna open the chatGPT desktop app like Mira was talking about before
+
+1255
+01:31:10,000 --> 01:31:17,000
+ okay, and to give a bit of background of what's going on, so here we have a computer and on the screen we have some code
+
+1256
+01:31:17,000 --> 01:31:19,000
+ and then the chatGPT voice app is on the right
+
+1257
+01:31:19,000 --> 01:31:23,000
+ so chatGPT will be able to hear me but it can't see anything on the screen
+
+1258
+01:31:23,000 --> 01:31:27,000
+ so I'm gonna highlight the code, command see it and then that will send it to chatGPT
+
+1259
+01:31:27,000 --> 01:31:30,000
+ and then I'm gonna talk about the code to chatGPT
+
+1260
+01:31:30,000 --> 01:31:32,000
+ hey chatGPT
+
+1261
+01:31:32,000 --> 01:31:34,000
+ hey there, how's it going?
+
+1262
+01:31:34,000 --> 01:31:38,000
+ yeah, it's going really well, I was wondering if you could help me with a coding problem today
+
+1263
+01:31:38,000 --> 01:31:41,000
+ of course, I'd love to help you out
+
+1264
+01:31:41,000 --> 01:31:43,000
+ what's the coding problem you're dealing with?
+
+1265
+01:31:43,000 --> 01:31:46,000
+ okay, I'm gonna share with you some code, one second
+
+1266
+01:31:46,000 --> 01:31:48,000
+ sure thing, take your time
+
+1267
+01:31:51,000 --> 01:31:53,000
+ okay, so I just shared some code with you
+
+1268
+01:31:53,000 --> 01:31:57,000
+ could you give me a really brief one sentence description of what's going on in the code?
+
+1269
+01:31:57,000 --> 01:32:02,000
+ this code fetches daily weather data for a specific location and time period
+
+1270
+01:32:02,000 --> 01:32:05,000
+ smooths the temperature data using a rolling average
+
+1271
+01:32:05,000 --> 01:32:09,000
+ annotates a significant weather event on the resulting plot
+
+1272
+01:32:09,000 --> 01:32:14,000
+ and then displays the plot with the average, minimum and maximum temperatures over the year
+
+1273
+01:32:14,000 --> 01:32:16,000
+ awesome, thanks so much
+
+1274
+01:32:16,000 --> 01:32:18,000
+ and in the code there's this function foo
+
+1275
+01:32:18,000 --> 01:32:22,000
+ can you describe to me what the plot would look like if I had versus didn't have this function?
+
+1276
+01:32:22,000 --> 01:32:29,000
+ sure, the function foo xy takes in a data frame x containing temperature data
+
+1277
+01:32:29,000 --> 01:32:33,000
+ and a window size y for calculating the rolling mean
+
+1278
+01:32:33,000 --> 01:32:39,000
+ it smooths the average temperature, minimum temperature and maximum temperature columns
+
+1279
+01:32:39,000 --> 01:32:43,000
+ by applying a rolling mean over the specified window
+
+1280
+01:32:43,000 --> 01:32:47,000
+ with the foo function, the plot would show smoother temperature lines
+
+1281
+01:32:47,000 --> 01:32:52,000
+ because the rolling mean reduces the noise or fluctuations in the data
+
+1282
+01:32:52,000 --> 01:32:56,000
+ awesome, thanks so much, so yeah, I definitely will want to apply this function
+
+1283
+01:32:56,000 --> 01:33:00,000
+ and so I'm gonna generate the plot and then show it to you, give me one second
+
+1284
+01:33:01,000 --> 01:33:05,000
+ absolutely, take your time, I'm excited to see the plot when you're ready
+
+1285
+01:33:05,000 --> 01:33:08,000
+ yeah, so so far chatGPT has only been able to see the code
+
+1286
+01:33:08,000 --> 01:33:11,000
+ and now I'm gonna run it and then I'll use the vision capability
+
+1287
+01:33:11,000 --> 01:33:15,000
+ okay, so again from this statement video you can see that right now
+
+1288
+01:33:15,000 --> 01:33:20,000
+ this note is actually progressing by lips and bounce very quickly
+
+1289
+01:33:20,000 --> 01:33:22,000
+ these are the chatGPT
+
+1290
+01:33:23,000 --> 01:33:30,000
+ okay, so in addition to that you can also use any of this
+
+1291
+01:33:30,000 --> 01:33:33,000
+ foundation model to do a text to image generation
+
+1292
+01:33:33,000 --> 01:33:37,000
+ just provide some text, right, it can generate various kind of image
+
+1293
+01:33:37,000 --> 01:33:42,000
+ and even now this, you can start to generate videos like some of you probably heard about the Sora
+
+1294
+01:33:42,000 --> 01:33:44,000
+ a few months ago, yeah
+
+1295
+01:33:44,000 --> 01:33:50,000
+ okay, so this slide shows the performance of some of the popular LLM models
+
+1296
+01:33:50,000 --> 01:33:55,000
+ right, so you can see for different tasks and then for different LLM models
+
+1297
+01:33:55,000 --> 01:33:58,000
+ yeah, they are performing actually quite well
+
+1298
+01:33:58,000 --> 01:34:02,000
+ okay, and then next we'll look at some of the emerging train
+
+1299
+01:34:02,000 --> 01:34:09,000
+ so yeah, so this is the more recent versions of the, this is the open AI model called O1
+
+1300
+01:34:09,000 --> 01:34:12,000
+ right, so it can be used to do some reasoning, coding again
+
+1301
+01:34:12,000 --> 01:34:19,000
+ so again I'll play a short segment of this more recent versions of open AI models to perform reasoning
+
+1302
+01:34:21,000 --> 01:34:27,000
+ the first of the problem I would like to show is an interesting like common sense reasoning thing
+
+1303
+01:34:27,000 --> 01:34:32,000
+ that all the previous type of LLM models didn't do that great
+
+1304
+01:34:32,000 --> 01:34:38,000
+ which is about physics and about physical objects in the relationship
+
+1305
+01:34:38,000 --> 01:34:42,000
+ the problem reads assuming the laws of physics on Earth
+
+1306
+01:34:42,000 --> 01:34:47,000
+ a small strawberry is put in a normal cup and the cup is placed upside down on a table
+
+1307
+01:34:47,000 --> 01:34:50,000
+ someone then takes the cup and puts it inside the microwave
+
+1308
+01:34:50,000 --> 01:34:53,000
+ where is the strawberry and explains the reasoning behind it
+
+1309
+01:34:53,000 --> 01:34:57,000
+ it's a simple problem every human will know straight away what is the answer
+
+1310
+01:34:57,000 --> 01:35:01,000
+ but it's something that language models are struggling a little bit
+
+1311
+01:35:01,000 --> 01:35:04,000
+ and then we can see how does this model do it
+
+1312
+01:35:04,000 --> 01:35:11,000
+ and you can also like a little bit have a glimpse on what is happening in the head of the model
+
+1313
+01:35:11,000 --> 01:35:16,000
+ and we also get a pretty nice answer of like you know what happened
+
+1314
+01:35:16,000 --> 01:35:19,000
+ why it happened in this particular scenario
+
+1315
+01:35:19,000 --> 01:35:22,000
+ the model needed to spend a little bit more time thinking about it
+
+1316
+01:35:22,000 --> 01:35:25,000
+ and analyzing what it actually happened there
+
+1317
+01:35:25,000 --> 01:35:29,000
+ the model has a bit of a harder time thinking
+
+1318
+01:35:29,000 --> 01:35:32,000
+ especially about like scenarios involving physical objects
+
+1319
+01:35:32,000 --> 01:35:35,000
+ and you need a little bit more time thinking for that
+
+1320
+01:35:38,000 --> 01:35:42,000
+ okay so it's a short video that talks about open AI reasoning
+
+1321
+01:35:42,000 --> 01:35:44,000
+ the first of the problem
+
+1322
+01:35:47,000 --> 01:35:54,000
+ okay so next one is a short video about a more recent version of the coding
+
+1323
+01:35:54,000 --> 01:35:59,000
+ alright so the example I'm going to show is writing a code for visualization
+
+1324
+01:35:59,000 --> 01:36:02,000
+ so I sometimes teach a class on transformers
+
+1325
+01:36:02,000 --> 01:36:05,000
+ which is a technology behind models like chat pt
+
+1326
+01:36:05,000 --> 01:36:08,000
+ and when you give a sentence to chat pt
+
+1327
+01:36:08,000 --> 01:36:13,000
+ it has to understand the relationship between the words and so on
+
+1328
+01:36:13,000 --> 01:36:16,000
+ so it's a sequence of words and you just have to model that
+
+1329
+01:36:16,000 --> 01:36:20,000
+ and transformers utilize what's called a self-attention to model that
+
+1330
+01:36:20,000 --> 01:36:25,000
+ so I always thought okay if I can visualize a self-attention mechanism
+
+1331
+01:36:25,000 --> 01:36:29,000
+ and with some interactive components to it it would be really great
+
+1332
+01:36:29,000 --> 01:36:32,000
+ I just don't have the skills to do that so let's ask our new model
+
+1333
+01:36:32,000 --> 01:36:34,000
+ O1 Preview to help me out on that
+
+1334
+01:36:34,000 --> 01:36:40,000
+ so I just typed in this command and see how the model does
+
+1335
+01:36:40,000 --> 01:36:43,000
+ so unlike the previous models like GPT-40
+
+1336
+01:36:43,000 --> 01:36:47,000
+ it will think before outputting an answer
+
+1337
+01:36:47,000 --> 01:36:49,000
+ so it started thinking
+
+1338
+01:36:49,000 --> 01:36:52,000
+ as it's thinking let me show you what are some of these requirements
+
+1339
+01:36:52,000 --> 01:36:55,000
+ I'm giving a bunch of requirements to think through
+
+1340
+01:36:55,000 --> 01:36:59,000
+ so first one is like use an example sentence the quick brown fox
+
+1341
+01:36:59,000 --> 01:37:04,000
+ and second one is like when hovering over a token visualizes edges
+
+1342
+01:37:04,000 --> 01:37:07,000
+ whose thickness is proportional to the attention score
+
+1343
+01:37:07,000 --> 01:37:10,000
+ and that means if the two words are more relevant
+
+1344
+01:37:10,000 --> 01:37:12,000
+ then have a thicker edges and so on
+
+1345
+01:37:12,000 --> 01:37:15,000
+ so the one common failure in most of the existing models
+
+1346
+01:37:15,000 --> 01:37:19,000
+ is that when you give a lot of the instructions to follow
+
+1347
+01:37:19,000 --> 01:37:21,000
+ it can miss one of them
+
+1348
+01:37:21,000 --> 01:37:24,000
+ just like humans can miss one of them if you give too many of them at once
+
+1349
+01:37:24,000 --> 01:37:28,000
+ so because this reasoning model can think very slowly and carefully
+
+1350
+01:37:28,000 --> 01:37:31,000
+ it can go through each requirement in depth
+
+1351
+01:37:31,000 --> 01:37:36,000
+ and that reduces the chance of missing the instruction
+
+1352
+01:37:36,000 --> 01:37:42,000
+ so this output code let me copy paste this into a terminal
+
+1353
+01:37:42,000 --> 01:37:47,000
+ so I'm going to use the editor of 2024
+
+1354
+01:37:47,000 --> 01:37:49,000
+ so Vim HTML
+
+1355
+01:37:49,000 --> 01:37:54,000
+ so I'm just going to paste this thing into that
+
+1356
+01:37:54,000 --> 01:37:56,000
+ and save it up
+
+1357
+01:37:56,000 --> 01:38:00,000
+ and on the browser I'll just try to open this up
+
+1358
+01:38:00,000 --> 01:38:05,000
+ and you can see that when I hover over this thing
+
+1359
+01:38:05,000 --> 01:38:07,000
+ it shows the arrows
+
+1360
+01:38:07,000 --> 01:38:10,000
+ and then quick and brown and so on
+
+1361
+01:38:10,000 --> 01:38:12,000
+ and when I hover out of it it goes away
+
+1362
+01:38:12,000 --> 01:38:15,000
+ so that's a correctly rendered version of it
+
+1363
+01:38:15,000 --> 01:38:18,000
+ and when I click on it it shows the attention scores
+
+1364
+01:38:18,000 --> 01:38:20,000
+ as I asked for
+
+1365
+01:38:20,000 --> 01:38:24,000
+ and maybe there's a little bit of rendering like it's overlapping
+
+1366
+01:38:24,000 --> 01:38:27,000
+ but other than that it's actually much better than what I could have done
+
+1367
+01:38:27,000 --> 01:38:29,000
+ yeah so this model did really nicely
+
+1368
+01:38:29,000 --> 01:38:33,000
+ I think this can be a really useful tool for me to come up with a bunch of
+
+1369
+01:38:33,000 --> 01:38:37,000
+ different visualisation tools for my new teaching sessions
+
+1370
+01:38:49,000 --> 01:38:51,000
+ okay so let's continue on as I mentioned
+
+1371
+01:38:51,000 --> 01:38:55,000
+ today we'll probably try to push through all the content
+
+1372
+01:38:55,000 --> 01:38:57,000
+ so that we can have an early dismissal
+
+1373
+01:38:57,000 --> 01:38:59,000
+ rather than having a break in between
+
+1374
+01:38:59,000 --> 01:39:01,000
+ we can probably leave a bit earlier
+
+1375
+01:39:01,000 --> 01:39:06,000
+ so in recent year one emerging trend is that now we are going to put all these
+
+1376
+01:39:06,000 --> 01:39:09,000
+ different aspects to the multi-model
+
+1377
+01:39:09,000 --> 01:39:17,000
+ text, image, video, different kind of sensing modality and so on
+
+1378
+01:39:17,000 --> 01:39:22,000
+ so in recent year this is a very active research area known as a multi-model LOM
+
+1379
+01:39:22,000 --> 01:39:26,000
+ so you can see just in recent year for example 2004
+
+1380
+01:39:26,000 --> 01:39:29,000
+ how many different models has been developed
+
+1381
+01:39:30,000 --> 01:39:33,000
+ so what is a multi-model LOM?
+
+1382
+01:39:33,000 --> 01:39:38,000
+ so it's a model that is capable of understanding on generating different data modality
+
+1383
+01:39:38,000 --> 01:39:41,000
+ text, image, audio, video and so on
+
+1384
+01:39:41,000 --> 01:39:45,000
+ so it will leverage on multi-model input and output
+
+1385
+01:39:45,000 --> 01:39:50,000
+ so both input and output that is working on include different types of modality
+
+1386
+01:39:50,000 --> 01:39:52,000
+ that we have mentioned just now
+
+1387
+01:39:52,000 --> 01:39:56,000
+ and then it also supports cross-model understanding
+
+1388
+01:39:56,000 --> 01:40:02,000
+ for example sometimes if you just simply use a text alone to try to understand image it may not be sufficient
+
+1389
+01:40:02,000 --> 01:40:06,000
+ so you need to have text, you need to have image or video
+
+1390
+01:40:06,000 --> 01:40:09,000
+ to ensure a more complete understanding
+
+1391
+01:40:09,000 --> 01:40:12,000
+ so and also to make sure that across different modality
+
+1392
+01:40:12,000 --> 01:40:17,000
+ the text and the image that align and you can understand them properly
+
+1393
+01:40:17,000 --> 01:40:23,000
+ so cross-model understanding means that you allow the model to link information across different modality
+
+1394
+01:40:23,000 --> 01:40:26,000
+ for example between text and image
+
+1395
+01:40:26,000 --> 01:40:29,000
+ so because now you have a different modality
+
+1396
+01:40:29,000 --> 01:40:32,000
+ so you will be training with a diverse set of data
+
+1397
+01:40:32,000 --> 01:40:35,000
+ text, image and so on
+
+1398
+01:40:35,000 --> 01:40:40,000
+ so further because you are training across different modality, different sensing and so on
+
+1399
+01:40:40,000 --> 01:40:43,000
+ you now will have a more complete understanding
+
+1400
+01:40:43,000 --> 01:40:47,000
+ and context understanding of the content you are trying to look at
+
+1401
+01:40:47,000 --> 01:40:51,000
+ so as opposed to single model approach
+
+1402
+01:40:51,000 --> 01:40:54,000
+ now you have a better model understanding
+
+1403
+01:40:56,000 --> 01:41:03,000
+ so the applications of multi-modal LLM there are a lot of visual question answering
+
+1404
+01:41:03,000 --> 01:41:06,000
+ for example you give an image and you can ask a question
+
+1405
+01:41:06,000 --> 01:41:09,000
+ for example how many cats are there in this image
+
+1406
+01:41:09,000 --> 01:41:11,000
+ or what is the cat doing to the dog
+
+1407
+01:41:11,000 --> 01:41:15,000
+ so give an image, you can ask a question and then they will answer it
+
+1408
+01:41:15,000 --> 01:41:18,000
+ image captioning, give an image you want to generate a caption
+
+1409
+01:41:18,000 --> 01:41:22,000
+ text to image or image to the text generation
+
+1410
+01:41:22,000 --> 01:41:24,000
+ audio visual processing
+
+1411
+01:41:24,000 --> 01:41:26,000
+ so there are many many possible applications
+
+1412
+01:41:26,000 --> 01:41:32,000
+ so some of the multi-modal LLM that you have is
+
+1413
+01:41:32,000 --> 01:41:34,000
+ ChagGPT4 is one of them
+
+1414
+01:41:34,000 --> 01:41:39,000
+ Lava and many others as shown in the figure
+
+1415
+01:41:39,000 --> 01:41:43,000
+ so I will probably just play one last video
+
+1416
+01:41:43,000 --> 01:41:48,000
+ to give kind of a quick introduction of what is this
+
+1417
+01:41:48,000 --> 01:41:51,000
+ an emerging multi-modal LLM
+
+1418
+01:41:54,000 --> 01:41:58,000
+ our network issues slowing down your business growth
+
+1419
+01:41:59,000 --> 01:42:03,000
+ Meta AI is back again with an exciting new model job
+
+1420
+01:42:03,000 --> 01:42:06,000
+ the LLMA DIMIT point 2 model series
+
+1421
+01:42:06,000 --> 01:42:10,000
+ this marks Meta AI's first open source multi-modal model
+
+1422
+01:42:10,000 --> 01:42:12,000
+ and it's available in two variants
+
+1423
+01:42:12,000 --> 01:42:15,000
+ 11 billion and 90 billion parameters
+
+1424
+01:42:15,000 --> 01:42:20,000
+ LLMA 3.2 is actually designed as a drop in replacement for LLMA 3.1
+
+1425
+01:42:20,000 --> 01:42:23,000
+ but its performance surpasses expectations
+
+1426
+01:42:23,000 --> 01:42:28,000
+ current benchmarks show that the LLMA 3.2 is outperforming both
+
+1427
+01:42:28,000 --> 01:42:32,000
+ Claw 3 haiku as well as the GPT4 Omni Mini
+
+1428
+01:42:32,000 --> 01:42:34,000
+ across various benchmark tests
+
+1429
+01:42:34,000 --> 01:42:38,000
+ now the open source community is quickly closing the gap in my opinion
+
+1430
+01:42:38,000 --> 01:42:42,000
+ and it's just great to see because we're slowly seeing these new models
+
+1431
+01:42:42,000 --> 01:42:45,000
+ outpace even closed source models
+
+1432
+01:42:45,000 --> 01:42:48,000
+ these models are optimized for speed and accuracy
+
+1433
+01:42:48,000 --> 01:42:52,000
+ excelling in tasks like image captioning, visual question answering
+
+1434
+01:42:52,000 --> 01:42:54,000
+ and even image text retrieval
+
+1435
+01:42:54,000 --> 01:42:58,000
+ in this demo video you can see that with the LLMA 3.2 model
+
+1436
+01:42:58,000 --> 01:43:02,000
+ analyzing and categorizing data from receipts accurately
+
+1437
+01:43:02,000 --> 01:43:05,000
+ which displays them afterwards in a table
+
+1438
+01:43:05,000 --> 01:43:09,000
+ and this is something where LLMA 3.2 truly shines at
+
+1439
+01:43:09,000 --> 01:43:11,000
+ so essentially they release four models
+
+1440
+01:43:11,000 --> 01:43:15,000
+ you have the featuring vision LLM's
+
+1441
+01:43:15,000 --> 01:43:18,000
+ which are the 11 billion and 90 billion parameter models
+
+1442
+01:43:18,000 --> 01:43:20,000
+ and the lightweight text only models
+
+1443
+01:43:20,000 --> 01:43:24,000
+ which are the 1 billion and 3 billion optimized models
+
+1444
+01:43:24,000 --> 01:43:28,000
+ and they basically are optimized for edge and mobile devices
+
+1445
+01:43:28,000 --> 01:43:33,000
+ and they both actually support 128k tokens
+
+1446
+01:43:33,000 --> 01:43:37,000
+ which is excelling in tasks like summarization and instruction following
+
+1447
+01:43:37,000 --> 01:43:41,000
+ and they're actually optimized for various sorts of processors
+
+1448
+01:43:41,000 --> 01:43:45,000
+ now the LLMA 3.2 vision model surpasses closed source alternatives
+
+1449
+01:43:45,000 --> 01:43:48,000
+ in image understanding which we'll take a look at in a bit
+
+1450
+01:43:48,000 --> 01:43:51,000
+ and it could be fine tuned using torch tune
+
+1451
+01:43:51,000 --> 01:43:55,000
+ and right now it's actually available on Huggingface, demos
+
+1452
+01:43:55,000 --> 01:43:57,000
+ you have it on together, AI
+
+1453
+01:43:57,000 --> 01:43:59,000
+ and you can actually install this locally
+
+1454
+01:43:59,000 --> 01:44:02,000
+ which is something that I'll showcase as we go further into the video
+
+1455
+01:44:02,000 --> 01:44:06,000
+ now during their evaluations they were able to easily showcase
+
+1456
+01:44:06,000 --> 01:44:09,000
+ how the LLMA 3.2 vision models are highly competitive
+
+1457
+01:44:09,000 --> 01:44:13,000
+ with top models like the Cloud3 Haiku model
+
+1458
+01:44:13,000 --> 01:44:15,000
+ as well as the GPT4 Omni Mini
+
+1459
+01:44:15,000 --> 01:44:19,000
+ and you can see that it excels exceptionally well
+
+1460
+01:44:19,000 --> 01:44:22,000
+ in categories like image recognition
+
+1461
+01:44:22,000 --> 01:44:25,000
+ as well as within vision understanding
+
+1462
+01:44:25,000 --> 01:44:28,000
+ the 3 billion parameter model is something that actually
+
+1463
+01:44:28,000 --> 01:44:31,000
+ probably posited here is a bit more technical
+
+1464
+01:44:31,000 --> 01:44:34,000
+ so those of you if you are interested in the emerging trains
+
+1465
+01:44:34,000 --> 01:44:37,000
+ of this multi-model LLMA
+
+1466
+01:44:37,000 --> 01:44:41,000
+ please go ahead to watch the video, the link is already provided in the lecture notes
+
+1467
+01:44:47,000 --> 01:44:51,000
+ right, okay, so therefore for Section 2 actually we covered the flowing introduction
+
+1468
+01:44:51,000 --> 01:44:54,000
+ and we spent some time talking about BERT, GPT
+
+1469
+01:44:54,000 --> 01:44:57,000
+ and then we covered very briefly some well-known LLMA
+
+1470
+01:44:57,000 --> 01:45:00,000
+ and then finally the emerging train
+
+1471
+01:45:00,000 --> 01:45:04,000
+ so for Part 6, right, so these are the two key topics that we covered
+
+1472
+01:45:04,000 --> 01:45:06,000
+ Number 1 is foundation model
+
+1473
+01:45:06,000 --> 01:45:09,000
+ Number 2 is the large language model
+
+1474
+01:45:09,000 --> 01:45:12,000
+ alright, so that will conclude the lectures
+
+1475
+01:45:12,000 --> 01:45:18,000
+ but before I let you go there's a few things I just want to very quickly mention
+
+1476
+01:45:18,000 --> 01:45:20,000
+ right, okay, so
+
+1477
+01:45:20,000 --> 01:45:22,000
+ right, this exam pointer
+
+1478
+01:45:22,000 --> 01:45:24,000
+ actually it's not like I'm going to tell you what
+
+1479
+01:45:24,000 --> 01:45:26,000
+ it's going to come out in the exam
+
+1480
+01:45:26,000 --> 01:45:29,000
+ right, but rather, okay, let me
+
+1481
+01:45:29,000 --> 01:45:32,000
+ yeah, I don't want to disappoint some of you
+
+1482
+01:45:32,000 --> 01:45:36,000
+ but okay, so anyway, these are just kind of things to tell you
+
+1483
+01:45:36,000 --> 01:45:39,000
+ what are the things you should do or what are the things you should not do
+
+1484
+01:45:39,000 --> 01:45:44,000
+ alright, okay, I see that's up the percentage of students who come in today
+
+1485
+01:45:44,000 --> 01:45:46,000
+ seems to be higher than usual
+
+1486
+01:45:46,000 --> 01:45:49,000
+ maybe you are trying to anticipate this part
+
+1487
+01:45:49,000 --> 01:45:52,000
+ but okay, so anyway
+
+1488
+01:45:52,000 --> 01:45:57,000
+ right, let me just give a few quick high-level kind of descriptions
+
+1489
+01:45:57,000 --> 01:46:01,000
+ so far for this course there's two CAs
+
+1490
+01:46:01,000 --> 01:46:04,000
+ right, so CA1 is on homework assignment
+
+1491
+01:46:04,000 --> 01:46:08,000
+ actually I've marked quite a number of the
+
+1492
+01:46:08,000 --> 01:46:10,000
+ this assignment one already
+
+1493
+01:46:10,000 --> 01:46:13,000
+ actually most of you are doing very well
+
+1494
+01:46:13,000 --> 01:46:16,000
+ that's why, because I see that
+
+1495
+01:46:16,000 --> 01:46:19,000
+ for CA1, most of you are doing quite well
+
+1496
+01:46:19,000 --> 01:46:22,000
+ that's why for CA2, I started to be a little bit more tricky
+
+1497
+01:46:22,000 --> 01:46:25,000
+ but as I mentioned in the previous class
+
+1498
+01:46:25,000 --> 01:46:28,000
+ yeah, I received some feedback
+
+1499
+01:46:28,000 --> 01:46:31,000
+ so in terms of marking, I will make it a bit more flexible
+
+1500
+01:46:31,000 --> 01:46:33,000
+ and also I can do some adjustment
+
+1501
+01:46:33,000 --> 01:46:37,000
+ but I've actually marked quite some percentage of the CA2
+
+1502
+01:46:37,000 --> 01:46:39,000
+ which is the quiz already
+
+1503
+01:46:39,000 --> 01:46:41,000
+ so based on those I've marked for birth
+
+1504
+01:46:41,000 --> 01:46:45,000
+ currently I have looked, the average is above 70
+
+1505
+01:46:45,000 --> 01:46:48,000
+ so which is actually considered as quite good already
+
+1506
+01:46:48,000 --> 01:46:51,000
+ it's quite close to last year's average for the CA
+
+1507
+01:46:51,000 --> 01:46:54,000
+ so therefore in short what I'm trying to tell you is that
+
+1508
+01:46:54,000 --> 01:46:56,000
+ don't worry too much about the CA
+
+1509
+01:46:56,000 --> 01:47:01,000
+ right, so actually so far based on the certain percentage of the marking that I've done
+
+1510
+01:47:01,000 --> 01:47:03,000
+ actually the average is above 70
+
+1511
+01:47:03,000 --> 01:47:05,000
+ so therefore I don't think of an issue
+
+1512
+01:47:05,000 --> 01:47:09,000
+ another thing I also probably kind of want to highlight to you
+
+1513
+01:47:09,000 --> 01:47:11,000
+ is that some of you may not know
+
+1514
+01:47:11,000 --> 01:47:16,000
+ actually what happened is that in NTU we have some moderation process
+
+1515
+01:47:16,000 --> 01:47:22,000
+ so what it means is that if the exam and the course is easy
+
+1516
+01:47:22,000 --> 01:47:24,000
+ if the score is very high
+
+1517
+01:47:24,000 --> 01:47:26,000
+ then usually they will try to moderate down
+
+1518
+01:47:26,000 --> 01:47:28,000
+ that means they will reduce the mark
+
+1519
+01:47:28,000 --> 01:47:31,000
+ on the other hand, if a certain course is difficult
+
+1520
+01:47:31,000 --> 01:47:33,000
+ and the average is lower
+
+1521
+01:47:33,000 --> 01:47:36,000
+ then usually during the moderation process
+
+1522
+01:47:36,000 --> 01:47:38,000
+ actually it's organized by school
+
+1523
+01:47:38,000 --> 01:47:41,000
+ will then adjust the mark accordingly
+
+1524
+01:47:41,000 --> 01:47:45,000
+ so therefore usually you don't have to worry too much about the score
+
+1525
+01:47:45,000 --> 01:47:48,000
+ because you will usually do some moderation
+
+1526
+01:47:48,000 --> 01:47:50,000
+ so that your grade is reasonable
+
+1527
+01:47:50,000 --> 01:47:54,000
+ so that part I just want to highlight to you
+
+1528
+01:47:54,000 --> 01:47:57,000
+ because I think maybe a few of you
+
+1529
+01:47:57,000 --> 01:48:00,000
+ not too many but a few of you are a little bit concerned about it
+
+1530
+01:48:00,000 --> 01:48:04,000
+ but I think so far based on what I've seen it's okay
+
+1531
+01:48:04,000 --> 01:48:07,000
+ so the next thing is that in terms of now
+
+1532
+01:48:07,000 --> 01:48:09,000
+ because we are coming to the end
+
+1533
+01:48:09,000 --> 01:48:12,000
+ so we need to start to prepare for the exams
+
+1534
+01:48:12,000 --> 01:48:15,000
+ so for the exams there are four questions
+
+1535
+01:48:15,000 --> 01:48:19,000
+ so these four questions are going to be spread across the whole course
+
+1536
+01:48:19,000 --> 01:48:25,000
+ so for our course, you know that there are two key topics in this course
+
+1537
+01:48:25,000 --> 01:48:28,000
+ the first part is on coding
+
+1538
+01:48:28,000 --> 01:48:30,000
+ which is the image and video coding
+
+1539
+01:48:30,000 --> 01:48:33,000
+ the second part is on video understanding
+
+1540
+01:48:33,000 --> 01:48:35,000
+ so we talk about AI models
+
+1541
+01:48:35,000 --> 01:48:38,000
+ and also some of the subsequent things like
+
+1542
+01:48:38,000 --> 01:48:40,000
+ understanding of the video
+
+1543
+01:48:40,000 --> 01:48:44,000
+ as well as for example what we learn in this foundation model and so on
+
+1544
+01:48:44,000 --> 01:48:48,000
+ actually the coverage, it can fall under all these topics
+
+1545
+01:48:48,000 --> 01:48:52,000
+ okay so and another thing to...
+
+1546
+01:48:52,000 --> 01:48:54,000
+ which is coming to this point here
+
+1547
+01:48:54,000 --> 01:48:58,000
+ because last year, even last semester
+
+1548
+01:48:58,000 --> 01:49:01,000
+ this particular course there was another lecture
+
+1549
+01:49:01,000 --> 01:49:04,000
+ which is there are some visiting lecture
+
+1550
+01:49:04,000 --> 01:49:07,000
+ so last semester actually for this course
+
+1551
+01:49:07,000 --> 01:49:12,000
+ there are some visiting lecture which teach some of the subject which is not examined
+
+1552
+01:49:12,000 --> 01:49:16,000
+ and two semesters before there's actually another lecture
+
+1553
+01:49:16,000 --> 01:49:20,000
+ which teach some other material as well
+
+1554
+01:49:20,000 --> 01:49:23,000
+ so all in all in short what I'm trying to say is that
+
+1555
+01:49:23,000 --> 01:49:26,000
+ so therefore if you look at some past exam questions
+
+1556
+01:49:26,000 --> 01:49:30,000
+ so it may not be exactly the best indicator
+
+1557
+01:49:30,000 --> 01:49:32,000
+ because as I mentioned
+
+1558
+01:49:32,000 --> 01:49:36,000
+ this is actually only the first semester I teach the whole course
+
+1559
+01:49:36,000 --> 01:49:40,000
+ in the past there are always some other lecture which teach some other things
+
+1560
+01:49:40,000 --> 01:49:42,000
+ so in short
+
+1561
+01:49:42,000 --> 01:49:46,000
+ okay for the preparation I would still strongly encourage you
+
+1562
+01:49:46,000 --> 01:49:50,000
+ encourage you to look at the past year exam paper
+
+1563
+01:49:50,000 --> 01:49:53,000
+ but when you look at the past exam paper you can look at the content
+
+1564
+01:49:53,000 --> 01:49:57,000
+ if those questions are something that you feel you have learned before
+
+1565
+01:49:57,000 --> 01:49:59,000
+ then it's likely covered by me
+
+1566
+01:49:59,000 --> 01:50:00,000
+ then it should be okay
+
+1567
+01:50:00,000 --> 01:50:03,000
+ but if you see some question which is totally clueless
+
+1568
+01:50:03,000 --> 01:50:04,000
+ they have never seen it before
+
+1569
+01:50:04,000 --> 01:50:07,000
+ likely it was covered by someone else
+
+1570
+01:50:07,000 --> 01:50:11,000
+ in those cases you can just safely ignore those questions
+
+1571
+01:50:11,000 --> 01:50:15,000
+ so therefore when you refer to the past exam question
+
+1572
+01:50:15,000 --> 01:50:18,000
+ it may not be a fully indicator
+
+1573
+01:50:18,000 --> 01:50:20,000
+ it may not be a perfect indicator
+
+1574
+01:50:20,000 --> 01:50:22,000
+ but you can look at the question
+
+1575
+01:50:22,000 --> 01:50:25,000
+ if those questions are something that you look familiar with
+
+1576
+01:50:25,000 --> 01:50:28,000
+ then those are questions previously stepped by me
+
+1577
+01:50:28,000 --> 01:50:31,000
+ and those are probably something you can refer to
+
+1578
+01:50:31,000 --> 01:50:34,000
+ but if those questions are something totally you have not seen
+
+1579
+01:50:34,000 --> 01:50:36,000
+ then you can ignore them
+
+1580
+01:50:36,000 --> 01:50:40,000
+ so therefore what I'm trying to say is that
+
+1581
+01:50:40,000 --> 01:50:42,000
+ when you refer to past year exam question
+
+1582
+01:50:42,000 --> 01:50:45,000
+ please use it with your own judgement
+
+1583
+01:50:45,000 --> 01:50:49,000
+ because the teaching team and the content has been modified before
+
+1584
+01:50:49,000 --> 01:50:56,000
+ but more importantly is that you can refer to the exercises that are prepared in this course
+
+1585
+01:50:56,000 --> 01:50:59,000
+ those exercises are still important
+
+1586
+01:51:00,000 --> 01:51:03,000
+ so in terms of the exam type questions
+
+1587
+01:51:03,000 --> 01:51:05,000
+ there will be some calculation question
+
+1588
+01:51:05,000 --> 01:51:08,000
+ and there will be some description questions
+
+1589
+01:51:08,000 --> 01:51:11,000
+ so I cannot remember the
+
+1590
+01:51:11,000 --> 01:51:15,000
+ probably it's like around 60-40 that kind of range
+
+1591
+01:51:15,000 --> 01:51:17,000
+ I cannot remember the exact amount
+
+1592
+01:51:17,000 --> 01:51:19,000
+ but there's a good mixture of them
+
+1593
+01:51:19,000 --> 01:51:22,000
+ maybe like 60% calculation
+
+1594
+01:51:22,000 --> 01:51:24,000
+ or 40% description
+
+1595
+01:51:24,000 --> 01:51:26,000
+ something around that I cannot remember the detail
+
+1596
+01:51:26,000 --> 01:51:28,000
+ 50-50 or 60-40
+
+1597
+01:51:28,000 --> 01:51:32,000
+ so therefore there's a reasonable amount of calculation question
+
+1598
+01:51:32,000 --> 01:51:35,000
+ and then there will be some description questions
+
+1599
+01:51:35,000 --> 01:51:37,000
+ so for calculation question
+
+1600
+01:51:37,000 --> 01:51:40,000
+ I think we have gone through some sample example
+
+1601
+01:51:40,000 --> 01:51:42,000
+ in the lecture
+
+1602
+01:51:42,000 --> 01:51:46,000
+ so those are still things you can practice and try out
+
+1603
+01:51:46,000 --> 01:51:50,000
+ but having said that because for exam
+
+1604
+01:51:50,000 --> 01:51:52,000
+ just like actually for the quiz
+
+1605
+01:51:52,000 --> 01:51:55,000
+ the school actually will have a certain expectation on us
+
+1606
+01:51:55,000 --> 01:51:57,000
+ we cannot have everyone doing very well
+
+1607
+01:51:57,000 --> 01:52:00,000
+ because if everyone is doing very well
+
+1608
+01:52:00,000 --> 01:52:03,000
+ the school is going to come and ask me why everyone is doing so well
+
+1609
+01:52:03,000 --> 01:52:06,000
+ then after work they will just press down the mark
+
+1610
+01:52:06,000 --> 01:52:08,000
+ it doesn't make any difference
+
+1611
+01:52:08,000 --> 01:52:12,000
+ but the only problem now is that you cannot differentiate between stronger student
+
+1612
+01:52:12,000 --> 01:52:14,000
+ and probably more average student
+
+1613
+01:52:14,000 --> 01:52:16,000
+ so therefore in short
+
+1614
+01:52:16,000 --> 01:52:18,000
+ what I'm trying to tell you is that for the exam paper
+
+1615
+01:52:18,000 --> 01:52:22,000
+ there are always going to be some part which is more difficult
+
+1616
+01:52:22,000 --> 01:52:25,000
+ it's for sure there will be some part which is more difficult
+
+1617
+01:52:25,000 --> 01:52:28,000
+ so if you see there are some more difficult questions
+
+1618
+01:52:28,000 --> 01:52:30,000
+ just try your best to write something
+
+1619
+01:52:30,000 --> 01:52:32,000
+ don't leave anything blank
+
+1620
+01:52:32,000 --> 01:52:34,000
+ because if you leave it blank
+
+1621
+01:52:34,000 --> 01:52:36,000
+ there's nothing much we can do
+
+1622
+01:52:36,000 --> 01:52:38,000
+ I cannot give you a mark for blank space
+
+1623
+01:52:38,000 --> 01:52:40,000
+ but so just write something
+
+1624
+01:52:40,000 --> 01:52:43,000
+ even if you cannot really stop it just write something
+
+1625
+01:52:43,000 --> 01:52:46,000
+ and also as I mentioned
+
+1626
+01:52:46,000 --> 01:52:49,000
+ there will always be some reasonable question
+
+1627
+01:52:49,000 --> 01:52:51,000
+ some which is easier
+
+1628
+01:52:51,000 --> 01:52:53,000
+ some which is a little bit more difficult
+
+1629
+01:52:55,000 --> 01:53:00,000
+ so I mentioned already calculation and description question
+
+1630
+01:53:00,000 --> 01:53:03,000
+ the ratio is probably about 60, 40, that kind of thing
+
+1631
+01:53:03,000 --> 01:53:05,000
+ or 50, 50 I can't remember
+
+1632
+01:53:05,000 --> 01:53:07,000
+ so in the description type of question
+
+1633
+01:53:07,000 --> 01:53:13,000
+ actually we have already gone through some sample example in the lecture
+
+1634
+01:53:13,000 --> 01:53:17,000
+ so sometimes it's quite common you will get this kind of question
+
+1635
+01:53:17,000 --> 01:53:22,000
+ briefly describe or state clearly whether A or B is better
+
+1636
+01:53:22,000 --> 01:53:24,000
+ state yes or no
+
+1637
+01:53:24,000 --> 01:53:25,000
+ the kind of thing
+
+1638
+01:53:25,000 --> 01:53:28,000
+ so a lot of this or list the state the kind of thing
+
+1639
+01:53:28,000 --> 01:53:31,000
+ a lot of these questions are supposed to be concise
+
+1640
+01:53:31,000 --> 01:53:34,000
+ so please don't write long answer
+
+1641
+01:53:34,000 --> 01:53:36,000
+ just write to the point
+
+1642
+01:53:36,000 --> 01:53:38,000
+ you know that for this course
+
+1643
+01:53:38,000 --> 01:53:41,000
+ your class is very big there's 500 something
+
+1644
+01:53:41,000 --> 01:53:43,000
+ and we have a short time to do the marking
+
+1645
+01:53:43,000 --> 01:53:45,000
+ so we have to mark very quickly
+
+1646
+01:53:45,000 --> 01:53:49,000
+ so therefore the more concise the answer is
+
+1647
+01:53:49,000 --> 01:53:51,000
+ just write to the point
+
+1648
+01:53:51,000 --> 01:53:54,000
+ the faster I mark and usually tends to be
+
+1649
+01:53:54,000 --> 01:53:57,000
+ more my mood will be better if I see
+
+1650
+01:53:57,000 --> 01:54:00,000
+ concise answer and the answer is there rather than
+
+1651
+01:54:00,000 --> 01:54:03,000
+ three points and then you write a long paragraph
+
+1652
+01:54:03,000 --> 01:54:05,000
+ then my mood will not be so good
+
+1653
+01:54:05,000 --> 01:54:07,000
+ so long sorry short
+
+1654
+01:54:07,000 --> 01:54:10,000
+ just try to be concise and to the point
+
+1655
+01:54:10,000 --> 01:54:13,000
+ again there's many exercises that I've shared with you
+
+1656
+01:54:13,000 --> 01:54:16,000
+ you can look at those sample answers that I've provided
+
+1657
+01:54:16,000 --> 01:54:19,000
+ so lots of them is just quite concise and to the point
+
+1658
+01:54:22,000 --> 01:54:24,000
+ okay
+
+1659
+01:54:24,000 --> 01:54:27,000
+ yeah so for the description question
+
+1660
+01:54:27,000 --> 01:54:30,000
+ very often sometimes they ask me to ask you to
+
+1661
+01:54:30,000 --> 01:54:33,000
+ for example you know describe briefly
+
+1662
+01:54:33,000 --> 01:54:36,000
+ sometimes you may ask you to draw a diagram
+
+1663
+01:54:36,000 --> 01:54:39,000
+ sometimes you may ask you to list certain things
+
+1664
+01:54:39,000 --> 01:54:42,000
+ so these are some common I mean some possible questions
+
+1665
+01:54:42,000 --> 01:54:45,000
+ yeah so that is similar to what you have seen
+
+1666
+01:54:45,000 --> 01:54:49,000
+ in the sample practice questions
+
+1667
+01:54:49,000 --> 01:54:52,000
+ in the class if you refer to some past questions
+
+1668
+01:54:52,000 --> 01:54:55,000
+ you will also see something similar
+
+1669
+01:54:55,000 --> 01:54:58,000
+ so this part is just some do's and don'ts
+
+1670
+01:54:58,000 --> 01:55:01,000
+ so yeah please do that
+
+1671
+01:55:01,000 --> 01:55:03,000
+ write clearly
+
+1672
+01:55:03,000 --> 01:55:05,000
+ be concise and to the point
+
+1673
+01:55:05,000 --> 01:55:07,000
+ don't write very long
+
+1674
+01:55:07,000 --> 01:55:09,000
+ good thing about Chinese students
+
+1675
+01:55:09,000 --> 01:55:11,000
+ Chinese students tends to be quite concise
+
+1676
+01:55:11,000 --> 01:55:13,000
+ and to the point
+
+1677
+01:55:13,000 --> 01:55:16,000
+ okay so yeah this part
+
+1678
+01:55:16,000 --> 01:55:19,000
+ initially I am thinking if possible you may want to draw some
+
+1679
+01:55:19,000 --> 01:55:22,000
+ bounding box around the final answer
+
+1680
+01:55:22,000 --> 01:55:24,000
+ because sometimes when you do the marking
+
+1681
+01:55:24,000 --> 01:55:27,000
+ some students working can become very messy
+
+1682
+01:55:27,000 --> 01:55:30,000
+ and then you don't really see where the answer is
+
+1683
+01:55:30,000 --> 01:55:33,000
+ if you can just draw a small bounding box at your final answer
+
+1684
+01:55:33,000 --> 01:55:36,000
+ that will make my marking easier
+
+1685
+01:55:36,000 --> 01:55:38,000
+ and usually
+
+1686
+01:55:38,000 --> 01:55:42,000
+ if I can mark it your script easier I tend to be a bit more lenient
+
+1687
+01:55:42,000 --> 01:55:44,000
+ right
+
+1688
+01:55:44,000 --> 01:55:47,000
+ okay next start a new questions on the new page
+
+1689
+01:55:47,000 --> 01:55:50,000
+ for example if this question one has three parts
+
+1690
+01:55:50,000 --> 01:55:53,000
+ one A one B one okay one A is here
+
+1691
+01:55:53,000 --> 01:55:55,000
+ from here to here one B is here
+
+1692
+01:55:55,000 --> 01:55:58,000
+ and then when you have question two please start on the new page
+
+1693
+01:55:58,000 --> 01:56:01,000
+ don't try to put two questions on the same page
+
+1694
+01:56:01,000 --> 01:56:04,000
+ because it will make our marking very cumbersome
+
+1695
+01:56:04,000 --> 01:56:08,000
+ yeah so whenever you have a new question just write on the new page
+
+1696
+01:56:08,000 --> 01:56:10,000
+ yeah because as I mentioned
+
+1697
+01:56:10,000 --> 01:56:13,000
+ our school has certain guidelines on how we do the marking
+
+1698
+01:56:13,000 --> 01:56:16,000
+ when you put question one and two on the same page
+
+1699
+01:56:16,000 --> 01:56:18,000
+ it will make our marking a lot messy
+
+1700
+01:56:18,000 --> 01:56:21,000
+ and also for the person who do the checking
+
+1701
+01:56:21,000 --> 01:56:24,000
+ right so these are what the things you should not do
+
+1702
+01:56:24,000 --> 01:56:28,000
+ don't overwrite don't write too much really don't write too much
+
+1703
+01:56:28,000 --> 01:56:31,000
+ right don't mix your answer so when I say don't interfere
+
+1704
+01:56:31,000 --> 01:56:34,000
+ or mix your answer means that for example you have this question one
+
+1705
+01:56:34,000 --> 01:56:37,000
+ A one B and one C here don't suddenly
+
+1706
+01:56:37,000 --> 01:56:40,000
+ insert your question two A here yeah
+
+1707
+01:56:40,000 --> 01:56:43,000
+ because usually when we do the marking we mark it question by question
+
+1708
+01:56:43,000 --> 01:56:45,000
+ we mark all question one first
+
+1709
+01:56:45,000 --> 01:56:47,000
+ and afterwards we mark question two
+
+1710
+01:56:47,000 --> 01:56:49,000
+ so sometimes if I mark question one
+
+1711
+01:56:49,000 --> 01:56:52,000
+ if I do the marking I put a tick here tick here tick here tick here
+
+1712
+01:56:52,000 --> 01:56:55,000
+ then after marking I will talk this page I already marked
+
+1713
+01:56:55,000 --> 01:56:58,000
+ so when I by the time I mark question two
+
+1714
+01:56:58,000 --> 01:57:00,000
+ this part may be missed yeah
+
+1715
+01:57:00,000 --> 01:57:04,000
+ usually it will not happen we'll do the checking very carefully
+
+1716
+01:57:04,000 --> 01:57:09,000
+ yeah but it just means that it is going to make it a bit harder for us to do the marking
+
+1717
+01:57:09,000 --> 01:57:12,000
+ yeah so please try not to do that
+
+1718
+01:57:12,000 --> 01:57:17,000
+ okay so yeah any other questions you want to ask
+
+1719
+01:57:17,000 --> 01:57:20,000
+ regarding the exams
+
+1720
+01:57:20,000 --> 01:57:23,000
+ any questions
+
+1721
+01:57:27,000 --> 01:57:33,000
+ right so if not then probably just the last thing
+
+1722
+01:57:33,000 --> 01:57:37,000
+ yeah okay I think this one everyone knows already right
+
+1723
+01:57:37,000 --> 01:57:42,000
+ yeah so yeah Li Ziqi just come back right so if you feel really stressed
+
+1724
+01:57:42,000 --> 01:57:45,000
+ yeah go and watch a little bit of her video
+
+1725
+01:57:45,000 --> 01:57:48,000
+ that probably will distress you
+
+1726
+01:57:48,000 --> 01:57:52,000
+ yeah okay I will not play her video you should know like
+
+1727
+01:57:52,000 --> 01:57:56,000
+ she has how many one billion views already in the past few days
+
+1728
+01:57:56,000 --> 01:58:00,000
+ yeah so okay so anyway this is another
+
+1729
+01:58:00,000 --> 01:58:05,000
+ this is another kind of YouTube channel sometimes I watch right
+
+1730
+01:58:05,000 --> 01:58:09,000
+ if I feel a little bit stressed but okay yeah probably I will just skip this
+
+1731
+01:58:09,000 --> 01:58:13,000
+ yeah another thing is that for the exam yeah you know what's this right
+
+1732
+01:58:13,000 --> 01:58:19,000
+ yeah yeah so anyway this is
+
+1733
+01:58:19,000 --> 01:58:24,000
+ right okay so at least for the exam perspective
+
+1734
+01:58:24,000 --> 01:58:27,000
+ don't do this alright don't overly relax yourself
+
+1735
+01:58:27,000 --> 01:58:32,000
+ okay right and also people feel that no yeah
+
+1736
+01:58:32,000 --> 01:58:36,000
+ okay anyway for Chinese you should know what it means
+
+1737
+01:58:36,000 --> 01:58:42,000
+ okay and then finally I wish you all the best right in your exam right and I hope to see you again
+
+1738
+01:58:42,000 --> 01:58:47,000
+ maybe next semester right okay as I mentioned for the exam don't worry too much
+
+1739
+01:58:47,000 --> 01:58:51,000
+ because if the paper is hard definitely we are going to do some moderation
+
+1740
+01:58:51,000 --> 01:58:55,000
+ and yeah the practice question is still useful yeah and
+
+1741
+01:58:55,000 --> 01:58:59,000
+ for each question definitely there will be some part which is a little bit difficult
+
+1742
+01:58:59,000 --> 01:59:03,000
+ so yeah just be mentally prepared okay right last
+
+1743
+01:59:03,000 --> 01:59:07,000
+ opportunity any questions right so if not I see you
+
+1744
+01:59:07,000 --> 01:59:11,000
+ bye bye thank you
+
+1745
+01:59:29,000 --> 01:59:31,060
+ you
+
+1746
+01:59:59,000 --> 02:00:01,060
+ you
+
+1747
+02:00:29,000 --> 02:00:31,060
+ you
+
+1748
+02:00:59,000 --> 02:01:01,060
+ you
+
+1749
+02:01:29,000 --> 02:01:31,060
+ you
+
+1750
+02:01:59,000 --> 02:02:01,060
+ you
+
+1751
+02:02:29,000 --> 02:02:31,060
+ you
+
+1752
+02:02:59,000 --> 02:03:01,060
+ you
+
+1753
+02:03:29,000 --> 02:03:31,060
+ you
+
+1754
+02:03:59,000 --> 02:04:01,120
+ you
+
+1755
+02:04:29,000 --> 02:04:31,180
+ you
+
+1756
+02:04:59,000 --> 02:05:01,060
+ you
+
+1757
+02:05:29,000 --> 02:05:31,060
+ you
+
+1758
+02:05:59,000 --> 02:06:01,060
+ you
+
+1759
+02:06:29,000 --> 02:06:31,060
+ you
+
+1760
+02:06:59,000 --> 02:07:01,120
+ you
+
+1761
+02:07:29,000 --> 02:07:31,060
+ you
+
+1762
+02:07:59,000 --> 02:08:01,120
+ you
+
+1763
+02:08:59,000 --> 02:09:01,060
+ you
+
+1764
+02:09:29,000 --> 02:09:31,120
+ you
+
+1765
+02:25:29,000 --> 02:25:31,060
+ you
+
+1766
+02:25:59,000 --> 02:26:01,060
+ you
+
+1767
+02:26:29,000 --> 02:26:31,060
+ you
+
+1768
+02:26:59,000 --> 02:27:01,120
+ you
+
+1769
+02:27:29,000 --> 02:27:31,060
+ you
+
+1770
+02:27:59,000 --> 02:28:01,120
+ you
+
+1771
+02:28:29,000 --> 02:28:31,060
+ you
+
+1772
+02:28:59,000 --> 02:29:01,060
+ you
+
+1773
+02:29:29,000 --> 02:29:31,060
+ you
+
+1774
+02:29:59,000 --> 02:30:01,060
+ you
+
+1775
+02:30:29,000 --> 02:30:31,060
+ you
+
+1776
+02:30:59,000 --> 02:31:01,060
+ you
+
+1777
+02:31:29,000 --> 02:31:31,060
+ you
+
+1778
+02:31:59,000 --> 02:32:01,060
+ you
+
+1779
+02:32:29,000 --> 02:32:31,060
+ you
+
+1780
+02:32:59,000 --> 02:33:01,060
+ you
+
+1781
+02:33:29,000 --> 02:33:31,060
+ you
+
+1782
+02:33:59,000 --> 02:34:01,060
+ you
+
+1783
+02:34:29,000 --> 02:34:31,060
+ you
+
+1784
+02:34:59,000 --> 02:35:01,060
+ you
+
+1785
+02:35:29,000 --> 02:35:31,060
+ you
+
+1786
+02:35:59,000 --> 02:36:01,060
+ you
+
+1787
+02:36:29,000 --> 02:36:31,060
+ you
+
+1788
+02:36:59,000 --> 02:37:01,060
+ you
+
+1789
+02:37:29,000 --> 02:37:31,060
+ you
+
+1790
+02:37:59,000 --> 02:38:01,060
+ you
+
+1791
+02:38:29,000 --> 02:38:31,060
+ you
+
+1792
+02:38:59,000 --> 02:39:01,060
+ you
+
+1793
+02:39:29,000 --> 02:39:31,060
+ you
+
+1794
+02:39:59,000 --> 02:40:01,060
+ you
+
+1795
+02:40:29,000 --> 02:40:31,060
+ you
+
+1796
+02:40:59,000 --> 02:41:01,060
+ you
+
+1797
+02:41:29,000 --> 02:41:31,060
+ you
+
+1798
+02:41:59,000 --> 02:42:01,060
+ you
+
+1799
+02:42:29,000 --> 02:42:31,060
+ you
+
+1800
+02:42:59,000 --> 02:43:01,060
+ you
+
+1801
+02:43:29,000 --> 02:43:31,060
+ you
+
+1802
+02:43:59,000 --> 02:44:01,060
+ you
+
+1803
+02:44:29,000 --> 02:44:31,060
+ you
+
+1804
+02:44:59,000 --> 02:45:01,060
+ you
+
+1805
+02:45:29,000 --> 02:45:31,060
+ you
+
+1806
+02:45:59,000 --> 02:46:01,060
+ you
+
+1807
+02:46:29,000 --> 02:46:31,060
+ you
+
+1808
+02:46:59,000 --> 02:47:01,060
+ you
+
+1809
+02:47:29,000 --> 02:47:31,060
+ you
+
+1810
+02:47:59,000 --> 02:48:01,060
+ you
+
+1811
+02:48:29,000 --> 02:48:31,060
+ you
+
+1812
+02:48:59,000 --> 02:49:01,060
+ you
+
+1813
+02:49:29,000 --> 02:49:31,060
+ you
+
+1814
+02:49:59,000 --> 02:50:01,060
+ you
+
+1815
+02:50:29,000 --> 02:50:31,060
+ you
+
+1816
+02:50:59,000 --> 02:51:01,060
+ you
+
+1817
+02:51:29,000 --> 02:51:31,060
+ you
+
+1818
+02:51:59,000 --> 02:52:01,060
+ you
+
+1819
+02:52:29,000 --> 02:52:31,060
+ you
+
+1820
+02:52:59,000 --> 02:53:01,060
+ you
+
+1821
+02:53:29,000 --> 02:53:31,060
+ you
+
+1822
+02:53:59,000 --> 02:54:01,060
+ you
+
+1823
+02:54:29,000 --> 02:54:31,060
+ you
+
+1824
+02:54:59,000 --> 02:55:01,060
+ you
+
+1825
+02:55:29,000 --> 02:55:31,060
+ you
+
+1826
+02:55:59,000 --> 02:56:01,060
+ you
+
+1827
+02:56:29,000 --> 02:56:31,060
+ you
+
+1828
+02:56:59,000 --> 02:57:01,060
+ you
+
+1829
+02:57:29,000 --> 02:57:31,060
+ you
+
+1830
+02:57:59,000 --> 02:58:01,060
+ you
+
+1831
+02:58:29,000 --> 02:58:31,060
+ you
+
+1832
+02:58:59,000 --> 02:59:01,060
+ you
+
+1833
+02:59:29,000 --> 02:59:31,060
+ you
+
+1834
+02:59:59,000 --> 03:00:01,060
+ you
+

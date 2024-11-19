@@ -1,0 +1,4072 @@
+1
+00:01:30,000 --> 00:01:43,000
+ So it's good to have proper lectures for the first hour and then we will do the quiz
+
+2
+00:01:43,000 --> 00:01:44,720
+ after the break.
+
+3
+00:01:44,720 --> 00:01:55,920
+ So everyone come back by 7.50 and for those who are not here, anyway, they will not be
+
+4
+00:01:55,920 --> 00:02:04,720
+ able to get my message until after the quiz is over because it's a video recording, not
+
+5
+00:02:04,720 --> 00:02:08,039
+ the online lecture.
+
+6
+00:02:08,039 --> 00:02:22,360
+ So anyway, I can assure you the quiz question will not be too difficult, probably compatible
+
+7
+00:02:22,360 --> 00:02:32,280
+ with previous years and there are also probably one or two so-called Song Feng tea.
+
+8
+00:02:32,280 --> 00:02:41,000
+ So I will see if the students make mistake on that very simple one then I think probably
+
+9
+00:02:41,000 --> 00:02:52,720
+ it will be, I will see actually we are fighting out students who did not do well if the students
+
+10
+00:02:52,720 --> 00:03:00,640
+ like those under AW from certain university then we will consider raising path.
+
+11
+00:03:00,640 --> 00:03:08,720
+ So I hope everyone, I mean not only for yourself but for your previous university because it
+
+12
+00:03:08,720 --> 00:03:14,520
+ may affect the so-called names.
+
+13
+00:03:14,520 --> 00:03:24,840
+ So this is some side story because I'm your provident, I'm one of the program directors
+
+14
+00:03:24,840 --> 00:03:35,520
+ so we are looking into this particularly since August this year we have many more students
+
+15
+00:03:35,520 --> 00:03:44,360
+ so I think this semester will be a so-called benchmark because we have more students then
+
+16
+00:03:44,360 --> 00:03:50,840
+ I hope the performance will not drop that significantly.
+
+17
+00:03:50,840 --> 00:03:51,840
+ Okay.
+
+18
+00:03:51,840 --> 00:04:03,200
+ Yeah, actually we will do some groupings later but I think some of you took my course in
+
+19
+00:04:03,200 --> 00:04:14,680
+ the next door, LT19 last week so today I will show you I will do a better job to see you
+
+20
+00:04:14,680 --> 00:04:15,680
+ properly.
+
+21
+00:04:15,680 --> 00:04:28,640
+ So we are going to that later on as I say we still have some lecture not finished yet
+
+22
+00:04:28,640 --> 00:04:39,920
+ chapter 3 and I'm not rushing to do all the remaining part because we only have about
+
+23
+00:04:39,920 --> 00:04:41,720
+ one hour.
+
+24
+00:04:41,720 --> 00:04:53,280
+ Anyway, next week we will still, you see have time to finish the, just leave a little bit
+
+25
+00:04:53,280 --> 00:05:03,200
+ of chapter 3 more of the application or some methods.
+
+26
+00:05:03,200 --> 00:05:13,880
+ So I think this is week 12 and no choice I have to finish grading your marking your
+
+27
+00:05:13,880 --> 00:05:23,680
+ quiz within one week so hopefully next week I come back the final lectures I can also
+
+28
+00:05:23,680 --> 00:05:26,080
+ discuss briefly.
+
+29
+00:05:26,080 --> 00:05:35,359
+ Particularly the so-called Song Feng Ti Wui, any student cannot do or make a serious mistake
+
+30
+00:05:35,359 --> 00:05:37,760
+ or not.
+
+31
+00:05:37,760 --> 00:05:48,560
+ So anyway let's see later for the 7402 they are in general okay but they are, I can say
+
+32
+00:05:48,560 --> 00:05:59,160
+ for quiz there are at least two or three student fairs, I mean below 40 marks out of 100 so
+
+33
+00:05:59,160 --> 00:06:03,760
+ so I hope you can do a better job here okay.
+
+34
+00:06:03,760 --> 00:06:15,880
+ So let's, so last week we start from the power spectrum estimation.
+
+35
+00:06:15,880 --> 00:06:22,800
+ So this course if you look at the lecture note it's not that many pages but the contents
+
+36
+00:06:22,800 --> 00:06:34,840
+ quite things and also requires not just math, statistics also signal processing like DSP
+
+37
+00:06:34,840 --> 00:06:44,680
+ and so on and yeah but as I say for quiz and final exams will exclude certain difficult
+
+38
+00:06:44,680 --> 00:06:54,280
+ parts such as IRR, Wiener filter which is most difficult one.
+
+39
+00:06:54,280 --> 00:07:05,080
+ So let's have a very quick review I won't go into detail but I would like to perhaps
+
+40
+00:07:05,080 --> 00:07:09,760
+ give more overall pictures here.
+
+41
+00:07:09,760 --> 00:07:20,360
+ So let's see, power spectrum estimation is just like you see if you are learning DSP
+
+42
+00:07:20,360 --> 00:07:28,280
+ you have the frequency response you see and you have time domain given some time domain
+
+43
+00:07:28,280 --> 00:07:36,800
+ signal speech or deal because here our course is not like image where most students still
+
+44
+00:07:36,800 --> 00:07:49,560
+ based on like 1D signals which is the basic and the starting points and then we, let's
+
+45
+00:07:49,560 --> 00:07:58,320
+ see here given the signal in time domain actually I hope that your level MSE or yeah some PSD
+
+46
+00:07:58,320 --> 00:08:08,200
+ or so you should have much better understanding why do we want to go to frequency domain because
+
+47
+00:08:08,200 --> 00:08:16,120
+ in time domain sometimes you know if you have two signal which is very, looks very similar
+
+48
+00:08:16,120 --> 00:08:25,240
+ in the waveform and noise sometimes very heavy then very hard to look from time domain to
+
+49
+00:08:25,240 --> 00:08:26,440
+ separate the signal.
+
+50
+00:08:26,440 --> 00:08:34,919
+ So frequency domain is at least in some sense you see if you have signal with periodic signal
+
+51
+00:08:34,919 --> 00:08:41,520
+ from different frequency then we go to the frequency domain you can look at the different
+
+52
+00:08:41,520 --> 00:08:47,280
+ frequency component can even tell which one is the stronger signal and so on.
+
+53
+00:08:47,280 --> 00:08:59,959
+ So this is one very basic of the motivation and DSP is mostly for deterministic and for
+
+54
+00:08:59,959 --> 00:09:09,839
+ so called maybe signal in noise but not really looking at the signal itself range but in
+
+55
+00:09:09,840 --> 00:09:19,600
+ the advanced level like this course in the 7402 we are also looking at even useful signal
+
+56
+00:09:19,600 --> 00:09:27,520
+ but they are ranked them in some sense such as here we have so called sideways but it's
+
+57
+00:09:27,520 --> 00:09:36,320
+ not totally deterministic in part of the primary typically like the phase it could be ranked
+
+58
+00:09:36,320 --> 00:09:46,560
+ them and in such a case how are we going to handle to detect this kind of harmonic or
+
+59
+00:09:46,560 --> 00:09:57,240
+ sideways or you know and that's also similarly we have the frequency domain approach by taking
+
+60
+00:09:57,240 --> 00:10:05,880
+ say Fourier transform but here since we involve random signal so we cannot just simply like
+
+61
+00:10:05,920 --> 00:10:12,400
+ in the time domain we directly take the Fourier transform and look at the spectrum.
+
+62
+00:10:12,400 --> 00:10:22,000
+ So here we are looking into higher level like the second order statistic which involves
+
+63
+00:10:22,000 --> 00:10:32,360
+ starting with autocorrelation as you do autocorrelation cross correlation and there are that why because
+
+64
+00:10:32,360 --> 00:10:37,360
+ children may ask why do we go through that? Actually we are looking more carefully doing
+
+65
+00:10:37,360 --> 00:10:45,920
+ autocorrelation it's reduced or at least it gets some more deterministic features from
+
+66
+00:10:45,920 --> 00:10:57,880
+ the random signals. It's kind of taking the average in some sense so after that we can
+
+67
+00:10:57,880 --> 00:11:06,360
+ take the Fourier transform and we get the spectrum information and it's more reliable.
+
+68
+00:11:06,360 --> 00:11:20,080
+ So that's the similarity and difference taking this advanced DSP assuming probably this most
+
+69
+00:11:20,080 --> 00:11:31,280
+ of you you took the DSP. So and then we start from the motivation you see because finite
+
+70
+00:11:31,280 --> 00:11:38,840
+ duration and noise so there was one of some of the main reason we're looking at that and then
+
+71
+00:11:39,600 --> 00:11:49,520
+ there you can see these three measures they are closely related but in a different way.
+
+72
+00:11:49,520 --> 00:11:59,240
+ No parametric it's just a directory work on the given signal to extract the spectrum
+
+73
+00:11:59,240 --> 00:12:11,680
+ information from there. So this is more classical and easy to apply but the result for unless
+
+74
+00:12:11,680 --> 00:12:22,240
+ for very simple and clear signal otherwise it's not I would say very classical. It's also the
+
+75
+00:12:22,840 --> 00:12:33,800
+ earlier and the other day we moved to parametric. In fact it's to somewhat closely related. We
+
+76
+00:12:33,800 --> 00:12:45,880
+ should say we start with a more traditional parametric which is like AR model. We look at
+
+77
+00:12:45,880 --> 00:12:55,560
+ rational spectrum starting from rational function and then estimate those coefficient. So and
+
+78
+00:12:55,560 --> 00:13:03,280
+ they are moving on this is eigen and energy is considered relatively modern although it also
+
+79
+00:13:03,520 --> 00:13:18,839
+ has been several decades at one time is a very popular research topic in the early years for
+
+80
+00:13:18,839 --> 00:13:28,480
+ those before I told this course for me for five or six years but before that this was not in part
+
+81
+00:13:28,560 --> 00:13:41,320
+ of the curriculum so I think eigen energies is quite useful because you can apply to some of the
+
+82
+00:13:41,320 --> 00:13:53,920
+ even more recent research direction such as at one time quite popular like the compressed
+
+83
+00:13:54,079 --> 00:14:04,800
+ same things and actually even nowadays subspace analysis even in image analysis you see are
+
+84
+00:14:04,800 --> 00:14:14,680
+ doing clustering this subspace concept is very very useful. So I will say this is part of the
+
+85
+00:14:14,839 --> 00:14:25,880
+ parametric but it's a more elegant approach and then it has a wider application but given this
+
+86
+00:14:25,880 --> 00:14:34,439
+ limited hours or weeks and then including we are doing the quiz in part of the course here. So the
+
+87
+00:14:34,520 --> 00:14:46,400
+ introduction would be rather brief so but the the the maths there also a little bit complicated
+
+88
+00:14:46,400 --> 00:14:58,080
+ because in both you know magic theories and also we include like complex complex variable
+
+89
+00:14:58,080 --> 00:15:05,880
+ in into into discussion because in some of the methods once you involve Fourier transform as
+
+90
+00:15:05,880 --> 00:15:12,400
+ you all know you are going to the frequency domain which you involve complex number so you can
+
+91
+00:15:12,400 --> 00:15:24,920
+ really avoid that. So I hope you maybe also learn you know how to handle complex number and so
+
+92
+00:15:24,920 --> 00:15:33,560
+ on. Okay so yeah so very quickly you go through some of the maths background which I already did
+
+93
+00:15:34,520 --> 00:15:43,239
+ last week but I will highlight the more important or more difficult one I think square matrix which
+
+94
+00:15:43,239 --> 00:16:00,439
+ you can get the eigenvalue eigen vector I think this one should be very very basic requirement and
+
+95
+00:16:00,440 --> 00:16:09,080
+ then in particular if for low dimension low mean two or maximum three I think three by three
+
+96
+00:16:09,080 --> 00:16:19,320
+ matrix as you can see some of the past year papers not every year but it does appeal so you
+
+97
+00:16:19,320 --> 00:16:33,240
+ need to know how to be able to get the determinant you see here you Kramer Kramer Lu is you see you
+
+98
+00:16:33,240 --> 00:16:40,920
+ want to get this determine you take any one row one column okay say one row then first element
+
+99
+00:16:40,920 --> 00:16:47,800
+ then cross out then look at this determinant two by two then two by two matrix everyone know how to
+
+100
+00:16:47,880 --> 00:16:55,880
+ get the get a determinant cross multiply subtract cross and then multiply and then the next one which
+
+101
+00:16:55,880 --> 00:17:04,079
+ you change the minus sign and then also do the same cross out this then you will get the determinant
+
+102
+00:17:04,079 --> 00:17:12,599
+ and the better and this one usually you'll choose one has at least probably one zero like this at the
+
+103
+00:17:12,599 --> 00:17:19,079
+ first one they don't need to you don't need to calculate this on your g low multiply anything
+
+104
+00:17:19,079 --> 00:17:29,320
+ become g low so you only have two okay in this case you can also do some simplification first yeah
+
+105
+00:17:29,320 --> 00:17:36,600
+ yeah that's how I even get get the stats so it's on plus this one you have the star with a minor one
+
+106
+00:17:36,600 --> 00:17:43,399
+ and no include this one this minor one except it's already there so you need to add another
+
+107
+00:17:43,399 --> 00:17:51,240
+ multivibrant minor one expand and then it become a third order polynomial then make it equal to zero
+
+108
+00:17:51,240 --> 00:17:58,520
+ or do the factorization and so on and then once you'll get the eigenvalue you can start to get the
+
+109
+00:17:58,520 --> 00:18:06,680
+ eigenvector so this is a little bit more difficult because you will need to be familiar with solving
+
+110
+00:18:07,800 --> 00:18:17,160
+ system of equation because one of these become zero three that also tells you the very concept about
+
+111
+00:18:18,360 --> 00:18:26,040
+ the ring of matrix eigen for eigenvalue once you're putting the end them in this
+
+112
+00:18:26,040 --> 00:18:33,639
+ matrix it reduces the ring by at least one so typically reduce one become two so two ring
+
+113
+00:18:35,480 --> 00:18:44,520
+ matrix among the three rows two and most two of them are linearly independent so you can
+
+114
+00:18:44,520 --> 00:18:52,680
+ just take any two and then you see you have you have two equations three variable so one of them is
+
+115
+00:18:52,840 --> 00:19:04,680
+ redundant so you use that as you know it's a free parameter and you can solve so this you know some
+
+116
+00:19:04,680 --> 00:19:11,880
+ students find it difficult to solve but try try your best to yeah review so once you solve then
+
+117
+00:19:11,880 --> 00:19:18,440
+ there you see this is a so-called free parameter then there are many many choice you can scale this
+
+118
+00:19:19,400 --> 00:19:24,840
+ vector as long as no zero but they have to too many how are we going to choose
+
+119
+00:19:25,880 --> 00:19:32,840
+ normalization that's right this is also you know some of the some of the steps you use are very
+
+120
+00:19:32,840 --> 00:19:41,480
+ common across different subjects different areas such as in you are doing machine learning your
+
+121
+00:19:41,480 --> 00:19:46,440
+ wrong neural network normally you cannot just get any data then putting you have to do some
+
+122
+00:19:46,520 --> 00:19:54,120
+ pre-processing and normalization is a typically one requirement normalization means you see here the
+
+123
+00:19:54,120 --> 00:20:07,320
+ norms will be normalizing to one so remember we're dealing with probably a complex value also so you
+
+124
+00:20:08,600 --> 00:20:16,280
+ you need either take absolute value or you need to multiply a complex number with the complex conjugate
+
+125
+00:20:16,280 --> 00:20:27,720
+ in order to make it into into the so-called positive positive value okay so I will go into that later
+
+126
+00:20:27,720 --> 00:20:39,879
+ in some of the examples yeah so I think these are very clearly stay here and then unitary
+
+127
+00:20:40,680 --> 00:20:50,680
+ metrics also very important because that involved also go now you see if you have two two two vector
+
+128
+00:20:50,680 --> 00:21:00,760
+ they are also go now so yeah then if all the either all the column or all the rows they form an
+
+129
+00:21:01,320 --> 00:21:10,600
+ orthonormal set then you will have this nice property because you know no singular
+
+130
+00:21:10,600 --> 00:21:16,600
+ metrics you can you always have inverse of course assuming here we are dealing with square
+
+131
+00:21:16,600 --> 00:21:25,960
+ metric one matrix multiplied by its inverse become i but taking the inverse big very very
+
+132
+00:21:25,960 --> 00:21:35,080
+ troublesome particularly for big metric so so this a matrix you take the Hermitson Hermitson
+
+133
+00:21:35,080 --> 00:21:40,440
+ means you because here remember we are dealing with complex number so you'll take the complex
+
+134
+00:21:40,440 --> 00:21:46,440
+ conjugate conjugate is you'll keep the real part unchanged then the imaginary part you'll change
+
+135
+00:21:46,520 --> 00:21:53,480
+ the side maybe yeah and then after that for matrix you also need to do the transfer
+
+136
+00:21:54,280 --> 00:22:04,280
+ so these two operations combined together with Hermitson yeah let's see where this
+
+137
+00:22:04,280 --> 00:22:10,120
+ is
+
+138
+00:22:12,680 --> 00:22:13,560
+ definition
+
+139
+00:22:16,040 --> 00:22:21,879
+ okay yeah basically you yeah you will be taking the
+
+140
+00:22:24,120 --> 00:22:31,399
+ transfer and at the same time take the complex conjugate so this one is illustrating
+
+141
+00:22:32,200 --> 00:22:41,880
+ about if you have the some useful properties so for example if you are having a Hermitson
+
+142
+00:22:41,880 --> 00:22:50,440
+ matrix where here we are talking about eigen eigen value eigen analysis so must be a square
+
+143
+00:22:50,440 --> 00:22:59,480
+ matrix if you are doing singular decomposition you'll allow a no no square metric so so this
+
+144
+00:22:59,480 --> 00:23:09,720
+ property let's see we start with this and then we have eigen vector which is normalized UK and this is
+
+145
+00:23:11,000 --> 00:23:17,640
+ eigen value we already know you can always find the one but then for Hermitson
+
+146
+00:23:17,640 --> 00:23:28,040
+ matrix that means satisfy this they have some very useful property so maybe one of them is
+
+147
+00:23:28,680 --> 00:23:35,080
+ you'll see the all the eigen value they will be rare as if for
+
+148
+00:23:35,320 --> 00:23:44,360
+ a channel in channel you you may have some complex eigen value let's see with this one
+
+149
+00:23:56,840 --> 00:24:00,360
+ okay
+
+150
+00:24:05,080 --> 00:24:11,159
+ okay so let's maybe maybe quick
+
+151
+00:24:14,439 --> 00:24:27,560
+ derivation and explanation about how you handle like complex or what's mean by complex conjugate okay so
+
+152
+00:24:28,520 --> 00:24:32,040
+ uh
+
+153
+00:24:34,919 --> 00:24:44,679
+ to to start with if you all look at just a very simple say say two by two if I have one plus two
+
+154
+00:24:45,640 --> 00:24:46,680
+ uh
+
+155
+00:24:47,960 --> 00:24:49,320
+ j for example
+
+156
+00:24:52,120 --> 00:25:07,400
+ then you also maybe for the diagonal element I make it clear and then you will have one
+
+157
+00:25:08,120 --> 00:25:10,120
+ uh
+
+158
+00:25:10,520 --> 00:25:16,520
+ minus j one plus j so so let's look at this
+
+159
+00:25:20,200 --> 00:25:26,760
+ this matrix versus complex so if you all if you all just do a simple
+
+160
+00:25:27,000 --> 00:25:29,320
+ uh
+
+161
+00:25:29,320 --> 00:25:35,720
+ transfer as if so there will transfer of course you all know diagonal element you'll you'll keep the same
+
+162
+00:25:35,720 --> 00:25:44,360
+ but the off diagonal in this case two by two then you'll just uh change uh exchange this at this position
+
+163
+00:25:44,360 --> 00:25:55,400
+ okay so after transfer these two are not the same okay however the Hermitson you see if I
+
+164
+00:25:56,360 --> 00:26:05,880
+ now if I start with the same the same matrix one minus j one plus j and then three if I take this
+
+165
+00:26:06,440 --> 00:26:16,520
+ Hermitson operation uh it going to mean you're you're doing the two operations at one after
+
+166
+00:26:17,000 --> 00:26:24,840
+ you can do transfer first okay uh okay and then uh after that you'll do the complex
+
+167
+00:26:25,720 --> 00:26:32,680
+ conjugation uh you these two operations you can do complex conjugate first and then do the transfer
+
+168
+00:26:32,680 --> 00:26:39,320
+ is the same you can uh exchange so we already done this you'll transfer you'll get this uh and then
+
+169
+00:26:39,320 --> 00:26:47,960
+ after that you'll do you'll do one more step by the by the conjugate you see then after taking the
+
+170
+00:26:47,960 --> 00:26:57,000
+ conjugate you you'll uh become you see the conjugate is the real part is the same as one but the
+
+171
+00:26:57,960 --> 00:27:02,679
+ imaginary part you'll change the side and similarly similarly this one
+
+172
+00:27:03,000 --> 00:27:15,480
+ okay so so in this case you can see uh this given given matrix here if you take transfer
+
+173
+00:27:16,200 --> 00:27:23,800
+ only it will not be equal to itself but if you take transfer and then follow by the uh conjugate
+
+174
+00:27:24,360 --> 00:27:31,080
+ that's we call the Hermitson Hermitson operation then it become become itself
+
+175
+00:27:32,760 --> 00:27:41,000
+ okay beautiful complex and and that's a very very important property to hang those
+
+176
+00:27:42,840 --> 00:27:53,240
+ complex number complex matrix okay so this is uh at first thing you should be familiar
+
+177
+00:27:53,240 --> 00:28:00,200
+ with this because we talked about a lot the Hermitson operation here and the I think the
+
+178
+00:28:00,200 --> 00:28:09,080
+ lecture note here is not not very clear about uh is it given this one we can let multiplying this
+
+179
+00:28:09,080 --> 00:28:16,840
+ from both sides uh and then uh here I want to explain the meaning of this you see this if I have uh
+
+180
+00:28:16,919 --> 00:28:30,679
+ you okay and then remember for uh a vector a low vector when you take the Hermitson operation it will
+
+181
+00:28:30,679 --> 00:28:41,720
+ become a low vector and at the same time you also need to do the conjugate operation so for example
+
+182
+00:28:41,800 --> 00:28:55,240
+ if uh if this is uk here okay then you you uh our uk uh h you will become uh first you'll
+
+183
+00:28:56,040 --> 00:29:04,360
+ you'll uh do the transfer so uh column become a low and now with that this is the first operation
+
+184
+00:29:04,360 --> 00:29:11,879
+ is very easy things look column and row is just simply uh you know graphically you can see and
+
+185
+00:29:11,879 --> 00:29:18,600
+ now there you'll you'll take another complex conjugate if if there are complex elements
+
+186
+00:29:18,600 --> 00:29:25,080
+ so one question is if all the elements are real of course the real you're equal to itself you see
+
+187
+00:29:25,800 --> 00:29:32,760
+ because uh if you don't have the imaginary part you don't need to change the sign I mean it's zero
+
+188
+00:29:33,320 --> 00:29:40,040
+ so that's how this is done here so uh and then uh follow this uh the uh ebio
+
+189
+00:29:41,080 --> 00:29:50,840
+ to this operation uh vector column vector uh multiply from the left hand side by this uh
+
+190
+00:29:51,560 --> 00:30:03,720
+ uh Hermitson Hermitson operation then you uh in this course I since I only teach half so I did not
+
+191
+00:30:03,720 --> 00:30:13,480
+ spend too much time talk about this uh block block box box method I think uh I mean uh just very briefly
+
+192
+00:30:13,480 --> 00:30:18,919
+ it's it's quite useful very often you're if you're dealing with a matrix you don't need to
+
+193
+00:30:19,720 --> 00:30:24,760
+ most of time you don't need to write down the actual element you know very often you'll you'll just
+
+194
+00:30:25,400 --> 00:30:33,640
+ give the size give the block uh like how many num rows how many columns in in this way then it's
+
+195
+00:30:33,640 --> 00:30:41,640
+ very clear you can you can see in this case it will become a scalar you see this is uh you know
+
+196
+00:30:42,600 --> 00:30:49,720
+ row vector followed by a column vector it will become a scalar uh okay and on that thing if you're
+
+197
+00:30:49,720 --> 00:30:59,160
+ doing uh other way around uh actually not here but just a side side product if you do to this way
+
+198
+00:30:59,160 --> 00:31:06,520
+ you'll just start with a column followed by row then the matrix will be will be totally different
+
+199
+00:31:06,520 --> 00:31:17,800
+ you see you'll end up with a very big square matrix in in such a case okay so this is the two different
+
+200
+00:31:18,920 --> 00:31:26,600
+ operation and anyway this this is very often we're also writing in writing this form is
+
+201
+00:31:26,840 --> 00:31:36,919
+ is uh uh early on we talk about the the l2 norm uh and then the for if you uh take the
+
+202
+00:31:37,959 --> 00:31:45,480
+ l2 norm you will need to take take the square root because this is a one by one a scalar a positive
+
+203
+00:31:46,040 --> 00:31:54,199
+ value uh but then uh quite often we taking square root is a very inconvenient so we square it uh
+
+204
+00:31:55,000 --> 00:32:01,720
+ then there will be the operation sometimes we're calling it as a inner product because
+
+205
+00:32:02,760 --> 00:32:10,440
+ you're multiplying the vector and the her mission transform itself you will be able to so the meaning
+
+206
+00:32:10,440 --> 00:32:21,960
+ of uk you know this double vertical bar and num2 we're taking the l2 norm or it's related to the
+
+207
+00:32:21,960 --> 00:32:32,280
+ distance if you are looking into the 2d space or in the nd nd space okay so uh
+
+208
+00:32:34,920 --> 00:32:40,760
+ so therefore this this part is very clear if you multiply this one uh there of course the
+
+209
+00:32:40,760 --> 00:32:46,840
+ matrix you cannot take out but you'll make reviews of this property okay you're doing there and then
+
+210
+00:32:47,800 --> 00:32:52,760
+ a scalar you can take out so therefore your nwc this part is not
+
+211
+00:32:54,600 --> 00:33:01,240
+ not very clear we want to we want to derive and make good good use of this property from here
+
+212
+00:33:01,800 --> 00:33:11,159
+ and then to see uh you see somehow we are taking the conjugate of this of this icon
+
+213
+00:33:12,120 --> 00:33:20,440
+ icon value uh because we uh we don't know in general the icon value may be complex so how to
+
+214
+00:33:21,480 --> 00:33:33,560
+ how to uh how to verify that there are there are several ways to do the the easiest way to use is
+
+215
+00:33:33,720 --> 00:33:43,960
+ uh you see here uh since we want to look at the so-called conjugate you see conjugate and then
+
+216
+00:33:44,760 --> 00:33:53,720
+ also nwc we multiply with the same norm uh we we want to derive this uh from here
+
+217
+00:33:53,960 --> 00:34:03,160
+ uh into this so so to do that the one way to do as I say here there are several ways by the way
+
+218
+00:34:03,160 --> 00:34:12,040
+ we look at uh one of them this is the given one you see the lambda k uk this is by definition if I
+
+219
+00:34:12,040 --> 00:34:21,080
+ take the take the Hermitian of of both uh when you are dealing with equation you see you do one
+
+220
+00:34:21,080 --> 00:34:25,799
+ operation on the left hand side make sure you do the same on the right hand side so that they were
+
+221
+00:34:25,799 --> 00:34:34,120
+ they will still be equal okay and then let's look at the look at the left hand side uh your nwc
+
+222
+00:34:35,239 --> 00:34:46,679
+ uk uh Hermitian any operation if you apply to a product of two metrics uh always make sure
+
+223
+00:34:46,679 --> 00:34:55,239
+ you break down uh you will uh uh if you have two the the the right hand side one you have to
+
+224
+00:34:56,199 --> 00:35:02,919
+ bring it bring forward uh then it applies to you're taking the transport taking the inverse and so on
+
+225
+00:35:02,919 --> 00:35:11,000
+ so same with this Hermitian you see your uk Hermitian first then followed by the m also
+
+226
+00:35:11,960 --> 00:35:18,680
+ also Hermitian you see so this is from the left hand side that there's no problem because this is
+
+227
+00:35:19,400 --> 00:35:27,800
+ where uh doing the using the basic rule it works for any vector metrics and so on and how about the
+
+228
+00:35:27,800 --> 00:35:35,960
+ right hand side uh because the right hand side one of them is a scalar once you have a scalar
+
+229
+00:35:36,040 --> 00:35:44,920
+ multiplied by a vector or by a matrix you uh you don't need to change the change the order because
+
+230
+00:35:44,920 --> 00:35:50,040
+ a scalar multiplied with a matrix or a vector you can always put your left or right you see
+
+231
+00:35:50,040 --> 00:35:56,920
+ there but as long as you're a vector or magic you cannot okay so let's look at this uh if it will be
+
+232
+00:35:57,720 --> 00:36:05,400
+ namda k hermitian and then also i have the i have the uk transpose here okay
+
+233
+00:36:08,840 --> 00:36:17,960
+ then uh what next we want to uh we want to create something relative to relative
+
+234
+00:36:18,040 --> 00:36:29,000
+ create this okay then naturally you'll be you'll be thinking uh for this one is uk transpose m and
+
+235
+00:36:29,000 --> 00:36:37,560
+ then this this uk so this one will be modeled by left left hand from this side then why don't i do the
+
+236
+00:36:38,360 --> 00:36:42,759
+ one from the right okay so i i multiply uh
+
+237
+00:36:46,600 --> 00:36:59,640
+ uk uh from uh a vector from the right hand side then your n-tab with uh this uk h uk right correct
+
+238
+00:37:00,600 --> 00:37:08,920
+ okay so this one is what we are calling is the norm as we already defined
+
+239
+00:37:10,600 --> 00:37:19,799
+ defined early so now we uh in this way the right hand side we we create this one all right okay then
+
+240
+00:37:20,759 --> 00:37:29,400
+ early on we already derived here equal to equal to this so the only difference is the middle of
+
+241
+00:37:29,480 --> 00:37:41,560
+ m h here where this is m but we already know m equal to m h so so therefore this is equal to uk h uh m
+
+242
+00:37:42,280 --> 00:37:55,000
+ uk and this one uh also where we didn't know is equal to lambda k uh without h uh uk h uk okay
+
+243
+00:37:55,720 --> 00:38:03,400
+ so this one is the same uh therefore uh if uh a scalar
+
+244
+00:38:04,120 --> 00:38:14,440
+ multiplied by this no zero no zero positive value and if this scalar take the scalar you'll take the
+
+245
+00:38:14,440 --> 00:38:20,920
+ Hermitian it's just simply just do the complex conjugate you see uh then they are they are equal
+
+246
+00:38:21,000 --> 00:38:28,920
+ so this uh lambda k must be real so you can i think this is uh uh probably
+
+247
+00:38:28,920 --> 00:38:39,080
+ so if i ask you to verify in the final step i think you should have everyone can do that yeah
+
+248
+00:38:39,080 --> 00:38:47,240
+ right if not then you'll start with the definition of the complex conjugate number okay so from here
+
+249
+00:38:47,240 --> 00:38:56,040
+ you can you can conclude this lambda k must be real because our lambda k is just any eigen
+
+250
+00:38:56,759 --> 00:39:05,720
+ eigenvalue okay so this is the one you can you can you you can be right by doing this kind of
+
+251
+00:39:06,839 --> 00:39:15,560
+ simple property and operation similarly this uh if the two eigenvalues are not the same then
+
+252
+00:39:16,520 --> 00:39:28,040
+ you can you can be sure this the corresponding eigenvector they are uh they are also going to
+
+253
+00:39:28,840 --> 00:39:35,240
+ uh each other so that means this uh in the in your product of the two different vectors
+
+254
+00:39:35,880 --> 00:39:44,120
+ it will be equal to zero so again you you follow a similar argument uh starting from the definition
+
+255
+00:39:44,120 --> 00:39:53,640
+ of eigenvalue eigenvector uh then you can operate and you will surely get get a conclusion this one
+
+256
+00:39:53,640 --> 00:40:01,720
+ must be equal to uh equal to zero so this is a very important uh in in both concepts if we
+
+257
+00:40:02,440 --> 00:40:11,799
+ denote this in in matrix uh now assume uh all the eigenvalue they are real because we're property
+
+258
+00:40:11,800 --> 00:40:17,880
+ one for Hermitian matrix they must all be real and then if they are all different so they will be
+
+259
+00:40:17,880 --> 00:40:25,080
+ very good you put all these eigen eigenvector one by one to form a square matrix and these are the
+
+260
+00:40:25,080 --> 00:40:36,440
+ corresponding diagonal diagonal uh matrix then you can verify this and can be decomposed in such a way
+
+261
+00:40:36,440 --> 00:40:48,840
+ you and then this diagonal and this is you of you of edge so this is uh a very very convenient way
+
+262
+00:40:50,120 --> 00:40:57,800
+ okay and that's uh a very useful property is positive definite
+
+263
+00:40:58,040 --> 00:41:07,320
+ definite matrix and uh i think most of you should be familiar with a real if the matrix is a real
+
+264
+00:41:08,040 --> 00:41:18,760
+ then you can uh you can just take uh no zero no zero vector a real and then multiplied by its
+
+265
+00:41:19,560 --> 00:41:29,640
+ transfer you see but the same property you can extend into complex complex complex matrix but
+
+266
+00:41:30,600 --> 00:41:38,600
+ but make sure these low matrix you have to do the conjugate so that uh in the end this becomes a
+
+267
+00:41:38,600 --> 00:41:47,960
+ scalar you see if you if you are not sure why the vector matrix you multiply become a scalar as you
+
+268
+00:41:48,520 --> 00:41:56,680
+ again if you use this simple box box measure you you just write down the the dimension as you hear
+
+269
+00:41:57,640 --> 00:42:05,240
+ to be compatible this one must be uh you see the number of column must be the same as the number
+
+270
+00:42:05,240 --> 00:42:13,560
+ of row here then in the end this product it will be it will become a one by one matrix which is of
+
+271
+00:42:13,560 --> 00:42:22,840
+ course a scalar so being a scalar uh in general if you're doing uh habitually choose some vector and
+
+272
+00:42:23,480 --> 00:42:29,640
+ matrix complex then you may end up with a complex number or you end up with a negative value or
+
+273
+00:42:29,640 --> 00:42:38,040
+ may end up with a zero value but if you have this spatial matrix for whatever is it so this v is not
+
+274
+00:42:38,040 --> 00:42:45,400
+ just if you verify just with one is not enough you'll have to exhaust you know search of course
+
+275
+00:42:45,400 --> 00:42:51,480
+ theoretically you can it will be very difficult you cannot do even now they very powerful computer
+
+276
+00:42:51,480 --> 00:42:57,640
+ no one is going to do that because this this kind of no zero vector is infinitely many so there are
+
+277
+00:42:57,640 --> 00:43:07,080
+ ways to test but i won't go into detail here but yeah just the definition is yeah you can yeah if you
+
+278
+00:43:07,880 --> 00:43:16,279
+ satisfy that then there will be a positive definite matrix and because of this property any
+
+279
+00:43:17,880 --> 00:43:25,319
+ assume this one is it doesn't satisfy the commission you can do some operation to make it
+
+280
+00:43:25,319 --> 00:43:33,640
+ commission so i think we will not do go through this kind of kind of step actually is easier we
+
+281
+00:43:34,359 --> 00:43:43,400
+ assume any positive definite matrix you just assume will be a commission already satisfied the
+
+282
+00:43:43,400 --> 00:43:52,759
+ commission commission matrix so these are the ways to so-called convert we will not go into that
+
+283
+00:43:52,759 --> 00:44:00,279
+ okay so these are the very useful and then now you can explain this eigenvalue decomposition into
+
+284
+00:44:00,840 --> 00:44:05,480
+ singular value decomposition actually singular value decomposition is equally powerful or in
+
+285
+00:44:05,480 --> 00:44:12,760
+ something even more powerful because it works for no square no no square matrix of course
+
+286
+00:44:12,760 --> 00:44:18,920
+ singular value decomposition based on eigen eigenvalue decomposition you'll need to learn
+
+287
+00:44:18,920 --> 00:44:23,640
+ eigenvalue decomposition you need to have eigenvalue decomposition in order to apply to
+
+288
+00:44:24,359 --> 00:44:32,040
+ singular value decomposition so so so the way to do is for any no square matrix you can
+
+289
+00:44:33,080 --> 00:44:40,600
+ also do the decomposition but only difference here the diagonal element is the same you know it
+
+290
+00:44:40,600 --> 00:44:49,240
+ looks like they are all positive but all depending on the ring if the matrix of ring
+
+291
+00:44:50,120 --> 00:44:56,600
+ are then you have out of them not equal to zero they are actually positive but the
+
+292
+00:44:56,600 --> 00:45:04,680
+ left matrix and right right matrix here there are both unitary unitary matrix mean all the columns
+
+293
+00:45:04,680 --> 00:45:13,560
+ of rows they are they are orthogonal and but they are they are in general different different in
+
+294
+00:45:13,560 --> 00:45:23,880
+ both in size and also they are not having the same element not the same matrix in eigenvalue
+
+295
+00:45:23,880 --> 00:45:30,840
+ decomposition you have the same matrix just take the commission but here they are different okay
+
+296
+00:45:30,840 --> 00:45:45,320
+ then you can yeah you can also for for special square matrix which is of ring r in this case
+
+297
+00:45:45,320 --> 00:45:51,880
+ semi positive definite being you don't need to be greater than zero it can be greater or equal to zero
+
+298
+00:45:52,760 --> 00:46:01,480
+ and not necessarily full ring also it can be smaller ring compared to this then this way the
+
+299
+00:46:01,480 --> 00:46:09,080
+ corresponding singular value decomposition see here it becomes like the very similar to our
+
+300
+00:46:09,880 --> 00:46:18,680
+ eigen decomposition except here the diagonal element is always you you you are square you see
+
+301
+00:46:19,640 --> 00:46:27,399
+ you are always once you're square will be always always positive but then it allows to have some
+
+302
+00:46:27,399 --> 00:46:36,600
+ zero singular value because the ring is only r so so it's and typically we all the the largest one
+
+303
+00:46:36,600 --> 00:46:45,720
+ first and then sequentially going down okay and then the ring to equal to r so you will stop at this
+
+304
+00:46:46,279 --> 00:46:54,919
+ after they become come zero that's right semi definite now we want to relate it to our what we
+
+305
+00:46:54,919 --> 00:47:05,080
+ learned about you see the auto correlation matrix which is very useful in signal processing in the
+
+306
+00:47:06,040 --> 00:47:14,600
+ random signal or statistical signal processing so so again here we are in general dealing with
+
+307
+00:47:14,600 --> 00:47:25,560
+ this positive possibly complex value so remember what I say here this is column vector first
+
+308
+00:47:26,200 --> 00:47:34,440
+ followed by a row vector so it's an outer product it will be become square matrix you see
+
+309
+00:47:35,400 --> 00:47:40,839
+ other way around it will be in the product and then because they are random you see so we
+
+310
+00:47:41,800 --> 00:47:49,400
+ take the expectation and and so you see here auto correlation is somehow you're
+
+311
+00:47:50,440 --> 00:47:56,440
+ you're take using expectation to reduce the randomness and become a
+
+312
+00:47:57,800 --> 00:48:07,880
+ metric here which is in Hermitian it could be positive semi definite semi positive definite
+
+313
+00:48:07,880 --> 00:48:14,920
+ sometimes it's a positive definite sometimes it could be just semi positive definite it's not
+
+314
+00:48:15,480 --> 00:48:22,600
+ not free okay then you'll pay some the definition and this expectation as you hear the
+
+315
+00:48:24,760 --> 00:48:30,440
+ outer product you become matrix but to take expectation you need to know the
+
+316
+00:48:31,400 --> 00:48:40,280
+ PDF for building the function of this of this data then multiply and then do the integration
+
+317
+00:48:40,280 --> 00:48:49,720
+ usually this become a bit complicated and based on this property we know this metric is
+
+318
+00:48:50,840 --> 00:48:57,480
+ Hermitian because you can take the operation of the Hermitian operation on this so
+
+319
+00:48:58,280 --> 00:49:08,200
+ satisfy this furthermore if you now we have this matrix so our definition want to see whether
+
+320
+00:49:09,000 --> 00:49:17,400
+ is semi positive definite you need to multiply need no zero vector which is not random you see so this
+
+321
+00:49:18,280 --> 00:49:24,840
+ x of n is random this w is not random you see so one from the right then there is it could be
+
+322
+00:49:24,840 --> 00:49:33,080
+ complex from the left then you're parking and do a little big simplification n dot with this is again
+
+323
+00:49:33,640 --> 00:49:40,120
+ positive value is a norm 2 you see greater or equal to zero then this kind of integration
+
+324
+00:49:40,120 --> 00:49:45,800
+ you will always n dot with greater or equal to zero because of this property
+
+325
+00:49:45,800 --> 00:49:57,960
+ okay now we move one step further to a more practical setting and we did that for many times
+
+326
+00:49:57,960 --> 00:50:06,760
+ in the chapter 2 and for those taking 7402 this is also a very basic assumption signal or
+
+327
+00:50:06,760 --> 00:50:15,880
+ in noise okay and yeah and this is and here noise we just assume is like white noise of
+
+328
+00:50:17,720 --> 00:50:27,080
+ of variant go to sigma w power 2 then both are statistically independent so this is very important
+
+329
+00:50:27,080 --> 00:50:32,680
+ let me you don't have the you you are not give give a constant because when you
+
+330
+00:50:32,759 --> 00:50:48,839
+ multiply you see plus you make it multiply from as a even outer product is similar to the
+
+331
+00:50:50,040 --> 00:50:56,759
+ to the square square link operation so from two term your n dot n dot is four terms so
+
+332
+00:50:56,840 --> 00:51:02,440
+ that means you have a two cross term here but because of this statistically independent
+
+333
+00:51:03,320 --> 00:51:13,960
+ it will the cross term will become become zero so you only have the signal the so-called
+
+334
+00:51:13,960 --> 00:51:21,720
+ or auto correlation of the signal auto correlation of the noise to accept and and this one because
+
+335
+00:51:21,720 --> 00:51:31,640
+ white noise and then you n dot with this very special noise covariant matrix and this is in
+
+336
+00:51:31,640 --> 00:51:40,279
+ general for the signal we can't say much okay and because it's permission and semi positive
+
+337
+00:51:40,279 --> 00:51:48,439
+ definitely in general then based on what we learned can decompose into this sbd in this way and
+
+338
+00:51:49,320 --> 00:51:56,920
+ it has this eigenvalue up to here then this np is the ruin of the is okay and then
+
+339
+00:51:57,800 --> 00:52:05,000
+ because the noise covariant matrix at this very space very special structure so
+
+340
+00:52:06,200 --> 00:52:13,720
+ you can verify very easily once you do the singularity commotion for the is by adding this one
+
+341
+00:52:13,720 --> 00:52:27,640
+ you you will still n dot with the eigen eigenvector of this ix and the is x and is at the same
+
+342
+00:52:27,640 --> 00:52:33,399
+ but the eigenvalue will be different or the singular value because here this is the singular
+
+343
+00:52:33,399 --> 00:52:39,720
+ very difficult you are basically just adding up the noise and the noise is white so it's cross
+
+344
+00:52:39,720 --> 00:52:48,600
+ all over the place or all the you see so every diagonal you just add this and so that's easy to
+
+345
+00:52:48,600 --> 00:52:56,680
+ verify and then you can see some property also here this r of x this is dealing with the signal
+
+346
+00:52:56,680 --> 00:53:05,240
+ noise no singular if we have noise so so that's why in some applications adding noise is useful
+
+347
+00:53:05,959 --> 00:53:14,600
+ because noise helps you to make the matrix from the from a singular to become become like a full
+
+348
+00:53:14,600 --> 00:53:24,839
+ ring in in this case and then the is is different eigenvalue but the same eigenvector as this is
+
+349
+00:53:24,839 --> 00:53:31,240
+ because of course we assume the noise is white so here this property otherwise if it's not white
+
+350
+00:53:31,240 --> 00:53:37,160
+ then you cannot have this and for the more if we assume we have the
+
+351
+00:53:39,479 --> 00:53:49,399
+ you know lambda of k is the case eigenvalue then those are beyond this np plus one and so on they
+
+352
+00:53:49,399 --> 00:53:59,080
+ are all equal to the noise the eigen the value of the noise and that's equal to the to the minimum
+
+353
+00:54:00,040 --> 00:54:07,960
+ singular value of this rx because remember we all the the value from largest all the way to
+
+354
+00:54:07,960 --> 00:54:17,799
+ the smallest one so therefore this is one way if you all you don't know this noise
+
+355
+00:54:17,800 --> 00:54:29,720
+ value but you are able to get this rx then you can do a singular value decomposition and then
+
+356
+00:54:29,720 --> 00:54:38,280
+ from the smallest eigenvalue of this rx you can you can file assuming of course the the n the number
+
+357
+00:54:38,280 --> 00:54:45,960
+ of sample you use to measure is greater than the ring uh than the yeah than the than the range of this
+
+358
+00:54:46,920 --> 00:54:54,200
+ this is the the signal n typically this refer corresponding to the independent
+
+359
+00:54:55,160 --> 00:55:02,760
+ source signals we are assuming like for example sideways which is what we are we are discussing
+
+360
+00:55:02,760 --> 00:55:09,720
+ so this is a very important concept signal and noise subspace this is what i told you earlier is
+
+361
+00:55:10,359 --> 00:55:14,359
+ subspace and it's very important so how are we going to
+
+362
+00:55:16,759 --> 00:55:24,520
+ to look into this okay remember we already know we can do the singular value decomposition of this
+
+363
+00:55:25,240 --> 00:55:35,160
+ ix and then you're based on the singular value you see we we start from the larger one
+
+364
+00:55:35,720 --> 00:55:44,759
+ uh number one is the largest all the way up to np and so this this is the first term
+
+365
+00:55:44,759 --> 00:55:50,680
+ now that there will be the k from np plus one all the way up to n is another one
+
+366
+00:55:52,600 --> 00:56:00,920
+ so therefore this uk here is the case of the column vector of this also normal for complex
+
+367
+00:56:00,920 --> 00:56:05,320
+ we call it also normal real is also gonna also normal
+
+368
+00:56:07,400 --> 00:56:18,040
+ matrix of this u then it satisfy this you know also normal is if l and m are not the same then
+
+369
+00:56:18,040 --> 00:56:23,480
+ it will become zero this is delta function m you got the l of course you got the one so you'll have
+
+370
+00:56:23,480 --> 00:56:33,560
+ this property and therefore uh this is very useful the two subspace they are mutually orthogonal
+
+371
+00:56:33,560 --> 00:56:42,040
+ you see so that means if this this one from one all the way up to np this is what do i call
+
+372
+00:56:43,880 --> 00:56:50,520
+ signal subspace you have a vector and if you have one vector you'll explain one vector like most
+
+373
+00:56:50,520 --> 00:56:56,440
+ of you are still explaining the one dimension that you can multiply for any no zero value
+
+374
+00:56:56,440 --> 00:57:02,360
+ making infinitely long but a long one vector if you have two you know two vectors as long as they are
+
+375
+00:57:02,360 --> 00:57:09,800
+ also they are even they are assume orthogonal then you'll explain into two d space where it is
+
+376
+00:57:09,800 --> 00:57:18,760
+ playing if you have three three d space and so on so I mean spain mean you'll you'll you'll make the
+
+377
+00:57:18,760 --> 00:57:25,480
+ make the space bigger and bigger and the dimension will be equal to np so this is for the signal
+
+378
+00:57:25,480 --> 00:57:37,560
+ then for noise you use those those uh column vector starting from np plus one as in those
+
+379
+00:57:37,560 --> 00:57:46,680
+ corresponding to this smaller uh single value they'll expand and these two subspace they are also
+
+380
+00:57:46,680 --> 00:57:58,680
+ mutually orthogonal to to each other so this is very important okay and uh let's look at the signal
+
+381
+00:57:58,680 --> 00:58:06,919
+ model so they at least you're linking to our application here assume we are dealing with
+
+382
+00:58:06,919 --> 00:58:14,680
+ sideways but this is not just deterministic sideways because typically we we can assume
+
+383
+00:58:14,680 --> 00:58:24,120
+ and in some application it does the the phase here they are they're random but uniformly
+
+384
+00:58:24,120 --> 00:58:31,880
+ distribute because phase is two pi t or other so over this minus pi to pi uniformly this
+
+385
+00:58:31,880 --> 00:58:39,720
+ distributed but other parameter aka and the frequency they are they are not random they are
+
+386
+00:58:42,040 --> 00:58:49,640
+ deterministic okay then this these are two ways to write typically we know the in real life our
+
+387
+00:58:49,640 --> 00:58:57,960
+ signal is the real in sign cosine but in the analysis just like you are doing Fourier transform is
+
+388
+00:58:57,960 --> 00:59:07,560
+ easier to introduce uh complex sideways or we call it complex exponential exponential signal
+
+389
+00:59:07,560 --> 00:59:15,480
+ and using error formula you can uh any real sine or cosine real signal you can always like
+
+390
+00:59:15,480 --> 00:59:26,440
+ as a sum of two uh you know complex exponential in conjugate okay so so that's why this is up to
+
+391
+00:59:26,440 --> 00:59:36,440
+ if you're p the np will be twice two p if you're yeah big and and also the relationship this uh
+
+392
+00:59:36,440 --> 00:59:45,160
+ amplitude here is a half uh and the amplitude here is uh is an even function so they are all equal
+
+393
+00:59:45,160 --> 00:59:52,759
+ phase is and it's an all function so you'll change side and so on and uh frequency of course we're
+
+394
+00:59:52,759 --> 01:00:01,000
+ assuming but looking to negative frequency so you have this uh okay so that means effectively only
+
+395
+01:00:01,799 --> 01:00:11,319
+ the positive one are useful but you can expand into this and then uh this is a typical uh like
+
+396
+01:00:12,120 --> 01:00:23,960
+ simple case and this uh is if you have a sum of two uh side uh complex exponential signal okay
+
+397
+01:00:23,960 --> 01:00:31,960
+ then if the signal is say delayed by one sample delayed by two sample you can uh you see this is
+
+398
+01:00:31,960 --> 01:00:37,720
+ useful property in the time domain you'll delay in your n-dark ways in the frequency domain you'll
+
+399
+01:00:38,359 --> 01:00:47,640
+ you'll become some phase chip and that's precisely here because uh you can see uh all of these two
+
+400
+01:00:47,640 --> 01:00:56,040
+ are related to this s-n s-n is this so we only need to write down this uh basic uh you know the
+
+401
+01:00:57,480 --> 01:01:04,600
+ the signal without without delay and the other you will be uh this one one of course is
+
+402
+01:01:05,480 --> 01:01:09,480
+ you will be accept then the other one you're every time you have the
+
+403
+01:01:09,480 --> 01:01:15,319
+ shift delay by one you'll get some phase delay delay by two your n-dark ways another one
+
+404
+01:01:15,960 --> 01:01:22,920
+ so this is the one here and then in general from this example you can uh extend it to the general
+
+405
+01:01:23,560 --> 01:01:30,759
+ expression s-n you're you're doing this way this is uh uh you're in total how many you see n-p
+
+406
+01:01:31,400 --> 01:01:39,800
+ uh exponential complex exponential signal here with different frequency and this Q here is the
+
+407
+01:01:39,800 --> 01:01:48,680
+ one you're considering those delay time so now if you want to take the you see we are still looking
+
+408
+01:01:48,680 --> 01:01:54,040
+ at the signal we don't consider noise here i-s equal to this uh uh you take expectation
+
+409
+01:01:54,759 --> 01:02:00,600
+ uh since this is not random you see it doesn't involve time it doesn't involve the phase you see
+
+410
+01:02:00,600 --> 01:02:10,759
+ so uh so uh this Q you can pull it out and only this part can become like random you have to
+
+411
+01:02:11,800 --> 01:02:15,240
+ still keep the x-fone name uh expectation here
+
+412
+01:02:17,560 --> 01:02:23,400
+ and then uh i think i finished this part then i take a break uh we can denote this you see again
+
+413
+01:02:23,400 --> 01:02:32,600
+ this is and then the n-case element of this matrix uh you can work out the it will be a product of
+
+414
+01:02:32,600 --> 01:02:39,240
+ this and remember it could be complex then we need to take conjugate and then you'll put the
+
+415
+01:02:39,960 --> 01:02:47,960
+ n-p-dew out first then these are the uh so-called phase term you'll multiply and this is involving
+
+416
+01:02:47,960 --> 01:02:57,080
+ n is the signal itself n is like the timing deck and then if n-eco to k you'll be looking at the
+
+417
+01:02:57,080 --> 01:03:06,360
+ diagonal element then uh of course uh e of this you are just taking the taking this part then
+
+418
+01:03:06,360 --> 01:03:12,040
+ then of course because the other one become become zero uh then you are taking the absolute value
+
+419
+01:03:12,040 --> 01:03:22,120
+ raise the power of two of them uh now for n-eco to k you can taking expectation and then uh you will see
+
+420
+01:03:24,600 --> 01:03:29,880
+ you see those not random you take out those random ones you keep it here okay and
+
+421
+01:03:32,600 --> 01:03:41,240
+ and then according to our formula and also again now if you're depends on whether n equal to k or
+
+422
+01:03:41,240 --> 01:03:54,919
+ not uh you or c here e of this uh it will be uh k equal to k minus uh m equal to p you see it could be
+
+423
+01:03:58,279 --> 01:04:05,799
+ could be uh equal here we are talking about remember when we explain we will be cross over to the other
+
+424
+01:04:05,800 --> 01:04:15,160
+ half so so therefore this will be equal twice and this is different and not n k minus uh
+
+425
+01:04:16,040 --> 01:04:22,760
+ n not equal to p then they will be independent and either way you can see when you take expectation
+
+426
+01:04:23,400 --> 01:04:31,000
+ uh you you uh it will become zero you can refer back to our early exercises for that so in the end
+
+427
+01:04:31,000 --> 01:04:39,720
+ therefore our is magic will be equal to q then this is a very special diagonal diagonal matrix
+
+428
+01:04:39,720 --> 01:04:46,360
+ and multiply that is and in this way because this is diagonal you can explain into this way so and this
+
+429
+01:04:46,360 --> 01:04:55,480
+ q m uh here is the k column vector of the q you'll divide you'll divide early and then this q
+
+430
+01:04:55,480 --> 01:05:05,320
+ metric is a random matrix and has a ring of minimum and n or np normally we assume n is greater than
+
+431
+01:05:05,320 --> 01:05:15,720
+ np so therefore this is this is matrix is always always singular so yeah therefore you can reduce
+
+432
+01:05:15,720 --> 01:05:23,400
+ this into uh if you add noise this will be the noise and again here this very important important
+
+433
+01:05:23,400 --> 01:05:33,320
+ result this uh the uh signal subspace and the noise there will be there will be orthogonal to uh
+
+434
+01:05:34,520 --> 01:05:43,080
+ also normal to each other if you're dealing with complex and uh yeah so this uh also uh yeah you can
+
+435
+01:05:43,080 --> 01:05:50,280
+ see it derived from this property so it's uh it's the right time to take a break here we have uh several
+
+436
+01:05:50,760 --> 01:06:00,120
+ uh like uh icon decomposition measure applying to uh spectrum uh power spectrum estimation
+
+437
+01:06:00,120 --> 01:06:10,120
+ we will leave this into next week with uh we will go through that and now is 7 36 uh usually
+
+438
+01:06:10,200 --> 01:06:20,920
+ it's the right time we take a break about just uh 14 10 to 14 minutes so everyone come back to
+
+439
+01:06:22,680 --> 01:06:30,359
+ here uh come back to here before uh 7 4 50 you need to take a break I also want to do
+
+440
+01:06:30,359 --> 01:06:37,319
+ show you the how we do the do the grouping uh because this time I like all the name here
+
+441
+01:06:37,320 --> 01:06:46,600
+ hope this is clear because uh last time some student uh anyway we are not very clear later you can
+
+442
+01:06:47,160 --> 01:06:56,440
+ you can come up to have to see uh so basically we do the grouping according to your surname
+
+443
+01:06:56,440 --> 01:07:05,080
+ alphabetical order and uh last week for the other call there are many students a bit confused
+
+444
+01:07:05,080 --> 01:07:12,120
+ they have the same surname li and they don't know whether they belong to group one or two so so now
+
+445
+01:07:13,799 --> 01:07:20,440
+ very clear and then there are many one as you also uh you know this time all the one are here
+
+446
+01:07:20,440 --> 01:07:28,360
+ all the lead they're only this lead lead zongda will be the second group and how uh I designate the
+
+447
+01:07:29,160 --> 01:07:39,160
+ the area uh later let me show you here uh typically group one three okay so you look at that group two is
+
+448
+01:07:39,720 --> 01:07:49,080
+ let me see all now the all the chair cutler uh okay uh xin zhang here there's my this this
+
+449
+01:07:49,080 --> 01:07:56,120
+ is an student so you so you see here don't yeah then the I think group one uh group two is a little
+
+450
+01:07:56,120 --> 01:08:04,680
+ bit larger so um maybe I want more role so so make sure yeah so group three will be this uh
+
+451
+01:08:07,080 --> 01:08:16,680
+ lady student from here or after xin zhang even know her uh all the this area will be group two
+
+452
+01:08:16,680 --> 01:08:23,320
+ okay so you take a rest then you take a look at the name yeah I think the name probably not
+
+453
+01:08:23,960 --> 01:08:31,480
+ large enough to see I am a emphasize uh in large the first each group the first name and the same
+
+454
+01:08:31,480 --> 01:08:41,000
+ so so remember here yeah so group one here group three here according to the name basically
+
+455
+01:08:41,000 --> 01:08:47,399
+ your surname is a small letter group one like Chao Chao xin zhang and those are zhang or whatever
+
+456
+01:08:47,399 --> 01:08:56,520
+ will be group three those are in the middle like uh uh Liu Wang will be group uh group two okay
+
+457
+01:08:57,080 --> 01:09:03,560
+ because easier for us to check and to and to collect the uh the paper
+
+458
+01:09:03,640 --> 01:09:04,120
+ so
+
+459
+01:09:05,880 --> 01:09:15,000
+ I can come to take a look at your young supi I think near the yeah a group three is here yes
+
+460
+01:09:16,040 --> 01:09:25,800
+ oh yeah okay very very good yeah so uh you are very good one and let me see I
+
+461
+01:09:26,600 --> 01:09:37,880
+ I locate each of you you can I think the the other group that uh if she can other than I think
+
+462
+01:09:37,880 --> 01:09:49,000
+ there at the Ha Ha Ha Ha you'll be group one in charge of this uh you'll be in charge of uh
+
+463
+01:09:49,240 --> 01:09:49,800
+ three
+
+464
+01:09:50,920 --> 01:09:51,000
+ three
+
+465
+01:09:51,000 --> 01:09:51,479
+ shang
+
+466
+01:09:55,480 --> 01:09:56,040
+ three shang
+
+467
+01:09:57,960 --> 01:10:09,720
+ and you come the other two and you uh let's let's see the other uh okay so maybe I can yeah I can
+
+468
+01:10:09,720 --> 01:10:17,400
+ write down here to make it uh very large so that the other side uh group one uh
+
+469
+01:10:19,880 --> 01:10:25,320
+ group one is from uh I just write down the surname I think it's uh
+
+470
+01:10:26,600 --> 01:10:39,880
+ bang bang all the way until uh most of the li okay li li zhi li then the only
+
+471
+01:10:40,840 --> 01:10:47,880
+ the only li starting with uh li zhong uh
+
+472
+01:10:47,960 --> 01:10:54,360
+ ta you will be group two leading group two after that all the if you're last name is uh
+
+473
+01:10:56,200 --> 01:11:06,120
+ you'll see li plus something or li li and so on uh all the way up to the last one will be one
+
+474
+01:11:06,120 --> 01:11:16,200
+ all the one if you are surname the first letter is smaller than WNG uh like t or whatever it will
+
+475
+01:11:16,200 --> 01:11:26,519
+ be group two then last group three is starting from we surname is wei okay then uh greater than
+
+476
+01:11:26,520 --> 01:11:35,720
+ that one because it will be wu or whatever x xiong yang or all the zheng uh chu whatever
+
+477
+01:11:35,720 --> 01:11:44,680
+ there will be all the way until until the last okay so that one I hope it should be it should be
+
+478
+01:11:44,680 --> 01:11:53,480
+ clear uh to you yeah which one is group one is here group three is out the the other one and group
+
+479
+01:11:53,480 --> 01:12:03,959
+ two is uh in the middle uh the just now yeah the the the lady standing there is towards n the last
+
+480
+01:12:03,959 --> 01:12:10,919
+ several row because it's it will be both sides group two is a larger one so it could be uh the
+
+481
+01:12:11,000 --> 01:12:21,320
+ last one so so make sure the ways are the two to student uh uh let me call I have their their phone
+
+482
+01:12:22,680 --> 01:12:31,400
+ uh they are yeah you for them they they gave me the uh let me call them first
+
+483
+01:12:41,640 --> 01:12:48,680
+ you can help to check uh yeah make sure student group eight will be will be sitting this
+
+484
+01:12:53,880 --> 01:12:56,520
+ group two is at the back the the last
+
+485
+01:13:11,400 --> 01:13:14,360
+ are you doing are you doing
+
+486
+01:13:24,840 --> 01:13:32,280
+ so today I make you in charge of the group then you will be somehow the last several
+
+487
+01:13:33,160 --> 01:13:39,080
+ from both sides you are you are you are you are you are okay very good in charge of group
+
+488
+01:13:39,080 --> 01:13:45,719
+ three later I gave you a picture just follow me I bring up all the net and then also show the
+
+489
+01:13:48,519 --> 01:13:57,480
+ so uh again you can yeah contact the paper yeah just make sure they see in the in in right place
+
+490
+01:13:57,559 --> 01:14:02,839
+ Hannah you're a good one so uh so again here
+
+491
+01:14:06,519 --> 01:14:13,959
+ okay uh so it should be very clear because we want to make it easier to later to check the
+
+492
+01:14:13,959 --> 01:14:22,599
+ your uh maturation card and also collect the the paper group one is those surnames are starting
+
+493
+01:14:22,600 --> 01:14:28,520
+ you know alphabetical order with a small one your first letter bang you know the small is one then
+
+494
+01:14:28,520 --> 01:14:38,040
+ all the way up to uh most of the Li Li Ziyi will be group group one is a region one here group three
+
+495
+01:14:38,040 --> 01:14:47,880
+ is here both are later you know Zhang or whatever Yang will be always here so where is the the division
+
+496
+01:14:47,880 --> 01:14:59,720
+ I think yeah it can be can be here okay so so group one is all the way up to here group three is
+
+497
+01:15:00,520 --> 01:15:09,480
+ this side up to here and group two is whatever in the last several rows here can be can be both side
+
+498
+01:15:10,120 --> 01:15:17,640
+ okay you either follow the larger one but not detail all the small one you go you go there to
+
+499
+01:15:18,280 --> 01:15:25,640
+ at the double check okay so I want to make sure everyone follow because easier to easier to check
+
+500
+01:15:25,640 --> 01:15:32,360
+ and easier to collect the paper then I do the yeah I do the marking and then you also sit one next
+
+501
+01:15:32,360 --> 01:15:39,960
+ to the other with a empty seat in the you know between you not to sit next to each other at least
+
+502
+01:15:39,960 --> 01:15:46,920
+ one yeah I think you already know yeah like the the current practice so so make sure because later
+
+503
+01:15:46,920 --> 01:15:52,200
+ if you don't follow later when we check you will be asked to move then it calls you some
+
+504
+01:15:53,080 --> 01:16:01,240
+ inconvenient uh also yeah okay so Liu is here whether Liu should be the we have the
+
+505
+01:16:02,600 --> 01:16:12,920
+ many students call either Li or Liu or Wang Wang also in group two okay so the this several surnames
+
+506
+01:16:13,400 --> 01:16:23,560
+ many students here I I think here okay so anyone stand up clear if you're not clear you ask
+
+507
+01:16:23,560 --> 01:16:32,600
+ you ask now we still have a few minutes before we start to distribute the paper make sure you'll
+
+508
+01:16:32,600 --> 01:16:41,240
+ follow if you don't are not sure you can tell me your your surname just just name because mostly
+
+509
+01:16:41,240 --> 01:16:44,440
+ we base we based on surname okay
+
+510
+01:16:50,200 --> 01:16:58,519
+ good one here so good one is on my side right hand side up to here yes yes although yeah
+
+511
+01:16:58,519 --> 01:17:05,000
+ uh not particularly yeah yeah no no no nobody gives you very hard to follow see you you're going
+
+512
+01:17:05,080 --> 01:17:11,480
+ front there are several empty seats yeah normally our class size is nice it's where
+
+513
+01:17:11,480 --> 01:17:20,520
+ where enough every student you'll leave a empty seat yeah yeah typically group two they think double is
+
+514
+01:17:20,520 --> 01:17:27,160
+ some students sitting here only but they should be either going to group one or group three because
+
+515
+01:17:27,160 --> 01:17:34,200
+ group three there's very many empty seats so but the size about the same group two a little bit more
+
+516
+01:17:34,200 --> 01:17:41,880
+ students so okay so should be clear I think Yang is a group three yes yeah so
+
+517
+01:17:44,599 --> 01:17:52,200
+ any any student not very sure Zhang you're also group three because yeah Zhang is a regular those are there
+
+518
+01:17:53,160 --> 01:18:05,080
+ uh from we own what w e i and then all the all the way to the end and yeah so so however this is
+
+519
+01:18:05,080 --> 01:18:07,400
+ very clear okay
+
+520
+01:18:10,519 --> 01:18:14,200
+ all uh more problem
+
+521
+01:18:22,280 --> 01:18:26,200
+ any
+
+522
+01:18:28,440 --> 01:18:36,200
+ more
+
+523
+01:18:36,200 --> 01:18:56,200
+ If any student is wrongly, you are asked to move to the right.
+
+524
+01:18:56,200 --> 01:19:12,200
+ You are also late in your lecture paper.
+
+525
+01:19:12,200 --> 01:19:40,200
+ You are also late in your lecture paper.
+
+526
+01:19:42,200 --> 01:19:50,200
+ You can also go to take a look to see whether they sit properly.
+
+527
+01:19:50,200 --> 01:19:56,200
+ There are still quite many MDCs here.
+
+528
+01:19:56,200 --> 01:20:04,200
+ Also later when we distribute the paper, you can count the number of each row,
+
+529
+01:20:04,200 --> 01:20:10,200
+ then give the correct number, ask them from past from one end to the other.
+
+530
+01:20:10,200 --> 01:20:14,200
+ If they are young, you are more experienced.
+
+531
+01:20:14,200 --> 01:20:16,200
+ You are taking care of the last two.
+
+532
+01:20:16,200 --> 01:20:20,200
+ Then you can look at the left and right and do one.
+
+533
+01:20:20,200 --> 01:20:22,200
+ They will be faster.
+
+534
+01:20:22,200 --> 01:20:24,200
+ The left is fine.
+
+535
+01:20:24,200 --> 01:20:26,200
+ The right is fine.
+
+536
+01:20:26,200 --> 01:20:28,200
+ Then you give five papers.
+
+537
+01:20:28,200 --> 01:20:32,200
+ Then you go to the next row.
+
+538
+01:20:32,200 --> 01:20:36,200
+ Let me double check.
+
+539
+01:20:36,200 --> 01:20:38,200
+ Are you all in correct order?
+
+540
+01:20:38,200 --> 01:20:48,200
+ As I said, if you sit like last week wrongly, then I will ask you to move to the right group, right region.
+
+541
+01:20:48,200 --> 01:20:52,200
+ Where do I sit last time?
+
+542
+01:20:52,200 --> 01:20:56,200
+ Are you in group 2 or 3?
+
+543
+01:20:56,200 --> 01:20:58,200
+ Group 3.
+
+544
+01:20:58,200 --> 01:21:00,200
+ Group 2.
+
+545
+01:21:00,200 --> 01:21:02,200
+ Group 2.
+
+546
+01:21:02,200 --> 01:21:04,200
+ Yes.
+
+547
+01:21:04,200 --> 01:21:06,200
+ So very clear.
+
+548
+01:21:06,200 --> 01:21:10,200
+ De Yang, can you come here to help?
+
+549
+01:21:10,200 --> 01:21:12,200
+ You can just stay here.
+
+550
+01:21:12,200 --> 01:21:20,200
+ So make sure any student beyond this point will be group 2.
+
+551
+01:21:20,200 --> 01:21:22,200
+ Group 2 is your surname.
+
+552
+01:21:22,200 --> 01:21:24,200
+ Start from Li Zhong Da.
+
+553
+01:21:24,200 --> 01:21:26,200
+ That's only Li in group 2.
+
+554
+01:21:26,200 --> 01:21:28,200
+ All the other Li will be group 1 here.
+
+555
+01:21:28,200 --> 01:21:32,200
+ And all the way up to all the Wang.
+
+556
+01:21:32,200 --> 01:21:34,200
+ I divide into this way.
+
+557
+01:21:34,200 --> 01:21:38,200
+ So that's why a little bit more student for Wang.
+
+558
+01:21:38,200 --> 01:21:40,200
+ All the Wang up to group 2.
+
+559
+01:21:40,200 --> 01:21:44,200
+ Then beyond that, WTI will be group 3.
+
+560
+01:21:44,200 --> 01:21:46,200
+ Sorry, group 2.
+
+561
+01:21:46,200 --> 01:21:48,200
+ Sorry, group 3 is here.
+
+562
+01:21:48,200 --> 01:21:50,200
+ Group 2 is here.
+
+563
+01:21:50,200 --> 01:21:52,200
+ They confuse.
+
+564
+01:21:52,200 --> 01:21:54,200
+ Group 3 is here.
+
+565
+01:21:54,200 --> 01:21:56,200
+ Group 3.
+
+566
+01:21:56,200 --> 01:21:58,200
+ Group 2 in the middle is here.
+
+567
+01:21:58,200 --> 01:22:00,200
+ It's on both sides.
+
+568
+01:22:00,200 --> 01:22:02,200
+ Okay?
+
+569
+01:22:02,200 --> 01:22:04,200
+ So clear.
+
+570
+01:22:04,200 --> 01:22:08,200
+ I think we can start to distribute the paper.
+
+571
+01:22:08,200 --> 01:22:14,200
+ Also, another important rule is very similar to the final exam paper.
+
+572
+01:22:14,200 --> 01:22:20,200
+ You all know, I think for new students, you also is a practice.
+
+573
+01:22:20,200 --> 01:22:24,200
+ In the final exam paper, the last 15 minutes, you cannot leave the hall.
+
+574
+01:22:24,200 --> 01:22:26,200
+ You cannot submit paper.
+
+575
+01:22:26,200 --> 01:22:32,200
+ So you either submit 15 minutes before the ending time for the exam.
+
+576
+01:22:32,200 --> 01:22:36,200
+ But for this one, since we only one hour, I give you 10 minutes.
+
+577
+01:22:36,200 --> 01:22:42,200
+ So that means if you finish early, probably not many students can do it within 15 minutes.
+
+578
+01:22:42,200 --> 01:22:44,200
+ There are quite a few sub questions.
+
+579
+01:22:44,200 --> 01:22:48,200
+ So probably majority will take the full Wang out.
+
+580
+01:22:48,200 --> 01:22:56,200
+ But once you're beyond 8.50, you cannot say, I want to submit in the middle.
+
+581
+01:22:56,200 --> 01:23:01,200
+ You either submit early before 8.50, then you can leave early.
+
+582
+01:23:01,200 --> 01:23:04,200
+ You want to take the pass or you can leave early.
+
+583
+01:23:04,200 --> 01:23:11,200
+ But once you're after 8.50, the color of your, you have to stay until we collect all the paper.
+
+584
+01:23:11,200 --> 01:23:13,200
+ Okay? Fair.
+
+585
+01:23:13,200 --> 01:23:17,200
+ So I make this announcement.
+
+586
+01:23:17,200 --> 01:23:22,200
+ And then each student will have a double side quiz paper.
+
+587
+01:23:22,200 --> 01:23:25,200
+ Let me see with this.
+
+588
+01:23:25,200 --> 01:23:28,200
+ Okay, so...
+
+589
+01:23:34,200 --> 01:23:36,200
+ This one.
+
+590
+01:23:40,200 --> 01:23:44,200
+ Okay. I think it's fine.
+
+591
+01:23:44,200 --> 01:23:51,200
+ We already announced that then later, I will try to see whether I can find a similar...
+
+592
+01:23:51,200 --> 01:23:55,200
+ Okay, I think we start to distribute the paper.
+
+593
+01:23:55,200 --> 01:24:00,200
+ I give you a few more extra minutes.
+
+594
+01:24:00,200 --> 01:24:11,200
+ So next week, in case not enough paper, because I do not have some spare one here.
+
+595
+01:24:11,200 --> 01:24:18,200
+ So you're for...
+
+596
+01:24:18,200 --> 01:24:23,200
+ Group one, you keep this.
+
+597
+01:24:23,200 --> 01:24:26,200
+ Then later, you check you give the paper first.
+
+598
+01:24:26,200 --> 01:24:27,200
+ And later, yeah.
+
+599
+01:24:27,200 --> 01:24:30,200
+ So as I say, you give count number.
+
+600
+01:24:30,200 --> 01:24:33,200
+ Okay, then you will be...
+
+601
+01:24:33,200 --> 01:24:37,200
+ The young, you can group two.
+
+602
+01:24:37,200 --> 01:24:43,200
+ So you ask the student or you already know who's there.
+
+603
+01:24:43,200 --> 01:24:49,200
+ It's the same thing you can do later than right after group two.
+
+604
+01:24:49,200 --> 01:24:53,200
+ Then, you'll be the last one.
+
+605
+01:24:53,200 --> 01:24:58,200
+ This way is on the right side here.
+
+606
+01:24:58,200 --> 01:25:02,200
+ This one is later to check their magic.
+
+607
+01:25:02,200 --> 01:25:04,200
+ But it will be easier.
+
+608
+01:25:05,200 --> 01:25:07,200
+ No, no, no.
+
+609
+01:25:07,200 --> 01:25:09,200
+ Six thousand meters.
+
+610
+01:25:09,200 --> 01:25:12,200
+ They are free seating as long as we do the reason.
+
+611
+01:25:12,200 --> 01:25:14,200
+ Because it cannot...
+
+612
+01:25:14,200 --> 01:25:16,200
+ They have to follow.
+
+613
+01:25:16,200 --> 01:25:18,200
+ As long as they are in the same reason, it's fine.
+
+614
+01:25:18,200 --> 01:25:21,200
+ So you'll count the row how many.
+
+615
+01:25:21,200 --> 01:25:23,200
+ Then you'll give the first one.
+
+616
+01:25:23,200 --> 01:25:25,200
+ Ask them to pass.
+
+617
+01:25:25,200 --> 01:25:27,200
+ Starting...
+
+618
+01:25:27,200 --> 01:25:29,200
+ For example, here you have four.
+
+619
+01:25:29,200 --> 01:25:33,200
+ You'll give four paper to the student to pass.
+
+620
+01:25:33,200 --> 01:25:35,200
+ Then I'll check your name.
+
+621
+01:25:35,200 --> 01:25:37,200
+ Yeah, yeah, yeah.
+
+622
+01:25:37,200 --> 01:25:39,200
+ Yeah, yeah, yeah.
+
+623
+01:25:39,200 --> 01:25:41,200
+ Yeah, help them.
+
+624
+01:25:41,200 --> 01:25:43,200
+ And then the second one, five.
+
+625
+01:25:43,200 --> 01:25:47,200
+ So one student take one paper in case you miss out
+
+626
+01:25:47,200 --> 01:25:50,200
+ or you have more, you'll give back to me.
+
+627
+01:25:50,200 --> 01:25:53,200
+ If you don't have, you'll let me know.
+
+628
+01:25:59,200 --> 01:26:01,200
+ You'll follow the correct...
+
+629
+01:26:01,200 --> 01:26:03,200
+ What's your name?
+
+630
+01:26:03,200 --> 01:26:05,200
+ Li.
+
+631
+01:26:05,200 --> 01:26:07,200
+ Yeah, yeah, yeah.
+
+632
+01:26:07,200 --> 01:26:09,200
+ There should be no group one is here.
+
+633
+01:26:09,200 --> 01:26:11,200
+ Yes, right.
+
+634
+01:26:11,200 --> 01:26:14,200
+ Anyone who is not clear, let me know.
+
+635
+01:26:14,200 --> 01:26:19,200
+ Those lay comeers, I asked you to come before 7.50.
+
+636
+01:26:19,200 --> 01:26:22,200
+ But there are always some students coming late.
+
+637
+01:26:22,200 --> 01:26:25,200
+ Lay comeers, you'll let me know.
+
+638
+01:26:25,200 --> 01:26:27,200
+ Raise your hand.
+
+639
+01:26:27,200 --> 01:26:29,200
+ Don't sit at the wrong place.
+
+640
+01:26:29,200 --> 01:26:31,200
+ Then, yeah.
+
+641
+01:26:31,200 --> 01:26:33,200
+ Okay, okay.
+
+642
+01:26:33,200 --> 01:26:35,200
+ Are you okay with those?
+
+643
+01:26:35,200 --> 01:26:37,200
+ Yeah, get the paper.
+
+644
+01:26:37,200 --> 01:26:39,200
+ You can take a look and write your name.
+
+645
+01:26:39,200 --> 01:26:41,200
+ Make sure it's clear.
+
+646
+01:26:41,200 --> 01:26:44,200
+ Write the name clearly, because we have some students.
+
+647
+01:26:44,200 --> 01:26:46,200
+ Not the same name but very close.
+
+648
+01:26:46,200 --> 01:26:48,200
+ So, yeah.
+
+649
+01:26:48,200 --> 01:26:51,200
+ Write the name clearly.
+
+650
+01:26:51,200 --> 01:26:53,200
+ And...
+
+651
+01:26:55,200 --> 01:26:57,200
+ So...
+
+652
+01:26:58,200 --> 01:27:00,200
+ You should get enough space.
+
+653
+01:27:00,200 --> 01:27:05,200
+ You answer at the brain page below.
+
+654
+01:27:05,200 --> 01:27:08,200
+ Try to write clearly.
+
+655
+01:27:08,200 --> 01:27:11,200
+ Also, in case you...
+
+656
+01:27:14,200 --> 01:27:17,200
+ make mistake, you can close up or use
+
+657
+01:27:17,200 --> 01:27:19,200
+ another extra brain paper.
+
+658
+01:27:19,200 --> 01:27:22,200
+ I bring some brain paper for you.
+
+659
+01:27:22,200 --> 01:27:26,200
+ But most of the students can finish.
+
+660
+01:27:26,200 --> 01:27:28,200
+ Can do it.
+
+661
+01:27:28,200 --> 01:27:31,200
+ Some questions are very easy, but write carefully.
+
+662
+01:27:31,200 --> 01:27:33,200
+ Make the...
+
+663
+01:27:34,200 --> 01:27:36,200
+ Okay, I think you can...
+
+664
+01:27:36,200 --> 01:27:39,200
+ If all done, any...
+
+665
+01:27:39,200 --> 01:27:41,200
+ You're enough paper to distribute?
+
+666
+01:27:41,200 --> 01:27:42,200
+ Yeah.
+
+667
+01:27:42,200 --> 01:27:43,200
+ You also?
+
+668
+01:27:43,200 --> 01:27:44,200
+ Okay, very good.
+
+669
+01:27:44,200 --> 01:27:46,200
+ Yeah, extra, okay, very good.
+
+670
+01:27:46,200 --> 01:27:47,200
+ Keep...
+
+671
+01:27:47,200 --> 01:27:49,200
+ Bring enough.
+
+672
+01:27:52,200 --> 01:27:54,200
+ Okay.
+
+673
+01:27:57,200 --> 01:27:59,200
+ Okay, very good.
+
+674
+01:27:59,200 --> 01:28:01,200
+ So, you can...
+
+675
+01:28:01,200 --> 01:28:04,200
+ Almost you can start to...
+
+676
+01:28:06,200 --> 01:28:08,200
+ In case...
+
+677
+01:28:08,200 --> 01:28:10,200
+ You're not gonna...
+
+678
+01:28:15,200 --> 01:28:17,200
+ You're not gonna...
+
+679
+01:28:22,200 --> 01:28:24,200
+ Okay.
+
+680
+01:28:33,200 --> 01:28:36,200
+ Please, take another question on the reverse side.
+
+681
+01:28:36,200 --> 01:28:38,200
+ It's a double side.
+
+682
+01:28:38,200 --> 01:28:41,200
+ Question one has three sub-questions.
+
+683
+01:28:41,200 --> 01:28:44,200
+ Each are quite simple.
+
+684
+01:28:44,200 --> 01:28:46,200
+ Question two, two sub-questions,
+
+685
+01:28:46,200 --> 01:28:48,200
+ a little bit of calculation.
+
+686
+01:28:48,200 --> 01:28:51,200
+ Let's ask you to bring the calculators.
+
+687
+01:28:59,200 --> 01:29:03,200
+ The pre-season can be...
+
+688
+01:29:05,200 --> 01:29:07,200
+ Let me see.
+
+689
+01:29:08,200 --> 01:29:11,200
+ Three digits after the decimal point.
+
+690
+01:29:11,200 --> 01:29:12,200
+ Yeah.
+
+691
+01:29:12,200 --> 01:29:13,200
+ Okay.
+
+692
+01:29:13,200 --> 01:29:16,200
+ One of the questions is some numerical calculation.
+
+693
+01:29:18,200 --> 01:29:19,200
+ Okay.
+
+694
+01:29:29,200 --> 01:29:32,200
+ Is it one student can relate?
+
+695
+01:29:32,200 --> 01:29:33,200
+ Or no?
+
+696
+01:29:33,200 --> 01:29:34,200
+ Okay.
+
+697
+01:29:38,200 --> 01:29:40,200
+ It's a close book, so...
+
+698
+01:29:40,200 --> 01:29:44,200
+ Okay, nothing I forgot to remind is...
+
+699
+01:29:44,200 --> 01:29:48,200
+ Turn off your mobile phone or at least make it silent.
+
+700
+01:29:48,200 --> 01:29:50,200
+ Please do so.
+
+701
+01:29:50,200 --> 01:29:56,200
+ If not, then the ring suddenly on.
+
+702
+01:29:56,200 --> 01:30:00,200
+ It will be some penalty to impose
+
+703
+01:30:00,200 --> 01:30:04,200
+ because it causes trouble to other students.
+
+704
+01:30:04,200 --> 01:30:05,200
+ Okay.
+
+705
+01:30:05,200 --> 01:30:10,200
+ So, you're all listening to me clearly now.
+
+706
+01:30:10,200 --> 01:30:14,200
+ Turn off your mobile phone or at least make it silent.
+
+707
+01:30:14,200 --> 01:30:16,200
+ If you are not done so.
+
+708
+01:30:40,200 --> 01:30:41,200
+ Okay.
+
+709
+01:31:10,200 --> 01:31:11,200
+ Okay.
+
+710
+01:31:40,200 --> 01:31:41,200
+ Okay.
+
+711
+01:32:10,200 --> 01:32:11,200
+ Okay.
+
+712
+01:32:40,200 --> 01:32:41,200
+ Okay.
+
+713
+01:33:10,200 --> 01:33:11,200
+ Okay.
+
+714
+01:33:40,200 --> 01:33:41,200
+ Okay.
+
+715
+01:34:10,200 --> 01:34:11,200
+ Okay.
+
+716
+01:34:40,200 --> 01:34:41,200
+ Okay.
+
+717
+01:35:10,200 --> 01:35:11,200
+ Okay.
+
+718
+01:35:40,200 --> 01:35:41,200
+ Okay.
+
+719
+01:36:10,200 --> 01:36:12,200
+ Okay.
+
+720
+01:36:40,200 --> 01:36:41,200
+ Okay.
+
+721
+01:37:10,200 --> 01:37:12,200
+ Okay.
+
+722
+01:37:40,200 --> 01:37:41,200
+ Okay.
+
+723
+01:38:10,200 --> 01:38:11,200
+ Okay.
+
+724
+01:38:16,200 --> 01:38:17,200
+ Okay.
+
+725
+01:38:17,200 --> 01:38:18,200
+ Okay.
+
+726
+01:38:24,200 --> 01:38:25,200
+ Okay.
+
+727
+01:38:25,200 --> 01:38:26,200
+ Good.
+
+728
+01:38:26,200 --> 01:38:27,200
+ Let me start, too.
+
+729
+01:38:27,200 --> 01:38:28,200
+ Okay.
+
+730
+01:38:28,200 --> 01:38:29,200
+ Okay.
+
+731
+01:38:29,200 --> 01:38:32,200
+ Come over here.
+
+732
+01:38:32,200 --> 01:38:33,200
+ Go from here.
+
+733
+01:38:33,200 --> 01:38:35,200
+ Where we take the—
+
+734
+01:59:35,200 --> 01:59:42,599
+ Okay, now it's 8.30, you still have half an hour to go.
+
+735
+01:59:42,599 --> 01:59:47,920
+ But if you want to submit and leave, you do it in 20 minutes.
+
+736
+01:59:47,920 --> 01:59:51,880
+ 8.50, you can submit one student just submit.
+
+737
+01:59:51,880 --> 01:59:55,400
+ Otherwise, you will remain here.
+
+738
+01:59:55,400 --> 02:00:04,679
+ You will not leave the LT between 8.50 until your paper is collected by the student assistant.
+
+739
+02:00:04,680 --> 02:00:08,320
+ Okay, in front of you.
+
+740
+02:00:08,320 --> 02:00:13,040
+ The cutoff is 10 minutes before the exam ending time.
+
+741
+02:00:13,040 --> 02:00:16,800
+ But you can still do until 9.00 p.m.
+
+742
+02:00:16,800 --> 02:00:18,680
+ Half an hour to go.
+
+743
+02:00:18,680 --> 02:00:27,320
+ In case you need extra paper, you want to submit, you write your name and matriculation number on the blank paper.
+
+744
+02:00:27,320 --> 02:00:31,600
+ If you're using two rubble, no need to submit, it's fine.
+
+745
+02:00:31,600 --> 02:00:32,800
+ You will not be marked.
+
+746
+02:00:32,800 --> 02:00:39,640
+ Also for students who are not very sure about the answer, you try to write something.
+
+747
+02:00:39,640 --> 02:00:45,080
+ I will give partial math what you write makes sense.
+
+748
+02:00:45,080 --> 02:00:51,080
+ Okay, the only totally blank will be zero mark for that sub question.
+
+749
+02:00:51,080 --> 02:00:52,840
+ Yeah, just let you know.
+
+750
+02:00:52,840 --> 02:00:56,880
+ That's the policy of the exam in general.
+
+751
+02:01:32,800 --> 02:01:49,880
+ If you want to submit and leave early, make sure you pass the paper to one of the student assistants here.
+
+752
+02:01:49,880 --> 02:01:53,080
+ Otherwise, you'll remain seated.
+
+753
+02:11:02,800 --> 02:11:07,800
+ Okay, so you're going to submit to the exam.
+
+754
+02:11:07,800 --> 02:11:12,800
+ Okay, so you're going to submit to the exam.
+
+755
+02:11:12,800 --> 02:11:15,800
+ Okay, so you're going to submit to the exam.
+
+756
+02:11:15,800 --> 02:11:19,800
+ Okay, so you're going to submit to the exam.
+
+757
+02:11:19,800 --> 02:11:22,800
+ Okay, so you're going to submit to the exam.
+
+758
+02:11:22,800 --> 02:11:26,800
+ Okay, so you're going to submit to the exam.
+
+759
+02:11:26,800 --> 02:11:30,800
+ Okay, so you're going to submit to the exam.
+
+760
+02:11:30,800 --> 02:11:34,800
+ Okay, so you're going to submit to the exam.
+
+761
+02:11:34,800 --> 02:11:36,800
+ Okay, so you're going to submit to the exam.
+
+762
+02:11:36,800 --> 02:11:39,800
+ Okay, so you're going to submit to the exam.
+
+763
+02:11:39,800 --> 02:11:42,800
+ Okay, so you're going to submit to the exam.
+
+764
+02:11:42,800 --> 02:11:45,800
+ Okay, so you're going to submit to the exam.
+
+765
+02:11:45,800 --> 02:11:48,800
+ Okay, so you're going to submit to the exam.
+
+766
+02:11:48,800 --> 02:11:51,800
+ Okay, so you're going to submit to the exam.
+
+767
+02:11:51,800 --> 02:11:54,800
+ Okay, so you're going to submit to the exam.
+
+768
+02:11:54,800 --> 02:11:57,800
+ Okay, so you're going to submit to the exam.
+
+769
+02:11:57,800 --> 02:12:00,800
+ Okay, so you're going to submit to the exam.
+
+770
+02:12:00,800 --> 02:12:03,800
+ Okay, so you're going to submit to the exam.
+
+771
+02:12:03,800 --> 02:12:06,800
+ Okay, so you're going to submit to the exam.
+
+772
+02:12:06,800 --> 02:12:09,800
+ Okay, so you're going to submit to the exam.
+
+773
+02:12:09,800 --> 02:12:12,800
+ Okay, so you're going to submit to the exam.
+
+774
+02:12:12,800 --> 02:12:15,800
+ Okay, so you're going to submit to the exam.
+
+775
+02:12:15,800 --> 02:12:18,800
+ Okay, so you're going to submit to the exam.
+
+776
+02:12:18,800 --> 02:12:21,800
+ Okay, so you're going to submit to the exam.
+
+777
+02:12:21,800 --> 02:12:24,800
+ Okay, so you're going to submit to the exam.
+
+778
+02:12:24,800 --> 02:12:27,800
+ Okay, so you're going to submit to the exam.
+
+779
+02:12:27,800 --> 02:12:30,800
+ Okay, so you're going to submit to the exam.
+
+780
+02:12:30,800 --> 02:12:33,800
+ Okay, so you're going to submit to the exam.
+
+781
+02:12:33,800 --> 02:12:36,800
+ Okay, so you're going to submit to the exam.
+
+782
+02:12:36,800 --> 02:12:39,800
+ Okay, so you're going to submit to the exam.
+
+783
+02:12:39,800 --> 02:12:42,800
+ Okay, so you're going to submit to the exam.
+
+784
+02:12:42,800 --> 02:12:45,800
+ Okay, so you're going to submit to the exam.
+
+785
+02:12:45,800 --> 02:12:48,800
+ Okay, so you're going to submit to the exam.
+
+786
+02:12:48,800 --> 02:12:51,800
+ Okay, so you're going to submit to the exam.
+
+787
+02:12:51,800 --> 02:12:54,800
+ Okay, so you're going to submit to the exam.
+
+788
+02:12:54,800 --> 02:12:57,800
+ Okay, so you're going to submit to the exam.
+
+789
+02:12:57,800 --> 02:13:00,800
+ Okay, so you're going to submit to the exam.
+
+790
+02:13:00,800 --> 02:13:03,800
+ Okay, so you're going to submit to the exam.
+
+791
+02:13:03,800 --> 02:13:06,800
+ Okay, so you're going to submit to the exam.
+
+792
+02:13:06,800 --> 02:13:09,800
+ Okay, so you're going to submit to the exam.
+
+793
+02:13:09,800 --> 02:13:12,800
+ Okay, so you're going to submit to the exam.
+
+794
+02:13:12,800 --> 02:13:15,800
+ Okay, so you're going to submit to the exam.
+
+795
+02:13:15,800 --> 02:13:18,800
+ Okay, so you're going to submit to the exam.
+
+796
+02:13:18,800 --> 02:13:21,800
+ Okay, so you're going to submit to the exam.
+
+797
+02:13:21,800 --> 02:13:24,800
+ Okay, so you're going to submit to the exam.
+
+798
+02:13:24,800 --> 02:13:27,800
+ Okay, so you're going to submit to the exam.
+
+799
+02:13:27,800 --> 02:13:30,800
+ Okay, so you're going to submit to the exam.
+
+800
+02:13:30,800 --> 02:13:33,800
+ Okay, so you're going to submit to the exam.
+
+801
+02:13:33,800 --> 02:13:36,800
+ Okay, so you're going to submit to the exam.
+
+802
+02:13:36,800 --> 02:13:39,800
+ Okay, so you're going to submit to the exam.
+
+803
+02:13:39,800 --> 02:13:42,800
+ Okay, so you're going to submit to the exam.
+
+804
+02:13:42,800 --> 02:13:45,800
+ Okay, so you're going to submit to the exam.
+
+805
+02:13:45,800 --> 02:13:48,800
+ Okay, so you're going to submit to the exam.
+
+806
+02:13:48,800 --> 02:13:51,800
+ Okay, so you're going to submit to the exam.
+
+807
+02:13:51,800 --> 02:13:54,800
+ Okay, so you're going to submit to the exam.
+
+808
+02:13:54,800 --> 02:13:57,800
+ Okay, so you're going to submit to the exam.
+
+809
+02:13:57,800 --> 02:14:00,800
+ Okay, so you're going to submit to the exam.
+
+810
+02:14:00,800 --> 02:14:03,800
+ Okay, so you're going to submit to the exam.
+
+811
+02:14:03,800 --> 02:14:06,800
+ Okay, so you're going to submit to the exam.
+
+812
+02:14:06,800 --> 02:14:09,800
+ Okay, so you're going to submit to the exam.
+
+813
+02:14:09,800 --> 02:14:12,800
+ Okay, so you're going to submit to the exam.
+
+814
+02:14:12,800 --> 02:14:15,800
+ Okay, so you're going to submit to the exam.
+
+815
+02:14:15,800 --> 02:14:18,800
+ Okay, so you're going to submit to the exam.
+
+816
+02:14:18,800 --> 02:14:21,800
+ Okay, so you're going to submit to the exam.
+
+817
+02:14:21,800 --> 02:14:24,800
+ Okay, so you're going to submit to the exam.
+
+818
+02:14:24,800 --> 02:14:27,800
+ Okay, so you're going to submit to the exam.
+
+819
+02:14:27,800 --> 02:14:30,800
+ Okay, so you're going to submit to the exam.
+
+820
+02:14:30,800 --> 02:14:33,800
+ Okay, so you're going to submit to the exam.
+
+821
+02:14:33,800 --> 02:14:36,800
+ Okay, so you're going to submit to the exam.
+
+822
+02:14:36,800 --> 02:14:39,800
+ Okay, so you're going to submit to the exam.
+
+823
+02:14:39,800 --> 02:14:42,800
+ Okay.
+
+824
+02:15:09,800 --> 02:15:12,800
+ Okay.
+
+825
+02:15:39,800 --> 02:15:41,800
+ Okay.
+
+826
+02:16:09,800 --> 02:16:11,800
+ Okay.
+
+827
+02:16:39,799 --> 02:16:41,799
+ Okay.
+
+828
+02:17:09,799 --> 02:17:11,799
+ Okay.
+
+829
+02:17:39,799 --> 02:17:42,799
+ Okay.
+
+830
+02:18:09,799 --> 02:18:11,799
+ Okay.
+
+831
+02:18:39,799 --> 02:18:41,799
+ Okay.
+
+832
+02:19:09,799 --> 02:19:11,799
+ Okay.
+
+833
+02:19:39,799 --> 02:19:41,799
+ Okay.
+
+834
+02:20:09,800 --> 02:20:11,800
+ Okay.
+
+835
+02:20:31,800 --> 02:20:34,800
+ Okay, for those who have not signed me,
+
+836
+02:20:34,800 --> 02:20:38,800
+ you will stay on until nine then we will do the exam.
+
+837
+02:20:38,800 --> 02:20:41,679
+ And then we collect all the paper.
+
+838
+02:20:41,679 --> 02:20:42,679
+ You have ten minutes.
+
+839
+02:20:42,679 --> 02:20:43,679
+ Take your time.
+
+840
+02:20:43,679 --> 02:20:44,679
+ Yeah.
+
+841
+02:21:09,800 --> 02:21:10,800
+ Sorry.
+
+842
+02:21:10,800 --> 02:21:11,800
+ Sorry.
+
+843
+02:21:11,800 --> 02:21:12,800
+ Sorry.
+
+844
+02:21:12,800 --> 02:21:13,800
+ Sorry.
+
+845
+02:21:13,800 --> 02:21:14,800
+ It's a better.
+
+846
+02:21:14,800 --> 02:21:15,800
+ Yeah.
+
+847
+02:21:15,800 --> 02:21:16,800
+ In this way.
+
+848
+02:21:16,800 --> 02:21:17,800
+ Yeah.
+
+849
+02:21:17,800 --> 02:21:18,800
+ Okay.
+
+850
+02:22:08,800 --> 02:22:37,800
+ Okay.
+
+851
+02:22:37,800 --> 02:23:02,800
+ Okay.
+
+852
+02:23:02,800 --> 02:23:31,800
+ Okay.
+
+853
+02:23:32,800 --> 02:24:01,800
+ Okay.
+
+854
+02:24:01,800 --> 02:24:11,800
+ Okay.
+
+855
+02:24:31,800 --> 02:24:58,800
+ Okay.
+
+856
+02:24:58,800 --> 02:25:27,800
+ Okay.
+
+857
+02:25:28,800 --> 02:25:57,800
+ Okay.
+
+858
+02:25:58,800 --> 02:26:27,800
+ Okay.
+
+859
+02:26:28,800 --> 02:26:57,800
+ Okay.
+
+860
+02:26:58,800 --> 02:27:27,800
+ Okay.
+
+861
+02:27:28,800 --> 02:27:50,800
+ Okay.
+
+862
+02:27:50,800 --> 02:28:19,800
+ Okay.
+
+863
+02:28:20,800 --> 02:28:49,800
+ Okay.
+
+864
+02:28:50,800 --> 02:29:19,800
+ Okay.
+
+865
+02:29:20,800 --> 02:29:30,800
+ Okay.
+
+866
+02:29:50,800 --> 02:30:03,800
+ Okay.
+
+867
+02:30:03,800 --> 02:30:04,800
+ Okay.
+
+868
+02:30:04,800 --> 02:30:05,800
+ Time's up.
+
+869
+02:30:05,800 --> 02:30:09,800
+ So you stop writing or collect the paper.
+
+870
+02:30:09,800 --> 02:30:16,800
+ You just sit there waiting for us to collect the paper.
+
+871
+02:30:16,800 --> 02:30:23,800
+ Then, yeah.
+
+872
+02:30:23,800 --> 02:30:25,800
+ It should be very fast.
+
+873
+02:30:25,800 --> 02:30:26,800
+ I have two.
+
+874
+02:30:26,800 --> 02:30:27,800
+ You just put together.
+
+875
+02:30:27,800 --> 02:30:32,800
+ If you have two paper, make sure you write the name, name and matriculation number on the
+
+876
+02:30:32,800 --> 02:30:33,800
+ rank page.
+
+877
+02:30:33,800 --> 02:30:36,800
+ Any student use additional paper.
+
+878
+02:30:36,800 --> 02:30:39,800
+ You want to submit, write your name and matriculation number.
+
+879
+02:30:39,800 --> 02:30:51,800
+ Then submit the two pages together.
+
+880
+02:30:51,800 --> 02:30:52,800
+ You wait first.
+
+881
+02:30:52,800 --> 02:30:56,800
+ Wait until all the paper being collected.
+
+882
+02:30:56,800 --> 02:30:57,800
+ It should be very fast.
+
+883
+02:30:57,800 --> 02:31:00,800
+ Not many students here.
+
+884
+02:31:00,800 --> 02:31:02,800
+ And that's the same practice.
+
+885
+02:31:02,800 --> 02:31:07,800
+ Later you'll go for the final exam very soon.
+
+886
+02:31:32,800 --> 02:31:42,800
+ Okay.
+
+887
+02:31:42,800 --> 02:31:52,800
+ Okay.
+
+888
+02:31:52,800 --> 02:32:13,800
+ Okay.
+
+889
+02:32:13,800 --> 02:32:23,800
+ Okay.
+
+890
+02:32:23,800 --> 02:32:48,800
+ Okay.
+
+891
+02:32:48,800 --> 02:32:53,800
+ Okay.
+
+892
+02:32:53,800 --> 02:32:54,800
+ Okay.
+
+893
+02:32:54,800 --> 02:32:55,800
+ Okay.
+
+894
+02:32:55,800 --> 02:32:56,800
+ Okay.
+
+895
+02:32:56,800 --> 02:32:57,800
+ Okay.
+
+896
+02:32:57,800 --> 02:32:58,800
+ Okay.
+
+897
+02:32:58,800 --> 02:32:59,800
+ Okay.
+
+898
+02:32:59,800 --> 02:33:00,800
+ Okay.
+
+899
+02:33:00,800 --> 02:33:01,800
+ Okay.
+
+900
+02:33:01,800 --> 02:33:02,800
+ Okay.
+
+901
+02:33:02,800 --> 02:33:03,800
+ Okay.
+
+902
+02:33:03,800 --> 02:33:04,800
+ Okay.
+
+903
+02:33:04,800 --> 02:33:05,800
+ Okay.
+
+904
+02:33:05,800 --> 02:33:06,800
+ Okay.
+
+905
+02:33:06,800 --> 02:33:07,800
+ Okay.
+
+906
+02:33:07,800 --> 02:33:08,800
+ Okay.
+
+907
+02:33:08,800 --> 02:33:09,800
+ Okay.
+
+908
+02:33:09,800 --> 02:33:10,800
+ Okay.
+
+909
+02:33:10,800 --> 02:33:11,800
+ Okay.
+
+910
+02:33:11,800 --> 02:33:12,800
+ Okay.
+
+911
+02:33:12,800 --> 02:33:13,800
+ Okay.
+
+912
+02:33:13,800 --> 02:33:14,800
+ Okay.
+
+913
+02:33:14,800 --> 02:33:15,800
+ Okay.
+
+914
+02:33:15,800 --> 02:33:16,800
+ Okay.
+
+915
+02:33:16,800 --> 02:33:17,800
+ Okay.
+
+916
+02:33:17,800 --> 02:33:18,800
+ Okay.
+
+917
+02:33:18,800 --> 02:33:19,800
+ Okay.
+
+918
+02:33:19,800 --> 02:33:20,800
+ Okay.
+
+919
+02:33:20,800 --> 02:33:21,800
+ Okay.
+
+920
+02:33:21,800 --> 02:33:22,800
+ Okay.
+
+921
+02:33:22,800 --> 02:33:23,800
+ Okay.
+
+922
+02:33:23,800 --> 02:33:24,800
+ Okay.
+
+923
+02:33:24,800 --> 02:33:25,800
+ Okay.
+
+924
+02:33:25,800 --> 02:33:26,800
+ Okay.
+
+925
+02:33:26,800 --> 02:33:27,800
+ Okay.
+
+926
+02:33:27,800 --> 02:33:28,800
+ Okay.
+
+927
+02:33:28,800 --> 02:33:29,800
+ Okay.
+
+928
+02:33:29,800 --> 02:33:30,800
+ Okay.
+
+929
+02:33:30,800 --> 02:33:31,800
+ Okay.
+
+930
+02:33:31,800 --> 02:33:32,800
+ Okay.
+
+931
+02:33:32,800 --> 02:33:33,800
+ Okay.
+
+932
+02:33:33,800 --> 02:33:34,800
+ Okay.
+
+933
+02:33:34,800 --> 02:33:35,800
+ Okay.
+
+934
+02:33:35,800 --> 02:33:36,800
+ Okay.
+
+935
+02:33:36,800 --> 02:33:37,800
+ Okay.
+
+936
+02:33:37,800 --> 02:33:38,800
+ Okay.
+
+937
+02:33:38,800 --> 02:33:39,800
+ Okay.
+
+938
+02:33:39,800 --> 02:33:40,800
+ Okay.
+
+939
+02:33:40,800 --> 02:33:41,800
+ Okay.
+
+940
+02:33:41,800 --> 02:33:42,800
+ Okay.
+
+941
+02:33:42,800 --> 02:33:43,800
+ Okay.
+
+942
+02:33:43,800 --> 02:33:44,800
+ Okay.
+
+943
+02:33:44,800 --> 02:33:45,800
+ Okay.
+
+944
+02:33:45,800 --> 02:33:46,800
+ Okay.
+
+945
+02:33:46,800 --> 02:33:47,800
+ Okay.
+
+946
+02:34:16,800 --> 02:34:17,800
+ Okay.
+
+947
+02:34:46,800 --> 02:34:47,800
+ Okay.
+
+948
+02:35:16,800 --> 02:35:17,800
+ Okay.
+
+949
+02:35:46,800 --> 02:35:47,800
+ Okay.
+
+950
+02:36:16,800 --> 02:36:17,800
+ Okay.
+
+951
+02:36:46,800 --> 02:36:47,800
+ Okay.
+
+952
+02:37:16,800 --> 02:37:17,800
+ Okay.
+
+953
+02:37:46,800 --> 02:37:47,800
+ Okay.
+
+954
+02:38:16,800 --> 02:38:17,800
+ Okay.
+
+955
+02:38:46,800 --> 02:38:47,800
+ Okay.
+
+956
+02:39:16,800 --> 02:39:17,800
+ Okay.
+
+957
+02:39:46,800 --> 02:39:47,800
+ Okay.
+
+958
+02:40:16,800 --> 02:40:17,800
+ Okay.
+
+959
+02:40:46,800 --> 02:40:47,800
+ Okay.
+
+960
+02:41:16,800 --> 02:41:17,800
+ Okay.
+
+961
+02:41:46,800 --> 02:41:47,800
+ Okay.
+
+962
+02:42:16,800 --> 02:42:17,800
+ Okay.
+
+963
+02:42:46,800 --> 02:42:47,800
+ Okay.
+
+964
+02:43:16,800 --> 02:43:17,800
+ Okay.
+
+965
+02:43:46,800 --> 02:43:47,800
+ Okay.
+
+966
+02:44:16,800 --> 02:44:17,800
+ Okay.
+
+967
+02:44:46,800 --> 02:44:47,800
+ Okay.
+
+968
+02:45:16,800 --> 02:45:17,800
+ Okay.
+
+969
+02:45:46,800 --> 02:45:47,800
+ Okay.
+
+970
+02:46:16,800 --> 02:46:17,800
+ Okay.
+
+971
+02:46:46,800 --> 02:46:47,800
+ Okay.
+
+972
+02:47:16,800 --> 02:47:17,800
+ Okay.
+
+973
+02:47:46,800 --> 02:47:47,800
+ Okay.
+
+974
+02:48:16,800 --> 02:48:17,800
+ Okay.
+
+975
+02:48:46,800 --> 02:48:47,800
+ Okay.
+
+976
+02:49:16,800 --> 02:49:17,800
+ Okay.
+
+977
+02:49:46,800 --> 02:49:47,800
+ Okay.
+
+978
+02:50:16,800 --> 02:50:18,800
+ Okay.
+
+979
+02:50:18,800 --> 02:50:19,800
+ Okay.
+
+980
+02:50:46,800 --> 02:50:50,800
+ Okay.
+
+981
+02:51:16,800 --> 02:51:21,800
+ Okay.
+
+982
+02:51:46,800 --> 02:51:51,800
+ Okay.
+
+983
+02:52:16,800 --> 02:52:21,800
+ Okay.
+
+984
+02:52:46,800 --> 02:52:51,800
+ Okay.
+
+985
+02:53:16,800 --> 02:53:21,800
+ Okay.
+
+986
+02:53:46,800 --> 02:53:51,800
+ Okay.
+
+987
+02:54:16,800 --> 02:54:21,800
+ Okay.
+
+988
+02:54:46,800 --> 02:54:51,800
+ Okay.
+
+989
+02:55:16,800 --> 02:55:21,800
+ Okay.
+
+990
+02:55:46,800 --> 02:55:51,800
+ Okay.
+
+991
+02:56:16,800 --> 02:56:26,800
+ Okay.
+
+992
+02:56:26,800 --> 02:56:27,800
+ Okay.
+
+993
+02:56:27,800 --> 02:56:28,800
+ Okay.
+
+994
+02:56:28,800 --> 02:56:29,800
+ Okay.
+
+995
+02:56:29,800 --> 02:56:30,800
+ Okay.
+
+996
+02:56:30,800 --> 02:56:31,800
+ Okay.
+
+997
+02:56:31,800 --> 02:56:32,800
+ Okay.
+
+998
+02:56:32,800 --> 02:56:33,800
+ Okay.
+
+999
+02:56:33,800 --> 02:56:34,800
+ Okay.
+
+1000
+02:56:34,800 --> 02:56:35,800
+ Okay.
+
+1001
+02:56:35,800 --> 02:56:36,800
+ Okay.
+
+1002
+02:56:36,800 --> 02:56:37,800
+ Okay.
+
+1003
+02:56:37,800 --> 02:56:38,800
+ Okay.
+
+1004
+02:56:38,800 --> 02:56:39,800
+ Okay.
+
+1005
+02:56:39,800 --> 02:56:40,800
+ Okay.
+
+1006
+02:56:40,800 --> 02:56:41,800
+ Okay.
+
+1007
+02:56:41,800 --> 02:56:42,800
+ Okay.
+
+1008
+02:56:42,800 --> 02:56:43,800
+ Okay.
+
+1009
+02:56:43,800 --> 02:56:44,800
+ Okay.
+
+1010
+02:56:44,800 --> 02:56:45,800
+ Okay.
+
+1011
+02:56:45,800 --> 02:56:46,800
+ Okay.
+
+1012
+02:57:15,800 --> 02:57:16,800
+ Okay.
+
+1013
+02:57:45,800 --> 02:57:46,800
+ Okay.
+
+1014
+02:58:15,800 --> 02:58:16,800
+ Okay.
+
+1015
+02:58:45,800 --> 02:58:47,800
+ Okay.
+
+1016
+02:58:47,800 --> 02:58:48,800
+ Okay.
+
+1017
+02:59:15,800 --> 02:59:19,800
+ Okay.
+
+1018
+02:59:45,800 --> 02:59:50,800
+ Okay.
+

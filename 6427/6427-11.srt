@@ -1,0 +1,4900 @@
+1
+00:00:00,000 --> 00:00:12,880
+ Thank you.
+
+2
+00:07:00,320 --> 00:07:06,720
+ Welcome back to the lecture. So today before we start just a quick announcement. So on week
+
+3
+00:07:06,720 --> 00:07:13,280
+ I think 11, yeah, which is last Thursday, it was a public holiday. So that's why we
+
+4
+00:07:14,000 --> 00:07:17,600
+ we don't have lecture on that day, but instead we have arranged a makeup
+
+5
+00:07:18,400 --> 00:07:25,280
+ lectures on the 9th of November, which is this coming Saturday from 9am to 12 noon,
+
+6
+00:07:26,000 --> 00:07:31,440
+ to replace the lectures on week 11. So this is just a reminder to tell you that we have a
+
+7
+00:07:31,440 --> 00:07:40,000
+ makeup lecture on this coming Saturday. So the link is already sent to you in the email,
+
+8
+00:07:40,000 --> 00:07:44,880
+ or you can go to the course site and you should be able to see the link to the Zoom lectures on
+
+9
+00:07:44,880 --> 00:08:05,600
+ this Saturday 9am to 12 noon. All right. Okay. So the next thing I just want to very quickly
+
+10
+00:08:05,600 --> 00:08:12,880
+ mention is that on I think week 10 we have the quiz, right, on Thursday. And then actually on
+
+11
+00:08:12,960 --> 00:08:20,400
+ Friday I have to take a flight to attend a conference in Abu Dhabi. So I was on my way to
+
+12
+00:08:20,400 --> 00:08:26,560
+ the airport. Now sometimes I have a habit of browsing Xiao Hongsu a little bit. So and then I
+
+13
+00:08:26,560 --> 00:08:34,000
+ was suddenly shocked. I see why there's a few of you who is a little bit concerned about
+
+14
+00:08:34,960 --> 00:08:42,400
+ the difficulties of the quiz, the CA2. So here I just want to kind of reassure you that you don't
+
+15
+00:08:42,400 --> 00:08:46,720
+ really have to worry about it. Right. The situation is like this. So I think it's because
+
+16
+00:08:47,360 --> 00:08:51,199
+ there are a number of you who actually are a little bit concerned. So that's why I'll try to
+
+17
+00:08:51,840 --> 00:08:58,240
+ kind of let you know. Actually for CA1, which is the homework, right, I actually have marked quite
+
+18
+00:08:58,240 --> 00:09:04,079
+ a number of them already. So majority of you do very well. The average is actually very high.
+
+19
+00:09:04,079 --> 00:09:10,640
+ Yeah. So that's why because CA1 is kind of easy and the average is very high. So that's why
+
+20
+00:09:10,640 --> 00:09:15,040
+ CA2 initially I planned it to make it a little bit more require a bit more thinking.
+
+21
+00:09:15,600 --> 00:09:19,760
+ But it's actually not initially I thought it's not that difficult. I thought it's a bit more
+
+22
+00:09:19,760 --> 00:09:24,400
+ difficult, but not really that difficult. Yeah. But it turned out that right based on what I
+
+23
+00:09:25,040 --> 00:09:30,400
+ kind of fit that I heard from Xiao Hongsu. So it seems that some of you think that it's a little
+
+24
+00:09:30,400 --> 00:09:36,560
+ bit difficult, but you don't have to worry about that because as I mentioned CA1, the average
+
+25
+00:09:36,560 --> 00:09:43,280
+ is very high. Yeah. So for CA2, when I do the marking, right, I'll try to mark more flexibly.
+
+26
+00:09:43,280 --> 00:09:49,439
+ That means right. So you don't so long as you write something and it makes sense even for
+
+27
+00:09:49,439 --> 00:09:54,800
+ meta marks for methods or steps, you'll get some marks. It doesn't have to be that your answer is
+
+28
+00:09:54,800 --> 00:09:59,119
+ a correct. Then you'll get the full mark. So long as you write something, it looks reasonable,
+
+29
+00:09:59,119 --> 00:10:05,119
+ you'll receive marks for it. Yeah. And also if necessary, I'll also do some adjustment. So
+
+30
+00:10:05,840 --> 00:10:11,600
+ just put it this way. I'm more worried if you do not do well. Right. So yeah. So we'll try to make
+
+31
+00:10:11,600 --> 00:10:16,320
+ sure that your marks are reasonable. Right. So you don't have to worry too much about it.
+
+32
+00:10:16,320 --> 00:10:23,040
+ So that's number one. Number two is also partly because for this year, right, some of the classes
+
+33
+00:10:23,040 --> 00:10:29,600
+ actually I just take over from previous lecture. So I also need some time to really find out
+
+34
+00:10:29,600 --> 00:10:37,520
+ where is your relative car expectation. So that's why we usually need to take a bit of time to
+
+35
+00:10:37,520 --> 00:10:44,160
+ adjust it. Yeah. Okay. And then also just finally to make sure that actually for the quiz, question
+
+36
+00:10:44,160 --> 00:10:48,880
+ one is relatively standard. Right. There's a little bit of difficult parts, but usually those
+
+37
+00:10:48,880 --> 00:10:53,920
+ marks are scalable. Usually I see if the student have some difficulty in answering those questions,
+
+38
+00:10:53,920 --> 00:11:01,280
+ then I'll try to reduce the percentage of marks allocated for those more difficult parts. So for
+
+39
+00:11:01,280 --> 00:11:07,199
+ question two, again, there's an easy and difficult part. Right. So the slightly more difficult part
+
+40
+00:11:07,199 --> 00:11:14,160
+ actually is within the scope of this course as well. Right. So it's not outside the scope.
+
+41
+00:11:14,160 --> 00:11:19,199
+ Actually, we have gone through some example. Yeah. But you require a bit more thinking.
+
+42
+00:11:19,280 --> 00:11:24,240
+ Okay. So I think I probably explained quite a fair bit. So long story short, what I'm trying to say
+
+43
+00:11:24,240 --> 00:11:29,680
+ is don't worry too much about it. Yeah, it should be fine. We'll do some adjustment if necessary.
+
+44
+00:11:29,680 --> 00:11:37,680
+ Okay. So don't get to lose the sleep over it. All right. Okay. So yeah, with that out of the way,
+
+45
+00:11:37,680 --> 00:11:42,000
+ yeah. Another thing I probably want to quickly highlight is that I'm not sure whether you have
+
+46
+00:11:42,000 --> 00:11:48,800
+ received some email to perform some teaching feedback assessment of my teaching. If you have
+
+47
+00:11:48,880 --> 00:11:53,199
+ done that, if you have received the email, please just spend one moment or two to complete the
+
+48
+00:11:53,920 --> 00:11:56,479
+ teaching feedback, right, for this course. Yeah.
+
+49
+00:11:59,599 --> 00:12:07,359
+ So any questions or any concerns? Right. Okay. So if not, let's continue on with
+
+50
+00:12:07,359 --> 00:12:14,560
+ today's lecture. Right. So for today's lecture, before we start, because as we are moving more
+
+51
+00:12:14,560 --> 00:12:19,599
+ and more into some slightly more advanced topics, sometimes we need to leverage on some of the
+
+52
+00:12:20,560 --> 00:12:25,439
+ AI models and understanding that you have studied in the previous lectures. So I just want to very
+
+53
+00:12:25,439 --> 00:12:33,599
+ quickly kind of highlight or recap your memory about the CNN as well as the vision transformer,
+
+54
+00:12:33,599 --> 00:12:42,079
+ because for the next few parts of today's lecture, we need to have some basic understanding of those
+
+55
+00:12:44,560 --> 00:12:55,359
+ concepts. So that's why here, I just want to very quickly do a quick recap, right, so that you
+
+56
+00:12:55,359 --> 00:13:01,520
+ can still remember some of the key properties of the CNN as well as the vision transformer,
+
+57
+00:13:01,520 --> 00:13:06,640
+ so that later on when we go into the explanation, you wouldn't feel that suddenly there's something
+
+58
+00:13:06,640 --> 00:13:12,479
+ that you cannot get the connection. So if you remember for a CNN, this is the typical structures
+
+59
+00:13:12,480 --> 00:13:18,080
+ of a CNN. So you have the image, right, afterwards it will go through the convolutional layer.
+
+60
+00:13:18,080 --> 00:13:24,080
+ So for the convolutional layer, it, you know, let it go through the filter or kernel to extract the
+
+61
+00:13:24,080 --> 00:13:28,960
+ feature, right, to extract the features from this particular image. Okay. And then typically you'll
+
+62
+00:13:28,960 --> 00:13:35,040
+ go through the activation function, right. Okay. And then finally by the pooling to reduce the size.
+
+63
+00:13:35,040 --> 00:13:41,280
+ So typically this convolution activation function and pooling you'll repeat this process a few times.
+
+64
+00:13:42,000 --> 00:13:47,439
+ Okay. So the process of performing this, right, performing this convolution and pooling,
+
+65
+00:13:47,439 --> 00:13:53,280
+ essentially you're extracting some feature from the image. Yeah. You're extracting the features
+
+66
+00:13:53,280 --> 00:13:59,760
+ from the image. And afterwards once you reach the last steps here, typically we'll do a flattening.
+
+67
+00:13:59,760 --> 00:14:07,360
+ We'll scan it row by row. Okay. Channel by channel and convert it into a vector. So this vector here
+
+68
+00:14:07,360 --> 00:14:15,680
+ is what we call a vector or a descriptor or an embedding which, you know, contain useful information
+
+69
+00:14:15,680 --> 00:14:22,400
+ to represent this image. Yeah. So this is a very high level kind of understanding just to recap your
+
+70
+00:14:22,400 --> 00:14:27,680
+ memory. So therefore when we say that we perform a CNN, right, if you look at this particular domain
+
+71
+00:14:27,680 --> 00:14:35,360
+ here, right, so this will be some feature that is extracted from the image to represent the image.
+
+72
+00:14:35,360 --> 00:14:41,840
+ So it extracts some useful feature to represent the image or equivalently if we flatten it into
+
+73
+00:14:41,840 --> 00:14:48,640
+ the vector, then this factor contains some representative information to represent this image.
+
+74
+00:14:48,640 --> 00:14:55,760
+ Okay. So that is for the CNN. So next let's move on to the vision transformer.
+
+75
+00:15:06,320 --> 00:15:17,120
+ Okay. So next we want to quickly recap your memory about how a vision transformer works.
+
+76
+00:15:17,120 --> 00:15:22,080
+ So how a vision transformer works is that, right, okay. The original goals of the vision
+
+77
+00:15:22,080 --> 00:15:28,400
+ transformer is that given a particular image, yeah, you want to classify into a different
+
+78
+00:15:28,400 --> 00:15:34,000
+ category. So what do we do? So what we do is that we take this particular image and we partition it
+
+79
+00:15:34,000 --> 00:15:40,560
+ into numerous patches, okay, numerous patches here. Right. So now this image should be partitioned
+
+80
+00:15:40,560 --> 00:15:46,800
+ into numerous patches. Okay. So this is what we have. Right. So in each of the patch here,
+
+81
+00:15:46,800 --> 00:15:53,280
+ we'll convert it into a vector. We'll use a lexical, graphical or string scan it row by row.
+
+82
+00:15:53,280 --> 00:15:59,120
+ Okay. Channel by channel to convert it into a vector. Right. So each of this now will become a
+
+83
+00:15:59,120 --> 00:16:06,000
+ vector. So after each of this vector will go through a linear projection of the flattened patches.
+
+84
+00:16:06,000 --> 00:16:12,800
+ So this flattened patches actually refer to, we scan it row by row, column by column, right,
+
+85
+00:16:12,800 --> 00:16:18,640
+ to convert an image patch into a vector. So this is known as a flattened patches now.
+
+86
+00:16:19,200 --> 00:16:24,480
+ So each of this now, after you flatten it, it become a vector. And then this linear projection
+
+87
+00:16:24,800 --> 00:16:30,800
+ just simply means that this vector, you multiply with a matrix. Yeah. You multiply with a matrix
+
+88
+00:16:30,800 --> 00:16:37,280
+ and output is another vector. Okay. So that's the meaning of the linear projection. So after the
+
+89
+00:16:37,280 --> 00:16:45,520
+ linear projection now, what you have is that you have a bunch of linearly projected embedding.
+
+90
+00:16:46,000 --> 00:16:51,760
+ Right. Embedding is just a representation or you can interpret as a vector. Okay.
+
+91
+00:16:52,400 --> 00:16:58,319
+ Right. So you have now the projected vectors here, right, which is shown in this pink color.
+
+92
+00:16:58,319 --> 00:17:02,800
+ And afterwards you add in the position, right, because for vision transformer,
+
+93
+00:17:03,680 --> 00:17:09,599
+ you need the positions of the patches and in an image is important. So therefore you need to
+
+94
+00:17:09,599 --> 00:17:16,560
+ add in the position by one, two, three, four, five. So these are all the positions. So you add in the
+
+95
+00:17:16,560 --> 00:17:21,359
+ position information. Right. And on top of that, you have one particular additional,
+
+96
+00:17:22,560 --> 00:17:30,720
+ no token, right, which we call the no learnable class embedding or token here. Okay. Right. So
+
+97
+00:17:30,720 --> 00:17:37,840
+ now you have this bunch of defectors and then we put it into the vision, this transformer encoder.
+
+98
+00:17:37,840 --> 00:17:44,399
+ So if you remember that for trans, this transformer, there's two parts, you have the encoder and you
+
+99
+00:17:44,400 --> 00:17:50,560
+ have the decoder. So we put it through this particular transformer encoder here. So this is
+
+100
+00:17:50,560 --> 00:17:56,480
+ the structures of the transformer encoder. So what you have here, this embedded patches is actually
+
+101
+00:17:56,480 --> 00:18:01,840
+ all these vectors here, right. You do the multi-hit self-attention, right, that we have explained
+
+102
+00:18:01,840 --> 00:18:07,440
+ before. You go through the MLP and then your output is a bunch of vectors. So high level
+
+103
+00:18:07,520 --> 00:18:14,720
+ interpretation, what we have is that your input is a bunch of vectors. Okay. Your input is a bunch
+
+104
+00:18:14,720 --> 00:18:22,880
+ of vectors. After you go through this transformer encoder, right, your output is also a bunch of
+
+105
+00:18:22,880 --> 00:18:29,120
+ vectors. Okay. Also a collection of vector. But your output here is a collection of vectors here.
+
+106
+00:18:29,600 --> 00:18:37,439
+ But these collections of vectors is better than the original embedded vector. Can you remember
+
+107
+00:18:37,439 --> 00:18:44,159
+ what is the reason? Why the output of the vectors is better than, you know, the input
+
+108
+00:18:45,120 --> 00:18:50,480
+ to the transformer encoder? What's the high level reasoning?
+
+109
+00:19:00,800 --> 00:19:05,200
+ Without going into the detailed mathematics, right, just a high level reasoning. Because
+
+110
+00:19:05,200 --> 00:19:11,600
+ sometimes when you are the, how should I say, and when you are studying deeper and deeper,
+
+111
+00:19:12,080 --> 00:19:16,879
+ sometimes you know, you have to leave some of the detail and then just try to understand the high
+
+112
+00:19:16,879 --> 00:19:23,120
+ level intuition. Yeah. But first, if you want to recall, you can always go and read up a little
+
+113
+00:19:23,120 --> 00:19:29,199
+ bit more. But high level understanding is your input is a bunch of vectors, collections of vector.
+
+114
+00:19:29,199 --> 00:19:35,520
+ You let it go through a transformer encoder. Your output is also a collection of vector.
+
+115
+00:19:35,520 --> 00:19:39,120
+ But why is this output vector better than the input vector?
+
+116
+00:19:42,080 --> 00:19:48,719
+ Can anyone still remember? Because this is the basic essence of transformer. Why transformer is
+
+117
+00:19:48,719 --> 00:19:53,040
+ good? Without even going into the mathematics, you need to know this.
+
+118
+00:20:00,480 --> 00:20:06,639
+ Okay. Right. Probably it was a few weeks ago already. So the reason why your output,
+
+119
+00:20:07,200 --> 00:20:12,240
+ right, vectors, which is also known as the context vectors, are better than the input,
+
+120
+00:20:12,240 --> 00:20:17,520
+ is because when you look at the transformer, essentially what you have is that if you remember,
+
+121
+00:20:17,520 --> 00:20:23,040
+ last time the example that I told you is that I said that if, you know, this is actually a mouse,
+
+122
+00:20:23,040 --> 00:20:29,840
+ right? So if I tell you a mouse, it may not be clear to you whether it's a computer mouse,
+
+123
+00:20:29,840 --> 00:20:36,160
+ or whether it's a cat and mouse. So in all that, in order for you to fully understand this word
+
+124
+00:20:36,160 --> 00:20:42,640
+ mouse, what does it mean? You need to know the surrounding context works. So therefore,
+
+125
+00:20:42,640 --> 00:20:48,320
+ there's this idea here. If you want to have a better representation of this current work,
+
+126
+00:20:48,320 --> 00:20:54,880
+ you need to know the relationship of all the other works to the, to work this current works that you
+
+127
+00:20:54,880 --> 00:21:01,120
+ are not looking at. So by trying to find the importance or contributions of other works,
+
+128
+00:21:01,679 --> 00:21:08,320
+ to work this current, this current work, then you can actually extract a vector representation.
+
+129
+00:21:08,320 --> 00:21:14,320
+ And this vector is a better representation because it found out the relationship or contributions
+
+130
+00:21:14,320 --> 00:21:22,479
+ of all the other surrounding works to work. So that is in the image, in the language domain.
+
+131
+00:21:22,479 --> 00:21:26,159
+ In the image domain, it's also the same. You have different image patches,
+
+132
+00:21:26,960 --> 00:21:33,040
+ which convert into a vector now. It's equivalent. So you want to look at the relationship of other
+
+133
+00:21:33,040 --> 00:21:40,640
+ image patches to work sit. So that the output now actually is a better representation because
+
+134
+00:21:40,640 --> 00:21:46,720
+ they found the relationship of other image patches to work sit. So therefore, long story short, what
+
+135
+00:21:46,720 --> 00:21:55,600
+ it means is that the output of all these factors here, output vectors of this transformer encoder,
+
+136
+00:21:56,160 --> 00:21:59,920
+ they are better representation that this input vector because it looked at,
+
+137
+00:22:00,560 --> 00:22:04,080
+ right, for example, if you look at this output here, it looked at the contribution
+
+138
+00:22:05,520 --> 00:22:10,960
+ or importance of other patches to work sit. And then afterwards extract a better,
+
+139
+00:22:12,160 --> 00:22:17,120
+ no feature representation, which is known as a context vector. And you repeat these steps,
+
+140
+00:22:17,120 --> 00:22:23,920
+ no number of times, actually L times here. Okay. And then finally, you just simply take the output
+
+141
+00:22:24,480 --> 00:22:30,000
+ from this particular learnable token here. Okay. And then you let it go through MLP
+
+142
+00:22:31,040 --> 00:22:36,400
+ hit, right, to perform the classification. Why you can only need to take the output from
+
+143
+00:22:36,400 --> 00:22:41,920
+ this particular token is because, right, throughout this different process, you already continuously
+
+144
+00:22:41,920 --> 00:22:48,160
+ trying to extract information from other patches or other token already. So that,
+
+145
+00:22:48,240 --> 00:22:52,800
+ therefore, even though you are taking one single hit here, but it should contain
+
+146
+00:22:52,800 --> 00:22:58,880
+ sufficient information for you to perform the classification. Okay. So that's a quick recap
+
+147
+00:22:58,880 --> 00:23:04,320
+ of this vision transformer understanding, right, because later on, we are going to,
+
+148
+00:23:06,480 --> 00:23:16,160
+ no, look into the next part on the DTR. Okay. So this vision transformer.
+
+149
+00:23:17,120 --> 00:23:25,200
+ Yeah. I think this transformer is probably a bit too, let me see. Right. Okay. Maybe I also quickly
+
+150
+00:23:26,000 --> 00:23:31,280
+ explain, just refresh your memory about this transformer, right. So for the transformer,
+
+151
+00:23:31,280 --> 00:23:38,000
+ initially is used for language translation, yeah, for machine language translation. So what you
+
+152
+00:23:38,000 --> 00:23:45,040
+ have here input, right, is a sequence of, for example, French, right, French sentence you want to
+
+153
+00:23:45,120 --> 00:23:50,000
+ translate into English. So therefore your input is actually a bunch of, you know, these
+
+154
+00:23:50,879 --> 00:23:57,760
+ factors, right, okay, work embedding, right. Okay. So the input factors for the French works,
+
+155
+00:23:57,760 --> 00:24:02,000
+ and afterwards, they add in the position and information because you need to indicate what
+
+156
+00:24:02,000 --> 00:24:06,800
+ is the positions of the works in the sentence. Right. Okay. And afterwards, we go through this
+
+157
+00:24:06,800 --> 00:24:13,520
+ particular module. So this part here is your transformer encoder, right, exactly similar to
+
+158
+00:24:13,520 --> 00:24:19,120
+ what we have mentioned earlier on. So you let it go through n times the miss each time you're going
+
+159
+00:24:19,120 --> 00:24:27,200
+ to extract vector and vector vector representation. So that after a couple of times n here, your output
+
+160
+00:24:27,200 --> 00:24:34,480
+ here will be a bunch of vectors. Okay. That has a vector representation as compared to your input.
+
+161
+00:24:35,200 --> 00:24:42,320
+ Okay. So this output from this particular transformer now is going to go into this particular part,
+
+162
+00:24:42,320 --> 00:24:48,960
+ if you remember, this is the decoder, right. So the decoder part here, right, so the decoder part
+
+163
+00:24:48,960 --> 00:24:54,480
+ here, what we have is that this output here, right, this output here is a translated language,
+
+164
+00:24:54,480 --> 00:25:01,600
+ for example, from French to English, that means it's your progressively translated English, right.
+
+165
+00:25:01,600 --> 00:25:06,879
+ Say suppose we have already translated a few works. So say suppose we have translated, you know,
+
+166
+00:25:06,880 --> 00:25:14,160
+ two works, I and M here in English, then it will go through this work embedding to get this
+
+167
+00:25:14,160 --> 00:25:19,040
+ vector representation, right, we call it the output embedding here. And then you add in the
+
+168
+00:25:19,040 --> 00:25:25,680
+ position information to indicate the positions of your translated English works. Okay. And afterwards,
+
+169
+00:25:25,680 --> 00:25:32,640
+ you go through this module. This module is actually, you can see, is a multi-head attention. This part
+
+170
+00:25:32,640 --> 00:25:38,720
+ here is trying to find the relationship between the translated English works so far. So that you
+
+171
+00:25:38,720 --> 00:25:45,920
+ look at the translated English work so far, you look at the contributions of the translated English
+
+172
+00:25:45,920 --> 00:25:54,880
+ works so far to get a better English kind of a vector representation. So this is the objective
+
+173
+00:25:54,880 --> 00:26:02,080
+ of this. That means you're trying to look at the attention between the translated English works.
+
+174
+00:26:02,720 --> 00:26:07,920
+ And afterwards, at this point here, then you take this part here is the cross attention,
+
+175
+00:26:07,920 --> 00:26:15,200
+ or sometimes also known as the encoder decoder attention. So because this part is the decoder,
+
+176
+00:26:15,200 --> 00:26:22,160
+ sorry, encoder, this part is the decoder. So this module here is trying to perform the encoder
+
+177
+00:26:22,160 --> 00:26:28,640
+ decoder attention or cross attention here. So what they are doing for this particular module is that
+
+178
+00:26:29,600 --> 00:26:38,400
+ you have your, no, this particular French context vector, okay, coming from the decoder. And also
+
+179
+00:26:38,400 --> 00:26:45,360
+ you have some partially translated English work, English factors. You want to find the
+
+180
+00:26:45,360 --> 00:26:53,920
+ relationship between them. Okay. Previously, it was fully written English French works, and then
+
+181
+00:26:54,080 --> 00:26:59,520
+ between translated English works, but the cross relation is also important. So this is the part
+
+182
+00:26:59,520 --> 00:27:05,680
+ we do that. So we do the cross tension here. And afterwards, we let it go through a fit forward
+
+183
+00:27:05,680 --> 00:27:11,360
+ layer. So fit forward layer, as I mentioned to you before, is like general purpose transformation.
+
+184
+00:27:11,360 --> 00:27:16,800
+ It's expensive. That's why we don't use it so much, but it can improve the performance. So we
+
+185
+00:27:16,800 --> 00:27:21,920
+ generate, okay, we let it go through the fit forward. So the output here will be a bunch of,
+
+186
+00:27:22,560 --> 00:27:28,640
+ no, vectors, which are much better representation, right, because it consider
+
+187
+00:27:29,360 --> 00:27:34,960
+ the relationship between the translated English work, as well as the relationship between
+
+188
+00:27:35,600 --> 00:27:41,440
+ the translated English work as well as the French work. Okay. So now output here, now it's a better
+
+189
+00:27:41,440 --> 00:27:47,040
+ representation. It capture all the relationship between all these different works. And then finally,
+
+190
+00:27:47,120 --> 00:27:52,800
+ you let it go through a linear layer. You let it multiply with a matrix, the build, right, and then
+
+191
+00:27:52,800 --> 00:27:59,360
+ you let it convert it into softmax probability to see what is the most likely next work that is
+
+192
+00:27:59,360 --> 00:28:05,360
+ going to be translated. For example, if this works, I am, and then later on the next work, it says,
+
+193
+00:28:05,920 --> 00:28:13,200
+ if it's after the softmax is c set, the most likely works is, right, I am, I am, I say it's
+
+194
+00:28:13,280 --> 00:28:19,600
+ a, then this, this work will then be pulled down here and then you repeat the process. Okay. So that
+
+195
+00:28:19,600 --> 00:28:29,040
+ is the kind of recap of, you know, what a transformer, how it works. Okay. So hopefully this will refresh
+
+196
+00:28:29,040 --> 00:28:40,160
+ your memory. With that next, we can continue with today's lecture.
+
+197
+00:28:43,520 --> 00:28:54,160
+ Okay.
+
+198
+00:29:01,360 --> 00:29:07,840
+ Yeah. So in the lectures, in the previous lecture, actually we cover some of the basic
+
+199
+00:29:07,840 --> 00:29:12,080
+ object detection methods, right. And then afterwards we stop at this particular slide. So
+
+200
+00:29:12,080 --> 00:29:17,600
+ now we are going to continue on to look at another object detection method. So the next
+
+201
+00:29:17,600 --> 00:29:23,120
+ object detection method step we are going to look at is known as a detection transformer,
+
+202
+00:29:23,120 --> 00:29:30,560
+ also known as DTR. So DTR is an end-to-end object detection with transformer. So this is one of the
+
+203
+00:29:30,560 --> 00:29:38,399
+ very kind of popular recent object detection method based on transformer. Okay. So let's look at some
+
+204
+00:29:38,400 --> 00:29:43,840
+ basic information regarding this method and afterwards we'll try to explain how this particular
+
+205
+00:29:44,720 --> 00:29:51,040
+ DTR method works. So first of all, it's a popular recent object detection method, right, as mentioned
+
+206
+00:29:51,040 --> 00:29:58,480
+ early on. So it tried to predict in parallel the sets of the detection by combining a common CNN
+
+207
+00:29:58,480 --> 00:30:03,760
+ with a transformer architecture. So later on, when we explain about this DTR object detection
+
+208
+00:30:03,760 --> 00:30:10,879
+ transformer, you will see that it may use of the CNN, okay, right, and it also make use of the
+
+209
+00:30:10,879 --> 00:30:17,280
+ transformer. You can see this is a transformer encoder and this is the transformer decoder.
+
+210
+00:30:17,280 --> 00:30:24,480
+ And it will try to predict a set of objects, okay, in parallel. Okay. So you have a bunch of object
+
+211
+00:30:24,480 --> 00:30:30,480
+ query and then you will try to detect all these detected objects at the same time in parallel.
+
+212
+00:30:30,480 --> 00:30:36,800
+ Okay. So these are some of the key features. Right. Okay. So this decoder is different from the
+
+213
+00:30:36,800 --> 00:30:41,760
+ original attention or it's all unique design. So the attention is all unique design is just
+
+214
+00:30:41,760 --> 00:30:47,920
+ now the original transformer architecture that I have very briefly explained to you.
+
+215
+00:30:47,920 --> 00:30:56,800
+ So for this DTR, the decoders here, you are not generating the works one by one. So if you remember
+
+216
+00:30:56,800 --> 00:31:02,879
+ just now we have just explained the original transformer, when you try to do the translation,
+
+217
+00:31:02,879 --> 00:31:10,720
+ it generates the works one at a time. Okay. But for this DTR methods, it actually put in a bunch
+
+218
+00:31:10,720 --> 00:31:19,120
+ of object query. Okay. And then you obtain the detected object bounding box as well as a category
+
+219
+00:31:19,120 --> 00:31:26,719
+ at the same time. Okay. Right. So the input to the decoder is given a sequence of position
+
+220
+00:31:26,719 --> 00:31:33,199
+ encoding or object query. So for this decoder here, your input is a bunch of these object queries here,
+
+221
+00:31:33,199 --> 00:31:40,000
+ which is some kind of embedding of vectors that you can learn. Okay. So right. So those are some
+
+222
+00:31:40,000 --> 00:31:45,120
+ high level kind of context understanding. So next let's look at this particular
+
+223
+00:31:46,080 --> 00:31:51,280
+ no DTR decoder here. So first of all, what you have is that you have some backbone
+
+224
+00:31:52,080 --> 00:31:56,959
+ networks here. Right. Okay. So these backbone networks, you can choose any suitable network.
+
+225
+00:31:56,959 --> 00:32:03,199
+ For example, you can in this original design, they use a CNN. This CNN can, for example,
+
+226
+00:32:03,199 --> 00:32:11,360
+ be a RESTnet. It can be a VGG or some other network. Right. So it's a general CNN network here.
+
+227
+00:32:12,080 --> 00:32:18,159
+ Right. So you will obtain this particular, no, you'll let it go through a CNN. Right. So you have
+
+228
+00:32:18,159 --> 00:32:24,320
+ an originally input image. Right. You'll let it go through a CNN. Then afterwards you'll obtain
+
+229
+00:32:24,320 --> 00:32:29,360
+ the features. Right. Because it goes through many different convolutional layer. Okay. At the end,
+
+230
+00:32:29,360 --> 00:32:35,520
+ you will have a particular kind of a feature, feature map that correspond to the CNN. Right. So
+
+231
+00:32:35,520 --> 00:32:42,000
+ this is what you have. Okay. And afterwards for this particular feature map, right, you can partition
+
+232
+00:32:42,000 --> 00:32:49,920
+ it into numerous patches. Yeah. Partition into numerous patches, just like the, the early parts
+
+233
+00:32:49,920 --> 00:32:55,360
+ of just some of the vision transformer. So if you remember the vision transformer earlier on,
+
+234
+00:32:55,360 --> 00:33:02,480
+ we also partitioned into numerous patches. But for this DTR, what it does is that first of all,
+
+235
+00:33:02,480 --> 00:33:09,040
+ it let it pass through a CNN to extract some features. Right. Before, you know, you partition
+
+236
+00:33:09,040 --> 00:33:15,280
+ into different patches. And then afterwards you add in the position information. Right. Because for
+
+237
+00:33:15,280 --> 00:33:21,440
+ this, once you partition into different patches, right. So you have different patches that indicate
+
+238
+00:33:21,440 --> 00:33:28,560
+ different location in the image. So you introduce this position encoding to indicate where is the
+
+239
+00:33:28,639 --> 00:33:34,879
+ positions of the patches. Right. Okay. So now the output here is you have a bunch of factors here
+
+240
+00:33:34,879 --> 00:33:40,800
+ now. Right. So you can see this output, you know, this thing is put it as an input to this
+
+241
+00:33:40,800 --> 00:33:47,440
+ transformer encoder now. So the input now is actually a collection of factors. Okay. Just like,
+
+242
+00:33:47,440 --> 00:33:52,639
+ just similar to the vision transformer. Right. After you pass through the CNN, you extract the
+
+243
+00:33:52,640 --> 00:34:00,800
+ feature, you partition into numerous patches. Okay. You flatten it into a vector. You add in the
+
+244
+00:34:00,800 --> 00:34:08,160
+ position information. So now you have a bunch of vectors at this position here. Okay. So this bunch
+
+245
+00:34:08,160 --> 00:34:12,400
+ of vectors you can kind of interpret is like, for example, if you have an image, right, if your
+
+246
+00:34:12,400 --> 00:34:19,360
+ image is a vector, you have one vector for each of these particular patches. Right. Okay. And
+
+247
+00:34:19,440 --> 00:34:26,720
+ afterwards we let it go through a transformer encoder and you obtain the output here. So what is the
+
+248
+00:34:26,720 --> 00:34:31,760
+ purpose of this transformer encoder here? Can anyone still remember?
+
+249
+00:34:32,640 --> 00:34:34,640
+ Okay.
+
+250
+00:34:45,600 --> 00:34:47,840
+ What's the purpose of this transformer encoder?
+
+251
+00:34:50,560 --> 00:34:56,480
+ So this input here is just a bunch of factors corresponding to different patches in the image.
+
+252
+00:34:56,480 --> 00:35:02,480
+ Right. So you let it go through a transformer encoder. What's the objective of this transformer encoder?
+
+253
+00:35:06,240 --> 00:35:08,240
+ Yes.
+
+254
+00:35:11,360 --> 00:35:17,360
+ Yeah. You want to extract some context factor that we're exploiting. Right. The contribution
+
+255
+00:35:18,000 --> 00:35:23,360
+ or no relationship of the other patches that works it and these particular processes perform
+
+256
+00:35:23,360 --> 00:35:29,680
+ using the attention because the attention mechanism. So that's exactly right. All right. So please
+
+257
+00:35:29,680 --> 00:35:36,000
+ remember the objective of this particular transformer encoder is that you want to take these input
+
+258
+00:35:36,000 --> 00:35:41,760
+ factors, right, and then you want to perform the self-attention to find the contributions of other
+
+259
+00:35:41,760 --> 00:35:49,200
+ vectors to work it so that your output now, right, is a bunch of context vector that has a better
+
+260
+00:35:49,279 --> 00:35:54,720
+ representation than your original context vector because they found the relationship from other
+
+261
+00:35:55,359 --> 00:36:03,439
+ patches. So now after you go through this particular transformer encoder, your output is actually a
+
+262
+00:36:03,439 --> 00:36:10,399
+ collection of vectors now with a better representation. Okay. That described this image. Right. That described
+
+263
+00:36:10,399 --> 00:36:16,319
+ this input image here. Right. Okay. And then after we are going to let it go through a transformer
+
+264
+00:36:16,800 --> 00:36:22,800
+ decoder now. So this transformer decoder is similar to the transformer decoder that I have
+
+265
+00:36:22,800 --> 00:36:29,760
+ just mentioned to you before. Except the difference now is that, okay, right. This input now is
+
+266
+00:36:29,760 --> 00:36:35,440
+ actually what is known as the object query. Okay. So this object query is like some initial
+
+267
+00:36:35,440 --> 00:36:43,520
+ position, learn position embedding, some initial learn embedding, which is a vector that roughly
+
+268
+00:36:43,520 --> 00:36:49,759
+ represents where the initial guess of the starting point of your object. Right. So you have some
+
+269
+00:36:50,560 --> 00:36:56,960
+ vectors or embedding. Okay. Which is your initial guess of where the object is. Right. It can be
+
+270
+00:36:56,960 --> 00:37:01,600
+ learned. It can be fixed. Right. Okay. And then after works, you are going to let it go through
+
+271
+00:37:01,600 --> 00:37:08,640
+ the transformer decoder. So this transformer decoder as early on explained is you are trying to find
+
+272
+00:37:08,640 --> 00:37:16,480
+ out the relationship between this vectors here. Okay. And this vectors here. Right. So this vectors,
+
+273
+00:37:16,480 --> 00:37:23,920
+ actually this bunch of vectors here actually contain the visual information of different patches
+
+274
+00:37:23,920 --> 00:37:32,000
+ in the image. This bunch of the vectors here contain the initial position information of your
+
+275
+00:37:32,960 --> 00:37:39,680
+ lightly object. So you want to take on one side is your image region. On the other side is your
+
+276
+00:37:39,680 --> 00:37:44,480
+ initial guess of the position. You want to find out their relationship. You want to find out,
+
+277
+00:37:44,480 --> 00:37:48,800
+ you know, where this object likely corresponds to which region. So we let it go through this
+
+278
+00:37:48,800 --> 00:37:55,840
+ particular transformer decoder. Right. Okay. The internal operation is similar to just now the
+
+279
+00:37:55,840 --> 00:38:02,960
+ transformer decoder that we have. And then your output now would be some embedding or some vector
+
+280
+00:38:03,600 --> 00:38:09,840
+ that has a better representation than your initial one because it takes into account, right,
+
+281
+00:38:10,560 --> 00:38:17,120
+ the relationship with your initial guess respect to the visual information. Yeah. So therefore,
+
+282
+00:38:17,120 --> 00:38:23,440
+ you actually take the cross relationship, the relationship between your initial object guess
+
+283
+00:38:23,520 --> 00:38:30,480
+ where it is, respect to the visual information. So therefore, the output here is some better guess
+
+284
+00:38:30,480 --> 00:38:36,400
+ of your position, but in the form of vectors. Right. And then finally, right, suppose in this
+
+285
+00:38:36,400 --> 00:38:41,440
+ example, say we assume that, right, we say that, okay, maybe this four objects in this image.
+
+286
+00:38:41,440 --> 00:38:46,160
+ That's why we have four object queries here. And then after we go through this transformer
+
+287
+00:38:46,160 --> 00:38:51,200
+ decoder, you will have four outputs here. Right. So each of these output, you let it go through
+
+288
+00:38:51,279 --> 00:38:57,680
+ FFN. FFN is a fit forward network. Right. You let it go through a fit forward head network.
+
+289
+00:38:57,680 --> 00:39:02,720
+ And then each of these fit forward network will perform a classification to find whether there's
+
+290
+00:39:02,720 --> 00:39:08,640
+ an object and where is the pounding box for this object. So for example, in this case, right, for
+
+291
+00:39:08,640 --> 00:39:17,120
+ the first position guess, right. Okay. It actually found out that, okay, no, the class is actually
+
+292
+00:39:17,120 --> 00:39:24,720
+ a bird. And this is the bounding box. Okay. For the green position query, actually, after this
+
+293
+00:39:25,359 --> 00:39:29,920
+ fit forward network, it says that if I that there's no object there. So therefore, there's no object.
+
+294
+00:39:30,480 --> 00:39:35,839
+ Right. And then this, this yellow one go to a network. Okay. If I that there's actually
+
+295
+00:39:35,839 --> 00:39:41,120
+ another bird there, another category called bird. And this is the bounding box for the other bird.
+
+296
+00:39:41,920 --> 00:39:46,799
+ And then finally, the last one, okay, the last query that you have, you go through this
+
+297
+00:39:46,799 --> 00:39:52,400
+ before on the work, it says that there's no object. Yeah. So therefore, from this four queries here,
+
+298
+00:39:52,400 --> 00:39:58,880
+ after you do the training, you'll be able to detect two objects here. So this particular method is
+
+299
+00:39:58,880 --> 00:40:07,279
+ known as the detection transformer is one of the recent and more important object detection methods.
+
+300
+00:40:07,280 --> 00:40:13,200
+ Right. Okay. So let's look at this particular caption to further see what they describe. So
+
+301
+00:40:13,200 --> 00:40:19,680
+ it says that DTR use a conventional CNN backboard to learn a 2D representation of an input image.
+
+302
+00:40:19,680 --> 00:40:25,200
+ Right. So even your input image here, it let it go through a CNN to extract some visual feature.
+
+303
+00:40:25,200 --> 00:40:30,560
+ Yeah. Just like what we mentioned. Okay. And afterwards, the model flatten it, right. Flatten
+
+304
+00:40:30,560 --> 00:40:36,720
+ means that you chop it into different patches, convert it into a vector. Right. That's what
+
+305
+00:40:36,720 --> 00:40:42,560
+ it means by flattening. Okay. And then you add in the position encoding. You need to indicate
+
+306
+00:40:42,560 --> 00:40:48,000
+ where is the positions of these different patches, right, before you pass into the transformer
+
+307
+00:40:48,000 --> 00:40:54,560
+ encoder. Right. So this transformer encoder by now, you must know, right. You must know that
+
+308
+00:40:54,560 --> 00:41:01,200
+ this transformer encoder, it take a bunch of input vector, right, extract better representation.
+
+309
+00:41:01,759 --> 00:41:06,480
+ Right. Okay. And then generate some better context factor that leverage on the attention
+
+310
+00:41:06,480 --> 00:41:11,200
+ mechanism. Okay. All right. So afterwards, you have this transformer decoder now.
+
+311
+00:41:12,000 --> 00:41:18,080
+ Okay. It takes input, a fixed number of a limb position embedding. So this transformer encoder,
+
+312
+00:41:19,040 --> 00:41:25,279
+ transformer decoder, it bring in this object query. This object query is also the position
+
+313
+00:41:25,279 --> 00:41:30,640
+ embedding. So it's some initial guess of where the positions of this object like it is.
+
+314
+00:41:31,200 --> 00:41:34,560
+ Right. So initially it really doesn't matter. You can make some guess or you can learn it.
+
+315
+00:41:35,439 --> 00:41:41,279
+ Okay. So this position embedding is known as object query here. Okay. And afterwards,
+
+316
+00:41:41,279 --> 00:41:48,560
+ it attend to the encoder output. That means you try to find the cross attention between this
+
+317
+00:41:48,560 --> 00:41:56,240
+ position embedding and the visual representations of different patches in the image. Okay. And
+
+318
+00:41:56,240 --> 00:42:04,160
+ afterwards, you go through this encoder a few times. Your output now would be a better position
+
+319
+00:42:04,959 --> 00:42:10,879
+ embedding. That means you learn where likely this object is because you find the cross
+
+320
+00:42:10,879 --> 00:42:17,600
+ attention between your query and your visual representation. Okay. Right. Okay. And afterwards,
+
+321
+00:42:17,600 --> 00:42:24,000
+ we pass each output embedding, each of this, okay, to a shared feed forward network. So you pass it
+
+322
+00:42:24,000 --> 00:42:28,320
+ through each of this feed forward network here. Right. And then you will then do a prediction.
+
+323
+00:42:29,120 --> 00:42:36,000
+ All right. So whether you can do a detection, whether an object exists and also if it exists,
+
+324
+00:42:36,000 --> 00:42:41,600
+ where is the bounding box? Right. If not, then it will say that, no, for this particular query,
+
+325
+00:42:41,600 --> 00:42:48,800
+ there's no corresponding object to it. Right. Okay. So that's a basic idea of DTR. Okay. Please
+
+326
+00:42:48,800 --> 00:42:57,200
+ spend some time to understand it. Right. Okay. So next, let's look at the performance comparison
+
+327
+00:42:57,200 --> 00:43:02,960
+ with this DTR here. So for this DTR, you can see that, right? So we have some comparison with respect
+
+328
+00:43:02,960 --> 00:43:09,440
+ to the faster RCNM that we have studied before. And also there's a few different variants of
+
+329
+00:43:09,440 --> 00:43:16,240
+ this DTR here. Right. So some of them is based on ResNet or 50. Right. Some of them is based on
+
+330
+00:43:16,240 --> 00:43:22,000
+ ResNet 101, 50 layers or 101 layers. Right. Okay. Anyway, these are some details. Probably you
+
+331
+00:43:22,000 --> 00:43:26,560
+ don't have to worry too much. But pretty much what we have is that these are four different variants
+
+332
+00:43:26,560 --> 00:43:33,759
+ of the DTR implementation. And this is an earlier important object detection method known as a faster
+
+333
+00:43:33,759 --> 00:43:41,919
+ RCNM. Right. Okay. So if you look at it, these are the number of floating points operations here
+
+334
+00:43:41,920 --> 00:43:47,840
+ and the frame per second, number of parameters. Right. So, okay. And then in terms of performance,
+
+335
+00:43:47,840 --> 00:43:54,480
+ usually a bold means that is the best among each of these. So this AP here is a performance matrix
+
+336
+00:43:54,480 --> 00:44:01,200
+ that we have introduced in previous lecture. So all in all, it can be seen that DTR is a relatively
+
+337
+00:44:01,200 --> 00:44:10,800
+ good performance, has relatively good performance as compared to the previous faster RCNM methods.
+
+338
+00:44:10,800 --> 00:44:17,040
+ Okay. So this method was proposed in 2020. Right. It still continues to be used in quite a number.
+
+339
+00:44:17,040 --> 00:44:21,760
+ Subsequently, there are some improvements and it's still one of the very popular methods even
+
+340
+00:44:21,760 --> 00:44:30,000
+ until now. Okay. Right. Okay. So this particular diagram shows the visualizations here. So the DTR
+
+341
+00:44:30,000 --> 00:44:38,000
+ visualizations here, for example, if you take one of this, but during the transformer encoder stage,
+
+342
+00:44:38,000 --> 00:44:43,680
+ right, during the transformer encoder stage, right, so we take this input image,
+
+343
+00:44:44,400 --> 00:44:49,920
+ we let it go through, we have an input image, we let it go through the CNN, we will get some, you
+
+344
+00:44:49,920 --> 00:44:55,600
+ know, feature representation. Yeah. We partition it into different patches. Okay. We partition it
+
+345
+00:44:55,600 --> 00:45:01,280
+ into different patches and then we have these different patches here. So each of these different
+
+346
+00:45:01,280 --> 00:45:07,440
+ patches, if you remember, right, when we perform the self-attention, you need to project into the
+
+347
+00:45:07,520 --> 00:45:13,760
+ query key as well as the value. Right. So if you take the current patch, you want to find the
+
+348
+00:45:13,760 --> 00:45:19,760
+ relationship, okay, or the importance of other patches towards this, right. If you remember,
+
+349
+00:45:19,760 --> 00:45:26,240
+ we actually do the inner product between query and key and afterwards we take the
+
+350
+00:45:26,240 --> 00:45:32,000
+ softmax normalization. Yeah. You want to see other patches. What is their contribution
+
+351
+00:45:32,000 --> 00:45:36,880
+ towards your current patch? Yeah. So that's what we are doing here. So if you do that,
+
+352
+00:45:36,880 --> 00:45:41,920
+ suppose if you look at this, this is your current query, right, this is the current patch you want
+
+353
+00:45:41,920 --> 00:45:48,240
+ to look into. You want to see what is the contributions of other patches towards it. So if you do that,
+
+354
+00:45:48,240 --> 00:45:56,160
+ using the DTR, you can see for this current patch location, right, these are the regions that indicate
+
+355
+00:45:56,240 --> 00:46:02,879
+ importance towards this current patch, right. Okay. So now if you take this current patch as a query,
+
+356
+00:46:02,879 --> 00:46:09,200
+ these are the regions that show the importance towards this current patch. So likewise, if you
+
+357
+00:46:09,200 --> 00:46:14,799
+ take this as a query, these are the regions that's important. And then if you take this one, these
+
+358
+00:46:14,799 --> 00:46:20,160
+ are the regions. So up to a certain extent, you can see that by looking at this particular hit map,
+
+359
+00:46:20,160 --> 00:46:25,359
+ right. So this sometimes we call it the attention map, right. So we can see that if you are looking
+
+360
+00:46:25,360 --> 00:46:31,760
+ about this current patch, what is the importance of other patches to work? It actually has some,
+
+361
+00:46:31,760 --> 00:46:37,440
+ it makes, it's part of meaningful because this is part of the cow. So this part of the attention
+
+362
+00:46:37,440 --> 00:46:42,080
+ actually corresponds to this part of the cow, right. This one here corresponds to this part of
+
+363
+00:46:42,080 --> 00:46:47,600
+ the cow. Okay. This one here, this region here corresponds to this part of the cloud, cow,
+
+364
+00:46:47,600 --> 00:46:52,560
+ and this region here corresponds to that. So it actually kind of gives you some visualization
+
+365
+00:46:52,640 --> 00:46:59,120
+ and confidence that those patches actually are important towards current patch that you are
+
+366
+00:46:59,120 --> 00:47:06,880
+ looking at. Okay. Right. So we spent some time talking about it. So next, let's move on. Okay.
+
+367
+00:47:06,880 --> 00:47:13,120
+ So the next exercise is that, right. Okay. So this is the passier exam question. It says that
+
+368
+00:47:13,120 --> 00:47:17,680
+ state clearly whether the following object detectors are one stage or two stage, okay,
+
+369
+00:47:18,240 --> 00:47:24,000
+ for RCNN and YOLO V7. And then which of these two object detector is a more suitable choice
+
+370
+00:47:24,799 --> 00:47:30,560
+ if speed is a key consideration, right. So justify your answer. So I'll give you one moment to think
+
+371
+00:47:30,560 --> 00:47:36,000
+ about it, right, to see whether you can still recall that and then we'll go through the answers together.
+
+372
+00:48:18,480 --> 00:48:28,240
+ Okay. So I think we have some time to think about it. But so which of them is a one stage detector
+
+373
+00:48:28,240 --> 00:48:36,000
+ and which one is a two stage. So RCNN is a one stage or two stage, two stage, right. And then YOLO
+
+374
+00:48:36,000 --> 00:48:41,839
+ V7 is one stage or two stage, one stage, right. Okay. So which of these detector is more suitable
+
+375
+00:48:41,920 --> 00:48:49,040
+ choice if your key consideration is you want it to be fast. So which one is faster? Typically one
+
+376
+00:48:49,040 --> 00:48:56,160
+ stage is faster or two stage is faster. One stage, right. So one stage is faster. Okay. So therefore
+
+377
+00:48:56,160 --> 00:49:04,560
+ YOLO V7 is a more suitable choice, right. And also YOLO V7 is a much later iteration as compared to
+
+378
+00:49:05,520 --> 00:49:12,080
+ this RCNN. So in terms of speed as well as performance is actually up-perform RCNN. Okay.
+
+379
+00:49:13,440 --> 00:49:13,600
+ So,
+
+380
+00:49:20,160 --> 00:49:26,640
+ right. Okay. So the answer is here, right. So RCNN is a two stage detector. YOLO V7 is a one stage.
+
+381
+00:49:26,640 --> 00:49:31,759
+ So YOLO V7 is a more suitable choice because it's a more recent one stage object detection.
+
+382
+00:49:31,760 --> 00:49:37,200
+ And one stage tends to be faster, right. Okay. So therefore, you know, a more suitable choice is
+
+383
+00:49:37,200 --> 00:49:42,560
+ a YOLO V7, right. So this answer I'll upload to the course site later.
+
+384
+00:49:50,960 --> 00:49:55,600
+ Okay. So as I mentioned, please try to spend some time to understand this DTR.
+
+385
+00:49:56,480 --> 00:50:07,360
+ Okay. So with that, actually we complete our part on object detection. So for this part here,
+
+386
+00:50:07,360 --> 00:50:12,960
+ we actually studied the following, right. So we covered the introduction, right. And after
+
+387
+00:50:12,960 --> 00:50:17,839
+ works under the object detection method, we look at two stage method, one stage detectors,
+
+388
+00:50:18,400 --> 00:50:25,920
+ lightweight detectors, as well as some new emerging methods, including, you know, the DTR that we have
+
+389
+00:50:25,920 --> 00:50:32,160
+ looked at. Yeah. And also just now, in last week, the SYN transformer approach.
+
+390
+00:50:34,640 --> 00:50:38,320
+ All right. Okay. So next let's move on to the object detection part now.
+
+391
+00:50:39,600 --> 00:50:43,600
+ Right. So under the object detection, we are going to look at the following. So first of all,
+
+392
+00:50:43,600 --> 00:50:49,600
+ we'll be doing a quick introductions and then we'll be looking at MOT, multiple object tracking,
+
+393
+00:50:49,600 --> 00:50:54,960
+ right. And after works, we'll look at some new and emerging directions under this object tracking.
+
+394
+00:50:55,920 --> 00:51:00,480
+ Right. Okay. So what's the objective of object tracking? I think from the name itself is quite
+
+395
+00:51:00,480 --> 00:51:04,720
+ intuitive already. You have multiple object tracking. That means you're trying to track the
+
+396
+00:51:04,720 --> 00:51:10,160
+ movement of multiple objects at the same time, right. So for example, in this case here, you have
+
+397
+00:51:10,160 --> 00:51:15,359
+ three persons here. You want to track the movements of these three persons here. Yeah. You want to
+
+398
+00:51:15,359 --> 00:51:19,759
+ track, you know, whether this person is moving from here, right. This person moved to here and
+
+399
+00:51:19,759 --> 00:51:25,440
+ this person moved to that. So therefore, it's use case is that you actually have a video. You want
+
+400
+00:51:25,440 --> 00:51:32,480
+ to track the movement of multiple objects, right, in a video. So the tracking can involve tracking
+
+401
+00:51:32,480 --> 00:51:38,080
+ of a human, right, which is quite common in many applications, right. It can also be used to track
+
+402
+00:51:38,080 --> 00:51:44,160
+ things like, you know, vehicles, right, and so on and so forth. Okay. So the objective of this
+
+403
+00:51:44,720 --> 00:51:50,080
+ MOT is that you want to track the same persons or objects, for example, vehicles in a city,
+
+404
+00:51:50,080 --> 00:51:55,600
+ in a continuous frame in the video, right. So the objects are typically represented with some
+
+405
+00:51:55,600 --> 00:52:00,640
+ bounding blocks and ID, right. So you'll use some bounding blocks to indicate the object and you'll
+
+406
+00:52:00,640 --> 00:52:06,560
+ also give them some ID, right. For example, this ID one, ID two, ID three to differentiate
+
+407
+00:52:06,560 --> 00:52:13,759
+ different person, right. So typically the results is the input, right. The detection results are
+
+408
+00:52:13,759 --> 00:52:19,360
+ the input to the tracking algorithm. So when you want to track a person, usually the first step
+
+409
+00:52:19,360 --> 00:52:25,200
+ that you do is that even the first frame, you want to detect all the objects of interest in the first
+
+410
+00:52:25,200 --> 00:52:31,759
+ frame and then that will initialize your tracking algorithm to track all your detected objects in
+
+411
+00:52:31,760 --> 00:52:38,800
+ the first frame. Okay. So what are some challenges or issues when you are trying to perform this
+
+412
+00:52:38,800 --> 00:52:44,080
+ tracking here, right. So there are two important factors when you are trying to track a person.
+
+413
+00:52:44,080 --> 00:52:49,840
+ So without even learning about it, I think you can think about it, it's quite intuitive. What are the
+
+414
+00:52:49,840 --> 00:52:55,920
+ things that you should use to track person? If you don't look at the content, just use some
+
+415
+00:52:55,920 --> 00:53:05,520
+ logical thinking. What are the key for us to track person? Number one is your movement, right. So if
+
+416
+00:53:05,520 --> 00:53:10,400
+ you know that this guy is moving in this direction, likely your next frame, this guy is going to move
+
+417
+00:53:10,400 --> 00:53:16,240
+ a little bit in that direction. So that the motion model is one common tool used to perform tracking.
+
+418
+00:53:16,960 --> 00:53:24,560
+ And the second one is visual appearance, right. Because this guy, if I'm wearing like this, chances
+
+419
+00:53:24,640 --> 00:53:30,960
+ you see another person that looks like this, wearing like this, likely it's me if I know a few
+
+420
+00:53:30,960 --> 00:53:36,880
+ seconds later. Okay. So therefore these are the two common cues we use to perform the tracking.
+
+421
+00:53:36,880 --> 00:53:41,920
+ One is the appearance feature. Okay. How does this object look like? The second one is the
+
+422
+00:53:41,920 --> 00:53:47,520
+ motion feature, right. Well, how is this object being moving around? So, right, what's the movement
+
+423
+00:53:47,520 --> 00:53:52,960
+ of the object and in the next few frames, where would this object be? So these are two common
+
+424
+00:53:53,040 --> 00:53:59,680
+ clues or cues that we use to develop our multiple object tracking or MOT algorithms.
+
+425
+00:54:00,560 --> 00:54:05,040
+ Right. So therefore next we are going to go into the multiple object tracking or MOT.
+
+426
+00:54:06,480 --> 00:54:12,960
+ Right. So the idea of MOT is quite straightforward, right. So MOT, right, we aim to track all the
+
+427
+00:54:12,960 --> 00:54:18,880
+ object of interest. For example, person, vehicles or other things simultaneously. Right. So for
+
+428
+00:54:18,880 --> 00:54:24,880
+ example, you have this video clips here. All right. This is a video clips of two ladies walking.
+
+429
+00:54:24,880 --> 00:54:30,960
+ So when you use MOT algorithm, first of all, you initialize two detection bounding box to say,
+
+430
+00:54:30,960 --> 00:54:36,160
+ okay, these are the two person of interest that we want to track. Okay. And then we give it an ID
+
+431
+00:54:36,160 --> 00:54:43,040
+ one and two. And afterwards our algorithm is supposed to track consistently where this ID one is
+
+432
+00:54:43,040 --> 00:54:48,720
+ moving. Okay. And then likewise ID two, where they are moving. So this is very intuitive,
+
+433
+00:54:48,720 --> 00:54:55,680
+ the basic idea of MOT. Right. So what are some of the challenges in MOT? So there are some
+
+434
+00:54:55,680 --> 00:55:01,200
+ challenges in MOT. Number one is that sometimes the objects they are dealing with have a similar
+
+435
+00:55:01,200 --> 00:55:05,840
+ appearance. Right. Maybe you have a few persons wearing similar clothes. Right. So you need to
+
+436
+00:55:05,840 --> 00:55:10,720
+ differentiate them. That's one challenge. Right. Other things include sometimes you may have lots
+
+437
+00:55:10,799 --> 00:55:15,120
+ of background objects. Right. Such as, you know, hydrants.
+
+438
+00:55:19,759 --> 00:55:25,520
+ Okay. So another very important challenge is the occlusion. Right. Occlusion means part of the
+
+439
+00:55:25,520 --> 00:55:34,560
+ body is hidden away. For example, if I know, if there's a, you know, a box somewhere, like walk
+
+440
+00:55:34,560 --> 00:55:40,560
+ into it. So for some moment, no, my body will disappear from your view. And then a few moments
+
+441
+00:55:40,560 --> 00:55:47,440
+ later I reappear. So whether you can actually track when your object is being occluded or under
+
+442
+00:55:47,440 --> 00:55:55,360
+ serious heavy occlusion. So these are some typical challenges for MOT. Right. Okay. So the, there
+
+443
+00:55:55,360 --> 00:56:01,200
+ are many different techniques that to perform this, you know, MOT. But the one that we are going to
+
+444
+00:56:01,200 --> 00:56:06,799
+ introduce here is some of the more popular approach, which is known as a tracking by detection.
+
+445
+00:56:06,799 --> 00:56:12,799
+ So as the name suggests, tracking by detection, that means you try to track by detecting in each
+
+446
+00:56:12,799 --> 00:56:19,680
+ frame. Okay. You try to detect the object of interest and then you try to see what, whether the
+
+447
+00:56:19,680 --> 00:56:25,120
+ detected object in the current frame and the detected object in the next frame, whether they
+
+448
+00:56:25,200 --> 00:56:30,799
+ can be associated together. Right. So this particular approach is known as a tracking
+
+449
+00:56:30,799 --> 00:56:38,240
+ by detection. It's centering on trying to detect or object of interest in each frame. Right. So the
+
+450
+00:56:38,240 --> 00:56:42,960
+ goal is that you want to detect the objects in individual video frames. Okay. And then afterwards
+
+451
+00:56:42,960 --> 00:56:47,680
+ you want to associate whether this bounding box and this bounding box, actually they belong to, for
+
+452
+00:56:47,680 --> 00:56:53,359
+ example, the same person. So we want to perform the association. So you want to associate sets of
+
+453
+00:56:53,440 --> 00:57:01,200
+ detection between frame. Right. So therefore creating individual object tracks over time.
+
+454
+00:57:01,200 --> 00:57:07,360
+ Right. Okay. So you can see, for example, okay, however, there are some problems with this kind
+
+455
+00:57:07,360 --> 00:57:12,480
+ of approach here is that your detection sometimes may not be accurate. Right. For example, you may
+
+456
+00:57:12,480 --> 00:57:17,360
+ get a false positive. Right. You thought there's an object here, but it's actually not an object. So
+
+457
+00:57:17,360 --> 00:57:22,800
+ that's called false positive or missing detection, false negative. Right. There's actually an object
+
+458
+00:57:22,880 --> 00:57:27,680
+ that, but you do not detect it successfully. So there's a false negative. Right. So these are some
+
+459
+00:57:27,680 --> 00:57:33,600
+ of the common challenge. So for example, if you look at this blue bounding box here, right,
+
+460
+00:57:33,600 --> 00:57:38,560
+ so this blue bounding box here, you can see you can actually track this person successfully.
+
+461
+00:57:38,560 --> 00:57:43,680
+ Right. So no problem. Right. But for example, for this orange bounding box from here to here,
+
+462
+00:57:43,680 --> 00:57:48,000
+ you can track properly. But from here to here, you make a mistake because it actually, you know,
+
+463
+00:57:48,080 --> 00:57:53,760
+ do a false positive detection here. Then this will create an error. So likewise for this green one,
+
+464
+00:57:53,760 --> 00:57:59,680
+ right, suppose here you detect this, but here you have a false negative. You do not detect this
+
+465
+00:58:00,800 --> 00:58:07,120
+ person successfully. Then you will not be able to track. So therefore for tracking by detection,
+
+466
+00:58:07,120 --> 00:58:11,840
+ you need to make sure that your detection is reliable. Right. Okay. For your performance to
+
+467
+00:58:11,840 --> 00:58:18,240
+ work well. Okay. So what are some high level steps to perform this tracking by detection?
+
+468
+00:58:18,240 --> 00:58:24,400
+ So first of all, you need to make use of object detector to initialize the track at frame T.
+
+469
+00:58:24,400 --> 00:58:29,120
+ So suppose you have a video, right, you have a video, it starts with frame T. Right. So it
+
+470
+00:58:29,120 --> 00:58:33,760
+ starts with frame T, you will be using some object detection algorithm to detect some objects here.
+
+471
+00:58:33,760 --> 00:58:39,040
+ Right. So for example, you detect this three person. So this will be used to initialize the
+
+472
+00:58:39,040 --> 00:58:44,880
+ track. Right. Okay. And afterwards you are going to use the motion prediction, right, because you
+
+473
+00:58:44,880 --> 00:58:50,640
+ can look at the previous movement of this particular bounding box. Therefore by using some motion
+
+474
+00:58:50,640 --> 00:58:56,800
+ modeling, you can predict what is the likely positions of the next bounding box is. Right. So
+
+475
+00:58:56,800 --> 00:59:02,160
+ this is known as a motion prediction. So you'll try to predict the next positions of the object
+
+476
+00:59:02,160 --> 00:59:06,400
+ using some motion model. Right. There's many different motion model. They don't will see a few.
+
+477
+00:59:06,960 --> 00:59:12,800
+ Right. Okay. So for example, by assuming that previously you have been, you have the information
+
+478
+00:59:12,800 --> 00:59:19,520
+ about the movement of this particular bounding box. Then you can use a motion model to predict roughly.
+
+479
+00:59:20,080 --> 00:59:27,680
+ Okay. Your prediction where the next bounding box in the next frame will be. Okay. And afterwards,
+
+480
+00:59:27,680 --> 00:59:33,600
+ right, for this particular new frame, you also perform object detection, which is shown in this
+
+481
+00:59:33,600 --> 00:59:42,720
+ particular red box. So for this frame t plus one, you also perform the object detection. So this
+
+482
+00:59:42,720 --> 00:59:49,040
+ yellow bounding box is actually your predicted position using the motion model. And the red
+
+483
+00:59:49,040 --> 00:59:55,360
+ bounding box is your detection using some object detection algorithm. So afterwards, you have one
+
+484
+00:59:55,920 --> 01:00:01,360
+ prediction, which is based on your motion. The other prediction is which is based on your
+
+485
+01:00:02,320 --> 01:00:08,080
+ object detection. You want to see how close this two is. So of course, if these two are very close
+
+486
+01:00:08,080 --> 01:00:15,680
+ together, then you have a higher confidence that actually this particular object is arising from
+
+487
+01:00:15,680 --> 01:00:21,520
+ the movement of the previous corresponding objects. Right. So therefore, if these two
+
+488
+01:00:22,320 --> 01:00:29,360
+ boxes are closely aligned or the IOU intersection over unions high, that means we have a strong
+
+489
+01:00:29,440 --> 01:00:37,760
+ confidence, this red detected object and this yellow prediction and this yellow prediction is
+
+490
+01:00:37,760 --> 01:00:43,120
+ coming from here. That means we can actually associate this person, this object here in the
+
+491
+01:00:43,120 --> 01:00:47,520
+ previous frame with this object in the current frame. So I think the idea is actually very intuitive
+
+492
+01:00:47,520 --> 01:00:52,960
+ and easy to understand. Right. So therefore, the next step is that we need to perform the data
+
+493
+01:00:52,960 --> 01:00:58,800
+ association. We'll try to match the predicted position with the detection at frame t plus one,
+
+494
+01:00:58,800 --> 01:01:04,960
+ just like what I mentioned to you. Right. Okay. So next, what are some
+
+495
+01:01:05,520 --> 01:01:12,320
+ way we can model the movement of the object? Right. So motion model, the goal is to do the
+
+496
+01:01:12,320 --> 01:01:17,440
+ prediction based on the movement of the object. We track the movement of the object. Right. So we
+
+497
+01:01:17,440 --> 01:01:23,360
+ need to make some assumption, which is the object is moving at, for example, a constant speed.
+
+498
+01:01:23,360 --> 01:01:29,680
+ Right. You cannot have object moving the field frame moving this and then suddenly change its
+
+499
+01:01:29,680 --> 01:01:34,880
+ direction. Yeah. So if you do that, then your motion model is not going to perform well. So we
+
+500
+01:01:34,880 --> 01:01:41,680
+ have to make an assumption is moving at constant velocity. Okay. So the, there's some common
+
+501
+01:01:41,680 --> 01:01:46,320
+ motion modeling technique, for example, common filtering, particle filtering and so on and so
+
+502
+01:01:46,320 --> 01:01:52,960
+ forth. Right. So you can use any of these techniques to do the motion prediction, but one of the most
+
+503
+01:01:53,040 --> 01:01:58,880
+ popular one is current, currently it's a common filtering because it's actually quite easy.
+
+504
+01:02:02,080 --> 01:02:07,600
+ Right. Okay. So early on we mentioned that we also need to do the data association. Right. So
+
+505
+01:02:07,600 --> 01:02:13,600
+ this data association is pretty much last as I mentioned, right. From the previous track of the
+
+506
+01:02:13,600 --> 01:02:19,440
+ movement, you will get a prediction of in the next frame, where is this object is. And afterwards,
+
+507
+01:02:19,440 --> 01:02:25,120
+ you also do the object detection. Right. To try to detect. Okay. So you have this predicted
+
+508
+01:02:25,120 --> 01:02:29,440
+ object and this is your detected object in current frame. Right. And then afterwards,
+
+509
+01:02:29,440 --> 01:02:34,880
+ these two bounding box, you want to see how similar they are. If they are similar, or if they have a
+
+510
+01:02:34,880 --> 01:02:40,720
+ high intersection over union, that means you know that, right, it's likely the same person. Right.
+
+511
+01:02:40,720 --> 01:02:46,080
+ So the object used to predict your motion and this detector object, they are the same person.
+
+512
+01:02:46,080 --> 01:02:50,880
+ So this is known as the data association. So the basic idea is actually quite simple,
+
+513
+01:02:50,880 --> 01:02:57,200
+ like what I mentioned before, you based on this IOU, kind of matrix here, IOU, if you recall,
+
+514
+01:02:57,200 --> 01:03:02,400
+ is the area of overlap over that area of union. So one of the bounding box predicted
+
+515
+01:03:03,759 --> 01:03:10,000
+ bounding box due to the motion, the other is a detected object, right, from the object detector.
+
+516
+01:03:10,000 --> 01:03:16,000
+ Right. So this is one of them. This is the second one. So if these two are very close together,
+
+517
+01:03:16,000 --> 01:03:21,840
+ that means there's high IOU. So when the object has high IOU, that means you can associate them
+
+518
+01:03:21,840 --> 01:03:27,680
+ together. Right. Okay. So this data association, therefore, is like this. So you can see we can
+
+519
+01:03:27,680 --> 01:03:34,960
+ actually form this particular table here. Right. So the one in this particular role here is a
+
+520
+01:03:34,960 --> 01:03:41,280
+ prediction. So the prediction arising from your motion model. Right. So this column here is actually,
+
+521
+01:03:41,840 --> 01:03:47,760
+ you know, the result that you obtain as the using the detector. Right. So afterwards, you just try
+
+522
+01:03:47,760 --> 01:03:53,360
+ to find, right, know the similarity here. Right. Okay. You can either use a similarity or the
+
+523
+01:03:53,360 --> 01:03:59,120
+ distance. This table here is given in terms of the distance between those two predictions here.
+
+524
+01:03:59,120 --> 01:04:05,120
+ So obviously this same color code refers to the same person. So if you compare this person,
+
+525
+01:04:05,120 --> 01:04:10,720
+ you respect to, I mean, this detection respect to this prediction, their distance is smaller.
+
+526
+01:04:10,720 --> 01:04:18,560
+ Right. As compared to three other prediction. Right. Okay. So therefore, you want to assign
+
+527
+01:04:18,560 --> 01:04:26,240
+ this detection to this prediction. It's a one to one mapping. You want to map one prediction
+
+528
+01:04:26,240 --> 01:04:32,319
+ to one detection. Right. So it's a one to one mapping. Yeah. All right. So anyway, let's try to
+
+529
+01:04:32,319 --> 01:04:38,399
+ go through it. Right. So for this data association, it's saying that a simple matching of the detection
+
+530
+01:04:38,399 --> 01:04:44,000
+ with the predicted box by using common filtering. Right. So this is the prediction is using the
+
+531
+01:04:44,000 --> 01:04:49,839
+ common filtering. Right. So it can calculate the distance between the boxes. Right. So in this
+
+532
+01:04:49,839 --> 01:04:55,520
+ case, the smaller the distance, that means that more similar they are. And afterwards, it will
+
+533
+01:04:55,520 --> 01:05:01,840
+ make use of a Hungarian algorithm. So this Hungarian algorithm is to perform a one to one mapping.
+
+534
+01:05:01,840 --> 01:05:07,840
+ Right. Because you have, for example, in this case, you have four detection and you have four
+
+535
+01:05:07,840 --> 01:05:14,320
+ prediction. So we do a one to one assignment. Yeah. So you, for example, you match this to this,
+
+536
+01:05:14,880 --> 01:05:22,080
+ this to this. Right. Okay. First, this is a simple illustrations. So this Hungarian algorithm will
+
+537
+01:05:22,080 --> 01:05:30,160
+ perform a one to one matching. Right. Okay. To associate a detection with a motion prediction.
+
+538
+01:05:30,880 --> 01:05:38,000
+ Okay. And then the distance is usually based on this IOU matrix that I mentioned. Right. Okay.
+
+539
+01:05:53,040 --> 01:05:59,759
+ Okay. So next, let's look at, right, one of the techniques that we have. Right. So one of the
+
+540
+01:05:59,759 --> 01:06:05,759
+ techniques that we have is known as a deep sort. Right. Okay. So this sort, what does deep sort stand
+
+541
+01:06:05,759 --> 01:06:12,080
+ for? Sort stand for simple online and real time tracking. So deep sort is actually a relatively
+
+542
+01:06:12,080 --> 01:06:17,279
+ popular technique because it's efficient. Okay. Right. It doesn't give you the best performance,
+
+543
+01:06:17,280 --> 01:06:23,600
+ but it's efficient. Right. So for this deep sort technique here, right. So it also adds
+
+544
+01:06:23,600 --> 01:06:29,360
+ visual appearance information. So it makes use of some appearance feature to help to perform the
+
+545
+01:06:29,360 --> 01:06:36,320
+ data association between your detection due to the detectors and the prediction by common filtering.
+
+546
+01:06:36,320 --> 01:06:42,240
+ So previous, until just now when we talk about the motion model, you are simply trying to predict,
+
+547
+01:06:42,799 --> 01:06:49,919
+ okay. Find out the difference between or the similarity between your prediction due to the
+
+548
+01:06:49,919 --> 01:06:55,680
+ motion model as well as detection. So far, it has not leveraged on the visual appearance in other
+
+549
+01:06:55,680 --> 01:07:01,919
+ similarity. It's simply leveraged on the first cue, which is the motion. So motion alone is not
+
+550
+01:07:01,919 --> 01:07:06,560
+ enough. You also need to look at the visual appearance of the object. So that's why for
+
+551
+01:07:06,560 --> 01:07:12,720
+ deep sort, it also further introduce a visual appearance, okay, to help to perform the matching.
+
+552
+01:07:12,720 --> 01:07:18,160
+ So the high level idea is this, right. So suppose you have a video, right. Okay. We have a video.
+
+553
+01:07:18,160 --> 01:07:23,520
+ We can use any object detector. For example, in this case, it's a YOLO V4, right, to perform the
+
+554
+01:07:23,520 --> 01:07:29,279
+ detections, okay, to perform the detections of all the objects across different frame. Right. So it
+
+555
+01:07:29,279 --> 01:07:34,799
+ can also make use of, for example, no, the difference across different frame to help you to perform the
+
+556
+01:07:34,800 --> 01:07:41,520
+ detection. Right. So afterwards, okay, we'll use the common filtering. So this common filtering is
+
+557
+01:07:41,520 --> 01:07:46,720
+ due, as I mentioned, based on the previous bounding box to find, right, in the next frame, where's
+
+558
+01:07:46,720 --> 01:07:52,160
+ the positions of your predicted bounding box. So this common filtering is a motion model.
+
+559
+01:07:52,160 --> 01:07:58,000
+ Okay. So for deep sort technique, what it does introduce is that apart from the motion, it also
+
+560
+01:07:58,000 --> 01:08:02,640
+ extracts the visual appearance information. So it looked at this particular bounding box and
+
+561
+01:08:02,720 --> 01:08:08,160
+ tried to extract some visual information to represent this particular region you're tracking.
+
+562
+01:08:08,160 --> 01:08:16,080
+ So this is the part about this deep sort here. It also introduced this visual appearance descriptor,
+
+563
+01:08:16,080 --> 01:08:21,599
+ right, that's used to describe the visual information of the objects. Right. And then
+
+564
+01:08:21,599 --> 01:08:26,639
+ afterwards, this Mahalo Vist distance is a way to assign or to measure the distance, right. In this
+
+565
+01:08:26,639 --> 01:08:31,760
+ context, we don't have to worry too much about it. And afterwards, we need to let it go through a
+
+566
+01:08:31,840 --> 01:08:38,960
+ Hungarian assignment. So this Hungarian assignment is just out of the table. You have n detected
+
+567
+01:08:39,920 --> 01:08:46,480
+ object. You have n predicted bounding box. So you need to do one to one assignment. Which
+
+568
+01:08:46,480 --> 01:08:52,800
+ one is matching to which one. So this is the Hungarian algorithm. Right. So next, we want to
+
+569
+01:08:52,800 --> 01:08:59,040
+ see how do we exactly extract these features here. Right. So there are many different ways you can
+
+570
+01:08:59,680 --> 01:09:06,720
+ extract the visual features to represent a region. So what is being introduced here is one
+
+571
+01:09:06,720 --> 01:09:13,200
+ simple way. Right. So for deep sort, we need to make use of its visual appearance, right, which we
+
+572
+01:09:13,200 --> 01:09:19,920
+ call no appearance. It can either be a descriptor, a factor, a feature or embedding. It all refers
+
+573
+01:09:19,920 --> 01:09:25,519
+ to the same thing. So how do you extract, how do you train a network to extract the visual
+
+574
+01:09:26,160 --> 01:09:32,240
+ appearance for this bounding box here. So what we do is very simple. Right. Suppose we have some
+
+575
+01:09:32,240 --> 01:09:37,360
+ training data, right. So we have some video clips. And in this video clips, we actually
+
+576
+01:09:37,360 --> 01:09:44,000
+ already know the bounding box. Okay. For all the person, for example, this is a person one ID one,
+
+577
+01:09:44,000 --> 01:09:49,200
+ we have all the bounding box. This is ID two, we have all the bounding box here. So for each of
+
+578
+01:09:49,200 --> 01:09:55,200
+ this particular, okay. And then afterwards, we introduce a CNN network, right, a CNN network
+
+579
+01:09:55,200 --> 01:10:01,440
+ here. Right. So every time we introduce, for example, your input, we provide this particular image as
+
+580
+01:10:02,559 --> 01:10:07,679
+ the input. And then we are predicted output will say that is ID one. Next, if you present this,
+
+581
+01:10:07,679 --> 01:10:13,920
+ we also say it's person one, we present this, we say it's person one. Okay. And afterwards, we present,
+
+582
+01:10:13,920 --> 01:10:19,280
+ next, we present the input as this, we say it's person two, present this, we say it's person two,
+
+583
+01:10:19,280 --> 01:10:26,000
+ present this, it's person two. Right. So that means you have a CNN network. Every time you present
+
+584
+01:10:26,000 --> 01:10:32,800
+ your input, you tell them what is the ID or category this person is. Yeah. So you train your
+
+585
+01:10:32,800 --> 01:10:39,200
+ network to perform the classification. Right. So after you're fully trained, right, the features at
+
+586
+01:10:39,280 --> 01:10:44,880
+ the FC layer. So if you remember, this is the features from the FC layer just now when we,
+
+587
+01:10:44,880 --> 01:10:47,760
+ in the early part of the lecture, we mentioned that this feature is actually
+
+588
+01:10:48,480 --> 01:10:56,320
+ an embedding or factor that contain discriminative information about this input regions here.
+
+589
+01:10:56,320 --> 01:11:02,000
+ So therefore, now once it's fully trained, what we can do is that, okay. Next, suppose during your
+
+590
+01:11:02,000 --> 01:11:07,920
+ inference stage already, when you are testing, what you detect and region, this region, you pass it
+
+591
+01:11:07,920 --> 01:11:13,600
+ through this particular train network here. Okay. You pass it through this train network. The vectors
+
+592
+01:11:13,600 --> 01:11:21,840
+ that you obtain from this FC layer is your embedding or your vector that can represent this image region.
+
+593
+01:11:22,320 --> 01:11:28,720
+ Okay. So therefore, moving forward, that means every time when you detect a region, you can pass it
+
+594
+01:11:28,720 --> 01:11:35,600
+ through this train network. The vectors that you obtain here now will be a descriptor or vector
+
+595
+01:11:35,600 --> 01:11:42,640
+ to represent the corresponding detected region. And afterwards, when you, for example, you have this
+
+596
+01:11:42,640 --> 01:11:48,080
+ prediction bounding box as well as this detector bounding box, each of them also have the
+
+597
+01:11:49,440 --> 01:11:54,560
+ appearance descriptor. You just measure how similar they are. So that means you look at,
+
+598
+01:11:54,560 --> 01:12:00,720
+ for example, this could be a vector from the predicted bounding box due to motion.
+
+599
+01:12:01,280 --> 01:12:06,320
+ This could be a vector or embedding arising from a detection bounding box. And then you see these
+
+600
+01:12:06,320 --> 01:12:12,640
+ two, how similar they are. So this is an additional information that you can use to help to do the
+
+601
+01:12:12,640 --> 01:12:20,000
+ tracking. Right. So now we have, make use of both the informations of the motion model as well as
+
+602
+01:12:20,000 --> 01:12:27,840
+ the visual appearance. All right. So that's the basic ideas of MOT, right. A lot of the MOT technique
+
+603
+01:12:27,840 --> 01:12:34,160
+ actually leverage. The basic principle is based on that. But first, over time, there are more
+
+604
+01:12:34,160 --> 01:12:42,000
+ improvements. So the next one that we are going to introduce is this emerging and new methods in MOT.
+
+605
+01:12:43,280 --> 01:12:47,280
+ Right. So the, let me see. Okay. Probably,
+
+606
+01:12:50,720 --> 01:12:56,160
+ okay. This part I think will take a bit longer. Maybe, yeah, we can take a short break. Let's come
+
+607
+01:12:56,160 --> 01:13:07,120
+ back at, say 8.8pm. Right. Let's come back at 8.8pm.
+
+608
+01:29:26,160 --> 01:29:37,120
+ Okay.
+
+609
+01:29:56,880 --> 01:30:23,920
+ Okay. So let's continue on with the new and emerging techniques in MOT. Right. So one of the very
+
+610
+01:30:23,920 --> 01:30:28,640
+ recent techniques that we have on multiple object tracking is known as the track former.
+
+611
+01:30:29,200 --> 01:30:34,240
+ Right. So the goal of this track former is that you will try to perform the object detection
+
+612
+01:30:34,240 --> 01:30:41,200
+ as well as tracking at the same time. So it performs joint object detection and tracking. And this
+
+613
+01:30:41,200 --> 01:30:46,240
+ tracking is by the attention mechanism that you will see later. Right. So it performs detection
+
+614
+01:30:46,240 --> 01:30:52,160
+ and tracking by attention. Okay. Using a transformer based approach. Yeah. Okay. So
+
+615
+01:30:52,880 --> 01:30:59,519
+ later on you'll see that we'll have the object query as well as track query. So for track
+
+616
+01:30:59,519 --> 01:31:04,400
+ formers, we'll have the object query to perform the object tracking. And then we have the track
+
+617
+01:31:04,400 --> 01:31:10,639
+ query to track the movement of the objects here. Right. Okay. So we'll make use of the object as
+
+618
+01:31:10,639 --> 01:31:17,440
+ well as a track query to perform initialization, tracking of the person. Right. And also following
+
+619
+01:31:17,519 --> 01:31:24,320
+ is a tragic tree. Right. So this is a general kind of an overview of the track former, but this is a
+
+620
+01:31:24,320 --> 01:31:30,879
+ more high level. So in the next slide, we'll explain the basic principles of track former
+
+621
+01:31:30,879 --> 01:31:37,120
+ a bit more in detail. Okay. So let's look at this is the basic architectures of track former.
+
+622
+01:31:37,120 --> 01:31:42,559
+ So before that, let's try to look at some of the basic information about this track former here.
+
+623
+01:31:42,560 --> 01:31:47,680
+ So this track former, first of all, it will has an encoder, right? It will make use of this
+
+624
+01:31:47,680 --> 01:31:55,200
+ encoder here. So the encoder is actually consisting of the CNN. Okay. As well as a transformer
+
+625
+01:31:55,200 --> 01:32:01,840
+ encoder. Right. So this encoder part, this is the encoder part. It has a CNN to extract some feature
+
+626
+01:32:01,840 --> 01:32:08,720
+ first, right, followed by the transformer encoder to further extract better feature. So this idea
+
+627
+01:32:08,720 --> 01:32:14,400
+ is actually very similar to the earlier DTR structure. Right. You can see moving forward,
+
+628
+01:32:14,400 --> 01:32:20,000
+ a lot of this structure actually has some very similar, no kind of structures. Okay. So this is
+
+629
+01:32:20,000 --> 01:32:27,120
+ the encoder. Right. And then for the decoder here, so this is the decoder. So the decoder part, first
+
+630
+01:32:27,120 --> 01:32:32,800
+ of all, it has this transformer decoder. Okay. And then it also make use of this particular
+
+631
+01:32:33,760 --> 01:32:39,040
+ query, no, it's the object query, as well as the track query. So the object query, again,
+
+632
+01:32:39,040 --> 01:32:44,560
+ is very similar to just now the DTR that we have studied. Yeah. So it has this object query,
+
+633
+01:32:44,560 --> 01:32:50,320
+ as well as the track query. Okay. So this will form the basis for this decoder component.
+
+634
+01:32:50,960 --> 01:32:56,160
+ Right. Okay. And afterwards, the output of this, right, this embedding here, right, if you want to
+
+635
+01:32:56,160 --> 01:33:03,280
+ use to predict the new object or the track person. So, right, for the bounding box, as well as the
+
+636
+01:33:03,280 --> 01:33:09,519
+ class prediction, it will make use of an NLP, multi-layer, to do the prediction. Right. So you
+
+637
+01:33:09,519 --> 01:33:15,760
+ can see this track former is strongly motivated and very similar to the DTR object detection
+
+638
+01:33:15,760 --> 01:33:20,720
+ that we've studied. So if you have a certain understanding of the DTR, it's very easy to
+
+639
+01:33:20,800 --> 01:33:26,800
+ extend the idea to this track former. Okay. So let's see how this particular track former works.
+
+640
+01:33:26,800 --> 01:33:32,240
+ So first of all, right, you have a sequence of frames here, for example, t is equal to 0,
+
+641
+01:33:33,120 --> 01:33:38,400
+ right, t is equal to 1, so on and so forth. Right. Okay. So you start with 0 frame and then you have
+
+642
+01:33:38,400 --> 01:33:43,200
+ many, many different frame. And then this is t minus 1 frame and then this is the t frame.
+
+643
+01:33:43,200 --> 01:33:49,360
+ Right. So you have a sequence of frames or video. Right. So if you take the first frame here,
+
+644
+01:33:49,360 --> 01:33:55,440
+ we let it go through a CNN. So this CNN will extract some visual descriptor. Right. Just like
+
+645
+01:33:55,440 --> 01:34:01,280
+ what we explained. Right. Okay. So afterwards, once you have at this particular juncture here,
+
+646
+01:34:01,280 --> 01:34:07,040
+ after the CNN, right, if you recall in DTR, what we do is we partition it into different
+
+647
+01:34:08,080 --> 01:34:15,200
+ patches, right, of the descriptor, flatten it into a vector. Okay. And typically we also add in the
+
+648
+01:34:15,200 --> 01:34:20,080
+ position information. Right. And afterwards we are ready to pass it through this transformer
+
+649
+01:34:20,080 --> 01:34:28,800
+ encoder. Right. So the input here is a bunch of flattened vectors that correspond to, you know,
+
+650
+01:34:28,800 --> 01:34:35,360
+ features from different image region. So your output of the transformer decoder now, what is the output?
+
+651
+01:34:38,080 --> 01:34:42,960
+ Just now DTR, we also spent some time. How about so for this track former, what is the output here?
+
+652
+01:34:43,360 --> 01:34:51,200
+ The output is also a collection of vector, but this vector has a better representation
+
+653
+01:34:51,200 --> 01:34:56,800
+ than your original input vector because it makes use of the attention mechanism to find
+
+654
+01:34:56,800 --> 01:35:03,040
+ the contributions of other vectors to work. Right. So input is a bunch of vector that correspond to
+
+655
+01:35:03,040 --> 01:35:09,120
+ different image regions here. For example, one, two, three different patches. So you have different
+
+656
+01:35:09,120 --> 01:35:15,360
+ vectors here. Right. So output is also a bunch of vectors with a better representation. So that's
+
+657
+01:35:15,360 --> 01:35:21,360
+ the goal of any transformer encoder. Right. So afterwards this transformer encoder, you can see
+
+658
+01:35:21,360 --> 01:35:28,480
+ the output of this encoder is going to pass through this transformer decoder. Right. So in first frame,
+
+659
+01:35:28,480 --> 01:35:33,920
+ right, initially in first frame, you need to perform the object detection first. Yeah. So that's why
+
+660
+01:35:33,920 --> 01:35:39,760
+ in first frame, what we have is first of all, we have some object query. Right. So in frame one,
+
+661
+01:35:39,760 --> 01:35:46,800
+ we only have the object query just like the DTR. Right. Just like DTR. We update, we pass this
+
+662
+01:35:46,800 --> 01:35:52,800
+ object query to this transformer decoder. Then, right, you will have this particular
+
+663
+01:35:54,080 --> 01:36:00,160
+ car for position embedding. Right. And then you will go through an MLP to predict, right,
+
+664
+01:36:00,160 --> 01:36:04,400
+ where is the bounding box and whether there's a person there or whether there's an object here.
+
+665
+01:36:04,400 --> 01:36:11,120
+ So far, this part here is just like the DTR that we have studied. Okay. Right. Okay. So next, once,
+
+666
+01:36:11,120 --> 01:36:18,240
+ suppose, right, in this case here, suppose initially our guess is the four object or four person.
+
+667
+01:36:18,240 --> 01:36:23,200
+ Suppose you want to train the detect person. So we have this four here. So three of the object,
+
+668
+01:36:23,200 --> 01:36:28,320
+ actually, they can detect three different person. But one of the object query actually
+
+669
+01:36:28,320 --> 01:36:32,400
+ it says that there's no object. That's fine because now you detect these three person now.
+
+670
+01:36:33,040 --> 01:36:38,639
+ Okay. So afterwards, in the right, so you'll go through the next frame. So in the next frame here,
+
+671
+01:36:38,639 --> 01:36:45,200
+ what you have now is that, okay, you can see now. Okay. So suppose this is your next frame.
+
+672
+01:36:45,200 --> 01:36:48,960
+ Right. So the next frame will go through the same thing. You'll go through a CNN to extract the
+
+673
+01:36:48,960 --> 01:36:57,840
+ visual feature. You'll go through the transformer encoder to extract, right, the better embedding,
+
+674
+01:36:57,840 --> 01:37:04,000
+ right, okay, or token to represent each of this region here. Right. So this one is going to pass
+
+675
+01:37:04,000 --> 01:37:09,280
+ through your transformer decoder. But now in this current frame here, now you can see your input
+
+676
+01:37:09,280 --> 01:37:14,880
+ here will consist of two parts. First, you have this particular object query. You still have the
+
+677
+01:37:14,880 --> 01:37:21,200
+ object query because in this new frame here, potentially, there may be some new object appearing.
+
+678
+01:37:21,200 --> 01:37:26,720
+ So therefore, you need to have some object query. And at the same time, we also need to take the
+
+679
+01:37:26,720 --> 01:37:33,600
+ embedding from the previous frame. Okay. So this is known as a track query. So your input now,
+
+680
+01:37:33,600 --> 01:37:39,680
+ you have the object query as well as a track query. Yeah. So afterwards, you do the cross
+
+681
+01:37:39,760 --> 01:37:47,360
+ attention between this object query and the track query together with the contact specter from your
+
+682
+01:37:47,360 --> 01:37:52,640
+ encoder, right, the position versus the visual information. And then you let it go through the
+
+683
+01:37:52,640 --> 01:38:01,360
+ MLP to predict, right, where is the position, right, of your new, for this three track query here,
+
+684
+01:38:01,360 --> 01:38:07,200
+ then you'll see where is the position, right, of this new object now. Right. So therefore,
+
+685
+01:38:07,200 --> 01:38:13,360
+ these are the improved position embedding. After you go through the MLP, then you'll be able to
+
+686
+01:38:13,360 --> 01:38:19,120
+ detect the new positions here. Right. Okay. So these three in this illustration, no problem.
+
+687
+01:38:20,720 --> 01:38:27,120
+ Yeah. Okay. But also for this object query, all these four object query here, in this illustration,
+
+688
+01:38:27,120 --> 01:38:32,880
+ three of them do not detect anything, but one of them detect a new person. Okay. So that's why
+
+689
+01:38:32,880 --> 01:38:39,040
+ you need this object query to detect if there's a new person appearing. Okay. So now you have this
+
+690
+01:38:39,040 --> 01:38:43,360
+ four person which is being tracked now. So you move on to the next frame. So the next frame,
+
+691
+01:38:43,360 --> 01:38:49,360
+ you repeat the same thing. Okay. So because this purple one is newly detected, so you need to start
+
+692
+01:38:49,360 --> 01:38:55,120
+ a new track for the purple object as well. Okay. So for the next frame, you go through a CNN to
+
+693
+01:38:55,120 --> 01:39:00,400
+ extract visual feature, you let it go through the transformer encoder to get a bunch of vector
+
+694
+01:39:01,200 --> 01:39:08,480
+ vector representation. Right. Visual representation. Now you take this for track query. Okay. You
+
+695
+01:39:08,480 --> 01:39:16,000
+ introduce some object query. You write this one, you let it go through the transformer decoder
+
+696
+01:39:16,000 --> 01:39:21,440
+ with the input from the encoder as well. And afterwards, the output is now, right. You can see,
+
+697
+01:39:21,440 --> 01:39:27,920
+ for example, in this case, your red, green and purple continue to track. But this blue one now
+
+698
+01:39:28,000 --> 01:39:33,680
+ disappear because maybe this blue person walked out of this image is seen already. It does not
+
+699
+01:39:33,680 --> 01:39:39,520
+ appear. So therefore, your blue object is not tracking anymore. Right. So it disappeared. Right.
+
+700
+01:39:39,520 --> 01:39:44,800
+ And then in this illustration here, there's new object person appearing. That's why it does not
+
+701
+01:39:44,800 --> 01:39:51,600
+ detect any further person. Right. So this is pretty much the basic idea of this track former is
+
+702
+01:39:51,600 --> 01:40:00,000
+ center on DTR. Right. Okay. So the next few slides is just a further elaboration of what I just
+
+703
+01:40:00,000 --> 01:40:05,120
+ mentioned. So you have the object query. Right. By now, you know, object query is to detect the new
+
+704
+01:40:05,120 --> 01:40:11,200
+ object in the current frame. And then once you detect it, then it will serve as the beginning
+
+705
+01:40:11,200 --> 01:40:17,280
+ for you to form the track, right, to track in the subsequent frame. Okay. Also, you have the track
+
+706
+01:40:17,280 --> 01:40:21,840
+ query. The track query is that the object that you already detected from the previous frame. So
+
+707
+01:40:21,840 --> 01:40:27,040
+ that's known as a track query. So you follow the object through a video by carrying the identity
+
+708
+01:40:27,040 --> 01:40:31,679
+ information while adapting to their changing position. Pretty much track query, as I mentioned,
+
+709
+01:40:31,679 --> 01:40:36,960
+ it's just a track. Okay. You already detect a person. Right. So you want to track where this
+
+710
+01:40:36,960 --> 01:40:45,280
+ person is moving. Okay. Right. Okay. And then, right. So yeah, this track query will also,
+
+711
+01:40:45,360 --> 01:40:50,000
+ you know, associate the track object with the bounding box of the current frame. So pretty much
+
+712
+01:40:50,000 --> 01:40:56,480
+ you just track where this person is moving. Right. Okay. So this is a demo that use a track
+
+713
+01:40:56,480 --> 01:41:03,360
+ former. So, no, yeah, if you use a track former, you can see actually you can detect the movement
+
+714
+01:41:03,360 --> 01:41:10,480
+ of all these objects reasonably well. Right. Okay. So this particular site give a performance
+
+715
+01:41:10,559 --> 01:41:18,799
+ comparison based on the MOT16 data set. Right. So the vertical axis is called MOTA. So MOTA is
+
+716
+01:41:18,799 --> 01:41:27,040
+ actually stand for multiple object tracking accuracy. So it's, okay. So for, to evaluate the
+
+717
+01:41:27,040 --> 01:41:32,000
+ performance of different MOT algorithm, there's a whole bunch of matrix here. So MOTA is one of
+
+718
+01:41:32,000 --> 01:41:39,120
+ them. So this MOTA, this matrix here is defined as, right, one minus, okay, this term here. This
+
+719
+01:41:39,120 --> 01:41:45,040
+ term numerator is false negative plus false positive plus ID switch, whether you have a person
+
+720
+01:41:45,040 --> 01:41:50,880
+ switch, because sometimes they're two person walking, they may accidentally assign different ID.
+
+721
+01:41:50,880 --> 01:41:57,200
+ Right. The ID of the person is switch. So this ID switch, okay, divided by ground truth. So if
+
+722
+01:41:57,200 --> 01:42:02,960
+ your algorithm is good, right, that means your false negative should be small. Your false positive
+
+723
+01:42:02,960 --> 01:42:08,240
+ should be small. Your ID switch should be small. Right. So that means your numerator will be small.
+
+724
+01:42:08,960 --> 01:42:14,559
+ GT is a ground truth number of bounding box. So therefore, for good algorithm, the numerator is
+
+725
+01:42:14,559 --> 01:42:18,960
+ small. That means this is a small value. So one minus a small value, that means MOTA should be a
+
+726
+01:42:18,960 --> 01:42:25,679
+ big value. So therefore, that means the larger the MOTA value, the better your MOT algorithm is.
+
+727
+01:42:25,679 --> 01:42:32,000
+ Okay. So therefore, this MOTA here, the larger, the better. Okay. Right. So this shows the timeline
+
+728
+01:42:32,000 --> 01:42:36,639
+ of, you know, in recent year, what are the algorithms that has been developed? Right. So these are the
+
+729
+01:42:36,640 --> 01:42:41,280
+ leading methods in those years here. Right. So you can see track former is somewhere here.
+
+730
+01:42:41,840 --> 01:42:46,240
+ Okay. Somewhere here, about 70 something percent. Right. And afterwards, you have the buy track.
+
+731
+01:42:46,240 --> 01:42:50,160
+ Some of you have probably tried, if you have studied this before, you probably have seen buy track,
+
+732
+01:42:50,960 --> 01:42:57,280
+ BOT, sort, strong sort, and then boost track and so on and so forth. Right. So these are some recent
+
+733
+01:42:57,280 --> 01:43:04,480
+ methods. So by any way, this is quite a novel method. Right. Because yeah, as opposed to the
+
+734
+01:43:04,480 --> 01:43:09,839
+ earlier method than this, this is one of the early method that make use of the transformer-based
+
+735
+01:43:09,839 --> 01:43:18,480
+ approach to perform tracking. Yeah. Right. So we have kind of a conclude about this tracking path.
+
+736
+01:43:18,480 --> 01:43:22,879
+ So under tracking path, we cover the following. We go through an introduction, we explain about the
+
+737
+01:43:22,879 --> 01:43:29,280
+ MOT. Right. And then also we look at one of the new MOT algorithm, which is the track former. Yeah.
+
+738
+01:43:30,240 --> 01:43:34,559
+ Yeah. Because there are many, many methods out there, it's not possible for us to cover
+
+739
+01:43:34,559 --> 01:43:39,040
+ everything. So we try to choose some more representative one and no, probably just one
+
+740
+01:43:39,040 --> 01:43:42,719
+ more recent one, especially for those transformer-based method.
+
+741
+01:43:45,440 --> 01:43:50,000
+ Right. Okay. So for this part, there's also a short exercise. So it asks you to list the
+
+742
+01:43:50,800 --> 01:43:57,040
+ key steps in detection by tracking by detection MOT algorithm. Right. So if you don't refer to
+
+743
+01:43:57,040 --> 01:44:03,600
+ the lecture, see where they can still understand or remember what are the key steps in this tracking
+
+744
+01:44:03,600 --> 01:44:14,800
+ by detection MOT.
+
+745
+01:44:28,000 --> 01:44:42,240
+ Okay. So anyway, the answer is quite straightforward. You can just refer to the
+
+746
+01:44:43,200 --> 01:44:47,840
+ election. So the key steps in tracking by detection MOT is that first you need to do the
+
+747
+01:44:47,840 --> 01:44:52,640
+ detection. Right. You need to use the object detector to detect the object to start your
+
+748
+01:44:52,640 --> 01:44:59,040
+ tracking process. Okay. So detection, use a detector to initialize a track. Okay. And
+
+749
+01:44:59,040 --> 01:45:05,200
+ afterwards you need to use the motion prediction to predict based on the previous movement,
+
+750
+01:45:05,200 --> 01:45:11,120
+ to predict the next position of the object. All right. Using any motion model. And then finally,
+
+751
+01:45:11,120 --> 01:45:17,120
+ you need to do the data association, which is try to match your predicted position with the
+
+752
+01:45:17,120 --> 01:45:23,920
+ detection that you perform using object detection at the frame T plus one. So these are the basic
+
+753
+01:45:23,920 --> 01:45:29,680
+ kind of key step. Of course, you can elaborate more, but these are the, at least the important
+
+754
+01:45:29,680 --> 01:45:39,120
+ step that you should try to highlight. So also this solution, I'll make it available on the NTULun
+
+755
+01:45:39,120 --> 01:45:50,320
+ later. Right. Okay. So the next topic that we are going to look at is the post estimation.
+
+756
+01:45:53,519 --> 01:45:58,640
+ Right. So what is the goal of the post estimation? So the goal of post estimation is that you want
+
+757
+01:45:58,640 --> 01:46:05,120
+ to predict, right, the positions of different joints, right, either for the body, for the head,
+
+758
+01:46:05,200 --> 01:46:12,000
+ or for the hand. So these are the common domain, the full body, right, your head, or the hand.
+
+759
+01:46:12,000 --> 01:46:17,360
+ Right. So these are the common domain that we use to perform the post estimation. So pretty much,
+
+760
+01:46:17,360 --> 01:46:22,160
+ you want to detect what we call the joint, or sometimes they also call it the key point,
+
+761
+01:46:22,160 --> 01:46:27,440
+ key point or the joint. So once you've detected all the joint, then this joint can be connected
+
+762
+01:46:27,440 --> 01:46:33,599
+ to form the skeleton. Yeah. So this is the basic idea. Right. So under this post estimation,
+
+763
+01:46:35,360 --> 01:46:40,160
+ section will be looking at introduction. Then we'll be looking at single person post estimation,
+
+764
+01:46:40,160 --> 01:46:48,000
+ multi-person post estimation, and some emerging and new methods. Right. Okay. So what's the objective
+
+765
+01:46:48,000 --> 01:46:54,400
+ of post estimation is to locate the human body or facial key point. Sometimes we call it key point,
+
+766
+01:46:54,400 --> 01:47:00,640
+ sometimes we also call it joint. Right. We use it in the shape. Right. From either image and video
+
+767
+01:47:00,640 --> 01:47:04,000
+ see it. So for example, in this case here, you can see it's performing the full body,
+
+768
+01:47:05,040 --> 01:47:09,440
+ no joint or key point prediction. And after work, then you can link them up together
+
+769
+01:47:09,440 --> 01:47:15,600
+ for those joints to become a skeleton. Right. Okay. So therefore the goals of post estimation is
+
+770
+01:47:15,600 --> 01:47:23,920
+ pretty much just to predict the key point or the joints of either the body, the hand, or the face.
+
+771
+01:47:23,920 --> 01:47:27,120
+ But for our case, we'll be focusing more for the full body.
+
+772
+01:47:29,760 --> 01:47:35,920
+ Right. Okay. So what are the brief history and milestones of this post estimation? So it started
+
+773
+01:47:35,920 --> 01:47:40,160
+ with a single person post estimation. As the name suggests, single person, that means you only
+
+774
+01:47:40,160 --> 01:47:45,600
+ have a single person and you are trying to find the joint of a single person. And multi-person
+
+775
+01:47:45,600 --> 01:47:51,920
+ means that in your video, you're multiple person and you're trying to find the joint and skeleton
+
+776
+01:47:51,920 --> 01:47:58,000
+ for all the persons here. Right. So there's a whole bunch of methods here. So I'm not going to go
+
+777
+01:47:58,960 --> 01:48:04,400
+ into all of them, but we are going to look at some of the representative one. For example, the HRNet.
+
+778
+01:48:05,200 --> 01:48:10,320
+ Right. HRNet as well as the transpose. Yeah. The HRNet as well as the transpose.
+
+779
+01:48:12,560 --> 01:48:17,760
+ Right. So what are some potential applications of post estimation? It can be used for action
+
+780
+01:48:17,840 --> 01:48:23,040
+ recognition. Right. So for example, if you want to perform action recognition, right, there's many
+
+781
+01:48:23,040 --> 01:48:28,080
+ different ways you can perform action recognition. Right. So you can, for example, just simply look
+
+782
+01:48:28,080 --> 01:48:34,240
+ at the RGB video clip. Right. So for example, now I'm just not, I keep drinking water. Right. You can
+
+783
+01:48:34,240 --> 01:48:40,320
+ look at this video clip and then try to detect whether I'm drinking water. So you can take the raw
+
+784
+01:48:40,320 --> 01:48:47,440
+ RGB video or you can, for example, try to estimate, perform the post estimation to find the joint of
+
+785
+01:48:47,519 --> 01:48:52,639
+ my body. And then once you predict the joints of my body, you can form a skeleton and then you can
+
+786
+01:48:52,639 --> 01:48:57,519
+ study, you know, the movement of this skeleton to see, you know, whether I'm doing the drinking.
+
+787
+01:48:57,519 --> 01:49:02,639
+ So one of the common use cases for action recognition. So you use the body key point to
+
+788
+01:49:02,639 --> 01:49:08,879
+ perform this action recognition. Right. For example, this particular dataset is actually,
+
+789
+01:49:08,879 --> 01:49:14,000
+ I think collected in a row slide in NTU. It's quite a well known dataset.
+
+790
+01:49:14,640 --> 01:49:23,120
+ Right. Okay. So it can also be used for animation and motion capture, right, to build the virtual
+
+791
+01:49:23,120 --> 01:49:30,560
+ factor based on human pose. Right. For example, you have some, you know, this, you have some
+
+792
+01:49:30,560 --> 01:49:35,040
+ skeleton information and then based on this skeleton information, you can use to do some,
+
+793
+01:49:35,600 --> 01:49:40,560
+ you know, animation using some avatars or virtual characters.
+
+794
+01:49:44,000 --> 01:49:48,720
+ Right. Okay. So the next slide, actually, this, just try to give you a few ideas about
+
+795
+01:49:49,600 --> 01:49:55,760
+ kind of what kind of dataset we'll be, know we'll be using. So for the dataset, right, it can be
+
+796
+01:49:55,760 --> 01:50:01,360
+ divided into a single person post estimation. Right. So these are some dataset, probably no
+
+797
+01:50:01,360 --> 01:50:06,640
+ need for me to go into the detail, but you can see most of the data set in earlier years. Right.
+
+798
+01:50:06,640 --> 01:50:12,800
+ Because nowadays, most of the post estimation tends to focus on multi-person post estimation
+
+799
+01:50:12,800 --> 01:50:18,720
+ and also tends to move from 2D to 3D post estimation. Yeah. But for the context of this
+
+800
+01:50:18,720 --> 01:50:24,880
+ particular cost, you'll be focusing on 2D post estimation. Yeah. But actually, you can also
+
+801
+01:50:24,880 --> 01:50:33,120
+ perform the 3D post estimation as well. Right. Okay. So this slide shows some of the common
+
+802
+01:50:33,120 --> 01:50:38,640
+ data set using multi-person post estimation. Right. So, right. So these are some of the common one,
+
+803
+01:50:39,280 --> 01:50:46,560
+ MP1, one. Right. And also, there's actually a human 3.6M, right, which is also popular among others.
+
+804
+01:50:46,560 --> 01:50:54,640
+ So the dataset is in more recent years. Okay. So, right. So yeah, it's corresponding to multi
+
+805
+01:50:54,640 --> 01:51:00,240
+ person. Okay. It can cover different poses. And then depending on what model, it can be ranging
+
+806
+01:51:00,240 --> 01:51:07,760
+ from 14 joints to 17 joints. Some dataset, you know, detect more joints, some detect a bit less
+
+807
+01:51:07,760 --> 01:51:13,360
+ joint per person. Right. There's some performance matrix that we'll go through later. And then this
+
+808
+01:51:13,360 --> 01:51:17,760
+ gives you a breakdown of the number of training, validation, and the test data.
+
+809
+01:51:19,840 --> 01:51:25,520
+ Right. Okay. So this slide shows some sample images, you know, in MSCoco. So if you use MSCoco
+
+810
+01:51:25,520 --> 01:51:30,720
+ to do the post estimation, right. So MSCoco actually provides some of this, you know,
+
+811
+01:51:31,520 --> 01:51:33,680
+ data for you to do the training.
+
+812
+01:51:36,800 --> 01:51:41,600
+ Right. So before we continue, the next thing we are going to look at is a performance matrix.
+
+813
+01:51:41,600 --> 01:51:47,440
+ How do we, you know, measure whether your post estimation algorithm is good or not? You need
+
+814
+01:51:47,440 --> 01:52:04,080
+ to have some way to measure it. Right. So let's look at some of the common way to
+
+815
+01:52:04,080 --> 01:52:10,160
+ performance matrix. So the first performance matrix is known as a percentage of correct
+
+816
+01:52:10,160 --> 01:52:15,919
+ key point. Right. So PCK, percentage of correct key point. Right. So if you want to think about it,
+
+817
+01:52:15,920 --> 01:52:20,560
+ what's the most intuitive way for you to see whether your post estimation method is performing
+
+818
+01:52:20,560 --> 01:52:26,800
+ well? Yeah. So Jane speaking, we'll use a benchmark data set to do the evaluation. And for your
+
+819
+01:52:26,800 --> 01:52:31,200
+ benchmark data set, there's some ground truth, right. People have already spent time, right.
+
+820
+01:52:31,760 --> 01:52:38,080
+ No, to annotate, right. Or no, using some devices to actually capture the joint. So you know,
+
+821
+01:52:38,080 --> 01:52:44,720
+ the ground truth, where exactly is the position of the joint? Yeah. So and then by using your
+
+822
+01:52:44,720 --> 01:52:49,360
+ developed algorithm, you'll be able to predict, for example, there's a joint here. Yeah. And then
+
+823
+01:52:49,360 --> 01:52:53,280
+ your prediction is somewhere here. So what you need to do is that, I mean, if you think about it
+
+824
+01:52:53,280 --> 01:52:58,240
+ logically, is you find the distance, right, between the ground truth, where is the actual joint,
+
+825
+01:52:58,240 --> 01:53:03,280
+ and your prediction, where this, right. So you take the difference between them. If this particular
+
+826
+01:53:03,280 --> 01:53:09,200
+ difference or this arrow or distance is less than a certain threshold, then we say it's correct.
+
+827
+01:53:09,200 --> 01:53:13,920
+ Yeah. So this is the high level reasoning. But if you take this high level reasoning,
+
+828
+01:53:13,920 --> 01:53:20,560
+ there's actually an issue. So what is the issue? If you just simply measure the distance, right,
+
+829
+01:53:20,560 --> 01:53:24,880
+ between your ground truth and your predicted value, right. Suppose this is a ground truth,
+
+830
+01:53:24,880 --> 01:53:29,360
+ this is a predicted value, you simply take their difference, right. You take the distance,
+
+831
+01:53:29,360 --> 01:53:35,360
+ and you say that if this distance is less than a certain value, right, then you say it's correct.
+
+832
+01:53:35,360 --> 01:53:40,480
+ But it's more than a certain value, you say it's incorrect. But if you use this particular approach,
+
+833
+01:53:40,480 --> 01:53:51,440
+ this is actually an issue. What do you think is the issue?
+
+834
+01:53:57,839 --> 01:54:03,120
+ Okay. So one of the issue is that, right, if you just simply use that, it does not take into
+
+835
+01:54:03,120 --> 01:54:08,639
+ account the size of the person. For example, if my size is bigger compared to, you know, another
+
+836
+01:54:08,640 --> 01:54:14,320
+ person, the size is smaller, right, it can be a little bit different. So we need to actually take
+
+837
+01:54:14,320 --> 01:54:20,240
+ it, you know, respect to also taking into the body size of the person that we are considering
+
+838
+01:54:21,920 --> 01:54:26,960
+ detecting into consideration. So therefore what you need to do is that, right, suppose this is the
+
+839
+01:54:27,760 --> 01:54:33,280
+ ground truth, this is a detector key point, after you take this particular distance or error,
+
+840
+01:54:33,280 --> 01:54:41,280
+ you need to be normalized by a certain, you know, kind of a body size of the person. So which can,
+
+841
+01:54:43,679 --> 01:54:49,280
+ which can be, for example, the diameter of the torso or the length of the head, right,
+
+842
+01:54:49,280 --> 01:54:54,639
+ depending on where you are detecting the key point. So by taking a difference, normalized or divided by,
+
+843
+01:54:54,639 --> 01:55:00,400
+ for example, the size of the body, then you can get a more normalized or more meaningful way of
+
+844
+01:55:00,400 --> 01:55:05,839
+ measuring the error. Okay, so therefore that's the basic idea. So if you want to check the
+
+845
+01:55:05,839 --> 01:55:10,639
+ percentage of the correct key point, so what you need to do is that you measure the percentage,
+
+846
+01:55:11,280 --> 01:55:17,040
+ right, okay, percentage of predicted key point that fall within a normalized distance. Okay, so
+
+847
+01:55:18,480 --> 01:55:22,400
+ what it means is that, right, so first of all, you take,
+
+848
+01:55:23,040 --> 01:55:30,160
+ you take the distance, right, you take your ground truth, right, your predicted error,
+
+849
+01:55:30,160 --> 01:55:36,960
+ you take the distance and this distance is normalized by a certain body size, for example,
+
+850
+01:55:36,960 --> 01:55:41,759
+ the diameter of the torso. If you are talking about body, part of key point, you are talking
+
+851
+01:55:41,759 --> 01:55:45,920
+ about the head, then divided by the length of the head, right, then you'll get the normalized
+
+852
+01:55:45,920 --> 01:55:51,519
+ distance and this normalized distance is less than a threshold, right, so for example, for this
+
+853
+01:55:51,600 --> 01:55:57,040
+ percentage of correct key point, usually you need to define a certain value, right, so this is a
+
+854
+01:55:57,040 --> 01:56:05,040
+ threshold. If this value, if this distance divided by the normalized body length is less than your
+
+855
+01:56:05,040 --> 01:56:09,840
+ threshold, this threshold is what you choose, right, it's less than the threshold, that means this
+
+856
+01:56:09,840 --> 01:56:16,000
+ particular key point is detected correctly, yeah, and then afterwards for all the body joints that
+
+857
+01:56:16,000 --> 01:56:21,920
+ you have the percentage of them, how many out of all these body joints, how many do you detect
+
+858
+01:56:21,920 --> 01:56:26,880
+ it correctly, that is a percentage, yeah, so therefore you have the percentage of correct
+
+859
+01:56:26,880 --> 01:56:32,320
+ key point, so we have already described how do we define what is meant by correct key point
+
+860
+01:56:32,320 --> 01:56:37,360
+ detection and the percentage of it out of all the joints, how many do you detect correctly,
+
+861
+01:56:37,360 --> 01:56:42,000
+ it's known as the PCK percentage of correct key point, so you can see the wrap say,
+
+862
+01:56:42,000 --> 01:56:46,480
+ measure the percentage of predicted key point that fall within a normalized distance,
+
+863
+01:56:46,480 --> 01:56:52,000
+ so this is a normalized distance, okay, so for example, for this data set,
+
+864
+01:56:52,960 --> 01:56:59,200
+ percentage of PCK at point two means that the distance between your predicted and the ground
+
+865
+01:56:59,200 --> 01:57:07,040
+ truth joint less than point two of the total diameter, yeah, so if this condition is met,
+
+866
+01:57:07,040 --> 01:57:14,080
+ that means this key point is detected correctly, okay, so unfortunately for this data set, some
+
+867
+01:57:14,080 --> 01:57:18,400
+ different data set sometimes use different performance matrix, yeah, so there's quite
+
+868
+01:57:19,360 --> 01:57:26,320
+ number of different variation, for example, this MP11 data set here is the percentage of key point,
+
+869
+01:57:26,320 --> 01:57:32,240
+ right, percentage of correct key point, but it's for the head, right, and the threshold we use in
+
+870
+01:57:32,240 --> 01:57:40,240
+ this example is at point five, so what it means is that if you find that, okay, your true key point
+
+871
+01:57:40,240 --> 01:57:48,400
+ and the ground truth, the distance divided by the head, segment length, right, okay, to get the
+
+872
+01:57:48,400 --> 01:57:54,480
+ normalized distance, and if it's less than point five, that means it's considered as correctly
+
+873
+01:57:54,480 --> 01:58:00,880
+ detecting the key point, yeah, so this is the key idea, it's a percentage of correct key point,
+
+874
+01:58:00,880 --> 01:58:06,720
+ now next one is the percentage of correct parts, so these parts here refer to the body
+
+875
+01:58:06,720 --> 01:58:11,440
+ limb, for example, instead of one key point, it's trying to say for example, your upper limb,
+
+876
+01:58:11,440 --> 01:58:17,440
+ your lower limb and so on and so forth, so the basic idea is still very similar, so suppose if
+
+877
+01:58:17,440 --> 01:58:22,560
+ you talk about the upper limb, you have this particular ground truth key point here, right,
+
+878
+01:58:22,560 --> 01:58:28,400
+ ground truth key point, and if your prediction is somewhere here, so you just try to find the error
+
+879
+01:58:28,400 --> 01:58:36,799
+ for both of this particular end of this body joint, if both of them divided by the normalized length,
+
+880
+01:58:36,799 --> 01:58:42,320
+ right, which is for example, the length of your limb, right, and if it's less than a certain
+
+881
+01:58:43,200 --> 01:58:48,799
+ threshold value that you choose, then you interpret as this part and detect that correctly,
+
+882
+01:58:49,679 --> 01:58:54,559
+ so therefore this part at high level is trying to measure the localization accuracy of the limb,
+
+883
+01:58:54,560 --> 01:59:00,080
+ right, so instead of detecting whether a joint is correctly, you try to look at for example,
+
+884
+01:59:00,080 --> 01:59:07,200
+ a body limb, a bone, right, whether this particular part or this limb is detected correctly, so you
+
+885
+01:59:07,200 --> 01:59:14,080
+ can see if the distance between two predicted joints and the true limb is less than a fraction,
+
+886
+01:59:14,080 --> 01:59:20,560
+ okay, a certain value that you choose of the body length, right, okay, then we can say that this limb
+
+887
+01:59:20,560 --> 01:59:26,800
+ is considered as detected correctly, yeah, so this is the high level principle, so another
+
+888
+01:59:28,400 --> 01:59:33,680
+ performance matrix, common performance matrix, which is based on this object key point similarity,
+
+889
+01:59:34,560 --> 01:59:41,120
+ okay, so with this object key point similarity, right, we have the average position and the
+
+890
+01:59:41,120 --> 01:59:47,760
+ average recall arising from this object key point similarity, so this object key point similarities
+
+891
+01:59:47,760 --> 01:59:53,200
+ is actually very similar to the mean average presentation that you have studied for the
+
+892
+01:59:53,200 --> 01:59:59,600
+ object detection, right, okay, so this average presentation, average recall, and there are
+
+893
+01:59:59,600 --> 02:00:06,880
+ variants, there are some variants are used in cocoa MP11 as well as the post track as the
+
+894
+02:00:06,880 --> 02:00:12,240
+ performance matrix for post estimation method, right, so this object similarity,
+
+895
+02:00:12,240 --> 02:00:18,639
+ object key point similarity, okay, as play a very similar role to the IOU in the detection,
+
+896
+02:00:18,639 --> 02:00:23,519
+ right, okay, in the object detection, so the definition is that, right, the distance between
+
+897
+02:00:23,519 --> 02:00:28,240
+ the predicted joint and the ground truth joint normalize by the scale of the person, again,
+
+898
+02:00:28,240 --> 02:00:32,800
+ the ideas are all very similar, right, you have the ground truth, you have the prediction,
+
+899
+02:00:32,800 --> 02:00:38,160
+ you get the error, you divide by the normalize body part, right, okay, and then if it's less than
+
+900
+02:00:38,160 --> 02:00:44,160
+ a certain threshold, then we say that, no, you do the detection correctly, so once you can detect
+
+901
+02:00:44,160 --> 02:00:49,840
+ whether a joint can be detected correctly, then you can further extend it to the precision as well
+
+902
+02:00:49,840 --> 02:00:54,960
+ as the recall, right, then you can plot the precision versus recall graph or you can calculate
+
+903
+02:00:54,960 --> 02:01:01,680
+ all these different matrix here, okay, so very similar to the IOU that we have studied in
+
+904
+02:01:02,400 --> 02:01:08,080
+ object detection, right, okay, so there's no need to go into too much of this detail, I'm just trying
+
+905
+02:01:08,080 --> 02:01:13,680
+ to share with you, these are some common matrix use in post estimation because later on when we
+
+906
+02:01:13,680 --> 02:01:17,600
+ look at the performance table, you need to have a certain understanding of what these
+
+907
+02:01:17,600 --> 02:01:24,160
+ matrix are all trying to measure, right, okay, so what are some of the challenges in post estimation,
+
+908
+02:01:24,160 --> 02:01:29,760
+ number one is you want it to be efficient, so you want it to be fast, right, sometimes certain
+
+909
+02:01:30,160 --> 02:01:35,920
+ poles may have, you may have limited data, so I remember, no, a few years back, actually,
+
+910
+02:01:35,920 --> 02:01:43,200
+ there was one company, kind of a, you know, a calm and affection company, they want to study the
+
+911
+02:01:43,200 --> 02:01:46,960
+ impacts of, you know, this ego, what do you call those are,
+
+912
+02:01:47,680 --> 02:01:48,880
+ uh,
+
+913
+02:01:52,400 --> 02:02:02,640
+ mus, mus, musculoskeletal, okay, so anyway, it's the, it's the potential risk to the worker
+
+914
+02:02:02,640 --> 02:02:08,240
+ when they always work in a very awkward position, yeah, so it has to study with their ergonomics,
+
+915
+02:02:08,240 --> 02:02:14,320
+ like for example, you know, those who need to, you know, fix certain, say, suppose there's like
+
+916
+02:02:14,320 --> 02:02:18,880
+ vehicles on top, they need to attach something, so they always have to bend over and do these kind
+
+917
+02:02:18,880 --> 02:02:24,160
+ of things, so that's very stressful to their back or their neck and so on, so actually they want to
+
+918
+02:02:24,160 --> 02:02:30,480
+ have some studies about, you know, the effects of this, uh, long-term effects of, you know, this
+
+919
+02:02:30,480 --> 02:02:37,200
+ composition to, uh, to the health of the worker, yeah, so in order to do that, you know, they need
+
+920
+02:02:37,200 --> 02:02:42,880
+ to also do some post estimation, and among them is that some of the certain posts that you have
+
+921
+02:02:42,880 --> 02:02:48,400
+ is quite rare, all right, some of these posts like this, you cannot commonly obtain it from your common
+
+922
+02:02:48,400 --> 02:02:53,680
+ data set, so this is also one of the potential challenge, right, you may have limited data for
+
+923
+02:02:53,680 --> 02:02:58,720
+ some rare posts that's not so common in the benchmark data set, right, other things are
+
+924
+02:02:58,720 --> 02:03:04,800
+ including occlusion, right, when you want to do the objective, uh, for example, the post estimation,
+
+925
+02:03:04,800 --> 02:03:10,240
+ for example, I'm standing here, my lower part of the body is occluded, so if you want to do the full
+
+926
+02:03:10,240 --> 02:03:17,760
+ body, uh, post estimation, you may not be able to predict it, right, so next let's move on,
+
+927
+02:03:18,719 --> 02:03:23,920
+ look at some common post estimation methods here, so it's divided into two broad categories,
+
+928
+02:03:23,920 --> 02:03:30,080
+ single person versus, uh, multi person, and for this course we'll only be focusing on 2D, yeah,
+
+929
+02:03:30,080 --> 02:03:35,280
+ we'll not be touching on 3D post estimation, yeah, so we'll only be looking at the 2D post
+
+930
+02:03:35,280 --> 02:03:40,240
+ estimation, for single person there's 2 broad categories, one is known as a regression based
+
+931
+02:03:40,240 --> 02:03:46,320
+ method that we'll see later, the other is a body part detection method, okay, for single person,
+
+932
+02:03:46,320 --> 02:03:51,120
+ for multi person there's a broad category, one is known as a top down approach, the other is a bottom
+
+933
+02:03:51,120 --> 02:03:57,759
+ up approach, so under top down we have a hrnet and transpose, under bottom up we have the open post
+
+934
+02:03:57,760 --> 02:04:04,320
+ technique, so later on we'll spend a little bit of time to talk about each of these particular methods,
+
+935
+02:04:06,160 --> 02:04:12,160
+ right, so first of all let's look at the single person post estimation method, right, so the single
+
+936
+02:04:12,160 --> 02:04:18,800
+ person post estimation method, right, uh, one of the broad category of methods under is known as a
+
+937
+02:04:18,800 --> 02:04:24,000
+ regression method, so this idea of regression method is very straightforward, right, so pretty much
+
+938
+02:04:24,000 --> 02:04:32,000
+ for example you have an image, input image, you want to detect the, the joints of this particular
+
+939
+02:04:32,000 --> 02:04:38,480
+ person, so what you need to do is simply train a deep learning base model, it can be for example your
+
+940
+02:04:39,200 --> 02:04:45,440
+ you know, a cnn or some other transformer and so on, right, so you provide the input, right,
+
+941
+02:04:45,440 --> 02:04:51,440
+ you also provide the output, the supervision to say okay where are the joints, so by keep
+
+942
+02:04:51,440 --> 02:04:58,160
+ presenting the input and also the positions of the out, the positions of the joint then you can
+
+943
+02:04:58,160 --> 02:05:04,320
+ train your network to do the regression automatically to find out where are the joints, yeah, so once
+
+944
+02:05:04,320 --> 02:05:09,839
+ it's fully trained then next when you have a new image is being present you'll detect all this
+
+945
+02:05:09,839 --> 02:05:16,000
+ key point, so once you detect the key point you can link them together to form no uh, a skeleton,
+
+946
+02:05:16,080 --> 02:05:21,680
+ yeah, so this is the basic idea of the regression base approach, yeah, so you obtain, you train and
+
+947
+02:05:21,680 --> 02:05:26,400
+ you obtain the feature map from the cnn, right, and afterwards you can calculate the regressor from
+
+948
+02:05:26,400 --> 02:05:32,480
+ the feature map, right, so uh, so for this style of method you can see actually the idea is very
+
+949
+02:05:32,480 --> 02:05:38,720
+ simple, right, so the advantage is very easy and it's quite fast, yeah, but uh the disadvantage
+
+950
+02:05:38,720 --> 02:05:45,280
+ is that it's not so accurate, so that's why uh for this regression base method it was early methods
+
+951
+02:05:45,280 --> 02:05:51,840
+ but nowadays uh usually people don't use it because it's not so accurate, right, okay, so the next
+
+952
+02:05:51,840 --> 02:05:57,120
+ single person uh post estimation method is called the body part methods here, so the body part
+
+953
+02:05:57,120 --> 02:06:02,480
+ methods what it does is that given a particular input image you go through a 2d human post,
+
+954
+02:06:02,480 --> 02:06:07,519
+ hpe is then for human post estimation network and then for each of the joint you will try to
+
+955
+02:06:07,519 --> 02:06:13,040
+ predict a hit map, right, for example, you know this particular joint here you try to generate a
+
+956
+02:06:13,040 --> 02:06:18,640
+ lightly hit map of where this joint is, yeah, so for each of this particular target joint you
+
+957
+02:06:18,640 --> 02:06:28,080
+ generate a hit map, right, to indicate where lightly this particular uh uh joint is located,
+
+958
+02:06:28,080 --> 02:06:33,200
+ right, and then afterwards you know you will try to pull this information together, right,
+
+959
+02:06:33,200 --> 02:06:40,320
+ you will perform the body part association to link all this uh potential joint arising from the
+
+960
+02:06:40,320 --> 02:06:46,240
+ likelihood probability lightly hook map or the hit map together, okay, so therefore the approach
+
+961
+02:06:46,240 --> 02:06:51,200
+ is that you will try to estimate k hit map, right, k is the number of joint that you have,
+
+962
+02:06:51,200 --> 02:06:57,759
+ so k hit map for a total of k key point or joint here, right, and afterwards you will try to assemble
+
+963
+02:06:57,759 --> 02:07:05,599
+ this uh detected uh key point together into the body post or the skeleton, right, so the advantage
+
+964
+02:07:05,600 --> 02:07:11,200
+ of this uh method is is more accurate than the regression based method but the disadvantage is
+
+965
+02:07:11,200 --> 02:07:16,720
+ slow and also more complex, so one of the representative work is called the stack hour glass
+
+966
+02:07:16,720 --> 02:07:25,600
+ network for human post estimation, right, in 2016, but by and large single person 2d post
+
+967
+02:07:25,600 --> 02:07:33,280
+ estimation is not commonly done nowadays, so this one is more just for your kind of information,
+
+968
+02:07:34,160 --> 02:07:40,719
+ right, okay, so if you look at the result performance, right, for this single person post
+
+969
+02:07:40,719 --> 02:07:45,679
+ estimation, right, you can see these are the body part detection approach, these are the regression
+
+970
+02:07:45,679 --> 02:07:52,000
+ based approach, these are a bunch of methods proposed over reasonably recent years, right,
+
+971
+02:07:52,000 --> 02:07:58,559
+ so these are the model, right, okay, so for different uh no body joint, right, and then these are the
+
+972
+02:07:58,560 --> 02:08:04,480
+ performance using the you know the average precision, okay, using this key point similarity uh
+
+973
+02:08:05,120 --> 02:08:09,520
+ object key point similarity matrix that we have just introduced, okay,
+
+974
+02:08:12,800 --> 02:08:18,720
+ right, so the next types of methods we're going to look at is the multi person uh post estimation,
+
+975
+02:08:18,720 --> 02:08:23,440
+ so the multi person post estimation there's two can be divided into two broad category,
+
+976
+02:08:23,440 --> 02:08:28,320
+ one is the top down approach, the other is a bottom up approach, so the top down approach as
+
+977
+02:08:28,320 --> 02:08:33,360
+ the name suggests is quite straightforward and intuitive, pretty much you think about this is
+
+978
+02:08:33,360 --> 02:08:38,559
+ the image of video, you have a few different person inside, so what we need to do is simply try to
+
+979
+02:08:38,559 --> 02:08:46,080
+ detect right, bounding box for individual person, so once you can actually detect the bounding box
+
+980
+02:08:46,080 --> 02:08:52,400
+ for individual person, then for each individual person we can just deploy the single person
+
+981
+02:08:52,400 --> 02:08:56,799
+ post estimation to solve the problem, so therefore it's actually very intuitive, it's just like
+
+982
+02:08:56,799 --> 02:09:01,759
+ you know divide and conquer, you detect individual person, right, and afterwards you perform the
+
+983
+02:09:01,759 --> 02:09:07,120
+ post estimation for each person, right, so the approach therefore is that you detect the person
+
+984
+02:09:07,120 --> 02:09:11,920
+ in the image using some of the shell detector, you detect different person, and then for each person
+
+985
+02:09:11,920 --> 02:09:17,120
+ you perform the post estimation, right, as mentioned, right, so there are some representative work,
+
+986
+02:09:17,200 --> 02:09:23,200
+ one of them is called the HR net, which is called the high resolution net, so for this
+
+987
+02:09:23,200 --> 02:09:29,680
+ type of method the good thing is that it's accurate, all right, okay, it's not so complex,
+
+988
+02:09:30,800 --> 02:09:35,599
+ but the disadvantage is that the runtime will increase with the increasing number of detector
+
+989
+02:09:35,599 --> 02:09:41,680
+ person, because what happened is that suppose this particular image has many many different person,
+
+990
+02:09:41,680 --> 02:09:46,960
+ right, and then for each of the detected person, right, it needs to perform a 2D estimation,
+
+991
+02:09:46,960 --> 02:09:51,280
+ so therefore when you have lots of person, each of the person you have to perform the
+
+992
+02:09:52,400 --> 02:09:58,480
+ post estimation, then it becomes slow, so therefore the runtime will increase, right,
+
+993
+02:09:59,360 --> 02:10:04,560
+ with respect to the number of detected person, yeah, okay, so therefore it's most suitable for
+
+994
+02:10:04,560 --> 02:10:08,640
+ scene when you're a few person, when your imaging scene doesn't have so many person,
+
+995
+02:10:08,640 --> 02:10:13,840
+ but this could potentially be a good choice, so the high level reasonings of top-down approach
+
+996
+02:10:13,840 --> 02:10:19,120
+ is like this, suppose you have an input image, you use off the shelf human detector to detect
+
+997
+02:10:19,120 --> 02:10:24,240
+ individual person, each of the person you can go through the 2D post estimation to
+
+998
+02:10:25,520 --> 02:10:30,160
+ you know detect their post and afterwards you just put them back together, right, so there's a high
+
+999
+02:10:30,160 --> 02:10:33,520
+ level, very simple to understand top-down approach,
+
+1000
+02:10:38,960 --> 02:10:53,840
+ so under this we have the, right, so one of the network that is used to perform this is the HR
+
+1001
+02:10:53,840 --> 02:10:59,040
+ net known as a high resolution net here, right, so let's look at some fracture information and
+
+1002
+02:10:59,040 --> 02:11:04,320
+ afterwards we'll look at this particular diagram to understand how the HR net works here, right,
+
+1003
+02:11:04,320 --> 02:11:08,880
+ it says that it starts from a high resolution subnet, okay, right, for example this is a
+
+1004
+02:11:08,880 --> 02:11:14,960
+ high resolution subnet, that means that image a network that can handle a large resolution, okay,
+
+1005
+02:11:15,679 --> 02:11:21,280
+ and then afterwards it adds high to low resolution subnet gradually, right, so initially, right,
+
+1006
+02:11:21,280 --> 02:11:26,000
+ your input is a high resolution, okay, and if your input feature is high resolution,
+
+1007
+02:11:26,000 --> 02:11:30,799
+ and afterwards you do the down sampling, okay, you do the down sampling to generate some lower
+
+1008
+02:11:30,800 --> 02:11:36,400
+ resolution feature map here, okay, so you have the high resolution subnet and then you have some
+
+1009
+02:11:36,400 --> 02:11:42,160
+ lower resolution subnet here, right, so pretty much you can see that, right, so if you look at this
+
+1010
+02:11:42,160 --> 02:11:49,840
+ particular diagram here, so your input initially you have an input frame or image, right, so we
+
+1011
+02:11:49,840 --> 02:11:55,360
+ let it go through for example a CNN network, okay, so this CNN network here you can see these are the
+
+1012
+02:11:55,360 --> 02:12:02,320
+ feature map, all right, so this is a standard CNN network, okay, so you have the feature map here,
+
+1013
+02:12:02,320 --> 02:12:06,719
+ but what is a little bit different from this HR net is that at some point in their feature
+
+1014
+02:12:07,440 --> 02:12:13,759
+ they perform the sub sampling, right, you can see this down sampling, they perform the down
+
+1015
+02:12:13,759 --> 02:12:20,080
+ sampling to reduce the size of the resolution, okay, so therefore you can see there's some down
+
+1016
+02:12:20,080 --> 02:12:25,440
+ sampling here, okay, and then in between sometimes you also perform some information
+
+1017
+02:12:25,440 --> 02:12:30,640
+ exchange between the higher resolution version and the lower resolution version, so there's some
+
+1018
+02:12:30,640 --> 02:12:40,320
+ information exchange between them, okay, yeah, and you can also continue for this particular
+
+1019
+02:12:40,320 --> 02:12:46,880
+ version you can further continue to perform the down sampling to become even lower resolution
+
+1020
+02:12:46,880 --> 02:12:51,440
+ feature map here, right, so and then after works at some juncture you can have the information
+
+1021
+02:12:51,440 --> 02:12:58,640
+ exchange again across no feature map with different resolution, so why do you want to do that, why do
+
+1022
+02:12:58,640 --> 02:13:06,240
+ you want to create no feature map with a different resolution, so this idea is actually quite common
+
+1023
+02:13:06,240 --> 02:13:11,600
+ right, for example when you talk about object detection, right, when we study about YOLO you
+
+1024
+02:13:11,600 --> 02:13:17,120
+ also see that very often we have this kind of feature pyramid, right, feature with different
+
+1025
+02:13:17,120 --> 02:13:23,680
+ resolution, sometimes it's for you to handle for example, no person with object with different
+
+1026
+02:13:23,680 --> 02:13:28,160
+ scale, right, sometimes bigger scale sometimes smaller scale, so you want to have that particular
+
+1027
+02:13:28,160 --> 02:13:33,680
+ flexibility to be able to handle objects of, you know, whether it's small object or big object,
+
+1028
+02:13:33,680 --> 02:13:39,840
+ small person or big person, so that's why we have these types of no different, you can see the
+
+1029
+02:13:40,480 --> 02:13:47,360
+ horizontal axis is a that, that means the number of a layer that we have and then this axis here is
+
+1030
+02:13:47,360 --> 02:13:54,000
+ a scale, that means whether your feature is a large high resolution feature map or low resolution
+
+1031
+02:13:54,000 --> 02:13:59,520
+ feature maps here, okay, so it connects multi resolution subnet in parallel, so you can see
+
+1032
+02:13:59,520 --> 02:14:05,840
+ high resolution, okay, smaller and even smallest and this is connected in parallel, right, so it
+
+1033
+02:14:05,840 --> 02:14:11,440
+ makes use of multi scale fusion, scale in this case just means different size of the resolution,
+
+1034
+02:14:11,440 --> 02:14:17,440
+ okay, and it encourage or allow information exchange, you can see sometimes up sometimes down,
+
+1035
+02:14:17,440 --> 02:14:22,560
+ right, so it allow information exchange across different scales of feature map, okay, across
+
+1036
+02:14:23,280 --> 02:14:32,560
+ parallel multi resolution subnet, all right, so just now we have talked about the top down approach,
+
+1037
+02:14:32,560 --> 02:14:37,760
+ now we are going to look at the bottom up approach, so the bottom up approach what it does is that,
+
+1038
+02:14:37,760 --> 02:14:43,680
+ right, it try to give an input, it try to detect all the key points, so for example in this particular
+
+1039
+02:14:43,680 --> 02:14:48,800
+ image there's many different person, right, so it try to detect all the possible key point that
+
+1040
+02:14:48,800 --> 02:14:54,400
+ you have for all the persons in this image and afterwards you try to link them up, associate
+
+1041
+02:14:54,400 --> 02:14:59,040
+ them together for okay, so these are key point belonging to person one, these are the key point
+
+1042
+02:14:59,040 --> 02:15:04,080
+ belonging to person two and so on and so forth, so because you detect the collections of key point
+
+1043
+02:15:04,080 --> 02:15:09,120
+ first and after folks you decide this bunch of key point does it belong to the same person,
+
+1044
+02:15:09,120 --> 02:15:13,200
+ this bunch of key point does it belong to the second person and so on, so therefore it's actually
+
+1045
+02:15:13,200 --> 02:15:18,800
+ a bottom up approach, you start off with the key point and then you link them up together, okay,
+
+1046
+02:15:18,800 --> 02:15:24,960
+ so the high level idea therefore is that you try to detect all the body parts or joints in the image
+
+1047
+02:15:24,960 --> 02:15:30,800
+ and afterwards you try to assemble them, you link them together into pose for different person,
+
+1048
+02:15:31,520 --> 02:15:37,200
+ right, okay, so one of the most representative work for this is known as an open pose, right,
+
+1049
+02:15:37,200 --> 02:15:42,960
+ so the advantage of this kind of technique is that the runtime is fast, right, it's almost
+
+1050
+02:15:42,960 --> 02:15:47,600
+ constant with respect to different number of detected person, so whether you have one person
+
+1051
+02:15:47,600 --> 02:15:52,800
+ or you have more person the amount of time more or less is the same, okay, as opposed to just now
+
+1052
+02:15:52,800 --> 02:15:59,120
+ the top down the more person you have the slower it will become, right, so but the shortcoming of
+
+1053
+02:15:59,120 --> 02:16:05,680
+ this style method is this is a bit more complex, right, okay, it's suitable for crowded scene because
+
+1054
+02:16:05,680 --> 02:16:10,800
+ when you're more person since their runtime is the most constant the number of person will not affect
+
+1055
+02:16:12,080 --> 02:16:17,840
+ their runtime, okay, so the high level idea is that, right, for this bottom up approach you start
+
+1056
+02:16:17,840 --> 02:16:23,840
+ with the input image you let it go through the pose estimation, right, so what it does is it detect
+
+1057
+02:16:23,840 --> 02:16:28,560
+ all the key points for all the person and then afterwards you go through a body part association
+
+1058
+02:16:28,560 --> 02:16:35,360
+ try to assemble or link those key points that belong to a single person together, right, so
+
+1059
+02:16:35,360 --> 02:16:40,160
+ therefore you have, you know, for example this is you this bunch of the key point you after some
+
+1060
+02:16:40,160 --> 02:16:45,120
+ analysis you know that it belongs to the one person and this bunch of key point belongs to the second
+
+1061
+02:16:45,120 --> 02:16:50,000
+ person, right, so then you output some multi-person pose, yeah,
+
+1062
+02:16:53,760 --> 02:16:58,000
+ right, okay, so next we are going to look at some new and emerging methods,
+
+1063
+02:16:58,160 --> 02:17:19,200
+ okay, so by now you can see that for new and emerging technique usually I try to choose one
+
+1064
+02:17:19,200 --> 02:17:25,200
+ which is a transformer based approach, right, so therefore for, you know, this emerging technique
+
+1065
+02:17:25,680 --> 02:17:30,640
+ the method that I choose chosen is the transpose method, right, so let's look at a quick high
+
+1066
+02:17:30,640 --> 02:17:36,320
+ level this facture information regarding the transpose method, so transformers method is a
+
+1067
+02:17:36,320 --> 02:17:41,520
+ transformer based pose estimation, you can see nowadays if it's a transformer based method
+
+1068
+02:17:41,520 --> 02:17:47,280
+ usually they either like to use trans or former, if you see trans or you see former, right, likely
+
+1069
+02:17:47,280 --> 02:17:52,400
+ is a transformer based approach, so you can see in this case it's a transpose, so it's a transformer
+
+1070
+02:17:52,400 --> 02:17:59,840
+ based pose estimation method here, right, okay, so the backbone, right, so this backbone here,
+
+1071
+02:17:59,840 --> 02:18:05,440
+ right, oh okay perhaps I can start to explain using this particular figure first, right,
+
+1072
+02:18:05,440 --> 02:18:10,959
+ so first of all you have this particular input image that you want to perform the pose estimation,
+
+1073
+02:18:10,959 --> 02:18:17,680
+ so you let it go through a backbone, right, so this backbone that we have typically for this
+
+1074
+02:18:17,680 --> 02:18:23,440
+ transpose they use a common CNN right to extract the feature, so the common CNN for example one
+
+1075
+02:18:23,440 --> 02:18:29,520
+ popular choice of the rest net, okay, or the HR net that we have studied earlier, so we can use
+
+1076
+02:18:29,520 --> 02:18:35,760
+ rest net or HR net, okay, to extract the feature, right, to extract the feature, so the output here
+
+1077
+02:18:35,760 --> 02:18:41,600
+ now, okay, your input image after your backbone which is typically your CNN, your output now is
+
+1078
+02:18:41,600 --> 02:18:47,280
+ actually the extracted feature map now, okay, so this is the extracted feature map, okay, so once
+
+1079
+02:18:47,360 --> 02:18:52,720
+ you have this particular extracted feature map what do we do, right, standard like before, right,
+
+1080
+02:18:52,720 --> 02:18:59,200
+ we partition it into different patches, okay, we put in the position information to form the token,
+
+1081
+02:18:59,200 --> 02:19:05,200
+ yeah, right, the patch of the token, right, so afterwards, yeah, you have, we partition this
+
+1082
+02:19:06,000 --> 02:19:11,280
+ output of this feature map into different token or patches, we flatten it, then we have a
+
+1083
+02:19:11,280 --> 02:19:16,000
+ collections of vectors here, okay, so this collections of vector, next we are going to go
+
+1084
+02:19:16,000 --> 02:19:20,639
+ through this transformer encoder, you can see the steps are quite standard, you let it go through
+
+1085
+02:19:20,639 --> 02:19:26,559
+ the transformer encoder, so this particular transformer encoder what it does is similar to
+
+1086
+02:19:26,559 --> 02:19:32,080
+ all the previous things is that we want to actually from this original input vector, high-level idea
+
+1087
+02:19:32,080 --> 02:19:39,280
+ is that you will try to, you know, extract a bunch of output vector, okay, which is a better
+
+1088
+02:19:39,280 --> 02:19:45,680
+ representation because of the attention mechanism that I've said so many times already, okay,
+
+1089
+02:19:46,240 --> 02:19:50,560
+ right, so you can see the steps inside is more or less the same, so this part here is performing
+
+1090
+02:19:50,560 --> 02:19:55,920
+ the cell attention, if you remember the query key and the value, so if you cannot remember the
+
+1091
+02:19:55,920 --> 02:20:00,960
+ detail you can refer to our lectures on the transformer, so this is the calculating of the
+
+1092
+02:20:00,960 --> 02:20:07,040
+ cell attention, right, and then this part here is actually your, you know, the fifth forward
+
+1093
+02:20:07,040 --> 02:20:14,400
+ network here that we have, okay, so this is the relatively standard transformer encoder layer,
+
+1094
+02:20:14,400 --> 02:20:19,440
+ so in this case here we do not make use of the decoder, right, we don't use a decoder, right,
+
+1095
+02:20:19,440 --> 02:20:26,320
+ okay, so after works the output at this particular juncture is a bunch of, a bunch of these vectors
+
+1096
+02:20:26,320 --> 02:20:32,960
+ corresponding to different region, right, so for each region, for each region here you have one
+
+1097
+02:20:33,840 --> 02:20:39,199
+ vectors here, right, so output is a bunch of vectors that correspond to different regions
+
+1098
+02:20:39,280 --> 02:20:44,800
+ in the image, and after works you let it go through a head network here, so this head network here
+
+1099
+02:20:44,800 --> 02:20:49,520
+ what they will do is that you'll try to find for each of this particular region here, for each
+
+1100
+02:20:49,520 --> 02:20:56,240
+ key point, right, so this head network here will actually project into a K key point, right,
+
+1101
+02:20:56,240 --> 02:21:01,840
+ K key point, for each of the key point you will see what is the most likelihood that no,
+
+1102
+02:21:02,880 --> 02:21:08,720
+ for, all right, because for our body for example we may have a 17 or 14 key point, right,
+
+1103
+02:21:08,720 --> 02:21:15,199
+ so 14 key point, so for each of the channel that we have, right, you will see, right, for example
+
+1104
+02:21:15,199 --> 02:21:22,160
+ what is the most likely head map, right, that the key point is at this position, see, so you can see
+
+1105
+02:21:22,160 --> 02:21:27,920
+ this one likely is corresponding to the the key point near the head here, okay, right, and then
+
+1106
+02:21:27,920 --> 02:21:33,119
+ for other key points we could be for example detecting you know either left shoulder joint and so on
+
+1107
+02:21:33,200 --> 02:21:39,360
+ and so forth, okay, so pretty much, yeah, you mentioned already input go through the backbone,
+
+1108
+02:21:39,360 --> 02:21:43,680
+ get the feature, right, okay, let it go through a transformer, you have different
+
+1109
+02:21:45,040 --> 02:21:50,560
+ vectors, better vectors that correspond to different regions, okay, and afterwards you let it go through
+
+1110
+02:21:50,560 --> 02:21:57,760
+ a head network, right, so for this head network it will give rise to a K key point maps depending
+
+1111
+02:21:57,760 --> 02:22:03,520
+ on how many key points you have, right, okay, but so for each of the key points it will generate a
+
+1112
+02:22:03,520 --> 02:22:09,040
+ head map here, right, generate a head map to indicate what's the likelihood that particular joint fall
+
+1113
+02:22:09,040 --> 02:22:14,720
+ in the position, the brighter the color that means the higher the probability you will fall in the
+
+1114
+02:22:14,720 --> 02:22:22,160
+ positions here, right, okay, so afterwards, yeah, so this is pretty much that, right, okay, so let's
+
+1115
+02:22:22,160 --> 02:22:27,520
+ continue, it says that okay for the backbone here, huh, so the backbone it says that we can, I think
+
+1116
+02:22:27,520 --> 02:22:32,320
+ backbone we just covered, right, and then afterwards the transformer, so for the transformer we make
+
+1117
+02:22:32,320 --> 02:22:38,240
+ use of the encoder only, we do not make use of the decoder, right, so we have an n layer attention,
+
+1118
+02:22:38,240 --> 02:22:45,520
+ so you know you repeat this encoder n times, so it's an n attention layers, okay, and then you
+
+1119
+02:22:45,520 --> 02:22:51,840
+ have the feed forward, okay, network, right, so the head network as mentioned before, right,
+
+1120
+02:22:51,840 --> 02:22:57,200
+ it can make use of some small network to predict the key, key point head map, so for each of the
+
+1121
+02:22:57,200 --> 02:23:03,840
+ key points it can generate head map, right, okay, so this particular diagram here just indicated
+
+1122
+02:23:03,840 --> 02:23:08,800
+ right, okay, so attention layer one, attention layer two, attention layer n just means that,
+
+1123
+02:23:08,800 --> 02:23:14,400
+ okay, so you have actually n layer, right, so you have this n layer here, so each of these
+
+1124
+02:23:14,400 --> 02:23:20,240
+ particular slides here just refer to for example if you are talking about the first layer, okay,
+
+1125
+02:23:20,240 --> 02:23:25,680
+ or the second layer, or the third layer, and so on and so forth, right, so this one just corresponds
+
+1126
+02:23:25,680 --> 02:23:30,800
+ to different layers here, so suppose if we look at the first layer here, right, so the first layer
+
+1127
+02:23:30,800 --> 02:23:36,720
+ here, right, so for the first layer here which is for example just one of this block, the first
+
+1128
+02:23:36,720 --> 02:23:42,240
+ block that you have, so for example earlier on when you do the prediction suppose you already know,
+
+1129
+02:23:42,240 --> 02:23:48,320
+ okay, you can find out that this is the lively position of your head, John, yeah, so what you
+
+1130
+02:23:48,400 --> 02:23:54,800
+ can do now is that you can take these particular positions of a head joint as a query, right,
+
+1131
+02:23:54,800 --> 02:24:00,400
+ and then you can try to calculate the attention map, right, so the attention map means that,
+
+1132
+02:24:00,400 --> 02:24:06,880
+ you know, remember you have the query, you have this query, you multiply with the key
+
+1133
+02:24:06,880 --> 02:24:11,760
+ from all the position, and then you let it go through a softmax operation, right, so this
+
+1134
+02:24:11,760 --> 02:24:16,800
+ particular figure pretty much just says that suppose I want to use this as a query, this is
+
+1135
+02:24:16,800 --> 02:24:23,840
+ the position, I want to find out, you know, what is the contributions of other patches, right, to
+
+1136
+02:24:23,840 --> 02:24:33,279
+ work the importance of this current joint position, so this starts a little bit here, but you can see
+
+1137
+02:24:33,279 --> 02:24:39,840
+ brighter color means that those patches which are nearby to the head, right, provide strong
+
+1138
+02:24:40,720 --> 02:24:47,920
+ contribution, right, to indicate where this head joint would be, right, so for example,
+
+1139
+02:24:47,920 --> 02:24:54,400
+ if you now look at another joint, right, so for example one of the detector key point, right,
+
+1140
+02:24:54,400 --> 02:24:59,280
+ this is the livelihood where it's belonging to, so if you want to visualize, because very often
+
+1141
+02:25:00,160 --> 02:25:04,480
+ when you do this AI model sometimes you cannot visualize it, you do not know whether your model
+
+1142
+02:25:04,480 --> 02:25:09,680
+ is doing well, whether it's doing properly, so you want to have some visualization to help you
+
+1143
+02:25:09,680 --> 02:25:15,360
+ to understand whether your CNN model or your transformer is really doing what it's doing,
+
+1144
+02:25:15,360 --> 02:25:20,160
+ yeah, so therefore what you can do is that suppose, you know, you have this head network,
+
+1145
+02:25:20,160 --> 02:25:26,640
+ you have one of this particular position which is a lightly joint, for example, for your foot,
+
+1146
+02:25:26,640 --> 02:25:30,640
+ right, so you can use that as a query, maybe for example it corresponds to this one,
+
+1147
+02:25:30,640 --> 02:25:36,320
+ and then you try to calculate its attention map, you calculate its attention map, right, which is,
+
+1148
+02:25:36,400 --> 02:25:42,960
+ as I mentioned, you take the query, multiply with all the key factors, all right, okay,
+
+1149
+02:25:42,960 --> 02:25:48,160
+ and then you let it go to the softmax, yeah, and afterwards this can be interpreted as a
+
+1150
+02:25:49,520 --> 02:25:56,560
+ head map, so you can see for example for this joint here, the neighboring region,
+
+1151
+02:25:56,560 --> 02:26:01,039
+ the neighboring patches are the one that's going to contribute to work, you know,
+
+1152
+02:26:01,040 --> 02:26:07,120
+ calculating that particular joint, yeah, so it gives you a certain visualization that, you know,
+
+1153
+02:26:07,120 --> 02:26:11,600
+ these are from the network perspective, they find out which region actually contributes
+
+1154
+02:26:12,240 --> 02:26:18,320
+ to work, you know, the estimation of this current joint, so you'll find that when you study
+
+1155
+02:26:18,320 --> 02:26:22,800
+ transformer, you know, it's quite a common technique that very often we look at the attention map,
+
+1156
+02:26:22,800 --> 02:26:27,840
+ just like just now the detection transformer, we also do that, to see which region actually
+
+1157
+02:26:28,560 --> 02:26:34,640
+ is important for this particular current patch position as a query, which other patches are
+
+1158
+02:26:34,640 --> 02:26:42,640
+ considered as relevant or contribute more to work this current region, right, okay, so this slide
+
+1159
+02:26:42,640 --> 02:26:49,840
+ here shows the comparison of various multi-person post-assimation methods, right, so you have the
+
+1160
+02:26:49,840 --> 02:26:55,520
+ top down versus the bottom up method, right, so these methods are more recent years, so these are
+
+1161
+02:26:55,520 --> 02:27:01,440
+ a whole bunch of methods, for example, yeah, the HRnet that we mentioned, there's a few variants
+
+1162
+02:27:01,440 --> 02:27:08,880
+ here, okay, we have the transpose here, okay, right, so yeah, so these are some of the backbone
+
+1163
+02:27:08,880 --> 02:27:14,160
+ they use, right, the image size, and then these are the performance matrix, okay, so the performance
+
+1164
+02:27:14,160 --> 02:27:19,840
+ matrix that they use is the AP average positions here, right, okay, the number are not so important
+
+1165
+02:27:19,840 --> 02:27:25,360
+ since for this part here, we are more like trying to explain to you, right, so just to give you
+
+1166
+02:27:25,840 --> 02:27:30,960
+ about some of the key tools that we are using here, so for example, transpose here is proposed in
+
+1167
+02:27:30,960 --> 02:27:36,720
+ 21, okay, so this is the performance, not necessarily be the best, but it's actually a
+
+1168
+02:27:36,720 --> 02:27:41,040
+ starting point, right, so this is one of the framework that is quite different from the other
+
+1169
+02:27:41,040 --> 02:27:47,440
+ previous framework by a transformer based approach, yeah, but of course over time, it becomes better,
+
+1170
+02:27:48,240 --> 02:27:55,920
+ right, so under the post estimation method, actually we cover the following, so yeah,
+
+1171
+02:27:55,920 --> 02:28:01,680
+ we look at the introduction, single-post, multi-post, and emerging methods,
+
+1172
+02:28:04,160 --> 02:28:08,800
+ okay, let me see, right, so the next topic that we have is the
+
+1173
+02:28:17,680 --> 02:28:22,800
+ okay, do you all want to have an early break, right, since we come to this juncture which is the
+
+1174
+02:28:28,080 --> 02:28:32,560
+ yeah, okay, yeah, doesn't matter, right, today we celebrate a bit, we can have an early break,
+
+1175
+02:28:32,560 --> 02:28:36,320
+ so we'll finish our class today, yeah, actually it's almost nine o'clock already,
+
+1176
+02:28:36,320 --> 02:28:43,600
+ yeah, so we'll finish a little bit earlier today, so just a reminder, so next lecture will be actually
+
+1177
+02:28:43,600 --> 02:28:48,880
+ this Saturday which is a Zoom lecture, right, okay, and also for those of you, as I mentioned,
+
+1178
+02:28:48,880 --> 02:28:53,120
+ if you have not done the teaching feedback, yeah, please spare one moment to do the feedback,
+
+1179
+02:28:53,120 --> 02:29:00,960
+ right, okay, thank you, I'll see you on Saturday, thank you.
+
+1180
+02:29:13,600 --> 02:29:14,500
+ you
+
+1181
+02:29:43,600 --> 02:29:44,500
+ you
+
+1182
+02:30:13,600 --> 02:30:14,500
+ you
+
+1183
+02:30:43,600 --> 02:30:44,500
+ you
+
+1184
+02:31:13,600 --> 02:31:14,500
+ you
+
+1185
+02:31:43,600 --> 02:31:44,500
+ you
+
+1186
+02:32:13,600 --> 02:32:14,500
+ you
+
+1187
+02:32:43,600 --> 02:32:44,500
+ you
+
+1188
+02:33:13,600 --> 02:33:14,500
+ you
+
+1189
+02:33:43,600 --> 02:33:44,500
+ you
+
+1190
+02:34:13,600 --> 02:34:14,500
+ you
+
+1191
+02:34:43,600 --> 02:34:44,500
+ you
+
+1192
+02:35:13,600 --> 02:35:14,500
+ you
+
+1193
+02:35:43,600 --> 02:35:44,500
+ you
+
+1194
+02:36:13,600 --> 02:36:14,500
+ you
+
+1195
+02:36:43,600 --> 02:36:45,120
+ you
+
+1196
+02:37:13,600 --> 02:37:14,500
+ you
+
+1197
+02:37:43,600 --> 02:37:44,500
+ you
+
+1198
+02:38:13,600 --> 02:38:14,500
+ you
+
+1199
+02:39:13,600 --> 02:39:14,500
+ you
+
+1200
+02:39:43,600 --> 02:39:44,500
+ you
+
+1201
+02:40:13,600 --> 02:40:15,120
+ you
+
+1202
+02:40:43,600 --> 02:40:44,500
+ you
+
+1203
+02:41:13,600 --> 02:41:14,500
+ you
+
+1204
+02:41:43,600 --> 02:41:45,120
+ you
+
+1205
+02:42:13,600 --> 02:42:14,500
+ you
+
+1206
+02:42:43,600 --> 02:42:44,500
+ you
+
+1207
+02:43:13,600 --> 02:43:15,120
+ you
+
+1208
+02:43:43,600 --> 02:43:44,500
+ you
+
+1209
+02:44:13,600 --> 02:44:14,500
+ you
+
+1210
+02:44:43,600 --> 02:44:44,500
+ you
+
+1211
+02:45:13,600 --> 02:45:15,120
+ you
+
+1212
+02:45:43,600 --> 02:45:45,120
+ you
+
+1213
+02:46:13,600 --> 02:46:14,500
+ you
+
+1214
+02:46:43,600 --> 02:46:44,500
+ you
+
+1215
+02:47:13,600 --> 02:47:14,500
+ you
+
+1216
+02:47:43,600 --> 02:47:44,500
+ you
+
+1217
+02:48:43,600 --> 02:48:44,500
+ you
+
+1218
+02:49:13,600 --> 02:49:14,180
+ you
+
+1219
+02:49:43,600 --> 02:49:45,140
+ you
+
+1220
+02:50:13,600 --> 02:50:15,120
+ you
+
+1221
+02:50:43,600 --> 02:50:45,120
+ you
+
+1222
+02:52:13,600 --> 02:52:15,120
+ you
+
+1223
+02:52:43,600 --> 02:52:44,500
+ you
+
+1224
+02:53:43,600 --> 02:53:44,180
+ you
+
+1225
+02:54:13,600 --> 02:54:14,180
+ you
+

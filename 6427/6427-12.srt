@@ -1,0 +1,5700 @@
+1
+00:00:00,000 --> 00:00:29,600
+ Okay, I think we can probably start the class today.
+
+2
+00:00:29,600 --> 00:00:35,640
+ So the next topic we're going to talk about is the video also known as the human action
+
+3
+00:00:35,640 --> 00:00:37,640
+ coordination or HR.
+
+4
+00:00:37,640 --> 00:00:44,920
+ So pretty much is that one to recognize the actions of the human in the video.
+
+5
+00:00:44,920 --> 00:00:55,840
+ Okay, before I start, just want to check in your hear me and also see the share screen.
+
+6
+00:00:55,840 --> 00:01:04,520
+ Okay, thank you.
+
+7
+00:01:04,520 --> 00:01:05,520
+ So then let's continue.
+
+8
+00:01:05,520 --> 00:01:11,320
+ Okay, so under this human action recognition, the overview is first of all, we will have
+
+9
+00:01:11,320 --> 00:01:16,080
+ an introduction and after a while we will look at some selected action recognition methods
+
+10
+00:01:16,080 --> 00:01:20,520
+ starting from some more classical approach to some more recent approach.
+
+11
+00:01:20,520 --> 00:01:26,199
+ So there are quite a wide range of them, so I'm only selected some more representative
+
+12
+00:01:26,199 --> 00:01:27,199
+ one.
+
+13
+00:01:27,199 --> 00:01:32,240
+ So this input two stream methods, 3d CNN, efficient video monitoring.
+
+14
+00:01:32,240 --> 00:01:40,640
+ We will also be looking at some new and emerging techniques for video or human action recognition.
+
+15
+00:01:40,640 --> 00:01:43,560
+ So what's the objective of this human action recognition?
+
+16
+00:01:43,560 --> 00:01:49,800
+ So as mentioned earlier on, this quite straightforward, pretty much is that we want to recognize the
+
+17
+00:01:49,800 --> 00:01:52,720
+ actions of the human in the video.
+
+18
+00:01:52,720 --> 00:02:00,160
+ So this following figures actually show some of the sample actions, for example shaking
+
+19
+00:02:00,160 --> 00:02:04,000
+ hands, playing cricket balls and so on and so forth.
+
+20
+00:02:04,000 --> 00:02:09,560
+ So pretty much given a short video clip, typically, you want to understand what is the human's
+
+21
+00:02:09,560 --> 00:02:11,760
+ action in the video clip.
+
+22
+00:02:11,760 --> 00:02:17,240
+ Okay, so first for video action recognition, there's many, many different applications.
+
+23
+00:02:17,240 --> 00:02:19,960
+ So here, given here, it's just some of the sample application.
+
+24
+00:02:19,960 --> 00:02:24,640
+ For example, it can be used in driver, kind of a car cabin monitoring.
+
+25
+00:02:24,640 --> 00:02:29,960
+ You want to understand the on monitor the actions of the drivers.
+
+26
+00:02:29,960 --> 00:02:36,280
+ It can be used to do some jshare recognition to control robots or to interface with various
+
+27
+00:02:36,280 --> 00:02:37,280
+ devices.
+
+28
+00:02:37,280 --> 00:02:41,480
+ Right, okay, it can be used to perform things like fall detection.
+
+29
+00:02:41,480 --> 00:02:44,680
+ These are especially important in elderly home.
+
+30
+00:02:44,920 --> 00:02:50,480
+ Right, and it can also be used to perform some abnormal event analysis.
+
+31
+00:02:50,480 --> 00:02:55,320
+ Yeah, so therefore, it's applications very wide for this human action recognition.
+
+32
+00:02:58,000 --> 00:03:02,600
+ Okay, this slide is give a very quick history and overview and some of the key milestones
+
+33
+00:03:02,600 --> 00:03:03,600
+ of the techniques.
+
+34
+00:03:03,600 --> 00:03:08,680
+ So you can see it started off probably about 10 years ago.
+
+35
+00:03:08,680 --> 00:03:13,680
+ I mean, before that, there's even some other methods, but they are not very successful.
+
+36
+00:03:13,680 --> 00:03:18,680
+ So the more recent deep learning based method started around 2014.
+
+37
+00:03:18,680 --> 00:03:20,680
+ So it's only about 10 years old.
+
+38
+00:03:20,680 --> 00:03:25,000
+ So along the way, there are many methods that have been developed.
+
+39
+00:03:25,000 --> 00:03:30,000
+ Right, so yeah, we will not be studying all of them, but we'll be looking at some of the
+
+40
+00:03:30,000 --> 00:03:34,480
+ representative one, for example, the earlier two stream methods.
+
+41
+00:03:34,480 --> 00:03:40,360
+ Okay, the I3D, which is a 3D based kind of a 3D convolution based approach.
+
+42
+00:03:40,640 --> 00:03:47,480
+ Okay, and also more efficient temporal shift module approach as well as the recent videos
+
+43
+00:03:47,480 --> 00:03:48,800
+ in transport.
+
+44
+00:03:48,800 --> 00:03:52,560
+ So we'll be looking at some representative methods along the way.
+
+45
+00:03:54,960 --> 00:04:00,440
+ Right, so in order to perform this human action recognition, we need to be supported by the
+
+46
+00:04:00,440 --> 00:04:05,840
+ data set because we need to have the data set to train our algorithm as well as to evaluate
+
+47
+00:04:05,840 --> 00:04:06,840
+ its performance.
+
+48
+00:04:07,320 --> 00:04:12,240
+ Right, so over the years, various types of data sets have been developed.
+
+49
+00:04:12,240 --> 00:04:14,840
+ So this figure shows some of the data set.
+
+50
+00:04:14,840 --> 00:04:20,519
+ So some high quality, large scale data set have been developed over the years.
+
+51
+00:04:20,519 --> 00:04:22,640
+ So we can see over the years, right?
+
+52
+00:04:22,640 --> 00:04:27,880
+ Okay, so the horizontal axis is the number, the year where these data sets are being released
+
+53
+00:04:27,880 --> 00:04:30,560
+ and the vertical axis is the scale.
+
+54
+00:04:30,560 --> 00:04:32,560
+ That means how many images you have.
+
+55
+00:04:32,960 --> 00:04:37,320
+ Right, so you can see in earlier years, we usually have only small scale data set.
+
+56
+00:04:37,320 --> 00:04:40,400
+ Right, the number of action categories is more limited.
+
+57
+00:04:40,400 --> 00:04:43,440
+ Okay, and also the number of training images is smaller.
+
+58
+00:04:43,440 --> 00:04:47,160
+ But in recent years, we tend to have a larger data set now.
+
+59
+00:04:47,160 --> 00:04:50,320
+ Okay, you can see, for example, this is 8 million videos.
+
+60
+00:04:50,320 --> 00:04:55,320
+ Right, and then the size of the bubble indicate the size of the data set.
+
+61
+00:04:57,840 --> 00:05:02,400
+ Right, okay, so for the next few sites, it's just a quick kind of give you a feel about
+
+62
+00:05:03,039 --> 00:05:07,039
+ some of the data set which year and also the size.
+
+63
+00:05:07,039 --> 00:05:11,840
+ We also highlight some of the characteristics of this data set here.
+
+64
+00:05:11,840 --> 00:05:15,080
+ Okay, so first of all, we have this list of data sets here.
+
+65
+00:05:15,080 --> 00:05:17,640
+ There are quite a number of them.
+
+66
+00:05:17,640 --> 00:05:21,640
+ Okay, so among them currently, Kinetics is one of the very popular data set
+
+67
+00:05:21,640 --> 00:05:27,400
+ which is used as a bench mark data set to train the algorithm
+
+68
+00:05:27,400 --> 00:05:30,960
+ as well as to compare the performance of different algorithm.
+
+69
+00:05:30,960 --> 00:05:33,560
+ Okay, so these are earlier years.
+
+70
+00:05:33,560 --> 00:05:40,159
+ Okay, you can see, the 51 and the 101 just refer to the number of actions that it can classify.
+
+71
+00:05:40,159 --> 00:05:44,359
+ Okay, so these earlier years, the number of samples is smaller.
+
+72
+00:05:44,359 --> 00:05:51,640
+ Right, so in later years, Kinetics, as I mentioned, is currently a very commonly used
+
+73
+00:05:51,640 --> 00:05:54,919
+ bench mark data set to evaluate the performance.
+
+74
+00:05:54,919 --> 00:06:00,320
+ Right, okay, so then it shows the number of years, the number of samples in each data set.
+
+75
+00:06:00,320 --> 00:06:02,480
+ You can see now it's much bigger.
+
+76
+00:06:02,480 --> 00:06:08,880
+ Right, typically for this particular data set, you will try to classify the action for short video clips.
+
+77
+00:06:08,880 --> 00:06:13,600
+ So typically there's a video clip and this column here shows the length of the video clip
+
+78
+00:06:13,600 --> 00:06:18,159
+ that you want to classify and the number of actions that you want to classify.
+
+79
+00:06:18,159 --> 00:06:23,600
+ So for example, you can see Kinetics 400, 600, 700, refer to the number of categories.
+
+80
+00:06:23,600 --> 00:06:26,240
+ Okay, right, so there are also some comments here.
+
+81
+00:06:26,320 --> 00:06:33,280
+ For example, Sports is actually for one of the early large-scale video data sets.
+
+82
+00:06:33,280 --> 00:06:39,840
+ Activity Net is mainly dealing with the daily kind of activities for humans.
+
+83
+00:06:39,840 --> 00:06:46,080
+ Right, and then, okay, Kinetics, as I mentioned, are some of the most widely used bench marks.
+
+84
+00:06:48,240 --> 00:06:50,560
+ Okay, so these slides continue on.
+
+85
+00:06:50,560 --> 00:06:53,040
+ So again, you have something, something, data set.
+
+86
+00:06:54,000 --> 00:06:59,920
+ Right, okay, and among them, there's also one well-known data set from NT,
+
+87
+00:06:59,920 --> 00:07:02,480
+ which is known as the NTURGBD data set.
+
+88
+00:07:03,120 --> 00:07:07,600
+ Okay, right, so okay, so these are pretty standard here.
+
+89
+00:07:07,600 --> 00:07:12,000
+ Right, okay, so for something, something actually is also a well-known benchmark data set,
+
+90
+00:07:12,000 --> 00:07:21,520
+ particularly is used to kind of identify some video clips that need to have some temporal understanding.
+
+91
+00:07:21,520 --> 00:07:27,039
+ For example, whether you are opening a water bottle or whether you're closing a water bottle.
+
+92
+00:07:27,039 --> 00:07:32,719
+ So therefore, this kind of, this data set has some stronger emphasis on the temporal relationship
+
+93
+00:07:32,719 --> 00:07:34,400
+ and understanding.
+
+94
+00:07:34,400 --> 00:07:40,960
+ Right, okay, so there are some, what range of the data set, some of them with their own
+
+95
+00:07:40,960 --> 00:07:45,039
+ some of the properties and attributes, so I will not go through all of them.
+
+96
+00:07:45,039 --> 00:07:48,080
+ You can have a look at them yourself later.
+
+97
+00:07:48,080 --> 00:07:52,400
+ Right, okay, but one thing that I probably want to draw the attention is this, our own
+
+98
+00:07:53,039 --> 00:07:55,200
+ NTURGBD data set.
+
+99
+00:07:55,200 --> 00:08:00,000
+ So this particular data set is mainly used for skeleton-based action recognition.
+
+100
+00:08:00,000 --> 00:08:06,159
+ So all the other, most of the other previous data set is, you know, the input is actually
+
+101
+00:08:06,159 --> 00:08:07,840
+ RGB VDU.
+
+102
+00:08:07,840 --> 00:08:11,840
+ So RGB VDU, right, that you use to perform the action recognition.
+
+103
+00:08:11,840 --> 00:08:16,320
+ But for this NTURGBD, it actually has the special,
+
+104
+00:08:17,040 --> 00:08:20,960
+ the focus is on the skeleton, like the 3D pulse estimation.
+
+105
+00:08:20,960 --> 00:08:27,040
+ So we want to estimate the pulse, right, or the skeleton and then based on this skeleton,
+
+106
+00:08:27,040 --> 00:08:30,800
+ you try to perform the action recognition.
+
+107
+00:08:30,800 --> 00:08:35,360
+ Okay, so they provide some ground truth to the joints of the skeleton information.
+
+108
+00:08:37,439 --> 00:08:43,919
+ Right, okay, so these are some sample of images from the video clips of this data set.
+
+109
+00:08:43,919 --> 00:08:49,599
+ So for example, this is the UFC 101, right, relatively simple early years data set.
+
+110
+00:08:49,599 --> 00:08:54,479
+ Then we have the Kinetics 400, right, which is a more popular benchmark, right.
+
+111
+00:08:54,479 --> 00:08:58,880
+ There's something, something data set that I mentioned before, right, which has some
+
+112
+00:08:58,880 --> 00:09:00,160
+ temporal reasoning.
+
+113
+00:09:00,160 --> 00:09:04,800
+ Okay, right, because from the frame itself, sometimes you can tell what it's doing.
+
+114
+00:09:04,800 --> 00:09:08,319
+ You need to have the temporal time-based kind of understanding.
+
+115
+00:09:08,720 --> 00:09:17,280
+ Right, okay, so now we have very briefly explained about some of the commonly used benchmark data
+
+116
+00:09:17,280 --> 00:09:18,240
+ sets.
+
+117
+00:09:18,240 --> 00:09:21,920
+ So next we'll be looking at some human action recognition methods, right.
+
+118
+00:09:21,920 --> 00:09:27,040
+ So under this we'll be carving the two stream methods, right, two stream networks,
+
+119
+00:09:27,040 --> 00:09:33,760
+ 3D CNN, okay, EVCM video monitoring, and also some other potential methods.
+
+120
+00:09:34,720 --> 00:09:39,200
+ Okay, so first let's look at these two stream networks.
+
+121
+00:09:40,800 --> 00:09:43,680
+ Right, so two stream network, how does it work here?
+
+122
+00:09:43,680 --> 00:09:48,080
+ So as the name suggests, you can kind of think about it, this particular network has actually
+
+123
+00:09:48,080 --> 00:09:51,680
+ two stream, right, so two branch or two streams of information.
+
+124
+00:09:51,680 --> 00:09:58,880
+ So if you look at this particular image here, it shows the general ideas of these two stream
+
+125
+00:09:58,880 --> 00:09:59,600
+ networks.
+
+126
+00:09:59,760 --> 00:10:05,040
+ So first of all, you have this video, which has a sequence of frames here, so you can
+
+127
+00:10:05,040 --> 00:10:10,560
+ actually either select some keyframe or randomly sample some frames from this video here.
+
+128
+00:10:10,560 --> 00:10:15,120
+ Right, so you have this short video clip, you can select a particular frame, okay, and
+
+129
+00:10:15,120 --> 00:10:19,920
+ then for this particular frame, right, it contains the spatial information, just like
+
+130
+00:10:19,920 --> 00:10:23,360
+ the image analysis that we have studied before.
+
+131
+00:10:23,360 --> 00:10:28,560
+ So given a single frame, we can let it go through the two stream networks, right, so
+
+132
+00:10:28,560 --> 00:10:34,560
+ we can let it go through a particular network such as CNN to extract some feature and also
+
+133
+00:10:34,560 --> 00:10:37,280
+ to perform some classification.
+
+134
+00:10:37,280 --> 00:10:42,079
+ So namely based on this image, we can classify what kind of potential action it is.
+
+135
+00:10:42,079 --> 00:10:45,599
+ Right, for example, this looks like someone's running, okay.
+
+136
+00:10:45,599 --> 00:10:52,319
+ So this particular stream of branch here is basically trying to perform the classification,
+
+137
+00:10:52,319 --> 00:10:58,319
+ right, based on a single frame, right, so because it's based on a single frame, so this
+
+138
+00:10:58,320 --> 00:11:04,160
+ stream is known as a spatial stream because it's a space-based kind of a classification,
+
+139
+00:11:04,160 --> 00:11:07,680
+ right, based on the spatial image domain.
+
+140
+00:11:07,680 --> 00:11:13,040
+ So this stream is known as a spatial stream, and then you can perform a classification to
+
+141
+00:11:13,040 --> 00:11:17,920
+ get a score, right, for example, the softmax score, right, to see for each category what's
+
+142
+00:11:17,920 --> 00:11:22,160
+ the softmax output score that you have or the probability.
+
+143
+00:11:22,240 --> 00:11:29,199
+ Okay, so this one captures the visual spatial information, but we know that in a video,
+
+144
+00:11:29,199 --> 00:11:36,319
+ you also have the temporal information, you also have the time-based information, right,
+
+145
+00:11:36,319 --> 00:11:43,280
+ you want to know the movement or motions of the person, so how do we do that?
+
+146
+00:11:43,280 --> 00:11:48,560
+ So what we do is that for this two-stream method, we use a technique known as the optical flow.
+
+147
+00:11:49,359 --> 00:11:56,160
+ So this optical flow will explicitly try to extract the motion information, okay, in the video,
+
+148
+00:11:56,160 --> 00:12:02,959
+ right, so it explicitly try to extract the motion information from the video using a
+
+149
+00:12:02,959 --> 00:12:08,479
+ technique known as the optical flow, right, so for this optical flow technique here, right,
+
+150
+00:12:08,479 --> 00:12:13,920
+ so what it will do pretty much is that it look at each of the no-carver pixel and then look at the
+
+151
+00:12:13,920 --> 00:12:20,319
+ relative motion for this pixel, where is it being, right, something quite similar to what we have
+
+152
+00:12:20,319 --> 00:12:28,400
+ learned in the video compression study earlier about the motion estimation, right, the idea is
+
+153
+00:12:28,400 --> 00:12:34,000
+ actually somehow similar, okay, so for this optical flow, what it does is that for this
+
+154
+00:12:34,000 --> 00:12:41,199
+ technique at the time, they obtain one optical flow which is to try to model the vertical
+
+155
+00:12:41,840 --> 00:12:47,680
+ motion and then the other optical flow which is trying to look at the horizontal motion
+
+156
+00:12:47,680 --> 00:12:53,280
+ and then they try to concatenate them together, okay, so all in all that means this particular
+
+157
+00:12:53,280 --> 00:13:01,120
+ information here will be highlighting the movement of the objects in the video clips here,
+
+158
+00:13:01,120 --> 00:13:08,480
+ so now we also capture the temporal or the time-based movement information, okay, so after
+
+159
+00:13:08,480 --> 00:13:13,440
+ we have captured this, then this thing we put together is just as if it is an image again,
+
+160
+00:13:13,440 --> 00:13:18,960
+ yeah, as if it is an image again, for example those brighter colors would refer to those
+
+161
+00:13:19,840 --> 00:13:27,520
+ pixels with larger carval motion, yeah, okay, so this particular optical flow then afterwards
+
+162
+00:13:27,520 --> 00:13:33,840
+ we let it go through a network such as CNN again and then we can also get the, you know, the classification
+
+163
+00:13:33,840 --> 00:13:39,280
+ score, right, the software score to see what's the probability that it belongs to which category
+
+164
+00:13:39,280 --> 00:13:44,800
+ and afterwards these two scores we can somehow combine them using a score fusion module and
+
+165
+00:13:44,800 --> 00:13:49,520
+ then finally we can do the prediction, so therefore the idea is quite straightforward,
+
+166
+00:13:49,520 --> 00:13:56,000
+ this is known as a two stream network approach, one is to extract the spatial information,
+
+167
+00:13:56,000 --> 00:14:02,720
+ the other is to extract the temporal information and somehow we combine them using a score fusion
+
+168
+00:14:03,440 --> 00:14:08,640
+ to, yeah, right, okay, so let's look at the text now, so it says that for this true stream
+
+169
+00:14:08,640 --> 00:14:14,240
+ network it consists of a spatial stream, a temporal stream and a score fusion module explained,
+
+170
+00:14:14,800 --> 00:14:20,880
+ so the spatial stream will capture the appearance or the visual information from a sample RGB frame,
+
+171
+00:14:20,880 --> 00:14:27,680
+ okay, the temporal stream here will recognize the motion from the optical flow, okay, and then finally
+
+172
+00:14:27,680 --> 00:14:34,239
+ we have this particular fusion module that will combine the score from both the spatial as well as
+
+173
+00:14:34,239 --> 00:14:43,439
+ the temporal stream, right, so a little bit more information regarding the optical flow, right,
+
+174
+00:14:43,439 --> 00:14:49,280
+ so early on as I mentioned optical flow is a technique for you to extract, okay, the movement of the,
+
+175
+00:14:49,280 --> 00:14:56,240
+ you know, pixels, right, when you compare, you know, sequence of frames here, okay, right, so for example,
+
+176
+00:14:57,200 --> 00:15:03,840
+ this field, you know, short video clips actually when you study, you know, across consecutive
+
+177
+00:15:03,840 --> 00:15:10,640
+ frames, right, you'll be able to find out, okay, the movement, right, of the objects in this video,
+
+178
+00:15:10,640 --> 00:15:14,400
+ right, so there's certain color scheme here, probably the color scheme is that, you know,
+
+179
+00:15:14,400 --> 00:15:19,440
+ a certain color indicates that the value is larger, right, so this color is just to indicate
+
+180
+00:15:19,520 --> 00:15:28,000
+ the magnitude of the, the particular motion, okay, so optical flow is an effective motion
+
+181
+00:15:28,880 --> 00:15:35,200
+ technique to describe the scene or object movement, right, okay, so it can describe the motion,
+
+182
+00:15:35,200 --> 00:15:41,440
+ pretty much just to extract the motion, so some of the advantage of using this optical flow
+
+183
+00:15:41,440 --> 00:15:48,240
+ approach is that it can provide some kind of a independent information as compared to the RGB,
+
+184
+00:15:48,240 --> 00:15:54,000
+ so here they call autogonal information in respect to the RGB, autogonal means we usually know that
+
+185
+00:15:54,000 --> 00:16:01,120
+ from geometry what it means is actually perpendicular, but in this context, it actually means that,
+
+186
+00:16:01,120 --> 00:16:05,760
+ right, so the information that you extract the motion information is relatively independent from
+
+187
+00:16:05,760 --> 00:16:11,520
+ the RGB, RGB look at the appearance, right, and then this optical flow look at the motion,
+
+188
+00:16:11,520 --> 00:16:17,200
+ so they're actually relatively independent of each other here, right, so this is the advantage
+
+189
+00:16:17,200 --> 00:16:22,160
+ because those two, they are not so strongly curated, so they are two different sources
+
+190
+00:16:22,160 --> 00:16:27,760
+ of relatively independent information, but the shortcoming is that, you know, the process of
+
+191
+00:16:27,760 --> 00:16:32,960
+ performing optical flow sometimes is very expensive, you need lots of time to compute,
+
+192
+00:16:32,960 --> 00:16:40,080
+ and also you need to store lots of this information, there's a large storage requirement, so therefore
+
+193
+00:16:40,640 --> 00:16:49,200
+ the shortcomings of optical flow enhance this two-stream approach, right, okay, so this slide
+
+194
+00:16:49,200 --> 00:16:56,000
+ says actually, you know, explain a little bit more about the two-stream network that I've
+
+195
+00:16:56,000 --> 00:17:01,680
+ mentioned to you before, right, so anyway, earlier on we already mentioned that for the spatial stream,
+
+196
+00:17:01,680 --> 00:17:07,200
+ what we do is that we sample some, you know, video frame from the video clip, right, and then each of
+
+197
+00:17:07,200 --> 00:17:12,160
+ this frame will pass it through C and then work to extract a feature, and then after it works,
+
+198
+00:17:12,160 --> 00:17:18,240
+ we'll let it go through, for example, the FC and then follow by the softmax to get the probability
+
+199
+00:17:18,240 --> 00:17:24,160
+ score, okay, so we'll get some kind of prediction probability score after you pass through the FC
+
+200
+00:17:24,160 --> 00:17:30,400
+ layer and the softmax layer, okay, so for the temporal stream, right, we'll try to estimate the
+
+201
+00:17:30,960 --> 00:17:35,440
+ horizontal and the vertical optical flow, by itself the optical flow information, we'll extract the
+
+202
+00:17:35,440 --> 00:17:41,200
+ horizontal and vertical, and afterwards we concatenate them side by side, just like
+
+203
+00:17:41,200 --> 00:17:45,920
+ now the figure show, we put it side by side, and then once we have that, it's an image,
+
+204
+00:17:45,920 --> 00:17:52,560
+ all right, okay, so we can then pass it through the C and then to extract the feature, yeah,
+
+205
+00:17:52,560 --> 00:17:58,960
+ and then afterwards, you know, we can then use this temporary information, again, go through the
+
+206
+00:17:59,920 --> 00:18:05,440
+ FC softmax to get the probability score, okay, so now you have one probably score from this
+
+207
+00:18:06,720 --> 00:18:12,640
+ spatial stream, one probably be kind of score from the temporal stream, and then next you need to
+
+208
+00:18:12,640 --> 00:18:18,800
+ combine them together, so then we'll perform the fusion step, which is to use different fusion
+
+209
+00:18:18,800 --> 00:18:22,960
+ techniques, so there's many different fusion techniques you can use, you can do a simple
+
+210
+00:18:22,960 --> 00:18:29,680
+ averaging, all right, or you can do a greater averaging, if you find that a certain branch is
+
+211
+00:18:29,680 --> 00:18:34,960
+ more important, for example, if you feel that spatial stream is more important than the temporal
+
+212
+00:18:34,960 --> 00:18:39,600
+ stream, then you can provide more weight to the spatial stream, so you can use various
+
+213
+00:18:39,600 --> 00:18:45,200
+ type of strategy to combine these scores here, right, okay, so you combine the score to obtain
+
+214
+00:18:45,200 --> 00:18:50,000
+ the final prediction score from both the spatial and the temporal scores,
+
+215
+00:18:53,920 --> 00:19:00,480
+ right, okay, so what are the pros and cons of this two stream network scene, so as I have
+
+216
+00:19:00,480 --> 00:19:06,320
+ kind of mentioned before, so the advantage is this is a relatively simple idea, and also the
+
+217
+00:19:06,320 --> 00:19:12,080
+ network that's been used is simple, because mainly it's just a, you'll see a network here,
+
+218
+00:19:12,080 --> 00:19:17,440
+ and also optical flow, right, is actually an accurate way for you to extract all the motion
+
+219
+00:19:17,440 --> 00:19:23,440
+ information, because it's a very precise and exact kind of way to extract the information,
+
+220
+00:19:23,440 --> 00:19:29,440
+ but the price that you have to pay is that, you know, the process of computing the optical flow
+
+221
+00:19:29,440 --> 00:19:35,600
+ is very expensive, and also it requires lots of storage, so those are the shortcomings of
+
+222
+00:19:36,560 --> 00:19:41,280
+ this two stream network, of course this is an earlier method, so the other performance is not
+
+223
+00:19:41,280 --> 00:19:46,240
+ as good, so over years actually better and better method start to appear,
+
+224
+00:19:56,800 --> 00:20:03,040
+ right, okay, so that's why next we are going to look at the next method which is known as 3D CNN,
+
+225
+00:20:04,080 --> 00:20:09,840
+ so just by looking at this 3D CNN you can more or less guess already, what is the,
+
+226
+00:20:10,639 --> 00:20:17,679
+ what, how this technique is trying to, how it works, so this idea is actually very similar to the
+
+227
+00:20:18,399 --> 00:20:24,399
+ 2D CNN that you have studied before, right, so for the CNN network that we have studied before is
+
+228
+00:20:24,399 --> 00:20:31,679
+ the 2D CNN, right, so it's mainly focusing on kind of image-based analysis, so you use some kind
+
+229
+00:20:31,679 --> 00:20:39,439
+ of a filter, right, that you slide through all the oppositions in this image and to extract the feature,
+
+230
+00:20:39,840 --> 00:20:48,639
+ alright, okay, so 2D CNN for the previous CNN that we have studied before is the 2D CNN, okay,
+
+231
+00:20:48,639 --> 00:20:55,120
+ pretty much is talking about one kind of one slice, okay, yeah, so even though they have a channel,
+
+232
+00:20:55,120 --> 00:21:01,520
+ but pretty much is more, the structure is more like just a single kind of an image, right, as an input,
+
+233
+00:21:02,159 --> 00:21:09,439
+ but for 3D CNN because for VDU, right, we are dealing with the VDU, and VDU is actually a sequence
+
+234
+00:21:09,440 --> 00:21:15,760
+ of frame, so therefore you cannot be dealing with just a single frame, okay, right, so even though a
+
+235
+00:21:15,760 --> 00:21:22,400
+ frame has an RGB channel, but in our case we are talking about VDU, so VDU actually has no various
+
+236
+00:21:22,400 --> 00:21:29,040
+ frame, so therefore when you want to perform the convolution, you need to have a 3D structure,
+
+237
+00:21:29,040 --> 00:21:34,480
+ it's like a tube, right, your filter is actually a tube now instead of previously, it's more like
+
+238
+00:21:34,560 --> 00:21:42,240
+ a slice, okay, so that's the high level difference between the 2D CNN and the 3D CNN base approach,
+
+239
+00:21:43,840 --> 00:21:49,760
+ right, okay, so anyway let's look at the high level overview of how this 3D CNN works here,
+
+240
+00:21:50,320 --> 00:21:58,000
+ so the 3D CNN treats a video as a 3D tensor here, right, okay, so yeah, it's a three-dimensional,
+
+241
+00:21:58,000 --> 00:22:06,080
+ so as opposed to for example an image which is actually more like just a single frame, right,
+
+242
+00:22:06,080 --> 00:22:10,720
+ a video is that you have a collection of different frames here, for understanding it's
+
+243
+00:22:10,720 --> 00:22:17,200
+ actually easier for you to count for the moment just, you know, assume that the depth, right,
+
+244
+00:22:17,200 --> 00:22:22,720
+ the number of channel, right, or the depth for each of the frames is equal to one, even though
+
+245
+00:22:23,040 --> 00:22:27,600
+ of course you can have a frame, but you can kind of interpret it as if it's equal to one,
+
+246
+00:22:27,600 --> 00:22:33,600
+ that may make it easier for you to understand and visualize it, so for an image you can kind of
+
+247
+00:22:33,600 --> 00:22:39,280
+ think about it as like a single frame, all right, okay, whereas for video is that you have, you know,
+
+248
+00:22:39,280 --> 00:22:45,760
+ a number of frames here, okay, so let's look at how this 3D CNN works here, so first of all you have
+
+249
+00:22:45,760 --> 00:22:51,200
+ an input which is actually a video now, so you can see that for this particular video here actually
+
+250
+00:22:51,200 --> 00:22:56,880
+ has a number of different frames here, okay, so the first thing actually structure-wise is just
+
+251
+00:22:56,880 --> 00:23:02,720
+ similar to the CNN that we have studied before, similar to the 2D CNN that we have studied before,
+
+252
+00:23:03,840 --> 00:23:08,800
+ but we are doing the 3D CNN now, so first the structure-wise we have the convolution and value
+
+253
+00:23:08,800 --> 00:23:14,800
+ layer followed by the pooling, right, and then con plus value followed by the pooling, so these
+
+254
+00:23:14,800 --> 00:23:20,640
+ steps will repeat a few times just like the CNN structure that I have done a quick recap with you
+
+255
+00:23:21,920 --> 00:23:29,440
+ in last lecture, then finally we have this FC layer, right, we flatten all this tensor into
+
+256
+00:23:29,440 --> 00:23:35,040
+ long factor and then we have the FC layer, okay, and then finally we have the softmax layer to
+
+257
+00:23:35,040 --> 00:23:41,680
+ perform the classification, so structure-wise is almost exactly the same, but the key difference
+
+258
+00:23:41,680 --> 00:23:49,280
+ now between 2D and 3D CNN is, you know, the convolution steps instead of using a 2D filter,
+
+259
+00:23:49,360 --> 00:23:56,639
+ you'll be using a 3D filter which is like a cube or a tensor, okay, so again, right, we have this
+
+260
+00:23:56,639 --> 00:24:00,480
+ particular video, so what we need to do is that in first step is that we need to perform this
+
+261
+00:24:00,480 --> 00:24:05,600
+ convolution, so for this convolution we can kind of think about it, essentially what you have is
+
+262
+00:24:05,600 --> 00:24:13,360
+ like you have a 3D filter, right, this for example like 3 by 3 by maybe for example 3, assuming it's
+
+263
+00:24:13,360 --> 00:24:19,360
+ 3 by 3 by 3, right, this 3 here is actually corresponding to the 10 pro, the number of
+
+264
+00:24:19,360 --> 00:24:24,240
+ frame is not corresponding to the channel, right, actually the channel also have some further
+
+265
+00:24:24,240 --> 00:24:30,159
+ information, but as I mentioned to you before for the time being just assume that for each of this
+
+266
+00:24:30,159 --> 00:24:38,240
+ particular situation we consider the channel is equal to 1 for or the depth is equal to 1 for
+
+267
+00:24:38,240 --> 00:24:43,920
+ easy visualization, so anyway you have this for example 3 by 3 which is in the spatial
+
+268
+00:24:43,920 --> 00:24:50,160
+ kind of a domain and also another 3 which is in the temporal domain which correspond to for example
+
+269
+00:24:50,880 --> 00:24:57,680
+ 3 different frames here, so after works you perform the convolution and you slice it through,
+
+270
+00:24:57,680 --> 00:25:07,280
+ okay, this particular, this particular, you know, all the location then you'll be able to obtain one
+
+271
+00:25:07,280 --> 00:25:12,639
+ kind of a channel here, right, okay, but not only are you going to use a filter, you're going to use
+
+272
+00:25:12,639 --> 00:25:18,240
+ a number of filter, right, so because you want to extract different feature that's why you'll get some
+
+273
+00:25:18,240 --> 00:25:25,600
+ volume that looks like this block here, okay, and then after works this 3 by 3 by 3 filter now,
+
+274
+00:25:25,600 --> 00:25:30,960
+ next you are going to move right, okay, you're going to from the earlier few frame here,
+
+275
+00:25:30,960 --> 00:25:36,080
+ next you're going to move to process the next few frames here, that means you're going to move it
+
+276
+00:25:36,080 --> 00:25:42,240
+ to process the frame later on, okay, in the latest slide I have something that I'll show you,
+
+277
+00:25:42,240 --> 00:25:47,520
+ yeah, and after works you go through, you know, this convolution, right, for the following few
+
+278
+00:25:47,520 --> 00:25:53,679
+ frames, okay, you extract then the feature from for this particular block here, this light color
+
+279
+00:25:53,679 --> 00:26:00,080
+ block and then because again you're going to use a few filter, so you're going to get this block here,
+
+280
+00:26:00,080 --> 00:26:04,480
+ okay, and after works you're going to take this filter, you're going to move it to the,
+
+281
+00:26:04,560 --> 00:26:09,840
+ you know, maybe frame, you know, previously it's frame 1, 2, 3, and then maybe then after works is
+
+282
+00:26:11,760 --> 00:26:18,480
+ maybe 2, 3, 4, and after works is 3, 4, 5, the kind of thing, right, so that's why you're going to get
+
+283
+00:26:18,480 --> 00:26:24,240
+ this different kind of feature that's being extracted, and after works you're going to do the
+
+284
+00:26:24,240 --> 00:26:29,280
+ pooling, so this particular pooling what you do is that in this spatial domain, you just make it
+
+285
+00:26:29,360 --> 00:26:34,399
+ smaller, right, okay, just like for example the 2x2 pooling that we have looked at before,
+
+286
+00:26:34,399 --> 00:26:38,800
+ so we can do the pooling, and after works we repeat this particular process of the
+
+287
+00:26:39,440 --> 00:26:45,920
+ convolution and value just similar to before, so we repeat it a few times, so at the end once you
+
+288
+00:26:45,920 --> 00:26:52,399
+ reach the final step here you just flatten it, so this flattening process we just scan it row by
+
+289
+00:26:52,399 --> 00:26:58,560
+ row, column by column, yeah, and then channel by row by row, and then channel by channel, and then
+
+290
+00:26:58,560 --> 00:27:04,639
+ we have flattened it into a long vector, you get through this a few FC layer, finally followed by
+
+291
+00:27:04,639 --> 00:27:10,320
+ the softmax layer, okay, and then you have a different category, so that's the high level
+
+292
+00:27:10,320 --> 00:27:16,240
+ ideas of this 3D convolution, so later on we have a few more slides to explain or highlight this
+
+293
+00:27:16,240 --> 00:27:22,879
+ 3D conclusion process, okay, but before that let's look at some basic factual information,
+
+294
+00:27:23,840 --> 00:27:31,280
+ so 3D CNN is used to design this 3D tensor because not only do you have the x and y coordinate,
+
+295
+00:27:31,280 --> 00:27:37,200
+ now you also have the temporal number of frames that you have, so it's used to handle the 3D tensor,
+
+296
+00:27:37,920 --> 00:27:43,600
+ so the traditional 2D convolution which is the one where we have studied before for the image
+
+297
+00:27:43,600 --> 00:27:49,360
+ classification is trying to perform a dot product between the input volume with a different filter,
+
+298
+00:27:50,000 --> 00:27:54,479
+ where the filter and the input are 2D matrices, okay, so pretty much the previous,
+
+299
+00:27:56,080 --> 00:28:00,479
+ just like the CNN that we have studied before, right, when you do a dot product it's like the
+
+300
+00:28:00,479 --> 00:28:06,240
+ dot product between, you know, this a small filter, right, you have a small filter with respect to
+
+301
+00:28:06,240 --> 00:28:12,560
+ this corresponding image region, right, so you multiply that corresponding term and sum it up,
+
+302
+00:28:12,560 --> 00:28:18,560
+ that's pretty much the dot product, okay, between your input volume, okay, and different filter,
+
+303
+00:28:19,120 --> 00:28:24,800
+ right, where's the filter and the input volume are considered as 2D matrices because they're only
+
+304
+00:28:24,800 --> 00:28:32,399
+ considering one single kind of, you know, frame, okay, for this context here we assume for the time
+
+305
+00:28:32,399 --> 00:28:38,159
+ being just know the, we know the depth dimension, but even though the depth dimension you can have
+
+306
+00:28:38,159 --> 00:28:43,919
+ a few different depth, but for the time being just, you know, assume it to be equal to one for simplicity,
+
+307
+00:28:44,800 --> 00:28:49,840
+ okay, so for 3D convolution here the dot product is between the 3D tensor just like what we
+
+308
+00:28:49,840 --> 00:28:55,920
+ mentioned before now, we have X and, you know, the spatial domain, right, as well as the number of
+
+309
+00:28:56,560 --> 00:29:02,160
+ frame that we have, so there are a number of represent that works under this kind of approach,
+
+310
+00:29:02,160 --> 00:29:10,720
+ the slow fast just now the I3D or under this 3D CNN approach, right, okay, so yeah this particular
+
+311
+00:29:10,720 --> 00:29:15,600
+ visualization actually make it easier for you to understand the difference between the 2D CNN
+
+312
+00:29:15,600 --> 00:29:21,760
+ and the 3D CNN because the key difference is just mainly the difference between how do you perform
+
+313
+00:29:21,760 --> 00:29:28,320
+ the convolution, so from the image domain, so this is what we have studied before, what we have
+
+314
+00:29:28,320 --> 00:29:34,560
+ studied before when we're talking about the image classification is the 2D CNN, so pretty much you
+
+315
+00:29:34,560 --> 00:29:40,160
+ have an image here, right, okay, so we have this particular filter here, we move it right throughout
+
+316
+00:29:40,160 --> 00:29:45,280
+ this particular domain and at each position we'll obtain an output, so assuming that your current
+
+317
+00:29:45,280 --> 00:29:50,800
+ filter position is at this position, if you perform the sound product operation or the dot
+
+318
+00:29:50,800 --> 00:29:56,640
+ product operation then you'll generate one output corresponding at this position here, okay, so this
+
+319
+00:29:57,280 --> 00:30:02,320
+ for this visualization we just assume that, for example the number of channel is equal to one
+
+320
+00:30:02,320 --> 00:30:08,880
+ for easy visualization, okay, whereas for this 3D CNN what we have is that you can see this is X and
+
+321
+00:30:08,960 --> 00:30:15,040
+ Y coordinate the spatial information but you also have a number of different frames here, so the set
+
+322
+00:30:15,040 --> 00:30:19,520
+ coordinates and the number of frames here, so your filter now is actually not only do you have the
+
+323
+00:30:19,520 --> 00:30:27,040
+ spatial domain, you also know it's like for example 3 by 3 by 3, okay, that the last 3 corresponded
+
+324
+00:30:27,040 --> 00:30:32,080
+ the number of frames that you have, okay, so when you perform this particular again the dot product
+
+325
+00:30:32,080 --> 00:30:38,080
+ operation will generate one value here, but in afterwards you just go through all the position
+
+326
+00:30:38,080 --> 00:30:44,000
+ then you generate the first frame, okay, right, and then if you move to the following frame then
+
+327
+00:30:44,000 --> 00:30:51,760
+ you can generate the value at the back, okay, so right this animation here this shows the 2D CNN
+
+328
+00:30:51,760 --> 00:30:56,800
+ that we have mentioned before, right, so for example this is the image, right, we do some padding
+
+329
+00:30:56,800 --> 00:31:03,040
+ and after works we, this is our filter as we move through this filter each time performing the dot
+
+330
+00:31:03,040 --> 00:31:09,680
+ product operation will generate output here, okay, so this is the 2D CNN that we have studied before
+
+331
+00:31:09,680 --> 00:31:17,120
+ for, so for this 3D CNN here you can see this is for example the spatial domain, okay, the image
+
+332
+00:31:17,120 --> 00:31:22,639
+ and then in this particular example here this this actually correspond to different frames here,
+
+333
+00:31:22,639 --> 00:31:28,399
+ right, so different frames here, so maybe frame one, two and three, so you just you know take your
+
+334
+00:31:28,480 --> 00:31:34,400
+ this 3D conclusions here is not just x and y they also have the corresponding temporal
+
+335
+00:31:34,400 --> 00:31:39,120
+ dimension which is the number of frames, every time when you do a, you know, this conclusion
+
+336
+00:31:39,120 --> 00:31:44,560
+ you generate the output and then you scan through all this position to generate one single channel,
+
+337
+00:31:47,360 --> 00:31:54,880
+ right, okay, this slide is another visualization to see how do we perform the 3D conclusion,
+
+338
+00:31:54,880 --> 00:32:01,920
+ so we assume that the depth channel is equal to one, right, to make it easier for us to visualize,
+
+339
+00:32:01,920 --> 00:32:09,360
+ right, so first of all your input you can see is the 4x4x4 cube here, right, so 4x4x4
+
+340
+00:32:09,360 --> 00:32:15,520
+ means that for example this is 4x4 which is can be the spatial domain, the visual information,
+
+341
+00:32:15,520 --> 00:32:22,400
+ for example one single frame, okay, but you have by 4 that means you have actually 4 frames here,
+
+342
+00:32:22,400 --> 00:32:28,160
+ so you have 4 different frames, okay, so one, two, three, four, okay, so when you want to perform a
+
+343
+00:32:28,160 --> 00:32:38,000
+ 3D conclusions here, so first of all your filter now is no longer for example 3x3 is 3x3 and also
+
+344
+00:32:38,000 --> 00:32:47,200
+ you have three different, correspond to three different frames here, so therefore you have one,
+
+345
+00:32:47,200 --> 00:32:54,800
+ two, three, corresponding to two, three different frames here, so this filter is known as a 3x3x3
+
+346
+00:32:54,800 --> 00:33:00,000
+ filter here, so do take note that this particular the last three here actually is not correspond to
+
+347
+00:33:00,000 --> 00:33:05,040
+ the number channel, it's corresponding to the number of frames you are dealing with, okay,
+
+348
+00:33:06,160 --> 00:33:11,120
+ so when we want to perform the conclusion it's very straightforward, right, so you just, you have this
+
+349
+00:33:11,199 --> 00:33:18,959
+ particular 3x3x3 filter, we just superimpose on this volume, for example initially at the top
+
+350
+00:33:19,600 --> 00:33:25,840
+ left corner, okay, so then we perform the dot product, so dot product means this, multiply with
+
+351
+00:33:25,840 --> 00:33:31,439
+ this, plus this, multiply with this, plus this, multiply with this, so you perform the operation
+
+352
+00:33:31,439 --> 00:33:39,360
+ for this current frame, frame one, and afterwards you also take this, for this frame here you also
+
+353
+00:33:39,360 --> 00:33:44,879
+ take the filter for its corresponding frame, you do that, and then for next for this particular frame
+
+354
+00:33:44,879 --> 00:33:49,760
+ you also do the dot product with this particular filter, right, and then afterwards you add everything
+
+355
+00:33:49,760 --> 00:33:55,360
+ up, suppose this is the value that you obtain is minus 20, then afterwards you just simply take this
+
+356
+00:33:55,360 --> 00:34:03,360
+ 3x3x3 filter, you move to this position now, assuming the the the strike is equal to one,
+
+357
+00:34:03,360 --> 00:34:08,319
+ so you move to this three position, if you do the same repeat the process then you'll generate
+
+358
+00:34:08,320 --> 00:34:16,400
+ this value, so next you take this 3x3 filter now you move to this position, okay, so if you do that
+
+359
+00:34:16,400 --> 00:34:21,120
+ then you generate this value, and then finally at the last position if you do that you'll generate
+
+360
+00:34:21,120 --> 00:34:28,400
+ this value, okay, so therefore now what you have done is that you have actually performed this 3x3x3
+
+361
+00:34:28,400 --> 00:34:35,200
+ convolution for the first three frame, one, two, three, yeah, and afterwards you take this 3x3x3
+
+362
+00:34:35,199 --> 00:34:40,960
+ filter, you operate on the next three frames now, for example we can say it's the frame
+
+363
+00:34:40,960 --> 00:34:47,199
+ two, three, four, okay, so we operate on frame two to three, four, okay, we take this one now
+
+364
+00:34:47,199 --> 00:34:52,159
+ it's operating here, this one is operating here, and this one is operating here, you perform the
+
+365
+00:34:52,159 --> 00:34:57,120
+ dot product operation, you'll be able to generate this value, okay, and afterwards you slide through
+
+366
+00:34:57,120 --> 00:35:02,640
+ all the position for these three frames, you'll be able to generate this value, so therefore by
+
+367
+00:35:02,640 --> 00:35:08,960
+ doing this 3D convolution this is the output you are going to obtain, right, so two by two by two
+
+368
+00:35:08,960 --> 00:35:18,080
+ output here, yeah, okay, yeah, so this is just the visualization, yeah, actually yeah, just now
+
+369
+00:35:18,720 --> 00:35:26,720
+ we operate on the frame two, three, four is illustrated in this figure here.
+
+370
+00:35:33,520 --> 00:35:39,359
+ So if you spend one moment thinking about this 3D convolution, what is the advantage,
+
+371
+00:35:40,000 --> 00:35:47,200
+ for example as compared to the previous two-stream based approach, so the previous two-stream based
+
+372
+00:35:47,200 --> 00:35:52,960
+ approach unit an explicit technique to extract the motion information using optical flow
+
+373
+00:35:53,520 --> 00:36:02,319
+ method, yeah, but for this particular 3D CNN approach, actually you extract the spatial information
+
+374
+00:36:02,320 --> 00:36:08,000
+ because you have the original x three by three, right, which try to extract the information
+
+375
+00:36:08,000 --> 00:36:13,600
+ of features from the spatial domain, but also because you have three by three by three, you will
+
+376
+00:36:13,600 --> 00:36:21,200
+ also have the temporal kind of information, so your your filter actually can also extract some
+
+377
+00:36:21,200 --> 00:36:29,040
+ temporal information across different frames, so therefore using this 3D convolution approach
+
+378
+00:36:29,040 --> 00:36:35,440
+ you can extract the spatial information and also you can extract the temporal information
+
+379
+00:36:35,440 --> 00:36:43,440
+ at the same time, so this is the advantage of using the 3D CNN, for the feature extraction using the
+
+380
+00:36:44,160 --> 00:36:51,120
+ for example the three by three by three filter, you can extract the spatial information and also
+
+381
+00:36:51,120 --> 00:36:56,000
+ you can extract the temporal information together, right, so you can extract them
+
+382
+00:36:56,960 --> 00:37:03,840
+ simultaneously, you do not need an additional steps of the optical flow to extract the information,
+
+383
+00:37:04,400 --> 00:37:09,280
+ yeah, but so that's the advantage, but the disadvantage of that is is actually quite
+
+384
+00:37:09,280 --> 00:37:15,760
+ difficult to train this time model, right, okay, because it involves a large model and also the
+
+385
+00:37:15,760 --> 00:37:22,960
+ inference, no, speed is not so good, right, so to give an example if we use one of the slow fast
+
+386
+00:37:23,040 --> 00:37:30,960
+ network, which is the types of 3D and CNN, if you try to train it on this kinetic 400 data set that
+
+387
+00:37:30,960 --> 00:37:38,800
+ I've mentioned to you before, using a relatively high N8 GPU machine to a day 10 days to complete,
+
+388
+00:37:38,800 --> 00:37:44,400
+ of course this data was like the older kind of data, but having said that it's still very
+
+389
+00:37:44,400 --> 00:37:55,120
+ computationally expensive to train using a 3D CNN, okay, so that's why then next we continue on,
+
+390
+00:37:55,120 --> 00:38:03,920
+ right, to look at some more efficient way of doing this human action recognition,
+
+391
+00:38:05,360 --> 00:38:11,200
+ right, so over time because of this, so there are also some effort for people to develop more
+
+392
+00:38:11,200 --> 00:38:21,200
+ EPCN video modeling techniques, so one of the more EPCN video modeling techniques is trying to
+
+393
+00:38:22,399 --> 00:38:28,720
+ improve the accuracy and EPCN at the same time for video action recommendations here, right,
+
+394
+00:38:28,720 --> 00:38:35,359
+ so what they try to do is that they, you know, try to extract the motion information without
+
+395
+00:38:35,359 --> 00:38:40,799
+ using the explicit optical flow because they know that optical flow is very slow and also is
+
+396
+00:38:40,800 --> 00:38:47,360
+ require lots of storage, right, so they try to avoid using optical flow, then also they do not use a
+
+397
+00:38:47,360 --> 00:38:54,240
+ 3D car for convolution, right, to do to extract the temporary information because they also find that
+
+398
+00:38:54,800 --> 00:39:04,960
+ is very car for involved, right, very expensive to perform this, to train this 3D CNN, right, okay,
+
+399
+00:39:04,960 --> 00:39:11,120
+ so one of the representative works under this EPCN video modeling is known as a temporary shift
+
+400
+00:39:11,120 --> 00:39:18,000
+ module or TSM, okay, right, so the advantage of this TSM is as fast and efficient but the
+
+401
+00:39:18,000 --> 00:39:27,200
+ shortcoming is not as good in terms of accuracy as compared to the 3D CNN, right, okay, so let's look
+
+402
+00:39:27,200 --> 00:39:33,600
+ at how this temporary shift module works, right, so this temporary shift module actually, the high
+
+403
+00:39:33,600 --> 00:39:40,799
+ level idea is relatively simple here, so first of all if you look at this particular diagrams here,
+
+404
+00:39:40,799 --> 00:39:47,759
+ so this diagram is trying to show how we, okay, so again a video have no, a number of frames,
+
+405
+00:39:47,759 --> 00:39:53,680
+ right, a video have a number of frames here, so this temporal t dimensions here just corresponds
+
+406
+00:39:53,680 --> 00:40:00,080
+ to different frames here, for example frame 1, 2, 3, 4, right, so you have different frame,
+
+407
+00:40:00,080 --> 00:40:06,880
+ right, and then for each of the frame actually you can know use some techniques such as CNN to
+
+408
+00:40:06,880 --> 00:40:12,960
+ extract the feature, right, so you can use some technique to extract the feature for this single
+
+409
+00:40:12,960 --> 00:40:19,279
+ frame and then because you are using different filter, so therefore for each frame, for example frame
+
+410
+00:40:19,279 --> 00:40:26,000
+ 1, you can extract feature for different channel, right, so this different channel see refer to
+
+411
+00:40:26,000 --> 00:40:31,360
+ when you are using different filter, right, so you for this current frame 1, you will have different
+
+412
+00:40:31,360 --> 00:40:38,800
+ channel, right, obtaining a rising from using different filter, okay, so likewise for the second
+
+413
+00:40:38,800 --> 00:40:46,080
+ frame, okay, you also will get this different channel information, right, so this is what you
+
+414
+00:40:46,080 --> 00:40:52,320
+ had initially just is assuming that, you know, a video for each frame you apply different filter
+
+415
+00:40:52,320 --> 00:40:57,440
+ to extract the feature, then we can represent, you know, the information in this way here,
+
+416
+00:40:58,080 --> 00:41:02,640
+ right, so in this original form you can see that pretty much what we have done is that we have
+
+417
+00:41:02,640 --> 00:41:08,960
+ extract the feature for each of the frame independently, but because we are talking about
+
+418
+00:41:08,960 --> 00:41:15,760
+ video modeling, so therefore we need to have some information exchange across different frame,
+
+419
+00:41:15,760 --> 00:41:21,760
+ because we want to model the temporal information, right, from one frame to the other frame, so in
+
+420
+00:41:21,760 --> 00:41:27,440
+ order to model the temporal information or relationship across different frame, you need to
+
+421
+00:41:27,440 --> 00:41:34,800
+ have the information exchange between different frames, so that information can flow from one frame
+
+422
+00:41:34,800 --> 00:41:40,320
+ to the next frame, so how do we do that, so the way we do it, it turned out to be quite,
+
+423
+00:41:40,960 --> 00:41:45,920
+ for this TSM is quite easy, right, so first of all let's look at, all right, so this is the
+
+424
+00:41:45,920 --> 00:41:52,560
+ original setting without any, without doing any change or any shifting, but next we'll look at
+
+425
+00:41:52,560 --> 00:41:58,160
+ this, what we know as the online temporal shift here, so this online application is for example,
+
+426
+00:41:58,720 --> 00:42:04,960
+ we are targeting application, which is like for the online application, for example now, currently
+
+427
+00:42:04,960 --> 00:42:10,960
+ you have a camera and you are trying to find out, right, you are monitoring, doing some real-time
+
+428
+00:42:10,960 --> 00:42:18,800
+ monitoring of whether someone is, you know, doing something suspicious in an airport, right, so for
+
+429
+00:42:18,800 --> 00:42:25,840
+ these things that means you actually, right, you can only, your current frame, you can only leverage
+
+430
+00:42:25,840 --> 00:42:32,000
+ on the informations in your past frame, okay, right, so your current frame information can only
+
+431
+00:42:32,880 --> 00:42:38,080
+ rely on information from the past frame, because the future frames had some occur, so this is the
+
+432
+00:42:38,080 --> 00:42:44,080
+ online kind of a setting, so as opposed to the online setting, you have the offline setting here,
+
+433
+00:42:44,080 --> 00:42:49,120
+ so this offline setting is for example, you know, you can kind of imagine just now for the same
+
+434
+00:42:49,120 --> 00:42:55,440
+ situation which is in the airport, right, so maybe, you know, some event happens, right,
+
+435
+00:42:57,920 --> 00:43:03,200
+ okay, maybe it's like, okay, something happened and then the police come and they want to file
+
+436
+00:43:03,839 --> 00:43:08,960
+ the event that happened one day before, right, so they want to file, okay, one day before during
+
+437
+00:43:08,960 --> 00:43:13,759
+ this event, whether something has, strange has happened, so that means actually, because it's
+
+438
+00:43:13,759 --> 00:43:18,960
+ one day before the event has already occurred, I mean, you already have the recording, right,
+
+439
+00:43:18,960 --> 00:43:24,399
+ so you can do it offline, right, you can do it offline as compared to this is real-time online,
+
+440
+00:43:24,399 --> 00:43:30,160
+ so this is offline, so offline means that if you, for example, look at this current video and this
+
+441
+00:43:30,160 --> 00:43:36,240
+ current frame, you can rely on informations in the past, right, as well as in the future, because
+
+442
+00:43:36,240 --> 00:43:41,120
+ you have the full video already, right, so another way of saying is that this offline method is that,
+
+443
+00:43:41,680 --> 00:43:47,920
+ right, you have actually the full video, right, so because you have already recorded the full video
+
+444
+00:43:47,920 --> 00:43:53,440
+ already and you are processing it offline, right, so your current frame can rely on information in
+
+445
+00:43:53,440 --> 00:43:59,040
+ the past as well as information, respect to this frame in the future, but for this online setting,
+
+446
+00:43:59,040 --> 00:44:06,240
+ because it's happening now, right, so your current frame can only rely on the frame in the past,
+
+447
+00:44:06,240 --> 00:44:11,600
+ right, the frame in the future has not occurred yet because it's no real-time, so therefore, this is
+
+448
+00:44:11,600 --> 00:44:19,440
+ the difference in terms of the setting, right, so next, let's look at this online setting here,
+
+449
+00:44:19,440 --> 00:44:24,880
+ so for online setting here, what it does, right, so earlier on, as I mentioned, is that, okay,
+
+450
+00:44:24,880 --> 00:44:30,160
+ so this template refers to different frames, okay, one, two, three, four, for example, and then for
+
+451
+00:44:30,160 --> 00:44:35,120
+ each frame, we use different filters to extract different features, so this channel, our goal
+
+452
+00:44:35,120 --> 00:44:40,960
+ is that we want to encourage some information exchange across different frames, so one very
+
+453
+00:44:40,960 --> 00:44:47,840
+ easy way for us to encourage the information exchange is that we can push, for example, some of the
+
+454
+00:44:47,840 --> 00:44:53,680
+ informations, you know, from one frame to the next frame, okay, so we can see, for example,
+
+455
+00:44:53,759 --> 00:44:58,879
+ for this current frame, we take some of the information from these two channels and then
+
+456
+00:44:58,879 --> 00:45:04,319
+ we move it over here, okay, so that means part of the information from your current frame will be
+
+457
+00:45:04,319 --> 00:45:10,640
+ pushed to the, you know, the future frame, right, so that your future frame now can, you know, can
+
+458
+00:45:10,640 --> 00:45:16,399
+ leverage on some information from the past frame, so by pushing some of the channel information
+
+459
+00:45:16,399 --> 00:45:23,200
+ from your current frame, okay, to the next frame, you can encourage some information exchange across
+
+460
+00:45:23,680 --> 00:45:29,440
+ different frames, okay, so likewise, you also take some information from, for example, from previous
+
+461
+00:45:29,440 --> 00:45:35,919
+ frame one to frame two, okay, so just by simply doing this shifting, you can encourage information
+
+462
+00:45:35,919 --> 00:45:42,960
+ exchange across different frames, okay, so this is for the online setting, for the offline setting
+
+463
+00:45:42,960 --> 00:45:47,839
+ here, if you look at this current frame here, initially this particular frame here, okay, frame
+
+464
+00:45:47,839 --> 00:45:53,120
+ one here, right, so some of the information you can actually, for example, you can see that this
+
+465
+00:45:54,399 --> 00:45:59,839
+ this color here, it should push in this, okay, respect to, for example, the
+
+466
+00:46:01,200 --> 00:46:06,399
+ past frame, some is pushed to the previous frame, okay, because you already have the video that
+
+467
+00:46:06,399 --> 00:46:12,080
+ you have recorded, so you can actually encourage the information exchange for this current frame
+
+468
+00:46:12,080 --> 00:46:18,160
+ respect to the previous frame and respect to the following frame, okay, so this is what we have here,
+
+469
+00:46:18,240 --> 00:46:23,920
+ so the basic idea, therefore, is very simple, we just take some frame, we push some of the channel
+
+470
+00:46:23,920 --> 00:46:30,080
+ to the past and some to the future, so by doing that, you allow information exchange across different
+
+471
+00:46:30,080 --> 00:46:36,319
+ frames and hence by doing that, you can extract some temporal information, so that's the high level
+
+472
+00:46:36,960 --> 00:46:42,799
+ reasoning, so by doing that, you can actually extract some temporal information, but it's actually not
+
+473
+00:46:42,800 --> 00:46:51,360
+ the best way of doing it, that's why the performance is actually not the strongest, okay, so anyway,
+
+474
+00:46:51,360 --> 00:46:56,240
+ let's look at this shifting operation that I've spent quite a bit of time explaining, so it shifts
+
+475
+00:46:56,240 --> 00:47:02,080
+ parts of the channel, okay, along the temporal dimension, so it shifts some of this channel
+
+476
+00:47:02,080 --> 00:47:07,600
+ along the temporal dimension here, right, tasks allowing information exchange across
+
+477
+00:47:07,600 --> 00:47:14,080
+ the next frame, so this frame one, frame two and so on, so there are two possible shift operations,
+
+478
+00:47:14,080 --> 00:47:20,160
+ one is a bi-directional for offline setting, that means it's already a video that we have recorded,
+
+479
+00:47:20,160 --> 00:47:26,240
+ then respect to the current frame, you can push it in both directions, okay, this bi-directional,
+
+480
+00:47:26,240 --> 00:47:31,040
+ but if it's for online setting, that means this is an ongoing event, right, then you can only
+
+481
+00:47:32,000 --> 00:47:36,880
+ leverage on, your current frame can only leverage on information from the past frame,
+
+482
+00:47:40,640 --> 00:47:44,960
+ okay, so that's the ideas of a temporal shift module,
+
+483
+00:47:54,960 --> 00:47:59,360
+ okay, so next we are going to look at some emerging and new methods here,
+
+484
+00:47:59,680 --> 00:48:07,920
+ right, so the emerging techniques nowadays, I mean, transformer is very popular, so also we'll be using
+
+485
+00:48:07,920 --> 00:48:17,360
+ one transformer-based method to illustrate this human action recognition, right, so let's look
+
+486
+00:48:17,360 --> 00:48:23,120
+ at some basic information regarding this transformer-based method, okay, so existing method usually
+
+487
+00:48:23,920 --> 00:48:29,359
+ make use of the short-range dependency, for example, just now if you look at the 3D CNN,
+
+488
+00:48:29,359 --> 00:48:34,319
+ usually we only look at the immediate, our filter because our filter is so we can only extract
+
+489
+00:48:34,319 --> 00:48:42,400
+ information within the short range, okay, right, so but in some kind of human action recognition
+
+490
+00:48:42,960 --> 00:48:47,680
+ application, you may want to have a long-range dependency, you may want to know for example,
+
+491
+00:48:48,000 --> 00:48:53,839
+ frames of information that are far away, right, where does that impact on trying to classify this
+
+492
+00:48:53,839 --> 00:48:59,600
+ current action, so this idea is actually very similar to what we have talked about when we
+
+493
+00:49:01,359 --> 00:49:07,520
+ discuss about the transformer in the context of image classification as well, so sometimes,
+
+494
+00:49:08,560 --> 00:49:13,040
+ often, long-range dependency is actually desirable in many applications, including
+
+495
+00:49:13,040 --> 00:49:18,960
+ the action recognition, right, okay, so in this work here, we'll be using the video-sync
+
+496
+00:49:18,960 --> 00:49:26,240
+ transformer, so I think in our earlier part, we also introduced this string transformer,
+
+497
+00:49:26,240 --> 00:49:31,600
+ right, so when we talk, so if you remember the flows of what we learned, so initially we start
+
+498
+00:49:31,600 --> 00:49:38,160
+ off with, you know, under the image classification, we start off with the CNN and after those,
+
+499
+00:49:38,160 --> 00:49:44,960
+ we introduce a transformer and then we introduce a VIT, vision transformer that I
+
+500
+00:49:45,520 --> 00:49:51,680
+ we kept with you last week, right, okay, so here we are going to extend to this video-sync
+
+501
+00:49:51,680 --> 00:49:58,240
+ transformer, so right, we have the, initially the image domain is known as the string transformer,
+
+502
+00:49:58,240 --> 00:50:03,279
+ but now because we are talking about video, so we'll be extending to the video-sync transformer,
+
+503
+00:50:04,240 --> 00:50:09,200
+ but the idea is actually similar to the string transformer that we've studied before in the
+
+504
+00:50:09,200 --> 00:50:15,280
+ image domain, we just take what we have learned before in the image domain, but extend it to the
+
+505
+00:50:15,280 --> 00:50:21,120
+ video domain, so we call it the video-sync transformer, right, so the advantage of this is
+
+506
+00:50:21,120 --> 00:50:28,000
+ it can capture some long-range dependency, okay, but the shortcoming is that it's computational
+
+507
+00:50:28,000 --> 00:50:34,800
+ intensive and is also, you know, require lots of data, right,
+
+508
+00:50:42,880 --> 00:50:50,000
+ okay, so next let's look at this video-sync transformer here, so for video-sync transformer,
+
+509
+00:50:50,000 --> 00:50:58,000
+ right, so if you remember last time for when we compare, okay, so if I can, let me see with it,
+
+510
+00:51:02,960 --> 00:51:05,200
+ one more, try to open up the
+
+511
+00:52:20,240 --> 00:52:21,200
+ screen,
+
+512
+00:52:44,320 --> 00:52:47,200
+ okay, can you all see the screen?
+
+513
+00:52:50,960 --> 00:53:01,440
+ For this vision transformer, okay, all right, thank you, yeah, okay, so for,
+
+514
+00:53:02,560 --> 00:53:08,800
+ let's do a quick recap back to the image domain before we move on to the video domain, for the
+
+515
+00:53:08,800 --> 00:53:13,760
+ for the image domain, if you remember for vision transformer, because it starts off with the vision
+
+516
+00:53:13,760 --> 00:53:19,440
+ transformer, in the image domain, if you remember for vision transformer, what we do is that,
+
+517
+00:53:19,440 --> 00:53:25,840
+ right, we partition this in an image into numerous patches, right, we partition image into
+
+518
+00:53:25,840 --> 00:53:33,040
+ numerous patches, and afterwards for each of these patches here, right, we flatten it, we do the linear
+
+519
+00:53:33,040 --> 00:53:38,720
+ projection through some factor, and after we flatten it, but the high-level idea is that when you do
+
+520
+00:53:38,720 --> 00:53:45,760
+ this particular, we come to this transformer in order, you need to find the attention, for example
+
+521
+00:53:45,760 --> 00:53:50,800
+ with respect to this patch here, you need to find the attention of all the patches to work here,
+
+522
+00:53:51,440 --> 00:53:56,720
+ okay, all the patches to work here, and next if you consider this current patch, you also need to
+
+523
+00:53:56,720 --> 00:54:01,520
+ look at the attentions of all the other patches with respect to it, so that for what it means is
+
+524
+00:54:01,520 --> 00:54:07,360
+ that if your image is very big, right, if you partition into many different patches or tokens,
+
+525
+00:54:07,360 --> 00:54:12,640
+ for each patch or token, you need to find the attentions of all the patches to work here,
+
+526
+00:54:12,640 --> 00:54:20,480
+ and sometimes this can be very expensive, so this is the so-called VIT-based approach, the vision
+
+527
+00:54:20,480 --> 00:54:26,560
+ transformer-based approach, right, so while the idea is good, you can look at the relationship
+
+528
+00:54:26,560 --> 00:54:32,720
+ of all the patches, but no, it's very computationally intensive, because you need to look at all the
+
+529
+00:54:33,839 --> 00:54:40,640
+ attentions of all the patches with respect to your current patch or token, so this is a VIT-based
+
+530
+00:54:40,640 --> 00:54:46,400
+ approach, okay, so next let's, so once we have recapped this VIT-based approach, let's look at
+
+531
+00:54:48,160 --> 00:54:55,520
+ the next one, which is the SYN transformer-based approach, just stop it,
+
+532
+00:54:59,920 --> 00:55:01,839
+ okay, now let me just share the
+
+533
+00:55:41,200 --> 00:55:41,839
+ screen,
+
+534
+00:55:48,640 --> 00:55:57,839
+ okay, can you see the share screen for this SYN transformer,
+
+535
+00:56:02,400 --> 00:56:09,120
+ okay, good, yeah, so early on just now we actually go to the VIT-based approach,
+
+536
+00:56:09,120 --> 00:56:12,319
+ vision transformer, to recap it, but actually this figure also
+
+537
+00:56:13,359 --> 00:56:18,240
+ showing here, right, so this is what we have studied before, when we talk about image-based
+
+538
+00:56:18,240 --> 00:56:24,160
+ SYN transformer, because I just want to make this clear, idea clear, right, about first from the image
+
+539
+00:56:24,160 --> 00:56:29,839
+ based SYN transformer before we move on to the video-based SYN transformer, so for example,
+
+540
+00:56:29,839 --> 00:56:35,600
+ just now the image-based, we have looked at the VIT, so this VIT here, you can see just now we
+
+541
+00:56:35,600 --> 00:56:41,520
+ provided divided into different patches of token, and then for each of the patch of token,
+
+542
+00:56:41,520 --> 00:56:45,680
+ you need to calculate the attention of all the patches and tokens,
+
+543
+00:56:45,680 --> 00:56:49,759
+ respect to this, for example, this is the current one, you need to look at the relationship,
+
+544
+00:56:50,400 --> 00:56:55,040
+ or all the patches and tokens with respect to this, so therefore this is very expensive,
+
+545
+00:56:55,040 --> 00:57:01,360
+ because you need to look at all of them, but if you recall last time we were studying about this
+
+546
+00:57:01,440 --> 00:57:07,280
+ SYN transformer here, so the idea of this SYN transformer, a quick recap is that we partition
+
+547
+00:57:07,280 --> 00:57:16,720
+ this particular image right into, you know, each of these particular tokens here, it's 4x4,
+
+548
+00:57:16,720 --> 00:57:24,000
+ okay, 4x4, so you have numerous different tokens here, okay, and after works you define this window,
+
+549
+00:57:24,000 --> 00:57:30,960
+ okay, you define this small window here, so when you want to calculate attention, you only calculate
+
+550
+00:57:31,040 --> 00:57:38,720
+ attention within this small window, okay, so right, if you don't use this SYN transformer approach,
+
+551
+00:57:38,720 --> 00:57:44,720
+ we don't introduce this window here, right, okay, you can see this is a window, this is another window,
+
+552
+00:57:44,720 --> 00:57:51,040
+ this is another window, right, so if we don't use this window, right, if we use a VIT-based
+
+553
+00:57:51,040 --> 00:57:57,120
+ approach, if you want to look at this particular, for example, this current patch or token here,
+
+554
+00:57:57,120 --> 00:58:05,359
+ you need to look at, right, the attentions of all the patches in this full image, respect to it,
+
+555
+00:58:05,359 --> 00:58:11,600
+ so clearly this is very expensive, yeah, so therefore in order to reduce this, you know,
+
+556
+00:58:12,240 --> 00:58:18,720
+ computational cost, for the SYN transformer is it introduce this window, okay, different window,
+
+557
+00:58:18,720 --> 00:58:22,480
+ so when you are trying to calculate the self-attention, you only need to look at the
+
+558
+00:58:22,480 --> 00:58:29,360
+ attentions of all the tokens within this window, right, so that by doing that, you can reduce the
+
+559
+00:58:29,360 --> 00:58:40,320
+ number of computational cost, yeah, so after works, if a quick recap of this image-based SYN
+
+560
+00:58:40,320 --> 00:58:47,680
+ transformer, right, so after works, now every 2x2 patch we merge it and become like this, yeah,
+
+561
+00:58:47,680 --> 00:58:54,720
+ so now there is this 4, this 2x2 patch we merge it, then each of this now will become 8x8,
+
+562
+00:58:55,759 --> 00:59:03,440
+ each of this is 8x8 now, each of this patch is 8x8 and then again our window here now is a 4x4
+
+563
+00:59:03,440 --> 00:59:08,640
+ window, when you want to calculate attention for SYN transformer, you only need to calculate
+
+564
+00:59:08,640 --> 00:59:16,160
+ attentions of all those patches of token within this window here, okay, so that is the basic idea,
+
+565
+00:59:16,160 --> 00:59:22,720
+ you are not, as compared to VIT, each you need to compute the attention of all the patches in the
+
+566
+00:59:22,720 --> 00:59:32,480
+ image, here you only need to calculate the attention between a small window, okay, and also because of
+
+567
+00:59:32,480 --> 00:59:37,520
+ that, right, you can actually have a different kind of a feature hierarchy, right, initially
+
+568
+00:59:37,520 --> 00:59:43,040
+ at low level, your patch is actually 4x4, which is actually high resolution, right, and after
+
+569
+00:59:43,120 --> 00:59:48,640
+ which is merged, right, it becomes bigger, it merged become bigger, so it can provide a kind of a
+
+570
+00:59:48,640 --> 00:59:55,279
+ different multi resolution representation, so I think here we mentioned is a hierarchical feature
+
+571
+00:59:55,279 --> 01:00:03,120
+ map here, okay, whereas this VIT is 16x16, which is not as good because it's quite big, but for this SYN
+
+572
+01:00:03,120 --> 01:00:10,320
+ transformer, right, you can start with 4x4, 8x8, 16x16, so you can have a hierarchical feature map,
+
+573
+01:00:10,320 --> 01:00:15,360
+ but the key point I guess what I'm trying to say is that for this SYN transformer, right,
+
+574
+01:00:15,360 --> 01:00:21,840
+ the number one is that they introduce this window so that you don't have to consider all the patches
+
+575
+01:00:21,840 --> 01:00:27,920
+ across all the SEMPA and file, so you can reduce the cost,
+
+576
+01:00:31,280 --> 01:00:35,360
+ right, okay, another thing for the image space I also want to mention is,
+
+577
+01:00:36,320 --> 01:00:42,240
+ yeah, right, because for the image space it's much easier for you to understand, once you move into
+
+578
+01:00:42,240 --> 01:00:47,920
+ the video base you require a little bit more visualization, and also because the video SYN
+
+579
+01:00:47,920 --> 01:00:54,800
+ transformer is an extension of the image space SYN transformer, which usually we just call SYN
+
+580
+01:00:54,800 --> 01:01:01,760
+ transformer, right, okay, so you can see just now, right, okay, so this is what we have here for the
+
+581
+01:01:01,920 --> 01:01:07,680
+ SYN transformer, early on we already introduced we did to have this, you know, different window,
+
+582
+01:01:07,680 --> 01:01:13,360
+ so for each of the patch or token here, right, we only calculate its attention with respect to all
+
+583
+01:01:13,360 --> 01:01:20,160
+ those patches or token within this window, okay, and then for example if you have a patch or token
+
+584
+01:01:20,160 --> 01:01:25,360
+ here, you only calculate the attention of all those patch or tokens within this window here,
+
+585
+01:01:25,360 --> 01:01:30,800
+ likewise for here and here, but if you do that one of the shortcomings of this is that, you know,
+
+586
+01:01:30,800 --> 01:01:37,760
+ for some of the patches or token here, you may not be able to leverage on the information in the
+
+587
+01:01:37,760 --> 01:01:44,240
+ patch or tokens in another window, so how do we solve this, so to solve this particular problem,
+
+588
+01:01:44,240 --> 01:01:50,720
+ they introduce another idea which is known as shifted window, so this particular partitioning
+
+589
+01:01:50,720 --> 01:01:56,320
+ is known as a window base, right, so window base, this multi-hatch cell attention is just like the
+
+590
+01:01:56,320 --> 01:02:02,720
+ normal transformer, but window base means that you just partition the hatch into window, right,
+
+591
+01:02:02,720 --> 01:02:10,400
+ so to address the issue that, you know, some of this token may not be able to leverage the information
+
+592
+01:02:10,400 --> 01:02:16,400
+ from another window, they introduce what is known as a shifted window base, so shifted window base
+
+593
+01:02:16,400 --> 01:02:22,720
+ means now this window actually do a bit of shifting to be centering here, right, so we
+
+594
+01:02:22,799 --> 01:02:29,759
+ define the look, the position of this window, so this window here for example now is shifted here,
+
+595
+01:02:29,759 --> 01:02:34,319
+ right, and then this thing here now you can see there are a few pieces, but it's actually wrapped
+
+596
+01:02:34,319 --> 01:02:41,520
+ around, this piece here is actually kind of wrapped around, okay, from wrapped around respect to this,
+
+597
+01:02:41,520 --> 01:02:47,839
+ and these four pieces here is actually wrapped around as well, okay, so therefore by doing the
+
+598
+01:02:47,920 --> 01:02:52,960
+ shifting here you will still allow some of the, for example, if you look at this window here,
+
+599
+01:02:52,960 --> 01:02:58,080
+ when you shift it here, some of the tokens here may affect some of this token here in this window
+
+600
+01:02:58,080 --> 01:03:03,680
+ setting, and then later on, right, because this process is actually toggling, it's here, followed
+
+601
+01:03:03,680 --> 01:03:10,160
+ by here, and afterwards you come back to this and by this, yeah, so right, initially, right, some of
+
+602
+01:03:10,160 --> 01:03:16,240
+ this for example, a token here would may not be able to leverage on token from here, but in this
+
+603
+01:03:16,319 --> 01:03:21,839
+ window setting, some of this information from this token here would be propagated to here,
+
+604
+01:03:22,319 --> 01:03:27,520
+ right, and once you come to this particular window here, some information from here may be
+
+605
+01:03:28,160 --> 01:03:33,520
+ propagated to information from here, so therefore by using this kind of shift window structure,
+
+606
+01:03:34,160 --> 01:03:40,720
+ essentially patches from this region can actually also affect or information from
+
+607
+01:03:40,720 --> 01:03:46,959
+ this token's regions here, so this is the ideas of this, you know, window base and shift with,
+
+608
+01:03:46,959 --> 01:03:56,799
+ shift the window base approach, yeah, because this particular string transformer block here
+
+609
+01:03:56,799 --> 01:04:03,520
+ actually is here, okay, but this and this means that this structure and this structure is here,
+
+610
+01:04:03,920 --> 01:04:10,960
+ right, and usually you repeat it a few times, right, so therefore, for example, this times two
+
+611
+01:04:10,960 --> 01:04:16,160
+ means that you repeat it two times, times six, that means that you repeat it six times, so therefore
+
+612
+01:04:16,160 --> 01:04:20,640
+ that means you will have, if it's times two, you have this, this, and then afterwards you have another
+
+613
+01:04:21,200 --> 01:04:23,759
+ block here that allows this information exchange,
+
+614
+01:04:24,160 --> 01:04:26,000
+ okay,
+
+615
+01:04:30,320 --> 01:04:35,040
+ right, so with that hopefully there's a bit, you know, it kind of a, we kept some of your
+
+616
+01:04:35,040 --> 01:04:40,800
+ memory about a region transformer and the string transformer initially in the image domain,
+
+617
+01:04:40,800 --> 01:04:48,000
+ because now we are going to move on to the video domain now.
+
+618
+01:04:53,760 --> 01:05:18,000
+ So, let me go get some.
+
+619
+01:05:24,640 --> 01:05:47,600
+ Okay, probably we need to go just a bit faster, I made a bit of a detour just now, right, okay, so,
+
+620
+01:05:48,800 --> 01:05:53,040
+ right, so next let's look at this video string transformer, so the idea of video string
+
+621
+01:05:53,040 --> 01:05:58,400
+ transformer is actually very similar to the string transformer that we have studied in the image base,
+
+622
+01:05:58,400 --> 01:06:04,160
+ but now instead of just looking at a single card image, we'll be looking at a video, so we'll be
+
+623
+01:06:04,160 --> 01:06:12,800
+ looking at like a 3D structure, right, okay, so but a quick recap, so we can see that the VIT base
+
+624
+01:06:12,800 --> 01:06:18,800
+ method require large computational cost, right, because the self-attention need to consider all
+
+625
+01:06:18,800 --> 01:06:23,280
+ the tokens, yeah, so just now you can see from the image base, that means if you look at single
+
+626
+01:06:23,280 --> 01:06:29,760
+ token, you need to look at, you know, all the tokens in the image, but for image, for video base
+
+627
+01:06:29,760 --> 01:06:36,560
+ actually is the same as well, for video base, the VIT base approach, right, you, the video what we'll
+
+628
+01:06:36,560 --> 01:06:46,320
+ do is that this video now we'll partition into different small tokens, right, in the image as
+
+629
+01:06:46,400 --> 01:06:51,280
+ well as in the spatial domain, so you actually, you have a spatial temporal domain, you have all
+
+630
+01:06:51,280 --> 01:06:57,200
+ different patches that look like this, so when you look at, when you look at one of these particular,
+
+631
+01:06:58,400 --> 01:07:04,640
+ if you use a VIT base approach, if you consider a single token, right, you will need to rely on
+
+632
+01:07:04,640 --> 01:07:10,240
+ all the tokens in both the spatial domain as well as in the temporal domain, so therefore this is
+
+633
+01:07:10,240 --> 01:07:18,799
+ very expensive, right, so this is a very clear shock humming of this VIT base approach, so therefore
+
+634
+01:07:18,799 --> 01:07:26,799
+ in order to address these problems, right, we use a video swing transformer for the same idea,
+
+635
+01:07:26,799 --> 01:07:33,520
+ okay, so the video swing transformer will try to reduce the model complexity, right, by, you know,
+
+636
+01:07:33,520 --> 01:07:41,280
+ only focusing on the local window while still keeping, while still having some long-range
+
+637
+01:07:41,280 --> 01:07:45,840
+ dependency ability, all right, let me just look at,
+
+638
+01:07:45,840 --> 01:07:56,160
+ let me see the easier way is to,
+
+639
+01:08:03,920 --> 01:08:12,240
+ right, let's look at how for a video this 3D patch is being partitioned here, right, so for a particular
+
+640
+01:08:12,240 --> 01:08:20,240
+ video, suppose the input video is actually a, T is a T number of frames, okay, H is the height,
+
+641
+01:08:20,240 --> 01:08:27,519
+ okay, number of pixels, right, in the height, W is a number of pixels in the width and T is a
+
+642
+01:08:27,519 --> 01:08:36,319
+ number of frames here, so therefore for an input video, we have T frame, okay, H number of pixels
+
+643
+01:08:36,319 --> 01:08:41,840
+ as height, W number of pixels as width and then this tree is RGB image, therefore it's by 3 here,
+
+644
+01:08:42,399 --> 01:08:47,120
+ so when we want to form, first of all, we need to form the token or the patch, yeah,
+
+645
+01:08:47,679 --> 01:08:54,000
+ for this particular video, we need to form the token or the patch here, so the 3D token or patch size
+
+646
+01:08:54,000 --> 01:09:02,479
+ is, right, okay, so you have first of all, in terms of, this is 4x4, this 4x4 means that is 4x4
+
+647
+01:09:02,479 --> 01:09:10,800
+ pixel, okay, so it's a 4x4 pixels here, right, and then afterwards this tree is the RGB image,
+
+648
+01:09:10,800 --> 01:09:17,200
+ all right, so we take a 4x4 pixels, okay, if it's RGB image, then this will come together,
+
+649
+01:09:17,200 --> 01:09:23,120
+ right, so it's a 4x4 pixel and afterwards every 2 frame here, we will take a basic structure,
+
+650
+01:09:23,120 --> 01:09:28,080
+ we'll take the 2 constrictive frame, right, we'll partition it, so that means a 3D token will be
+
+651
+01:09:28,080 --> 01:09:35,360
+ a 4x4 pixels coming from 2 frames, right, so 4x4 from 2 frames, then we have this basic block here,
+
+652
+01:09:35,359 --> 01:09:42,960
+ so this is your 3D token here, okay, 3D token, so if we look at these particular visualizations here,
+
+653
+01:09:42,960 --> 01:09:49,920
+ so for example, these visualizations here, the 3D token here is actually 8x8x8, so that means this is,
+
+654
+01:09:50,479 --> 01:10:00,160
+ you know, you have 8x8x8 token, right, so whereas each of this token here, each of this token here,
+
+655
+01:10:00,160 --> 01:10:08,559
+ actually is consisting of a 4x4 pixel RGB image and we take 2, you know, frame at the same time,
+
+656
+01:10:08,559 --> 01:10:15,280
+ so this is the basic 3D token structure here, okay, so this particular, you know,
+
+657
+01:10:15,840 --> 01:10:23,519
+ token here corresponds to this, okay, so once we have some basic understanding of,
+
+658
+01:10:24,160 --> 01:10:29,440
+ you know, how the token is looking at, so this is the overall architectures of the video swing
+
+659
+01:10:29,440 --> 01:10:34,799
+ transformer, so first of all, I will just very quickly, you can ignore some of these parameters on
+
+660
+01:10:34,799 --> 01:10:41,759
+ top, those are not so important, right, so what we will focus on is basically these key structures here,
+
+661
+01:10:41,759 --> 01:10:48,000
+ right, so these key structures here, so first of all, we have a video, right, so this video has a t-frame,
+
+662
+01:10:48,559 --> 01:10:56,719
+ okay, Hitch number of pixels as a height, okay, W number of pixels as a width and as a RGB video,
+
+663
+01:10:56,720 --> 01:11:03,440
+ right, so we'll do this 3D patch partitioning, so this 3D patch partitioning is what I have
+
+664
+01:11:03,440 --> 01:11:11,440
+ mentioned to you before, right, okay, you do take the 4x4, you know, image patch and then we take every
+
+665
+01:11:11,440 --> 01:11:17,040
+ two frames together, so then we'll form a particular token, so this is a token here,
+
+666
+01:11:17,440 --> 01:11:27,360
+ right, so therefore given a video, right, you can now partition it into different 3D token,
+
+667
+01:11:27,360 --> 01:11:33,600
+ which looks like this, okay, so whereas as I mentioned, each of these particular tokens is 4x4
+
+668
+01:11:33,600 --> 01:11:39,840
+ pixel, okay, and then we take two frames at the same time, right, okay, so after you have this 3D
+
+669
+01:11:39,840 --> 01:11:45,040
+ patch here, so next we will let it go through the linear, okay, in stage one, we'll go through the
+
+670
+01:11:45,040 --> 01:11:53,040
+ linear embedding, so this linear embedding means that right, just now this particular,
+
+671
+01:11:57,040 --> 01:12:02,480
+ yeah, so this particular linear embedding just means that just now the token will, you know, scan
+
+672
+01:12:02,480 --> 01:12:08,800
+ it row by row, column, you know, scan it row by row, okay, and then afterwards we have two different
+
+673
+01:12:08,880 --> 01:12:14,880
+ channels, we can convert it into a vector, right, so we convert it into a vector, we multiply with
+
+674
+01:12:14,880 --> 01:12:20,560
+ a W matrix to make it into a vector, right, so this is the linear, standard linear embedding
+
+675
+01:12:20,560 --> 01:12:26,640
+ that we have mentioned before, so now we have this particular, you know, we have all the patches,
+
+676
+01:12:26,640 --> 01:12:32,480
+ right, so we have these 3D patches, and after linear embedding, you have a bunch of vectors here,
+
+677
+01:12:33,040 --> 01:12:38,240
+ so this bunch of vector will pass through what is known as a video screen transformer block that
+
+678
+01:12:38,320 --> 01:12:44,080
+ we explained before, that we'll explain later, so we'll let it go through a video screen transformer
+
+679
+01:12:44,080 --> 01:12:52,960
+ block, right, so this video screen transformer block, right, will look something like this,
+
+680
+01:12:52,960 --> 01:13:00,639
+ yeah, so this is very similar to what we have seen before for the image-based vision transformer,
+
+681
+01:13:00,639 --> 01:13:05,519
+ but now we extend it to the video, right, so early on you can see the image, right, if we just
+
+682
+01:13:05,520 --> 01:13:10,480
+ follow focus on this, it looks like this, one, two, three, four, right, four, and then afterwards
+
+683
+01:13:10,480 --> 01:13:16,240
+ you have something that looks like this, right, yeah, but for the video now we need to extend it
+
+684
+01:13:16,240 --> 01:13:23,760
+ into the 3D structure like this, okay, so this is the video screen transformer block, so first of
+
+685
+01:13:23,760 --> 01:13:29,120
+ all what we have is that, for example, our 3D token after partitioning what we what we mentioned is
+
+686
+01:13:29,120 --> 01:13:36,160
+ that we have eight, assuming in this example is that we have eight by eight by eight token, right,
+
+687
+01:13:36,160 --> 01:13:41,599
+ so this is the number of 3D tokens that we have, and the window that we are using is four by four
+
+688
+01:13:41,599 --> 01:13:48,160
+ by four, right, suppose each of this particular window that we have here, you know, is four by four
+
+689
+01:13:48,160 --> 01:13:54,720
+ by four, so this is the window size, here this visualization is not exactly matching this,
+
+690
+01:13:54,800 --> 01:14:01,680
+ yeah, but each of this window can contain a four by four by four token, right, so therefore the
+
+691
+01:14:01,680 --> 01:14:06,400
+ number of window therefore now you have is two by two by two, so you have eight windows just like
+
+692
+01:14:06,400 --> 01:14:12,400
+ you can see here, one, two, three, four, five, six, seven, eight, yeah, eight windows here, okay, so what
+
+693
+01:14:12,400 --> 01:14:18,160
+ we do when we do this video screen transformer block is that when you look at this particular,
+
+694
+01:14:18,240 --> 01:14:24,960
+ for example, this current token here, when you want to calculate its attention, you only look at
+
+695
+01:14:25,760 --> 01:14:33,840
+ the tokens within this current window only, okay, likewise if you want to file, okay, the attention
+
+696
+01:14:33,840 --> 01:14:38,800
+ right for this current token here, you only file the attention of all the tokens within
+
+697
+01:14:38,800 --> 01:14:45,760
+ this current window, so the same applied to other windows, so this is basically the same idea,
+
+698
+01:14:45,760 --> 01:14:51,760
+ right, as just now we explained for the vision transformer, as that now we know extended into
+
+699
+01:14:51,760 --> 01:14:57,200
+ the 3D structures here, one, two, three, four, one, two, three, four, okay, but just similar to the
+
+700
+01:14:57,200 --> 01:15:04,000
+ argument we mentioned before, if we just simply use this window, right, some of the token here
+
+701
+01:15:04,000 --> 01:15:09,680
+ may not be able to leverage on the token, you know, at the back, so therefore we introduce this
+
+702
+01:15:09,680 --> 01:15:17,440
+ particular shifted window, right, we leverage on the shifted window to hope that over time,
+
+703
+01:15:17,440 --> 01:15:23,920
+ right, some of the feature can potentially be, information can be propagated to the token in
+
+704
+01:15:23,920 --> 01:15:30,320
+ front, okay, so the idea is exactly the same, it's just a visualization look a little bit more
+
+705
+01:15:30,320 --> 01:15:36,320
+ complex, right, so you can see this one is, each of these is actually a token, right, whereas this
+
+706
+01:15:36,320 --> 01:15:43,440
+ is the window, right, this thing is a 3D window, okay, and then this is the original window,
+
+707
+01:15:43,440 --> 01:15:50,480
+ this is your shifted window, right, so you can see that in layer L, for example this layer L,
+
+708
+01:15:52,320 --> 01:16:01,360
+ addition the 3D token into window, right, of size P by M by M, in this example here is 4 by 4 by 4,
+
+709
+01:16:01,360 --> 01:16:07,679
+ that means each window has a 4 by 4 by 4 tokens here, and afterwards we perform the self-attention
+
+710
+01:16:07,679 --> 01:16:12,240
+ at each local window, so we perform the self-attention here, right, for this window,
+
+711
+01:16:12,240 --> 01:16:17,759
+ like why is it for each of these, okay, and then afterwards in layer L plus 1, which is the next
+
+712
+01:16:17,759 --> 01:16:24,480
+ layer, we shift the window with a certain step size, right, which is, you know, all this divided by
+
+713
+01:16:24,480 --> 01:16:30,719
+ 2, right, this is a detail, no need to be so concerned, but shifting just pretty much like now you
+
+714
+01:16:31,120 --> 01:16:37,600
+ move it in these particular structures here, right, okay, so afterwards we organize the token in a
+
+715
+01:16:37,600 --> 01:16:42,480
+ new window and we calculate the self-attention within each shift of window, right, so in the middle
+
+716
+01:16:42,480 --> 01:16:47,680
+ there's actually a cube, you calculate the self-attention for all the token, it within the particular
+
+717
+01:16:47,680 --> 01:16:53,440
+ cube here, right, so I know that is a little bit hard to visualize, but the same idea actually
+
+718
+01:16:53,440 --> 01:17:00,240
+ applies from just now the image-based SYN transformer, yeah, so that's why just now I go back,
+
+719
+01:17:00,240 --> 01:17:04,960
+ you know, to try to explain it, you can, if you can understand the basic idea in the
+
+720
+01:17:06,240 --> 01:17:13,200
+ image-based SYN transformer, then extending to the video-based SYN transformer is the same,
+
+721
+01:17:13,200 --> 01:17:19,440
+ yeah, except now we organize the data structure in 3D and for 3D it's a little bit harder for you
+
+722
+01:17:19,440 --> 01:17:30,639
+ to see, but the basic principle is exactly the same, okay, so let me see, so therefore we actually
+
+723
+01:17:30,639 --> 01:17:36,639
+ explain about this SYN transformer block already, so this SYN transformer block, this video SYN
+
+724
+01:17:36,639 --> 01:17:46,000
+ transformer block consists of just now those two, this step and this step, okay, so this is the video
+
+725
+01:17:46,080 --> 01:17:53,360
+ SYN transformer, so after works, right, so this is the first stage and then after works we move on to
+
+726
+01:17:53,360 --> 01:17:59,040
+ the second stage, for the second stage you need to merge some of these patches already, you need to
+
+727
+01:17:59,040 --> 01:18:06,000
+ merge some of these patches similar to the image-based SYN transformer, so the merging of these patches
+
+728
+01:18:06,000 --> 01:18:15,440
+ is actually no, okay, probably we skip this, this one, because this one and this one is the same,
+
+729
+01:18:15,440 --> 01:18:21,040
+ so we'll be using this one to explain, all right, so what have we done so far, maybe just do a quick
+
+730
+01:18:21,040 --> 01:18:28,960
+ recap, so we have a video which is T-frame, height is h, width is the build, right, is RGB image,
+
+731
+01:18:28,960 --> 01:18:37,200
+ we do this 3D patch partitioning, right, which we mentioned before, for every 4x4 pixel RGB image,
+
+732
+01:18:37,200 --> 01:18:43,440
+ assuming it's RGB image, all right, we take two frames, we will get a single token, right, okay,
+
+733
+01:18:43,440 --> 01:18:48,320
+ so now after this 3D patch partitioning, we have a bunch of tokens that looks like this,
+
+734
+01:18:48,960 --> 01:18:54,639
+ okay, 3D tokens that looks like this, we let it go through the linear embedding, so this
+
+735
+01:18:54,639 --> 01:18:59,440
+ linear embedding as mentioned is that for each this token, we can convert it into a vector,
+
+736
+01:19:00,320 --> 01:19:05,040
+ multiply with your matrix to obtain another vector here, okay, so this is the linear embedding,
+
+737
+01:19:05,680 --> 01:19:13,840
+ okay, and afterwards we do this video scene transform block, which means this structures here,
+
+738
+01:19:14,640 --> 01:19:19,680
+ we partition it into a window like this, okay, first we calculate the self-attention
+
+739
+01:19:19,680 --> 01:19:24,960
+ within this window, for each of them, and afterwards we do the shifted window, right,
+
+740
+01:19:24,960 --> 01:19:30,960
+ we calculate the self-attention within this shifted window, okay, so that's pretty much
+
+741
+01:19:31,040 --> 01:19:36,160
+ where we are at this stage already to this point, then the next point that we have is that we need
+
+742
+01:19:36,160 --> 01:19:42,480
+ to do the patch merging, so this patch merging, right, again similar to the image base, for the
+
+743
+01:19:42,480 --> 01:19:48,560
+ video base what we do is that, right, we just try to merge some of these 2x2 patches together,
+
+744
+01:19:50,720 --> 01:19:56,560
+ okay, actually there's some text about the linear embedding here, so the linear projection of
+
+745
+01:19:56,560 --> 01:20:02,080
+ embedding here says that you use a linear layer, right, which is multiplied with a W matrix to
+
+746
+01:20:02,080 --> 01:20:08,960
+ project a 3D token, okay, right, from this dimension to this dimension, from this dimension to this
+
+747
+01:20:08,960 --> 01:20:14,800
+ dimension, but this point is actually not so important, so yeah, that's why I do want to talk
+
+748
+01:20:14,800 --> 01:20:23,600
+ too much about it, yeah, okay, so anyway, so let's next look at this patch merging now, okay, so yeah,
+
+749
+01:20:23,600 --> 01:20:30,000
+ this part just now we have more or less explained about it already, so next we are going to move on
+
+750
+01:20:30,000 --> 01:20:36,720
+ this to this patch merging now, so for the patch merging what we do is that we do a two-time spatial
+
+751
+01:20:36,720 --> 01:20:47,760
+ down sampling, concatenate the features of these 2x2 neighboring patches, yeah, so long story short,
+
+752
+01:20:48,080 --> 01:20:55,120
+ okay, and then we do not down sample along the temporal dimension,
+
+753
+01:20:55,120 --> 01:21:00,640
+ then we apply a linear layer to project this concatenated feature, so what it means is that,
+
+754
+01:21:00,640 --> 01:21:19,280
+ sorry, yeah, maybe we show it here, so right, okay, so during the patch merging what we do is that
+
+755
+01:21:19,280 --> 01:21:26,640
+ we take this 2x2, you can see this is one token, one token, one patch, so you have one, two, three,
+
+756
+01:21:26,960 --> 01:21:35,920
+ so you have four patches or token, we just simply concatenate them, right, okay, we think we merge
+
+757
+01:21:35,920 --> 01:21:43,920
+ this 2x2 token, okay, we merge this 2x2 token, yeah, and afterward we project it into another
+
+758
+01:21:43,920 --> 01:21:50,320
+ factor, so if you do not want to know about the detail, you can just simply interpret as that,
+
+759
+01:21:50,320 --> 01:22:01,040
+ we merge this 2x2 patch or token into another single token, right, if we skip some of the detail,
+
+760
+01:22:02,960 --> 01:22:13,040
+ right, so the patch merging therefore is you take 2x2 patches or token, right, you do some processing,
+
+761
+01:22:13,040 --> 01:22:19,680
+ right, okay, using some linear projection to merge it into a single token,
+
+762
+01:22:20,400 --> 01:22:26,240
+ to merging it into a single token, so therefore the number of tokens you have now would be reduced,
+
+763
+01:22:28,960 --> 01:22:37,200
+ yeah, so you patch every 2x2 token, especially you merge it into a single one,
+
+764
+01:22:37,760 --> 01:22:42,639
+ okay, and afterwards you will let it go through this video swing transformer block,
+
+765
+01:22:46,160 --> 01:22:52,160
+ which is just like this and this to again, you know, extract the information for all those
+
+766
+01:22:53,519 --> 01:23:01,360
+ tokens between the window, okay, so that's for step two, right, for step three, right, again,
+
+767
+01:23:01,360 --> 01:23:08,880
+ you repeat this particular process again, you merge the patch every 2x2 patches in the spatial
+
+768
+01:23:08,880 --> 01:23:14,160
+ domain, you merge it, the temporal domain do not merge, the temporal domain do not merge,
+
+769
+01:23:14,160 --> 01:23:20,799
+ but only the spatial domain will merge it, okay, so and afterwards you go through this
+
+770
+01:23:20,799 --> 01:23:26,880
+ swing transformer block and then finally you merge it for stage 4, you merge it and then you go
+
+771
+01:23:26,960 --> 01:23:32,400
+ through the swing transformer block, so therefore, you know, if the question asks you what is the,
+
+772
+01:23:32,400 --> 01:23:37,760
+ you know, overstructured architectures of the video swing transformer, this is the basic architecture
+
+773
+01:23:37,760 --> 01:23:43,360
+ of the video swing transformer, okay, you don't have to show all this number because these are all
+
+774
+01:23:43,360 --> 01:23:48,960
+ the detail, what you need to show is that, okay, you have some video, you first of all, you know,
+
+775
+01:23:48,960 --> 01:23:54,720
+ partition into 3D patches, yeah, okay, and then you have a linear embedding, you have the swing
+
+776
+01:23:54,720 --> 01:24:00,320
+ transformer block, right, okay, and then we perform the patch merging, swing transformer block,
+
+777
+01:24:00,320 --> 01:24:04,720
+ patch merging, swing transformer block, patch merging, and swing transformer block, okay,
+
+778
+01:24:04,720 --> 01:24:09,040
+ so that's the high level principle, there are some, actually some detail, but we'll try not to
+
+779
+01:24:09,920 --> 01:24:15,120
+ talk too much about the TQ because it may distract from the high level message, the high level message,
+
+780
+01:24:15,120 --> 01:24:21,440
+ as I mentioned before, is your video, right, okay, different frame, partition into different
+
+781
+01:24:22,320 --> 01:24:27,599
+ 3D patches, right, this linear embedding is a standard process, you just convert it into a
+
+782
+01:24:27,599 --> 01:24:32,240
+ vector, and then afterwards, you have this swing transformer block which is trying to leverage
+
+783
+01:24:32,240 --> 01:24:38,160
+ on the written window, okay, and the shifted window, right, to calculate the attention written
+
+784
+01:24:39,280 --> 01:24:44,160
+ the window, right, okay, and then afterwards, because we want to create features of different
+
+785
+01:24:44,240 --> 01:24:52,240
+ kind of hierarchy, right, different resolution, okay, we perform the matching, okay, and afterwards,
+
+786
+01:24:52,240 --> 01:24:59,280
+ we do the swing transformer block, okay, to repeat the process, we merge the patches further,
+
+787
+01:24:59,280 --> 01:25:03,920
+ we use the swing transformer block, we merge the patches, and then we use the swing transformer
+
+788
+01:25:03,920 --> 01:25:09,280
+ block, so by having this patch merging, you'll be able to actually create features with different
+
+789
+01:25:10,240 --> 01:25:16,480
+ resolution, okay, which is similar to the hierarchy that we mentioned before, okay, so that's the
+
+790
+01:25:16,480 --> 01:25:26,000
+ basic principles of the, this swing video transformer, right, so yeah, which is this, yeah, so for
+
+791
+01:25:26,000 --> 01:25:30,960
+ video swing transformer, actually, there's a few different variations, right, so again, this part
+
+792
+01:25:30,960 --> 01:25:36,320
+ not so important, so no need to go and memorize it, right, so there's, you have a tiny version,
+
+793
+01:25:36,400 --> 01:25:41,679
+ small version, base version, and the large version, right, so different version will
+
+794
+01:25:41,679 --> 01:25:46,960
+ correspond to just not only on where we do the projections, you can project to factors of
+
+795
+01:25:46,960 --> 01:25:53,280
+ different dimensions, okay, so different versions sometimes just, you know, indicate what is the
+
+796
+01:25:53,280 --> 01:25:59,280
+ size of this factor after you do this linear projection, you can decide to project what,
+
+797
+01:25:59,280 --> 01:26:05,200
+ how long is the factor, okay, so different version will just allow you to travel different
+
+798
+01:26:05,200 --> 01:26:10,240
+ dimensions of the factor, of course the larger version that means the vector dimension will be
+
+799
+01:26:10,240 --> 01:26:16,559
+ longer, right, and also this part here, you know, decide how many layers you're going to use, for
+
+800
+01:26:16,559 --> 01:26:22,080
+ example, for the tiny version you have two, two, six, two, and if you have a large version then
+
+801
+01:26:22,080 --> 01:26:27,519
+ this will become two, two, eighteen, and then two, right, okay, again, these are not important,
+
+802
+01:26:27,519 --> 01:26:33,760
+ it's just, mainly try to tell you that there's a few different versions of swing transformer,
+
+803
+01:26:33,760 --> 01:26:39,120
+ depending on for example, what's your projected vector dimension and how many times you want to
+
+804
+01:26:39,120 --> 01:26:45,120
+ repeat to do that, right, so what is more important is understanding this structure,
+
+805
+01:26:46,000 --> 01:26:52,800
+ okay, and also understanding why video swing transformer or swing transformer is better than
+
+806
+01:26:52,800 --> 01:26:59,200
+ VIT, right, so perhaps let me just ask you, because I spent, okay, maybe let me just go through the
+
+807
+01:26:59,200 --> 01:27:05,440
+ last few slides before, okay, the last slides here on the video swing transformer, so this is a
+
+808
+01:27:05,440 --> 01:27:11,599
+ comparison of video swing transformer with the others, right, so you can see that actually the
+
+809
+01:27:11,599 --> 01:27:18,800
+ performance is actually outperforming some other, you know, earlier works, and this idea of video
+
+810
+01:27:18,880 --> 01:27:32,400
+ swing transformer is quite a popular idea, that's why we spend some time talking about it, yeah.
+
+811
+01:27:36,400 --> 01:27:41,520
+ Now if we can pause for one moment and let me ask you the question to see whether you can
+
+812
+01:27:41,520 --> 01:27:48,880
+ understand the key ideas of these parts here, so what is the advantage of the,
+
+813
+01:27:50,400 --> 01:27:56,000
+ you know, what's the advantage of swing transformer based approach as compared to the
+
+814
+01:27:56,000 --> 01:28:04,640
+ vision transformer, when we try to perform, you know, for example, action recognition,
+
+815
+01:28:04,640 --> 01:28:10,720
+ what's the advantage of swing transformer over the vision transformer,
+
+816
+01:28:11,680 --> 01:28:15,920
+ but all of you should be able to answer the question now because that is supposed to be the
+
+817
+01:28:15,920 --> 01:28:20,320
+ core principle of why do we want to do the swing transformer, but maybe you can,
+
+818
+01:28:21,200 --> 01:28:26,080
+ some of you enter the answer into the chat box, let me see whether you understand this high-level
+
+819
+01:28:26,720 --> 01:28:27,760
+ important message.
+
+820
+01:29:05,600 --> 01:29:06,080
+ Anyone?
+
+821
+01:29:17,520 --> 01:29:24,320
+ So far I've not seen any, okay, let me just check this, can you all hear me?
+
+822
+01:29:27,920 --> 01:29:31,600
+ Can you all hear me and see the share screen, I don't want to lose you all, no.
+
+823
+01:29:35,520 --> 01:29:36,000
+ Okay, great.
+
+824
+01:29:36,880 --> 01:29:41,520
+ Okay, just so you can hear my explanation on the swing transformer,
+
+825
+01:29:42,160 --> 01:29:47,920
+ right, because I keep remembering in the past that was this example of an US professor,
+
+826
+01:29:47,920 --> 01:29:52,480
+ he spent two hours talking about action, and then at the end the student told me we cannot
+
+827
+01:29:52,480 --> 01:29:52,960
+ hear you.
+
+828
+01:29:57,040 --> 01:29:59,680
+ Okay, all right, so at least now, yeah, it's clear that,
+
+829
+01:29:59,680 --> 01:30:06,000
+ yeah, okay, I think I'm sharing the screen, so no issue.
+
+830
+01:30:09,360 --> 01:30:16,160
+ Right, okay, so back to just now the question.
+
+831
+01:30:17,360 --> 01:30:23,600
+ Right, so what is the advantage of swing transformer based approach versus vision
+
+832
+01:30:23,600 --> 01:30:24,800
+ transformer based approach?
+
+833
+01:30:25,680 --> 01:30:31,840
+ Versus vision transformer based approach in action recognition?
+
+834
+01:30:34,640 --> 01:30:37,840
+ Answer, does that have to go into the, just very straightforward,
+
+835
+01:30:37,840 --> 01:30:39,360
+ K-card answer, what is it?
+
+836
+01:30:46,880 --> 01:30:53,520
+ Okay, okay, so let's complexity is true, but how does it reduce the computation by using what?
+
+837
+01:30:55,600 --> 01:31:04,960
+ How does it reduce the complexity?
+
+838
+01:31:10,320 --> 01:31:16,720
+ Shifting is to allow the, yeah, by using the local window, by using the window structure.
+
+839
+01:31:16,720 --> 01:31:21,280
+ The shifting is to encourage information exchange across different windows, because if you
+
+840
+01:31:21,280 --> 01:31:26,240
+ don't have shifting, then the information exchange can only occur within the window.
+
+841
+01:31:26,240 --> 01:31:31,599
+ By using the shifting, you allow information exchange to occur across different windows,
+
+842
+01:31:31,599 --> 01:31:35,440
+ yeah, so therefore the answer is like one of your friends mentioned is because of the,
+
+843
+01:31:35,440 --> 01:31:41,759
+ you are using some local window, yeah, you're using local window, so that's the answer.
+
+844
+01:31:42,720 --> 01:31:52,720
+ Right, so the advantage of swing transformer based approach over vision transformer based is
+
+845
+01:31:52,720 --> 01:31:57,520
+ it can reduce the computational cost, yeah, and it can reduce the computation,
+
+846
+01:31:57,520 --> 01:32:02,880
+ the cost is because it use the local window, right, so that you can only need to compute
+
+847
+01:32:02,880 --> 01:32:09,440
+ that tension within this local window, hence reduce the computational cost and requirement,
+
+848
+01:32:09,440 --> 01:32:17,040
+ right, so that's the high level principle, right, okay, and then afterwards, yeah, this is the
+
+849
+01:32:17,040 --> 01:32:22,400
+ structures of the videos with transformer that I spent quite some time mentioned to you before,
+
+850
+01:32:22,400 --> 01:32:28,240
+ so all this number on top is not so important, so this is the more kind of a structure probably
+
+851
+01:32:28,240 --> 01:32:36,080
+ you need to have some understanding. Okay, so let's continue on, so next let's look at some,
+
+852
+01:32:36,960 --> 01:32:44,320
+ no other approach which is a skeleton based network, so the skeleton based network,
+
+853
+01:32:44,320 --> 01:32:49,760
+ the basic idea is quite simple, right, so you have some video, we use some post estimation method
+
+854
+01:32:49,760 --> 01:32:57,440
+ that we have studied before to get the skeleton for each of the, no frame, and after works we
+
+855
+01:32:57,440 --> 01:33:03,680
+ will make use of this but other skeleton information to help us to perform the classification,
+
+856
+01:33:03,680 --> 01:33:11,600
+ so one possible way is for example one common technique, this STGC and here, so it tries to
+
+857
+01:33:11,600 --> 01:33:17,200
+ extract the information from all the, for example neighboring, in order to extract the feature for
+
+858
+01:33:17,200 --> 01:33:24,960
+ this join, it takes the information from the neighboring join, okay, as well as across different
+
+859
+01:33:24,960 --> 01:33:30,800
+ frame, so it takes all this position information of this corresponding join, right, to extract
+
+860
+01:33:30,800 --> 01:33:36,160
+ some information here, okay, right, so likewise for example for this join, it can take the information
+
+861
+01:33:36,160 --> 01:33:43,040
+ for this join, right, okay, in the cross-link position as well as the neighboring joins to extract
+
+862
+01:33:43,040 --> 01:33:48,240
+ some information here, and after works you repeat this particular process a few times before it
+
+863
+01:33:48,240 --> 01:33:53,440
+ can perform the classification, but so there are some details there but we do want to go into the
+
+864
+01:33:53,440 --> 01:33:58,720
+ details, so the basic principle is that for skeleton based approach, first is it performed,
+
+865
+01:33:59,200 --> 01:34:05,600
+ use post-assimilation to extract the skeleton, and after works you go through some, you know,
+
+866
+01:34:05,600 --> 01:34:11,920
+ graph-based approach to graph-based approach to extract some feature and then finally perform the
+
+867
+01:34:11,920 --> 01:34:18,640
+ classification, okay, so the high-level idea, utilize temporal post information to perform
+
+868
+01:34:18,640 --> 01:34:23,280
+ prediction, right, so you extract the post information as mentioned, and after works you
+
+869
+01:34:23,280 --> 01:34:29,280
+ can use techniques such as RSTM or graph-nearing network, right, to perform classification,
+
+870
+01:34:32,400 --> 01:34:38,000
+ okay, so this slide shows the, you know, some performance comparison among some of the methods
+
+871
+01:34:38,000 --> 01:34:44,160
+ that we have introduced, two-stream, you know, 3D-CNN, EBCN, transform one-base and the skeleton
+
+872
+01:34:44,160 --> 01:34:51,120
+ base, right, so these are some models that, you know, be used for comparison, okay, yeah, so this
+
+873
+01:34:51,120 --> 01:34:56,559
+ is the input size, right, the operation, the accuracy, okay, so the accuracy, the skeleton
+
+874
+01:34:56,559 --> 01:35:02,480
+ based approach are usually, we have this, the skeleton based approach is usually not as good
+
+875
+01:35:02,480 --> 01:35:10,000
+ as comparing to this RGB base, yeah, skeleton based method has some advantage, for example,
+
+876
+01:35:10,000 --> 01:35:19,599
+ if your image is in a, in certain environment, yeah, which is not so good, no, yeah, so this
+
+877
+01:35:19,600 --> 01:35:24,400
+ skeleton based approach, generally speaking, the results is not as good as the others, right,
+
+878
+01:35:24,400 --> 01:35:30,480
+ but it's useful in some specific domain applications here, right, and also this,
+
+879
+01:35:31,200 --> 01:35:35,680
+ the result has been shown here, this data sets is different from slightly different,
+
+880
+01:35:36,240 --> 01:35:41,200
+ okay, actually it also showed the kinetic 400 here, so you can see the numbers here are actually
+
+881
+01:35:41,200 --> 01:35:49,920
+ much lower than, you know, the general RGB base approach, okay, right, so, okay, so a quick recap,
+
+882
+01:35:49,920 --> 01:35:55,120
+ so for two these, two stream methods we already mentioned before, it's simple design, okay,
+
+883
+01:35:55,760 --> 01:36:01,840
+ however, it has a significant computation and storage parameter for optical flow, right, 3D-CNN
+
+884
+01:36:01,840 --> 01:36:09,599
+ is complex, require large computation in training, EBCN video modeling like the TSM that we study
+
+885
+01:36:09,600 --> 01:36:17,920
+ is simple, EBCN, right, but it's not as accurate, okay, okay, transformer is accurate, but it requires
+
+886
+01:36:17,920 --> 01:36:24,160
+ large data requirements and high computational costs, yeah, for skeleton based it relies on
+
+887
+01:36:24,160 --> 01:36:30,000
+ human post estimation, yeah, generally speaking, the accuracy is lower in some general domain application,
+
+888
+01:36:32,000 --> 01:36:37,840
+ right, so this slide shows the, you know, some of the methods that we have discussed,
+
+889
+01:36:37,840 --> 01:36:44,320
+ or some of the representative methods, so horizontal axis is the frame per second, vertical axis is the
+
+890
+01:36:44,320 --> 01:36:50,160
+ top one accuracy, that means if I give you the video clip, right, if you, your output match the
+
+891
+01:36:50,160 --> 01:36:55,280
+ ground truth, that means it's considered as correct, okay, so a good method generally speaking, need to
+
+892
+01:36:55,280 --> 01:37:02,400
+ have a high frame per second and also high accuracy, so this is a good corner, but for the methods that
+
+893
+01:37:02,400 --> 01:37:06,960
+ is being shown here, we don't really have some method listed here, so we can either have some
+
+894
+01:37:06,960 --> 01:37:14,640
+ method which is fast, like TSM, but less accurate, okay, still reasonable, 70 something, okay, so it's
+
+895
+01:37:14,640 --> 01:37:20,800
+ fast but less accurate, or we can have methods which is more accurate but slow, okay, for example the
+
+896
+01:37:20,800 --> 01:37:28,640
+ video screen transformer, okay, so this table here shows again, vertical axis the accuracy, horizontal
+
+897
+01:37:28,640 --> 01:37:35,040
+ axis is the number of, she flops number of floating point calculation, so good methods should have
+
+898
+01:37:35,040 --> 01:37:40,560
+ low flops but high accuracy, that means this is called good corner here, right, so these are some
+
+899
+01:37:40,560 --> 01:37:50,240
+ good corners here, right, okay, so next we have one simple exercise, it asks you to briefly
+
+900
+01:37:51,360 --> 01:37:57,600
+ describe how TSM can achieve good computational efficiency in video action recognition,
+
+901
+01:37:58,880 --> 01:38:04,640
+ right, I'll give you one moment to quickly recall what we have studied, right, and then I'll show
+
+902
+01:38:04,640 --> 01:38:14,960
+ that us.
+
+903
+01:38:34,640 --> 01:38:36,720
+ OK, can you see the share screen?
+
+904
+01:38:58,440 --> 01:38:59,120
+ Right, OK.
+
+905
+01:38:59,120 --> 01:39:01,320
+ So therefore, the answer to that question is,
+
+906
+01:39:01,320 --> 01:39:06,599
+ as I mentioned, is that you try to shift the channel information
+
+907
+01:39:06,599 --> 01:39:08,519
+ across different frames.
+
+908
+01:39:08,519 --> 01:39:11,519
+ So you have this different frame here.
+
+909
+01:39:11,519 --> 01:39:15,679
+ And then these are the information, the channel information,
+
+910
+01:39:15,679 --> 01:39:16,400
+ for each frame.
+
+911
+01:39:16,400 --> 01:39:18,920
+ So we just try to shift, for example,
+
+912
+01:39:18,920 --> 01:39:22,280
+ some channel information from one frame to the other frame.
+
+913
+01:39:22,280 --> 01:39:24,880
+ So TSM use the channel shifting operation.
+
+914
+01:39:24,880 --> 01:39:28,360
+ It shifts part of the channel along the temporal dimension.
+
+915
+01:39:28,360 --> 01:39:31,280
+ And therefore, encouraging information exchange
+
+916
+01:39:31,280 --> 01:39:32,839
+ between the main frame, for example,
+
+917
+01:39:32,839 --> 01:39:34,480
+ between this frame and this frame.
+
+918
+01:39:34,480 --> 01:39:37,639
+ There's some information exchange across this different frame.
+
+919
+01:39:37,639 --> 01:39:42,480
+ So this is more efficient, but usually the performance is not
+
+920
+01:39:42,480 --> 01:39:43,880
+ really the strongest.
+
+921
+01:39:50,759 --> 01:39:52,960
+ So let me just continue on.
+
+922
+01:39:58,360 --> 01:40:05,519
+ OK, so therefore, actually, we come to the end of this human action
+
+923
+01:40:05,519 --> 01:40:06,120
+ recognition.
+
+924
+01:40:06,120 --> 01:40:08,679
+ So for this part, we covered introduction.
+
+925
+01:40:08,679 --> 01:40:11,080
+ And then under the action recognition,
+
+926
+01:40:11,080 --> 01:40:15,280
+ we covered two-stream method, 3D CNN, efficient modeling,
+
+927
+01:40:15,280 --> 01:40:18,639
+ and also the new emerging techniques, specifically the video
+
+928
+01:40:18,639 --> 01:40:21,480
+ sim transformer method.
+
+929
+01:40:21,480 --> 01:40:25,240
+ So for this part, part five, actually,
+
+930
+01:40:25,559 --> 01:40:27,160
+ we covered the following.
+
+931
+01:40:27,160 --> 01:40:29,120
+ So we talked about object detection, tracking,
+
+932
+01:40:29,120 --> 01:40:32,280
+ post-assimation, and today we covered the human action
+
+933
+01:40:32,280 --> 01:40:34,719
+ recognition.
+
+934
+01:40:34,719 --> 01:40:38,000
+ So that's pretty much part five.
+
+935
+01:40:38,000 --> 01:40:40,000
+ So we'll probably take a short break,
+
+936
+01:40:40,000 --> 01:40:44,719
+ and then afterwards we'll come back to part six.
+
+937
+01:40:44,719 --> 01:40:47,160
+ Part six is shorter, so we should.
+
+938
+01:40:47,160 --> 01:40:49,760
+ So anyway, we'll take a short break.
+
+939
+01:40:49,760 --> 01:40:51,920
+ Now it's 1044.
+
+940
+01:40:52,000 --> 01:40:53,800
+ Let's come back at 11.
+
+941
+01:40:53,800 --> 01:40:56,120
+ OK, I'll see you a bit later.
+
+942
+01:41:08,120 --> 01:41:10,280
+ OK, so we'll come back.
+
+943
+01:41:10,280 --> 01:41:12,880
+ Yeah, just want to check before we continue on.
+
+944
+01:41:12,880 --> 01:41:16,920
+ Can you hear me, see me, as well as see the share screen?
+
+945
+01:41:16,920 --> 01:41:17,920
+ OK, so we'll come back.
+
+946
+01:41:17,920 --> 01:41:19,920
+ Can you see me, as well as see the share screen?
+
+947
+01:41:37,920 --> 01:41:40,400
+ OK, yeah, thank you for the confirmation.
+
+948
+01:41:40,400 --> 01:41:42,400
+ Let's check the setting a bit.
+
+949
+01:41:47,920 --> 01:41:51,920
+ OK, so let's continue.
+
+950
+01:41:51,920 --> 01:41:54,920
+ So now we are coming to the last part of this course,
+
+951
+01:41:54,920 --> 01:41:56,920
+ a computation model and iterative AI.
+
+952
+01:41:56,920 --> 01:42:00,920
+ So initially, I plan to put a lot more content into this,
+
+953
+01:42:00,920 --> 01:42:02,920
+ but I get some feedback from some students
+
+954
+01:42:02,920 --> 01:42:05,920
+ that for this course, the content is a bit heavy.
+
+955
+01:42:05,920 --> 01:42:09,920
+ So I decided probably we can ease a little bit
+
+956
+01:42:09,920 --> 01:42:13,920
+ and make it a little bit more lively and, yeah,
+
+957
+01:42:13,920 --> 01:42:14,920
+ for this part.
+
+958
+01:42:14,920 --> 01:42:17,920
+ OK, so anyway, right, so for this part,
+
+959
+01:42:17,920 --> 01:42:19,920
+ I'll try to go through it a bit faster,
+
+960
+01:42:19,920 --> 01:42:21,920
+ especially in the beginning.
+
+961
+01:42:21,920 --> 01:42:24,920
+ Right, OK, so these are some references on this part of the course.
+
+962
+01:42:24,920 --> 01:42:28,920
+ If you're interested, you can welcome to read up more about them.
+
+963
+01:42:28,920 --> 01:42:32,920
+ OK, so the outline for part six is that we'll be mainly focusing
+
+964
+01:42:32,920 --> 01:42:33,920
+ on two things.
+
+965
+01:42:33,920 --> 01:42:36,920
+ Number one is a quick introduction of foundation model.
+
+966
+01:42:36,920 --> 01:42:39,920
+ And afterwards, we'll be looking at some amps.
+
+967
+01:42:39,920 --> 01:42:43,920
+ Right, so for section one under the foundation models,
+
+968
+01:42:43,920 --> 01:42:46,920
+ yeah, so these are the topics we'll be covering
+
+969
+01:42:46,920 --> 01:42:48,920
+ to talk about the foundation model.
+
+970
+01:42:48,920 --> 01:42:52,920
+ So first of all, we'll be looking at the current step of the AI
+
+971
+01:42:52,920 --> 01:42:54,920
+ and then some basics of foundation model,
+
+972
+01:42:54,920 --> 01:42:57,920
+ followed by finally how do we do some fine tuning
+
+973
+01:42:57,920 --> 01:43:00,920
+ and adaptations of foundation models.
+
+974
+01:43:00,920 --> 01:43:04,920
+ Right, so the first step is to look at the foundation models.
+
+975
+01:43:04,920 --> 01:43:09,920
+ OK, so to start with, I'll play you a short video
+
+976
+01:43:09,920 --> 01:43:11,920
+ and give a very quick introduction
+
+977
+01:43:11,920 --> 01:43:13,920
+ of what are foundation models.
+
+978
+01:43:13,920 --> 01:43:15,920
+ Music.
+
+979
+01:43:15,920 --> 01:43:17,920
+ OK, let me just...
+
+980
+01:43:17,920 --> 01:43:19,920
+ We're witnessing a...
+
+981
+01:43:19,920 --> 01:43:21,920
+ Please support a little bit.
+
+982
+01:43:21,920 --> 01:43:23,920
+ Major revolution in AI.
+
+983
+01:43:23,920 --> 01:43:27,920
+ Exciting new models are generating realistic text,
+
+984
+01:43:27,920 --> 01:43:29,920
+ creating beautiful images,
+
+985
+01:43:29,920 --> 01:43:31,920
+ and creating a new image.
+
+986
+01:43:31,920 --> 01:43:34,920
+ Creating realistic text, creating beautiful images,
+
+987
+01:43:34,920 --> 01:43:38,920
+ writing new code, and composing music.
+
+988
+01:43:38,920 --> 01:43:42,920
+ These generative capabilities are powered by foundation models.
+
+989
+01:43:42,920 --> 01:43:45,920
+ These are artificial intelligence systems
+
+990
+01:43:45,920 --> 01:43:47,920
+ trained on massive amounts of internet data,
+
+991
+01:43:47,920 --> 01:43:51,920
+ including text, images, videos, and more.
+
+992
+01:43:51,920 --> 01:43:54,920
+ Foundation models unlock powerful new possibilities.
+
+993
+01:43:54,920 --> 01:43:57,920
+ Instead of one model built solely for one task,
+
+994
+01:43:57,920 --> 01:44:00,920
+ foundation models can be adapted across a wide variety
+
+995
+01:44:00,920 --> 01:44:03,920
+ of different scenarios, summarizing documents,
+
+996
+01:44:03,920 --> 01:44:06,920
+ generating stories, answering questions,
+
+997
+01:44:06,920 --> 01:44:09,920
+ writing code, solving math problems,
+
+998
+01:44:09,920 --> 01:44:13,920
+ synthesizing audio, and the list never ends.
+
+999
+01:44:13,920 --> 01:44:16,920
+ But foundation models bear serious risks.
+
+1000
+01:44:16,920 --> 01:44:19,920
+ Because they are trained on data from the internet,
+
+1001
+01:44:19,920 --> 01:44:21,920
+ they can exhibit bias and stereotypes
+
+1002
+01:44:21,920 --> 01:44:24,920
+ that are harmful to marginalized groups.
+
+1003
+01:44:24,920 --> 01:44:26,920
+ They can be used by malicious actors
+
+1004
+01:44:26,920 --> 01:44:28,920
+ to create disinformation.
+
+1005
+01:44:28,920 --> 01:44:30,920
+ How these models are built and deployed
+
+1006
+01:44:30,920 --> 01:44:34,920
+ is determined by a few people with limited transparency.
+
+1007
+01:44:34,920 --> 01:44:37,920
+ And because they can cost tens or even hundreds of millions
+
+1008
+01:44:37,920 --> 01:44:40,920
+ of dollars to train, only the biggest tech companies
+
+1009
+01:44:40,920 --> 01:44:43,920
+ can afford them, which continues to centralize power.
+
+1010
+01:44:43,920 --> 01:44:46,920
+ Foundation models are shaping our lives,
+
+1011
+01:44:46,920 --> 01:44:48,920
+ transforming how we think about technology
+
+1012
+01:44:48,920 --> 01:44:51,920
+ and restructuring our collective society.
+
+1013
+01:44:51,920 --> 01:44:54,920
+ How we interact with computers and each other is changing,
+
+1014
+01:44:54,920 --> 01:44:57,920
+ from how we search the web to how we draft an email.
+
+1015
+01:44:57,920 --> 01:45:01,920
+ Soon, anyone will be able to write a coherent essay
+
+1016
+01:45:01,920 --> 01:45:03,920
+ from a loose collection of thoughts
+
+1017
+01:45:03,920 --> 01:45:05,920
+ or generate synthetic art and music
+
+1018
+01:45:05,920 --> 01:45:08,920
+ that is hard to distinguish from the real thing.
+
+1019
+01:45:08,920 --> 01:45:11,920
+ Spanning industry, government, academia,
+
+1020
+01:45:11,920 --> 01:45:13,920
+ and the public at large,
+
+1021
+01:45:13,920 --> 01:45:16,920
+ we should come together to ensure this emerging technology
+
+1022
+01:45:16,920 --> 01:45:19,920
+ is built and deployed responsibly.
+
+1023
+01:45:19,920 --> 01:45:22,920
+ We must act now to ensure foundation models develop
+
+1024
+01:45:22,920 --> 01:45:25,920
+ in ways that benefit society.
+
+1025
+01:45:36,920 --> 01:45:38,920
+ Okay, so hopefully the short video
+
+1026
+01:45:38,920 --> 01:45:41,920
+ gives you a glimpse about the impacts
+
+1027
+01:45:41,920 --> 01:45:44,920
+ of these foundation models.
+
+1028
+01:45:44,920 --> 01:45:46,920
+ We're witnessing a...
+
+1029
+01:45:46,920 --> 01:45:48,920
+ Right, okay, so let's look at some quick summary
+
+1030
+01:45:48,920 --> 01:45:50,920
+ about the current state of the AI
+
+1031
+01:45:50,920 --> 01:45:53,920
+ at this moment now.
+
+1032
+01:45:53,920 --> 01:45:55,920
+ Okay, so now...
+
+1033
+01:45:55,920 --> 01:45:58,920
+ Right, so this slide here shows that actually progressively,
+
+1034
+01:45:58,920 --> 01:46:00,920
+ right, in terms of the foundation models
+
+1035
+01:46:00,920 --> 01:46:02,920
+ from the SS,
+
+1036
+01:46:02,920 --> 01:46:05,920
+ we are moving towards the open source in the past
+
+1037
+01:46:05,920 --> 01:46:08,920
+ because lots of these models were streamed by big tech companies
+
+1038
+01:46:08,920 --> 01:46:10,920
+ and they need to, you know,
+
+1039
+01:46:10,920 --> 01:46:13,920
+ cover generate profit and revenue.
+
+1040
+01:46:13,920 --> 01:46:16,920
+ So that's why lots of these big foundation models
+
+1041
+01:46:16,920 --> 01:46:18,920
+ was a close model.
+
+1042
+01:46:18,920 --> 01:46:21,920
+ But progressively, there's actually already some train
+
+1043
+01:46:21,920 --> 01:46:24,920
+ moving towards certain levels of open source.
+
+1044
+01:46:24,920 --> 01:46:26,920
+ Yeah, so therefore you can see from this slide,
+
+1045
+01:46:26,920 --> 01:46:28,920
+ it shows that the foundation model, right,
+
+1046
+01:46:28,920 --> 01:46:31,920
+ okay, progressively, they have more
+
+1047
+01:46:31,920 --> 01:46:35,920
+ open source kind of foundation model.
+
+1048
+01:46:35,920 --> 01:46:38,920
+ Right, however, right, in terms of performance,
+
+1049
+01:46:38,920 --> 01:46:40,920
+ currently the close source models
+
+1050
+01:46:40,920 --> 01:46:43,920
+ are still outperforming open source, right,
+
+1051
+01:46:43,920 --> 01:46:45,920
+ because as mentioned early on,
+
+1052
+01:46:45,920 --> 01:46:47,920
+ right, lots of this foundation model is trained
+
+1053
+01:46:47,920 --> 01:46:49,920
+ by the big company,
+
+1054
+01:46:49,920 --> 01:46:52,920
+ and this company sometimes they need to have some profit model
+
+1055
+01:46:52,920 --> 01:46:54,920
+ to generate the income.
+
+1056
+01:46:54,920 --> 01:46:56,920
+ So this slide shows the difference
+
+1057
+01:46:56,920 --> 01:47:00,920
+ between the top close model versus the open model.
+
+1058
+01:47:00,920 --> 01:47:03,920
+ Right, so BLAST means the advantage of...
+
+1059
+01:47:03,920 --> 01:47:07,920
+ or the improvements of this close model
+
+1060
+01:47:07,920 --> 01:47:11,920
+ outperforming the open source model at the moment.
+
+1061
+01:47:13,920 --> 01:47:16,920
+ Okay, so this slide here shows that currently
+
+1062
+01:47:16,920 --> 01:47:20,920
+ industry is still dominating the foundation models.
+
+1063
+01:47:20,920 --> 01:47:22,920
+ It's obvious, right, I mean, in university
+
+1064
+01:47:22,920 --> 01:47:24,920
+ we do not have the resources,
+
+1065
+01:47:24,920 --> 01:47:26,920
+ we are not able to collect as much data,
+
+1066
+01:47:26,920 --> 01:47:30,920
+ we don't have the money to burn to train the foundation models,
+
+1067
+01:47:30,920 --> 01:47:32,920
+ we don't have the hardware.
+
+1068
+01:47:32,920 --> 01:47:34,920
+ So therefore, currently industries are still
+
+1069
+01:47:34,920 --> 01:47:36,920
+ dominating the foundation model.
+
+1070
+01:47:36,920 --> 01:47:39,920
+ So this table shows some of the top companies
+
+1071
+01:47:39,920 --> 01:47:42,920
+ like Google, Meta, Microsoft, OpenAI,
+
+1072
+01:47:42,920 --> 01:47:46,920
+ which are dominating some of the key foundation models.
+
+1073
+01:47:50,920 --> 01:47:52,920
+ Right, okay, so this slide shows,
+
+1074
+01:47:52,920 --> 01:47:54,920
+ again the same message,
+
+1075
+01:47:54,920 --> 01:47:56,920
+ the industries are dominating the foundation models,
+
+1076
+01:47:56,920 --> 01:47:59,920
+ so we can see that in recent years, right.
+
+1077
+01:47:59,920 --> 01:48:01,920
+ Okay, the number of foundation models
+
+1078
+01:48:01,920 --> 01:48:03,920
+ that was developed,
+
+1079
+01:48:03,920 --> 01:48:06,920
+ key foundation model that was developed by different sector,
+
+1080
+01:48:06,920 --> 01:48:09,920
+ by far industry is proposing
+
+1081
+01:48:09,920 --> 01:48:12,920
+ much larger number of important foundation model
+
+1082
+01:48:12,920 --> 01:48:15,920
+ as compared to academia and government.
+
+1083
+01:48:18,920 --> 01:48:19,920
+ Right, so all of us know that
+
+1084
+01:48:19,920 --> 01:48:22,920
+ training foundation model is very expensive,
+
+1085
+01:48:22,920 --> 01:48:25,920
+ so we can see this slide here shows the high cost
+
+1086
+01:48:25,920 --> 01:48:28,920
+ of the training foundation models, right.
+
+1087
+01:48:28,920 --> 01:48:30,920
+ So the vertical axis, the training cost
+
+1088
+01:48:30,920 --> 01:48:32,920
+ in terms of the US dollar, right,
+
+1089
+01:48:32,920 --> 01:48:35,920
+ the scale here is a logarithmic scale, yeah.
+
+1090
+01:48:35,920 --> 01:48:37,920
+ And then for the horizontal axis,
+
+1091
+01:48:38,920 --> 01:48:41,920
+ the training computational cost, the ethaflops,
+
+1092
+01:48:41,920 --> 01:48:44,920
+ right, again the scale is a logarithmic scales, right.
+
+1093
+01:48:44,920 --> 01:48:47,920
+ You can see, yeah, in earlier years,
+
+1094
+01:48:47,920 --> 01:48:50,920
+ slightly earlier years, the transformer and right,
+
+1095
+01:48:50,920 --> 01:48:54,920
+ so this is the kind of training cost
+
+1096
+01:48:54,920 --> 01:48:58,920
+ required both in terms of the flops as well as the money,
+
+1097
+01:48:58,920 --> 01:49:01,920
+ but over time we have birthed robot, right,
+
+1098
+01:49:01,920 --> 01:49:04,920
+ and then in recent years, like GPT4, right.
+
+1099
+01:49:05,920 --> 01:49:09,920
+ So actually both in terms of the computational cost, right,
+
+1100
+01:49:09,920 --> 01:49:12,920
+ both in terms of real money and the calculation,
+
+1101
+01:49:12,920 --> 01:49:14,920
+ is growth quite significantly,
+
+1102
+01:49:14,920 --> 01:49:17,920
+ taking note that it's actually a logarithm scale, right.
+
+1103
+01:49:20,920 --> 01:49:22,920
+ Okay, this slide shows some of the well-known
+
+1104
+01:49:22,920 --> 01:49:25,920
+ AI models by company breakdown.
+
+1105
+01:49:25,920 --> 01:49:28,920
+ So currently US is still more dominant
+
+1106
+01:49:28,920 --> 01:49:33,920
+ in terms of the number of key machine learning
+
+1107
+01:49:33,920 --> 01:49:35,920
+ or AI models that is developing, right,
+
+1108
+01:49:35,920 --> 01:49:40,920
+ as compared to some other companies as countries as well.
+
+1109
+01:49:42,920 --> 01:49:44,920
+ All right, okay, this slide actually shows
+
+1110
+01:49:44,920 --> 01:49:48,920
+ the performance of human versus AI, right.
+
+1111
+01:49:48,920 --> 01:49:50,920
+ So horizontal axis is the years, right,
+
+1112
+01:49:50,920 --> 01:49:52,920
+ so as compared to recent year,
+
+1113
+01:49:52,920 --> 01:49:54,920
+ what is the relative performance
+
+1114
+01:49:54,920 --> 01:49:56,920
+ of the human versus AI, right,
+
+1115
+01:49:56,920 --> 01:49:59,920
+ and then the vertical axis is the performance
+
+1116
+01:49:59,920 --> 01:50:01,920
+ with respect to human baseline.
+
+1117
+01:50:01,920 --> 01:50:03,920
+ So we normalize everything to be 100%,
+
+1118
+01:50:03,920 --> 01:50:05,920
+ that means human performance is,
+
+1119
+01:50:05,920 --> 01:50:08,920
+ if we assume humans' performance is 100%,
+
+1120
+01:50:08,920 --> 01:50:11,920
+ so for what range of tasks, right,
+
+1121
+01:50:11,920 --> 01:50:14,920
+ so initially it start off with an image classification,
+
+1122
+01:50:14,920 --> 01:50:16,920
+ for example, the ImageNet Challenge,
+
+1123
+01:50:16,920 --> 01:50:20,920
+ so around like the 2015, 16,
+
+1124
+01:50:20,920 --> 01:50:25,920
+ already the, you know, some AI model can outperform human
+
+1125
+01:50:25,920 --> 01:50:28,920
+ in terms of ImageNet image classification already.
+
+1126
+01:50:28,920 --> 01:50:31,920
+ So this is one of the earliest tasks
+
+1127
+01:50:31,920 --> 01:50:34,920
+ where AI outperform human,
+
+1128
+01:50:34,920 --> 01:50:36,920
+ but progressively there are more and more tasks
+
+1129
+01:50:36,920 --> 01:50:39,920
+ that AI has demonstrated that it can outperform human,
+
+1130
+01:50:39,920 --> 01:50:44,920
+ for example, you have this basic level reading comprehension,
+
+1131
+01:50:44,920 --> 01:50:48,920
+ language, English language understanding, right,
+
+1132
+01:50:48,920 --> 01:50:52,920
+ visual reasoning, you can see that in recent years
+
+1133
+01:50:52,920 --> 01:50:55,920
+ this AI model already outperform human, yeah.
+
+1134
+01:50:55,920 --> 01:51:00,920
+ So there are still some tasks which AI is probably not as good yet,
+
+1135
+01:51:00,920 --> 01:51:03,920
+ for example, mathematics, yeah.
+
+1136
+01:51:03,920 --> 01:51:07,920
+ Yeah, I recently also watched some video by Altshyn,
+
+1137
+01:51:07,920 --> 01:51:10,920
+ the few matters, one of the,
+
+1138
+01:51:10,920 --> 01:51:13,920
+ probably the best minds in mathematics they talk about,
+
+1139
+01:51:13,920 --> 01:51:16,920
+ how AI actually, you know, can,
+
+1140
+01:51:16,920 --> 01:51:20,920
+ you know, whether AI can outperform maths,
+
+1141
+01:51:20,920 --> 01:51:23,920
+ so currently for him, he thinks that AI at this stage
+
+1142
+01:51:23,920 --> 01:51:28,920
+ is like the graduate level kind of students,
+
+1143
+01:51:28,920 --> 01:51:30,920
+ they are level of mathematics,
+
+1144
+01:51:30,920 --> 01:51:32,920
+ not the brightest PhD student,
+
+1145
+01:51:32,920 --> 01:51:35,920
+ but average kind of a PhD student,
+
+1146
+01:51:35,920 --> 01:51:39,920
+ which is already quite good for AI to be able to reach that level.
+
+1147
+01:51:41,920 --> 01:51:44,920
+ Okay, and then this slide shows how business
+
+1148
+01:51:44,920 --> 01:51:48,920
+ make use of AI, so they use it for things like,
+
+1149
+01:51:49,920 --> 01:51:54,920
+ creations of products, to enhance the products,
+
+1150
+01:51:54,920 --> 01:51:59,920
+ okay, try to acquire, attract customers and so on and so forth.
+
+1151
+01:51:59,920 --> 01:52:03,920
+ So some of the areas where businesses are using AI.
+
+1152
+01:52:05,920 --> 01:52:07,920
+ Right, okay, so with all these AI,
+
+1153
+01:52:07,920 --> 01:52:09,920
+ actually people are getting nervous and shittery,
+
+1154
+01:52:09,920 --> 01:52:12,920
+ whether AI will threaten their jobs
+
+1155
+01:52:12,920 --> 01:52:15,920
+ and become, take over the work.
+
+1156
+01:52:15,920 --> 01:52:18,920
+ So this survey actually shows for different countries,
+
+1157
+01:52:18,920 --> 01:52:22,920
+ which country feel most nervous about AI.
+
+1158
+01:52:22,920 --> 01:52:24,920
+ So you can have a quick look, for example,
+
+1159
+01:52:24,920 --> 01:52:28,920
+ countries like Australia, Great Britain, US,
+
+1160
+01:52:28,920 --> 01:52:33,920
+ they are kind of tentative and nervous about this AI.
+
+1161
+01:52:34,920 --> 01:52:38,920
+ Actually for, I mean, I talked to some of the younger generation,
+
+1162
+01:52:38,920 --> 01:52:42,920
+ so young students also feel a little bit uncertain
+
+1163
+01:52:42,920 --> 01:52:45,920
+ because they will not know whether in the future
+
+1164
+01:52:45,920 --> 01:52:47,920
+ there are still jobs or only certain type of jobs
+
+1165
+01:52:47,920 --> 01:52:52,920
+ that they can do well, whereas others may be replaced by AI.
+
+1166
+01:52:55,920 --> 01:52:59,920
+ Okay, so just now the few slides is actually trying to give you
+
+1167
+01:52:59,920 --> 01:53:01,920
+ a few about current state of the AI,
+
+1168
+01:53:01,920 --> 01:53:04,920
+ particularly in the context of the foundation model.
+
+1169
+01:53:04,920 --> 01:53:07,920
+ So next we are going to very quickly talk about
+
+1170
+01:53:07,920 --> 01:53:09,920
+ what is the foundation model.
+
+1171
+01:53:10,920 --> 01:53:13,920
+ So the basics of foundation model or FMs.
+
+1172
+01:53:15,920 --> 01:53:17,920
+ So what are foundation models?
+
+1173
+01:53:17,920 --> 01:53:19,920
+ So the basic idea of foundation models is that
+
+1174
+01:53:19,920 --> 01:53:22,920
+ you make use of a lot of last scale broad base.
+
+1175
+01:53:22,920 --> 01:53:24,920
+ That means actually it's quite broad,
+
+1176
+01:53:24,920 --> 01:53:26,920
+ it can be for many different domains,
+
+1177
+01:53:26,920 --> 01:53:29,920
+ and then you use some cell supervised,
+
+1178
+01:53:29,920 --> 01:53:33,920
+ usually some cell supervised strategy to do the training.
+
+1179
+01:53:33,920 --> 01:53:38,920
+ So you use lots of data over relatively diverse different domain
+
+1180
+01:53:38,920 --> 01:53:40,920
+ and then you train your big model.
+
+1181
+01:53:40,920 --> 01:53:44,920
+ And afterwards, right, later on you may have some downstream application,
+
+1182
+01:53:44,920 --> 01:53:47,920
+ then you take your, this big foundation model,
+
+1183
+01:53:47,920 --> 01:53:50,920
+ you do some fine tuning or adaptation
+
+1184
+01:53:50,920 --> 01:53:53,920
+ for your subsequent downstream application.
+
+1185
+01:53:53,920 --> 01:53:55,920
+ So that's the high level idea.
+
+1186
+01:53:55,920 --> 01:53:59,920
+ So the advantage of doing this as compared to before is that
+
+1187
+01:53:59,920 --> 01:54:02,920
+ before for every downstream application that you want to do,
+
+1188
+01:54:02,920 --> 01:54:04,920
+ like the image classification,
+
+1189
+01:54:04,920 --> 01:54:09,920
+ you know, sentiment analysis or flower or plant classification,
+
+1190
+01:54:09,920 --> 01:54:13,920
+ you need to collect your own data and you need to train yourself.
+
+1191
+01:54:13,920 --> 01:54:15,920
+ And this data collection is very expensive.
+
+1192
+01:54:15,920 --> 01:54:18,920
+ So that makes the process not very easy.
+
+1193
+01:54:18,920 --> 01:54:20,920
+ So as opposed to that,
+
+1194
+01:54:20,920 --> 01:54:24,920
+ if you already have a broad base foundation model,
+
+1195
+01:54:24,920 --> 01:54:29,920
+ at the moment it's probably not customized for your downstream application.
+
+1196
+01:54:29,920 --> 01:54:32,920
+ But if you can take this broad base foundation model
+
+1197
+01:54:32,920 --> 01:54:37,920
+ and afterwards only use a small amount of data to do the fine tuning
+
+1198
+01:54:37,920 --> 01:54:41,920
+ or adaptation to customize for your target application,
+
+1199
+01:54:41,920 --> 01:54:45,920
+ then that could be a good approach to solve this problem
+
+1200
+01:54:45,920 --> 01:54:49,920
+ because we only need very limited number of training data.
+
+1201
+01:54:49,920 --> 01:54:52,920
+ So that's why this is the current kind of thinking
+
+1202
+01:54:52,920 --> 01:54:55,920
+ around this foundation model.
+
+1203
+01:54:55,920 --> 01:54:56,920
+ Okay.
+
+1204
+01:54:56,920 --> 01:54:59,920
+ So foundation models are models that are trained on large scale,
+
+1205
+01:54:59,920 --> 01:55:04,920
+ right, is very large scale, right, a broad base over diverse domain, right.
+
+1206
+01:55:04,920 --> 01:55:07,920
+ It can be adapted or fine tuned later on
+
+1207
+01:55:07,920 --> 01:55:10,920
+ for what range of downstream tasks are application,
+
+1208
+01:55:10,920 --> 01:55:13,920
+ for example, just on the one dimension.
+
+1209
+01:55:13,920 --> 01:55:18,920
+ No image classification, no plans or classification,
+
+1210
+01:55:18,920 --> 01:55:21,920
+ sentiment analysis and so on.
+
+1211
+01:55:21,920 --> 01:55:24,920
+ So there are already some well-known kind of a foundation model
+
+1212
+01:55:24,920 --> 01:55:26,920
+ that probably some of you already know, right.
+
+1213
+01:55:26,920 --> 01:55:29,920
+ This would include, for example, large language model.
+
+1214
+01:55:29,920 --> 01:55:34,920
+ So LLM is the types of foundation model, for example, GPT, right.
+
+1215
+01:55:34,920 --> 01:55:37,920
+ So vision language model that combine vision and language, right,
+
+1216
+01:55:37,920 --> 01:55:40,920
+ such as a clip is also a foundation model.
+
+1217
+01:55:40,920 --> 01:55:43,920
+ And also in recent years, there's the progressing train
+
+1218
+01:55:43,920 --> 01:55:51,920
+ moving towards multi-moder LLM, right, such as the GPT40, Lava and others.
+
+1219
+01:55:51,920 --> 01:55:55,920
+ Right, so what are the key ideas of this foundation model?
+
+1220
+01:55:55,920 --> 01:56:02,920
+ So as I mentioned before, is that we take data from a wide range of different domain
+
+1221
+01:56:02,920 --> 01:56:07,920
+ and also potentially across different modality, like text, image, speech and so on.
+
+1222
+01:56:07,920 --> 01:56:10,920
+ Okay, and then we'll use it to train a foundation model.
+
+1223
+01:56:10,920 --> 01:56:14,920
+ Okay, so this foundation model, what we would have,
+
+1224
+01:56:14,920 --> 01:56:17,920
+ is really usually quite big, yeah.
+
+1225
+01:56:17,920 --> 01:56:21,920
+ And then this training process, as we have seen in previous slides, is very expensive.
+
+1226
+01:56:21,920 --> 01:56:24,920
+ Yeah, that's why only big company usually can do that.
+
+1227
+01:56:24,920 --> 01:56:28,920
+ But once we have trained this big foundation model,
+
+1228
+01:56:28,920 --> 01:56:33,920
+ usually it should have good capability, very strong capability already.
+
+1229
+01:56:33,920 --> 01:56:38,920
+ So that later on, if you have some specific downstream application or task like,
+
+1230
+01:56:38,920 --> 01:56:43,920
+ no question answering, sentiment analysis, image captioning, and so on,
+
+1231
+01:56:43,920 --> 01:56:45,920
+ we just need to do some adaptation.
+
+1232
+01:56:45,920 --> 01:56:51,920
+ So this adaptation usually involves you using a small number of training data,
+
+1233
+01:56:51,920 --> 01:56:56,920
+ for your target domain, and then you'll be able to do the fine tuning.
+
+1234
+01:56:56,920 --> 01:57:00,920
+ So there's very strategies of doing the fine tuning and adaptation
+
+1235
+01:57:00,920 --> 01:57:06,920
+ that we'll see in the later part of this section.
+
+1236
+01:57:06,920 --> 01:57:10,920
+ So the key idea of a foundation model, right?
+
+1237
+01:57:10,920 --> 01:57:13,920
+ So it's a new paradigm, it's a new approach,
+
+1238
+01:57:13,920 --> 01:57:17,920
+ thinking about how do we do the AI training and learning.
+
+1239
+01:57:17,920 --> 01:57:20,920
+ Okay, so it's based on large scale, right?
+
+1240
+01:57:20,920 --> 01:57:25,920
+ Because you'll be involving lots of data, right, collected from various sources, right?
+
+1241
+01:57:25,920 --> 01:57:27,920
+ So large scale pre-training, right?
+
+1242
+01:57:27,920 --> 01:57:31,920
+ So that means you train in advance, yeah, using some large scale data,
+
+1243
+01:57:31,920 --> 01:57:35,920
+ rather than training respect to your target application.
+
+1244
+01:57:35,920 --> 01:57:38,920
+ And afterwards, you can adapt it for some downstream application.
+
+1245
+01:57:38,920 --> 01:57:43,920
+ So this pre-training stage usually involves, as I mentioned a few times already,
+
+1246
+01:57:43,920 --> 01:57:47,920
+ train on some large scale data and also diverse across different domain,
+
+1247
+01:57:47,920 --> 01:57:53,920
+ potentially across different modality like language, tags, video, image,
+
+1248
+01:57:53,920 --> 01:57:56,920
+ even other sensing modality.
+
+1249
+01:57:56,920 --> 01:58:00,920
+ And often it uses a self-supervised learning approach.
+
+1250
+01:58:00,920 --> 01:58:03,920
+ So self-supervised learning means that, for example,
+
+1251
+01:58:03,920 --> 01:58:07,920
+ a typical example would be training of LLM.
+
+1252
+01:58:07,920 --> 01:58:09,920
+ So when you're training of LLM,
+
+1253
+01:58:09,920 --> 01:58:13,920
+ because you already have lots of tags document from various sources,
+
+1254
+01:58:13,920 --> 01:58:15,920
+ for example, from the internet.
+
+1255
+01:58:15,920 --> 01:58:18,920
+ So what we need to do is that, for example, for training of LLM,
+
+1256
+01:58:18,920 --> 01:58:20,920
+ if you remember for the transformer, right?
+
+1257
+01:58:20,920 --> 01:58:22,920
+ Because we already have the tags.
+
+1258
+01:58:22,920 --> 01:58:26,920
+ So doing the training, what we need to do is simply predict what is the next work.
+
+1259
+01:58:26,920 --> 01:58:29,920
+ For example, if this is our current work, what is the next work?
+
+1260
+01:58:29,920 --> 01:58:32,920
+ We already know the ground truth for the next work,
+
+1261
+01:58:32,920 --> 01:58:35,920
+ because we can get this information from any tags.
+
+1262
+01:58:35,920 --> 01:58:38,920
+ And afterwards, if you have the following, a few works,
+
+1263
+01:58:38,920 --> 01:58:40,920
+ you try to predict the next works.
+
+1264
+01:58:40,920 --> 01:58:43,920
+ So when you try to predict the next work,
+
+1265
+01:58:43,920 --> 01:58:49,920
+ because all this information is already obtained from, for example, internet,
+
+1266
+01:58:49,920 --> 01:58:53,920
+ and you already know the ground truth, what's the next work is.
+
+1267
+01:58:53,920 --> 01:58:58,920
+ So therefore, you do not require expensive human annotation.
+
+1268
+01:58:58,920 --> 01:59:03,920
+ You do not need to let human to come in to do the annotation.
+
+1269
+01:59:03,920 --> 01:59:06,920
+ So because if you let human to come in to do the annotation,
+
+1270
+01:59:06,920 --> 01:59:09,920
+ it's very expensive and there's a limitation.
+
+1271
+01:59:09,920 --> 01:59:14,920
+ So that's why in recent years, when you want to train this foundation model,
+
+1272
+01:59:14,920 --> 01:59:17,920
+ usually we use a self-supervised learning approach.
+
+1273
+01:59:17,920 --> 01:59:24,920
+ That means from the data, we can somehow extract some information to do the self-supervision.
+
+1274
+01:59:24,920 --> 01:59:32,920
+ No need for external human to come in to collect and also to annotate the data,
+
+1275
+01:59:32,920 --> 01:59:34,920
+ because this is very expensive.
+
+1276
+01:59:34,920 --> 01:59:39,920
+ So early on, we also mentioned that once you have the FM,
+
+1277
+01:59:39,920 --> 01:59:42,920
+ you usually can do some adaptation and fine tuning.
+
+1278
+01:59:42,920 --> 01:59:47,920
+ So the pre-train model can be fine tuned for downstream tasks
+
+1279
+01:59:47,920 --> 01:59:51,920
+ and they are performing quite well as well.
+
+1280
+01:59:51,920 --> 01:59:56,920
+ So there are different stages for us to deploy this foundation model.
+
+1281
+01:59:56,920 --> 01:59:59,920
+ So typically, first of all, you need to do some data creation.
+
+1282
+02:00:00,920 --> 02:00:09,920
+ In our daily life, there are many processes that generate large number of data.
+
+1283
+02:00:09,920 --> 02:00:14,920
+ So this data creation sometimes is not for the purpose of training foundation model,
+
+1284
+02:00:14,920 --> 02:00:19,920
+ but we just do our daily life and a lot of data are being generated.
+
+1285
+02:00:19,920 --> 02:00:22,920
+ After work, typically we need to have a data creation.
+
+1286
+02:00:22,920 --> 02:00:26,920
+ That means someone needs to select some, there's so much data.
+
+1287
+02:00:26,920 --> 02:00:30,920
+ So we can't use all the data to do the training for our need.
+
+1288
+02:00:30,920 --> 02:00:33,920
+ So we need to select some data for training.
+
+1289
+02:00:33,920 --> 02:00:35,920
+ So this is the data creation.
+
+1290
+02:00:35,920 --> 02:00:39,920
+ Now after work, then we can train our different foundation model.
+
+1291
+02:00:39,920 --> 02:00:45,920
+ And then depending on our downstream tasks, then we can do the adaptation for our downstream tasks.
+
+1292
+02:00:45,920 --> 02:00:50,920
+ And afterwards, this will be deployment for the use of the public for deployment.
+
+1293
+02:00:50,920 --> 02:00:57,920
+ So this is a very high level overview of the different stages of the foundation model.
+
+1294
+02:00:57,920 --> 02:01:02,920
+ So foundation models nowadays have many different applications.
+
+1295
+02:01:02,920 --> 02:01:07,920
+ So the obvious one would be from language vision application.
+
+1296
+02:01:07,920 --> 02:01:12,920
+ It can be extended to robotics, reasoning, coding.
+
+1297
+02:01:12,920 --> 02:01:17,920
+ I think some of you already heard about, for example, using foundation models,
+
+1298
+02:01:17,920 --> 02:01:20,920
+ you can actually try the codes quite well.
+
+1299
+02:01:20,920 --> 02:01:22,920
+ You can even do some reasoning.
+
+1300
+02:01:22,920 --> 02:01:27,920
+ You give it a code, you ask them what this program is doing,
+
+1301
+02:01:27,920 --> 02:01:32,920
+ or you give him a particular image, you ask them to explain what is happening here.
+
+1302
+02:01:32,920 --> 02:01:36,920
+ Is there something wrong with this particular image or something?
+
+1303
+02:01:36,920 --> 02:01:39,920
+ They can actually do the reasoning.
+
+1304
+02:01:39,920 --> 02:01:49,920
+ So from the language perspective, for humans, how we learn language is actually we go through many different ways of learning.
+
+1305
+02:01:49,920 --> 02:01:51,920
+ For example, we learn from the books.
+
+1306
+02:01:51,920 --> 02:01:55,920
+ So we learn with social interactions.
+
+1307
+02:01:55,920 --> 02:01:58,920
+ We go through motivation, curiosity.
+
+1308
+02:01:58,920 --> 02:02:00,920
+ We interact with the others.
+
+1309
+02:02:00,920 --> 02:02:05,920
+ So there's many different ways how humans learn language.
+
+1310
+02:02:05,920 --> 02:02:08,920
+ So as opposed to that for machines such as foundation model,
+
+1311
+02:02:08,920 --> 02:02:15,920
+ usually they just look at a large amount of data and then they observe the patterns and then try to learn from it.
+
+1312
+02:02:15,920 --> 02:02:20,920
+ So in terms of the learning approach, it's a little bit different.
+
+1313
+02:02:20,920 --> 02:02:25,920
+ Human tends to have a different way to interact to learn the language.
+
+1314
+02:02:25,920 --> 02:02:30,920
+ But foundation model tends to observe and learn.
+
+1315
+02:02:30,920 --> 02:02:38,920
+ And then for under the vision, for the use case of vision in FM,
+
+1316
+02:02:38,920 --> 02:02:43,920
+ for the source, it can make use of different sensing modality and equipment.
+
+1317
+02:02:43,920 --> 02:02:46,920
+ So it can be like cameras, it can be some autonomous agent,
+
+1318
+02:02:46,920 --> 02:02:51,920
+ it can be various IoT sensors that can collect various kind of data.
+
+1319
+02:02:51,920 --> 02:02:53,920
+ And the data can also be in many forms.
+
+1320
+02:02:53,920 --> 02:03:01,920
+ For example, those that we are familiar with RGB images, depth information, thermal, tags, radio, audio.
+
+1321
+02:03:01,920 --> 02:03:03,920
+ So there's many different data.
+
+1322
+02:03:03,920 --> 02:03:07,920
+ Most of the illustrated here is a vision based sensor.
+
+1323
+02:03:07,920 --> 02:03:10,920
+ So this can then be used to train our foundation model.
+
+1324
+02:03:10,920 --> 02:03:15,920
+ And this foundation model can then be adapted subsequently for various vision tasks.
+
+1325
+02:03:15,920 --> 02:03:21,920
+ So it could be, for example, a more classical vision task like object detection,
+
+1326
+02:03:21,920 --> 02:03:25,920
+ image classification, segmentation and so on.
+
+1327
+02:03:25,920 --> 02:03:32,920
+ Or for some higher level tasks, for example, understanding some physics,
+
+1328
+02:03:32,920 --> 02:03:38,920
+ some reasoning, given, for example, if you have a cup of water,
+
+1329
+02:03:38,920 --> 02:03:43,920
+ if someone pour the cup over, but the water doesn't fall down.
+
+1330
+02:03:43,920 --> 02:03:47,920
+ So you can ask, for example, some of these foundation models,
+
+1331
+02:03:47,920 --> 02:03:49,920
+ is there something wrong with this particular image?
+
+1332
+02:03:49,920 --> 02:03:51,920
+ So they're supposed to then reason.
+
+1333
+02:03:51,920 --> 02:03:55,920
+ You have some water in the cup, but yet the water is not falling down.
+
+1334
+02:03:55,920 --> 02:04:04,920
+ So these are some, I think some high level reasoning that currently there's lots of research in this kind of direction.
+
+1335
+02:04:04,920 --> 02:04:08,920
+ Another very important area is robotics.
+
+1336
+02:04:08,920 --> 02:04:12,920
+ So AI combined with robotics is actually having a very huge impact.
+
+1337
+02:04:12,920 --> 02:04:16,920
+ If AI can combine robotics and works well, maybe in the future,
+
+1338
+02:04:16,920 --> 02:04:20,920
+ there will be no boyfriend or girlfriend because they can get a robot.
+
+1339
+02:04:20,920 --> 02:04:24,920
+ Okay, but anyway, so yeah, these are very important areas.
+
+1340
+02:04:24,920 --> 02:04:29,920
+ So the information, you can collect all this information to train the data.
+
+1341
+02:04:29,920 --> 02:04:34,920
+ It can be from your interaction with robotics, some video, some simulation, some language.
+
+1342
+02:04:34,920 --> 02:04:37,920
+ So all this can be used to train your foundation model.
+
+1343
+02:04:37,920 --> 02:04:43,920
+ And your foundation model can then be subsequently used for, again, various applications.
+
+1344
+02:04:43,920 --> 02:04:52,920
+ For example, setting up some policies to control, for example, server, so the environment.
+
+1345
+02:04:52,920 --> 02:04:59,920
+ And asking them to perform some tasks and so on.
+
+1346
+02:04:59,920 --> 02:05:05,920
+ However, for FM, of course, there are also some issues as well as challenges.
+
+1347
+02:05:05,920 --> 02:05:09,920
+ So some of the issues and challenges include how do we model, right?
+
+1348
+02:05:09,920 --> 02:05:15,920
+ We have all this information, how do we come up with a model that can model all this different information?
+
+1349
+02:05:15,920 --> 02:05:17,920
+ How do you perform the adaptation?
+
+1350
+02:05:17,920 --> 02:05:21,920
+ Right, okay, some system issue, security and privacy issue.
+
+1351
+02:05:21,920 --> 02:05:23,920
+ Yeah.
+
+1352
+02:05:23,920 --> 02:05:25,920
+ Right, so modeling.
+
+1353
+02:05:25,920 --> 02:05:29,920
+ So from the modeling perspective is that, right, you can see we have a wide range of data,
+
+1354
+02:05:29,920 --> 02:05:31,920
+ I mean, text, image, structure data.
+
+1355
+02:05:31,920 --> 02:05:33,920
+ So this is the multi-moder data.
+
+1356
+02:05:33,920 --> 02:05:39,920
+ So how do we design some network that is expressive enough to capture all this information?
+
+1357
+02:05:39,920 --> 02:05:45,920
+ Right, so for example, is CNN, GCN, no transformer, really the best way, right?
+
+1358
+02:05:45,920 --> 02:05:57,920
+ I mean, people are continuing going to come with different model, right, to be able to express all these different types of information.
+
+1359
+02:05:57,920 --> 02:06:02,920
+ And also things like whether the model that we have, we can scale easily, right?
+
+1360
+02:06:02,920 --> 02:06:06,920
+ So for example, if you have a small amount of data, usually the network should be okay.
+
+1361
+02:06:06,920 --> 02:06:11,920
+ But what if it's like, you know, 1 billion, 10 billion times all, yeah.
+
+1362
+02:06:11,920 --> 02:06:15,920
+ So you need to be able to handle different scalability, right?
+
+1363
+02:06:15,920 --> 02:06:19,920
+ Okay, you need to be able to add in different modality of information.
+
+1364
+02:06:19,920 --> 02:06:23,920
+ But it also need to handle things like, you know, storage and various issues.
+
+1365
+02:06:23,920 --> 02:06:34,920
+ So therefore in terms of modeling of this information using an AI model is also a current car issue and challenge that people are thinking about.
+
+1366
+02:06:37,920 --> 02:06:39,920
+ Right, so the next one is the adaptation.
+
+1367
+02:06:39,920 --> 02:06:51,920
+ So earlier we already mentioned that once you have this train model here, train FM model, you need to deploy it for different, you know, car for downstream use cases.
+
+1368
+02:06:51,920 --> 02:06:59,920
+ So this downstream use cases can be many different things like, you know, including question answering, you ask them a question, who discover penicillin, right?
+
+1369
+02:06:59,920 --> 02:07:06,920
+ By right, this model is fully trained and adapted, your FM should be able to give the person discover penicillin, right?
+
+1370
+02:07:06,920 --> 02:07:12,920
+ Given the image, can you tell them, right, okay, give a caption so it's able to describe like this.
+
+1371
+02:07:12,920 --> 02:07:20,920
+ Or you give, you know, the first few lines of the code, you give a description, say you want to do this and that's supposed to complete the code for you.
+
+1372
+02:07:20,920 --> 02:07:25,920
+ So for the adaptation, right, how do we do this adaptation, right, effectively.
+
+1373
+02:07:25,920 --> 02:07:35,920
+ And also sometimes there are some challenges such as you need to patch your model, right, sometimes some of the information could be updated, right.
+
+1374
+02:07:35,920 --> 02:07:40,920
+ For example, UK, all of us know that UK is no longer in EU.
+
+1375
+02:07:40,920 --> 02:07:47,920
+ Yeah, but when it's trained, maybe all, during the data collection, some of the data was a bit outdated, right.
+
+1376
+02:07:47,920 --> 02:07:55,920
+ So it's still being that UK is our EU. Yeah, so how do we patch or correct those kind of issues?
+
+1377
+02:07:55,920 --> 02:08:03,920
+ Okay, other things like for example, over time, sometimes information change, for example, the president of the US will change soon.
+
+1378
+02:08:03,920 --> 02:08:08,920
+ So can we make some adaptation in the time domain? Yeah, so it's temporal adaptation.
+
+1379
+02:08:08,920 --> 02:08:14,920
+ So we need all these are issues and challenges.
+
+1380
+02:08:14,920 --> 02:08:26,920
+ Right, so this slide shows some of the system issues pretty much from the model parameter, the requirement, the throughput, the memory and so on.
+
+1381
+02:08:26,920 --> 02:08:35,920
+ So if you look at this diagram, the vertical axis is the normalized matrix, right, all these four matrix has to be normalized already.
+
+1382
+02:08:35,920 --> 02:08:38,920
+ Okay, and then this is the year.
+
+1383
+02:08:38,920 --> 02:08:52,920
+ This graph shows the kind of growth or the requirement. Okay, so over time, so you can see in terms of model parameter, right, for the, this kind of large foundation model, it has increased.
+
+1384
+02:08:52,920 --> 02:08:55,920
+ And then this again, this is a logarithmic scale.
+
+1385
+02:08:55,920 --> 02:09:00,920
+ So it's increased significantly in terms of the number of parameter of your model.
+
+1386
+02:09:00,920 --> 02:09:13,920
+ So basically the flops computation, right, the amount of computation also increased significantly, right, whereas the GPU memory and throughput actually also increased but a little slower.
+
+1387
+02:09:13,920 --> 02:09:29,920
+ So this graph actually shows that our current requirement both in terms of the number of parameter and computational actually out pays, you know, the current memory, current GPU capability.
+
+1388
+02:09:29,920 --> 02:09:38,920
+ So our current memory capabilities actually GPU capability is being outpaced by our requirement and demand.
+
+1389
+02:09:38,920 --> 02:09:49,920
+ Right, okay, so again, first for foundation model, one issue is privacy and security. So privacy and security is key concern.
+
+1390
+02:09:49,920 --> 02:09:58,920
+ Right, okay, so yeah, usually for if you want to train this foundation model, we are going to take data from large sources.
+
+1391
+02:09:58,920 --> 02:10:05,920
+ Okay, so we've, when you have a large number of sources, the good thing is that it's more robust because you are now seeing a lot of data.
+
+1392
+02:10:05,920 --> 02:10:15,920
+ But with a lot of this data, you also run the risk that in this data, some of the data's could be, you know, we have issue, right, they would have some increased risk of poisoning.
+
+1393
+02:10:15,920 --> 02:10:23,920
+ Right, so sometimes there will be some fake data or some malicious information or undesirable information. Yeah.
+
+1394
+02:10:23,920 --> 02:10:34,920
+ So these are some pros and cons, right, or some of the issues from the security and privacy perspective. Yeah, and then from the foundation model, right, because they have one single foundation model.
+
+1395
+02:10:34,920 --> 02:10:40,920
+ So the good thing is that we have a single chart point that means we can actually check it much more easily.
+
+1396
+02:10:40,920 --> 02:10:47,920
+ We have one more big model rather than you have like hundreds of thousands of different model, you need to monitor or check.
+
+1397
+02:10:47,920 --> 02:10:53,920
+ But with one single model, there's also one problem is it fail, right, then it's a big problem because you already have one model.
+
+1398
+02:10:53,920 --> 02:11:03,920
+ So it's a single point of failure. So it also increase a tax base that means that more opportunity for people to attack these foundation models.
+
+1399
+02:11:03,920 --> 02:11:12,920
+ Right, okay, so for the, from the downstream application perspective, the good thing now is that it's easier for you to do the training and learning.
+
+1400
+02:11:12,920 --> 02:11:31,920
+ Right, but the shortcoming is a function creep. So function creep means that initially, you know, the application is meant for, you know, for example, for this use case, but over time it was kind of extended to some other use case that's desirable, particularly from the security perspective.
+
+1401
+02:11:31,920 --> 02:11:52,920
+ So one thing could be, for example, initially you have some camera, which is just trying to, you know, probably initially in the supermarket, you have some camera, it's just to know, make sure that there's no tab and so on.
+
+1402
+02:11:52,920 --> 02:12:21,920
+ But over time, maybe the company or which deployed start to collect some, you know, kind of private private and confidential information softish shoppers, for example, what kind of habits they are, who they are, you know, which is not initially why supposed to be initially is more for safe security, right, to prevent tab, but afterwards is more like, you know, the company probably will be used it to do some
+
+1403
+02:12:22,920 --> 02:12:37,920
+ customer analysis collecting some confidential data. So this is not a function creep, right, the function has been creep from what move from one original goal to something else, which is include some invasions of privacy.
+
+1404
+02:12:39,920 --> 02:12:47,920
+ Right, okay, so for foundation model, there's also different types of risk, for example, fairness, equality, misuse and so on.
+
+1405
+02:12:48,920 --> 02:13:02,920
+ Right, so in terms of the equalities and fairness, right, so, yeah, so we have all these different. Yeah, I guess this is the issue that has been on this.
+
+1406
+02:13:03,920 --> 02:13:16,920
+ This, I mean, people are talking about it. For example, when you, yeah, when you train the model, right, how do you make sure that is inclusive diversity, right, rather than no being dominated by a single source.
+
+1407
+02:13:16,920 --> 02:13:27,920
+ Yeah, for example, information coming from a certain countries or know the data is mainly coming from a certain types of people or certain users and so on.
+
+1408
+02:13:27,920 --> 02:13:37,920
+ So, yeah, so therefore we need to kind of take into account of these diversities, the original objective, whether there's some bias in terms of training data.
+
+1409
+02:13:37,920 --> 02:13:53,920
+ And even for example, the model that we are training, right, are there some interested bias, for example, in CNN, we train we assume that the information, know, the current information from a current location is coming from this local neighborhood.
+
+1410
+02:13:53,920 --> 02:14:07,920
+ But this may not be necessary true, so that when you train this foundation model, sometimes there are some implicit bias. Yeah, some some assumption of how this data and the learning algorithm should behave.
+
+1411
+02:14:07,920 --> 02:14:18,920
+ Yeah, and afterwards when you later on use it for the deployment, right, okay, and there are lots of issues that you need to prevent abuse, know, and so on.
+
+1412
+02:14:18,920 --> 02:14:30,920
+ Yeah, I mean this is a broad topic so we are not pretending we are going to go into detail is just mainly to share with you some of this potential issue.
+
+1413
+02:14:30,920 --> 02:14:34,920
+ Okay, so means use of us now with all this.
+
+1414
+02:14:34,920 --> 02:14:47,920
+ No foundation model is very easy for people to get hold of it and then try to start to abuse it to do various things. Yeah, so for example, know they can use a foundation model to generate some fake news.
+
+1415
+02:14:47,920 --> 02:14:50,920
+ Okay, to generate some fake profile.
+
+1416
+02:14:50,920 --> 02:14:58,920
+ Right. Okay, and also use it to target some people to abuse some people. So all these are actually of course, I don't know.
+
+1417
+02:14:58,920 --> 02:15:12,920
+ So, we can also use some foundation model to do the detection, but to detect whether some abuse or some some misuse has occurred. But again, this is a, yeah, it's not an easy solution to do that.
+
+1418
+02:15:12,920 --> 02:15:16,920
+ So again, therefore, trying to prevent the tag.
+
+1419
+02:15:16,920 --> 02:15:27,920
+ No, this misuse is actually an occurrence of active area of discussion for foundation model.
+
+1420
+02:15:27,920 --> 02:15:46,920
+ Okay, so let me see. Yeah, okay, I think today is now is about 1135 so initially I didn't. Yeah, I don't want to make this a Saturday lecture too long because it's a glorious Saturday office go out and so so I think probably we can just stop here.
+
+1421
+02:15:46,920 --> 02:15:55,920
+ Right. Okay, and then for the next lecture will be back to our physical lectures and they'll be the last lecture.
+
+1422
+02:15:55,920 --> 02:16:07,920
+ Right. Okay, so before I dismiss your other any some any question that you want to ask.
+
+1423
+02:16:07,920 --> 02:16:24,920
+ Right, so if not, yeah, have a good weekend and enjoy yourself. I'll see you next week. Yeah, and probably one last thing is that I probably repeat to him in time for those of you who have not done the teaching feedback survey if possible try to do the feedback because I this morning I have a look the number of
+
+1424
+02:16:24,920 --> 02:16:30,920
+ students who provides advice to quite low.
+
+1425
+02:16:30,920 --> 02:16:37,920
+ Right. Okay, thank you. See you. Bye bye. Have a good weekend.
+
